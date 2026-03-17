@@ -1,9 +1,0 @@
-.env
-.env.*
-.venv
-__pycache__
-*.pyc
-*.pyo
-.pytest_cache
-scheduler_jobs.db
-*.log
