@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "input=$(cat); path=$(echo \"$input\" | jq -r '.tool_input.file_path // .tool_input.path // \"\"' 2>/dev/null || echo \"\"); if [[ \"$path\" == *\"archived\"* ]]; then echo \"BLOCKED: '$path' is inside an archived skill directory. These are read-only V1 reference files. Do not modify copy-v1-archived/ or design-v1-archived/.\" >&2; exit 2; fi",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

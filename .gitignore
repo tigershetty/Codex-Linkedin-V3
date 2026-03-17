@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.db
+
+# Node
+node_modules/
+dist/
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Sensitive / local config
+.claude/settings.local.json
+*.local.json
+*.local.md
+.env
+.env.*
+
+# Cache directories
+.firecrawl/
+
+# Build outputs
+.next/
+
+# Railway / deployment
+.railway/
+
+# Excel temp files
+~$*
