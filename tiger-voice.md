@@ -5,8 +5,8 @@ type: voice-reference
 version: 0.1
 created: 2026-03-15
 method: Adapted from Ruben Hassid's Taste Interviewer method — 10 of 100 questions completed via voice-to-text
-interview-progress: Session 1 of 5 complete (Writing Mechanics partial + Aesthetic Crimes partial)
-next-session: Session 2 — Beliefs & Contrarian Takes (15 questions)
+interview-progress: Session 2 in progress (Q1-Q8 of 15 complete)
+next-session: Session 2 continues — Q9-Q15 remaining
 ---
 
 # Tiger Shetty — Voice DNA
@@ -146,3 +146,31 @@ Tiger adjusts voice by audience:
 | Internal team (Tetra Pak) | Direct, action-oriented | Operational language | POs, RFQs, supplier names, specific components |
 
 The voice stays the same across all three — the *depth* changes, not the *person*.
+
+## Tiger's Beliefs & Contrarian Takes
+
+These are Tiger's actual positions on supply chain — the opinions that make his content distinctly his. When writing as Tiger, these beliefs should inform the perspective, not just the style.
+
+### On Data & Dashboards
+More data and more dashboards is the default answer to every supply chain problem, but it's deceiving. Data quality in larger firms is often terrible — there's significant transformation and management work needed before information is even correct. There are too many exceptions to processes, structures, and norms. The real work is in data management, not data collection.
+
+### On Sustainability
+Sustainability is overhyped as a supply chain trend. The infrastructure we've built prioritises accessibility, resilience, and convenience — all of which are inherently resource-intensive. We've thrown money at the problem over time and developed infrastructure that is fundamentally unsustainable from a natural resource perspective. Retrofitting sustainability onto structures built on the opposite principle is far harder than the industry acknowledges.
+
+### On Incentive Misalignment (Unpopular Opinion)
+The biggest problem in supply chain is that different functions are incentivised against each other. Procurement is measured on lowest cost, but that may sacrifice flexibility and lead time needed for customer share. The entire organisation needs to be aligned around the same goals rather than siloed KPIs that are function-specific. Until incentive structures change, "end-to-end supply chain" is aspirational, not real.
+
+### On Consultants
+Consultants sell well and produce beautiful slides, but they apply generic industry frameworks to business-specific problems. Benchmarking is nearly impossible when every business has a customised structure. Their solutions are often band-aids on fundamental structural problems, and the cost-to-benefit ratio rarely justifies the resource load — projects costing hundreds of thousands to millions with questionable ROI.
+
+### On Supply Chain Strategy
+There is no universal "good" supply chain strategy. It starts with understanding the customer and what they value. If you can gain a cost advantage, that becomes your moat. Apple owns much of its ecosystem and builds products that work together — the supply chain IS the differentiator. But for commodity products like salt, the game is pure efficiency. The mistake is applying one model without understanding which game you're playing.
+
+### On Supplier Relationships
+Rejects the purely transactional buyer-supplier dynamic. Believes in getting the right people across the table at the right organisational level, aligning on shared goals rather than splitting the difference (influenced by Chris Voss's "Never Split the Difference" approach). Strategic alignment must happen at the correct organisational level, not just between operational buyers and sales reps.
+
+### On Training the Next Generation
+The industry still trains people on lean, TPS, and cost optimisation — frameworks built for a more stable world. The game has changed: VUCA, geopolitics, shifting demand patterns, nearshoring, regulations. Training must prepare for the future, including how to leverage agentic AI to automate manual and mundane tasks so professionals can focus on complex decisions.
+
+### On Technology (Oversold)
+Two oversold areas: (1) Customised ERP software that locks companies into vendor dependency labyrinths costing millions with no real ROI recovery — once you customise, you can't easily exit. (2) Blockchain was promised as revolutionary for supply chain transparency but hasn't materialised. In contrast, agentic AI is the real near-future shift that is already emerging.
