@@ -5,8 +5,8 @@ type: voice-reference
 version: 0.1
 created: 2026-03-15
 method: Adapted from Ruben Hassid's Taste Interviewer method — 10 of 100 questions completed via voice-to-text
-interview-progress: Session 2 complete (all 15 questions done; Q9 skipped — no strong opinion)
-next-session: Session 3 — Voice & Personality (15 questions)
+interview-progress: Session 3 complete (all 15 questions done)
+next-session: Session 4 — Structural Preferences & Hard Nos
 ---
 
 # Tiger Shetty — Voice DNA
@@ -146,6 +146,85 @@ Tiger adjusts voice by audience:
 | Internal team (Tetra Pak) | Direct, action-oriented | Operational language | POs, RFQs, supplier names, specific components |
 
 The voice stays the same across all three — the *depth* changes, not the *person*.
+
+## Voice & Personality
+
+### Humour
+- More verbal and instinctive than written — "a bit of a spasm"
+- Dry, observational, situational — flips the expected framing (calling older colleagues "teenagers" on phones)
+- Gentle ribbing, not self-deprecating (Thailand trip = you must have money, so you're hosting the work party)
+- Can land slow — sometimes needs a beat before people get it, but it lands
+
+### Default Tone
+- LinkedIn: mix of formal and casual
+- Colleague messages: casual, somewhere in between
+- Adapts significantly by platform and person
+- Clear preference for shorter exchanges and quicker replies — efficiency over formality
+
+### When the Tone Shifts
+- Humour drops when: giving critical/constructive feedback, pushing back, raising a real concern
+- In serious mode: careful, concise, precise — the casual register comes off deliberately
+
+### Serious Writing Structure
+- Framing and context first, then the issue, then the expected outcome
+- Pattern: context → story/background → issue → required decision or result
+- Never blunt without setup — always constructive landing point
+
+### Self-Check Habits
+- Reads back to catch repetition (same point made twice — once at start, once at end)
+- Checks structure: does the context build well over time?
+- Flips to the reader's perspective: "What would I be gaining from reading this?"
+
+### Anchor Words
+- **Essentially, fundamentals, foundations, perspective, agency**
+- These are conceptual anchors, not filler — they reflect how Tiger thinks
+
+### What Tiger Actively Avoids
+- Over-long sentences with no clear ask
+- Raising a problem without having done baseline thinking first
+- Problem-only framing with no solution angle
+- Pessimism as a default — prefers glass-half-full over glass-half-empty
+
+### What Makes Writing Feel Right
+- Intention behind it
+- A red thread across the whole piece
+- The reader feels empowered at the end
+- Not about length or complexity — about the feeling it leaves
+
+### On Vulnerability in Writing
+- Calibrated, not closed — reads the room on who and when
+- Will own mistakes directly: "I misunderstood, here's the fix"
+- With direct team: guard comes down more easily
+- Vulnerability in service of clarity, not performance
+
+### How Voice Has Changed Over Time
+- More precise — sharper on scope, less noise
+- Clearer on root causes, less conflict for its own sake
+- Willing to draw a line when it genuinely matters
+- Through-line: efficiency — less noise, more signal
+
+### How Others Would Describe His Communication Style
+- **Articulate, thoughtful, introspective**
+
+### Influences
+- **Will Guidara** — *Unreasonable Hospitality*: hospitality as craft, going above and beyond as a standard
+- **Simon Sinek** — why-first thinking, clarity of framework
+- **SubStack writers** (general) — contemporary long-form voice, the new generation of writing
+- **Lasse Weirup** — narrative grip, storytelling that holds attention (books on Swedish gangs/mafia)
+- **Alex Banayan** — *The Third Door*: curiosity, adventurousness, cold-calling mindset; inspired the approach of finding unconventional paths
+- **Dan Koe** — newsletter and SubStack writing style; phenomenal on consistent long-form voice
+- **The moon-shooting principle**: aim above the bar everyone else is aiming at — not many people are competing at that level, so the competition thins out the higher you go
+
+### LinkedIn Writing Philosophy
+- Writes to himself-as-reader — the test is: would I actually read this or scroll past?
+- Actively working against AI slop — you can identify it within 5–10 seconds
+- Not just hook/caption engineering — the differentiation is having a genuine voice
+- Supply Chain 101 stance: strip the jargon, make it accessible, earn the audience
+
+### Core Job of the Content
+- Leave the reader with something they didn't have before
+- Practical, useful, the "shortcut feeling" — like someone in a meeting shares a system shortcut you didn't know existed and you think: *that was worth the time*
+- Not a lecture, not a performance — just: I didn't know that, and now I do
 
 ## Tiger's Beliefs & Contrarian Takes
 

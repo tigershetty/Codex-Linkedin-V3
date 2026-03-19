@@ -45,11 +45,25 @@ Tiger answers via voice-to-text. Each session ~15-20 questions, ~10 minutes.
 - Resilience push is justified — complexity factors and customer expectations have fundamentally changed the game
 - Demand planning is underestimated in complexity and underpowered in authority — many planners unclear on what's expected
 
-### Session 3 — NEXT
+### Session 3 — COMPLETE (2026-03-19)
 **Category:** Voice & Personality (15 questions)
-**Focus:** How Tiger uses humour, how his tone shifts between casual and serious, how he expresses emotion in writing, what his defaults are when relaxed vs when arguing a point
+**Key findings:**
+- Humour is verbal/instinctive — dry, observational, situational; less present in writing
+- Tone adapts by context: casual default, precise when stakes are real; prefers short exchanges
+- Serious mode: framing first → story → issue → expected outcome; humour drops deliberately
+- Self-checks: repetition catch + reader perspective flip ("what would I gain from this?")
+- Anchor words: essentially, fundamentals, foundations, perspective, agency
+- Avoids: length without purpose, problems without baseline thinking, pessimism as default
+- Writing feels right when: intention + red thread + reader feels empowered
+- Vulnerability calibrated — owns mistakes directly, reads the room on who/when
+- Voice over time: more precise, less noise, clearer on root causes, draws lines when it matters
+- Self-description: articulate, thoughtful, introspective
+- Influences: Will Guidara (Unreasonable Hospitality), Simon Sinek, SubStack writers, Lasse Weirup, Alex Banayan (The Third Door), Dan Koe
+- Moon-shooting principle: aim above the bar — less competition at the top
+- LinkedIn test: would *I* read this or scroll past it?
+- Core content job: the "shortcut feeling" — reader leaves with something they didn't have before
 
-### Session 4
+### Session 4 — NEXT
 **Category:** Structural Preferences (15 questions) + Hard Nos (10 questions)
 **Focus:** How Tiger organises ideas, his relationship with formatting (bullets, headers, lists), transition methods, untouchable subjects, absolute refusals
 
