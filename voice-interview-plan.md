@@ -27,10 +27,9 @@ Tiger answers via voice-to-text. Each session ~15-20 questions, ~10 minutes.
 - Simplifies by making relatable, not by dumbing down
 - Diplomatic disagreement: leads with gaps and constraints, shares facts, then lands position subtly
 
-### Session 2 — IN PROGRESS (started 2026-03-17)
-**Category:** Beliefs & Contrarian Takes (15 questions)
-**Questions answered:** Q1-Q8
-**Key findings so far:**
+### Session 2 — COMPLETE (2026-03-17 to 2026-03-19)
+**Category:** Beliefs & Contrarian Takes (15 questions; Q9 skipped — no strong opinion)
+**Key findings:**
 - Data/dashboards are oversold — data quality in large firms is bad, more data ≠ more insight
 - Sustainability is overhyped — infrastructure was built on the opposite principle (cost, convenience, accessibility)
 - Incentive misalignment is the biggest structural problem — siloed KPIs work against end-to-end thinking
@@ -39,17 +38,14 @@ Tiger answers via voice-to-text. Each session ~15-20 questions, ~10 minutes.
 - Supplier relationships should be strategic, not transactional — right people at right org level, never split the difference
 - Training is backwards — still teaching lean/TPS for a VUCA world, needs agentic AI literacy
 - Customised ERP = vendor dependency labyrinth; blockchain was oversold; agentic AI is the real shift
+- Hard truth: bridging old knowledge/wisdom with new technology fluency — generational gap is real and harder than leaders admit
+- Expert credibility signals: specific domain + tools used + concrete implementations + breadth across SC functions
+- Academic theory vs practice: clean frameworks don't survive contact with reality — historical workarounds, no benchmarking
+- Procurement/sourcing (strategic: who/where/what/price/quality) ≠ purchasing (operational: daily POs and transactions)
+- Resilience push is justified — complexity factors and customer expectations have fundamentally changed the game
+- Demand planning is underestimated in complexity and underpowered in authority — many planners unclear on what's expected
 
-**Remaining questions (Q9-Q15):**
-9. What is something you used to believe about supply chain that you no longer do?
-10. What is a hard truth about supply chain that most leaders avoid?
-11. When someone describes themselves as a "supply chain expert" on LinkedIn, what signals tell you whether they actually are?
-12. What is one area where academic supply chain theory completely fails in practice?
-13. What do most people get wrong about procurement vs sourcing?
-14. If you had to argue against the current push for supply chain resilience, what would you say?
-15. What belief do you hold about demand planning that most planners would disagree with?
-
-### Session 3
+### Session 3 — NEXT
 **Category:** Voice & Personality (15 questions)
 **Focus:** How Tiger uses humour, how his tone shifts between casual and serious, how he expresses emotion in writing, what his defaults are when relaxed vs when arguing a point
 

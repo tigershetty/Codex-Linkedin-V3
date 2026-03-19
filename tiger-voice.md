@@ -5,8 +5,8 @@ type: voice-reference
 version: 0.1
 created: 2026-03-15
 method: Adapted from Ruben Hassid's Taste Interviewer method — 10 of 100 questions completed via voice-to-text
-interview-progress: Session 2 in progress (Q1-Q8 of 15 complete)
-next-session: Session 2 continues — Q9-Q15 remaining
+interview-progress: Session 2 complete (all 15 questions done; Q9 skipped — no strong opinion)
+next-session: Session 3 — Voice & Personality (15 questions)
 ---
 
 # Tiger Shetty — Voice DNA
@@ -174,3 +174,21 @@ The industry still trains people on lean, TPS, and cost optimisation — framewo
 
 ### On Technology (Oversold)
 Two oversold areas: (1) Customised ERP software that locks companies into vendor dependency labyrinths costing millions with no real ROI recovery — once you customise, you can't easily exit. (2) Blockchain was promised as revolutionary for supply chain transparency but hasn't materialised. In contrast, agentic AI is the real near-future shift that is already emerging.
+
+### On the Hard Truth: Bridging Old and New (Q10)
+The hard truth most leaders avoid is the knowledge gap between generations. Experience and wisdom sit with older people; technology fluency and forward-thinking sit with newer people. A good supply chain organisation needs both, but in traditionally structured companies this is genuinely hard — historical processes, entrenched structures, and bureaucracy make bridging that gap much more difficult than leadership acknowledges.
+
+### On Spotting a Real Supply Chain Expert (Q11)
+When evaluating someone's credibility on LinkedIn, Tiger looks for: the specific area they work in, the tools they actually use, and what they have concretely implemented — whether ERP deployments, process improvements, or specific projects. Loss deployment and lean frameworks show experience, but the stronger signal is breadth — having worked across different environments and functions within supply chain, not just deep in one lane.
+
+### On Academic Theory vs Practice (Q12)
+The disconnect between studying supply chain and working in it is significant. Academic frameworks present clean processes and tidy metrics that rarely survive contact with reality. In practice, there are too many historical workarounds, too little external benchmarking, and too much reliance on "how we've always done it." The fundamentals taught in university are a starting point, not a map.
+
+### On Procurement vs Purchasing vs Sourcing (Q13)
+The most common confusion is between procurement/sourcing and purchasing. Purchasing is operational and executional — it's the daily work of sending POs and managing transactions. Procurement and sourcing are strategic: deciding who to buy from, where to source, what quantities, at what price, what quality standards, and how to design the entire supplier relationship. Conflating the two leads to treating strategic decisions like operational tasks — and vice versa.
+
+### On the Resilience Push (Q14)
+The push for supply chain resilience isn't wrong — the game genuinely has changed. The number of complexity factors has grown: demand volatility, geopolitics, regulatory shifts, customer service expectations that didn't exist a decade ago. Before, centralisation worked because the world was more predictable and customers accepted longer lead times. Now agility is a competitive requirement. The point isn't that resilience is overhyped — it's that the industry built its infrastructure in a different era and the retrofitting cost is being underestimated.
+
+### On Demand Planning (Q15)
+Many demand planners don't fully understand what is expected of them. They're asked to provide forward-looking inputs — to model future demand and measure signals — but often lack the tools, data, or organisational mandate to do it well. The role is underestimated in its complexity and underpowered in its authority, which means the outputs are less reliable than companies assume they are.
