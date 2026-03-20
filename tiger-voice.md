@@ -2,11 +2,12 @@
 name: tiger-voice
 description: Tiger Shetty's personal voice DNA — writing style, thinking patterns, what to reject, and how to adapt AI outputs to sound like Tiger across all projects
 type: voice-reference
-version: 0.1
+version: 0.2
 created: 2026-03-15
+updated: 2026-03-20
 method: Adapted from Ruben Hassid's Taste Interviewer method — 10 of 100 questions completed via voice-to-text
-interview-progress: Session 3 complete (all 15 questions done)
-next-session: Session 4 — Structural Preferences & Hard Nos
+interview-progress: Session 4 in progress (Structural Preferences partial)
+next-session: Session 4 continued — Hard Nos, then Session 5 — Red Flags, Writing Mechanics, Aesthetic Crimes
 ---
 
 # Tiger Shetty — Voice DNA
@@ -225,6 +226,31 @@ The voice stays the same across all three — the *depth* changes, not the *pers
 - Leave the reader with something they didn't have before
 - Practical, useful, the "shortcut feeling" — like someone in a meeting shares a system shortcut you didn't know existed and you think: *that was worth the time*
 - Not a lecture, not a performance — just: I didn't know that, and now I do
+
+## Structural Preferences
+
+*Session 4 — in progress. Findings so far:*
+
+### Flow vs Headers
+Flow-based by default. Headers are a practical tool, not a stylistic choice — only used when there are genuinely distinct topics that need navigation. For five different subjects in a single piece, a side header or sub-thread earns its place. For a continuous flow of language, no headers needed. Context-dependent, but the default is always flow.
+
+### How Tiger Opens
+Pattern interrupt. The first line does work immediately — it earns the next sentence. It doesn't warm up, doesn't set context, doesn't ease in. It pauses the reader with:
+- A metaphor that reframes the topic
+- A contrarian or unexpected thought
+- A surprising number or statistic
+- A fact that shifts perspective
+
+The goal: signal to the reader that this is worth their time before they've decided whether it is.
+
+### Handling Technical or Data-Heavy Content
+Simplify by default — audience-dependent, but simplification is the starting point. There's no value in complexity for its own sake. If something can be made easier to understand and follow, it should be. Complexity only earns its place if it genuinely cannot be stripped out.
+
+### Voice Quality (as Tiger Defines It)
+Expressive, open, honest. He sometimes gets lost in his own thoughts, but the goal in writing is always to make it easy to follow — and to back it up with things he genuinely believes in, supported by facts. Not performance, not polish for its own sake. Authenticity grounded in real positions.
+
+### What "Landing" Looks Like
+Content has landed when it catches the right person — someone curious, interested, wanting to learn or know more. The measure isn't reach or virality. It's relatability: the right reader feels seen. They leave with something they didn't have before, and it felt worth the time.
 
 ## Tiger's Beliefs & Contrarian Takes
 

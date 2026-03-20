@@ -63,9 +63,15 @@ Tiger answers via voice-to-text. Each session ~15-20 questions, ~10 minutes.
 - LinkedIn test: would *I* read this or scroll past it?
 - Core content job: the "shortcut feeling" — reader leaves with something they didn't have before
 
-### Session 4 — NEXT
+### Session 4 — IN PROGRESS (2026-03-20)
 **Category:** Structural Preferences (15 questions) + Hard Nos (10 questions)
 **Focus:** How Tiger organises ideas, his relationship with formatting (bullets, headers, lists), transition methods, untouchable subjects, absolute refusals
+**Partial findings so far:**
+- Flow-based by default — headers only when topics are genuinely distinct and need navigation; practical tool not stylistic choice
+- Opens with pattern interrupts — metaphor, contrarian thought, number, or fact; first line earns the next sentence, no warm-up
+- Technical/data content: simplify by default; complexity only if unavoidable; audience-dependent but simplification is the starting point
+- Voice: expressive, open, honest; backs writing with genuine beliefs and facts; goal is always easy to follow
+- Content has landed when it's relatable — the right reader (curious, interested, wants to learn) feels seen and leaves with something new
 
 ### Session 5
 **Categories:** Red Flags (10 questions) + Writing Mechanics (remaining ~10 questions) + Aesthetic Crimes (remaining ~10 questions)
