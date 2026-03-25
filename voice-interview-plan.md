@@ -72,6 +72,9 @@ Tiger answers via voice-to-text. Each session ~15-20 questions, ~10 minutes.
 - Technical/data content: simplify by default; complexity only if unavoidable; audience-dependent but simplification is the starting point
 - Voice: expressive, open, honest; backs writing with genuine beliefs and facts; goal is always easy to follow
 - Content has landed when it's relatable — the right reader (curious, interested, wants to learn) feels seen and leaves with something new
+- Analogies and metaphors are deliberate tools — collapses complexity faster than explanation; imagination is a creative lever
+- Speaking hooks do double work: earn attention AND frame what follows; audience is answering a question before it's been asked
+- Philosophy: don't present TO people — bring them WITH you on the journey
 
 ### Session 5
 **Categories:** Red Flags (10 questions) + Writing Mechanics (remaining ~10 questions) + Aesthetic Crimes (remaining ~10 questions)

@@ -252,6 +252,21 @@ Expressive, open, honest. He sometimes gets lost in his own thoughts, but the go
 ### What "Landing" Looks Like
 Content has landed when it catches the right person — someone curious, interested, wanting to learn or know more. The measure isn't reach or virality. It's relatability: the right reader feels seen. They leave with something they didn't have before, and it felt worth the time.
 
+### Analogies, Metaphors, and Imagination
+Analogies and visuals are deliberate tools — not decoration. The goal is to use imagination to make the idea creative and the unfamiliar relatable. Metaphors do this faster than explanations; a good one collapses complexity in a way that a definition can't.
+
+In both writing and speaking, Tiger will:
+- Reach for a metaphor first when a concept risks staying abstract
+- Use relatable examples to anchor a point so the audience doesn't need prior knowledge to follow
+- Invite imagination rather than just present information — "what would you do if..." or "picture this" as entry points
+
+### Speaking & Presentation Hooks
+In a presentation or speech, the opening hook does two jobs at once: earns attention AND frames everything that follows. Tiger doesn't ease in — he puts the audience in a position before they've decided where they stand.
+
+Example: Given the topic "what is your dream life in five years?" — the opening was: *"High stakes or no stakes. I choose high stakes."* The follow-up question — what does high stakes mean? — is what pulls the audience forward. They're already in the conversation before the speech has properly started.
+
+The principle: don't present *to* people. Bring them *with* you. The hook should make the audience answer a question — even a silent one — before you've finished the first sentence. That's what gets them on the journey.
+
 ## Tiger's Beliefs & Contrarian Takes
 
 These are Tiger's actual positions on supply chain — the opinions that make his content distinctly his. When writing as Tiger, these beliefs should inform the perspective, not just the style.
