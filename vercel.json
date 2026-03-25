@@ -1,4 +1,4 @@
 {
-  "buildCommand": "cd infographic-engine-web/frontend && npm install && npm run build",
-  "outputDirectory": "infographic-engine-web/frontend/dist"
+  "buildCommand": "vite build",
+  "outputDirectory": "dist"
 }
