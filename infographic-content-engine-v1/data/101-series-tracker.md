@@ -11,7 +11,7 @@
 | Episode | # | Topic | Week | Slug | Hook Type Used | Date Published |
 |---|---|---|---|---|---|---|
 | 1 | 1 | What Is a Supply Chain? | 2026-W11 | what-is-a-supply-chain | Stat-Lead | 2026-03-11 (Wed) |
-| 2 | 2 | Supply Chain vs. Logistics vs. Operations | 2026-W12 | supply-chain-vs-logistics | TBD | TBD |
+| 2 | 2 | Supply Chain vs. Logistics vs. Operations | 2026-W12 | supply-chain-vs-logistics | TBD | Published (date TBC) |
 
 ---
 
@@ -19,7 +19,7 @@
 
 | # | Topic | Month | Status |
 |---|---|---|---|
-| 3 | Planning vs. Scheduling | Month 1 | Not started |
+| 3 | Planning vs. Scheduling | Month 1 | In progress — W13 |
 | 4 | Strategic vs. Tactical vs. Operational Planning | Month 1 | Not started |
 | 5 | What Is S&OP? | Month 1 | Not started |
 | 6 | Push vs. Pull Supply Chains | Month 1 | Not started |
