@@ -1,7 +1,8 @@
 # Shetty's Desk — Supply Chain 101 Voice Reference
-**Version**: 1.0
+**Version**: 2.0
 **Used by**: `/101` skill
 **Purpose**: Voice anchor for Supply Chain 101 series. Load before writing any 101 caption.
+**Master voice**: Always read `tiger-voice.md` (workspace root) alongside this file. That file is the authority on Tiger's voice DNA. This file adds 101-specific structure and audience calibration.
 
 ---
 
@@ -15,7 +16,38 @@ Supply Chain 101 is a weekly series of single-image infographics that break down
 
 ---
 
-## Voice Rules — How 101 Differs from Deep Dive
+## Voice Rules from tiger-voice.md (applied to 101)
+
+### Rhythm and Flow
+- Write sentences that connect ideas with reasoning: "because", "so", "which means", "and then"
+- Vary sentence length: mix longer flowing sentences with occasional shorter ones for emphasis
+- Build through ideas rather than listing them. Add reasoning as you go.
+- Allow natural imperfections. Not every sentence needs to be pristine.
+
+### Opinion Style
+- Do NOT use "My take:" as an opinion marker
+- Use Tiger's natural bridges and rotate between posts:
+  - "My view on this is that..."
+  - "Here's the thing most people miss..."
+  - "If you look at the bigger picture..."
+  - "If I were in your shoes..."
+
+### Pattern Breakers (use at least 1 per post)
+- Start a sentence with "And" or "But"
+- Include one specific detail from Tiger's real experience
+- Use a parenthetical aside mid-sentence (signals thinking in real time)
+- Vary bullet structure — not all 3 bullets need the same format
+- Let a sentence run longer than feels "optimal" when working through an idea
+
+### What Tiger REJECTS (non-negotiable across all pipelines)
+- **The choppy AI pattern**: stacking short, fragmented sentences. Tiger's #1 rejection.
+- **The "X, not Y" false-contrarian** used as a structural crutch
+- **Identical post structures every time**. Vary how each section is expressed.
+- **Writing that could have been written by anyone about anything**. Specificity is authenticity.
+
+---
+
+## How 101 Differs from Deep Dive
 
 | | Deep Dive | Supply Chain 101 |
 |---|---|---|
@@ -33,12 +65,14 @@ Supply Chain 101 is a weekly series of single-image infographics that break down
 
 ## 101 Post Structure (7 parts — adapted)
 
+This structure is a guide, not a straitjacket. Vary how each part is expressed so posts do not all read identically. The voice should flow naturally. not march through labelled sections.
+
 1. **Hook** (1–2 sentences) — accessible, metaphor-led, stops a non-practitioner mid-scroll
 2. **Series Frame** (1–2 sentences) — positions this post in the Supply Chain 101 series, references previous post if relevant
-3. **Core Explanation** (2–3 sentences) — the concept in plain language, no jargon
-4. **Three Bullets** — each explains one aspect of the concept with a simple example or analogy
-5. **Reframe / Opinion** (1–2 sentences) — a practical insight or a "the real point is..." moment
-6. **CTA Question** — single open question, invites reflection, accessible to non-practitioners
+3. **Core Explanation** (2–3 sentences) — the concept in plain language, no jargon. Can flow into the bullets naturally rather than standing as a rigid separate block.
+4. **Supporting Detail** — explain 2–3 aspects of the concept with examples or analogies. These do NOT need to be formatted as uniform bullets every time. Vary the approach: flowing paragraphs, mixed formats, questions within the explanation. Not all points need the same bold-label-plus-explanation structure.
+5. **Reframe / Opinion** (1–2 sentences) — use Tiger's opinion bridges ("My view on this is that...", "Here's the thing most people miss..."). Rotate between posts. Do NOT default to "My take:" or the same bridge every time.
+6. **CTA Question** — single open question, invites reflection, accessible to non-practitioners. Be specific enough that the reader knows exactly what to think about.
 7. **Sign-off + Hashtags**
    - "Follow Poornajith Shetty for more supply chain insights and save this for [specific reference use]."
    - #ShettysDesk #SupplyChainIntelligence #SCM #SupplyChain101 + 1 topic-specific tag
@@ -120,9 +154,18 @@ logistics is the moving stuff around part lol"
 NOT THIS (deep-dive tone in a 101 post):
 "94% of companies report revenue damage from supply chain
 disruptions. Boeing's $40B outsourcing failure proves that..."
+
+NOT THIS (choppy AI fragments — Tiger's #1 rejection):
+"Planning decides. Scheduling executes. Not the same job."
+"One works in months. The other works in hours."
+"Short. Punchy. Done."
+
+NOT THIS (identical structure every time):
+Hook → 3 identical bullets → opinion → question → sign-off
+repeated without variation across every post.
 ```
 
-**The test**: Could someone outside supply chain read this post over coffee and understand the concept? If yes, the voice is right.
+**The test**: Could someone outside supply chain read this post over coffee and understand the concept? And does it sound like a person wrote it, not a chatbot? If both, the voice is right.
 
 ---
 
