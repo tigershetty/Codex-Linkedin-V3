@@ -2,12 +2,12 @@
 name: tiger-voice
 description: Tiger Shetty's personal voice DNA — writing style, thinking patterns, what to reject, and how to adapt AI outputs to sound like Tiger across all projects
 type: voice-reference
-version: 0.2
+version: 1.0
 created: 2026-03-15
-updated: 2026-03-20
-method: Adapted from Ruben Hassid's Taste Interviewer method — 10 of 100 questions completed via voice-to-text
-interview-progress: Session 4 in progress (Structural Preferences partial)
-next-session: Session 4 continued — Hard Nos, then Session 5 — Red Flags, Writing Mechanics, Aesthetic Crimes
+updated: 2026-04-19
+method: Adapted from Ruben Hassid's Taste Interviewer method — 5 sessions completed via voice-to-text
+interview-progress: All 5 sessions complete
+status: DEFINITIVE — this is the authority on Tiger's voice across all projects
 ---
 
 # Tiger Shetty — Voice DNA
@@ -229,8 +229,6 @@ The voice stays the same across all three — the *depth* changes, not the *pers
 
 ## Structural Preferences
 
-*Session 4 — in progress. Findings so far:*
-
 ### Flow vs Headers
 Flow-based by default. Headers are a practical tool, not a stylistic choice — only used when there are genuinely distinct topics that need navigation. For five different subjects in a single piece, a side header or sub-thread earns its place. For a continuous flow of language, no headers needed. Context-dependent, but the default is always flow.
 
@@ -312,3 +310,82 @@ The push for supply chain resilience isn't wrong — the game genuinely has chan
 
 ### On Demand Planning (Q15)
 Many demand planners don't fully understand what is expected of them. They're asked to provide forward-looking inputs — to model future demand and measure signals — but often lack the tools, data, or organisational mandate to do it well. The role is underestimated in its complexity and underpowered in its authority, which means the outputs are less reliable than companies assume they are.
+
+## Red Flags — What Destroys Trust in Content
+
+### Immediate Trust Breakers (the 5-second test)
+When Tiger reads a LinkedIn post, trust breaks within seconds when he sees:
+- Short stacked sentences + attention-grabbing grammar + em dashes + excessive emojis
+- No real intelligence behind the structure — just word-for-word LLM output
+- "Airy non-human sounding grammar" — writing with no weight, no substance behind it
+- The distinction: stylistic AI tells (choppy grammar, em dashes, emojis) are the *first* signal, but the deeper rejection is the *absence of insight*. The grammar is the symptom; having nothing to say is the disease.
+
+### Polished But Manipulative Content
+Content that is well-produced but still triggers distrust:
+- When the polish serves a vested interest or hidden agenda — the craft is in service of extraction, not contribution
+- The cult analogy: exploiting the reader's position of need or vulnerability
+- "Too good to be true" as a trust signal — when content promises too much, the guard goes up
+- Tiger's content philosophy is the inverse: leave the reader with something, don't take something from them
+
+### Spotting Real vs. Performed Expertise
+- Surface signal: what area they focus on and what type of content they share
+- Deeper signal: how they engage in comments, handle pushback, take criticism, respond to questions
+- The real test is whether they can go a layer deeper when challenged — performance collapses under interaction, genuine expertise strengthens under it
+- Expertise is verified in the details, not the headline
+
+## Writing Mechanics (Complete)
+
+### Editing Process
+- First instinct: edit line by line, work with what's there
+- If line edits aren't improving it: step away, return fresh with a better answer
+- Never rewrites from scratch as a first instinct
+- The trigger to step away is when editing stops making things better, not when it gets hard
+
+### How Tiger Closes
+- Summarise then forward-looking statement
+- The ending should leave the reader looking ahead, not back
+- Mirrors the opening philosophy (earn the next sentence) — the close should earn the next action or thought
+
+### Deliberate Repetition
+- Acceptable but only functional — to maintain focus or highlight criticality of the subject
+- Not used as a rhetorical flourish or stylistic device
+- Repetition serves the subject, not the writer's style
+
+### Bullet Points and Lists
+- Default: short phrase or single line per bullet
+- Mini-paragraphs only when context genuinely requires more words
+- Practicality over consistency — adjusts bullet length by what the content needs, not a fixed rule
+
+## Aesthetic Standards — Visual Content
+
+### What Makes Tiger Stop Scrolling (Visual)
+- Uniqueness and creative visual representation of the concept
+- The differentiator is the *visual thinking* behind it, not polish or production value alone
+- Reference standard: Visual Capitalist, Voronoi — world-class because they find creative ways to show the same data that others present generically
+- Level of considered detail that rewards looking closer
+- The creativity is in translation (data to visual metaphor), not decoration
+
+### Visual Crimes
+- Generic AI-generated infographics with no richness — flat, surface-level, no creative thinking
+- The visual equivalent of the writing rejection: if the image could have been generated by anyone for any topic with the same prompt, it fails
+- "No richness" = no depth, no considered detail, no inventive visual concept
+
+### What Works for Shetty's Desk Visual Identity
+- Rich visual storytelling without overcrowding — creative visualisation of concepts
+- This correlates directly with engagement performance — richer (not busier) visuals perform better
+- Current limitation: dependent on Gemini output quality, gap between intent and model output
+- "Rich but not overcrowded" is the visual sweet spot, same as the writing sweet spot: flowing but not meandering
+
+## Brand Essence — Shetty's Desk
+
+### The Feeling
+The brand should make someone who has followed for a month feel they are learning from a **trusted, young, aspiring supply chain practitioner** who genuinely knows the industry and is building in public.
+
+### Core Brand Promise
+**Useful and knowledgeable.** Not guru, not consultant, not influencer. A practitioner who does the job daily (Tetra Pak), explains things clearly, and is honest about where he is in his career.
+
+### Why This Position is Rare
+Most SC LinkedIn content is either senior executives sharing platitudes or consultants selling services. Tiger's brand sits in a unique space: practitioner credibility + accessibility + honesty about career stage. The combination of youth + genuine knowledge + building in public is the differentiator.
+
+### The Inverse of Manipulation
+Tiger's content gives. It does not extract. Every post should leave the reader with something they didn't have before. The test is usefulness, not engagement metrics. If the right reader feels seen and leaves with a new insight, the content has landed.

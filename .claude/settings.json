@@ -24,11 +24,18 @@
       "WebSearch",
       "Bash(gh auth:*)",
       "Bash(gh repo:*)",
-      "Bash(gh api:*)"
+      "Bash(gh api:*)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Skill(superpowers:brainstorming)",
+      "Skill(superpowers:brainstorming:*)",
+      "Bash(git checkout *)",
+      "Skill(claude-code-setup:claude-automation-recommender)",
+      "Skill(claude-code-setup:claude-automation-recommender:*)",
+      "Bash(git add *)"
     ],
     "additionalDirectories": [
       "/Users/tigershetty/Claude Nano ",
-      "/Users/tigershetty/Claude Nano /infographic-content-engine-v1/data/2026-W12",
       "/Users/tigershetty/Claude Nano /infographic-content-engine-v1/references",
       "/Users/tigershetty/Claude Nano /infographic-content-engine-v1/.claude/skills",
       "/Users/tigershetty/Claude Nano /infographic-content-engine-v1/data",

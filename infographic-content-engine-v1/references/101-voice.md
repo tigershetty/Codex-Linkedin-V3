@@ -39,11 +39,8 @@ Supply Chain 101 is a weekly series of single-image infographics that break down
 - Vary bullet structure — not all 3 bullets need the same format
 - Let a sentence run longer than feels "optimal" when working through an idea
 
-### What Tiger REJECTS (non-negotiable across all pipelines)
-- **The choppy AI pattern**: stacking short, fragmented sentences. Tiger's #1 rejection.
-- **The "X, not Y" false-contrarian** used as a structural crutch
-- **Identical post structures every time**. Vary how each section is expressed.
-- **Writing that could have been written by anyone about anything**. Specificity is authenticity.
+### Hard Rules
+See `tiger-voice.md` — Hard Rules section. Non-negotiable across all pipelines.
 
 ---
 

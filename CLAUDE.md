@@ -35,9 +35,9 @@ Claude Nano /
 
 ## Voice DNA
 - **File:** `tiger-voice.md` (workspace root)
-- **Version:** 0.2 (Sessions 1-4 partial complete)
+- **Version:** 1.0 (All 5 sessions complete)
 - **Interview plan:** `voice-interview-plan.md` (workspace root)
-- **Status:** Session 5 remaining (Red Flags, Writing Mechanics, Aesthetic Crimes) → then compile to v1.0
+- **Status:** Complete — definitive voice reference across all projects
 - **Applies to:** All writing output across all projects — captions, posts, copy, emails, presentations
 - **Method:** Ruben Hassid's Taste Interviewer — 100 questions across 7 categories
 

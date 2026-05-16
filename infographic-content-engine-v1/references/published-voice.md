@@ -46,11 +46,8 @@ Every published deep dive follows this structure. The structure is a guide, not 
 - Vary bullet structure across the three bullets
 - Let a sentence run longer than feels "optimal" when working through an idea
 
-### What Tiger REJECTS (non-negotiable)
-- **The choppy AI pattern**: stacking short, fragmented sentences ("Supply chain sees the globe. Logistics sees the port. Not the same role."). This is Tiger's #1 rejection. It sounds computer-generated.
-- **The "X, not Y" false-contrarian** used as a structural crutch
-- **Identical post structures every time**. The 7-part structure guides, but how each part is expressed must vary.
-- **Writing that could have been written by anyone about anything**. Specificity is authenticity.
+### Hard Rules
+See `tiger-voice.md` — Hard Rules section. Non-negotiable across all pipelines.
 
 ---
 
@@ -151,7 +148,7 @@ for speed and it changed the GLP-1 market.
 When GLP-1 demand surged 300% in 18        ← Context: mechanism
 months, most distributors rationed.
 McKesson scaled. The difference was
-not inventory — it was network design.
+not inventory. It was network design.
 
 Three things McKesson had that others did not:
 • 40 distribution centres with 24-hour    ← Named bullets, numbers mid-sentence
@@ -160,7 +157,7 @@ Three things McKesson had that others did not:
   for high-velocity SKUs, not allocated
   on demand.
 • Pharmacy contracts that paid a premium
-  for guaranteed fill rates — so the
+  for guaranteed fill rates, so the
   economics rewarded speed.
 
 My take: the GLP-1 story is not about
@@ -195,7 +192,7 @@ What changed:
   while container margins compressed
   to near zero.
 • Acquisitions: Senator International,
-  LF Logistics, Pilot Freight — each
+  LF Logistics, Pilot Freight. Each
   adding capability, not capacity.
 • The margin structure: logistics
   services earn 8-12% margin vs.

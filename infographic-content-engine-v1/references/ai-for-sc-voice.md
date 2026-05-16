@@ -121,11 +121,8 @@ Inherited from the 101 and deep dive hook taxonomy. Same 10 types apply:
 - Vary bullet/section structure — not all sections need the same format
 - Let a sentence run longer than feels "optimal" when working through an idea
 
-### What Tiger REJECTS (non-negotiable across all pipelines)
-- **The choppy AI pattern**: stacking short, fragmented sentences. Tiger's #1 rejection.
-- **The "X, not Y" false-contrarian** used as a structural crutch
-- **Identical post structures every time**. Vary how each section is expressed.
-- **Writing that could have been written by anyone about anything**. Specificity is authenticity.
+### Hard Rules
+See `tiger-voice.md` — Hard Rules section. Non-negotiable across all pipelines.
 
 ---
 
@@ -134,11 +131,8 @@ Inherited from the 101 and deep dive hook taxonomy. Same 10 types apply:
 These apply to ALL captions regardless of post type:
 
 ### Language
-- No em dashes. Use periods, commas, or restructure.
-- No AI slop: unlock, game-changer, revolutionise, dive into, harness, leverage, empower, cutting-edge, seamless, robust, holistic
+- Hard Rules apply (see `tiger-voice.md`) — no em dashes, no AI slop, no hedging, no choppy fragments
 - No corporate: paradigm, synergy, stakeholder alignment, best-in-class, value proposition
-- No hedging: "might consider", "could potentially", "it is worth noting that"
-- No choppy AI fragments: "AI compresses. You decide. That is the split." — Tiger's #1 rejection pattern.
 - Sentences connect and flow with reasoning ("because", "so", "which means"). Tiger's voice is conversational authority with connective tissue, not bullet-point staccato.
 
 ### Structure

@@ -2,8 +2,8 @@
 name: voice-interview-plan
 description: 5-session plan to complete Tiger's voice DNA interview using Ruben Hassid's Taste Interviewer method
 created: 2026-03-15
-status: in-progress
-target-completion: 2026-03-22
+status: complete
+completed: 2026-04-19
 ---
 
 # Voice Interview Plan — 5 Sessions
@@ -76,12 +76,24 @@ Tiger answers via voice-to-text. Each session ~15-20 questions, ~10 minutes.
 - Speaking hooks do double work: earn attention AND frame what follows; audience is answering a question before it's been asked
 - Philosophy: don't present TO people — bring them WITH you on the journey
 
-### Session 5
-**Categories:** Red Flags (10 questions) + Writing Mechanics (remaining ~10 questions) + Aesthetic Crimes (remaining ~10 questions)
-**Focus:** What destroys trust in content, remaining gaps in sentence patterns, closing patterns, punctuation habits
+### Session 5 — COMPLETE (2026-04-19)
+**Categories:** Red Flags (5 questions) + Writing Mechanics (4 questions) + Aesthetic Crimes (3 questions)
+**Key findings:**
+- Trust breaks in 5 seconds: short stacked sentences + em dashes + emojis + no real intelligence behind the structure
+- Deeper rejection: absence of insight is the disease, AI grammar is just the symptom
+- Polished but manipulative content triggers distrust — "too good to be true" = extraction not contribution
+- Expertise verified in interactions (comments, pushback handling), not in posts — performance collapses under scrutiny
+- Editing process: line-by-line first, step away if editing stops improving things
+- Closing pattern: summarise then forward-looking statement — leave the reader looking ahead
+- Deliberate repetition: functional only, to reinforce importance, not as a stylistic device
+- Bullets: short phrase/single line by default, mini-paragraphs only when genuinely needed
+- Visual quality = uniqueness + creative concept visualisation (reference: Visual Capitalist, Voronoi)
+- Visual crime: generic AI infographics with no richness — same as writing rejection (no thought behind it)
+- Shetty's Desk visual sweet spot: rich but not overcrowded — correlates with engagement
+- Brand essence: trusted young practitioner, useful and knowledgeable, gives not extracts
 
 ## Output
-After Session 5, compile all findings into `tiger-voice.md` v1.0 — the definitive voice reference used across all projects and interactions.
+All findings compiled into `tiger-voice.md` v1.0 on 2026-04-19 — the definitive voice reference used across all projects and interactions.
 
 ## How to Start Each Session
 Open Claude Code and say: "Let's do voice interview session [2/3/4/5]."
