@@ -32,7 +32,12 @@
       "Bash(git checkout *)",
       "Skill(claude-code-setup:claude-automation-recommender)",
       "Skill(claude-code-setup:claude-automation-recommender:*)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Skill(firecrawl:firecrawl-search)",
+      "Skill(firecrawl:firecrawl-search:*)",
+      "Bash(npx skills *)",
+      "Bash(firecrawl search *)",
+      "Bash(bash scripts/start-server.sh --project-dir \"/Users/tigershetty/Claude Nano  test update\")"
     ],
     "additionalDirectories": [
       "/Users/tigershetty/Claude Nano ",

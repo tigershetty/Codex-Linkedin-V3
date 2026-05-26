@@ -1,10 +1,10 @@
 # Supply Chain 101 — Series Tracker
-**Series**: Supply Chain 101
-**Total topics**: 24
-**Frequency**: 2 per week (Wednesdays + one other day)
-**Period**: March – May 2026
-**Status**: All 24 episodes generated. Episodes 3–24 scheduled on LinkedIn to publish by 2026-05-15.
-**Last updated**: 2026-05-08
+**Series**: Supply Chain 101 (Episodes 1–24) → Supply Chain 101 Advanced (Episodes 25+ from W21)
+**Total topics (Phase 1)**: 24
+**Frequency (Phase 1)**: Bulk-scheduled 2026-05-08 to publish by 2026-05-15 (original 2/week cadence abandoned)
+**Period (Phase 1)**: March – May 2026 (W11–W18)
+**Status**: Phase 1 complete — all 24 episodes published or scheduled. Phase 2 (monthly theme model) begins W21.
+**Last updated**: 2026-05-24
 
 ---
 
@@ -44,6 +44,29 @@
 - Episode 2 is the first topic to run through the /101 pipeline
 - All 24 episodes have generated copy (`101-copy.md`) on disk under their respective week folders
 - Episodes 3–24 were scheduled on LinkedIn on 2026-05-08 to publish by 2026-05-15 (compressed publication window — original cadence of 2/week was abandoned in favor of full-series scheduling)
-- The 90-day plan in `references/101-plan.md` is the source of truth for all 24 topics
+- The 90-day plan in `references/101-plan.md` (Episodes 1–24 section) is the source of truth for Phase 1 topics
 - Once posts go live, fill in the actual published date and the selected Hook Type (currently "TBD" for Episodes 2 and 4–22)
 - Post-publication: run `/analytics [slug]` once LinkedIn analytics are exported to capture performance per episode
+
+## Phase 2 — Monthly Theme Model (from W21)
+
+The series continues as **Supply Chain 101 — [Function] Edition** from W21 onward. Posts 1+2 each week cover the same sub-topic as Posts 3+4 (AI for Supply Chain) — all 4 posts in a week are on the same theme.
+
+**Topic bank**: `references/101-plan.md` → Monthly Theme Model section (Months 1–7, W21–W52)
+**Commands**: `/101 [topic-slug]` — same pipeline, topics now drawn from monthly theme model
+**Series framing in captions**: "This month on Shetty's Desk: [Function]" as conversational anchor
+
+| Ep | Topic | Week | Slug | Hook Type | Status |
+|---|---|---|---|---|---|
+| 25 | Supplier Scorecard | 2026-W21 | supplier-scorecard | Question-Why | Copy saved — pending publish |
+| 26 | How a Purchase Order Actually Works | 2026-W21 | how-a-purchase-order-works | Contrarian | Copy saved — pending publish |
+
+| Month | Theme | Weeks | Posts |
+|---|---|---|---|
+| 1 | Procurement | W21–W25 | 10 foundational posts |
+| 2 | Production Planning | W26–W31 | 12 foundational posts |
+| 3 | Inventory Management | W32–W35 | 8 foundational posts |
+| 4 | Logistics & Fulfilment | W36–W40 | 10 foundational posts |
+| 5 | Supply Chain Technology | W41–W44 | 8 foundational posts |
+| 6 | Risk, Finance & Career | W45–W48 | 8 foundational posts |
+| 7 | Toolkit & Year-End | W49–W52 | 8 foundational posts |

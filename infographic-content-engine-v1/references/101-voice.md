@@ -12,7 +12,7 @@ Supply Chain 101 is a weekly series of single-image infographics that break down
 
 **Series identity**: "Supply Chain 101" — referenced in every post
 **Hashtag**: #SupplyChain101 (always included alongside #ShettysDesk)
-**Sign-off**: "Follow Poornajith Shetty for more supply chain insights" + a save prompt
+**Sign-off**: "Follow Poornajith Shetty and Shetty's Desk for more supply chain insights" + a save prompt
 
 ---
 
@@ -71,7 +71,7 @@ This structure is a guide, not a straitjacket. Vary how each part is expressed s
 5. **Reframe / Opinion** (1–2 sentences) — use Tiger's opinion bridges ("My view on this is that...", "Here's the thing most people miss..."). Rotate between posts. Do NOT default to "My take:" or the same bridge every time.
 6. **CTA Question** — single open question, invites reflection, accessible to non-practitioners. Be specific enough that the reader knows exactly what to think about.
 7. **Sign-off + Hashtags**
-   - "Follow Poornajith Shetty for more supply chain insights and save this for [specific reference use]."
+   - "Follow Poornajith Shetty and Shetty's Desk for more supply chain insights and save this for [specific reference use]."
    - #ShettysDesk #SupplyChainIntelligence #SCM #SupplyChain101 + 1 topic-specific tag
 
 **Word count**: 150–300 words. Keep it lighter than deep dive.
@@ -114,7 +114,7 @@ supply chain?
 
 ---
 
-Follow Poornajith Shetty for more supply chain insights and save
+Follow Poornajith Shetty and Shetty's Desk for more supply chain insights and save
 this frame for the next time someone asks you to explain what a
 supply chain actually does.
 

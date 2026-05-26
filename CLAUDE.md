@@ -64,6 +64,8 @@ Claude Nano /
 - **Vercel:** Root directory set to `infographic-engine-web/frontend` (Vite + React app)
 - **Purpose:** Version control + iOS access via Claude Code web + web app deployment
 
-## Notes
-- All active content work runs from `infographic-content-engine-v1/`
-- Web/product work runs from `infographic-engine-web/` and `Frontend/`
+## LinkedIn Auto-Posting — On Hold
+- **Status:** Paused — resume when ready to test
+- **What's done:** `.env` created with `LINKEDIN_ACCESS_TOKEN` and `LINKEDIN_URN` (`k7d8ogGaBT`) confirmed working
+- **Next step:** Write posting script and do a draft post test (`lifecycleState: DRAFT`) — no public exposure, deletable from LinkedIn Creator tools
+- **Note:** LinkedIn API does not support scheduled posts — draft mode is the clean test approach

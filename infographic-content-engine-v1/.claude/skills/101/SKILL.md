@@ -64,6 +64,7 @@ Generate all 10 hooks using the hook taxonomy adapted for 101 voice:
 - No AI slop language
 - Write as Tiger would say it out loud
 - Plain language — a non-practitioner should understand every hook
+- Bullet points use • not -
 
 ---
 
@@ -71,38 +72,76 @@ Generate all 10 hooks using the hook taxonomy adapted for 101 voice:
 
 Follow the 101 post structure (from `references/101-voice.md`):
 
-1. **Hook** (1–2 sentences) — placeholder: use the strongest hook from Step 2
-2. **Series Frame** (1–2 sentences) — position in SC 101 series, reference previous post
-3. **Core Explanation** (2–3 sentences) — the concept in plain language
-4. **Three Bullets** — each explains one aspect with a simple example
-5. **Reframe / Opinion** (1–2 sentences) — practical insight
-6. **CTA Question** — open, reflective, accessible
+1. **Hook** (1–2 sentences) — use selected hook verbatim
+2. **Series Frame** (1–2 sentences) — position in SC 101 series, reference previous episode by number and topic
+3. **Core Explanation** (2–3 sentences) — the concept in plain language, builds through reasoning
+4. **Bullets** (2–4) — one sentence each unless content genuinely requires two. No bold headers inside bullets. Vary structure — not every bullet needs the same format.
+5. **Opinion / Reframe** (1–2 sentences) — use Tiger's bridges: "What I believe is...", "My view on this is...", "Here's the thing most people miss..."
+6. **CTA Question** — single open question, accessible to non-practitioners
 7. **Sign-off + Hashtags**
 
-**Use the Caption Direction from the plan** as guidance for structure and closing question.
+**Use the Caption Direction from the plan** as the guide for framing and closing question.
 
-**Voice rules:**
-- 150–300 words total
-- Plain language first, technical terms explained
-- Numbers sparingly, only when they clarify
-- Could someone outside supply chain understand this over coffee?
-- No ANCHORS labels, no citation format, no em dashes
-- Sign-off: "Follow Poornajith Shetty for more supply chain insights and save this for [specific reference use]."
+**Voice rules — calibrate against published Ep3–22 before presenting:**
+- **150–220 words total.** Published episodes average 180 words. Over 220 = over-explanation, recut.
+- Sentences connect ideas with reasoning: "because", "so", "which means", "and that's"
+- Bullets: one sentence each. Vary length and structure across them — not uniform.
+- No bold labels inside bullet text ("**Quality**:", "**Delivery**:") — the bullet itself carries the label
+- Plain language. No em dashes. No ANCHORS labels. No citation format.
+- Bullet points use • not - (applies to all output: captions, hook options, Gemini prompt content lists)
+- At least one opinion bridge from Tiger's set — rotate, never repeat the same one twice in a row
+- One moment that sounds like Tiger thinking out loud — slightly imperfect, first-person where natural
+- Sign-off: "Found this useful? Follow Poornajith Shetty and Shetty's Desk for more supply chain insights and save/repost this for [specific reference use]."
 - Hashtags: #ShettysDesk #SupplyChainIntelligence #SCM #SupplyChain101 + 1 topic-specific tag
 
 ---
 
 ## Step 4: Generate Gemini Prompt
 
-Build the Gemini prompt using the template from `references/101-plan.md`:
+Use this exact template structure. The VISUAL ANCHOR block is mandatory — it is what makes each infographic visually distinctive and eye-catching. Without it, the output is structurally correct but visually generic.
 
-1. Insert the topic name
-2. Insert "The Question It Answers" from the plan
-3. Insert the Visual Format description from the plan
-4. Keep all brand kit rules, content rules, and DO NOTs from the template
-5. Add any specific content from the caption bullets that should appear on the image
+**VISUAL ANCHOR rules:**
+- 3–5 sentences only. Placed between THE QUESTION THIS ANSWERS and VISUAL STRUCTURE.
+- Describes one dominant visual metaphor with spatial specificity — how the layout feels, what dimensional quality it has, what the focal element is, where the eye goes first.
+- Names the single most important element on the canvas (the brightest, the largest, the one point of tension).
+- No colour instructions — the brand anchor image handles colour. No narrative prose about the concept. No NEGATIVE block.
+- This block is what separates a visually striking render from a generic one. Never skip it.
 
-**Output the Gemini prompt as a paste-ready block** — the user copies it directly into Gemini.
+```
+Task: Create an infographic image for the summary below (after the rules).
+
+Rules: Use the image attached as a reference on style, aesthetics, colours, and illustration technique. Use a different layout for the structure to elaborate details based on the summary. Do not use any information or text from the attached image — only style. Use it only for inspiration. Aspect ratio 1:1, resolution 2048x2048.
+
+TOPIC: [Topic name]
+THE QUESTION THIS ANSWERS: [The Question It Answers from the plan — verbatim]
+
+VISUAL ANCHOR: [3–5 sentences. Name the dominant visual metaphor and dimensional concept — how the layout is rendered in space, what quality it has, what the single focal element is, where the eye goes first. No colour instructions. No concept explanation. No prose about supply chain.]
+
+VISUAL STRUCTURE: [1–2 sentences describing the dominant layout — taken from the Visual Format in the plan. Name the spatial logic: what is on the left/right/top/bottom/centre, what the focal point is.]
+
+CONTENT TO INCLUDE ON THE IMAGE:
+- Heading: "[Short heading, max 8 words]" (Bold)
+- [Named section or element 1 — use spatial labels: LEFT SIDE / RIGHT SIDE / TOP / CENTRE / etc.]:
+  - [Label]: [2–3 word value or short phrase — not sentences]
+  - [Label]: [2–3 word value or short phrase]
+- [Named section or element 2]:
+  - [Label]: [2–3 word value]
+  - [Label]: [2–3 word value]
+- [Annotation line — carries the opinion from the caption. One sentence, specific.]
+
+CONTENT RULES:
+- Maximum 60 words total on the image (excluding labels and axis text)
+- Heading: maximum 8 words, set in Bold
+- Every element must be readable at mobile phone size
+- [One rule specific to this visual format — e.g. "The wave amplification should be the dominant visual"]
+- Data labels and annotations preferred over paragraph text
+
+DO NOT:
+- Use font sizes below 14px at final output resolution
+- Add decorative elements that do not carry information
+```
+
+Populate from the plan's Visual Format and Caption Direction. Keep content list tight — only what must appear on the image. Total prompt length: 40–55 lines maximum.
 
 ---
 
