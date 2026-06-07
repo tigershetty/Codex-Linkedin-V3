@@ -1,7 +1,7 @@
 # Supply Chain 101 — The Procurement Cycle
 **Week**: 2026-W22
 **Theme**: Procurement
-**Episode**: Ep30 (unified series numbering)
+**Episode**: Ep29 (unified series numbering)
 **Hook Type**: Contrarian
 **Status**: Copy saved — pending publish
 
@@ -11,7 +11,7 @@
 
 Every procurement team has a process, although many never wrote it down. The ones that did outperform the ones that didn't.
 
-This week on Supply Chain 101, Episode 30 we dive deep into the journey of a need to a PO.
+This week on Supply Chain 101, Episode 29 we dive deep into the journey of a need to a PO.
 
 There are seven steps between a sourcing need and a signed purchase order.
 In a reactive team they run out of sequence, some get skipped entirely, and

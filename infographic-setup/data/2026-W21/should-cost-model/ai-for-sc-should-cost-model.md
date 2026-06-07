@@ -3,7 +3,7 @@
 **Theme**: Procurement
 **Role**: Category Manager
 **Tool**: ChatGPT
-**Episode**: Ep29 (unified series numbering)
+**Episode**: Ep28 (unified series numbering)
 **Visual Format**: Cost Anatomy
 **Hero Statement**: "4 layers. 1 you can move."
 **Status**: Ready — pending publish

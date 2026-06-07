@@ -11,12 +11,12 @@
 
 ## Episode Status
 
-**Unified numbering**: Each week = 4 posts (2 x 101 + 2 x AI for SC), numbered sequentially across both series. AI for SC posts = Posts 3+4. W21: unified Ep28 + Ep29. W22: unified Ep32 + Ep33 (TBD).
+**Unified numbering**: Each week = 4 posts (2 x 101 + 2 x AI for SC), numbered sequentially across both series. AI for SC posts = Posts 3+4 each week. W21: Ep27 + Ep28. W22: Ep31 + Ep32 (TBD).
 
 | Ep (unified) | Role | Use Case | Week | Theme | Tool | Slug | Hook Type | Status |
 |---|---|---|---|---|---|---|---|---|
-| Ep28 | Purchaser | Draft RFQ with evaluation criteria + weighted scoring matrix | W21 | Procurement | Claude | rfq-with-claude | Timeline-Shock | Published — file saved |
-| Ep29 | Category Manager | Build should-cost model to anchor negotiation before supplier meeting | W21 | Procurement | ChatGPT | should-cost-model | Decision-Pressure / Question-Why | Ready |
+| Ep27 | Purchaser | Draft RFQ with evaluation criteria + weighted scoring matrix | W21 | Procurement | Claude | rfq-with-claude | Timeline-Shock | Published — file saved |
+| Ep28 | Category Manager | Build should-cost model to anchor negotiation before supplier meeting | W21 | Procurement | ChatGPT | should-cost-model | Decision-Pressure / Question-Why | Ready |
 
 *v1 drafts (RFQ with Claude, W21 Leader posts) generated under old Practitioner/Leader format — not published, superseded by v2. Files on `update/voice-v1-and-tracker-cleanup` branch for reference.*
 

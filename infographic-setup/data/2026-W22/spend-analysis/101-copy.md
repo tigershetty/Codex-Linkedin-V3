@@ -1,7 +1,7 @@
 # Supply Chain 101 — Spend Analysis
 **Week**: 2026-W22
 **Theme**: Procurement
-**Episode**: Ep31 (unified series numbering)
+**Episode**: Ep30 (unified series numbering)
 **Hook Type**: Question-Why
 **Status**: Copy saved — pending publish
 
@@ -13,7 +13,7 @@
 
 Why does every cost reduction programme start with a conversation and end with a spreadsheet nobody agrees on?
 
-We started with a need to PO journey on Supply Chain 101, earlier this week. Now we jump into Episode 28.
+We started with a need to PO journey on Supply Chain 101, earlier this week. Now we jump into Episode 30.
 
 A spend analysis maps all organisational spend by supplier, category, and
 business unit to show where the money actually goes. It is not a cost

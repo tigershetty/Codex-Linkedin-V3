@@ -59,11 +59,10 @@ The series continues as **Supply Chain 101 — [Function] Edition** from W21 onw
 | Ep | Topic | Week | Slug | Hook Type | Status |
 |---|---|---|---|---|---|
 | 25 | Supplier Scorecard | 2026-W21 | supplier-scorecard | Question-Why | Copy saved — pending publish |
-| 26 | — | — | — | — | — |
-| 27 | How a Purchase Order Actually Works | 2026-W21 | how-a-purchase-order-works | Contrarian | Copy saved — pending publish |
-| 28–29 | (AI for SC W21 — unified numbering) | 2026-W21 | rfq-with-claude / should-cost-model | — | See ai-for-sc-series-tracker.md |
-| 30 | The Procurement Cycle (7-step flow) | 2026-W22 | procurement-cycle | Contrarian | Copy saved — pending publish |
-| 31 | Spend Analysis | 2026-W22 | spend-analysis | Question-Why | Copy saved — pending publish |
+| 26 | How a Purchase Order Actually Works | 2026-W21 | how-a-purchase-order-works | Contrarian | Copy saved — pending publish |
+| 27–28 | (AI for SC W21 — unified numbering) | 2026-W21 | rfq-with-claude / should-cost-model | — | See ai-for-sc-series-tracker.md |
+| 29 | The Procurement Cycle (7-step flow) | 2026-W22 | procurement-cycle | Contrarian | Copy saved — pending publish |
+| 30 | Spend Analysis | 2026-W22 | spend-analysis | Question-Why | Copy saved — pending publish |
 
 | Month | Theme | Weeks | Posts |
 |---|---|---|---|
