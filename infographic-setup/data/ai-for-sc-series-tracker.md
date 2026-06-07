@@ -13,7 +13,8 @@
 
 | Ep | Role | Use Case | Week | Theme | Tool | Slug | Hook Type | Status |
 |---|---|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — | — | No episodes yet |
+| Ep01 | Purchaser | Draft RFQ with evaluation criteria + weighted scoring matrix | W21 | Procurement | Claude | rfq-with-claude | Timeline-Shock | Published |
+| Ep02 | Category Manager | Build should-cost model to anchor negotiation before supplier meeting | W21 | Procurement | ChatGPT | should-cost-model | Decision-Pressure / Question-Why | Ready |
 
 *v1 drafts (RFQ with Claude, W21 Leader posts) generated under old Practitioner/Leader format — not published, superseded by v2. Files on `update/voice-v1-and-tracker-cleanup` branch for reference.*
 
@@ -42,7 +43,8 @@
 
 | Role | Times Used | Last Used Week |
 |---|---|---|
-| — | — | No posts yet |
+| Purchaser | 1 | W21 |
+| Category Manager | 1 | W21 |
 
 ---
 
@@ -50,7 +52,7 @@
 
 | AI Tool | Times Used | Last Used Week |
 |---|---|---|
-| Claude | — | — |
-| ChatGPT | — | — |
+| Claude | 1 | W21 |
+| ChatGPT | 1 | W21 |
 | Copilot | — | — |
 | Grok | — | — |
