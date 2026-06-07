@@ -1,9 +1,9 @@
 ---
 name: ai-for-sc
-description: Use when the user runs /ai-for-sc [week] or /ai-for-sc [week] [use-case-slug]. Monthly theme model pipeline for AI for Supply Chain series. Generates two practical use-case posts per week — each for a specific SC role and AI tool — from the approved monthly topic bank. Loads tiger-voice.md, published-voice.md, and 101-voice.md before generating.
+description: Use when the user runs /ai-for-sc [week] or /ai-for-sc [week] [use-case-slug]. Monthly theme model pipeline for AI for Supply Chain series. Generates two practical use-case posts per week — each for a specific SC role and AI tool — from the approved monthly topic bank. Loads tiger-voice.md, published-voice.md, 101-voice.md, and ai-for-sc-visual-dna.md before generating.
 ---
 
-# /ai-for-sc Skill — AI for Supply Chain Pipeline (v2)
+# /ai-for-sc Skill — AI for Supply Chain Pipeline (v3)
 
 ## Purpose
 Generates AI for Supply Chain posts from practical use cases within the approved monthly theme model. One week = one theme = two posts. Each post covers a specific SC role + specific AI use case + specific tool. No fixed audience tiers — the role is determined by the task. Posts are practical, concrete, and copy-paste ready.
@@ -19,23 +19,24 @@ Examples:
 - `/ai-for-sc W26 demand-simulation` → W26 demand simulation use case only
 
 ## Prerequisites
-Read all five before generating a single word. They are the intelligence base.
+Read all six before generating a single word. They are the intelligence base.
 
 | File | What it provides |
 |---|---|
 | `tiger-voice.md` | Voice DNA — rhythm, opinion style, what to reject, pattern breakers |
 | `references/published-voice.md` | Hook quality bar, "NOT THIS" list, annotated examples |
 | `references/101-voice.md` | Accessible register, plain language first, adapted hook taxonomy |
-| `references/ai-for-sc-plan-v2.md` | Pre-defined topic plan — load the week's two use cases (Role, Tool, Use Case, Hook direction) |
+| `references/ai-for-sc-plan-v2.md` | Pre-defined topic plan — load the week's two use cases (Role, Tool, Use Case, Hook direction, Visual format) |
+| `references/ai-for-sc-visual-dna.md` | 50-format visual library — format selection, VISUAL ANCHOR templates, Tool Identity System, quality gate |
 | `data/ai-for-sc-series-tracker.md` | Episode tracking — last use case, tool, and role used |
 
-**Read all five before generating a single word.**
+**Read all six before generating a single word.**
 
 ---
 
 ## Step 1: Load All Intelligence
 
-1. Read `~/Claude Nano /tiger-voice.md` — internalize:
+1. Read `tiger-voice.md` — internalize:
    - Natural rhythm: longer flowing sentences, connective tissue ("because", "so", "which means")
    - Opinion bridges: "My view on this is that...", "Here's the thing most people miss...", "If you look at the bigger picture..."
    - Pattern breakers: sentence starting with "And"/"But", parenthetical asides, varied bullet structure
@@ -182,53 +183,82 @@ Single unified caption structure for all AI for SC posts. The role, tool, and fr
 
 ## Step 5: Generate Gemini Prompt (Infographic Visual)
 
-The visual must be immediately readable and task-specific. Match the format to the use case type.
+### 5.1 Load visual intelligence
 
-| Use case type | Visual format |
-|---|---|
-| Workflow task (RFQ, documentation, report) | Step-by-step horizontal flow OR paste-ready prompt template |
-| Research/compliance (export docs, regulations, Incoterms) | Decision tree OR reference cheat sheet by condition |
-| Analysis/simulation (demand swings, capacity, scenarios) | Before/after comparison OR capacity model with formula |
-| New capability (agentic, continuous monitoring) | Architecture diagram (simplified) OR outcome map |
+Read `references/ai-for-sc-visual-dna.md`. Internalize:
+- The Tool Identity System — background colour, accent colour, and geometric symbol description for the tool this post features
+- The assigned visual format for this post (from the Visual line in `references/ai-for-sc-plan-v2.md`)
+- The VISUAL ANCHOR template for that format (Section: The 50 Visual Format Library)
+- The Hero Number convention — "[Manual time] → [AI-assisted time]", sourced from field benchmarks
+- The VISUAL ANCHOR Writing Guide and Quality Gate
 
-Build the Gemini prompt using this exact template. The VISUAL ANCHOR block is mandatory.
+### 5.2 Identify the assigned format
 
-**VISUAL ANCHOR rules:**
-- 3–5 sentences only. Placed between THE QUESTION THIS ANSWERS and VISUAL STRUCTURE.
-- Describes one dominant visual metaphor with spatial specificity — how the layout feels, what dimensional quality it has, what the focal element is, where the eye goes first.
-- Names the single most important element on the canvas.
-- No colour instructions — the brand anchor image handles colour. No narrative prose about the concept. No NEGATIVE block.
+The Visual format is specified in `references/ai-for-sc-plan-v2.md` on the **Visual** line of the post entry. Find that format in the visual DNA library and read its VISUAL ANCHOR template.
+
+If the plan entry still says "Standard 4-card workflow grid" (stale — should not occur after v3.0), apply this fallback assignment guide:
+- Document output → Blueprint Draft, Clause Reveal, Executive Brief, Playbook Page, or Prompt Card based on document type
+- Financial/calculation → Cost Anatomy, Formula Tree, Payback Arc, Waterfall Bar, or matching financial format
+- Research → Signal Scan, Correlation Map, Forecast Anatomy, or Variance Zone
+- Logistics/operations → Network Map, Triage Funnel, Warehouse Zone Map, or Control Tower View
+- Risk → Risk Plot, Supplier Risk Card, Disruption Timeline, or Stress Test Model
+
+### 5.3 Write the VISUAL ANCHOR
+
+Using the VISUAL ANCHOR template from the DNA file for the assigned format:
+1. Take the template (3–5 sentences with [PLACEHOLDERS])
+2. Replace [PLACEHOLDERS] with specifics from this post's use case and the tool's accent colour
+3. Verify: names the focal element, describes spatial logic, no colour instructions beyond the tool palette reference, no concept explanation
+4. Test: could a visual designer sketch the layout from this block alone?
+
+### 5.4 Build the full Gemini prompt
 
 ```
 Task: Create an infographic image for the summary below (after the rules).
 
 Rules: Use the image attached as a reference on style, aesthetics, colours, and illustration technique. Use a different layout for the structure to elaborate details based on the summary. Do not use any information or text from the attached image — only style. Use it only for inspiration. Aspect ratio 1:1, resolution 2048x2048.
 
-TOPIC: [Topic name — role-specific, task-focused]
+TOOL IDENTITY: [Tool name] — use [Tool]'s complete visual palette. Background: [colour from DNA]. Accent: [colour hex from DNA]. Tool symbol: render [exact geometric description from Tool Identity Reference in DNA — copy verbatim]. Position the symbol [top-right / centred / as described]. This image should look like it belongs to [Tool]'s brand without reproducing any trademarked logo.
+
+TOPIC: [Topic name — role-specific, task-focused, max 8 words]
 THE QUESTION THIS ANSWERS: [The specific friction or capability gap this post addresses]
 
-VISUAL ANCHOR: [3–5 sentences. Name the dominant visual metaphor and dimensional concept — how the layout is rendered in space, what quality it has, what the single focal element is, where the eye goes first. No colour instructions. No concept explanation.]
+VISUAL FORMAT: [Format name from the 50-format library — e.g. "Cost Anatomy", "Blueprint Draft", "Signal Scan"]
 
-VISUAL STRUCTURE: [1–2 sentences. Name the dominant layout and spatial logic — what is on left/right/top/bottom/centre, what the focal point is. Match the format to the use case type.]
+VISUAL ANCHOR: [3–5 sentences adapted from the format's VISUAL ANCHOR template in the DNA file. Names the spatial structure, the focal element, and where the eye goes. No colour instructions. No narrative about the concept.]
+
+VISUAL STRUCTURE: [1–2 sentences. The specific layout for this post — what is where, what the focal point is, spatial logic. Narrows and confirms the VISUAL FORMAT.]
+
+HERO NUMBER: "[Manual time] → [AI-assisted time]" — this is the largest text element on the image, positioned [top-centre / inside first card / above the main content zone]. Source: [field benchmark — name the source or frame as "typically"].
 
 CONTENT TO INCLUDE ON THE IMAGE:
-- Heading: "[Short heading, max 8 words]" (Bold)
-- [Named section — use spatial labels: LEFT / RIGHT / TOP / CENTRE / STEP 1 / etc.]:
-  - [Label]: [2–3 word value — not sentences]
+- Heading: "[5–8 words, Bold — one key phrase in accent colour]"
+- Tool symbol: [geometric description from Tool Identity Reference — copy verbatim] — positioned [top-right / top-left / centred], large and structural
+- Role badge: "[SC role — Purchaser / Supply Planner / etc.]" — small label, top left
+- [SPATIAL ZONE 1 — LEFT / CENTRE / STEP 1 / etc.]:
   - [Label]: [2–3 word value]
-- [Annotation — the key insight. One sentence, specific.]
-- Tool badge: "[Tool name]" — bottom right corner
+  - [Label]: [2–3 word value]
+- [SPATIAL ZONE 2]:
+  - [Label]: [2–3 word value]
+  - [Label]: [2–3 word value]
+- [Continue for all zones in the chosen format]
+- [ANNOTATION LINE — only if opinion is the point]: "[One sentence, Tiger's editorial position]"
+- Sign-off line (small, bottom): "Shetty's Desk · Poornajith Shetty"
 
 CONTENT RULES:
-- Maximum 60 words total on the image (excluding labels)
-- Heading: maximum 8 words, set in Bold
-- Every element must be readable at mobile phone size
-- [One format-specific rule — name the dominant visual element]
-- Data labels and annotations preferred over paragraph text
+- Total words on image: 80–120 (all text combined)
+- Hero number is 3–4× larger than body text — first thing the eye finds
+- Every number is real — no placeholder figures
+- Maximum 2 font families throughout
+- Every element readable at mobile phone size (minimum 14px at 2048px output)
+- [Format-specific rule from the DNA library for this format — copy from the format entry]
 
 DO NOT:
 - Use font sizes below 14px at final output resolution
 - Add decorative elements that do not carry information
+- Use gradients on backgrounds — solid colour panels only
+- Place text on complex or illustrative backgrounds
+- Use more than 2 font families
 ```
 
 ---
@@ -419,10 +449,20 @@ After hook confirmed and PDF decision made:
 - [ ] Bullets use • not -?
 
 **Visual (Gemini prompt):**
-- [ ] Visual format matches the use case type?
-- [ ] Could be sketched in 30 seconds and understood in 10 seconds by someone outside SC?
-- [ ] VISUAL ANCHOR is present, specific, and names the focal element?
+- [ ] Visual format named — from the 50-format library in ai-for-sc-visual-dna.md?
+- [ ] Format matches the use case type (not defaulted to 4-card grid)?
+- [ ] VISUAL FORMAT line present in the prompt?
+- [ ] TOOL IDENTITY block present — correct palette + geometric symbol description (NOT "include the logo")?
+- [ ] VISUAL ANCHOR names a specific spatial structure — not a grid arrangement?
+- [ ] VISUAL ANCHOR names the single focal element?
+- [ ] Could a designer sketch the layout from the VISUAL ANCHOR alone?
+- [ ] Is this format visually distinct from the previous post in the same month?
+- [ ] Hero number present, real (field-sourced), and marked as largest element?
+- [ ] Role badge and Tool symbol both in the content list?
+- [ ] Format-specific rule from the DNA library included in CONTENT RULES?
+- [ ] Total word count for image content estimated at 80–120 words?
 - [ ] No negative prompts?
+- [ ] Sign-off line included?
 
 **PDF (if requested):**
 - [ ] Prompt template has all variables in [BRACKETS] with clear labels?
