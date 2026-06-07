@@ -16,39 +16,51 @@ What changed from v2.0: the 4-structure limit is removed. Each post now has a fo
 
 ## Tool Identity System (The Defining Rule)
 
-Every AI for Supply Chain post takes on the complete visual identity of the tool it features. The image looks like it belongs to that tool — not to Shetty's Desk. The tool's palette and symbolic form are the image's brand. Shetty's Desk identity appears only in the sign-off line at the bottom.
+Every AI for Supply Chain post takes on the complete visual identity of the tool it features. The image looks like it belongs to that tool — not to Shetty's Desk. The tool's palette and symbolic form are the image's brand.
 
 **Critical rule on tool symbols**: Gemini cannot reproduce copyrighted logos. Do NOT ask it to "include the Claude logo" or "include the ChatGPT logo" — this produces generic placeholders. Instead, describe the geometric form of the symbol precisely. Gemini renders described shapes accurately. The colour + geometric form together produce instant brand recognition without copying a trademark.
 
 ### Tool Identity Reference
 
 **CLAUDE (Anthropic)**
-- Background: Warm off-white (#FAF8F5) or deep charcoal (#1A1A1A)
-- Accent: Anthropic coral (#E8612A)
-- Symbol: "An 8-pointed starburst with slightly curved, tapering arms radiating from a small hollow centre point — like a snowflake with smooth organic arms, not sharp geometric points. Rendered in Anthropic coral. Large, structural — a centrepiece or prominent panel element, not a corner watermark."
+- Background: Cream/Pampas (#F4F3EE) or deep charcoal (#191919)
+- Primary: Clay coral (#C15F3C)
+- Supporting palette: Tan (#D4A27F) · Soft clay (#F3E0D6) · Cloudy grey (#B1ADA1) — for mid-tone fills and tinted panels
+- Symbol: "An 8-pointed starburst with slightly curved, tapering arms radiating from a small hollow centre point — like a snowflake with smooth organic arms, not sharp geometric points. Rendered in clay coral (#C15F3C). Large, structural — a centrepiece or prominent panel element, not a corner watermark."
 - Feel: Warm, intelligent, document-grade.
 
 **CHATGPT (OpenAI)**
-- Background: Near-black (#0D0D0D) or dark charcoal (#1E1E1E)
-- Accent: OpenAI green (#10A37F)
+- Background: Near-black (#0D0D0D) or dark charcoal (#1E1E1E) · Light neutral: Surface (#F7F7F8)
+- Primary: OpenAI green (#10A37F)
+- Supporting palette: Lilac (#AB68FF) · Mint (#D7F0E7) · Sea Nymph teal (#74AA9C)
 - Symbol: "A smooth, continuous loop forming a stylised rounded shape — two curved forms completing each other in a fluid, seamless circle, like an infinity symbol closed into itself. Rendered in OpenAI green on dark background."
 - Feel: Dark, premium, technical authority.
 
 **COPILOT (Microsoft)**
 - Background: White (#FFFFFF) or light grey (#F5F5F5)
-- Accent: Microsoft blue (#0078D4)
+- Primary: Heritage Microsoft blue (#0078D4)
+- Gradient palette (pick 2–3 adjacent stops for infographic panels): Blue (#199FD7) · Green (#99BD3C) · Yellow (#F4D35E) · Orange (#FC7942) · Purple (#8A50D8) · Pink (#EE5091)
 - Symbol: "A swirling multi-section circle divided into 4 colour-coded arc segments — blue, green, yellow, red — arranged like a pinwheel or stylised colour wheel, the segments slightly separated with white gaps between them. Microsoft brand colours."
 - Feel: Clean, enterprise, familiar to Office users.
 
 **GEMINI (Google)**
-- Background: White (#FFFFFF) or very light grey
-- Accent: Rotating use of Google blue (#4285F4), red (#EA4335), yellow (#FBBC05), green (#34A853)
-- Symbol: "A four-pointed star with a long vertical axis and shorter horizontal points — like a diamond rotated 45 degrees with elongated top and bottom tips. The points taper to fine points. Rendered in a soft blue-to-white gradient or solid Google blue."
+- Background: White (#FFFFFF) or very light grey · Dark: (#1F1F1F)
+- Primary: Google blue (#4285F4)
+- Option A — four-colour set (current Google identity): Blue (#4285F4) · Red (#EA4335) · Yellow (#FBBC04) · Green (#34A853)
+- Option B — AI gradient feel: Blue (#4285F4) through Purple (#9168E0)
+- Symbol: "A four-pointed star with a long vertical axis and shorter horizontal points — like a diamond rotated 45 degrees with elongated top and bottom tips. The points taper to fine points. Rendered in a soft blue-to-purple gradient or solid Google blue."
 - Feel: Light, analytical, multi-source intelligence.
+
+**PERPLEXITY**
+- Background: Paper White (#FBFAF4) or dark teal (#091717)
+- Primary: True Turquoise (#20808D)
+- Supporting palette: Bright cyan (#1FB8CD) · Turquoise wash (#D6ECEF) · Dark teal (#13343B) — for secondary fills and panel depth
+- Symbol: "A clean 4-pointed star with equal-length points radiating from a compact square centre, each point tapering to a fine tip at 12, 3, 6, and 9 o'clock — an editorial compass rose. Rendered in True Turquoise. Minimal, high-contrast."
+- Feel: Editorial, calm, research-grade.
 
 **MULTI-TOOL COMPARISON**
 - Background: Dark navy (#0F172A)
-- Accent: White panels, each tool's accent colour used inside its comparison column
+- Accent: White panels, each tool's primary colour used inside its comparison column
 - Symbols: Each tool's geometric symbol rendered small and equal size, one per column header
 - Feel: Neutral referee — no tool is favoured visually.
 
@@ -647,7 +659,6 @@ HERO NUMBER: "[Manual time] → [AI-assisted time]" — this is the largest text
 CONTENT TO INCLUDE ON THE IMAGE:
 - Heading: "[5–8 words, Bold — one key phrase in accent colour]"
 - Tool symbol: [geometric description from Tool Identity Reference — copy verbatim] — positioned [top-right / top-left / centred], large and structural
-- Role badge: "[SC role — Purchaser / Supply Planner / etc.]" — small label, top left
 - [SPATIAL ZONE 1 — LEFT / CENTRE / STEP 1 / etc.]:
   - [Label]: [2–3 word value]
   - [Label]: [2–3 word value]
@@ -656,7 +667,6 @@ CONTENT TO INCLUDE ON THE IMAGE:
   - [Label]: [2–3 word value]
 - [Continue for all zones in the chosen format]
 - [ANNOTATION LINE — only if opinion is the point]: "[One sentence, Tiger's editorial position]"
-- Sign-off line (small, bottom): "Shetty's Desk · Poornajith Shetty"
 
 CONTENT RULES:
 - Total words on image: 80–120 (all text combined)
@@ -694,7 +704,7 @@ NOT THIS (invented numbers):
 
 NOT THIS (wrong palette for the tool):
 "A Claude post with blue and white Microsoft-style panels."
-→ The tool palette is the identity. Claude = Anthropic coral on warm off-white.
+→ The tool palette is the identity. Claude = clay coral (#C15F3C) on cream (#F4F3EE).
 
 NOT THIS (format defaulted to 4-card grid):
 Assigning Sequential Steps for every post regardless of use case type.
@@ -721,10 +731,9 @@ Under 60 words total (looks empty, no save value) OR over 140 words (illegible a
 - [ ] Could a designer sketch the layout from the VISUAL ANCHOR alone?
 - [ ] Is this format visually distinct from the previous post in the same month?
 - [ ] Hero number present, real (field-sourced), and marked as largest element?
-- [ ] Role badge (SC role) and Tool symbol both in the content list?
+- [ ] Tool symbol in the content list — geometric description copied verbatim from Tool Identity Reference?
 - [ ] Content list is specific — real labels, real descriptions, not placeholders?
 - [ ] Total word count for image content estimated at 80–120 words?
 - [ ] Format-specific rule from the DNA library included in CONTENT RULES?
 - [ ] Annotation line only included if opinion IS the point of this post?
 - [ ] No gradients, no floating labels, no more than 2 fonts specified?
-- [ ] Sign-off line included?

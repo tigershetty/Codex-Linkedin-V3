@@ -234,7 +234,6 @@ HERO NUMBER: "[Manual time] → [AI-assisted time]" — this is the largest text
 CONTENT TO INCLUDE ON THE IMAGE:
 - Heading: "[5–8 words, Bold — one key phrase in accent colour]"
 - Tool symbol: [geometric description from Tool Identity Reference — copy verbatim] — positioned [top-right / top-left / centred], large and structural
-- Role badge: "[SC role — Purchaser / Supply Planner / etc.]" — small label, top left
 - [SPATIAL ZONE 1 — LEFT / CENTRE / STEP 1 / etc.]:
   - [Label]: [2–3 word value]
   - [Label]: [2–3 word value]
@@ -243,7 +242,6 @@ CONTENT TO INCLUDE ON THE IMAGE:
   - [Label]: [2–3 word value]
 - [Continue for all zones in the chosen format]
 - [ANNOTATION LINE — only if opinion is the point]: "[One sentence, Tiger's editorial position]"
-- Sign-off line (small, bottom): "Shetty's Desk · Poornajith Shetty"
 
 CONTENT RULES:
 - Total words on image: 80–120 (all text combined)
@@ -458,7 +456,7 @@ After hook confirmed and PDF decision made:
 - [ ] Could a designer sketch the layout from the VISUAL ANCHOR alone?
 - [ ] Is this format visually distinct from the previous post in the same month?
 - [ ] Hero number present, real (field-sourced), and marked as largest element?
-- [ ] Role badge and Tool symbol both in the content list?
+- [ ] Tool symbol in the content list — geometric description copied verbatim from Tool Identity Reference?
 - [ ] Format-specific rule from the DNA library included in CONTENT RULES?
 - [ ] Total word count for image content estimated at 80–120 words?
 - [ ] No negative prompts?
