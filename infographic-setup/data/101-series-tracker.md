@@ -4,7 +4,7 @@
 **Frequency (Phase 1)**: Bulk-scheduled 2026-05-08 to publish by 2026-05-15 (original 2/week cadence abandoned)
 **Period (Phase 1)**: March – May 2026 (W11–W18)
 **Status**: Phase 1 complete — all 24 episodes published or scheduled. Phase 2 (monthly theme model) begins W21.
-**Last updated**: 2026-05-24
+**Last updated**: 2026-06-07
 
 ---
 
@@ -59,7 +59,11 @@ The series continues as **Supply Chain 101 — [Function] Edition** from W21 onw
 | Ep | Topic | Week | Slug | Hook Type | Status |
 |---|---|---|---|---|---|
 | 25 | Supplier Scorecard | 2026-W21 | supplier-scorecard | Question-Why | Copy saved — pending publish |
-| 26 | How a Purchase Order Actually Works | 2026-W21 | how-a-purchase-order-works | Contrarian | Copy saved — pending publish |
+| 26 | — | — | — | — | — |
+| 27 | How a Purchase Order Actually Works | 2026-W21 | how-a-purchase-order-works | Contrarian | Copy saved — pending publish |
+| 28–29 | (AI for SC W21 — unified numbering) | 2026-W21 | rfq-with-claude / should-cost-model | — | See ai-for-sc-series-tracker.md |
+| 30 | The Procurement Cycle (7-step flow) | 2026-W22 | procurement-cycle | Contrarian | Copy saved — pending publish |
+| 31 | Spend Analysis | 2026-W22 | spend-analysis | Question-Why | Copy saved — pending publish |
 
 | Month | Theme | Weeks | Posts |
 |---|---|---|---|

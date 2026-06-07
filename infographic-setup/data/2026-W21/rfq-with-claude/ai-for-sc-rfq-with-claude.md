@@ -3,7 +3,7 @@
 **Theme**: Procurement
 **Role**: Purchaser
 **Tool**: Claude
-**Episode**: Ep01
+**Episode**: Ep28 (unified series numbering)
 **Visual Format**: Blueprint Draft (hub-and-spoke)
 **Hero Statement**: "2-3 days → 20 min"
 **Status**: Published
