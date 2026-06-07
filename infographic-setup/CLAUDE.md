@@ -82,7 +82,7 @@ Before generating, the skill loads: `tiger-voice.md`, `references/published-voic
 **Reference files (AI for SC only):**
 | File | Purpose |
 |---|---|
-| `~/Claude Nano /tiger-voice.md` | Master voice DNA — loaded first, applies to all AI for SC output |
+| `tiger-voice.md` | Master voice DNA — loaded first, applies to all AI for SC output |
 | `references/published-voice.md` | Hook quality bar, "NOT THIS" list, annotated examples |
 | `references/101-voice.md` | Accessible register for the SC concept layer |
 | `references/ai-for-sc-plan-v2.md` | Fully pre-defined W21–W52 topic plan — Role, Tool, Use Case, Hook direction per post |

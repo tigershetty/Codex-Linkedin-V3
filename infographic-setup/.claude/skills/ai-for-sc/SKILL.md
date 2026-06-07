@@ -23,7 +23,7 @@ Read all five before generating a single word. They are the intelligence base.
 
 | File | What it provides |
 |---|---|
-| `~/Claude Nano /tiger-voice.md` | Voice DNA — rhythm, opinion style, what to reject, pattern breakers |
+| `tiger-voice.md` | Voice DNA — rhythm, opinion style, what to reject, pattern breakers |
 | `references/published-voice.md` | Hook quality bar, "NOT THIS" list, annotated examples |
 | `references/101-voice.md` | Accessible register, plain language first, adapted hook taxonomy |
 | `references/ai-for-sc-plan-v2.md` | Pre-defined topic plan — load the week's two use cases (Role, Tool, Use Case, Hook direction) |
