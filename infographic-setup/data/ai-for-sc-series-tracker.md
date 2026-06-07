@@ -1,38 +1,56 @@
 # AI for Supply Chain — Series Tracker
 **Series**: AI for Supply Chain (Posts 3+4 each week)
-**Format**: SC Practitioner post + SC Leader post per week — 2 LinkedIn captions + 2 PDF drafts
-**Topic bank**: `infographic-content-engine-v1/CLAUDE.md` → Part 3 (Monthly Theme Model)
-**Frequency**: 2 posts/week (Posts 3+4 in weekly sub-topic, alongside 101 Posts 1+2)
+**Format**: Two practical use-case posts per week — each for a specific SC role and AI tool
+**Topic bank**: Monthly theme model (see `infographic-setup/CLAUDE.md` Part 3)
+**Frequency**: 2 posts/week (Posts 3+4 in weekly quartet, alongside 101 Posts 1+2)
 **Period**: W21 onward (May 2026+)
-**Status**: Not yet started — first run scheduled W21
-**Last updated**: 2026-05-24
+**Status**: Active — v2 pipeline (use-case model, no fixed Practitioner/Leader split)
+**Last updated**: 2026-06-07
 
 ---
 
 ## Episode Status
 
-| Ep | Post Type | Sub-topic | Week | Slug | Hook Type | Status |
-|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | No episodes yet |
+| Ep | Role | Use Case | Week | Theme | Tool | Slug | Hook Type | Status |
+|---|---|---|---|---|---|---|---|---|
+| — | — | — | — | — | — | — | — | No episodes yet |
 
-*Previous draft (Ep1 type C — "The Supply Chain Tasks AI Handles Well vs. The Ones That Still Need You") was generated under the old format. Not published. Superseded by monthly theme model.*
+*v1 drafts (RFQ with Claude, W21 Leader posts) generated under old Practitioner/Leader format — not published, superseded by v2. Files on `update/voice-v1-and-tracker-cleanup` branch for reference.*
 
 ---
 
 ## Notes
-- Each week produces 2 episodes: one SC Practitioner post (Post 3) + one SC Leader post (Post 4)
-- Each episode = 1 LinkedIn caption file + 1 PDF draft file (both required — post without PDF is incomplete)
-- Episode numbers are sequential across both post types (Ep1 = first Practitioner, Ep2 = first Leader, etc.)
-- Hook Type field: record which hook pattern was used (frustration-first / time-pressure / competitiveness-tension)
-- Run `/retrospective` before generating a new week's posts — save rate by visual format informs next format choice
+- Each week = two posts: different SC role + different AI tool per post
+- File naming: `ai-for-sc-[use-case-slug].md` (not practitioner/leader)
+- PDF draft is optional — confirmed with "Yes/No" after caption + Gemini prompt are approved
+- Hook rule: role + current limitation (specific tool: SAP/Excel/Power BI) + AI unlock — all three required
+- "When NOT to use AI" sentence is mandatory in every caption
+- Run `/retrospective` before generating new week's posts — visual format save rate informs next choice
 - PDF drafts hosted at shettysdesk.com — update with live URL once published
 
 ---
 
 ## Visual Format Performance Log
 
-Track which visual formats drive highest save rates. Use before choosing format for upcoming week.
-
 | Visual Format | Times Used | Avg Save Rate | Notes |
 |---|---|---|---|
-| — | — | — | No data yet — update after first 4 posts |
+| — | — | — | No data yet — update after first published posts |
+
+---
+
+## Role Coverage Log
+
+| Role | Times Used | Last Used Week |
+|---|---|---|
+| — | — | No posts yet |
+
+---
+
+## Tool Coverage Log
+
+| AI Tool | Times Used | Last Used Week |
+|---|---|---|
+| Claude | — | — |
+| ChatGPT | — | — |
+| Copilot | — | — |
+| Grok | — | — |
