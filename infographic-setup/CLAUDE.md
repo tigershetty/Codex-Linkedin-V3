@@ -3,7 +3,7 @@
 ## Session Start — Do This First
 1. Check `data/` for the current ISO week folder and active slug
 2. Report which stage the active slug is at (which files exist)
-3. **Auto-check for incomplete AI for SC posts**: scan for any `{slug}/` folders containing `ai-for-sc-practitioner.md` without a matching `ai-for-sc-practitioner-pdf.md`, or `ai-for-sc-leader.md` without `ai-for-sc-leader-pdf.md` — flag these as incomplete
+3. **Auto-check for incomplete AI for SC posts**: scan for any `{slug}/` folders containing `ai-for-sc-[slug].md` — note any where a PDF was likely requested but `ai-for-sc-[slug]-pdf.md` is missing
 4. **Ask: "Deep Dive, Supply Chain 101, or AI for Supply Chain?"** — this determines the pipeline (CG0)
 5. For Deep Dive: remind to upload `references/brand-anchor-v1.webp` to the Gemini Gem
 6. Flag any incomplete gates: CG1 (topic not selected), CG2 (hook not selected — deep dive only)
@@ -85,6 +85,8 @@ Before generating, the skill loads: `tiger-voice.md`, `references/published-voic
 | `~/Claude Nano /tiger-voice.md` | Master voice DNA — loaded first, applies to all AI for SC output |
 | `references/published-voice.md` | Hook quality bar, "NOT THIS" list, annotated examples |
 | `references/101-voice.md` | Accessible register for the SC concept layer |
+| `references/ai-for-sc-plan-v2.md` | Fully pre-defined W21–W52 topic plan — Role, Tool, Use Case, Hook direction per post |
+| `references/master-calendar.md` | Top-level monthly theme calendar — both series aligned |
 | `data/ai-for-sc-series-tracker.md` | Published episodes log — tracks role, tool, use case, week |
 
 ---
@@ -134,10 +136,8 @@ data/
     topic-scout.md                    ← deep dive candidates (deep dive only)
     {topic-slug}/
       101-copy.md                     ← 101 only (hooks + caption + Gemini prompt)
-      ai-for-sc-practitioner.md       ← AI for SC Practitioner post (hooks + caption + Gemini prompt)
-      ai-for-sc-practitioner-pdf.md   ← AI for SC Practitioner PDF draft (5-page markdown)
-      ai-for-sc-leader.md             ← AI for SC Leader post (hooks + caption + Gemini prompt)
-      ai-for-sc-leader-pdf.md         ← AI for SC Leader PDF draft (5-page markdown)
+      ai-for-sc-[use-case-slug].md     ← AI for SC post: hooks + caption + Gemini prompt (one file per post)
+      ai-for-sc-[use-case-slug]-pdf.md ← AI for SC PDF draft (5-page markdown, only if requested)
       research.md                     ← deep dive only
       message-commit.md               ← deep dive only (contains selected hook)
       content.md                      ← deep dive only
@@ -154,12 +154,12 @@ data/
 - **NEGATIVE prompt blocks degrade render quality** — never add them to Gemini prompts
 - **Hooks become the verbatim opening line of the published post** — voice rules apply at hook generation
 - **AI for SC: PDF draft is optional** — after caption + Gemini prompt are presented, ask "Would you like a PDF draft? (Yes / No)" before generating
-- **AI for SC: run `/retrospective` before generating a new week's posts** — save rate by visual format type informs format choice
+- **AI for SC: use cases are pre-defined in `references/ai-for-sc-plan-v2.md`** — load this file at Step 1 and confirm the pre-defined use cases with the user before generating hooks
 - **AI for SC: load tiger-voice.md + published-voice.md + 101-voice.md before generating** — all three references apply
 - **AI for SC: hook must name role + current limitation + AI unlock** — all three elements required; "current limitation" must name the actual tool (SAP, Excel, Power BI) not generic friction
 - **AI for SC: "When NOT to use AI" sentence is mandatory in every post** — it is the trust signal, not optional
 - **AI for SC: two posts per week = two different SC roles + two different AI tools** — do not repeat the same role or tool in the same week
-- **AI for SC: use cases are defined at runtime** — not pre-assigned. Check the series tracker to avoid repeating a role + use case combination
+- **AI for SC: check `data/ai-for-sc-series-tracker.md` before generating** — confirm the pre-defined episode hasn't already been published, and verify no role + use case repeat
 - **101: no research stage** — the monthly topic bank in this CLAUDE.md IS the source of truth for topic content
 - **101: no CG2** — all 10 hooks + caption generated in one pass, user picks at the end
 - **Deep dive: research.md must exist before /message** — /message will error on scout data alone

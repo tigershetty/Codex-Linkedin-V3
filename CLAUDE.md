@@ -1,26 +1,21 @@
-# Claude Nano — Workspace
+# Shetty's Desk — LinkedIn-V2 Workspace
 
 ## Projects
 | Project | Entry point | Status | Purpose |
 |---|---|---|---|
-| `infographic-content-engine-v1/` | `/infographic` | Active | Weekly LinkedIn infographic pipeline for Shetty's Desk |
-| `infographic-video-engine/` | `npm run dev` | Active | Remotion video compositions for Shetty's Desk |
-| `infographic-engine-web/` | — | In development | Web app version of the infographic engine |
-| `Frontend/` | — | In development | Frontend work (Vercel/Supabase) |
+| `infographic-setup/` | `/infographic` | Active | Weekly LinkedIn infographic pipeline for Shetty's Desk |
+| `infographic-engine-web/` | `npm run dev` | In development | Web app version of the infographic engine (Vercel deployment) |
 | `Eco Mobility/` | — | Reference only | Prior project, reference use only |
-| `Trial - Outputs/` | — | Archive | Past output experiments |
 
 ## Folder Map
 ```
-Claude Nano /
-  infographic-content-engine-v1/   ← active pipeline (skills, data, references)
-  infographic-video-engine/         ← Remotion video compositions
-  infographic-engine-web/           ← web product build
-  Frontend/                         ← frontend projects
-  Eco Mobility/                     ← reference
-  Trial - Outputs/                  ← archive
-  .claude/                          ← firecrawl cache, settings
-  .firecrawl/                       ← gemini-research cache
+LinkedIn-V2/
+  infographic-setup/           ← active pipeline (skills, data, references, voice)
+  infographic-engine-web/      ← web product build (frontend + backend)
+  Eco Mobility/                ← reference
+  .claude/                     ← settings
+  tiger-voice.md               ← master voice DNA
+  voice-interview-plan.md      ← voice interview reference
 ```
 
 ## Gemini — Two Separate Uses
@@ -31,7 +26,7 @@ Claude Nano /
 - Always check for existing files before creating new ones
 - Never delete files without explicit approval
 - Never install packages silently — flag before adding dependencies
-- Brand anchor image lives at: `infographic-content-engine-v1/references/brand-anchor-v1.webp`
+- Brand anchor image lives at: `infographic-setup/references/brand-anchor-v1.webp`
 
 ## Voice DNA
 - **File:** `tiger-voice.md` (workspace root)
@@ -46,23 +41,29 @@ Claude Nano /
 | Branch | Pipeline | When to Use | Voice Register |
 |---|---|---|---|
 | **Deep Dive** | `/scout → /research → /message → /content → /gemini-prompt` | Data-heavy, case-study infographics for SC practitioners | Technical, industry-grade, numbers-heavy |
-| **Supply Chain 101** | `/101 [topic]` (single step — hooks + caption + Gemini prompt) | Weekly educational series, plain-language SC concepts | Simplified, relatable, no jargon |
-| **AI for Supply Chain** | `/ai-for-sc` | AI applications in supply chain operations | Mix — technical on AI, accessible on SC |
+| **Supply Chain 101** | `/101 [topic-number]` (single step) | Weekly educational series, plain-language SC concepts | Simplified, relatable, no jargon |
+| **AI for Supply Chain** | `/ai-for-sc [week]` (two posts per week) | AI workflows for specific SC roles — procurement, planning, logistics | Role-specific, tool-specific, copy-paste ready |
 
 ### Key Differences
 - **Deep Dive** uses full research pipeline with evidence ledger, 12+ sources, CG2 hook selection gate
-- **Supply Chain 101** skips research — topics come from `shettys-desk-90-day-plan-v2.docx.md`, no CG2 gate, generate all hooks + caption in one step
-- **AI for Supply Chain** is the newest branch, still being defined
+- **Supply Chain 101** skips research — topics pre-defined in `infographic-setup/references/101-plan.md` (W21–W52)
+- **AI for Supply Chain** skips research — use cases pre-defined in `infographic-setup/references/ai-for-sc-plan-v2.md` (W21–W52)
 - All three share the same voice file (`tiger-voice.md`), hook taxonomy, and `data/{week}/` folder structure
 
-### Series Tracker
-- 101 series progress tracked in `infographic-content-engine-v1/data/101-series-tracker.md`
-- 90-day topic plan: `shettys-desk-90-day-plan-v2.docx.md` (workspace root)
+### Master Calendar
+- Both series (101 and AI for SC) run on the same 7-month monthly theme calendar
+- Calendar overview: `infographic-setup/references/master-calendar.md`
+- 101 full plan: `infographic-setup/references/101-plan.md`
+- AI for SC full plan: `infographic-setup/references/ai-for-sc-plan-v2.md`
+
+### Series Trackers
+- 101 series: `infographic-setup/data/101-series-tracker.md`
+- AI for SC series: `infographic-setup/data/ai-for-sc-series-tracker.md`
 
 ## Deployment
-- **Repo:** `github.com/tigershetty/Linkedin-content-engine-Info`
+- **Repo:** `github.com/tigershetty/linkedin-v2`
 - **Vercel:** Root directory set to `infographic-engine-web/frontend` (Vite + React app)
-- **Purpose:** Version control + iOS access via Claude Code web + web app deployment
+- **Purpose:** Version control + remote Claude Code access + web app deployment
 
 ## LinkedIn Auto-Posting — On Hold
 - **Status:** Paused — resume when ready to test

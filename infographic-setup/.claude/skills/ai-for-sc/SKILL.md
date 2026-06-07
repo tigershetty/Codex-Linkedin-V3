@@ -26,7 +26,7 @@ Read all five before generating a single word. They are the intelligence base.
 | `~/Claude Nano /tiger-voice.md` | Voice DNA — rhythm, opinion style, what to reject, pattern breakers |
 | `references/published-voice.md` | Hook quality bar, "NOT THIS" list, annotated examples |
 | `references/101-voice.md` | Accessible register, plain language first, adapted hook taxonomy |
-| `infographic-setup/CLAUDE.md` Part 3 | Monthly theme model — extract the week's theme |
+| `references/ai-for-sc-plan-v2.md` | Pre-defined topic plan — load the week's two use cases (Role, Tool, Use Case, Hook direction) |
 | `data/ai-for-sc-series-tracker.md` | Episode tracking — last use case, tool, and role used |
 
 **Read all five before generating a single word.**
@@ -51,9 +51,7 @@ Read all five before generating a single word. They are the intelligence base.
    - Accessible register: plain language first, technical term explained second
    - The test: would the right SC person read this over coffee and recognise their own workflow?
 
-4. Read `infographic-setup/CLAUDE.md` Part 3 — extract:
-   - Month theme and week sub-topic for the requested week
-   - Adjacent weeks' themes to avoid repetition
+4. Read `references/ai-for-sc-plan-v2.md` — extract Post A and Post B for the requested week. Note the Role, Tool, Use Case, and Hook direction for each. Do not define use cases at runtime — the plan is the source of truth.
 
 5. Read `data/ai-for-sc-series-tracker.md` — note:
    - Last episode number
@@ -61,33 +59,43 @@ Read all five before generating a single word. They are the intelligence base.
 
 ---
 
-## Step 2: Define the Two Use Cases
+## Step 2: Load Pre-Defined Use Cases
 
-For each week, identify two practical AI use cases within the week's theme. Each use case must specify:
+Use cases are pre-defined in `references/ai-for-sc-plan-v2.md`. Do not define them at runtime.
 
-| Field | Description |
-|---|---|
-| **Role** | The specific SC role this post is for. Examples: purchaser, supply planner, logistics coordinator, transport specialist, demand planner, category manager, warehouse manager, S&OP analyst. Name the role explicitly in the post. |
-| **Current workflow** | What they do today and which tool they use: SAP, Excel, Power BI, email, manual research, SharePoint. Be specific. |
-| **The friction** | The specific pain: takes X days, requires IT ticket, produces inconsistent results, misses variable Y, rebuilds same spreadsheet weekly. |
-| **AI tool** | Claude / ChatGPT / Copilot / Grok — matched to the task type (see selection layer below). |
-| **The unlock** | What changes concretely: produces the document in 20 minutes, runs the simulation, retrieves country-specific regulation, generates the checklist. |
-| **Output format** | What the person gets back: a paste-ready document, a dashboard spec, a compliance checklist, a comparison table. |
+1. Open `references/ai-for-sc-plan-v2.md` and locate the entry for the requested week
+2. Extract Post A and Post B — Role, Tool, Use Case, Hook direction
+3. Cross-check `data/ai-for-sc-series-tracker.md` — confirm this episode hasn't been published already
+4. Present to the user before generating anything:
 
-### AI Tool Selection Layer
-- **Claude**: Long-form document drafting, multi-step reasoning, RFQ generation, policy/compliance research, structured analysis, scenario framing, country export documentation
-- **ChatGPT**: Calculation, formula-based analysis, broad data interpretation, fast iteration, image generation, supplier scoring models
-- **Copilot**: Excel formulas, Power BI dashboards, Word/PowerPoint, in-file data analysis, Teams integration — anything that lives inside Microsoft 365
-- **Grok**: Real-time data, news-linked research, live market signals, tariff and regulatory updates
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ W[##] — [Theme]
+ Pre-defined use cases:
 
-### Use Case Selection Rules
-- Use cases must serve **different SC roles** within the same week's theme — avoid two posts for the same job title in the same week
-- Avoid using the **same AI tool** twice in the same week
-- Check the series tracker: avoid repeating a **role + use case combination** that has already been covered
-- One use case should be a **workflow task** (something the person does regularly); the other can be a **new capability** (something AI enables that wasn't feasible before)
-- Use cases are defined at runtime — they are not pre-assigned. Pick the two that are most relevant, practical, and differentiated for the week's theme
+ Post A (Ep[##]): [Role] + [Tool]
+ → [Use Case]
 
-If the user has pre-defined the use case (e.g., "RFQ with Claude for a purchaser"), accept it and proceed. If not, propose two use cases and get confirmation before generating.
+ Post B (Ep[##]): [Role] + [Tool]
+ → [Use Case]
+
+ Confirm to proceed, or override a use case?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+5. If confirmed — proceed to Step 3 (hooks) for Post A
+6. If the user overrides a use case — accept it and verify:
+   - Different SC role from the other post
+   - Different AI tool from the other post
+   - Not a repeat of a role + use case already in the series tracker
+
+Do NOT generate hooks until use cases are confirmed.
+
+### AI Tool Selection (reference)
+- **Claude** — document drafting, structured analysis, RFQ generation, compliance language, scenario framing
+- **ChatGPT** — calculation, formula-based analysis, scoring models, cost comparisons, scenario modelling
+- **Copilot** — Excel formulas, Power BI, Word/PowerPoint, in-file data analysis, Microsoft 365 workflows
+- **Gemini** — market research, trade compliance, multi-source web search, live data
 
 ---
 
