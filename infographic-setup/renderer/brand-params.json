@@ -1,0 +1,47 @@
+{
+  "_note": "STUB — populate by committing Canva brand kit assets from /Users/tigershetty/Design Reference/Shettys-Desk-Brand-Kit to infographic-setup/renderer/assets/. Extract hex codes, font names, and logo SVG paths from the kit, then update this file.",
+  "_status": "pending-brand-kit-extraction",
+  "colors": {
+    "background": "#F4F3EE",
+    "text": "#1A1A1A",
+    "textSecondary": "#4A4A4A",
+    "primary": "#PENDING",
+    "accent": "#PENDING",
+    "border": "#E0DED8",
+    "toolIdentity": {
+      "claude": {
+        "background": "#F4F3EE",
+        "accent": "#C15F3C",
+        "symbol": "8-pointed starburst with curved tapering arms"
+      },
+      "chatgpt": {
+        "background": "#F7F7F8",
+        "accent": "#10A37F"
+      },
+      "copilot": {
+        "background": "#F0F4FF",
+        "accent": "#2563EB"
+      },
+      "gemini": {
+        "background": "#F0F4FF",
+        "accent": "#1B73E8"
+      }
+    }
+  },
+  "fonts": {
+    "heading": "PENDING — extract from Canva brand kit",
+    "body": "PENDING — extract from Canva brand kit",
+    "mono": "JetBrains Mono, monospace",
+    "_fallbacks": "system-ui, -apple-system, sans-serif"
+  },
+  "logo": {
+    "svg": "assets/logo.svg",
+    "wordmark": "assets/wordmark.svg",
+    "_note": "Copy logo SVG from brand kit into assets/ directory"
+  },
+  "dimensions": {
+    "canvas": "2048x2048",
+    "aspectRatio": "1:1",
+    "padding": 80
+  }
+}
