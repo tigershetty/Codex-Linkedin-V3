@@ -1,6 +1,7 @@
 {
-  "_note": "STUB — populate by committing Canva brand kit assets from /Users/tigershetty/Design Reference/Shettys-Desk-Brand-Kit to infographic-setup/renderer/assets/. Extract hex codes, font names, and logo SVG paths from the kit, then update this file.",
-  "_status": "pending-brand-kit-extraction",
+  "_note": "Brand params for Shetty's Desk infographic system. Tool identity palettes sourced from AI Tool Brand Palette Reference (committed 2026-06-13). Shetty's Desk primary/accent pending Canva brand kit extraction.",
+  "_status": "tool-palettes-complete; shettydesk-colors-pending",
+
   "colors": {
     "background": "#F4F3EE",
     "text": "#1A1A1A",
@@ -8,37 +9,75 @@
     "primary": "#PENDING",
     "accent": "#PENDING",
     "border": "#E0DED8",
+    "_note_primary": "Extract Shetty's Desk primary + accent from Canva brand kit and replace PENDING values",
+
     "toolIdentity": {
       "claude": {
         "background": "#F4F3EE",
         "accent": "#C15F3C",
-        "symbol": "8-pointed starburst with curved tapering arms"
+        "accentTan": "#D4A27F",
+        "tint": "#F3E0D6",
+        "textDark": "#191919",
+        "textMid": "#B1ADA1",
+        "symbol": "8-pointed starburst with slightly curved tapering arms radiating from a small hollow centre point — smooth organic arms, rendered in Anthropic coral #C15F3C"
       },
       "chatgpt": {
         "background": "#F7F7F8",
-        "accent": "#10A37F"
+        "accent": "#10A37F",
+        "accentAlt": "#74AA9C",
+        "tint": "#D7F0E7",
+        "accentLilac": "#AB68FF",
+        "textDark": "#0D0D0D",
+        "symbol": "hexagonal ring — six-segment outline, no fill, slightly rounded corners, rendered in ChatGPT green #10A37F"
       },
       "copilot": {
-        "background": "#F0F4FF",
-        "accent": "#2563EB"
+        "background": "#FFFFFF",
+        "accent": "#0078D4",
+        "gradientStops": ["#199FD7", "#99BD3C", "#F4D35E", "#FC7942", "#EE5091", "#8A50D8"],
+        "textDark": "#1A1A1A",
+        "symbol": "four-pointed star with gradient fill — use two adjacent gradient stops (#199FD7 blue to #8A50D8 purple) for the flat infographic version",
+        "_note": "Copilot has no single primary — use 2-3 adjacent gradient stops for flat infographic use"
+      },
+      "perplexity": {
+        "background": "#FBFAF4",
+        "accent": "#20808D",
+        "accentBright": "#1FB8CD",
+        "tint": "#D6ECEF",
+        "textDark": "#091717",
+        "textHeading": "#13343B",
+        "symbol": "stylised P with turquoise fill — clean bold letterform at #20808D"
       },
       "gemini": {
-        "background": "#F0F4FF",
-        "accent": "#1B73E8"
+        "background": "#FFFFFF",
+        "accent": "#4285F4",
+        "accentPurple": "#9168E0",
+        "tint": "#D6E4FC",
+        "textDark": "#1F1F1F",
+        "googleFourColors": {
+          "blue": "#4285F4",
+          "red": "#EA4335",
+          "yellow": "#FBBC04",
+          "green": "#34A853"
+        },
+        "symbol": "four-pointed star with blue-to-purple gradient fill — long vertical axis, short horizontal axis, rendered as a gemstone sparkle"
       }
     }
   },
+
   "fonts": {
     "heading": "PENDING — extract from Canva brand kit",
     "body": "PENDING — extract from Canva brand kit",
     "mono": "JetBrains Mono, monospace",
-    "_fallbacks": "system-ui, -apple-system, sans-serif"
+    "_fallbacks": "system-ui, -apple-system, sans-serif",
+    "_note": "Open Canva brand kit at /Users/tigershetty/Design Reference/Shettys-Desk-Brand-Kit, check Brand Kit > Fonts, commit the font names here"
   },
+
   "logo": {
     "svg": "assets/logo.svg",
     "wordmark": "assets/wordmark.svg",
-    "_note": "Copy logo SVG from brand kit into assets/ directory"
+    "_note": "Copy logo SVG from Canva brand kit into infographic-setup/renderer/assets/"
   },
+
   "dimensions": {
     "canvas": "2048x2048",
     "aspectRatio": "1:1",
