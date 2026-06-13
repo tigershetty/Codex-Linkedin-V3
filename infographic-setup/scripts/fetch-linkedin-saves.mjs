@@ -1,23 +1,23 @@
 /**
  * fetch-linkedin-saves.mjs
  *
- * Scrapes your LinkedIn saved posts ("My Items") and downloads images + captions.
+ * Scrapes your LinkedIn saved posts and downloads images + captions.
  *
  * SETUP (run once):
  *   npm install playwright
  *   npx playwright install chromium
  *
  * USAGE:
- *   node fetch-linkedin-saves.mjs --cookie <li_at>        # run for real
- *   node fetch-linkedin-saves.mjs --debug                  # save screenshot + HTML to debug/
- *   node fetch-linkedin-saves.mjs --limit 30 --output ./out
+ *   node fetch-linkedin-saves.mjs --cookie <li_at>         # run normally
+ *   node fetch-linkedin-saves.mjs --debug                   # save screenshots to debug/
+ *   node fetch-linkedin-saves.mjs --limit 30               # collect 30 posts
  *
  * GET YOUR li_at COOKIE:
- *   Chrome → DevTools (F12) → Application → Cookies → linkedin.com → li_at → copy Value
+ *   Chrome → F12 → Application tab → Cookies → linkedin.com → li_at → copy Value
  */
 
 import { chromium } from 'playwright';
-import { mkdir, writeFile, appendFile, readFile } from 'fs/promises';
+import { mkdir, writeFile, appendFile } from 'fs/promises';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -36,253 +36,249 @@ const DEBUG_DIR = join(REPO_ROOT, 'infographic-setup', 'scripts', 'debug');
 
 if (!COOKIE) {
   console.error('ERROR: LinkedIn cookie not provided.');
-  console.error('  Get it from: Chrome → DevTools → Application → Cookies → linkedin.com → li_at');
-  console.error('  Then run: node fetch-linkedin-saves.mjs --cookie <value>');
-  console.error('  Or set:   export LI_AT_COOKIE="<value>"');
+  console.error('  Get it: Chrome → F12 → Application → Cookies → linkedin.com → li_at → copy Value');
+  console.error('  Then:   node fetch-linkedin-saves.mjs --cookie <value>');
   process.exit(1);
 }
+
+async function wait(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function fetchSavedPosts() {
   await mkdir(OUTPUT_DIR, { recursive: true });
   if (DEBUG) await mkdir(DEBUG_DIR, { recursive: true });
 
-  console.log(`Output: ${OUTPUT_DIR}`);
-  console.log(`Limit: ${LIMIT} posts`);
-  if (DEBUG) console.log('DEBUG mode on — saving screenshots + HTML to:', DEBUG_DIR);
+  console.log(`Output dir : ${OUTPUT_DIR}`);
+  console.log(`Limit      : ${LIMIT} posts`);
 
-  const browser = await chromium.launch({
-    headless: !DEBUG, // show browser window in debug mode so you can see what's happening
-    slowMo: DEBUG ? 500 : 0
-  });
-
+  // Always headless — non-headless triggers LinkedIn bot detection
+  const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
-    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
-    viewport: { width: 1440, height: 900 }
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+    viewport: { width: 1440, height: 900 },
+    locale: 'en-US'
   });
 
-  // Set LinkedIn auth cookies
+  // ── Step 1: land on linkedin.com first, THEN set cookie ─────────────────
+  // Setting cookies before any navigation sometimes fails. Landing on the
+  // domain first ensures the cookie domain is accepted.
+  const page = await context.newPage();
+  console.log('\nLoading linkedin.com...');
+  await page.goto('https://www.linkedin.com/', { waitUntil: 'domcontentloaded', timeout: 20000 });
+
   await context.addCookies([
     { name: 'li_at', value: COOKIE, domain: '.linkedin.com', path: '/', httpOnly: true, secure: true, sameSite: 'None' },
     { name: 'lang', value: 'v=2&lang=en-us', domain: '.linkedin.com', path: '/' }
   ]);
 
-  const page = await context.newPage();
+  // ── Step 2: navigate to saved posts ────────────────────────────────────
+  console.log('Navigating to saved posts...');
+  await page.goto('https://www.linkedin.com/my-items/saved-posts/', {
+    waitUntil: 'domcontentloaded',   // ← NOT networkidle — avoids redirect loops
+    timeout: 25000
+  });
 
-  // ── Navigate to saved posts ──────────────────────────────────────────────
-  const SAVED_URL = 'https://www.linkedin.com/my-items/saved-posts/';
-  console.log(`\nNavigating to ${SAVED_URL} ...`);
-  await page.goto(SAVED_URL, { waitUntil: 'networkidle', timeout: 30000 });
-
-  // Check login status
-  const currentUrl = page.url();
-  if (currentUrl.includes('login') || currentUrl.includes('authwall')) {
-    console.error('\nERROR: Redirected to login page — cookie has expired or is invalid.');
-    console.error('Please copy a fresh li_at cookie from Chrome DevTools.');
+  // Verify we're logged in
+  const url = page.url();
+  if (url.includes('login') || url.includes('authwall') || url.includes('checkpoint')) {
+    console.error('\nERROR: LinkedIn redirected to login/checkpoint — cookie may be expired.');
+    console.error('Get a fresh li_at value from Chrome DevTools and try again.');
+    if (DEBUG) await page.screenshot({ path: join(DEBUG_DIR, 'login-redirect.png') });
     await browser.close();
     process.exit(1);
   }
 
-  // Wait for content to appear
-  await page.waitForTimeout(3000);
+  console.log(`Loaded: ${url}`);
+
+  // Wait for React to render the feed
+  await wait(4000);
 
   if (DEBUG) {
-    // Save screenshot and page HTML to understand the structure
-    const screenshotPath = join(DEBUG_DIR, 'page-initial.png');
-    await page.screenshot({ path: screenshotPath, fullPage: false });
-    console.log(`Screenshot saved: ${screenshotPath}`);
-
+    await page.screenshot({ path: join(DEBUG_DIR, '01-page-load.png'), fullPage: false });
     const html = await page.content();
-    await writeFile(join(DEBUG_DIR, 'page-initial.html'), html);
-    console.log(`HTML saved: ${join(DEBUG_DIR, 'page-initial.html')}`);
+    await writeFile(join(DEBUG_DIR, '01-page-load.html'), html);
 
-    // Print all data-urn attributes to understand LinkedIn's structure
-    const urns = await page.evaluate(() => {
-      const els = document.querySelectorAll('[data-urn], [data-id], article');
-      return Array.from(els).slice(0, 20).map(el => ({
-        tag: el.tagName,
-        urn: el.dataset.urn || el.dataset.id || '',
-        classes: el.className.split(' ').slice(0, 3).join(' '),
-        text: el.textContent.trim().slice(0, 80)
-      }));
+    // Print what we can see
+    const debug = await page.evaluate(() => {
+      const sel = (s) => document.querySelectorAll(s).length;
+      return {
+        title: document.title,
+        url: location.href,
+        counts: {
+          '[data-urn]': sel('[data-urn]'),
+          '[data-id]': sel('[data-id]'),
+          'article': sel('article'),
+          'a[href*="/posts/"]': sel('a[href*="/posts/"]'),
+          'a[href*="/feed/update/"]': sel('a[href*="/feed/update/"]'),
+          'img[src*="licdn.com"]': sel('img[src*="licdn.com"]'),
+          '.scaffold-layout__main': sel('.scaffold-layout__main'),
+          '.artdeco-list__item': sel('.artdeco-list__item'),
+        }
+      };
     });
-    console.log('\nPage elements with data-urn / data-id / article:');
-    urns.forEach(u => console.log(`  [${u.tag}] urn="${u.urn}" class="${u.classes}" text="${u.text}"`));
-
-    // Also check what main selectors resolve to
-    const selectors = [
-      '.scaffold-layout__main',
-      '[data-urn]',
-      '.artdeco-list__item',
-      '.feed-shared-update-v2',
-      'article',
-      '[class*="save"]',
-      '[class*="item"]',
-      '.reusable-search__result-container'
-    ];
-    console.log('\nSelector counts:');
-    for (const sel of selectors) {
-      const count = await page.locator(sel).count();
-      console.log(`  ${sel}: ${count}`);
-    }
+    console.log('\nDEBUG page state:');
+    console.log('  Title:', debug.title);
+    console.log('  URL:', debug.url);
+    console.log('  Element counts:');
+    Object.entries(debug.counts).forEach(([k, v]) => console.log(`    ${k}: ${v}`));
   }
 
-  // ── Scroll and collect posts ─────────────────────────────────────────────
+  // ── Step 3: scroll and collect post URLs + images ───────────────────────
+  const seenUrls = new Set();
   const results = [];
-  let lastCount = -1;
   let staleRounds = 0;
 
   console.log('\nScrolling and collecting posts...');
 
-  for (let round = 0; round < 40 && results.length < LIMIT; round++) {
-    // Try every selector strategy LinkedIn might use
-    const posts = await page.evaluate(() => {
-      const found = [];
-      const seen = new Set();
+  for (let round = 0; round < 50 && results.length < LIMIT; round++) {
 
-      // Strategy 1: data-urn on feed items
-      document.querySelectorAll('[data-urn]').forEach(el => {
-        const urn = el.dataset.urn;
-        if (!urn || seen.has(urn)) return;
-        seen.add(urn);
+    const found = await page.evaluate(() => {
+      const items = [];
+      const seenHere = new Set();
 
-        const linkEl = el.querySelector('a[href*="/posts/"], a[href*="/feed/update/"], a[href*="/activity"]');
-        const url = linkEl?.href;
-        if (!url) return;
+      // ── Primary: find post cards by URL pattern ─────────────────────────
+      // This works regardless of LinkedIn's class name changes.
+      // A saved post card always has a link to the original post.
+      const postLinks = Array.from(document.querySelectorAll(
+        'a[href*="/posts/"], a[href*="/feed/update/"], a[href*="/activity:"]'
+      ));
 
-        const author = el.querySelector(
-          '.update-components-actor__name, .feed-shared-actor__name, .actor-name, [class*="actor__name"]'
-        )?.textContent?.trim() || 'Unknown';
+      for (const link of postLinks) {
+        const url = link.href?.split('?')[0];
+        if (!url || seenHere.has(url)) continue;
+        seenHere.add(url);
 
-        const caption = el.querySelector(
-          '[class*="commentary"], [class*="description"], .feed-shared-text, .break-words'
-        )?.textContent?.trim()?.slice(0, 300) || '';
+        // Walk up to the post container
+        let container = link;
+        for (let i = 0; i < 8; i++) {
+          container = container.parentElement;
+          if (!container) break;
+          // Stop at a sufficiently large container
+          if (container.offsetHeight > 80) break;
+        }
+        if (!container) continue;
 
-        const imgs = Array.from(el.querySelectorAll('img'));
+        // Author name — any bold/strong near the top of the container
+        const authorEl = container.querySelector(
+          'span[aria-hidden="true"], strong, [class*="actor__name"], [class*="name--"]'
+        );
+        const author = authorEl?.textContent?.trim() || 'Unknown';
+
+        // Caption text — look for paragraphs or text containers
+        const captionEl = container.querySelector(
+          '[class*="commentary"], [class*="description"], [class*="text-view"], p'
+        );
+        const caption = captionEl?.textContent?.trim()?.slice(0, 300) || '';
+
+        // Image from media.licdn.com (post images, not avatars)
+        const imgs = Array.from(container.querySelectorAll('img'));
         const imgEl = imgs.find(img => {
-          const src = img.src || img.dataset.src || img.dataset.delayedUrl || '';
+          const src = img.src || '';
           return (src.includes('media.licdn.com') || src.includes('dms.licdn.com')) &&
-                 img.getAttribute('aria-hidden') !== 'true' &&
-                 (img.offsetWidth > 100 || img.naturalWidth > 100);
+                 !src.includes('profile-') &&
+                 !src.includes('company-') &&
+                 img.naturalWidth > 50;
         });
-        const imageUrl = imgEl?.src || imgEl?.dataset?.src || imgEl?.dataset?.delayedUrl || null;
-
-        found.push({ url, author, caption, imageUrl, urn });
-      });
-
-      // Strategy 2: artdeco list items (saved items page uses a different layout)
-      document.querySelectorAll('.artdeco-list__item, .scaffold-finite-scroll__content > *').forEach(el => {
-        const linkEl = el.querySelector('a[href*="/posts/"], a[href*="/feed/update/"]');
-        const url = linkEl?.href;
-        if (!url || seen.has(url)) return;
-        seen.add(url);
-
-        const author = el.querySelector('[class*="title"], [class*="name"], strong')?.textContent?.trim() || 'Unknown';
-        const caption = el.querySelector('[class*="subtitle"], [class*="description"], p')?.textContent?.trim()?.slice(0, 300) || '';
-
-        const imgs = Array.from(el.querySelectorAll('img'));
-        const imgEl = imgs.find(img => img.offsetWidth > 50);
         const imageUrl = imgEl?.src || null;
 
-        found.push({ url, author, caption, imageUrl, urn: url });
-      });
+        items.push({ url, author, caption, imageUrl });
+      }
 
-      return found;
+      return items;
     });
 
-    // Merge deduplicated results
-    for (const p of posts) {
-      if (!p.url || results.some(r => r.url === p.url)) continue;
+    let newThisRound = 0;
+    for (const p of found) {
+      if (seenUrls.has(p.url)) continue;
+      seenUrls.add(p.url);
       results.push(p);
+      newThisRound++;
       if (results.length >= LIMIT) break;
     }
 
-    if (results.length === lastCount) {
+    if (newThisRound === 0) {
       staleRounds++;
-      if (staleRounds >= 5) {
-        console.log('  No new posts loading after 5 scroll attempts — stopping.');
+      if (staleRounds >= 6) {
+        console.log('\n  No new posts after 6 scroll attempts — done.');
         break;
       }
     } else {
       staleRounds = 0;
     }
 
-    lastCount = results.length;
-    process.stdout.write(`  Found ${results.length} posts (round ${round + 1})\r`);
-
+    process.stdout.write(`  Round ${String(round + 1).padStart(2)}: ${results.length} posts found\r`);
     if (results.length >= LIMIT) break;
 
-    // Scroll down
-    await page.evaluate(() => window.scrollBy(0, 1200));
-    await page.waitForTimeout(2000);
+    // Scroll
+    await page.evaluate(() => window.scrollBy(0, 1400));
+    await wait(2200);
 
-    // On first failure round, try clicking "Saved posts" tab explicitly
-    if (round === 2 && results.length === 0) {
-      console.log('\n  Trying "Saved posts" tab...');
-      const savedTab = await page.locator('a:has-text("Saved posts"), button:has-text("Saved posts"), [aria-label*="Saved"]').first();
-      if (await savedTab.count() > 0) {
-        await savedTab.click();
-        await page.waitForTimeout(2000);
-      }
-
-      if (DEBUG) {
-        await page.screenshot({ path: join(DEBUG_DIR, 'page-after-tab.png'), fullPage: false });
-        const html2 = await page.content();
-        await writeFile(join(DEBUG_DIR, 'page-after-tab.html'), html2);
-        console.log('  Saved post-tab screenshot and HTML.');
-      }
+    // Every 10 rounds, screenshot for debug
+    if (DEBUG && round % 10 === 9) {
+      await page.screenshot({ path: join(DEBUG_DIR, `scroll-round-${round + 1}.png`), fullPage: false });
     }
   }
 
-  console.log(`\n\nTotal posts found: ${results.length}`);
+  console.log(`\n\nTotal found: ${results.length} posts`);
 
   if (results.length === 0) {
-    console.log('\nNo posts found. Try running with --debug to see screenshots of what the browser sees.');
-    console.log('The debug output will be saved to:', DEBUG_DIR);
+    console.log('\nNo posts found. Run with --debug to capture screenshots.');
+    console.log('Common causes:');
+    console.log('  1. Cookie expired — get a fresh li_at from Chrome DevTools');
+    console.log('  2. LinkedIn changed their DOM — paste the debug HTML here and the selector will be fixed');
+    if (DEBUG) {
+      await page.screenshot({ path: join(DEBUG_DIR, 'empty-result.png'), fullPage: true });
+      console.log(`  Screenshot saved: ${join(DEBUG_DIR, 'empty-result.png')}`);
+    }
     await browser.close();
     return;
   }
 
-  // ── Write index and download images ──────────────────────────────────────
+  // ── Step 4: write index.md and download images ──────────────────────────
   const indexPath = join(OUTPUT_DIR, 'index.md');
   await writeFile(indexPath,
-    `# LinkedIn Saved Posts — Benchmark Library\n**Scraped**: ${new Date().toISOString().split('T')[0]}\n**Count**: ${results.length}\n\n---\n\n`
+    `# LinkedIn Saved Posts — Benchmark Library\n` +
+    `**Scraped**: ${new Date().toISOString().split('T')[0]}\n` +
+    `**Count**: ${results.length}\n\n---\n\n`
   );
 
   let imgCount = 0;
   for (const [i, post] of results.entries()) {
     const num = String(i + 1).padStart(3, '0');
+
     await appendFile(indexPath,
-      `## ${num}. ${post.author}\n**URL**: ${post.url}\n**Image**: ${post.imageUrl ? `img-${num}.jpg` : '(no image — text post)'}\n\n> ${post.caption.replace(/\n/g, ' ')}\n\n---\n\n`
+      `## ${num}. ${post.author}\n` +
+      `**URL**: ${post.url}\n` +
+      `**Image**: ${post.imageUrl ? `img-${num}.jpg` : '(text post — no image)'}\n\n` +
+      `> ${post.caption.replace(/\n/g, ' ')}\n\n---\n\n`
     );
 
     if (post.imageUrl) {
       try {
         const resp = await fetch(post.imageUrl, {
-          headers: { 'Referer': 'https://www.linkedin.com/', 'User-Agent': 'Mozilla/5.0' }
+          headers: { 'Referer': 'https://www.linkedin.com/', 'User-Agent': 'Mozilla/5.0' },
+          signal: AbortSignal.timeout(12000)
         });
         if (resp.ok) {
           const buf = Buffer.from(await resp.arrayBuffer());
           await writeFile(join(OUTPUT_DIR, `img-${num}.jpg`), buf);
           imgCount++;
         }
-      } catch {
-        // Image download failed silently
-      }
+      } catch { /* skip failed downloads */ }
     }
 
-    process.stdout.write(`  Saved ${i + 1}/${results.length} posts\r`);
+    process.stdout.write(`  Saved ${i + 1}/${results.length} entries\r`);
   }
 
-  console.log(`\nDone. ${imgCount} images + ${results.length} captions saved to:`);
-  console.log(`  ${OUTPUT_DIR}`);
-  console.log(`  Index: ${indexPath}`);
-  console.log('\nNext step: git add + commit + push so this session can read them.');
+  console.log(`\n\nDone.`);
+  console.log(`  ${imgCount} images downloaded`);
+  console.log(`  ${results.length} captions in index.md`);
+  console.log(`  Folder: ${OUTPUT_DIR}`);
+  console.log(`\nNext: git add infographic-setup/memory/visual-benchmarks/ && git commit -m "Add saved post benchmarks" && git push`);
 
   await browser.close();
 }
 
 fetchSavedPosts().catch(err => {
   console.error('\nError:', err.message);
-  if (DEBUG) console.error(err.stack);
   process.exit(1);
 });
