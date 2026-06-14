@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--
+  PF5 — Radial Hub / Feature Map  (reconstruction of reference file 97)
+  Concept: "How to use [tool] for [function]" → central engine + spokes, each card
+  self-contained with a BEST FOR tag, grounded by concrete use-cases + an honesty card.
+  Canvas 1080x1350 (4:5). Coral-on-cream + one semantic caution tone for "watch for".
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#F4F3EE; --ink:#191919; --grey:#8A857B; --coral:#C15F3C; --coral-deep:#9A4327;
+    --tint:#F3E0D6; --caution:#C98A1E;
+    --serif:'Fraunces',Georgia,serif; --sans:'Inter',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:#ddd;}
+  .canvas{width:1080px;height:1350px;background:var(--cream);position:relative;
+    font-family:var(--sans);color:var(--ink);overflow:hidden;}
+  .pad{padding:48px 48px 0;}
+  .title{font-family:var(--serif);font-weight:700;font-size:58px;line-height:1.03;letter-spacing:-.5px;}
+  .title .c{color:var(--coral);}
+  .sub{font-size:23px;color:var(--grey);font-weight:500;margin-top:9px;border-bottom:2px solid #E3DDD2;padding-bottom:16px;}
+  .spark{position:absolute;top:46px;right:48px;width:58px;height:58px;}
+  /* connectors behind cards */
+  .lines{position:absolute;inset:0;z-index:1;}
+  /* central node */
+  .node{position:absolute;left:462px;top:386px;width:156px;height:156px;border-radius:50%;
+    background:#fff;border:3px solid var(--tint);z-index:3;display:flex;align-items:center;justify-content:center;
+    box-shadow:0 8px 26px rgba(150,70,40,.18);}
+  .node svg{width:80px;height:80px;}
+  /* feature cards */
+  .fcard{position:absolute;width:316px;background:#fff;border:1.5px solid #EAE3D8;border-radius:14px;
+    padding:14px 16px;z-index:2;box-shadow:0 6px 16px rgba(80,40,20,.07);}
+  .fhead{display:flex;align-items:center;gap:10px;margin-bottom:7px;}
+  .ficon{width:34px;height:34px;border-radius:9px;background:var(--tint);display:flex;align-items:center;justify-content:center;flex:0 0 auto;}
+  .ficon svg{width:20px;height:20px;}
+  .ftitle{font-family:var(--serif);font-weight:700;font-size:21px;color:var(--ink);line-height:1;}
+  .ftag{font-size:11px;font-weight:700;color:var(--coral);letter-spacing:.6px;text-transform:uppercase;margin-top:-2px;}
+  .fdesc{font-size:14.5px;color:#4f463e;line-height:1.32;}
+  .fbest{font-size:12.5px;color:#6a6057;margin-top:8px;border-top:1px dashed #E3DDD2;padding-top:6px;}
+  .fbest b{color:var(--coral);font-weight:700;}
+  /* bottom row */
+  .ucard{position:absolute;top:780px;width:312px;height:372px;border-radius:14px;padding:16px 17px;z-index:2;}
+  .uc{background:#fff;border:1.5px solid #EAE3D8;box-shadow:0 6px 16px rgba(80,40,20,.07);}
+  .ulabel{font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:#fff;background:var(--coral);
+    display:inline-block;padding:4px 10px;border-radius:6px;margin-bottom:10px;}
+  .uhead{font-family:var(--serif);font-weight:700;font-size:22px;line-height:1.05;margin-bottom:12px;}
+  .step{display:grid;grid-template-columns:26px 1fr;gap:9px;margin-bottom:9px;align-items:start;}
+  .snum{width:24px;height:24px;border-radius:50%;background:var(--tint);color:var(--coral-deep);font-weight:700;
+    font-size:13px;display:flex;align-items:center;justify-content:center;}
+  .stext{font-size:14px;color:#4f463e;line-height:1.28;}
+  .uresult{margin-top:10px;background:var(--tint);border-radius:8px;padding:9px 11px;font-size:14px;color:#6a3a23;}
+  .uresult b{color:var(--coral-deep);}
+  /* watch-for card uses the caution semantic tone */
+  .watch{background:#FBF4E6;border:1.5px solid #F0E0BC;}
+  .watch .ulabel{background:var(--caution);}
+  .wbody{font-size:15px;color:#5a4a24;line-height:1.4;}
+  .wbody b{color:var(--caution);}
+  .wlist{margin-top:12px;}
+  .wrow{display:flex;gap:8px;font-size:13.5px;color:#5a4a24;margin-bottom:8px;line-height:1.3;}
+  .wdot{color:var(--caution);font-weight:700;}
+  /* footer (no sign-off text per brand rule) */
+  .foot{position:absolute;bottom:0;left:0;width:100%;height:56px;background:var(--ink);display:flex;align-items:center;justify-content:center;}
+  .foot svg{width:24px;height:24px;}
+</style>
+</head>
+<body>
+<div class="canvas" id="card">
+  <div class="pad">
+    <div class="title">How a Supply Planner<br>Uses <span class="c">Claude</span></div>
+    <div class="sub">Six ways AI fits your planning week, and exactly when to use each.</div>
+  </div>
+  <svg class="spark" viewBox="0 0 100 100"><g fill="#C15F3C"><path d="M50 4 L56 38 L50 50 L44 38 Z"/><path d="M50 96 L44 62 L50 50 L56 62 Z"/><path d="M4 50 L38 44 L50 50 L38 56 Z"/><path d="M96 50 L62 56 L50 50 L62 44 Z"/><path d="M18 18 L44 40 L50 50 L40 44 Z"/><path d="M82 82 L56 60 L50 50 L60 56 Z"/><path d="M82 18 L60 44 L50 50 L56 40 Z"/><path d="M18 82 L40 56 L50 50 L44 60 Z"/></g></svg>
+
+  <!-- connectors -->
+  <svg class="lines" viewBox="0 0 1080 1350" preserveAspectRatio="none">
+    <g stroke="#D9A98F" stroke-width="2" fill="#C15F3C">
+      <line x1="540" y1="464" x2="358" y2="288"/><circle cx="358" cy="288" r="4"/>
+      <line x1="540" y1="464" x2="358" y2="462"/><circle cx="358" cy="462" r="4"/>
+      <line x1="540" y1="464" x2="358" y2="636"/><circle cx="358" cy="636" r="4"/>
+      <line x1="540" y1="464" x2="722" y2="288"/><circle cx="722" cy="288" r="4"/>
+      <line x1="540" y1="464" x2="722" y2="462"/><circle cx="722" cy="462" r="4"/>
+      <line x1="540" y1="464" x2="722" y2="636"/><circle cx="722" cy="636" r="4"/>
+    </g>
+  </svg>
+
+  <div class="node">
+    <svg viewBox="0 0 100 100"><g fill="#C15F3C"><path d="M50 6 L57 38 L50 50 L43 38 Z"/><path d="M50 94 L43 62 L50 50 L57 62 Z"/><path d="M6 50 L38 43 L50 50 L38 57 Z"/><path d="M94 50 L62 57 L50 50 L62 43 Z"/><path d="M16 16 L43 40 L50 50 L40 43 Z"/><path d="M84 84 L57 60 L50 50 L60 57 Z"/><path d="M84 16 L60 43 L50 50 L57 40 Z"/><path d="M16 84 L40 57 L50 50 L43 60 Z"/></g></svg>
+  </div>
+
+  <!-- LEFT column -->
+  <div class="fcard" style="left:40px;top:206px;">
+    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#C15F3C" stroke-width="2"><path d="M2 12h3l2-7 4 14 3-9 2 5h6"/></svg></div><div><div class="ftitle">Demand Sensing</div></div></div>
+    <div class="fdesc">Pull POS, weather and promo signals into one weekly read.</div>
+    <div class="fbest"><b>BEST FOR:</b> spotting demand shifts 2-3 weeks early.</div>
+  </div>
+  <div class="fcard" style="left:40px;top:380px;">
+    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#C15F3C" stroke-width="2"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div><div><div class="ftitle">Forecast Review</div></div></div>
+    <div class="fdesc">Flag the SKUs where your forecast keeps missing, with the why.</div>
+    <div class="fbest"><b>BEST FOR:</b> the Monday exception list.</div>
+  </div>
+  <div class="fcard" style="left:40px;top:554px;">
+    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#C15F3C" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg></div><div><div class="ftitle">Safety-Stock Math</div></div></div>
+    <div class="fdesc">Recompute ROP and safety stock as lead times move.</div>
+    <div class="fbest"><b>BEST FOR:</b> post-disruption resets.</div>
+  </div>
+  <!-- RIGHT column -->
+  <div class="fcard" style="left:724px;top:206px;">
+    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#C15F3C" stroke-width="2"><path d="M12 3l10 17H2z"/><path d="M12 10v4M12 17h0"/></svg></div><div><div class="ftitle">Supplier Risk</div></div></div>
+    <div class="fdesc">Scan news and delivery data for at-risk suppliers.</div>
+    <div class="fbest"><b>BEST FOR:</b> weekly risk briefings.</div>
+  </div>
+  <div class="fcard" style="left:724px;top:380px;">
+    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#C15F3C" stroke-width="2"><path d="M6 2h9l5 5v15H6z"/><path d="M14 2v6h6"/></svg></div><div><div class="ftitle">S&amp;OP Prep</div></div></div>
+    <div class="fdesc">Turn the numbers into the narrative for the meeting.</div>
+    <div class="fbest"><b>BEST FOR:</b> the day before S&amp;OP.</div>
+  </div>
+  <div class="fcard" style="left:724px;top:554px;">
+    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#C15F3C" stroke-width="2"><path d="M6 3v6a3 3 0 0 0 3 3h6M18 21v-6a3 3 0 0 0-3-3"/><circle cx="6" cy="3" r="0.1"/></svg></div><div><div class="ftitle">What-If Scenarios</div></div></div>
+    <div class="fdesc">Model +15% demand or a supplier down in minutes.</div>
+    <div class="fbest"><b>BEST FOR:</b> capacity and sourcing decisions.</div>
+  </div>
+
+  <!-- BOTTOM use-cases + honesty card -->
+  <div class="ucard uc" style="left:40px;">
+    <div class="ulabel">Use case 1</div>
+    <div class="uhead">Weekly Stockout Sweep</div>
+    <div class="step"><div class="snum">1</div><div class="stext">Connect your demand and on-hand export.</div></div>
+    <div class="step"><div class="snum">2</div><div class="stext">It flags every SKU sitting below its reorder point.</div></div>
+    <div class="step"><div class="snum">3</div><div class="stext">It drafts the reorder list for you to approve.</div></div>
+    <div class="uresult"><b>Result:</b> a 3-hour sweep becomes 20 minutes.</div>
+  </div>
+  <div class="ucard uc" style="left:384px;">
+    <div class="ulabel">Use case 2</div>
+    <div class="uhead">Supplier Scorecard</div>
+    <div class="step"><div class="snum">1</div><div class="stext">Feed it delivery, quality and price data.</div></div>
+    <div class="step"><div class="snum">2</div><div class="stext">It scores each supplier on the same rubric.</div></div>
+    <div class="step"><div class="snum">3</div><div class="stext">You review the outliers and send.</div></div>
+    <div class="uresult"><b>Result:</b> a quarterly task you can run weekly.</div>
+  </div>
+  <div class="ucard watch" style="left:728px;">
+    <div class="ulabel">Watch for</div>
+    <div class="wbody"><b>AI drafts. You decide.</b></div>
+    <div class="wlist">
+      <div class="wrow"><span class="wdot">!</span><span>Verify every number before it leaves your desk.</span></div>
+      <div class="wrow"><span class="wdot">!</span><span>It proposes the reorder. The buyer still owns the call.</span></div>
+      <div class="wrow"><span class="wdot">!</span><span>Bad data in, confident-but-wrong out. Check the source.</span></div>
+      <div class="wrow"><span class="wdot">!</span><span>Keep a human gate on anything that touches a PO.</span></div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <svg viewBox="0 0 100 100"><g fill="#C15F3C"><path d="M50 10 L55 40 L50 50 L45 40 Z"/><path d="M50 90 L45 60 L50 50 L55 60 Z"/><path d="M10 50 L40 45 L50 50 L40 55 Z"/><path d="M90 50 L60 55 L50 50 L60 45 Z"/></g></svg>
+  </div>
+</div>
+</body>
+</html>
