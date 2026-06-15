@@ -18,8 +18,13 @@
   }
   *{margin:0;padding:0;box-sizing:border-box;}
   body{background:#ddd;}
-  .canvas{width:1080px;height:1350px;background:var(--cream);position:relative;
-    font-family:var(--sans);color:var(--ink);overflow:hidden;padding:54px 0 0;}
+  .canvas{width:1080px;height:1350px;position:relative;
+    font-family:var(--sans);color:var(--ink);overflow:hidden;padding:54px 0 0;
+    background:
+      radial-gradient(closest-side at 50% 40%, rgba(193,95,60,.15), rgba(193,95,60,0) 70%),
+      radial-gradient(140% 115% at 50% -10%, #FCF9F3 0%, #F2F0E9 38%, #E7DCCB 100%);}
+  .canvas::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:9;
+    background:radial-gradient(135% 108% at 50% 44%, rgba(110,64,32,0) 60%, rgba(86,50,24,.13) 100%);}
   .head{padding:0 60px;}
   .title{font-family:var(--serif);font-weight:700;font-size:57px;line-height:1.02;letter-spacing:-.5px;max-width:870px;}
   .title .c{color:var(--coral);}
