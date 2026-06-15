@@ -1,0 +1,187 @@
+{
+  "$schema": "https://shettys-desk/brand-tokens.schema.json",
+  "brand": {
+    "name": "Shetty's Desk",
+    "type": "Personal LinkedIn infographic visual system",
+    "essence": "Optimistic, science-led, credible and modern. Clean and airy, with luminous blue gradients and a vivid signature green that always signals positive / progress / the smart choice. Data-driven but human. Every visual is smooth isometric 2.5D vector art on white — never photographic.",
+    "personality": ["optimistic", "credible", "modern", "calm", "data-driven", "approachable"],
+    "derivedFrom": "EcoMobility infographic reference set (visual DNA extracted and generalized; subject matter is now topic-agnostic)"
+  },
+  "logo": {
+    "mark": "Textured chalk ring (hand-drawn, organic) above a serif 'Shetty's' wordmark with italic 'DESK'",
+    "colors": {
+      "terracotta": { "hex": "#D97656", "role": "Logo ring — primary brand mark color" },
+      "olive":      { "hex": "#3C3828", "role": "Logo wordmark alternative / mono variant" },
+      "white":      { "hex": "#FFFFFF", "role": "Logo wordmark on dark / mono variant" },
+      "black":      { "hex": "#000000", "role": "Identity canvas — logos live on dark" }
+    },
+    "files": {
+      "format":   "All four are 800x800 transparent PNGs — place on any surface (dark recommended)",
+      "primary":  "logos/1.png  (terracotta ring + white wordmark)",
+      "duotone":  "logos/2.png  (terracotta ring + olive wordmark)",
+      "monoWhite":"logos/3.png  (all white)",
+      "monoOlive":"logos/4.png  (all olive)"
+    },
+    "usage": {
+      "primary":   "Default. Avatar, profile, cover, watermark on dark or photographic surfaces.",
+      "duotone":   "Warm editorial contexts on dark.",
+      "monoWhite": "Single-color uses on dark or saturated surfaces (incl. navy #1939A5 panels).",
+      "monoOlive": "Single-color uses on light/cream surfaces; print.",
+      "rules": [
+        "The logo layer is IDENTITY (terracotta/olive/black, textured, serif) and intentionally distinct from the CONTENT layer (azure/eco-green flat isometric on white). Don't mix the two palettes within one element.",
+        "On infographics: place the logo small as a footer watermark (mono variants preferred), or use the navy footer strip.",
+        "Keep clear space of at least the ring's quarter-width around the mark; don't recolor, stretch, outline, or add effects to the textured ring."
+      ]
+    }
+  },
+  "colors": {
+    "primary": {
+      "azure":  { "hex": "#2798FB", "role": "Primary brand blue — the hero color" },
+      "sky":    { "hex": "#50A9F7", "role": "Lighter primary, highlights" },
+      "royal":  { "hex": "#247BE1", "role": "Mid-tone, secondary fills" },
+      "deep":   { "hex": "#215DC3", "role": "Headlines on light, depth" },
+      "navy":   { "hex": "#1939A5", "role": "Darkest blue — strong contrast, footers" }
+    },
+    "accents": {
+      "ecoGreen": { "hex": "#38E6A6", "role": "SIGNATURE accent — positive / progress / highlight / the smart choice" },
+      "mint":     { "hex": "#8FF3CC", "role": "Light end of the signature green gradient" },
+      "coral":    { "hex": "#E27199", "role": "Alert accent — negative / warning / the costly or old way (use sparingly)" }
+    },
+    "tints": {
+      "t100": { "hex": "#E2F0FB", "role": "Page & card backgrounds" },
+      "t200": { "hex": "#C5E2F8", "role": "Fills, dividers" },
+      "t300": { "hex": "#A6D1F8", "role": "Depth, secondary fills" },
+      "t400": { "hex": "#7CBAF6", "role": "Stronger tint, shadows" }
+    },
+    "neutrals": {
+      "ink":   { "hex": "#15315C", "role": "Primary text" },
+      "muted": { "hex": "#5D7599", "role": "Body / captions" },
+      "line":  { "hex": "#DCEAF8", "role": "Borders, rules" },
+      "white": { "hex": "#FFFFFF", "role": "Canvas — always the background" }
+    }
+  },
+  "gradients": {
+    "blue":  { "css": "linear-gradient(135deg,#50A9F7 0%,#215DC3 55%,#1939A5 100%)", "stops": ["#50A9F7","#215DC3","#1939A5"], "use": "Infrastructure, scenes, UI surfaces, hero panels" },
+    "eco":   { "css": "linear-gradient(135deg,#8FF3CC 0%,#38E6A6 45%,#2798FB 100%)", "stops": ["#8FF3CC","#38E6A6","#2798FB"], "use": "SIGNATURE — the positive/progress element in every graphic", "signature": true },
+    "tintWash": { "css": "linear-gradient(135deg,#E2F0FB,#A6D1F8)", "stops": ["#E2F0FB","#A6D1F8"], "use": "Section backgrounds, cards" }
+  },
+  "semantics": {
+    "blue":  "The world, the system, infrastructure, neutral subject matter",
+    "green": "Positive, progress, growth, the smart/recommended choice, highlighted data",
+    "coral": "Negative, warning, cost, friction, the old/inferior way (use sparingly)"
+  },
+  "typography": {
+    "family": "Poppins",
+    "note": "Reference uses a Gotham/Montserrat-style geometric sans; Poppins is the recommended free Google Fonts substitute. Montserrat is an equally good alternative.",
+    "roles": {
+      "sectionHeader": { "weight": 800, "case": "UPPERCASE", "tracking": "+0.6px", "size": "23-40px" },
+      "itemLabel":     { "weight": 700, "case": "Title Case", "size": "16-22px" },
+      "body":          { "weight": "300-400", "color": "#5D7599", "size": "13-15px" },
+      "statNumber":    { "weight": 800, "size": "40-90px", "color": "#38E6A6 (positive) or #215DC3 (neutral)" },
+      "statCaption":   { "weight": 300, "case": "UPPERCASE", "size": "14-18px" }
+    },
+    "signatureMove": "Mixed-weight stat callout: a huge 800-weight number beside small 300-weight uppercase supporting words (e.g. '97% OF THE TIME')."
+  },
+  "illustration": {
+    "style": "Flat-design isometric / 2.5D vector",
+    "rules": {
+      "do": [
+        "Isometric or front-flat vector with smooth gradient fills",
+        "Pure white / very light blue background",
+        "Signature green gradient reserved for the positive/highlight element",
+        "Soft, diffused long shadows under objects (never harsh or black)",
+        "Friendly mini-figures + green rounded speech bubbles for a human touch",
+        "Generous negative space; one clear focal object"
+      ],
+      "dont": [
+        "No photographs or 3D-render realism",
+        "No hard black outlines or hand-drawn sketch look",
+        "No dark or busy backgrounds",
+        "Don't use green for anything negative/costly",
+        "No harsh or black drop shadows",
+        "Avoid clutter — keep it editorial and airy"
+      ]
+    },
+    "motifs": [
+      "Isometric devices, laptops, phones, dashboards",
+      "Iso charts, graphs, growth arrows",
+      "People / mini-figures at work",
+      "Buildings & city blocks (iso)",
+      "Connected nodes, pipelines, routes & dashed paths",
+      "Map pins / numbered badges",
+      "Green rounded speech bubbles",
+      "Lightbulbs, gears, targets, abstract concept icons",
+      "Globe"
+    ]
+  },
+  "formats": {
+    "linkedinSquare":   { "px": "1080x1080", "ratio": "1:1",  "use": "Standard single feed post" },
+    "linkedinPortrait": { "px": "1080x1350", "ratio": "4:5",  "use": "Max feed real estate (recommended default)" },
+    "carouselSlide":    { "px": "1080x1350", "ratio": "4:5",  "use": "PDF/document carousel slide" },
+    "banner":           { "px": "1584x396",  "ratio": "4:1",  "use": "Profile / article banner" },
+    "story":            { "px": "1080x1920", "ratio": "9:16", "use": "Vertical / long-scroll" }
+  },
+  "layoutAnatomy": [
+    "1. Pin header — number/topic badge + UPPERCASE title + thin azure rule fading right",
+    "2. Intro + character — short light paragraph paired with a mini-figure + green speech bubble",
+    "3. Concept row — 3-4 isometric icons, each a bold label + 1-line caption",
+    "4. Hero scene — one large isometric illustration centered with white space",
+    "5. Stat callout — oversized mixed-weight number (green=positive, coral=negative) + caption",
+    "6. Sources footer — centered small blue 'Sources:' list (credibility is part of the brand)"
+  ],
+  "prompts": {
+    "styleBlock": "Flat-design isometric 2.5D vector infographic illustration in the \"Shetty's Desk\" brand style. Smooth blue gradients (azure #2798FB through royal #247BE1 to deep navy #1939A5), rounded geometric shapes, soft diffused long shadows, subtle glows, clean editorial composition on a pure white background. A signature green eco-gradient (mint #8FF3CC to emerald #38E6A6) marks the positive / progress / highlighted element; coral-pink #E27199 marks any negative / warning element, used sparingly. Modern, optimistic, science-led, tech-forward. Crisp vector look — NOT photorealistic, no 3D render, no hard black outlines, no sketch texture, no dark backgrounds.",
+    "avoid": "Avoid: photorealism, 3D renders, hard black outlines, sketch/hand-drawn texture, dark or busy backgrounds, clutter, harsh or black drop shadows, muddy gradients, and using green for anything negative.",
+    "modules": {
+      "hero":    "A single large isometric hero scene showing {subject}. One clear focal object centered with generous white space around it.",
+      "row":     "A horizontal row of 3-4 matching isometric concept icons illustrating {subject}. Identical style, scale and lighting across all icons, evenly spaced on white, each suitable for a bold label beneath it.",
+      "single":  "A single isometric concept icon representing {subject}, centered, with a soft long shadow, isolated on pure white.",
+      "stat":    "A bold infographic stat callout about {subject}: an oversized number as the focal point with a small isometric supporting illustration beside it.",
+      "compare": "A side-by-side isometric comparison illustrating {subject}: two balanced halves, clean dividing space, matched perspective and scale.",
+      "scene":   "A wide isometric system scene showing {subject}: interconnected objects, nodes or paths, small figures, lots of airy white space.",
+      "header":  "A clean banner-style header graphic for the topic \"{subject}\": a blue map-pin or number badge and a thin azure underline rule, minimal, lots of white space, room for an uppercase title."
+    },
+    "accentClauses": {
+      "eco":   "Use the signature eco gradient (mint #8FF3CC to emerald #38E6A6 to azure) as the accent on the positive/highlighted element.",
+      "coral": "Use coral-pink #E27199 sparingly to mark the negative / warning element.",
+      "both":  "Contrast a positive element (eco gradient mint #8FF3CC to emerald #38E6A6) against a negative element (coral-pink #E27199).",
+      "none":  "Keep the palette to blues only — calm and neutral, no green or coral accents."
+    },
+    "textOptions": {
+      "none":  "Do not include any text or numbers in the image.",
+      "label": "Include a short UPPERCASE label in a clean geometric sans-serif (Poppins/Montserrat style), deep blue #215DC3.",
+      "stat":  "Include one large bold stat number (eco-green #38E6A6 if positive, deep blue if neutral) with a small light-weight uppercase caption beneath it."
+    },
+    "models": {
+      "gemini-nano-banana-pro": {
+        "pattern": "{module}\n\n{styleBlock}\n\n{accent}\n\n{text}\n\nAspect ratio {ratio}.\n\nMatch the attached reference images' art style exactly. {avoid}",
+        "tips": [
+          "Attach 1-2 curated reference images and say 'keep the same flat isometric vector style'",
+          "Handles long descriptive prompts — keep the full style block intact",
+          "Renders legible in-image text — fine to request labels/stat numbers",
+          "State aspect ratio explicitly; iterate in the same chat",
+          "Ask for a row of matching icons in one shot for visual consistency"
+        ]
+      },
+      "chatgpt-image-2": {
+        "pattern": "Create a flat-design isometric vector infographic illustration, pure white background. {module}\n\n{styleBlock}\n\n{accent}\n\n{text}\n\nOutput as a {ratio} image. {avoid}",
+        "tips": [
+          "Lead with 'flat-design isometric vector infographic, pure white background' to lock style early",
+          "Reuse the identical style block across generations for a coherent series",
+          "Conversational refinement is its strength — start full, then nudge",
+          "Excellent text rendering — good for stat-callout modules",
+          "Ask for pure-white or transparent background so assets drop into layouts cleanly"
+        ]
+      },
+      "claude-code": {
+        "usage": "Read brand-tokens.json, inject colors/gradients/fonts into HTML/SVG or generation prompts. Compose modules per layoutAnatomy, keep backgrounds white, assemble in the chosen LinkedIn format.",
+        "tips": [
+          "Use this file as the single source of truth for all tokens",
+          "Generate each module on a white background, then assemble in the layout grid",
+          "Prefer SVG/HTML for editable, on-brand output"
+        ]
+      }
+    }
+  },
+  "workflow": "Generate each MODULE separately (header, scene, icon row, stat) on a white background, then assemble them in the layout anatomy. This keeps every infographic editable and perfectly on-brand. For a coherent series, reuse the identical style block every time and only change {subject}."
+}

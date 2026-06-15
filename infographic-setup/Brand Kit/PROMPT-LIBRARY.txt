@@ -1,0 +1,185 @@
+==================================================================
+ SHETTY'S DESK — BRAND KIT · PORTABLE PROMPT LIBRARY
+ For: Gemini (Nano Banana Pro) · ChatGPT Image 2 · Claude Code
+==================================================================
+
+HOW TO USE
+- Paste the MASTER STYLE BLOCK into any image model, then add one
+  MODULE template and fill in {subject}.
+- For best consistency, also attach 1-2 images from /reference-images
+  and say "match this art style, not the subject."
+- Keep the style block IDENTICAL across a series; change only {subject}.
+- Generate each module separately on a white background, then assemble.
+
+------------------------------------------------------------------
+ MASTER STYLE BLOCK  (the DNA — every prompt inherits this)
+------------------------------------------------------------------
+Flat-design isometric 2.5D vector infographic illustration in the
+"Shetty's Desk" brand style. Smooth blue gradients (azure #2798FB
+through royal #247BE1 to deep navy #1939A5), rounded geometric shapes,
+soft diffused long shadows, subtle glows, clean editorial composition
+on a pure white background. A signature green eco-gradient (mint
+#8FF3CC to emerald #38E6A6) marks the positive / progress / highlighted
+element; coral-pink #E27199 marks any negative / warning element, used
+sparingly. Modern, optimistic, science-led, tech-forward. Crisp vector
+look — NOT photorealistic, no 3D render, no hard black outlines, no
+sketch texture, no dark backgrounds.
+
+------------------------------------------------------------------
+ AVOID LIST  (append to any prompt)
+------------------------------------------------------------------
+Avoid: photorealism, 3D renders, hard black outlines, sketch/hand-drawn
+texture, dark or busy backgrounds, clutter, harsh or black drop shadows,
+muddy gradients, and using green for anything negative.
+
+------------------------------------------------------------------
+ MODULE TEMPLATES  (pick one, fill {subject})
+------------------------------------------------------------------
+HERO SCENE
+  A single large isometric hero scene showing {subject}. One clear
+  focal object centered with generous white space around it.
+
+CONCEPT ICON ROW (3-4 items)
+  A horizontal row of 3-4 matching isometric concept icons illustrating
+  {subject}. Identical style, scale and lighting across all icons,
+  evenly spaced on white, each suitable for a bold label beneath it.
+
+SINGLE ICON
+  A single isometric concept icon representing {subject}, centered,
+  with a soft long shadow, isolated on pure white.
+
+STAT CALLOUT
+  A bold infographic stat callout about {subject}: an oversized number
+  as the focal point with a small isometric supporting illustration
+  beside it.
+
+COMPARISON (A vs B)
+  A side-by-side isometric comparison illustrating {subject}: two
+  balanced halves, clean dividing space, matched perspective and scale.
+
+SYSTEM SCENE
+  A wide isometric system scene showing {subject}: interconnected
+  objects, nodes or paths, small figures, lots of airy white space.
+
+SECTION HEADER BANNER
+  A clean banner-style header graphic for the topic "{subject}": a blue
+  map-pin or number badge and a thin azure underline rule, minimal,
+  lots of white space, room for an uppercase title.
+
+------------------------------------------------------------------
+ ACCENT CLAUSE  (add one)
+------------------------------------------------------------------
+POSITIVE  : Use the signature eco gradient (mint #8FF3CC to emerald
+            #38E6A6 to azure) as the accent on the positive/highlighted
+            element.
+NEGATIVE  : Use coral-pink #E27199 sparingly to mark the negative /
+            warning element.
+BOTH      : Contrast a positive element (eco gradient mint #8FF3CC to
+            emerald #38E6A6) against a negative element (coral #E27199).
+NEUTRAL   : Keep the palette to blues only — no green or coral accents.
+
+------------------------------------------------------------------
+ TEXT-IN-IMAGE CLAUSE  (add one)
+------------------------------------------------------------------
+NONE  : Do not include any text or numbers in the image.
+LABEL : Include a short UPPERCASE label in a clean geometric sans-serif
+        (Poppins/Montserrat style), deep blue #215DC3.
+STAT  : Include one large bold stat number (eco-green #38E6A6 if
+        positive, deep blue if neutral) with a small light-weight
+        uppercase caption beneath it.
+
+------------------------------------------------------------------
+ ASPECT RATIOS (LinkedIn)
+------------------------------------------------------------------
+1:1  square (1080x1080)      4:5  portrait (1080x1350) <- default
+16:9 banner/slide            9:16 story/long-scroll      4:1 profile banner
+
+==================================================================
+ READY-TO-PASTE EXAMPLES
+==================================================================
+
+--- EXAMPLE A · GEMINI (Nano Banana Pro) · concept icon row ---
+A horizontal row of 3-4 matching isometric concept icons illustrating
+the three pillars of a strong personal brand: consistency, authenticity,
+and value. Identical style, scale and lighting across all icons, evenly
+spaced on white, each suitable for a bold label beneath it.
+
+Flat-design isometric 2.5D vector infographic illustration in the
+"Shetty's Desk" brand style. Smooth blue gradients (azure #2798FB
+through royal #247BE1 to deep navy #1939A5), rounded geometric shapes,
+soft diffused long shadows, subtle glows, clean editorial composition
+on a pure white background. A signature green eco-gradient (mint #8FF3CC
+to emerald #38E6A6) marks the positive / progress / highlighted element;
+coral-pink #E27199 marks any negative / warning element, used sparingly.
+Modern, optimistic, science-led, tech-forward. Crisp vector look — NOT
+photorealistic, no 3D render, no hard black outlines, no sketch texture,
+no dark backgrounds.
+
+Use the signature eco gradient (mint #8FF3CC to emerald #38E6A6 to
+azure) as the accent on the positive/highlighted element.
+
+Include a short UPPERCASE label in a clean geometric sans-serif
+(Poppins/Montserrat style), deep blue #215DC3.
+
+Aspect ratio 4:5.
+
+Match the attached reference images' art style exactly. Avoid:
+photorealism, 3D renders, hard black outlines, sketch/hand-drawn texture,
+dark or busy backgrounds, clutter, harsh or black drop shadows, muddy
+gradients, and using green for anything negative.
+
+--- EXAMPLE B · CHATGPT IMAGE 2 · stat callout ---
+Create a flat-design isometric vector infographic illustration, pure
+white background. A bold infographic stat callout about how much of a
+workday is lost to context-switching: an oversized number as the focal
+point with a small isometric supporting illustration beside it.
+
+Flat-design isometric 2.5D vector infographic illustration in the
+"Shetty's Desk" brand style. Smooth blue gradients (azure #2798FB
+through royal #247BE1 to deep navy #1939A5), rounded geometric shapes,
+soft diffused long shadows, subtle glows, clean editorial composition on
+a pure white background. A signature green eco-gradient (mint #8FF3CC to
+emerald #38E6A6) marks the positive / progress / highlighted element;
+coral-pink #E27199 marks any negative / warning element, used sparingly.
+Modern, optimistic, science-led, tech-forward. Crisp vector look — NOT
+photorealistic, no 3D render, no hard black outlines, no sketch texture,
+no dark backgrounds.
+
+Use coral-pink #E27199 sparingly to mark the negative / warning element.
+
+Include one large bold stat number (eco-green #38E6A6 if positive, deep
+blue if neutral) with a small light-weight uppercase caption beneath it.
+
+Output as a 1:1 image. Avoid: photorealism, 3D renders, hard black
+outlines, sketch/hand-drawn texture, dark or busy backgrounds, clutter,
+harsh or black drop shadows, muddy gradients, and using green for
+anything negative.
+
+--- EXAMPLE C · CLAUDE CODE · brief ---
+"Read brand-tokens.json. Build a 1080x1350 LinkedIn carousel cover as
+inline SVG using the Shetty's Desk tokens: navy-to-azure blue gradient
+panel, an UPPERCASE Poppins 800 title, a thin azure rule fading right,
+and one eco-gradient highlight shape. Pure white safe margins. Output an
+editable .svg I can tweak."
+
+------------------------------------------------------------------
+ LOGO NOTE (identity layer - do NOT generate via AI)
+------------------------------------------------------------------
+The Shetty's Desk mark (textured terracotta ring #D97656 + serif
+wordmark, olive #3C3828 / white on black) is a fixed asset in
+/logos - never regenerate or recolor it with AI. Place it AFTER
+assembly: small mono variant as a footer watermark, or on a navy
+#1939A5 footer strip. Keep the logo palette out of AI illustration
+prompts; the content layer stays azure/eco-green on white.
+
+==================================================================
+ ASSEMBLY RECIPE (any tool)
+==================================================================
+1. Header banner (module: SECTION HEADER, text: LABEL)
+2. Intro figure + green speech bubble (module: SINGLE ICON)
+3. Concept row (module: CONCEPT ICON ROW, accent: POSITIVE)
+4. Hero or system scene (module: HERO / SYSTEM SCENE)
+5. Stat callout (module: STAT, text: STAT)
+6. Sources footer (plain text, deep blue, centered)
+Keep every background white -> assemble in Canva/Figma/Claude Code.
+==================================================================
