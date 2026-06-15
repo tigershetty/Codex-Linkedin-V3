@@ -7,6 +7,7 @@
 **Visual Format**: Blueprint Draft (hub-and-spoke)
 **Hero Statement**: "2-3 days → 20 min"
 **Status**: Published
+**Code-rendered visual**: `renderer/templates/pf7-blueprint-draft.html` → `out/pf7-blueprint-draft.png` (PF7 Blueprint Draft, homogeneous Shetty's Desk system — RFQ draft sheet + weighted scoring matrix; full brief in `references/ai-for-sc-render-briefs.md`).
 
 ---
 

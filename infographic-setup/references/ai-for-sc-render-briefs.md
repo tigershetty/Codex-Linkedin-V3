@@ -88,7 +88,8 @@ Rule for the ×N concepts: same skeleton, **different data + a different accente
 
 ## 3. Worked briefs — Month 1 / W21 (the demonstrated standard)
 
-### Ep01 — Blueprint Draft · W21 · Purchaser · Claude · RFQ with weighted scoring matrix
+### Ep01 — Blueprint Draft · W21 · Purchaser · Claude · RFQ with weighted scoring matrix  ✅ BUILT
+- Rendered: `renderer/templates/pf7-blueprint-draft.html` → `out/pf7-blueprint-draft.png`.
 - **VISUAL CONCEPT:** an architect's **blueprint sheet** of an RFQ — a titled document skeleton on the left (5 stamped sections), and a **weighted scoring matrix** on the right (criteria rows, weight column, a worked supplier score). Coral = the weight column + the winning total. The "draft" feel: thin ruled grid, corner title block, a coral "REV. A" stamp.
 - **HOOK:** "It takes most buyers a full afternoon to draft an RFQ. The scoring matrix is the part they skip, and it is the part that matters."
 - **HERO:** "One brief in. **A scored RFQ out.**"
