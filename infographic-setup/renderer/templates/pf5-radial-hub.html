@@ -4,8 +4,7 @@
 <meta charset="UTF-8">
 <!--
   PF5 — Radial Hub / Feature Map  (reconstruction of reference file 97)
-  Concept: "How to use [tool] for [function]" → central engine + spokes, each card
-  self-contained with a BEST FOR tag, grounded by concrete use-cases + an honesty card.
+  Icons: Lucide (ISC). Center node: official Claude logo (@lobehub/icons-static-svg).
   Canvas 1080x1350 (4:5). Coral-on-cream + one semantic caution tone for "watch for".
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,26 +24,23 @@
   .title{font-family:var(--serif);font-weight:700;font-size:58px;line-height:1.03;letter-spacing:-.5px;}
   .title .c{color:var(--coral);}
   .sub{font-size:23px;color:var(--grey);font-weight:500;margin-top:9px;border-bottom:2px solid #E3DDD2;padding-bottom:16px;}
-  .spark{position:absolute;top:46px;right:48px;width:58px;height:58px;}
-  /* connectors behind cards */
+  .brand{position:absolute;top:46px;right:48px;width:56px;height:56px;}
+  .brand svg{width:100%;height:100%;}
   .lines{position:absolute;inset:0;z-index:1;}
-  /* central node */
   .node{position:absolute;left:462px;top:386px;width:156px;height:156px;border-radius:50%;
     background:#fff;border:3px solid var(--tint);z-index:3;display:flex;align-items:center;justify-content:center;
     box-shadow:0 8px 26px rgba(150,70,40,.18);}
-  .node svg{width:80px;height:80px;}
-  /* feature cards */
+  .node svg{width:84px;height:84px;}
   .fcard{position:absolute;width:316px;background:#fff;border:1.5px solid #EAE3D8;border-radius:14px;
     padding:14px 16px;z-index:2;box-shadow:0 6px 16px rgba(80,40,20,.07);}
-  .fhead{display:flex;align-items:center;gap:10px;margin-bottom:7px;}
-  .ficon{width:34px;height:34px;border-radius:9px;background:var(--tint);display:flex;align-items:center;justify-content:center;flex:0 0 auto;}
-  .ficon svg{width:20px;height:20px;}
+  .fhead{display:flex;align-items:center;gap:11px;margin-bottom:7px;}
+  .ficon{width:36px;height:36px;border-radius:9px;background:var(--tint);color:var(--coral);
+    display:flex;align-items:center;justify-content:center;flex:0 0 auto;}
+  .ficon svg{width:21px;height:21px;}
   .ftitle{font-family:var(--serif);font-weight:700;font-size:21px;color:var(--ink);line-height:1;}
-  .ftag{font-size:11px;font-weight:700;color:var(--coral);letter-spacing:.6px;text-transform:uppercase;margin-top:-2px;}
   .fdesc{font-size:14.5px;color:#4f463e;line-height:1.32;}
   .fbest{font-size:12.5px;color:#6a6057;margin-top:8px;border-top:1px dashed #E3DDD2;padding-top:6px;}
   .fbest b{color:var(--coral);font-weight:700;}
-  /* bottom row */
   .ucard{position:absolute;top:780px;width:312px;height:372px;border-radius:14px;padding:16px 17px;z-index:2;}
   .uc{background:#fff;border:1.5px solid #EAE3D8;box-shadow:0 6px 16px rgba(80,40,20,.07);}
   .ulabel{font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:#fff;background:var(--coral);
@@ -56,17 +52,20 @@
   .stext{font-size:14px;color:#4f463e;line-height:1.28;}
   .uresult{margin-top:10px;background:var(--tint);border-radius:8px;padding:9px 11px;font-size:14px;color:#6a3a23;}
   .uresult b{color:var(--coral-deep);}
-  /* watch-for card uses the caution semantic tone */
   .watch{background:#FBF4E6;border:1.5px solid #F0E0BC;}
-  .watch .ulabel{background:var(--caution);}
+  .watch .ulabel{background:var(--caution);display:flex;align-items:center;gap:6px;}
+  .watch .ulabel svg{width:14px;height:14px;}
   .wbody{font-size:15px;color:#5a4a24;line-height:1.4;}
   .wbody b{color:var(--caution);}
   .wlist{margin-top:12px;}
   .wrow{display:flex;gap:8px;font-size:13.5px;color:#5a4a24;margin-bottom:8px;line-height:1.3;}
   .wdot{color:var(--caution);font-weight:700;}
-  /* footer (no sign-off text per brand rule) */
+  .stack{position:absolute;left:0;top:1178px;width:100%;display:flex;flex-direction:column;align-items:center;gap:9px;}
+  .stack .lab{font-size:12px;font-weight:700;letter-spacing:1.6px;color:#a39c91;text-transform:uppercase;}
+  .stack .row{display:flex;align-items:center;justify-content:center;gap:34px;}
+  .stack img{height:23px;width:auto;}
   .foot{position:absolute;bottom:0;left:0;width:100%;height:56px;background:var(--ink);display:flex;align-items:center;justify-content:center;}
-  .foot svg{width:24px;height:24px;}
+  .foot svg{width:23px;height:23px;color:#C15F3C;}
 </style>
 </head>
 <body>
@@ -75,9 +74,8 @@
     <div class="title">How a Supply Planner<br>Uses <span class="c">Claude</span></div>
     <div class="sub">Six ways AI fits your planning week, and exactly when to use each.</div>
   </div>
-  <svg class="spark" viewBox="0 0 100 100"><g fill="#C15F3C"><path d="M50 4 L56 38 L50 50 L44 38 Z"/><path d="M50 96 L44 62 L50 50 L56 62 Z"/><path d="M4 50 L38 44 L50 50 L38 56 Z"/><path d="M96 50 L62 56 L50 50 L62 44 Z"/><path d="M18 18 L44 40 L50 50 L40 44 Z"/><path d="M82 82 L56 60 L50 50 L60 56 Z"/><path d="M82 18 L60 44 L50 50 L56 40 Z"/><path d="M18 82 L40 56 L50 50 L44 60 Z"/></g></svg>
+  <div class="brand"><svg viewBox="0 0 24 24"><path fill="#D97757" fill-rule="nonzero" d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z"/></svg></div>
 
-  <!-- connectors -->
   <svg class="lines" viewBox="0 0 1080 1350" preserveAspectRatio="none">
     <g stroke="#D9A98F" stroke-width="2" fill="#C15F3C">
       <line x1="540" y1="464" x2="358" y2="288"/><circle cx="358" cy="288" r="4"/>
@@ -89,44 +87,43 @@
     </g>
   </svg>
 
-  <div class="node">
-    <svg viewBox="0 0 100 100"><g fill="#C15F3C"><path d="M50 6 L57 38 L50 50 L43 38 Z"/><path d="M50 94 L43 62 L50 50 L57 62 Z"/><path d="M6 50 L38 43 L50 50 L38 57 Z"/><path d="M94 50 L62 57 L50 50 L62 43 Z"/><path d="M16 16 L43 40 L50 50 L40 43 Z"/><path d="M84 84 L57 60 L50 50 L60 57 Z"/><path d="M84 16 L60 43 L50 50 L57 40 Z"/><path d="M16 84 L40 57 L50 50 L43 60 Z"/></g></svg>
-  </div>
+  <!-- center node: official Claude logo = the engine -->
+  <div class="node"><svg viewBox="0 0 24 24"><path fill="#D97757" fill-rule="nonzero" d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z"/></svg></div>
 
-  <!-- LEFT column -->
+  <!-- LEFT -->
   <div class="fcard" style="left:40px;top:206px;">
-    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#C15F3C" stroke-width="2"><path d="M2 12h3l2-7 4 14 3-9 2 5h6"/></svg></div><div><div class="ftitle">Demand Sensing</div></div></div>
+    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19.07 4.93A10 10 0 0 0 6.99 3.34"/><path d="M4 6h.01"/><path d="M2.29 9.62A10 10 0 1 0 21.31 8.35"/><path d="M16.24 7.76A6 6 0 1 0 8.23 16.67"/><path d="M12 18h.01"/><path d="M17.99 11.66A6 6 0 0 1 15.77 16.67"/><circle cx="12" cy="12" r="2"/><path d="m13.41 10.59 5.66-5.66"/></svg></div><div class="ftitle">Demand Sensing</div></div>
     <div class="fdesc">Pull POS, weather and promo signals into one weekly read.</div>
     <div class="fbest"><b>BEST FOR:</b> spotting demand shifts 2-3 weeks early.</div>
   </div>
   <div class="fcard" style="left:40px;top:380px;">
-    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#C15F3C" stroke-width="2"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div><div><div class="ftitle">Forecast Review</div></div></div>
+    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="m19 9-5 5-4-4-3 3"/></svg></div><div class="ftitle">Forecast Review</div></div>
     <div class="fdesc">Flag the SKUs where your forecast keeps missing, with the why.</div>
     <div class="fbest"><b>BEST FOR:</b> the Monday exception list.</div>
   </div>
   <div class="fcard" style="left:40px;top:554px;">
-    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#C15F3C" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg></div><div><div class="ftitle">Safety-Stock Math</div></div></div>
+    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></div><div class="ftitle">Safety-Stock Math</div></div>
     <div class="fdesc">Recompute ROP and safety stock as lead times move.</div>
     <div class="fbest"><b>BEST FOR:</b> post-disruption resets.</div>
   </div>
-  <!-- RIGHT column -->
+  <!-- RIGHT -->
   <div class="fcard" style="left:724px;top:206px;">
-    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#C15F3C" stroke-width="2"><path d="M12 3l10 17H2z"/><path d="M12 10v4M12 17h0"/></svg></div><div><div class="ftitle">Supplier Risk</div></div></div>
+    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></div><div class="ftitle">Supplier Risk</div></div>
     <div class="fdesc">Scan news and delivery data for at-risk suppliers.</div>
     <div class="fbest"><b>BEST FOR:</b> weekly risk briefings.</div>
   </div>
   <div class="fcard" style="left:724px;top:380px;">
-    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#C15F3C" stroke-width="2"><path d="M6 2h9l5 5v15H6z"/><path d="M14 2v6h6"/></svg></div><div><div class="ftitle">S&amp;OP Prep</div></div></div>
+    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h20"/><path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"/><path d="m7 21 5-5 5 5"/></svg></div><div class="ftitle">S&amp;OP Prep</div></div>
     <div class="fdesc">Turn the numbers into the narrative for the meeting.</div>
     <div class="fbest"><b>BEST FOR:</b> the day before S&amp;OP.</div>
   </div>
   <div class="fcard" style="left:724px;top:554px;">
-    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="#C15F3C" stroke-width="2"><path d="M6 3v6a3 3 0 0 0 3 3h6M18 21v-6a3 3 0 0 0-3-3"/><circle cx="6" cy="3" r="0.1"/></svg></div><div><div class="ftitle">What-If Scenarios</div></div></div>
+    <div class="fhead"><div class="ficon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6a9 9 0 0 0-9 9V3"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/></svg></div><div class="ftitle">What-If Scenarios</div></div>
     <div class="fdesc">Model +15% demand or a supplier down in minutes.</div>
     <div class="fbest"><b>BEST FOR:</b> capacity and sourcing decisions.</div>
   </div>
 
-  <!-- BOTTOM use-cases + honesty card -->
+  <!-- BOTTOM -->
   <div class="ucard uc" style="left:40px;">
     <div class="ulabel">Use case 1</div>
     <div class="uhead">Weekly Stockout Sweep</div>
@@ -144,7 +141,7 @@
     <div class="uresult"><b>Result:</b> a quarterly task you can run weekly.</div>
   </div>
   <div class="ucard watch" style="left:728px;">
-    <div class="ulabel">Watch for</div>
+    <div class="ulabel"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>Watch for</div>
     <div class="wbody"><b>AI drafts. You decide.</b></div>
     <div class="wlist">
       <div class="wrow"><span class="wdot">!</span><span>Verify every number before it leaves your desk.</span></div>
@@ -154,9 +151,18 @@
     </div>
   </div>
 
-  <div class="foot">
-    <svg viewBox="0 0 100 100"><g fill="#C15F3C"><path d="M50 10 L55 40 L50 50 L45 40 Z"/><path d="M50 90 L45 60 L50 50 L55 60 Z"/><path d="M10 50 L40 45 L50 50 L40 55 Z"/><path d="M90 50 L60 55 L50 50 L60 45 Z"/></g></svg>
+  <div class="stack">
+    <div class="lab">Plugs into your stack</div>
+    <div class="row">
+      <img src="../assets/logos/sc/sap.svg" alt="SAP">
+      <img src="../assets/logos/sc/netsuite.png" alt="NetSuite">
+      <img src="../assets/logos/sc/excel.svg" alt="Excel">
+      <img src="../assets/logos/sc/powerbi.svg" alt="Power BI">
+      <img src="../assets/logos/sc/kinaxis.svg" alt="Kinaxis">
+    </div>
   </div>
+
+  <div class="foot"><svg viewBox="0 0 24 24"><path fill="currentColor" fill-rule="nonzero" d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z"/></svg></div>
 </div>
 </body>
 </html>

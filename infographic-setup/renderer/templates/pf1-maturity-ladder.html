@@ -4,9 +4,7 @@
 <meta charset="UTF-8">
 <!--
   PF1 — Maturity Ladder  (reconstruction of reference file 71)
-  Concept: "There are N levels, most people are stuck at Level 1" → self-location.
-  Storytelling = geometry: an inverted stack, widest+lightest at top (where everyone
-  starts and stays), narrowing + deepening in coral toward the "engine" at the bottom.
+  Icons: Lucide (ISC). Brand logo: @lobehub/icons-static-svg (Claude, official #D97757).
   Canvas 1080x1350 (4:5). Coral-on-cream. No sign-off / no role badge (brand rule).
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,101 +15,83 @@
     --cream:#F4F3EE; --ink:#191919; --grey:#8A857B; --coral:#C15F3C;
     --l1:#F3E0D6; --l2:#E7B59B; --l3:#D58A63; --l4:#B45A30;
     --l1d:#E3C5B4; --l2d:#CF9778; --l3d:#B96E48; --l4d:#8E4322;
-    --serif:'Fraunces',Georgia,'Times New Roman',serif;
-    --sans:'Inter',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
+    --serif:'Fraunces',Georgia,serif; --sans:'Inter',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
   }
   *{margin:0;padding:0;box-sizing:border-box;}
   body{background:#ddd;}
-  .canvas{
-    width:1080px;height:1350px;background:var(--cream);position:relative;
-    font-family:var(--sans);color:var(--ink);overflow:hidden;
-    padding:52px 56px 0;
-  }
-  /* ---- title zone ---- */
-  .title{font-family:var(--serif);font-weight:700;font-size:55px;line-height:1.02;letter-spacing:-.5px;max-width:920px;}
+  .canvas{width:1080px;height:1350px;background:var(--cream);position:relative;
+    font-family:var(--sans);color:var(--ink);overflow:hidden;padding:52px 0 0;}
+  .head{padding:0 64px;}
+  .title{font-family:var(--serif);font-weight:700;font-size:55px;line-height:1.02;letter-spacing:-.5px;max-width:880px;}
   .title .c{color:var(--coral);}
   .sub{font-size:25px;color:var(--grey);margin-top:10px;font-weight:500;}
-  .spark{position:absolute;top:50px;right:52px;width:62px;height:62px;}
-  /* ---- ladder ---- */
-  .ladder{margin-top:30px;display:flex;flex-direction:column;align-items:center;gap:14px;position:relative;}
-  .tier{
-    border-radius:18px;padding:18px 26px 22px;color:var(--ink);position:relative;
-    box-shadow:0 9px 0 var(--lip),0 20px 26px rgba(80,40,20,.16);
-  }
-  .t1{width:96%;background:var(--l1);--lip:var(--l1d);}
-  .t2{width:85%;background:var(--l2);--lip:var(--l2d);}
-  .t3{width:74%;background:var(--l3);--lip:var(--l3d);}
-  .t4{width:64%;background:var(--l4);--lip:var(--l4d);color:#fff;}
-  .thead{display:flex;align-items:center;gap:14px;margin-bottom:12px;}
-  .ticon{width:50px;height:50px;border-radius:50%;background:var(--coral);display:flex;align-items:center;justify-content:center;flex:0 0 auto;}
-  .t4 .ticon{background:#fff;}
+  .brand{position:absolute;top:50px;right:60px;width:60px;height:60px;}
+  .brand svg{width:100%;height:100%;}
+  /* ladder */
+  .ladder{margin-top:30px;display:flex;flex-direction:column;align-items:center;gap:13px;position:relative;}
+  .tier{border-radius:18px;padding:17px 26px 21px;position:relative;
+    box-shadow:0 9px 0 var(--lip),0 20px 26px rgba(80,40,20,.16);}
+  .t1{width:86%;background:var(--l1);--lip:var(--l1d);}
+  .t2{width:75%;background:var(--l2);--lip:var(--l2d);}
+  .t3{width:65%;background:var(--l3);--lip:var(--l3d);}
+  .t4{width:56%;background:var(--l4);--lip:var(--l4d);color:#fff;}
+  .thead{display:flex;align-items:center;gap:14px;margin-bottom:11px;}
+  .ticon{width:50px;height:50px;border-radius:50%;background:var(--coral);color:#fff;
+    display:flex;align-items:center;justify-content:center;flex:0 0 auto;}
+  .t4 .ticon{background:#fff;color:var(--coral);}
   .ticon svg{width:26px;height:26px;}
   .tlabel{font-family:var(--serif);font-weight:700;font-size:27px;color:var(--coral);letter-spacing:.3px;}
-  .t4 .tlabel{color:#fff;}
-  .t3 .tlabel{color:#5a2a14;}
+  .t4 .tlabel{color:#fff;} .t3 .tlabel{color:#5a2a14;}
   .tdesc{font-size:16px;color:#5e544c;font-weight:500;margin-top:1px;}
-  .t4 .tdesc{color:#f3ddd0;}
-  .t3 .tdesc{color:#6e3a22;}
+  .t4 .tdesc{color:#f3ddd0;} .t3 .tdesc{color:#6e3a22;}
   .rows{display:flex;flex-direction:column;gap:7px;}
-  .row{display:grid;grid-template-columns:178px 1fr;gap:14px;align-items:baseline;
-       background:rgba(255,255,255,.45);border-radius:9px;padding:7px 13px;}
-  .t4 .row{background:rgba(255,255,255,.13);}
-  .rk{font-weight:700;font-size:16px;color:#3a322c;}
-  .t4 .rk{color:#fff;}
-  .rv{font-size:15px;color:#5e544c;line-height:1.25;}
-  .t4 .rv{color:#f0dccf;}
-  /* ---- margin annotations ---- */
-  .anno{position:absolute;font-size:14px;color:var(--grey);font-weight:600;text-align:center;line-height:1.25;}
-  .anno-quote{left:6px;top:150px;width:120px;}
-  .anno-quote .bub{background:#fff;border:1.5px solid #E3C5B4;border-radius:12px;padding:8px 9px;color:#5e544c;font-style:italic;font-size:13px;margin-bottom:8px;}
-  .sil{width:54px;height:54px;margin:0 auto;}
-  .anno-lock{left:8px;top:520px;width:118px;}
-  .anno-lock svg{width:26px;height:26px;margin-bottom:4px;}
-  .start{position:absolute;right:30px;top:150px;width:120px;text-align:center;}
-  .start .lab{color:var(--coral);font-weight:700;font-size:18px;letter-spacing:1px;}
-  .start .arrow{width:14px;height:760px;margin:8px auto 0;border-right:3px dashed var(--coral);position:relative;}
+  .row{display:grid;grid-template-columns:182px 1fr;gap:14px;align-items:baseline;
+       background:rgba(255,255,255,.5);border-radius:9px;padding:7px 13px;}
+  .t4 .row{background:rgba(255,255,255,.14);}
+  .rk{font-weight:700;font-size:16px;color:#3a322c;} .t4 .rk{color:#fff;}
+  .rv{font-size:15px;color:#5e544c;line-height:1.25;} .t4 .rv{color:#f0dccf;}
+  /* margin annotations */
+  .anno{position:absolute;font-size:13px;color:var(--grey);font-weight:600;text-align:center;line-height:1.22;}
+  .anno-quote{left:14px;top:158px;width:108px;}
+  .anno-quote .bub{background:#fff;border:1.5px solid #E3C5B4;border-radius:11px;padding:7px 8px;color:#5e544c;font-style:italic;font-size:12.5px;margin-bottom:7px;}
+  .sil{width:42px;height:42px;margin:0 auto 3px;}
+  .anno-lock{left:16px;top:560px;width:104px;}
+  .anno-lock svg{width:24px;height:24px;margin-bottom:3px;stroke:var(--coral);}
+  .start{position:absolute;right:30px;top:150px;width:108px;text-align:center;}
+  .start .lab{color:var(--coral);font-weight:700;font-size:17px;letter-spacing:1px;}
+  .start .arrow{width:14px;height:770px;margin:8px auto 0;border-right:3px dashed var(--coral);position:relative;}
   .start .arrow:after{content:"";position:absolute;bottom:-2px;right:-9px;width:0;height:0;border-left:9px solid transparent;border-right:9px solid transparent;border-top:14px solid var(--coral);}
-  .start .deep{color:var(--grey);font-size:13px;font-weight:600;margin-top:8px;}
-  /* ---- footer (brand-rule: no sign-off text, structural bar only) ---- */
-  .foot{position:absolute;bottom:0;left:0;width:100%;height:60px;background:var(--ink);
-        display:flex;align-items:center;justify-content:center;}
-  .foot .dot{width:26px;height:26px;}
+  /* footer */
+  .foot{position:absolute;bottom:0;left:0;width:100%;height:58px;background:var(--ink);display:flex;align-items:center;justify-content:center;}
+  .foot svg{width:24px;height:24px;color:#C15F3C;}
 </style>
 </head>
 <body>
 <div class="canvas" id="card">
-  <!-- spark mark -->
-  <svg class="spark" viewBox="0 0 100 100" aria-hidden="true">
-    <g fill="#C15F3C"><path d="M50 4 L56 38 L50 50 L44 38 Z"/><path d="M50 96 L44 62 L50 50 L56 62 Z"/>
-    <path d="M4 50 L38 44 L50 50 L38 56 Z"/><path d="M96 50 L62 56 L50 50 L62 44 Z"/>
-    <path d="M18 18 L44 40 L50 50 L40 44 Z"/><path d="M82 82 L56 60 L50 50 L60 56 Z"/>
-    <path d="M82 18 L60 44 L50 50 L56 40 Z"/><path d="M18 82 L40 56 L50 50 L44 60 Z"/></g>
-  </svg>
+  <!-- official Claude brand mark -->
+  <div class="brand"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="#D97757" fill-rule="nonzero" d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z"/></svg></div>
 
-  <div class="title">The 4 Levels of <span class="c">AI</span> in Supply Chain</div>
-  <div class="sub">Most planners never leave the first one.</div>
+  <div class="head">
+    <div class="title">The 4 Levels of <span class="c">AI</span> in Supply Chain</div>
+    <div class="sub">Most planners never leave the first one.</div>
+  </div>
 
-  <!-- left annotations -->
+  <!-- annotations -->
   <div class="anno anno-quote">
     <div class="bub">"Give me 10 ideas, fast."</div>
     <svg class="sil" viewBox="0 0 24 24" fill="#9a9489"><circle cx="12" cy="7" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8z"/></svg>
-    How most planners use AI
+    How most<br>planners use AI
   </div>
   <div class="anno anno-lock">
-    <svg viewBox="0 0 24 24" fill="none" stroke="#C15F3C" stroke-width="2"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
     10x when you<br>go deeper
   </div>
-  <!-- right start-here arrow (points DOWN: the goal is to descend into depth) -->
-  <div class="start">
-    <div class="lab">START<br>HERE</div>
-    <div class="arrow"></div>
-  </div>
+  <div class="start"><div class="lab">START<br>HERE</div><div class="arrow"></div></div>
 
   <div class="ladder">
-    <!-- LEVEL 1 -->
     <div class="tier t1">
       <div class="thead">
-        <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M21 11.5a8.5 8.5 0 0 1-12.3 7.6L3 21l1.9-5.7A8.5 8.5 0 1 1 21 11.5z"/></svg></div>
+        <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg></div>
         <div><div class="tlabel">LEVEL 1: ASK</div><div class="tdesc">Your AI assistant for quick answers and first drafts.</div></div>
       </div>
       <div class="rows">
@@ -121,10 +101,9 @@
         <div class="row"><div class="rk">Explain</div><div class="rv">Decode an Incoterm or a clause in plain English.</div></div>
       </div>
     </div>
-    <!-- LEVEL 2 -->
     <div class="tier t2">
       <div class="thead">
-        <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 4v5h-5"/></svg></div>
+        <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="8" x="3" y="3" rx="2"/><path d="M7 11v4a2 2 0 0 0 2 2h4"/><rect width="8" height="8" x="13" y="13" rx="2"/></svg></div>
         <div><div class="tlabel">LEVEL 2: AUTOMATE</div><div class="tdesc">AI runs the workflows you repeat every week.</div></div>
       </div>
       <div class="rows">
@@ -134,10 +113,9 @@
         <div class="row"><div class="rk">Standard rules</div><div class="rv">One instruction file it follows every time.</div></div>
       </div>
     </div>
-    <!-- LEVEL 3 -->
     <div class="tier t3">
       <div class="thead">
-        <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M9 3a2 2 0 0 1 4 0c0 .7.3 1 1 1h3v3c0 .7.3 1 1 1a2 2 0 0 1 0 4c-.7 0-1 .3-1 1v3h-3c-.7 0-1 .3-1 1a2 2 0 0 1-4 0c0-.7-.3-1-1-1H4v-3c0-.7-.3-1-1-1a2 2 0 0 1 0-4c.7 0 1-.3 1-1V4h3c.7 0 1-.3 1-1z"/></svg></div>
+        <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2"/><rect x="14" y="2" width="8" height="8" rx="1"/></svg></div>
         <div><div class="tlabel">LEVEL 3: BUILD</div><div class="tdesc">Teach AI your process once, then reuse it forever.</div></div>
       </div>
       <div class="rows">
@@ -147,10 +125,9 @@
         <div class="row"><div class="rk">Custom packs</div><div class="rv">Procurement, planning and logistics playbooks.</div></div>
       </div>
     </div>
-    <!-- LEVEL 4 -->
     <div class="tier t4">
       <div class="thead">
-        <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="#C15F3C" stroke-width="2.2"><path d="M4 6l5 6-5 6"/><path d="M12 18h8"/></svg></div>
+        <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19h8"/><path d="m4 17 6-6-6-6"/></svg></div>
         <div><div class="tlabel">LEVEL 4: AUTONOMOUS</div><div class="tdesc">AI becomes your planning engine.</div></div>
       </div>
       <div class="rows">
@@ -162,9 +139,7 @@
     </div>
   </div>
 
-  <div class="foot">
-    <svg class="dot" viewBox="0 0 100 100" aria-hidden="true"><g fill="#C15F3C"><path d="M50 10 L55 40 L50 50 L45 40 Z"/><path d="M50 90 L45 60 L50 50 L55 60 Z"/><path d="M10 50 L40 45 L50 50 L40 55 Z"/><path d="M90 50 L60 55 L50 50 L60 45 Z"/></g></svg>
-  </div>
+  <div class="foot"><svg viewBox="0 0 24 24"><path fill="currentColor" fill-rule="nonzero" d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z"/></svg></div>
 </div>
 </body>
 </html>
