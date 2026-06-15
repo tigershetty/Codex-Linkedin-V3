@@ -3,9 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <!--
-  PF1 — Maturity Ladder  (reconstruction of reference file 71)
-  Icons: Lucide (ISC). Brand logo: @lobehub/icons-static-svg (Claude, official #D97757).
-  Canvas 1080x1350 (4:5). Coral-on-cream. No sign-off / no role badge (brand rule).
+  PF1 — Maturity Ladder v3 (reconstruction of reference file 71)
+  Per-layer left annotation blocks (grid-aligned), no footer bar, larger type,
+  more whitespace. Icons: Lucide (ISC). Brand: Claude logo (@lobehub/icons).
+  Canvas 1080x1350 (4:5). Coral-on-cream.
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,72 +14,65 @@
 <style>
   :root{
     --cream:#F4F3EE; --ink:#191919; --grey:#8A857B; --coral:#C15F3C;
-    --l1:#F3E0D6; --l2:#E7B59B; --l3:#D58A63; --l4:#B45A30;
-    --l1d:#E3C5B4; --l2d:#CF9778; --l3d:#B96E48; --l4d:#8E4322;
     --serif:'Fraunces',Georgia,serif; --sans:'Inter',-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
   }
   *{margin:0;padding:0;box-sizing:border-box;}
   body{background:#ddd;}
   .canvas{width:1080px;height:1350px;background:var(--cream);position:relative;
-    font-family:var(--sans);color:var(--ink);overflow:hidden;padding:52px 0 0;}
-  .head{padding:0 64px;}
-  .title{font-family:var(--serif);font-weight:700;font-size:55px;line-height:1.02;letter-spacing:-.5px;max-width:880px;}
+    font-family:var(--sans);color:var(--ink);overflow:hidden;padding:54px 0 0;}
+  .head{padding:0 60px;}
+  .title{font-family:var(--serif);font-weight:700;font-size:57px;line-height:1.02;letter-spacing:-.5px;max-width:870px;}
   .title .c{color:var(--coral);}
-  .sub{font-size:25px;color:var(--grey);margin-top:10px;font-weight:500;}
-  .brand{position:absolute;top:50px;right:60px;width:60px;height:60px;}
+  .sub{font-size:26px;color:var(--grey);margin-top:11px;font-weight:500;}
+  .brand{position:absolute;top:54px;right:58px;width:62px;height:62px;}
   .brand svg{width:100%;height:100%;}
-  /* ladder — true extruded 3D slabs */
-  .ladder{width:836px;margin:18px auto 0;display:flex;flex-direction:column;align-items:center;gap:15px;position:relative;}
-  .tier{border-radius:26px;padding:15px 30px 16px;position:relative;}
+  /* ladder */
+  .ladder{margin-top:30px;display:flex;flex-direction:column;gap:23px;}
+  .lrow{display:grid;grid-template-columns:172px 1fr 96px;align-items:center;}
+  .lside{text-align:right;padding-right:22px;}
+  .la-a{display:block;font-weight:700;font-size:18px;color:var(--ink);line-height:1.3;}
+  .la-b{display:block;font-weight:600;font-size:18px;color:var(--coral);line-height:1.3;}
+  .tier{justify-self:center;border-radius:26px;padding:18px 32px 20px;position:relative;}
   .t1{width:100%;background:linear-gradient(168deg,#F8EAE1 0%,#F1DACB 70%,#ECD0BD 100%);
     box-shadow:0 5px 0 #E7CDBC,0 10px 0 #DEC0AB,0 15px 0 #D4B198,0 20px 0 #CAA286,
-      0 26px 36px rgba(120,70,40,.26),inset 0 2px 0 rgba(255,255,255,.6);}
-  .t2{width:89%;background:linear-gradient(168deg,#F0CDB4 0%,#E7B595 70%,#E1A988 100%);
+      0 27px 38px rgba(120,70,40,.26),inset 0 2px 0 rgba(255,255,255,.6);}
+  .t2{width:90%;background:linear-gradient(168deg,#F0CDB4 0%,#E7B595 70%,#E1A988 100%);
     box-shadow:0 5px 0 #D7A37F,0 10px 0 #CC926B,0 15px 0 #C18259,0 20px 0 #B67449,
-      0 26px 36px rgba(120,60,30,.30),inset 0 2px 0 rgba(255,255,255,.5);}
-  .t3{width:78%;background:linear-gradient(168deg,#DF9D72 0%,#D38453 70%,#CC7A48 100%);
+      0 27px 38px rgba(120,60,30,.30),inset 0 2px 0 rgba(255,255,255,.5);}
+  .t3{width:80%;background:linear-gradient(168deg,#DF9D72 0%,#D38453 70%,#CC7A48 100%);
     box-shadow:0 5px 0 #BE7340,0 10px 0 #AE6232,0 15px 0 #9F5628,0 20px 0 #904B22,
-      0 26px 36px rgba(100,45,20,.34),inset 0 2px 0 rgba(255,255,255,.42);}
-  .t4{width:67%;background:linear-gradient(168deg,#C96E3D 0%,#B5562C 70%,#AC4E26 100%);color:#fff;
+      0 27px 38px rgba(100,45,20,.34),inset 0 2px 0 rgba(255,255,255,.42);}
+  .t4{width:70%;background:linear-gradient(168deg,#C96E3D 0%,#B5562C 70%,#AC4E26 100%);color:#fff;
     box-shadow:0 5px 0 #99441F,0 10px 0 #883B1A,0 15px 0 #783316,0 20px 0 #682B11,
-      0 28px 40px rgba(80,30,12,.42),inset 0 2px 0 rgba(255,255,255,.28);}
-  .thead{display:flex;align-items:center;gap:14px;margin-bottom:9px;}
-  .ticon{width:52px;height:52px;border-radius:50%;
+      0 29px 42px rgba(80,30,12,.42),inset 0 2px 0 rgba(255,255,255,.28);}
+  .thead{display:flex;align-items:center;gap:16px;margin-bottom:12px;}
+  .ticon{width:56px;height:56px;border-radius:50%;
     background:radial-gradient(circle at 36% 30%,#D87A55,#C15F3C 70%,#A94E2F);color:#fff;
     display:flex;align-items:center;justify-content:center;flex:0 0 auto;
     box-shadow:0 4px 9px rgba(120,50,25,.4),inset 0 2px 2px rgba(255,255,255,.35);}
   .t4 .ticon{background:radial-gradient(circle at 36% 30%,#fff,#F2DACD 75%);color:#B5562C;}
-  .ticon svg{width:26px;height:26px;}
-  .tlabel{font-family:var(--serif);font-weight:700;font-size:27px;color:var(--coral);letter-spacing:.3px;}
+  .ticon svg{width:28px;height:28px;}
+  .tlabel{font-family:var(--serif);font-weight:700;font-size:30px;color:var(--coral);letter-spacing:.3px;}
   .t4 .tlabel{color:#fff;} .t3 .tlabel{color:#5a2a14;}
-  .tdesc{font-size:16px;color:#5e544c;font-weight:500;margin-top:1px;}
+  .tdesc{font-size:17px;color:#5e544c;font-weight:500;margin-top:2px;}
   .t4 .tdesc{color:#f3ddd0;} .t3 .tdesc{color:#6e3a22;}
-  .rows{display:flex;flex-direction:column;gap:6px;}
-  .row{display:grid;grid-template-columns:176px 1fr;gap:14px;align-items:baseline;
-       background:rgba(255,255,255,.7);border-radius:10px;padding:6px 13px;
+  .rows{display:flex;flex-direction:column;gap:7px;}
+  .row{display:grid;grid-template-columns:178px 1fr;gap:14px;align-items:baseline;
+       background:rgba(255,255,255,.74);border-radius:11px;padding:8px 15px;
        box-shadow:0 1px 2px rgba(120,60,30,.12);}
-  .t4 .row{background:rgba(255,255,255,.16);box-shadow:0 1px 2px rgba(0,0,0,.12);}
-  .rk{font-weight:700;font-size:16px;color:#3a322c;} .t4 .rk{color:#fff;}
-  .rv{font-size:15px;color:#5e544c;line-height:1.25;} .t4 .rv{color:#f0dccf;}
-  /* margin annotations */
-  .anno{position:absolute;font-size:13px;color:var(--grey);font-weight:600;text-align:center;line-height:1.22;z-index:6;}
-  .anno-quote{left:10px;top:178px;width:104px;}
-  .anno-quote .bub{background:#fff;border:1.5px solid #E3C5B4;border-radius:11px;padding:7px 8px;color:#5e544c;font-style:italic;font-size:12.5px;margin-bottom:7px;}
-  .sil{width:42px;height:42px;margin:0 auto 3px;}
-  .anno-lock{left:10px;top:476px;width:104px;}
-  .anno-lock svg{width:24px;height:24px;margin-bottom:3px;stroke:var(--coral);}
-  .start{position:absolute;right:8px;top:172px;width:108px;text-align:center;}
+  .t4 .row{background:rgba(255,255,255,.17);box-shadow:0 1px 2px rgba(0,0,0,.12);}
+  .rk{font-weight:700;font-size:16.5px;color:#3a322c;} .t4 .rk{color:#fff;}
+  .rv{font-size:16px;color:#5e544c;line-height:1.28;} .t4 .rv{color:#f0dccf;}
+  /* right rail: START HERE + descending arrow */
+  .start{position:absolute;right:14px;top:176px;width:96px;text-align:center;z-index:5;}
   .start .lab{color:var(--coral);font-weight:700;font-size:17px;letter-spacing:1px;}
-  .start .arrow{width:14px;height:980px;margin:8px auto 0;border-right:3px dashed var(--coral);position:relative;}
-  .start .arrow:after{content:"";position:absolute;bottom:-2px;right:-9px;width:0;height:0;border-left:9px solid transparent;border-right:9px solid transparent;border-top:14px solid var(--coral);}
-  /* footer */
-  .foot{position:absolute;bottom:0;left:0;width:100%;height:58px;background:var(--ink);display:flex;align-items:center;justify-content:center;}
-  .foot svg{width:24px;height:24px;color:#C15F3C;}
+  .start .arrow{width:14px;height:930px;margin:9px auto 0;border-right:3px dashed var(--coral);position:relative;}
+  .start .arrow:after{content:"";position:absolute;bottom:-2px;right:-9px;width:0;height:0;
+    border-left:9px solid transparent;border-right:9px solid transparent;border-top:14px solid var(--coral);}
 </style>
 </head>
 <body>
 <div class="canvas" id="card">
-  <!-- official Claude brand mark -->
   <div class="brand"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="#D97757" fill-rule="nonzero" d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z"/></svg></div>
 
   <div class="head">
@@ -86,70 +80,78 @@
     <div class="sub">Most planners never leave the first one.</div>
   </div>
 
-  <!-- annotations -->
-  <div class="anno anno-quote">
-    <div class="bub">"Give me 10 ideas, fast."</div>
-    <svg class="sil" viewBox="0 0 24 24" fill="#9a9489"><circle cx="12" cy="7" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8z"/></svg>
-    How most<br>planners use AI
-  </div>
-  <div class="anno anno-lock">
-    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
-    10x when you<br>go deeper
-  </div>
   <div class="start"><div class="lab">START<br>HERE</div><div class="arrow"></div></div>
 
   <div class="ladder">
-    <div class="tier t1">
-      <div class="thead">
-        <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg></div>
-        <div><div class="tlabel">LEVEL 1: ASK</div><div class="tdesc">Your AI assistant for quick answers and first drafts.</div></div>
+    <!-- LEVEL 1 -->
+    <div class="lrow">
+      <div class="lside"><span class="la-a">You ask.</span><span class="la-b">It answers.</span></div>
+      <div class="tier t1">
+        <div class="thead">
+          <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg></div>
+          <div><div class="tlabel">LEVEL 1: ASK</div><div class="tdesc">Your AI assistant for quick answers and first drafts.</div></div>
+        </div>
+        <div class="rows">
+          <div class="row"><div class="rk">Ask anything</div><div class="rv">Type a question, get an answer.</div></div>
+          <div class="row"><div class="rk">Draft fast</div><div class="rv">First-pass RFQ text and supplier notes.</div></div>
+          <div class="row"><div class="rk">Summarise</div><div class="rv">A 40-page report into 5 lines.</div></div>
+          <div class="row"><div class="rk">Explain</div><div class="rv">Decode an Incoterm in plain English.</div></div>
+        </div>
       </div>
-      <div class="rows">
-        <div class="row"><div class="rk">Ask anything</div><div class="rv">Type a question, get an answer. Like a smart search.</div></div>
-        <div class="row"><div class="rk">Draft fast</div><div class="rv">First-pass RFQ text, supplier notes, status emails.</div></div>
-        <div class="row"><div class="rk">Summarise</div><div class="rv">Turn a 40-page report into the 5 lines that matter.</div></div>
-        <div class="row"><div class="rk">Explain</div><div class="rv">Decode an Incoterm or a clause in plain English.</div></div>
-      </div>
+      <div></div>
     </div>
-    <div class="tier t2">
-      <div class="thead">
-        <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="8" x="3" y="3" rx="2"/><path d="M7 11v4a2 2 0 0 0 2 2h4"/><rect width="8" height="8" x="13" y="13" rx="2"/></svg></div>
-        <div><div class="tlabel">LEVEL 2: AUTOMATE</div><div class="tdesc">AI runs the workflows you repeat every week.</div></div>
+    <!-- LEVEL 2 -->
+    <div class="lrow">
+      <div class="lside"><span class="la-a">You set rules.</span><span class="la-b">It repeats.</span></div>
+      <div class="tier t2">
+        <div class="thead">
+          <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="8" x="3" y="3" rx="2"/><path d="M7 11v4a2 2 0 0 0 2 2h4"/><rect width="8" height="8" x="13" y="13" rx="2"/></svg></div>
+          <div><div class="tlabel">LEVEL 2: AUTOMATE</div><div class="tdesc">AI runs the workflows you repeat every week.</div></div>
+        </div>
+        <div class="rows">
+          <div class="row"><div class="rk">Reusable prompts</div><div class="rv">Save the prompt you re-run weekly.</div></div>
+          <div class="row"><div class="rk">Connect your files</div><div class="rv">Point it at your demand export.</div></div>
+          <div class="row"><div class="rk">Scheduled checks</div><div class="rv">Daily stockout and risk scans.</div></div>
+          <div class="row"><div class="rk">Standard rules</div><div class="rv">One instruction file, every time.</div></div>
+        </div>
       </div>
-      <div class="rows">
-        <div class="row"><div class="rk">Reusable prompts</div><div class="rv">Save the prompt you re-run every Monday.</div></div>
-        <div class="row"><div class="rk">Connect your files</div><div class="rv">Point it at your demand export or BOM.</div></div>
-        <div class="row"><div class="rk">Scheduled checks</div><div class="rv">Daily stockout and supplier-risk scans.</div></div>
-        <div class="row"><div class="rk">Standard rules</div><div class="rv">One instruction file it follows every time.</div></div>
-      </div>
+      <div></div>
     </div>
-    <div class="tier t3">
-      <div class="thead">
-        <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2"/><rect x="14" y="2" width="8" height="8" rx="1"/></svg></div>
-        <div><div class="tlabel">LEVEL 3: BUILD</div><div class="tdesc">Teach AI your process once, then reuse it forever.</div></div>
+    <!-- LEVEL 3 -->
+    <div class="lrow">
+      <div class="lside"><span class="la-a">You teach it.</span><span class="la-b">It remembers.</span></div>
+      <div class="tier t3">
+        <div class="thead">
+          <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2"/><rect x="14" y="2" width="8" height="8" rx="1"/></svg></div>
+          <div><div class="tlabel">LEVEL 3: BUILD</div><div class="tdesc">Teach AI your process once, then reuse it forever.</div></div>
+        </div>
+        <div class="rows">
+          <div class="row"><div class="rk">Build skills</div><div class="rv">Codify your S&amp;OP prep as a skill.</div></div>
+          <div class="row"><div class="rk">Spreadsheet logic</div><div class="rv">Safety stock and EOQ, computed.</div></div>
+          <div class="row"><div class="rk">Connect systems</div><div class="rv">Read SAP and ERP data via MCP.</div></div>
+          <div class="row"><div class="rk">Custom packs</div><div class="rv">Procurement and planning playbooks.</div></div>
+        </div>
       </div>
-      <div class="rows">
-        <div class="row"><div class="rk">Build skills</div><div class="rv">Codify your S&amp;OP prep as a repeatable skill.</div></div>
-        <div class="row"><div class="rk">Spreadsheet logic</div><div class="rv">Safety stock and EOQ computed, not guessed.</div></div>
-        <div class="row"><div class="rk">Connect systems</div><div class="rv">Read SAP, ERP and supplier data through MCP.</div></div>
-        <div class="row"><div class="rk">Custom packs</div><div class="rv">Procurement, planning and logistics playbooks.</div></div>
-      </div>
+      <div></div>
     </div>
-    <div class="tier t4">
-      <div class="thead">
-        <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19h8"/><path d="m4 17 6-6-6-6"/></svg></div>
-        <div><div class="tlabel">LEVEL 4: AUTONOMOUS</div><div class="tdesc">AI becomes your planning engine.</div></div>
+    <!-- LEVEL 4 -->
+    <div class="lrow">
+      <div class="lside"><span class="la-a">You step away.</span><span class="la-b">It runs alone.</span></div>
+      <div class="tier t4">
+        <div class="thead">
+          <div class="ticon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19h8"/><path d="m4 17 6-6-6-6"/></svg></div>
+          <div><div class="tlabel">LEVEL 4: AUTONOMOUS</div><div class="tdesc">AI becomes your planning engine.</div></div>
+        </div>
+        <div class="rows">
+          <div class="row"><div class="rk">Run agents</div><div class="rv">Risk and reorder checks, unattended.</div></div>
+          <div class="row"><div class="rk">Multi-step</div><div class="rv">Sense, simulate, decide, act.</div></div>
+          <div class="row"><div class="rk">Full workflows</div><div class="rv">PO drafts, scorecards, routing.</div></div>
+          <div class="row"><div class="rk">Runs while you sleep</div><div class="rv">The briefing lands before Monday.</div></div>
+        </div>
       </div>
-      <div class="rows">
-        <div class="row"><div class="rk">Run agents</div><div class="rv">Risk and reorder checks, run unattended.</div></div>
-        <div class="row"><div class="rk">Multi-step</div><div class="rv">Sense, simulate, decide, flag, on a loop.</div></div>
-        <div class="row"><div class="rk">Full workflows</div><div class="rv">PO drafts, scorecards, exception routing.</div></div>
-        <div class="row"><div class="rk">Runs while you sleep</div><div class="rv">The weekly briefing lands before Monday.</div></div>
-      </div>
+      <div></div>
     </div>
   </div>
-
-  <div class="foot"><svg viewBox="0 0 24 24"><path fill="currentColor" fill-rule="nonzero" d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z"/></svg></div>
 </div>
 </body>
 </html>
