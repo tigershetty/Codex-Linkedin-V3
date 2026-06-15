@@ -7,6 +7,7 @@
 **Visual Format**: Cost Anatomy
 **Hero Statement**: "4 layers. 1 you can move."
 **Status**: Ready — pending publish
+**Code-rendered visual**: `renderer/templates/pf6-cost-anatomy.html` → `renderer/out/pf6-cost-anatomy.png` (PF6, dark-dramatic system — first AI-for-SC pilot rendered deterministically rather than via Gemini). Use this as the primary image; the Gemini prompt below is the fallback.
 
 ---
 
