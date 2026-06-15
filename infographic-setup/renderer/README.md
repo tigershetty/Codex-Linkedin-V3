@@ -59,11 +59,11 @@ Cards on bright = white/cream (`rgba(255,255,255,.78)`) with a warm hairline bor
 ### 3a. The Shetty's Desk signature — the CONSTANT CORAL THREAD (locked 2026-06-15)
 This is what makes a post recognizably ours **beyond the logo** (Tiger's pick). The brand has exactly one constant: **coral is always present, in the same places, no matter what colour the content or tool brings.** The coral thread = the **eyebrow label**, the **one popped phrase in the hero line**, the **hero's framing element** (e.g. the "QUOTED PRICE · 100%" brace), and the **footer** (rule + handle + closing thesis). These are *always* `--coral #C15F3C`.
 
-**Two-job colour rule** (resolves "adapt per topic" vs "always look like mine"):
-- **Coral = brand/identity thread.** Constant. Says "this is a Shetty's Desk insight." Never adapts.
-- **The tool/content hue = data meaning only.** Adapts per post. Used *only* on the element that carries the point — e.g. OpenAI green `#10A37F` strictly on the negotiable margin layer + its callouts in PF6, never on brand furniture. A featured tool's logo may use its own colour (it's the tool's mark, not a brand element).
-- Amber `#C98A1E` remains the sanctioned "watch for / caution" exception.
-- **No "Powered by [tool]" text** — it reads as sponsorship. The tool *logo* alone signals capability; size it into whatever corner whitespace the layout leaves (see Law 11).
+**Two-job colour rule** (locked 2026-06-15 — HOMOGENEOUS, tool-agnostic):
+- **Coral = the brand thread AND the single data highlight.** Constant on every post. It marks both the brand furniture (eyebrow, hero pop, brace, footer) and the one element that carries the point (the negotiable margin layer, the "22%"). Single-accent discipline = the most "designed not generated" look.
+- **Warm neutrals** (stone/taupe) for structural/secondary content; **amber `#C98A1E`** only for the "watch for / caution" line.
+- **NO tool colours.** Every post uses the same Shetty's Desk palette regardless of which AI tool it features — that homogeneity is the standout (a ChatGPT post and a Claude post look like the same studio made them).
+- **The tool is signalled ONLY by a small monochrome icon chip** ("BUILT WITH · [Tool]", top-right, ink, identical treatment every time — swap glyph + name). Tool logos via `@lobehub/icons-static-svg` rendered in `currentColor` ink, never the tool's brand colour. **No "Powered by [tool]"** — it reads as sponsorship.
 
 ---
 
