@@ -45,19 +45,25 @@ node render.mjs templates/pf1-maturity-ladder.html out/pf1-maturity-ladder.png
 | Caution (semantic) | `#C98A1E` (amber) | the ONE non-coral tone, used only for "watch for / do-not" |
 | Level gradient | light coral → deep coral (`#F3E0D6` → `#B45A30` → `#682B11`) | encodes maturity/depth |
 
-**Dramatic background recipe** (v2, 2026-06-15 — DARK THEATRE is now the standard; the warm-cream version was too subtle per Tiger). The look: a deep near-black warm canvas with a single saturated **ember glow** behind the hero element, and a heavy vignette so cards/tiers read like lit exhibits in a darkened gallery. The glow color is **content-adaptive** — it carries the post's meaning (coral for the brand default; the featured tool's identity hue for tool-specific posts, e.g. OpenAI green `#10A37F` on the ChatGPT cost-anatomy post).
+**Dramatic background recipe** (v3, 2026-06-15 — **BRIGHT & LUMINOUS is the standard**). History: warm-cream v1 was too subtle; we tried a dark-theatre v2; Tiger's call is **bright** — and it matches the actual brand DNA (`brand-tokens.json`: "luminous, clean and airy, optimistic"). The look: a warm airy cream base with one large **saturated sunrise bloom** behind the hero plus a softer secondary warm glow — dramatic via *luminosity*, not darkness. PF1/PF5 (dark) are now legacy; rebuild them bright when next touched.
 ```css
-/* PF1 / PF5 pattern — coral ember on deep warm black */
 .canvas{ background:
-  radial-gradient(ellipse 75% 55% at 50% 57%, rgba(193,95,60,.46) 0%, rgba(150,55,22,.20) 46%, transparent 74%), /* ember glow */
-  radial-gradient(ellipse 88% 30% at 50% 7%, rgba(255,235,210,.08) 0%, transparent 62%),                         /* top air */
-  linear-gradient(180deg, #1E0E08 0%, #150B06 28%, #0E0703 62%, #080502 100%); }                                  /* deep base */
+  radial-gradient(ellipse 64% 46% at 26% 26%, rgba(217,119,87,.34) 0%, rgba(217,119,87,.12) 42%, transparent 72%), /* coral sunrise bloom */
+  radial-gradient(ellipse 58% 46% at 88% 64%, rgba(255,201,135,.30) 0%, transparent 66%),                          /* warm secondary glow */
+  radial-gradient(ellipse 120% 90% at 50% 22%, #FFFFFF 0%, #FCF7EF 44%, #F4EBDC 100%); }                            /* luminous warm base */
 .canvas::after{ content:""; position:absolute; inset:0; pointer-events:none; z-index:9;
-  background:radial-gradient(ellipse 98% 90% at 50% 53%, transparent 36%, rgba(0,0,0,.76) 100%); }                 /* heavy vignette */
+  background:radial-gradient(ellipse 110% 96% at 50% 42%, transparent 72%, rgba(150,95,55,.10) 100%); }             /* faint warm edge, keeps it bright */
 ```
-Position the glow's `at X% Y%` directly behind the post's hero (the tier stack, the hub node, the cost column). On dark, **bump card/tier drop shadows to `rgba(0,0,0,.55–.72)`** so they separate from the background. Swap the ember's `rgba(193,95,60,…)` for the post's semantic hue to make the background adapt per concept.
+Cards on bright = white/cream (`rgba(255,255,255,.78)`) with a warm hairline border and a soft warm shadow (`0 16px 40px rgba(150,90,55,.14)`). Use ONE deliberate dark element per post for contrast/rhythm (e.g. the "worked example" card) — never a dark whole-canvas. Move the bloom's `at X% Y%` behind the post's hero.
 
-**Color discipline:** semantic over decorative. One hue per category/level, carried consistently. Single-accent coral can't do red/green diagnostics, so encode levels by coral *value* (light→deep) and before/after by muted-grey vs coral. The amber caution tone is the only sanctioned exception. For tool-specific posts rendered in HTML, the featured tool's identity palette is allowed.
+### 3a. The Shetty's Desk signature — the CONSTANT CORAL THREAD (locked 2026-06-15)
+This is what makes a post recognizably ours **beyond the logo** (Tiger's pick). The brand has exactly one constant: **coral is always present, in the same places, no matter what colour the content or tool brings.** The coral thread = the **eyebrow label**, the **one popped phrase in the hero line**, the **hero's framing element** (e.g. the "QUOTED PRICE · 100%" brace), and the **footer** (rule + handle + closing thesis). These are *always* `--coral #C15F3C`.
+
+**Two-job colour rule** (resolves "adapt per topic" vs "always look like mine"):
+- **Coral = brand/identity thread.** Constant. Says "this is a Shetty's Desk insight." Never adapts.
+- **The tool/content hue = data meaning only.** Adapts per post. Used *only* on the element that carries the point — e.g. OpenAI green `#10A37F` strictly on the negotiable margin layer + its callouts in PF6, never on brand furniture. A featured tool's logo may use its own colour (it's the tool's mark, not a brand element).
+- Amber `#C98A1E` remains the sanctioned "watch for / caution" exception.
+- **No "Powered by [tool]" text** — it reads as sponsorship. The tool *logo* alone signals capability; size it into whatever corner whitespace the layout leaves (see Law 11).
 
 ---
 
@@ -100,17 +106,22 @@ Flat rounded rectangles read 2D. For real extruded depth (used in PF1):
 5. **Keep rows single-line.** Narrow blocks wrap text and overflow. Use a gentle taper (e.g. 100→89→78→67%) and a wide enough column; shorten copy before shrinking type.
 6. **Budget the vertical.** Removing the footer frees ~56px. Confirm the last block clears the bottom; the 3D cast shadow may overflow into bottom whitespace (fine).
 7. **Fill cards with flex.** Hollow card bottoms look unfinished — `display:flex;flex-direction:column` + `margin-top:auto` on the closing element (e.g. a Result box) anchors it to the bottom.
-8. **More whitespace + bigger type reads more premium** than cramming. Bigger blocks, fewer words per line.
-9. **Footer:** the heavy black bar was removed (Tiger's call, 2026-06-15). Default = no footer bar. (Sign-off/handle standard: TBD — see open questions.)
+8. **More whitespace + bigger type reads more premium** than cramming. Bigger blocks, fewer words per line. BUT (Law 10) — premium ≠ empty.
+9. **Footer = the coral-thread sign-off** (Tiger's call, 2026-06-15): a thin coral rule + Shetty's Desk logo + handle (left) + a one-line **closing thesis in coral** (right) = the pin-it payload. No heavy black bar.
+10. **Fill the canvas — dead whitespace is a QA failure** (Tiger, 2026-06-15). "Generous but never empty." If a zone is hollow, add *genuinely valuable* content (a worked example with real numbers, an extra insight card, the closing thesis) until the layout reaches the edges with balanced negative space. The goal is the "this is amazing / I should save this" density, not crowding.
+11. **Tool logo adapts to available whitespace.** Don't fix its size — grow/place the featured tool's mark into whatever corner room a given layout leaves (PF6: ~74px in the open top-right). It scales with the post, it doesn't dictate the post.
+12. **Add maximum *valuable* context.** Every post should clear the screenshot-and-use-it bar: a copy-paste prompt block (AI-for-SC), a real worked example, the structural-vs-movable verdict — context that makes someone keep it, on top of looking unmistakably Shetty's Desk.
 
 ---
 
 ## 8. The reference templates
-- **`templates/pf1-maturity-ladder.html`** — Power Format **PF1 Maturity Ladder** (reconstruction of corpus ref #71). Inverted 3D stacked pyramid, deepening coral, "START HERE" arrow descending into depth, per-layer "You/It" annotations. Self-location hook: "most planners never leave the first one." Dark theatre bg; **Claude mark top-right** (it's AI-branded content), **Shetty's Desk logo bottom-left supplement**.
-- **`templates/pf5-radial-hub.html`** — Power Format **PF5 Radial Hub** (ref #97). Central Claude-logo orb = engine (deep-space bloom behind it), six feature cards each with a "BEST FOR:" tag, two grounded use-case cards + one amber "Watch for" honesty card, "Plugs into your stack" logo strip. Shetty's Desk logo bottom-left.
-- **`templates/pf6-cost-anatomy.html`** — Power Format **PF6 Cost Anatomy** (AI-for-SC Ep28, *Should-Cost Model*, Category Manager × ChatGPT). **First end-to-end AI-for-SC pilot rendered from a real published-ready caption.** A proportional **stacked cost column** (Raw 40 / Labour 20 / Overhead 18 / Margin 22) where the one negotiable layer (margin) glows OpenAI green; right panel splits "set by the market 78%" vs "set by a choice 22%"; a monospace **copy-paste prompt block** (the AI-for-SC paste-it payload); a coral "watch for" honesty line. **Content-adaptive background**: emerald ember (not coral) because the tool is ChatGPT. Tool mark glows top-right; "Powered by ChatGPT" + Shetty's Desk logo in the footer.
+- **`templates/pf1-maturity-ladder.html`** — Power Format **PF1 Maturity Ladder** (reconstruction of corpus ref #71). Inverted 3D stacked pyramid, deepening coral, "START HERE" arrow descending into depth, per-layer "You/It" annotations. Self-location hook: "most planners never leave the first one." **⚠ LEGACY DARK bg — rebuild bright + add the coral-thread footer when next touched.** Claude mark top-right; Shetty's Desk logo bottom-left.
+- **`templates/pf5-radial-hub.html`** — Power Format **PF5 Radial Hub** (ref #97). Central Claude-logo orb = engine, six feature cards each with a "BEST FOR:" tag, two grounded use-case cards + one amber "Watch for" honesty card, "Plugs into your stack" logo strip. **⚠ LEGACY DARK bg — rebuild bright when next touched.**
+- **`templates/pf6-cost-anatomy.html`** — **PF6 Cost Anatomy** (AI-for-SC Ep28, *Should-Cost Model*, Category Manager × ChatGPT). **The reference build for the current bright system** — first AI-for-SC post rendered from a real published-ready caption. Proportional **stacked cost column** (Raw 40 / Labour 20 / Overhead 18 / Margin 22) where only the negotiable margin layer carries the tool hue (OpenAI green); right column = "set by the market 78%" vs "set by a choice 22%" + a dark **worked-example card** ($4.20 unit → $0.92 you can move / $3.28 fixed, the one deliberate dark element); full-width **copy-paste prompt block**; coral "watch for" honesty line; coral-thread footer (rule + logo + handle + closing thesis). Bright luminous bg; constant coral thread; tool mark sized into the top-right whitespace; **no "Powered by".**
 
-**Logo convention** (established this session): the *featured AI tool's* mark sits in the **hero corner** (top-right); the **Shetty's Desk logo is a small bottom corner supplement**, never competing with content (matches benchmark rule P10/R… "branding only in footer"). Tool logos via `@lobehub/icons-static-svg` (`claude`, `openai` — `currentColor`, recolor to the tool hue). These are proven, hand-built outputs; next step is to parametrize into `{{token}}` templates the pipeline can fill (see open items).
+**Logo convention**: the *featured AI tool's* mark sits in the **hero corner** (top-right), sized to the corner's whitespace (Law 11), as a *capability* signal — never a "Powered by" line. The **Shetty's Desk logo anchors the footer** as part of the coral-thread sign-off. Tool logos via `@lobehub/icons-static-svg` (`claude`, `openai` — `currentColor`, tint to the tool hue).
+
+**Build philosophy — design system, NOT parametrization** (Tiger, 2026-06-15): do **not** turn these into `{{token}}` fill-in templates — that makes every post in a format look identical, which Tiger explicitly rejects. Instead treat the repo as a **kit-of-parts**: reusable brand components (coral-thread header/footer, stat treatment, bright background recipe, 3D slab, prompt block, card anatomy, icon/logo system) that get assembled into a **fresh concept fitted to each topic** (cost → stacked column; maturity → ladder; risk → radar; flow → pipeline). *Parametrize the brand (constant), bespoke the concept (per topic).* The source Gemini-prompt files can be rewritten as structured **HTML render briefs** per post.
 
 ---
 
