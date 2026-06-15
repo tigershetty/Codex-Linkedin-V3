@@ -28,18 +28,18 @@
   .brand{position:absolute;top:50px;right:60px;width:60px;height:60px;}
   .brand svg{width:100%;height:100%;}
   /* ladder — true extruded 3D slabs */
-  .ladder{margin-top:18px;display:flex;flex-direction:column;align-items:center;gap:15px;position:relative;}
+  .ladder{width:836px;margin:18px auto 0;display:flex;flex-direction:column;align-items:center;gap:15px;position:relative;}
   .tier{border-radius:26px;padding:15px 30px 16px;position:relative;}
-  .t1{width:86%;background:linear-gradient(168deg,#F8EAE1 0%,#F1DACB 70%,#ECD0BD 100%);
+  .t1{width:100%;background:linear-gradient(168deg,#F8EAE1 0%,#F1DACB 70%,#ECD0BD 100%);
     box-shadow:0 5px 0 #E7CDBC,0 10px 0 #DEC0AB,0 15px 0 #D4B198,0 20px 0 #CAA286,
       0 26px 36px rgba(120,70,40,.26),inset 0 2px 0 rgba(255,255,255,.6);}
-  .t2{width:73%;background:linear-gradient(168deg,#F0CDB4 0%,#E7B595 70%,#E1A988 100%);
+  .t2{width:89%;background:linear-gradient(168deg,#F0CDB4 0%,#E7B595 70%,#E1A988 100%);
     box-shadow:0 5px 0 #D7A37F,0 10px 0 #CC926B,0 15px 0 #C18259,0 20px 0 #B67449,
       0 26px 36px rgba(120,60,30,.30),inset 0 2px 0 rgba(255,255,255,.5);}
-  .t3{width:61%;background:linear-gradient(168deg,#DF9D72 0%,#D38453 70%,#CC7A48 100%);
+  .t3{width:78%;background:linear-gradient(168deg,#DF9D72 0%,#D38453 70%,#CC7A48 100%);
     box-shadow:0 5px 0 #BE7340,0 10px 0 #AE6232,0 15px 0 #9F5628,0 20px 0 #904B22,
       0 26px 36px rgba(100,45,20,.34),inset 0 2px 0 rgba(255,255,255,.42);}
-  .t4{width:50%;background:linear-gradient(168deg,#C96E3D 0%,#B5562C 70%,#AC4E26 100%);color:#fff;
+  .t4{width:67%;background:linear-gradient(168deg,#C96E3D 0%,#B5562C 70%,#AC4E26 100%);color:#fff;
     box-shadow:0 5px 0 #99441F,0 10px 0 #883B1A,0 15px 0 #783316,0 20px 0 #682B11,
       0 28px 40px rgba(80,30,12,.42),inset 0 2px 0 rgba(255,255,255,.28);}
   .thead{display:flex;align-items:center;gap:14px;margin-bottom:9px;}
@@ -54,7 +54,7 @@
   .tdesc{font-size:16px;color:#5e544c;font-weight:500;margin-top:1px;}
   .t4 .tdesc{color:#f3ddd0;} .t3 .tdesc{color:#6e3a22;}
   .rows{display:flex;flex-direction:column;gap:6px;}
-  .row{display:grid;grid-template-columns:182px 1fr;gap:14px;align-items:baseline;
+  .row{display:grid;grid-template-columns:176px 1fr;gap:14px;align-items:baseline;
        background:rgba(255,255,255,.7);border-radius:10px;padding:6px 13px;
        box-shadow:0 1px 2px rgba(120,60,30,.12);}
   .t4 .row{background:rgba(255,255,255,.16);box-shadow:0 1px 2px rgba(0,0,0,.12);}
@@ -62,14 +62,14 @@
   .rv{font-size:15px;color:#5e544c;line-height:1.25;} .t4 .rv{color:#f0dccf;}
   /* margin annotations */
   .anno{position:absolute;font-size:13px;color:var(--grey);font-weight:600;text-align:center;line-height:1.22;z-index:6;}
-  .anno-quote{left:8px;top:150px;width:92px;}
+  .anno-quote{left:10px;top:178px;width:104px;}
   .anno-quote .bub{background:#fff;border:1.5px solid #E3C5B4;border-radius:11px;padding:7px 8px;color:#5e544c;font-style:italic;font-size:12.5px;margin-bottom:7px;}
   .sil{width:42px;height:42px;margin:0 auto 3px;}
-  .anno-lock{left:10px;top:548px;width:100px;}
+  .anno-lock{left:10px;top:476px;width:104px;}
   .anno-lock svg{width:24px;height:24px;margin-bottom:3px;stroke:var(--coral);}
-  .start{position:absolute;right:22px;top:150px;width:120px;text-align:center;}
+  .start{position:absolute;right:8px;top:172px;width:108px;text-align:center;}
   .start .lab{color:var(--coral);font-weight:700;font-size:17px;letter-spacing:1px;}
-  .start .arrow{width:14px;height:770px;margin:8px auto 0;border-right:3px dashed var(--coral);position:relative;}
+  .start .arrow{width:14px;height:980px;margin:8px auto 0;border-right:3px dashed var(--coral);position:relative;}
   .start .arrow:after{content:"";position:absolute;bottom:-2px;right:-9px;width:0;height:0;border-left:9px solid transparent;border-right:9px solid transparent;border-top:14px solid var(--coral);}
   /* footer */
   .foot{position:absolute;bottom:0;left:0;width:100%;height:58px;background:var(--ink);display:flex;align-items:center;justify-content:center;}
@@ -141,7 +141,7 @@
         <div><div class="tlabel">LEVEL 4: AUTONOMOUS</div><div class="tdesc">AI becomes your planning engine.</div></div>
       </div>
       <div class="rows">
-        <div class="row"><div class="rk">Run agents</div><div class="rv">Supplier-risk and reorder checks, unattended.</div></div>
+        <div class="row"><div class="rk">Run agents</div><div class="rv">Risk and reorder checks, run unattended.</div></div>
         <div class="row"><div class="rk">Multi-step</div><div class="rv">Sense, simulate, decide, flag, on a loop.</div></div>
         <div class="row"><div class="rk">Full workflows</div><div class="rv">PO drafts, scorecards, exception routing.</div></div>
         <div class="row"><div class="rk">Runs while you sleep</div><div class="rv">The weekly briefing lands before Monday.</div></div>
