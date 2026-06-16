@@ -257,5 +257,59 @@
   <div class="foot"><img src="../assets/logos/shettys-desk-logo-4.png" alt="Shetty's Desk"></div>
 
 </div>
+
+<script src="../assets/js/gsap.min.js"></script>
+<script>
+  // Deterministic GSAP reveal timeline (paused) — the renderer scrubs it frame by frame.
+  function buildTimeline(){
+    const tl = gsap.timeline({paused:true, defaults:{ease:'power3.out'}});
+
+    // initial hidden states
+    gsap.set(['.pin','.hero','.heading','.tool','.stat','.card','.watch','.foot'], {opacity:0});
+    gsap.set('.pin', {y:-14});
+    gsap.set(['.hero','.heading'], {y:26});
+    gsap.set('.tool', {scale:.4, rotate:-25, transformOrigin:'center'});
+    gsap.set('.stat', {y:-18, scale:.9, transformOrigin:'center'});
+    gsap.set('.card', {y:38, scale:.965, transformOrigin:'50% 0%'});
+    gsap.set('.watch', {y:26});
+    gsap.set('.srow', {opacity:0, x:-12});
+    gsap.set('.pstep', {opacity:0, x:-10});
+    gsap.set('.got', {opacity:0, x:-12});
+    gsap.set('.mbar', {scaleX:0, transformOrigin:'left center'});
+    gsap.set('.bid .bw i', {scaleX:0, transformOrigin:'left center'});
+    gsap.set('.tnode', {opacity:0, scale:.4, transformOrigin:'center'});
+
+    // header sequence (quicker)
+    tl.to('.pin', {opacity:1, y:0, duration:.35}, 0.0)
+      .to('.hero', {opacity:1, y:0, duration:.45}, 0.12)
+      .to('.heading', {opacity:1, y:0, duration:.4}, 0.4)
+      .to('.tool', {opacity:1, scale:1, rotate:0, duration:.55, ease:'back.out(1.5)'}, 0.28)
+      .to('.stat', {opacity:1, y:0, scale:1, duration:.4, ease:'back.out(1.4)'}, 0.6);
+
+    // content blocks unfold one by one
+    tl.to('.card', {opacity:1, y:0, scale:1, duration:.4, stagger:0.1}, 0.78);
+    tl.to('.watch', {opacity:1, y:0, duration:.35}, '-=0.1');
+
+    // internal detail reveals, timed to their block
+    tl.to('.srow', {opacity:1, x:0, duration:.3, stagger:0.03}, 0.95)
+      .to('.mbar', {scaleX:1, duration:.55, stagger:0.04, ease:'power2.out'}, 1.1)
+      .to('.pstep', {opacity:1, x:0, duration:.28, stagger:0.035}, 1.35)
+      .to('.bid .bw i', {scaleX:1, duration:.5, stagger:0.07, ease:'power2.out'}, 1.6)
+      .to('.got', {opacity:1, x:0, duration:.3, stagger:0.07}, 1.85)
+      .to('.tnode', {opacity:1, scale:1, duration:.4, stagger:0.09, ease:'back.out(1.6)'}, 2.0);
+
+    tl.to('.foot', {opacity:1, duration:.35}, 2.35);
+
+    // hold on the finished card, then fade everything out so the loop restarts seamlessly
+    tl.to(['.pin','.hero','.heading','.tool','.stat','.card','.watch','.foot'],
+          {opacity:0, duration:.5, ease:'power2.in', stagger:0.015}, 3.5);
+
+    window.__tl = tl;
+    window.__dur = tl.duration();
+    window.__ready = true;
+  }
+  if (document.readyState === 'complete') buildTimeline();
+  else window.addEventListener('load', buildTimeline);
+</script>
 </body>
 </html>

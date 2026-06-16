@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--
+  SC101 — The Planning Fence (Supply Chain 101 · Production Planning · W27)
+  Frozen / Slushy / Liquid scheduling horizon. Code-rendered cheat-sheet showcase.
+  Shetty's Desk brand kit: azure + eco-green + ink + Poppins, luminous on WHITE, flat.
+  Visual IS the concept: one timeline, three zones, cost-of-change drops as you move out.
+  Canvas 1080x1350 (4:5). No AI tool — pure 101.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --azure:#2798FB; --sky:#50A9F7; --royal:#247BE1; --deep:#215DC3; --navy:#1939A5;
+    --eco:#38E6A6; --mint:#8FF3CC; --eco-deep:#14B07E;
+    --coralpink:#E27199; --coralpink-deep:#C9577D;
+    --ink:#15315C; --muted:#5D7599; --line:#DCEAF8; --tint:#E2F0FB;
+    --sans:'Poppins','Segoe UI',Helvetica,Arial,sans-serif;
+    --mono:'JetBrains Mono','SFMono-Regular',Consolas,monospace;
+    --eco-grad:linear-gradient(135deg,#8FF3CC 0%,#38E6A6 45%,#2798FB 100%);
+    --blue-grad:linear-gradient(135deg,#50A9F7 0%,#215DC3 60%,#1939A5 100%);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:#cfd8e0;}
+  .canvas{width:1080px;height:1350px;position:relative;
+    font-family:var(--sans);color:var(--ink);overflow:hidden;
+    background:
+      radial-gradient(ellipse 46% 34% at 90% 2%, rgba(56,230,166,.14) 0%, transparent 60%),
+      radial-gradient(ellipse 58% 40% at 4% 22%, rgba(39,152,251,.12) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F4F9FE 62%,#EAF3FD 100%);}
+
+  /* header */
+  .pad{padding:34px 56px 0;position:relative;z-index:3;}
+  .pin{display:flex;align-items:center;gap:13px;}
+  .pin .badge{width:38px;height:38px;border-radius:11px;background:var(--blue-grad);
+    display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 6px 14px rgba(33,93,195,.32);}
+  .pin .badge svg{width:21px;height:21px;color:#fff;}
+  .pin .pt{font-size:14.5px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--ink);white-space:nowrap;}
+  .pin .rule{flex:1;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--azure),rgba(39,152,251,0));}
+  .hero{font-weight:800;font-size:55px;line-height:1.0;letter-spacing:-1px;color:var(--ink);margin-top:17px;}
+  .hero .g{background:linear-gradient(110deg,var(--deep) 0%,var(--azure) 45%,var(--eco-deep) 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;}
+  .sub{font-size:20.5px;font-weight:400;color:var(--muted);margin-top:11px;line-height:1.3;max-width:760px;}
+  .sub b{color:var(--ink);font-weight:600;}
+  .anchor{display:inline-flex;align-items:center;gap:9px;margin-top:13px;background:#fff;border:1px solid var(--line);
+    border-radius:999px;padding:7px 16px 7px 12px;box-shadow:0 8px 20px rgba(33,93,195,.08);}
+  .anchor .ai{width:18px;height:18px;color:var(--azure);flex:0 0 auto;}
+  .anchor .at{font-size:13.5px;color:var(--ink);} .anchor .at b{font-weight:700;}
+
+  /* ===== THE PLANNING FENCE diagram ===== */
+  .diagram{position:absolute;left:56px;top:262px;width:968px;height:404px;z-index:3;}
+  .axis-top{display:flex;justify-content:space-between;align-items:flex-end;height:26px;
+    font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);}
+  .axis-top .now{color:var(--ink);}
+  /* the illustrated "river of time": ice -> slush -> open water */
+  .river{position:relative;height:178px;margin-top:8px;border-radius:18px;overflow:hidden;
+    box-shadow:0 16px 36px rgba(33,93,195,.14),0 3px 8px rgba(33,93,195,.05);}
+  .river svg{display:block;width:100%;height:100%;}
+  .zl{position:absolute;top:13px;display:flex;flex-direction:column;line-height:1;
+    background:rgba(255,255,255,.93);border-radius:11px;padding:7px 13px;box-shadow:0 5px 13px rgba(33,93,195,.16);}
+  .zl b{font-size:19px;font-weight:800;letter-spacing:.2px;}
+  .zl small{font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--muted);margin-top:4px;}
+  .zl.frozen{left:14px;} .zl.frozen b{color:var(--navy);}
+  .zl.slushy{left:calc(17% + 12px);} .zl.slushy b{color:var(--royal);}
+  .zl.liquid{left:calc(50% + 12px);} .zl.liquid b{color:var(--eco-deep);}
+
+  /* fence posts (the planning fences) — siblings of .river so flags aren't clipped */
+  .fence{position:absolute;top:30px;height:190px;width:0;border-left:2.5px dashed rgba(21,49,92,.40);z-index:5;}
+  .fence .flag{position:absolute;top:-16px;left:50%;transform:translateX(-50%);white-space:nowrap;
+    background:var(--ink);color:#fff;font-size:9.5px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;
+    padding:3px 9px;border-radius:6px;box-shadow:0 4px 9px rgba(21,49,92,.28);}
+  .fence.f1{left:17%;} .fence.f2{left:50%;}
+
+  /* week ticks */
+  .ticks{position:relative;height:24px;margin-top:14px;}
+  .tick{position:absolute;top:0;transform:translateX(-50%);text-align:center;}
+  .tick i{display:block;width:2px;height:8px;background:var(--line);margin:0 auto 4px;border-radius:2px;}
+  .tick span{font-family:var(--mono);font-size:11px;color:var(--muted);font-weight:500;}
+  .tick.zero span{color:var(--ink);font-weight:700;}
+
+  /* cost-of-change bar */
+  .cost{margin-top:8px;}
+  .cost .clabel{display:flex;justify-content:space-between;font-size:11.5px;font-weight:700;letter-spacing:.5px;
+    text-transform:uppercase;margin-bottom:6px;}
+  .cost .clabel .hi{color:var(--coralpink-deep);} .cost .clabel .lo{color:var(--eco-deep);}
+  .cost .cbar{height:12px;border-radius:7px;
+    background:linear-gradient(90deg,#E27199 0%,#E89DB4 24%,#D7E3EC 50%,#7FE7C0 76%,#14B07E 100%);
+    box-shadow:inset 0 1.5px 0 rgba(255,255,255,.45);}
+  .cost .ctext{text-align:center;font-size:12.5px;color:var(--muted);margin-top:7px;}
+  .cost .ctext b{color:var(--ink);font-weight:700;}
+
+  /* ===== reference cards ===== */
+  .refs{position:absolute;left:56px;top:688px;width:968px;display:flex;gap:20px;z-index:3;}
+  .rc{flex:1;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;
+    box-shadow:0 14px 30px rgba(33,93,195,.09);}
+  .rc-h{display:flex;align-items:center;gap:11px;padding:13px 16px;}
+  .rc-h .ri{width:30px;height:30px;flex:0 0 auto;border-radius:9px;display:flex;align-items:center;justify-content:center;}
+  .rc-h .ri svg{width:17px;height:17px;color:#fff;}
+  .rc-h .rn{font-size:15.5px;font-weight:800;letter-spacing:.3px;line-height:1;}
+  .rc-h .rr{font-family:var(--mono);font-size:10.5px;font-weight:500;margin-top:3px;}
+  .rc.frozen .rc-h{background:linear-gradient(180deg,#EEF4FD,#E2EDFB);} .rc.frozen .ri{background:linear-gradient(135deg,var(--navy),var(--deep));} .rc.frozen .rn{color:var(--navy);} .rc.frozen .rr{color:var(--deep);}
+  .rc.slushy .rc-h{background:linear-gradient(180deg,#EAF6FF,#DCEFFB);} .rc.slushy .ri{background:linear-gradient(135deg,var(--azure),var(--royal));} .rc.slushy .rn{color:var(--royal);} .rc.slushy .rr{color:var(--royal);}
+  .rc.liquid .rc-h{background:linear-gradient(180deg,#E9FBF3,#D7F5E7);} .rc.liquid .ri{background:linear-gradient(135deg,var(--eco-deep),var(--eco));} .rc.liquid .rn{color:var(--eco-deep);} .rc.liquid .rr{color:var(--eco-deep);}
+  .rrow{padding:11px 16px;border-top:1px solid #EFF5FC;}
+  .rrow .rl{font-size:10.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--muted);margin-bottom:3px;}
+  .rrow .rv{font-size:13px;line-height:1.3;color:var(--ink);}
+  .rrow .rv b{font-weight:700;}
+  .rc.frozen .rrow .rv b{color:var(--navy);} .rc.slushy .rrow .rv b{color:var(--royal);} .rc.liquid .rrow .rv b{color:var(--eco-deep);}
+
+  /* ===== the rule band ===== */
+  .rule-band{position:absolute;left:56px;top:1052px;width:968px;z-index:3;display:flex;align-items:center;gap:18px;
+    background:linear-gradient(120deg,#16335E 0%,#1E4C8C 60%,#14785C 100%);border-radius:16px;padding:18px 26px;
+    box-shadow:0 16px 34px rgba(21,49,92,.28);}
+  .rule-band .rk{flex:0 0 auto;width:40px;height:40px;border-radius:11px;background:rgba(255,255,255,.16);
+    display:flex;align-items:center;justify-content:center;}
+  .rule-band .rk svg{width:22px;height:22px;color:#fff;}
+  .rule-band .rt{color:#EAF3FF;font-size:15.5px;line-height:1.34;}
+  .rule-band .rt b{color:#fff;font-weight:700;}
+  .rule-band .rt .gk{color:var(--mint);font-weight:700;}
+
+  /* ===== footer ===== */
+  .thesis{position:absolute;left:56px;top:1176px;width:760px;z-index:3;font-size:16px;line-height:1.42;color:var(--muted);}
+  .thesis b{color:var(--ink);font-weight:700;}
+  .series{position:absolute;left:56px;top:1300px;z-index:3;display:flex;align-items:center;gap:9px;
+    font-size:12.5px;font-weight:700;letter-spacing:.5px;color:var(--muted);}
+  .series .dot{width:7px;height:7px;border-radius:50%;background:var(--eco);}
+  .foot{position:absolute;right:14px;top:1252px;z-index:10;display:flex;flex-direction:column;align-items:center;}
+  .foot img{height:84px;width:auto;object-fit:contain;}
+</style>
+</head>
+<body>
+<div class="canvas" id="card">
+
+  <div class="pad">
+    <div class="pin">
+      <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M8 4v16"/></svg></span>
+      <span class="pt">Supply Chain 101 · Production Planning</span>
+      <span class="rule"></span>
+    </div>
+    <div class="hero">The Planning <span class="g">Fence</span></div>
+    <div class="sub">Why you can change <b>next month's</b> production plan — but not <b>this week's</b>.</div>
+    <div class="anchor">
+      <span class="ai"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg></span>
+      <span class="at">Think of it like <b>changing a flight</b> — free months out, costly today.</span>
+    </div>
+  </div>
+
+  <!-- THE PLANNING FENCE -->
+  <div class="diagram">
+    <div class="axis-top"><span class="now">◀ Today</span><span>12 weeks out ▶</span></div>
+
+    <div class="river">
+      <svg viewBox="0 0 968 178" width="968" height="178" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="rg" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#E8F2FC"/><stop offset="22%" stop-color="#CFE6FA"/>
+            <stop offset="44%" stop-color="#9FD7F2"/><stop offset="64%" stop-color="#6FCBEC"/>
+            <stop offset="100%" stop-color="#52E1B4"/>
+          </linearGradient>
+        </defs>
+        <rect x="0" y="0" width="968" height="178" rx="20" fill="url(#rg)"/>
+        <rect x="16" y="9" width="936" height="3" rx="1.5" fill="#FFFFFF" opacity="0.30"/>
+
+        <!-- FROZEN: a crystalline ice block -->
+        <g stroke-linejoin="round">
+          <polygon points="32,152 16,84 56,50 98,42 142,86 134,152" fill="#FFFFFF" opacity="0.50" stroke="#FFFFFF" stroke-width="1.6"/>
+          <polygon points="120,152 110,92 152,68 160,152" fill="#D8E9FB" opacity="0.55" stroke="#FFFFFF" stroke-width="1.1"/>
+          <polygon points="60,42 74,22 88,42" fill="#FFFFFF" opacity="0.5"/>
+          <line x1="56" y1="50" x2="78" y2="152" stroke="#FFFFFF" stroke-width="1.2" opacity="0.55"/>
+          <line x1="98" y1="42" x2="80" y2="152" stroke="#FFFFFF" stroke-width="1.2" opacity="0.5"/>
+          <line x1="16" y1="84" x2="82" y2="104" stroke="#FFFFFF" stroke-width="1" opacity="0.45"/>
+        </g>
+
+        <!-- SLUSHY: melting chunks getting rounder + droplets -->
+        <g>
+          <polygon points="192,152 184,106 216,88 242,110 234,152" fill="#FFFFFF" opacity="0.46" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"/>
+          <circle cx="270" cy="116" r="25" fill="#FFFFFF" opacity="0.42"/>
+          <circle cx="332" cy="96" r="29" fill="#EAF4FF" opacity="0.50"/>
+          <circle cx="394" cy="118" r="21" fill="#FFFFFF" opacity="0.40"/>
+          <circle cx="448" cy="104" r="16" fill="#FFFFFF" opacity="0.38"/>
+          <circle cx="250" cy="150" r="5" fill="#FFFFFF" opacity="0.65"/>
+          <circle cx="314" cy="156" r="4" fill="#FFFFFF" opacity="0.6"/>
+          <circle cx="374" cy="150" r="5" fill="#FFFFFF" opacity="0.6"/>
+          <circle cx="430" cy="154" r="3.5" fill="#FFFFFF" opacity="0.55"/>
+        </g>
+
+        <!-- LIQUID: flowing water — foam waves, ripples, flow direction -->
+        <g fill="none" stroke-linecap="round">
+          <path d="M488,66 q34,-15 68,0 t68,0 t68,0 t68,0 t68,0 t68,0" stroke="#FFFFFF" stroke-width="3" opacity="0.50"/>
+          <path d="M500,98 q34,-14 68,0 t68,0 t68,0 t68,0 t68,0 t60,0" stroke="#FFFFFF" stroke-width="2.6" opacity="0.42"/>
+          <path d="M488,130 q34,-13 68,0 t68,0 t68,0 t68,0 t68,0 t68,0" stroke="#FFFFFF" stroke-width="2.3" opacity="0.34"/>
+          <ellipse cx="566" cy="151" rx="20" ry="5" stroke="#FFFFFF" stroke-width="1.6" opacity="0.4"/>
+          <ellipse cx="706" cy="153" rx="16" ry="4" stroke="#FFFFFF" stroke-width="1.6" opacity="0.4"/>
+          <ellipse cx="846" cy="151" rx="22" ry="5" stroke="#FFFFFF" stroke-width="1.6" opacity="0.4"/>
+          <polyline points="624,80 636,90 624,100" stroke="#FFFFFF" stroke-width="2.4" opacity="0.6"/>
+          <polyline points="740,86 752,96 740,106" stroke="#FFFFFF" stroke-width="2.4" opacity="0.55"/>
+          <polyline points="852,80 864,90 852,100" stroke="#FFFFFF" stroke-width="2.4" opacity="0.6"/>
+        </g>
+      </svg>
+
+      <div class="zl frozen"><b>Frozen</b><small>Now → Wk 2 · locked</small></div>
+      <div class="zl slushy"><b>Slushy</b><small>Wk 2 → Wk 6 · bendable</small></div>
+      <div class="zl liquid"><b>Liquid</b><small>Wk 6 → Wk 12+ · open</small></div>
+    </div>
+
+    <div class="fence f1"><span class="flag">Demand fence</span></div>
+    <div class="fence f2"><span class="flag">Planning fence</span></div>
+
+    <div class="ticks">
+      <div class="tick zero" style="left:0%"><i></i><span>Now</span></div>
+      <div class="tick" style="left:16.67%"><i></i><span>Wk 2</span></div>
+      <div class="tick" style="left:33.33%"><i></i><span>Wk 4</span></div>
+      <div class="tick" style="left:50%"><i></i><span>Wk 6</span></div>
+      <div class="tick" style="left:66.67%"><i></i><span>Wk 8</span></div>
+      <div class="tick" style="left:83.33%"><i></i><span>Wk 10</span></div>
+      <div class="tick" style="left:100%"><i></i><span>Wk 12</span></div>
+    </div>
+
+    <div class="cost">
+      <div class="clabel"><span class="hi">▲ Cost of a change: High</span><span class="lo">Low ▼</span></div>
+      <div class="cbar"></div>
+      <div class="ctext">The nearer the date, the more a change costs you — <b>overtime, expediting, broken promises.</b></div>
+    </div>
+  </div>
+
+  <!-- reference cards -->
+  <div class="refs">
+    <div class="rc frozen">
+      <div class="rc-h"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span><div><div class="rn">Frozen</div><div class="rr">Now → Wk 2</div></div></div>
+      <div class="rrow"><div class="rl">Can you change it?</div><div class="rv"><b>No — it's committed.</b> Materials issued, machines loaded.</div></div>
+      <div class="rrow"><div class="rl">Cost of a change</div><div class="rv">Very high — overtime, expedite fees, a missed promise somewhere.</div></div>
+      <div class="rrow"><div class="rl">Who can approve one</div><div class="rv">Plant manager — and only for a real emergency.</div></div>
+    </div>
+    <div class="rc slushy">
+      <div class="rc-h"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 7-2.6"/></svg></span><div><div class="rn">Slushy</div><div class="rr">Wk 2 → Wk 6</div></div></div>
+      <div class="rrow"><div class="rl">Can you change it?</div><div class="rv"><b>Yes — with trade-offs.</b> Swap one order in, another moves out.</div></div>
+      <div class="rrow"><div class="rl">Cost of a change</div><div class="rv">Moderate — re-planning effort, maybe a material or capacity squeeze.</div></div>
+      <div class="rrow"><div class="rl">Who can approve one</div><div class="rv">Planner, inside agreed rules of the planning fence.</div></div>
+    </div>
+    <div class="rc liquid">
+      <div class="rc-h"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 13V7a4 4 0 0 1 8 0"/><rect x="9" y="13" width="13" height="8" rx="2"/></svg></span><div><div class="rn">Liquid</div><div class="rr">Wk 6 → Wk 12+</div></div></div>
+      <div class="rrow"><div class="rl">Can you change it?</div><div class="rv"><b>Yes — freely.</b> Nothing is locked, so adjust at will.</div></div>
+      <div class="rrow"><div class="rl">Cost of a change</div><div class="rv">Low to none — you're still moving numbers, not materials.</div></div>
+      <div class="rrow"><div class="rl">Who can approve one</div><div class="rv">Demand &amp; supply planning — this is where the real decisions belong.</div></div>
+    </div>
+  </div>
+
+  <!-- the rule -->
+  <div class="rule-band">
+    <span class="rk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>
+    <div class="rt"><b>The rule:</b> make the decision while it's still <span class="gk">liquid</span>, commit it in the <b>slushy</b> zone, and protect the <b>frozen</b> zone like a promise — because that's exactly what it is.</div>
+  </div>
+
+  <!-- footer -->
+  <div class="thesis">Most "urgent" changes in the frozen zone aren't emergencies. <b>They're decisions someone avoided making while the plan was still flexible.</b></div>
+  <div class="series"><span class="dot"></span>SUPPLY CHAIN 101 · SAVE THIS FOR YOUR NEXT PLANNING DEBATE</div>
+  <div class="foot"><img src="../assets/logos/shettys-desk-logo-4.png" alt="Shetty's Desk"></div>
+
+</div>
+</body>
+</html>

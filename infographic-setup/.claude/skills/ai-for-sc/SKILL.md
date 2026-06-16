@@ -19,7 +19,7 @@ Examples:
 - `/ai-for-sc W26 demand-simulation` → W26 demand simulation use case only
 
 ## Prerequisites
-Read all six before generating a single word. They are the intelligence base.
+Read all of these before generating a single word. They are the intelligence base.
 
 | File | What it provides |
 |---|---|
@@ -27,10 +27,12 @@ Read all six before generating a single word. They are the intelligence base.
 | `references/published-voice.md` | Hook quality bar, "NOT THIS" list, annotated examples |
 | `references/101-voice.md` | Accessible register, plain language first, adapted hook taxonomy |
 | `references/ai-for-sc-plan-v2.md` | Pre-defined topic plan — load the week's two use cases (Role, Tool, Use Case, Hook direction, Visual format) |
-| `references/ai-for-sc-visual-dna.md` | 50-format visual library — format selection, VISUAL ANCHOR templates, Tool Identity System, quality gate |
+| `references/ai-for-sc-visual-dna.md` | 50-format visual library — used now for **concept selection** (the spatial idea + Hero Number), not for writing a prompt |
+| `references/render-pilot-workflow.md` | The code-render pipeline + design/technical learnings checklist — the visual is rendered, not prompted |
+| `renderer/` | The deterministic HTML→PNG/MP4/GIF renderer + component-kit templates the infographic is built from |
 | `data/ai-for-sc-series-tracker.md` | Episode tracking — last use case, tool, and role used |
 
-**Read all six before generating a single word.**
+**Read all of these before generating a single word.**
 
 ---
 
@@ -181,83 +183,37 @@ Single unified caption structure for all AI for SC posts. The role, tool, and fr
 
 ---
 
-## Step 5: Generate Gemini Prompt (Infographic Visual)
+## Step 5: Build the Render Brief + Code-Render the Infographic
 
-### 5.1 Load visual intelligence
+**The infographic is now rendered deterministically from code — there is NO Gemini / AI-image prompt.** Data and text are computed in HTML, never painted by a diffusion model, so the numbers are always exact and the brand is locked. The renderer lives in `renderer/` (merged from the html-render pilot). See `references/render-pilot-workflow.md` for the full pipeline and the learnings checklist.
 
-Read `references/ai-for-sc-visual-dna.md`. Internalize:
-- The Tool Identity System — background colour, accent colour, and geometric symbol description for the tool this post features
-- The assigned visual format for this post (from the Visual line in `references/ai-for-sc-plan-v2.md`)
-- The VISUAL ANCHOR template for that format (Section: The 50 Visual Format Library)
-- The Hero Number convention — "[Manual time] → [AI-assisted time]", sourced from field benchmarks
-- The VISUAL ANCHOR Writing Guide and Quality Gate
+### 5.1 Load the concept + the render kit
+- Read `references/ai-for-sc-visual-dna.md` for the **concept only** — the assigned format (the plan's Visual line: Blueprint Draft, Cost Anatomy, Signal Scan, etc.) gives you the spatial idea and the Hero Number convention ("[Manual time] → [AI-assisted time]"). Use it to choose the bespoke visual concept, NOT to write a prompt.
+- Skim `renderer/README.md` and an existing template (e.g. `renderer/templates/pf7-blueprint-draft.html`) — this is the component kit and the brand frame you build on. Design one bespoke concept on the same homogeneous Shetty's Desk frame ("design system, not parametrisation").
 
-### 5.2 Identify the assigned format
+### 5.2 Write the render brief
+The render brief is the content-depth layer that replaces the Gemini prompt. For this post, lock down:
+- **Real data** — every number that will appear, sourced (field benchmark or stated assumption). No placeholders.
+- **The bespoke visual concept** — the one dominant structure (what is where, the focal element, the Hero Number).
+- **The verbatim on-canvas prompt** — the exact copy-paste prompt text shown on the infographic (the visible, usable prompt is the AI-for-SC moat).
+- **A worked example** — the concrete before/after the visual demonstrates.
+- **The honest limitation** — the "when NOT to use" rendered as the watch-for element.
+- **The closing thesis** — the one save-worthy line.
 
-The Visual format is specified in `references/ai-for-sc-plan-v2.md` on the **Visual** line of the post entry. Find that format in the visual DNA library and read its VISUAL ANCHOR template.
+### 5.3 Build the HTML template
+Assemble a self-contained template at `renderer/templates/[use-case-slug].html` from the component kit:
+- Brand frame intact: azure + eco-green + ink + Poppins, luminous on WHITE, flat. Coral = caution / cost accent only.
+- **The AI tool appears only as its logo** (`renderer/assets/logos/`) plus woven into the heading ("…using Claude") — never a tool-branded palette, never a reproduced trademark.
+- Big readable blocks; every number hard-coded from the brief; the verbatim prompt as a scannable stepped list; data bars that encode the real values (fills must be `display:block`); Hero Number 3–4x body text; Shetty's Desk Logo 4 (mono) in the bottom-right corner.
+- Work through the learnings checklist in `references/render-pilot-workflow.md` §2.
 
-If the plan entry still says "Standard 4-card workflow grid" (stale — should not occur after v3.0), apply this fallback assignment guide:
-- Document output → Blueprint Draft, Clause Reveal, Executive Brief, Playbook Page, or Prompt Card based on document type
-- Financial/calculation → Cost Anatomy, Formula Tree, Payback Arc, Waterfall Bar, or matching financial format
-- Research → Signal Scan, Correlation Map, Forecast Anatomy, or Variance Zone
-- Logistics/operations → Network Map, Triage Funnel, Warehouse Zone Map, or Control Tower View
-- Risk → Risk Plot, Supplier Risk Card, Disruption Timeline, or Stress Test Model
+### 5.4 Render
+From `renderer/` (always use an absolute path — the shell cwd drifts):
+- **Still (default):** `NODE_PATH=$(npm root -g) node render.mjs templates/[slug].html out/[slug].png`
+- **Animated (only when the sequence or ambient motion earns it):** build `[slug]-anim.html` (unfold — when sequence carries meaning) or `[slug]-path.html` (ambient orbit — content static, motion decorative), then `node render-anim.mjs templates/[slug]-anim.html out/[slug]` → `out/[slug].mp4` + `out/[slug].gif`.
+- QA by reading the rendered PNG (or an extracted frame) and iterating until it passes the checklist.
 
-### 5.3 Write the VISUAL ANCHOR
-
-Using the VISUAL ANCHOR template from the DNA file for the assigned format:
-1. Take the template (3–5 sentences with [PLACEHOLDERS])
-2. Replace [PLACEHOLDERS] with specifics from this post's use case and the tool's accent colour
-3. Verify: names the focal element, describes spatial logic, no colour instructions beyond the tool palette reference, no concept explanation
-4. Test: could a visual designer sketch the layout from this block alone?
-
-### 5.4 Build the full Gemini prompt
-
-```
-Task: Create an infographic image for the summary below (after the rules).
-
-Rules: Use the image attached as a reference on style, aesthetics, colours, and illustration technique. Use a different layout for the structure to elaborate details based on the summary. Do not use any information or text from the attached image — only style. Use it only for inspiration. Aspect ratio 1:1, resolution 2048x2048.
-
-TOOL IDENTITY: [Tool name] — use [Tool]'s complete visual palette. Background: [colour from DNA]. Accent: [colour hex from DNA]. Tool symbol: render [exact geometric description from Tool Identity Reference in DNA — copy verbatim]. Position the symbol [top-right / centred / as described]. This image should look like it belongs to [Tool]'s brand without reproducing any trademarked logo.
-
-TOPIC: [Topic name — role-specific, task-focused, max 8 words]
-THE QUESTION THIS ANSWERS: [The specific friction or capability gap this post addresses]
-
-VISUAL FORMAT: [Format name from the 50-format library — e.g. "Cost Anatomy", "Blueprint Draft", "Signal Scan"]
-
-VISUAL ANCHOR: [3–5 sentences adapted from the format's VISUAL ANCHOR template in the DNA file. Names the spatial structure, the focal element, and where the eye goes. No colour instructions. No narrative about the concept.]
-
-VISUAL STRUCTURE: [1–2 sentences. The specific layout for this post — what is where, what the focal point is, spatial logic. Narrows and confirms the VISUAL FORMAT.]
-
-HERO NUMBER: "[Manual time] → [AI-assisted time]" — this is the largest text element on the image, positioned [top-centre / inside first card / above the main content zone]. Source: [field benchmark — name the source or frame as "typically"].
-
-CONTENT TO INCLUDE ON THE IMAGE:
-- Heading: "[5–8 words, Bold — one key phrase in accent colour]"
-- Tool symbol: [geometric description from Tool Identity Reference — copy verbatim] — positioned [top-right / top-left / centred], large and structural
-- [SPATIAL ZONE 1 — LEFT / CENTRE / STEP 1 / etc.]:
-  - [Label]: [2–3 word value]
-  - [Label]: [2–3 word value]
-- [SPATIAL ZONE 2]:
-  - [Label]: [2–3 word value]
-  - [Label]: [2–3 word value]
-- [Continue for all zones in the chosen format]
-- [ANNOTATION LINE — only if opinion is the point]: "[One sentence, Tiger's editorial position]"
-
-CONTENT RULES:
-- Total words on image: 80–120 (all text combined)
-- Hero number is 3–4× larger than body text — first thing the eye finds
-- Every number is real — no placeholder figures
-- Maximum 2 font families throughout
-- Every element readable at mobile phone size (minimum 14px at 2048px output)
-- [Format-specific rule from the DNA library for this format — copy from the format entry]
-
-DO NOT:
-- Use font sizes below 14px at final output resolution
-- Add decorative elements that do not carry information
-- Use gradients on backgrounds — solid colour panels only
-- Place text on complex or illustrative backgrounds
-- Use more than 2 font families
-```
+**Output:** `out/[use-case-slug].png` (plus `.mp4` / `.gif` if animated). No AI-image prompt is produced and no image is generated by a diffusion model — the visual is deterministic code.
 
 ---
 
@@ -279,8 +235,11 @@ Present for each post in this format:
 LINKEDIN CAPTION (using hook [#] as placeholder):
 [full caption]
 
-GEMINI PROMPT (paste-ready):
-[full prompt]
+RENDER BRIEF:
+[concept + real data + verbatim on-canvas prompt + worked example + limitation + thesis]
+
+RENDERED INFOGRAPHIC:
+out/[use-case-slug].png   (+ out/[use-case-slug].mp4 / .gif if animated)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Pick a hook (1–10). Adjust caption if needed.
@@ -400,8 +359,19 @@ After hook confirmed and PDF decision made:
 
 ---
 
-## Gemini Prompt (paste-ready)
-[full prompt]
+## Render Brief
+- **Concept / format**: [bespoke visual concept + the assigned format]
+- **Real data**: [every number on the canvas, sourced]
+- **Hero Number**: [Manual time] → [AI-assisted time]
+- **Verbatim on-canvas prompt**: [the exact copy-paste prompt shown on the image]
+- **Worked example**: [the before/after the visual demonstrates]
+- **Limitation (watch-for)**: [when NOT to use]
+- **Thesis**: [the one save-worthy line]
+
+## Rendered Output
+- Template: `renderer/templates/[use-case-slug].html`
+- Still: `renderer/out/[use-case-slug].png`
+- Animated (if used): `renderer/out/[use-case-slug].mp4` + `.gif`
 ```
 
 ### ai-for-sc-[use-case-slug]-pdf.md
@@ -446,21 +416,18 @@ After hook confirmed and PDF decision made:
 - [ ] Reads like Tiger wrote it — flowing, connected, specific?
 - [ ] Bullets use • not -?
 
-**Visual (Gemini prompt):**
-- [ ] Visual format named — from the 50-format library in ai-for-sc-visual-dna.md?
-- [ ] Format matches the use case type (not defaulted to 4-card grid)?
-- [ ] VISUAL FORMAT line present in the prompt?
-- [ ] TOOL IDENTITY block present — correct palette + geometric symbol description (NOT "include the logo")?
-- [ ] VISUAL ANCHOR names a specific spatial structure — not a grid arrangement?
-- [ ] VISUAL ANCHOR names the single focal element?
-- [ ] Could a designer sketch the layout from the VISUAL ANCHOR alone?
-- [ ] Is this format visually distinct from the previous post in the same month?
-- [ ] Hero number present, real (field-sourced), and marked as largest element?
-- [ ] Tool symbol in the content list — geometric description copied verbatim from Tool Identity Reference?
-- [ ] Format-specific rule from the DNA library included in CONTENT RULES?
-- [ ] Total word count for image content estimated at 80–120 words?
-- [ ] No negative prompts?
-- [ ] Sign-off line included?
+**Visual (code render):**
+- [ ] Bespoke visual concept chosen from the assigned format (not defaulted to a generic grid)?
+- [ ] Concept is visually distinct from the previous post in the same month?
+- [ ] Every number on the canvas is real and hard-coded from the render brief (no placeholders)?
+- [ ] Hero Number present ([manual] → [AI-assisted]), real, and the largest text element?
+- [ ] Data bars encode the real values, with `display:block` fills (no empty tracks)?
+- [ ] The verbatim copy-paste prompt is shown on the canvas as a scannable stepped list?
+- [ ] AI tool appears ONLY as its logo + woven into the heading — no tool-branded palette, no reproduced trademark?
+- [ ] Brand frame intact: azure / eco-green / ink / Poppins on white; coral used only for caution/cost?
+- [ ] Shetty's Desk Logo 4 (mono) in the bottom-right corner?
+- [ ] Rendered with `render.mjs` (and `render-anim.mjs` only if motion earns it) and QA'd by reading the PNG/frame?
+- [ ] Legible at mobile size; passes the learnings checklist in render-pilot-workflow.md §2?
 
 **PDF (if requested):**
 - [ ] Prompt template has all variables in [BRACKETS] with clear labels?

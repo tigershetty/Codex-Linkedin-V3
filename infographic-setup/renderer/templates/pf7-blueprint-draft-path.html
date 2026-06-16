@@ -47,7 +47,7 @@
   .heading .u{color:var(--eco-deep);font-weight:700;}
 
   /* BIG Claude logo (no label) */
-  .tool{position:absolute;top:26px;right:74px;z-index:5;width:118px;height:118px;color:#D97757;
+  .tool{position:absolute;top:34px;right:74px;z-index:5;width:118px;height:118px;color:#D97757;
     filter:drop-shadow(0 10px 20px rgba(217,119,87,.32));}
   .tool svg{width:100%;height:100%;}
   /* before/after stat callout (top-right) */
@@ -256,6 +256,57 @@
   <!-- BIG Shetty's Desk logo — bottom-right corner -->
   <div class="foot"><img src="../assets/logos/shettys-desk-logo-4.png" alt="Shetty's Desk"></div>
 
+  <!-- ambient: a Claude logo orbits the content body in the clear margins (never over content) -->
+  <svg class="route" viewBox="0 0 1080 1350" preserveAspectRatio="none">
+    <path id="routePath" d="M 66,22 H 1014 A 40,40 0 0 1 1054,62 V 1130 A 40,40 0 0 1 1014,1170 H 66 A 40,40 0 0 1 26,1130 V 62 A 40,40 0 0 1 66,22 Z"
+          fill="none" stroke="#C3DFF8" stroke-width="2.5" stroke-dasharray="1.5 12" stroke-linecap="round" opacity="0.8"/>
+  </svg>
+  <div class="runner-layer">
+    <div class="runner"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="nonzero" d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z"/></svg></div>
+  </div>
+
 </div>
+
+<style>
+  .route{position:absolute;inset:0;z-index:7;pointer-events:none;}
+  .runner-layer{position:absolute;inset:0;z-index:8;pointer-events:none;}
+  .runner{position:absolute;left:0;top:0;width:14px;height:14px;color:#D97757;will-change:transform;
+    filter:drop-shadow(0 0 4px rgba(217,119,87,.45));}
+  .runner svg{width:100%;height:100%;}
+  .ghost{position:absolute;left:0;top:0;width:5px;height:5px;border-radius:50%;
+    background:radial-gradient(circle at 40% 35%,#8FF3CC,#38E6A6 70%);
+    box-shadow:0 0 3px rgba(56,230,166,.55);will-change:transform,opacity;}
+</style>
+<script src="../assets/js/gsap.min.js"></script>
+<script>
+  function buildPath(){
+    const route = document.getElementById('routePath');
+    const L = route.getTotalLength();
+    const runner = document.querySelector('.runner');
+    const layer = document.querySelector('.runner-layer');
+    const NG = 8;
+    const ghosts = [];
+    for (let i=0;i<NG;i++){ const g=document.createElement('div'); g.className='ghost'; layer.insertBefore(g, runner); ghosts.push(g); }
+    const place = (el, prog, half) => {
+      const p = ((prog % 1) + 1) % 1;
+      const pt = route.getPointAtLength(p * L);
+      gsap.set(el, {x: pt.x - half, y: pt.y - half});
+    };
+    const state = {p:0};
+    const D = 60; // one full orbit — calm ambient drift (slow, but visible movement within seconds)
+    const tl = gsap.timeline({paused:true, defaults:{ease:'none'}});
+    tl.to(state, {p:1, duration:D, onUpdate:()=>{
+      place(runner, state.p, 7);
+      for (let i=0;i<NG;i++){
+        place(ghosts[i], state.p - (i+1)*0.0028, 2.5);
+        gsap.set(ghosts[i], {opacity: 0.42*(1 - i/NG), scale: 1 - i*0.07});
+      }
+    }});
+    tl.progress(0);
+    window.__tl = tl; window.__dur = D; window.__ready = true;
+  }
+  if (document.readyState === 'complete') buildPath();
+  else window.addEventListener('load', buildPath);
+</script>
 </body>
 </html>

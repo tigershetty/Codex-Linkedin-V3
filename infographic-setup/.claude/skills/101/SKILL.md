@@ -1,18 +1,18 @@
 ---
 name: 101
-description: Use when the user runs /101 [topic-number]. Single-step Supply Chain 101 pipeline. Takes a topic number (1-24) from the 90-day plan, generates 10 hook options + LinkedIn caption + Gemini prompt in one pass. No research, no control gates.
+description: Use when the user runs /101 [topic-number]. Single-step Supply Chain 101 pipeline. Takes a topic number (1-24) from the 90-day plan, generates 10 hook options + LinkedIn caption + ChatGPT Image 2 prompt in one pass. No research, no control gates.
 ---
 
 # /101 Skill — Supply Chain 101 Pipeline
 
 ## Purpose
-Single-step pipeline for the Supply Chain 101 series. Takes a topic number from the 90-day plan, generates 10 hook options + LinkedIn caption + Gemini prompt in one pass. No research stage, no control gates. User picks and adjusts at the end.
+Single-step pipeline for the Supply Chain 101 series. Takes a topic number from the 90-day plan, generates 10 hook options + LinkedIn caption + ChatGPT Image 2 prompt in one pass. No research stage, no control gates. User picks and adjusts at the end.
 
 ## Invoke
 ```
 /101 [topic-number]
 ```
-Example: `/101 2` → generates hooks + caption + Gemini prompt for Topic 2 (Supply Chain vs. Logistics)
+Example: `/101 2` → generates hooks + caption + ChatGPT Image 2 prompt for Topic 2 (Supply Chain vs. Logistics)
 
 ## Prerequisites
 - `references/101-plan.md` must exist (the 90-day content plan)
@@ -88,7 +88,7 @@ Follow the 101 post structure (from `references/101-voice.md`):
 - Bullets: one sentence each. Vary length and structure across them — not uniform.
 - No bold labels inside bullet text ("**Quality**:", "**Delivery**:") — the bullet itself carries the label
 - Plain language. No em dashes. No ANCHORS labels. No citation format.
-- Bullet points use • not - (applies to all output: captions, hook options, Gemini prompt content lists)
+- Bullet points use • not - (applies to all output: captions, hook options, ChatGPT Image 2 prompt content lists)
 - At least one opinion bridge from Tiger's set — rotate, never repeat the same one twice in a row
 - One moment that sounds like Tiger thinking out loud — slightly imperfect, first-person where natural
 - Sign-off: "Found this useful? Follow Poornajith Shetty and Shetty's Desk for more supply chain insights and save/repost this for [specific reference use]."
@@ -96,7 +96,9 @@ Follow the 101 post structure (from `references/101-voice.md`):
 
 ---
 
-## Step 4: Generate Gemini Prompt
+## Step 4: Generate ChatGPT Image 2 Prompt
+
+**Image tool: ChatGPT (GPT Image 2).** Paste the prompt into ChatGPT and **attach `references/brand-anchor-v1.webp`** in the same message — that is the style/colour reference (same brand anchor as before, now used in ChatGPT instead of the Gemini Gem). GPT Image 2 renders on-image text reliably, so keep labels exact and short.
 
 Use this exact template structure. The VISUAL ANCHOR block is mandatory — it is what makes each infographic visually distinctive and eye-catching. Without it, the output is structurally correct but visually generic.
 
@@ -110,7 +112,7 @@ Use this exact template structure. The VISUAL ANCHOR block is mandatory — it i
 ```
 Task: Create an infographic image for the summary below (after the rules).
 
-Rules: Use the image attached as a reference on style, aesthetics, colours, and illustration technique. Use a different layout for the structure to elaborate details based on the summary. Do not use any information or text from the attached image — only style. Use it only for inspiration. Aspect ratio 1:1, resolution 2048x2048.
+Rules: Use the image attached as a reference on style, aesthetics, colours, and illustration technique. Use a different layout for the structure to elaborate details based on the summary. Do not use any information or text from the attached image — only style. Use it only for inspiration. Square 1:1 format (1024x1024).
 
 TOPIC: [Topic name]
 THE QUESTION THIS ANSWERS: [The Question It Answers from the plan — verbatim]
@@ -170,7 +172,7 @@ Present all outputs in one block:
 LINKEDIN CAPTION (using hook [#] as placeholder):
 [full caption]
 
-GEMINI PROMPT (paste-ready):
+CHATGPT IMAGE 2 PROMPT (paste-ready):
 [full prompt]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -189,7 +191,7 @@ After user confirms hook selection and any adjustments:
    - Selected hook
    - Final caption
    - All 10 hook options (reference)
-   - Gemini prompt
+   - ChatGPT Image 2 prompt
 2. Update `data/101-series-tracker.md` with the new entry
 
 ---
@@ -226,8 +228,8 @@ After user confirms hook selection and any adjustments:
 
 ---
 
-## Gemini Prompt (paste-ready)
-[full Gemini prompt]
+## ChatGPT Image 2 Prompt (paste-ready)
+[full ChatGPT Image 2 prompt]
 ```
 
 ---
@@ -240,7 +242,7 @@ After user confirms hook selection and any adjustments:
 - [ ] No em dashes, no AI slop, no ANCHORS labels, no citation format?
 - [ ] CTA is an open question accessible to non-practitioners?
 - [ ] Sign-off includes "Follow Poornajith Shetty" + save prompt?
-- [ ] Gemini prompt uses the plan's visual format and brand kit template?
+- [ ] ChatGPT Image 2 prompt uses the plan's visual format and brand kit template?
 - [ ] A non-practitioner could read the caption over coffee and understand the concept?
 
 ---

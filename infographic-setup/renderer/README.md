@@ -34,36 +34,37 @@ node render.mjs templates/pf1-maturity-ladder.html out/pf1-maturity-ladder.png
 
 ---
 
-## 3. Brand system
+## 3. Brand system — THE ACTUAL SHETTY'S DESK BRAND KIT (corrected 2026-06-16)
+⚠️ **Hard correction.** Earlier templates (PF1/PF5/PF6 + the v1 PF7) used a **coral/terracotta-on-cream** palette. That was WRONG — it took the *logo's* identity colour (terracotta) and mis-used it as the *content* palette, which `brand-tokens.json` explicitly forbids ("the logo layer is terracotta/olive… the content layer is azure/eco-green… don't mix the two palettes"). The real brand is **azure-blue + eco-green, ink-blue text, Poppins, luminous & airy on WHITE, flat-isometric.** PF7 v3 is the corrected reference. **PF1/PF5/PF6 must be rebuilt to this palette.**
+
 | Token | Value | Use |
 |---|---|---|
-| Coral (primary) | `#C15F3C` | accents, labels, the brand line |
-| Claude clay | `#D97757` | the official Claude logo fill (lobehub) |
-| Cream (base) | `#F4F3EE` | background base |
-| Ink | `#191919` | primary text |
-| Secondary text | `#5e544c` / grey `#8A857B` | body / muted |
-| Caution (semantic) | `#C98A1E` (amber) | the ONE non-coral tone, used only for "watch for / do-not" |
-| Level gradient | light coral → deep coral (`#F3E0D6` → `#B45A30` → `#682B11`) | encodes maturity/depth |
+| Azure (primary) | `#2798FB` | the hero brand blue |
+| Sky / Royal / Deep / Navy | `#50A9F7` / `#247BE1` / `#215DC3` / `#1939A5` | blue range: structure, bars, headlines, depth |
+| **Eco-green (SIGNATURE)** | `#38E6A6` (text-safe `#14B07E`) | the positive / progress / highlight / "the smart choice" — appears on the win in every post |
+| Mint | `#8FF3CC` | light end of the eco gradient |
+| Coral-pink (negative) | `#E27199` | warning / cost / the inferior option — **sparingly**, the only warm accent |
+| Ink / Muted / Line / Tint | `#15315C` / `#5D7599` / `#DCEAF8` / `#E2F0FB` | text / body / borders / card & bg fills |
+| Eco gradient (signature) | `linear-gradient(135deg,#8FF3CC,#38E6A6,#2798FB)` | the highlight element |
+| Blue gradient | `linear-gradient(135deg,#50A9F7,#215DC3,#1939A5)` | badges, bars, the pin header rule |
 
-**Dramatic background recipe** (v3, 2026-06-15 — **BRIGHT & LUMINOUS is the standard**). History: warm-cream v1 was too subtle; we tried a dark-theatre v2; Tiger's call is **bright** — and it matches the actual brand DNA (`brand-tokens.json`: "luminous, clean and airy, optimistic"). The look: a warm airy cream base with one large **saturated sunrise bloom** behind the hero plus a softer secondary warm glow — dramatic via *luminosity*, not darkness. PF1/PF5 (dark) are now legacy; rebuild them bright when next touched.
+**Background — luminous, clean, airy on WHITE** (brand DNA; "no dark or busy backgrounds"):
 ```css
 .canvas{ background:
-  radial-gradient(ellipse 64% 46% at 26% 26%, rgba(217,119,87,.34) 0%, rgba(217,119,87,.12) 42%, transparent 72%), /* coral sunrise bloom */
-  radial-gradient(ellipse 58% 46% at 88% 64%, rgba(255,201,135,.30) 0%, transparent 66%),                          /* warm secondary glow */
-  radial-gradient(ellipse 120% 90% at 50% 22%, #FFFFFF 0%, #FCF7EF 44%, #F4EBDC 100%); }                            /* luminous warm base */
-.canvas::after{ content:""; position:absolute; inset:0; pointer-events:none; z-index:9;
-  background:radial-gradient(ellipse 110% 96% at 50% 42%, transparent 72%, rgba(150,95,55,.10) 100%); }             /* faint warm edge, keeps it bright */
+  radial-gradient(ellipse 50% 38% at 85% 4%, rgba(56,230,166,.16) 0%, transparent 60%),   /* eco glow */
+  radial-gradient(ellipse 60% 42% at 6% 30%, rgba(39,152,251,.13) 0%, transparent 58%),    /* azure glow */
+  linear-gradient(180deg,#FFFFFF 0%,#F3F9FE 60%,#EAF3FD 100%); }                            /* white → very light blue */
 ```
-Cards on bright = white/cream (`rgba(255,255,255,.78)`) with a warm hairline border and a soft warm shadow (`0 16px 40px rgba(150,90,55,.14)`). Use ONE deliberate dark element per post for contrast/rhythm (e.g. the "worked example" card) — never a dark whole-canvas. Move the bloom's `at X% Y%` behind the post's hero.
+Cards = solid `#fff` with a `--line #DCEAF8` hairline + soft blue shadow (`0 20px 44px rgba(33,93,195,.12)`). Generous negative space.
 
-### 3a. The Shetty's Desk signature — the CONSTANT CORAL THREAD (locked 2026-06-15)
-This is what makes a post recognizably ours **beyond the logo** (Tiger's pick). The brand has exactly one constant: **coral is always present, in the same places, no matter what colour the content or tool brings.** The coral thread = the **eyebrow label**, the **one popped phrase in the hero line**, the **hero's framing element** (e.g. the "QUOTED PRICE · 100%" brace), and the **footer** (rule + handle + closing thesis). These are *always* `--coral #C15F3C`.
+### 3a. The Shetty's Desk signature (corrected)
+The brand's own signature element (per the kit) is **the eco-green→azure gradient on the "win"** + the **pin header** (number/topic badge → UPPERCASE title → thin azure rule fading right) + the **mixed-weight stat callout** (huge 800 number beside small 300 uppercase caption). Recognition comes from the *blue-and-green isometric system on white*, not a coral thread.
 
-**Two-job colour rule** (locked 2026-06-15 — HOMOGENEOUS, tool-agnostic):
-- **Coral = the brand thread AND the single data highlight.** Constant on every post. It marks both the brand furniture (eyebrow, hero pop, brace, footer) and the one element that carries the point (the negotiable margin layer, the "22%"). Single-accent discipline = the most "designed not generated" look.
-- **Warm neutrals** (stone/taupe) for structural/secondary content; **amber `#C98A1E`** only for the "watch for / caution" line.
-- **NO tool colours.** Every post uses the same Shetty's Desk palette regardless of which AI tool it features — that homogeneity is the standout (a ChatGPT post and a Claude post look like the same studio made them).
-- **The tool is signalled ONLY by a small monochrome icon chip** ("BUILT WITH · [Tool]", top-right, ink, identical treatment every time — swap glyph + name). Tool logos via `@lobehub/icons-static-svg` rendered in `currentColor` ink, never the tool's brand colour. **No "Powered by [tool]"** — it reads as sponsorship.
+**Colour semantics (do not break — from `brand-tokens.json`):**
+- **Blue** = the system / structure / neutral subject (titles, bars, badges, the pin rule).
+- **Eco-green** = positive / progress / the recommended choice / the highlighted win. Put it on the one element that is the good outcome (e.g. the winning supplier, the TCO lead row).
+- **Coral-pink** = negative / cost / the inferior option / caution — used sparingly.
+- **Tool colour rule:** the content stays in the Shetty's palette; the **AI tool appears only as its logo** (large, in its own mark colour — e.g. Claude clay `#D97757`). The tool never recolours the content.
 
 ---
 
