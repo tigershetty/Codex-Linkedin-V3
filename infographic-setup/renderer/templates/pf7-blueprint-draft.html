@@ -82,12 +82,9 @@
   .mrow{display:grid;grid-template-columns:1fr 176px 40px;align-items:center;gap:10px;padding:6.5px 0;border-bottom:1px solid #EFF5FC;}
   .mrow .mc{font-weight:600;font-size:13px;color:var(--ink);line-height:1.04;}
   .mrow .mc small{display:block;font-weight:400;font-size:9.5px;color:var(--muted);}
-  .mrow .mbarwrap{height:13px;background:var(--tint);border-radius:7px;overflow:hidden;box-shadow:inset 0 1px 2px rgba(33,93,195,.13);}
-  .mrow .mbar{height:100%;border-radius:7px;
-    background:linear-gradient(90deg,#6BB7F9 0%,#2E83E6 55%,#1E58C2 100%);
-    box-shadow:inset 0 1.5px 0 rgba(255,255,255,.45),inset 0 -2px 3px rgba(25,57,165,.28);}
-  .mrow.lead .mbar{background:linear-gradient(90deg,#74EDC6 0%,#38E6A6 52%,#14B07E 100%);
-    box-shadow:inset 0 1.5px 0 rgba(255,255,255,.55),inset 0 -2px 3px rgba(20,176,126,.32);}
+  .mrow .mbarwrap{height:13px;background:var(--tint);border-radius:7px;overflow:hidden;box-shadow:inset 0 1px 2px rgba(33,93,195,.10);}
+  .mrow .mbar{display:block;height:100%;background:var(--blue-grad);border-radius:7px;}
+  .mrow.lead .mbar{background:var(--eco-grad);}
   .mrow .mp{font-weight:800;font-size:15.5px;color:var(--deep);text-align:right;font-variant-numeric:tabular-nums;}
   .mrow.lead .mp{color:var(--eco-deep);}
   .mnote{margin:auto 16px 13px;background:var(--tint);border-radius:10px;padding:9px 13px;font-size:12px;color:var(--ink);line-height:1.32;}
@@ -130,7 +127,7 @@
   .got .gt{font-size:14px;font-weight:600;color:var(--ink);}
 
   /* block 7: RFQ timeline */
-  .b7{left:56px;top:1030px;width:968px;height:138px;}
+  .b7{left:56px;top:1014px;width:968px;height:140px;}
   .tl{position:relative;display:flex;justify-content:space-between;padding:18px 44px 12px;}
   .tl::before{content:"";position:absolute;left:96px;right:96px;top:39px;height:3px;border-radius:2px;
     background:linear-gradient(90deg,var(--azure),var(--eco));z-index:0;}
@@ -141,15 +138,15 @@
   .tlabel{font-size:12.5px;font-weight:600;color:var(--ink);text-align:center;line-height:1.15;white-space:nowrap;}
 
   /* block 6: watch-for */
-  .watch{position:absolute;left:56px;top:1170px;width:756px;height:108px;z-index:3;display:flex;align-items:center;gap:15px;
-    background:#fff;border:1px solid #F6DCE6;border-left:5px solid var(--coralpink);border-radius:14px;padding:0 22px;
+  .watch{position:absolute;left:56px;top:1186px;width:872px;height:128px;z-index:3;display:flex;align-items:center;gap:17px;
+    background:#fff;border:1px solid #F6DCE6;border-left:5px solid var(--coralpink);border-radius:14px;padding:0 24px;
     box-shadow:0 12px 30px rgba(33,93,195,.08);}
-  .watch .wi{width:26px;height:26px;flex:0 0 auto;color:var(--coralpink);} .watch .wi svg{width:100%;height:100%;}
-  .watch .wt{font-size:14px;line-height:1.32;color:var(--muted);} .watch .wt b{color:var(--ink);font-weight:700;}
+  .watch .wi{width:30px;height:30px;flex:0 0 auto;color:var(--coralpink);} .watch .wi svg{width:100%;height:100%;}
+  .watch .wt{font-size:15px;line-height:1.36;color:var(--muted);} .watch .wt b{color:var(--ink);font-weight:700;}
 
-  /* BIG Shetty's Desk logo — bottom-right corner */
-  .foot{position:absolute;right:60px;top:1192px;z-index:10;display:flex;flex-direction:column;align-items:center;gap:2px;}
-  .foot img{height:74px;width:auto;object-fit:contain;}
+  /* BIG Shetty's Desk logo — bottom-right corner, a few px from the edges */
+  .foot{position:absolute;right:14px;top:1256px;z-index:10;display:flex;flex-direction:column;align-items:center;gap:2px;}
+  .foot img{height:84px;width:auto;object-fit:contain;}
 </style>
 </head>
 <body>
