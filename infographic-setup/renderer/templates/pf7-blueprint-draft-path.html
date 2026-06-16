@@ -293,7 +293,7 @@
       gsap.set(el, {x: pt.x - half, y: pt.y - half});
     };
     const state = {p:0};
-    const D = 96; // one full orbit — very slow ambient drift (~25% of the prior 24s speed)
+    const D = 60; // one full orbit — calm ambient drift (slow, but visible movement within seconds)
     const tl = gsap.timeline({paused:true, defaults:{ease:'none'}});
     tl.to(state, {p:1, duration:D, onUpdate:()=>{
       place(runner, state.p, 7);

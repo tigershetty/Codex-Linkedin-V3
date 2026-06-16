@@ -49,3 +49,63 @@ sequence carries meaning (a workflow unfolding, a tool-to-tool hand-off); a stil
 ## Pilot proofs (this branch)
 - **Ep01 — Blueprint Draft v2** (enterprise RFQ): `renderer/templates/pf7-blueprint-draft.html` → `out/pf7-blueprint-draft.png`. Real RFQ package (BOM/IATF/PPAP/Incoterms/ESG/Ariba) + TCO-weighted scorecard, benchmarked to APICS SCOR / CIPS / Gartner SRM / SAP Ariba / Carter's 10 Cs. Large Claude logo; Shetty's Desk logo-only footer. The professional-depth + homogeneous-brand standard for the merge.
 - **Ep02 — Cost Anatomy** (`pf6-cost-anatomy.html`) — homogeneous, built on the working branch.
+
+---
+
+# 2026-06-16 — Status, learnings & the merge plan
+
+## 1. Where we are (built and working)
+The deterministic render stack is real and proven on a flagship piece (PF7, the enterprise RFQ).
+
+| Capability | Script / file | State |
+|---|---|---|
+| HTML → PNG (still, 2160×2700) | `renderer/render.mjs` | Working |
+| HTML + GSAP → MP4 + GIF (animation) | `renderer/render-anim.mjs` | Working |
+| Brand kit in code | `:root` tokens in every template (azure/eco/ink/Poppins on white, flat) | Locked |
+| Vendored offline deps | `assets/js/gsap.min.js`; global Playwright + `ffmpeg-static` (gitignored) | Working |
+| Flagship AI-for-SC template | `templates/pf7-blueprint-draft*.html` (still / unfold / orbit) | Signed-off |
+| **101 showcase** | `templates/sc101-planning-fence.html` → `out/sc101-planning-fence.png` | **New — built to test code-render for 101** |
+
+**The thesis, validated:** keeping data + text in code (never in a diffusion model) removes the two failures that made the Gemini output underwhelm — wrong numbers and off-brand visuals. Every bar length, week tick, and label is computed, not painted.
+
+## 2. Key learnings (carry these into every future template)
+**Design**
+- *Visual IS the concept* beats decoration. PF7 = a scored RFQ as a package + scorecard; SC101 = a planning horizon as a frozen/slushy/liquid timeline. The shape teaches before the words do.
+- *Dense, consistent card anatomy* (icon + title + 2–4 lines, repeated) lets the eye learn one card and read the rest instantly. This is what makes a post save-worthy.
+- *2–3 colour discipline with semantic accent* — azure = structure, eco-green = the win/the open state, coral = caution/cost only. Never spray colour.
+- *A save-worthy thesis line in the footer* is the pin-it payload — treat it as the most important sentence on the canvas.
+- Bars must encode the number (PF7 scorecard now fills to the exact weight; bid bars to the exact score).
+
+**Technical gotchas (already cost us a render each — don't repeat)**
+- Bar fills must be `display:block` — an inline `<span>` ignores width/height and renders an empty track.
+- `overflow:hidden` on a container clips any child that sticks out (e.g. fence flags); lift such elements to a non-clipped parent. CSS `opacity` on a parent also caps a child's opacity.
+- Always invoke the renderer with an **absolute path** — the shell cwd drifts and `node render.mjs` then fails.
+- Light surfaces use **Logo 4 (mono-olive)**; the white-wordmark logo is invisible on white.
+
+## 3. The two-mode animation system (use sparingly, on purpose)
+- **Unfold** (`*-anim.html`) — elements reveal in sequence; use only when the *sequence carries meaning* (a workflow assembling, a hand-off). Seamless loop via an in-timeline fade-out.
+- **Ambient orbit** (`*-path.html`) — the card stays fully static and readable while a small Claude mark drifts a dotted route **in the clear margins only** (never over content), now a calm **60s loop**. Use when you want motion to stop the scroll without the content moving.
+- A still PNG remains the default. Animation is opt-in per episode, declared in the render brief.
+
+## 4. The 101 question — answered with a render, not an argument
+Built `sc101-planning-fence.html` (W27, Production Planning) as a from-scratch code-rendered 101 cheat sheet — no Gemini prompt. It clears the save-worthy bar (the planning-fence timeline is a reference a planner screenshots) and shows the precision advantage (proportional zones, exact week ticks, named demand/planning fences) that AI generation can't hold. **Recommendation:** 101 can move to code-render too, topic by topic, starting with the visual-first topics (timelines, matrices, funnels, waterfalls). Keep Gemini only as a fallback for purely illustrative/metaphor 101 posts with no load-bearing structure.
+
+## 5. Merge plan — bring the renderer into the main AI-for-SC flow
+**Scope of this merge: AI for Supply Chain only.** (101 + Deep Dive stay on Gemini until separately decided; the 101 showcase above is the candidate to revisit that.)
+
+1. **Land the branch.** Merge `claude/html-render-pilot` → working branch → `main`. The renderer (`renderer/`, templates, assets, scripts) ships with it.
+2. **Repoint `/ai-for-sc`.** Replace the Gemini-prompt section with two steps:
+   - a **render brief** (real data, the bespoke visual concept, the verbatim on-canvas prompt, a worked example, the honest limitation, the thesis), and
+   - **build + render** the HTML (`render.mjs`, plus `render-anim.mjs` if the brief asks for motion).
+   Output per episode: `ai-for-sc-[slug].md` (hooks + caption + render brief) **+** `out/[slug].png` (and `.mp4/.gif` if animated).
+3. **Grow a template kit, not a parametriser.** PF7 is archetype #1 (package + scorecard + prompt). Each episode gets a *bespoke concept on the same homogeneous brand frame* — reuse the component CSS, design the concept fresh.
+4. **Update both `CLAUDE.md`s.** AI-for-SC "Visual" column → `code-render (renderer/) from a render brief`. Archive the Gemini-prompt scaffolding for AI-for-SC (keep it for 101/Deep Dive).
+5. **Publishing unchanged.** The caption is still written from the voice files; the render is just a deterministic PNG/MP4 instead of a pasted prompt.
+
+## 6. How to pilot the next AI-for-SC episode
+1. Pull the next episode from `references/ai-for-sc-plan-v2.md` (Role / Tool / Use Case / Hook / Visual concept).
+2. Write its **render brief** (the dive-deeper step that replaces the Gemini prompt).
+3. Build the HTML from the component kit — one bespoke concept, brand frame intact, the tool present only as its logo + woven into the heading.
+4. Render the still; add an animation mode only if the sequence or ambient motion earns it.
+5. QA against the learnings checklist in §2; write the caption from `tiger-voice.md` + voice refs.
+6. Commit to the pilot branch, review, then fold into the merge.
