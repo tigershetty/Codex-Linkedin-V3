@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <!--
-  PF7 — Blueprint Draft v4 (AI for SC · Ep01 · Enterprise RFQ · "How to use Claude")
+  PF7 — Blueprint Draft v5 (AI for SC · Ep01 · Enterprise RFQ · "...using Claude")
   Shetty's Desk brand kit: azure + eco-green + ink + Poppins, luminous on WHITE, flat.
-  6 blocks: RFQ Package | TCO Scorecard | Stepped Prompt | Bid Scores | What You Get | Watch-for.
-  Tool framed as "How to use Claude". No benchmark line on canvas. Logo bottom-right corner.
-  Canvas 1080x1350 (4:5).
+  8 elements: stat callout, RFQ Package, TCO Scorecard, stepped Prompt, Bid Scores,
+  What You Get, RFQ Timeline, Watch-for. Big Claude logo (no label). Big Shetty logo corner.
+  Tool framed in the heading ("using Claude"). Minimal white space. Canvas 1080x1350 (4:5).
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,116 +28,137 @@
   .canvas{width:1080px;height:1350px;position:relative;
     font-family:var(--sans);color:var(--ink);overflow:hidden;
     background:
-      radial-gradient(ellipse 50% 38% at 85% 4%, rgba(56,230,166,.16) 0%, transparent 60%),
-      radial-gradient(ellipse 60% 42% at 6% 28%, rgba(39,152,251,.13) 0%, transparent 58%),
-      radial-gradient(ellipse 80% 46% at 50% 100%, rgba(39,152,251,.08) 0%, transparent 60%),
-      linear-gradient(180deg,#FFFFFF 0%,#F3F9FE 60%,#EAF3FD 100%);}
+      radial-gradient(ellipse 46% 34% at 88% 3%, rgba(56,230,166,.15) 0%, transparent 60%),
+      radial-gradient(ellipse 58% 40% at 5% 26%, rgba(39,152,251,.12) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F4F9FE 62%,#EAF3FD 100%);}
 
   /* header */
-  .pad{padding:38px 56px 0;position:relative;z-index:3;}
-  .pin{display:flex;align-items:center;gap:13px;}
+  .pad{padding:34px 56px 0;position:relative;z-index:3;}
+  .pin{display:flex;align-items:center;gap:13px;max-width:600px;}
   .pin .badge{width:38px;height:38px;border-radius:11px;background:var(--blue-grad);
     display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 6px 14px rgba(33,93,195,.32);}
   .pin .badge svg{width:21px;height:21px;color:#fff;}
-  .pin .pt{font-size:15px;font-weight:800;letter-spacing:2.2px;text-transform:uppercase;color:var(--ink);white-space:nowrap;}
+  .pin .pt{font-size:14.5px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--ink);white-space:nowrap;}
   .pin .rule{flex:1;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--azure),rgba(39,152,251,0));}
-  .hero{font-weight:800;font-size:50px;line-height:1.0;letter-spacing:-1px;color:var(--ink);margin-top:18px;max-width:620px;}
+  .hero{font-weight:800;font-size:50px;line-height:1.0;letter-spacing:-1px;color:var(--ink);margin-top:18px;max-width:560px;}
   .hero .g{background:linear-gradient(110deg,var(--deep) 0%,var(--azure) 45%,var(--eco-deep) 100%);
     -webkit-background-clip:text;background-clip:text;color:transparent;}
-  .heading{font-size:20px;font-weight:400;color:var(--muted);margin-top:12px;line-height:1.3;max-width:600px;}
+  .heading{font-size:19.5px;font-weight:400;color:var(--muted);margin-top:12px;line-height:1.32;max-width:560px;}
+  .heading .u{color:var(--eco-deep);font-weight:700;}
 
-  /* LARGE Claude tool logo — "How to use Claude" */
-  .tool{position:absolute;top:34px;right:54px;z-index:5;display:flex;flex-direction:column;align-items:center;gap:6px;}
-  .tool .mk{width:86px;height:86px;color:#D97757;filter:drop-shadow(0 8px 18px rgba(217,119,87,.3));}
-  .tool .mk svg{width:100%;height:100%;}
-  .tool .lb{font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--muted);text-align:center;}
-  .tool .lb b{color:var(--ink);}
+  /* BIG Claude logo (no label) */
+  .tool{position:absolute;top:26px;right:74px;z-index:5;width:118px;height:118px;color:#D97757;
+    filter:drop-shadow(0 10px 20px rgba(217,119,87,.32));}
+  .tool svg{width:100%;height:100%;}
+  /* before/after stat callout (top-right) */
+  .stat{position:absolute;top:158px;right:56px;width:330px;z-index:4;display:flex;align-items:center;gap:14px;
+    background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 18px;
+    box-shadow:0 14px 32px rgba(33,93,195,.1);}
+  .stat .sc{display:flex;flex-direction:column;}
+  .stat .sc .l{font-size:10.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--muted);}
+  .stat .sc .v{font-weight:800;font-size:25px;letter-spacing:-.5px;line-height:1;color:var(--muted);}
+  .stat .sc.to .v{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent;}
+  .stat .ar{color:var(--azure);font-size:22px;font-weight:700;}
 
   /* shared card */
   .card{position:absolute;background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;z-index:3;
-    box-shadow:0 18px 40px rgba(33,93,195,.11),0 3px 8px rgba(33,93,195,.05);}
-  .card-h{display:flex;align-items:center;justify-content:space-between;padding:13px 20px;background:var(--tint);border-bottom:1px solid var(--line);}
-  .card-h .ct{font-weight:800;font-size:15.5px;letter-spacing:.5px;text-transform:uppercase;color:var(--deep);}
-  .card-h .cm{font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--royal);letter-spacing:.4px;}
+    box-shadow:0 16px 36px rgba(33,93,195,.1),0 3px 8px rgba(33,93,195,.05);}
+  .card-h{display:flex;align-items:center;justify-content:space-between;padding:11px 20px;background:var(--tint);border-bottom:1px solid var(--line);}
+  .card-h .ct{font-weight:800;font-size:15px;letter-spacing:.5px;text-transform:uppercase;color:var(--deep);}
+  .card-h .cm{font-family:var(--mono);font-size:10px;font-weight:500;color:var(--royal);letter-spacing:.3px;}
 
   /* block 1: RFQ package */
-  .b1{left:56px;top:262px;width:468px;height:406px;}
-  .srow{display:flex;align-items:center;gap:12px;padding:0 20px;height:51px;border-bottom:1px solid #EFF5FC;}
+  .b1{left:56px;top:250px;width:468px;height:378px;}
+  .srow{display:flex;align-items:center;gap:12px;padding:0 20px;height:47px;border-bottom:1px solid #EFF5FC;}
   .srow:last-child{border-bottom:none;}
-  .snum{width:26px;height:26px;flex:0 0 auto;border-radius:50%;background:var(--blue-grad);color:#fff;
-    font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 6px rgba(33,93,195,.26);}
-  .srow .sn{font-weight:700;font-size:15px;color:var(--ink);line-height:1.05;}
-  .srow .sg{font-size:11.5px;color:var(--muted);margin-top:1px;line-height:1.1;}
+  .snum{width:25px;height:25px;flex:0 0 auto;border-radius:50%;background:var(--blue-grad);color:#fff;
+    font-weight:700;font-size:12.5px;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 6px rgba(33,93,195,.26);}
+  .srow .sn{font-weight:700;font-size:14.5px;color:var(--ink);line-height:1.05;}
+  .srow .sg{font-size:11px;color:var(--muted);margin-top:1px;line-height:1.1;}
 
   /* block 2: scorecard */
-  .b2{left:556px;top:262px;width:468px;height:406px;display:flex;flex-direction:column;}
-  .mrows{padding:5px 20px 0;}
-  .mrow{display:grid;grid-template-columns:1fr 92px 40px;align-items:center;gap:10px;padding:7.5px 0;border-bottom:1px solid #EFF5FC;}
-  .mrow .mc{font-weight:600;font-size:14px;color:var(--ink);line-height:1.04;}
-  .mrow .mc small{display:block;font-weight:400;font-size:10px;color:var(--muted);}
+  .b2{left:556px;top:250px;width:468px;height:378px;display:flex;flex-direction:column;}
+  .mrows{padding:4px 20px 0;}
+  .mrow{display:grid;grid-template-columns:1fr 90px 38px;align-items:center;gap:10px;padding:6.5px 0;border-bottom:1px solid #EFF5FC;}
+  .mrow .mc{font-weight:600;font-size:13.5px;color:var(--ink);line-height:1.04;}
+  .mrow .mc small{display:block;font-weight:400;font-size:9.5px;color:var(--muted);}
   .mrow .mbarwrap{height:9px;background:var(--tint);border-radius:5px;overflow:hidden;}
   .mrow .mbar{height:100%;background:var(--blue-grad);border-radius:5px;}
   .mrow.lead .mbar{background:var(--eco-grad);}
-  .mrow .mp{font-weight:800;font-size:16px;color:var(--deep);text-align:right;font-variant-numeric:tabular-nums;}
+  .mrow .mp{font-weight:800;font-size:15.5px;color:var(--deep);text-align:right;font-variant-numeric:tabular-nums;}
   .mrow.lead .mp{color:var(--eco-deep);}
-  .mnote{margin:auto 16px 14px;background:var(--tint);border-radius:10px;padding:10px 13px;font-size:12.5px;color:var(--ink);line-height:1.34;}
+  .mnote{margin:auto 16px 13px;background:var(--tint);border-radius:10px;padding:9px 13px;font-size:12px;color:var(--ink);line-height:1.32;}
   .mnote b{font-weight:700;color:var(--deep);}
 
   /* block 3: stepped prompt */
-  .b3{left:56px;top:688px;width:468px;height:404px;}
-  .pbar{display:flex;align-items:center;gap:10px;padding:12px 20px;background:var(--blue-grad);}
+  .b3{left:56px;top:644px;width:468px;height:378px;}
+  .pbar{display:flex;align-items:center;gap:10px;padding:11px 20px;background:var(--blue-grad);}
   .pbar .pi{width:17px;height:17px;color:#fff;} .pbar .pi svg{width:100%;height:100%;}
-  .pbar .pt{font-size:13px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#fff;}
+  .pbar .pt{font-size:12.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#fff;}
   .pbody{padding:13px 20px 14px;font-family:var(--mono);font-size:12.5px;color:#33547d;}
   .pbody .lead{color:#23416d;line-height:1.4;margin-bottom:9px;}
-  .pstep{display:flex;gap:9px;align-items:baseline;margin-bottom:7px;line-height:1.25;}
+  .pstep{display:flex;gap:9px;align-items:baseline;margin-bottom:7.5px;line-height:1.2;}
   .pstep .dot{color:var(--eco-deep);font-weight:700;flex:0 0 auto;}
   .pstep b{color:var(--deep);font-weight:700;} .pstep span{color:var(--muted);}
   .pclose{color:#23416d;line-height:1.4;margin-top:9px;}
   .pclose b{color:var(--eco-deep);font-weight:700;}
 
   /* block 4: bid scores */
-  .b4{left:556px;top:688px;width:468px;height:192px;}
-  .b4 .bd{padding:12px 20px 0;}
-  .bid{display:grid;grid-template-columns:96px 1fr 54px;align-items:center;gap:12px;margin-bottom:10px;}
-  .bid .bl{font-weight:700;font-size:14px;color:var(--ink);}
-  .bid .bl small{display:block;font-weight:500;font-size:10.5px;color:var(--muted);}
-  .bid .bw{height:11px;background:var(--tint);border-radius:6px;overflow:hidden;}
+  .b4{left:556px;top:644px;width:468px;height:178px;}
+  .b4 .bd{padding:11px 20px 0;}
+  .bid{display:grid;grid-template-columns:92px 1fr 50px;align-items:center;gap:12px;margin-bottom:8px;}
+  .bid .bl{font-weight:700;font-size:13.5px;color:var(--ink);}
+  .bid .bl small{display:block;font-weight:500;font-size:10px;color:var(--muted);}
+  .bid .bw{height:10px;background:var(--tint);border-radius:6px;overflow:hidden;}
   .bid .bw i{display:block;height:100%;background:var(--blue-grad);border-radius:6px;}
   .bid.win .bw i{background:var(--eco-grad);}
-  .bid .bs{font-weight:800;font-size:19px;text-align:right;color:var(--deep);}
-  .bid.win .bs{color:var(--eco-deep);}
-  .bid.lose .bs{color:var(--coralpink-deep);}
-  .b4 .ftxt{padding:2px 20px 0;font-size:12px;color:var(--muted);}
+  .bid .bs{font-weight:800;font-size:18px;text-align:right;color:var(--deep);}
+  .bid.win .bs{color:var(--eco-deep);} .bid.lose .bs{color:var(--coralpink-deep);}
+  .b4 .ftxt{padding:0 20px;font-size:11.5px;color:var(--muted);}
   .b4 .ftxt b{color:var(--ink);}
 
   /* block 5: what you get */
-  .b5{left:556px;top:900px;width:468px;height:192px;}
-  .b5 .bd{padding:13px 20px;}
-  .got{display:flex;align-items:center;gap:11px;margin-bottom:11px;}
-  .got .ck{width:24px;height:24px;flex:0 0 auto;border-radius:50%;background:var(--eco-grad);display:flex;align-items:center;justify-content:center;
+  .b5{left:556px;top:836px;width:468px;height:186px;}
+  .b5 .bd{padding:12px 20px;}
+  .got{display:flex;align-items:center;gap:11px;margin-bottom:10px;}
+  .got .ck{width:23px;height:23px;flex:0 0 auto;border-radius:50%;background:var(--eco-grad);display:flex;align-items:center;justify-content:center;
     box-shadow:0 3px 7px rgba(56,230,166,.35);}
-  .got .ck svg{width:13px;height:13px;color:#0c5a44;}
-  .got .gt{font-size:14.5px;font-weight:600;color:var(--ink);} .got .gt small{color:var(--muted);font-weight:500;}
+  .got .ck svg{width:12px;height:12px;color:#0c5a44;}
+  .got .gt{font-size:14px;font-weight:600;color:var(--ink);}
+
+  /* block 7: RFQ timeline */
+  .b7{left:56px;top:1038px;width:968px;height:112px;}
+  .tl{position:relative;display:flex;justify-content:space-between;padding:14px 44px 0;}
+  .tl::before{content:"";position:absolute;left:96px;right:96px;top:35px;height:3px;border-radius:2px;
+    background:linear-gradient(90deg,var(--azure),var(--eco));z-index:0;}
+  .tnode{display:flex;flex-direction:column;align-items:center;gap:5px;z-index:1;width:150px;}
+  .tdot{width:42px;height:42px;border-radius:50%;background:#fff;border:3px solid var(--azure);
+    display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12.5px;color:var(--deep);box-shadow:0 3px 8px rgba(33,93,195,.16);}
+  .tnode.award .tdot{border:none;background:var(--eco-grad);color:#0c5a44;box-shadow:0 4px 10px rgba(56,230,166,.4);}
+  .tlabel{font-size:12px;font-weight:600;color:var(--ink);text-align:center;line-height:1.1;}
 
   /* block 6: watch-for */
-  .watch{position:absolute;left:56px;top:1112px;width:968px;height:96px;z-index:3;display:flex;align-items:center;gap:15px;
-    background:#fff;border:1px solid #F6DCE6;border-left:5px solid var(--coralpink);border-radius:14px;padding:0 24px;
+  .watch{position:absolute;left:56px;top:1170px;width:756px;height:108px;z-index:3;display:flex;align-items:center;gap:15px;
+    background:#fff;border:1px solid #F6DCE6;border-left:5px solid var(--coralpink);border-radius:14px;padding:0 22px;
     box-shadow:0 12px 30px rgba(33,93,195,.08);}
-  .watch .wi{width:27px;height:27px;flex:0 0 auto;color:var(--coralpink);} .watch .wi svg{width:100%;height:100%;}
-  .watch .wt{font-size:14.5px;line-height:1.34;color:var(--muted);} .watch .wt b{color:var(--ink);font-weight:700;}
+  .watch .wi{width:26px;height:26px;flex:0 0 auto;color:var(--coralpink);} .watch .wi svg{width:100%;height:100%;}
+  .watch .wt{font-size:14px;line-height:1.32;color:var(--muted);} .watch .wt b{color:var(--ink);font-weight:700;}
 
-  /* logo — bottom-right corner */
-  .foot{position:absolute;right:54px;bottom:34px;z-index:10;}
-  .foot img{height:46px;width:auto;object-fit:contain;}
+  /* BIG Shetty's Desk logo — bottom-right corner */
+  .foot{position:absolute;right:60px;top:1192px;z-index:10;display:flex;flex-direction:column;align-items:center;gap:2px;}
+  .foot img{height:74px;width:auto;object-fit:contain;}
 </style>
 </head>
 <body>
 <div class="canvas" id="card">
-  <!-- LARGE Claude tool logo: "How to use Claude" -->
-  <div class="tool">
-    <span class="mk"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="nonzero" d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z"/></svg></span>
-    <span class="lb">How to use<br><b>Claude</b></span>
+  <!-- BIG Claude logo (no label) -->
+  <div class="tool"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="nonzero" d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z"/></svg></div>
+
+  <!-- before/after stat callout -->
+  <div class="stat">
+    <div class="sc"><span class="l">By hand</span><span class="v">~3 hrs</span></div>
+    <div class="ar">→</div>
+    <div class="sc to"><span class="l">With Claude</span><span class="v">20 min</span></div>
   </div>
 
   <div class="pad">
@@ -147,7 +168,7 @@
       <span class="rule"></span>
     </div>
     <div class="hero">One brief in.<br><span class="g">A scored RFQ out.</span></div>
-    <div class="heading">What a category buyer at enterprise scale actually issues, drafted in 20 minutes.</div>
+    <div class="heading">What a category buyer at enterprise scale actually issues, drafted in 20 minutes <span class="u">using Claude</span>.</div>
   </div>
 
   <!-- block 1: RFQ package -->
@@ -214,13 +235,25 @@
     </div>
   </div>
 
+  <!-- block 7: RFQ timeline -->
+  <div class="card b7">
+    <div class="card-h"><span class="ct">RFQ Timeline</span><span class="cm">issue to award</span></div>
+    <div class="tl">
+      <div class="tnode"><div class="tdot">D0</div><div class="tlabel">Issue RFQ</div></div>
+      <div class="tnode"><div class="tdot">D3</div><div class="tlabel">Q&amp;A opens</div></div>
+      <div class="tnode"><div class="tdot">D10</div><div class="tlabel">Bids due</div></div>
+      <div class="tnode"><div class="tdot">D14</div><div class="tlabel">Score &amp; shortlist</div></div>
+      <div class="tnode award"><div class="tdot">D17</div><div class="tlabel">Award</div></div>
+    </div>
+  </div>
+
   <!-- block 6: watch-for -->
   <div class="watch">
     <div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></div>
-    <div class="wt"><b>Claude drafts to the standard. You own the spec and the weights.</b> They encode your category strategy and your firm's risk tolerance, so a category manager signs off before the event goes live.</div>
+    <div class="wt"><b>Claude drafts to the standard. You own the spec and the weights.</b> They encode your category strategy and your firm's risk tolerance, so sign off before the event goes live.</div>
   </div>
 
-  <!-- Shetty's Desk logo — bottom-right corner -->
+  <!-- BIG Shetty's Desk logo — bottom-right corner -->
   <div class="foot"><img src="../assets/logos/shettys-desk-logo-4.png" alt="Shetty's Desk"></div>
 
 </div>
