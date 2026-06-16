@@ -26,7 +26,9 @@ const r = (p) => resolve(__dirname, p);
 const args = process.argv.slice(2);
 const inp = args[0] || 'templates/pf7-blueprint-draft-anim.html';
 const outBase = args[1] || 'out/pf7-blueprint-draft';
-const FPS = 25;
+const FPS = Number(process.env.FPS ?? 25);
+const GIF_FPS = Number(process.env.GIF_FPS ?? 20);
+const GIF_W = Number(process.env.GIF_W ?? 600);
 const HOLD_S = Number(process.env.HOLD_S ?? 0);  // 0 = seamless loop (timeline fades out itself)
 const W = 1080, H = 1350;
 
@@ -72,9 +74,9 @@ run(['-y', '-framerate', String(FPS), '-i', `${framesDir}/f_%04d.png`,
 // GIF — downscaled, palette-optimised (matches the reference share format)
 const palette = `${framesDir}/palette.png`;
 run(['-y', '-i', `${framesDir}/f_%04d.png`, '-vf',
-     `fps=20,scale=600:-1:flags=lanczos,palettegen=stats_mode=full`, palette]);
+     `fps=${GIF_FPS},scale=${GIF_W}:-1:flags=lanczos,palettegen=stats_mode=full`, palette]);
 run(['-y', '-framerate', String(FPS), '-i', `${framesDir}/f_%04d.png`, '-i', palette,
-     '-lavfi', `fps=20,scale=600:-1:flags=lanczos[x];[x][1:v]paletteuse=dither=bayer:bayer_scale=3`,
+     '-lavfi', `fps=${GIF_FPS},scale=${GIF_W}:-1:flags=lanczos[x];[x][1:v]paletteuse=dither=bayer:bayer_scale=3`,
      '-loop', '0', r(outBase + '.gif')]);
 
 rmSync(framesDir, { recursive: true, force: true });
