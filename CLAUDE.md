@@ -18,9 +18,11 @@ LinkedIn-V2/
   voice-interview-plan.md      ← voice interview reference
 ```
 
-## Gemini — Two Separate Uses
-1. **Infographic Gem** ("Shetty's Desk — Infographic Engine") — structured pipeline use, configured at gemini.google.com. Requires `brand-anchor-v1.webp` upload each session.
-2. **General Gemini** — research, image generation, and ad-hoc tasks outside the infographic pipeline.
+## Visual Tooling by Flow (updated 2026-06-16)
+- **Supply Chain 101** → **ChatGPT (GPT Image 2)** prompt. Attach `brand-anchor-v1.webp` in ChatGPT for style. (Was Gemini; only the image tool changed — the rest of the `/101` flow is unchanged.)
+- **AI for Supply Chain** → **code-render** (`infographic-setup/renderer/`): deterministic HTML→PNG/GIF/MP4 from a render brief. No AI-image prompt. (Was a Gemini prompt; now built and rendered in code.)
+- **Deep Dive (paused)** → **Gemini Infographic Gem** ("Shetty's Desk — Infographic Engine") at gemini.google.com; requires `brand-anchor-v1.webp` upload each session.
+- **General Gemini** — research and ad-hoc tasks outside the infographic pipeline.
 
 ## Global Workflow Rules
 - Always check for existing files before creating new ones

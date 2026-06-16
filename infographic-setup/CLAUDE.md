@@ -32,7 +32,7 @@ Before any work starts, determine the content type:
 | Hooks | Metaphor-led, accessible | Role + current limitation + AI unlock — specific enough the right person self-identifies | Data-led, case-study anchored |
 | Caption | 150–300 words, educational tone | 220–320 words, practical, copy-paste level | 200–350 words, 7-part structure with stats |
 | Control gates | None (single-step) | None — PDF is a yes/no gate after caption is approved | CG1 (topic) + CG2 (hook) |
-| Visual | Gemini with 101 brand kit template | Gemini — workflow, prompt template, or reference cheat sheet | Gemini with deep-dive visual DNA |
+| Visual | ChatGPT (GPT Image 2) prompt, 101 brand kit + brand anchor | Code-render (`renderer/`) from a render brief — HTML→PNG/GIF/MP4, no AI-image prompt | Gemini with deep-dive visual DNA |
 | Frequency | 2/week (Posts 1+2 in weekly sub-topic) | 2/week (Posts 3+4 in weekly sub-topic) | Paused |
 | Output files | `101-copy.md` | `ai-for-sc-[use-case-slug].md` + optional `ai-for-sc-[use-case-slug]-pdf.md` | `content.md` + `gemini-prompt.md` |
 
@@ -44,7 +44,7 @@ Before any work starts, determine the content type:
 /101 [topic-slug]    ← single step, no gates
 ```
 
-Generates 10 hooks + LinkedIn caption + Gemini prompt in one pass from the monthly topic bank.
+Generates 10 hooks + LinkedIn caption + ChatGPT (GPT Image 2) prompt in one pass from the monthly topic bank.
 User picks hook and adjusts at the end. No research, no scout, no message commit.
 Topics follow the monthly theme model in this file (Part 3 — see CLAUDE.md). `/101` runs Posts 1 and 2 of each week.
 
@@ -135,8 +135,8 @@ data/
   {YYYY-W##}/                         ← ISO week folder
     topic-scout.md                    ← deep dive candidates (deep dive only)
     {topic-slug}/
-      101-copy.md                     ← 101 only (hooks + caption + Gemini prompt)
-      ai-for-sc-[use-case-slug].md     ← AI for SC post: hooks + caption + Gemini prompt (one file per post)
+      101-copy.md                     ← 101 only (hooks + caption + ChatGPT Image 2 prompt)
+      ai-for-sc-[use-case-slug].md     ← AI for SC post: hooks + caption + render brief (visual is code-rendered to renderer/out/)
       ai-for-sc-[use-case-slug]-pdf.md ← AI for SC PDF draft (5-page markdown, only if requested)
       research.md                     ← deep dive only
       message-commit.md               ← deep dive only (contains selected hook)
@@ -151,9 +151,9 @@ data/
 
 ## Gotchas
 - **IKEA content is excluded** — do not use as voice or content reference
-- **NEGATIVE prompt blocks degrade render quality** — never add them to Gemini prompts
+- **NEGATIVE prompt blocks degrade render quality** — never add them to image-generation prompts (101 ChatGPT Image 2 / deep-dive Gemini)
 - **Hooks become the verbatim opening line of the published post** — voice rules apply at hook generation
-- **AI for SC: PDF draft is optional** — after caption + Gemini prompt are presented, ask "Would you like a PDF draft? (Yes / No)" before generating
+- **AI for SC: PDF draft is optional** — after caption + render brief (+ rendered infographic) are presented, ask "Would you like a PDF draft? (Yes / No)" before generating
 - **AI for SC: use cases are pre-defined in `references/ai-for-sc-plan-v2.md`** — load this file at Step 1 and confirm the pre-defined use cases with the user before generating hooks
 - **AI for SC: load tiger-voice.md + published-voice.md + 101-voice.md before generating** — all three references apply
 - **AI for SC: hook must name role + current limitation + AI unlock** — all three elements required; "current limitation" must name the actual tool (SAP, Excel, Power BI) not generic friction

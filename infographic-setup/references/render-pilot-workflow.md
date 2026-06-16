@@ -87,11 +87,11 @@ The deterministic render stack is real and proven on a flagship piece (PF7, the 
 - **Ambient orbit** (`*-path.html`) — the card stays fully static and readable while a small Claude mark drifts a dotted route **in the clear margins only** (never over content), now a calm **60s loop**. Use when you want motion to stop the scroll without the content moving.
 - A still PNG remains the default. Animation is opt-in per episode, declared in the render brief.
 
-## 4. The 101 question — answered with a render, not an argument
-Built `sc101-planning-fence.html` (W27, Production Planning) as a from-scratch code-rendered 101 cheat sheet — no Gemini prompt. It clears the save-worthy bar (the planning-fence timeline is a reference a planner screenshots) and shows the precision advantage (proportional zones, exact week ticks, named demand/planning fences) that AI generation can't hold. **Recommendation:** 101 can move to code-render too, topic by topic, starting with the visual-first topics (timelines, matrices, funnels, waterfalls). Keep Gemini only as a fallback for purely illustrative/metaphor 101 posts with no load-bearing structure.
+## 4. The 101 question — DECIDED: 101 stays prompt-based, image tool → ChatGPT (GPT Image 2)
+We explored code-render for 101 (`sc101-planning-fence*.html` — a cheat-sheet, a river-of-time metaphor, and an isometric concept piece). They proved code-render *can* do 101, but the **decision is a hard pass**: 101 keeps its existing `/101` flow exactly as-is, and the only change is the image tool — **Gemini → ChatGPT (GPT Image 2)**. The code-render explorations are parked in `renderer/templates/sc101-*` as reference, not wired into the flow. Rationale: 101 is an illustrative concept post (one big visual + a brief explanation), well served by a strong image-gen prompt; the dense, data-exact code-render advantage is what AI-for-SC needs, not 101.
 
 ## 5. Merge plan — bring the renderer into the main AI-for-SC flow
-**Scope of this merge: AI for Supply Chain only.** (101 + Deep Dive stay on Gemini until separately decided; the 101 showcase above is the candidate to revisit that.)
+**Scope of this merge: AI for Supply Chain only.** (101 → ChatGPT GPT Image 2 prompt, unchanged flow otherwise; Deep Dive stays on the Gemini Gem. Both already wired in the skills + CLAUDE.md.)
 
 1. **Land the branch.** Merge `claude/html-render-pilot` → working branch → `main`. The renderer (`renderer/`, templates, assets, scripts) ships with it.
 2. **Repoint `/ai-for-sc`.** Replace the Gemini-prompt section with two steps:
