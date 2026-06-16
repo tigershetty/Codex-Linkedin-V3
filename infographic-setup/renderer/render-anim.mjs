@@ -27,7 +27,7 @@ const args = process.argv.slice(2);
 const inp = args[0] || 'templates/pf7-blueprint-draft-anim.html';
 const outBase = args[1] || 'out/pf7-blueprint-draft';
 const FPS = 25;
-const HOLD_S = 1.6;          // freeze on the final frame before the loop restarts
+const HOLD_S = Number(process.env.HOLD_S ?? 0);  // 0 = seamless loop (timeline fades out itself)
 const W = 1080, H = 1350;
 
 const framesDir = r('out/_frames');

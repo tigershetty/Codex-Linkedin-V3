@@ -79,11 +79,11 @@
   /* block 2: scorecard */
   .b2{left:556px;top:250px;width:468px;height:378px;display:flex;flex-direction:column;}
   .mrows{padding:4px 20px 0;}
-  .mrow{display:grid;grid-template-columns:1fr 90px 38px;align-items:center;gap:10px;padding:6.5px 0;border-bottom:1px solid #EFF5FC;}
-  .mrow .mc{font-weight:600;font-size:13.5px;color:var(--ink);line-height:1.04;}
+  .mrow{display:grid;grid-template-columns:1fr 176px 40px;align-items:center;gap:10px;padding:6.5px 0;border-bottom:1px solid #EFF5FC;}
+  .mrow .mc{font-weight:600;font-size:13px;color:var(--ink);line-height:1.04;}
   .mrow .mc small{display:block;font-weight:400;font-size:9.5px;color:var(--muted);}
-  .mrow .mbarwrap{height:9px;background:var(--tint);border-radius:5px;overflow:hidden;}
-  .mrow .mbar{height:100%;background:var(--blue-grad);border-radius:5px;}
+  .mrow .mbarwrap{height:11px;background:var(--tint);border-radius:6px;overflow:hidden;}
+  .mrow .mbar{height:100%;background:var(--blue-grad);border-radius:6px;}
   .mrow.lead .mbar{background:var(--eco-grad);}
   .mrow .mp{font-weight:800;font-size:15.5px;color:var(--deep);text-align:right;font-variant-numeric:tabular-nums;}
   .mrow.lead .mp{color:var(--eco-deep);}
@@ -187,12 +187,12 @@
   <div class="card b2">
     <div class="card-h"><span class="ct">Weighted Scorecard</span><span class="cm">TCO, not unit price</span></div>
     <div class="mrows">
-      <div class="mrow lead"><span class="mc">Total Cost of Ownership<small>landed + quality + lifecycle</small></span><span class="mbarwrap"><span class="mbar" style="width:100%"></span></span><span class="mp">30%</span></div>
-      <div class="mrow"><span class="mc">Quality &amp; compliance<small>defect rate, certifications</small></span><span class="mbarwrap"><span class="mbar" style="width:67%"></span></span><span class="mp">20%</span></div>
-      <div class="mrow"><span class="mc">Delivery &amp; lead time<small>OTIF, ramp capability</small></span><span class="mbarwrap"><span class="mbar" style="width:60%"></span></span><span class="mp">18%</span></div>
-      <div class="mrow"><span class="mc">Technical capability<small>process, R&amp;D, tooling</small></span><span class="mbarwrap"><span class="mbar" style="width:50%"></span></span><span class="mp">15%</span></div>
-      <div class="mrow"><span class="mc">Financial stability<small>credit, continuity risk</small></span><span class="mbarwrap"><span class="mbar" style="width:33%"></span></span><span class="mp">10%</span></div>
-      <div class="mrow"><span class="mc">Sustainability (ESG)<small>Scope 3, code adherence</small></span><span class="mbarwrap"><span class="mbar" style="width:23%"></span></span><span class="mp">7%</span></div>
+      <div class="mrow lead"><span class="mc">Total Cost of Ownership<small>landed + quality + lifecycle</small></span><span class="mbarwrap"><span class="mbar" style="width:30%"></span></span><span class="mp">30%</span></div>
+      <div class="mrow"><span class="mc">Quality &amp; compliance<small>defect rate, certifications</small></span><span class="mbarwrap"><span class="mbar" style="width:20%"></span></span><span class="mp">20%</span></div>
+      <div class="mrow"><span class="mc">Delivery &amp; lead time<small>OTIF, ramp capability</small></span><span class="mbarwrap"><span class="mbar" style="width:18%"></span></span><span class="mp">18%</span></div>
+      <div class="mrow"><span class="mc">Technical capability<small>process, R&amp;D, tooling</small></span><span class="mbarwrap"><span class="mbar" style="width:15%"></span></span><span class="mp">15%</span></div>
+      <div class="mrow"><span class="mc">Financial stability<small>credit, continuity risk</small></span><span class="mbarwrap"><span class="mbar" style="width:10%"></span></span><span class="mp">10%</span></div>
+      <div class="mrow"><span class="mc">Sustainability (ESG)<small>Scope 3, code adherence</small></span><span class="mbarwrap"><span class="mbar" style="width:7%"></span></span><span class="mp">7%</span></div>
     </div>
     <div class="mnote"><b>Set the weights before any quote lands.</b> They turn the decision into your priorities, not the slickest proposal.</div>
   </div>
@@ -279,26 +279,30 @@
     gsap.set('.bid .bw i', {scaleX:0, transformOrigin:'left center'});
     gsap.set('.tnode', {opacity:0, scale:.4, transformOrigin:'center'});
 
-    // header sequence
-    tl.to('.pin', {opacity:1, y:0, duration:.5}, 0.0)
-      .to('.hero', {opacity:1, y:0, duration:.7}, 0.25)
-      .to('.heading', {opacity:1, y:0, duration:.6}, 0.65)
-      .to('.tool', {opacity:1, scale:1, rotate:0, duration:.8, ease:'back.out(1.5)'}, 0.45)
-      .to('.stat', {opacity:1, y:0, scale:1, duration:.6, ease:'back.out(1.4)'}, 0.95);
+    // header sequence (quicker)
+    tl.to('.pin', {opacity:1, y:0, duration:.35}, 0.0)
+      .to('.hero', {opacity:1, y:0, duration:.45}, 0.12)
+      .to('.heading', {opacity:1, y:0, duration:.4}, 0.4)
+      .to('.tool', {opacity:1, scale:1, rotate:0, duration:.55, ease:'back.out(1.5)'}, 0.28)
+      .to('.stat', {opacity:1, y:0, scale:1, duration:.4, ease:'back.out(1.4)'}, 0.6);
 
     // content blocks unfold one by one
-    tl.to('.card', {opacity:1, y:0, scale:1, duration:.55, stagger:0.17}, 1.25);
-    tl.to('.watch', {opacity:1, y:0, duration:.5}, '-=0.15');
+    tl.to('.card', {opacity:1, y:0, scale:1, duration:.4, stagger:0.1}, 0.78);
+    tl.to('.watch', {opacity:1, y:0, duration:.35}, '-=0.1');
 
     // internal detail reveals, timed to their block
-    tl.to('.srow', {opacity:1, x:0, duration:.4, stagger:0.05}, 1.55)
-      .to('.mbar', {scaleX:1, duration:.8, stagger:0.06, ease:'power2.out'}, 1.8)
-      .to('.pstep', {opacity:1, x:0, duration:.35, stagger:0.05}, 2.25)
-      .to('.bid .bw i', {scaleX:1, duration:.7, stagger:0.1, ease:'power2.out'}, 2.7)
-      .to('.got', {opacity:1, x:0, duration:.4, stagger:0.1}, 3.1)
-      .to('.tnode', {opacity:1, scale:1, duration:.5, stagger:0.13, ease:'back.out(1.6)'}, 3.35);
+    tl.to('.srow', {opacity:1, x:0, duration:.3, stagger:0.03}, 0.95)
+      .to('.mbar', {scaleX:1, duration:.55, stagger:0.04, ease:'power2.out'}, 1.1)
+      .to('.pstep', {opacity:1, x:0, duration:.28, stagger:0.035}, 1.35)
+      .to('.bid .bw i', {scaleX:1, duration:.5, stagger:0.07, ease:'power2.out'}, 1.6)
+      .to('.got', {opacity:1, x:0, duration:.3, stagger:0.07}, 1.85)
+      .to('.tnode', {opacity:1, scale:1, duration:.4, stagger:0.09, ease:'back.out(1.6)'}, 2.0);
 
-    tl.to('.foot', {opacity:1, duration:.5}, 3.95);
+    tl.to('.foot', {opacity:1, duration:.35}, 2.35);
+
+    // hold on the finished card, then fade everything out so the loop restarts seamlessly
+    tl.to(['.pin','.hero','.heading','.tool','.stat','.card','.watch','.foot'],
+          {opacity:0, duration:.5, ease:'power2.in', stagger:0.015}, 3.5);
 
     window.__tl = tl;
     window.__dur = tl.duration();
