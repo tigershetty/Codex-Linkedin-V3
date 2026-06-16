@@ -3,138 +3,136 @@
 <head>
 <meta charset="UTF-8">
 <!--
-  PF7 — Blueprint Draft v2 (AI for SC · Ep01 · Enterprise RFQ · Purchaser × Claude)
-  Enterprise-grade: real RFQ package (BOM/IATF/PPAP/Incoterms/ESG/Ariba) + TCO-weighted
-  scorecard, benchmarked to APICS SCOR / CIPS / Gartner SRM / SAP Ariba / Carter's 10 Cs.
-  Homogeneous Shetty's Desk palette. LARGE Claude logo (clay). Footer = Shetty's logo only.
-  Bright luminous bg, constant coral thread. Canvas 1080x1350 (4:5).
+  PF7 — Blueprint Draft v3 (AI for SC · Ep01 · Enterprise RFQ · Purchaser × Claude)
+  REBUILT TO THE ACTUAL SHETTY'S DESK BRAND KIT (brand-tokens.json):
+  azure-blue primary + eco-green signature accent + ink #15315C + Poppins, luminous & airy on WHITE.
+  Coral-pink ONLY for negative (sparingly). Pin header + azure rule. Numbered concept items.
+  Mono-olive Shetty's logo (light-surface variant). LARGE Claude tool logo. Detailed copy-paste prompt.
+  Canvas 1080x1350 (4:5).
 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{
-    --coral:#C15F3C; --coral-bright:#D97757; --coral-deep:#9A4327; --clay:#D97757;
-    --ink:#2A2018; --muted:#7A6E62; --faint:#A59C90; --caution:#C98A1E;
+    --azure:#2798FB; --sky:#50A9F7; --royal:#247BE1; --deep:#215DC3; --navy:#1939A5;
+    --eco:#38E6A6; --mint:#8FF3CC; --eco-deep:#14B07E;
+    --coralpink:#E27199;
+    --ink:#15315C; --muted:#5D7599; --line:#DCEAF8; --tint:#E2F0FB;
     --sans:'Poppins','Segoe UI',Helvetica,Arial,sans-serif;
     --mono:'JetBrains Mono','SFMono-Regular',Consolas,monospace;
+    --eco-grad:linear-gradient(135deg,#8FF3CC 0%,#38E6A6 45%,#2798FB 100%);
+    --blue-grad:linear-gradient(135deg,#50A9F7 0%,#215DC3 60%,#1939A5 100%);
   }
   *{margin:0;padding:0;box-sizing:border-box;}
-  body{background:#ddd;}
+  body{background:#cfd8e0;}
+  /* brand DNA: luminous, clean, airy on WHITE */
   .canvas{width:1080px;height:1350px;position:relative;
     font-family:var(--sans);color:var(--ink);overflow:hidden;
     background:
-      radial-gradient(ellipse 62% 44% at 24% 22%, rgba(217,119,87,.32) 0%, rgba(217,119,87,.11) 42%, transparent 72%),
-      radial-gradient(ellipse 56% 44% at 92% 72%, rgba(255,201,135,.24) 0%, transparent 66%),
-      radial-gradient(ellipse 120% 90% at 50% 18%, #FFFFFF 0%, #FCF7EF 44%, #F4EBDC 100%);}
-  .canvas::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:9;
-    background:radial-gradient(ellipse 112% 96% at 50% 42%, transparent 74%, rgba(150,95,55,.09) 100%);}
+      radial-gradient(ellipse 50% 38% at 85% 4%, rgba(56,230,166,.16) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 42% at 6% 30%, rgba(39,152,251,.13) 0%, transparent 58%),
+      radial-gradient(ellipse 80% 50% at 50% 100%, rgba(39,152,251,.08) 0%, transparent 60%),
+      linear-gradient(180deg,#FFFFFF 0%,#F3F9FE 60%,#EAF3FD 100%);}
 
-  .pad{padding:46px 54px 0;position:relative;z-index:3;}
-  .eyebrow{font-size:14.5px;font-weight:700;letter-spacing:2.6px;text-transform:uppercase;color:var(--coral);margin-bottom:11px;}
-  .hero{font-weight:800;font-size:53px;line-height:1.0;letter-spacing:-1px;color:var(--ink);max-width:660px;}
-  .hero .c{color:var(--coral);}
-  .heading{font-size:21px;font-weight:500;color:var(--muted);margin-top:13px;line-height:1.3;max-width:690px;}
-  /* LARGE Claude logo, prominent top-right */
-  .tool{position:absolute;top:44px;right:50px;z-index:5;display:flex;flex-direction:column;align-items:center;gap:6px;}
-  .tool .mk{width:78px;height:78px;color:var(--clay);filter:drop-shadow(0 6px 16px rgba(217,119,87,.32));}
+  /* pin header */
+  .pad{padding:42px 56px 0;position:relative;z-index:3;}
+  .pin{display:flex;align-items:center;gap:13px;}
+  .pin .badge{width:38px;height:38px;border-radius:11px;background:var(--blue-grad);
+    display:flex;align-items:center;justify-content:center;flex:0 0 auto;
+    box-shadow:0 6px 14px rgba(33,93,195,.32);}
+  .pin .badge svg{width:21px;height:21px;color:#fff;}
+  .pin .pt{font-size:15px;font-weight:800;letter-spacing:2.2px;text-transform:uppercase;color:var(--ink);white-space:nowrap;}
+  .pin .rule{flex:1;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--azure),rgba(39,152,251,0));}
+  .hero{font-weight:800;font-size:50px;line-height:1.0;letter-spacing:-1px;color:var(--ink);margin-top:18px;max-width:640px;}
+  .hero .g{background:linear-gradient(110deg,var(--deep) 0%,var(--azure) 45%,var(--eco-deep) 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;}
+  .heading{font-size:20px;font-weight:400;color:var(--muted);margin-top:13px;line-height:1.3;max-width:600px;}
+
+  /* LARGE Claude tool logo */
+  .tool{position:absolute;top:40px;right:54px;z-index:5;display:flex;flex-direction:column;align-items:center;gap:7px;}
+  .tool .mk{width:92px;height:92px;color:#D97757;filter:drop-shadow(0 8px 18px rgba(217,119,87,.3));}
   .tool .mk svg{width:100%;height:100%;}
-  .tool .lb{font-size:11px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);}
+  .tool .lb{font-size:11px;font-weight:700;letter-spacing:1.3px;text-transform:uppercase;color:var(--muted);}
   .tool .lb b{color:var(--ink);}
 
-  /* LEFT: RFQ package sheet */
-  .sheet{position:absolute;left:54px;top:268px;width:470px;height:516px;z-index:3;
-    background:#FFFCF7;border:1px solid rgba(193,95,60,.22);border-radius:14px;overflow:hidden;
-    box-shadow:0 20px 48px rgba(150,90,55,.18),inset 0 1px 0 rgba(255,255,255,.9);
-    background-image:
-      repeating-linear-gradient(0deg, transparent 0 26px, rgba(193,95,60,.045) 26px 27px),
-      repeating-linear-gradient(90deg, transparent 0 26px, rgba(193,95,60,.045) 26px 27px),
-      linear-gradient(#FFFCF7,#FFFCF7);}
-  .titleblock{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;
-    border-bottom:1.5px solid rgba(193,95,60,.25);}
-  .titleblock .k{font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:1.4px;color:var(--faint);text-transform:uppercase;}
-  .titleblock .t{font-weight:800;font-size:19px;color:var(--ink);letter-spacing:-.2px;margin-top:1px;}
-  .stamp{border:2px solid var(--coral);color:var(--coral);font-family:var(--mono);font-weight:600;font-size:11px;
-    letter-spacing:.8px;padding:4px 8px;border-radius:5px;transform:rotate(4deg);text-transform:uppercase;}
-  .srow{display:flex;align-items:center;gap:13px;padding:0 20px;height:64px;border-bottom:1px dashed rgba(193,95,60,.16);}
+  /* main band: RFQ package (left) + TCO scorecard (right) */
+  .sheet{position:absolute;left:56px;top:290px;width:470px;height:398px;z-index:3;
+    background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;
+    box-shadow:0 20px 44px rgba(33,93,195,.12),0 3px 8px rgba(33,93,195,.06);}
+  .card-h{display:flex;align-items:center;justify-content:space-between;padding:15px 22px;background:var(--tint);border-bottom:1px solid var(--line);}
+  .card-h .ct{font-weight:800;font-size:16px;letter-spacing:.6px;text-transform:uppercase;color:var(--deep);}
+  .card-h .cm{font-family:var(--mono);font-size:11px;font-weight:500;color:var(--royal);letter-spacing:.5px;}
+  .srow{display:flex;align-items:center;gap:13px;padding:0 22px;height:47px;border-bottom:1px solid #EFF5FC;}
   .srow:last-child{border-bottom:none;}
-  .snum{width:30px;height:30px;flex:0 0 auto;border-radius:50%;background:var(--coral);color:#fff;
-    font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 6px rgba(193,95,60,.3);}
-  .srow .sn{font-weight:700;font-size:16.5px;color:var(--ink);line-height:1.05;}
-  .srow .sg{font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.15;}
+  .snum{width:27px;height:27px;flex:0 0 auto;border-radius:50%;background:var(--blue-grad);color:#fff;
+    font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 6px rgba(33,93,195,.28);}
+  .srow .sn{font-weight:700;font-size:15.5px;color:var(--ink);line-height:1.05;}
+  .srow .sg{font-size:11.5px;color:var(--muted);margin-top:1px;line-height:1.1;}
 
-  /* RIGHT: TCO-weighted scorecard */
-  .matrix{position:absolute;left:556px;top:268px;width:470px;height:516px;z-index:3;
-    background:rgba(255,255,255,.8);border:1px solid rgba(193,95,60,.16);border-radius:14px;padding:18px 22px;
-    box-shadow:0 16px 40px rgba(150,90,55,.14),inset 0 1px 0 rgba(255,255,255,.9);display:flex;flex-direction:column;}
-  .mhead .mt{font-weight:800;font-size:18px;letter-spacing:.2px;color:var(--ink);text-transform:uppercase;}
-  .mhead .ms{font-size:13px;font-weight:600;color:var(--coral-deep);margin-top:2px;}
-  .mhead{border-bottom:2px solid rgba(193,95,60,.2);padding-bottom:11px;margin-bottom:4px;}
-  .mrow{display:grid;grid-template-columns:1fr 118px 46px;align-items:center;gap:11px;padding:11px 0;border-bottom:1px solid rgba(193,95,60,.1);}
-  .mrow .mc{font-weight:600;font-size:15.5px;color:var(--ink);line-height:1.05;}
-  .mrow .mc small{display:block;font-weight:500;font-size:11.5px;color:var(--faint);}
-  .mrow .mbarwrap{height:10px;background:rgba(193,95,60,.1);border-radius:5px;overflow:hidden;}
-  .mrow .mbar{height:100%;background:linear-gradient(90deg,var(--coral-bright),var(--coral));border-radius:5px;}
-  .mrow .mp{font-weight:800;font-size:18px;color:var(--coral);text-align:right;font-variant-numeric:tabular-nums;}
-  .mnote{margin-top:auto;background:rgba(193,95,60,.07);border-radius:9px;padding:11px 14px;font-size:13.5px;
-    color:var(--coral-deep);line-height:1.35;}
-  .mnote b{font-weight:700;}
+  .matrix{position:absolute;left:554px;top:290px;width:470px;height:398px;z-index:3;
+    background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;
+    box-shadow:0 20px 44px rgba(33,93,195,.12),0 3px 8px rgba(33,93,195,.06);display:flex;flex-direction:column;}
+  .mrows{padding:6px 22px 0;}
+  .mrow{display:grid;grid-template-columns:1fr 96px 42px;align-items:center;gap:11px;padding:8.5px 0;border-bottom:1px solid #EFF5FC;}
+  .mrow .mc{font-weight:600;font-size:14.5px;color:var(--ink);line-height:1.04;}
+  .mrow .mc small{display:block;font-weight:400;font-size:10.5px;color:var(--muted);}
+  .mrow .mbarwrap{height:9px;background:var(--tint);border-radius:5px;overflow:hidden;}
+  .mrow .mbar{height:100%;background:var(--blue-grad);border-radius:5px;}
+  .mrow.lead .mbar{background:var(--eco-grad);}
+  .mrow .mp{font-weight:800;font-size:17px;color:var(--deep);text-align:right;font-variant-numeric:tabular-nums;}
+  .mrow.lead .mp{color:var(--eco-deep);}
+  .mnote{margin:auto 18px 16px;background:var(--tint);border-radius:11px;padding:11px 14px;font-size:13px;color:var(--ink);line-height:1.36;}
+  .mnote .win{color:var(--eco-deep);font-weight:800;} .mnote .lose{color:var(--coralpink);font-weight:700;}
 
-  /* credibility strip */
-  .cred{position:absolute;left:54px;top:806px;width:972px;z-index:3;display:flex;align-items:center;gap:16px;
-    background:rgba(255,255,255,.72);border:1px solid rgba(193,95,60,.16);border-radius:12px;padding:13px 22px;
-    box-shadow:0 10px 26px rgba(150,90,55,.1);}
-  .cred .cl{font-size:12px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);flex:0 0 auto;line-height:1.25;width:118px;}
-  .cred .pills{display:flex;gap:9px;flex-wrap:wrap;flex:1;}
-  .cred .pill{font-size:13.5px;font-weight:700;color:var(--ink);background:rgba(193,95,60,.09);
-    border:1px solid rgba(193,95,60,.16);border-radius:7px;padding:6px 12px;}
+  /* detailed copy-paste prompt — the value payload */
+  .prompt{position:absolute;left:56px;top:710px;width:968px;z-index:3;
+    background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;
+    box-shadow:0 20px 44px rgba(33,93,195,.13),0 3px 8px rgba(33,93,195,.06);}
+  .pbar{display:flex;align-items:center;gap:11px;padding:12px 22px;background:var(--blue-grad);}
+  .pbar .pi{width:18px;height:18px;color:#fff;} .pbar .pi svg{width:100%;height:100%;}
+  .pbar .pt{font-size:13.5px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:#fff;}
+  .pbar .pt b{color:var(--mint);}
+  .pbody{padding:15px 24px 17px;font-family:var(--mono);font-size:14px;line-height:1.62;color:#23416d;}
+  .pbody .ph{color:var(--eco-deep);font-weight:500;}
+  .pbody .s{color:var(--deep);font-weight:600;}
 
-  /* prompt */
-  .prompt{position:absolute;left:54px;top:900px;width:972px;z-index:3;
-    background:rgba(255,255,255,.82);border:1px solid rgba(193,95,60,.24);border-radius:14px;
-    box-shadow:0 16px 40px rgba(150,90,55,.16),inset 0 1px 0 rgba(255,255,255,.9);overflow:hidden;}
-  .pbar{display:flex;align-items:center;gap:10px;padding:11px 20px;background:rgba(193,95,60,.09);border-bottom:1px solid rgba(193,95,60,.18);}
-  .pbar .pi{width:17px;height:17px;color:var(--coral);} .pbar .pi svg{width:100%;height:100%;}
-  .pbar .pt{font-size:13px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--coral-deep);}
-  .pbody{padding:14px 22px 16px;font-family:var(--mono);font-size:14.5px;line-height:1.5;color:#3A2E22;}
-  .pbody .ph{color:var(--coral);font-weight:500;}
+  /* watch for — coral-pink (negative), sparingly */
+  .watch{position:absolute;left:56px;top:1058px;width:968px;z-index:3;display:flex;align-items:center;gap:15px;
+    background:#fff;border:1px solid #F6DCE6;border-left:5px solid var(--coralpink);border-radius:12px;padding:14px 22px;
+    box-shadow:0 10px 26px rgba(33,93,195,.08);}
+  .watch .wi{width:27px;height:27px;flex:0 0 auto;color:var(--coralpink);} .watch .wi svg{width:100%;height:100%;}
+  .watch .wt{font-size:14.5px;line-height:1.36;color:var(--muted);} .watch .wt b{color:var(--ink);font-weight:700;}
 
-  /* watch for */
-  .watch{position:absolute;left:54px;top:1066px;width:972px;z-index:3;display:flex;align-items:center;gap:16px;
-    background:rgba(255,251,242,.85);border:1px solid rgba(201,138,30,.28);border-left:5px solid var(--caution);
-    border-radius:12px;padding:14px 22px;box-shadow:0 10px 28px rgba(150,110,40,.1);}
-  .watch .wi{width:28px;height:28px;flex:0 0 auto;color:var(--caution);} .watch .wi svg{width:100%;height:100%;}
-  .watch .wt{font-size:15px;line-height:1.36;color:#6B5828;} .watch .wt b{color:#5A4A24;font-weight:700;}
-
-  /* footer: Shetty's logo only + coral thread */
-  .footrule{position:absolute;left:54px;right:54px;bottom:90px;height:2px;z-index:3;
-    background:linear-gradient(90deg,var(--coral),rgba(193,95,60,.16) 62%,transparent);}
-  .foot{position:absolute;left:54px;bottom:30px;z-index:10;}
-  .foot img{width:54px;height:54px;object-fit:contain;}
-  .thesis{position:absolute;right:54px;bottom:38px;max-width:560px;text-align:right;z-index:10;
-    font-size:17px;font-weight:600;color:var(--coral-deep);line-height:1.3;}
+  /* sources footer (brand) + mono-olive logo */
+  .sources{position:absolute;left:0;right:0;top:1186px;text-align:center;z-index:3;
+    font-size:13px;font-weight:600;color:var(--royal);letter-spacing:.3px;}
+  .sources b{color:var(--deep);font-weight:700;}
+  .foot{position:absolute;left:0;right:0;top:1240px;display:flex;align-items:center;justify-content:center;gap:10px;z-index:10;}
+  .foot img{height:44px;width:auto;object-fit:contain;}
 </style>
 </head>
 <body>
 <div class="canvas" id="card">
-  <!-- LARGE Claude logo -->
+  <!-- LARGE Claude tool logo -->
   <div class="tool">
     <span class="mk"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="nonzero" d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z"/></svg></span>
     <span class="lb">Built with <b>Claude</b></span>
   </div>
 
   <div class="pad">
-    <div class="eyebrow">AI for Supply Chain · Enterprise RFQ</div>
-    <div class="hero">One brief in.<br><span class="c">A supplier-ready RFQ out.</span></div>
-    <div class="heading">The request a category buyer at enterprise scale actually issues, structured to APICS SCOR, CIPS and SAP Ariba practice, drafted in 20 minutes.</div>
+    <div class="pin">
+      <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z"/><path d="M14 2v5h5"/><path d="M9 13h6M9 17h6"/></svg></span>
+      <span class="pt">AI for Supply Chain · Enterprise RFQ</span>
+      <span class="rule"></span>
+    </div>
+    <div class="hero">One brief in.<br><span class="g">A scored RFQ out.</span></div>
+    <div class="heading">What a category buyer at enterprise scale actually issues, drafted in 20 minutes.</div>
   </div>
 
   <!-- LEFT: RFQ package -->
   <div class="sheet">
-    <div class="titleblock">
-      <div><div class="k">Document · RFQ-2026-0412</div><div class="t">The RFQ Package</div></div>
-      <div class="stamp">Rev. A</div>
-    </div>
+    <div class="card-h"><span class="ct">The RFQ Package</span><span class="cm">RFQ-2026-0412 · Rev. A</span></div>
     <div class="srow"><div class="snum">1</div><div><div class="sn">Scope &amp; Bill of Materials</div><div class="sg">Part numbers, drawings, 3-year volume tiers.</div></div></div>
     <div class="srow"><div class="snum">2</div><div><div class="sn">Technical specification</div><div class="sg">Tolerances, materials, IATF 16949 / ISO 9001.</div></div></div>
     <div class="srow"><div class="snum">3</div><div><div class="sn">Quality &amp; PPAP</div><div class="sg">PPAP Level 3, FAIR, RoHS / REACH, conflict minerals.</div></div></div>
@@ -146,33 +144,26 @@
 
   <!-- RIGHT: TCO scorecard -->
   <div class="matrix">
-    <div class="mhead"><div class="mt">Weighted scorecard</div><div class="ms">Total Cost of Ownership, not unit price</div></div>
-    <div class="mrow"><span class="mc">Total Cost of Ownership<small>landed + quality + lifecycle</small></span><span class="mbarwrap"><span class="mbar" style="width:100%"></span></span><span class="mp">30%</span></div>
-    <div class="mrow"><span class="mc">Quality &amp; compliance<small>defect rate, certifications</small></span><span class="mbarwrap"><span class="mbar" style="width:67%"></span></span><span class="mp">20%</span></div>
-    <div class="mrow"><span class="mc">Delivery &amp; lead time<small>OTIF, ramp capability</small></span><span class="mbarwrap"><span class="mbar" style="width:60%"></span></span><span class="mp">18%</span></div>
-    <div class="mrow"><span class="mc">Technical capability<small>process, R&amp;D, tooling</small></span><span class="mbarwrap"><span class="mbar" style="width:50%"></span></span><span class="mp">15%</span></div>
-    <div class="mrow"><span class="mc">Financial stability<small>credit, continuity risk</small></span><span class="mbarwrap"><span class="mbar" style="width:33%"></span></span><span class="mp">10%</span></div>
-    <div class="mrow"><span class="mc">Sustainability (ESG)<small>Scope 3, code adherence</small></span><span class="mbarwrap"><span class="mbar" style="width:23%"></span></span><span class="mp">7%</span></div>
-    <div class="mnote"><b>Lowest unit price rarely wins.</b> On TCO, Supplier B scored 8.1 and beat the cheaper Supplier A (7.4), on delivery and quality. Set the weights before any quote lands.</div>
-  </div>
-
-  <!-- credibility strip -->
-  <div class="cred">
-    <div class="cl">Benchmarked to</div>
-    <div class="pills">
-      <span class="pill">APICS SCOR</span>
-      <span class="pill">CIPS</span>
-      <span class="pill">Gartner SRM</span>
-      <span class="pill">SAP Ariba</span>
-      <span class="pill">Carter's 10 Cs</span>
+    <div class="card-h"><span class="ct">Weighted Scorecard</span><span class="cm">TCO, not unit price</span></div>
+    <div class="mrows">
+      <div class="mrow lead"><span class="mc">Total Cost of Ownership<small>landed + quality + lifecycle</small></span><span class="mbarwrap"><span class="mbar" style="width:100%"></span></span><span class="mp">30%</span></div>
+      <div class="mrow"><span class="mc">Quality &amp; compliance<small>defect rate, certifications</small></span><span class="mbarwrap"><span class="mbar" style="width:67%"></span></span><span class="mp">20%</span></div>
+      <div class="mrow"><span class="mc">Delivery &amp; lead time<small>OTIF, ramp capability</small></span><span class="mbarwrap"><span class="mbar" style="width:60%"></span></span><span class="mp">18%</span></div>
+      <div class="mrow"><span class="mc">Technical capability<small>process, R&amp;D, tooling</small></span><span class="mbarwrap"><span class="mbar" style="width:50%"></span></span><span class="mp">15%</span></div>
+      <div class="mrow"><span class="mc">Financial stability<small>credit, continuity risk</small></span><span class="mbarwrap"><span class="mbar" style="width:33%"></span></span><span class="mp">10%</span></div>
+      <div class="mrow"><span class="mc">Sustainability (ESG)<small>Scope 3, code adherence</small></span><span class="mbarwrap"><span class="mbar" style="width:23%"></span></span><span class="mp">7%</span></div>
     </div>
+    <div class="mnote"><b>Lowest unit price rarely wins.</b> On TCO, <span class="win">Supplier B scored 8.1</span> and beat the <span class="lose">cheaper Supplier A (7.4)</span> on delivery and quality. Set the weights before any quote lands.</div>
   </div>
 
-  <!-- prompt -->
+  <!-- detailed copy-paste prompt -->
   <div class="prompt">
     <div class="pbar"><span class="pi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg></span>
-      <span class="pt">Copy-paste prompt · your 20-minute draft</span></div>
-    <div class="pbody">"Draft an enterprise RFQ for <span class="ph">[category]</span>. Cover scope &amp; BOM, technical spec to <span class="ph">[standards]</span>, quality/PPAP, commercial terms with Incoterms and payment, capacity &amp; continuity, and ESG. Add a TCO-weighted scoring matrix with <span class="ph">[criteria + weights]</span>, then output a supplier-ready document and the scoring table."</div>
+      <span class="pt">Copy-paste prompt · paste into <b>Claude</b>, fill the brackets</span></div>
+    <div class="pbody">"You are a senior category manager. Draft a complete enterprise RFQ for <span class="ph">[category]</span>, annual volume <span class="ph">[units across 3 tiers]</span>.<br>
+<span class="s">Include:</span> (1) scope &amp; BOM with part numbers and drawings; (2) technical spec to <span class="ph">[IATF 16949 / ISO 9001]</span>, tolerances and materials; (3) quality, PPAP Level 3, FAIR, RoHS/REACH, conflict-minerals declaration; (4) commercial terms, unit + tooling/NRE, Incoterms <span class="ph">[DDP]</span>, <span class="ph">[Net 60]</span>, price-break tiers, 90-day validity; (5) capacity &amp; continuity, committed capacity, ±20% flex, BCP, dual-source; (6) ESG, Scope 3 data + supplier code with audit rights; (7) submission, sealed bid via <span class="ph">[SAP Ariba]</span>, Q&amp;A window, deadline.<br>
+<span class="s">Then build</span> a TCO-weighted scoring matrix: TCO 30, Quality 20, Delivery 18, Technical 15, Financial 10, ESG 7.<br>
+<span class="s">Output</span> (a) a supplier-ready RFQ document and (b) the scoring table to rank every bid."</div>
   </div>
 
   <!-- watch for -->
@@ -181,10 +172,9 @@
     <div class="wt"><b>Claude drafts to the standard. You own the spec and the weights.</b> They encode your category strategy and your firm's risk tolerance, so a category manager signs off before the event goes live.</div>
   </div>
 
-  <!-- footer: Shetty's Desk logo only + coral thread -->
-  <div class="footrule"></div>
-  <div class="foot"><img src="../assets/logos/shettys-desk-logo-1.png" alt="Shetty's Desk"></div>
-  <div class="thesis">An RFQ should score suppliers before they reply.</div>
+  <!-- sources footer + mono-olive logo -->
+  <div class="sources"><b>Structured to:</b> APICS SCOR · CIPS · Gartner SRM · SAP Ariba · Carter's 10 Cs</div>
+  <div class="foot"><img src="../assets/logos/shettys-desk-logo-4.png" alt="Shetty's Desk"></div>
 
 </div>
 </body>
