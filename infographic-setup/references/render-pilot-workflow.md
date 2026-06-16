@@ -15,10 +15,20 @@
 3. HTML/GSAP    assemble a self-contained template from the Shetty's component kit (renderer/):
                 bright luminous bg, constant coral thread, homogeneous palette, large tool logo,
                 Shetty's Desk logo footer. GSAP available for animation (tool-to-tool flow posts).
-4. RENDER       node render.mjs templates/<ep>.html out/<ep>.png   (Playwright → 2160x2700 PNG)
-                [future] GSAP timeline → MP4/GIF for animated posts.
+4a. STILL       node render.mjs templates/<ep>.html out/<ep>.png   (Playwright → 2160x2700 PNG)
+4b. ANIMATED    node render-anim.mjs templates/<ep>-anim.html out/<ep>   (→ <ep>.mp4 + <ep>.gif) [BUILT]
 5. CAPTION      the LinkedIn caption is written as today (voice files), independent of the visual.
 ```
+
+**Animation pipeline (built 2026-06-16).** The `-anim.html` variant adds GSAP: a paused master
+timeline exposed on `window.__tl` that reveals the elements in sequence (header → stat → blocks
+unfold one by one → bars grow → timeline nodes light up). `render-anim.mjs` **scrubs the timeline
+frame-by-frame** (`tl.time(t)` per frame, then screenshot `#card`) so the output is pixel-deterministic,
+not a real-time capture — then `ffmpeg-static` assembles the frames into a full-res **MP4** (LinkedIn
+video) and a downscaled palette-optimised **GIF**. Proof: `out/pf7-blueprint-draft.mp4` / `.gif`
+(~4s unfold + 1.6s hold, 25fps). Deps live in the gitignored `node_modules` (`npm i gsap ffmpeg-static`);
+GSAP is vendored to `assets/js/gsap.min.js` for offline render. Reserve animation for posts where
+sequence carries meaning (a workflow unfolding, a tool-to-tool hand-off); a still PNG stays the default.
 
 **No Gemini prompt is produced.** The brand kit is Shetty's Desk only; the AI tool appears solely as its logo.
 
