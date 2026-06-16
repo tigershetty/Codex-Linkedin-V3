@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--
+  SC101 — The Planning Fence · isometric concept piece (Production Planning · W27)
+  Illustration-led 101 format: ONE big metaphor visual + three brief state blocks.
+  Metaphor: a production line. Near end (today) = being built, locked. As it recedes
+  into the distance (the future) it becomes blueprints — still on paper, free to change.
+  Shetty's Desk brand kit: azure + eco-green + ink + Poppins, luminous on WHITE, flat.
+  Isometric scene generated deterministically in code. Canvas 1080x1350 (4:5).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --azure:#2798FB; --sky:#50A9F7; --royal:#247BE1; --deep:#215DC3; --navy:#1939A5;
+    --eco:#38E6A6; --mint:#8FF3CC; --eco-deep:#14B07E;
+    --coralpink:#E27199; --coralpink-deep:#C9577D;
+    --ink:#15315C; --muted:#5D7599; --line:#DCEAF8; --tint:#E2F0FB;
+    --sans:'Poppins','Segoe UI',Helvetica,Arial,sans-serif;
+    --mono:'JetBrains Mono','SFMono-Regular',Consolas,monospace;
+    --blue-grad:linear-gradient(135deg,#50A9F7 0%,#215DC3 60%,#1939A5 100%);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:#cfd8e0;}
+  .canvas{width:1080px;height:1350px;position:relative;
+    font-family:var(--sans);color:var(--ink);overflow:hidden;
+    background:
+      radial-gradient(ellipse 50% 36% at 88% 4%, rgba(56,230,166,.14) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 42% at 4% 30%, rgba(39,152,251,.12) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F4F9FE 60%,#E9F3FD 100%);}
+
+  .pad{padding:38px 56px 0;position:relative;z-index:3;}
+  .pin{display:flex;align-items:center;gap:13px;}
+  .pin .badge{width:38px;height:38px;border-radius:11px;background:var(--blue-grad);
+    display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 6px 14px rgba(33,93,195,.32);}
+  .pin .badge svg{width:21px;height:21px;color:#fff;}
+  .pin .pt{font-size:14.5px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--ink);white-space:nowrap;}
+  .pin .rule{flex:1;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--azure),rgba(39,152,251,0));}
+  .hero{font-weight:800;font-size:60px;line-height:1.0;letter-spacing:-1.2px;color:var(--ink);margin-top:18px;}
+  .hero .g{background:linear-gradient(110deg,var(--deep) 0%,var(--azure) 45%,var(--eco-deep) 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;}
+  .sub{font-size:21px;font-weight:400;color:var(--muted);margin-top:12px;line-height:1.34;max-width:820px;}
+  .sub b{color:var(--ink);font-weight:600;}
+
+  /* the big isometric illustration — dominates the canvas */
+  .scene{position:absolute;left:34px;top:196px;width:1012px;height:752px;z-index:2;}
+  .scene svg{display:block;width:100%;height:100%;overflow:visible;}
+  .scene .cap{position:absolute;font-size:12.5px;font-weight:800;letter-spacing:1px;text-transform:uppercase;
+    color:var(--ink);background:rgba(255,255,255,.9);padding:5px 11px;border-radius:8px;box-shadow:0 5px 12px rgba(33,93,195,.14);}
+  .scene .cap.now{left:96px;top:566px;color:var(--navy);}
+  .scene .cap.future{right:74px;top:150px;color:var(--eco-deep);}
+  .scene .cap .ar{color:var(--muted);font-weight:700;}
+
+  /* the three brief state blocks */
+  .states{position:absolute;left:56px;top:986px;width:968px;display:flex;gap:18px;z-index:3;}
+  .st{flex:1;background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px;
+    box-shadow:0 14px 30px rgba(33,93,195,.09);position:relative;overflow:hidden;}
+  .st::before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;}
+  .st.frozen::before{background:linear-gradient(180deg,var(--navy),var(--deep));}
+  .st.slushy::before{background:linear-gradient(180deg,var(--azure),var(--sky));}
+  .st.liquid::before{background:linear-gradient(180deg,var(--eco-deep),var(--eco));}
+  .st .sh{display:flex;align-items:center;gap:11px;margin-bottom:9px;}
+  .st .si{width:38px;height:38px;flex:0 0 auto;border-radius:11px;display:flex;align-items:center;justify-content:center;}
+  .st .si svg{width:21px;height:21px;color:#fff;}
+  .st.frozen .si{background:linear-gradient(135deg,var(--navy),var(--deep));}
+  .st.slushy .si{background:linear-gradient(135deg,var(--azure),var(--royal));}
+  .st.liquid .si{background:linear-gradient(135deg,var(--eco-deep),var(--eco));}
+  .st .sn{font-size:21px;font-weight:800;letter-spacing:.2px;line-height:1;}
+  .st .sr{font-family:var(--mono);font-size:11px;font-weight:500;color:var(--muted);margin-top:4px;}
+  .st.frozen .sn{color:var(--navy);} .st.slushy .sn{color:var(--royal);} .st.liquid .sn{color:var(--eco-deep);}
+  .st .sd{font-size:14.5px;line-height:1.36;color:var(--ink);}
+  .st .sd b{font-weight:700;}
+
+  /* footer */
+  .series{position:absolute;left:56px;top:1296px;z-index:3;display:flex;align-items:center;gap:9px;
+    font-size:12.5px;font-weight:700;letter-spacing:.5px;color:var(--muted);}
+  .series .dot{width:7px;height:7px;border-radius:50%;background:var(--eco);}
+  .foot{position:absolute;right:16px;top:1252px;z-index:10;}
+  .foot img{height:84px;width:auto;object-fit:contain;}
+</style>
+</head>
+<body>
+<div class="canvas" id="card">
+
+  <div class="pad">
+    <div class="pin">
+      <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M8 4v16"/></svg></span>
+      <span class="pt">Supply Chain 101 · Production Planning</span>
+      <span class="rule"></span>
+    </div>
+    <div class="hero">The Planning <span class="g">Fence</span></div>
+    <div class="sub">A production plan <b>hardens as it gets closer to today.</b> Far out it's just an idea on paper. Near term, the floor is already building it — and it can't be changed.</div>
+  </div>
+
+  <!-- BIG isometric illustration -->
+  <div class="scene">
+    <svg id="iso" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"></svg>
+    <div class="cap now">◀ Today · being built</div>
+    <div class="cap future">still on paper <span class="ar">▶</span></div>
+  </div>
+
+  <!-- three brief state blocks -->
+  <div class="states">
+    <div class="st frozen">
+      <div class="sh"><span class="si"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span><div><div class="sn">Frozen</div><div class="sr">Now → Week 2</div></div></div>
+      <div class="sd"><b>Locked.</b> The floor is already building it. No changes.</div>
+    </div>
+    <div class="st slushy">
+      <div class="sh"><span class="si"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 7-2.6"/></svg></span><div><div class="sn">Slushy</div><div class="sr">Week 2 → Week 6</div></div></div>
+      <div class="sd"><b>Bendable.</b> You can still change it — but every change has a price.</div>
+    </div>
+    <div class="st liquid">
+      <div class="sh"><span class="si"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 13V7a4 4 0 0 1 8 0"/><rect x="9" y="13" width="13" height="8" rx="2"/></svg></span><div><div class="sn">Liquid</div><div class="sr">Week 6 → 12+</div></div></div>
+      <div class="sd"><b>Open.</b> Still on paper. Adjust freely — nothing is committed yet.</div>
+    </div>
+  </div>
+
+  <div class="series"><span class="dot"></span>SUPPLY CHAIN 101 · SAVE THIS FOR YOUR NEXT PLANNING DEBATE</div>
+  <div class="foot"><img src="../assets/logos/shettys-desk-logo-4.png" alt="Shetty's Desk"></div>
+
+</div>
+
+<script>
+(function(){
+  var S=30, A=0.866;               // scale + cos(30deg)
+  var minX=1e9,minY=1e9,maxX=-1e9,maxY=-1e9;
+  function p(x,y,z){
+    var sx=(x-y)*A*S, sy=(x+y)*0.5*S - z*S;
+    if(sx<minX)minX=sx; if(sx>maxX)maxX=sx; if(sy<minY)minY=sy; if(sy>maxY)maxY=sy;
+    return sx.toFixed(1)+','+sy.toFixed(1);
+  }
+  function quad(a,b,c,d,fill,ex){return '<polygon points="'+a+' '+b+' '+c+' '+d+'" fill="'+fill+'" '+(ex||'')+'/>';}
+  // a solid iso box: top (light), right (+x, mid), front (+y, dark)
+  function box(x,y,z,sx,sy,sz,top,right,front,ex){
+    var P=function(a,b,c){return p(x+a,y+b,z+c);};
+    return quad(P(sx,0,0),P(sx,sy,0),P(sx,sy,sz),P(sx,0,sz),right,ex)
+         + quad(P(0,sy,0),P(sx,sy,0),P(sx,sy,sz),P(0,sy,sz),front,ex)
+         + quad(P(0,0,sz),P(sx,0,sz),P(sx,sy,sz),P(0,sy,sz),top,ex);
+  }
+  // a "ghost" / blueprint box: dashed outlines + faint fill
+  function ghost(x,y,z,sx,sy,sz,col){
+    var P=function(a,b,c){return p(x+a,y+b,z+c);};
+    var ex='fill="'+col+'14" stroke="'+col+'" stroke-width="1.5" stroke-dasharray="5 3.5" stroke-linejoin="round" opacity="0.95"';
+    return quad(P(sx,0,0),P(sx,sy,0),P(sx,sy,sz),P(sx,0,sz),'none',ex)
+         + quad(P(0,sy,0),P(sx,sy,0),P(sx,sy,sz),P(0,sy,sz),'none',ex)
+         + quad(P(0,0,sz),P(sx,0,sz),P(sx,sy,sz),P(0,sy,sz),'none',ex);
+  }
+  // a vertical fence plane across the belt at depth y, with a small post cap
+  function fence(y,col){
+    var x0=-0.35,x1=2.55,z1=2.35;
+    var P=function(x,z){return p(x,y,z);};
+    return quad(P(x0,0),P(x1,0),P(x1,z1),P(x0,z1),col+'0E',
+            'stroke="'+col+'" stroke-width="1.6" stroke-dasharray="6 4" opacity="0.5"');
+  }
+
+  var g='';
+  var bx0=0, bw=2.2;   // belt x-extent
+
+  // ---- LIQUID segment (far, upper-right): blueprint ghosts ----
+  g+= box(bx0,0.6,0, bw,4.4,0.5, '#DDF6EA','#A8E1C6','#94D7B6');           // belt (green tint)
+  g+= ghost(0.35,1.5,0.5, 0.85,0.85,0.9,'#14B07E');
+  g+= ghost(1.15,2.7,0.5, 0.85,0.85,0.9,'#14B07E');
+  g+= ghost(0.45,3.5,0.5, 0.85,0.85,0.9,'#14B07E');
+  g+= fence(5,'#14785C');                                                  // PLANNING fence
+
+  // ---- SLUSHY segment (middle): half-built ----
+  g+= box(bx0,5,0, bw,4.5,0.5, '#E0EFFB','#BCDAF3','#A9CDEF');             // belt (azure tint)
+  g+= box(0.3,6.05,0.5, 0.9,0.9,0.95,'#7DC0F8','#50A9F7','#2C7BE0');       // a finished crate
+  g+= ghost(1.15,7.2,0.5, 0.9,0.9,0.95,'#2C7BE0');                        // one still being built (blue dashed)
+  g+= box(0.45,8.3,0.5, 0.95,0.95,0.45,'#7DC0F8','#50A9F7','#2C7BE0');     // a low half-assembled slab
+  g+= fence(9.5,'#1E5BC4');                                                // DEMAND fence
+
+  // ---- FROZEN segment (near, lower-left): solid, locked, in production ----
+  g+= box(bx0,9.5,0, bw,3.6,0.5, '#D6E5F6','#B4CCEB','#A2BEE3');           // belt (icy tint)
+  g+= box(0.15,9.85,0.5, 1.95,1.15,1.5, '#37527E','#293F61','#1E3350');    // the machine (dark)
+  g+= box(1.5,10.05,1.5, 0.55,0.7,0.35,'#46618C','#33486B','#243A57');     // machine head/spout
+  g+= box(0.35,11.35,0.5, 0.95,0.95,1.05,'#5BAAF4','#2E83E6','#1E5BC4');   // built crate
+  g+= box(1.35,11.55,0.5, 0.95,0.95,1.05,'#5BAAF4','#2E83E6','#1E5BC4');   // built crate
+  g+= box(0.62,11.45,1.55, 0.95,0.95,1.0,'#6FB6F6','#3A8BEA','#235FC8');   // stacked on top
+
+  // assemble + auto-fit viewBox
+  var pad=30;
+  var svg=document.getElementById('iso');
+  svg.innerHTML=g;
+  svg.setAttribute('viewBox',(minX-pad).toFixed(1)+' '+(minY-pad).toFixed(1)+' '+((maxX-minX)+pad*2).toFixed(1)+' '+((maxY-minY)+pad*2).toFixed(1));
+  window.__ready=true;
+})();
+</script>
+</body>
+</html>
