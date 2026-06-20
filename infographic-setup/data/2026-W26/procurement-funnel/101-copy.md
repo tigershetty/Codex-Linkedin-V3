@@ -52,6 +52,9 @@ Follow Poornajith Shetty and Shetty's Desk for more supply chain insights, and s
 
 ---
 
+## Code-render visual (primary)
+`renderer/templates/sc101-procurement-funnel.html` → `renderer/out/sc101-procurement-funnel.png` (Funnel power format, azure+green brand system) → `visual.png`. Code-rendered for exact stage counts (100→20→8→3→1) and clean funnel geometry; filter rail + drop-counts + eco "win" tip. The ChatGPT Image 2 prompt below is the illustration fallback.
+
 ## ChatGPT Image 2 Prompt
 
 A clean, modern supply chain infographic in a 4:5 portrait format on a luminous white-to-very-light-blue background. Title at top in bold dark navy: "The Procurement Funnel" with a smaller subtitle "From 100 suppliers to 1 signed PO." Centre shows a clear vertical funnel narrowing top to bottom, with five stages, each a horizontal band getting smaller: "100 — On the market", "20 — RFI qualified", "8 — RFQ issued", "3 — Evaluated", "1 — Awarded + PO signed". Each band has a short one-line filter label to its right on a thin annotation rail. The bands use a graduated azure-to-deep-blue range, and the final "1 — Awarded" band is highlighted in a fresh eco-green. Flat, geometric, premium business style. Azure blue (#2798FB) and its darker range for the funnel, eco-green (#38E6A6) for the awarded stage, ink-blue (#15315C) text, Poppins-style geometric sans-serif. Generous white space, clean geometry, no photographic elements. Do not render any logos.
