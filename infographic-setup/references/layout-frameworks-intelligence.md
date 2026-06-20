@@ -432,8 +432,10 @@ Shortlist: high-impact AND Easy/Medium in HTML/CSS/GSAP, mapped to supply-chain 
 
 ## Sources
 
+**Legend:** ✅ = byte-verified on GitHub this session · ○ = canonical (standard home of the pattern) but not live-verified this session (see status note at the end).
+
 Primary source retrieved and reviewed in full:
-- **FT Visual Vocabulary** (Financial Times, chart-doctor repository) — the 9 chart families and their chart types. https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary · interactive: https://ft-interactive.github.io/visual-vocabulary/
+- ✅ **FT Visual Vocabulary** (Financial Times, chart-doctor repository) — the 9 chart families and their chart types. **Byte-verified 2026-06-20** (poster.png + Visual-vocabulary-en.pdf + 6 localized PDFs confirmed): https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary · interactive mirror (GitHub Pages — not reachable from this sandbox): https://ft-interactive.github.io/visual-vocabulary/
 
 Data-viz chart-selection canon:
 - **Andrew Abela, "Chart Chooser"** (Extreme Presentation Method) — comparison / composition / distribution / relationship decision tree. https://extremepresentation.com/design/charts/
@@ -475,8 +477,8 @@ Infographic layout taxonomies (template-library conventions — canonical docume
 - Venngage types-of-infographics: https://venngage.com/blog/types-of-infographics/
 - Piktochart: https://piktochart.com/blog/types-of-infographics/ · Visme: https://visme.co/blog/types-of-infographics/ · Canva: https://www.canva.com/learn/infographic-design/ · Infogram: https://infogram.com/blog/types-of-infographics/
 - Microsoft SmartArt categories (list/process/cycle/hierarchy/relationship/matrix/pyramid/picture) — de-facto layout taxonomy: https://support.microsoft.com/en-us/office/learn-more-about-smartart-graphics-6ea4fdb0-aa40-4fa9-9348-662d8af6ca2c
-- Data-to-Viz: https://www.data-to-viz.com/ · Data Viz Project: https://datavizproject.com/ · Data Viz Catalogue: https://datavizcatalogue.com/
+- ✅ Data-to-Viz: https://www.data-to-viz.com/ — **source repo byte-verified 2026-06-20** (1.1k★, MIT, the decision-tree dataviz reference): https://github.com/holtzy/data_to_viz · ○ Data Viz Project: https://datavizproject.com/ · ○ Data Viz Catalogue: https://datavizcatalogue.com/
 - Gartner Magic Quadrant methodology: https://www.gartner.com/en/research/methodologies/magic-quadrants-research
 - Per-pattern references (Wikipedia — 403 this session but canonical): Sankey, Funnel chart, Waterfall chart, Ishikawa diagram, Decision tree, Venn diagram, Gantt chart, Treemapping, Mind map, Pictogram, Maslow's hierarchy.
 
-> Environment note: WebFetch returned HTTP 403 for most commercial and Wikipedia URLs during compilation. The **FT Visual Vocabulary (GitHub)** was retrievable in full and anchors the data-viz section; **Corporate Finance Institute** was reachable via search and supplies per-framework consulting URLs (above). Other URLs are canonical documentation pages (where each pattern is normally found) compiled by two independent research passes but not byte-verified this session. Refresh URLs when direct fetches are available.
+> **Verification status (re-checked 2026-06-20 with Firecrawl/web-crawl).** This sandbox's network egress is locked to **GitHub + npm only**: Firecrawl (`api.firecrawl.dev`) is host-blocked and no API key is present; WebSearch returned empty/error this session; and every open-web host (Wikipedia, FT.com, Corporate Finance Institute, Gartner, Venngage, Piktochart, Visme, Canva, Microsoft Support, Data Viz Project/Catalogue) is blocked for direct fetch/crawl. **Byte-verified this session (via GitHub, the one reachable host):** FT Visual Vocabulary repo (✅) and Yan Holtz `data_to_viz` repo (✅, the source of data-to-viz.com). All other links are **canonical** — the standard home of each pattern, compiled and cross-checked by two research passes — but marked ○ (not live-verified here). **To complete a full crawl/verify pass**, do one of: (a) allowlist the source hosts in the environment's network-egress settings (as was done for the Higgsfield CDN), or (b) add a `FIRECRAWL_API_KEY` and allowlist `api.firecrawl.dev` — then re-run verification and flip ○ → ✅.
