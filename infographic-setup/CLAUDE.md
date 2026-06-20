@@ -1,4 +1,4 @@
-# Infographic Content Engine v1 — Shetty's Desk
+# Infographic Content Engine — Shetty's Desk
 
 ## Session Start — Do This First
 1. Check `data/` for the current ISO week folder and active slug
@@ -20,7 +20,7 @@ Before any work starts, determine the content type:
 "Which content type are we working on today?"
 
   [1] Supply Chain 101       → /101 pipeline (foundational, educational, monthly theme model)
-  [2] AI for Supply Chain    → /ai-for-sc pipeline (SC Practitioner + Leader posts, PDF drafts)
+  [2] AI for Supply Chain    → /ai-for-sc pipeline (two role-based AI use-case posts, optional PDF)
   [3] Deep Dive              → /infographic pipeline (data-heavy, case-study driven) [PAUSED]
 ```
 
@@ -46,7 +46,7 @@ Before any work starts, determine the content type:
 
 Generates 10 hooks + LinkedIn caption + ChatGPT (GPT Image 2) prompt in one pass from the monthly topic bank.
 User picks hook and adjusts at the end. No research, no scout, no message commit.
-Topics follow the monthly theme model in this file (Part 3 — see CLAUDE.md). `/101` runs Posts 1 and 2 of each week.
+Topics come from `references/101-plan.md` (see also `references/master-calendar.md`). `/101` runs Posts 1 and 2 of each week.
 
 | Command | Trigger | Output |
 |---|---|---|
@@ -72,7 +72,7 @@ Generates two practical AI use-case posts per week within the monthly theme. No 
 
 One week = one theme = two posts. Each post: different SC role, different AI tool, different use case — same theme.
 
-Before generating, the skill loads: `tiger-voice.md`, `references/published-voice.md`, and `references/101-voice.md` — all three voice references apply.
+Before generating, the skill loads: `tiger-voice.md`, `references/published-voice.md`, and `references/101-voice.md` (voice), plus `references/ai-for-sc-visual-dna.md` and `references/ai-for-sc-creative-intelligence.md` (visual intelligence).
 
 | Command | Trigger | Output files |
 |---|---|---|
@@ -85,7 +85,10 @@ Before generating, the skill loads: `tiger-voice.md`, `references/published-voic
 | `tiger-voice.md` | Master voice DNA — loaded first, applies to all AI for SC output |
 | `references/published-voice.md` | Hook quality bar, "NOT THIS" list, annotated examples |
 | `references/101-voice.md` | Accessible register for the SC concept layer |
-| `references/ai-for-sc-plan-v2.md` | Fully pre-defined W21–W52 topic plan — Role, Tool, Use Case, Hook direction per post |
+| `references/ai-for-sc-plan-v2.md` | Fully pre-defined W21–W52 use-case plan — Role, Tool, Use Case, Hook direction per post |
+| `references/ai-for-sc-visual-dna.md` | Visual style system — structure/format selection |
+| `references/ai-for-sc-creative-intelligence.md` | Creative intelligence from 53 reference images — structure inventory, creative-device combinations, visual ambition bar |
+| `references/render-pilot-workflow.md` | Code-render pipeline + design/technical learnings |
 | `references/master-calendar.md` | Top-level monthly theme calendar — both series aligned |
 | `data/ai-for-sc-series-tracker.md` | Published episodes log — tracks role, tool, use case, week |
 
@@ -128,7 +131,7 @@ Full stage sequence (with gate positions):
 ```
 data/
   101-series-tracker.md               ← 101 series published log
-  ai-for-sc-series-tracker.md         ← AI for SC published log (Practitioner + Leader)
+  ai-for-sc-series-tracker.md         ← AI for SC published log (role-based use cases)
   sources.csv                         ← deep dive source library
   recently-used-sources.md            ← deep dive deduplication
   analytics-log.csv                   ← performance metrics
@@ -160,7 +163,7 @@ data/
 - **AI for SC: "When NOT to use AI" sentence is mandatory in every post** — it is the trust signal, not optional
 - **AI for SC: two posts per week = two different SC roles + two different AI tools** — do not repeat the same role or tool in the same week
 - **AI for SC: check `data/ai-for-sc-series-tracker.md` before generating** — confirm the pre-defined episode hasn't already been published, and verify no role + use case repeat
-- **101: no research stage** — the monthly topic bank in this CLAUDE.md IS the source of truth for topic content
+- **101: no research stage** — `references/101-plan.md` IS the source of truth for topic content
 - **101: no CG2** — all 10 hooks + caption generated in one pass, user picks at the end
 - **Deep dive: research.md must exist before /message** — /message will error on scout data alone
 - **Deep dive: CG2 requires explicit hook selection (1–10)** before /content runs

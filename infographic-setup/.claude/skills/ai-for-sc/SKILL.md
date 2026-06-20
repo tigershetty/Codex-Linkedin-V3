@@ -28,6 +28,7 @@ Read all of these before generating a single word. They are the intelligence bas
 | `references/101-voice.md` | Accessible register, plain language first, adapted hook taxonomy |
 | `references/ai-for-sc-plan-v2.md` | Pre-defined topic plan — load the week's two use cases (Role, Tool, Use Case, Hook direction, Visual format) |
 | `references/ai-for-sc-visual-dna.md` | 50-format visual library — used now for **concept selection** (the spatial idea + Hero Number), not for writing a prompt |
+| `references/ai-for-sc-creative-intelligence.md` | Creative intelligence from 53 reference images — structure inventory, creative-device combinations, the visual ambition bar. Load alongside visual-dna for concept selection |
 | `references/render-pilot-workflow.md` | The code-render pipeline + design/technical learnings checklist — the visual is rendered, not prompted |
 | `renderer/` | The deterministic HTML→PNG/MP4/GIF renderer + component-kit templates the infographic is built from |
 | `data/ai-for-sc-series-tracker.md` | Episode tracking — last use case, tool, and role used |

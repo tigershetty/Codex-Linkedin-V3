@@ -1,74 +1,49 @@
 # Shetty's Desk — LinkedIn-V2 Workspace
 
-## Projects
-| Project | Entry point | Status | Purpose |
-|---|---|---|---|
-| `infographic-setup/` | `/infographic` | Active | Weekly LinkedIn infographic pipeline for Shetty's Desk |
-| `infographic-engine-web/` | `npm run dev` | In development | Web app version of the infographic engine (Vercel deployment) |
-| `Eco Mobility/` | — | Reference only | Prior project, reference use only |
+LinkedIn supply chain content engine for Tiger Shetty's "Shetty's Desk" brand.
+Version-controlled for remote Claude Code access (web/mobile).
 
-## Folder Map
-```
-LinkedIn-V2/
-  infographic-setup/           ← active pipeline (skills, data, references, voice)
-  infographic-engine-web/      ← web product build (frontend + backend)
-  Eco Mobility/                ← reference
-  .claude/                     ← settings
-  tiger-voice.md               ← master voice DNA
-  voice-interview-plan.md      ← voice interview reference
-```
+## Repo Map
+| Path | Status | Purpose |
+|---|---|---|
+| `infographic-setup/` | **Active** | The content engine — `/101` + `/ai-for-sc` pipelines, topic plans, voice, data. Start here: `infographic-setup/CLAUDE.md` |
+| `ui-kit/` | Reference | Reusable React blocks + animations salvaged from the retired web app |
+| `docs/` | Reference | Design specs and automation plans (history) |
+| `tiger-voice.md` | **Active** | Master Voice DNA — the authority for ALL written output |
+| `voice-interview-plan.md` | Reference | How the Voice DNA was built |
+| `test-linkedin-post.sh` | On hold | LinkedIn draft-post test (see below) |
+| `_archive/` | Archive | `web-app/` (retired Vite/React + Python app), `eco-mobility/` (prior project) |
 
-## Visual Tooling by Flow (updated 2026-06-16)
-- **Supply Chain 101** → **ChatGPT (GPT Image 2)** prompt. Attach `brand-anchor-v1.webp` in ChatGPT for style. (Was Gemini; only the image tool changed — the rest of the `/101` flow is unchanged.)
-- **AI for Supply Chain** → **code-render** (`infographic-setup/renderer/`): deterministic HTML→PNG/GIF/MP4 from a render brief. No AI-image prompt. (Was a Gemini prompt; now built and rendered in code.)
-- **Deep Dive (paused)** → **Gemini Infographic Gem** ("Shetty's Desk — Infographic Engine") at gemini.google.com; requires `brand-anchor-v1.webp` upload each session.
-- **General Gemini** — research and ad-hoc tasks outside the infographic pipeline.
+## The content engine (where the work happens)
+Two active pipelines share one 7-month monthly theme calendar:
+- **Supply Chain 101** (`/101`) — Posts 1 + 2 each week, plain-language concepts. Visual: **ChatGPT (GPT Image 2)**.
+- **AI for Supply Chain** (`/ai-for-sc`) — Posts 3 + 4 each week, role-based AI use cases. Visual: **code-render** (`infographic-setup/renderer/`, HTML→PNG/GIF/MP4).
+- **Deep Dive** (`/infographic`) — data-heavy research pipeline, **paused**. Visual: Gemini Gem.
 
-## Global Workflow Rules
-- Always check for existing files before creating new ones
-- Never delete files without explicit approval
-- Never install packages silently — flag before adding dependencies
-- Brand anchor image lives at: `infographic-setup/references/brand-anchor-v1.webp`
+Plans (single sources of truth):
+- Master calendar: `infographic-setup/references/master-calendar.md`
+- 101 topics: `infographic-setup/references/101-plan.md`
+- AI for SC use cases: `infographic-setup/references/ai-for-sc-plan-v2.md`
 
 ## Voice DNA
-- **File:** `tiger-voice.md` (workspace root)
-- **Version:** 1.0 (All 5 sessions complete)
-- **Interview plan:** `voice-interview-plan.md` (workspace root)
-- **Status:** Complete — definitive voice reference across all projects
-- **Applies to:** All writing output across all projects — captions, posts, copy, emails, presentations
-- **Method:** Ruben Hassid's Taste Interviewer — 100 questions across 7 categories
+- **File:** `tiger-voice.md` (workspace root) — definitive voice reference across all pipelines.
+- **Interview plan:** `voice-interview-plan.md`. Applies to all writing: captions, posts, copy, emails.
 
-## Content Types — Three Branches
+## Gemini — Two Separate Uses
+1. **Infographic Gem** ("Shetty's Desk — Infographic Engine") — Deep Dive only (paused). Requires `infographic-setup/references/brand-anchor-v1.webp` upload each session.
+2. **General Gemini** — research, image generation, ad-hoc tasks.
 
-| Branch | Pipeline | When to Use | Voice Register |
-|---|---|---|---|
-| **Deep Dive** | `/scout → /research → /message → /content → /gemini-prompt` | Data-heavy, case-study infographics for SC practitioners | Technical, industry-grade, numbers-heavy |
-| **Supply Chain 101** | `/101 [topic-number]` (single step) | Weekly educational series, plain-language SC concepts | Simplified, relatable, no jargon |
-| **AI for Supply Chain** | `/ai-for-sc [week]` (two posts per week) | AI workflows for specific SC roles — procurement, planning, logistics | Role-specific, tool-specific, copy-paste ready |
-
-### Key Differences
-- **Deep Dive** uses full research pipeline with evidence ledger, 12+ sources, CG2 hook selection gate
-- **Supply Chain 101** skips research — topics pre-defined in `infographic-setup/references/101-plan.md` (W21–W52)
-- **AI for Supply Chain** skips research — use cases pre-defined in `infographic-setup/references/ai-for-sc-plan-v2.md` (W21–W52)
-- All three share the same voice file (`tiger-voice.md`), hook taxonomy, and `data/{week}/` folder structure
-
-### Master Calendar
-- Both series (101 and AI for SC) run on the same 7-month monthly theme calendar
-- Calendar overview: `infographic-setup/references/master-calendar.md`
-- 101 full plan: `infographic-setup/references/101-plan.md`
-- AI for SC full plan: `infographic-setup/references/ai-for-sc-plan-v2.md`
-
-### Series Trackers
-- 101 series: `infographic-setup/data/101-series-tracker.md`
-- AI for SC series: `infographic-setup/data/ai-for-sc-series-tracker.md`
+## Global Workflow Rules
+- Always check for existing files before creating new ones.
+- Never delete files without explicit approval.
+- Never install packages silently — flag before adding dependencies.
 
 ## Deployment
-- **Repo:** `github.com/tigershetty/linkedin-v2`
-- **Vercel:** Root directory set to `infographic-engine-web/frontend` (Vite + React app)
-- **Purpose:** Version control + remote Claude Code access + web app deployment
+- **Repo:** `github.com/tigershetty/linkedin-v2` — version control + remote Claude Code access.
+- **Web app retired** — the Vite/React app and its Vercel/Netlify deploys are no longer maintained (source archived under `_archive/web-app/`). If those deploys are still connected, disconnect them in their dashboards.
 
 ## LinkedIn Auto-Posting — On Hold
-- **Status:** Paused — resume when ready to test
-- **What's done:** `.env` created with `LINKEDIN_ACCESS_TOKEN` and `LINKEDIN_URN` (`k7d8ogGaBT`) confirmed working
-- **Next step:** Write posting script and do a draft post test (`lifecycleState: DRAFT`) — no public exposure, deletable from LinkedIn Creator tools
-- **Note:** LinkedIn API does not support scheduled posts — draft mode is the clean test approach
+- **Status:** paused — resume when ready to test.
+- **Done:** `.env` holds `LINKEDIN_ACCESS_TOKEN` and `LINKEDIN_URN` (confirmed working).
+- **Next:** posting script + draft-post test (`lifecycleState: DRAFT`) — deletable from LinkedIn Creator tools.
+- **Note:** LinkedIn API has no scheduled posts — draft mode is the clean test path.
