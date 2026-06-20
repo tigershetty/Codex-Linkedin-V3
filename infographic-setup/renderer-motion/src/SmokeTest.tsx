@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from 'react';
 import {AbsoluteFill, useCurrentFrame, useVideoConfig, spring, interpolate} from 'remotion';
-import {TrophyIcon} from 'lucide-animated';
+import {SparklesIcon} from 'lucide-animated';
 
 // Smoke test: proves the Remotion motion lane renders React + Motion + lucide-animated
 // to MP4/GIF via our Chrome. Core motion is Remotion-frame-driven (deterministic);
@@ -47,7 +47,7 @@ export const SmokeTest: React.FC = () => {
           }}
         >
           <div ref={iconRef as never}>
-            <TrophyIcon size={120} />
+            <SparklesIcon size={120} />
           </div>
         </div>
       </div>
