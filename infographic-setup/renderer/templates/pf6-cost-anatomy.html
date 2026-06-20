@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--
+  PF6 — Cost Anatomy v3 (AI for SC · Ep02/Ep28 · Should-Cost Model · Category Manager × ChatGPT)
+  HOMOGENEOUS Shetty's Desk palette — coral + warm neutrals only (NO tool colour).
+  The tool is signalled ONLY by a small monochrome icon chip (top-right). No "Powered by".
+  Signature = constant coral thread. Bright luminous bg. Zero-overlap vertical budget.
+  Canvas 1080x1350 (4:5).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --coral:#C15F3C; --coral-bright:#D97757; --coral-deep:#9A4327;
+    --ink:#2A2018; --muted:#7A6E62; --faint:#A59C90; --caution:#C98A1E;
+    --sans:'Poppins','Segoe UI',Helvetica,Arial,sans-serif;
+    --mono:'JetBrains Mono','SFMono-Regular',Consolas,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:#ddd;}
+  .canvas{width:1080px;height:1350px;position:relative;
+    font-family:var(--sans);color:var(--ink);overflow:hidden;
+    background:
+      radial-gradient(ellipse 64% 46% at 26% 24%, rgba(217,119,87,.32) 0%, rgba(217,119,87,.11) 42%, transparent 72%),
+      radial-gradient(ellipse 56% 44% at 90% 70%, rgba(255,201,135,.26) 0%, transparent 66%),
+      radial-gradient(ellipse 120% 90% at 50% 20%, #FFFFFF 0%, #FCF7EF 44%, #F4EBDC 100%);}
+  .canvas::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:9;
+    background:radial-gradient(ellipse 112% 96% at 50% 42%, transparent 74%, rgba(150,95,55,.09) 100%);}
+
+  /* header */
+  .pad{padding:48px 54px 0;position:relative;z-index:3;}
+  .eyebrow{font-size:14.5px;font-weight:700;letter-spacing:2.6px;text-transform:uppercase;color:var(--coral);margin-bottom:12px;}
+  .hero{font-weight:800;font-size:56px;line-height:1.0;letter-spacing:-1px;color:var(--ink);}
+  .hero .c{color:var(--coral);}
+  .heading{font-size:22.5px;font-weight:500;color:var(--muted);margin-top:14px;line-height:1.28;max-width:720px;}
+  /* tool chip — the ONLY tool-specific element: small, monochrome, homogeneous */
+  .toolchip{position:absolute;top:50px;right:54px;display:flex;align-items:center;gap:9px;z-index:5;
+    background:rgba(255,255,255,.72);border:1px solid rgba(42,32,24,.16);border-radius:999px;padding:9px 16px 9px 13px;
+    box-shadow:0 4px 14px rgba(150,90,55,.12);}
+  .toolchip .ic{width:21px;height:21px;color:var(--ink);}
+  .toolchip .ic svg{width:100%;height:100%;}
+  .toolchip .nm{font-size:13.5px;font-weight:700;color:var(--ink);letter-spacing:.4px;}
+  .toolchip .nm small{display:block;font-size:9.5px;font-weight:700;letter-spacing:1.4px;color:var(--faint);text-transform:uppercase;line-height:1;}
+
+  /* cost column */
+  .stage{position:absolute;left:54px;top:300px;display:flex;align-items:stretch;gap:15px;z-index:3;}
+  .brace{display:flex;flex-direction:column;align-items:center;width:32px;color:var(--coral);}
+  .brace .bar{flex:1;width:3px;background:linear-gradient(180deg,var(--coral),var(--coral-bright));border-radius:2px;position:relative;}
+  .brace .tick{position:absolute;left:0;width:13px;height:3px;background:var(--coral);border-radius:2px;}
+  .brace .tick.t{top:0;} .brace .tick.b{bottom:0;}
+  .brace .txt{writing-mode:vertical-rl;transform:rotate(180deg);font-size:12px;font-weight:800;letter-spacing:2.2px;
+    text-transform:uppercase;color:var(--coral);margin:12px 0;}
+  .col{width:392px;display:flex;flex-direction:column;border-radius:16px;overflow:hidden;
+    box-shadow:0 22px 50px rgba(150,90,55,.22),0 4px 12px rgba(150,90,55,.12);}
+  .seg{position:relative;display:flex;align-items:center;justify-content:space-between;padding:0 24px;color:#fff;}
+  .seg .nm{font-weight:600;font-size:19px;line-height:1.1;}
+  .seg .pc{font-weight:800;font-size:27px;font-variant-numeric:tabular-nums;}
+  .seg .tag{display:block;font-size:11.5px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;opacity:.82;margin-top:3px;}
+  .s-raw{height:200px;background:linear-gradient(150deg,#9C8B79,#7C6D5D);}
+  .s-lab{height:100px;background:linear-gradient(150deg,#92806D,#766654);}
+  .s-ovh{height:90px;background:linear-gradient(150deg,#8B7965,#6E5E4D);}
+  .s-mar{height:110px;background:linear-gradient(150deg,#DD7D52,#B5482A);z-index:2;
+    box-shadow:inset 0 0 0 2.5px rgba(255,210,188,.6),0 0 36px rgba(193,95,60,.40);}
+  .s-mar .pc{font-size:31px;}
+
+  /* right verdict (2 cards, roomy) */
+  .right{position:absolute;left:566px;top:300px;width:460px;height:500px;z-index:3;display:flex;flex-direction:column;gap:20px;}
+  .vcard{flex:1;background:rgba(255,255,255,.8);border:1px solid rgba(193,95,60,.16);border-radius:16px;
+    padding:22px 26px;box-shadow:0 16px 40px rgba(150,90,55,.14),inset 0 1px 0 rgba(255,255,255,.9);
+    display:flex;flex-direction:column;justify-content:center;}
+  .vk{font-size:13px;font-weight:800;letter-spacing:1.7px;text-transform:uppercase;margin-bottom:8px;}
+  .vk.market{color:var(--muted);} .vk.choice{color:var(--coral-deep);}
+  .vtop{display:flex;align-items:baseline;gap:14px;}
+  .vbig{font-weight:800;font-size:52px;line-height:.95;letter-spacing:-1.5px;}
+  .vbig.market{color:#5C5043;} .vbig.choice{color:var(--coral);}
+  .vsmall{font-size:15px;font-weight:600;color:var(--muted);}
+  .vtxt{font-size:16px;line-height:1.42;color:var(--muted);margin-top:12px;}
+  .vtxt b{color:var(--ink);font-weight:600;}
+  .choice-card{background:linear-gradient(160deg,rgba(193,95,60,.10),rgba(193,95,60,.03));border-color:rgba(193,95,60,.32);}
+
+  /* worked-example strip (full width, horizontal) */
+  .ex{position:absolute;left:54px;top:822px;width:972px;z-index:3;display:flex;align-items:center;
+    background:var(--ink);border-radius:14px;padding:16px 24px;color:#F4ECE2;
+    box-shadow:0 16px 40px rgba(42,32,24,.28);}
+  .ex .exk{font-size:11px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase;color:var(--coral-bright);
+    width:120px;flex:0 0 auto;line-height:1.3;}
+  .ex .exq{font-weight:800;font-size:30px;letter-spacing:-1px;flex:0 0 auto;margin-right:6px;}
+  .ex .exq .u{font-size:13px;font-weight:600;color:#B9ADA0;}
+  .ex .arrow{color:var(--faint);font-size:22px;margin:0 16px;flex:0 0 auto;}
+  .ex .chips{display:flex;gap:12px;flex:1;}
+  .ex .chip{flex:1;border-radius:9px;padding:8px 14px;}
+  .ex .chip .l{font-size:10.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;opacity:.85;}
+  .ex .chip .v{font-weight:800;font-size:21px;margin-top:1px;letter-spacing:-.5px;}
+  .ex .move{background:rgba(217,119,87,.24);color:#FFD9C6;}
+  .ex .fix{background:rgba(255,255,255,.08);color:#CFC4B6;}
+
+  /* prompt */
+  .prompt{position:absolute;left:54px;top:922px;width:972px;z-index:3;
+    background:rgba(255,255,255,.82);border:1px solid rgba(193,95,60,.24);border-radius:14px;
+    box-shadow:0 16px 40px rgba(150,90,55,.16),inset 0 1px 0 rgba(255,255,255,.9);overflow:hidden;}
+  .pbar{display:flex;align-items:center;gap:10px;padding:11px 20px;background:rgba(193,95,60,.09);
+    border-bottom:1px solid rgba(193,95,60,.18);}
+  .pbar .pi{width:17px;height:17px;color:var(--coral);} .pbar .pi svg{width:100%;height:100%;}
+  .pbar .pt{font-size:13px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--coral-deep);}
+  .pbody{padding:15px 24px 17px;font-family:var(--mono);font-size:15.5px;line-height:1.5;color:#3A2E22;}
+  .pbody .ph{color:var(--coral);font-weight:500;}
+
+  /* watch for */
+  .watch{position:absolute;left:54px;top:1112px;width:972px;z-index:3;display:flex;align-items:center;gap:17px;
+    background:rgba(255,251,242,.85);border:1px solid rgba(201,138,30,.28);border-left:5px solid var(--caution);
+    border-radius:12px;padding:15px 24px;box-shadow:0 10px 28px rgba(150,110,40,.10);}
+  .watch .wi{width:30px;height:30px;flex:0 0 auto;color:var(--caution);}
+  .watch .wi svg{width:100%;height:100%;}
+  .watch .wt{font-size:15.5px;line-height:1.38;color:#6B5828;}
+  .watch .wt b{color:#5A4A24;font-weight:700;}
+
+  /* footer — coral thread */
+  .footrule{position:absolute;left:54px;right:54px;bottom:92px;height:2px;z-index:3;
+    background:linear-gradient(90deg,var(--coral),rgba(193,95,60,.16) 62%,transparent);}
+  .foot{position:absolute;left:54px;bottom:34px;display:flex;align-items:center;gap:13px;z-index:10;}
+  .foot img{width:48px;height:48px;object-fit:contain;}
+  .foot .fh{font-size:15px;font-weight:700;color:var(--ink);line-height:1.15;}
+  .foot .fh span{display:block;font-size:12px;font-weight:600;color:var(--faint);letter-spacing:.3px;}
+  .thesis{position:absolute;right:54px;bottom:40px;max-width:500px;text-align:right;z-index:10;
+    font-size:16.5px;font-weight:600;color:var(--coral-deep);line-height:1.3;}
+</style>
+</head>
+<body>
+<div class="canvas" id="card">
+  <!-- tool chip: ChatGPT, monochrome, homogeneous (only tool-specific element) -->
+  <div class="toolchip">
+    <span class="ic"><svg fill="currentColor" fill-rule="evenodd" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.205 8.658v-2.26c0-.19.072-.333.238-.428l4.543-2.616c.619-.357 1.356-.523 2.117-.523 2.854 0 4.662 2.212 4.662 4.566 0 .167 0 .357-.024.547l-4.71-2.759a.797.797 0 00-.856 0l-5.97 3.473zm10.609 8.8V12.06c0-.333-.143-.57-.429-.737l-5.97-3.473 1.95-1.118a.433.433 0 01.476 0l4.543 2.617c1.309.76 2.189 2.378 2.189 3.948 0 1.808-1.07 3.473-2.76 4.163zM7.802 12.703l-1.95-1.142c-.167-.095-.239-.238-.239-.428V5.899c0-2.545 1.95-4.472 4.591-4.472 1 0 1.927.333 2.712.928L8.23 5.067c-.285.166-.428.404-.428.737v6.898zM12 15.128l-2.795-1.57v-3.33L12 8.658l2.795 1.57v3.33L12 15.128zm1.796 7.23c-1 0-1.927-.332-2.712-.927l4.686-2.712c.285-.166.428-.404.428-.737v-6.898l1.974 1.142c.167.095.238.238.238.428v5.233c0 2.545-1.974 4.472-4.614 4.472zm-5.637-5.303l-4.544-2.617c-1.308-.761-2.188-2.378-2.188-3.948A4.482 4.482 0 014.21 6.327v5.423c0 .333.143.571.428.738l5.947 3.449-1.95 1.118a.432.432 0 01-.476 0zm-.262 3.9c-2.688 0-4.662-2.021-4.662-4.519 0-.19.024-.38.047-.57l4.686 2.71c.286.167.571.167.856 0l5.97-3.448v2.26c0 .19-.07.333-.237.428l-4.543 2.616c-.619.357-1.356.523-2.117.523zm5.899 2.83a5.947 5.947 0 005.827-4.756C22.287 18.339 24 15.84 24 13.296c0-1.665-.713-3.282-1.998-4.448.119-.5.19-.999.19-1.498 0-3.401-2.759-5.947-5.946-5.947-.642 0-1.26.095-1.88.31A5.962 5.962 0 0010.205 0a5.947 5.947 0 00-5.827 4.757C1.713 5.447 0 7.945 0 10.49c0 1.666.713 3.283 1.998 4.448-.119.5-.19 1-.19 1.499 0 3.401 2.759 5.946 5.946 5.946.642 0 1.26-.095 1.88-.309a5.96 5.96 0 004.162 1.713z"></path></svg></span>
+    <span class="nm"><small>Built with</small>ChatGPT</span>
+  </div>
+
+  <div class="pad">
+    <div class="eyebrow">AI for Supply Chain · Should-Cost Model</div>
+    <div class="hero">4 layers.<br><span class="c">1 you can move.</span></div>
+    <div class="heading">Know their cost before they reveal their price, the should-cost model a category manager builds in 20 minutes.</div>
+  </div>
+
+  <!-- cost column -->
+  <div class="stage">
+    <div class="brace">
+      <div class="bar"><span class="tick t"></span><span class="tick b"></span></div>
+      <div class="txt">Quoted price · 100%</div>
+    </div>
+    <div class="col">
+      <div class="seg s-mar">
+        <div><span class="nm">Supplier Margin</span><span class="tag">Negotiable · the layer you can move</span></div>
+        <span class="pc">22%</span>
+      </div>
+      <div class="seg s-ovh">
+        <div><span class="nm">Manufacturing Overhead</span><span class="tag">Structural</span></div>
+        <span class="pc">18%</span>
+      </div>
+      <div class="seg s-lab">
+        <div><span class="nm">Direct Labour</span><span class="tag">Structural</span></div>
+        <span class="pc">20%</span>
+      </div>
+      <div class="seg s-raw">
+        <div><span class="nm">Raw Material</span><span class="tag">Structural</span></div>
+        <span class="pc">40%</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- right verdict -->
+  <div class="right">
+    <div class="vcard">
+      <div class="vk market">Set by the market</div>
+      <div class="vtop"><span class="vbig market">78%</span><span class="vsmall">raw material + labour + overhead</span></div>
+      <div class="vtxt">Driven by <b>commodity prices, regional wage rates and fixed plant cost.</b> Arguing these wastes the meeting, the supplier can justify every cent.</div>
+    </div>
+    <div class="vcard choice-card">
+      <div class="vk choice">Set by a choice</div>
+      <div class="vtop"><span class="vbig choice">22%</span><span class="vsmall">supplier margin</span></div>
+      <div class="vtxt">The only layer that is a <b>decision, not a constant.</b> This is where the whole negotiation lives, so anchor the conversation here.</div>
+    </div>
+  </div>
+
+  <!-- worked example strip -->
+  <div class="ex">
+    <div class="exk">What it means per unit</div>
+    <div class="exq">$4.20 <span class="u">quoted</span></div>
+    <div class="arrow">→</div>
+    <div class="chips">
+      <div class="chip move"><div class="l">Negotiable margin</div><div class="v">$0.92</div></div>
+      <div class="chip fix"><div class="l">Fixed cost floor</div><div class="v">$3.28</div></div>
+    </div>
+  </div>
+
+  <!-- prompt -->
+  <div class="prompt">
+    <div class="pbar"><span class="pi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg></span>
+      <span class="pt">Copy-paste prompt · your 20-minute anchor</span></div>
+    <div class="pbody">"Build a should-cost model for <span class="ph">[product]</span>. Components: <span class="ph">[list]</span>. Key drivers: <span class="ph">[materials, labour region, annual volume]</span>. Show each cost layer as a % of total and an absolute value. Where does supplier margin typically sit in this category?"</div>
+  </div>
+
+  <!-- watch for -->
+  <div class="watch">
+    <div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></div>
+    <div class="wt"><b>AI builds the map. You decide where to push.</b> If the product has proprietary inputs the supplier won't disclose, the model is directional, not precise, so use it to anchor the conversation, not to challenge it line by line.</div>
+  </div>
+
+  <!-- footer: coral thread -->
+  <div class="footrule"></div>
+  <div class="foot"><img src="../assets/logos/shettys-desk-logo-1.png" alt="Shetty's Desk"><div class="fh">Shetty's Desk<span>AI for Supply Chain</span></div></div>
+  <div class="thesis">Walk in knowing their number before they show you theirs.</div>
+
+</div>
+</body>
+</html>

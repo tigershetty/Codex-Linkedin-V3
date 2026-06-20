@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--
+  PF7 — Blueprint Draft v5 (AI for SC · Ep01 · Enterprise RFQ · "...using Claude")
+  Shetty's Desk brand kit: azure + eco-green + ink + Poppins, luminous on WHITE, flat.
+  8 elements: stat callout, RFQ Package, TCO Scorecard, stepped Prompt, Bid Scores,
+  What You Get, RFQ Timeline, Watch-for. Big Claude logo (no label). Big Shetty logo corner.
+  Tool framed in the heading ("using Claude"). Minimal white space. Canvas 1080x1350 (4:5).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --azure:#2798FB; --sky:#50A9F7; --royal:#247BE1; --deep:#215DC3; --navy:#1939A5;
+    --eco:#38E6A6; --mint:#8FF3CC; --eco-deep:#14B07E;
+    --coralpink:#E27199; --coralpink-deep:#C9577D;
+    --ink:#15315C; --muted:#5D7599; --line:#DCEAF8; --tint:#E2F0FB;
+    --sans:'Poppins','Segoe UI',Helvetica,Arial,sans-serif;
+    --mono:'JetBrains Mono','SFMono-Regular',Consolas,monospace;
+    --eco-grad:linear-gradient(135deg,#8FF3CC 0%,#38E6A6 45%,#2798FB 100%);
+    --blue-grad:linear-gradient(135deg,#50A9F7 0%,#215DC3 60%,#1939A5 100%);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:#cfd8e0;}
+  .canvas{width:1080px;height:1350px;position:relative;
+    font-family:var(--sans);color:var(--ink);overflow:hidden;
+    background:
+      radial-gradient(ellipse 46% 34% at 88% 3%, rgba(56,230,166,.15) 0%, transparent 60%),
+      radial-gradient(ellipse 58% 40% at 5% 26%, rgba(39,152,251,.12) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F4F9FE 62%,#EAF3FD 100%);}
+
+  /* header */
+  .pad{padding:34px 56px 0;position:relative;z-index:3;}
+  .pin{display:flex;align-items:center;gap:13px;max-width:600px;}
+  .pin .badge{width:38px;height:38px;border-radius:11px;background:var(--blue-grad);
+    display:flex;align-items:center;justify-content:center;flex:0 0 auto;box-shadow:0 6px 14px rgba(33,93,195,.32);}
+  .pin .badge svg{width:21px;height:21px;color:#fff;}
+  .pin .pt{font-size:14.5px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--ink);white-space:nowrap;}
+  .pin .rule{flex:1;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--azure),rgba(39,152,251,0));}
+  .hero{font-weight:800;font-size:50px;line-height:1.0;letter-spacing:-1px;color:var(--ink);margin-top:18px;max-width:560px;}
+  .hero .g{background:linear-gradient(110deg,var(--deep) 0%,var(--azure) 45%,var(--eco-deep) 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;}
+  .heading{font-size:19.5px;font-weight:400;color:var(--muted);margin-top:12px;line-height:1.32;max-width:560px;}
+  .heading .u{color:var(--eco-deep);font-weight:700;}
+
+  /* BIG Claude logo (no label) */
+  .tool{position:absolute;top:34px;right:74px;z-index:5;width:118px;height:118px;color:#D97757;
+    filter:drop-shadow(0 10px 20px rgba(217,119,87,.32));}
+  .tool svg{width:100%;height:100%;}
+  /* before/after stat callout (top-right) */
+  .stat{position:absolute;top:158px;right:56px;width:330px;z-index:4;display:flex;align-items:center;gap:14px;
+    background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 18px;
+    box-shadow:0 14px 32px rgba(33,93,195,.1);}
+  .stat .sc{display:flex;flex-direction:column;}
+  .stat .sc .l{font-size:10.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--muted);}
+  .stat .sc .v{font-weight:800;font-size:25px;letter-spacing:-.5px;line-height:1;color:var(--muted);}
+  .stat .sc.to .v{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent;}
+  .stat .ar{color:var(--azure);font-size:22px;font-weight:700;}
+
+  /* shared card */
+  .card{position:absolute;background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;z-index:3;
+    box-shadow:0 16px 36px rgba(33,93,195,.1),0 3px 8px rgba(33,93,195,.05);}
+  .card-h{display:flex;align-items:center;justify-content:space-between;padding:11px 20px;background:var(--tint);border-bottom:1px solid var(--line);}
+  .card-h .ct{font-weight:800;font-size:15px;letter-spacing:.5px;text-transform:uppercase;color:var(--deep);}
+  .card-h .cm{font-family:var(--mono);font-size:10px;font-weight:500;color:var(--royal);letter-spacing:.3px;}
+
+  /* block 1: RFQ package */
+  .b1{left:56px;top:250px;width:468px;height:378px;}
+  .srow{display:flex;align-items:center;gap:12px;padding:0 20px;height:47px;border-bottom:1px solid #EFF5FC;}
+  .srow:last-child{border-bottom:none;}
+  .snum{width:25px;height:25px;flex:0 0 auto;border-radius:50%;background:var(--blue-grad);color:#fff;
+    font-weight:700;font-size:12.5px;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 6px rgba(33,93,195,.26);}
+  .srow .sn{font-weight:700;font-size:14.5px;color:var(--ink);line-height:1.05;}
+  .srow .sg{font-size:11px;color:var(--muted);margin-top:1px;line-height:1.1;}
+
+  /* block 2: scorecard */
+  .b2{left:556px;top:250px;width:468px;height:378px;display:flex;flex-direction:column;}
+  .mrows{padding:4px 20px 0;}
+  .mrow{display:grid;grid-template-columns:1fr 176px 40px;align-items:center;gap:10px;padding:6.5px 0;border-bottom:1px solid #EFF5FC;}
+  .mrow .mc{font-weight:600;font-size:13px;color:var(--ink);line-height:1.04;}
+  .mrow .mc small{display:block;font-weight:400;font-size:9.5px;color:var(--muted);}
+  .mrow .mbarwrap{height:13px;background:var(--tint);border-radius:7px;overflow:hidden;box-shadow:inset 0 1px 2px rgba(33,93,195,.10);}
+  .mrow .mbar{display:block;height:100%;background:var(--blue-grad);border-radius:7px;}
+  .mrow.lead .mbar{background:var(--eco-grad);}
+  .mrow .mp{font-weight:800;font-size:15.5px;color:var(--deep);text-align:right;font-variant-numeric:tabular-nums;}
+  .mrow.lead .mp{color:var(--eco-deep);}
+  .mnote{margin:auto 16px 13px;background:var(--tint);border-radius:10px;padding:9px 13px;font-size:12px;color:var(--ink);line-height:1.32;}
+  .mnote b{font-weight:700;color:var(--deep);}
+
+  /* block 3: stepped prompt */
+  .b3{left:56px;top:644px;width:468px;height:378px;}
+  .pbar{display:flex;align-items:center;gap:10px;padding:11px 20px;background:var(--blue-grad);}
+  .pbar .pi{width:17px;height:17px;color:#fff;} .pbar .pi svg{width:100%;height:100%;}
+  .pbar .pt{font-size:12.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#fff;}
+  .pbody{padding:13px 20px 14px;font-family:var(--mono);font-size:12.5px;color:#33547d;}
+  .pbody .lead{color:#23416d;line-height:1.4;margin-bottom:9px;}
+  .pstep{display:flex;gap:9px;align-items:baseline;margin-bottom:7.5px;line-height:1.2;}
+  .pstep .dot{color:var(--eco-deep);font-weight:700;flex:0 0 auto;}
+  .pstep b{color:var(--deep);font-weight:700;} .pstep span{color:var(--muted);}
+  .pclose{color:#23416d;line-height:1.4;margin-top:9px;}
+  .pclose b{color:var(--eco-deep);font-weight:700;}
+
+  /* block 4: bid scores */
+  .b4{left:556px;top:644px;width:468px;height:178px;}
+  .b4 .bd{padding:11px 20px 0;}
+  .bid{display:grid;grid-template-columns:92px 1fr 50px;align-items:center;gap:12px;margin-bottom:8px;}
+  .bid .bl{font-weight:700;font-size:13.5px;color:var(--ink);}
+  .bid .bl small{display:block;font-weight:500;font-size:10px;color:var(--muted);}
+  .bid .bw{height:10px;background:var(--tint);border-radius:6px;overflow:hidden;}
+  .bid .bw i{display:block;height:100%;background:var(--blue-grad);border-radius:6px;}
+  .bid.win .bw i{background:var(--eco-grad);}
+  .bid .bs{font-weight:800;font-size:18px;text-align:right;color:var(--deep);}
+  .bid.win .bs{color:var(--eco-deep);} .bid.lose .bs{color:var(--coralpink-deep);}
+  .b4 .ftxt{padding:0 20px;font-size:11.5px;color:var(--muted);}
+  .b4 .ftxt b{color:var(--ink);}
+
+  /* block 5: what you get */
+  .b5{left:556px;top:836px;width:468px;height:186px;}
+  .b5 .bd{padding:12px 20px;}
+  .got{display:flex;align-items:center;gap:11px;margin-bottom:10px;}
+  .got .ck{width:23px;height:23px;flex:0 0 auto;border-radius:50%;background:var(--eco-grad);display:flex;align-items:center;justify-content:center;
+    box-shadow:0 3px 7px rgba(56,230,166,.35);}
+  .got .ck svg{width:12px;height:12px;color:#0c5a44;}
+  .got .gt{font-size:14px;font-weight:600;color:var(--ink);}
+
+  /* block 7: RFQ timeline */
+  .b7{left:56px;top:1014px;width:968px;height:140px;}
+  .tl{position:relative;display:flex;justify-content:space-between;padding:18px 44px 12px;}
+  .tl::before{content:"";position:absolute;left:96px;right:96px;top:39px;height:3px;border-radius:2px;
+    background:linear-gradient(90deg,var(--azure),var(--eco));z-index:0;}
+  .tnode{display:flex;flex-direction:column;align-items:center;gap:7px;z-index:1;width:160px;}
+  .tdot{width:42px;height:42px;border-radius:50%;background:#fff;border:3px solid var(--azure);
+    display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12.5px;color:var(--deep);box-shadow:0 3px 8px rgba(33,93,195,.16);}
+  .tnode.award .tdot{border:none;background:var(--eco-grad);color:#0c5a44;box-shadow:0 4px 10px rgba(56,230,166,.4);}
+  .tlabel{font-size:12.5px;font-weight:600;color:var(--ink);text-align:center;line-height:1.15;white-space:nowrap;}
+
+  /* block 6: watch-for */
+  .watch{position:absolute;left:56px;top:1186px;width:872px;height:128px;z-index:3;display:flex;align-items:center;gap:17px;
+    background:#fff;border:1px solid #F6DCE6;border-left:5px solid var(--coralpink);border-radius:14px;padding:0 24px;
+    box-shadow:0 12px 30px rgba(33,93,195,.08);}
+  .watch .wi{width:30px;height:30px;flex:0 0 auto;color:var(--coralpink);} .watch .wi svg{width:100%;height:100%;}
+  .watch .wt{font-size:15px;line-height:1.36;color:var(--muted);} .watch .wt b{color:var(--ink);font-weight:700;}
+
+  /* BIG Shetty's Desk logo — bottom-right corner, a few px from the edges */
+  .foot{position:absolute;right:14px;top:1256px;z-index:10;display:flex;flex-direction:column;align-items:center;gap:2px;}
+  .foot img{height:84px;width:auto;object-fit:contain;}
+</style>
+</head>
+<body>
+<div class="canvas" id="card">
+  <!-- BIG Claude logo (no label) -->
+  <div class="tool"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="nonzero" d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z"/></svg></div>
+
+  <!-- before/after stat callout -->
+  <div class="stat">
+    <div class="sc"><span class="l">By hand</span><span class="v">~3 hrs</span></div>
+    <div class="ar">→</div>
+    <div class="sc to"><span class="l">With Claude</span><span class="v">20 min</span></div>
+  </div>
+
+  <div class="pad">
+    <div class="pin">
+      <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z"/><path d="M14 2v5h5"/><path d="M9 13h6M9 17h6"/></svg></span>
+      <span class="pt">AI for Supply Chain · Enterprise RFQ</span>
+      <span class="rule"></span>
+    </div>
+    <div class="hero">One brief in.<br><span class="g">A scored RFQ out.</span></div>
+    <div class="heading">What a category buyer at enterprise scale actually issues, drafted in 20 minutes <span class="u">using Claude</span>.</div>
+  </div>
+
+  <!-- block 1: RFQ package -->
+  <div class="card b1">
+    <div class="card-h"><span class="ct">The RFQ Package</span><span class="cm">RFQ-2026-0412 · Rev. A</span></div>
+    <div class="srow"><div class="snum">1</div><div><div class="sn">Scope &amp; Bill of Materials</div><div class="sg">Part numbers, drawings, 3-year volume tiers.</div></div></div>
+    <div class="srow"><div class="snum">2</div><div><div class="sn">Technical specification</div><div class="sg">Tolerances, materials, IATF 16949 / ISO 9001.</div></div></div>
+    <div class="srow"><div class="snum">3</div><div><div class="sn">Quality &amp; PPAP</div><div class="sg">PPAP Level 3, FAIR, RoHS / REACH, conflict minerals.</div></div></div>
+    <div class="srow"><div class="snum">4</div><div><div class="sn">Commercial terms</div><div class="sg">Unit + tooling/NRE, Incoterms DDP, Net 60, price breaks.</div></div></div>
+    <div class="srow"><div class="snum">5</div><div><div class="sn">Capacity &amp; continuity</div><div class="sg">Committed capacity, ±20% flex, BCP, dual-source.</div></div></div>
+    <div class="srow"><div class="snum">6</div><div><div class="sn">ESG &amp; supplier code</div><div class="sg">Scope 3 data, audit rights, code of conduct.</div></div></div>
+    <div class="srow"><div class="snum">7</div><div><div class="sn">Submission protocol</div><div class="sg">Sealed bid event, Q&amp;A window, deadline.</div></div></div>
+  </div>
+
+  <!-- block 2: TCO scorecard -->
+  <div class="card b2">
+    <div class="card-h"><span class="ct">Weighted Scorecard</span><span class="cm">TCO, not unit price</span></div>
+    <div class="mrows">
+      <div class="mrow lead"><span class="mc">Total Cost of Ownership<small>landed + quality + lifecycle</small></span><span class="mbarwrap"><span class="mbar" style="width:30%"></span></span><span class="mp">30%</span></div>
+      <div class="mrow"><span class="mc">Quality &amp; compliance<small>defect rate, certifications</small></span><span class="mbarwrap"><span class="mbar" style="width:20%"></span></span><span class="mp">20%</span></div>
+      <div class="mrow"><span class="mc">Delivery &amp; lead time<small>OTIF, ramp capability</small></span><span class="mbarwrap"><span class="mbar" style="width:18%"></span></span><span class="mp">18%</span></div>
+      <div class="mrow"><span class="mc">Technical capability<small>process, R&amp;D, tooling</small></span><span class="mbarwrap"><span class="mbar" style="width:15%"></span></span><span class="mp">15%</span></div>
+      <div class="mrow"><span class="mc">Financial stability<small>credit, continuity risk</small></span><span class="mbarwrap"><span class="mbar" style="width:10%"></span></span><span class="mp">10%</span></div>
+      <div class="mrow"><span class="mc">Sustainability (ESG)<small>Scope 3, code adherence</small></span><span class="mbarwrap"><span class="mbar" style="width:7%"></span></span><span class="mp">7%</span></div>
+    </div>
+    <div class="mnote"><b>Set the weights before any quote lands.</b> They turn the decision into your priorities, not the slickest proposal.</div>
+  </div>
+
+  <!-- block 3: stepped prompt -->
+  <div class="card b3">
+    <div class="pbar"><span class="pi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg></span>
+      <span class="pt">Copy-paste prompt for Claude</span></div>
+    <div class="pbody">
+      <div class="lead">"Draft a complete enterprise RFQ for <b style="color:var(--eco-deep)">[category]</b>, volume <b style="color:var(--eco-deep)">[X]</b>, covering:</div>
+      <div class="pstep"><span class="dot">›</span><span><b>Scope &amp; BOM</b> — parts, drawings, 3-yr volumes</span></div>
+      <div class="pstep"><span class="dot">›</span><span><b>Spec</b> — tolerances, IATF 16949 / ISO 9001</span></div>
+      <div class="pstep"><span class="dot">›</span><span><b>Quality</b> — PPAP L3, RoHS / REACH, conflict minerals</span></div>
+      <div class="pstep"><span class="dot">›</span><span><b>Commercial</b> — Incoterms DDP, Net 60, price breaks</span></div>
+      <div class="pstep"><span class="dot">›</span><span><b>Capacity</b> — committed, ±20% flex, BCP, dual-source</span></div>
+      <div class="pstep"><span class="dot">›</span><span><b>ESG</b> — Scope 3 data, supplier code + audit rights</span></div>
+      <div class="pstep"><span class="dot">›</span><span><b>Submission</b> — sealed bid, Q&amp;A window, deadline</span></div>
+      <div class="pclose">Then add a <b>TCO-weighted scoring matrix</b>, and output a supplier-ready RFQ + the scoring table."</div>
+    </div>
+  </div>
+
+  <!-- block 4: bid scores -->
+  <div class="card b4">
+    <div class="card-h"><span class="ct">How the scores land</span><span class="cm">same 3 quotes, your weights</span></div>
+    <div class="bd">
+      <div class="bid lose"><span class="bl">Supplier A<small>lowest price</small></span><span class="bw"><i style="width:74%"></i></span><span class="bs">7.4</span></div>
+      <div class="bid win"><span class="bl">Supplier B<small>winner on TCO</small></span><span class="bw"><i style="width:100%"></i></span><span class="bs">8.1</span></div>
+      <div class="bid"><span class="bl">Supplier C<small>mid-field</small></span><span class="bw"><i style="width:69%"></i></span><span class="bs">6.9</span></div>
+    </div>
+    <div class="ftxt"><b>Lowest price lost.</b> B won on delivery and quality.</div>
+  </div>
+
+  <!-- block 5: what you get -->
+  <div class="card b5">
+    <div class="card-h"><span class="ct">What you get back</span><span class="cm">in one pass</span></div>
+    <div class="bd">
+      <div class="got"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><span class="gt">A supplier-ready RFQ document</span></div>
+      <div class="got"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><span class="gt">The weighted scoring table</span></div>
+      <div class="got"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span><span class="gt">Ready to drop into your e-sourcing tool</span></div>
+    </div>
+  </div>
+
+  <!-- block 7: RFQ timeline -->
+  <div class="card b7">
+    <div class="card-h"><span class="ct">RFQ Timeline</span><span class="cm">issue to award</span></div>
+    <div class="tl">
+      <div class="tnode"><div class="tdot">D0</div><div class="tlabel">Issue RFQ</div></div>
+      <div class="tnode"><div class="tdot">D3</div><div class="tlabel">Q&amp;A opens</div></div>
+      <div class="tnode"><div class="tdot">D10</div><div class="tlabel">Bids due</div></div>
+      <div class="tnode"><div class="tdot">D14</div><div class="tlabel">Score &amp; shortlist</div></div>
+      <div class="tnode award"><div class="tdot">D17</div><div class="tlabel">Award</div></div>
+    </div>
+  </div>
+
+  <!-- block 6: watch-for -->
+  <div class="watch">
+    <div class="wi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></div>
+    <div class="wt"><b>Claude drafts to the standard. You own the spec and the weights.</b> They encode your category strategy and your firm's risk tolerance, so sign off before the event goes live.</div>
+  </div>
+
+  <!-- BIG Shetty's Desk logo — bottom-right corner -->
+  <div class="foot"><img src="../assets/logos/shettys-desk-logo-4.png" alt="Shetty's Desk"></div>
+
+  <!-- ambient: a Claude logo orbits the content body in the clear margins (never over content) -->
+  <svg class="route" viewBox="0 0 1080 1350" preserveAspectRatio="none">
+    <path id="routePath" d="M 66,22 H 1014 A 40,40 0 0 1 1054,62 V 1130 A 40,40 0 0 1 1014,1170 H 66 A 40,40 0 0 1 26,1130 V 62 A 40,40 0 0 1 66,22 Z"
+          fill="none" stroke="#C3DFF8" stroke-width="2.5" stroke-dasharray="1.5 12" stroke-linecap="round" opacity="0.8"/>
+  </svg>
+  <div class="runner-layer">
+    <div class="runner"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="nonzero" d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z"/></svg></div>
+  </div>
+
+</div>
+
+<style>
+  .route{position:absolute;inset:0;z-index:7;pointer-events:none;}
+  .runner-layer{position:absolute;inset:0;z-index:8;pointer-events:none;}
+  .runner{position:absolute;left:0;top:0;width:14px;height:14px;color:#D97757;will-change:transform;
+    filter:drop-shadow(0 0 4px rgba(217,119,87,.45));}
+  .runner svg{width:100%;height:100%;}
+  .ghost{position:absolute;left:0;top:0;width:5px;height:5px;border-radius:50%;
+    background:radial-gradient(circle at 40% 35%,#8FF3CC,#38E6A6 70%);
+    box-shadow:0 0 3px rgba(56,230,166,.55);will-change:transform,opacity;}
+</style>
+<script src="../assets/js/gsap.min.js"></script>
+<script>
+  function buildPath(){
+    const route = document.getElementById('routePath');
+    const L = route.getTotalLength();
+    const runner = document.querySelector('.runner');
+    const layer = document.querySelector('.runner-layer');
+    const NG = 8;
+    const ghosts = [];
+    for (let i=0;i<NG;i++){ const g=document.createElement('div'); g.className='ghost'; layer.insertBefore(g, runner); ghosts.push(g); }
+    const place = (el, prog, half) => {
+      const p = ((prog % 1) + 1) % 1;
+      const pt = route.getPointAtLength(p * L);
+      gsap.set(el, {x: pt.x - half, y: pt.y - half});
+    };
+    const state = {p:0};
+    const D = 60; // one full orbit — calm ambient drift (slow, but visible movement within seconds)
+    const tl = gsap.timeline({paused:true, defaults:{ease:'none'}});
+    tl.to(state, {p:1, duration:D, onUpdate:()=>{
+      place(runner, state.p, 7);
+      for (let i=0;i<NG;i++){
+        place(ghosts[i], state.p - (i+1)*0.0028, 2.5);
+        gsap.set(ghosts[i], {opacity: 0.42*(1 - i/NG), scale: 1 - i*0.07});
+      }
+    }});
+    tl.progress(0);
+    window.__tl = tl; window.__dur = D; window.__ready = true;
+  }
+  if (document.readyState === 'complete') buildPath();
+  else window.addEventListener('load', buildPath);
+</script>
+</body>
+</html>

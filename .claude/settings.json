@@ -39,14 +39,6 @@
       "Bash(firecrawl search *)",
       "Bash(bash scripts/start-server.sh --project-dir \"/Users/tigershetty/Claude Nano  test update\")"
     ],
-    "additionalDirectories": [
-      "/Users/tigershetty/Claude Nano ",
-      "/Users/tigershetty/Claude Nano /infographic-content-engine-v1/references",
-      "/Users/tigershetty/Claude Nano /infographic-content-engine-v1/.claude/skills",
-      "/Users/tigershetty/Claude Nano /infographic-content-engine-v1/data",
-      "/Users/tigershetty/Claude Nano /infographic-content-engine-v1",
-      "/Users/tigershetty",
-      "/Users/tigershetty/Claude Nano /.git/hooks"
-    ]
+    "additionalDirectories": []
   }
 }
