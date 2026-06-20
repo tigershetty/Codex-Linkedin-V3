@@ -1,0 +1,183 @@
+/* ── Light Theme (provided theme CSS, :root) ─────────────────────
+   Source: user-provided theme — teal/cyan light palette
+   Note: @theme inline block (Tailwind v4 syntax) is omitted;
+   this project has no Tailwind.
+   ─────────────────────────────────────────────────────────────── */
+:root {
+  /* Shadcn-style semantic tokens */
+  --background:              #e8f0f0;
+  --foreground:              #0a4a55;
+  --card:                    #f2f7f7;
+  --card-foreground:         #0a4a55;
+  --popover:                 #f2f7f7;
+  --popover-foreground:      #0a4a55;
+  --primary:                 #06858e;
+  --primary-foreground:      #ffffff;
+  --secondary:               #d9eaea;
+  --secondary-foreground:    #0a4a55;
+  --muted:                   #e0eaea;
+  --muted-foreground:        #427a7e;
+  --accent:                  #c9e5e7;
+  --accent-foreground:       #0a4a55;
+  --destructive:             #d13838;
+  --destructive-foreground:  #ffffff;
+  --border:                  #cde0e2;
+  --input:                   #d9eaea;
+  --ring:                    #06858e;
+  --radius:                  0.125rem;
+  --sidebar:                 #daebed;
+  --sidebar-foreground:      #0a4a55;
+  --sidebar-primary:         #06858e;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent:          #c9e5e7;
+  --sidebar-accent-foreground: #0a4a55;
+  --sidebar-border:          #cde0e2;
+  --sidebar-ring:            #06858e;
+
+  /* Chart palette */
+  --chart-1: #06858e;
+  --chart-2: #1e9ea6;
+  --chart-3: #37b6be;
+  --chart-4: #5dc7ce;
+  --chart-5: #8ad8dd;
+
+  /* Shadows */
+  --shadow-color:     hsl(185 70% 30% / 0.15);
+  --shadow-blur:      2px;
+  --shadow-spread:    0px;
+  --shadow-opacity:   0.15;
+  --shadow-offset-x:  1px;
+  --shadow-offset-y:  1px;
+
+  /* ── Legacy aliases (keep existing components working) ── */
+  --bg-base:          var(--background);
+  --bg-surface:       var(--card);
+  --bg-elevated:      var(--accent);
+  --bg-deep:          #0a1628;
+  --border-subtle:    var(--border);
+  --border-medium:    var(--ring);
+  --text-primary:     var(--foreground);
+  --text-secondary:   var(--muted-foreground);
+  --text-muted:       var(--muted-foreground);
+  --accent-cyan:      #06858e;
+
+  /* State colors (unchanged — used by RunTimeline / RunDetail) */
+  --state-running:    #3182ce;
+  --state-pending:    #d69e2e;
+  --state-complete:   #38a169;
+  --state-error:      #fc8181;
+  --state-linkedin:   #805ad5;
+  --state-idle:       #718096;
+
+  /* Spacing — 8pt grid */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Border radius */
+  --radius-sm:   6px;
+  --radius-md:   8px;
+  --radius-lg:   12px;
+  --radius-pill: 9999px;
+
+  /* Type scale — Minor Third (1.2 ratio) */
+  --text-xs:   0.694rem;   /* ~11px — metadata, timestamps */
+  --text-sm:   0.833rem;   /* ~13px — secondary text, labels */
+  --text-base: 1rem;       /*  16px — body */
+  --text-md:   1.2rem;     /* ~19px — section headings */
+  --text-lg:   1.44rem;    /* ~23px — page titles */
+
+  /* Shadows (legacy names) */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ── Dark mode override ───────────────────────────────────────── */
+.dark {
+  --card:                    #0c2025;
+  --ring:                    #4de8e8;
+  --input:                   #164955;
+  --muted:                   #0f3039;
+  --accent:                  #164955;
+  --border:                  #164955;
+  --chart-1:                 #4de8e8;
+  --chart-2:                 #36a5a5;
+  --chart-3:                 #2d8a8a;
+  --chart-4:                 #19595e;
+  --chart-5:                 #0e383c;
+  --popover:                 #0c2025;
+  --primary:                 #4de8e8;
+  --sidebar:                 #0a1a20;
+  --secondary:               #164955;
+  --background:              #0a1a20;
+  --foreground:              #4de8e8;
+  --destructive:             #e83c3c;
+  --shadow-color:            hsl(180 70% 60% / 0.2);
+  --sidebar-ring:            #4de8e8;
+  --shadow-opacity:          0.2;
+  --sidebar-accent:          #164955;
+  --sidebar-border:          #164955;
+  --card-foreground:         #4de8e8;
+  --sidebar-primary:         #4de8e8;
+  --muted-foreground:        #36a5a5;
+  --accent-foreground:       #4de8e8;
+  --popover-foreground:      #4de8e8;
+  --primary-foreground:      #0a1a20;
+  --sidebar-foreground:      #4de8e8;
+  --secondary-foreground:    #4de8e8;
+  --destructive-foreground:  #f2f2f2;
+  --sidebar-accent-foreground: #4de8e8;
+  --sidebar-primary-foreground: #0a1a20;
+}
+
+/* ── Global Reset ───────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color:      var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Keyframes ──────────────────────────────────────────────────── */
+
+/* Used by: RunTimeline > StateTag (action-required states) */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.5; }
+}
+
+/* Used by: RunDetail > RunningIndicator */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* Used by: TextAnimate component — per-character blur-up entrance */
+@keyframes blurInUp {
+  from {
+    filter:    blur(12px);
+    opacity:   0;
+    transform: translateY(8px);
+  }
+  to {
+    filter:    blur(0);
+    opacity:   1;
+    transform: translateY(0);
+  }
+}
+
+/* ── Scrollbars ─────────────────────────────────────────────────── */
+::-webkit-scrollbar       { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--muted); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--ring); }
