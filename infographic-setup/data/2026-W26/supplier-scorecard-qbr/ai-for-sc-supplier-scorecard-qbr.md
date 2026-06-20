@@ -108,3 +108,25 @@ Return it as a clean table on a new sheet called "QBR Scorecard".
 | AI still | Higgsfield (Recraft 4.1) | `data/2026-W26/render-experiment/higgsfield-ai05.png` |
 
 Comparative analysis: `data/2026-W26/render-experiment/analysis.md`.
+
+**Flagship still (current direction):** `renderer/templates/ai05-supplier-scorecard-3d.html` → `out/ai05-supplier-scorecard-3d.png` — 3D extruded ranked slabs, dark stat-band + score legend, big Copilot mark, no RW01/series labels in-image.
+
+---
+
+## GIF Storyboard (HyperFrames / GSAP anim lane)
+
+**Motion spine:** ranked slabs — *build the field, then the rank resolves* (winner B rises + crown lands). 6.5s, hold 1.5s, loop. Built from the 3D still's own elements (no new content).
+
+| t (s) | Element | Motion | Ease | Note |
+|---|---|---|---|---|
+| 0.0–0.6 | Title + Copilot mark | title fade/slide up; Copilot mark pops in (scale 0→1, slight spin) | back.out | mark is the hero corner |
+| 0.5–1.1 | Stat-band | slides down; KPIs **count up** (3 · 5 · B · 1.50) | power2 | numbers feel computed |
+| 1.0–1.3 | Score legend | chips 1→5 pop left-to-right | back.out | sets the 1–5 scale |
+| 1.3–1.6 | THE SHIFT line | "price alone → A" flashes **coral**, then "weight what matters → B" resolves **eco** | power1 | the argument |
+| 1.6–3.0 | 3 slabs | extrude up in order A → C → B; per-slab criteria chips pop (stagger); scores **count up** to 3.80 / 2.95 / 4.45; bars fill; deltas fade | back.out / power2 | depth kept |
+| 3.0–3.6 | Rank resolve (climax) | B slab lifts to top with eco glow; **crown drops in**; A & C settle | back.out(2) | the payoff |
+| 3.6–4.1 | Worked verdict | fades in; "4.45" pulses eco once | power1 | lands the thesis |
+| 4.1–4.6 | Prompt + footer | fade up | power1 | utility + brand |
+| 4.6–6.5 | Hold | full infographic held for the loop rest | — | clean loop |
+
+**Build:** copy `ai05-supplier-scorecard-3d.html` → `ai05-supplier-scorecard-3d-anim.html`; add a paused GSAP master timeline (`window.__tl/__dur/__ready`) implementing the beats; render via `render-anim.mjs` (`HOLD_S=1.5 GIF_W=640`). Icons animate from the in-repo Lucide/lobehub SVGs (GSAP), not React.
