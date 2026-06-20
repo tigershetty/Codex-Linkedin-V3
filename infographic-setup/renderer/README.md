@@ -15,6 +15,11 @@ A **deterministic HTML → PNG renderer** for Shetty's Desk LinkedIn infographic
 ```bash
 # one-time (per fresh container): browser binary for Playwright
 npx playwright install chromium
+# If Playwright's CDN is blocked (e.g. sandboxed egress), get Chrome via puppeteer's
+# bucket instead, then point the renderer at it (render.mjs/render-anim.mjs honour CHROME_PATH):
+#   npx puppeteer browsers install chrome
+#   export CHROME_PATH=/root/.cache/puppeteer/chrome/*/chrome-linux64/chrome
+# Fonts are self-hosted (assets/fonts.css → assets/fonts/*.woff2) so renders work offline.
 
 # render all templates → out/*.png  (run from the renderer/ dir, or pass absolute path)
 node render.mjs

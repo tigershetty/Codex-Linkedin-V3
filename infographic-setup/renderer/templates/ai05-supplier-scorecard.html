@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<style>
+  :root{
+    --azure:#2798FB; --sky:#50A9F7; --royal:#247BE1; --deep:#215DC3; --navy:#1939A5;
+    --eco:#38E6A6; --eco-text:#14B07E; --mint:#8FF3CC; --coral:#E27199;
+    --ink:#15315C; --muted:#5D7599; --line:#DCEAF8; --tint:#E2F0FB;
+    --eco-grad:linear-gradient(135deg,#8FF3CC,#38E6A6,#2798FB);
+    --blue-grad:linear-gradient(135deg,#50A9F7,#215DC3,#1939A5);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1350px}
+  #card{
+    width:1080px;height:1350px;position:relative;overflow:hidden;
+    font-family:"Poppins",system-ui,sans-serif;color:var(--ink);
+    background:
+      radial-gradient(ellipse 50% 38% at 85% 4%, rgba(56,230,166,.16) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 42% at 6% 30%, rgba(39,152,251,.13) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F3F9FE 60%,#EAF3FD 100%);
+    padding:58px 60px 50px;display:flex;flex-direction:column;
+  }
+  /* ---------- header ---------- */
+  .top{display:flex;justify-content:space-between;align-items:flex-start}
+  .badge{display:inline-block;font-size:14px;font-weight:700;letter-spacing:.14em;
+    color:#fff;background:var(--blue-grad);padding:8px 16px;border-radius:999px;text-transform:uppercase}
+  .toolmark{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+  .toolmark img{width:62px;height:62px;filter:drop-shadow(0 6px 14px rgba(33,93,195,.18))}
+  .toolmark .tl{font-size:13px;font-weight:600;color:var(--muted);letter-spacing:.04em;display:flex;align-items:center;gap:7px}
+  .toolmark .tl img{width:22px;height:22px;filter:none}
+  h1{font-size:60px;font-weight:800;line-height:.98;margin-top:22px;letter-spacing:-.5px;color:var(--ink)}
+  h1 .g{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .rule{height:4px;width:100%;margin:16px 0 12px;border-radius:4px;
+    background:linear-gradient(90deg,var(--azure) 0%,var(--sky) 38%,rgba(80,169,247,0) 100%)}
+  .sub{font-size:21px;font-weight:400;color:var(--muted);max-width:760px}
+  /* ---------- stat strip ---------- */
+  .stat{display:flex;align-items:baseline;gap:14px;margin:18px 2px 4px}
+  .stat .n{font-size:52px;font-weight:800;color:var(--azure);line-height:1}
+  .stat .c{font-size:15px;font-weight:300;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+  /* ---------- table card ---------- */
+  .tablecard{background:#fff;border:1px solid var(--line);border-radius:24px;
+    box-shadow:0 20px 44px rgba(33,93,195,.12);padding:22px 24px 20px;margin-top:16px}
+  table{width:100%;border-collapse:collapse;table-layout:fixed}
+  col.sup{width:188px} col.crit{width:auto} col.tot{width:172px}
+  thead th{padding:6px 4px 12px;vertical-align:bottom;text-align:center}
+  th .ico{width:26px;height:26px;margin:0 auto 6px;background:var(--deep);
+    -webkit-mask-size:contain;mask-size:contain;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+    -webkit-mask-position:center;mask-position:center}
+  th .lbl{font-size:13.5px;font-weight:600;color:var(--ink);line-height:1.1}
+  th.left{text-align:left} th.toth .lbl{color:var(--deep);font-weight:700}
+  th.toth .ico{background:var(--deep);width:26px}
+  .wrow td{padding:4px 4px 12px;text-align:center;font-size:13px;font-weight:600;color:var(--muted)}
+  .wrow td.lab{text-align:left;font-size:12.5px;font-weight:700;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--muted)}
+  .wrow td .wt{display:inline-block;background:var(--tint);color:var(--deep);
+    border-radius:8px;padding:3px 9px;font-size:13px;font-weight:700}
+  tbody.body tr{border-top:1px solid var(--line)}
+  tbody.body td{padding:15px 4px;text-align:center;vertical-align:middle}
+  td.name{text-align:left;font-size:21px;font-weight:700;color:var(--ink);padding-left:6px}
+  td.name .tag{display:block;font-size:12.5px;font-weight:500;color:var(--muted);margin-top:1px}
+  .chip{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;
+    border-radius:12px;font-size:19px;font-weight:800;color:#fff}
+  .s5{background:#14B07E} .s4{background:#3FB98C} .s3{background:var(--sky)}
+  .s2{background:#E58AAC} .s1{background:var(--coral)}
+  /* weighted total cell */
+  .tot{position:relative}
+  .totbox{display:flex;flex-direction:column;align-items:center;gap:6px}
+  .totnum{font-size:30px;font-weight:800;color:var(--ink);line-height:1}
+  .bar{width:128px;height:9px;border-radius:6px;background:var(--tint);overflow:hidden}
+  .bar i{display:block;height:100%;border-radius:6px;background:var(--blue-grad)}
+  /* winner / laggard */
+  tr.win{background:linear-gradient(90deg,rgba(56,230,166,.12),rgba(39,152,251,.06))}
+  tr.win td.name{color:var(--eco-text)}
+  tr.win .totnum{color:var(--eco-text)}
+  tr.win .bar i{background:var(--eco-grad)}
+  tr.win .crown{width:18px;height:18px;display:inline-block;vertical-align:-3px;margin-left:6px;
+    background:var(--eco-text);-webkit-mask:url(../assets/icons/trophy.svg) center/contain no-repeat;
+    mask:url(../assets/icons/trophy.svg) center/contain no-repeat}
+  tr.lag .totnum{color:var(--coral)}
+  tr.lag .bar i{background:linear-gradient(90deg,#E58AAC,var(--coral))}
+  /* ---------- insight band ---------- */
+  .insight{margin-top:18px;background:var(--tint);border-left:5px solid var(--azure);
+    border-radius:14px;padding:16px 22px;font-size:18px;font-weight:500;color:var(--ink);line-height:1.42}
+  .insight b{color:var(--eco-text);font-weight:700}
+  /* ---------- prompt block ---------- */
+  .prompt{margin-top:16px;background:#13233f;border-radius:16px;padding:16px 20px 18px;
+    box-shadow:0 16px 34px rgba(19,35,63,.22)}
+  .phead{display:flex;align-items:center;gap:9px;font-size:12.5px;font-weight:700;
+    letter-spacing:.12em;text-transform:uppercase;color:#8FF3CC;margin-bottom:10px}
+  .phead .dot{width:9px;height:9px;border-radius:50%;background:var(--eco)}
+  .prompt pre{font-family:"JetBrains Mono",monospace;font-size:13.5px;line-height:1.5;
+    color:#E2F0FB;white-space:pre-wrap}
+  .prompt pre b{color:#8FF3CC;font-weight:600}
+  .watch{margin-top:12px;display:flex;align-items:center;gap:10px;font-size:15px;
+    font-weight:500;color:var(--muted)}
+  .watch .wico{flex:0 0 auto;width:22px;height:22px;background:#E0A23B;
+    -webkit-mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat;
+    mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat}
+  .watch b{color:var(--ink);font-weight:700}
+  /* ---------- footer ---------- */
+  .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;padding-top:20px}
+  .foot::before{content:"";position:absolute;left:60px;right:60px;height:2px;
+    background:linear-gradient(90deg,var(--coral),rgba(226,113,153,.15));margin-top:-20px}
+  .who{display:flex;align-items:center;gap:12px}
+  .who img{width:40px;height:40px;border-radius:9px}
+  .who .nm{font-size:16px;font-weight:700;color:var(--ink);line-height:1.15}
+  .who .hd{font-size:13px;font-weight:400;color:var(--muted)}
+  .thesis{font-size:16px;font-weight:600;color:var(--coral);text-align:right;max-width:430px;line-height:1.3}
+</style>
+</head>
+<body>
+<div id="card">
+  <div class="top">
+    <span class="badge">RW01 · Procurement · Supplier evaluation</span>
+    <div class="toolmark">
+      <img src="../assets/logos/copilot-color.svg" alt="Copilot">
+      <span class="tl"><img src="../assets/logos/sc/excel.svg" alt="Excel"> in Excel</span>
+    </div>
+  </div>
+
+  <h1>Supplier <span class="g">Scorecard</span></h1>
+  <div class="rule"></div>
+  <div class="sub">The one sheet that turns a quarterly review into a decision. Copilot assembles it from your exports in minutes.</div>
+
+  <div class="stat">
+    <span class="n">5</span>
+    <span class="c">criteria · weighted · ranked — every supplier on one sheet</span>
+  </div>
+
+  <div class="tablecard">
+    <table>
+      <colgroup>
+        <col class="sup"><col class="crit"><col class="crit"><col class="crit"><col class="crit"><col class="crit"><col class="tot">
+      </colgroup>
+      <thead>
+        <tr>
+          <th class="left"><span class="lbl">Supplier</span></th>
+          <th><span class="ico" style="-webkit-mask:url(../assets/icons/shield-check.svg) center/contain no-repeat;mask:url(../assets/icons/shield-check.svg) center/contain no-repeat"></span><span class="lbl">Quality</span></th>
+          <th><span class="ico" style="-webkit-mask:url(../assets/icons/truck.svg) center/contain no-repeat;mask:url(../assets/icons/truck.svg) center/contain no-repeat"></span><span class="lbl">On-time</span></th>
+          <th><span class="ico" style="-webkit-mask:url(../assets/icons/tag.svg) center/contain no-repeat;mask:url(../assets/icons/tag.svg) center/contain no-repeat"></span><span class="lbl">Price</span></th>
+          <th><span class="ico" style="-webkit-mask:url(../assets/icons/message-circle.svg) center/contain no-repeat;mask:url(../assets/icons/message-circle.svg) center/contain no-repeat"></span><span class="lbl">Responsive</span></th>
+          <th><span class="ico" style="-webkit-mask:url(../assets/icons/badge-check.svg) center/contain no-repeat;mask:url(../assets/icons/badge-check.svg) center/contain no-repeat"></span><span class="lbl">Compliance</span></th>
+          <th class="toth"><span class="lbl">Weighted<br>total</span></th>
+        </tr>
+        <tr class="wrow">
+          <td class="lab">Weighting</td>
+          <td><span class="wt">30%</span></td>
+          <td><span class="wt">25%</span></td>
+          <td><span class="wt">20%</span></td>
+          <td><span class="wt">15%</span></td>
+          <td><span class="wt">10%</span></td>
+          <td></td>
+        </tr>
+      </thead>
+      <tbody class="body">
+        <tr>
+          <td class="name">Supplier A<span class="tag">lowest unit price</span></td>
+          <td><span class="chip s4">4</span></td>
+          <td><span class="chip s3">3</span></td>
+          <td><span class="chip s5">5</span></td>
+          <td><span class="chip s3">3</span></td>
+          <td><span class="chip s4">4</span></td>
+          <td class="tot"><div class="totbox"><span class="totnum">3.80</span><span class="bar"><i style="width:76%"></i></span></div></td>
+        </tr>
+        <tr class="win">
+          <td class="name">Supplier B<span class="tag">best on balance</span></td>
+          <td><span class="chip s5">5</span></td>
+          <td><span class="chip s5">5</span></td>
+          <td><span class="chip s3">3</span></td>
+          <td><span class="chip s4">4</span></td>
+          <td><span class="chip s5">5</span></td>
+          <td class="tot"><div class="totbox"><span class="totnum">4.45<span class="crown"></span></span><span class="bar"><i style="width:89%"></i></span></div></td>
+        </tr>
+        <tr class="lag">
+          <td class="name">Supplier C<span class="tag">cheap, but slow</span></td>
+          <td><span class="chip s3">3</span></td>
+          <td><span class="chip s2">2</span></td>
+          <td><span class="chip s4">4</span></td>
+          <td><span class="chip s3">3</span></td>
+          <td><span class="chip s3">3</span></td>
+          <td class="tot"><div class="totbox"><span class="totnum">2.95</span><span class="bar"><i style="width:59%"></i></span></div></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="insight">Supplier B isn't the cheapest on price, yet it still wins. <b>That gap is what weighting reveals</b>, and what a price-only sort would have buried.</div>
+
+  <div class="prompt">
+    <div class="phead"><span class="dot"></span>Copy-paste prompt · Copilot in Excel</div>
+    <pre>Build a supplier scorecard from these tabs. <b>Rows</b> = suppliers.
+<b>Columns</b> = Quality, On-time, Price, Responsiveness, Compliance (1–5).
+Add a weighting row (sums to 100%), compute a weighted total,
+rank the suppliers, and colour-code each score green to red.</pre>
+  </div>
+  <div class="watch"><span class="wico"></span><span>Copilot scores what you feed it. <b>Refresh the delivery and quality data</b> before you trust the ranking.</span></div>
+
+  <div class="foot">
+    <div class="who">
+      <img src="../assets/logos/shettys-desk-logo-1.png" alt="Shetty's Desk">
+      <div><div class="nm">Shetty's Desk</div><div class="hd">Poornajith Shetty · AI for Supply Chain</div></div>
+    </div>
+    <div class="thesis">Score it before the meeting,<br>or the meeting scores you.</div>
+  </div>
+</div>
+</body>
+</html>

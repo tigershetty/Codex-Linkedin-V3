@@ -17,6 +17,10 @@
 |---|---|---|---|---|---|---|---|---|
 | Ep27 | Purchaser | Draft RFQ with evaluation criteria + weighted scoring matrix | W21 | Procurement | Claude | rfq-with-claude | Timeline-Shock | Published — file saved |
 | Ep28 | Category Manager | Build should-cost model to anchor negotiation before supplier meeting | W21 | Procurement | ChatGPT | should-cost-model | Decision-Pressure / Question-Why | Ready |
+| Ep05 | Category Manager | Supplier scorecard in Excel for QBRs | W26 (RW01) | Procurement | Copilot | supplier-scorecard-qbr | Question-How | Copy saved — pending publish |
+| Ep06 | Purchaser | Model supplier price-increase arguments + build counter-arguments | W26 (RW01) | Procurement | Claude | price-increase-counterargs | Decision-Pressure | Copy saved — pending publish |
+
+> **Recalibration (2026-06-20):** posting is tracked by **Run Week (RW##)** in `references/master-calendar.md`; content identity stays as **Plan Week (PW##)** from `ai-for-sc-plan-v2.md` (Ep01–64). RW01 = PW23 (Supplier evaluation), week of Jun 22 (ISO 2026-W26). Going forward, episodes follow the plan's Ep01–64 numbering; the W21 rows above used an interim unified scheme. Ep05 was also the subject of the 3-way render experiment (`data/2026-W26/render-experiment/`).
 
 *v1 drafts (RFQ with Claude, W21 Leader posts) generated under old Practitioner/Leader format — not published, superseded by v2. Files on `update/voice-v1-and-tracker-cleanup` branch for reference.*
 
@@ -45,8 +49,8 @@
 
 | Role | Times Used | Last Used Week |
 |---|---|---|
-| Purchaser | 1 | W21 |
-| Category Manager | 1 | W21 |
+| Purchaser | 2 | W26 |
+| Category Manager | 2 | W26 |
 
 ---
 
@@ -54,7 +58,7 @@
 
 | AI Tool | Times Used | Last Used Week |
 |---|---|---|
-| Claude | 1 | W21 |
+| Claude | 2 | W26 |
 | ChatGPT | 1 | W21 |
-| Copilot | — | — |
+| Copilot | 1 | W26 |
 | Grok | — | — |

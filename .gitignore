@@ -39,3 +39,11 @@ Thumbs.db
 
 # Excel temp files
 ~$*
+
+# HyperFrames skills library (56MB tooling; re-add with: npx skills add heygen-com/hyperframes)
+/.agents/
+/.claude/skills/
+/skills-lock.json
+
+# Renderer scratch frames
+infographic-setup/renderer/out/_frames/
