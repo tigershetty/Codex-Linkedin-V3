@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--
+  PF7 — Cobalt Grid Edition
+  AI for SC · Ep01 · Enterprise RFQ · "...using Claude"
+  Design system: Cobalt Grid (FRAME.md) — cream #F0EBDE + cobalt #1F2BE0 only.
+  Typography: Newsreader 400 (display/headlines) · Hanken Grotesk 400/600 (body/labels) · DM Mono 400 (chrome).
+  Permanent 2cqw graph-paper grid · top+bottom cobalt hairlines.
+  Pixel-glitch column (header zone) · QR-block (top-right corner).
+  0 radius · 0 shadow · 0 gradient · 0 second hue · strictly two-color.
+  Canvas 1080×1350 (4:5 portrait). Content: same as pf7-blueprint-draft (RFQ + Scorecard + Prompt + Bids + Timeline).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&family=Hanken+Grotesk:wght@400;600&family=DM+Mono:opsz,wght@6..14,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:    #F0EBDE;
+    --paper-2:  #E6E0CE;
+    --ink:      #1F2BE0;
+    --ink-soft: #5560E5;
+    --grid:     rgba(31,43,224,0.10);
+    --ink-faint:rgba(31,43,224,0.18);
+    --news: 'Newsreader', Georgia, serif;
+    --hank: 'Hanken Grotesk', system-ui, sans-serif;
+    --mono: 'DM Mono', 'Courier New', monospace;
+  }
+  *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#c8bfb2; }
+
+  /* ── CANVAS ── */
+  .canvas {
+    width: 1080px; height: 1350px;
+    position: relative; overflow: hidden;
+    background-color: var(--paper);
+    background-image:
+      linear-gradient(var(--grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size: 21.6px 21.6px;
+    container-type: size;
+    font-family: var(--hank);
+    color: var(--ink);
+  }
+
+  /* ── HAIRLINES (via ::before top / ::after bottom) ── */
+  .canvas::before, .canvas::after {
+    content: '';
+    position: absolute;
+    left: 44px; right: 44px;
+    height: 1.5px;
+    background: var(--ink);
+    z-index: 20;
+  }
+  .canvas::before { top: 26px; }
+  .canvas::after  { bottom: 26px; }
+
+  /* ── PIXEL-GLITCH COLUMN (header zone only, right edge) ── */
+  .glitch {
+    position: absolute; right: 0; top: 0;
+    width: 170px; height: 248px;
+    z-index: 2; pointer-events: none; overflow: hidden;
+  }
+  .gstep {
+    position: absolute; right: 0;
+    background: repeating-linear-gradient(
+      90deg,
+      rgba(31,43,224,0.13) 0 2px,
+      transparent 2px 8px
+    );
+  }
+  .g1 { top:0;   height:88px;  width:170px; }
+  .g2 { top:88px;  height:72px;  width:132px; }
+  .g3 { top:160px; height:56px;  width:98px;  }
+  .g4 { top:216px; height:32px;  width:64px;  }
+
+  /* ── QR-BLOCK (top-right corner, above glitch) ── */
+  .qr {
+    position: absolute; top: 40px; right: 50px;
+    width: 62px; height: 62px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 1.5px;
+    background: var(--paper);
+    z-index: 15;
+    outline: 1.5px solid var(--paper);
+  }
+  .qr .c    { background: var(--grid); }
+  .qr .c.on { background: var(--ink);  }
+
+  /* ── HEADER ── */
+  .hdr {
+    position: absolute;
+    left: 44px; right: 210px;
+    top: 40px;
+  }
+  .kicker {
+    font-family: var(--mono); font-size: 10px;
+    letter-spacing: 0.09em; color: var(--ink); opacity: 0.60;
+    margin-bottom: 12px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .kicker .ep {
+    font-family: var(--mono); font-size: 9px;
+    background: var(--ink); color: var(--paper);
+    padding: 2px 6px; letter-spacing: 0.05em;
+  }
+  .title {
+    font-family: var(--news); font-size: 48px;
+    font-weight: 400; line-height: 1.0;
+    color: var(--ink); letter-spacing: -0.010em;
+    margin-bottom: 12px;
+  }
+  .lede {
+    font-family: var(--hank); font-size: 13px;
+    font-weight: 400; color: var(--ink); opacity: 0.68;
+    line-height: 1.5; max-width: 560px; margin-bottom: 18px;
+  }
+
+  /* STAT CALLOUT (before→after) */
+  .stat-row {
+    display: flex; align-items: center; gap: 20px;
+  }
+  .stat-block { display: flex; flex-direction: column; gap: 3px; }
+  .stat-lbl {
+    font-family: var(--mono); font-size: 9px;
+    letter-spacing: 0.09em; text-transform: uppercase;
+    color: var(--ink); opacity: 0.50;
+  }
+  .stat-val {
+    font-family: var(--news); font-size: 40px;
+    font-weight: 400; color: var(--ink);
+    line-height: 1.0; letter-spacing: -0.006em;
+  }
+  .stat-val.soft { color: var(--ink-soft); }
+  .stat-arr {
+    font-family: var(--mono); font-size: 22px;
+    color: var(--ink); opacity: 0.40;
+  }
+
+  /* ── SECTION RULES ── */
+  .hrule {
+    position: absolute; left: 44px; right: 44px;
+    height: 1.5px; background: var(--ink); z-index: 6;
+  }
+
+  /* ── TOPBAR-RULE (section header) ── */
+  .topbar {
+    display: flex; align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 6px;
+    border-bottom: 1.5px solid var(--ink);
+    margin-bottom: 0;
+  }
+  .tb-name {
+    font-family: var(--news); font-size: 13px;
+    font-weight: 400; color: var(--ink); letter-spacing: -0.005em;
+  }
+  .tb-name.mono {
+    font-family: var(--mono); font-size: 11px;
+    letter-spacing: 0.04em;
+  }
+  .tb-tag {
+    font-family: var(--mono); font-size: 9px;
+    color: var(--ink); letter-spacing: 0.06em; opacity: 0.45;
+  }
+
+  /* ── LEDGER ROWS (RFQ Package, What You Get) ── */
+  .lr {
+    display: grid; grid-template-columns: 24px 1fr;
+    gap: 10px; padding: 6.5px 0; align-items: start;
+    border-bottom: 1px solid var(--ink-faint);
+  }
+  .lr:last-child { border-bottom: none; }
+  .lr-n {
+    font-family: var(--mono); font-size: 9px;
+    color: var(--ink); opacity: 0.40;
+    letter-spacing: 0.03em; padding-top: 2px;
+  }
+  .lr-name {
+    font-family: var(--news); font-size: 13px;
+    font-weight: 400; color: var(--ink); line-height: 1.2;
+  }
+  .lr-desc {
+    font-family: var(--hank); font-size: 10.5px;
+    color: var(--ink); opacity: 0.58; margin-top: 2px;
+    line-height: 1.35;
+  }
+
+  /* ── PIXEL-STACK BARS ── */
+  .pstack-row {
+    display: grid; grid-template-columns: 1fr 180px 32px;
+    gap: 10px; padding: 7px 0; align-items: center;
+    border-bottom: 1px solid var(--ink-faint);
+  }
+  .pstack-row:last-child { border-bottom: none; }
+  .pstack-lbl {
+    font-family: var(--news); font-size: 12px;
+    font-weight: 400; color: var(--ink); line-height: 1.2;
+  }
+  .pstack-lbl small {
+    display: block; font-family: var(--hank); font-size: 9.5px;
+    opacity: 0.52; margin-top: 2px; font-style: normal;
+  }
+  .pstack {
+    --val: 30%;
+    position: relative; height: 11px; overflow: hidden;
+  }
+  .pstack::before {
+    content: ''; position: absolute; inset: 0;
+    background: repeating-linear-gradient(
+      90deg, rgba(31,43,224,0.10) 0 4px, transparent 4px 6px
+    );
+  }
+  .pstack::after {
+    content: ''; position: absolute;
+    top: 0; left: 0; bottom: 0; width: var(--val);
+    background: repeating-linear-gradient(
+      90deg, var(--ink) 0 4px, transparent 4px 6px
+    );
+  }
+  .pstack-row.lead .pstack::after { opacity: 1; }
+  .pstack-row:not(.lead) .pstack::after { opacity: 0.65; }
+  .pstack-pct {
+    font-family: var(--mono); font-size: 11px;
+    color: var(--ink); text-align: right;
+    letter-spacing: -0.01em;
+  }
+  .pstack-row:not(.lead) .pstack-pct { opacity: 0.65; }
+  .ps-note {
+    margin-top: 8px; padding: 8px 10px;
+    border: 1px solid var(--ink-faint);
+    background: rgba(31,43,224,0.04);
+    font-family: var(--hank); font-size: 10.5px;
+    color: var(--ink); line-height: 1.4; opacity: 0.85;
+  }
+  .ps-note b { font-weight: 600; }
+
+  /* ── PROMPT BLOCK ── */
+  .prompt-body {
+    background: var(--paper-2);
+    padding: 10px 12px;
+  }
+  .p-lead {
+    font-family: var(--mono); font-size: 10.5px;
+    color: var(--ink); line-height: 1.5;
+    margin-bottom: 7px; opacity: 0.88;
+  }
+  .p-lead u { text-underline-offset: 2px; }
+  .pstep {
+    display: flex; gap: 7px; margin-bottom: 4.5px;
+    font-family: var(--mono); font-size: 10px;
+    color: var(--ink); line-height: 1.3; opacity: 0.78;
+  }
+  .pstep .dot { flex: 0 0 auto; opacity: 0.50; }
+  .pstep b {
+    font-family: var(--hank); font-size: 10px;
+    font-weight: 600; opacity: 1;
+  }
+  .p-close {
+    font-family: var(--mono); font-size: 10px;
+    color: var(--ink); line-height: 1.4;
+    margin-top: 7px; opacity: 0.78;
+  }
+  .p-close u { text-underline-offset: 2px; }
+
+  /* ── BID SCORES ── */
+  .bid-row {
+    display: grid; grid-template-columns: 96px 1fr 38px;
+    gap: 10px; padding: 7px 0; align-items: center;
+    border-bottom: 1px solid var(--ink-faint);
+  }
+  .bid-row:last-child { border-bottom: none; }
+  .bid-name {
+    font-family: var(--news); font-size: 12px;
+    color: var(--ink); line-height: 1.2;
+  }
+  .bid-name small {
+    display: block; font-family: var(--hank); font-size: 9.5px;
+    opacity: 0.52;
+  }
+  .bid-pstack {
+    --val: 74%;
+    position: relative; height: 9px; overflow: hidden;
+  }
+  .bid-pstack::before {
+    content: ''; position: absolute; inset: 0;
+    background: repeating-linear-gradient(
+      90deg, rgba(31,43,224,0.10) 0 4px, transparent 4px 6px
+    );
+  }
+  .bid-pstack::after {
+    content: ''; position: absolute;
+    top: 0; left: 0; bottom: 0; width: var(--val);
+    background: repeating-linear-gradient(
+      90deg, var(--ink) 0 4px, transparent 4px 6px
+    );
+  }
+  .bid-row.win .bid-pstack::after { opacity: 1; }
+  .bid-row:not(.win) .bid-pstack::after { opacity: 0.40; }
+  .bid-score {
+    font-family: var(--mono); font-size: 13px;
+    color: var(--ink); text-align: right;
+  }
+  .bid-row.win .bid-score { font-size: 15px; }
+  .bid-row.lose .bid-score { opacity: 0.38; }
+  .bid-note {
+    font-family: var(--hank); font-size: 10.5px;
+    color: var(--ink); opacity: 0.68; margin-top: 5px;
+  }
+  .bid-note b { font-weight: 600; }
+
+  /* ── WHAT YOU GET ── */
+  .got-row {
+    display: flex; gap: 9px; align-items: center;
+    padding: 7.5px 0; border-bottom: 1px solid var(--ink-faint);
+    font-family: var(--hank); font-size: 12.5px;
+    font-weight: 600; color: var(--ink); letter-spacing: 0.005em;
+  }
+  .got-row:last-child { border-bottom: none; }
+  .got-arr {
+    font-family: var(--mono); font-size: 13px; opacity: 0.38;
+    flex: 0 0 auto;
+  }
+
+  /* ── TIMELINE ── */
+  .tl-wrap {
+    position: relative;
+    display: flex; justify-content: space-between; align-items: flex-start;
+    margin-top: 14px; padding: 0 2px;
+  }
+  .tl-wrap::before {
+    content: ''; position: absolute;
+    left: 10px; right: 10px; top: 9px;
+    height: 1.5px; background: var(--ink); z-index: 0;
+  }
+  .tl-node {
+    display: flex; flex-direction: column;
+    align-items: center; gap: 6px; z-index: 1;
+    width: 80px;
+  }
+  .tl-dot {
+    width: 19px; height: 19px;
+    background: var(--paper); border: 1.5px solid var(--ink);
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--mono); font-size: 8.5px; color: var(--ink);
+    letter-spacing: -0.01em;
+  }
+  .tl-node.award .tl-dot {
+    background: var(--ink); color: var(--paper);
+  }
+  .tl-lbl {
+    font-family: var(--hank); font-size: 10.5px; font-weight: 600;
+    color: var(--ink); text-align: center; line-height: 1.2;
+    letter-spacing: 0.005em;
+  }
+
+  /* ── WATCH-FOR ── */
+  .watch {
+    position: absolute; left: 44px; right: 44px;
+    border-left: 3px solid var(--ink);
+    border-top: 1px solid var(--ink-faint);
+    border-right: 1px solid var(--ink-faint);
+    border-bottom: 1px solid var(--ink-faint);
+    padding: 14px 18px 14px 16px;
+    display: flex; gap: 12px; align-items: flex-start;
+  }
+  .watch-lbl {
+    font-family: var(--mono); font-size: 8.5px;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--ink); opacity: 0.45; flex: 0 0 auto;
+    margin-top: 2px; writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+  .watch-txt {
+    font-family: var(--hank); font-size: 12.5px;
+    font-weight: 400; color: var(--ink); line-height: 1.5;
+    opacity: 0.82;
+  }
+  .watch-txt b { font-weight: 600; opacity: 1; }
+
+  /* ── BOTTOM CHROME ── */
+  .chrome {
+    position: absolute; left: 44px; right: 44px; bottom: 34px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .chrome-meta {
+    font-family: var(--mono); font-size: 9px;
+    color: var(--ink); letter-spacing: 0.07em; opacity: 0.44;
+  }
+  .chrome-right {
+    display: flex; align-items: center; gap: 14px;
+  }
+  .chrome-logo img {
+    height: 32px; width: auto; object-fit: contain; opacity: 0.70;
+  }
+  .chrome-num {
+    font-family: var(--mono); font-size: 14px;
+    color: var(--ink); opacity: 0.28; letter-spacing: -0.01em;
+  }
+
+  /* ── ORBIT ROUTE + RUNNER ── */
+  .route { position:absolute; inset:0; z-index:7; pointer-events:none; }
+  .runner-layer { position:absolute; inset:0; z-index:8; pointer-events:none; }
+  .runner {
+    position:absolute; left:0; top:0;
+    width:13px; height:13px; color:var(--ink);
+    will-change:transform; opacity:0.70;
+  }
+  .runner svg { width:100%; height:100%; fill:currentColor; }
+  .ghost {
+    position:absolute; left:0; top:0; width:4px; height:4px;
+    background:var(--ink); will-change:transform,opacity;
+  }
+</style>
+</head>
+<body>
+<div class="canvas" id="card">
+
+  <!-- ── Pixel-glitch (header zone, right edge) ── -->
+  <div class="glitch">
+    <div class="gstep g1"></div>
+    <div class="gstep g2"></div>
+    <div class="gstep g3"></div>
+    <div class="gstep g4"></div>
+  </div>
+
+  <!-- ── QR-block (top-right corner) ── -->
+  <div class="qr">
+    <!-- 8×8 hand-authored finder-pattern mosaic -->
+    <div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div>
+    <div class="c on"></div><div class="c   "></div><div class="c   "></div><div class="c   "></div><div class="c   "></div><div class="c   "></div><div class="c   "></div><div class="c on"></div>
+    <div class="c on"></div><div class="c   "></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c   "></div><div class="c   "></div><div class="c on"></div>
+    <div class="c on"></div><div class="c   "></div><div class="c on"></div><div class="c   "></div><div class="c   "></div><div class="c on"></div><div class="c   "></div><div class="c on"></div>
+    <div class="c on"></div><div class="c   "></div><div class="c on"></div><div class="c on"></div><div class="c   "></div><div class="c on"></div><div class="c   "></div><div class="c on"></div>
+    <div class="c on"></div><div class="c   "></div><div class="c   "></div><div class="c   "></div><div class="c on"></div><div class="c   "></div><div class="c   "></div><div class="c on"></div>
+    <div class="c on"></div><div class="c   "></div><div class="c   "></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div>
+    <div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div><div class="c on"></div>
+  </div>
+
+  <!-- ── HEADER ── -->
+  <div class="hdr">
+    <div class="kicker">
+      AI FOR SUPPLY CHAIN &nbsp;·&nbsp; ENTERPRISE RFQ
+      <span class="ep">EP01</span>
+    </div>
+    <div class="title">One brief in.<br>A scored RFQ out.</div>
+    <div class="lede">What a category buyer at enterprise scale actually issues — drafted in 20 minutes with Claude.</div>
+    <div class="stat-row">
+      <div class="stat-block">
+        <div class="stat-lbl">By hand</div>
+        <div class="stat-val">~3 hrs</div>
+      </div>
+      <div class="stat-arr">→</div>
+      <div class="stat-block">
+        <div class="stat-lbl">With Claude</div>
+        <div class="stat-val soft">20 min</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Content-zone top rule ── -->
+  <div class="hrule" style="top:252px;"></div>
+
+  <!-- ── Vertical column divider ── -->
+  <div style="position:absolute; left:540px; top:260px; height:754px; width:1.5px; background:var(--ink); z-index:5;"></div>
+
+  <!-- ════════════════ LEFT COLUMN ════════════════ -->
+
+  <!-- Block A: The RFQ Package -->
+  <div style="position:absolute; left:44px; top:260px; width:484px;">
+    <div class="topbar">
+      <span class="tb-name">The RFQ Package</span>
+      <span class="tb-tag">RFQ-2026-0412 · REV.A</span>
+    </div>
+    <div style="margin-top:2px;">
+      <div class="lr">
+        <div class="lr-n">01</div>
+        <div>
+          <div class="lr-name">Scope &amp; Bill of Materials</div>
+          <div class="lr-desc">Part numbers, drawings, 3-year volume tiers.</div>
+        </div>
+      </div>
+      <div class="lr">
+        <div class="lr-n">02</div>
+        <div>
+          <div class="lr-name">Technical specification</div>
+          <div class="lr-desc">Tolerances, materials, IATF 16949 / ISO 9001.</div>
+        </div>
+      </div>
+      <div class="lr">
+        <div class="lr-n">03</div>
+        <div>
+          <div class="lr-name">Quality &amp; PPAP</div>
+          <div class="lr-desc">PPAP Level 3, FAIR, RoHS / REACH, conflict minerals.</div>
+        </div>
+      </div>
+      <div class="lr">
+        <div class="lr-n">04</div>
+        <div>
+          <div class="lr-name">Commercial terms</div>
+          <div class="lr-desc">Unit + tooling/NRE, Incoterms DDP, Net 60, price breaks.</div>
+        </div>
+      </div>
+      <div class="lr">
+        <div class="lr-n">05</div>
+        <div>
+          <div class="lr-name">Capacity &amp; continuity</div>
+          <div class="lr-desc">Committed capacity, ±20% flex, BCP, dual-source.</div>
+        </div>
+      </div>
+      <div class="lr">
+        <div class="lr-n">06</div>
+        <div>
+          <div class="lr-name">ESG &amp; supplier code</div>
+          <div class="lr-desc">Scope 3 data, audit rights, code of conduct.</div>
+        </div>
+      </div>
+      <div class="lr">
+        <div class="lr-n">07</div>
+        <div>
+          <div class="lr-name">Submission protocol</div>
+          <div class="lr-desc">Sealed bid event, Q&amp;A window, deadline.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Faint mid-divider (separates top-row blocks from bottom-row blocks) -->
+  <div style="position:absolute; left:44px; right:44px; top:624px; height:1px; background:var(--ink-faint); z-index:4;"></div>
+
+  <!-- Block C: Prompt -->
+  <div style="position:absolute; left:44px; top:634px; width:484px;">
+    <div class="topbar">
+      <span class="tb-name mono">&gt; COPY-PASTE PROMPT FOR CLAUDE</span>
+      <span class="tb-tag">VERBATIM</span>
+    </div>
+    <div class="prompt-body" style="margin-top:0;">
+      <div class="p-lead">"Draft a complete enterprise RFQ for <u>[category]</u>, volume <u>[X]</u>, covering:</div>
+      <div class="pstep"><span class="dot">›</span><span><b>Scope &amp; BOM</b> — parts, drawings, 3-yr volumes</span></div>
+      <div class="pstep"><span class="dot">›</span><span><b>Spec</b> — tolerances, IATF 16949 / ISO 9001</span></div>
+      <div class="pstep"><span class="dot">›</span><span><b>Quality</b> — PPAP L3, RoHS / REACH, conflict minerals</span></div>
+      <div class="pstep"><span class="dot">›</span><span><b>Commercial</b> — Incoterms DDP, Net 60, price breaks</span></div>
+      <div class="pstep"><span class="dot">›</span><span><b>Capacity</b> — committed, ±20% flex, BCP, dual-source</span></div>
+      <div class="pstep"><span class="dot">›</span><span><b>ESG</b> — Scope 3 data, supplier code + audit rights</span></div>
+      <div class="pstep"><span class="dot">›</span><span><b>Submission</b> — sealed bid, Q&amp;A window, deadline</span></div>
+      <div class="p-close">Then add a <u>TCO-weighted scoring matrix</u> and output a supplier-ready RFQ + scoring table."</div>
+    </div>
+  </div>
+
+  <!-- ════════════════ RIGHT COLUMN ════════════════ -->
+
+  <!-- Block B: Weighted Scorecard -->
+  <div style="position:absolute; left:556px; top:260px; right:44px;">
+    <div class="topbar">
+      <span class="tb-name">Weighted Scorecard</span>
+      <span class="tb-tag">TCO, NOT UNIT PRICE</span>
+    </div>
+    <div style="margin-top:2px;">
+      <div class="pstack-row lead">
+        <div class="pstack-lbl">Total Cost of Ownership<small>landed + quality + lifecycle</small></div>
+        <div class="pstack" style="--val:30%;"></div>
+        <div class="pstack-pct">30%</div>
+      </div>
+      <div class="pstack-row">
+        <div class="pstack-lbl">Quality &amp; compliance<small>defect rate, certifications</small></div>
+        <div class="pstack" style="--val:20%;"></div>
+        <div class="pstack-pct">20%</div>
+      </div>
+      <div class="pstack-row">
+        <div class="pstack-lbl">Delivery &amp; lead time<small>OTIF, ramp capability</small></div>
+        <div class="pstack" style="--val:18%;"></div>
+        <div class="pstack-pct">18%</div>
+      </div>
+      <div class="pstack-row">
+        <div class="pstack-lbl">Technical capability<small>process, R&amp;D, tooling</small></div>
+        <div class="pstack" style="--val:15%;"></div>
+        <div class="pstack-pct">15%</div>
+      </div>
+      <div class="pstack-row">
+        <div class="pstack-lbl">Financial stability<small>credit, continuity risk</small></div>
+        <div class="pstack" style="--val:10%;"></div>
+        <div class="pstack-pct">10%</div>
+      </div>
+      <div class="pstack-row">
+        <div class="pstack-lbl">Sustainability (ESG)<small>Scope 3, code adherence</small></div>
+        <div class="pstack" style="--val:7%;"></div>
+        <div class="pstack-pct">7%</div>
+      </div>
+    </div>
+    <div class="ps-note">
+      <b>Set the weights before any quote lands.</b> They turn the decision into your priorities, not the slickest proposal.
+    </div>
+  </div>
+
+  <!-- Block D: Bid Scores -->
+  <div style="position:absolute; left:556px; top:634px; right:44px;">
+    <div class="topbar">
+      <span class="tb-name">How the scores land</span>
+      <span class="tb-tag">SAME 3 QUOTES · YOUR WEIGHTS</span>
+    </div>
+    <div style="margin-top:2px;">
+      <div class="bid-row lose">
+        <div class="bid-name">Supplier A<small>lowest price</small></div>
+        <div class="bid-pstack" style="--val:74%;"></div>
+        <div class="bid-score">7.4</div>
+      </div>
+      <div class="bid-row win">
+        <div class="bid-name">Supplier B<small>winner on TCO</small></div>
+        <div class="bid-pstack" style="--val:100%;"></div>
+        <div class="bid-score">8.1</div>
+      </div>
+      <div class="bid-row">
+        <div class="bid-name">Supplier C<small>mid-field</small></div>
+        <div class="bid-pstack" style="--val:69%;"></div>
+        <div class="bid-score">6.9</div>
+      </div>
+    </div>
+    <div class="bid-note"><b>Lowest price lost.</b> B won on delivery and quality.</div>
+  </div>
+
+  <!-- Block E: What You Get -->
+  <div style="position:absolute; left:556px; top:826px; right:44px;">
+    <div class="topbar">
+      <span class="tb-name">What you get back</span>
+      <span class="tb-tag">IN ONE PASS</span>
+    </div>
+    <div style="margin-top:2px;">
+      <div class="got-row">
+        <span class="got-arr">↗</span>
+        <span>A supplier-ready RFQ document</span>
+      </div>
+      <div class="got-row">
+        <span class="got-arr">↗</span>
+        <span>The weighted scoring table</span>
+      </div>
+      <div class="got-row">
+        <span class="got-arr">↗</span>
+        <span>Ready to drop into your e-sourcing tool</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Content-zone bottom rule ── -->
+  <div class="hrule" style="top:1014px;"></div>
+
+  <!-- ── TIMELINE ── -->
+  <div style="position:absolute; left:44px; right:44px; top:1024px;">
+    <div class="topbar">
+      <span class="tb-name">RFQ Timeline</span>
+      <span class="tb-tag">ISSUE TO AWARD</span>
+    </div>
+    <div class="tl-wrap">
+      <div class="tl-node">
+        <div class="tl-dot">D0</div>
+        <div class="tl-lbl">Issue RFQ</div>
+      </div>
+      <div class="tl-node">
+        <div class="tl-dot">D3</div>
+        <div class="tl-lbl">Q&amp;A opens</div>
+      </div>
+      <div class="tl-node">
+        <div class="tl-dot">D10</div>
+        <div class="tl-lbl">Bids due</div>
+      </div>
+      <div class="tl-node">
+        <div class="tl-dot">D14</div>
+        <div class="tl-lbl">Score &amp; shortlist</div>
+      </div>
+      <div class="tl-node award">
+        <div class="tl-dot">D17</div>
+        <div class="tl-lbl">Award</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── WATCH-FOR ── -->
+  <div class="watch" style="top:1163px;">
+    <div class="watch-lbl">NOTE</div>
+    <div class="watch-txt">
+      <b>Claude drafts to the standard. You own the spec and the weights.</b> They encode your category strategy and your firm's risk tolerance, so sign off before the event goes live.
+    </div>
+  </div>
+
+  <!-- ── BOTTOM CHROME ── -->
+  <div class="chrome">
+    <div class="chrome-meta">SHETTY'S DESK &nbsp;·&nbsp; AI FOR SUPPLY CHAIN &nbsp;·&nbsp; EP01</div>
+    <div class="chrome-right">
+      <div class="chrome-logo">
+        <img src="../assets/logos/shettys-desk-logo-4.png" alt="Shetty's Desk">
+      </div>
+      <div class="chrome-num">01</div>
+    </div>
+  </div>
+
+  <!-- ── AMBIENT ORBIT (Claude logo traces the margin perimeter) ── -->
+  <svg class="route" viewBox="0 0 1080 1350" preserveAspectRatio="none">
+    <path id="routePath"
+      d="M 66,22 H 1014 A 40,40 0 0 1 1054,62 V 1130 A 40,40 0 0 1 1014,1170 H 66 A 40,40 0 0 1 26,1130 V 62 A 40,40 0 0 1 66,22 Z"
+      fill="none"
+      stroke="rgba(31,43,224,0.18)"
+      stroke-width="1.5"
+      stroke-dasharray="1.5 10"
+      stroke-linecap="round"
+    />
+  </svg>
+  <div class="runner-layer">
+    <div class="runner"></div>
+  </div>
+
+</div>
+
+<script src="../assets/js/gsap.min.js"></script>
+<script>
+  function buildPath() {
+    const route  = document.getElementById('routePath');
+    const L      = route.getTotalLength();
+    const layer  = document.querySelector('.runner-layer');
+    const runner = document.querySelector('.runner');
+
+    // Claude logo — cobalt coloured
+    runner.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="nonzero" d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-2.266-.122-.571-.121L0 11.784l.055-.352.48-.321.686.06 1.52.103 2.278.158 1.652.097 2.449.255h.389l.055-.157-.134-.098-.103-.097-2.358-1.596-2.552-1.688-1.336-.972-.724-.491-.364-.462-.158-1.008.656-.722.881.06.225.061.893.686 1.908 1.476 2.491 1.833.365.304.145-.103.019-.073-.164-.274-1.355-2.446-1.446-2.49-.644-1.032-.17-.619a2.97 2.97 0 01-.104-.729L6.283.134 6.696 0l.996.134.42.364.62 1.414 1.002 2.229 1.555 3.03.456.898.243.832.091.255h.158V9.01l.128-1.706.237-2.095.23-2.695.08-.76.376-.91.747-.492.584.28.48.685-.067.444-.286 1.851-.559 2.903-.364 1.942h.212l.243-.242.985-1.306 1.652-2.064.73-.82.85-.904.547-.431h1.033l.76 1.129-.34 1.166-1.064 1.347-.881 1.142-1.264 1.7-.79 1.36.073.11.188-.02 2.856-.606 1.543-.28 1.841-.315.833.388.091.395-.328.807-1.969.486-2.309.462-3.439.813-.042.03.049.061 1.549.146.662.036h1.622l3.02.225.79.522.474.638-.079.485-1.215.62-1.64-.389-3.829-.91-1.312-.329h-.182v.11l1.093 1.068 2.006 1.81 2.509 2.33.127.578-.322.455-.34-.049-2.205-1.657-.851-.747-1.926-1.62h-.128v.17l.444.649 2.345 3.521.122 1.08-.17.353-.608.213-.668-.122-1.374-1.925-1.415-2.167-1.143-1.943-.14.08-.674 7.254-.316.37-.729.28-.607-.461-.322-.747.322-1.476.389-1.924.315-1.53.286-1.9.17-.632-.012-.042-.14.018-1.434 1.967-2.18 2.945-1.726 1.845-.414.164-.717-.37.067-.662.401-.589 2.388-3.036 1.44-1.882.93-1.086-.006-.158h-.055L4.132 18.56l-1.13.146-.487-.456.061-.746.231-.243 1.908-1.312-.006.006z"/></svg>`;
+
+    const NG = 8;
+    const ghosts = [];
+    for (let i = 0; i < NG; i++) {
+      const g = document.createElement('div');
+      g.className = 'ghost';
+      layer.insertBefore(g, runner);
+      ghosts.push(g);
+    }
+
+    const place = (el, prog, half) => {
+      const p  = ((prog % 1) + 1) % 1;
+      const pt = route.getPointAtLength(p * L);
+      gsap.set(el, { x: pt.x - half, y: pt.y - half });
+    };
+
+    const state = { p: 0 };
+    const D     = 60; // 60-second orbit loop
+    const tl    = gsap.timeline({ paused: true, defaults: { ease: 'none' } });
+    tl.to(state, {
+      p: 1, duration: D,
+      onUpdate: () => {
+        place(runner, state.p, 6.5);
+        for (let i = 0; i < NG; i++) {
+          place(ghosts[i], state.p - (i + 1) * 0.0028, 2);
+          gsap.set(ghosts[i], {
+            opacity: 0.32 * (1 - i / NG),
+            scale:   1 - i * 0.07
+          });
+        }
+      }
+    });
+
+    tl.progress(0);
+    window.__tl  = tl;
+    window.__dur = D;
+    window.__ready = true;
+  }
+
+  if (document.readyState === 'complete') buildPath();
+  else window.addEventListener('load', buildPath);
+</script>
+</body>
+</html>
