@@ -18,7 +18,7 @@ Version-controlled for remote Claude Code access (web/mobile).
 Two active pipelines share one 7-month monthly theme calendar:
 - **Supply Chain 101** (`/101`) — Posts 1 + 2 each week, plain-language concepts. Visual: **ChatGPT (GPT Image 2)**.
 - **AI for Supply Chain** (`/ai-for-sc`) — Posts 3 + 4 each week, role-based AI use cases. Visual: **code-render** (`infographic-setup/renderer/`, HTML→PNG/GIF/MP4).
-- **Deep Dive** (`/infographic`) — data-heavy research pipeline, **paused**. Visual: Gemini Gem.
+- **Deep Dive** — data-heavy research pipeline, **archived** (`infographic-setup/skills-archive/deep-dive/`).
 
 Plans (single sources of truth):
 - Master calendar: `infographic-setup/references/master-calendar.md`
@@ -30,7 +30,7 @@ Plans (single sources of truth):
 - **Interview plan:** `voice-interview-plan.md`. Applies to all writing: captions, posts, copy, emails.
 
 ## Gemini — Two Separate Uses
-1. **Infographic Gem** ("Shetty's Desk — Infographic Engine") — Deep Dive only (paused). Requires `infographic-setup/references/brand-anchor-v1.webp` upload each session.
+1. **Infographic Gem** ("Shetty's Desk — Infographic Engine") — for the archived Deep Dive pipeline. Requires `infographic-setup/references/brand-anchor-v1.webp` upload each session.
 2. **General Gemini** — research, image generation, ad-hoc tasks.
 
 ## Global Workflow Rules

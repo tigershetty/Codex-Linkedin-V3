@@ -1,40 +1,32 @@
 # Infographic Content Engine — Shetty's Desk
 
+A Claude Code pipeline that produces LinkedIn supply chain infographics for Tiger Shetty's
+"Shetty's Desk" brand. **Two active pipelines, one engine.** (Deep Dive is archived — see below.)
+
 ## Session Start — Do This First
 1. Check `data/` for the current ISO week folder and active slug
 2. Report which stage the active slug is at (which files exist)
 3. **Auto-check for incomplete AI for SC posts**: scan for any `{slug}/` folders containing `ai-for-sc-[slug].md` — note any where a PDF was likely requested but `ai-for-sc-[slug]-pdf.md` is missing
-4. **Ask: "Deep Dive, Supply Chain 101, or AI for Supply Chain?"** — this determines the pipeline (CG0)
-5. For Deep Dive: remind to upload `references/brand-anchor-v1.webp` to the Gemini Gem
-6. Flag any incomplete gates: CG1 (topic not selected), CG2 (hook not selected — deep dive only)
+4. **Ask: "Supply Chain 101 or AI for Supply Chain?"** — this determines the pipeline
 
-## What This Is
-A Claude Code pipeline that produces LinkedIn supply chain infographics for Tiger Shetty's
-"Shetty's Desk" brand. Two content types, two pipelines, one engine.
-
-## CG0 — Content Type Selection (Control Gate 0)
-
-Before any work starts, determine the content type:
+## Pick the Pipeline
 
 ```
-"Which content type are we working on today?"
-
-  [1] Supply Chain 101       → /101 pipeline (foundational, educational, monthly theme model)
+  [1] Supply Chain 101       → /101 pipeline (foundational, educational)
   [2] AI for Supply Chain    → /ai-for-sc pipeline (two role-based AI use-case posts, optional PDF)
-  [3] Deep Dive              → /infographic pipeline (data-heavy, case-study driven) [PAUSED]
 ```
 
-| | Supply Chain 101 | AI for Supply Chain | Deep Dive |
-|---|---|---|---|
-| Audience | Experts AND non-practitioners | Any SC role — role called out by the task (purchaser, planner, logistics coordinator, etc.) | VP Supply Chain, COO, Directors |
-| Vocabulary | Plain language, technical terms explained | Action-oriented, tool-specific, no hype | Industry-grade, numbers-heavy |
-| Research | None — topics pre-planned in monthly topic bank | None — use cases defined at runtime within monthly theme | Full /research with evidence ledger |
-| Hooks | Metaphor-led, accessible | Role + current limitation + AI unlock — specific enough the right person self-identifies | Data-led, case-study anchored |
-| Caption | 150–300 words, educational tone | 220–320 words, practical, copy-paste level | 200–350 words, 7-part structure with stats |
-| Control gates | None (single-step) | None — PDF is a yes/no gate after caption is approved | CG1 (topic) + CG2 (hook) |
-| Visual | ChatGPT (GPT Image 2) prompt, 101 brand kit + brand anchor | Code-render (`renderer/`) from a render brief — HTML→PNG/GIF/MP4, no AI-image prompt | Gemini with deep-dive visual DNA |
-| Frequency | 2/week (Posts 1+2 in weekly sub-topic) | 2/week (Posts 3+4 in weekly sub-topic) | Paused |
-| Output files | `101-copy.md` | `ai-for-sc-[use-case-slug].md` + optional `ai-for-sc-[use-case-slug]-pdf.md` | `content.md` + `gemini-prompt.md` |
+| | Supply Chain 101 | AI for Supply Chain |
+|---|---|---|
+| Audience | Experts AND non-practitioners | Any SC role — called out by the task (purchaser, planner, logistics coordinator, etc.) |
+| Vocabulary | Plain language, technical terms explained | Action-oriented, tool-specific, no hype |
+| Research | None — topics pre-planned in the topic bank | None — use cases pre-defined in the plan |
+| Hooks | Metaphor-led, accessible | Role + current limitation + AI unlock |
+| Caption | 150–300 words, educational tone | 220–320 words, practical, copy-paste level |
+| Control gates | None (single-step) | None — PDF is a yes/no gate after the caption |
+| Visual | ChatGPT (GPT Image 2) prompt + brand anchor | Code-render (`renderer/`) — HTML→PNG/GIF/MP4 |
+| Frequency | 2/week (Posts 1+2 in the weekly sub-topic) | 2/week (Posts 3+4 in the weekly sub-topic) |
+| Output | `101-copy.md` | `ai-for-sc-[use-case-slug].md` (+ optional `-pdf.md`) |
 
 ---
 
@@ -61,14 +53,14 @@ Topics come from `references/101-plan.md` (see also `references/master-calendar.
 
 ---
 
-## Pipeline 2: AI for Supply Chain (v2 — updated 2026-06-07)
+## Pipeline 2: AI for Supply Chain
 
 ```
 /ai-for-sc [week]                 ← generates BOTH use-case posts for that week
 /ai-for-sc [week] [use-case-slug] ← generates one specific post
 ```
 
-Generates two practical AI use-case posts per week within the monthly theme. No fixed audience tiers (Practitioner/Leader) — each post is written for a specific SC role determined by the task. Both posts stay practical, concrete, and copy-paste ready.
+Generates two practical AI use-case posts per week within the monthly theme. No fixed audience tiers — each post is written for a specific SC role determined by the task. Both posts stay practical, concrete, and copy-paste ready.
 
 One week = one theme = two posts. Each post: different SC role, different AI tool, different use case — same theme.
 
@@ -94,36 +86,11 @@ Before generating, the skill loads: `tiger-voice.md`, `references/published-voic
 
 ---
 
-## Pipeline 3: Deep Dive (PAUSED)
+## Deep Dive — ARCHIVED
 
-```
-/infographic              ← start here (no topic selected)
-/infographic [slug]       ← resume from the correct stage
-```
-
-Full stage sequence (with gate positions):
-```
-/scout → [CG1: pick topic] → /research → /message → [CG2: pick hook] → /content → /gemini-prompt
-```
-
-| Command | Trigger condition | Output file |
-|---|---|---|
-| `/scout` | Weekly topic selection | `data/{week}/topic-scout.md` |
-| `/research [slug]` | Topic selected from scout | `data/{week}/{slug}/research.md` |
-| `/message [slug]` | research.md exists | `data/{week}/{slug}/message-commit.md` |
-| `/content [slug]` | message-commit.md exists | `data/{week}/{slug}/content.md` |
-| `/gemini-prompt [slug]` | content.md exists | `data/{week}/{slug}/gemini-prompt.md` |
-| `/retrospective [slug]` | 7 days after publish | `data/{week}/{slug}/performance.md` |
-| `/infographic [slug?]` | Any point in pipeline | Orchestrates all above in sequence |
-
-**Reference files (deep dive only):**
-| File | Purpose |
-|---|---|
-| `references/published-voice.md` | Tiger's voice: 7-part structure, markers, annotated examples, "Do NOT" list |
-| `references/brand-anchor-v1.webp` | Style reference — upload to Gemini Gem each session |
-| `references/gemini-gem-standard.md` | Gemini Gem instructions (paste into gemini.google.com gem setup) |
-| `references/infographic-visual-dna.md` | Visual style system and layout rules |
-| `references/infographic-layout-library.md` | Layout templates and composition patterns |
+The data-heavy, research-backed pipeline (`/scout → /research → /message → /content → /gemini-prompt`)
+is archived under `skills-archive/deep-dive/` (8 skills + deep-dive-only references).
+To resume it, see `skills-archive/deep-dive/README.md`.
 
 ---
 
@@ -132,44 +99,35 @@ Full stage sequence (with gate positions):
 data/
   101-series-tracker.md               ← 101 series published log
   ai-for-sc-series-tracker.md         ← AI for SC published log (role-based use cases)
-  sources.csv                         ← deep dive source library
-  recently-used-sources.md            ← deep dive deduplication
   analytics-log.csv                   ← performance metrics
   {YYYY-W##}/                         ← ISO week folder
-    topic-scout.md                    ← deep dive candidates (deep dive only)
     {topic-slug}/
-      101-copy.md                     ← 101 only (hooks + caption + ChatGPT Image 2 prompt)
-      ai-for-sc-[use-case-slug].md     ← AI for SC post: hooks + caption + render brief (visual is code-rendered to renderer/out/)
+      101-copy.md                     ← 101 (hooks + caption + ChatGPT Image 2 prompt)
+      ai-for-sc-[use-case-slug].md     ← AI for SC post: hooks + caption + render brief (visual code-rendered to renderer/out/)
       ai-for-sc-[use-case-slug]-pdf.md ← AI for SC PDF draft (5-page markdown, only if requested)
-      research.md                     ← deep dive only
-      message-commit.md               ← deep dive only (contains selected hook)
-      content.md                      ← deep dive only
-      gemini-prompt.md                ← deep dive only (101 and AI for SC prompts live in their own files)
-      performance.md                  ← post-publish metrics (7 days later)
+      analytics.md                    ← post-publish metrics
 ```
+(Older week folders may also contain Deep Dive files — `research.md`, `message-commit.md`, `content.md`, `gemini-prompt.md` — from before that pipeline was archived.)
 
 ## Voice Rules
-- **Deep Dive**: @./references/published-voice.md
-- **101**: @./references/101-voice.md
+- **101**: @./references/101-voice.md (+ `tiger-voice.md`)
+- **AI for SC**: `tiger-voice.md` + @./references/published-voice.md + @./references/101-voice.md
 
 ## Gotchas
 - **IKEA content is excluded** — do not use as voice or content reference
-- **NEGATIVE prompt blocks degrade render quality** — never add them to image-generation prompts (101 ChatGPT Image 2 / deep-dive Gemini)
+- **NEGATIVE prompt blocks degrade render quality** — never add them to the 101 ChatGPT (GPT Image 2) prompt
 - **Hooks become the verbatim opening line of the published post** — voice rules apply at hook generation
 - **AI for SC: PDF draft is optional** — after caption + render brief (+ rendered infographic) are presented, ask "Would you like a PDF draft? (Yes / No)" before generating
-- **AI for SC: use cases are pre-defined in `references/ai-for-sc-plan-v2.md`** — load this file at Step 1 and confirm the pre-defined use cases with the user before generating hooks
-- **AI for SC: load tiger-voice.md + published-voice.md + 101-voice.md before generating** — all three references apply
-- **AI for SC: hook must name role + current limitation + AI unlock** — all three elements required; "current limitation" must name the actual tool (SAP, Excel, Power BI) not generic friction
+- **AI for SC: use cases are pre-defined in `references/ai-for-sc-plan-v2.md`** — load it at Step 1 and confirm the pre-defined use cases with the user before generating hooks
+- **AI for SC: load tiger-voice.md + published-voice.md + 101-voice.md before generating** — all three voice references apply
+- **AI for SC: hook must name role + current limitation + AI unlock** — "current limitation" must name the actual tool (SAP, Excel, Power BI), not generic friction
 - **AI for SC: "When NOT to use AI" sentence is mandatory in every post** — it is the trust signal, not optional
 - **AI for SC: two posts per week = two different SC roles + two different AI tools** — do not repeat the same role or tool in the same week
-- **AI for SC: check `data/ai-for-sc-series-tracker.md` before generating** — confirm the pre-defined episode hasn't already been published, and verify no role + use case repeat
+- **AI for SC: check `data/ai-for-sc-series-tracker.md` before generating** — confirm the episode hasn't been published, and verify no role + use case repeat
 - **101: no research stage** — `references/101-plan.md` IS the source of truth for topic content
-- **101: no CG2** — all 10 hooks + caption generated in one pass, user picks at the end
-- **Deep dive: research.md must exist before /message** — /message will error on scout data alone
-- **Deep dive: CG2 requires explicit hook selection (1–10)** before /content runs
-- **Deep dive: brand-anchor-v1.webp must be uploaded each Gemini session** — not stored in the gem
+- **101: no control gates** — all 10 hooks + caption generated in one pass, user picks at the end
 
 ## Audience
 - **Supply Chain 101**: Experts AND non-practitioners. Write as a teacher, not a consultant. Plain language. Could someone outside supply chain understand this over coffee?
-- **AI for SC**: Any SC role — purchaser, supply planner, demand planner, logistics coordinator, transport specialist, category manager, warehouse manager, S&OP analyst. The role is determined by the use case, not assigned in advance. Hook names the role + the specific current limitation (SAP, Excel, manual process) + the AI unlock. Both posts per week are practical and copy-paste ready — no abstract leadership framing.
-- **Deep Dive** (paused): VP Supply Chain, COO, Director of Operations — senior practitioners, not academics. Write as a peer, not a consultant. Numbers mid-sentence.
+- **AI for SC**: Any SC role — purchaser, supply planner, demand planner, logistics coordinator, transport specialist, category manager, warehouse manager, S&OP analyst. The role is determined by the use case, not assigned in advance. Hook names the role + the specific current limitation (SAP, Excel, manual process) + the AI unlock. Both posts per week are practical and copy-paste ready.
+- **Deep Dive**: archived — see `skills-archive/deep-dive/`.

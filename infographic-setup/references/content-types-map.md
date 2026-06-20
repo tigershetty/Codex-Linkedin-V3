@@ -38,13 +38,11 @@ shared 7-month calendar — see `references/master-calendar.md`.
 
 ---
 
-## 3. Deep Dive — PAUSED
+## 3. Deep Dive — ARCHIVED
 
-**What:** data-heavy, research-backed infographics for senior practitioners.
-**Pipeline:** `/scout → /research → /message → CG2 → /content → /gemini-prompt`.
-**Visual:** Gemini Infographic Gem (requires `brand-anchor-v1.webp` upload each session).
-**Voice anchor:** `references/published-voice.md` (also loaded by AI for SC).
-**Status:** paused — skills and references remain in place; resume when ready.
+Data-heavy, research-backed infographics for senior practitioners. The pipeline (8 skills +
+deep-dive-only references) is archived under `skills-archive/deep-dive/`. Voice anchor
+`references/published-voice.md` stays active (AI for SC uses it). Resume: see `skills-archive/deep-dive/README.md`.
 
 ---
 
@@ -59,5 +57,5 @@ shared 7-month calendar — see `references/master-calendar.md`.
 ```
 Foundational SC concept, plain language?          → Supply Chain 101 (/101)
 A specific SC role using AI for a real task?      → AI for Supply Chain (/ai-for-sc)
-Data-heavy, named firms/numbers, senior audience? → Deep Dive (paused)
+Data-heavy, named firms/numbers, senior audience? → Deep Dive (archived)
 ```
