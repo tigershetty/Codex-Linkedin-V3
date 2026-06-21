@@ -91,6 +91,12 @@ Context: [paste the quote / last PO / what you know of their cost base].
 
 ---
 
+## Artifact example (what Claude Code builds)
+
+A real example of the artifact the post describes lives beside this file:
+- **`should-cost-model.csv`** — the model itself: 5 cost lines, each with its share, the public index it tracks, the index move, and the resulting contribution to price; summing to a defensible **+5.6%** against the supplier's **+9%** ask (3.4% gap). Shares are illustrative; every index move must be re-pulled from its source before use.
+- **`renderer/out/should-cost-model-dashboard.png`** (template `renderer/templates/should-cost-model-dashboard.html`) — the same CSV shown **on a dashboard**: KPI strip (ask / defensible / gap), the cost build-up table, and a stacked build-up bar that fills to +5.6% with the 3.4% gap hatched up to the +9% ask. This is the "tool builds a real artifact, here's the dashboard" view.
+
 ## Render Brief (code-render — primary visual)
 
 **Format**: Tool-builds-the-artifact (the Copilot-in-Excel equivalent, for Claude). A **Claude Code session** that builds a **should-cost model**, shown above the artifact it produces. 4:5-ish (1080×1500). Bright Shetty's Desk system (azure + eco-green on white, Poppins).
@@ -111,19 +117,8 @@ Context: [paste the quote / last PO / what you know of their cost base].
 
 Primary: `renderer/templates/ai06-negotiation-table.html` → `renderer/out/ai06-negotiation-table.png` → `visual.png`. **Rebuilt 2026-06-21 (v2)** to the "tool builds a real artifact" direction: a **Claude Code session** building a **should-cost-model.csv** (5 cost lines, each indexed to a public benchmark) → summing to **+5.6% defensible vs +9% asked**, 3.4% gap. Big clean **Claude Code** mark top-right (no caption; updated 2026-06-21 — the post shows Claude *Code* building the artifact), expanded justified copy-paste prompt, Logo 2 footer. (Template filename kept as `ai06-negotiation-table.html` for continuity.)
 
-## GIF Storyboard (HyperFrames / GSAP anim lane)
+## GIF (HyperFrames / GSAP anim lane)
 
-**Motion spine:** *the build, then the result* — the Claude Code session runs line by line, then the artifact assembles and the defensible number resolves. Built 2026-06-21 from the still's own elements. ~6.0s + 1.5s hold, loops. Output: `renderer/out/ai06-negotiation-table.gif` (+ `.mp4`).
+**Reader-first motion (rev. 2026-06-21).** Earlier cut ran the session and built the table line by line, which delayed reading and kept the card in motion throughout. New principle: **the session, the should-cost-model.csv table and the prompt are complete and legible in every frame**; exactly ONE focal motion. Here that is the **computed answer**: the **+5.6% defensible** total pulses eco (scale + glow) so the eye lands on the result, while every line of the session and the prompt stays still to read. Seamless ~3.2s loop (yoyo, no hold). Output: `renderer/out/ai06-negotiation-table.gif` (+ `.mp4`).
 
-| t (s) | Element | Motion | Ease | Note |
-|---|---|---|---|---|
-| 0.0–0.6 | Badge + Claude Code mark + title | fade/slide up; mark pops in; rule wipes | back.out | tool mark is the hero corner |
-| 0.9–2.2 | Claude Code session | panel rises; the ask + 3 `●` action lines reveal in terminal cadence | power2 | "it builds the thing" |
-| 2.2–2.5 | ✓ verdict line | the `Defensible ≈ +5.6%` line lands | back.out | the session's answer |
-| 2.5–3.6 | Artifact table | "↓ the artifact it built ↓" → header → 5 cost lines reveal (stagger) | power2 | the should-cost-model.csv |
-| 3.75–4.6 | Defensible total (climax) | total row reveals; **+5.6% counts up**, then pulses eco | power1 / sine | the payoff |
-| 4.55–5.1 | Gap note | resolves: +5.6% defensible vs +9% ask, 3.4% to negotiate | power2 | the takeaway |
-| 4.9–5.9 | Honesty + prompt + footer | fade up in sequence; rule wipes | power1 | trust + utility + brand |
-| 5.9–7.4 | Hold | full infographic held for the loop rest | — | clean loop |
-
-**Build:** copy → `ai06-negotiation-table-anim.html`; paused GSAP master timeline (`window.__tl/__dur/__ready`); the +5.6% count-up is a seek-safe proxy tween; render via `render-anim.mjs` (`HOLD_S=1.5 GIF_W=640`).
+**Build:** `ai06-negotiation-table-anim.html` reuses the still's build script untouched (full card), then a small paused GSAP timeline pulses only `.atot .big`; render via `render-anim.mjs` (`HOLD_S=0 GIF_W=640`).

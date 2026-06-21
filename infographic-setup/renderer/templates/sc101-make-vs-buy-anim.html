@@ -190,48 +190,18 @@
 <script src="../assets/js/gsap.min.js"></script>
 <script>
 (function(){
-  // versus spine: question drops -> scale assembles -> connectors flow -> table answers -> TCO resolves
-  gsap.set(['.kicker','h1','.sub'],{opacity:0,y:24});
-  gsap.set('.rule',{scaleX:0,transformOrigin:'left center'});
-  gsap.set('.gate',{xPercent:-50,y:-22,opacity:0});
-  gsap.set('#stand',{opacity:0,y:26});
-  gsap.set('#beamG',{opacity:0,scaleX:0,transformOrigin:'center center'});
-  gsap.set('#hangers',{opacity:0});
-  gsap.set('#pansG',{opacity:0,y:-16});
-  gsap.set(['#cL','#cR'],{opacity:0});
-  gsap.set('.panlbl',{xPercent:-50,yPercent:-50,opacity:0,scale:.7});
-  gsap.set('.dt',{opacity:0});
-  gsap.set('.dt .hrow',{opacity:0,y:-10});
-  gsap.set('.dt .brow',{opacity:0,y:14});
-  gsap.set('.dt .foot-r',{opacity:0});
-  gsap.set('.insight',{opacity:0,y:16});
-  gsap.set('.footrule',{scaleX:0,transformOrigin:'left center'});
-  gsap.set('.foot',{opacity:0});
-
-  const tl=gsap.timeline({paused:true,defaults:{ease:'power2.out'}});
-  tl.to('.kicker',{opacity:1,y:0,duration:.4},0.0)
-    .to('h1',{opacity:1,y:0,duration:.5},0.12)
-    .to('.rule',{scaleX:1,duration:.5,ease:'power2.inOut'},0.34)
-    .to('.sub',{opacity:1,y:0,duration:.5},0.44)
-    // the question lands first
-    .to('.gate',{y:0,opacity:1,duration:.5,ease:'back.out(1.4)'},0.85)
-    // the scale assembles
-    .to('#stand',{opacity:1,y:0,duration:.5},1.2)
-    .to('#beamG',{opacity:1,scaleX:1,duration:.55,ease:'power3.out'},1.45)
-    .to('#hangers',{opacity:1,duration:.4},1.75)
-    .to('#pansG',{opacity:1,y:0,duration:.5,ease:'back.out(1.3)'},1.8)
-    .to('.panlbl',{opacity:1,scale:1,duration:.4,stagger:.1,ease:'back.out(1.7)'},2.05)
-    // the answer flows to each side
-    .to(['#cL','#cR'],{opacity:.5,duration:.5},2.0)
-    // the decision table answers it row by row
-    .set('.dt',{opacity:1},2.45)
-    .to('.dt .hrow',{opacity:1,y:0,duration:.4},2.45)
-    .to('.dt .brow',{opacity:1,y:0,duration:.42,stagger:.13},2.75)
-    .to('.dt .foot-r',{opacity:1,duration:.45},3.55)
-    .to('.insight',{opacity:1,y:0,duration:.55},3.85)
-    .to('.footrule',{scaleX:1,duration:.5,ease:'power2.inOut'},4.0)
-    .to('.foot',{opacity:1,duration:.5},4.1);
-
+  // Reader-first: the scale + decision table are shown and legible the entire loop.
+  // ONE focal motion — the dashed connectors flow from the question down into each pan
+  // (the answer routing to MAKE / BUY); a calm glow keeps returning the eye to the TCO takeaway.
+  gsap.set(['#cL','#cR'],{strokeDashoffset:0});
+  const tl=gsap.timeline({paused:true});
+  tl.to(['#cL','#cR'],{strokeDashoffset:-30,duration:3.0,ease:'none'},0);  // period 10 -> seamless
+  const tco=document.querySelector('.dt .foot-r .fr');
+  if(tco){
+    gsap.set(tco,{filter:'drop-shadow(0 0 0 rgba(22,185,138,0))'});
+    tl.to(tco,{filter:'drop-shadow(0 0 11px rgba(22,185,138,.42))',duration:1.5,ease:'sine.inOut'},0)
+      .to(tco,{filter:'drop-shadow(0 0 0 rgba(22,185,138,0))',duration:1.5,ease:'sine.inOut'},1.5);
+  }
   window.__tl=tl; window.__dur=tl.duration();
   (document.fonts?document.fonts.ready:Promise.resolve()).then(()=>{window.__ready=true;});
 })();

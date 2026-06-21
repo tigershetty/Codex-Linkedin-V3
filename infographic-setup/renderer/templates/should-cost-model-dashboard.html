@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<style>
+  :root{
+    --azure:#2798FB; --sky:#50A9F7; --deep:#215DC3; --navy:#1939A5;
+    --eco:#38E6A6; --eco-text:#14B07E; --mint:#8FF3CC; --coral:#E27199; --coral-deep:#cf5c84;
+    --clay:#D97757; --amber:#E0A23B;
+    --ink:#15315C; --muted:#5D7599; --line:#DCEAF8; --tint:#E2F0FB; --tint2:#EEF6FE;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1280px}
+  #card{
+    width:1280px;height:800px;position:relative;overflow:hidden;
+    font-family:"Poppins",system-ui,sans-serif;color:var(--ink);
+    background:
+      radial-gradient(ellipse 46% 30% at 92% 0%, rgba(217,119,87,.10) 0%, transparent 60%),
+      radial-gradient(ellipse 52% 36% at 2% 8%, rgba(39,152,251,.12) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F5FAFE 60%,#EAF3FD 100%);
+    padding:26px 30px 20px;display:flex;flex-direction:column;
+  }
+  /* header */
+  .hd{display:flex;align-items:center;justify-content:space-between}
+  .hd .fileblk{display:flex;align-items:center;gap:13px}
+  .hd .fi{width:30px;height:30px;background:var(--deep);-webkit-mask:url(../assets/icons/chart-line.svg) center/contain no-repeat;mask:url(../assets/icons/chart-line.svg) center/contain no-repeat}
+  .hd .fn{font-family:"JetBrains Mono",monospace;font-size:24px;font-weight:700;color:var(--ink);line-height:1}
+  .hd .fs{font-size:13.5px;font-weight:500;color:var(--muted);margin-top:3px}
+  .hd .right{display:flex;align-items:center;gap:14px}
+  .hd .tag{font-size:12px;font-weight:700;color:var(--clay);background:rgba(217,119,87,.12);padding:7px 14px;border-radius:999px;display:flex;align-items:center;gap:8px}
+  .hd .tag .ti{width:14px;height:14px;background:var(--clay);-webkit-mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat;mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat}
+  .hd .cc{width:52px;height:52px}
+
+  /* KPI band */
+  .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px}
+  .kpi{border-radius:14px;padding:14px 20px;display:flex;flex-direction:column;gap:3px;box-shadow:0 12px 26px rgba(33,93,195,.08);border:1px solid var(--line);background:#fff}
+  .kpi .kl{font-size:12.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:8px}
+  .kpi .kn{font-size:42px;font-weight:800;line-height:1;letter-spacing:-1px}
+  .kpi.ask{background:linear-gradient(160deg,#fff,#fdf1ee)} .kpi.ask .kn{color:var(--coral-deep)} .kpi.ask .dot{background:var(--coral-deep)}
+  .kpi.def{background:linear-gradient(160deg,#fff,#edfcf5)} .kpi.def .kn{color:var(--eco-text)} .kpi.def .dot{background:var(--eco-text)}
+  .kpi.gap .kn{color:var(--amber)} .kpi.gap .dot{background:var(--amber)}
+  .kpi .dot{width:11px;height:11px;border-radius:3px;flex:none}
+  .kpi .ks{font-size:12.5px;font-weight:500;color:var(--muted)}
+
+  /* main two-column */
+  .main{display:grid;grid-template-columns:1.18fr 1fr;gap:18px;margin-top:16px;flex:1}
+  .panel{background:#fff;border:1px solid var(--line);border-radius:15px;box-shadow:0 14px 30px rgba(33,93,195,.09);padding:16px 20px;display:flex;flex-direction:column}
+  .pt{font-size:13px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--deep);display:flex;align-items:center;gap:9px}
+  .pt .pd{font-size:12px;font-weight:500;letter-spacing:0;text-transform:none;color:var(--muted)}
+
+  /* cost table */
+  .tbl{margin-top:12px;display:flex;flex-direction:column}
+  .trow{display:grid;grid-template-columns:1.5fr .6fr 1.5fr .62fr 1.35fr;align-items:center;gap:6px;padding:9px 4px;border-top:1px solid #eef4fc}
+  .trow.h{border-top:0;padding-bottom:7px}
+  .trow.h .c{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+  .trow.h .c.r{text-align:right}
+  .trow .ln{display:flex;align-items:center;gap:9px;font-size:16px;font-weight:700;color:var(--ink)}
+  .trow .ln i{width:11px;height:11px;border-radius:3px;flex:none}
+  .trow .sh{font-size:15px;font-weight:700;color:var(--ink)}
+  .trow .idx{font-size:12.5px;color:var(--muted);line-height:1.15}
+  .trow .idx b{color:var(--ink);font-weight:600;font-family:"JetBrains Mono",monospace;font-size:12px}
+  .trow .mv{font-size:14.5px;font-weight:700;text-align:right;color:var(--deep)}
+  .trow .mv.flat{color:var(--muted);font-weight:600}
+  .trow .ct{display:flex;align-items:center;justify-content:flex-end;gap:8px}
+  .trow .ct .cb{width:64px;height:9px;border-radius:5px;background:#e6eef8;overflow:hidden}
+  .trow .ct .cb span{display:block;height:100%;border-radius:5px;background:linear-gradient(90deg,#5CEDB6,#16B98A)}
+  .trow .ct .cv{font-size:14.5px;font-weight:800;color:var(--eco-text);min-width:48px;text-align:right}
+  .trow .ct .cv.zero{color:var(--muted)}
+  .trow.tot{border-top:2px solid #cfe0f3;margin-top:4px;padding-top:11px}
+  .trow.tot .ln{font-size:16px;font-weight:800}
+  .trow.tot .cv{font-size:19px;color:var(--eco-text)}
+
+  /* build-up chart */
+  .chart{margin-top:14px;flex:1;display:flex;flex-direction:column;justify-content:center}
+  .track{position:relative;height:62px;border-radius:10px;background:#f1f6fd;border:1px solid #e2ecf8;overflow:visible}
+  .seg{position:absolute;top:0;bottom:0;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:#fff;text-shadow:0 1px 2px rgba(8,28,60,.25)}
+  .seg.s1{background:linear-gradient(180deg,#2E8FF0,#215DC3);border-radius:10px 0 0 10px}
+  .seg.s2{background:linear-gradient(180deg,#45C194,#16B98A)}
+  .seg.s3{background:linear-gradient(180deg,#6FE9BD,#2BC992)}
+  .seg.gap{background:repeating-linear-gradient(135deg,rgba(207,92,132,.20) 0 9px,rgba(207,92,132,.08) 9px 18px);border:1px dashed var(--coral-deep);border-left:0}
+  .seg.gap .gl{color:var(--coral-deep);text-shadow:none;font-size:12.5px}
+  .mark{position:absolute;top:-12px;bottom:-30px;width:0;border-left:2px dashed var(--ink)}
+  .mark .lab{position:absolute;top:-20px;transform:translateX(-50%);white-space:nowrap;font-size:12.5px;font-weight:800}
+  .mark.def{border-color:var(--eco-text)} .mark.def .lab{color:var(--eco-text)}
+  .mark.ask{border-color:var(--coral-deep)} .mark.ask .lab{color:var(--coral-deep)}
+  .axis{position:relative;height:18px;margin-top:30px}
+  .axis i{position:absolute;transform:translateX(-50%);font-size:11px;font-weight:600;color:var(--muted)}
+  .chartcap{margin-top:18px;font-size:14.5px;font-weight:500;color:var(--ink);line-height:1.4}
+  .chartcap b{color:var(--eco-text);font-weight:700} .chartcap .x{color:var(--coral-deep);font-weight:700}
+
+  /* footnote + footer */
+  .note{margin-top:14px;display:flex;gap:11px;align-items:flex-start;background:rgba(224,162,59,.10);border:1px solid rgba(224,162,59,.30);border-radius:11px;padding:11px 16px}
+  .note .ni{width:18px;height:18px;flex:none;margin-top:1px;background:#C9881F;-webkit-mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat;mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat}
+  .note p{font-size:13px;font-weight:500;color:#7a5a12;line-height:1.32} .note p b{color:#5e4408;font-weight:700}
+  .footrule{margin-top:14px;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--azure),var(--eco) 55%,rgba(56,230,166,0) 100%)}
+  .foot{display:flex;align-items:center;justify-content:space-between;padding-top:10px}
+  .foot img{height:56px;width:auto} .foot .sig{font-size:15px;font-weight:700;color:var(--ink)}
+</style>
+</head>
+<body>
+<div id="card">
+  <div class="hd">
+    <div class="fileblk">
+      <span class="fi"></span>
+      <div><div class="fn">should-cost-model.csv</div><div class="fs">Widget A · fabricated steel part · the artifact Claude Code built</div></div>
+    </div>
+    <div class="right">
+      <span class="tag"><span class="ti"></span>built by Claude Code · verify each index</span>
+      <img class="cc" src="../assets/logos/claudecode-color.svg" alt="Claude Code">
+    </div>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi ask"><span class="kl"><span class="dot"></span>Supplier ask</span><span class="kn">+9.0%</span><span class="ks">what they requested</span></div>
+    <div class="kpi def"><span class="kl"><span class="dot"></span>Defensible</span><span class="kn">+5.6%</span><span class="ks">sum of indexed cost lines</span></div>
+    <div class="kpi gap"><span class="kl"><span class="dot"></span>Gap to negotiate</span><span class="kn">3.4%</span><span class="ks">they justify it — or you don't pay it</span></div>
+  </div>
+
+  <div class="main">
+    <div class="panel">
+      <div class="pt">Cost build-up <span class="pd">· share × index move = contribution</span></div>
+      <div class="tbl" id="tbl"></div>
+    </div>
+    <div class="panel">
+      <div class="pt">From cost lines to the ask <span class="pd">· % price increase</span></div>
+      <div class="chart">
+        <div class="track" id="track"></div>
+        <div class="axis" id="axis"></div>
+        <div class="chartcap">Indexed costs justify <b>+5.6%</b>. Everything past that line is the <span class="x">3.4% gap</span> — the part the supplier has to defend, or you negotiate away.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">
+    <span class="ni"></span>
+    <p><b>Read before you quote it.</b> Cost shares are illustrative estimates — replace them with the supplier's real breakdown. Re-pull every index move from its source (steel → BLS/FRED WPU1017, labour → BLS ECI, freight → EIA) before the number leaves the room. Claude builds the model; you verify the inputs.</p>
+  </div>
+
+  <div class="footrule"></div>
+  <div class="foot">
+    <img src="../assets/logos/shettys-desk-logo-2.png" alt="Shetty's Desk">
+    <span class="sig">Poornajith Shetty</span>
+  </div>
+</div>
+
+<script>
+(function(){
+  const rows=[
+    {line:'Steel (raw material)', col:'#215DC3', share:'60%', idx:'PPI Steel Mill Products', src:'BLS/FRED WPU1017', move:'+7.4%', c:4.44},
+    {line:'Labour',               col:'#2798FB', share:'15%', idx:'Employment Cost Index',   src:'BLS ECI', move:'+3.5%', c:0.53},
+    {line:'Energy & freight',     col:'#50A9F7', share:'10%', idx:'Diesel (on-highway)',     src:'EIA weekly', move:'+6.0%', c:0.60},
+    {line:'Overhead',             col:'#8FB8E8', share:'8%',  idx:'held flat',               src:'supplier SG&A', move:'flat', c:0.00},
+    {line:'Margin',               col:'#14B07E', share:'7%',  idx:'held flat',               src:'supplier ask', move:'flat', c:0.00},
+  ];
+  const maxC=4.44;
+  const tbl=document.getElementById('tbl');
+  let h='<div class="trow h"><span class="c">Cost line</span><span class="c">Share</span><span class="c">Index · source</span><span class="c r">Move</span><span class="c r">Contribution</span></div>';
+  rows.forEach(r=>{
+    const w=(r.c/maxC*100).toFixed(0);
+    h+='<div class="trow">'+
+       '<span class="ln"><i style="background:'+r.col+'"></i>'+r.line+'</span>'+
+       '<span class="sh">'+r.share+'</span>'+
+       '<span class="idx">'+r.idx+'<br><b>'+r.src+'</b></span>'+
+       '<span class="mv'+(r.move==='flat'?' flat':'')+'">'+r.move+'</span>'+
+       '<span class="ct"><span class="cb"><span style="width:'+w+'%"></span></span><span class="cv'+(r.c===0?' zero':'')+'">'+(r.c>0?'+':'')+r.c.toFixed(2)+'%</span></span>'+
+       '</div>';
+  });
+  h+='<div class="trow tot"><span class="ln">Defensible increase</span><span class="sh"></span><span class="idx">sum of indexed lines</span><span class="mv"></span><span class="ct"><span class="cv">+5.6%</span></span></div>';
+  tbl.innerHTML=h;
+
+  // build-up chart (scale 0..10%)
+  const SC=10, w=p=>(p/SC*100);
+  const track=document.getElementById('track');
+  const segs=[
+    {cls:'s1', from:0,    to:4.44, lab:'Steel +4.44'},
+    {cls:'s2', from:4.44, to:4.97, lab:''},
+    {cls:'s3', from:4.97, to:5.57, lab:''},
+    {cls:'gap',from:5.57, to:9.0,  lab:'3.4% gap'},
+  ];
+  let s='';
+  segs.forEach(g=>{
+    const left=w(g.from), wid=w(g.to-g.from);
+    s+='<div class="seg '+g.cls+'" style="left:'+left+'%;width:'+wid+'%">'+(g.cls==='gap'?'<span class="gl">'+g.lab+'</span>':g.lab)+'</div>';
+  });
+  // markers
+  s+='<div class="mark def" style="left:'+w(5.57)+'%"><span class="lab">defensible +5.6%</span></div>';
+  s+='<div class="mark ask" style="left:'+w(9.0)+'%"><span class="lab">asked +9%</span></div>';
+  track.innerHTML=s;
+  // axis ticks
+  const ax=document.getElementById('axis');
+  [0,2,4,6,8,10].forEach(t=>{ ax.insertAdjacentHTML('beforeend','<i style="left:'+w(t)+'%">'+t+'%</i>'); });
+})();
+</script>
+</body>
+</html>

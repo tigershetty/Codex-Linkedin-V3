@@ -284,65 +284,23 @@
 <script src="../assets/js/gsap.min.js"></script>
 <script>
 (function(){
-  const qa=s=>Array.from(document.querySelectorAll(s));
-  const bandN=qa('.band .kpi .n');     // [3, 5, B, 1.50]
-  const totN =qa('.totcell .big');     // [B 4.45, A 3.80, C 2.95]
-  // hold computed numbers at zero until they count up
-  bandN[0].textContent='0'; bandN[1].textContent='0'; bandN[3].textContent='0.00';
-  totN.forEach(el=>el.textContent='0.00');
-
-  // initial states
-  gsap.set('.kick',{opacity:0,y:18});
-  gsap.set('.toolmark',{opacity:0,scale:.4,rotate:-12,transformOrigin:'center center'});
-  gsap.set('h1',{opacity:0,y:22});
-  gsap.set('.sub',{opacity:0,y:18});
-  gsap.set('.band',{opacity:0,y:-16});
-  gsap.set('.legend .sc i',{opacity:0,scale:.4,transformOrigin:'center'});
-  gsap.set('.sheet .shead',{opacity:0,y:-12});
-  gsap.set('.sheet .brow',{opacity:0,y:20});
-  gsap.set('.sc-cell .v',{opacity:0,scale:.3,transformOrigin:'center'});
-  gsap.set('.totcell .bar span',{scaleX:0,transformOrigin:'left center'});
-  gsap.set('.crown',{xPercent:-50,opacity:0,y:-14,scale:.4,transformOrigin:'center bottom'});
-  gsap.set('#radar',{opacity:0,scale:.6,transformOrigin:'50% 48%'});
-  gsap.set('.flip .seg.l',{opacity:0,x:-16});
-  gsap.set('.flip .down-ar',{opacity:0,scale:.5});
-  gsap.set('.flip .seg.r',{opacity:0,x:16});
-  gsap.set('.verdict',{opacity:0,y:16});
-  gsap.set('.honesty',{opacity:0,y:14});
-  gsap.set('.prompt',{opacity:0,y:14});
-  gsap.set('.footrule',{scaleX:0,transformOrigin:'left center'});
-  gsap.set('.foot',{opacity:0});
-
-  const tl=gsap.timeline({paused:true,defaults:{ease:'power2.out'}});
-  // count-up tween (seek-safe: animates a proxy, writes textContent on update)
-  const count=(el,end,dec,pos)=>tl.to({v:0},{v:end,duration:.7,ease:'power1.out',
-    onUpdate:function(){el.textContent=dec?this.targets()[0].v.toFixed(dec):String(Math.round(this.targets()[0].v));}},pos);
-
-  tl.to('.kick',{opacity:1,y:0,duration:.4},0.0)
-    .to('.toolmark',{opacity:1,scale:1,rotate:0,duration:.55,ease:'back.out(1.7)'},0.1)
-    .to('h1',{opacity:1,y:0,duration:.5},0.2)
-    .to('.sub',{opacity:1,y:0,duration:.5},0.5)
-    .to('.band',{opacity:1,y:0,duration:.5},0.82);
-  count(bandN[0],3,0,0.95); count(bandN[1],5,0,0.95); count(bandN[3],1.50,2,0.95);
-  tl.to('.legend .sc i',{opacity:1,scale:1,duration:.35,stagger:.07,ease:'back.out(1.7)'},1.15)
-    .to('.sheet .shead',{opacity:1,y:0,duration:.45},1.45)
-    .to('.sheet .brow',{opacity:1,y:0,duration:.5,stagger:.18},1.7)
-    .to('.sc-cell .v',{opacity:1,scale:1,duration:.4,stagger:.04,ease:'back.out(1.8)'},1.95)
-    .to('.totcell .bar span',{scaleX:1,duration:.6,stagger:.18,ease:'power2.out'},2.2);
-  count(totN[0],4.45,2,2.25); count(totN[1],3.80,2,2.25); count(totN[2],2.95,2,2.25);
-  // climax: winner B resolves
-  tl.to('.crown',{opacity:1,y:0,scale:1,duration:.5,ease:'back.out(2)'},3.0)
-    .to('.totcell.win .big',{scale:1.12,duration:.34,yoyo:true,repeat:1,ease:'sine.inOut',transformOrigin:'left center'},3.05)
-    .to('#radar',{opacity:1,scale:1,duration:.55,ease:'power2.out'},3.4)
-    .to('.flip .seg.l',{opacity:1,x:0,duration:.4},3.62)
-    .to('.flip .down-ar',{opacity:1,scale:1,duration:.35,ease:'back.out(2)'},3.92)
-    .to('.flip .seg.r',{opacity:1,x:0,duration:.42},4.06)
-    .to('.verdict',{opacity:1,y:0,duration:.5},4.36)
-    .to('.honesty',{opacity:1,y:0,duration:.45},4.62)
-    .to('.prompt',{opacity:1,y:0,duration:.45},4.84)
-    .to('.footrule',{scaleX:1,duration:.5,ease:'power2.inOut'},5.06)
-    .to('.foot',{opacity:1,duration:.5},5.16);
-
+  // Reader-first: the whole scorecard (table, radar, rank-flip, verdict, prompt) is legible throughout.
+  // ONE focal motion — the winner (B) is highlighted: weighted total glows, crown bobs.
+  const big=document.querySelector('.totcell.win .big');
+  const crown=document.querySelector('.crown');
+  const tl=gsap.timeline({paused:true});
+  if(big){
+    gsap.set(big,{transformOrigin:'left center',filter:'drop-shadow(0 0 0 rgba(22,185,138,0))'});
+    tl.to(big,{scale:1.1,filter:'drop-shadow(0 0 14px rgba(22,185,138,.6))',duration:1.6,ease:'sine.inOut'},0)
+      .to(big,{scale:1,filter:'drop-shadow(0 0 0 rgba(22,185,138,0))',duration:1.6,ease:'sine.inOut'},1.6);
+  }
+  if(crown){
+    gsap.set(crown,{xPercent:-50,transformOrigin:'center bottom'});
+    tl.to(crown,{y:-5,duration:0.8,ease:'sine.inOut'},0)
+      .to(crown,{y:0,duration:0.8,ease:'sine.inOut'},0.8)
+      .to(crown,{y:-5,duration:0.8,ease:'sine.inOut'},1.6)
+      .to(crown,{y:0,duration:0.8,ease:'sine.inOut'},2.4);
+  }
   window.__tl=tl; window.__dur=tl.duration();
   (document.fonts?document.fonts.ready:Promise.resolve()).then(()=>{window.__ready=true;});
 })();
