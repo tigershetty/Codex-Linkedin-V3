@@ -52,6 +52,11 @@ Follow Poornajith Shetty and Shetty's Desk for more supply chain insights, and s
 
 ---
 
+## Visual Spec (layout-select)
+- **Shape of the idea:** sequential narrowing — many candidates filtered down to one decision, with a named gate between each stage.
+- **Selected layout:** funnel / conversion narrowing. The decreasing band width literally encodes the argument — the widest stage is the "cheapest place to say no", the narrowest is where a wrong call costs most. Chosen over a plain ladder/list so the geometry carries the thesis, and paired with an annotation rail so each filter reads without crowding the bands (max white space). Distinct from the 2×2 matrix used in Post 1 this week (variety across the week).
+- **Feasibility:** Easy · **Library #:** funnel / PF-funnel · **Brand:** azure→deep-blue range with eco "awarded" tip, drop-shadow depth on bands, no tool mark (101).
+
 ## Code-render visual (primary)
 `renderer/templates/sc101-procurement-funnel.html` → `renderer/out/sc101-procurement-funnel.png` (Funnel power format, azure+green brand system) → `visual.png`. Code-rendered for exact stage counts (100→20→8→3→1) and clean funnel geometry; filter rail + drop-counts + eco "win" tip. The ChatGPT Image 2 prompt below is the illustration fallback.
 
