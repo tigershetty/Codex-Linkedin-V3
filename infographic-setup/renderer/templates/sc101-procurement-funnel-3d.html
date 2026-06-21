@@ -40,7 +40,7 @@
   .band .tagline b{color:var(--mint);font-weight:700}
 
   /* scene: funnel hero, annotated both sides */
-  .scene{position:relative;width:1012px;height:744px;margin-top:18px}
+  .scene{position:relative;width:1012px;height:826px;margin-top:18px}
   .shape{position:absolute;pointer-events:none}
 
   /* stage labels ON the funnel */
@@ -58,7 +58,7 @@
   .note .np b{color:var(--ink);font-weight:700}
 
   /* right gate cards — the filter that produced the next cohort */
-  .gate{position:absolute;width:288px;background:#fff;border:1px solid var(--line);border-radius:14px;
+  .gate{position:absolute;width:282px;background:#fff;border:1px solid var(--line);border-radius:14px;
     box-shadow:0 12px 26px rgba(33,93,195,.10);padding:12px 15px;display:flex;flex-direction:column;gap:8px}
   .gate.win{border:1.5px solid var(--eco);box-shadow:0 14px 30px rgba(20,176,126,.18)}
   .gate .gh{display:flex;align-items:center;gap:11px}
@@ -89,7 +89,12 @@
 
   /* insight */
   .insight{margin-top:18px;background:#fff;border-left:6px solid var(--azure);border-radius:14px;
-    box-shadow:0 12px 26px rgba(33,93,195,.08);padding:16px 24px;font-size:18px;font-weight:500;color:var(--ink);line-height:1.42}
+    box-shadow:0 12px 26px rgba(33,93,195,.08);padding:18px 26px 20px}
+  .insight .ih{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:800;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--deep);margin-bottom:8px}
+  .insight .ih .ii{width:20px;height:20px;background:var(--deep);
+    -webkit-mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat;mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat}
+  .insight p{font-size:18.5px;font-weight:500;color:var(--ink);line-height:1.44}
   .insight b{color:var(--eco-text);font-weight:700} .insight .px{color:var(--coral-deep);font-weight:700}
 
   /* footer */
@@ -122,7 +127,10 @@
 
   <div class="scene" id="scene"></div>
 
-  <div class="insight">The narrow end feels like a formality. It is not — references and final terms are the last cheap chance to catch a problem before it becomes a contract. And the filter that matters most is never price. It is <b>whether this supplier can grow with you</b>, because the order you place today is rarely the last one.</div>
+  <div class="insight">
+    <div class="ih"><span class="ii"></span>The narrow end is not a formality</div>
+    <p>References and final terms are the last cheap chance to catch a problem before it becomes a contract. And the filter that matters most is never price — it is <b>whether this supplier can grow with you</b>, because the order you place today is rarely the last one.</p>
+  </div>
 
   <div class="footrule"></div>
   <div class="foot">
@@ -136,8 +144,8 @@
   const scene=document.getElementById('scene');
   const SW=scene.clientWidth, SH=scene.clientHeight;        // 1012 x 744
   const cx=506;                       // funnel centre x (scene centre → symmetric wedges)
-  const Wtop=460, Wtip=150;           // mouth / tip widths
-  const top=18, H=584;                // funnel body top y + height
+  const Wtop=456, Wtip=152;           // mouth / tip widths
+  const top=20, H=722;                // funnel body top y + height (tall hero fills the column)
   const bot=top+H;
   const wAt=y=>Wtop+(Wtip-Wtop)*((y-top)/H);
   const zoneH=H/5;
@@ -210,7 +218,7 @@
     const a=add('anchor'); a.style.left=x+'px'; a.style.top=y+'px'; a.style.background=color;
   }
 
-  const cardLeft=724, noteGap=34, noteW=228;
+  const cardLeft=730, noteGap=34, noteW=228;
   // right leaders (funnel right edge → gate card) at each boundary
   gates.forEach((g,i)=>{
     const y=top+(i+1)*zoneH, redge=cx+wAt(y)/2;
