@@ -39,7 +39,7 @@ Your supplier QBR is Thursday, and the numbers are scattered across SAP exports,
 
 This month on Shetty's Desk we're on procurement, and the 101 side covered how to weigh and shortlist suppliers. This is the working version for a category manager: the quarterly review, where the scorecard is meant to drive the conversation and usually can't, because nobody had time to build it.
 
-Here's the thing most people miss. The hard part of a QBR isn't the meeting. It's getting every supplier onto the same columns first, scored the same way, so the ranking is a fact and not an argument.
+What most people get wrong is this. The hard part of a QBR isn't the meeting. It's getting every supplier onto the same columns first, scored the same way, so the ranking is a fact and not an argument.
 
 What Copilot in Excel actually does, and doesn't: it won't reach into SAP or your inbox for you, and it needs a paid Microsoft 365 Copilot licence. You assemble one clean table; then it scores each supplier, builds the weighted total with SUMPRODUCT, ranks them, and colour-codes the sheet in minutes.
 
