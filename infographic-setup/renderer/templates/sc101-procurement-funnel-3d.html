@@ -13,147 +13,262 @@
   *{margin:0;padding:0;box-sizing:border-box}
   html,body{width:1080px}
   #card{
-    width:1080px;height:1400px;position:relative;overflow:hidden;
+    width:1080px;height:1480px;position:relative;overflow:hidden;
     font-family:"Poppins",system-ui,sans-serif;color:var(--ink);
     background:
-      radial-gradient(ellipse 52% 34% at 88% 1%, rgba(56,230,166,.16) 0%, transparent 60%),
-      radial-gradient(ellipse 58% 40% at 3% 22%, rgba(39,152,251,.14) 0%, transparent 58%),
-      linear-gradient(180deg,#FFFFFF 0%,#F4FAFE 56%,#EAF3FD 100%);
-    padding:62px 64px 50px;display:flex;flex-direction:column;
+      radial-gradient(ellipse 52% 32% at 88% 1%, rgba(56,230,166,.15) 0%, transparent 60%),
+      radial-gradient(ellipse 58% 38% at 3% 20%, rgba(39,152,251,.14) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F5FAFE 56%,#EAF3FD 100%);
+    padding:30px 34px 26px;display:flex;flex-direction:column;
   }
   .kicker{font-size:15px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--azure)}
-  h1{font-size:64px;font-weight:800;line-height:.97;margin-top:13px;letter-spacing:-1px;color:var(--ink)}
+  h1{font-size:60px;font-weight:800;line-height:.97;margin-top:8px;letter-spacing:-1px;color:var(--ink)}
   h1 .g{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
-  .rule{height:5px;width:100%;margin:17px 0 11px;border-radius:5px;
+  .rule{height:5px;width:100%;margin:14px 0 10px;border-radius:5px;
     background:linear-gradient(90deg,var(--azure) 0%,var(--sky) 36%,rgba(80,169,247,0) 100%)}
-  .sub{font-size:21px;font-weight:400;color:var(--muted);max-width:860px;line-height:1.32}
+  .sub{font-size:20px;font-weight:400;color:var(--muted);max-width:940px;line-height:1.3}
 
-  /* funnel scene */
-  .scene{position:relative;width:952px;height:690px;margin-top:16px}
-  .frustum{position:absolute;pointer-events:none}
-  .rim{position:absolute;border-radius:50%;pointer-events:none}
-  .lbl{position:absolute;pointer-events:none;display:flex;align-items:center;gap:18px;color:#fff}
-  .lbl .n{font-size:46px;font-weight:800;line-height:1;letter-spacing:-1px;min-width:96px;text-align:right}
-  .lbl .nm{font-size:22px;font-weight:700;line-height:1.12}
-  .lbl .dp{font-size:14px;font-weight:500;opacity:.9;margin-top:2px}
-  .rail{position:absolute;pointer-events:none;border-left:2px solid var(--line);padding-left:16px}
-  .rail .ft{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-  .rail .fv{font-size:17px;font-weight:600;color:var(--ink);line-height:1.25;margin-top:2px;max-width:235px}
-  .rail.win{border-left-color:var(--eco)} .rail.win .ft{color:var(--eco-text)}
-  .po{position:absolute;transform:translate(-50%,0);display:inline-flex;align-items:center;gap:9px;
-    background:#053b2b;color:#9af5d1;font-size:16px;font-weight:700;letter-spacing:.03em;padding:11px 22px;border-radius:999px;
+  /* stat band */
+  .band{margin-top:16px;background:linear-gradient(120deg,#16294a,#1d3d74);border-radius:18px;
+    padding:15px 26px;display:flex;align-items:center;gap:22px;box-shadow:0 18px 38px rgba(21,49,92,.26)}
+  .kpi{display:flex;flex-direction:column}
+  .kpi .n{font-size:29px;font-weight:800;color:#fff;line-height:1}
+  .kpi .n.e{color:var(--mint)}
+  .kpi .l{font-size:11.5px;font-weight:500;letter-spacing:.04em;color:#9FC2EA;margin-top:3px;text-transform:uppercase}
+  .band .sep{width:1px;height:40px;background:rgba(255,255,255,.16)}
+  .band .tagline{margin-left:auto;font-size:14.5px;font-weight:500;color:#CFE0F4;max-width:300px;line-height:1.32;text-align:right}
+  .band .tagline b{color:var(--mint);font-weight:700}
+
+  /* scene: funnel hero, annotated both sides */
+  .scene{position:relative;width:1012px;height:826px;margin-top:18px}
+  .shape{position:absolute;pointer-events:none}
+
+  /* stage labels ON the funnel */
+  .lab{position:absolute;pointer-events:none;text-align:center;transform:translateX(-50%)}
+  .lab .n{font-size:50px;font-weight:800;line-height:.86;letter-spacing:-1.5px;text-shadow:0 2px 8px rgba(6,26,66,.30)}
+  .lab .nm{font-size:15px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;margin-top:5px;text-shadow:0 1px 4px rgba(6,26,66,.30)}
+  .lab .pc{font-size:12.5px;font-weight:600;margin-top:2px;text-shadow:0 1px 4px rgba(6,26,66,.28)}
+
+  /* left stage notes — what the surviving cohort means */
+  .note{position:absolute;width:228px;background:rgba(255,255,255,.74);border:1px solid var(--line);
+    border-radius:12px;padding:9px 13px;box-shadow:0 8px 18px rgba(20,50,100,.07);text-align:right}
+  .note .nh{font-size:13px;font-weight:800;letter-spacing:.02em;color:var(--deep)}
+  .note.win .nh{color:var(--eco-text)}
+  .note .np{font-size:12.5px;font-weight:500;color:var(--muted);line-height:1.3;margin-top:2px}
+  .note .np b{color:var(--ink);font-weight:700}
+
+  /* right gate cards — the filter that produced the next cohort */
+  .gate{position:absolute;width:282px;background:#fff;border:1px solid var(--line);border-radius:14px;
+    box-shadow:0 12px 26px rgba(33,93,195,.10);padding:12px 15px;display:flex;flex-direction:column;gap:8px}
+  .gate.win{border:1.5px solid var(--eco);box-shadow:0 14px 30px rgba(20,176,126,.18)}
+  .gate .gh{display:flex;align-items:center;gap:11px}
+  .gate .gi{width:42px;height:42px;flex:none;border-radius:11px;display:flex;align-items:center;justify-content:center}
+  .gate .gi i{width:23px;height:23px;background:#fff;-webkit-mask-size:contain;mask-size:contain;
+    -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:center;mask-position:center}
+  .gate .gtag{font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+  .gate .gt{font-size:18px;font-weight:800;color:var(--ink);line-height:1.02}
+  .gate .gf{font-size:13px;font-weight:500;color:var(--muted);line-height:1.28}
+  .gate .grow{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:8px}
+  .gate .pass{font-size:17px;font-weight:800;line-height:1}
+  .gate .pass small{display:block;font-size:10.5px;font-weight:600;color:var(--muted);letter-spacing:.04em;text-transform:uppercase;margin-top:2px}
+  .gate .drop{display:flex;align-items:center;gap:6px;font-size:13.5px;font-weight:700;color:var(--coral-deep)}
+  .gate .drop .dn{width:15px;height:15px;background:var(--coral-deep);
+    -webkit-mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat;mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat}
+
+  /* leader lines + anchors */
+  .conn{position:absolute;height:2px;pointer-events:none;
+    background:repeating-linear-gradient(90deg,var(--line) 0 6px,transparent 6px 12px)}
+  .anchor{position:absolute;width:9px;height:9px;border-radius:50%;transform:translate(-50%,-50%);
+    box-shadow:0 0 0 3px rgba(255,255,255,.9)}
+
+  /* PO seal */
+  .seal{position:absolute;transform:translate(-50%,0);display:inline-flex;align-items:center;gap:9px;
+    background:#053b2b;color:#9af5d1;font-size:16px;font-weight:700;letter-spacing:.02em;padding:11px 22px;border-radius:999px;
     box-shadow:0 14px 26px rgba(5,59,43,.32)}
-  .po .ck{width:19px;height:19px;background:#38E6A6;-webkit-mask:url(../assets/icons/circle-check.svg) center/contain no-repeat;mask:url(../assets/icons/circle-check.svg) center/contain no-repeat}
+  .seal .ck{width:19px;height:19px;background:#38E6A6;-webkit-mask:url(../assets/icons/circle-check.svg) center/contain no-repeat;mask:url(../assets/icons/circle-check.svg) center/contain no-repeat}
 
-  .insight{margin-top:6px;background:#fff;border-left:6px solid var(--azure);border-radius:14px;
-    box-shadow:0 12px 26px rgba(33,93,195,.08);padding:17px 23px;font-size:19px;font-weight:500;color:var(--ink);line-height:1.46}
-  .insight b{color:var(--eco-text);font-weight:700}
-  .cta{margin-top:13px;font-size:20px;font-weight:600;color:var(--ink);line-height:1.4}
-  .cta .q{color:var(--azure)}
+  /* insight */
+  .insight{margin-top:18px;background:#fff;border-left:6px solid var(--azure);border-radius:14px;
+    box-shadow:0 12px 26px rgba(33,93,195,.08);padding:18px 26px 20px}
+  .insight .ih{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:800;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--deep);margin-bottom:8px}
+  .insight .ih .ii{width:20px;height:20px;background:var(--deep);
+    -webkit-mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat;mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat}
+  .insight p{font-size:18.5px;font-weight:500;color:var(--ink);line-height:1.44}
+  .insight b{color:var(--eco-text);font-weight:700} .insight .px{color:var(--coral-deep);font-weight:700}
 
+  /* footer */
   .footrule{margin-top:auto;height:3px;border-radius:3px;
     background:linear-gradient(90deg,var(--azure),var(--eco) 55%,rgba(56,230,166,0) 100%)}
-  .foot{display:flex;align-items:center;justify-content:space-between;padding-top:18px}
-  .who{display:flex;align-items:center;gap:13px}
-  .who img{width:44px;height:44px;border-radius:10px}
-  .who .nm{font-size:17px;font-weight:700;color:var(--ink);line-height:1.15}
-  .who .hd{font-size:13.5px;font-weight:400;color:var(--muted)}
-  .thesis{font-size:17px;font-weight:600;color:var(--coral);text-align:right;max-width:300px;line-height:1.32}
+  .foot{display:flex;align-items:center;justify-content:space-between;padding-top:16px}
+  .who{display:flex;align-items:center;gap:14px}
+  .who img{height:74px;width:auto}
+  .sig{font-size:17.5px;font-weight:700;color:var(--ink);text-align:right;line-height:1.2}
 </style>
 </head>
 <body>
 <div id="card">
   <div class="kicker">Supply Chain 101 · Procurement</div>
-  <h1>The procurement funnel<br><span class="g">100 suppliers → 1 PO</span></h1>
+  <h1>The procurement funnel<br><span class="g">100 suppliers → 1 signed PO</span></h1>
   <div class="rule"></div>
-  <div class="sub">Every order starts as a long list. The shape that gets you to one signed supplier is a funnel — and every skipped filter is a risk you carry straight into the contract.</div>
+  <div class="sub">Every order starts as a long list and ends with one signed supplier. Four gates do the narrowing — and every gate you skip is a risk you carry straight into the contract.</div>
+
+  <div class="band">
+    <div class="kpi"><span class="n">100</span><span class="l">on the market</span></div>
+    <div class="sep"></div>
+    <div class="kpi"><span class="n">4</span><span class="l">gates to pass</span></div>
+    <div class="sep"></div>
+    <div class="kpi"><span class="n e">1</span><span class="l">supplier signed</span></div>
+    <div class="sep"></div>
+    <div class="kpi"><span class="n">1%</span><span class="l">make it through</span></div>
+    <div class="band tagline" style="background:none;padding:0;box-shadow:none;margin-top:0">The widest stage is the <b>cheapest place to say no</b>.</div>
+  </div>
 
   <div class="scene" id="scene"></div>
 
-  <div class="insight">The widest stage is the <b>cheapest place to say no</b>. The narrowest is where a wrong call costs the most, so the reference check and final terms are never a formality.</div>
-  <div class="cta"><span class="q">Where does your team spend the least time</span> in this funnel — and is that the stage that keeps producing surprises?</div>
+  <div class="insight">
+    <div class="ih"><span class="ii"></span>The narrow end is not a formality</div>
+    <p>References and final terms are the last cheap chance to catch a problem before it becomes a contract. And the filter that matters most is never price — it is <b>whether this supplier can grow with you</b>, because the order you place today is rarely the last one.</p>
+  </div>
 
   <div class="footrule"></div>
   <div class="foot">
-    <div class="who"><img src="../assets/logos/shettys-desk-logo-1.png" alt="Shetty's Desk"><div><div class="nm">Shetty's Desk</div><div class="hd">Poornajith Shetty</div></div></div>
-    <div class="thesis">A long list is not a shortlist.<br>A shortlist is not a decision.</div>
+    <div class="who"><img src="../assets/logos/shettys-desk-logo-2.png" alt="Shetty's Desk"></div>
+    <div class="sig">Poornajith Shetty</div>
   </div>
 </div>
 
 <script>
 (function(){
   const scene=document.getElementById('scene');
-  const cxF=318;                 // funnel centre x
-  let y=44;                      // running top y
+  const SW=scene.clientWidth, SH=scene.clientHeight;        // 1012 x 744
+  const cx=506;                       // funnel centre x (scene centre → symmetric wedges)
+  const Wtop=456, Wtip=152;           // mouth / tip widths
+  const top=20, H=722;                // funnel body top y + height (tall hero fills the column)
+  const bot=top+H;
+  const wAt=y=>Wtop+(Wtip-Wtop)*((y-top)/H);
+  const zoneH=H/5;
+
+  // five surviving cohorts — count + name + cumulative % shown ON the funnel,
+  // plus a left-side note explaining what that cohort actually is
   const stages=[
-    {n:'100', nm:'On the market', dp:'the full long list',  wt:632, wb:534, h:120, c:['#7CC0FA','#2E97FB'], ft:'Filter', fv:'Anyone who could supply it'},
-    {n:'20',  nm:'RFI qualified', dp:'80 ruled out',        wt:534, wb:438, h:116, c:['#57A8F7','#2480E6'], ft:'Filter', fv:'Capability, capacity, basic fit'},
-    {n:'8',   nm:'RFQ issued',    dp:'12 ruled out',        wt:438, wb:346, h:112, c:['#3D8AE9','#2068CE'], ft:'Filter', fv:'Price, terms, lead time'},
-    {n:'3',   nm:'Evaluated',     dp:'5 ruled out',         wt:346, wb:258, h:108, c:['#2C61C7','#1A40AA'], ft:'Filter', fv:'Scored on the full criteria'},
-    {n:'1',   nm:'Awarded',       dp:'the one supplier',    wt:258, wb:178, h:114, c:['#5CEDB6','#16B98A'], ft:'Last filter', fv:'References + final terms', eco:true},
+    {n:'100', nm:'On the market', pc:'100% in play', nh:'Long list',     np:'Names that exist. <b>Nothing proven</b> yet.'},
+    {n:'20',  nm:'RFI qualified', pc:'20% remain',   nh:'Can they?',     np:'Capability and capacity confirmed. Price still unknown.'},
+    {n:'8',   nm:'RFQ in hand',   pc:'8% remain',    nh:'At what price?', np:'Quotes now comparable, <b>like for like</b>.'},
+    {n:'3',   nm:'Evaluated',     pc:'3% remain',    nh:"Who's best?",   np:'Ranked on the weighted scorecard, not price alone.'},
+    {n:'1',   nm:'Awarded',       pc:'1% — signed',  nh:'The one',       np:'Checked <b>end to end</b> before the PO.', eco:true},
   ];
 
-  function el(cls){const d=document.createElement('div');d.className=cls;scene.appendChild(d);return d;}
+  // four gates — the filter that produced the next cohort (sit at the boundaries)
+  const gates=[
+    {t:'RFI screen',  f:'Capability · capacity · basic fit', pass:'1 in 5', adv:'advance', drop:'80 ruled out', c:'#2E97FB', icon:'circle-check'},
+    {t:'RFQ compare', f:'Price · terms · lead time',         pass:'2 in 5', adv:'advance', drop:'12 ruled out', c:'#2480E6', icon:'tag'},
+    {t:'Scorecard',   f:'Weighted across every criterion',   pass:'3 in 8', adv:'advance', drop:'5 ruled out',  c:'#1F5FC6', icon:'chart-line'},
+    {t:'Award check', f:'References + final terms',          pass:'1 in 3', adv:'awarded', drop:'2 ruled out',  c:'#14B07E', icon:'shield-check', win:true},
+  ];
 
-  // soft cast shadow under the whole funnel
-  const cast=el('frustum');
-  cast.style.left=(cxF-150)+'px'; cast.style.top=(y+stages.reduce((s,x)=>s+x.h,0)+6)+'px';
-  cast.style.width='300px'; cast.style.height='52px'; cast.style.borderRadius='50%';
-  cast.style.background='radial-gradient(ellipse at center, rgba(15,40,90,.22), rgba(15,40,90,0) 70%)';
-
-  stages.forEach((s,i)=>{
-    const rimH=Math.max(20, s.wt*0.085);
-    // body (tapered trapezoid) with cylinder-style shading
-    const body=el('frustum');
-    body.style.left=(cxF - s.wt/2)+'px'; body.style.top=y+'px';
-    body.style.width=s.wt+'px'; body.style.height=s.h+'px';
-    const insL=(50 - 50*s.wb/s.wt).toFixed(2), insR=(50 + 50*s.wb/s.wt).toFixed(2);
-    body.style.clipPath='polygon(0 0, 100% 0, '+insR+'% 100%, '+insL+'% 100%)';
-    body.style.background=
-      'linear-gradient(90deg, rgba(0,0,0,.20) 0%, rgba(255,255,255,.16) 42%, rgba(255,255,255,.05) 60%, rgba(0,0,0,.22) 100%),'+
-      'linear-gradient(180deg,'+s.c[0]+','+s.c[1]+')';
-    body.style.filter='drop-shadow(0 6px 7px rgba(15,45,100,.16))';
-
-    // top rim ellipse (the 3D opening) — lighter
-    const rim=el('rim');
-    rim.style.left=(cxF - s.wt/2)+'px'; rim.style.top=(y - rimH/2)+'px';
-    rim.style.width=s.wt+'px'; rim.style.height=rimH+'px';
-    rim.style.background='radial-gradient(ellipse at 42% 28%, '+lighten(s.c[0],26)+', '+s.c[0]+' 72%)';
-    rim.style.boxShadow='inset 0 -3px 6px rgba(0,0,0,.14)';
-
-    // bottom cap for the last (closed tip)
-    if(s.eco){
-      const cap=el('rim');
-      cap.style.left=(cxF - s.wb/2)+'px'; cap.style.top=(y + s.h - rimH*0.5*s.wb/s.wt)+'px';
-      cap.style.width=s.wb+'px'; cap.style.height=(rimH*s.wb/s.wt)+'px';
-      cap.style.background='linear-gradient(180deg,'+s.c[1]+','+lighten(s.c[1],-22)+')';
-      cap.style.zIndex=1;
-    }
-
-    // label (number + name) over the body
-    const lab=el('lbl');
-    lab.style.left=(cxF - s.wt/2 + 30)+'px'; lab.style.top=y+'px'; lab.style.height=s.h+'px';
-    const nCol = s.eco ? '#06402E' : '#fff';
-    const dCol = s.eco ? 'rgba(6,64,46,.78)' : 'rgba(255,255,255,.9)';
-    lab.innerHTML='<span class="n" style="color:'+nCol+'">'+s.n+'</span>'+
-      '<div><div class="nm" style="color:'+nCol+'">'+s.nm+'</div><div class="dp" style="color:'+dCol+'">'+s.dp+'</div></div>';
-
-    // rail (filter) on the right, aligned to stage centre
-    const rail=el('rail'+(s.eco?' win':''));
-    rail.style.left=(cxF + 338)+'px'; rail.style.top=(y + s.h/2 - 26)+'px'; rail.style.width='246px';
-    rail.innerHTML='<div class="ft">'+s.ft+'</div><div class="fv">'+s.fv+'</div>';
-
-    y += s.h;
-  });
-
-  // PO pill under the tip
-  const po=el('po');
-  po.style.left=cxF+'px'; po.style.top=(y+30)+'px';
-  po.innerHTML='<span class="ck"></span>Purchase order signed';
-
-  function lighten(hex,amt){const n=parseInt(hex.slice(1),16);let r=(n>>16)+amt,g=((n>>8)&255)+amt,b=(n&255)+amt;
+  function add(cls){const d=document.createElement('div');d.className=cls;scene.appendChild(d);return d;}
+  function shade(hex,amt){const n=parseInt(hex.slice(1),16);let r=(n>>16)+amt,g=((n>>8)&255)+amt,b=(n&255)+amt;
     r=Math.max(0,Math.min(255,r));g=Math.max(0,Math.min(255,g));b=Math.max(0,Math.min(255,b));
     return '#'+((1<<24)+(r<<16)+(g<<8)+b).toString(16).slice(1);}
+
+  /* ---- cast shadow under the tip ---- */
+  const cast=add('shape');
+  cast.style.left=(cx-150)+'px'; cast.style.top=(bot+12)+'px'; cast.style.width='300px'; cast.style.height='44px';
+  cast.style.borderRadius='50%'; cast.style.background='radial-gradient(ellipse at center, rgba(15,40,90,.20), rgba(15,40,90,0) 70%)';
+
+  /* ---- funnel body (single tapered 3D vessel) ---- */
+  const body=add('shape');
+  body.style.left='0'; body.style.top='0'; body.style.width=SW+'px'; body.style.height=(bot+20)+'px';
+  body.style.clipPath='polygon('+(cx-Wtop/2)+'px '+top+'px, '+(cx+Wtop/2)+'px '+top+'px, '+(cx+Wtip/2)+'px '+bot+'px, '+(cx-Wtip/2)+'px '+bot+'px)';
+  body.style.background=
+    'linear-gradient(90deg, rgba(8,24,55,.30) 0%, rgba(255,255,255,.24) 43%, rgba(255,255,255,.04) 61%, rgba(8,24,55,.32) 100%),'+
+    'linear-gradient(180deg,#62B2F9 0%,#2E8BF0 33%,#2266CD 58%,#1E59C0 74%,#27C892 85%,#13AE7D 100%)';
+  body.style.filter='drop-shadow(0 10px 16px rgba(15,45,100,.18))';
+
+  /* ---- top mouth ellipse (the opening — dark interior implies depth) ---- */
+  const mouthH=Wtop*0.15;
+  const mouth=add('shape');
+  mouth.style.left=(cx-Wtop/2)+'px'; mouth.style.top=(top-mouthH/2)+'px'; mouth.style.width=Wtop+'px'; mouth.style.height=mouthH+'px';
+  mouth.style.borderRadius='50%';
+  mouth.style.background='radial-gradient(ellipse at 50% 38%, #14336b 0%, #2b6fc8 60%, #5aa6f3 100%)';
+  mouth.style.boxShadow='inset 0 5px 9px rgba(0,0,0,.30)';
+
+  /* ---- strata rims at each interior boundary (the fill levels) ---- */
+  for(let i=1;i<5;i++){
+    const y=top+i*zoneH, w=wAt(y), rh=w*0.12;
+    const rim=add('shape');
+    rim.style.left=(cx-w/2)+'px'; rim.style.top=(y-rh/2)+'px'; rim.style.width=w+'px'; rim.style.height=rh+'px';
+    rim.style.borderRadius='50%';
+    rim.style.background='linear-gradient(180deg, rgba(255,255,255,.34), rgba(255,255,255,.04) 55%, rgba(8,24,55,.18))';
+    rim.style.opacity=i===4?'.9':'.6';
+  }
+
+  /* ---- eco tip cap ---- */
+  const tipW=Wtip, tipH=tipW*0.30;
+  const tip=add('shape');
+  tip.style.left=(cx-tipW/2)+'px'; tip.style.top=(bot-tipH/2)+'px'; tip.style.width=tipW+'px'; tip.style.height=tipH+'px';
+  tip.style.borderRadius='50%'; tip.style.background='linear-gradient(180deg,#3FE0A4,#0E8F68)';
+  tip.style.boxShadow='inset 0 2px 4px rgba(255,255,255,.4)';
+
+  /* ---- leaders first (paint under cards) ---- */
+  function leader(x,y,w,color){
+    const c=add('conn'); c.style.left=x+'px'; c.style.top=y+'px'; c.style.width=w+'px';
+    const a=add('anchor'); a.style.left=x+'px'; a.style.top=y+'px'; a.style.background=color;
+  }
+
+  const cardLeft=730, noteGap=34, noteW=228;
+  // right leaders (funnel right edge → gate card) at each boundary
+  gates.forEach((g,i)=>{
+    const y=top+(i+1)*zoneH, redge=cx+wAt(y)/2;
+    leader(redge, y, cardLeft-redge, g.c);
+  });
+  // left leaders (note → funnel left edge) at each stage centre
+  stages.forEach((s,i)=>{
+    const yc=top+i*zoneH+zoneH/2, ledge=cx-wAt(yc)/2;
+    const c=add('conn'); c.style.left=(ledge-noteGap)+'px'; c.style.top=yc+'px'; c.style.width=noteGap+'px';
+    const a=add('anchor'); a.style.left=ledge+'px'; a.style.top=yc+'px'; a.style.background=s.eco?'#14B07E':'#2E97FB';
+  });
+
+  /* ---- stage labels ON the funnel ---- */
+  stages.forEach((s,i)=>{
+    const yc=top+i*zoneH+zoneH/2;
+    const lab=add('lab'); lab.style.left=cx+'px'; lab.style.top=(yc-42)+'px';
+    const nc=s.eco?'#06402E':'#fff';
+    const sc=s.eco?'rgba(6,64,46,.92)':'rgba(255,255,255,.94)';
+    const pc=s.eco?'rgba(6,64,46,.78)':'rgba(214,235,255,.92)';
+    lab.innerHTML='<div class="n" style="color:'+nc+'">'+s.n+'</div>'+
+                  '<div class="nm" style="color:'+sc+'">'+s.nm+'</div>'+
+                  '<div class="pc" style="color:'+pc+'">'+s.pc+'</div>';
+  });
+
+  /* ---- left stage notes ---- */
+  stages.forEach((s,i)=>{
+    const yc=top+i*zoneH+zoneH/2, ledge=cx-wAt(yc)/2;
+    const note=add('note'+(s.eco?' win':'')); note.style.width=noteW+'px';
+    note.style.left=(ledge-noteGap-noteW)+'px'; note.style.top=yc+'px'; note.style.transform='translateY(-50%)';
+    note.innerHTML='<div class="nh">'+s.nh+'</div><div class="np">'+s.np+'</div>';
+  });
+
+  /* ---- right gate cards ---- */
+  gates.forEach((g,i)=>{
+    const y=top+(i+1)*zoneH;
+    const card=add('gate'+(g.win?' win':'')); card.style.left=cardLeft+'px'; card.style.top=y+'px'; card.style.transform='translateY(-50%)';
+    card.innerHTML=
+      '<div class="gh">'+
+        '<span class="gi" style="background:linear-gradient(135deg,'+g.c+','+shade(g.c,-26)+')"><i style="-webkit-mask:url(../assets/icons/'+g.icon+'.svg) center/contain no-repeat;mask:url(../assets/icons/'+g.icon+'.svg) center/contain no-repeat"></i></span>'+
+        '<div><div class="gtag">Gate '+(i+1)+' of 4</div><div class="gt">'+g.t+'</div></div>'+
+      '</div>'+
+      '<div class="gf">'+g.f+'</div>'+
+      '<div class="grow">'+
+        '<div class="pass" style="color:'+(g.win?'var(--eco-text)':g.c)+'">'+g.pass+'<small>'+g.adv+'</small></div>'+
+        '<div class="drop"><span class="dn"></span>'+g.drop+'</div>'+
+      '</div>';
+  });
+
+  /* ---- PO seal under the tip ---- */
+  const seal=add('seal'); seal.style.left=cx+'px'; seal.style.top=(bot+30)+'px';
+  seal.innerHTML='<span class="ck"></span>Purchase order signed';
 })();
 </script>
 </body>

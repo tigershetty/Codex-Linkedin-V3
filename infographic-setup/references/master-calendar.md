@@ -54,8 +54,8 @@ Legend: ☐ to do · ◐ drafted · ✅ posted
 
 | Run Wk | Dates (2026) | Data folder | Theme | Sub-topic | 101 — Post 1 | 101 — Post 2 | AI for SC — Post 3 | AI for SC — Post 4 |
 |---|---|---|---|---|---|---|---|---|
-| **RW01** | **Jun 22–28** | `2026-W26` | Procurement | Supplier evaluation | ◐ Compare supplier quotes `compare-supplier-quotes` | ◐ Procurement funnel (100→1) `procurement-funnel` | ◐ Ep05 · Cat. Mgr × Copilot · Supplier scorecard for QBRs `supplier-scorecard-qbr` | ◐ Ep06 · Purchaser × Claude · Price-increase counter-args `price-increase-counterargs` |
-| RW02 | Jun 29–Jul 5 | `2026-W27` | Procurement | Contract management | ☐ Production BOM (the recipe) | ☐ OEE — why 85% beats 100% | ☐ Ep07 · Purchaser × Claude · Maverick spend analysis | ☐ Ep08 · Cat. Mgr × ChatGPT · TCO across 3 quotes |
+| **RW01** | **Jun 22–28** | `2026-W26` | Procurement | Supplier eval + buying strategy | ✅ Compare supplier quotes `compare-supplier-quotes`<br>➕ Kraljic matrix `kraljic-matrix` | ✅ Procurement funnel (100→1) `procurement-funnel`<br>➕ Make-vs-buy `make-vs-buy` | ◐ Ep05 · Cat. Mgr × Copilot · Supplier scorecard for QBRs `supplier-scorecard-qbr` | ◐ Ep06 · Purchaser × Claude · Price-increase counter-args `price-increase-counterargs` |
+| RW02 | Jun 29–Jul 5 | `2026-W27` | Procurement | Contract management | ☐ Anatomy of a supply contract (6 clauses) `supply-contract-clauses` | ☐ Fixed-price vs cost-plus vs T&M (who carries the risk) `contract-pricing-models` | ☐ Ep07 · Purchaser × Claude · Maverick spend analysis | ☐ Ep08 · Cat. Mgr × ChatGPT · TCO across 3 quotes |
 | RW03 | Jul 6–12 | `2026-W28` | Procurement | Supplier performance | ☐ Supplier concentration risk | ☐ Supplier performance review | ☐ Ep09 · Supply Planner × Claude · Supplier flexibility matrix | ☐ Ep10 · Cat. Mgr × Gemini · Supplier risk profile |
 | RW04 | Jul 13–19 | `2026-W29` | Production Planning | Demand forecasting | ☐ How demand forecasting works | ☐ Demand plan vs. forecast | ☐ Ep11 · Demand Planner × Claude · Demand decomposition | ☐ Ep12 · S&OP Analyst × Copilot · Demand review dashboard |
 | RW05 | Jul 20–26 | `2026-W30` | Production Planning | Production planning | ☐ What is a production plan | ☐ Scheduling horizon (frozen/slushy/liquid) | ☐ Ep13 · Prod. Planner × Claude · Sequence to cut changeover | ☐ Ep14 · Supply Planner × ChatGPT · Optimal batch size (EOQ) |
@@ -68,6 +68,8 @@ Legend: ☐ to do · ◐ drafted · ✅ posted
 | RW12 | Sep 7–13 | `2026-W37` | Inventory Management | SKU management | ☐ SKU rationalisation | ☐ Cash conversion cycle | ☐ Ep27 · Warehouse Mgr × Claude · Slotting/utilisation audit | ☐ Ep28 · Supply Planner × Copilot · Replenishment calendar |
 
 > `/ai-for-sc` takes the **Plan Week** number. RW01 → `PW23` → run `/ai-for-sc W23`. The PW for each row = PW22 + RW number (RW01=PW23, RW02=PW24 … RW12=PW34).
+
+> **RW01 101 refresh (2026-06-21):** Compare-quotes + Funnel were published first; the 101 pair was then refreshed with two genuinely-different, sourced procurement topics built on the new research-first standard — **Kraljic matrix** (Ep35) and **Make-vs-buy** (Ep36). All four RW01 cards now use **Logo 2**; the AISC pair (Ep05/Ep06) was rebuilt with new visual models + the research engine. See each slug's `research-brief.md`.
 
 ---
 

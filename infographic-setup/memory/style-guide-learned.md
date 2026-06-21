@@ -18,6 +18,7 @@ Last updated: 2026-06-21 — manual entry: code-render visual standard (supplier
 | Real 3D via JS `clip-path` isometry | `iso(u,v)=[OX+(u−v)*a, OY+(u+v)*b]`; cap light → left mid → right dark | Deterministic genuine depth; CSS 3D transforms were fragile and abandoned |
 | Multi-element from the 200-pattern library | Combine #43 towers + #106 Harvey balls + #44 share bar + callouts in one still | Consulting-grade density; reserve unused patterns for later posts on the topic |
 | Footrule-above-row footer; tighter padding; fill the canvas | Full-width rule sits above the foot row (never over the logo); ~22–24px padding; rescale hero to fill | "Use the space, don't frame it with border" |
+| SC 101 footer = Logo 2 (dark-wordmark lockup) | `shettys-desk-logo-2.png` ~74px on the LEFT (carries the wordmark → no separate text label) + "Poornajith Shetty" signature on the RIGHT | Logo 1's wordmark is white = invisible on the white card; Logo 2 is built for light backgrounds |
 
 **Technical — confirmed gotchas**
 | Gotcha | Fix |

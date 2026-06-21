@@ -1,6 +1,6 @@
 ---
 name: ai-for-sc
-description: Use when the user runs /ai-for-sc [week] or /ai-for-sc [week] [use-case-slug]. Monthly theme model pipeline for AI for Supply Chain series. Generates two practical use-case posts per week — each for a specific SC role and AI tool — from the approved monthly topic bank. Loads tiger-voice.md, published-voice.md, 101-voice.md, and ai-for-sc-visual-dna.md before generating.
+description: Use when the user runs /ai-for-sc [week] or /ai-for-sc [week] [use-case-slug]. Monthly theme model pipeline for AI for Supply Chain series. Runs the research-engine FIRST (parallel tool-layer + method-layer research) so every AI-tool capability claim, number, index, and prompt is verified and sourced. Generates two practical use-case posts per week — each for a specific SC role and AI tool — from the approved monthly topic bank. Loads tiger-voice.md, published-voice.md, 101-voice.md, and ai-for-sc-visual-dna.md before generating.
 ---
 
 # /ai-for-sc Skill — AI for Supply Chain Pipeline (v3)
@@ -37,7 +37,32 @@ Read all of these before generating a single word. They are the intelligence bas
 
 ---
 
+## Step 0: Research Engine (MANDATORY — runs first)
+
+Before loading voice or generating anything, run **`/research-engine ai-for-sc [use-case-slug]`**
+for each post (see `.claude/skills/research-engine/SKILL.md`). For AI for SC it spawns
+**two research-analyst agents in parallel**:
+- **Tool layer** — what the named AI tool can *actually* do today (from the vendor's own
+  docs), its licence/access limits, and the honest limitation that becomes the mandatory
+  "when NOT to use AI" line.
+- **Method/domain layer** — the real formulae, indices, criteria, weights and benchmarks
+  the workflow depends on (e.g. should-cost build, PPI/LME indexation, scorecard weights).
+
+It writes `data/{YYYY-W##}/{slug}/research-brief.md`. **Every capability claim, number,
+index and the expanded copy-paste prompt are built from this brief** — never asserted from
+memory. A tool capability that can't be sourced to vendor docs does not go on the card.
+Do not proceed until the brief clears the research-engine quality gate.
+
+> This is what makes the depth high enough to build on. Concrete, demonstrable examples
+> (e.g. showing the tool operate inside its host surface — Copilot in Excel, or Claude in
+> Claude Code / Cowork building a real artifact) are layered on top of this verified depth,
+> never instead of it.
+
+---
+
 ## Step 1: Load All Intelligence
+
+0. Read the `research-brief.md`(s) from Step 0 — the verified fact base for both posts.
 
 1. Read `tiger-voice.md` — internalize:
    - Natural rhythm: longer flowing sentences, connective tissue ("because", "so", "which means")
@@ -391,6 +416,12 @@ After hook confirmed and PDF decision made:
 ---
 
 ## Quality Check (run before presenting)
+
+**Research (gate — check first):**
+- [ ] `research-brief.md` exists for each post and cleared the research-engine gate?
+- [ ] Every AI-tool capability claim is sourced to the vendor's own docs (with reliability tag)?
+- [ ] Every number, index value, weight and the expanded prompt trace to the brief — none asserted from memory?
+- [ ] The honest "when NOT to use AI" line comes from the brief's limit findings?
 
 **Use Cases:**
 - [ ] Two different SC roles — not the same job title twice in the same week?
