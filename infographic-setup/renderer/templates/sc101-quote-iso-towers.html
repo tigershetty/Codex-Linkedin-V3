@@ -9,6 +9,8 @@
     --eco:#38E6A6; --eco-text:#14B07E; --mint:#8FF3CC; --coral:#E27199; --coral-deep:#cf5c84;
     --ink:#15315C; --muted:#5D7599; --line:#DCEAF8; --tint:#E2F0FB; --tint2:#EEF6FE;
     --eco-grad:linear-gradient(135deg,#8FF3CC,#38E6A6,#1FC98B);
+    /* 5-criterion ramp: price/speed (blue) -> quality/relationship (green) */
+    --c0:#93C9FA; --c1:#54A6F6; --c2:#2E8FF0; --c3:#25C58C; --c4:#12A06F;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html,body{width:1080px}
@@ -19,54 +21,63 @@
       radial-gradient(ellipse 52% 34% at 88% 1%, rgba(56,230,166,.16) 0%, transparent 60%),
       radial-gradient(ellipse 58% 40% at 3% 22%, rgba(39,152,251,.14) 0%, transparent 58%),
       linear-gradient(180deg,#FFFFFF 0%,#F4FAFE 56%,#EAF3FD 100%);
-    padding:62px 64px 50px;display:flex;flex-direction:column;
+    padding:60px 64px 48px;display:flex;flex-direction:column;
   }
   .kicker{font-size:15px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--azure)}
-  h1{font-size:62px;font-weight:800;line-height:.97;margin-top:13px;letter-spacing:-1px;color:var(--ink)}
+  h1{font-size:60px;font-weight:800;line-height:.97;margin-top:12px;letter-spacing:-1px;color:var(--ink)}
   h1 .g{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
-  .rule{height:5px;width:100%;margin:17px 0 11px;border-radius:5px;
+  .rule{height:5px;width:100%;margin:16px 0 10px;border-radius:5px;
     background:linear-gradient(90deg,var(--azure) 0%,var(--sky) 36%,rgba(80,169,247,0) 100%)}
-  .sub{font-size:21px;font-weight:400;color:var(--muted);max-width:860px;line-height:1.32}
+  .sub{font-size:21px;font-weight:400;color:var(--muted);max-width:880px;line-height:1.32}
 
   /* iso scene */
-  .scene{position:relative;width:952px;height:602px;margin-top:8px}
+  .scene{position:relative;width:952px;height:486px;margin-top:2px}
   .shape{position:absolute;inset:0;pointer-events:none}
   .lbl{position:absolute;transform:translate(-50%,-50%);text-align:center;pointer-events:none}
-  .letter{font-size:52px;font-weight:800;color:#fff;line-height:1;text-shadow:0 2px 6px rgba(8,28,60,.28)}
-  .vtop{font-size:13px;font-weight:700;letter-spacing:.04em}
+  .badge{width:62px;height:62px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-size:30px;font-weight:800;color:#fff;border:3px solid #fff;box-shadow:0 10px 20px rgba(12,35,75,.28)}
+  .vtop{font-size:15px;font-weight:800;letter-spacing:.02em}
   .tier{font-size:19px;font-weight:800;line-height:1.05;white-space:nowrap}
-  .tier .s{display:block;font-size:13px;font-weight:600;color:var(--muted);letter-spacing:.01em;margin-top:3px}
+  .tier .s{display:block;font-size:13px;font-weight:600;color:var(--muted);margin-top:3px}
   .ptag{display:flex;align-items:center;gap:7px;background:#fff;border:1.5px solid var(--line);
     border-radius:999px;padding:7px 14px;box-shadow:0 8px 18px rgba(20,50,100,.12);white-space:nowrap}
   .ptag .ic{width:15px;height:15px;background:var(--muted);
     -webkit-mask:url(../assets/icons/tag.svg) center/contain no-repeat;mask:url(../assets/icons/tag.svg) center/contain no-repeat}
   .ptag .pv{font-size:16px;font-weight:800;color:var(--ink);line-height:1}
   .ptag .pu{font-size:11px;font-weight:600;color:var(--muted);line-height:1}
-  .crown{position:absolute;transform:translate(-50%,-50%);width:38px;height:38px;background:#FFC542;
+  .crown{position:absolute;transform:translate(-50%,-50%);width:36px;height:36px;background:#FFC542;
     -webkit-mask:url(../assets/icons/trophy.svg) center/contain no-repeat;mask:url(../assets/icons/trophy.svg) center/contain no-repeat;
     filter:drop-shadow(0 4px 6px rgba(180,120,0,.35))}
-  /* value axis */
-  .axcap{position:absolute;left:0;top:0;writing-mode:vertical-rl;transform:rotate(180deg);
-    font-size:13px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
 
-  /* legend */
-  .legend{margin-top:8px;display:flex;align-items:center;gap:13px;flex-wrap:wrap;
-    background:var(--tint2);border:1px solid var(--line);border-radius:16px;padding:15px 20px}
+  /* value-share bar (part-to-whole) */
+  .share{margin-top:2px;background:#fff;border:1px solid var(--line);border-radius:18px;
+    box-shadow:0 14px 30px rgba(33,93,195,.08);padding:18px 24px}
+  .share .sh{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:11px}
+  .share .sh .t{font-size:17px;font-weight:800;color:var(--ink);letter-spacing:.01em}
+  .share .sh .r{font-size:15px;font-weight:500;color:var(--muted)}
+  .share .sh .r b{color:var(--eco-text);font-weight:800} .share .sh .r .px{color:var(--coral-deep);font-weight:800}
+  .sbar{display:flex;height:46px;border-radius:11px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(20,50,100,.06)}
+  .sbar span{display:flex;align-items:center;justify-content:center;color:#fff;font-size:16px;font-weight:800;
+    text-shadow:0 1px 2px rgba(8,28,60,.25)}
+  .sbar .b{background:linear-gradient(180deg,#5CEDB6,#16B98A)}
+  .sbar .a{background:linear-gradient(180deg,#5CB0F9,#2480E6)}
+  .sbar .c{background:linear-gradient(180deg,#EE9CBA,#cf5c84)}
+
+  /* criterion legend */
+  .legend{margin-top:13px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
   .legend .lead{font-size:16px;font-weight:800;color:var(--ink)}
-  .legend .lead b{color:var(--eco-text)}
-  .chip{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:600;color:var(--ink)}
-  .chip .ic{width:18px;height:18px;background:var(--royal);-webkit-mask-size:contain;mask-size:contain;
+  .chip{display:flex;align-items:center;gap:8px;font-size:15.5px;font-weight:600;color:var(--ink)}
+  .chip .sw{width:15px;height:15px;border-radius:4px}
+  .chip .ic{width:17px;height:17px;background:var(--royal);-webkit-mask-size:contain;mask-size:contain;
     -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:center;mask-position:center}
-  .chip .d{color:var(--line);font-weight:700}
 
-  .insight{margin-top:15px;background:#fff;border-left:6px solid var(--azure);border-radius:14px;
-    box-shadow:0 12px 26px rgba(33,93,195,.08);padding:17px 23px;font-size:19px;font-weight:500;color:var(--ink);line-height:1.46}
+  .insight{margin-top:14px;background:var(--tint2);border-left:6px solid var(--azure);border-radius:14px;
+    padding:16px 22px;font-size:18.5px;font-weight:500;color:var(--ink);line-height:1.46}
   .insight b{color:var(--eco-text);font-weight:700} .insight .px{color:var(--coral-deep);font-weight:700}
 
-  /* footer (fixed, clean rule ABOVE content) */
   .footrule{margin-top:auto;height:3px;border-radius:3px;
     background:linear-gradient(90deg,var(--azure),var(--eco) 55%,rgba(56,230,166,0) 100%)}
-  .foot{display:flex;align-items:center;justify-content:space-between;padding-top:18px}
+  .foot{display:flex;align-items:center;justify-content:space-between;padding-top:16px}
   .who{display:flex;align-items:center;gap:13px}
   .who img{width:44px;height:44px;border-radius:10px}
   .who .nm{font-size:17px;font-weight:700;color:var(--ink);line-height:1.15}
@@ -79,20 +90,30 @@
   <div class="kicker">Supply Chain 101 · Procurement</div>
   <h1>The cheapest quote is rarely<br><span class="g">the cheapest supplier</span></h1>
   <div class="rule"></div>
-  <div class="sub">Price is one column on a scorecard that has five. Stack them up and the lowest bid is almost never the tallest once you count what it's actually worth.</div>
+  <div class="sub">Price is one band on a tower of five. Stack the columns that actually matter and the lowest bid is almost never the tallest — that height gap is the total value you'd be giving up.</div>
 
   <div class="scene" id="scene"></div>
 
-  <div class="legend">
-    <span class="lead">Total value <b>=</b></span>
-    <span class="chip"><span class="ic" style="-webkit-mask-image:url(../assets/icons/tag.svg);mask-image:url(../assets/icons/tag.svg)"></span>Price</span><span class="d">+</span>
-    <span class="chip"><span class="ic" style="-webkit-mask-image:url(../assets/icons/clock.svg);mask-image:url(../assets/icons/clock.svg)"></span>Lead time</span><span class="d">+</span>
-    <span class="chip"><span class="ic" style="-webkit-mask-image:url(../assets/icons/badge-check.svg);mask-image:url(../assets/icons/badge-check.svg)"></span>Quality</span><span class="d">+</span>
-    <span class="chip"><span class="ic" style="-webkit-mask-image:url(../assets/icons/shield-check.svg);mask-image:url(../assets/icons/shield-check.svg)"></span>Payment terms</span><span class="d">+</span>
-    <span class="chip"><span class="ic" style="-webkit-mask-image:url(../assets/icons/message-circle.svg);mask-image:url(../assets/icons/message-circle.svg)"></span>References</span>
+  <div class="share">
+    <div class="sh"><span class="t">Share of total value</span>
+      <span class="r">Supplier <b>B</b> carries <b>2.1×</b> the value of the <span class="px">false-economy</span> bid — for just <b>+17%</b> per unit.</span></div>
+    <div class="sbar">
+      <span class="b" style="width:45.6%">B&nbsp;·&nbsp;46%</span>
+      <span class="a" style="width:33.2%">A&nbsp;·&nbsp;33%</span>
+      <span class="c" style="width:21.2%">C&nbsp;·&nbsp;21%</span>
+    </div>
   </div>
 
-  <div class="insight">Supplier A wins on <span class="px">price</span> and lands mid-table on everything else. Supplier C is cheap and weak — a <span class="px">false economy</span>. Supplier B costs a little more per unit and is worth far more. <b>That height gap is the decision.</b></div>
+  <div class="legend">
+    <span class="lead">Total value =</span>
+    <span class="chip"><span class="sw" style="background:var(--c0)"></span><span class="ic" style="-webkit-mask-image:url(../assets/icons/tag.svg);mask-image:url(../assets/icons/tag.svg)"></span>Price</span>
+    <span class="chip"><span class="sw" style="background:var(--c1)"></span><span class="ic" style="-webkit-mask-image:url(../assets/icons/clock.svg);mask-image:url(../assets/icons/clock.svg)"></span>Lead time</span>
+    <span class="chip"><span class="sw" style="background:var(--c2)"></span><span class="ic" style="-webkit-mask-image:url(../assets/icons/badge-check.svg);mask-image:url(../assets/icons/badge-check.svg)"></span>Quality</span>
+    <span class="chip"><span class="sw" style="background:var(--c3)"></span><span class="ic" style="-webkit-mask-image:url(../assets/icons/shield-check.svg);mask-image:url(../assets/icons/shield-check.svg)"></span>Payment terms</span>
+    <span class="chip"><span class="sw" style="background:var(--c4)"></span><span class="ic" style="-webkit-mask-image:url(../assets/icons/message-circle.svg);mask-image:url(../assets/icons/message-circle.svg)"></span>References</span>
+  </div>
+
+  <div class="insight">Look at the bands. Supplier A wins on <span class="px">price</span> alone, then runs thin on everything above it. Supplier C is cheap and weak — a <span class="px">false economy</span>. Supplier B gives up a little on price and stacks the <b>green value</b> nobody else has.</div>
 
   <div class="footrule"></div>
   <div class="foot">
@@ -103,85 +124,85 @@
 
 <script>
 (function(){
-  const scene = document.getElementById('scene');
-  const W = scene.clientWidth, H = scene.clientHeight;
-  // iso projection (2:1 dimetric)
-  const a = 126, b = 63;               // tile half-width / half-height
-  const OX = W/2, OY = 232;             // screen origin for world (0,0)
-  const iso = (u,v)=>[OX+(u-v)*a, OY+(u+v)*b];
+  const scene=document.getElementById('scene');
+  const W=scene.clientWidth;
+  const a=126,b=63, OX=W/2, OY=205;
+  const iso=(u,v)=>[OX+(u-v)*a, OY+(u+v)*b];
+  const SUM=3.05, fa=86, fb=fa/2, PXV=2.62;
 
-  function poly(pts, bg, z){
-    const d=document.createElement('div'); d.className='shape';
-    d.style.clipPath='polygon('+pts.map(p=>p[0].toFixed(1)+'px '+p[1].toFixed(1)+'px').join(',')+')';
-    d.style.background=bg; if(z!=null) d.style.zIndex=z; scene.appendChild(d); return d;
-  }
-  function place(el, x, y, z){ el.style.left=x+'px'; el.style.top=y+'px'; if(z!=null) el.style.zIndex=z; scene.appendChild(el); }
-
-  // base ground line: all towers share iso depth (u+v const) -> a horizontal screen row
-  const SUM = 3.05;                     // u+v  (depth)
-  const fa = 84, fb = fa/2;             // tower footprint half-extents (screen px)
-  // towers: diff = u - v  controls horizontal position
-  const towers = [
-    {id:'C', diff:-1.66, val:41,  color:['#F3B0C6','#E27199','#C24E78'], price:['$10.20','/ unit'], tier:'False economy', sub:'cheap + weak', crown:false, dark:false},
-    {id:'A', diff: 0.00, val:64,  color:['#7CC0FA','#2E97FB','#1C66C8'], price:['$9.80','/ unit · cheapest'], tier:'Cheapest bid', sub:'average value', crown:false, dark:false},
-    {id:'B', diff: 1.66, val:88,  color:['#9CF5D2','#38E6A6','#13B584'], price:['$11.50','/ unit'], tier:'Best value', sub:'fair price · worth most', crown:true, dark:true},
+  // criterion colours (must match legend ramp)
+  const cc=['#93C9FA','#54A6F6','#2E8FF0','#25C58C','#12A06F'];
+  const towers=[
+    {id:'C', diff:-1.70, ring:'#E27199', tier:'False economy', sub:'cheap + weak',  price:['$10.20','/ unit'],          scores:[18,8,6,5,4]},
+    {id:'A', diff: 0.00, ring:'#2798FB', tier:'Cheapest bid',  sub:'average value',  price:['$9.80','/ unit · cheapest'], scores:[20,12,12,10,10]},
+    {id:'B', diff: 1.70, ring:'#16B98A', tier:'Best value',    sub:'fair price · worth most', price:['$11.50','/ unit'], scores:[12,18,20,18,20], crown:true},
   ];
-  const PXV = 3.0;                      // px height per value point
 
-  // subtle ground-contact shadow tucked at each tower's base vertex
-  towers.forEach(t=>{
-    const [cx,cy]=iso((SUM+t.diff)/2,(SUM-t.diff)/2);
-    const sh=document.createElement('div'); sh.className='shape';
-    sh.style.inset='auto';
-    sh.style.left=(cx-fa*0.62)+'px'; sh.style.top=(cy+fb-8)+'px';
-    sh.style.width=(fa*1.24)+'px'; sh.style.height=(fb*0.62)+'px';
-    sh.style.borderRadius='50%';
-    sh.style.background='radial-gradient(ellipse at center, rgba(20,45,95,.16), rgba(20,45,95,0) 72%)';
-    sh.style.zIndex=0; scene.appendChild(sh);
-  });
+  function poly(pts,bg,z){const d=document.createElement('div');d.className='shape';
+    d.style.clipPath='polygon('+pts.map(p=>p[0].toFixed(1)+'px '+p[1].toFixed(1)+'px').join(',')+')';
+    d.style.background=bg; if(z!=null)d.style.zIndex=z; scene.appendChild(d);}
+  function place(el,x,y,z){el.style.left=x+'px';el.style.top=y+'px';if(z!=null)el.style.zIndex=z;scene.appendChild(el);}
+  function shade(hex,amt){const n=parseInt(hex.slice(1),16);let r=(n>>16)+amt,g=((n>>8)&255)+amt,bb=(n&255)+amt;
+    r=Math.max(0,Math.min(255,r));g=Math.max(0,Math.min(255,g));bb=Math.max(0,Math.min(255,bb));
+    return '#'+((1<<24)+(r<<16)+(g<<8)+bb).toString(16).slice(1);}
 
-  // towers back-to-front (smaller cy = farther back). same depth here, so left-to-right is fine
-  towers.forEach((t,i)=>{
+  towers.forEach((t,ti)=>{
     const u=(SUM+t.diff)/2, v=(SUM-t.diff)/2;
     const [cx,cy]=iso(u,v);
-    const Hh = t.val*PXV;
-    const zb = 10+i*10;
-    // base diamond corners
-    const Tb=[cx,cy-fb], Rb=[cx+fa,cy], Bb=[cx,cy+fb], Lb=[cx-fa,cy];
-    // top diamond (raised)
-    const Tt=[cx,cy-fb-Hh], Rt=[cx+fa,cy-Hh], Bt=[cx,cy+fb-Hh], Lt=[cx-fa,cy-Hh];
-    // walls + top
-    poly([Lb,Bb,Bt,Lt], 'linear-gradient(180deg,'+t.color[1]+','+shade(t.color[1],-12)+')', zb);   // left (front-left)
-    poly([Bb,Rb,Rt,Bt], 'linear-gradient(180deg,'+t.color[2]+','+shade(t.color[2],-14)+')', zb+1);  // right (front-right)
-    poly([Tt,Rt,Bt,Lt], 'linear-gradient(135deg,'+shade(t.color[0],8)+','+t.color[0]+')', zb+2);     // top
+    const total=t.scores.reduce((s,x)=>s+x,0);
+    const Htot=total*PXV;
+    const zbase=20+ti*40;
 
-    // edge highlight on the top near edge (subtle)
-    // letter on the left wall
-    const lw=document.createElement('div'); lw.className='lbl';
-    lw.innerHTML='<div class="letter">'+t.id+'</div>';
-    place(lw, cx-fa*0.5, cy+fb*0.5-Hh*0.5, zb+3);
-    // value number on the top face
-    const vt=document.createElement('div'); vt.className='lbl';
-    vt.innerHTML='<div class="vtop" style="color:'+(t.dark?'#05402F':'#fff')+'">'+t.val+'</div>';
-    place(vt, cx, cy-Hh, zb+4);
-    // price tag above
-    const pt=document.createElement('div'); pt.className='lbl';
+    // ground-contact shadow
+    const sh=document.createElement('div');sh.className='shape';sh.style.inset='auto';
+    sh.style.left=(cx-fa*0.66)+'px';sh.style.top=(cy+fb-8)+'px';
+    sh.style.width=(fa*1.32)+'px';sh.style.height=(fb*0.64)+'px';sh.style.borderRadius='50%';
+    sh.style.background='radial-gradient(ellipse at center, rgba(18,42,90,.18), rgba(18,42,90,0) 72%)';
+    sh.style.zIndex=zbase-5;scene.appendChild(sh);
+
+    // stacked segments bottom -> top
+    let zacc=0;
+    t.scores.forEach((sc,si)=>{
+      const h=sc*PXV;
+      const yB=cy-zacc, yT=cy-(zacc+h);
+      const Lb=[cx-fa,yB],Bb=[cx,yB+fb],Lt=[cx-fa,yT],Bt=[cx,yT+fb],Rb=[cx+fa,yB],Rt=[cx+fa,yT],Tt=[cx,yT-fb];
+      const base=cc[si];
+      // left wall (lighter face) + right wall (darker face)
+      poly([Lb,Bb,Bt,Lt],'linear-gradient(180deg,'+shade(base,6)+','+shade(base,-8)+')', zbase+si*3);
+      poly([Bb,Rb,Rt,Bt],'linear-gradient(180deg,'+shade(base,-16)+','+shade(base,-30)+')', zbase+si*3+1);
+      // hairline light-catch along the top front edges (crisp band separation)
+      const t1=2.4;
+      poly([Lt,Bt,[Bt[0],Bt[1]+t1],[Lt[0],Lt[1]+t1]], 'rgba(255,255,255,.34)', zbase+si*3+2);
+      poly([Bt,Rt,[Rt[0],Rt[1]+t1],[Bt[0],Bt[1]+t1]], 'rgba(255,255,255,.20)', zbase+si*3+2);
+      // top cap on the final segment
+      if(si===t.scores.length-1)
+        poly([Tt,Rt,Bt,Lt],'linear-gradient(135deg,'+shade(base,24)+','+shade(base,8)+')', zbase+si*3+2);
+      zacc+=h;
+    });
+
+    // supplier badge (flat, pinned to front of the price band)
+    const bd=document.createElement('div');bd.className='lbl';
+    bd.innerHTML='<div class="badge" style="background:'+t.ring+'">'+t.id+'</div>';
+    place(bd, cx, cy+fb*0.15 - t.scores[0]*PXV*0.5, zbase+30);
+
+    // total value on the top cap
+    const vt=document.createElement('div');vt.className='lbl';
+    vt.innerHTML='<div class="vtop" style="color:#08402E">'+total+'</div>';
+    place(vt, cx, cy-Htot, zbase+31);
+
+    // price tag floating above
+    const pt=document.createElement('div');pt.className='lbl';
     pt.innerHTML='<div class="ptag"><span class="ic"></span><span class="pv">'+t.price[0]+'</span><span class="pu">'+t.price[1]+'</span></div>';
-    place(pt, cx, cy-fb-Hh-30, zb+5);
-    // crown
-    if(t.crown){ const cr=document.createElement('div'); cr.className='crown'; place(cr, cx, cy-fb-Hh-76, zb+6); }
-    // tier label below base
-    const tl=document.createElement('div'); tl.className='lbl';
-    const col = t.id==='B'?'var(--eco-text)': t.id==='C'?'var(--coral-deep)':'var(--deep)';
-    tl.innerHTML='<div class="tier" style="color:'+col+'">'+t.tier+'<span class="s">'+t.sub+'</span></div>';
-    place(tl, cx, cy+fb+34, zb+3);
-  });
+    place(pt, cx, cy-fb-Htot-28, zbase+32);
 
-  function shade(hex,amt){ // lighten/darken hex by amt (-/+)
-    const n=parseInt(hex.slice(1),16); let r=(n>>16)+amt,g=((n>>8)&255)+amt,bb=(n&255)+amt;
-    r=Math.max(0,Math.min(255,r));g=Math.max(0,Math.min(255,g));bb=Math.max(0,Math.min(255,bb));
-    return '#'+((1<<24)+(r<<16)+(g<<8)+bb).toString(16).slice(1);
-  }
+    if(t.crown){const cr=document.createElement('div');cr.className='crown';place(cr,cx,cy-fb-Htot-74,zbase+33);}
+
+    // tier label below base
+    const tl=document.createElement('div');tl.className='lbl';
+    const col=t.id==='B'?'var(--eco-text)':t.id==='C'?'var(--coral-deep)':'var(--deep)';
+    tl.innerHTML='<div class="tier" style="color:'+col+'">'+t.tier+'<span class="s">'+t.sub+'</span></div>';
+    place(tl, cx, cy+fb+34, zbase+30);
+  });
 })();
 </script>
 </body>
