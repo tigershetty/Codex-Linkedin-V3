@@ -129,7 +129,7 @@
     <div class="arow atot"><span class="c">Defensible increase</span><span class="c"></span><span class="c">sum of indexed lines</span><span class="c r"></span><span class="c r"><span class="big">+5.6%</span></span></div>
   </div>
 
-  <div class="gapnote">The model answers the increase before the meeting: <b>+5.6% is defensible</b>, so the <span class="x">3.4% gap</span> to their +9% is the part they have to justify — or the part you negotiate away.</div>
+  <div class="gapnote">You walk in with the answer already built: <b>+5.6% is defensible</b>, so the <span class="x">3.4% gap</span> up to their +9% is what they have to justify, or what you negotiate away.</div>
 
   <div class="honesty">
     <span class="hi"></span>
@@ -172,15 +172,21 @@
 <script src="../assets/js/gsap.min.js"></script>
 <script>
 (function(){
-  // Reader-first: the session, artifact table and prompt are legible the entire loop.
-  // ONE focal motion — the computed answer (+5.6% defensible) pulses to draw the eye.
+  // Attention-first + readable: the session, the artifact table and the prompt are all present from frame 0.
+  // The hero NUMBER animates ONCE (+5.6% counts up + pops), then a calm accent holds the eye on the result. No text moves.
   const big=document.querySelector('.atot .big');
+  const gap=document.querySelector('.gapnote');
+  if(big){ big.textContent='+0.0%'; gsap.set(big,{transformOrigin:'right center',filter:'drop-shadow(0 0 0 rgba(22,185,138,0))'}); }
+  if(gap) gsap.set(gap,{transformOrigin:'left center'});
   const tl=gsap.timeline({paused:true});
   if(big){
-    gsap.set(big,{transformOrigin:'right center',filter:'drop-shadow(0 0 0 rgba(22,185,138,0))'});
-    tl.to(big,{scale:1.12,filter:'drop-shadow(0 0 15px rgba(22,185,138,.62))',duration:1.6,ease:'sine.inOut'},0)
-      .to(big,{scale:1,filter:'drop-shadow(0 0 0 rgba(22,185,138,0))',duration:1.6,ease:'sine.inOut'},1.6);
+    tl.to({v:0},{v:5.6,duration:.9,ease:'power1.out',
+      onUpdate:function(){big.textContent='+'+this.targets()[0].v.toFixed(1)+'%';}},0.25)
+      .fromTo(big,{scale:1},{scale:1.18,duration:.28,yoyo:true,repeat:1,ease:'sine.inOut'},1.1);
   }
+  if(gap) tl.fromTo(gap,{scale:.985},{scale:1,duration:.45,ease:'back.out(1.6)'},1.0);
+  if(big) tl.to(big,{filter:'drop-shadow(0 0 16px rgba(22,185,138,.65))',duration:1.5,ease:'sine.inOut'},1.85)
+             .to(big,{filter:'drop-shadow(0 0 0 rgba(22,185,138,0))',duration:1.5,ease:'sine.inOut'},3.35);
   window.__tl=tl; window.__dur=tl.duration();
   (document.fonts?document.fonts.ready:Promise.resolve()).then(()=>{window.__ready=true;});
 })();

@@ -119,6 +119,6 @@ Primary: `renderer/templates/ai06-negotiation-table.html` → `renderer/out/ai06
 
 ## GIF (HyperFrames / GSAP anim lane)
 
-**Reader-first motion (rev. 2026-06-21).** Earlier cut ran the session and built the table line by line, which delayed reading and kept the card in motion throughout. New principle: **the session, the should-cost-model.csv table and the prompt are complete and legible in every frame**; exactly ONE focal motion. Here that is the **computed answer**: the **+5.6% defensible** total pulses eco (scale + glow) so the eye lands on the result, while every line of the session and the prompt stays still to read. Seamless ~3.2s loop (yoyo, no hold). Output: `renderer/out/ai06-negotiation-table.gif` (+ `.mp4`).
+**Reader-first motion (rev. 2026-06-21).** Earlier cut ran the session and built the table line by line, which delayed reading and kept the card in motion throughout. New principle: **the session, the should-cost-model.csv table and the prompt are complete and legible in every frame**; exactly ONE focal motion. Here the **+5.6% defensible** total counts up once and pops to catch the eye, then holds with a calm glow. The session, the should-cost-model.csv table and the prompt are present and static from frame 0; no text moves. ~4.5s loop. Output: `renderer/out/ai06-negotiation-table.gif` (+ `.mp4`).
 
 **Build:** `ai06-negotiation-table-anim.html` reuses the still's build script untouched (full card), then a small paused GSAP timeline pulses only `.atot .big`; render via `render-anim.mjs` (`HOLD_S=0 GIF_W=640`).

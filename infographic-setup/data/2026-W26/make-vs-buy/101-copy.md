@@ -58,7 +58,7 @@ Follow Poornajith Shetty and Shetty's Desk for more supply chain insights, and s
 `renderer/templates/sc101-make-vs-buy.html` → `renderer/out/sc101-make-vs-buy.png` → `visual.png`. Balance hero + 5-dimension decision table; built 2026-06-21 to the new standard. Refined 2026-06-21: scale raised and dashed YES→MAKE / NO→BUY connectors added to fill the dead zone above the beam.
 
 ## GIF (HyperFrames / GSAP anim lane)
-`renderer/templates/sc101-make-vs-buy-anim.html` → `renderer/out/sc101-make-vs-buy.gif` (+ `.mp4`). **Reader-first motion (rev. 2026-06-21):** the scale + decision table are shown and legible in every frame. ONE focal motion: the dashed **YES→MAKE / NO→BUY connectors flow** (the decision routing to a side — the post's single idea), with a calm eco glow on the **total-cost-of-ownership** takeaway line. No text moves. Seamless ~3.0s loop (dash period-aligned + yoyo glow, no hold). Render via `render-anim.mjs` (`HOLD_S=0 GIF_W=640`).
+`renderer/templates/sc101-make-vs-buy-anim.html` → `renderer/out/sc101-make-vs-buy.gif` (+ `.mp4`). **Reader-first motion (rev. 2026-06-21):** the scale + decision table are shown and legible in every frame. The balance scale assembles once (~1.4s) to catch the eye, then the dashed **YES→MAKE / NO→BUY connectors flow** (the decision routing to a side) while the card rests legibly. The header, gating question, decision table and insight are present and static from frame 0; no text moves. ~4.5s loop. Render via `render-anim.mjs` (`HOLD_S=0 GIF_W=640`).
 
 ## ChatGPT Image 2 Prompt (backup, paste-ready)
 ```

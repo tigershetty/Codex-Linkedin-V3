@@ -56,7 +56,7 @@ Follow Poornajith Shetty and Shetty's Desk for more supply chain insights, and s
 `renderer/templates/sc101-kraljic-matrix.html` → `renderer/out/sc101-kraljic-matrix.png` → `visual.png`. Isometric raised-tile 2×2; built 2026-06-21 to the new standard, every label from the research brief.
 
 ## GIF (HyperFrames / GSAP anim lane)
-`renderer/templates/sc101-kraljic-matrix-anim.html` → `renderer/out/sc101-kraljic-matrix.gif` (+ `.mp4`). **Reader-first motion (rev. 2026-06-21):** the full matrix is shown and legible in every frame — no build-from-nothing. ONE focal motion: the **Strategic quadrant** (tallest tile = most attention) gently glows and scales, so the eye is drawn to the takeaway ("spend your attention here") without any text moving. Seamless ~3.2s loop (yoyo pulse, no hold). Paused GSAP timeline; render via `render-anim.mjs` (`HOLD_S=0 GIF_W=640`).
+`renderer/templates/sc101-kraljic-matrix-anim.html` → `renderer/out/sc101-kraljic-matrix.gif` (+ `.mp4`). **Reader-first motion (rev. 2026-06-21):** the full matrix is shown and legible in every frame — no build-from-nothing. The matrix builds once (tiles rise short→tall over ~1.5s — height = attention) to catch the eye, then the **Strategic quadrant** holds a calm glow while the card rests legibly. The header, teaching panel and insight are present and static from frame 0; no text moves. ~4.5s loop. Paused GSAP timeline; render via `render-anim.mjs` (`HOLD_S=0 GIF_W=640`).
 
 ## ChatGPT Image 2 Prompt (backup, paste-ready)
 ```

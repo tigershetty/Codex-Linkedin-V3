@@ -82,7 +82,7 @@
   .totcell .bar{width:120px;height:8px;border-radius:5px;background:#e4eef9;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(20,50,100,.06)}
   .totcell .bar span{display:block;height:100%;border-radius:5px}
   .totcell .d{font-size:11.5px;font-weight:700;display:flex;align-items:center;gap:4px}
-  .up{color:var(--eco-text)} .down{color:var(--coral-deep)}
+  .up{color:var(--eco-text)} .down{color:#B23A62}
 
   /* ---- dual row: radar (visual model) + rank-flip ---- */
   .dual{margin-top:13px;display:grid;grid-template-columns:404px 1fr;gap:13px;align-items:stretch}
@@ -163,7 +163,7 @@
   <div class="dual">
     <div class="panel">
       <div class="pt">Profile across criteria <span class="pd">· same five axes</span></div>
-      <svg id="radar" viewBox="0 0 380 248" aria-label="Supplier radar chart"></svg>
+      <svg id="radar" viewBox="0 0 400 264" aria-label="Supplier radar chart"></svg>
       <div class="rleg">
         <span><i style="background:#16B98A"></i>B</span>
         <span><i style="background:#2A78DC"></i>A</span>
@@ -216,10 +216,10 @@
   const sups=[
     {id:'B',name:'Supplier B',scores:[5,5,3,4,5],tot:'4.45',rank:1,delta:'+0.5',dir:'up',  dec:'Keep & grow',        decBg:'#0C8F6B', note:'5/5 quality and on-time', win:true},
     {id:'A',name:'Supplier A',scores:[4,3,5,3,4],tot:'3.80',rank:2,delta:'+0.2',dir:'up',  dec:'Develop · fix delivery', decBg:'#247BE1', note:'cheapest, but slips on delivery'},
-    {id:'C',name:'Supplier C',scores:[3,2,4,3,3],tot:'2.95',rank:3,delta:'-0.3',dir:'down',dec:'Review · re-source',   decBg:'#cf5c84', note:"low price can't carry the risk"},
+    {id:'C',name:'Supplier C',scores:[3,2,4,3,3],tot:'2.95',rank:3,delta:'-0.3',dir:'down',dec:'Review · re-source',   decBg:'#B23A62', note:"low price can't carry the risk"},
   ];
   const heat={5:'#16C98E',4:'#43C194',3:'#3E9BF2',2:'#E36A95',1:'#cf5c84'};
-  const totCol={B:'var(--eco-text)',A:'var(--deep)',C:'var(--coral-deep)'};
+  const totCol={B:'var(--eco-text)',A:'var(--deep)',C:'#B23A62'};
   const barFill={B:'linear-gradient(90deg,#5CEDB6,#16B98A)',A:'linear-gradient(90deg,#5CB0F9,#2480E6)',C:'linear-gradient(90deg,#9db0cc,#64789B)'};
   const medalBg={B:'linear-gradient(160deg,#FFE08A,#F4B43C)',A:'linear-gradient(160deg,#7E92B0,#5C7090)',C:'linear-gradient(160deg,#9aa9c2,#73849f)'};
   const sheet=document.getElementById('sheet');
@@ -251,7 +251,7 @@
   });
 
   // ---- radar chart ----
-  const RC={x:190,y:120,R:96};
+  const RC={x:200,y:128,R:88};
   const N=crit.length;
   const ang=i=>(-90 + i*360/N)*Math.PI/180;
   const pt=(v,i)=>[RC.x+(v/5)*RC.R*Math.cos(ang(i)), RC.y+(v/5)*RC.R*Math.sin(ang(i))];
@@ -266,9 +266,10 @@
   crit.forEach((c,i)=>{
     const [ex,ey]=pt(5,i);
     svg+='<line x1="'+RC.x+'" y1="'+RC.y+'" x2="'+ex+'" y2="'+ey+'" stroke="#dceaf8" stroke-width="1"/>';
-    const [lx,ly]=pt(6.05,i);
+    const [lx,ly]=pt(6.1,i);
     const anch=Math.abs(lx-RC.x)<6?'middle':(lx>RC.x?'start':'end');
-    svg+='<text x="'+lx+'" y="'+(ly+3)+'" text-anchor="'+anch+'" font-family="Poppins,sans-serif" font-size="11.5" font-weight="700" fill="#5D7599">'+c.n+'</text>';
+    const vy=ly+(ly<RC.y?-1:13);
+    svg+='<text x="'+lx+'" y="'+vy+'" text-anchor="'+anch+'" font-family="Poppins,sans-serif" font-size="12.5" font-weight="700" fill="#46597A">'+c.n+'</text>';
   });
   // supplier polygons (draw weakest first)
   ['C','A','B'].forEach(id=>{
