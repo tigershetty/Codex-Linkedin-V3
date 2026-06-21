@@ -82,7 +82,7 @@
   .totcell .bar{width:120px;height:8px;border-radius:5px;background:#e4eef9;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(20,50,100,.06)}
   .totcell .bar span{display:block;height:100%;border-radius:5px}
   .totcell .d{font-size:11.5px;font-weight:700;display:flex;align-items:center;gap:4px}
-  .up{color:var(--eco-text)} .down{color:var(--coral-deep)}
+  .up{color:var(--eco-text)} .down{color:#B23A62}
 
   /* ---- dual row: radar (visual model) + rank-flip ---- */
   .dual{margin-top:13px;display:grid;grid-template-columns:404px 1fr;gap:13px;align-items:stretch}
@@ -163,7 +163,7 @@
   <div class="dual">
     <div class="panel">
       <div class="pt">Profile across criteria <span class="pd">· same five axes</span></div>
-      <svg id="radar" viewBox="0 0 380 248" aria-label="Supplier radar chart"></svg>
+      <svg id="radar" viewBox="0 0 400 264" aria-label="Supplier radar chart"></svg>
       <div class="rleg">
         <span><i style="background:#16B98A"></i>B</span>
         <span><i style="background:#2A78DC"></i>A</span>
@@ -216,10 +216,10 @@
   const sups=[
     {id:'B',name:'Supplier B',scores:[5,5,3,4,5],tot:'4.45',rank:1,delta:'+0.5',dir:'up',  dec:'Keep & grow',        decBg:'#0C8F6B', note:'5/5 quality and on-time', win:true},
     {id:'A',name:'Supplier A',scores:[4,3,5,3,4],tot:'3.80',rank:2,delta:'+0.2',dir:'up',  dec:'Develop · fix delivery', decBg:'#247BE1', note:'cheapest, but slips on delivery'},
-    {id:'C',name:'Supplier C',scores:[3,2,4,3,3],tot:'2.95',rank:3,delta:'-0.3',dir:'down',dec:'Review · re-source',   decBg:'#cf5c84', note:"low price can't carry the risk"},
+    {id:'C',name:'Supplier C',scores:[3,2,4,3,3],tot:'2.95',rank:3,delta:'-0.3',dir:'down',dec:'Review · re-source',   decBg:'#B23A62', note:"low price can't carry the risk"},
   ];
   const heat={5:'#16C98E',4:'#43C194',3:'#3E9BF2',2:'#E36A95',1:'#cf5c84'};
-  const totCol={B:'var(--eco-text)',A:'var(--deep)',C:'var(--coral-deep)'};
+  const totCol={B:'var(--eco-text)',A:'var(--deep)',C:'#B23A62'};
   const barFill={B:'linear-gradient(90deg,#5CEDB6,#16B98A)',A:'linear-gradient(90deg,#5CB0F9,#2480E6)',C:'linear-gradient(90deg,#9db0cc,#64789B)'};
   const medalBg={B:'linear-gradient(160deg,#FFE08A,#F4B43C)',A:'linear-gradient(160deg,#7E92B0,#5C7090)',C:'linear-gradient(160deg,#9aa9c2,#73849f)'};
   const sheet=document.getElementById('sheet');
@@ -251,7 +251,7 @@
   });
 
   // ---- radar chart ----
-  const RC={x:190,y:120,R:96};
+  const RC={x:200,y:128,R:88};
   const N=crit.length;
   const ang=i=>(-90 + i*360/N)*Math.PI/180;
   const pt=(v,i)=>[RC.x+(v/5)*RC.R*Math.cos(ang(i)), RC.y+(v/5)*RC.R*Math.sin(ang(i))];
@@ -266,9 +266,10 @@
   crit.forEach((c,i)=>{
     const [ex,ey]=pt(5,i);
     svg+='<line x1="'+RC.x+'" y1="'+RC.y+'" x2="'+ex+'" y2="'+ey+'" stroke="#dceaf8" stroke-width="1"/>';
-    const [lx,ly]=pt(6.05,i);
+    const [lx,ly]=pt(6.1,i);
     const anch=Math.abs(lx-RC.x)<6?'middle':(lx>RC.x?'start':'end');
-    svg+='<text x="'+lx+'" y="'+(ly+3)+'" text-anchor="'+anch+'" font-family="Poppins,sans-serif" font-size="11.5" font-weight="700" fill="#5D7599">'+c.n+'</text>';
+    const vy=ly+(ly<RC.y?-1:13);
+    svg+='<text x="'+lx+'" y="'+vy+'" text-anchor="'+anch+'" font-family="Poppins,sans-serif" font-size="12.5" font-weight="700" fill="#46597A">'+c.n+'</text>';
   });
   // supplier polygons (draw weakest first)
   ['C','A','B'].forEach(id=>{
@@ -284,65 +285,27 @@
 <script src="../assets/js/gsap.min.js"></script>
 <script>
 (function(){
-  const qa=s=>Array.from(document.querySelectorAll(s));
-  const bandN=qa('.band .kpi .n');     // [3, 5, B, 1.50]
-  const totN =qa('.totcell .big');     // [B 4.45, A 3.80, C 2.95]
-  // hold computed numbers at zero until they count up
-  bandN[0].textContent='0'; bandN[1].textContent='0'; bandN[3].textContent='0.00';
+  // Attention-first + readable: every label and number is present from frame 0.
+  // The hero DATA animates ONCE (bars fill, weighted totals count up, crown drops on the winner),
+  // then a calm accent holds the eye on the winner. No text moves.
+  const totN=Array.from(document.querySelectorAll('.totcell .big'));  // [B 4.45, A 3.80, C 2.95]
+  const ends=[4.45,3.80,2.95];
   totN.forEach(el=>el.textContent='0.00');
-
-  // initial states
-  gsap.set('.kick',{opacity:0,y:18});
-  gsap.set('.toolmark',{opacity:0,scale:.4,rotate:-12,transformOrigin:'center center'});
-  gsap.set('h1',{opacity:0,y:22});
-  gsap.set('.sub',{opacity:0,y:18});
-  gsap.set('.band',{opacity:0,y:-16});
-  gsap.set('.legend .sc i',{opacity:0,scale:.4,transformOrigin:'center'});
-  gsap.set('.sheet .shead',{opacity:0,y:-12});
-  gsap.set('.sheet .brow',{opacity:0,y:20});
-  gsap.set('.sc-cell .v',{opacity:0,scale:.3,transformOrigin:'center'});
   gsap.set('.totcell .bar span',{scaleX:0,transformOrigin:'left center'});
-  gsap.set('.crown',{xPercent:-50,opacity:0,y:-14,scale:.4,transformOrigin:'center bottom'});
-  gsap.set('#radar',{opacity:0,scale:.6,transformOrigin:'50% 48%'});
-  gsap.set('.flip .seg.l',{opacity:0,x:-16});
-  gsap.set('.flip .down-ar',{opacity:0,scale:.5});
-  gsap.set('.flip .seg.r',{opacity:0,x:16});
-  gsap.set('.verdict',{opacity:0,y:16});
-  gsap.set('.honesty',{opacity:0,y:14});
-  gsap.set('.prompt',{opacity:0,y:14});
-  gsap.set('.footrule',{scaleX:0,transformOrigin:'left center'});
-  gsap.set('.foot',{opacity:0});
+  const crown=document.querySelector('.crown');
+  if(crown) gsap.set(crown,{xPercent:-50,opacity:0,y:-16,scale:.4,transformOrigin:'center bottom'});
+  const bigWin=document.querySelector('.totcell.win .big');
+  if(bigWin) gsap.set(bigWin,{transformOrigin:'left center',filter:'drop-shadow(0 0 0 rgba(22,185,138,0))'});
 
-  const tl=gsap.timeline({paused:true,defaults:{ease:'power2.out'}});
-  // count-up tween (seek-safe: animates a proxy, writes textContent on update)
-  const count=(el,end,dec,pos)=>tl.to({v:0},{v:end,duration:.7,ease:'power1.out',
-    onUpdate:function(){el.textContent=dec?this.targets()[0].v.toFixed(dec):String(Math.round(this.targets()[0].v));}},pos);
-
-  tl.to('.kick',{opacity:1,y:0,duration:.4},0.0)
-    .to('.toolmark',{opacity:1,scale:1,rotate:0,duration:.55,ease:'back.out(1.7)'},0.1)
-    .to('h1',{opacity:1,y:0,duration:.5},0.2)
-    .to('.sub',{opacity:1,y:0,duration:.5},0.5)
-    .to('.band',{opacity:1,y:0,duration:.5},0.82);
-  count(bandN[0],3,0,0.95); count(bandN[1],5,0,0.95); count(bandN[3],1.50,2,0.95);
-  tl.to('.legend .sc i',{opacity:1,scale:1,duration:.35,stagger:.07,ease:'back.out(1.7)'},1.15)
-    .to('.sheet .shead',{opacity:1,y:0,duration:.45},1.45)
-    .to('.sheet .brow',{opacity:1,y:0,duration:.5,stagger:.18},1.7)
-    .to('.sc-cell .v',{opacity:1,scale:1,duration:.4,stagger:.04,ease:'back.out(1.8)'},1.95)
-    .to('.totcell .bar span',{scaleX:1,duration:.6,stagger:.18,ease:'power2.out'},2.2);
-  count(totN[0],4.45,2,2.25); count(totN[1],3.80,2,2.25); count(totN[2],2.95,2,2.25);
-  // climax: winner B resolves
-  tl.to('.crown',{opacity:1,y:0,scale:1,duration:.5,ease:'back.out(2)'},3.0)
-    .to('.totcell.win .big',{scale:1.12,duration:.34,yoyo:true,repeat:1,ease:'sine.inOut',transformOrigin:'left center'},3.05)
-    .to('#radar',{opacity:1,scale:1,duration:.55,ease:'power2.out'},3.4)
-    .to('.flip .seg.l',{opacity:1,x:0,duration:.4},3.62)
-    .to('.flip .down-ar',{opacity:1,scale:1,duration:.35,ease:'back.out(2)'},3.92)
-    .to('.flip .seg.r',{opacity:1,x:0,duration:.42},4.06)
-    .to('.verdict',{opacity:1,y:0,duration:.5},4.36)
-    .to('.honesty',{opacity:1,y:0,duration:.45},4.62)
-    .to('.prompt',{opacity:1,y:0,duration:.45},4.84)
-    .to('.footrule',{scaleX:1,duration:.5,ease:'power2.inOut'},5.06)
-    .to('.foot',{opacity:1,duration:.5},5.16);
-
+  const tl=gsap.timeline({paused:true});
+  tl.to('.totcell .bar span',{scaleX:1,duration:.7,stagger:.16,ease:'power2.out'},0.1);
+  totN.forEach((el,i)=>{ tl.to({v:0},{v:ends[i],duration:.8,ease:'power1.out',
+    onUpdate:function(){el.textContent=this.targets()[0].v.toFixed(2);}},0.15+i*0.16); });
+  if(crown) tl.to(crown,{opacity:1,y:0,scale:1,duration:.5,ease:'back.out(2.2)'},1.05);
+  if(bigWin) tl.to(bigWin,{scale:1.12,filter:'drop-shadow(0 0 16px rgba(22,185,138,.65))',duration:1.4,ease:'sine.inOut'},1.8)
+                .to(bigWin,{scale:1,filter:'drop-shadow(0 0 0 rgba(22,185,138,0))',duration:1.4,ease:'sine.inOut'},3.2);
+  if(crown) tl.to(crown,{y:-5,duration:.8,ease:'sine.inOut'},1.9).to(crown,{y:0,duration:.8,ease:'sine.inOut'},2.7)
+                .to(crown,{y:-5,duration:.65,ease:'sine.inOut'},3.5).to(crown,{y:0,duration:.65,ease:'sine.inOut'},4.15);
   window.__tl=tl; window.__dur=tl.duration();
   (document.fonts?document.fonts.ready:Promise.resolve()).then(()=>{window.__ready=true;});
 })();

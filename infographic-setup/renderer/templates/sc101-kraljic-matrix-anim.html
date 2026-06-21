@@ -198,40 +198,30 @@
 <script src="../assets/js/gsap.min.js"></script>
 <script>
 (function(){
-  // build the matrix, the tallest tile (Strategic) resolves last
-  gsap.set(['.kicker','h1','.sub'],{opacity:0,y:24});
-  gsap.set('.rule',{scaleX:0,transformOrigin:'left center'});
-  gsap.set('.tile-g',{opacity:0,y:58});
-  gsap.set('.qcard',{opacity:0,scale:.82,xPercent:-50,yPercent:-50});
-  gsap.set('.axlab',{opacity:0});
-  gsap.set('.attn',{opacity:0,scale:.82,transformOrigin:'left center'});
-  gsap.set('.krp .q',{opacity:0,x:-18});
-  gsap.set('.krp .kr',{opacity:0,y:10});
-  gsap.set('.insight',{opacity:0,y:16});
-  gsap.set('.footrule',{scaleX:0,transformOrigin:'left center'});
-  gsap.set('.foot',{opacity:0});
+  // Attention-first + readable: header, axis labels, the teaching panel and the insight are present from frame 0.
+  // The hero MATRIX builds ONCE — tiles rise short->tall (height = attention) — then the Strategic quadrant
+  // holds a calm glow. No text moves.
+  ['routine','leverage','bottleneck','strategic'].forEach(id=>{const c=document.getElementById('qc-'+id);
+    if(c) gsap.set(c,{xPercent:-50,yPercent:-50,transformOrigin:'center center'});});
+  gsap.set('.tile-g',{opacity:0,y:62});
+  gsap.set(['#qc-routine','#qc-leverage','#qc-bottleneck','#qc-strategic'],{opacity:0,scale:.82});
+  const stg=document.getElementById('qc-strategic'), stile=document.getElementById('tg-strategic');
 
-  const tl=gsap.timeline({paused:true,defaults:{ease:'power2.out'}});
-  tl.to('.kicker',{opacity:1,y:0,duration:.4},0.0)
-    .to('h1',{opacity:1,y:0,duration:.5},0.12)
-    .to('.rule',{scaleX:1,duration:.5,ease:'power2.inOut'},0.34)
-    .to('.sub',{opacity:1,y:0,duration:.5},0.44)
-    // build the field, short -> tall
-    .to('#tg-routine',{opacity:1,y:0,duration:.5,ease:'back.out(1.3)'},0.9)
-    .to('#tg-leverage',{opacity:1,y:0,duration:.5,ease:'back.out(1.3)'},1.16)
-    .to('#tg-bottleneck',{opacity:1,y:0,duration:.5,ease:'back.out(1.3)'},1.38)
-    .to('#tg-strategic',{opacity:1,y:0,duration:.62,ease:'back.out(1.5)'},1.72)
-    .to('.axlab',{opacity:1,duration:.5,stagger:.1},1.95)
-    .to('.qcard',{opacity:1,scale:1,duration:.45,stagger:.12,ease:'back.out(1.6)'},2.2)
-    .to('.attn',{opacity:1,scale:1,duration:.4,ease:'back.out(1.6)'},2.8)
-    // Strategic stands tallest — the payoff
-    .to('#qc-strategic',{scale:1.06,duration:.34,yoyo:true,repeat:1,ease:'sine.inOut'},3.05)
-    .to('.krp .q',{opacity:1,x:0,duration:.45,stagger:.14},3.15)
-    .to('.krp .kr',{opacity:1,y:0,duration:.4,stagger:.08},3.55)
-    .to('.insight',{opacity:1,y:0,duration:.55},4.0)
-    .to('.footrule',{scaleX:1,duration:.5,ease:'power2.inOut'},4.15)
-    .to('.foot',{opacity:1,duration:.5},4.25);
-
+  const tl=gsap.timeline({paused:true});
+  tl.to('#tg-routine',{opacity:1,y:0,duration:.55,ease:'back.out(1.5)'},0.1)
+    .to('#tg-leverage',{opacity:1,y:0,duration:.55,ease:'back.out(1.5)'},0.32)
+    .to('#tg-bottleneck',{opacity:1,y:0,duration:.55,ease:'back.out(1.5)'},0.5)
+    .to('#tg-strategic',{opacity:1,y:0,duration:.62,ease:'back.out(1.6)'},0.74)
+    .to('#qc-routine',{opacity:1,scale:1,duration:.4,ease:'back.out(1.7)'},0.5)
+    .to('#qc-leverage',{opacity:1,scale:1,duration:.4,ease:'back.out(1.7)'},0.7)
+    .to('#qc-bottleneck',{opacity:1,scale:1,duration:.4,ease:'back.out(1.7)'},0.85)
+    .to('#qc-strategic',{opacity:1,scale:1,duration:.45,ease:'back.out(1.8)'},1.05);
+  if(stg){ gsap.set(stg,{filter:'drop-shadow(0 0 0 rgba(22,185,138,0))'});
+    tl.to(stg,{scale:1.05,filter:'drop-shadow(0 8px 22px rgba(22,185,138,.5))',duration:1.4,ease:'sine.inOut'},1.8)
+      .to(stg,{scale:1,filter:'drop-shadow(0 0 0 rgba(22,185,138,0))',duration:1.4,ease:'sine.inOut'},3.2); }
+  if(stile){ gsap.set(stile,{filter:'drop-shadow(0 0 0 rgba(22,185,138,0))'});
+    tl.to(stile,{filter:'drop-shadow(0 0 20px rgba(22,185,138,.4))',duration:1.4,ease:'sine.inOut'},1.8)
+      .to(stile,{filter:'drop-shadow(0 0 0 rgba(22,185,138,0))',duration:1.4,ease:'sine.inOut'},3.2); }
   window.__tl=tl; window.__dur=tl.duration();
   (document.fonts?document.fonts.ready:Promise.resolve()).then(()=>{window.__ready=true;});
 })();

@@ -1,0 +1,17 @@
+# should-cost-model.csv — Widget A (fabricated steel part)
+# A worked example of the method shown in the post. Two honesty rules:
+#   1) cost_share_pct values are ILLUSTRATIVE — replace them with the supplier's real cost breakdown.
+#   2) every index_move_pct MUST be re-pulled from index_source before you quote it.
+# Method: contribution_to_increase_pct = cost_share_pct/100 * index_move_pct ; defensible = sum of contributions.
+cost_line,cost_share_pct,index,index_source,index_move_pct,contribution_to_increase_pct,note
+Steel (raw material),60,PPI Steel Mill Products,BLS / FRED WPU1017,7.4,4.44,largest driver — re-pull the 12-month move from FRED
+Labour,15,Employment Cost Index,BLS ECI (manufacturing),3.5,0.53,wages component
+Energy & freight,10,Diesel (on-highway),EIA weekly diesel,6.0,0.60,inbound + outbound transport
+Overhead,8,held flat,supplier SG&A,0.0,0.00,no indexed driver applied
+Margin,7,held flat,supplier ask,0.0,0.00,not a cost — negotiate separately
+TOTAL,100,,,,5.57,defensible increase rounds to +5.6%
+# --- verdict ---
+metric,value_pct,note
+supplier_ask,9.0,what the supplier requested
+defensible_increase,5.6,sum of indexed cost lines (rounded)
+gap_to_negotiate,3.4,the part they must justify — or you negotiate away

@@ -121,18 +121,6 @@ Comparative analysis: `data/2026-W26/render-experiment/analysis.md`.
 
 ## GIF Storyboard (HyperFrames / GSAP anim lane)
 
-**Motion spine:** *build the field, then the rank resolves* — built (2026-06-21) from the scorecard still's own elements (no new content). ~5.7s + 1.5s hold, loops. Output: `renderer/out/ai05-supplier-scorecard-3d.gif` (+ `.mp4`).
+**Reader-first motion (rev. 2026-06-21).** Earlier cut built every element in sequence, which left the card half-formed for most of the loop and gave a scroller nowhere to read. New principle: **the whole scorecard (table, radar, rank-flip, verdict, prompt) is complete and legible in every frame**; exactly ONE focal motion draws the eye to the insight. Here the hero DATA reveals once to catch the eye — the weighted bars fill, the totals count up to 4.45 / 3.80 / 2.95, the crown drops on B — then a calm glow holds on the winner. The dense score grid, radar, rank-flip and all text are present and static from frame 0. ~4.6s loop. Output: `renderer/out/ai05-supplier-scorecard-3d.gif` (+ `.mp4`).
 
-| t (s) | Element | Motion | Ease | Note |
-|---|---|---|---|---|
-| 0.0–0.6 | Title + Copilot mark | title fade/slide up; Copilot mark pops in (scale 0→1, slight spin) | back.out | mark is the hero corner |
-| 0.8–1.7 | Stat-band | slides down; KPIs **count up** (3 · 5 · 1.50); score legend chips pop L→R | power1 / back.out | numbers feel computed |
-| 1.4–2.3 | Scorecard sheet | header slides in; 3 rows reveal (stagger); 15 heatmap chips pop in | back.out | the field builds |
-| 2.2–3.0 | Weighted totals | bars grow L→R; totals **count up** to 4.45 / 3.80 / 2.95 | power2 | the ranking computes |
-| 3.0–3.4 | Rank resolve (climax) | **crown drops** on B; B's 4.45 pulses eco once | back.out(2) | the payoff |
-| 3.4–4.1 | Radar + rank-flip | radar scales in from centre; price-alone → QBR flip reveals (B emphasised) | power2 | the two visual models |
-| 4.4–5.2 | Verdict + honesty + prompt | fade up in sequence | power1 | thesis + utility |
-| 5.2–5.7 | Footrule + footer | rule wipes, signature fades in | power2 | brand close |
-| 5.7–7.2 | Hold | full infographic held for the loop rest | — | clean loop |
-
-**Build:** copy `ai05-supplier-scorecard-3d.html` → `ai05-supplier-scorecard-3d-anim.html`; paused GSAP master timeline (`window.__tl/__dur/__ready`) implements the beats (count-ups via seek-safe proxy tweens); render via `render-anim.mjs` (`HOLD_S=1.5 GIF_W=640`). Icons/SVGs animate in-engine with GSAP, not React.
+**Build:** `ai05-supplier-scorecard-3d-anim.html` reuses the still's build script untouched (full card), then a small paused GSAP timeline (`window.__tl/__dur/__ready`) pulses only `.totcell.win .big` + `.crown`; render via `render-anim.mjs` (`HOLD_S=0 GIF_W=640`).
