@@ -20,7 +20,7 @@ A Claude Code pipeline that produces LinkedIn supply chain infographics for Tige
 |---|---|---|
 | Audience | Experts AND non-practitioners | Any SC role — called out by the task (purchaser, planner, logistics coordinator, etc.) |
 | Vocabulary | Plain language, technical terms explained | Action-oriented, tool-specific, no hype |
-| Research | None — topics pre-planned in the topic bank | None — use cases pre-defined in the plan |
+| Research | **research-engine first** — consultant-grade sourced brief per topic (plan gives the angle, brief gives verified facts) | **research-engine first** — parallel tool-layer + method-layer sourced brief per use case |
 | Hooks | Metaphor-led, accessible | Role + current limitation + AI unlock |
 | Caption | 150–300 words, educational tone | 220–320 words, practical, copy-paste level |
 | Control gates | None (single-step) | None — PDF is a yes/no gate after the caption |
@@ -37,7 +37,7 @@ A Claude Code pipeline that produces LinkedIn supply chain infographics for Tige
 ```
 
 Generates 10 hooks + LinkedIn caption + a **code-rendered infographic** (`renderer/`, HTML→PNG) in one pass from the monthly topic bank. A ChatGPT (GPT Image 2) prompt is kept as the **backup** visual path (illustration fallback when code-render isn't the right fit).
-User picks hook and adjusts at the end. No research, no scout, no message commit.
+User picks hook and adjusts at the end. The **research-engine runs first** (consultant-grade sourced brief); no scout, no message-commit gates.
 Topics come from `references/101-plan.md` (see also `references/master-calendar.md`). `/101` runs Posts 1 and 2 of each week.
 
 | Command | Trigger | Output |
@@ -129,7 +129,7 @@ data/
 - **AI for SC: "When NOT to use AI" sentence is mandatory in every post** — it is the trust signal, not optional
 - **AI for SC: two posts per week = two different SC roles + two different AI tools** — do not repeat the same role or tool in the same week
 - **AI for SC: check `data/ai-for-sc-series-tracker.md` before generating** — confirm the episode hasn't been published, and verify no role + use case repeat
-- **101: no research stage** — `references/101-plan.md` IS the source of truth for topic content
+- **Research-engine runs FIRST on every 101 + AI for SC run** (`.claude/skills/research-engine/` + the `research-analyst` agent) — it builds a consultant-grade, sourced, reliability-tagged `research-brief.md` per slug. `references/101-plan.md` / `ai-for-sc-plan-v2.md` give the topic/angle; the brief gives the verified facts and numbers. Nothing goes on a card or in a caption unsourced. Concrete/demonstrable examples (tool-in-host-surface: Copilot-in-Excel, Claude-in-Claude-Code/Cowork) are layered on top of this depth, never instead of it.
 - **101: no control gates** — all 10 hooks + caption generated in one pass, user picks at the end
 
 ## Audience

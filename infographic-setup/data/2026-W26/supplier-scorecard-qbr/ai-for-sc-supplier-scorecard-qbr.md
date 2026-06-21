@@ -13,8 +13,8 @@
 ---
 
 ## Selected Hook
-**Type**: Question-How
-**Text**: How do you run a supplier QBR when the scorecard lives in SAP, a finance export, and a folder of emails? Copilot pulls it into one sheet before you walk in.
+**Type**: Decision-Pressure
+**Text**: Your supplier QBR is Thursday, and the numbers are scattered across SAP exports, a finance file, and your inbox. Pull them into one clean table, and Copilot scores, weights and ranks every supplier before you walk in.
 
 ---
 
@@ -35,27 +35,26 @@
 
 ## LinkedIn Caption
 
-How do you run a supplier QBR when the scorecard lives in SAP, a finance export, and a folder of emails? Copilot pulls it into one sheet before you walk in.
+Your supplier QBR is Thursday, and the numbers are scattered across SAP exports, a finance file, and your inbox. Pull them into one clean table, and Copilot scores, weights and ranks every supplier before you walk in.
 
-This month on Shetty's Desk we're on procurement, and the 101 side covered how to score and shortlist suppliers. This is the working version of that for a category manager: the quarterly business review, where the scorecard is supposed to drive the conversation and usually doesn't, because nobody had time to build it.
+This month on Shetty's Desk we're on procurement, and the 101 side covered how to weigh and shortlist suppliers. This is the working version for a category manager: the quarterly review, where the scorecard is meant to drive the conversation and usually can't, because nobody had time to build it.
 
-Here's the thing most people miss. The hard part of a QBR is not the meeting. It is getting every supplier onto the same five columns before the meeting, when the data is scattered across systems that don't talk to each other.
+Here's the thing most people miss. The hard part of a QBR isn't the meeting. It's getting every supplier onto the same columns first, scored the same way, so the ranking is a fact and not an argument.
 
-Copilot in Excel is built for exactly this kind of in-file assembly.
+What Copilot in Excel actually does, and doesn't: it won't reach into SAP or your inbox for you, and it needs a paid Microsoft 365 Copilot licence. You assemble one clean table; then it scores each supplier, builds the weighted total with SUMPRODUCT, ranks them, and colour-codes the sheet in minutes.
 
 How to do it:
-• Drop your raw exports into one workbook (one tab per source is fine).
-• Prompt Copilot: "Build a supplier scorecard. Rows = suppliers from these tabs. Columns = Quality, On-time delivery, Price competitiveness, Responsiveness, Compliance, each scored 1 to 5. Add a weighting row, calculate a weighted total per supplier, rank them, and colour-code green to red."
-• Check the weights against what you actually care about this quarter, and adjust one or two.
-• Bring the ranked sheet into the room and let it set the agenda.
+• Export your metrics into one Excel table, one row per supplier (on-time-in-full, defect rate, price, responsiveness, compliance).
+• Paste the prompt below: normalise each metric, weight them, compute the weighted total, rank, and heatmap green to red.
+• Set the weights to what this quarter actually rewards, then re-derive the top supplier's score by hand before you trust the ranking.
 
-And one honest limit. Copilot scores what you feed it, so a tidy scorecard built on stale delivery data is still wrong, just faster. Refresh the inputs before you trust the ranking. Do not use AI to invent scores you don't have data for.
+Copilot because the scoring, weighting and formatting is exactly the in-file work it's built for. And when NOT to use it: never let it invent a score for data you don't have, because a tidy scorecard built on stale delivery numbers is just wrong, faster.
 
-What you walk in with: every supplier ranked on one weighted sheet, ready to decide, not just discuss.
+What you walk in with: every supplier on one weighted sheet, ranked and ready to decide.
 
-Try this before your next quarterly review.
+Try this before your next QBR.
 
-Follow Poornajith Shetty and Shetty's Desk for more supply chain insights, and save this for the week your QBRs come due.
+Follow Poornajith Shetty and Shetty's Desk for more supply chain insights, and save this for the week your reviews come due.
 
 #ShettysDesk #SupplyChainIntelligence #SCM #AIforSupplyChain #Procurement
 
@@ -64,16 +63,23 @@ Follow Poornajith Shetty and Shetty's Desk for more supply chain insights, and s
 ## Copy-paste prompt (Copilot in Excel)
 
 ```
-Build a supplier scorecard from the data in these tabs.
-- Rows: each supplier (de-duplicate across tabs by name).
-- Columns: Quality, On-time delivery, Price competitiveness,
-  Responsiveness, Compliance — each scored 1–5.
-- Add a weighting row above the table (weights sum to 100%).
-- Compute a weighted total (0–5) per supplier and rank them.
-- Conditional-format each score cell green (5) to red (1),
-  and bold the top-ranked supplier's row.
-Return it as a clean table on a new sheet called "QBR Scorecard".
+First make sure the data is one clean Excel table — one row per supplier,
+one header row, no merged cells. Then, from that table:
+1. Normalise each metric to 0–100 where higher is better — and invert
+   defect/PPM so fewer defects score higher. State the formula you use.
+2. Compute a weighted composite with SUMPRODUCT: Quality 30%, On-time 25%,
+   Price 20%, Responsiveness 15%, Compliance 10% (confirm they sum to 100%).
+3. Add a Tier column: ≥85 Preferred, 70–84 Approved, <70 At-risk. Rank highest first.
+4. Apply a red-to-green colour scale to every criterion column and the composite.
+5. Summarise each supplier's top strength, top risk, and one QBR action.
+6. Show your working and recompute the top supplier's score so I can verify the math.
 ```
+
+> **Accuracy note (from research-brief.md):** Copilot in Excel edits **only the open
+> workbook** — it can't pull from SAP/ERP, email, or the web, and needs a paid M365
+> Copilot licence. The human assembles the clean table; Copilot scores/weights/ranks/
+> formats/summarises. It can mis-weight or misstate a number, so the human re-derives the
+> top score by hand. Sourced to Microsoft's own Copilot-in-Excel docs.
 
 ---
 
@@ -91,7 +97,7 @@ Return it as a clean table on a new sheet called "QBR Scorecard".
 - The **winning supplier** row (highest weighted total) is highlighted with the eco-green→azure signature gradient on its total cell; the weakest total is a soft coral chip. Blue = structure/headers; green = the win; coral (sparingly) = the laggard.
 - Tool colour rule: content stays in Shetty's palette; the **Copilot logo** appears only as its own four-point gradient mark.
 
-**Footer (house standard, RW01)**: gradient footrule above the row (never a divider over the logo — fixes the old `.foot::before` overlap); Shetty's Desk logo (≈55px) + wordmark on the left, **"Poornajith Shetty"** signature on the right. Consistent across all four RW01 posts.
+**Footer (house standard, RW01 — unified 2026-06-21)**: gradient footrule above the row; **Shetty's Desk Logo 2** (`assets/logos/shettys-desk-logo-2.png`, dark-wordmark lockup, ~74px, no separate text label) on the left, **"Poornajith Shetty"** signature on the right. All four RW01 posts (101 + AISC) now share Logo 2.
 
 **Icons/logos**: Microsoft Copilot mark (`assets/logos/` lobehub) top-right; Excel mark (`../Icons and Logos/Microsoft_Excel_2013-2019_logo.svg`) small, near the "in Excel" cue; Lucide glyphs for column headers (check-circle, truck, tag, message-circle, shield).
 
@@ -109,7 +115,7 @@ Return it as a clean table on a new sheet called "QBR Scorecard".
 
 Comparative analysis: `data/2026-W26/render-experiment/analysis.md`.
 
-**Flagship still (current direction):** `renderer/templates/ai05-supplier-scorecard-3d.html` → `out/ai05-supplier-scorecard-3d.png` — 3D extruded ranked slabs, dark stat-band + score legend, big Copilot mark, no RW01/series labels in-image.
+**Flagship still (current direction, rebuilt 2026-06-21):** `renderer/templates/ai05-supplier-scorecard-3d.html` → `out/ai05-supplier-scorecard-3d.png` → `visual.png`. Hero = a Copilot-in-Excel **weighted scorecard table** (3 suppliers × 5 heatmap criteria + weighted total/QoQ), plus a second visual model — a **supplier radar chart** beside the price-alone→weighted **rank-flip**. Big clean Copilot mark top-right (no caption text), expanded justified copy-paste prompt, Logo 2 footer.
 
 ---
 

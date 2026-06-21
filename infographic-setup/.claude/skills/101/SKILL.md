@@ -1,12 +1,12 @@
 ---
 name: 101
-description: Use when the user runs /101 [topic-number]. Single-step Supply Chain 101 pipeline. Takes a topic number (1-24) from the 90-day plan, generates 10 hook options + LinkedIn caption + a code-rendered infographic (renderer/, HTML→PNG) in one pass. The ChatGPT Image 2 prompt is kept as a backup visual path. No research, no control gates.
+description: Use when the user runs /101 [topic-number or slug]. Supply Chain 101 pipeline. Runs the research-engine FIRST to build a consultant-grade sourced research brief, then takes the topic from the plan and generates 10 hook options + LinkedIn caption + a code-rendered infographic (renderer/, HTML→PNG). The ChatGPT Image 2 prompt is kept as a backup visual path. No control gates.
 ---
 
 # /101 Skill — Supply Chain 101 Pipeline
 
 ## Purpose
-Single-step pipeline for the Supply Chain 101 series. Takes a topic number from the 90-day plan, generates 10 hook options + LinkedIn caption + a **code-rendered infographic** (`renderer/`, HTML→PNG) in one pass. No research stage, no control gates. User picks and adjusts at the end.
+Pipeline for the Supply Chain 101 series. Takes a topic from the plan, **runs the research-engine first** (mandatory consultant-grade, sourced research brief — see Step 0), then generates 10 hook options + LinkedIn caption + a **code-rendered infographic** (`renderer/`, HTML→PNG). No control gates. User picks and adjusts at the end. The research brief is what lets the card carry real, sourced numbers instead of the plan's generic framing.
 
 **Visual path (changed 2026-06-21):** 101 is now **code-render primary** — the infographic is built deterministically in `renderer/` (same kit + brand frame as AI for SC, but **no AI-tool logo** and the accessible 101 register). The **ChatGPT (GPT Image 2) prompt is the backup** path, kept in `101-copy.md` for illustration/metaphor posts with no load-bearing structure. See `references/render-pilot-workflow.md` §4.
 
@@ -29,9 +29,25 @@ data/{YYYY-W##}/{topic-slug}/101-copy.md
 
 ---
 
+## Step 0: Research Engine (MANDATORY — runs first)
+
+Before any hook or caption, run **`/research-engine 101 [topic-slug]`** (see
+`.claude/skills/research-engine/SKILL.md`). It spawns the **research-analyst** agent
+to build a consultant-grade, sourced, reliability-tagged brief and writes
+`data/{YYYY-W##}/{topic-slug}/research-brief.md`.
+
+- If a current `research-brief.md` already exists for the slug, reuse it.
+- The brief is the source of truth for **every number on the card and in the caption** —
+  the plan gives the angle, the brief gives the verified facts. Do not invent figures;
+  if the brief couldn't verify something, don't put it on the card.
+- Do not proceed to Step 2 until the brief clears the research-engine quality gate.
+
+---
+
 ## Step 1: Load Inputs
 
-1. Read `references/101-plan.md` — extract the row for the requested topic number
+1. Read the `research-brief.md` from Step 0 — this is the fact base.
+2. Read `references/101-plan.md` — extract the row for the requested topic number
 2. Read `references/101-voice.md` — load voice rules
 3. Read `data/101-series-tracker.md` — check episode number and what was published last
 4. Extract from the plan row:
@@ -279,6 +295,7 @@ After user confirms hook selection and any adjustments:
 
 ## Quality Check (run before presenting)
 
+- [ ] **`research-brief.md` exists, cleared the research-engine gate, and every on-card / in-caption number traces to a sourced fact in it (none invented)?**
 - [ ] All 10 hooks use different opening words and different structural devices?
 - [ ] Caption follows 101 post structure (hook, series frame, explanation, 3 bullets, reframe, CTA, sign-off)?
 - [ ] Caption is 150–300 words?
