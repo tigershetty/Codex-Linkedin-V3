@@ -12,8 +12,10 @@
 ---
 
 ## Selected Hook
-**Type**: Decision-Pressure
-**Text**: The supplier meeting is in 48 hours and you have a price increase to push back on. Most purchasers prep that in their head. Claude builds you the full argument map first.
+**Type**: Result-First
+**Text**: A supplier wants +9%. Before the meeting, have Claude build a should-cost model that shows how much of it actually holds up.
+
+> **Rebuilt 2026-06-21** around the "tool builds a real artifact" direction (the Copilot-in-Excel equivalent): the post now shows **Claude Code building a should-cost model** (`should-cost-model.csv`) — every cost line indexed to a public benchmark, summing to a defensible **+5.6%** against the **+9%** ask (a 3.4% gap to negotiate).
 
 ---
 
@@ -34,22 +36,22 @@
 
 ## LinkedIn Caption
 
-The supplier meeting is in 48 hours and you have a price increase to push back on. Most purchasers prep that in their head. Claude builds you the full argument map first.
+A supplier wants +9%. Before the meeting, have Claude build a should-cost model that shows how much of it actually holds up.
 
-We're on procurement this month at Shetty's Desk. The 101 posts covered how to weigh suppliers; this is the moment that decides whether one stays worth it: the price conversation, where they've prepared for weeks and you've had a day.
+We're on procurement this month at Shetty's Desk. The 101 posts covered how to weigh suppliers; this is the moment that tests one: the price conversation, where they've prepped for weeks and you've had a day.
 
-Here's the thing most people miss. A "9% increase" isn't one number, it's a stack of claims, and each one hits a different line of the cost. Raw material, labour, freight, margin all need different answers, and most of them only move a fraction of the price.
+A "+9%" is really a stack of claims, and each one only moves the slice of cost it actually touches. So instead of arguing a position, you build a model.
 
-What Claude does well here is structure, not calculation. It builds a should-cost skeleton (material, labour, energy, overhead, margin), then for each claim it runs the indexation test, new price = base price times current index over base index, applied only to that line's share. If steel rose 7.4% on the public index and steel is 60% of the part, that's roughly 4.5% on price, not 9%.
+In Claude Code you don't just talk it through, you build the thing. Point Claude at the quote and the last PO: split the price into material, labour, energy, overhead and margin, tie each line to a public index, and apply new price = base times current over base index, weighted by that line's share. It writes the model, sums it, and lands on what's defensible. In my example that was about +5.6% against a +9% ask, which turns a vague argument into a specific 3.4% gap they have to justify.
 
 How to do it:
-• Open Claude. Give it the supplier, the category, the increase, and any context (the email, the last contract, what you know of their cost base).
-• Paste the prompt below: build the should-cost, index each claim to a named public source (BLS PPI, the LME, EIA diesel, the ECI), and draft a counter plus the one question that tests each argument.
-• Have it role-play the supplier's sales director so you can rehearse the pushback.
+• Open Claude Code (or Claude with your files). Give it the quote, the last PO, and the category.
+• Paste the prompt below to build the should-cost model and index each line.
+• Have it role-play the supplier's sales director so you can rehearse.
 
-And the honest limit. Claude can't see their private costs, and it will guess at index numbers, so it's your rehearsal partner, not a source of facts. Pull the real index from BLS or the LME yourself before you quote it. When NOT to use it: never carry a figure from AI into the room unchecked.
+Claude because this is structured analysis and document-building, exactly what it's good at. And when NOT to use it: never quote a number it produced without checking the real index yourself, because it can't see the supplier's true cost shares and it will guess the index values.
 
-What you get: a should-cost-anchored counter-map, ready before they open with their number.
+What you get: a should-cost model you built before the meeting, and a defensible number instead of an opinion.
 
 Try this before your next price review.
 
@@ -62,20 +64,23 @@ Follow Poornajith Shetty and Shetty's Desk for more supply chain insights, and s
 ## Copy-paste prompt (Claude)
 
 ```
-I'm a purchaser. A supplier wants a [X]% increase on [category], citing
-[their reasons]. Context: [paste the email / last contract / cost-base notes].
+I'm a purchaser. A supplier wants +[X]% on [part/category].
+Context: [paste the quote / last PO / what you know of their cost base].
 
-1. Build a should-cost skeleton — material, labour, energy/freight, overhead,
-   margin — and label every share as an estimate I must verify.
-2. For each reason, run the indexation test: new price = base × (current index ÷
-   base index), applied only to that line's share. Name the public index I should
-   cite for each (PPI commodity series, LME, EIA diesel, BLS ECI, FX reference rate).
-3. Give a calm, evidence-based counter and the one question that tests each claim.
-   Flag which argument is hardest to counter.
-4. Then role-play the supplier's sales director for 3–4 rounds so I can rehearse.
-5. Suggest a two-way indexed clause (price falls when the index falls), and mark
-   every number you guessed so I can check it against the real source.
+1. Build a should-cost model for the part: split price into material, labour,
+   energy/freight, overhead, margin, and label every share as an estimate I must verify.
+2. Tie each line to a public index and apply new price = base × (current ÷ base
+   index), weighted by that line's share — name the index (PPI commodity series,
+   LME, EIA diesel, BLS ECI, FX reference rate).
+3. Sum to a defensible increase and compare it to their ask; show me the gap.
+4. Role-play the supplier's sales director for 3–4 rounds so I can rehearse.
+5. Flag every number you guessed and the exact source I must check before I use it.
 ```
+
+> Built for **Claude Code / Claude with files** — point it at the quote and last PO and it
+> writes the should-cost model as a real artifact (e.g. `should-cost-model.csv`), the way
+> Copilot builds the scorecard inside Excel. Depth first: the model is only as good as the
+> indices you verify.
 
 > **Accuracy note (from research-brief.md):** the indexation formula and the steel-PPI
 > example (BLS WPU1017: 303.5 → 326.1 = +7.4%) are real; the 60% material share is
@@ -88,20 +93,20 @@ I'm a purchaser. A supplier wants a [X]% increase on [category], citing
 
 ## Render Brief (code-render — primary visual)
 
-**Format**: Negotiation Table (two-column argument map). 4:5 (1080×1350). Bright Shetty's Desk system (azure + eco-green on white, Poppins).
+**Format**: Tool-builds-the-artifact (the Copilot-in-Excel equivalent, for Claude). A **Claude Code session** that builds a **should-cost model**, shown above the artifact it produces. 4:5-ish (1080×1500). Bright Shetty's Desk system (azure + eco-green on white, Poppins).
 
-**Pin header**: badge → UPPERCASE title "THE PRICE-INCREASE PLAYBOOK" → thin azure rule. Sub: "Every argument they'll make, every answer you'll need." Claude mark (clay `#D97757`) sized into the top-right whitespace.
+**Pin header**: badge → title "Don't rehearse the argument. Have Claude build the model." → azure rule. Sub names the surface ("In Claude Code…"). Big clean Claude mark top-right (no caption).
 
-**Hero / reframe**: "+9%" (their ask, coral) → "a stack of claims" — you answer each against the cost line it hits. The honesty rule is kept by **teaching the indexation *method* with a real public index, not an AI-invented "justified %"**: the card shows steel PPI (BLS WPU1017) 303.5 → 326.1 = +7.4%, then ×60% material share ≈ +4.5% defensible vs the +9% ask. The +7.4% index move is verified; the 60% share is labelled illustrative, so +4.5% reads as a worked example of the method, not a fabricated answer.
+**Hero — the build**: a dark **Claude Code panel** (3-dot title bar, mono body) showing the purchaser's ask (`▸ build a should-cost model … test their +9%`) and Claude's actions (`● Read quote/PO`, `● Write should-cost-model.csv`, `● Indexed steel→PPI, labour→ECI, freight→EIA`) ending on `✓ Defensible ≈ +5.6% · asked +9% · gap 3.4%`. Authentic to Claude Code's actual UX.
 
-**Body — the two-column table**: left column "THEIR ARGUMENT" (coral-tinted, 4 rows: raw material costs, labour/wage pressure, margin compression, low volume), right column "YOUR COUNTER + TEST QUESTION" (azure/eco, the calm response + the one test question per row). The single hardest-to-counter row (margin pressure) is flagged with a small amber "hardest to counter" marker. A compact copy-paste Claude prompt block sits above the footer (the visible-prompt AISC moat).
+**Artifact — the model it built**: a `should-cost-model.csv` table (Cost line · Share · Index it tracks · Move · Δ on price) — Steel 60% PPI +7.4%→+4.4%, Labour 15% ECI +3.5%→+0.5%, Energy/freight 10% EIA +6%→+0.6%, Overhead 8%→+0.1%, Margin 7%→0% — summing to **+5.6% defensible**. A gap note frames the **3.4%** vs the +9% ask as the part to negotiate. Honesty kept: shares labelled illustrative, "verify each index"; steel +7.4% is the verified anchor.
 
 **Footer (house standard, RW01 — unified 2026-06-21)**: gradient footrule above the row; **Shetty's Desk Logo 2** (`assets/logos/shettys-desk-logo-2.png`, dark-wordmark lockup, ~74px, no separate text label) on the left, **"Poornajith Shetty"** signature on the right. All four RW01 posts (101 + AISC) now share Logo 2.
 
-**Icons/logos**: Claude mark (`assets/logos/claude`) top-right; Lucide glyphs per row (package, users, trending-down, layers); amber alert-triangle on the hardest row.
+**Icons/logos**: big Claude mark (`assets/logos/claude-color.svg`) top-right, no caption; chart-line glyph on the artifact header; amber alert-triangle on the honesty + gap notes. No row icons (the model table replaced the argument grid).
 
 ---
 
 ## Rendered Output
 
-Primary: `renderer/templates/ai06-negotiation-table.html` → `renderer/out/ai06-negotiation-table.png` → `visual.png`. **Rebuilt 2026-06-21** to the new standard: 4-row argument↔counter+test-question grid, plus two visual models — a **should-cost stacked bar** and an **indexation worked example** (WPU1017 +7.4% × 60% = +4.5% vs +9%). Big clean Claude mark (no "with Claude"), expanded justified copy-paste prompt, Logo 2 footer.
+Primary: `renderer/templates/ai06-negotiation-table.html` → `renderer/out/ai06-negotiation-table.png` → `visual.png`. **Rebuilt 2026-06-21 (v2)** to the "tool builds a real artifact" direction: a **Claude Code session** building a **should-cost-model.csv** (5 cost lines, each indexed to a public benchmark) → summing to **+5.6% defensible vs +9% asked**, 3.4% gap. Big clean Claude mark (no "with Claude"), expanded justified copy-paste prompt, Logo 2 footer. (Template filename kept as `ai06-negotiation-table.html` for continuity.)
