@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<style>
+  :root{
+    --azure:#2798FB; --sky:#50A9F7; --royal:#247BE1; --deep:#215DC3; --navy:#1939A5;
+    --eco:#38E6A6; --eco-text:#14B07E; --mint:#8FF3CC; --coral:#E27199; --coral-deep:#cf5c84;
+    --ink:#15315C; --muted:#5D7599; --line:#DCEAF8; --tint:#E2F0FB; --tint2:#EEF6FE;
+    --eco-grad:linear-gradient(135deg,#8FF3CC,#38E6A6,#1FC98B);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px}
+  #card{
+    width:1080px;height:1400px;position:relative;overflow:hidden;
+    font-family:"Poppins",system-ui,sans-serif;color:var(--ink);
+    background:
+      radial-gradient(ellipse 52% 32% at 88% 1%, rgba(56,230,166,.16) 0%, transparent 60%),
+      radial-gradient(ellipse 58% 38% at 3% 20%, rgba(39,152,251,.14) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F5FAFE 55%,#EAF3FD 100%);
+    padding:24px 26px 18px;display:flex;flex-direction:column;
+  }
+  .kicker{font-size:15px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--azure)}
+  h1{font-size:56px;font-weight:800;line-height:.99;margin-top:11px;letter-spacing:-1px;color:var(--ink)}
+  h1 .g{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .rule{height:5px;width:100%;margin:14px 0 9px;border-radius:5px;
+    background:linear-gradient(90deg,var(--azure) 0%,var(--sky) 36%,rgba(80,169,247,0) 100%)}
+  .sub{font-size:20px;font-weight:400;color:var(--muted);max-width:940px;line-height:1.3}
+
+  /* balance hero */
+  .hero{position:relative;width:1028px;height:486px;margin-top:2px}
+  .gate{position:absolute;left:50%;top:0;transform:translateX(-50%);width:560px;text-align:center;z-index:5}
+  .gate .gq{display:inline-block;background:#16294a;color:#fff;font-size:21px;font-weight:700;line-height:1.2;
+    padding:13px 26px;border-radius:14px;box-shadow:0 14px 30px rgba(21,49,92,.26)}
+  .gate .gq b{color:var(--mint);font-weight:800}
+  .gate .branch{display:flex;justify-content:space-between;margin-top:9px;padding:0 8px}
+  .gate .br{display:flex;align-items:center;gap:7px;font-size:14px;font-weight:800}
+  .gate .br.l{color:var(--deep)} .gate .br.r{color:var(--eco-text)}
+  .panlbl{position:absolute;transform:translate(-50%,-50%);text-align:center;z-index:4}
+  .panlbl .pn{font-size:31px;font-weight:800;line-height:1;color:#fff;text-shadow:0 2px 6px rgba(8,28,60,.35)}
+  .panlbl .ps{font-size:12.5px;font-weight:600;color:rgba(255,255,255,.92);margin-top:3px;text-shadow:0 1px 3px rgba(8,28,60,.3)}
+
+  /* decision table */
+  .dt{margin-top:4px;border:1px solid #cfe0f3;border-radius:16px;overflow:hidden;box-shadow:0 16px 34px rgba(33,93,195,.10)}
+  .dt .row{display:grid;grid-template-columns:1.28fr 1fr 1fr}
+  .dt .hrow{background:linear-gradient(120deg,#16294a,#1d3d74)}
+  .dt .hc{padding:11px 18px;display:flex;align-items:center;gap:9px;font-size:14px;font-weight:800;color:#EAF3FD;letter-spacing:.03em}
+  .dt .hc.first{color:#9FC2EA;text-transform:uppercase;font-size:12.5px;letter-spacing:.06em}
+  .dt .hc .tg{font-size:11px;font-weight:700;padding:2px 9px;border-radius:999px}
+  .dt .hc.mk .tg{background:rgba(80,169,247,.28);color:#cfe6ff} .dt .hc.by .tg{background:rgba(56,230,166,.24);color:#bff6df}
+  .dt .brow{background:#fff;border-top:1px solid #e9f2fc}
+  .dt .brow:nth-child(odd){background:#FAFCFF}
+  .dt .dc{padding:12px 18px;display:flex;flex-direction:column;justify-content:center;border-left:1px solid #eef5fc}
+  .dt .dc.first{border-left:0}
+  .dt .dim{font-size:16.5px;font-weight:800;color:var(--ink);display:flex;align-items:center;gap:10px}
+  .dt .dim .di{width:18px;height:18px;flex:none;background:var(--deep);-webkit-mask-size:contain;mask-size:contain;
+    -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:center;mask-position:center}
+  .dt .v{font-size:14.5px;font-weight:500;color:var(--muted);line-height:1.26}
+  .dt .v b{font-weight:700}
+  .dt .v.mk b{color:var(--deep)} .dt .v.by b{color:var(--eco-text)}
+  .dt .foot-r{background:linear-gradient(90deg,rgba(56,230,166,.12),rgba(39,152,251,.08));border-top:1px solid #d8e8f7}
+  .dt .fr{grid-column:1/4;padding:12px 20px;font-size:15.5px;font-weight:600;color:var(--ink);display:flex;align-items:center;gap:11px}
+  .dt .fr .fi{width:20px;height:20px;flex:none;background:var(--eco-text);-webkit-mask:url(../assets/icons/chart-line.svg) center/contain no-repeat;mask:url(../assets/icons/chart-line.svg) center/contain no-repeat}
+  .dt .fr b{color:var(--eco-text);font-weight:800} .dt .fr .px{color:var(--coral-deep);font-weight:800}
+
+  .insight{margin-top:12px;font-size:18px;font-weight:500;color:var(--ink);line-height:1.4;padding-left:16px;
+    border-left:5px solid var(--azure)}
+  .insight b{color:var(--eco-text);font-weight:700} .insight .px{color:var(--coral-deep);font-weight:700}
+
+  .footrule{margin-top:auto;height:3px;border-radius:3px;
+    background:linear-gradient(90deg,var(--azure),var(--eco) 55%,rgba(56,230,166,0) 100%)}
+  .foot{display:flex;align-items:center;justify-content:space-between;padding-top:14px}
+  .who{display:flex;align-items:center;gap:14px}
+  .who img{height:74px;width:auto}
+  .sig{font-size:17.5px;font-weight:700;color:var(--ink);text-align:right;line-height:1.2}
+</style>
+</head>
+<body>
+<div id="card">
+  <div class="kicker">Supply Chain 101 · Procurement</div>
+  <h1>Build it yourself,<br>or <span class="g">buy it in?</span></h1>
+  <div class="rule"></div>
+  <div class="sub">Every company draws a line between what it makes and what it buys from suppliers. Draw it well and you focus on what you're best at. Draw it on price alone and you can hand a rival the very thing that made you, you.</div>
+
+  <div class="hero">
+    <div class="gate">
+      <span class="gq">Is it core to what makes you, <b>you?</b></span>
+      <div class="branch">
+        <span class="br l">&larr; YES · keep it in-house</span>
+        <span class="br r">NO · buy it in &rarr;</span>
+      </div>
+    </div>
+    <svg id="scale" viewBox="0 0 1028 486" style="position:absolute;inset:0;width:100%;height:100%"></svg>
+    <div class="panlbl" id="lblMake"><div class="pn">MAKE</div><div class="ps">build in-house</div></div>
+    <div class="panlbl" id="lblBuy"><div class="pn">BUY</div><div class="ps">source from a supplier</div></div>
+  </div>
+
+  <div class="dt" id="dt"></div>
+
+  <div class="insight">Buy what the market makes better and cheaper. <b>Make what makes you, you</b> — because the moment you outsource your edge, it stops being yours.</div>
+
+  <div class="footrule"></div>
+  <div class="foot">
+    <div class="who"><img src="../assets/logos/shettys-desk-logo-2.png" alt="Shetty's Desk"></div>
+    <div class="sig">Poornajith Shetty</div>
+  </div>
+</div>
+
+<script>
+(function(){
+  // ---------- balance scale (SVG) ----------
+  const svg=document.getElementById('scale');
+  const NS='http://www.w3.org/2000/svg';
+  const beamY=232, cx=514, lx=232, rx=796, panY=300;
+  svg.innerHTML=`
+    <defs>
+      <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#2f4f86"/><stop offset="1" stop-color="#1c3a6e"/>
+      </linearGradient>
+      <linearGradient id="post" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#23477f"/><stop offset="1" stop-color="#16294a"/>
+      </linearGradient>
+      <radialGradient id="panMk" cx="0.5" cy="0.32" r="0.85">
+        <stop offset="0" stop-color="#7CC0FB"/><stop offset="1" stop-color="#2A78DC"/>
+      </radialGradient>
+      <radialGradient id="panBy" cx="0.5" cy="0.32" r="0.85">
+        <stop offset="0" stop-color="#6FF0BE"/><stop offset="1" stop-color="#15B589"/>
+      </radialGradient>
+    </defs>
+    <!-- ground shadow -->
+    <ellipse cx="${cx}" cy="468" rx="150" ry="15" fill="rgba(18,42,90,.12)"/>
+    <!-- stand: base + post -->
+    <path d="M ${cx-86} 460 L ${cx+86} 460 L ${cx+40} 442 L ${cx-40} 442 Z" fill="#16294a"/>
+    <path d="M ${cx-24} 442 L ${cx+24} 442 L ${cx+14} ${beamY+6} L ${cx-14} ${beamY+6} Z" fill="url(#post)"/>
+    <!-- fulcrum wedge -->
+    <path d="M ${cx} ${beamY-6} L ${cx-30} ${beamY+40} L ${cx+30} ${beamY+40} Z" fill="#1d3d74"/>
+    <path d="M ${cx} ${beamY-6} L ${cx+30} ${beamY+40} L ${cx+40} ${beamY+34} L ${cx+10} ${beamY-10} Z" fill="#16294a"/>
+    <!-- beam (level) -->
+    <rect x="${lx-14}" y="${beamY-11}" width="${rx-lx+28}" height="20" rx="10" fill="url(#beam)"/>
+    <rect x="${lx-14}" y="${beamY-11}" width="${rx-lx+28}" height="6" rx="3" fill="rgba(255,255,255,.18)"/>
+    <circle cx="${cx}" cy="${beamY-1}" r="11" fill="#2f4f86" stroke="#fff" stroke-width="2.5"/>
+    <!-- hangers -->
+    <line x1="${lx-58}" y1="${beamY+2}" x2="${lx}" y2="${panY-20}" stroke="#9DB6D2" stroke-width="2.4"/>
+    <line x1="${lx+58}" y1="${beamY+2}" x2="${lx}" y2="${panY-20}" stroke="#9DB6D2" stroke-width="2.4"/>
+    <line x1="${rx-58}" y1="${beamY+2}" x2="${rx}" y2="${panY-20}" stroke="#9DB6D2" stroke-width="2.4"/>
+    <line x1="${rx+58}" y1="${beamY+2}" x2="${rx}" y2="${panY-20}" stroke="#9DB6D2" stroke-width="2.4"/>
+    <!-- pans (shallow bowls): front rim + top ellipse -->
+    <path d="M ${lx-118} ${panY} A 118 30 0 0 0 ${lx+118} ${panY} L ${lx+104} ${panY+14} A 104 24 0 0 1 ${lx-104} ${panY+14} Z" fill="#1f5fb0"/>
+    <ellipse cx="${lx}" cy="${panY}" rx="118" ry="30" fill="url(#panMk)"/>
+    <ellipse cx="${lx}" cy="${panY-2}" rx="118" ry="30" fill="none" stroke="rgba(255,255,255,.4)" stroke-width="2"/>
+    <path d="M ${rx-118} ${panY} A 118 30 0 0 0 ${rx+118} ${panY} L ${rx+104} ${panY+14} A 104 24 0 0 1 ${rx-104} ${panY+14} Z" fill="#0f9b73"/>
+    <ellipse cx="${rx}" cy="${panY}" rx="118" ry="30" fill="url(#panBy)"/>
+    <ellipse cx="${rx}" cy="${panY-2}" rx="118" ry="30" fill="none" stroke="rgba(255,255,255,.4)" stroke-width="2"/>
+  `;
+  // place pan labels (scene px == viewBox px since width matches 1028)
+  const place=(el,x,y)=>{el.style.left=x+'px';el.style.top=y+'px';};
+  place(document.getElementById('lblMake'), lx, panY-2);
+  place(document.getElementById('lblBuy'),  rx, panY-2);
+
+  // ---------- decision table ----------
+  const rows=[
+    {dim:'Cost', ic:'tag', mk:'A <b>fixed cost</b> you carry whether you use it or not.', by:'<b>Pay per unit</b> — scales up and down with demand.'},
+    {dim:'Capability', ic:'badge-check', mk:'Builds <b>your own</b> skill and know-how over time.', by:'Rents the <b>supplier’s</b> expertise and scale on day one.'},
+    {dim:'Risk', ic:'shield-check', mk:'<b>You control</b> it — no one can cut you off.', by:'Adds <b>dependency</b> on someone else’s priorities.'},
+    {dim:'Quality', ic:'message-circle', mk:'You <b>own every defect</b>, and every improvement.', by:'Their standard, your spec — only as tight as the contract.'},
+    {dim:'Speed / fit', ic:'truck', mk:'<b>Slow</b> to stand up; hard to flex later.', by:'<b>Faster</b> to start; flex by switching or adding suppliers.'},
+  ];
+  const mask=ic=>'-webkit-mask:url(../assets/icons/'+ic+'.svg) center/contain no-repeat;mask:url(../assets/icons/'+ic+'.svg) center/contain no-repeat';
+  const dt=document.getElementById('dt');
+  let h='<div class="row hrow">'+
+    '<div class="hc first">Weigh both on five things</div>'+
+    '<div class="hc mk"><span class="tg">MAKE</span></div>'+
+    '<div class="hc by"><span class="tg">BUY</span></div></div>';
+  rows.forEach(r=>{
+    h+='<div class="row brow">'+
+      '<div class="dc first"><span class="dim"><span class="di" style="'+mask(r.ic)+'"></span>'+r.dim+'</span></div>'+
+      '<div class="dc"><span class="v mk">'+r.mk+'</span></div>'+
+      '<div class="dc"><span class="v by">'+r.by+'</span></div></div>';
+  });
+  h+='<div class="row foot-r"><div class="fr"><span class="fi"></span>Decide on <b>total cost of ownership</b> across all five — not the <span class="px">unit price</span> alone.</div></div>';
+  dt.innerHTML=h;
+})();
+</script>
+</body>
+</html>
