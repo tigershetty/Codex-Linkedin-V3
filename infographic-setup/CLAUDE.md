@@ -119,6 +119,7 @@ data/
 ## Gotchas
 - **IKEA content is excluded** — do not use as voice or content reference
 - **101 visual is now code-rendered** (`renderer/`, HTML→PNG) — pick the layout via `layout-select`, build the template, render and QA the PNG. The ChatGPT (GPT Image 2) prompt is the **backup** path (illustration fallback), kept in `101-copy.md`.
+- **SC 101 footer uses Logo 2** (`renderer/assets/logos/shettys-desk-logo-2.png`, the dark-wordmark lockup for light backgrounds, ~74px on the LEFT) + **"Poornajith Shetty"** signature on the RIGHT. Logo 2 carries the "Shetty's Desk" wordmark, so there is **no separate text label**. Never use Logo 1 on the cards — its wordmark is white and invisible on white.
 - **NEGATIVE prompt blocks degrade render quality** — never add them to the 101 ChatGPT (GPT Image 2) backup prompt
 - **Hooks become the verbatim opening line of the published post** — voice rules apply at hook generation
 - **AI for SC: PDF draft is optional** — after caption + render brief (+ rendered infographic) are presented, ask "Would you like a PDF draft? (Yes / No)" before generating

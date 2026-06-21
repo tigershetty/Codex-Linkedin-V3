@@ -113,7 +113,7 @@ Follow the 101 post structure (from `references/101-voice.md`):
 
 ### 4.2 Build + render the HTML
 - Skim `renderer/README.md` (esp. §3 brand kit, §6/§6b 3D, §7 layout laws) and the reference template `renderer/templates/sc101-quote-iso-towers.html` (the 101 standard). Build a self-contained template at `renderer/templates/sc101-[topic-slug].html` from the kit — **one bespoke concept on the homogeneous Shetty's Desk frame**, never a `{{token}}` fill-in.
-- Brand frame: azure + eco-green + ink + Poppins, luminous on WHITE, flat; coral = caution/cost only. **No AI-tool logo.** Footrule-above-row footer (logo + handle left; logo stamp right). Every number hard-coded from the plan.
+- Brand frame: azure + eco-green + ink + Poppins, luminous on WHITE, flat; coral = caution/cost only. **No AI-tool logo.** Footrule-above-row footer — **Shetty's Desk Logo 2** (`assets/logos/shettys-desk-logo-2.png`, the dark-wordmark lockup for light backgrounds, ~74px; it carries the "Shetty's Desk" wordmark, so **no separate text label**) on the LEFT + **"Poornajith Shetty"** signature on the RIGHT. (Never Logo 1 — its wordmark is white, invisible on the white card.) Every number hard-coded from the plan.
 - For real 3D depth use **JS `clip-path` isometry**, not CSS 3D transforms (README §6b). Harvey balls via `conic-gradient`.
 - Render (always absolute path — cwd drifts):
   `CHROME_PATH=… NODE_PATH=$(npm root -g) node render.mjs templates/sc101-[slug].html out/sc101-[slug].png`
@@ -287,7 +287,7 @@ After user confirms hook selection and any adjustments:
 - [ ] Sign-off includes "Follow Poornajith Shetty" + save prompt?
 - [ ] **Visual: layout chosen via `layout-select` (argues the point, not last week's default) + composition mode (A/B) decided?**
 - [ ] **Visual: code-rendered template built on the brand frame, NO AI-tool logo, every number hard-coded; rendered PNG QA'd against README §9 and copied to `visual.png`?**
-- [ ] **Visual: real 3D (if used) via JS clip-path isometry, not CSS 3D transforms; footrule-above-row footer; canvas filled (no dead whitespace / heavy border)?**
+- [ ] **Visual: real 3D (if used) via JS clip-path isometry, not CSS 3D transforms; footrule-above-row footer (Shetty's Desk Logo 2 left + "Poornajith Shetty" signature right — never Logo 1); canvas filled (no dead whitespace / heavy border)?**
 - [ ] ChatGPT Image 2 prompt (backup) present and uses the plan's visual format + brand anchor?
 - [ ] A non-practitioner could read the caption over coffee and understand the concept?
 

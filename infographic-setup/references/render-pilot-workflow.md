@@ -80,7 +80,7 @@ The deterministic render stack is real and proven on a flagship piece (PF7, the 
 - Bar fills must be `display:block` — an inline `<span>` ignores width/height and renders an empty track.
 - `overflow:hidden` on a container clips any child that sticks out (e.g. fence flags); lift such elements to a non-clipped parent. CSS `opacity` on a parent also caps a child's opacity.
 - Always invoke the renderer with an **absolute path** — the shell cwd drifts and `node render.mjs` then fails.
-- Light surfaces use **Logo 4 (mono-olive)**; the white-wordmark logo is invisible on white.
+- Light surfaces: **SC 101 footers use Logo 2** (`assets/logos/shettys-desk-logo-2.png`, the **dark-wordmark** lockup made for light backgrounds) — it carries the "Shetty's Desk" wordmark, so the footer needs **no separate text label**. ⚠ **Logo 1 is the white-wordmark lockup; it is invisible on white — never use it on the cards.** (Logo 4 is the mono-olive alternative.)
 
 ## 2b. Supplier-quote learnings (2026-06-21 — the new visual standard)
 Carry these into every future 101 + AI-for-SC template. The exemplar is `templates/sc101-quote-iso-towers.html`.
@@ -97,7 +97,7 @@ Carry these into every future 101 + AI-for-SC template. The exemplar is `templat
 
 **Multi-element from the 200-pattern library:** a single still can combine benchmarks — stacked-criterion towers (#43) + Harvey-ball scorecard (#106, `conic-gradient(color 0 X%, #E6F0FA X% 100%)`) + part-to-whole share bar (#44) + isotype/badges + side callouts. Reserve unused patterns (radar #74, slope #71, tornado #109, bullet #75) for later posts in the same topic so the feed shows range.
 
-**Footer standard (corrected):** a full-width gradient **footrule** sits ABOVE the foot row (`margin-top:auto` pushes it to the bottom) — never a divider drawn *over* the logo/text. Foot row = brand logo (≈55px) + name/handle on the LEFT, a logo stamp on the RIGHT. (Tighten outer card padding — ~22–24px — and rescale the hero/scorecard to fill the reclaimed space; "use the space, don't frame it with border.")
+**Footer standard (corrected):** a full-width gradient **footrule** sits ABOVE the foot row (`margin-top:auto` pushes it to the bottom) — never a divider drawn *over* the logo/text. Foot row (SC 101) = **Shetty's Desk Logo 2** (dark-wordmark lockup, ~74px, carries the wordmark so no separate text label) on the LEFT + **"Poornajith Shetty"** signature on the RIGHT. (AI-for-SC uses the same footrule + signature; its right side may carry the closing thesis instead.) (Tighten outer card padding and rescale the hero to fill the reclaimed space; "use the space, don't frame it with border.")
 
 **Technical gotchas added this round:**
 - `inset:'auto'` is shorthand for top/right/bottom/left — set it **before** `left`/`top` or it wipes them (caused the grey-blob "all shadows stacked at origin" bug).
