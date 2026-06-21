@@ -57,11 +57,12 @@ Follow Poornajith Shetty and Shetty's Desk for more supply chain insights, and s
 ## Visual Spec (layout-select)
 - **Shape of the idea:** one quote has five columns; price is only one of them, and total value is the sum — so compare the *ratio* of total values, not the price tags.
 - **Selected layout (multi-element, from the 200-pattern benchmark):**
-  - **Hero — isometric 3D stacked-criterion towers** (benchmark #43 stacked column, in real iso depth). Each supplier is a tower of five stacked bands (Price → Lead time → Quality → Payment terms → References) on a blue→green ramp (blue = price/speed, green = the quality/relationship value price-shoppers ignore). **Height = total value.** Floating **unit-price tags**, **supplier badges** (C coral / A azure / B eco-crowned), total-value number on each cap.
-  - **Ratio element — "Share of total value" 100% bar** (benchmark #44 / part-to-whole). Normalised shares B 46% / A 33% / C 21% with the **2.1× value · +17% price** callout — the explicit ratio comparison requested.
-  - **Icon legend** (benchmark #47 isotype): the five criteria as colour swatch + Lucide icon.
-- **Feasibility:** Medium (JS-computed clip-path isometric) · **Brand:** azure (A) + eco (B, crowned) + coral (C); blue→green criterion ramp; real 3D extrusion + hairline band separators; no tool mark (101).
-- **Reserved benchmark elements for later posts:** Harvey balls (#106) for a criterion scorecard, radar/spider (#74) for a supplier strength profile, slope (#71) for rank-shift, tornado (#109) for sensitivity.
+  - **Hero — isometric 3D stacked-criterion towers** (benchmark #43 stacked column, in real iso depth). Each supplier is a tower of five stacked bands (Price → Lead time → Quality → Payment terms → References) on a blue→green ramp (blue = price/speed, green = the quality/relationship value price-shoppers ignore). **Height = total value.** Floating **unit-price tags**, **supplier badges** (C coral / A azure / B eco-crowned), total-value number on each cap, hairline band separators.
+  - **Side callouts** fill the left/right whitespace with the teaching: "price is one band" (tag icon) and "the green is the payoff" (trophy icon).
+  - **Scorecard panel — Harvey balls** (benchmark #106): 5 criteria × 3 suppliers as pie-fill rating dots in criterion colours, B column highlighted, with a **Total value** row (41 / 64 / 88 out of 100). The precise scorecard behind the tower heights.
+  - **Ratio element — "Share of total value" 100% bar** (benchmark #44 / part-to-whole) folded into the panel: C 21% / A 33% / B 46% with the **2.1× value · +17% price** callout — the explicit ratio comparison requested.
+- **Feasibility:** Medium-High (JS-computed clip-path isometry + Harvey-ball conic-gradients) · **Brand:** azure (A) + eco (B, crowned) + coral (C); blue→green criterion ramp; real 3D extrusion; no tool mark (101).
+- **Reserved benchmark elements for later posts:** radar/spider (#74) for a supplier strength profile, slope (#71) for the price-rank→value-rank flip, tornado (#109) for sensitivity, bullet (#75) for value-vs-target.
 
 ## Code-render visual (primary)
 `renderer/templates/sc101-quote-iso-towers.html` → `renderer/out/sc101-quote-iso-towers.png` → `visual.png`. Stacked-criterion towers + value-share bar + icon legend; A=cheapest/average value, C=false economy (shortest), B=best value (tallest, crowned). The ChatGPT Image 2 prompt below is the illustration fallback. (`sc101-compare-quotes-2x2.html` flat 2×2 and the single-block tower version are kept in git history for reference.)
