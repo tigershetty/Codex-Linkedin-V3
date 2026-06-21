@@ -1,8 +1,8 @@
-# Shetty's Desk — Supply Chain 101: 90-Day Content Plan
-**Version**: 2
+# Shetty's Desk — Supply Chain 101: Content Plan
+**Version**: 3 (updated 2026-06-21)
 **Used by**: `/101` skill (topic lookup)
-**Period**: March – June 2026
-**Format**: 24 single-image infographics, 2 per week, 12 weeks
+**Scope**: Two layers — (1) the original 24-topic foundational series (Months 1–3 below, published as Episodes 1–24); (2) the **active Monthly Theme Model (W21–W52, 2026)** — one SC function per month, 2 conceptual posts per week, paired with the AI for SC series on the same theme. Read alongside `references/master-calendar.md` for the Run-Week ↔ Plan-Week mapping.
+**Visual**: code-render primary (`renderer/`, HTML→PNG) on the current azure + eco-green / Poppins / white brand system; SC 101 footer uses **Logo 2**. ⚠ The Gemini prompt template at the BOTTOM of this file is **DEPRECATED** legacy (old coral/cream brand, "no 3D") — do not use it.
 
 ---
 
