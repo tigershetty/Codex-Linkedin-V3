@@ -54,6 +54,14 @@ Follow Poornajith Shetty and Shetty's Desk for more supply chain insights, and s
 
 ---
 
+## Visual Spec (layout-select)
+- **Shape of the idea:** two independent trade-offs — unit price vs. total value.
+- **Selected layout:** 2×2 matrix / quadrant. It argues "cheapest ≠ best" by positioning each quote on price (x) against total value (y); the bottom-left "false economy" quadrant is the trap. Chosen over a scorecard/ranked layout for variety (the AISC scorecard this week uses ranked slabs).
+- **Feasibility:** Easy · **Library #:** 6 / 20 · **Brand:** azure+green on white, light 3D orbs, no tool mark (101).
+
+## Code-render visual (primary)
+`renderer/templates/sc101-compare-quotes-2x2.html` → `renderer/out/sc101-compare-quotes-2x2.png` → `visual.png`. A=cheapest/average, C=false economy (coral), B=best value (eco, crowned). The ChatGPT Image 2 prompt below is the illustration fallback.
+
 ## ChatGPT Image 2 Prompt
 
 A clean, modern supply chain infographic in a 4:5 portrait format on a luminous white-to-very-light-blue background. Title at top in bold dark navy: "Comparing Supplier Quotes" with a smaller subtitle "Score the five columns, not just the price." Centre shows a clear decision matrix / scorecard table: three supplier rows (Supplier A, Supplier B, Supplier C) and five criteria columns (Price, Lead Time, Quality, Payment Terms, References), each cell holding a 1–5 score shown as filled dots or a small coloured chip, with a final "Weighted Total" column on the right. The winning row (the second-cheapest supplier) is highlighted in a fresh eco-green; the cheapest-but-weakest row is gently marked in soft coral. A small weighting row sits above the table. Flat, geometric, premium business style. Azure blue (#2798FB) for structure and headers, eco-green (#38E6A6) for the recommended choice, soft coral-pink (#E27199) used sparingly for the weak option, ink-blue (#15315C) text, Poppins-style geometric sans-serif. Generous white space, no clutter, no photographic elements. Do not render any logos.
