@@ -22,53 +22,74 @@
     padding:30px 34px 26px;display:flex;flex-direction:column;
   }
   .kicker{font-size:15px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--azure)}
-  h1{font-size:62px;font-weight:800;line-height:.97;margin-top:8px;letter-spacing:-1px;color:var(--ink)}
+  h1{font-size:60px;font-weight:800;line-height:.97;margin-top:8px;letter-spacing:-1px;color:var(--ink)}
   h1 .g{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
   .rule{height:5px;width:100%;margin:14px 0 10px;border-radius:5px;
     background:linear-gradient(90deg,var(--azure) 0%,var(--sky) 36%,rgba(80,169,247,0) 100%)}
   .sub{font-size:20px;font-weight:400;color:var(--muted);max-width:940px;line-height:1.3}
 
   /* stat band */
-  .band{margin-top:18px;background:linear-gradient(120deg,#16294a,#1d3d74);border-radius:18px;
-    padding:16px 26px;display:flex;align-items:center;gap:22px;box-shadow:0 18px 38px rgba(21,49,92,.26)}
+  .band{margin-top:16px;background:linear-gradient(120deg,#16294a,#1d3d74);border-radius:18px;
+    padding:15px 26px;display:flex;align-items:center;gap:22px;box-shadow:0 18px 38px rgba(21,49,92,.26)}
   .kpi{display:flex;flex-direction:column}
-  .kpi .n{font-size:30px;font-weight:800;color:#fff;line-height:1}
+  .kpi .n{font-size:29px;font-weight:800;color:#fff;line-height:1}
   .kpi .n.e{color:var(--mint)}
-  .kpi .l{font-size:12px;font-weight:500;letter-spacing:.04em;color:#9FC2EA;margin-top:3px;text-transform:uppercase}
-  .band .sep{width:1px;height:42px;background:rgba(255,255,255,.16)}
-  .band .tagline{margin-left:auto;font-size:15px;font-weight:500;color:#CFE0F4;max-width:300px;line-height:1.32;text-align:right}
+  .kpi .l{font-size:11.5px;font-weight:500;letter-spacing:.04em;color:#9FC2EA;margin-top:3px;text-transform:uppercase}
+  .band .sep{width:1px;height:40px;background:rgba(255,255,255,.16)}
+  .band .tagline{margin-left:auto;font-size:14.5px;font-weight:500;color:#CFE0F4;max-width:300px;line-height:1.32;text-align:right}
   .band .tagline b{color:var(--mint);font-weight:700}
 
-  /* scene: funnel (left) + gate cards (right) */
-  .scene{position:relative;width:1012px;height:660px;margin-top:22px}
+  /* scene: funnel hero, annotated both sides */
+  .scene{position:relative;width:1012px;height:744px;margin-top:18px}
   .shape{position:absolute;pointer-events:none}
+
+  /* stage labels ON the funnel */
   .lab{position:absolute;pointer-events:none;text-align:center;transform:translateX(-50%)}
-  .lab .n{font-size:48px;font-weight:800;line-height:.88;letter-spacing:-1.5px}
-  .lab .nm{font-size:16px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;margin-top:4px}
+  .lab .n{font-size:50px;font-weight:800;line-height:.86;letter-spacing:-1.5px;text-shadow:0 2px 8px rgba(6,26,66,.30)}
+  .lab .nm{font-size:15px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;margin-top:5px;text-shadow:0 1px 4px rgba(6,26,66,.30)}
+  .lab .pc{font-size:12.5px;font-weight:600;margin-top:2px;text-shadow:0 1px 4px rgba(6,26,66,.28)}
+
+  /* left stage notes — what the surviving cohort means */
+  .note{position:absolute;width:228px;background:rgba(255,255,255,.74);border:1px solid var(--line);
+    border-radius:12px;padding:9px 13px;box-shadow:0 8px 18px rgba(20,50,100,.07);text-align:right}
+  .note .nh{font-size:13px;font-weight:800;letter-spacing:.02em;color:var(--deep)}
+  .note.win .nh{color:var(--eco-text)}
+  .note .np{font-size:12.5px;font-weight:500;color:var(--muted);line-height:1.3;margin-top:2px}
+  .note .np b{color:var(--ink);font-weight:700}
+
+  /* right gate cards — the filter that produced the next cohort */
+  .gate{position:absolute;width:288px;background:#fff;border:1px solid var(--line);border-radius:14px;
+    box-shadow:0 12px 26px rgba(33,93,195,.10);padding:12px 15px;display:flex;flex-direction:column;gap:8px}
+  .gate.win{border:1.5px solid var(--eco);box-shadow:0 14px 30px rgba(20,176,126,.18)}
+  .gate .gh{display:flex;align-items:center;gap:11px}
+  .gate .gi{width:42px;height:42px;flex:none;border-radius:11px;display:flex;align-items:center;justify-content:center}
+  .gate .gi i{width:23px;height:23px;background:#fff;-webkit-mask-size:contain;mask-size:contain;
+    -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:center;mask-position:center}
+  .gate .gtag{font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+  .gate .gt{font-size:18px;font-weight:800;color:var(--ink);line-height:1.02}
+  .gate .gf{font-size:13px;font-weight:500;color:var(--muted);line-height:1.28}
+  .gate .grow{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:8px}
+  .gate .pass{font-size:17px;font-weight:800;line-height:1}
+  .gate .pass small{display:block;font-size:10.5px;font-weight:600;color:var(--muted);letter-spacing:.04em;text-transform:uppercase;margin-top:2px}
+  .gate .drop{display:flex;align-items:center;gap:6px;font-size:13.5px;font-weight:700;color:var(--coral-deep)}
+  .gate .drop .dn{width:15px;height:15px;background:var(--coral-deep);
+    -webkit-mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat;mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat}
+
+  /* leader lines + anchors */
+  .conn{position:absolute;height:2px;pointer-events:none;
+    background:repeating-linear-gradient(90deg,var(--line) 0 6px,transparent 6px 12px)}
+  .anchor{position:absolute;width:9px;height:9px;border-radius:50%;transform:translate(-50%,-50%);
+    box-shadow:0 0 0 3px rgba(255,255,255,.9)}
+
+  /* PO seal */
   .seal{position:absolute;transform:translate(-50%,0);display:inline-flex;align-items:center;gap:9px;
     background:#053b2b;color:#9af5d1;font-size:16px;font-weight:700;letter-spacing:.02em;padding:11px 22px;border-radius:999px;
     box-shadow:0 14px 26px rgba(5,59,43,.32)}
   .seal .ck{width:19px;height:19px;background:#38E6A6;-webkit-mask:url(../assets/icons/circle-check.svg) center/contain no-repeat;mask:url(../assets/icons/circle-check.svg) center/contain no-repeat}
 
-  /* gate cards */
-  .gate{position:absolute;right:0;width:430px;background:#fff;border:1px solid var(--line);border-radius:15px;
-    box-shadow:0 12px 26px rgba(33,93,195,.10);padding:14px 18px;display:flex;align-items:center;gap:15px}
-  .gate .gi{width:46px;height:46px;flex:none;border-radius:12px;display:flex;align-items:center;justify-content:center}
-  .gate .gi i{width:25px;height:25px;background:#fff;-webkit-mask-size:contain;mask-size:contain;
-    -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:center;mask-position:center}
-  .gate .body{flex:1}
-  .gate .gt{font-size:18px;font-weight:800;color:var(--ink);line-height:1.05}
-  .gate .gf{font-size:13.5px;font-weight:500;color:var(--muted);line-height:1.28;margin-top:2px}
-  .gate .cut{flex:none;text-align:right;min-width:86px}
-  .gate .cut .pass{font-size:22px;font-weight:800;line-height:1}
-  .gate .cut .out{font-size:12px;font-weight:600;color:var(--muted);margin-top:3px}
-  .gate.win{border:1.5px solid var(--eco);box-shadow:0 14px 30px rgba(20,176,126,.18)}
-  /* connector dot on the funnel→gate line */
-  .conn{position:absolute;height:2px;background:repeating-linear-gradient(90deg,var(--line) 0 7px,transparent 7px 13px);pointer-events:none}
-
   /* insight */
-  .insight{margin-top:20px;background:#fff;border-left:6px solid var(--azure);border-radius:14px;
-    box-shadow:0 12px 26px rgba(33,93,195,.08);padding:17px 24px;font-size:18.5px;font-weight:500;color:var(--ink);line-height:1.44}
+  .insight{margin-top:18px;background:#fff;border-left:6px solid var(--azure);border-radius:14px;
+    box-shadow:0 12px 26px rgba(33,93,195,.08);padding:16px 24px;font-size:18px;font-weight:500;color:var(--ink);line-height:1.42}
   .insight b{color:var(--eco-text);font-weight:700} .insight .px{color:var(--coral-deep);font-weight:700}
 
   /* footer */
@@ -86,7 +107,7 @@
   <div class="kicker">Supply Chain 101 · Procurement</div>
   <h1>The procurement funnel<br><span class="g">100 suppliers → 1 signed PO</span></h1>
   <div class="rule"></div>
-  <div class="sub">Every order starts as a long list and ends as one signed supplier. Four gates do the narrowing — and every gate you skip is a risk you carry straight into the contract.</div>
+  <div class="sub">Every order starts as a long list and ends with one signed supplier. Four gates do the narrowing — and every gate you skip is a risk you carry straight into the contract.</div>
 
   <div class="band">
     <div class="kpi"><span class="n">100</span><span class="l">on the market</span></div>
@@ -101,7 +122,7 @@
 
   <div class="scene" id="scene"></div>
 
-  <div class="insight">The narrow end feels like a formality. It is not — the reference check and final terms are the last cheap chance to catch a problem before it becomes a contract. And the filter that matters most is never price. It is <b>whether this supplier can grow with you</b>, because the order you place today is rarely the last one.</div>
+  <div class="insight">The narrow end feels like a formality. It is not — references and final terms are the last cheap chance to catch a problem before it becomes a contract. And the filter that matters most is never price. It is <b>whether this supplier can grow with you</b>, because the order you place today is rarely the last one.</div>
 
   <div class="footrule"></div>
   <div class="foot">
@@ -113,48 +134,52 @@
 <script>
 (function(){
   const scene=document.getElementById('scene');
-  const SW=scene.clientWidth, SH=scene.clientHeight;
-  const cx=272;                 // funnel centre x
-  const Wtop=544, Wtip=132;     // funnel mouth / tip widths
-  const top=20, H=560;          // funnel body top y + height
+  const SW=scene.clientWidth, SH=scene.clientHeight;        // 1012 x 744
+  const cx=506;                       // funnel centre x (scene centre → symmetric wedges)
+  const Wtop=460, Wtip=150;           // mouth / tip widths
+  const top=18, H=584;                // funnel body top y + height
   const bot=top+H;
   const wAt=y=>Wtop+(Wtip-Wtop)*((y-top)/H);
-
-  // stage zones (5) — count + name shown ON the funnel
-  const stages=[
-    {n:'100', nm:'On the market', dp:'the full long list', icon:'blocks'},
-    {n:'20',  nm:'RFI qualified', dp:'capability checked', icon:'circle-check'},
-    {n:'8',   nm:'RFQ issued',    dp:'quotes requested',   icon:'tag'},
-    {n:'3',   nm:'Evaluated',     dp:'scored on criteria', icon:'chart-line'},
-    {n:'1',   nm:'Awarded',       dp:'the one supplier',   icon:'trophy', eco:true},
-  ];
   const zoneH=H/5;
 
-  // gates (4) — the filter between each pair of stages
+  // five surviving cohorts — count + name + cumulative % shown ON the funnel,
+  // plus a left-side note explaining what that cohort actually is
+  const stages=[
+    {n:'100', nm:'On the market', pc:'100% in play', nh:'Long list',     np:'Names that exist. <b>Nothing proven</b> yet.'},
+    {n:'20',  nm:'RFI qualified', pc:'20% remain',   nh:'Can they?',     np:'Capability and capacity confirmed. Price still unknown.'},
+    {n:'8',   nm:'RFQ in hand',   pc:'8% remain',    nh:'At what price?', np:'Quotes now comparable, <b>like for like</b>.'},
+    {n:'3',   nm:'Evaluated',     pc:'3% remain',    nh:"Who's best?",   np:'Ranked on the weighted scorecard, not price alone.'},
+    {n:'1',   nm:'Awarded',       pc:'1% — signed',  nh:'The one',       np:'Checked <b>end to end</b> before the PO.', eco:true},
+  ];
+
+  // four gates — the filter that produced the next cohort (sit at the boundaries)
   const gates=[
-    {t:'RFI — Qualify', f:'Capability, capacity, basic fit', pass:'20%', out:'80 ruled out', c:'#2E97FB', icon:'circle-check'},
-    {t:'RFQ — Compete', f:'Price, terms, lead time', pass:'40%', out:'12 ruled out', c:'#2480E6', icon:'tag'},
-    {t:'Evaluate — Score', f:'The full weighted scorecard', pass:'38%', out:'5 ruled out', c:'#1F5FC6', icon:'chart-line'},
-    {t:'Award — Verify', f:'References + final terms', pass:'33%', out:'2 ruled out', c:'#14B07E', icon:'shield-check', win:true},
+    {t:'RFI screen',  f:'Capability · capacity · basic fit', pass:'1 in 5', adv:'advance', drop:'80 ruled out', c:'#2E97FB', icon:'circle-check'},
+    {t:'RFQ compare', f:'Price · terms · lead time',         pass:'2 in 5', adv:'advance', drop:'12 ruled out', c:'#2480E6', icon:'tag'},
+    {t:'Scorecard',   f:'Weighted across every criterion',   pass:'3 in 8', adv:'advance', drop:'5 ruled out',  c:'#1F5FC6', icon:'chart-line'},
+    {t:'Award check', f:'References + final terms',          pass:'1 in 3', adv:'awarded', drop:'2 ruled out',  c:'#14B07E', icon:'shield-check', win:true},
   ];
 
   function add(cls){const d=document.createElement('div');d.className=cls;scene.appendChild(d);return d;}
+  function shade(hex,amt){const n=parseInt(hex.slice(1),16);let r=(n>>16)+amt,g=((n>>8)&255)+amt,b=(n&255)+amt;
+    r=Math.max(0,Math.min(255,r));g=Math.max(0,Math.min(255,g));b=Math.max(0,Math.min(255,b));
+    return '#'+((1<<24)+(r<<16)+(g<<8)+b).toString(16).slice(1);}
 
-  // cast shadow under the tip
+  /* ---- cast shadow under the tip ---- */
   const cast=add('shape');
-  cast.style.left=(cx-150)+'px'; cast.style.top=(bot+12)+'px'; cast.style.width='300px'; cast.style.height='46px';
+  cast.style.left=(cx-150)+'px'; cast.style.top=(bot+12)+'px'; cast.style.width='300px'; cast.style.height='44px';
   cast.style.borderRadius='50%'; cast.style.background='radial-gradient(ellipse at center, rgba(15,40,90,.20), rgba(15,40,90,0) 70%)';
 
-  // funnel body (single tapered solid)
+  /* ---- funnel body (single tapered 3D vessel) ---- */
   const body=add('shape');
   body.style.left='0'; body.style.top='0'; body.style.width=SW+'px'; body.style.height=(bot+20)+'px';
   body.style.clipPath='polygon('+(cx-Wtop/2)+'px '+top+'px, '+(cx+Wtop/2)+'px '+top+'px, '+(cx+Wtip/2)+'px '+bot+'px, '+(cx-Wtip/2)+'px '+bot+'px)';
   body.style.background=
     'linear-gradient(90deg, rgba(8,24,55,.30) 0%, rgba(255,255,255,.24) 43%, rgba(255,255,255,.04) 61%, rgba(8,24,55,.32) 100%),'+
-    'linear-gradient(180deg,#62B2F9 0%,#2E8BF0 34%,#2266CD 60%,#1E59C0 76%,#27C892 85%,#13AE7D 100%)';
+    'linear-gradient(180deg,#62B2F9 0%,#2E8BF0 33%,#2266CD 58%,#1E59C0 74%,#27C892 85%,#13AE7D 100%)';
   body.style.filter='drop-shadow(0 10px 16px rgba(15,45,100,.18))';
 
-  // top mouth ellipse (the opening — darker interior implies depth)
+  /* ---- top mouth ellipse (the opening — dark interior implies depth) ---- */
   const mouthH=Wtop*0.15;
   const mouth=add('shape');
   mouth.style.left=(cx-Wtop/2)+'px'; mouth.style.top=(top-mouthH/2)+'px'; mouth.style.width=Wtop+'px'; mouth.style.height=mouthH+'px';
@@ -162,57 +187,81 @@
   mouth.style.background='radial-gradient(ellipse at 50% 38%, #14336b 0%, #2b6fc8 60%, #5aa6f3 100%)';
   mouth.style.boxShadow='inset 0 5px 9px rgba(0,0,0,.30)';
 
-  // stage rim lines at each interior boundary (subtle steps)
+  /* ---- strata rims at each interior boundary (the fill levels) ---- */
   for(let i=1;i<5;i++){
     const y=top+i*zoneH, w=wAt(y), rh=w*0.12;
     const rim=add('shape');
     rim.style.left=(cx-w/2)+'px'; rim.style.top=(y-rh/2)+'px'; rim.style.width=w+'px'; rim.style.height=rh+'px';
     rim.style.borderRadius='50%';
     rim.style.background='linear-gradient(180deg, rgba(255,255,255,.34), rgba(255,255,255,.04) 55%, rgba(8,24,55,.18))';
-    rim.style.opacity=i===4?'.9':'.65';
+    rim.style.opacity=i===4?'.9':'.6';
   }
 
-  // eco tip cap
+  /* ---- eco tip cap ---- */
   const tipW=Wtip, tipH=tipW*0.30;
   const tip=add('shape');
   tip.style.left=(cx-tipW/2)+'px'; tip.style.top=(bot-tipH/2)+'px'; tip.style.width=tipW+'px'; tip.style.height=tipH+'px';
   tip.style.borderRadius='50%'; tip.style.background='linear-gradient(180deg,#3FE0A4,#0E8F68)';
   tip.style.boxShadow='inset 0 2px 4px rgba(255,255,255,.4)';
 
-  // stage labels on the funnel — centered number + name spine
+  /* ---- leaders first (paint under cards) ---- */
+  function leader(x,y,w,color){
+    const c=add('conn'); c.style.left=x+'px'; c.style.top=y+'px'; c.style.width=w+'px';
+    const a=add('anchor'); a.style.left=x+'px'; a.style.top=y+'px'; a.style.background=color;
+  }
+
+  const cardLeft=724, noteGap=34, noteW=228;
+  // right leaders (funnel right edge → gate card) at each boundary
+  gates.forEach((g,i)=>{
+    const y=top+(i+1)*zoneH, redge=cx+wAt(y)/2;
+    leader(redge, y, cardLeft-redge, g.c);
+  });
+  // left leaders (note → funnel left edge) at each stage centre
+  stages.forEach((s,i)=>{
+    const yc=top+i*zoneH+zoneH/2, ledge=cx-wAt(yc)/2;
+    const c=add('conn'); c.style.left=(ledge-noteGap)+'px'; c.style.top=yc+'px'; c.style.width=noteGap+'px';
+    const a=add('anchor'); a.style.left=ledge+'px'; a.style.top=yc+'px'; a.style.background=s.eco?'#14B07E':'#2E97FB';
+  });
+
+  /* ---- stage labels ON the funnel ---- */
   stages.forEach((s,i)=>{
     const yc=top+i*zoneH+zoneH/2;
-    const lab=add('lab');
-    lab.style.left=cx+'px'; lab.style.top=(yc-32)+'px';
-    const nc = s.eco ? '#06402E' : '#fff';
-    const dc = s.eco ? 'rgba(6,64,46,.82)' : 'rgba(255,255,255,.92)';
-    lab.innerHTML='<div class="n" style="color:'+nc+'">'+s.n+'</div><div class="nm" style="color:'+dc+'">'+s.nm+'</div>';
+    const lab=add('lab'); lab.style.left=cx+'px'; lab.style.top=(yc-42)+'px';
+    const nc=s.eco?'#06402E':'#fff';
+    const sc=s.eco?'rgba(6,64,46,.92)':'rgba(255,255,255,.94)';
+    const pc=s.eco?'rgba(6,64,46,.78)':'rgba(214,235,255,.92)';
+    lab.innerHTML='<div class="n" style="color:'+nc+'">'+s.n+'</div>'+
+                  '<div class="nm" style="color:'+sc+'">'+s.nm+'</div>'+
+                  '<div class="pc" style="color:'+pc+'">'+s.pc+'</div>';
   });
 
-  // PO seal under the tip
+  /* ---- left stage notes ---- */
+  stages.forEach((s,i)=>{
+    const yc=top+i*zoneH+zoneH/2, ledge=cx-wAt(yc)/2;
+    const note=add('note'+(s.eco?' win':'')); note.style.width=noteW+'px';
+    note.style.left=(ledge-noteGap-noteW)+'px'; note.style.top=yc+'px'; note.style.transform='translateY(-50%)';
+    note.innerHTML='<div class="nh">'+s.nh+'</div><div class="np">'+s.np+'</div>';
+  });
+
+  /* ---- right gate cards ---- */
+  gates.forEach((g,i)=>{
+    const y=top+(i+1)*zoneH;
+    const card=add('gate'+(g.win?' win':'')); card.style.left=cardLeft+'px'; card.style.top=y+'px'; card.style.transform='translateY(-50%)';
+    card.innerHTML=
+      '<div class="gh">'+
+        '<span class="gi" style="background:linear-gradient(135deg,'+g.c+','+shade(g.c,-26)+')"><i style="-webkit-mask:url(../assets/icons/'+g.icon+'.svg) center/contain no-repeat;mask:url(../assets/icons/'+g.icon+'.svg) center/contain no-repeat"></i></span>'+
+        '<div><div class="gtag">Gate '+(i+1)+' of 4</div><div class="gt">'+g.t+'</div></div>'+
+      '</div>'+
+      '<div class="gf">'+g.f+'</div>'+
+      '<div class="grow">'+
+        '<div class="pass" style="color:'+(g.win?'var(--eco-text)':g.c)+'">'+g.pass+'<small>'+g.adv+'</small></div>'+
+        '<div class="drop"><span class="dn"></span>'+g.drop+'</div>'+
+      '</div>';
+  });
+
+  /* ---- PO seal under the tip ---- */
   const seal=add('seal'); seal.style.left=cx+'px'; seal.style.top=(bot+30)+'px';
   seal.innerHTML='<span class="ck"></span>Purchase order signed';
-
-  // gate cards on the right, positioned at each stage boundary
-  const cardH=104;
-  gates.forEach((g,i)=>{
-    const y=top+(i+1)*zoneH;            // boundary between stage i and i+1
-    const cardTop=Math.round(y-cardH/2);
-    // connector from funnel edge to the card
-    const edge=cx+wAt(y)/2;
-    const conn=add('conn');
-    conn.style.left=(edge+6)+'px'; conn.style.top=(y)+'px'; conn.style.width=(SW-430-edge-12)+'px';
-    const card=add('gate'+(g.win?' win':''));
-    card.style.top=cardTop+'px';
-    card.innerHTML=
-      '<span class="gi" style="background:linear-gradient(135deg,'+g.c+','+shade(g.c,-26)+')"><i style="-webkit-mask:url(../assets/icons/'+g.icon+'.svg) center/contain no-repeat;mask:url(../assets/icons/'+g.icon+'.svg) center/contain no-repeat"></i></span>'+
-      '<div class="body"><div class="gt">'+g.t+'</div><div class="gf">'+g.f+'</div></div>'+
-      '<div class="cut"><div class="pass" style="color:'+(g.win?'var(--eco-text)':g.c)+'">'+g.pass+'</div><div class="out">'+g.out+'</div></div>';
-  });
-
-  function shade(hex,amt){const n=parseInt(hex.slice(1),16);let r=(n>>16)+amt,g=((n>>8)&255)+amt,b=(n&255)+amt;
-    r=Math.max(0,Math.min(255,r));g=Math.max(0,Math.min(255,g));b=Math.max(0,Math.min(255,b));
-    return '#'+((1<<24)+(r<<16)+(g<<8)+b).toString(16).slice(1);}
 })();
 </script>
 </body>
