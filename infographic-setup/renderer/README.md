@@ -7,7 +7,9 @@
 ## 0. What this is
 A **deterministic HTML → PNG renderer** for Shetty's Desk LinkedIn infographics. We write a self-contained HTML template, and Playwright/Chromium screenshots it at exact pixels. Text and numbers are rendered by code (never hallucinated by an image model), so every output is precise, on-brand, and reproducible.
 
-**Why code-render over Gemini:** structured posts (ladders, hubs, comparisons, KPI/formula cards, tables) need exact numbers, brand-locked layout, and clean geometry. Gemini stays as a fallback only for illustration/metaphor posts where exact data is not load-bearing.
+**Why code-render over a prompt:** structured posts (ladders, hubs, comparisons, KPI/formula cards, tables) need exact numbers, brand-locked layout, and clean geometry. An image model stays as a fallback only for illustration/metaphor posts where exact data is not load-bearing.
+
+**Both pipelines now code-render (2026-06-21).** AI for SC has always rendered from code; **Supply Chain 101 is now code-render primary too** (the ChatGPT GPT Image 2 prompt is its backup path). 101 templates carry **no AI-tool logo** and use the accessible 101 register; otherwise they share this exact kit and brand frame.
 
 ---
 
@@ -104,6 +106,26 @@ Flat rounded rectangles read 2D. For real extruded depth (used in PF1):
 
 ---
 
+## 6b. Genuine 3D (isometric) + composition modes (2026-06-21, the supplier-quote standard)
+The §6 slab technique fakes depth with stacked box-shadows. For a **true 3D object** (towers, prisms, stacked stages) use **JS-computed clip-path isometry** — deterministic and far more robust than CSS 3D transforms.
+
+**Do NOT use CSS 3D transforms** (`rotateX/Y`, `translateZ`, `preserve-3d`). They proved fragile here — layers flatten without `preserve-3d`, walls fire below the floor with the wrong rotation sign, square footplates leave gaps. Compute the isometry in JS instead:
+```js
+// world (u,v) on the ground plane, height h upward → screen (x,y)
+const iso = (u,v) => [OX + (u-v)*a, OY + (u+v)*b];   // a≈half-tile-w, b≈a/2
+// a prism = base diamond + LEFT wall + RIGHT wall (clip-path parallelograms) + TOP cap diamond
+// light: top cap lightest, left wall mid, right wall darkest (shade base hex by +/− amount)
+```
+A stacked tower = N iso bands, each height ∝ its value (benchmark #43 in real depth). Pair with `conic-gradient` **Harvey balls** (`conic-gradient(c 0 X%, #E6F0FA X% 100%)`) for the precise scorecard behind the heights.
+
+**Composition modes — pick deliberately per topic:**
+- **Mode A — hero-dominant / integrated.** One complex thing → the hero owns **60–70% of the canvas**; supporting detail is pushed *into* it (leader-line annotations pinned to the object, in-place data labels, anchored micro-viz, embedded axis/legend, zoom inset). For a single mechanism / "how X works." **Guardrail:** strict anchor grid + leader lines only — loose floating text is a fail.
+- **Mode B — layered multi-block.** Comparison / multiple data cuts → 3D hero + 2–3 clean supporting elements. The **4-layer** pattern: gestalt (3D hero) + precision (scorecard) + proportion (part-to-whole bar) + narration (side callouts). **Fill whitespace with information, not decoration.**
+
+**isometry gotchas (cost a render each):** `inset:'auto'` is shorthand for top/right/bottom/left — set it *before* `left`/`top` or it wipes them; `clip-path` clips `box-shadow` (use `filter:drop-shadow()`); a CSS-grid divider must be a real grid item (`gridColumn:'1/5'`), not a class on an inner div.
+
+---
+
 ## 7. Layout laws (learned this session)
 1. **3-zone vertical:** title (2 lines, one word coral-popped, + credibility sub) / body / [footer optional]. Body never touches edges.
 2. **Repeated per-cell schema** is the #1 "designed not generated" tell: anchor (number/icon) → bold label → one-line gloss → optional tag (Use For / Best For / Limitation / Result).
@@ -113,7 +135,7 @@ Flat rounded rectangles read 2D. For real extruded depth (used in PF1):
 6. **Budget the vertical.** Removing the footer frees ~56px. Confirm the last block clears the bottom; the 3D cast shadow may overflow into bottom whitespace (fine).
 7. **Fill cards with flex.** Hollow card bottoms look unfinished — `display:flex;flex-direction:column` + `margin-top:auto` on the closing element (e.g. a Result box) anchors it to the bottom.
 8. **More whitespace + bigger type reads more premium** than cramming. Bigger blocks, fewer words per line. BUT (Law 10) — premium ≠ empty.
-9. **Footer = the coral-thread sign-off** (Tiger's call, 2026-06-15): a thin coral rule + Shetty's Desk logo + handle (left) + a one-line **closing thesis in coral** (right) = the pin-it payload. No heavy black bar.
+9. **Footer = the sign-off rule** (Tiger's call, 2026-06-15; mechanics corrected 2026-06-21): a thin full-width gradient/coral **rule that sits ABOVE the foot row** (`margin-top:auto` pushes the block to the bottom) — **never a divider drawn over the logo/text** (that overlap was an explicit reject). Foot row = Shetty's Desk logo (≈55px) + handle on the LEFT. RIGHT side carries either the one-line **closing thesis** (AI-for-SC pin-it payload) **or** a **logo stamp** (the 101 supplier-quote variant). No heavy black bar.
 10. **Fill the canvas — dead whitespace is a QA failure** (Tiger, 2026-06-15). "Generous but never empty." If a zone is hollow, add *genuinely valuable* content (a worked example with real numbers, an extra insight card, the closing thesis) until the layout reaches the edges with balanced negative space. The goal is the "this is amazing / I should save this" density, not crowding.
 11. **Tool logo adapts to available whitespace.** Don't fix its size — grow/place the featured tool's mark into whatever corner room a given layout leaves (PF6: ~74px in the open top-right). It scales with the post, it doesn't dictate the post.
 12. **Add maximum *valuable* context.** Every post should clear the screenshot-and-use-it bar: a copy-paste prompt block (AI-for-SC), a real worked example, the structural-vs-movable verdict — context that makes someone keep it, on top of looking unmistakably Shetty's Desk.
@@ -125,7 +147,9 @@ Flat rounded rectangles read 2D. For real extruded depth (used in PF1):
 - **`templates/pf5-radial-hub.html`** — Power Format **PF5 Radial Hub** (ref #97). Central Claude-logo orb = engine, six feature cards each with a "BEST FOR:" tag, two grounded use-case cards + one amber "Watch for" honesty card, "Plugs into your stack" logo strip. **⚠ LEGACY DARK bg — rebuild bright when next touched.**
 - **`templates/pf6-cost-anatomy.html`** — **PF6 Cost Anatomy** (AI-for-SC Ep28, *Should-Cost Model*, Category Manager × ChatGPT). **The reference build for the current bright system** — first AI-for-SC post rendered from a real published-ready caption. Proportional **stacked cost column** (Raw 40 / Labour 20 / Overhead 18 / Margin 22) where only the negotiable margin layer carries the tool hue (OpenAI green); right column = "set by the market 78%" vs "set by a choice 22%" + a dark **worked-example card** ($4.20 unit → $0.92 you can move / $3.28 fixed, the one deliberate dark element); full-width **copy-paste prompt block**; coral "watch for" honesty line; coral-thread footer (rule + logo + handle + closing thesis). Bright luminous bg; constant coral thread; tool mark sized into the top-right whitespace; **no "Powered by".**
 
-**Logo convention**: the *featured AI tool's* mark sits in the **hero corner** (top-right), sized to the corner's whitespace (Law 11), as a *capability* signal — never a "Powered by" line. The **Shetty's Desk logo anchors the footer** as part of the coral-thread sign-off. Tool logos via `@lobehub/icons-static-svg` (`claude`, `openai` — `currentColor`, tint to the tool hue).
+- **`templates/sc101-quote-iso-towers.html`** — **the 101 visual standard (2026-06-21), "How to compare supplier quotes."** Mode-B 4-layer composition: a genuine-3D **isometric stacked-criterion tower** per supplier (height = total value, §6b JS clip-path isometry) + floating price tags / crowned best-value badge + two side callouts + a **Harvey-ball scorecard** (5 criteria × 3 suppliers, `conic-gradient` pie-fills) + a **part-to-whole "share of total value" bar**. No AI-tool logo (101). Tightened padding; footrule-above-row footer with a logo stamp on the right. This is the reference for the higher 101 + AI-for-SC visual bar: real 3D + multi-element information density on the homogeneous brand frame.
+
+**Logo convention**: the *featured AI tool's* mark sits in the **hero corner** (top-right), sized to the corner's whitespace (Law 11), as a *capability* signal — never a "Powered by" line (AI-for-SC only — **101 carries no tool mark**). The **Shetty's Desk logo anchors the footer** as part of the sign-off. Tool logos via `@lobehub/icons-static-svg` (`claude`, `openai` — `currentColor`, tint to the tool hue).
 
 **Build philosophy — design system, NOT parametrization** (Tiger, 2026-06-15): do **not** turn these into `{{token}}` fill-in templates — that makes every post in a format look identical, which Tiger explicitly rejects. Instead treat the repo as a **kit-of-parts**: reusable brand components (coral-thread header/footer, stat treatment, bright background recipe, 3D slab, prompt block, card anatomy, icon/logo system) that get assembled into a **fresh concept fitted to each topic** (cost → stacked column; maturity → ladder; risk → radar; flow → pipeline). *Parametrize the brand (constant), bespoke the concept (per topic).* The source Gemini-prompt files can be rewritten as structured **HTML render briefs** per post.
 

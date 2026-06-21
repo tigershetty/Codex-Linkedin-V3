@@ -17,6 +17,11 @@
 
 **The one rule:** the layout must *make the argument*. A funnel claims "narrowing/conversion"; a pyramid claims "foundation/hierarchy"; a matrix claims "two independent trade-offs"; a waterfall claims "contribution/bridge"; an iceberg claims "hidden mass." If the shape's built-in claim is false for your topic, the layout is wrong even if it looks good.
 
+**The second rule (composition mode, added 2026-06-21):** after picking the layout, decide how much of the canvas the hero owns.
+- **Mode A — hero-dominant / integrated:** one complex thing → hero takes **60–70%**, supporting detail embedded *into* it (leader-line annotations on the object, in-place labels, anchored micro-viz, embedded axis/legend) instead of separate blocks. For a single mechanism / "how X works." Guardrail: strict anchor grid + leader lines (no loose floating text).
+- **Mode B — layered multi-block:** a comparison / multiple data cuts → 3D hero + 2–3 clean elements (the 4-layer pattern: gestalt hero + precision scorecard + proportion bar + narration callouts). Fill whitespace with information, not decoration.
+- A single still may **combine patterns** (e.g. stacked towers #43 + Harvey balls #106 + part-to-whole #44 + callouts); reserve the rest for later posts. Build real 3D with JS `clip-path` isometry, not CSS 3D transforms. Exemplar: `renderer/templates/sc101-quote-iso-towers.html`.
+
 ---
 
 ## 1. The Selector — "If the concept is ___ → use ___"

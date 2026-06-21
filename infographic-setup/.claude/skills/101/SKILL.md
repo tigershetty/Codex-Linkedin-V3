@@ -1,12 +1,14 @@
 ---
 name: 101
-description: Use when the user runs /101 [topic-number]. Single-step Supply Chain 101 pipeline. Takes a topic number (1-24) from the 90-day plan, generates 10 hook options + LinkedIn caption + ChatGPT Image 2 prompt in one pass. No research, no control gates.
+description: Use when the user runs /101 [topic-number]. Single-step Supply Chain 101 pipeline. Takes a topic number (1-24) from the 90-day plan, generates 10 hook options + LinkedIn caption + a code-rendered infographic (renderer/, HTML→PNG) in one pass. The ChatGPT Image 2 prompt is kept as a backup visual path. No research, no control gates.
 ---
 
 # /101 Skill — Supply Chain 101 Pipeline
 
 ## Purpose
-Single-step pipeline for the Supply Chain 101 series. Takes a topic number from the 90-day plan, generates 10 hook options + LinkedIn caption + ChatGPT Image 2 prompt in one pass. No research stage, no control gates. User picks and adjusts at the end.
+Single-step pipeline for the Supply Chain 101 series. Takes a topic number from the 90-day plan, generates 10 hook options + LinkedIn caption + a **code-rendered infographic** (`renderer/`, HTML→PNG) in one pass. No research stage, no control gates. User picks and adjusts at the end.
+
+**Visual path (changed 2026-06-21):** 101 is now **code-render primary** — the infographic is built deterministically in `renderer/` (same kit + brand frame as AI for SC, but **no AI-tool logo** and the accessible 101 register). The **ChatGPT (GPT Image 2) prompt is the backup** path, kept in `101-copy.md` for illustration/metaphor posts with no load-bearing structure. See `references/render-pilot-workflow.md` §4.
 
 ## Invoke
 ```
@@ -17,6 +19,8 @@ Example: `/101 2` → generates hooks + caption + ChatGPT Image 2 prompt for Top
 ## Prerequisites
 - `references/101-plan.md` must exist (the 90-day content plan)
 - `references/101-voice.md` must exist (101 voice anchor)
+- `references/layout-frameworks-intelligence.md` (200-pattern layout selector + composition modes) and `references/render-pilot-workflow.md` (code-render pipeline + learnings) — for the visual
+- `renderer/` must exist (the HTML→PNG renderer + component-kit templates); `renderer/README.md` is the build playbook
 
 ## Output
 ```
@@ -96,7 +100,34 @@ Follow the 101 post structure (from `references/101-voice.md`):
 
 ---
 
-## Step 4: Generate ChatGPT Image 2 Prompt
+## Step 4: Code-Render the Infographic (PRIMARY)
+
+**The 101 visual is now built deterministically in `renderer/` (HTML→PNG)** — same component kit + brand frame as AI for SC, with two 101 differences: **no AI-tool logo** (101 has no tool mark) and the accessible 101 register. Data and text are computed in code, never painted by an image model, so numbers are exact and the brand is locked. The ChatGPT (GPT Image 2) prompt in Step 4B is the **backup** path only.
+
+### 4.1 Select the layout + composition mode (`layout-select`)
+- Name the **shape of the idea** (comparison · funnel · hierarchy · part-to-whole · hidden cost · sequence · single number · …) and pick the single best-matching layout from `references/layout-frameworks-intelligence.md` §1. Don't reuse last week's layout unless the shape genuinely repeats.
+- Pick the **composition mode**:
+  - **Mode A — hero-dominant / integrated** (one complex mechanism): hero owns **60–70%** of the canvas, supporting detail embedded *into* it via leader-lined annotations on a strict anchor grid — not separate blocks.
+  - **Mode B — layered multi-block** (comparison / multiple cuts): 3D hero + 2–3 clean elements (the 4-layer pattern: gestalt hero + precision scorecard + proportion bar + narration callouts). Fill whitespace with information, not decoration.
+- A single still may **combine benchmark patterns**; reserve unused ones for later posts on the topic.
+
+### 4.2 Build + render the HTML
+- Skim `renderer/README.md` (esp. §3 brand kit, §6/§6b 3D, §7 layout laws) and the reference template `renderer/templates/sc101-quote-iso-towers.html` (the 101 standard). Build a self-contained template at `renderer/templates/sc101-[topic-slug].html` from the kit — **one bespoke concept on the homogeneous Shetty's Desk frame**, never a `{{token}}` fill-in.
+- Brand frame: azure + eco-green + ink + Poppins, luminous on WHITE, flat; coral = caution/cost only. **No AI-tool logo.** Footrule-above-row footer (logo + handle left; logo stamp right). Every number hard-coded from the plan.
+- For real 3D depth use **JS `clip-path` isometry**, not CSS 3D transforms (README §6b). Harvey balls via `conic-gradient`.
+- Render (always absolute path — cwd drifts):
+  `CHROME_PATH=… NODE_PATH=$(npm root -g) node render.mjs templates/sc101-[slug].html out/sc101-[slug].png`
+  then **QA by reading the PNG** against `renderer/README.md` §9 + `render-pilot-workflow.md` §2/§2b, and iterate (≈2 passes).
+- Copy the approved render to `data/{YYYY-W##}/{topic-slug}/visual.png`.
+
+### 4.3 (Optional) motion
+After the still is approved, a GIF/MP4 version can be produced via `render-anim.mjs` only when sequence carries meaning (rare for 101). A still PNG is the default.
+
+---
+
+## Step 4B: ChatGPT Image 2 Prompt (BACKUP path)
+
+Generate this **as a fallback** and keep it in `101-copy.md` — use it instead of the code-render only when the concept is purely illustrative/metaphorical with no load-bearing structure (or when a render isn't feasible in-session).
 
 **Image tool: ChatGPT (GPT Image 2).** Paste the prompt into ChatGPT and **attach `references/brand-anchor-v1.webp`** in the same message — that is the style/colour reference (same brand anchor as before, now used in ChatGPT instead of the Gemini Gem). GPT Image 2 renders on-image text reliably, so keep labels exact and short.
 
@@ -172,7 +203,11 @@ Present all outputs in one block:
 LINKEDIN CAPTION (using hook [#] as placeholder):
 [full caption]
 
-CHATGPT IMAGE 2 PROMPT (paste-ready):
+RENDERED INFOGRAPHIC (primary):
+renderer/out/sc101-[topic-slug].png   → data/{week}/{slug}/visual.png
+[layout + composition mode used]
+
+CHATGPT IMAGE 2 PROMPT (backup, paste-ready):
 [full prompt]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -191,8 +226,10 @@ After user confirms hook selection and any adjustments:
    - Selected hook
    - Final caption
    - All 10 hook options (reference)
-   - ChatGPT Image 2 prompt
-2. Update `data/101-series-tracker.md` with the new entry
+   - Visual Spec (layout + composition mode) and the code-render path (template + `visual.png`)
+   - ChatGPT Image 2 prompt (backup)
+2. Ensure the approved render is saved as `data/{YYYY-W##}/{topic-slug}/visual.png` (copied from `renderer/out/`)
+3. Update `data/101-series-tracker.md` with the new entry
 
 ---
 
@@ -228,8 +265,14 @@ After user confirms hook selection and any adjustments:
 
 ---
 
-## ChatGPT Image 2 Prompt (paste-ready)
-[full ChatGPT Image 2 prompt]
+## Visual Spec (layout-select)
+- Shape of the idea · selected layout (why it argues the point) · composition mode (A integrated / B layered) · feasibility · benchmark #(s) used · the one-line spec.
+
+## Code-render visual (primary)
+`renderer/templates/sc101-[topic-slug].html` → `renderer/out/sc101-[topic-slug].png` → `visual.png`. [One-line description of the concept built.]
+
+## ChatGPT Image 2 Prompt (backup, paste-ready)
+[full ChatGPT Image 2 prompt — illustration fallback]
 ```
 
 ---
@@ -242,11 +285,13 @@ After user confirms hook selection and any adjustments:
 - [ ] No em dashes, no AI slop, no ANCHORS labels, no citation format?
 - [ ] CTA is an open question accessible to non-practitioners?
 - [ ] Sign-off includes "Follow Poornajith Shetty" + save prompt?
-- [ ] ChatGPT Image 2 prompt uses the plan's visual format and brand kit template?
+- [ ] **Visual: layout chosen via `layout-select` (argues the point, not last week's default) + composition mode (A/B) decided?**
+- [ ] **Visual: code-rendered template built on the brand frame, NO AI-tool logo, every number hard-coded; rendered PNG QA'd against README §9 and copied to `visual.png`?**
+- [ ] **Visual: real 3D (if used) via JS clip-path isometry, not CSS 3D transforms; footrule-above-row footer; canvas filled (no dead whitespace / heavy border)?**
+- [ ] ChatGPT Image 2 prompt (backup) present and uses the plan's visual format + brand anchor?
 - [ ] A non-practitioner could read the caption over coffee and understand the concept?
 
 ---
 
 ## Token Budget
-~4–6K tokens per run. Reads 101-plan.md, 101-voice.md, and 101-series-tracker.md only.
-No research files, no source library, no deep-dive references.
+~8–12K tokens per run (up from ~4–6K now that the visual is code-rendered). Reads 101-plan.md, 101-voice.md, 101-series-tracker.md, plus the visual references (layout-frameworks-intelligence.md, render-pilot-workflow.md, renderer/README.md + a reference template) and iterates on the render. No research files, no source library, no deep-dive references.

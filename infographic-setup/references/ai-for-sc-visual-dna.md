@@ -14,6 +14,16 @@ What changed from v2.0: the 4-structure limit is removed. Each post now has a fo
 
 ---
 
+## Composition Mode — A (integrated) vs B (layered) (added 2026-06-21)
+
+Before laying out the format, decide how much of the canvas the hero owns. This is now a **deterministic code-render decision** (the AI-for-SC visual is built in `renderer/`, not prompted), and it applies to 101 too.
+
+- **Mode A — hero-dominant / integrated.** *One complex thing* (a single mechanism, one object with many facets). The hero takes **60–70% of the canvas** and the supporting detail is embedded *into and around* it — leader-line annotations pinned to points on the hero, in-place data labels on each element, anchored micro-viz beside each part, an embedded axis/legend, a zoom inset — **instead of adding separate blocks**. *Guardrail:* strict anchor grid + leader lines only; loose floating text fails.
+- **Mode B — layered multi-block.** *A comparison / ranking / multiple independent data cuts.* A hero (often a real-3D object) + 2–3 clean supporting elements — the **4-layer** pattern: gestalt (3D hero) + precision (scorecard) + proportion (part-to-whole) + narration (side callouts). **Fill whitespace with information, not decoration.**
+- A single canvas may **combine benchmark patterns**; reserve the unused ones for later posts in the month so the feed shows range. For real 3D depth, use **JS clip-path isometry**, not CSS 3D transforms (see `renderer/README.md` §6b). Exemplar: `renderer/templates/sc101-quote-iso-towers.html`.
+
+---
+
 ## Tool Identity System (The Defining Rule)
 
 Every AI for Supply Chain post takes on the complete visual identity of the tool it features. The image looks like it belongs to that tool — not to Shetty's Desk. The tool's palette and symbolic form are the image's brand.
