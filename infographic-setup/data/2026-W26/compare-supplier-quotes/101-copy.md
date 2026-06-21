@@ -55,12 +55,12 @@ Follow Poornajith Shetty and Shetty's Desk for more supply chain insights, and s
 ---
 
 ## Visual Spec (layout-select)
-- **Shape of the idea:** two independent trade-offs — unit price vs. total value.
-- **Selected layout:** 2×2 matrix / quadrant. It argues "cheapest ≠ best" by positioning each quote on price (x) against total value (y); the bottom-left "false economy" quadrant is the trap. Chosen over a scorecard/ranked layout for variety (the AISC scorecard this week uses ranked slabs).
-- **Feasibility:** Easy · **Library #:** 6 / 20 · **Brand:** azure+green on white, light 3D orbs, no tool mark (101).
+- **Shape of the idea:** one quote has many columns; price is only one of them, and total value is the sum.
+- **Selected layout:** isometric 3D "value towers" — three supplier towers whose **height = total value**, with a floating **unit-price tag** on each. The argument is the mismatch between the price tags and the tower heights: the cheapest bid (A) is mid-height, the other cheap bid (C) is the shortest (false economy), and the slightly pricier B is the tallest (best value). A bottom legend spells out the five columns that make up "total value". Chosen over the flat 2×2 to add genuine depth (height as the third axis) and to read instantly.
+- **Feasibility:** Medium (JS-computed clip-path isometric) · **Brand:** azure (A) + eco (B, crowned) + coral (C) on white, real 3D extrusion, no tool mark (101).
 
 ## Code-render visual (primary)
-`renderer/templates/sc101-compare-quotes-2x2.html` → `renderer/out/sc101-compare-quotes-2x2.png` → `visual.png`. A=cheapest/average, C=false economy (coral), B=best value (eco, crowned). The ChatGPT Image 2 prompt below is the illustration fallback.
+`renderer/templates/sc101-quote-iso-towers.html` → `renderer/out/sc101-quote-iso-towers.png` → `visual.png`. A=cheapest/average value (azure), C=false economy (coral, shortest), B=best value (eco, tallest + crown); price tags show A cheapest, B priciest. The ChatGPT Image 2 prompt below is the illustration fallback. (`sc101-compare-quotes-2x2.html` is the prior flat 2×2 version, kept for reference.)
 
 ## ChatGPT Image 2 Prompt
 

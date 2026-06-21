@@ -54,11 +54,11 @@ Follow Poornajith Shetty and Shetty's Desk for more supply chain insights, and s
 
 ## Visual Spec (layout-select)
 - **Shape of the idea:** sequential narrowing — many candidates filtered down to one decision, with a named gate between each stage.
-- **Selected layout:** funnel / conversion narrowing. The decreasing band width literally encodes the argument — the widest stage is the "cheapest place to say no", the narrowest is where a wrong call costs most. Chosen over a plain ladder/list so the geometry carries the thesis, and paired with an annotation rail so each filter reads without crowding the bands (max white space). Distinct from the 2×2 matrix used in Post 1 this week (variety across the week).
-- **Feasibility:** Easy · **Library #:** funnel / PF-funnel · **Brand:** azure→deep-blue range with eco "awarded" tip, drop-shadow depth on bands, no tool mark (101).
+- **Selected layout:** **3D funnel** (stacked tapered frustums). Each stage is a true 3D frustum with an elliptical rim and curvature shading, so the cone reads as a physical funnel, not flat bands. The decreasing width encodes the argument — the widest stage is the "cheapest place to say no", the narrowest (eco-green "Awarded" tip) is where a wrong call costs most. An annotation rail names the filter at each level without crowding the cone (max white space). Distinct from the iso value-towers used in Post 1 this week (variety across the week).
+- **Feasibility:** Medium (JS-computed frustums + rims) · **Brand:** azure→deep-blue range with eco "awarded" tip, elliptical 3D rims + cast shadow, no tool mark (101).
 
 ## Code-render visual (primary)
-`renderer/templates/sc101-procurement-funnel.html` → `renderer/out/sc101-procurement-funnel.png` (Funnel power format, azure+green brand system) → `visual.png`. Code-rendered for exact stage counts (100→20→8→3→1) and clean funnel geometry; filter rail + drop-counts + eco "win" tip. The ChatGPT Image 2 prompt below is the illustration fallback.
+`renderer/templates/sc101-procurement-funnel-3d.html` → `renderer/out/sc101-procurement-funnel-3d.png` (3D funnel, azure+green brand system) → `visual.png`. Exact stage counts (100→20→8→3→1), filter rail, drop-counts, eco awarded tip, "purchase order signed" pill. The ChatGPT Image 2 prompt below is the illustration fallback. (`sc101-procurement-funnel.html` is the prior flat-trapezoid version, kept for reference.)
 
 ## ChatGPT Image 2 Prompt
 

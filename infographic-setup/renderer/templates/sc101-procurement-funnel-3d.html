@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<style>
+  :root{
+    --azure:#2798FB; --sky:#50A9F7; --royal:#247BE1; --deep:#215DC3; --navy:#1939A5;
+    --eco:#38E6A6; --eco-text:#14B07E; --mint:#8FF3CC; --coral:#E27199; --coral-deep:#cf5c84;
+    --ink:#15315C; --muted:#5D7599; --line:#DCEAF8; --tint:#E2F0FB; --tint2:#EEF6FE;
+    --eco-grad:linear-gradient(135deg,#8FF3CC,#38E6A6,#1FC98B);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px}
+  #card{
+    width:1080px;height:1400px;position:relative;overflow:hidden;
+    font-family:"Poppins",system-ui,sans-serif;color:var(--ink);
+    background:
+      radial-gradient(ellipse 52% 34% at 88% 1%, rgba(56,230,166,.16) 0%, transparent 60%),
+      radial-gradient(ellipse 58% 40% at 3% 22%, rgba(39,152,251,.14) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F4FAFE 56%,#EAF3FD 100%);
+    padding:62px 64px 50px;display:flex;flex-direction:column;
+  }
+  .kicker{font-size:15px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--azure)}
+  h1{font-size:64px;font-weight:800;line-height:.97;margin-top:13px;letter-spacing:-1px;color:var(--ink)}
+  h1 .g{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .rule{height:5px;width:100%;margin:17px 0 11px;border-radius:5px;
+    background:linear-gradient(90deg,var(--azure) 0%,var(--sky) 36%,rgba(80,169,247,0) 100%)}
+  .sub{font-size:21px;font-weight:400;color:var(--muted);max-width:860px;line-height:1.32}
+
+  /* funnel scene */
+  .scene{position:relative;width:952px;height:690px;margin-top:16px}
+  .frustum{position:absolute;pointer-events:none}
+  .rim{position:absolute;border-radius:50%;pointer-events:none}
+  .lbl{position:absolute;pointer-events:none;display:flex;align-items:center;gap:18px;color:#fff}
+  .lbl .n{font-size:46px;font-weight:800;line-height:1;letter-spacing:-1px;min-width:96px;text-align:right}
+  .lbl .nm{font-size:22px;font-weight:700;line-height:1.12}
+  .lbl .dp{font-size:14px;font-weight:500;opacity:.9;margin-top:2px}
+  .rail{position:absolute;pointer-events:none;border-left:2px solid var(--line);padding-left:16px}
+  .rail .ft{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .rail .fv{font-size:17px;font-weight:600;color:var(--ink);line-height:1.25;margin-top:2px;max-width:235px}
+  .rail.win{border-left-color:var(--eco)} .rail.win .ft{color:var(--eco-text)}
+  .po{position:absolute;transform:translate(-50%,0);display:inline-flex;align-items:center;gap:9px;
+    background:#053b2b;color:#9af5d1;font-size:16px;font-weight:700;letter-spacing:.03em;padding:11px 22px;border-radius:999px;
+    box-shadow:0 14px 26px rgba(5,59,43,.32)}
+  .po .ck{width:19px;height:19px;background:#38E6A6;-webkit-mask:url(../assets/icons/circle-check.svg) center/contain no-repeat;mask:url(../assets/icons/circle-check.svg) center/contain no-repeat}
+
+  .insight{margin-top:6px;background:#fff;border-left:6px solid var(--azure);border-radius:14px;
+    box-shadow:0 12px 26px rgba(33,93,195,.08);padding:17px 23px;font-size:19px;font-weight:500;color:var(--ink);line-height:1.46}
+  .insight b{color:var(--eco-text);font-weight:700}
+  .cta{margin-top:13px;font-size:20px;font-weight:600;color:var(--ink);line-height:1.4}
+  .cta .q{color:var(--azure)}
+
+  .footrule{margin-top:auto;height:3px;border-radius:3px;
+    background:linear-gradient(90deg,var(--azure),var(--eco) 55%,rgba(56,230,166,0) 100%)}
+  .foot{display:flex;align-items:center;justify-content:space-between;padding-top:18px}
+  .who{display:flex;align-items:center;gap:13px}
+  .who img{width:44px;height:44px;border-radius:10px}
+  .who .nm{font-size:17px;font-weight:700;color:var(--ink);line-height:1.15}
+  .who .hd{font-size:13.5px;font-weight:400;color:var(--muted)}
+  .thesis{font-size:17px;font-weight:600;color:var(--coral);text-align:right;max-width:300px;line-height:1.32}
+</style>
+</head>
+<body>
+<div id="card">
+  <div class="kicker">Supply Chain 101 · Procurement</div>
+  <h1>The procurement funnel<br><span class="g">100 suppliers → 1 PO</span></h1>
+  <div class="rule"></div>
+  <div class="sub">Every order starts as a long list. The shape that gets you to one signed supplier is a funnel — and every skipped filter is a risk you carry straight into the contract.</div>
+
+  <div class="scene" id="scene"></div>
+
+  <div class="insight">The widest stage is the <b>cheapest place to say no</b>. The narrowest is where a wrong call costs the most, so the reference check and final terms are never a formality.</div>
+  <div class="cta"><span class="q">Where does your team spend the least time</span> in this funnel — and is that the stage that keeps producing surprises?</div>
+
+  <div class="footrule"></div>
+  <div class="foot">
+    <div class="who"><img src="../assets/logos/shettys-desk-logo-1.png" alt="Shetty's Desk"><div><div class="nm">Shetty's Desk</div><div class="hd">Poornajith Shetty</div></div></div>
+    <div class="thesis">A long list is not a shortlist.<br>A shortlist is not a decision.</div>
+  </div>
+</div>
+
+<script>
+(function(){
+  const scene=document.getElementById('scene');
+  const cxF=318;                 // funnel centre x
+  let y=44;                      // running top y
+  const stages=[
+    {n:'100', nm:'On the market', dp:'the full long list',  wt:632, wb:534, h:120, c:['#7CC0FA','#2E97FB'], ft:'Filter', fv:'Anyone who could supply it'},
+    {n:'20',  nm:'RFI qualified', dp:'80 ruled out',        wt:534, wb:438, h:116, c:['#57A8F7','#2480E6'], ft:'Filter', fv:'Capability, capacity, basic fit'},
+    {n:'8',   nm:'RFQ issued',    dp:'12 ruled out',        wt:438, wb:346, h:112, c:['#3D8AE9','#2068CE'], ft:'Filter', fv:'Price, terms, lead time'},
+    {n:'3',   nm:'Evaluated',     dp:'5 ruled out',         wt:346, wb:258, h:108, c:['#2C61C7','#1A40AA'], ft:'Filter', fv:'Scored on the full criteria'},
+    {n:'1',   nm:'Awarded',       dp:'the one supplier',    wt:258, wb:178, h:114, c:['#5CEDB6','#16B98A'], ft:'Last filter', fv:'References + final terms', eco:true},
+  ];
+
+  function el(cls){const d=document.createElement('div');d.className=cls;scene.appendChild(d);return d;}
+
+  // soft cast shadow under the whole funnel
+  const cast=el('frustum');
+  cast.style.left=(cxF-150)+'px'; cast.style.top=(y+stages.reduce((s,x)=>s+x.h,0)+6)+'px';
+  cast.style.width='300px'; cast.style.height='52px'; cast.style.borderRadius='50%';
+  cast.style.background='radial-gradient(ellipse at center, rgba(15,40,90,.22), rgba(15,40,90,0) 70%)';
+
+  stages.forEach((s,i)=>{
+    const rimH=Math.max(20, s.wt*0.085);
+    // body (tapered trapezoid) with cylinder-style shading
+    const body=el('frustum');
+    body.style.left=(cxF - s.wt/2)+'px'; body.style.top=y+'px';
+    body.style.width=s.wt+'px'; body.style.height=s.h+'px';
+    const insL=(50 - 50*s.wb/s.wt).toFixed(2), insR=(50 + 50*s.wb/s.wt).toFixed(2);
+    body.style.clipPath='polygon(0 0, 100% 0, '+insR+'% 100%, '+insL+'% 100%)';
+    body.style.background=
+      'linear-gradient(90deg, rgba(0,0,0,.20) 0%, rgba(255,255,255,.16) 42%, rgba(255,255,255,.05) 60%, rgba(0,0,0,.22) 100%),'+
+      'linear-gradient(180deg,'+s.c[0]+','+s.c[1]+')';
+    body.style.filter='drop-shadow(0 6px 7px rgba(15,45,100,.16))';
+
+    // top rim ellipse (the 3D opening) — lighter
+    const rim=el('rim');
+    rim.style.left=(cxF - s.wt/2)+'px'; rim.style.top=(y - rimH/2)+'px';
+    rim.style.width=s.wt+'px'; rim.style.height=rimH+'px';
+    rim.style.background='radial-gradient(ellipse at 42% 28%, '+lighten(s.c[0],26)+', '+s.c[0]+' 72%)';
+    rim.style.boxShadow='inset 0 -3px 6px rgba(0,0,0,.14)';
+
+    // bottom cap for the last (closed tip)
+    if(s.eco){
+      const cap=el('rim');
+      cap.style.left=(cxF - s.wb/2)+'px'; cap.style.top=(y + s.h - rimH*0.5*s.wb/s.wt)+'px';
+      cap.style.width=s.wb+'px'; cap.style.height=(rimH*s.wb/s.wt)+'px';
+      cap.style.background='linear-gradient(180deg,'+s.c[1]+','+lighten(s.c[1],-22)+')';
+      cap.style.zIndex=1;
+    }
+
+    // label (number + name) over the body
+    const lab=el('lbl');
+    lab.style.left=(cxF - s.wt/2 + 30)+'px'; lab.style.top=y+'px'; lab.style.height=s.h+'px';
+    const nCol = s.eco ? '#06402E' : '#fff';
+    const dCol = s.eco ? 'rgba(6,64,46,.78)' : 'rgba(255,255,255,.9)';
+    lab.innerHTML='<span class="n" style="color:'+nCol+'">'+s.n+'</span>'+
+      '<div><div class="nm" style="color:'+nCol+'">'+s.nm+'</div><div class="dp" style="color:'+dCol+'">'+s.dp+'</div></div>';
+
+    // rail (filter) on the right, aligned to stage centre
+    const rail=el('rail'+(s.eco?' win':''));
+    rail.style.left=(cxF + 338)+'px'; rail.style.top=(y + s.h/2 - 26)+'px'; rail.style.width='246px';
+    rail.innerHTML='<div class="ft">'+s.ft+'</div><div class="fv">'+s.fv+'</div>';
+
+    y += s.h;
+  });
+
+  // PO pill under the tip
+  const po=el('po');
+  po.style.left=cxF+'px'; po.style.top=(y+30)+'px';
+  po.innerHTML='<span class="ck"></span>Purchase order signed';
+
+  function lighten(hex,amt){const n=parseInt(hex.slice(1),16);let r=(n>>16)+amt,g=((n>>8)&255)+amt,b=(n&255)+amt;
+    r=Math.max(0,Math.min(255,r));g=Math.max(0,Math.min(255,g));b=Math.max(0,Math.min(255,b));
+    return '#'+((1<<24)+(r<<16)+(g<<8)+b).toString(16).slice(1);}
+})();
+</script>
+</body>
+</html>
