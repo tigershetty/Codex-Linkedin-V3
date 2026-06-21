@@ -19,7 +19,7 @@
       radial-gradient(ellipse 52% 34% at 88% 1%, rgba(56,230,166,.16) 0%, transparent 60%),
       radial-gradient(ellipse 58% 40% at 3% 22%, rgba(39,152,251,.14) 0%, transparent 58%),
       linear-gradient(180deg,#FFFFFF 0%,#F4FAFE 56%,#EAF3FD 100%);
-    padding:62px 64px 50px;display:flex;flex-direction:column;
+    padding:28px 32px 24px;display:flex;flex-direction:column;
   }
   .kicker{font-size:15px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--azure)}
   h1{font-size:64px;font-weight:800;line-height:.97;margin-top:13px;letter-spacing:-1px;color:var(--ink)}
@@ -29,7 +29,7 @@
   .sub{font-size:21px;font-weight:400;color:var(--muted);max-width:860px;line-height:1.32}
 
   /* funnel scene */
-  .scene{position:relative;width:952px;height:690px;margin-top:16px}
+  .scene{position:relative;width:1016px;height:716px;margin-top:14px}
   .frustum{position:absolute;pointer-events:none}
   .rim{position:absolute;border-radius:50%;pointer-events:none}
   .lbl{position:absolute;pointer-events:none;display:flex;align-items:center;gap:18px;color:#fff}
@@ -54,11 +54,11 @@
   .footrule{margin-top:auto;height:3px;border-radius:3px;
     background:linear-gradient(90deg,var(--azure),var(--eco) 55%,rgba(56,230,166,0) 100%)}
   .foot{display:flex;align-items:center;justify-content:space-between;padding-top:18px}
-  .who{display:flex;align-items:center;gap:13px}
-  .who img{width:44px;height:44px;border-radius:10px}
-  .who .nm{font-size:17px;font-weight:700;color:var(--ink);line-height:1.15}
+  .who{display:flex;align-items:center;gap:14px}
+  .who img{width:55px;height:55px;border-radius:13px}
+  .who .nm{font-size:17.5px;font-weight:700;color:var(--ink);line-height:1.15}
   .who .hd{font-size:13.5px;font-weight:400;color:var(--muted)}
-  .thesis{font-size:17px;font-weight:600;color:var(--coral);text-align:right;max-width:300px;line-height:1.32}
+  .sig{font-size:17.5px;font-weight:700;color:var(--ink);text-align:right;line-height:1.2}
 </style>
 </head>
 <body>
@@ -75,22 +75,22 @@
 
   <div class="footrule"></div>
   <div class="foot">
-    <div class="who"><img src="../assets/logos/shettys-desk-logo-1.png" alt="Shetty's Desk"><div><div class="nm">Shetty's Desk</div><div class="hd">Poornajith Shetty</div></div></div>
-    <div class="thesis">A long list is not a shortlist.<br>A shortlist is not a decision.</div>
+    <div class="who"><img src="../assets/logos/shettys-desk-logo-1.png" alt="Shetty's Desk"><div><div class="nm">Shetty's Desk</div></div></div>
+    <div class="sig">Poornajith Shetty</div>
   </div>
 </div>
 
 <script>
 (function(){
   const scene=document.getElementById('scene');
-  const cxF=318;                 // funnel centre x
-  let y=44;                      // running top y
+  const cxF=336;                 // funnel centre x
+  let y=42;                      // running top y
   const stages=[
-    {n:'100', nm:'On the market', dp:'the full long list',  wt:632, wb:534, h:120, c:['#7CC0FA','#2E97FB'], ft:'Filter', fv:'Anyone who could supply it'},
-    {n:'20',  nm:'RFI qualified', dp:'80 ruled out',        wt:534, wb:438, h:116, c:['#57A8F7','#2480E6'], ft:'Filter', fv:'Capability, capacity, basic fit'},
-    {n:'8',   nm:'RFQ issued',    dp:'12 ruled out',        wt:438, wb:346, h:112, c:['#3D8AE9','#2068CE'], ft:'Filter', fv:'Price, terms, lead time'},
-    {n:'3',   nm:'Evaluated',     dp:'5 ruled out',         wt:346, wb:258, h:108, c:['#2C61C7','#1A40AA'], ft:'Filter', fv:'Scored on the full criteria'},
-    {n:'1',   nm:'Awarded',       dp:'the one supplier',    wt:258, wb:178, h:114, c:['#5CEDB6','#16B98A'], ft:'Last filter', fv:'References + final terms', eco:true},
+    {n:'100', nm:'On the market', dp:'the full long list',  wt:676, wb:571, h:128, c:['#7CC0FA','#2E97FB'], ft:'Filter', fv:'Anyone who could supply it'},
+    {n:'20',  nm:'RFI qualified', dp:'80 ruled out',        wt:571, wb:469, h:124, c:['#57A8F7','#2480E6'], ft:'Filter', fv:'Capability, capacity, basic fit'},
+    {n:'8',   nm:'RFQ issued',    dp:'12 ruled out',        wt:469, wb:370, h:120, c:['#3D8AE9','#2068CE'], ft:'Filter', fv:'Price, terms, lead time'},
+    {n:'3',   nm:'Evaluated',     dp:'5 ruled out',         wt:370, wb:276, h:116, c:['#2C61C7','#1A40AA'], ft:'Filter', fv:'Scored on the full criteria'},
+    {n:'1',   nm:'Awarded',       dp:'the one supplier',    wt:276, wb:190, h:122, c:['#5CEDB6','#16B98A'], ft:'Last filter', fv:'References + final terms', eco:true},
   ];
 
   function el(cls){const d=document.createElement('div');d.className=cls;scene.appendChild(d);return d;}
@@ -140,7 +140,7 @@
 
     // rail (filter) on the right, aligned to stage centre
     const rail=el('rail'+(s.eco?' win':''));
-    rail.style.left=(cxF + 338)+'px'; rail.style.top=(y + s.h/2 - 26)+'px'; rail.style.width='246px';
+    rail.style.left=(cxF + 350)+'px'; rail.style.top=(y + s.h/2 - 26)+'px'; rail.style.width='252px';
     rail.innerHTML='<div class="ft">'+s.ft+'</div><div class="fv">'+s.fv+'</div>';
 
     y += s.h;

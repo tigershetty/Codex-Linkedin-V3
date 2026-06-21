@@ -83,11 +83,11 @@ Keep it to a two-column table: "Their argument" | "My counter + test question".
 
 **Pin header**: badge → UPPERCASE title "THE PRICE-INCREASE PLAYBOOK" → thin azure rule. Sub: "Every argument they'll make, every answer you'll need." Claude mark (clay `#D97757`) sized into the top-right whitespace.
 
-**Hero**: mixed-weight stat callout — "9%" (their ask) struck through into an eco-green "what's actually justified" frame.
+**Hero**: "9%" (their ask, coral) → an eco-green reframe: *you don't beat an increase by refusing it — you answer the reason underneath it.* **No invented "justified %"** on the canvas: Claude does not know the supplier's private cost data, so putting a fabricated figure there would contradict the post's own honesty rule (and the "every number is real" standard). The reframe carries the point without a made-up number.
 
-**Body — the two-column table**: left column "THEIR ARGUMENT" (coral-tinted headers, 4 rows: raw material costs, labour/wage pressure, margin compression, low volume), right column "YOUR COUNTER + TEST QUESTION" (azure/eco, the calm response per row). The single hardest-to-counter row is flagged with a small amber "watch for" marker.
+**Body — the two-column table**: left column "THEIR ARGUMENT" (coral-tinted, 4 rows: raw material costs, labour/wage pressure, margin compression, low volume), right column "YOUR COUNTER + TEST QUESTION" (azure/eco, the calm response + the one test question per row). The single hardest-to-counter row (margin pressure) is flagged with a small amber "hardest to counter" marker. A compact copy-paste Claude prompt block sits above the footer (the visible-prompt AISC moat).
 
-**Footer**: coral-thread sign-off — rule + Shetty's Desk logo + handle (left) + closing thesis in coral (right): "Answer the reason, not the number."
+**Footer (house standard, RW01)**: gradient footrule above the row (never a divider over the logo); Shetty's Desk logo (≈55px) + wordmark on the left, **"Poornajith Shetty"** signature on the right. Consistent across all four RW01 posts.
 
 **Icons/logos**: Claude mark (`assets/logos/claude`) top-right; Lucide glyphs per row (package, users, trending-down, layers); amber alert-triangle on the hardest row.
 
@@ -95,4 +95,4 @@ Keep it to a two-column table: "Their argument" | "My counter + test question".
 
 ## Rendered Output
 
-Primary: `renderer/templates/ai06-negotiation-table.html` → `renderer/out/ai06-negotiation-table.png` (to render when this post goes into production). Ep05 is the post carried through the full 3-way render experiment this week.
+Primary: `renderer/templates/ai06-negotiation-table.html` → `renderer/out/ai06-negotiation-table.png` → `visual.png`. **Rendered (2026-06-21)** to the new visual standard (honest hero, in-image prompt, house signature footer). Ep05 is the post carried through the full 3-way render experiment this week.

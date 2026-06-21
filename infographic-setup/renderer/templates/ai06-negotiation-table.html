@@ -15,13 +15,13 @@
   *{margin:0;padding:0;box-sizing:border-box}
   html,body{width:1080px}
   #card{
-    width:1080px;height:1400px;position:relative;overflow:hidden;
+    width:1080px;height:1500px;position:relative;overflow:hidden;
     font-family:"Poppins",system-ui,sans-serif;color:var(--ink);
     background:
       radial-gradient(ellipse 50% 32% at 90% 2%, rgba(217,119,87,.12) 0%, transparent 60%),
       radial-gradient(ellipse 58% 40% at 4% 26%, rgba(39,152,251,.13) 0%, transparent 58%),
       linear-gradient(180deg,#FFFFFF 0%,#F5FAFE 58%,#EAF3FD 100%);
-    padding:64px 64px 52px;display:flex;flex-direction:column;
+    padding:30px 34px 26px;display:flex;flex-direction:column;
   }
   .top{display:flex;justify-content:space-between;align-items:flex-start}
   .badge{font-size:13px;font-weight:700;letter-spacing:.13em;color:#fff;background:linear-gradient(135deg,#50A9F7,#215DC3);
@@ -43,7 +43,8 @@
   .ask .their .big{color:var(--coral-deep)}
   .ask .just .big{color:var(--eco-text)}
   .ask .ar{font-size:30px;font-weight:800;color:var(--azure)}
-  .ask .note{margin-left:auto;font-size:16px;font-weight:500;color:var(--muted);max-width:330px;line-height:1.35;text-align:right}
+  .ask .reframe{font-size:23px;font-weight:600;color:var(--ink);line-height:1.28}
+  .ask .reframe b{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:800}
   /* comparison grid */
   .heads{display:grid;grid-template-columns:1fr 56px 1fr;margin-top:24px;gap:0}
   .heads .h{font-size:14px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:0 6px}
@@ -65,22 +66,28 @@
   .spine{display:flex;align-items:center;justify-content:center}
   .spine span{width:38px;height:38px;border-radius:50%;background:#fff;border:1px solid var(--line);
     display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:800;color:var(--muted);box-shadow:0 6px 14px rgba(33,93,195,.10)}
+  /* prompt */
+  .prompt{margin-top:18px;background:#13233f;border-radius:16px;padding:14px 22px 16px;box-shadow:0 16px 34px rgba(19,35,63,.22)}
+  .phead{display:flex;align-items:center;gap:9px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#8FF3CC;margin-bottom:7px}
+  .phead .dot{width:9px;height:9px;border-radius:50%;background:var(--eco)}
+  .prompt pre{font-family:"JetBrains Mono",monospace;font-size:13px;line-height:1.5;color:#E2F0FB;white-space:pre-wrap}
+  .prompt pre b{color:#8FF3CC;font-weight:600}
   /* footer */
-  .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;padding-top:22px}
-  .foot::before{content:"";position:absolute;left:64px;right:64px;height:2px;
-    background:linear-gradient(90deg,var(--coral),rgba(226,113,153,.12));margin-top:-22px}
-  .who{display:flex;align-items:center;gap:12px}
-  .who img{width:42px;height:42px;border-radius:9px}
-  .who .nm{font-size:16px;font-weight:700;color:var(--ink);line-height:1.15}
-  .who .hd{font-size:13px;font-weight:400;color:var(--muted)}
-  .thesis{font-size:16.5px;font-weight:600;color:var(--coral);text-align:right;max-width:430px;line-height:1.3}
+  .footrule{margin-top:auto;height:3px;border-radius:3px;
+    background:linear-gradient(90deg,var(--azure),var(--eco) 55%,rgba(56,230,166,0) 100%)}
+  .foot{display:flex;align-items:center;justify-content:space-between;padding-top:18px}
+  .who{display:flex;align-items:center;gap:14px}
+  .who img{width:55px;height:55px;border-radius:13px}
+  .who .nm{font-size:17.5px;font-weight:700;color:var(--ink);line-height:1.15}
+  .who .hd{font-size:13.5px;font-weight:400;color:var(--muted)}
+  .sig{font-size:17.5px;font-weight:700;color:var(--ink);text-align:right;line-height:1.2}
   .mask{-webkit-mask-size:contain;mask-size:contain;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:center;mask-position:center}
 </style>
 </head>
 <body>
 <div id="card">
   <div class="top">
-    <span class="badge">RW01 · AI for SC · Procurement</span>
+    <span class="badge">AI for Supply Chain · Procurement</span>
     <div class="toolmark"><img src="../assets/logos/claude-color.svg" alt="Claude"><span class="tl">with Claude</span></div>
   </div>
   <h1>The price-increase<br><span class="g">playbook</span></h1>
@@ -90,8 +97,7 @@
   <div class="ask">
     <div class="blk their"><span class="lab">Their ask</span><span class="big">9%</span></div>
     <span class="ar">→</span>
-    <div class="blk just"><span class="lab">What the data justifies</span><span class="big">~3%</span></div>
-    <div class="note">You don't beat an increase by refusing it. You answer the reason underneath it.</div>
+    <div class="reframe">You don't beat an increase by refusing it. You answer the <b>reason underneath it</b> — and "raw cost" and "our margin" need completely different answers.</div>
   </div>
 
   <div class="heads"><div class="h l">Their argument</div><div></div><div class="h r">Your counter + the test question</div></div>
@@ -114,9 +120,17 @@
     <div class="cell yours"><span class="ct">Then price the <b>volume tier</b>, or commit volume for a held price.</span><span class="q"><span class="ql">Ask:</span>What volume holds today's price?</span></div>
   </div>
 
+  <div class="prompt">
+    <div class="phead"><span class="dot"></span>Copy-paste prompt · Claude</div>
+    <pre>A supplier wants a <b>[X]%</b> increase on <b>[category]</b>. List the 5 arguments
+they'll likely use. For each, give a calm, evidence-based counter and the
+one question that tests whether it holds. <b>Flag the hardest to counter.</b></pre>
+  </div>
+
+  <div class="footrule"></div>
   <div class="foot">
-    <div class="who"><img src="../assets/logos/shettys-desk-logo-1.png" alt="Shetty's Desk"><div><div class="nm">Shetty's Desk</div><div class="hd">Poornajith Shetty · AI for Supply Chain</div></div></div>
-    <div class="thesis">Answer the reason,<br>not the number.</div>
+    <div class="who"><img src="../assets/logos/shettys-desk-logo-1.png" alt="Shetty's Desk"><div><div class="nm">Shetty's Desk</div></div></div>
+    <div class="sig">Poornajith Shetty</div>
   </div>
 </div>
 </body>

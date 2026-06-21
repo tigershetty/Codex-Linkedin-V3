@@ -91,7 +91,7 @@ Return it as a clean table on a new sheet called "QBR Scorecard".
 - The **winning supplier** row (highest weighted total) is highlighted with the eco-green→azure signature gradient on its total cell; the weakest total is a soft coral chip. Blue = structure/headers; green = the win; coral (sparingly) = the laggard.
 - Tool colour rule: content stays in Shetty's palette; the **Copilot logo** appears only as its own four-point gradient mark.
 
-**Footer**: coral-thread sign-off — thin rule + Shetty's Desk logo + handle (left) + closing thesis in coral (right): "Score it before the meeting, or the meeting scores you."
+**Footer (house standard, RW01)**: gradient footrule above the row (never a divider over the logo — fixes the old `.foot::before` overlap); Shetty's Desk logo (≈55px) + wordmark on the left, **"Poornajith Shetty"** signature on the right. Consistent across all four RW01 posts.
 
 **Icons/logos**: Microsoft Copilot mark (`assets/logos/` lobehub) top-right; Excel mark (`../Icons and Logos/Microsoft_Excel_2013-2019_logo.svg`) small, near the "in Excel" cue; Lucide glyphs for column headers (check-circle, truck, tag, message-circle, shield).
 
