@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<style>
+  :root{
+    --azure:#2798FB; --sky:#50A9F7; --royal:#247BE1; --deep:#215DC3; --navy:#1939A5;
+    --eco:#38E6A6; --eco-text:#14B07E; --mint:#8FF3CC; --coral:#E27199; --coral-deep:#cf5c84;
+    --ink:#15315C; --muted:#5D7599; --line:#DCEAF8; --tint:#E2F0FB; --tint2:#EEF6FE;
+    --eco-grad:linear-gradient(135deg,#8FF3CC,#38E6A6,#1FC98B);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px}
+  #card{
+    width:1080px;height:1400px;position:relative;overflow:hidden;
+    font-family:"Poppins",system-ui,sans-serif;color:var(--ink);
+    background:
+      radial-gradient(ellipse 52% 32% at 88% 1%, rgba(56,230,166,.16) 0%, transparent 60%),
+      radial-gradient(ellipse 58% 38% at 3% 20%, rgba(39,152,251,.14) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F5FAFE 55%,#EAF3FD 100%);
+    padding:24px 26px 18px;display:flex;flex-direction:column;
+  }
+  .kicker{font-size:15px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--azure)}
+  h1{font-size:56px;font-weight:800;line-height:.99;margin-top:11px;letter-spacing:-1px;color:var(--ink)}
+  h1 .g{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .rule{height:5px;width:100%;margin:14px 0 9px;border-radius:5px;
+    background:linear-gradient(90deg,var(--azure) 0%,var(--sky) 36%,rgba(80,169,247,0) 100%)}
+  .sub{font-size:20px;font-weight:400;color:var(--muted);max-width:930px;line-height:1.3}
+
+  /* iso scene */
+  .scene{position:relative;width:1028px;height:648px;margin-top:4px}
+  .shape{position:absolute;inset:0;pointer-events:none}
+  .axlab{position:absolute;font-size:14px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--muted);white-space:nowrap;transform-origin:left center}
+  /* quadrant cards */
+  .qcard{position:absolute;transform:translate(-50%,-50%);width:206px;background:#fff;border-radius:14px;
+    box-shadow:0 14px 30px rgba(20,50,100,.16);padding:12px 14px;text-align:left}
+  .qcard .qn{font-size:19px;font-weight:800;line-height:1.04}
+  .qcard .qp{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:800;margin-top:6px;
+    padding:3px 9px;border-radius:999px;letter-spacing:.01em}
+  .qcard .qx{font-size:13px;font-weight:500;color:var(--muted);line-height:1.26;margin-top:7px}
+  .qcard .qx b{color:var(--ink);font-weight:700}
+  .attn{position:absolute;display:flex;align-items:center;gap:7px;background:#fff;border:1px solid var(--line);
+    border-radius:999px;padding:7px 13px;box-shadow:0 8px 18px rgba(20,50,100,.12);font-size:12.5px;font-weight:600;color:var(--muted)}
+  .attn b{color:var(--ink);font-weight:800}
+  .attn .stk{display:flex;align-items:flex-end;gap:2px;height:16px}
+  .attn .stk i{width:5px;border-radius:1px;background:var(--eco-text)}
+
+  /* how-to-use panel (fills space with teaching) */
+  .krp{margin-top:6px;background:#fff;border:1px solid var(--line);border-radius:16px;
+    box-shadow:0 14px 30px rgba(33,93,195,.09);padding:16px 22px 18px;display:flex;align-items:stretch;gap:20px}
+  .krp .qs{flex:0 0 auto;width:430px;display:flex;flex-direction:column;gap:9px}
+  .krp .qh{font-size:13.5px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+  .krp .q{display:flex;align-items:center;gap:11px}
+  .krp .q .ax{flex:0 0 auto;width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;
+    font-size:16px;font-weight:800;color:#fff}
+  .krp .q .qt{font-size:15px;font-weight:600;color:var(--ink);line-height:1.22}
+  .krp .q .qt b{font-weight:800}
+  .krp .div{width:1px;background:var(--line)}
+  .krp .key{flex:1;display:flex;flex-direction:column;gap:8px}
+  .krp .kh{font-size:13.5px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+  .krp .keys{display:grid;grid-template-columns:1fr 1fr;gap:8px 16px}
+  .krp .kr{display:flex;align-items:center;gap:9px;font-size:14px;font-weight:600;color:var(--ink)}
+  .krp .kr i{width:12px;height:12px;border-radius:4px;flex:0 0 auto}
+  .krp .kr b{font-weight:800} .krp .kr .ar{color:var(--muted);font-weight:700}
+
+  .insight{margin-top:11px;font-size:18px;font-weight:500;color:var(--ink);line-height:1.4;padding-left:16px;
+    border-left:5px solid var(--azure)}
+  .insight b{color:var(--eco-text);font-weight:700} .insight .px{color:var(--coral-deep);font-weight:700}
+
+  .footrule{margin-top:auto;height:3px;border-radius:3px;
+    background:linear-gradient(90deg,var(--azure),var(--eco) 55%,rgba(56,230,166,0) 100%)}
+  .foot{display:flex;align-items:center;justify-content:space-between;padding-top:14px}
+  .who{display:flex;align-items:center;gap:14px}
+  .who img{height:74px;width:auto}
+  .sig{font-size:17.5px;font-weight:700;color:var(--ink);text-align:right;line-height:1.2}
+</style>
+</head>
+<body>
+<div id="card">
+  <div class="kicker">Supply Chain 101 · Procurement</div>
+  <h1>Four kinds of spend.<br>Four ways to <span class="g">buy</span>.</h1>
+  <div class="rule"></div>
+  <div class="sub">Plot everything you buy on two questions — how much it moves your profit, and how hard it is to source. Where each thing lands tells you whether to squeeze on price, lock in supply, or stop spending attention on it. That map is the Kraljic matrix.</div>
+
+  <div class="scene" id="scene"></div>
+
+  <div class="krp">
+    <div class="qs">
+      <div class="qh">Ask two questions about anything you buy</div>
+      <div class="q"><span class="ax" style="background:linear-gradient(150deg,#5CB0F9,#2A78DC)">Y</span><span class="qt"><b>Does it really move our profit?</b> Big spend or critical to the product = high.</span></div>
+      <div class="q"><span class="ax" style="background:linear-gradient(150deg,#EE9CBA,#cf5c84)">X</span><span class="qt"><b>How hard is it to replace the supplier?</b> Few sources or long lead time = high risk.</span></div>
+    </div>
+    <div class="div"></div>
+    <div class="key">
+      <div class="kh">…and you land in one of four playbooks</div>
+      <div class="keys">
+        <div class="kr"><i style="background:#16B98A"></i>Strategic <span class="ar">→</span> <b>partner &amp; protect</b></div>
+        <div class="kr"><i style="background:#2E8FF0"></i>Leverage <span class="ar">→</span> <b>push on price</b></div>
+        <div class="kr"><i style="background:#E27199"></i>Bottleneck <span class="ar">→</span> <b>secure supply</b></div>
+        <div class="kr"><i style="background:#9DB6D2"></i>Routine <span class="ar">→</span> <b>automate &amp; forget</b></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="insight">Most teams negotiate hardest on the easy, low-value buys and barely watch the one part that could stop the line. The matrix flips that: spend your attention where the <b>stakes</b> and the <span class="px">risk</span> are both high.</div>
+
+  <div class="footrule"></div>
+  <div class="foot">
+    <div class="who"><img src="../assets/logos/shettys-desk-logo-2.png" alt="Shetty's Desk"></div>
+    <div class="sig">Poornajith Shetty</div>
+  </div>
+</div>
+
+<script>
+(function(){
+  const scene=document.getElementById('scene');
+  const OX=514, OY=520, a=210, b=94;       // iso: y-up so origin sits front-bottom
+  const p=(u,v)=>[OX+(u-v)*a, OY-(u+v)*b];
+  const s=0.46;                            // tile half-footprint (units)
+  function poly(pts,bg,z,parent){const d=document.createElement('div');d.className='shape';
+    d.style.clipPath='polygon('+pts.map(q=>q[0].toFixed(1)+'px '+q[1].toFixed(1)+'px').join(',')+')';
+    d.style.background=bg; if(z!=null)d.style.zIndex=z; (parent||scene).appendChild(d);}
+  function shade(hex,amt){const n=parseInt(hex.slice(1),16);let r=(n>>16)+amt,g=((n>>8)&255)+amt,bb=(n&255)+amt;
+    r=Math.max(0,Math.min(255,r));g=Math.max(0,Math.min(255,g));bb=Math.max(0,Math.min(255,bb));
+    return '#'+((1<<24)+(r<<16)+(g<<8)+bb).toString(16).slice(1);}
+
+  // quadrants: cu = supply risk (0 low,1 high), cv = profit impact (0 low,1 high)
+  const C0=0, C1=1.25;
+  const tiles=[
+    {id:'strategic', cu:C1, cv:C1, h:146, col:'#16B98A', name:'Strategic',  posture:'Partner & protect', pbg:'rgba(20,176,126,.13)', pcol:'#0C8F6B', ex:'Custom critical component, often single-source.'},
+    {id:'bottleneck',cu:C1, cv:C0, h:102, col:'#E27199', name:'Bottleneck', posture:'Secure the supply', pbg:'rgba(207,92,132,.13)', pcol:'#cf5c84', ex:'Cheap, but only one supplier makes it.'},
+    {id:'leverage',  cu:C0, cv:C1, h:102, col:'#2E8FF0', name:'Leverage',   posture:'Push on price',     pbg:'rgba(39,123,225,.13)', pcol:'#215DC3', ex:'Big spend, many suppliers — make them compete.'},
+    {id:'routine',   cu:C0, cv:C0, h:56,  col:'#9DB6D2', name:'Routine',    posture:'Automate & forget', pbg:'rgba(93,117,153,.14)', pcol:'#5D7599', ex:'Office and MRO items — minimise the effort.'},
+  ];
+  // draw far (largest cu+cv) first
+  const order=tiles.slice().sort((A,B)=>(B.cu+B.cv)-(A.cu+A.cv));
+  let z=10;
+  order.forEach(t=>{
+    const g=document.createElement('div');g.className='tile-g';g.id='tg-'+t.id;
+    g.style.cssText='position:absolute;inset:0';g.style.zIndex=z;scene.appendChild(g);t._g=g;
+    const b00=p(t.cu-s,t.cv-s), b10=p(t.cu+s,t.cv-s), b11=p(t.cu+s,t.cv+s), b01=p(t.cu-s,t.cv+s);
+    const t00=[b00[0],b00[1]-t.h], t10=[b10[0],b10[1]-t.h], t11=[b11[0],b11[1]-t.h], t01=[b01[0],b01[1]-t.h];
+    // ground shadow
+    const sh=document.createElement('div');sh.className='shape';
+    sh.style.clipPath='polygon('+[b00,b10,b11,b01].map(q=>q[0].toFixed(1)+'px '+(q[1]+6).toFixed(1)+'px').join(',')+')';
+    sh.style.background='rgba(18,42,90,.10)';sh.style.filter='blur(7px)';sh.style.zIndex=z; g.appendChild(sh);
+    // right-front face (front corner b00 -> b10), left-front face (b00 -> b01), top face
+    poly([b00,b10,t10,t00],'linear-gradient(180deg,'+shade(t.col,-14)+','+shade(t.col,-30)+')', z+1, g);
+    poly([b00,b01,t01,t00],'linear-gradient(180deg,'+shade(t.col,-2)+','+shade(t.col,-18)+')', z+2, g);
+    poly([t00,t10,t11,t01],'linear-gradient(135deg,'+shade(t.col,26)+','+shade(t.col,6)+')', z+3, g);
+    // thin top rim highlight
+    poly([t00,t10,[t10[0],t10[1]+2],[t00[0],t00[1]+2]],'rgba(255,255,255,.30)', z+4, g);
+    z+=10;
+  });
+
+  // quadrant cards near each top-centre
+  function place(el,x,y,zz){el.style.left=x+'px';el.style.top=y+'px';el.style.zIndex=zz;scene.appendChild(el);}
+  tiles.forEach(t=>{
+    const c=p(t.cu,t.cv); const topY=c[1]-t.h;
+    const card=document.createElement('div');card.className='qcard';card.id='qc-'+t.id;
+    card.innerHTML='<div class="qn" style="color:'+t.pcol+'">'+t.name+'</div>'+
+      '<span class="qp" style="background:'+t.pbg+';color:'+t.pcol+'">'+t.posture+'</span>'+
+      '<div class="qx">'+t.ex+'</div>';
+    // offset cards outward so they don't sit on the columns
+    let dx=0, dy=-58;
+    if(t.id==='strategic'){dx=0;dy=-66;}
+    if(t.id==='leverage'){dx=-140;dy=-6;}
+    if(t.id==='bottleneck'){dx=140;dy=-6;}
+    if(t.id==='routine'){dx=0;dy=80;}
+    place(card, c[0]+dx, topY+dy, 200);
+  });
+
+  // axis labels along the two front-bottom edges from the Routine front corner
+  const o=p(C0-s, C0-s);                 // front corner (lowest point)
+  const rEdge=p(C1+s, C0-s);             // toward bottleneck (supply risk →)
+  const lEdge=p(C0-s, C1+s);             // toward leverage (profit impact ↑)
+  function axis(html,from,to){
+    const ang=Math.atan2(to[1]-from[1], to[0]-from[0])*180/Math.PI;
+    const el=document.createElement('div');el.className='axlab';el.innerHTML=html;
+    el.style.left=(from[0]+(to[0]-from[0])*0.46)+'px';
+    el.style.top=(from[1]+(to[1]-from[1])*0.46+26)+'px';
+    el.style.transform='translate(-50%,-50%) rotate('+ang+'deg)';
+    el.style.zIndex=60;
+    scene.appendChild(el);
+  }
+  axis('Supply risk &rarr;', o, rEdge);
+  axis('&uarr; Profit impact', lEdge, o);
+
+  // "taller = more attention" cue
+  const attn=document.createElement('div');attn.className='attn';
+  attn.style.left='8px';attn.style.top='6px';attn.style.position='absolute';
+  attn.innerHTML='<span class="stk"><i style="height:6px"></i><i style="height:10px"></i><i style="height:16px"></i></span>Taller block = <b>more of your attention</b>';
+  scene.appendChild(attn);
+})();
+</script>
+<script src="../assets/js/gsap.min.js"></script>
+<script>
+(function(){
+  // build the matrix, the tallest tile (Strategic) resolves last
+  gsap.set(['.kicker','h1','.sub'],{opacity:0,y:24});
+  gsap.set('.rule',{scaleX:0,transformOrigin:'left center'});
+  gsap.set('.tile-g',{opacity:0,y:58});
+  gsap.set('.qcard',{opacity:0,scale:.82,xPercent:-50,yPercent:-50});
+  gsap.set('.axlab',{opacity:0});
+  gsap.set('.attn',{opacity:0,scale:.82,transformOrigin:'left center'});
+  gsap.set('.krp .q',{opacity:0,x:-18});
+  gsap.set('.krp .kr',{opacity:0,y:10});
+  gsap.set('.insight',{opacity:0,y:16});
+  gsap.set('.footrule',{scaleX:0,transformOrigin:'left center'});
+  gsap.set('.foot',{opacity:0});
+
+  const tl=gsap.timeline({paused:true,defaults:{ease:'power2.out'}});
+  tl.to('.kicker',{opacity:1,y:0,duration:.4},0.0)
+    .to('h1',{opacity:1,y:0,duration:.5},0.12)
+    .to('.rule',{scaleX:1,duration:.5,ease:'power2.inOut'},0.34)
+    .to('.sub',{opacity:1,y:0,duration:.5},0.44)
+    // build the field, short -> tall
+    .to('#tg-routine',{opacity:1,y:0,duration:.5,ease:'back.out(1.3)'},0.9)
+    .to('#tg-leverage',{opacity:1,y:0,duration:.5,ease:'back.out(1.3)'},1.16)
+    .to('#tg-bottleneck',{opacity:1,y:0,duration:.5,ease:'back.out(1.3)'},1.38)
+    .to('#tg-strategic',{opacity:1,y:0,duration:.62,ease:'back.out(1.5)'},1.72)
+    .to('.axlab',{opacity:1,duration:.5,stagger:.1},1.95)
+    .to('.qcard',{opacity:1,scale:1,duration:.45,stagger:.12,ease:'back.out(1.6)'},2.2)
+    .to('.attn',{opacity:1,scale:1,duration:.4,ease:'back.out(1.6)'},2.8)
+    // Strategic stands tallest — the payoff
+    .to('#qc-strategic',{scale:1.06,duration:.34,yoyo:true,repeat:1,ease:'sine.inOut'},3.05)
+    .to('.krp .q',{opacity:1,x:0,duration:.45,stagger:.14},3.15)
+    .to('.krp .kr',{opacity:1,y:0,duration:.4,stagger:.08},3.55)
+    .to('.insight',{opacity:1,y:0,duration:.55},4.0)
+    .to('.footrule',{scaleX:1,duration:.5,ease:'power2.inOut'},4.15)
+    .to('.foot',{opacity:1,duration:.5},4.25);
+
+  window.__tl=tl; window.__dur=tl.duration();
+  (document.fonts?document.fonts.ready:Promise.resolve()).then(()=>{window.__ready=true;});
+})();
+</script>
+</body>
+</html>

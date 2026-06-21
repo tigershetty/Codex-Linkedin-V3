@@ -55,7 +55,10 @@ Follow Poornajith Shetty and Shetty's Desk for more supply chain insights, and s
 - Brand frame: azure/eco/ink/Poppins on white; coral = "unit price" caution only. No AI-tool logo. Footer = Logo 2 + signature.
 
 ## Code-render visual (primary)
-`renderer/templates/sc101-make-vs-buy.html` → `renderer/out/sc101-make-vs-buy.png` → `visual.png`. Balance hero + 5-dimension decision table; built 2026-06-21 to the new standard.
+`renderer/templates/sc101-make-vs-buy.html` → `renderer/out/sc101-make-vs-buy.png` → `visual.png`. Balance hero + 5-dimension decision table; built 2026-06-21 to the new standard. Refined 2026-06-21: scale raised and dashed YES→MAKE / NO→BUY connectors added to fill the dead zone above the beam.
+
+## GIF (HyperFrames / GSAP anim lane)
+`renderer/templates/sc101-make-vs-buy-anim.html` → `renderer/out/sc101-make-vs-buy.gif` (+ `.mp4`). **Motion spine:** *the question, then the answer* (versus). The gating question drops in → the balance scale assembles (stand, beam opens from centre, pans drop) → the dashed connectors flow to each pan → the 5-row decision table answers row by row → the **total-cost-of-ownership** footer resolves eco. ~4.6s + 1.5s hold, loops. Paused GSAP timeline; SVG grouped (`#stand/#beamG/#hangers/#pansG`); render via `render-anim.mjs` (`HOLD_S=1.5 GIF_W=640`).
 
 ## ChatGPT Image 2 Prompt (backup, paste-ready)
 ```

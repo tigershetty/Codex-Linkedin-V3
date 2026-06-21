@@ -109,4 +109,21 @@ Context: [paste the quote / last PO / what you know of their cost base].
 
 ## Rendered Output
 
-Primary: `renderer/templates/ai06-negotiation-table.html` → `renderer/out/ai06-negotiation-table.png` → `visual.png`. **Rebuilt 2026-06-21 (v2)** to the "tool builds a real artifact" direction: a **Claude Code session** building a **should-cost-model.csv** (5 cost lines, each indexed to a public benchmark) → summing to **+5.6% defensible vs +9% asked**, 3.4% gap. Big clean Claude mark (no "with Claude"), expanded justified copy-paste prompt, Logo 2 footer. (Template filename kept as `ai06-negotiation-table.html` for continuity.)
+Primary: `renderer/templates/ai06-negotiation-table.html` → `renderer/out/ai06-negotiation-table.png` → `visual.png`. **Rebuilt 2026-06-21 (v2)** to the "tool builds a real artifact" direction: a **Claude Code session** building a **should-cost-model.csv** (5 cost lines, each indexed to a public benchmark) → summing to **+5.6% defensible vs +9% asked**, 3.4% gap. Big clean **Claude Code** mark top-right (no caption; updated 2026-06-21 — the post shows Claude *Code* building the artifact), expanded justified copy-paste prompt, Logo 2 footer. (Template filename kept as `ai06-negotiation-table.html` for continuity.)
+
+## GIF Storyboard (HyperFrames / GSAP anim lane)
+
+**Motion spine:** *the build, then the result* — the Claude Code session runs line by line, then the artifact assembles and the defensible number resolves. Built 2026-06-21 from the still's own elements. ~6.0s + 1.5s hold, loops. Output: `renderer/out/ai06-negotiation-table.gif` (+ `.mp4`).
+
+| t (s) | Element | Motion | Ease | Note |
+|---|---|---|---|---|
+| 0.0–0.6 | Badge + Claude Code mark + title | fade/slide up; mark pops in; rule wipes | back.out | tool mark is the hero corner |
+| 0.9–2.2 | Claude Code session | panel rises; the ask + 3 `●` action lines reveal in terminal cadence | power2 | "it builds the thing" |
+| 2.2–2.5 | ✓ verdict line | the `Defensible ≈ +5.6%` line lands | back.out | the session's answer |
+| 2.5–3.6 | Artifact table | "↓ the artifact it built ↓" → header → 5 cost lines reveal (stagger) | power2 | the should-cost-model.csv |
+| 3.75–4.6 | Defensible total (climax) | total row reveals; **+5.6% counts up**, then pulses eco | power1 / sine | the payoff |
+| 4.55–5.1 | Gap note | resolves: +5.6% defensible vs +9% ask, 3.4% to negotiate | power2 | the takeaway |
+| 4.9–5.9 | Honesty + prompt + footer | fade up in sequence; rule wipes | power1 | trust + utility + brand |
+| 5.9–7.4 | Hold | full infographic held for the loop rest | — | clean loop |
+
+**Build:** copy → `ai06-negotiation-table-anim.html`; paused GSAP master timeline (`window.__tl/__dur/__ready`); the +5.6% count-up is a seek-safe proxy tween; render via `render-anim.mjs` (`HOLD_S=1.5 GIF_W=640`).

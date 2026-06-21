@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<style>
+  :root{
+    --azure:#2798FB; --sky:#50A9F7; --royal:#247BE1; --deep:#215DC3; --navy:#1939A5;
+    --eco:#38E6A6; --eco-text:#14B07E; --mint:#8FF3CC; --coral:#E27199; --coral-deep:#cf5c84;
+    --clay:#D97757; --amber:#E0A23B;
+    --ink:#15315C; --muted:#5D7599; --line:#DCEAF8; --tint:#E2F0FB; --tint2:#EEF6FE;
+    --eco-grad:linear-gradient(135deg,#8FF3CC,#38E6A6,#1FC98B);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px}
+  #card{
+    width:1080px;height:1500px;position:relative;overflow:hidden;
+    font-family:"Poppins",system-ui,sans-serif;color:var(--ink);
+    background:
+      radial-gradient(ellipse 50% 30% at 90% 1%, rgba(217,119,87,.13) 0%, transparent 60%),
+      radial-gradient(ellipse 58% 40% at 4% 24%, rgba(39,152,251,.13) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F5FAFE 58%,#EAF3FD 100%);
+    padding:28px 32px 22px;display:flex;flex-direction:column;
+  }
+  .top{display:flex;justify-content:space-between;align-items:flex-start}
+  .badge{font-size:13px;font-weight:700;letter-spacing:.13em;color:#fff;background:linear-gradient(135deg,#50A9F7,#215DC3);
+    padding:9px 17px;border-radius:999px;text-transform:uppercase}
+  .toolmark img{width:116px;height:116px;filter:drop-shadow(0 10px 20px rgba(217,119,87,.24));margin-top:-4px}
+  h1{font-size:53px;font-weight:800;line-height:1.0;margin-top:10px;letter-spacing:-1px;color:var(--ink)}
+  h1 .g{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .rule{height:5px;width:100%;margin:13px 0 10px;border-radius:5px;
+    background:linear-gradient(90deg,var(--azure) 0%,var(--sky) 36%,rgba(80,169,247,0) 100%)}
+  .sub{font-size:19.5px;font-weight:400;color:var(--muted);max-width:910px;line-height:1.3}
+  .sub .px{color:var(--coral-deep);font-weight:700} .sub b{color:var(--ink);font-weight:700}
+
+  /* claude code build panel */
+  .cc{margin-top:14px;background:#13233f;border-radius:14px;overflow:hidden;box-shadow:0 18px 40px rgba(19,35,63,.26)}
+  .cc .bar{display:flex;align-items:center;gap:9px;padding:11px 18px;background:rgba(255,255,255,.05);border-bottom:1px solid rgba(255,255,255,.08)}
+  .cc .bar .dot{width:11px;height:11px;border-radius:50%}
+  .cc .bar .tt{margin-left:6px;font-size:13px;font-weight:700;color:#cfe0f3;letter-spacing:.02em}
+  .cc .bar .pth{margin-left:auto;font-family:"JetBrains Mono",monospace;font-size:12px;color:#7FB0E6}
+  .cc .body{padding:14px 20px 16px;font-family:"JetBrains Mono",monospace;font-size:13.5px;line-height:1.62}
+  .cc .ask{color:#E2F0FB} .cc .ask .pp{color:#D97757;font-weight:700}
+  .cc .ln{display:flex;align-items:flex-start;gap:9px;color:#9FC2EA}
+  .cc .ln .b{color:#8FF3CC} .cc .ln .w{color:#E2F0FB} .cc .ln .m{color:#7FB0E6}
+  .cc .done{display:flex;align-items:center;gap:9px;color:#9af5d1;font-weight:700;margin-top:4px}
+  .cc .done b{color:#fff} .cc .done .x{color:#F0A4BE}
+
+  .produces{display:flex;align-items:center;justify-content:center;gap:10px;margin:11px 0;
+    font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+  .produces .ar{font-size:18px;color:var(--eco-text)}
+
+  /* artifact: should-cost model */
+  .artifact{border:1px solid #cfe0f3;border-radius:14px;overflow:hidden;box-shadow:0 16px 34px rgba(33,93,195,.12)}
+  .artifact .ah{display:flex;align-items:center;gap:10px;padding:11px 18px;background:linear-gradient(120deg,#eef6fe,#e2f0fb);border-bottom:1px solid #d6e6f6}
+  .artifact .ah .fi{width:18px;height:18px;background:var(--deep);-webkit-mask:url(../assets/icons/chart-line.svg) center/contain no-repeat;mask:url(../assets/icons/chart-line.svg) center/contain no-repeat}
+  .artifact .ah .fn{font-family:"JetBrains Mono",monospace;font-size:14px;font-weight:700;color:var(--ink)}
+  .artifact .ah .tag{margin-left:auto;font-size:11px;font-weight:700;color:var(--eco-text);background:rgba(20,176,126,.12);padding:3px 10px;border-radius:999px}
+  .arow{display:grid;grid-template-columns:1.5fr .8fr 1.25fr .8fr .9fr;align-items:center}
+  .ahdr{background:#16294a}
+  .ahdr .c{padding:9px 16px;font-size:11.5px;font-weight:700;letter-spacing:.03em;color:#9FC2EA;text-transform:uppercase}
+  .ahdr .c.r{text-align:right}
+  .arow .c{padding:11px 16px;font-size:15px;border-left:1px solid #eef5fc}
+  .arow .c.first{border-left:0;font-weight:700;color:var(--ink);display:flex;align-items:center;gap:9px}
+  .arow .c.first i{width:11px;height:11px;border-radius:3px;flex:0 0 auto}
+  .arow .c.r{text-align:right;font-weight:700}
+  .abody .arow{background:#fff;border-top:1px solid #edf4fc}
+  .abody .arow:nth-child(even){background:#FAFCFF}
+  .arow .sh{font-weight:700;color:var(--ink)} .arow .idx{font-size:13px;color:var(--muted);font-family:"JetBrains Mono",monospace}
+  .arow .mv{color:var(--deep);font-weight:700} .arow .dl{color:var(--eco-text);font-weight:800}
+  .arow .dl.zero{color:var(--muted)}
+  .atot{background:linear-gradient(90deg,rgba(56,230,166,.13),rgba(39,152,251,.06));border-top:2px solid #cfe0f3}
+  .atot .c{padding:12px 16px;font-size:16px;font-weight:800;color:var(--ink);border-left:0}
+  .atot .c.r{text-align:right}
+  .atot .big{color:var(--eco-text)} .atot .px{color:var(--coral-deep)}
+  .gapnote{display:flex;align-items:center;gap:11px;background:#fff;border-left:5px solid var(--amber);border-radius:0 12px 12px 0;
+    margin-top:11px;padding:12px 18px;font-size:16px;font-weight:600;color:var(--ink);line-height:1.34;box-shadow:0 10px 22px rgba(33,93,195,.07)}
+  .gapnote b{color:var(--eco-text);font-weight:800} .gapnote .x{color:var(--coral-deep);font-weight:800}
+
+  /* honesty */
+  .honesty{margin-top:12px;display:flex;gap:12px;align-items:flex-start;background:rgba(224,162,59,.10);
+    border:1px solid rgba(224,162,59,.30);border-radius:12px;padding:12px 18px}
+  .honesty .hi{width:21px;height:21px;flex:none;margin-top:1px;background:#C9881F;
+    -webkit-mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat;mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat}
+  .honesty p{font-size:14px;font-weight:500;color:#7a5a12;line-height:1.32}
+  .honesty p b{color:#5e4408;font-weight:700}
+  /* prompt (full-width, justified) */
+  .prompt{margin-top:11px;background:#13233f;border-radius:13px;padding:13px 22px 15px;box-shadow:0 16px 34px rgba(19,35,63,.22)}
+  .phead{display:flex;align-items:center;gap:9px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#8FF3CC;margin-bottom:7px}
+  .phead .dot{width:9px;height:9px;border-radius:50%;background:var(--eco)}
+  .prompt .pre{font-family:"JetBrains Mono",monospace;font-size:12.5px;line-height:1.46;color:#E2F0FB;text-align:justify;text-justify:inter-word}
+  .prompt .pre b{color:#8FF3CC;font-weight:600} .prompt .pre .s{color:#7FB0E6;font-weight:700}
+  /* footer */
+  .footrule{margin-top:auto;height:3px;border-radius:3px;
+    background:linear-gradient(90deg,var(--azure),var(--eco) 55%,rgba(56,230,166,0) 100%)}
+  .foot{display:flex;align-items:center;justify-content:space-between;padding-top:14px}
+  .who{display:flex;align-items:center;gap:14px}
+  .who img{height:74px;width:auto}
+  .sig{font-size:17.5px;font-weight:700;color:var(--ink);text-align:right;line-height:1.2}
+</style>
+</head>
+<body>
+<div id="card">
+  <div class="top">
+    <span class="badge">AI for Supply Chain · Procurement</span>
+    <div class="toolmark"><img src="../assets/logos/claudecode-color.svg" alt="Claude Code"></div>
+  </div>
+  <h1>Don't rehearse the argument.<br>Have Claude <span class="g">build the model</span>.</h1>
+  <div class="rule"></div>
+  <div class="sub">A supplier's <span class="px">+9%</span> is a stack of claims. In Claude Code you don't just talk it through — Claude <b>builds you a should-cost model</b>, indexes each cost line to a public benchmark, and shows what's actually defensible.</div>
+
+  <div class="cc">
+    <div class="bar"><span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span><span class="tt">Claude Code</span><span class="pth">~/procurement/widget-A</span></div>
+    <div class="body">
+      <div class="ask"><span class="pp">▸</span> build a should-cost model for this part and test their +9% ask</div>
+      <div class="ln"><span class="b">●</span><span><span class="w">Read</span> <span class="m">supplier-quote.pdf, last-PO.csv</span> — pulled the cost split</span></div>
+      <div class="ln"><span class="b">●</span><span><span class="w">Write</span> <span class="m">should-cost-model.csv</span> — 5 cost lines, each tied to an index</span></div>
+      <div class="ln"><span class="b">●</span><span><span class="w">Indexed</span> steel→PPI, labour→ECI, freight→EIA; weighted by cost share</span></div>
+      <div class="done"><span>✓</span><span>Defensible ≈ <b>+5.6%</b> &nbsp;·&nbsp; asked <span class="x">+9%</span> &nbsp;·&nbsp; gap to negotiate <b>3.4%</b></span></div>
+    </div>
+  </div>
+
+  <div class="produces"><span class="ar">↓</span> the artifact it built <span class="ar">↓</span></div>
+
+  <div class="artifact">
+    <div class="ah"><span class="fi"></span><span class="fn">should-cost-model.csv</span><span class="tag">built by Claude · verify each index</span></div>
+    <div class="arow ahdr"><span class="c">Cost line</span><span class="c">Share</span><span class="c">Index it tracks</span><span class="c r">Move</span><span class="c r">Δ on price</span></div>
+    <div class="abody" id="abody"></div>
+    <div class="arow atot"><span class="c">Defensible increase</span><span class="c"></span><span class="c">sum of indexed lines</span><span class="c r"></span><span class="c r"><span class="big">+5.6%</span></span></div>
+  </div>
+
+  <div class="gapnote">The model answers the increase before the meeting: <b>+5.6% is defensible</b>, so the <span class="x">3.4% gap</span> to their +9% is the part they have to justify — or the part you negotiate away.</div>
+
+  <div class="honesty">
+    <span class="hi"></span>
+    <p>Claude builds the model and the math — it is your <b>analyst and rehearsal partner, not a source of facts</b>. It can't see the supplier's real cost shares and it will guess at index values. Treat every share and figure as unverified until you pull it from the real source (BLS PPI, LME, EIA, ECI) and re-check the model.</p>
+  </div>
+
+  <div class="prompt">
+    <div class="phead"><span class="dot"></span>Copy-paste prompt · Claude</div>
+    <div class="pre"><span class="s">1.</span> Build a should-cost model for <b>[part]</b> from <b>[quote / last PO]</b>: split price into material, labour, energy/freight, overhead, margin, and label every share as an estimate I must verify. <span class="s">2.</span> Tie each line to a public index and apply <b>new price = base × (current ÷ base index)</b>, weighted by that line's share — name the index (PPI series, LME, EIA, ECI). <span class="s">3.</span> Sum to a <b>defensible increase</b> and compare it to their ask; show the gap. <span class="s">4.</span> Role-play the supplier's sales director for 3–4 rounds so I can rehearse. <span class="s">5.</span> <b>Flag every number you guessed</b> and the exact source I must check before I use it.</div>
+  </div>
+
+  <div class="footrule"></div>
+  <div class="foot">
+    <div class="who"><img src="../assets/logos/shettys-desk-logo-2.png" alt="Shetty's Desk"></div>
+    <div class="sig">Poornajith Shetty</div>
+  </div>
+</div>
+
+<script>
+(function(){
+  // should-cost model rows: share × index move = Δ on price (illustrative shares; steel move verified)
+  const rows=[
+    {line:'Steel',          col:'#215DC3', share:'60%', idx:'PPI · WPU1017', move:'+7.4%', d:'+4.4%'},
+    {line:'Labour',         col:'#2798FB', share:'15%', idx:'BLS · ECI',     move:'+3.5%', d:'+0.5%'},
+    {line:'Energy / freight',col:'#50A9F7',share:'10%', idx:'EIA · diesel',  move:'+6.0%', d:'+0.6%'},
+    {line:'Overhead',       col:'#8FB8E8', share:'8%',  idx:'—',             move:'flat',  d:'+0.1%'},
+    {line:'Margin',         col:'#14B07E', share:'7%',  idx:'their ask',     move:'—',     d:'0.0%', zero:true},
+  ];
+  const ab=document.getElementById('abody');
+  rows.forEach(r=>{
+    ab.insertAdjacentHTML('beforeend',
+      '<div class="arow"><span class="c first"><i style="background:'+r.col+'"></i>'+r.line+'</span>'+
+      '<span class="c"><span class="sh">'+r.share+'</span></span>'+
+      '<span class="c"><span class="idx">'+r.idx+'</span></span>'+
+      '<span class="c r mv">'+r.move+'</span>'+
+      '<span class="c r"><span class="dl'+(r.zero?' zero':'')+'">'+r.d+'</span></span></div>');
+  });
+})();
+</script>
+<script src="../assets/js/gsap.min.js"></script>
+<script>
+(function(){
+  const big=document.querySelector('.atot .big');
+  big.textContent='+0.0%';   // hold the defensible total until it counts up
+
+  gsap.set('.badge',{opacity:0,y:16});
+  gsap.set('.toolmark',{opacity:0,scale:.4,rotate:-14,transformOrigin:'center center'});
+  gsap.set('h1',{opacity:0,y:22});
+  gsap.set('.rule',{scaleX:0,transformOrigin:'left center'});
+  gsap.set('.sub',{opacity:0,y:18});
+  gsap.set('.cc',{opacity:0,y:16});
+  gsap.set(['.cc .ask','.cc .ln','.cc .done'],{opacity:0,x:-10});
+  gsap.set('.produces',{opacity:0});
+  gsap.set('.artifact',{opacity:0});
+  gsap.set('.artifact .ah',{opacity:0,y:-10});
+  gsap.set('.abody .arow',{opacity:0,y:14});
+  gsap.set('.atot',{opacity:0});
+  gsap.set('.gapnote',{opacity:0,y:14});
+  gsap.set('.honesty',{opacity:0,y:14});
+  gsap.set('.prompt',{opacity:0,y:14});
+  gsap.set('.footrule',{scaleX:0,transformOrigin:'left center'});
+  gsap.set('.foot',{opacity:0});
+
+  const tl=gsap.timeline({paused:true,defaults:{ease:'power2.out'}});
+  tl.to('.badge',{opacity:1,y:0,duration:.4},0.0)
+    .to('.toolmark',{opacity:1,scale:1,rotate:0,duration:.55,ease:'back.out(1.7)'},0.1)
+    .to('h1',{opacity:1,y:0,duration:.5},0.2)
+    .to('.rule',{scaleX:1,duration:.5,ease:'power2.inOut'},0.45)
+    .to('.sub',{opacity:1,y:0,duration:.5},0.55)
+    // the session runs, line by line (terminal cadence)
+    .to('.cc',{opacity:1,y:0,duration:.45},0.92)
+    .to('.cc .ask',{opacity:1,x:0,duration:.3},1.2)
+    .to('.cc .ln',{opacity:1,x:0,duration:.3,stagger:.24},1.46)
+    .to('.cc .done',{opacity:1,x:0,duration:.4,ease:'back.out(1.5)'},2.2)
+    // the artifact it built
+    .to('.produces',{opacity:1,duration:.35},2.5)
+    .set('.artifact',{opacity:1},2.7)
+    .to('.artifact .ah',{opacity:1,y:0,duration:.4},2.7)
+    .to('.abody .arow',{opacity:1,y:0,duration:.4,stagger:.15},2.95)
+    // the defensible number resolves
+    .to('.atot',{opacity:1,duration:.4},3.75)
+    .to({v:0},{v:5.6,duration:.8,ease:'power1.out',
+      onUpdate:function(){big.textContent='+'+this.targets()[0].v.toFixed(1)+'%';}},3.8)
+    .to('.atot .big',{scale:1.14,duration:.34,yoyo:true,repeat:1,ease:'sine.inOut',transformOrigin:'right center'},4.5)
+    .to('.gapnote',{opacity:1,y:0,duration:.5},4.55)
+    .to('.honesty',{opacity:1,y:0,duration:.45},4.9)
+    .to('.prompt',{opacity:1,y:0,duration:.45},5.12)
+    .to('.footrule',{scaleX:1,duration:.5,ease:'power2.inOut'},5.34)
+    .to('.foot',{opacity:1,duration:.5},5.44);
+
+  window.__tl=tl; window.__dur=tl.duration();
+  (document.fonts?document.fonts.ready:Promise.resolve()).then(()=>{window.__ready=true;});
+})();
+</script>
+</body>
+</html>

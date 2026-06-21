@@ -30,7 +30,7 @@ const FPS = Number(process.env.FPS ?? 25);
 const GIF_FPS = Number(process.env.GIF_FPS ?? 20);
 const GIF_W = Number(process.env.GIF_W ?? 600);
 const HOLD_S = Number(process.env.HOLD_S ?? 0);  // 0 = seamless loop (timeline fades out itself)
-const W = 1080, H = 1350;
+const W = 1080, H = Number(process.env.H ?? 1600);  // viewport tall enough for any card (1400–1540)
 
 const framesDir = r('out/_frames');
 rmSync(framesDir, { recursive: true, force: true });
@@ -72,7 +72,7 @@ const run = (a) => {
 // MP4 — full res, LinkedIn-friendly
 run(['-y', '-framerate', String(FPS), '-i', `${framesDir}/f_%04d.png`,
      '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-movflags', '+faststart',
-     '-vf', 'scale=1080:1350:flags=lanczos', r(outBase + '.mp4')]);
+     '-vf', 'scale=trunc(iw/2)*2:trunc(ih/2)*2:flags=lanczos', r(outBase + '.mp4')]);
 
 // GIF — downscaled, palette-optimised (matches the reference share format)
 const palette = `${framesDir}/palette.png`;

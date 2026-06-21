@@ -55,6 +55,9 @@ Follow Poornajith Shetty and Shetty's Desk for more supply chain insights, and s
 ## Code-render visual (primary)
 `renderer/templates/sc101-kraljic-matrix.html` → `renderer/out/sc101-kraljic-matrix.png` → `visual.png`. Isometric raised-tile 2×2; built 2026-06-21 to the new standard, every label from the research brief.
 
+## GIF (HyperFrames / GSAP anim lane)
+`renderer/templates/sc101-kraljic-matrix-anim.html` → `renderer/out/sc101-kraljic-matrix.gif` (+ `.mp4`). **Motion spine:** *build the field, the tallest tile resolves*. Tiles rise short→tall (Routine → Leverage/Bottleneck → **Strategic** rises tallest and pulses), then quadrant cards pop, axis labels draw, the two-question + four-playbook panel staggers in, insight lands. ~4.8s + 1.5s hold, loops. Paused GSAP timeline (`window.__tl/__dur/__ready`); render via `render-anim.mjs` (`HOLD_S=1.5 GIF_W=640`).
+
 ## ChatGPT Image 2 Prompt (backup, paste-ready)
 ```
 Task: Create an infographic image for the summary below.

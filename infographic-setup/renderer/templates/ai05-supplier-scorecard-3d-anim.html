@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<style>
+  :root{
+    --azure:#2798FB; --sky:#50A9F7; --royal:#247BE1; --deep:#215DC3; --navy:#1939A5;
+    --eco:#38E6A6; --eco-text:#14B07E; --mint:#8FF3CC; --coral:#E27199; --coral-deep:#cf5c84;
+    --ink:#15315C; --muted:#5D7599; --line:#DCEAF8; --tint:#E2F0FB; --tint2:#EEF6FE;
+    --eco-grad:linear-gradient(135deg,#8FF3CC,#38E6A6,#1FC98B);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px}
+  #card{
+    width:1080px;height:1540px;position:relative;overflow:hidden;
+    font-family:"Poppins",system-ui,sans-serif;color:var(--ink);
+    background:
+      radial-gradient(ellipse 50% 30% at 90% 1%, rgba(56,230,166,.18) 0%, transparent 60%),
+      radial-gradient(ellipse 56% 38% at 3% 22%, rgba(39,152,251,.15) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F4FAFE 56%,#E8F1FC 100%);
+    padding:28px 32px 22px;display:flex;flex-direction:column;
+  }
+  /* ---- title ---- */
+  .top{display:flex;justify-content:space-between;align-items:flex-start}
+  .kick{font-size:14px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--azure)}
+  .toolmark>img{width:122px;height:122px;filter:drop-shadow(0 10px 22px rgba(33,93,195,.24));margin-top:-6px}
+  h1{font-size:58px;font-weight:800;line-height:.98;margin-top:6px;letter-spacing:-1.2px;color:var(--ink)}
+  h1 .g{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{font-size:19.5px;font-weight:400;color:var(--muted);margin-top:10px;max-width:940px;line-height:1.3}
+  /* ---- stat band ---- */
+  .band{margin-top:14px;background:linear-gradient(120deg,#16294a,#1d3d74);border-radius:14px;
+    padding:13px 22px;display:flex;align-items:center;gap:18px;box-shadow:0 16px 34px rgba(21,49,92,.26)}
+  .kpi{display:flex;flex-direction:column}
+  .kpi .n{font-size:27px;font-weight:800;color:#fff;line-height:1}
+  .kpi .n.e{color:var(--mint)}
+  .kpi .l{font-size:11px;font-weight:500;letter-spacing:.04em;color:#9FC2EA;margin-top:3px;text-transform:uppercase}
+  .band .sep{width:1px;height:38px;background:rgba(255,255,255,.16)}
+  .legend{margin-left:auto;display:flex;flex-direction:column;gap:5px;align-items:flex-end}
+  .legend .lt{font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#9FC2EA}
+  .legend .sc{display:flex;gap:5px}
+  .legend .sc i{width:24px;height:20px;border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;color:#fff}
+
+  /* ---- scorecard sheet (the hero artifact) ---- */
+  .sheet{margin-top:13px;border:1px solid #cfe0f3;border-radius:13px;overflow:hidden;
+    box-shadow:0 18px 40px rgba(33,93,195,.13)}
+  .srow{display:grid;grid-template-columns:288px repeat(5,1fr) 172px}
+  .shead{background:linear-gradient(120deg,#16294a,#1d3d74)}
+  .shead .hc{padding:9px 8px 8px;text-align:center;border-left:1px solid rgba(255,255,255,.10);
+    display:flex;flex-direction:column;align-items:center;gap:3px}
+  .shead .hc.first{align-items:flex-start;justify-content:center;border-left:0;padding-left:18px;text-align:left}
+  .shead .ht{font-size:12.5px;font-weight:700;color:#EAF3FD;letter-spacing:.02em;line-height:1.05}
+  .shead .hw{font-size:11px;font-weight:700;color:#7FB0E6}
+  .shead .hi{width:16px;height:16px;background:#9FC2EA;-webkit-mask-size:contain;mask-size:contain;
+    -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:center;mask-position:center}
+  .shead .first .ht{font-size:13px;color:#fff} .shead .first .hsub{font-size:11px;font-weight:500;color:#9FC2EA;letter-spacing:.04em}
+  .shead .htot .ht{color:#9af5d1}
+  /* body rows */
+  .brow{background:#fff;border-top:1px solid #e6f0fb}
+  .brow.win{background:linear-gradient(90deg,rgba(56,230,166,.10),rgba(56,230,166,.03) 60%,#fff)}
+  .cell{padding:0 8px;display:flex;align-items:center;justify-content:center;border-left:1px solid #eef5fc;min-height:78px}
+  /* supplier identity cell */
+  .who2{border-left:0;justify-content:flex-start;gap:13px;padding-left:16px}
+  .medal{flex:0 0 auto;width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-size:21px;font-weight:800;color:#fff;position:relative;background:linear-gradient(160deg,#7E92B0,#5C7090)}
+  .who2 .meta{display:flex;flex-direction:column;gap:4px}
+  .who2 .nm{font-size:20px;font-weight:800;color:var(--ink);line-height:1}
+  .who2 .tag{display:inline-flex;align-items:center;align-self:flex-start;font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;letter-spacing:.01em}
+  .who2 .note{font-size:11.5px;font-weight:500;color:var(--muted);line-height:1.18}
+  .crown{position:absolute;top:-15px;left:50%;transform:translateX(-50%);width:22px;height:22px;background:#FFC542;
+    -webkit-mask:url(../assets/icons/trophy.svg) center/contain no-repeat;mask:url(../assets/icons/trophy.svg) center/contain no-repeat;
+    filter:drop-shadow(0 3px 4px rgba(180,120,0,.3))}
+  /* score (heatmap) cell */
+  .sc-cell .v{width:50px;height:50px;border-radius:11px;display:flex;align-items:center;justify-content:center;
+    font-size:24px;font-weight:800;color:#fff;box-shadow:0 4px 10px rgba(8,28,60,.16),inset 0 1px 0 rgba(255,255,255,.35)}
+  /* weighted-total cell */
+  .totcell{flex-direction:column;gap:5px;background:rgba(33,93,195,.035)}
+  .totcell.win{background:rgba(56,230,166,.10)}
+  .totcell .tline{display:flex;align-items:baseline;gap:4px}
+  .totcell .big{font-size:32px;font-weight:800;line-height:.9;letter-spacing:-1px}
+  .totcell .of{font-size:13px;font-weight:600;color:var(--muted)}
+  .totcell .bar{width:120px;height:8px;border-radius:5px;background:#e4eef9;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(20,50,100,.06)}
+  .totcell .bar span{display:block;height:100%;border-radius:5px}
+  .totcell .d{font-size:11.5px;font-weight:700;display:flex;align-items:center;gap:4px}
+  .up{color:var(--eco-text)} .down{color:var(--coral-deep)}
+
+  /* ---- dual row: radar (visual model) + rank-flip ---- */
+  .dual{margin-top:13px;display:grid;grid-template-columns:404px 1fr;gap:13px;align-items:stretch}
+  .panel{background:#fff;border:1px solid var(--line);border-radius:13px;box-shadow:0 12px 26px rgba(33,93,195,.08);padding:12px 16px;display:flex;flex-direction:column}
+  .panel .pt{font-size:12px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--deep);display:flex;align-items:center;gap:8px}
+  .panel .pt .pd{font-size:11px;font-weight:600;letter-spacing:0;text-transform:none;color:var(--muted)}
+  /* radar */
+  .radar svg{width:100%;height:auto;display:block;margin-top:2px}
+  .rleg{display:flex;gap:16px;justify-content:center;margin-top:2px}
+  .rleg span{display:flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--ink)}
+  .rleg i{width:13px;height:13px;border-radius:4px}
+  /* flip */
+  .flip{justify-content:space-between;gap:10px}
+  .flip .ord{display:flex;align-items:center;gap:8px}
+  .flip .fl{font-size:11.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+  .flip .l .fl{color:var(--coral-deep)} .flip .r .fl{color:var(--deep)}
+  .flip .chip{width:42px;height:42px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:800;color:#fff}
+  .flip .chip.dim{opacity:.45} .flip .gt{color:var(--muted);font-size:17px;font-weight:700}
+  .flip .chip.bwin{background:linear-gradient(150deg,#46E6AC,#15B589);box-shadow:0 5px 12px rgba(20,176,126,.34)}
+  .flip .chip.ablue{background:linear-gradient(150deg,#5DB0F8,#2A78DC)}
+  .flip .chip.cgrey{background:linear-gradient(150deg,#94A6C2,#64789B)}
+  .flip .cap{font-size:12.5px;font-weight:500;color:var(--muted);line-height:1.24}
+  .flip .cap b{color:var(--eco-text);font-weight:700} .flip .cap .x{color:var(--coral-deep);font-weight:700}
+  .flip .down-ar{align-self:center;font-size:22px;font-weight:800;color:var(--deep);line-height:.6}
+  .flip .seg{display:flex;flex-direction:column;gap:6px}
+
+  /* ---- verdict + honesty ---- */
+  .verdict{margin-top:13px;background:#fff;border-left:5px solid var(--azure);border-radius:12px;
+    box-shadow:0 12px 26px rgba(33,93,195,.08);padding:14px 22px;font-size:17.5px;font-weight:500;color:var(--ink);line-height:1.4}
+  .verdict b{color:var(--eco-text);font-weight:700} .verdict .px{color:var(--coral-deep);font-weight:700}
+  .honesty{margin-top:11px;display:flex;gap:12px;align-items:flex-start;background:rgba(224,162,59,.10);
+    border:1px solid rgba(224,162,59,.30);border-radius:12px;padding:12px 18px}
+  .honesty .hi{width:21px;height:21px;flex:none;margin-top:1px;background:#C9881F;
+    -webkit-mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat;mask:url(../assets/icons/triangle-alert.svg) center/contain no-repeat}
+  .honesty p{font-size:14px;font-weight:500;color:#7a5a12;line-height:1.32}
+  .honesty p b{color:#5e4408;font-weight:700}
+
+  /* ---- prompt (full-width, justified) ---- */
+  .prompt{margin-top:11px;background:#13233f;border-radius:13px;padding:13px 22px 15px;box-shadow:0 16px 34px rgba(19,35,63,.22)}
+  .phead{display:flex;align-items:center;gap:9px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#8FF3CC;margin-bottom:7px}
+  .phead .dot{width:9px;height:9px;border-radius:50%;background:var(--eco)}
+  .prompt .pre{font-family:"JetBrains Mono",monospace;font-size:12.5px;line-height:1.46;color:#E2F0FB;text-align:justify;text-justify:inter-word}
+  .prompt .pre b{color:#8FF3CC;font-weight:600}
+  .prompt .pre .s{color:#7FB0E6;font-weight:700}
+
+  /* ---- footer ---- */
+  .footrule{margin-top:auto;height:3px;border-radius:3px;
+    background:linear-gradient(90deg,var(--azure),var(--eco) 55%,rgba(56,230,166,0) 100%)}
+  .foot{display:flex;align-items:center;justify-content:space-between;padding-top:14px}
+  .who{display:flex;align-items:center;gap:14px}
+  .who img{height:74px;width:auto}
+  .sig{font-size:17.5px;font-weight:700;color:var(--ink);text-align:right;line-height:1.2}
+</style>
+</head>
+<body>
+<div id="card">
+  <div class="top">
+    <span class="kick">AI for Supply Chain · Procurement</span>
+    <div class="toolmark"><img src="../assets/logos/copilot-color.svg" alt="Microsoft Copilot"></div>
+  </div>
+  <h1>One sheet. Five criteria.<br>A QBR that <span class="g">actually decides</span>.</h1>
+  <div class="sub">Score every supplier on the same five criteria, weight what matters, and rank them. You assemble one clean Excel table; Copilot scores, weights, ranks and colour-codes it in minutes — so the quarterly review opens on a decision, not a debate.</div>
+
+  <div class="band">
+    <div class="kpi"><span class="n">3</span><span class="l">suppliers</span></div>
+    <div class="sep"></div>
+    <div class="kpi"><span class="n">5</span><span class="l">weighted criteria</span></div>
+    <div class="sep"></div>
+    <div class="kpi"><span class="n e">B</span><span class="l">winner · 4.45 / 5</span></div>
+    <div class="sep"></div>
+    <div class="kpi"><span class="n">1.50</span><span class="l">point spread</span></div>
+    <div class="legend"><span class="lt">Score 1–5</span><span class="sc">
+      <i style="background:#cf5c84">1</i><i style="background:#E36A95">2</i><i style="background:#3E9BF2">3</i><i style="background:#43C194">4</i><i style="background:#16C98E">5</i></span></div>
+  </div>
+
+  <div class="sheet" id="sheet"></div>
+
+  <div class="dual">
+    <div class="panel">
+      <div class="pt">Profile across criteria <span class="pd">· same five axes</span></div>
+      <svg id="radar" viewBox="0 0 380 248" aria-label="Supplier radar chart"></svg>
+      <div class="rleg">
+        <span><i style="background:#16B98A"></i>B</span>
+        <span><i style="background:#2A78DC"></i>A</span>
+        <span><i style="background:#64789B"></i>C</span>
+      </div>
+    </div>
+    <div class="panel flip">
+      <div class="seg l">
+        <span class="fl">Rank on price alone</span>
+        <div class="ord"><span class="chip ablue">A</span><span class="gt">›</span><span class="chip cgrey">C</span><span class="gt">›</span><span class="chip bwin dim">B</span></div>
+        <span class="cap">The <span class="x">cheapest quote</span> puts B last.</span>
+      </div>
+      <div class="down-ar">↓</div>
+      <div class="seg r">
+        <span class="fl">Rank on what a QBR measures</span>
+        <div class="ord"><span class="chip bwin">B</span><span class="gt">›</span><span class="chip ablue">A</span><span class="gt">›</span><span class="chip cgrey">C</span></div>
+        <span class="cap">Weight quality + delivery and <b>B is the one you keep</b>.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="verdict">Supplier A wins on <span class="px">price (5/5)</span>, but 3/5 on delivery drags its weighted score to <b>3.80</b>. B trades two points of price for 5/5 quality and on-time and lands at <b>4.45</b> — and a QBR is about whether a supplier keeps delivering, not who quoted lowest. The cheaper quote is the costlier supplier.</div>
+
+  <div class="honesty">
+    <span class="hi"></span>
+    <p><b>Copilot scores what you feed it.</b> It reads only the open workbook — it can't pull from SAP, your QMS or email, it needs a clean Excel table to start (and a paid M365 Copilot licence), and it can mis-weight a column or misread a number. Pull the hard metrics (OTIF, defects) yourself, lock the definitions, and re-derive the top supplier's score by hand before the ranking goes near a supplier.</p>
+  </div>
+
+  <div class="prompt">
+    <div class="phead"><span class="dot"></span>Copy-paste prompt · Copilot in Excel</div>
+    <div class="pre"><span class="s">1.</span> From the Excel table on this sheet (one row per supplier), normalise each metric to 0–100 where higher is better — and <b>invert defect/PPM so fewer defects score higher</b>; state the formula. <span class="s">2.</span> Compute a weighted composite with <b>SUMPRODUCT</b> using Quality <b>30%</b>, On-time <b>25%</b>, Price <b>20%</b>, Responsiveness <b>15%</b>, Compliance <b>10%</b> (confirm they sum to 100). <span class="s">3.</span> Add a Tier column (≥85 Preferred · 70–84 Approved · &lt;70 At-risk) and rank highest first. <span class="s">4.</span> Apply a red→green colour scale to every criterion and the composite. <span class="s">5.</span> Summarise each supplier's top strength, top risk, one QBR action — then <b>show your working so I can verify the math</b>.</div>
+  </div>
+
+  <div class="footrule"></div>
+  <div class="foot">
+    <div class="who"><img src="../assets/logos/shettys-desk-logo-2.png" alt="Shetty's Desk"></div>
+    <div class="sig">Poornajith Shetty</div>
+  </div>
+</div>
+
+<script>
+(function(){
+  const crit=[
+    {n:'Quality',     w:30, ic:'badge-check'},
+    {n:'On-time',     w:25, ic:'truck'},
+    {n:'Price',       w:20, ic:'tag'},
+    {n:'Responsive',  w:15, ic:'message-circle'},
+    {n:'Compliance',  w:10, ic:'shield-check'},
+  ];
+  const sups=[
+    {id:'B',name:'Supplier B',scores:[5,5,3,4,5],tot:'4.45',rank:1,delta:'+0.5',dir:'up',  dec:'Keep & grow',        decBg:'#0C8F6B', note:'5/5 quality and on-time', win:true},
+    {id:'A',name:'Supplier A',scores:[4,3,5,3,4],tot:'3.80',rank:2,delta:'+0.2',dir:'up',  dec:'Develop · fix delivery', decBg:'#247BE1', note:'cheapest, but slips on delivery'},
+    {id:'C',name:'Supplier C',scores:[3,2,4,3,3],tot:'2.95',rank:3,delta:'-0.3',dir:'down',dec:'Review · re-source',   decBg:'#cf5c84', note:"low price can't carry the risk"},
+  ];
+  const heat={5:'#16C98E',4:'#43C194',3:'#3E9BF2',2:'#E36A95',1:'#cf5c84'};
+  const totCol={B:'var(--eco-text)',A:'var(--deep)',C:'var(--coral-deep)'};
+  const barFill={B:'linear-gradient(90deg,#5CEDB6,#16B98A)',A:'linear-gradient(90deg,#5CB0F9,#2480E6)',C:'linear-gradient(90deg,#9db0cc,#64789B)'};
+  const medalBg={B:'linear-gradient(160deg,#FFE08A,#F4B43C)',A:'linear-gradient(160deg,#7E92B0,#5C7090)',C:'linear-gradient(160deg,#9aa9c2,#73849f)'};
+  const sheet=document.getElementById('sheet');
+  const mask=ic=>'-webkit-mask:url(../assets/icons/'+ic+'.svg) center/contain no-repeat;mask:url(../assets/icons/'+ic+'.svg) center/contain no-repeat';
+
+  // header row
+  let h='<div class="srow shead">'+
+    '<div class="hc first"><span class="ht">Q3 FY26 scorecard</span><span class="hsub">supplier · weighted</span></div>';
+  crit.forEach(c=>{ h+='<div class="hc"><span class="hi" style="'+mask(c.ic)+'"></span><span class="ht">'+c.n+'</span><span class="hw">'+c.w+'%</span></div>'; });
+  h+='<div class="hc htot"><span class="ht">Weighted</span><span class="hw">/ 5 · rank</span></div></div>';
+  sheet.innerHTML=h;
+
+  // body rows
+  sups.forEach(s=>{
+    const win=s.win?' win':'';
+    let r='<div class="srow brow'+win+'">';
+    r+='<div class="cell who2"><div class="medal" style="background:'+medalBg[s.id]+';color:'+(s.win?'#0C8F6B':'#fff')+'">'+s.rank+(s.win?'<span class="crown"></span>':'')+'</div>'+
+       '<div class="meta"><span class="nm">'+s.name+'</span>'+
+       '<span class="tag" style="background:'+s.decBg+'1f;color:'+s.decBg+'">'+s.dec+'</span>'+
+       '<span class="note">'+s.note+'</span></div></div>';
+    s.scores.forEach(v=>{ r+='<div class="cell sc-cell"><span class="v" style="background:'+heat[v]+'">'+v+'</span></div>'; });
+    const fill=(parseFloat(s.tot)/5*100).toFixed(1);
+    r+='<div class="cell totcell'+win+'">'+
+       '<div class="tline"><span class="big" style="color:'+totCol[s.id]+'">'+s.tot+'</span><span class="of">/5</span></div>'+
+       '<div class="bar"><span style="width:'+fill+'%;background:'+barFill[s.id]+'"></span></div>'+
+       '<div class="d '+s.dir+'">'+(s.dir==='up'?'▲':'▼')+' '+s.delta.replace(/[+-]/,'')+' QoQ</div></div>';
+    r+='</div>';
+    sheet.insertAdjacentHTML('beforeend', r);
+  });
+
+  // ---- radar chart ----
+  const RC={x:190,y:120,R:96};
+  const N=crit.length;
+  const ang=i=>(-90 + i*360/N)*Math.PI/180;
+  const pt=(v,i)=>[RC.x+(v/5)*RC.R*Math.cos(ang(i)), RC.y+(v/5)*RC.R*Math.sin(ang(i))];
+  const rcol={B:'#16B98A',A:'#2A78DC',C:'#64789B'};
+  let svg='';
+  // rings
+  [1,2,3,4,5].forEach(ring=>{
+    let p=crit.map((_,i)=>pt(ring,i).join(',')).join(' ');
+    svg+='<polygon points="'+p+'" fill="none" stroke="#dceaf8" stroke-width="1"/>';
+  });
+  // spokes + axis labels
+  crit.forEach((c,i)=>{
+    const [ex,ey]=pt(5,i);
+    svg+='<line x1="'+RC.x+'" y1="'+RC.y+'" x2="'+ex+'" y2="'+ey+'" stroke="#dceaf8" stroke-width="1"/>';
+    const [lx,ly]=pt(6.05,i);
+    const anch=Math.abs(lx-RC.x)<6?'middle':(lx>RC.x?'start':'end');
+    svg+='<text x="'+lx+'" y="'+(ly+3)+'" text-anchor="'+anch+'" font-family="Poppins,sans-serif" font-size="11.5" font-weight="700" fill="#5D7599">'+c.n+'</text>';
+  });
+  // supplier polygons (draw weakest first)
+  ['C','A','B'].forEach(id=>{
+    const s=sups.find(x=>x.id===id);
+    let p=s.scores.map((v,i)=>pt(v,i).join(',')).join(' ');
+    const col=rcol[id], lead=(id==='B');
+    svg+='<polygon points="'+p+'" fill="'+col+(lead?'2e':'18')+'" stroke="'+col+'" stroke-width="'+(lead?2.4:1.6)+'" stroke-linejoin="round"/>';
+    s.scores.forEach((v,i)=>{const[px,py]=pt(v,i);svg+='<circle cx="'+px+'" cy="'+py+'" r="'+(lead?3.2:2.4)+'" fill="'+col+'"/>';});
+  });
+  document.getElementById('radar').innerHTML=svg;
+})();
+</script>
+<script src="../assets/js/gsap.min.js"></script>
+<script>
+(function(){
+  const qa=s=>Array.from(document.querySelectorAll(s));
+  const bandN=qa('.band .kpi .n');     // [3, 5, B, 1.50]
+  const totN =qa('.totcell .big');     // [B 4.45, A 3.80, C 2.95]
+  // hold computed numbers at zero until they count up
+  bandN[0].textContent='0'; bandN[1].textContent='0'; bandN[3].textContent='0.00';
+  totN.forEach(el=>el.textContent='0.00');
+
+  // initial states
+  gsap.set('.kick',{opacity:0,y:18});
+  gsap.set('.toolmark',{opacity:0,scale:.4,rotate:-12,transformOrigin:'center center'});
+  gsap.set('h1',{opacity:0,y:22});
+  gsap.set('.sub',{opacity:0,y:18});
+  gsap.set('.band',{opacity:0,y:-16});
+  gsap.set('.legend .sc i',{opacity:0,scale:.4,transformOrigin:'center'});
+  gsap.set('.sheet .shead',{opacity:0,y:-12});
+  gsap.set('.sheet .brow',{opacity:0,y:20});
+  gsap.set('.sc-cell .v',{opacity:0,scale:.3,transformOrigin:'center'});
+  gsap.set('.totcell .bar span',{scaleX:0,transformOrigin:'left center'});
+  gsap.set('.crown',{xPercent:-50,opacity:0,y:-14,scale:.4,transformOrigin:'center bottom'});
+  gsap.set('#radar',{opacity:0,scale:.6,transformOrigin:'50% 48%'});
+  gsap.set('.flip .seg.l',{opacity:0,x:-16});
+  gsap.set('.flip .down-ar',{opacity:0,scale:.5});
+  gsap.set('.flip .seg.r',{opacity:0,x:16});
+  gsap.set('.verdict',{opacity:0,y:16});
+  gsap.set('.honesty',{opacity:0,y:14});
+  gsap.set('.prompt',{opacity:0,y:14});
+  gsap.set('.footrule',{scaleX:0,transformOrigin:'left center'});
+  gsap.set('.foot',{opacity:0});
+
+  const tl=gsap.timeline({paused:true,defaults:{ease:'power2.out'}});
+  // count-up tween (seek-safe: animates a proxy, writes textContent on update)
+  const count=(el,end,dec,pos)=>tl.to({v:0},{v:end,duration:.7,ease:'power1.out',
+    onUpdate:function(){el.textContent=dec?this.targets()[0].v.toFixed(dec):String(Math.round(this.targets()[0].v));}},pos);
+
+  tl.to('.kick',{opacity:1,y:0,duration:.4},0.0)
+    .to('.toolmark',{opacity:1,scale:1,rotate:0,duration:.55,ease:'back.out(1.7)'},0.1)
+    .to('h1',{opacity:1,y:0,duration:.5},0.2)
+    .to('.sub',{opacity:1,y:0,duration:.5},0.5)
+    .to('.band',{opacity:1,y:0,duration:.5},0.82);
+  count(bandN[0],3,0,0.95); count(bandN[1],5,0,0.95); count(bandN[3],1.50,2,0.95);
+  tl.to('.legend .sc i',{opacity:1,scale:1,duration:.35,stagger:.07,ease:'back.out(1.7)'},1.15)
+    .to('.sheet .shead',{opacity:1,y:0,duration:.45},1.45)
+    .to('.sheet .brow',{opacity:1,y:0,duration:.5,stagger:.18},1.7)
+    .to('.sc-cell .v',{opacity:1,scale:1,duration:.4,stagger:.04,ease:'back.out(1.8)'},1.95)
+    .to('.totcell .bar span',{scaleX:1,duration:.6,stagger:.18,ease:'power2.out'},2.2);
+  count(totN[0],4.45,2,2.25); count(totN[1],3.80,2,2.25); count(totN[2],2.95,2,2.25);
+  // climax: winner B resolves
+  tl.to('.crown',{opacity:1,y:0,scale:1,duration:.5,ease:'back.out(2)'},3.0)
+    .to('.totcell.win .big',{scale:1.12,duration:.34,yoyo:true,repeat:1,ease:'sine.inOut',transformOrigin:'left center'},3.05)
+    .to('#radar',{opacity:1,scale:1,duration:.55,ease:'power2.out'},3.4)
+    .to('.flip .seg.l',{opacity:1,x:0,duration:.4},3.62)
+    .to('.flip .down-ar',{opacity:1,scale:1,duration:.35,ease:'back.out(2)'},3.92)
+    .to('.flip .seg.r',{opacity:1,x:0,duration:.42},4.06)
+    .to('.verdict',{opacity:1,y:0,duration:.5},4.36)
+    .to('.honesty',{opacity:1,y:0,duration:.45},4.62)
+    .to('.prompt',{opacity:1,y:0,duration:.45},4.84)
+    .to('.footrule',{scaleX:1,duration:.5,ease:'power2.inOut'},5.06)
+    .to('.foot',{opacity:1,duration:.5},5.16);
+
+  window.__tl=tl; window.__dur=tl.duration();
+  (document.fonts?document.fonts.ready:Promise.resolve()).then(()=>{window.__ready=true;});
+})();
+</script>
+</body>
+</html>
