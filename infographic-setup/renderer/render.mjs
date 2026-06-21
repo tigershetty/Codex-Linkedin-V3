@@ -28,7 +28,10 @@ const jobs = args.length >= 2
       ['templates/pf5-radial-hub.html', 'out/pf5-radial-hub.png'],
     ];
 
-const browser = await chromium.launch();
+const launchOpts = process.env.CHROME_PATH
+  ? { executablePath: process.env.CHROME_PATH, args: ['--no-sandbox', '--disable-dev-shm-usage'] }
+  : {};
+const browser = await chromium.launch(launchOpts);
 const ctx = await browser.newContext({ deviceScaleFactor: 2, viewport: { width: 1080, height: 1350 } });
 const page = await ctx.newPage();
 

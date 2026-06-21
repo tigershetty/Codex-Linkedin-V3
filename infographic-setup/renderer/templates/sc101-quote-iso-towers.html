@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<style>
+  :root{
+    --azure:#2798FB; --sky:#50A9F7; --royal:#247BE1; --deep:#215DC3; --navy:#1939A5;
+    --eco:#38E6A6; --eco-text:#14B07E; --mint:#8FF3CC; --coral:#E27199; --coral-deep:#cf5c84;
+    --ink:#15315C; --muted:#5D7599; --line:#DCEAF8; --tint:#E2F0FB; --tint2:#EEF6FE;
+    --eco-grad:linear-gradient(135deg,#8FF3CC,#38E6A6,#1FC98B);
+    --c0:#93C9FA; --c1:#54A6F6; --c2:#2E8FF0; --c3:#25C58C; --c4:#12A06F;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px}
+  #card{
+    width:1080px;height:1400px;position:relative;overflow:hidden;
+    font-family:"Poppins",system-ui,sans-serif;color:var(--ink);
+    background:
+      radial-gradient(ellipse 52% 32% at 88% 1%, rgba(56,230,166,.16) 0%, transparent 60%),
+      radial-gradient(ellipse 58% 38% at 3% 20%, rgba(39,152,251,.14) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F5FAFE 55%,#EAF3FD 100%);
+    padding:22px 24px 18px;display:flex;flex-direction:column;
+  }
+  .kicker{font-size:15px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--azure)}
+  h1{font-size:57px;font-weight:800;line-height:.98;margin-top:11px;letter-spacing:-1px;color:var(--ink)}
+  h1 .g{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .rule{height:5px;width:100%;margin:14px 0 9px;border-radius:5px;
+    background:linear-gradient(90deg,var(--azure) 0%,var(--sky) 36%,rgba(80,169,247,0) 100%)}
+  .sub{font-size:20px;font-weight:400;color:var(--muted);max-width:900px;line-height:1.3}
+
+  /* iso scene */
+  .scene{position:relative;width:1032px;height:472px;margin-top:0}
+  .shape{position:absolute;inset:0;pointer-events:none}
+  .lbl{position:absolute;transform:translate(-50%,-50%);text-align:center;pointer-events:none}
+  .badge{width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-size:28px;font-weight:800;color:#fff;border:3px solid #fff;box-shadow:0 9px 18px rgba(12,35,75,.28)}
+  .vtop{font-size:14px;font-weight:800}
+  .tier{font-size:18px;font-weight:800;line-height:1.05;white-space:nowrap}
+  .tier .s{display:block;font-size:12.5px;font-weight:600;color:var(--muted);margin-top:2px}
+  .ptag{display:flex;align-items:center;gap:6px;background:#fff;border:1.5px solid var(--line);
+    border-radius:999px;padding:6px 13px;box-shadow:0 8px 16px rgba(20,50,100,.12);white-space:nowrap}
+  .ptag .ic{width:14px;height:14px;background:var(--muted);
+    -webkit-mask:url(../assets/icons/tag.svg) center/contain no-repeat;mask:url(../assets/icons/tag.svg) center/contain no-repeat}
+  .ptag .pv{font-size:15px;font-weight:800;color:var(--ink);line-height:1}
+  .ptag .pu{font-size:10.5px;font-weight:600;color:var(--muted);line-height:1}
+  .crown{position:absolute;transform:translate(-50%,-50%);width:34px;height:34px;background:#FFC542;
+    -webkit-mask:url(../assets/icons/trophy.svg) center/contain no-repeat;mask:url(../assets/icons/trophy.svg) center/contain no-repeat;
+    filter:drop-shadow(0 4px 6px rgba(180,120,0,.35))}
+
+  /* side callouts (fill whitespace with teaching) */
+  .callout{position:absolute;width:188px;background:#fff;border:1px solid var(--line);border-radius:14px;
+    box-shadow:0 12px 26px rgba(20,50,100,.12);padding:13px 15px}
+  .callout .ch{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:800;letter-spacing:.02em;margin-bottom:5px}
+  .callout .ci{width:20px;height:20px;border-radius:6px;display:flex;align-items:center;justify-content:center}
+  .callout .ci .m{width:13px;height:13px;background:#fff;-webkit-mask-size:contain;mask-size:contain;
+    -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:center;mask-position:center}
+  .callout p{font-size:13.5px;font-weight:500;color:var(--muted);line-height:1.34}
+  .callout p b{color:var(--ink);font-weight:700}
+
+  /* scorecard panel (Harvey balls + share) */
+  .scard{margin-top:4px;background:#fff;border:1px solid var(--line);border-radius:18px;
+    box-shadow:0 16px 32px rgba(33,93,195,.09);padding:16px 24px 18px}
+  .sctitle{display:flex;align-items:center;justify-content:space-between;margin-bottom:9px}
+  .sctitle .t{font-size:14px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+  .sctitle .leg{display:flex;align-items:center;gap:9px;font-size:12px;font-weight:600;color:var(--muted)}
+  .sctitle .leg .dots{display:flex;gap:3px}
+  .sctitle .leg .d{width:13px;height:13px;border-radius:50%;box-shadow:inset 0 0 0 1.5px rgba(20,50,100,.14)}
+  .scgrid{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr;align-items:center;row-gap:8px}
+  .suphead{display:flex;flex-direction:column;align-items:center;gap:3px}
+  .suphead .bd{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    color:#fff;font-weight:800;font-size:17px;border:2px solid #fff;box-shadow:0 4px 10px rgba(12,35,75,.2)}
+  .suphead .tn{font-size:10.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+  .critlab{display:flex;align-items:center;gap:10px;font-size:15.5px;font-weight:600;color:var(--ink)}
+  .critlab .sw{width:14px;height:14px;border-radius:4px;flex:none}
+  .critlab .ic{width:17px;height:17px;flex:none;-webkit-mask-size:contain;mask-size:contain;
+    -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:center;mask-position:center}
+  .ballcell{display:flex;justify-content:center;align-items:center}
+  .ball{width:29px;height:29px;border-radius:50%;box-shadow:inset 0 0 0 2px rgba(20,50,100,.10)}
+  .colhi{background:rgba(56,230,166,.08)}
+  .scdiv{grid-column:1/5;height:1px;background:var(--line);margin:4px 0 2px}
+  .totlab{font-size:15.5px;font-weight:800;color:var(--ink);display:flex;align-items:center;gap:8px}
+  .totcell{text-align:center;font-size:25px;font-weight:800;line-height:1}
+  .totcell .o{display:block;font-size:11px;font-weight:600;color:var(--muted);margin-top:1px}
+  .scshare{margin-top:13px}
+  .scshare .sh{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:8px}
+  .scshare .sh .t{font-size:13.5px;font-weight:800;letter-spacing:.03em;text-transform:uppercase;color:var(--muted)}
+  .scshare .sh .r{font-size:14.5px;font-weight:500;color:var(--muted)}
+  .scshare .sh .r b{color:var(--eco-text);font-weight:800} .scshare .sh .r .px{color:var(--coral-deep);font-weight:800}
+  .sbar{display:flex;height:40px;border-radius:10px;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(20,50,100,.06)}
+  .sbar span{display:flex;align-items:center;justify-content:center;color:#fff;font-size:15px;font-weight:800;
+    text-shadow:0 1px 2px rgba(8,28,60,.25)}
+  .sbar .c{background:linear-gradient(180deg,#EE9CBA,#cf5c84)}
+  .sbar .a{background:linear-gradient(180deg,#5CB0F9,#2480E6)}
+  .sbar .b{background:linear-gradient(180deg,#5CEDB6,#16B98A)}
+
+  .insight{margin-top:13px;font-size:18px;font-weight:500;color:var(--ink);line-height:1.4;padding-left:16px;
+    border-left:5px solid var(--azure)}
+  .insight b{color:var(--eco-text);font-weight:700} .insight .px{color:var(--coral-deep);font-weight:700}
+
+  .footrule{margin-top:auto;height:3px;border-radius:3px;
+    background:linear-gradient(90deg,var(--azure),var(--eco) 55%,rgba(56,230,166,0) 100%)}
+  .foot{display:flex;align-items:center;justify-content:space-between;padding-top:14px}
+  .who{display:flex;align-items:center;gap:14px}
+  .who img{width:55px;height:55px;border-radius:13px}
+  .who .nm{font-size:17.5px;font-weight:700;color:var(--ink);line-height:1.15}
+  .who .hd{font-size:13.5px;font-weight:400;color:var(--muted)}
+  .sig{font-size:17.5px;font-weight:700;color:var(--ink);text-align:right;line-height:1.2}
+</style>
+</head>
+<body>
+<div id="card">
+  <div class="kicker">Supply Chain 101 · Procurement</div>
+  <h1>The cheapest quote is rarely<br><span class="g">the cheapest supplier</span></h1>
+  <div class="rule"></div>
+  <div class="sub">Price is one band on a tower of five. Stack the columns that actually matter, score each one, and the lowest bid is almost never the tallest — that height gap is the value you'd give up.</div>
+
+  <div class="scene" id="scene"></div>
+
+  <div class="scard">
+    <div class="sctitle">
+      <span class="t">The scorecard behind the heights</span>
+      <span class="leg">Rated 1–5 per criterion
+        <span class="dots">
+          <span class="d" style="background:conic-gradient(#7C93AD 0 20%,#E6F0FA 0)"></span>
+          <span class="d" style="background:conic-gradient(#7C93AD 0 60%,#E6F0FA 0)"></span>
+          <span class="d" style="background:conic-gradient(#7C93AD 0 100%,#E6F0FA 0)"></span>
+        </span>
+      </span>
+    </div>
+    <div class="scgrid" id="sc"></div>
+    <div class="scshare">
+      <div class="sh"><span class="t">Share of total value</span>
+        <span class="r">Supplier <b>B</b> carries <b>2.1×</b> the value of the <span class="px">false-economy</span> bid — for <b>+17%</b> per unit.</span></div>
+      <div class="sbar">
+        <span class="c" style="width:21.2%">C&nbsp;·&nbsp;21%</span>
+        <span class="a" style="width:33.2%">A&nbsp;·&nbsp;33%</span>
+        <span class="b" style="width:45.6%">B&nbsp;·&nbsp;46%</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="insight">Supplier A wins on <span class="px">price</span> alone, then runs thin above it. C is cheap and weak. B gives up a little on price and stacks the <b>green value</b> — quality, terms, references — that nobody else brought.</div>
+
+  <div class="footrule"></div>
+  <div class="foot">
+    <div class="who"><img src="../assets/logos/shettys-desk-logo-1.png" alt="Shetty's Desk"><div><div class="nm">Shetty's Desk</div></div></div>
+    <div class="sig">Poornajith Shetty</div>
+  </div>
+</div>
+
+<script>
+(function(){
+  const criteria=[
+    {name:'Price',         color:'#93C9FA', icon:'tag'},
+    {name:'Lead time',     color:'#54A6F6', icon:'clock'},
+    {name:'Quality',       color:'#2E8FF0', icon:'badge-check'},
+    {name:'Payment terms', color:'#25C58C', icon:'shield-check'},
+    {name:'References',    color:'#12A06F', icon:'message-circle'},
+  ];
+  const sup={
+    C:{ring:'#E27199',tier:'False economy',sub:'cheap + weak',          price:['$10.20','/ unit'],          scores:[18,8,6,5,4]},
+    A:{ring:'#2798FB',tier:'Cheapest bid', sub:'average value',         price:['$9.80','/ unit · cheapest'], scores:[20,12,12,10,10]},
+    B:{ring:'#16B98A',tier:'Best value',   sub:'fair price · worth most',price:['$11.50','/ unit'],          scores:[12,18,20,18,20],crown:true},
+  };
+  const order=['C','A','B'];
+  const diffs={C:-1.70,A:0,B:1.70};
+  const totalCol={C:'var(--coral-deep)',A:'var(--deep)',B:'var(--eco-text)'};
+  const sum=arr=>arr.reduce((s,x)=>s+x,0);
+
+  /* ---------- towers ---------- */
+  const scene=document.getElementById('scene'); const W=scene.clientWidth;
+  const a=140,b=70, OX=W/2, OY=158;
+  const iso=(u,v)=>[OX+(u-v)*a, OY+(u+v)*b];
+  const SUM=3.05, fa=88, fb=fa/2, PXV=2.35;
+  const cc=criteria.map(c=>c.color);
+  function poly(pts,bg,z){const d=document.createElement('div');d.className='shape';
+    d.style.clipPath='polygon('+pts.map(p=>p[0].toFixed(1)+'px '+p[1].toFixed(1)+'px').join(',')+')';
+    d.style.background=bg; if(z!=null)d.style.zIndex=z; scene.appendChild(d);}
+  function place(el,x,y,z){el.style.left=x+'px';el.style.top=y+'px';if(z!=null)el.style.zIndex=z;scene.appendChild(el);}
+  function shade(hex,amt){const n=parseInt(hex.slice(1),16);let r=(n>>16)+amt,g=((n>>8)&255)+amt,bb=(n&255)+amt;
+    r=Math.max(0,Math.min(255,r));g=Math.max(0,Math.min(255,g));bb=Math.max(0,Math.min(255,bb));
+    return '#'+((1<<24)+(r<<16)+(g<<8)+bb).toString(16).slice(1);}
+
+  order.forEach((id,ti)=>{
+    const t=sup[id]; const u=(SUM+diffs[id])/2, v=(SUM-diffs[id])/2; const [cx,cy]=iso(u,v);
+    const total=sum(t.scores), Htot=total*PXV, zbase=20+ti*60;
+    // ground shadow
+    const sh=document.createElement('div');sh.className='shape';sh.style.inset='auto';
+    sh.style.left=(cx-fa*0.66)+'px';sh.style.top=(cy+fb-8)+'px';sh.style.width=(fa*1.32)+'px';
+    sh.style.height=(fb*0.64)+'px';sh.style.borderRadius='50%';
+    sh.style.background='radial-gradient(ellipse at center, rgba(18,42,90,.17), rgba(18,42,90,0) 72%)';
+    sh.style.zIndex=zbase-5;scene.appendChild(sh);
+    // stacked bands
+    let zacc=0;
+    t.scores.forEach((sc,si)=>{
+      const h=sc*PXV, yB=cy-zacc, yT=cy-(zacc+h), base=cc[si];
+      const Lb=[cx-fa,yB],Bb=[cx,yB+fb],Lt=[cx-fa,yT],Bt=[cx,yT+fb],Rb=[cx+fa,yB],Rt=[cx+fa,yT],Tt=[cx,yT-fb];
+      poly([Lb,Bb,Bt,Lt],'linear-gradient(180deg,'+shade(base,6)+','+shade(base,-8)+')', zbase+si*3);
+      poly([Bb,Rb,Rt,Bt],'linear-gradient(180deg,'+shade(base,-16)+','+shade(base,-30)+')', zbase+si*3+1);
+      const t1=2.3;
+      poly([Lt,Bt,[Bt[0],Bt[1]+t1],[Lt[0],Lt[1]+t1]],'rgba(255,255,255,.34)', zbase+si*3+2);
+      poly([Bt,Rt,[Rt[0],Rt[1]+t1],[Bt[0],Bt[1]+t1]],'rgba(255,255,255,.20)', zbase+si*3+2);
+      if(si===t.scores.length-1) poly([Tt,Rt,Bt,Lt],'linear-gradient(135deg,'+shade(base,24)+','+shade(base,8)+')', zbase+si*3+2);
+      zacc+=h;
+    });
+    const bd=document.createElement('div');bd.className='lbl';
+    bd.innerHTML='<div class="badge" style="background:'+t.ring+'">'+id+'</div>';
+    place(bd, cx, cy+fb*0.1 - t.scores[0]*PXV*0.5, zbase+40);
+    const vt=document.createElement('div');vt.className='lbl';
+    vt.innerHTML='<div class="vtop" style="color:#08402E">'+total+'</div>';
+    place(vt, cx, cy-Htot, zbase+41);
+    const pt=document.createElement('div');pt.className='lbl';
+    pt.innerHTML='<div class="ptag"><span class="ic"></span><span class="pv">'+t.price[0]+'</span><span class="pu">'+t.price[1]+'</span></div>';
+    place(pt, cx, cy-fb-Htot-26, zbase+42);
+    if(t.crown){const cr=document.createElement('div');cr.className='crown';place(cr,cx,cy-fb-Htot-70,zbase+43);}
+    const tl=document.createElement('div');tl.className='lbl';
+    tl.innerHTML='<div class="tier" style="color:'+totalCol[id]+'">'+t.tier+'<span class="s">'+t.sub+'</span></div>';
+    place(tl, cx, cy+fb+32, zbase+40);
+  });
+
+  // side callouts
+  function callout(side,topY,iconBg,icon,head,headCol,html){
+    const d=document.createElement('div');d.className='callout';
+    d.style.top=topY+'px'; if(side==='l')d.style.left='2px'; else d.style.right='2px';
+    d.innerHTML='<div class="ch" style="color:'+headCol+'"><span class="ci" style="background:'+iconBg+'">'+
+      '<span class="m" style="-webkit-mask-image:url(../assets/icons/'+icon+'.svg);mask-image:url(../assets/icons/'+icon+'.svg)"></span></span>'+head+'</div><p>'+html+'</p>';
+    scene.appendChild(d);
+  }
+  callout('l',290,'var(--azure)','tag','PRICE IS ONE BAND','var(--deep)','The blue base is all most teams compare. It is the <b>smallest part</b> of what a supplier really costs.');
+  callout('r',158,'var(--eco-text)','trophy','THE GREEN IS THE PAYOFF','var(--eco-text)','Quality, terms and references are the bands that <b>show up months later</b> — and where B wins.');
+
+  /* ---------- scorecard ---------- */
+  const sc=document.getElementById('sc');
+  const cell=(html,cls)=>{const d=document.createElement('div');if(cls)d.className=cls;d.innerHTML=html;return d;};
+  sc.appendChild(cell('',''));
+  order.forEach(id=>{const hi=id==='B'?' colhi':'';
+    sc.appendChild(cell('<div class="suphead"><div class="bd" style="background:'+sup[id].ring+'">'+id+'</div><div class="tn">'+sup[id].tier+'</div></div>','ballcell'+hi));});
+  criteria.forEach((cr,ci)=>{
+    sc.appendChild(cell('<div class="critlab"><span class="sw" style="background:'+cr.color+'"></span><span class="ic" style="background:'+cr.color+';-webkit-mask-image:url(../assets/icons/'+cr.icon+'.svg);mask-image:url(../assets/icons/'+cr.icon+'.svg)"></span>'+cr.name+'</div>'));
+    order.forEach(id=>{const frac=Math.round(sup[id].scores[ci]/20*100);const hi=id==='B'?' colhi':'';
+      sc.appendChild(cell('<div class="ball" style="background:conic-gradient('+cr.color+' 0 '+frac+'%, #E6F0FA '+frac+'% 100%)"></div>','ballcell'+hi));});
+  });
+  const dv=document.createElement('div');dv.style.gridColumn='1/5';dv.style.height='1px';dv.style.background='var(--line)';dv.style.margin='6px 0 1px';sc.appendChild(dv);
+  sc.appendChild(cell('<div class="totlab"><span class="ic" style="width:18px;height:18px;background:var(--ink);-webkit-mask:url(../assets/icons/chart-line.svg) center/contain no-repeat;mask:url(../assets/icons/chart-line.svg) center/contain no-repeat"></span>Total value</div>'));
+  order.forEach(id=>{const hi=id==='B'?' colhi':'';
+    sc.appendChild(cell('<div class="totcell" style="color:'+totalCol[id]+'">'+sum(sup[id].scores)+'<span class="o">/ 100</span></div>','ballcell'+hi));});
+})();
+</script>
+</body>
+</html>

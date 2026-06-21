@@ -3,7 +3,29 @@
 Updated by: pattern-synthesizer agent (runs after /retrospective, requires 4+ weeks of data)
 Read by: learning-advisor agent at start of each pipeline stage
 
-Last updated: [not yet — first synthesis runs after W13 retrospective]
+Last updated: 2026-06-21 — manual entry: code-render visual standard (supplier-quote)
+
+---
+
+## Code-Render Visual Patterns (manual, 2026-06-21)
+*Source: perfecting `renderer/templates/sc101-quote-iso-towers.html` as the new visual bar. Full detail in `references/render-pilot-workflow.md` §2b + §4 and `renderer/README.md` §6b. Applies to **101 (now code-render primary)** and AI for SC.*
+
+**Design — confirmed effective**
+| Pattern | What it is | Why it works |
+|---|---|---|
+| Composition Mode A — hero-dominant/integrated | Hero owns 60–70%, detail embedded *into* it via leader-lined annotations on a strict anchor grid | Keeps the eye on one focal object for a single complex mechanism; no block clutter |
+| Composition Mode B — layered 4-layer | 3D hero + scorecard + part-to-whole bar + side callouts | Fills whitespace with *information*; comparison topics get clean separate cuts |
+| Real 3D via JS `clip-path` isometry | `iso(u,v)=[OX+(u−v)*a, OY+(u+v)*b]`; cap light → left mid → right dark | Deterministic genuine depth; CSS 3D transforms were fragile and abandoned |
+| Multi-element from the 200-pattern library | Combine #43 towers + #106 Harvey balls + #44 share bar + callouts in one still | Consulting-grade density; reserve unused patterns for later posts on the topic |
+| Footrule-above-row footer; tighter padding; fill the canvas | Full-width rule sits above the foot row (never over the logo); ~22–24px padding; rescale hero to fill | "Use the space, don't frame it with border" |
+
+**Technical — confirmed gotchas**
+| Gotcha | Fix |
+|---|---|
+| `inset:'auto'` wipes earlier `left`/`top` (shorthand) | Set `inset='auto'` BEFORE `left`/`top` |
+| `clip-path` clips `box-shadow` | Use `filter:drop-shadow()` for depth on clipped shapes |
+| CSS-grid divider on an inner div does nothing | Make it a real grid item: `gridColumn:'1/5'` |
+| `node render.mjs` fails after cwd drift | Always call the renderer with an absolute path |
 
 ---
 

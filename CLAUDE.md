@@ -16,7 +16,7 @@ Version-controlled for remote Claude Code access (web/mobile).
 
 ## The content engine (where the work happens)
 Two active pipelines share one 7-month monthly theme calendar:
-- **Supply Chain 101** (`/101`) — Posts 1 + 2 each week, plain-language concepts. Visual: **ChatGPT (GPT Image 2)**.
+- **Supply Chain 101** (`/101`) — Posts 1 + 2 each week, plain-language concepts. Visual: **code-render** (`infographic-setup/renderer/`, HTML→PNG) is now primary; **ChatGPT (GPT Image 2)** is the backup path.
 - **AI for Supply Chain** (`/ai-for-sc`) — Posts 3 + 4 each week, role-based AI use cases. Visual: **code-render** (`infographic-setup/renderer/`, HTML→PNG/GIF/MP4).
 - **Deep Dive** — data-heavy research pipeline, **archived** (`infographic-setup/skills-archive/deep-dive/`).
 

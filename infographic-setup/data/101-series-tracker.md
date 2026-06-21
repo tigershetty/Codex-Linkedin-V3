@@ -63,6 +63,10 @@ The series continues as **Supply Chain 101 — [Function] Edition** from W21 onw
 | 27–28 | (AI for SC W21 — unified numbering) | 2026-W21 | rfq-with-claude / should-cost-model | — | See ai-for-sc-series-tracker.md |
 | 29 | The Procurement Cycle (7-step flow) | 2026-W22 | procurement-cycle | Contrarian | Copy saved — pending publish |
 | 30 | Spend Analysis | 2026-W22 | spend-analysis | Question-Why | Copy saved — pending publish |
+| 33 | How to Compare Supplier Quotes | 2026-W26 | compare-supplier-quotes | Contrarian | Copy saved — **RW01**, pending publish |
+| 34 | The Procurement Funnel (100→1) | 2026-W26 | procurement-funnel | Result-First | Copy saved — **RW01**, pending publish |
+
+> **Recalibration (2026-06-20):** the calendar was re-anchored to real dates — see `references/master-calendar.md`. Posting is now tracked by **Run Week (RW##)**; content identity stays as **Plan Week (PW##)**. RW01 = PW23 (Supplier evaluation), week of Jun 22 (ISO 2026-W26). The two PW22 AI-for-SC posts were never produced (optional backfill via `/ai-for-sc W22`).
 
 | Month | Theme | Weeks | Posts |
 |---|---|---|---|

@@ -36,7 +36,10 @@ const framesDir = r('out/_frames');
 rmSync(framesDir, { recursive: true, force: true });
 mkdirSync(framesDir, { recursive: true });
 
-const browser = await chromium.launch();
+const launchOpts = process.env.CHROME_PATH
+  ? { executablePath: process.env.CHROME_PATH, args: ['--no-sandbox', '--disable-dev-shm-usage'] }
+  : {};
+const browser = await chromium.launch(launchOpts);
 const ctx = await browser.newContext({ deviceScaleFactor: 1, viewport: { width: W, height: H } });
 const page = await ctx.newPage();
 await page.goto(pathToFileURL(r(inp)).href, { waitUntil: 'networkidle', timeout: 30000 });

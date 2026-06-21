@@ -24,7 +24,7 @@ A Claude Code pipeline that produces LinkedIn supply chain infographics for Tige
 | Hooks | Metaphor-led, accessible | Role + current limitation + AI unlock |
 | Caption | 150–300 words, educational tone | 220–320 words, practical, copy-paste level |
 | Control gates | None (single-step) | None — PDF is a yes/no gate after the caption |
-| Visual | ChatGPT (GPT Image 2) prompt + brand anchor | Code-render (`renderer/`) — HTML→PNG/GIF/MP4 |
+| Visual | **Code-render** (`renderer/`) — HTML→PNG (primary); ChatGPT GPT Image 2 prompt = backup | Code-render (`renderer/`) — HTML→PNG/GIF/MP4 |
 | Frequency | 2/week (Posts 1+2 in the weekly sub-topic) | 2/week (Posts 3+4 in the weekly sub-topic) |
 | Output | `101-copy.md` | `ai-for-sc-[use-case-slug].md` (+ optional `-pdf.md`) |
 
@@ -36,7 +36,7 @@ A Claude Code pipeline that produces LinkedIn supply chain infographics for Tige
 /101 [topic-slug]    ← single step, no gates
 ```
 
-Generates 10 hooks + LinkedIn caption + ChatGPT (GPT Image 2) prompt in one pass from the monthly topic bank.
+Generates 10 hooks + LinkedIn caption + a **code-rendered infographic** (`renderer/`, HTML→PNG) in one pass from the monthly topic bank. A ChatGPT (GPT Image 2) prompt is kept as the **backup** visual path (illustration fallback when code-render isn't the right fit).
 User picks hook and adjusts at the end. No research, no scout, no message commit.
 Topics come from `references/101-plan.md` (see also `references/master-calendar.md`). `/101` runs Posts 1 and 2 of each week.
 
@@ -49,6 +49,9 @@ Topics come from `references/101-plan.md` (see also `references/master-calendar.
 |---|---|
 | `references/101-plan.md` | Monthly topic bank — all foundational topics with hooks, visuals, caption directions |
 | `references/101-voice.md` | 101 voice anchor — plain language, series framing, adapted hook taxonomy |
+| `references/layout-frameworks-intelligence.md` | 200-pattern layout selector + composition-mode guide — pick the visual layout for the code-render |
+| `references/render-pilot-workflow.md` | Code-render pipeline + design/technical learnings (now shared by 101 + AI for SC) |
+| `renderer/` | The deterministic HTML→PNG renderer + component-kit templates the 101 infographic is built from |
 | `data/101-series-tracker.md` | Published episodes log — tracks which topics are done |
 
 ---
@@ -115,7 +118,8 @@ data/
 
 ## Gotchas
 - **IKEA content is excluded** — do not use as voice or content reference
-- **NEGATIVE prompt blocks degrade render quality** — never add them to the 101 ChatGPT (GPT Image 2) prompt
+- **101 visual is now code-rendered** (`renderer/`, HTML→PNG) — pick the layout via `layout-select`, build the template, render and QA the PNG. The ChatGPT (GPT Image 2) prompt is the **backup** path (illustration fallback), kept in `101-copy.md`.
+- **NEGATIVE prompt blocks degrade render quality** — never add them to the 101 ChatGPT (GPT Image 2) backup prompt
 - **Hooks become the verbatim opening line of the published post** — voice rules apply at hook generation
 - **AI for SC: PDF draft is optional** — after caption + render brief (+ rendered infographic) are presented, ask "Would you like a PDF draft? (Yes / No)" before generating
 - **AI for SC: use cases are pre-defined in `references/ai-for-sc-plan-v2.md`** — load it at Step 1 and confirm the pre-defined use cases with the user before generating hooks

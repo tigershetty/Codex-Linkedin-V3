@@ -82,13 +82,37 @@ The deterministic render stack is real and proven on a flagship piece (PF7, the 
 - Always invoke the renderer with an **absolute path** — the shell cwd drifts and `node render.mjs` then fails.
 - Light surfaces use **Logo 4 (mono-olive)**; the white-wordmark logo is invisible on white.
 
+## 2b. Supplier-quote learnings (2026-06-21 — the new visual standard)
+Carry these into every future 101 + AI-for-SC template. The exemplar is `templates/sc101-quote-iso-towers.html`.
+
+**Composition modes — choose deliberately per topic (NEW, the big unlock):**
+- **Mode A — Hero-dominant / integrated.** One complex thing → let the hero own **60–70% of the canvas** and push the supporting detail *into and around* it instead of spawning separate blocks: leader-line annotations pinned to a point on the hero, in-place data labels on each element, anchored micro-viz (a tiny rating row beside each object), an embedded value axis/legend, a zoom inset. Use for a single mechanism / "how X works" / one object with many facets. **Guardrail:** only works on a strict anchor grid with leader lines — pinned, lined annotations read as consulting-grade; loose floating text is the "text all over the place" failure Tiger rejects.
+- **Mode B — Layered multi-block.** Comparison / ranking / multiple independent data cuts → a 3D hero + 2–3 supporting elements, each a clean element. The supplier-quote post is Mode B: **4-layer composition** = gestalt (3D hero) + precision (scorecard) + proportion (part-to-whole bar) + narration (side callouts). Fill whitespace with *information*, not decoration.
+- Default decision: single object/concept → A; comparing separate things → B.
+
+**Genuine 3D — JS-computed clip-path isometry (use this, NOT CSS 3D transforms):**
+- CSS 3D transforms (`rotateX/Y`, `translateZ`, `preserve-3d`) proved fragile — flattened layers, walls firing below the floor, footplate gaps. **Abandoned.** Use deterministic 2D isometry computed in JS and drawn with `clip-path` polygons.
+- Projection: `iso(u,v) = [OX + (u−v)*a, OY + (u+v)*b]`; a world height `h` maps to screen-y minus `h`. Each iso prism = base diamond + left wall + right wall (parallelogram `clip-path`s) + top-cap diamond. Light model: **top cap lightest, left wall mid, right wall darkest** (shade the base hex by +/− amounts).
+- A stacked tower = N iso bands, each band height ∝ its value; total tower height ∝ total value (this is benchmark #43 stacked column rendered in real depth).
+
+**Multi-element from the 200-pattern library:** a single still can combine benchmarks — stacked-criterion towers (#43) + Harvey-ball scorecard (#106, `conic-gradient(color 0 X%, #E6F0FA X% 100%)`) + part-to-whole share bar (#44) + isotype/badges + side callouts. Reserve unused patterns (radar #74, slope #71, tornado #109, bullet #75) for later posts in the same topic so the feed shows range.
+
+**Footer standard (corrected):** a full-width gradient **footrule** sits ABOVE the foot row (`margin-top:auto` pushes it to the bottom) — never a divider drawn *over* the logo/text. Foot row = brand logo (≈55px) + name/handle on the LEFT, a logo stamp on the RIGHT. (Tighten outer card padding — ~22–24px — and rescale the hero/scorecard to fill the reclaimed space; "use the space, don't frame it with border.")
+
+**Technical gotchas added this round:**
+- `inset:'auto'` is shorthand for top/right/bottom/left — set it **before** `left`/`top` or it wipes them (caused the grey-blob "all shadows stacked at origin" bug).
+- `clip-path` clips `box-shadow` — use `filter:drop-shadow()` for depth on clipped shapes.
+- A CSS grid divider must be a real grid item (`el.style.gridColumn='1/5'`), not a class on an inner div — otherwise the row shifts a column.
+
 ## 3. The two-mode animation system (use sparingly, on purpose)
 - **Unfold** (`*-anim.html`) — elements reveal in sequence; use only when the *sequence carries meaning* (a workflow assembling, a hand-off). Seamless loop via an in-timeline fade-out.
 - **Ambient orbit** (`*-path.html`) — the card stays fully static and readable while a small Claude mark drifts a dotted route **in the clear margins only** (never over content), now a calm **60s loop**. Use when you want motion to stop the scroll without the content moving.
 - A still PNG remains the default. Animation is opt-in per episode, declared in the render brief.
 
-## 4. The 101 question — DECIDED: 101 stays prompt-based, image tool → ChatGPT (GPT Image 2)
-We explored code-render for 101 (`sc101-planning-fence*.html` — a cheat-sheet, a river-of-time metaphor, and an isometric concept piece). They proved code-render *can* do 101, but the **decision is a hard pass**: 101 keeps its existing `/101` flow exactly as-is, and the only change is the image tool — **Gemini → ChatGPT (GPT Image 2)**. The code-render explorations are parked in `renderer/templates/sc101-*` as reference, not wired into the flow. Rationale: 101 is an illustrative concept post (one big visual + a brief explanation), well served by a strong image-gen prompt; the dense, data-exact code-render advantage is what AI-for-SC needs, not 101.
+## 4. The 101 question — REVISED 2026-06-21: 101 is now CODE-RENDER PRIMARY, ChatGPT (GPT Image 2) = backup
+**Supersedes the earlier "hard pass."** After perfecting the supplier-quote still (`sc101-quote-iso-towers.html`) to a consulting-grade standard — genuine 3D isometric towers + a Harvey-ball scorecard + a part-to-whole share bar + side callouts, all on the homogeneous Shetty's Desk frame — the code-render advantage proved just as decisive for 101 as for AI-for-SC: exact numbers, locked brand, real 3D depth, and the information density that makes a post save-worthy. **Decision: `/101` builds its infographic in `renderer/` (HTML→PNG) as the default**; the ChatGPT (GPT Image 2) prompt is retained in `101-copy.md` as the **backup** path (illustration fallback for a purely metaphorical concept post with no load-bearing structure). The earlier rationale (101 = "one big illustrative visual") was too narrow: 101 concepts argue a *shape* (a comparison, a funnel, a hierarchy) that code-render makes precisely, and the brand anchor was never as on-brand as the coded azure/eco system on white.
+
+Difference vs AI-for-SC: 101 carries **no AI-tool logo** (101 has no tool mark), uses the accessible 101 register, and leans on the `layout-frameworks-intelligence.md` 200-pattern selector + the composition-mode choice (hero-dominant integrated vs layered multi-block) rather than the 50-format Hero-Number system.
 
 ## 5. Merge plan — bring the renderer into the main AI-for-SC flow
 **Scope of this merge: AI for Supply Chain only.** (101 → ChatGPT GPT Image 2 prompt, unchanged flow otherwise; Deep Dive stays on the Gemini Gem. Both already wired in the skills + CLAUDE.md.)
