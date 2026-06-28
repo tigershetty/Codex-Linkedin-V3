@@ -217,7 +217,7 @@ Single unified caption structure for all AI for SC posts. The role, tool, and fr
 
 ### 5.1 Load the concept + the render kit
 - Read `references/ai-for-sc-visual-dna.md` + `references/ai-for-sc-creative-intelligence.md` for **concepts** — the assigned format gives the spatial idea and the Hero Number convention ("[Manual time] → [AI-assisted time]"). Use them to choose **3 distinct bespoke concepts**, NOT to write a prompt.
-- Run `layout-select` (it returns **3 distinct frameworks**). Skim `renderer/README.md` and an existing template (e.g. `renderer/templates/pf7-blueprint-draft.html`) — the component kit and brand frame you build on. Design each variant as a bespoke concept on the same homogeneous Shetty's Desk frame ("design system, not parametrisation").
+- Run `layout-select` (it returns **3 distinct frameworks**). **Read `references/premium-visual-craft.md`** — the craft layer (Orion design tokens, data-journalism house style, consulting slide-craft, chart-styling recipes) that every variant applies: title-as-a-claim, one accent + ghost the rest, direct labels, source/footrule band, the Orion stat-card cadence for hero numbers, tinted shadows + hairline borders + concentric radii. Skim `renderer/README.md` and an existing template (e.g. `renderer/templates/pf7-blueprint-draft.html`) — the component kit and brand frame you build on. Design each variant as a bespoke concept on the same homogeneous Shetty's Desk frame ("design system, not parametrisation").
 
 ### 5.2 Write the render brief
 The render brief is the content-depth layer that replaces the Gemini prompt. For this post, lock down:

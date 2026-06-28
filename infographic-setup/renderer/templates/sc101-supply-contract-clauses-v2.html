@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<!--
+  SC 101 · W27 · supply-contract-clauses — VARIANT 2: 2x2 MATRIX (negotiation effort x dispute frequency)
+  Framework: 2x2 strategy matrix (#6/#117/Kraljic family). Hero device: 4 named quadrants + plotted clauses.
+  The contrarian story = the diagonal: teams crowd the OVER-NEGOTIATED corner; disputes live in the QUIET-KILLERS corner.
+  Craft layer (premium-visual-craft.md): action title, one accent + ghost two quadrants, direct labels, source band, Orion tokens.
+-->
+<style>
+  :root{
+    --ink:#15315C; --azure:#2798FB; --deep:#215DC3; --green:#38E6A6; --green-deep:#0E9A6E; --coral:#E27199; --coral-deep:#cf5c84;
+    --canvas:#F6F9FE; --card:#FFFFFF;
+    --ink-55:rgba(21,49,92,.55); --ink-40:rgba(21,49,92,.40);
+    --hair:rgba(21,49,92,.08); --grey:#9DB1CC; --grey-fill:#E7EEF7;
+    --r-card:20px; --r-inner:12px;
+    --lift:0 1px 2px rgba(21,49,92,.06), 0 12px 28px rgba(21,49,92,.10), inset 0 1px 0 rgba(255,255,255,.7);
+    --font:"Poppins",system-ui,sans-serif; --eco-grad:linear-gradient(135deg,#8FF3CC,#38E6A6,#1FC98B);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-variant-numeric:tabular-nums}
+  html,body{width:1080px}
+  #card{width:1080px;height:1350px;position:relative;overflow:hidden;font-family:var(--font);color:var(--ink);
+    background:
+      radial-gradient(ellipse 52% 32% at 88% 1%, rgba(56,230,166,.16) 0%, transparent 60%),
+      radial-gradient(ellipse 58% 38% at 3% 20%, rgba(39,152,251,.14) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F5FAFE 55%,#EAF3FD 100%);
+    padding:38px 44px 26px;display:flex;flex-direction:column}
+  .kicker{font-size:14px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--azure)}
+  h1{font-size:48px;font-weight:800;line-height:1.02;margin-top:10px;letter-spacing:-1px}
+  h1 .c{color:var(--coral-deep)} h1 .g{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .rule{height:5px;width:100%;margin:13px 0 9px;border-radius:5px;background:linear-gradient(90deg,var(--azure) 0%,#50A9F7 36%,rgba(80,169,247,0) 100%)}
+  .sub{font-size:18px;font-weight:400;color:var(--ink-55);max-width:1000px;line-height:1.34}
+  .sub b{color:var(--ink);font-weight:600}
+
+  /* matrix */
+  .wrap{margin-top:22px;display:flex;gap:14px}
+  .yaxis{display:flex;flex-direction:column;align-items:center;justify-content:center;width:30px}
+  .yaxis .lab{writing-mode:vertical-rl;transform:rotate(180deg);font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-40)}
+  .yaxis .ar{font-size:13px;color:var(--ink-40);margin:6px 0}
+  .plot{position:relative;width:912px;height:660px;border-radius:var(--r-card);overflow:hidden;
+    border:1px solid var(--hair);box-shadow:var(--lift);background:var(--card)}
+  .q{position:absolute;width:50%;height:50%;padding:18px 20px}
+  .q .qt{font-size:15px;font-weight:800;letter-spacing:.03em;text-transform:uppercase;line-height:1.1}
+  .q .qd{font-size:12.5px;font-weight:600;color:var(--ink-40);margin-top:3px;line-height:1.3;max-width:230px}
+  .q.tl{top:0;left:0;background:linear-gradient(135deg,rgba(56,230,166,.16),rgba(56,230,166,.04))}
+  .q.tr{top:0;right:0;background:rgba(39,152,251,.05);text-align:right}
+  .q.bl{bottom:0;left:0;background:transparent}
+  .q.br{bottom:0;right:0;background:linear-gradient(315deg,rgba(226,113,153,.16),rgba(226,113,153,.04));text-align:right}
+  .q.tl .qt{color:var(--green-deep)} .q.tr .qt{color:var(--deep)} .q.bl .qt{color:var(--ink-40)} .q.br .qt{color:var(--coral-deep)}
+  .q.tr .qd,.q.br .qd{margin-left:auto}
+  .mid{position:absolute;background:var(--hair)} .mid.v{left:50%;top:0;bottom:0;width:2px} .mid.h{top:50%;left:0;right:0;height:2px}
+
+  .bub{position:absolute;transform:translate(-50%,50%);display:flex;align-items:center;gap:9px;z-index:4}
+  .bub .dot{width:20px;height:20px;border-radius:50%;border:3px solid #fff;flex:0 0 auto;box-shadow:0 5px 12px rgba(12,35,75,.22)}
+  .bub .nm{font-size:15px;font-weight:700;white-space:nowrap;background:rgba(255,255,255,.82);padding:2px 8px;border-radius:7px}
+  .bub.hero .dot{width:30px;height:30px} .bub.hero .nm{font-weight:800;font-size:16px;background:#fff;box-shadow:0 4px 12px rgba(12,35,75,.12)}
+  .bub.ghost .dot{background:var(--grey)!important;opacity:.7} .bub.ghost .nm{color:var(--ink-40)}
+  .bub.right{flex-direction:row-reverse}
+
+  .insight{margin-top:20px;font-size:18.5px;font-weight:500;line-height:1.38;padding-left:16px;border-left:5px solid var(--azure)}
+  .insight b{color:var(--green-deep);font-weight:700} .insight .px{color:var(--coral-deep);font-weight:700}
+
+  .footrule{margin-top:auto;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--azure),var(--green) 55%,rgba(56,230,166,0) 100%)}
+  .foot{display:flex;align-items:flex-end;justify-content:space-between;padding-top:13px}
+  .who img{height:62px;width:auto;display:block} .who .src{font-size:10.5px;font-weight:500;color:var(--ink-40);margin-top:5px;max-width:640px}
+  .sig{font-size:16.5px;font-weight:700;text-align:right;line-height:1.2}
+  .xaxis{display:flex;align-items:center;justify-content:center;gap:8px;margin:8px 0 0 44px;font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-40)}
+</style>
+</head>
+<body>
+<div id="card">
+  <div class="kicker">Supply Chain 101 · Procurement</div>
+  <h1>You negotiate the <span class="c">wrong corner</span><br>of the contract.</h1>
+  <div class="rule"></div>
+  <div class="sub">Plot every clause by how hard teams fight it against how often it actually causes a dispute. The energy crowds one corner. <b>The disputes live in the opposite one.</b></div>
+
+  <div class="wrap">
+    <div class="yaxis"><span class="ar">▲</span><span class="lab">Dispute frequency</span></div>
+    <div class="plot" id="plot">
+      <div class="mid v"></div><div class="mid h"></div>
+      <div class="q tl"><div class="qt">Quiet killers</div><div class="qd">Barely negotiated, break most. Read these twice.</div></div>
+      <div class="q tr"><div class="qt">Genuinely critical</div><div class="qd">Fought and they break. Worth the hours.</div></div>
+      <div class="q bl"><div class="qt">Minor</div><div class="qd">Low effort, low risk.</div></div>
+      <div class="q br"><div class="qt">Over-negotiated</div><div class="qd">Fought hardest, rarely break. The energy sink.</div></div>
+    </div>
+  </div>
+  <div class="xaxis"><span>Negotiation effort</span><span>▶</span></div>
+
+  <div class="insight">Liability and indemnities sit <span class="px">bottom-right</span>. Fought hardest since 2007, rarely where disputes land. <b>Scope and delivery sit top-left</b>: barely negotiated, yet cited by ~3 in 4 teams as the dispute. Read the clause nobody argued over.</div>
+
+  <div class="footrule"></div>
+  <div class="foot">
+    <div class="who"><img src="../assets/logos/shettys-desk-logo-2.png" alt="Shetty's Desk">
+      <div class="src">Source: WorldCC (formerly IACCM), Most Negotiated / Most Important / dispute-source research. Positions are relative, from the ranked findings.</div></div>
+    <div class="sig">Poornajith Shetty</div>
+  </div>
+</div>
+
+<script>
+(function(){
+  // x = negotiation effort, y = dispute frequency (0-100). Positions relative, from WorldCC rankings.
+  const items=[
+    {nm:'Scope & spec',     x:18, y:92, kind:'green', side:'left'},
+    {nm:'Delivery & lead time', x:28, y:74, kind:'green-soft', side:'left'},
+    {nm:'Term & exit',      x:70, y:60, kind:'azure', side:'right'},
+    {nm:'Quality & SLA',    x:45, y:46, kind:'ghost', side:'left'},
+    {nm:'Price & indexation', x:60, y:34, kind:'ghost', side:'right'},
+    {nm:'Liability & remedies', x:95, y:22, kind:'coral', side:'right'},
+  ];
+  const colors={green:'#0E9A6E','green-soft':'#3BD49B',azure:'#247BE1',coral:'#cf5c84',ghost:'#9DB1CC'};
+  const plot=document.getElementById('plot');
+  const PW=912, PH=660, padX=70, padY=64;
+  items.forEach(it=>{
+    const left=padX + (it.x/100)*(PW-2*padX);
+    const top = padY + (1-it.y/100)*(PH-2*padY);
+    const d=document.createElement('div');
+    d.className='bub '+(it.kind==='green'||it.kind==='coral'?'hero':'')+(it.kind==='ghost'?' ghost':'')+(it.side==='right'?' right':'');
+    d.style.left=left+'px'; d.style.top=top+'px';
+    d.innerHTML='<span class="dot" style="background:'+colors[it.kind]+'"></span><span class="nm">'+it.nm+'</span>';
+    plot.appendChild(d);
+  });
+})();
+</script>
+</body>
+</html>

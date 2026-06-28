@@ -40,6 +40,12 @@ layout — even if it looks good. Do **not** reuse last week's layout unless the
 6. **Emit 3 one-line visual specs** (V1/V2/V3) → feed the render brief, each:
    `Layout = <pattern> (idea is <shape>); mode = <A integrated 60–70% hero | B layered hero + 2–3 elements>; hero = <focal element>; depth = real 3D via JS clip-path isometry where it adds clarity (not CSS 3D transforms); brand = azure+green on white; tool mark = hero corner (AI-for-SC only — 101 has none).`
 
+## Then make it premium
+Picking the right shape is half the job. Before building, **read `references/premium-visual-craft.md`** — the
+Orion design tokens, the data-journalism house style (title-as-claim, one accent + ghosting, direct labels,
+source band), the consulting slide-craft, and the chart-styling CSS recipes. A right-shape render with generic
+styling still looks generic; all 3 variants apply the craft layer.
+
 ## Output
 Append to the post file under `## Visual Spec`:
 - Shape of the idea · the **3 chosen layouts (V1/V2/V3)** (+ why each argues the point) · feasibility · the

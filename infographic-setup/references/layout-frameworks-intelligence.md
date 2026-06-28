@@ -17,6 +17,8 @@
 
 **The one rule:** the layout must *make the argument*. A funnel claims "narrowing/conversion"; a pyramid claims "foundation/hierarchy"; a matrix claims "two independent trade-offs"; a waterfall claims "contribution/bridge"; an iceberg claims "hidden mass." If the shape's built-in claim is false for your topic, the layout is wrong even if it looks good.
 
+> **Then make it look world-class → `premium-visual-craft.md`.** This file picks *which* framework; the craft file governs *how to render any framework premium* (the SetProduct **Orion** design tokens, the data-journalism house style, the consulting slide-craft rules, the chart-styling CSS recipes). Picking the right shape and rendering it with generic styling still looks generic — always read the craft file before building. **Family 5 below + the §4 picks all assume the craft layer is applied.**
+
 **The second rule (composition mode, added 2026-06-21):** after picking the layout, decide how much of the canvas the hero owns.
 - **Mode A — hero-dominant / integrated:** one complex thing → hero takes **60–70%**, supporting detail embedded *into* it (leader-line annotations on the object, in-place labels, anchored micro-viz, embedded axis/legend) instead of separate blocks. For a single mechanism / "how X works." Guardrail: strict anchor grid + leader lines (no loose floating text).
 - **Mode B — layered multi-block:** a comparison / multiple data cuts → 3D hero + 2–3 clean elements (the 4-layer pattern: gestalt hero + precision scorecard + proportion bar + narration callouts). Fill whitespace with information, not decoration.
@@ -352,6 +354,29 @@ Format of each row: **Name** | Explains best | Question it answers (when) | Anat
 | 213 | **Mountain / summit** | Effort toward a peak goal | "The climb to the goal" | Peak with base-camps up the slope | Summit = worthy visible climb | M | Metaphor |
 | 214 | **Polaroid / photo-caption grid** | Curated visual examples | "What do these look like, with context?" | Image cards + captions in a grid | Photos confer realism; grid = curated set | E | Curation grid |
 | 215 | **Affinity / sticky-note map** | Clustering raw inputs into themes | "What patterns emerge from many notes?" | Loose notes grouped into named clusters | Bottom-up grouping = discovered structure | E | Design thinking |
+
+### Family 5 — 2026 premium / editorial data-viz additions (research sweep)
+
+From the 2026 sweep across Visual Capitalist + Voronoi, The Economist/FT (Burn-Murdoch), McKinsey/BCG/Bain/Gartner, SetProduct **Orion**, Eric Partaker & Visualize Value. These are the high-performing, code-renderable formats that were thin or missing above. **All of these assume the craft layer in `premium-visual-craft.md` is applied** (title-as-claim, one accent + ghosting, direct labels, source band, Orion stat-card cadence, refined chart styling).
+
+| # | Name | Explains best | When to use | Anatomy | Visual-rhetoric | Render | Source |
+|---|---|---|---|---|---|---|---|
+| 216 | **Dumbbell / barbell** | The *gap* between two values per item | "How big is the A→B gap, per row?" | Two dots joined by a connector per row, **sorted by gap** | The connector literally draws the distance; gap = the story | E | FT / data-viz canon |
+| 217 | **Bump chart (rank race)** | Rank changes across 3+ periods | "Who overtook whom over time?" | Rank (y, 1 top) × time (x), lines cross at swaps | Crossings = the drama; ghost the field, colour 1–2 | M | FT |
+| 218 | **Connected scatterplot** | Two variables' joint path over time | "How do X and Y co-move / reverse?" | Scatter connected in time order, arrowhead on "now" | The loop/reversal a line chart hides; signals depth | M | NYT / FT |
+| 219 | **Tile-grid / hex map** | Geographic compare, equal weight per region | "By region, where small hubs matter too" | Same-size tiles laid out ~geographically, value=fill | Removes the "big empty region looks important" bias | E–M | NPR / NYT |
+| 220 | **Football-field range** | Multiple methods → one defensible range | "What's the credible range, and where do methods agree?" | Floating horizontal bars per method + a target marker | Overlap zone = consensus; spread = judgement | E | IB / M&A |
+| 221 | **Butterfly / back-to-back bar** | Two paired series, mirrored | "A vs B across the same categories" | Shared centre axis, bars left (A) / right (B) | Mirror forces direct paired comparison | E | Demography / consulting |
+| 222 | **Driver / value tree** | A metric = the product of sub-levers | "Which lever actually moves this KPI?" | Root metric → ×/+/− branches → controllable leaves | Math decomposition shows *where to act* | M (E if fixed depth) | McKinsey |
+| 223 | **Three Horizons** | Balance core vs future over time | "Are we funding all three time-waves?" | 3 overlapping S-curves (H1/H2/H3) on time×value | Successive curves = growth never falls off a cliff | M | McKinsey |
+| 224 | **Hype Cycle (idea-shape)** | Expectations over maturity | "Where on the hype journey is each tech?" | Peak→trough→plateau curve, techs as dots *(not Gartner trade dress)* | "Don't bail at the trough" narrative | M | Gartner-style |
+| 225 | **Value-chain chevron** | Sequence of value-adding activities | "Where in the chain does value/SC sit?" | Rightward chevron (→ Margin), primary row + support rows | Arrow toward margin = value accumulation | M | Porter |
+| 226 | **Editorial KPI / big-number card (Orion)** | One headline figure, premium | "What's the one number — and its trend?" | Eyebrow → huge tabular number → delta pill → sparkline foot | Orion stat cadence = authority + recall | E | SetProduct Orion |
+| 227 | **Area with reference band** | A trend against a "normal"/target range | "Are we inside or outside normal?" | Line/area + shaded normal/target band; breaches pop | Band = instant in/out-of-bounds read | E–M | OWID / FT |
+| 228 | **Sparkline-row table** | Ranking + per-row trend, compactly | "Value + 12-mo trend + delta, per item" | Table rows: label · tiny sparkline · value · delta arrow | Dense, scannable "dashboard" feel; great for carousels | E | Tufte / Orion |
+| 229 | **Annotated line (FT/Economist)** | Change over time, meaning built in | "What happened, and why it matters" | Clean line + on-data annotations, event arrows, shaded bands, end-labels | Annotation = retention; the canonical "money" format | M | FT / Economist |
+
+> **Note on overlaps:** slope chart (#71), beeswarm (#201), small multiples (#203), Marimekko (#103), tornado (#109), Harvey balls (#106), football-field (#105), value chain (#97), Three Horizons (#99) already appear above — Family 5 sharpens or pairs them with the craft layer and adds the genuinely-missing editorial formats (dumbbell, bump, connected scatter, tile-grid, butterfly, driver tree, Orion stat-card, reference-band area, sparkline-row, annotated line). The catalog now spans **~229 patterns**.
 
 ---
 

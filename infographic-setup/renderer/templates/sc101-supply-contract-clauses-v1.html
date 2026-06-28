@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<!--
+  SC 101 · W27 · supply-contract-clauses — VARIANT 1: SLOPE / BUMP CROSSING (craft-upgraded)
+  Framework: slope chart (#71). Hero device: two crossing hero lines (Liability dives, Scope climbs).
+  Craft layer applied (premium-visual-craft.md): Orion tokens, action-title claim, one accent + ghosting,
+  direct labels both ends, source band, tinted two-layer shadow, hairline borders, concentric radii, tabular nums.
+-->
+<style>
+  :root{
+    --ink:#15315C; --azure:#2798FB; --green:#38E6A6; --green-deep:#0E9A6E; --coral:#E27199; --coral-deep:#cf5c84;
+    --canvas:#F6F9FE; --card:#FFFFFF;
+    --ink-70:rgba(21,49,92,.70); --ink-55:rgba(21,49,92,.55); --ink-40:rgba(21,49,92,.40);
+    --hair:rgba(21,49,92,.08); --grey:#9DB1CC; --grey-fill:#E7EEF7;
+    --azure-12:rgba(39,152,251,.12); --green-16:rgba(56,230,166,.16); --coral-14:rgba(226,113,153,.14);
+    --r-pill:999px; --r-card:20px; --r-inner:12px;
+    --lift:0 1px 2px rgba(21,49,92,.06), 0 12px 28px rgba(21,49,92,.10), inset 0 1px 0 rgba(255,255,255,.7);
+    --font:"Poppins",system-ui,sans-serif;
+    --eco-grad:linear-gradient(135deg,#8FF3CC,#38E6A6,#1FC98B);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-variant-numeric:tabular-nums}
+  html,body{width:1080px}
+  #card{width:1080px;height:1350px;position:relative;overflow:hidden;font-family:var(--font);color:var(--ink);
+    background:
+      radial-gradient(ellipse 52% 32% at 88% 1%, rgba(56,230,166,.16) 0%, transparent 60%),
+      radial-gradient(ellipse 58% 38% at 3% 20%, rgba(39,152,251,.14) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F5FAFE 55%,#EAF3FD 100%);
+    padding:38px 44px 26px;display:flex;flex-direction:column}
+  .kicker{font-size:14px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--azure)}
+  h1{font-size:52px;font-weight:800;line-height:1.0;margin-top:10px;letter-spacing:-1px}
+  h1 .g{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .rule{height:5px;width:100%;margin:14px 0 9px;border-radius:5px;
+    background:linear-gradient(90deg,var(--azure) 0%,#50A9F7 36%,rgba(80,169,247,0) 100%)}
+  .sub{font-size:18.5px;font-weight:400;color:var(--ink-55);max-width:1000px;line-height:1.34}
+  .sub b{color:var(--ink);font-weight:600}
+
+  .axhead{display:flex;justify-content:space-between;margin-top:16px}
+  .axhead .ax{display:flex;align-items:center;gap:9px}
+  .axhead .ax .dot{width:12px;height:12px;border-radius:50%}
+  .axhead .ax .t{font-size:14px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;line-height:1.05}
+  .axhead .ax .t small{display:block;font-size:11px;font-weight:600;letter-spacing:.02em;text-transform:none;color:var(--ink-40);margin-top:2px}
+  .axhead .lft .dot{background:var(--coral-deep)} .axhead .lft .t{color:var(--coral-deep)}
+  .axhead .rgt{text-align:right;flex-direction:row-reverse} .axhead .rgt .dot{background:var(--green-deep)} .axhead .rgt .t{color:var(--green-deep)}
+
+  .slope{position:relative;width:992px;height:672px;margin-top:10px}
+  .slope svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+  .node{position:absolute;height:48px;display:flex;align-items:center;gap:10px;background:var(--card);
+    border:1px solid var(--hair);border-radius:13px;padding:0 14px;box-shadow:var(--lift);transform:translateY(-50%)}
+  .node.L{justify-content:flex-end;text-align:right}
+  .node .rk{width:28px;height:28px;border-radius:9px;flex:0 0 auto;display:flex;align-items:center;justify-content:center;
+    font-size:15px;font-weight:800;color:#fff;background:linear-gradient(135deg,#50A9F7,#215DC3)}
+  .node .nm{font-size:16px;font-weight:700;white-space:nowrap}
+  .node.coral{border-color:#F0A6C0} .node.coral .rk{background:linear-gradient(135deg,#E689A8,#cf5c84)}
+  .node.green{border-color:#7FE9C2} .node.green .rk{background:linear-gradient(135deg,#3BDFA2,#0E9A6E)}
+  .node .tag{position:absolute;top:-14px;font-size:10px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;
+    padding:3px 9px;border-radius:999px;color:#fff;white-space:nowrap}
+  .node.coral .tag{background:linear-gradient(135deg,#E689A8,#cf5c84);right:8px}
+  .node.green .tag{background:linear-gradient(135deg,#3BDFA2,#0E9A6E);left:8px}
+
+  .chip{position:absolute;width:218px;background:var(--card);border:1px solid var(--hair);border-radius:13px;
+    box-shadow:var(--lift);padding:11px 14px;z-index:6}
+  .chip .ch{font-size:12px;font-weight:800;letter-spacing:.03em;text-transform:uppercase;margin-bottom:3px}
+  .chip p{font-size:12.5px;font-weight:500;color:var(--ink-55);line-height:1.32} .chip p b{color:var(--ink);font-weight:700}
+  .chip.c .ch{color:var(--coral-deep)} .chip.g .ch{color:var(--green-deep)}
+
+  /* Orion stat card */
+  .stat{margin-top:10px;display:flex;align-items:center;gap:22px;background:var(--card);border:1px solid var(--hair);
+    border-radius:var(--r-card);padding:18px 26px;box-shadow:var(--lift)}
+  .stat .num{font-size:74px;font-weight:800;line-height:.9;letter-spacing:-2px;color:var(--coral-deep);flex:0 0 auto}
+  .stat .col{display:flex;flex-direction:column}
+  .stat .eyebrow{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-40);margin-bottom:5px}
+  .stat .tx{font-size:16.5px;font-weight:500;color:var(--ink-55);line-height:1.32} .stat .tx b{color:var(--ink);font-weight:700}
+
+  .insight{margin-top:13px;font-size:18px;font-weight:500;line-height:1.38;padding-left:16px;border-left:5px solid var(--azure)}
+  .insight b{color:var(--green-deep);font-weight:700}
+
+  .footrule{margin-top:auto;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--azure),var(--green) 55%,rgba(56,230,166,0) 100%)}
+  .foot{display:flex;align-items:flex-end;justify-content:space-between;padding-top:13px}
+  .who img{height:62px;width:auto;display:block}
+  .who .src{font-size:10.5px;font-weight:500;color:var(--ink-40);margin-top:5px}
+  .sig{font-size:16.5px;font-weight:700;text-align:right;line-height:1.2}
+</style>
+</head>
+<body>
+<div id="card">
+  <div class="kicker">Supply Chain 101 · Procurement</div>
+  <h1>The clause you fight hardest<br>is rarely <span class="g">the one that bites.</span></h1>
+  <div class="rule"></div>
+  <div class="sub">A supply contract is six load-bearing clauses. Teams burn their energy on the <b>"if it all blows up"</b> clauses. The disputes land somewhere else entirely.</div>
+
+  <div class="axhead">
+    <div class="ax lft"><span class="dot"></span><span class="t">Fought hardest<small>energy in negotiation</small></span></div>
+    <div class="ax rgt"><span class="dot"></span><span class="t">Where it breaks<small>what actually causes disputes</small></span></div>
+  </div>
+
+  <div class="slope" id="slope"></div>
+
+  <div class="stat">
+    <span class="num">4</span>
+    <span class="col">
+      <span class="eyebrow">Most-negotiated vs most-important</span>
+      <span class="tx">of the most-negotiated terms even make the list of the <b>most important</b> ones. The energy and the risk sit on different clauses.</span>
+    </span>
+  </div>
+
+  <div class="insight">Teams fight hardest over the clauses that insure against disaster. The disputes land on the ones that define what <b>"done"</b> means. Before you sign, read the clause nobody argued over.</div>
+
+  <div class="footrule"></div>
+  <div class="foot">
+    <div class="who"><img src="../assets/logos/shettys-desk-logo-2.png" alt="Shetty's Desk">
+      <div class="src">Source: WorldCC (formerly IACCM), Most Negotiated / Most Important / dispute-source research · ICC Incoterms 2020</div></div>
+    <div class="sig">Poornajith Shetty</div>
+  </div>
+</div>
+
+<script>
+(function(){
+  const clauses=[
+    {nm:'Liability & remedies', L:1, R:6, kind:'coral', tag:'Most negotiated'},
+    {nm:'Term & exit',          L:2, R:3, kind:'mid'},
+    {nm:'Price & indexation',   L:3, R:5, kind:'fade-c'},
+    {nm:'Quality & SLA',        L:4, R:4, kind:'flat'},
+    {nm:'Delivery & lead time', L:5, R:2, kind:'rise-g'},
+    {nm:'Scope & specification',L:6, R:1, kind:'green', tag:'Breaks most'},
+  ];
+  const W=992, H=672, Lx=230, Rx=762, topY=48, rowH=(H-2*topY)/5;
+  const y=r=>topY+(r-1)*rowH;
+  const style={
+    coral:{stroke:'url(#gcoral)',w:8,dot:'#cf5c84',glow:true},
+    green:{stroke:'url(#ggreen)',w:8,dot:'#0E9A6E',glow:true},
+    'rise-g':{stroke:'#3BD49B',w:4,dot:'#16B98A'},
+    'fade-c':{stroke:'#E9A3BC',w:3,dot:'#cf5c84'},
+    mid:{stroke:'#9FB6D2',w:3,dot:'#7C93AD'},
+    flat:{stroke:'#C7D5E8',w:2.5,dot:'#9DB1CC'},
+  };
+  const slope=document.getElementById('slope'), NS='http://www.w3.org/2000/svg';
+  const svg=document.createElementNS(NS,'svg');svg.setAttribute('viewBox','0 0 '+W+' '+H);
+  svg.innerHTML=`<defs>
+    <linearGradient id="gcoral" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E689A8"/><stop offset="1" stop-color="#cf5c84"/></linearGradient>
+    <linearGradient id="ggreen" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#0E9A6E"/><stop offset="1" stop-color="#3BDFA2"/></linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#1a2f5a" flood-opacity="0.12"/></filter></defs>`;
+  slope.appendChild(svg);
+  const order=[...clauses].sort((a,b)=>{const w=k=>(k==='coral'||k==='green')?2:(k==='rise-g'||k==='fade-c')?1:0;return w(a.kind)-w(b.kind);});
+  order.forEach(c=>{const s=style[c.kind],y0=y(c.L),y1=y(c.R),dx=(Rx-Lx)*0.42;
+    const d=`M ${Lx} ${y0} C ${Lx+dx} ${y0} ${Rx-dx} ${y1} ${Rx} ${y1}`;
+    const p=document.createElementNS(NS,'path');p.setAttribute('d',d);p.setAttribute('fill','none');
+    p.setAttribute('stroke',s.stroke);p.setAttribute('stroke-width',s.w);p.setAttribute('stroke-linecap','round');
+    if(s.glow)p.setAttribute('filter','url(#soft)');svg.appendChild(p);
+    [[Lx,y0],[Rx,y1]].forEach(pt=>{const ci=document.createElementNS(NS,'circle');
+      ci.setAttribute('cx',pt[0]);ci.setAttribute('cy',pt[1]);ci.setAttribute('r',s.glow?7:5);
+      ci.setAttribute('fill',s.dot);ci.setAttribute('stroke','#fff');ci.setAttribute('stroke-width',2.5);svg.appendChild(ci);});});
+  function pill(side,c,rank){const n=document.createElement('div');
+    const cls=c.kind==='coral'?'coral':c.kind==='green'?'green':'';n.className='node '+side+' '+cls;
+    n.style.top=y(rank)+'px';
+    if(side==='L')n.style.right=(W-Lx+16)+'px';else n.style.left=(Rx+16)+'px';
+    const rk='<span class="rk">'+rank+'</span>',nm='<span class="nm">'+c.nm+'</span>';
+    n.innerHTML=(side==='L')?(nm+rk):(rk+nm);
+    if(c.tag&&((side==='L'&&c.kind==='coral')||(side==='R'&&c.kind==='green'))){
+      const t=document.createElement('span');t.className='tag';t.textContent=c.tag;n.appendChild(t);}
+    slope.appendChild(n);}
+  clauses.forEach(c=>{pill('L',c,c.L);pill('R',c,c.R);});
+  function chip(kind,leftPx,topPx,head,html){const d=document.createElement('div');d.className='chip '+kind;
+    d.style.left=leftPx+'px';d.style.top=topPx+'px';d.innerHTML='<div class="ch">'+head+'</div><p>'+html+'</p>';slope.appendChild(d);}
+  chip('c',386,20,'Liability dives','Fought hardest since <b>2007</b>, yet almost never where the dispute lands.');
+  chip('g',386,560,'Scope climbs','Barely negotiated, but the <b>#1 dispute driver</b>, cited by ~3 in 4 teams.');
+})();
+</script>
+</body>
+</html>

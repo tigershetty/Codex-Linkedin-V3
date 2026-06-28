@@ -28,6 +28,13 @@
 > the same default, because every post is chosen from a fresh trio. Keep all 3 templates + out PNGs on disk
 > (the unused two are the variety log + the seed for future posts on the topic).
 
+> **The craft layer (2026-06-28) → `references/premium-visual-craft.md`.** Picking the right framework is
+> half the job; rendering it to world-class is the other half. The craft file distils a research sweep
+> across SetProduct **Orion**, Visual Capitalist/FT/Economist, McKinsey/BCG/Gartner, and Eric Partaker into
+> the Orion design tokens, the house-style rules (title-as-claim · one accent + ghosting · direct labels ·
+> source band), the consulting slide-craft, and chart-styling CSS recipes. **Read it before building every
+> variant** — `layout-frameworks-intelligence.md` says *which* shape, this says *how to make it premium*.
+
 **Animation pipeline (built 2026-06-16).** The `-anim.html` variant adds GSAP: a paused master
 timeline exposed on `window.__tl` that reveals the elements in sequence (header → stat → blocks
 unfold one by one → bars grow → timeline nodes light up). `render-anim.mjs` **scrubs the timeline
