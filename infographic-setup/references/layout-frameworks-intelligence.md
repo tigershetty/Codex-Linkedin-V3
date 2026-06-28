@@ -378,6 +378,8 @@ From the 2026 sweep across Visual Capitalist + Voronoi, The Economist/FT (Burn-M
 
 > **Note on overlaps:** slope chart (#71), beeswarm (#201), small multiples (#203), Marimekko (#103), tornado (#109), Harvey balls (#106), football-field (#105), value chain (#97), Three Horizons (#99) already appear above — Family 5 sharpens or pairs them with the craft layer and adds the genuinely-missing editorial formats (dumbbell, bump, connected scatter, tile-grid, butterfly, driver tree, Orion stat-card, reference-band area, sparkline-row, annotated line). The catalog now spans **~229 patterns**.
 
+> **The editorial / scientific pole → `premium-visual-craft.md` §8.** For posts that *teach a system* (an anatomy, a how-it-works, a journey, a map, a taxonomy), the higher-craft moves are the **isometric cutaway / "knowledge graphic"** (Schwochow — anatomy #25/#173, our SVG iso kit), the **radial science-plate** (Eleanor Lutz — radial #8 / coxcomb #208 with concentric-ring labels + a museum-plate frame), the **process panorama / journey** (#180/#212), and the **quantified-report small-multiples grid** (Felton — #203). These are layout choices here; the craft file §8 is how to render them so they look like Lutz/Schwochow, not clip-art.
+
 ---
 
 ## 3. Consulting benchmark — what the firms actually use

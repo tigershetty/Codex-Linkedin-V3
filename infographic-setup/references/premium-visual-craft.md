@@ -2,7 +2,9 @@
 **Created**: 2026-06-28 · **Status**: Active. Read this alongside `layout-frameworks-intelligence.md` before building any render.
 **Companion files**: `layout-frameworks-intelligence.md` (picks *which* layout) · `renderer/README.md` (the build kit) · `memory/visual-benchmarks/top100-visual-dna.md` (the 100-image analysis).
 
-> **What this file is.** `layout-frameworks-intelligence.md` answers *which framework argues the idea*. This file answers the other half — **how to render any framework so it looks like Visual Capitalist / The Economist / a SetProduct dashboard, not a generic slide.** It is distilled from a 2026 research sweep across SetProduct **Orion**, Visual Capitalist + Voronoi, The Economist + FT (Burn-Murdoch), McKinsey/BCG/Bain/Gartner exhibit craft, Eric Partaker, and Visualize Value. The single biggest quality lever we have is no longer *which* chart — it's *this craft layer applied consistently*.
+> **What this file is.** `layout-frameworks-intelligence.md` answers *which framework argues the idea*. This file answers the other half — **how to render any framework so it looks like Visual Capitalist / The Economist / a SetProduct dashboard / an Eleanor Lutz science plate, not a generic slide.** It is distilled from a 2026 research sweep across SetProduct **Orion**, Visual Capitalist + Voronoi, The Economist + FT (Burn-Murdoch), McKinsey/BCG/Bain/Gartner exhibit craft, Eric Partaker, Visualize Value, and (§8) the editorial/scientific data-art masters **Eleanor Lutz (Tabletop Whale)**, **Jan Schwochow**, **Nicholas Felton**, and **Shirley Wu**. The single biggest quality lever we have is no longer *which* chart — it's *this craft layer applied consistently*.
+
+> **Two complementary poles.** There are two camps of world-class craft and we draw from both: **(1) the dashboard pole** — Orion / Refactoring UI / Linear / Stripe: clean, tokenised, calm, KPI-card precision (§1–§4). **(2) the editorial/scientific pole** — Lutz / Schwochow / Felton / Wu: rich, illustrated, "this belongs in a museum" infographic art (§8). Orion makes a *card* look premium; the editorial pole makes an *explainer* (a system, an anatomy, a journey) look authoritative. Pick the pole that fits the topic — and the discipline that underlies both (one accent, systematic colour, direct labels, source band, frozen palette) is the same.
 
 ---
 
@@ -129,7 +131,48 @@ This *tiny-label → huge-number → small-delta → micro-chart* cadence is the
 
 ---
 
-## 8. Pre-flight craft QA (run on every render, on top of README §9)
+## 8. Editorial & scientific data-art craft (Lutz · Schwochow · Felton · Wu)
+
+The "editorial pole" — for posts that *teach a system* (an anatomy, a journey, a map, a rich single-number report). Weighted equal to Orion. These four are reproducible in our HTML/CSS/SVG kit (no d3); the illustration discipline matters more than the specific picture.
+
+### 8a. Eleanor Lutz / Tabletop Whale — the science-plate aesthetic
+Her work (Atlas of Space, radial taxonomies) is data-as-art held to research rigor. The reproducible moves:
+- **Frozen palette as a config file = her #1 lesson.** She designed 14 schemes, collapsed to **one ~70-colour palette reused across the whole series**, stored as `colors.csv` decoupled from layout. **For us:** freeze ~14 brand swatches as CSS vars (already in §1); reuse on *every* card → instant series cohesion. Validate each new colour three ways (as a block, in a pattern, as a gradient) before it ships.
+- **Radial / polar layout (native SVG, no d3):** `x = cx + r·cos(θ), y = cy + r·sin(θ)`; **log-scale the radius** when values span orders of magnitude (lead times, volumes, spend). Loop in the template, emit `<circle>`/`<g>`.
+- **Concentric rings as label anchors** — draw N `<circle>` rings, ride labels on them with `<textPath href="#ringN">`. The signature "Lutz" move, pure SVG.
+- **The "museum plate" frame** — an ornamental frame layer *separate* from the data layer, aligned by exact-pixel CSS Grid cells (her matplotlib-gridspec trick); a **title cartouche** + a **source-citation band treated as design** (not fine print). This is our footrule/source band, elevated.
+- **Label legibility stack** over busy art: every label gets a layered `text-shadow` = one tight dark + one wide light halo.
+- **Warm paper, earned saturation:** off-white ground (`#F7F4EC`) instead of pure white, ink-tinted greys for grid/labels, **full-saturation azure/green reserved for the 1–2 hero marks only**.
+- **Decoration must encode or frame** — she cut 18 border patterns to 1. If an ornament carries no information and frames nothing, delete it.
+- **Minimum-thickness rule** — enforce a min size on every band/segment so tiny data still reads.
+
+### 8b. Jan Schwochow — the isometric "knowledge graphic"
+One large panel that teaches a system by turning data into an illustrated narrative the eye walks through. **Our renderer already draws SVG iso scenes** (`sc101-planning-fence-iso`, `sc101-quote-iso-towers`), so this is Medium, not Hard. The five moves that carry the look — all Easy to standardise:
+1. **One light, 3-tone face shading** — every iso solid: top = lightest tint, left = mid, right = deepest, of one hue. Consistent shading is what makes a dense scene read as coherent.
+2. **Numbered key** — small circular numbered badges *in* the scene + a matching numbered list in a margin/footer strip. Keeps the illustration clean.
+3. **Leader lines** — hairline + an anchor dot + one consistent elbow angle, labels pulled to the canvas edges.
+4. **Category = colour, systematically** — each zone (inbound / storage / outbound / customs) maps to one brand hue; restate in a one-line mini-legend.
+5. **Zoning + guided path** — one hero at ~55% of canvas, everything else visibly subordinate; compose kicker → hero → numbered key → inset zoom → footer so the eye is *led*.
+- **Cutaway reveal:** draw the full volume, then omit the front-facing wall so the interior shows (in SVG, just don't draw that face). One move turns a box into a Schwochow cutaway. Use 30° or 2:1 iso; a single soft contact shadow, flat fills, hairline strokes — no per-object drop shadows.
+- **Ready supply-chain concepts:** "Anatomy of a Port / warehouse" iso cutaway · "How a supply contract works" (clauses as labelled rooms, risk clauses coral) · "The journey of [a product]" process panorama (source → factory → port → DC → store, one stat under each stage). Process before pixels: decide the metaphor/cutaway in `layout-select` first.
+
+### 8c. Nicholas Felton — the quantified-self annual-report finish
+The calmest way to render a dense, number-heavy card. Nearly all Easy in HTML/CSS:
+- **Immaculate modular grid + small multiples** — a grid of identical mini-charts/stat tiles sharing one scale; ranked "most…" lists; the page feels calm because *one grid, hairline rules, generous margins, sparse accent* govern everything.
+- **The Felton stat module:** hero number → label → tiny source/footnote, repeated. Pairs perfectly with the Orion stat-card (§2).
+- **~3 colours, one accent on the hero figure**, axis-less stripped charts, precise numbers with units. Density reads premium because it's systematic, not decorated.
+
+### 8d. Shirley Wu — creative encoding (use sparingly, for a hero)
+- **Marks + channels:** a single custom glyph can encode 3–4 variables at once (colour = category, size = magnitude, position = group), with a **visual metaphor tying the shape back to the data**. Reach for this only when *relationships/structure* are the story and a bar chart would flatten them — and always hand-build the legend so it stays readable. Dot/circle marks + a crafted legend = Easy; multi-variable glyphs = Medium.
+
+### 8e. Orion Figma — confirmed token facts (from the kit teardown)
+- Orion ships in **Manrope** (open-source, has tabular figures — good for KPI/axis numbers; we keep Poppins as the brand face but the *tabular-figures* discipline stands). **8px spacing base**, **4-step radius** (~4/8/12/16 for chips/inputs/cards/modals), **4-step elevation favouring a 1px border + a mild shadow** over heavy shadows (matches §4). Light + dark are independent files; the **exact light-theme canvas/card/series hexes are not published** — our §1 token block is the brand-true substitute.
+
+> **When to use the editorial pole:** if the topic is a *teachable system with parts* (an anatomy, a how-it-works, a journey, a map, a taxonomy) → reach for Schwochow (iso cutaway / panorama) or Lutz (radial plate). If it's a *comparison / ranking / single metric* → the dashboard pole (Orion stat-card, the §3 charts) is cleaner. Both obey §0.
+
+---
+
+## 9. Pre-flight craft QA (run on every render, on top of README §9)
 
 - [ ] **Title is a full-sentence claim with a number** (not a topic label)?
 - [ ] **One message**, everything else support/annotation?
@@ -146,10 +189,11 @@ This *tiny-label → huge-number → small-delta → micro-chart* cadence is the
 
 ---
 
-## 9. Sources (2026 research sweep)
+## 10. Sources (2026 research sweep)
 - **Design systems / Orion:** SetProduct Orion + dataviz kits; Refactoring UI (Wathan/Schoger); Tremor; Untitled UI; Linear / Vercel / Stripe; Muzli infographic feed. *(Most primary pages 403-blocked to automated fetch; reconstructed from search + Refactoring UI rules pulled from GitHub.)*
 - **Data journalism:** Visual Capitalist + Voronoi; The Economist visual style; FT / John Burn-Murdoch annotation research; NYT Upshot (Amanda Cox); Our World in Data; Reuters Graphics; National Geographic; Scientific American (Jen Christiansen).
 - **Consulting:** McKinsey (Three Horizons, driver trees, Pyramid Principle/Minto), BCG (growth-share, experience curve, Mekko), Bain (RAPID), Gartner (Magic Quadrant, Hype Cycle), Booz Allen (Harvey balls), Porter (value chain), Zelazny *Say It With Charts*, Abela chart chooser.
 - **LinkedIn / save psychology:** Eric Partaker; Jack Butcher / Visualize Value; Tufte data-ink ratio; NN/g aesthetic-minimalist heuristic; 2026 LinkedIn carousel best-practice guides.
-- Full per-report detail + verification flags: `memory/visual-research-2026/` (`research-datajournalism.md`, `research-consulting.md`, `research-designsystems.md`). The LinkedIn / save-psychology + Eric Partaker findings are synthesised into §7 above.
-- **Honesty flag:** most primary pages (SetProduct, Dribbble, Muzli, Visual Capitalist, FT, Gartner, consulting PDFs) were 403-blocked to automated fetch; reports were reconstructed from search + the reachable sources (Refactoring UI on GitHub, the FT Visual Vocabulary repo). Hard numbers are flagged by reliability in each report; treat reconstructed design specs as indicative.
+- **Editorial / scientific data-art (§8):** Eleanor Lutz / Tabletop Whale (Atlas of Space project READMEs, her documented method) · Jan Schwochow / Infographics Group (*Understanding the World*, isometric knowledge graphics) · Nicholas Felton (Feltron annual reports, quantified-self minimalism) · Shirley Wu (Data Sketches, creative encoding) · SetProduct Orion Figma teardown (Manrope, 8px/4-step tokens).
+- Full per-report detail + verification flags: `memory/visual-research-2026/` — `research-datajournalism.md`, `research-consulting.md`, `research-designsystems.md`, `research-tabletopwhale.md`, `research-schwochow.md`, `research-shirleywu-feltron.md`, `research-orion-figma.md`. The LinkedIn / save-psychology + Eric Partaker findings are synthesised into §7 above.
+- **Honesty flag:** most primary pages (SetProduct, Dribbble, Muzli, Visual Capitalist, FT, Gartner, the Figma Orion files, schwochow.de, tabletopwhale.com, feltron.com, consulting PDFs) were 403-blocked to automated fetch; reports were reconstructed from search + the reachable sources (Refactoring UI + Eleanor Lutz's project READMEs on GitHub, the FT Visual Vocabulary repo). Hard numbers are flagged by reliability in each report; treat reconstructed design specs as indicative, not eyedropped.
