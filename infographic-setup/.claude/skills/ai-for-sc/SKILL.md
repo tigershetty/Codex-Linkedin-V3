@@ -1,6 +1,6 @@
 ---
 name: ai-for-sc
-description: Use when the user runs /ai-for-sc [week] or /ai-for-sc [week] [use-case-slug]. Monthly theme model pipeline for AI for Supply Chain series. Runs the research-engine FIRST (parallel tool-layer + method-layer research) so every AI-tool capability claim, number, index, and prompt is verified and sourced. Generates two practical use-case posts per week — each for a specific SC role and AI tool — from the approved monthly topic bank. Loads tiger-voice.md, published-voice.md, 101-voice.md, and ai-for-sc-visual-dna.md before generating.
+description: Use when the user runs /ai-for-sc [week] or /ai-for-sc [week] [use-case-slug]. Monthly theme model pipeline for AI for Supply Chain series. Runs the research-engine FIRST (parallel tool-layer + method-layer research) so every AI-tool capability claim, number, index, and prompt is verified and sourced. Generates two practical use-case posts per week — each for a specific SC role and AI tool — from the approved monthly topic bank, each with 3 DISTINCT code-rendered infographic variants for the user to pick one. Loads tiger-voice.md, published-voice.md, 101-voice.md, and ai-for-sc-visual-dna.md before generating.
 ---
 
 # /ai-for-sc Skill — AI for Supply Chain Pipeline (v3)
@@ -209,13 +209,15 @@ Single unified caption structure for all AI for SC posts. The role, tool, and fr
 
 ---
 
-## Step 5: Build the Render Brief + Code-Render the Infographic
+## Step 5: Build the Render Brief + Code-Render 3 DISTINCT Variants
 
-**The infographic is now rendered deterministically from code — there is NO Gemini / AI-image prompt.** Data and text are computed in HTML, never painted by a diffusion model, so the numbers are always exact and the brand is locked. The renderer lives in `renderer/` (merged from the html-render pilot). See `references/render-pilot-workflow.md` for the full pipeline and the learnings checklist.
+**The infographic is rendered deterministically from code — there is NO Gemini / AI-image prompt.** Data and text are computed in HTML, never painted by a diffusion model, so the numbers are always exact and the brand is locked. The renderer lives in `renderer/`. See `references/render-pilot-workflow.md` for the full pipeline and the learnings checklist.
+
+> **The variety rule (2026-06-28): render 3 visually distinct concepts for EVERY post, then present all 3 for the user to pick one.** Each post offers three genuinely different frameworks so the feed never repeats a skeleton. The 3 must differ from **each other** in layout framework AND dominant hero device — three different structures, not three colour swaps of one idea. (The tool logo, prompt block, and brand frame stay constant across all 3; what changes is the visual *argument*.)
 
 ### 5.1 Load the concept + the render kit
-- Read `references/ai-for-sc-visual-dna.md` for the **concept only** — the assigned format (the plan's Visual line: Blueprint Draft, Cost Anatomy, Signal Scan, etc.) gives you the spatial idea and the Hero Number convention ("[Manual time] → [AI-assisted time]"). Use it to choose the bespoke visual concept, NOT to write a prompt.
-- Skim `renderer/README.md` and an existing template (e.g. `renderer/templates/pf7-blueprint-draft.html`) — this is the component kit and the brand frame you build on. Design one bespoke concept on the same homogeneous Shetty's Desk frame ("design system, not parametrisation").
+- Read `references/ai-for-sc-visual-dna.md` + `references/ai-for-sc-creative-intelligence.md` for **concepts** — the assigned format gives the spatial idea and the Hero Number convention ("[Manual time] → [AI-assisted time]"). Use them to choose **3 distinct bespoke concepts**, NOT to write a prompt.
+- Run `layout-select` (it returns **3 distinct frameworks**). Skim `renderer/README.md` and an existing template (e.g. `renderer/templates/pf7-blueprint-draft.html`) — the component kit and brand frame you build on. Design each variant as a bespoke concept on the same homogeneous Shetty's Desk frame ("design system, not parametrisation").
 
 ### 5.2 Write the render brief
 The render brief is the content-depth layer that replaces the Gemini prompt. For this post, lock down:
@@ -226,20 +228,20 @@ The render brief is the content-depth layer that replaces the Gemini prompt. For
 - **The honest limitation** — the "when NOT to use" rendered as the watch-for element.
 - **The closing thesis** — the one save-worthy line.
 
-### 5.3 Build the HTML template
-Assemble a self-contained template at `renderer/templates/[use-case-slug].html` from the component kit:
-- Brand frame intact: azure + eco-green + ink + Poppins, luminous on WHITE, flat. Coral = caution / cost accent only.
+### 5.3 Build the 3 HTML templates
+Assemble a self-contained template **per variant** at `renderer/templates/[use-case-slug]-v1.html`, `-v2.html`, `-v3.html` from the component kit — 3 different frameworks, NOT recolours of one:
+- Brand frame intact (all 3): azure + eco-green + ink + Poppins, luminous on WHITE, flat. Coral = caution / cost accent only.
 - **The AI tool appears only as its logo** (`renderer/assets/logos/`) plus woven into the heading ("…using Claude") — never a tool-branded palette, never a reproduced trademark.
 - Big readable blocks; every number hard-coded from the brief; the verbatim prompt as a scannable stepped list; data bars that encode the real values (fills must be `display:block`); Hero Number 3–4x body text; Shetty's Desk Logo 4 (mono) in the bottom-right corner.
-- Work through the learnings checklist in `references/render-pilot-workflow.md` §2.
+- Work through the learnings checklist in `references/render-pilot-workflow.md` §2 for **each** variant.
 
-### 5.4 Render
+### 5.4 Render all 3
 From `renderer/` (always use an absolute path — the shell cwd drifts):
-- **Still (default):** `NODE_PATH=$(npm root -g) node render.mjs templates/[slug].html out/[slug].png`
-- **Animated (only when the sequence or ambient motion earns it):** build `[slug]-anim.html` (unfold — when sequence carries meaning) or `[slug]-path.html` (ambient orbit — content static, motion decorative), then `node render-anim.mjs templates/[slug]-anim.html out/[slug]` → `out/[slug].mp4` + `out/[slug].gif`.
-- QA by reading the rendered PNG (or an extracted frame) and iterating until it passes the checklist.
+- **Still (default):** `NODE_PATH=$(npm root -g) node render.mjs templates/[slug]-vN.html out/[slug]-vN.png` for N = 1,2,3
+- **Animated (only when the sequence or ambient motion earns it, and only for the variant that needs it):** build `[slug]-vN-anim.html`, then `node render-anim.mjs templates/[slug]-vN-anim.html out/[slug]-vN` → `.mp4` + `.gif`.
+- QA each rendered PNG and iterate until all 3 pass the checklist. Don't ship a weak third just to hit the count — swap its framework for the next-best distinct pattern if one won't work.
 
-**Output:** `out/[use-case-slug].png` (plus `.mp4` / `.gif` if animated). No AI-image prompt is produced and no image is generated by a diffusion model — the visual is deterministic code.
+**Output:** `out/[use-case-slug]-v1.png`, `-v2.png`, `-v3.png` (plus `.mp4`/`.gif` if a variant is animated). No AI-image prompt is produced — the visual is deterministic code.
 
 ---
 
@@ -264,16 +266,19 @@ LINKEDIN CAPTION (using hook [#] as placeholder):
 RENDER BRIEF:
 [concept + real data + verbatim on-canvas prompt + worked example + limitation + thesis]
 
-RENDERED INFOGRAPHIC:
-out/[use-case-slug].png   (+ out/[use-case-slug].mp4 / .gif if animated)
+3 RENDERED INFOGRAPHIC VARIANTS (pick 1):
+ V1 · [framework / hero device]:  out/[use-case-slug]-v1.png
+ V2 · [framework / hero device]:  out/[use-case-slug]-v2.png
+ V3 · [framework / hero device]:  out/[use-case-slug]-v3.png
+(surface all 3 PNGs to the user; one-line what makes each distinct)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Pick a hook (1–10). Adjust caption if needed.
+Pick a hook (1–10) AND a visual variant (V1/V2/V3). Adjust caption if needed.
 Would you like a PDF draft for this post? (Yes / No)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-After the user confirms hook selection and PDF decision: save files, then present Post B (if running both).
+After the user confirms hook selection, visual variant, and PDF decision: copy the chosen variant to the post's `visual.png`, keep all 3 templates + out PNGs, save files, then present Post B (if running both).
 
 ---
 
@@ -350,11 +355,12 @@ what gets missed, why it matters to this specific role.]
 
 ## Step 8: Save
 
-After hook confirmed and PDF decision made:
+After hook confirmed, **visual variant chosen**, and PDF decision made:
 
 1. Write `data/{YYYY-W##}/{use-case-slug}/ai-for-sc-[use-case-slug].md`
-2. Write `data/{YYYY-W##}/{use-case-slug}/ai-for-sc-[use-case-slug]-pdf.md` (only if PDF requested)
-3. Update `data/ai-for-sc-series-tracker.md` — add new entry with episode number, role, tool, use case slug, week
+2. Copy the **chosen** variant's render to `data/{YYYY-W##}/{use-case-slug}/visual.png`; keep all 3 `renderer/templates/[slug]-vN.html` and `renderer/out/[slug]-vN.png` on disk (variety log + future-post seed)
+3. Write `data/{YYYY-W##}/{use-case-slug}/ai-for-sc-[use-case-slug]-pdf.md` (only if PDF requested)
+4. Update `data/ai-for-sc-series-tracker.md` — add new entry with episode number, role, tool, use case slug, week, and the chosen framework
 
 ---
 
@@ -386,7 +392,8 @@ After hook confirmed and PDF decision made:
 ---
 
 ## Render Brief
-- **Concept / format**: [bespoke visual concept + the assigned format]
+- **3 distinct concepts (V1/V2/V3)**: [framework + hero device for each variant]
+- **Chosen variant**: V[n] — [framework] — why it won
 - **Real data**: [every number on the canvas, sourced]
 - **Hero Number**: [Manual time] → [AI-assisted time]
 - **Verbatim on-canvas prompt**: [the exact copy-paste prompt shown on the image]
@@ -395,9 +402,10 @@ After hook confirmed and PDF decision made:
 - **Thesis**: [the one save-worthy line]
 
 ## Rendered Output
-- Template: `renderer/templates/[use-case-slug].html`
-- Still: `renderer/out/[use-case-slug].png`
-- Animated (if used): `renderer/out/[use-case-slug].mp4` + `.gif`
+- V1: `renderer/templates/[use-case-slug]-v1.html` → `renderer/out/[use-case-slug]-v1.png` — [concept]
+- V2: `renderer/templates/[use-case-slug]-v2.html` → `renderer/out/[use-case-slug]-v2.png` — [concept]
+- V3: `renderer/templates/[use-case-slug]-v3.html` → `renderer/out/[use-case-slug]-v3.png` — [concept]
+- **Chosen → `visual.png`**: V[n] (+ `.mp4`/`.gif` if that variant is animated)
 ```
 
 ### ai-for-sc-[use-case-slug]-pdf.md

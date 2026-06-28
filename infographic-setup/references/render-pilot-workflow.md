@@ -12,13 +12,21 @@
                 real data, the bespoke visual concept, the verbatim prompt, a worked example,
                 the honest limitation, the closing thesis. THIS is the "more context / dive deeper"
                 step — it replaces the Gemini prompt as the bridge.
-3. HTML/GSAP    assemble a self-contained template from the Shetty's component kit (renderer/):
-                bright luminous bg, constant coral thread, homogeneous palette, large tool logo,
+3. LAYOUT×3     run layout-select → 3 DISTINCT frameworks (3 patterns + 3 hero devices), one per variant.
+4. HTML/GSAP    assemble 3 self-contained templates (<ep>-v1/-v2/-v3.html) from the Shetty's component kit
+                (renderer/): bright luminous bg, homogeneous palette, large tool logo (AI-for-SC),
                 Shetty's Desk logo footer. GSAP available for animation (tool-to-tool flow posts).
-4a. STILL       node render.mjs templates/<ep>.html out/<ep>.png   (Playwright → 2160x2700 PNG)
-4b. ANIMATED    node render-anim.mjs templates/<ep>-anim.html out/<ep>   (→ <ep>.mp4 + <ep>.gif) [BUILT]
-5. CAPTION      the LinkedIn caption is written as today (voice files), independent of the visual.
+5a. STILL       node render.mjs templates/<ep>-vN.html out/<ep>-vN.png   (Playwright → 2160x2700 PNG), ×3
+5b. ANIMATED    node render-anim.mjs templates/<ep>-vN-anim.html out/<ep>-vN   (→ .mp4 + .gif) [BUILT]
+6. PICK 1       present all 3 renders → user picks one → copy it to the post's visual.png (keep all 3).
+7. CAPTION      the LinkedIn caption is written as today (voice files), independent of the visual.
 ```
+
+> **The 3-variant standard (2026-06-28).** Every post — 101 and AI-for-SC — renders **3 visually distinct
+> concepts** and the user picks one. The 3 must differ from each other in **layout framework AND hero
+> device** (three skeletons, not three colour swaps). This is the variety guarantee: no two posts lean on
+> the same default, because every post is chosen from a fresh trio. Keep all 3 templates + out PNGs on disk
+> (the unused two are the variety log + the seed for future posts on the topic).
 
 **Animation pipeline (built 2026-06-16).** The `-anim.html` variant adds GSAP: a paused master
 timeline exposed on `window.__tl` that reveals the elements in sequence (header → stat → blocks

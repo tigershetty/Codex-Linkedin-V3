@@ -196,8 +196,15 @@ A stacked tower = N iso bands, each height ∝ its value (benchmark #43 in real 
 ---
 
 ## 12. How to build a NEW template
-1. Pick the power format from the subject→format selector in `top100-visual-dna.md`.
-2. Copy the nearest reference template (`pf1`/`pf5`) as a starting skeleton.
-3. Apply: 4:5 canvas + dramatic background; 3-zone structure; repeated per-cell schema; coral/semantic color; Lucide icons + relevant logos; 3D where geometry helps.
-4. `node render.mjs templates/<new>.html out/<new>.png`, then run the §9 QA checklist by reading the PNG.
-5. Iterate on the render (max ~2 passes), commit template + PNG.
+
+> **3-variant standard (2026-06-28): every post renders 3 DISTINCT concepts and the user picks one.** Run
+> `layout-select` for 3 different frameworks (3 benchmark patterns + 3 hero devices — three skeletons, not
+> three colour swaps), then build `templates/<slug>-v1.html`, `-v2.html`, `-v3.html`, render + QA each, and
+> surface all 3. After the pick, copy the chosen `out/<slug>-vN.png` to the post's `visual.png` and keep all
+> 3 templates + out PNGs (variety log + future-post seed). This applies to 101 and AI-for-SC alike.
+
+1. Pick **3 distinct** power formats from the subject→format selector in `top100-visual-dna.md`.
+2. Copy the nearest reference template per variant (`sc101-quote-iso-towers`/`pf6`/`pf7`) as a starting skeleton.
+3. Apply: 4:5 canvas + dramatic background; 3-zone structure; repeated per-cell schema; coral/semantic color; Lucide icons + relevant logos; 3D where geometry helps. Each variant = a different skeleton.
+4. `node render.mjs templates/<slug>-vN.html out/<slug>-vN.png` for each, then run the §9 QA checklist by reading each PNG.
+5. Iterate on each render (max ~2 passes), commit the 3 templates + 3 PNGs.

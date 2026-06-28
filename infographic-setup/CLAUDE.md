@@ -118,7 +118,8 @@ data/
 
 ## Gotchas
 - **IKEA content is excluded** — do not use as voice or content reference
-- **101 visual is now code-rendered** (`renderer/`, HTML→PNG) — pick the layout via `layout-select`, build the template, render and QA the PNG. The ChatGPT (GPT Image 2) prompt is the **backup** path (illustration fallback), kept in `101-copy.md`.
+- **3-variant render standard (2026-06-28)** — EVERY post (101 + AI for SC) renders **3 visually distinct concepts** (3 different layout frameworks + hero devices via `layout-select`, never recolours of one idea) and the user **picks one**. Build `<slug>-v1/-v2/-v3.html`, QA each, surface all 3, copy the chosen render to `visual.png`, and keep all 3 templates + out PNGs (variety log + future-post seed). This is the variety guarantee — no two posts lean on the same default.
+- **101 visual is now code-rendered** (`renderer/`, HTML→PNG) — pick **3 distinct layouts** via `layout-select`, build the templates, render and QA each PNG. The ChatGPT (GPT Image 2) prompt is the **backup** path (illustration fallback), kept in `101-copy.md`.
 - **SC 101 footer uses Logo 2** (`renderer/assets/logos/shettys-desk-logo-2.png`, the dark-wordmark lockup for light backgrounds, ~74px on the LEFT) + **"Poornajith Shetty"** signature on the RIGHT. Logo 2 carries the "Shetty's Desk" wordmark, so there is **no separate text label**. Never use Logo 1 on the cards — its wordmark is white and invisible on white.
 - **NEGATIVE prompt blocks degrade render quality** — never add them to the 101 ChatGPT (GPT Image 2) backup prompt
 - **Hooks become the verbatim opening line of the published post** — voice rules apply at hook generation
