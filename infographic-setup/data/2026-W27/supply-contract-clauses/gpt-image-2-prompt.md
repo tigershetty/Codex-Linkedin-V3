@@ -15,7 +15,7 @@
 
 Task: Create an infographic image for the summary below (after the rules).
 
-Rules: Several images are attached. All but the last are STYLE REFERENCES ONLY — follow them directly for style, aesthetics, colours, tones, materials, lighting and illustration technique: a clean white background, soft three-dimensional gradient shapes, azure-blue, emerald-green and coral-pink accents, and bold dark-navy headings. Take every colour and tone from these images; do not invent a palette and do not use any colour codes or hex values. Ignore their subject matter entirely — do not copy any vehicles, batteries, wind turbines, solar panels, charging icons, dashboards or any other objects from them; use them only for look and feel. The LAST image is the Shetty's Desk logo — reproduce it exactly as given, do not restyle or relabel it, and place it small and clean in the bottom-left corner. Build the scene only from the summary below. Aspect ratio 1:1, resolution 2048x2048.
+Rules: Use the attached images as style references — follow them for style, colours and illustration technique, not their subject matter. The last image is the Shetty's Desk logo; reproduce it as given and place it small in the bottom-left corner. Aspect ratio 1:1, resolution 2048x2048.
 
 TOPIC: The Six Clauses That Hold a Supply Contract
 THE QUESTION THIS ANSWERS: Teams negotiate liability the hardest, so why do most disputes start somewhere else?
@@ -84,3 +84,15 @@ DO NOT:
   - `8.webp` Renewable → media `6ccd9b76-1288-4c7b-bbc0-6ea41cfd303c`
 - Logo = `shettys-desk-logo-2.png` → media `7c3fc954-26f2-466f-8419-6a52a9d9a67b`
 - Purpose: fix the muddy colour from the deep-blue anchor (image 10) by switching to white-bg anchors; test 4–5 reference blending. PNG not committable (CDN egress-blocked).
+
+---
+
+## Generation record 3 (4-model bracket — same trimmed prompt + same 5 references)
+- **Run**: 2026-06-29 · trimmed Rules block (refer-to-image / reproduce-logo-bottom-left / aspect ratio only) · same 4 white-bg anchors + logo · 4:5 where supported, else 3:4.
+- Reference media (logo LAST): `99601e58…` Perks · `a5059fdd…` Batteries · `079e1b1e…` EV-cutaway · `6ccd9b76…` Renewable · `7c3fc954…` logo.
+- Models requested vs the engine Higgsfield actually ran (backend remaps the nano IDs):
+  - requested `nano_banana_pro` → ran **nano_banana_2** · job `169d06fe-4f5f-4894-af3b-ee0b4f3e457b` · 4:5 · 1856×2304 · 2k
+  - requested `nano_banana_2` → ran **nano_banana_flash** · job `21dfc037-ed4a-4905-afef-2b507943ab05` · 4:5 · 1856×2304 · 2k
+  - `seedream_v4_5` (quality high) · job `d93c7099-5948-4413-9683-e26e685d375f` · 3:4 · 3456×4608 (native 4K)
+  - `flux_2` (variant pro, 2k) · job `ff582f23-3ddc-48bf-be9f-a5a27097f275` · 3:4 · 1440×1920
+- Purpose: pick the best engine for the text-heavy infographic. PNGs not committable (CDN host egress-blocked) — judged visually in the Higgsfield panel.
