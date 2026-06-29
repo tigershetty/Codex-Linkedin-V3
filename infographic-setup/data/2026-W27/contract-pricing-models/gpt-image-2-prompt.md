@@ -165,3 +165,14 @@ One horizontal axis `SUPPLIER ◄———► BUYER`; the three models plotted a
   - Iter 2 → `8a38d9dd-7c43-42e6-bea3-31f32fb05c16`
   - Iter 3 → `09b881a3-0930-4989-a640-bd0bdb9ae93d`
 - PNGs not committable (CDN egress-blocked) — judged in the Higgsfield panel.
+
+---
+
+## ✅ LOCKED VISUAL (2026-06-29) — "The Shifting Line" (Framework C)
+User approved the Shifting Line from the Generation record 7 batch ("This looks good"). Winner is one of the three 1:1 / 2k iterations (`c3ae1c9b…` / `8a38d9dd…` / `09b881a3…`) — chosen in the Higgsfield panel. Engine `nano_banana_pro` → `nano_banana_2`. References = original anchor `1d05cd74-…` + real logo `7c3fc954-…`. The viral-scaffold prompt above is the locked prompt for this card.
+
+**Changes to apply on the NEXT posts (user-directed, 2026-06-29 — NOT a re-run of this card):**
+- Aspect ratio **3:4** (portrait for LinkedIn) instead of 1:1.
+- Resolution **2480x3312** in the prompt text; param **2k**.
+- Logo must be **transparent / no background** — `remove_background` the logo media first, then attach the transparent version as Reference 2.
+These are now the standing AI-still defaults — folded into `references/ai-still-prompt-learnings.md` §8, `CLAUDE.md`, and the 101 SKILL Step 4B.

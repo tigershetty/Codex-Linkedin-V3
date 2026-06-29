@@ -149,11 +149,11 @@ After the still is approved, a GIF/MP4 version can be produced via `render-anim.
 
 Generate this **as a fallback** and keep it in `101-copy.md` — use it instead of the code-render only when the concept is purely illustrative/metaphorical with no load-bearing structure (or when a render isn't feasible in-session).
 
-> **Read `references/ai-still-prompt-learnings.md` before writing this prompt.** It is the playbook for this lane (framework-first selection, the info-design-not-cinematography register, anchors-are-load-bearing, engine quirks, the egress constraint, the locked pillars template). The rules below are the short form.
+> **Read `references/ai-still-prompt-learnings.md` — §8 FIRST — before writing this prompt.** §8 is the current operative spec (Nano Banana Pro + viral scaffold + anchor & real logo + batch of 3); §0–§7 are the foundational learnings (framework-first selection, info-design-not-cinematography register, egress constraint). The rules below are the short form of §8.
 
-**Image tool: GPT Image 2 via the Higgsfield MCP** (`generate_image`, model `gpt_image_2`) — not pasted into ChatGPT. Standard params: aspect `3:4` (**GPT Image 2 cannot do 4:5**), `quality: high`, `resolution: 4k`. GPT Image 2 renders on-image text reliably, so keep labels exact and short.
+**Image tool: Nano Banana Pro via the Higgsfield MCP** (`generate_image`, model `nano_banana_pro` — remaps to `nano_banana_2` in job records, expected). Run a **batch of 3** (`count: 3`) and let the user pick one. **Default aspect/resolution: `3:4`, `2k`** (and write `resolution 2480x3312` into the prompt text). Never use 1k — on-image text goes soft.
 
-**References (attach all five, logo LAST):** the **4 white-bg brand anchors + the Shetty's Desk logo** — not the single deep-blue `brand-anchor-v1.webp` (it renders muddy). The anchors are load-bearing: drop them and the engine falls back to a generic prior and stops looking on-brand. Media IDs are in the learnings file §2.
+**References (attach two, logo LAST):** (1) the **single original brand anchor** `brand-anchor-v1.webp` (media `1d05cd74-…`), **style-only** with a hard "take nothing from it" rule; (2) the **real Shetty's Desk logo** (media `7c3fc954-…`), **reproduce exactly, bottom-left** — it must be **transparent/no background** (`remove_background` it first if needed). Media IDs + rationale in learnings §8.2.
 
 **Register — design-forward, not cinematic.** Frame it as *"a clean, modern, design-forward infographic / an information-design graphic like the FT or Economist"*: flat or flat-dimensional, even clean illumination, flat-on, **no camera angle, no dramatic lighting, no scene, no photography.** Mark standouts **by design** (a grid, a crack, a tag, a colour accent), not by light. "More dramatic / less AI-like" from the user means *conceptually sharper and cleaner*, never cinematography.
 
@@ -190,7 +190,7 @@ CONTENT TO INCLUDE ON THE IMAGE:
 DESIGN: crisp flat-design infographic, generous whitespace, strong alignment grid, bold legible sans-serif, max 2 font families. Restrained palette: deep navy + azure base, ONE coral accent reserved for the single caution/focal element only. Even, flat, front-facing — no camera angle, no dramatic lighting, no 3D scene. Every word legible at phone size; data labels preferred over paragraph text.
 ```
 
-**No NEGATIVE / DO-NOT block** — negative-prompt blocks degrade GPT Image 2 (CLAUDE.md hard rule); phrase every constraint positively, as in the DESIGN line above. Populate from the plan's Visual Format and Caption Direction. Keep the content list tight — only what must appear on the image. Total prompt length: 40–55 lines maximum.
+**DO-NOT blocks:** on **Nano Banana Pro**, exactly **one technical** `DO NOT` is allowed and is part of the viral recipe — the font floor (≤14px). Do **not** add style-negatives or a list. **If this prompt is ever ported to GPT Image 2, drop the DO-NOT entirely** — negative blocks degrade that engine (CLAUDE.md hard rule). Otherwise phrase constraints positively. **No colour prescription** — the anchor governs palette. Populate from the plan's Visual Format and Caption Direction. Keep the content list tight (only what must appear on the image) and honour the on-image word cap (~45). Total prompt length: 40–55 lines maximum.
 
 ---
 

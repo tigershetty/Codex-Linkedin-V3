@@ -1,8 +1,10 @@
-# AI-Still Visual Path — GPT Image 2 / Higgsfield (the 101 backup lane) — Learnings
+# AI-Still Visual Path — Higgsfield (the 101 backup lane) — Learnings
 
-**Version:** 1.0 · **Created:** 2026-06-29 · **For:** the Supply Chain 101 backup visual path (illustration/metaphor posts).
+**Version:** 1.1 · **Created:** 2026-06-29 · **For:** the Supply Chain 101 backup visual path (illustration/metaphor posts).
 **Scope:** the AI-still image lane only — code-render (`renderer/`, HTML→PNG) stays the **primary** 101 visual (see `render-pilot-workflow.md`). This file is the playbook for when the backup lane is used: how to pick the framework, write the prompt, and run the engine.
-**Source:** distilled from the `supply-contract-clauses` (Ep35) iteration, June 2026 — ~6 prompt rounds before the visual locked.
+**Source:** distilled from the `supply-contract-clauses` and `contract-pricing-models` iterations, June 2026.
+
+> **⭐ CURRENT APPROACH (v1.1, 2026-06-29) — read §8 first.** The lane has moved to **Nano Banana Pro + the viral-post prompt scaffold + a single original anchor and the real (transparent) logo**, run as a **batch of 3**. §0–§7 below are the foundational learnings (framework selection, register, egress, etc.) and still apply; §8 is the operative engine/prompt/run spec. Where §8 differs from older notes (4 anchors → 1 anchor + logo; GPT Image 2 → Nano Banana Pro; no DO-NOT → one technical DO-NOT), **§8 wins.**
 
 ---
 
@@ -110,3 +112,70 @@ Full paste-ready prompt: `data/2026-W27/supply-contract-clauses/gpt-image-2-prom
 - **Present the framework before generating.** The user gates each generation — and since I can't show them the PNG, they judge it in-panel. Don't fire a generation they haven't blessed.
 - **When asked for judgment, commit to ONE strong pick** with a short rationale. Don't dump a menu — that reads as indecision (the user pushed back on menus twice).
 - **Keep a future-post seed log.** Shelved this session: **"The Mismatch"** — a pure information-design graphic (a six-clause spine with two offset markers, effort vs failure). Good, just not chosen for this card.
+
+---
+
+## 8. ⭐ CURRENT APPROACH (v1.1) — Nano Banana Pro + viral scaffold + anchor & real logo
+
+This is the operative spec for the AI-still lane as of 2026-06-29, locked from the `contract-pricing-models` ("Shifting Line") iteration. It supersedes the older GPT-Image-2 / 4-anchor guidance above where they conflict.
+
+### 8.1 Engine & run config
+- **Engine: `nano_banana_pro`.** The backend **remaps it to `nano_banana_2`** in job records — expected, not an error. Record the engine that *ran*.
+- **Batch of 3** every time — `count: 3` — and the user picks the strongest. (Same "pick one of three" spirit as the code-render variety rule.)
+- **Default aspect & resolution for posts going forward: `3:4`, `2k`** (param), with `resolution 2480x3312` written into the prompt text. *(The `contract-pricing-models` winner happened to be run at 1:1 / 2k while testing the viral scaffold; 3:4 portrait is the standing default for LinkedIn from the next post on.)*
+- Resolution param accepts `1k` / `2k` / `4k`; **1k makes on-image text soft** — use **2k+**. Nano at 1k defaults silently, so always set `2k`.
+
+### 8.2 References — one anchor + the real logo (transparent)
+- **Reference 1 = the original brand anchor alone**, `brand-anchor-v1.webp` → media `1d05cd74-6ff1-4619-9869-dfc4952cfc00`, used **style-only**. (Single anchor + a hard "take nothing from it" rule held style without subject bleed — we no longer need the 4 white-bg anchors for this engine/scaffold.)
+- **Reference 2 (LAST) = the real Shetty's Desk logo**, media `7c3fc954-26f2-466f-8419-6a52a9d9a67b`, **reproduce exactly, bottom-left**. Feeding the actual logo beats a text-"wordmark" instruction and removes the post-hoc compositing step.
+- **Logo must be transparent / no background.** If the logo media has a white box, run `remove_background` (media_type `image`) on it first and use the resulting transparent media as Reference 2. Prep this once and reuse the transparent media ID.
+
+### 8.3 Prompt scaffold — lifted from Tiger's most-viral post
+Use this exact section skeleton (it is the proven viral structure):
+
+```
+Task: Create an infographic image for the summary below (after the rules).
+
+Rules: Use the FIRST attached image as a reference on style, aesthetics, colours, and illustration
+technique only. Use a different layout from it — do not use any object, subject, information or text
+from the attached image; style only, for inspiration. The SECOND (last) attached image is the
+Shetty's Desk logo — reproduce it exactly as given, small, in the bottom-left corner; do not redraw
+or restyle it. Aspect ratio 3:4, resolution 2480x3312.
+
+TOPIC: [one line]
+THE QUESTION THIS ANSWERS: [the reader's real question, first person]
+VISUAL STRUCTURE: [one unified system; name the ONE element that moves; "...is the dominant visual element."]
+
+CONTENT TO INCLUDE ON THE IMAGE:
+- Heading: "[≤8 words]" (Bold, max 8 words)
+- Subheading: "[short, parallel]"
+- [exact labels + per-item short captions]
+
+CONTENT RULES:
+- Maximum 45 words total on the image (excluding axis labels and model names)
+- Heading: maximum 8 words, set in Bold
+- [the one standout element]; the rest visually calm
+- Every element readable at mobile phone size
+- Data labels and short captions preferred over paragraph text
+
+DO NOT:
+- Use font sizes below 14px at final output resolution
+```
+
+The levers that make it land (all from the viral post): **THE QUESTION THIS ANSWERS** framing line · a **hard on-image word cap (~45)** · **"data labels/short captions over paragraph text"** · an explicit **dominant-element** call · the **"use a different layout from the attached image"** anti-bleed rule · **aspect + resolution restated in the prompt text** · a **per-item takeaway caption** so the argument lands in ~2 seconds.
+
+### 8.4 The one allowed DO-NOT
+A **single technical** `DO NOT` (the 14px font floor) is fine on **Nano Banana Pro** and is part of the viral recipe. This is the one exception to the "no negative blocks" rule — and it holds only because it is a single technical constraint, not a list of style-negatives. **If this prompt is ever ported to GPT Image 2, drop the DO-NOT block** (negative blocks degrade that engine — see §3).
+
+### 8.5 No colour prescription
+Don't name brand colours in the prompt. The anchor governs palette. Describe only the scene, the on-image text, and which one element is the standout (by design, not by colour word). This is the §3 "anchors govern style" rule, taken to its conclusion.
+
+### 8.6 The locked template — "The Shifting Line" (a boundary that slides)
+The chosen visual for `contract-pricing-models` and the reusable seed for any *"same input, allocated differently across N cases"* post (risk, cost, ownership, blame):
+
+> N identical horizontal bars stacked; each split into two zones by one bold divider (party A left, party B right). The **same marker** (the overrun / the input) sits on every divider, identical in size; **only the divider's position changes** across the bars, so the eye reads the argument by watching one line walk. A short per-bar caption states the takeaway ("A absorbs it" / "Shared" / "B absorbs it"). One standout element; everything else calm.
+
+Full paste-ready prompt: `data/2026-W27/contract-pricing-models/gpt-image-2-prompt.md` → **"REWRITE … Generation record 7"** / Framework C.
+
+### 8.7 Standing constraints that still apply
+Egress block (§5) is unchanged — **the user judges every render in the Higgsfield panel; I cannot view the PNGs.** Framework-first (§0), info-design-not-cinematography register (§1), and prompt hygiene (§3) all still govern.
