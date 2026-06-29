@@ -145,3 +145,37 @@ Aspect ratio 3:4, ultra-high resolution, crisp legible lettering.
 - Prompt A → `gpt_image_2` (quality high, resolution 4k) · job `20879813-27a9-4da9-ab38-0015a9673bce` · 2880×3840.
 - Prompt B → `seedream_v4_5` (quality high) · job `39e92b64-c538-4c6a-bc1b-e8e364374090` · 3456×4608.
 - White-bg style anchors deliberately dropped (they pulled the output back to flat AI-infographic); brand accents written into the prompt instead. PNGs not committable (CDN egress-blocked) — judged in the Higgsfield panel.
+- **Read (2026-06-29):** Rejected. Two faults — (1) the brand style anchors were missing, so the engine fell back to its generic "stone temple" prior and stopped looking like Shetty's Desk; (2) the whole cinematic register (camera angle, raking light, chiaroscuro, ominous mood) was wrong direction — it produced a moody photographic *scene*, not the crisp, clean, design-forward infographic the brand wants. Decision: anchors back in, kill the ART DIRECTION layer entirely, rewrite as a clean infographic brief. See Round 5.
+
+---
+
+## Round 5 — crisp design-forward infographic (anchors back, no cinematography)
+**What changed vs Round 4:** the four white-bg brand style anchors + logo are back as references (they teach the clean Shetty's Desk look; without them the engine invents a generic temple). The entire ART DIRECTION block — camera angle, raking light, chiaroscuro, weathered stone, depth planes, "ominous mood" — is **deleted**. Reframed from "dramatic editorial illustration / movie scene" back to a **clean, modern, design-forward infographic**: flat dimensional illustration, strong grid, bold legible type, generous whitespace, brand navy/azure base + one coral accent. The Edifice concept stays (six columns, Liability over-reinforced, Scope cracking) but is *designed*, not photographed. Standouts are marked by design (scaffold grid, crack line, tags), not by lighting.
+
+### Prompt — GPT Image 2 (crisp infographic)
+
+Task: Create a clean, modern, design-forward infographic.
+
+Rules: Use the attached images as style references — match their clean flat-design look, deep-navy and azure palette, crisp dimensional illustration and bold typography. Do not copy their subject matter. The last image is the Shetty's Desk logo; reproduce it exactly and place it small in the bottom-left corner. Aspect ratio 3:4.
+
+CONCEPT: Six clauses hold a supply contract. Teams reinforce Liability the hardest, but the cracks start at Scope.
+
+LAYOUT: A clean, modern infographic on a light background. Six tall, evenly spaced columns stand in a row across the lower two-thirds of the canvas as one unified structure, a single supply contract, drawn as crisp dimensional flat-design illustration — not photoreal stone, not a photograph, no scene. A simple header bar reading "THE SUPPLY CONTRACT" sits across the top of the columns; a small round seal in its centre reads "6 CLAUSES". Each column carries a clean bold label beneath it. Flat-on, balanced, front-facing composition — no camera angle, no dramatic lighting, even clean illumination.
+
+Two columns stand out by design, not by light:
+- The LIABILITY column is wrapped in a neat steel-blue (azure) scaffold grid, clearly over-reinforced. A small tag reads "FOUGHT HARDEST".
+- The SCOPE column has a single clean coral crack line running down it, the one actually failing. A small tag reads "WHERE IT BITES".
+The other four columns are calm, identical, in deep navy and azure.
+
+TEXT ON THE IMAGE (bold, beautifully set, max two type families):
+- Heading at top, bold: "Everyone reinforces the wrong clause"
+- Italic subline beneath it: "Six clauses hold a supply contract. The cracks start at the one nobody guards."
+- Large near the Scope column: "77% of disputes start at scope" with "scope" in coral.
+- One bold-caps label beneath each column: PRICE & INDEXATION, SCOPE & SPECIFICATION, DELIVERY & LEAD TIME, QUALITY & SLA, LIABILITY & REMEDIES, TERM & EXIT.
+- The attached Shetty's Desk logo reproduced exactly, small and clean in the bottom-left corner.
+
+DESIGN: crisp vector flat-design infographic, generous whitespace, strong alignment grid, bold legible sans-serif. Restrained palette: deep navy and azure as the base, ONE coral accent reserved only for the Scope crack and the word "scope". Modern, confident, visually forward, like a premium design-system infographic. Every word crisp and legible at phone size.
+
+### Generation record 5 (crisp infographic — anchors back)
+- **Run**: 2026-06-29 · clean design-forward rewrite · **4 white-bg anchors + logo** references (Perks `99601e58…`, Batteries `a5059fdd…`, EV-cutaway `079e1b1e…`, Renewable `6ccd9b76…`, logo `7c3fc954…` LAST) · 3:4 · 4K · quality high.
+- Prompt → `gpt_image_2` (quality high, resolution 4k) · job `0ccd4386-cbce-4638-89fe-4bb9d142e67a` · 3:4.
