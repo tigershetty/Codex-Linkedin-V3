@@ -156,3 +156,12 @@ One horizontal axis `SUPPLIER ◄———► BUYER`; the three models plotted a
   - **Shifting Line** (Framework C) → job `363ee313-9b7e-434f-a70c-c17110e3b50e`.
   - **Risk Meter** (Framework D) → job `8bf9171d-a9f7-4f8c-8b4c-07ba475bd7ec`.
 - PNGs not committable (CDN egress-blocked) — judged in the Higgsfield panel.
+
+### Generation record 7 (Shifting Line — viral-scaffold prompt, anchor + REAL logo)
+- **Prompt rewrite**: rebuilt on the user's most-viral post scaffold. Adopted: a **"THE QUESTION THIS ANSWERS"** line, a **hard on-image word cap (≤45)**, **"data labels/short captions over paragraph text"**, an explicit **dominant-element** call, the **"use a different layout from the attached image"** anti-bleed rule, **aspect+resolution restored into the prompt text** (1:1, 2048×2048), and the winner's **section skeleton** (TOPIC → THE QUESTION → VISUAL STRUCTURE → CONTENT TO INCLUDE → CONTENT RULES → DO NOT). Added per-bar takeaway captions ("Supplier absorbs it / Shared / Buyer absorbs it") and made the overrun wedge identical across bars. Single technical DO-NOT (14px floor) kept — note: drop it if ever ported to GPT Image 2 (negative blocks degrade that engine).
+- **References**: original anchor `1d05cd74-…` (style only) **+ real Shetty's Desk logo `7c3fc954-…`** (last, reproduce exactly) — first run to include the actual logo image rather than approximating it.
+- **Run**: 2026-06-29 · requested `nano_banana_pro` → ran `nano_banana_2` · **1:1** · **2k** (held this time) · **count 3**.
+  - Iter 1 → `c3ae1c9b-b871-442d-a4bf-b25c6b59d1e5`
+  - Iter 2 → `8a38d9dd-7c43-42e6-bea3-31f32fb05c16`
+  - Iter 3 → `09b881a3-0930-4989-a640-bd0bdb9ae93d`
+- PNGs not committable (CDN egress-blocked) — judged in the Higgsfield panel.
