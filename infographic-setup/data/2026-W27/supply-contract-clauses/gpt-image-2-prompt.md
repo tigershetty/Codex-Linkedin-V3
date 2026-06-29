@@ -179,3 +179,36 @@ DESIGN: crisp vector flat-design infographic, generous whitespace, strong alignm
 ### Generation record 5 (crisp infographic — anchors back)
 - **Run**: 2026-06-29 · clean design-forward rewrite · **4 white-bg anchors + logo** references (Perks `99601e58…`, Batteries `a5059fdd…`, EV-cutaway `079e1b1e…`, Renewable `6ccd9b76…`, logo `7c3fc954…` LAST) · 3:4 · 4K · quality high.
 - Prompt → `gpt_image_2` (quality high, resolution 4k) · job `0ccd4386-cbce-4638-89fe-4bb9d142e67a` · 3:4.
+- **Read (2026-06-29):** "Good but generic" — clean, but not close to the designed look the brand wants, and still locked to the literal portico. Triggered a framework review (mined all 229 patterns in `layout-frameworks-intelligence.md` + the craft DNA). Decision: change the *framework*, not just the prompt. After rejecting the Edifice (generic, photoreal-by-default) and the Armored-Link chain, locked **The Mismatch** — a pure information-design graphic, see Round 6.
+
+---
+
+## Round 6 — "The Mismatch" (information-design graphic, not object illustration)
+**Why the framework changed:** temple and chain are both "illustration of a physical object" — the hardest thing to render clean, and not the "designed intelligence" register the brand wants. The Mismatch makes the *argument itself* the visual: effort and failure land on different clauses, shown as geometry. The whole post is one idea (attention ≠ risk), so the layout *is* that misalignment with nothing competing. Renders flat/crisp (a spine + two pins), needs only the two verified facts (Liability = most-negotiated since 2007; Scope = 77%), and the four neutral clauses keep it honest (we claim nothing about them). Anchors back in (4 white-bg + logo).
+
+### Prompt — GPT Image 2 (The Mismatch)
+
+Task: Create a clean, modern information-design infographic — the kind of designed data graphic the Financial Times or The Economist would publish. Flat vector design, not an illustration of a physical object, no scene, no photography.
+
+Rules: Use the attached images as style references — match their clean flat-design look, deep-navy and azure palette, crisp geometry and bold typography. Do not copy their subject matter. The last image is the Shetty's Desk logo; reproduce it exactly and place it small in the bottom-left corner. Aspect ratio 3:4.
+
+CONCEPT: A supply contract has six clauses. Teams fight over one clause the hardest, but disputes actually start at a different one. The graphic shows that misalignment as pure geometry.
+
+LAYOUT:
+- A single clean horizontal track (a thin rounded "contract spine") runs across the middle of the canvas, with SIX evenly spaced stops along it, left to right. Each stop is a small neat node with a bold clause label beneath it, all in calm deep navy. Left to right: PRICE & INDEXATION, SCOPE & SPECIFICATION, DELIVERY & LEAD TIME, QUALITY & SLA, LIABILITY & REMEDIES, TERM & EXIT.
+- ABOVE the track, one tall azure marker/flag drops onto the LIABILITY stop (5th from left). Its label: "FOUGHT HARDEST" with a small line "Most-negotiated term since 2007".
+- BELOW the track, one tall coral marker drops onto the SCOPE stop (2nd from left). Its label: "WHERE IT BREAKS" with a large "77% of disputes start here", the number big and bold in coral.
+- The two markers sit on clearly different stops, well apart. A thin coral-to-azure bracket or dotted connector spans the gap between the SCOPE stop and the LIABILITY stop, quietly labelled "the gap" — making the misalignment the focal point.
+- The four other clause stops stay flat, calm, unmarked navy — no emphasis.
+
+TEXT ON THE IMAGE (bold, beautifully set, max two type families):
+- Headline at top, bold: "Everyone defends the wrong clause"
+- Italic subline beneath it: "Six clauses hold a supply contract. The fight is on one. The cracks start on another."
+- Marker labels and the "77%" as described above; "scope" / "77%" carried in coral, "Liability" emphasis in azure.
+- The attached Shetty's Desk logo reproduced exactly, small and clean in the bottom-left corner.
+
+DESIGN: crisp flat vector information graphic, generous whitespace, strong alignment grid, bold legible sans-serif. Restrained palette: deep navy and azure as the base, ONE coral accent reserved only for the Scope marker and "77%". Even, flat, design-forward — no camera angle, no dramatic lighting, no 3D scene. Modern, confident, like a premium editorial data graphic. Every word crisp and legible at phone size.
+
+### Generation record 6 (The Mismatch — anchors back)
+- **Run**: 2026-06-29 · information-design framework · **4 white-bg anchors + logo** references (Perks `99601e58…`, Batteries `a5059fdd…`, EV-cutaway `079e1b1e…`, Renewable `6ccd9b76…`, logo `7c3fc954…` LAST) · 3:4 · 4K · quality high.
+- Prompt → `gpt_image_2` (quality high, resolution 4k) · job `fcc7cde6-e2cd-4a50-8385-1ac6d56b2c37` · 3:4.
