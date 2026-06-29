@@ -91,3 +91,8 @@ The boulder (the overrun) is the one element in the warm caution accent; everyth
 - **Run**: 2026-06-29 · `gpt_image_2` · 3:4 · 4K · quality high · same 4 anchors + logo.
 - Job `7e1f93ad-7587-43d5-be53-4eaf00af168e`. Prompt = the revised lean version above (no style adjectives; anchors carry style).
 - PNG not committable (CDN host egress-blocked) — judged in the Higgsfield panel.
+
+### Generation record 4 (Nano Banana 2 bracket — same lean prompt, same references)
+- **Run**: 2026-06-29 · requested `nano_banana_2` → **ran `nano_banana_flash`** (backend remap, again) · 3:4 · **1k** (model default, not 4k) · 3 iterations · same 4 anchors + logo.
+- Jobs `76bbb7ab-65d2-49f1-abf5-13381b86c8f9`, `837f947b-bccf-47bf-beb7-fd14cb5beb92`, `70c5be8f-f501-4180-ac3e-05d06db5337d` (864×1184).
+- Purpose: test whether Nano renders the figures less cartoonish than GPT Image 2. Trade-off to watch: text fidelity at 1k on a text-heavy triptych. PNGs not committable (CDN egress-blocked) — judged in the Higgsfield panel.
