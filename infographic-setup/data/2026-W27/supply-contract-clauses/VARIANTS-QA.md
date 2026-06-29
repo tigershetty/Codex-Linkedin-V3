@@ -48,3 +48,24 @@ The hard numbers are sourced: Limitation of Liability = #1 most-negotiated term 
 - `renderer/templates/sc101-supply-contract-clauses-v2.html` → `out/…-v2.png` (2×2)
 - `renderer/templates/sc101-supply-contract-clauses-v3.html` → `out/…-v3.png` (dumbbell)
 - Chosen variant → copy to `visual.png` (pending pick).
+
+---
+
+## Second pass — the "limitless / 1-second" bespoke-illustration set (2026-06-29)
+
+After the chart/dashboard family (v1–v6) kept failing the **1-second thumbnail-capture test** (no single focal point), the brief reset to *metaphor-first, hand-drawn SVG, one dominant gesture*. V7 "The Edifice" (six-column portico) was the first to break out. This pass adds three more, each a **different metaphor and shape family** — not recolours of one idea — all on the Shetty's Desk brand kit and all carrying the same verified numbers.
+
+| | Metaphor (shape family) | The one gesture | Why it reads in 1 second |
+|---|---|---|---|
+| **V7** | The Edifice (architecture) | Liability buried in scaffolding, Scope cracking | A building everyone reinforces in the wrong place. |
+| **V8** | The Iceberg (water / depth) | Tiny bright tip vs huge submerged mass | Tip = Liability (fought hardest); the mass below = Scope, 77%. Size contrast does the talking. |
+| **V9** | The Spotlight (theatre / light) | A light cone on Liability centre-stage; Scope cracks in the dark wing | All the light on the wrong clause; the coral fissure is the only thing glowing offstage. |
+| **V10** | The Umbrella (everyday / weather) | A reinforced umbrella over Liability; the coral storm soaks Scope | The cover is over the wrong box. Most accessible / "coffee-table" read of the set. |
+
+**Shared discipline (all four):** one dominant gesture, brand ink `#15315C` on luminous white, azure = the over-protected clause (Liability), **coral reserved strictly for the caution** (the crack / the rain / the danger mass), green for the payoff ledger + footrule. Logo 2 + "Poornajith Shetty" footer. Numbers all verified: **77%** of disputes start at scope; Liability = **#1 most-negotiated** term since 2007; **4/6** most-negotiated terms also rank most-important; ICC Incoterms 2020.
+
+- `renderer/templates/sc101-supply-contract-clauses-v7.html` → `out/…-v7.png` (edifice)
+- `renderer/templates/sc101-supply-contract-clauses-v8.html` → `out/…-v8.png` (iceberg)
+- `renderer/templates/sc101-supply-contract-clauses-v9.html` → `out/…-v9.png` (spotlight)
+- `renderer/templates/sc101-supply-contract-clauses-v10.html` → `out/…-v10.png` (umbrella)
+- Chosen variant → copy to `visual.png` (pending pick).

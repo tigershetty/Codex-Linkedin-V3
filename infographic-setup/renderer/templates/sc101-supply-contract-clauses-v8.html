@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<!--
+  SC 101 · W27 · supply-contract-clauses — VARIANT 8: THE ICEBERG (bespoke illustration)
+  One gesture: the tiny bright tip above water (Liability — fought hardest) vs the huge submerged mass
+  below (Scope — 77% of disputes start here). Reads in 1 second: tip small, mass enormous.
+  Shetty's Desk brand kit: azure water, white-azure faceted ice, coral reserved for the caution glow on
+  the submerged danger mass, green for the payoff. One-light 3-tone shading. Poppins.
+-->
+<style>
+  :root{
+    --ink:#15315C; --ink-soft:rgba(21,49,92,.58); --ink-faint:rgba(21,49,92,.36);
+    --navy:#15315C; --azure:#2798FB; --azure-deep:#1668C8;
+    --coral:#E27199; --coral-deep:#cf5c84; --green:#38E6A6; --green-deep:#0E9A6E;
+    --font:"Poppins",system-ui,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-variant-numeric:tabular-nums}
+  html,body{width:1080px}
+  #card{width:1080px;height:1350px;position:relative;overflow:hidden;font-family:var(--font);color:var(--navy);
+    background:
+      radial-gradient(ellipse 52% 30% at 90% 0%, rgba(56,230,166,.15) 0%, transparent 60%),
+      radial-gradient(ellipse 58% 36% at 4% 14%, rgba(39,152,251,.13) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F5FAFE 50%,#EAF3FD 100%);
+    display:flex;flex-direction:column;padding:40px 44px 26px}
+  #card::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.55;
+    background-image:linear-gradient(rgba(39,152,251,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(39,152,251,.05) 1px,transparent 1px);
+    background-size:36px 36px}
+
+  .head{position:relative;z-index:2}
+  .kicker{font-size:13.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--azure)}
+  h1{font-size:42px;font-weight:800;line-height:1.04;margin-top:10px;letter-spacing:-.6px;color:var(--navy)}
+  h1 .u{position:relative;white-space:nowrap}
+  h1 .u::after{content:"";position:absolute;left:0;right:0;bottom:1px;height:9px;background:rgba(207,92,132,.26);z-index:-1;border-radius:2px}
+  .sub{font-size:16px;font-weight:500;color:var(--ink-soft);margin-top:9px;max-width:920px;line-height:1.35}
+  .sub b{color:var(--ink);font-weight:600}
+
+  .stage{flex:1;min-height:0;position:relative;z-index:1;margin:4px 0}
+  .stage svg{width:100%;height:100%;display:block;overflow:visible}
+
+  .ledger{position:relative;z-index:2;display:flex;align-items:center;gap:20px;
+    background:rgba(255,255,255,.78);border:1px solid rgba(21,49,92,.14);border-radius:16px;
+    padding:16px 22px;box-shadow:0 1px 2px rgba(21,49,92,.06),0 10px 24px rgba(21,49,92,.08)}
+  .ledger .big{font-size:46px;font-weight:800;line-height:.9;letter-spacing:-1.5px;color:var(--azure-deep);flex:0 0 auto}
+  .ledger .tx{font-size:16.5px;font-weight:500;color:var(--ink);line-height:1.36}
+  .ledger .tx b{font-weight:700;color:var(--navy)}
+  .ledger .tx .gn{color:var(--green-deep);font-weight:700}
+
+  .footrule{margin-top:14px;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--azure),var(--green) 55%,rgba(56,230,166,0) 100%);position:relative;z-index:2}
+  .foot{display:flex;align-items:flex-end;justify-content:space-between;padding-top:12px;position:relative;z-index:2}
+  .who img{height:56px;width:auto;display:block}
+  .who .src{font-size:10px;font-weight:500;color:var(--ink-faint);margin-top:5px;max-width:680px;line-height:1.3}
+  .sig{font-size:16px;font-weight:700;text-align:right;line-height:1.2;color:var(--navy)}
+</style>
+</head>
+<body>
+<div id="card">
+
+  <div class="head">
+    <div class="kicker">Supply Chain 101 · Procurement</div>
+    <h1>Liability is the tip.<br>Scope is the <span class="u">whole iceberg.</span></h1>
+    <div class="sub">Teams negotiate the part they can see above the water. The mass that sinks the contract &mdash; <b>scope</b> &mdash; sits below it, where <b>3 in 4 disputes</b> begin.</div>
+  </div>
+
+  <div class="stage"><svg id="berg" viewBox="0 0 1080 900" preserveAspectRatio="xMidYMid meet"></svg></div>
+
+  <div class="ledger">
+    <span class="big">4<span style="font-size:30px">/6</span></span>
+    <span class="tx">Only four of the six most-negotiated terms even make the list of the most-important ones. <span class="gn">Before you sign, read the clause hiding below the surface.</span></span>
+  </div>
+
+  <div class="footrule"></div>
+  <div class="foot">
+    <div class="who"><img src="../assets/logos/shettys-desk-logo-2.png" alt="Shetty's Desk">
+      <div class="src">Source: WorldCC (formerly IACCM) Most Negotiated / Most Important Terms &amp; dispute-source research · ICC Incoterms 2020</div></div>
+    <div class="sig">Poornajith Shetty</div>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  const NS='http://www.w3.org/2000/svg';
+  const svg=document.getElementById('berg');
+  function E(t,a,kids){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);
+    if(kids)kids.forEach(c=>e.appendChild(c));return e;}
+  function add(e){svg.appendChild(e);return e;}
+  function txt(x,y,s,a){const e=E('text',Object.assign({x:x,y:y},a));e.textContent=s;return e;}
+
+  // ---------- palette (Shetty's Desk brand kit) ----------
+  const INK='#15315C', INKL='rgba(21,49,92,.18)', CORAL='#E27199', CORAL_D='#cf5c84', STEEL='#2798FB', AZD='#1668C8';
+
+  const defs=E('defs');
+  defs.innerHTML=`
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CFE6FB"/><stop offset="0.12" stop-color="#9FCBF4"/>
+      <stop offset="0.5" stop-color="#3E83C9"/><stop offset="1" stop-color="#173E72"/></linearGradient>
+    <linearGradient id="iceTipL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E5F0FB"/></linearGradient>
+    <linearGradient id="iceTipR" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D6E6F7"/><stop offset="1" stop-color="#B5CDEC"/></linearGradient>
+    <linearGradient id="iceSub" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BFE0F4" stop-opacity="0.92"/><stop offset="0.55" stop-color="#7FB4E4" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#4F86C4" stop-opacity="0.72"/></linearGradient>
+    <radialGradient id="bite" cx="0.5" cy="0.92" r="0.7">
+      <stop offset="0" stop-color="#E27199" stop-opacity="0.55"/><stop offset="0.6" stop-color="#E27199" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#E27199" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#15315C" flood-opacity="0.16"/></filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="9" flood-color="#173E72" flood-opacity="0.45"/></filter>`;
+  add(defs);
+
+  const WL=360; // waterline y
+
+  // ---------- water body ----------
+  add(E('rect',{x:0,y:WL,width:1080,height:900-WL,fill:'url(#water)'}));
+  // surface shimmer lines
+  for(let i=0;i<5;i++){const yy=WL+18+i*15, op=0.30-i*0.05;
+    add(E('line',{x1:60+i*10,y1:yy,x2:1020-i*8,y2:yy,stroke:'#FFFFFF','stroke-opacity':op,'stroke-width':2,'stroke-linecap':'round','stroke-dasharray':'34 26'}));}
+  // waterline highlight
+  add(E('line',{x1:0,y1:WL,x2:1080,y2:WL,stroke:'#EaF4FE','stroke-width':3}));
+
+  // ===================== SUBMERGED MASS (scope) =====================
+  // huge bulk below water — much wider than the tip
+  const sub='M 452 '+WL+' L 250 470 L 176 620 L 250 770 L 430 838 L 600 842 L 800 778 L 902 612 L 838 466 L 632 '+WL+' Z';
+  add(E('path',{d:sub,fill:'#173E72','fill-opacity':0.25,filter:'url(#glow)'})); // depth shadow
+  add(E('path',{d:sub,fill:'url(#iceSub)',stroke:'#FFFFFF','stroke-opacity':0.4,'stroke-width':2}));
+  // crystalline facets (internal ridges)
+  const fac=(d,op)=>add(E('path',{d:d,fill:'#FFFFFF','fill-opacity':op,stroke:'#EAF4FE','stroke-opacity':0.25,'stroke-width':1}));
+  fac('M 452 '+WL+' L 250 470 L 430 560 Z',0.16);
+  fac('M 632 '+WL+' L 838 466 L 560 540 Z',0.10);
+  fac('M 250 470 L 176 620 L 360 640 L 430 560 Z',0.12);
+  fac('M 838 466 L 902 612 L 690 650 L 560 540 Z',0.07);
+  fac('M 430 560 L 360 640 L 470 760 L 560 660 Z',0.10);
+  fac('M 560 540 L 690 650 L 640 770 L 560 660 Z',0.06);
+  fac('M 360 640 L 250 770 L 430 838 L 470 760 Z',0.08);
+  fac('M 690 650 L 802 778 L 600 842 L 640 770 Z',0.05);
+  // coral caution glow at the base (where it bites)
+  add(E('ellipse',{cx:540,cy:780,rx:340,ry:150,fill:'url(#bite)'}));
+
+  // big 77% seal in the mass
+  add(E('circle',{cx:540,cy:600,r:88,fill:'#FFFFFF','fill-opacity':0.96,stroke:CORAL_D,'stroke-width':4,filter:'url(#soft)'}));
+  add(E('circle',{cx:540,cy:600,r:78,fill:'none',stroke:'rgba(207,92,132,.35)','stroke-width':1.4}));
+  add(txt(540,594,'77%',{'text-anchor':'middle','font-size':56,'font-weight':800,fill:CORAL_D,'font-family':'Poppins','letter-spacing':-2}));
+  add(txt(540,632,'of disputes start',{'text-anchor':'middle','font-size':15,'font-weight':600,fill:'rgba(21,49,92,.62)','font-family':'Poppins'}));
+  add(txt(540,652,'at SCOPE',{'text-anchor':'middle','font-size':15,'font-weight':800,fill:INK,'font-family':'Poppins','letter-spacing':1}));
+
+  // SCOPE label across the lower mass + caution ribbon
+  ribbon(540,724,CORAL_D,'WHERE IT BITES');
+
+  // ===================== TIP (liability) — small + bright =====================
+  const tip='M 540 150 L 470 268 L 452 '+WL+' L 632 '+WL+' L 612 262 Z';
+  add(E('path',{d:tip,fill:'url(#iceTipL)',stroke:'#FFFFFF','stroke-width':2,filter:'url(#soft)'}));
+  // shadow face (right)
+  add(E('path',{d:'M 540 150 L 612 262 L 632 '+WL+' L 540 '+WL+' Z',fill:'url(#iceTipR)'}));
+  // ridge highlight
+  add(E('path',{d:'M 540 150 L 540 '+WL,stroke:'#FFFFFF','stroke-opacity':0.9,'stroke-width':2}));
+  add(E('path',{d:'M 540 150 L 470 268',stroke:'#FFFFFF','stroke-opacity':0.95,'stroke-width':2.5}));
+  // a couple of small facet seams
+  add(E('path',{d:'M 470 268 L 540 300 M 612 262 L 540 300',stroke:'#BcD3EC',stroke:'rgba(21,49,92,.10)','stroke-width':1.2,fill:'none'}));
+
+  // "everyone's attention" — 3 small eyes/arrows converging on the tip from above
+  [[300,150],[540,96],[780,150]].forEach(p=>{
+    add(E('path',{d:`M ${p[0]} ${p[1]} L ${540} ${168}`,stroke:'rgba(39,152,251,.45)','stroke-width':2,'stroke-dasharray':'2 5','stroke-linecap':'round'}));
+    add(E('circle',{cx:p[0],cy:p[1],r:9,fill:'#FFFFFF',stroke:STEEL,'stroke-width':2}));
+    add(E('circle',{cx:p[0],cy:p[1],r:3,fill:AZD}));
+  });
+  // LIABILITY label on the tip + azure ribbon above
+  add(txt(540,300,'LIABILITY',{'text-anchor':'middle','font-size':16,'font-weight':800,fill:INK,'font-family':'Poppins','letter-spacing':1.5}));
+  tag(540,206,AZD,'#1 most-negotiated','term since 2007');
+
+  // ---------- ribbon ----------
+  function ribbon(cx,cy,fill,label){
+    const w=190,h=36;
+    const g=E('g',{transform:`rotate(-3 ${cx} ${cy})`});
+    g.appendChild(E('path',{d:`M ${cx-w/2-18} ${cy-h/2-6} L ${cx-w/2} ${cy} L ${cx-w/2-18} ${cy+h/2+6} L ${cx-w/2-6} ${cy} Z`,fill:shade(fill)}));
+    g.appendChild(E('path',{d:`M ${cx+w/2+18} ${cy-h/2-6} L ${cx+w/2} ${cy} L ${cx+w/2+18} ${cy+h/2+6} L ${cx+w/2+6} ${cy} Z`,fill:shade(fill)}));
+    g.appendChild(E('rect',{x:cx-w/2,y:cy-h/2,width:w,height:h,rx:4,fill:fill,filter:'url(#soft)'}));
+    g.appendChild(txt(cx,cy+6,label,{'text-anchor':'middle','font-size':15,'font-weight':800,'letter-spacing':1.5,fill:'#fff','font-family':'Poppins'}));
+    add(g);
+  }
+  function shade(c){return c===CORAL_D?'#a84368':(c===STEEL?'#1257ad':'#15315C');}
+  function tag(x,y,bg,l1,l2){
+    const w=180,h=46;
+    const g=E('g',{});
+    g.appendChild(E('rect',{x:x-w/2,y:y-h/2,width:w,height:h,rx:9,fill:'#FFFFFF',stroke:bg,'stroke-width':1.6,filter:'url(#soft)'}));
+    g.appendChild(E('rect',{x:x-w/2,y:y-h/2,width:6,height:h,rx:3,fill:bg}));
+    g.appendChild(txt(x-w/2+18,y-3,l1,{'font-size':14,'font-weight':800,fill:bg,'font-family':'Poppins'}));
+    g.appendChild(txt(x-w/2+18,y+15,l2,{'font-size':12.5,'font-weight':500,fill:'rgba(21,49,92,.6)','font-family':'Poppins'}));
+    add(g);
+  }
+})();
+</script>
+</body>
+</html>
