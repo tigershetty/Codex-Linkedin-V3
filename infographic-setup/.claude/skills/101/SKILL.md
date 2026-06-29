@@ -20,6 +20,7 @@ Example: `/101 2` → generates hooks + caption + ChatGPT Image 2 prompt for Top
 - `references/101-plan.md` must exist (the 90-day content plan)
 - `references/101-voice.md` must exist (101 voice anchor)
 - `references/layout-frameworks-intelligence.md` (200-pattern layout selector + composition modes) and `references/render-pilot-workflow.md` (code-render pipeline + learnings) — for the visual
+- `references/ai-still-prompt-learnings.md` — the GPT Image 2 backup-lane playbook (only when Step 4B is the chosen path)
 - `renderer/` must exist (the HTML→PNG renderer + component-kit templates); `renderer/README.md` is the build playbook
 
 ## Output
@@ -148,28 +149,33 @@ After the still is approved, a GIF/MP4 version can be produced via `render-anim.
 
 Generate this **as a fallback** and keep it in `101-copy.md` — use it instead of the code-render only when the concept is purely illustrative/metaphorical with no load-bearing structure (or when a render isn't feasible in-session).
 
-**Image tool: ChatGPT (GPT Image 2).** Paste the prompt into ChatGPT and **attach `references/brand-anchor-v1.webp`** in the same message — that is the style/colour reference (same brand anchor as before, now used in ChatGPT instead of the Gemini Gem). GPT Image 2 renders on-image text reliably, so keep labels exact and short.
+> **Read `references/ai-still-prompt-learnings.md` before writing this prompt.** It is the playbook for this lane (framework-first selection, the info-design-not-cinematography register, anchors-are-load-bearing, engine quirks, the egress constraint, the locked pillars template). The rules below are the short form.
 
-Use this exact template structure. The VISUAL ANCHOR block is mandatory — it is what makes each infographic visually distinctive and eye-catching. Without it, the output is structurally correct but visually generic.
+**Image tool: GPT Image 2 via the Higgsfield MCP** (`generate_image`, model `gpt_image_2`) — not pasted into ChatGPT. Standard params: aspect `3:4` (**GPT Image 2 cannot do 4:5**), `quality: high`, `resolution: 4k`. GPT Image 2 renders on-image text reliably, so keep labels exact and short.
+
+**References (attach all five, logo LAST):** the **4 white-bg brand anchors + the Shetty's Desk logo** — not the single deep-blue `brand-anchor-v1.webp` (it renders muddy). The anchors are load-bearing: drop them and the engine falls back to a generic prior and stops looking on-brand. Media IDs are in the learnings file §2.
+
+**Register — design-forward, not cinematic.** Frame it as *"a clean, modern, design-forward infographic / an information-design graphic like the FT or Economist"*: flat or flat-dimensional, even clean illumination, flat-on, **no camera angle, no dramatic lighting, no scene, no photography.** Mark standouts **by design** (a grid, a crack, a tag, a colour accent), not by light. "More dramatic / less AI-like" from the user means *conceptually sharper and cleaner*, never cinematography.
+
+Use this template structure. The VISUAL ANCHOR block is mandatory — it is what makes each infographic visually distinctive. Without it, the output is structurally correct but visually generic.
 
 **VISUAL ANCHOR rules:**
 - 3–5 sentences only. Placed between THE QUESTION THIS ANSWERS and VISUAL STRUCTURE.
-- Describes one dominant visual metaphor with spatial specificity — how the layout feels, what dimensional quality it has, what the focal element is, where the eye goes first.
-- Names the single most important element on the canvas (the brightest, the largest, the one point of tension).
-- No colour instructions — the brand anchor image handles colour. No narrative prose about the concept. No NEGATIVE block.
+- Describes one dominant **design-forward** metaphor with spatial specificity — how the layout is composed flat-on, what flat-dimensional quality it has, what the focal element is, where the eye goes first. No camera/lighting/mood language.
+- Names the single most important element on the canvas (the one point of tension — marked by design, not by light).
 - This block is what separates a visually striking render from a generic one. Never skip it.
 
 ```
-Task: Create an infographic image for the summary below (after the rules).
+Task: Create a clean, modern, design-forward infographic for the summary below (after the rules).
 
-Rules: Use the image attached as a reference on style, aesthetics, colours, and illustration technique. Use a different layout for the structure to elaborate details based on the summary. Do not use any information or text from the attached image — only style. Use it only for inspiration. Square 1:1 format (1024x1024).
+Rules: Use the attached images as style references — follow them for style, colours and illustration technique, not their subject matter. The last image is the Shetty's Desk logo; reproduce it as given and place it small in the bottom-left corner. Aspect ratio 3:4.
 
 TOPIC: [Topic name]
 THE QUESTION THIS ANSWERS: [The Question It Answers from the plan — verbatim]
 
-VISUAL ANCHOR: [3–5 sentences. Name the dominant visual metaphor and dimensional concept — how the layout is rendered in space, what quality it has, what the single focal element is, where the eye goes first. No colour instructions. No concept explanation. No prose about supply chain.]
+VISUAL ANCHOR: [3–5 sentences. Name the dominant design-forward metaphor — how the layout is composed flat-on, what flat-dimensional quality it has, what the single focal element is, where the eye goes first. No camera, lighting, or mood language. No concept explanation.]
 
-VISUAL STRUCTURE: [1–2 sentences describing the dominant layout — taken from the Visual Format in the plan. Name the spatial logic: what is on the left/right/top/bottom/centre, what the focal point is.]
+VISUAL STRUCTURE: [1–2 sentences describing the dominant layout — taken from the Visual Format in the plan. Name the spatial logic: what is on the left/right/top/bottom/centre, what the focal point is. Flat-on, even illumination.]
 
 CONTENT TO INCLUDE ON THE IMAGE:
 - Heading: "[Short heading, max 8 words]" (Bold)
@@ -181,19 +187,10 @@ CONTENT TO INCLUDE ON THE IMAGE:
   - [Label]: [2–3 word value]
 - [Annotation line — carries the opinion from the caption. One sentence, specific.]
 
-CONTENT RULES:
-- Maximum 60 words total on the image (excluding labels and axis text)
-- Heading: maximum 8 words, set in Bold
-- Every element must be readable at mobile phone size
-- [One rule specific to this visual format — e.g. "The wave amplification should be the dominant visual"]
-- Data labels and annotations preferred over paragraph text
-
-DO NOT:
-- Use font sizes below 14px at final output resolution
-- Add decorative elements that do not carry information
+DESIGN: crisp flat-design infographic, generous whitespace, strong alignment grid, bold legible sans-serif, max 2 font families. Restrained palette: deep navy + azure base, ONE coral accent reserved for the single caution/focal element only. Even, flat, front-facing — no camera angle, no dramatic lighting, no 3D scene. Every word legible at phone size; data labels preferred over paragraph text.
 ```
 
-Populate from the plan's Visual Format and Caption Direction. Keep content list tight — only what must appear on the image. Total prompt length: 40–55 lines maximum.
+**No NEGATIVE / DO-NOT block** — negative-prompt blocks degrade GPT Image 2 (CLAUDE.md hard rule); phrase every constraint positively, as in the DESIGN line above. Populate from the plan's Visual Format and Caption Direction. Keep the content list tight — only what must appear on the image. Total prompt length: 40–55 lines maximum.
 
 ---
 
