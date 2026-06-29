@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<!--
+  SC 101 · W27 · supply-contract-clauses — VARIANT 10: THE UMBRELLA (bespoke illustration)
+  One gesture: a big reinforced umbrella shelters the LIABILITY crate (fought hardest, bone dry), while the
+  SCOPE crate stands in the open and takes the whole coral storm — 77% of disputes raining down on it.
+  Reads in 1 second: the umbrella is over the wrong box. Shetty's Desk brand kit — azure canopy, coral rain
+  reserved for the caution, green for the payoff. Poppins.
+-->
+<style>
+  :root{
+    --ink:#15315C; --ink-soft:rgba(21,49,92,.58); --ink-faint:rgba(21,49,92,.36);
+    --navy:#15315C; --azure:#2798FB; --azure-deep:#1668C8;
+    --coral:#E27199; --coral-deep:#cf5c84; --green:#38E6A6; --green-deep:#0E9A6E;
+    --font:"Poppins",system-ui,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-variant-numeric:tabular-nums}
+  html,body{width:1080px}
+  #card{width:1080px;height:1350px;position:relative;overflow:hidden;font-family:var(--font);color:var(--navy);
+    background:
+      radial-gradient(ellipse 52% 30% at 90% 0%, rgba(56,230,166,.15) 0%, transparent 60%),
+      radial-gradient(ellipse 58% 36% at 4% 14%, rgba(39,152,251,.13) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F5FAFE 50%,#EAF3FD 100%);
+    display:flex;flex-direction:column;padding:40px 44px 26px}
+  #card::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.55;
+    background-image:linear-gradient(rgba(39,152,251,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(39,152,251,.05) 1px,transparent 1px);
+    background-size:36px 36px}
+
+  .head{position:relative;z-index:2}
+  .kicker{font-size:13.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--azure)}
+  h1{font-size:42px;font-weight:800;line-height:1.04;margin-top:10px;letter-spacing:-.6px;color:var(--navy)}
+  h1 .u{position:relative;white-space:nowrap}
+  h1 .u::after{content:"";position:absolute;left:0;right:0;bottom:1px;height:9px;background:rgba(207,92,132,.26);z-index:-1;border-radius:2px}
+  .sub{font-size:16px;font-weight:500;color:var(--ink-soft);margin-top:9px;max-width:920px;line-height:1.35}
+  .sub b{color:var(--ink);font-weight:600}
+
+  .stage{flex:1;min-height:0;position:relative;z-index:1;margin:4px 0}
+  .stage svg{width:100%;height:100%;display:block;overflow:visible}
+
+  .ledger{position:relative;z-index:2;display:flex;align-items:center;gap:20px;
+    background:rgba(255,255,255,.78);border:1px solid rgba(21,49,92,.14);border-radius:16px;
+    padding:16px 22px;box-shadow:0 1px 2px rgba(21,49,92,.06),0 10px 24px rgba(21,49,92,.08)}
+  .ledger .big{font-size:46px;font-weight:800;line-height:.9;letter-spacing:-1.5px;color:var(--azure-deep);flex:0 0 auto}
+  .ledger .tx{font-size:16.5px;font-weight:500;color:var(--ink);line-height:1.36}
+  .ledger .tx b{font-weight:700;color:var(--navy)}
+  .ledger .tx .gn{color:var(--green-deep);font-weight:700}
+
+  .footrule{margin-top:14px;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--azure),var(--green) 55%,rgba(56,230,166,0) 100%);position:relative;z-index:2}
+  .foot{display:flex;align-items:flex-end;justify-content:space-between;padding-top:12px;position:relative;z-index:2}
+  .who img{height:56px;width:auto;display:block}
+  .who .src{font-size:10px;font-weight:500;color:var(--ink-faint);margin-top:5px;max-width:680px;line-height:1.3}
+  .sig{font-size:16px;font-weight:700;text-align:right;line-height:1.2;color:var(--navy)}
+</style>
+</head>
+<body>
+<div id="card">
+
+  <div class="head">
+    <div class="kicker">Supply Chain 101 · Procurement</div>
+    <h1>The umbrella is over liability.<br>The storm is hitting <span class="u">scope.</span></h1>
+    <div class="sub">Teams shelter <b>liability</b> &mdash; the clause that rarely rains. The downpour lands on <b>scope</b>, left in the open, where <b>3 in 4 disputes</b> begin.</div>
+  </div>
+
+  <div class="stage"><svg id="storm" viewBox="0 0 1080 900" preserveAspectRatio="xMidYMid meet"></svg></div>
+
+  <div class="ledger">
+    <span class="big">4<span style="font-size:30px">/6</span></span>
+    <span class="tx">Only four of the six most-negotiated terms even make the list of the most-important ones. <span class="gn">Move the cover to the clause actually getting wet.</span></span>
+  </div>
+
+  <div class="footrule"></div>
+  <div class="foot">
+    <div class="who"><img src="../assets/logos/shettys-desk-logo-2.png" alt="Shetty's Desk">
+      <div class="src">Source: WorldCC (formerly IACCM) Most Negotiated / Most Important Terms &amp; dispute-source research · ICC Incoterms 2020</div></div>
+    <div class="sig">Poornajith Shetty</div>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  const NS='http://www.w3.org/2000/svg';
+  const svg=document.getElementById('storm');
+  function E(t,a,kids){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);
+    if(kids)kids.forEach(c=>e.appendChild(c));return e;}
+  function add(e){svg.appendChild(e);return e;}
+  function txt(x,y,s,a){const e=E('text',Object.assign({x:x,y:y},a));e.textContent=s;return e;}
+
+  const INK='#15315C', CORAL='#E27199', CORAL_D='#cf5c84', STEEL='#2798FB', AZD='#1668C8';
+
+  const defs=E('defs');
+  defs.innerHTML=`
+    <linearGradient id="canopy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5FB0FA"/><stop offset="1" stop-color="#1E78D8"/></linearGradient>
+    <linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C9D7E8"/><stop offset="1" stop-color="#9DB0C9"/></linearGradient>
+    <linearGradient id="cloudBad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9B7CB"/><stop offset="1" stop-color="#D98FAF"/></linearGradient>
+    <linearGradient id="crate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2F7FE"/><stop offset="1" stop-color="#D7E4F5"/></linearGradient>
+    <radialGradient id="puddle" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E27199" stop-opacity="0.5"/><stop offset="1" stop-color="#E27199" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#15315C" flood-opacity="0.16"/></filter>`;
+  add(defs);
+
+  const GND=824;
+  // ground line
+  add(E('line',{x1:30,y1:GND,x2:1050,y2:GND,stroke:'rgba(21,49,92,.22)','stroke-width':2}));
+
+  // ===================== STORM CLOUD over the SCOPE side =====================
+  function cloud(cx,cy,s,grad){
+    const g=E('g',{transform:`translate(${cx} ${cy}) scale(${s})`});
+    [[-70,6,42],[-28,-16,52],[30,-20,56],[78,2,46],[18,14,50],[-30,16,46]].forEach(b=>
+      g.appendChild(E('ellipse',{cx:b[0],cy:b[1],rx:b[2],ry:b[2]*0.74,fill:`url(#${grad})`})));
+    add(g);
+  }
+  cloud(764,150,1.15,'cloudBad');   // the bad storm cloud, over scope
+  cloud(330,120,0.7,'cloud');       // a small calm cloud over liability
+
+  // coral rain — dense over scope (x ~ 600..1010), drawn to the ground
+  const rainCol=CORAL;
+  for(let i=0;i<46;i++){
+    const x=600+((i*97)%430)+((i%3)*9);
+    const y0=210+((i*53)%70);
+    const len=26+((i*31)%20);
+    const y1=Math.min(y0+len, GND-2);
+    add(E('line',{x1:x,y1:y0,x2:x-7,y2:y1,stroke:rainCol,'stroke-opacity':0.78,'stroke-width':3,'stroke-linecap':'round'}));
+  }
+  // puddle of disputes under scope
+  add(E('ellipse',{cx:792,cy:GND+2,rx:170,ry:26,fill:'url(#puddle)'}));
+  add(E('ellipse',{cx:792,cy:GND+2,rx:120,ry:15,fill:CORAL,'fill-opacity':0.22}));
+
+  // ===================== SCOPE crate (in the open, soaked) =====================
+  (function(){const cx=792, by=GND, w=176, h=132, ty=by-h;
+    add(E('ellipse',{cx:cx,cy:by+10,rx:104,ry:16,fill:'rgba(21,49,92,.18)'}));
+    add(E('rect',{x:cx-w/2,y:ty,width:w,height:h,rx:8,fill:'url(#crate)',stroke:'rgba(21,49,92,.28)','stroke-width':2}));
+    // straps
+    add(E('rect',{x:cx-w/2,y:ty+34,width:w,height:9,fill:'rgba(21,49,92,.12)'}));
+    add(E('rect',{x:cx-9,y:ty,width:18,height:h,fill:'rgba(21,49,92,.10)'}));
+    // wet streaks + a crack (caution)
+    add(E('path',{d:`M ${cx-30} ${ty} L ${cx-36} ${ty+h} M ${cx+40} ${ty} L ${cx+33} ${ty+h}`,stroke:CORAL,'stroke-opacity':0.6,'stroke-width':2.5,'stroke-linecap':'round'}));
+    const ck=`M ${cx+18} ${ty+8} L ${cx+6} ${ty+44} L ${cx+24} ${ty+78} L ${cx+8} ${ty+h}`;
+    add(E('path',{d:ck,fill:'none',stroke:CORAL_D,'stroke-width':3,'stroke-linejoin':'round'}));
+    add(txt(cx,ty+h/2+6,'SCOPE',{'text-anchor':'middle','font-size':22,'font-weight':800,fill:INK,'font-family':'Poppins','letter-spacing':2}));
+    ribbon(cx,ty-16,CORAL_D,'WHERE IT BITES');
+  })();
+
+  // 77% coral seal in the storm, upper right
+  add(E('circle',{cx:980,cy:300,r:74,fill:'#FFFFFF',stroke:CORAL_D,'stroke-width':4,filter:'url(#soft)'}));
+  add(txt(980,294,'77%',{'text-anchor':'middle','font-size':46,'font-weight':800,fill:CORAL_D,'font-family':'Poppins','letter-spacing':-2}));
+  add(txt(980,328,'rain on scope',{'text-anchor':'middle','font-size':12.5,'font-weight':600,fill:'rgba(21,49,92,.6)','font-family':'Poppins'}));
+
+  // ===================== UMBRELLA over LIABILITY (dry) =====================
+  const UX=336, apex=232, rim=372, rad=196;
+  // a few rain drops bouncing OFF the canopy (deflected)
+  for(let i=0;i<7;i++){const x=UX-150+i*46, y=150+((i*37)%40);
+    add(E('line',{x1:x,y1:y,x2:x-6,y2:y+18,stroke:'rgba(157,176,201,.7)','stroke-width':2.5,'stroke-linecap':'round'}));}
+  // canopy: scalloped underside
+  const segs=6, x0=UX-rad, seg=(rad*2)/segs;
+  let cd=`M ${x0} ${rim}`;
+  for(let i=0;i<segs;i++){const sx=x0+i*seg, ex=sx+seg, mx=(sx+ex)/2;
+    cd+=` Q ${mx} ${rim+26} ${ex} ${rim}`;}
+  cd+=` Q ${UX} ${apex-4} ${x0} ${rim} Z`;
+  add(E('path',{d:cd,fill:'url(#canopy)',stroke:'#1257ad','stroke-width':2,filter:'url(#soft)'}));
+  // ribs
+  for(let i=0;i<=segs;i++){const ex=x0+i*seg;
+    add(E('path',{d:`M ${UX} ${apex+2} L ${ex} ${rim}`,stroke:'rgba(255,255,255,.5)','stroke-width':1.6}));}
+  // reinforced look: a small white shield on the canopy
+  add(E('path',{d:`M ${UX} ${apex+34} l 22 8 l 0 22 q 0 20 -22 30 q -22 -10 -22 -30 l 0 -22 Z`,fill:'#EAF4FE',stroke:'#1257ad','stroke-width':2}));
+  add(E('path',{d:`M ${UX-9} ${apex+58} l 6 8 l 13 -16`,fill:'none',stroke:AZD,'stroke-width':3,'stroke-linecap':'round','stroke-linejoin':'round'}));
+  // finial
+  add(E('line',{x1:UX,y1:apex+4,x2:UX,y2:apex-22,stroke:'#1257ad','stroke-width':3,'stroke-linecap':'round'}));
+  add(E('circle',{cx:UX,cy:apex-26,r:5,fill:STEEL,stroke:'#1257ad','stroke-width':1.5}));
+  // pole + J handle down to the liability crate
+  add(E('path',{d:`M ${UX} ${rim-8} L ${UX} 720 q 0 26 -26 26 q -18 0 -18 -16`,fill:'none',stroke:'#33526F','stroke-width':6,'stroke-linecap':'round'}));
+
+  // LIABILITY crate (dry, sheltered)
+  (function(){const cx=UX, by=GND, w=176, h=132, ty=by-h;
+    add(E('ellipse',{cx:cx,cy:by+10,rx:104,ry:16,fill:'rgba(21,49,92,.16)'}));
+    add(E('rect',{x:cx-w/2,y:ty,width:w,height:h,rx:8,fill:'url(#crate)',stroke:'rgba(21,49,92,.28)','stroke-width':2}));
+    add(E('rect',{x:cx-w/2,y:ty+34,width:w,height:9,fill:'rgba(39,152,251,.16)'}));
+    add(E('rect',{x:cx-9,y:ty,width:18,height:h,fill:'rgba(39,152,251,.12)'}));
+    // shield emblem (over-protected)
+    add(E('path',{d:`M ${cx} ${ty+20} l 22 8 l 0 22 q 0 20 -22 30 q -22 -10 -22 -30 l 0 -22 Z`,fill:'#EAF4FE',stroke:AZD,'stroke-width':2.4}));
+    add(E('path',{d:`M ${cx-9} ${ty+44} l 6 8 l 13 -16`,fill:'none',stroke:AZD,'stroke-width':3,'stroke-linecap':'round','stroke-linejoin':'round'}));
+    add(txt(cx,ty+h-16,'LIABILITY',{'text-anchor':'middle','font-size':19,'font-weight':800,fill:INK,'font-family':'Poppins','letter-spacing':1.5}));
+    ribbon(cx,ty-16,STEEL,'FOUGHT HARDEST');
+  })();
+  tag(UX,628,AZD,'#1 most-negotiated','term since 2007');
+
+  // ---------- ribbon ----------
+  function ribbon(cx,cy,fill,label){
+    const w=186,h=34;
+    const g=E('g',{transform:`rotate(-4 ${cx} ${cy})`});
+    g.appendChild(E('path',{d:`M ${cx-w/2-18} ${cy-h/2-6} L ${cx-w/2} ${cy} L ${cx-w/2-18} ${cy+h/2+6} L ${cx-w/2-6} ${cy} Z`,fill:shade(fill)}));
+    g.appendChild(E('path',{d:`M ${cx+w/2+18} ${cy-h/2-6} L ${cx+w/2} ${cy} L ${cx+w/2+18} ${cy+h/2+6} L ${cx+w/2+6} ${cy} Z`,fill:shade(fill)}));
+    g.appendChild(E('rect',{x:cx-w/2,y:cy-h/2,width:w,height:h,rx:4,fill:fill,filter:'url(#soft)'}));
+    g.appendChild(txt(cx,cy+5,label,{'text-anchor':'middle','font-size':14,'font-weight':800,'letter-spacing':1.4,fill:'#fff','font-family':'Poppins'}));
+    add(g);
+  }
+  function shade(c){return c===CORAL_D?'#a84368':(c===STEEL?'#1257ad':'#15315C');}
+  function tag(x,y,bg,l1,l2){
+    const w=180,h=46;
+    const g=E('g',{});
+    g.appendChild(E('rect',{x:x-w/2,y:y-h/2,width:w,height:h,rx:9,fill:'#FFFFFF',stroke:bg,'stroke-width':1.6,filter:'url(#soft)'}));
+    g.appendChild(E('rect',{x:x-w/2,y:y-h/2,width:6,height:h,rx:3,fill:bg}));
+    g.appendChild(txt(x-w/2+18,y-3,l1,{'font-size':14,'font-weight':800,fill:bg,'font-family':'Poppins'}));
+    g.appendChild(txt(x-w/2+18,y+15,l2,{'font-size':12.5,'font-weight':500,fill:'rgba(21,49,92,.6)','font-family':'Poppins'}));
+    add(g);
+  }
+})();
+</script>
+</body>
+</html>

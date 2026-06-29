@@ -1,12 +1,12 @@
 ---
 name: 101
-description: Use when the user runs /101 [topic-number or slug]. Supply Chain 101 pipeline. Runs the research-engine FIRST to build a consultant-grade sourced research brief, then takes the topic from the plan and generates 10 hook options + LinkedIn caption + a code-rendered infographic (renderer/, HTML→PNG). The ChatGPT Image 2 prompt is kept as a backup visual path. No control gates.
+description: Use when the user runs /101 [topic-number or slug]. Supply Chain 101 pipeline. Runs the research-engine FIRST to build a consultant-grade sourced research brief, then takes the topic from the plan and generates 10 hook options + LinkedIn caption + 3 DISTINCT code-rendered infographic variants (renderer/, HTML→PNG) for the user to pick one. The ChatGPT Image 2 prompt is kept as a backup visual path. No control gates.
 ---
 
 # /101 Skill — Supply Chain 101 Pipeline
 
 ## Purpose
-Pipeline for the Supply Chain 101 series. Takes a topic from the plan, **runs the research-engine first** (mandatory consultant-grade, sourced research brief — see Step 0), then generates 10 hook options + LinkedIn caption + a **code-rendered infographic** (`renderer/`, HTML→PNG). No control gates. User picks and adjusts at the end. The research brief is what lets the card carry real, sourced numbers instead of the plan's generic framing.
+Pipeline for the Supply Chain 101 series. Takes a topic from the plan, **runs the research-engine first** (mandatory consultant-grade, sourced research brief — see Step 0), then generates 10 hook options + LinkedIn caption + **3 distinct code-rendered infographic variants** (`renderer/`, HTML→PNG) for the user to pick one. No control gates. User picks the hook and the visual variant at the end. The research brief is what lets the cards carry real, sourced numbers instead of the plan's generic framing.
 
 **Visual path (changed 2026-06-21):** 101 is now **code-render primary** — the infographic is built deterministically in `renderer/` (same kit + brand frame as AI for SC, but **no AI-tool logo** and the accessible 101 register). The **ChatGPT (GPT Image 2) prompt is the backup** path, kept in `101-copy.md` for illustration/metaphor posts with no load-bearing structure. See `references/render-pilot-workflow.md` §4.
 
@@ -20,6 +20,7 @@ Example: `/101 2` → generates hooks + caption + ChatGPT Image 2 prompt for Top
 - `references/101-plan.md` must exist (the 90-day content plan)
 - `references/101-voice.md` must exist (101 voice anchor)
 - `references/layout-frameworks-intelligence.md` (200-pattern layout selector + composition modes) and `references/render-pilot-workflow.md` (code-render pipeline + learnings) — for the visual
+- `references/ai-still-prompt-learnings.md` — the GPT Image 2 backup-lane playbook (only when Step 4B is the chosen path)
 - `renderer/` must exist (the HTML→PNG renderer + component-kit templates); `renderer/README.md` is the build playbook
 
 ## Output
@@ -116,27 +117,30 @@ Follow the 101 post structure (from `references/101-voice.md`):
 
 ---
 
-## Step 4: Code-Render the Infographic (PRIMARY)
+## Step 4: Code-Render the Infographic — 3 DISTINCT VARIANTS (PRIMARY)
 
-**The 101 visual is now built deterministically in `renderer/` (HTML→PNG)** — same component kit + brand frame as AI for SC, with two 101 differences: **no AI-tool logo** (101 has no tool mark) and the accessible 101 register. Data and text are computed in code, never painted by an image model, so numbers are exact and the brand is locked. The ChatGPT (GPT Image 2) prompt in Step 4B is the **backup** path only.
+**The 101 visual is built deterministically in `renderer/` (HTML→PNG)** — same component kit + brand frame as AI for SC, with two 101 differences: **no AI-tool logo** (101 has no tool mark) and the accessible 101 register. Data and text are computed in code, never painted by an image model, so numbers are exact and the brand is locked.
 
-### 4.1 Select the layout + composition mode (`layout-select`)
-- Name the **shape of the idea** (comparison · funnel · hierarchy · part-to-whole · hidden cost · sequence · single number · …) and pick the single best-matching layout from `references/layout-frameworks-intelligence.md` §1. Don't reuse last week's layout unless the shape genuinely repeats.
-- Pick the **composition mode**:
-  - **Mode A — hero-dominant / integrated** (one complex mechanism): hero owns **60–70%** of the canvas, supporting detail embedded *into* it via leader-lined annotations on a strict anchor grid — not separate blocks.
-  - **Mode B — layered multi-block** (comparison / multiple cuts): 3D hero + 2–3 clean elements (the 4-layer pattern: gestalt hero + precision scorecard + proportion bar + narration callouts). Fill whitespace with information, not decoration.
-- A single still may **combine benchmark patterns**; reserve unused ones for later posts on the topic.
+> **The variety rule (2026-06-28): render 3 visually distinct concepts for EVERY post, then present all 3 for the user to pick one.** This guarantees range across the feed — each post offers three genuinely different frameworks and the chosen visual is never a lazy default. The 3 must differ from **each other** in layout framework AND dominant visual device — three different skeletons, not three colour swaps of one idea. The ChatGPT (GPT Image 2) prompt in Step 4B stays the **backup** path.
 
-### 4.2 Build + render the HTML
-- Skim `renderer/README.md` (esp. §3 brand kit, §6/§6b 3D, §7 layout laws) and the reference template `renderer/templates/sc101-quote-iso-towers.html` (the 101 standard). Build a self-contained template at `renderer/templates/sc101-[topic-slug].html` from the kit — **one bespoke concept on the homogeneous Shetty's Desk frame**, never a `{{token}}` fill-in.
-- Brand frame: azure + eco-green + ink + Poppins, luminous on WHITE, flat; coral = caution/cost only. **No AI-tool logo.** Footrule-above-row footer — **Shetty's Desk Logo 2** (`assets/logos/shettys-desk-logo-2.png`, the dark-wordmark lockup for light backgrounds, ~74px; it carries the "Shetty's Desk" wordmark, so **no separate text label**) on the LEFT + **"Poornajith Shetty"** signature on the RIGHT. (Never Logo 1 — its wordmark is white, invisible on the white card.) Every number hard-coded from the plan.
+### 4.1 Select 3 distinct layouts + composition modes (`layout-select`)
+- Name the **shape of the idea** (comparison · funnel · hierarchy · part-to-whole · hidden cost · sequence · single number · slope · radar · cycle · anatomy · …).
+- Run `layout-select`, which returns **3 distinct layout frameworks**, each arguing the point a different way. Example (contract-clauses): (1) a slope/bump crossing (#71), (2) an integrated clause-map hero (Mode A), (3) a part-to-whole or 2×2 cut. Each variant gets its own composition mode (A integrated / B layered) and its own dominant hero device.
+- **Distinctness rule:** the 3 must use 3 different benchmark patterns and 3 different hero devices — no two share the same skeleton. Reserve still-unused patterns for future posts on the topic.
+
+### 4.2 Build + render all 3 variants
+- **Read `references/premium-visual-craft.md` first** — the craft layer (Orion design tokens, the data-journalism house style, consulting slide-craft, chart-styling recipes). Every variant applies it: title-as-a-claim, one accent + ghost the rest, direct labels, the source/footrule band, the Orion stat-card cadence for any hero number, tinted two-layer shadows + hairline borders + concentric radii. A right-shape render with generic styling still looks generic.
+- Skim `renderer/README.md` (esp. §3 brand kit, §6/§6b 3D, §7 layout laws) and a reference template (`renderer/templates/sc101-quote-iso-towers.html`). Build a self-contained template **per variant**: `renderer/templates/sc101-[topic-slug]-v1.html`, `-v2.html`, `-v3.html` — each **one bespoke concept on the homogeneous Shetty's Desk frame**, never a `{{token}}` fill-in, never a recolour of a sibling.
+- Brand frame (all 3): azure + eco-green + ink + Poppins, luminous on WHITE, flat; coral = caution/cost only. **No AI-tool logo.** Footrule-above-row footer — **Shetty's Desk Logo 2** (`assets/logos/shettys-desk-logo-2.png`, dark-wordmark lockup, ~74px, carries the wordmark so **no separate text label**) on the LEFT + **"Poornajith Shetty"** signature on the RIGHT. (Never Logo 1 — white wordmark, invisible on white.) Every number hard-coded from the research brief.
 - For real 3D depth use **JS `clip-path` isometry**, not CSS 3D transforms (README §6b). Harvey balls via `conic-gradient`.
-- Render (always absolute path — cwd drifts):
-  `CHROME_PATH=… NODE_PATH=$(npm root -g) node render.mjs templates/sc101-[slug].html out/sc101-[slug].png`
-  then **QA by reading the PNG** against `renderer/README.md` §9 + `render-pilot-workflow.md` §2/§2b, and iterate (≈2 passes).
-- Copy the approved render to `data/{YYYY-W##}/{topic-slug}/visual.png`.
+- Render each (always absolute path — cwd drifts):
+  `CHROME_PATH=… NODE_PATH=$(npm root -g) node render.mjs templates/sc101-[slug]-vN.html out/sc101-[slug]-vN.png`
+  then **QA each PNG** against `renderer/README.md` §9 + `render-pilot-workflow.md` §2/§2b, and iterate (≈2 passes per variant). **All 3 must clear the QA bar before presenting** — don't ship a weak third just to hit the count; if a framework genuinely won't work for the topic, swap it for the next-best distinct pattern rather than presenting a dud.
 
-### 4.3 (Optional) motion
+### 4.3 Select + save
+- Present all 3 (Step 5). After the user picks one, copy **that** render to `data/{YYYY-W##}/{topic-slug}/visual.png`. Keep all 3 template files and the 3 `out/sc101-[slug]-vN.png` — the unused two are the variety log and the seed for future posts on the topic.
+
+### 4.4 (Optional) motion
 After the still is approved, a GIF/MP4 version can be produced via `render-anim.mjs` only when sequence carries meaning (rare for 101). A still PNG is the default.
 
 ---
@@ -145,28 +149,33 @@ After the still is approved, a GIF/MP4 version can be produced via `render-anim.
 
 Generate this **as a fallback** and keep it in `101-copy.md` — use it instead of the code-render only when the concept is purely illustrative/metaphorical with no load-bearing structure (or when a render isn't feasible in-session).
 
-**Image tool: ChatGPT (GPT Image 2).** Paste the prompt into ChatGPT and **attach `references/brand-anchor-v1.webp`** in the same message — that is the style/colour reference (same brand anchor as before, now used in ChatGPT instead of the Gemini Gem). GPT Image 2 renders on-image text reliably, so keep labels exact and short.
+> **Read `references/ai-still-prompt-learnings.md` — §8 FIRST — before writing this prompt.** §8 is the current operative spec (Nano Banana Pro + viral scaffold + anchor & real logo + batch of 3); §0–§7 are the foundational learnings (framework-first selection, info-design-not-cinematography register, egress constraint). The rules below are the short form of §8.
 
-Use this exact template structure. The VISUAL ANCHOR block is mandatory — it is what makes each infographic visually distinctive and eye-catching. Without it, the output is structurally correct but visually generic.
+**Image tool: Nano Banana Pro via the Higgsfield MCP** (`generate_image`, model `nano_banana_pro` — remaps to `nano_banana_2` in job records, expected). Run a **batch of 3** (`count: 3`) and let the user pick one. **Default aspect/resolution: `3:4`, `2k`** (and write `resolution 2480x3312` into the prompt text). Never use 1k — on-image text goes soft.
+
+**References (attach two, logo LAST):** (1) the **single original brand anchor** `brand-anchor-v1.webp` (media `1d05cd74-…`), **style-only** with a hard "take nothing from it" rule; (2) the **real Shetty's Desk logo** (media `7c3fc954-…`), **reproduce exactly, bottom-left** — it must be **transparent/no background** (`remove_background` it first if needed). Media IDs + rationale in learnings §8.2.
+
+**Register — design-forward, not cinematic.** Frame it as *"a clean, modern, design-forward infographic / an information-design graphic like the FT or Economist"*: flat or flat-dimensional, even clean illumination, flat-on, **no camera angle, no dramatic lighting, no scene, no photography.** Mark standouts **by design** (a grid, a crack, a tag, a colour accent), not by light. "More dramatic / less AI-like" from the user means *conceptually sharper and cleaner*, never cinematography.
+
+Use this template structure. The VISUAL ANCHOR block is mandatory — it is what makes each infographic visually distinctive. Without it, the output is structurally correct but visually generic.
 
 **VISUAL ANCHOR rules:**
 - 3–5 sentences only. Placed between THE QUESTION THIS ANSWERS and VISUAL STRUCTURE.
-- Describes one dominant visual metaphor with spatial specificity — how the layout feels, what dimensional quality it has, what the focal element is, where the eye goes first.
-- Names the single most important element on the canvas (the brightest, the largest, the one point of tension).
-- No colour instructions — the brand anchor image handles colour. No narrative prose about the concept. No NEGATIVE block.
+- Describes one dominant **design-forward** metaphor with spatial specificity — how the layout is composed flat-on, what flat-dimensional quality it has, what the focal element is, where the eye goes first. No camera/lighting/mood language.
+- Names the single most important element on the canvas (the one point of tension — marked by design, not by light).
 - This block is what separates a visually striking render from a generic one. Never skip it.
 
 ```
-Task: Create an infographic image for the summary below (after the rules).
+Task: Create a clean, modern, design-forward infographic for the summary below (after the rules).
 
-Rules: Use the image attached as a reference on style, aesthetics, colours, and illustration technique. Use a different layout for the structure to elaborate details based on the summary. Do not use any information or text from the attached image — only style. Use it only for inspiration. Square 1:1 format (1024x1024).
+Rules: Use the attached images as style references — follow them for style, colours and illustration technique, not their subject matter. The last image is the Shetty's Desk logo; reproduce it as given and place it small in the bottom-left corner. Aspect ratio 3:4.
 
 TOPIC: [Topic name]
 THE QUESTION THIS ANSWERS: [The Question It Answers from the plan — verbatim]
 
-VISUAL ANCHOR: [3–5 sentences. Name the dominant visual metaphor and dimensional concept — how the layout is rendered in space, what quality it has, what the single focal element is, where the eye goes first. No colour instructions. No concept explanation. No prose about supply chain.]
+VISUAL ANCHOR: [3–5 sentences. Name the dominant design-forward metaphor — how the layout is composed flat-on, what flat-dimensional quality it has, what the single focal element is, where the eye goes first. No camera, lighting, or mood language. No concept explanation.]
 
-VISUAL STRUCTURE: [1–2 sentences describing the dominant layout — taken from the Visual Format in the plan. Name the spatial logic: what is on the left/right/top/bottom/centre, what the focal point is.]
+VISUAL STRUCTURE: [1–2 sentences describing the dominant layout — taken from the Visual Format in the plan. Name the spatial logic: what is on the left/right/top/bottom/centre, what the focal point is. Flat-on, even illumination.]
 
 CONTENT TO INCLUDE ON THE IMAGE:
 - Heading: "[Short heading, max 8 words]" (Bold)
@@ -178,19 +187,10 @@ CONTENT TO INCLUDE ON THE IMAGE:
   - [Label]: [2–3 word value]
 - [Annotation line — carries the opinion from the caption. One sentence, specific.]
 
-CONTENT RULES:
-- Maximum 60 words total on the image (excluding labels and axis text)
-- Heading: maximum 8 words, set in Bold
-- Every element must be readable at mobile phone size
-- [One rule specific to this visual format — e.g. "The wave amplification should be the dominant visual"]
-- Data labels and annotations preferred over paragraph text
-
-DO NOT:
-- Use font sizes below 14px at final output resolution
-- Add decorative elements that do not carry information
+DESIGN: crisp flat-design infographic, generous whitespace, strong alignment grid, bold legible sans-serif, max 2 font families. Restrained palette: deep navy + azure base, ONE coral accent reserved for the single caution/focal element only. Even, flat, front-facing — no camera angle, no dramatic lighting, no 3D scene. Every word legible at phone size; data labels preferred over paragraph text.
 ```
 
-Populate from the plan's Visual Format and Caption Direction. Keep content list tight — only what must appear on the image. Total prompt length: 40–55 lines maximum.
+**DO-NOT blocks:** on **Nano Banana Pro**, exactly **one technical** `DO NOT` is allowed and is part of the viral recipe — the font floor (≤14px). Do **not** add style-negatives or a list. **If this prompt is ever ported to GPT Image 2, drop the DO-NOT entirely** — negative blocks degrade that engine (CLAUDE.md hard rule). Otherwise phrase constraints positively. **No colour prescription** — the anchor governs palette. Populate from the plan's Visual Format and Caption Direction. Keep the content list tight (only what must appear on the image) and honour the on-image word cap (~45). Total prompt length: 40–55 lines maximum.
 
 ---
 
@@ -219,33 +219,37 @@ Present all outputs in one block:
 LINKEDIN CAPTION (using hook [#] as placeholder):
 [full caption]
 
-RENDERED INFOGRAPHIC (primary):
-renderer/out/sc101-[topic-slug].png   → data/{week}/{slug}/visual.png
-[layout + composition mode used]
+3 RENDERED INFOGRAPHIC VARIANTS (primary — pick 1):
+ V1 · [framework / hero device]:  renderer/out/sc101-[slug]-v1.png
+ V2 · [framework / hero device]:  renderer/out/sc101-[slug]-v2.png
+ V3 · [framework / hero device]:  renderer/out/sc101-[slug]-v3.png
+(send all 3 PNGs to the user; one-line what makes each distinct)
 
 CHATGPT IMAGE 2 PROMPT (backup, paste-ready):
 [full prompt]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Pick a hook (1-10), adjust caption if needed,
-then confirm to save.
+Pick a hook (1-10) AND a visual variant (V1/V2/V3),
+adjust caption if needed, then confirm to save.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
+
+**Surface all 3 renders to the user** (e.g. via the file-send tool) so the choice is visual, not described.
 
 ---
 
 ## Step 6: Save
 
-After user confirms hook selection and any adjustments:
+After user confirms hook selection, **visual-variant choice**, and any adjustments:
 
 1. Write `data/{YYYY-W##}/{topic-slug}/101-copy.md` with:
    - Selected hook
    - Final caption
    - All 10 hook options (reference)
-   - Visual Spec (layout + composition mode) and the code-render path (template + `visual.png`)
+   - Visual Spec — the 3 variants offered (framework + hero device each) and **which variant was chosen**, plus the chosen template + `visual.png` path
    - ChatGPT Image 2 prompt (backup)
-2. Ensure the approved render is saved as `data/{YYYY-W##}/{topic-slug}/visual.png` (copied from `renderer/out/`)
-3. Update `data/101-series-tracker.md` with the new entry
+2. Copy the **chosen** variant's render to `data/{YYYY-W##}/{topic-slug}/visual.png`. Keep all 3 `renderer/templates/sc101-[slug]-vN.html` and `renderer/out/sc101-[slug]-vN.png` on disk (variety log + future-post seed).
+3. Update `data/101-series-tracker.md` with the new entry (note the chosen framework in the Hook Type / notes column so the feed's range is traceable)
 
 ---
 
@@ -281,11 +285,15 @@ After user confirms hook selection and any adjustments:
 
 ---
 
-## Visual Spec (layout-select)
-- Shape of the idea · selected layout (why it argues the point) · composition mode (A integrated / B layered) · feasibility · benchmark #(s) used · the one-line spec.
+## Visual Spec (layout-select) — 3 variants offered
+- Shape of the idea · the 3 distinct frameworks rendered (V1/V2/V3 — pattern + hero device + composition mode each) · feasibility · benchmark #(s) used.
+- **Chosen variant:** Vn — [framework] — why it won.
 
 ## Code-render visual (primary)
-`renderer/templates/sc101-[topic-slug].html` → `renderer/out/sc101-[topic-slug].png` → `visual.png`. [One-line description of the concept built.]
+- V1 `renderer/templates/sc101-[slug]-v1.html` → `out/sc101-[slug]-v1.png` — [concept]
+- V2 `renderer/templates/sc101-[slug]-v2.html` → `out/sc101-[slug]-v2.png` — [concept]
+- V3 `renderer/templates/sc101-[slug]-v3.html` → `out/sc101-[slug]-v3.png` — [concept]
+- **Chosen → `visual.png`:** V[n] (`sc101-[slug]-v[n].png`).
 
 ## ChatGPT Image 2 Prompt (backup, paste-ready)
 [full ChatGPT Image 2 prompt — illustration fallback]
@@ -302,13 +310,14 @@ After user confirms hook selection and any adjustments:
 - [ ] No em dashes, no AI slop, no ANCHORS labels, no citation format?
 - [ ] CTA is an open question accessible to non-practitioners?
 - [ ] Sign-off includes "Follow Poornajith Shetty" + save prompt?
-- [ ] **Visual: layout chosen via `layout-select` (argues the point, not last week's default) + composition mode (A/B) decided?**
-- [ ] **Visual: code-rendered template built on the brand frame, NO AI-tool logo, every number hard-coded; rendered PNG QA'd against README §9 and copied to `visual.png`?**
-- [ ] **Visual: real 3D (if used) via JS clip-path isometry, not CSS 3D transforms; footrule-above-row footer (Shetty's Desk Logo 2 left + "Poornajith Shetty" signature right — never Logo 1); canvas filled (no dead whitespace / heavy border)?**
+- [ ] **Visual: `layout-select` returned 3 DISTINCT frameworks (3 different benchmark patterns + 3 different hero devices — not recolours of one idea)?**
+- [ ] **Visual: all 3 variants code-rendered on the brand frame, NO AI-tool logo, every number hard-coded; each PNG QA'd against README §9; all 3 surfaced to the user to pick from?**
+- [ ] **Visual: real 3D (if used) via JS clip-path isometry, not CSS 3D transforms; footrule-above-row footer (Shetty's Desk Logo 2 left + "Poornajith Shetty" signature right — never Logo 1); each canvas filled (no dead whitespace / heavy border)?**
+- [ ] **Visual: chosen variant copied to `visual.png`; all 3 templates + 3 out PNGs kept on disk?**
 - [ ] ChatGPT Image 2 prompt (backup) present and uses the plan's visual format + brand anchor?
 - [ ] A non-practitioner could read the caption over coffee and understand the concept?
 
 ---
 
 ## Token Budget
-~8–12K tokens per run (up from ~4–6K now that the visual is code-rendered). Reads 101-plan.md, 101-voice.md, 101-series-tracker.md, plus the visual references (layout-frameworks-intelligence.md, render-pilot-workflow.md, renderer/README.md + a reference template) and iterates on the render. No research files, no source library, no deep-dive references.
+~14–20K tokens per run (the visual step now builds + QAs **3 distinct renders**, not one). Reads 101-plan.md, 101-voice.md, 101-series-tracker.md, plus the visual references (layout-frameworks-intelligence.md, render-pilot-workflow.md, renderer/README.md + a reference template) and iterates on each of the 3 variants. No source library, no deep-dive references.

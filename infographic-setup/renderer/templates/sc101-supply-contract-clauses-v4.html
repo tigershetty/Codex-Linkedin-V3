@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<!--
+  SC 101 · W27 · supply-contract-clauses — VARIANT 4: ISOMETRIC "KNOWLEDGE GRAPHIC" (editorial pole)
+  Schwochow-style iso cutaway: the contract as a stack of 6 clause-slabs. DUAL-FACE encoding —
+  each slab's LEFT face = how often it breaks (green), RIGHT face = how hard it's fought (coral).
+  So Scope = vivid green / pale coral; Liability = vivid coral / pale green. The mismatch is dimensional.
+  Craft: JS clip-path isometry (README §6b), 3-tone read, numbered key, Orion stat card, Lutz museum-plate frame, source band.
+-->
+<style>
+  :root{
+    --ink:#15315C; --azure:#2798FB; --deep:#215DC3; --green:#38E6A6; --green-deep:#0E9A6E; --coral:#E27199; --coral-deep:#cf5c84;
+    --canvas:#F6F9FE; --card:#FFFFFF;
+    --ink-55:rgba(21,49,92,.55); --ink-40:rgba(21,49,92,.40);
+    --hair:rgba(21,49,92,.08); --grey:#9DB1CC; --grey-fill:#E7EEF7;
+    --green-16:rgba(56,230,166,.16); --coral-14:rgba(226,113,153,.14);
+    --r-card:18px; --r-inner:12px; --r-pill:999px;
+    --lift:0 1px 2px rgba(21,49,92,.06), 0 12px 28px rgba(21,49,92,.10), inset 0 1px 0 rgba(255,255,255,.7);
+    --lift-sm:0 1px 2px rgba(21,49,92,.05), 0 7px 16px rgba(21,49,92,.08);
+    --font:"Poppins",system-ui,sans-serif; --eco-grad:linear-gradient(135deg,#8FF3CC,#38E6A6,#1FC98B);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-variant-numeric:tabular-nums}
+  html,body{width:1080px}
+  #card{width:1080px;height:1350px;position:relative;overflow:hidden;font-family:var(--font);color:var(--ink);
+    background:
+      radial-gradient(ellipse 50% 30% at 86% 2%, rgba(56,230,166,.15) 0%, transparent 60%),
+      radial-gradient(ellipse 56% 36% at 4% 22%, rgba(39,152,251,.13) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F5FAFE 55%,#EAF3FD 100%);
+    padding:40px 46px 28px;display:flex;flex-direction:column}
+  /* Lutz museum-plate keyline */
+  .plate{position:absolute;inset:20px;border:1.5px solid var(--hair);border-radius:24px;pointer-events:none;z-index:0}
+  .plate:before{content:"";position:absolute;inset:7px;border:1px solid rgba(21,49,92,.05);border-radius:18px}
+  .inner{position:relative;z-index:2;display:flex;flex-direction:column;height:100%}
+
+  .kicker{font-size:14px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--azure)}
+  h1{font-size:50px;font-weight:800;line-height:1.0;margin-top:9px;letter-spacing:-1px}
+  h1 .g{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .rule{height:5px;width:100%;margin:13px 0 9px;border-radius:5px;background:linear-gradient(90deg,var(--azure) 0%,#50A9F7 36%,rgba(80,169,247,0) 100%)}
+  .sub{font-size:18px;font-weight:400;color:var(--ink-55);max-width:990px;line-height:1.34}
+  .sub b{color:var(--ink);font-weight:600}
+
+  .stage{position:relative;flex:0 0 738px;margin-top:10px}
+  .scene{position:absolute;left:-14px;top:0;width:450px;height:612px}
+  .shape{position:absolute;inset:0;pointer-events:none}
+  .badge{position:absolute;transform:translate(-50%,-50%);width:34px;height:34px;border-radius:50%;background:#fff;
+    border:2px solid var(--hair);display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:800;color:var(--ink);
+    box-shadow:0 5px 12px rgba(12,35,75,.18);z-index:50}
+
+  .facelegend{position:absolute;left:6px;top:630px;width:432px;background:var(--card);border:1px solid var(--hair);
+    border-radius:var(--r-inner);box-shadow:var(--lift-sm);padding:14px 18px;display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+  .facelegend .it{display:flex;align-items:center;gap:9px;font-size:13.5px;font-weight:600;color:var(--ink-55)}
+  .facelegend .sw{width:22px;height:22px;border-radius:5px;flex:0 0 auto;transform:skewY(-26.57deg)}
+  .facelegend .sw.b{background:linear-gradient(180deg,#5CE0AE,#0E9A6E)} .facelegend .sw.f{background:linear-gradient(180deg,#E48EAC,#cf5c84)}
+  .facelegend .it b{color:var(--ink);font-weight:700}
+
+  /* right column */
+  .rail{position:absolute;right:0;top:0;width:476px;display:flex;flex-direction:column;gap:16px}
+  .statcard{background:var(--card);border:1px solid var(--hair);border-radius:var(--r-card);box-shadow:var(--lift);padding:18px 22px;display:flex;align-items:center;gap:18px}
+  .statcard .num{font-size:62px;font-weight:800;line-height:.9;letter-spacing:-2px;color:var(--coral-deep)}
+  .statcard .num small{font-size:22px;font-weight:700;color:var(--ink-40)}
+  .statcard .eyebrow{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-40)}
+  .statcard .cap{font-size:14px;font-weight:500;color:var(--ink-55);line-height:1.3;margin-top:5px} .statcard .cap b{color:var(--ink);font-weight:700}
+
+  .key{background:var(--card);border:1px solid var(--hair);border-radius:var(--r-card);box-shadow:var(--lift);padding:8px 8px}
+  .krow{display:flex;align-items:center;gap:12px;padding:23px 14px;border-radius:11px}
+  .krow + .krow{border-top:1px solid #EEF4FB}
+  .krow.g{background:linear-gradient(90deg,var(--green-16),rgba(56,230,166,0) 70%)}
+  .krow.c{background:linear-gradient(90deg,var(--coral-14),rgba(226,113,153,0) 70%)}
+  .krow .kn{width:26px;height:26px;border-radius:8px;flex:0 0 auto;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;color:#fff;background:linear-gradient(135deg,#50A9F7,#215DC3)}
+  .krow.g .kn{background:linear-gradient(135deg,#3BDFA2,#0E9A6E)} .krow.c .kn{background:linear-gradient(135deg,#E689A8,#cf5c84)}
+  .krow .kt{font-size:15.5px;font-weight:700;line-height:1.1}
+  .krow .kt small{display:block;font-size:11.5px;font-weight:500;color:var(--ink-40);margin-top:1px}
+  .krow .ktag{margin-left:auto;font-size:9.5px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:#fff;padding:3px 8px;border-radius:999px;white-space:nowrap}
+  .krow.g .ktag{background:linear-gradient(135deg,#3BDFA2,#0E9A6E)} .krow.c .ktag{background:linear-gradient(135deg,#E689A8,#cf5c84)}
+
+  .insight{margin-top:14px;font-size:18px;font-weight:500;line-height:1.36;padding-left:16px;border-left:5px solid var(--azure)}
+  .insight b{color:var(--green-deep);font-weight:700} .insight .px{color:var(--coral-deep);font-weight:700}
+
+  .footrule{margin-top:auto;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--azure),var(--green) 55%,rgba(56,230,166,0) 100%)}
+  .foot{display:flex;align-items:flex-end;justify-content:space-between;padding-top:12px}
+  .who img{height:60px;width:auto;display:block} .who .src{font-size:10.5px;font-weight:500;color:var(--ink-40);margin-top:5px;max-width:640px}
+  .sig{font-size:16.5px;font-weight:700;text-align:right;line-height:1.2}
+</style>
+</head>
+<body>
+<div id="card">
+  <div class="plate"></div>
+  <div class="inner">
+    <div class="kicker">Supply Chain 101 · Procurement</div>
+    <h1>Every clause has two faces.<br>They <span class="g">rarely match.</span></h1>
+    <div class="rule"></div>
+    <div class="sub">A supply contract is six load-bearing clauses. Each one has a <b>right face</b> (how hard your team fights it) and a <b>left face</b> (how often it actually breaks). Read where the colour lands.</div>
+
+    <div class="stage">
+      <div class="scene" id="scene"></div>
+      <div class="facelegend">
+        <div class="it"><span class="sw b"></span><b>Left face</b>&nbsp;= how often it breaks</div>
+        <div class="it"><span class="sw f"></span><b>Right face</b>&nbsp;= how hard it's fought</div>
+      </div>
+
+      <div class="rail">
+        <div class="statcard">
+          <div><div class="num">4<small>/6</small></div></div>
+          <div><div class="eyebrow">Negotiated vs important</div>
+            <div class="cap">of the most-negotiated terms even make the <b>most-important</b> list. The energy and the risk sit on different clauses.</div></div>
+        </div>
+        <div class="key" id="key"></div>
+      </div>
+    </div>
+
+    <div class="insight">The clause with the brightest <b>green</b> face is the one nobody argued over: <b>scope</b>, the #1 dispute driver (~3 in 4 teams). The brightest <span class="px">coral</span> face, <span class="px">liability</span>, has been fought hardest since 2007 and rarely breaks. Read the green.</div>
+
+    <div class="footrule"></div>
+    <div class="foot">
+      <div class="who"><img src="../assets/logos/shettys-desk-logo-2.png" alt="Shetty's Desk">
+        <div class="src">Source: WorldCC (formerly IACCM), Most Negotiated / Most Important / dispute-source research · ICC Incoterms 2020. Face intensities relative, from the ranked findings.</div></div>
+      <div class="sig">Poornajith Shetty</div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  const clauses=[
+    {n:1,nm:'Scope & specification',sub:"what \"done\" means",f:18,b:92,hero:'g',tag:'Breaks most'},
+    {n:2,nm:'Price & indexation',sub:'can the price move?',f:58,b:34},
+    {n:3,nm:'Delivery & lead time',sub:'Incoterms · who carries risk',f:28,b:76},
+    {n:4,nm:'Quality & SLA',sub:'standard · acceptance',f:46,b:48},
+    {n:5,nm:'Liability & remedies',sub:'caps · indemnities',f:98,b:22,hero:'c',tag:'Most negotiated'},
+    {n:6,nm:'Term & exit',sub:'how you leave',f:70,b:62},
+  ];
+  function lerp(a,b,t){a=parseInt(a.slice(1),16);b=parseInt(b.slice(1),16);
+    const ar=a>>16,ag=(a>>8)&255,ab=a&255,br=b>>16,bg=(b>>8)&255,bb=b&255;
+    const r=Math.round(ar+(br-ar)*t),g=Math.round(ag+(bg-ag)*t),bl=Math.round(ab+(bb-ab)*t);
+    return '#'+((1<<24)+(r<<16)+(g<<8)+bl).toString(16).slice(1);}
+  const greenC=v=>lerp('#E3F7EE','#0E9A6E',v/100);   // left face = breaks
+  const coralC=v=>lerp('#FCE7EF','#cf5c84',v/100);   // right face = fought
+  function shade(hex,amt){const n=parseInt(hex.slice(1),16);let r=(n>>16)+amt,g=((n>>8)&255)+amt,b=(n&255)+amt;
+    r=Math.max(0,Math.min(255,r));g=Math.max(0,Math.min(255,g));b=Math.max(0,Math.min(255,b));
+    return '#'+((1<<24)+(r<<16)+(g<<8)+b).toString(16).slice(1);}
+
+  const scene=document.getElementById('scene');
+  const cx=205, fa=140, fb=70, h=48, gap=30, top0=122;
+  function poly(pts,bg,z){const d=document.createElement('div');d.className='shape';
+    d.style.clipPath='polygon('+pts.map(p=>p[0].toFixed(1)+'px '+p[1].toFixed(1)+'px').join(',')+')';
+    d.style.background=bg;if(z!=null)d.style.zIndex=z;scene.appendChild(d);}
+  function el(cls,x,y,z,html){const d=document.createElement('div');d.className=cls;d.style.left=x+'px';d.style.top=y+'px';if(z!=null)d.style.zIndex=z;d.innerHTML=html||'';scene.appendChild(d);return d;}
+
+  clauses.forEach((c,i)=>{
+    const yB=top0+i*(h+gap), yT=yB-h, z=20+i*5;
+    const Lb=[cx-fa,yB],Bb=[cx,yB+fb],Rb=[cx+fa,yB];
+    const Lt=[cx-fa,yT],Bt=[cx,yT+fb],Rt=[cx+fa,yT],Tt=[cx,yT-fb];
+    // contact shadow
+    poly([[cx-fa,yB+fb],[cx,yB+fb+10],[cx+fa,yB+fb],[cx,yB+fb-10]],'rgba(18,42,90,.10)',z-1);
+    const gc=greenC(c.b), cc=coralC(c.f);
+    // left wall = breaks (green), right wall = fought (coral), slightly darkened for depth
+    poly([Lb,Bb,Bt,Lt],'linear-gradient(180deg,'+shade(gc,4)+','+shade(gc,-14)+')',z);
+    poly([Bb,Rb,Rt,Bt],'linear-gradient(180deg,'+shade(cc,-6)+','+shade(cc,-22)+')',z+1);
+    // top cap = light neutral, lit
+    poly([Tt,Rt,Bt,Lt],'linear-gradient(135deg,#FBFDFF,#E9F1FA)',z+2);
+    // top edge highlight
+    poly([Lt,Tt,[Tt[0],Tt[1]+2],[Lt[0],Lt[1]+2]],'rgba(255,255,255,.7)',z+3);
+    poly([Tt,Rt,[Rt[0],Rt[1]+2],[Tt[0],Tt[1]+2]],'rgba(255,255,255,.5)',z+3);
+    // number badge on the top face
+    el('badge',cx,yT- (fb*0.18),z+10,c.n);
+  });
+
+  // numbered key in the rail
+  const key=document.getElementById('key');
+  clauses.forEach(c=>{
+    const cls=c.hero==='g'?'g':c.hero==='c'?'c':'';
+    const tag=c.tag?'<span class="ktag">'+c.tag+'</span>':'';
+    key.insertAdjacentHTML('beforeend',
+      '<div class="krow '+cls+'"><span class="kn">'+c.n+'</span><span class="kt">'+c.nm+'<small>'+c.sub+'</small></span>'+tag+'</div>');
+  });
+})();
+</script>
+</body>
+</html>

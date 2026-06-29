@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<!--
+  SC 101 · W27 · supply-contract-clauses — VARIANT 7: THE EDIFICE (bespoke illustration, post-mortem reset)
+  Not a chart, not a dashboard. The metaphor IS the message: a supply contract = "six load-bearing clauses",
+  drawn as a six-column portico. Liability is buried in scaffolding (fought hardest). Scope is cracking and
+  ignored (where it bites). One dominant gesture, reads in 1 second, detail underneath for the lean-in.
+  Adapted to the Shetty's Desk brand kit: luminous-white canvas, brand ink #15315C, cool marble columns,
+  azure scaffolding, coral reserved for the caution (the crack), green for the payoff, Poppins.
+  Drawn in SVG with one-light 3-tone shading (Schwochow), carved frieze + seal (Lutz museum-plate), brand footer.
+-->
+<style>
+  :root{
+    --ink:#15315C; --ink-soft:rgba(21,49,92,.58); --ink-faint:rgba(21,49,92,.36);
+    --navy:#15315C; --azure:#2798FB; --azure-deep:#1668C8;
+    --coral:#E27199; --coral-deep:#cf5c84; --green:#38E6A6; --green-deep:#0E9A6E;
+    --font:"Poppins",system-ui,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-variant-numeric:tabular-nums}
+  html,body{width:1080px}
+  #card{width:1080px;height:1350px;position:relative;overflow:hidden;font-family:var(--font);color:var(--navy);
+    background:
+      radial-gradient(ellipse 52% 32% at 88% 1%, rgba(56,230,166,.16) 0%, transparent 60%),
+      radial-gradient(ellipse 58% 38% at 3% 20%, rgba(39,152,251,.14) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F5FAFE 55%,#EAF3FD 100%);
+    display:flex;flex-direction:column;padding:40px 44px 26px}
+  /* faint blueprint grid behind everything (brand azure) */
+  #card::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.6;
+    background-image:linear-gradient(rgba(39,152,251,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(39,152,251,.05) 1px,transparent 1px);
+    background-size:36px 36px}
+
+  .head{position:relative;z-index:2}
+  .kicker{font-size:13.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--azure)}
+  h1{font-size:42px;font-weight:800;line-height:1.04;margin-top:10px;letter-spacing:-.6px;color:var(--navy)}
+  h1 .u{position:relative;white-space:nowrap}
+  h1 .u::after{content:"";position:absolute;left:0;right:0;bottom:1px;height:9px;background:rgba(207,92,132,.26);z-index:-1;border-radius:2px}
+  .sub{font-size:16px;font-weight:500;color:var(--ink-soft);margin-top:9px;max-width:920px;line-height:1.35}
+  .sub b{color:var(--ink);font-weight:600}
+
+  .stage{flex:1;min-height:0;position:relative;z-index:1;margin:6px 0}
+  .stage svg{width:100%;height:100%;display:block;overflow:visible}
+
+  .ledger{position:relative;z-index:2;display:flex;align-items:center;gap:20px;
+    background:rgba(255,255,255,.78);border:1px solid rgba(21,49,92,.14);border-radius:16px;
+    padding:16px 22px;box-shadow:0 1px 2px rgba(21,49,92,.06),0 10px 24px rgba(21,49,92,.08)}
+  .ledger .big{font-size:46px;font-weight:800;line-height:.9;letter-spacing:-1.5px;color:var(--azure-deep);flex:0 0 auto}
+  .ledger .tx{font-size:16.5px;font-weight:500;color:var(--ink);line-height:1.36}
+  .ledger .tx b{font-weight:700;color:var(--navy)}
+  .ledger .tx .gn{color:var(--green-deep);font-weight:700}
+
+  .footrule{margin-top:14px;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--azure),var(--green) 55%,rgba(56,230,166,0) 100%);position:relative;z-index:2}
+  .foot{display:flex;align-items:flex-end;justify-content:space-between;padding-top:12px;position:relative;z-index:2}
+  .who img{height:56px;width:auto;display:block}
+  .who .src{font-size:10px;font-weight:500;color:var(--ink-faint);margin-top:5px;max-width:680px;line-height:1.3}
+  .sig{font-size:16px;font-weight:700;text-align:right;line-height:1.2;color:var(--navy)}
+</style>
+</head>
+<body>
+<div id="card">
+
+  <div class="head">
+    <div class="kicker">Supply Chain 101 · Procurement</div>
+    <h1>Six columns hold a supply contract.<br>Everyone reinforces <span class="u">the wrong one.</span></h1>
+    <div class="sub">Teams pour their energy into <b>liability</b> &mdash; the clause that almost never breaks. The cracks start at <b>scope</b>, the column nobody guards.</div>
+  </div>
+
+  <div class="stage"><svg id="edifice" viewBox="0 0 1080 900" preserveAspectRatio="xMidYMid meet"></svg></div>
+
+  <div class="ledger">
+    <span class="big">4<span style="font-size:30px">/6</span></span>
+    <span class="tx">Only four of the six most-negotiated terms even make the list of the most-important ones. <span class="gn">Before you sign, read the column nobody argued over.</span></span>
+  </div>
+
+  <div class="footrule"></div>
+  <div class="foot">
+    <div class="who"><img src="../assets/logos/shettys-desk-logo-2.png" alt="Shetty's Desk">
+      <div class="src">Source: WorldCC (formerly IACCM) Most Negotiated / Most Important Terms &amp; dispute-source research · ICC Incoterms 2020</div></div>
+    <div class="sig">Poornajith Shetty</div>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  const NS='http://www.w3.org/2000/svg';
+  const svg=document.getElementById('edifice');
+  function E(t,a,kids){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);
+    if(kids)kids.forEach(c=>e.appendChild(c));return e;}
+  function add(e){svg.appendChild(e);return e;}
+  function txt(x,y,s,a){const e=E('text',Object.assign({x:x,y:y},a));e.textContent=s;return e;}
+
+  // ---------- palette (Shetty's Desk brand kit) ----------
+  const INK='#15315C', INKL='rgba(21,49,92,.20)', STONE_L='#F2F7FE', STONE='#E2ECF9', STONE_S='#CBDCF1',
+        STONE_SS='#B3CAE8', CORAL='#E27199', CORAL_D='#cf5c84', STEEL='#2798FB', SHADOW='rgba(21,49,92,.14)';
+
+  // ---------- defs ----------
+  const defs=E('defs');
+  defs.innerHTML=`
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EFF5FD"/></linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.30" r="0.6">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="shaft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FBFDFF"/><stop offset="0.18" stop-color="#EFF5FD"/>
+      <stop offset="0.55" stop-color="#DEEAF8"/><stop offset="1" stop-color="#C6D9F0"/></linearGradient>
+    <linearGradient id="ped" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EEF4FD"/><stop offset="1" stop-color="#D3E2F5"/></linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#15315C" flood-opacity="0.16"/></filter>`;
+  add(defs);
+
+  add(E('rect',{x:0,y:0,width:1080,height:900,fill:'url(#halo)'}));
+
+  // ---------- column geometry ----------
+  const cols=[
+    {cx:120, name:['Price &','indexation'], state:'plain'},
+    {cx:288, name:['Scope &','specification'], state:'crack'},
+    {cx:456, name:['Delivery &','lead time'], state:'plain'},
+    {cx:624, name:['Quality','& SLA'], state:'plain'},
+    {cx:792, name:['Liability &','remedies'], state:'scaffold'},
+    {cx:960, name:['Term','& exit'], state:'plain'},
+  ];
+  // 6 columns across. centers 120..960 step 168.
+  const CAP_TOP=236, SHAFT_TOP=262, SHAFT_BOT=716, BASE_BOT=748;
+
+  // ---------- ground shadow ----------
+  add(E('ellipse',{cx:540,cy:838,rx:500,ry:26,fill:SHADOW}));
+
+  // ---------- stylobate (3 steps) ----------
+  function step(x0,x1,y0,y1,fill,top){
+    add(E('rect',{x:x0,y:y0,width:x1-x0,height:y1-y0,fill:fill,stroke:INKL,'stroke-width':1}));
+    if(top)add(E('rect',{x:x0,y:y0,width:x1-x0,height:6,fill:'#FBFDFF'}));
+  }
+  step(44,1036, 818,846, STONE_SS,false);
+  step(60,1020, 792,820, STONE_S,false);
+  step(78,1002, 748,794, STONE,true);
+
+  // ---------- a column ----------
+  function column(c){
+    const cx=c.cx, half=40;
+    const g=E('g',{});
+    // base: plinth + torus
+    g.appendChild(E('rect',{x:cx-52,y:730,width:104,height:18,fill:STONE_S,stroke:INKL,'stroke-width':1}));
+    g.appendChild(E('rect',{x:cx-48,y:716,width:96,height:16,rx:5,fill:STONE,stroke:INKL,'stroke-width':1}));
+    // shaft
+    g.appendChild(E('rect',{x:cx-half,y:SHAFT_TOP,width:half*2,height:SHAFT_BOT-SHAFT_TOP,fill:'url(#shaft)',stroke:INKL,'stroke-width':1.2}));
+    // flutes
+    for(let i=-2;i<=2;i++){const fx=cx+i*13;
+      g.appendChild(E('line',{x1:fx,y1:SHAFT_TOP+6,x2:fx,y2:SHAFT_BOT-6,stroke:'rgba(21,49,92,.14)','stroke-width':1.4}));}
+    // right-side shade
+    g.appendChild(E('rect',{x:cx+half-14,y:SHAFT_TOP,width:14,height:SHAFT_BOT-SHAFT_TOP,fill:'rgba(21,49,92,.06)'}));
+    g.appendChild(E('rect',{x:cx-half,y:SHAFT_TOP,width:9,height:SHAFT_BOT-SHAFT_TOP,fill:'rgba(255,255,255,.35)'}));
+    // capital: echinus + abacus
+    g.appendChild(E('path',{d:`M ${cx-44} ${CAP_TOP+24} L ${cx-50} ${CAP_TOP+10} L ${cx+50} ${CAP_TOP+10} L ${cx+44} ${CAP_TOP+24} Z`,fill:STONE_L,stroke:INKL,'stroke-width':1}));
+    g.appendChild(E('rect',{x:cx-56,y:CAP_TOP-4,width:112,height:14,fill:STONE_L,stroke:INKL,'stroke-width':1}));
+    add(g);
+  }
+  // draw plain columns first, hero columns last (so overlays sit on top)
+  cols.filter(c=>c.state==='plain').forEach(column);
+  cols.filter(c=>c.state!=='plain').forEach(column);
+
+  // ---------- entablature + pediment (on top of capitals) ----------
+  add(E('rect',{x:60,y:200,width:960,height:36,fill:STONE,stroke:INKL,'stroke-width':1}));          // architrave
+  // frieze (carved title band)
+  add(E('rect',{x:60,y:166,width:960,height:34,fill:STONE_L,stroke:INKL,'stroke-width':1}));
+  add(txt(540,191,'THE SUPPLY CONTRACT',{'text-anchor':'middle','font-size':20,'font-weight':700,'letter-spacing':9,fill:INK,'font-family':'Poppins'}));
+  // cornice
+  add(E('rect',{x:48,y:150,width:984,height:18,fill:STONE_S,stroke:INKL,'stroke-width':1}));
+  // pediment triangle
+  add(E('path',{d:'M 540 40 L 60 150 L 1020 150 Z',fill:'url(#ped)',stroke:INKL,'stroke-width':1.4,filter:'url(#soft)'}));
+  add(E('path',{d:'M 540 40 L 60 150 L 1020 150 Z',fill:'none',stroke:'rgba(21,49,92,.16)','stroke-width':1}));
+  // seal in the tympanum (azure — coral is reserved for the caution)
+  add(E('circle',{cx:540,cy:108,r:40,fill:'#F4F8FE',stroke:'#1668C8','stroke-width':2.5}));
+  add(E('circle',{cx:540,cy:108,r:33,fill:'none',stroke:'rgba(39,152,251,.4)','stroke-width':1}));
+  add(txt(540,108,'6',{'text-anchor':'middle','font-size':40,'font-weight':800,fill:'#1668C8','font-family':'Poppins'}));
+  add(txt(540,125,'CLAUSES',{'text-anchor':'middle','font-size':9.5,'font-weight':700,'letter-spacing':2,fill:'#1668C8','font-family':'Poppins'}));
+
+  // ---------- clause name plaques (under each column) ----------
+  cols.forEach(c=>{
+    const hero=c.state!=='plain';
+    add(txt(c.cx,866,c.name[0],{'text-anchor':'middle','font-size':14.5,'font-weight':hero?800:600,
+      fill:hero?(c.state==='crack'?CORAL_D:'#1668C8'):'rgba(21,49,92,.6)','font-family':'Poppins'}));
+    add(txt(c.cx,884,c.name[1],{'text-anchor':'middle','font-size':14.5,'font-weight':hero?800:600,
+      fill:hero?(c.state==='crack'?CORAL_D:'#1668C8'):'rgba(21,49,92,.6)','font-family':'Poppins'}));
+  });
+
+  // ================= SCOPE: the crack =================
+  (function(){const cx=288;
+    // jagged main crack down the shaft
+    const pts='M '+cx+' '+SHAFT_TOP+' L '+(cx-13)+' 320 L '+(cx+11)+' 392 L '+(cx-15)+' 470 L '+(cx+9)+' 548 L '+(cx-12)+' 626 L '+(cx+7)+' 690 L '+(cx-4)+' '+SHAFT_BOT;
+    add(E('path',{d:pts,fill:'none',stroke:'#F6FAFF','stroke-width':7,'stroke-linejoin':'round','stroke-linecap':'round'}));
+    add(E('path',{d:pts,fill:'none',stroke:CORAL_D,'stroke-width':3.4,'stroke-linejoin':'round','stroke-linecap':'round'}));
+    // branch cracks
+    add(E('path',{d:`M ${cx+11} 392 L ${cx+30} 360 M ${cx-15} 470 L ${cx-34} 452 M ${cx+9} 548 L ${cx+28} 566`,fill:'none',stroke:CORAL_D,'stroke-width':2,'stroke-linecap':'round'}));
+    // crumbled base: notch + rubble
+    add(E('path',{d:`M ${cx-50} 716 L ${cx-50} 732 L ${cx-30} 732 L ${cx-20} 716 Z`,fill:'#EAF1FB',stroke:CORAL_D,'stroke-width':1.4}));
+    [[cx-58,742,10],[cx-44,748,8],[cx-66,748,7],[cx+40,746,9]].forEach(r=>{
+      add(E('path',{d:`M ${r[0]} ${r[1]} l ${r[2]} ${-r[2]*0.5} l ${r[2]*0.7} ${r[2]*0.8} z`,fill:STONE_S,stroke:CORAL_D,'stroke-width':1}));});
+    // coral ribbon banner across mid-shaft
+    ribbon(cx,452,CORAL_D,'WHERE IT BITES');
+    tag(cx+52,520,CORAL_D,'#fff','~3 in 4 disputes','start here');
+    // big 77% seal floating left
+    add(E('circle',{cx:150,cy:560,r:60,fill:'#FEF4F8',stroke:CORAL_D,'stroke-width':3,filter:'url(#soft)'}));
+    add(txt(150,556,'77%',{'text-anchor':'middle','font-size':38,'font-weight':800,fill:CORAL_D,'font-family':'Poppins'}));
+    add(txt(150,586,'of disputes',{'text-anchor':'middle','font-size':12.5,'font-weight':600,fill:'rgba(21,49,92,.55)','font-family':'Poppins'}));
+    add(txt(150,602,'start at scope',{'text-anchor':'middle','font-size':12.5,'font-weight':600,fill:'rgba(21,49,92,.55)','font-family':'Poppins'}));
+    // leader from seal to crack
+    add(E('path',{d:`M 210 545 Q 250 520 ${cx-16} 470`,fill:'none',stroke:CORAL_D,'stroke-width':1.4,'stroke-dasharray':'2 4'}));
+    add(E('circle',{cx:cx-16,cy:470,r:3.5,fill:CORAL_D}));
+  })();
+
+  // ================= LIABILITY: the scaffolding =================
+  (function(){const cx=792, L=cx-66, R=cx+66, top=250, bot=738;
+    const g=E('g',{});
+    const pole=x=>g.appendChild(E('rect',{x:x-3,y:top,width:6,height:bot-top,fill:STEEL,rx:3,stroke:'rgba(21,49,92,.22)','stroke-width':.8}));
+    pole(L);pole(R);
+    const ledgerY=[290,366,442,518,594,670];
+    ledgerY.forEach(y=>g.appendChild(E('rect',{x:L,y:y-3,width:R-L,height:6,fill:STEEL,rx:3})));
+    // diagonal braces
+    for(let i=0;i<ledgerY.length-1;i++){
+      g.appendChild(E('line',{x1:L,y1:ledgerY[i],x2:R,y2:ledgerY[i+1],stroke:'rgba(39,152,251,.55)','stroke-width':3,'stroke-linecap':'round'}));}
+    // clamps
+    ledgerY.forEach(y=>{[L,R].forEach(x=>g.appendChild(E('circle',{cx:x,cy:y,r:5,fill:'#5EA8F6',stroke:'#1668C8','stroke-width':1.2})));});
+    add(g);
+    // ribbon banner
+    ribbon(cx,420,STEEL,'FOUGHT HARDEST');
+    tag(cx,300,'#1668C8','#fff','#1 most-negotiated','term since 2007');
+    // two tiny workers at base
+    worker(cx-86,726); worker(cx+88,728,true);
+  })();
+
+  // ---------- ribbon banner across a column ----------
+  function ribbon(cx,cy,fill,label){
+    const w=150,h=34,sk=8;
+    const g=E('g',{transform:`rotate(-7 ${cx} ${cy})`});
+    // tails
+    g.appendChild(E('path',{d:`M ${cx-w/2-18} ${cy-h/2-6} L ${cx-w/2} ${cy} L ${cx-w/2-18} ${cy+h/2+6} L ${cx-w/2-6} ${cy} Z`,fill:shade(fill)}));
+    g.appendChild(E('path',{d:`M ${cx+w/2+18} ${cy-h/2-6} L ${cx+w/2} ${cy} L ${cx+w/2+18} ${cy+h/2+6} L ${cx+w/2+6} ${cy} Z`,fill:shade(fill)}));
+    g.appendChild(E('rect',{x:cx-w/2,y:cy-h/2,width:w,height:h,rx:4,fill:fill,filter:'url(#soft)'}));
+    const t=txt(cx,cy+5,label,{'text-anchor':'middle','font-size':14,'font-weight':800,'letter-spacing':1.5,fill:'#fff','font-family':'Poppins'});
+    g.appendChild(t);
+    add(g);
+  }
+  function shade(c){return c===CORAL_D?'#a84368':(c===STEEL?'#1257ad':'#15315C');}
+
+  // ---------- little data tag ----------
+  function tag(x,y,bg,fg,l1,l2){
+    const w=176,h=46;
+    const g=E('g',{});
+    g.appendChild(E('rect',{x:x-w/2,y:y-h/2,width:w,height:h,rx:9,fill:'#FFFFFF',stroke:bg,'stroke-width':1.6,filter:'url(#soft)'}));
+    g.appendChild(E('rect',{x:x-w/2,y:y-h/2,width:6,height:h,rx:3,fill:bg}));
+    g.appendChild(txt(x-w/2+18,y-3,l1,{'font-size':14,'font-weight':800,fill:bg,'font-family':'Poppins'}));
+    g.appendChild(txt(x-w/2+18,y+15,l2,{'font-size':12.5,'font-weight':500,fill:'rgba(21,49,92,.6)','font-family':'Poppins'}));
+    add(g);
+  }
+
+  // ---------- tiny hard-hat worker ----------
+  function worker(x,y,flip){
+    const g=E('g',{transform:`translate(${x} ${y}) scale(${flip?-1:1} 1)`});
+    g.appendChild(E('path',{d:'M -10 0 L -7 -16 L 7 -16 L 10 0 Z',fill:'#8AA0BE'}));         // body
+    g.appendChild(E('circle',{cx:0,cy:-22,r:6,fill:'#E8C9A0'}));                              // head
+    g.appendChild(E('path',{d:'M -8 -24 A 8 8 0 0 1 8 -24 Z',fill:'#1668C8'}));               // hard hat
+    g.appendChild(E('rect',{x:-9,y:-25,width:18,height:3,rx:1.5,fill:'#1668C8'}));
+    add(g);
+  }
+})();
+</script>
+</body>
+</html>

@@ -12,13 +12,28 @@
                 real data, the bespoke visual concept, the verbatim prompt, a worked example,
                 the honest limitation, the closing thesis. THIS is the "more context / dive deeper"
                 step — it replaces the Gemini prompt as the bridge.
-3. HTML/GSAP    assemble a self-contained template from the Shetty's component kit (renderer/):
-                bright luminous bg, constant coral thread, homogeneous palette, large tool logo,
+3. LAYOUT×3     run layout-select → 3 DISTINCT frameworks (3 patterns + 3 hero devices), one per variant.
+4. HTML/GSAP    assemble 3 self-contained templates (<ep>-v1/-v2/-v3.html) from the Shetty's component kit
+                (renderer/): bright luminous bg, homogeneous palette, large tool logo (AI-for-SC),
                 Shetty's Desk logo footer. GSAP available for animation (tool-to-tool flow posts).
-4a. STILL       node render.mjs templates/<ep>.html out/<ep>.png   (Playwright → 2160x2700 PNG)
-4b. ANIMATED    node render-anim.mjs templates/<ep>-anim.html out/<ep>   (→ <ep>.mp4 + <ep>.gif) [BUILT]
-5. CAPTION      the LinkedIn caption is written as today (voice files), independent of the visual.
+5a. STILL       node render.mjs templates/<ep>-vN.html out/<ep>-vN.png   (Playwright → 2160x2700 PNG), ×3
+5b. ANIMATED    node render-anim.mjs templates/<ep>-vN-anim.html out/<ep>-vN   (→ .mp4 + .gif) [BUILT]
+6. PICK 1       present all 3 renders → user picks one → copy it to the post's visual.png (keep all 3).
+7. CAPTION      the LinkedIn caption is written as today (voice files), independent of the visual.
 ```
+
+> **The 3-variant standard (2026-06-28).** Every post — 101 and AI-for-SC — renders **3 visually distinct
+> concepts** and the user picks one. The 3 must differ from each other in **layout framework AND hero
+> device** (three skeletons, not three colour swaps). This is the variety guarantee: no two posts lean on
+> the same default, because every post is chosen from a fresh trio. Keep all 3 templates + out PNGs on disk
+> (the unused two are the variety log + the seed for future posts on the topic).
+
+> **The craft layer (2026-06-28) → `references/premium-visual-craft.md`.** Picking the right framework is
+> half the job; rendering it to world-class is the other half. The craft file distils a research sweep
+> across SetProduct **Orion**, Visual Capitalist/FT/Economist, McKinsey/BCG/Gartner, and Eric Partaker into
+> the Orion design tokens, the house-style rules (title-as-claim · one accent + ghosting · direct labels ·
+> source band), the consulting slide-craft, and chart-styling CSS recipes. **Read it before building every
+> variant** — `layout-frameworks-intelligence.md` says *which* shape, this says *how to make it premium*.
 
 **Animation pipeline (built 2026-06-16).** The `-anim.html` variant adds GSAP: a paused master
 timeline exposed on `window.__tl` that reveals the elements in sequence (header → stat → blocks
@@ -108,6 +123,8 @@ Carry these into every future 101 + AI-for-SC template. The exemplar is `templat
 - **Unfold** (`*-anim.html`) — elements reveal in sequence; use only when the *sequence carries meaning* (a workflow assembling, a hand-off). Seamless loop via an in-timeline fade-out.
 - **Ambient orbit** (`*-path.html`) — the card stays fully static and readable while a small Claude mark drifts a dotted route **in the clear margins only** (never over content), now a calm **60s loop**. Use when you want motion to stop the scroll without the content moving.
 - A still PNG remains the default. Animation is opt-in per episode, declared in the render brief.
+
+> **AI-still backup lane (2026-06-29) → `references/ai-still-prompt-learnings.md`.** This file is the *code-render* (primary) playbook. When 101 falls back to the GPT Image 2 illustration lane instead, that lane now has its own learnings file — framework-first selection, the info-design-not-cinematography register, anchors-are-load-bearing, GPT Image 2 = 3:4, and the egress constraint (the user judges renders in-panel; the CDN output host is blocked here). Read it before writing any GPT Image 2 prompt.
 
 ## 4. The 101 question — REVISED 2026-06-21: 101 is now CODE-RENDER PRIMARY, ChatGPT (GPT Image 2) = backup
 **Supersedes the earlier "hard pass."** After perfecting the supplier-quote still (`sc101-quote-iso-towers.html`) to a consulting-grade standard — genuine 3D isometric towers + a Harvey-ball scorecard + a part-to-whole share bar + side callouts, all on the homogeneous Shetty's Desk frame — the code-render advantage proved just as decisive for 101 as for AI-for-SC: exact numbers, locked brand, real 3D depth, and the information density that makes a post save-worthy. **Decision: `/101` builds its infographic in `renderer/` (HTML→PNG) as the default**; the ChatGPT (GPT Image 2) prompt is retained in `101-copy.md` as the **backup** path (illustration fallback for a purely metaphorical concept post with no load-bearing structure). The earlier rationale (101 = "one big illustrative visual") was too narrow: 101 concepts argue a *shape* (a comparison, a funnel, a hierarchy) that code-render makes precisely, and the brand anchor was never as on-brand as the coded azure/eco system on white.

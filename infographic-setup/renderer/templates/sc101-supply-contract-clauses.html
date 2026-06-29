@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<!--
+  Supply Chain 101 · W27 (RW02) Post 1 — "What's in a supply contract: the 6 clauses that decide the relationship"
+  NEW FRAME (v2): a SLOPE / bump diagram. Left axis = clauses ranked by how hard teams negotiate them;
+  right axis = clauses ranked by how often they actually cause disputes. The connectors CROSS — Liability
+  dives top→bottom (coral), Scope climbs bottom→top (green). The crossing IS the contrarian thesis.
+  No AI-tool logo (101). Shetty's Desk brand frame, luminous on white.
+-->
+<style>
+  :root{
+    --azure:#2798FB; --sky:#50A9F7; --royal:#247BE1; --deep:#215DC3; --navy:#1939A5;
+    --eco:#38E6A6; --eco-text:#14B07E; --eco-deep:#0E8F66; --mint:#8FF3CC;
+    --coral:#E27199; --coral-deep:#cf5c84;
+    --ink:#15315C; --muted:#5D7599; --line:#DCEAF8; --tint:#E2F0FB; --tint2:#EEF6FE;
+    --eco-grad:linear-gradient(135deg,#8FF3CC,#38E6A6,#1FC98B);
+    --blue-grad:linear-gradient(135deg,#50A9F7,#215DC3,#1939A5);
+    --coral-grad:linear-gradient(135deg,#F0A0BC,#E27199,#cf5c84);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px}
+  #card{
+    width:1080px;height:1240px;position:relative;overflow:hidden;
+    font-family:"Poppins",system-ui,sans-serif;color:var(--ink);
+    background:
+      radial-gradient(ellipse 52% 32% at 88% 1%, rgba(56,230,166,.16) 0%, transparent 60%),
+      radial-gradient(ellipse 58% 38% at 3% 20%, rgba(39,152,251,.14) 0%, transparent 58%),
+      linear-gradient(180deg,#FFFFFF 0%,#F5FAFE 55%,#EAF3FD 100%);
+    padding:34px 40px 24px;display:flex;flex-direction:column;
+  }
+  .kicker{font-size:15px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--azure)}
+  h1{font-size:53px;font-weight:800;line-height:1.0;margin-top:10px;letter-spacing:-1px;color:var(--ink)}
+  h1 .g{background:var(--eco-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .rule{height:5px;width:100%;margin:14px 0 10px;border-radius:5px;
+    background:linear-gradient(90deg,var(--azure) 0%,var(--sky) 36%,rgba(80,169,247,0) 100%)}
+  .sub{font-size:19.5px;font-weight:400;color:var(--muted);max-width:1000px;line-height:1.34}
+  .sub b{color:var(--ink);font-weight:600}
+
+  /* column headers above the slope */
+  .axhead{display:flex;justify-content:space-between;margin-top:20px}
+  .axhead .ax{display:flex;align-items:center;gap:9px}
+  .axhead .ax .dot{width:13px;height:13px;border-radius:50%}
+  .axhead .ax .t{font-size:15px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;line-height:1.05}
+  .axhead .ax .t small{display:block;font-size:11.5px;font-weight:600;letter-spacing:.02em;text-transform:none;color:var(--muted);margin-top:2px}
+  .axhead .lft .dot{background:var(--coral-deep)} .axhead .lft .t{color:var(--coral-deep)}
+  .axhead .rgt{text-align:right;flex-direction:row-reverse}
+  .axhead .rgt .dot{background:var(--eco-deep)} .axhead .rgt .t{color:var(--eco-deep)}
+
+  /* slope diagram */
+  .slope{position:relative;width:1000px;height:600px;margin-top:6px}
+  .slope svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+  .node{position:absolute;height:50px;display:flex;align-items:center;gap:11px;
+    background:#fff;border:1px solid var(--line);border-radius:13px;padding:0 14px;
+    box-shadow:0 9px 20px rgba(20,50,100,.10);transform:translateY(-50%)}
+  .node.L{justify-content:flex-end;text-align:right}
+  .node .rk{width:30px;height:30px;border-radius:9px;flex:0 0 auto;display:flex;align-items:center;justify-content:center;
+    font-size:16px;font-weight:800;color:#fff;background:var(--blue-grad);box-shadow:0 5px 11px rgba(33,93,195,.28)}
+  .node .nm{font-size:16.5px;font-weight:700;color:var(--ink);line-height:1.05;white-space:nowrap}
+  .node.hot{border-width:2px}
+  .node.coral{border-color:#F0A6C0} .node.coral .rk{background:linear-gradient(135deg,#E689A8,#cf5c84)}
+  .node.green{border-color:#7FE9C2} .node.green .rk{background:linear-gradient(135deg,#3BDFA2,#0E9A6E)}
+  .node .tag{position:absolute;top:-15px;font-size:10px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;
+    padding:3px 9px;border-radius:999px;color:#fff;white-space:nowrap}
+  .node.coral .tag{background:linear-gradient(135deg,#E689A8,#cf5c84);right:8px}
+  .node.green .tag{background:linear-gradient(135deg,#3BDFA2,#0E9A6E);left:8px}
+
+  /* story callout chips sitting near the crossing */
+  .chip{position:absolute;width:220px;background:#fff;border:1px solid var(--line);border-radius:13px;
+    box-shadow:0 12px 26px rgba(20,50,100,.13);padding:11px 14px;z-index:6}
+  .chip .ch{font-size:12.5px;font-weight:800;letter-spacing:.03em;text-transform:uppercase;margin-bottom:3px}
+  .chip p{font-size:13px;font-weight:500;color:var(--muted);line-height:1.32}
+  .chip p b{color:var(--ink);font-weight:700}
+  .chip.c .ch{color:var(--coral-deep)} .chip.g .ch{color:var(--eco-deep)}
+
+  /* stat + insight */
+  .stat{margin-top:8px;display:flex;align-items:center;gap:18px;background:#fff;border:1px solid var(--line);
+    border-radius:16px;padding:16px 24px;box-shadow:0 12px 26px rgba(33,93,195,.08)}
+  .stat .big{font-size:46px;font-weight:800;line-height:1;letter-spacing:-1px;color:var(--coral-deep);flex:0 0 auto}
+  .stat .tx{font-size:16.5px;font-weight:500;color:var(--muted);line-height:1.3}
+  .stat .tx b{color:var(--ink);font-weight:700}
+  .stat .src{display:block;font-size:11.5px;font-weight:600;color:#90A2BC;margin-top:4px}
+
+  .insight{margin-top:14px;font-size:18.5px;font-weight:500;color:var(--ink);line-height:1.38;padding-left:17px;
+    border-left:5px solid var(--azure)}
+  .insight b{color:var(--eco-text);font-weight:700} .insight .px{color:var(--coral-deep);font-weight:700}
+
+  .footrule{margin-top:auto;height:3px;border-radius:3px;
+    background:linear-gradient(90deg,var(--azure),var(--eco) 55%,rgba(56,230,166,0) 100%)}
+  .foot{display:flex;align-items:center;justify-content:space-between;padding-top:14px}
+  .who img{height:72px;width:auto;display:block}
+  .sig{font-size:17.5px;font-weight:700;color:var(--ink);text-align:right;line-height:1.2}
+</style>
+</head>
+<body>
+<div id="card">
+  <div class="kicker">Supply Chain 101 · Procurement</div>
+  <h1>The clause you fight hardest<br>is rarely <span class="g">the one that bites.</span></h1>
+  <div class="rule"></div>
+  <div class="sub">A supply contract is six load-bearing clauses. Teams burn their energy on the <b>"if it all blows up"</b> clauses. The disputes land somewhere else entirely.</div>
+
+  <div class="axhead">
+    <div class="ax lft"><span class="dot"></span><span class="t">Fought hardest<small>energy in negotiation</small></span></div>
+    <div class="ax rgt"><span class="dot"></span><span class="t">Where it breaks<small>what actually causes disputes</small></span></div>
+  </div>
+
+  <div class="slope" id="slope"></div>
+
+  <div class="stat">
+    <span class="big">4</span>
+    <span class="tx">of the most-negotiated terms even make the list of the <b>most important</b> ones. The energy and the risk sit on different clauses.
+      <span class="src">WorldCC (formerly IACCM) · Most Negotiated vs Most Important Terms · dispute-source survey</span></span>
+  </div>
+
+  <div class="insight">Teams fight hardest over the clauses that insure against disaster. The disputes land on the ones that define what <b>"done"</b> means. Before you sign, read the clause nobody argued over.</div>
+
+  <div class="footrule"></div>
+  <div class="foot">
+    <div class="who"><img src="../assets/logos/shettys-desk-logo-2.png" alt="Shetty's Desk"></div>
+    <div class="sig">Poornajith Shetty</div>
+  </div>
+</div>
+
+<script>
+(function(){
+  // L = rank by negotiation energy (1 = fought hardest), R = rank by dispute frequency (1 = breaks most)
+  const clauses=[
+    {nm:'Liability & remedies', L:1, R:6, kind:'coral', tag:'Most negotiated'},
+    {nm:'Term & exit',          L:2, R:3, kind:'mid'},
+    {nm:'Price & indexation',   L:3, R:5, kind:'fade-c'},
+    {nm:'Quality & SLA',        L:4, R:4, kind:'flat'},
+    {nm:'Delivery & lead time', L:5, R:2, kind:'rise-g'},
+    {nm:'Scope & specification',L:6, R:1, kind:'green', tag:'Breaks most'},
+  ];
+  const W=1000, H=600;
+  const Lx=232, Rx=768;          // inner ends of the connector lines (where nodes attach)
+  const topY=40, rowH=(H-2*topY)/5;
+  const y=r=>topY+(r-1)*rowH;
+
+  const style={
+    coral:{stroke:'url(#gcoral)',  w:8, dot:'#cf5c84', glow:true},
+    green:{stroke:'url(#ggreen)',  w:8, dot:'#0E9A6E', glow:true},
+    'rise-g':{stroke:'#3BD49B',    w:4.5, dot:'#16B98A'},
+    'fade-c':{stroke:'#E9A3BC',    w:3.5, dot:'#cf5c84'},
+    mid:{stroke:'#9FB6D2',         w:3.5, dot:'#7C93AD'},
+    flat:{stroke:'#C7D5E8',        w:3,   dot:'#9DB1CC'},
+  };
+
+  const slope=document.getElementById('slope');
+  const NS='http://www.w3.org/2000/svg';
+  const svg=document.createElementNS(NS,'svg');svg.setAttribute('viewBox','0 0 '+W+' '+H);
+  svg.innerHTML=`<defs>
+    <linearGradient id="gcoral" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E689A8"/><stop offset="1" stop-color="#cf5c84"/></linearGradient>
+    <linearGradient id="ggreen" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0E9A6E"/><stop offset="1" stop-color="#3BDFA2"/></linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#1a2f5a" flood-opacity="0.12"/></filter>
+  </defs>`;
+  slope.appendChild(svg);
+
+  // draw connectors (heroes last so they sit on top)
+  const order=[...clauses].sort((a,b)=>{
+    const w=k=>(k==='coral'||k==='green')?2:(k==='rise-g'||k==='fade-c')?1:0; return w(a.kind)-w(b.kind);});
+  order.forEach(c=>{
+    const s=style[c.kind]; const y0=y(c.L), y1=y(c.R);
+    const dx=(Rx-Lx)*0.42;
+    const d=`M ${Lx} ${y0} C ${Lx+dx} ${y0} ${Rx-dx} ${y1} ${Rx} ${y1}`;
+    const p=document.createElementNS(NS,'path');
+    p.setAttribute('d',d);p.setAttribute('fill','none');
+    p.setAttribute('stroke',s.stroke);p.setAttribute('stroke-width',s.w);p.setAttribute('stroke-linecap','round');
+    if(s.glow)p.setAttribute('filter','url(#soft)');
+    svg.appendChild(p);
+    [[Lx,y0],[Rx,y1]].forEach(pt=>{
+      const ci=document.createElementNS(NS,'circle');
+      ci.setAttribute('cx',pt[0]);ci.setAttribute('cy',pt[1]);ci.setAttribute('r',s.glow?7:5.5);
+      ci.setAttribute('fill',s.dot);ci.setAttribute('stroke','#fff');ci.setAttribute('stroke-width',2.5);
+      svg.appendChild(ci);
+    });
+  });
+
+  // place node pills on both axes
+  const scale=H/600; // svg viewBox→px (square-ish; slope is 1000x600 css too)
+  function pill(side,c,rank){
+    const n=document.createElement('div');
+    const cls=c.kind==='coral'?'coral hot':c.kind==='green'?'green hot':'';
+    n.className='node '+side+' '+cls;
+    const yy=y(rank);
+    n.style.top=yy+'px';
+    if(side==='L'){n.style.right=(W-Lx+16)+'px';} else {n.style.left=(Rx+16)+'px';}
+    const rkSpan='<span class="rk">'+rank+'</span>';
+    const nmSpan='<span class="nm">'+c.nm+'</span>';
+    n.innerHTML=(side==='L')?(nmSpan+rkSpan):(rkSpan+nmSpan);
+    if(c.tag && ((side==='L'&&c.kind==='coral')||(side==='R'&&c.kind==='green'))){
+      const t=document.createElement('span');t.className='tag';t.textContent=c.tag;n.appendChild(t);
+    }
+    slope.appendChild(n);
+  }
+  clauses.forEach(c=>{pill('L',c,c.L);pill('R',c,c.R);});
+
+  // story chips near the crossing
+  function chip(kind,leftPx,topPx,head,html){
+    const d=document.createElement('div');d.className='chip '+kind;
+    d.style.left=leftPx+'px';d.style.top=topPx+'px';
+    d.innerHTML='<div class="ch">'+head+'</div><p>'+html+'</p>';
+    slope.appendChild(d);
+  }
+  chip('c', 388, 18, 'Liability dives',
+    'Fought hardest since <b>2007</b>, yet almost never where the dispute lands.');
+  chip('g', 388, 470, 'Scope climbs',
+    'Barely negotiated, but the <b>#1 dispute driver</b>, cited by ~3 in 4 teams.');
+})();
+</script>
+</body>
+</html>
