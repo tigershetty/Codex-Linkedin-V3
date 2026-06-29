@@ -212,3 +212,9 @@ DESIGN: crisp flat vector information graphic, generous whitespace, strong align
 ### Generation record 6 (The Mismatch — anchors back)
 - **Run**: 2026-06-29 · information-design framework · **4 white-bg anchors + logo** references (Perks `99601e58…`, Batteries `a5059fdd…`, EV-cutaway `079e1b1e…`, Renewable `6ccd9b76…`, logo `7c3fc954…` LAST) · 3:4 · 4K · quality high.
 - Prompt → `gpt_image_2` (quality high, resolution 4k) · job `fcc7cde6-e2cd-4a50-8385-1ac6d56b2c37` · 3:4.
+- **Read (2026-06-29):** Not chosen. Decision: **revert to Round 5 — the pillars/"Edifice" prompt — it read way better.** See LOCKED below.
+
+---
+
+## ✅ LOCKED VISUAL (2026-06-29) — Round 5 pillars prompt
+The chosen visual for this card (Episode 35) is the **Round 5 crisp pillars infographic** (six-column "Edifice", Liability scaffolded, Scope cracking — clean flat-dimensional, anchors + logo, no cinematography). The exact paste-ready prompt is the **"Prompt — GPT Image 2 (crisp infographic)"** block under *Round 5* above; references = 4 white-bg anchors + logo (`99601e58…`, `a5059fdd…`, `079e1b1e…`, `6ccd9b76…`, `7c3fc954…` LAST); aspect 3:4; quality high; resolution 4k. Heading "Everyone reinforces the wrong clause" is the locked hook and the caption's opening line. The Mismatch (Round 6) is shelved as a future-post seed.
