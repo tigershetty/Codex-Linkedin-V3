@@ -133,3 +133,26 @@ The rain (rising costs) is the one element in the warm caution accent; everythin
   - **Umbrella** (build #1) → job `02e84131-9f9e-4472-b63d-50c585ae0332` (864×1184).
   - **Who Carries the Weight** (build #2) → job `435942b6-fa2a-4f49-a2d4-c6307747ded0` (864×1184).
 - PNGs not committable (CDN egress-blocked) — judged in the Higgsfield panel.
+
+---
+
+## REWRITE (2026-06-29) — system-not-scene direction
+
+Umbrella / Boulder / "Who Carries the Weight" all rejected: they are metaphor *illustrations of figures*, which (a) drag the engine toward cartoon, (b) don't let you *see the risk boundary move*, and (c) are a scene, not a system. The "wow" references are one unified structure where a single element transforms. Two reworked frameworks below carry the pricing-models argument the same way the Ep35 pillars carried Post 1.
+
+### Framework C — "The Shifting Line" (lead pick)
+The concept is definitional: a cost overrun lands on the **supplier** (Fixed-Price), is **shared** (T&M), or lands on the **buyer** (Cost-Plus) — a boundary that slides. One form, one element moves. No fabricated numbers (it's WHO, not how-much).
+- Three identical horizontal bars stacked; each runs SUPPLIER (left) ↔ BUYER (right), split by one bold vertical line.
+- Fixed-Price → line hard right; T&M → line centre; Cost-Plus → line hard left.
+- A small "THE OVERRUN" wedge sits on each bar's dividing line — the single coral caution accent.
+- Heading: "When the cost moves, who absorbs it?"
+
+### Framework D — "The Risk Meter" (backup)
+One horizontal axis `SUPPLIER ◄———► BUYER`; the three models plotted as a descending staircase across it. Same logic, more "single striking gauge," less grid.
+
+### Generation record 6 (single ORIGINAL anchor — nano_banana_pro, both frameworks)
+- **Setup**: original brand anchor ALONE (`1d05cd74-6ff1-4619-9869-dfc4952cfc00`), style-only rule, 3:4. Logo approximated (composite real Logo 2 later if a Nano variant wins).
+- **Run**: 2026-06-29 · requested `nano_banana_pro` → **remapped to `nano_banana_2`** · 3:4 · **1k** (default — text soft; offer a 4k re-run if needed) · single reference.
+  - **Shifting Line** (Framework C) → job `363ee313-9b7e-434f-a70c-c17110e3b50e`.
+  - **Risk Meter** (Framework D) → job `8bf9171d-a9f7-4f8c-8b4c-07ba475bd7ec`.
+- PNGs not committable (CDN egress-blocked) — judged in the Higgsfield panel.
