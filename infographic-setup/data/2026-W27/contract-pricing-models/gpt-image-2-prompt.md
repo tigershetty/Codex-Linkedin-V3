@@ -96,3 +96,40 @@ The boulder (the overrun) is the one element in the warm caution accent; everyth
 - **Run**: 2026-06-29 · requested `nano_banana_2` → **ran `nano_banana_flash`** (backend remap, again) · 3:4 · **1k** (model default, not 4k) · 3 iterations · same 4 anchors + logo.
 - Jobs `76bbb7ab-65d2-49f1-abf5-13381b86c8f9`, `837f947b-bccf-47bf-beb7-fd14cb5beb92`, `70c5be8f-f501-4180-ac3e-05d06db5337d` (864×1184).
 - Purpose: test whether Nano renders the figures less cartoonish than GPT Image 2. Trade-off to watch: text fidelity at 1k on a text-heavy triptych. PNGs not committable (CDN egress-blocked) — judged in the Higgsfield panel.
+
+---
+
+## Framework A — "Umbrella in the Cost Storm" (visual metaphor, triptych)
+**Why:** the other shortlisted metaphor (build #1). Rain = rising costs; the umbrella = the contract. Who stays dry under the umbrella maps to who carries the risk. Same comparison title.
+
+### Prompt — (Umbrella, lean / style-stripped)
+Task: Create an infographic image for the summary below (after the rules).
+
+Rules: Use the attached image as a style reference only — follow it for style, aesthetics, colours and illustration technique. Do NOT copy or include any object, subject, scene, label or text from the reference image in the final image; take style only. Aspect ratio 3:4. Place a small Shetty's Desk wordmark logo in the bottom-left corner.
+
+TOPIC: Three ways to price a contract, and who carries the risk when a job runs over budget.
+
+CONCEPT: One repeated scene across three panels. Rain falls in every panel, labelled "RISING COSTS" — the unexpected extra costs when a job runs over. An umbrella stands for the contract. A BUYER and a SUPPLIER stand together in each panel; who the umbrella protects changes.
+
+LAYOUT: A triptych — three equal panels side by side, each with its pricing model named in bold caps at the top and a short caption at the bottom.
+- FIXED-PRICE: the SUPPLIER holds the umbrella fully over the BUYER. The buyer stays dry; the supplier stands out in the rain, getting soaked. Caption: "Supplier shields you. You pay a premium for that."
+- TIME & MATERIALS: the umbrella tilts between them; both are half in the rain. Caption: "You share the weather."
+- COST-PLUS: the BUYER stands with no umbrella, drenched in the rain; the SUPPLIER stays dry under their own cover. Caption: "Every extra cost rains on you."
+
+TEXT ON THE IMAGE:
+- Heading: "Fixed-Price vs Cost-Plus vs Time & Materials"
+- Subline: "When costs rise, who stays dry?"
+- Each panel's model name and caption as above.
+- The rain labelled "RISING COSTS"; the figures labelled "BUYER" and "SUPPLIER".
+- The Shetty's Desk logo, bottom-left.
+
+The rain (rising costs) is the one element in the warm caution accent; everything else stays in the brand's cool tones. Keep every word legible at phone size.
+
+---
+
+## Generation record 5 (single ORIGINAL anchor — Nano Banana 2, both metaphors)
+- **Change**: per request, dropped the 4 white-bg anchors + logo and used the **original brand anchor ALONE** (`brand-anchor-v1.webp` → media `1d05cd74-6ff1-4619-9869-dfc4952cfc00`), with the Rules block hardened to "style only — do NOT copy any object/subject/scene/label/text from the reference." Logo therefore approximated (no logo reference) — composite the real Logo 2 later if a Nano variant wins.
+- **Run**: 2026-06-29 · requested `nano_banana_2` → ran `nano_banana_flash` · 3:4 · 1k · single reference.
+  - **Umbrella** (build #1) → job `02e84131-9f9e-4472-b63d-50c585ae0332` (864×1184).
+  - **Who Carries the Weight** (build #2) → job `435942b6-fa2a-4f49-a2d4-c6307747ded0` (864×1184).
+- PNGs not committable (CDN egress-blocked) — judged in the Higgsfield panel.
