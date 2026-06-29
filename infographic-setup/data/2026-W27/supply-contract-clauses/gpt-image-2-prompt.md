@@ -60,3 +60,14 @@ DO NOT:
 - Include em dashes anywhere on the image. Replace with a comma or full stop.
 - Add source attribution, reference text, or footnote text anywhere.
 - Leave empty canvas space at the top, bottom, or sides.
+
+---
+
+## Generation record (Higgsfield · GPT Image 2 · anchor + logo)
+- **Run**: 2026-06-29 · model `gpt_image_2` · aspect `1:1` · resolution `2k` · quality `high` · 1 image · 2 references
+- Job `e1926913-d068-48ea-8fa9-723473f86c06` (2048×2048)
+- Image 1 (style) = anchor `brand-anchor-v1.webp`, imported as media `1d05cd74-6ff1-4619-9869-dfc4952cfc00`
+- Image 2 (logo) = `shettys-desk-logo-2.png`, imported as media `7c3fc954-26f2-466f-8419-6a52a9d9a67b`
+- Both imported server-side from the public Netlify deploy-preview URLs (egress workaround):
+  `…/infographic-setup/references/brand-anchor-v1.webp` and `…/renderer/assets/logos/shettys-desk-logo-2.png`
+- Renders in the Higgsfield panel; PNG could not be committed (CDN host blocked by session egress policy).
