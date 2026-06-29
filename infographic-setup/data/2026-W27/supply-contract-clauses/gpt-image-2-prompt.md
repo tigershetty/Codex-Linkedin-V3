@@ -24,3 +24,12 @@ TOP OF POSTER: a bold two-line headline in deep navy ink — "Six columns hold a
 BOTTOM OF POSTER: a thin azure-to-emerald horizontal rule, then a small footer — on the left "Source: WorldCC (IACCM) Most Negotiated / Most Important Terms · ICC Incoterms 2020", on the right a signature-style "Poornajith Shetty".
 
 COLOUR PALETTE: deep navy ink (#15315C) for all text; azure (#2798FB) and deep azure (#1668C8) for the scaffolding and structural accents; coral-pink (#E27199) used ONLY for the crack and caution elements; emerald green (#38E6A6) as a small positive accent in the bottom rule. White marble columns with cool blue-grey shadows. Generous clean white space, balanced symmetrical composition with one unmistakable focal contrast: an over-reinforced column next to a cracking one. Sharp, legible, correctly spelled text throughout.
+
+---
+
+## Generation record (Higgsfield · GPT Image 2)
+- **Run**: 2026-06-29 · model `gpt_image_2` (OpenAI GPT Image 2) · aspect `3:4` · resolution `2k` · quality `high` · 2 options
+- **Option A** — job `1178d5e3-3256-4290-9f1a-6331082266b5` (1744×2336)
+- **Option B** — job `7fb25026-623d-45fd-b394-3c0c5e862878` (1744×2336)
+- Both render in the Higgsfield panel. The PNGs live in the Higgsfield account; they could **not** be committed to the repo because the serving CDN host is blocked by this session's egress policy (proxy 403). To pull them in: download from Higgsfield and drop into this folder, or re-run from the prompt above.
+- To re-display: `job_display` with either id. To regenerate: re-run `generate_image` with `model='gpt_image_2'` and the prompt above.
