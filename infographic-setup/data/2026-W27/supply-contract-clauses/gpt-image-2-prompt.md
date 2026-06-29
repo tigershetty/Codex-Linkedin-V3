@@ -15,7 +15,7 @@
 
 Task: Create an infographic image for the summary below (after the rules).
 
-Rules: Two images are attached. Image 1 is a style reference only — use it for style, aesthetics, colours, lighting and illustration technique. Do not use any information, text, numbers or subject matter from it; use it only for inspiration. Image 2 is the Shetty's Desk logo — reproduce it exactly as given, do not restyle or relabel it, and place it small and clean in the bottom-left corner. Build a different layout for the structure from the summary below. Aspect ratio 1:1, resolution 2048x2048.
+Rules: Two images are attached. Image 1 is a style reference only — follow it directly for style, aesthetics, colours, tones, lighting and illustration technique. Take every colour and tone from that image; do not invent a palette and do not use any colour codes or hex values. Do not use any information, text, numbers or subject matter from it; use it only for inspiration. Image 2 is the Shetty's Desk logo — reproduce it exactly as given, do not restyle or relabel it, and place it small and clean in the bottom-left corner. Build a different layout for the structure from the summary below. Aspect ratio 1:1, resolution 2048x2048.
 
 TOPIC: The Six Clauses That Hold a Supply Contract
 THE QUESTION THIS ANSWERS: Teams negotiate liability the hardest, so why do most disputes start somewhere else?
