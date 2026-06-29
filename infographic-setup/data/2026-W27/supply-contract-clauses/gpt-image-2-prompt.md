@@ -71,3 +71,16 @@ DO NOT:
 - Both imported server-side from the public Netlify deploy-preview URLs (egress workaround):
   `…/infographic-setup/references/brand-anchor-v1.webp` and `…/renderer/assets/logos/shettys-desk-logo-2.png`
 - Renders in the Higgsfield panel; PNG could not be committed (CDN host blocked by session egress policy).
+
+---
+
+## Generation record 2 (white-bg multi-anchor experiment)
+- **Run**: 2026-06-29 · `gpt_image_2` · 1:1 · 2k · high · 1 image · **5 references (4 style + logo)**
+- Job `8efe0499-1484-46c9-8fed-adb4d391ce3e` (2048×2048)
+- Style anchors (white-bg eco-mobility pages, imported from Netlify preview `/_archive/eco-mobility/`):
+  - `3..webp` Perks → media `99601e58-92b7-4e0a-bb91-b09f8eaa98a2`
+  - `5.webp` Batteries → media `a5059fdd-7839-461e-944a-5e964163baa6`
+  - `6.webp` EV cutaway → media `079e1b1e-7bd2-44d7-b1c4-af52205a59d1`
+  - `8.webp` Renewable → media `6ccd9b76-1288-4c7b-bbc0-6ea41cfd303c`
+- Logo = `shettys-desk-logo-2.png` → media `7c3fc954-26f2-466f-8419-6a52a9d9a67b`
+- Purpose: fix the muddy colour from the deep-blue anchor (image 10) by switching to white-bg anchors; test 4–5 reference blending. PNG not committable (CDN egress-blocked).
