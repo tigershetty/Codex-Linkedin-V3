@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supplier Flexibility Matrix - Cobalt Control</title>
+<style>
+  :root {
+    --paper: #f3eddf;
+    --paper-2: #ebe2cf;
+    --ink: #1434d8;
+    --ink-2: #0c269f;
+    --grid: rgba(20, 52, 216, 0.105);
+    --line: rgba(20, 52, 216, 0.72);
+    --soft: rgba(20, 52, 216, 0.13);
+    --serif: Georgia, "Times New Roman", serif;
+    --sans: Arial, Helvetica, sans-serif;
+    --mono: "Courier New", monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #d1c7b7;
+  }
+
+  #card {
+    position: relative;
+    width: 1080px;
+    height: 1350px;
+    overflow: hidden;
+    color: var(--ink);
+    background-color: var(--paper);
+    background-image:
+      linear-gradient(var(--grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px),
+      radial-gradient(circle at 15% 10%, rgba(20, 52, 216, 0.08), transparent 28%),
+      radial-gradient(circle at 90% 22%, rgba(20, 52, 216, 0.06), transparent 30%);
+    background-size: 22px 22px, 22px 22px, 100% 100%, 100% 100%;
+    font-family: var(--sans);
+  }
+
+  .rail {
+    position: absolute;
+    inset: 26px;
+    border: 3px solid var(--ink);
+    pointer-events: none;
+  }
+
+  .tick {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-color: var(--ink);
+    pointer-events: none;
+  }
+
+  .tick.tl { top: 46px; left: 46px; border-top: 3px solid; border-left: 3px solid; }
+  .tick.tr { top: 46px; right: 46px; border-top: 3px solid; border-right: 3px solid; }
+  .tick.bl { bottom: 46px; left: 46px; border-bottom: 3px solid; border-left: 3px solid; }
+  .tick.br { bottom: 46px; right: 46px; border-bottom: 3px solid; border-right: 3px solid; }
+
+  .header {
+    position: absolute;
+    top: 76px;
+    left: 78px;
+    right: 78px;
+  }
+
+  h1 {
+    margin: 0;
+    font-family: var(--serif);
+    font-size: 103px;
+    line-height: 0.9;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: var(--ink-2);
+  }
+
+  .sub {
+    margin-top: 24px;
+    font-size: 29px;
+    line-height: 1.2;
+    color: var(--ink);
+  }
+
+  .matrix {
+    position: absolute;
+    left: 58px;
+    right: 58px;
+    top: 330px;
+    display: grid;
+    grid-template-columns: 180px 138px 138px 108px 138px 150px 112px;
+    grid-template-rows: 70px repeat(5, 111px);
+    border: 3px solid var(--ink);
+    background: rgba(243, 237, 223, 0.86);
+    box-shadow: 0 18px 0 rgba(20, 52, 216, 0.10);
+  }
+
+  .cell {
+    border-right: 2px solid var(--line);
+    border-bottom: 2px solid var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.02;
+    text-align: center;
+  }
+
+  .cell:nth-child(7n) { border-right: 0; }
+  .row-last { border-bottom: 0; }
+
+  .head {
+    background: var(--ink);
+    color: var(--paper);
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  .supplier {
+    justify-content: flex-start;
+    background: var(--ink);
+    color: var(--paper);
+    font-size: 26px;
+    padding-left: 20px;
+    text-align: left;
+  }
+
+  .bars {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 8px;
+    align-items: end;
+    height: 56px;
+  }
+
+  .bars i {
+    display: block;
+    width: 13px;
+    border: 2px solid var(--ink);
+    background: var(--paper);
+  }
+
+  .bars i.on { background: var(--ink); }
+  .bars i:nth-child(1) { height: 24px; }
+  .bars i:nth-child(2) { height: 32px; }
+  .bars i:nth-child(3) { height: 40px; }
+  .bars i:nth-child(4) { height: 48px; }
+  .bars i:nth-child(5) { height: 56px; }
+
+  .clock {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    border: 4px solid var(--ink);
+    border-radius: 50%;
+  }
+
+  .clock::before {
+    content: "";
+    position: absolute;
+    left: 25px;
+    top: 13px;
+    width: 4px;
+    height: 20px;
+    background: var(--ink);
+  }
+
+  .clock::after {
+    content: "";
+    position: absolute;
+    left: 25px;
+    top: 30px;
+    width: 17px;
+    height: 4px;
+    background: var(--ink);
+    transform: rotate(36deg);
+    transform-origin: left center;
+  }
+
+  .steps {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 6px;
+    align-items: end;
+    height: 54px;
+  }
+
+  .steps i {
+    width: 15px;
+    border: 2px solid var(--ink);
+    background: rgba(20, 52, 216, 0.08);
+  }
+
+  .steps i:nth-child(1) { height: 19px; background: var(--ink); }
+  .steps i:nth-child(2) { height: 28px; background: var(--ink); }
+  .steps i:nth-child(3) { height: 36px; }
+  .steps i:nth-child(4) { height: 45px; }
+  .steps i:nth-child(5) { height: 54px; }
+
+  .constraint {
+    display: grid;
+    gap: 10px;
+    width: 72px;
+  }
+
+  .constraint i {
+    height: 5px;
+    background: var(--ink);
+  }
+
+  .constraint i:nth-child(3) {
+    background: repeating-linear-gradient(90deg, var(--ink) 0 18px, transparent 18px 28px);
+  }
+
+  .check {
+    width: 48px;
+    height: 48px;
+    border: 4px solid var(--ink);
+    background: rgba(20, 52, 216, 0.03);
+  }
+
+  .flow {
+    position: absolute;
+    left: 58px;
+    right: 58px;
+    top: 986px;
+    height: 112px;
+    display: grid;
+    grid-template-columns: 1fr 70px 1fr 70px 1fr;
+    align-items: center;
+    border: 2px dashed var(--ink);
+    background: rgba(243, 237, 223, 0.72);
+  }
+
+  .node {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    gap: 10px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .node svg {
+    width: 48px;
+    height: 48px;
+    stroke: var(--ink);
+    stroke-width: 3;
+    fill: none;
+  }
+
+  .arrow {
+    height: 4px;
+    background: var(--ink);
+    position: relative;
+  }
+
+  .arrow::after {
+    content: "";
+    position: absolute;
+    right: -2px;
+    top: -10px;
+    border-left: 19px solid var(--ink);
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+  }
+
+  .verify {
+    position: absolute;
+    left: 58px;
+    right: 58px;
+    top: 1122px;
+    height: 70px;
+    border: 3px solid var(--ink);
+    display: grid;
+    grid-template-columns: 94px 1fr 86px;
+    align-items: center;
+    background: rgba(243, 237, 223, 0.86);
+  }
+
+  .shield {
+    width: 50px;
+    height: 58px;
+    margin-left: 28px;
+    background: var(--ink);
+    clip-path: polygon(50% 0, 92% 16%, 84% 74%, 50% 100%, 16% 74%, 8% 16%);
+    position: relative;
+  }
+
+  .shield::after {
+    content: "";
+    position: absolute;
+    left: 16px;
+    top: 18px;
+    width: 21px;
+    height: 12px;
+    border-left: 5px solid var(--paper);
+    border-bottom: 5px solid var(--paper);
+    transform: rotate(-45deg);
+  }
+
+  .verify-word {
+    font-family: var(--serif);
+    font-size: 42px;
+    text-align: center;
+  }
+
+  .question {
+    position: absolute;
+    left: 80px;
+    right: 80px;
+    top: 1212px;
+    font-family: var(--serif);
+    font-size: 46px;
+    line-height: 1;
+    text-align: center;
+    color: var(--ink-2);
+  }
+
+  .footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--mono);
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+  <main id="card" aria-label="Can This Supplier Absorb the Spike?">
+    <div class="rail"></div>
+    <div class="tick tl"></div>
+    <div class="tick tr"></div>
+    <div class="tick bl"></div>
+    <div class="tick br"></div>
+
+    <section class="header">
+      <h1>Can This Supplier<br>Absorb the Spike?</h1>
+      <div class="sub">Claude structures the matrix. You verify capacity.</div>
+    </section>
+
+    <section class="matrix" aria-label="Supplier flexibility matrix">
+      <div class="cell head"></div>
+      <div class="cell head">Volume<br>swing</div>
+      <div class="cell head">Response<br>time</div>
+      <div class="cell head">MOQ</div>
+      <div class="cell head">Constraint</div>
+      <div class="cell head">Confidence</div>
+      <div class="cell head">Verify</div>
+
+      <div class="cell supplier">Supplier A</div>
+      <div class="cell"><span class="bars"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></div>
+      <div class="cell"><span class="clock"></span></div>
+      <div class="cell"><span class="steps"><i></i><i></i><i></i><i></i><i></i></span></div>
+      <div class="cell"><span class="constraint"><i></i><i></i><i></i></span></div>
+      <div class="cell"><span class="bars"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></div>
+      <div class="cell"><span class="check"></span></div>
+
+      <div class="cell supplier">Supplier B</div>
+      <div class="cell"><span class="bars"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></div>
+      <div class="cell"><span class="clock"></span></div>
+      <div class="cell"><span class="steps"><i></i><i></i><i></i><i></i><i></i></span></div>
+      <div class="cell"><span class="constraint"><i></i><i></i><i></i></span></div>
+      <div class="cell"><span class="bars"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></div>
+      <div class="cell"><span class="check"></span></div>
+
+      <div class="cell supplier">Supplier C</div>
+      <div class="cell"><span class="bars"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></div>
+      <div class="cell"><span class="clock"></span></div>
+      <div class="cell"><span class="steps"><i></i><i></i><i></i><i></i><i></i></span></div>
+      <div class="cell"><span class="constraint"><i></i><i></i><i></i></span></div>
+      <div class="cell"><span class="bars"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span></div>
+      <div class="cell"><span class="check"></span></div>
+
+      <div class="cell supplier">Supplier D</div>
+      <div class="cell"><span class="bars"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span></div>
+      <div class="cell"><span class="clock"></span></div>
+      <div class="cell"><span class="steps"><i></i><i></i><i></i><i></i><i></i></span></div>
+      <div class="cell"><span class="constraint"><i></i><i></i><i></i></span></div>
+      <div class="cell"><span class="bars"><i class="on"></i><i></i><i></i><i></i><i></i></span></div>
+      <div class="cell"><span class="check"></span></div>
+
+      <div class="cell supplier row-last">Supplier E</div>
+      <div class="cell row-last"><span class="bars"><i class="on"></i><i></i><i></i><i></i><i></i></span></div>
+      <div class="cell row-last"><span class="clock"></span></div>
+      <div class="cell row-last"><span class="steps"><i></i><i></i><i></i><i></i><i></i></span></div>
+      <div class="cell row-last"><span class="constraint"><i></i><i></i><i></i></span></div>
+      <div class="cell row-last"><span class="bars"><i></i><i></i><i></i><i></i><i></i></span></div>
+      <div class="cell row-last"><span class="check"></span></div>
+    </section>
+
+    <section class="flow" aria-label="Claude to matrix to action">
+      <div class="node">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 9v46M13 20l19 12 19-12M13 44l19-12 19 12"/><circle cx="32" cy="9" r="5"/><circle cx="13" cy="20" r="5"/><circle cx="51" cy="20" r="5"/><circle cx="13" cy="44" r="5"/><circle cx="51" cy="44" r="5"/></svg>
+        <span>Claude</span>
+      </div>
+      <div class="arrow"></div>
+      <div class="node">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="12" width="44" height="40"/><path d="M10 26h44M10 39h44M24 12v40M39 12v40"/></svg>
+        <span>Matrix</span>
+      </div>
+      <div class="arrow"></div>
+      <div class="node">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="23"/><circle cx="32" cy="32" r="11"/><path d="M32 32l18-18M45 14h8v8"/></svg>
+        <span>Action</span>
+      </div>
+    </section>
+
+    <section class="verify">
+      <div class="shield"></div>
+      <div class="verify-word">Verify</div>
+      <div class="check"></div>
+    </section>
+
+    <div class="question">Which supplier would you call first?</div>
+    <footer class="footer">SHETTY'S DESK / AI FOR SUPPLY CHAIN</footer>
+  </main>
+</body>
+</html>

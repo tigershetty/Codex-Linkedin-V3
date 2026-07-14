@@ -1,0 +1,190 @@
+{
+  "mps-ticket": {
+    "box": [
+      281,
+      151,
+      569,
+      348
+    ],
+    "method": "registered-blue-source-highlight",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "bom-label": {
+    "box": [
+      300,
+      368,
+      550,
+      421
+    ],
+    "method": "registered-blue-source-highlight",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "net-on-hand": {
+    "box": [
+      236,
+      1035,
+      397,
+      1189
+    ],
+    "method": "registered-green-source-highlight",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "net-receipt": {
+    "box": [
+      437,
+      1035,
+      601,
+      1189
+    ],
+    "method": "registered-green-source-highlight",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "net-result": {
+    "box": [
+      640,
+      1035,
+      813,
+      1191
+    ],
+    "method": "registered-red-source-highlight",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "supply-make": {
+    "box": [
+      61,
+      1427,
+      289,
+      1535
+    ],
+    "method": "registered-blue-source-highlight",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "supply-buy": {
+    "box": [
+      286,
+      1427,
+      548,
+      1535
+    ],
+    "method": "registered-blue-source-highlight",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "supply-reschedule": {
+    "box": [
+      545,
+      1427,
+      790,
+      1535
+    ],
+    "method": "registered-blue-source-highlight",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "dist-bom": {
+    "box": [
+      27,
+      1551,
+      293,
+      1636
+    ],
+    "method": "registered-blue-source-highlight",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "dist-mps": {
+    "box": [
+      292,
+      1551,
+      542,
+      1636
+    ],
+    "method": "registered-blue-source-highlight",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "dist-mrp": {
+    "box": [
+      540,
+      1551,
+      818,
+      1636
+    ],
+    "method": "registered-blue-source-highlight",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "tray-housing": {
+    "box": [
+      10,
+      722,
+      216,
+      994
+    ],
+    "method": "registered-object-source-highlight"
+  },
+  "tray-motor": {
+    "box": [
+      238,
+      722,
+      450,
+      994
+    ],
+    "method": "registered-object-source-highlight"
+  },
+  "tray-bearings": {
+    "box": [
+      454,
+      722,
+      637,
+      994
+    ],
+    "method": "registered-object-source-highlight"
+  },
+  "tray-fasteners": {
+    "box": [
+      652,
+      722,
+      836,
+      994
+    ],
+    "method": "registered-object-source-highlight"
+  },
+  "net-gross": {
+    "box": [
+      35,
+      1028,
+      219,
+      1192
+    ],
+    "method": "registered-object-source-highlight"
+  }
+}

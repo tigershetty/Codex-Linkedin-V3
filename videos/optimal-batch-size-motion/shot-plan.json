@@ -1,0 +1,27 @@
+{
+  "project": "optimal-batch-size-motion",
+  "category": "asset-fusion-data-viz",
+  "durationSeconds": 7.4,
+  "source": "assets/visual.png",
+  "promise": "Follow one batch-size decision from EOQ inputs through cost, options, trade-offs, and planner verification.",
+  "assetStrategy": {
+    "base": "locked full-resolution approved PNG",
+    "motionAssets": "semantic alpha masks derived from actual source pixels",
+    "vectors": "geometry-bound signal dots and cost-trough guide only",
+    "forbidden": [
+      "opaque crop overlays",
+      "moving text",
+      "regenerated logos",
+      "approximate replacement panels"
+    ]
+  },
+  "beats": [
+    {"time": "0.00-0.35", "focus": "untouched visual"},
+    {"time": "0.35-1.55", "focus": "EOQ mathematical core"},
+    {"time": "1.35-3.00", "focus": "setup and holding cost converge at the trough"},
+    {"time": "2.80-4.35", "focus": "smaller, current, and larger batch options"},
+    {"time": "4.10-5.75", "focus": "four trade-off rows"},
+    {"time": "5.55-6.85", "focus": "five planner verification checks"},
+    {"time": "6.85-7.40", "focus": "resolve to untouched visual"}
+  ]
+}

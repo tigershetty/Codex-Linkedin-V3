@@ -14,6 +14,10 @@ a standard that survives an expert reading it. This skill guarantees that by mak
 > **Rule:** No hook, caption, prompt, or render is produced until a
 > `research-brief.md` exists for the slug and has cleared the quality gate below.
 > "Depth has to be high before we add anything on top of it."
+>
+> **Topic gate:** before research starts, the topic must have an audience segment
+> and score from `references/topic-selection-scorecard.md`. The calendar is a
+> candidate library, not automatic permission to build.
 
 ## Invoke
 ```
@@ -36,9 +40,12 @@ unless the user asks for a refresh.
 ---
 
 ## Step 1 — Frame the research questions
-Read the topic's plan row (`references/101-plan.md` or
-`references/ai-for-sc-plan-v2.md`) and the matching tracker. Write 1–3 scoped
-research questions:
+Read `references/audience-intelligence.md`,
+`references/topic-selection-scorecard.md`, the topic's plan row
+(`references/101-plan.md` or `references/ai-for-sc-plan-v2.md`) and the matching
+tracker. First write the topic qualification: audience segment, pain/desire,
+post promise, why now, Tiger authority, visual argument, and score. Then write
+1–3 scoped research questions:
 - **101:** one analyst is usually enough — the concept's definition, origin, the
   2–4 hard facts/benchmarks that can sit on the card, and the "so what."
 - **AI for SC:** split into **two parallel analysts** — (a) the **tool layer** (what
@@ -58,10 +65,13 @@ higher-reliability source), and write `data/{YYYY-W##}/{slug}/research-brief.md`
 using the schema below. Keep card-ready numbers **bold**. Keep the honesty ledger.
 
 ## Step 4 — Quality gate (before handing to the pipeline)
+- [ ] Audience segment and topic score are present?
+- [ ] Topic clears the 75/100 minimum, or the brief explicitly says "reframe/park"?
 - [ ] Every on-card / in-caption number has a named source and a reliability tag?
 - [ ] No figure stated as fact that the analyst flagged unverifiable?
 - [ ] Cross-checked against the plan — no duplication of another episode's angle?
-- [ ] A clear "so what" thesis the post can be built around?
+- [ ] A clear "so what" thesis and tension/trade-off the post can be built around?
+- [ ] Meeting-room or workflow use is explicit?
 - [ ] (AI for SC) tool-capability claims sourced to vendor docs, and the honest
       limit / "when NOT to use" captured?
 - [ ] Honesty ledger lists what could not be verified?
@@ -76,6 +86,16 @@ Only when this passes does `/101` / `/ai-for-sc` proceed to hooks.
 **Pipeline**: [101 | AI for SC] · **Week**: [YYYY-W##] · **Generated**: [date]
 **Standard**: consultant-grade, verified, reliability-tagged
 
+## 0. Topic Qualification
+- Audience segment:
+- Audience pain/desire:
+- Post promise:
+- Why now:
+- Tiger authority:
+- Visual argument:
+- Topic score:
+- Decision: build / reframe / park
+
 ## 1. Framing
 - The one idea this post teaches (coffee-clarity) · why it matters.
 
@@ -83,6 +103,15 @@ Only when this passes does `/101` / `/ai-for-sc` proceed to hooks.
 - [fact · number/definition · SOURCE · [reliability]] — mark CARD-READY vs CAPTION-SUPPORT.
 
 ## 3. The "so what" (save-worthy thesis)
+
+## 3b. Tension / Trade-off
+- What makes this interesting:
+- What people get wrong:
+- What a practitioner would push back on:
+
+## 3c. Meeting-Room / Workflow Use
+- When would someone use this post at work?
+- What decision, explanation, or artifact does it support?
 
 ## 4. Visual-data candidates
 - Which facts become which visual element (axis, tile, bar, delta, sparkline, heatmap).

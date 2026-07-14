@@ -17,7 +17,7 @@ shared 7-month calendar — see `references/master-calendar.md`.
 **What:** Weekly educational series breaking down SC fundamentals in plain language. Posts 1 + 2 of each week.
 **Audience:** experts AND non-practitioners.
 **Pipeline:** `/101 [topic]` → 10 hooks + caption + image prompt (single step, no gates).
-**Visual:** **ChatGPT (GPT Image 2)** — attach `brand-anchor-v1.webp` for style.
+**Visual:** **Visual Engine v2** — GPT Image 2 primary; use Cobalt Grid + selected reference images for style intelligence.
 **Voice:** plain language, metaphor-led, series framing. `references/101-voice.md` + `tiger-voice.md`.
 **Topic source:** `references/101-plan.md`. **Tracker:** `data/101-series-tracker.md`. **Output:** `101-copy.md`.
 
@@ -28,13 +28,14 @@ shared 7-month calendar — see `references/master-calendar.md`.
 **What:** Practical AI use cases for specific SC roles. Posts 3 + 4 of each week, same weekly theme.
 **Audience:** any SC role — the role is set by the use case (purchaser, planner, logistics coordinator, etc.).
 **Pipeline:** `/ai-for-sc [week] [use-case-slug]` → hooks + caption + render brief (+ optional PDF).
-**Visual:** **code-render** (`renderer/`) — deterministic HTML→PNG/GIF/MP4, no AI-image prompt.
+**Visual:** **Visual Engine v2** — GPT Image 2 primary for stills; code-render (`renderer/`) for deterministic HTML→PNG/GIF/MP4 backup, exact-data controls, and motion-ready layouts.
 **Voice:** practical, copy-paste ready. Loads `tiger-voice.md` + `references/published-voice.md` + `references/101-voice.md`.
-**Use-case source:** `references/ai-for-sc-plan-v2.md`. **Visual references:** `references/ai-for-sc-visual-dna.md` + `references/ai-for-sc-creative-intelligence.md` + `references/render-pilot-workflow.md`.
+**Use-case source:** `references/ai-for-sc-plan-v2.md`. **Visual references:** `references/visual-engine-v2.md` + `references/ai-for-sc-visual-dna.md` + `references/ai-for-sc-creative-intelligence.md` + `references/render-pilot-workflow.md`.
 **Tracker:** `data/ai-for-sc-series-tracker.md`. **Output:** `ai-for-sc-[use-case-slug].md` (+ `-pdf.md` if requested).
 
-**Non-negotiables:** hook names role + current limitation (real tool) + AI unlock; every post has a
-"When NOT to use AI" sentence; two posts/week use two different roles + two different AI tools.
+**Non-negotiables:** hook names role + current limitation (real tool) + AI unlock; every post captures the
+boundary / human decision point in the brief; the published caption leads with the tool artifact and workflow value;
+two posts/week use two different roles + two different AI tools.
 
 ---
 

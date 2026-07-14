@@ -8,17 +8,49 @@
  * USAGE:
  *   node render-anim.mjs templates/pf7-blueprint-draft-anim.html out/pf7-blueprint-draft
  *   (writes out/pf7-blueprint-draft.mp4 and out/pf7-blueprint-draft.gif)
+ *   Set FRAMES_DIR to keep project-specific QA frames out of the shared out/_frames directory.
  */
 import { pathToFileURL, fileURLToPath } from 'url';
 import { dirname, resolve } from 'path';
 import { createRequire } from 'module';
 import { execSync, spawnSync } from 'child_process';
-import { mkdirSync, rmSync, readdirSync } from 'fs';
+import { mkdirSync, rmSync } from 'fs';
 
 const require = createRequire(import.meta.url);
-const globalRoot = execSync('npm root -g').toString().trim();
-const { chromium } = require(globalRoot + '/playwright');
-const ffmpeg = require('ffmpeg-static');
+
+function loadPlaywright() {
+  const roots = [
+    process.env.PLAYWRIGHT_NODE_MODULES,
+    ...(process.env.NODE_PATH ? process.env.NODE_PATH.split(':') : []),
+  ].filter(Boolean);
+
+  try {
+    roots.push(execSync('npm root -g').toString().trim());
+  } catch {}
+
+  for (const root of roots) {
+    try {
+      return require(root + '/playwright');
+    } catch {}
+  }
+
+  return require('playwright');
+}
+
+function loadFfmpeg() {
+  if (process.env.FFMPEG_PATH) return process.env.FFMPEG_PATH;
+  try {
+    return execSync('command -v ffmpeg').toString().trim();
+  } catch {}
+  try {
+    const staticPath = require('ffmpeg-static');
+    if (staticPath) return staticPath;
+  } catch {}
+  throw new Error('ffmpeg not found. Install with `brew install ffmpeg` or set FFMPEG_PATH.');
+}
+
+const { chromium } = loadPlaywright();
+const ffmpeg = loadFfmpeg();
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const r = (p) => resolve(__dirname, p);
@@ -30,9 +62,13 @@ const FPS = Number(process.env.FPS ?? 25);
 const GIF_FPS = Number(process.env.GIF_FPS ?? 20);
 const GIF_W = Number(process.env.GIF_W ?? 600);
 const HOLD_S = Number(process.env.HOLD_S ?? 0);  // 0 = seamless loop (timeline fades out itself)
-const W = 1080, H = Number(process.env.H ?? 1600);  // viewport tall enough for any card (1400–1540)
+const W = Number(process.env.W ?? 1080);
+const H = Number(process.env.H ?? 1600);  // viewport tall enough for any card (1400–1540)
+const KEEP_FRAMES = process.env.KEEP_FRAMES === '1';
 
-const framesDir = r('out/_frames');
+const framesDir = process.env.FRAMES_DIR
+  ? resolve(process.cwd(), process.env.FRAMES_DIR)
+  : r('out/_frames');
 rmSync(framesDir, { recursive: true, force: true });
 mkdirSync(framesDir, { recursive: true });
 
@@ -76,11 +112,12 @@ run(['-y', '-framerate', String(FPS), '-i', `${framesDir}/f_%04d.png`,
 
 // GIF — downscaled, palette-optimised (matches the reference share format)
 const palette = `${framesDir}/palette.png`;
-run(['-y', '-i', `${framesDir}/f_%04d.png`, '-vf',
-     `fps=${GIF_FPS},scale=${GIF_W}:-1:flags=lanczos,palettegen=stats_mode=full`, palette]);
+run(['-y', '-framerate', String(FPS), '-i', `${framesDir}/f_%04d.png`, '-vf',
+     `fps=${GIF_FPS},scale=${GIF_W}:-1:flags=lanczos,palettegen=stats_mode=full`,
+     '-frames:v', '1', '-update', '1', palette]);
 run(['-y', '-framerate', String(FPS), '-i', `${framesDir}/f_%04d.png`, '-i', palette,
      '-lavfi', `fps=${GIF_FPS},scale=${GIF_W}:-1:flags=lanczos[x];[x][1:v]paletteuse=dither=bayer:bayer_scale=3`,
      '-loop', '0', r(outBase + '.gif')]);
 
-rmSync(framesDir, { recursive: true, force: true });
+if (!KEEP_FRAMES) rmSync(framesDir, { recursive: true, force: true });
 console.log('wrote', outBase + '.mp4', 'and', outBase + '.gif');

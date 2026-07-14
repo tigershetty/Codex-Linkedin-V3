@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supplier Flexibility Matrix - Studio Overlay</title>
+<link rel="stylesheet" href="../assets/fonts.css">
+<style>
+  :root {
+    --paper: #F0EBDE;
+    --paper-2: #E6E0CE;
+    --ink: #1F2BE0;
+    --soft: #5560E5;
+    --orange: #D86A18;
+    --serif: Georgia, "Times New Roman", serif;
+    --sans: "Poppins", Arial, sans-serif;
+    --mono: "JetBrains Mono", "Courier New", monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #c9c1b5;
+  }
+
+  #card {
+    position: relative;
+    width: 1080px;
+    height: 1350px;
+    overflow: hidden;
+    color: var(--ink);
+    background: var(--paper);
+    font-family: var(--sans);
+  }
+
+  .base {
+    position: absolute;
+    left: 0;
+    top: -76px;
+    width: 1080px;
+    height: auto;
+    z-index: 0;
+  }
+
+  .shade {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background:
+      linear-gradient(180deg, rgba(240,235,222,0.12) 0 20%, transparent 34% 78%, rgba(240,235,222,0.04) 100%),
+      linear-gradient(90deg, rgba(240,235,222,0.10), transparent 18%, transparent 82%, rgba(240,235,222,0.10));
+  }
+
+  .header {
+    position: absolute;
+    z-index: 4;
+    left: 54px;
+    right: 212px;
+    top: 58px;
+  }
+
+  .kicker {
+    margin-bottom: 12px;
+    font-family: var(--mono);
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin: 0;
+    font-family: var(--serif);
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 0.91;
+    letter-spacing: 0;
+  }
+
+  h1 span {
+    display: block;
+    white-space: nowrap;
+  }
+
+  .sub {
+    margin-top: 14px;
+    color: var(--soft);
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .connectors {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .label-card {
+    position: absolute;
+    z-index: 5;
+    width: 204px;
+    min-height: 76px;
+    padding: 10px 12px 10px 13px;
+    border: 2px solid var(--ink);
+    background: rgba(240,235,222,0.92);
+    box-shadow: 0 0 0 5px rgba(240,235,222,0.42);
+  }
+
+  .label-card .num {
+    display: inline-grid;
+    width: 28px;
+    height: 28px;
+    place-items: center;
+    margin-right: 8px;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1;
+  }
+
+  .label-card h2 {
+    display: inline;
+    margin: 0;
+    font-family: var(--serif);
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 0.95;
+    vertical-align: -2px;
+  }
+
+  .label-card .action {
+    display: block;
+    width: max-content;
+    margin-top: 9px;
+    padding: 5px 8px 5px;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--mono);
+    font-size: 11px;
+    line-height: 1;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  .label-card.risk {
+    border-color: rgba(31,43,224,0.86);
+    background:
+      repeating-linear-gradient(135deg, rgba(31,43,224,0.10) 0 6px, rgba(240,235,222,0.92) 6px 13px),
+      rgba(240,235,222,0.92);
+  }
+
+  .label-card.risk .num,
+  .label-card.risk .action {
+    background: #5A5B63;
+  }
+
+  .a { left: 18px; top: 530px; }
+  .b { left: 8px; top: 790px; }
+  .c { right: 30px; top: 620px; }
+  .d { left: 8px; top: 1000px; }
+  .e { right: 0; top: 862px; }
+
+  .criteria {
+    position: absolute;
+    z-index: 5;
+    left: 54px;
+    right: 54px;
+    bottom: 126px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+
+  .criterion {
+    min-height: 54px;
+    display: grid;
+    grid-template-columns: 32px 1fr;
+    align-items: center;
+    gap: 10px;
+    border-top: 2px solid var(--ink);
+    border-bottom: 2px solid var(--ink);
+    background: rgba(240,235,222,0.82);
+    padding: 0 10px;
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1.12;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .criterion svg {
+    width: 28px;
+    height: 28px;
+    stroke: var(--ink);
+    stroke-width: 2.5;
+    fill: none;
+  }
+
+  .decision {
+    position: absolute;
+    z-index: 5;
+    left: 170px;
+    right: 170px;
+    bottom: 72px;
+    display: grid;
+    place-items: center;
+    min-height: 44px;
+    background: rgba(240,235,222,0.88);
+    border-top: 2px solid var(--ink);
+    border-bottom: 2px solid var(--ink);
+    font-family: var(--serif);
+    font-size: 35px;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .footer {
+    position: absolute;
+    z-index: 6;
+    left: 54px;
+    right: 54px;
+    bottom: 22px;
+    height: 38px;
+    display: grid;
+    grid-template-columns: 42px 1fr auto;
+    align-items: center;
+    gap: 14px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+  }
+
+  .footer img {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+  }
+
+  .footer span {
+    background: rgba(240,235,222,0.72);
+  }
+</style>
+</head>
+<body>
+  <main id="card" aria-label="Can This Supplier Absorb the Spike?">
+    <img class="base" src="../assets/generated/supplier-flexibility-studio-base-v1.png" alt="">
+    <div class="shade" aria-hidden="true"></div>
+
+    <section class="header">
+      <div class="kicker">AI FOR SUPPLY CHAIN / STRESS TEST</div>
+      <h1><span>Can This Supplier</span><span>Absorb the Spike?</span></h1>
+      <div class="sub">Claude structures the matrix. You verify capacity.</div>
+    </section>
+
+    <svg class="connectors" viewBox="0 0 1080 1350" aria-hidden="true">
+      <defs>
+        <marker id="dot" markerWidth="8" markerHeight="8" refX="4" refY="4">
+          <circle cx="4" cy="4" r="3.5" fill="#1F2BE0"></circle>
+        </marker>
+      </defs>
+      <g fill="none" stroke="#1F2BE0" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" opacity="0.95" marker-end="url(#dot)">
+        <path d="M222 572 L318 572 L360 608"></path>
+        <path d="M212 830 L268 830 L314 882"></path>
+        <path d="M856 660 L790 660 L740 706"></path>
+        <path d="M212 1040 L272 1040 L350 1086"></path>
+        <path d="M874 902 L812 902 L744 956"></path>
+      </g>
+    </svg>
+
+    <section class="label-card a" aria-label="Supplier A">
+      <span class="num">01</span><h2>Supplier A</h2>
+      <span class="action">Call first</span>
+    </section>
+
+    <section class="label-card b" aria-label="Supplier B">
+      <span class="num">02</span><h2>Supplier B</h2>
+      <span class="action">Backup</span>
+    </section>
+
+    <section class="label-card c" aria-label="Supplier C">
+      <span class="num">03</span><h2>Supplier C</h2>
+      <span class="action">Backup</span>
+    </section>
+
+    <section class="label-card risk d" aria-label="Supplier D">
+      <span class="num">04</span><h2>Supplier D</h2>
+      <span class="action">Watch risk</span>
+    </section>
+
+    <section class="label-card risk e" aria-label="Supplier E">
+      <span class="num">05</span><h2>Supplier E</h2>
+      <span class="action">Watch risk</span>
+    </section>
+
+    <section class="criteria" aria-label="Flexibility criteria">
+      <div class="criterion">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 24V14M13 24V9M20 24V17M27 24V6"></path><path d="M4 25h24"></path></svg>
+        <span>Volume<br>swing</span>
+      </div>
+      <div class="criterion">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="10"></circle><path d="M16 8v8l6 3"></path></svg>
+        <span>Response<br>time</span>
+      </div>
+      <div class="criterion">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 5l10 6v11l-10 6-10-6V11z"></path><path d="M6 11l10 6 10-6M16 17v11"></path></svg>
+        <span>MOQ</span>
+      </div>
+      <div class="criterion">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M12.5 19.5l7-7"></path><path d="M13 10l-3 3a6 6 0 0 0 8.5 8.5l2-2"></path><path d="M19 22l3-3a6 6 0 0 0-8.5-8.5l-2 2"></path></svg>
+        <span>Constraint</span>
+      </div>
+      <div class="criterion">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4l10 4v7c0 7-4 11-10 13C10 26 6 22 6 15V8z"></path><path d="M11 16l3 3 7-8"></path></svg>
+        <span>Confidence</span>
+      </div>
+    </section>
+
+    <div class="decision">Which supplier would you call first?</div>
+
+    <footer class="footer">
+      <img src="../assets/logos/shettys-desk-logo-2.png" alt="">
+      <span>SHETTY'S DESK / AI FOR SUPPLY CHAIN</span>
+      <span>2026-W28</span>
+    </footer>
+  </main>
+</body>
+</html>

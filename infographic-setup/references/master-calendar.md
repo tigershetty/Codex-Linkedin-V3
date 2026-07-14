@@ -24,12 +24,16 @@ There are **two kinds of "week"** and keeping them separate is what stops the dr
 Each Run Week = **4 posts** on **one theme**: 2 × Supply Chain 101 (the concept) + 2 × AI for SC (the workflow).
 
 ```
-1.  Open this file → find the current Run Week row → note its slugs + commands.
-2.  /101 [slug]                     → Post 1 + Post 2  (concept)         → data/{ISO-week}/{slug}/101-copy.md
-3.  /ai-for-sc W[PW] [slug]         → Post 3 + Post 4  (AI workflow)     → data/{ISO-week}/{slug}/ai-for-sc-{slug}.md
-4.  Render the visual (pick the lane): code-render PNG (/renderer) · animated GIF (HyperFrames) · AI still (Higgsfield)
-5.  Post on LinkedIn → tick the box in this file → /feedback [slug]
-6.  After analytics export: /analytics [slug]
+1.  Open this file → find the current Run Week row → treat its slugs as candidates.
+2.  Run a weekly signal scan (`templates/weekly-signal-scan-template.md`) and score the topic candidates (`references/topic-selection-scorecard.md`).
+3.  Apply the top-100 reference gate (`references/top100-reference-intelligence.md`): define the power format, caption promise, stop-scroll value, save trigger, and Shetty's Desk originality layer.
+4.  /101 [slug]                     → Post 1 + Post 2  (concept)         → data/{ISO-week}/{slug}/101-copy.md
+5.  /ai-for-sc W[PW] [slug]         → Post 3 + Post 4  (AI workflow)     → data/{ISO-week}/{slug}/ai-for-sc-{slug}.md
+6.  Create the Creative Engine v3 brief (`templates/creative-brief-lite-template.md`) and compile/preflight the GPT Image 2 prompt with `node scripts/compile-gpt-image-prompt.mjs data/{ISO-week}/{slug}`.
+7.  Render the visual via Visual Engine v2: GPT Image 2 primary · HTML/code-render backup/control (`/renderer`) · animated GIF/MP4 only when motion improves the argument
+8.  Review the output (`templates/visual-output-review-template.md`) and run `node scripts/audit-visual-package.mjs data/{ISO-week}/{slug}`
+9.  Post on LinkedIn → tick the box in this file → /feedback [slug]
+10. After analytics export: /analytics [slug]
 ```
 
 > **Cadence is yours.** The table assumes one Run Week per real calendar week, but the only thing that matters is order. Behind? Just keep going down the rows — the dates are a guide, the sequence is the contract.
@@ -56,7 +60,7 @@ Legend: ☐ to do · ◐ drafted · ✅ posted
 |---|---|---|---|---|---|---|---|---|
 | **RW01** | **Jun 22–28** | `2026-W26` | Procurement | Supplier eval + buying strategy | ✅ Compare supplier quotes `compare-supplier-quotes`<br>➕ Kraljic matrix `kraljic-matrix` | ✅ Procurement funnel (100→1) `procurement-funnel`<br>➕ Make-vs-buy `make-vs-buy` | ◐ Ep05 · Cat. Mgr × Copilot · Supplier scorecard for QBRs `supplier-scorecard-qbr` | ◐ Ep06 · Purchaser × Claude · Price-increase counter-args `price-increase-counterargs` |
 | RW02 | Jun 29–Jul 5 | `2026-W27` | Procurement | Contract management | ☐ Anatomy of a supply contract (6 clauses) `supply-contract-clauses` | ☐ Fixed-price vs cost-plus vs T&M (who carries the risk) `contract-pricing-models` | ☐ Ep07 · Purchaser × Claude · Maverick spend analysis | ☐ Ep08 · Cat. Mgr × ChatGPT · TCO across 3 quotes |
-| RW03 | Jul 6–12 | `2026-W28` | Procurement | Supplier performance | ☐ Supplier concentration risk | ☐ Supplier performance review | ☐ Ep09 · Supply Planner × Claude · Supplier flexibility matrix | ☐ Ep10 · Cat. Mgr × Gemini · Supplier risk profile |
+| RW03 | Jul 6–12 | `2026-W28` | Procurement | Supplier performance | ☐ The 3 suppliers that can stop your company `supplier-concentration-risk` | ☐ Why supplier reviews change nothing `supplier-review-failure` | ☐ Ep09 · Supply Planner × Claude · Supplier flexibility matrix `supplier-flexibility-matrix` | ☐ Ep10 · Cat. Mgr × Gemini · Supplier risk profile `supplier-risk-profile` |
 | RW04 | Jul 13–19 | `2026-W29` | Production Planning | Demand forecasting | ☐ How demand forecasting works | ☐ Demand plan vs. forecast | ☐ Ep11 · Demand Planner × Claude · Demand decomposition | ☐ Ep12 · S&OP Analyst × Copilot · Demand review dashboard |
 | RW05 | Jul 20–26 | `2026-W30` | Production Planning | Production planning | ☐ What is a production plan | ☐ Scheduling horizon (frozen/slushy/liquid) | ☐ Ep13 · Prod. Planner × Claude · Sequence to cut changeover | ☐ Ep14 · Supply Planner × ChatGPT · Optimal batch size (EOQ) |
 | RW06 | Jul 27–Aug 2 | `2026-W31` | Production Planning | MPS | ☐ MPS as a production commitment | ☐ BOM ↔ MPS connection | ☐ Ep15 · Supply Planner × Claude · Sensing vs. monthly SKUs | ☐ Ep16 · Demand Planner × ChatGPT · Forecast value-add (FVA) |
@@ -70,6 +74,8 @@ Legend: ☐ to do · ◐ drafted · ✅ posted
 > `/ai-for-sc` takes the **Plan Week** number. RW01 → `PW23` → run `/ai-for-sc W23`. The PW for each row = PW22 + RW number (RW01=PW23, RW02=PW24 … RW12=PW34).
 
 > **RW01 101 refresh (2026-06-21):** Compare-quotes + Funnel were published first; the 101 pair was then refreshed with two genuinely-different, sourced procurement topics built on the new research-first standard — **Kraljic matrix** (Ep35) and **Make-vs-buy** (Ep36). All four RW01 cards now use **Logo 2**; the AISC pair (Ep05/Ep06) was rebuilt with new visual models + the research engine. See each slug's `research-brief.md`.
+
+> **RW03 source rebuild (2026-06-30):** The supplier-performance week now has a weekly signal scan and scored content briefs under `data/2026-W28/`. Use `_editorial/weekly-signal-scan.md` + each slug's `content-brief-v2.md` before research or visual work.
 
 ---
 
@@ -104,6 +110,11 @@ The content banks run through PW52. Same loop, same mapping (RW## → PW = RW+22
 ## Pointers
 - **101 topics** → `references/101-plan.md` (Monthly Theme Model section, keyed by Plan Week)
 - **AI for SC use cases** → `references/ai-for-sc-plan-v2.md` (keyed by Plan Week, Episode Index at the bottom)
+- **Audience + topic gate** → `references/audience-intelligence.md` · `references/topic-selection-scorecard.md` · `references/top100-reference-intelligence.md`
+- **Calendar-to-reference map** → `references/calendar-reference-adaptation-map-v1.md`
+- **Creative QA engine** → `references/creative-engine-v3-lean.md`
+- **Audit / rebuild rationale** → `references/content-engine-audit-v1.md`
+- **RW03-RW12 rebuild layer** → `references/editorial-rebuild-next-12-weeks.md`
 - **Trackers** → `data/101-series-tracker.md` · `data/ai-for-sc-series-tracker.md`
 - **Voice** → `tiger-voice.md` (root) + `references/101-voice.md` + `references/published-voice.md`
-- **Render** → `renderer/README.md` (code-render) · HyperFrames skills (`/motion-graphics`) · Higgsfield MCP (AI still)
+- **Render** → `visual-engine-v2.md` (GPT Image 2 primary + HTML control lane) · `renderer/README.md` (code-render backup/control) · HyperFrames skills (`/motion-graphics`) when motion is needed

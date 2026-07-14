@@ -1,15 +1,15 @@
 # Shetty's Desk — Infographic Renderer & Production Playbook
-**Created**: 2026-06-15 · **Status**: Active. Read this before building or generating any infographic template.
+**Created**: 2026-06-15 · **Status**: Active deterministic control and motion renderer. Read `../references/visual-engine-v2.md` first.
 **Companion docs**: `../memory/visual-benchmarks/top100-visual-dna.md` (the 100-image analysis: 10 laws, 8 power formats, subject→format selector) · `../references/layout-frameworks-intelligence.md` (which framework) · **`../references/premium-visual-craft.md` (how to make any framework world-class — the Orion design tokens, data-journalism house style, consulting slide-craft, chart-styling CSS recipes; read it before every build).** This file is the *production* layer — how we actually build them.
 
 ---
 
 ## 0. What this is
-A **deterministic HTML → PNG renderer** for Shetty's Desk LinkedIn infographics. We write a self-contained HTML template, and Playwright/Chromium screenshots it at exact pixels. Text and numbers are rendered by code (never hallucinated by an image model), so every output is precise, on-brand, and reproducible.
+A **deterministic HTML → PNG/GIF/MP4 renderer** for Shetty's Desk LinkedIn infographics. We write a self-contained HTML template, and Playwright/Chromium screenshots it at exact pixels. Text and numbers rendered by code stay precise and reproducible.
 
-**Why code-render over a prompt:** structured posts (ladders, hubs, comparisons, KPI/formula cards, tables) need exact numbers, brand-locked layout, and clean geometry. An image model stays as a fallback only for illustration/metaphor posts where exact data is not load-bearing.
+**Current role:** GPT Image 2 is the primary creative still renderer under Visual Engine v2. Use this renderer for HTML control images, exact-data final art, and the Motion Engine v1 finishing lane.
 
-**Both pipelines now code-render (2026-06-21).** AI for SC has always rendered from code; **Supply Chain 101 is now code-render primary too** (the ChatGPT GPT Image 2 prompt is its backup path). 101 templates carry **no AI-tool logo** and use the accessible 101 register; otherwise they share this exact kit and brand frame.
+The 2026-06-21 code-render-primary decision is superseded. Both active pipelines are GPT Image 2-first for creative stills; code render remains a maintained precision tool.
 
 ---
 
@@ -27,10 +27,52 @@ npx playwright install chromium
 node render.mjs
 # render one
 node render.mjs templates/pf1-maturity-ladder.html out/pf1-maturity-ladder.png
+
+# render the approved EOQ delayed-reveal composition → MP4 + optimized GIF
+env W=1003 H=1568 FPS=30 GIF_FPS=20 GIF_W=720 HOLD_S=0 \
+  node render-anim.mjs ../../videos/optimal-batch-size-motion/compositions/delayed-reveal.html \
+  ../data/2026-W30/optimal-batch-size-decision-board/visual-motion-delayed-reveal-v2
+
+# if Playwright is available from a bundled runtime instead of npm -g
+PLAYWRIGHT_NODE_MODULES=/path/to/node_modules node render.mjs templates/x.html out/x.png
 ```
-- Playwright is used via the **global** install (resolved by absolute path inside `render.mjs`) — no repo dependency. `node_modules/` is gitignored.
+- Playwright is resolved from `PLAYWRIGHT_NODE_MODULES`, then `NODE_PATH`, then the global install — no repo dependency. `node_modules/` is gitignored.
 - Output is `#card` screenshotted at `deviceScaleFactor: 2` → **2160×2700** PNG from a **1080×1350** layout.
 - `render.mjs` resolves `templates/` and `out/` relative to itself, so cwd does not matter — but call it with the absolute path if your shell cwd has drifted.
+
+### 1a. Motion poster lane — approved static → GIF/MP4
+
+Use this for picture-first LinkedIn GIFs where the approved visual stays intact.
+Read `../references/motion-engine-v1.md` before building. The active pipeline is:
+
+`visual.png` -> post-specific motion brief -> semantic component map -> masks/covers/highlights -> HTML/SVG/GSAP timeline -> Playwright frames -> FFmpeg MP4 + GIF.
+
+Rules:
+- Keep the approved `visual.png` as the locked background.
+- Map components from the actual layout and reading order.
+- Use semantic masks for clean color elements, fitted cover plates for object cards, and whole-component reveals for integrated charts or 3D scenes.
+- Use source-derived highlights and restrained SVG signals only as support.
+- Do not move body text, rewrite labels, or regenerate logos in the motion layer.
+- Never animate raw rectangular crops; they carry neighboring pixels, shadows, and background into collisions.
+- Inspect the fully cleared/reset state at source resolution before final rendering.
+- Require pixel-identical opening and closing lossless frames.
+- Export MP4 as the fallback even when the publishing intent is GIF.
+
+For the approved EOQ reference implementation, see:
+- `../../videos/optimal-batch-size-motion/README.md`
+- `../../videos/optimal-batch-size-motion/build_motion_masks.py`
+- `../../videos/optimal-batch-size-motion/compositions/delayed-reveal.html`
+- `../../videos/optimal-batch-size-motion/shot-plan-delayed-reveal.json`
+
+Initialize a new post-specific project after `visual.png` is approved:
+
+```bash
+cd ..
+node scripts/init-motion-project.mjs data/{week}/{slug}
+```
+
+Use `FRAMES_DIR=../../videos/{slug}-motion/qa/frames` with
+`KEEP_FRAMES=1` for project-specific QA evidence.
 
 ---
 

@@ -1,0 +1,58 @@
+{
+  "source": "visual.png",
+  "sourceSize": {
+    "width": 1003,
+    "height": 1568
+  },
+  "output": {
+    "width": 1003,
+    "height": 1568,
+    "durationSeconds": 6,
+    "fps": 24,
+    "gifWidth": 720
+  },
+  "layers": {
+    "formula": {
+      "box": [304, 333, 697, 454],
+      "motion": "glow-draw",
+      "purpose": "Make the mathematical core the first read without changing the approved formula."
+    },
+    "costCurve": {
+      "box": [281, 671, 732, 984],
+      "motion": "curve-trace",
+      "purpose": "Show setup burden and holding exposure resolving into the batch-size trough."
+    },
+    "tradeOffCheck": {
+      "box": [184, 1010, 778, 1262],
+      "motion": "row-scan",
+      "purpose": "Turn the lower table into the decision review, not decoration."
+    },
+    "verifyStrip": {
+      "box": [172, 1281, 835, 1417],
+      "motion": "check-sequence",
+      "purpose": "Close with the planner verification gates."
+    },
+    "batchOptions": [
+      {
+        "name": "smallerBatch",
+        "box": [763, 354, 987, 557],
+        "motion": "decision-pulse"
+      },
+      {
+        "name": "currentBatch",
+        "box": [763, 576, 987, 776],
+        "motion": "decision-pulse"
+      },
+      {
+        "name": "largerBatch",
+        "box": [763, 789, 987, 1008],
+        "motion": "decision-pulse"
+      }
+    ],
+    "brandPlacard": {
+      "box": [355, 1413, 679, 1490],
+      "motion": "quiet-brand-pulse",
+      "purpose": "Keep the sign-off premium and restrained."
+    }
+  }
+}

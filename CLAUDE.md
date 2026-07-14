@@ -1,12 +1,12 @@
 # Shetty's Desk — LinkedIn-V2 Workspace
 
 LinkedIn supply chain content engine for Tiger Shetty's "Shetty's Desk" brand.
-Version-controlled for remote Claude Code access (web/mobile).
+Version-controlled for remote Codex access (web/mobile).
 
 ## Repo Map
 | Path | Status | Purpose |
 |---|---|---|
-| `infographic-setup/` | **Active** | The content engine — `/101` + `/ai-for-sc` pipelines, topic plans, voice, data. Start here: `infographic-setup/CLAUDE.md` |
+| `infographic-setup/` | **Active** | The content engine — `/101` + `/ai-for-sc` pipelines, topic plans, voice, data. Start here: `infographic-setup/AGENTS.md` and `infographic-setup/CLAUDE.md` |
 | `ui-kit/` | Reference | Reusable React blocks + animations salvaged from the retired web app |
 | `docs/` | Reference | Design specs and automation plans (history) |
 | `tiger-voice.md` | **Active** | Master Voice DNA — the authority for ALL written output |
@@ -16,14 +16,20 @@ Version-controlled for remote Claude Code access (web/mobile).
 
 ## The content engine (where the work happens)
 Two active pipelines share one 7-month monthly theme calendar:
-- **Supply Chain 101** (`/101`) — Posts 1 + 2 each week, plain-language concepts. Visual: **code-render** (`infographic-setup/renderer/`, HTML→PNG) is now primary; **ChatGPT (GPT Image 2)** is the backup path.
-- **AI for Supply Chain** (`/ai-for-sc`) — Posts 3 + 4 each week, role-based AI use cases. Visual: **code-render** (`infographic-setup/renderer/`, HTML→PNG/GIF/MP4).
+- **Supply Chain 101** (`/101`) — Posts 1 + 2 each week, plain-language concepts. Visual: **Visual Engine v2** — ChatGPT / GPT Image 2 is the primary creative renderer; HTML/code-render (`infographic-setup/renderer/`) is the backup and comparison lane.
+- **AI for Supply Chain** (`/ai-for-sc`) — Posts 3 + 4 each week, role-based AI use cases. Visual: **Visual Engine v2** — GPT Image 2 first for editorial infographic output, with HTML/code-render retained for exact-data controls and backup PNGs. **Motion Engine v1** is the optional, layout-adaptive GIF/MP4 finishing lane after `visual.png` is approved.
 - **Deep Dive** — data-heavy research pipeline, **archived** (`infographic-setup/skills-archive/deep-dive/`).
 
 Plans (single sources of truth):
 - Master calendar: `infographic-setup/references/master-calendar.md`
 - 101 topics: `infographic-setup/references/101-plan.md`
 - AI for SC use cases: `infographic-setup/references/ai-for-sc-plan-v2.md`
+- Visual workflow: `infographic-setup/references/visual-engine-v2.md`
+- Top-100 reference intelligence: `infographic-setup/references/top100-reference-intelligence.md`
+- Top-100 caption index: `infographic-setup/references/top100-caption-index.md`
+- Calendar reference map: `infographic-setup/references/calendar-reference-adaptation-map-v1.md`
+- Creative QA engine: `infographic-setup/references/creative-engine-v3-lean.md`
+- Motion workflow: `infographic-setup/references/motion-engine-v1.md`
 
 ## Voice DNA
 - **File:** `tiger-voice.md` (workspace root) — definitive voice reference across all pipelines.
@@ -39,7 +45,7 @@ Plans (single sources of truth):
 - Never install packages silently — flag before adding dependencies.
 
 ## Deployment
-- **Repo:** `github.com/tigershetty/linkedin-v2` — version control + remote Claude Code access.
+- **Repo:** `github.com/tigershetty/Codex-Linkedin-V3` — version control + remote Codex access.
 - **Web app retired** — the Vite/React app and its Vercel/Netlify deploys are no longer maintained (source archived under `_archive/web-app/`). If those deploys are still connected, disconnect them in their dashboards.
 
 ## LinkedIn Auto-Posting — On Hold

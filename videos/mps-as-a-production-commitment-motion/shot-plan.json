@@ -1,0 +1,57 @@
+{
+  "project": "mps-as-a-production-commitment-motion",
+  "version": 1,
+  "category": "process-annotated-hero",
+  "durationSeconds": 8.4,
+  "source": "assets/visual.png",
+  "sourceDimensions": {
+    "width": 864,
+    "height": 1821
+  },
+  "promise": "Show planning inputs becoming a controlled MPS commitment and then moving into three execution consequences.",
+  "lockedElements": [
+    "headline and subheading",
+    "all body text and schedule values",
+    "Shetty's Desk logo",
+    "table grid and panel geometry",
+    "commitment fence and background scene"
+  ],
+  "loop": {
+    "firstFrame": "complete approved visual",
+    "reset": "no destructive reset; the approved still remains intact while delayed source highlights establish focus",
+    "build": "inputs, statuses, horizon controls, and downstream consequences resolve in production-review order",
+    "finalFrame": "complete approved visual"
+  },
+  "components": [
+    {"id":"input-demand","box":[44,346,170,455],"method":"semantic-mask","motion":"pulse-plus-route","communicationJob":"establish demand-plan input"},
+    {"id":"input-orders","box":[175,323,310,447],"method":"semantic-mask","motion":"pulse-plus-route","communicationJob":"establish customer-order input"},
+    {"id":"input-inventory","box":[300,304,415,427],"method":"semantic-mask","motion":"pulse-plus-route","communicationJob":"establish inventory-position input"},
+    {"id":"status-firm-1","box":[505,492,601,548],"method":"semantic-source-highlight","motion":"wipe-pulse","communicationJob":"load the first firm row"},
+    {"id":"status-firm-2","box":[515,526,613,588],"method":"semantic-source-highlight","motion":"wipe-pulse","communicationJob":"load the second firm row"},
+    {"id":"status-planned","box":[528,566,644,635],"method":"semantic-source-highlight","motion":"wipe-pulse","communicationJob":"separate planned from firm"},
+    {"id":"zone-protected","box":[218,798,399,968],"method":"semantic-source-highlight","motion":"wipe-pulse","communicationJob":"identify the protected horizon"},
+    {"id":"zone-controlled","box":[420,755,602,943],"method":"semantic-source-highlight","motion":"wipe-pulse","communicationJob":"identify controlled change"},
+    {"id":"zone-flexible","box":[611,735,778,917],"method":"semantic-source-highlight","motion":"wipe-pulse","communicationJob":"identify the flexible horizon"},
+    {"id":"model-capacity","box":[49,1081,286,1306],"method":"registered-source-highlight-only","motion":"route-arrival-pulse","communicationJob":"show rough-cut-capacity consequence"},
+    {"id":"model-materials","box":[336,1110,551,1310],"method":"registered-source-highlight-only","motion":"route-arrival-pulse","communicationJob":"show material-requirements consequence"},
+    {"id":"model-orders","box":[592,1087,817,1308],"method":"registered-source-highlight-only","motion":"route-arrival-pulse","communicationJob":"show production-order consequence"},
+    {"id":"freeze-control","box":[56,1426,390,1525],"method":"semantic-mask","motion":"pulse","communicationJob":"show schedule protection"},
+    {"id":"firming-control","box":[447,1426,806,1525],"method":"semantic-mask","motion":"pulse","communicationJob":"show planned-order conversion"}
+  ],
+  "beats": [
+    {"time":"0.00-0.35","focus":"complete visual hold"},
+    {"time":"0.35-1.45","focus":"three planning inputs converge"},
+    {"time":"1.42-2.32","focus":"schedule statuses resolve"},
+    {"time":"2.28-3.48","focus":"fence locks and horizon controls resolve"},
+    {"time":"3.45-5.18","focus":"execution rails activate and models load"},
+    {"time":"5.12-6.18","focus":"freeze and firming distinction lands"},
+    {"time":"6.30-8.40","focus":"complete visual hold and clean loop"}
+  ],
+  "qa": {
+    "firstFramePixelDiff": 0,
+    "finalFramePixelDiff": 0,
+    "inspectResetAtSourceResolution": true,
+    "inspectRepresentativeContactSheet": true,
+    "exportGifAndMp4": true
+  }
+}

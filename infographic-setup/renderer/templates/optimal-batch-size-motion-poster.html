@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  *{box-sizing:border-box}
+  html,body{margin:0;width:1003px;height:1568px;background:#eef6fe}
+  #card{
+    position:relative;width:1003px;height:1568px;overflow:hidden;
+    background:#f6fbff;font-family:Arial,Helvetica,sans-serif;
+  }
+  .base,.layer,.overlay{position:absolute;inset:0;width:100%;height:100%}
+  .base{object-fit:cover}
+  .layer{inset:auto;object-fit:cover;opacity:0;will-change:filter,opacity}
+  .formula{left:304px;top:333px;width:393px;height:121px}
+  .costCurve{left:281px;top:671px;width:451px;height:313px}
+  .tradeOffCheck{left:184px;top:1010px;width:594px;height:252px}
+  .verifyStrip{left:172px;top:1281px;width:663px;height:136px}
+  .smallerBatch{left:763px;top:354px;width:224px;height:203px}
+  .currentBatch{left:763px;top:576px;width:224px;height:200px}
+  .largerBatch{left:763px;top:789px;width:224px;height:219px}
+  .brandPlacard{left:355px;top:1413px;width:324px;height:77px}
+  .glow{
+    position:absolute;border-radius:18px;opacity:0;
+    border:3px solid rgba(0,109,255,.78);
+    box-shadow:0 0 26px rgba(0,109,255,.42), inset 0 0 26px rgba(0,109,255,.13);
+    pointer-events:none;
+  }
+  .formulaGlow{left:304px;top:333px;width:393px;height:121px}
+  .costGlow{left:281px;top:671px;width:451px;height:313px}
+  .tradeGlow{left:184px;top:1010px;width:594px;height:252px}
+  .verifyGlow{left:172px;top:1281px;width:663px;height:136px;border-color:rgba(20,176,126,.74);box-shadow:0 0 24px rgba(20,176,126,.34), inset 0 0 22px rgba(20,176,126,.10)}
+  .optionGlow{border-color:rgba(0,109,255,.76);box-shadow:0 0 22px rgba(0,109,255,.34), inset 0 0 18px rgba(0,109,255,.12)}
+  .smallerGlow{left:763px;top:354px;width:224px;height:203px}
+  .currentGlow{left:763px;top:576px;width:224px;height:200px}
+  .largerGlow{left:763px;top:789px;width:224px;height:219px}
+  .brandGlow{left:355px;top:1413px;width:324px;height:77px;border-color:rgba(255,255,255,.78);box-shadow:0 0 26px rgba(0,109,255,.33), inset 0 0 18px rgba(255,255,255,.22)}
+  .sweep{
+    position:absolute;left:-220px;top:-140px;width:180px;height:1880px;opacity:0;
+    background:linear-gradient(92deg,transparent,rgba(255,255,255,.32),transparent);
+    transform:rotate(10deg);filter:blur(1px);pointer-events:none;
+  }
+  svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+  .blueStroke{fill:none;stroke:#006dff;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;filter:url(#blueGlow)}
+  .greenStroke{fill:none;stroke:#14b07e;stroke-width:5;stroke-linecap:round;filter:url(#greenGlow)}
+  .redStroke{fill:none;stroke:#ef4b3e;stroke-width:5;stroke-linecap:round;filter:url(#redGlow)}
+  .traceDot{opacity:0;filter:url(#blueGlow)}
+  .scanLine{opacity:0;stroke:#14b07e;stroke-width:5;stroke-linecap:round;filter:url(#greenGlow)}
+  .verifyRing{fill:none;stroke:#14b07e;stroke-width:5;opacity:0;filter:url(#greenGlow)}
+</style>
+</head>
+<body>
+<div id="card">
+  <img class="base" src="../../../videos/optimal-batch-size-motion/assets/visual.png" alt="">
+
+  <img class="layer formula" src="../../../videos/optimal-batch-size-motion/assets/layers/formula.png" alt="">
+  <img class="layer costCurve" src="../../../videos/optimal-batch-size-motion/assets/layers/costCurve.png" alt="">
+  <img class="layer tradeOffCheck" src="../../../videos/optimal-batch-size-motion/assets/layers/tradeOffCheck.png" alt="">
+  <img class="layer verifyStrip" src="../../../videos/optimal-batch-size-motion/assets/layers/verifyStrip.png" alt="">
+  <img class="layer smallerBatch" src="../../../videos/optimal-batch-size-motion/assets/layers/smallerBatch.png" alt="">
+  <img class="layer currentBatch" src="../../../videos/optimal-batch-size-motion/assets/layers/currentBatch.png" alt="">
+  <img class="layer largerBatch" src="../../../videos/optimal-batch-size-motion/assets/layers/largerBatch.png" alt="">
+  <img class="layer brandPlacard" src="../../../videos/optimal-batch-size-motion/assets/layers/brandPlacard.png" alt="">
+
+  <div class="sweep"></div>
+  <div class="glow formulaGlow"></div>
+  <div class="glow costGlow"></div>
+  <div class="glow tradeGlow"></div>
+  <div class="glow verifyGlow"></div>
+  <div class="glow optionGlow smallerGlow"></div>
+  <div class="glow optionGlow currentGlow"></div>
+  <div class="glow optionGlow largerGlow"></div>
+  <div class="glow brandGlow"></div>
+
+  <svg viewBox="0 0 1003 1568" aria-hidden="true">
+    <defs>
+      <filter id="blueGlow" x="-40%" y="-40%" width="180%" height="180%">
+        <feGaussianBlur stdDeviation="4" result="blur"></feGaussianBlur>
+        <feFlood flood-color="#006dff" flood-opacity=".55"></feFlood>
+        <feComposite in2="blur" operator="in"></feComposite>
+        <feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+      </filter>
+      <filter id="greenGlow" x="-40%" y="-40%" width="180%" height="180%">
+        <feGaussianBlur stdDeviation="4" result="blur"></feGaussianBlur>
+        <feFlood flood-color="#14b07e" flood-opacity=".5"></feFlood>
+        <feComposite in2="blur" operator="in"></feComposite>
+        <feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+      </filter>
+      <filter id="redGlow" x="-40%" y="-40%" width="180%" height="180%">
+        <feGaussianBlur stdDeviation="4" result="blur"></feGaussianBlur>
+        <feFlood flood-color="#ef4b3e" flood-opacity=".45"></feFlood>
+        <feComposite in2="blur" operator="in"></feComposite>
+        <feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+      </filter>
+    </defs>
+
+    <path id="formulaRoot" class="blueStroke" d="M484 391 L514 414 L542 367 L660 367"></path>
+    <path id="setupTrace" class="blueStroke" d="M319 708 C360 816 435 892 506 906 C554 916 604 881 646 816"></path>
+    <path id="holdingTrace" class="redStroke" d="M510 904 C565 876 625 796 693 731"></path>
+    <circle id="curveDot" class="traceDot" cx="506" cy="904" r="10" fill="#006dff" stroke="#fff" stroke-width="4"></circle>
+
+    <line class="scanLine" x1="466" y1="1079" x2="684" y2="1079"></line>
+    <line class="scanLine" x1="466" y1="1130" x2="684" y2="1130"></line>
+    <line class="scanLine" x1="466" y1="1182" x2="684" y2="1182"></line>
+    <line class="scanLine" x1="466" y1="1231" x2="684" y2="1231"></line>
+
+    <circle class="verifyRing" cx="224" cy="1336" r="29"></circle>
+    <circle class="verifyRing" cx="344" cy="1336" r="29"></circle>
+    <circle class="verifyRing" cx="475" cy="1336" r="29"></circle>
+    <circle class="verifyRing" cx="606" cy="1336" r="29"></circle>
+    <circle class="verifyRing" cx="739" cy="1336" r="29"></circle>
+  </svg>
+</div>
+
+<script src="../assets/js/gsap.min.js"></script>
+<script>
+(function(){
+  const $ = (s) => document.querySelector(s);
+  const $$ = (s) => Array.from(document.querySelectorAll(s));
+  const layers = $$('.layer');
+  const formulaRoot = $('#formulaRoot');
+  const setupTrace = $('#setupTrace');
+  const holdingTrace = $('#holdingTrace');
+  const curveDot = $('#curveDot');
+  const scanLines = $$('.scanLine');
+  const verifyRings = $$('.verifyRing');
+
+  function prepDraw(path){
+    const len = path.getTotalLength();
+    gsap.set(path, {strokeDasharray: len, strokeDashoffset: len, opacity: 0});
+    return len;
+  }
+
+  const rootLen = prepDraw(formulaRoot);
+  const setupLen = prepDraw(setupTrace);
+  const holdingLen = prepDraw(holdingTrace);
+  scanLines.forEach((line) => {
+    const len = line.getTotalLength();
+    gsap.set(line, {strokeDasharray: len, strokeDashoffset: len, opacity: 0});
+  });
+  gsap.set(layers, {opacity: 0});
+  gsap.set(curveDot, {opacity: 0, transformOrigin: 'center'});
+  gsap.set(verifyRings, {opacity: 0, scale: .82, transformOrigin: 'center'});
+
+  const tl = gsap.timeline({paused:true, defaults:{ease:'power2.out'}});
+
+  tl.to('.sweep', {opacity: .95, x: 1220, duration: 5.6, ease: 'none'}, 0.10);
+
+  tl.to('.formula', {opacity: 1, duration: .01}, .22)
+    .to('.formulaGlow', {opacity: 1, duration: .22}, .24)
+    .to('.formula', {filter: 'drop-shadow(0 0 20px rgba(0,109,255,.42))', duration: .30}, .24)
+    .to(formulaRoot, {opacity: 1, strokeDashoffset: 0, duration: .72}, .34)
+    .to('.formulaGlow', {opacity: 0, duration: .38}, 1.15)
+    .to('.formula', {filter: 'drop-shadow(0 0 0 rgba(0,109,255,0))', opacity: 0, duration: .32}, 1.28);
+
+  tl.to('.costCurve', {opacity: 1, duration: .01}, 1.10)
+    .to('.costGlow', {opacity: .92, duration: .22}, 1.15)
+    .to(setupTrace, {opacity: 1, strokeDashoffset: 0, duration: .78}, 1.22)
+    .to(holdingTrace, {opacity: 1, strokeDashoffset: 0, duration: .78}, 1.42)
+    .to(curveDot, {opacity: 1, duration: .12}, 1.50)
+    .to({p:0}, {p:1, duration: 1.05, ease:'power1.inOut', onUpdate:function(){
+      const p = this.targets()[0].p;
+      const len = setupTrace.getTotalLength();
+      const pt = setupTrace.getPointAtLength(len * p);
+      curveDot.setAttribute('cx', pt.x);
+      curveDot.setAttribute('cy', pt.y);
+    }}, 1.48)
+    .to(curveDot, {attr:{cx:506, cy:904}, duration:.35, ease:'power2.out'}, 2.55)
+    .to('.costGlow', {opacity: 0, duration: .35}, 2.74)
+    .to('.costCurve', {filter: 'drop-shadow(0 0 0 rgba(0,109,255,0))', opacity: 0, duration: .26}, 2.88)
+    .to([setupTrace, holdingTrace, curveDot], {opacity: 0, duration: .22}, 2.98);
+
+  [
+    ['.smallerBatch', '.smallerGlow', 2.66],
+    ['.currentBatch', '.currentGlow', 2.94],
+    ['.largerBatch', '.largerGlow', 3.22],
+  ].forEach(([layer, glow, start]) => {
+    tl.to(layer, {opacity: 1, duration: .01}, start)
+      .to(glow, {opacity: .95, duration: .16}, start)
+      .to(layer, {filter: 'drop-shadow(0 0 18px rgba(0,109,255,.34))', duration: .18}, start)
+      .to(glow, {opacity: 0, duration: .28}, start + .46)
+      .to(layer, {filter: 'drop-shadow(0 0 0 rgba(0,109,255,0))', opacity: 0, duration: .24}, start + .58);
+  });
+
+  tl.to('.tradeOffCheck', {opacity: 1, duration: .01}, 3.70)
+    .to('.tradeGlow', {opacity: .75, duration: .22}, 3.74);
+  scanLines.forEach((line, idx) => {
+    tl.to(line, {opacity: 1, strokeDashoffset: 0, duration: .34}, 3.85 + idx * .13)
+      .to(line, {opacity: 0, duration: .22}, 4.45 + idx * .08);
+  });
+  tl.to('.tradeGlow', {opacity: 0, duration: .28}, 4.78)
+    .to('.tradeOffCheck', {opacity: 0, duration: .24}, 4.86);
+
+  tl.to('.verifyStrip', {opacity: 1, duration: .01}, 4.82)
+    .to('.verifyGlow', {opacity: .84, duration: .18}, 4.86);
+  verifyRings.forEach((ring, idx) => {
+    tl.to(ring, {opacity: 1, scale: 1.18, duration: .20, ease:'back.out(1.8)'}, 4.96 + idx * .10)
+      .to(ring, {scale: 1, opacity: .25, duration: .22}, 5.18 + idx * .10);
+  });
+  tl.to('.verifyGlow', {opacity: 0, duration: .32}, 5.60)
+    .to('.verifyStrip', {opacity: 0, duration: .24}, 5.72);
+
+  tl.to('.brandPlacard', {opacity: 1, duration: .01}, 5.56)
+    .to('.brandGlow', {opacity: .70, duration: .20}, 5.60)
+    .to('.brandGlow', {opacity: 0, duration: .34}, 5.88)
+    .to('.brandPlacard', {opacity: 0, duration: .22}, 5.94);
+
+  tl.to({}, {duration: .08}, 6.0);
+
+  window.__tl = tl;
+  window.__dur = 6.0;
+
+  const imagePromises = Array.from(document.images).map((img) => {
+    if (img.complete) return Promise.resolve();
+    return new Promise((resolve) => {
+      img.addEventListener('load', resolve, {once:true});
+      img.addEventListener('error', resolve, {once:true});
+    });
+  });
+  Promise.all(imagePromises).then(() => { window.__ready = true; });
+})();
+</script>
+</body>
+</html>

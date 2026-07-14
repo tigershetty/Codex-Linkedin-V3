@@ -1,0 +1,128 @@
+{
+  "formula-blue": {
+    "box": [
+      476,
+      350,
+      671,
+      435
+    ],
+    "color": "blue",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "nonZeroPixels": 5855
+  },
+  "curve-blue": {
+    "box": [
+      315,
+      704,
+      526,
+      926
+    ],
+    "color": "blue",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "nonZeroPixels": 19249
+  },
+  "curve-red": {
+    "box": [
+      500,
+      704,
+      706,
+      926
+    ],
+    "color": "red",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "nonZeroPixels": 7726
+  },
+  "batch-small": {
+    "box": [
+      774,
+      420,
+      935,
+      535
+    ],
+    "color": "blue",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "nonZeroPixels": 6762
+  },
+  "batch-current": {
+    "box": [
+      774,
+      635,
+      935,
+      748
+    ],
+    "color": "blue",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "nonZeroPixels": 11176
+  },
+  "batch-large": {
+    "box": [
+      770,
+      846,
+      936,
+      985
+    ],
+    "color": "blue",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "nonZeroPixels": 15066
+  },
+  "trade-green": {
+    "box": [
+      454,
+      1037,
+      730,
+      1245
+    ],
+    "color": "green",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "nonZeroPixels": 5577
+  },
+  "trade-red": {
+    "box": [
+      454,
+      1037,
+      730,
+      1245
+    ],
+    "color": "red",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "nonZeroPixels": 4963
+  },
+  "verify-green": {
+    "box": [
+      182,
+      1292,
+      778,
+      1375
+    ],
+    "color": "green",
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "nonZeroPixels": 6212
+  }
+}

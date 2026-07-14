@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Optimal Batch Size - Delayed Decision Reveal</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      width: 1003px;
+      height: 1568px;
+      overflow: hidden;
+      background: #eef6fe;
+    }
+    #card {
+      position: relative;
+      width: 1003px;
+      height: 1568px;
+      overflow: hidden;
+      isolation: isolate;
+      background: #eef6fe;
+    }
+    .base {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .cover, .highlight, .signal {
+      position: absolute;
+      pointer-events: none;
+      opacity: 0;
+    }
+    .cover {
+      z-index: 1;
+      object-fit: contain;
+    }
+    .highlight {
+      z-index: 2;
+      object-fit: contain;
+      mix-blend-mode: screen;
+      filter: brightness(1.08) drop-shadow(0 0 7px rgba(0,109,255,.32));
+    }
+    .red-light {
+      filter: brightness(1.06) drop-shadow(0 0 7px rgba(239,75,62,.30));
+    }
+    .green-light {
+      filter: brightness(1.06) drop-shadow(0 0 7px rgba(20,176,126,.28));
+    }
+    .formula { left: 476px; top: 350px; width: 195px; height: 85px; }
+    .curve-blue { left: 315px; top: 704px; width: 211px; height: 222px; }
+    .curve-red { left: 500px; top: 704px; width: 206px; height: 222px; }
+    .curve-total { left: 315px; top: 704px; width: 391px; height: 222px; }
+    .curve-panel-cover { left: 278px; top: 703px; width: 438px; height: 263px; }
+    .batch-small-cover { left: 758px; top: 392px; width: 216px; height: 154px; }
+    .batch-current-cover { left: 758px; top: 606px; width: 216px; height: 152px; }
+    .batch-large-cover { left: 754px; top: 817px; width: 220px; height: 172px; }
+    .batch-small { left: 774px; top: 420px; width: 161px; height: 115px; }
+    .batch-current { left: 774px; top: 635px; width: 161px; height: 113px; }
+    .batch-large { left: 770px; top: 846px; width: 166px; height: 139px; }
+    .trade-cover, .trade-highlight {
+      left: 454px;
+      top: 1037px;
+      width: 276px;
+      height: 208px;
+    }
+    .trade-cover-1, .trade-row-1 { clip-path: inset(0 0 154px 0); }
+    .trade-cover-2, .trade-row-2 { clip-path: inset(51px 0 102px 0); }
+    .trade-cover-3, .trade-row-3 { clip-path: inset(102px 0 51px 0); }
+    .trade-cover-4, .trade-row-4 { clip-path: inset(153px 0 0 0); }
+    .verify-cover, .verify-highlight {
+      left: 182px;
+      top: 1292px;
+      width: 596px;
+      height: 83px;
+    }
+    .verify-cover-1 { clip-path: inset(0 518px 0 0); }
+    .verify-cover-2 { clip-path: inset(0 406px 0 92px); }
+    .verify-cover-3 { clip-path: inset(0 276px 0 214px); }
+    .verify-cover-4 { clip-path: inset(0 143px 0 346px); }
+    .verify-cover-5 { clip-path: inset(0 0 0 475px); }
+    .node, .halo {
+      z-index: 3;
+      border-radius: 50%;
+    }
+    .node {
+      width: 14px;
+      height: 14px;
+      margin: -7px 0 0 -7px;
+      background: rgba(255,255,255,.92);
+      border: 2px solid #006dff;
+      box-shadow: 0 0 0 5px rgba(0,109,255,.08), 0 0 13px rgba(0,109,255,.48);
+    }
+    .halo {
+      width: 48px;
+      height: 48px;
+      margin: -24px 0 0 -24px;
+      border: 2px solid rgba(20,176,126,.72);
+      box-shadow: 0 0 16px rgba(20,176,126,.30), inset 0 0 11px rgba(255,255,255,.64);
+    }
+    .trough-halo {
+      left: 487px;
+      top: 889px;
+      width: 34px;
+      height: 34px;
+      margin: 0;
+      border-color: rgba(0,109,255,.70);
+      box-shadow: 0 0 16px rgba(0,109,255,.38), inset 0 0 10px rgba(255,255,255,.62);
+    }
+    .signal-svg {
+      position: absolute;
+      inset: 0;
+      z-index: 4;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: visible;
+    }
+    #decision-dot {
+      opacity: 0;
+      filter: drop-shadow(0 0 8px rgba(0,109,255,.78));
+    }
+    #decision-ring {
+      opacity: 0;
+      fill: none;
+      stroke: rgba(0,109,255,.64);
+      stroke-width: 2;
+    }
+  </style>
+</head>
+<body>
+  <main
+    id="card"
+    data-composition-id="optimal-batch-size-delayed-reveal"
+    data-width="1003"
+    data-height="1568"
+    data-duration="8"
+  >
+    <section class="clip" data-start="0" data-duration="8" data-track-index="1">
+      <img class="base" src="../assets/visual.png" alt="">
+
+      <img class="cover formula-cover formula" src="../assets/covers/formula-blue.png" alt="">
+      <img class="cover curve-panel-cover" src="../assets/covers/curve-panel-plate.png" alt="">
+      <img class="cover batch-small-cover" src="../assets/covers/batch-small-plate.png" alt="">
+      <img class="cover batch-current-cover" src="../assets/covers/batch-current-plate.png" alt="">
+      <img class="cover batch-large-cover" src="../assets/covers/batch-large-plate.png" alt="">
+      <img class="cover trade-cover trade-cover-1" src="../assets/covers/trade-all.png" alt="">
+      <img class="cover trade-cover trade-cover-2" src="../assets/covers/trade-all.png" alt="">
+      <img class="cover trade-cover trade-cover-3" src="../assets/covers/trade-all.png" alt="">
+      <img class="cover trade-cover trade-cover-4" src="../assets/covers/trade-all.png" alt="">
+      <img class="cover verify-cover verify-cover-1" src="../assets/covers/verify-green.png" alt="">
+      <img class="cover verify-cover verify-cover-2" src="../assets/covers/verify-green.png" alt="">
+      <img class="cover verify-cover verify-cover-3" src="../assets/covers/verify-green.png" alt="">
+      <img class="cover verify-cover verify-cover-4" src="../assets/covers/verify-green.png" alt="">
+      <img class="cover verify-cover verify-cover-5" src="../assets/covers/verify-green.png" alt="">
+
+      <img class="highlight formula-highlight formula" src="../assets/highlights/formula-blue.png" alt="">
+      <img class="highlight curve-blue-highlight curve-blue" src="../assets/highlights/curve-blue.png" alt="">
+      <img class="highlight red-light curve-red-highlight curve-red" src="../assets/highlights/curve-red.png" alt="">
+      <img class="highlight curve-total-highlight curve-total" src="../assets/highlights/curve-total.png" alt="">
+      <img class="highlight batch-small" src="../assets/highlights/batch-small.png" alt="">
+      <img class="highlight batch-current" src="../assets/highlights/batch-current.png" alt="">
+      <img class="highlight batch-large" src="../assets/highlights/batch-large.png" alt="">
+      <img class="highlight green-light trade-highlight trade-row-1" src="../assets/highlights/trade-green.png" alt="">
+      <img class="highlight green-light trade-highlight trade-row-2" src="../assets/highlights/trade-green.png" alt="">
+      <img class="highlight green-light trade-highlight trade-row-3" src="../assets/highlights/trade-green.png" alt="">
+      <img class="highlight green-light trade-highlight trade-row-4" src="../assets/highlights/trade-green.png" alt="">
+      <img class="highlight green-light verify-highlight" src="../assets/highlights/verify-green.png" alt="">
+
+      <div class="signal node node-formula" style="left:672px;top:392px"></div>
+      <div class="signal node node-small" style="left:739px;top:406px"></div>
+      <div class="signal node node-current" style="left:739px;top:686px"></div>
+      <div class="signal node node-large" style="left:739px;top:894px"></div>
+      <div class="signal halo trough-halo"></div>
+      <div class="signal halo verify-halo" style="left:221px;top:1335px"></div>
+      <div class="signal halo verify-halo" style="left:340px;top:1335px"></div>
+      <div class="signal halo verify-halo" style="left:471px;top:1335px"></div>
+      <div class="signal halo verify-halo" style="left:601px;top:1335px"></div>
+      <div class="signal halo verify-halo" style="left:735px;top:1335px"></div>
+
+      <svg class="signal-svg" viewBox="0 0 1003 1568" aria-hidden="true">
+        <path id="cost-route" d="M329 730 C352 806 425 891 503 905 C565 901 629 825 690 732" fill="none"></path>
+        <circle id="decision-ring" cx="329" cy="730" r="12"></circle>
+        <circle id="decision-dot" cx="329" cy="730" r="5" fill="#ffffff" stroke="#006dff" stroke-width="3"></circle>
+      </svg>
+    </section>
+  </main>
+
+  <script src="../../../infographic-setup/renderer/assets/js/gsap.min.js"></script>
+  <script>
+    (() => {
+      const $ = (selector) => document.querySelector(selector);
+      const $$ = (selector) => Array.from(document.querySelectorAll(selector));
+      const duration = 8;
+      const route = $('#cost-route');
+      const routeLength = route.getTotalLength();
+      const dot = $('#decision-dot');
+      const ring = $('#decision-ring');
+      const covers = $$('.cover');
+      const accents = $$('.highlight, .signal, #decision-dot, #decision-ring');
+
+      gsap.set(covers, { opacity: 0 });
+      gsap.set(accents, { opacity: 0 });
+
+      const tl = gsap.timeline({ paused: true });
+
+      // Begin and end on the untouched approved artwork. The brief reset makes
+      // the later component loading visible without moving any authored text.
+      tl.to(covers, { opacity: 1, duration: .30, ease: 'power2.inOut' }, .30);
+
+      tl.to('.formula-cover', {
+        clipPath: 'inset(0 0 0 100%)',
+        duration: .62,
+        ease: 'expo.inOut'
+      }, .78)
+        .fromTo('.formula-highlight', {
+          opacity: 0,
+          clipPath: 'inset(0 100% 0 0)'
+        }, {
+          opacity: .76,
+          clipPath: 'inset(0 0 0 0)',
+          duration: .62,
+          ease: 'expo.inOut'
+        }, .78)
+        .fromTo('.node-formula', { opacity: 0, scale: .58 }, {
+          opacity: .82,
+          scale: 1,
+          duration: .28,
+          ease: 'back.out(2)'
+        }, 1.18)
+        .to(['.formula-highlight', '.node-formula'], {
+          opacity: 0,
+          duration: .32,
+          ease: 'sine.in'
+        }, 1.42);
+
+      tl.to('.curve-panel-cover', {
+        clipPath: 'inset(0 0 0 100%)',
+        duration: .92,
+        ease: 'power2.inOut'
+      }, 1.45)
+        .fromTo('.curve-blue-highlight', {
+          opacity: 0,
+          clipPath: 'inset(0 100% 0 0)'
+        }, {
+          opacity: .64,
+          clipPath: 'inset(0 0 0 0)',
+          duration: .78,
+          ease: 'power2.inOut'
+        }, 1.45)
+        .fromTo('.curve-red-highlight', {
+          opacity: 0,
+          clipPath: 'inset(0 100% 0 0)'
+        }, {
+          opacity: .62,
+          clipPath: 'inset(0 0 0 0)',
+          duration: .72,
+          ease: 'power2.inOut'
+        }, 1.88)
+        .fromTo('.curve-total-highlight', {
+          opacity: 0,
+          clipPath: 'inset(0 100% 0 0)'
+        }, {
+          opacity: .58,
+          clipPath: 'inset(0 0 0 0)',
+          duration: .68,
+          ease: 'power2.inOut'
+        }, 1.92)
+        .fromTo([dot, ring], { opacity: 0 }, {
+          opacity: 1,
+          duration: .18,
+          ease: 'power3.out'
+        }, 1.52)
+        .to({ progress: 0 }, {
+          progress: 1,
+          duration: 1.18,
+          ease: 'sine.inOut',
+          onUpdate: function () {
+            const point = route.getPointAtLength(routeLength * this.targets()[0].progress);
+            dot.setAttribute('cx', point.x);
+            dot.setAttribute('cy', point.y);
+            ring.setAttribute('cx', point.x);
+            ring.setAttribute('cy', point.y);
+          }
+        }, 1.55)
+        .fromTo('.trough-halo', { opacity: 0, scale: .64 }, {
+          opacity: .92,
+          scale: 1.08,
+          duration: .32,
+          ease: 'back.out(2)'
+        }, 2.16)
+        .to(['.curve-blue-highlight', '.curve-red-highlight', '.curve-total-highlight', '#decision-dot', '#decision-ring', '.trough-halo'], {
+          opacity: 0,
+          duration: .34,
+          ease: 'sine.in'
+        }, 2.62);
+
+      const batchSteps = [
+        ['.batch-small-cover', '.batch-small', '.node-small', 2.52],
+        ['.batch-current-cover', '.batch-current', '.node-current', 2.90],
+        ['.batch-large-cover', '.batch-large', '.node-large', 3.28]
+      ];
+      batchSteps.forEach(([cover, highlight, node, start], index) => {
+        tl.to(cover, {
+          clipPath: 'inset(0 0 0 100%)',
+          duration: .48,
+          ease: 'expo.inOut'
+        }, start)
+          .fromTo(highlight, { opacity: 0, scale: .985 }, {
+            opacity: index === 1 ? .74 : .64,
+            scale: 1,
+            duration: .34,
+            ease: 'power2.out'
+          }, start + .14)
+          .fromTo(node, { opacity: 0, scale: .58 }, {
+            opacity: .72,
+            scale: 1,
+            duration: .24,
+            ease: 'back.out(2)'
+          }, start + .22)
+          .to([highlight, node], { opacity: 0, duration: .24, ease: 'sine.in' }, start + .58);
+      });
+
+      const tradeSteps = [
+        ['.trade-cover-1', '.trade-row-1', 'inset(0 0 154px 100%)', 3.82],
+        ['.trade-cover-2', '.trade-row-2', 'inset(51px 0 102px 100%)', 4.12],
+        ['.trade-cover-3', '.trade-row-3', 'inset(102px 0 51px 100%)', 4.42],
+        ['.trade-cover-4', '.trade-row-4', 'inset(153px 0 0 100%)', 4.72]
+      ];
+      tradeSteps.forEach(([cover, highlight, endClip, start]) => {
+        tl.to(cover, { clipPath: endClip, duration: .42, ease: 'power2.inOut' }, start)
+          .fromTo(highlight, { opacity: 0 }, {
+            opacity: .60,
+            duration: .22,
+            ease: 'power2.out'
+          }, start + .18)
+          .to(highlight, { opacity: 0, duration: .24, ease: 'sine.in' }, start + .48);
+      });
+
+      const verifyCovers = $$('.verify-cover');
+      const verifyHalos = $$('.verify-halo');
+      verifyCovers.forEach((cover, index) => {
+        const start = 5.12 + index * .22;
+        tl.to(cover, { opacity: 0, duration: .26, ease: 'power2.inOut' }, start)
+          .fromTo(verifyHalos[index], { opacity: 0, scale: .58 }, {
+            opacity: .76,
+            scale: 1.06,
+            duration: .24,
+            ease: 'back.out(2)'
+          }, start + .06)
+          .to(verifyHalos[index], { opacity: 0, scale: 1, duration: .26, ease: 'sine.in' }, start + .31);
+      });
+      tl.fromTo('.verify-highlight', {
+        opacity: 0,
+        clipPath: 'inset(0 100% 0 0)'
+      }, {
+        opacity: .42,
+        clipPath: 'inset(0 0 0 0)',
+        duration: 1.04,
+        ease: 'power1.inOut'
+      }, 5.08)
+        .to('.verify-highlight', { opacity: 0, duration: .30, ease: 'sine.in' }, 6.18)
+        .to(covers, { opacity: 0, duration: .01 }, 6.42)
+        .to(accents, { opacity: 0, duration: .01 }, 6.42);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['optimal-batch-size-delayed-reveal'] = tl;
+      window.__tl = tl;
+      window.__dur = duration;
+
+      const imagePromises = Array.from(document.images).map((image) => {
+        if (image.complete) return Promise.resolve();
+        return new Promise((resolve) => {
+          image.addEventListener('load', resolve, { once: true });
+          image.addEventListener('error', resolve, { once: true });
+        });
+      });
+      Promise.all(imagePromises).then(() => { window.__ready = true; });
+    })();
+  </script>
+</body>
+</html>

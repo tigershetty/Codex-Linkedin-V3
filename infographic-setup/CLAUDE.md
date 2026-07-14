@@ -7,7 +7,13 @@ A Claude Code pipeline that produces LinkedIn supply chain infographics for Tige
 1. Check `data/` for the current ISO week folder and active slug
 2. Report which stage the active slug is at (which files exist)
 3. **Auto-check for incomplete AI for SC posts**: scan for any `{slug}/` folders containing `ai-for-sc-[slug].md` — note any where a PDF was likely requested but `ai-for-sc-[slug]-pdf.md` is missing
-4. **Ask: "Supply Chain 101 or AI for Supply Chain?"** — this determines the pipeline
+4. Read `references/audience-intelligence.md` + `references/topic-selection-scorecard.md` + `references/top100-reference-intelligence.md` before accepting a topic
+5. Read `references/visual-engine-v2.md` before creating or revising any visual
+6. Read `references/creative-engine-v3-lean.md` before creating or judging a GPT Image 2 prompt
+7. Use `references/calendar-reference-adaptation-map-v1.md` for RW03-RW12 topic packaging before drafting the content brief
+8. For AI-for-SC flagship visuals/captions, read `references/workflow-learning-2026-07-08-demand-review-to-sequence-board.md` before drafting; it captures the latest value-first caption and deterministic logo-overlay rules.
+9. For GIF/MP4 work, read `references/motion-engine-v1.md` before creating masks, layers, or a timeline.
+10. **Ask: "Supply Chain 101 or AI for Supply Chain?"** — this determines the pipeline
 
 ## Pick the Pipeline
 
@@ -24,7 +30,7 @@ A Claude Code pipeline that produces LinkedIn supply chain infographics for Tige
 | Hooks | Metaphor-led, accessible | Role + current limitation + AI unlock |
 | Caption | 150–300 words, educational tone | 220–320 words, practical, copy-paste level |
 | Control gates | None (single-step) | None — PDF is a yes/no gate after the caption |
-| Visual | **Code-render** (`renderer/`) — HTML→PNG (primary); ChatGPT GPT Image 2 prompt = backup | Code-render (`renderer/`) — HTML→PNG/GIF/MP4 |
+| Visual | **Visual Engine v2** — GPT Image 2 primary; HTML/code-render backup + comparison lane; Motion Engine v1 standard GIF/MP4 companion after still approval unless a still-only exception is recorded | **Visual Engine v2** — GPT Image 2 primary for stills; HTML/code-render for exact-data controls; Motion Engine v1 standard layout-adaptive GIF/MP4 companion after still approval unless a still-only exception is recorded |
 | Frequency | 2/week (Posts 1+2 in the weekly sub-topic) | 2/week (Posts 3+4 in the weekly sub-topic) |
 | Output | `101-copy.md` | `ai-for-sc-[use-case-slug].md` (+ optional `-pdf.md`) |
 
@@ -36,7 +42,7 @@ A Claude Code pipeline that produces LinkedIn supply chain infographics for Tige
 /101 [topic-slug]    ← single step, no gates
 ```
 
-Generates 10 hooks + LinkedIn caption + a **code-rendered infographic** (`renderer/`, HTML→PNG) in one pass from the monthly topic bank. A ChatGPT (GPT Image 2) prompt is kept as the **backup** visual path (illustration fallback when code-render isn't the right fit).
+Generates 10 hooks + LinkedIn caption + a **Visual Engine v2 infographic** in one pass from the monthly topic bank. ChatGPT / GPT Image 2 is the primary creative rendering lane; HTML/code-render (`renderer/`, HTML→PNG) is retained as the deterministic backup and comparison lane when exact structure, text, or data needs a control.
 User picks hook and adjusts at the end. The **research-engine runs first** (consultant-grade sourced brief); no scout, no message-commit gates.
 Topics come from `references/101-plan.md` (see also `references/master-calendar.md`). `/101` runs Posts 1 and 2 of each week.
 
@@ -48,9 +54,18 @@ Topics come from `references/101-plan.md` (see also `references/master-calendar.
 | File | Purpose |
 |---|---|
 | `references/101-plan.md` | Monthly topic bank — all foundational topics with hooks, visuals, caption directions |
+| `references/audience-intelligence.md` | Audience segments, pain/desire map, save triggers, and topic tests |
+| `references/topic-selection-scorecard.md` | Production gate — topic must score before research/caption/visual work |
+| `references/top100-reference-intelligence.md` | Top-100 image + caption intelligence — power format, stop-scroll promise, save trigger, and Shetty's Desk adaptation |
+| `references/top100-caption-index.md` | Lean generated caption lookup — opener type, promise, artifact, and save trigger from the workbook |
+| `references/calendar-reference-adaptation-map-v1.md` | RW03-RW12 calendar topics translated into reference-proven promises, power formats, caption patterns, and save triggers |
+| `references/creative-engine-v3-lean.md` | Lean creative brief, prompt preflight, output review, and package audit for GPT Image 2 outputs |
 | `references/101-voice.md` | 101 voice anchor — plain language, series framing, adapted hook taxonomy |
 | `references/layout-frameworks-intelligence.md` | 200-pattern layout selector + composition-mode guide — pick the visual layout for the code-render |
 | `references/render-pilot-workflow.md` | Code-render pipeline + design/technical learnings (now shared by 101 + AI for SC) |
+| `references/visual-engine-v2.md` | Active visual workflow — GPT Image 2 first, HTML control lane, Cobalt Grid brand seed, QA scorecard |
+| `references/motion-engine-v1.md` | Optional picture-first motion lane — semantic component mapping, layout-adaptive choreography, deterministic GIF/MP4 QA |
+| `references/brand-kits/cobalt-grid/FRAME.md` | Current brand frame seed — cream/cobalt grid, editorial type, flat structural restraint |
 | `renderer/` | The deterministic HTML→PNG renderer + component-kit templates the 101 infographic is built from |
 | `data/101-series-tracker.md` | Published episodes log — tracks which topics are done |
 
@@ -78,12 +93,20 @@ Before generating, the skill loads: `tiger-voice.md`, `references/published-voic
 | File | Purpose |
 |---|---|
 | `tiger-voice.md` | Master voice DNA — loaded first, applies to all AI for SC output |
+| `references/audience-intelligence.md` | Audience segments, role pains, AI-curious team needs |
+| `references/topic-selection-scorecard.md` | Production gate — topic/use case must score before build |
+| `references/top100-reference-intelligence.md` | Top-100 image + caption intelligence — use before selecting the visual format, hook pattern, and save trigger |
+| `references/top100-caption-index.md` | Lean generated caption lookup — opener type, promise, artifact, and save trigger from the workbook |
+| `references/calendar-reference-adaptation-map-v1.md` | RW03-RW12 calendar topics translated into reference-proven promises, power formats, caption patterns, and save triggers |
+| `references/creative-engine-v3-lean.md` | Lean creative brief, prompt preflight, output review, and package audit for GPT Image 2 outputs |
 | `references/published-voice.md` | Hook quality bar, "NOT THIS" list, annotated examples |
 | `references/101-voice.md` | Accessible register for the SC concept layer |
 | `references/ai-for-sc-plan-v2.md` | Fully pre-defined W21–W52 use-case plan — Role, Tool, Use Case, Hook direction per post |
 | `references/ai-for-sc-visual-dna.md` | Visual style system — structure/format selection |
 | `references/ai-for-sc-creative-intelligence.md` | Creative intelligence from 53 reference images — structure inventory, creative-device combinations, visual ambition bar |
+| `references/visual-engine-v2.md` | Active visual workflow — GPT Image 2 first, HTML control lane, Cobalt Grid brand seed, QA scorecard |
 | `references/render-pilot-workflow.md` | Code-render pipeline + design/technical learnings |
+| `references/motion-engine-v1.md` | Optional picture-first motion lane — semantic component mapping, layout-adaptive choreography, deterministic GIF/MP4 QA |
 | `references/master-calendar.md` | Top-level monthly theme calendar — both series aligned |
 | `data/ai-for-sc-series-tracker.md` | Published episodes log — tracks role, tool, use case, week |
 
@@ -105,8 +128,13 @@ data/
   analytics-log.csv                   ← performance metrics
   {YYYY-W##}/                         ← ISO week folder
     {topic-slug}/
-      101-copy.md                     ← 101 (hooks + caption + ChatGPT Image 2 prompt)
-      ai-for-sc-[use-case-slug].md     ← AI for SC post: hooks + caption + render brief (visual code-rendered to renderer/out/)
+      101-copy.md                     ← 101 (hooks + caption)
+      ai-for-sc-[use-case-slug].md     ← AI for SC post: hooks + caption + visual brief
+      gpt-image-2-prompt.md            ← primary visual prompt + reference list + generation notes
+      visual-comparison.md             ← GPT Image 2 vs HTML/control judgment, final pick
+      visual-motion.gif                ← standard picture-first motion companion after still approval
+      visual-motion.mp4                ← standard full-resolution motion master
+      motion-qa.md                     ← endpoint, transition-frame, and media-spec QA
       ai-for-sc-[use-case-slug]-pdf.md ← AI for SC PDF draft (5-page markdown, only if requested)
       analytics.md                    ← post-publish metrics
 ```
@@ -118,24 +146,32 @@ data/
 
 ## Gotchas
 - **IKEA content is excluded** — do not use as voice or content reference
-- **3-variant render standard (2026-06-28)** — EVERY post (101 + AI for SC) renders **3 visually distinct concepts** (3 different layout frameworks + hero devices via `layout-select`, never recolours of one idea) and the user **picks one**. Build `<slug>-v1/-v2/-v3.html`, QA each, surface all 3, copy the chosen render to `visual.png`, and keep all 3 templates + out PNGs (variety log + future-post seed). This is the variety guarantee — no two posts lean on the same default.
-- **101 visual is now code-rendered** (`renderer/`, HTML→PNG) — pick **3 distinct layouts** via `layout-select`, build the templates, render and QA each PNG. The ChatGPT (GPT Image 2) prompt is the **backup** path (illustration fallback), kept in `101-copy.md`.
+- **Visual Engine v2 is active (2026-06-30)** — GPT Image 2 is the **primary creative renderer** for new visual concepts. HTML/code-render remains the **backup and comparison lane** for deterministic structure, exact data, and fallback publish candidates. Read `references/visual-engine-v2.md` first.
+- **Content Engine Audit v1 is active (2026-06-30)** — read `references/content-engine-audit-v1.md` when rebuilding calendar/topics/research. The calendar is a candidate library, not a blind autopilot.
+- **Topic selection gate** — before building a new post, define the audience segment and score the topic via `references/topic-selection-scorecard.md`. If the topic scores below 75, reframe or park it.
+- **Audience intelligence first** — use `references/audience-intelligence.md` to choose the audience job: explain clearly, make a better decision, avoid a mistake, look sharper at work, save time, or use AI safely.
+- **Top-100 reference intelligence is active (2026-06-30)** — use `references/top100-reference-intelligence.md` before production. Every flagship post needs a reference-proven promise, power format, caption pattern, save trigger, and Shetty's Desk originality layer. Use `templates/reference-learning-card-template.md` for selected references.
+- **Lean caption index** — use `references/top100-caption-index.md` before opening `references/top 100/Reference File and Caption.xlsx`. Regenerate it with `/Users/tigershetty/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/extract-top100-caption-index.py` after the workbook changes.
+- **Creative Engine v3 is active (2026-07-01)** — use `references/creative-engine-v3-lean.md` to keep GPT Image 2 work lean and strict: one-page creative brief, `node scripts/compile-gpt-image-prompt.mjs data/{week}/{slug}`, prompt preflight, output review, then `node scripts/audit-visual-package.mjs data/{week}/{slug}`.
+- **Next-12-week editorial rebuild** — use `references/editorial-rebuild-next-12-weeks.md` before continuing RW03-RW12. It scores the existing calendar and gives the audience-led rebuild angles.
+- **Calendar reference map** — for RW03-RW12, use `references/calendar-reference-adaptation-map-v1.md` to package each topic before research, copy, or visual generation.
+- **Best Single Prompt standard** — default to one strong, reference-led GPT Image 2 prompt built from a locked visual framework. Do not generate three near-identical variants. If a result is generic, change the framework before changing adjectives.
+- **HTML comparison standard** — keep HTML rendering available as a control lane. For flagship posts, use `templates/visual-comparison-template.md` to capture GPT Image 2 output, HTML control notes, QA scores, final pick, and reusable learnings.
+- **Cobalt Grid brand seed** — use `references/brand-kits/cobalt-grid/FRAME.md` as the active visual brand frame: warm cream, electric cobalt, grid discipline, editorial serif hierarchy, flat structural depth, square geometry, restrained labels.
+- **Legacy 3-variant code-render standard (2026-06-28)** — superseded for new still-image posts by Visual Engine v2. Use three full HTML variants only when the HTML lane is the chosen final lane or when the user explicitly asks for coded options.
+- **101 visual is no longer code-render primary by default** — GPT Image 2 leads; code-render is the backup/control path.
+- **Motion Engine v1 is active (2026-07-13)** — after `visual.png` is approved, the default package includes `visual-motion.gif` and `visual-motion.mp4`. Read `references/motion-engine-v1.md`; map semantic components from the actual layout, keep text/logos/base art locked, use source-fitted covers only when reset QA is clean, otherwise use registered source highlights/signals, and require pixel-identical first/final lossless frames. A still-only output needs a documented eligibility exception.
+- **Motion project initializer** — run `node scripts/init-motion-project.mjs data/{week}/{slug}` after still approval. It creates missing brief, shot plan, composition contract, source copy, and QA folders without overwriting existing work.
+- **Motion package audit** — run `node scripts/audit-motion-package.mjs data/{week}/{slug}` after export. Do not promote motion without canonical GIF/MP4 files, endpoint proof, completed QA, and a pass decision.
 - **SC 101 footer uses Logo 2** (`renderer/assets/logos/shettys-desk-logo-2.png`, the dark-wordmark lockup for light backgrounds, ~74px on the LEFT) + **"Poornajith Shetty"** signature on the RIGHT. Logo 2 carries the "Shetty's Desk" wordmark, so there is **no separate text label**. Never use Logo 1 on the cards — its wordmark is white and invisible on white.
-- **NEGATIVE prompt blocks degrade render quality** — never add them to the 101 ChatGPT (GPT Image 2) backup prompt
-- **AI-still backup lane has its own playbook → `references/ai-still-prompt-learnings.md`** (read **§8 first** before writing any prompt). Current approach (v1.1, 2026-06-29):
-  - **Engine = Nano Banana Pro** (`nano_banana_pro`, remaps to `nano_banana_2`), run as a **batch of 3** (`count: 3`), user picks one. **Default aspect/res for posts going forward: 3:4, 2k** (write `resolution 2480x3312` in the prompt text). 1k makes text soft — never use it.
-  - **References = the single original anchor `1d05cd74-…` (style only, "take nothing from it") + the real Shetty's Desk logo `7c3fc954-…` (LAST, reproduce exactly, bottom-left).** The logo must be **transparent/no background** — `remove_background` it first if needed. (This replaces the older 4-white-bg-anchor setup for this engine.)
-  - **Prompt scaffold = Tiger's most-viral post structure** — TOPIC → THE QUESTION THIS ANSWERS → VISUAL STRUCTURE → CONTENT TO INCLUDE → CONTENT RULES → DO NOT. Keep the **hard on-image word cap (~45)**, the **dominant-element** call, **labels over paragraphs**, and the **"use a different layout from the attached image"** anti-bleed rule. **No colour prescription** — the anchor governs palette.
-  - **One allowed DO-NOT**: a single technical font-floor (≤14px) is fine on Nano Banana Pro and is part of the viral recipe. **Drop it if ever porting to GPT Image 2** (negative blocks degrade that engine).
-  - **Framework first, prompt second** — when an AI-still infographic looks "good but generic," change the *framework* (the argument the shape makes), not the adjectives (see `layout-frameworks-intelligence.md` §1).
-  - **"Dramatic / less AI-like / designer-made" ≠ cinematic** — it means *cleaner and conceptually sharper*, never camera/lighting/mood. Frame as design-forward information graphics (FT/Economist), flat-on, even light.
-  - **Egress (this env):** the Higgsfield CloudFront output host + `upload.higgsfield.ai` are blocked (403) — I can't view/download the PNGs, so the **user judges every render in the Higgsfield panel**; import references server-side; don't route around the block.
+- **NEGATIVE prompt blocks degrade GPT Image 2 quality** — avoid long negative/DO-NOT blocks; phrase constraints positively.
+- **AI-still legacy learnings live at `references/ai-still-prompt-learnings.md`**. Use it for historical lessons, especially framework-first thinking and GPT Image 2 prompt hygiene. Its Nano Banana-first §8 is superseded by `references/visual-engine-v2.md`.
 - **Hooks become the verbatim opening line of the published post** — voice rules apply at hook generation
 - **AI for SC: PDF draft is optional** — after caption + render brief (+ rendered infographic) are presented, ask "Would you like a PDF draft? (Yes / No)" before generating
 - **AI for SC: use cases are pre-defined in `references/ai-for-sc-plan-v2.md`** — load it at Step 1 and confirm the pre-defined use cases with the user before generating hooks
 - **AI for SC: load tiger-voice.md + published-voice.md + 101-voice.md before generating** — all three voice references apply
 - **AI for SC: hook must name role + current limitation + AI unlock** — "current limitation" must name the actual tool (SAP, Excel, Power BI), not generic friction
-- **AI for SC: "When NOT to use AI" sentence is mandatory in every post** — it is the trust signal, not optional
+- **AI for SC: boundary logic is mandatory in the brief, not automatically in the published caption** — capture where AI should not own the decision, but lead the post with the useful artifact, workflow promise, and practical value. Include explicit risk language only when it improves trust without making the caption caveat-heavy.
 - **AI for SC: two posts per week = two different SC roles + two different AI tools** — do not repeat the same role or tool in the same week
 - **AI for SC: check `data/ai-for-sc-series-tracker.md` before generating** — confirm the episode hasn't been published, and verify no role + use case repeat
 - **Research-engine runs FIRST on every 101 + AI for SC run** (`.claude/skills/research-engine/` + the `research-analyst` agent) — it builds a consultant-grade, sourced, reliability-tagged `research-brief.md` per slug. `references/101-plan.md` / `ai-for-sc-plan-v2.md` give the topic/angle; the brief gives the verified facts and numbers. Nothing goes on a card or in a caption unsourced. Concrete/demonstrable examples (tool-in-host-surface: Copilot-in-Excel, Claude-in-Claude-Code/Cowork) are layered on top of this depth, never instead of it.

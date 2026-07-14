@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MPS As A Production Commitment - Motion</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      width: 864px;
+      height: 1821px;
+      overflow: hidden;
+      background: #eef6fe;
+    }
+    #card {
+      position: relative;
+      width: 864px;
+      height: 1821px;
+      overflow: hidden;
+      isolation: isolate;
+      background: #eef6fe;
+    }
+    .base {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .highlight, .signal {
+      position: absolute;
+      pointer-events: none;
+      opacity: 0;
+    }
+    .highlight {
+      z-index: 2;
+      object-fit: contain;
+      mix-blend-mode: screen;
+      filter: brightness(1.08) drop-shadow(0 0 8px rgba(0, 93, 255, .34));
+    }
+    .green-light {
+      filter: brightness(1.08) drop-shadow(0 0 9px rgba(18, 145, 82, .34));
+    }
+    .orange-light {
+      filter: brightness(1.06) drop-shadow(0 0 9px rgba(232, 93, 33, .34));
+    }
+
+    .input-demand { left: 44px; top: 346px; width: 126px; height: 109px; }
+    .input-orders { left: 175px; top: 323px; width: 135px; height: 124px; }
+    .input-inventory { left: 300px; top: 304px; width: 115px; height: 123px; }
+    .status-firm-1 { left: 505px; top: 492px; width: 96px; height: 56px; }
+    .status-firm-2 { left: 515px; top: 526px; width: 98px; height: 62px; }
+    .status-planned { left: 528px; top: 566px; width: 116px; height: 69px; }
+    .zone-protected { left: 218px; top: 798px; width: 181px; height: 170px; }
+    .zone-controlled { left: 420px; top: 755px; width: 182px; height: 188px; }
+    .zone-flexible { left: 611px; top: 735px; width: 167px; height: 182px; }
+    .freeze-control { left: 56px; top: 1426px; width: 334px; height: 99px; }
+    .firming-control { left: 447px; top: 1426px; width: 359px; height: 99px; }
+    .takeaway-blue { left: 176px; top: 1640px; width: 614px; height: 68px; }
+
+    .model-capacity { left: 49px; top: 1081px; width: 237px; height: 225px; }
+    .model-materials { left: 336px; top: 1110px; width: 215px; height: 200px; }
+    .model-orders { left: 592px; top: 1087px; width: 225px; height: 221px; }
+    .model-highlight { filter: brightness(1.08) drop-shadow(0 0 10px rgba(0, 93, 255, .30)); }
+
+    .signal-svg {
+      position: absolute;
+      inset: 0;
+      z-index: 4;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: visible;
+    }
+    .route {
+      fill: none;
+      stroke: rgba(0, 93, 255, .42);
+      stroke-width: 3;
+      stroke-linecap: round;
+      stroke-dasharray: 5 11;
+      opacity: 0;
+    }
+    .route.orange { stroke: rgba(232, 93, 33, .54); }
+    .route-dot {
+      opacity: 0;
+      fill: #ffffff;
+      stroke: #075dff;
+      stroke-width: 3;
+      filter: drop-shadow(0 0 7px rgba(0, 93, 255, .78));
+    }
+    .route-dot.orange { stroke: #e85d21; filter: drop-shadow(0 0 7px rgba(232, 93, 33, .70)); }
+    .halo {
+      z-index: 5;
+      width: 58px;
+      height: 58px;
+      margin: -29px 0 0 -29px;
+      border-radius: 50%;
+      border: 3px solid rgba(18, 145, 82, .78);
+      box-shadow: 0 0 20px rgba(18, 145, 82, .36), inset 0 0 12px rgba(255, 255, 255, .74);
+    }
+    .lock-halo { left: 221px; top: 772px; }
+  </style>
+</head>
+<body>
+  <main
+    id="card"
+    data-composition-id="mps-as-a-production-commitment-motion"
+    data-width="864"
+    data-height="1821"
+    data-duration="8.4"
+  >
+    <section class="clip" data-start="0" data-duration="8.4" data-track-index="1">
+      <img class="base" src="../assets/visual.png" alt="">
+
+      <img class="highlight input-demand" src="../assets/highlights/input-demand.png" alt="">
+      <img class="highlight input-orders" src="../assets/highlights/input-orders.png" alt="">
+      <img class="highlight input-inventory" src="../assets/highlights/input-inventory.png" alt="">
+      <img class="highlight green-light status-firm-1" src="../assets/highlights/status-firm-1.png" alt="">
+      <img class="highlight green-light status-firm-2" src="../assets/highlights/status-firm-2.png" alt="">
+      <img class="highlight status-planned" src="../assets/highlights/status-planned.png" alt="">
+      <img class="highlight green-light zone-protected" src="../assets/highlights/zone-protected.png" alt="">
+      <img class="highlight orange-light zone-controlled" src="../assets/highlights/zone-controlled.png" alt="">
+      <img class="highlight zone-flexible" src="../assets/highlights/zone-flexible.png" alt="">
+      <img class="highlight model-highlight model-capacity" src="../assets/highlights/model-capacity.png" alt="">
+      <img class="highlight model-highlight model-materials" src="../assets/highlights/model-materials.png" alt="">
+      <img class="highlight model-highlight model-orders" src="../assets/highlights/model-orders.png" alt="">
+      <img class="highlight green-light freeze-control" src="../assets/highlights/freeze-control.png" alt="">
+      <img class="highlight orange-light firming-control" src="../assets/highlights/firming-control.png" alt="">
+      <img class="highlight takeaway-blue" src="../assets/highlights/takeaway-blue.png" alt="">
+
+      <div class="signal halo lock-halo"></div>
+
+      <svg class="signal-svg" viewBox="0 0 864 1821" aria-hidden="true">
+        <path id="input-path-1" class="route" d="M126 445 C130 468 145 481 158 494"></path>
+        <path id="input-path-2" class="route" d="M254 433 C256 454 263 468 271 479"></path>
+        <path id="input-path-3" class="route" d="M389 415 C393 429 406 440 417 449"></path>
+        <circle id="input-dot-1" class="route-dot" cx="126" cy="445" r="6"></circle>
+        <circle id="input-dot-2" class="route-dot" cx="254" cy="433" r="6"></circle>
+        <circle id="input-dot-3" class="route-dot" cx="389" cy="415" r="6"></circle>
+
+        <path id="fence-path" class="route orange" d="M283 750 L714 630"></path>
+        <circle id="fence-dot" class="route-dot orange" cx="283" cy="750" r="7"></circle>
+
+        <path id="output-path-1" class="route" d="M264 1039 C248 1065 207 1077 190 1115"></path>
+        <path id="output-path-2" class="route" d="M379 1050 C397 1081 429 1100 438 1138"></path>
+        <path id="output-path-3" class="route" d="M685 974 C707 1024 680 1064 681 1100"></path>
+        <circle id="output-dot-1" class="route-dot" cx="264" cy="1039" r="7"></circle>
+        <circle id="output-dot-2" class="route-dot" cx="379" cy="1050" r="7"></circle>
+        <circle id="output-dot-3" class="route-dot" cx="685" cy="974" r="7"></circle>
+      </svg>
+    </section>
+  </main>
+
+  <script src="../../../infographic-setup/renderer/assets/js/gsap.min.js"></script>
+  <script>
+    (() => {
+      const $ = (selector) => document.querySelector(selector);
+      const $$ = (selector) => Array.from(document.querySelectorAll(selector));
+      const duration = 8.4;
+      const accents = $$('.highlight, .signal, .route, .route-dot');
+      const tl = gsap.timeline({ paused: true });
+
+      gsap.set(accents, { opacity: 0 });
+
+      const travel = (pathSelector, dotSelector, start, travelDuration, routeOpacity = .72) => {
+        const path = $(pathSelector);
+        const dot = $(dotSelector);
+        const length = path.getTotalLength();
+        const state = { progress: 0 };
+        tl.fromTo(path, { opacity: 0 }, {
+          opacity: routeOpacity,
+          duration: .16,
+          ease: 'power2.out'
+        }, start)
+          .fromTo(dot, { opacity: 0 }, {
+            opacity: 1,
+            duration: .12,
+            ease: 'power2.out'
+          }, start)
+          .to(state, {
+            progress: 1,
+            duration: travelDuration,
+            ease: 'sine.inOut',
+            onUpdate: () => {
+              const point = path.getPointAtLength(length * state.progress);
+              dot.setAttribute('cx', point.x);
+              dot.setAttribute('cy', point.y);
+            }
+          }, start)
+          .to([path, dot], { opacity: 0, duration: .20, ease: 'sine.in' }, start + travelDuration);
+      };
+
+      const inputs = [
+        ['.input-demand', '#input-path-1', '#input-dot-1', .42],
+        ['.input-orders', '#input-path-2', '#input-dot-2', .68],
+        ['.input-inventory', '#input-path-3', '#input-dot-3', .94]
+      ];
+      inputs.forEach(([highlight, path, dot, start]) => {
+        tl.fromTo(highlight, { opacity: 0, scale: .985 }, {
+          opacity: .84,
+          scale: 1.012,
+          duration: .24,
+          ease: 'power2.out'
+        }, start)
+          .to(highlight, { opacity: 0, scale: 1, duration: .28, ease: 'sine.in' }, start + .30);
+        travel(path, dot, start + .04, .52);
+      });
+
+      const statuses = [
+        ['.highlight.status-firm-1', 1.42],
+        ['.highlight.status-firm-2', 1.72],
+        ['.highlight.status-planned', 2.02]
+      ];
+      statuses.forEach(([highlight, start]) => {
+        tl.fromTo(highlight, {
+          opacity: 0,
+          clipPath: 'inset(0 100% 0 0)',
+          scale: .99
+        }, {
+          opacity: .86,
+          clipPath: 'inset(0 0 0 0)',
+          scale: 1.012,
+          duration: .38,
+          ease: 'power2.out'
+        }, start)
+          .to(highlight, { opacity: 0, scale: 1, duration: .28, ease: 'sine.in' }, start + .42);
+      });
+
+      travel('#fence-path', '#fence-dot', 2.28, .72, .82);
+      tl.fromTo('.lock-halo', { opacity: 0, scale: .58 }, {
+        opacity: .92,
+        scale: 1.08,
+        duration: .30,
+        ease: 'back.out(2)'
+      }, 2.48)
+        .to('.lock-halo', { opacity: 0, scale: 1, duration: .34, ease: 'sine.in' }, 2.86);
+
+      const zones = [
+        ['.highlight.zone-protected', 2.62],
+        ['.highlight.zone-controlled', 2.92],
+        ['.highlight.zone-flexible', 3.22]
+      ];
+      zones.forEach(([highlight, start]) => {
+        tl.fromTo(highlight, {
+          opacity: 0,
+          clipPath: 'inset(100% 0 0 0)',
+          scale: .985
+        }, {
+          opacity: .78,
+          clipPath: 'inset(0 0 0 0)',
+          scale: 1.012,
+          duration: .42,
+          ease: 'power2.out'
+        }, start)
+          .to(highlight, { opacity: 0, scale: 1, duration: .32, ease: 'sine.in' }, start + .46);
+      });
+
+      const outputs = [
+        ['#output-path-1', '#output-dot-1', '.highlight.model-capacity', 3.45, 4.03],
+        ['#output-path-2', '#output-dot-2', '.highlight.model-materials', 3.73, 4.31],
+        ['#output-path-3', '#output-dot-3', '.highlight.model-orders', 4.01, 4.59]
+      ];
+      outputs.forEach(([path, dot, highlight, signalStart, revealStart]) => {
+        travel(path, dot, signalStart, .62, .78);
+        tl.fromTo(highlight, { opacity: 0, scale: .988 }, {
+          opacity: .62,
+          scale: 1.008,
+          duration: .34,
+          ease: 'power2.out'
+        }, revealStart)
+          .to(highlight, { opacity: 0, scale: 1, duration: .32, ease: 'sine.in' }, revealStart + .40);
+      });
+
+      tl.fromTo('.freeze-control', { opacity: 0, scale: .992 }, {
+        opacity: .72,
+        scale: 1.008,
+        duration: .32,
+        ease: 'power2.out'
+      }, 5.12)
+        .to('.freeze-control', { opacity: 0, scale: 1, duration: .30, ease: 'sine.in' }, 5.50)
+        .fromTo('.firming-control', { opacity: 0, scale: .992 }, {
+          opacity: .72,
+          scale: 1.008,
+          duration: .32,
+          ease: 'power2.out'
+        }, 5.48)
+        .to('.firming-control', { opacity: 0, scale: 1, duration: .30, ease: 'sine.in' }, 5.86)
+        .fromTo('.takeaway-blue', { opacity: 0, clipPath: 'inset(0 100% 0 0)' }, {
+          opacity: .50,
+          clipPath: 'inset(0 0 0 0)',
+          duration: .54,
+          ease: 'power2.inOut'
+        }, 5.78)
+        .to('.takeaway-blue', { opacity: 0, duration: .30, ease: 'sine.in' }, 6.18)
+        .to(accents, { opacity: 0, duration: .01 }, 6.28);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['mps-as-a-production-commitment-motion'] = tl;
+      window.__tl = tl;
+      window.__dur = duration;
+
+      const images = Array.from(document.images).map((image) => {
+        if (image.complete) return Promise.resolve();
+        return new Promise((resolve) => {
+          image.addEventListener('load', resolve, { once: true });
+          image.addEventListener('error', resolve, { once: true });
+        });
+      });
+      Promise.all(images).then(() => { window.__ready = true; });
+    })();
+  </script>
+</body>
+</html>

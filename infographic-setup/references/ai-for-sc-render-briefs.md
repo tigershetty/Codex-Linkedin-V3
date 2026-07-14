@@ -32,7 +32,7 @@ DATA BLOCKS    — the REAL content the concept renders: layers / rows / steps /
 INSIGHT        — the takeaway the visual proves (the "so what")
 WORKED EXAMPLE — one tangible number that makes it concrete ($ / % / time)
 PROMPT         — the verbatim 20-30 word copy-paste prompt (the paste-it payload)
-WATCH FOR      — the honest limitation (mandatory trust signal; amber)
+BOUNDARY       — the honest human decision / verification point kept in the brief; publish it only when it strengthens the caption
 THESIS         — the closing coral footer line (the pin-it payload)
 ```
 

@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supplier Flexibility Matrix - Three.js Deterministic Test</title>
+<link rel="stylesheet" href="../assets/fonts.css">
+<style>
+  :root {
+    --paper: #F0EBDE;
+    --paper-2: #E6E0CE;
+    --ink: #1F2BE0;
+    --soft: #5560E5;
+    --grid: rgba(31,43,224,0.10);
+    --faint: rgba(31,43,224,0.18);
+    --wash: rgba(31,43,224,0.06);
+    --serif: Georgia, "Times New Roman", serif;
+    --sans: "Poppins", Arial, sans-serif;
+    --mono: "JetBrains Mono", "Courier New", monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #c9c1b5;
+  }
+
+  #card {
+    position: relative;
+    width: 1080px;
+    height: 1350px;
+    overflow: hidden;
+    color: var(--ink);
+    background-color: var(--paper);
+    background-image:
+      linear-gradient(var(--grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size: 22px 22px;
+    font-family: var(--sans);
+  }
+
+  #card::before,
+  #card::after {
+    content: "";
+    position: absolute;
+    left: 54px;
+    right: 54px;
+    height: 2px;
+    background: var(--ink);
+    z-index: 40;
+  }
+
+  #card::before { top: 34px; }
+  #card::after { bottom: 34px; }
+
+  .glitch {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 240px;
+    height: 356px;
+    opacity: 0.78;
+    pointer-events: none;
+  }
+
+  .glitch span {
+    position: absolute;
+    right: 0;
+    background: repeating-linear-gradient(
+      90deg,
+      rgba(31,43,224,0.16) 0 3px,
+      transparent 3px 10px
+    );
+  }
+
+  .g1 { top: 72px; width: 224px; height: 92px; }
+  .g2 { top: 164px; width: 174px; height: 72px; }
+  .g3 { top: 236px; width: 126px; height: 58px; }
+  .g4 { top: 294px; width: 78px; height: 42px; }
+
+  .qr {
+    position: absolute;
+    top: 58px;
+    right: 72px;
+    width: 74px;
+    height: 74px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 2px;
+    background: var(--paper);
+    outline: 7px solid var(--paper);
+    z-index: 30;
+  }
+
+  .qr i { background: var(--grid); }
+  .qr i:nth-child(1),
+  .qr i:nth-child(2),
+  .qr i:nth-child(3),
+  .qr i:nth-child(8),
+  .qr i:nth-child(10),
+  .qr i:nth-child(13),
+  .qr i:nth-child(16),
+  .qr i:nth-child(18),
+  .qr i:nth-child(20),
+  .qr i:nth-child(23),
+  .qr i:nth-child(26),
+  .qr i:nth-child(28),
+  .qr i:nth-child(31),
+  .qr i:nth-child(34),
+  .qr i:nth-child(36),
+  .qr i:nth-child(39),
+  .qr i:nth-child(41),
+  .qr i:nth-child(44),
+  .qr i:nth-child(47),
+  .qr i:nth-child(49),
+  .qr i:nth-child(52),
+  .qr i:nth-child(55),
+  .qr i:nth-child(58),
+  .qr i:nth-child(61),
+  .qr i:nth-child(63) { background: var(--ink); }
+
+  .header {
+    position: absolute;
+    left: 72px;
+    right: 230px;
+    top: 72px;
+  }
+
+  .kicker {
+    margin-bottom: 18px;
+    font-family: var(--mono);
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin: 0;
+    max-width: 780px;
+    font-family: var(--serif);
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 0.92;
+    letter-spacing: 0;
+  }
+
+  h1 span { display: block; white-space: nowrap; }
+
+  .sub {
+    margin-top: 18px;
+    color: var(--soft);
+    font-size: 25px;
+    line-height: 1.25;
+  }
+
+  .scene-shell {
+    position: absolute;
+    left: 54px;
+    right: 54px;
+    top: 326px;
+    height: 620px;
+    border-top: 3px solid var(--ink);
+    border-bottom: 3px solid var(--ink);
+  }
+
+  .scene-meta {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+  }
+
+  .artifact-name {
+    font-family: var(--serif);
+    font-size: 31px;
+    line-height: 1;
+  }
+
+  .artifact-tag {
+    font-family: var(--mono);
+    font-size: 15px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  #three-scene {
+    position: absolute;
+    left: 8px;
+    top: 88px;
+    width: 690px;
+    height: 430px;
+  }
+
+  #three-scene canvas {
+    display: block;
+    width: 690px;
+    height: 430px;
+  }
+
+  .row-rail {
+    position: absolute;
+    left: 18px;
+    top: 48px;
+    width: 618px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    z-index: 5;
+  }
+
+  .row-label {
+    display: grid;
+    grid-template-columns: 32px 1fr;
+    align-items: center;
+    gap: 7px;
+    height: 34px;
+  }
+
+  .rank {
+    height: 25px;
+    display: grid;
+    place-items: center;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--mono);
+    font-size: 12px;
+  }
+
+  .row-label b {
+    font-family: var(--serif);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    white-space: nowrap;
+    text-shadow:
+      -2px -2px 0 var(--paper),
+      2px -2px 0 var(--paper),
+      -2px 2px 0 var(--paper),
+      2px 2px 0 var(--paper);
+  }
+
+  .decision-panel {
+    position: absolute;
+    right: 10px;
+    top: 58px;
+    width: 302px;
+    display: grid;
+    gap: 12px;
+    z-index: 7;
+  }
+
+  .decision-card {
+    border: 2px solid var(--ink);
+    background: rgba(240,235,222,0.94);
+    padding: 13px 15px 14px;
+  }
+
+  .decision-card.primary {
+    background:
+      linear-gradient(90deg, rgba(31,43,224,0.12), rgba(240,235,222,0.94) 42%),
+      rgba(240,235,222,0.94);
+  }
+
+  .decision-card.risk {
+    background:
+      repeating-linear-gradient(135deg, rgba(31,43,224,0.10) 0 5px, rgba(240,235,222,0.94) 5px 12px);
+  }
+
+  .decision-label {
+    display: inline-grid;
+    min-height: 25px;
+    padding: 0 9px;
+    place-items: center;
+    margin-bottom: 10px;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .decision-card h2 {
+    margin: 0 0 7px;
+    font-family: var(--serif);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 0.96;
+  }
+
+  .decision-card p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.35;
+  }
+
+  .read-band {
+    position: absolute;
+    left: 18px;
+    bottom: 22px;
+    width: 606px;
+    display: grid;
+    grid-template-columns: 0.95fr 0.95fr 1.1fr;
+    gap: 14px;
+    z-index: 6;
+  }
+
+  .read-note {
+    min-height: 68px;
+    border-top: 2px solid var(--ink);
+    padding-top: 10px;
+  }
+
+  .read-note b {
+    display: block;
+    margin-bottom: 5px;
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .read-note span {
+    display: block;
+    font-size: 13px;
+    line-height: 1.25;
+  }
+
+  .criteria-list {
+    position: absolute;
+    left: 18px;
+    bottom: 106px;
+    width: 606px;
+    min-height: 34px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 7px;
+    z-index: 6;
+  }
+
+  .criteria-list span {
+    display: grid;
+    place-items: center;
+    min-height: 30px;
+    border: 1.5px solid var(--ink);
+    background: rgba(240,235,222,0.88);
+    font-family: var(--mono);
+    font-size: 10px;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .callout {
+    position: absolute;
+    width: 204px;
+    padding: 12px 14px;
+    background: rgba(240,235,222,0.92);
+    border: 2px solid var(--ink);
+    z-index: 8;
+  }
+
+  .callout.left { left: 10px; top: 388px; }
+  .callout.right { right: 10px; top: 390px; }
+
+  .callout h2 {
+    margin: 0 0 8px;
+    font-family: var(--mono);
+    font-size: 13px;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+  }
+
+  .callout p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.35;
+  }
+
+  .legend {
+    position: absolute;
+    left: 54px;
+    right: 54px;
+    top: 982px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 28px;
+  }
+
+  .legend-block {
+    min-height: 108px;
+    border-top: 2px solid var(--ink);
+    border-bottom: 2px solid var(--ink);
+    padding: 14px 0 12px;
+  }
+
+  .legend-title {
+    margin-bottom: 12px;
+    font-family: var(--mono);
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .legend-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 7px;
+    align-items: start;
+  }
+
+  .legend-item {
+    display: grid;
+    justify-items: center;
+    gap: 7px;
+    font-family: var(--mono);
+    font-size: 10px;
+    line-height: 1.12;
+    text-align: center;
+  }
+
+  .cube {
+    width: 34px;
+    height: 25px;
+    border: 2px solid var(--ink);
+    background: rgba(31,43,224,0.08);
+  }
+
+  .cube.strong { background: var(--ink); }
+  .cube.good { background: linear-gradient(90deg, var(--ink) 0 72%, rgba(31,43,224,0.08) 72%); }
+  .cube.half { background: linear-gradient(90deg, var(--ink) 0 50%, rgba(31,43,224,0.08) 50%); }
+  .cube.weak { background: linear-gradient(90deg, var(--ink) 0 25%, rgba(31,43,224,0.08) 25%); }
+  .cube.risk {
+    background: repeating-linear-gradient(
+      135deg,
+      rgba(31,43,224,0.12) 0 5px,
+      transparent 5px 11px
+    );
+  }
+
+  .workflow {
+    position: absolute;
+    left: 54px;
+    right: 54px;
+    top: 1118px;
+    height: 92px;
+    display: grid;
+    grid-template-columns: 1fr 76px 1fr 76px 1fr;
+    align-items: center;
+  }
+
+  .node {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+    gap: 14px;
+    border-top: 2px solid var(--ink);
+    border-bottom: 2px solid var(--ink);
+    background: rgba(240,235,222,0.78);
+    padding: 0 20px;
+    font-family: var(--serif);
+    font-size: 29px;
+    line-height: 1;
+  }
+
+  .node img {
+    width: 46px;
+    height: 46px;
+    object-fit: contain;
+  }
+
+  .node svg {
+    width: 46px;
+    height: 46px;
+    stroke: var(--ink);
+    stroke-width: 3;
+    fill: none;
+  }
+
+  .arrow {
+    height: 2px;
+    background: var(--ink);
+    position: relative;
+  }
+
+  .arrow::after {
+    content: "";
+    position: absolute;
+    right: -2px;
+    top: -9px;
+    border-left: 17px solid var(--ink);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+
+  .question {
+    position: absolute;
+    left: 72px;
+    right: 72px;
+    bottom: 88px;
+    font-family: var(--serif);
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .footer {
+    position: absolute;
+    left: 54px;
+    right: 54px;
+    bottom: 42px;
+    height: 42px;
+    display: grid;
+    grid-template-columns: 52px 1fr auto;
+    align-items: center;
+    gap: 16px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+  }
+
+  .footer img {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+  }
+</style>
+</head>
+<body>
+  <main id="card" aria-label="Can This Supplier Absorb the Spike?">
+    <div class="glitch" aria-hidden="true">
+      <span class="g1"></span>
+      <span class="g2"></span>
+      <span class="g3"></span>
+      <span class="g4"></span>
+    </div>
+
+    <div class="qr" aria-hidden="true">
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
+
+    <section class="header">
+      <div class="kicker">AI FOR SUPPLY CHAIN / TRUE 3D MATRIX</div>
+      <h1><span>Can This Supplier</span><span>Absorb the Spike?</span></h1>
+      <div class="sub">Claude structures the matrix. You verify capacity.</div>
+    </section>
+
+    <section class="scene-shell" aria-label="Three-dimensional supplier flexibility matrix">
+      <div class="scene-meta">
+        <div class="artifact-name">Supplier flexibility terrain</div>
+        <div class="artifact-tag">Capacity confidence</div>
+      </div>
+      <div id="three-scene" aria-hidden="true"></div>
+
+      <div class="row-rail" aria-label="Supplier rows">
+        <div class="row-label"><span class="rank">01</span><b>Supplier A</b></div>
+        <div class="row-label"><span class="rank">02</span><b>Supplier B</b></div>
+        <div class="row-label"><span class="rank">03</span><b>Supplier C</b></div>
+        <div class="row-label"><span class="rank">04</span><b>Supplier D</b></div>
+        <div class="row-label"><span class="rank">05</span><b>Supplier E</b></div>
+      </div>
+
+      <div class="decision-panel" aria-label="Decision path">
+        <div class="decision-card primary">
+          <span class="decision-label">Call first</span>
+          <h2>Supplier A</h2>
+          <p>Best usable shape across volume swing, response time, MOQ, constraint, and confidence. Call first, then verify capacity.</p>
+        </div>
+        <div class="decision-card">
+          <span class="decision-label">Backup</span>
+          <h2>Supplier B / C</h2>
+          <p>Keep warm as backup options. They can help, but the shape is less complete than Supplier A.</p>
+        </div>
+        <div class="decision-card risk">
+          <span class="decision-label">Watch risk</span>
+          <h2>Supplier D / E</h2>
+          <p>Do not treat as ready until evidence is checked. Low confidence should trigger supplier questions.</p>
+        </div>
+      </div>
+
+      <div class="criteria-list" aria-label="Matrix criteria">
+        <span>Volume swing</span>
+        <span>Response time</span>
+        <span>MOQ</span>
+        <span>Constraint</span>
+        <span>Confidence</span>
+      </div>
+
+      <div class="read-band" aria-label="How to read this terrain">
+        <div class="read-note">
+          <b>Height</b>
+          <span>Taller posts mean stronger flexibility signals.</span>
+        </div>
+        <div class="read-note">
+          <b>Shape</b>
+          <span>A balanced row is safer than one tall column.</span>
+        </div>
+        <div class="read-note">
+          <b>Risk</b>
+          <span>Pale low blocks mean verify before relying on capacity.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="legend" aria-label="Score key and verification key">
+      <div class="legend-block">
+        <div class="legend-title">Score key</div>
+        <div class="legend-row">
+          <div class="legend-item"><span class="cube strong"></span><span>Strong</span></div>
+          <div class="legend-item"><span class="cube good"></span><span>Good</span></div>
+          <div class="legend-item"><span class="cube half"></span><span>Half-fit</span></div>
+          <div class="legend-item"><span class="cube weak"></span><span>Weak</span></div>
+          <div class="legend-item"><span class="cube"></span><span>Not ready</span></div>
+        </div>
+      </div>
+
+      <div class="legend-block">
+        <div class="legend-title">Constraint key</div>
+        <div class="legend-row">
+          <div class="legend-item"><span class="cube strong"></span><span>High</span></div>
+          <div class="legend-item"><span class="cube good"></span><span>Medium</span></div>
+          <div class="legend-item"><span class="cube weak"></span><span>Low</span></div>
+          <div class="legend-item"><span class="cube"></span><span>None</span></div>
+          <div class="legend-item"><span class="cube risk"></span><span>Watch risk</span></div>
+        </div>
+      </div>
+
+      <div class="legend-block">
+        <div class="legend-title">Verify readiness</div>
+        <div class="legend-row">
+          <div class="legend-item"><span class="cube strong"></span><span>Ready</span></div>
+          <div class="legend-item"><span class="cube good"></span><span>Evidence checked</span></div>
+          <div class="legend-item"><span class="cube risk"></span><span>Verify readiness</span></div>
+          <div class="legend-item"><span class="cube"></span><span>Not ready</span></div>
+          <div class="legend-item"><span class="cube half"></span><span>Capacity confidence</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="workflow" aria-label="Claude to matrix to action">
+      <div class="node">
+        <img src="../assets/logos/claude-color.svg" alt="">
+        <span>Claude</span>
+      </div>
+      <div class="arrow" aria-hidden="true"></div>
+      <div class="node">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <rect x="10" y="12" width="44" height="40"></rect>
+          <path d="M10 26h44M10 39h44M24 12v40M39 12v40"></path>
+        </svg>
+        <span>Matrix</span>
+      </div>
+      <div class="arrow" aria-hidden="true"></div>
+      <div class="node">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M10 44h16l8-23 8 13h12"></path>
+          <path d="M48 24l6 10-10 6"></path>
+          <circle cx="16" cy="44" r="5"></circle>
+        </svg>
+        <span>Action</span>
+      </div>
+    </section>
+
+    <div class="question">Which supplier would you call first?</div>
+
+    <footer class="footer">
+      <img src="../assets/logos/shettys-desk-logo-2.png" alt="">
+      <span>SHETTY'S DESK / AI FOR SUPPLY CHAIN</span>
+      <span>2026-W28</span>
+    </footer>
+  </main>
+
+<script type="module">
+import * as THREE from '../node_modules/three/build/three.module.js';
+
+const root = document.getElementById('three-scene');
+const width = 690;
+const height = 430;
+const ink = 0x1F2BE0;
+const paper = 0xF0EBDE;
+
+const suppliers = [
+  { id: 'A', row: 0, values: [5, 5, 4, 4, 4], action: 'Call first' },
+  { id: 'B', row: 1, values: [4, 3, 3, 3, 3], action: 'Backup' },
+  { id: 'C', row: 2, values: [3, 3, 3, 3, 2], action: 'Backup' },
+  { id: 'D', row: 3, values: [2, 2, 1, 1, 1], action: 'Watch risk', risk: true },
+  { id: 'E', row: 4, values: [1, 1, 1, 1, 0.4], action: 'Watch risk', risk: true }
+];
+
+const scene = new THREE.Scene();
+scene.background = null;
+
+const camera = new THREE.OrthographicCamera(-5.65, 5.65, 3.55, -3.55, 0.1, 100);
+camera.position.set(7.4, 7.0, 8.2);
+camera.lookAt(0.65, 0, 0);
+camera.zoom = 1.08;
+camera.updateProjectionMatrix();
+
+const renderer = new THREE.WebGLRenderer({
+  antialias: true,
+  alpha: true,
+  preserveDrawingBuffer: true
+});
+renderer.setPixelRatio(2);
+renderer.setSize(width, height);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+root.appendChild(renderer.domElement);
+
+const ambient = new THREE.AmbientLight(0xffffff, 2.1);
+scene.add(ambient);
+const key = new THREE.DirectionalLight(0xffffff, 2.2);
+key.position.set(-4, 7, 8);
+scene.add(key);
+const rim = new THREE.DirectionalLight(0x5560E5, 1.1);
+rim.position.set(7, 4, -3);
+scene.add(rim);
+
+const inkMat = new THREE.MeshStandardMaterial({
+  color: ink,
+  roughness: 0.62,
+  metalness: 0.02
+});
+const deckMat = new THREE.MeshStandardMaterial({
+  color: paper,
+  roughness: 0.82,
+  metalness: 0.0,
+  transparent: true,
+  opacity: 0.72
+});
+const faintMat = new THREE.MeshStandardMaterial({
+  color: ink,
+  roughness: 0.78,
+  metalness: 0.0,
+  transparent: true,
+  opacity: 0.16
+});
+const riskMat = new THREE.MeshStandardMaterial({
+  color: ink,
+  roughness: 0.9,
+  metalness: 0.0,
+  transparent: true,
+  opacity: 0.24
+});
+const edgeMat = new THREE.LineBasicMaterial({ color: ink, transparent: true, opacity: 0.68 });
+const gridMat = new THREE.LineBasicMaterial({ color: ink, transparent: true, opacity: 0.20 });
+
+function addBox({ x, z, w, d, h, mat, y = 0 }) {
+  const geo = new THREE.BoxGeometry(w, h, d);
+  const mesh = new THREE.Mesh(geo, mat);
+  mesh.position.set(x, y + h / 2, z);
+  scene.add(mesh);
+  const edges = new THREE.EdgesGeometry(geo);
+  const line = new THREE.LineSegments(edges, edgeMat);
+  line.position.copy(mesh.position);
+  scene.add(line);
+  return mesh;
+}
+
+function addGridLine(x1, z1, x2, z2) {
+  const points = [new THREE.Vector3(x1, 0.04, z1), new THREE.Vector3(x2, 0.04, z2)];
+  const geo = new THREE.BufferGeometry().setFromPoints(points);
+  scene.add(new THREE.Line(geo, gridMat));
+}
+
+const deckW = 8.8;
+const deckD = 5.4;
+addBox({ x: 1.0, z: 0, w: deckW, d: deckD, h: 0.16, mat: deckMat, y: -0.10 });
+
+for (let c = 0; c <= 5; c++) {
+  const x = -2.8 + c * 1.35;
+  addGridLine(x, -2.7, x, 2.7);
+}
+for (let r = 0; r <= 5; r++) {
+  const z = -2.35 + r * 1.0;
+  addGridLine(-2.8, z, 4.0, z);
+}
+
+suppliers.forEach((supplier, rowIndex) => {
+  const z = -2.0 + rowIndex * 1.0;
+  const deckTone = supplier.risk ? riskMat : faintMat;
+  addBox({ x: 0.6, z, w: 7.4, d: 0.72, h: 0.10, mat: deckTone, y: 0.02 });
+
+  supplier.values.forEach((value, colIndex) => {
+    const x = -2.35 + colIndex * 1.35;
+    const h = Math.max(0.22, value * 0.42);
+    const material = supplier.risk && colIndex >= 3 ? riskMat : inkMat;
+    addBox({ x, z, w: 0.48, d: 0.48, h, mat: material, y: 0.08 });
+  });
+});
+
+// Rear confidence wall, giving the object a more intentional physical frame.
+addBox({ x: 4.12, z: 0, w: 0.10, d: deckD, h: 0.72, mat: faintMat, y: 0.02 });
+addBox({ x: 4.12, z: -2.0, w: 0.14, d: 0.42, h: 1.6, mat: inkMat, y: 0.04 });
+addBox({ x: 4.12, z: -1.0, w: 0.14, d: 0.42, h: 1.2, mat: inkMat, y: 0.04 });
+addBox({ x: 4.12, z: 0, w: 0.14, d: 0.42, h: 0.86, mat: inkMat, y: 0.04 });
+addBox({ x: 4.12, z: 1.0, w: 0.14, d: 0.42, h: 0.36, mat: riskMat, y: 0.04 });
+addBox({ x: 4.12, z: 2.0, w: 0.14, d: 0.42, h: 0.24, mat: riskMat, y: 0.04 });
+
+// Soft floor shadow as real geometry, not CSS blur.
+const shadowGeo = new THREE.CircleGeometry(5.0, 80);
+const shadowMat = new THREE.MeshBasicMaterial({
+  color: ink,
+  transparent: true,
+  opacity: 0.055,
+  depthWrite: false
+});
+const shadow = new THREE.Mesh(shadowGeo, shadowMat);
+shadow.rotation.x = -Math.PI / 2;
+shadow.position.set(0.7, -0.14, 0.2);
+shadow.scale.set(1.3, 0.62, 1);
+scene.add(shadow);
+
+function render() {
+  renderer.render(scene, camera);
+}
+
+render();
+requestAnimationFrame(() => {
+  render();
+  window.__THREE_MATRIX_READY = true;
+});
+</script>
+</body>
+</html>

@@ -1,10 +1,11 @@
 # Render Pilot — Direct HTML/GSAP Workflow (no Gemini prompt)
-**Created**: 2026-06-16 · **Branch**: `claude/html-render-pilot` · **Status**: Pilot, to merge into the main workflow once validated.
-**Why**: The Gemini-prompt step is a lossy translation layer — it reintroduces data hallucination and tool-branded (off-brand) visuals, the exact problems the code renderer exists to remove. This pilot removes it and renders Shetty's Desk infographics directly from a render brief.
+**Created**: 2026-06-16 · **Branch**: `claude/html-render-pilot` · **Status**: Historical/control-lane reference as of 2026-06-30.
+**Current role**: Visual Engine v2 (`visual-engine-v2.md`) is active. GPT Image 2 is the primary creative renderer; this HTML/GSAP workflow remains the backup, comparison, exact-data, and motion lane.
+**Why keep it**: The Gemini-prompt step was a lossy translation layer — it reintroduced data hallucination and tool-branded visuals. The same renderer is still valuable when deterministic structure, exact type, or GIF/MP4 output matters.
 
 ---
 
-## The new pipeline (replaces topic → caption → Gemini prompt → paste)
+## The historical HTML pipeline (now the control/backup lane)
 
 ```
 1. TOPIC        pull the episode from ai-for-sc-plan-v2.md (Role / Tool / Use Case / Hook / Visual concept)
@@ -22,11 +23,11 @@
 7. CAPTION      the LinkedIn caption is written as today (voice files), independent of the visual.
 ```
 
-> **The 3-variant standard (2026-06-28).** Every post — 101 and AI-for-SC — renders **3 visually distinct
+> **Historical 3-variant standard (2026-06-28).** Before Visual Engine v2, every post — 101 and AI-for-SC — rendered **3 visually distinct
 > concepts** and the user picks one. The 3 must differ from each other in **layout framework AND hero
 > device** (three skeletons, not three colour swaps). This is the variety guarantee: no two posts lean on
 > the same default, because every post is chosen from a fresh trio. Keep all 3 templates + out PNGs on disk
-> (the unused two are the variety log + the seed for future posts on the topic).
+> (the unused two are the variety log + the seed for future posts on the topic). Under Visual Engine v2, use three HTML variants only when HTML is the chosen final lane or the user explicitly requests coded options.
 
 > **The craft layer (2026-06-28) → `references/premium-visual-craft.md`.** Picking the right framework is
 > half the job; rendering it to world-class is the other half. The craft file distils a research sweep
@@ -35,15 +36,12 @@
 > source band), the consulting slide-craft, and chart-styling CSS recipes. **Read it before building every
 > variant** — `layout-frameworks-intelligence.md` says *which* shape, this says *how to make it premium*.
 
-**Animation pipeline (built 2026-06-16).** The `-anim.html` variant adds GSAP: a paused master
-timeline exposed on `window.__tl` that reveals the elements in sequence (header → stat → blocks
-unfold one by one → bars grow → timeline nodes light up). `render-anim.mjs` **scrubs the timeline
-frame-by-frame** (`tl.time(t)` per frame, then screenshot `#card`) so the output is pixel-deterministic,
-not a real-time capture — then `ffmpeg-static` assembles the frames into a full-res **MP4** (LinkedIn
-video) and a downscaled palette-optimised **GIF**. Proof: `out/pf7-blueprint-draft.mp4` / `.gif`
-(~4s unfold + 1.6s hold, 25fps). Deps live in the gitignored `node_modules` (`npm i gsap ffmpeg-static`);
-GSAP is vendored to `assets/js/gsap.min.js` for offline render. Reserve animation for posts where
-sequence carries meaning (a workflow unfolding, a tool-to-tool hand-off); a still PNG stays the default.
+**Active animation standard:** `references/motion-engine-v1.md` supersedes the
+prototype choreography guidance in this historical file. `render-anim.mjs` still
+scrubs a paused GSAP timeline frame-by-frame and FFmpeg still produces the MP4
+and palette-optimized GIF. The active method starts from an approved
+`visual.png`, maps semantic components from that visual's layout, and requires
+pixel-identical opening and closing lossless frames.
 
 **No Gemini prompt is produced.** The brand kit is Shetty's Desk only; the AI tool appears solely as its logo.
 
@@ -119,20 +117,34 @@ Carry these into every future 101 + AI-for-SC template. The exemplar is `templat
 - `clip-path` clips `box-shadow` — use `filter:drop-shadow()` for depth on clipped shapes.
 - A CSS grid divider must be a real grid item (`el.style.gridColumn='1/5'`), not a class on an inner div — otherwise the row shifts a column.
 
-## 3. The two-mode animation system (use sparingly, on purpose)
-- **Unfold** (`*-anim.html`) — elements reveal in sequence; use only when the *sequence carries meaning* (a workflow assembling, a hand-off). Seamless loop via an in-timeline fade-out.
-- **Ambient orbit** (`*-path.html`) — the card stays fully static and readable while a small Claude mark drifts a dotted route **in the clear margins only** (never over content), now a calm **60s loop**. Use when you want motion to stop the scroll without the content moving.
-- A still PNG remains the default. Animation is opt-in per episode, declared in the render brief.
+## 3. Motion system - superseded by Motion Engine v1
 
-> **AI-still backup lane (2026-06-29) → `references/ai-still-prompt-learnings.md`.** This file is the *code-render* (primary) playbook. When 101 falls back to the GPT Image 2 illustration lane instead, that lane now has its own learnings file — framework-first selection, the info-design-not-cinematography register, anchors-are-load-bearing, GPT Image 2 = 3:4, and the egress constraint (the user judges renders in-panel; the CDN output host is blocked here). Read it before writing any GPT Image 2 prompt.
+The old unfold/ambient-orbit split is retained as historical context only. The
+active system is layout-adaptive and picture-first:
 
-## 4. The 101 question — REVISED 2026-06-21: 101 is now CODE-RENDER PRIMARY, ChatGPT (GPT Image 2) = backup
-**Supersedes the earlier "hard pass."** After perfecting the supplier-quote still (`sc101-quote-iso-towers.html`) to a consulting-grade standard — genuine 3D isometric towers + a Harvey-ball scorecard + a part-to-whole share bar + side callouts, all on the homogeneous Shetty's Desk frame — the code-render advantage proved just as decisive for 101 as for AI-for-SC: exact numbers, locked brand, real 3D depth, and the information density that makes a post save-worthy. **Decision: `/101` builds its infographic in `renderer/` (HTML→PNG) as the default**; the ChatGPT (GPT Image 2) prompt is retained in `101-copy.md` as the **backup** path (illustration fallback for a purely metaphorical concept post with no load-bearing structure). The earlier rationale (101 = "one big illustrative visual") was too narrow: 101 concepts argue a *shape* (a comparison, a funnel, a hierarchy) that code-render makes precisely, and the brand anchor was never as on-brand as the coded azure/eco system on white.
+- the still remains the default and canonical artifact,
+- motion is opt-in after still approval,
+- choreography follows the visual's own archetype and reading order,
+- semantic masks or source-fitted covers replace raw crop animation,
+- body text and logos stay locked,
+- the complete visual opens and closes the loop.
+
+Use `references/motion-engine-v1.md` and the templates it names.
+
+> **Superseded by Visual Engine v2 (2026-06-30).** This file is no longer the primary still-image playbook. Use it when the HTML renderer is the chosen final lane, when exact data needs a deterministic control, or when motion/GIF/MP4 output is required. Read `visual-engine-v2.md` before writing any GPT Image 2 prompt.
+
+## 4. The 101 question — SUPERSEDED 2026-06-30: GPT Image 2 primary, HTML control lane
+The 2026-06-21 decision made 101 code-render primary after several strong HTML proofs. That decision is now superseded. The current approach is:
+
+- GPT Image 2 leads creative rendering for new 101 stills.
+- HTML/code-render stays alive as the comparison and backup lane.
+- Use HTML first only when exact numbers, dense charts, or deterministic type/layout control are more important than generative editorial range.
+- Preserve previous code-render templates as reusable controls and fallback seeds, not as the default creative bottleneck.
 
 Difference vs AI-for-SC: 101 carries **no AI-tool logo** (101 has no tool mark), uses the accessible 101 register, and leans on the `layout-frameworks-intelligence.md` 200-pattern selector + the composition-mode choice (hero-dominant integrated vs layered multi-block) rather than the 50-format Hero-Number system.
 
-## 5. Merge plan — bring the renderer into the main AI-for-SC flow
-**Scope of this merge: AI for Supply Chain only.** (101 → ChatGPT GPT Image 2 prompt, unchanged flow otherwise; Deep Dive stays on the Gemini Gem. Both already wired in the skills + CLAUDE.md.)
+## 5. Historical merge plan — renderer as a maintained control lane
+**Scope now:** both active pipelines may use the renderer as backup/control. Deep Dive stays archived.
 
 1. **Land the branch.** Merge `claude/html-render-pilot` → working branch → `main`. The renderer (`renderer/`, templates, assets, scripts) ships with it.
 2. **Repoint `/ai-for-sc`.** Replace the Gemini-prompt section with two steps:

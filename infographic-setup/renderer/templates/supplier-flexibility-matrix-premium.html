@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supplier Flexibility Matrix - Premium HTML SVG Test</title>
+<link rel="stylesheet" href="../assets/fonts.css">
+<style>
+  :root {
+    --paper: #F0EBDE;
+    --paper-2: #E6E0CE;
+    --ink: #1F2BE0;
+    --soft: #5560E5;
+    --grid: rgba(31,43,224,0.10);
+    --faint: rgba(31,43,224,0.18);
+    --wash: rgba(31,43,224,0.055);
+    --serif: Georgia, "Times New Roman", serif;
+    --sans: "Poppins", Arial, sans-serif;
+    --mono: "JetBrains Mono", "Courier New", monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #c9c1b5;
+  }
+
+  #card {
+    position: relative;
+    width: 1080px;
+    height: 1350px;
+    overflow: hidden;
+    color: var(--ink);
+    background-color: var(--paper);
+    background-image:
+      linear-gradient(var(--grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size: 22px 22px;
+    font-family: var(--sans);
+  }
+
+  #card::before,
+  #card::after {
+    content: "";
+    position: absolute;
+    left: 54px;
+    right: 54px;
+    height: 2px;
+    background: var(--ink);
+    z-index: 30;
+  }
+
+  #card::before { top: 34px; }
+  #card::after { bottom: 34px; }
+
+  .glitch {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 242px;
+    height: 360px;
+    opacity: 0.8;
+    pointer-events: none;
+  }
+
+  .glitch span {
+    position: absolute;
+    right: 0;
+    background: repeating-linear-gradient(
+      90deg,
+      rgba(31,43,224,0.16) 0 3px,
+      transparent 3px 10px
+    );
+  }
+
+  .g1 { top: 72px; width: 224px; height: 92px; }
+  .g2 { top: 164px; width: 174px; height: 72px; }
+  .g3 { top: 236px; width: 126px; height: 58px; }
+  .g4 { top: 294px; width: 78px; height: 42px; }
+
+  .qr {
+    position: absolute;
+    top: 58px;
+    right: 72px;
+    width: 74px;
+    height: 74px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 2px;
+    padding: 0;
+    background: var(--paper);
+    outline: 7px solid var(--paper);
+    z-index: 22;
+  }
+
+  .qr i { background: var(--grid); }
+  .qr i:nth-child(1),
+  .qr i:nth-child(2),
+  .qr i:nth-child(3),
+  .qr i:nth-child(8),
+  .qr i:nth-child(10),
+  .qr i:nth-child(13),
+  .qr i:nth-child(16),
+  .qr i:nth-child(18),
+  .qr i:nth-child(20),
+  .qr i:nth-child(23),
+  .qr i:nth-child(26),
+  .qr i:nth-child(28),
+  .qr i:nth-child(31),
+  .qr i:nth-child(34),
+  .qr i:nth-child(36),
+  .qr i:nth-child(39),
+  .qr i:nth-child(41),
+  .qr i:nth-child(44),
+  .qr i:nth-child(47),
+  .qr i:nth-child(49),
+  .qr i:nth-child(52),
+  .qr i:nth-child(55),
+  .qr i:nth-child(58),
+  .qr i:nth-child(61),
+  .qr i:nth-child(63) { background: var(--ink); }
+
+  .header {
+    position: absolute;
+    top: 72px;
+    left: 72px;
+    right: 190px;
+  }
+
+  .kicker {
+    margin-bottom: 20px;
+    font-family: var(--mono);
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin: 0;
+    max-width: 830px;
+    font-family: var(--serif);
+    font-size: 82px;
+    font-weight: 400;
+    line-height: 0.92;
+    letter-spacing: 0;
+  }
+
+  h1 span {
+    display: block;
+    white-space: nowrap;
+  }
+
+  .sub {
+    margin-top: 18px;
+    max-width: 650px;
+    color: var(--soft);
+    font-size: 25px;
+    line-height: 1.25;
+    font-weight: 400;
+  }
+
+  .matrix-wrap {
+    position: absolute;
+    left: 54px;
+    right: 54px;
+    top: 328px;
+  }
+
+  .matrix-top {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    gap: 24px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--ink);
+  }
+
+  .artifact-name {
+    font-family: var(--serif);
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 1;
+  }
+
+  .artifact-tag {
+    font-family: var(--mono);
+    font-size: 15px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .matrix {
+    display: grid;
+    grid-template-columns: 152px 118px 136px 92px 126px 128px 102px 118px;
+    border-left: 2px solid var(--ink);
+    border-right: 2px solid var(--ink);
+    border-bottom: 2px solid var(--ink);
+    background: rgba(240,235,222,0.86);
+  }
+
+  .cell {
+    min-height: 100px;
+    border-right: 1px solid var(--faint);
+    border-bottom: 1px solid var(--faint);
+    display: grid;
+    align-items: center;
+    padding: 12px 14px;
+  }
+
+  .cell:nth-child(8n) { border-right: 0; }
+  .head {
+    min-height: 58px;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--mono);
+    font-size: 13px;
+    line-height: 1.12;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    justify-items: center;
+  }
+
+  .supplier {
+    align-content: center;
+    gap: 6px;
+    background: rgba(31,43,224,0.045);
+  }
+
+  .supplier b {
+    font-family: var(--serif);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 0.96;
+  }
+
+  .rank {
+    width: 34px;
+    height: 22px;
+    display: grid;
+    place-items: center;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--mono);
+    font-size: 12px;
+  }
+
+  .tag {
+    display: inline-grid;
+    width: max-content;
+    min-width: 84px;
+    min-height: 24px;
+    place-items: center;
+    border: 1.5px solid var(--ink);
+    font-family: var(--mono);
+    font-size: 11px;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background: var(--paper);
+  }
+
+  .watch .tag {
+    background: repeating-linear-gradient(
+      135deg,
+      rgba(31,43,224,0.11) 0 5px,
+      transparent 5px 11px
+    );
+  }
+
+  .ticks {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+    align-items: end;
+    height: 52px;
+  }
+
+  .ticks i {
+    display: block;
+    height: 44px;
+    border: 2px solid var(--ink);
+    background: rgba(31,43,224,0.08);
+  }
+
+  .ticks i.on { background: var(--ink); }
+  .ticks i:nth-child(1) { height: 18px; }
+  .ticks i:nth-child(2) { height: 26px; }
+  .ticks i:nth-child(3) { height: 34px; }
+  .ticks i:nth-child(4) { height: 42px; }
+  .ticks i:nth-child(5) { height: 50px; }
+
+  .speed {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    align-items: center;
+  }
+
+  .speed i {
+    height: 16px;
+    border: 2px solid var(--ink);
+    background: rgba(31,43,224,0.08);
+  }
+
+  .speed i.on { background: var(--ink); }
+
+  .moq {
+    width: 100%;
+    height: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    align-items: end;
+  }
+
+  .moq i {
+    display: block;
+    border: 2px solid var(--ink);
+    background: rgba(31,43,224,0.08);
+  }
+
+  .moq i:nth-child(1) { height: 22px; }
+  .moq i:nth-child(2) { height: 34px; }
+  .moq i:nth-child(3) { height: 46px; }
+  .moq.low i:nth-child(1),
+  .moq.med i:nth-child(1),
+  .moq.med i:nth-child(2),
+  .moq.high i { background: var(--ink); }
+
+  .constraint {
+    display: grid;
+    gap: 7px;
+  }
+
+  .constraint i {
+    height: 7px;
+    border: 1.5px solid var(--ink);
+    background: rgba(31,43,224,0.08);
+  }
+
+  .constraint.low i:nth-child(1),
+  .constraint.medium i:nth-child(-n+2),
+  .constraint.high i { background: var(--ink); }
+
+  .confidence {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    align-items: center;
+  }
+
+  .confidence i {
+    height: 30px;
+    border: 2px solid var(--ink);
+    background: rgba(31,43,224,0.08);
+  }
+
+  .confidence i.on { background: var(--ink); }
+
+  .verify {
+    width: 48px;
+    height: 48px;
+    justify-self: center;
+    border: 3px solid var(--ink);
+    position: relative;
+    background: rgba(31,43,224,0.06);
+  }
+
+  .verify.ready::after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    width: 24px;
+    height: 13px;
+    border-left: 5px solid var(--ink);
+    border-bottom: 5px solid var(--ink);
+    transform: rotate(-45deg);
+  }
+
+  .verify.partial::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    top: 21px;
+    height: 5px;
+    background: var(--ink);
+  }
+
+  .verify.gap {
+    background: repeating-linear-gradient(
+      135deg,
+      rgba(31,43,224,0.10) 0 5px,
+      transparent 5px 11px
+    );
+  }
+
+  .spark {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 4px;
+    align-items: end;
+    height: 54px;
+  }
+
+  .spark i {
+    display: block;
+    width: 100%;
+    background: var(--ink);
+  }
+
+  .spark i:nth-child(1) { height: 22px; opacity: 0.25; }
+  .spark i:nth-child(2) { height: 28px; opacity: 0.35; }
+  .spark i:nth-child(3) { height: 36px; opacity: 0.55; }
+  .spark i:nth-child(4) { height: 44px; opacity: 0.72; }
+  .spark i:nth-child(5) { height: 52px; opacity: 1; }
+  .spark i:nth-child(6) { height: 46px; opacity: 0.78; }
+  .spark i:nth-child(7) { height: 34px; opacity: 0.52; }
+  .spark i:nth-child(8) { height: 26px; opacity: 0.34; }
+
+  .legend {
+    position: absolute;
+    left: 54px;
+    right: 54px;
+    top: 990px;
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr 1.1fr;
+    gap: 26px;
+    padding-top: 18px;
+    border-top: 3px solid var(--ink);
+  }
+
+  .legend-block {
+    min-height: 92px;
+    border-bottom: 1.5px solid var(--ink);
+  }
+
+  .legend-title {
+    margin-bottom: 13px;
+    font-family: var(--mono);
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .legend-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 7px;
+  }
+
+  .legend-item {
+    display: grid;
+    gap: 7px;
+    justify-items: center;
+    font-family: var(--mono);
+    font-size: 10px;
+    line-height: 1.12;
+    text-align: center;
+  }
+
+  .legend-swatch {
+    width: 34px;
+    height: 24px;
+    border: 2px solid var(--ink);
+  }
+
+  .legend-swatch.fill4 {
+    background: linear-gradient(90deg, var(--ink) 0 80%, rgba(31,43,224,0.08) 80%);
+  }
+
+  .legend-swatch.fill3 {
+    background: linear-gradient(90deg, var(--ink) 0 60%, rgba(31,43,224,0.08) 60%);
+  }
+
+  .legend-swatch.fill2 {
+    background: linear-gradient(90deg, var(--ink) 0 40%, rgba(31,43,224,0.08) 40%);
+  }
+
+  .legend-swatch.fill1 {
+    background: linear-gradient(90deg, var(--ink) 0 20%, rgba(31,43,224,0.08) 20%);
+  }
+
+  .constraint-key,
+  .confidence-key {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+
+  .workflow {
+    position: absolute;
+    left: 54px;
+    right: 54px;
+    top: 1122px;
+    height: 92px;
+    display: grid;
+    grid-template-columns: 1fr 76px 1fr 76px 1fr;
+    align-items: center;
+  }
+
+  .node {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+    gap: 14px;
+    border-top: 2px solid var(--ink);
+    border-bottom: 2px solid var(--ink);
+    background: rgba(240,235,222,0.78);
+    padding: 0 20px;
+    font-family: var(--serif);
+    font-size: 29px;
+    line-height: 1;
+  }
+
+  .node img {
+    width: 46px;
+    height: 46px;
+    object-fit: contain;
+  }
+
+  .node svg {
+    width: 46px;
+    height: 46px;
+    stroke: var(--ink);
+    stroke-width: 3;
+    fill: none;
+  }
+
+  .arrow {
+    height: 2px;
+    background: var(--ink);
+    position: relative;
+  }
+
+  .arrow::after {
+    content: "";
+    position: absolute;
+    right: -2px;
+    top: -9px;
+    border-left: 17px solid var(--ink);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+
+  .question {
+    position: absolute;
+    left: 72px;
+    right: 72px;
+    bottom: 88px;
+    font-family: var(--serif);
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .footer {
+    position: absolute;
+    left: 54px;
+    right: 54px;
+    bottom: 42px;
+    height: 42px;
+    display: grid;
+    grid-template-columns: 52px 1fr auto;
+    align-items: center;
+    gap: 16px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+  }
+
+  .footer img {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+  }
+</style>
+</head>
+<body>
+  <main id="card" aria-label="Can This Supplier Absorb the Spike?">
+    <div class="glitch" aria-hidden="true">
+      <span class="g1"></span>
+      <span class="g2"></span>
+      <span class="g3"></span>
+      <span class="g4"></span>
+    </div>
+
+    <div class="qr" aria-hidden="true">
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
+
+    <section class="header">
+      <div class="kicker">AI FOR SUPPLY CHAIN / MATRIX</div>
+      <h1><span>Can This Supplier</span><span>Absorb the Spike?</span></h1>
+      <div class="sub">Claude structures the matrix. You verify capacity.</div>
+    </section>
+
+    <section class="matrix-wrap" aria-label="Supplier flexibility matrix">
+      <div class="matrix-top">
+        <div class="artifact-name">Supplier flexibility matrix</div>
+        <div class="artifact-tag">Capacity confidence</div>
+      </div>
+      <div class="matrix">
+        <div class="cell head">Supplier</div>
+        <div class="cell head">Volume<br>swing</div>
+        <div class="cell head">Response<br>time</div>
+        <div class="cell head">MOQ</div>
+        <div class="cell head">Constraint</div>
+        <div class="cell head">Confidence</div>
+        <div class="cell head">Verify</div>
+        <div class="cell head">Action</div>
+
+        <div class="cell supplier">
+          <span class="rank">01</span>
+          <b>Supplier A</b>
+        </div>
+        <div class="cell"><span class="ticks"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></div>
+        <div class="cell"><span class="speed"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></div>
+        <div class="cell"><span class="moq low"><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="constraint low"><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="confidence"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></div>
+        <div class="cell"><span class="verify ready" aria-label="Ready"></span></div>
+        <div class="cell"><span class="tag">Call first</span></div>
+
+        <div class="cell supplier">
+          <span class="rank">02</span>
+          <b>Supplier B</b>
+        </div>
+        <div class="cell"><span class="ticks"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></div>
+        <div class="cell"><span class="speed"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></div>
+        <div class="cell"><span class="moq med"><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="constraint medium"><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="confidence"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></div>
+        <div class="cell"><span class="verify ready" aria-label="Evidence checked"></span></div>
+        <div class="cell"><span class="tag">Backup</span></div>
+
+        <div class="cell supplier">
+          <span class="rank">03</span>
+          <b>Supplier C</b>
+        </div>
+        <div class="cell"><span class="ticks"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></div>
+        <div class="cell"><span class="speed"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></div>
+        <div class="cell"><span class="moq med"><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="constraint medium"><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="confidence"><i class="on"></i><i class="on"></i><i></i><i></i></span></div>
+        <div class="cell"><span class="verify partial" aria-label="Verify readiness"></span></div>
+        <div class="cell"><span class="tag">Backup</span></div>
+
+        <div class="cell supplier watch">
+          <span class="rank">04</span>
+          <b>Supplier D</b>
+        </div>
+        <div class="cell"><span class="ticks"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="speed"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="moq high"><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="constraint high"><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="confidence"><i class="on"></i><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="verify gap" aria-label="Not ready"></span></div>
+        <div class="cell"><span class="tag">Watch risk</span></div>
+
+        <div class="cell supplier watch">
+          <span class="rank">05</span>
+          <b>Supplier E</b>
+        </div>
+        <div class="cell"><span class="ticks"><i class="on"></i><i></i><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="speed"><i class="on"></i><i></i><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="moq high"><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="constraint high"><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="confidence"><i></i><i></i><i></i><i></i></span></div>
+        <div class="cell"><span class="verify gap" aria-label="Not ready"></span></div>
+        <div class="cell"><span class="tag">Watch risk</span></div>
+      </div>
+    </section>
+
+    <section class="legend" aria-label="Score key and constraint key">
+      <div class="legend-block">
+        <div class="legend-title">Score key</div>
+        <div class="legend-row">
+          <div class="legend-item"><span class="legend-swatch fill4"></span><span>Strong</span></div>
+          <div class="legend-item"><span class="legend-swatch fill3"></span><span>Good</span></div>
+          <div class="legend-item"><span class="legend-swatch fill2"></span><span>Half-fit</span></div>
+          <div class="legend-item"><span class="legend-swatch fill1"></span><span>Weak</span></div>
+          <div class="legend-item"><span class="legend-swatch"></span><span>Not ready</span></div>
+        </div>
+      </div>
+
+      <div class="legend-block">
+        <div class="legend-title">Constraint key</div>
+        <div class="constraint-key">
+          <div class="legend-item"><span class="legend-swatch fill4"></span><span>High</span></div>
+          <div class="legend-item"><span class="legend-swatch fill3"></span><span>Medium</span></div>
+          <div class="legend-item"><span class="legend-swatch fill1"></span><span>Low</span></div>
+          <div class="legend-item"><span class="legend-swatch"></span><span>None</span></div>
+        </div>
+      </div>
+
+      <div class="legend-block">
+        <div class="legend-title">Verify readiness</div>
+        <div class="confidence-key">
+          <div class="legend-item"><span class="verify ready"></span><span>Ready</span></div>
+          <div class="legend-item"><span class="verify partial"></span><span>Evidence checked</span></div>
+          <div class="legend-item"><span class="verify gap"></span><span>Verify readiness</span></div>
+          <div class="legend-item"><span class="legend-swatch"></span><span>Not ready</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="workflow" aria-label="Claude to matrix to action">
+      <div class="node">
+        <img src="../assets/logos/claude-color.svg" alt="">
+        <span>Claude</span>
+      </div>
+      <div class="arrow" aria-hidden="true"></div>
+      <div class="node">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <rect x="10" y="12" width="44" height="40"></rect>
+          <path d="M10 26h44M10 39h44M24 12v40M39 12v40"></path>
+        </svg>
+        <span>Matrix</span>
+      </div>
+      <div class="arrow" aria-hidden="true"></div>
+      <div class="node">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M10 44h16l8-23 8 13h12"></path>
+          <path d="M48 24l6 10-10 6"></path>
+          <circle cx="16" cy="44" r="5"></circle>
+        </svg>
+        <span>Action</span>
+      </div>
+    </section>
+
+    <div class="question">Which supplier would you call first?</div>
+
+    <footer class="footer">
+      <img src="../assets/logos/shettys-desk-logo-2.png" alt="">
+      <span>SHETTY'S DESK / AI FOR SUPPLY CHAIN</span>
+      <span>2026-W28</span>
+    </footer>
+  </main>
+</body>
+</html>

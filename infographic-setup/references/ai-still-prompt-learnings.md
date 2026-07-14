@@ -1,10 +1,10 @@
-# AI-Still Visual Path — Higgsfield (the 101 backup lane) — Learnings
+# AI-Still Visual Path — Historical Learnings
 
-**Version:** 1.1 · **Created:** 2026-06-29 · **For:** the Supply Chain 101 backup visual path (illustration/metaphor posts).
-**Scope:** the AI-still image lane only — code-render (`renderer/`, HTML→PNG) stays the **primary** 101 visual (see `render-pilot-workflow.md`). This file is the playbook for when the backup lane is used: how to pick the framework, write the prompt, and run the engine.
+**Version:** 1.2 · **Created:** 2026-06-29 · **Updated:** 2026-06-30.
+**Scope:** historical AI-still lessons. The active visual workflow is now `visual-engine-v2.md`: **GPT Image 2 primary, HTML/code-render backup and comparison lane, Cobalt Grid brand seed.**
 **Source:** distilled from the `supply-contract-clauses` and `contract-pricing-models` iterations, June 2026.
 
-> **⭐ CURRENT APPROACH (v1.1, 2026-06-29) — read §8 first.** The lane has moved to **Nano Banana Pro + the viral-post prompt scaffold + a single original anchor and the real (transparent) logo**, run as a **batch of 3**. §0–§7 below are the foundational learnings (framework selection, register, egress, etc.) and still apply; §8 is the operative engine/prompt/run spec. Where §8 differs from older notes (4 anchors → 1 anchor + logo; GPT Image 2 → Nano Banana Pro; no DO-NOT → one technical DO-NOT), **§8 wins.**
+> **CURRENT APPROACH (v2.0, 2026-06-30):** read `visual-engine-v2.md` first. The Nano Banana Pro section below is preserved as experiment history, not the default. The durable lessons that still apply are framework-first selection, reference-led prompting, information-design register, no invented data, and avoiding negative prompt blocks for GPT Image 2.
 
 ---
 
@@ -115,9 +115,9 @@ Full paste-ready prompt: `data/2026-W27/supply-contract-clauses/gpt-image-2-prom
 
 ---
 
-## 8. ⭐ CURRENT APPROACH (v1.1) — Nano Banana Pro + viral scaffold + anchor & real logo
+## 8. Historical approach (v1.1) — Nano Banana Pro + viral scaffold + anchor & real logo
 
-This is the operative spec for the AI-still lane as of 2026-06-29, locked from the `contract-pricing-models` ("Shifting Line") iteration. It supersedes the older GPT-Image-2 / 4-anchor guidance above where they conflict.
+This was the operative spec for the AI-still lane on 2026-06-29, locked from the `contract-pricing-models` ("Shifting Line") iteration. It is now superseded by `visual-engine-v2.md` for new posts, but preserved because the scaffold and lessons are still useful when diagnosing generated outputs.
 
 ### 8.1 Engine & run config
 - **Engine: `nano_banana_pro`.** The backend **remaps it to `nano_banana_2`** in job records — expected, not an error. Record the engine that *ran*.

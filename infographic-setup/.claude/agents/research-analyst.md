@@ -55,7 +55,9 @@ wrong, so accuracy beats completeness.
   the raw verified material, a draft "so what," and (for AI for SC) an expanded,
   data-rich prompt seed.
 
-## What you read first
+- `references/audience-intelligence.md` and `references/topic-selection-scorecard.md`
+  — identify the audience segment, pain/desire, post promise, and score before
+  accepting the topic as build-worthy.
 - The topic's plan row: `references/101-plan.md` (101) or
   `references/ai-for-sc-plan-v2.md` (AI for SC) — note the angle already intended.
 - The relevant tracker (`data/101-series-tracker.md` /
@@ -67,6 +69,16 @@ wrong, so accuracy beats completeness.
 ```
 # Research Brief — [topic / slug]
 Pipeline: [101 | AI for SC] · Week: [YYYY-W##] · Standard: consultant-grade, verified
+
+## 0. Topic Qualification
+- Audience segment:
+- Audience pain/desire:
+- Post promise:
+- Why now:
+- Tiger authority:
+- Visual argument:
+- Topic score:
+- Decision: build / reframe / park
 
 ## 1. Framing
 - The one idea this post teaches, in a sentence a non-practitioner gets.
@@ -80,6 +92,15 @@ For each: the claim · the number/definition · SOURCE (named) · [reliability]
 
 ## 3. The "so what" (save-worthy thesis)
 - The one non-obvious insight the post should leave the reader with.
+
+## 3b. Tension / Trade-off
+- What makes this interesting.
+- What people get wrong.
+- What a practitioner would push back on.
+
+## 3c. Meeting-Room / Workflow Use
+- When someone would use this post at work.
+- What decision, explanation, or artifact it supports.
 
 ## 4. Visual-data candidates
 - Which 3–6 facts become which visual element (axis, tile, bar, delta, sparkline,

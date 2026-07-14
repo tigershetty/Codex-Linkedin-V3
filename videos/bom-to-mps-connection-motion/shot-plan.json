@@ -1,0 +1,59 @@
+{
+  "project": "bom-to-mps-connection-motion",
+  "version": 1,
+  "category": "process-annotated-hero-calculation",
+  "durationSeconds": 9.0,
+  "source": "assets/visual.png",
+  "sourceDimensions": {
+    "width": 864,
+    "height": 1820
+  },
+  "promise": "Show one MPS commitment becoming gross component requirements, a net bearing requirement, backward timing, and planned supply.",
+  "lockedElements": [
+    "headline and subheading",
+    "all authored text and exact quantities",
+    "all physical components and shadows",
+    "all panel geometry and base arrows",
+    "Shetty's Desk logo and placard"
+  ],
+  "loop": {
+    "firstFrame": "complete approved visual",
+    "build": "MPS trigger, BOM branches, component quantities, netting, backward timing, planned supply, definitions",
+    "reset": "all registered accents and signals clear without changing the base visual",
+    "finalFrame": "complete approved visual"
+  },
+  "components": [
+    {"id":"mps-ticket","box":[281,151,569,348],"method":"registered-blue-source-highlight","motion":"pulse-plus-signal","communicationJob":"establish the finished-good commitment"},
+    {"id":"bom-label","box":[300,368,550,421],"method":"registered-blue-source-highlight","motion":"pulse-plus-branch-traces","communicationJob":"trigger the BOM explosion"},
+    {"id":"tray-housing","box":[10,722,216,994],"method":"registered-object-source-highlight","motion":"pulse","communicationJob":"show 50 housing requirements"},
+    {"id":"tray-motor","box":[238,722,450,994],"method":"registered-object-source-highlight","motion":"pulse","communicationJob":"show 50 motor requirements"},
+    {"id":"tray-bearings","box":[454,722,637,994],"method":"registered-object-source-highlight","motion":"pulse-plus-netting-link","communicationJob":"show 100 bearing requirements"},
+    {"id":"tray-fasteners","box":[652,722,836,994],"method":"registered-object-source-highlight","motion":"pulse","communicationJob":"show 200 fastener requirements"},
+    {"id":"net-gross","box":[35,1028,219,1192],"method":"registered-object-source-highlight","motion":"calculation-pulse","communicationJob":"start from 100 gross bearings"},
+    {"id":"net-on-hand","box":[236,1035,397,1189],"method":"registered-green-source-highlight","motion":"calculation-pulse","communicationJob":"subtract 20 on hand"},
+    {"id":"net-receipt","box":[437,1035,601,1189],"method":"registered-green-source-highlight","motion":"calculation-pulse","communicationJob":"subtract 30 scheduled receipt"},
+    {"id":"net-result","box":[640,1035,813,1191],"method":"registered-red-source-highlight","motion":"result-pulse","communicationJob":"land 50 net bearings"},
+    {"id":"time-path-right","path":"finished good due to component need","motion":"right-to-left-signal"},
+    {"id":"time-path-left","path":"component need to planned release","motion":"right-to-left-signal"},
+    {"id":"supply-make","box":[61,1427,289,1535],"method":"registered-blue-source-highlight","motion":"pulse","communicationJob":"show make recommendation"},
+    {"id":"supply-buy","box":[286,1427,548,1535],"method":"registered-blue-source-highlight","motion":"pulse","communicationJob":"show buy recommendation"},
+    {"id":"supply-reschedule","box":[545,1427,790,1535],"method":"registered-blue-source-highlight","motion":"pulse","communicationJob":"show reschedule recommendation"}
+  ],
+  "beats": [
+    {"time":"0.00-0.30","focus":"complete visual hold"},
+    {"time":"0.30-1.25","focus":"MPS commitment triggers BOM explosion"},
+    {"time":"1.10-2.55","focus":"four BOM branches and gross requirements resolve"},
+    {"time":"2.45-4.25","focus":"bearing netting resolves left to right"},
+    {"time":"4.20-5.55","focus":"timing signals move backward"},
+    {"time":"5.45-6.55","focus":"planned supply actions resolve"},
+    {"time":"6.45-7.35","focus":"BOM MPS MRP distinction lands"},
+    {"time":"7.45-9.00","focus":"complete visual hold and clean loop"}
+  ],
+  "qa": {
+    "firstFramePixelDiff": 0,
+    "finalFramePixelDiff": 0,
+    "inspectResetAtSourceResolution": true,
+    "inspectRepresentativeContactSheet": true,
+    "exportGifAndMp4": true
+  }
+}

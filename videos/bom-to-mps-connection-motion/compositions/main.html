@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>From MPS To Materials - Motion</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      width: 864px;
+      height: 1820px;
+      overflow: hidden;
+      background: #eef6fe;
+    }
+    #card {
+      position: relative;
+      width: 864px;
+      height: 1820px;
+      overflow: hidden;
+      isolation: isolate;
+      background: #eef6fe;
+    }
+    .base {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .highlight, .signal, .focus-ring {
+      position: absolute;
+      pointer-events: none;
+      opacity: 0;
+    }
+    .highlight {
+      z-index: 2;
+      object-fit: contain;
+      mix-blend-mode: screen;
+      filter: brightness(1.10) drop-shadow(0 0 9px rgba(0, 93, 255, .42));
+    }
+    .object-light {
+      filter: brightness(1.08) drop-shadow(0 0 11px rgba(0, 93, 255, .40));
+    }
+    .green-light {
+      filter: brightness(1.10) drop-shadow(0 0 11px rgba(24, 142, 69, .44));
+    }
+    .red-light {
+      filter: brightness(1.10) drop-shadow(0 0 12px rgba(231, 74, 35, .52));
+    }
+
+    .mps-ticket { left: 281px; top: 151px; width: 288px; height: 197px; }
+    .bom-label { left: 300px; top: 368px; width: 250px; height: 53px; }
+    .tray-housing { left: 10px; top: 722px; width: 206px; height: 272px; }
+    .tray-motor { left: 238px; top: 722px; width: 212px; height: 272px; }
+    .tray-bearings { left: 454px; top: 722px; width: 183px; height: 272px; }
+    .tray-fasteners { left: 652px; top: 722px; width: 184px; height: 272px; }
+    .net-gross { left: 35px; top: 1028px; width: 184px; height: 164px; }
+    .net-on-hand { left: 236px; top: 1035px; width: 161px; height: 154px; }
+    .net-receipt { left: 437px; top: 1035px; width: 164px; height: 154px; }
+    .net-result { left: 640px; top: 1035px; width: 173px; height: 156px; }
+    .supply-make { left: 61px; top: 1427px; width: 228px; height: 108px; }
+    .supply-buy { left: 286px; top: 1427px; width: 262px; height: 108px; }
+    .supply-reschedule { left: 545px; top: 1427px; width: 245px; height: 108px; }
+    .dist-bom { left: 27px; top: 1551px; width: 266px; height: 85px; }
+    .dist-mps { left: 292px; top: 1551px; width: 250px; height: 85px; }
+    .dist-mrp { left: 540px; top: 1551px; width: 278px; height: 85px; }
+
+    .focus-ring {
+      z-index: 3;
+      border: 2px solid rgba(31, 112, 255, .84);
+      border-radius: 18px;
+      box-shadow:
+        0 0 0 4px rgba(255, 255, 255, .70),
+        0 0 22px rgba(31, 112, 255, .48),
+        inset 0 0 16px rgba(31, 112, 255, .16);
+    }
+    .mps-ring { left: 278px; top: 148px; width: 294px; height: 203px; border-radius: 13px; }
+    .net-result-ring {
+      left: 638px;
+      top: 1033px;
+      width: 177px;
+      height: 160px;
+      border-color: rgba(231, 74, 35, .88);
+      box-shadow:
+        0 0 0 4px rgba(255, 255, 255, .72),
+        0 0 24px rgba(231, 74, 35, .50),
+        inset 0 0 16px rgba(231, 74, 35, .16);
+    }
+
+    .signal-svg {
+      position: absolute;
+      inset: 0;
+      z-index: 4;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: visible;
+    }
+    .route {
+      fill: none;
+      stroke: rgba(13, 94, 236, .84);
+      stroke-width: 4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      opacity: 0;
+      filter: drop-shadow(0 0 5px rgba(0, 93, 255, .48));
+    }
+    .route.light { stroke: rgba(46, 132, 255, .72); stroke-width: 3; }
+    .route.calc { stroke: rgba(20, 119, 225, .64); stroke-width: 3; }
+    .route.time { stroke-width: 4; stroke-dasharray: 8 10; }
+    .route-dot {
+      opacity: 0;
+      fill: #ffffff;
+      stroke: #075dff;
+      stroke-width: 3;
+      filter: drop-shadow(0 0 8px rgba(0, 93, 255, .82));
+    }
+    .route-dot.calc-dot { stroke: #109a50; }
+    .route-dot.time-dot { fill: #f4fbff; stroke: #075dff; }
+  </style>
+</head>
+<body>
+  <main
+    id="card"
+    data-composition-id="bom-to-mps-connection-motion"
+    data-width="864"
+    data-height="1820"
+    data-duration="9.0"
+  >
+    <section class="clip" data-start="0" data-duration="9.0" data-track-index="1">
+      <img class="base" src="../assets/visual.png" alt="">
+
+      <img class="highlight mps-ticket" src="../assets/highlights/mps-ticket.png" alt="">
+      <img class="highlight bom-label" src="../assets/highlights/bom-label.png" alt="">
+      <img class="highlight object-light tray-housing" src="../assets/highlights/tray-housing.png" alt="">
+      <img class="highlight object-light tray-motor" src="../assets/highlights/tray-motor.png" alt="">
+      <img class="highlight object-light tray-bearings" src="../assets/highlights/tray-bearings.png" alt="">
+      <img class="highlight object-light tray-fasteners" src="../assets/highlights/tray-fasteners.png" alt="">
+      <img class="highlight object-light net-gross" src="../assets/highlights/net-gross.png" alt="">
+      <img class="highlight green-light net-on-hand" src="../assets/highlights/net-on-hand.png" alt="">
+      <img class="highlight green-light net-receipt" src="../assets/highlights/net-receipt.png" alt="">
+      <img class="highlight red-light net-result" src="../assets/highlights/net-result.png" alt="">
+      <img class="highlight supply-make" src="../assets/highlights/supply-make.png" alt="">
+      <img class="highlight supply-buy" src="../assets/highlights/supply-buy.png" alt="">
+      <img class="highlight supply-reschedule" src="../assets/highlights/supply-reschedule.png" alt="">
+      <img class="highlight dist-bom" src="../assets/highlights/dist-bom.png" alt="">
+      <img class="highlight dist-mps" src="../assets/highlights/dist-mps.png" alt="">
+      <img class="highlight dist-mrp" src="../assets/highlights/dist-mrp.png" alt="">
+
+      <div class="focus-ring mps-ring"></div>
+      <div class="focus-ring net-result-ring"></div>
+
+      <svg class="signal-svg" viewBox="0 0 864 1820" aria-hidden="true">
+        <defs>
+          <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#075dff"></path>
+          </marker>
+        </defs>
+
+        <path id="mps-path" class="route" d="M424 332 L424 390"></path>
+        <circle id="mps-dot" class="route-dot" cx="424" cy="332" r="7"></circle>
+
+        <path id="branch-housing" class="route light" d="M310 394 H162 V439"></path>
+        <path id="branch-motor" class="route light" d="M380 414 V477"></path>
+        <path id="branch-bearings" class="route light" d="M528 414 V496"></path>
+        <path id="branch-fasteners" class="route light" d="M541 394 H747 V494"></path>
+        <circle id="dot-housing" class="route-dot" cx="310" cy="394" r="6"></circle>
+        <circle id="dot-motor" class="route-dot" cx="380" cy="414" r="6"></circle>
+        <circle id="dot-bearings" class="route-dot" cx="528" cy="414" r="6"></circle>
+        <circle id="dot-fasteners" class="route-dot" cx="541" cy="394" r="6"></circle>
+
+        <path id="bearing-net-path" class="route light" d="M536 986 C536 1000 521 1008 507 1021"></path>
+        <circle id="bearing-net-dot" class="route-dot" cx="536" cy="986" r="6"></circle>
+
+        <path id="calc-path" class="route calc" d="M132 1045 C280 1027 572 1027 727 1045"></path>
+        <circle id="calc-dot" class="route-dot calc-dot" cx="132" cy="1045" r="7"></circle>
+
+        <path id="time-right" class="route time" marker-end="url(#arrow-blue)" d="M622 1305 L511 1305"></path>
+        <path id="time-left" class="route time" marker-end="url(#arrow-blue)" d="M348 1305 L211 1305"></path>
+        <circle id="time-dot-right" class="route-dot time-dot" cx="622" cy="1305" r="7"></circle>
+        <circle id="time-dot-left" class="route-dot time-dot" cx="348" cy="1305" r="7"></circle>
+      </svg>
+    </section>
+  </main>
+
+  <script src="../../../infographic-setup/renderer/assets/js/gsap.min.js"></script>
+  <script>
+    (() => {
+      const $ = (selector) => document.querySelector(selector);
+      const $$ = (selector) => Array.from(document.querySelectorAll(selector));
+      const duration = 9.0;
+      const accents = $$('.highlight, .focus-ring, .route, .route-dot');
+      const tl = gsap.timeline({ paused: true });
+
+      gsap.set(accents, { opacity: 0 });
+
+      const pulse = (selector, start, hold = .24, peak = .82) => {
+        tl.fromTo(selector, { opacity: 0 }, {
+          opacity: peak,
+          duration: .20,
+          ease: 'power2.out'
+        }, start)
+          .to(selector, { opacity: peak * .74, duration: hold, ease: 'sine.inOut' }, start + .20)
+          .to(selector, { opacity: 0, duration: .25, ease: 'sine.in' }, start + .20 + hold);
+      };
+
+      const travel = (pathSelector, dotSelector, start, travelDuration, routeOpacity = .86) => {
+        const path = $(pathSelector);
+        const dot = $(dotSelector);
+        const length = path.getTotalLength();
+        const state = { progress: 0 };
+        gsap.set(path, { strokeDasharray: length, strokeDashoffset: length });
+        tl.fromTo(path, { opacity: 0, strokeDashoffset: length }, {
+          opacity: routeOpacity,
+          strokeDashoffset: 0,
+          duration: travelDuration,
+          ease: 'power2.inOut'
+        }, start)
+          .fromTo(dot, { opacity: 0 }, { opacity: 1, duration: .12 }, start)
+          .to(state, {
+            progress: 1,
+            duration: travelDuration,
+            ease: 'power2.inOut',
+            onUpdate: () => {
+              const point = path.getPointAtLength(length * state.progress);
+              dot.setAttribute('cx', point.x);
+              dot.setAttribute('cy', point.y);
+            }
+          }, start)
+          .to([path, dot], { opacity: 0, duration: .22, ease: 'sine.in' }, start + travelDuration + .04);
+      };
+
+      pulse('.mps-ticket', .30, .34, .90);
+      tl.fromTo('.mps-ring', { opacity: 0, scale: .97 }, {
+        opacity: .74,
+        scale: 1,
+        duration: .28,
+        ease: 'power2.out'
+      }, .34)
+        .to('.mps-ring', { opacity: 0, duration: .30, ease: 'sine.in' }, .82);
+      travel('#mps-path', '#mps-dot', .54, .48, .94);
+      pulse('.bom-label', .84, .28, .92);
+
+      const branches = [
+        ['#branch-housing', '#dot-housing', '.tray-housing', 1.08, 1.55],
+        ['#branch-motor', '#dot-motor', '.tray-motor', 1.30, 1.77],
+        ['#branch-bearings', '#dot-bearings', '.tray-bearings', 1.52, 1.99],
+        ['#branch-fasteners', '#dot-fasteners', '.tray-fasteners', 1.74, 2.21]
+      ];
+      branches.forEach(([path, dot, target, signalStart, pulseStart]) => {
+        travel(path, dot, signalStart, .50, .80);
+        pulse(target, pulseStart, .24, .76);
+      });
+
+      travel('#bearing-net-path', '#bearing-net-dot', 2.45, .42, .84);
+      travel('#calc-path', '#calc-dot', 2.72, 1.20, .64);
+      pulse('.net-gross', 2.66, .28, .76);
+      pulse('.net-on-hand', 3.02, .28, .84);
+      pulse('.net-receipt', 3.38, .28, .84);
+      pulse('.net-result', 3.74, .42, .96);
+      tl.fromTo('.net-result-ring', { opacity: 0, scale: .96 }, {
+        opacity: .84,
+        scale: 1.02,
+        duration: .30,
+        ease: 'back.out(1.8)'
+      }, 3.80)
+        .to('.net-result-ring', { opacity: 0, scale: 1, duration: .34, ease: 'sine.in' }, 4.24);
+
+      travel('#time-right', '#time-dot-right', 4.24, .66, .90);
+      travel('#time-left', '#time-dot-left', 4.82, .72, .90);
+
+      pulse('.supply-make', 5.45, .30, .78);
+      pulse('.supply-buy', 5.78, .30, .78);
+      pulse('.supply-reschedule', 6.11, .30, .78);
+
+      pulse('.dist-bom', 6.47, .22, .66);
+      pulse('.dist-mps', 6.72, .22, .66);
+      pulse('.dist-mrp', 6.97, .26, .72);
+
+      tl.to(accents, { opacity: 0, duration: .01 }, 7.42)
+        .to({}, { duration: 1.57 }, 7.43);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['bom-to-mps-connection-motion'] = tl;
+      window.__tl = tl;
+      window.__dur = duration;
+
+      const images = Array.from(document.images).map((image) => {
+        if (image.complete) return Promise.resolve();
+        return new Promise((resolve) => {
+          image.addEventListener('load', resolve, { once: true });
+          image.addEventListener('error', resolve, { once: true });
+        });
+      });
+      Promise.all(images).then(() => { window.__ready = true; });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supplier Concentration Risk - Cobalt Control</title>
+<style>
+  :root {
+    --paper: #F0EBDE;
+    --paper-2: #E6E0CE;
+    --ink: #1F2BE0;
+    --ink-soft: #5560E5;
+    --grid: rgba(31,43,224,0.10);
+    --faint: rgba(31,43,224,0.18);
+    --serif: Georgia, "Times New Roman", serif;
+    --sans: Arial, Helvetica, sans-serif;
+    --mono: "Courier New", monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #c9c1b5;
+  }
+
+  #card {
+    position: relative;
+    width: 1080px;
+    height: 1350px;
+    overflow: hidden;
+    color: var(--ink);
+    font-family: var(--sans);
+    background-color: var(--paper);
+    background-image:
+      linear-gradient(var(--grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+
+  #card::before,
+  #card::after {
+    content: "";
+    position: absolute;
+    left: 54px;
+    right: 54px;
+    height: 2px;
+    background: var(--ink);
+    z-index: 20;
+  }
+
+  #card::before { top: 34px; }
+  #card::after { bottom: 34px; }
+
+  .chrome {
+    position: absolute;
+    top: 70px;
+    left: 72px;
+    right: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--mono);
+    font-size: 15px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .qr {
+    width: 70px;
+    height: 70px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 2px;
+    background: var(--paper);
+    outline: 5px solid var(--paper);
+  }
+
+  .qr i { background: var(--grid); }
+  .qr i:nth-child(1),
+  .qr i:nth-child(2),
+  .qr i:nth-child(3),
+  .qr i:nth-child(7),
+  .qr i:nth-child(8),
+  .qr i:nth-child(10),
+  .qr i:nth-child(13),
+  .qr i:nth-child(16),
+  .qr i:nth-child(18),
+  .qr i:nth-child(20),
+  .qr i:nth-child(23),
+  .qr i:nth-child(25),
+  .qr i:nth-child(27),
+  .qr i:nth-child(29),
+  .qr i:nth-child(32),
+  .qr i:nth-child(34),
+  .qr i:nth-child(36),
+  .qr i:nth-child(39),
+  .qr i:nth-child(42),
+  .qr i:nth-child(43),
+  .qr i:nth-child(45),
+  .qr i:nth-child(46),
+  .qr i:nth-child(49) { background: var(--ink); }
+
+  .glitch {
+    position: absolute;
+    top: 394px;
+    right: 0;
+    width: 190px;
+    height: 470px;
+    opacity: 0.46;
+  }
+
+  .glitch span {
+    position: absolute;
+    right: 0;
+    height: 42px;
+    background: repeating-linear-gradient(
+      90deg,
+      rgba(31,43,224,0.25) 0 3px,
+      transparent 3px 10px
+    );
+  }
+
+  .glitch span:nth-child(1) { top: 0; width: 190px; }
+  .glitch span:nth-child(2) { top: 42px; width: 142px; }
+  .glitch span:nth-child(3) { top: 84px; width: 96px; }
+  .glitch span:nth-child(4) { top: 260px; width: 158px; }
+  .glitch span:nth-child(5) { top: 302px; width: 112px; }
+
+  .header {
+    position: absolute;
+    left: 72px;
+    top: 146px;
+    width: 825px;
+  }
+
+  h1 {
+    margin: 0;
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 0.9;
+    letter-spacing: -0.02em;
+  }
+
+  .sub {
+    margin-top: 28px;
+    max-width: 610px;
+    font-size: 27px;
+    line-height: 1.28;
+    color: var(--ink-soft);
+  }
+
+  .supplier-field {
+    position: absolute;
+    top: 480px;
+    left: 104px;
+    right: 184px;
+    height: 165px;
+    border-top: 2px solid var(--faint);
+    border-bottom: 2px solid var(--faint);
+  }
+
+  .field-label {
+    position: absolute;
+    top: -31px;
+    left: 0;
+    font-family: var(--mono);
+    font-size: 15px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .tick {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--ink);
+    background: var(--paper);
+  }
+
+  .tick.strong { background: var(--ink); }
+
+  .funnel {
+    position: absolute;
+    left: 142px;
+    right: 218px;
+    top: 638px;
+    height: 210px;
+  }
+
+  .line {
+    position: absolute;
+    height: 2px;
+    background: var(--ink);
+    transform-origin: left center;
+  }
+
+  .l1 { left: 0; top: 0; width: 320px; transform: rotate(18deg); }
+  .l2 { left: 120px; top: 0; width: 245px; transform: rotate(13deg); }
+  .l3 { right: 0; top: 0; width: 320px; transform: rotate(162deg); }
+  .l4 { right: 120px; top: 0; width: 245px; transform: rotate(167deg); }
+
+  .pillars {
+    position: absolute;
+    left: 98px;
+    right: 98px;
+    bottom: 225px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 34px;
+    align-items: end;
+  }
+
+  .pillar {
+    min-height: 288px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    border: 3px solid var(--ink);
+    background:
+      linear-gradient(90deg, transparent 0 49%, var(--faint) 49% 51%, transparent 51%),
+      linear-gradient(var(--grid) 1px, transparent 1px);
+    background-size: 100% 100%, 100% 26px;
+  }
+
+  .pillar:nth-child(2) { min-height: 342px; }
+
+  .cap {
+    align-self: end;
+    min-height: 120px;
+    padding: 20px 18px 22px;
+    border-top: 3px solid var(--ink);
+    background: var(--paper);
+  }
+
+  .num {
+    font-family: var(--mono);
+    font-size: 17px;
+    letter-spacing: 0.12em;
+    margin-bottom: 12px;
+  }
+
+  .label {
+    font-family: var(--serif);
+    font-size: 43px;
+    line-height: 0.96;
+    letter-spacing: -0.01em;
+  }
+
+  .base {
+    position: absolute;
+    left: 72px;
+    right: 72px;
+    bottom: 190px;
+    height: 20px;
+    border-top: 4px solid var(--ink);
+    border-bottom: 2px solid var(--ink);
+  }
+
+  .base::before,
+  .base::after {
+    content: "";
+    position: absolute;
+    top: -22px;
+    width: 2px;
+    height: 62px;
+    background: var(--ink);
+  }
+
+  .base::before { left: 0; }
+  .base::after { right: 0; }
+
+  .question {
+    position: absolute;
+    left: 72px;
+    right: 72px;
+    bottom: 82px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    gap: 28px;
+  }
+
+  .question strong {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 0.98;
+  }
+
+  .question span {
+    max-width: 285px;
+    font-family: var(--mono);
+    font-size: 14px;
+    line-height: 1.45;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+<main id="card">
+  <div class="chrome">
+    <div>SHETTY'S DESK / SUPPLY CHAIN 101</div>
+    <div class="qr" aria-hidden="true">
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
+  </div>
+
+  <div class="glitch" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <section class="header">
+    <h1>The 3 Suppliers That Can Stop You</h1>
+    <div class="sub">Supplier count is not supplier resilience.</div>
+  </section>
+
+  <section class="supplier-field" aria-label="Broad supplier base">
+    <div class="field-label">Vendor master / many names</div>
+    <span class="tick" style="left: 0; top: 24px;"></span>
+    <span class="tick" style="left: 58px; top: 78px;"></span>
+    <span class="tick" style="left: 116px; top: 34px;"></span>
+    <span class="tick" style="left: 176px; top: 96px;"></span>
+    <span class="tick strong" style="left: 236px; top: 54px;"></span>
+    <span class="tick" style="left: 296px; top: 20px;"></span>
+    <span class="tick" style="left: 356px; top: 88px;"></span>
+    <span class="tick strong" style="left: 416px; top: 42px;"></span>
+    <span class="tick" style="left: 476px; top: 108px;"></span>
+    <span class="tick" style="left: 536px; top: 30px;"></span>
+    <span class="tick strong" style="left: 596px; top: 74px;"></span>
+    <span class="tick" style="left: 656px; top: 22px;"></span>
+    <span class="tick" style="left: 716px; top: 96px;"></span>
+  </section>
+
+  <div class="funnel" aria-hidden="true">
+    <span class="line l1"></span>
+    <span class="line l2"></span>
+    <span class="line l3"></span>
+    <span class="line l4"></span>
+  </div>
+
+  <section class="pillars" aria-label="Three supplier concentration tests">
+    <div class="pillar">
+      <div></div>
+      <div class="cap">
+        <div class="num">01</div>
+        <div class="label">Critical part</div>
+      </div>
+    </div>
+    <div class="pillar">
+      <div></div>
+      <div class="cap">
+        <div class="num">02</div>
+        <div class="label">No qualified alternate</div>
+      </div>
+    </div>
+    <div class="pillar">
+      <div></div>
+      <div class="cap">
+        <div class="num">03</div>
+        <div class="label">Long recovery time</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="base" aria-hidden="true"></div>
+
+  <section class="question">
+    <strong>If this supplier fails, what stops first?</strong>
+    <span>Use this before the next supplier review.</span>
+  </section>
+</main>
+</body>
+</html>

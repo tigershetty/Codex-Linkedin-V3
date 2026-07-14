@@ -1,0 +1,168 @@
+#!/usr/bin/env python3
+"""Build a compact caption-pattern index from the top-100 reference workbook."""
+
+from __future__ import annotations
+
+import re
+import sys
+from pathlib import Path
+
+from openpyxl import load_workbook
+
+
+ROOT = Path(__file__).resolve().parents[1]
+WORKBOOK = ROOT / "references" / "top 100" / "Reference File and Caption.xlsx"
+IMAGE_DIR = ROOT / "references" / "top 100"
+OUT = ROOT / "references" / "top100-caption-index.md"
+
+
+def clean(text: object, limit: int | None = None) -> str:
+    if text is None:
+        return ""
+    value = re.sub(r"\s+", " ", str(text).strip())
+    if limit and len(value) > limit:
+        return value[: limit - 1].rstrip() + "..."
+    return value
+
+
+def split_blocks(text: str) -> list[str]:
+    return [block.strip() for block in re.split(r"\n\s*\n", text.strip()) if block.strip()]
+
+
+def first_nonempty_line(block: str) -> str:
+    for line in block.splitlines():
+        line = line.strip()
+        if line:
+            return line
+    return ""
+
+
+def classify_opening(caption: str) -> str:
+    opener = first_nonempty_line(caption).lower()
+    if re.search(r"\d+%|\$[\d,]+|\d[\d,]*(?:\+|x)?", opener):
+        return "stat / number"
+    if opener.endswith("?"):
+        return "direct question"
+    if any(word in opener for word in ["don't", "doesn't", "isn't", "aren't", "not ", "never"]):
+        return "misconception / contrarian"
+    if any(word in opener for word in ["you ", "your ", "you're"]):
+        return "direct reader pain"
+    if any(word in opener for word in ["i ", "i've", "my "]):
+        return "personal authority"
+    if any(word in opener for word in ["save", "framework", "cheat sheet", "template"]):
+        return "artifact promise"
+    return "plain premise"
+
+
+def classify_artifact(caption: str) -> str:
+    lower = caption.lower()
+    patterns = [
+        ("formula", ["formula", "calculate", "calculation", "metric"]),
+        ("checklist", ["checklist", "questions", "steps", "review", "audit"]),
+        ("framework", ["framework", "matrix", "model", "method"]),
+        ("prompt / AI workflow", ["prompt", "claude", "chatgpt", "copilot", "ai "]),
+        ("template", ["template", "playbook", "script", "sequence"]),
+        ("decision rule", ["decision", "choose", "which", "when to use"]),
+        ("map", ["map", "layers", "levels", "career", "roles"]),
+    ]
+    hits = [label for label, words in patterns if any(word in lower for word in words)]
+    return ", ".join(hits[:2]) if hits else "reference card"
+
+
+def find_save_trigger(caption: str) -> str:
+    lines = [line.strip() for line in caption.splitlines() if line.strip()]
+    candidates = []
+    for line in lines:
+        lower = line.lower()
+        if any(word in lower for word in ["save", "repost", "comment", "follow", "connect", "try", "use this"]):
+            candidates.append(line)
+    if candidates:
+        return clean(candidates[0], 120)
+    for line in reversed(lines):
+        if line.endswith("?"):
+            return clean(line, 120)
+    return ""
+
+
+def infer_promise(blocks: list[str], caption: str) -> str:
+    if len(blocks) >= 2:
+        return clean(blocks[1], 150)
+    lines = [line.strip() for line in caption.splitlines() if line.strip()]
+    return clean(lines[1] if len(lines) > 1 else "", 150)
+
+
+def existing_image_name(ref_id: object) -> str:
+    if ref_id is None:
+        return ""
+    raw = str(ref_id).strip()
+    candidates = [
+        f"{raw}.jpeg",
+        f"{raw}.jpg",
+        f"{raw}.png",
+        f"{raw}.gif",
+        f"{raw}.webp",
+        f"{raw}'.jpeg",
+    ]
+    for name in candidates:
+        if (IMAGE_DIR / name).exists():
+            return f"`references/top 100/{name}`"
+    return "(no local image found)"
+
+
+def main() -> int:
+    wb = load_workbook(WORKBOOK, read_only=True, data_only=True)
+    ws = wb.active
+
+    rows = []
+    for excel_row, row in enumerate(ws.iter_rows(min_row=3, values_only=True), start=3):
+        ref_id, caption = row[:2]
+        if ref_id is None and not caption:
+            continue
+        caption_text = str(caption or "").strip()
+        blocks = split_blocks(caption_text) if caption_text else []
+        rows.append(
+            {
+                "excel_row": excel_row,
+                "ref_id": clean(ref_id),
+                "image": existing_image_name(ref_id),
+                "opener": clean(first_nonempty_line(caption_text), 110),
+                "opening_type": classify_opening(caption_text) if caption_text else "missing caption",
+                "promise": infer_promise(blocks, caption_text) if caption_text else "",
+                "artifact": classify_artifact(caption_text) if caption_text else "",
+                "save_trigger": find_save_trigger(caption_text) if caption_text else "",
+            }
+        )
+
+    lines = [
+        "# Top-100 Caption Index",
+        "",
+        "**Generated by:** `scripts/extract-top100-caption-index.py`",
+        f"**Source workbook:** `references/top 100/{WORKBOOK.name}`",
+        f"**Rows indexed:** {len(rows)}",
+        "",
+        "Use this as the lean caption lookup before opening the full spreadsheet. It captures reusable caption mechanics, not full caption text.",
+        "",
+        "| Ref | Image | Opening type | Opener | Promise / second beat | Artifact | Save trigger |",
+        "|---:|---|---|---|---|---|---|",
+    ]
+
+    for item in rows:
+        lines.append(
+            "| {ref} | {image} | {opening_type} | {opener} | {promise} | {artifact} | {save_trigger} |".format(
+                ref=item["ref_id"] or f"row {item['excel_row']}",
+                image=item["image"],
+                opening_type=item["opening_type"],
+                opener=item["opener"].replace("|", "/"),
+                promise=item["promise"].replace("|", "/"),
+                artifact=item["artifact"].replace("|", "/"),
+                save_trigger=item["save_trigger"].replace("|", "/"),
+            )
+        )
+
+    OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"Wrote {OUT.relative_to(ROOT)} ({len(rows)} rows)")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

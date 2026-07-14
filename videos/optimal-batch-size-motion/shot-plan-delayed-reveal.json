@@ -1,0 +1,23 @@
+{
+  "project": "optimal-batch-size-delayed-reveal",
+  "category": "asset-fusion-data-viz",
+  "durationSeconds": 8.0,
+  "source": "assets/visual.png",
+  "promise": "Make the EOQ decision logic visibly assemble without changing the approved infographic.",
+  "loop": {
+    "firstFrame": "complete approved visual",
+    "reset": "selected components cleanly deconstruct behind feathered source-matched cover plates",
+    "build": "formula, curves, batch models, trade rows, and verification checks return in decision order",
+    "finalFrame": "complete approved visual"
+  },
+  "beats": [
+    {"time": "0.00-0.30", "focus": "complete visual hold"},
+    {"time": "0.30-0.68", "focus": "clean deconstruction reset"},
+    {"time": "0.78-1.45", "focus": "formula loads"},
+    {"time": "1.35-2.50", "focus": "cost curves resolve to the trough"},
+    {"time": "2.45-3.70", "focus": "three batch models load sequentially"},
+    {"time": "3.65-4.95", "focus": "four trade-off rows load sequentially"},
+    {"time": "4.90-6.10", "focus": "five verification checks load sequentially"},
+    {"time": "6.10-8.00", "focus": "complete visual hold and seamless loop"}
+  ]
+}

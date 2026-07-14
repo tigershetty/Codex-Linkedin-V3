@@ -1,7 +1,7 @@
 # contract-pricing-models — 101 Copy
 **Series**: Supply Chain 101 · **Week**: 2026-W27 (RW02) · Post 2 · **Episode #: dropped for now** (tracker reconcile pending — Kraljic/Make-vs-buy still hold 35/36; series framing used instead of a hard number)
 **Topic**: Fixed-Price vs Cost-Plus vs Time & Materials — who carries the risk when costs move.
-**Visual**: AI-still lane (Nano Banana Pro). Winning render = "The Shifting Line" (Framework C), 1:1 / 2k, job `c3ae1c9b-…` / `8a38d9dd-…` / `09b881a3-…` batch. Prompt + records in `gpt-image-2-prompt.md`.
+**Visual**: Visual Engine v2 example. GPT Image 2 primary candidate = `gpt-image-2-candidate-v2.png`, selected final = `visual.png`; HTML backup/control = `html-control.png`. Prompt = `gpt-image-2-prompt-v2.md`; comparison notes = `visual-comparison.md`.
 
 ---
 

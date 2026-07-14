@@ -2,7 +2,7 @@
 **Version**: 3 (updated 2026-06-21)
 **Used by**: `/101` skill (topic lookup)
 **Scope**: Two layers — (1) the original 24-topic foundational series (Months 1–3 below, published as Episodes 1–24); (2) the **active Monthly Theme Model (W21–W52, 2026)** — one SC function per month, 2 conceptual posts per week, paired with the AI for SC series on the same theme. Read alongside `references/master-calendar.md` for the Run-Week ↔ Plan-Week mapping.
-**Visual**: code-render primary (`renderer/`, HTML→PNG) on the current azure + eco-green / Poppins / white brand system; SC 101 footer uses **Logo 2**. ⚠ The Gemini prompt template at the BOTTOM of this file is **DEPRECATED** legacy (old coral/cream brand, "no 3D") — do not use it.
+**Visual**: Visual Engine v2 is now active (`visual-engine-v2.md`). GPT Image 2 is the primary creative renderer; HTML/code-render (`renderer/`, HTML→PNG) is the backup and comparison lane. Use the Cobalt Grid brand frame (`references/brand-kits/cobalt-grid/FRAME.md`) as the current brand seed. ⚠ The Gemini prompt template at the BOTTOM of this file is **DEPRECATED** legacy (old coral/cream brand, "no 3D") — do not use it.
 
 ---
 

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{Post Title} - Motion</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      width: {width}px;
+      height: {height}px;
+      overflow: hidden;
+      background: #eef6fe;
+    }
+    #card {
+      position: relative;
+      width: {width}px;
+      height: {height}px;
+      overflow: hidden;
+      isolation: isolate;
+    }
+    .base {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <main
+    id="card"
+    data-composition-id="{slug}-motion"
+    data-width="{width}"
+    data-height="{height}"
+    data-duration="8"
+  >
+    <img class="base" src="../assets/visual.png" alt="">
+
+    <!-- Add post-specific covers, highlights, and signal layers here. -->
+  </main>
+
+  <script src="../../../infographic-setup/renderer/assets/js/gsap.min.js"></script>
+  <script>
+    (() => {
+      const duration = 8;
+      const tl = gsap.timeline({ paused: true });
+
+      // Keep frame 0 and frame duration free of motion layers. Replace this
+      // placeholder with the shot-plan choreography for this visual.
+      tl.to({}, { duration });
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['{slug}-motion'] = tl;
+      window.__tl = tl;
+      window.__dur = duration;
+
+      const images = Array.from(document.images).map((image) => {
+        if (image.complete) return Promise.resolve();
+        return new Promise((resolve) => {
+          image.addEventListener('load', resolve, { once: true });
+          image.addEventListener('error', resolve, { once: true });
+        });
+      });
+      Promise.all(images).then(() => { window.__ready = true; });
+    })();
+  </script>
+</body>
+</html>
+

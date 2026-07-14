@@ -1,0 +1,59 @@
+{
+  "project": "{slug}-motion",
+  "version": 1,
+  "category": "{decision-board|process|matrix|table|formula|comparison|hierarchy|network|annotated-hero|calendar|operating-system}",
+  "durationSeconds": 8,
+  "source": "assets/visual.png",
+  "sourceDimensions": {
+    "width": 0,
+    "height": 0
+  },
+  "promise": "Motion helps because the reader needs to see {sequence} in {reading order}.",
+  "lockedElements": [
+    "headline",
+    "body text",
+    "logos",
+    "panel geometry",
+    "background scene"
+  ],
+  "loop": {
+    "firstFrame": "complete approved visual",
+    "reset": "selected semantic components clear only when reconstruction is credible; otherwise the source remains locked and focus changes through delayed highlights",
+    "build": "components return in the visual's reading order",
+    "finalFrame": "complete approved visual"
+  },
+  "components": [
+    {
+      "id": "unit-01",
+      "box": [0, 0, 0, 0],
+      "method": "semantic-mask|fitted-plate|whole-component|registered-source-highlight-only",
+      "motion": "wipe|fade|trace|pulse",
+      "communicationJob": "{what this unit teaches}"
+    }
+  ],
+  "beats": [
+    {
+      "time": "0.00-0.30",
+      "focus": "complete visual hold"
+    },
+    {
+      "time": "0.30-0.65",
+      "focus": "clean reset or source-locked focus transition"
+    },
+    {
+      "time": "0.65-1.40",
+      "focus": "unit-01 reveal"
+    },
+    {
+      "time": "6.40-8.00",
+      "focus": "complete visual hold and clean loop"
+    }
+  ],
+  "qa": {
+    "firstFramePixelDiff": 0,
+    "finalFramePixelDiff": 0,
+    "inspectResetAtSourceResolution": true,
+    "inspectRepresentativeContactSheet": true,
+    "exportGifAndMp4": true
+  }
+}

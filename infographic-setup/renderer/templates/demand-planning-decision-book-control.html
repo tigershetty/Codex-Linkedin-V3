@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demand Planning Decision Book — Control</title>
+<link rel="stylesheet" href="../assets/fonts.css">
+<style>
+  :root {
+    --paper: #f4eedf;
+    --paper-2: #ebe2cc;
+    --ink: #082a63;
+    --blue: #106fe8;
+    --orange: #d85d18;
+    --teal: #208b82;
+    --line: rgba(8, 42, 99, .38);
+    --soft: rgba(16, 111, 232, .08);
+    --sans: "Poppins", Arial, sans-serif;
+    --serif: Georgia, "Times New Roman", serif;
+    --mono: "JetBrains Mono", "Courier New", monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #cfc7b7;
+  }
+
+  #card {
+    position: relative;
+    width: 1080px;
+    height: 1350px;
+    overflow: hidden;
+    color: var(--ink);
+    font-family: var(--sans);
+    background:
+      radial-gradient(circle at 20% 18%, rgba(216, 93, 24, .08), transparent 24%),
+      linear-gradient(rgba(8,42,99,.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(8,42,99,.045) 1px, transparent 1px),
+      var(--paper);
+    background-size: auto, 24px 24px, 24px 24px, auto;
+  }
+
+  .top-rule,
+  .bottom-rule {
+    position: absolute;
+    left: 72px;
+    right: 72px;
+    height: 3px;
+    background: var(--ink);
+  }
+
+  .top-rule { top: 42px; }
+  .bottom-rule { bottom: 42px; }
+
+  .header {
+    position: absolute;
+    top: 70px;
+    left: 72px;
+    right: 72px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+    font-family: var(--serif);
+    font-size: 86px;
+    line-height: .92;
+    letter-spacing: 0;
+  }
+
+  .sub {
+    margin: 22px auto 0;
+    max-width: 760px;
+    font-size: 25px;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+
+  .desk {
+    position: absolute;
+    left: 64px;
+    right: 64px;
+    top: 300px;
+    height: 900px;
+    border-radius: 18px;
+    background:
+      linear-gradient(135deg, rgba(255,255,255,.82), rgba(255,255,255,.32)),
+      var(--paper-2);
+    box-shadow: 0 30px 80px rgba(8,42,99,.18);
+    transform: perspective(1200px) rotateX(3deg);
+  }
+
+  .book {
+    position: absolute;
+    left: 98px;
+    right: 98px;
+    top: 348px;
+    height: 760px;
+    border-radius: 20px 20px 28px 28px;
+    background: #fbf7ed;
+    border: 3px solid rgba(8,42,99,.18);
+    box-shadow: 0 24px 44px rgba(8,42,99,.16);
+    overflow: hidden;
+  }
+
+  .book::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 3px;
+    background: linear-gradient(180deg, transparent, rgba(8,42,99,.22), transparent);
+  }
+
+  .page-title {
+    position: absolute;
+    left: 44px;
+    top: 34px;
+    right: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--mono);
+    font-size: 15px;
+    letter-spacing: .12em;
+    font-weight: 800;
+  }
+
+  .spine {
+    position: absolute;
+    left: 44px;
+    top: 92px;
+    width: 404px;
+    bottom: 44px;
+    display: grid;
+    grid-template-rows: 1fr 1.05fr 1fr 1fr;
+    gap: 14px;
+  }
+
+  .panel {
+    position: relative;
+    border: 2px solid var(--line);
+    border-radius: 14px;
+    background: rgba(255,255,255,.46);
+    padding: 20px 22px;
+  }
+
+  .panel h2,
+  .module h2 {
+    margin: 0 0 14px;
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: 0;
+  }
+
+  .badge {
+    display: inline-grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    border-radius: 50%;
+    color: #fff;
+    background: var(--ink);
+    font-size: 18px;
+    vertical-align: 4px;
+  }
+
+  .tabs {
+    display: grid;
+    gap: 10px;
+  }
+
+  .tab {
+    height: 28px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, var(--blue), rgba(16,111,232,.28));
+  }
+
+  .tab:nth-child(2) { background: linear-gradient(90deg, var(--teal), rgba(32,139,130,.24)); }
+  .tab:nth-child(3) { background: linear-gradient(90deg, var(--orange), rgba(216,93,24,.22)); }
+
+  .layers {
+    display: grid;
+    gap: 12px;
+  }
+
+  .layer {
+    height: 25px;
+    border-radius: 999px;
+    border: 2px solid rgba(8,42,99,.22);
+    background: linear-gradient(90deg, rgba(16,111,232,.12), rgba(216,93,24,.12));
+  }
+
+  .chart {
+    height: 72px;
+    border-left: 3px solid var(--ink);
+    border-bottom: 3px solid var(--ink);
+    background:
+      linear-gradient(135deg, transparent 8%, rgba(16,111,232,.18) 8% 18%, transparent 18%),
+      repeating-linear-gradient(90deg, transparent 0 46px, rgba(8,42,99,.08) 46px 48px);
+    clip-path: polygon(0 86%, 18% 70%, 36% 76%, 52% 40%, 70% 56%, 88% 22%, 100% 34%, 100% 100%, 0 100%);
+  }
+
+  .modules {
+    position: absolute;
+    left: 488px;
+    right: 44px;
+    top: 92px;
+    bottom: 44px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 180px 250px 150px;
+    gap: 14px;
+  }
+
+  .module {
+    border: 2px solid var(--line);
+    border-radius: 14px;
+    background: rgba(255,255,255,.50);
+    padding: 20px;
+  }
+
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .tile {
+    height: 46px;
+    border: 2px solid rgba(8,42,99,.24);
+    border-radius: 8px;
+    background: var(--soft);
+  }
+
+  .gauge {
+    height: 90px;
+    border-radius: 90px 90px 0 0;
+    border: 18px solid var(--blue);
+    border-bottom: 0;
+    border-right-color: var(--orange);
+    margin: 18px auto 0;
+    width: 150px;
+  }
+
+  .radar {
+    width: 118px;
+    height: 118px;
+    margin: 2px auto 0;
+    border-radius: 50%;
+    border: 3px solid rgba(8,42,99,.28);
+    background:
+      radial-gradient(circle, transparent 0 22%, rgba(16,111,232,.12) 23% 44%, transparent 45%),
+      conic-gradient(from 40deg, rgba(16,111,232,.08), rgba(216,93,24,.18), rgba(16,111,232,.08));
+  }
+
+  .decide {
+    display: grid;
+    grid-template-columns: 86px 1fr;
+    gap: 14px;
+    align-items: center;
+  }
+
+  .sign {
+    position: relative;
+    width: 76px;
+    height: 76px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    color: #fff;
+    background: var(--ink);
+    margin: 0 auto;
+  }
+
+  .sign::before,
+  .sign::after {
+    content: "";
+    position: absolute;
+    width: 46px;
+    height: 8px;
+    border-radius: 999px;
+    background: #fff;
+  }
+
+  .sign::before { transform: rotate(0deg); }
+  .sign::after { transform: rotate(90deg); }
+
+  .endpoints {
+    border: 2px solid var(--line);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .endpoint {
+    display: grid;
+    grid-template-columns: 38px 1fr;
+    align-items: center;
+    min-height: 43px;
+    padding: 0 12px;
+    border-bottom: 2px solid rgba(16,111,232,.30);
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  .endpoint:last-child { border-bottom: 0; }
+
+  .dot {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--blue);
+  }
+
+  .endpoint:nth-child(2) .dot { background: var(--teal); }
+  .endpoint:nth-child(3) .dot { background: var(--orange); }
+  .endpoint:nth-child(4) .dot { background: #303b4b; }
+
+  .learn {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 180px 1fr 90px;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .mini-chart {
+    height: 86px;
+    border: 2px solid rgba(8,42,99,.24);
+    border-radius: 10px;
+    background:
+      linear-gradient(25deg, transparent 0 30%, rgba(16,111,232,.28) 30% 34%, transparent 34% 52%, rgba(216,93,24,.24) 52% 56%, transparent 56%),
+      rgba(255,255,255,.45);
+  }
+
+  .loop {
+    height: 78px;
+    border: 5px solid var(--blue);
+    border-left-color: transparent;
+    border-radius: 50%;
+  }
+
+  .question {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 98px;
+    padding: 16px 72px;
+    background: var(--ink);
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+  }
+
+  .logo-zone {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 46px;
+    text-align: center;
+    font-family: var(--serif);
+    font-size: 34px;
+  }
+</style>
+</head>
+<body>
+<main id="card">
+  <div class="top-rule"></div>
+  <div class="bottom-rule"></div>
+
+  <section class="header">
+    <h1>DEMAND PLANNING<br>DECISION BOOK</h1>
+    <div class="sub">Turn forecast misses into better inventory, capacity, supply, and customer decisions.</div>
+  </section>
+
+  <div class="desk"></div>
+  <section class="book">
+    <div class="page-title"><span></span><span></span></div>
+    <div class="spine">
+      <article class="panel">
+        <h2><span class="badge"></span>SIGNALS</h2>
+        <div class="tabs"><div class="tab"></div><div class="tab"></div><div class="tab"></div></div>
+      </article>
+      <article class="panel">
+        <h2><span class="badge"></span>DECOMPOSE</h2>
+        <div class="layers"><div class="layer"></div><div class="layer"></div><div class="layer"></div></div>
+      </article>
+      <article class="panel">
+        <h2><span class="badge"></span>FORECAST</h2>
+        <div class="chart"></div>
+      </article>
+      <article class="panel">
+        <h2><span class="badge"></span>DEMAND PLAN</h2>
+        <div class="chart"></div>
+      </article>
+    </div>
+
+    <div class="modules">
+      <article class="module">
+        <h2><span class="badge"></span>SEGMENT</h2>
+        <div class="tiles"><div class="tile"></div><div class="tile"></div><div class="tile"></div><div class="tile"></div></div>
+      </article>
+      <article class="module">
+        <h2><span class="badge"></span>FVA TEST</h2>
+        <div class="gauge"></div>
+      </article>
+      <article class="module">
+        <h2><span class="badge"></span>SENSE</h2>
+        <div class="radar"></div>
+      </article>
+      <article class="module decide">
+        <div>
+          <h2><span class="badge"></span>DECIDE</h2>
+          <div class="sign"></div>
+        </div>
+        <div class="endpoints">
+          <div class="endpoint"><span class="dot"></span>INVENTORY</div>
+          <div class="endpoint"><span class="dot"></span>CAPACITY</div>
+          <div class="endpoint"><span class="dot"></span>SUPPLY</div>
+          <div class="endpoint"><span class="dot"></span>CUSTOMER</div>
+        </div>
+      </article>
+      <article class="module learn">
+        <h2><span class="badge"></span>LEARN</h2>
+        <div class="mini-chart"></div>
+        <div class="loop"></div>
+      </article>
+    </div>
+  </section>
+
+  <div class="question">If the forecast misses, which decision changes first?</div>
+  <div class="logo-zone">Shetty's <em>Desk</em></div>
+</main>
+</body>
+</html>
