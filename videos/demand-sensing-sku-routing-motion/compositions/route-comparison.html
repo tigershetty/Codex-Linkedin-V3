@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demand Sensing SKU Routing - Route Comparison</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1024px; height: 1536px; overflow: hidden; background: #eef6fe; }
+    #card { position: relative; width: 1024px; height: 1536px; overflow: hidden; isolation: isolate; background: #eef6fe; }
+    .base { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; object-fit: cover; }
+    .highlight, .hub-ring, .route, .route-dot { position: absolute; pointer-events: none; opacity: 0; }
+    .highlight {
+      z-index: 2;
+      object-fit: contain;
+      mix-blend-mode: screen;
+      filter: brightness(1.10) drop-shadow(0 0 11px rgba(0, 93, 255, .44));
+    }
+    .coral-light { filter: brightness(1.10) drop-shadow(0 0 12px rgba(229, 100, 70, .54)); }
+    .gate-regularity { left: 521px; top: 496px; width: 175px; height: 53px; }
+    .gate-variability { left: 521px; top: 549px; width: 175px; height: 54px; }
+    .gate-volume { left: 521px; top: 603px; width: 175px; height: 52px; }
+    .gate-signal { left: 521px; top: 655px; width: 175px; height: 53px; }
+    .gate-response { left: 521px; top: 708px; width: 175px; height: 53px; }
+    .sense-route { left: 55px; top: 735px; width: 320px; height: 655px; }
+    .monthly-route { left: 651px; top: 736px; width: 319px; height: 655px; }
+    .exception-route { left: 407px; top: 1040px; width: 211px; height: 272px; }
+    .hub-ring {
+      z-index: 4;
+      left: 472px;
+      top: 765px;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 3px solid rgba(255,255,255,.94);
+      box-shadow: 0 0 0 3px rgba(23,103,240,.70), 0 0 25px rgba(0,93,255,.58), inset 0 0 14px rgba(0,93,255,.22);
+    }
+    .signal-svg { position: absolute; inset: 0; z-index: 3; width: 100%; height: 100%; pointer-events: none; }
+    .route {
+      fill: none;
+      stroke: rgba(8,100,240,.92);
+      stroke-width: 5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      filter: drop-shadow(0 0 7px rgba(0,93,255,.62));
+    }
+    .monthly { stroke: rgba(24,87,185,.90); }
+    .exception { stroke: rgba(229,100,70,.96); filter: drop-shadow(0 0 7px rgba(229,100,70,.58)); }
+    .route-dot {
+      z-index: 5;
+      fill: #fff;
+      stroke: #075dff;
+      stroke-width: 4;
+      filter: drop-shadow(0 0 10px rgba(0,93,255,.88));
+    }
+    .monthly-dot { stroke: #164fa8; }
+    .exception-dot { stroke: #e56446; }
+  </style>
+</head>
+<body>
+  <main id="card" data-composition-id="demand-sensing-route-comparison" data-width="1024" data-height="1536" data-duration="9.0">
+    <section class="clip" data-start="0" data-duration="9.0" data-track-index="1">
+      <img class="base" src="../assets/visual.png" alt="">
+      <img class="highlight gate-regularity" src="../assets/highlights/gate-regularity.png" alt="">
+      <img class="highlight gate-variability" src="../assets/highlights/gate-variability.png" alt="">
+      <img class="highlight gate-volume" src="../assets/highlights/gate-volume.png" alt="">
+      <img class="highlight gate-signal" src="../assets/highlights/gate-signal.png" alt="">
+      <img class="highlight gate-response" src="../assets/highlights/gate-response.png" alt="">
+      <img class="highlight sense-route" src="../assets/highlights/sense-route.png" alt="">
+      <img class="highlight monthly-route" src="../assets/highlights/monthly-route.png" alt="">
+      <img class="highlight coral-light exception-route" src="../assets/highlights/exception-route.png" alt="">
+      <div class="hub-ring"></div>
+
+      <svg class="signal-svg" viewBox="0 0 1024 1536" aria-hidden="true">
+        <path id="left-route" class="route" d="M512 790 C452 804 392 793 330 824 C299 908 322 1031 285 1156 C267 1217 229 1261 176 1294"></path>
+        <path id="right-route" class="route monthly" d="M512 790 C576 804 642 793 704 824 C733 913 711 1036 750 1158 C772 1227 815 1270 872 1300"></path>
+        <path id="exception-route-path" class="route exception" d="M512 790 C512 872 512 952 512 1042"></path>
+        <circle id="left-dot" class="route-dot" cx="512" cy="790" r="9"></circle>
+        <circle id="right-dot" class="route-dot monthly-dot" cx="512" cy="790" r="9"></circle>
+        <circle id="exception-dot" class="route-dot exception-dot" cx="512" cy="790" r="9"></circle>
+      </svg>
+    </section>
+  </main>
+
+  <script src="../../../infographic-setup/renderer/assets/js/gsap.min.js"></script>
+  <script>
+    (() => {
+      const $ = (selector) => document.querySelector(selector);
+      const $$ = (selector) => Array.from(document.querySelectorAll(selector));
+      const duration = 9.0;
+      const accents = $$('.highlight, .hub-ring, .route, .route-dot');
+      const tl = gsap.timeline({ paused: true });
+      gsap.set(accents, { opacity: 0 });
+
+      const pulse = (selector, start, hold = .42, peak = .86) => {
+        tl.fromTo(selector, { opacity: 0 }, { opacity: peak, duration: .22, ease: 'power2.out' }, start)
+          .to(selector, { opacity: peak * .70, duration: hold, ease: 'sine.inOut' }, start + .22)
+          .to(selector, { opacity: 0, duration: .28, ease: 'sine.in' }, start + .22 + hold);
+      };
+
+      const travel = (pathSelector, dotSelector, start, travelDuration, routeOpacity = .92) => {
+        const path = $(pathSelector);
+        const dot = $(dotSelector);
+        const length = path.getTotalLength();
+        const state = { progress: 0 };
+        gsap.set(path, { strokeDasharray: length, strokeDashoffset: length });
+        tl.fromTo(path, { opacity: 0, strokeDashoffset: length }, {
+          opacity: routeOpacity,
+          strokeDashoffset: 0,
+          duration: travelDuration,
+          ease: 'power2.inOut'
+        }, start).fromTo(dot, { opacity: 0 }, { opacity: 1, duration: .10 }, start).to(state, {
+          progress: 1,
+          duration: travelDuration,
+          ease: 'power2.inOut',
+          onUpdate: () => {
+            const point = path.getPointAtLength(length * state.progress);
+            dot.setAttribute('cx', point.x);
+            dot.setAttribute('cy', point.y);
+          }
+        }, start).to([path, dot], { opacity: 0, duration: .24, ease: 'sine.in' }, start + travelDuration + .06);
+      };
+
+      tl.fromTo(['.gate-regularity', '.gate-variability', '.gate-volume', '.gate-signal', '.gate-response'], { opacity: 0 }, {
+        opacity: .42,
+        duration: .28,
+        ease: 'power2.out'
+      }, .46).to(['.gate-regularity', '.gate-variability', '.gate-volume', '.gate-signal', '.gate-response'], {
+        opacity: 0,
+        duration: .32,
+        ease: 'sine.in'
+      }, 1.02);
+
+      tl.fromTo('.hub-ring', { opacity: 0, scale: .72 }, {
+        opacity: .92,
+        scale: 1,
+        duration: .34,
+        ease: 'back.out(1.8)'
+      }, 1.08).to('.hub-ring', { opacity: 0, scale: 1.15, duration: .34, ease: 'sine.in' }, 1.52);
+
+      travel('#left-route', '#left-dot', 1.42, 1.10, .94);
+      pulse('.sense-route', 1.76, .72, .92);
+
+      travel('#right-route', '#right-dot', 3.05, 1.12, .90);
+      pulse('.monthly-route', 3.40, .72, .86);
+
+      travel('#exception-route-path', '#exception-dot', 4.70, .84, .96);
+      pulse('.exception-route', 5.04, .64, .94);
+
+      tl.fromTo(['#left-route', '#right-route'], { opacity: 0 }, {
+        opacity: .48,
+        strokeDashoffset: 0,
+        duration: .26,
+        ease: 'power2.out'
+      }, 6.10).fromTo(['.sense-route', '.monthly-route'], { opacity: 0 }, {
+        opacity: .42,
+        duration: .26,
+        ease: 'power2.out'
+      }, 6.10).fromTo(['#exception-route-path', '.exception-route'], { opacity: 0 }, {
+        opacity: .46,
+        strokeDashoffset: 0,
+        duration: .26,
+        ease: 'power2.out'
+      }, 6.44).to(['#left-route', '#right-route', '#exception-route-path', '.sense-route', '.monthly-route', '.exception-route'], {
+        opacity: 0,
+        duration: .38,
+        ease: 'sine.in'
+      }, 6.86).to(accents, { opacity: 0, duration: .01 }, 7.25).to({}, { duration: 1.74 }, 7.26);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['demand-sensing-route-comparison'] = tl;
+      window.__tl = tl;
+      window.__dur = duration;
+      Promise.all(Array.from(document.images).map((image) => image.complete ? Promise.resolve() : new Promise((resolve) => {
+        image.addEventListener('load', resolve, { once: true });
+        image.addEventListener('error', resolve, { once: true });
+      }))).then(() => { window.__ready = true; });
+    })();
+  </script>
+</body>
+</html>

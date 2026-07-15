@@ -1,6 +1,6 @@
 ---
 name: ai-for-sc
-description: Use when the user runs /ai-for-sc [week] or /ai-for-sc [week] [use-case-slug]. Monthly theme model pipeline for AI for Supply Chain series. Runs the research-engine FIRST (parallel tool-layer + method-layer research) so every AI-tool capability claim, number, index, and prompt is verified and sourced. Generates two practical use-case posts per week — each for a specific SC role and AI tool — from the approved monthly topic bank, each with 3 DISTINCT code-rendered infographic variants for the user to pick one. Loads tiger-voice.md, published-voice.md, 101-voice.md, and ai-for-sc-visual-dna.md before generating.
+description: Use when the user runs /ai-for-sc [week] or /ai-for-sc [week] [use-case-slug]. Monthly theme model pipeline for AI for Supply Chain series. Runs the research-engine FIRST so every AI-tool capability, execution-surface, method, and data claim is verified from current official sources. Generates practical role-specific posts that teach persistent method, connected context, specialized execution, control gates, finished artifacts, cadence, and human ownership.
 ---
 
 # /ai-for-sc Skill — AI for Supply Chain Pipeline (v3)
@@ -27,10 +27,15 @@ Read all of these before generating a single word. They are the intelligence bas
 | `references/published-voice.md` | Hook quality bar, "NOT THIS" list, annotated examples |
 | `references/101-voice.md` | Accessible register, plain language first, adapted hook taxonomy |
 | `references/ai-for-sc-plan-v2.md` | Pre-defined topic plan — load the week's two use cases (Role, Tool, Use Case, Hook direction, Visual format) |
-| `references/ai-for-sc-visual-dna.md` | 50-format visual library — used now for **concept selection** (the spatial idea + Hero Number), not for writing a prompt |
-| `references/ai-for-sc-creative-intelligence.md` | Creative intelligence from 53 reference images — structure inventory, creative-device combinations, the visual ambition bar. Load alongside visual-dna for concept selection |
-| `references/render-pilot-workflow.md` | The code-render pipeline + design/technical learnings checklist — the visual is rendered, not prompted |
-| `renderer/` | The deterministic HTML→PNG/MP4/GIF renderer + component-kit templates the infographic is built from |
+| `references/ai-creator-education-growth-playbook.md` | Current AI education system and execution-stack standard |
+| `references/ai-work-surfaces-benchmark-2026-07.md` | Current official product surfaces and the nine-question caption-depth standard |
+| `references/linkedin-creator-benchmark-50-2026.md` | Cross-domain creator patterns and 40-point caption QA |
+| `references/ai-for-sc-visual-dna.md` | 50-format visual library for spatial concepts, hero devices, and variety |
+| `references/ai-for-sc-creative-intelligence.md` | Creative intelligence from 53 references: structures, devices, and the visual ambition bar |
+| `references/visual-engine-v2.md` | GPT Image 2 primary workflow, HTML control lane, artifact contract, and visual QA |
+| `references/creative-engine-v3-lean.md` | Lean creative brief, prompt compilation, reference adaptation, and output review |
+| `references/motion-engine-v1.md` | Post-specific semantic motion, GIF/MP4 output, and endpoint QA |
+| `references/publish-resource-handoff-v1.md` | Caption approval, resource eligibility, direct download, and website publication gate |
 | `data/ai-for-sc-series-tracker.md` | Episode tracking — last use case, tool, and role used |
 
 **Read all of these before generating a single word.**
@@ -42,14 +47,14 @@ Read all of these before generating a single word. They are the intelligence bas
 Before loading voice or generating anything, run **`/research-engine ai-for-sc [use-case-slug]`**
 for each post (see `.claude/skills/research-engine/SKILL.md`). For AI for SC it spawns
 **two research-analyst agents in parallel**:
-- **Tool layer** — what the named AI tool can *actually* do today (from the vendor's own
-  docs), its licence/access limits, and the honest limitation that becomes the mandatory
-  "when NOT to use AI" line.
+- **Tool layer** — what the named AI product surface can *actually* do today from the
+  vendor's own docs: reusable methods, connected context/actions, orchestration,
+  controls, artifact production, cadence, rollout status, and access limits.
 - **Method/domain layer** — the real formulae, indices, criteria, weights and benchmarks
   the workflow depends on (e.g. should-cost build, PPI/LME indexation, scorecard weights).
 
 It writes `data/{YYYY-W##}/{slug}/research-brief.md`. **Every capability claim, number,
-index and the expanded copy-paste prompt are built from this brief** — never asserted from
+index and the execution architecture are built from this brief** — never asserted from
 memory. A tool capability that can't be sourced to vendor docs does not go on the card.
 Do not proceed until the brief clears the research-engine quality gate.
 
@@ -120,11 +125,12 @@ Use cases are pre-defined in `references/ai-for-sc-plan-v2.md`. Do not define th
 
 Do NOT generate hooks until use cases are confirmed.
 
-### AI Tool Selection (reference)
-- **Claude** — document drafting, structured analysis, RFQ generation, compliance language, scenario framing
-- **ChatGPT** — calculation, formula-based analysis, scoring models, cost comparisons, scenario modelling
-- **Copilot** — Excel formulas, Power BI, Word/PowerPoint, in-file data analysis, Microsoft 365 workflows
-- **Gemini** — market research, trade compliance, multi-source web search, live data
+### AI Tool Selection (verify before every run)
+- **Claude** — Cowork role plugins and scheduled tasks; Claude Code for skills, scoped subagents, MCP, scripts, hooks, and tests
+- **OpenAI** — ChatGPT Work for connected long-running business tasks and finished artifacts; Codex for version-controlled files, code, skills, apps, and automations
+- **Microsoft 365 Copilot** — agents and Notebooks for organizational context; Workflows and scheduled prompts where available
+- **Gemini** — Workspace Studio or Gemini Enterprise for agents, reusable skills, deterministic nodes, human checkpoints, connectors, and long-running work
+- **Grok** — persistent Skills for artifact production; Grok Build for plugins, MCP, hooks, subagents, and headless execution while it remains early beta
 
 ---
 
@@ -137,21 +143,21 @@ With all voice intelligence loaded, generate 10 hooks per use case.
 The hook must do three things simultaneously:
 1. **Name the role or recognisable situation** — the right person reads this and thinks "that's me" or "that's my team"
 2. **Name the current limitation** — specific enough to be credible: SAP, Excel, 3-day turnaround, manual research, IT queue, the same spreadsheet rebuilt every week
-3. **Show the AI unlock** — concrete: time saved, capability added, workflow changed, document produced
+3. **Show the operating unlock** — concrete: persistent method, connected context, control added, artifact produced, or meeting moved forward
 
 The hook becomes the verbatim opening line of the published post. Test it: would the right person stop scrolling because they recognise their own friction?
 
 | # | Hook Type | AI for SC Adaptation |
 |---|---|---|
-| 1 | Question-Why | "Why does [specific task] take [X days] when [AI tool] produces it in [Y minutes]?" |
-| 2 | Question-How | "How do you [complete specific task] in [short time] when it used to take [longer]?" |
-| 3 | Stat-Lead | Number that quantifies the before/after: time, error rate, coverage gap, cost |
+| 1 | Question-Why | "Why does the team rebuild [workflow] every cycle when the method can be preserved as a skill?" |
+| 2 | Question-How | "How would [role] run [decision workflow] with connected evidence and a control gate?" |
+| 3 | Stat-Lead | Use only a verified number that materially changes the decision; do not invent time savings |
 | 4 | Contrarian | Challenge the assumption that [task] requires manual effort, a specialist, or an IT ticket |
 | 5 | Paradox | A task that looks routine but costs more time or quality than it should |
 | 6 | Personal-Reflection | "I built this workflow because my team was [doing X manually] every [week/quarter]..." |
 | 7 | Result-First | Start with what AI produced — then show the method |
-| 8 | Timeline-Shock | "[X hours] manually. [Y minutes] with [Tool]. Same output." |
-| 9 | Comparison-Gap | Same role, same task — one using AI, one not. Different outcome. |
+| 8 | Workflow-Progression | One-off answer versus a reusable, controlled, scheduled operating artifact |
+| 9 | Comparison-Gap | Same decision, different execution architecture or control depth |
 | 10 | Decision-Pressure | "Which of your [tasks / suppliers / lanes] would you run this on first?" |
 
 **Hook rules (non-negotiable):**
@@ -159,277 +165,166 @@ The hook becomes the verbatim opening line of the published post. Test it: would
 - Each hook uses a DIFFERENT structural device
 - No em dashes. Use periods.
 - No AI slop: unlock, game-changer, revolutionise, dive into, harness, leverage, empower, transform, navigate
-- Lead with the role's situation or current tool — not with the AI tool itself
+- Lead with the professional distinction, operating situation, or current capability; the AI tool may lead only when its new surface is the actual news and payoff
 - Hook names the role either explicitly ("If you are a supply planner...") or situationally so specifically that the right person self-identifies
 
 ---
 
 ## Step 4: Write LinkedIn Caption
 
-Single unified caption structure for all AI for SC posts. The role, tool, and friction determine what goes in each section — the structure stays constant.
+Use this as a reasoning checklist, not a rigid paragraph template. The role, decision, execution surface, and artifact should change the shape of the caption.
 
 ```
-1. HOOK (1–2 sentences)        — selected hook, verbatim
-2. THE BEFORE (2 sentences)    — what this person does today without AI:
-                                  specific tool (SAP, Power BI, Excel, email),
-                                  specific friction, specific cost (time, quality, risk)
-                                  NOT generic — "you pull data from 3 systems, rebuild the
-                                  same spreadsheet, and spend the first hour just getting
-                                  the numbers right"
-3. WHAT AI DOES (2–3 sent.)   — concrete, starts from the friction not the tool
-                                  "[Tool] takes [input], structures [process], returns
-                                  [output] — in the format you'd build manually but in a
-                                  fraction of the time"
-4. HOW TO DO IT (3–4 steps)   — specific and copy-paste level. What they literally do.
-                                  "Open [tool]. Paste this prompt: [summary]. Adjust [X].
-                                  Get [output]."
-5. TOOL + WHY (1 sentence)     — "[Tool] because [one-line rationale tied to THIS task]"
-                                  Not "because AI is powerful" — because "RFQ documents
-                                  need coherent multi-section structure that holds across
-                                  6 supplier types"
-6. WHEN NOT TO USE (1 sent.)   — one specific condition where this fails or where human
-                                  judgement is non-negotiable
-7. WHAT YOU GET (1 sentence)   — output format: what they can act on, screenshot, or hand on
-8. CTA                         — "Try this before your next [specific trigger]."
-9. SIGN-OFF + HASHTAGS
+1. PROFESSIONAL DISTINCTION    — selected hook, verbatim; teaches something immediately
+2. OPERATING SCENE             — where the current workflow loses time, context, control, or decision quality
+3. CURRENT SURFACE + WHY       — Cowork, Claude Code, Work, Codex, Copilot agent, Workspace Studio, etc.
+4. EXECUTION ARCHITECTURE      — reusable skill/plugin/agent + connected evidence + worker/tool split + control gate
+5. ARTIFACT PACKAGE            — exact board, change log, exception pack, report, or interface produced
+6. CADENCE + HUMAN OWNER       — schedule/trigger/monitor plus the decision that remains with the practitioner
+7. MEETING PAYOFF              — how the team starts further forward
+8. PRACTITIONER QUESTION       — invites an operating diagnosis, not agreement
+9. SIGN-OFF
 ```
 
-**Word count**: 220–320 words.
+**Word count**: 300–450 words when the execution detail earns the space.
 
 ### Caption Rules (non-negotiable)
 - Sentences flow with connective reasoning — no stacked fragments
-- Numbers embedded mid-sentence ("cuts the process from 3 days to 20 minutes"), not appended as citations
+- Use numbers only when verified and decision-relevant; do not manufacture a time-saving hook
 - At least 1 pattern breaker per post: sentence starting with "And" or "But", parenthetical aside, or a sentence running longer than feels optimal when working through an idea
-- Human+AI boundary must be explicit: what AI produces vs. what the person validates, adjusts, and decides
+- Human+AI boundary must be explicit: what the workflow prepares, what a control can reject, and what the person validates, adjusts, and decides
 - No ANCHORS labels, no citation format, no em dashes
 - Bullet points use • not -
-- AI must not be positioned as replacing judgement — it handles the production or research layer; the SC professional owns the decision
+- Ordinary file-upload chat is not the flagship capability story
+- Name at least seven of nine depth elements from `references/ai-work-surfaces-benchmark-2026-07.md`
+- At least one validation must be able to reject, block, or route an unsupported result to review
+- AI must not be positioned as replacing judgement; the SC professional owns the operating decision
 - Sign-off: "Follow Poornajith Shetty and Shetty's Desk for more supply chain insights and save this for [specific reference use]."
 - Hashtags: #ShettysDesk #SupplyChainIntelligence #SCM #AIforSupplyChain + 1 topic-specific tag (5 max)
 
 ---
 
-## Step 5: Build the Render Brief + Code-Render 3 DISTINCT Variants
+## Step 5: Build The GPT Image 2 Still
 
-**The infographic is rendered deterministically from code — there is NO Gemini / AI-image prompt.** Data and text are computed in HTML, never painted by a diffusion model, so the numbers are always exact and the brand is locked. The renderer lives in `renderer/`. See `references/render-pilot-workflow.md` for the full pipeline and the learnings checklist.
+Visual Engine v2 is the active lane. GPT Image 2 is the primary creative renderer; HTML/code-render is a backup and exact-data control, not the default.
 
-> **The variety rule (2026-06-28): render 3 visually distinct concepts for EVERY post, then present all 3 for the user to pick one.** Each post offers three genuinely different frameworks so the feed never repeats a skeleton. The 3 must differ from **each other** in layout framework AND dominant hero device — three different structures, not three colour swaps of one idea. (The tool logo, prompt block, and brand frame stay constant across all 3; what changes is the visual *argument*.)
+### 5.1 Build the creative packet
 
-### 5.1 Load the concept + the render kit
-- Read `references/ai-for-sc-visual-dna.md` + `references/ai-for-sc-creative-intelligence.md` for **concepts** — the assigned format gives the spatial idea and the Hero Number convention ("[Manual time] → [AI-assisted time]"). Use them to choose **3 distinct bespoke concepts**, NOT to write a prompt.
-- Run `layout-select` (it returns **3 distinct frameworks**). **Read `references/premium-visual-craft.md`** — the craft layer (Orion design tokens, data-journalism house style, consulting slide-craft, chart-styling recipes) that every variant applies: title-as-a-claim, one accent + ghost the rest, direct labels, source/footrule band, the Orion stat-card cadence for hero numbers, tinted shadows + hairline borders + concentric radii. Skim `renderer/README.md` and an existing template (e.g. `renderer/templates/pf7-blueprint-draft.html`) — the component kit and brand frame you build on. Design each variant as a bespoke concept on the same homogeneous Shetty's Desk frame ("design system, not parametrisation").
+1. Complete `content-brief-v2.md`, `reference-learning-card.md`, and `creative-brief-lite.md`.
+2. Select three to five references for structure, caption promise, craft, brand, and optional contrast.
+3. Define one dominant visual argument, the exact text map, value-density layer, execution architecture, and logo zones.
+4. Compile `gpt-image-2-prompt-compiled.md` with the repo script.
 
-### 5.2 Write the render brief
-The render brief is the content-depth layer that replaces the Gemini prompt. For this post, lock down:
-- **Real data** — every number that will appear, sourced (field benchmark or stated assumption). No placeholders.
-- **The bespoke visual concept** — the one dominant structure (what is where, the focal element, the Hero Number).
-- **The verbatim on-canvas prompt** — the exact copy-paste prompt text shown on the infographic (the visible, usable prompt is the AI-for-SC moat).
-- **A worked example** — the concrete before/after the visual demonstrates.
-- **The honest limitation** — the "when NOT to use" rendered as the watch-for element.
-- **The closing thesis** — the one save-worthy line.
+### 5.2 Render one strong concept
 
-### 5.3 Build the 3 HTML templates
-Assemble a self-contained template **per variant** at `renderer/templates/[use-case-slug]-v1.html`, `-v2.html`, `-v3.html` from the component kit — 3 different frameworks, NOT recolours of one:
-- Brand frame intact (all 3): azure + eco-green + ink + Poppins, luminous on WHITE, flat. Coral = caution / cost accent only.
-- **The AI tool appears only as its logo** (`renderer/assets/logos/`) plus woven into the heading ("…using Claude") — never a tool-branded palette, never a reproduced trademark.
-- Big readable blocks; every number hard-coded from the brief; the verbatim prompt as a scannable stepped list; data bars that encode the real values (fills must be `display:block`); Hero Number 3–4x body text; Shetty's Desk Logo 4 (mono) in the bottom-right corner.
-- Work through the learnings checklist in `references/render-pilot-workflow.md` §2 for **each** variant.
+- Give GPT Image 2 enough composition freedom to build a premium editorial artifact around the topic.
+- Make the operating artifact the hero. The surrounding supply-chain scene supports the idea rather than repeating a generic dashboard.
+- Use exact tool and Shetty's Desk assets as reference inputs. Ask for integrated blank plates or chips, then perform deterministic logo finishing with the official repo assets.
+- Keep every number, formula, label, and relationship traceable to `research-brief.md`.
+- Generate additional candidates only when they test genuinely different architectures. Do not manufacture three near-identical variants.
 
-### 5.4 Render all 3
-From `renderer/` (always use an absolute path — the shell cwd drifts):
-- **Still (default):** `NODE_PATH=$(npm root -g) node render.mjs templates/[slug]-vN.html out/[slug]-vN.png` for N = 1,2,3
-- **Animated (only when the sequence or ambient motion earns it, and only for the variant that needs it):** build `[slug]-vN-anim.html`, then `node render-anim.mjs templates/[slug]-vN-anim.html out/[slug]-vN` → `.mp4` + `.gif`.
-- QA each rendered PNG and iterate until all 3 pass the checklist. Don't ship a weak third just to hit the count — swap its framework for the next-best distinct pattern if one won't work.
+### 5.3 QA and promote
 
-**Output:** `out/[use-case-slug]-v1.png`, `-v2.png`, `-v3.png` (plus `.mp4`/`.gif` if a variant is animated). No AI-image prompt is produced — the visual is deterministic code.
+1. Review the candidate with `visual-output-review.md`.
+2. Inspect tight crops of every logo, formula, and load-bearing label.
+3. Use the HTML lane only when exact table, chart, formula, or text control would outperform the image render.
+4. After the user approves the still, promote it to `visual.png` and run:
 
----
-
-## Step 6: Present & PDF Gate
-
-Present for each post in this format:
-
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- AI FOR SUPPLY CHAIN — W[##] · [Theme]
- POST [A/B]: [Role] — [Use case name]
- Tool: [Tool name]
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-10 HOOK OPTIONS:
-1.  [Question-Why]:        "[text]"
-...
-
-LINKEDIN CAPTION (using hook [#] as placeholder):
-[full caption]
-
-RENDER BRIEF:
-[concept + real data + verbatim on-canvas prompt + worked example + limitation + thesis]
-
-3 RENDERED INFOGRAPHIC VARIANTS (pick 1):
- V1 · [framework / hero device]:  out/[use-case-slug]-v1.png
- V2 · [framework / hero device]:  out/[use-case-slug]-v2.png
- V3 · [framework / hero device]:  out/[use-case-slug]-v3.png
-(surface all 3 PNGs to the user; one-line what makes each distinct)
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Pick a hook (1–10) AND a visual variant (V1/V2/V3). Adjust caption if needed.
-Would you like a PDF draft for this post? (Yes / No)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
-
-After the user confirms hook selection, visual variant, and PDF decision: copy the chosen variant to the post's `visual.png`, keep all 3 templates + out PNGs, save files, then present Post B (if running both).
-
----
-
-## Step 7: Write PDF Draft (if requested)
-
-Five pages. Written as structured markdown for Canva or Gamma.
-
-```markdown
-# [Task Name] — AI for Supply Chain
-**Tool**: [Tool name]
-**Role**: [SC role this is for]
-**Week**: [YYYY-W##]
-**Theme**: [Monthly theme]
-**Series**: AI for Supply Chain — [Theme] Edition
-
----
-
-## Page 1 — Cover
-**Title**: [Task name — action-oriented, max 8 words]
-**Subtitle**: [What problem this solves in one line]
-**Tool**: [Tool name]
-**Series tagline**: "One role. One tool. One paste-ready workflow."
-
----
-
-## Page 2 — The Problem (Without AI)
-[2–3 paragraphs. The specific friction in Tiger's voice — flowing, connected, specific.
-What this task looks like manually: the time it takes, where the quality drops,
-what gets missed, why it matters to this specific role.]
-
----
-
-## Page 3 — The Full Prompt Template
-**When to use**: [The specific trigger — before which task, meeting, or deadline]
-**Paste into**: [Tool name + where to find it]
-
-[FULL PROMPT — all variable inputs clearly labelled in [BRACKETS]]
-
-**Inputs to fill in before pasting:**
-| [BRACKET] | What it is | Where to find it |
-|---|---|---|
-| [BRACKET 1] | [description] | [source] |
-
----
-
-## Page 4 — Tool Notes
-**Why [Tool] for this task**: [One paragraph — specific to this task, not generic AI praise]
-
-**What to watch for**:
-• [Specific failure mode 1 for this task]
-• [Specific failure mode 2]
-• [When the output looks right but misleads]
-
-**If [Tool] doesn't work**: Try [Alternative] when [specific condition].
-
----
-
-## Page 5 — What You Get Back + Tips
-**Expected output**: [Format, length, structure of what AI returns]
-
-**What to do with it**:
-1. [Validate X]
-2. [Adjust Y for your context]
-3. [Use in Z]
-
-**Common mistakes**:
-• [Most common reason for bad output on this specific task]
-• [Second mistake]
-
-**When NOT to use AI here**: [One specific condition where human judgement is non-negotiable]
+```bash
+node scripts/audit-visual-package.mjs data/{week}/{slug}
 ```
 
 ---
 
-## Step 8: Save
+## Step 6: Build The Motion Companion
 
-After hook confirmed, **visual variant chosen**, and PDF decision made:
+Only begin after `visual.png` is explicitly approved.
 
-1. Write `data/{YYYY-W##}/{use-case-slug}/ai-for-sc-[use-case-slug].md`
-2. Copy the **chosen** variant's render to `data/{YYYY-W##}/{use-case-slug}/visual.png`; keep all 3 `renderer/templates/[slug]-vN.html` and `renderer/out/[slug]-vN.png` on disk (variety log + future-post seed)
-3. Write `data/{YYYY-W##}/{use-case-slug}/ai-for-sc-[use-case-slug]-pdf.md` (only if PDF requested)
-4. Update `data/ai-for-sc-series-tracker.md` — add new entry with episode number, role, tool, use case slug, week, and the chosen framework
+1. Apply the eligibility sentence from `references/motion-engine-v1.md`.
+2. Initialize the post-specific project with `node scripts/init-motion-project.mjs data/{week}/{slug}`.
+3. Map semantic components from the actual layout; do not reuse a fixed choreography.
+4. Keep exact text, logos, and base art locked. Use delayed source-component reveals, registered highlights, and signals that follow the visual's reading order.
+5. Export `visual-motion.gif` for LinkedIn and `visual-motion.mp4` as the full-resolution website/video master.
+6. Require pixel-identical first and final lossless frames, then run the motion package audit.
 
 ---
 
+## Step 7: Decide Whether The Post Earns A Downloadable Resource
+
+Complete the resource eligibility gate for every AI-for-SC post. Build a resource when at least four of these are true:
+
+- the post teaches a reusable method, skill, workflow, or decision policy;
+- a safe synthetic input pack can be provided;
+- at least one deterministic script, schema, checklist, or validation can be included;
+- the workflow produces three or more reviewable outputs;
+- a beginner can complete a useful first run without production access;
+- the human decision boundary and failure modes can be made explicit.
+
+When eligible, the resource package must include:
+
+- a direct ZIP download with no email or account gate;
+- a four-page Shetty's Desk field guide by default;
+- one safe command or equally simple first-run path;
+- synthetic sample inputs and completed expected outputs;
+- reusable instructions or a skill, deterministic checks, and a validation checklist;
+- `MANIFEST.json`, version notes, checksums, limitations, and the human review boundary.
+
+Write the eligibility result in `resource-plan.md` even when the decision is `not warranted`.
+
+---
+
+## Step 8: Caption Approval And Website Handoff
+
+1. Present ten engineered hooks and one voice-QA caption candidate after the still and resource promise are clear.
+2. Do not mark the caption approved from inference. Record the user's final text verbatim only after explicit confirmation.
+3. Create `publish-manifest.json` from `templates/publish-manifest-template.json`. Keep `caption.status` as `draft` until confirmed.
+4. Only when the caption and still are both approved may `website.status` move to `ready`.
+5. Update the separate `shettys-desk-site` repo on a `codex/*` branch:
+   - add the approved caption and still to Published Posts;
+   - use MP4 for website motion when available while retaining GIF for LinkedIn;
+   - add the versioned direct-download resource page and ZIP when eligible;
+   - verify desktop, mobile, article, resource, and download routes;
+   - push a Vercel preview for approval before merging to production.
+6. Update `data/ai-for-sc-series-tracker.md` only with the final approved post package.
+
+---
 ## Output File Structure
 
-### ai-for-sc-[use-case-slug].md
+Each completed post folder should contain:
 
-```markdown
-# AI for SC — [use-case-slug]
-**Week**: [YYYY-W##]
-**Theme**: [Monthly theme]
-**Role**: [SC role]
-**Tool**: [AI tool]
-**Episode**: Ep[#]
-
----
-
-## Selected Hook
-**Type**: [hook type]
-**Text**: [full hook text]
-
-## LinkedIn Caption
-[full caption with selected hook]
-
-## Hook Options — All 10 (reference)
-1. [Question-Why]: [text]
-...
-
----
-
-## Render Brief
-- **3 distinct concepts (V1/V2/V3)**: [framework + hero device for each variant]
-- **Chosen variant**: V[n] — [framework] — why it won
-- **Real data**: [every number on the canvas, sourced]
-- **Hero Number**: [Manual time] → [AI-assisted time]
-- **Verbatim on-canvas prompt**: [the exact copy-paste prompt shown on the image]
-- **Worked example**: [the before/after the visual demonstrates]
-- **Limitation (watch-for)**: [when NOT to use]
-- **Thesis**: [the one save-worthy line]
-
-## Rendered Output
-- V1: `renderer/templates/[use-case-slug]-v1.html` → `renderer/out/[use-case-slug]-v1.png` — [concept]
-- V2: `renderer/templates/[use-case-slug]-v2.html` → `renderer/out/[use-case-slug]-v2.png` — [concept]
-- V3: `renderer/templates/[use-case-slug]-v3.html` → `renderer/out/[use-case-slug]-v3.png` — [concept]
-- **Chosen → `visual.png`**: V[n] (+ `.mp4`/`.gif` if that variant is animated)
+```text
+data/{YYYY-W##}/{use-case-slug}/
+|-- research-brief.md
+|-- content-brief-v2.md
+|-- reference-learning-card.md
+|-- creative-brief-lite.md
+|-- gpt-image-2-prompt.md
+|-- gpt-image-2-prompt-compiled.md
+|-- visual-output-review.md
+|-- visual.png
+|-- visual-motion.gif
+|-- visual-motion.mp4
+|-- motion-qa.md
+|-- linkedin-caption.md
+|-- resource-plan.md
+`-- publish-manifest.json
 ```
 
-### ai-for-sc-[use-case-slug]-pdf.md
-
-```markdown
-# PDF Draft — [use-case-slug]
-**Week**: [YYYY-W##]
-**Role**: [SC role]
-**Tool**: [Tool name]
-
----
-
-[Full 5-page PDF content]
-```
+- `visual.png` is the approved canonical still.
+- `visual-motion.gif` is the LinkedIn motion companion when eligible.
+- `visual-motion.mp4` is the website and full-resolution motion master.
+- `linkedin-caption.md` keeps all ten hooks and the exact caption approval status.
+- `resource-plan.md` records whether a downloadable pack is required and why.
+- `publish-manifest.json` is the final cross-repo handoff; it cannot be ready while the caption or still is unapproved.
 
 ---
-
 ## Quality Check (run before presenting)
 
 **Research (gate — check first):**
 - [ ] `research-brief.md` exists for each post and cleared the research-engine gate?
 - [ ] Every AI-tool capability claim is sourced to the vendor's own docs (with reliability tag)?
-- [ ] Every number, index value, weight and the expanded prompt trace to the brief — none asserted from memory?
-- [ ] The honest "when NOT to use AI" line comes from the brief's limit findings?
+- [ ] Every number, index value, weight and execution-surface claim traces to the brief — none asserted from memory?
+- [ ] Product availability is labelled accurately as generally available, beta, preview, or early access?
 
 **Use Cases:**
 - [ ] Two different SC roles — not the same job title twice in the same week?
@@ -446,34 +341,38 @@ After hook confirmed, **visual variant chosen**, and PDF decision made:
 - [ ] Would the right person stop mid-scroll because they recognise their own workflow?
 
 **Caption:**
-- [ ] THE BEFORE names the actual current tool (SAP, Excel, Power BI, email) — not generic friction?
-- [ ] WHAT AI DOES starts from the friction, not the tool?
-- [ ] HOW TO DO IT is specific enough to follow without the PDF?
-- [ ] "When NOT to use AI" is task-specific (not generic)?
-- [ ] Human+AI boundary is explicit?
+- [ ] The first two lines teach a professional distinction or current capability with an operating payoff?
+- [ ] The named product surface is current and verified against official documentation?
+- [ ] The reusable method, connected context, work split, control gate, artifact package, cadence, and human owner are visible?
+- [ ] At least one control can reject, block, or route an unsupported output to review?
+- [ ] The meeting payoff is explicit?
+- [ ] Human+AI boundary is precise without allowing caveats to dominate?
 - [ ] At least 1 pattern breaker from tiger-voice.md?
-- [ ] 220–320 words?
+- [ ] 300–450 words when the execution detail earns the space?
 - [ ] Reads like Tiger wrote it — flowing, connected, specific?
 - [ ] Bullets use • not -?
 
-**Visual (code render):**
-- [ ] Bespoke visual concept chosen from the assigned format (not defaulted to a generic grid)?
-- [ ] Concept is visually distinct from the previous post in the same month?
-- [ ] Every number on the canvas is real and hard-coded from the render brief (no placeholders)?
-- [ ] Hero Number present ([manual] → [AI-assisted]), real, and the largest text element?
-- [ ] Data bars encode the real values, with `display:block` fills (no empty tracks)?
-- [ ] The verbatim copy-paste prompt is shown on the canvas as a scannable stepped list?
-- [ ] AI tool appears ONLY as its logo + woven into the heading — no tool-branded palette, no reproduced trademark?
-- [ ] Brand frame intact: azure / eco-green / ink / Poppins on white; coral used only for caution/cost?
-- [ ] Shetty's Desk Logo 4 (mono) in the bottom-right corner?
-- [ ] Rendered with `render.mjs` (and `render-anim.mjs` only if motion earns it) and QA'd by reading the PNG/frame?
-- [ ] Legible at mobile size; passes the learnings checklist in render-pilot-workflow.md §2?
+**Visual (GPT Image 2 primary):**
+- [ ] One dominant visual argument and operating artifact lead the composition?
+- [ ] The architecture is distinct from recent posts while the design language remains recognizably Shetty's Desk?
+- [ ] Every number, formula, label, and relationship traces to the research brief?
+- [ ] Exact tool and Shetty's Desk assets were used as inputs or inserted deterministically into designed zones?
+- [ ] Tight logo, formula, and text crops pass with no clipping, approximation, ghosting, or duplicate overlays?
+- [ ] The visual-output review clears the creative floor and text/data integrity is 5/5?
+- [ ] The approved still was promoted to `visual.png` before motion began?
+- [ ] LinkedIn export dimensions and file size were checked against `references/publish-asset-spec-v1.md`?
 
-**PDF (if requested):**
-- [ ] Prompt template has all variables in [BRACKETS] with clear labels?
-- [ ] "What to watch for" lists failure modes specific to this task — not generic AI caveats?
-- [ ] Tool rationale explains WHY this tool for THIS task?
+**Motion:**
+- [ ] Motion eligibility is documented?
+- [ ] Choreography follows this visual's actual layout and reading order?
+- [ ] Exact text, logos, and base art remain locked?
+- [ ] GIF and MP4 outputs pass endpoint and media QA?
 
+**Resource and website handoff:**
+- [ ] `resource-plan.md` records the eligibility score and decision?
+- [ ] An eligible pack has a direct no-email ZIP, compact branded guide, synthetic first run, completed examples, manifest, checksums, and validation?
+- [ ] The caption and still are explicitly approved before `website.status` becomes `ready`?
+- [ ] The website uses MP4 for motion when available and keeps GIF for LinkedIn?
 ---
 
 ## Token Budget

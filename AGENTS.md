@@ -19,6 +19,7 @@ Version-controlled for remote Codex access (web/mobile).
 Two active pipelines share one 7-month monthly theme calendar:
 - **Supply Chain 101** (`/101`) — Posts 1 + 2 each week, plain-language concepts. Visual: **Visual Engine v2** — ChatGPT / GPT Image 2 is the primary creative renderer; HTML/code-render (`infographic-setup/renderer/`) is the backup and comparison lane. After still approval, **Motion Engine v1** produces the layout-adaptive GIF/MP4 companion unless the motion eligibility gate records a still-only exception.
 - **AI for Supply Chain** (`/ai-for-sc`) — Posts 3 + 4 each week, role-based AI use cases. Visual: **Visual Engine v2** — GPT Image 2 first for editorial infographic output, with HTML/code-render retained for exact-data controls and backup PNGs. After still approval, **Motion Engine v1** produces the layout-adaptive GIF/MP4 companion unless the motion eligibility gate records a still-only exception.
+- **Final publish stage** — after explicit still and caption approval, use `infographic-setup/references/publish-resource-handoff-v1.md`. AI-for-SC posts also pass a resource eligibility gate; qualified packs are direct-download, no-email resources with a compact branded field guide, safe sample run, completed outputs, and validation.
 - **Deep Dive** — data-heavy research pipeline, **archived** (`infographic-setup/skills-archive/deep-dive/`).
 
 Plans (single sources of truth):
@@ -30,7 +31,12 @@ Plans (single sources of truth):
 - Top-100 caption index: `infographic-setup/references/top100-caption-index.md`
 - Calendar reference map: `infographic-setup/references/calendar-reference-adaptation-map-v1.md`
 - Creative QA engine: `infographic-setup/references/creative-engine-v3-lean.md`
+- AI execution surfaces: `infographic-setup/references/ai-work-surfaces-benchmark-2026-07.md`
+- AI education workflow: `infographic-setup/references/ai-creator-education-growth-playbook.md`
+- LinkedIn creator benchmark: `infographic-setup/references/linkedin-creator-benchmark-50-2026.md`
 - Motion workflow: `infographic-setup/references/motion-engine-v1.md`
+- Publish/resource handoff: `infographic-setup/references/publish-resource-handoff-v1.md`
+- Publish asset specification: `infographic-setup/references/publish-asset-spec-v1.md`
 
 ## Voice DNA
 - **File:** `tiger-voice.md` (workspace root) — definitive voice reference across all pipelines.

@@ -107,6 +107,10 @@ const gifProbe = probe(gif);
 const mp4Probe = probe(mp4);
 check('GIF media probe passes', gifProbe?.streams?.[0]?.width > 0 && Number(gifProbe?.format?.duration) > 0, 'Fix the GIF encoding.');
 check('MP4 media probe passes', mp4Probe?.streams?.[0]?.width > 0 && Number(mp4Probe?.format?.duration) > 0, 'Fix the MP4 encoding.');
+check('GIF stays below LinkedIn size ceiling', file(gif) && statSync(gif).size <= 100 * 1024 * 1024, 'Reduce the GIF below 100 MB.');
+check('GIF stays below 500 frames', Number(gifProbe?.streams?.[0]?.nb_frames) <= 500, 'Shorten or lower the GIF frame count to 500 or fewer.');
+check('GIF is at least 552 pixels wide', Number(gifProbe?.streams?.[0]?.width) >= 552, 'Export a GIF at least 552 pixels wide.');
+check('MP4 master is at least 720 pixels wide', Number(mp4Probe?.streams?.[0]?.width) >= 720, 'Export the website MP4 master at least 720 pixels wide.');
 
 for (const item of checks) {
   console.log(`${item.pass ? 'PASS' : 'FAIL'} ${item.label}`);

@@ -1,0 +1,22 @@
+{
+  "project": "demand-sensing-sku-routing-motion",
+  "variant": "diagnostic-scan",
+  "durationSeconds": 9,
+  "source": "assets/visual.png",
+  "promise": "Inspect the five routing tests like precision instrumentation, then show the gate resolving into three planning cadences.",
+  "lockedElements": [
+    "approved source still",
+    "all typography and logos",
+    "3D switchyard geometry",
+    "route meaning and color assignment"
+  ],
+  "beats": [
+    {"time":"0.00-0.42","focus":"complete approved visual"},
+    {"time":"0.42-1.30","focus":"portfolio inputs register as a compact input set"},
+    {"time":"1.42-3.20","focus":"precision scanner resolves the five policy tests"},
+    {"time":"3.24-3.96","focus":"routing hub commits"},
+    {"time":"3.42-6.82","focus":"sensing, monthly, and exception routes confirm in order"},
+    {"time":"6.72-7.26","focus":"complete routing system resolves"},
+    {"time":"7.26-9.00","focus":"clean source hold"}
+  ]
+}

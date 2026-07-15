@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demand Sensing SKU Routing - Motion</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      width: 1024px;
+      height: 1536px;
+      overflow: hidden;
+      background: #eef6fe;
+    }
+    #card {
+      position: relative;
+      width: 1024px;
+      height: 1536px;
+      overflow: hidden;
+      isolation: isolate;
+      background: #eef6fe;
+    }
+    .base {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .highlight, .focus-ring, .scan-beam {
+      position: absolute;
+      pointer-events: none;
+      opacity: 0;
+    }
+    .highlight {
+      z-index: 2;
+      object-fit: contain;
+      mix-blend-mode: screen;
+      filter: brightness(1.10) drop-shadow(0 0 10px rgba(0, 93, 255, .42));
+    }
+    .coral-light {
+      filter: brightness(1.08) drop-shadow(0 0 12px rgba(229, 100, 70, .54));
+    }
+    .green-light {
+      filter: brightness(1.10) drop-shadow(0 0 11px rgba(28, 155, 83, .48));
+    }
+
+    .input-history { left: 36px; top: 370px; width: 239px; height: 52px; }
+    .input-orders { left: 36px; top: 422px; width: 239px; height: 54px; }
+    .input-promo { left: 36px; top: 475px; width: 239px; height: 53px; }
+    .input-service { left: 36px; top: 528px; width: 239px; height: 57px; }
+    .gate-regularity { left: 521px; top: 496px; width: 175px; height: 53px; }
+    .gate-variability { left: 521px; top: 549px; width: 175px; height: 54px; }
+    .gate-volume { left: 521px; top: 603px; width: 175px; height: 52px; }
+    .gate-signal { left: 521px; top: 655px; width: 175px; height: 53px; }
+    .gate-response { left: 521px; top: 708px; width: 175px; height: 53px; }
+    .sense-route { left: 55px; top: 735px; width: 320px; height: 655px; }
+    .monthly-route { left: 651px; top: 736px; width: 319px; height: 655px; }
+    .exception-route { left: 407px; top: 1040px; width: 211px; height: 272px; }
+
+    .focus-ring {
+      z-index: 3;
+      border: 2px solid rgba(24, 112, 255, .86);
+      box-shadow:
+        0 0 0 3px rgba(255, 255, 255, .60),
+        0 0 24px rgba(24, 112, 255, .46),
+        inset 0 0 14px rgba(24, 112, 255, .12);
+    }
+    .claude-ring { left: 376px; top: 292px; width: 276px; height: 144px; border-radius: 15px; }
+    .switch-ring { left: 462px; top: 754px; width: 102px; height: 104px; border-radius: 50%; }
+    .sense-ring { left: 52px; top: 739px; width: 326px; height: 656px; border-radius: 20px; }
+    .monthly-ring { left: 648px; top: 740px; width: 325px; height: 656px; border-radius: 20px; }
+    .exception-ring {
+      left: 404px;
+      top: 1037px;
+      width: 217px;
+      height: 278px;
+      border-radius: 18px;
+      border-color: rgba(229, 100, 70, .90);
+      box-shadow:
+        0 0 0 3px rgba(255, 255, 255, .66),
+        0 0 24px rgba(229, 100, 70, .50),
+        inset 0 0 14px rgba(229, 100, 70, .14);
+    }
+
+    .scan-beam {
+      z-index: 4;
+      left: 528px;
+      width: 52px;
+      height: 5px;
+      border-radius: 4px;
+      background: linear-gradient(90deg, rgba(255,255,255,0), #22a8ff 45%, #ffffff 70%, rgba(255,255,255,0));
+      box-shadow: 0 0 10px rgba(0, 113, 255, .82);
+    }
+    .beam-regularity { top: 522px; }
+    .beam-variability { top: 576px; }
+    .beam-volume { top: 629px; }
+    .beam-signal {
+      top: 682px;
+      background: linear-gradient(90deg, rgba(255,255,255,0), #31ce78 45%, #ffffff 70%, rgba(255,255,255,0));
+      box-shadow: 0 0 10px rgba(35, 175, 95, .82);
+    }
+    .beam-response { top: 735px; }
+
+    .signal-svg {
+      position: absolute;
+      inset: 0;
+      z-index: 5;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: visible;
+    }
+    .route {
+      fill: none;
+      stroke: rgba(8, 100, 240, .88);
+      stroke-width: 4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      opacity: 0;
+      filter: drop-shadow(0 0 6px rgba(0, 93, 255, .58));
+    }
+    .route.input { stroke-width: 3; stroke: rgba(30, 126, 255, .76); }
+    .route.monthly { stroke: rgba(24, 87, 185, .86); }
+    .route.exception { stroke: rgba(229, 100, 70, .92); }
+    .route-dot {
+      opacity: 0;
+      fill: #ffffff;
+      stroke: #075dff;
+      stroke-width: 3;
+      filter: drop-shadow(0 0 9px rgba(0, 93, 255, .88));
+    }
+    .route-dot.monthly-dot { stroke: #164fa8; }
+    .route-dot.exception-dot { stroke: #e56446; }
+  </style>
+</head>
+<body>
+  <main
+    id="card"
+    data-composition-id="demand-sensing-sku-routing-motion"
+    data-width="1024"
+    data-height="1536"
+    data-duration="9.0"
+  >
+    <section class="clip" data-start="0" data-duration="9.0" data-track-index="1">
+      <img class="base" src="../assets/visual.png" alt="">
+
+      <img class="highlight input-history" src="../assets/highlights/input-history.png" alt="">
+      <img class="highlight input-orders" src="../assets/highlights/input-orders.png" alt="">
+      <img class="highlight input-promo" src="../assets/highlights/input-promo.png" alt="">
+      <img class="highlight input-service" src="../assets/highlights/input-service.png" alt="">
+      <img class="highlight gate-regularity" src="../assets/highlights/gate-regularity.png" alt="">
+      <img class="highlight gate-variability" src="../assets/highlights/gate-variability.png" alt="">
+      <img class="highlight gate-volume" src="../assets/highlights/gate-volume.png" alt="">
+      <img class="highlight green-light gate-signal" src="../assets/highlights/gate-signal.png" alt="">
+      <img class="highlight gate-response" src="../assets/highlights/gate-response.png" alt="">
+      <img class="highlight sense-route" src="../assets/highlights/sense-route.png" alt="">
+      <img class="highlight monthly-route" src="../assets/highlights/monthly-route.png" alt="">
+      <img class="highlight coral-light exception-route" src="../assets/highlights/exception-route.png" alt="">
+
+      <div class="focus-ring claude-ring"></div>
+      <div class="focus-ring switch-ring"></div>
+      <div class="focus-ring sense-ring"></div>
+      <div class="focus-ring monthly-ring"></div>
+      <div class="focus-ring exception-ring"></div>
+
+      <div class="scan-beam beam-regularity"></div>
+      <div class="scan-beam beam-variability"></div>
+      <div class="scan-beam beam-volume"></div>
+      <div class="scan-beam beam-signal"></div>
+      <div class="scan-beam beam-response"></div>
+
+      <svg class="signal-svg" viewBox="0 0 1024 1536" aria-hidden="true">
+        <path id="input-history-path" class="route input" d="M274 396 C310 396 302 474 337 515"></path>
+        <path id="input-orders-path" class="route input" d="M274 449 C314 449 307 526 337 565"></path>
+        <path id="input-promo-path" class="route input" d="M274 501 C315 501 316 569 337 616"></path>
+        <path id="input-service-path" class="route input" d="M274 555 C319 555 319 619 337 668"></path>
+        <circle id="input-history-dot" class="route-dot" cx="274" cy="396" r="7"></circle>
+        <circle id="input-orders-dot" class="route-dot" cx="274" cy="449" r="7"></circle>
+        <circle id="input-promo-dot" class="route-dot" cx="274" cy="501" r="7"></circle>
+        <circle id="input-service-dot" class="route-dot" cx="274" cy="555" r="7"></circle>
+
+        <path id="claude-gate-path" class="route" d="M512 421 L512 458"></path>
+        <circle id="claude-gate-dot" class="route-dot" cx="512" cy="421" r="7"></circle>
+
+        <path id="branch-left" class="route" d="M512 790 C452 804 392 793 330 824"></path>
+        <path id="branch-right" class="route monthly" d="M512 790 C576 804 642 793 704 824"></path>
+        <path id="branch-exception" class="route exception" d="M512 790 C512 872 512 952 512 1042"></path>
+        <circle id="branch-left-dot" class="route-dot" cx="512" cy="790" r="8"></circle>
+        <circle id="branch-right-dot" class="route-dot monthly-dot" cx="512" cy="790" r="8"></circle>
+        <circle id="branch-exception-dot" class="route-dot exception-dot" cx="512" cy="790" r="8"></circle>
+
+        <path id="sense-path" class="route" d="M330 824 C299 908 322 1031 285 1156 C267 1217 229 1261 176 1294"></path>
+        <path id="monthly-path" class="route monthly" d="M704 824 C733 913 711 1036 750 1158 C772 1227 815 1270 872 1300"></path>
+        <circle id="sense-dot" class="route-dot" cx="330" cy="824" r="8"></circle>
+        <circle id="monthly-dot" class="route-dot monthly-dot" cx="704" cy="824" r="8"></circle>
+      </svg>
+    </section>
+  </main>
+
+  <script src="../../../infographic-setup/renderer/assets/js/gsap.min.js"></script>
+  <script>
+    (() => {
+      const $ = (selector) => document.querySelector(selector);
+      const $$ = (selector) => Array.from(document.querySelectorAll(selector));
+      const duration = 9.0;
+      const accents = $$('.highlight, .focus-ring, .scan-beam, .route, .route-dot');
+      const tl = gsap.timeline({ paused: true });
+
+      gsap.set(accents, { opacity: 0 });
+
+      const pulse = (selector, start, hold = .24, peak = .84) => {
+        tl.fromTo(selector, { opacity: 0 }, {
+          opacity: peak,
+          duration: .18,
+          ease: 'power2.out'
+        }, start)
+          .to(selector, { opacity: peak * .72, duration: hold, ease: 'sine.inOut' }, start + .18)
+          .to(selector, { opacity: 0, duration: .24, ease: 'sine.in' }, start + .18 + hold);
+      };
+
+      const ring = (selector, start, hold = .30, peak = .78) => {
+        tl.fromTo(selector, { opacity: 0, scale: .985 }, {
+          opacity: peak,
+          scale: 1,
+          duration: .22,
+          ease: 'power2.out'
+        }, start)
+          .to(selector, { opacity: peak * .72, duration: hold, ease: 'sine.inOut' }, start + .22)
+          .to(selector, { opacity: 0, scale: 1, duration: .26, ease: 'sine.in' }, start + .22 + hold);
+      };
+
+      const travel = (pathSelector, dotSelector, start, travelDuration, routeOpacity = .88) => {
+        const path = $(pathSelector);
+        const dot = $(dotSelector);
+        const length = path.getTotalLength();
+        const state = { progress: 0 };
+        gsap.set(path, { strokeDasharray: length, strokeDashoffset: length });
+        tl.fromTo(path, { opacity: 0, strokeDashoffset: length }, {
+          opacity: routeOpacity,
+          strokeDashoffset: 0,
+          duration: travelDuration,
+          ease: 'power2.inOut'
+        }, start)
+          .fromTo(dot, { opacity: 0 }, { opacity: 1, duration: .10 }, start)
+          .to(state, {
+            progress: 1,
+            duration: travelDuration,
+            ease: 'power2.inOut',
+            onUpdate: () => {
+              const point = path.getPointAtLength(length * state.progress);
+              dot.setAttribute('cx', point.x);
+              dot.setAttribute('cy', point.y);
+            }
+          }, start)
+          .to([path, dot], { opacity: 0, duration: .20, ease: 'sine.in' }, start + travelDuration + .04);
+      };
+
+      const scan = (beamSelector, highlightSelector, start) => {
+        pulse(highlightSelector, start, .24, .72);
+        tl.fromTo(beamSelector, { opacity: 0, x: 0 }, {
+          opacity: .92,
+          x: 108,
+          duration: .34,
+          ease: 'power1.inOut'
+        }, start + .03)
+          .to(beamSelector, { opacity: 0, duration: .12, ease: 'sine.in' }, start + .37);
+      };
+
+      const inputs = [
+        ['.input-history', '#input-history-path', '#input-history-dot', .32],
+        ['.input-orders', '#input-orders-path', '#input-orders-dot', .57],
+        ['.input-promo', '#input-promo-path', '#input-promo-dot', .82],
+        ['.input-service', '#input-service-path', '#input-service-dot', 1.07]
+      ];
+      inputs.forEach(([highlight, path, dot, start]) => {
+        pulse(highlight, start, .20, .70);
+        travel(path, dot, start + .06, .40, .70);
+      });
+
+      ring('.claude-ring', 1.20, .24, .68);
+      travel('#claude-gate-path', '#claude-gate-dot', 1.36, .28, .90);
+
+      scan('.beam-regularity', '.gate-regularity', 1.52);
+      scan('.beam-variability', '.gate-variability', 1.80);
+      scan('.beam-volume', '.gate-volume', 2.08);
+      scan('.beam-signal', '.gate-signal', 2.36);
+      scan('.beam-response', '.gate-response', 2.64);
+
+      ring('.switch-ring', 2.88, .26, .88);
+      travel('#branch-left', '#branch-left-dot', 3.02, .46, .92);
+      travel('#branch-right', '#branch-right-dot', 3.12, .46, .86);
+      travel('#branch-exception', '#branch-exception-dot', 3.22, .58, .90);
+
+      travel('#sense-path', '#sense-dot', 3.48, .92, .92);
+      pulse('.sense-route', 3.52, .70, .92);
+
+      travel('#monthly-path', '#monthly-dot', 4.58, .96, .86);
+      pulse('.monthly-route', 4.62, .76, .84);
+
+      travel('#branch-exception', '#branch-exception-dot', 5.66, .58, .94);
+      pulse('.exception-route', 5.88, .56, .94);
+
+      tl.fromTo(['.sense-route', '.monthly-route', '.exception-route'], { opacity: 0 }, {
+        opacity: .34,
+        duration: .22,
+        ease: 'power2.out'
+      }, 6.72)
+        .to(['.sense-route', '.monthly-route', '.exception-route'], {
+          opacity: 0,
+          duration: .34,
+          ease: 'sine.in'
+        }, 6.98)
+        .to(accents, { opacity: 0, duration: .01 }, 7.34)
+        .to({}, { duration: 1.65 }, 7.35);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['demand-sensing-sku-routing-motion'] = tl;
+      window.__tl = tl;
+      window.__dur = duration;
+
+      const images = Array.from(document.images).map((image) => {
+        if (image.complete) return Promise.resolve();
+        return new Promise((resolve) => {
+          image.addEventListener('load', resolve, { once: true });
+          image.addEventListener('error', resolve, { once: true });
+        });
+      });
+      Promise.all(images).then(() => { window.__ready = true; });
+    })();
+  </script>
+</body>
+</html>

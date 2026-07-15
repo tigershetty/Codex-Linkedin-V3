@@ -1,9 +1,9 @@
 # Motion Engine v1 - Adaptive Picture-First Motion
 
-**Version:** 1.1  
-**Date:** 2026-07-13  
-**Status:** Active motion standard for Supply Chain 101 and AI for Supply Chain  
-**Reference implementation:** `videos/optimal-batch-size-motion/`  
+**Version:** 1.1
+**Date:** 2026-07-13
+**Status:** Active motion standard for Supply Chain 101 and AI for Supply Chain
+**Reference implementation:** `videos/optimal-batch-size-motion/`
 **Reference outputs:** `data/2026-W30/optimal-batch-size-decision-board/visual-motion.gif`; `data/2026-W31/mps-as-a-production-commitment/visual-motion.gif`
 
 ## 1. Purpose
@@ -68,6 +68,7 @@ If the sentence is weak, do not animate the post.
 - Motion stays inside registered semantic regions.
 - The GIF remains readable when paused on any frame.
 - A full-resolution MP4 master is exported with every GIF.
+- The GIF is the LinkedIn publishing asset. The website serves the MP4 master with the approved still as poster and keeps the GIF only as fallback.
 - Playwright captures deterministic frames; FFmpeg performs final encoding.
 
 ### Variables authored for every post

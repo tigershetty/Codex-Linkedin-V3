@@ -1,17 +1,17 @@
 ---
 name: research-engine
-description: The mandatory research layer that runs FIRST on every /101 and /ai-for-sc topic, before any hook, caption, prompt, or infographic is written. Builds a consultant-grade / academic-publishing-standard, fully-sourced research brief by spawning the research-analyst agent (one, or several in parallel for broad topics), then writes data/{week}/{slug}/research-brief.md. Every downstream stage — the infographic concept, the on-card numbers, the caption, and (for AI for SC) the copy-paste prompt — is built from this brief, so nothing is invented and every figure traces to a named source. Invoke directly with /research-engine [101|ai-for-sc] [topic-slug], or let /101 and /ai-for-sc trigger it automatically as their Step 0.
+description: The mandatory research layer that runs FIRST on every /101 and /ai-for-sc topic, before any hook, caption, execution architecture, or infographic is written. Builds a consultant-grade, fully sourced research brief. For AI for SC, it verifies the current product surface, rollout status, reusable methods, connected context, controls, artifacts, cadence, and domain method from official sources.
 ---
 
 # /research-engine Skill — the depth layer (runs first, every run)
 
 ## Why this exists
 Shetty's Desk content is only as good as the facts under it. The infographic, the
-on-card numbers, the caption and the prompt all need to be **right** — and right to
+on-card numbers, the caption and the execution architecture all need to be **right** — and right to
 a standard that survives an expert reading it. This skill guarantees that by making
 **verified, sourced research the first step of every post**, not an afterthought.
 
-> **Rule:** No hook, caption, prompt, or render is produced until a
+> **Rule:** No hook, caption, execution architecture, or render is produced until a
 > `research-brief.md` exists for the slug and has cleared the quality gate below.
 > "Depth has to be high before we add anything on top of it."
 >
@@ -48,10 +48,11 @@ post promise, why now, Tiger authority, visual argument, and score. Then write
 1–3 scoped research questions:
 - **101:** one analyst is usually enough — the concept's definition, origin, the
   2–4 hard facts/benchmarks that can sit on the card, and the "so what."
-- **AI for SC:** split into **two parallel analysts** — (a) the **tool layer** (what
-  the named AI tool can/can't actually do *today*, from vendor docs + the honest
-  limit that becomes "when NOT to use AI"), and (b) the **domain/method layer** (the
-  real formulae, indices, criteria, weights, benchmarks the workflow depends on).
+- **AI for SC:** split into **two parallel analysts** — (a) the **tool layer** (the
+  current product surface, rollout status, reusable method, connected context/actions,
+  orchestration, controls, artifacts, cadence, and access limits from vendor docs),
+  and (b) the **domain/method layer** (the real formulae, indices, criteria, weights,
+  benchmarks, evidence requirements, and human decision the workflow depends on).
 
 ## Step 2 — Spawn the research-analyst agent(s)
 Launch the **research-analyst** subagent (`.claude/agents/research-analyst.md`),
@@ -72,8 +73,8 @@ using the schema below. Keep card-ready numbers **bold**. Keep the honesty ledge
 - [ ] Cross-checked against the plan — no duplication of another episode's angle?
 - [ ] A clear "so what" thesis and tension/trade-off the post can be built around?
 - [ ] Meeting-room or workflow use is explicit?
-- [ ] (AI for SC) tool-capability claims sourced to vendor docs, and the honest
-      limit / "when NOT to use" captured?
+- [ ] (AI for SC) tool-capability claims sourced to current vendor docs and the
+      release status, execution architecture, control gate, cadence, and human owner captured?
 - [ ] Honesty ledger lists what could not be verified?
 
 Only when this passes does `/101` / `/ai-for-sc` proceed to hooks.
@@ -119,10 +120,16 @@ Only when this passes does `/101` / `/ai-for-sc` proceed to hooks.
 ## 5. Caption support
 - The 2–3 authority points, with soft-attribution guidance for [Med]/[Low].
 
-## 6. AI-for-SC only — tool + method layer
-- What the tool can do today [reliability] · honest limit → "when NOT to use AI"
-- Real method/data (formulae, indices, criteria, weights) the prompt must embed
-- Expanded copy-paste prompt seed (data-rich)
+## 6. AI-for-SC only — current tool + execution layer
+- Current product surface and release status [reliability]
+- Persistent method: skill / plugin / agent / project / governed instruction set
+- Connected context and actions: files / apps / connectors / MCP / enterprise sources
+- Work split: subagents / workers / deterministic nodes / scripts / tools
+- Control gate: permissions / validation / hooks / tests / human checkpoints
+- Finished artifact package and operating cadence
+- Human owner and system-of-record boundary
+- Real method/data: formulae, indices, criteria, weights, and evidence requirements
+- Expanded execution blueprint specific enough to build or configure
 
 ## 7. Honesty ledger
 - What could NOT be verified; what was dropped or down-weighted, and why.
@@ -137,8 +144,8 @@ Only when this passes does `/101` / `/ai-for-sc` proceed to hooks.
 - **Hooks / caption** lift facts from §2 and §5 (with the soft-attribution guidance).
 - **Infographic** builds its on-card numbers and the visual model from §4 — every
   figure on the card comes from the brief, hard-coded.
-- **AI-for-SC prompt** is expanded from §6's seed and embeds the real method/data.
-- **The honesty line** ("when NOT to use AI" / sourcing caveat) comes from §6/§7.
+- **AI-for-SC execution architecture** is built from §6 and embeds the real method/data.
+- **Control and boundary language** comes from §6/§7 and should not dominate the value promise.
 
 ## Token budget
 ~6–12K orchestration + the analyst agents' own budgets (run in parallel). The brief

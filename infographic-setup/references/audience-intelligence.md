@@ -1,7 +1,7 @@
 # Audience Intelligence — Shetty's Desk
 
-**Date:** 2026-06-30  
-**Status:** Active upstream input for topic selection  
+**Date:** 2026-06-30
+**Status:** Active upstream input for topic selection
 **Use before:** `101-plan.md`, `ai-for-sc-plan-v2.md`, `visual-engine-v2.md`
 
 ## Audience Thesis
@@ -18,7 +18,7 @@ The audience is not just looking for definitions. They want the line that helps 
 | Practitioners | Solve recurring work friction in procurement, planning, logistics, inventory | checklists, templates, decision rules, formulas, meeting-ready diagrams | high-level definitions with no action |
 | Managers / senior managers | Explain trade-offs, align teams, defend decisions to leadership | operating models, risk/cost frameworks, decision maps, escalation logic | tool demos without business consequence |
 | Non-SC business peers | Understand why supply chain makes certain requests or says no | plain-English analogies, consequence maps, simple systems diagrams | deep acronyms, vendor/tool detail |
-| AI-curious SC teams | Use AI safely for real workflows | copy-paste prompts, workflow templates, verification steps, "when not to use AI" | hype, generic AI lists, unsourced productivity claims |
+| AI-curious SC teams | Build current AI execution systems for real workflows | role plugins, reusable skills, connected context, worker maps, control gates, artifact packages, schedules, and human ownership | ordinary-chat tutorials presented as advanced, hype, generic AI lists, unsourced productivity claims |
 
 ## Proven Audience Signals From Analytics
 

@@ -47,3 +47,9 @@ Thumbs.db
 
 # Renderer scratch frames
 infographic-setup/renderer/out/_frames/
+
+# Post-specific motion render frames (rebuild from compositions and shot plans)
+videos/*-motion/qa/*/
+
+# Local linked worktrees
+site-guide-v2-worktree/

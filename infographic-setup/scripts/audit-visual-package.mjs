@@ -24,6 +24,19 @@ function has(path) {
   return existsSync(file(path));
 }
 
+function pngDimensions(path) {
+  if (!has(path)) return null;
+  const buffer = readFileSync(file(path));
+  const signature = '89504e470d0a1a0a';
+  if (buffer.length < 24 || buffer.subarray(0, 8).toString('hex') !== signature) {
+    return null;
+  }
+  return {
+    width: buffer.readUInt32BE(16),
+    height: buffer.readUInt32BE(20),
+  };
+}
+
 function contains(path, needle) {
   return has(path) && read(path).includes(needle);
 }
@@ -57,7 +70,9 @@ function logoAssetRefsValid() {
   const refs = [...value.matchAll(/`([^`]+)`/g)].map((match) => match[1]);
   if (!refs.length) return false;
 
-  return refs.every((ref) => existsSync(resolve(root, ref)));
+  return refs.every(
+    (ref) => existsSync(resolve(root, ref)) || existsSync(resolve(root, '..', ref))
+  );
 }
 
 function htmlControlRequired() {
@@ -110,6 +125,9 @@ function publishDecisionReady() {
 }
 
 const requiresHtmlControl = htmlControlRequired();
+const visualInfo = pngDimensions('visual.png');
+const linkedInInfo = pngDimensions('visual-linkedin.png');
+const maxLinkedInPhotoBytes = 5 * 1024 * 1024;
 const reviewDimensions = [
   'Stop-scroll clarity',
   'Save utility',
@@ -252,6 +270,25 @@ const checks = [
     fix: 'Save selected final output as visual.png.',
   },
   {
+    name: 'final visual meets LinkedIn file-size limit',
+    pass: has('visual.png') && statSync(file('visual.png')).size <= maxLinkedInPhotoBytes,
+    fix: 'Optimize visual.png below 5 MB without changing the approved artwork.',
+  },
+  {
+    name: 'final visual has sufficient source resolution',
+    pass: visualInfo && visualInfo.width >= 552 && visualInfo.height >= 276,
+    fix: 'Export a source visual at least 552 x 276 pixels.',
+  },
+  {
+    name: 'optional LinkedIn companion is 1080 x 1350',
+    pass: !has('visual-linkedin.png') || (
+      linkedInInfo?.width === 1080
+      && linkedInInfo?.height === 1350
+      && statSync(file('visual-linkedin.png')).size <= maxLinkedInPhotoBytes
+    ),
+    fix: 'Export visual-linkedin.png at exactly 1080 x 1350 and below 5 MB.',
+  },
+  {
     name: 'output review clears creative score floor',
     pass: reviewDimensions.every((label) => scoreAtLeast(label, 4)),
     fix: 'Revise/regenerate until every creative score is at least 4/5.',
@@ -297,6 +334,17 @@ for (const check of checks) {
     failures += 1;
     console.log(`FAIL ${check.name}`);
     console.log(`     ${check.fix}`);
+  }
+}
+
+if (visualInfo) {
+  const ratio = visualInfo.width / visualInfo.height;
+  if ((ratio < 0.8 || ratio > 3) && !has('visual-linkedin.png')) {
+    console.warn(
+      `WARN LinkedIn organic geometry: visual.png is ${visualInfo.width} x ${visualInfo.height} `
+      + '(outside 3:1 to 4:5). Preserve the master and add a non-cropping 1080 x 1350 '
+      + 'visual-linkedin.png before posting.'
+    );
   }
 }
 

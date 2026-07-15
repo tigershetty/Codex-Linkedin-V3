@@ -6,24 +6,24 @@
 
 ## Hook Options
 
-1. **Question-Why:** 
-2. **Question-How:** 
-3. **Stat-Lead / Specificity:** 
-4. **Contrarian:** 
-5. **Paradox:** 
-6. **Personal-Reflection:** 
-7. **Result-First:** 
-8. **Timeline / Meeting Moment:** 
-9. **Comparison-Gap:** 
-10. **Decision-Pressure:** 
+1. **Question-Why:**
+2. **Question-How:**
+3. **Stat-Lead / Specificity:**
+4. **Contrarian:**
+5. **Paradox:**
+6. **Personal-Reflection:**
+7. **Result-First:**
+8. **Timeline / Meeting Moment:**
+9. **Comparison-Gap:**
+10. **Decision-Pressure:**
 
 ## Voice QA
 
 **Verdict:** pass / close but revise / fail
 
-**What changed:** 
+**What changed:**
 
-**Caption length:** `{word_count}` words; target 250-330 unless user asks for deeper treatment
+**Caption length:** `{word_count}` words; target 300-450 for AI-for-SC when execution detail earns the space
 
 **Checks:**
 
@@ -33,7 +33,10 @@
 - [ ] Names the meeting-room consequence.
 - [ ] Ends with a specific operating question.
 - [ ] Hook is strong enough to be the first published line, not just a label.
-- [ ] For AI-for-SC, caption names the input pack, the tool output artifact, and the meeting/workflow payoff.
+- [ ] For AI-for-SC, the named execution surface is current and verified against official product documentation.
+- [ ] For AI-for-SC, caption names the reusable method, connected context, work split, control gate, artifact package, cadence, and human owner.
+- [ ] For AI-for-SC, at least one validation can reject, block, or route an unsupported result to review.
+- [ ] For AI-for-SC, ordinary file-upload chat is not presented as the sophisticated capability.
 - [ ] For AI-for-SC, explicit risk/boundary language is included only if it strengthens the post.
 
 ## Recommended Caption — Voice-QA Pass

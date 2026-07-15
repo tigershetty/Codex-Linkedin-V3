@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "week": "{YYYY-W##}",
+  "slug": "{slug}",
+  "series": "AI for Supply Chain",
+  "caption": {
+    "file": "linkedin-caption.md",
+    "status": "draft",
+    "approvedAt": null
+  },
+  "visual": {
+    "file": "visual.png",
+    "status": "draft",
+    "width": null,
+    "height": null,
+    "linkedinExport": null
+  },
+  "motion": {
+    "status": "pending",
+    "gif": "visual-motion.gif",
+    "mp4": "visual-motion.mp4"
+  },
+  "resource": {
+    "decision": "pending",
+    "version": null,
+    "pack": null,
+    "guide": null,
+    "directDownloadNoEmail": true,
+    "validationStatus": "pending"
+  },
+  "website": {
+    "repo": "tigershetty/shettys-desk-site",
+    "status": "hold",
+    "articlePath": null,
+    "resourcePath": null,
+    "previewUrl": null,
+    "productionUrl": null
+  }
+}

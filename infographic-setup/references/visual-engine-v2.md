@@ -1,8 +1,8 @@
 # Visual Engine v2 — GPT Image 2 First, HTML Control Lane
 
-**Version:** 2.1  
-**Date:** 2026-07-13  
-**Status:** Active production workflow for new 101 and AI for Supply Chain visuals  
+**Version:** 2.1
+**Date:** 2026-07-13
+**Status:** Active production workflow for new 101 and AI for Supply Chain visuals
 **North star:** reference-fidelity first, lean inputs, world-class infographic output.
 **Holy Grail benchmark:** `data/2026-W28/supply-chain-resilience-os/visual.png` via `references/holy-grail-visual-standard.md`.
 
@@ -142,7 +142,7 @@ Pick the one claim the visual should lead with.
 
 Choose the one structure that makes the claim. Do this before adding style words.
 
-Bad: "make it premium, cinematic, more dramatic."  
+Bad: "make it premium, cinematic, more dramatic."
 Good: "show six contract clauses as one architectural structure where Scope is the load-bearing cracked column."
 
 ### Step 3 — Prompt Skeleton
@@ -266,11 +266,16 @@ Each visual post folder should aim for:
 | `html-control.md` or renderer template link | backup/control lane notes |
 | `visual-comparison.md` | side-by-side judgment and final pick |
 | `visual.png` | selected final visual |
+| `visual-linkedin.png` | non-cropping 1080 x 1350 companion when the canonical master is taller than 4:5 |
 | `visual-motion.gif` | standard picture-first motion companion after still approval and eligibility pass |
 | `visual-motion.mp4` | standard full-resolution motion master after still approval and eligibility pass |
 | `motion-qa.md` | motion QA: reset/focus frames, endpoint pixel checks, media specs, and promotion decision |
+| `resource-plan.md` | AI-for-SC resource eligibility and package contract |
+| `publish-manifest.json` | explicit caption/still approval and website handoff status |
 
 Do not let generated experiments become the source of truth. The source of truth is the prompt, references, comparison note, and chosen `visual.png`.
+
+Read `references/publish-asset-spec-v1.md` before export. Preserve `visual.png` exactly after approval; if it falls outside the organic 4:5 boundary, create a branded non-cropping `visual-linkedin.png` companion rather than cropping the artifact.
 
 ## 7. Visual QA Scorecard
 

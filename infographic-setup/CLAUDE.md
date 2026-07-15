@@ -6,20 +6,21 @@ A Claude Code pipeline that produces LinkedIn supply chain infographics for Tige
 ## Session Start — Do This First
 1. Check `data/` for the current ISO week folder and active slug
 2. Report which stage the active slug is at (which files exist)
-3. **Auto-check for incomplete AI for SC posts**: scan for any `{slug}/` folders containing `ai-for-sc-[slug].md` — note any where a PDF was likely requested but `ai-for-sc-[slug]-pdf.md` is missing
+3. **Auto-check incomplete AI-for-SC posts**: note missing visual/motion QA, `resource-plan.md`, caption approval, or `publish-manifest.json`
 4. Read `references/audience-intelligence.md` + `references/topic-selection-scorecard.md` + `references/top100-reference-intelligence.md` before accepting a topic
 5. Read `references/visual-engine-v2.md` before creating or revising any visual
 6. Read `references/creative-engine-v3-lean.md` before creating or judging a GPT Image 2 prompt
 7. Use `references/calendar-reference-adaptation-map-v1.md` for RW03-RW12 topic packaging before drafting the content brief
 8. For AI-for-SC flagship visuals/captions, read `references/workflow-learning-2026-07-08-demand-review-to-sequence-board.md` before drafting; it captures the latest value-first caption and deterministic logo-overlay rules.
 9. For GIF/MP4 work, read `references/motion-engine-v1.md` before creating masks, layers, or a timeline.
-10. **Ask: "Supply Chain 101 or AI for Supply Chain?"** — this determines the pipeline
+10. Before a resource or website handoff, read `references/publish-resource-handoff-v1.md` and `references/publish-asset-spec-v1.md`.
+11. **Ask: "Supply Chain 101 or AI for Supply Chain?"** — this determines the pipeline
 
 ## Pick the Pipeline
 
 ```
   [1] Supply Chain 101       → /101 pipeline (foundational, educational)
-  [2] AI for Supply Chain    → /ai-for-sc pipeline (two role-based AI use-case posts, optional PDF)
+  [2] AI for Supply Chain    → /ai-for-sc pipeline (two role-based AI use cases, resource eligibility gate)
 ```
 
 | | Supply Chain 101 | AI for Supply Chain |
@@ -28,11 +29,11 @@ A Claude Code pipeline that produces LinkedIn supply chain infographics for Tige
 | Vocabulary | Plain language, technical terms explained | Action-oriented, tool-specific, no hype |
 | Research | **research-engine first** — consultant-grade sourced brief per topic (plan gives the angle, brief gives verified facts) | **research-engine first** — parallel tool-layer + method-layer sourced brief per use case |
 | Hooks | Metaphor-led, accessible | Role + current limitation + AI unlock |
-| Caption | 150–300 words, educational tone | 220–320 words, practical, copy-paste level |
-| Control gates | None (single-step) | None — PDF is a yes/no gate after the caption |
+| Caption | 150–300 words, educational tone | 300–450 words when current execution detail earns the space |
+| Control gates | Still + caption approval before website handoff | Still + caption approval, resource eligibility, then website preview |
 | Visual | **Visual Engine v2** — GPT Image 2 primary; HTML/code-render backup + comparison lane; Motion Engine v1 standard GIF/MP4 companion after still approval unless a still-only exception is recorded | **Visual Engine v2** — GPT Image 2 primary for stills; HTML/code-render for exact-data controls; Motion Engine v1 standard layout-adaptive GIF/MP4 companion after still approval unless a still-only exception is recorded |
 | Frequency | 2/week (Posts 1+2 in the weekly sub-topic) | 2/week (Posts 3+4 in the weekly sub-topic) |
-| Output | `101-copy.md` | `ai-for-sc-[use-case-slug].md` (+ optional `-pdf.md`) |
+| Output | caption + approved still + motion package | caption + approved still + motion + resource decision + publish manifest |
 
 ---
 
@@ -65,6 +66,8 @@ Topics come from `references/101-plan.md` (see also `references/master-calendar.
 | `references/render-pilot-workflow.md` | Code-render pipeline + design/technical learnings (now shared by 101 + AI for SC) |
 | `references/visual-engine-v2.md` | Active visual workflow — GPT Image 2 first, HTML control lane, Cobalt Grid brand seed, QA scorecard |
 | `references/motion-engine-v1.md` | Optional picture-first motion lane — semantic component mapping, layout-adaptive choreography, deterministic GIF/MP4 QA |
+| `references/publish-resource-handoff-v1.md` | Final caption/still approval, AI-resource eligibility, direct download, and website handoff |
+| `references/publish-asset-spec-v1.md` | LinkedIn 4:5 export, canonical-master preservation, and MP4-first website delivery |
 | `references/brand-kits/cobalt-grid/FRAME.md` | Current brand frame seed — cream/cobalt grid, editorial type, flat structural restraint |
 | `renderer/` | The deterministic HTML→PNG renderer + component-kit templates the 101 infographic is built from |
 | `data/101-series-tracker.md` | Published episodes log — tracks which topics are done |
@@ -99,6 +102,9 @@ Before generating, the skill loads: `tiger-voice.md`, `references/published-voic
 | `references/top100-caption-index.md` | Lean generated caption lookup — opener type, promise, artifact, and save trigger from the workbook |
 | `references/calendar-reference-adaptation-map-v1.md` | RW03-RW12 calendar topics translated into reference-proven promises, power formats, caption patterns, and save triggers |
 | `references/creative-engine-v3-lean.md` | Lean creative brief, prompt preflight, output review, and package audit for GPT Image 2 outputs |
+| `references/ai-creator-education-growth-playbook.md` | Current AI education system — creator patterns, execution stack, setup guidance, recurring formats, and engagement principles |
+| `references/ai-work-surfaces-benchmark-2026-07.md` | Current official Claude, ChatGPT/Codex, Copilot, Gemini, and Grok execution surfaces plus the AI caption depth standard |
+| `references/linkedin-creator-benchmark-50-2026.md` | Cross-domain benchmark cohort, platform evidence, transferable creator systems, and the 40-point caption QA scorecard |
 | `references/published-voice.md` | Hook quality bar, "NOT THIS" list, annotated examples |
 | `references/101-voice.md` | Accessible register for the SC concept layer |
 | `references/ai-for-sc-plan-v2.md` | Fully pre-defined W21–W52 use-case plan — Role, Tool, Use Case, Hook direction per post |
@@ -135,8 +141,9 @@ data/
       visual-motion.gif                ← standard picture-first motion companion after still approval
       visual-motion.mp4                ← standard full-resolution motion master
       motion-qa.md                     ← endpoint, transition-frame, and media-spec QA
-      ai-for-sc-[use-case-slug]-pdf.md ← AI for SC PDF draft (5-page markdown, only if requested)
-      analytics.md                    ← post-publish metrics
+      resource-plan.md                 ← AI-for-SC resource eligibility and package contract
+      publish-manifest.json            ← caption/still approval and website handoff status
+      analytics.md                     ← post-publish metrics
 ```
 (Older week folders may also contain Deep Dive files — `research.md`, `message-commit.md`, `content.md`, `gemini-prompt.md` — from before that pipeline was archived.)
 
@@ -163,15 +170,19 @@ data/
 - **Motion Engine v1 is active (2026-07-13)** — after `visual.png` is approved, the default package includes `visual-motion.gif` and `visual-motion.mp4`. Read `references/motion-engine-v1.md`; map semantic components from the actual layout, keep text/logos/base art locked, use source-fitted covers only when reset QA is clean, otherwise use registered source highlights/signals, and require pixel-identical first/final lossless frames. A still-only output needs a documented eligibility exception.
 - **Motion project initializer** — run `node scripts/init-motion-project.mjs data/{week}/{slug}` after still approval. It creates missing brief, shot plan, composition contract, source copy, and QA folders without overwriting existing work.
 - **Motion package audit** — run `node scripts/audit-motion-package.mjs data/{week}/{slug}` after export. Do not promote motion without canonical GIF/MP4 files, endpoint proof, completed QA, and a pass decision.
+- **Publish/resource handoff** — website publication is the final stage after caption and still approval. Use `publish-manifest.json`; never infer caption approval from visual approval.
+- **AI-for-SC resource gate** — score every post with `templates/resource-plan-template.md`. A qualifying pack uses a direct no-email ZIP, four-page branded field guide by default, one safe first run, synthetic inputs, completed outputs, manifest, checksums, and validation.
+- **Asset export rule** — preserve `visual.png` as the canonical master. Use native 1080 x 1350 or create a non-cropping `visual-linkedin.png` companion when the master is taller than 4:5. Serve MP4 on the website and retain GIF for LinkedIn.
 - **SC 101 footer uses Logo 2** (`renderer/assets/logos/shettys-desk-logo-2.png`, the dark-wordmark lockup for light backgrounds, ~74px on the LEFT) + **"Poornajith Shetty"** signature on the RIGHT. Logo 2 carries the "Shetty's Desk" wordmark, so there is **no separate text label**. Never use Logo 1 on the cards — its wordmark is white and invisible on white.
 - **NEGATIVE prompt blocks degrade GPT Image 2 quality** — avoid long negative/DO-NOT blocks; phrase constraints positively.
 - **AI-still legacy learnings live at `references/ai-still-prompt-learnings.md`**. Use it for historical lessons, especially framework-first thinking and GPT Image 2 prompt hygiene. Its Nano Banana-first §8 is superseded by `references/visual-engine-v2.md`.
 - **Hooks become the verbatim opening line of the published post** — voice rules apply at hook generation
-- **AI for SC: PDF draft is optional** — after caption + render brief (+ rendered infographic) are presented, ask "Would you like a PDF draft? (Yes / No)" before generating
+- **AI for SC: resource is eligibility-led** — do not generate a generic optional five-page PDF. Use the six-point resource gate and build a compact runnable pack only when the post earns one.
 - **AI for SC: use cases are pre-defined in `references/ai-for-sc-plan-v2.md`** — load it at Step 1 and confirm the pre-defined use cases with the user before generating hooks
 - **AI for SC: load tiger-voice.md + published-voice.md + 101-voice.md before generating** — all three voice references apply
 - **AI for SC: hook must name role + current limitation + AI unlock** — "current limitation" must name the actual tool (SAP, Excel, Power BI), not generic friction
 - **AI for SC: boundary logic is mandatory in the brief, not automatically in the published caption** — capture where AI should not own the decision, but lead the post with the useful artifact, workflow promise, and practical value. Include explicit risk language only when it improves trust without making the caption caveat-heavy.
+- **AI for SC: teach one professional distinction and a current execution architecture** — use `references/ai-creator-education-growth-playbook.md`, `references/ai-work-surfaces-benchmark-2026-07.md`, and `references/linkedin-creator-benchmark-50-2026.md`. A flagship caption should name the persistent method, connected context, specialized execution, control gate, finished artifact, cadence, and human owner. Ordinary chat is a scratchpad, not a sophisticated July 2026 workflow. Tool-specific posts should feature the real product surface and explain the transferable operating method.
 - **AI for SC: two posts per week = two different SC roles + two different AI tools** — do not repeat the same role or tool in the same week
 - **AI for SC: check `data/ai-for-sc-series-tracker.md` before generating** — confirm the episode hasn't been published, and verify no role + use case repeat
 - **Research-engine runs FIRST on every 101 + AI for SC run** (`.claude/skills/research-engine/` + the `research-analyst` agent) — it builds a consultant-grade, sourced, reliability-tagged `research-brief.md` per slug. `references/101-plan.md` / `ai-for-sc-plan-v2.md` give the topic/angle; the brief gives the verified facts and numbers. Nothing goes on a card or in a caption unsourced. Concrete/demonstrable examples (tool-in-host-surface: Copilot-in-Excel, Claude-in-Claude-Code/Cowork) are layered on top of this depth, never instead of it.

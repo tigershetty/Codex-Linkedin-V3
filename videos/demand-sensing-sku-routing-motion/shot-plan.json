@@ -1,0 +1,57 @@
+{
+  "project": "demand-sensing-sku-routing-motion",
+  "version": 1,
+  "category": "decision-map",
+  "durationSeconds": 9,
+  "source": "assets/visual.png",
+  "sourceDimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "promise": "Show portfolio context entering the routing gate, the five policy tests resolving, and three cadence paths activating in planning order.",
+  "lockedElements": [
+    "headline and subheading",
+    "all body labels and route meanings",
+    "Claude mark and chip",
+    "Shetty's Desk logo and placard",
+    "3D switchyard, props, shadows, rails, and panel geometry"
+  ],
+  "loop": {
+    "firstFrame": "complete approved visual",
+    "build": "inputs, routing controls, switch, sensing route, monthly route, exception siding",
+    "reset": "all registered highlights, focus rings, scan beams, and signal dots clear without changing the source",
+    "finalFrame": "complete approved visual"
+  },
+  "components": [
+    {"id":"input-history","box":[36,370,275,422],"method":"registered-object-source-highlight","motion":"pulse-plus-signal","communicationJob":"establish demand history"},
+    {"id":"input-orders","box":[36,422,275,476],"method":"registered-object-source-highlight","motion":"pulse-plus-signal","communicationJob":"add recent order and POS signals"},
+    {"id":"input-promo","box":[36,475,275,528],"method":"registered-object-source-highlight","motion":"pulse-plus-signal","communicationJob":"add promotion and lifecycle context"},
+    {"id":"input-service","box":[36,528,275,585],"method":"registered-object-source-highlight","motion":"pulse-plus-signal","communicationJob":"add response constraints"},
+    {"id":"gate-regularity","box":[521,496,696,549],"method":"registered-object-source-highlight","motion":"scan","communicationJob":"test demand regularity"},
+    {"id":"gate-variability","box":[521,549,696,603],"method":"registered-object-source-highlight","motion":"scan","communicationJob":"test demand variability"},
+    {"id":"gate-volume","box":[521,603,696,655],"method":"registered-object-source-highlight","motion":"scan","communicationJob":"test volume and value"},
+    {"id":"gate-signal","box":[521,655,696,708],"method":"registered-green-source-highlight","motion":"scan","communicationJob":"test signal freshness"},
+    {"id":"gate-response","box":[521,708,696,761],"method":"registered-object-source-highlight","motion":"scan","communicationJob":"test the response window"},
+    {"id":"sense-route","box":[55,735,375,1390],"method":"registered-blue-source-highlight","motion":"trace-plus-pulse","communicationJob":"activate frequent sensing"},
+    {"id":"monthly-route","box":[651,736,970,1391],"method":"registered-blue-source-highlight","motion":"trace-plus-pulse","communicationJob":"activate monthly planning"},
+    {"id":"exception-route","box":[407,1040,618,1312],"method":"registered-coral-source-highlight","motion":"trace-plus-pulse","communicationJob":"activate special-method review"}
+  ],
+  "beats": [
+    {"time":"0.00-0.30","focus":"complete visual hold"},
+    {"time":"0.30-1.55","focus":"input pack feeds Claude and the routing artifact"},
+    {"time":"1.35-2.95","focus":"five routing tests scan in order"},
+    {"time":"2.90-3.55","focus":"switch resolves into three paths"},
+    {"time":"3.45-4.75","focus":"frequent-sensing loop activates"},
+    {"time":"4.55-5.90","focus":"monthly-planning loop activates"},
+    {"time":"5.75-6.85","focus":"special-method siding activates"},
+    {"time":"6.75-7.30","focus":"complete routing system resolves"},
+    {"time":"7.35-9.00","focus":"complete visual hold and clean loop"}
+  ],
+  "qa": {
+    "firstFramePixelDiff": 0,
+    "finalFramePixelDiff": 0,
+    "inspectResetAtSourceResolution": true,
+    "inspectRepresentativeContactSheet": true,
+    "exportGifAndMp4": true
+  }
+}

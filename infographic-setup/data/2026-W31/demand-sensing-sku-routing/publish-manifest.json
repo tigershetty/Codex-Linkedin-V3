@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "week": "2026-W31",
+  "slug": "demand-sensing-sku-routing",
+  "series": "AI for Supply Chain",
+  "caption": {
+    "file": "linkedin-caption.md",
+    "status": "draft",
+    "approvedAt": null
+  },
+  "visual": {
+    "file": "visual.png",
+    "status": "approved",
+    "width": 1024,
+    "height": 1536,
+    "linkedinExport": null
+  },
+  "motion": {
+    "status": "approved",
+    "gif": "visual-motion.gif",
+    "mp4": "visual-motion.mp4"
+  },
+  "resource": {
+    "decision": "required",
+    "version": "1.2.0",
+    "pack": "shettys-desk-site/resource-packs/demand-sensing-router",
+    "guide": "START-HERE.pdf",
+    "directDownloadNoEmail": true,
+    "validationStatus": "passed"
+  },
+  "website": {
+    "repo": "tigershetty/shettys-desk-site",
+    "status": "hold",
+    "articlePath": null,
+    "resourcePath": "/resources/demand-sensing-router",
+    "previewUrl": null,
+    "productionUrl": null
+  }
+}

@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demand Sensing SKU Routing - Diagnostic Scan</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1024px; height: 1536px; overflow: hidden; background: #eef6fe; }
+    #card { position: relative; width: 1024px; height: 1536px; overflow: hidden; isolation: isolate; background: #eef6fe; }
+    .base { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; object-fit: cover; }
+    .highlight, .scan-line, .hub-ring, .route { position: absolute; pointer-events: none; opacity: 0; }
+    .highlight {
+      z-index: 2;
+      object-fit: contain;
+      mix-blend-mode: screen;
+      filter: brightness(1.08) drop-shadow(0 0 9px rgba(0, 93, 255, .38));
+    }
+    .coral-light { filter: brightness(1.08) drop-shadow(0 0 11px rgba(229, 100, 70, .48)); }
+    .green-light { filter: brightness(1.10) drop-shadow(0 0 10px rgba(28, 155, 83, .44)); }
+    .input-history { left: 36px; top: 370px; width: 239px; height: 52px; }
+    .input-orders { left: 36px; top: 422px; width: 239px; height: 54px; }
+    .input-promo { left: 36px; top: 475px; width: 239px; height: 53px; }
+    .input-service { left: 36px; top: 528px; width: 239px; height: 57px; }
+    .gate-regularity { left: 521px; top: 496px; width: 175px; height: 53px; }
+    .gate-variability { left: 521px; top: 549px; width: 175px; height: 54px; }
+    .gate-volume { left: 521px; top: 603px; width: 175px; height: 52px; }
+    .gate-signal { left: 521px; top: 655px; width: 175px; height: 53px; }
+    .gate-response { left: 521px; top: 708px; width: 175px; height: 53px; }
+    .sense-route { left: 55px; top: 735px; width: 320px; height: 655px; }
+    .monthly-route { left: 651px; top: 736px; width: 319px; height: 655px; }
+    .exception-route { left: 407px; top: 1040px; width: 211px; height: 272px; }
+    .scan-line {
+      z-index: 4;
+      left: 343px;
+      top: 484px;
+      width: 362px;
+      height: 4px;
+      border-radius: 4px;
+      background: linear-gradient(90deg, rgba(255,255,255,0), rgba(22,112,255,.42) 14%, #fff 50%, rgba(22,112,255,.42) 86%, rgba(255,255,255,0));
+      box-shadow: 0 0 8px rgba(11, 92, 237, .74), 0 0 20px rgba(11, 92, 237, .22);
+    }
+    .hub-ring {
+      z-index: 4;
+      left: 480px;
+      top: 774px;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      border: 3px solid rgba(255,255,255,.92);
+      box-shadow: 0 0 0 3px rgba(23,103,240,.58), 0 0 22px rgba(0,93,255,.55), inset 0 0 12px rgba(0,93,255,.18);
+    }
+    .signal-svg { position: absolute; inset: 0; z-index: 3; width: 100%; height: 100%; pointer-events: none; }
+    .route {
+      fill: none;
+      stroke: rgba(8,100,240,.90);
+      stroke-width: 4;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      filter: drop-shadow(0 0 6px rgba(0,93,255,.58));
+    }
+    .monthly { stroke: rgba(24,87,185,.88); }
+    .exception { stroke: rgba(229,100,70,.94); filter: drop-shadow(0 0 6px rgba(229,100,70,.52)); }
+  </style>
+</head>
+<body>
+  <main id="card" data-composition-id="demand-sensing-diagnostic-scan" data-width="1024" data-height="1536" data-duration="9.0">
+    <section class="clip" data-start="0" data-duration="9.0" data-track-index="1">
+      <img class="base" src="../assets/visual.png" alt="">
+
+      <img class="highlight input-history" src="../assets/highlights/input-history.png" alt="">
+      <img class="highlight input-orders" src="../assets/highlights/input-orders.png" alt="">
+      <img class="highlight input-promo" src="../assets/highlights/input-promo.png" alt="">
+      <img class="highlight input-service" src="../assets/highlights/input-service.png" alt="">
+      <img class="highlight gate-regularity" src="../assets/highlights/gate-regularity.png" alt="">
+      <img class="highlight gate-variability" src="../assets/highlights/gate-variability.png" alt="">
+      <img class="highlight gate-volume" src="../assets/highlights/gate-volume.png" alt="">
+      <img class="highlight green-light gate-signal" src="../assets/highlights/gate-signal.png" alt="">
+      <img class="highlight gate-response" src="../assets/highlights/gate-response.png" alt="">
+      <img class="highlight sense-route" src="../assets/highlights/sense-route.png" alt="">
+      <img class="highlight monthly-route" src="../assets/highlights/monthly-route.png" alt="">
+      <img class="highlight coral-light exception-route" src="../assets/highlights/exception-route.png" alt="">
+
+      <div class="scan-line"></div>
+      <div class="hub-ring"></div>
+
+      <svg class="signal-svg" viewBox="0 0 1024 1536" aria-hidden="true">
+        <path id="claude-gate" class="route" d="M512 421 L512 458"></path>
+        <path id="branch-left" class="route" d="M512 790 C452 804 392 793 330 824"></path>
+        <path id="branch-right" class="route monthly" d="M512 790 C576 804 642 793 704 824"></path>
+        <path id="branch-exception" class="route exception" d="M512 790 C512 872 512 952 512 1042"></path>
+      </svg>
+    </section>
+  </main>
+
+  <script src="../../../infographic-setup/renderer/assets/js/gsap.min.js"></script>
+  <script>
+    (() => {
+      const $ = (selector) => document.querySelector(selector);
+      const $$ = (selector) => Array.from(document.querySelectorAll(selector));
+      const duration = 9.0;
+      const accents = $$('.highlight, .scan-line, .hub-ring, .route');
+      const tl = gsap.timeline({ paused: true });
+      gsap.set(accents, { opacity: 0 });
+
+      const pulse = (selector, start, hold = .26, peak = .82) => {
+        tl.fromTo(selector, { opacity: 0 }, { opacity: peak, duration: .18, ease: 'power2.out' }, start)
+          .to(selector, { opacity: peak * .72, duration: hold, ease: 'sine.inOut' }, start + .18)
+          .to(selector, { opacity: 0, duration: .24, ease: 'sine.in' }, start + .18 + hold);
+      };
+
+      const draw = (selector, start, drawDuration = .45, hold = .14, peak = .9) => {
+        const path = $(selector);
+        const length = path.getTotalLength();
+        gsap.set(path, { strokeDasharray: length, strokeDashoffset: length });
+        tl.fromTo(path, { opacity: 0, strokeDashoffset: length }, {
+          opacity: peak,
+          strokeDashoffset: 0,
+          duration: drawDuration,
+          ease: 'power2.inOut'
+        }, start).to(path, { opacity: 0, duration: .22, ease: 'sine.in' }, start + drawDuration + hold);
+      };
+
+      ['.input-history', '.input-orders', '.input-promo', '.input-service'].forEach((selector, index) => {
+        pulse(selector, .42 + index * .13, .22, .64);
+      });
+      draw('#claude-gate', 1.05, .34, .18, .9);
+
+      tl.fromTo('.scan-line', { opacity: 0, y: 0 }, {
+        opacity: .96,
+        y: 264,
+        duration: 1.72,
+        ease: 'power1.inOut'
+      }, 1.42).to('.scan-line', { opacity: 0, duration: .16 }, 3.14);
+
+      const rows = [
+        ['.gate-regularity', 1.48],
+        ['.gate-variability', 1.78],
+        ['.gate-volume', 2.08],
+        ['.gate-signal', 2.38],
+        ['.gate-response', 2.68]
+      ];
+      rows.forEach(([highlight, start]) => {
+        pulse(highlight, start, .32, .72);
+      });
+
+      tl.fromTo('.hub-ring', { opacity: 0, scale: .72 }, {
+        opacity: .9,
+        scale: 1,
+        duration: .34,
+        ease: 'back.out(1.8)'
+      }, 3.24).to('.hub-ring', { opacity: 0, scale: 1.16, duration: .36, ease: 'sine.in' }, 3.74);
+
+      draw('#branch-left', 3.42, .50, .18, .94);
+      pulse('.sense-route', 3.76, .64, .86);
+      draw('#branch-right', 4.48, .50, .18, .90);
+      pulse('.monthly-route', 4.82, .64, .80);
+      draw('#branch-exception', 5.54, .62, .14, .94);
+      pulse('.exception-route', 5.94, .58, .90);
+
+      tl.fromTo(['.sense-route', '.monthly-route', '.exception-route'], { opacity: 0 }, {
+        opacity: .30,
+        duration: .24,
+        ease: 'power2.out'
+      }, 6.72).to(['.sense-route', '.monthly-route', '.exception-route'], {
+        opacity: 0,
+        duration: .34,
+        ease: 'sine.in'
+      }, 7.02).to(accents, { opacity: 0, duration: .01 }, 7.25).to({}, { duration: 1.74 }, 7.26);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['demand-sensing-diagnostic-scan'] = tl;
+      window.__tl = tl;
+      window.__dur = duration;
+      Promise.all(Array.from(document.images).map((image) => image.complete ? Promise.resolve() : new Promise((resolve) => {
+        image.addEventListener('load', resolve, { once: true });
+        image.addEventListener('error', resolve, { once: true });
+      }))).then(() => { window.__ready = true; });
+    })();
+  </script>
+</body>
+</html>

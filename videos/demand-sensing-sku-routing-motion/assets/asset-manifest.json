@@ -1,0 +1,158 @@
+{
+  "input-history": {
+    "box": [
+      36,
+      370,
+      275,
+      422
+    ],
+    "method": "registered-object-source-highlight",
+    "alphaExtrema": [
+      0,
+      210
+    ]
+  },
+  "input-orders": {
+    "box": [
+      36,
+      422,
+      275,
+      476
+    ],
+    "method": "registered-object-source-highlight",
+    "alphaExtrema": [
+      0,
+      210
+    ]
+  },
+  "input-promo": {
+    "box": [
+      36,
+      475,
+      275,
+      528
+    ],
+    "method": "registered-object-source-highlight",
+    "alphaExtrema": [
+      0,
+      210
+    ]
+  },
+  "input-service": {
+    "box": [
+      36,
+      528,
+      275,
+      585
+    ],
+    "method": "registered-object-source-highlight",
+    "alphaExtrema": [
+      0,
+      210
+    ]
+  },
+  "gate-regularity": {
+    "box": [
+      521,
+      496,
+      696,
+      549
+    ],
+    "method": "registered-object-source-highlight",
+    "alphaExtrema": [
+      0,
+      210
+    ]
+  },
+  "gate-variability": {
+    "box": [
+      521,
+      549,
+      696,
+      603
+    ],
+    "method": "registered-object-source-highlight",
+    "alphaExtrema": [
+      0,
+      210
+    ]
+  },
+  "gate-volume": {
+    "box": [
+      521,
+      603,
+      696,
+      655
+    ],
+    "method": "registered-object-source-highlight",
+    "alphaExtrema": [
+      0,
+      210
+    ]
+  },
+  "gate-response": {
+    "box": [
+      521,
+      708,
+      696,
+      761
+    ],
+    "method": "registered-object-source-highlight",
+    "alphaExtrema": [
+      0,
+      210
+    ]
+  },
+  "gate-signal": {
+    "box": [
+      521,
+      655,
+      696,
+      708
+    ],
+    "method": "registered-green-source-highlight",
+    "alphaExtrema": [
+      0,
+      235
+    ]
+  },
+  "sense-route": {
+    "box": [
+      55,
+      735,
+      375,
+      1390
+    ],
+    "method": "registered-blue-source-highlight",
+    "alphaExtrema": [
+      0,
+      235
+    ]
+  },
+  "monthly-route": {
+    "box": [
+      651,
+      736,
+      970,
+      1391
+    ],
+    "method": "registered-blue-source-highlight",
+    "alphaExtrema": [
+      0,
+      235
+    ]
+  },
+  "exception-route": {
+    "box": [
+      407,
+      1040,
+      618,
+      1312
+    ],
+    "method": "registered-coral-source-highlight",
+    "alphaExtrema": [
+      0,
+      235
+    ]
+  }
+}
