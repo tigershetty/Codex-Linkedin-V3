@@ -5,8 +5,8 @@
   "series": "AI for Supply Chain",
   "caption": {
     "file": "linkedin-caption.md",
-    "status": "draft",
-    "approvedAt": null
+    "status": "approved",
+    "approvedAt": "2026-07-16"
   },
   "visual": {
     "file": "visual.png",
@@ -30,10 +30,10 @@
   },
   "website": {
     "repo": "tigershetty/shettys-desk-site",
-    "status": "hold",
-    "articlePath": null,
+    "status": "ready",
+    "articlePath": "/articles/demand-sensing-sku-routing",
     "resourcePath": "/resources/demand-sensing-router",
-    "previewUrl": null,
-    "productionUrl": null
+    "previewUrl": "https://shettys-desk-site-jxt3v0ujv-tigershettys-projects.vercel.app",
+    "productionUrl": "https://shettysdesk.vercel.app/articles/demand-sensing-sku-routing"
   }
 }
