@@ -1,14 +1,14 @@
 {
   "project": "{slug}-motion",
-  "version": 1,
+  "version": 2,
   "category": "{decision-board|process|matrix|table|formula|comparison|hierarchy|network|annotated-hero|calendar|operating-system}",
-  "durationSeconds": 8,
+  "durationSeconds": 12,
   "source": "assets/visual.png",
   "sourceDimensions": {
     "width": 0,
     "height": 0
   },
-  "promise": "Motion helps because the reader needs to see {sequence} in {reading order}.",
+  "promise": "Motion adds value beyond the still by showing {sequence, dependency, comparison, state change, or decision logic}.",
   "lockedElements": [
     "headline",
     "body text",
@@ -17,17 +17,17 @@
     "background scene"
   ],
   "loop": {
-    "firstFrame": "complete approved visual",
-    "reset": "selected semantic components clear only when reconstruction is credible; otherwise the source remains locked and focus changes through delayed highlights",
-    "build": "components return in the visual's reading order",
-    "finalFrame": "complete approved visual"
+    "firstFrame": "complete selected 1080 x 1350 visual",
+    "reset": "clean authored stage or source-locked focus transition",
+    "build": "source-authored components or deterministic value layers move in the visual's reading order",
+    "finalFrame": "complete selected 1080 x 1350 visual"
   },
   "components": [
     {
       "id": "unit-01",
       "box": [0, 0, 0, 0],
-      "method": "semantic-mask|fitted-plate|whole-component|registered-source-highlight-only",
-      "motion": "wipe|fade|trace|pulse",
+      "method": "shaped-source-component|deterministic-vector-data-layer|whole-compound-component|fitted-plate",
+      "motion": "assemble|route|compare|resolve",
       "communicationJob": "{what this unit teaches}"
     }
   ],
@@ -51,9 +51,11 @@
   ],
   "qa": {
     "firstFramePixelDiff": 0,
+    "restoredFramePixelDiff": 0,
     "finalFramePixelDiff": 0,
     "inspectResetAtSourceResolution": true,
     "inspectRepresentativeContactSheet": true,
+    "inspectEncodedGif": true,
     "exportGifAndMp4": true
   }
 }

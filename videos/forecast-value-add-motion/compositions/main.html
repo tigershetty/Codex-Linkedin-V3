@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Did The Override Add Value? - Motion</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      width: 1080px;
+      height: 1350px;
+      overflow: hidden;
+      background: #eef6fe;
+    }
+    #card {
+      position: relative;
+      width: 1080px;
+      height: 1350px;
+      overflow: hidden;
+      isolation: isolate;
+      background: #eef6fe;
+    }
+    .base {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .highlight, .focus-ring {
+      position: absolute;
+      pointer-events: none;
+      opacity: 0;
+    }
+    .highlight {
+      z-index: 2;
+      object-fit: contain;
+      mix-blend-mode: screen;
+      filter: brightness(1.12) drop-shadow(0 0 9px rgba(12, 103, 246, .42));
+    }
+    .trace {
+      clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+      filter: brightness(1.18) drop-shadow(0 0 8px rgba(12, 103, 246, .50));
+    }
+    .coral-light { filter: brightness(1.14) drop-shadow(0 0 10px rgba(235, 75, 35, .48)); }
+    .green-light { filter: brightness(1.14) drop-shadow(0 0 11px rgba(27, 150, 78, .50)); }
+    .object-light { filter: brightness(1.09) drop-shadow(0 0 9px rgba(14, 83, 175, .34)); }
+
+    .actual-trace { left: 172px; top: 350px; width: 621px; height: 105px; }
+    .adjusted-trace { left: 172px; top: 380px; width: 621px; height: 115px; }
+    .baseline-trace { left: 172px; top: 405px; width: 621px; height: 145px; }
+    .baseline-wape { left: 372px; top: 659px; width: 100px; height: 63px; }
+    .adjusted-wape { left: 497px; top: 676px; width: 100px; height: 46px; }
+    .fva-result { left: 614px; top: 672px; width: 125px; height: 50px; }
+    .rule-positive { left: 313px; top: 826px; width: 155px; height: 117px; }
+    .rule-zero { left: 484px; top: 826px; width: 155px; height: 117px; }
+    .rule-negative { left: 651px; top: 826px; width: 155px; height: 117px; }
+    .ledger-promotion { left: 255px; top: 1011px; width: 384px; height: 53px; }
+    .ledger-customer { left: 255px; top: 1064px; width: 384px; height: 58px; }
+    .ledger-no-evidence { left: 255px; top: 1122px; width: 384px; height: 50px; }
+    .input-pack { left: 655px; top: 964px; width: 205px; height: 246px; }
+
+    .focus-ring {
+      z-index: 3;
+      border: 2px solid rgba(21, 119, 243, .78);
+      box-shadow:
+        0 0 0 3px rgba(255, 255, 255, .62),
+        0 0 20px rgba(21, 119, 243, .42),
+        inset 0 0 14px rgba(21, 119, 243, .12);
+    }
+    .formula-ring {
+      left: 366px;
+      top: 666px;
+      width: 373px;
+      height: 55px;
+      border-radius: 11px;
+      border-color: rgba(28, 151, 77, .80);
+      box-shadow:
+        0 0 0 3px rgba(255, 255, 255, .65),
+        0 0 23px rgba(28, 151, 77, .42),
+        inset 0 0 15px rgba(28, 151, 77, .12);
+    }
+    .input-ring {
+      left: 653px;
+      top: 961px;
+      width: 209px;
+      height: 251px;
+      border-radius: 14px;
+    }
+    .row-ring {
+      border-radius: 5px;
+      border-width: 2px;
+      box-shadow:
+        0 0 0 2px rgba(255, 255, 255, .48),
+        0 0 13px rgba(21, 119, 243, .30),
+        inset 0 0 8px rgba(21, 119, 243, .08);
+    }
+    .promotion-ring {
+      left: 258px;
+      top: 1010px;
+      width: 377px;
+      height: 55px;
+      border-color: rgba(27, 150, 78, .78);
+      box-shadow: 0 0 0 2px rgba(255,255,255,.48), 0 0 13px rgba(27,150,78,.34);
+    }
+    .customer-ring {
+      left: 258px;
+      top: 1065px;
+      width: 377px;
+      height: 56px;
+    }
+    .no-evidence-ring {
+      left: 258px;
+      top: 1121px;
+      width: 377px;
+      height: 53px;
+      border-color: rgba(235, 75, 35, .82);
+      box-shadow: 0 0 0 2px rgba(255,255,255,.48), 0 0 14px rgba(235,75,35,.38);
+    }
+  </style>
+</head>
+<body>
+  <main
+    id="card"
+    data-composition-id="forecast-value-add-motion"
+    data-width="1080"
+    data-height="1350"
+    data-duration="9.0"
+  >
+    <section class="clip" data-start="0" data-duration="9.0" data-track-index="1">
+      <img class="base" src="../assets/visual.png" alt="">
+
+      <img class="highlight trace actual-trace" src="../assets/highlights/actual-trace.png" alt="">
+      <img class="highlight trace adjusted-trace" src="../assets/highlights/adjusted-trace.png" alt="">
+      <img class="highlight trace coral-light baseline-trace" src="../assets/highlights/baseline-trace.png" alt="">
+      <img class="highlight coral-light baseline-wape" src="../assets/highlights/baseline-wape.png" alt="">
+      <img class="highlight adjusted-wape" src="../assets/highlights/adjusted-wape.png" alt="">
+      <img class="highlight green-light fva-result" src="../assets/highlights/fva-result.png" alt="">
+      <img class="highlight green-light rule-positive" src="../assets/highlights/rule-positive.png" alt="">
+      <img class="highlight object-light rule-zero" src="../assets/highlights/rule-zero.png" alt="">
+      <img class="highlight coral-light rule-negative" src="../assets/highlights/rule-negative.png" alt="">
+      <img class="highlight object-light ledger-promotion" src="../assets/highlights/ledger-promotion.png" alt="">
+      <img class="highlight object-light ledger-customer" src="../assets/highlights/ledger-customer.png" alt="">
+      <img class="highlight object-light ledger-no-evidence" src="../assets/highlights/ledger-no-evidence.png" alt="">
+      <img class="highlight object-light input-pack" src="../assets/highlights/input-pack.png" alt="">
+
+      <div class="focus-ring formula-ring"></div>
+      <div class="focus-ring row-ring promotion-ring"></div>
+      <div class="focus-ring row-ring customer-ring"></div>
+      <div class="focus-ring row-ring no-evidence-ring"></div>
+      <div class="focus-ring input-ring"></div>
+    </section>
+  </main>
+
+  <script src="../../../infographic-setup/renderer/assets/js/gsap.min.js"></script>
+  <script>
+    (() => {
+      const duration = 9.0;
+      const accents = Array.from(document.querySelectorAll('.highlight, .focus-ring'));
+      const tl = gsap.timeline({ paused: true });
+
+      gsap.set(accents, { opacity: 0 });
+      gsap.set('.trace', { clipPath: 'polygon(0 0, 0 0, 0 100%, 0 100%)' });
+
+      const pulse = (selector, start, hold = .22, peak = .86) => {
+        tl.fromTo(selector, { opacity: 0, scale: .992 }, {
+          opacity: peak,
+          scale: 1,
+          duration: .18,
+          ease: 'power2.out'
+        }, start)
+          .to(selector, { opacity: peak * .72, duration: hold, ease: 'sine.inOut' }, start + .18)
+          .to(selector, { opacity: 0, duration: .24, ease: 'sine.in' }, start + .18 + hold);
+      };
+
+      const wipe = (selector, start, travel = .46, peak = .92) => {
+        tl.fromTo(selector, {
+          opacity: 0,
+          clipPath: 'polygon(0 0, 0 0, 0 100%, 0 100%)'
+        }, {
+          opacity: peak,
+          clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
+          duration: travel,
+          ease: 'power2.inOut'
+        }, start)
+          .to(selector, { opacity: peak * .72, duration: .16, ease: 'sine.inOut' }, start + travel)
+          .to(selector, { opacity: 0, duration: .24, ease: 'sine.in' }, start + travel + .16);
+      };
+
+      const ring = (selector, start, hold = .28, peak = .74) => {
+        tl.fromTo(selector, { opacity: 0, scale: .985 }, {
+          opacity: peak,
+          scale: 1,
+          duration: .20,
+          ease: 'power2.out'
+        }, start)
+          .to(selector, { opacity: peak * .70, duration: hold, ease: 'sine.inOut' }, start + .20)
+          .to(selector, { opacity: 0, duration: .26, ease: 'sine.in' }, start + .20 + hold);
+      };
+
+      wipe('.actual-trace', .30, .48, .90);
+      wipe('.adjusted-trace', .82, .48, .94);
+      wipe('.baseline-trace', 1.34, .48, .94);
+
+      pulse('.baseline-wape', 2.05, .24, .92);
+      pulse('.adjusted-wape', 2.42, .24, .94);
+      pulse('.fva-result', 2.79, .34, .98);
+      ring('.formula-ring', 2.84, .34, .82);
+
+      pulse('.rule-positive', 3.45, .22, .90);
+      pulse('.rule-zero', 3.78, .22, .78);
+      pulse('.rule-negative', 4.11, .22, .90);
+
+      pulse('.ledger-promotion', 4.65, .22, .76);
+      ring('.promotion-ring', 4.65, .20, .72);
+      pulse('.ledger-customer', 5.02, .22, .76);
+      ring('.customer-ring', 5.02, .20, .68);
+      pulse('.ledger-no-evidence', 5.39, .26, .84);
+      ring('.no-evidence-ring', 5.39, .24, .76);
+
+      pulse('.input-pack', 5.95, .46, .72);
+      ring('.input-ring', 6.00, .42, .70);
+
+      tl.to(accents, { opacity: 0, duration: .01 }, 6.98)
+        .to({}, { duration: 2.01 }, 6.99);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['forecast-value-add-motion'] = tl;
+      window.__tl = tl;
+      window.__dur = duration;
+
+      const images = Array.from(document.images).map((image) => {
+        if (image.complete) return Promise.resolve();
+        return new Promise((resolve) => {
+          image.addEventListener('load', resolve, { once: true });
+          image.addEventListener('error', resolve, { once: true });
+        });
+      });
+      Promise.all(images).then(() => { window.__ready = true; });
+    })();
+  </script>
+</body>
+</html>

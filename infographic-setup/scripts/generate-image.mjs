@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 /**
  * generate-image.mjs
- * Dual-engine image generation: Gemini Flash or gpt-image-1
+ * Dual-engine image generation: Gemini Flash or GPT Image 2
  *
  * Usage:
  *   node generate-image.mjs \
  *     --prompt path/to/prompt.txt \
  *     --engine gemini|openai \
  *     --output path/to/output.png \
+ *     [--size 1024x1536] \
  *     [--reference path/to/brand-anchor.webp] \
  *     [--dry-run]
  *
@@ -49,6 +50,7 @@ const promptPath = require_arg('prompt');
 const engine = require_arg('engine');
 const outputPath = require_arg('output');
 const referencePath = args['reference'] || null;
+const requestedSize = args.size || '1024x1536';
 
 if (!['gemini', 'openai'].includes(engine)) {
   console.error(`Invalid engine: ${engine}. Must be 'gemini' or 'openai'.`);
@@ -144,7 +146,7 @@ async function generateWithGemini() {
   console.log(`Image saved: ${outputPath}`);
 }
 
-// ── OpenAI gpt-image-1 generation ────────────────────────────────────────────
+// ── OpenAI GPT Image 2 generation ────────────────────────────────────────────
 
 async function generateWithOpenAI() {
   const apiKey = process.env.OPENAI_API_KEY;
@@ -152,11 +154,19 @@ async function generateWithOpenAI() {
 
   const url = 'https://api.openai.com/v1/images/generations';
 
+  const allowedSizes = new Set(['1024x1024', '1024x1536', '1536x1024', 'auto']);
+  if (!allowedSizes.has(requestedSize)) {
+    console.error(`Invalid OpenAI image size: ${requestedSize}`);
+    console.error('Use 1024x1024, 1024x1536, 1536x1024, or auto.');
+    process.exit(1);
+  }
+
+  const model = process.env.OPENAI_IMAGE_MODEL || 'gpt-image-2';
   const body = {
-    model: 'gpt-image-1',
+    model,
     prompt: promptText,
     n: 1,
-    size: '1024x1024',  // gpt-image-1 max; upscale to 2048x2048 post-generation if needed
+    size: requestedSize,
     quality: 'high',
     output_format: 'png'
   };
@@ -165,11 +175,11 @@ async function generateWithOpenAI() {
     console.log('\n[DRY RUN] Would POST to:', url);
     console.log('[DRY RUN] Request body:');
     console.log(JSON.stringify(body, null, 2));
-    if (referenceImage) console.log('[DRY RUN] Note: reference image not supported in generations endpoint — include style description in prompt instead');
+    if (referenceImage) console.log('[DRY RUN] Note: the generations endpoint does not receive the reference image; use the image edits endpoint for high-fidelity image input.');
     return;
   }
 
-  console.log('Calling OpenAI Images API (model: gpt-image-1)...');
+  console.log(`Calling OpenAI Images API (model: ${model}, size: ${requestedSize})...`);
   const res = await fetch(url, {
     method: 'POST',
     headers: {

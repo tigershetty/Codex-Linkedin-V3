@@ -1,9 +1,11 @@
 # LinkedIn Creator Benchmark 50 - 2026
 
 **Status:** active research reference
-**Research date:** 2026-07-14
+**Research date:** 2026-07-14; workflow integration updated 2026-07-20
 **Applies to:** hooks, captions, recurring series design, and post QA
 **Purpose:** learn from high-authority professional creators without copying their language, identity, or proprietary frameworks
+
+Use this cross-domain cohort for editorial mechanisms. Use `top100-creator-attribution-and-audit-2026-07.md` for the complete Top-100 creator/source map and `content-demand-proof-gate-v1.md` before applying either reference set to a topic.
 
 ## Important Definition
 
@@ -198,7 +200,7 @@ Score each category from 0 to 5.
 | Conversation quality | Agreement bait | A practitioner can answer from experience |
 | Voice fidelity | Generic creator cadence | Sounds like Tiger's connected reasoning |
 
-**Publish threshold:** 32/40. Any score below 3 in professional information gain, operating specificity, or voice fidelity is a hard revision.
+**Writing threshold:** 32/40. Any score below 3 in professional information gain, operating specificity, or voice fidelity is a hard revision. This score does not override a failed demand-proof gate.
 
 ## What Not To Replicate
 

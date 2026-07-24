@@ -1,104 +1,123 @@
-# Topic Selection Scorecard
+# Topic Selection Scorecard v2
 
-**Date:** 2026-06-30  
-**Status:** Active gate before research, caption, or visual work  
-**Purpose:** prevent the calendar from producing accurate but low-demand topics.
+**Date:** 2026-07-20  
+**Status:** Active after `content-demand-proof-gate-v1.md`  
+**Purpose:** choose the strongest audience argument and the appropriate production depth, not the topic with the easiest infographic.
 
 ## Rule
 
-No new post proceeds from candidate topic to production until it has a score.
+The calendar supplies candidates. The demand-proof gate authorizes scoring.
 
-Minimum score: **75/100**  
-World-class target: **85+/100**
+No new post proceeds to a premium still, motion, or resource because it is next in the calendar. Gates A, C, D, and E in `content-demand-proof-gate-v1.md` are non-compensable.
 
-Before scoring, read `top100-reference-intelligence.md` and define the topic's reference-proven promise. The top-100 set is now part of the topic gate, not only a visual styling input.
+Minimum score after passing the gates: **75/100**  
+Flagship target: **85+/100**
 
 ## Scorecard
 
 | Dimension | Weight | Question |
 |---|---:|---|
-| Audience pain / desire | 25 | Does this solve a real frustration, ambition, confusion, or decision pressure for a defined audience segment? |
-| Save utility | 20 | Would someone save or screenshot this for a meeting, workflow, interview, or future explanation? |
-| Visual potential | 15 | Is there a strong diagram, map, ladder, boundary, flow, or contrast hiding in the topic? |
-| Freshness / timing | 15 | Is there a current market, tool, regulatory, business, or career reason this matters now? |
-| Tiger authority | 10 | Can Tiger add lived operating perspective that a generic creator cannot? |
-| Research strength | 10 | Can the topic be supported with credible facts, sources, examples, or tool documentation? |
-| Series fit | 5 | Does it fit the 101 / AI-for-SC / monthly theme architecture without feeling forced? |
+| Recognizable audience tension | 20 | Will one defined role recognize a current frustration, ambition, identity question, or decision pressure in the first two lines? |
+| Observed demand | 20 | Do dated audience receipts and relevant historical performance support the idea? |
+| Tiger authority | 15 | Is the insight grounded in lived work, a repeated practitioner pattern, original analysis, an experiment, or a named contributor? |
+| Decision consequence | 15 | Does the post change a decision, behavior, question, or professional self-understanding? |
+| Proof strength | 10 | Can the central claim be supported and bounded with credible evidence? |
+| Freshness / timing | 10 | Is there a current business, role, tool, regulatory, or audience reason to publish now? |
+| Carrier fit | 5 | Is there a clear best carrier: story, photo, text, table, diagram, tool, or flagship artifact? |
+| Series / IP fit | 5 | Does it reinforce a recognizable Shetty's Desk promise without forcing a repetitive layout? |
 
-## Reference-Proven Value Gate
+Visual potential and save utility are carrier outcomes, not demand evidence. They cannot rescue a generic topic.
 
-In addition to the 100-point score, every topic must pass this reference fit check:
-
-```md
-Reference-proven promise:
-Power format:
-Closest top-100 reference files:
-Caption pattern to adapt:
-Save trigger:
-Audience value in one sentence:
-Why this is Shetty's Desk, not a generic creator:
-```
-
-If the reference fit is only aesthetic, do not build yet. Reframe the topic until the reference shows a stronger promise, artifact, or visual argument.
-
-## Scoring Bands
-
-| Score | Meaning | Action |
-|---:|---|---|
-| 90-100 | Must-make | Prioritize this week |
-| 85-89 | Strong | Build if it fits cadence |
-| 75-84 | Acceptable | Build only if no stronger candidate exists |
-| 60-74 | Reframe | Keep idea, change the angle |
-| <60 | Drop / park | Not enough audience pull |
-
-## Required Topic Brief
+## Required evidence record
 
 ```md
 Topic:
-Audience segment:
-Audience pain/desire:
-Post promise:
+Audience role:
+Audience job: locate / diagnose / decide / compare / execute / debate
+Recognizable tension:
+Tiger's belief:
+Decision or behavior that changes:
 Why now:
-Tiger authority:
-Research angle:
-Visual argument:
-Reference-proven promise:
-Power format:
-Caption pattern to adapt:
-Save trigger:
-Reusable takeaway:
 
+Audience receipts:
+- Receipt 1:
+- Receipt 2:
+- Receipt 3:
+
+Closest historical priors:
+- Prior 1:
+- Prior 2:
+- Prior 3:
+
+Tiger authority source:
+Proof and source boundary:
+Counterargument:
+
+Lead references:
+- Creator / source:
+- Original URL:
+- Reference-informed or performance-supported:
+- Observed response:
+- Confidence:
+
+Candidate carriers:
+Recommended production depth: flagship / medium / test / park
+```
+
+## Scoring bands
+
+| Score | Meaning | Action |
+|---:|---|---|
+| 90-100 | Must-make | Prioritize and run pre-render challenge. |
+| 85-89 | Strong flagship candidate | Build deeply after challenge evidence. |
+| 75-84 | Useful but not automatically flagship | Choose medium or test carrier unless strategic value is exceptional. |
+| 60-74 | Reframe | Keep the tension; change the claim, audience, or consequence. |
+| <60 | Park | Do not spend production time. |
+
+## Required score
+
+```md
 Score:
-- Audience pain / desire: __ /25
-- Save utility: __ /20
-- Visual potential: __ /15
-- Freshness / timing: __ /15
-- Tiger authority: __ /10
-- Research strength: __ /10
-- Series fit: __ /5
+- Recognizable audience tension: __ /20
+- Observed demand: __ /20
+- Tiger authority: __ /15
+- Decision consequence: __ /15
+- Proof strength: __ /10
+- Freshness / timing: __ /10
+- Carrier fit: __ /5
+- Series / IP fit: __ /5
 - Total: __ /100
 
+Non-compensable gates passed: yes / no
+Production depth:
 Decision:
 ```
 
-## Reframing Guide
+## Reframing guide
 
 | Weak frame | Stronger frame |
 |---|---|
-| What is X? | Why does X fail / matter / cost money / change the decision? |
-| Tool can do Y | Role is stuck at Z; tool helps if these inputs are clean |
-| Here are 5 types | Which type should you use, and what happens if you pick wrong? |
-| Concept explanation | Meeting-room decision map |
-| Trend list | What this changes for a specific role |
-| Definition | Hidden trade-off |
+| What is X? | Where does X break, what does it cost, and who decides next? |
+| Tool can do Y | Here is the real context, output, failure, and human review from one attempt. |
+| Here are five types | Which type fits your situation, and what happens when you choose the wrong one? |
+| Concept explanation | A witnessed meeting, operating contradiction, or decision test. |
+| Trend list | What the change means for one role this month. |
+| Definition | Hidden trade-off, identity question, or costly hand-off. |
+| Complete guide | One memorable belief with enough evidence to use. |
 
-## Hard Rejection Tests
+## Hard rejection tests
 
 Reject or reframe if:
 
-- the topic can be answered by a generic textbook paragraph,
-- the audience segment is "everyone in supply chain,"
-- there is no meeting-room or workflow use,
-- the visual would naturally become a generic 4-card grid,
-- the only reason to make it is "it is next in the calendar,"
-- Tiger has no credible point of view beyond the definition.
+- the topic can be answered by a generic textbook paragraph;
+- the audience is "everyone in supply chain";
+- there are fewer than three audience receipts;
+- the only source of authority is a visually attractive reference;
+- the outcome is only that the reader understands the concept;
+- Tiger has no credible point of view beyond the definition;
+- the lead reference is unsigned, reposted, or low-confidence with no independent support;
+- the idea requires unsupported statistics to sound important;
+- the only reason to make it is calendar order;
+- a generic card grid is being used to manufacture visual interest;
+- a full resource is proposed before demand or strategic need is recorded.
+

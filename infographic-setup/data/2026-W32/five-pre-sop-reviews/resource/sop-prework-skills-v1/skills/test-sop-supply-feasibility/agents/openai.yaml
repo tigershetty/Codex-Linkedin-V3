@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test S&OP Supply Feasibility"
+  short_description: "Turn constraints into feasible response options"
+  default_prompt: "Test this demand plan against supply constraints and produce feasible response options with service, inventory, capacity, and cost consequences."

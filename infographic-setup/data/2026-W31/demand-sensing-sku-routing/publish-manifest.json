@@ -1,8 +1,15 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "week": "2026-W31",
   "slug": "demand-sensing-sku-routing",
   "series": "AI for Supply Chain",
+  "hooks": {
+    "file": "linkedin-caption.md",
+    "status": "approved",
+    "candidateCount": 10,
+    "selectedHook": "A faster forecast cycle can create more planner activity without creating a better decision.",
+    "approvedAt": "2026-07-16"
+  },
   "caption": {
     "file": "linkedin-caption.md",
     "status": "approved",
@@ -10,23 +17,37 @@
   },
   "visual": {
     "file": "visual.png",
+    "qa": "visual-output-review.md",
     "status": "approved",
+    "approvedAt": "2026-07-16",
     "width": 1024,
     "height": 1536,
     "linkedinExport": null
   },
   "motion": {
     "status": "approved",
+    "approvedAt": "2026-07-16",
     "gif": "visual-motion.gif",
-    "mp4": "visual-motion.mp4"
+    "mp4": "visual-motion.mp4",
+    "qa": "motion-qa.md",
+    "stillOnlyReason": null
+  },
+  "postPackage": {
+    "status": "approved",
+    "approvedAt": "2026-07-16"
   },
   "resource": {
+    "required": true,
     "decision": "required",
+    "status": "approved",
+    "plan": "resource-plan.md",
     "version": "1.2.0",
     "pack": "shettys-desk-site/resource-packs/demand-sensing-router",
     "guide": "START-HERE.pdf",
+    "manifest": "MANIFEST.json",
     "directDownloadNoEmail": true,
-    "validationStatus": "passed"
+    "validationStatus": "passed",
+    "approvedAt": "2026-07-16"
   },
   "website": {
     "repo": "tigershetty/shettys-desk-site",

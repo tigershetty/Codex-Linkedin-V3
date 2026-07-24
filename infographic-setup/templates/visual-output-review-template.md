@@ -40,6 +40,7 @@
 - [ ] No tiny repeated text that hurts mobile readability
 - [ ] No decorative marks that imply unapproved meaning
 - [ ] If cleanup was done, the original successful angle, 3D depth, shadows, desk props, and composition were preserved
+- [ ] `visual-linkedin.png` exists at exactly 1080 x 1350, remains below 5 MB, and contains the full artifact without cropping or distortion
 
 ## 4. Hard-Fail Check
 
@@ -58,10 +59,10 @@
 **Logo crop check:** attach or inspect a tight crop of every deterministic logo placement before promoting to `visual.png`  
 **Final note:**  
 
-## 6. Motion Eligibility - After Still Approval Only
+## 6. Motion Value - Draft Sprint
 
-**Does sequence, change, comparison, or signal movement improve the argument?** yes / no  
-**Motion helps because the reader needs to see:** `{sequence/change}`  
+**Does sequence, dependency, comparison, state change, or decision logic improve the argument?** yes / no
+**Value added beyond the still:** `{what motion makes easier to understand}`
 **Reading order:** `{visual logic}`  
 **Likely motion archetype:** decision board / process / matrix / table / formula / comparison / hierarchy / network / annotated hero / calendar / operating system  
 **Decision:** still only / build layout-adaptive motion  

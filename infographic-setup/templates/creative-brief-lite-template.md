@@ -2,7 +2,7 @@
 
 **Week:** `{YYYY-W##}`  
 **Slug:** `{slug}`  
-**Series:** Supply Chain 101 / AI for Supply Chain  
+**Series:** `{series}`
 
 ## 1. Audience Value
 

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "week": "2026-W31",
+  "slug": "forecast-value-add",
+  "series": "AI for Supply Chain",
+  "hooks": {
+    "file": "linkedin-caption.md",
+    "status": "draft",
+    "candidateCount": 10,
+    "selectedHook": "Most teams measure forecast accuracy. Far fewer measure whether the human override made it better.",
+    "approvedAt": null
+  },
+  "caption": {
+    "file": "linkedin-caption.md",
+    "status": "draft",
+    "approvedAt": null
+  },
+  "visual": {
+    "file": "visual.png",
+    "qa": "visual-output-review.md",
+    "status": "approved",
+    "approvedAt": "2026-07-17T15:55:43Z",
+    "width": 972,
+    "height": 1618,
+    "linkedinExport": "visual-linkedin.png"
+  },
+  "motion": {
+    "status": "approved",
+    "approvedAt": "2026-07-19T15:45:12Z",
+    "gif": "visual-motion.gif",
+    "mp4": "visual-motion.mp4",
+    "qa": "motion-qa.md",
+    "stillOnlyReason": null
+  },
+  "postPackage": {
+    "status": "draft",
+    "approvedAt": null
+  },
+  "resource": {
+    "required": true,
+    "decision": "required",
+    "status": "planned",
+    "plan": "resource-plan.md",
+    "version": null,
+    "pack": null,
+    "guide": null,
+    "manifest": null,
+    "directDownloadNoEmail": true,
+    "validationStatus": "pending",
+    "approvedAt": null
+  },
+  "website": {
+    "repo": "tigershetty/shettys-desk-site",
+    "status": "hold",
+    "articlePath": null,
+    "resourcePath": null,
+    "previewUrl": null,
+    "productionUrl": null
+  }
+}

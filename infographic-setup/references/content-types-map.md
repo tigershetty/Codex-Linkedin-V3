@@ -1,7 +1,7 @@
 ---
 name: content-types-map
 description: Master reference for the content pipelines — when to use each, voice register, visual tool, outputs
-updated: 2026-06-20
+updated: 2026-07-20
 ---
 
 # Content Types Map — Shetty's Desk
@@ -16,7 +16,7 @@ shared 7-month calendar — see `references/master-calendar.md`.
 
 **What:** Weekly educational series breaking down SC fundamentals in plain language. Posts 1 + 2 of each week.
 **Audience:** experts AND non-practitioners.
-**Pipeline:** `/101 [topic]` → 10 hooks + caption + image prompt (single step, no gates).
+**Pipeline:** demand proof + topic score -> research/argument lock -> 10 hooks + caption + visual/motion draft -> integrated QA -> post approval -> resource decision.
 **Visual:** **Visual Engine v2** — GPT Image 2 primary; use Cobalt Grid + selected reference images for style intelligence.
 **Voice:** plain language, metaphor-led, series framing. `references/101-voice.md` + `tiger-voice.md`.
 **Topic source:** `references/101-plan.md`. **Tracker:** `data/101-series-tracker.md`. **Output:** `101-copy.md`.
@@ -27,7 +27,7 @@ shared 7-month calendar — see `references/master-calendar.md`.
 
 **What:** Practical AI use cases for specific SC roles. Posts 3 + 4 of each week, same weekly theme.
 **Audience:** any SC role — the role is set by the use case (purchaser, planner, logistics coordinator, etc.).
-**Pipeline:** `/ai-for-sc [week] [use-case-slug]` → hooks + caption + render brief (+ optional PDF).
+**Pipeline:** demand proof + topic score -> current tool/method research -> hooks + caption + visual/motion draft -> integrated QA -> post approval -> warranted resource.
 **Visual:** **Visual Engine v2** — GPT Image 2 primary for stills; code-render (`renderer/`) for deterministic HTML→PNG/GIF/MP4 backup, exact-data controls, and motion-ready layouts.
 **Voice:** practical, copy-paste ready. Loads `tiger-voice.md` + `references/published-voice.md` + `references/101-voice.md`.
 **Use-case source:** `references/ai-for-sc-plan-v2.md`. **Visual references:** `references/visual-engine-v2.md` + `references/ai-for-sc-visual-dna.md` + `references/ai-for-sc-creative-intelligence.md` + `references/render-pilot-workflow.md`.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reconcile S&OP Plan"
+  short_description: "Prepare recommendations and executive asks"
+  default_prompt: "Reconcile portfolio, demand, supply, and financial views into one recommendation with options, gaps, owners, and explicit executive decision asks."

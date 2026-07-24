@@ -1,8 +1,26 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "workflow": "render-first-improve-second-v1",
   "week": "{YYYY-W##}",
   "slug": "{slug}",
-  "series": "AI for Supply Chain",
+  "series": "{series}",
+  "demandProof": {
+    "status": "pending",
+    "audienceReceiptCount": 0,
+    "sourceTypeCount": 0,
+    "historicalPriorCount": 0,
+    "tigerAuthority": null,
+    "topicScore": null,
+    "productionDepth": null,
+    "preRenderChallengeStatus": "pending"
+  },
+  "hooks": {
+    "file": "linkedin-caption.md",
+    "status": "draft",
+    "candidateCount": 0,
+    "selectedHook": null,
+    "approvedAt": null
+  },
   "caption": {
     "file": "linkedin-caption.md",
     "status": "draft",
@@ -10,23 +28,46 @@
   },
   "visual": {
     "file": "visual.png",
+    "qa": "visual-output-review.md",
     "status": "draft",
+    "approvedAt": null,
     "width": null,
     "height": null,
-    "linkedinExport": null
+    "linkedinExport": "visual-linkedin.png"
   },
   "motion": {
     "status": "pending",
+    "approvedAt": null,
     "gif": "visual-motion.gif",
-    "mp4": "visual-motion.mp4"
+    "mp4": "visual-motion.mp4",
+    "qa": "motion-qa.md",
+    "stillOnlyReason": null
+  },
+  "postPackage": {
+    "status": "draft",
+    "approvedAt": null
+  },
+  "distribution": {
+    "status": "draft",
+    "firstHourOwner": null,
+    "prePublicationContributorCount": 0,
+    "followUpAngle": null
   },
   "resource": {
+    "required": false,
     "decision": "pending",
+    "status": "planned",
+    "plan": "resource-plan.md",
     "version": null,
-    "pack": null,
+    "distribution": "individual-files",
+    "instructionPdf": null,
     "guide": null,
+    "downloadsManifest": null,
+    "manifest": null,
+    "publicDownloadCount": 0,
     "directDownloadNoEmail": true,
-    "validationStatus": "pending"
+    "validationStatus": "pending",
+    "approvedAt": null
   },
   "website": {
     "repo": "tigershetty/shettys-desk-site",
@@ -35,5 +76,12 @@
     "resourcePath": null,
     "previewUrl": null,
     "productionUrl": null
+  },
+  "performance": {
+    "file": "post-performance-learning.md",
+    "status": "planned",
+    "oneHourCapturedAt": null,
+    "twentyFourHourCapturedAt": null,
+    "sevenDayCapturedAt": null
   }
 }

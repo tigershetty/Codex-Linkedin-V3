@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review S&OP Portfolio"
+  short_description: "Turn lifecycle changes into plan decisions"
+  default_prompt: "Run the portfolio review for this S&OP cycle and produce approved lifecycle changes, unresolved choices, and downstream planning impacts."

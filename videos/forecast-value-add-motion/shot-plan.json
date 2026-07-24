@@ -1,0 +1,55 @@
+{
+  "project": "forecast-value-add-motion",
+  "version": 1,
+  "category": "formula-comparison-decision-rule",
+  "durationSeconds": 9.0,
+  "source": "assets/visual.png",
+  "sourceDimensions": {
+    "width": 1080,
+    "height": 1350
+  },
+  "promise": "Show the evidence traces becoming an FVA result, an override action, and a repeatable evidence review.",
+  "lockedElements": [
+    "headline and subheading",
+    "all authored text, numbers, formulas, and curve geometry",
+    "all panel and physical studio geometry",
+    "ChatGPT and Shetty's Desk logos"
+  ],
+  "loop": {
+    "firstFrame": "complete approved visual",
+    "build": "actual, adjusted, baseline, comparator, decision rail, ledger, input pack",
+    "reset": "all registered accents clear without changing the base visual",
+    "finalFrame": "complete approved visual"
+  },
+  "components": [
+    {"id":"actual-trace","box":[172,350,793,455],"method":"registered-navy-source-highlight","motion":"left-to-right-wipe","communicationJob":"establish actual demand"},
+    {"id":"adjusted-trace","box":[172,380,793,495],"method":"registered-azure-source-highlight","motion":"left-to-right-wipe","communicationJob":"establish the human-adjusted forecast"},
+    {"id":"baseline-trace","box":[172,405,793,550],"method":"registered-coral-source-highlight","motion":"left-to-right-wipe","communicationJob":"establish the naive baseline"},
+    {"id":"baseline-wape","box":[372,659,472,722],"method":"registered-coral-source-highlight","motion":"pulse","communicationJob":"show baseline error"},
+    {"id":"adjusted-wape","box":[497,676,597,722],"method":"registered-azure-source-highlight","motion":"pulse","communicationJob":"show adjusted error"},
+    {"id":"fva-result","box":[614,672,739,722],"method":"registered-green-source-highlight","motion":"pulse-plus-ring","communicationJob":"land positive FVA"},
+    {"id":"rule-positive","box":[313,826,468,943],"method":"registered-green-source-highlight","motion":"pulse","communicationJob":"keep and learn"},
+    {"id":"rule-zero","box":[484,826,639,943],"method":"registered-object-source-highlight","motion":"pulse","communicationJob":"review a zero result"},
+    {"id":"rule-negative","box":[651,826,806,943],"method":"registered-coral-source-highlight","motion":"pulse","communicationJob":"stop and retrain"},
+    {"id":"ledger-promotion","box":[255,1011,639,1064],"method":"registered-object-source-highlight-plus-boundary-ring","motion":"row-scan","communicationJob":"show a promotion override that added value"},
+    {"id":"ledger-customer","box":[255,1064,639,1122],"method":"registered-object-source-highlight-plus-boundary-ring","motion":"row-scan","communicationJob":"show a customer event adjustment worth learning from"},
+    {"id":"ledger-no-evidence","box":[255,1122,639,1172],"method":"registered-object-source-highlight-plus-boundary-ring","motion":"row-scan","communicationJob":"show an unsupported override that destroyed value"},
+    {"id":"input-pack","box":[655,964,860,1210],"method":"registered-object-source-highlight","motion":"pulse-plus-ring","communicationJob":"close on the evidence required for repeatable FVA"}
+  ],
+  "beats": [
+    {"time":"0.00-0.30","focus":"complete visual hold"},
+    {"time":"0.30-1.95","focus":"actual, adjusted, and baseline traces establish the comparison"},
+    {"time":"2.05-3.35","focus":"baseline and adjusted WAPE resolve into positive FVA"},
+    {"time":"3.45-4.45","focus":"positive, zero, and negative decision rules scan"},
+    {"time":"4.65-5.85","focus":"override ledger rows scan in evidence order"},
+    {"time":"5.95-6.75","focus":"input pack closes the review logic"},
+    {"time":"7.00-9.00","focus":"complete visual hold and clean loop"}
+  ],
+  "qa": {
+    "firstFramePixelDiff": 0,
+    "finalFramePixelDiff": 0,
+    "inspectResetAtSourceResolution": true,
+    "inspectRepresentativeContactSheet": true,
+    "exportGifAndMp4": true
+  }
+}

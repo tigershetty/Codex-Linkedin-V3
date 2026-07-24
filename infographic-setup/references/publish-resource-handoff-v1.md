@@ -2,7 +2,10 @@
 
 **Version:** 1.0
 **Date:** 2026-07-15
-**Status:** Active final-stage workflow for Supply Chain 101 and AI for Supply Chain
+**Status:** Superseded by `publish-resource-handoff-v2.md`
+
+> Use `publish-resource-handoff-v2.md` for all new post packages. This file is
+> retained only for the schema v1 history.
 
 ## Purpose
 

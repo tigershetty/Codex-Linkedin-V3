@@ -1,63 +1,80 @@
 # Publish Asset Specification v1
 
-**Version:** 1.0
-**Date:** 2026-07-15
+**Version:** 1.1
+**Date:** 2026-07-19
 **Status:** Active export and website media standard
 
-## Current Audit
+## Canonical Rule For New Posts
 
-Nineteen canonical `visual.png` files were reviewed.
-
-- All nineteen are below LinkedIn's 5 MB organic photo limit.
-- All are at least 864 pixels wide and are strong enough for the current website's 760-pixel content column.
-- Eighteen are taller than the 4:5 organic LinkedIn boundary. Only `2026-W27/supply-contract-clauses/visual.png` currently falls inside the accepted 3:1 to 4:5 range.
-- Most recent GPT Image 2 masters are 1024 x 1536 (2:3). EOQ is 1003 x 1568; MPS/BOM are 864 x 1820/1821.
-- Website stills are safe because the article component uses width-constrained `object-contain` behavior and preserves the native ratio.
-- Website GIFs range from roughly 1.1 MB to 3.8 MB. Existing MP4 masters are only about 383 KB to 954 KB and should be served on the website.
-
-## Canonical And Export Files
+The approved artwork is the LinkedIn artwork. Do not keep a tall model render as `visual.png` and treat 4:5 as a secondary afterthought.
 
 | File | Purpose | Rule |
 |---|---|---|
-| `visual.png` | Canonical approved master | Preserve exactly after approval |
-| `visual-linkedin.png` | Organic feed companion | 1080 x 1350 (4:5), under 5 MB |
-| `visual-motion.gif` | LinkedIn motion companion | Under 100 MB and 500 frames; remain readable when paused |
-| `visual-motion.mp4` | Website/full-resolution master | Same visual ratio, H.264-compatible delivery, still poster |
+| descriptive candidate PNG | native GPT Image 2 evidence | normally 1024 x 1536; never canonical |
+| `visual.png` | canonical approved still | exactly 1080 x 1350, below 5 MB |
+| `visual-linkedin.png` | organic-feed posting asset | byte-identical to `visual.png` |
+| `visual-motion.gif` | LinkedIn motion companion | 4:5, under 100 MB and 500 frames, readable when paused |
+| `visual-motion.mp4` | website/full-resolution master | 1080 x 1350 where practical, H.264-compatible, still poster |
 
-## LinkedIn Still Rule
+Both still filenames must have the same SHA-256 hash for every new post.
 
-Design future posts natively at 1080 x 1350 when the concept allows it.
+## GPT Image 2 Promotion
 
-When the approved master is taller:
+GPT Image 2 portrait generation normally uses 1024 x 1536. Compose the candidate for promotion before rendering:
 
-1. do not crop the artifact;
-2. do not scale or distort the artwork;
-3. create `visual-linkedin.png` on a 1080 x 1350 branded field;
-4. fit the full master inside the field with intentional side rails or supporting brand space;
-5. inspect feed-size text after export.
+- centered content-safe area: 1024 x 1280;
+- expendable top atmosphere: 128 pixels;
+- expendable bottom atmosphere: 128 pixels;
+- no title, label, logo, formula, arrow endpoint, or meaningful object outside the safe area.
 
-The companion is an export treatment, not a redesigned post.
+Promote with:
+
+```bash
+python scripts/export-linkedin-still.py \
+  --input data/{week}/{slug}/{candidate}.png \
+  --out data/{week}/{slug}/visual-linkedin.png \
+  --canonical data/{week}/{slug}/visual.png \
+  --mode safe-crop
+```
+
+The script center-crops the prompt-safe composition to 4:5, resizes once to 1080 x 1350, and writes the exact same PNG bytes to both canonical paths.
+
+## Legacy Recovery
+
+Use `--mode legacy-fit` only when an older approved artifact cannot be regenerated or safely cropped. It preserves the full tall artifact on a quiet branded field. Record the reason in `visual-output-review.md`.
+
+Legacy recovery is not the template for new visual design.
+
+## Still QA
+
+Before approval:
+
+1. verify both files are 1080 x 1350;
+2. verify SHA-256 equality;
+3. verify each file is below 5 MB;
+4. inspect the full image at feed size;
+5. inspect tight crops of text, data, formulas, visual anchors, and logos;
+6. run `node scripts/audit-visual-package.mjs data/{week}/{slug}`.
+
+## Motion QA
+
+- Use the exact canonical `visual.png` as the motion source and poster.
+- MP4 retains 1080 x 1350 at 30 fps where practical.
+- GIF normally uses 720 x 900 and 18-20 fps with `palettegen` and `paletteuse`.
+- Opening and restored lossless frames match `visual.png` with zero pixel difference.
+- Inspect the encoded GIF separately from the lossless source frames.
+- Run `node scripts/audit-motion-package.mjs data/{week}/{slug}`.
 
 ## Website Rule
 
-- Preserve the canonical native ratio.
-- Use Next Image for stills with explicit width/height and responsive sizes.
-- Use MP4 for motion preview when available; retain GIF only as fallback and publishing asset.
+- Preserve the exact 4:5 still.
+- Use Next Image with explicit width/height and responsive sizes.
+- Use MP4 for motion preview when available; retain GIF as fallback and LinkedIn publishing asset.
 - Use the approved still as the video poster.
-- Test at mobile and desktop widths for clipping, overflow, and unreadable controls.
-
-## Audit Commands
-
-```bash
-node scripts/audit-visual-package.mjs data/{week}/{slug}
-node scripts/audit-motion-package.mjs data/{week}/{slug}
-```
-
-The visual audit reports a LinkedIn geometry warning when the canonical master is outside 4:5 and no compliant companion export exists.
+- Test mobile and desktop for clipping, overflow, readability, controls, and download behavior.
 
 ## Official References
 
+- GPT Image 2 model sizes: https://developers.openai.com/api/docs/models/gpt-image-2
 - LinkedIn photo requirements: https://www.linkedin.com/help/linkedin/answer/a596184
-- LinkedIn document posts: https://www.linkedin.com/help/linkedin/answer/a519831
 - LinkedIn supported media file types: https://www.linkedin.com/help/linkedin/answer/a564109
-- LinkedIn single-image specifications: https://www.linkedin.com/help/linkedin/answer/a426534/single-image-ads-advertising-specifications

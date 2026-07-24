@@ -5,6 +5,7 @@
 **Series:** `Supply Chain 101` / `AI for Supply Chain`  
 **Date:** `{YYYY-MM-DD}`  
 **Final visual:** `visual.png`
+**LinkedIn posting asset:** `visual-linkedin.png` at exactly `1080 x 1350`
 
 ## 1. Visual Move
 
@@ -32,7 +33,8 @@ One sentence:
 
 **Generation notes:**
 - Engine: `GPT Image 2`
-- Aspect ratio: `3:4` unless the post requires otherwise
+- Master aspect ratio: topic-led; preserve the strongest approved composition
+- LinkedIn promotion: exact same `1080 x 1350` PNG bytes in `visual.png` and `visual-linkedin.png`
 - Result location / panel notes: `{link or note}`
 
 **Candidate judgment:**
@@ -80,4 +82,3 @@ One sentence:
 **Archive notes / reusable seed:**
 
 `{what to reuse or avoid next time}`
-

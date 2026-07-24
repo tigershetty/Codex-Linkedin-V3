@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare S&OP Data Readiness"
+  short_description: "Build a trusted S&OP exception pack"
+  default_prompt: "Prepare data and performance readiness for this S&OP cycle, identify unresolved evidence issues, and produce a trusted exception pack."

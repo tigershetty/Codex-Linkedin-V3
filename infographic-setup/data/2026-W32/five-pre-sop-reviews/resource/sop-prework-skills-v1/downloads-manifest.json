@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "resource": "sop-prework-skills",
+  "displayName": "S&OP Pre-Work Skills",
+  "version": "1.2.0",
+  "distribution": "individual-files",
+  "directDownloadNoEmail": true,
+  "bringYourOwnData": true,
+  "bundledDataFiles": 0,
+  "packageShape": {
+    "instructionPdf": 1,
+    "markdownGuide": 1,
+    "standaloneSkills": 5
+  },
+  "instructionPdf": "downloads/SOP-PREWORK-START-HERE.pdf",
+  "downloadCount": 7,
+  "downloads": [
+    {
+      "id": "start-here-pdf",
+      "category": "start-here",
+      "title": "Start Here - PDF guide",
+      "description": "Branded instructions for setup, the safe first run, hand-off quality, and human controls.",
+      "path": "downloads/SOP-PREWORK-START-HERE.pdf",
+      "downloadName": "shettys-desk-sop-prework-start-here-v1.2.0.pdf",
+      "contentType": "application/pdf",
+      "bytes": 2935902,
+      "sha256": "c9a221a3757841f2ffc615f92b12afd3ea7ce39c977ea3cc9e607457b81deee1"
+    },
+    {
+      "id": "start-here-markdown",
+      "category": "start-here",
+      "title": "Start Here - Markdown guide",
+      "description": "Accessible text edition of the operating instructions.",
+      "path": "downloads/SOP-PREWORK-START-HERE.md",
+      "downloadName": "shettys-desk-sop-prework-start-here-v1.2.0.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "bytes": 6526,
+      "sha256": "81fb5a500fe1f45742124f8bac69b221b1dd5c90f0e5f0c00e75a339adda5df4"
+    },
+    {
+      "id": "prepare-sop-data-readiness",
+      "category": "skill",
+      "title": "01 - Prepare S&OP Data Readiness",
+      "description": "Reconcile source versions, test comparability, and separate data-quality issues from operating exceptions. Produces: Trusted exception pack.",
+      "path": "downloads/skills/01-prepare-sop-data-readiness.md",
+      "downloadName": "01-prepare-sop-data-readiness.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "bytes": 6965,
+      "sha256": "34d7c40e80ac2ad3335e5650a48148325920b54dde9332a3660a2f262bb6f9ac"
+    },
+    {
+      "id": "review-sop-portfolio",
+      "category": "skill",
+      "title": "02 - Review S&OP Portfolio",
+      "description": "Test launch, phase-out, and lifecycle readiness before proposed changes enter the plan. Produces: Approved portfolio changes.",
+      "path": "downloads/skills/02-review-sop-portfolio.md",
+      "downloadName": "02-review-sop-portfolio.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "bytes": 7426,
+      "sha256": "e6d39393dbbbf1cc90b360a11f71a2feb333c3ea6c2b52f3ca8c9872bf321ec4"
+    },
+    {
+      "id": "build-sop-demand-plan",
+      "category": "skill",
+      "title": "03 - Build S&OP Demand Plan",
+      "description": "Keep the baseline, evidence, judgment, overrides, and scenarios visible instead of hiding them in one number. Produces: Consensus demand and scenarios.",
+      "path": "downloads/skills/03-build-sop-demand-plan.md",
+      "downloadName": "03-build-sop-demand-plan.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "bytes": 7796,
+      "sha256": "af33b4a78a7f363a9dd77f4fde898bc6096488376e13de6ae7c4a9ccb074cec6"
+    },
+    {
+      "id": "test-sop-supply-feasibility",
+      "category": "skill",
+      "title": "04 - Test S&OP Supply Feasibility",
+      "description": "Test demand scenarios against capacity, materials, inventory, lead time, and response levers. Produces: Feasible response and options.",
+      "path": "downloads/skills/04-test-sop-supply-feasibility.md",
+      "downloadName": "04-test-sop-supply-feasibility.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "bytes": 8011,
+      "sha256": "7a2139d574b269e7b41a5a8d13018f01d4685ce78ce305ac9f3e0d41b28e2439"
+    },
+    {
+      "id": "reconcile-sop-plan",
+      "category": "skill",
+      "title": "05 - Reconcile S&OP Plan",
+      "description": "Integrate the four hand-offs, resolve what can be resolved, and frame the remaining executive choices. Produces: Recommendation and decision asks.",
+      "path": "downloads/skills/05-reconcile-sop-plan.md",
+      "downloadName": "05-reconcile-sop-plan.md",
+      "contentType": "text/markdown; charset=utf-8",
+      "bytes": 8055,
+      "sha256": "065252e4e5d3427e366c034483a7b55465959995f0d36bc5470b0be061216e41"
+    }
+  ]
+}

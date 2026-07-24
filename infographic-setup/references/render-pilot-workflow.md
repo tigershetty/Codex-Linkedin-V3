@@ -123,7 +123,7 @@ The old unfold/ambient-orbit split is retained as historical context only. The
 active system is layout-adaptive and picture-first:
 
 - the still remains the default and canonical artifact,
-- motion is opt-in after still approval,
+- motion eligibility is assessed after still approval; production starts after hook and caption approval,
 - choreography follows the visual's own archetype and reading order,
 - semantic masks or source-fitted covers replace raw crop animation,
 - body text and logos stay locked,

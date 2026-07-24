@@ -21,7 +21,7 @@
 
 ## 2. Source-Fidelity Gate
 
-- [ ] `visual.png` was approved before motion production began
+- [ ] `visual.png` is the selected exact 1080 x 1350 Draft Sprint source
 - [ ] Complete visual is the opening frame
 - [ ] Complete visual is the closing frame
 - [ ] Body text remains locked
@@ -32,8 +32,11 @@
 **Frame 0 pixel difference:** `{must be 0}`  
 **Final frame pixel difference:** `{must be 0}`
 
-## 3. Reset And Transition QA
+## 3. Motion-Value And Transition QA
 
+- [ ] Motion demonstrates sequence, dependency, comparison, state change, or decision logic
+- [ ] Multiple meaningful source-authored or deterministic value layers move
+- [ ] Highlights and finishing effects are subordinate to the teaching mechanism
 - [ ] Reset frame inspected at source resolution when covers are used; otherwise the strongest focus-transition frame was inspected
 - [ ] No ghost text, formula fragments, duplicated shadows, object remnants, or destructive reconstruction
 - [ ] Cover plates match the source lighting and panel boundaries, or were rejected in favor of registered source highlights
@@ -53,6 +56,7 @@
 | Noticeability |  |  |
 | Reading order |  |  |
 | Source fidelity |  |  |
+| Value added |  |  |
 | Layout fit |  |  |
 | Restraint |  |  |
 | Technical finish |  |  |
@@ -60,7 +64,8 @@
 
 **Average:**  
 **Source fidelity score:**  
-**Pass bar:** average 4.3+, source fidelity 5, no hard fail
+**Motion-value score:**
+**Pass bar:** average 4.3+, source fidelity 5, motion value 4+, no hard fail
 
 ## 5. Media Specs
 

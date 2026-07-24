@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "name": "sop-prework-skills-library",
+  "displayName": "S&OP Pre-Work Skills Library",
+  "version": "1.2.0",
+  "distribution": "individual-files",
+  "directDownloadNoEmail": true,
+  "bringYourOwnData": true,
+  "bundledDataFiles": 0,
+  "instructionPdf": "downloads/SOP-PREWORK-START-HERE.pdf",
+  "downloadsManifest": "downloads-manifest.json",
+  "safeFirstRun": "downloads/SOP-PREWORK-START-HERE.pdf",
+  "readFirst": "downloads/SOP-PREWORK-START-HERE.pdf",
+  "skills": [
+    {
+      "name": "prepare-sop-data-readiness",
+      "handoff": "Trusted exception pack",
+      "path": "skills/prepare-sop-data-readiness",
+      "standaloneDownload": "downloads/skills/01-prepare-sop-data-readiness.md"
+    },
+    {
+      "name": "review-sop-portfolio",
+      "handoff": "Approved portfolio changes",
+      "path": "skills/review-sop-portfolio",
+      "standaloneDownload": "downloads/skills/02-review-sop-portfolio.md"
+    },
+    {
+      "name": "build-sop-demand-plan",
+      "handoff": "Consensus demand and scenarios",
+      "path": "skills/build-sop-demand-plan",
+      "standaloneDownload": "downloads/skills/03-build-sop-demand-plan.md"
+    },
+    {
+      "name": "test-sop-supply-feasibility",
+      "handoff": "Feasible response and options",
+      "path": "skills/test-sop-supply-feasibility",
+      "standaloneDownload": "downloads/skills/04-test-sop-supply-feasibility.md"
+    },
+    {
+      "name": "reconcile-sop-plan",
+      "handoff": "Recommendation and decision asks",
+      "path": "skills/reconcile-sop-plan",
+      "standaloneDownload": "downloads/skills/05-reconcile-sop-plan.md"
+    }
+  ],
+  "files": [
+    {
+      "path": "FIELD-GUIDE.md",
+      "bytes": 6526,
+      "sha256": "81fb5a500fe1f45742124f8bac69b221b1dd5c90f0e5f0c00e75a339adda5df4"
+    },
+    {
+      "path": "PACKAGE-CONTENTS.md",
+      "bytes": 1897,
+      "sha256": "68d0355d28e4185ac3f61c9522ea7f775da8154655baebb3183dc50bb209e125"
+    },
+    {
+      "path": "downloads/SOP-PREWORK-START-HERE.md",
+      "bytes": 6526,
+      "sha256": "81fb5a500fe1f45742124f8bac69b221b1dd5c90f0e5f0c00e75a339adda5df4"
+    },
+    {
+      "path": "downloads/SOP-PREWORK-START-HERE.pdf",
+      "bytes": 2935902,
+      "sha256": "c9a221a3757841f2ffc615f92b12afd3ea7ce39c977ea3cc9e607457b81deee1"
+    },
+    {
+      "path": "downloads/skills/01-prepare-sop-data-readiness.md",
+      "bytes": 6965,
+      "sha256": "34d7c40e80ac2ad3335e5650a48148325920b54dde9332a3660a2f262bb6f9ac"
+    },
+    {
+      "path": "downloads/skills/02-review-sop-portfolio.md",
+      "bytes": 7426,
+      "sha256": "e6d39393dbbbf1cc90b360a11f71a2feb333c3ea6c2b52f3ca8c9872bf321ec4"
+    },
+    {
+      "path": "downloads/skills/03-build-sop-demand-plan.md",
+      "bytes": 7796,
+      "sha256": "af33b4a78a7f363a9dd77f4fde898bc6096488376e13de6ae7c4a9ccb074cec6"
+    },
+    {
+      "path": "downloads/skills/04-test-sop-supply-feasibility.md",
+      "bytes": 8011,
+      "sha256": "7a2139d574b269e7b41a5a8d13018f01d4685ce78ce305ac9f3e0d41b28e2439"
+    },
+    {
+      "path": "downloads/skills/05-reconcile-sop-plan.md",
+      "bytes": 8055,
+      "sha256": "065252e4e5d3427e366c034483a7b55465959995f0d36bc5470b0be061216e41"
+    },
+    {
+      "path": "downloads-manifest.json",
+      "bytes": 4264,
+      "sha256": "fd253e522ff75715ecb3c83f70efbf4befb2e81008e8a9434fd6792849e69478"
+    },
+    {
+      "path": "skills/build-sop-demand-plan/SKILL.md",
+      "bytes": 3185,
+      "sha256": "4f19fd038264c846e9f34bc0fe5a48ce774285480f889443b7727c676a030ee7"
+    },
+    {
+      "path": "skills/build-sop-demand-plan/agents/openai.yaml",
+      "bytes": 266,
+      "sha256": "3c968be30c74d65210f6d5886fe2b001c539fc459da646f866903360dd5207d4"
+    },
+    {
+      "path": "skills/build-sop-demand-plan/assets/input-template.md",
+      "bytes": 800,
+      "sha256": "714d4211285f696bd3eb6c2f9b19cc4bff162c8764b919433c46f458c5370c15"
+    },
+    {
+      "path": "skills/build-sop-demand-plan/assets/output-template.md",
+      "bytes": 1107,
+      "sha256": "650c5f9a3ae5962b42679d0523118782898c3c00bb6f40b2ae790d4c9c21629a"
+    },
+    {
+      "path": "skills/prepare-sop-data-readiness/SKILL.md",
+      "bytes": 2718,
+      "sha256": "1066e5fece475c592dee40927894b36e0626fb281dfcc5a195d397d6227e94e2"
+    },
+    {
+      "path": "skills/prepare-sop-data-readiness/agents/openai.yaml",
+      "bytes": 271,
+      "sha256": "7a2d466c98d601409ca5157ed4af83d1ff43f9d789fac640e6caefe8e78b70fb"
+    },
+    {
+      "path": "skills/prepare-sop-data-readiness/assets/input-template.md",
+      "bytes": 538,
+      "sha256": "336e71daf2cfe01eccc18952b8a5ec5832ce0503ad694614cb3990a430b94e11"
+    },
+    {
+      "path": "skills/prepare-sop-data-readiness/assets/output-template.md",
+      "bytes": 1001,
+      "sha256": "19a9079afaca6f6a91e0554d17f63b3e64bf2c448de3fd41f0fed88143bd9a7d"
+    },
+    {
+      "path": "skills/reconcile-sop-plan/SKILL.md",
+      "bytes": 3375,
+      "sha256": "590c862100b0e963631a66f09507401ad0043cb9f5e2db0fe1d1fa48e9b488e9"
+    },
+    {
+      "path": "skills/reconcile-sop-plan/agents/openai.yaml",
+      "bytes": 282,
+      "sha256": "d5db7e923114446d5fa870afd077d11716d3f35f4ddc0eddb23a47e70ddb7db1"
+    },
+    {
+      "path": "skills/reconcile-sop-plan/assets/input-template.md",
+      "bytes": 714,
+      "sha256": "2306228c519e109b0c6f927e13c14f1a833d96d4f3e3f6e198910caea77d9e7a"
+    },
+    {
+      "path": "skills/reconcile-sop-plan/assets/output-template.md",
+      "bytes": 1265,
+      "sha256": "3806b67d0e8d888654d8c8486e8349746ab2d775fe52c4ee25df7a08fbdf795a"
+    },
+    {
+      "path": "skills/review-sop-portfolio/SKILL.md",
+      "bytes": 3008,
+      "sha256": "86168e6214c30e4658b41989ed489fd8e130d5857fe23d89699e5c520039880c"
+    },
+    {
+      "path": "skills/review-sop-portfolio/agents/openai.yaml",
+      "bytes": 275,
+      "sha256": "a464ee7458b7ae383c7014b0a3df24c784f1a2f78077e5634845459c8aa56630"
+    },
+    {
+      "path": "skills/review-sop-portfolio/assets/input-template.md",
+      "bytes": 698,
+      "sha256": "ef7a47550c835763477cbeb915bb1d734342076d7a4ae99f2446a4621d0deeb2"
+    },
+    {
+      "path": "skills/review-sop-portfolio/assets/output-template.md",
+      "bytes": 1019,
+      "sha256": "f8b6e9d1bff2c3a145b052fe7aef013fb5c0757ee15983edb8557a8a4962011b"
+    },
+    {
+      "path": "skills/test-sop-supply-feasibility/SKILL.md",
+      "bytes": 3280,
+      "sha256": "31e99169fc625651b0a065084c30bedf28981e94ebdb468d96222688e5435582"
+    },
+    {
+      "path": "skills/test-sop-supply-feasibility/agents/openai.yaml",
+      "bytes": 294,
+      "sha256": "7323968eec0ece7c5ee4130ee2e56acf36872e66eb276db797e397ffa6fec198"
+    },
+    {
+      "path": "skills/test-sop-supply-feasibility/assets/input-template.md",
+      "bytes": 830,
+      "sha256": "4ac5c958336ab233fe4924345b7080ad5d482650c21475e9be28c16136a8408a"
+    },
+    {
+      "path": "skills/test-sop-supply-feasibility/assets/output-template.md",
+      "bytes": 1191,
+      "sha256": "77a87962faad3b71a8f186057552b7101cd757bf686ce61922a176aa25500895"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 2,
+  "workflow": "render-first-improve-second-v1",
+  "week": "2026-W32",
+  "slug": "five-pre-sop-reviews",
+  "series": "Supply Chain 101",
+  "hooks": {
+    "file": "linkedin-caption.md",
+    "status": "approved",
+    "candidateCount": 10,
+    "selectedHook": "The executive meeting does not rescue a weak S&OP cycle. It exposes where the hand-offs stopped.",
+    "approvedAt": "2026-07-19T21:56:04Z"
+  },
+  "caption": {
+    "file": "linkedin-caption.md",
+    "status": "approved",
+    "approvedAt": "2026-07-19T21:56:05Z"
+  },
+  "visual": {
+    "file": "visual.png",
+    "qa": "visual-output-review.md",
+    "status": "approved",
+    "approvedAt": "2026-07-19T16:00:00Z",
+    "width": 1080,
+    "height": 1350,
+    "linkedinExport": "visual-linkedin.png"
+  },
+  "motion": {
+    "status": "approved",
+    "approvedAt": "2026-07-19T21:56:06Z",
+    "gif": "visual-motion.gif",
+    "mp4": "visual-motion.mp4",
+    "qa": "motion-qa.md",
+    "stillOnlyReason": null
+  },
+  "postPackage": {
+    "status": "approved",
+    "approvedAt": "2026-07-19T21:56:08Z"
+  },
+  "resource": {
+    "required": true,
+    "decision": "required",
+    "status": "ready-for-review",
+    "plan": "resource-plan.md",
+    "version": "1.2.0",
+    "distribution": "individual-files",
+    "instructionPdf": "resource/sop-prework-skills-v1/downloads/SOP-PREWORK-START-HERE.pdf",
+    "guide": "resource/sop-prework-skills-v1/downloads/SOP-PREWORK-START-HERE.md",
+    "downloadsManifest": "resource/sop-prework-skills-v1/downloads-manifest.json",
+    "manifest": "resource/sop-prework-skills-v1/manifest.json",
+    "publicDownloadCount": 7,
+    "directDownloadNoEmail": true,
+    "bringYourOwnData": true,
+    "bundledDataFiles": 0,
+    "packageShape": {
+      "instructionPdf": 1,
+      "markdownGuide": 1,
+      "standaloneSkills": 5
+    },
+    "validationStatus": "passed",
+    "approvedAt": null
+  },
+  "website": {
+    "repo": "tigershetty/shettys-desk-site",
+    "status": "eligible",
+    "articlePath": "/articles/five-pre-sop-reviews",
+    "resourcePath": "/resources/sop-prework-skills",
+    "previewUrl": null,
+    "productionUrl": null
+  }
+}

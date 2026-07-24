@@ -7,6 +7,19 @@ Use one card per selected top-100 reference. Do not paste the full caption unles
 **Caption index row:** `references/top100-caption-index.md` ref `{ref}`  
 **Role in this post:** structure / caption promise / craft / contrast  
 
+## 0. Provenance And Evidence
+
+**Artifact creator / source:**  
+**Poster, if different:**  
+**Original source URL:**  
+**Observed date:**  
+**Observed reactions / comments / reposts, when visible:**  
+**Creator's recurring promise or series:**  
+**Owned resource / newsletter / product route:**  
+**Classification:** `reference-informed` / `performance-supported`  
+**Confidence:** `high` / `medium` / `low`  
+**What is observed evidence versus inference:**
+
 ## 1. Image Intelligence
 
 **Power format:** PF1 / PF2 / PF3 / PF4 / PF5 / PF6 / PF7 / PF8 / process flow / concept metaphor  
@@ -39,3 +52,4 @@ Use one card per selected top-100 reference. Do not paste the full caption unles
 **Visual mechanics to borrow:**  
 **Reference lesson for caption:**  
 **Reference lesson for topic selection:**  
+**Performance claim allowed:** yes / no, because  

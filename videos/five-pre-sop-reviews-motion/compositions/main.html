@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Five Pre-S&amp;OP Reviews - Architecture Build</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      width: 1080px;
+      height: 1350px;
+      overflow: hidden;
+      background: #eef6fe;
+    }
+    #card {
+      position: relative;
+      width: 1080px;
+      height: 1350px;
+      overflow: hidden;
+      isolation: isolate;
+      perspective: 1600px;
+      background: #eef6fe;
+    }
+    .frame {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      pointer-events: none;
+    }
+    #base-still { z-index: 20; }
+    #stage-background { z-index: 0; opacity: 0; }
+    #world {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      transform-style: preserve-3d;
+      transform-origin: 50% 58%;
+    }
+    #route-map {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      width: 1080px;
+      height: 1350px;
+      overflow: visible;
+      pointer-events: none;
+    }
+    .route-ghost {
+      fill: none;
+      stroke: rgba(30, 126, 91, .16);
+      stroke-width: 10;
+      stroke-linecap: round;
+    }
+    .route-live {
+      fill: none;
+      stroke: url(#route-gradient);
+      stroke-width: 7;
+      stroke-linecap: round;
+      filter: url(#route-glow);
+      opacity: 0;
+    }
+    .packet {
+      fill: #f8fffc;
+      stroke: #178c62;
+      stroke-width: 4;
+      filter: url(#packet-glow);
+      opacity: 0;
+    }
+    .component {
+      position: absolute;
+      z-index: 4;
+      transform-style: preserve-3d;
+      transform-origin: 50% 88%;
+      opacity: 0;
+      will-change: transform, opacity, filter;
+    }
+    .component img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      filter: drop-shadow(0 20px 18px rgba(20, 52, 88, .18));
+    }
+    #review-01 { left: 92px; top: 274px; width: 424px; height: 327px; }
+    #review-02 { left: 536px; top: 270px; width: 448px; height: 335px; }
+    #review-03 { left: 88px; top: 598px; width: 318px; height: 398px; }
+    #review-04 { left: 692px; top: 596px; width: 302px; height: 404px; }
+    #review-05 { left: 226px; top: 912px; width: 606px; height: 233px; z-index: 5; }
+    #executive-table { left: 326px; top: 514px; width: 436px; height: 362px; z-index: 8; }
+    #readiness-strip { left: 240px; top: 1129px; width: 606px; height: 95px; z-index: 9; }
+
+    .handoff {
+      position: absolute;
+      z-index: 10;
+      padding: 8px 12px 7px;
+      border: 1px solid rgba(20, 80, 146, .28);
+      border-left: 4px solid #179268;
+      border-radius: 5px;
+      background: rgba(249, 253, 255, .92);
+      box-shadow: 0 8px 24px rgba(14, 45, 81, .14);
+      color: #09285a;
+      font: 700 16px/1 Arial, Helvetica, sans-serif;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      white-space: nowrap;
+      opacity: 0;
+    }
+    #handoff-01 { left: 247px; top: 548px; }
+    #handoff-02 { left: 681px; top: 552px; }
+    #handoff-03 { left: 208px; top: 914px; }
+    #handoff-04 { left: 733px; top: 916px; }
+    #handoff-05 { left: 425px; top: 1083px; }
+
+    #decision-halo {
+      position: absolute;
+      left: 348px;
+      top: 548px;
+      z-index: 7;
+      width: 390px;
+      height: 300px;
+      border: 3px solid rgba(23, 146, 104, .72);
+      border-radius: 50%;
+      box-shadow:
+        0 0 0 8px rgba(255, 255, 255, .58),
+        0 0 42px rgba(23, 146, 104, .35),
+        inset 0 0 34px rgba(23, 146, 104, .10);
+      opacity: 0;
+      pointer-events: none;
+    }
+    .action-pip {
+      position: absolute;
+      left: 706px;
+      z-index: 12;
+      width: 14px;
+      height: 14px;
+      border: 3px solid #f4fffb;
+      border-radius: 50%;
+      background: #169167;
+      box-shadow: 0 0 0 2px rgba(22, 145, 103, .25), 0 0 18px rgba(22, 145, 103, .48);
+      opacity: 0;
+    }
+    #action-1 { top: 625px; }
+    #action-2 { top: 660px; }
+    #action-3 { top: 696px; }
+    #action-4 { top: 732px; }
+
+    .term-marker {
+      position: absolute;
+      top: 1201px;
+      z-index: 13;
+      height: 5px;
+      border-radius: 3px;
+      background: linear-gradient(90deg, #159168, #2d6cff);
+      box-shadow: 0 0 15px rgba(36, 113, 220, .55);
+      opacity: 0;
+      transform-origin: 0 50%;
+    }
+    #term-evidence { left: 343px; width: 104px; }
+    #term-owner { left: 475px; width: 80px; }
+    #term-options { left: 580px; width: 92px; }
+    #term-ask { left: 702px; width: 50px; }
+
+    #system-sheen {
+      position: absolute;
+      left: -420px;
+      top: 325px;
+      z-index: 15;
+      width: 250px;
+      height: 770px;
+      opacity: 0;
+      transform: skewX(-14deg);
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,.58), transparent);
+      mix-blend-mode: screen;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <main
+    id="card"
+    data-composition-id="five-pre-sop-reviews-motion-v2"
+    data-width="1080"
+    data-height="1350"
+    data-duration="12.0"
+  >
+    <section class="clip" data-start="0" data-duration="12.0" data-track-index="1">
+      <img id="stage-background" class="frame" src="../assets/stage-background.png" alt="">
+
+      <div id="world">
+        <svg id="route-map" viewBox="0 0 1080 1350" aria-hidden="true">
+          <defs>
+            <linearGradient id="route-gradient" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#0f7a58"/>
+              <stop offset=".55" stop-color="#18a477"/>
+              <stop offset="1" stop-color="#2d6cff"/>
+            </linearGradient>
+            <filter id="route-glow" x="-60%" y="-60%" width="220%" height="220%">
+              <feGaussianBlur stdDeviation="5" result="blur"/>
+              <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+            <filter id="packet-glow" x="-120%" y="-120%" width="340%" height="340%">
+              <feGaussianBlur stdDeviation="7" result="blur"/>
+              <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+          </defs>
+
+          <path class="route-ghost" d="M 330 535 C 350 605 405 620 450 660"/>
+          <path class="route-ghost" d="M 747 538 C 730 605 682 625 636 662"/>
+          <path class="route-ghost" d="M 327 839 C 370 814 410 778 454 752"/>
+          <path class="route-ghost" d="M 772 842 C 724 818 681 784 636 752"/>
+          <path class="route-ghost" d="M 533 1010 C 533 940 533 870 533 814"/>
+
+          <path id="route-01" class="route-live" d="M 330 535 C 350 605 405 620 450 660"/>
+          <path id="route-02" class="route-live" d="M 747 538 C 730 605 682 625 636 662"/>
+          <path id="route-03" class="route-live" d="M 327 839 C 370 814 410 778 454 752"/>
+          <path id="route-04" class="route-live" d="M 772 842 C 724 818 681 784 636 752"/>
+          <path id="route-05" class="route-live" d="M 533 1010 C 533 940 533 870 533 814"/>
+
+          <circle id="packet-01" class="packet" r="10"/>
+          <circle id="packet-02" class="packet" r="10"/>
+          <circle id="packet-03" class="packet" r="10"/>
+          <circle id="packet-04" class="packet" r="10"/>
+          <circle id="packet-05" class="packet" r="10"/>
+        </svg>
+
+        <div id="review-01" class="component"><img src="../assets/layers/review-01.png" alt=""></div>
+        <div id="review-02" class="component"><img src="../assets/layers/review-02.png" alt=""></div>
+        <div id="review-03" class="component"><img src="../assets/layers/review-03.png" alt=""></div>
+        <div id="review-04" class="component"><img src="../assets/layers/review-04.png" alt=""></div>
+        <div id="review-05" class="component"><img src="../assets/layers/review-05.png" alt=""></div>
+        <div id="decision-halo"></div>
+        <div id="executive-table" class="component"><img src="../assets/layers/executive-table.png" alt=""></div>
+        <div id="readiness-strip" class="component"><img src="../assets/layers/readiness-strip.png" alt=""></div>
+
+        <div id="handoff-01" class="handoff">Trusted exceptions</div>
+        <div id="handoff-02" class="handoff">Approved changes</div>
+        <div id="handoff-03" class="handoff">Demand + scenarios</div>
+        <div id="handoff-04" class="handoff">Feasible options</div>
+        <div id="handoff-05" class="handoff">Recommendation + ask</div>
+
+        <div id="action-1" class="action-pip"></div>
+        <div id="action-2" class="action-pip"></div>
+        <div id="action-3" class="action-pip"></div>
+        <div id="action-4" class="action-pip"></div>
+
+        <div id="term-evidence" class="term-marker"></div>
+        <div id="term-owner" class="term-marker"></div>
+        <div id="term-options" class="term-marker"></div>
+        <div id="term-ask" class="term-marker"></div>
+        <div id="system-sheen"></div>
+      </div>
+
+      <img id="base-still" class="frame" src="../assets/visual.png" alt="">
+    </section>
+  </main>
+
+  <script src="../../../infographic-setup/renderer/assets/js/gsap.min.js"></script>
+  <script>
+    (() => {
+      const duration = 12.0;
+      const tl = gsap.timeline({ paused: true });
+      const componentIds = [
+        '#review-01', '#review-02', '#review-03', '#review-04', '#review-05',
+        '#executive-table', '#readiness-strip'
+      ];
+      const handoffs = ['#handoff-01', '#handoff-02', '#handoff-03', '#handoff-04', '#handoff-05'];
+      const routeIds = ['#route-01', '#route-02', '#route-03', '#route-04', '#route-05'];
+      const packetIds = ['#packet-01', '#packet-02', '#packet-03', '#packet-04', '#packet-05'];
+      const packetStates = {};
+
+      gsap.set('#base-still', { opacity: 1 });
+      gsap.set('#stage-background', { opacity: 0 });
+      gsap.set('#world', { scale: 1.035, transformOrigin: '50% 58%' });
+      gsap.set(componentIds, { opacity: 0, y: 42, scale: .82, rotateX: 16 });
+      gsap.set(handoffs, { opacity: 0, y: 10 });
+      gsap.set('.route-ghost', { opacity: 0 });
+      gsap.set('.route-live, .packet, #decision-halo, .action-pip, .term-marker, #system-sheen', { opacity: 0 });
+
+      const configureRoute = (routeSelector, packetSelector) => {
+        const path = document.querySelector(routeSelector);
+        const packet = document.querySelector(packetSelector);
+        const length = path.getTotalLength();
+        const state = { progress: 0 };
+        packetStates[packetSelector] = state;
+        gsap.set(path, { strokeDasharray: length, strokeDashoffset: length });
+        const place = () => {
+          const point = path.getPointAtLength(length * state.progress);
+          packet.setAttribute('cx', point.x.toFixed(2));
+          packet.setAttribute('cy', point.y.toFixed(2));
+        };
+        place();
+        return { path, packet, length, state, place };
+      };
+
+      const routes = routeIds.map((route, index) => configureRoute(route, packetIds[index]));
+
+      tl.to({}, { duration: .45 });
+      tl.to('#stage-background', { opacity: 1, duration: .52, ease: 'power2.inOut' }, .45)
+        .to('#base-still', { opacity: 0, duration: .52, ease: 'power2.inOut' }, .45)
+        .to('#world', { scale: 1, duration: .70, ease: 'power3.out' }, .48)
+        .to('.route-ghost', { opacity: .66, duration: .46, ease: 'sine.out' }, .70);
+
+      const buildReview = (component, handoff, routeIndex, start, tilt) => {
+        const route = routes[routeIndex];
+        tl.fromTo(component,
+          { opacity: 0, y: 46, scale: .80, rotateX: 18, rotateZ: tilt },
+          { opacity: 1, y: -4, scale: 1.035, rotateX: 0, rotateZ: 0, duration: .42, ease: 'back.out(1.35)' },
+          start
+        ).to(component,
+          { y: 0, scale: 1, duration: .18, ease: 'power2.out' },
+          start + .42
+        ).fromTo(handoff,
+          { opacity: 0, y: 12, scale: .94 },
+          { opacity: 1, y: 0, scale: 1, duration: .22, ease: 'power2.out' },
+          start + .30
+        ).to(handoff,
+          { opacity: 0, y: -6, duration: .25, ease: 'sine.in' },
+          start + .82
+        ).to(route.path,
+          { opacity: .96, strokeDashoffset: 0, duration: .50, ease: 'power2.inOut' },
+          start + .43
+        ).to(route.packet,
+          { opacity: 1, duration: .12 },
+          start + .45
+        ).to(route.state,
+          { progress: 1, duration: .56, ease: 'power2.inOut', onUpdate: route.place },
+          start + .45
+        ).to(route.packet,
+          { opacity: 0, scale: 1.65, transformOrigin: '50% 50%', duration: .20, ease: 'power2.out' },
+          start + 1.01
+        ).to(route.path,
+          { opacity: .32, duration: .22, ease: 'sine.out' },
+          start + .98
+        );
+      };
+
+      buildReview('#review-01', '#handoff-01', 0, 1.00, -1.4);
+      buildReview('#review-02', '#handoff-02', 1, 1.70, 1.3);
+      buildReview('#review-03', '#handoff-03', 2, 2.40, -1.1);
+      buildReview('#review-04', '#handoff-04', 3, 3.10, 1.0);
+      buildReview('#review-05', '#handoff-05', 4, 3.80, -.5);
+
+      tl.fromTo('#executive-table',
+        { opacity: 0, y: 52, scale: .70, rotateX: 22, rotateZ: -2.2 },
+        { opacity: 1, y: -6, scale: 1.045, rotateX: 0, rotateZ: 0, duration: .56, ease: 'back.out(1.45)' },
+        4.62
+      ).to('#executive-table',
+        { y: 0, scale: 1, duration: .24, ease: 'power2.out' },
+        5.18
+      ).fromTo('#decision-halo',
+        { opacity: 0, scale: .72 },
+        { opacity: .86, scale: 1.03, duration: .38, ease: 'power2.out' },
+        5.04
+      ).to('#decision-halo',
+        { opacity: .18, scale: 1, duration: .46, ease: 'sine.out' },
+        5.42
+      ).to('.route-live',
+        { opacity: .86, duration: .20, ease: 'sine.out' },
+        5.20
+      ).to('.route-live',
+        { opacity: .18, duration: .55, ease: 'sine.inOut' },
+        5.40
+      );
+
+      ['#action-1', '#action-2', '#action-3', '#action-4'].forEach((selector, index) => {
+        const start = 5.70 + index * .26;
+        tl.fromTo(selector,
+          { opacity: 0, scale: .25 },
+          { opacity: 1, scale: 1.25, duration: .18, ease: 'back.out(2)' },
+          start
+        ).to(selector,
+          { opacity: .72, scale: 1, duration: .20, ease: 'power2.out' },
+          start + .18
+        );
+      });
+
+      tl.fromTo('#readiness-strip',
+        { opacity: 0, y: 34, scale: .90, rotateX: 14 },
+        { opacity: 1, y: -4, scale: 1.02, rotateX: 0, duration: .48, ease: 'back.out(1.35)' },
+        7.02
+      ).to('#readiness-strip',
+        { y: 0, scale: 1, duration: .20, ease: 'power2.out' },
+        7.50
+      );
+
+      ['#term-evidence', '#term-owner', '#term-options', '#term-ask'].forEach((selector, index) => {
+        const start = 7.52 + index * .25;
+        tl.fromTo(selector,
+          { opacity: 0, scaleX: 0 },
+          { opacity: .94, scaleX: 1, duration: .22, ease: 'power2.out' },
+          start
+        ).to(selector,
+          { opacity: .42, duration: .28, ease: 'sine.out' },
+          start + .22
+        );
+      });
+
+      tl.fromTo('#system-sheen',
+        { opacity: 0, x: 0 },
+        { opacity: .72, x: 1250, duration: .80, ease: 'power2.inOut' },
+        8.55
+      ).to('#system-sheen',
+        { opacity: 0, duration: .10 },
+        9.30
+      ).to('.route-live',
+        { opacity: .52, duration: .24, ease: 'sine.out' },
+        8.62
+      ).to('.route-live, #decision-halo, .action-pip, .term-marker',
+        { opacity: 0, duration: .38, ease: 'sine.in' },
+        9.02
+      );
+
+      tl.to('#base-still', { opacity: 1, duration: .50, ease: 'power2.inOut' }, 9.38)
+        .to('#stage-background, #world', { opacity: 0, duration: .50, ease: 'power2.inOut' }, 9.38)
+        .to({}, { duration: 2.12 }, 9.88);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['five-pre-sop-reviews-motion-v2'] = tl;
+      window.__tl = tl;
+      window.__dur = duration;
+
+      const images = Array.from(document.images).map((image) => {
+        if (image.complete) return Promise.resolve();
+        return new Promise((resolve) => {
+          image.addEventListener('load', resolve, { once: true });
+          image.addEventListener('error', resolve, { once: true });
+        });
+      });
+      Promise.all(images).then(() => { window.__ready = true; });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "project": "five-pre-sop-reviews-motion",
+  "version": 2,
+  "category": "layered-3d-process-assembly",
+  "durationSeconds": 12.0,
+  "source": "assets/visual.png",
+  "sourceDimensions": {"width": 1080, "height": 1350},
+  "promise": "Build five source-authored review stations, carry their outputs into Executive S&OP, and resolve the readiness rule.",
+  "motionRules": [
+    "staged component assembly",
+    "source-authored 3D object transforms",
+    "SVG route draw and packet travel",
+    "decision-state resolution"
+  ],
+  "lockedElements": [
+    "exact headline and subtitle",
+    "all source review, decision, and equation text",
+    "Shetty's Desk logo",
+    "canonical 1080 x 1350 frame"
+  ],
+  "components": [
+    {"id":"review-01","box":[92,274,516,601],"method":"alpha-isolated-source-component","motion":"3d-rise-and-settle","handoff":"Trusted exceptions"},
+    {"id":"review-02","box":[536,270,984,605],"method":"alpha-isolated-source-component","motion":"3d-rise-and-settle","handoff":"Approved changes"},
+    {"id":"review-03","box":[88,598,406,996],"method":"alpha-isolated-source-component","motion":"3d-rise-and-settle","handoff":"Demand + scenarios"},
+    {"id":"review-04","box":[692,596,994,1000],"method":"alpha-isolated-source-component","motion":"3d-rise-and-settle","handoff":"Feasible options"},
+    {"id":"review-05","box":[226,912,832,1145],"method":"alpha-isolated-source-component","motion":"3d-rise-and-settle","handoff":"Recommendation + ask"},
+    {"id":"executive-table","box":[326,514,762,876],"method":"alpha-isolated-source-component","motion":"3d-decision-surface-assembly"},
+    {"id":"readiness-strip","box":[240,1129,846,1224],"method":"alpha-isolated-source-component","motion":"equation-build-and-term-lock"}
+  ],
+  "beats": [
+    {"time":"0.00-0.45","focus":"complete approved still"},
+    {"time":"0.45-1.00","focus":"clean architectural stage"},
+    {"time":"1.00-4.80","focus":"five reviews assemble and hand decision packets forward"},
+    {"time":"4.62-5.60","focus":"Executive S&OP decision surface assembles"},
+    {"time":"5.70-6.68","focus":"four executive actions resolve"},
+    {"time":"7.02-8.52","focus":"readiness rule builds term by term"},
+    {"time":"8.55-9.38","focus":"complete operating system resolves"},
+    {"time":"9.38-12.00","focus":"canonical still restoration and reading hold"}
+  ],
+  "qa": {
+    "firstFramePixelDiff": 0,
+    "restoredFramePixelDiff": 0,
+    "finalFramePixelDiff": 0,
+    "inspectEveryAssemblyBeat": true,
+    "inspectEncodedGif": true,
+    "exportGifAndMp4": true
+  }
+}

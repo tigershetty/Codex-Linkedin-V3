@@ -1,23 +1,24 @@
 # Motion Engine v1 - Adaptive Picture-First Motion
 
-**Version:** 1.1
-**Date:** 2026-07-13
+**Version:** 1.2
+**Date:** 2026-07-19
 **Status:** Active motion standard for Supply Chain 101 and AI for Supply Chain
-**Reference implementation:** `videos/optimal-batch-size-motion/`
-**Reference outputs:** `data/2026-W30/optimal-batch-size-decision-board/visual-motion.gif`; `data/2026-W31/mps-as-a-production-commitment/visual-motion.gif`
+**Reference implementations:** `videos/optimal-batch-size-motion/`; `videos/five-pre-sop-reviews-motion/`
+**Reference outputs:** `data/2026-W30/optimal-batch-size-decision-board/visual-motion.gif`; `data/2026-W32/five-pre-sop-reviews/visual-motion.gif`
 
 ## 1. Purpose
 
-Motion is the standard companion lane for an already approved `visual.png` when
-the eligibility gate passes. The default eligible package is `visual.png`,
+Motion is the standard companion lane for a selected exact 4:5 `visual.png` when
+the value gate passes. Build it during the Draft Sprint and approve it with the
+integrated package. The default eligible package is `visual.png`,
 `visual-motion.gif`, and `visual-motion.mp4`. Motion must make the still easier
 to notice, understand, or follow without replacing the still as the primary
 artifact. A still-only result requires a documented eligibility exception.
 
 The operating principle is:
 
-> Keep the authored visual intact. Rebuild its reading sequence through motion
-> that is designed for that visual's layout and argument.
+> Keep the authored visual intact. Animate complete source-authored objects or
+> deterministic data layers so the motion demonstrates how the artifact works.
 
 This is not a universal EOQ animation template. The tools and QA gates repeat;
 the choreography does not.
@@ -39,7 +40,7 @@ the choreography does not.
 
 ## 3. Motion Eligibility Gate
 
-Use motion only when at least one is true:
+Use motion only when it can add at least one of these:
 
 - the visual contains a meaningful reading order,
 - a decision signal can travel through the artifact,
@@ -52,8 +53,8 @@ the hero, or require inventing hidden pixels that do not exist.
 
 Write this sentence before production:
 
-> Motion helps this post because the reader needs to see [sequence/change] in
-> the order [reading logic].
+> Motion adds value beyond the still by showing [sequence, dependency,
+> comparison, state change, or decision logic].
 
 If the sentence is weak, do not animate the post.
 
@@ -61,7 +62,7 @@ If the sentence is weak, do not animate the post.
 
 ### Constants across every post
 
-- `visual.png` is the immutable visual source.
+- `visual.png` is the exact 1080 x 1350 immutable visual source.
 - The opening frame is the complete still.
 - The closing frame is the complete still.
 - Exact text, numbers, formulas, logos, and brand geometry remain correct.
@@ -104,18 +105,16 @@ The archetype defines the eye path. It does not prescribe the art direction.
 
 ## 6. Layer Model
 
-Every production composition has four possible layer types:
+Every production composition may use these layer types:
 
-1. **Locked base** - the complete approved `visual.png`; always present.
-2. **Clean covers** - source-fitted plates that temporarily hide a semantic
-   component during a delayed reveal.
-3. **Source highlights** - transparent, source-colored masks that add a short
-   luminance emphasis to the component as it returns.
-4. **Signal graphics** - restrained SVG dots, rings, traces, or check pulses
-   that explain movement or decision logic.
+1. **Locked canonical still** - the exact `visual.png` used for the opening and restored hold.
+2. **Clean authored stage** - a deterministic background plate used when the composition genuinely deconstructs or assembles.
+3. **Source-authored components** - complete objects isolated with alpha masks, including their own text, materials, shadows, and meaning.
+4. **Deterministic vector or data layers** - SVG paths, chart traces, counters, or geometry reconstructed from verified source values.
+5. **Hand-off and state signals** - brief labels, packets, pips, or traces that expose sequence or decision logic.
+6. **Finishing effects** - restrained highlights or sheens that support an already meaningful beat.
 
-Signal graphics support the visual. They cannot become a second interface on
-top of it.
+Finishing effects cannot be the main event. Broad rings, glows, and sweeps above a flattened PNG fail when they do not change understanding.
 
 ## 7. Isolation Decision Tree
 
@@ -127,6 +126,8 @@ Choose the least invasive method that produces a clean reset:
 | Object cluster inside a clean card or panel | Fit a pale surface from light, low-chroma source pixels; cover the complete object cluster; reveal it as one unit |
 | Integrated chart, 3D object, or scene with shared shadows | Treat the complete chart/scene region as one semantic component; emphasize sub-elements only after the whole unit returns |
 | Clean transparent source asset exists | Use the actual transparent asset, registered to the visual |
+| Complete 3D or editorial object has a separable silhouette | Isolate the full object with a shaped alpha mask and animate it as one source-authored component |
+| Verified data can be reconstructed exactly | Build a deterministic SVG/data layer and compare its labels and values to the source |
 | Background cannot be reconstructed credibly | Do not erase or move the component; use a local highlight or signal instead |
 | Text, exact logo, or formula would need approximation | Keep it locked |
 
@@ -136,10 +137,10 @@ component boundary or isolation method before tuning animation.
 
 ## 8. Production Workflow
 
-### Step 1 - Lock the still
+### Step 1 - Lock the selected draft still
 
-- Finish visual QA first.
-- Promote the selected image to `visual.png`.
+- Correct text, formulas, logos, and data before motion.
+- Promote the selected exact 1080 x 1350 draft to `visual.png` and `visual-linkedin.png`.
 - Do not animate a still that still needs text, logo, formula, or data repairs.
 
 ### Step 2 - Write the motion brief
@@ -161,7 +162,7 @@ Initialize the folder contract without overwriting existing work:
 node scripts/init-motion-project.mjs data/{week}/{slug}
 ```
 
-Use `--dry-run` to preview the files. The initializer copies the approved visual,
+Use `--dry-run` to preview the files. The initializer copies the selected visual,
 records its true dimensions, and creates a static composition contract. It does
 not invent the semantic components or choreography.
 
@@ -221,7 +222,7 @@ Default target:
 
 ```text
 MP4: source aspect ratio, 30fps, full practical resolution
-GIF: 720px wide, 18-20fps, palettegen/paletteuse, 6-9 seconds
+GIF: 720px wide, 18-20fps, palettegen/paletteuse, usually 8-14 seconds
 ```
 
 Place canonical outputs in the post folder:
@@ -274,6 +275,8 @@ noise.
 - hero visibility is reduced,
 - the animation never rests on the complete visual,
 - GIF palette damage makes text materially harder to read.
+- motion consists mainly of decorative highlights above a flattened still,
+- the value added beyond the still cannot be stated or seen.
 
 ### Quality score
 
@@ -284,12 +287,13 @@ Score 1-5:
 | Noticeability | Motion is obvious in-feed without becoming loud |
 | Reading order | The sequence makes the artifact easier to follow |
 | Source fidelity | It feels authored from the still, not placed above it |
+| Value added | Motion makes sequence, dependency, comparison, state, or decision logic easier to understand |
 | Layout fit | Choreography is specific to this composition |
 | Restraint | Text, logos, background, and hero remain stable |
 | Technical finish | No ghosts, overlaps, jumps, or loop seams |
 | Pause readability | Every representative frame remains coherent |
 
-Publish bar: average 4.3 or higher, with 5 for source fidelity and no hard fail.
+Publish bar: average 4.3 or higher, with 5 for source fidelity, at least 4 for value added, and no hard fail.
 
 ## 11. Project Contract
 
@@ -301,6 +305,8 @@ videos/{slug}-motion/
   build_motion_assets.py
   assets/
     visual.png
+    stage-background.png
+    layers/
     masks/
     covers/
     highlights/
@@ -339,3 +345,26 @@ Reference files:
 - `videos/optimal-batch-size-motion/shot-plan-delayed-reveal.json`
 
 Use these as implementation evidence, not as a layout template.
+
+## 13. Reference Implementation: Five Pre-S&OP Reviews
+
+This project is the benchmark for advanced motion built from a flattened GPT Image 2 still:
+
+- seven complete source-authored modules were isolated with shaped alpha masks;
+- the headline and brand lockup remained stable on a deterministic clean stage;
+- five review stations assembled in operating order instead of receiving pulses;
+- each hand-off travelled along a registered SVG route;
+- the executive decision surface appeared only after all five review inputs existed;
+- the readiness rule resolved last;
+- lossless frames 0, 300, 330, and 360 were pixel-identical to the canonical still;
+- the encoded GIF received a separate contact-sheet inspection.
+
+Reference files:
+
+- `videos/five-pre-sop-reviews-motion/build_motion_assets.py`
+- `videos/five-pre-sop-reviews-motion/compositions/main.html`
+- `videos/five-pre-sop-reviews-motion/motion-brief.md`
+- `videos/five-pre-sop-reviews-motion/shot-plan.json`
+- `data/2026-W32/five-pre-sop-reviews/motion-qa.md`
+
+Reuse the layer and QA logic, not the five-station choreography.

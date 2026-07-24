@@ -1,6 +1,6 @@
 # Creative Engine v3 — Lean Reference-Led Production
 
-**Date:** 2026-07-01  
+**Date:** 2026-07-19
 **Status:** Active QA layer on top of Visual Engine v2  
 **Purpose:** make every GPT Image 2 output earn attention, save value, and Shetty's Desk originality before it is treated as publishable.
 **Flagship benchmark:** `holy-grail-visual-standard.md` and `data/2026-W28/supply-chain-resilience-os/visual.png`.
@@ -23,7 +23,9 @@ If the answer is only "an infographic," the prompt is not Holy Grail-ready.
 
 ## 2. The Lean Flow
 
-Use this flow for flagship 101 and AI-for-SC posts:
+Use this flow for flagship 101 and AI-for-SC posts. Read `render-first-improve-second-v1.md`; the numbers below are production order, not approval gates.
+
+### Pass A - Complete Draft Sprint
 
 1. **Audience job:** pick one job from `audience-intelligence.md`.
 2. **Reference fit:** use `top100-reference-intelligence.md`, `top100-caption-index.md`, `top100-visual-inventory.md`, `top100-contact-sheet.html`, `top100-visual-mechanics-index.md`, and, for RW03-RW12, `calendar-reference-adaptation-map-v1.md`. Run `node scripts/audit-calendar-reference-map.mjs` after editing the map.
@@ -32,12 +34,24 @@ Use this flow for flagship 101 and AI-for-SC posts:
 5. **Creative brief:** fill `templates/creative-brief-lite-template.md`.
 6. **Build package:** run `node scripts/build-visual-package.mjs data/{week}/{slug}`. This compiles the GPT Image 2 prompt, syncs the canonical prompt, compiles the lean creative packet, runs the creative-director score, and runs the strict audit.
 7. **Prompt preflight:** check `creative-packet.md` first; open the full prompt only if a render is about to happen.
-8. **Render:** GPT Image 2 first; HTML control when exact text/data needs a backup or the brief says `HTML control needed? yes`.
-9. **Output review:** fill `templates/visual-output-review-template.md`.
-10. **Logo/cleanup crop check:** if deterministic logos or cleanup overlays were used, inspect tight crops of those zones before promoting to `visual.png`.
-11. **Caption value check:** for AI-for-SC posts, confirm the caption leads with what the tool can build, not with caveats.
-12. **Package audit:** rerun `node scripts/build-visual-package.mjs data/{week}/{slug}` after any review or final visual change.
-13. **Motion eligibility:** only after `visual.png` is approved, apply `motion-engine-v1.md`. Build motion when the layout has a meaningful sequence, change, comparison, or signal path; otherwise ship the still.
+8. **Render:** GPT Image 2 first at 1024 x 1536 with the centered 1024 x 1280 content-safe area; use HTML control when exact text/data needs a backup.
+9. **4:5 draft promotion:** promote the selected candidate to exact 1080 x 1350 and place identical bytes in `visual.png` and `visual-linkedin.png`.
+10. **Writing draft:** produce ten structurally different hooks and one caption draft.
+11. **Motion draft:** apply `motion-engine-v1.md` once the selected exact 4:5 still exists. Build motion when it adds sequence, dependency, comparison, state change, or decision logic.
+12. **Resource draft:** score every post with `resource-plan.md`; build a safe, useful package during the sprint when it qualifies.
+
+### Pass B - Integrated Improvement
+
+13. **Output review:** fill `templates/visual-output-review-template.md` and inspect all text, data, formulas, anchors, and brand zones.
+14. **Logo/cleanup crop check:** inspect tight crops of every deterministic logo or cleanup zone before approval.
+15. **Motion-value check:** reject highlight-only decoration; inspect source layers, representative lossless frames, endpoint pixel equality, and the encoded GIF.
+16. **Writing check:** run Tiger voice QA and `skills/stay-human-shetty`; remove explained morals, tidy single-track structure, visual echo, template footprints, and cosmetic hook variety.
+17. **Resource check:** validate the instruction PDF, Markdown guide, transparent individual downloads, safe first-run path, output contracts, manifest, checksums, and human decision boundary.
+18. **Package audit:** rerun visual, motion, resource, and publish-handoff audits after corrections.
+
+### Pass C - One Final Approval
+
+19. Show the improved package together and record explicit approval only for the exact still, writing, motion, resource decision, and complete post package the user accepts.
 
 ## 3. Creative Brief Must Fit On One Page
 

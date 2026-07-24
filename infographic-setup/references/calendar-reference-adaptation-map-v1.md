@@ -2,15 +2,15 @@
 
 **Date:** 2026-07-01  
 **Status:** Active bridge between `master-calendar.md` and `top100-reference-intelligence.md`  
-**Purpose:** convert calendar candidates into reference-proven post concepts before research, caption, or GPT Image 2 prompting.
+**Purpose:** after demand proof and topic scoring, adapt a calendar candidate using reference-informed visual and caption mechanics before research, caption, or GPT Image 2 prompting.
 
 ## Rule
 
-Every post needs a reference-proven package:
+Every produced visual needs a reference-informed package. This package shapes execution; it does not prove audience demand or creator performance:
 
 ```md
 Audience job:
-Reference-proven promise:
+Reference-informed promise:
 Power format:
 Caption pattern:
 Save trigger:
@@ -28,11 +28,11 @@ Run this after editing the map:
 node scripts/audit-calendar-reference-map.mjs
 ```
 
-The audit checks that RW03-RW12 contain 40 topic rows, each run week has four posts, and every row has audience job, reference-proven promise, power format, caption pattern, save trigger, and visual argument.
+The audit checks that RW03-RW12 contain 40 topic rows, each run week has four posts, and every row has audience job, reference-informed promise, power format, caption pattern, save trigger, and visual argument.
 
 ## RW03 — Procurement / Supplier Performance
 
-| Post | Audience job | Reference-proven promise | Power format | Caption pattern | Save trigger | Visual argument |
+| Post | Audience job | Reference-informed promise | Power format | Caption pattern | Save trigger | Visual argument |
 |---|---|---|---|---|---|---|
 | `supplier-concentration-risk` | Avoid a mistake | Find the suppliers that can stop the business | Concept metaphor + PF6 decision test | specific pain opener + practical test | 3-question supplier dependency test | many suppliers narrow into three load-bearing columns |
 | `supplier-review-failure` | Make a better decision | Turn supplier reviews from scorekeeping into action | PF2 comparison / versus | "what people do vs what works" | review meeting checklist | old review loop vs action-driven review loop |
@@ -41,7 +41,7 @@ The audit checks that RW03-RW12 contain 40 topic rows, each run week has four po
 
 ## RW04 — Production Planning / Demand Forecasting
 
-| Post | Audience job | Reference-proven promise | Power format | Caption pattern | Save trigger | Visual argument |
+| Post | Audience job | Reference-informed promise | Power format | Caption pattern | Save trigger | Visual argument |
 |---|---|---|---|---|---|---|
 | How demand forecasting works | Explain clearly | Forecasting is a decision input, not a crystal ball | Process flow | misconception opener | forecast-to-decision map | demand signal moves through history, assumptions, review, and decision |
 | Demand plan vs. forecast | Make a better decision | Know which number is prediction and which number is commitment | PF2 comparison | misconception correction + boundary artifact | forecast vs demand-plan boundary card | two paths split from one demand signal |
@@ -50,7 +50,7 @@ The audit checks that RW03-RW12 contain 40 topic rows, each run week has four po
 
 ## RW05 — Production Planning / Production Planning
 
-| Post | Audience job | Reference-proven promise | Power format | Caption pattern | Save trigger | Visual argument |
+| Post | Audience job | Reference-informed promise | Power format | Caption pattern | Save trigger | Visual argument |
 |---|---|---|---|---|---|---|
 | What is a production plan | Explain clearly | Translate demand into what the factory can actually build | Process flow | plain-English system explanation | demand-to-build process map | forecast becomes constraints, materials, capacity, and schedule |
 | Scheduling horizon | Avoid a mistake | Know what is frozen, flexible, and still negotiable | PF1 maturity/zone ladder | decision boundary | frozen/slushy/liquid rule card | timeline bands show decreasing flexibility as the production date gets closer |
@@ -59,7 +59,7 @@ The audit checks that RW03-RW12 contain 40 topic rows, each run week has four po
 
 ## RW06 — Production Planning / MPS
 
-| Post | Audience job | Reference-proven promise | Power format | Caption pattern | Save trigger | Visual argument |
+| Post | Audience job | Reference-informed promise | Power format | Caption pattern | Save trigger | Visual argument |
 |---|---|---|---|---|---|---|
 | MPS as a production commitment | Explain clearly | Show the line between plan and promise | PF2 comparison | concept reset | MPS commitment boundary card | forecast, demand plan, and MPS separated by commitment level |
 | BOM to MPS connection | Explain clearly | Show how one finished good becomes many material needs | PF8 anatomy | artifact anatomy | BOM-to-MPS explainer | finished-good demand explodes into components and timing |
@@ -68,7 +68,7 @@ The audit checks that RW03-RW12 contain 40 topic rows, each run week has four po
 
 ## RW07 — Production Planning / S&OP
 
-| Post | Audience job | Reference-proven promise | Power format | Caption pattern | Save trigger | Visual argument |
+| Post | Audience job | Reference-informed promise | Power format | Caption pattern | Save trigger | Visual argument |
 |---|---|---|---|---|---|---|
 | The 5 pre-S&OP reviews | Save time | Know what must be settled before executive S&OP | PF4 cheat-sheet grid | complete reference | 5-review checklist | five review blocks feed into one executive decision |
 | What kills an S&OP | Avoid a mistake | Spot the failure modes before the meeting becomes theatre | PF4 failure grid | problem-solution artifact | S&OP failure-mode checklist | warning signs arranged around the meeting table |
@@ -77,7 +77,7 @@ The audit checks that RW03-RW12 contain 40 topic rows, each run week has four po
 
 ## RW08 — Production Planning / Capacity Planning
 
-| Post | Audience job | Reference-proven promise | Power format | Caption pattern | Save trigger | Visual argument |
+| Post | Audience job | Reference-informed promise | Power format | Caption pattern | Save trigger | Visual argument |
 |---|---|---|---|---|---|---|
 | Capacity utilisation | Avoid a mistake | 100% utilisation can make the system worse | Concept metaphor + PF2 | contrarian with caveat | utilisation trade-off card | capacity bar shows hidden queue and lost flexibility near 100% |
 | RCCP | Explain clearly | Test whether the approved plan can actually be built | PF6 decision test | meeting-room question | RCCP question set | plan passes through rough-cut capacity checks |
@@ -86,7 +86,7 @@ The audit checks that RW03-RW12 contain 40 topic rows, each run week has four po
 
 ## RW09 — Production Planning / Safety Stock
 
-| Post | Audience job | Reference-proven promise | Power format | Caption pattern | Save trigger | Visual argument |
+| Post | Audience job | Reference-informed promise | Power format | Caption pattern | Save trigger | Visual argument |
 |---|---|---|---|---|---|---|
 | Reorder point | Save time | Know when to reorder before stock hits zero | PF3 formula card | formula + plain meaning | reorder point card | demand line crosses lead-time demand plus safety stock |
 | Service level cost curve | Make a better decision | See why every extra point of service costs more | PF3 chart card | trade-off explanation | service-level trade-off curve | curve steepens as service level approaches the high end |
@@ -95,7 +95,7 @@ The audit checks that RW03-RW12 contain 40 topic rows, each run week has four po
 
 ## RW10 — Inventory Management / Stock Review
 
-| Post | Audience job | Reference-proven promise | Power format | Caption pattern | Save trigger | Visual argument |
+| Post | Audience job | Reference-informed promise | Power format | Caption pattern | Save trigger | Visual argument |
 |---|---|---|---|---|---|---|
 | The 4 types of inventory | Explain clearly | Know what each inventory bucket is protecting against | PF4 cheat-sheet grid | concept map | inventory-type reference | four inventory types mapped to risk they absorb |
 | Inventory positioning | Make a better decision | Put stock where it protects service without trapping cash | PF6 decision tree | decision artifact | positioning decision tree | nodes show push/pull, postponement, decoupling point |
@@ -104,7 +104,7 @@ The audit checks that RW03-RW12 contain 40 topic rows, each run week has four po
 
 ## RW11 — Inventory Management / Inventory Metrics
 
-| Post | Audience job | Reference-proven promise | Power format | Caption pattern | Save trigger | Visual argument |
+| Post | Audience job | Reference-informed promise | Power format | Caption pattern | Save trigger | Visual argument |
 |---|---|---|---|---|---|---|
 | Inventory turnover | Explain clearly | Turnover is speed, not automatically health | PF3 KPI card | metric caveat | turnover interpretation card | turnover formula plus service, cash, and stockout danger zones |
 | Pareto in procurement | Make a better decision | Find the few suppliers or SKUs driving most of the outcome | PF7 ranked cards | prioritization + review artifact | Pareto review template | ranked bars show where attention concentrates |
@@ -113,7 +113,7 @@ The audit checks that RW03-RW12 contain 40 topic rows, each run week has four po
 
 ## RW12 — Inventory Management / SKU Management
 
-| Post | Audience job | Reference-proven promise | Power format | Caption pattern | Save trigger | Visual argument |
+| Post | Audience job | Reference-informed promise | Power format | Caption pattern | Save trigger | Visual argument |
 |---|---|---|---|---|---|---|
 | SKU rationalisation | Avoid a mistake | Remove complexity without cutting useful choice | PF6 decision tree | decision caveat | rationalisation test | SKU branches split into keep, combine, retire, investigate |
 | Cash conversion cycle | Explain clearly | Show how inventory decisions trap or release cash | Process flow + PF3 | finance translation | CCC explainer | cash moves through inventory, receivables, payables, and back |

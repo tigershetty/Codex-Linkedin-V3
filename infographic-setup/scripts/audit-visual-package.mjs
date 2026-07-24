@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { existsSync, readFileSync, statSync } from 'fs';
 import { join, resolve } from 'path';
+import { createHash } from 'crypto';
 
 const folder = process.argv[2];
 
@@ -35,6 +36,11 @@ function pngDimensions(path) {
     width: buffer.readUInt32BE(16),
     height: buffer.readUInt32BE(20),
   };
+}
+
+function sha256(path) {
+  if (!has(path)) return null;
+  return createHash('sha256').update(readFileSync(file(path))).digest('hex');
 }
 
 function contains(path, needle) {
@@ -275,18 +281,21 @@ const checks = [
     fix: 'Optimize visual.png below 5 MB without changing the approved artwork.',
   },
   {
-    name: 'final visual has sufficient source resolution',
-    pass: visualInfo && visualInfo.width >= 552 && visualInfo.height >= 276,
-    fix: 'Export a source visual at least 552 x 276 pixels.',
+    name: 'canonical visual is native LinkedIn 1080 x 1350',
+    pass: visualInfo?.width === 1080 && visualInfo?.height === 1350,
+    fix: 'Keep model-native generations as candidates only. Promote the exact 1080 x 1350 LinkedIn artwork to visual.png before approval.',
   },
   {
-    name: 'optional LinkedIn companion is 1080 x 1350',
-    pass: !has('visual-linkedin.png') || (
-      linkedInInfo?.width === 1080
+    name: 'required LinkedIn posting asset is 1080 x 1350',
+    pass: linkedInInfo?.width === 1080
       && linkedInInfo?.height === 1350
-      && statSync(file('visual-linkedin.png')).size <= maxLinkedInPhotoBytes
-    ),
-    fix: 'Export visual-linkedin.png at exactly 1080 x 1350 and below 5 MB.',
+      && statSync(file('visual-linkedin.png')).size <= maxLinkedInPhotoBytes,
+    fix: 'Promote the prompt-safe candidate with scripts/export-linkedin-still.py --mode safe-crop.',
+  },
+  {
+    name: 'canonical and LinkedIn stills are byte-identical',
+    pass: sha256('visual.png') !== null && sha256('visual.png') === sha256('visual-linkedin.png'),
+    fix: 'Write the same exact 1080 x 1350 PNG bytes to visual.png and visual-linkedin.png. Keep model-native renders as candidates.',
   },
   {
     name: 'output review clears creative score floor',
@@ -334,17 +343,6 @@ for (const check of checks) {
     failures += 1;
     console.log(`FAIL ${check.name}`);
     console.log(`     ${check.fix}`);
-  }
-}
-
-if (visualInfo) {
-  const ratio = visualInfo.width / visualInfo.height;
-  if ((ratio < 0.8 || ratio > 3) && !has('visual-linkedin.png')) {
-    console.warn(
-      `WARN LinkedIn organic geometry: visual.png is ${visualInfo.width} x ${visualInfo.height} `
-      + '(outside 3:1 to 4:5). Preserve the master and add a non-cropping 1080 x 1350 '
-      + 'visual-linkedin.png before posting.'
-    );
   }
 }
 

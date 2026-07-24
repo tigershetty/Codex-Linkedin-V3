@@ -166,6 +166,9 @@ TASK:
 Create a world-class editorial LinkedIn infographic for Shetty's Desk.
 ${holyGrailBlock}
 
+CANVAS CONTRACT:
+Render a portrait candidate at 1024 x 1536, but compose every headline, label, artifact, logo zone, shadow, and meaningful prop inside the centered 1024 x 1280 LinkedIn-safe area. Treat the top 128 pixels and bottom 128 pixels as expendable studio continuation only. Nothing important may enter those bands. The candidate will be center-cropped and promoted to one exact 1080 x 1350 canonical master; design for that final 4:5 frame from the start.
+
 AUDIENCE VALUE:
 This is for ${data.audienceSegment}. They are trying to ${data.audienceJob}. After reading, they can ${stripTrailingPeriod(data.afterReading)}.
 Moment of use: ${stripTrailingPeriod(data.moment || 'a real supply-chain meeting or workflow')}.
@@ -222,7 +225,7 @@ TEXT PLACEMENT RULE:
 Use each supplied text string only in its intended home from TEXT PLACEMENT MAP. Do not turn allowed labels into standalone side tabs, rail labels, band headers, duplicate badges, repeated workflow labels, or extra navigation. If the layout needs a cue, use symbols, ticks, lines, arrows, empty cells, or icons instead of new words.
 
 BRAND:
-Warm cream paper, electric cobalt ink, visible grid discipline, editorial serif headline, restrained sans labels, mono technical chrome, flat structural depth. The design should feel like a premium two-color editorial supply-chain reference card, not a corporate dashboard.
+Use the current Shetty's Desk flagship system: luminous white and very pale-blue ground, deep navy ink, cobalt/azure structure, eco-green only for positive or verified flow, and coral only for risk, miss, or exception. Use a large navy/azure sans-serif title hierarchy, compact uppercase sans labels, consulting-grade spacing, and premium physical depth through matte paper, brushed metal, restrained glass, and believable studio shadows. Avoid warm beige workbook drift, ornate serif headlines, decorative multicolor palettes, sterile AI showrooms, and generic corporate dashboards.
 
 INTEGRITY:
 Numbers/data status: ${data.numbers}. Use only the supplied text. If the heading includes a conceptual number, keep that number exactly as written and do not invent any other statistics. Make labels large enough to survive LinkedIn mobile feed size. If space is tight, move labels outside the structure as callout tags instead of cramping them inside decorative elements.

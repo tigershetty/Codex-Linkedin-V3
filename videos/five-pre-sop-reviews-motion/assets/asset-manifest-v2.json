@@ -1,0 +1,108 @@
+{
+  "source": {
+    "path": "infographic-setup/data/2026-W32/five-pre-sop-reviews/visual.png",
+    "size": [
+      1080,
+      1350
+    ],
+    "method": "locked-canonical-linkedin-master"
+  },
+  "stage-background": {
+    "size": [
+      1080,
+      1350
+    ],
+    "method": "deterministic-brand-stage-with-locked-header-and-logo"
+  },
+  "review-01": {
+    "box": [
+      92,
+      274,
+      516,
+      601
+    ],
+    "method": "source-component-alpha-isolation",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "review-02": {
+    "box": [
+      536,
+      270,
+      984,
+      605
+    ],
+    "method": "source-component-alpha-isolation",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "review-03": {
+    "box": [
+      88,
+      598,
+      406,
+      996
+    ],
+    "method": "source-component-alpha-isolation",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "review-04": {
+    "box": [
+      692,
+      596,
+      994,
+      1000
+    ],
+    "method": "source-component-alpha-isolation",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "review-05": {
+    "box": [
+      226,
+      912,
+      832,
+      1145
+    ],
+    "method": "source-component-alpha-isolation",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "executive-table": {
+    "box": [
+      326,
+      514,
+      762,
+      876
+    ],
+    "method": "source-component-alpha-isolation",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  "readiness-strip": {
+    "box": [
+      240,
+      1129,
+      846,
+      1224
+    ],
+    "method": "source-component-alpha-isolation",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  }
+}

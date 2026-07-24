@@ -87,14 +87,23 @@ const builderExists = existsSync(projectDir) && readdirSync(projectDir).some(
 check('motion asset builder exists', builderExists, 'Add a deterministic build_motion* asset script.');
 
 const qa = read(qaPath);
+const brief = read(briefPath);
 check('frame 0 pixel difference is zero', /Frame 0 pixel difference:\*\*\s*`?0`?/i.test(qa), 'Record a zero frame-0 pixel difference.');
 check('final frame pixel difference is zero', /Final frame pixel difference:\*\*\s*`?0`?/i.test(qa), 'Record a zero final-frame pixel difference.');
 check('motion QA decision passes', /Status:\*\*\s*pass\b/i.test(qa), 'Resolve motion QA and set Status to pass.');
 check('canonical outputs promoted', /Canonical outputs promoted:\*\*\s*yes\b/i.test(qa), 'Promote one canonical GIF/MP4 pair.');
+check('motion brief states value beyond the still', /Value added beyond the still:\*\*/i.test(brief), 'State the sequence, dependency, comparison, state change, or decision logic motion adds.');
+check('motion QA scores value added at least 4', /Motion-value score:\*\*\s*`?[45](?:\.\d+)?(?:\/5)?`?/i.test(qa), 'Score and prove motion value at 4/5 or higher. Highlight-only decoration does not pass.');
 
 const composition = read(compositionPath);
+const sourceLayerReferences = (composition.match(/assets\/layers\//g) || []).length;
 check('composition locks approved visual', /\.\.\/assets\/visual\.png/.test(composition), 'Use the copied approved visual as the locked base.');
 check('composition exposes deterministic timeline', /window\.__tl\s*=/.test(composition) && /window\.__dur\s*=/.test(composition), 'Expose window.__tl and window.__dur.');
+check(
+  'composition contains meaningful motion layers',
+  sourceLayerReferences >= 2 || /data-(?:motion-component|value-layer)=/.test(composition),
+  'Animate multiple source-authored components or explicit deterministic value layers, not only glows above one flattened PNG.',
+);
 
 let shotValid = false;
 try {

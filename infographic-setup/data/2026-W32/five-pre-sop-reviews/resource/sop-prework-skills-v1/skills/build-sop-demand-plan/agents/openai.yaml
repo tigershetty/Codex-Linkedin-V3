@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build S&OP Demand Plan"
+  short_description: "Build consensus demand with scenarios"
+  default_prompt: "Build the consensus demand view for this S&OP cycle, separate baseline from events, and produce scenarios with explicit assumptions."

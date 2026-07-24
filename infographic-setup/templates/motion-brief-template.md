@@ -10,6 +10,9 @@
 **Motion helps this post because:**  
 The reader needs to see `{sequence/change}` in the order `{reading logic}`.
 
+**Value added beyond the still:**
+Motion shows `{sequence / dependency / comparison / state change / decision logic}` that one static frame cannot demonstrate.
+
 **Picture-first promise:**  
 The complete still remains understandable and is the first and final frame.
 
@@ -39,7 +42,7 @@ These never move, disappear, or get redrawn:
 
 | ID | Communication job | Source region | Isolation method | Reveal behavior | Risk |
 |---|---|---|---|---|---|
-| `unit-01` | `{what it teaches}` | `[x1,y1,x2,y2]` | semantic mask / fitted plate / whole component / highlight only | wipe / fade / trace / pulse | `{ghosts, shared shadow, text proximity}` |
+| `unit-01` | `{what it teaches}` | `[x1,y1,x2,y2]` | shaped source component / deterministic vector-data layer / fitted plate / whole compound component | assemble / route / compare / resolve | `{ghosts, shared shadow, text proximity}` |
 | `unit-02` | `{what it teaches}` | `[x1,y1,x2,y2]` | `{method}` | `{behavior}` | `{risk}` |
 | `unit-03` | `{what it teaches}` | `[x1,y1,x2,y2]` | `{method}` | `{behavior}` | `{risk}` |
 
@@ -54,7 +57,7 @@ List items where clean background reconstruction is not credible.
 
 **Signal path or decision marker:** `{none or describe}`  
 **Purpose:** `{what it explains}`  
-**Allowed marks:** source-derived highlight / SVG dot / ring / trace / check pulse  
+**Allowed marks:** source-authored component / SVG route / packet / state pip / source-derived highlight as secondary finish
 **Clear-space rule:** `{where signals may travel without covering content}`
 
 ## 6. Timeline
@@ -68,17 +71,20 @@ List items where clean background reconstruction is not credible.
 | `{time}` | beat 3 | `{component action}` | `{meaning}` |
 | `{time}` | final hold | complete still, no accents | read and save |
 
-**Target duration:** `{6-9 seconds}`  
+**Target duration:** `{usually 8-14 seconds}`
 **Final complete hold:** `{at least 1.2 seconds}`
 
 ## 7. Asset Plan
 
-- [ ] Copy approved `visual.png` into the motion project
+- [ ] Copy the selected exact 1080 x 1350 `visual.png` into the motion project
+- [ ] Build a clean authored stage when the composition genuinely assembles or deconstructs
+- [ ] Isolate complete source-authored objects with shaped alpha masks where credible
+- [ ] Reconstruct verified vector/data layers only from exact source values
 - [ ] Build semantic masks only for cleanly isolatable color/content
 - [ ] Build fitted covers only where reset-frame reconstruction is clean
 - [ ] Keep integrated scenes/charts as whole components
 - [ ] Build transparent source-colored highlights
-- [ ] Use registered highlight-only motion when a clean cover is impossible
+- [ ] When a component cannot be isolated, keep it locked and use any registered highlight only as a secondary finishing beat
 - [ ] Use exact transparent assets for any logo/icon motion
 - [ ] Record all coordinates in `shot-plan.json`
 

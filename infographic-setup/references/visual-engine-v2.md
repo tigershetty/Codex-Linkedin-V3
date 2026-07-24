@@ -1,7 +1,7 @@
 # Visual Engine v2 — GPT Image 2 First, HTML Control Lane
 
-**Version:** 2.1
-**Date:** 2026-07-13
+**Version:** 2.2
+**Date:** 2026-07-19
 **Status:** Active production workflow for new 101 and AI for Supply Chain visuals
 **North star:** reference-fidelity first, lean inputs, world-class infographic output.
 **Holy Grail benchmark:** `data/2026-W28/supply-chain-resilience-os/visual.png` via `references/holy-grail-visual-standard.md`.
@@ -48,16 +48,31 @@ Do not use this lane for every lightweight post. Use it when the post should be 
 
 | Lane | Status | Use when | Output |
 |---|---|---|---|
-| GPT Image 2 | **Primary** | Default for new infographic concepts, especially when the visual needs editorial judgment, metaphor, unusual composition, or reference fidelity | AI-rendered still, usually 3:4 portrait |
+| GPT Image 2 | **Primary** | Default for new infographic concepts, especially when the visual needs editorial judgment, metaphor, unusual composition, or reference fidelity | 1024 x 1536 model candidate composed for a centered 4:5 safe area |
 | GPT Image 2 Holy Grail artifact | **Flagship primary** | Save-worthy posts where the image should become an operating tool: OS, field manual, playbook, diagnostic, decision map, or one-page book | Premium 3D/isometric artifact scene + surgical cleanup |
 | HTML / code-render | **Backup + control** | Exact numbers, dense tables, text-heavy comparisons, charts that must be pixel-perfect, or when GPT output misses the structure | HTML template + PNG in `renderer/` |
-| Motion / GIF / MP4 | **Optional finishing lane** | Only after `visual.png` is approved and sequencing, reveal, or signal movement improves the argument | Layout-adaptive motion artifact via `motion-engine-v1.md` |
+| Motion / GIF / MP4 | **Standard Draft Sprint lane when earned** | After the selected exact 4:5 draft exists and sequence, dependency, comparison, state change, or decision logic improves the argument | Layout-adaptive motion artifact via `motion-engine-v1.md` |
 
 For each flagship post, keep both lanes when practical:
 
 1. One GPT Image 2 prompt and generation record.
 2. One HTML control render or wireframe render.
 3. A short comparison note explaining which image is final and why.
+
+### 2.1 Native Render And Canonical Promotion
+
+GPT Image 2 and LinkedIn have different canvas jobs. Never let the model-native file become the canonical post by accident.
+
+For new portrait posts:
+
+1. generate at `1024x1536`;
+2. keep every meaningful object, title, label, formula, logo zone, and footer inside the centered `1024x1280` content-safe area;
+3. reserve the top and bottom 128 pixels for expendable atmosphere only;
+4. center-crop the safe composition to 4:5 and resize once to 1080 x 1350;
+5. promote the same exact bytes to `visual.png` and `visual-linkedin.png`;
+6. keep the native generation under a descriptive candidate filename.
+
+The visual audit rejects a canonical `visual.png` that is not exactly 1080 x 1350. The old branded fit/side-rail treatment is only for legacy recovery where no prompt-safe source exists.
 
 ## 3. Brand Seed — Cobalt Grid Adapted For LinkedIn
 
@@ -225,16 +240,15 @@ After the GPT prompt is written, create a small HTML control only if it helps an
 
 The HTML control does not need to be beautiful every time. It needs to be honest.
 
-### Step 5 - Motion Finishing Lane
+### Step 5 - Motion Draft Lane
 
-Motion is produced only after the still is selected and passes visual QA. Read
+Motion is produced after the exact 4:5 still is selected for the Draft Sprint. Read
 `references/motion-engine-v1.md`, then answer:
 
 > Motion helps this post because the reader needs to see [sequence/change] in
 > the order [reading logic].
 
-If that sentence is weak, stop at `visual.png` and record a still-only exception.
-Otherwise the standard post package includes the still, GIF, and MP4 master.
+If that sentence is weak, record a draft still-only rationale. Otherwise build the GIF and MP4 before the integrated improvement pass; approval still happens at the final package checkpoint.
 
 When motion is earned:
 
@@ -265,17 +279,17 @@ Each visual post folder should aim for:
 | `visual-output-review.md` | post-render scoring against stop-scroll, save utility, reference adaptation, originality, readability, and integrity |
 | `html-control.md` or renderer template link | backup/control lane notes |
 | `visual-comparison.md` | side-by-side judgment and final pick |
-| `visual.png` | selected final visual |
-| `visual-linkedin.png` | non-cropping 1080 x 1350 companion when the canonical master is taller than 4:5 |
-| `visual-motion.gif` | standard picture-first motion companion after still approval and eligibility pass |
-| `visual-motion.mp4` | standard full-resolution motion master after still approval and eligibility pass |
+| `visual.png` | selected exact 1080 x 1350 canonical visual |
+| `visual-linkedin.png` | byte-identical 1080 x 1350 posting asset |
+| `visual-motion.gif` | standard picture-first motion companion built during the Draft Sprint when earned |
+| `visual-motion.mp4` | standard full-resolution motion master built during the Draft Sprint when earned |
 | `motion-qa.md` | motion QA: reset/focus frames, endpoint pixel checks, media specs, and promotion decision |
-| `resource-plan.md` | AI-for-SC resource eligibility and package contract |
+| `resource-plan.md` | resource eligibility and package contract for every post |
 | `publish-manifest.json` | explicit caption/still approval and website handoff status |
 
-Do not let generated experiments become the source of truth. The source of truth is the prompt, references, comparison note, and chosen `visual.png`.
+Do not let generated experiments become the source of truth. The source of truth is the prompt, references, comparison note, and exact 1080 x 1350 `visual.png`. Native model renders remain candidates.
 
-Read `references/publish-asset-spec-v1.md` before export. Preserve `visual.png` exactly after approval; if it falls outside the organic 4:5 boundary, create a branded non-cropping `visual-linkedin.png` companion rather than cropping the artifact.
+Read `references/publish-asset-spec-v1.md` before promotion. For new work, create the prompt-safe 4:5 artwork first and place the same pixels in `visual.png` and `visual-linkedin.png`. The visual audit must pass before the manifest can record still approval.
 
 ## 7. Visual QA Scorecard
 
