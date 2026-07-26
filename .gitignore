@@ -31,6 +31,9 @@ Thumbs.db
 # Cache directories
 .firecrawl/
 
+# Local review and rendering scratch; promote durable evidence into a dated archive
+/tmp/
+
 # Build outputs
 .next/
 
