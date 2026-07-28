@@ -2,9 +2,10 @@
 
 - **Run week:** `RW01`
 - **ISO week:** `2026-W32`
-- **Prepared:** `2026-07-28`
-- **Status:** `ready for signal collection; no topic admitted yet`
+- **Prepared:** `2026-07-29`
+- **Status:** `six candidates scored; awaiting Tiger checkpoint before portfolio selection`
 - **Canonical workflow:** `references/v4-audience-growth-operating-system.md`
+- **Research evidence:** `data/2026-W32/v4-week1-research-evidence.md`
 
 ## 1. Starting Baseline
 
@@ -32,18 +33,22 @@ Sources: `references/linkedin-v4-stage0-research-spec.md` and the Stage-0 contro
 | Timely signals | Up to 3 candidate events | WorldMonitor or social discovery must be verified against a primary source | Optional timely candidate |
 | Substack | 5 relevant publications or issues via RSS/public pages | Capture subject, promise, depth device, CTA, and evidence use; no paid scraper | Depth and distribution hypotheses |
 
+All seven lanes were completed on `2026-07-29`. The evidence register records the source rows, limitations, manual Stage-0 triage, Substack cases, timely signals, and full score breakdowns. No additional Apify credits were used.
+
 ## 3. Candidate Admission Board
 
 Produce at least six candidates. A blank row cannot move into production.
 
 | Candidate | Primary audience | Decision / pain | Public evidence | Evidence lane + class | Useful artifact | Tiger contribution | Score | Decision |
 |---|---|---|---|---|---|---|---:|---|
-|  |  |  |  |  |  |  |  | build / reframe / park |
-|  |  |  |  |  |  |  |  | build / reframe / park |
-|  |  |  |  |  |  |  |  | build / reframe / park |
-|  |  |  |  |  |  |  |  | build / reframe / park |
-|  |  |  |  |  |  |  |  | build / reframe / park |
-|  |  |  |  |  |  |  |  | build / reframe / park |
+| `C1` A more accurate forecast can produce a worse supply plan | Planners / planning managers | Choose metrics and a forecast based on service, shortage, inventory, and cost consequence—not accuracy alone | BCG 2026, Hyndman, M5 public data | Practitioner + Tiger + public method; `cross_track_heuristic_signal` | Forecast-to-business-impact simulator | First metric/check, decision use, failure boundary | **93** | build |
+| `C2` Turn an ERP shortage export into a defensible action queue | Planners / planning managers | Decide which shortage matters first, why, who owns it, and what evidence supports the response | BCG 2026 + reproducible safe sample | Practitioner + Tiger failure diagnostic; `peer_heuristic_signal` | Ranked exception workbook with owner/action/validation | Priority logic, human ownership, unsafe automation boundary | **88** | build; controlled reframe |
+| `C3` The consolidation trap: when waiting costs more than shipping now | Buyers / logistics practitioners | Balance freight saved against carrying cost, delay, and service penalty | LMI 2026, KPMG 2026, BTS FAF, peer-reviewed consolidation model | Practitioner + timely + public method; `cross_track_heuristic_signal` | Ship-now/consolidate break-even calculator | Real-world constraints and decision threshold | **91** | build |
+| `C4` The cheapest supplier is not necessarily the lowest-cost supply | Purchasing practitioners | Compare unit price with freight, tariff, quality, lead-time variability, disruption, and allocation | ISM 2026, UN Comtrade, CPPI, WTO | Practitioner + Tiger/peer + public data; `cross_track_heuristic_signal` | Risk-adjusted TCO and dual-sourcing frontier | Which costs count, first comparison, uncertainty | **86** | reframe narrowly before build |
+| `C5` Should this AI workflow be killed, redesigned, or scaled? | SCM transformation leaders | Determine whether one workflow has the data, integration, owner, validation, and measurable value to proceed | PwC 2026, Gartner 2026, NIST AI RMF | Practitioner + authoritative framework + creator; `cross_track_heuristic_signal` | Completed AI workflow value/control gate | Decision rights, acceptable failure, scale/stop rule | **90** | build only against a real workflow |
+| `C6` What decisions and capabilities remain human in an AI-era supply chain? | Working practitioners / leaders | Decide what to retain, augment, verify, and learn by role | Tiger career-map result + Gartner/PwC role-redesign evidence | Tiger-led; `peer_heuristic_signal` | Planner/buyer/transformation decision-capability map | Credible role stance and non-generic next step | **84** | reframe; deliberate reach candidate |
+
+**Board judgment:** `C1`, `C2`, `C3`, and `C5` are production-eligible after Tiger input. `C4` needs a narrower buying scenario. `C6` needs evidence and language that attract working practitioners rather than a generic career audience. The scores admit possibilities; they do not yet choose the five-post portfolio.
 
 ## 4. Five-Post Portfolio
 
@@ -60,23 +65,25 @@ Select only after the admission board is complete. The functions below are portf
 ## 5. Week 1 Experiment
 
 - **Experiment ID:** `EXP-2026-W32-01`
-- **Hypothesis:** If the opening names a consequential decision and the artifact the reader can use, qualified reach and saves will improve against comparable V3 topic-label posts because the value is legible before the reader commits attention.
-- **One variable:** decision-and-artifact promise in the opening.
-- **Comparison:** matched recent Tiger posts by audience role, format, and publication age; do not compare raw results across creators.
+- **Hypothesis:** When an artifact-led post opens with the consequential role decision rather than a named AI tool/task, Day-7 members reached and saves will improve against Tiger's matched recent tool-led workflows.
+- **One variable:** opening frame — `role decision first` versus `named-tool task first`.
+- **Held constant:** intended role, visible artifact, workflow depth, publication maturity, and source mode where feasible.
+- **Comparison:** matched recent Tiger posts such as the tool-led EOQ, forecast-triage, supplier-QBR, and should-cost workflows; do not compare raw results across creators.
 - **Primary signal:** Day-7 members reached and saves, reported separately.
 - **Guardrail:** follower conversion and comments from the intended practitioner roles.
 - **Decision rule:** treat the result as directional unless at least two comparable V4 posts repeat the signal.
+- **Reason for revision:** recent tool-led posts already promised useful artifacts and still underperformed, so artifact visibility cannot be treated as the untested variable.
 
 ## 6. Substack And Website Decision
 
-- **Substack flagship:** select only if one evidence cluster requires a worked method, example, limitation, and Tiger judgment that cannot fit responsibly in a LinkedIn post.
+- **Substack flagship:** `C1`, `C4`, or the paired `C2` + `C5` build/failure narrative are eligible only if the selected cluster requires a worked method, example, limitation, and Tiger judgment that cannot fit responsibly in a LinkedIn post.
 - **Substack Notes:** derive three standalone observations from the week's verified sources; do not publish summaries that add no judgment.
 - **Website artifact:** build only when a candidate has defined inputs, output, validation, and a reader job worth completing.
 - **Access rule:** any promised useful artifact remains available without an email or account gate.
 
 ## 7. Tiger Input Checkpoint
 
-After six candidates are scored, capture one short cluster source note covering the shortlisted work:
+The six candidates are scored. Before selecting the portfolio, Tiger chooses the most consequential cluster and supplies one short source note covering:
 
 1. Which problem feels most consequential?
 2. What are people misunderstanding?
@@ -90,9 +97,11 @@ No personal claim enters a draft before the relevant statement is approved in `t
 
 The week is ready for production only when:
 
-- six evidence-backed candidates have been scored;
+- [x] six evidence-backed candidates have been scored;
 - five posts form a coherent audience portfolio;
-- the single experiment and matched comparison are recorded;
+- [x] the single experiment and matched comparison are recorded;
 - every post has a proof path, artifact decision, and source mode;
 - any Substack flagship has fresh Tiger input;
-- no topic was selected solely because it appeared in the old calendar or Top-100 set.
+- [x] no topic was selected solely because it appeared in the old calendar or Top-100 set.
+
+Current gate: **awaiting Tiger checkpoint; do not draft yet.**
