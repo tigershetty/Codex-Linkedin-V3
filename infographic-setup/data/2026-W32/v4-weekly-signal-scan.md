@@ -3,7 +3,7 @@
 - **Run week:** `RW01`
 - **ISO week:** `2026-W32`
 - **Prepared:** `2026-07-29`
-- **Status:** `six candidates scored; awaiting Tiger checkpoint before portfolio selection`
+- **Status:** `C3 research model tested; awaiting Tiger review before calculator or drafting`
 - **Canonical workflow:** `references/v4-audience-growth-operating-system.md`
 - **Research evidence:** `data/2026-W32/v4-week1-research-evidence.md`
 
@@ -43,12 +43,12 @@ Produce at least six candidates. A blank row cannot move into production.
 |---|---|---|---|---|---|---|---:|---|
 | `C1` A more accurate forecast can produce a worse supply plan | Planners / planning managers | Choose metrics and a forecast based on service, shortage, inventory, and cost consequence—not accuracy alone | BCG 2026, Hyndman, M5 public data | Practitioner + Tiger + public method; `cross_track_heuristic_signal` | Forecast-to-business-impact simulator | First metric/check, decision use, failure boundary | **93** | build |
 | `C2` Turn an ERP shortage export into a defensible action queue | Planners / planning managers | Decide which shortage matters first, why, who owns it, and what evidence supports the response | BCG 2026 + reproducible safe sample | Practitioner + Tiger failure diagnostic; `peer_heuristic_signal` | Ranked exception workbook with owner/action/validation | Priority logic, human ownership, unsafe automation boundary | **88** | build; controlled reframe |
-| `C3` The consolidation trap: when waiting costs more than shipping now | Buyers / logistics practitioners | Balance freight saved against carrying cost, delay, and service penalty | LMI 2026, KPMG 2026, BTS FAF, peer-reviewed consolidation model | Practitioner + timely + public method; `cross_track_heuristic_signal` | Ship-now/consolidate break-even calculator | Real-world constraints and decision threshold | **91** | build |
+| `C3` The consolidation trap: when waiting costs more than shipping now | Buyers / logistics practitioners | Balance freight saved against carrying cost, delay, and service penalty | LMI 2026, KPMG 2026, BTS FAF, peer-reviewed consolidation model | Practitioner + timely + public method; `cross_track_heuristic_signal` | Ship-now/consolidate break-even calculator | Real-world constraints and decision threshold | **91** | **selected; source gate pending** |
 | `C4` The cheapest supplier is not necessarily the lowest-cost supply | Purchasing practitioners | Compare unit price with freight, tariff, quality, lead-time variability, disruption, and allocation | ISM 2026, UN Comtrade, CPPI, WTO | Practitioner + Tiger/peer + public data; `cross_track_heuristic_signal` | Risk-adjusted TCO and dual-sourcing frontier | Which costs count, first comparison, uncertainty | **86** | reframe narrowly before build |
 | `C5` Should this AI workflow be killed, redesigned, or scaled? | SCM transformation leaders | Determine whether one workflow has the data, integration, owner, validation, and measurable value to proceed | PwC 2026, Gartner 2026, NIST AI RMF | Practitioner + authoritative framework + creator; `cross_track_heuristic_signal` | Completed AI workflow value/control gate | Decision rights, acceptable failure, scale/stop rule | **90** | build only against a real workflow |
 | `C6` What decisions and capabilities remain human in an AI-era supply chain? | Working practitioners / leaders | Decide what to retain, augment, verify, and learn by role | Tiger career-map result + Gartner/PwC role-redesign evidence | Tiger-led; `peer_heuristic_signal` | Planner/buyer/transformation decision-capability map | Credible role stance and non-generic next step | **84** | reframe; deliberate reach candidate |
 
-**Board judgment:** `C1`, `C2`, `C3`, and `C5` are production-eligible after Tiger input. `C4` needs a narrower buying scenario. `C6` needs evidence and language that attract working practitioners rather than a generic career audience. The scores admit possibilities; they do not yet choose the five-post portfolio.
+**Board judgment:** Tiger selected `C3` on `2026-07-29` as the first execution cluster. `C1`, `C2`, and `C5` remain production-eligible after Tiger input. `C4` needs a narrower buying scenario. `C6` needs evidence and language that attract working practitioners rather than a generic career audience.
 
 ## 4. Five-Post Portfolio
 
@@ -57,7 +57,7 @@ Select only after the admission board is complete. The functions below are portf
 | Slot | Function | Content ID | Topic | Proof / artifact | Source mode | Status |
 |---|---|---|---|---|---|---|
 | 1 | Decision distinction / problem map |  |  |  |  | pending |
-| 2 | Framework, formula, or operating artifact |  |  |  |  | pending |
+| 2 | Framework, formula, or operating artifact | `2026-W32-ship-now-vs-consolidate-linkedin-01` | One inbound PO is ready; should it ship now or wait for the next compatible PO? | Release-timing calculator with break-even date, hard service gate, and input-confidence flags | fresh Tiger input extracted; public-use pending | research model tested; Tiger review |
 | 3 | Verified AI workflow with a human control |  |  |  |  | pending |
 | 4 | Proof, failure boundary, or public-data interpretation |  |  |  |  | pending |
 | 5 | One deliberate experiment or timely/leadership angle |  |  |  |  | pending |
@@ -83,7 +83,7 @@ Select only after the admission board is complete. The functions below are portf
 
 ## 7. Tiger Input Checkpoint
 
-The six candidates are scored. Before selecting the portfolio, Tiger chooses the most consequential cluster and supplies one short source note covering:
+`C3` is selected. Before research is turned into a content or artifact brief, capture Tiger's source note one question at a time:
 
 1. Which problem feels most consequential?
 2. What are people misunderstanding?
@@ -104,4 +104,4 @@ The week is ready for production only when:
 - any Substack flagship has fresh Tiger input;
 - [x] no topic was selected solely because it appeared in the old calendar or Top-100 set.
 
-Current gate: **awaiting Tiger checkpoint; do not draft yet.**
+Current gate: **C3 research model tested; Tiger review required before calculator or drafting.**
