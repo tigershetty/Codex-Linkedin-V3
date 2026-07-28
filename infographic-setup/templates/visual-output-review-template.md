@@ -18,7 +18,7 @@
 |---|---:|---|
 | Stop-scroll clarity |  |  |
 | Save utility |  |  |
-| Reference adaptation |  |  |
+| Evidence/reference adaptation |  |  |
 | Shetty's Desk originality |  |  |
 | Visual argument |  |  |
 | Brand ownership |  |  |
@@ -53,7 +53,7 @@
 
 ## 5. Fix Path
 
-**If revising prompt, change the:** framework / reference lesson / on-image artifact / text hierarchy / brand restraint  
+**If revising prompt, change the:** framework / evidence-or-reference mechanic / on-image artifact / text hierarchy / brand restraint
 **Specific next prompt change:**  
 **Logo crop check:** attach or inspect a tight crop of every deterministic logo placement before promoting to `visual.png`  
 **Final note:**  

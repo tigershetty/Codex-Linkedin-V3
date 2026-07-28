@@ -2,8 +2,33 @@
 
 **Week:** `{YYYY-W##}`
 **Slug:** `{slug}`
+**Content ID:** `{YYYY-W##}-{slug}-{channel}-{sequence}`
 **Series:** `Supply Chain 101` / `AI for Supply Chain`
-**Candidate source:** `calendar` / `signal scan` / `analytics` / `audience question` / `timely event`
+**Primary channel:** `LinkedIn` / `Substack` / `Website`
+**Parent slug:** `{shared research/artifact package}`
+**Candidate source:** `public pain evidence` / `creator pattern` / `public data` / `research` / `timely event` / `analytics` / `calendar candidate`
+
+## 0. V4 Decision
+
+**Weekly slot:** `problem map` / `framework-artifact` / `AI workflow` / `proof-boundary` / `experiment`
+**Problem:**
+**Promise:**
+**Proof available:**
+**Useful artifact:**
+**Experiment hypothesis:** `If we change [one variable], [audience] will show [observable behaviour], because [reason].`
+**Matched comparison:** `{content ID or none}`
+
+## 0A. Tiger Source Gate
+
+**Source mode:** `fresh Tiger input` / `approved voice-bank source` / `research-led`
+**Source file:** `data/{YYYY-W##}/{slug}/tiger-source.md` / `not applicable to factual draft`
+**Approved source IDs:**
+**Tiger-approved stance:**
+**Practical failure boundary / uncertainty:**
+**Approved first-person claims:**
+**Confidentiality review:** `clear` / `restricted` / `pending`
+
+> Research-led work may contain Tiger's clearly labelled interpretation, but it may not claim that Tiger built, used, observed, managed, or achieved something without an approved source ID.
 
 ## 1. Topic Qualification
 
@@ -18,26 +43,32 @@
 
 | Dimension | Score |
 |---|---:|
-| Audience pain / desire /25 |  |
-| Save utility /20 |  |
-| Visual potential /15 |  |
-| Freshness / timing /15 |  |
-| Tiger authority /10 |  |
-| Research strength /10 |  |
-| Series fit /5 |  |
+| Audience pain and role specificity /20 |  |
+| Public evidence path /15 |  |
+| Market and competitive signal /15 |  |
+| Artifact and workflow utility /15 |  |
+| Tiger contribution /10 |  |
+| Reach and distribution fit /10 |  |
+| Freshness and timing /5 |  |
+| Visual and explanatory potential /5 |  |
+| Portfolio fit /5 |  |
 | **Total /100** |  |
 
 **Decision:** `build` / `reframe` / `park`
 
-## 3. Top-100 Reference Fit
+## 3. Reference Mechanic Fit
 
-**Reference-proven promise:**
+**Reference decision:** `Top-100 used` / `other curated-success reference used` / `not used—stronger evidence lane`
+**Primary evidence/packaging lane:** `Tiger` / `strict peer` / `decision panel` / `public pain` / `primary source` / `timely signal` / `curated success`
+**Curated-success mechanic to test:**
 **Power format:** PF1 / PF2 / PF3 / PF4 / PF5 / PF6 / PF7 / PF8 / process flow / concept metaphor
 **Closest top-100 reference files:**
 **Caption pattern to adapt:**
 **Save trigger:**
 **Audience value in one sentence:**
 **Why this is Shetty's Desk, not a generic creator:**
+
+> Do not force a Top-100 analogy. If it is not the strongest lane, mark it `not used` and build the packaging from the accepted audience problem, proof, and artifact.
 
 ## 4. Research Thesis
 
@@ -99,3 +130,7 @@
 **Motion status:** `pending` / `approved` / `still-only`
 **LinkedIn export:** native 4:5 / `visual-linkedin.png` required
 **Website status:** `hold` until caption + still approval
+**Substack role:** `flagship` / `note` / `derivative` / `not selected`
+**Substack source requirement:** `fresh source required for flagship` / `covered by weekly source` / `not applicable`
+**Website artifact:**
+**Measurement snapshot:** `7-day` / `30-day` / `both`

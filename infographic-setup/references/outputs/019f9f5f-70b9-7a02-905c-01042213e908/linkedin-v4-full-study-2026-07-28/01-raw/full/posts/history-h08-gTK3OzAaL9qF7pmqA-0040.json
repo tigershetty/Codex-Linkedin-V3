@@ -1,0 +1,3224 @@
+{
+  "runId": "gTK3OzAaL9qF7pmqA",
+  "datasetId": "pOokxA64KCTr3cF4W",
+  "offset": 40,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7484592885405966336",
+      "entityId": "7484592885405966336",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_my-july-2026-tool-stack-looks-a-lot-different-activity-7484592885405966336-ZM2j",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484064806723969024",
+      "shareUrn": "urn:li:share:7484064806723969024",
+      "content": "My July 2026 tool stack looks a lot different from a year ago.\nAnd yes, one of them is ChatGPT.\n\nSome of these swap are obvious.\n\nHere's what changed and what stayed:\n\n1/ Browsing: Chrome → Claude for Chrome\n\nClaude now works directly inside my browser. It reads the page I'm on, summarizes research, and handles repetitive online tasks whilst I do something else.\n\n2/ Automation: Zapier → Zapier\n\nIt's still the backbone connecting everything. My content workflows and client onboarding all run through it.\n\n3/ Content: Saywhat → Saywhat\n\nStill the best for writing content, finding ideas, and making whiteboard infographics.\n\n4/ Organization: Notion → Claude Notion Connector\n\nEverything still lives in Notion, but now Claude reads and updates it for me. I ask for what I need instead of digging through pages.\n\n5/ Communication: Slack → Claude Slack Connector\n\nClaude pulls out the messages that actually need my attention and drafts replies, so I spend way less time living in Slack.\n\n6/ Design: Figma → Figma\n\nStill the best option for my design needs.\n\n7/ Typing: Keyboard → Wispr Flow\n\nI talk instead of type now. My prompts got better because I explain things the way I'd say them out loud.\n\n8/ Notetaking: Fireflies.ai AI → Fireflies AI\n\nDeep in my workflow. I use it every day.\n\n9/ Search: Gemini → ChatGPT\n\nIt's my first stop for general questions, finding things online, and figuring out how to use a new tool. I get a summary and go deeper when I need to.\n\n10/ Writing: Claude → Claude\n\nIt's still my go-to for first drafts and anything where tone matters. Projects make it way better because I can load context in once and reuse it across everything.\n\nHalf my stack changed in 12 months, and 3 of the 5 swaps were Claude plugging into tools.\n\nI'd bet half of it changes again by next July.\n\n♻️ Repost to help your network build a better tool stack\n➕ Follow me (Will McTighe) for more like this",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1784466000892,
+        "date": "2026-07-19T13:00:00.892Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHAEZ6okGjlow/feedshare-shrink_1280/B4DZ9y9SIxI8AM-/0/1784340096077?e=1786579200&v=beta&t=yWdobhSx8Ls_C11kZeTKuoq9iuY3RgbJqcNp2slA5GA",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484592885405966336",
+        "likes": 901,
+        "comments": 253,
+        "shares": 62,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 839
+          },
+          {
+            "type": "INTEREST",
+            "count": 34
+          },
+          {
+            "type": "EMPATHY",
+            "count": 17
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483868194676592641",
+      "entityId": "7483868194676592641",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_most-authentic-posts-on-linkedin-are-completely-activity-7483868194676592641-iMJy",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483631099806609408",
+      "shareUrn": "urn:li:ugcPost:7483631099806609408",
+      "content": "Most “authentic” posts on LinkedIn are completely useless.\nThere’s an easy fix to make sure yours aren’t.\n\nIf your personal posts are falling flat, it's likely because they're giving nothing.\n\nPersonal stories are a great tool for your personal brand - they can build trust quickly.\n\nThey show people what shaped you, how you think, and what you have learned along the way.\n\nBut the story still needs to give the reader a lesson, a takeaway, or a change they can make today. \n\nHere’s how to do it without being cringe:\n\n1/ Start with the moment\n\nChoose one specific event, conversation, or result that changed how you think. Give people the details they need to understand it, but cut anything that does not move the story forward.\n\nEarlier this year, I met with a founder who runs a recruiting business for AI startups. Eight years in, his business is doing $65M a year, completely bootstrapped.\n\nI was telling him how I'm the bottleneck in my business, because I can't find anyone as good at creating content as me.\n\nHe was polite, but said one thing that made me rethink everything: \"You've got an imaginary scarcity mindset.” \n\n2/ Name the lesson\n\nExplain what the experience taught you. The best lesson is usually something you now do differently because of what happened.\n\nIn my case, the lesson was simple. The talent wasn't missing...my willingness to actually go look for it was.\n\n3/ Make it useful\n\nBe clear with your readers how they can apply the lesson to their own work or life. Give them a question to ask themselves, common mistakes to avoid, or one action they can take.\n\nTo avoid imaginary scarcity, find someone a few years ahead of you. Tell them what you think is holding you back, and let them tell you which parts are real and which parts you made up.\n\nAn authentic, personal story earns the reader's attention when it teaches them something they can use.\n\nI talked through this exact problem and more with Lakshmi Rebecca on her podcast. Check out the full episode here: https://lnkd.in/d_qP3AnQ\n\n♻️ Repost to help your network do authenticity right\n\n➕ Follow me (Will McTighe) for more like this",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1784293221158,
+        "date": "2026-07-17T13:00:21.158Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQHr7LVvZm8gxw/videocover-low/B4DZ9sy7HUJwBE-/0/1784236720936?e=1785877200&v=beta&t=jfmL5I3ChwRBWR0d6sWtZNgkEFKDkah-zbFXJRvYaTc",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHr7LVvZm8gxw/mp4-720p-30fp-crf28/B4DZ9sy7HUJwB4-/0/1784236726548?e=1785877200&v=beta&t=qdsq96k1gJZzh8L6RmmTlr3xCXHLlK0pi6BX9xZ_ZTc"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483631099806609408",
+        "likes": 337,
+        "comments": 252,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 299
+          },
+          {
+            "type": "EMPATHY",
+            "count": 18
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482010882584051712",
+      "entityId": "7482010882584051712",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_7-japanese-concepts-to-transform-your-work-activity-7482010882584051712-0swW",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7481862363336327169",
+      "shareUrn": "urn:li:ugcPost:7481862363336327169",
+      "content": "7 Japanese Concepts That Will Change How You Work:\n\nMost people feel like they're drowning in work.\n\nBut some people stay calm through chaos.\n\nSometimes the best answers come from ancient wisdom.\nAnd these timeless principles still work today.\n\nHere are 7 Japanese conacepts you need to know:\n\n1/ Wabi-Sabi: Embrace Imperfection\n\n↳ Chase progress not perfection - ship at 70%.\n↳ Share a work-in-progress update, not just polished results. Show the messy middle.\n\n2/ Shoshin: Beginner's Mind\n\n↳ Ask the dumb questions in meetings\n↳ Say \"I don't know but I'll find out\" more\n\n3/ Shokunin: Master Your Craft\n\n↳ Pick the top up and coming skill you need in your industry. Block 30 minutes daily.\n↳ DM someone great at it. Ask one question. Learn from real experience.\n\n4/ Kaizen: Get 1% Better Everyday\n\n↳ Every evening, write one tiny thing you'll do better tomorrow.\n↳ End projects with: What worked? What didn't? What's next?\n\n5/ Shikata ga nai: Accepting the Unchangeable\n\n↳ Sort concerns: \"My control\" vs. \"Not my control.\" Act accordingly.\n↳ Use the 10-minute rule. Address it briefly, then decide.\n\n6/ Kintsugi: Your Failures Are Your Best Stories\n\n↳ Name three lessons from each setback. Write them down.\n↳ Share lessons learned. Prevent repeat mistakes.\n\n7/ Ikigai: Finding Your Purpose\n\n↳ Track what energizes you. Reorganize your calendar around it.\n↳ Map skills to market needs. Improve your market value.\n\nI've seen hundreds transform their work with these principles.\n\nI applied Shoshin when I started posting on LinkedIn 2 years ago.\n\nYou can too with 120 post ideas + my AI writing prompts: https://lnkd.in/gKzZUq-b\n\n—\n\n♻ Repost to help your network transform the way they work.\n\n➕ Want more? Follow me Will McTigheMcTighe",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1783850403448,
+        "date": "2026-07-12T10:00:03.448Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "7 Japanese Concepts To Transform Your Work",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQEIRn12Wpwtdg/feedshare-document-chunked-pdf/B4DZ9Tp9FzK8Bk-/0/1783814939085?e=1785877200&v=beta&t=hfPaKGNd6m_1I_2NUL5f_BrbP0-_tOr8fQvtdoBc5AY",
+        "coverPages": [
+          {
+            "width": 1544,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4D1FAQEIRn12Wpwtdg/feedshare-document-cover-images_1920/B4DZ9Tp9FzK8BQ-/0/1783814940325?e=1785877200&v=beta&t=YZR_aFG5zuXmx-48aSCgjQrDGVoqddsl5wx6QAeHXrY",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQEIRn12Wpwtdg/feedshare-document-cover-images_1920/B4DZ9Tp9FzK8BQ-/1/1783814940325?e=1785877200&v=beta&t=zez_ao91TFHNkhYjKbnmBjT1vUJ92olLlMytNofC22k",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQEIRn12Wpwtdg/feedshare-document-cover-images_1920/B4DZ9Tp9FzK8BQ-/2/1783814940325?e=1785877200&v=beta&t=Rtr9NLfjN2R9K-OPo79sIsKv4qTNAWWBQBJSCGrWroA"
+            ],
+            "height": 1930
+          }
+        ],
+        "totalPageCount": 9,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQEIRn12Wpwtdg/feedshare-document-master-manifest/B4DZ9Tp9FzK8BY-/0/1783814940325?e=1785877200&v=beta&t=TgkqpOyYCiuuIgpjdgpkk8Cn6JbWqV8YcjuSwBmSq5c",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4D1FAQEIRn12Wpwtdg",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQEIRn12Wpwtdg/feedshare-document-transcript/B4DZ9Tp9FzK8A0-/0/1783814940325?e=1785974400&v=beta&t=MLWRYjDdOOg1UjxoL22cS7gpsssh6OW5BlmK2QOFhqw",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQEIRn12Wpwtdg/feedshare-document-pdf-analyzed/B4DZ9Tp9FzK8AY-/0/1783814940325?e=1785974400&v=beta&t=sWIp4d-cd3h1uiRBimyTZLlTWFFUR6RN3ZuEf2xfmwc",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 133,
+              "height": 166,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQEIRn12Wpwtdg/feedshare-document-images_160/B4DZ9Tp9FzK8Ac-/0/1783814940325?e=1785974400&v=beta&t=RGBWGgsoXtUavtWMCuJG_eUF7RUma4JuKBH11DW9GtU"
+            },
+            {
+              "width": 388,
+              "height": 486,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQEIRn12Wpwtdg/feedshare-document-images_480/B4DZ9Tp9FzK8Ag-/0/1783814940325?e=1785974400&v=beta&t=4mEmX2dsDcwqlp2tfMwMLM3jcChsjoi5j3-4Nhh5ZXA"
+            },
+            {
+              "width": 1544,
+              "height": 1930,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQEIRn12Wpwtdg/feedshare-document-images_1920/B4DZ9Tp9FzK8Ao-/0/1783814940325?e=1785974400&v=beta&t=mPQDGAuPV_ut5InFpvh_SneTUsex3ow31vjb7dDuLoY"
+            },
+            {
+              "width": 1033,
+              "height": 1291,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQEIRn12Wpwtdg/feedshare-document-images_1280/B4DZ9Tp9FzK8AQ-/0/1783814940325?e=1785974400&v=beta&t=ghfrnGbFnZyCvLhUIX7ey_KQkOq3hl2YUp83Jfa-M80"
+            },
+            {
+              "width": 644,
+              "height": 805,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQEIRn12Wpwtdg/feedshare-document-images_800/B4DZ9Tp9FzK8Ak-/0/1783814940325?e=1785974400&v=beta&t=EQw9znrUE326wi51X3oekGvWr4UGq460DkpduZrThfs"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481862363336327169",
+        "likes": 803,
+        "comments": 375,
+        "shares": 67,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 701
+          },
+          {
+            "type": "EMPATHY",
+            "count": 46
+          },
+          {
+            "type": "INTEREST",
+            "count": 39
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481331436747177984",
+      "entityId": "7481331436747177984",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_tell-me-your-linkedin-problem-and-ill-tell-activity-7481331436747177984-t6jE",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481148838620119040",
+      "shareUrn": "urn:li:share:7481148838620119040",
+      "content": "Tell me your LinkedIn problem and I'll tell you what you're missing.\nNo sales? Slow growth? Low trust? \n\nEach one has a different fix:\n\nGrowing but nobody comments? Try Trust posts.\n\nGreat engagement but no leads? Write a Sales post.\n\nPosting daily and stuck at 2k followers? Double down on Grow posts.\n\nEvery LinkedIn problem maps to one of 3 post types:\n\n1/ Grow Post:\n\nThe goal of a Grow post is to get as many relevant viewers as possible. Do this by sharing one useful idea, clearly and uniquely enough that they stop scrolling.\nThink hot takes, quick tips, the stuff people didn't know they needed until they saw it.\n\nI built my first 100k followers mostly on posts like this, and most of them had zero personal story in them at all.\n\n2/ Trust Posts\n\nA Trust post gives someone the opportunity to actually care about YOU, not just your ideas.\n\nThat needs a bit more proof - you need to share personal experience, and a lesson you learned from it that anyone can take away.\n\nThis is where you show your process, your behind-the-scenes, the messy parts most people leave out. \"My wife quit her $250,000 job to work with me\" works because it's specific and real.\n\n3/ Sell Posts\n\nSell posts are the closers. Once someone recognizes you and trusts you, it’s time to give them a reason to buy from you.\n\nThink transformational client stories, before and after case studies, breaking down a process and showing how it works to create value.\n\nBefore you write your next post, ask yourself where your LinkedIn is falling short.\n\nThen choose 1 of these 3 posts as the fix.\n\n📌 Want a high-res version of this sheet?\n\nGet it here: https://lnkd.in/gKzZUq-b\n\n♻️ Repost to help your network write all three types of content.\n\n➕ Follow me (Will McTighe) for more like this.",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1783688410937,
+        "date": "2026-07-10T13:00:10.937Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQH0OMPnMJ9VJw/feedshare-shrink_1280/B4DZ9JhOc5IIAM-/0/1783644875306?e=1786579200&v=beta&t=RxXt7Jl7xVDCQx1KprkPQuwETWtSgsL5w5ys7CixVos",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481331436747177984",
+        "likes": 683,
+        "comments": 260,
+        "shares": 47,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 629
+          },
+          {
+            "type": "EMPATHY",
+            "count": 25
+          },
+          {
+            "type": "INTEREST",
+            "count": 24
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479882163543277568",
+      "entityId": "7479882163543277568",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_how-to-grow-on-linkedin-in-2026-activity-7479882163543277568-ig_W",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7478605912769900544",
+      "shareUrn": "urn:li:ugcPost:7478605912769900544",
+      "content": "It is STILL possible to grow on LinkedIn in 2026.\n If I was starting again, this is the system I’d use:\n\nMost people skip straight to the writing. They open a blank page and try to think of something extremely profound.\n\nBut if you want to grow, most of the work needs to be done before you open that blank page.\n\nHere's what to do:\n\n1/ Write 3 different types of posts\n\nEvery post has one job. Growth posts reach new people through broad topics. Trust posts show how a person actually thinks and works. Sales posts use proof to give people a reason to buy.\n\nGrowth posts have the best shot at going viral, but the other two are what make the audience worth having.\n\n2/ Identify your niche and stick to it\n\nPick a niche with valuable lessons to teach, then stay in that lane. Career development is a broad one that consistently does well.\n\nRandom, trend-driven posts might get a spike, but they attract followers who never come back.\n\n3/ Create a content funnel\n\nThe mix matters as much as the posts. Aim for 4 growth posts, 2 trust posts, and 1 sales post each week.\n\nGrowth gets broader reach but rarely sticks. Trust makes a creator feel like a real person. Sales targets the followers who are already ready to buy.\n\n4/ Choose proven post topics\n\nThere's no need to invent formats from scratch. Pick a trending topic or format in each category and adapt it to the niche.\n\nNewsjacking, educational posts, objection posts and case studies are all easy to do on any topic.\n\n5/ Nail every hook\n\nThe first 2 lines decide whether anyone reads the rest. I use 9 hook types, and the most reliable ones lead with real numbers, challenge what everyone believes, or say one thing whilst implying another.\n\nI spend at LEAST half the writing time on the hook alone.\n\n6/ Make your posts readable\n\nWrite the same way people speak, because no one wants to read an academic paper on LinkedIn. Follow a set structure based on the goal of your post. \n\nAvoid AI slop - people want to read YOUR thoughts, not Claude’s.\n\n7/ Prioritize quality visuals\n\nAny visual - infographic, carousel, video, selfie - can go viral. What matters most is that it’s high quality, striking enough to stop the scroll, and related to the content you’re posting about.\n\nGrowth on LinkedIn looks like luck from the outside.\n\nIn reality, it's seven decisions made before you press post.\n\n📌 Want a more detailed breakdown of how to build your personal brand?\n\nSign up here: https://lnkd.in/gKzZUq-b\n\n♻️ Repost to help your network grow on LinkedIn in 2026.\n\n➕ Follow me (Will McTighe) for more like this.",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1783342877279,
+        "date": "2026-07-06T13:01:17.279Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "How To Grow On LinkedIn In 2026",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQGn4P_mUHA4Kg/feedshare-document-chunked-pdf/B4EZ8lYXroIsBk-/0/1783038575874?e=1785877200&v=beta&t=kDtWrC4uOBIMUK5cTDmnXGvbXVDgCGDmPqepHUIyb0I",
+        "coverPages": [
+          {
+            "width": 1544,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4E1FAQGn4P_mUHA4Kg/feedshare-document-cover-images_1920/B4EZ8lYXroIsBQ-/0/1783038576762?e=1785877200&v=beta&t=k-fVNxMG6DIvMX2yo7St2OYTICi-GrYe8AzPp3NL6TA",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQGn4P_mUHA4Kg/feedshare-document-cover-images_1920/B4EZ8lYXroIsBQ-/1/1783038576762?e=1785877200&v=beta&t=ou2k9B-gbZUPbF-f6X1l-KwhboSr6RS_Kxe51GeRr1o",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQGn4P_mUHA4Kg/feedshare-document-cover-images_1920/B4EZ8lYXroIsBQ-/2/1783038576762?e=1785877200&v=beta&t=qu3gP8V1TeF80VrI2RZaII1jqjOmS8puCnl0SUmLQWE"
+            ],
+            "height": 1930
+          }
+        ],
+        "totalPageCount": 9,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGn4P_mUHA4Kg/feedshare-document-master-manifest/B4EZ8lYXroIsBY-/0/1783038576801?e=1785877200&v=beta&t=ZpsZafwY9g_5mYMxayyIlBZ9d142LRMFamS3BRsmJvY",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4E1FAQGn4P_mUHA4Kg",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQGn4P_mUHA4Kg/feedshare-document-transcript/B4EZ8lYXroIsA0-/0/1783038576801?e=1785974400&v=beta&t=WaMCVYm2VHp_7uM1K_hnnBIbud5i1zw815DfPRadqW4",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQGn4P_mUHA4Kg/feedshare-document-pdf-analyzed/B4EZ8lYXroIsAY-/0/1783038576801?e=1785974400&v=beta&t=LNmHinfbo3koNala2KtRIMdD-AjGYUZJBH68PEmgrzA",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 644,
+              "height": 805,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGn4P_mUHA4Kg/feedshare-document-images_800/B4EZ8lYXroIsAk-/0/1783038576801?e=1785974400&v=beta&t=2riIU7qMz7mL-R8VeIhZCf6stQLqnWsc_kvv43kSupg"
+            },
+            {
+              "width": 1033,
+              "height": 1291,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGn4P_mUHA4Kg/feedshare-document-images_1280/B4EZ8lYXroIsAQ-/0/1783038576801?e=1785974400&v=beta&t=hUidhH9ZqQfkHuF_fuTL3Rr_0g5kwX7IIGPYWfK3Paw"
+            },
+            {
+              "width": 1544,
+              "height": 1930,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGn4P_mUHA4Kg/feedshare-document-images_1920/B4EZ8lYXroIsAo-/0/1783038576801?e=1785974400&v=beta&t=qs__JVsr1r3_altUxF9DJcvhRrOX3o-PiwrWQUzAXLA"
+            },
+            {
+              "width": 388,
+              "height": 486,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGn4P_mUHA4Kg/feedshare-document-images_480/B4EZ8lYXroIsAg-/0/1783038576801?e=1785974400&v=beta&t=DOg0soznAFuWtVR13ElrZo83mPw9D6A9FbjFggnLt6o"
+            },
+            {
+              "width": 133,
+              "height": 166,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGn4P_mUHA4Kg/feedshare-document-images_160/B4EZ8lYXroIsAc-/0/1783038576801?e=1785974400&v=beta&t=-8rVUzWPuWI0e15oLkZXo3z1EEBGiIQCUW4fQTVV6Uk"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478605912769900544",
+        "likes": 507,
+        "comments": 335,
+        "shares": 16,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 439
+          },
+          {
+            "type": "EMPATHY",
+            "count": 25
+          },
+          {
+            "type": "INTEREST",
+            "count": 19
+          },
+          {
+            "type": "PRAISE",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 12
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482418620027920386",
+      "entityId": "7482418620027920386",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_airtablepartner-activity-7482418620027920386-UNAR",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7481450365020893184",
+      "shareUrn": "urn:li:ugcPost:7481450365020893184",
+      "content": "My expectations for my team would have gotten me fired 10 years ago.\n\nToday, they're completely possible. I run a small team and we produce output that would have needed 3x the people even 5 years ago.\n\nIf I'd demanded this from a team this size back at Goldman Sachs, HR would have been involved by Friday 😅.\n\nBut I ask for it every week and we hit it.\n\nMy team isn't superhuman (although they're pretty great).\n\nWe’ve just been able to set up automations for a lot of the basic repeatable work.\n\nThink first drafts of prep, invoices, follow-ups, status updates... these can easily eat 40% of everyone's week if you’re not careful.\n\nNow, you can use tools like Airtable instead.\n\nAI Field Agents sit inside your bases and work across every record at once. \n\nThey can chase overdue invoices, prep kickoff agendas, queue follow-ups, and flag anything slipping before a human (in my case Caroline Begleiter) notices it.\n\nYou set them up once and they keep running without you touching them.\n\nSo when I set expectations for my team, I'm setting them on the work that delivers results for our clients: sharper ideas and better writing.\n\nRather than clearing a bunch of admin.\n\nBuild agents for the work that repeats every week: https://lnkd.in/gjz9ewJW\n\n♻️ Repost to help your network expect more.\n\n➕ Follow me (Will McTighe) for more like this.\n\n#AirtablePartner",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1783947615630,
+        "date": "2026-07-13T13:00:15.630Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQFkZDQDk4BKcg/videocover-high/B4DZ9N1iSUJABM-/0/1783717310500?e=1785877200&v=beta&t=O29arrpzeuZZ5vgGRzZp6HWdFJXO6w_bAXOfGNkvq7s",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQFkZDQDk4BKcg/mp4-720p-30fp-crf28/B4DZ9N1iSUJAB8-/0/1783717313605?e=1785877200&v=beta&t=NHnKIFpxeU-segZ9Ha-RnoXL4CONEHnIDAcedKbTy58"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481450365020893184",
+        "likes": 290,
+        "comments": 234,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 254
+          },
+          {
+            "type": "EMPATHY",
+            "count": 21
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479157085730099200",
+      "entityId": "7479157085730099200",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_everything-america-has-given-me-my-wife-activity-7479157085730099200-rauc",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478917767174377472",
+      "shareUrn": "urn:li:share:7478917767174377472",
+      "content": "Everything America has given me:\n\n- My wife\n- My stepmom\n- A green card\n- Amazing friends\n- Interesting work\n- Clients I genuinely admire\n\nAnd much more. Happy America Day ✌️.",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1783170005257,
+        "date": "2026-07-04T13:00:05.257Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGv15sOI5EADw/feedshare-shrink_1280/B4EZ8p0E5YIcAU-/0/1783112946246?e=1786579200&v=beta&t=axyK9b64iaM4_Z72NKPdO-ZFuE60eMNg9LkJpr72vOs",
+          "width": 1278,
+          "height": 1636
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479157085730099200",
+        "likes": 505,
+        "comments": 211,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 411
+          },
+          {
+            "type": "EMPATHY",
+            "count": 59
+          },
+          {
+            "type": "PRAISE",
+            "count": 29
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479519678663569408",
+      "entityId": "7479519678663569408",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_if-youre-paying-for-5-ai-tools-to-run-your-activity-7479519678663569408-YkVi",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478612876690382848",
+      "shareUrn": "urn:li:share:7478612876690382848",
+      "content": "If you’re paying for >5 AI tools to run your business, replace them with Claude Connectors.\nIt will save you money AND time.\n\nYou don’t need one tool for writing, one for email, one for research, one for meeting notes.\n\nThe winning move is connecting Claude to the apps your business already runs on.\n\nI use my Claude Connectors multiple times a day, every day. These are the 7 I can’t live without:\n\n1/ Notion\n\nAll my content lives in Notion. I can write, edit, and check where every piece stands with a single prompt, because Claude works inside the workspace instead of me copying things back and forth.\n\n2/ Slack\n\nClaude reads my team's messages, summarizes the threads that matter, and flags what actually needs my attention. I stopped scrolling channels to figure out my priorities. Claude Agent lives in Slack. \n\n3/ Fireflies\n\nEvery meeting note is available to Claude in any conversation. I never paste in context or explain what was said on a call cuz it already knows.\n\n4/ Google Drive\n\nClaude finds the right file, summarizes it, and drafts new ones. The days of uploading documents or digging through folders are over.\n\n5/ Gmail\n\nMy inbox is crazy. Claude catches me up on long threads and drafts replies, so I respond in minutes instead of letting emails sit.\n\n6/ Claude in Chrome\n\nIt summarizes, extracts, and analyzes any website I'm on. It also runs desktop research for me, which changed how fast I can understand a new topic.\n\n7/ Zapier\n\nOne prompt triggers my automations. Work keeps moving whilst I'm away from my desk.\n\nOpen Claude. Connect the app that steals the most time from your day. Then get rid of the tools you don’t need.\n\n♻️ Repost to help your network take advantage of their Claude connectors.\n\n➕ Follow me (Will McTighe) for more like this.",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1783256454149,
+        "date": "2026-07-05T13:00:54.149Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHktvpWBmGzPg/feedshare-shrink_1280/B4EZ8leyKRJ0AM-/0/1783040255118?e=1786579200&v=beta&t=8HyCm1R5KdOzvb0QzRtSWFKXVAXo6BN6GHX4YYzYO3I",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479519678663569408",
+        "likes": 523,
+        "comments": 253,
+        "shares": 48,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 477
+          },
+          {
+            "type": "INTEREST",
+            "count": 24
+          },
+          {
+            "type": "EMPATHY",
+            "count": 16
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478070196038004736",
+      "entityId": "7478070196038004736",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_i-paid-1500-to-learn-how-to-build-a-personal-activity-7478070196038004736-MMXK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477901260927479808",
+      "shareUrn": "urn:li:share:7477901260927479808",
+      "content": "I paid $1500 to learn how to build a personal brand.\nThis is everything I learned:\n\nWhen most people start posting, they focus on the complete wrong thing.\nThey tweak the headline, switch niches, try a new format every week, write like they’re sending a formal memo and wonder why nothing sticks.\n\nIt makes posting really hard. But they just never got handed the rules, so they guess, and guessing does not compound.\n\nDoing it right comes down to 19 laws:\n\n1/ Solve one clear problem\n\nChoose one problem your audience actually cares about and keep coming back to it.\n\n2/ Treat your profile like a landing page\n\nShow what you do in five seconds or people bounce.\n\n3/ Give your headline one job\n\nSpell out who you help, what you help with, and one piece of proof.\n\n4/ Write longer posts\n\nGive the idea room instead of squeezing it into a caption.\n\n5/ Write like you speak\n\nRead every post out loud and cut anything that sounds stiff.\n\n6/ Post before you feel ready\n\nPublish now, watch the response, and make the next one better.\n\n7/ Teach with stories\n\nPull in real examples and case studies that show your method working.\n\n8/ Let your niche grow with you\n\nStart narrow, then widen once people know what you are good at.\n\n9/ Choose clear words\n\nStick to words people already know so every point is easy to repeat.\n\n10/ Give before you ask\n\nBuild one lead magnet that solves a narrow, painful problem and give it away for an email.\n\nCheck out the rest of the laws in the graphic 👆\n\n📌 Want a high-res version of this PDF?\n\nGet it here: https://lnkd.in/gKzZUq-b\n \n♻️ Repost to help your network build an unforgettable personal brand.\n\n➕ Follow me (Will McTighe) for more like this.",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1782910870561,
+        "date": "2026-07-01T13:01:10.561Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGyCfp9y4UAIg/feedshare-shrink_1280/B4EZ8bXkhaHAAM-/0/1782870592138?e=1786579200&v=beta&t=aBSGb-DA1IgwAYE00D3n5GYfitlrA6Z3Q-wYe-pQ7e4",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478070196038004736",
+        "likes": 893,
+        "comments": 312,
+        "shares": 107,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 819
+          },
+          {
+            "type": "EMPATHY",
+            "count": 34
+          },
+          {
+            "type": "INTEREST",
+            "count": 30
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483143433705058304",
+      "entityId": "7483143433705058304",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_most-people-defend-their-favorite-ai-like-activity-7483143433705058304-OwlP",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482956812984578048",
+      "shareUrn": "urn:li:share:7482956812984578048",
+      "content": "Most people defend their favorite AI like it's their football team.\nThat loyalty is costing them every single day.\n\nThey use the same tool for writing, research, data, and planning…even when another tool is clearly better for the job.\n\nSo I put ChatGPT, Claude, and Gemini head to head across 10 common tasks:\n\n1/ Image Gen\n\nGemini is the one built for this. Nano Banana Pro generates and edits images in up to 4K from a simple prompt.\n\nChatGPT's GPT Image 2 is solid too, and actually reasons before it draws. Claude still can't generate images.\n\nI use Gemini for infographic drafts, then make targeted edits in Saywhat.\n\n2/ Writing\n\nClaude writes the most natural, human sounding copy of the 3. Less \"AI voice,\" fewer generic transitions.\n\nIt’s my go to for first drafts of anything.\n\n3/ Doc Analysis\n\nAll three can handle huge documents now, so pick based on the job.\n\nI use Claude when the details matter, like contracts. Gemini for massive docs and databases. ChatGPT for quick one-off analysis.\n\n4/ Data Analysis\n\nChatGPT is the one to open here. Drop in a CSV and it builds charts and runs analysis live in the chat.\n\nClaude builds interactive charts and real files too. Gemini reads CSVs and exports straight to Google Sheets.\n\n5/ Projects & Skills\n\nClaude makes this the easiest. Projects hold your docs, and Skills turn repeat prompts into reusable workflows. I have a skill for editing my newsletter.\n\nChatGPT's custom GPTs do something similar but need a more technical setup. Gemini's Gems hold 10 files, tied to Drive.\n\n6/ Brainstorming\n\nClaude is the strongest for open ended thinking. It's my go to for stress testing a new idea or learning a new topic.\n\nGemini is solid too when paired with Google Search.\n\n7/ App Integration\n\nClaude connectors are my favorite Claude feature. 400+ apps, so my entire tech stack works inside Claude with no extra setup. I have Slack, Notion, Figma, Fireflies, and a few more connected.\n\nChatGPT has apps now, but they're hit or miss. Gemini is deep in Google and thin everywhere else.\n\n8/ Automation\n\nCowork runs tasks on Claude in the background while I do something else. Any task I repeat every week is now handled by Cowork.\n\nChatGPT's agent mode works but asks for check-ins a lot. Gemini's scheduled actions cap out at 10.\n\n9/ Complex Instructions\n\nClaude stays consistent even in long chats, especially in Projects. It won't drift from the original brief.\n\nChatGPT follows the rules at first, then slips the longer the conversation runs.\n\n10/ Memory\n\nClaude is strongest inside Projects, where it holds context for one specific piece of work.\n\nChatGPT stores context globally, which is useful, just less structured. Gemini's Personal Context learns about you as you chat.\n\nMy rule is simple: the task picks the tool.\n\n📌 Want a high-res PDF of this sheet?\n\n Get it here: https://lnkd.in/gKzZUq-b\n\n♻️ Repost to let your network know they don't have to stay loyal to one tool\n\n➕ Follow me (Will McTighe) for more like this",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1784120424677,
+        "date": "2026-07-15T13:00:24.677Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHcDE9ub0eEoQ/feedshare-shrink_1280/B4DZ9jNkclKYAM-/0/1784075930030?e=1786579200&v=beta&t=WOvkjOnb4ID_zTxukbyJJlUZGd66ljHdO6XXNsyUUr0",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483143433705058304",
+        "likes": 1777,
+        "comments": 386,
+        "shares": 156,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1623
+          },
+          {
+            "type": "INTEREST",
+            "count": 88
+          },
+          {
+            "type": "EMPATHY",
+            "count": 49
+          },
+          {
+            "type": "PRAISE",
+            "count": 11
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481693786516119552",
+      "entityId": "7481693786516119552",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_you-can-use-claude-to-write-content-in-your-activity-7481693786516119552-oLD7",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481515833295564800",
+      "shareUrn": "urn:li:share:7481515833295564800",
+      "content": "You CAN use Claude to write content in your voice (instead of slop).\nThis is the exact system I use:\n\nMost people assume that if you let AI write, you get slop.\n\nAnd they're right…if you just open the chat box and start typing prompts.\nBut you can set Claude up to write like YOU. And if you do it right, people can't tell the difference.\n\nIt just takes a bit of work upfront.\n\nHere's how to do it:\n\nStep 1: Turn on memory\n\nGo into Claude’s settings and turn memory on. This way Claude can build and update its memory as your style evolves, rules change, and standards increase.\n\nStep 2: Create a dedicated project\n\nSet up one project just for your content. Mine is completely separate from anything else I do, so it stays focused on one job - writing like me.\n\nStep 3: Add your raw materials\n\nUpload call transcripts, YouTube video transcripts, and your best work.\n\nChoose the ones where the tone, pacing, and examples feel closest to how you want to write now. Claude needs to see what “good” looks like before it can copy it.\n\nStep 4: Have Claude build your voice file\n\nAsk Claude to build one file - voice.md - from everything you uploaded.\n\nIt will summarize all the elements that will make the output sound like how you speak.\n\nMine has a whole section just for words I've banned myself from using, like quietly and leveraged 🤮.\n\nStep 5: Read everything and push back\n\nThis is the most important part, and most people skip it. Never just accept what it gives you. Tell it exactly what's off.\n\nI never say \"make it better.\" I say something like \"this line's too formal, I'd never say it like that.\"\n\nStep 6: Update your project every month\n\nCome back every few months. Add new posts, emails, and call transcripts. Cut the ones that don't sound like you anymore.\n\nI do this every 4-6 weeks because my style today isn't my style from a year ago.\n\nAn afternoon of work, and you never sound like a robot again.\n\n📌 Want a high-res PDF of this sheet?\n\nGet it here: https://lnkd.in/gKzZUq-b\n\n♻️ Repost so fewer people post slop this week.\n\n➕ Follow me (Will McTighe) for more like this",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1783774801854,
+        "date": "2026-07-11T13:00:01.854Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHdtOWmRPXXRQ/feedshare-shrink_1280/B4DZ9Ou___I4AM-/0/1783732372033?e=1786579200&v=beta&t=TrppVos0okbVIR0LOzQVzt904MWoabKakRGlb7WAdu4",
+          "width": 1280,
+          "height": 1590
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481693786516119552",
+        "likes": 674,
+        "comments": 274,
+        "shares": 55,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 598
+          },
+          {
+            "type": "INTEREST",
+            "count": 34
+          },
+          {
+            "type": "EMPATHY",
+            "count": 24
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 12
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477345361762799616",
+      "entityId": "7477345361762799616",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_most-personal-brands-are-forgettable-the-activity-7477345361762799616-vBNt",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477158820243255296",
+      "shareUrn": "urn:li:share:7477158820243255296",
+      "content": "Most personal brands are forgettable.\nThe memorable ones have 4 things figured out:\n\n1/ Their niche\n2/ Their profile\n3/ Their content mix\n4/ They actually talk to the people who show up\n\nStart doing this and in 30 days, the right people will remember you.\n\nHere is the exact plan:\n\n1/ Fix your profile\n\n- Use a high quality, close-up photo with a solid background.\n- Write your headline: who you help + how you help + proof.\n- Use bullets in your About section to be clear what you can offer your audience, then end with a call to action.\n- Put your lead magnets, like templates or courses, in your Featured section.\n- Direct your custom button to your main offer. This will show on EVERY post.\n\nThe goal: people should know within seconds why they should follow you.\n\n2/ Find your niche\n\n- Write down your skills, your experience and the results you can drive.\n- Pick one type of person who would benefit from that knowledge.\n- Choose one painful problem they need solved.\n- Name the clear solution only you can offer them.\n- Put it together: \"I help [who] solve [problem] so they can [result].\"\n- Use that sentence as a north star in your content.\n\n\"Career advice\" is easy to forget. \"Helping mid-level professionals land more interviews\" is memorable.\n\n3/ Create your content mix\n\n- Share news from your niche and explain why it matters.\n- Write about a common problem and show a new perspective.\n- Teach one useful lesson people can apply that day.\n- Tell stories from your life that have a valuable takeaway.\n- Share useful resources like how-to guides and carousels people will want to save.\n- Answer the objections that stop people from buying.\n\nSome posts help new people find you. Some give them a reason to trust you. And some convince them to buy from you. No post should do all 3.\n\n4/ Build your network\n\n- This takes about 60 minutes a day.\n- Comment on 5–10 posts in your niche before your post goes live.\n- Add a real thought, example or question to each one.\n- Once your post is live, reply to every comment.\n- Send a short, personal message to the people who regularly engage.\n- Connect with creators at your level in your niche.\n\nThis is probably the most important piece - creating real connection with your audience is the fastest way to become memorable to them.\n\n📌 Want a high-res version of this PDF?\n\n Get it here: https://lnkd.in/gKzZUq-b\n\n♻️ Repost to help your network build an unforgettable personal brand.\n\n ➕ Follow me (Will McTighe) for more like this.",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1782738056603,
+        "date": "2026-06-29T13:00:56.603Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGYf_0dMX4VJw/feedshare-shrink_1280/B4EZ8Q0U0yJEAM-/0/1782693580635?e=1786579200&v=beta&t=39XALpBQPF58GAbzzz1IN3ptiHPOz-pH6vHVxIFEoYI",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477345361762799616",
+        "likes": 1029,
+        "comments": 316,
+        "shares": 104,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 947
+          },
+          {
+            "type": "EMPATHY",
+            "count": 35
+          },
+          {
+            "type": "INTEREST",
+            "count": 32
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480969286178488320",
+      "entityId": "7480969286178488320",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_zapierpartner-activity-7480969286178488320-I-fn",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480729623006396416",
+      "shareUrn": "urn:li:share:7480729623006396416",
+      "content": "There's 9,000+ ways to get more from Claude.\nSet them all up in 10 mins:\n\nMost people don’t know that Claude can connect to 9,000+ apps through Zapier MCP.\n\nThis is the full setup:\n\n1/ Go to https://lnkd.in/dbTUvQfr\n\n2/ Login and paste this prompt into Claude:\n\nConnect to Zapier MCP for me. If I haven't already connected to Zapier, prompt me to install the connector. After the connector is installed, use the Zapier MCP list skills tool to find the onboarding skill then run it to set me up in a flash!\n\n3/ Follow the prompts to select your tools\n\nThat's it. Zapier handles all the authentication.\n\nFor example, I just used Zapier to set up a Beehiiv connector. Now I can draft my newsletters, analyze performance data, and manage my subscribers without leaving the Claude chat.\n\nSave this for when you set it up this weekend.\n\n♻️ Repost to help your network end copy and pasting!\n\n➕ Follow me (Will McTighe) for more like this.\n\n#ZapierPartner",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1783602067513,
+        "date": "2026-07-09T13:01:07.513Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQH1SdhgNP3ZLQ/feedshare-shrink_1280/B4DZ9Dj866IYAM-/0/1783544926438?e=1786579200&v=beta&t=89rDs-8yw5TB4gOG33Optjm66vTmRx9hie-zttDlpo0",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480969286178488320",
+        "likes": 517,
+        "comments": 251,
+        "shares": 38,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 472
+          },
+          {
+            "type": "INTEREST",
+            "count": 24
+          },
+          {
+            "type": "EMPATHY",
+            "count": 15
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480606666871263232",
+      "entityId": "7480606666871263232",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_my-wife-quit-her-250000year-job-to-work-activity-7480606666871263232-3rcN",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480375032607674368",
+      "shareUrn": "urn:li:share:7480375032607674368",
+      "content": "My wife quit her $250,000/year job to work with me.\nThe question we get asked most:\n\"How do you divide work and personal life?\"\n\nWe don't.\nWhy do we need to?\nWe get to build a business together.\n\nWe have a great team.\nOur work is unbelievably fun.\nSo for us, everything just merges.\n\nWe work on Sundays.\nWe talk about hooks over dinner.\nMost people hear this and assume it sounds like a nightmare.\n\nFor some people, I'm sure it would be.\nBut for us, it's great. It's the best work setup I've ever had.\n\nAlthough Caroline will still tell me to shut up in the evenings when I won't stop talking about work.\n\nSo it's not perfect 😅.\nBut I wouldn't trade it for anything.",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1783515612333,
+        "date": "2026-07-08T13:00:12.333Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHTS16CRWvxuw/feedshare-shrink_1280/B4DZ8.hc3qKYAM-/0/1783460386009?e=1786579200&v=beta&t=YmnDLdED1MGqc7IDYKF37QIvEuHqP6nE9sIkErmoFuI",
+          "width": 1280,
+          "height": 1612
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480606666871263232",
+        "likes": 618,
+        "comments": 324,
+        "shares": 10,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 500
+          },
+          {
+            "type": "EMPATHY",
+            "count": 82
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 18
+          },
+          {
+            "type": "PRAISE",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478795002408673280",
+      "entityId": "7478795002408673280",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_i-spent-3538-flying-my-new-hire-adelaide-activity-7478795002408673280-8EMZ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478564064139395072",
+      "shareUrn": "urn:li:share:7478564064139395072",
+      "content": "I spent $3,538 flying my new hire, Adelaide, 5,000 miles for 6 days together.\nI've done this with every new hire at WM Media.\n\nWe're a remote team and we do most things through a screen. But there are 2 things that are much better in person:\n\nThe first is getting to know clients.\n\nWe help iconic leaders of iconic companies. Leaders of companies that are defining their industries, and you really feel that when you meet them.\n\nBut it's much harder to get that through a screen. So Adelaide and I drove out into rural Colorado, to visit one of our clients' sites.\n\nWe walked the site and got a tour of their manufacturing facility. Then the CEO sat down with us and told the story firsthand: what the company is trying to do, and why our work matters to it.\n\nOnce you've stood in the building and met the people, the work has a face.\n\nThe second is training.\n\nIn our line of work - world-class exec storytelling - the craft is learned through reps. Working remotely, I might give feedback 1-2x a day.\n\nWhen we're sitting next to each other, I can turn and give feedback 3 or 4 times an hour :).\n\nThat's so important in the early days!\n\nThe flexibility of remote is great, but nothing replaces being in the same room.\n\n➕ Follow me (Will McTighe) for more like this.",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1783083677866,
+        "date": "2026-07-03T13:01:17.866Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHcXYj0eqxPLg/feedshare-shrink_1280/B4EZ8kyYzRKQAM-/0/1783028616946?e=1786579200&v=beta&t=lmtnW3vYLIQ7oZfZRMy6bgsSbbj0j3EkWYrnEVWnCqY",
+          "width": 1280,
+          "height": 1548
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478795002408673280",
+        "likes": 516,
+        "comments": 233,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 440
+          },
+          {
+            "type": "EMPATHY",
+            "count": 40
+          },
+          {
+            "type": "PRAISE",
+            "count": 22
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477707688055902210",
+      "entityId": "7477707688055902210",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_stop-running-claude-on-habits-you-set-months-activity-7477707688055902210-nJps",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477512333372760064",
+      "shareUrn": "urn:li:share:7477512333372760064",
+      "content": "Stop running Claude on habits you set months ago.\nIt’s slowing you down. And costing you tokens.\n\n11 of them have a simpler replacement now.\n\nHere's what to swap:\n\n1/ Split up the infinitely long chat\n\nCreate one Project for each type of work, with its own files, instructions, and memory.\n\n2/ Stop repeating basic preferences\n\nSet your global instructions once, so Claude already knows how you like to work.\n\n3/ Keep reference files in one place\n\nAdd the files you use often to a Project knowledge base instead of uploading them every time.\n\n4/ Delete your giant prompt library\n\nBuild a custom Skill for complex tasks you do often, so you are not searching for the right prompt each time.\n\n5/ Let Claude help build the prompt\n\nAsk Claude to interview you first, then turn your answers into a clear set of instructions.\n\n6/ Embrace your Connectors\n\nConnect the apps you use every day and reference them as much as possible.\n\n7/ Review Claude’s memory\n\nCheck what Claude has saved, then edit or delete anything that is old, wrong, or no longer useful.\n\n8/ Keep drafts inside Claude\n\nUse Artifacts when you need to edit a document, PDF, or page without copying it into another tool.\n\n9/ Schedule repeat work\n\nUse scheduled tasks in Cowork for work you do manually every week.\n\n10/ Match the chat to the job\n\nUse Web Search for current facts and Incognito chats when the work should not be saved to history or memory.\n\nThe goal of these swaps is fewer things to explain, upload, search for, and fix.\n\n📌 Want content like this before anyone else?\n\nSign up here: https://lnkd.in/gKzZUq-b\n\n♻️ Repost to help your network swap these habits too.\n\n➕ Follow me (Will McTighe) for more like this.",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1782824441923,
+        "date": "2026-06-30T13:00:41.923Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGgWLvmFjc0rQ/feedshare-shrink_1280/B4EZ8V12EZIsAM-/0/1782777865029?e=1786579200&v=beta&t=L4Bs4iTAQtvoCCda9p5zByorpGcUcwl-LlJ1om21HsQ",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477707688055902210",
+        "likes": 679,
+        "comments": 269,
+        "shares": 55,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 626
+          },
+          {
+            "type": "INTEREST",
+            "count": 24
+          },
+          {
+            "type": "EMPATHY",
+            "count": 20
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476982822147297280",
+      "entityId": "7476982822147297280",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_how-to-create-your-second-brain-that-works-activity-7476982822147297280-xnUV",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7476812508528357377",
+      "shareUrn": "urn:li:share:7476812508528357377",
+      "content": "How to create your second brain\n(That works even when you’re tired):\n\nMost people paste a prompt into ChatGPT and hope for the best.\n\nThe best are focused on giving it CONTEXT.\n\nAI doesn't know you. It doesn't know how you talk, what you've done, or what makes you different.\n\nSo it defaults to corporate buzzword soup.\n\nYou need to build what I call a \"Second Brain\" - a folder that teaches AI how to be you. It takes less than an hour to set up.\n\nThen AI thinks and writes exactly like you forever.\n\nHere's how:\n\nStep 1: Download the Claude App\n\nGo to claude(.)ai, create an account (if you don't already have one) and download it for your desktop. (You need Pro or up version for this)\n\nStep 2: Open Cowork Mode\n\nClick the \"Cowork\" tab at the top. This is your permanent workspace where all your context lives.\n\nStep 3: Select Your Model\n\nChoose Opus 4.6 as your default. Turn on extended thinking too. It's the best at following instructions and capturing voice.\n\nStep 4: Share Your Stories\n\nUse voice-to-text (I use Wispr Flow) and dump 5-10 stories. Failures, wins, turning points. Keep adding more as you grow.\n\nStep 5: Pinpoint Your Strengths\n\nAdd your IP - I shoved all my best infographics, YouTube videos and newsletters in there. Include the frameworks you use, what’s your process, what your customers want from you etc.\n\nUse this prompt to create the .txt files:\n“Turn this into a clean .txt file with labeled sections. Keep my voice, don't add anything new [paste your content here].”\n\nStep 6: Document How You Think\n\nYour actual hot takes that can create haters. No lukewarm opinions. This is what makes you YOU.\n\nStep 7: Define Your Voice\n\nWords you use a lot (\"cuz,\" \"honestly\"). Words you'd NEVER use (“vacations,” “quietly” 🤮). How you actually talk vs how AI sounds.\n\nStep 8: Use This Prompt\n\nI'm sharing the exact prompt I use in the comments. It creates an interactive \"Second Brain\" that thinks, talks and writes like you.\n\nMost people will read this, save it and forget about it.\nBe the one who builds this today.\n\n📌 Want a high res version of this?\nGet it here: https://lnkd.in/gKzZUq-b\n\n♻️ Repost to help network stop sounding like a robot.\n\n➕ Follow me (Will McTighe) for more like this.",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1782651620423,
+        "date": "2026-06-28T13:00:20.423Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGmrvjbE3k8Bw/feedshare-image-high-res/B4EZ8L5W2.H8AU-/0/1782611013798?e=1786579200&v=beta&t=kcx-8vIPzD8wjk-8SEm2Ms-zP5-nie1Ytqd7oCf0ybk",
+          "width": 1094,
+          "height": 1358
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7476982822147297280",
+        "likes": 833,
+        "comments": 304,
+        "shares": 96,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 765
+          },
+          {
+            "type": "INTEREST",
+            "count": 35
+          },
+          {
+            "type": "EMPATHY",
+            "count": 16
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478432316348932096",
+      "entityId": "7478432316348932096",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_the-ceos-i-work-with-run-companies-worth-activity-7478432316348932096-EASu",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7478246674121961472",
+      "shareUrn": "urn:li:ugcPost:7478246674121961472",
+      "content": "The CEOs I work with run companies worth >$60 billion.\nAnd they STILL review their own LinkedIn posts...\n\nWhy? Because they know what most execs learn too late:\n\nThat every candidate, buyer, and investor searches your name before they meet you.\n\nYour personal brand already exists. The only question is whether they like what they find.\n\nIt matters in 3 places:\n\n1/ Hiring. \n\nThe best people take offers from companies with leaders they already trust.\nContent even improves employee retention - in larger companies, your team are more likely to read your posts than listen to you in all hands meetings!\n\n2/ Customers. \n\nIn AI right now, buyers have no idea how to choose between products. They all look great in demos.\n\nSo often, buyers are driven by social signals instead. They choose the people they feel like they already know and who share helpful thoughts on socials.\n\n3/ Investors. \n\nInvestors are often driven by FOMO. Stay top of mind and show that you're moving fast.\n\nIn this video, I break down exactly what to post for each of these 3 goals, which platform to start on, and how to tell it's working.\n\nFull breakdown here: https://lnkd.in/ecMENW2K\n\n♻️ Repost to help your company win on LinkedIn.\n\n ➕ Follow me (Will McTighe) for more like this.",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1782997206771,
+        "date": "2026-07-02T13:00:06.771Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQFczAkGLnz-uw/videocover-low/B4EZ8gRwU8IkBI-/0/1782952956934?e=1785877200&v=beta&t=CJIyLy2ETdSe3xFQrlyiDGo9DCgpox_y0_Abph7P6cc",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQFczAkGLnz-uw/mp4-720p-30fp-crf28/B4EZ8gRwU8IkB8-/0/1782952960320?e=1785877200&v=beta&t=wlPJl0a0GWTKR8eqCGdqSIAEOzC2VsV_NVnUkdgx3mw"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478246674121961472",
+        "likes": 275,
+        "comments": 233,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 240
+          },
+          {
+            "type": "EMPATHY",
+            "count": 17
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487492055276089345",
+      "entityId": "7487492055276089345",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_messy-career-read-this-when-we-look-activity-7487492055276089345-11zU",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487320829282750464",
+      "shareUrn": "urn:li:share:7487320829282750464",
+      "content": "Messy Career? \nRead this: 👇\n\nWhen we look at our LinkedIn feed, everyone's career looks perfect. \nA straight line to success.\n\nBut there is so much that we're all hiding:\n• The failed projects. \n• The career U-turns. \n• The \"what was I thinking?\" moments.\n\nTruth is, we're all figuring it out. \nAnd in 2026, that's just normal. \nEmbracing it is even an advantage.\n\nWhy? \nBecause the most interesting opportunities come from unexpected places. \nThe skills you think are \"irrelevant\" today might be your edge tomorrow.\n\nBut we still: \n• Hide our failures \n• Delete old job titles \n• Pretend each move was \"strategic\"\n\nStop.\n\nAnd remember: \n• Every pivot adds to your toolkit. \n• Every failure makes you stronger. \n• Every \"mess\" teaches you resilience.\n\nThe people winning right now aren't doing everything perfectly.\n\nThey're learning from every turn. \nThey're building while others doubt. \nThey're connecting the dots others miss.\n\nYour messy career isn't a bug. \nIt's a feature.\n\nOwn it.\n\nOne of my craziest career decisions? \nPosting on LinkedIn.\n\n📌 Want to do the same? \n\nHere are 120 post ideas to get started: https://lnkd.in/gKzZUq-b\n\n♻️ Repost if you're proud of your non-linear path\n\n➕ Follow me (Will McTighe) for more like this.",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1785157216853,
+        "date": "2026-07-27T13:00:16.853Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGI1skVgdbuDQ/feedshare-shrink_1280/B4DZ.hOnobGYAM-/0/1785116392577?e=1786579200&v=beta&t=7E1hvVpihHNlpkHJee1an_4iTjlfyGt3DpVSX8yp-5A",
+          "width": 1274,
+          "height": 1598
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487492055276089345",
+        "likes": 3647,
+        "comments": 466,
+        "shares": 229,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3213
+          },
+          {
+            "type": "EMPATHY",
+            "count": 268
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 90
+          },
+          {
+            "type": "PRAISE",
+            "count": 56
+          },
+          {
+            "type": "INTEREST",
+            "count": 19
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483505854357594113",
+      "entityId": "7483505854357594113",
+      "linkedinUrl": "https://www.linkedin.com/posts/will-mctighe_7-steps-to-build-an-unforgettable-personal-activity-7483505854357594113-oFBb",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483290213629489152",
+      "shareUrn": "urn:li:ugcPost:7483290213629489152",
+      "content": "Everybody says \"build a personal brand.\"\nNobody tells you where to actually start.\n\nMost people do 1 of 2 things. They either post random thoughts and hope something sticks, or they never start at all.\n\nBoth get you to the same place…nowhere.\n\nIn reality, the whole thing comes down to 7 steps:\n\nStep 1: Fix your profile\n\nYour banner, photo, headline, About and Featured sections should tell one story. who you help, what you help them do, and where to go next.\n\nIf a stranger can't work that out in 5 seconds, they bounce.\n\nStep 2: Pick your niche\n\nOne person, one problem. Fill in this line: \"I help [who] do [what] so they can [outcome].\"\n\nSaywhat started because I was spending too much time on LinkedIn instead of my actual work. I solved my own problem first, then found the people who shared it.\n\nStep 3: Build a topic bank\n\nKeep a running list of the real problems your audience complains about, the outlier posts in your niche, and the stories only you can tell. That list alone is months of content.\n\nStep 4: Adapt what already works\n\nFind posts in your niche that performed 2x better than average. Then adapt the topic, format or design for your audience.\n\nADAPT is the important word here. Don't copy. Make it your own!\n\nStep 5: Write posts people save\n\nLead with proof. Name the pain and make it sting a little. Then give people 1-3 things they can do tomorrow. Useful posts get saved… and saved posts get you remembered.\n\nStep 6: Set your content mix\n\nEvery post has ONE job. Post to grow your audience most days, post to build trust twice a week, post to convert once a week.\n\nStep 7: Turn attention into relationships\n\nReply to every comment in the first hour. DM the people who keep showing up. Comment on other people's posts like a human, not a lead-gen bot.\n\nYou don't need all 7 on day one. Start with your profile this week and work down the list.\n\nIn a few months, you'll have what most people never build: a brand that works while you sleep.\n\n♻️ Repost to help your network build an unforgettable personal brand.\n\n➕ Follow me (Will McTighe) for more like this.",
+      "author": {
+        "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "universalName": null,
+        "publicIdentifier": "will-mctighe",
+        "type": "profile",
+        "name": "Will McTighe",
+        "linkedinUrl": "https://www.linkedin.com/in/will-mctighe?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+        "info": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+        "website": "https://saywhat.ai/?utm_source=linkedin&utm_medium=button",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHfewdNeSW3cA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713325412845?e=1786579200&v=beta&t=vIpoqAfnz20UUsfJt8OL-Jh_uUrgR_ylectPkE72OD4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "161180605"
+      },
+      "postedAt": {
+        "timestamp": 1784206832494,
+        "date": "2026-07-16T13:00:32.494Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "7 Steps To Build An Unforgettable Personal Brand",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHj8SQUOt0-rQ/feedshare-document-url-metadata-scrapper-pdf/B4DZ9n8ae2J8A4-/0/1784155320694?e=1785877200&v=beta&t=NkDJABjpx-FShIdDLQQQGqFUdxs7wbJNNKr10xTEQnc",
+        "coverPages": [
+          {
+            "width": 1544,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHj8SQUOt0-rQ/feedshare-document-cover-images_1920/B4DZ9n8ae2J8BQ-/0/1784155321838?e=1785877200&v=beta&t=95SarUkC51IXxsxXKe7HYhpU7yMXRAX441T-w3PaU64",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHj8SQUOt0-rQ/feedshare-document-cover-images_1920/B4DZ9n8ae2J8BQ-/1/1784155321838?e=1785877200&v=beta&t=LZwhJYm3J_MExyk8u73dYCWZGBfgnNp_j7pbuxpYnX4",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHj8SQUOt0-rQ/feedshare-document-cover-images_1920/B4DZ9n8ae2J8BQ-/2/1784155321838?e=1785877200&v=beta&t=FrhYYVi98sFNMnvF9m3F3wsUsAWWZJZ8ZTchMzKYQj4"
+            ],
+            "height": 1930
+          }
+        ],
+        "totalPageCount": 10,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHj8SQUOt0-rQ/feedshare-document-master-manifest/B4DZ9n8ae2J8BY-/0/1784155321880?e=1785877200&v=beta&t=XjCpMB_A6Q-gbES_clHCnf2CHC82J18dEfn7MNLiJOA",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4D1FAQHj8SQUOt0-rQ",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHj8SQUOt0-rQ/feedshare-document-transcript/B4DZ9n8ae2J8A0-/0/1784155321880?e=1785974400&v=beta&t=d4-8OWCJP697X2Grk9YZ65yUhWClKryC_oNplWy-c0o",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHj8SQUOt0-rQ/feedshare-document-pdf-analyzed/B4DZ9n8ae2J8AY-/0/1784155321880?e=1785974400&v=beta&t=2Ohaz3OloBZ8Igndw6ql7fUbpcHVu3GsybEAT7rrX28",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 388,
+              "height": 486,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHj8SQUOt0-rQ/feedshare-document-images_480/B4DZ9n8ae2J8Ag-/0/1784155321880?e=1785974400&v=beta&t=_L1th4DlcsQi0-zRJVL0L2lYTSo3ivCTg_CkGGm9ajU"
+            },
+            {
+              "width": 644,
+              "height": 805,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHj8SQUOt0-rQ/feedshare-document-images_800/B4DZ9n8ae2J8Ak-/0/1784155321880?e=1785974400&v=beta&t=3cDFOPIUngwwlbZJ0J6YgB3FFQFpv8M1Xn9Q_e2srTg"
+            },
+            {
+              "width": 1544,
+              "height": 1930,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHj8SQUOt0-rQ/feedshare-document-images_1920/B4DZ9n8ae2J8Ao-/0/1784155321880?e=1785974400&v=beta&t=QT38wyHr44TDGs98mqhETDOF9yJoju8beCiDyRDxllc"
+            },
+            {
+              "width": 133,
+              "height": 166,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHj8SQUOt0-rQ/feedshare-document-images_160/B4DZ9n8ae2J8Ac-/0/1784155321880?e=1785974400&v=beta&t=bix_8wn4CX9cyfelXz6nBGgs1StDNKrFmpJHKVg-3WY"
+            },
+            {
+              "width": 1033,
+              "height": 1291,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHj8SQUOt0-rQ/feedshare-document-images_1280/B4DZ9n8ae2J8AQ-/0/1784155321880?e=1785974400&v=beta&t=vOvXVs9CPCj9TofsXGf3P0NyOi2ZfM7A1lqMNGwFp-Q"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483290213629489152",
+        "likes": 609,
+        "comments": 392,
+        "shares": 36,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 541
+          },
+          {
+            "type": "EMPATHY",
+            "count": 37
+          },
+          {
+            "type": "INTEREST",
+            "count": 14
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/will-mctighe",
+        "sessionId": "2713d63a-bfa4-4bb6-b2fb-a1bb96bd4bdd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487461709415251968",
+      "entityId": "7487461709415251968",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_half-the-tasks-eating-your-day-could-be-done-activity-7487461709415251968-EAys",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487461708249063424",
+      "shareUrn": "urn:li:share:7487461708249063424",
+      "content": "Half the tasks eating your day could be done in a fraction of the time.\nThe tool you reach for is the problem.\n\nEvery common task, from research to note-taking to writing, has a slow way to do it and a faster one that produces something sharper.\n\nThe upgrade almost always comes from pairing two tools instead of leaning on one.\nA single tool gets you a usable result, and the right second one fills the gap the first leaves behind.\n\nFor deep research, Perplexity pulls the sources in seconds while NotebookLM turns them into something you can build an argument from.\n\nFor meeting notes, a plain notes app captures what was said, but Granola hands you the summary and the action items before you have left the call.\n\nFor writing, Claude lays down the structure while saying it out loud through Wispr Flow keeps the words sounding like you.\n\nSwap one tool on the task that eats your day and watch how much time comes back.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1785149981836,
+        "date": "2026-07-27T10:59:41.836Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEwQM1FCsaT9w/feedshare-shrink_1280/B4DZ.jOvxHJ4AM-/0/1785149980211?e=1786579200&v=beta&t=CM-WZbEzKNAZ89vBv2JXsPs_CrsP6C52Hu-mTmpoViY",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487461709415251968",
+        "likes": 83,
+        "comments": 68,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 65
+          },
+          {
+            "type": "EMPATHY",
+            "count": 12
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486374674264944641",
+      "entityId": "7486374674264944641",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_claude-can-run-your-entire-sales-stack-from-activity-7486374674264944641-8WRF",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486374671416975360",
+      "shareUrn": "urn:li:share:7486374671416975360",
+      "content": "Claude can run your entire sales stack from one chat.\nThe thing that makes that possible is a connector.\n\nA connector links Claude straight to a tool you already use, so it reads from that tool and works inside it without you copying anything across.\n\nYou turn one on from the plus button inside Claude, then Connectors.\nPick the tool, sign in once, and it stays on for every chat after that.\n\nThese eight are worth connecting if your day runs on outreach and pipeline.\n\n1. Google Drive - finds the battlecard or case study you need mid-conversation.\n2. Attio - keeps your pipeline current without you touching a field.\n3. Slack - catches you up on a channel and drafts the reply.\n4. FullEnrich - gets you a verified number when a prospect goes quiet.\n5. Gamma - turns a rough idea into a deck you can send.\n6. Notion - brings your playbook into the chat while you work the deal.\n7. Granola - writes up the call you just finished with the next steps.\n8. lemlist - builds and sends your outbound from the same conversation.\n\nTurn on the two or three that match how you work and let Claude handle the moving around.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1784890812460,
+        "date": "2026-07-24T11:00:12.460Z",
+        "postedAgoShort": "4d",
+        "postedAgoText": "4 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGPdFSLtfRAmA/feedshare-shrink_1280/B4DZ.TyGCSIYAM-/0/1784890810975?e=1786579200&v=beta&t=egk4z0nVjbov9v8UPHIzLEZqZY0E6rkiRK2y3VVd44w",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486374674264944641",
+        "likes": 92,
+        "comments": 38,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 70
+          },
+          {
+            "type": "EMPATHY",
+            "count": 12
+          },
+          {
+            "type": "INTEREST",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485287477159784448",
+      "entityId": "7485287477159784448",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_your-next-buyer-is-reading-your-linkedin-activity-7485287477159784448-N1TJ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485259945135894529",
+      "shareUrn": "urn:li:ugcPost:7485259945135894529",
+      "content": "Your next buyer is reading your LinkedIn right now.\nThey will decide before they ever reply.\n\nThe product is where founders spend all their attention, and it is only half the job.\n\nThe other half is happening on LinkedIn, whether you show up for it or not.\n\nHalf of B2B buyers open LinkedIn before they ever take a sales call (they are reading your posts, checking how you talk about your own space, deciding in about eight seconds whether you sound like someone worth a reply).\n\nPresence is what makes everything downstream easier.\nBy the time your message reaches them, the name already looks familiar from the feed, so the reply comes back warmer and the call opens with someone who walked in already knowing your take.\n\nSo the founders pulling ahead build presence on purpose.\nThey write about the reasoning behind a real product decision, or a deal that fell apart and what it cost them, because that is the thing a buyer remembers when your name shows up in their inbox two weeks later.\n\nInbound closes at 14.6%. Cold outbound closes at 1.7%.\nThat gap is the difference between chasing people and having them show up already half-convinced.\n\nFindable and worth trusting in the exact place your buyer is already looking.\nYou do not have to be a content creator to get there.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1784631604471,
+        "date": "2026-07-21T11:00:04.471Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQFONyP4JJLEeg/videocover-low/B4DZ.D8TdLJwBQ-/0/1784625054864?e=1785877200&v=beta&t=36axwHCS04aos9chikBQgdc2xfp1tx1FGvYnteIQRq0",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQFONyP4JJLEeg/mp4-720p-30fp-crf28/B4DZ.D8TdLJwCQ-/0/1784625058765?e=1785877200&v=beta&t=WY4NslL23DOcNc4hXrjox_-kX8-YQhjrvMcJJ0P0Yl8"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485259945135894529",
+        "likes": 117,
+        "comments": 44,
+        "shares": 9,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 85
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 19
+          },
+          {
+            "type": "EMPATHY",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483476730188304384",
+      "entityId": "7483476730188304384",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_every-sales-task-has-an-ai-that-beats-the-activity-7483476730188304384-dzsK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483476728988721152",
+      "shareUrn": "urn:li:share:7483476728988721152",
+      "content": "Every sales task has an AI that beats the others at it.\nThe trick is knowing which tool wins which task.\n\nHere's the split that works.\n\nClaude handles prospect research and call prep because it holds multiple sources in memory at once and builds full briefs without losing context halfway through.\n\nGrok catches buying signals on X in real time: hiring surges, funding rounds, product launches, and competitor complaints.\n\nNotebookLM is where you learn from your own calls. Upload transcripts and it pulls out what objections came up and how they were handled. Everything is cited.\n\nChatGPT generates visual sales materials like one-pagers and proposal visuals faster than building from scratch.\n\nGemini works natively inside Google Workspace so if your pipeline lives in Sheets or your email threads are in Gmail, it analyzes everything without you exporting a single file.\n\nUse each for what it's built for.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1784199888751,
+        "date": "2026-07-16T11:04:48.751Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEDt2ZNB3qu5w/feedshare-shrink_1280/B4DZ9qmbj7GYAM-/0/1784199887729?e=1786579200&v=beta&t=bmXV8vSdwbee_ysL0WEqUYFi31z6kMP2AwRoFeV_W9c",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483476730188304384",
+        "likes": 155,
+        "comments": 79,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 136
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "INTEREST",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483113223844478976",
+      "entityId": "7483113223844478976",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_your-prospects-delete-your-emails-faster-activity-7483113223844478976-9kO6",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483091126183268352",
+      "shareUrn": "urn:li:share:7483091126183268352",
+      "content": "Your prospects delete your emails\nfaster than you delete pizza flyers.\n\nThe flyer at least targets someone who orders pizza.\nYour email targets a job title.\n\nAfter years in sales, here is the most valuable thing I learned:\n\nEvery deal starts with two things.\n\n1. The right keyword, placed as early as possible in your pitch or your email.\n2. The right timing.\n\nLet me explain why timing became an obsession for me.\nOver the last five years I sold for Deel and for cyber startups.\n\nDeel has several products, and each one matches a precise moment in a company's life cycle. A company opening an office abroad has a need that did not exist a month earlier. Catch that moment and the situation dictates the pitch.\n\nSame in cybersecurity: a fresh fundraise means shipping faster, hiring in waves, and a growing surface to attack.\n\nKnowing this changed nothing about how hard it was.\nCatching these moments was fully manual, and honestly discouraging. On 200 cold calls, you land on a good timing once, if you are lucky. Same odds on 500 or 1,000 cold emails.\n\nThe technique was right and the job still felt like a lottery.\n\nIn 2026, hoping you arrived at the right moment is no longer a strategy you're allowed to have. The tools exist now.\n\nThat's what I use lemlist agents for. \n\nI pick the signals that matter for my business (a fundraise, an office opening, a hiring spree on a specific role) and they scan daily. \n\nWhen one fires, the lead lands in my campaign, and the signal tells me both things at once: which words to open with, and that today is the day to reach out.\n\nSince I made the switch, my cold email open rate went from 18% to 61%. And the same shift happened on my cold calls, because opening with the right keyword at the right moment works on the phone even better than in writing.\n\nBut the numbers are not even the real change.\n\nI do a third of the volume I used to, and I close more than I ever did, because I spend my weeks talking to people instead of trying to talk to people.\n\nAnd there is a side effect nobody mentions: confidence. Sending 500 emails into the void and dialing 150 numbers a week where nothing is happening quietly destroys yours. Reaching out where something just happened means getting taken seriously on almost every touch, and that changes how you sell everything.\n\nThe volume was never my problem. Arriving after the signature was.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1784113222085,
+        "date": "2026-07-15T11:00:22.085Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEHt2mTrHM-Kw/feedshare-image-high-res/B4DZ9lHuoUK0AU-/0/1784107953157?e=1786579200&v=beta&t=WbmvJd0GJU4f04zKpEbxy-P2fxKmu1u84KpRjJmlp18",
+          "width": 1612,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483113223844478976",
+        "likes": 575,
+        "comments": 141,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 402
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 117
+          },
+          {
+            "type": "EMPATHY",
+            "count": 25
+          },
+          {
+            "type": "INTEREST",
+            "count": 15
+          },
+          {
+            "type": "PRAISE",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487824175533834241",
+      "entityId": "7487824175533834241",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_linkedin-is-the-second-most-cited-domain-activity-7487824175533834241-yZqW",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487819399664664577",
+      "shareUrn": "urn:li:share:7487819399664664577",
+      "content": "LinkedIn is the second most cited domain on the internet right now.\n\nSemrush analysed 89,000 LinkedIn URLs cited by ChatGPT, Perplexity, and Google AI Mode.\n\n11% of all AI responses reference LinkedIn.\nOnly one domain gets cited more.\n\nWhen AI cites your post, it mirrors it almost exactly.\nSemantic similarity scores of 0.57 to 0.60, higher than Reddit and Quora.\nYour words show up in AI answers the way you wrote them.\n\nHere is what gets cited:\n\n- Original posts. 95% of cited content is original. Reshares barely register.\n- Educational content. Over half of all cited posts are knowledge or advice-driven.\n- Mid-length posts. 50 to 299 words is the sweet spot for feed posts.\n\nHere is who gets cited:\n\n- Authors who post 5 or more times a month.\n- Authors with 2000 or more followers.\n- Posts with 15 to 25 reactions on average.\n\nPeople are searching on ChatGPT and Perplexity every day.\nLinkedIn is one of the first places AI looks for answers.\nPosting consistently here is how you show up in those answers.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1785236400493,
+        "date": "2026-07-28T11:00:00.493Z",
+        "postedAgoShort": "9h",
+        "postedAgoText": "9 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQE5_PZlfIbEkg/feedshare-image-high-res/B4DZ.oUENwGwAY-/0/1785235260710?e=1786579200&v=beta&t=JInp13n7apc0NdWBbWtuNWUFTO4CltyBgeDQJ7AYA50",
+          "width": 800,
+          "height": 1000
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487824175533834241",
+        "likes": 56,
+        "comments": 50,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 45
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482750859399946240",
+      "entityId": "7482750859399946240",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_fable-5-builds-better-skills-than-any-other-activity-7482750859399946240-Ln7d",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482741670573420544",
+      "shareUrn": "urn:li:share:7482741670573420544",
+      "content": "Fable 5 builds better skills than any other Claude model.\nFor sales, that means skills you build now with Fable keep running long after access ends.\n\nFable processes context and reasons through problems at a level that Opus and Sonnet can't match yet.\n\nThese 4 sales skills are worth building with Fable while you have access:\n\n1. /prospect-research takes a LinkedIn URL and company name and gives you a full brief with role summary, priorities, pain points, and recent signals. Fable holds all sources in memory at once, whereas Sonnet starts dropping context.\n\n2. /qualify-any-lead scores any prospect against your ICP and tells you whom to spend time on before you waste 20 minutes on someone who was never a fit.\n\n3. /pipeline-risk-check flags which deals are slipping, why, and what action to take this week. Fable reasons through each deal individually instead of pattern matching.\n\n4. /analyze-lost-deals takes notes from 10-20 lost deals and finds patterns in why they fell through so the same mistakes stop repeating.\n\nBuild these with Fable. \nRun them on any model after.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1784026827669,
+        "date": "2026-07-14T11:00:27.669Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFy3QCA8IlXyA/feedshare-shrink_1280/B4DZ9gJ5UjJ8AM-/0/1784024635165?e=1786579200&v=beta&t=f1s2ZHEmIt9f1SLBoaR6Sw7uZHx_WW1oN5gKPTCbDsY",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482750859399946240",
+        "likes": 122,
+        "comments": 47,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 104
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484925126455496704",
+      "entityId": "7484925126455496704",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_i-lost-more-deals-to-my-inbox-than-to-competitors-activity-7484925126455496704-zDZS",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483104695503446016",
+      "shareUrn": "urn:li:share:7483104695503446016",
+      "content": "I lost more deals to my inbox than to competitors.\n\nEvery time my pipeline looked bad, I ran the same ritual. \nFriday night, inbox open, calendar open, scrolling through weeks of calls looking for one thing: the follow-ups I never sent.\n\nAnd I found them. Every time. \nA great call, a prospect saying \"we'll get back to you\" or \"timing isn't quite right yet\", and then nothing. No email. Or one email with the info they asked for, then silence.\n\nJust by reaching back out, I booked meetings and closed deals. Which means the ones I never caught are still out there. Deals I lost without ever knowing they existed.\n\nYou can be great at sales and still miss this. Run 7 calls in a day, let one big deal eat your whole week, and things slip. You're human.\n\nI don't run that Friday ritual anymore. I keep Granola open during my calls. \nIt's an AI notepad, no bot popping into the meeting, and it takes the notes for me while I stay focused on the prospect.\n\nThe second I hang up, it's all there. Clean notes, what I promised to send, and the follow-up already drafted, exactly the way a good follow-up should be. I read it, change a word or two, send.\n\nEven on the days when I'm running from call to call, the follow-up goes out. And a prospect who gets a sharp, personal email minutes after we hang up notices. It says something about how seriously you take their business. \n\nI'm never going back. The results speak for themselves.\n\nDeals don't die in my inbox anymore.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1784545213331,
+        "date": "2026-07-20T11:00:13.331Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQErqcXci7YyBg/feedshare-image-high-res/B4DZ9lUETDJwAU-/0/1784111187627?e=1786579200&v=beta&t=Rpiy85Xm21hj10V4IHGPtBzXlMDohQjCN9BFd-9RqVY",
+          "width": 2000,
+          "height": 993
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484925126455496704",
+        "likes": 94,
+        "comments": 70,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 67
+          },
+          {
+            "type": "EMPATHY",
+            "count": 14
+          },
+          {
+            "type": "INTEREST",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480214037620998144",
+      "entityId": "7480214037620998144",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_your-next-deal-is-already-looking-at-your-activity-7480214037620998144-JbV-",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480195954550321154",
+      "shareUrn": "urn:li:share:7480195954550321154",
+      "content": "Your next deal is already looking at your LinkedIn profile.\nThe question is whether it's convincing them or losing them.\n\nWhen someone sees your post, clicks your profile, reads your headline, scrolls your featured section, and then DMs you, that entire path happens because your brand did the work before you said a word.\n\nActive personal brands on LinkedIn receive 47% more inbound than inactive ones. \nThat gap comes down to whether your niche, content, and profile are aligned.\n\nYour niche decides everything. If someone visits your profile and can't describe what you do in one sentence, nothing else matters.\n\nYour content pillars keep you consistent so the algorithm learns who your posts are for.\n\nWhen your profile, content, and engagement all say the same thing about you, people remember you.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1783422002225,
+        "date": "2026-07-07T11:00:02.225Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGRm9iMP8QwkA/feedshare-shrink_1280/B4EZ87.lVyJEAM-/0/1783417689913?e=1786579200&v=beta&t=VvVVIGYOQfWtddrBkWaTBGQOvcKusXY-3G3PRagVeHE",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480214037620998144",
+        "likes": 133,
+        "comments": 59,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 117
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480938883380252673",
+      "entityId": "7480938883380252673",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_harvard-is-offering-free-ai-courses-right-activity-7480938883380252673-WLhG",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480934935323717633",
+      "shareUrn": "urn:li:share:7480934935323717633",
+      "content": "Harvard is offering free AI courses right now.\n\nThese go deep into how generative AI works, how to prompt it properly, and how to build systems around it.\n\n1. Introduction to Generative AI - Harvard Kennedy School\nHow AI models are trained, what they can do, and where they break down.\n→ https://lnkd.in/eQgUMNzt\n\n2. Prompt Engineering - Harvard Kennedy School\nHow to write prompts that get consistent results instead of generic outputs.\n→ https://lnkd.in/efSxirhP\n\n3. Beyond Chatbots: System Prompts & RAG - Harvard Kennedy School\nHow production-level AI systems stay accurate using retrieval pipelines and system design.\n→ https://lnkd.in/eXXzAm_u\n\n4. Generative AI in Teaching & Learning - Harvard Playlist\nHow AI is being used in education with faculty-led discussions on literacy and ethics.\n→ https://lnkd.in/eCypEV8y\n\n5. Teaching with AI in the Classroom - Harvard Business Publishing\nHow to redesign assessments and build human-AI collaboration for capability building.\n→ https://lnkd.in/eMMTTdhg\n\n6. The Basics of Generative AI - Harvard Kennedy School\nHow AI fits into strategy, regulation, risk, and responsible implementation.\n→ https://lnkd.in/eYHTd-yf\n\nStart with 1 and 2 if you want the fundamentals. \nStart with 3 if you have the basics down and want to understand how real AI systems are built.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1783594818921,
+        "date": "2026-07-09T11:00:18.921Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQF6XCnPDlkhfA/feedshare-shrink_1280/B4EZ9GermjKIAM-/0/1783593876392?e=1786579200&v=beta&t=0Xsap4wEQeXeRCFmUVSOsMwh-upDpYFq9T5ZVZiNEUI",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480938883380252673",
+        "likes": 370,
+        "comments": 42,
+        "shares": 79,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 338
+          },
+          {
+            "type": "EMPATHY",
+            "count": 13
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483837995863719936",
+      "entityId": "7483837995863719936",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_only-1-of-linkedin-users-post-regularly-activity-7483837995863719936-n7fF",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483834743210471424",
+      "shareUrn": "urn:li:share:7483834743210471424",
+      "content": "Only 1% of LinkedIn users post regularly.\nAnd that 1% generates 9 billion impressions every week.\n\nMore than 97% of people on LinkedIn consume content without ever creating it. Posting even once a week already puts you ahead of almost everyone on the platform.\nPosting 3-5 times per week with a clear niche and the right tools behind you compounds visibility in a way that's hard to replicate through any other channel.\n\nPersonal profiles generate 8x more engagement than company pages posting the same content, which means your personal brand carries further than a company page doing the same work.\n\nThe barrier to starting is lower than it has ever been. The tools are free or cheap.\nIf you want to start, the best time is now.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1784286021200,
+        "date": "2026-07-17T11:00:21.200Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQF8RODCWWqw1w/feedshare-shrink_1280/B4DZ9vsCtgI8AM-/0/1784285244815?e=1786579200&v=beta&t=UubankMU5u1eC4FAiLOzzL-RrndAXkcWoWoBKQFYHdA",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483837995863719936",
+        "likes": 148,
+        "comments": 43,
+        "shares": 13,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 132
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482388375245840384",
+      "entityId": "7482388375245840384",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_repeating-the-same-prompt-is-why-your-tokens-activity-7482388375245840384-F80r",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482388374192881665",
+      "shareUrn": "urn:li:share:7482388374192881665",
+      "content": "Repeating the same prompt is why your tokens run out in 2 hours.\nSkills eliminate that.\n\nBuild a Skill once in 5 minutes and Claude loads it automatically every time that task comes up.\nVoice, audience, format, and rules are already loaded before you type a word.\n\nInstead of re-explaining context every conversation, Skills hold everything permanently and Claude starts working immediately.\n\nThese 15 cover writing, research, planning, data cleanup, and daily workflow.\nBuild them once and they run forever.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1783940404712,
+        "date": "2026-07-13T11:00:04.712Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQE2D0UfL8nWmQ/feedshare-shrink_1280/B4DZ9bIk1FHgAM-/0/1783940403235?e=1786579200&v=beta&t=bkbIXSpSihoIwwQZLZnWN9ESvwPPKQYWLvb-jgFXNVc",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482388375245840384",
+        "likes": 246,
+        "comments": 89,
+        "shares": 23,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 223
+          },
+          {
+            "type": "INTEREST",
+            "count": 11
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478764593067114497",
+      "entityId": "7478764593067114497",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_you-can-build-a-full-linkedin-carousel-without-activity-7478764593067114497-BAe7",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478764591796125696",
+      "shareUrn": "urn:li:share:7478764591796125696",
+      "content": "You can build a full LinkedIn carousel without opening a design tool first.\n\nClaude now connects directly to Canva. That means you can go from idea to a full Canva template in under 10 minutes.\n\nHere's the setup:\n\n1. Connect Canva. Go to your Claude dashboard, click Customize, open Connectors, and connect Canva to Claude.\n\n2. Open Design. Back on your dashboard, a new feature appears on the left called Design. Open it.\n\n3. Start your project. Create a project, name it, and select High fidelity.\n\n4. Upload your inspiration. Upload screenshots of a carousel style you like. Claude learns from them.\n\n5. Let Claude build it. Ask Claude to create a Canva template based on your inspiration. Wait a couple of minutes and your design is ready.\n\nYou get a full Canva template that you can customize and reuse for every carousel going forward.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1783076427714,
+        "date": "2026-07-03T11:00:27.714Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFaT5tCNurUNg/feedshare-shrink_1280/B4EZ8nowysIwAM-/0/1783076425439?e=1786579200&v=beta&t=rWCDQfGKJ1LsvRu1Na_12VcCGYlxiHa1EG1ORdjMH3w",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478764593067114497",
+        "likes": 162,
+        "comments": 41,
+        "shares": 12,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 143
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480576525701005313",
+      "entityId": "7480576525701005313",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_access-to-claude-fable-5-on-paid-plans-has-activity-7480576525701005313-xdvj",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480576524312612865",
+      "shareUrn": "urn:li:share:7480576524312612865",
+      "content": "Access to Claude Fable 5 on paid plans has been extended till July 12th.\nAfter that, it moves to usage credits at $10/$50 per million tokens.\n\nFable 5 sits in Anthropic's new Mythos class, a tier above Opus. It leads knowledge work benchmarks and handles complex reasoning that used to require a team of analysts.\n\nYou have a few more days with the most powerful Claude model at no extra cost. Here are 5 things worth doing before the window closes:\n\n1. Feed it your biggest mess. If you have years of scattered files, notes, and documents, give them all to Fable in one session. It handles massive context better than any other model and can organize everything you throw at it.\n\n2. Build systems that outlast Fable access. Create reusable project instructions, templates, and workflows inside Claude Projects. When you drop back to Opus or Sonnet, those systems keep running without Fable.\n\n3. Have Fable audit how you use Claude. Ask it to review your current projects, instructions, and workflows. It tells you what's inefficient and what needs fixing so every future session runs smoother.\n\n4. Have Fable teach you how it thinks. Ask it to walk through its reasoning step by step and save that breakdown. Use it to write better prompts for Opus and Sonnet going forward.\n\n5. Have Fable stress-test your ideas. Give it your business plan, strategy, or pitch and ask it to find every hole and blind spot. Its reasoning is deep enough to challenge your thinking at a level other models can't.\n\nThe window closes July 12th. Use it while it's included.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1783508426118,
+        "date": "2026-07-08T11:00:26.118Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFc3_D9LqusJQ/feedshare-image-high-res/B4EZ9BYtZiJEAU-/0/1783508424804?e=1786579200&v=beta&t=snG1Y-T2QLQcA2Ab4uT7xYPkCTPHdhw1ThVVyxvtglc",
+          "width": 1658,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480576525701005313",
+        "likes": 110,
+        "comments": 53,
+        "shares": 9,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 100
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478402155973058560",
+      "entityId": "7478402155973058560",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_each-linkedin-format-does-a-different-job-activity-7478402155973058560-EZxl",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478402154752454657",
+      "shareUrn": "urn:li:share:7478402154752454657",
+      "content": "Each LinkedIn format does a different job.\nPicking the right one for the right message changes how far your content travels.\n\nCarousels, infographics, text, and video all perform differently on LinkedIn. \nThe tools and process for each one are also completely different.\n\n1. Carousels drive the highest engagement on LinkedIn at 7% because every swipe counts as a signal and keeps people on your post longer.\n\n2. Infographics fit everything in one image which makes them easier to share and screenshot for later.\n\n3. Text posts have the lowest barrier to create and 51% of LinkedIn users say they prefer reading text over any other format.\n\n4. Video has lower reach than carousels but viewers are twice as likely to visit your profile and connect with you.\n\nTry all four and see what works for your audience.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1782990015977,
+        "date": "2026-07-02T11:00:15.977Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQE1gXEtcJTGrQ/feedshare-shrink_1280/B4EZ8ifIb5IkAM-/0/1782990014917?e=1786579200&v=beta&t=L-u3J0ic5AkfVyYDkSaDdbhs-3guaBL61SCLzNVOI3c",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478402155973058560",
+        "likes": 159,
+        "comments": 46,
+        "shares": 10,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 136
+          },
+          {
+            "type": "EMPATHY",
+            "count": 12
+          },
+          {
+            "type": "INTEREST",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477678179864784896",
+      "entityId": "7477678179864784896",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_i-was-good-at-running-sales-calls-that-was-activity-7477678179864784896-p1jo",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477678176836706304",
+      "shareUrn": "urn:li:share:7477678176836706304",
+      "content": "I was good at running sales calls.\nThat was the problem.\n\nEvery sales call is two battles.\n\nOne is with yourself.\n(You want to perform, and not forget the thing that matters.)\n\nThe other is closing the deal.\n→ And the first one keeps breaking the second.\n\nFor years I chased the perfect call.\nI shaped every word for the person across from me.\nI pushed in every detail so they missed nothing.\n\nThe whole time, I was doing one thing. I was trying to control the call.\n\nI always thought that was the job.\nYou're the one leading, so you open, you say what you're going to cover, you push it where you want it to go.\n\nAnd then a few times I just didn't.\nI let the call breathe.\nThose calls went completely differently.\n\nI couldn't tell you why.\n\n→ I didn't get it until I started talking with the AI of Claap.\n(Claap records all my sales calls.)\n\nBefore Claap, I'd leave a call convinced it went well. Then it ghosted.\nNow I go back and ask the AI: \"Where did I lose them?\"\nIt keeps flagging the same 8-minute window. Every time, I was talking. They were trying to tell me something.\n\nOne call, a prospect said \"we've looked at this before.\"\nI jumped straight into why we're different.\nThe AI showed me he kept circling back to that line. He wasn't comparing tools. A past rollout had burned him, and he needed to know I wouldn't be the next one.\n\nSo now I just let them.\nI let them take me to WHY they showed up.\n\nAnd it's always better than whatever I'd planned to say.\n\nI used to talk 60% of the call. Now it's closer to 30%.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1782817406622,
+        "date": "2026-06-30T11:03:26.622Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHQp8NBgSXa5A/feedshare-image-high-res/B4EZ8YMrUkJIAY-/0/1782817404610?e=1786579200&v=beta&t=ywTFG1G40RjqOEg5AcVAa9R-C0hgMJ2tRPsdXBtiiRI",
+          "width": 1605,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477678179864784896",
+        "likes": 257,
+        "comments": 89,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 211
+          },
+          {
+            "type": "EMPATHY",
+            "count": 18
+          },
+          {
+            "type": "INTEREST",
+            "count": 16
+          },
+          {
+            "type": "PRAISE",
+            "count": 10
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478040518346817536",
+      "entityId": "7478040518346817536",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_linkedins-algorithm-changed-completely-in-activity-7478040518346817536-30jf",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478040516991844354",
+      "shareUrn": "urn:li:share:7478040516991844354",
+      "content": "LinkedIn's algorithm changed completely in early 2026.\nHere's what it measures now.\n\n360Brew replaced the entire old ranking system. It's a 150-billion-parameter AI model that reads your profile, your post, and how people engage with it before deciding who sees your content.\n\nHere's what changed:\n\n1. Saves carry 5x the weight of a like and 2x the weight of a comment. Content people bookmark travels further than anything that gets a quick like and scroll.\n\n2. Your first 90 minutes after posting decide 70% of your total reach. Post when your audience is online or the algorithm never gets the early signals it needs.\n\n3. Dwell time matters more than reactions. Someone reading for 60 seconds tells the algorithm more than 50 people who tapped like without reading.\n\n4. Your profile headline, About section, and experience feed into every single post you publish. 360Brew checks your credibility before it distributes your content.\n\nThis is what decides if 100 people see your post or 10,000.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1782903794848,
+        "date": "2026-07-01T11:03:14.848Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEoDqUIuJspUQ/feedshare-shrink_1280/B4EZ8dWOelHAAM-/0/1782903794060?e=1786579200&v=beta&t=B6_1bKNsHt-U9E9FK3NwOHziszuWhkUR6uvSNB3aVVA",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478040518346817536",
+        "likes": 226,
+        "comments": 89,
+        "shares": 13,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 189
+          },
+          {
+            "type": "INTEREST",
+            "count": 14
+          },
+          {
+            "type": "EMPATHY",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476227983838490624",
+      "entityId": "7476227983838490624",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_youre-burning-through-claude-tokens-in-2-activity-7476227983838490624-SrqK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7476227982567747586",
+      "shareUrn": "urn:li:share:7476227982567747586",
+      "content": "You're burning through Claude tokens in 2 hours of work.\n\nWhen you jump between different tasks in one conversation, tokens stack fast. Every new request carries all the old work with it. Disabled tools eat 55,000 tokens before you type anything.\n\nHere's what changes it:\n\n1. Start fresh conversations between different tasks\nDon't paste old work into new conversations. Old context keeps piling up on every turn.\n\n2. Reference instead of copying entire documents\nPoint Claude to what you need instead of pasting full pages. Claude opens it and you save tokens.\n\n3. Pick Haiku for quick work, Sonnet for everyday, Opus for strategy\nOpus costs five times more than Haiku. Wrong model for routine tasks burns your quota fast.\n\n4. Disable tools you're not using\nFive idle integrations cost 55,000 tokens of overhead before you start.\n\n5. Your window resets every 5 hours\nEnd and restart when it does. Don't run sessions into hour six.\n\n6. Trim documents to what matters\nDon't paste everything. Paste only what you actually need for the task.\n\n7. Keep instructions concise\nEvery line gets reprocessed with every message you send.\n\n8. Use batch API for large documents\nCosts half the standard rate for big generation work.\n\n9. Turn off extended thinking for routine work\nUse it for hard problems. Disable it for straightforward writing.\n\n10. Use Projects instead of pasting everything\nClaude pulls what it needs instead of you dumping your entire context.\n\nYour tokens stretch further when you design work around how Claude consumes them.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1782471652946,
+        "date": "2026-06-26T11:00:52.946Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQH2V79ZIvQvbg/feedshare-shrink_1280/B4EZ8Dlu6bJEAM-/0/1782471651544?e=1786579200&v=beta&t=GKQ4boJn9mopMm1YwtWa_N-ZcHSEEKmS1LANtTVBap8",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7476227983838490624",
+        "likes": 103,
+        "comments": 29,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 85
+          },
+          {
+            "type": "INTEREST",
+            "count": 9
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479851677945315328",
+      "entityId": "7479851677945315328",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_top-performers-book-1-meeting-a-day-this-activity-7479851677945315328-_upD",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479468756591751168",
+      "shareUrn": "urn:li:share:7479468756591751168",
+      "content": "Top performers book 1 meeting a day.\nThis has always been my goal. \n\nI don't log off until that meeting is booked.\n\nNow you'll say I must never log off then, lol. But no.\n\nThis is a system that took me 2 years to build.\n\nThe pipeline I needed was already buried in my own CRM.\n\nHere's the routine I run every morning with Attio, and the prompts I use.\n\n\n✦ Play 1: the calls I already had\n\nMy warmest meeting of the day is usually someone who already sat on a call with us and then went quiet.\n\nSo before touching any cold list, I open Ask Attio and type:\n\n→ \"Show me every person who had a meeting with our team, has no open deal, and no activity in the last 60 days.\"\n\nAttio syncs my calendar and logs every meeting straight onto the record, so it hands me a clean list of people I owe a follow-up.\n\nI reopen the thread, reference something specific from our last call, and ask for 15 minutes.\n\nThat follow-up move books more meetings for me than any cold sequence ever has.\n\n\n✦ Play 2: the movers\n\nThis one prints meetings.\n\nWhen someone who already bought from us lands at a new company, they show up with budget and a reason to bring us along.\n\nAttio keeps enriching my contacts in the background, so when a past customer changes company, the move surfaces on the record instead of slipping by.\n\n→ \"Which of our closed-won contacts changed companies recently?\"\n\nThat's a list of champions walking into fresh budgets.\n\nOne warm follow-up, one meeting.\n\n\n✦ Play 3: the funded accounts\n\nI don't only recycle old conversations. Some mornings I want a brand new logo.\n\nAttio enriches company records with funding data, so I can filter accounts that fit our ICP and have real money behind them.\n\n→ \"Show me companies in my target market that have raised over $5M and that we've never contacted.\"\n\nA funded account means the budget is already there. I just need a reason to be relevant right now.\n\nI qualify two or three, then reach out with something tied to what they just raised for.\n\nTry it yourself: https://lnkd.in/enqX6TSr\n\nNothing here is clever.\n\nIn 2026 you'd have to be a little crazy to spend your days updating Salesforce by hand.\n\nI just talk to my CRM now, like I'd talk to an LLM.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1783335608946,
+        "date": "2026-07-06T11:00:08.946Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFwma-b6KiEHQ/feedshare-shrink_1280/B4EZ8xpMx1JMAQ-/0/1783244312058?e=1786579200&v=beta&t=UGiyamn8FrvFPCWzJioncVpx8PX-jqwq2CyV22begj0",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479851677945315328",
+        "likes": 144,
+        "comments": 70,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 98
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 15
+          },
+          {
+            "type": "INTEREST",
+            "count": 13
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477314973463949313",
+      "entityId": "7477314973463949313",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_your-linkedin-profile-ranks-your-posts-now-activity-7477314973463949313-zz8H",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477311188788391936",
+      "shareUrn": "urn:li:share:7477311188788391936",
+      "content": "Your LinkedIn profile ranks your posts now.\nEvery section on your profile feeds into how your posts get distributed.\n\nLinkedIn's algorithm indexes your headline at 5x the weight of any other field on your profile. \nOptimized headlines get 40% more profile views. \n\nThat means your banner, headline, featured content and experience all feed into whether your posts get shown to 100 people or 10,000.\n\nHere's how mine is set up:\n\n1. Banner communicates what I do and whom I help in one line without any clutter or extra visuals getting in the way.\n\n2. Headline uses 150+ of the 220 characters LinkedIn gives you. Every unused character is a keyword you're not ranking for.\n\n3. Featured section gets updated monthly with posts, resources, and offers that reflect current positioning.\n\n4. Experience shows impact with numbers like revenue, results, and scale. Recruiters spend 6 seconds scanning, and numbers are what they stop on.\n\nA strong profile makes every post work harder.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1782730811468,
+        "date": "2026-06-29T11:00:11.468Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFuVWTIxXv3iw/feedshare-shrink_1280/B4EZ8S.54lJEAM-/0/1782729908324?e=1786579200&v=beta&t=x8cIgMyiaoluowID6AWexOvf7DEhBVBGUzPnjBqd0xY",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477314973463949313",
+        "likes": 164,
+        "comments": 44,
+        "shares": 9,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 143
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    }
+  ]
+}

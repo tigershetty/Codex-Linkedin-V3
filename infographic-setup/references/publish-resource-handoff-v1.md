@@ -1,28 +1,30 @@
 # Publish And Resource Handoff v1
 
-**Version:** 1.0
-**Date:** 2026-07-15
+**Version:** 2.0
+**Date:** 2026-07-28
 **Status:** Active final-stage workflow for Supply Chain 101 and AI for Supply Chain
 
 ## Purpose
 
 The post folder is the creative source of truth. The website is a publication surface, not a place to infer missing approvals.
 
-The final handoff runs only after the still and caption have each been explicitly approved.
+The final handoff runs only after the Tiger source, voice, still, and caption have each cleared their explicit approval gates.
 
 ## Status Sequence
 
 ```text
-draft -> still approved -> motion complete or still-only -> caption approved
+Tiger source captured -> research complete -> draft -> provenance QA
+      -> Tiger voice approved -> caption approved
+      -> still approved -> motion complete or still-only
       -> resource complete or not warranted -> website ready
       -> Vercel preview approved -> production merge
 ```
 
-Never skip a status. A visual approval does not approve the caption, and a caption edit does not approve a production deployment.
+Never skip a status. A source is not automatically public-safe, voice approval does not approve later wording changes, visual approval does not approve the caption, and a caption edit does not approve a production deployment.
 
 ## Publish Manifest
 
-Copy `templates/publish-manifest-template.json` to the post folder as `publish-manifest.json`.
+Copy `templates/publish-manifest-template.json` to the post folder as `publish-manifest.json`. Assign the stable `contentId`, shared `parentSlug`, channel, and series before drafting. New posts use schema version 2 and the voice block. Existing schema-version-1 manifests remain valid as legacy records, but they do not provide the V4 provenance gate.
 
 Audit the manifest while it is on hold:
 
@@ -38,9 +40,15 @@ node scripts/audit-publish-handoff.mjs data/{week}/{slug} --ready
 
 Hard rules:
 
+- New post folders contain `tiger-source.md` from `templates/tiger-source-note-template.md`.
+- For schema-version-2 handoffs, `voice.provenanceStatus`, `voice.qaStatus`, and `voice.status` must all be `approved` before the website can become `ready`.
+- Record `voice.aiDisclosure` as `profile/footer`, `post-level`, or `not-required`; never leave the disclosure decision implicit.
+- Every first-person experience, result, credential, team-practice, and employer claim maps to an approved source ID.
+- Public facts remain traceable to `research-brief.md`; research must not be rewritten as Tiger's lived experience.
+- Restricted workplace detail requires explicit public-use approval.
 - `caption.status` remains `draft` until the user confirms the final text.
 - `visual.status` remains `draft` until the user approves the exact canonical still.
-- `website.status` cannot become `ready` until both are `approved`.
+- `website.status` cannot become `ready` until voice, caption, and visual are `approved`.
 - Keep the approved caption verbatim in the caption file; do not rewrite it in the website repo.
 - Use the canonical still on the article page and preserve its native aspect ratio.
 - Use MP4 for website motion when available; retain GIF for LinkedIn.
@@ -79,8 +87,15 @@ An eligible pack contains:
 
 The website resource page should demonstrate the method before the download button, state what is inside, and name the first safe run.
 
-## Final Website Verification
+## Final Channel Verification
 
+### Substack
+
+- stable AI-use transparency appears in the Substack About page or publication footer, with post-level disclosure where synthetic or materially AI-generated elements could be misunderstood.
+
+### Website
+
+- schema-version-2 voice provenance and QA have passed;
 - published article uses the approved title, caption, still, and motion;
 - native still ratio is preserved on desktop and mobile;
 - MP4 autoplays muted/looped/playsInline and has the still as poster;

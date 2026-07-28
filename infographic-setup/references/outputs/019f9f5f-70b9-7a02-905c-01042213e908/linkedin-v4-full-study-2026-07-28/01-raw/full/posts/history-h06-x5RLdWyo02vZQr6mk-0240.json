@@ -1,0 +1,527 @@
+{
+  "runId": "x5RLdWyo02vZQr6mk",
+  "datasetId": "T83tmA6qmLFpCiAaW",
+  "offset": 240,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7473023992375955456",
+      "entityId": "7473023992375955456",
+      "linkedinUrl": "https://www.linkedin.com/posts/sarahbarneshumphrey_activity-7473023992375955456-Nys1",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7473023991692222464",
+      "shareUrn": "urn:li:ugcPost:7473023991692222464",
+      "content": null,
+      "author": {
+        "id": "ACoAAAPGtsoB9seDeGmhZuLsjtPpuO_jhivsTjo",
+        "universalName": null,
+        "publicIdentifier": "sarahbarneshumphrey",
+        "type": "profile",
+        "name": "Sarah Barnes-Humphrey",
+        "linkedinUrl": "https://www.linkedin.com/in/sarahbarneshumphrey?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAPGtsoB9seDeGmhZuLsjtPpuO_jhivsTjo",
+        "info": "Helping supply chain leaders and entrepreneurs find their voice | Founder & CEO, Let’s Talk Supply Chain™ — Top 1% Global Podcast",
+        "website": "https://geni.us/Iburiedherinafp",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHuWyaLRigVfg/profile-displayphoto-crop_800_800/B56ZoGjNtnIYAI-/0/1761046486312?e=1786579200&v=beta&t=QcZIUrKI1qSAbLp5bMJEe76wgeq9h4yqkC_E611D_oI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "63354570"
+      },
+      "postedAt": {
+        "timestamp": 1781707761854,
+        "date": "2026-06-17T14:49:21.854Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7473023991692222464",
+        "likes": 7,
+        "comments": 11,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sarahbarneshumphrey",
+        "sessionId": "61565fe2-86b2-4c74-8f3d-80061ed0bea2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7461073352993153024",
+      "entityId": "7461073352993153024",
+      "linkedinUrl": "https://www.linkedin.com/posts/sarahbarneshumphrey_supplychain-logistics-ai-activity-7461073352993153024-YLPP",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7461073351797665792",
+      "shareUrn": "urn:li:ugcPost:7461073351797665792",
+      "content": "I keep hearing the same thing from supply chain leaders:\n“We have the data … but we still can’t move fast enough.”\n\nVisibility isn’t the problem anymore. Decision-making is.\n\nThat’s why I’m excited for this conversation with Irina Rosca and Michael Falls on June 10 at 1 p.m. ET \n\nWe’re digging into how AI is helping teams stop reacting to shipping problems and start making smarter financial decisions (before margins take a hit).\n\nWe’re talking:\n👉🏻 Why visibility alone is no longer enough\n👉🏻 The hidden shipping costs companies still miss\n👉🏻 How AI is replacing manual analysis and spreadsheet chaos\n👉🏻 Real lessons from Veracyte\n\nIf your team is still spending hours chasing shipping data after the fact … this one’s for you.\n\nClick “Attend” and join us LIVE!\n\n#SupplyChain #Logistics #AI #LinkedInLive #letstalksupplychain #Reveel #Reveel10June #2026June10 #LinkedinLive",
+      "author": {
+        "id": "ACoAAAPGtsoB9seDeGmhZuLsjtPpuO_jhivsTjo",
+        "universalName": null,
+        "publicIdentifier": "sarahbarneshumphrey",
+        "type": "profile",
+        "name": "Sarah Barnes-Humphrey",
+        "linkedinUrl": "https://www.linkedin.com/in/sarahbarneshumphrey?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAPGtsoB9seDeGmhZuLsjtPpuO_jhivsTjo",
+        "info": "Helping supply chain leaders and entrepreneurs find their voice | Founder & CEO, Let’s Talk Supply Chain™ — Top 1% Global Podcast",
+        "website": "https://geni.us/Iburiedherinafp",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHuWyaLRigVfg/profile-displayphoto-crop_800_800/B56ZoGjNtnIYAI-/0/1761046486312?e=1786579200&v=beta&t=QcZIUrKI1qSAbLp5bMJEe76wgeq9h4yqkC_E611D_oI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "63354570"
+      },
+      "postedAt": {
+        "timestamp": 1778858507393,
+        "date": "2026-05-15T15:21:47.393Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E24AQFBgA77HtenKA/live-thumbnail-low/B4EZ6yfXEtJYBY-/0/1781111061442?e=1785877200&v=beta&t=2YgzmYL2klVhgyDBopjxUxYImUCuuZz9Rimllfnu7sg",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E24AQFBgA77HtenKA/live-mp4-inhouse-analysis/B4EZ6yfXEtJYBQ-/0/1781114313135?e=1785877200&v=beta&t=JrWdCdmQAuxtrpEPON9143CE4Ok3e9AS57hVr698CFo"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7461073351797665792",
+        "likes": 30,
+        "comments": 11,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 27
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sarahbarneshumphrey",
+        "sessionId": "61565fe2-86b2-4c74-8f3d-80061ed0bea2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468396710642339841",
+      "entityId": "7468396710642339841",
+      "linkedinUrl": "https://www.linkedin.com/posts/sarahbarneshumphrey_excited-to-be-moderating-a-webinar-on-june-activity-7468396710642339841-n1sv",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468396709463859200",
+      "shareUrn": "urn:li:share:7468396709463859200",
+      "content": "Excited to be moderating a webinar on June 9 with Gulf Winds International and BlackBerry!\n\nIf you're managing equipment at scale, you know how messy device connectivity and deployment can get ...\n\nGulf Winds ran into that exact problem - and solved it with BlackBerry Radar's dynamic pairing solution.\n\nIt's a good one. And you can hear it straight from the people who built it.\n\nBecause I'll be talking with Alysse C. Ligon, Director of Innovation at Gulf Winds, and Jason Anderson, Strategic Initiatives Director at BlackBerry Radar.\n\nRegister here: https://lnkd.in/e3fkJzn2\n\n(if you can't make it, we'll send you the recording after)\n\nFeel free to drop any questions you want me to ask Alysse and Jason 👇🏻",
+      "author": {
+        "id": "ACoAAAPGtsoB9seDeGmhZuLsjtPpuO_jhivsTjo",
+        "universalName": null,
+        "publicIdentifier": "sarahbarneshumphrey",
+        "type": "profile",
+        "name": "Sarah Barnes-Humphrey",
+        "linkedinUrl": "https://www.linkedin.com/in/sarahbarneshumphrey?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAPGtsoB9seDeGmhZuLsjtPpuO_jhivsTjo",
+        "info": "Helping supply chain leaders and entrepreneurs find their voice | Founder & CEO, Let’s Talk Supply Chain™ — Top 1% Global Podcast",
+        "website": "https://geni.us/Iburiedherinafp",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHuWyaLRigVfg/profile-displayphoto-crop_800_800/B56ZoGjNtnIYAI-/0/1761046486312?e=1786579200&v=beta&t=QcZIUrKI1qSAbLp5bMJEe76wgeq9h4yqkC_E611D_oI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "63354570"
+      },
+      "postedAt": {
+        "timestamp": 1780604531918,
+        "date": "2026-06-04T20:22:11.918Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGvgbCUz6uztw/feedshare-shrink_1280/B4EZ6UTO7OHkAM-/0/1780604531063?e=1786579200&v=beta&t=gLQegZFc3Q2X0lOgGwpjl4LHg7PDgbndbQQhrtEERA8",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468396710642339841",
+        "likes": 27,
+        "comments": 4,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 23
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sarahbarneshumphrey",
+        "sessionId": "61565fe2-86b2-4c74-8f3d-80061ed0bea2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7467643115722690562",
+      "entityId": "7467643115722690562",
+      "linkedinUrl": "https://www.linkedin.com/posts/sarahbarneshumphrey_somewhere-on-your-phone-theres-a-note-a-activity-7467643115722690562-fjwi",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467643114653024256",
+      "shareUrn": "urn:li:share:7467643114653024256",
+      "content": "Somewhere on your phone there's a note, a voice memo, a half-written plan for something you keep meaning to start.\n\n(Or maybe that's just me.)\n\nIt's the start of a new month, so you think, \"Okay, this time I'll actually do it.\"\n\nBut you don't.\n\nBecause maybe your plan isn't perfect yet. Or you don't feel 100% ready. Or the timing doesn't make sense.\n\nHere's what I've learned after years of building, failing, and rebuilding ...\n\nThe gap between where you are and where you want to be has nothing to do with your 'talent' or 'timing.'\n\n***It's the start you keep postponing***\n\nYou're NEVER going to feel ready.\n\nWhy? Because that feeling doesn't come before you start - it comes after.\n\nSo start messy. Start scared. Start anyway. Just start.\n\n---\n\nThere's less than 30 days left in Q2. What's one thing you've been putting off that you're going to start?\n\nI want to hear 👇🏻",
+      "author": {
+        "id": "ACoAAAPGtsoB9seDeGmhZuLsjtPpuO_jhivsTjo",
+        "universalName": null,
+        "publicIdentifier": "sarahbarneshumphrey",
+        "type": "profile",
+        "name": "Sarah Barnes-Humphrey",
+        "linkedinUrl": "https://www.linkedin.com/in/sarahbarneshumphrey?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAPGtsoB9seDeGmhZuLsjtPpuO_jhivsTjo",
+        "info": "Helping supply chain leaders and entrepreneurs find their voice | Founder & CEO, Let’s Talk Supply Chain™ — Top 1% Global Podcast",
+        "website": "https://geni.us/Iburiedherinafp",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHuWyaLRigVfg/profile-displayphoto-crop_800_800/B56ZoGjNtnIYAI-/0/1761046486312?e=1786579200&v=beta&t=QcZIUrKI1qSAbLp5bMJEe76wgeq9h4yqkC_E611D_oI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "63354570"
+      },
+      "postedAt": {
+        "timestamp": 1780424860888,
+        "date": "2026-06-02T18:27:40.888Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEJG4eClBbbAQ/feedshare-shrink_1280/B4EZ6Jl2E3JAAM-/0/1780424860260?e=1786579200&v=beta&t=KgLIrrsb-X7OyeOPFmGsolkq2QznhVAW8jb9ITKCRWw",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7467643115722690562",
+        "likes": 27,
+        "comments": 13,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 19
+          },
+          {
+            "type": "EMPATHY",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sarahbarneshumphrey",
+        "sessionId": "61565fe2-86b2-4c74-8f3d-80061ed0bea2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477405710973321217",
+      "entityId": "7477405710973321217",
+      "linkedinUrl": "https://www.linkedin.com/posts/sarahbarneshumphrey_samsarabeyond2026-activity-7477405710973321217-mhlX",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7477405709954023425",
+      "shareUrn": "urn:li:ugcPost:7477405709954023425",
+      "content": "Supply chain doesn't work without drivers.\n\nI was at Samsara Beyond in Las Vegas last week, and I got to record four podcast episodes while I was there.\n\nOne thing that kept coming up in almost every conversation?\n\nThe next generation isn't opposed to driving.\nThey're opposed to outdated cabs.\n\nWhen the technology inside the truck matches what they use in their everyday lives, driving becomes a job they (actually) want. \n\nWhen it doesn't? We lose them before we ever have them.\n\nBottom line: we're not going to be able to recruit our way out of the driver shortage.\n\nWe're going to have to BUILD our way out of it.\n\nAnd that starts with investing in what's happening INSIDE the cab.\n\nWho else attended #SamsaraBeyond2026? I'm curious what you took away.",
+      "author": {
+        "id": "ACoAAAPGtsoB9seDeGmhZuLsjtPpuO_jhivsTjo",
+        "universalName": null,
+        "publicIdentifier": "sarahbarneshumphrey",
+        "type": "profile",
+        "name": "Sarah Barnes-Humphrey",
+        "linkedinUrl": "https://www.linkedin.com/in/sarahbarneshumphrey?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAPGtsoB9seDeGmhZuLsjtPpuO_jhivsTjo",
+        "info": "Helping supply chain leaders and entrepreneurs find their voice | Founder & CEO, Let’s Talk Supply Chain™ — Top 1% Global Podcast",
+        "website": "https://geni.us/Iburiedherinafp",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHuWyaLRigVfg/profile-displayphoto-crop_800_800/B56ZoGjNtnIYAI-/0/1761046486312?e=1786579200&v=beta&t=QcZIUrKI1qSAbLp5bMJEe76wgeq9h4yqkC_E611D_oI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "63354570"
+      },
+      "postedAt": {
+        "timestamp": 1782752444976,
+        "date": "2026-06-29T17:00:44.976Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEws8ihXO3qoQ/feedshare-image-high-res/B4EZ8UU3t.IAAY-/0/1782752443612?e=1786579200&v=beta&t=4M4EWjWyT7vwuzKVMmBFIvfpy3QJNmT7gK4CkLvj70Q",
+          "width": 1200,
+          "height": 1200
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGlXRWaKCWA4w/feedshare-shrink_1280/B4EZ8UU3tCHMAQ-/0/1782752443683?e=1786579200&v=beta&t=6WMgiiCbSlTa1saLoTNIkeuXuOKDpyCxfuxQoqdA_JE",
+          "width": 1200,
+          "height": 1200
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHT_5h4290wHA/feedshare-image-high-res/B4EZ8UU3svIsAY-/0/1782752443561?e=1786579200&v=beta&t=ZGo7ww-XCYxFWXWwkPWPgAFwD67aQrDrc3tP-bqKnw8",
+          "width": 1200,
+          "height": 1200
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGmnQQZDI1Rhg/feedshare-image-high-res/B4EZ8UU3wHIwAU-/0/1782752443788?e=1786579200&v=beta&t=d9hNYE-l6MSsnM8u3iDBERuiqLfmVqunUbkSQtuJbyg",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477405709954023425",
+        "likes": 80,
+        "comments": 26,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 63
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sarahbarneshumphrey",
+        "sessionId": "61565fe2-86b2-4c74-8f3d-80061ed0bea2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478846299111370752",
+      "entityId": "7478846299111370752",
+      "linkedinUrl": "https://www.linkedin.com/posts/sarahbarneshumphrey_just-a-reminder-that-you-dont-need-to-earn-activity-7478846299111370752-h_sh",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478846297958035456",
+      "shareUrn": "urn:li:share:7478846297958035456",
+      "content": "Just a reminder that you don’t need to “earn” your long weekend.\n\nNot by clearing the inbox first. \nNot by finishing the list. \nNot by squeezing in one more thing before you let yourself stop.\n\nJust … go enjoy it.\n\nHappy 4th of July, everyone 🎆\n\nThis is how your email will find me!",
+      "author": {
+        "id": "ACoAAAPGtsoB9seDeGmhZuLsjtPpuO_jhivsTjo",
+        "universalName": null,
+        "publicIdentifier": "sarahbarneshumphrey",
+        "type": "profile",
+        "name": "Sarah Barnes-Humphrey",
+        "linkedinUrl": "https://www.linkedin.com/in/sarahbarneshumphrey?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAPGtsoB9seDeGmhZuLsjtPpuO_jhivsTjo",
+        "info": "Helping supply chain leaders and entrepreneurs find their voice | Founder & CEO, Let’s Talk Supply Chain™ — Top 1% Global Podcast",
+        "website": "https://geni.us/Iburiedherinafp",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHuWyaLRigVfg/profile-displayphoto-crop_800_800/B56ZoGjNtnIYAI-/0/1761046486312?e=1786579200&v=beta&t=QcZIUrKI1qSAbLp5bMJEe76wgeq9h4yqkC_E611D_oI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "63354570"
+      },
+      "postedAt": {
+        "timestamp": 1783095907953,
+        "date": "2026-07-03T16:25:07.953Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFPvJku5nBiNw/feedshare-shrink_1280/B4EZ8ozFDOHMAM-/0/1783095906944?e=1786579200&v=beta&t=a6reZbXAoECYZ1DfpCfP6elGrv0ISl3EWt1d_NwWJSo",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478846299111370752",
+        "likes": 93,
+        "comments": 15,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 81
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sarahbarneshumphrey",
+        "sessionId": "61565fe2-86b2-4c74-8f3d-80061ed0bea2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475889791608471552",
+      "entityId": "7475889791608471552",
+      "linkedinUrl": "https://www.linkedin.com/posts/sarahbarneshumphrey_i-recently-heard-about-a-data-issue-fedex-activity-7475889791608471552-SW7c",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475889790190702592",
+      "shareUrn": "urn:li:share:7475889790190702592",
+      "content": "I recently heard about a data issue FedEx had 📦 \n\nNot the kind that waves a red flag. The kind that quietly starts costing you money.\n\nGOAT Group uses FedEx to ship hundreds of thousands of packages a month. So at that volume, a \"small\" problem isn't small for long.\n\nThey caught it fast because they had Reveel's platform watching for anything that looked off.\n\nAnd instead of spending weeks figuring out what went wrong, they went straight to fixing it.\n\nThat's the part that stuck with me.\n\n**Most teams are looking at what their data shows them. Not what their data is hiding.**\n\nGabrielle Murabito and Gloria Seckler shared that story with me at Home Delivery World. \n\nTwo women leading some of the sharpest data conversations in this space, which I love to see.\n\nOur conversation is now on the Let's Talk Supply Chain pod and it's worth the listen: https://lnkd.in/eCCgZETE",
+      "author": {
+        "id": "ACoAAAPGtsoB9seDeGmhZuLsjtPpuO_jhivsTjo",
+        "universalName": null,
+        "publicIdentifier": "sarahbarneshumphrey",
+        "type": "profile",
+        "name": "Sarah Barnes-Humphrey",
+        "linkedinUrl": "https://www.linkedin.com/in/sarahbarneshumphrey?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAPGtsoB9seDeGmhZuLsjtPpuO_jhivsTjo",
+        "info": "Helping supply chain leaders and entrepreneurs find their voice | Founder & CEO, Let’s Talk Supply Chain™ — Top 1% Global Podcast",
+        "website": "https://geni.us/Iburiedherinafp",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHuWyaLRigVfg/profile-displayphoto-crop_800_800/B56ZoGjNtnIYAI-/0/1761046486312?e=1786579200&v=beta&t=QcZIUrKI1qSAbLp5bMJEe76wgeq9h4yqkC_E611D_oI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "63354570"
+      },
+      "postedAt": {
+        "timestamp": 1782391021635,
+        "date": "2026-06-25T12:37:01.635Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHtbuxjbSWqgA/feedshare-shrink_1280/B4EZ7.yJtiHsAM-/0/1782391020681?e=1786579200&v=beta&t=ILjMXA5srynbEFJbOsyCJcPNaacM785ihKVoAr2cMSg",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475889791608471552",
+        "likes": 49,
+        "comments": 4,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 43
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sarahbarneshumphrey",
+        "sessionId": "61565fe2-86b2-4c74-8f3d-80061ed0bea2"
+      }
+    }
+  ]
+}

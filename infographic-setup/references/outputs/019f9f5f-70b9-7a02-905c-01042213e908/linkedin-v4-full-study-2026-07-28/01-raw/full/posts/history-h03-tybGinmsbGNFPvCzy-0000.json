@@ -1,0 +1,3107 @@
+{
+  "runId": "tybGinmsbGNFPvCzy",
+  "datasetId": "VJLC5jQTBXajzHkTi",
+  "offset": 0,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7452946274951176194",
+      "entityId": "7452946274951176194",
+      "linkedinUrl": "https://www.linkedin.com/posts/activity-7450581283635720193-PSS3",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7450141184150163456",
+      "shareUrn": "urn:li:share:7450141184150163456",
+      "content": "📦 Essential Logistics KPIs (With Formulas) — Track Smarter, Operate Better\n\nMost teams track KPIs… but the real value comes when you understand, connect, and act on them.\n\nHere’s a practical breakdown 👇\n\n---\n\n🚚 On-Time Delivery (OTD)\nMeasures reliability and customer trust\nFormula:\nOTD % = (On-Time Deliveries ÷ Total Deliveries) × 100\n👉 Target: ≥ 95%\n\n---\n\n🧾 Order Accuracy\nEnsures error-free fulfillment\nFormula:\nAccuracy % = (Correct Orders ÷ Total Orders) × 100\n👉 Every mistake = cost + reputation hit\n\n---\n\n📊 Inventory Turnover\nReflects how efficiently inventory is managed\nFormula:\nInventory Turnover = COGS ÷ Average Inventory\n👉 Low = overstock | High = stockout risk\n\n---\n\n🏬 Warehouse Utilization\nTracks effective use of storage capacity\nFormula:\nUtilization % = (Used Storage Space ÷ Total Capacity) × 100\n👉 Sweet spot: 80–85%\n\n---\n\n📦 Freight Cost per Unit\nControls transportation expenses\nFormula:\nCost per Unit = Total Freight Cost ÷ Units Shipped\n👉 Track by lane, customer, and product\n\n---\n\n✅ Perfect Order Rate\nMeasures true service quality (on time + accurate + no damage + correct docs)\nFormula:\nPerfect Order % = (Orders with No Issues ÷ Total Orders) × 100\n\n---\n\n⏱ Cycle Time\nTime from order receipt to final delivery\nFormula:\nCycle Time = Delivery Date − Order Receipt Date\n👉 Break it down: processing | picking | transit\n\n---\n\n📍 Dock-to-Stock Time\nSpeed of moving goods from receiving to storage\nFormula:\nDock-to-Stock Time = Storage Time − Receiving Time\n👉 Slow here = hidden stockouts\n\n---\n\n💡 The Real Insight (Don’t Miss This):\n\nThese KPIs are connected:\n\n- Low OTD? → Check Cycle Time + Dock-to-Stock\n- High Freight Cost? → Check Utilization + Consolidation\n- Low Perfect Order Rate? → Check Accuracy + Warehouse Process\n\n---\n\n📈 Bonus KPIs to Level Up:\n\n- Fill Rate = (Units Shipped ÷ Units Ordered) × 100\n- Return Rate = (Returned Units ÷ Units Shipped) × 100\n- Cost per Order = Total Logistics Cost ÷ Total Orders\n\n---\n\n🎯 Bottom Line:\nTracking KPIs is easy.\nUnderstanding how they interact is what drives real operational excellence.\n\n#Logistics #SupplyChain #Operations #KPIs #Warehouse #ContinuousImprovement",
+      "author": {
+        "id": "ACoAAAqN83kBBzarrQCtsXzajgiTlC6NbVSETmo",
+        "universalName": null,
+        "publicIdentifier": "fouad317",
+        "type": "profile",
+        "name": "Fouad Enba",
+        "linkedinUrl": "https://www.linkedin.com/in/fouad317?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAqN83kBBzarrQCtsXzajgiTlC6NbVSETmo",
+        "info": "Logistics & Distribution Leader| Global Supply Chain, Customs & Trade Compliance | Driving OTIF & Cost Optimization",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEeQuNj3X7u7Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707549742964?e=1786579200&v=beta&t=2Qg_PWN250KZcGSAIaZZIB6LgjEv8llFwuXOpeXX4n8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "177075065"
+      },
+      "postedAt": {
+        "timestamp": 1776920860994,
+        "date": "2026-04-23T05:07:40.994Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEvmVX-GmYjeg/feedshare-shrink_1280/B4DZ2Q37YBJoAM-/0/1776252073757?e=1786579200&v=beta&t=4ukrCD9PE-fOGlsCrdyjLc8Z4-2qQKqil4v6gVVzueM",
+          "width": 1226,
+          "height": 1283
+        }
+      ],
+      "repostedBy": {
+        "name": "Fouad Enba",
+        "publicIdentifier": "fouad317",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/fouad317?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAqN83kBBzarrQCtsXzajgiTlC6NbVSETmo"
+      },
+      "repostedAt": {
+        "timestamp": 1776920860994,
+        "date": "2026-04-23T05:07:40.994Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEeQuNj3X7u7Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707549742964?e=1786579200&v=beta&t=2Qg_PWN250KZcGSAIaZZIB6LgjEv8llFwuXOpeXX4n8",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7452946274951176194?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7452946274951176194%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=RXDD%2BSE877DVIydETQMEBg%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/fouad317?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAqN83kBBzarrQCtsXzajgiTlC6NbVSETmo",
+        "text": "Fouad Enba reposted this"
+      },
+      "engagement": {
+        "id": "7450581283635720193",
+        "likes": 327,
+        "comments": 4,
+        "shares": 61,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 312
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/fouad317",
+        "sessionId": "16b6ec0c-8014-4259-b669-3dcb47182557"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7450136840067743744",
+      "entityId": "7450136840067743744",
+      "linkedinUrl": "https://www.linkedin.com/posts/activity-7450136840067743744-8SkJ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7450136838000005121",
+      "shareUrn": "urn:li:share:7450136838000005121",
+      "content": "📦 1) COGS (Cost of Goods Sold)\n\nMeaning:\nDirect cost of producing or purchasing the product you sell.\n\nWhat’s included:\n\nRaw materials / purchase price\nDirect labor\nManufacturing costs (if applicable)\n\nWhat’s NOT included:\n\nShipping to customer\nMarketing, salaries, overhead\nImport duties\n\nFormula:\n\n𝐶𝑂𝐺𝑆=𝑂𝑝𝑒𝑛𝑖𝑛𝑔 𝐼𝑛𝑣𝑒𝑛𝑡𝑜𝑟𝑦+𝑃𝑢𝑟𝑐ℎ𝑎𝑠𝑒𝑠−𝐶𝑙𝑜𝑠𝑖𝑛𝑔 𝐼𝑛𝑣𝑒𝑛𝑡𝑜𝑟𝑦\n\nOr per unit:\n\n𝐶𝑂𝐺𝑆=𝑈𝑛𝑖𝑡 𝑃𝑢𝑟𝑐ℎ𝑎𝑠𝑒 𝑃𝑟𝑖𝑐𝑒+𝐷𝑖𝑟𝑒𝑐𝑡 𝐶𝑜𝑠𝑡𝑠\n\nExample:\nYou buy a product for $100 and spend $10 manufacturing →\n👉 COGS = $110\n\n🚚 2) Landed Cost\n\nMeaning:\nThe true cost of getting the product to your warehouse.\n\nWhat’s included:\n\nProduct cost (COGS base)\nFreight (international + local)\nInsurance\nCustoms duties\nTaxes\nPort handling & clearance\n\nFormula:\n\n𝐿𝑎𝑛𝑑𝑒𝑑 𝐶𝑜𝑠𝑡=𝑃𝑟𝑜𝑑𝑢𝑐𝑡 𝐶𝑜𝑠𝑡+𝑆ℎ𝑖𝑝𝑝𝑖𝑛𝑔+𝐷𝑢𝑡𝑖𝑒𝑠+𝑇𝑎𝑥𝑒𝑠+𝐻𝑎𝑛𝑑𝑙𝑖𝑛𝑔+𝐼𝑛𝑠𝑢𝑟𝑎𝑛𝑐𝑒\n\nExample:\n\nProduct = $100\nShipping = $20\nDuty = $10\nClearance = $5\n\n👉 Landed Cost = $135\n\n💡 This is the real cost per unit before selling\n\n💼 3) TCO (Total Cost of Ownership)\n\nMeaning:\nThe full lifecycle cost of owning or using a product—not just buying it.\n\nWhat’s included:\n\nLanded cost\nStorage / warehousing\nMaintenance\nOperating costs\nDowntime / risk\nDisposal cost\n\nFormula:\n\n𝑇𝐶𝑂=𝑃𝑢𝑟𝑐ℎ𝑎𝑠𝑒 𝐶𝑜𝑠𝑡+𝑂𝑝𝑒𝑟𝑎𝑡𝑖𝑛𝑔 𝐶𝑜𝑠𝑡𝑠+𝑀𝑎𝑖𝑛𝑡𝑒𝑛𝑎𝑛𝑐𝑒+𝐼𝑛𝑑𝑖𝑟𝑒𝑐𝑡 𝐶𝑜𝑠𝑡𝑠\n\nExample:\n\nLanded cost = $135\nStorage = $15\nMaintenance = $20\nLoss/damage risk = $10\n\n👉 TCO = $180\n\n💡 This is critical for long-term decisions—not just pricing\n\n| Metric          | Scope           | Use Case                   |\n| --------------- | --------------- | -------------------------- |\n| **COGS**        | Production only | Profit calculation         |\n| **Landed Cost** | Up to warehouse | Pricing & import decisions |\n| **TCO**         | Full lifecycle  | Strategic decisions        |\n\n🧠 The Big Insight (Most people miss this)\nCOGS is accounting\nLanded Cost is logistics reality\nTCO is business strategy\n\nIf you price based on COGS only → you’ll lose money without noticing\nIf you ignore TCO → you might choose the wrong supplier or product",
+      "author": {
+        "id": "ACoAAAqN83kBBzarrQCtsXzajgiTlC6NbVSETmo",
+        "universalName": null,
+        "publicIdentifier": "fouad317",
+        "type": "profile",
+        "name": "Fouad Enba",
+        "linkedinUrl": "https://www.linkedin.com/in/fouad317?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAqN83kBBzarrQCtsXzajgiTlC6NbVSETmo",
+        "info": "Logistics & Distribution Leader| Global Supply Chain, Customs & Trade Compliance | Driving OTIF & Cost Optimization",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEeQuNj3X7u7Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707549742964?e=1786579200&v=beta&t=2Qg_PWN250KZcGSAIaZZIB6LgjEv8llFwuXOpeXX4n8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "177075065"
+      },
+      "postedAt": {
+        "timestamp": 1776251039521,
+        "date": "2026-04-15T11:03:59.521Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQE7ex0bFIZCqw/feedshare-shrink_1280/B4DZ2Qz.nIH8AM-/0/1776251038421?e=1786579200&v=beta&t=OfAfEtJbApgqaxv7BvScd_h3hxu-YscQ1B-RFttiieA",
+          "width": 1226,
+          "height": 1283
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7450136840067743744",
+        "likes": 16,
+        "comments": 1,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 16
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/fouad317",
+        "sessionId": "16b6ec0c-8014-4259-b669-3dcb47182557"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7450581283635720193",
+      "entityId": "7450581283635720193",
+      "linkedinUrl": "https://www.linkedin.com/posts/activity-7450581283635720193-PSS3",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7450141184150163456",
+      "shareUrn": "urn:li:share:7450141184150163456",
+      "content": "📦 Essential Logistics KPIs (With Formulas) — Track Smarter, Operate Better\n\nMost teams track KPIs… but the real value comes when you understand, connect, and act on them.\n\nHere’s a practical breakdown 👇\n\n---\n\n🚚 On-Time Delivery (OTD)\nMeasures reliability and customer trust\nFormula:\nOTD % = (On-Time Deliveries ÷ Total Deliveries) × 100\n👉 Target: ≥ 95%\n\n---\n\n🧾 Order Accuracy\nEnsures error-free fulfillment\nFormula:\nAccuracy % = (Correct Orders ÷ Total Orders) × 100\n👉 Every mistake = cost + reputation hit\n\n---\n\n📊 Inventory Turnover\nReflects how efficiently inventory is managed\nFormula:\nInventory Turnover = COGS ÷ Average Inventory\n👉 Low = overstock | High = stockout risk\n\n---\n\n🏬 Warehouse Utilization\nTracks effective use of storage capacity\nFormula:\nUtilization % = (Used Storage Space ÷ Total Capacity) × 100\n👉 Sweet spot: 80–85%\n\n---\n\n📦 Freight Cost per Unit\nControls transportation expenses\nFormula:\nCost per Unit = Total Freight Cost ÷ Units Shipped\n👉 Track by lane, customer, and product\n\n---\n\n✅ Perfect Order Rate\nMeasures true service quality (on time + accurate + no damage + correct docs)\nFormula:\nPerfect Order % = (Orders with No Issues ÷ Total Orders) × 100\n\n---\n\n⏱ Cycle Time\nTime from order receipt to final delivery\nFormula:\nCycle Time = Delivery Date − Order Receipt Date\n👉 Break it down: processing | picking | transit\n\n---\n\n📍 Dock-to-Stock Time\nSpeed of moving goods from receiving to storage\nFormula:\nDock-to-Stock Time = Storage Time − Receiving Time\n👉 Slow here = hidden stockouts\n\n---\n\n💡 The Real Insight (Don’t Miss This):\n\nThese KPIs are connected:\n\n- Low OTD? → Check Cycle Time + Dock-to-Stock\n- High Freight Cost? → Check Utilization + Consolidation\n- Low Perfect Order Rate? → Check Accuracy + Warehouse Process\n\n---\n\n📈 Bonus KPIs to Level Up:\n\n- Fill Rate = (Units Shipped ÷ Units Ordered) × 100\n- Return Rate = (Returned Units ÷ Units Shipped) × 100\n- Cost per Order = Total Logistics Cost ÷ Total Orders\n\n---\n\n🎯 Bottom Line:\nTracking KPIs is easy.\nUnderstanding how they interact is what drives real operational excellence.\n\n#Logistics #SupplyChain #Operations #KPIs #Warehouse #ContinuousImprovement",
+      "author": {
+        "id": "ACoAAAqN83kBBzarrQCtsXzajgiTlC6NbVSETmo",
+        "universalName": null,
+        "publicIdentifier": "fouad317",
+        "type": "profile",
+        "name": "Fouad Enba",
+        "linkedinUrl": "https://www.linkedin.com/in/fouad317?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAqN83kBBzarrQCtsXzajgiTlC6NbVSETmo",
+        "info": "Logistics & Distribution Leader| Global Supply Chain, Customs & Trade Compliance | Driving OTIF & Cost Optimization",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEeQuNj3X7u7Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707549742964?e=1786579200&v=beta&t=2Qg_PWN250KZcGSAIaZZIB6LgjEv8llFwuXOpeXX4n8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "177075065"
+      },
+      "postedAt": {
+        "timestamp": 1776357003125,
+        "date": "2026-04-16T16:30:03.125Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEvmVX-GmYjeg/feedshare-shrink_1280/B4DZ2Q37YBJoAM-/0/1776252073757?e=1786579200&v=beta&t=4ukrCD9PE-fOGlsCrdyjLc8Z4-2qQKqil4v6gVVzueM",
+          "width": 1226,
+          "height": 1283
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7450581283635720193",
+        "likes": 327,
+        "comments": 4,
+        "shares": 61,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 312
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/fouad317",
+        "sessionId": "16b6ec0c-8014-4259-b669-3dcb47182557"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7450943716195713024",
+      "entityId": "7450943716195713024",
+      "linkedinUrl": "https://www.linkedin.com/posts/activity-7450943716195713024-iR-l",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7450145112770256896",
+      "shareUrn": "urn:li:share:7450145112770256896",
+      "content": "The 9-Box Grid is a simple but powerful tool used in talent management to evaluate employees based on two dimensions: performance and potential.\n\n\n---\n\n🔲 What is the 9-Box Grid?\n\nIt’s a 3×3 matrix that helps organizations assess and categorize employees to support decisions like promotions, development, and succession planning.\n\n\n---\n\n📊 The Structure\n\nX-axis (Horizontal): Performance\n\nLow → Medium → High\n\n\nY-axis (Vertical): Potential\n\nLow → Medium → High\n\n---\n\n🎯 How to Use It\n\n🌟 Future Leaders → Fast-track, leadership development\n\n🚀 High Performers → Retain, reward, stretch roles\n\n👍 Core Contributors → Maintain and upskill\n\n⚠️ / 🚧 → Coaching or role alignment\n\n❌ Poor Fit → Consider reassignment or exit\n\n\n\n---\n\n🧠 Why It Matters\n\nGives clear visibility on your workforce\n\nHelps avoid bias in talent decisions\n\nSupports succession planning\n\nAligns development efforts with business goals\n\n---\n\n💡 Pro Tip\n\nDon’t treat it as a static tool. Revisit it regularly—people evolve, and so should your assessment.",
+      "author": {
+        "id": "ACoAAAqN83kBBzarrQCtsXzajgiTlC6NbVSETmo",
+        "universalName": null,
+        "publicIdentifier": "fouad317",
+        "type": "profile",
+        "name": "Fouad Enba",
+        "linkedinUrl": "https://www.linkedin.com/in/fouad317?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAqN83kBBzarrQCtsXzajgiTlC6NbVSETmo",
+        "info": "Logistics & Distribution Leader| Global Supply Chain, Customs & Trade Compliance | Driving OTIF & Cost Optimization",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEeQuNj3X7u7Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707549742964?e=1786579200&v=beta&t=2Qg_PWN250KZcGSAIaZZIB6LgjEv8llFwuXOpeXX4n8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "177075065"
+      },
+      "postedAt": {
+        "timestamp": 1776443413781,
+        "date": "2026-04-17T16:30:13.781Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQERiR-U_wq2yA/feedshare-shrink_1280/B4DZ2Q7gF0HIAQ-/0/1776253010548?e=1786579200&v=beta&t=qSJtdtCt8II-zWKzh3CtloYD8cJl0PyUGXnmQKJgxZk",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7450943716195713024",
+        "likes": 6,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/fouad317",
+        "sessionId": "16b6ec0c-8014-4259-b669-3dcb47182557"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7433569347039547393",
+      "entityId": "7433569347039547393",
+      "linkedinUrl": "https://www.linkedin.com/posts/logisticsstudy-com_supplychain-logistics-excel-activity-7432755698905571328-QcHy",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7432755697936891904",
+      "shareUrn": "urn:li:share:7432755697936891904",
+      "content": "Most Supply Chain Professionals Know Operations.\nBut Very Few Truly Know Excel.\n\nWith 15+ years of Logistics & International Business experience, I’ve observed one clear pattern:\n👉 Students understand concepts.\n 👉 Professionals understand operations.\n ❌ But many struggle with Excel — the real backbone of supply chain decision-making.\n\nWhether you are handling:\n • Inventory planning\n • Freight cost analysis\n • Lead time tracking\n • Demand forecasting\n • Supplier performance review\n • Safety stock calculation\n\nExcel is not optional.\nIt is your silent competitive advantage.\nRecently, I compiled a list of 50 Excel formulas that every Supply Chain & Logistics professional must know.\n\nNot fancy formulas.\nNot theoretical ones.\n\nBut formulas that are used daily in:\n ✔ Inventory sheets\n ✔ Freight comparison files\n ✔ MIS reports\n ✔ Forecast models\n ✔ KPI dashboards\n ✔ Purchase planning sheets\n\nHere are a few examples:\n • SUMIFS() – Multi-condition cost analysis\n • XLOOKUP() – Faster and cleaner than VLOOKUP\n • IF() – Reorder level alerts\n • DATEDIF() – Transit time calculation\n • NETWORKDAYS() – Working day calculation\n • FORECAST.LINEAR() – Demand projection\n • STDEV() – Safety stock support\n • IFERROR() – Clean reporting\n\nMost professionals only use 5–6 formulas.\nBut mastering 30–40 of them can change how you analyze data forever.\n\n📌 If you are a:\n • Student of Logistics\n • Export-Import Executive\n • Supply Chain Planner\n • Warehouse Manager\n • Procurement Professional\n\nYou should build strong Excel capability this year. Because data-driven professionals grow faster.\nIf you want, comment “PDF” and I’ll share the complete structured list.\n\n#SupplyChain #Logistics #Excel #InventoryManagement #Procurement #Freight #SCM #ExportImport #LogisticsGuide #Logisticsstudy",
+      "author": {
+        "id": "69610497",
+        "universalName": "logisticsstudy-com",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Logisticsstudy.com",
+        "linkedinUrl": "https://www.linkedin.com/company/logisticsstudy-com/posts",
+        "info": "20,376 followers",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C560BAQG0hSnw8ZT1iA/company-logo_400_400/company-logo_400_400/0/1630650931943?e=1786579200&v=beta&t=jcZ89mryOe33ALw1h-U3C-RoOR1x7KN7Am31vQ2Q87Q",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "69610497"
+      },
+      "postedAt": {
+        "timestamp": 1772301041374,
+        "date": "2026-02-28T17:50:41.374Z",
+        "postedAgoShort": "5mo",
+        "postedAgoText": "5 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEUYd2w-abyHw/feedshare-shrink_1280/B56ZyZz7G_JQAg-/0/1772107051743?e=1786579200&v=beta&t=SjkejMWSRxCycDUxaceX5IfEiDQ3EcBEd0xGhvzb4Bk",
+          "width": 1244,
+          "height": 1539
+        }
+      ],
+      "repostedBy": {
+        "name": "Fouad Enba",
+        "publicIdentifier": "fouad317",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/fouad317?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAqN83kBBzarrQCtsXzajgiTlC6NbVSETmo"
+      },
+      "repostedAt": {
+        "timestamp": 1772301041374,
+        "date": "2026-02-28T17:50:41.374Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEeQuNj3X7u7Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707549742964?e=1786579200&v=beta&t=2Qg_PWN250KZcGSAIaZZIB6LgjEv8llFwuXOpeXX4n8",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7433569347039547393?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7433569347039547393%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=1XE7ZhZlXeKKYs0KusJ0eA%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/fouad317?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAqN83kBBzarrQCtsXzajgiTlC6NbVSETmo",
+        "text": "Fouad Enba reposted this"
+      },
+      "engagement": {
+        "id": "7432755698905571328",
+        "likes": 932,
+        "comments": 144,
+        "shares": 163,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 901
+          },
+          {
+            "type": "INTEREST",
+            "count": 20
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/fouad317",
+        "sessionId": "16b6ec0c-8014-4259-b669-3dcb47182557"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468617642376011776",
+      "entityId": "7468617642376011776",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_most-people-use-claude-wrong-they-open-activity-7468617642376011776-90xM",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468417759601709056",
+      "shareUrn": "urn:li:share:7468417759601709056",
+      "content": "Most people use Claude wrong.\n\nThey open it, ask a question, get an answer...\nand then go do all the actual work themselves.\n\nThat's Chat mode. And it's only one of three ways to use it.\n\nHow to pick the right one:\n\n1️⃣ Chat: the base layer\n\nYou ask, it answers.\nFast. Zero setup. Great for quick questions and first drafts.\n\nBut it stops at the conversation.\nYou still do the rest.\n\n2️⃣ Cowork: the desktop agent\n\nYou hand it a goal.\nIt opens your files, reads your Drive, writes to Gmail, updates Slack...\nand hands back a finished deliverable.\n\nNo coding required.\nThis is Claude doing the work for you, start to finish.\n\n3️⃣ Code: the terminal agent\n\nBuilt for developers.\n\nIt writes, edits, and runs code.\nFull control over git, tests, and builds.\n\nYou describe the outcome.\nIt ships.\n\nThe real mistake people make:\n\nTreating Claude like a smarter search box.\n\nChat answers questions.\nCowork and Code complete tasks.\n\nThat's a completely different thing.\n\nSimple rule to pick the right one:\n\n↳ Quick draft or question → Chat\n↳ Finished deliverable from your files → Cowork\n↳ Shipping software → Code\n\nMost people never leave Chat.\nThat's why most people are still doing all the work themselves.\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1780657206148,
+        "date": "2026-06-05T11:00:06.148Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQG_PTgy88OAxg/feedshare-shrink_1280/B56Z6UmYPgIQAQ-/0/1780609549677?e=1786579200&v=beta&t=vkWDaRE7MmYgArqqIPr0uU8EYO2h7Rfr-brHU8-AJSg",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468617642376011776",
+        "likes": 135,
+        "comments": 135,
+        "shares": 11,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 118
+          },
+          {
+            "type": "INTEREST",
+            "count": 10
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7472603887900925952",
+      "entityId": "7472603887900925952",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_claude-code-is-a-non-negotiable-for-ai-agency-activity-7472603887900925952-oaoK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7472371055299407873",
+      "shareUrn": "urn:li:share:7472371055299407873",
+      "content": "Claude Code is a non-negotiable for AI Agency Owners.\n\nHere's the full breakdown so you can get started:\n\nMost people use AI like a chat window.\nClaude Code actually does the work.\n\nTerminal. Files. Code. Entire workflows.\nAll from your computer.\n\nNo switching tools. No copy-pasting. No dev team needed.\n\n🔸 What Claude Code actually is\n\nIt's a command-line tool built by Anthropic.\nIt sits inside your terminal.\nIt doesn't just respond.\nIt executes.\n\n↳ Reads and writes files directly on your machine\n↳ Breaks your goal into steps and runs them end-to-end\n↳ Connects to GitHub, Notion, Slack, Jira via MCP\n↳ Remembers your project context via CLAUDE.md\n↳ Builds reusable automations via Skills\n\nBuilt for founders who want to build and ship fast.\n(ChatGPT answers questions. Claude Code gets things done)\n\n🔸 How to get started in 4 steps\n\n1️⃣ Install Claude Code via your terminal\n2️⃣ Open it inside your project folder\n3️⃣ Hit Shift+Tab twice to activate Plan Mode\n4️⃣ Write your goal clearly and let it map the steps\n\nDon't set up MCP or Skills on day one.\nStart vanilla. Add power only when you hit friction.\n\n🔸 Real example: raw data → client report in 5 minutes\n\n↳ Drop in your survey responses\n↳ Claude Code categorizes them by theme\n↳ Extracts key insights per category\n↳ Writes the formatted report\n↳ Ready to send\n\nThat used to take half a day.\nNow it's 5 minutes.\n\n🔸 10 prompts to get you started today:\n\n1️⃣ \"Read all files in this folder and give me a project summary.\"\n2️⃣ \"Analyze this survey data and categorize responses by theme.\"\n3️⃣ \"Turn these notes into a structured PRD.\"\n4️⃣ \"Build a dashboard from this CSV file.\"\n5️⃣ \"Research these 3 competitors and write a comparison report.\"\n6️⃣ \"Turn this transcript into a LinkedIn post, email, and summary doc.\"\n7️⃣ \"Write a CLAUDE.md for this project based on the files here.\"\n8️⃣ \"Clean up this dataset and flag any inconsistencies.\"\n9️⃣ \"Generate a pitch deck outline from this one-pager.\"\n🔟 \"Run these 3 tasks in parallel and give me a combined output.\"\n\nThe difference between learning Claude Code and using Claude Code is a plan.\n\nOne ships real work.\nThe other just looks good on LinkedIn.\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1781607601142,
+        "date": "2026-06-16T11:00:01.142Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQE7AePRalcDmQ/feedshare-shrink_800/B56Z7Mx4N7JQAg-/0/1781552088151?e=1786579200&v=beta&t=GrzTLxrKMwOqXyQxvcVeAb97uxVQvG344ncqyM6Ygbw",
+          "width": 800,
+          "height": 1000
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7472603887900925952",
+        "likes": 134,
+        "comments": 71,
+        "shares": 14,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 122
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7467530459808198656",
+      "entityId": "7467530459808198656",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_last-month-i-heard-someone-say-claude-code-activity-7467530459808198656-2__c",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467509104857739264",
+      "shareUrn": "urn:li:share:7467509104857739264",
+      "content": "Last month I heard someone say \"Claude Code is all you need and it will save your life\"... This month they are using Codex.\n\nAnd this is kind of the pattern, right?.\n\nA tool drops.\nEveryone loses their mind for three weeks.\n\nHalf my feed cancels the subscription they were obsessed with in October.\n\nThen it goes quiet. \nNobody announces the breakup. \nThe tool just stops getting mentioned, like it owes us money.\n\nAnd then the next one shows up and we do it all again.\n\nWhat gets me is how little comes out of it.\n\nWe spend insane energy deciding which \"tool is best\", but almost none is actually using one to finish something.\n\nI know people who can break down every model released this year and haven't shipped a single thing anyone paid for.\n\nThe tool was never the problem.\n\nThe problem is the new thing is more fun than the boring half-built thing you already started.\n\nThe people actually making money, or using this seriously, stopped caring about this a while ago.\n\nThey picked something that works, got good at it, kept going.\nNot exciting to watch. Works though.\n\nSo my reco:\n- Pick a tool that's good enough.\n- Stop reading about the next one.\n- Go build something a real person would hand you money for.\n\nThe model that \"changes your life\" isn't the next one.\n\nIt's the one you actually use long enough to get good at.\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1780398001625,
+        "date": "2026-06-02T11:00:01.625Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQG_2prMRS54dA/feedshare-shrink_800/B56Z6Hr9cTJkAc-/0/1780392908798?e=1786579200&v=beta&t=e-zVd2Ai3t3f0w7uTEL1PuHyiJTGbV8TcFcyufsAw0Y",
+          "width": 499,
+          "height": 662
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7467530459808198656",
+        "likes": 220,
+        "comments": 144,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 194
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7467892864031813632",
+      "entityId": "7467892864031813632",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_4-years-trying-to-build-a-business-while-activity-7467892864031813632-sqsI",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467844705234382848",
+      "shareUrn": "urn:li:share:7467844705234382848",
+      "content": "4 years trying to build a business while working a 9-5.\n\nNothing worked.\n\nThen the last 12 months changed everything.\n\nAnd when I look back, it comes down to two things:\n↳ Focus\n↳ Consistency\n\nBut focus is the one that actually shocked me.\n\nHere are the numbers I couldn't ignore:\n\n↳ Knowledge workers check email every 11 minutes\n↳ After any interruption, it takes 23 minutes to fully refocus\n↳ People switch tasks 1,000+ times per day\n\nThat means most people aren't working.\n\nThey're restarting. All day. Every day.\n\nEven if you sit at your desk for 8 hours,\nyour brain never stays on one problem long enough to build anything real.\n\nSo here's the system I used to fix it:\n\n1️⃣ Remove inputs\n↳ Notifications off\n↳ Phone off the desk\n↳ No background noise while thinking\n\nLess inputs = more usable brain.\n\n2️⃣ Reduce switching\n↳ Pick 3 tasks max per day\n↳ Finish one before touching the next\n↳ Plan tomorrow the night before\n\nYou don't need more hours.\nYou need fewer resets.\n\n3️⃣ Lower stimulation\n↳ Walks without headphones\n↳ Meals without content\n↳ Driving without podcasts\n\nSilence isn't wasted time.\nIt's how you rebuild concentration.\n\n4️⃣ Lock in a focus window\n↳ Same time\n↳ Same place\n↳ Same type of work\n\nYour brain learns the pattern.\nWhen you show up, it knows what to do.\n\nThis is what allowed me to build something real while still working a 9-5.\n\nMost people can't focus.\n\nWhich means if you can...\nthe gap between you and everyone else grows every single day.\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1780484405525,
+        "date": "2026-06-03T11:00:05.525Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHkOqvLj_lEaQ/feedshare-image-high-res/B56Z6MdMCMI8AU-/0/1780472922463?e=1786579200&v=beta&t=djoLbGoLT81JbdF5jzWiC4WT1g4SHDVJzm8I1C99rxA",
+          "width": 800,
+          "height": 537
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7467892864031813632",
+        "likes": 151,
+        "comments": 115,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 130
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468980022293356544",
+      "entityId": "7468980022293356544",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_most-people-use-ai-agent-to-describe-everything-activity-7468980022293356544-3dz3",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468926376419446784",
+      "shareUrn": "urn:li:share:7468926376419446784",
+      "content": "Most people use \"AI Agent\" to describe everything AI does.\n\nThat's a problem.\n\nBecause non-agentic AI, agentic AI, and AI agents are three completely different things.\n\nand if you want to learn how to build and sell all three,\ncheck this: https://lnkd.in/d5nE_Fuc\n\nHere's the breakdown:\n\n1️⃣ Non-Agentic AI\n↳ One input. One output.\n↳ No memory. No reasoning. No tools.\n\nUser types a prompt → model responds once → done.\n\nNo checking its own work.\nNo context retained after.\n\nUse cases: summarizing reports, rewriting emails, generating headline variations.\n\nFast. Cheap. No setup.\nBut it can't handle multi-step work.\n\n2️⃣ Agentic AI\n↳ AI that plans, executes, critiques, and repeats on its own.\n\nYou set a broad goal → system breaks it into sub-tasks → connects to tools and APIs → evaluates results → loops to improve.\n\nUse cases: research + market analysis + slide deck in one run, managing ad campaigns, generating and testing onboarding flows.\n\nHandles complex projects.\nIntegrates with tools and memory.\nMore reliable than single prompts.\n\nBut it's slower, more expensive, and still needs human guardrails.\n\n3️⃣ AI Agent\n↳ A single-task worker that automates one repetitive job reliably.\n\nYou define one clear responsibility → agent connects to 1-2 tools (CRM, email, calendar) → executes → outputs result without human guidance.\n\nUse cases: pull pipeline data from HubSpot weekly, draft FAQ replies and send via email, generate expense reports from accounting software.\n\nEasy to test. Easy to refine. Reliable in its lane.\n\nBut it can't handle broader projects, and breaks with unclear inputs.\n\nThe confusion between these three is why people overpay for the wrong solution, or underbuild when the problem needs more.\n\nKnow what you're building before you build it.\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1780743604253,
+        "date": "2026-06-06T11:00:04.253Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGzERQav8yfUg/feedshare-shrink_1280/B56Z6b09iHI4AQ-/0/1780730813004?e=1786579200&v=beta&t=HqR-htBpM4Wu8-va7G_qx4uqNR__So3SOcuBADvq2Gg",
+          "width": 1280,
+          "height": 1597
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468980022293356544",
+        "likes": 172,
+        "comments": 143,
+        "shares": 18,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 151
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "INTEREST",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7465367468840992768",
+      "entityId": "7465367468840992768",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_i-sold-ai-agents-to-50-companies-heres-activity-7465367468840992768-LEdK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7465367467331112960",
+      "shareUrn": "urn:li:share:7465367467331112960",
+      "content": "I sold AI Agents to 50+ companies. Here's a bunch of FREE resources if you want to do it too:\n\nIn order, below you'll find:\n↳ Platforms to use (my personal reco)\n↳ Theoretical Stuff (Repo, Books, Manuals)\n\n🔸 Platforms to use:\n\n🔗 Claude Code for Agentic Workflows\nhttps://lnkd.in/euj88YMh\n\n🔗 n8n for AI Automations (still useful for volume)\nhttps://n8n.io/\n\n🔸 Theory: How to build AI Agents (Repo, Books & Manuals)\n\n🔗 10 GitHub Repos Every AI Agent Builder Must Know\nhttps://lnkd.in/dDyXnUXq\n\n🔗 AI Agents Are More Than n8n + ChatGPT (Here’s Proof)\nhttps://lnkd.in/di6Qe_Y7\n\n🔗 The Ultimate AI Agent Roadmap (Step by Step)\nhttps://lnkd.in/de8ghChA\n\n🔗 50M New AI Jobs Are Coming - Here’s How to Prepare\nhttps://lnkd.in/dugbbfnP\n\n🔗 What 200 Hours of AI Agent Study Taught Me\nhttps://lnkd.in/dDYWmRay\n\n🔗 10 AI Tools Every Founder Uses to Scale Smarter\nhttps://lnkd.in/dA4ceRHt\n\n🔗 OpenAI’s AI Agent Guide Explained in Plain English\nhttps://lnkd.in/djpaFk6B\n\n🔗 LangGraph vs LangChain vs Autogen vs CrewAI (Key Differences)\nhttps://lnkd.in/dH8APX2x\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1779882304392,
+        "date": "2026-05-27T11:45:04.392Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFoiLvebRBGvA/feedshare-image-high-res/B4EZ5pQJx.GQAU-/0/1779882302834?e=1786579200&v=beta&t=A54OyO11J7N3Sj7yBsy2KvOvdhxKH5WOrEcx7vkM0qE",
+          "width": 800,
+          "height": 1000
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7465367468840992768",
+        "likes": 217,
+        "comments": 103,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 193
+          },
+          {
+            "type": "EMPATHY",
+            "count": 13
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7466443294345056256",
+      "entityId": "7466443294345056256",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_1-year-ago-i-quit-my-job-first-month-in-activity-7466443294345056256-nuaU",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7466100721931853825",
+      "shareUrn": "urn:li:share:7466100721931853825",
+      "content": "1 year ago I quit my job. \n\nFirst month in: No clients.\n\nNo idea if entrepreneurship was going to work.\n\nI remember thinking: maybe I made a mistake.\n\nThat feeling is real.\nAnd almost everyone who quit feels it.\n\nBut here's what I didn't understand at the time:\n\nThat wasn't failure.\nThat was the price of admission.\n\nEvery person running a real business went through a phase where it looked like they were losing.\n\nNot some of them.\nAll of them.\n\nThe difference is they didn't confuse the process with the outcome.\n\nThe discomfort isn't a sign you did something wrong.\n\nIt's a filter.\n\nIf building something of your own felt easy and safe,\neveryone would do it.\nAnd everyone doesn't.\n\nThat's the point.\n\nThe real failure isn't the hard first months.\n\nIt's staying somewhere that will never pay you what you're worth,\nnever let you grow past a certain ceiling,\nnever ask more from you than what fits a job description...\n\nBecause it feels safe.\n\nSafe is comfortable.\nSafe is also a cap.\n\nAnd most people choose the cap.\n\nThey stay in the job they hate,\nwaiting for the \"right moment\" to leave.\n\nThe right moment doesn't come.\nThe fear stays.\nThe ceiling stays.\n\nIf you're in that early struggle right now,\nyou're not behind.\n\nYou're exactly where everyone who made it once was.\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1780138801180,
+        "date": "2026-05-30T11:00:01.180Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGekcIsxWYifQ/feedshare-shrink_800/B4EZ5zrC4OK8Ac-/0/1780057124687?e=1786579200&v=beta&t=imtJAGCyqGFiiyE4ZaoiY2A3Qlr2Un3FujARrNGiDfo",
+          "width": 800,
+          "height": 1067
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7466443294345056256",
+        "likes": 142,
+        "comments": 73,
+        "shares": 11,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 113
+          },
+          {
+            "type": "EMPATHY",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 11
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7453759728939307008",
+      "entityId": "7453759728939307008",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_1-year-ago-i-quit-my-job-first-month-in-activity-7453759728939307008-yZg_",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7453571456631816192",
+      "shareUrn": "urn:li:share:7453571456631816192",
+      "content": "1 year ago I quit my job. \n\nFirst month in: No clients.\n\nNo idea if entrepreneurship was going to work.\n\nI remember thinking: maybe I made a mistake.\n\nThat feeling is real.\nAnd almost everyone who quit feels it.\n\nBut here's what I didn't understand at the time:\n\nThat wasn't failure.\nThat was the price of admission.\n\nEvery person running a real business went through a phase where it looked like they were losing.\n\nNot some of them.\nAll of them.\n\nThe difference is they didn't confuse the process with the outcome.\n\nThe discomfort isn't a sign you did something wrong.\n\nIt's a filter.\n\nIf building something of your own felt easy and safe,\neveryone would do it.\nAnd everyone doesn't.\n\nThat's the point.\n\nThe real failure isn't the hard first months.\n\nIt's staying somewhere that will never pay you what you're worth,\nnever let you grow past a certain ceiling,\nnever ask more from you than what fits a job description...\n\nBecause it feels safe.\n\nSafe is comfortable.\nSafe is also a cap.\n\nAnd most people choose the cap.\n\nThey stay in the job they hate,\nwaiting for the \"right moment\" to leave.\n\nThe right moment doesn't come.\nThe fear stays.\nThe ceiling stays.\n\nIf you're in that early struggle right now,\nyou're not behind.\n\nYou're exactly where everyone who made it once was.\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1777114803538,
+        "date": "2026-04-25T11:00:03.538Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGebidVcSLpBw/feedshare-shrink_1280/B4DZ3BnvnTJwAM-/0/1777069915202?e=1786579200&v=beta&t=4KX1ycjKEy8velVPiEqKDMc3PRn-ja5dYQY_WVS-ETg",
+          "width": 1280,
+          "height": 1707
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7453759728939307008",
+        "likes": 142,
+        "comments": 67,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 118
+          },
+          {
+            "type": "EMPATHY",
+            "count": 12
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7466805677429149696",
+      "entityId": "7466805677429149696",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_the-one-person-ai-business-one-pager-6-activity-7466805677429149696-x5hV",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7466522527142486016",
+      "shareUrn": "urn:li:share:7466522527142486016",
+      "content": "The one-person AI business one-pager.\n\n6 steps to $100K with your AI Agency:\n\nAnd if you want to build and scale yours, check this: https://lnkd.in/d5nE_Fuc\n\n1️⃣ Spot the Pain\nDon't start with tools. Start with problems.\n\nFind something repetitive, costly, and ignored.\n\nThen map it:\n↳ Inputs → Steps → Outputs\n\nThat map is your product.\n\n2️⃣ Start as a Service\nDo the work manually first.\n\nProve people will pay before you automate anything.\n\nMost people build before they sell.\nThat's why most people have zero clients.\n\nValidation first.\nAutomation second.\n\n3️⃣ Pick One Business Model\n\n↳ Productized service: fixed scope, fixed price\n↳ Cohorts/courses: time-boxed, outcome-driven\n↳ SaaS/micro-tools: automate one specific workflow\n↳ Templates/assets: passive sales\n\nOne model.\nOne market.\nOne offer.\n\nComplexity kills momentum.\n\n4️⃣ Build a Marketing Engine (4 moves)\n\n→ Listen: find pain points via AI research\n→ Create: build a site with Lovable + Searchable\n→ Compound: get mentioned in ChatGPT and Perplexity\n→ Personalise: tailor outreach with Clay + Mutiny\n\nMost people post and hope.\n\nThis is a system.\n\n5️⃣ Operations Rule\n\nSimple decision tree:\n\n↳ If it repeats → automate it\n↳ If it needs judgment → templatize it\n\nTools that actually matter:\n↳ Lindy → inbox and CRM\n↳ Fathom → calls\n↳ Cursor → automations\n↳ Precision → KPIs\n\nYour ops should run without you thinking about them.\n\n6️⃣ Sales Engine\n\nCapture → Qualify → Nurture → Close → Expand\n\nAI handles follow-ups instantly.\nAI revives no-shows.\n\nPitch deck structure that works:\n↳ Problem\n↳ Proof\n↳ Plan\n↳ Price\n\nAnd the math is simple:\n\n$3K × 3 clients = $100K/yr\n$1K product × 9/mo = $100K/yr\n$199 SaaS × 42 subs = $100K/yr\n\nPick your path.\nBuild the engine.\nRepeat.\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1780225200040,
+        "date": "2026-05-31T11:00:00.040Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGxKoQ68aqHjg/feedshare-shrink_1280/B4EZ55qrQIJIAM-/0/1780157691182?e=1786579200&v=beta&t=tyHX2IfVFaGeT_nrVTpsCjyh789YPzVZr01a89woVFk",
+          "width": 800,
+          "height": 1001
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7466805677429149696",
+        "likes": 162,
+        "comments": 84,
+        "shares": 18,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 145
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7465718565720096768",
+      "entityId": "7465718565720096768",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_ai-makes-you-faster-but-fast-in-the-wrong-activity-7465718565720096768-W1su",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7465671980109983744",
+      "shareUrn": "urn:li:share:7465671980109983744",
+      "content": "AI makes you faster. But fast in the wrong direction is still wrong.\n\nI see this constantly with Claude Code users.\n\nThey prompt → it generates → they ship.\n\n1,000 lines of code in minutes.\nA very fancy working demo.\nA supposedly impressive output.\n\nBut the more this demo grows, the more:\n\n↳ They can't explain what it built\n↳ They can't extend it\n↳ They can't fix it when it breaks\n\nHere's what most people skip:\n\nBefore you prompt, think.\n\n↳ What components do I actually need?\n↳ What's the core user path?\n↳ What breaks if the data is empty?\n↳ What am I building vs what sounds cool?\n\nAI can't answer those questions for you.\n\nAnd once the demo works, the job isn't \"add more.\"\nIt's making it less fragile:\n\n↳ Clean the data flow\n↳ Kill features that only made sense in the prompt\n↳ Handle edge cases before a client finds them\n↳ Turn the lucky path into the reliable path\n\nSpeed is the easy part.\n\nThe hard part is knowing what to build, what to cut, and why.\n\nThat's not an AI skill.\nThat's yours.\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1779966012411,
+        "date": "2026-05-28T11:00:12.411Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHDZjS-RHlzSw/feedshare-shrink_1280/B4EZ5tlGu2HQAM-/0/1779954904274?e=1786579200&v=beta&t=0Xs0uaZOqQVOE2aU9raLriJ0i2ykugLE4llWefg-3zc",
+          "width": 1018,
+          "height": 1024
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7465718565720096768",
+        "likes": 943,
+        "comments": 171,
+        "shares": 34,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 781
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 93
+          },
+          {
+            "type": "EMPATHY",
+            "count": 29
+          },
+          {
+            "type": "PRAISE",
+            "count": 20
+          },
+          {
+            "type": "INTEREST",
+            "count": 17
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7454122127705698304",
+      "entityId": "7454122127705698304",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_most-of-your-beliefs-arent-yours-you-copied-activity-7454122127705698304-HOex",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7453924602562543616",
+      "shareUrn": "urn:li:share:7453924602562543616",
+      "content": "Most of your beliefs aren't yours. You copied them from whoever was around you at age 10.\n\nYour parents. Your neighborhood. Your friends.\nThat's where your ceiling came from.\n\nNot your potential.\nYour environment.\n\nWe're herd animals.\nConsensus-seeking isn't weakness. It's survival wiring.\n\nYour brain scans the room and asks:\n\"What's normal here?\"\n\nThen it builds your reality around that answer.\n\nYour income expectations? Calibrated to your circle.\nYour ambition? Calibrated to your circle.\nWhat you think is even possible? Same thing.\n\nIf everyone around you earns $60K and thinks $100K is \"a lot\"...\nthat becomes your ceiling too.\n\nNot because you're not capable.\nBecause your nervous system thinks that's the range.\n\nMost people never fix this.\n\nThey read books. Watch videos. Take courses.\nBut go home to the same environment.\nSame conversations. Same energy. Same limits.\n\nAnd wonder why nothing changes.\n\nThe brutal shortcut nobody wants to say out loud:\n\nYou have to change your circle.\n\nAnd that means leaving people behind.\nNot dramatically. Not with a speech.\nBut slowly, quietly... you outgrow rooms.\n\nThat's uncomfortable. So most people don't do it.\nThey stay. They shrink. They fit in.\n\nThe people building real things with AI right now?\n\nThey're not smarter.\nThey're just surrounded by others doing the same.\n\nThat's it.\n\nThat's the whole advantage.\n\nYour environment is either your ceiling or your launchpad.\n\nYou don't get to be neutral about it.\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1777201206137,
+        "date": "2026-04-26T11:00:06.137Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQF-cH2F_HTCwg/feedshare-shrink_800/B4DZ3Go7XuHsAc-/0/1777154111310?e=1786579200&v=beta&t=QG6oKuBM9h2Q1-U8EnDUyaWgcJ-_YMXbks1I6fD6Tuw",
+          "width": 800,
+          "height": 1067
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7454122127705698304",
+        "likes": 92,
+        "comments": 69,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 79
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7454846984571674626",
+      "entityId": "7454846984571674626",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_everyone-is-obsessed-with-prompts-better-activity-7454846984571674626-PKW1",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7454635263156256770",
+      "shareUrn": "urn:li:share:7454635263156256770",
+      "content": "Everyone is obsessed with prompts.\n\n\nBetter models.\nSmarter frameworks.\nLonger context windows.\n\nNobody talks about memory.\n\nAnd that's exactly why most people are stuck rebuilding the same context every single session.\n\nMemory is the most underestimated feature in AI right now.\n\nNot because it's complex.\nBecause it's not flashy.\n\nNo viral demo.\nNo impressive output to screenshot.\n\nJust a system that gets better every week because it remembers what you've already taught it.\n\nThat's where the real ROI lives.\n\nThe people making 10x from AI aren't using better prompts.\n\nThey built memory into their systems.\n\n↳ Fewer corrections\n↳ Less context-setting\n↳ Output that matches your standards from session one\n\nWithout memory, you're using AI like a one-shot tool.\nSame starting point every time.\nSame rework every time.\n\nWith memory, your AI learns your business.\nYour tone. Your rules. Your preferences.\nIt compounds.\n\nMost people skip this step because it doesn't feel like building.\n\nBut it is the only thing that separates a tool you use once from a system that pays you back every day.\n\nThe prompt gets you the output.\nThe memory gets you the business.\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1777374025481,
+        "date": "2026-04-28T11:00:25.481Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGWnwVBOSBlfQ/feedshare-image-high-res/B4DZ3QvRT0G4AU-/0/1777323546329?e=1786579200&v=beta&t=RzYZuVYoCGe2YcLc0ELunrdDfBoVduzgU_5_HGvd79g",
+          "width": 1274,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7454846984571674626",
+        "likes": 336,
+        "comments": 167,
+        "shares": 11,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 301
+          },
+          {
+            "type": "EMPATHY",
+            "count": 16
+          },
+          {
+            "type": "INTEREST",
+            "count": 13
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7455934050155945985",
+      "entityId": "7455934050155945985",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_72-of-sales-teams-time-is-wasted-in-admin-activity-7455934050155945985-eNOG",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7455714004380966912",
+      "shareUrn": "urn:li:share:7455714004380966912",
+      "content": "72% of sales team's time is wasted in admin.\n\nWe built 4 AI agents to fix it ⤵️\n\nHere's how they work:\n\n1️⃣ Carlos — The Researcher\n↳ Gathers prospect intelligence before anyone picks up the phone\n↳ AI prospecting cuts research time by 50-70% per lead\n↳ Your reps show up informed, not improvising\n\n2️⃣ Megan — The Analyst\n↳ Scores leads and filters out the ones that will never convert\n↳ AI lead scoring increases conversion rates by 30%\n↳ Your team stops chasing the wrong people\n\n3️⃣ Liam — The Writer\n↳ Creates personalized outreach for every single prospect\n↳ AI-personalized messages get 2-3x higher response rates vs generic templates\n↳ Not mail merge. Actually personalized.\n\n4️⃣ Emma — The Coordinator\n↳ Manages the pipeline, tracks progress, keeps the CRM clean\n↳ Saves managers 5-8 hours per week on forecasting alone\n↳ No more end-of-week data entry sessions\n\nThe result?\n\nCompanies using AI in sales see 50% more leads with 40-60% cost reduction.\n\nAnd a 10-20% revenue increase on top of that.\n\nThis isn't theory. It's what we built.\n\nIf you want one for your business, comment \"BOOKING\" and I'll send you the link to schedule a meeting with our team.",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1777633202113,
+        "date": "2026-05-01T11:00:02.113Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQH_O5ESheHVAQ/feedshare-shrink_1280/B4DZ3gEYUWH8AM-/0/1777580738087?e=1786579200&v=beta&t=UYU0Kdl87taoHpO3EXIrZA46JUTjZjfld39_etiNHeA",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7455934050155945985",
+        "likes": 392,
+        "comments": 211,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 351
+          },
+          {
+            "type": "EMPATHY",
+            "count": 18
+          },
+          {
+            "type": "INTEREST",
+            "count": 11
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7457383627602173952",
+      "entityId": "7457383627602173952",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_everyone-talks-about-the-jobs-ai-will-kill-activity-7457383627602173952-OXTb",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7457107461733371904",
+      "shareUrn": "urn:li:share:7457107461733371904",
+      "content": "Everyone talks about the jobs AI will kill.\n\nNobody talks about the ones it's creating.\n\n67% of mature companies are already building new AI roles from scratch.\n87% have a dedicated AI team.\n\nThat's not a trend. That's a hiring wave.\n\nThe roles that didn't exist 3 years ago:\n\n↳ Chief AI Officer\n↳ AI Architect\n↳ Head of AIOps\n↳ Model Validator\n↳ AI Risk & Governance Specialist\n↳ Prompt Engineer\n↳ Data & AI Translator\n\nThese aren't niche titles.\nThey're becoming standard.\n\nThe internet didn't kill jobs.\nIt created entire industries.\n\nAI is doing the same thing.\nRight now.\n\nThe only question is whether you're learning while everyone else is watching.\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1777978808308,
+        "date": "2026-05-05T11:00:08.308Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHozVNcNTmo0Q/feedshare-shrink_1280/B56Z3z3uVrKYAQ-/0/1777912964684?e=1786579200&v=beta&t=nqZF-Str1JjCcGfBdY4UEGWwrDehJ6Fok9Jo0sv2JDY",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7457383627602173952",
+        "likes": 387,
+        "comments": 207,
+        "shares": 11,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 343
+          },
+          {
+            "type": "INTEREST",
+            "count": 18
+          },
+          {
+            "type": "EMPATHY",
+            "count": 15
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7458108413684932608",
+      "entityId": "7458108413684932608",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_anthropic-just-partnered-with-spacex-to-massively-activity-7458108413684932608-u618",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7457831439682666496",
+      "shareUrn": "urn:li:share:7457831439682666496",
+      "content": "Anthropic just partnered with SpaceX to massively scale their compute infrastructure.\n\nMore servers.\nHigher usage limits.\nFaster Claude Code.\nMore powerful Claude API.\n\nThis isn't a small update.\n\nThis is the kind of move that happens when a company is preparing for 10x the demand.\n\nAnd here's what most people miss:\n\nEvery time infrastructure scales like this...\nthe tools get cheaper, faster, and more accessible.\n\nWhich means the gap between early builders and everyone else gets wider.\n\nNot smaller.\n\nThe people who started building with Claude Code 6 months ago?\n\nThey already have the workflows.\nThe systems.\nThe client results.\n\nWhen the limits go up, they scale up.\n\nEveryone else starts from zero.\n\nThis is how every technology wave works:\n\n↳ Infrastructure expands\n↳ Tools become more powerful\n↳ Early movers compound\n↳ Late movers catch up at a higher price\n\nThe Anthropic x SpaceX deal isn't just a headline.\n\nIt's a signal.\n\nThe window to build before everyone else does is still open.\n\nBut it won't be for long.\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1778151610776,
+        "date": "2026-05-07T11:00:10.776Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGTZQz_g8XkEw/feedshare-shrink_1280/B56Z3.KLQ6G0AQ-/0/1778085573971?e=1786579200&v=beta&t=jE6Jmuc8mg9QyTzDlsnmnh3TBGaRs5nREstaDA3mPPc",
+          "width": 1204,
+          "height": 462
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7458108413684932608",
+        "likes": 261,
+        "comments": 94,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 230
+          },
+          {
+            "type": "EMPATHY",
+            "count": 13
+          },
+          {
+            "type": "INTEREST",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7463544202610663424",
+      "entityId": "7463544202610663424",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_everyone-is-replacing-their-team-with-ai-activity-7463544202610663424-zrDz",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7463331110916378624",
+      "shareUrn": "urn:li:share:7463331110916378624",
+      "content": "Everyone is replacing their team with AI Agents.\n\nHere's why that's a trap.\n\nThe org chart looks clean now:\n↳ CEO at the top\n↳ Agent Lead below\n↳ 10 AI Agents doing the work\n\nNo salaries.\nNo complaints.\nNo sick days.\n\nIt looks like efficiency.\nIt's actually fragility.\n\nBecause here's what AI Agents can't do:\n\nThey can't walk into a room and earn trust.\nThey can't read the politics of a deal going sideways.\nThey can't tell you when something feels wrong before the data does.\nThey can't inspire someone to stay when they're about to quit.\n\nAI is fast.\nAI is consistent.\nAI is cheap.\n\nBut AI doesn't care.\n\nAnd in business, caring is the entire game.\n\nThe best deals I've seen closed weren't won on price.\nThey were won because someone showed up.\nBecause someone remembered a name.\nBecause someone made the other person feel understood.\n\nYou can't automate that.\n\nThe companies replacing every human with an agent will move fast.\n\nAnd then hit a wall.\n\nBecause clients don't buy from systems.\nThey buy from people they trust.\n\nAI is the engine.\nPeople are still the driver.\n\nDon't confuse the tool for the business.\n\nAnd if you want to know where AI can move the needle in your business, check this: https://gentes.ai/\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1779447603848,
+        "date": "2026-05-22T11:00:03.848Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHCG7gxx1HoqA/feedshare-shrink_800/B4DZ5MUGK7IMAc-/0/1779396797544?e=1786579200&v=beta&t=gXKknxc-2Qbr_Hio-HyALyWNhnZgx3JLW5yGhvGBX44",
+          "width": 800,
+          "height": 999
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7463544202610663424",
+        "likes": 440,
+        "comments": 165,
+        "shares": 20,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 374
+          },
+          {
+            "type": "EMPATHY",
+            "count": 21
+          },
+          {
+            "type": "INTEREST",
+            "count": 17
+          },
+          {
+            "type": "PRAISE",
+            "count": 15
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 9
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7466100070824783872",
+      "entityId": "7466100070824783872",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_if-claude-feels-wrong-youre-probably-the-activity-7466100070824783872-cyNo",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7466100069742727168",
+      "shareUrn": "urn:li:share:7466100069742727168",
+      "content": "If Claude feels wrong.\nYou’re probably the problem.\n\nI've been using Claude Code daily for months now.\nOne thing became obvious fast:\n\nWhen Claude gives you inconsistent results, it's almost always your setup. Not the model.\n\nHere's what I changed that made the difference:\n\nAnd if you want to make money with Claude and start an AI agency, check this out: https://lnkd.in/dYb4u6sE\n\n𝗖𝗟𝗔𝗨𝗗𝗘.𝗺𝗱\n\nStop leaving it empty. Define your stack, architecture, and conventions. Claude reads it first every session. Treat it like onboarding docs for a new engineer.\n\n𝗖𝗟𝗔𝗨𝗗𝗘.𝗹𝗼𝗰𝗮𝗹.𝗺𝗱\n\nKeep your personal preferences out of the shared project file. Your workflow shouldn't break your teammates'.\n\n𝗺𝗰𝗽.𝗷𝘀𝗼𝗻\n\nConfigure it once. GitHub, JIRA, Slack, databases. All connected, version-controlled. No more re-explaining your tooling every session.\n\n.𝗰𝗹𝗮𝘂𝗱𝗲/𝘀𝗲𝘁𝘁𝗶𝗻𝗴𝘀.𝗷𝘀𝗼𝗻 \n\nHooks for validation, linting, and blocking unsafe operations. PreToolUse and PostToolUse guardrails that run automatically so you catch problems before they ship.\n\n.𝗰𝗹𝗮𝘂𝗱𝗲/𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀/\n\nSlash commands for recurring workflows. One keystroke runs your entire review or deploy process. No more copy-pasting the same prompt.\n\n.𝗰𝗹𝗮𝘂𝗱𝗲/𝘀𝗸𝗶𝗹𝗹𝘀/\n\nReusable workflows that load only when needed. Testing patterns, deploy checklists, API conventions. Auto-triggered by context or invoked with /skill-name. \n\n.𝗰𝗹𝗮𝘂𝗱𝗲/𝗮𝗴𝗲𝗻𝘁𝘀/\n\nSpecialized sub-agents with isolated context. Code review, security, and docs. Each has its own scope instead of one overloaded conversation.\n\nYour Claude Code setup is either working for your team or against it.\nStructure it once. Benefit from it every day after.\n\nWhat would you add to this list?",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1780056970316,
+        "date": "2026-05-29T12:16:10.316Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQF9RL5uLKAbbA/feedshare-shrink_800/B4EZ5zqc1iKgAg-/0/1780056968801?e=1786579200&v=beta&t=pII9LdyyXJLr0PLJlrYlvVAhsNRMqidrhXRLO92wntg",
+          "width": 800,
+          "height": 1000
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7466100070824783872",
+        "likes": 416,
+        "comments": 86,
+        "shares": 54,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 383
+          },
+          {
+            "type": "INTEREST",
+            "count": 15
+          },
+          {
+            "type": "EMPATHY",
+            "count": 13
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7453397387454144513",
+      "entityId": "7453397387454144513",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_i-sold-ai-agents-to-50-companies-below-activity-7453397387454144513-2b9o",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7453194245764550656",
+      "shareUrn": "urn:li:share:7453194245764550656",
+      "content": "I sold AI Agents to 50+ companies\n\nBelow is the material you need to do it to\n\nIn order, below you'll find:\n↳ Platforms to use (my personal reco)\n↳ Theoretical Stuff (Repo, Books, Manuals)\n↳ Business Part (how to scale an Agency to 10k/mo) \n\n🔸 Platforms to use:\n\n🔗 Antigravity for Agentic Workflows\nhttps://lnkd.in/dvPzca7Z\n\n🔗 n8n for AI Automations\nhttps://n8n.io/\n\n🔸 Theory: How to build AI Agents (Repo, Books & Manuals)\n\n🔗 10 GitHub Repos Every AI Agent Builder Must Know\nhttps://lnkd.in/dDyXnUXq\n\n🔗 AI Agents Are More Than n8n + ChatGPT (Here’s Proof)\nhttps://lnkd.in/di6Qe_Y7\n\n🔗 The Ultimate AI Agent Roadmap (Step by Step)\nhttps://lnkd.in/de8ghChA\n\n🔗 50M New AI Jobs Are Coming - Here’s How to Prepare\nhttps://lnkd.in/dugbbfnP\n\n🔗 What 200 Hours of AI Agent Study Taught Me\nhttps://lnkd.in/dDYWmRay\n\n🔗 10 AI Tools Every Founder Uses to Scale Smarter\nhttps://lnkd.in/dA4ceRHt\n\n🔗 OpenAI’s AI Agent Guide Explained in Plain English\nhttps://lnkd.in/djpaFk6B\n\n🔗 LangGraph vs LangChain vs Autogen vs CrewAI (Key Differences)\nhttps://lnkd.in/dH8APX2x\n\n🔸 Business Part: AI Automations\n\n🔗 My Roadmap to scale to 10K/mo\nhttps://lnkd.in/dYb4u6sE\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1777028414596,
+        "date": "2026-04-24T11:00:14.596Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFdfV6MpHhbYA/feedshare-shrink_800/B4DZ28QrJnJQAc-/0/1776979981157?e=1786579200&v=beta&t=N250sJ0nQ1TsUVpvREMZu04K2Y4KDPKWTYRiEwkXFKI",
+          "width": 800,
+          "height": 1000
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7453397387454144513",
+        "likes": 122,
+        "comments": 92,
+        "shares": 10,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 105
+          },
+          {
+            "type": "INTEREST",
+            "count": 9
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7463906583710740481",
+      "entityId": "7463906583710740481",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_some-experiences-just-stop-you-in-your-tracks-activity-7463906583710740481-bbkG",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7463903945665519616",
+      "shareUrn": "urn:li:ugcPost:7463903945665519616",
+      "content": "Some experiences just stop you in your tracks. I was invited to the Festival de Cannes this year.\n\nAnd I'm still processing it.\n\nThe people. The energy. The conversations that happened between sessions and dinners and moments you didn't plan for.\n\nBNP Paribas Wealth Management made the whole thing possible.\n\nAnd I mean that sincerely.\n\nThe organization was flawless. The support was genuine. The attention to every detail reminded me what excellence actually looks like in practice.\n\nBut the part I'll carry longest?\n\nThe entrepreneurs I met there.\n\nPeople building things that matter. People who carry their vision with them everywhere.\n\nThere's something about being in a room with people like that.\n\nIt doesn't motivate you in a shallow way.\nIt recalibrates you.\n\nI left Cannes thinking differently about what's possible.\nAbout the kind of people worth being around.\nAbout the standard you set for yourself when you're surrounded by that level.\n\nGrateful doesn't quite cover it.\n\nBut it's the closest word I have.\n\nThank you to BNP Paribas Wealth Management for the invitation and for creating something truly unforgettable. 🙏\n\nThank you Vincent Lecomte, Virginie Delaunay,Servane Costrel de Corainville and everyone else for the hospitality!! \n\nThanks also to Elena Doms, Valentin Tombrachevici, Jessica Holzbach, Larissa Schmid, Frank-David Cohen and every other entrepreneur that made this unforgettable.",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1779534002235,
+        "date": "2026-05-23T11:00:02.235Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGv9VS5ikVXhw/feedshare-image-high-res/B4DZ5UdFeSIMAU-/0/1779533371604?e=1786579200&v=beta&t=-UOe5Bdd4S9YQqFXgoXVm5yP0_F0bBdixL9SLCSLHRU",
+          "width": 2048,
+          "height": 1364
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHhwjQ_2rsOJw/feedshare-image-high-res/B4DZ5UdFbLJ4AU-/0/1779533371434?e=1786579200&v=beta&t=zCxs0_-meyzkOVHPbFQPltZ6VhSiT9JORT96GZFqMmY",
+          "width": 2048,
+          "height": 1364
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQG1977JmoehPg/feedshare-image-high-res/B4DZ5UdFegHIAU-/0/1779533371732?e=1786579200&v=beta&t=g6zMIhQ85_yWlQrK2lzUdGs7vieg-Bi0I3RWqe6QJAI",
+          "width": 2048,
+          "height": 1364
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGdduj-HRL78A/feedshare-image-high-res/B4DZ5UdFZdJQAY-/0/1779533371285?e=1786579200&v=beta&t=G9mQSa6T2uqbBbhOgMcroY00rHui7HvEMU7-pZso2iU",
+          "width": 2048,
+          "height": 1364
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEsw-BkOiyYEg/feedshare-shrink_1280/B4DZ5UdFVgH4AM-/0/1779533371047?e=1786579200&v=beta&t=t8gJ37N4of1zwVpbybjtyNlKJrtOcFhSIVDly7-E80o",
+          "width": 1148,
+          "height": 1722
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEiTFcnq0F7BA/feedshare-shrink_1280/B4DZ5UdFXIKAAM-/0/1779533371091?e=1786579200&v=beta&t=4Rij--7BZ5u2DHAiYPUUR3XHu4PNvngGLCcdRUwFmxg",
+          "width": 1148,
+          "height": 1722
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7463903945665519616",
+        "likes": 174,
+        "comments": 50,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 154
+          },
+          {
+            "type": "EMPATHY",
+            "count": 14
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7453034948476776449",
+      "entityId": "7453034948476776449",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_a-single-claudemd-file-just-hit-15k-github-activity-7453034948476776449-OAKd",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7452802644852793345",
+      "shareUrn": "urn:li:share:7452802644852793345",
+      "content": "A single CLAUDE.md file just hit 15K GitHub stars.\n\nIt's based on Andrej Karpathy's coding rules.\n\nAnd it fixes the 4 dumbest things AI coding assistants do.\n\n🔍 Problem\n\nLLMs make wrong assumptions.\nThey overcomplicate code.\nThey touch things they shouldn't.\n\nSame mistakes. Every single time.\n\nforrestchang took Karpathy's observations and turned them into 4 behavioral principles.\n\nOne markdown file. Drop it into any Claude Code project. Done.\n\n🧠 The 4 Principles\n\n1️⃣ Think Before Coding\n→ State assumptions explicitly\n→ Present multiple interpretations when things are ambiguous\n→ Push back when a simpler approach exists\n→ No more silent guessing on your behalf\n\n2️⃣ Simplicity First\n→ 1000 lines when 100 would do? Blocked.\n→ No speculative features\n→ No abstractions for single-use code\n→ The test: would a senior engineer call this overcomplicated?\n\n3️⃣ Surgical Changes\n→ Don't \"improve\" adjacent code\n→ Don't reformat things that aren't broken\n→ Match existing style, even if you'd do it differently\n→ Pre-existing dead code? Flag it. Don't delete it.\n\n4️⃣ Goal-Driven Execution\n→ Transform vague instructions into verifiable goals\n→ \"Add validation\" becomes \"write tests for invalid inputs, then make them pass\"\n→ Every multi-step task gets a plan with checkpoints\n→ Step. Verify. Repeat.\n\n📊 You know it's working when:\n\n→ Diffs get smaller\n→ Clarifying questions come before implementation\n→ PRs stop carrying drive-by refactors\n\nThe install takes seconds.\n\nWorks as a Claude Code plugin or a per-project CLAUDE.md.\n\nContext engineering for AI coding is becoming its own discipline.\n\nThe best fix for LLM behavior isn't a better model.\n\nIt's better instructions.\n\nLink for the repo here: https://lnkd.in/dk36fM_w\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1776942002410,
+        "date": "2026-04-23T11:00:02.410Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQF613CAQytruA/feedshare-shrink_1280/B4DZ22sg00G8AM-/0/1776886615660?e=1786579200&v=beta&t=dZ62fEET7dg-p0RgaYNaopkRypoeyH6cj5uOMlQxFos",
+          "width": 1280,
+          "height": 1185
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7453034948476776449",
+        "likes": 173,
+        "comments": 90,
+        "shares": 14,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 153
+          },
+          {
+            "type": "INTEREST",
+            "count": 11
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7464635354617245698",
+      "entityId": "7464635354617245698",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_most-people-use-ai-to-write-emails-thats-activity-7464635354617245698-KOTi",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7464635353249939456",
+      "shareUrn": "urn:li:share:7464635353249939456",
+      "content": "Most people use AI to write emails.\n\nThat's the least valuable thing it can do.\n\nClaude can coach you through anything.\nBuild your path. Test you. Show you where you're wrong.\n\nHere are 7 prompts that will actually change how you learn:\n\n1️⃣ Learn anything in 20 hours\n↳ \"I want to learn [topic] in 20 hours. I'm a beginner. Build a structured plan with exercises at each stage. Tell me what to prioritize, what to skip, and the traps most beginners fall into.\"\n\n2️⃣ Find your blind spots\n↳ \"I've been studying [topic] for [X time]. Here's what I think I understand: [your summary]. Tell me what I'm getting wrong, oversimplifying, or completely missing.\"\n\n3️⃣ Quiz you until you fail\n↳ \"Quiz me on [topic]. Start easy, increase difficulty as I answer correctly. When I'm wrong, explain why and ask a follow-up. Keep going until I get 10 right in a row.\"\n\n4️⃣ Simulate a world-class mentor\n↳ \"You are a top expert in [topic]. I'm your student. Challenge me when my thinking is wrong. Push me deeper when I'm right. Start by asking what I already know.\"\n\n5️⃣ Bridge new ideas to what you already know\n↳ \"I understand [familiar topic] well. Explain [new topic] using direct analogies from it. Tell me exactly where the analogy breaks down.\"\n\n6️⃣ Put you in a real scenario\n↳ \"Create a high-stakes situation where I must apply [topic]. Ask for my first move. Wait for my answer. Grade my decision. Show me the hidden consequences. Then ask for my next move.\"\n\n7️⃣ Debate you\n↳ \"I believe [your position]. Argue the opposite. Be rigorous. When I counter, find the weaknesses in my argument. Don't let me win easily.\"\n\nReading feels productive.\nTesting actually is.\n\nClaude will be brutally honest.\nThat's exactly what a good coach does.\n\n♻️ Repost to help your network\nAnd follow Giovanni Beggiato for more.",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1779707754759,
+        "date": "2026-05-25T11:15:54.759Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQF0rLmzS8boQQ/feedshare-image-high-res/B4EZ5e2TKUH8AU-/0/1779707753414?e=1786579200&v=beta&t=7ZpQ2spS2vbbVOt0vYPGHVIlsXmxrlojTDKnvJG-v_0",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7464635354617245698",
+        "likes": 274,
+        "comments": 91,
+        "shares": 48,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 251
+          },
+          {
+            "type": "INTEREST",
+            "count": 11
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7456658838486712320",
+      "entityId": "7456658838486712320",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_how-to-price-agentic-workflows-activity-7456658838486712320-0fvI",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7456612668880289792",
+      "shareUrn": "urn:li:ugcPost:7456612668880289792",
+      "content": "Complete Guide on How to Price Agentic Workflows\n\nI made $60K+ with this pricing system:\n\nEveryone wants to make money with AI workflows,\nbut pricing is the part nobody teaches you.\n\nHow do you define the value?\nHow do you justify the number?\nHow do you say the price with confidence?\n\nSo here's the guide I wish I had when I started.\n\n1️⃣ Stop charging by the hour\nCharge for the outcome instead.\n\nEvery workflow delivers 3 types of value:\n↳ Saves money (cuts costs)\n↳ Saves time (frees up hours)\n↳ Reduces errors (prevents expensive mistakes)\n\nIf you charge hourly, you cap your own income.\nThe faster you build, the less you make.\n\nThat's the wrong game.\n\n2️⃣ The 2 core pricing models\n↳ Value-based project pricing (based on business impact)\n↳ Monthly retainer (for ongoing maintenance and optimization)\n\nMost freelancers only use one.\nThe best ones use both.\n\n3️⃣ The 10x ROI rule\nThis is the number that makes pricing obvious.\n\nPrice at 10% of annual savings.\n\nExample:\n↳ Workflow saves €12K/year\n↳ You charge €1,200\n\nThat's a no-brainer for any business owner.\n\n4️⃣ How to price retainers\nSimple formula:\n↳ Estimate your monthly cost\n↳ Apply a 50% margin (double it)\n\nNo guessing.\nNo undercharging.\n\n5️⃣ Present the transformation, not the number\nLead with what changes for them.\nDefine what \"done\" looks like before you say the price.\nScope it clearly so there's no room for creep.\n\nThen say the number.\n\n6️⃣ Handle objections by adjusting scope\nNever discount your price.\n\nIf the budget is tight:\n↳ Remove deliverables\n↳ Reduce scope\n↳ Phase the project\n\nYour price signals your value.\nThe moment you discount, you signal the opposite.\n\n7️⃣ Turn one-off projects into recurring income\nEvery project is a door to a retainer.\n\nOffer:\n↳ Maintenance\n↳ Optimization\n↳ Training\n↳ Reporting\n\nOne client. Multiple invoices.\n\n8️⃣ The V.A.L.U.E. framework\n↳ Vision — tie the automation to real business goals\n↳ Assess — audit and map the current workflow\n↳ Leverage — find the opportunities with outsized returns\n↳ Unveil — present the solution with simple ROI math\n↳ Elevate — review, optimize, and expand continuously\n\nIf you want to learn how to price and sell AI automations properly,\nthis is where you start.\n\nAnd if you want to apply workflows in your business: www.gentes.ai\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1777806005117,
+        "date": "2026-05-03T11:00:05.117Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "How To Price Agentic Workflows",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHKsdqGXVWgDQ/feedshare-document-chunked-pdf/B4DZ3s1r4JG8Bk-/0/1777794990989?e=1785877200&v=beta&t=0w1paADneCrxCQE4DfbvTEIqhzJJzTZQ2F8T_b0qTKM",
+        "coverPages": [
+          {
+            "width": 1487,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHKsdqGXVWgDQ/feedshare-document-cover-images_1920/B4DZ3s1r4JG8BQ-/0/1777794990850?e=1785877200&v=beta&t=Rwl5u-g_czVHpF7pUw7q939M_pQXfsuwcK8ri6jR_b0",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHKsdqGXVWgDQ/feedshare-document-cover-images_1920/B4DZ3s1r4JG8BQ-/1/1777794990850?e=1785877200&v=beta&t=AJDPovYr7cWesHDvF-ic8tsZcog5d2fegr5x3RiuytI",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHKsdqGXVWgDQ/feedshare-document-cover-images_1920/B4DZ3s1r4JG8BQ-/2/1777794990850?e=1785877200&v=beta&t=Llmh7xMI43_EjYw1xKa7pz7szDDw8ofWe8xQqfbCR0c"
+            ],
+            "height": 1925
+          }
+        ],
+        "totalPageCount": 7,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHKsdqGXVWgDQ/feedshare-document-master-manifest/B4DZ3s1r4JG8BY-/0/1777794991212?e=1785877200&v=beta&t=rOqQLdt7vABv15RWqVRLmruYZH9GbJTFk9bF-it6WnE",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4D1FAQHKsdqGXVWgDQ",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHKsdqGXVWgDQ/feedshare-document-transcript/B4DZ3s1r4JG8A0-/0/1777794991212?e=1785974400&v=beta&t=09mESUG_7vqFDWauOwjpdvSG9XweK9_qpbxdBWSPRHk",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHKsdqGXVWgDQ/feedshare-document-pdf-analyzed/B4DZ3s1r4JG8AY-/0/1777794991212?e=1785974400&v=beta&t=WSSF0Ox8TJLJ4wjhBBPEd3phnhu9YNWcMUfDD7TCFvQ",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 127,
+              "height": 165,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHKsdqGXVWgDQ/feedshare-document-images_160/B4DZ3s1r4JG8Ac-/0/1777794991212?e=1785974400&v=beta&t=TQor9d_Sq4fzyVN6N3fbg7ml2yqSpc6cXdrXkk_nzTk"
+            },
+            {
+              "width": 374,
+              "height": 484,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHKsdqGXVWgDQ/feedshare-document-images_480/B4DZ3s1r4JG8Ag-/0/1777794991212?e=1785974400&v=beta&t=kzTBDm8gnqSNQwBl5CtY5dD5BWiMYLj6Zrur6B_93Q0"
+            },
+            {
+              "width": 620,
+              "height": 802,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHKsdqGXVWgDQ/feedshare-document-images_800/B4DZ3s1r4JG8Ak-/0/1777794991212?e=1785974400&v=beta&t=Y8gWxsd0ri5a9BLrWvCX0hSOAca7sWv1NmwWPboOpwM"
+            },
+            {
+              "width": 1487,
+              "height": 1925,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHKsdqGXVWgDQ/feedshare-document-images_1920/B4DZ3s1r4JG8Ao-/0/1777794991212?e=1785974400&v=beta&t=dF7vbIpcKnA7ViWHHGOJtvznSjQSvoMmxvKj7W6PAhA"
+            },
+            {
+              "width": 994,
+              "height": 1287,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHKsdqGXVWgDQ/feedshare-document-images_1280/B4DZ3s1r4JG8AQ-/0/1777794991212?e=1785974400&v=beta&t=36AHlCFiWs5nVYlkWw3LOmoaRoGY2hyz-mG84Z0HcZI"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7456612668880289792",
+        "likes": 199,
+        "comments": 118,
+        "shares": 15,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 186
+          },
+          {
+            "type": "INTEREST",
+            "count": 10
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7457746023252148224",
+      "entityId": "7457746023252148224",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_seo-is-being-taken-over-by-autonomous-ai-activity-7457746023252148224-w5CJ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7457433335322279936",
+      "shareUrn": "urn:li:share:7457433335322279936",
+      "content": "SEO is being taken over by autonomous AI agents. I built one that runs a full AI SEO & GEO audit from a single URL.\n\nAnd if you comment \"SEO\", I'll send you the full video\n\nHere's how it works:\n\nI connected DataForSEO MCP to Claude Code in under 5 minutes.\n\nOne prompt.\nOne URL.\n\nThe agent takes over from there:\n\n↳ Auto-detects your market, language, brand, and competitors\n↳ Pulls keyword rankings and backlink profile\n↳ Runs a full on-page audit\n↳ Checks how often your brand appears in ChatGPT and Google AI Overviews\n↳ Benchmarks your GEO visibility against competitors\n↳ Outputs a full PDF report and a local web app dashboard\n\nNo spreadsheets.\nNo manual research.\nNo switching between 6 tools.\n\nJust one agent doing the entire job.\n\nThe GEO section is what most people are sleeping on.\n\nRanking on Google still matters.\nBut if your brand doesn't show up in AI answers, you're invisible to a growing chunk of buyers.\n\nThis agent tracks both.\n\nI also show how to connect DataForSEO with n8n so you can run this as an automated workflow for clients.\n\nThat alone is a productized service you can sell.\n\nHere are all the resources:\n\n→ Try DataForSEO: https://lnkd.in/dSgGgmHC\n→ DataForSEO + n8n: https://lnkd.in/dxgFA8xy\n→ DataForSEO template gallery: https://lnkd.in/dTxEXWJh\n→ DataForSEO MCP: https://lnkd.in/dE9rpQtN\n\nComment \"SEO\" if you want the full video\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1778065210164,
+        "date": "2026-05-06T11:00:10.164Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGHOSEzl9lKaw/feedshare-image-high-res/B4DZ34gGlkI0Ac-/0/1777990658697?e=1786579200&v=beta&t=bkudiN_j8qQA3ZNMLxdnzeB93jLjWzRPHAl1k9odWzU",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7457746023252148224",
+        "likes": 337,
+        "comments": 230,
+        "shares": 11,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 298
+          },
+          {
+            "type": "EMPATHY",
+            "count": 23
+          },
+          {
+            "type": "INTEREST",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7464993753146015744",
+      "entityId": "7464993753146015744",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_the-loudest-ai-evangelists-in-the-room-have-activity-7464993753146015744-twom",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7464978676783329280",
+      "shareUrn": "urn:li:share:7464978676783329280",
+      "content": "The loudest AI evangelists in the room have never opened the tool. I promise you.\n\nThey've seen the demo.\nThey read the tweet.\nThey're ready to \"replace the whole team\".\n\nMeanwhile, the people using it every day sound like:\n\n\"It hallucinated again.\"\n\"Good start, but I rewrote half of it.\"\n\"Still can't do this part on its own.\"\n\nAnd people do confuse this as pessimism, meanwhile that's just what expertise sounds like.\n\nHere's what bothers me:\n\nSome companies are now rewarding AI adoption as a metric. \nWho's burning the most tokens?\nWho's using it the most?\n\nThat's like rewarding the team that sends the most emails.. activity is not output.\n\nThe gap between watching an AI demo and actually working with AI daily...is about 6 months of frustration 😅.\n\nWhich side of the table do you sit on?",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1779793203627,
+        "date": "2026-05-26T11:00:03.627Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHfGhcaMdI5Sw/feedshare-shrink_1280/B4EZ5jug13IcAQ-/0/1779789608359?e=1786579200&v=beta&t=2EpalytcmHu0sHhc6SI67ohsB_J2vmdrmsairuMR06w",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7464993753146015744",
+        "likes": 1787,
+        "comments": 203,
+        "shares": 105,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1436
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 179
+          },
+          {
+            "type": "EMPATHY",
+            "count": 67
+          },
+          {
+            "type": "INTEREST",
+            "count": 43
+          },
+          {
+            "type": "PRAISE",
+            "count": 41
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 21
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7456296452378689537",
+      "entityId": "7456296452378689537",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_8-questions-i-ask-myself-every-week-to-make-activity-7456296452378689537-gSDS",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7456085039659835392",
+      "shareUrn": "urn:li:share:7456085039659835392",
+      "content": "8 questions I ask myself every week to make sure I'm actually building a business (not just staying busy):\n\n1️⃣ What did I do this week that actually moved the business forward?\n↳ Be honest. Activity is cheap. Progress is not.\n\n2️⃣ Where did my time go that someone else should have handled?\n↳ If you're repeating work that doesn't require your judgement, you're training the business to depend on you.\n\n3️⃣ What signal am I ignoring because it's uncomfortable to face?\n↳ Customer feedback. Team tension. Slowing momentum. The longer you avoid it, the louder it gets.\n\n4️⃣ Did I build leverage this week or just complete tasks?\n↳ Leverage is a system, person, piece of content, or distribution channel that keeps working after you stop.\n\n5️⃣ What assumption am I still operating under that may no longer be true?\n↳ Markets move. Platforms change. Yesterday's logic becomes today's constraint.\n\n6️⃣ Am I building for visibility, or assuming people will find me?\n↳ Distribution is not optional. If you're not deliberate about it, you're invisible by default.\n\n7️⃣ What did I learn this week that should change how I operate going forward?\n↳ If your behaviour didn't change, the lesson wasn't absorbed.\n\n8️⃣ What is the one outcome next week that makes everything else easier?\n↳ Not a list. Not intentions. The one result that actually unlocks momentum.\n\nMost agency owners are busy.\nVery few are building.\n\nThese 8 questions are the difference.\n\nAnd if you want to start an AI agency, check this out: https://lnkd.in/dYb4u6sE\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1777719605536,
+        "date": "2026-05-02T11:00:05.536Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEQSmujBoFDvQ/feedshare-shrink_1280/B4DZ3lV1cgJsAQ-/0/1777669199907?e=1786579200&v=beta&t=CESc68RcmaUSMf5d0rEvH4GpAFYr6V14Qf_1EM4V5ss",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7456296452378689537",
+        "likes": 235,
+        "comments": 92,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 219
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7455209344322768896",
+      "entityId": "7455209344322768896",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_if-claude-feels-wrong-youre-probably-the-activity-7455209344322768896--D7f",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7454998078396358656",
+      "shareUrn": "urn:li:share:7454998078396358656",
+      "content": "If Claude feels wrong.\n\nYou're probably the problem.\n\nI've been using Claude Code daily for months now.\nOne thing became obvious fast:\n\nWhen Claude gives you inconsistent results it's not the model, it's mostly the setup.\n\nMost people install it, type a prompt, and get frustrated.\nThey never touch the folder that controls everything.\n\nThe .claude/ directory is where Claude learns how to behave in your project: memory, automation, safety, and delegation.\n\nHere's what I configured that changed everything:\n\n𝗖𝗟𝗔𝗨𝗗𝗘. 𝗺𝗱\n\nStop leaving it empty. Define your stack, architecture, and conventions. Claude reads it first every session. Treat it like onboarding docs for a new engineer.\n\n𝗖𝗟𝗔𝗨𝗗𝗘.𝗹𝗼𝗰𝗮𝗹. 𝗺𝗱\n\nKeep your personal preferences out of the shared project file. Your workflow shouldn't break your teammates'.\n\n𝗺𝗰𝗽.𝗷𝘀𝗼𝗻\n\nConfigure it once. GitHub, JIRA, Slack, and databases. All connected, version-controlled. No more re-explaining your tooling every session.\n\n.𝗰𝗹𝗮𝘂𝗱𝗲/𝘀𝗲𝘁𝘁𝗶𝗻𝗴𝘀.𝗷𝘀𝗼𝗻\n\nPreToolUse and PostToolUse guardrails that run automatically. Validation, linting, blocking unsafe operations — caught before they ship.\n\n.𝗰𝗹𝗮𝘂𝗱𝗲/𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀/\n\nSlash commands for recurring workflows. One keystroke runs your entire review or deploy process. No more copy-pasting the same prompt.\n\n.𝗰𝗹𝗮𝘂𝗱𝗲/𝘀𝗸𝗶𝗹𝗹𝘀/\n\nReusable workflows that load only when needed. Testing patterns, deploy checklists, API conventions. Auto-triggered by context or invoked manually.\n\n.𝗰𝗹𝗮𝘂𝗱𝗲/𝗮𝗴𝗲𝗻𝘁𝘀/\n\nSpecialized sub-agents with isolated context. Code review, security, and docs. Each has its own scope, instead of a single overloaded conversation.\n\nThe simple test: If you keep repeating yourself to Claude, that instruction belongs in your setup.\n\nWhat's in your .claude/ folder right now?\n\nWe could help you fix that! Check this: www.gentes.ai\n\n---\n\nKudos to Brij kishore Pandey for the amazing infographic.",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1777460418778,
+        "date": "2026-04-29T11:00:18.778Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEBCBKgzFHJPg/feedshare-image-high-res/B4DZ3V5QEPHoAU-/0/1777410048551?e=1786579200&v=beta&t=mJllifSKX80GTRdErLQNNLb-Rt7KHLOl8Jo0f7O89fc",
+          "width": 800,
+          "height": 1075
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7455209344322768896",
+        "likes": 553,
+        "comments": 182,
+        "shares": 43,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 515
+          },
+          {
+            "type": "EMPATHY",
+            "count": 21
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7455571739817807872",
+      "entityId": "7455571739817807872",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_after-coaching-50-people-on-finding-their-activity-7455571739817807872-paoR",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7455280981353242624",
+      "shareUrn": "urn:li:share:7455280981353242624",
+      "content": "After coaching 50+ people on finding their AI agency niche, I built the CODE Framework. Here's how it works:\n\nC -- Consumer Trends\n↳ Look for workflow shifts from manual to AI automation\n↳ Look for tool proliferation (no-code AI stacks spreading fast)\n↳ Look for demand shifts with new urgency\n\nOne test question: if I automate this task, does the client save 5 hours a week?\n\nIf yes, you have something worth exploring.\n\nO -- Opportunity\n↳ Map AI solutions to real business problems\n↳ Ask: why now, what is the pain costing them, who has the pain\n\nQuick filters:\n↳ Can I build this with Make or n8n?\n↳ Does this solve a Top 3 problem for the CEO?\n\nKey insight: if you can't explain it clearly in content, you won't sell it at scale.\n\nD -- Demand Validation\n↳ Find business owners complaining about manual work on LinkedIn\n↳ Save their exact pain language\n↳ Build a simple landing page\n↳ Offer a POC for a small flat fee\n↳ Interview 5 potential clients\n\nThe PMF signal is simple: people don't ask for discounts. They ask for features.\n\nAt 100 paying customers, you don't have an idea anymore. You have a business worth doubling down on.\n\nE -- Economic Sizing\n↳ 10 customers x $10K/year = $100K\n↳ 20 customers x $5K/year = $100K\n↳ 5 customers x $20K/year = $100K\n\nMarket sizing quick check:\n↳ Can you find 10-20 clients without spending $10K on ads?\n↳ Is there a clear path to reach them without burning cash?\n↳ Can you raise price through outcomes, not more work?\n\nAt $100K, you don't need a mass market.\nYou just need a deep niche.\n\nThere has never been a better time to build a business.\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1777546820597,
+        "date": "2026-04-30T11:00:20.597Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGPRwvAohxsnA/feedshare-image-high-res/B4DZ3Z6jCkIYAc-/0/1777477497318?e=1786579200&v=beta&t=oxBYindvWF8p1IPSKR-7Jst4ij7M3yl1zN1ZEm33-Lw",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7455571739817807872",
+        "likes": 222,
+        "comments": 145,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 201
+          },
+          {
+            "type": "PRAISE",
+            "count": 9
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7457021209776390144",
+      "entityId": "7457021209776390144",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_the-complete-guide-to-building-skills-for-activity-7457021209776390144-c6GR",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7456790049205030912",
+      "shareUrn": "urn:li:ugcPost:7456790049205030912",
+      "content": "Anthropic just released a 33-page guide on building Claude Skills.\n\nMost people haven't found it yet.\n\nHere's what it actually is:\n\nA Skill is just a folder with one file.\n\nThat file teaches Claude a specific workflow.\nYou build it once.\nClaude follows it every time after.\n\nWhat you can teach it:\n\n↳ Your writing tone and style\n↳ Your document and proposal templates\n↳ Your research methodology\n↳ Your code review standards\n↳ Your client onboarding flow\n↳ Any process you repeat more than once\n\nHow to build your first one:\n\n1️⃣ Create a folder: your-skill-name\n2️⃣ Add a SKILL.md file inside\n3️⃣ Write what Claude should do and when\n4️⃣ Upload it to Claude settings\n\nThat's it.\n\nThe real value isn't the tech.\n\nIt's that your best process becomes repeatable.\nNo retraining. No copy-pasting prompts.\nJust consistent output, every time.\n\nIf you run an AI agency, this is how you stop rebuilding the same thing for every client.\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1777892401165,
+        "date": "2026-05-04T11:00:01.165Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "The Complete Guide to Building Skills for Claude",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQFUFQppa2EiEw/feedshare-document-url-metadata-scrapper-pdf/B56Z3vWxSoIIA4-/0/1777837218100?e=1785877200&v=beta&t=doI9qhPQiUNwIscMoBF58ojVYExzBUODksf67tWUA18",
+        "coverPages": [
+          {
+            "width": 1925,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D561FAQFUFQppa2EiEw/feedshare-document-cover-images_1920/B56Z3vWxSoIIBQ-/0/1777837218495?e=1785877200&v=beta&t=4KORMSk8nQoO6GKtAJ4SNYlDtJ4g8Vs9yra_OCrmh18",
+              "https://media.licdn.com/dms/image/v2/D561FAQFUFQppa2EiEw/feedshare-document-cover-images_1920/B56Z3vWxSoIIBQ-/1/1777837218495?e=1785877200&v=beta&t=yOQ3sixNIWoRzXsw3IVwKazg_OiXEOrcbHBFTW14Sb0",
+              "https://media.licdn.com/dms/image/v2/D561FAQFUFQppa2EiEw/feedshare-document-cover-images_1920/B56Z3vWxSoIIBQ-/2/1777837218495?e=1785877200&v=beta&t=n9T8sxizTODRQkY8HgU-C7JTHQW0-MmJgNbKKnY3nQE"
+            ],
+            "height": 1487
+          }
+        ],
+        "totalPageCount": 33,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQFUFQppa2EiEw/feedshare-document-master-manifest/B56Z3vWxSoIIBY-/0/1777837218495?e=1785877200&v=beta&t=-W1C0HXxxjy52DcQNyhG1-aSiuIB-aoUEGVk0FM60qM",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D561FAQFUFQppa2EiEw",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQFUFQppa2EiEw/feedshare-document-transcript/B56Z3vWxSoIIA0-/0/1777837218495?e=1785974400&v=beta&t=6LlaB2v871ZOxQ5A5p4rOBqeDvXieChjdr6nHs7j3CY",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQFUFQppa2EiEw/feedshare-document-pdf-analyzed/B56Z3vWxSoIIAY-/0/1777837218495?e=1785974400&v=beta&t=2JutW63JWHd1d-u47FRYR9w_dpqO_sBQmNlRq14zvuk",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 1925,
+              "height": 1487,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQFUFQppa2EiEw/feedshare-document-images_1920/B56Z3vWxSoIIAo-/0/1777837218495?e=1785974400&v=beta&t=ViothNR7r781rpODHBn8QIyOxnYyin7p_1aToUfq7Gg"
+            },
+            {
+              "width": 484,
+              "height": 374,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQFUFQppa2EiEw/feedshare-document-images_480/B56Z3vWxSoIIAg-/0/1777837218495?e=1785974400&v=beta&t=8GYcZFr2uVab7soIKzW4aXUefUDLesXxl7naL4KxPwY"
+            },
+            {
+              "width": 802,
+              "height": 620,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQFUFQppa2EiEw/feedshare-document-images_800/B56Z3vWxSoIIAk-/0/1777837218495?e=1785974400&v=beta&t=lK3P5a6-99HB4iri_bV9U0fbumkjo9VBBZwln48mgCc"
+            },
+            {
+              "width": 165,
+              "height": 127,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQFUFQppa2EiEw/feedshare-document-images_160/B56Z3vWxSoIIAc-/0/1777837218495?e=1785974400&v=beta&t=f1v84gpJQn8po00rDbUWuxRgNQLxpxCW19d58gA6O_8"
+            },
+            {
+              "width": 1287,
+              "height": 994,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQFUFQppa2EiEw/feedshare-document-images_1280/B56Z3vWxSoIIAQ-/0/1777837218495?e=1785974400&v=beta&t=-krxnx-Pu6ErksNE2kA-ksURCTGaX95T4Cc52H5IbNM"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7456790049205030912",
+        "likes": 789,
+        "comments": 232,
+        "shares": 85,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 715
+          },
+          {
+            "type": "EMPATHY",
+            "count": 30
+          },
+          {
+            "type": "INTEREST",
+            "count": 25
+          },
+          {
+            "type": "PRAISE",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 7
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7454484619434876928",
+      "entityId": "7454484619434876928",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_everyone-is-replacing-their-team-with-ai-activity-7454484619434876928-NKKJ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7454270073327988736",
+      "shareUrn": "urn:li:share:7454270073327988736",
+      "content": "Everyone is replacing their team with AI Agents.\n\nHere's why that's a trap.\n\nThe org chart looks clean now:\n↳ CEO at the top\n↳ Agent Lead below\n↳ 10 AI Agents doing the work\n\nNo salaries.\nNo complaints.\nNo sick days.\n\nIt looks like efficiency.\nIt's actually fragility.\n\nBecause here's what AI Agents can't do:\n\nThey can't walk into a room and earn trust.\nThey can't read the politics of a deal going sideways.\nThey can't tell you when something feels wrong before the data does.\nThey can't inspire someone to stay when they're about to quit.\n\nAI is fast.\nAI is consistent.\nAI is cheap.\n\nBut AI doesn't care.\n\nAnd in business, caring is the entire game.\n\nThe best deals I've seen closed weren't won on price.\nThey were won because someone showed up.\nBecause someone remembered a name.\nBecause someone made the other person feel understood.\n\nYou can't automate that.\n\nThe companies replacing every human with an agent will move fast.\n\nAnd then hit a wall.\n\nBecause clients don't buy from systems.\nThey buy from people they trust.\n\nAI is the engine.\nPeople are still the driver.\n\nDon't confuse the tool for the business.\n\nAnd if you want to know where AI can move the needle in your business, check this: https://gentes.ai/\n\n♻️ Repost to help your network",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1777287630900,
+        "date": "2026-04-27T11:00:30.900Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHs4LdKxtiByw/feedshare-shrink_1280/B4DZ3LjIklIYAM-/0/1777236478539?e=1786579200&v=beta&t=JtvdrTU3488Z9P-zfd4xEHoBqQfdul713WiXePiMqaI",
+          "width": 800,
+          "height": 999
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7454484619434876928",
+        "likes": 481,
+        "comments": 223,
+        "shares": 21,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 407
+          },
+          {
+            "type": "EMPATHY",
+            "count": 27
+          },
+          {
+            "type": "INTEREST",
+            "count": 24
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 12
+          },
+          {
+            "type": "PRAISE",
+            "count": 9
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7452672643989745664",
+      "entityId": "7452672643989745664",
+      "linkedinUrl": "https://www.linkedin.com/posts/giovanni-beggiato_26-claude-code-shortcuts-that-most-users-activity-7452672643989745664-VXgw",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7452375520689836032",
+      "shareUrn": "urn:li:share:7452375520689836032",
+      "content": "26 Claude Code shortcuts that most users don't know exist:\n\n𝗦𝗲𝘀𝘀𝗶𝗼𝗻 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁\n\n/CLEAR \nClears conversation history and resets context.\n\n/RESUME [session] \nReopens a previous conversation by ID or name.\n\n/RENAME [name] \nRenames the current session. If no name is given, one is generated.\n\n/BRANCH [name] \nCreates a new branch from the current conversation point. Use /FORK as an alias.\n\n/REWIND \nRolls the conversation and/or code back to an earlier point.\n\n/EXPORT [filename] \nExports the conversation as plain text.\n\n𝗖𝗼𝗻𝘁𝗲𝘅𝘁 & 𝗠𝗲𝗺𝗼𝗿𝘆\n\n/COMPACT [instructions] \nCompresses the conversation and lets you specify what to keep.\n\n/MEMORY \nEdits CLAUDE.md memory files and controls auto-memory.\n\n/INIT \nInitializes the project with a CLAUDE.md guide.\n\n/ADD-DIR <path> \nAdds a working directory for file access during the session.\n\n𝗨𝘀𝗮𝗴𝗲 & 𝗖𝗼𝘀𝘁𝘀\n\n/COST \nShows token usage for the current session.\n\n/USAGE \nShows plan usage limits and current rate-limit status.\n\n/EXTRA-USAGE \nEnables additional usage capacity when standard rate limits are reached.\n\n𝗠𝗼𝗱𝗲𝗹 & 𝗖𝗼𝗻𝗳𝗶𝗴\n\n/MODEL [model] \nSwitches to another model, such as Sonnet, Opus, or Haiku.\n\n/CONFIG \nOpens settings for theme, model, output style, and preferences.\n\n/THEME \nChanges the color theme, including light, dark, and accessible options.\n\n/COLOR [color] \nSets the prompt bar color for the current session.\n\n𝗖𝗼𝗱𝗲 & 𝗥𝗲𝘃𝗶𝗲𝘄\n\n/DIFF \nOpens a diff viewer for uncommitted changes and per-turn diffs.\n\n/SECURITY-REVIEW \nScans pending changes to identify potential security vulnerabilities.\n\n/PLAN [description] \nEnters plan mode where Claude proposes steps before executing, you approve before anything runs.\n\n𝗧𝗼𝗼𝗹𝘀 & 𝗣𝗲𝗿𝗺𝗶𝘀𝘀𝗶𝗼𝗻𝘀\n\n/PERMISSIONS \nManages allow, ask, and deny rules for tool access.\n\n/MCP \nManages MCP server connections and OAuth authentication.\n\n/AGENTS \nManages agent and sub-agent configurations.\n\n/SKILLS \nLists all available built-in and custom skills.\n\n𝗣𝗹𝘂𝗴𝗶𝗻𝘀\n\n/PLUGIN \nManages Claude Code plugins.\n\n/RELOAD-PLUGINS \nReloads active plugins without restarting.\n\nWhich one is new to you?",
+      "author": {
+        "id": "ACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "universalName": null,
+        "publicIdentifier": "giovanni-beggiato",
+        "type": "profile",
+        "name": "Giovanni Beggiato",
+        "linkedinUrl": "https://www.linkedin.com/in/giovanni-beggiato?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADAGT-EBX_VuOkhU9l5HO-ZzcvTO5uluWGc",
+        "info": "CEO at GentesAI, growth partner for b2c businesses | Founder of Avanguardia Plus, the fastest way to monetize with AI for italian entrepreneurs",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQG_h1xM5llErA/profile-displayphoto-crop_800_800/B56ZtDU_jeKEAI-/0/1766361137189?e=1786579200&v=beta&t=sBG22-ZK1r9anZ3F3CAB3f8_Qj-F6MEq3cVc4QlnJkU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "805720033"
+      },
+      "postedAt": {
+        "timestamp": 1776855622289,
+        "date": "2026-04-22T11:00:22.289Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGf8clmdbTX9w/feedshare-image-high-res/B4DZ2woDHzI0AU-/0/1776784782124?e=1786579200&v=beta&t=BlzFxH0BPd35ZhzvXqmvdcdMEGeNtwSTA3_DV7ThK0U",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7452672643989745664",
+        "likes": 237,
+        "comments": 107,
+        "shares": 16,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 220
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/giovanni-beggiato",
+        "sessionId": "97a4b355-e456-413c-9aa7-e059789afd43"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485979465366429696",
+      "entityId": "7485979465366429696",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_leadership-management-decisionmaking-activity-7485979465366429696-RiJw",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485979463911014400",
+      "shareUrn": "urn:li:share:7485979463911014400",
+      "content": "One of the biggest reasons organizations move slowly isn't a lack of talent...\nIt's a lack of decision ownership.\nHow often have you seen this happen?\n➡️ Procurement is waiting for Operations.\n➡️ Operations is waiting for Finance.\n➡️ Finance is waiting for Leadership.\n➡️ Leadership is waiting for more information.\nEveryone is involved, yet no one owns the final decision.\nThe result?\n📉 Delayed execution\n📉 Missed opportunities\n📉 Endless meetings\n📉 Frustrated teams\nThat's why decision frameworks like RAPID and DACI incredibly practical.\n🔹 RAPID\n• Recommend – Propose the best solution\n• Agree – Align key stakeholders\n• Perform – Execute the decision\n• Input – Provide expertise and data\n• Decide – Own the final call\n🔹 DACI\n• Driver – Moves the decision forward\n• Approver – Has final authority\n• Contributors – Provide expertise\n• Informed – Stay updated\nA simple supplier approval example:\nWithout clear roles:\n❌ Procurement waits → Operations waits → Finance waits → Leadership waits\nWith DACI:\n✅ Driver: Procurement Manager\n✅ Approver: Supply Chain Director\n✅ Contributors: Quality, Finance, Operations & Planning\n✅ Informed: Warehouse, Sales & Customer Service\nThe conversation changes from:\n\"Who's responsible?\"\nto\n\"Let's execute.\"\nLeadership isn't about making every decision. It's about ensuring every decision has a clear owner.\nClear decision ownership converts discussion into execution.\n#Leadership #Management #DecisionMaking #ExecutiveLeadership #BusinessStrategy #OperationalExcellence #SupplyChainLeadership #Productivity #LeadershipDevelopment",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1784796587316,
+        "date": "2026-07-23T08:49:47.316Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQH9wllwM9CDpA/feedshare-shrink_1280/B4DZ.OKpujGYAM-/0/1784796585297?e=1786579200&v=beta&t=BC90_bStoMgYoKARrH3Zkc4iRYJsenQ-6rxES6M3zMM",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485979465366429696",
+        "likes": 21,
+        "comments": 16,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 20
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485350647127719937",
+      "entityId": "7485350647127719937",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_oee-manufacturing-operationalexcellence-activity-7485350647127719937-2sNi",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485350645722697728",
+      "shareUrn": "urn:li:share:7485350645722697728",
+      "content": "A machine can be running... and still be losing money!!\nMany manufacturers measure output.\nBut output alone doesn't tell you:\n❌ How much time was lost\n❌ How much speed was reduced\n❌ How many defects were produced\n❌ How much capacity was wasted\nThis is why OEE (Overall Equipment Effectiveness) matters.\n📊 OEE = Availability × Performance × Quality\nConsider this example:\n🔹 Availability = 80%\n🔹 Performance = 90%\n🔹 Quality = 95%\n➡️ OEE = 68.4%\nThat means 31.6% of planned production capacity is being lost.\nWhere does the loss come from?\n⚙️ Equipment breakdowns\n⏳ Changeover delays\n🛑 Minor stops\n🐢 Reduced operating speed\n♻️ Rework and scrap\n❌ Quality defects\nThese losses don't just affect production.\nThey create a ripple effect across the supply chain:\n📉 Low OEE\n→ 📦 Inventory shortages\n→ 🚚 Expedited shipments\n→ ⏰ Late deliveries\n→ 💰 Higher costs\n→ 😟 Customer dissatisfaction\nBefore investing in new equipment, ask:\nAre we fully utilizing the capacity we already have?\nBecause improving OEE isn't just about machines.\nIt's about improving the entire supply chain.\n#OEE #Manufacturing #OperationalExcellence #QualityManagement #LeanSixSigma #ContinuousImprovement #SupplyChain #Production #FactoryManagement #IndustrialEngineering",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1784646665365,
+        "date": "2026-07-21T15:11:05.365Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQE6LJppix4-gQ/feedshare-image-high-res/B4DZ.FOvykI0Ac-/0/1784646663635?e=1786579200&v=beta&t=O9qYcJNqlWcaS_-5Y-MaKjNU03tR1OUj0PwCY3BRXss",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485350647127719937",
+        "likes": 31,
+        "comments": 11,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 29
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487416190865403904",
+      "entityId": "7487416190865403904",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_leansixsigma-fishbonediagram-ishikawadiagram-activity-7487416190865403904-OfdZ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487416189141389312",
+      "shareUrn": "urn:li:share:7487416189141389312",
+      "content": "Most teams jump to solutions too quickly.\nA supplier delivery is late.\nA warehouse order is picked wrongly.\nA customer complaint repeats.\nThe first reaction is usually:\n👉 “Who made the mistake?”\nBut Lean asks a better question:\n👉 “What caused the problem?”\nThat is where the Fishbone Diagram helps.\nA Fishbone Diagram, also called an Ishikawa Diagram, helps teams organize possible causes before deciding on a solution.\nThe fish head = the problem\nThe bones = possible causes\nExample: Supplier deliveries are repeatedly delayed \nPossible causes may include:\n🔹 People\n• No clear follow-up owner\n• Team overloaded\n🔹 Process\n• PO released late\n• No escalation rule\n🔹 System\n• Wrong ERP lead time\n• No automated reminder\n🔹 Material\n• Supplier input shortage\n• Quality issue\n🔹 Data\n• Poor KPI visibility\n• Inaccurate records\n🔹 External\n• Transport delay\n• Customs issue\n• Demand changes\nThe value of Fishbone is simple:\n✅ Stop blaming\n✅ See all possible causes\n✅ Structure the investigation\n✅ Validate with facts\n✅ Fix the real problem\nBut remember:\nA Fishbone Diagram does not give the final answer.\nIt shows what needs to be investigated.\nPractical rule:\n❌ Don’t ask: “Who made the mistake?”\n✅ Ask: “What process condition allowed this to happen?”\nBecause in Lean, the goal is not blame.\nThe goal is better process thinking.\n#LeanSixSigma #FishboneDiagram #IshikawaDiagram #RootCauseAnalysis #OperationalExcellence #ContinuousImprovement #SupplyChain #Procurement #SupplierManagement #ProcessImprovement #Kaizen",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1785139129368,
+        "date": "2026-07-27T07:58:49.368Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQH7ctFjjnWM8w/feedshare-image-high-res/B4DZ.ilWeRKsAU-/0/1785139128496?e=1786579200&v=beta&t=lZupjH0evyOzuxW2yu0J6sPuqzUm6NhfHwk_dzNSWJE",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487416190865403904",
+        "likes": 14,
+        "comments": 1,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 14
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485619927895273473",
+      "entityId": "7485619927895273473",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-logistics-transportation-activity-7485619927895273473-eJVo",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485619926544781312",
+      "shareUrn": "urn:li:share:7485619926544781312",
+      "content": "Every half-empty truck is a missed opportunity!\nMany logistics teams focus on freight rates, but the bigger savings often come from improving truck utilization.\nLoad consolidation is the practice of combining orders, shipments, or delivery points to maximize vehicle capacity and reduce transport costs.\nDone well, it can:\n✅ Reduce freight cost per unit\n✅ Improve truck utilization\n✅ Lower fuel consumption\n✅ Reduce carbon emissions\n✅ Decrease empty miles\n✅ Improve overall transport efficiency\nBut consolidation also comes with trade-offs.\nWaiting to fill a truck may reduce cost, but it can also:\n❌ Increase lead time\n❌ Delay customer deliveries\n❌ Impact service levels\n❌ Create inventory holding costs\nSmart Consolidation Asks:\n🔹 Can shipments to the same region be combined?\n🔹 What is the cost of waiting vs shipping now?\n🔹 Will service levels be affected?\n🔹 Is truck utilization meeting targets?\n🔹 Are we creating unnecessary urgent shipments later?\nSimple Decision Rule\n✅ Stable demand + flexible delivery windows\n➡ Maximize consolidation.\n✅ Urgent demand + critical orders\n➡ Prioritize service over consolidation.\n✅ Mixed demand profiles\n➡ Use planned consolidation days by region.\nThe goal is not to fill every truck.\nThe goal is to find the right balance between cost, utilization, and customer service.\nA full truck delivered too late is a problem.\nA half-empty truck delivered too often is also a problem.\nThe best logistics teams know when to consolidate and when not to.\n#SupplyChain #Logistics #Transportation #LoadConsolidation #FleetManagement #CostOptimization #SupplyChainExcellence #Operations #Distribution #FreightManagement",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1784710866903,
+        "date": "2026-07-22T09:01:06.903Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHCwNmjoDLvjw/feedshare-image-high-res/B4EZ.JDprxHAAU-/0/1784710863919?e=1786579200&v=beta&t=XtQMy4lIrR54C4mPPSKNEMF_uTLgFmTK0TND3glwwRs",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485619927895273473",
+        "likes": 54,
+        "comments": 3,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 53
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486825597516759041",
+      "entityId": "7486825597516759041",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_andon-leanmanufacturing-leansixsigma-activity-7486825597516759041-ywDJ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486825594756919296",
+      "shareUrn": "urn:li:share:7486825594756919296",
+      "content": "Andon System: Making Problems Visible Before They Become Failures!\nMost operational problems do not become expensive immediately.\nThey become expensive because they remain hidden, unreported, or unresolved for too long.\nA minor machine abnormality becomes downtime.\nA picking error becomes a customer return.\nA material shortage becomes a missed production plan.\nA quality deviation becomes a rejected batch.\nThis is where Andon becomes powerful.\nAndon is a Lean visual management and escalation system that makes abnormal conditions visible in real time—so the right people can respond before the issue spreads.\nIt may use:\n🚦 Signal tower lights\n🔔 Audible alarms\n📺 Visual performance boards\n📱 Digital escalation alerts\n🖥️ Warehouse or production dashboards\nBut Andon is not simply a light or alarm.\nA complete Andon system connects five actions:\nDetect → Signal → Respond → Contain → Solve\nConsider a warehouse picking process.\nIf a picker scans the wrong SKU, the system can:\n✅ Block shipment confirmation\n✅ Highlight the mismatch\n✅ Alert the team leader\n✅ Require correction before dispatch\n✅ Record the issue for root-cause analysis\nThe immediate benefit is preventing the wrong shipment.\nThe greater benefit is learning from repeated alerts:\n• Are similar products stored too closely?\n• Are labels or barcodes unclear?\n• Is the storage location incorrect?\n• Is additional training required?\n• Is the system master data accurate?\nThis is when Andon becomes more than visual management.\nIt becomes a source of operational intelligence.\nHowever, Andon systems fail when:\n❌ Alerts have no clear owner\n❌ Response is too slow\n❌ Employees fear escalation\n❌ Teams reset signals without solving causes\n❌ Alert data is collected but never reviewed\nA strong Andon culture does not blame the person who exposes the problem.\nIt recognizes that person for protecting the process.\nA hidden problem grows.\nA visible problem can be managed.\nA solved problem improves the system.\n#Andon #LeanManufacturing #LeanSixSigma #VisualManagement #OperationalExcellence #ContinuousImprovement #ProblemSolving #RootCauseAnalysis #WarehouseManagement #SupplyChain #QualityManagement #ProcessImprovement",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1784998320941,
+        "date": "2026-07-25T16:52:00.941Z",
+        "postedAgoShort": "3d",
+        "postedAgoText": "3 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHbsx_OPNBGiQ/feedshare-shrink_1280/B4DZ.aMNLHJcAM-/0/1784998319126?e=1786579200&v=beta&t=6tL7K9ThAa4foMO8B1PkxqPL8mF1b22KBPiUCVl3E4E",
+          "width": 1136,
+          "height": 1384
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486825597516759041",
+        "likes": 6,
+        "comments": 1,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    }
+  ]
+}

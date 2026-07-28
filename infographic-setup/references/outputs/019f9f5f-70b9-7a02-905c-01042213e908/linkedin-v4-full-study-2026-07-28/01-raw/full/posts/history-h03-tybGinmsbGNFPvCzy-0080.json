@@ -1,0 +1,3327 @@
+{
+  "runId": "tybGinmsbGNFPvCzy",
+  "datasetId": "VJLC5jQTBXajzHkTi",
+  "offset": 80,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7483489364761673728",
+      "entityId": "7483489364761673728",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_my-recent-post-got-1870-saves-855-reactions-activity-7483489364761673728-zPZM",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483171803406827520",
+      "shareUrn": "urn:li:share:7483171803406827520",
+      "content": "My recent post got 1,870 saves.\n\n855 reactions. 1,870 saves.\n\nThat gap matters more than any other number on your analytics page right now.\nLinkedIn's 2026 algorithm weights saves as a stronger signal than likes for reach. \n\nA like takes half a second. \n\nA save says \"I need this later.\" That gap in intent is exactly what the algorithm measures.\n\nSo I broke down what makes someone hit save:\n\n𝟭 Frameworks\n↳ \"5 steps to X\" gives them a reason to come back\n\n𝟮 Data\n↳ Numbers are easier to bookmark than remember\n\n𝟯 Templates\n↳ Useful beats interesting every time\n\n𝟰 Contrarian takes\n↳ Saves become ammunition for future debates\n\n𝟱 Checklists\n↳ Actionable beats inspirational\n\nThe pattern: save-worthy content solves a future problem. Something the reader will need again when they're back at their desk.\n\nLikes measure how you made someone feel in the moment. Saves measure how useful you'll be tomorrow.\n\nWhat's your most-saved post about?\n\nP.S. Yes, saving this one counts.",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1784202901068,
+        "date": "2026-07-16T11:55:01.068Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGa0CBDDpfs1Q/feedshare-shrink_1280/B56Z9mRGJOHcAM-/0/1784127187957?e=1786579200&v=beta&t=T50IGQwSdHAOEbV0S086t9MdV70F4h7-NZQTRuZEsUM",
+          "width": 540,
+          "height": 675
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483489364761673728",
+        "likes": 104,
+        "comments": 95,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 90
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480227370549829632",
+      "entityId": "7480227370549829632",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_i-write-5-to-7-posts-each-week-in-90-minutes-activity-7480227370549829632-S3FQ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479987534824054784",
+      "shareUrn": "urn:li:share:7479987534824054784",
+      "content": "I write 5 to 7 posts each week in 90 minutes.\n\nI learned the hard way. If you don't batch, you drown.\n\nBack in 2024, every morning I'd sit down and write the post for the next day. Then wake up and do it again. One post, one day, on repeat.\n\nIt was draining. Some nights I'd be up late forcing out a post just to have something to publish. The blank page never went away, because it showed up every single morning.\n\nI knew I needed a system before it burned me out.\n\nHere's the one I run now 👇\n\n𝟭) 𝗖𝗮𝗽𝘁𝘂𝗿𝗲 𝗶𝗱𝗲𝗮𝘀 𝗮𝗹𝗹 𝘄𝗲𝗲𝗸\n↳ Ideas show up at random, so I catch them the second they land\n↳ I connected Airtable to Claude. Now I just tell Claude, and the idea lands in my database on its own.\n↳ Don't want to set up your own system? Stanley captures and pressure-tests your ideas the same way.\n↳ The blank page dies here. I never start from zero.\n\n𝟮) 𝗗𝗿𝗮𝗳𝘁 𝘁𝗵𝗲 𝘄𝗵𝗼𝗹𝗲 𝘄𝗲𝗲𝗸 𝗮𝘁 𝗼𝗻𝗰𝗲\n↳ Once I've got 5 to 7 ideas, I write all of them in one block\n↳ Same headspace, same voice, no context-switching\n\n𝟯) 𝗕𝘂𝗶𝗹𝗱 𝘁𝗵𝗲 𝗴𝗿𝗮𝗽𝗵𝗶𝗰𝘀 𝗹𝗮𝘀𝘁\n↳ With the copy done, Stanley or Claude Code builds the visuals\n↳ Design is the final step, never the thing blocking me\n\n90 minutes. 5 to 7 posts. A full week, done.\n\nThen I don't think about it again until next week.\n\nEffort doesn't compound. Systems do.\n\nBuild the system once and posting stops running your life.\n\nP.S. How far ahead do you batch? Or are you still writing today's post today?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1783425181043,
+        "date": "2026-07-07T11:53:01.043Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFOc1sIboBQvQ/feedshare-shrink_1280/B56Z85BBtJKgAM-/0/1783367998588?e=1786579200&v=beta&t=TrCpli4N6upe91OxPFS2m3lw3GrNckmwMnS06CUyKx4",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480227370549829632",
+        "likes": 160,
+        "comments": 110,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 138
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484938916140306432",
+      "entityId": "7484938916140306432",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_stop-prompting-claude-i-save-2-hours-a-activity-7484938916140306432-EASa",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484225959500410880",
+      "shareUrn": "urn:li:share:7484225959500410880",
+      "content": "Stop prompting Claude.\n\nI save 2+ hours a day with it, and I barely write prompts anymore.\n\nLong prompts are the hard way. You explain who you are and what good output looks like, every single chat, and then you do it all again tomorrow.\n\nI replaced all of that with a setup I built once. Here's the whole thing 👇\n\n𝟭) 𝗚𝗶𝘃𝗲 𝗖𝗹𝗮𝘂𝗱𝗲 𝘆𝗼𝘂𝗿 𝗰𝗼𝗻𝘁𝗲𝘅𝘁 𝗼𝗻𝗰𝗲\n↳ I run 13 files + a router that picks them.\n↳ Start with 3: me(.)md, voice(.)md, anti-ai-writing(.)md\n↳ Those 3 get you 90% of the way there.\n\n𝟮) 𝗧𝘂𝗿𝗻 𝗿𝗲𝗽𝗲𝗮𝘁 𝗽𝗿𝗼𝗺𝗽𝘁𝘀 𝗶𝗻𝘁𝗼 𝘀𝗵𝗼𝗿𝘁𝗰𝘂𝘁𝘀\n↳ /tldr, /steps, /counter. Each one replaces a 200-word prompt.\n↳ Typed it twice? Make it a shortcut.\n\n𝟯) 𝗖𝗼𝗻𝗻𝗲𝗰𝘁 𝗶𝘁 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗿𝗲𝗮𝗹 𝘁𝗼𝗼𝗹𝘀\n↳ Gmail, Airtable, Drive. No copy-pasting.\n↳ Claude reads my ideas right out of Airtable.\n\n𝟰) 𝗣𝘂𝘁 𝘁𝗵𝗲 𝗯𝗼𝗿𝗶𝗻𝗴 𝘀𝘁𝘂𝗳𝗳 𝗼𝗻 𝗮 𝘀𝗰𝗵𝗲𝗱𝘂𝗹𝗲\n↳ Morning brief, inbox triage, follower log.\n↳ Scheduled prompts run without me.\n\n𝟱) 𝗦𝘁𝗮𝗿𝘁 𝗲𝘃𝗲𝗿𝘆 𝗰𝗵𝗮𝘁 𝘄𝗶𝘁𝗵 𝗼𝗻𝗲 𝗹𝗶𝗻𝗲\n↳ \"Here's the task. Ask questions first.\"\n↳ Claude interviews you, then does the work.\n\nSet it up over one weekend. You get the time back every day after.\n\nSave this for your Saturday morning.\n\nP.S. This is exactly how we think about content at Stanley: you shouldn't have to re-explain yourself to AI every time you post. If you'd rather not build any of this, that's what Stanley is for.",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1784548501048,
+        "date": "2026-07-20T11:55:01.048Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHzdpP96cMp8w/feedshare-image-high-res/B56Z91P2s2IoAU-/0/1784378518555?e=1786579200&v=beta&t=MOeDa9HiR7esTILlaagnVGrahD5f5XfP0ULC3nuQS5w",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484938916140306432",
+        "likes": 213,
+        "comments": 125,
+        "shares": 12,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 186
+          },
+          {
+            "type": "EMPATHY",
+            "count": 13
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483266699442450432",
+      "entityId": "7483266699442450432",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_i-save-2-hours-a-day-with-claude-the-entire-activity-7483128312769179648-9e80",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483128311586373632",
+      "shareUrn": "urn:li:share:7483128311586373632",
+      "content": "I save 2 hours a day with Claude.\n\n(the entire setup took me one weekend)\n\nThe whole thing is 4 workflows I built once and haven't touched since.\n\nHere's the exact build order 👇\n\n𝟭) 𝗠𝗲𝗲𝘁𝗶𝗻𝗴 𝗻𝗼𝘁𝗲𝘀 𝗼𝗻 𝗮𝘂𝘁𝗼𝗽𝗶𝗹𝗼𝘁 (Friday night, 30 min to build)\n↳ Pulls my Granola transcript after every call\n↳ Extracts action items, updates my Notion board\n↳ ~30 min back. Done before my next coffee.\n\n𝟮) 𝗠𝗼𝗿𝗻𝗶𝗻𝗴 𝗶𝗻𝗯𝗼𝘅 𝘀𝗰𝗮𝗻 (Saturday morning, 20 min to build)\n↳ Scans my Gmail before I do\n↳ Flags unanswered invites, reschedules, pre-reads\n↳ ~30 min back. 5 emails that matter, not 50.\n\n𝟯) 𝗠𝗲𝗲𝘁𝗶𝗻𝗴 𝗯𝗿𝗶𝗲𝗳𝘀 (Saturday afternoon, 1 hour to build)\n↳ Reads my Calendar, researches every attendee\n↳ Pulls past context, drafts me a brief\n↳ ~40 min back. Every meeting prepped. Zero legwork.\n\n𝟰) 𝗖𝗮𝗹𝗲𝗻𝗱𝗮𝗿 𝘀𝗰𝗮𝗻 (Sunday morning, 30 min to build)\n↳ Reviews my week every morning\n↳ Flags conflicts, double-bookings, missing prep\n↳ ~20 min back. I know exactly what's coming.\n\nThe build order matters.\nFastest win first, so by Saturday morning workflow 1 has already paid for itself.\n\nOne weekend to build.\n2 hours back every single day.\n\nThat's the trade.\n\nComment \"Weekend\" and I'll DM you the full guide.\n\nP.S. Which one would buy you back the most time?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1784149813519,
+        "date": "2026-07-15T21:10:13.519Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQE74uflh3byHw/feedshare-shrink_1280/B56Z9lpi71LAAM-/0/1784116817922?e=1786579200&v=beta&t=ab2eg4Uuod5OBeCNNlAmHg-BTaUiueVH8Fq3LNMX8Y4",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "repostedBy": {
+        "name": "MJ Jaindl",
+        "publicIdentifier": "jaindl",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78"
+      },
+      "repostedAt": {
+        "timestamp": 1784149813519,
+        "date": "2026-07-15T21:10:13.519Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7483266699442450432?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7483266699442450432%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=OYSefp8uP7Pyd65XAV3Fbg%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "text": "MJ Jaindl reposted this"
+      },
+      "engagement": {
+        "id": "7483128312769179648",
+        "likes": 133,
+        "comments": 171,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 116
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475910779826012160",
+      "entityId": "7475910779826012160",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_bisummit-activity-7475910779826012160-3Pna",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7475910779196866560",
+      "shareUrn": "urn:li:ugcPost:7475910779196866560",
+      "content": "Three years ago, creators were a side conversation at Cannes. This year they led the conversation.\n\nCreator economy ad spend hit $37B in 2025 and is on track for $43.9B in 2026, roughly 18.6% growth, outpacing almost every other digital category.\n\nMedia isn’t centralized anymore. It’s distributed across 1000s of creators all over the world. And is the best thing that’s happens to it.",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1782396025616,
+        "date": "2026-06-25T14:00:25.616Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7475593799344467968",
+        "linkedinUrl": "https://www.linkedin.com/posts/brand-innovators-llc_bisummit-activity-7475593799344467968-2r0u",
+        "content": "At our Marketing Leadership #BISummit, hosted at the Armani Caffè during Cannes Lions, the conversation explored what happens when a product becomes deeply embedded in the creative process itself.\n\nIn conversation with Stanley's MJ Jaindl led a conversation with Dropbox's Liz Armistead and their creative partner Big Spaceship's Taryn Crouthers to unpack the work they’ve done to examine how Dropbox has become an essential part of how creators collaborate, share work products, and bring ideas to life.\n\nThe discussion highlighted how utility brands can authentically support creative communities by focusing on community trust and genuine value rather than simply attaching themselves to cultural moments where the license to play might not be readily apparent to the lay consumer. Panelists also explored the opportunities that emerge when brands are already supporting the people and ecosystems that fuel creativity.\n\nThe session offered a compelling perspective on how infrastructure can become an important part of culture when it empowers creators to do their best work.\n\n📢 SUBSCRIBE to our YouTube Channel to get all the highlights, exclusive interviews and latest insights! 🎥 https://lnkd.in/g_sTV57",
+        "contentAttributes": [
+          {
+            "start": 219,
+            "length": 7,
+            "type": "COMPANY_NAME",
+            "hyperlink": "https://www.linkedin.com/company/stanley-from-stan/",
+            "textLink": null,
+            "company": {
+              "id": "107128955",
+              "name": "Stanley",
+              "linkedinUrl": "https://www.linkedin.com/company/stanley-from-stan/"
+            }
+          },
+          {
+            "start": 229,
+            "length": 9,
+            "type": "PROFILE_MENTION",
+            "hyperlink": "https://www.linkedin.com/in/ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+              "firstName": "MJ",
+              "lastName": "Jaindl",
+              "linkedinUrl": "https://www.linkedin.com/in/jaindl",
+              "publicIdentifier": "jaindl"
+            }
+          },
+          {
+            "start": 263,
+            "length": 7,
+            "type": "COMPANY_NAME",
+            "hyperlink": "https://www.linkedin.com/company/dropbox/",
+            "textLink": null,
+            "company": {
+              "id": "167251",
+              "name": "Dropbox",
+              "linkedinUrl": "https://www.linkedin.com/company/dropbox/"
+            }
+          },
+          {
+            "start": 273,
+            "length": 13,
+            "type": "PROFILE_MENTION",
+            "hyperlink": "https://www.linkedin.com/in/ACoAAAAgA6oBIiP1fU1GpTXHdX_Ih9RgEmJUyTM",
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAAgA6oBIiP1fU1GpTXHdX_Ih9RgEmJUyTM",
+              "firstName": "Liz",
+              "lastName": "Armistead",
+              "linkedinUrl": "https://www.linkedin.com/in/lizarmistead",
+              "publicIdentifier": "lizarmistead"
+            }
+          },
+          {
+            "start": 314,
+            "length": 13,
+            "type": "COMPANY_NAME",
+            "hyperlink": "https://www.linkedin.com/company/bigspaceship/",
+            "textLink": null,
+            "company": {
+              "id": "19303",
+              "name": "Big Spaceship",
+              "linkedinUrl": "https://www.linkedin.com/company/bigspaceship/"
+            }
+          },
+          {
+            "start": 330,
+            "length": 15,
+            "type": "PROFILE_MENTION",
+            "hyperlink": "https://www.linkedin.com/in/ACoAAAFyFewBfD9NbwhHFLSvjewfLfzde5sSc98",
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAFyFewBfD9NbwhHFLSvjewfLfzde5sSc98",
+              "firstName": "Taryn",
+              "lastName": "Crouthers",
+              "linkedinUrl": "https://www.linkedin.com/in/taryncrouthers",
+              "publicIdentifier": "taryncrouthers"
+            }
+          },
+          {
+            "start": 1186,
+            "length": 23,
+            "type": "TEXT_LINK",
+            "hyperlink": null,
+            "textLink": "https://lnkd.in/g_sTV57"
+          }
+        ],
+        "author": {
+          "id": "2614693",
+          "universalName": "brand-innovators-llc",
+          "publicIdentifier": null,
+          "type": "company",
+          "name": "Brand Innovators",
+          "linkedinUrl": "https://www.linkedin.com/company/brand-innovators-llc/posts",
+          "info": "84,784 followers",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHV35KasAODNg/company-logo_400_400/company-logo_400_400/0/1736795538496/brand_innovators_llc_logo?e=1786579200&v=beta&t=Bv0kVvXvSqSTw5OcKQbbkgEXCnJqwvFcXK8e7sfR2eE",
+            "width": 400,
+            "height": 400
+          },
+          "urn": "2614693"
+        },
+        "postedAt": {
+          "timestamp": 1782320451580,
+          "date": "2026-06-24T17:00:51.580Z",
+          "postedAgoShort": "1mo",
+          "postedAgoText": "1 month ago • Edited • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E10AQEzNGNrdOtE1w/image-shrink_1280/B4EZ76k58GJUAc-/0/1782320439872?e=1785877200&v=beta&t=rZjZGW4nrWDrJjJ8arSaltiD6LgXFShwKuNJAnYDmCg",
+            "width": 1280,
+            "height": 853
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E10AQHrgVj5OtyH7w/image-shrink_1280/B4EZ76k6GoHwAc-/0/1782320440496?e=1785877200&v=beta&t=mETiHX2FXJmqgiz2zsKV6LDnM5DrwhhZcm3nbFNKWpI",
+            "width": 1280,
+            "height": 853
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E10AQFK-U4Fxozk6w/image-shrink_1280/B4EZ76k53xIcAc-/0/1782320439798?e=1785877200&v=beta&t=NvuNosl6q-gNAaoC3rX_LmAvLNGQBkYD-UmKOgBHsxg",
+            "width": 1280,
+            "height": 853
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E10AQE-6-MDdl98bA/image-shrink_1280/B4EZ76k57XHkAc-/0/1782320439753?e=1785877200&v=beta&t=-biFsQuLBQ0kQRlV4jccgcZmE3NsPez8qvNW7vuQJXs",
+            "width": 1280,
+            "height": 853
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E10AQEU8heg3fieOg/image-shrink_1280/B4EZ76k5.LJkAc-/0/1782320439954?e=1785877200&v=beta&t=ryoXg-e2E-1nxSrRMZvnFE7sHtBbjyzpnnDHwKlurOw",
+            "width": 1280,
+            "height": 853
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E10AQEVWWFUMOhjVw/image-shrink_1280/B4EZ76k55kIwAc-/0/1782320439654?e=1785877200&v=beta&t=EVtGBiSTRiN4eWg6BiSdJ9SJFoy-v0NUDLxepl7tJZg",
+            "width": 1280,
+            "height": 853
+          }
+        ],
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": true,
+          "hideSendAction": true,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/brand-innovators-llc_bisummit-activity-7475593799344467968-2r0u?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7475593799344467968",
+        "shareUrn": "urn:li:ugcPost:7475593797738024960",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7475593797738024960",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475910779196866560",
+        "likes": 37,
+        "comments": 16,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 33
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475516076647153664",
+      "entityId": "7475516076647153664",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_5-prompts-to-upgrade-your-linkedin-profile-activity-7475516076647153664-BpML",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7473813992356892672",
+      "shareUrn": "urn:li:ugcPost:7473813992356892672",
+      "content": "Your LinkedIn profile is working against you.\n\n(and you can't feel it happening)\n\nLinkedIn's algorithm weighs your profile when deciding who sees your content.\n\nBad profile = wrong audience.\nGreat profile = faster growth.\n\nI rebuilt my profile using these exact prompts. The difference in who started showing up in my comments was immediate.\n\nHere's how to upgrade yours with AI 👇\n\n𝟭) 𝗣𝗿𝗼𝗳𝗶𝗹𝗲 𝗣𝗵𝗼𝘁𝗼 𝗣𝗿𝗼𝗺𝗽𝘁 (Google Nano Banana)\n\"A professional, high-resolution profile photo maintaining the exact facial structure and identity of the person in the input image. Framed from the chest up with headroom above. Direct eye contact. Smart casual blazer. Solid #141414 background. Bright, soft studio lighting with catchlight in the eyes. 85mm f/1.8 lens, shallow depth of field. Confident, professional, approachable. Cinematic, slightly warm tones.\"\n\n𝟮) 𝗛𝗲𝗮𝗱𝗹𝗶𝗻𝗲 𝗣𝗿𝗼𝗺𝗽𝘁 (Stanley)\n\"I want to create a LinkedIn headline using this format: [action verb] + [ideal customer] + [what they want] + [how you help]. Ask me questions one by one until you understand what I do. Then write the perfect headline.\"\n\n𝟯) 𝗔𝗯𝗼𝘂𝘁 𝗦𝗲𝗰𝘁𝗶𝗼𝗻 𝗣𝗿𝗼𝗺𝗽𝘁 (Stanley)\n\"You are a personal branding expert. Ask me one at a time: 1. Who do I want to attract? 2. What problem do they have? 3. What proof do I have? 4. What's my before → after story? 5. What do I believe others get wrong? 6. How can people work with me? Then write a LinkedIn About section that is clear, credible, under 1500 words, and sounds human.\"\n\n𝟰) 𝗕𝗮𝗻𝗻𝗲𝗿 𝗣𝗿𝗼𝗺𝗽𝘁 (Google Nano Banana)\n\"Create a LinkedIn banner. Ask me questions one by one. Include: 1. What I Do (8-10 words). 2. Social Proof. 3. Call To Action. Use modern high-contrast typography. Minimal clutter. Ask for my color palette before finishing.\"\n\n𝟱) 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝗱 𝗦𝗲𝗰𝘁𝗶𝗼𝗻 𝗣𝗿𝗼𝗺𝗽𝘁 (Google Nano Banana)\n\"Create a LinkedIn Featured Section image. Ask me three questions: 1. Color palette. 2. Visual style. 3. Core message or headline. Then generate a clean, professional image with high contrast, one focal point, and large readable text.\"\n\nYour profile is your first impression.\n\nSave this. Update one section today.\n\nP.S. When did you last update your profile?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1782301921045,
+        "date": "2026-06-24T11:52:01.045Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "5 Prompts To Upgrade Your LinkedIn Profile",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQGDWqpLCbb7Ww/feedshare-document-chunked-pdf/B56Z7hSEaXGQBk-/0/1781896075922?e=1785877200&v=beta&t=PxrOzMvNiZZcXKUh1SSgtrYA3STa8USsdTdRRsDRqeo",
+        "coverPages": [
+          {
+            "width": 1537,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D561FAQGDWqpLCbb7Ww/feedshare-document-cover-images_1920/B56Z7hSEaXGQBQ-/0/1781896078374?e=1785877200&v=beta&t=lT6AkmYOUnpBQDBOGAKzTN_Lv0Eh9R7UEjmQxJeQV0U",
+              "https://media.licdn.com/dms/image/v2/D561FAQGDWqpLCbb7Ww/feedshare-document-cover-images_1920/B56Z7hSEaXGQBQ-/1/1781896078374?e=1785877200&v=beta&t=LC1aDcqJGyDrVC5jJ5hXJ34fxtIFcN5N-3xu6J2bJ5Q",
+              "https://media.licdn.com/dms/image/v2/D561FAQGDWqpLCbb7Ww/feedshare-document-cover-images_1920/B56Z7hSEaXGQBQ-/2/1781896078374?e=1785877200&v=beta&t=NugSsOTNdQAEjfoTWMTakXZti3isHNlPVcqvBi-ClI4"
+            ],
+            "height": 1921
+          }
+        ],
+        "totalPageCount": 11,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQGDWqpLCbb7Ww/feedshare-document-master-manifest/B56Z7hSEaXGQBY-/0/1781896078416?e=1785877200&v=beta&t=BA_VrhPdKZxUH6XRXGctHebxeKLgOCtAQbi9jkiKHkk",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D561FAQGDWqpLCbb7Ww",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQGDWqpLCbb7Ww/feedshare-document-transcript/B56Z7hSEaXGQA0-/0/1781896078416?e=1785974400&v=beta&t=70Tnwj8ykWZfB0nsX6rnoSrX_KcIqG8kdK6JFnI-CeQ",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQGDWqpLCbb7Ww/feedshare-document-pdf-analyzed/B56Z7hSEaXGQAY-/0/1781896078416?e=1785974400&v=beta&t=FWCAO3zMbXlK6R2touNA5kBaQx0Y-MR1vpGk76XACqs",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 650,
+              "height": 812,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQGDWqpLCbb7Ww/feedshare-document-images_800/B56Z7hSEaXGQAk-/0/1781896078416?e=1785974400&v=beta&t=SqsZ2BFQzJHy7tyZmMTjqVH285LsGXEWK3gvsdAf9Rk"
+            },
+            {
+              "width": 1025,
+              "height": 1281,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQGDWqpLCbb7Ww/feedshare-document-images_1280/B56Z7hSEaXGQAQ-/0/1781896078416?e=1785974400&v=beta&t=-RNCWQe235wqoRGZVk3rXTJSbHZlviRh0MsTSCwT__c"
+            },
+            {
+              "width": 387,
+              "height": 484,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQGDWqpLCbb7Ww/feedshare-document-images_480/B56Z7hSEaXGQAg-/0/1781896078416?e=1785974400&v=beta&t=6bjk1vomlT_6-_BtFRaLyk6oVjk2p-yoH85fSz97OCA"
+            },
+            {
+              "width": 1537,
+              "height": 1921,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQGDWqpLCbb7Ww/feedshare-document-images_1920/B56Z7hSEaXGQAo-/0/1781896078416?e=1785974400&v=beta&t=KunE83rUM4k5NIKSVzJygAaK7FVBR0Z5x2prIEFMh9U"
+            },
+            {
+              "width": 137,
+              "height": 171,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQGDWqpLCbb7Ww/feedshare-document-images_160/B56Z7hSEaXGQAc-/0/1781896078416?e=1785974400&v=beta&t=GloRtUDytbyFSJdNqyGoDFn-vfz3-kIFj-VG_p-k-8Q"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7473813992356892672",
+        "likes": 208,
+        "comments": 118,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 175
+          },
+          {
+            "type": "EMPATHY",
+            "count": 17
+          },
+          {
+            "type": "INTEREST",
+            "count": 11
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476240349116588032",
+      "entityId": "7476240349116588032",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_80-of-b2b-social-media-leads-come-from-linkedin-activity-7476240349116588032-B7dx",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7471319874577993728",
+      "shareUrn": "urn:li:share:7471319874577993728",
+      "content": "80% of B2B social media leads come from LinkedIn.\n\nBut most people mess it up.\n\nThey pick one lane and stay in it.\n\nContent-only creators post daily and wait. Visible, but passive. The pipeline grows slowly.\n\nCold-outbound senders blast DMs to strangers. Active, but cold. Trust hasn't been built yet.\n\nAfter 800 posts and 70k+ followers, I can tell you where real pipeline comes from: running both. Content warms up your ICP at scale. Outbound reaches them at the right moment. Warm and targeted is the strongest combination on this platform.\n\nWhen you do both, inbound shows up on its own. Profile views turn into connection requests. DMs arrive from people already sold on you.\n\nHere's how to run it 👇\n\n𝟭) 𝗣𝗼𝘀𝘁 𝗯𝗲𝗳𝗼𝗿𝗲 𝘆𝗼𝘂 𝗽𝗿𝗼𝘀𝗽𝗲𝗰𝘁\n↳ Get in front of your ICP before you need anything from them\n\n𝟮) 𝗘𝗻𝗴𝗮𝗴𝗲 𝗯𝗲𝗳𝗼𝗿𝗲 𝘆𝗼𝘂 𝗗𝗠\n↳ Comment on their content for two weeks first\n\n𝟯) 𝗪𝗮𝘁𝗰𝗵 𝗳𝗼𝗿 𝘄𝗮𝗿𝗺 𝘀𝗶𝗴𝗻𝗮𝗹𝘀\n↳ Profile views and saves tell you who is ready\n\n𝟰) 𝗥𝗲𝗳𝗲𝗿𝗲𝗻𝗰𝗲 𝘀𝗼𝗺𝗲𝘁𝗵𝗶𝗻𝗴 𝘀𝗽𝗲𝗰𝗶𝗳𝗶𝗰\n↳ Generic outreach from familiar names still fails\n\n𝟱) 𝗧𝗿𝗮𝗰𝗸 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲, 𝗻𝗼𝘁 𝘃𝗮𝗻𝗶𝘁𝘆\n↳ DMs and booked calls, not likes and impressions\n\nThe full breakdown is in the infographic below.\n\nP.S. Are generating business from LinkedIn?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1782474601058,
+        "date": "2026-06-26T11:50:01.058Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHatta-H8F3Bg/feedshare-image-high-res/B4EZ6911osIAAU-/0/1781301467927?e=1786579200&v=beta&t=cObz_Ncsh3zP47S-sbh4IPMI7voA7yTjQpuTcWl8xC4",
+          "width": 800,
+          "height": 1000
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7476240349116588032",
+        "likes": 128,
+        "comments": 81,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 107
+          },
+          {
+            "type": "EMPATHY",
+            "count": 11
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477690655654387712",
+      "entityId": "7477690655654387712",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_i-spent-30-minutes-setting-up-claude-one-activity-7477690655654387712-uBI5",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7476379119358849025",
+      "shareUrn": "urn:li:share:7476379119358849025",
+      "content": "I spent 30 minutes setting up Claude one Saturday.\n\nIt saves me 4 hours every week. Here's where it goes:\n\n↳ Triaging the inbox and starting replies (90 min/week)\n↳ Drafting emails in my voice (60 min)\n↳ Briefing me before every call (45 min)\n↳ Prepping deal terms before a negotiation (45 min)\n\nNot the fun stuff. The stuff that runs the business.\n\nThe unlock is \"skills.\" A skill is a file that teaches Claude how to do one job your way. Write it once, and it does that job the same way every time. No re-explaining your voice. No re-pasting context.\n\n12 skills. 2 foundations. Here's the whole thing 👇\n\n𝟭) 𝗦𝗲𝘁 𝘂𝗽 𝗮 𝗵𝗼𝗺𝗲 𝗯𝗮𝘀𝗲\n↳ A .claude/skills/ folder, or a Claude Project\n↳ Every skill lives here\n\n𝟮) 𝗕𝘂𝗶𝗹𝗱 𝘆𝗼𝘂𝗿 𝟮 𝗳𝗼𝘂𝗻𝗱𝗮𝘁𝗶𝗼𝗻𝘀 𝗳𝗶𝗿𝘀𝘁\n↳ voice-builder: how you write\n↳ company-context: your business brain\n↳ Every other skill reads these two\n\n𝟯) 𝗟𝗲𝗮𝗿𝗻 𝘁𝗵𝗲 𝘁𝗲𝗺𝗽𝗹𝗮𝘁𝗲 𝗼𝗻𝗰𝗲\n↳ One SKILL.md file: a name and the steps\n↳ That's the whole format\n\n𝟰) 𝗕𝘂𝗶𝗹𝗱 𝘆𝗼𝘂𝗿 𝗳𝗶𝗿𝘀𝘁 𝗱𝗼𝗲𝗿 𝘀𝗸𝗶𝗹𝗹\n↳ Start with your biggest time drain\n↳ Wire it to voice-builder so it sounds like you\n\n𝟱) 𝗥𝗲𝗽𝗲𝗮𝘁 𝗮𝗰𝗿𝗼𝘀𝘀 𝟯 𝗰𝗮𝘁𝗲𝗴𝗼𝗿𝗶𝗲𝘀\n↳ Create: hook-writer, post-writer, carousel-builder, repurposer\n↳ Grow: post-scorer, comment-assistant, analytics-recap\n↳ Operate: inbox-triage, meeting-brief, weekly-review\n\n𝟲) 𝗧𝗲𝘀𝘁 𝗲𝗮𝗰𝗵 𝗶𝗻 𝗮 𝗳𝗿𝗲𝘀𝗵 𝗰𝗵𝗮𝘁\n↳ Sounds like you? Keep it.\n↳ Doesn't? Fix the skill, not the chat\n\n𝟳) 𝗖𝗼𝗻𝗻𝗲𝗰𝘁 𝘆𝗼𝘂𝗿 𝘁𝗼𝗼𝗹𝘀, 𝘁𝗵𝗲𝗻 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗲\n↳ Add connectors and scheduled tasks\n↳ Now the skills run without you opening them\n\n30 minutes to set up. 4 hours back every week.\n\nThat's the trade.\n\nAnd it keeps paying: every time you do something twice, that's your next skill. The system builds itself from there.\n\nSave this for your Saturday.\n\nP.S. If you set up one skill this weekend, which job would you hand off first?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1782820381082,
+        "date": "2026-06-30T11:53:01.082Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFPpPbR94zDnQ/feedshare-image-high-res/B56Z8FvMgyGgAU-/0/1782507686219?e=1786579200&v=beta&t=2a20cx30iTzHGUmb7OQ4lMnNR_oNYILQ5s6DCRfkSEU",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477690655654387712",
+        "likes": 78,
+        "comments": 89,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 68
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487477203794804736",
+      "entityId": "7487477203794804736",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_most-people-know-5-claude-code-shortcuts-activity-7487477203794804736-3hBM",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487477200833753088",
+      "shareUrn": "urn:li:share:7487477200833753088",
+      "content": "Most people know 5 Claude Code shortcuts.\n\nHere's 40 that work.\n\n(tested one by one, today)\n\nI went through the official docs and verified every command before posting this. No dead commands, no outdated syntax.\n\nThe full list, in 6 groups 👇\n\n𝟭) 𝗖𝗼𝗻𝘁𝗿𝗼𝗹 𝘁𝗵𝗲 𝘀𝗲𝘀𝘀𝗶𝗼𝗻\n↳ /clear: fresh start\n↳ /compact: shrink context, keep the facts\n↳ /context: see what's eating your tokens\n↳ /rewind: roll back code and chat\n↳ /resume: reopen any old session\n↳ /branch: split off a new direction\n↳ /fork: duplicate the session, explore both\n\n𝟮) 𝗦𝗵𝗶𝗽 𝗯𝗲𝘁𝘁𝗲𝗿 𝗰𝗼𝗱𝗲\n↳ /plan: plan before any edits\n↳ /diff: see uncommitted changes\n↳ /code-review: hunt bugs in the diff\n↳ /security-review: find security holes\n↳ /review: review a GitHub PR\n\n𝟯) 𝗪𝗼𝗿𝗸 𝗶𝗻 𝗽𝗮𝗿𝗮𝗹𝗹𝗲𝗹\n↳ /tasks: list everything running\n↳ /background: detach, it keeps working\n↳ /batch: fan one job across parallel agents\n↳ /subtask: hand a side job to a subagent\n↳ /btw: quick side question, no history entry\n↳ /teleport: pull a claude.ai session into your terminal\n↳ /remote-control: continue from another device\n\n𝟰) 𝗧𝘂𝗻𝗲 𝗖𝗹𝗮𝘂𝗱𝗲\n↳ /model: switch models mid-session\n↳ /effort: dial reasoning up or down\n↳ /config: every setting in one menu\n↳ /theme: change the colors\n↳ /color: tint the prompt bar per session\n↳ /keybindings: rebind any key\n↳ /voice: talk instead of type\n\n𝟱) 𝗦𝗲𝘁 𝘂𝗽 𝘆𝗼𝘂𝗿 𝗽𝗿𝗼𝗷𝗲𝗰𝘁\n↳ /init: generate your CLAUDE.md\n↳ /memory: edit what Claude remembers\n↳ /mcp: connect outside tools\n↳ /permissions: set what runs without asking\n↳ /add-dir: open up another folder\n↳ /cd: change directories mid-session\n↳ /terminal-setup: fix Shift+Enter\n\n𝟲) 𝗨𝘁𝗶𝗹𝗶𝘁𝗶𝗲𝘀\n↳ /usage: tokens and cost so far\n↳ /status: model, mode, and directory at a glance\n↳ /doctor: diagnose a broken install\n↳ /debug: verbose logs when things get weird\n↳ /copy: copy the last response\n↳ /export: save the conversation to a file\n↳ /feedback: report a bug with full context\n\nSave this. You'll reach for it mid-session.\n\nP.S. Which one did you not know existed?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1785153675984,
+        "date": "2026-07-27T12:01:15.984Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQE9tmWbJAcCbA/feedshare-image-high-res/B56Z.jc1twKoAU-/0/1785153674407?e=1786579200&v=beta&t=Nxf4vx1xixjFchrwRuvXL-njdvft2s6xNRdpcMjZpBg",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487477203794804736",
+        "likes": 131,
+        "comments": 102,
+        "shares": 10,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 115
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479864731038572544",
+      "entityId": "7479864731038572544",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_my-post-last-week-got-241521-views-i-wrote-activity-7479864731038572544-_lUy",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479532302805426176",
+      "shareUrn": "urn:li:share:7479532302805426176",
+      "content": "My post last week got 241,521 views\n\nI wrote it with AI & LinkedIn didn't suppress it.\n\nLinkedIn started suppressing AI slop this May.\n\n(94% detection accuracy, per VP of Product Laura Lorenzetti)\n\nI write almost everything with Claude & Stanley.\n\nHere's the part most people miss: LinkedIn's detector is built to catch generic content. That's a narrower target than \"written by AI,\" and it's the one I actually get to control.\n\nHere's what actually keeps an AI draft off the slop pile 👇\n\n𝟭) 𝗞𝗶𝗹𝗹 𝘁𝗵𝗲 𝗿𝗲𝗳𝗿𝗮𝗺𝗲\n↳ LinkedIn named \"it's not X, it's Y\" as an actual tell\n↳ Create an anti-ai.md file to catch these (I have a full post on this)\n\n𝟮) 𝗔𝗱𝗱 𝗮 𝗻𝘂𝗺𝗯𝗲𝗿 𝗖𝗹𝗮𝘂𝗱𝗲 𝗰𝗮𝗻'𝘁 𝗴𝘂𝗲𝘀𝘀\n↳ One real number in the hook, more through the body\n↳ My analytics aren't in its training data, so I put them there\n\n𝟯) 𝗧𝗲𝗹𝗹 𝘆𝗼𝘂𝗿 𝘀𝘁𝗼𝗿𝘆 𝘂𝗽 𝗳𝗿𝗼𝗻𝘁\n↳ Open the post with something only you've lived\n↳ It's the one thing no model can generate for you\n\n𝟰) 𝗥𝗲𝗮𝗱 𝗶𝘁 𝗼𝘂𝘁 𝗹𝗼𝘂𝗱\n↳ If I wouldn't say it to a friend over coffee, it doesn't go out\n\n𝟱) 𝗙𝗲𝗲𝗱 𝗶𝘁 𝗿𝗲𝗮𝗹 𝘀𝗲𝗻𝘁𝗲𝗻𝗰𝗲𝘀\n↳ My mj.md and voice files hold posts I've actually written\n↳ Claude drafts from those, not a tone description\n\n𝟲) 𝗪𝗮𝘁𝗰𝗵 𝘁𝗵𝗲 𝗿𝘂𝗹𝗲 𝗼𝗳 𝘁𝗵𝗿𝗲𝗲\n↳ Three bullets that open the same way reads mechanical\n↳ Even when each one is true on its own\n\nI'm still writing with Claude and Stanley for almost everything. What changed is that the first draft doesn't go out anymore. This list runs before it does.\n\nP.S. Which one of these are you skipping right now?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1783338721046,
+        "date": "2026-07-06T11:52:01.046Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGbQT5OQW-0KQ/feedshare-shrink_1280/B56Z8yi_8pIQAM-/0/1783259463724?e=1786579200&v=beta&t=krSdhAB6RPevi0kdCJr1CZBy2B7RsjpWcXQOGqifQiI",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479864731038572544",
+        "likes": 97,
+        "comments": 98,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 82
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475153688756518912",
+      "entityId": "7475153688756518912",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_i-grew-from-0-to-70k-on-linkedin-nobody-activity-7475153688756518912-805Z",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7473810395678330880",
+      "shareUrn": "urn:li:share:7473810395678330880",
+      "content": "I grew from 0 to 70k on LinkedIn.\n\nNobody warns you what it actually takes.\n\n\"Just post consistently.\"\n\nSo I did. For 3 months.\n\nRandom topics. Random formats. Random hooks.\n\nConsistency didn't equal visibility.\n\nConsistency is table stakes. Not the skill.\n\nI went back and mapped what actually moved the needle. It wasn't one habit. It was a stack of skills built on top of each other 👇\n\nWriting a hook that earns the next line\n↳ most posts die in the first sentence\n\nFormatting for the scroll\n↳ white space, one idea per line, a clean landing\n\nTelling a personal story people see themselves in\n↳ receipts beat opinions\n\nStudying why people stop, save, and comment\n↳ human psychology, not the algorithm\n\nReplying to every comment like it matters\n↳ the second wave of reach lives there\n\nThat's five. The full map is in the graphic.\n\nNone of it fits on a \"post consistently\" poster.\n\nIt took me 18 months to learn. You can start this week.\n\nSave this if you're done posting into the void.\n\nP.S. Which one are you skipping?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1782215521039,
+        "date": "2026-06-23T11:52:01.039Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFaYIoA3KSrRg/feedshare-image-high-res/B56Z7hO876GUAU-/0/1781895253992?e=1786579200&v=beta&t=qbsx9g_hKae5MfAqF7IffqbY7GRzKFkrNekUTGezz3Q",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475153688756518912",
+        "likes": 126,
+        "comments": 89,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 108
+          },
+          {
+            "type": "EMPATHY",
+            "count": 12
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477328770991955968",
+      "entityId": "7477328770991955968",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_claude-saves-me-5-hours-a-week-it-wouldnt-activity-7477328770991955968-WKJc",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7476374865122369536",
+      "shareUrn": "urn:li:share:7476374865122369536",
+      "content": "Claude saves me 5+ hours a week.\n\nIt wouldn't if I didn't use these commands.\n\nPrompting better won't save you. Learning Claude will.\n\nThe commands are shortcuts that can 10x your output. But you have to know them, and know when to use them.\n\nHere are all 16, sorted by what they actually do 👇\n\n𝗦𝗲𝘁 𝘂𝗽\n↳ /init: generate a CLAUDE.md so Claude knows your project\n↳ /memory: edit what it remembers across sessions\n↳ /config: change model, theme, and preferences\n↳ /model: switch the AI model\n\n𝗥𝘂𝗻 𝘄𝗼𝗿𝗸\n↳ /plan: plan mode before it touches your code\n↳ /agents: manage subagents that work in parallel\n↳ /skills: list the custom commands you can run\n↳ /deep-research: fan out web searches into a cited report\n\n𝗠𝗮𝗻𝗮𝗴𝗲 𝗰𝗼𝗻𝘁𝗲𝘅𝘁\n↳ /clear: start fresh with empty context\n↳ /compact: summarize the chat to free up space\n↳ /context: see how much context you're using\n↳ /rewind: roll the conversation and code back\n\n𝗦𝗵𝗶𝗽 & 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗲\n↳ /code-review: review code for bugs and cleanups\n↳ /security-review: scan changes for vulnerabilities\n↳ /schedule: set up recurring cloud tasks\n↳ /usage: see your cost and plan limits\n\nThe three that earn their keep for me:\n\n/plan, so it thinks before it edits anything.\n/rewind, so a bad turn costs me 5 seconds instead of an hour of cleanup.\n/context, so I stop blowing past the window without noticing.\n\nYou don't need all 16 on day one. Learn the four you'll use this week, add the rest as you go.\n\nSave this. You'll want it the next time you open Claude Code.\n\nP.S. Which one did you not know existed?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1782734101055,
+        "date": "2026-06-29T11:55:01.055Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHVC-fxAnJ1hg/feedshare-image-high-res/B56Z8FrU0SIQAY-/0/1782506671663?e=1786579200&v=beta&t=OTPLBiPMRL4aLilrgFtpaCgCZraHk1qK3GzSMtkhays",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477328770991955968",
+        "likes": 166,
+        "comments": 124,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 145
+          },
+          {
+            "type": "INTEREST",
+            "count": 10
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480370521742700545",
+      "entityId": "7480370521742700545",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_i-write-5-to-7-posts-each-week-in-90-minutes-activity-7480227370549829632-S3FQ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479987534824054784",
+      "shareUrn": "urn:li:share:7479987534824054784",
+      "content": "I write 5 to 7 posts each week in 90 minutes.\n\nI learned the hard way. If you don't batch, you drown.\n\nBack in 2024, every morning I'd sit down and write the post for the next day. Then wake up and do it again. One post, one day, on repeat.\n\nIt was draining. Some nights I'd be up late forcing out a post just to have something to publish. The blank page never went away, because it showed up every single morning.\n\nI knew I needed a system before it burned me out.\n\nHere's the one I run now 👇\n\n𝟭) 𝗖𝗮𝗽𝘁𝘂𝗿𝗲 𝗶𝗱𝗲𝗮𝘀 𝗮𝗹𝗹 𝘄𝗲𝗲𝗸\n↳ Ideas show up at random, so I catch them the second they land\n↳ I connected Airtable to Claude. Now I just tell Claude, and the idea lands in my database on its own.\n↳ Don't want to set up your own system? Stanley captures and pressure-tests your ideas the same way.\n↳ The blank page dies here. I never start from zero.\n\n𝟮) 𝗗𝗿𝗮𝗳𝘁 𝘁𝗵𝗲 𝘄𝗵𝗼𝗹𝗲 𝘄𝗲𝗲𝗸 𝗮𝘁 𝗼𝗻𝗰𝗲\n↳ Once I've got 5 to 7 ideas, I write all of them in one block\n↳ Same headspace, same voice, no context-switching\n\n𝟯) 𝗕𝘂𝗶𝗹𝗱 𝘁𝗵𝗲 𝗴𝗿𝗮𝗽𝗵𝗶𝗰𝘀 𝗹𝗮𝘀𝘁\n↳ With the copy done, Stanley or Claude Code builds the visuals\n↳ Design is the final step, never the thing blocking me\n\n90 minutes. 5 to 7 posts. A full week, done.\n\nThen I don't think about it again until next week.\n\nEffort doesn't compound. Systems do.\n\nBuild the system once and posting stops running your life.\n\nP.S. How far ahead do you batch? Or are you still writing today's post today?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1783459310947,
+        "date": "2026-07-07T21:21:50.947Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFOc1sIboBQvQ/feedshare-shrink_1280/B56Z85BBtJKgAM-/0/1783367998588?e=1786579200&v=beta&t=TrCpli4N6upe91OxPFS2m3lw3GrNckmwMnS06CUyKx4",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "repostedBy": {
+        "name": "MJ Jaindl",
+        "publicIdentifier": "jaindl",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78"
+      },
+      "repostedAt": {
+        "timestamp": 1783459310947,
+        "date": "2026-07-07T21:21:50.947Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7480370521742700545?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7480370521742700545%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=pAM%2Fo%2B4asyJxKAAOrOKomw%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "text": "MJ Jaindl reposted this"
+      },
+      "engagement": {
+        "id": "7480227370549829632",
+        "likes": 160,
+        "comments": 110,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 138
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7474791300962086912",
+      "entityId": "7474791300962086912",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_ikeas-ai-eliminated-over-8500-customer-activity-7474791300962086912-zG_f",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7472042470093111299",
+      "shareUrn": "urn:li:share:7472042470093111299",
+      "content": "IKEA's AI eliminated over 8,500 customer service jobs.\n\nThey didn't lay off a single person.\n\nInstead, they made $1.4 billion. 👇\n\nHere's what most companies get wrong about AI.\n\nThey see automation and think headcount. Cut the team, pocket the savings, move on.\n\nIKEA looked at the same technology and asked a different question.\n\nTheir AI bot, Billie, now handles 47% of customer service calls. Routine stuff. Order status, returns, product specs.\n\nThat used to be 8,500 people's whole job.\n\nMost CEOs would've sent the layoff memo. IKEA did the opposite:\n\n1. They asked what the bot couldn't do\n↳ Taste. Context. \"Help me design this room.\"\n\n2. They found demand hiding in their own call logs\n↳ Customers wanted advice, not just answers.\n\n3. They retrained all 8,500 as remote design advisors\n↳ Same people. Higher-value work.\n\nThat advisory channel now pulls in ~$1.4 billion a year.\n\nThe win isn't replacing your people. It's freeing them from the work a machine should've been doing all along. So they can do the work only a human can.\n\nAI handles the volume. Humans handle the value.\n\nThat's not a cost-cutting story. That's a growth story.\n\nP.S. If AI took the boring half of your job tomorrow, what would you actually want to spend that time on?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1782129121056,
+        "date": "2026-06-22T11:52:01.056Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFbtnO25AE82g/feedshare-shrink_1280/B56Z7IHCNrKsAM-/0/1781473748117?e=1786579200&v=beta&t=PFzIlJ0COMis4r1vnEKQqEalWVvrr0BLOPP9ccYj-UQ",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7474791300962086912",
+        "likes": 2657,
+        "comments": 233,
+        "shares": 216,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1984
+          },
+          {
+            "type": "PRAISE",
+            "count": 285
+          },
+          {
+            "type": "EMPATHY",
+            "count": 232
+          },
+          {
+            "type": "INTEREST",
+            "count": 116
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 40
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478415179693633536",
+      "entityId": "7478415179693633536",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_everyone-can-smell-ai-writing-now-the-em-activity-7478415179693633536-JBXK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478067062939226112",
+      "shareUrn": "urn:li:share:7478067062939226112",
+      "content": "Everyone can smell AI writing now.\n\nThe em dashes. \"In today's world.\" Leverage this, unlock that. The tidy rule of three.\n\nYour reader clocks it in two seconds and trusts you a little less.\n\nSo I built one file that teaches Claude to write in my voice. I call it anti-ai-writing. md.\n\nHere's how to build yours in 7 steps 👇\n\n𝟭) 𝗠𝗮𝗸𝗲 𝘁𝗵𝗲 𝗳𝗶𝗹𝗲\n↳ Name it anti-ai-writing. md. One plain text file. That's the whole setup.\n\n𝟮) 𝗦𝗵𝗼𝘄 𝘆𝗼𝘂𝗿 𝘃𝗼𝗶𝗰𝗲\n↳ Paste in 5 of your best posts. The ones that sound like you on your sharpest day. Claude learns your rhythm from real examples, not from adjectives about your \"tone.\"\n\n𝟯) 𝗡𝗮𝗺𝗲 𝘁𝗵𝗲 𝘁𝗲𝗹𝗹𝘀\n↳ List the patterns you want gone. Mine: em dashes, \"in today's world,\" leverage, unlock, the forced rule of three, and the \"it's not X, it's Y\" move that screams machine.\n\n𝟰) 𝗦𝗮𝘃𝗲 𝘄𝗵𝗲𝗿𝗲 𝗖𝗹𝗮𝘂𝗱𝗲 𝗿𝗲𝗮𝗱𝘀 𝗶𝘁\n↳ Drop it in .claude/skills/ or a Claude Project. Now it loads every time. No copy-paste.\n\n𝟱) 𝗪𝗿𝗶𝘁𝗲 𝘆𝗼𝘂𝗿 𝗱𝗿𝗮𝗳𝘁\n↳ Short prompt, then: \"read my anti-ai file first.\" It writes in your voice from the first line.\n\n𝟲) 𝗥𝘂𝗻 𝘁𝗵𝗲 𝗮𝘂𝗱𝗶𝘁\n↳ Paste any draft back with: \"Audit this against my file. Rewrite what matches.\" It catches the tells you miss at 11pm.\n\n𝟳) 𝗙𝗶𝗻𝗮𝗹 𝗰𝗵𝗲𝗰𝗸\n↳ Read it out loud. Cut what you would not say to a friend. If a line feels stiff, it is.\n\nMine is 114 lines now. Took an afternoon to write. It saves me an edit pass on every post since.\n\nThe file is the asset, whatever tool you paste it into. Your voice, written down once.\n\nSave this and build yours this week.",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1782993121074,
+        "date": "2026-07-02T11:52:01.074Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQF-3r8SSnKpvg/feedshare-shrink_1280/B4EZ8duXsUH8AQ-/0/1782910123054?e=1786579200&v=beta&t=ywehJCKNKtlKkq7ujaU0mdIM8PuZtPliNdtXwVHK5-c",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478415179693633536",
+        "likes": 219,
+        "comments": 120,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 196
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484943970792374273",
+      "entityId": "7484943970792374273",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_bottled-spirits-imports-to-the-us-fell-from-activity-7484943970792374273-ocfz",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467182006456598528",
+      "shareUrn": "urn:li:share:7467182006456598528",
+      "content": "Bottled spirits imports to the US fell from 82.4 million wine gallons in 2012 to 46.9 million in 2023. A 43% decline over 11 years.\n\nAs a share of US spirits consumption, bottled imports went from 18% to 8%. Imports lost share continuously across the period, while domestic production grew enough to more than absorb the decline.\n\nTwo structural forces drove this. First, format substitution: the categories that grew (RTDs, Cordials, Specialty) are produced and bottled domestically. Second, supply chain economics: bulk imports plus US bottling captures more margin than fully imported bottled product across most price tiers.\n\nThe implication for surviving imported bottled brands cuts two ways. The channel is structurally smaller and contracting.\n\n The importer set is also tighter, with about 60 companies handling the entire Brandy/Vodka/Gin/Cordials import bucket in 2024.\n\nSurvivors will have better share of a smaller pool.",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1784549706171,
+        "date": "2026-07-20T12:15:06.171Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQERd95ksIZlpw/feedshare-image-high-res/B4EZ6DCd7RJAAU-/0/1780314922978?e=1786579200&v=beta&t=-OKzvGczPTZfzZLkFcUmsPYs_qqwGClHdPAPixTfGpc",
+          "width": 1800,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484943970792374273",
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486489104088580096",
+      "entityId": "7486489104088580096",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_for-those-trying-to-make-sense-of-the-latest-activity-7486489104088580096--Ksc",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7486489102117253122",
+      "shareUrn": "urn:li:ugcPost:7486489102117253122",
+      "content": "For those trying to make sense of the latest tariffs (as I am) -> quick update\n\nThe Supreme Court struck down the tariffs in February. But we have new tariffs that went up this morning. \n\nThe Court never said tariffs were illegal. It said IEEPA was the wrong statute. So as the The Wall Street Journal reported today, the administration will use an obscure law from the 1930’s to implement this next round.  \n\nSection 122 was capped at 15% and 150 days. The clock ran out July 24. Section 301 is the replacement. \n\nSo here we go again. Below and in the attached charts, are where the pain points are. \n\nWho walked away: Mexico and Canada, where USMCA-qualifying product stays exempt. Tequila and Canadian whisky untouched. Scotch got its own carve-out this morning.\n\nWho eats the tariff: Ireland, France, Italy and Spain at 10%. Irish whiskey, Cognac, Champagne, Aperol and Campari, and the entire wine bench. New Zealand, Australia and Chile at 12.5%. Japanese whisky at 12.5%.\n\n3 of the four largest single-origin spirits categories are now exempt and the fourth is Cognac. \n\nFrance and Italy alone are 70.5% of US spend on imported wine. Both pay in full, because the \"net of MFN\" softener is worth nothing when spirits already enter at a zero base rate.\n\nThis is now the 4th legal regime in five months and this one may be a “stickier” tariff\n\n\nCredit where it belongs. Park Street  had the supplier notice out before the Federal Register text was digestible. Distilled Spirits Council of the United States and Chris Swonger were on record within hours pushing for EU relief. Scotch Whisky Association  got the outcome everyone else in this thread wants.\n\nThe Wine & Spirits Wholesalers of America  and the US Wine Trade Alliance  are carrying the wine side, which got no carve-out, no state visit and no champion! At a time when wine needs extra love and attention.",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1784918094656,
+        "date": "2026-07-24T18:34:54.656Z",
+        "postedAgoShort": "4d",
+        "postedAgoText": "4 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHjze4l2VIlTw/feedshare-image-high-res/B56Z.VaKn1KwAU-/0/1784918092584?e=1786579200&v=beta&t=87OvPoNHYX8IsxxEouIdbRcS7B3jqr8DYVlpefBeXFg",
+          "width": 2000,
+          "height": 1520
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQG-hNNXY0fZ0A/feedshare-image-high-res/B56Z.VaKp1IUAU-/0/1784918092756?e=1786579200&v=beta&t=BcXqcB60O0cUBkQ3tkjlJWrbNZqa1-l8ZwKfVrYWoe8",
+          "width": 2048,
+          "height": 1518
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHHprNmPGMHNQ/feedshare-image-high-res/B56Z.VaKobKUAU-/0/1784918092628?e=1786579200&v=beta&t=Zf4tov8jIfb61dgRKDnhLGtJ0yRo9pVbTai-HR-Skak",
+          "width": 2048,
+          "height": 1175
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFKsmXa9mHo4Q/feedshare-image-high-res/B56Z.VaKrvKkAU-/0/1784918092815?e=1786579200&v=beta&t=HJ_kO274hLG9L9u4TxXy9rh2LOYo4vwSAqjSlhPHFrg",
+          "width": 2004,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486489102117253122",
+        "likes": 6,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484940208229003265",
+      "entityId": "7484940208229003265",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_two-categories-carried-us-spirits-volume-activity-7484940208229003265-tyv2",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467181018140311554",
+      "shareUrn": "urn:li:share:7467181018140311554",
+      "content": "Two categories carried US spirits volume growth from 2012 to 2024. The headline categories did almost nothing.\n\nCordials and Liqueurs: 57.8 million wine gallons bottled in 2012, 225.2 million in 2024. A 290% increase.\n\nReady to Drink Cocktails: 8.8 million in 2012, 61.0 million in 2024. A 596% increase.\n\nVodka over the same period: up 2%. \nWhiskey: up 1%. \nGin: down 40%. \nBrandy: down 80%. \n\nCombined, RTDs and Cordials went from 18% of US bottled spirits volume to 51%. The spirits industry most operators picture is no longer carrying its own growth.\n\nThis is more a structural implication for shelf strategy, distributor focus, and the brand investment decisions chains are making at category review. Capital is following volume. Volume is in formats that didn't have meaningful trade infrastructure 15 years ago.",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1784548809106,
+        "date": "2026-07-20T12:00:09.106Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHsVoNo8EHelQ/feedshare-image-high-res/B4EZ6DBkSDHoAU-/0/1780314686838?e=1786579200&v=beta&t=B5PQXJhGaK2BLpCvEfXG_eKUrJf9PKy37MrXCvY3MYo",
+          "width": 1800,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484940208229003265",
+        "likes": 21,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 18
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482403461964337154",
+      "entityId": "7482403461964337154",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_174-industry-members-bottled-vodka-for-the-activity-7482403461964337154-oQ8J",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467179264593772544",
+      "shareUrn": "urn:li:share:7467179264593772544",
+      "content": "174 industry members bottled vodka for the US market in 2012. 1,045 did so in 2024. The producer base grew 6x.\n\nTotal vodka volume bottled for domestic use across the same period: 123.6 million wine gallons in 2012, 125.9 million in 2024. Flat.\n\nAverage bottled output per vodka producer fell from roughly 710,000 wine gallons in 2012 to about 121,000 in 2024. An 83% drop in per-producer scale.\n\nThat average distorts because the top of the distribution carries enormous weight. Strip out the few real giants like Tito's, Smirnoff (Diageo), and the multinational portfolios, and the median craft vodka producer is operating at sub-scale economics in a category that has not grown in volume for over a decade.\n\nVodka's volume has been held together by premiumization on the dollar side. Super-premium share of spirits revenue roughly doubled across the same period. \n\nOn the volume side, the math is the same problem playing out across every traditional spirits category: producer count grew, category volume held flat.",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1783944001666,
+        "date": "2026-07-13T12:00:01.666Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHTaskdv5HDiA/feedshare-image-high-res/B4EZ6C_.SlHUAU-/0/1780314269079?e=1786579200&v=beta&t=-b3o6ZsWIMdWGuSyCbIZvnpIZNv85AEjI60nWp6Y5NE",
+          "width": 1800,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482403461964337154",
+        "likes": 11,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487492080320151553",
+      "entityId": "7487492080320151553",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_us-vodka-volume-in-2012-1236-million-wine-activity-7487492080320151553-487o",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467203766669328384",
+      "shareUrn": "urn:li:share:7467203766669328384",
+      "content": "US vodka volume in 2012: 123.6 million wine gallons bottled for domestic use. US vodka volume in 2024: 125.9 million wine gallons. Twelve years of essentially zero growth.\n\nUS vodka revenue across the same period: up, by a substantial margin.\nThe mechanism is mix. Super-premium share of total US spirits revenue roughly doubled from 2012 to 2024 (per DISCUS). Volume held at the bottom of the price ladder while dollar growth migrated up.\n\nPremiumization is the only volume-flat story that produced returns. Vodka is the cleanest example because the producer base and the volume math are both well documented, but the same pattern holds across whiskey, tequila, and most established categories.\n\nThe practical implication: volume flat is not the same as value flat. The economics of a 2024 super-premium case bear no resemblance to the economics of a 2012 economy case in the same category. Same volume on a P&L, completely different business.",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1785157222824,
+        "date": "2026-07-27T13:00:22.824Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFyCVrcfmlBPQ/feedshare-image-high-res/B4EZ6DWQf5HsAY-/0/1780320110869?e=1786579200&v=beta&t=ufcPx8boeqyeUKyMjIhSVwjEUDh_VGp975Lh8-_hWqg",
+          "width": 1800,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487492080320151553",
+        "likes": 5,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481301269668728833",
+      "entityId": "7481301269668728833",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_the-financially-conflicted-middle-consumer-activity-7481301269668728833-zcMc",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7467693849860210688",
+      "shareUrn": "urn:li:ugcPost:7467693849860210688",
+      "content": "The Financially Conflicted Middle [Consumer Sentiment Series] 5 of 5\n\nThe Squeeze + the Splurge. This is where it all lands from this series and evaluating the underlying mechanics of cosumer spending. \n\nThe household in the middle is usually mid-40s to mid-50s which are now peak earning years. \n\nBut they’re also still raising kids (they started late) and starting to help aging parents. Gen X is now the biggest-spending generation, and more than half of them are supporting a kid, a parent, or both. \n\nPeak income and peak obligations at the same time, with inflation widening the gap between them. This is basically the squeeze.\n\nThe response is fairly predictable: trade down on everyday things, then spend on one small treat. The “lipstick effect.” About 3 in 4 consumers traded down in at least one category last year, but most still planned to splurge somewhere. \n\nAnd the splurging skews young now with roughly 63% being high-income millennials. When the big goals feel out of reach, the small wins are the small reassuring indulgences. And these are not investments in assets but guilty pleasures. \n\nThat’s also what’s behind the vibecession. \n\nSentiment is down about 30% year over year, but spending rose 5–6%. Strip out inflation and real spending grew only about 2% — most of that “resilient consumer” is just people paying more for the same stuff. (Kyla Scanlon  coined “vibecession,” though she now says it’s more than just vibes.)\n\n\nData: Empower , McKinsey & Company , University of Michigan , Bureau of Economic Analysis  \n\n\n———\n1 · What Is the Middle?\n2 · Assets…Not Income\n3 · What the Top Consumer Is Buying\n4 · The Late Start\n5 · The Squeeze + the Splurge (today)",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1783681218545,
+        "date": "2026-07-10T11:00:18.545Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGawEgsMtvwZg/feedshare-shrink_1280/B4EZ6KT_DcHkAM-/0/1780436955584?e=1786579200&v=beta&t=cFoDlsluRMTmEuD_aaDxv-zY9uB3j3lDOEhbUV7SyeI",
+          "width": 1200,
+          "height": 1200
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHq7yZrjdVMvw/feedshare-shrink_1280/B4EZ6KT_E1IIAM-/0/1780436955698?e=1786579200&v=beta&t=wPP1aL9Bh6-JvocTh0I7keGPt47k1hS630Fbjuz2mjQ",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7467693849860210688",
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "reactions": []
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482826257336938496",
+      "entityId": "7482826257336938496",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_gen-z-isnt-quitting-alcohol-theyre-just-activity-7482826257336938496-4hYC",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7465066401016307712",
+      "shareUrn": "urn:li:ugcPost:7465066401016307712",
+      "content": "Gen Z isn't quitting alcohol. They're just broke.\n\nThink about it: → Dating apps replaced bars → Lattes are $8 → Education moved online → They're finishing grad school and starting careers later than any generation before them\n\nThey're losing the third space — the physical places where previous generations socialized, discovered brands, and built habits.\n\nBut here's the thing: once you give someone a job and some disposable income, they resort back to the same travel, leisure, and going out that everyone else does.\n\nGive them a couple extra years. The behaviors we think are disappearing are just delayed.\n\nFull conversation with Adam Steinberg on the Shelf Help: The Tactical CPG Podcast.\n\nhttps://lnkd.in/ewatju7Z",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1784044803938,
+        "date": "2026-07-14T16:00:03.938Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQFqQ5X02TlSGA/videocover-high/B4DZ5k.WcNJQBM-/0/1779810529530?e=1785877200&v=beta&t=X7imODBqGFuD5teVtlK4rQ6XmwEzNTDwtb7IT7XTvXs",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQFqQ5X02TlSGA/mp4-720p-30fp-crf28/B4DZ5k.WcNJQB8-/0/1779810541406?e=1785877200&v=beta&t=SeqM3iMNIRBN_3xRBtwC_J0MRewwRq2i17HfBsU6fG4"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7465066401016307712",
+        "likes": 22,
+        "comments": 8,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 21
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479866799052988416",
+      "entityId": "7479866799052988416",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_5192-distilled-spirits-permits-filed-reports-activity-7479866799052988416-puNa",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467177069764931584",
+      "shareUrn": "urn:li:share:7467177069764931584",
+      "content": "5,192 distilled spirits permits filed reports with TTB in 2024. Of those, 2,746 reported zero taxable removals for the year. Another 2,002 moved less than 10,000 proof gallons, roughly 60,000 bottles or under, at any reasonable price point.\n\nThe math: 53% of permitted US distilleries did no commercial business in 2024. Another 39% operated at a scale most CPG operators would not consider commercially relevant.\n\nThe \"thousands of craft distilleries\" headline carries a long tail of dormant operations, hobby projects, and sub scale producers most consumers will never encounter on shelf.\n\nThe actual competitive set for any commercial spirit is much smaller than the permit count suggests. \n\n444 producers moved more than 10,000 proof gallons in 2024. 120 produced at over 100,000 proof gallons, the rough threshold where producer revenue clears $10M. 50 produced at over 750,000 proof gallons, which is essentially the major industry players.\n\nRead \"craft boom\" as a long tail with a small commercial head. The head is who actually competes for shelf.",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1783339214099,
+        "date": "2026-07-06T12:00:14.099Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGFdNcCuk0_Ew/feedshare-image-high-res/B4EZ6C9.hdHUAU-/0/1780313745770?e=1786579200&v=beta&t=KytSHy37pMFcRIQ4A7LnjU57tQkpTf8c1zFdomAjjGQ",
+          "width": 1800,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479866799052988416",
+        "likes": 5,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479932432159285248",
+      "entityId": "7479932432159285248",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_the-safe-banking-act-returns-amid-trump-driven-activity-7479932432159285248-1-0t",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479932429009330176",
+      "shareUrn": "urn:li:share:7479932429009330176",
+      "content": "Rescheduling gets the headlines but as Shanken News Daily reported last week...banking is the harder problem.\n\nMedical cannabis moved to Schedule III in April. The U.S. Department of Justice is holding expedited hearings on full rescheduling right now. \n\nBut for investors and operators, is that legal, state-licensed, tax-paying businesses cannot reliably open a checking account.\n\nPer Financial Crimes Enforcement Network, US Treasury, roughly 816 financial institutions currently bank cannabis businesses. That is about one-fifth of the banks in America. \n\nThe rest of the industry runs on cash. Cash means armored trucks, robbery risk, no credit lines, no working capital, and vendors paid out of a safe. Nearly $4 billion in delinquent receivables sits across the industry, and a big piece of that traces back to the absence of normal banking and credit infrastructure.\n\nThat is why the refiled SAFE Banking Act matters more than any single rescheduling decision. Senator Jeff Merkley reintroduced it on June 25 with Senators Elizabeth Warren, Lisa Murkowski for U.S. Senate, and Steve Daines. Congressman Dave Joyce is leading the House version with a bipartisan group of seven colleagues. \n\nIt has passed the House 7 times. It has never passed the Senate. Even the American Bankers Association is on record backing it through CEO Rob Nichols.\n\nMeanwhile, a small group of financial institutions decided to serve the industry anyway and built the compliance programs the money center banks will (hopefully) eventually copy. Safe Harbor Financial (Nasdaq: SHFS) has processed over $35 billion in cannabis deposits across 41 states. Needham Bank, Valley Bank, Dart Bank, Parke Bank and Maps Credit Union (shout-out to each all built real cannabis banking programs.\n\nAnd operators find themselves navigating this regulatory burden every day. Curaleaf, Green Thumb Industries (GTI), Trulieve, Verano Collateral Holdings, LLC, Cresco Labs, Canopy Growth Corporation. Multi-billion dollar public companies that cannot access financial services a corner coffee shop takes for granted.\n\nHoping to see major legistlation brough up alongside the reclassification and one that not only provides a legal pathway for supply chain and distribution but also for traditional banking!\n\nhttps://lnkd.in/gnvuNfgH",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1783354862251,
+        "date": "2026-07-06T16:21:02.251Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "The Safe Banking Act Returns Amid Trump-Driven Cannabis Reschedule - Shanken News Daily",
+        "subtitle": "shankennewsdaily.com",
+        "link": "https://www.shankennewsdaily.com/2026/06/30/40129/the-safe-banking-act-returns-amid-trump-driven-cannabis-reschedule/",
+        "linkLabel": "Open article: The Safe Banking Act Returns Amid Trump-Driven Cannabis Reschedule - Shanken News Daily by shankennewsdaily.com",
+        "description": null,
+        "image": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479932432159285248",
+        "likes": 3,
+        "comments": 1,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480002181207838720",
+      "entityId": "7480002181207838720",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_vodkatrends-spiritsindustry-wswa-activity-7480002181207838720-NfrQ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7480002180733693952",
+      "shareUrn": "urn:li:ugcPost:7480002180733693952",
+      "content": "Lets go! Double Cross Vodka",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1783371491720,
+        "date": "2026-07-06T20:58:11.720Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7479972451070959616",
+        "linkedinUrl": "https://www.linkedin.com/posts/parkstreetcompanies_vodkatrends-spiritsindustry-wswa-activity-7479972451070959616-lRMd",
+        "content": "The American spirits market is finally finding its footing! 📊🍸 Brand new data from the Wine & Spirits Wholesalers of America (WSWA) SipSource forecast reveals a massive stabilization wave heading into 2027. While macro conditions remain tough, overall core spirits declines are officially projected to ease.\n \nThe biggest winner over the next 12 months? Vodka is officially forecast to outperform the broader market!\n \n#VodkaTrends #SpiritsIndustry #WSWA #WhiskeyBusiness #MarketForecasting",
+        "contentAttributes": [
+          {
+            "start": 87,
+            "length": 37,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "795917",
+              "name": "Wine & Spirits Wholesalers of America",
+              "linkedinUrl": "https://www.linkedin.com/company/wine-&-spirits-wholesalers-of-america/"
+            }
+          }
+        ],
+        "author": {
+          "id": "2541855",
+          "universalName": "parkstreetcompanies",
+          "publicIdentifier": null,
+          "type": "company",
+          "name": "Park Street",
+          "linkedinUrl": "https://www.linkedin.com/company/parkstreetcompanies/posts",
+          "info": "8,144 followers",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGoCu8lBvOCng/company-logo_400_400/company-logo_400_400/0/1719258198848/parkstreetcompanies_logo?e=1786579200&v=beta&t=MpaRQtdlHhJrpW4LqiWI3QF7hzX4nxPKDLX4HASWQp4",
+            "width": 400,
+            "height": 400
+          },
+          "urn": "2541855"
+        },
+        "postedAt": {
+          "timestamp": 1783364403503,
+          "date": "2026-07-06T19:00:03.503Z",
+          "postedAgoShort": "3w",
+          "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [],
+        "postVideo": {
+          "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQGmaWRPY0zDeg/videocover-high/B4EZ8kgbHRJIBU-/0/1783023909278?e=1785877200&v=beta&t=NmUI7bmplWgDXhssgD87bjVRf1IMRIG24FknUffZAKs",
+          "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQGmaWRPY0zDeg/mp4-720p-30fp-crf28/B4EZ8kgbHRJICQ-/0/1783023913324?e=1785877200&v=beta&t=xGyKOXOYn51_gHBjZtSpp-2dqB6nMNoE3Lgrecw2YTU"
+        },
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": true,
+          "hideSendAction": true,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/parkstreetcompanies_vodkatrends-spiritsindustry-wswa-activity-7479972451070959616-lRMd?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7479972451070959616",
+        "shareUrn": "urn:li:ugcPost:7478544274406576128",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7478544274406576128",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480002180733693952",
+        "likes": 4,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478409651223486464",
+      "entityId": "7478409651223486464",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_what-does-it-mean-to-learn-ai-feels-like-activity-7478409651223486464-zShy",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7475867570361815040",
+      "shareUrn": "urn:li:ugcPost:7475867570361815040",
+      "content": "What does it mean to learn AI?! Feels like we are back in the 2000’s when educators and employers told us to “Just Google it”. Which was another way of saying, go figure it out on your own. \n\nWhich, if we mean, go teach yourself. Then AI will be an incredible tool to help self-train and upskill students and workers quickly. \n\nIn truth, unless you have a computer science degree and either working on advanced hardware or sitting with a frontier AI company, you are likely to learn AI as much as you are likely to be able to run command lines from your terminal (IFKYK). \n\nBut feel there are a few early call outs that are bcoming obvious (at least to me), for the average AI user. \n\nAs of now, \n\nCosts of Financing: AI tools are essentially free to most americans. But if you are producing any meaningful work or enterprise , know this will quickly get expensive. Like an ivy league, these tools may only be affordable and provide a meaningful advantage for those in the future with the means to afford the tokens. \n\nCosts of Learning: Google was an incredibly quick reference tool. Most of the latest models have the ability to produce meaningful outputs. Not just go-learn-this. AI models will decipher the assignment, read through your document, execute some task (discount cash flow analysis, to client presentation) draft your email reaponse and “Vai La”…done. This shortcuts the learning process entirely which is essentially Understand -> Do (active problem solving) -> Teach or Present. \n\nCosts of Time: Too early to understand but as with many things, shortening the time to create and distribute leads to an abundance of outputs. As of now, 1-10% of creators are producing the bulk of content you see. They are (based on early estimates) producing 7x the videos, posts, images. And quality of outputs is questionable (AI Slop) and we are seeing this not only in content but in applications and other software as the The Wall Street Journal has published several articles on Vibe Slop and the explosion of new Apps that essentially go unused on the Apple store. \n\nAnd TBD, but are the millions of new ads, videos, campaigns, being developed for Ad sets. And as they become less distinguishable from previously expensive production. \n\nExpect a 10x onslaught from advertisers who already dominate 60-70% of your personal feed. Going to be easier and cheaper to overwhelm with creative…even if sub-par\n\nIf you made it this far…thanks for reading my TEDx talk.",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1782991802984,
+        "date": "2026-07-02T11:30:02.984Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGnDHWYFFYgVw/feedshare-image-high-res/B56Z7.d8EkHIAY-/0/1782385721882?e=1786579200&v=beta&t=Syj7tcv_6tRKAl-fST2wILJvwkwUjNmkp9S36tbvlbs",
+          "width": 1206,
+          "height": 1144
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGe5GSQPXXu3A/feedshare-shrink_1280/B56Z7.d8HuHYAM-/0/1782385722089?e=1786579200&v=beta&t=ExYREmunJ20XlyYKiTxfDIaXGdBZ6s91HAWYzaWkDZI",
+          "width": 1206,
+          "height": 1856
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQG-ZUteIj32kA/feedshare-image-high-res/B56Z7.d8EEGsAU-/0/1782385721823?e=1786579200&v=beta&t=XqNbGknHU-QP8FAdRELIfXvMpa8cH__tWWdSv9YuX4Y",
+          "width": 1206,
+          "height": 677
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475867570361815040",
+        "likes": 4,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478126535191740416",
+      "entityId": "7478126535191740416",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_the-third-space-is-not-coming-back-a-third-activity-7478126535191740416-QLoQ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7465078415176581120",
+      "shareUrn": "urn:li:ugcPost:7465078415176581120",
+      "content": "The Third Space Is Not Coming Back: \n\nA third place is any space that isn't home and isn't work. The bar. The diner. The bowling alley. The golf club. Sociologist Ray Oldenburg argued in 1989 these aren't amenities. They are the physical infrastructure through which communities maintain themselves.\n\nThat infrastructure is contracting. And the data tells us why.\nWhat the numbers show:\n- Americans spent 43 minutes per day socializing in 2014. By 2019, before any pandemic, that had already fallen to 38 minutes. By 2024 it sits at 35. No recovery.\n\n- The lost time didn't move to other social activities. It moved to household tasks (+14 min/day), sleeping (+13 min/day), and screens.\n\n- In 2014, Americans watched TV for 3.9 minutes for every 1 minute socializing. By 2023 that ratio was 4.7 to 1.\n\n- Bars and nightclubs lost 1,371 establishments from 2014 to 2023. Annual declines starting four years before COVID.\n\n- Bowling centers down 13%. Golf courses down nearly 400 locations.\n\n- Coffee shops grew 53% in units. Starbucks now runs 70% of sales through drive-thru and mobile. More locations, fewer gathering occasions.\n\nThree Major Attributed Drivers...\n- Smartphones (no surprise) optimized for content consumption replaced social exchange. \n\n- Car-dependent development removed the conditions for incidental gathering. Made worse with the pandemic shut down of pulbic transit and forcing many to purchase vehicles to get to work (seperately, this drove much of the used car market). \n\n- On-premise economics made the cost of going out hard to justify when the social outcome is available at home for free.\n\nThis is not a pandemic story. The behavioral shift was already running at 1.1 minutes per year before 2020. COVID compressed five years of trajectory into eighteen months.",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1782924302862,
+        "date": "2026-07-01T16:45:02.862Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "The Third Place/Space Isn't Coming Back",
+        "subtitle": "Harry McKaig",
+        "link": "https://www.linkedin.com/pulse/third-placespace-isnt-coming-back-harry-mckaig-eghvf?trackingId=P6704%2FKX3YgvnmIxjv0Fhw%3D%3D",
+        "linkLabel": "Open article: The Third Place/Space Isn't Coming Back by Harry McKaig • 4 min read",
+        "description": "At least not as it looked before...A third place is any space that isn't home and isn't work — the bar, the diner, the bowling alley, the coffee shop,",
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D12AQFkG3veefAvBQ/article-cover_image-shrink_720_1280/B4DZ5lHs4qGQAU-/0/1779812978529?e=1786579200&v=beta&t=Ef13JIRB9PKfYQoS5ik0hPEwgJyi3GPbzmHJJKQztiA",
+          "width": 1200,
+          "height": 675
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7465078415176581120",
+        "likes": 22,
+        "comments": 7,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 17
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475956016065581058",
+      "entityId": "7475956016065581058",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_beer-companies-are-buying-spirits-brands-activity-7475956016065581058-1-7v",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7446992363115159552",
+      "shareUrn": "urn:li:share:7446992363115159552",
+      "content": "Beer companies are buying spirits brands. Spirits companies are launching canned cocktails. Distributors are laying off hundreds.\nIs beverage alcohol still three categories — or is it becoming one?\n\nMolson Coors Beverage Company and Rahul Goyal are not waiting for beer to recover — they're moving into adjacent occasions. The Boston Beer Company has been doing this for years. Campari Group is tightening the portfolio while the category is wide open. Suntory Global Spirits is betting on premiumization as a long cycle, not a short one. AB InBev and Brown-Forman are navigating the same structural pressure from different positions on the board...may even be fully merged into Pernod Ricard\n\nThe distributor tier is already consolidating around this reality. Reyes Beverage Group, Republic National Distributing Company, Southern Glazer's Wine & Spirits are not building infrastructure for three neat categories. They're building for throughput across occasions.\n\nThe three-tier system was designed for a world where beer, wine, and spirits were distinct. That world is going away. The consumer has already moved — ready-to-drink, hard seltzer, canned cocktail, non-alc. The channel is following. The supplier tier is the last one still debating categories as if they're fixed.",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1782406810776,
+        "date": "2026-06-25T17:00:10.776Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFUUmSGNrZxYg/feedshare-shrink_1280/B4EZ1kIGA9HYAM-/0/1775501336941?e=1786579200&v=beta&t=iVvNHzfGiGYMoDaS30j1ZZomUvZ6cSy-gkvLwS_1Yt4",
+          "width": 1200,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475956016065581058",
+        "likes": 48,
+        "comments": 3,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 44
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480229185953796096",
+      "entityId": "7480229185953796096",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_from-vision-to-impact-the-entrepreneurs-activity-7480229185953796096-Aop0",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478488002277715968",
+      "shareUrn": "urn:li:share:7478488002277715968",
+      "content": "Thanks to MSN for taking the time to notice the hard work at Double Cross Vodka. And being included in a recent feature on \"Entrepreneurs defining 2026\", alongside some builders doing genuinely interesting work in EdTech, events, media, and consumer products.\n\nhttps://lnkd.in/eGczG4ja",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1783425613869,
+        "date": "2026-07-07T12:00:13.869Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "From vision to impact: The entrepreneurs defining 2026",
+        "subtitle": "msn.com",
+        "link": "https://www.msn.com/en-us/news/other/from-vision-to-impact-the-entrepreneurs-defining-2026/ar-AA26ZYWE",
+        "linkLabel": "Open article: From vision to impact: The entrepreneurs defining 2026 by msn.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/sync/v2/D4E27AQHG7JcC8GXmtg/articleshare-shrink_1280_800/B4EZ8jr3aNKQAg-/0/1783010130439?e=1785877200&v=beta&t=tfkU-_f6a7pze6u0SU0t3m7w3sukDnGa8LGri3h2A3Y",
+          "width": 1070,
+          "height": 800
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480229185953796096",
+        "likes": 12,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 11
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476239094067572736",
+      "entityId": "7476239094067572736",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_the-financially-conflicted-middle-consumer-activity-7476239094067572736-HKIs",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7467690297146163200",
+      "shareUrn": "urn:li:ugcPost:7467690297146163200",
+      "content": "The Financially Conflicted Middle [Consumer Sentiment Series] 4 of 5\n\nThe Late Start or the delayed atart for modern workers. \n\nSo if being asset-rich is the value driver… the real question is how you get there and when you get your start.\n\nBut thats been the problem Everyone is starting to enter the workforce a full decade later than they used to.\n\nThe milestones that historically kicked off building wealth have ALL marched to the right of the curve. \n\nMarriage: from about 20–23 in 1960 to roughly 29–30 today. Record highs.\n\nFirst child: 24.9 to 27.5. Also a record.\n\nFirst home: depending on who you ask, somewhere between 32 and 40. National Association of REALTORS®  says the median first-time buyer is 40, an all-time high. \n\nThe asset clock now starts at 35–40 instead of 25. But your parents still age on the same schedule. Your kids still need college on the same schedule. So the obligations show up BEFORE the compounding has had any time to work.\n\nData: U.S. Census Bureau, CDC/NCHS, National Association of Realtors, Mortgage Bankers Association, New York Fed.\n\n———\nThe Financially Conflicted Middle and the 5 write ups.\n1 · What Is the Middle?\n2 · Assets…Not Income\n3 · What the Top Consumer Is Buying\n4 · The Late Start (today)\n5 · The Squeeze + the Splurge",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1782474301831,
+        "date": "2026-06-26T11:45:01.831Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHXQEoGynKTqw/feedshare-image-high-res/B4EZ6KQwRPHQAU-/0/1780436108621?e=1786579200&v=beta&t=5eSr_srJsbsE_9eM4hlOnlHWQYcWC4vU6aIwnhGCpRs",
+          "width": 1200,
+          "height": 1200
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEvehZH6NvNmg/feedshare-shrink_1280/B4EZ6KQwQGKAAM-/0/1780436108673?e=1786579200&v=beta&t=kIxH_Rf4SvWk0J_FhVkfloutWJSOBljnBnwWRJlvUag",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7467690297146163200",
+        "likes": 5,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7473351334499385347",
+      "entityId": "7473351334499385347",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_suppliers-say-hold-the-course-distributors-activity-7473351334499385347-LgqQ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7446991729246937088",
+      "shareUrn": "urn:li:share:7446991729246937088",
+      "content": "Suppliers say hold the course. Distributors say restructure now.\n\nBreakthru Beverage Group laid off hundreds. Republic National Distributing Company sold markets to Reyes Beverage Group. Wayne Chaplin at Southern Glazer's Wine & Spirits has been measured about on-premise pricing pressure, but careful language in a down market is its own signal. And yet focused on diversifying their alternative alcohol and non alcohol portfolio. \n\nThe distributor tier sees the data in real time — scan velocity, depletions, retailer sell-through. When the middle of the three-tier system starts shedding headcount and consolidating footprint, that's not a response to a single bad quarter. That's a structural adjustment.\n\nSuppliers control the narrative. Distributors control the shelf.\nRight now those two are telling different stories. At some point — and we're getting close — the shelf tells the only story that matters.\n\nThe brands that are building real distributor pull right now, not just asking for push, are the ones that will come out of this with better positioning than they went in with. The rest are one portfolio review away from losing their placement.",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1781785806298,
+        "date": "2026-06-18T12:30:06.298Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFFa783A1W8hg/feedshare-image-high-res/B4EZ1kHhQZHcAU-/0/1775501186325?e=1786579200&v=beta&t=P40_552XKzitQOKlqRtSX0Ld7YtJWBPxL5sjugm86V8",
+          "width": 1200,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7473351334499385347",
+        "likes": 32,
+        "comments": 21,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 29
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7472241523594653696",
+      "entityId": "7472241523594653696",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_every-active-us-distillery-files-monthly-activity-7472241523594653696-qcWr",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467165094163185665",
+      "shareUrn": "urn:li:share:7467165094163185665",
+      "content": "Every active US distillery files monthly operational reports to TTB. The reports get published, machine readable, free, going back to 2012. Almost no one in the spirits trade press reads them.\n\nThat gap is why most industry commentary on craft proliferation, premiumization, and consolidation runs on intuition. The data exists. It sits where commentators don't look.\n\nThis kicks off an eight post series on what Alcohol and Tobacco Tax and Trade Bureau knows about the US spirits industry that most of the industry doesn't.\n\n680 active distillery permits at start of 2012. 5,069 at end of 2024. \n\nThe growth is well documented. What happened on either end of that curve is not.\n\nThe next seven posts cover the boom , the cliff, the \"dormant\" majority, the vodka paradox, the categories carrying the industry, the fuel ethanol caveat, and the long decline of imported bottled spirits.",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1781521206759,
+        "date": "2026-06-15T11:00:06.759Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEVli8YsqE19Q/feedshare-image-high-res/B4EZ6CzFdsKYAU-/0/1780310890609?e=1786579200&v=beta&t=xCMacy_uzyrNiMgx8sQGnVf5l77fD_7vWX9npwzdz2w",
+          "width": 1800,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7472241523594653696",
+        "likes": 39,
+        "comments": 17,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 37
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477326254841577472",
+      "entityId": "7477326254841577472",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_distillery-starts-vs-stops-9-distillery-activity-7477326254841577472-twz6",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467175465200459776",
+      "shareUrn": "urn:li:share:7467175465200459776",
+      "content": "Distillery Starts vs Stops: 9 distillery closures in 2012. 123 in 2024. A 13x increase in 12 years, in a regulatory category where shutting down requires actively surrendering a federal permit.\n\nThe growth in closures has compounded steadily, not in a single bad year. 35 closures in 2018. 75 in 2021. 123 in 2024. The trend line is unambiguous.\n\nThe issuance side has stayed remarkably stable across the same period. 350 to 500 new permits per year, every year, since 2012. Net additions are still positive only because of delta: 411 new entrants in 2024 minus 123 closures gives 288 net.\n\nProject that forward. If closures continue compounding at the current rate and issuance holds steady, net additions turn negative inside 36 months.",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1782733501158,
+        "date": "2026-06-29T11:45:01.158Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGBUCsXWal86g/feedshare-image-high-res/B4EZ6C8hO.IwAY-/0/1780313363679?e=1786579200&v=beta&t=XvCcreR9N5g_I12_2CNTFryarrdWZZk0h9scANj23RY",
+          "width": 1800,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477326254841577472",
+        "likes": 9,
+        "comments": 1,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 9
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7473698619452452864",
+      "entityId": "7473698619452452864",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_the-financially-conflicted-middle-consumer-activity-7473698619452452864-mYX3",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7467686560012992512",
+      "shareUrn": "urn:li:ugcPost:7467686560012992512",
+      "content": "The Financially Conflicted Middle [Consumer Sentiment Series] 3 of 5\n\nSo What Is the Top Actually Buying?\n\nHalf of all consumer spending now comes from the top 10%. So  what are they buying?\n\nBig stuff…and a very specific kind of big-ticket.\n\nFederal Reserve Bank of New York  (Liberty Street Economics — Chakrabarti & Pham) tracked real spending growth by income since 2023. \n\nThe split is not reassuring. \n\n- Low earners (under $40K): +1%\n- Middle: +3%\n- High earners (over $125K): +7.6%\n\nLook at “recreational goods and vehicles” the Bureau of Economic Analysis polite term for boats, RVs, motorcycles, e-bikes, high-end gear. Basically, expensive toys. \n\nReal spending in that one category went from about $654B in 2021 to $819B in 2025. That’s +25% in real terms… while overall real spending barely budged.\n\nAdd the rest of the durable good like new cars, furnishings, jewelry, watches + luxury goods, high-end dining and entertainment, and you’ve got the actual shape of “the resilient consumer.” \n\nIt’s actually a discretionary, big-ticket, top-heavy story.\n\nIssue is durable and toys are the most cancellable category in the entire economy. Nobody NEEDS a new boat (though we would all like one). That spending only happens when people feel rich and people only feel rich when their assets are up.\n\nWe are not looking at a sturdy consumer.\n\nData: New York Fed (Liberty Street Economics), U.S. Bureau of Economic Analysis.\n\n———\nThe Financially Conflicted Middle and the 5 write ups.\n1 · What Is the Middle?\n2 · Assets…Not Income\n3 · What the Top Consumer Is Buying (today)\n4 · The Late Start\n5 · The Squeeze + the Splurge",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1781868605483,
+        "date": "2026-06-19T11:30:05.483Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFSimhf-ForvQ/feedshare-shrink_1280/B4EZ6KNWtPIwAM-/0/1780435217536?e=1786579200&v=beta&t=4MEOH8-zgZbXaDf9PMEbTvSzXNCeL2gDz30EyLN0l7Y",
+          "width": 1200,
+          "height": 1200
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHV62dWyWDRHQ/feedshare-shrink_1280/B4EZ6KNWtZHkAM-/0/1780435217618?e=1786579200&v=beta&t=PoPD6ENplfoBJUfKtwiFAlPpuoO76bKs71byPX7b5Ns",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7467686560012992512",
+        "likes": 3,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477715075877998594",
+      "entityId": "7477715075877998594",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_the-health-paradox-what-people-say-and-what-activity-7477715075877998594-1Fbo",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7446996782099714048",
+      "shareUrn": "urn:li:ugcPost:7446996782099714048",
+      "content": "The Health Paradox: What people say and what they do are very different.\nI road bike. I run. I swim. I surf. I'm a very active person.\n\nBut that doesn't mean I'm completely giving up alcohol to do it.\n\nWhen you look at personal consumption expenditures — tobacco, alcohol, fast food, supplements — all of it is going up. Every year. The \"sin\" categories and the \"wellness\" categories are growing at the same time.\n\nThat's the health paradox.\n\nWe all want to be healthier. But it's not at the complete and total sacrifice of the things we love — like a good drink, a night out, or a burger.\n\nThe headlines are much worse than the reality.\n\n\nFull conversation with Adam Steinberg on the Shelf Help: The Tactical CPG Podcast.\nhttps://lnkd.in/ewatju7Z\n\nMedium Article: https://lnkd.in/e9QW-kgW\n\nAdam Steinberg and Shelf Help: The Tactical CPG Podcast",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1782826203317,
+        "date": "2026-06-30T13:30:03.317Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQEQS5UjSwpRKA/videocover-high/B4EZ1kMILDIsBY-/0/1775502395911?e=1785877200&v=beta&t=dMxeTfxOjq2B4AmVgWEQBvqlpl9Qe9gF-RmJ1wBB3to",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQEQS5UjSwpRKA/mp4-720p-30fp-crf28/B4EZ1kMILDIsCI-/0/1775502406271?e=1785877200&v=beta&t=Nc9Nr46M5BkIjIYcBSxYGY2OdlKfknkq-izTXQv6rWs"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7446996782099714048",
+        "likes": 7,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7472299615334277120",
+      "entityId": "7472299615334277120",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_with-bar-convent-brooklyn-coming-to-a-close-activity-7472299615334277120-teRV",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7472299614721908736",
+      "shareUrn": "urn:li:ugcPost:7472299614721908736",
+      "content": "Bar Convent is a wrap, and what a few days it was.\n\nThank you to everyone who stopped by, shared a pour, and talked shop. The best part of this industry has always been the people in it, and it was great to catch up with old friends and meet a lot of new ones!\n\nAlready looking forward to the next one.\nCheers.",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1781535056909,
+        "date": "2026-06-15T14:50:56.909Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7472285063229952000",
+        "linkedinUrl": "https://www.linkedin.com/posts/old-nassau-imports-double-cross-vodka-_with-bar-convent-brooklyn-coming-to-a-close-activity-7472285063229952000-sn6u",
+        "content": "With Bar Convent Brooklyn coming to a close last week in New York, us at Double Cross Vodka want to thank Alexandra Nata, Dino Minelli and Robert French for an excellent show!\n\nIf you did not have a chance to stop by, please reach out to info@doublecrossvodka.com for additional follow up.",
+        "contentAttributes": [
+          {
+            "start": 5,
+            "length": 20,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "11119481",
+              "name": "Bar Convent Brooklyn",
+              "linkedinUrl": "https://www.linkedin.com/company/barconventbrooklyn/"
+            }
+          },
+          {
+            "start": 73,
+            "length": 18,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "657568",
+              "name": "Double Cross Vodka",
+              "linkedinUrl": "https://www.linkedin.com/company/old-nassau-imports-double-cross-vodka-/"
+            }
+          },
+          {
+            "start": 106,
+            "length": 14,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAABYyuygBqeE9cvdLOIFJIzyFBmpN3-2RyZE",
+              "firstName": "Alexandra",
+              "lastName": "Nata",
+              "linkedinUrl": "https://www.linkedin.com/in/anata11",
+              "publicIdentifier": "anata11"
+            }
+          },
+          {
+            "start": 122,
+            "length": 12,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAjtvm4BZJdnPExKlVjzBfAfoWe6uwTLmH8",
+              "firstName": "Dino",
+              "lastName": "Minelli",
+              "linkedinUrl": "https://www.linkedin.com/in/dino-minelli-b5220042",
+              "publicIdentifier": "dino-minelli-b5220042"
+            }
+          },
+          {
+            "start": 139,
+            "length": 13,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAHUs5EBD_LTr9Pg73QyniB_0kdgK1PmxhM",
+              "firstName": "Robert",
+              "lastName": "French",
+              "linkedinUrl": "https://www.linkedin.com/in/robert-french-b29353a",
+              "publicIdentifier": "robert-french-b29353a"
+            }
+          }
+        ],
+        "author": {
+          "id": "657568",
+          "universalName": "old-nassau-imports-double-cross-vodka-",
+          "publicIdentifier": null,
+          "type": "company",
+          "name": "Double Cross Vodka",
+          "linkedinUrl": "https://www.linkedin.com/company/old-nassau-imports-double-cross-vodka-/posts",
+          "info": "990 followers",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQGkwEBHFHoYYA/company-logo_400_400/company-logo_400_400/0/1720906186648/old_nassau_imports_double_cross_vodka__logo?e=1786579200&v=beta&t=F6cvOZXGBeNvd58ge7vlmRy_nwtzCOqFgHVv1gkwu3o",
+            "width": 400,
+            "height": 400
+          },
+          "urn": "657568"
+        },
+        "postedAt": {
+          "timestamp": 1781531587417,
+          "date": "2026-06-15T13:53:07.417Z",
+          "postedAgoShort": "1mo",
+          "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [],
+        "postVideo": {
+          "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQH_dt5Zs6GADg/videocover-low/B56Z7LjoPwHUBM-/0/1781531577607?e=1785877200&v=beta&t=0vL2eEJBrKaGfCgmj-X25jF4wSRcnTqmvho-7mVtlns",
+          "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D5605AQH_dt5Zs6GADg/mp4-720p-30fp-crf28/B56Z7LjoPwHUCA-/0/1781531581016?e=1785877200&v=beta&t=6x0-Xn2tH-bHOadSqcXXrrUDrESiqUN3f9-gmBoAdHU"
+        },
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": true,
+          "hideSendAction": true,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/old-nassau-imports-double-cross-vodka-_with-bar-convent-brooklyn-coming-to-a-close-activity-7472285063229952000-sn6u?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7472285063229952000",
+        "shareUrn": "urn:li:ugcPost:7472285013502218240",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7472285013502218240",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7472299614721908736",
+        "likes": 10,
+        "comments": 2,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7471154379597844480",
+      "entityId": "7471154379597844480",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_the-financially-conflicted-middle-consumer-activity-7471154379597844480-537k",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467607297272201216",
+      "shareUrn": "urn:li:share:7467607297272201216",
+      "content": "The Financially Conflicted Middle [Consumer Sentiment Series] 1 of 5\n\nWhat the heck is Middle?\n\nFirst, there is no formal definition. Almost no one agrees on what “the middle class” actually means. Especially politicians…\n\nPew Research Center arguably has the best definition of “middle-income” households as those earning between two-thirds and double the national median, adjusted for household size thats roughly $57,000 to $170,000 for a household of three. By that definition, about half of American households qualify.\n\nThat half, used to be a very clear majority in 1971. 61% of U.S. households were middle-income. \n\nForward to 2023, it was 51%. \n\nThe middle has thinned out over five decades  with some households moving up but WAY more feeling left behind (just look at recent consumer sentiment)\n\nBut there is more to it. The bigger problem is that “middle-income” no longer tells you whether someone feels middle class. \n\nTwo households can earn the exact same paycheck and live in completely different economies and the other underwater. Income is just the first tollgate in the conversation. \n\nThat gap between what the middle earns and how the middle feels is the whole point of what I am going to attempt to convey. Started as a deep dive for work but is worth breaking up and sharing. \n\nOver the next four posts I’ll get into where it actually comes from: assets, age, timing, and behavior.\n\nData: Pew Research Center.\n\n———\nThe Financially Conflicted Middle and the 5 write ups.\n1 · What Is the Middle? (today)\n2 · Assets…Not Income\n3 · What the Top Consumer Is Buying\n4 · The Late Start\n5 · The Squeeze + the Splurge",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1781262011432,
+        "date": "2026-06-12T11:00:11.432Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQF4wZCL4IdwiA/feedshare-shrink_1280/B4EZ6JFRFfIIAM-/0/1780416320149?e=1786579200&v=beta&t=wixQ0_or3chdvjzxXjonl32joOybIUPxRgfq1DH3tWY",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7471154379597844480",
+        "likes": 4,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7474195751363846144",
+      "entityId": "7474195751363846144",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_friday-brand-spotlight-at-bestcocktails-activity-7474195751363846144-xKD7",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7474195750701137920",
+      "shareUrn": "urn:li:share:7474195750701137920",
+      "content": "Thank you Best Cocktails!",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1781987130967,
+        "date": "2026-06-20T20:25:30.967Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7474191050153041920",
+        "linkedinUrl": "https://www.linkedin.com/posts/old-nassau-imports-double-cross-vodka-_thanks-to-best-cocktails-for-the-spotlight-activity-7474191050153041920-LF5F",
+        "content": "Thanks to Best Cocktails for the spotlight!\n\nDino Minelli, Alexandra Nata, Robert French, Harry McKaig",
+        "contentAttributes": [
+          {
+            "start": 10,
+            "length": 14,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "37061136",
+              "name": "Best Cocktails",
+              "linkedinUrl": "https://www.linkedin.com/company/best-cocktails-affiliate-marketing/"
+            }
+          },
+          {
+            "start": 45,
+            "length": 12,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAjtvm4BZJdnPExKlVjzBfAfoWe6uwTLmH8",
+              "firstName": "Dino",
+              "lastName": "Minelli",
+              "linkedinUrl": "https://www.linkedin.com/in/dino-minelli-b5220042",
+              "publicIdentifier": "dino-minelli-b5220042"
+            }
+          },
+          {
+            "start": 59,
+            "length": 14,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAABYyuygBqeE9cvdLOIFJIzyFBmpN3-2RyZE",
+              "firstName": "Alexandra",
+              "lastName": "Nata",
+              "linkedinUrl": "https://www.linkedin.com/in/anata11",
+              "publicIdentifier": "anata11"
+            }
+          },
+          {
+            "start": 75,
+            "length": 13,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAHUs5EBD_LTr9Pg73QyniB_0kdgK1PmxhM",
+              "firstName": "Robert",
+              "lastName": "French",
+              "linkedinUrl": "https://www.linkedin.com/in/robert-french-b29353a",
+              "publicIdentifier": "robert-french-b29353a"
+            }
+          },
+          {
+            "start": 90,
+            "length": 12,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+              "firstName": "Harry",
+              "lastName": "McKaig",
+              "linkedinUrl": "https://www.linkedin.com/in/harrymckaig",
+              "publicIdentifier": "harrymckaig"
+            }
+          }
+        ],
+        "author": {
+          "id": "657568",
+          "universalName": "old-nassau-imports-double-cross-vodka-",
+          "publicIdentifier": null,
+          "type": "company",
+          "name": "Double Cross Vodka",
+          "linkedinUrl": "https://www.linkedin.com/company/old-nassau-imports-double-cross-vodka-/posts",
+          "info": "990 followers",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQGkwEBHFHoYYA/company-logo_400_400/company-logo_400_400/0/1720906186648/old_nassau_imports_double_cross_vodka__logo?e=1786579200&v=beta&t=F6cvOZXGBeNvd58ge7vlmRy_nwtzCOqFgHVv1gkwu3o",
+            "width": 400,
+            "height": 400
+          },
+          "urn": "657568"
+        },
+        "postedAt": {
+          "timestamp": 1781986010111,
+          "date": "2026-06-20T20:06:50.111Z",
+          "postedAgoShort": "1mo",
+          "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [],
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": true,
+          "hideSendAction": true,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/old-nassau-imports-double-cross-vodka-_thanks-to-best-cocktails-for-the-spotlight-activity-7474191050153041920-LF5F?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7474191050153041920",
+        "shareUrn": "urn:li:share:7474191049364684800",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7474191049364684800",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7474195751363846144",
+        "likes": 6,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475216179314434048",
+      "entityId": "7475216179314434048",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_amazon-bev-alc-distributor-analogy-people-activity-7475216179314434048-r0wq",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7465065355267383296",
+      "shareUrn": "urn:li:ugcPost:7465065355267383296",
+      "content": "Amazon / Bev-Alc Distributor Analogy: \n\nPeople forget how hard it is to physically pick up a product, put it on a boat, get it into the United States, and move it cross-country.\n\nBezos understood this. He spent billions building infrastructure that nobody else could replicate. And once you do that, you become the only game in town.\n\nThat's exactly what happened with beverage distribution.\n\nThe large distributors invested in infrastructure and ease of access across all 50 states. Now the big suppliers can't go anywhere else — and the small brands are left fighting for whatever attention is left over.\n\nThe three-tier system mirrors Big Tech more than most people realize. And in the case of Southern Glazer's Wine & Spirits, who I would argue has won the war...they have become the new Amazon in Beverage Alcohol. And on the flip side of the coin, that scale quick model failed with Republic National Distributing Company. It takes another major category player like Reyes Beverage Group or maybe a KeHE Distributors that already has excellent cold-chained, national account exposure to leverage alcohol (specifically spirits and RTD's) in their operations. \n\nFull conversation with Adam Steinberg on the Shelf Help: The Tactical CPG Podcast.\n\nhttps://lnkd.in/ewatju7Z\n\nMedium Article: https://lnkd.in/em6Ypzka",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1782230419949,
+        "date": "2026-06-23T16:00:19.949Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQH9HfeuBN-XqA/videocover-high/B4EZ5k9bUqI8BM-/0/1779810287173?e=1785877200&v=beta&t=B1xkhT_B-gcH8epkmDbDv-DjsM9poKISOnBcMVWXGnA",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQH9HfeuBN-XqA/mp4-720p-30fp-crf28/B4EZ5k9bUqI8B8-/0/1779810295166?e=1785877200&v=beta&t=psMxQOy0hfJQ71nLIis72CQ1BPEJN1FPR5RnQQ_InvI"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7465065355267383296",
+        "likes": 16,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 12
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7474785804528267264",
+      "entityId": "7474785804528267264",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_the-most-commonly-cited-growth-statistic-activity-7474785804528267264-4Jkc",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467171615945035776",
+      "shareUrn": "urn:li:share:7467171615945035776",
+      "content": "The most commonly cited growth statistic in US spirits gets misread.\n7.5x growth in active distillery permits from 2012 to 2024 reads as a boom. The mechanism that produced it is not what a boom looks like.\n\nNew permit issuance has held steady at 350 to 500 per year for the entire decade. Issuance didn't accelerate. The base compounded because closures stayed near zero.\n\nThat distinction matters....acceleration would show as a curve bending upward. This curve is a flat line of new entrants laid on top of a base that kept growing because almost nobody left.\n\nSteady issuance plus near zero attrition is what late stage market expansion looks like in any industry. The 12 year curve is dramatic because of math, not because of velocity.",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1782127810604,
+        "date": "2026-06-22T11:30:10.604Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFKOzJYiJX0Tg/feedshare-image-high-res/B4EZ6C5BEpGUAc-/0/1780312445473?e=1786579200&v=beta&t=zo15FlQTWvL4eCKq7X3TLjkYClK0AZ2mbIr9ukXHg3w",
+          "width": 1800,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7474785804528267264",
+        "likes": 5,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2755 @@
+{
+  "runId": "8g0ZVyjPlPYFOSgt4",
+  "datasetId": "EtzBRRAHKOqcR5B6w",
+  "offset": 40,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7483821634592890882",
+      "entityId": "7483821634592890882",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_a-former-apple-engineer-texted-a-colleague-activity-7483821634592890882-B8OK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483821633472909313",
+      "shareUrn": "urn:li:share:7483821633472909313",
+      "content": "A former Apple engineer texted a colleague right after he quit:\n \n\"LOL, I found out I can still access the servers. So funny.\"\n \nThat text is now Exhibit A in the biggest tech lawsuit of the year.\n \nLast week Apple sued OpenAI. The claim: OpenAI didn't just recruit Apple's people, it recruited what was in their heads, their laptops, and in one case their still-active server login.\n \nThe filing is wild:\n400+ former Apple employees now work at OpenAI.\nIts hardware chief allegedly told Apple candidates to bring \"actual parts\" and prototypes to interviews for \"show and tell.\"\nOne engineer allegedly kept his Apple laptop and pulled dozens of files on unreleased products after his last day.\nOpenAI allegedly passed around an internal Apple guide on how to dodge Apple's own exit-security check.\n \nOpenAI denies all of it. A court will decide.\n \nBut strip the names off and this is a story every founder is living in miniature.\n \nI run a business whose entire product is know-how. Clay builds, signal stacks, the whole system on outbounds, ads and content. All of it is, in theory, stealable. People see it, learn it, and some of them leave.\n \nFor a while I thought the fix was locking it down hard with tighter contracts, more NDAs, guard the playbook.\n \nIt doesn't work. Apple has the best lawyers on earth, and its unreleased roadmap still allegedly walked out on a personal laptop.\n \nHere's what I believe after 3 years of this:\n \nThe secret was never the moat, the moat is how fast you can make today's secret irrelevant.\n \nApple's edge was never one metal-finishing trick. It was decades of compounding execution that outruns whatever leaks. One AI release can dissolve a \"protected\" advantage overnight. Speed can't be poached.\n \nIn our case, we stopped trying to own information and started trying to out-run the copy.\nPublish the playbook. Give away the signals. Move faster than anyone who screenshots them.\n \nWhat are you still trying to protect that you'd be better off just giving away?\n \nP.S. Flashback to 2024, when Apple and OpenAI shook hands on the partnership Elon Musk immediately mocked. Two years later, they're in court.",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1784282120369,
+        "date": "2026-07-17T09:55:20.369Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQE6LdPZ7NlxLg/feedshare-shrink_1280/B4EZ9vgHjIHwAM-/0/1784282118893?e=1786579200&v=beta&t=xfoVPHhooIf3COaYTU6wvkCuVgOIBTvaOdt3ioAQbSE",
+          "width": 1006,
+          "height": 1228
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483821634592890882",
+        "likes": 190,
+        "comments": 104,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 149
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 23
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487446505885204480",
+      "entityId": "7487446505885204480",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_opus-5-dropped-last-friday-and-it-halved-activity-7487446505885204480-hzgq",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487446504597647360",
+      "shareUrn": "urn:li:share:7487446504597647360",
+      "content": "Opus 5 dropped last Friday and it halved what near-top AI costs to run.\nIt gets close to Fable 5, Anthropic's flagship, for $5 and $25 per million tokens, half of Fable 5's $10 and $50.\n \nOne number got buried under the price cut. AutomationBench, 26%.\nThat's multi-step business-workflow automation, and Opus 5 beats the whole field by roughly 1.5x, its widest win on the board.\n\n→ For outbound that means an agent can finally run the ops end to end. Stitch funding plus hiring plus tech-stack, tier the account, route it, drive the sending tool, triage the reply. It runs computer use at 70.6% too (OSWorld, #1) for about a third of Fable 5's cost, so it can operate the CRM and internal tools that never shipped a clean API.\n \nAcross the flywheel, every step that used to be a human handoff gets re-priced with the effort dial. Research 200 newly-funded AI accounts overnight on the low setting for pennies. Long-tail copy, low effort. Reserve max effort for the 20 dream accounts, the offer itself, and the one reply that's mid-negotiation.\n \nBut cheaper (and better) agents don't fix a bad list.\n \nThey just let you reach the wrong people faster and more convincingly. Point this at 8,000 rows where 60% are mis-ICP'd and you've sent 5,000 specific, WRONG emails, torching your sending domain on the way.\nWhen personalization costs nothing, the bottleneck moves off execution and onto the list itself. The hard part is knowing which 1,200 of those 8,000 are worth sending, and whether what you'd say about them is even true.\n\nSo the first thing I'd rebuild is the list and the offer under it, before touching the outreach at all. Tighten the ICP, kill the dead rows, enrich what's left, then turn the dial to max on the accounts that survive.",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1785146357032,
+        "date": "2026-07-27T09:59:17.032Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQH3-vBC0iv93w/feedshare-image-high-res/B4EZ.jA64tKUAU-/0/1785146355491?e=1786579200&v=beta&t=Azv_E1Om0y1LdFgaT6EEFjeT0mAziOe0gHH1jPOBz3E",
+          "width": 1080,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487446505885204480",
+        "likes": 149,
+        "comments": 130,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 133
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481284555442683904",
+      "entityId": "7481284555442683904",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_building-a-product-is-now-the-easy-part-activity-7481284555442683904-nZRR",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481284552448012288",
+      "shareUrn": "urn:li:share:7481284552448012288",
+      "content": "Building a product is now the easy part.\nGetting anyone to use it is the hard part.\n \nBefore AI, a few people had the idea, some built it, and a massive crowd used it. Usage was the wide end of the funnel. Distribution was mostly free: a good product sold itself. Ship something decent and people found you.\n \nAfter AI, that funnel is upside down.\n \nChatGPT makes everyone's idea sound worth building. Anyone can ship it in a weekend. And almost none of it gets used.\n \nIdeas went from scarce to infinite. Code went from months to an afternoon. The one thing that stayed brutally hard: getting a real human to pick you, pay you, and stay.\n \nThis is why I keep saying GTM is the new MVP.\n \nWe ran outbound for 275+ companies. The pattern was consistent, and a little painful to admit: the winners had the sharpest motion: right list, right offer, relevant enough that the reply felt obvious. Product quality barely predicted who made it.\n \nFrontal is at ~$350k/mo, and the software is not the reason. Someone could clone your tech stack. Nobody clones 100 meetings a month, or the distribution engine that prints them.\n \nSo here is the uncomfortable math for founders:\n \nYour product is a commodity the day after you launch.\nYour distribution is the only thing that compounds.\n \nSpend the next month on the motion, not the roadmap.\n \n♻️ Repost this if you're building something and underneath it fear the product was the easy part.",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1783677233563,
+        "date": "2026-07-10T09:53:53.563Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHPJxDkdN5WDw/feedshare-image-high-res/B4EZ9LcqJuKoAU-/0/1783677231967?e=1786579200&v=beta&t=PfdniIWbLm22Q7F_D1cfKKdoYPMOtL-Zd5LunxWkrJo",
+          "width": 1179,
+          "height": 959
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481284555442683904",
+        "likes": 873,
+        "comments": 252,
+        "shares": 34,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 780
+          },
+          {
+            "type": "INTEREST",
+            "count": 30
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 25
+          },
+          {
+            "type": "EMPATHY",
+            "count": 20
+          },
+          {
+            "type": "PRAISE",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480561943217528833",
+      "entityId": "7480561943217528833",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_the-average-gtm-engineer-is-about-to-get-activity-7480561943217528833-uRI4",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480561941392900096",
+      "shareUrn": "urn:li:share:7480561941392900096",
+      "content": "The average GTM engineer is about to get wiped out. The best one is about to get rich.\n\nThis role is going through exactly what software engineering went through in the 2010s.\n\nBack then Silicon Valley had the 10x engineer: one person who did the work of ten. The same gap is opening in GTM right now.\n\nA GTM engineer builds the systems that find leads and run a sales team's outreach. The routine half of that already runs on its own. AI researches the accounts, drafts the outreach, and keeps the follow-ups moving overnight.\n\nSo the job is splitting into two.\n\nOne version just runs the tools. Anyone with the same setup gets the same output, which means an agent gets there too. Most of those people will end up running their agents inside Claude Code or Codex, and whoever only operates the stack gets cheaper every year.\n\nThe other version builds the tools: the agents and the internal systems the rest of the team runs on. That's the person doing the work of ten, and you can't buy it off the shelf. Those roles already pay $40 to $60K above an equivalent RevOps hire, and that gap only widens.\n\nPeople keep telling me this role is about to dissolve into every other seat. I don't buy it, and 9 in 10 people doing the work don't either. It doesn't disappear. It concentrates: fewer engineers, each one worth far more.\n\nIf I were hiring for this today, I'd stop counting the tools someone has used and start looking at the systems they've built.\n\nOne of them is about to be worth 10 of the other.",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1783504949383,
+        "date": "2026-07-08T10:02:29.383Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHkji2vMM_vgg/feedshare-shrink_1280/B4EZ9BLauqJEAM-/0/1783504947641?e=1786579200&v=beta&t=_d1NrPWYLmzIpsB_Q2naB8AOQ9c-ov-REaGQtcKmDRc",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480561943217528833",
+        "likes": 188,
+        "comments": 111,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 163
+          },
+          {
+            "type": "EMPATHY",
+            "count": 14
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480195697795907585",
+      "entityId": "7480195697795907585",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_you-can-now-run-your-entire-linkedin-ads-activity-7480195697795907585-k6dw",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480195695715520513",
+      "shareUrn": "urn:li:share:7480195695715520513",
+      "content": "You can now run your entire LinkedIn Ads operation from Claude Code.\n\nIvan spent 300+ hours building it so you can run campaigns in a single prompt. We're giving it away for free.\n\nLinkedIn Ads is one of the most tedious platforms to run. Bid adjustments, audience changes, campaign analysis, catching creative fatigue, all of it across dozens of campaigns and ad sets.\n\nWhen you spend over $100k a month on it like we do for our clients, that work fills entire days.\n\nSo Ivan, who leads ABM on our team, took everything he knows about LinkedIn Ads and turned it into skills. His own AI media buyer inside Claude Code.\n\nIt runs as 3 agents:\n\nReporting: performance analysis, account audits, creative fatigue, reporting.\n\nCampaign management: campaign builds, audience targeting, bids and budgets, optimization.\n\nCreative: audience research, concept ideation, ad copy, designs.\n\nYou write one prompt. It builds the campaign, uploads the creatives, and reports back.\n\nIt's the same move we made on outbound: hand the AI your playbook, let it run the repetitive work, you make the calls.\n\nThis is probably the only skills database in the space that runs LinkedIn Ads from Claude Code at a real professional level. Years of learning on how to scale B2B SaaS and agency accounts, plus the onboarding to set it all up. The exact skills we use internally to manage clients in our $7M ARR GTM agency.\n\nComment \"LinkedIn Ads\" and we'll send the whole thing over: the 12 skills, the 3 agents, and the setup.",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1783417629670,
+        "date": "2026-07-07T09:47:09.670Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFOfhe7y-fwxw/feedshare-image-high-res/B4EZ87.UwuIAAU-/0/1783417627936?e=1786579200&v=beta&t=5HoXrr1Z5ynBXa9uLQPRWy5rEqKwKbv2BdFp_qrhxaI",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480195697795907585",
+        "likes": 272,
+        "comments": 678,
+        "shares": 9,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 239
+          },
+          {
+            "type": "EMPATHY",
+            "count": 16
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480921757412044802",
+      "entityId": "7480921757412044802",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_everyones-scared-ai-is-coming-for-their-activity-7480921757412044802-yr4P",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7480921630852984832",
+      "shareUrn": "urn:li:ugcPost:7480921630852984832",
+      "content": "Everyone's scared AI is coming for their job.\nI used it to do the work of an entire GTM team instead.\n \nI built a full AI sales and marketing team inside Claude Code.\n \nPeople get it wrong when they go hunting for one magic prompt. \"Write me cold emails that book meetings.\" They paste the output and wait for replies that never come.\n \nYou'd never hire one person to be your strategist, your data analyst, your copywriter and your LinkedIn creator all at once. AI is no different.\n \nA real revenue team is 6 jobs:\n \n1/ Strategy. Who you can sell to, and why they'd pick you.\n2/Signals. Funding, new GTM hires, competitor research. Caught at the right moment.\n3/ Data. Real contacts, real emails, real phone numbers.\n4/ Copy. Outreach that reads like a human wrote it for that one company.\n5/ Execution. The emails, the LinkedIn touches, the follow-ups.\n6/ The system that makes those 5 run as one.\n \nWe built each one as a skill. A skill is just a plain text file that gives Claude deep knowledge for a single job, like an onboarding doc for a new hire. Anyone on the team can edit it like a Google Doc. No code.\n \nWhile 91% of cold emails get zero replies, ours went from 3.4% to 15% once we sent on signals instead of blasting templates.\n \nThis is the whole idea behind our rebrand. Frontal AI doesn't run campaigns. We build Revenue Systems inside your company.\n \nI recorded the full build and ran it live. It finds a buyer and writes the entire cold email sequence on its own. Watch it here 👇\n\nhttps://lnkd.in/e7V_N4CP",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1783590735772,
+        "date": "2026-07-09T09:52:15.772Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQECPo_vWafzhA/videocover-high/B4EZ9GSoZrJUBQ-/0/1783590719705?e=1785877200&v=beta&t=IK1aE60kbHrid4uJW6pmUo7xr2VxepOg9VsURjNewKg",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQECPo_vWafzhA/mp4-720p-30fp-crf28/B4EZ9GSoZrJUCA-/0/1783590725897?e=1785877200&v=beta&t=sh95VKqSJZHJv7h7kna4nfBL8d9b1pXWKC51uQhmWoQ"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480921630852984832",
+        "likes": 175,
+        "comments": 113,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 155
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479834078385508352",
+      "entityId": "7479834078385508352",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_every-clay-tutorial-shows-you-the-version-activity-7479834078385508352-BGND",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479834075986440192",
+      "shareUrn": "urn:li:share:7479834075986440192",
+      "content": "Every Clay tutorial shows you the version that works. Cape Town was the first time I watched someone show me the version that broke. That workflow, the one that's leaking your pipeline, is what we're taking apart in Barcelona this week.\n\nAt the Clay event in Cape Town, a founder turned his laptop around during the coffee break and showed me his Clay table. It looked better than mine: every row enriched, intent signals, AI research, the whole thing.\n\nHe was getting almost no replies.\n\nSo we sat down and traced it. His Clay build was fine. The problem started after Clay. He'd done all that research and then shoved it into his sequences like a mail merge: good data, lazy send.\n\nHe'd never thought to look there. Every course he'd taken ended at the Clay table.\n\nThat gap, going from research in Clay to sequences in lemlist, is where people lose their pipeline. And nobody teaches it, because it's not the fun part to teach.\n\nSo that's what Munnawar and I are doing this Friday, the 10th of July. lemlist and Clay are getting together at Norrsken Barcelona. 45 minutes, the actual workflows we run: intent and AI research in Clay, then how that turns into multi-channel sequences in lemlist that get replies and don't read like a bot wrote them.\n\nThen we shut the laptops and it's coffee and pastries with people who build this stuff for a living. \nSmall room on purpose. If this is your job, come.\n\nRegister here → https://lnkd.in/eguDBtsK\n\nP.S. What's the workflow you built that looks perfect and still doesn't convert? Bring it. That's the one we'll pull apart.",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1783331412884,
+        "date": "2026-07-06T09:50:12.884Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEOS-b-EcXXBg/feedshare-image-high-res/B4EZ821dZgIwAU-/0/1783331411808?e=1786579200&v=beta&t=vx9zde4SPiwPLqbcQrk9Z777CSYdw0XF9YEk0MZb7ow",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479834078385508352",
+        "likes": 124,
+        "comments": 89,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 99
+          },
+          {
+            "type": "EMPATHY",
+            "count": 15
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477298534065680384",
+      "entityId": "7477298534065680384",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_our-head-of-growth-ivan-is-running-over-2m-activity-7477298534065680384-3S13",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477298530810986496",
+      "shareUrn": "urn:li:share:7477298530810986496",
+      "content": "Our Head of Growth Ivan is running over $2M in ad spend directly from Claude Code.\n\nNo ads-manager dashboard, only one operator, Claude Code, and live buying signals.\n\nWe've spent the last year showing how Claude Code runs outbound and GTM. Ads were always the next domain. Ivan just proved it works at scale.\n\nHe calls it Ads Engineering: one person combining data, ABM, outbound signals, creative, and reporting into a single system built to scale revenue with paid.\n\nTwo layers make it work.\n\nLayer 1: AI agents for the ad work itself\n\n→ Spin up creative variations at 3x the speed\n→ Spot creative fatigue across hundreds of ads\n→ Build and update hundreds of campaigns at once\n→ Flag underperformers and adjust them automatically\n→ Reporting and analytics at a depth dashboards can't reach\n\nAcross LinkedIn, Meta, and Google.\n\nLayer 2: ABM + buying signals\n\n→ Pull buying signals straight from outbound\n→ Turn company and contact data into sharper audiences\n→ Personalize ads around what each account actually cares about\n→ Segment by ICP, persona, account tier, and intent\n→ Run ads and outbound in sync, not as two separate channels\n\nClaude Code finds the patterns, the operator decides what matters and the system executes.\n\nTomorrow, June 30, Ivan Falco goes live with Andy Toizer, Head of Growth at Freckle.io, to build the full workflow in front of you: real campaigns, real spend.\n\n10 AM PT / 1 PM ET.\n\nLink to join below 👇",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1782726892010,
+        "date": "2026-06-29T09:54:52.010Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEBN7_xg0Y3YQ/feedshare-shrink_800/B4EZ8SzZIFJYAc-/0/1782726890253?e=1786579200&v=beta&t=GMKPgBQhebakiETvx80SuthTUUav7kFHvcNfr_TcijM",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477298534065680384",
+        "likes": 115,
+        "comments": 92,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 97
+          },
+          {
+            "type": "EMPATHY",
+            "count": 11
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475848854374920192",
+      "entityId": "7475848854374920192",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_claude-code-runs-our-entire-cold-outbound-activity-7475848854374920192-gOZ6",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475848853167087617",
+      "shareUrn": "urn:li:share:7475848853167087617",
+      "content": "Claude Code runs our entire cold outbound, signal to live campaign. \n\nOne terminal, any API, fully personalized. The full build:\n\nOutbound tools lock you into their data and their steps. Claude Code connects to any tool with an API, so the whole thing lives in one place.\n\nIt starts with a signal: a new VP of Sales, fresh funding, a competitor getting compared on G2. That is the reason to reach out now.\n\nThe flow, signal to sent:\n\n→ The signal fires. A script scores the account and ranks it, so nobody guesses who to work.\n\n→ Apollo finds the buying committee. An enrichment waterfall returns the verified email, cheapest source first.\n\n→ Claude writes the email against the signal, in your own framework. Outreach that names the signal pulls 3-4x more replies than generic.\n\n→ The campaign loads into Instantly and goes live, all through the API.\n\n→ Replies feed back in. The copy that won gets reused on the next run.\n\nAll of it reads from one folder: your ICP, your scoring rules, your best-performing copy. Claude opens those files before every task: better files, better output.\n\nOnce a workflow lands, you save it and run it again. Hiring signals to a live sequence. G2 shoppers to a steal campaign. Anonymous site visitors to real outbound.\n\nThis is the same engine we run at ColdIQ. \n\nSave this for your next build. Repost if you know someone still runs outbound manually.",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1782381261438,
+        "date": "2026-06-25T09:54:21.438Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGAMmCyikd_JA/feedshare-image-high-res/B4EZ7.M46zJYAU-/0/1782381259823?e=1786579200&v=beta&t=f4vHG8p5q5ugrX5hWG6nwBFRdrlrJ2PF2cU1v87gbkQ",
+          "width": 1080,
+          "height": 1500
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475848854374920192",
+        "likes": 220,
+        "comments": 138,
+        "shares": 10,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 198
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478026380711079936",
+      "entityId": "7478026380711079936",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_software-has-never-been-cheaper-to-build-activity-7478026380711079936-I91r",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7478026378878210049",
+      "shareUrn": "urn:li:ugcPost:7478026378878210049",
+      "content": "Software has never been cheaper to build. So I'm making the most expensive bet in tech.\n\nToday, I'm launching Frontal.so\n\nEveryone is building software. I'm going all-in on an agency instead.\n\nWhy an agency in 2026?\nHere's the bet, and what I'm seeing.\n\nEveryone is getting into software. It’s cheaper to build than ever, better margins, and everyone wants a piece of it.\n\nBut after working with hundreds of companies, I keep seeing the same thing.\n\nCompanies buy the tools, but they can't make them work.\n\nThey have the tools, but they are missing the people who know how to use them.\n\nSo I'm betting on people.\n\nA small team of the smartest GTM minds I can find, who sit with your company and do the work.\n\nServices don't get the hype SaaS does.\n\nBut tools and APIs will keep multiplying.\n\nThe people who can guide businesses through all of the changes happening are about to become a hot commodity.\n\nEvery business is curious about GTM and AI, but with everything moving so fast, they don’t know what to do.\n\nWhat we want to build is simple: the McKinsey for GTM. The team you call when you need to be sure.\n\nOver the last 3 years, we have worked with over 275 companies.\n\nWe have developed the best agents and workflows.\n\nAnd while we will always stay at the edge of what AI can do…\n\nWe are betting on human judgment rather than on another tool.",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1782900424173,
+        "date": "2026-07-01T10:07:04.173Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478026378878210049",
+        "likes": 541,
+        "comments": 318,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 428
+          },
+          {
+            "type": "PRAISE",
+            "count": 60
+          },
+          {
+            "type": "EMPATHY",
+            "count": 39
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 11
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7473674631401369600",
+      "entityId": "7473674631401369600",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_i-could-stop-running-the-business-go-full-time-activity-7473674631401369600-gUPB",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7473674630789025793",
+      "shareUrn": "urn:li:share:7473674630789025793",
+      "content": "I could stop running the business, go full-time creator, and probably make great some great cash. I'm staying in the operator seat anyway.\n\nMy personal brand brings in around 50 inbound meetings a month. ColdIQ is at $550 MRR. So the obvious move is to let someone run the business, create full-time, and let the brand compound on its own.\n\nIt's the trade every founder-creator hits at some size. Hormozi made the call a few years back and Leila joined him last year. Plenty of others have too, and for some of them it's the right call.\n\nHere's what I think it costs.\n\nYour content is only as credible as what you're operating right now. The day you stop running the business, the content you make starts to be more and more high level. Your best stories start to be things you did a while ago, and people can feel it fast.\n\nHormozi spent years as one of the best business creators alive, and he earned it by actually building. The risk at this stage: you move from operator to commentator without noticing.\n\nMost days I'm in 1:1s with the leadership team, on client calls, reading the numbers before anyone writes a post about them. That's the part that makes the content worth reading. Hand it off and I'd just be writing about a company I used to run.\n\nRunning a business is the best source material, and I haven't found a better way.\n\nIf that ever changes, you have my permission to stop reading me.",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1781862886286,
+        "date": "2026-06-19T09:54:46.286Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7473674631401369600",
+        "likes": 159,
+        "comments": 124,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 133
+          },
+          {
+            "type": "EMPATHY",
+            "count": 12
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478745673417338882",
+      "entityId": "7478745673417338882",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_anthropic-made-fable-5-worse-but-it-shipped-activity-7478745673417338882-IjUt",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478745672314286080",
+      "shareUrn": "urn:li:share:7478745672314286080",
+      "content": "Anthropic made Fable 5 worse but it shipped some of the best GTM lessons this week.\n\nAfter \"a series of productive conversations with the US government,\" they redeployed the model with new classifiers: it blocks more requests, and for everyday coding it silently falls back to Opus 4.8.\n\nWhen you build on top of someone else's model, the capability your customers fell in love with can change overnight, without warning. And you won’t hear it from the provider. You hear it from your users.\n\n2 things that protect you:\n\n1/ Test your own use case regularly. If the quality drops, you want to catch it before your customers feel it.\n\n2/ Own the framing. \"Falls back to Opus 4.8\" is a downgrade in smart-casual. How you tell customers you got worse matters as much as getting better.\n\nYou cannot control the model. You can control how fast you notice, and what you say when it slips.\n\nAnd yet: upgrade or downgrade, people stay obsessed with Claude. What a moat.",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1783071916918,
+        "date": "2026-07-03T09:45:16.918Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEhuutjeRcJwA/feedshare-image-high-res/B4EZ8nXj6BJMAU-/0/1783071915921?e=1786579200&v=beta&t=dMo6ZpRFNdjG7CVdcJp0eYkerF9FwQipaF2JiASPvz0",
+          "width": 1536,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478745673417338882",
+        "likes": 360,
+        "comments": 144,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 288
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 58
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476211170484396032",
+      "entityId": "7476211170484396032",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_a-google-engineer-built-a-tool-so-good-it-activity-7476211170484396032-BcIK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7476211167472906241",
+      "shareUrn": "urn:li:share:7476211167472906241",
+      "content": "A Google engineer built a tool so good it hit #1 on Hacker News in two days.\n\nGoogle fired him for it.\n\nJustin Poehnelt shipped the Google Workspace CLI. Thousands of GitHub stars, thousands of real users, all in a couple of days. Two months later he was out, and his read is that the tool is the reason.\n\nEveryone's talking about the firing as another big-company-eats-its-builders story. But that's not the interesting part to me.\n\nThe interesting part is why it blew up.\n\nIt was built for AI agents to run. One command line, every Workspace API, 40+ agent skills inside it, I don't have to read Google API docs anymore.\n\nWe run outbound for 100+ AI companies, and the same thing is happening to the GTM stack right now. The tools we keep are the ones an agent can run on its own. It pulls the list, writes the variations, sends, and nobody opens a dashboard to make it happen.\n\nThe tools that still need a person clicking through five screens to get anything done, we drop them.\n\nSo if you're building an AI product, the question isn't whether the interface is nice anymore. It's whether an agent can run your product without reading your docs. Because more and more, the user on the other side is an agent, not a person.\n\nThe guy who figured that out first just got walked out of Google.\n\nFunny how that works.",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1782467644330,
+        "date": "2026-06-26T09:54:04.330Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGE5g77zMvAeA/feedshare-image-high-res/B4EZ8DWcFsIcAc-/0/1782467642714?e=1786579200&v=beta&t=Genfaf-iY7b0PPCDoADdcEn8GWd8BaH4fj4X-vcHM-c",
+          "width": 1198,
+          "height": 1270
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7476211170484396032",
+        "likes": 421,
+        "comments": 142,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 389
+          },
+          {
+            "type": "EMPATHY",
+            "count": 12
+          },
+          {
+            "type": "PRAISE",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478387295339966464",
+      "entityId": "7478387295339966464",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_the-people-were-hiring-barely-exist-let-activity-7478387295339966464-2hOu",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478387292210970625",
+      "shareUrn": "urn:li:share:7478387292210970625",
+      "content": "The people we're hiring barely exist. Let me explain.\n\nWe just rebranded the agency part of ColdIQ to Frontal, and we already need more people to join us.\n\nWe're building the McKinsey for GTM: the team companies call to grow their revenue by leveraging the best tech.\n\nWe need people who have a very specific combination of skills and traits.\n\nSomeone who gets excited and curious about new tech and can't wait to build with it.\nSomeone who also enjoys talking to clients, talking business, and becoming a real partner to them.\n\nBusiness acumen, great with people, but also technical.\n\nMost people have one of the three. A few have two. We're looking for all three in the same person.\n\nWe have 2 roles open right now:\n\n→ Senior GTM Engineer: architect the GTM systems that grow our clients' revenue, and sit with them to build it. Need to already know your way around Claude Code and Clay: https://lnkd.in/euPwKKAQ\n\n→ Content Associate: create great organic B2B content. You'll work the system that drove 356 meetings and +$153K in MRR in under 3 months: https://lnkd.in/e6pcANhx\n\nIf this sounds like you, feel free to DM me or reach out to people@frontal.so\n\nP.S. Feel free to tag someone who is that rare mix.",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1782986472926,
+        "date": "2026-07-02T10:01:12.926Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEoH4xTmWyarA/feedshare-shrink_1280/B4EZ8iRnWmKQAM-/0/1782986471207?e=1786579200&v=beta&t=BGnheIsJXPVHQFUIEFs023OhjVo_Bzc38A5ZlpP3y-s",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478387295339966464",
+        "likes": 192,
+        "comments": 104,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 162
+          },
+          {
+            "type": "EMPATHY",
+            "count": 17
+          },
+          {
+            "type": "PRAISE",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7473311629850550273",
+      "entityId": "7473311629850550273",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_the-best-people-on-my-team-dont-manage-anyone-activity-7473311629850550273-tXQl",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7473311628726255616",
+      "shareUrn": "urn:li:share:7473311628726255616",
+      "content": "The best people on my team don't manage anyone.\n\nThey manage agents.\n\nGartner says 1 in 5 companies will cut more than half their middle managers this year. They call it the great flattening.\n\nBut look at how most of them do it. They fire the managers and pile the reports onto whoever's left. The average manager now manages 12 people, nearly double 2013. At Meta, one manager is responsible for 50 direct reports.\n\nThey call that flattening. It's just the same work done by fewer people.\n\nMiddle managers existed to do one thing: keep a team in sync. Give your best person agents instead of a team, and there's no one left to keep in sync. So you don't give them more people. \n\nAt ColdIQ, our most senior people went back to building. No team under them. It's not a step down. The most valuable person here builds and runs the agents. Not the one running the meeting about the work.\n\nBut there is a catch. It only works if you change how you pay them.\n\nKenny gets paid on gross margin, not team size. He builds the agent that does the job, and cuts the steps that don’t need human judgment.\n\nWhat is your management layer doing that one sharp person and a few agents couldn't?",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1781776339972,
+        "date": "2026-06-18T09:52:19.972Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGpSaa9DkQobA/feedshare-shrink_800/B56Z7aJUyNIMAc-/0/1781776338731?e=1786579200&v=beta&t=m0_Bt9CVpio_psV8IhyUjUWp1AovtZCeOpgUeGRufpU",
+          "width": 720,
+          "height": 900
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7473311629850550273",
+        "likes": 144,
+        "comments": 151,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 121
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482371995989479426",
+      "entityId": "7482371995989479426",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_claude-code-apify-made-most-software-subscriptions-activity-7482371995989479426-WK5r",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7482371903391727616",
+      "shareUrn": "urn:li:ugcPost:7482371903391727616",
+      "content": "Claude Code + Apify made most software subscriptions useless.\n \nSame data as expensive B2B databases, pulled straight from the source, for the price of a coffee.\n \nHere's the part I only understood after years in GTM:\n \nThe tools you pay thousands for? Most of them use the same data.\n \nThey put a paywall around information that you can find for free.\n \nHere is how you can go straight to the source instead.\n \n2 tools do the whole job:\n \nApify: a marketplace of scrapers you can use to get data from anywhere.\n \nClaude Code: an AI assistant that lives on your computer and runs the tool for you.\n \nYou connect the two and talk to it, no spreadsheets, no code needed.\n \nI would type:\n\"Analyze frontal.so, figure out my ICP, and build me a list with the 100 best leads to contact.\"\n \nAnd 100 verified leads came back.\n \nCost: 10 cents.\n \nSomeone who has never run outbound in their life could do this with one sentence.\n \nThe expensive B2B databases are hoping that you never figure this out.\n \nI recorded the entire build with every prompt, every step here 👉 https://lnkd.in/e7JpbQMs",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1783936499593,
+        "date": "2026-07-13T09:54:59.593Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQFvyuSORcewiA/videocover-low/B4EZ9a5oMMJkBM-/0/1783936486855?e=1785877200&v=beta&t=cz4qDCCjIYxRasuov2sPl9-XFrM8WE-nKleLlewRww0",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQFvyuSORcewiA/mp4-720p-30fp-crf28/B4EZ9a5oMMJkCA-/0/1783936491492?e=1785877200&v=beta&t=y76lK8AeVcWEI6fFU-nMiIDxmF4wuUSy8l9aCnTmanA"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482371903391727616",
+        "likes": 373,
+        "comments": 183,
+        "shares": 18,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 337
+          },
+          {
+            "type": "EMPATHY",
+            "count": 15
+          },
+          {
+            "type": "INTEREST",
+            "count": 11
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475123387846176768",
+      "entityId": "7475123387846176768",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_5-claude-code-sales-agents-helped-take-coldiq-activity-7475123387846176768-vn7I",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475123386717929472",
+      "shareUrn": "urn:li:share:7475123386717929472",
+      "content": "5 Claude Code sales agents helped take ColdIQ to $7M ARR. \nI'm giving the whole pack away for free.\n\nProspecting AI gets all the attention. The work that closes the deal is still mostly manual.\n\nFor us, that meant 30-45 minutes of follow-up after every discovery call:\n\n→ Pulling out what they said about their pain\n→ Scoring whether they're someone we can sell to\n→ Replaying how we ran the call\n→ Drafting the follow-up that won't get ignored\n→ Mapping a campaign idea to pitch them next\n\nSo we built 5 agents that handle all of it:\n\n→ SPICED Call Analyzer\n→ ICP Fit Scorer\n→ Personalized Follow-Up Writer\n→ GTM Campaign Ideator\n→ Account Brief Generator\n\nPaste the transcript and the prospect's domain into Claude, the 5 agents run.\nWe walk into the next meeting already prepared.\n\n30+ minutes back on every prospect.\n\nThe full pack: 5 prompts and setup notes, ready to paste into Claude.\n\nComment \"CLOSER\" and I'll DM it over.\n(Make sure we're connected.)\n\n♻️ Repost so other founders can grab it.",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1782208296739,
+        "date": "2026-06-23T09:51:36.739Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQE0jSqvslD_dQ/feedshare-shrink_1280/B4EZ7z5GgfJEAM-/0/1782208294459?e=1786579200&v=beta&t=z3WHOOUup5JoUUivQPcdMUhn7SrwCOGBfwXt1-GZgT0",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475123387846176768",
+        "likes": 152,
+        "comments": 266,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 139
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7474761091772944384",
+      "entityId": "7474761091772944384",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_turn-the-people-engaging-with-your-linkedin-activity-7474761091772944384-V2Vx",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7474761090598416384",
+      "shareUrn": "urn:li:share:7474761090598416384",
+      "content": "Turn the people engaging with your LinkedIn posts into booked meetings.\n\nHere's the 7-step workflow that got our team 120 meetings last month.\n\n1/ Post for your ICP\n\nWe use Taplio to spot trending topics before we write, and to see which of our own posts pull the most attention. Then we double down on what's working.\n\n2/ Pull everyone who engaged.\n\nSomeone who reacts to a post about outbound automation is telling you what they care about. We use Apify to export a clean list of every profile that liked, commented, or reposted.\n\n\n3/ Enrich the list in Clay.\n\nWe push the list into Clay and layer in company, role, seniority, and firmographics. Now it's a real prospecting dataset instead of a list of names.\n\n4/ Score and tier by ICP fit.\n\nNot everyone who engages is a buyer. We rank each account in Clay. \nTier 1 is a strong match on role, company size, and industry. Tier 2 and 3 fit, but with lower urgency. \nThis keeps us from burning touches on people who were never going to buy.\n\n5/ Find verified emails with a waterfall.\n\nWe run the enrichment in sequence inside Clay: Wiza, then Prospeo, then LeadMagic, then FullEnrich. \nIf one tool misses the email, the next one catches it. Coverage stays high and you never overpay a single provider.\n\n6/ Add buying signals before you write anything.\n\nThis is where relevance comes from. Before reaching out, we pull live context in Clay: active hiring, tech stack, team growth. \nA company hiring SDRs is a completely different conversation than one that isn't.\n\n7/ Reach out based on tier.\n\nTier 1 gets a LinkedIn DM through Instantly.ai or Expandi, more personal and higher intent. \nTier 2 and 3 get an email sequence through Instantly, scaled but still personalized with the signals from step 6.\n\nThe one rule we never break: no pitch on the first touch. We open with something useful instead, a relevant lead magnet, a quick insight, or the results we got for a similar company. We show we understand their situation before we ask for anything.\n\nEngagement is just the top of the funnel. This workflow is how you turn it into pipeline.\n\nHow are you working the people who engage with your posts?",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1782121918624,
+        "date": "2026-06-22T09:51:58.624Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFUsyjD2SDUng/feedshare-image-high-res/B4EZ7uvkqeJIAU-/0/1782121917087?e=1786579200&v=beta&t=3Yvz06IefSAbf6V7-JmAqiWsl0YDAChYPShGEBUfrqc",
+          "width": 1080,
+          "height": 1440
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7474761091772944384",
+        "likes": 176,
+        "comments": 160,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 150
+          },
+          {
+            "type": "INTEREST",
+            "count": 11
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475485702441336832",
+      "entityId": "7475485702441336832",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_we-had-a-client-paying-50000-a-year-for-activity-7475485702441336832-NKPS",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475485699400601600",
+      "shareUrn": "urn:li:share:7475485699400601600",
+      "content": "We had a client paying $50,000 a year for ZoomInfo, nobody on their team ever logged in.\n\nThey didn't buy a bad tool. They bought a tool with no one driving it.\n\nThe license that you purchase is not the outcome, the outcome comes from a person doing the work with it.\n\nAnd right now everyone is making the same mistake with AI.\n\nFounders buy an agent, point it at the whole GTM motion, and wait for pipeline. It doesn't come. Replies go silent, copy sounds like a robot wrote it, and they decide AI doesn't work.\n\nAI works. It was just never going to run the whole thing on its own.\n\nWe've run outbound for 276+ companies now. We use the same rule on every one. I call it 10-80-10.\n\nYou own the first 10%. Who we go after, what a good lead looks like, the angle to take. That's judgment, and no model makes that call for you. It's also the part people often skip.\n\nAI runs the middle 80%. The research, the data, the first drafts, the follow-ups. Hundreds of accounts in a night, across the tools you already pay for. We build our own software on top so it keeps getting better at that 80%.\n\nThen you own the last 10%. You read the work before a prospect ever does. You catch what the model got wrong, cut what's weak, and decide what goes out.\n\nWe've never let an agent run a play end to end. There's always a human on both ends of it.\n\nI don't think AI is coming for your team. I think it makes a good team faster, and it does close to nothing for a team that couldn't tell good work from bad in the first place.\n\nOnce AI can do the 80% for everyone, doing the work stops being the edge. The 20% that decides what's worth chasing and what's good enough to send becomes the whole game.\n\nThat 20% is what clients pay us for. It's the reason this still needs people.",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1782294679270,
+        "date": "2026-06-24T09:51:19.270Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHi_NEpaTSO1w/feedshare-image-high-res/B4EZ75CnRPHAAc-/0/1782294677406?e=1786579200&v=beta&t=dvxQ3jInDm9_BIXBWqI2_7sH5s4q1FwIr6FCjqW6Mug",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475485702441336832",
+        "likes": 173,
+        "comments": 141,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 153
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477660633325469696",
+      "entityId": "7477660633325469696",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-vacca_we-wired-19-apis-into-claude-code-to-run-activity-7477660633325469696-xZC7",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477660630171230208",
+      "shareUrn": "urn:li:share:7477660630171230208",
+      "content": "We wired 19 APIs into Claude Code to run our entire GTM motion across 7 layers, from first signal to revenue.\n\nPay for 10+ tools that never share data and someone becomes the integration layer by hand. Claude Code connects all of it.\n\n1️⃣ Signal layer: where intent shows up\n\nPredictLeads tracks hiring surges, funding rounds, and tech adoption across 100M+ companies. It shows up here before anyone fills out a form.\n\nCommon Room pulls community, product, and GTM signals into one place. It surfaces warm leads from GitHub, Discord, LinkedIn, G2, and job changes.\n\nAttention records every sales call, then lets you query the history in plain language for competitor mentions and objections.\n\nRB2B / Vector deanonymizes your website visitors. People already on your site are warmer than any cold list you'll ever buy.\n\n2️⃣ Data layer: where contacts get enriched\n\nOpenmart holds 200M+ local business records. Search by category and location, enrich with verified emails and phones.\n\nWiza turns a LinkedIn profile into verified contact data, 50+ points per person.\n\nProspeo runs at 98%+ email accuracy across a 200M+ database, with person, company, and domain search.\n\nFullEnrich is the waterfall play: one API cascades through 20+ providers until it finds the email and phone, 80%+ find rates. It replaced 3 enrichment subscriptions for most teams we work with.\n\nApollo covers B2B contact and company data, with firmographic and technographic filters.\n\n3️⃣ Action layer: where outreach runs itself\n\nThe part most teams still do by hand. Claude Code creates the campaigns, triggers the sequences, and manages follow-ups without anyone touching a UI.\n\nInstantly gives you programmatic control over cold email: campaigns, warmup, analytics, and webhooks that fire on replies.\n\nLemlist runs multichannel sequences across email, LinkedIn, and calls, routing each lead by enrichment data.\n\nLinkedIn Ads handles paid acquisition: create campaigns, sync audiences, retarget accounts already showing intent.\n\n4️⃣ Automation layer: where it all connects\n\nn8n orchestrates everything above into multi-step workflows that trigger, branch, and loop. This is the glue.\n\n5️⃣ System of record\n\nAttio is the AI-native CRM holding it together: people, companies, deals, custom objects, lists, tasks, all with real-time webhooks.\n\n6️⃣ Conversion layer\n\nCal.com handles scheduling: embed booking links in emails, auto-route meetings, sync every booking back to the CRM.\n\n7️⃣ Revenue layer\n\nHyperline closes the loop: billing, subscriptions, usage metering, invoicing, plus webhooks on payments and ARR/MRR/churn analytics.\n\nOnce it's connected, you can run:\n\nFull-cycle outbound where signal becomes enrichment becomes outreach becomes a CRM update, with no manual steps in between.\n\nGTM agents that monitor signals, enrich contacts, route to the right channel, and report back around the clock.\n\nThe 19 tools were never the advantage. Connecting them is. Which one would you wire up first?",
+      "author": {
+        "id": "ACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "universalName": null,
+        "publicIdentifier": "alex-vacca",
+        "type": "profile",
+        "name": "Alex Vacca",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-vacca?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABcwGZ0BPKyEbC2o13Qq7MhrAaZaSOhz9HU",
+        "info": "Founder & CEO @ Frontal (ex-ColdIQ Agency) | We help B2B companies scale revenue | 1 of 4 Clay Elite Studio Partners worldwide | +275 clients served",
+        "website": "https://frontal.so/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGnbDf6P-RsZg/profile-displayphoto-crop_800_800/B4EZ8c4LlAHkAI-/0/1782895921112?e=1786579200&v=beta&t=3S3bHYucqEnblHHK6YPr9-MDad4-AkY2xv1i6mzy2uA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "389028253"
+      },
+      "postedAt": {
+        "timestamp": 1782813223201,
+        "date": "2026-06-30T09:53:43.201Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHwzced3hPqlw/feedshare-shrink_1280/B4EZ8X8siYKkAM-/0/1782813221468?e=1786579200&v=beta&t=1Zn5GhN50Y4sFlxrc3HCUt31Mp9ows6H2ZAJeb9CYOs",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477660633325469696",
+        "likes": 463,
+        "comments": 215,
+        "shares": 23,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 408
+          },
+          {
+            "type": "EMPATHY",
+            "count": 22
+          },
+          {
+            "type": "INTEREST",
+            "count": 18
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 7
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/alex-vacca",
+        "sessionId": "c4f1b269-99c3-46da-bbb5-3185643207db"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7469710627838738433",
+      "entityId": "7469710627838738433",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_demandplanning-forecasting-supplychainplanning-activity-7469710627838738433-XEsn",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7469710625003388928",
+      "shareUrn": "urn:li:share:7469710625003388928",
+      "content": "Demand Planning Mistake: Treating Last Year as the Future!!\nOne common forecasting mistake is assuming last year will repeat itself.\nIt rarely does.\nLast year’s sales data is useful, but it only tells us:\n• What happened?\n• Not always why it happened?\n• Not always whether the same pattern will happen again?\nA planner may say:\n“Last Season we sold 15,000 units, so this year we should plan the same.”\nBut this year may be different.\n🔸 Prices changed\n🔸 Competitors launched promotions\n🔸 Customers shifted behavior\n🔸 Supplier lead times changed\n🔸 Some SKUs had availability issues\n🔸 Sales focus moved to another category\nSo the forecast may look logical, but still fail.\nThe problem is not using historical data.\nThe problem is using historical data without challenging the assumptions.\n📊 A Simple Example\nLast year’s demand: 15,000 units\nThis year’s actual demand: 10,500 units\nForecast gap: 4,500 units\nWhy did the gap happen?\n⚠️ Competitor promotion\n⚠️ Price increase\n⚠️ Supplier delays\n⚠️ Customer shift to cheaper alternatives\n⚠️ Different sales priorities\nThe forecast missed because the business copied the past instead of reading the present.\n✅ Better Approach\nUse history as a baseline, not the final answer.\nBefore finalizing the forecast, ask:\n• What changed in the market?\n• Were last year’s sales affected by promotions or stockouts?\n• Are customers behaving differently?\n• Are competitors influencing demand?\n• Do sales, supply, procurement, and finance agree on the assumptions?\nGood demand planning is not about copying last year.\nIt is about:\n🔹 Understanding the past\n🔹 Reading current signals\n🔹 Preparing for what may happen next\nThe best planners do not ask only:\n“What did we sell last year?”\nThey ask:\n“What changed since then?”\n#DemandPlanning #Forecasting #SupplyChainPlanning #SOP #SupplyChain #InventoryManagement #LeanSixSigma #BusinessPlanning #SupplyChainAnalytics",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780917794189,
+        "date": "2026-06-08T11:23:14.189Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQExLEYKpLfoFw/feedshare-shrink_1280/B56Z6m.OwRHEAM-/0/1780917792033?e=1786579200&v=beta&t=mZZd7bL1r_KKPqJ30A-dQdvL9nBvg3jxW9hj2WCLJcU",
+          "width": 1170,
+          "height": 1454
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7469710627838738433",
+        "likes": 13,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 13
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7469709434362200064",
+      "entityId": "7469709434362200064",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_demandplanning-forecasting-demandsensing-activity-7469709434362200064-oU3_",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7469709431367286784",
+      "shareUrn": "urn:li:share:7469709431367286784",
+      "content": "Demand Sensing: Using Real-Time Signals Before It’s Too Late!!\nMost forecast issues don’t happen because planners ignored data.\nThey happen because the business reacted too late.\nTraditional forecasting often asks:  “What happened last month?”\nDemand sensing asks:  “What is demand starting to do now?”\nThat difference matters.\nBecause markets move faster than monthly planning cycles.\nDemand can shift when:\n🔹 Customers change buying behavior\n🔹 Competitors launch promotions\n🔹 Online demand suddenly spikes\n🔹 Supplier delays affect availability\n🔹 Sales teams notice early market signals\n🔹 Warehouse dispatches increase before reports are reviewed\n📊 A Simple Example\nForecast: 20,000 units\nBut early in the month:\n⚠️ Competitor goes out of stock\n⚠️ Online searches increase\n⚠️ Retailers order more\n⚠️ Sales reports faster movement\n⚠️ Warehouse dispatches rise\nPotential demand moves toward: 28,000 units\nIf the team waits until month-end, the result may be:\n❌ Stockouts\n❌ Lost sales\n❌ Expediting cost\n❌ Emergency procurement\n❌ Poor customer service\nThe issue is not only forecast accuracy.\nThe issue is weak demand sensing.\n🔍 What to Monitor\nDemand sensing works when planners connect signals such as:\n📦 Sales orders\n🛒 POS data\n💻 E-commerce demand\n⏳ Backorders\n📞 Customer inquiries\n📢 Promotion plans\n🏁 Competitor activity\n💰 Market pricing\n🚚 Supplier delays\n🌍 Logistics disruptions\nThe goal is not to chase every signal.\nThe goal is to identify which signals matter for each product category.\n✅ Better Approach\nUse demand sensing practically:\n🔹 Segment SKUs using ABC/XYZ\n🔹 Track early demand deviation\n🔹 Connect sales, inventory, procurement, and logistics data\n🔹 Use exception-based planning\n🔹 Validate changes through S&OP\n🔹 Apply DMAIC when the same signals are repeatedly missed\nDemand sensing is not only about technology.\n📊 Dashboards can detect signals.\n🤝 Alignment turns signals into decisions.\nDemand sensing does not replace forecasting.\nIt improves the forecast before it becomes outdated.\nThe best planners do not only explain forecast error after it happens.\nThey detect demand change early enough to act.\n#DemandPlanning #Forecasting #DemandSensing #SupplyChainPlanning #SOP #SupplyChainAnalytics #InventoryManagement #LeanSixSigma #OperationsManagement",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780917509642,
+        "date": "2026-06-08T11:18:29.642Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGtPX_pcPIZ_A/feedshare-shrink_1280/B56Z6m9JggLAAM-/0/1780917508385?e=1786579200&v=beta&t=VLSn8G5_hKlYe4mPbeKv1O7p2S_ODGKjj_ACHsfP1mo",
+          "width": 1170,
+          "height": 1451
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7469709434362200064",
+        "likes": 13,
+        "comments": 0,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 12
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7469712250170150912",
+      "entityId": "7469712250170150912",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_leansixsigma-processimprovement-operationalexcellence-activity-7469712250170150912-RJvf",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7469712248798609408",
+      "shareUrn": "urn:li:share:7469712248798609408",
+      "content": "Most processes don’t slow down everywhere!\nThey slow down at one critical point: The bottleneck.\nA bottleneck is the step that limits the speed, capacity, or output of the entire process.\nIn supply chain and operations, bottlenecks often appear as:\n🔴 Queue buildup\n🔴 Long waiting time\n🔴 High utilization but low output\n🔴 Repeated expediting\n🔴 Rework loops\n🔴 Downstream teams waiting\nHow to identify it?\n✅ Map the full process flow\n✅ Measure cycle time at each step\n✅ Check where work piles up\n✅ Compare demand vs capacity\n✅ Observe the process at Gemba\n✅ Use Pareto analysis to find the biggest delay drivers\nExample:\nA procurement team may think buyers are the problem.\nBut data may show the real bottleneck is approval waiting time.\nSo instead of pushing people harder, the solution could be:\n✔ Clear approval matrix\n✔ Delegation rules\n✔ Escalation triggers\n✔ Dashboard visibility\nLean Six Sigma insight:\nDon’t optimize every step equally.\nFirst fix the step that controls the flow.\nThen check where the next bottleneck appears.\nThe fastest way to improve a process is not always to work harder.\nIt is to find what is slowing everything down.\nWhere do you see the biggest bottleneck in your process — approvals, systems, people, suppliers, or data?\n#LeanSixSigma #ProcessImprovement #OperationalExcellence #ContinuousImprovement #SupplyChain #RootCauseAnalysis #LeanManagement #ProcessOptimization #OperationsManagement #SupplyChainExcellence",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780918180983,
+        "date": "2026-06-08T11:29:40.983Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHVfIE8MX5UuA/feedshare-image-high-res/B56Z6m_tYfHUAY-/0/1780918179624?e=1786579200&v=beta&t=WB6FWTifY8XEEFSuMt9Jiy4OSk8FDQTXb57C5iO4-V4",
+          "width": 1170,
+          "height": 1450
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7469712250170150912",
+        "likes": 10,
+        "comments": 0,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 10
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7470814408810799104",
+      "entityId": "7470814408810799104",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_gasoline-more-than-just-fuel-a-key-activity-7470814408810799104-2M2T",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7470814405828464640",
+      "shareUrn": "urn:li:share:7470814405828464640",
+      "content": "⛽🌍 Gasoline: More Than Just Fuel — A Key Driver of Global Economic Activity\n\nGasoline is one of the world's most widely consumed refined petroleum products, powering transportation networks, supporting commerce, and influencing economic performance across industries.\n\nFrom personal vehicles and motorcycles to logistics fleets and emergency power systems, gasoline remains a critical component of daily life and global mobility.\n\n📊 Key factors shaping gasoline markets:\n\n✔️ Crude oil prices\n✔️ Refinery capacity and maintenance schedules\n✔️ Seasonal driving demand\n✔️ Biofuel blending requirements\n✔️ Inventory levels and supply chain logistics\n✔️ Government regulations and fuel standards\n\nGasoline markets are closely watched because they impact:\n\n🚗 Transportation costs\n📈 Inflation and consumer spending\n🏭 Industrial activity\n🚚 Supply chain efficiency\n🌍 Energy security\n\nFor traders and market participants, gasoline is much more than a fuel product. It is a key indicator of economic activity, refinery margins, consumer demand, and broader energy market trends.\n\nAs the global energy landscape evolves, understanding gasoline market fundamentals remains essential for navigating opportunities and risks across the energy value chain.",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1781180956080,
+        "date": "2026-06-11T12:29:16.080Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFLf1ho5m6DJQ/feedshare-shrink_1280/B56Z62qHV0GcAM-/0/1781180954291?e=1786579200&v=beta&t=q7D9jRiyLicopol9V-96eI2vmchtZBZXkbJ99UN-mNo",
+          "width": 1170,
+          "height": 1290
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7470814408810799104",
+        "likes": 25,
+        "comments": 1,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 25
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468603543357214721",
+      "entityId": "7468603543357214721",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_supplychain-logisticslife-operations-activity-7468603543357214721-hE4H",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468603542250078209",
+      "shareUrn": "urn:li:share:7468603542250078209",
+      "content": "Logistics job looked simple at first…\n\nInterview day:\nClean shirt. Confident answers.\n“I can manage operations efficiently.”\n\n6 months later…\n\n📱 Phone running 24x7\n🧠 Brain under constant pressure\n⏳ Patience tested every moment\n\nBecause real supply chain work is different:\n\n• Orders placed today — customers want delivery yesterday\n• “Out for delivery” — customer says it never arrived\n• Correct packing → still wrong item complaints\n• System shows 50 units → physically only 32\n• Vendor says “dispatched” → no tracking generated\n• Damage in transit → no one takes responsibility\n• Sales promises fast delivery → ops not even informed\n• When anything goes wrong → “warehouse mistake”\n\nDaily routine:\n🔥 Firefighting. Follow-ups. Escalations. Repeat.\n\nNo fixed hours.\nNo fixed problems.\nNo fixed solutions.\n\nBut still…\nWe manage. We fix. We deliver.\n\nBecause supply chain doesn’t just move products —\nIt handles chaos and still performs.\n\nRespect to all operations people 🙌\n\nIf logistics stops, business stops.\nReal KPI = solving yesterday’s problems.\n\nWeekends are just a myth in supply chain 😅\nPlanned work is always less than unplanned work.\nEverything looks perfect in Excel, but reality is different on the ground.\nChaos is constant… execution is the skill.\n\ncopied.\n\n#SupplyChain #LogisticsLife #Operations\n#WarehouseManagement #InventoryManagement\n#BusinessOperations #SupplyChainManagement\n#Logistics #Execution #OperationsLife\n#SCM #Warehouse #Distribution\n#OperationsExcellence #LogisticsIndustry",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780653844680,
+        "date": "2026-06-05T10:04:04.680Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEPN01nhHVFiw/feedshare-shrink_1280/B56Z6XPWHhJwAM-/0/1780653843373?e=1786579200&v=beta&t=0oBfYmjHW83TTUWqUop56KoHsfBeApC90yoCYZnsC84",
+          "width": 1144,
+          "height": 1096
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468603543357214721",
+        "likes": 872,
+        "comments": 25,
+        "shares": 59,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 706
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 154
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7469710177051721729",
+      "entityId": "7469710177051721729",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_rootcauseanalysis-5whys-fishbonediagram-activity-7469710177051721729-f_8m",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7469710174010638336",
+      "shareUrn": "urn:li:share:7469710174010638336",
+      "content": "Root Cause Analysis: 5 Whys vs Fishbone Diagram\nMost quality problems come back because we fix the symptom, not the root cause. 🔁\nA defect happens.\nA machine stops.\nA customer complains.\nA shipment is delayed.\nThe quick reaction is usually:\n✅ Rework it\n✅ Replace it\n✅ Expedite it\n✅ Apologize\n✅ Close the complaint\nBut if the root cause is still there, the problem will return.\nThat is where Root Cause Analysis helps. 🔍\nTwo simple but powerful tools are:\n1️⃣ 5 Whys\nUse 5 Whys when the problem has a clear path.\nExample: Packaging damaged\n➡️ Why 1: Carton was damaged\n➡️ Why 2: Packaging was too weak\n➡️ Why 3: Wrong specification was used\n➡️ Why 4: Old product spec was copied\n➡️ Why 5: No packaging validation checklist existed\n🎯 Root cause: Missing validation process.\n5 Whys helps you go deeper.\n2️⃣ Fishbone Diagram\nUse Fishbone when there are many possible causes. 🐟\nIt helps you analyze the issue across the 6M categories:\n👷 Manpower — training, fatigue, skill gap\n⚙️ Machine — calibration, breakdown, maintenance\n📦 Material — supplier variation, wrong specification\n📋 Method — unclear SOP, no checklist, poor standard work\n📏 Measurement — wrong gauge, late detection, missing data\n🌡️ Environment — dust, temperature, layout, lighting\nFishbone helps you see the bigger picture before jumping to conclusions.\nBest Practice 🧠\nDon’t choose only one.\nUse them together:\nFishbone → Pareto → 5 Whys → Corrective Action → Control Plan\nBecause the goal is not to blame people.\nThe goal is to improve the process. ⚙️\nA label defect may look like operator error.\nBut the real cause may be:\n❌ No setup checklist\n❌ No calibration standard\n❌ Poor changeover control\n❌ Weak training process\n❌ Missing first-piece approval\nRCA is not a blame exercise.\nIt is a process improvement discipline.\nAnd when quality improves, the whole supply chain improves. 🚚\nBecause quality issues do not stay in the factory.\nThey move into:\n📦 Inventory\n🗓️ Planning\n🚛 Logistics\n🎧 Customer service\n💰 Cost\n⭐ Brand reputation\n#RootCauseAnalysis #5Whys #FishboneDiagram #QualityManagement #Manufacturing #LeanSixSigma #OperationalExcellence #SupplyChain #ContinuousImprovement",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780917686713,
+        "date": "2026-06-08T11:21:26.713Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGBQE92u-om1A/feedshare-image-high-res/B56Z6m90gfIAAc-/0/1780917684574?e=1786579200&v=beta&t=siXy9f7-i6JpvuItdHLZTCf5ofn4xQSvAbIlTYRLDT0",
+          "width": 1170,
+          "height": 1451
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7469710177051721729",
+        "likes": 14,
+        "comments": 0,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 13
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7469713466375761921",
+      "entityId": "7469713466375761921",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_procurement-strategicsourcing-supplierrisk-activity-7469713466375761921-QDJA",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7469713465251840000",
+      "shareUrn": "urn:li:share:7469713465251840000",
+      "content": "The cheapest supplier is not always the safest supplier.\nIn procurement, choosing suppliers only by price can create hidden risk.\nA low-cost supplier can quickly become expensive when they cause:\n❌ Late deliveries\n❌ Quality issues\n❌ Emergency freight\n❌ Stockouts\n❌ Production delays\n❌ Customer complaints\nThat’s where the Kraljic Matrix helps.\nIt classifies suppliers based on two factors:\n📌 Profit Impact\nHow much does the item affect cost, margin, or operations?\n📌 Supply Risk\nHow difficult is it to source if the supplier fails?\nThe matrix gives 4 supplier categories:\n🔴 Strategic Items\nHigh profit impact + high supply risk\n➡️ Build partnerships, backup plans, and risk monitoring.\n🟠 Bottleneck Items\nLow profit impact + high supply risk\n➡️ Increase safety stock and qualify alternate suppliers.\n🟢 Leverage Items\nHigh profit impact + low supply risk\n➡️ Use competition, negotiation, and volume consolidation.\n🔵 Routine Items\nLow profit impact + low supply risk\n➡️ Automate, simplify, and reduce manual effort.\nThe key lesson?\nProcurement should not ask only:\n“Which supplier is cheapest?”\nProcurement should also ask:\n“What happens if this supplier fails?”\nBecause supplier selection is not just about saving money.\nIt is about protecting cost, continuity, and customer service.\nRight classification. Right strategy. Lower risk. Higher value.\n#Procurement #StrategicSourcing #SupplierRisk #KraljicMatrix #SupplyChain #VendorManagement #RiskManagement #CostOptimization #LeanSixSigma",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780918470949,
+        "date": "2026-06-08T11:34:30.949Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHCzA_lXXabkQ/feedshare-shrink_1280/B56Z6nA0EpHEAM-/0/1780918469587?e=1786579200&v=beta&t=CbaQGjk_GexkZzcguUgSvPYOxOLUQSWeQ9eLFix3GiM",
+          "width": 1170,
+          "height": 1457
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7469713466375761921",
+        "likes": 42,
+        "comments": 4,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 42
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7469711371132223488",
+      "entityId": "7469711371132223488",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_demandplanning-forecasting-supplychainplanning-activity-7469711371132223488-sMuh",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7469711369718882306",
+      "shareUrn": "urn:li:share:7469711369718882306",
+      "content": "Forecast Bias: The Silent Planning Error!\nForecast error tells you how much you missed.\nForecast bias tells you whether you keep missing in the same direction.\nThat difference matters.\nWhen forecasts are consistently too high, the result is:\n📦 Excess inventory\n⏳ Aging stock\n💰 Cash blocked\n🏷️ Markdown pressure\n🏭 Warehouse congestion\nWhen forecasts are consistently too low, the result is:\n🚫 Stockouts\n📉 Lost sales\n🚚 Emergency buying\n❌ Poor OTIF\n🤝 Lost customer trust\nA forecast can look “acceptable” on accuracy reports but still damage the business if it keeps leaning high or low.\nThat is why demand planning teams should track bias separately from accuracy.\nForecast Bias % = (Σ Forecast − Σ Actual) ÷ Σ Actual × 100\nPositive bias = over-forecasting\nNegative bias = under-forecasting\nNear zero = balanced planning\nTo tackle forecast bias:\n✅ Compare statistical forecast vs sales input vs final forecast\n✅ Clean demand history from stockouts, promotions, bulk orders, and abnormal demand\n✅ Review bias by SKU, customer, category, and region\n✅ Set bias control limits\n✅ Discuss bias monthly in S&OP\nForecast bias is not just a planning metric.\nIt is a warning signal that business assumptions are drifting from reality.\nThe best teams do not only ask:\n“How accurate were we?”\nThey also ask:\n“Are we consistently wrong in the same direction?”\nWhat do you see more often in your organization — over-forecasting or under-forecasting?\n#DemandPlanning #Forecasting #SupplyChainPlanning #SOP #InventoryManagement #SupplyChain #LeanSixSigma #DataAnalytics",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780917971404,
+        "date": "2026-06-08T11:26:11.404Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGEG565jCNl7g/feedshare-shrink_1280/B56Z6m.6JzI4AM-/0/1780917969817?e=1786579200&v=beta&t=4NbeEfWVdGekaD4XfqoKh-1NNubsIUTfX7CqTG8hj3c",
+          "width": 962,
+          "height": 1457
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7469711371132223488",
+        "likes": 38,
+        "comments": 2,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 37
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468331354414297088",
+      "entityId": "7468331354414297088",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_scminsightshub-rfq-requestforquotation-activity-7468331354414297088-vIUZ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468331353063727105",
+      "shareUrn": "urn:li:share:7468331353063727105",
+      "content": "RFQ (Request for Quotation) Process & Important Points\nA successful procurement process starts with a well-structured RFQ.\nRFQ is more than just requesting prices-it's a strategic sourcing tool that helps organizations identify the right supplier, negotiate effectively, reduce procurement risks, and achieve the best value.\nKey Benefits of an Effective RFQ Process:\nV Cost Optimization\nV Procurement Transparency \nV Better Supplier Selection\nV Improved Negotiation Power \nV Reduced Procurement Risk\nV Lead Time Reduction\nV Compliance Management\nV Strategic Sourcing Excellence\nFrom Requirement Identification to PO Initiation, every step plays a critical role in ensuring procurement efficiency and operational excellence.\nRemember:\n\"Operational Excellence Begins with Process Discipline.\"\nWhich stage of the RFQ process do you believe creates the biggest impact on procurement success?\nShare your thoughts below.\nRepost if you found this valuable.\n* Save for future reference.\nI Follow SCM Insights Hub for more Supply Chain, Procurement, Warehouse & Logistics insights.\n#SCMInsightsHub #RFQ #RequestForQuotation #Procurement #StrategicSourcing #SupplyChain #SupplyChainManagement #Purchasing #VendorManagement #SupplierManagement",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780588949779,
+        "date": "2026-06-04T16:02:29.779Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGC4LrUO3Qkng/feedshare-shrink_1280/B56Z6TXyoCHEAM-/0/1780588948235?e=1786579200&v=beta&t=kyMEOMAaDeFHceAzsEQH4nuDnHOLRjaGlR7BoAHD8Vg",
+          "width": 977,
+          "height": 1364
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468331354414297088",
+        "likes": 16,
+        "comments": 0,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 16
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468330805958914048",
+      "entityId": "7468330805958914048",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_supplychain-procurement-logistics-activity-7468330805958914048-bRbt",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468330804977516544",
+      "shareUrn": "urn:li:share:7468330804977516544",
+      "content": "SOP – Purchase Requisition (PR)\n\n📝 Every procurement process starts with a Purchase Requisition.\n\nA structured PR process ensures proper approvals, budget control, and transparency before purchasing activities begin.\n\n✔ Better spend control\n✔ Faster approvals\n✔ Reduced procurement errors\n\nHow is your PR approval workflow structured?\n\n#SupplyChain #Procurement #Logistics #WarehouseManagement #InventoryManagement #OperationsManagement #VendorManagement #SAPMM #Manufacturing #SupplyChainManagement #SCM #OperationalExcellence #ContinuousImprovement #BusinessGrowth #Leadership #CareerGrowth #StrategicSourcing #Business #Entrepreneur #BusinessGrowth #SuccessMindset #Leadership \n#ProfessionalDevelopment #Startup #CEO #SCMInsightsHub",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780588819017,
+        "date": "2026-06-04T16:00:19.017Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHf9XdGN0Zsug/feedshare-shrink_1280/B56Z6TXSyqGoAM-/0/1780588817860?e=1786579200&v=beta&t=QQm_Y7-tOGZk3ip7lMEja5VB3ni0K8MneoGP_JwLV8c",
+          "width": 961,
+          "height": 1321
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468330805958914048",
+        "likes": 15,
+        "comments": 2,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 15
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468328723386142720",
+      "entityId": "7468328723386142720",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_supplychain-procurement-logistics-activity-7468328723386142720-aAMJ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468328722366930945",
+      "shareUrn": "urn:li:share:7468328722366930945",
+      "content": "SOP – Store Management\n\n🏢 Store Management ensures materials are available when needed.\n\nProper storage, identification, and control improve operational efficiency.\n\n✔ Better stock visibility\n✔ Reduced material loss\n✔ Improved productivity\n\nWhat is your biggest store management challenge?\n\n#SupplyChain #Procurement #Logistics #WarehouseManagement #InventoryManagement #OperationsManagement #VendorManagement #SAPMM #Manufacturing #SupplyChainManagement #SCM #OperationalExcellence #ContinuousImprovement #BusinessGrowth #Leadership #CareerGrowth #StrategicSourcing #Business #Entrepreneur #BusinessGrowth #SuccessMindset #Leadership \n#ProfessionalDevelopment #Startup #CEO #SCMInsightsHub",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780588322493,
+        "date": "2026-06-04T15:52:02.493Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQErkujoQA04nw/feedshare-shrink_1280/B56Z6TVZgmGoAM-/0/1780588321043?e=1786579200&v=beta&t=-PAGi0-GoJ42fcV2cNOvsGoU9O9gmJt9OK_XjfYKWEU",
+          "width": 940,
+          "height": 1345
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468328723386142720",
+        "likes": 6,
+        "comments": 1,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468329467376099328",
+      "entityId": "7468329467376099328",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_supplychain-procurement-logistics-activity-7468329467376099328-CANr",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468329466323222530",
+      "shareUrn": "urn:li:share:7468329466323222530",
+      "content": "SOP – Inward Management\n\n🚚 Efficient Inward Management ensures smooth material flow into the facility.\n\nProper unloading, verification, and documentation reduce delays and inventory discrepancies.\n\n✔ Faster receiving process\n✔ Reduced damage risk\n✔ Improved inventory accuracy\n\nWhat are your key receiving challenges?\n\n#SupplyChain #Procurement #Logistics #WarehouseManagement #InventoryManagement #OperationsManagement #VendorManagement #SAPMM #Manufacturing #SupplyChainManagement #SCM #OperationalExcellence #ContinuousImprovement #BusinessGrowth #Leadership #CareerGrowth #StrategicSourcing #Business #Entrepreneur #BusinessGrowth #SuccessMindset #Leadership \n#ProfessionalDevelopment #Startup #CEO #SCMInsightsHub",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780588499874,
+        "date": "2026-06-04T15:54:59.874Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQF0c8gdyeSNPw/feedshare-shrink_1280/B56Z6TWEVbH0AM-/0/1780588496560?e=1786579200&v=beta&t=HFLSqWl0-ezI6bHviCBRNbGFLxD65nZZB8ik2Uqi0BQ",
+          "width": 953,
+          "height": 1356
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468329467376099328",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468331794204090368",
+      "entityId": "7468331794204090368",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_supplychain-procurement-logistics-activity-7468331794204090368-lXDq",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468331793218174978",
+      "shareUrn": "urn:li:share:7468331793218174978",
+      "content": "SOP – Production Planning & Control (PPC)\n\n🏭📊 Production Planning & Control is the backbone of manufacturing excellence.\n\nA well-defined PPC process ensures the right material, right quantity, right resources, and right schedule to meet customer demand efficiently.\n\n✔ Improved production efficiency\n✔ Reduced downtime\n✔ Better inventory utilization\n✔ Enhanced delivery performance\n\nHow does your organization manage production planning?\n\n#SupplyChain #Procurement #Logistics #WarehouseManagement #InventoryManagement #OperationsManagement #VendorManagement #SAPMM #Manufacturing #SupplyChainManagement #SCM #OperationalExcellence #ContinuousImprovement #BusinessGrowth #Leadership #CareerGrowth #StrategicSourcing #Business #Entrepreneur #BusinessGrowth #SuccessMindset #Leadership \n#ProfessionalDevelopment #Startup #CEO #SCMInsightsHub",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780589054633,
+        "date": "2026-06-04T16:04:14.633Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHsfzM0c3ZH3w/feedshare-image-high-res/B56Z6TYMU2I4AY-/0/1780589053481?e=1786579200&v=beta&t=valV4Z2LcbCmqdq5dPzBCj5OcLjA-Wm8epQWp3UQ86w",
+          "width": 951,
+          "height": 1364
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468331794204090368",
+        "likes": 52,
+        "comments": 1,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 52
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468330172354822144",
+      "entityId": "7468330172354822144",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_supplychain-procurement-logistics-activity-7468330172354822144-ny8A",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468330171083726848",
+      "shareUrn": "urn:li:share:7468330171083726848",
+      "content": "SOP – Vendor Management\n\n🤝 Strong suppliers create strong supply chains.\n\nVendor Management ensures suppliers consistently meet quality, cost, and delivery expectations.\n\n✔ Better supplier performance\n✔ Reduced risks\n✔ Strong partnerships\n\nWhat KPI do you use to evaluate suppliers?\n\n#SupplyChain #Procurement #Logistics #WarehouseManagement #InventoryManagement #OperationsManagement #VendorManagement #SAPMM #Manufacturing #SupplyChainManagement #SCM #OperationalExcellence #ContinuousImprovement #BusinessGrowth #Leadership #CareerGrowth #StrategicSourcing #Business #Entrepreneur #BusinessGrowth #SuccessMindset #Leadership \n#ProfessionalDevelopment #Startup #CEO #SCMInsightsHub",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780588667954,
+        "date": "2026-06-04T15:57:47.954Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFtpKiUD0Na1g/feedshare-shrink_1280/B56Z6TWt_wJoAM-/0/1780588667128?e=1786579200&v=beta&t=GfQJ8NJ5HSKu1zWtuYNQCTcgJLBPwXx0Q3X9NJvDbrA",
+          "width": 951,
+          "height": 1300
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468330172354822144",
+        "likes": 16,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 16
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468329153965228034",
+      "entityId": "7468329153965228034",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_supplychain-procurement-logistics-activity-7468329153965228034-lCse",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468329152836976640",
+      "shareUrn": "urn:li:share:7468329152836976640",
+      "content": "SOP – Goods Receipt (GRN)\n\n📦 Goods Receipt is the critical link between procurement and inventory.\n\nAccurate GRN processing ensures stock visibility and financial accuracy.\n\n✔ Inventory accuracy\n✔ Better traceability\n✔ ERP data integrity\n\nHow quickly is GRN completed after receipt in your organization?\n\n#SupplyChain #Procurement #Logistics #WarehouseManagement #InventoryManagement #OperationsManagement #VendorManagement #SAPMM #Manufacturing #SupplyChainManagement #SCM #OperationalExcellence #ContinuousImprovement #BusinessGrowth #Leadership #CareerGrowth #StrategicSourcing #Business #Entrepreneur #BusinessGrowth #SuccessMindset #Leadership \n#ProfessionalDevelopment #Startup #CEO #SCMInsightsHub",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780588425151,
+        "date": "2026-06-04T15:53:45.151Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHHu4mDCPUi1Q/feedshare-image-high-res/B56Z6TVyvcKQAU-/0/1780588424435?e=1786579200&v=beta&t=k2Eb4DTE14Ka7-lVnI5B9DhcHwRs-ABrojeS1CmyR54",
+          "width": 960,
+          "height": 1371
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468329153965228034",
+        "likes": 47,
+        "comments": 3,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 47
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7469708531387228161",
+      "entityId": "7469708531387228161",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_procurement-strategicsourcing-costavoidance-activity-7469708531387228161-k0xH",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7469708529608609792",
+      "shareUrn": "urn:li:share:7469708529608609792",
+      "content": "Cost Avoidance: The Procurement Achievement That Often Goes Unnoticed!\nIn procurement, everyone celebrates cost savings.\n✅ Negotiated 5% discount\n✅ Reduced supplier price\n✅ Consolidated spend\n✅ Lowered purchase cost\nThese are easy to see.\nBut one of the most valuable procurement contributions is often ignored:\nCost Avoidance.\nCost avoidance is the cost increase that procurement prevents before it hits the business.\nIt may not always appear as direct savings in the P&L.\nBut it protects margin, budget, continuity, and customer service.\nExamples of cost avoidance in procurement:\n🛡️ Preventing a supplier price increase\n📦 Avoiding emergency freight by planning early\n🌍 Reducing tariff exposure through alternate sourcing\n📉 Avoiding material cost escalation through fixed-price contracts\n🏭 Preventing production downtime by qualifying backup suppliers\n✅ Avoiding quality failures through better supplier evaluation\n⏱️ Reducing delay risk through improved lead-time agreements\n💰 Avoiding extra inventory cost through better MOQ negotiation\nThe challenge?\nCost avoidance is often invisible.\nWhen procurement prevents a problem, people may not notice because the crisis never happened.\nBut that does not mean value was not created.\nIn fact, preventing cost is sometimes more powerful than reducing cost.\nBecause cost savings improve today’s numbers.\nBut cost avoidance protects tomorrow’s business.\nProcurement should not only report:\n“We saved this much.”\nProcurement should also report:\n“We prevented this much cost exposure.”\nFor example:\nA supplier announces a 12% price increase.\nProcurement negotiates, validates market data, reviews alternate suppliers, and limits the increase to 4%.\nThe visible saving may not look dramatic.\nBut the avoided cost is real.\nThat 8% prevented increase is a procurement achievement.\nThe same applies to avoiding:\n❌ Stockouts\n❌ Expedite charges\n❌ Supplier failure\n❌ Rework cost\n❌ Contract leakage\n❌ Tariff impact\n❌ Poor payment terms\n❌ Unplanned price escalation\nIn today’s volatile supply chain environment, procurement is not just a buying function.\nIt is a value protection function.\nThe best procurement teams do not only chase discounts.\nThey protect the business from hidden cost exposure.\nCost saving gets attention.\nCost avoidance deserves recognition.\nBecause the best cost is often the one your business never had to pay.\n#Procurement #StrategicSourcing #CostAvoidance #CostSavings #SupplierManagement #SupplyChain #RiskManagement #CostOptimization #ProcurementExcellence #LeanSixSigma",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780917294356,
+        "date": "2026-06-08T11:14:54.356Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQE9Mn_ISDW0_Q/feedshare-shrink_1280/B56Z6m8VAtG0AQ-/0/1780917293428?e=1786579200&v=beta&t=Pl_LgNefduw-G1MUC3bfZhOpgk6EJAFk-cdPCBAu3Ds",
+          "width": 1170,
+          "height": 1457
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7469708531387228161",
+        "likes": 14,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 14
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468326806232842240",
+      "entityId": "7468326806232842240",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_supplychain-procurement-logistics-activity-7468326806232842240-ygFL",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468326805108867072",
+      "shareUrn": "urn:li:share:7468326805108867072",
+      "content": "SOP – Production Process\n\n🏭 A standardized production process drives quality, efficiency, and consistency.\n\nClear SOPs minimize waste and improve productivity across operations.\n\n✔ Improved quality\n✔ Reduced rework\n✔ Higher efficiency\n\nWhat is your biggest production improvement focus?\n\n#SupplyChain #Procurement #Logistics #WarehouseManagement #InventoryManagement #OperationsManagement #VendorManagement #SAPMM #Manufacturing #SupplyChainManagement #SCM #OperationalExcellence #ContinuousImprovement #BusinessGrowth #Leadership #CareerGrowth #StrategicSourcing #Business #Entrepreneur #BusinessGrowth #SuccessMindset #Leadership \n#ProfessionalDevelopment #Startup #CEO #SCMInsightsHub",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780587865408,
+        "date": "2026-06-04T15:44:25.408Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQE97DTIefN-Rw/feedshare-image-high-res/B56Z6TTp6qH0AY-/0/1780587864057?e=1786579200&v=beta&t=SUZ-JeBZeD-HeLAFxUuCv2l_4wfThoVAKq_g-WpMp40",
+          "width": 960,
+          "height": 1351
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468326806232842240",
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "reactions": []
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468329766564315136",
+      "entityId": "7468329766564315136",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_supplychain-procurement-logistics-activity-7468329766564315136-6mZA",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468329765448511488",
+      "shareUrn": "urn:li:share:7468329765448511488",
+      "content": "SOP – Purchase Order (PO)\n\n📄 A Purchase Order is the foundation of a controlled purchasing process.\n\nAn effective PO process improves accuracy, accountability, and supplier communication.\n\n✔ Better spend tracking\n✔ Fewer disputes\n✔ Improved compliance\n\nHow does your organization monitor PO accuracy?\n\n#SupplyChain #Procurement #Logistics #WarehouseManagement #InventoryManagement #OperationsManagement #VendorManagement #SAPMM #Manufacturing #SupplyChainManagement #SCM #OperationalExcellence #ContinuousImprovement #BusinessGrowth #Leadership #CareerGrowth #StrategicSourcing #Business #Entrepreneur #BusinessGrowth #SuccessMindset #Leadership \n#ProfessionalDevelopment #Startup #CEO #SCMInsightsHub",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780588571206,
+        "date": "2026-06-04T15:56:11.206Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEJgR81KQa8Fw/feedshare-shrink_1280/B56Z6TWWSnHUAM-/0/1780588570048?e=1786579200&v=beta&t=75KzEZjnDP7g5kBdXrt8QcDo-pUOT1YNcn-qD9N-iRY",
+          "width": 958,
+          "height": 1329
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468329766564315136",
+        "likes": 8,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 8
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468332675745882112",
+      "entityId": "7468332675745882112",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_safetystock-inventorymanagement-supplychain-activity-7468332675745882112-v05Y",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468332674487697408",
+      "shareUrn": "urn:li:share:7468332674487697408",
+      "content": "SAFETY STOCK\n\n🛡️📦 Safety Stock is not excess inventory — it’s protection against uncertainty.\nDemand fluctuations, supplier delays, and lead time variability can disrupt operations. Safety stock acts as a buffer to maintain service levels and business continuity.\n\nA well-managed safety stock strategy helps:\n\n✔ Prevent stockouts\n✔ Improve customer satisfaction\n✔ Reduce supply chain disruptions\n✔ Balance inventory cost & service level\n✔ Support operational stability\n\nThe goal is simple:\n\n👉 Right inventory\n👉 Right quantity\n👉 Right time\n\nHow does your organization calculate safety stock — statistical model, ERP settings, or planner experience?\n\n#SafetyStock #InventoryManagement #SupplyChain #DemandPlanning #Logistics #WarehouseManagement #Operations #SCM #Procurement #InventoryControl #Forecasting #SupplyChainExcellence #BusinessOperations #CostOptimization #SCMInsights #SCMInsightsHub",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780589264809,
+        "date": "2026-06-04T16:07:44.809Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQH7dFrztl4qKA/feedshare-image-high-res/B56Z6TY_dMIQAY-/0/1780589262982?e=1786579200&v=beta&t=7qIhbysjP4yuitDBLckQ5ee7EhIlt7DzOz4DLxElCE8",
+          "width": 965,
+          "height": 1354
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468332675745882112",
+        "likes": 76,
+        "comments": 0,
+        "shares": 11,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 76
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468326108220805121",
+      "entityId": "7468326108220805121",
+      "linkedinUrl": "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_supplychain-procurement-logistics-activity-7468326108220805121-XLaJ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468326107142901760",
+      "shareUrn": "urn:li:share:7468326107142901760",
+      "content": "SOP – Production Process\n\n🏭 A standardized production process drives quality, efficiency, and consistency.\n\nClear SOPs minimize waste and improve productivity across operations.\n\n✔ Improved quality\n✔ Reduced rework\n✔ Higher efficiency\n\nWhat is your biggest production improvement focus?\n\n#SupplyChain #Procurement #Logistics #WarehouseManagement #InventoryManagement #OperationsManagement #VendorManagement #SAPMM #Manufacturing #SupplyChainManagement #SCM #OperationalExcellence #ContinuousImprovement #BusinessGrowth #Leadership #CareerGrowth #StrategicSourcing #Business #Entrepreneur #BusinessGrowth #SuccessMindset #Leadership \n#ProfessionalDevelopment #Startup #CEO #SCMInsightsHub",
+      "author": {
+        "id": "ACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "universalName": null,
+        "publicIdentifier": "amit-kumar-rai-a945842b",
+        "type": "profile",
+        "name": "Amit Kumar Rai",
+        "linkedinUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZQVRABkfqsAtjiQziLf81H7q87KhupANk",
+        "info": "Global Supply Chain & Logistics Professional | SAP MM | Warehouse & Transport Optimization | Cost Reduction & KPI-Driven Performance || Export Import Head || Manufacturing || Global Sourcing || Procurement",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQE1n-T4XmVFBw/profile-displayphoto-crop_800_800/B56Z5JSczUHsAI-/0/1779346034677?e=1786579200&v=beta&t=V-R8TUL7r5XeZfKERLKH6ifiOQb5YTGN3661aeYiRDY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "105927952"
+      },
+      "postedAt": {
+        "timestamp": 1780587698989,
+        "date": "2026-06-04T15:41:38.989Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEMNNhbBh82rg/feedshare-image-high-res/B56Z6TTBQ5JQAU-/0/1780587697523?e=1786579200&v=beta&t=v_mi3-IkMMU0gs44DNsoHgNEPv4xRO4WxDfWdbGGNcI",
+          "width": 964,
+          "height": 1345
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468326108220805121",
+        "likes": 6,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+        "sessionId": "0cef7a21-346e-4a39-9380-7a2eb91b465e"
+      }
+    }
+  ]
+}

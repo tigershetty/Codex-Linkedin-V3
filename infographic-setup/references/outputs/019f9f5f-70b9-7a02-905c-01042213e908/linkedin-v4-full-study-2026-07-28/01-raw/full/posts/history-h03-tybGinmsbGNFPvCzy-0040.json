@@ -1,0 +1,2761 @@
+{
+  "runId": "tybGinmsbGNFPvCzy",
+  "datasetId": "VJLC5jQTBXajzHkTi",
+  "offset": 40,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7484875084323794944",
+      "entityId": "7484875084323794944",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-inventorymanagement-inventoryoptimization-activity-7484875084323794944-5Js8",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484875082956431360",
+      "shareUrn": "urn:li:share:7484875082956431360",
+      "content": "Excess, Obsolete & Dead Stock: When Inventory Stops Creating Value\nNot all inventory is an asset.\nWhen products sit too long without demand, they consume space, tie up cash, and quietly reduce profitability.\n📊 Key Metrics\n Excess Inventory = Inventory On Hand − Expected Demand\nObsolete Inventory (%)  = (Obsolete Inventory Value ÷ Total Inventory Value) × 100\nDead Stock (%) = (Dead Stock Value ÷ Total Inventory Value) × 100\nWhy It Matters:\n💰 Increases carrying costs\n🏢 Occupies valuable warehouse space\n📉 Reduces inventory turnover\n🔒 Locks up working capital\n🗑️ Leads to write-offs and losses\n🎯 How to Reduce It\n✅ Improve demand forecasting\n✅ Review slow-moving SKUs regularly\n✅ Optimize reorder parameters\n✅ Run promotions for aging inventory\n✅ Rationalize low-performing products\nInventory creates value only when it moves.\nThe longer stock sits idle, the more it transforms from an asset into a liability.\n#SupplyChain #InventoryManagement #InventoryOptimization #WarehouseManagement #WorkingCapital #SupplyChainMetrics #DemandPlanning #OperationsManagement #LeanSupplyChain #SupplyChainExcellenceSeries",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1784533282357,
+        "date": "2026-07-20T07:41:22.357Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEnch34LTM9xg/feedshare-shrink_1280/B4DZ9.eOcxKYAM-/0/1784533280873?e=1786579200&v=beta&t=oNACxwQVL6o8kjWw2q_zoLWY6ZHguFEkZYjeOO70uiQ",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484875084323794944",
+        "likes": 35,
+        "comments": 10,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 33
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482569269440905216",
+      "entityId": "7482569269440905216",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-safetystock-inventorymanagement-activity-7482569269440905216-dAM3",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482569268157534208",
+      "shareUrn": "urn:li:share:7482569268157534208",
+      "content": "Safety Stock: The Buffer That Protects Service Level\nSafety stock is not simply “extra inventory.”\nIt is the buffer that protects a business when demand and supply do not behave as expected.\nStockouts can happen because of:\n📈 Demand fluctuations\n🚚 Supplier delays\n📊 Forecast errors\n⏱️ Lead-time variation\n📦 Urgent customer orders\n🌐 Transportation disruptions\nA commonly used formula is:\nSafety Stock = Z × Demand Standard Deviation × √Lead Time\nWhere:\n• Z = target service-level factor\n• Demand Standard Deviation = demand variability\n• Lead Time = replenishment time\nHowever, when both demand and supplier lead time vary, a more practical formula is:\nSafety Stock = Z × √[(Average Lead Time × Demand Std Dev²) + (Average Demand² × Lead Time Std Dev²)]\nThis difference matters.\nThe basic method protects mainly against demand variation.\nThe advanced method protects against both:\n✅ Demand uncertainty\n✅ Supplier lead-time uncertainty\nHigh safety stock may indicate more than just strong service protection.\nIt may also reveal:\n• poor forecast accuracy\n• unstable supplier lead times\n• inconsistent replenishment\n• weak demand planning\n• low supplier reliability\n• poor S&OP alignment\nThe goal is not to carry more inventory.\nThe goal is to reduce uncertainty so the business can operate with the right buffer.\nBecause safety stock is often the visible cost of invisible process variation.\n#SupplyChain #SafetyStock #InventoryManagement #DemandPlanning #SupplyChainMetrics #Procurement #Replenishment #SupplierManagement #SupplyChainAnalytics #OperationalExcellence",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1783983533249,
+        "date": "2026-07-13T22:58:53.249Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEuOatkZmXTfw/feedshare-image-high-res/B4DZ9dtGXPHEAU-/0/1783983531780?e=1786579200&v=beta&t=eqBpDk8BRHneYtPNjIoKcjqFooUg3V_Cxtbzywh2Kyk",
+          "width": 1136,
+          "height": 1384
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482569269440905216",
+        "likes": 48,
+        "comments": 2,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 48
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482046374277115904",
+      "entityId": "7482046374277115904",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_forkliftsafety-warehousesafety-warehouseoperations-activity-7482046374277115904-Aw9Y",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482046373081550848",
+      "shareUrn": "urn:li:share:7482046373081550848",
+      "content": "Forklift Safety: Where Warehouse Safety Often Fails First\nOne forklift accident can stop operations in seconds.\nIt can injure people, damage inventory, hit racks, delay dispatch, and expose a weak safety system.\nThe real issue is not only the forklift.\nIt is the system around the forklift.\nCommon failures include:\n❌ Forklifts and pedestrians sharing the same route\n❌ Operators driving too fast in narrow aisles\n❌ Loads blocking visibility\n❌ Skipped daily pre-use checks\n❌ Blind corners without mirrors or warning lights\n❌ Forklift entry into trailers without dock checks\n❌ Near misses ignored because “nothing happened”\nForklift safety should never depend only on the operator being careful.\nIt should be controlled through:\n✅ Authorized operators\n✅ Daily inspection checks\n✅ Pedestrian separation\n✅ Speed limits\n✅ Clear visibility controls\n✅ Safe load handling\n✅ Dock entry discipline\n✅ Near-miss reporting\nSimple framework:\nForklift Safety = Operator Competency + Traffic Design + Daily Control\nA safe warehouse does not depend on experience alone.\nIt depends on training, layout, visibility, speed discipline, load control, supervision, and daily safety routines.\nBecause in warehouse operations:\nA forklift is not just equipment.\nIt is a moving risk that must be managed every shift.\n#ForkliftSafety #WarehouseSafety #WarehouseOperations #Logistics #SupplyChain #HSE #OperationalExcellence #LeanManagement #SafetyCulture #ContinuousImprovement",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1783858865327,
+        "date": "2026-07-12T12:21:05.327Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGh2Pi1vHXXtw/feedshare-image-high-res/B4DZ9WRh.3I4AU-/0/1783858864465?e=1786579200&v=beta&t=dT1zve5yygzU0Wh7G9z1mJk3mdcusGwemLKbL2VxNiw",
+          "width": 1136,
+          "height": 1384
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482046374277115904",
+        "likes": 24,
+        "comments": 2,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 24
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483098863906574336",
+      "entityId": "7483098863906574336",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-customerservice-complaintmanagement-activity-7483098863906574336-PTet",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483098860836478977",
+      "shareUrn": "urn:li:share:7483098860836478977",
+      "content": "Complaint Analysis Using Pareto + RCA\n🚨Customer complaints are not just issues to close. They are signals that a process failed somewhere.\nA late delivery.\nA short shipment.\nA wrong item.\nA damaged package.\nCustomer service receives the complaint—but the root cause may sit in planning, warehousing, logistics, sales, finance, or the ERP workflow.\nThat is why complaint analysis should start with data, not assumptions.\n📊 Step 1: Use Pareto Analysis\nPareto helps identify the few issues causing most customer pain.\nExample:\n• Late delivery - 38%\n• Short shipment - 24%\n• Wrong item - 17%\n• Damaged goods - 9%\n• Invoice mismatch - 7%\n• Poor communication - 5%\nThe top three causes represent 79% of all complaints.\nInstead of treating every issue equally, the team can focus improvement efforts where they will create the greatest impact.\n🔍 Step 2: Run Root Cause Analysis\nSuppose late delivery is the biggest complaint.\nA 5 Whys review may reveal:\n• Orders were delivered late\n• Because dispatch was delayed\n• Because picking finished after cut-off\n• Because priority orders were released late\n• Because release depended on manual approval\n• Because the ERP workflow was not automated\nThe real root cause was not simply “warehouse delay.”\nIt was a slow order approval process.\n✅ Step 3: Prevent recurrence\nPossible corrective actions:\n• Automate order release approvals\n• Define clear order cut-off times\n• Create priority-order alerts\n• Track repeat complaint rates\n• Review major complaints in S&OP\n• Verify corrective-action closure\nPareto shows where to focus.\nRCA shows why the problem happened.\nCorrective action prevents it from happening again.\nThe best companies do not only respond to complaints.\nThey study them, learn from them, and convert them into better processes and stronger customer trust.\n#SupplyChain #CustomerService #ComplaintManagement #ParetoAnalysis #RootCauseAnalysis #LeanSixSigma #OrderFulfillment #OperationalExcellence #ContinuousImprovement #SOP #SupplyChainAnalytics",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1784109798409,
+        "date": "2026-07-15T10:03:18.409Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFBusThITPHGA/feedshare-shrink_1280/B4DZ9lOw0WJwAM-/0/1784109797009?e=1786579200&v=beta&t=il-GK64r09uZH-zYiqDvfkrEUFQZyfv0UzjxzkNYCyg",
+          "width": 1136,
+          "height": 1384
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483098863906574336",
+        "likes": 12,
+        "comments": 2,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 12
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479449965677797377",
+      "entityId": "7479449965677797377",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_inventorymanagement-supplychain-warehousemanagement-activity-7479449965677797377-jYZZ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479449964578930689",
+      "shareUrn": "urn:li:share:7479449964578930689",
+      "content": "Inventory accuracy does not start with counting!!\nIt starts with identifying inventory correctly.\nIf your items are not clearly identified, the system may show stock available — but the warehouse may still face:\n❌ Wrong picking\n❌ Duplicate item codes\n❌ Poor stock visibility\n❌ Expiry losses\n❌ Weak traceability\n❌ Inaccurate ERP reports\nThat is why inventory identification methods are so important.\nKey methods include:\n✅ SKU Identification — unique code for each product variant\n✅ Barcode / QR Code — faster receiving, picking, and dispatch\n✅ Batch / Lot Tracking — traceability for quality and recall control\n✅ Serial Number Tracking — unit-level control for high-value items\n✅ Expiry Date Control — supports FEFO and reduces write-offs\n✅ Location Coding — improves put-away, picking, and cycle counting\n✅ FIFO / FEFO / Specific ID / Weighted Average — controls stock flow and valuation\nGood inventory identification improves:\n📦 Inventory accuracy\n🎯 Picking accuracy\n🔍 Traceability\n📊 ERP / WMS reliability\n💰 Financial accuracy\n🚚 Service level\n🛡 Audit control\nThe simple truth:\nYou cannot manage what you cannot identify.\nRight item. Right quantity. Right location. Right batch. Right value. Right decision.\n#InventoryManagement #SupplyChain #WarehouseManagement #ERP #WMS #InventoryControl #Logistics #Operations #LeanSixSigma #SupplyChainExcellence",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1783239833278,
+        "date": "2026-07-05T08:23:53.278Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGKXBAy6zoaKg/feedshare-image-high-res/B4DZ8xYHB7I4AU-/0/1783239832118?e=1786579200&v=beta&t=NPcxvs-3X09su9x73-sdWnFlEBVhJ463yk-CKFrIOac",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479449965677797377",
+        "likes": 88,
+        "comments": 2,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 87
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480187773614755842",
+      "entityId": "7480187773614755842",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-logistics-transportation-activity-7480187773614755842-kGmt",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480187771375235072",
+      "shareUrn": "urn:li:share:7480187771375235072",
+      "content": "The shortest route is not always the best route!!\nIn logistics, route optimization is not only about reducing kilometers.\nIt is about balancing:\n✅ Delivery time\n✅ Fuel cost\n✅ Vehicle capacity\n✅ Customer priority\n✅ Time windows\n✅ Driver availability\n✅ Service commitment\nMany teams plan routes based only on geography.\nBut a route can look efficient on the map and still fail in real operations.\nA short route can become expensive if it creates:\n❌ Missed delivery windows\n❌ Late priority orders\n❌ Driver overtime\n❌ Low truck utilization\n❌ Failed deliveries\n❌ Customer complaints\nSmart Route Planning Asks:\n🔹 Which customers must be served first?\n🔹 Are there fixed delivery time windows?\n🔹 Is the truck capacity properly used?\n🔹 Can stops be grouped more efficiently?\n🔹 Does the sequence reduce waiting time?\n🔹 What is the cost per successful delivery?\n🔹 What service risk exists if the route fails?\nSimple Decision Rule\n✅ Stable routes + predictable customers\n➡ Standard route planning may work.\n✅ High stop count + complex delivery windows\n➡ Use route optimization tools.\n✅ Urgent orders + strict time windows\n➡ Prioritize service impact over distance.\n✅ Low utilization + frequent empty miles\n➡ Redesign route grouping and delivery frequency.\nRoute optimization is not about choosing the shortest road.\nIt is about choosing the route that protects:\n✅ Cost\n✅ Speed\n✅ Capacity\n✅ Service level\n✅ Customer priority\nBecause a route that saves 10 kilometers but misses one important delivery may not be optimized.\nIt may be expensive.\n#SupplyChain #Logistics #Transportation #RouteOptimization #FleetManagement #DeliveryOperations #SupplyChainExcellence #DecisionMaking #Operations #CustomerService",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1783415740398,
+        "date": "2026-07-07T09:15:40.398Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQE5KjIRgxBsCg/feedshare-image-high-res/B4DZ873I8kK0AU-/0/1783415738448?e=1786579200&v=beta&t=VxaMunvNkpA_JDtkJ0XSk4sJhTorMTec_jaelPzgKAc",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480187773614755842",
+        "likes": 89,
+        "comments": 28,
+        "shares": 18,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 84
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479873896079413248",
+      "entityId": "7479873896079413248",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-landedcost-procurement-activity-7479873896079413248-Jadd",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479873894389313540",
+      "shareUrn": "urn:li:share:7479873894389313540",
+      "content": "Landed Cost: The True Cost of Buying\nThe purchase price is not the real cost.\nA supplier may offer a cheaper unit price, but by the time the product reaches your warehouse, the total cost may be much higher.\nWhy?\nBecause the final cost includes:\n🚚 Freight\n🛃 Duty\n🛡️ Insurance\n📦 Handling\n💰 Taxes\n⏱️ Demurrage or detention\n🏭 Inland transport\n📄 Documentation and clearance charges\nThat is why Landed Cost is a critical supply chain finance metric.\nFormula:\nLanded Cost = Product Cost + Freight + Duty + Insurance + Handling + Taxes\nSupporting formulas:\n📌 Landed Cost per Unit = Total Landed Cost / Units Purchased\n📌 Freight % of Landed Cost = Freight Cost / Landed Cost × 100\nSimple Example:\nSupplier price per unit = $20\nAfter freight, duty, insurance, handling, and taxes:\nTrue landed cost per unit = $28\nThat means the real cost is 40% higher than the supplier price.\nThis is why the cheapest supplier is not always the cheapest supply chain option.\nA supplier with a higher unit price may still be better if the total landed cost is lower.\nPurchase price shows what you pay the supplier.\nLanded cost shows what the product really costs your business.\nA strong procurement decision is not based only on the lowest quotation.\nIt is based on the lowest reliable total cost.\n#SupplyChain #LandedCost #Procurement #StrategicSourcing #Logistics #CostManagement #SupplyChainFinance #OperationalExcellence",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1783340906162,
+        "date": "2026-07-06T12:28:26.162Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHv7fjKbA1nnw/feedshare-shrink_1280/B4DZ83ZrHdJwAQ-/0/1783340905222?e=1786579200&v=beta&t=7ibAMBVau9yDUkBNf5VFGcnVKuKoWvosk-j3lNfER_0",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479873896079413248",
+        "likes": 380,
+        "comments": 14,
+        "shares": 55,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 369
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478359833956585472",
+      "entityId": "7478359833956585472",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-procurement-supplierrisk-activity-7478359833956585472-Iote",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478359831813402624",
+      "shareUrn": "urn:li:share:7478359831813402624",
+      "content": "Not every supplier risk deserves the same response!\nSome suppliers only need monitoring.\nSome need improvement.\nSome need a backup plan.\nSome need immediate escalation.\nThat is why procurement and supply chain teams need a Supplier Risk Decision Matrix.\nA simple way to assess supplier risk is by looking at two factors:\nImpact:\nHow serious is the business damage if the supplier fails?\nProbability:\nHow likely is the supplier to delay, fail, underperform, or disrupt supply?\nWhen these two factors are combined, supplier decisions become clearer:\n🟢 Low Impact + Low Probability\nMonitor normally.\n🟡 Low Impact + High Probability\nImprove communication, follow-up, and corrective actions.\n🟠 High Impact + Low Probability\nBuild a contingency plan, backup supplier, and buffer stock.\n🔴 High Impact + High Probability\nEscalate immediately, reduce dependency, and activate risk mitigation.\nSupplier risk should not be judged only by price or relationship.\nIt should include:\n✅ Delivery reliability\n✅ Quality performance\n✅ Lead time stability\n✅ Capacity availability\n✅ Financial strength\n✅ Single-source dependency\n✅ Geographic and logistics risk\n✅ Responsiveness\nA supplier may look stable today, but if one delay can stop production or affect customer orders, the risk is much bigger than it appears.\nStrong procurement teams do not ask only:\n“Is this supplier giving us the best price?”\nThey ask:\n“What happens if this supplier fails?”\nBecause supplier risk management is not about reacting after disruption.\nIt is about protecting the business before disruption happens.\n#SupplyChain #Procurement #SupplierRisk #RiskManagement #StrategicSourcing #SupplierManagement #Operations #Planning #SupplyChainExcellence",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1782979925622,
+        "date": "2026-07-02T08:12:05.622Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGP_ZB0OuLt-w/feedshare-shrink_1280/B4DZ8h4o94GkAU-/0/1782979924116?e=1786579200&v=beta&t=GTz1SXHXAbKdqknqMI8goK-F1ny1eZR_Df2_ucIjzJk",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478359833956585472",
+        "likes": 33,
+        "comments": 14,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 32
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477297279683682305",
+      "entityId": "7477297279683682305",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_procurement-supplychain-procurementroi-activity-7477297279683682305-YV1I",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477297277045227520",
+      "shareUrn": "urn:li:share:7477297277045227520",
+      "content": "Procurement ROI: Is Procurement a Cost Center or Value Creator?\nProcurement is not just about creating POs, negotiating prices, or following up with suppliers.\nThe real question is:\nFor every $1 spent on procurement, how much value does the business get back?\nThat is where Procurement ROI matters.\nFormula:\nProcurement ROI = Savings Generated ÷ Procurement Operating Cost\nExample:\nSavings Generated = $500,000\nProcurement Operating Cost = $100,000\nProcurement ROI = 5:1\nThat means every $1 spent on procurement generated $5 in value.\nBut procurement value is not only cost savings.\nIt can also come from:\n✅ Cost avoidance\n✅ Better contract compliance\n✅ Reduced maverick spend\n✅ Supplier consolidation\n✅ Lower emergency buying\n✅ Improved payment terms\n✅ Process automation\n✅ Reduced supplier risk\nThe key is not to report inflated numbers.\nProcurement ROI must be:\n✔ Finance-validated\n✔ Business-linked\n✔ Measured consistently\n✔ Separated between savings and avoidance\nProcurement is not a cost center when it proves measurable value.\nBetter sourcing = measurable savings\nBetter compliance = reduced leakage\nBetter analytics = better decisions\n#Procurement #SupplyChain #ProcurementROI #SupplyChainMetrics #ProcurementAnalytics #StrategicSourcing #CostSavings #CostAvoidance #DataAnalytics #OperationalExcellence",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1782726592942,
+        "date": "2026-06-29T09:49:52.942Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHAMKriBqQXvQ/feedshare-shrink_1280/B4DZ8SyQAKJQAQ-/0/1782726590794?e=1786579200&v=beta&t=tl4sv78ZD4B3oib5Aj4ra_J5ylwq79OOxeE1mSjhrPo",
+          "width": 1136,
+          "height": 1384
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477297279683682305",
+        "likes": 159,
+        "comments": 34,
+        "shares": 25,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 154
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476567467612504064",
+      "entityId": "7476567467612504064",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-logistics-transportation-activity-7476567467612504064-QaNl",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7476567466354208768",
+      "shareUrn": "urn:li:share:7476567466354208768",
+      "content": "Own Fleet vs 3PL Decision\n🚚 Own fleet gives control.\n🤝 3PL gives flexibility.\nBut the right logistics model should not be chosen only by freight cost.\nThe real question is:\nWhich model supports your business reality better?\nOwn fleet works well when:\n✅ Delivery volume is stable\n✅ Routes are dense and repetitive\n✅ Service control is critical\n✅ Product handling needs special care\n✅ Fleet utilization is consistently high\nBut it also brings:\n❌ Maintenance cost\n❌ Driver dependency\n❌ Fuel and insurance cost\n❌ Idle truck risk\n❌ Empty return trips\n❌ Compliance burden\nA truck that is owned but underutilized becomes a fixed cost burden.\n3PL works well when:\n✅ Demand is variable\n✅ Geographic coverage is wide\n✅ Seasonal peaks are common\n✅ New region expansion is needed\n✅ Specialized logistics support is required\nBut 3PL also has risks:\n❌ Less direct control\n❌ Hidden charges\n❌ Visibility gaps\n❌ Service dependency\n❌ Inconsistent delivery experience\nA 3PL is only effective when KPIs, contracts, systems, and communication are clear.\nSimple Decision Rule\n✅ High volume + dense routes + strong service control\n➡ Own fleet may work better.\n✅ Variable demand + wide coverage + peak flexibility\n➡ 3PL may work better.\n✅ Stable core routes + variable overflow demand\n➡ Hybrid model is often the best option.\nKey Takeaway\nThe best logistics model is not the cheapest one.\nIt is the one that gives the right balance of:\n✅ Cost\n✅ Control\n✅ Flexibility\n✅ Service level\n✅ Scalability\n✅ Risk management\nOwn fleet gives control.\n3PL gives flexibility.\nThe right choice depends on your operating reality.\n#SupplyChain #Logistics #Transportation #3PL #FleetManagement #SupplyChainExcellence #DecisionMaking #Operations #Distribution #CustomerService",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1782552592185,
+        "date": "2026-06-27T09:29:52.185Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFjiemnj01Syw/feedshare-shrink_1280/B4DZ8IafpJJcAM-/0/1782552591472?e=1786579200&v=beta&t=P_jiq4RwI0y1JysEJrx7BfYaZ7oe3gFhpuh-61bQMio",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7476567467612504064",
+        "likes": 37,
+        "comments": 4,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 35
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481732621295796224",
+      "entityId": "7481732621295796224",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-inventorymanagement-reorderpoint-activity-7481732621295796224-98af",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481732619496312832",
+      "shareUrn": "urn:li:share:7481732619496312832",
+      "content": "Reorder Point: The Inventory Trigger That Prevents Stockouts\nMany stockouts don’t happen because demand is impossible to predict.\nThey happen because replenishment is triggered too late.\nThat is where Reorder Point (ROP) becomes important.\nROP answers one simple question:\nWhen should we order again?\nThe formula:\nReorder Point = Average Daily Demand × Lead Time + Safety Stock\nExample:\nAverage daily demand = 100 units\nLead time = 7 days\nSafety stock = 250 units\nROP = 100 × 7 + 250\nROP = 950 units\nThis means the next order should be placed when inventory reaches 950 units.\nNot when stock reaches zero.\nNot when the warehouse feels low.\nNot when sales starts complaining.\nAt the calculated trigger point.\nA good ROP protects the business from:\n✅ Demand during supplier lead time\n✅ Supplier delivery delays\n✅ Forecast variation\n✅ Stockout risk\n✅ Service level failure\nBut ROP is not a one-time setting.\nIt should change when:\n• demand changes\n• supplier lead time changes\n• safety stock changes\n• service level targets change\n• supplier reliability changes\nThe real power of ROP is not only in the formula.\nIt is in the discipline of reviewing it regularly.\nBecause an outdated reorder point creates either:\nStockouts  or Excess inventory\nBoth are costly.\nReorder Point is not just a number.\nIt is a living inventory control rule.\n#SupplyChain #InventoryManagement #ReorderPoint #SafetyStock #DemandPlanning #Procurement #Logistics #SupplyChainMetrics #Planning #OperationalExcellence",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1783784060787,
+        "date": "2026-07-11T15:34:20.787Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEKz_MBTZlMFA/feedshare-image-high-res/B4DZ9R0LC8JwAU-/0/1783784059508?e=1786579200&v=beta&t=PhD4o_YLg5wJ5SW3j1DzdmPg--ozzwzgiiq2GIpbCBQ",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481732621295796224",
+        "likes": 80,
+        "comments": 7,
+        "shares": 14,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 77
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477641759267926030",
+      "entityId": "7477641759267926030",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_warehousemanagement-inventorymanagement-supplychain-activity-7477641759267926030-FuNa",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477641757023924224",
+      "shareUrn": "urn:li:share:7477641757023924224",
+      "content": "Status Tagging in Warehouse Explained!\nNot all stock inside a warehouse is available stock.\nThis is one of the biggest mistakes in inventory control.\nA system may show:\n1,000 units in stock\nBut the real situation may be:\n ✅ 600 units available\n 🟡 150 units under quality hold\n 🔴 100 units damaged\n ⛔ 80 units rejected\n 🔒 70 units reserved for customer orders\nSo the question is not only:\n“How much stock do we have?”\nThe better question is:\n“How much stock is actually usable?”\nThat is where status tagging becomes critical.\nWarehouse status tagging is the process of clearly identifying the condition, usability, and control status of inventory.\nIt tells the warehouse team whether stock can be picked, moved, issued, sold, inspected, returned, or blocked.\nA zone color tells the team:\n📍 Where should this stock physically stay?\n🚦 What movement rule applies in this area?\n✅ Is this a free movement zone or a controlled zone?\nThe biggest mistake is assuming:\nStock in warehouse = stock available\nExample:\nA yellow hold tag should not be in the green available zone.\nA rejected pallet should not sit near pickable inventory.\nA reserved pallet should not appear as free stock.\nA near-expiry pallet should not be hidden behind fresh stock.\nWhen tag, zone, and system do not match, warehouses create false availability.\nAnd false availability leads to:\n❌ Wrong picking\n❌ Wrong dispatch\n❌ Quality risk\n❌ Expiry loss\n❌ Customer complaints\n❌ Inventory mismatch\nA controlled warehouse should know more than quantity.\nIt should know:\n✅ What is usable\n✅ What is blocked\n✅ What is damaged\n✅ What is reserved\n✅ What must move first\n✅ What must never move\nPhysical quantity tells what is present.\nStatus tagging tells what is allowed.\nZone color coding tells where it belongs.\n#WarehouseManagement #InventoryManagement #SupplyChain #Logistics #WMS #ERP #Traceability #WarehouseOptimization #OperationalExcellence #LeanSixSigma",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1782808723275,
+        "date": "2026-06-30T08:38:43.275Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGEXgVIYy-gfA/feedshare-shrink_1280/B4DZ8XrjZGJsAM-/0/1782808721545?e=1786579200&v=beta&t=oimQmgqqagJ85M3m8mS2vcFvTpElciMb8i9Y8NF5s2Y",
+          "width": 1136,
+          "height": 1384
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477641759267926030",
+        "likes": 150,
+        "comments": 15,
+        "shares": 18,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 145
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477995587427160064",
+      "entityId": "7477995587427160064",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychainexcellence-demandplanning-forecasting-activity-7477995587427160064-5KKo",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477995585996853249",
+      "shareUrn": "urn:li:share:7477995585996853249",
+      "content": "Do every demand spike needs a reaction?\nOne common mistake in supply chain planning is treating every demand movement as a signal.\nSales increase?\nRaise the forecast.\nDemand drops?\nCut the plan.\nOne customer orders extra?\nBuild more inventory.\nBut many demand changes are just normal variation.\nThe real challenge is knowing the difference between:\n🔹 Normal noise\nSmall ups and downs that naturally happen in demand.\n🔹 Real signal\nA meaningful change caused by promotion, seasonality, market shift, customer behavior, or disruption.\nWhen teams react to every movement, the result is usually:\n❌ Forecast instability\n❌ Excess inventory\n❌ Stockouts\n❌ Expediting\n❌ Supplier pressure\n❌ Bullwhip effect\nThis is where Six Sigma thinking helps.\nInstead of asking, “Why did demand change this week?”\nAsk:\n“Is this change outside the normal pattern?”\nTools like control charts, demand segmentation, forecast bias review, and root cause analysis help planners separate real signals from random noise.\nA good planner does not react to every fluctuation.\nA good planner understands variation before changing the plan.\nBecause in supply chain:\nReacting too fast can be just as costly as reacting too late.\n#SupplyChainExcellence #DemandPlanning #Forecasting #LeanSixSigma #SupplyChainManagement #InventoryManagement #OperationalExcellence #Planning #ForecastAccuracy #ProcessImprovement",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1782893082482,
+        "date": "2026-07-01T08:04:42.482Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQER_jWhyZUWTw/feedshare-shrink_1280/B4DZ8ctW.AI8AM-/0/1782893080815?e=1786579200&v=beta&t=IFGxFM3LLyK8V8AkUHL1MBW1mhwL3TUjMMW1YN6_QxM",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477995587427160064",
+        "likes": 116,
+        "comments": 19,
+        "shares": 11,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 110
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475831717568757761",
+      "entityId": "7475831717568757761",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-inventorymanagement-supplychainmetrics-activity-7475831717568757761-Wrni",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475831716453203970",
+      "shareUrn": "urn:li:share:7475831716453203970",
+      "content": "Inventory Carrying Cost: The Hidden Cost of Holding Stock\nInventory is not free.\nEven when stock is sitting quietly in the warehouse, it is still costing the business money.\nEvery extra unit needs:\n📦 Space\n💰 Capital\n🛡️ Insurance\n👷 Handling\n⚠️ Damage control\n⏳ Expiry monitoring\n📉 Obsolescence risk\nThat is why Inventory Carrying Cost is one of the most important inventory KPIs.\nFormula\nCarrying Cost % = Total Holding Cost / Average Inventory Value × 100\nExample:\nTotal Holding Cost = $75,000\nAverage Inventory Value = $500,000\nCarrying Cost % = 15%\nThis means the business spends 15% of average inventory value just to hold inventory.\nRelated Formula\nHolding Cost per Unit = Total Holding Cost / Average Units Held\nExample:\n$75,000 / 25,000 units = $3 per unit\nWhy It Matters\nHigh carrying cost may signal:\n❌ Overstocking\n❌ Slow-moving inventory\n❌ Poor demand planning\n❌ Excess working capital\n❌ High storage cost\n❌ Expiry or obsolescence risk\n❌ Weak replenishment control\nA product may look profitable on paper.\nBut if it stays too long in storage, holding cost starts eating the margin.\nHow to Reduce It\n✅ Improve demand forecasting\n✅ Reduce slow-moving stock\n✅ Review safety stock levels\n✅ Use ABC/XYZ analysis\n✅ Set stock aging alerts\n✅ Review minimum order quantities\n✅ Improve warehouse space utilization\n✅ Liquidate dead stock early\nInventory carrying cost is the price of keeping stock before it becomes sales.\nToo little inventory can hurt service.\nToo much inventory can silently drain profit.\nThe real target is:\nRight stock. Right quantity. Right time. Right cost.\n#SupplyChain #InventoryManagement #SupplyChainMetrics #WarehouseManagement #WorkingCapital #DemandPlanning #InventoryControl #OperationalExcellence #LeanSixSigma",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1782377175705,
+        "date": "2026-06-25T08:46:15.705Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGT4XcOnB303A/feedshare-shrink_1280/B4EZ799VTjHwAQ-/0/1782377174578?e=1786579200&v=beta&t=I5jm1Q7uqUnzw1YxWqGMpWSd2rg1KEvofca81xIprvA",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475831717568757761",
+        "likes": 217,
+        "comments": 25,
+        "shares": 33,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 206
+          },
+          {
+            "type": "INTEREST",
+            "count": 7
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476878428718411776",
+      "entityId": "7476878428718411776",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-traceability-productrecall-activity-7476878428718411776-e7lC",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7476878426201677824",
+      "shareUrn": "urn:li:share:7476878426201677824",
+      "content": "A product recall is not only a quality issue - it is a full supply chain test!!\nWhen a defective, unsafe, mislabeled, or non-compliant product reaches the market, the real challenge is not just removing it.\nThe real challenge is knowing:\n✅ Which batch is affected\n✅ Where the stock is located\n✅ Which customers received it\n✅ How fast it can be blocked\n✅ How much can be recovered\n✅ How to prevent it from happening again\nThis is where traceability becomes critical.\nStrong traceability helps companies move from panic to control:\n📦 Batch / lot tracking\n🔍 Barcode & QR scanning\n🏭 Supplier batch linkage\n🧾 Delivery & invoice records\n🟢 ERP / WMS visibility\n🔁 Mock recall testing\n🛠️ CAPA and root cause action\nWithout traceability, recalls become wider, slower, and more expensive.\nWith traceability, recalls become targeted, faster, and safer.\nProduct recall guidelines control the crisis.\nTraceability prevents the crisis from becoming uncontrollable.\nRecall readiness is built before the crisis - through accurate data, disciplined warehouse operations, batch control, and system visibility.\n#SupplyChain #Traceability #ProductRecall #QualityManagement #WarehouseManagement #ERP #InventoryManagement #OperationalExcellence #LeanSixSigma",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1782626731090,
+        "date": "2026-06-28T06:05:31.090Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGBs01ky3wZBg/feedshare-image-high-res/B4DZ8M1TxdKsAU-/0/1782626729361?e=1786579200&v=beta&t=2tpr-dA1-xG0KbUY1SJeSs006w4HEJrpJSDDveAzwzA",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7476878428718411776",
+        "likes": 11,
+        "comments": 1,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 10
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7474780292654919680",
+      "entityId": "7474780292654919680",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_lean-leanmanagement-visualmanagement-activity-7474780292654919680-T9vc",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7474780289634844672",
+      "shareUrn": "urn:li:share:7474780289634844672",
+      "content": "What Japan’s sideline board reminds us about Lean Visual Management 👀⚽\nIn high-pressure moments, clarity beats complexity.\nThat simple sideline board is a great example of lean visual control in action:\nit makes the message visible instantly\nreduces verbal confusion\naligns the team quickly\nsupports faster decision-making in real time\nThis is exactly what strong visual management should do in any environment — whether on the football field, in a warehouse, on a shop floor, or in a control room.\nWhen seconds matter, visual control beats verbal noise.\n#Lean #LeanManagement #VisualManagement #LeanThinking #OperationalExcellence #ContinuousImprovement #Leadership #Teamwork #StandardWork #SupplyChain #Operations #LeanSixSigma #Kaizen #ProblemSolving #WorldCup",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1782126496471,
+        "date": "2026-06-22T11:08:16.471Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEnvU_htv8wPg/feedshare-image-high-res/B4DZ7vBEJHJwAY-/0/1782126494744?e=1786579200&v=beta&t=YPwETfdxoApMHEfgVtTw3VEliGMbB93DyKRV7Zn3l3U",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7474780292654919680",
+        "likes": 7,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 7
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475132994702262273",
+      "entityId": "7475132994702262273",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-logistics-transportation-activity-7475132994702262273-b5g5",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475132993532256256",
+      "shareUrn": "urn:li:share:7475132993532256256",
+      "content": "Transportation Cost % of Sales: A Logistics KPI That Shows Profit Pressure!\nMany companies track transportation cost.\nBut the better question is:\nHow much of our sales revenue is being consumed by transportation?\nThat is where this KPI becomes powerful.\nFormula:\nTransportation Cost % of Sales = Transportation Cost ÷ Net Sales × 100\nExample:\nTransportation Cost = $50,000\nNet Sales = $1,000,000\n$50,000 ÷ $1,000,000 × 100 = 5%\nThis means 5% of sales revenue is consumed by transportation cost.\nWhy does it matter?\nBecause a company can have lower total transport cost but still perform worse if sales are low.\nExample:\nCompany A:\nTransport Cost: $80,000\nNet Sales: $2,000,000\nTransport Cost %: 4%\nCompany B:\nTransport Cost: $50,000\nNet Sales: $500,000\nTransport Cost %: 10%\nCompany B spends less in total, but transportation is consuming a bigger share of revenue.\nThis KPI helps reveal hidden issues like:\n🚚 Underutilized trucks\n📦 Small order sizes\n🛣️ Poor route planning\n⏱️ Urgent deliveries\n🔁 Partial shipments\n📉 Low-margin deliveries\nThe goal is not only to reduce freight rates.\nThe goal is to move goods profitably.\n✅ Consolidate loads\n✅ Optimize routes\n✅ Improve truck utilization\n✅ Reduce urgent deliveries\n✅ Review customer profitability\n✅ Align sales plans with logistics capacity\nTransportation cost is not just a logistics expense.\nIt is a profitability signal.\nThe best supply chains do not only deliver faster.\nThey deliver profitably.\n#SupplyChain #Logistics #Transportation #SupplyChainMetrics #CostOptimization #SupplyChainAnalytics #OperationalExcellence #Profitability",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1782210587192,
+        "date": "2026-06-23T10:29:47.192Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGSFVMNWaZeVw/feedshare-image-high-res/B4EZ70B2UvK4AU-/0/1782210586234?e=1786579200&v=beta&t=qSvTleqf90vtRxeTqmGZrocFWiTCy6yJLitd6dUu08Q",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475132994702262273",
+        "likes": 43,
+        "comments": 4,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 42
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7472405663567003649",
+      "entityId": "7472405663567003649",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-inventorymanagement-vendormanagedinventory-activity-7472405663567003649-ZrnP",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7472405662002774017",
+      "shareUrn": "urn:li:share:7472405662002774017",
+      "content": "Vendor Managed Inventory (VMI): Smarter Replenishment Through Supplier Collaboration\nMany inventory problems happen because companies react too late.\nStock drops.\nPO is raised late.\nSupplier delivers late.\nCustomer service suffers.\nThat is where Vendor Managed Inventory (VMI) can help.\nIn VMI, the supplier monitors inventory and supports replenishment based on agreed rules, stock visibility, and demand signals.\n✅ Buyer shares data\n✅ Supplier plans replenishment\n✅ Both review performance\nKey data shared in VMI:\n📊 Stock on hand\n📈 Sales / consumption\n🚚 Open orders & in-transit stock\n📅 Forecasts & promotions\n⏱ Lead time\n📦 Min-max levels\n🎯 Service level targets\nBasic logic: Order Qty = Max Stock − Available Inventory\nVMI can help companies achieve:\n✅ Better stock availability\n✅ Fewer emergency orders\n✅ Lower excess inventory\n✅ Reduced manual PO work\n✅ Improved supplier planning\n✅ Stronger buyer-supplier collaboration\nBut VMI is not simply “give inventory responsibility to the supplier.”\nIt can fail when there is:\n⚠️ Poor data quality\n⚠️ Weak trust\n⚠️ Unclear ownership rules\n⚠️ No min-max policy\n⚠️ Supplier capability gaps\n⚠️ Poor promotion communication\nBest implementation approach:\n🚀 Start with a pilot\n🧹 Clean master data\n📦 Define min-max and safety stock rules\n🔄 Share data consistently\n📊 Track KPIs\n🤝 Review performance jointly\n📈 Scale gradually\nImportant KPIs to monitor:\n📌 Stock availability\n📌 Fill rate\n📌 OTIF\n📌 Inventory turns\n📌 Days of inventory\n📌 Stockout rate\n📌 Supplier fill rate\n📌 Master data accuracy\nThe real value of VMI is not “more stock.”\nIt is:\n✅ Better visibility\n✅ Better timing\n✅ Better decision rules\n✅ Better supplier collaboration\nStart small → Clean data → Define rules → Pilot → Measure → Scale\n#SupplyChain #InventoryManagement #VendorManagedInventory #VMI #Procurement #DemandPlanning #Logistics #OperationsManagement #SupplierManagement #SupplyChainExcellence #LeanSixSigma #DataAnalytics",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1781560340778,
+        "date": "2026-06-15T21:52:20.778Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQE4dfbzRYBqKw/feedshare-shrink_1280/B4DZ7NRWpMJ0AM-/0/1781560339341?e=1786579200&v=beta&t=3qBlY8PzA0WsCVY0Us_fDAnUDfw5htrl7sMhyPdjmAE",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7472405663567003649",
+        "likes": 60,
+        "comments": 3,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 57
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475550487484973056",
+      "entityId": "7475550487484973056",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_leansixsigma-reactionplan-operationalexcellence-activity-7475550487484973056-kQni",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475550484481609728",
+      "shareUrn": "urn:li:share:7475550484481609728",
+      "content": "Reaction Plan: A Signal Without a Response Is Only Decoration 🚨\nMany operations teams have dashboards, alerts, control charts, scanners, and inspection points.\nBut when something goes abnormal, one question often remains unclear:\nWhat should the team do next?\nCommon abnormal situations:\n🔴 Wrong SKU scanned\n⚖️ Packing weight mismatch\n🚨 Machine alarm triggered\n❌ Defect found during inspection\n📊 KPI crosses the control limit\nIf the only response is “inform the supervisor,” the process is still weak.\nA Reaction Plan defines the exact response when abnormality happens.\nIt answers:\n✅ What triggered the reaction?\n✅ What must stop immediately?\n✅ Who owns the response?\n✅ How should the risk be contained?\n✅ When should it escalate?\n✅ When is it safe to restart?\n✅ What must be documented?\nExample: Packing weight mismatch \nWeak response:\n❌ Operator checks again manually\n❌ Decision depends on experience\n❌ Issue may move forward\n❌ Root cause may not be recorded\nStrong Reaction Plan:\n✅ Stop the carton\n✅ Re-scan the SKU and order\n✅ Verify quantity\n✅ Check for wrong or missing item\n✅ Quarantine if unclear\n✅ Record the reason\n✅ Release only after confirmation\nA good Reaction Plan protects the process before the problem reaches the customer.\nIt works well with:\n📊 Control Charts\n🛡️ Poka-Yoke\n🚨 Andon\n🔍 5 Whys\n⚠️ FMEA\n📘 SOP\n✅ Control Plan\nLean lesson:\nDetecting a problem is not enough.\nThe team must know exactly how to react.\n🚨 Detect the abnormality\n🛑 Stop the process\n🛡️ Contain the risk\n🔍 Find the cause\n▶️ Restart with control\n#LeanSixSigma #ReactionPlan #OperationalExcellence #QualityManagement #ProcessControl #ContinuousImprovement #WarehouseOperations #Manufacturing #SupplyChain",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1782310125228,
+        "date": "2026-06-24T14:08:45.228Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFeRJvFtXRR3g/feedshare-image-high-res/B4DZ759jWsJ8AU-/0/1782310123214?e=1786579200&v=beta&t=0XK0g6ke5iTx9eG8zeGQ6g7vdFbjhfPwwU5_wAhOliI",
+          "width": 1136,
+          "height": 1384
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475550487484973056",
+        "likes": 8,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 8
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7473387815385559040",
+      "entityId": "7473387815385559040",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_warehousedesign-supplychainexcellence-leanwarehousing-activity-7473387815385559040-KZuK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7473387813950930944",
+      "shareUrn": "urn:li:share:7473387813950930944",
+      "content": "One common mistake in warehouse design!!\nDesigning racks first and process flow later.\nThis creates congestion, long travel distance, poor picking productivity, weak staging control, and unsafe movement.\nA better approach is to design the warehouse in this sequence:\n🔹 Define business requirements\n🔹 Analyze SKU and order behavior\n🔹 Map inbound-to-outbound process flow\n🔹 Segment products using ABC, FSN, and XYZ\n🔹 Design receiving, QC, storage, picking, packing, and dispatch zones\n🔹 Select storage systems and material handling equipment\n🔹 Validate capacity for peak demand\n🔹 Build WMS/ERP transaction logic\n🔹 Measure performance using KPIs\nWarehouse layout is not only about space.\nIt is about movement.\nBefore asking “How many racks can we fit?”\nAsk: “How will goods move?”\nBecause every unnecessary movement becomes cost, delay, damage, or error.\n#WarehouseDesign #SupplyChainExcellence #LeanWarehousing #LogisticsOperations #ProcessImprovement",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1781794504019,
+        "date": "2026-06-18T14:55:04.019Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHmbydAsApfVA/feedshare-shrink_1280/B4DZ7bOnfVIsAM-/0/1781794503069?e=1786579200&v=beta&t=-4ccTYadWbdhzm2FTKkoOdKjTp5pme7Bv3rkO2KaicQ",
+          "width": 1023,
+          "height": 1537
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7473387815385559040",
+        "likes": 264,
+        "comments": 26,
+        "shares": 34,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 248
+          },
+          {
+            "type": "INTEREST",
+            "count": 11
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7474486613482393600",
+      "entityId": "7474486613482393600",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-leansixsigma-operationalexcellence-activity-7474486613482393600-sckV",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7474486610370355200",
+      "shareUrn": "urn:li:share:7474486610370355200",
+      "content": "Non Value Added Analysis: Stop Improving Waste!\nMost supply chain processes are not slow because people are lazy.\nThey are slow because too much time is spent on activities that do not create customer value.\nBusy does not always mean value added.\n✅ Real Work = Value Added\nActivities that move the customer forward:\n✅ Picking the right item\n✅ Packing safely\n✅ Replenishing stock\n✅ Delivering on time\n✅ Producing actual demand\nThis is work that improves service, accuracy, availability, or speed.\n🚨 Hidden Waste = Non Value Added\nActivities that consume time and cost without adding value:\n❌ Waiting\n❌ Searching\n❌ Rework\n❌ Duplicate entry\n❌ Extra movement\n❌ Unnecessary reports\n❌ Emergency fixes\nThis is where lead time, cost, and frustration hide.\n🟡 Business Required Work\nSome work is necessary, but should still be controlled:\n🛡️ Quality checks\n🛡️ Customs documents\n🛡️ Invoice matching\n🛡️ Compliance approvals\nThe goal is not always to remove it — but to simplify it.\n🔍 Simple Lean Filter\nBefore improving any process step, ask:\n🔹 Does the customer benefit?\n🔹 Does it improve product, service, or availability?\n🔹 Is it required for risk or compliance?\n🔹 Is it caused by an earlier mistake?\n🔹 Can it be removed, simplified, combined, or automated?\n⚠️ Common mistake\nMany teams try to:\n❌ Automate waste\n❌ Speed up broken flow\n❌ Standardize unnecessary steps\nBut Lean thinking says:\n✅ See the waste\n✅ Classify the activity\n✅ Remove what is unnecessary\n✅ Improve what truly adds value\n🎯 Key Takeaway\nDo not improve waste. Remove it.\nThe biggest gains often come from removing what should not exist in the first place.\n#SupplyChain #LeanSixSigma #OperationalExcellence #ProcessImprovement #Warehouse #Procurement #Logistics #ContinuousImprovement",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1782056477900,
+        "date": "2026-06-21T15:41:17.900Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQH3wZSk7Dihxw/feedshare-shrink_1280/B4DZ7q1902I8AQ-/0/1782056476332?e=1786579200&v=beta&t=3OCVjsGxeA6PahIsQeW_mlQdZN8XYo7ADNd54CGKMzY",
+          "width": 1136,
+          "height": 1385
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7474486613482393600",
+        "likes": 10,
+        "comments": 1,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 10
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7474121552498794496",
+      "entityId": "7474121552498794496",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-demandplanning-sop-activity-7474121552498794496-1HAR",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7474121550451916800",
+      "shareUrn": "urn:li:share:7474121550451916800",
+      "content": "S&OP vs IBP: Many companies use the terms together, but they are not exactly the same.\n🔹 S&OP = Sales & Operations Planning\nIt helps the business balance demand, supply, inventory, capacity, and service levels.\n🔹 IBP = Integrated Business Planning\nIt goes one level higher by connecting strategy, finance, commercial plans, operations, and business goals.\n📌 S&OP asks: Can we deliver the demand plan?\n📌 IBP asks: Is this the right plan for the business?\n✅ A strong S&OP process includes:\n📊 Demand review\n🏭 Supply review\n📦 Inventory review\n💰 Financial review\n👥 Executive decision-making\n🚚 Execution tracking\n✅ A strong IBP process adds:\n🎯 Strategic alignment\n💵 Financial integration\n📈 Scenario planning\n⚠️ Risk visibility\n🧩 Portfolio decisions\n🏢 Enterprise-wide ownership\nThe biggest mistake?\nMany companies call it IBP, but they are only running a monthly supply chain meeting.\nTrue IBP is not just about balancing supply and demand.\nIt is about connecting business strategy with real operational capability.\nIn simple words:\n🔁 S&OP manages the plan.\n🚀 IBP manages the business through the plan.\n#SupplyChain #DemandPlanning #SOP #IBP #SupplyChainPlanning #Forecasting #OperationsManagement #IntegratedBusinessPlanning #SalesAndOperationsPlanning #BusinessStrategy #InventoryManagement #Leadership",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1781969440579,
+        "date": "2026-06-20T15:30:40.579Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQH50pbmG_LQOg/feedshare-shrink_1280/B4DZ7lp8ifH0AM-/0/1781969439201?e=1786579200&v=beta&t=aEmFaRWqPPn8wb8wyzrG51j_DWL2Jd1xRjq__sGiInY",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7474121552498794496",
+        "likes": 383,
+        "comments": 19,
+        "shares": 41,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 364
+          },
+          {
+            "type": "INTEREST",
+            "count": 13
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7472175731322609664",
+      "entityId": "7472175731322609664",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_supplychain-procurement-makeorbuy-activity-7472175731322609664-lIJ9",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7472175728197812224",
+      "shareUrn": "urn:li:share:7472175728197812224",
+      "content": "Make-or-Buy Decision: It’s Not Just About Cost \nIn supply chain, one of the most strategic decisions is whether to make internally or buy from an external supplier.\nMany companies make the mistake of comparing only:\nInternal production cost vs supplier price \nBut the real decision should include:\n✅ Total cost of ownership\n✅ Quality control\n✅ Supplier reliability\n✅ Internal capacity\n✅ Lead time flexibility\n✅ Risk exposure\n✅ Strategic importance\n✅ Long-term business value\nMake internally when control, quality, confidentiality, stable demand, or core capability matters. \nBuy externally when suppliers have better expertise, lower investment is needed, demand is uncertain, or flexibility is more important. \nA low supplier price can become expensive if it creates delays, defects, stockouts, or dependency.\nA strong internal process can become costly if capacity is low, demand is unstable, or investment is too high.\nThe best make-or-buy decision is not the cheapest option.\nIt is the option that gives the best balance of:\nCost + Quality + Control + Flexibility + Risk + Strategy 🎯\nMake-or-buy is not only a procurement decision.\nIt is a supply chain strategy decision.\n#SupplyChain #Procurement #MakeOrBuy #StrategicSourcing #SupplyChainManagement #OperationsManagement #CostOptimization #SupplierManagement #LeanSixSigma #BusinessStrategy #SupplyChainExcellence",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1781505520659,
+        "date": "2026-06-15T06:38:40.659Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEVTLiDbbXXXA/feedshare-shrink_1280/B4DZ7KAOvpJcAQ-/0/1781505518949?e=1786579200&v=beta&t=dZ_Fp7Vvza1ZykqAcKoDg3Qlmx1OlUmCAz5UxVpwLNA",
+          "width": 1092,
+          "height": 1440
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7472175731322609664",
+        "likes": 27,
+        "comments": 5,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 25
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7473294306200465408",
+      "entityId": "7473294306200465408",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_inventorymanagement-warehouseoperations-supplychain-activity-7473294306200465408-9Yjy",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7473294305076391936",
+      "shareUrn": "urn:li:share:7473294305076391936",
+      "content": "Periodic Counting vs Cycle Counting!\nInventory accuracy is not built only during year-end stock count.\nIt is built every day through disciplined warehouse transactions, clean master data, and strong process control.\nThere are two common approaches:\n🔹 Periodic Counting\n🔹 Cycle Counting\nBoth are useful, but they serve different purposes.\n📌 Periodic Counting\nPeriodic counting means counting the full inventory at fixed intervals.\nIt is usually done:\n📅 Monthly\n📅 Quarterly\n📅 Half-yearly\n📅 Yearly\n📅 During audit or financial closing\n✅ Best when:\n🔸 Full stock validation is required\n🔸 Warehouse size is small\n🔸 SKU volume is low\n🔸 Operations can stop temporarily\n🔸 Finance needs inventory valuation\n⚠️ Main challenge:\nErrors are often discovered late.\nIf the mistake happened months ago, finding the real root cause becomes difficult.\n📌 Cycle Counting\nCycle counting means counting selected SKUs, bins, or locations continuously throughout the year.\nIt can be based on:\n🔹 ABC classification\n🔹 Fast-moving items\n🔹 High-value items\n🔹 Critical spare parts\n🔹 Problem SKUs\n🔹 Specific warehouse locations\n🔹 Stock variance signals\n✅ Best when:\n🔸 SKU volume is high\n🔸 Inventory moves daily\n🔸 Warehouse cannot stop operations\n🔸 Stock accuracy is critical\n🔸 ERP/WMS data must be reliable\n⚠️ Main challenge:\nIt requires discipline, proper scheduling, trained people, and strong follow-up on variances.\n✅ Best Approach\nThe best approach is not choosing one and ignoring the other.\nUse both.\n🔹 Cycle Counting for daily inventory accuracy\n🔹 Periodic Counting for audit and financial validation\nPeriodic counting answers:\n“What is our inventory balance now?”\nCycle counting answers:\n“Is our inventory control process working every day?”\nPeriodic counting confirms inventory.\nCycle counting controls inventory.\nThe best warehouses do not wait until year-end to discover stock problems.\nThey build inventory accuracy into daily operations.\nBecause wrong stock data leads to wrong planning, wrong purchasing, wrong service decisions, and unnecessary cost.\n#InventoryManagement #WarehouseOperations #SupplyChain #CycleCounting #PeriodicCounting #InventoryAccuracy #ERP #WMS #OperationalExcellence #LeanSixSigma #SupplyChainExcellence",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1781772209692,
+        "date": "2026-06-18T08:43:29.692Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHWdFkS9WN-NA/feedshare-image-high-res/B4EZ7Z5kf.HsAk-/0/1781772208448?e=1786579200&v=beta&t=AXUCjTevdtBUtaVYp5v1xiKSr-PT3NwEY9dwUVyPDvU",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7473294306200465408",
+        "likes": 127,
+        "comments": 8,
+        "shares": 16,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 127
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7471848341921001473",
+      "entityId": "7471848341921001473",
+      "linkedinUrl": "https://www.linkedin.com/posts/hashimhamdanek_leansixsigma-sop-standardwork-activity-7471848341921001473-gfYc",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7471848340507521024",
+      "shareUrn": "urn:li:share:7471848340507521024",
+      "content": "SOP: Turning Best Practice into Daily Practice!\nA process is not stable if every person performs it differently.\nWithout a clear SOP:\n🔸 One person checks documents first\n🔸 Another checks quantity first\n🔸 Someone skips damage inspection\n🔸 Someone delays system entry\n🔸 Someone labels the material differently\nThe result?\n❌ Delays\n❌ Errors\n❌ Rework\n❌ Inventory mismatch\n❌ Poor handoffs\nThat is where an SOP becomes powerful.\nAn SOP is a Standard Operating Procedure - is a step-by-step guide that explains how a task should be performed consistently.\nIt turns:\n✅ Tribal knowledge into shared knowledge\n✅ Individual habits into standard practice\n✅ Random execution into repeatable performance\nIn simple words:\nAn SOP is the written version of the best-known way to do the work.\nExample: in warehouse receiving, a good SOP defines the correct sequence:\n📄 Verify delivery note\n📦 Check physical quantity\n🔍 Inspect packaging and damage\n💻 Record receipt in the system\n🏷️ Attach standard label\n🚚 Move goods to staging\n⚠️ Escalate discrepancies\nNow the process becomes:\n✅ Consistent\n✅ Trainable\n✅ Measurable\n✅ Auditable\n✅ Easier to improve\nBut here is the common mistake:\nMany companies create SOPs only for audits.\n📁 They sit in folders\n⏳ They become outdated\n🚫 Operators do not use them\n🎓 Training is not linked to them\n🔎 Supervisors do not audit them\nThat is documentation.\nNot standardization.\nA good SOP should be:\n📌 Clear — simple language\n🖼️ Visual — screenshots, photos, icons, flow steps\n⚙️ Practical — reflects the real process\n📍 Accessible — available where work happens\n🔄 Updated — reviewed when the process changes\nBecause SOPs do not remove flexibility.\nThey remove avoidable variation.\nKey takeaway:\nIf Standard Work defines the best method, SOP ensures that method is understood, documented, and repeated.\n#LeanSixSigma #SOP #StandardWork #Standardization #OperationalExcellence #ContinuousImprovement #SupplyChain #WarehouseOperations #ProcessImprovement #LeanManagement",
+      "author": {
+        "id": "ACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "universalName": null,
+        "publicIdentifier": "hashimhamdanek",
+        "type": "profile",
+        "name": "Hashim H.",
+        "linkedinUrl": "https://www.linkedin.com/in/hashimhamdanek?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACReS94BGVLvjClfXYXi-r1In6SzwCj2mo8",
+        "info": "Supply Chain Strategy & Operations Excellence | Optimizing Inventory & Forecasting for Value Creation & Cost Reduction | Demand Planning & Procurement to Business Growth | CISCM | CISCP | Six Sigma Green & Black Belt",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "610159582"
+      },
+      "postedAt": {
+        "timestamp": 1781427464943,
+        "date": "2026-06-14T08:57:44.943Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQF_EKt9MX02Ig/feedshare-image-high-res/B4DZ7FWeSjK4AY-/0/1781427463647?e=1786579200&v=beta&t=0izMPXGQ2r7DQl1GyqzhzKqqt648zI48pJyrtNp6_i0",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7471848341921001473",
+        "likes": 25,
+        "comments": 0,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 25
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/hashimhamdanek",
+        "sessionId": "b2546ef9-22d4-41ee-afc8-e86bfc0282c6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486025073103958017",
+      "entityId": "7486025073103958017",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_00-milliseconds-thats-how-fast-someone-activity-7486025073103958017-9mSI",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484349742655750146",
+      "shareUrn": "urn:li:share:7484349742655750146",
+      "content": "00 milliseconds.\n\nThat's how fast someone decides if they trust you.\n\nWhat's your headshot saying?\n\nYour profile photo is the first thing people see.\n\nBefore they read your headline. Before they scroll your posts.\n\nAnd most LinkedIn photos are:\n↳ Outdated\n↳ Low quality\n↳ Not aligned with your brand\n\nHere are 5 AI prompts to create a professional headshot that converts 👇\n\n(I created these with Google Gemini Nano Banana)\n\n𝟭) 𝗚𝗹𝗼𝗯𝗮𝗹 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗼𝗿\nPROMPT: A polished, international-style professional headshot with a clean, modern, and timeless aesthetic. The subject has a friendly, open expression, suitable for diverse audiences. The background is a neutral, light-toned gradient, possibly with a blurred hint of a cityscape or world map. Use a bright, expansive white window lighting to broad, even and flattering.\n\n𝟮) 𝗖𝗮𝘀𝘂𝗮𝗹 𝗖𝗼𝗻𝗳𝗶𝗱𝗲𝗻𝘁\nPROMPT: A professional, high-resolution profile photo, maintaining the contemporary square format with key features of the person in the focal image. The subject is framed from the chest up, with ample headroom and negative space above their head, ensuring the top of their head is not cropped. The subject is looking directly into the camera, and the subject's body is also directly facing the camera. They are styled for a professional photo studio shoot, wearing a sharp, fitted navy blue blazer. The background is a solid 18% neutral gray. Captured with a low camera angle with bright and airy soft, diffused studio lighting, gently illuminating the face and creating a subtle catchlight in the eyes. Captured on an 85mm f/1.8 lens with a shallow depth of field, exquisite focus on the eyes, and beautiful, soft bokeh.\n\n𝟯) 𝗔𝗽𝗽𝗿𝗼𝗮𝗰𝗵𝗮𝗯𝗹𝗲 𝗘𝘅𝗽𝗲𝗿𝘁\nPROMPT: A warm, natural-looking headshot with soft, diffused natural-looking light, possibly from a large window. The subject has a relaxed, confident, and engaging expression. They are wearing business casual attire. The background is a warm-toned interior, such as a professional co-working image or a stylish, muted library setting.\n\n𝟰) 𝗧𝗲𝗰𝗵 𝗜𝗻𝗻𝗼𝘃𝗮𝘁𝗼𝗿\nPROMPT: Relaxed, smart casual portrait, wearing a dark colored sweater. Confident, approachable look, bright, nice warm studio lighting, workplace environment elements in background.\n\n𝟱) 𝗡𝗮𝘁𝘂𝗿𝗮𝗹 𝗘𝘅𝗲𝗰𝘂𝘁𝗶𝘃𝗲\nPROMPT: Natural outdoor professional headshot of a business professional in blazer, background softly blurred with greenery and natural elements. Captured on a 105mm f/2 lens, golden-hour lighting. Relaxed and genuine, gentle smile, hair slightly wind-tousled, natural skin texture, focus with creamy bokeh.\n\nP.S. Which vibe matches your brand?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1784807461048,
+        "date": "2026-07-23T11:51:01.048Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHueWAFHhr5eg/feedshare-image-high-res/B56Z93AbqpHYAU-/0/1784408030131?e=1786579200&v=beta&t=KVT7pY7TIEOi5W3tHQn6dMhig6bwEfGES8VEhLii3qA",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486025073103958017",
+        "likes": 479,
+        "comments": 114,
+        "shares": 35,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 434
+          },
+          {
+            "type": "EMPATHY",
+            "count": 19
+          },
+          {
+            "type": "INTEREST",
+            "count": 19
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485663692580184064",
+      "entityId": "7485663692580184064",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_i-duplicated-myself-into-4-markdown-files-activity-7485663692580184064-e356",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484342629757763584",
+      "shareUrn": "urn:li:share:7484342629757763584",
+      "content": "I duplicated myself into 4 markdown files.\n\n(and save hours a day)\n\nAsk a blank chat to write like you and you get a stranger's best guess.\n\nI don't use blank chats. Claude reads 4 files before it drafts anything for me:\n\n𝟭) 𝗩𝗼𝗶𝗰𝗲.𝗺𝗱 → how I sound when I write\n↳ Rhythm rules: short sentence, then a longer one to land\n↳ Signature phrases I actually say out loud\n↳ Banned: em dashes, buzzwords, \"Let's dive in\"\n↳ How I open a post and how I end one\n\n𝟮) 𝗦𝘁𝗼𝗿𝘆.𝗺𝗱 → who I am and what I've done\n↳ My positioning in one sentence\n↳ The receipts: Buddy Media, 73k followers, Stanley\n↳ The 3 stories I keep coming back to\n↳ What I'm against (every voice needs an enemy)\n\n𝟯) 𝗦𝗮𝗺𝗽𝗹𝗲𝘀.𝗺𝗱 → 5 of my real posts, pasted in full\n↳ Each one tagged by format: listicle, story, hot take\n↳ A note on why each worked\n↳ My best hook for every format\n\n𝟰) 𝗥𝘂𝗹𝗲𝘀.𝗺𝗱 → everything AI writes that I never would\n↳ The banned words: \"delve,\" \"unlock,\" \"game-changer\"\n↳ The banned structure: \"It's not X. It's Y.\"\n↳ No fake stakes. No rule of three.\n↳ A final checklist before anything ships\n\nHow they work together:\n\nStory decides what I say.\nVoice decides how it sounds.\nSamples show what good looks like.\nRules strip what a machine would add.\n\nBuild all 4 in an afternoon. Use them for years.\n\nI turned all 4 into fill-in templates, with screenshots of each file and a step-by-step guide.\n\nGet them free here: https://lnkd.in/gdVj6t7Y\n\nP.S. I once caught Claude drafting posts without reading the folder. We had a talk.",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1784721301217,
+        "date": "2026-07-22T11:55:01.217Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFtz0Y7UaKSfg/feedshare-image-high-res/B56Z92592SG4AU-/0/1784406335099?e=1786579200&v=beta&t=yS8aZK1zOtKPtCI4kNkgXccvXRGr-QHWWa-fp2lWXrk",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485663692580184064",
+        "likes": 226,
+        "comments": 120,
+        "shares": 17,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 204
+          },
+          {
+            "type": "INTEREST",
+            "count": 10
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487838019060703233",
+      "entityId": "7487838019060703233",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_i-used-to-spend-hours-on-canva-infographics-activity-7487838019060703233-meRI",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484414710067601408",
+      "shareUrn": "urn:li:share:7484414710067601408",
+      "content": "I used to spend hours on Canva infographics.\n\nNow Claude Code makes them in minutes.\n\nThe trick: I built my own Claude design system.\n\nHere's a step-by-step on how to create your system 👇\n\n𝟭) 𝗦𝘁𝗲𝗮𝗹 𝗮 𝘀𝘁𝘆𝗹𝗲 𝘆𝗼𝘂 𝗹𝗼𝘃𝗲\n↳ Screenshot a design that stops your scroll\n↳ Drop it into Claude Code as the reference\n\n𝟮) 𝗠𝗮𝗸𝗲 𝗖𝗹𝗮𝘂𝗱𝗲 𝗿𝗲𝘃𝗲𝗿𝘀𝗲-𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿 𝗶𝘁\n↳ Prompt: \"Turn this into a reusable design spec\"\n↳ Define every color in hex code\n↳ Name your exact fonts\n↳ Set the canvas: 1080x1350\n\n𝟯) 𝗟𝗼𝗰𝗸 𝗶𝗻 𝘁𝗵𝗲 𝘀𝘆𝘀𝘁𝗲𝗺\n↳ Say: \"Save that as design-system(.)md\"\n↳ Top line: \"Read this before every graphic\"\n\n𝟰) 𝗥𝗲𝗳𝗲𝗿𝗲𝗻𝗰𝗲 𝗶𝘁 𝗼𝗻 𝗲𝘃𝗲𝗿𝘆 𝗴𝗿𝗮𝗽𝗵𝗶𝗰\n↳ Prompt: \"Read the system. Build [topic].\"\n↳ Then: \"Render the JPG.\" Claude exports it.\n\n𝟱) 𝗨𝗽𝗴𝗿𝗮𝗱𝗲 𝘁𝗵𝗲 𝘀𝘆𝘀𝘁𝗲𝗺, 𝗻𝗼𝘁 𝘁𝗵𝗲 𝗴𝗿𝗮𝗽𝗵𝗶𝗰\n↳ Like a tweak? \"Add that rule to the system.\"\n↳ Never give the same feedback twice\n\nWhy this works: a design system is just your taste written down. Brands pay agencies real money to build one. Yours is a markdown file, and Claude follows it more consistently than any freelancer ever will.\n\nI create 5 fresh infographics every week. Each one used to take hours. Now it's a few minutes and I'm on to the next.\n\nSave this.\n\nP.S. Do you make your own graphics, or skip visuals entirely?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1785239701047,
+        "date": "2026-07-28T11:55:01.047Z",
+        "postedAgoShort": "8h",
+        "postedAgoText": "8 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQF2zkFACmDsug/feedshare-shrink_1280/B56Z937hSfKcAM-/0/1784423519621?e=1786579200&v=beta&t=wjxKYiDiWUgZaIPurX1eG4T_XvTZMydZDgLRmuf02Xw",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487838019060703233",
+        "likes": 144,
+        "comments": 90,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 126
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483855657377406976",
+      "entityId": "7483855657377406976",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_ikeas-ai-eliminated-8500-jobs-nobody-got-activity-7483855657377406976-IjA6",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483855656261885952",
+      "shareUrn": "urn:li:ugcPost:7483855656261885952",
+      "content": "IKEA's AI eliminated 8,500 jobs.\n\nNobody got fired.\n\nIKEA made $1.4 billion instead. 👇\n\nTheir bot Billie handles 47% of customer service calls.\n\nOrder status. Returns. Product specs.\n\nThat was the entire job for 8,500 people.\n\nAutomating it saved $15 million a year. Most CEOs would've stopped there and sent the layoff memo.\n\nIKEA ran a different play:\n\n𝟭) 𝗧𝗵𝗲𝘆 𝗮𝘀𝗸𝗲𝗱 𝘄𝗵𝗮𝘁 𝘁𝗵𝗲 𝗯𝗼𝘁 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗱𝗼\n↳ Taste. Context. \"Help me design this room.\"\n\n𝟮) 𝗧𝗵𝗲𝘆 𝗿𝗲𝗮𝗱 𝘁𝗵𝗲𝗶𝗿 𝗼𝘄𝗻 𝗰𝗮𝗹𝗹 𝗹𝗼𝗴𝘀\n↳ Customers wanted advice, not just answers.\n\n𝟯) 𝗧𝗵𝗲𝘆 𝗿𝗲𝘁𝗿𝗮𝗶𝗻𝗲𝗱 𝗮𝗹𝗹 𝟴,𝟱𝟬𝟬\n↳ Same people. New job: remote design advisors.\n\nThat channel now does ~$1.4 billion a year.\n\nThe savings play: $15 million.\nThe retrain play: $1.4 billion.\n\n90x. Same tech. Same people. Different question.\n\nAI handles the volume. Humans handle the value.\n\nThat's not a cost-cutting story. That's a growth story.\n\nI broke the whole thing down in a 6-page playbook: the story, the math, and the 3 questions to run on your own business.\n\nP.S. If AI took the boring half of your job tomorrow, what would you spend that time on?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1784290232033,
+        "date": "2026-07-17T12:10:32.033Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "IKEA's AI Eliminated 8,500 Jobs. Nobody Got Fired",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQHBfEOmsbVoXw/feedshare-document-sanitized-pdf/B56Z9v.6l4GUBE-/0/1784290192864?e=1785877200&v=beta&t=S0SllJ-_od93vUdKw9VeQ_c3-teF5ZjvtJ_m1itW3Kg",
+        "coverPages": [
+          {
+            "width": 1487,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D561FAQHBfEOmsbVoXw/feedshare-document-cover-images_1920/B56Z9v.6l4GUBY-/0/1784290194338?e=1785877200&v=beta&t=gbuMGVREsALM8JWMQYmorpOx3do2R2ZDinP3QmE4S_Y",
+              "https://media.licdn.com/dms/image/v2/D561FAQHBfEOmsbVoXw/feedshare-document-cover-images_1920/B56Z9v.6l4GUBY-/1/1784290194338?e=1785877200&v=beta&t=WLEpeqCCpxC4UQOPbm2C1fdpkS0gjVn2HZXMk07TzJI",
+              "https://media.licdn.com/dms/image/v2/D561FAQHBfEOmsbVoXw/feedshare-document-cover-images_1920/B56Z9v.6l4GUBY-/2/1784290194338?e=1785877200&v=beta&t=VN_E1Tid1F7ptpkw1U3MNd04wUI3W401l1Esh0qTxbg"
+            ],
+            "height": 1925
+          }
+        ],
+        "totalPageCount": 6,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQHBfEOmsbVoXw/feedshare-document-master-manifest/B56Z9v.6l4GUBg-/0/1784290194338?e=1785877200&v=beta&t=wqGK-ivs9pzuZhD429kY_MzY2NgBHJyVXr-Bu5yfHDE",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D561FAQHBfEOmsbVoXw",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQHBfEOmsbVoXw/feedshare-document-transcript/B56Z9v.6l4GUA8-/0/1784290194338?e=1785974400&v=beta&t=5gzYxhUK8jp5sHFChv8LPZgiRfcE-bxXVpXMsD0wBvU",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQHBfEOmsbVoXw/feedshare-document-pdf-analyzed/B56Z9v.6l4GUAg-/0/1784290194338?e=1785974400&v=beta&t=7S4owNAUxFon1CXMmA6sA83a13tJ9AZEUijwCxWO7Kc",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 374,
+              "height": 484,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQHBfEOmsbVoXw/feedshare-document-images_480/B56Z9v.6l4GUAo-/0/1784290194338?e=1785974400&v=beta&t=5QDSIWUYZtj86hR18vemQcywcVhsCar1ABpzescyE8U"
+            },
+            {
+              "width": 127,
+              "height": 165,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQHBfEOmsbVoXw/feedshare-document-images_160/B56Z9v.6l4GUAk-/0/1784290194338?e=1785974400&v=beta&t=SN5f7JA6EO2ys1GK0EoptJmY1wDJD8m6JBAU3SHpWoU"
+            },
+            {
+              "width": 1487,
+              "height": 1925,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQHBfEOmsbVoXw/feedshare-document-images_1920/B56Z9v.6l4GUAw-/0/1784290194338?e=1785974400&v=beta&t=ARrl_shdaH66vLWje_5G0pOkMWpQB7ByBtUiNpOwSIo"
+            },
+            {
+              "width": 620,
+              "height": 802,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQHBfEOmsbVoXw/feedshare-document-images_800/B56Z9v.6l4GUAs-/0/1784290194338?e=1785974400&v=beta&t=wRq8ecHdyM2kA_RZYptGDtiKQiq_Wh1n2WrEkksOYXY"
+            },
+            {
+              "width": 994,
+              "height": 1287,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQHBfEOmsbVoXw/feedshare-document-images_1280/B56Z9v.6l4GUAY-/0/1784290194338?e=1785974400&v=beta&t=--zJgepO-KT3Fx0DrYnKWKSYPCGdXeKKpRq8XzR25g4"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483855656261885952",
+        "likes": 129,
+        "comments": 90,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 115
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483128312769179648",
+      "entityId": "7483128312769179648",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_i-save-2-hours-a-day-with-claude-the-entire-activity-7483128312769179648-9e80",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483128311586373632",
+      "shareUrn": "urn:li:share:7483128311586373632",
+      "content": "I save 2 hours a day with Claude.\n\n(the entire setup took me one weekend)\n\nThe whole thing is 4 workflows I built once and haven't touched since.\n\nHere's the exact build order 👇\n\n𝟭) 𝗠𝗲𝗲𝘁𝗶𝗻𝗴 𝗻𝗼𝘁𝗲𝘀 𝗼𝗻 𝗮𝘂𝘁𝗼𝗽𝗶𝗹𝗼𝘁 (Friday night, 30 min to build)\n↳ Pulls my Granola transcript after every call\n↳ Extracts action items, updates my Notion board\n↳ ~30 min back. Done before my next coffee.\n\n𝟮) 𝗠𝗼𝗿𝗻𝗶𝗻𝗴 𝗶𝗻𝗯𝗼𝘅 𝘀𝗰𝗮𝗻 (Saturday morning, 20 min to build)\n↳ Scans my Gmail before I do\n↳ Flags unanswered invites, reschedules, pre-reads\n↳ ~30 min back. 5 emails that matter, not 50.\n\n𝟯) 𝗠𝗲𝗲𝘁𝗶𝗻𝗴 𝗯𝗿𝗶𝗲𝗳𝘀 (Saturday afternoon, 1 hour to build)\n↳ Reads my Calendar, researches every attendee\n↳ Pulls past context, drafts me a brief\n↳ ~40 min back. Every meeting prepped. Zero legwork.\n\n𝟰) 𝗖𝗮𝗹𝗲𝗻𝗱𝗮𝗿 𝘀𝗰𝗮𝗻 (Sunday morning, 30 min to build)\n↳ Reviews my week every morning\n↳ Flags conflicts, double-bookings, missing prep\n↳ ~20 min back. I know exactly what's coming.\n\nThe build order matters.\nFastest win first, so by Saturday morning workflow 1 has already paid for itself.\n\nOne weekend to build.\n2 hours back every single day.\n\nThat's the trade.\n\nComment \"Weekend\" and I'll DM you the full guide.\n\nP.S. Which one would buy you back the most time?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1784116819565,
+        "date": "2026-07-15T12:00:19.565Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQE74uflh3byHw/feedshare-shrink_1280/B56Z9lpi71LAAM-/0/1784116817922?e=1786579200&v=beta&t=ab2eg4Uuod5OBeCNNlAmHg-BTaUiueVH8Fq3LNMX8Y4",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483128312769179648",
+        "likes": 133,
+        "comments": 171,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 116
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482768444459769856",
+      "entityId": "7482768444459769856",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_i-grew-to-73000-followers-on-linkedin-activity-7482768444459769856-CX83",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482768443046264832",
+      "shareUrn": "urn:li:share:7482768443046264832",
+      "content": "I grew to 73,000 followers on LinkedIn.\n\n(If I started over, all I'd need is 1 hour a day)\n\nMy first 3 months, I posted consistently and still grew slowly. Publishing was the only block I ran. I skipped the ideating, the commenting, the replying.\n\nGrowth started moving when I gave LinkedIn a full hour every day, split into 4 blocks.\n\nHere's the exact hour I'd run from zero:\n\n1) Ideate (15 minutes)\n↳ Research topics your audience is already asking about\n↳ Save the hooks and formats that stop your own scroll  \n↳ Practice your AI creation skills while you're at it\n\n2) Connect (15 minutes)\n↳ Comment on other creators' posts\n↳ Leave a real take (\"great post!\" doesn't count)\n↳ This is how strangers find you before the algorithm does\n\n3) Reply (15 minutes)\n↳ Answer every comment on your own posts\n↳ People come back to comment sections where the author shows up\n↳ Early on, this is where your first real relationships form\n\n4) Create (15 minutes)\n↳ Write drafts for future posts, never for today\n↳ A 3-post buffer is the difference between a system and a scramble\n↳ Use tools like Stanley to make this a breeze \n\nOne hour, 4 blocks, repeated. \n\nThat's the whole system behind the 73,000.\n\nSave this for tomorrow morning.\n\nP.S. Be honest, which block are you skipping?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1784031020274,
+        "date": "2026-07-14T12:10:20.274Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEubK4ay-O4wQ/feedshare-image-high-res/B56Z9eSQIkIgAU-/0/1783993271093?e=1786579200&v=beta&t=jRj44uqkl3vgJd2HxXaKMbhQPtEyaDrWe8jwaDt-RHc",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482768444459769856",
+        "likes": 184,
+        "comments": 140,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 157
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 7
+          },
+          {
+            "type": "INTEREST",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486387460973834240",
+      "entityId": "7486387460973834240",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_i-save-2-hours-a-day-with-claude-the-whole-activity-7486387460973834240-iusM",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484357446317072384",
+      "shareUrn": "urn:li:share:7484357446317072384",
+      "content": "I save 2 hours a day with Claude.\n\nThe whole thing is 4 workflows.\n\n I built it in one weekend and haven't touched it since. They just run.\n\nHere's the exact build order 👇\n\n𝟭) 𝗠𝗲𝗲𝘁𝗶𝗻𝗴 𝗻𝗼𝘁𝗲𝘀 𝗼𝗻 𝗮𝘂𝘁𝗼𝗽𝗶𝗹𝗼𝘁 (Friday night, 30 min)\n↳ Claude pulls my Granola transcript after every call\n↳ Extracts the action items and updates my Notion board\n↳ I used to do this at 9pm with a snack I didn't need. \nNow it's done before I've poured a coffee. ~30 min back.\n\n𝟮) 𝗠𝗼𝗿𝗻𝗶𝗻𝗴 𝗶𝗻𝗯𝗼𝘅 𝘀𝗰𝗮𝗻 (Saturday morning, 20 min)\n↳ Claude scans my Gmail before I do\n↳ Flags unanswered invites, reschedules, pre-reads\n↳ 50 emails walk in, the 5 that matter walk out. \nAnother 30 min.\n\n𝟯) 𝗠𝗲𝗲𝘁𝗶𝗻𝗴 𝗯𝗿𝗶𝗲𝗳𝘀 (Saturday afternoon, 1 hour)\n↳ Claude reads my Calendar and researches every attendee\n↳ Pulls context from past conversations, drafts me a brief\n↳ The big one. \n40 min a day, and I show up as the most prepared person on every call. My secret: I did zero prep.\n\n𝟰) 𝗖𝗮𝗹𝗲𝗻𝗱𝗮𝗿 𝘀𝗰𝗮𝗻 (Sunday morning, 30 min)\n↳ Claude reviews my week every morning\n↳ Flags conflicts, double-bookings, and prep I haven't done\n↳ Smallest saver\n20 min ... but nothing sneaks up on me anymore, and honestly that's worth it alone.\n\nBuild them in this order. The Friday night one is the fastest win, so it's already paying you back while you're building the other three.\n\nOne weekend of setup for 2 hours back every day after. I'd take that trade every single time.\n\nDownload the 7 page guide here: https://lnkd.in/gkrxcHby\n\nP.S. Which one would buy you back the most time?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1784893861049,
+        "date": "2026-07-24T11:51:01.049Z",
+        "postedAgoShort": "4d",
+        "postedAgoText": "4 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHsH4nQcA0Qkw/feedshare-image-high-res/B56Z93HcGXJoAU-/0/1784409867381?e=1786579200&v=beta&t=kDviIzA_l1vBruK4DoOhvPC5CwhHWXkJ-vXc9j96KYc",
+          "width": 1393,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486387460973834240",
+        "likes": 167,
+        "comments": 84,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 149
+          },
+          {
+            "type": "EMPATHY",
+            "count": 11
+          },
+          {
+            "type": "INTEREST",
+            "count": 7
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482401697751777280",
+      "entityId": "7482401697751777280",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_i-posted-for-3-months-and-got-no-traction-activity-7482401697751777280-x_tv",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481818716947746818",
+      "shareUrn": "urn:li:share:7481818716947746818",
+      "content": "I posted for 3 months and got no traction.\n\nFixed my profile, turned viewers into 73k followers.\n\nHere's what I didn't understand at the time: every post you write sends people to your profile. Someone sees a good post, gets curious, and clicks your name. Then they spend about 5 seconds deciding whether you're worth a follow.\n\nFor 6 months, my profile was losing that decision for me.\n\nTreat your profile like a landing page. Every section has one job 👇\n𝟭) 𝗕𝗮𝗻𝗻𝗲𝗿 (1584 x 396px)\n↳ Clear headline + social proof\n↳ Add a large photo of yourself so people see the human\n\n𝟮) 𝗣𝗿𝗼𝗳𝗶𝗹𝗲 𝗣𝗵𝗼𝘁𝗼 (1000 x 1000px)\n↳ Simple background, clear, professional\n↳ Smile\n\n𝟯) 𝗛𝗲𝗮𝗱𝗹𝗶𝗻𝗲\n↳ Formula: [who you are] + [action verb] + [ideal customer] + [what they want] + [how you help]\n↳ \"Helping CEOs grow their business with AI and smart e-commerce\"\n\n𝟰) 𝗖𝘂𝘀𝘁𝗼𝗺 𝗕𝘂𝘁𝘁𝗼𝗻\n↳ One button that highlights your primary offer\n↳ Mine points to my newsletter\n\n𝟱) 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝗱 𝗦𝗲𝗰𝘁𝗶𝗼𝗻\n↳ Your highest-value offer, front and center\n↳ Point people to what you sell. Your top post doesn't belong here.\n\n𝟲) 𝗔𝗯𝗼𝘂𝘁 𝗦𝗲𝗰𝘁𝗶𝗼𝗻\n↳ Start conversational and human, skip the corporate speak\n↳ Prove credibility with specific results, then invite people to connect\n\n𝟳) 𝗔𝗰𝘁𝗶𝘃𝗶𝘁𝘆\n↳ This is your true resume\n↳ Post consistently, show what you've done and who you help\n\n𝟴) 𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲\n↳ Impact with real numbers\n↳ Punchy beats long job descriptions every time\n\nYour content earns the click. Your profile earns the follow.\n\nI spent 6 months working on the first half and ignoring the second. Don't repeat that.\n\nSave this. Then go fix one section today.\n\nP.S. Which section is your weakest right now? Be honest.",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1783943581045,
+        "date": "2026-07-13T11:53:01.045Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEijNT6reHdRQ/feedshare-image-high-res/B56Z9TCevYGoAU-/0/1783804587219?e=1786579200&v=beta&t=co_LzVi3Afks69GGESuV34aEek7lv2fbJcvhusNKWWo",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482401697751777280",
+        "likes": 241,
+        "comments": 125,
+        "shares": 10,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 215
+          },
+          {
+            "type": "EMPATHY",
+            "count": 16
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485301299836747776",
+      "entityId": "7485301299836747776",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_you-should-be-getting-paid-to-post-yes-activity-7485301299836747776-QXFC",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484349134812925952",
+      "shareUrn": "urn:li:share:7484349134812925952",
+      "content": "You should be getting paid to post.\n\nYes, I'm talking to you.  \n\nThe VP of marketing, the head of growth, the intern reading this on the train. You should all be paid to post. \n\nInfluencer marketing crossed $32 billion last year. It's on track to pass $40 billion in 2026, and 59% of brands say they're raising the budget again.\n\nAll that money buys one thing: attention.\n\nWhich is the funny part, because you already have some. Maybe 800 followers, maybe 8,000. People who know your name, work in your world, and actually read what you post. That's the exact asset brands are lining up to buy.\n\nSo why is your company paying strangers for attention and paying you nothing for yours?\n\nPosting should come with rewards. Real ones:\n\n↳ Cash. A per-post rate, same as any creator gets.\n↳ Gift cards, bonuses, perks. The budget already exists. It's called influencer marketing.\n↳ And the reward nobody can claw back: you're building your own authority on company time.\n\nEvery post pays you twice. Once from the marketing budget, once in a personal brand you keep forever, at this job and every job after it.\n\nThat's exactly what we built Stanley to do.\n\nWe're running a free pilot for companies right now: Stanley pays your employees for the posts they create, and pilot companies pay nothing.\n\nSign up for our paid pilot → https://lnkd.in/gUzakJer\n\nIn the future, we all become content creators.\nMight as well start getting paid now.\n\nP.S. Would you post more if your company paid you per post?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1784634900054,
+        "date": "2026-07-21T11:55:00.054Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHX37zM0ALgJg/feedshare-image-high-res/B56Z92_4PlGUAY-/0/1784407885383?e=1786579200&v=beta&t=WTd2K6ulwgIyyDh7eBgZQ-68b6XKIi7me5slKzwsOOs",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485301299836747776",
+        "likes": 88,
+        "comments": 105,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 73
+          },
+          {
+            "type": "EMPATHY",
+            "count": 12
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480952146322931712",
+      "entityId": "7480952146322931712",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_10-ai-tools-run-80-of-my-workflow-heres-activity-7480952146322931712-3Vgv",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480721078156279809",
+      "shareUrn": "urn:li:share:7480721078156279809",
+      "content": "10 AI tools run 80% of my workflow.\nHere's the exact stack.\n\n𝟭) 𝗪𝗶𝘀𝗽𝗿 𝗙𝗹𝗼𝘄 (wisprflow.ai)\n↳ Why it matters: Speaking forces full thoughts.\n↳ What it's for: Drafting out loud, not typing.\n\n𝟮) 𝗚𝗿𝗮𝗻𝗼𝗹𝗮 (granola.ai)\n↳ Why it matters: I actually listen now.\n↳ What it's for: Live notes and action items.\n\n𝟯) 𝗚𝗮𝗺𝗺𝗮 (gamma.app)\n↳ Why it matters: Good enough beats pixel-perfect.\n↳ What it's for: Decks from a one-line prompt.\n\n𝟰) 𝗖𝗹𝗮𝘂𝗱𝗲 (claude.ai)\n↳ Why it matters: Closest thing to a second me.\n↳ What it's for: Drafting, thinking, finding the angle.\n\n𝟱) 𝗦𝗲𝗲𝗱𝗮𝗻𝗰𝗲 𝟮 (seedance2.ai)\n↳ Why it matters: Shot, not generated.\n↳ What it's for: B-roll without filming.\n\n𝟲) 𝗚𝗿𝗼𝗸 (grok.com)\n↳ Why it matters: Today, not last month's index.\n↳ What it's for: Real-time search across X.\n\n𝟳) 𝗘𝗹𝗲𝘃𝗲𝗻𝗟𝗮𝗯𝘀 (elevenlabs.io)\n↳ Why it matters: My voice, without recording.\n↳ What it's for: Newsletters turned into audio.\n\n𝟴) 𝗖𝗹𝗮𝘂𝗱𝗲 𝗖𝗼𝗱𝗲 (code.claude.com)\n↳ Why it matters: Ship without a dev queue.\n↳ What it's for: Describe the app, get the app.\n\n𝟵) 𝗡𝗼𝘁𝗲𝗯𝗼𝗼𝗸𝗟𝗠 (notebooklm.google.com)\n↳ Why it matters: Hear your research before publishing.\n↳ What it's for: Doc summaries and audio recaps.\n\n𝟭𝟬) 𝗦𝘁𝗮𝗻𝗹𝗲𝘆 (https://lnkd.in/eh5vBQ5C)\n↳ Why it matters: Runs my whole LinkedIn workflow.\n↳ What it's for: Idea to scheduled post, in my voice.\n\nTools don't fix a broken strategy.\nBut the right stack on a real one? That's how I got my Sundays back.\n\nSave this. Try a few. Delete the ones that don't stick.\n\nP.S. What's the one AI tool you couldn't work without?",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1783597981053,
+        "date": "2026-07-09T11:53:01.053Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQE9w3fLue9Iew/feedshare-image-high-res/B56Z9DcLt.GcAU-/0/1783542889626?e=1786579200&v=beta&t=tO_3Gn92AI__5g-Qe-5UieAh9ABiKtCqt-x4YamTVO4",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480952146322931712",
+        "likes": 287,
+        "comments": 151,
+        "shares": 24,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 258
+          },
+          {
+            "type": "EMPATHY",
+            "count": 19
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485074032166391808",
+      "entityId": "7485074032166391808",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_stop-prompting-claude-i-save-2-hours-a-activity-7484938916140306432-EASa",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484225959500410880",
+      "shareUrn": "urn:li:share:7484225959500410880",
+      "content": "Stop prompting Claude.\n\nI save 2+ hours a day with it, and I barely write prompts anymore.\n\nLong prompts are the hard way. You explain who you are and what good output looks like, every single chat, and then you do it all again tomorrow.\n\nI replaced all of that with a setup I built once. Here's the whole thing 👇\n\n𝟭) 𝗚𝗶𝘃𝗲 𝗖𝗹𝗮𝘂𝗱𝗲 𝘆𝗼𝘂𝗿 𝗰𝗼𝗻𝘁𝗲𝘅𝘁 𝗼𝗻𝗰𝗲\n↳ I run 13 files + a router that picks them.\n↳ Start with 3: me(.)md, voice(.)md, anti-ai-writing(.)md\n↳ Those 3 get you 90% of the way there.\n\n𝟮) 𝗧𝘂𝗿𝗻 𝗿𝗲𝗽𝗲𝗮𝘁 𝗽𝗿𝗼𝗺𝗽𝘁𝘀 𝗶𝗻𝘁𝗼 𝘀𝗵𝗼𝗿𝘁𝗰𝘂𝘁𝘀\n↳ /tldr, /steps, /counter. Each one replaces a 200-word prompt.\n↳ Typed it twice? Make it a shortcut.\n\n𝟯) 𝗖𝗼𝗻𝗻𝗲𝗰𝘁 𝗶𝘁 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗿𝗲𝗮𝗹 𝘁𝗼𝗼𝗹𝘀\n↳ Gmail, Airtable, Drive. No copy-pasting.\n↳ Claude reads my ideas right out of Airtable.\n\n𝟰) 𝗣𝘂𝘁 𝘁𝗵𝗲 𝗯𝗼𝗿𝗶𝗻𝗴 𝘀𝘁𝘂𝗳𝗳 𝗼𝗻 𝗮 𝘀𝗰𝗵𝗲𝗱𝘂𝗹𝗲\n↳ Morning brief, inbox triage, follower log.\n↳ Scheduled prompts run without me.\n\n𝟱) 𝗦𝘁𝗮𝗿𝘁 𝗲𝘃𝗲𝗿𝘆 𝗰𝗵𝗮𝘁 𝘄𝗶𝘁𝗵 𝗼𝗻𝗲 𝗹𝗶𝗻𝗲\n↳ \"Here's the task. Ask questions first.\"\n↳ Claude interviews you, then does the work.\n\nSet it up over one weekend. You get the time back every day after.\n\nSave this for your Saturday morning.\n\nP.S. This is exactly how we think about content at Stanley: you shouldn't have to re-explain yourself to AI every time you post. If you'd rather not build any of this, that's what Stanley is for.",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1784580715219,
+        "date": "2026-07-20T20:51:55.219Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHzdpP96cMp8w/feedshare-image-high-res/B56Z91P2s2IoAU-/0/1784378518555?e=1786579200&v=beta&t=MOeDa9HiR7esTILlaagnVGrahD5f5XfP0ULC3nuQS5w",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "repostedBy": {
+        "name": "MJ Jaindl",
+        "publicIdentifier": "jaindl",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78"
+      },
+      "repostedAt": {
+        "timestamp": 1784580715219,
+        "date": "2026-07-20T20:51:55.219Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7485074032166391808?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7485074032166391808%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=%2B%2FPfXQSvX5mvM0wNtJ9OXw%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "text": "MJ Jaindl reposted this"
+      },
+      "engagement": {
+        "id": "7484938916140306432",
+        "likes": 213,
+        "comments": 125,
+        "shares": 12,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 186
+          },
+          {
+            "type": "EMPATHY",
+            "count": 13
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478777567412477952",
+      "entityId": "7478777567412477952",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_i-use-claude-chatgpt-and-gemini-they-all-activity-7478777567412477952-u-pZ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478575518054023168",
+      "shareUrn": "urn:li:share:7478575518054023168",
+      "content": "I use Claude, ChatGPT, and Gemini. They all sound like me.\n\n(these 3 files do all the work)\n\nEvery AI sounds the same out of the box. Generic, safe, a little robotic. Nothing like the posts that actually perform.\n\nSo when I move between tools, I don't start over.\n\nI drop in 3 files and it sounds like me on the first try 👇\n\n𝟭) 𝘃𝗼𝗶𝗰𝗲.𝗺𝗱\n↳ 5 samples of my actual writing\n↳ Plus the words and patterns I'd never use\n↳ This is the one everyone skips, and the one that matters most\n\n𝟮) 𝘄𝗵𝗼-𝗶-𝗮𝗺.𝗺𝗱\n↳ My role, my audience, what I'm working on\n↳ So it writes for the right person\n\n𝟯) 𝗮𝗻𝘁𝗶-𝗮𝗶-𝘄𝗿𝗶𝘁𝗶𝗻𝗴-𝗿𝘂𝗹𝗹𝗲𝘀.𝗺𝗱\n↳ Every tell I want it to avoid\n↳ No \"unlock,\" no \"game-changer,\" no em dashes\n\nUnder 2,000 words total. Written once.\n\nThey live in one folder. I point any AI at it, and the voice comes with me. Switch tools, zero setup.\n\nSave this. Build yours this weekend.",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1783079521039,
+        "date": "2026-07-03T11:52:01.039Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEDQjHJr8STWw/feedshare-image-high-res/B56Z8k8zhMGQAU-/0/1783031347646?e=1786579200&v=beta&t=bdZtf16vSFQW5NVuNhUbwYE4yTQ1oZgTSNH3JaNHNw8",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478777567412477952",
+        "likes": 83,
+        "comments": 80,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 73
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478052791798861824",
+      "entityId": "7478052791798861824",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_i-use-5-letter-shortcuts-vs-200-word-prompts-activity-7478052791798861824-pW1k",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477713824733655040",
+      "shareUrn": "urn:li:share:7477713824733655040",
+      "content": "I use 5-letter shortcuts vs 200-word prompts.\n\n(here are the 7 I type every day)\n\nMost people think a better prompt means a longer prompt.\n\nSo they write a paragraph, get something generic back, then write an even longer one.\n\nI went the other way.\n\nI keep a handful of shortcuts saved, type one at the front of my message, and Claude knows exactly what I want.\n\nHere are the 7 I'd steal first 👇\n\n𝟭) /tldr\n↳ Paste a long article, report, or email thread\n↳ Get back the 5 lines that actually matter\n\n𝟮) /eli5\n↳ For anything you're nodding along to but don't really get\n↳ \"Explain it like I'm 5.\" No jargon, no ego.\n\n𝟯) /steps\n↳ When you're stuck staring at a task\n↳ Turns \"ugh, this whole thing\" into the first move\n\n𝟰) /draft\n↳ A bad first draft on purpose, fast\n↳ Fixing something beats starting from a blank page\n\n𝟱) /shorter\n↳ Cut this in half, keep the point\n↳ My most-used one for LinkedIn\n\n𝟲) /redteam\n↳ \"Tear this apart before I send it\"\n↳ Finds the hole I talked myself out of seeing\n\n𝟳) /counter\n↳ Argue the other side of my decision\n↳ The fastest way to pressure-test a call\n\nThese aren't real commands. Claude just learned what I mean because I use them the same way every time.\n\nI stopped re-explaining myself on every message. That's the hour I get back.\n\nType the shortcut. Get the output. Move on.\n\nSave this for your next session.\n\nP.S. What's the one prompt you type over and over? Turn it into a shortcut.",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1782906721067,
+        "date": "2026-07-01T11:52:01.067Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEDatYT6SjDEw/feedshare-image-high-res/B56Z8YtGgpKgAU-/0/1782825904387?e=1786579200&v=beta&t=B_Jwcv9vwh3b-bgpfxHDRV-vT5g3kSuIwjnhEfSxcOE",
+          "width": 810,
+          "height": 1012
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478052791798861824",
+        "likes": 859,
+        "comments": 109,
+        "shares": 52,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 787
+          },
+          {
+            "type": "INTEREST",
+            "count": 51
+          },
+          {
+            "type": "EMPATHY",
+            "count": 16
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481313779599835137",
+      "entityId": "7481313779599835137",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_in-january-2024-i-wrote-one-linkedin-post-activity-7481313779599835137-l0sE",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481082603358494721",
+      "shareUrn": "urn:li:share:7481082603358494721",
+      "content": "In January 2024 I wrote one LinkedIn post.\n\nThen I got weird about it.\n\nI devoured LinkedIn data.\nI DM'd and met top creators.\nI scheduled coffee chats to geek out on content.\n\nNobody asked me to. I was just obsessed.\n\nWhat happened next:\n↳ 800+ posts\n↳ 70k+ followers\n↳ 8M+ content views\n↳ A job I never applied for\n\nSomewhere in the obsession, I figured out what I actually want to do with my life.\n\n𝟭. Create content\n𝟮. Help others create content\n\nA simple mission that I brought with me to Stanley\n\nNow we're taking that one step further.\nToday, we're opening a pilot for something that's near and dear to me: a product that pays your employees to post.\n\nYou already pay for impressions.\nYou already pay influencers for content.\nBut the people your market trusts most already work for you.\n(now you can invest in them to create reach)\n\nIf that clicks, I want you in.\n\nWe're opening a small, free pilot. Limited spots.\n\nApply here: https://lnkd.in/gud9BWqF\n\nComment \"Stan\" if you want to learn more.",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1783684201145,
+        "date": "2026-07-10T11:50:01.145Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEtAbkyWi-33g/feedshare-shrink_1280/B56Z9Ik.WxIoAM-/0/1783629083254?e=1786579200&v=beta&t=HQ0tov32FyX67K1qentJUW8oAAREBFSxubKmJi-PoVY",
+          "width": 600,
+          "height": 750
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481313779599835137",
+        "likes": 122,
+        "comments": 102,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 94
+          },
+          {
+            "type": "EMPATHY",
+            "count": 11
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480589506857840640",
+      "entityId": "7480589506857840640",
+      "linkedinUrl": "https://www.linkedin.com/posts/jaindl_69-of-companies-use-ai-8-in-10-see-nothing-activity-7480589506857840640-xKf8",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480374064801308672",
+      "shareUrn": "urn:li:share:7480374064801308672",
+      "content": "69% of companies use AI. \n\n8 in 10 see nothing.\n\nThat's a new NBER survey. Almost 6,000 executives across the US, UK, Germany, and Australia.\n\nMore than 8 in 10 can't point to any impact on productivity or employment in three years.\n\nEveryone has the tools. Almost nobody has the results.\n\nThe Atlanta Fed found where the results hide. They show up in companies that redesigned how work gets done around AI. They barely show up in the ones that handed out logins and waited for something to happen.\n\nThe tools are identical on both sides of that gap. The wiring is what's different.\n\nHere's the wiring I run. Four files, about 20 minutes to build, and my AI stops starting from scratch every session 👇\n\n𝟭) 𝗖𝗼𝗻𝘁𝗲𝘅𝘁.𝗺𝗱 — the company brain\n↳ Overview, voice, decisions, tools\n↳ Drop in your site, your offers, and 3 real posts\n↳ Have it compress everything to one page\n\n𝟮) 𝗔𝗴𝗲𝗻𝘁𝘀.𝗺𝗱 — the AI org chart\n↳ Each agent gets a role and boundaries\n↳ Start with 3: Email, Content, Ops\n↳ One job each\n\n𝟯) 𝗦𝗸𝗶𝗹𝗹𝘀.𝗺𝗱 — the playbooks\n↳ Your top 3 SOPs, written as numbered steps the AI can run without you\n↳ Build once, run forever\n\n𝟰) 𝗠𝗲𝗺𝗼𝗿𝘆.𝗺𝗱 — what it learns\n↳ End every session with \"update Memory.md with what you got wrong\"\n↳ Next session starts smarter\n\nHow they run together: Context loads first. Agents read it and know their role. They run Skills to do the actual work. Memory keeps what happened. Then you schedule the workflow and let it run.\n\nThat's the whole distance between the 69% and the 2 in 10. Same LLMs. Different setup.\n\nSave this if you're a CEO, exec, or operator who want's AI to make an impact in your business.",
+      "author": {
+        "id": "ACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "universalName": null,
+        "publicIdentifier": "jaindl",
+        "type": "profile",
+        "name": "MJ Jaindl",
+        "linkedinUrl": "https://www.linkedin.com/in/jaindl?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAC6YhUBXS7TDSeLz68U5kGUkoZ3RaH3b78",
+        "info": "Build an operator brand — AI content that sells. | GM of Stanley",
+        "website": "https://jaindl.substack.com/welcome",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHp8TGKwbhu_Q/profile-displayphoto-crop_800_800/B4EZ5PnGJNHQAM-/0/1779452110616?e=1786579200&v=beta&t=Oy3S7Xxv9N24bkdirakZp6DFH9xj3zSitaLKJywhAL4",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "12214805"
+      },
+      "postedAt": {
+        "timestamp": 1783511521067,
+        "date": "2026-07-08T11:52:01.067Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFYhXpayhPM2A/feedshare-image-high-res/B56Z8.gk62GQAU-/0/1783460155318?e=1786579200&v=beta&t=xCZoekheytOxO7QI7nTBtvUr76QmOR2kgy7sEJwHB90",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480589506857840640",
+        "likes": 106,
+        "comments": 111,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 91
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jaindl",
+        "sessionId": "a5508ea7-5ef5-4377-8263-856b4e65c3f9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2872 @@
+{
+  "runId": "8g0ZVyjPlPYFOSgt4",
+  "datasetId": "EtzBRRAHKOqcR5B6w",
+  "offset": 200,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7478749906967408640",
+      "entityId": "7478749906967408640",
+      "linkedinUrl": "https://www.linkedin.com/posts/charlie-hills_95-of-people-get-stuck-on-step-1-of-ai-activity-7478749906967408640-ZKJj",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478749905419743232",
+      "shareUrn": "urn:li:share:7478749905419743232",
+      "content": "95% of people get stuck on step 1 of AI.\n\nHere are all 11 steps up:\n\n1. On ChatGPT? Try Codex.\n2. On Claude? Switch on Memory.\n3. On Claude Chat? Open Cowork.\n4. Using Memory? Set up Projects.\n5. Using Projects? Install Skills.\n6. Using Skills? Add Connectors.\n7. Loving Cowork? Move to Claude Code.\n8. In Claude Code? Write a CLAUDE.md.\n9. Wrote a CLAUDE.md? Build a sub-agent.\n10. Built a sub-agent? Make an Agent Team.\n11. Got an Agent Team? Set up Routines.\n\nClimb one step and you save hours a week.\n\nThe full roadmap → https://lnkd.in/eM89acTy\n\nRepost ♻️ to help someone in your network.\n\nP.S. This was inspired by an Allie K. Miller story.\n\nShe is the godmother of AI, so go follow her.",
+      "author": {
+        "id": "ACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "universalName": null,
+        "publicIdentifier": "charlie-hills",
+        "type": "profile",
+        "name": "Charlie Hills 🦩",
+        "linkedinUrl": "https://www.linkedin.com/in/charlie-hills?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "info": "I help you (actually) use AI.",
+        "website": "https://charliehills.substack.com/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxlD3_hL5KBA/profile-displayphoto-crop_800_800/B4EZ7ff9woKEAI-/0/1781866160164?e=1786579200&v=beta&t=p7pU5KvZY8dfZZQmOyNHTDv6Vel2UDPPL79bbJLtqNw",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "693881882"
+      },
+      "postedAt": {
+        "timestamp": 1783072926275,
+        "date": "2026-07-03T10:02:06.275Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQG14ykSGUHwDw/feedshare-image-high-res/B4EZ8Y4yHDIkAU-/0/1782828971151?e=1786579200&v=beta&t=4y8pqcJpxhDwsBYnHHbKnuKUH1PYdhvyR1x09IzN4p0",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478749906967408640",
+        "likes": 836,
+        "comments": 385,
+        "shares": 79,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 719
+          },
+          {
+            "type": "EMPATHY",
+            "count": 48
+          },
+          {
+            "type": "INTEREST",
+            "count": 39
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 16
+          },
+          {
+            "type": "PRAISE",
+            "count": 13
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/charlie-hills",
+        "sessionId": "331324a3-d143-434e-a812-dcd3c3e17bc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482010886505730048",
+      "entityId": "7482010886505730048",
+      "linkedinUrl": "https://www.linkedin.com/posts/charlie-hills_my-entire-claude-skills-library-is-now-free-activity-7482010886505730048-KQUF",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7474244894224527360",
+      "shareUrn": "urn:li:share:7474244894224527360",
+      "content": "My entire Claude skills library is now free.\n\n17 skills you can clone in 60 seconds:\n\nThis is the exact system running my content across LinkedIn, Instagram, Substack, X and YouTube.\n\nI test every skill on my own accounts before it ships.\n\nStart here first → https://lnkd.in/eqxWAdnT\n\nFOUNDATION\n\n✦ voice-builder → https://lnkd.in/ethhxdRB\n✦ newsletter-voice → https://lnkd.in/eTYK73Aa\n\nLINKEDIN\n\n✦ profile-optimizer → https://lnkd.in/ed-Z9P6n\n✦ post-writer → https://lnkd.in/eUTv_Men\n✦ post-scorer → https://lnkd.in/enMis_dr\n✦ post-formatter → https://lnkd.in/em5Ashup\n✦ hook-generator → https://lnkd.in/e2vyfPqm\n\nCONTENT PLANNING\n\n✦ content-matrix → https://lnkd.in/eWpisaBB\n✦ niche-research → https://lnkd.in/eGs4m3Ms\n✦ analytics-dashboard → https://lnkd.in/e9dsbFCn\n\nGRAPHICS\n\n✦ graphic-designer → https://lnkd.in/eqvGzz5T\n✦ gemini-infographic → https://lnkd.in/eGw7Dtpj\n✦ gemini-carousel → https://lnkd.in/e-5XKGQq\n\nVIDEO\n\n✦ reels-scripting → https://lnkd.in/eH7Vym82\n✦ youtube-thumbnail → https://lnkd.in/eYs8exZv\n\nCOMMUNITY\n\n✦ pinned-comment → https://lnkd.in/eEU-WetC\n✦ quote-post → https://lnkd.in/eMv-9i9Y\n\nHow to install (technical):\n\n1. git clone https://lnkd.in/epVi28qk\n2. Drop the folder into your Claude project\n3. Start with voice-builder\n\nHow to install (non-technical):\n\n1. Hit \"Download ZIP\" on the repo\n2. Unzip and upload the folders to a Claude project\n3. Start with voice-builder\n\nEvery skill reads voice-builder.\n\nThat's what makes the output sound like you.\n\nRepost ♻️ to help someone in your network.\n\nP.S. Which skill should I build next?",
+      "author": {
+        "id": "ACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "universalName": null,
+        "publicIdentifier": "charlie-hills",
+        "type": "profile",
+        "name": "Charlie Hills 🦩",
+        "linkedinUrl": "https://www.linkedin.com/in/charlie-hills?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "info": "I help you (actually) use AI.",
+        "website": "https://charliehills.substack.com/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxlD3_hL5KBA/profile-displayphoto-crop_800_800/B4EZ7ff9woKEAI-/0/1781866160164?e=1786579200&v=beta&t=p7pU5KvZY8dfZZQmOyNHTDv6Vel2UDPPL79bbJLtqNw",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "693881882"
+      },
+      "postedAt": {
+        "timestamp": 1783850404383,
+        "date": "2026-07-12T10:00:04.383Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFwirPBP1-YMg/feedshare-shrink_1280/B4EZ7naIPAIkAM-/0/1781998847201?e=1786579200&v=beta&t=2XiKX0Uv2EuaZ2QNJ1iW8WDTXDLme48vVOt3brEFsEk",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482010886505730048",
+        "likes": 1125,
+        "comments": 207,
+        "shares": 123,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 999
+          },
+          {
+            "type": "EMPATHY",
+            "count": 63
+          },
+          {
+            "type": "INTEREST",
+            "count": 39
+          },
+          {
+            "type": "PRAISE",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 12
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/charlie-hills",
+        "sessionId": "331324a3-d143-434e-a812-dcd3c3e17bc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479111785736933376",
+      "entityId": "7479111785736933376",
+      "linkedinUrl": "https://www.linkedin.com/posts/charlie-hills_claude-fable-5-is-free-on-your-plan-until-activity-7479111785736933376-Ryjs",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478861518974107648",
+      "shareUrn": "urn:li:share:7478861518974107648",
+      "content": "Claude Fable 5 is free on your plan until July 7th.\n\nDay 1 of building things people pay for: a website.\n\nI built charliehills.ai in one evening.\nIt took one hour and three markdown files:\n\nCONTEXT.md - the facts the site is built from.\nCOPY.md - the words, every headline, every page.\nDESIGN.md - the look, colours, type, components.\n\nHere is the exact workflow:\n\nStep 1: Start with the facts file in Claude Chat.\nStep 2: Have Claude interview you for every word.\nStep 3: Sign off every headline before any code exists.\nStep 4: Blend your brand with five websites you love.\nStep 5: Build the site from all three files at once.\nStep 6: Pull in production components from 21st.dev.\nStep 7: Add a Higgsfield-generated hero video.\nStep 8: Iterate in plain English until it looks right.\nStep 9: Run the taste pass before you ship.\n\nEvery prompt is in here → https://lnkd.in/eTnUbBg4\n\nRepost ♻️ to help someone in your network.\n\nP.S. What are you building before the 7th?",
+      "author": {
+        "id": "ACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "universalName": null,
+        "publicIdentifier": "charlie-hills",
+        "type": "profile",
+        "name": "Charlie Hills 🦩",
+        "linkedinUrl": "https://www.linkedin.com/in/charlie-hills?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "info": "I help you (actually) use AI.",
+        "website": "https://charliehills.substack.com/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxlD3_hL5KBA/profile-displayphoto-crop_800_800/B4EZ7ff9woKEAI-/0/1781866160164?e=1786579200&v=beta&t=p7pU5KvZY8dfZZQmOyNHTDv6Vel2UDPPL79bbJLtqNw",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "693881882"
+      },
+      "postedAt": {
+        "timestamp": 1783159204897,
+        "date": "2026-07-04T10:00:04.897Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEtIedQFfntRA/feedshare-image-high-res/B4EZ8pA7CjH8AY-/0/1783099536016?e=1786579200&v=beta&t=gYNesbJ83cUajZQZvefDCnPg9T2Yv3m8oI_kICP6QfA",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479111785736933376",
+        "likes": 927,
+        "comments": 172,
+        "shares": 112,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 833
+          },
+          {
+            "type": "EMPATHY",
+            "count": 42
+          },
+          {
+            "type": "INTEREST",
+            "count": 29
+          },
+          {
+            "type": "PRAISE",
+            "count": 13
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 10
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/charlie-hills",
+        "sessionId": "331324a3-d143-434e-a812-dcd3c3e17bc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483098063163719680",
+      "entityId": "7483098063163719680",
+      "linkedinUrl": "https://www.linkedin.com/posts/charlie-hills_ive-made-62-free-claude-guides-every-activity-7483098063163719680-tF6a",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483098061880201216",
+      "shareUrn": "urn:li:share:7483098061880201216",
+      "content": "I've made 62+ free Claude guides.\n\nEvery skill and setup I run is here:\n\n1. The Top 53 Claude Skills, ranked\nhttps://lnkd.in/egqW9C5m\n\n2. 17 Claude Skills for Social Media\nhttps://lnkd.in/emDvetxm\n\n3. Build your whole team, 42 skills\nhttps://lnkd.in/eXFvg-Qm\n\n4. Loop Engineering, the full guide\nhttps://lnkd.in/exJ4Tqhx\n\n5. Harness Engineering, explained\nhttps://lnkd.in/ebC7NbUK\n\n6. 20 Claude commands that actually work\nhttps://lnkd.in/e767wESw\n\n7. Every Claude feature, set up right\nhttps://lnkd.in/e-934Yhi\n\n8. How to run Claude Code for free\nhttps://lnkd.in/eHe6TNv2\n\n9. Build an AI second brain\nhttps://lnkd.in/e9Q8hcgC\n\n10. 24 things to install into Claude\nhttps://lnkd.in/e75aQ8Er\n\n11. Your next step in AI, the roadmap\nhttps://lnkd.in/eqS6z7vu\n\n12. Which Claude should you actually use\nhttps://lnkd.in/euQ3ZBve\n\n13. Stop uploading PDFs to Claude\nhttps://lnkd.in/eB_27t8q\n\n14. How I run my whole content system\nhttps://lnkd.in/ePY6qsxW\n\nThat is 14 of them.\n\nThe other 48 are waiting too.\n\nThe whole vault is free: https://lnkd.in/eM89acTy\n\nGrab the ones you need. Keep them forever.\n\nRepost ♻️ this to help someone grab them too.",
+      "author": {
+        "id": "ACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "universalName": null,
+        "publicIdentifier": "charlie-hills",
+        "type": "profile",
+        "name": "Charlie Hills 🦩",
+        "linkedinUrl": "https://www.linkedin.com/in/charlie-hills?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "info": "I help you (actually) use AI.",
+        "website": "https://charliehills.substack.com/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxlD3_hL5KBA/profile-displayphoto-crop_800_800/B4EZ7ff9woKEAI-/0/1781866160164?e=1786579200&v=beta&t=p7pU5KvZY8dfZZQmOyNHTDv6Vel2UDPPL79bbJLtqNw",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "693881882"
+      },
+      "postedAt": {
+        "timestamp": 1784109607497,
+        "date": "2026-07-15T10:00:07.497Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFD_ESfS0Tfrw/feedshare-shrink_1280/B4EZ9fzyZpIsAM-/0/1784018839450?e=1786579200&v=beta&t=c4wT9wyoqMKpo1VJIws_4_E46rd9o5IYx_Q_KgTMGRs",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483098063163719680",
+        "likes": 707,
+        "comments": 348,
+        "shares": 73,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 618
+          },
+          {
+            "type": "EMPATHY",
+            "count": 44
+          },
+          {
+            "type": "PRAISE",
+            "count": 19
+          },
+          {
+            "type": "INTEREST",
+            "count": 16
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 10
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/charlie-hills",
+        "sessionId": "331324a3-d143-434e-a812-dcd3c3e17bc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478553644871790592",
+      "entityId": "7478553644871790592",
+      "linkedinUrl": "https://www.linkedin.com/posts/charlie-hills_day-3-of-me-yapping-about-ai-until-i-get-activity-7478553644871790592-d__m",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7478553434527436800",
+      "shareUrn": "urn:li:ugcPost:7478553434527436800",
+      "content": "Day 3 of me yapping about AI until I get good at it.\n\nFable 5 goes paid on 7 July. After that it only runs on API credits.\n\nSo you have a few days left to use it for free. Here is what I would do first:\n\n1. Build a website. Fable 5 is brilliant at front end design.\n2. Build an internal tool instead of paying for Slack or Notion.\n3. Get it to review everything you have made in Claude since the ban.\n4. Hand it your goals and ask how to start your first online business.\n5. Ask it how to run a local LLM, so you are never locked to closed models.\n\nCheap, all-you-can-eat AI is ending. Metered, pay-per-use is taking over. These five make the most of the free window before it shuts.\n\nComment FABLE and I'll send you the full guide.",
+      "author": {
+        "id": "ACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "universalName": null,
+        "publicIdentifier": "charlie-hills",
+        "type": "profile",
+        "name": "Charlie Hills 🦩",
+        "linkedinUrl": "https://www.linkedin.com/in/charlie-hills?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "info": "I help you (actually) use AI.",
+        "website": "https://charliehills.substack.com/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxlD3_hL5KBA/profile-displayphoto-crop_800_800/B4EZ7ff9woKEAI-/0/1781866160164?e=1786579200&v=beta&t=p7pU5KvZY8dfZZQmOyNHTDv6Vel2UDPPL79bbJLtqNw",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "693881882"
+      },
+      "postedAt": {
+        "timestamp": 1783026133745,
+        "date": "2026-07-02T21:02:13.745Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQH12YcgLwLNJQ/videocover-high/B4EZ8ko3NhJUBM-/0/1783026123728?e=1785877200&v=beta&t=htJgCOr8C5_gf849k8B4jF3esEeQ4K9OwJy3KLeryzY",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQH12YcgLwLNJQ/mp4-720p-30fp-crf28/B4EZ8ko3NhJUB8-/0/1783026127447?e=1785877200&v=beta&t=IE9V67BYa4n_q6wRDHC1PnOnqYCoFL8wlZGuCCfYa9o"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478553434527436800",
+        "likes": 383,
+        "comments": 253,
+        "shares": 9,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 329
+          },
+          {
+            "type": "EMPATHY",
+            "count": 31
+          },
+          {
+            "type": "INTEREST",
+            "count": 13
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/charlie-hills",
+        "sessionId": "331324a3-d143-434e-a812-dcd3c3e17bc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479836584364736513",
+      "entityId": "7479836584364736513",
+      "linkedinUrl": "https://www.linkedin.com/posts/charlie-hills_you-are-prompting-claude-fable-5-like-it-activity-7479836584364736513-hDKO",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479836581370052608",
+      "shareUrn": "urn:li:share:7479836581370052608",
+      "content": "You are prompting Claude Fable 5 like it is Claude 4.\n\n12 prompts from Anthropic's official guide: \n\n1. Tell it when to act\n\nFable can burn minutes over-planning a simple job.\n\n\"When you have enough information to act, act. Give a recommendation, not a survey.\"\n\nYou get a decision, not a stalled plan.\n\n2. Check its own progress\n\nOn long runs it used to report work it never did.\n\n\"Audit each claim against a tool result. If it isn't verified, say so.\"\n\nNo more fake \"done\".\n\n3. Set boundaries\n\nFable takes action you never asked for, like an email.\n\n\"When I'm thinking out loud, the deliverable is your assessment. Report and stop.\"\n\nIt reports, then waits for you.\n\n4. Only pause when needed\n\nLeft alone, it checks in far more than the work needs.\n\n\"Pause only when the work truly needs you: a destructive action or your input.\"\n\nFewer interruptions, more finished work.\n\n5. Keep it running on long jobs\n\nDeep in a session it stops and just states the plan.\n\n\"Before ending your turn, check your last paragraph. If it's a promise, do it now.\"\n\nIt finishes instead of describing.\n\n6. Give it a memory\n\nWithout notes, it repeats mistakes it already made.\n\n\"Store one lesson per file. Record why it mattered. Update, don't duplicate.\"\n\nIt compounds what it learns.\n\n7. Give it the reason\n\nWith no purpose, it guesses at what you actually want.\n\n\"I'm working on [TASK] for [WHO]. They need [OUTCOME]. With that: [REQUEST].\"\n\nTen words of context, far sharper output.\n\n8. Spin up parallel subagents\n\nIt spins up parallel workers more readily than old models.\n\n\"Delegate independent subtasks to subagents and keep working while they run.\"\n\nThree jobs at once instead of one.\n\n9. Lead with the outcome\n\nLeft alone, it buries the point under build-up.\n\n\"Lead with the outcome. Your first line is what happened, the detail comes after.\"\n\nYou get the answer first.\n\n10. Write for the absent reader\n\nAfter a long run its shorthand gets dense.\n\n\"Your summary is for someone who wasn't watching. Open with the outcome, no arrow chains.\"\n\nThe summary makes sense to anyone.\n\n11. Don't over-engineer\n\nOn high effort it tidies and refactors past the task.\n\n\"Don't add features, refactor, or add abstractions beyond what the task requires.\"\n\nIt builds what you asked for, nothing more.\n\n12. Verify with a fresh subagent\n\nSelf-review misses what a fresh agent catches.\n\n\"Every so often, have a fresh subagent check your work against the spec.\"\n\nA real check before you ship.\n\nBonus tip: paste all 12 into your CLAUDE.md file. Then Fable 5 follows them in every chat, automatically.\n\nFull guide is free here: https://lnkd.in/eS37Qz7s\n\nRepost ♻️ to help someone get more out of Fable 5.",
+      "author": {
+        "id": "ACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "universalName": null,
+        "publicIdentifier": "charlie-hills",
+        "type": "profile",
+        "name": "Charlie Hills 🦩",
+        "linkedinUrl": "https://www.linkedin.com/in/charlie-hills?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "info": "I help you (actually) use AI.",
+        "website": "https://charliehills.substack.com/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxlD3_hL5KBA/profile-displayphoto-crop_800_800/B4EZ7ff9woKEAI-/0/1781866160164?e=1786579200&v=beta&t=p7pU5KvZY8dfZZQmOyNHTDv6Vel2UDPPL79bbJLtqNw",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "693881882"
+      },
+      "postedAt": {
+        "timestamp": 1783332010356,
+        "date": "2026-07-06T10:00:10.356Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQENEgpwD5tmMQ/feedshare-shrink_1280/B4EZ81XLBGIcAM-/0/1783306698712?e=1786579200&v=beta&t=ZLKMVniQNKcfhXbZ2cIAocXxmdzMx8wMWh9ZB2_qFuc",
+          "width": 1080,
+          "height": 1378
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479836584364736513",
+        "likes": 460,
+        "comments": 311,
+        "shares": 32,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 386
+          },
+          {
+            "type": "EMPATHY",
+            "count": 31
+          },
+          {
+            "type": "INTEREST",
+            "count": 20
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 12
+          },
+          {
+            "type": "PRAISE",
+            "count": 11
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/charlie-hills",
+        "sessionId": "331324a3-d143-434e-a812-dcd3c3e17bc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487084304880091136",
+      "entityId": "7487084304880091136",
+      "linkedinUrl": "https://www.linkedin.com/posts/charlie-hills_i-am-the-claude-guy-but-i-do-not-use-claude-activity-7487084304880091136-SPPv",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486410928792436736",
+      "shareUrn": "urn:li:share:7486410928792436736",
+      "content": "I am the Claude guy.\n\nBut I do not use Claude for everything.\n\nClaude is my home base. It runs most of my work.\n\nIf you're just getting started, check out these guides:\n\n1. New to Claude? Start here → https://lnkd.in/eM89acTy\n2. Make yourself replaceable → https://lnkd.in/ezgyjNPN\n3. Build your own skill → https://lnkd.in/et-29Wzx\n\nAnd if you want something a little more advanced:\n\n4. How to use Hermes Agent → https://lnkd.in/eEt-HgMj\n\nFor these 15 jobs though, I reach elsewhere:\n\nMaking images → ChatGPT and Nano Banana\nReal photos and artwork from a prompt.\n\nMaking videos → Higgsfield\nTurns your text into video clips.\n\nAvatar videos → HeyGen\nA presenter reads your script.\n\nRecording video → Tella\nRecords your screen and camera at once.\n\nVoiceovers → ElevenLabs\nNatural-sounding AI narration.\n\nVoice dictation → Wispr Flow\nYou talk, it types for you.\n\nVideo analysis → Gemini\nReads and sums up any video.\n\nMeeting notes → Granola\nWrites up your meetings for you.\n\nLive answers → Perplexity\nUp-to-the-minute web results.\n\nResearch your sources → NotebookLM\nAnswers built from your own documents.\n\nDocs and knowledge base → Notion\nWhere all your work lives.\n\nOpen source → Ollama and GLM\nCapable models you can run for cheap.\n\nCoding → Codex\nOpenAI's answer to Claude Code.\n\nOperations → Hermes\nMy WhatsApp agent that keeps the pipeline moving.\n\nAutomation → Zapier\nAutomates the work between all my apps.\n\nI do not open all 15 every week.\n\nBut knowing which tool wins which job is the game.\n\nClaude for most of it. These for the rest.\n\nWhich one would you add?\n\nEvery tool linked in the first comment 👇\n\nRepost ♻️ this to help someone build a smarter stack.",
+      "author": {
+        "id": "ACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "universalName": null,
+        "publicIdentifier": "charlie-hills",
+        "type": "profile",
+        "name": "Charlie Hills 🦩",
+        "linkedinUrl": "https://www.linkedin.com/in/charlie-hills?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "info": "I help you (actually) use AI.",
+        "website": "https://charliehills.substack.com/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxlD3_hL5KBA/profile-displayphoto-crop_800_800/B4EZ7ff9woKEAI-/0/1781866160164?e=1786579200&v=beta&t=p7pU5KvZY8dfZZQmOyNHTDv6Vel2UDPPL79bbJLtqNw",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "693881882"
+      },
+      "postedAt": {
+        "timestamp": 1785060001583,
+        "date": "2026-07-26T10:00:01.583Z",
+        "postedAgoShort": "2d",
+        "postedAgoText": "2 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFu8FSTRvxL5A/feedshare-shrink_1280/B4EZ.UTEBWJUAM-/0/1784899455439?e=1786579200&v=beta&t=GIfxAmQyeEk4jNhpW-CjwhlAHB9kiYqpecL4RDr2RWw",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487084304880091136",
+        "likes": 463,
+        "comments": 132,
+        "shares": 52,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 391
+          },
+          {
+            "type": "EMPATHY",
+            "count": 30
+          },
+          {
+            "type": "INTEREST",
+            "count": 29
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/charlie-hills",
+        "sessionId": "331324a3-d143-434e-a812-dcd3c3e17bc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478387311614025728",
+      "entityId": "7478387311614025728",
+      "linkedinUrl": "https://www.linkedin.com/posts/charlie-hills_claude-fable-5-is-back-its-free-until-7-activity-7478387311614025728-7a0j",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478387310343008256",
+      "shareUrn": "urn:li:share:7478387310343008256",
+      "content": "Claude Fable 5 is back (it's free until 7 July).\n\nTop 5 things to build before it goes paid:\n\nFrom 8 July it moves to paid usage credits.\n\n1. Build your website\n\nFable 5 is the strongest front-end model right now.\n\nPrompt: \"Build me a single-page personal website. Name: [X]. What I do: [X]. Deliver as one HTML file, then show me how to publish it free.\"\n\nFull 9-step walkthrough → https://lnkd.in/eTnUbBg4\n\n2. Build an internal tool\n\nStop paying for one-job SaaS subscriptions.\n\nPrompt: \"Here are my 5 most repetitive weekly tasks: [X]. Build a simple one-file tool that replaces the biggest time-drain.\"\n\n3. Audit your past work\n\nIt reads your whole Claude history like a consultant.\n\nPrompt: \"Search our past conversations. List what worked, what I abandoned, where value is sitting. Rank 10 improvements by effort vs impact.\"\n\n4. Design a business around you\n\nClaude's memory knows your skills better than a CV.\n\nPrompt: \"Review what you know about me from memory. Design one business I could launch in 6 days to make money online. Day-by-day plan.\"\n\n5. Learn to run a local LLM\n\nUse the best closed model to depend on it less.\n\nPrompt: \"Teach me to run a local LLM on my machine: [SPECS]. Best open model, simplest tool, beginner setup steps.\"\n\nFull local setup guide → https://lnkd.in/eHe6TNv2\n\nThe window closes on 7 July.\n\nEverything above costs nothing until then.\n\nRepost ♻️ to help someone in your network.\n\nP.S. Which one are you building first?",
+      "author": {
+        "id": "ACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "universalName": null,
+        "publicIdentifier": "charlie-hills",
+        "type": "profile",
+        "name": "Charlie Hills 🦩",
+        "linkedinUrl": "https://www.linkedin.com/in/charlie-hills?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "info": "I help you (actually) use AI.",
+        "website": "https://charliehills.substack.com/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxlD3_hL5KBA/profile-displayphoto-crop_800_800/B4EZ7ff9woKEAI-/0/1781866160164?e=1786579200&v=beta&t=p7pU5KvZY8dfZZQmOyNHTDv6Vel2UDPPL79bbJLtqNw",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "693881882"
+      },
+      "postedAt": {
+        "timestamp": 1782986476806,
+        "date": "2026-07-02T10:01:16.806Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFWUGT97cYbfQ/feedshare-shrink_1280/B4EZ8iRoYUHoAQ-/0/1782986475300?e=1786579200&v=beta&t=YvgPHtvgJtpaYcfOaDYa_nq4HvJ7mLxtD_GVwEnJZiA",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478387311614025728",
+        "likes": 1177,
+        "comments": 393,
+        "shares": 111,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1048
+          },
+          {
+            "type": "EMPATHY",
+            "count": 58
+          },
+          {
+            "type": "INTEREST",
+            "count": 44
+          },
+          {
+            "type": "PRAISE",
+            "count": 20
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 7
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/charlie-hills",
+        "sessionId": "331324a3-d143-434e-a812-dcd3c3e17bc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478024639869300736",
+      "entityId": "7478024639869300736",
+      "linkedinUrl": "https://www.linkedin.com/posts/charlie-hills_pov-you-spent-4143-to-be-at-cannes-lions-activity-7478024639869300736-JnnN",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7478024638334210049",
+      "shareUrn": "urn:li:ugcPost:7478024638334210049",
+      "content": "POV: You spent £4,143 to be at Cannes Lions 😭\n\nand closed zero deals (it was worth every penny):\n\nNaming that number feels gross.\nThe money was never the point.\n\nSo what did £4,143 actually buy?\n\nFlights, accommodation, and a pass I barely used.\n\nEverything that (actually) mattered came free:\n\n☑︎ Exposure that levels you up, not instant ROI.\n☑︎ Conversations I could not get by posting.\n☑︎ Brunch with dream brands like OpenAI.\n☑︎ A surprise invite to speak with Adobe.\n☑︎ A party with Stan I will not forget.\n\nNone of it fit on a spreadsheet.\n\nSo yes, I am going back next year.\n\nMy tips if you are going too:\n\n1. Tell everyone you are going.\n2. Go with friends (it's way more fun).\n3. Book early, or play catch-up like I did.\n4. Make content, have fun, skip the FOMO.\n5. You do not need a pass, only the right people.\n\nThat is when the best invites find you.\n\nProximity is the real product of Cannes.\nYou cannot download a room like that.\n\nThe brands and people who made it special:\n\n- Olivia Owens and Kelly Song (Teachable)\n- AJ Eckstein 🧩 (Creator Match 🧩)\n- John Hu (Stan) and jt barnett\n- Leila Woodington (OpenAI)\n- Charlotte Sparks (Adobe)\n- Fiona Turko (Gamma)\n\nApplications to sponsor me next year are open 😉\nReach me at hello@charliehills.ai for more details.\n\nRepost ♻️ to help someone get in the room.\n\nP.S. See you on the Croisette next year?",
+      "author": {
+        "id": "ACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "universalName": null,
+        "publicIdentifier": "charlie-hills",
+        "type": "profile",
+        "name": "Charlie Hills 🦩",
+        "linkedinUrl": "https://www.linkedin.com/in/charlie-hills?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "info": "I help you (actually) use AI.",
+        "website": "https://charliehills.substack.com/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxlD3_hL5KBA/profile-displayphoto-crop_800_800/B4EZ7ff9woKEAI-/0/1781866160164?e=1786579200&v=beta&t=p7pU5KvZY8dfZZQmOyNHTDv6Vel2UDPPL79bbJLtqNw",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "693881882"
+      },
+      "postedAt": {
+        "timestamp": 1782900009124,
+        "date": "2026-07-01T10:00:09.124Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQF4KLUCLaeY6w/feedshare-shrink_1280/B4EZ8dHycKJIAY-/0/1782900009663?e=1786579200&v=beta&t=IqHLDAm2wx9zQfQShRkbpL5AGTmhl7fqgVdx_q2alB0",
+          "width": 1280,
+          "height": 1706
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQF9KS8DvHWfwQ/feedshare-image-high-res/B4EZ8dHya5K4Ac-/0/1782900009168?e=1786579200&v=beta&t=BJ0lgOdAGSNIT1VH-Oh4feS3th-ONCwXXGaeLD4RqwI",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHm6gmCCDvUew/feedshare-image-high-res/B4EZ8dHybeIcAY-/0/1782900009148?e=1786579200&v=beta&t=O6LEpooLPwit1-w5iQWpBGQVNjEh9wkobl_n_Nnztwg",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHRnsbswXmKpQ/feedshare-shrink_1280/B4EZ8dHya2IkAQ-/0/1782900009090?e=1786579200&v=beta&t=Or9r8N1szVabJzb8bfZj0bFwfuwKYmyMB7xAvBncrnU",
+          "width": 1152,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478024638334210049",
+        "likes": 488,
+        "comments": 356,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 383
+          },
+          {
+            "type": "EMPATHY",
+            "count": 67
+          },
+          {
+            "type": "PRAISE",
+            "count": 23
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 13
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/charlie-hills",
+        "sessionId": "331324a3-d143-434e-a812-dcd3c3e17bc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479474988312399872",
+      "entityId": "7479474988312399872",
+      "linkedinUrl": "https://www.linkedin.com/posts/charlie-hills_you-have-2-days-left-of-free-claude-fable-activity-7479474988312399872-u1Ia",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479474987276574720",
+      "shareUrn": "urn:li:share:7479474987276574720",
+      "content": "You have 2 days left of free Claude Fable 5.\n\nHow to get the most out of it in 6 steps:\n\n1. Give it goals, not instructions.\n2. Write a goal a stranger could mark pass or fail.\n3. Feed it your 3 best posts, it writes the rubric.\n4. Fable plans, Sonnet builds and a fresh agent judges.\n5. Anything under 95 goes back with notes and rewrites.\n6. Your job becomes reading the checks, not the drafts.\n\nThe full loop system is here → https://lnkd.in/eS37Qz7s\n\nRepost ♻️ and I'll send you 100+ Claude guides (for free).\n\nP.S. What's the first loop you'll run?",
+      "author": {
+        "id": "ACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "universalName": null,
+        "publicIdentifier": "charlie-hills",
+        "type": "profile",
+        "name": "Charlie Hills 🦩",
+        "linkedinUrl": "https://www.linkedin.com/in/charlie-hills?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAClbzBoBOVybKu5qmnUEkKOD_KhMrJJLJpo",
+        "info": "I help you (actually) use AI.",
+        "website": "https://charliehills.substack.com/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxlD3_hL5KBA/profile-displayphoto-crop_800_800/B4EZ7ff9woKEAI-/0/1781866160164?e=1786579200&v=beta&t=p7pU5KvZY8dfZZQmOyNHTDv6Vel2UDPPL79bbJLtqNw",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "693881882"
+      },
+      "postedAt": {
+        "timestamp": 1783245799139,
+        "date": "2026-07-05T10:03:19.139Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGMyeD7O9sp-g/feedshare-image-high-res/B4EZ8vRaOzIkAU-/0/1783204525318?e=1786579200&v=beta&t=9c0Qdy_NOydDDV48Xxcruj18jklrlyjMAR1hEMVhXns",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479474988312399872",
+        "likes": 597,
+        "comments": 141,
+        "shares": 67,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 527
+          },
+          {
+            "type": "EMPATHY",
+            "count": 32
+          },
+          {
+            "type": "INTEREST",
+            "count": 27
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/charlie-hills",
+        "sessionId": "331324a3-d143-434e-a812-dcd3c3e17bc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487809298945728514",
+      "entityId": "7487809298945728514",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_an-overview-of-the-eight-pillars-of-total-activity-7487809298945728514-1qyg",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487809297918087168",
+      "shareUrn": "urn:li:share:7487809297918087168",
+      "content": "An overview of the eight pillars of total productive maintenance (Oldies but Goldies Repost)\n\nTotal Productive Maintenance (TPM) is the best known framework for organizing maintenance. In this post I would like to dig deeper into its ideas and how it works. The principles of TPM are often arranged as “eight pillars,” although there are different views of what these eight pillars are. Let me give you an overview ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/gZZ5vDYz",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1785232853638,
+        "date": "2026-07-28T10:00:53.638Z",
+        "postedAgoShort": "10h",
+        "postedAgoText": "10 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "An Overview of the Eight Pillars of Total Productive Maintenance - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/tpm-pillars-overview/?fsp_sid=6974",
+        "linkLabel": "Open article: An Overview of the Eight Pillars of Total Productive Maintenance - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D5610AQHk5QtUsl4pmQ/image-shrink_1280/B56Z.oK4fEJgAg-/0/1785232853319?e=1785877200&v=beta&t=_NxeSvd5XgSqnuKtk--09J9iP_MLzrelbOmffH3JUK8",
+          "width": 1024,
+          "height": 541
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487809298945728514",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487085590333513728",
+      "entityId": "7487085590333513728",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_a-brief-history-of-maintenance-allaboutleancom-activity-7487085590333513728-Lx7h",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487085589176053760",
+      "shareUrn": "urn:li:share:7487085589176053760",
+      "content": "A brief history of maintenance (Oldies but Goldies Repost)\n\nAt the suggestion of multiple readers, I would like to take a deeper look into maintenance, especially total productive maintenance (TPM). Maintaining your machines and tools is important for your business. In many places, maintenance seems to be more reactive: if it breaks, fix it. Often, a better approach would be proactive maintenance: maintain it ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/dw9Z3-Bp",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1785060308059,
+        "date": "2026-07-26T10:05:08.059Z",
+        "postedAgoShort": "2d",
+        "postedAgoText": "2 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "A Brief History of Maintenance - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/maintenance-history/?fsp_sid=6969",
+        "linkLabel": "Open article: A Brief History of Maintenance - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQGM-IyMjUnllA/image-shrink_1280/B4DZ.d4rAzKkAc-/0/1785060307460?e=1785877200&v=beta&t=6rpkDvUIRKRfPLXqwHDcqGq2p2e09YskCgLAQeoUFPY",
+          "width": 1024,
+          "height": 664
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487085590333513728",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484911994211586048",
+      "entityId": "7484911994211586048",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_respect-for-people-introduction-allaboutleancom-activity-7484911994211586048-dm-k",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484911993380823040",
+      "shareUrn": "urn:li:share:7484911993380823040",
+      "content": "Respect for people – introduction (Oldies but Goldies Repost)\n\nOne important aspect in lean manufacturing is “Respect for People,” or more correctly, “Respect for Humanity.” But while it is mentioned frequently in presentations and books on lean manufacturing, what it actually means is often glossed over. And it is not an easy topic to write about. There is no “5 Steps to Respect for ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/dbWd_BRM",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1784542082360,
+        "date": "2026-07-20T10:08:02.360Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Respect for People – Introduction - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/respect-for-people-introduction/?fsp_sid=6952",
+        "linkLabel": "Open article: Respect for People – Introduction - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQG2Tz4A5zAcQA/image-shrink_1280/B4DZ9._zKhIEAc-/0/1784542081938?e=1785877200&v=beta&t=Y96gI9HKK_lENCxbwPtJhZVHtiosxyua1lALtRB_RBM",
+          "width": 900,
+          "height": 506
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484911994211586048",
+        "likes": 6,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486722301615489024",
+      "entityId": "7486722301615489024",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_what-is-a-good-minimum-for-the-supermarket-activity-7486722301615489024-YCar",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486722300843749376",
+      "shareUrn": "urn:li:share:7486722300843749376",
+      "content": "What is a good minimum for the supermarket? (Oldies but Goldies Repost)\n\nA minimum level in a supermarket gives you a warning that a stock out is imminent. Hopefully it also gives you enough time to prevent such a stock out, even though this may result in firefighting. In my last post I talked on how to use a minimum level. This post will look at how ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/dMu2dcKN",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1784973693279,
+        "date": "2026-07-25T10:01:33.279Z",
+        "postedAgoShort": "3d",
+        "postedAgoText": "3 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "What Is a Good Minimum for the Supermarket? - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/supermarket-minimum-level/?fsp_sid=6967",
+        "linkLabel": "Open article: What Is a Good Minimum for the Supermarket? - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQEl_vmfMou-kQ/image-shrink_1280/B4DZ.YuQ7UJ8Ac-/0/1784973692882?e=1785877200&v=beta&t=4Z5K0qz4lW4Y2dRHs9QDCOa_0hbc7Jwwdd1AjQvbloA",
+          "width": 1024,
+          "height": 585
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486722301615489024",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485636437359542272",
+      "entityId": "7485636437359542272",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_respect-for-people-its-difficult-activity-7485636437359542272-Le91",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485636436474466304",
+      "shareUrn": "urn:li:share:7485636436474466304",
+      "content": "Respect for people – it's difficult... (Oldies but Goldies Repost)\n\nIn this last post on “Respect for People” or “Respect for Humanity,” I will look at all the difficulties in having respect for others. There is often the cultural aspect. There is the problem that everybody is different. One great (but not always easy tool) is Feedback! I will also talk a bit more about ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/dCgYPBPy",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1784714803066,
+        "date": "2026-07-22T10:06:43.066Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Respect for People – It's Difficult... - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/respect-for-people-its-difficult/?fsp_sid=6958",
+        "linkLabel": "Open article: Respect for People – It's Difficult... - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQGnev9JFqqsSw/image-shrink_1280/B4DZ.JSrRuGYAc-/0/1784714802586?e=1785877200&v=beta&t=kdi714OS5tI4KDem05_VmPWDUvN9tft7Lu0214S1p4s",
+          "width": 424,
+          "height": 283
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485636437359542272",
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483824308558110720",
+      "entityId": "7483824308558110720",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_reducing-lead-time-2-fluctuations-and-utilization-activity-7483824308558110720-31s0",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483824307635322880",
+      "shareUrn": "urn:li:share:7483824307635322880",
+      "content": "Reducing lead time 2 – fluctuations and utilization (Oldies but Goldies Repost)\n\nThis second post in a series on how to reduce your lead time looks deeper at the effect of fluctuations and utilization. Improving these will reduce your inventory and hence, as per Little’s Law, reduce your lead time. Reduce Fluctuations Your inventory helps you to cover fluctuations. The next step would be to reduce fluctuations ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/eGATTbf3",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1784282757892,
+        "date": "2026-07-17T10:05:57.892Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Reducing Lead Time 2 – Fluctuations and Utilization - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/lead-time-fluctuations-utilization/?fsp_sid=6945",
+        "linkLabel": "Open article: Reducing Lead Time 2 – Fluctuations and Utilization - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQH5cDAPFSNQbA/image-shrink_1280/B4EZ9vijdAJUAc-/0/1784282757289?e=1785877200&v=beta&t=DUIv0QBnRSHwi-T3Jrka2JOZhzGay2Ol1M4cuMrl-wo",
+          "width": 900,
+          "height": 309
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483824308558110720",
+        "likes": 8,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484547772856238080",
+      "entityId": "7484547772856238080",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_reducing-lead-time-4-development-allaboutleancom-activity-7484547772856238080-lwZ-",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484547771979620352",
+      "shareUrn": "urn:li:share:7484547771979620352",
+      "content": "Reducing lead time 4 – development (Oldies but Goldies Repost)\n\nReducing lead time is often important for the success of a company. This last out of four posts looks a bit more in detail at the reduction in lead time during product development. This is especially important for make-to-order production, but also for the introduction of new products into the market. Let’s have a look. ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/eWT3JMdP",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1784455245222,
+        "date": "2026-07-19T10:00:45.222Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Reducing Lead Time 4 – Development - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/lead-time-development/?fsp_sid=6950",
+        "linkLabel": "Open article: Reducing Lead Time 4 – Development - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQEvF00OxNGi2g/image-shrink_800/B4EZ950in5HkAg-/0/1784455244589?e=1785877200&v=beta&t=m7LfwICjzRkRK_cgVhJ8Sbb7eLb7_W1oFIULy3JuAKY",
+          "width": 712,
+          "height": 568
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484547772856238080",
+        "likes": 4,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485272650118860800",
+      "entityId": "7485272650118860800",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_respect-for-people-why-and-how-allaboutleancom-activity-7485272650118860800-40L9",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485272649145901058",
+      "shareUrn": "urn:li:share:7485272649145901058",
+      "content": "Respect for people – why and how (Oldies but Goldies Repost)\n\nIn my previous post on “Respect for People” or “Respect for Humanity,” I gave you a bit of an introduction to this very challenging topic. In this second post of the series I will look at why you should have respect for others, and especially how you can show respect. However, especially the “how to ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/dRMFnGdE",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1784628069429,
+        "date": "2026-07-21T10:01:09.429Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Respect for People – Why and How - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/respect-for-people-why-and-how/?fsp_sid=6955",
+        "linkLabel": "Open article: Respect for People – Why and How - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQE7JTavNbpWgQ/image-shrink_1280/B4DZ.EH0DDHQAc-/0/1784628068997?e=1785877200&v=beta&t=A_R0yldIdnVN4_fryhLPUJeXJFLIEBzcEMtJ1UkJ4dE",
+          "width": 900,
+          "height": 600
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485272650118860800",
+        "likes": 5,
+        "comments": 3,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484185432767803393",
+      "entityId": "7484185432767803393",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_reducing-lead-time-3-throughput-and-lot-activity-7484185432767803393-Ha8H",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484185431975211008",
+      "shareUrn": "urn:li:share:7484185431975211008",
+      "content": "Reducing lead time 3 – throughput and lot size (Oldies but Goldies Repost)\n\nTwo more factors for reducing your lead time are the throughput and the lot size. However, the throughput has a smaller effect – although with other benefits that are often larger than the reduction in the lead time. The reduction in the lot size can have a huge effect, although usually only for make-to-stock production. ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/ehsZgGXP",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1784368856613,
+        "date": "2026-07-18T10:00:56.613Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Reducing Lead Time 3 – Throughput and Lot Size - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/lead-time-throughput-lot-size/?fsp_sid=6948",
+        "linkLabel": "Open article: Reducing Lead Time 3 – Throughput and Lot Size - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQHXsePjlPXr-w/image-shrink_1280/B4EZ90q_tOHkAc-/0/1784368856241?e=1785877200&v=beta&t=FOOBWj5I6U496C6TBoMs6mvYLxB567sXSWLfSPIx2w8",
+          "width": 1024,
+          "height": 768
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484185432767803393",
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483099816076656640",
+      "entityId": "7483099816076656640",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_what-is-true-north-in-lean-allaboutleancom-activity-7483099816076656640-wCgP",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483099815346888705",
+      "shareUrn": "urn:li:share:7483099815346888705",
+      "content": "What is true north in lean? (Oldies but Goldies Repost)\n\nLean manufacturing often talks about true north. This is the direction in which your operations should move to become better. Sometimes that may be a bit fuzzy, so let’s have a look at what true north could include. I am fully aware that reaching true north in all aspects is unrealistic. If you actually reached ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/eXh3Essu",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1784110025424,
+        "date": "2026-07-15T10:07:05.424Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "What Is True North in Lean? - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/true-north/?fsp_sid=6939",
+        "linkLabel": "Open article: What Is True North in Lean? - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQFTlKOF2d4S6w/image-shrink_1280/B4EZ9lPos4HkAg-/0/1784110025811?e=1785877200&v=beta&t=nTsrnSusbnsKNI92ymBnFHGdzKRY865F0kzxZ0uTigs",
+          "width": 971,
+          "height": 1024
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483099816076656640",
+        "likes": 5,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486359956967809024",
+      "entityId": "7486359956967809024",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_how-to-use-a-minimum-in-a-supermarket-allaboutleancom-activity-7486359956967809024-VfBh",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486359956141748224",
+      "shareUrn": "urn:li:share:7486359956141748224",
+      "content": "How to use a minimum in a supermarket (Oldies but Goldies Repost)\n\nThe kanban formula (or estimation) helps you determine the number of kanban. All of these should fit in the supermarket, hence the maximum in the supermarket represents all kanban. Many supermarkets also have a minimum inventory level. Unfortunately, there is little information on how to set the minimum. Time to take a deeper look on ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/dQiqCbX8",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1784887303583,
+        "date": "2026-07-24T10:01:43.583Z",
+        "postedAgoShort": "4d",
+        "postedAgoText": "4 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "How to Use a Minimum in a Supermarket - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/supermarket-minimum-use/?fsp_sid=6964",
+        "linkLabel": "Open article: How to Use a Minimum in a Supermarket - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQFNb9hHGzmoiw/image-shrink_1280/B4DZ.TktsDH0Ac-/0/1784887303176?e=1785877200&v=beta&t=Kezwl_cDg3eHPUb4e2zvcrkaepCUhIWlyGCQqIsSC5w",
+          "width": 1024,
+          "height": 768
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486359956967809024",
+        "likes": 6,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482011853393584128",
+      "entityId": "7482011853393584128",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_the-impact-of-brexit-on-supply-chains-allaboutleancom-activity-7482011853393584128-8iLH",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482011852579733504",
+      "shareUrn": "urn:li:share:7482011852579733504",
+      "content": "The impact of brexit on supply chains (Oldies but Goldies Repost)\n\nOn December 31, 2020, the transition period will end and United Kingdom will be out of the European Union. Brexit will be complete. But I fear the mess will be only starting. In this post I want to look at the impact of Brexit on supply chains. It won’t be pretty. Background A political gamble ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/eQPh4gau",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1783850634907,
+        "date": "2026-07-12T10:03:54.907Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "The Impact of Brexit on Supply Chains - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/brexit-and-supply-chains/?fsp_sid=6931",
+        "linkLabel": "Open article: The Impact of Brexit on Supply Chains - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQEp_OAI3d0QnQ/image-shrink_1280/B4EZ9VyIvTHMAc-/0/1783850634586?e=1785877200&v=beta&t=1TptZXulXOU8e95DkcBz3pntjiRJw_CHGMQcFJU4tww",
+          "width": 888,
+          "height": 216
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482011853393584128",
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "reactions": []
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482374098036142080",
+      "entityId": "7482374098036142080",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_how-to-learn-lean-allaboutleancom-activity-7482374098036142080-j1k_",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482374097323237376",
+      "shareUrn": "urn:li:share:7482374097323237376",
+      "content": "How to learn lean (Oldies but Goldies Repost)\n\nLean manufacturing can help you and your company greatly. But how do you learn lean? Of course, there are plenty of Six Sigma lean black belts and other certificates available online, but do they really make you understand lean? In this post I have some suggestions on how to learn lean. These can befollowed by ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/eF-f3Z76",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1783937000760,
+        "date": "2026-07-13T10:03:20.760Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "How to Learn Lean - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/how-to-learn-lean/?fsp_sid=6933",
+        "linkLabel": "Open article: How to Learn Lean - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQHZN2vkp74P5A/image-shrink_1280/B4EZ9a7mM3K4Ac-/0/1783937000812?e=1785877200&v=beta&t=5JEs2U7UWp3oemIn7M1yURqz3HHI-A7FgVpDbiFPDek",
+          "width": 900,
+          "height": 601
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482374098036142080",
+        "likes": 6,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480924445713346560",
+      "entityId": "7480924445713346560",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_reducing-fluctuations-upstream-allaboutleancom-activity-7480924445713346560-sd1K",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480924444945956865",
+      "shareUrn": "urn:li:share:7480924444945956865",
+      "content": "Reducing fluctuations upstream (Oldies but Goldies Repost)\n\nThis post will list a number of tools that can help to reduce fluctuations. They can reduce fluctuations in the material flow, including its inventories and the durations and lead times. Since reducing fluctuations (mura) is an underlying important idea throughout lean manufacturing, a lot of tools can help. And, depending on how you interpret ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/eCVvZprp",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1783591376713,
+        "date": "2026-07-09T10:02:56.713Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Reducing Fluctuations Upstream - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/reducing-fluctuations-upstream/?fsp_sid=6923",
+        "linkLabel": "Open article: Reducing Fluctuations Upstream - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQFnFVDW5iKlbg/image-shrink_1280/B4EZ9GVJQHHAAk-/0/1783591376225?e=1785877200&v=beta&t=d93MXHN_o3AryswLmLdRHGxHUASgo3AwCVhAO9GwHPA",
+          "width": 900,
+          "height": 530
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480924445713346560",
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483460917565796352",
+      "entityId": "7483460917565796352",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_reducing-lead-time-1-inventory-allaboutleancom-activity-7483460917565796352-v_76",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483460914881490944",
+      "shareUrn": "urn:li:share:7483460914881490944",
+      "content": "Reducing lead time 1 – inventory (Oldies but Goldies Repost)\n\nLead time is a key factor for customer satisfaction, especially with make-to-order production. Hence, many companies want to reduce this lead time. In this blog post I show you the basic levers that influence your lead time, and a few more that may also apply to some cases. You have to find the combination of ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/eJQQgAJZ",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1784196118728,
+        "date": "2026-07-16T10:01:58.728Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Reducing Lead Time 1 – Inventory - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/lead-time-inventory/?fsp_sid=6942",
+        "linkLabel": "Open article: Reducing Lead Time 1 – Inventory - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQGTOuaGyOESTw/image-shrink_1280/B4EZ9qYDPOJEAg-/0/1784196117825?e=1785877200&v=beta&t=SEh7IQzddPvnEe4yg2m0MqSRTcQWDQ5TuELWyskgYS0",
+          "width": 424,
+          "height": 283
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483460917565796352",
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480562503664570369",
+      "entityId": "7480562503664570369",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_structure-for-reducing-fluctuations-allaboutleancom-activity-7480562503664570369-xZ_N",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480562502855204865",
+      "shareUrn": "urn:li:share:7480562502855204865",
+      "content": "Structure for reducing fluctuations (Oldies but Goldies Repost)\n\nThis post looks at how to reduce fluctuations (mura) in manufacturing. It is a continuation of the previous post that looked at why fluctuations are so bad. Be warned, tackling fluctuations is often a tedious task that never ends, but it one of the important fundamentals for lean manufacturing. After all, the more stable a ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/eSuBhCjV",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1783505083004,
+        "date": "2026-07-08T10:04:43.004Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Structure for Reducing Fluctuations - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/reducing-fluctuations-structure/?fsp_sid=6920",
+        "linkLabel": "Open article: Structure for Reducing Fluctuations - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQHkVOEVztJtAA/image-shrink_1280/B4EZ9BL9eLJ0Ac-/0/1783505082601?e=1785877200&v=beta&t=EI778ZfNEtcXcW7xAKDIUmc05TWnR9xFXJuFH55hZSY",
+          "width": 900,
+          "height": 506
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480562503664570369",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485998556441415681",
+      "entityId": "7485998556441415681",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_manufacturing-drives-prosperity-allaboutleancom-activity-7485998556441415681-j9sg",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485998555216797696",
+      "shareUrn": "urn:li:share:7485998555216797696",
+      "content": "Manufacturing drives prosperity (Oldies but Goldies Repost)\n\nManufacturing is one of the drivers of modern prosperity. Most manufactured goods become cheaper and cheaper over time, adjusted for inflation. Services, on the other hand, usually become more expensive over time. In this blog post I dive a bit deeper into these changes, using the USA consumer price index as an example. A Bit ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/dcbcH5wN",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1784801138983,
+        "date": "2026-07-23T10:05:38.983Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Manufacturing Drives Prosperity - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/manufacturing-drives-prosperity/?fsp_sid=6961",
+        "linkLabel": "Open article: Manufacturing Drives Prosperity - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQErkzqcQDhPPg/image-shrink_1280/B4DZ.OcBZaIEAk-/0/1784801138887?e=1785877200&v=beta&t=X0oL43RnPUacDn2IsYmz4IwcXV2v1-ANLqO2hmdaeDc",
+          "width": 900,
+          "height": 516
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485998556441415681",
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479112206815719424",
+      "entityId": "7479112206815719424",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_how-not-to-do-a-lean-transformation-a-case-activity-7479112206815719424-XsmT",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479112206048157696",
+      "shareUrn": "urn:li:share:7479112206048157696",
+      "content": "How not to do a lean transformation – a case study of gm (Oldies but Goldies Repost)\n\nBecoming lean is an aspiring goal for many companies. In my first post I showed you how Toyota does it … and why this may not work for you. In this second post of this series I will show you how NOT to do a lean transformation, and try to highlight common mistakes. In a ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/dWdPMyVp",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1783159305290,
+        "date": "2026-07-04T10:01:45.290Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "How NOT to Do a Lean Transformation – A Case Study of GM - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/failed-lean-transformation/?fsp_sid=6910",
+        "linkLabel": "Open article: How NOT to Do a Lean Transformation – A Case Study of GM - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQGOwBTJaqtWiA/image-shrink_1280/B4DZ8sk7FMKsAc-/0/1783159304876?e=1785877200&v=beta&t=f_ugYItIeG4BxM6oK8Kd7C18rZJVjFXxfRFaBILWvGY",
+          "width": 900,
+          "height": 514
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479112206815719424",
+        "likes": 8,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 7
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479837132342353920",
+      "entityId": "7479837132342353920",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_how-to-roll-out-a-lean-transformation-allaboutleancom-activity-7479837132342353920-NO_i",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479837131486507009",
+      "shareUrn": "urn:li:share:7479837131486507009",
+      "content": "How to roll out a lean transformation (Oldies but Goldies Repost)\n\nThe goal of a lean transformation is to shift the culture of an organization toward lean. In my last post I discussed a lot of prerequisites. In this post I would like to discuss how to actually do it. Be warned, there is no magic bullet. There is no simple trick that just turns lean ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/eaqBXHsD",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1783332141004,
+        "date": "2026-07-06T10:02:21.004Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "How to Roll Out a Lean Transformation - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/lean-transformation-roll-out/?fsp_sid=6914",
+        "linkLabel": "Open article: How to Roll Out a Lean Transformation - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQFL1L7pERwNLw/image-shrink_1280/B4EZ824PT8HMAg-/0/1783332140608?e=1785877200&v=beta&t=--6YdFcaKNIlJiZOHMZYFBTKDpfMYLmdtLDNyc-IDK0",
+          "width": 900,
+          "height": 506
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479837132342353920",
+        "likes": 5,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478750568354582529",
+      "entityId": "7478750568354582529",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_how-to-do-a-lean-transformation-the-toyota-activity-7478750568354582529-4ssj",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478750567423651840",
+      "shareUrn": "urn:li:share:7478750567423651840",
+      "content": "How to do a lean transformation – the toyota approach (Oldies but Goldies Repost)\n\nCompanies continuously need to improve to survive. Lean can help them with this continuous improvement, so many companies aspire to become lean. The question is, how do you do that? How do you do a lean transformation, or more generally a change management? In this post I would like to talk about what is needed ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/d9W-7-wC",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1783073083962,
+        "date": "2026-07-03T10:04:43.962Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "How to Do a Lean Transformation – The Toyota Approach - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/toyota-lean-transformation/?fsp_sid=6907",
+        "linkLabel": "Open article: How to Do a Lean Transformation – The Toyota Approach - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQF3L53c9mTn_A/image-shrink_1280/B4DZ8ncA8cJ4Ac-/0/1783073083484?e=1785877200&v=beta&t=AdjFYBMvymyQwnZMZbYhwywzhbXyD7AxMlFDXE2Npbo",
+          "width": 900,
+          "height": 556
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478750568354582529",
+        "likes": 7,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479474397234446336",
+      "entityId": "7479474397234446336",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_key-points-for-a-lean-transformation-allaboutleancom-activity-7479474397234446336-yV4Z",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479474396483633152",
+      "shareUrn": "urn:li:share:7479474396483633152",
+      "content": "Key points for a lean transformation (Oldies but Goldies Repost)\n\nIn my last post, I showed you a good example of all the things you can do wrong during a lean transformation. Learning from these mistakes gives a list of points that are relevant for a lean transformation. Let me show you what is important for a successful lean transformation. You Need to Convince Your ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/gTTcRTi",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1783245658215,
+        "date": "2026-07-05T10:00:58.215Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Key Points for a Lean Transformation - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/key-points-lean-transformation/?fsp_sid=6912",
+        "linkLabel": "Open article: Key Points for a Lean Transformation - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQEp4eO0RarmRA/image-shrink_1280/B4DZ8xuVWyJwAc-/0/1783245657747?e=1785877200&v=beta&t=ZAg27QRB0aaptEeA34A59c_oSgl8tSkHS9eYyq0xnT4",
+          "width": 768,
+          "height": 465
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479474397234446336",
+        "likes": 10,
+        "comments": 1,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481648761421795329",
+      "entityId": "7481648761421795329",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_reducing-fluctuations-downstream-allaboutleancom-activity-7481648761421795329-eTH1",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481648760519901184",
+      "shareUrn": "urn:li:share:7481648760519901184",
+      "content": "Reducing fluctuations downstream (Oldies but Goldies Repost)\n\nThis last post of my series looks at fluctuations that originate downstream from your location. In other words, how to reduce fluctuations originating from your customer. Granted, this often is the most difficult one, as you usually have not so much influence over your customers (unless you have a monopoly). Let’s have a look. Intro ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/eh2mv_aB",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1783764067035,
+        "date": "2026-07-11T10:01:07.035Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Reducing Fluctuations Downstream - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/reducing-fluctuations-downstream/?fsp_sid=6929",
+        "linkLabel": "Open article: Reducing Fluctuations Downstream - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQHV0ZVf_Cl53g/image-shrink_1280/B4EZ9Qn5.2HMAc-/0/1783764066507?e=1785877200&v=beta&t=OcKKmdQz2uodgrZNTq1UB5oOmDQGqUKpYCYo6P0Q5Tc",
+          "width": 900,
+          "height": 405
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481648761421795329",
+        "likes": 5,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478388060305498112",
+      "entityId": "7478388060305498112",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_when-not-to-balance-a-line-allaboutleancom-activity-7478388060305498112-p-JW",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478388059206533121",
+      "shareUrn": "urn:li:share:7478388059206533121",
+      "content": "When not to balance a line (Oldies but Goldies Repost)\n\nLine balancing is one of the important methods for improving your production system. The idea is to give every process the same workload so all processes are busy all the time. However, there are cases where it may be better NOT to balance a line. This post will look into when and why you may ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/dcvFdttg",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1782986655308,
+        "date": "2026-07-02T10:04:15.308Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "When NOT to Balance a Line - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/when-not-to-balance-a-line/?fsp_sid=6904",
+        "linkLabel": "Open article: When NOT to Balance a Line - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQF9u4yVdYx1vA/image-shrink_1280/B4DZ8iSUIJI4Ag-/0/1782986654547?e=1785877200&v=beta&t=BL0AyXKhz8UI9ns0_unFkeMnZwF55qd1G52Zxgni5ig",
+          "width": 900,
+          "height": 600
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478388060305498112",
+        "likes": 5,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480200502933192704",
+      "entityId": "7480200502933192704",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_why-are-fluctuations-so-bad-allaboutleancom-activity-7480200502933192704-EQyg",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480200500349648897",
+      "shareUrn": "urn:li:share:7480200500349648897",
+      "content": "Why are fluctuations so bad? (Oldies but Goldies Repost)\n\nFluctuations are bad for manufacturing. In lean, unevenness is one of the three evils, besides waste and overburden. In this post I will give you an introduction to fluctuations. One option to handle fluctuations is decoupling, but this addresses only the symptoms and not the cure. In my next post I will show you how ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/evuv83pf",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1783418775304,
+        "date": "2026-07-07T10:06:15.304Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Why Are Fluctuations So Bad? - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/bad-fluctuations/?fsp_sid=6917",
+        "linkLabel": "Open article: Why Are Fluctuations So Bad? - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQFZqkz-k8sOyg/image-shrink_1280/B4EZ88CuJ6HoAc-/0/1783418774421?e=1785877200&v=beta&t=NnK7pMW8ovKPMt4zcU4-CBOFr3Rn6-_GHxRh28-7OLE",
+          "width": 900,
+          "height": 564
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480200502933192704",
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477663115942412289",
+      "entityId": "7477663115942412289",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_design-for-x-allaboutleancom-activity-7477663115942412289-Wgl5",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477663115078275072",
+      "shareUrn": "urn:li:share:7477663115078275072",
+      "content": "Design for x (Oldies but Goldies Repost)\n\nIn my last couple of posts I looked at design for manufacturing and assembly DFMA. However, there is more out there. Often, they are grouped as Design for X, where X could be anything related to the product life cycle, including development, production, shipping, servicing, use, disposal, and many more. There seems to be a ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/dkQs4XHw",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1782813815103,
+        "date": "2026-06-30T10:03:35.103Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Design for X - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/dfma-7/?fsp_sid=6898",
+        "linkLabel": "Open article: Design for X - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQEXgue4xx4lvg/image-shrink_1280/B4DZ8X..7IHEAg-/0/1782813814884?e=1785877200&v=beta&t=LtcEjQq-wL-Aw093Nzq70zJftsAxPrItWz0eiOCYZyw",
+          "width": 1280,
+          "height": 568
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477663115942412289",
+        "likes": 6,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487446920635002881",
+      "entityId": "7487446920635002881",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_what-are-the-goals-of-maintenance-allaboutleancom-activity-7487446920635002881-GCTF",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487446919783448576",
+      "shareUrn": "urn:li:share:7487446919783448576",
+      "content": "What are the goals of maintenance? (Oldies but Goldies Repost)\n\nIn my last post I looked at the history of maintenance. This post goes into more detail on the reasons why you should do maintenance. There are many more than merely to improve uptime. Let’s have a look at the different goals of maintenance. For illustration I will use the example of a car, since ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/du5EX_Z6",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1785146455916,
+        "date": "2026-07-27T10:00:55.916Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "What Are the Goals of Maintenance? - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/maintenance-goals/?fsp_sid=6971",
+        "linkLabel": "Open article: What Are the Goals of Maintenance? - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQHDWHq97tlmKA/image-shrink_1280/B4DZ.jBTUHJAAc-/0/1785146455544?e=1785877200&v=beta&t=U7WffILXuvWMi-FL47-KLBctsYcv3c7fjKOZAdWaUPY",
+          "width": 500,
+          "height": 749
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487446920635002881",
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478025527266607104",
+      "entityId": "7478025527266607104",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_toyotas-six-rules-for-kanban-allaboutleancom-activity-7478025527266607104-zbiD",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478025526436106241",
+      "shareUrn": "urn:li:share:7478025526436106241",
+      "content": "Toyota's six rules for kanban (Oldies but Goldies Repost)\n\nThe kanban system is the most famous way to establish a pull system. As part of their guidelines for kanban, Toyota has established Six Rules for Kanban. They can be found, for example, in the 1973 Toyota Production System Handbook. This blog post describes these six rules, based on the Toyota handbook. While these rules ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/dU6jxX7h",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1782900220696,
+        "date": "2026-07-01T10:03:40.696Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Toyota's Six Rules for Kanban - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/toyotas-six-rules/?fsp_sid=6901",
+        "linkLabel": "Open article: Toyota's Six Rules for Kanban - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQEvP3H4HjwxFQ/image-shrink_1280/B4DZ8dIl_nJAAg-/0/1782900220184?e=1785877200&v=beta&t=spE5mOocMkvmceXvuxn662DnHKMFj_How7NL6jkg-gU",
+          "width": 1280,
+          "height": 1046
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478025527266607104",
+        "likes": 11,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 11
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481286552984199169",
+      "entityId": "7481286552984199169",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_reducing-fluctuations-on-your-shop-floor-activity-7481286552984199169-ZcJF",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481286552132751360",
+      "shareUrn": "urn:li:share:7481286552132751360",
+      "content": "Reducing fluctuations on your shop floor (Oldies but Goldies Repost)\n\nFluctuations can also originate within your area of responsibility. In my previous post, I looked at how to reduce fluctuations coming from upstream. In this post I look at your shop floor. Using the source-make-deliver structure, this post is about reducing fluctuations at “make.”  Make There are a lot of possibilities for reducing fluctuations in ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/eHq73rwg",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1783677709814,
+        "date": "2026-07-10T10:01:49.814Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Reducing Fluctuations on Your Shop Floor - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/reducing-fluctuations-shop-floor/?fsp_sid=6926",
+        "linkLabel": "Open article: Reducing Fluctuations on Your Shop Floor - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQGHQVbfQan9IQ/image-shrink_1280/B4EZ9LeesaHsAc-/0/1783677709407?e=1785877200&v=beta&t=9e4t-v0lCtbUrChcJxFb6DSeKE3kNV-Zf9G7fUfS8c4",
+          "width": 900,
+          "height": 675
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481286552984199169",
+        "likes": 5,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477301107648811009",
+      "entityId": "7477301107648811009",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_design-for-assembly-questions-part-3-activity-7477301107648811009-hU5P",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477301106864349184",
+      "shareUrn": "urn:li:share:7477301106864349184",
+      "content": "Design for assembly questions – part 3 (Oldies but Goldies Repost)\n\nThis post finally concludes my list of questions to ask for design for assembly (DFA). I myself was surprised that there is enough material for three posts, and this does not even include the introductions and the design for manufacturing aspects (DFM). Anyway, let’s have a look at how you can make assembly easier. Design ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/dXE7wfA6",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1782727505600,
+        "date": "2026-06-29T10:05:05.600Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Design for Assembly Questions – Part 3 - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/dfma-6/?fsp_sid=6895",
+        "linkLabel": "Open article: Design for Assembly Questions – Part 3 - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQEe4meEhMgErA/image-shrink_1280/B4DZ8S1vP7IIAc-/0/1782727505184?e=1785877200&v=beta&t=FpMeeiOdKqBItYrNjRP6B5p43tBFK6S5T3BY4LjGXzw",
+          "width": 900,
+          "height": 601
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477301107648811009",
+        "likes": 4,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482736043486638080",
+      "entityId": "7482736043486638080",
+      "linkedinUrl": "https://www.linkedin.com/posts/christoph-roser-allaboutlean_the-baton-touch-flow-line-allaboutleancom-activity-7482736043486638080-mirS",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482736042589175809",
+      "shareUrn": "urn:li:share:7482736042589175809",
+      "content": "The baton touch flow line (Oldies but Goldies Repost)\n\nThe baton touch is probably the easiest way to do multi-machine handling in a line. This ease-of-use makes it a very popular approach for the assignment of the operators in a line. An operator is in charge of a fixed set of processes. The operator always repeats the same loop of processes. Multiple operators, each ... Read more\n\nChristoph Roser \n#allaboutlean #operationalexcellence #leanmanufacturing #leansixsigma\n\nhttps://lnkd.in/eMwBwkMd",
+      "author": {
+        "id": "ACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "universalName": null,
+        "publicIdentifier": "christoph-roser-allaboutlean",
+        "type": "profile",
+        "name": "Christoph Roser",
+        "linkedinUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAchBLgBc_Q2zCRklDnoJ4K6wxyh_3SUexs",
+        "info": "Toyota Alumni | McKinsey Alumni | Author of All About Pull Production | Professor of Production Management | Speaker | Blogger at AllAboutLean.com | Former Manager at Bosch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQEb22-_UiEATg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516550721051?e=1786579200&v=beta&t=IjBl622ecbAwyPFSUJPFy1rwiybNurXgTmRJ1ha_wMg",
+          "width": 236,
+          "height": 236
+        },
+        "urn": "119604408"
+      },
+      "postedAt": {
+        "timestamp": 1784023295280,
+        "date": "2026-07-14T10:01:35.280Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "The Baton Touch Flow Line - AllAboutLean.com",
+        "subtitle": "allaboutlean.com",
+        "link": "https://www.allaboutlean.com/baton-touch/?fsp_sid=6936",
+        "linkLabel": "Open article: The Baton Touch Flow Line - AllAboutLean.com by allaboutlean.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQG_L8mNlxs3Iw/image-shrink_1280/B4EZ9gEyL_IAAc-/0/1784023295118?e=1785877200&v=beta&t=Ed5Vr4SWOjuqROcRKAWcwerqGlDjlHF1dwSOKTnfMi4",
+          "width": 1280,
+          "height": 800
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482736043486638080",
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+        "sessionId": "2d6415fc-22a6-4feb-a7c1-a5f4ab0b8376"
+      }
+    }
+  ]
+}

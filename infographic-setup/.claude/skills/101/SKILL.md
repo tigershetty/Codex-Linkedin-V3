@@ -1,14 +1,25 @@
 ---
 name: 101
-description: Use when the user runs /101 [topic-number or slug]. Supply Chain 101 pipeline. Runs the research-engine FIRST to build a consultant-grade sourced research brief, then takes the topic from the plan and generates 10 hook options + LinkedIn caption + 3 DISTINCT code-rendered infographic variants (renderer/, HTML→PNG) for the user to pick one. The ChatGPT Image 2 prompt is kept as a backup visual path. No control gates.
+description: Use when the user runs /101 [topic-number or slug]. V4 Supply Chain 101 pipeline: qualify an audience decision problem, run sourced research, load Tiger provenance, draft three evidence-led openings, and produce one strong approved still through Visual Engine v2 plus motion when eligible.
 ---
 
 # /101 Skill — Supply Chain 101 Pipeline
 
 ## Purpose
-Pipeline for the Supply Chain 101 series. Takes a topic from the plan, **runs the research-engine first** (mandatory consultant-grade, sourced research brief — see Step 0), then generates 10 hook options + LinkedIn caption + **3 distinct code-rendered infographic variants** (`renderer/`, HTML→PNG) for the user to pick one. No control gates. User picks the hook and the visual variant at the end. The research brief is what lets the cards carry real, sourced numbers instead of the plan's generic framing.
+Turn a demonstrated supply-chain decision problem into a sourced, useful and recognisably Tiger explanation. The calendar supplies candidates only; the V4 weekly board decides what earns production.
 
-**Visual path (changed 2026-06-21):** 101 is now **code-render primary** — the infographic is built deterministically in `renderer/` (same kit + brand frame as AI for SC, but **no AI-tool logo** and the accessible 101 register). The **ChatGPT (GPT Image 2) prompt is the backup** path, kept in `101-copy.md` for illustration/metaphor posts with no load-bearing structure. See `references/render-pilot-workflow.md` §4.
+## V4 Override — Read First
+
+This section supersedes every conflicting legacy instruction later in this file.
+
+1. Read `references/v4-audience-growth-operating-system.md`, the completed `content-brief-v2.md`, `research-brief.md`, `references/tiger-source-gate-v1.md`, and `tiger-source.md` when one is required.
+2. Draft **three intentionally different evidence-led openings**, not ten mechanically different hooks. Personal reflection is unavailable unless an approved source ID supports it.
+3. Follow Visual Engine v2: GPT Image 2 is the primary creative renderer; HTML/code-render is the exact-data and backup lane. Build one strong concept first. Create alternatives only to test meaningfully different visual arguments.
+4. After still approval, Motion Engine v1 is the normal companion lane unless the eligibility gate records a still-only exception.
+5. Do not use a fixed sign-off or compulsory paragraph pattern. The problem, proof, artifact and Tiger judgment determine the shape.
+6. Every fact traces to `research-brief.md`; every personal, employer, result or credential claim traces to `tiger-source.md` or the approved Voice Bank.
+
+The legacy ten-hook, three-code-render and code-render-primary sections below remain as historical production detail only. Ignore them whenever they conflict with this override.
 
 ## Invoke
 ```
@@ -42,6 +53,9 @@ to build a consultant-grade, sourced, reliability-tagged brief and writes
   the plan gives the angle, the brief gives the verified facts. Do not invent figures;
   if the brief couldn't verify something, don't put it on the card.
 - Do not proceed to Step 2 until the brief clears the research-engine quality gate.
+- Do not proceed to drafting until the source mode is recorded. If the post uses
+  Tiger's experience, judgment, employer, results, or credentials, create and approve
+  `data/{YYYY-W##}/{topic-slug}/tiger-source.md` first.
 
 ---
 
@@ -60,9 +74,9 @@ to build a consultant-grade, sourced, reliability-tagged brief and writes
 
 ---
 
-## Step 2: Generate 10 Hook Options
+## Step 2: Generate 3 Evidence-Led Openings
 
-Generate all 10 hooks using the hook taxonomy adapted for 101 voice:
+Select three meaningfully different patterns from this library. Do not complete the taxonomy for its own sake:
 
 | # | Type | 101 Adaptation |
 |---|---|---|
@@ -71,7 +85,7 @@ Generate all 10 hooks using the hook taxonomy adapted for 101 voice:
 | 3 | Stat-Lead | Simple, surprising number — not a dense ratio |
 | 4 | Contrarian | Challenge a common assumption non-practitioners hold |
 | 5 | Paradox | Relatable contradiction, not a mechanism chain |
-| 6 | Personal-Reflection | "I get asked this all the time..." framing |
+| 6 | Personal-Reflection | Available only when the statement maps to an approved Tiger source ID; never invent repeated questions or experience |
 | 7 | Result-First | Start with a visible outcome, then explain |
 | 8 | Timeline-Shock | Trace a product journey as a timeline |
 | 9 | Comparison-Gap | Two things people think are the same, shown as different |
@@ -112,12 +126,14 @@ Follow the 101 post structure (from `references/101-voice.md`):
 - Bullet points use • not - (applies to all output: captions, hook options, ChatGPT Image 2 prompt content lists)
 - At least one opinion bridge from Tiger's set — rotate, never repeat the same one twice in a row
 - One moment that sounds like Tiger thinking out loud — slightly imperfect, first-person where natural
-- Sign-off: "Found this useful? Follow Poornajith Shetty and Shetty's Desk for more supply chain insights and save/repost this for [specific reference use]."
+- Ending: choose a specific question, action, caveat, or invitation only when it earns its place; do not repeat a fixed sign-off.
 - Hashtags: #ShettysDesk #SupplyChainIntelligence #SCM #SupplyChain101 + 1 topic-specific tag
 
 ---
 
-## Step 4: Code-Render the Infographic — 3 DISTINCT VARIANTS (PRIMARY)
+## Legacy Step 4 Reference: Code-Render Control Lane
+
+> Do not execute this legacy section by default. Follow `references/visual-engine-v2.md` and the V4 override above. Use the material below only when the approved content brief explicitly requires an HTML exact-data control or when reproducing a historic code-render artifact.
 
 **The 101 visual is built deterministically in `renderer/` (HTML→PNG)** — same component kit + brand frame as AI for SC, with two 101 differences: **no AI-tool logo** (101 has no tool mark) and the accessible 101 register. Data and text are computed in code, never painted by an image model, so numbers are exact and the brand is locked.
 
@@ -145,7 +161,9 @@ After the still is approved, a GIF/MP4 version can be produced via `render-anim.
 
 ---
 
-## Step 4B: ChatGPT Image 2 Prompt (BACKUP path)
+## Legacy Step 4B Reference: Superseded Image-Prompt Workflow
+
+> Do not use the Nano Banana or Higgsfield instructions below for new V4 work. The active primary lane is `references/visual-engine-v2.md`; this section is preserved only as historical prompt-learning context.
 
 Generate this **as a fallback** and keep it in `101-copy.md` — use it instead of the code-render only when the concept is purely illustrative/metaphorical with no load-bearing structure (or when a render isn't feasible in-session).
 
@@ -245,7 +263,7 @@ After user confirms hook selection, **visual-variant choice**, and any adjustmen
 1. Write `data/{YYYY-W##}/{topic-slug}/101-copy.md` with:
    - Selected hook
    - Final caption
-   - All 10 hook options (reference)
+   - Three tested opening options with their experiment rationale and source IDs
    - Visual Spec — the 3 variants offered (framework + hero device each) and **which variant was chosen**, plus the chosen template + `visual.png` path
    - ChatGPT Image 2 prompt (backup)
 2. Copy the **chosen** variant's render to `data/{YYYY-W##}/{topic-slug}/visual.png`. Keep all 3 `renderer/templates/sc101-[slug]-vN.html` and `renderer/out/sc101-[slug]-vN.png` on disk (variety log + future-post seed).
@@ -271,17 +289,10 @@ After user confirms hook selection, **visual-variant choice**, and any adjustmen
 ## LinkedIn Caption
 [full caption with selected hook swapped in]
 
-## Hook Options — All 10 (reference)
-1. [Question-Why]: [text]
-2. [Question-How]: [text]
-3. [Stat-Lead]: [text]
-4. [Contrarian]: [text]
-5. [Paradox]: [text]
-6. [Personal-Reflection]: [text]
-7. [Result-First]: [text]
-8. [Timeline-Shock]: [text]
-9. [Comparison-Gap]: [text]
-10. [Decision-Pressure]: [text]
+## Opening Options — Three Tested
+1. [pattern + hypothesis + source IDs]: [text]
+2. [pattern + hypothesis + source IDs]: [text]
+3. [pattern + hypothesis + source IDs]: [text]
 
 ---
 
@@ -304,7 +315,8 @@ After user confirms hook selection, **visual-variant choice**, and any adjustmen
 ## Quality Check (run before presenting)
 
 - [ ] **`research-brief.md` exists, cleared the research-engine gate, and every on-card / in-caption number traces to a sourced fact in it (none invented)?**
-- [ ] All 10 hooks use different opening words and different structural devices?
+- [ ] Three openings test meaningfully different arguments or audience recognition cues?
+- [ ] Any personal opening maps to an approved Tiger source ID?
 - [ ] Caption follows 101 post structure (hook, series frame, explanation, 3 bullets, reframe, CTA, sign-off)?
 - [ ] Caption is 150–300 words?
 - [ ] No em dashes, no AI slop, no ANCHORS labels, no citation format?

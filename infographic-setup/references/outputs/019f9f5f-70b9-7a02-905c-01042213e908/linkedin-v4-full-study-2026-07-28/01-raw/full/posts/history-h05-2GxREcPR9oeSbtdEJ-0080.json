@@ -1,0 +1,2958 @@
+{
+  "runId": "2GxREcPR9oeSbtdEJ",
+  "datasetId": "xstT6TL4ERn2chKs3",
+  "offset": 80,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7459126998293004288",
+      "entityId": "7459126998293004288",
+      "linkedinUrl": "https://www.linkedin.com/posts/marek-dabrowski-8a502370_the-floor-tells-the-truth-activity-7459126998293004288-mRMw",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7459126996120543234",
+      "shareUrn": "urn:li:ugcPost:7459126996120543234",
+      "content": "AI won’t fix a messy process.\n\nIt will read the mess faster.\n\nIf the standard lives in someone’s head, AI has no stable context.\n\nIf every shift does the work differently, AI sees variation.\n\nIf handoffs happen by memory, AI misses the real constraint.\n\nBefore you automate anything, map the current state.\n\nOne process.\nOne whiteboard.\nOne real flow.\nOne painful bottleneck.\n\nStabilize first and automate second...\n\nThe floor tells the truth.\n\n\n#LeanManufacturing #OperationalExcellence #Manufacturing #ContinuousImprovement #AIinManufacturing #LeanAI",
+      "author": {
+        "id": "ACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "universalName": null,
+        "publicIdentifier": "marek-dabrowski-8a502370",
+        "type": "profile",
+        "name": "Marek Dabrowski",
+        "linkedinUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "info": "Founder, LeanMark.ai | Lean Manufacturing Consultant | Lead Time Reduction, Flow & Continuous Improvement | Sheet Metal & SMB Plants | Practical AI for Operations in a new AI era | Industry 4.0 | eVSM | Smart Camera",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG4nwWr1dyoXQ/profile-displayphoto-crop_800_800/B4EZmzspaeHcAM-/0/1759656452247?e=1786579200&v=beta&t=MW2AWvSSkYHxgP4skSjP9LhhMoLxeO2xgnHnQMrG-2w",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "250870589"
+      },
+      "postedAt": {
+        "timestamp": 1778394460271,
+        "date": "2026-05-10T06:27:40.271Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "The floor tells the truth.",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQEIojcoCLq0PQ/feedshare-document-url-metadata-scrapper-pdf/B56Z4QkICFIYA4-/0/1778394368233?e=1785877200&v=beta&t=3WjM1ZoXKJuLO97xV4GozWEPkVdMLN4q_1O7Itiukm0",
+        "coverPages": [
+          {
+            "width": 1923,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D561FAQEIojcoCLq0PQ/feedshare-document-cover-images_1920/B56Z4QkICFIYBQ-/0/1778394368658?e=1785877200&v=beta&t=hyrsrZaXxMc54ox0LyFLB_TF9w16WrDbs1ukB8DUQMo",
+              "https://media.licdn.com/dms/image/v2/D561FAQEIojcoCLq0PQ/feedshare-document-cover-images_1920/B56Z4QkICFIYBQ-/1/1778394368658?e=1785877200&v=beta&t=s-GK3fzDsVpOfN3X5_fCSrYYcb03KDMNqcFIDHUzEw8",
+              "https://media.licdn.com/dms/image/v2/D561FAQEIojcoCLq0PQ/feedshare-document-cover-images_1920/B56Z4QkICFIYBQ-/2/1778394368658?e=1785877200&v=beta&t=Kzg9UCY5eDxRxDEDQ4TmM-jpcbLtsYDCHP15aYvYUJA"
+            ],
+            "height": 1923
+          }
+        ],
+        "totalPageCount": 7,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQEIojcoCLq0PQ/feedshare-document-master-manifest/B56Z4QkICFIYBY-/0/1778394369229?e=1785877200&v=beta&t=_R7IWYMhTfu1NGcjskvogIU6p9FVXagzXB5kUTYevfw",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D561FAQEIojcoCLq0PQ",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQEIojcoCLq0PQ/feedshare-document-transcript/B56Z4QkICFIYA0-/0/1778394369229?e=1785974400&v=beta&t=XATbOTDTDIQKg54g9pwN6PS7-K4xAr59mFkqKSB4xEk",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQEIojcoCLq0PQ/feedshare-document-pdf-analyzed/B56Z4QkICFIYAY-/0/1778394369229?e=1785974400&v=beta&t=Z_-mNyF2c_W4Mjpj0Cz2_G5MAZuFrCbA8TH9TiuHAZQ",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 168,
+              "height": 168,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQEIojcoCLq0PQ/feedshare-document-images_160/B56Z4QkICFIYAc-/0/1778394369229?e=1785974400&v=beta&t=oAmL_f7oVOWBpRP-vQAQImrlXy6PExT33JfrnzjzDO0"
+            },
+            {
+              "width": 483,
+              "height": 483,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQEIojcoCLq0PQ/feedshare-document-images_480/B56Z4QkICFIYAg-/0/1778394369229?e=1785974400&v=beta&t=ITWyRSpH_T8x09CAohvy7_kjy5GALBaxicSiJCsGD3o"
+            },
+            {
+              "width": 810,
+              "height": 810,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQEIojcoCLq0PQ/feedshare-document-images_800/B56Z4QkICFIYAk-/0/1778394369229?e=1785974400&v=beta&t=_eSOOhMMzKo7rhygFTFErN7a99XQQ1P_MOcq3VAwfp4"
+            },
+            {
+              "width": 1923,
+              "height": 1923,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQEIojcoCLq0PQ/feedshare-document-images_1920/B56Z4QkICFIYAo-/0/1778394369229?e=1785974400&v=beta&t=ISn2cU2QWx2HwOin9RRftiOQHhaqN3NzF3oTxmqXiRE"
+            },
+            {
+              "width": 1282,
+              "height": 1282,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQEIojcoCLq0PQ/feedshare-document-images_1280/B56Z4QkICFIYAQ-/0/1778394369229?e=1785974400&v=beta&t=3ffs1YSrFMpVRtOS3k57fmQGSnfA1-ce0kjbvSNtPzg"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7459126996120543234",
+        "likes": 5,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370",
+        "sessionId": "516bc8ac-8314-4a09-ba98-baca795182b1"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7454598818479640578",
+      "entityId": "7454598818479640578",
+      "linkedinUrl": "https://www.linkedin.com/posts/marek-dabrowski-8a502370_leanmark-leanmanufacturing-kaizen-activity-7454598818479640578-UYDw",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7454598815442964481",
+      "shareUrn": "urn:li:share:7454598815442964481",
+      "content": "Most waste does not look dramatic.\n\nThis picture shows the 8 wastes neatly. On the floor, they don't show up like icons on a poster. They show up as habits.\n\nA defect that gets reworked without a word.\nA part that arrives late, every cycle.\nA cart pushed farther than it needs to, every shift.\nA box of WIP that has been sitting in the corner for weeks.\nAn operator who knows the fix, and nobody asks.\n\nThis is what waste actually looks like.\n\nIt looks like a NORMAL Tuesday.\n\nAt the machine.\nAt the weld bench.\nAt the assembly station.\nAt the loading dock.\n\nSmall moments, repeated thousands of times, baked so deep into the day that nobody sees them anymore. The supervisor walks past the same waiting operator every morning and counts it as normal.\n\nWaste is not the dramatic event. It is the routine you stopped questioning.\n\nLean's real work is making the routine visible again. Walk the floor without a clipboard. Watch one operator. Count the moments where nothing is moving forward. Then ask why.\n\nThat is where the 8 wastes actually live.\n\nThe floor tells the truth. Every workaround is a system failure. Stability first. Everything else follows.\n\n#leanmark #LeanManufacturing #Kaizen #ContinuousImprovement #8Wastes #ManufacturingLeadership #FactoryManagement #PlantManager #OperationsExcellence #ProductionManagement #LeanThinking #Manufacturing",
+      "author": {
+        "id": "ACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "universalName": null,
+        "publicIdentifier": "marek-dabrowski-8a502370",
+        "type": "profile",
+        "name": "Marek Dabrowski",
+        "linkedinUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "info": "Founder, LeanMark.ai | Lean Manufacturing Consultant | Lead Time Reduction, Flow & Continuous Improvement | Sheet Metal & SMB Plants | Practical AI for Operations in a new AI era | Industry 4.0 | eVSM | Smart Camera",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG4nwWr1dyoXQ/profile-displayphoto-crop_800_800/B4EZmzspaeHcAM-/0/1759656452247?e=1786579200&v=beta&t=MW2AWvSSkYHxgP4skSjP9LhhMoLxeO2xgnHnQMrG-2w",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "250870589"
+      },
+      "postedAt": {
+        "timestamp": 1777314858074,
+        "date": "2026-04-27T18:34:18.074Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEUxRRQGGAq2g/feedshare-shrink_1280/B4EZ3QOHwmKQAM-/0/1777314856371?e=1786579200&v=beta&t=6UQ-6VB1FDwAwV35OXd6z9BteL75leE8jFG4UzRgWkg",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7454598818479640578",
+        "likes": 5,
+        "comments": 4,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370",
+        "sessionId": "516bc8ac-8314-4a09-ba98-baca795182b1"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7466111174909280256",
+      "entityId": "7466111174909280256",
+      "linkedinUrl": "https://www.linkedin.com/posts/marek-dabrowski-8a502370_leanmanufacturing-continuousimprovement-operationalexcellence-activity-7466111174909280256-AKSd",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7465642141059493888",
+      "shareUrn": "urn:li:share:7465642141059493888",
+      "content": "Fear does not improve quality.\nIt hides the truth.\n\nI have always been interested in what happens when Lean thinking meets history.\nDifferent language. Different century. Same floor problem.\n\nDeming looked at the factory and saw that fear destroys performance.\nNot because people stop working.\nBecause people stop telling the truth.\n\nThey hide defects.\nThey delay escalation.\nThey protect themselves from blame.\nAnd the system keeps producing the same problems under a cleaner report.\n\nKant gives the deeper rule: people cannot be treated merely as tools.\n\nOn the floor, this is not philosophy.\nThis is operations.\n\nIf operators are treated like hands, they give you labor.\nIf they are treated like thinking people, they give you reality.\n\nAnd without reality, every improvement system becomes theater.\n\nThe question for leaders is simple:\n\nDo your people feel safe enough to tell you what is really happening?\n\n#LeanManufacturing #ContinuousImprovement #OperationalExcellence  #RespectForPeople #QualityManagement #Gemba #Kant #Philosophy",
+      "author": {
+        "id": "ACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "universalName": null,
+        "publicIdentifier": "marek-dabrowski-8a502370",
+        "type": "profile",
+        "name": "Marek Dabrowski",
+        "linkedinUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "info": "Founder, LeanMark.ai | Lean Manufacturing Consultant | Lead Time Reduction, Flow & Continuous Improvement | Sheet Metal & SMB Plants | Practical AI for Operations in a new AI era | Industry 4.0 | eVSM | Smart Camera",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG4nwWr1dyoXQ/profile-displayphoto-crop_800_800/B4EZmzspaeHcAM-/0/1759656452247?e=1786579200&v=beta&t=MW2AWvSSkYHxgP4skSjP9LhhMoLxeO2xgnHnQMrG-2w",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "250870589"
+      },
+      "postedAt": {
+        "timestamp": 1780059617736,
+        "date": "2026-05-29T13:00:17.736Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFHEpMXVP3Ufg/feedshare-shrink_1280/B56Z5tJ92WJgAM-/0/1779947789999?e=1786579200&v=beta&t=5trwyY3dFYz76U7wNGTyxyZaEpHE7fLF7o-VugLXl0E",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7466111174909280256",
+        "likes": 23,
+        "comments": 14,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 19
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370",
+        "sessionId": "516bc8ac-8314-4a09-ba98-baca795182b1"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487099429926203392",
+      "entityId": "7487099429926203392",
+      "linkedinUrl": "https://www.linkedin.com/posts/mischa-collins_you-know-your-personal-brand-can-be-personal-activity-7487099429926203392-m8DV",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486736405876994048",
+      "shareUrn": "urn:li:share:7486736405876994048",
+      "content": "You know your personal brand can be personal right?? It’s called personal for a reason!!! \n\nShare what you feel comfortable with. The people saying LinkedIn isn’t Facebook just wish they were you.",
+      "author": {
+        "id": "ACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "universalName": null,
+        "publicIdentifier": "mischa-collins",
+        "type": "profile",
+        "name": "Mischa Collins",
+        "linkedinUrl": "https://www.linkedin.com/in/mischa-collins?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "info": "Built my LinkedIn. Now I help you do the same 🍑 200+ clients coached on turning online visibility → income.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQH_aWBjMztD0w/profile-displayphoto-crop_800_800/B4DZ.oCKNhGkAI-/0/1785230568824?e=1786579200&v=beta&t=YDBPAOwn_HIpMlpbu4TRtbQlN82mS9D_Y2xGIpDdCGY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "540105052"
+      },
+      "postedAt": {
+        "timestamp": 1785063607675,
+        "date": "2026-07-26T11:00:07.675Z",
+        "postedAgoShort": "2d",
+        "postedAgoText": "2 days ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487099429926203392",
+        "likes": 226,
+        "comments": 102,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 173
+          },
+          {
+            "type": "EMPATHY",
+            "count": 25
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 13
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mischa-collins",
+        "sessionId": "c8fa8ed3-aef7-46fa-973e-df78aff17cc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7456053760872669184",
+      "entityId": "7456053760872669184",
+      "linkedinUrl": "https://www.linkedin.com/posts/marek-dabrowski-8a502370_your-best-operator-ignores-the-standard-activity-7456053760872669184-9U-x",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7456053759446605824",
+      "shareUrn": "urn:li:ugcPost:7456053759446605824",
+      "content": "A standard is only useful while it still matches the floor.\n\nThe problem starts quietly.\n\nThe process changes.\nThe best operator finds a better way.\nThe shift adapts.\nNobody updates the standard.\n\nThen the standard becomes decoration.\n\nThe binder says one thing.\nThe CNC operator does another.\nThe night shift does a third.\n\nNew people learn from whoever is nearby.\nExperienced people work around the process. Supervisors chase the same mistakes every week.\n\nA standard your best operator ignores is not a standard.\n\nIf the most experienced person on the floor works around the process, the process is the problem.\n\nThe workaround becomes the real method.\n\nIt lives in one head.\nIt works.\nUntil that person leaves.\n\nThat’s where AI earns its place on the floor.\n\nSmall, focused tools that keep work instructions alive.\n\nUpdated from real performance.\nUpdated from real problems.\nUpdated by the people doing the work.\n\nThe standard becomes a living document.\n\nSame standard.\nEvery operator.\nEvery shift.\n\nStart with one question:\n\nWhich process depends most on one person knowing how?\n\nThat’s the first standard to fix.\n\nBecause without standard work, AI only makes chaos faster.\n\nStability first. Everything else follows.\n\nWhere does tribal knowledge hurt your operation the most?\n\n\n\n#LeanManufacturing #StandardWork #OperationalExcellence #ContinuousImprovement #ManufacturingLeadership #Gemba #AIinManufacturing #ShopFloorManagement",
+      "author": {
+        "id": "ACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "universalName": null,
+        "publicIdentifier": "marek-dabrowski-8a502370",
+        "type": "profile",
+        "name": "Marek Dabrowski",
+        "linkedinUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "info": "Founder, LeanMark.ai | Lean Manufacturing Consultant | Lead Time Reduction, Flow & Continuous Improvement | Sheet Metal & SMB Plants | Practical AI for Operations in a new AI era | Industry 4.0 | eVSM | Smart Camera",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG4nwWr1dyoXQ/profile-displayphoto-crop_800_800/B4EZmzspaeHcAM-/0/1759656452247?e=1786579200&v=beta&t=MW2AWvSSkYHxgP4skSjP9LhhMoLxeO2xgnHnQMrG-2w",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "250870589"
+      },
+      "postedAt": {
+        "timestamp": 1777661743372,
+        "date": "2026-05-01T18:55:43.372Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "Your best operator ignores the standard. That's the signal",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQH7AF2ssVAnuA/feedshare-document-chunked-pdf/B56Z3k0AW6KgBk-/0/1777660334805?e=1785877200&v=beta&t=rdEmecK0-Ejz-RvABL167hxzSyoZcuM-x35Orblu8ww",
+        "coverPages": [
+          {
+            "width": 1923,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D561FAQH7AF2ssVAnuA/feedshare-document-cover-images_1920/B56Z3k0AW6KgBQ-/0/1777660334465?e=1785877200&v=beta&t=yCOkNfy564U6JwPK2Mmo3GxuWxl2M576szgZxLtqhKg",
+              "https://media.licdn.com/dms/image/v2/D561FAQH7AF2ssVAnuA/feedshare-document-cover-images_1920/B56Z3k0AW6KgBQ-/1/1777660334465?e=1785877200&v=beta&t=n-1QVp2Y5kNP2DsOSA8elLyqhYVPef76HITgevjYd_I",
+              "https://media.licdn.com/dms/image/v2/D561FAQH7AF2ssVAnuA/feedshare-document-cover-images_1920/B56Z3k0AW6KgBQ-/2/1777660334465?e=1785877200&v=beta&t=3Hfk-prY6ne0TST85rlnNBpVh264mDphqJwrJgk4DfE"
+            ],
+            "height": 1923
+          }
+        ],
+        "totalPageCount": 7,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQH7AF2ssVAnuA/feedshare-document-master-manifest/B56Z3k0AW6KgBY-/0/1777660334625?e=1785877200&v=beta&t=Yky36A_2WhBXds_TOfiKcnaxHGvFYcqy5kjUnKpjrIY",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D561FAQH7AF2ssVAnuA",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQH7AF2ssVAnuA/feedshare-document-transcript/B56Z3k0AW6KgA0-/0/1777660334625?e=1785974400&v=beta&t=aUaIFl18PNRYwYNv2HRqKlXAlrP9LlJ6IrD2rRWbuDg",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQH7AF2ssVAnuA/feedshare-document-pdf-analyzed/B56Z3k0AW6KgAY-/0/1777660334625?e=1785974400&v=beta&t=O1GXKaZZZqzesHa1qpa4W9zbHTRXT6Ze2qvPqsq_pSY",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 168,
+              "height": 168,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQH7AF2ssVAnuA/feedshare-document-images_160/B56Z3k0AW6KgAc-/0/1777660334625?e=1785974400&v=beta&t=Z3LV8LaxD9xWybw4SHTxcJ4r4tIaJ4OTCXFegW0Neu4"
+            },
+            {
+              "width": 810,
+              "height": 810,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQH7AF2ssVAnuA/feedshare-document-images_800/B56Z3k0AW6KgAk-/0/1777660334625?e=1785974400&v=beta&t=ump9h1kOtJOX1sMs5HV0Y9VPp14tXUMlnMZUPWgeEAk"
+            },
+            {
+              "width": 483,
+              "height": 483,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQH7AF2ssVAnuA/feedshare-document-images_480/B56Z3k0AW6KgAg-/0/1777660334625?e=1785974400&v=beta&t=7O4TxHIlXThfJfkhFw3I9GN4DeXSJ0auY7YYyQSUh2A"
+            },
+            {
+              "width": 1282,
+              "height": 1282,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQH7AF2ssVAnuA/feedshare-document-images_1280/B56Z3k0AW6KgAQ-/0/1777660334625?e=1785974400&v=beta&t=VY0sdJhwTRB6rmML4hL63IEAEoj2YYgGcp2aXqKfKA4"
+            },
+            {
+              "width": 1923,
+              "height": 1923,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQH7AF2ssVAnuA/feedshare-document-images_1920/B56Z3k0AW6KgAo-/0/1777660334625?e=1785974400&v=beta&t=40YBbdEC4qPMxKHTsGSTskZOuFtM--lXD2HwxePCwEY"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7456053759446605824",
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370",
+        "sessionId": "516bc8ac-8314-4a09-ba98-baca795182b1"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486216081779437568",
+      "entityId": "7486216081779437568",
+      "linkedinUrl": "https://www.linkedin.com/posts/marek-dabrowski-8a502370_the-five-principles-of-lean-manufacturingpdf-activity-7486216081779437568-Wotm",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7469496455607664640",
+      "shareUrn": "urn:li:ugcPost:7469496455607664640",
+      "content": "What if AI exposes that your LEAN system was never really Lean?\n\nThat’s the fear.\n\nBecause AI will not politely ignore weak flow.\n\nIt will see the waiting.\nIt will see the rework.\nIt will see the WIP hiding between steps.\nIt will see when “pull” is really just another push system with better labels.\n\nThe 5 Lean principles still matter:\n\n- Define value.\n- Map the value stream.\n- Create flow.\n- Establish pull.\n- Pursue perfection.\n\nAI doesn’t replace that...\nIt tests it.\n\nIf the process is stable, AI helps it move faster.\nIf the process is broken, AI makes the weakness visible faster.\n\nAnd that makes people nervous.\n\nBecause the floor was already telling the truth.\n\nAI just makes it harder to ignore.\n\n#LeanManufacturing #AI #LeanAI #ContinuousImprovement #OperationalExcellence #Manufacturing #ShopFloor #ProcessImprovement #Kaizen #LeanThinking",
+      "author": {
+        "id": "ACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "universalName": null,
+        "publicIdentifier": "marek-dabrowski-8a502370",
+        "type": "profile",
+        "name": "Marek Dabrowski",
+        "linkedinUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "info": "Founder, LeanMark.ai | Lean Manufacturing Consultant | Lead Time Reduction, Flow & Continuous Improvement | Sheet Metal & SMB Plants | Practical AI for Operations in a new AI era | Industry 4.0 | eVSM | Smart Camera",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG4nwWr1dyoXQ/profile-displayphoto-crop_800_800/B4EZmzspaeHcAM-/0/1759656452247?e=1786579200&v=beta&t=MW2AWvSSkYHxgP4skSjP9LhhMoLxeO2xgnHnQMrG-2w",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "250870589"
+      },
+      "postedAt": {
+        "timestamp": 1784853001065,
+        "date": "2026-07-24T00:30:01.065Z",
+        "postedAgoShort": "4d",
+        "postedAgoText": "4 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "The Five Principles of Lean Manufacturing.pdf",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQHyItJXs1u55g/feedshare-document-sanitized-pdf/B4EZ6j7Ty3JkBA-/0/1780866696151?e=1785877200&v=beta&t=Ly-2cyjNomlzP3cpjfTEtZInsllg-7z-KcnlVRkMV_U",
+        "coverPages": [
+          {
+            "width": 1923,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4E1FAQHyItJXs1u55g/feedshare-document-cover-images_1920/B4EZ6j7Ty3JkBU-/0/1780866710544?e=1785877200&v=beta&t=UTnVZBAEhQvW27CHTCfLPmihp_mkvwPM4z99C6v0ASw",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQHyItJXs1u55g/feedshare-document-cover-images_1920/B4EZ6j7Ty3JkBU-/1/1780866710544?e=1785877200&v=beta&t=fa-lSN1LRl6Dr96C6BPuZtzPYCROqOVVAR1zhR_Zq-g",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQHyItJXs1u55g/feedshare-document-cover-images_1920/B4EZ6j7Ty3JkBU-/2/1780866710544?e=1785877200&v=beta&t=qDfBmPSxlPZOXuovbhlB5xmj2ITQv7NqToOZgbgrXq0"
+            ],
+            "height": 1923
+          }
+        ],
+        "totalPageCount": 8,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHyItJXs1u55g/feedshare-document-master-manifest/B4EZ6j7Ty3JkBc-/0/1780866710587?e=1785877200&v=beta&t=YkKjU5RGHvRoOdqqHFkOqEJ5FmdmuKl2LZ6FfdfX_fo",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4E1FAQHyItJXs1u55g",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQHyItJXs1u55g/feedshare-document-transcript/B4EZ6j7Ty3JkA4-/0/1780866710587?e=1785974400&v=beta&t=QGisseoFZL-pse2GOUMsk09akoueyYlrquMyywcN96Q",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQHyItJXs1u55g/feedshare-document-pdf-analyzed/B4EZ6j7Ty3JkAc-/0/1780866710587?e=1785974400&v=beta&t=XhsOLzunDNcBt1hz_el2-tRGPSie7-fw7qhexIsT03g",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 483,
+              "height": 483,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHyItJXs1u55g/feedshare-document-images_480/B4EZ6j7Ty3JkAk-/0/1780866710587?e=1785974400&v=beta&t=y_auD45aLbhCo9VtuXzA9_FAluccPIJCyliucQ8ITqc"
+            },
+            {
+              "width": 163,
+              "height": 163,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHyItJXs1u55g/feedshare-document-images_160/B4EZ6j7Ty3JkAg-/0/1780866710587?e=1785974400&v=beta&t=mtvjaYVJwiGByRd7EzP2LFvrYe8IQmRamQ7WspdLokw"
+            },
+            {
+              "width": 1923,
+              "height": 1923,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHyItJXs1u55g/feedshare-document-images_1920/B4EZ6j7Ty3JkAs-/0/1780866710587?e=1785974400&v=beta&t=nO6MQarXBLq-BZWsZudJ-k81_0SF3wapGrF_uNLrVPY"
+            },
+            {
+              "width": 1282,
+              "height": 1282,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHyItJXs1u55g/feedshare-document-images_1280/B4EZ6j7Ty3JkAU-/0/1780866710587?e=1785974400&v=beta&t=2Yl0LufupJvLssF299iQknwac-xIVBQGsR03X7ONzNQ"
+            },
+            {
+              "width": 804,
+              "height": 804,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHyItJXs1u55g/feedshare-document-images_800/B4EZ6j7Ty3JkAo-/0/1780866710587?e=1785974400&v=beta&t=nPsq6q7IuPcU7sb2j0VtGoYYfwAw2d9ejcIBH7J94dM"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7469496455607664640",
+        "likes": 7,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 7
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370",
+        "sessionId": "516bc8ac-8314-4a09-ba98-baca795182b1"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7460052073389363200",
+      "entityId": "7460052073389363200",
+      "linkedinUrl": "https://www.linkedin.com/posts/marek-dabrowski-8a502370_leanmanufacturing-kaizen-sixsigma-activity-7460052073389363200-GxJm",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7460052071489310720",
+      "shareUrn": "urn:li:share:7460052071489310720",
+      "content": "Kaizen, Lean, and Six Sigma are often put in the same bucket.\nBut they are not the same thing.\n\nKaizen is the daily habit of improvement.\n Small changes. Operator involvement. Better work every day.\n\nLean is the operating system.\n Remove waste. Improve flow. Create value with less chaos.\n\nSix Sigma is the precision tool.\n Reduce variation. Use data. Attack defects with discipline.\n\nThe mistake is choosing one like it is a religion.\n\nThe better question is:\n\nWhat problem are we solving?\n\nIf the floor is chaotic, start with Lean.\n If people are disengaged, start with Kaizen.\n If defects are repeating, bring in Six Sigma thinking.\n\nTools do not fix factories.\n\nPeople using the right tool for the right problem do.\n\n#LeanManufacturing #Kaizen #SixSigma #ContinuousImprovement #OperationalExcellence #Gemba",
+      "author": {
+        "id": "ACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "universalName": null,
+        "publicIdentifier": "marek-dabrowski-8a502370",
+        "type": "profile",
+        "name": "Marek Dabrowski",
+        "linkedinUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "info": "Founder, LeanMark.ai | Lean Manufacturing Consultant | Lead Time Reduction, Flow & Continuous Improvement | Sheet Metal & SMB Plants | Practical AI for Operations in a new AI era | Industry 4.0 | eVSM | Smart Camera",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG4nwWr1dyoXQ/profile-displayphoto-crop_800_800/B4EZmzspaeHcAM-/0/1759656452247?e=1786579200&v=beta&t=MW2AWvSSkYHxgP4skSjP9LhhMoLxeO2xgnHnQMrG-2w",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "250870589"
+      },
+      "postedAt": {
+        "timestamp": 1778615015361,
+        "date": "2026-05-12T19:43:35.361Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQG7NH3flneVFg/feedshare-image-high-res/B56Z4dt1IYKoAU-/0/1778615014200?e=1786579200&v=beta&t=gEE-m5EMmRWfI7UXSZ14G-2QPr_O3sLKYf8VV1GQrHg",
+          "width": 1619,
+          "height": 971
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7460052073389363200",
+        "likes": 772,
+        "comments": 94,
+        "shares": 100,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 712
+          },
+          {
+            "type": "EMPATHY",
+            "count": 20
+          },
+          {
+            "type": "INTEREST",
+            "count": 19
+          },
+          {
+            "type": "PRAISE",
+            "count": 13
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370",
+        "sessionId": "516bc8ac-8314-4a09-ba98-baca795182b1"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477522554610548736",
+      "entityId": "7477522554610548736",
+      "linkedinUrl": "https://www.linkedin.com/posts/marek-dabrowski-8a502370_kaizen-lean-manufacturing-six-sigma-activity-7477522554610548736-L7nk",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7468836707141050368",
+      "shareUrn": "urn:li:ugcPost:7468836707141050368",
+      "content": "My sensei Gary said something years ago that I still come back to.\n\n“Accepting Lean is like changing religion. And how often do people actually change religion?”\n\nThat line explains more about failed Lean transformations than most maturity models I’ve seen.\n\nYou can teach someone 5S in an afternoon.\n\nStandard work.\nValue stream mapping.\nKaizen events.\nVisual boards.\n\nThe mechanics are simple.\n\nThe belief underneath is the hard part.\n\nThat problems are normal and worth surfacing.\n\nThat the person closest to the work knows something the org chart doesn’t.\n\nThat stopping the line to fix a defect is strength.\n\nThat daily improvement matters more than the perfect rollout plan.\n\nThat’s a worldview.\n\nAnd worldviews don’t change because someone ran a workshop.\n\nI’ve watched plants put up the boards, run the huddles, hang the templates, and change almost nothing.\n\nThe methodology was borrowed.\n\nIt never became how the operation actually worked.\n\nSo what moves people across that line?\n\nProof.\n\nSomeone tries one small change.\nIt holds.\nTheir day gets easier.\nThe problem comes back less often.\n\nThen the belief starts to move.\n\nOne person at a time.\n\nSlower than any rollout plan wants. But much stronger when it sticks.\n\nMost transformations install the tools and wait for belief to follow.\n\nI think it works the other way around.\n\nThe proof comes first.\nThen belief follows...\n\n#LeanManufacturing #Kaizen #SixSigma #ContinuousImprovement #OperationalExcellence #Gemba",
+      "author": {
+        "id": "ACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "universalName": null,
+        "publicIdentifier": "marek-dabrowski-8a502370",
+        "type": "profile",
+        "name": "Marek Dabrowski",
+        "linkedinUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "info": "Founder, LeanMark.ai | Lean Manufacturing Consultant | Lead Time Reduction, Flow & Continuous Improvement | Sheet Metal & SMB Plants | Practical AI for Operations in a new AI era | Industry 4.0 | eVSM | Smart Camera",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG4nwWr1dyoXQ/profile-displayphoto-crop_800_800/B4EZmzspaeHcAM-/0/1759656452247?e=1786579200&v=beta&t=MW2AWvSSkYHxgP4skSjP9LhhMoLxeO2xgnHnQMrG-2w",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "250870589"
+      },
+      "postedAt": {
+        "timestamp": 1782780302670,
+        "date": "2026-06-30T00:45:02.670Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "Kaizen · Lean Manufacturing · Six Sigma - Carousel.pdf",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQH90IzIlvhwSg/feedshare-document-chunked-pdf/B56Z6ajKqwIgBk-/0/1780709372504?e=1785877200&v=beta&t=t3LSZLcX7I1tlcc_rZlDQ7jh2srd6gVerL0820s0znU",
+        "coverPages": [
+          {
+            "width": 1923,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D561FAQH90IzIlvhwSg/feedshare-document-cover-images_1920/B56Z6ajKqwIgBQ-/0/1780709376049?e=1785877200&v=beta&t=PCg3aGvn1mZ8ykTWNtWhvk0tKa0MpGnkj2z9gpKDKcM",
+              "https://media.licdn.com/dms/image/v2/D561FAQH90IzIlvhwSg/feedshare-document-cover-images_1920/B56Z6ajKqwIgBQ-/1/1780709376049?e=1785877200&v=beta&t=N_t8-ecGrS8nmsZwHHBzQwk2LF0oIRO7wEsKDZwzF4w",
+              "https://media.licdn.com/dms/image/v2/D561FAQH90IzIlvhwSg/feedshare-document-cover-images_1920/B56Z6ajKqwIgBQ-/2/1780709376049?e=1785877200&v=beta&t=h_bMRgMtdTyoS_goXhperqMg592bMYMvxwMzoFMWsmo"
+            ],
+            "height": 1923
+          }
+        ],
+        "totalPageCount": 8,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQH90IzIlvhwSg/feedshare-document-master-manifest/B56Z6ajKqwIgBY-/0/1780709376049?e=1785877200&v=beta&t=J8mNO8aI4LSX5jmersA1mdEU2BWm9M6znOap3mkmkOM",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D561FAQH90IzIlvhwSg",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQH90IzIlvhwSg/feedshare-document-transcript/B56Z6ajKqwIgA0-/0/1780709376049?e=1785974400&v=beta&t=4exTQJdFbnIeJnWfBvzbHeebbObXtb00WtiIe6HWgYk",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQH90IzIlvhwSg/feedshare-document-pdf-analyzed/B56Z6ajKqwIgAY-/0/1780709376049?e=1785974400&v=beta&t=jP5uPjgErfSm6si3XT15uzhg2rSzc2AkeSLUe4gXheE",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 1923,
+              "height": 1923,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQH90IzIlvhwSg/feedshare-document-images_1920/B56Z6ajKqwIgAo-/0/1780709376049?e=1785974400&v=beta&t=ua_F0rZe3TOuFI69eJ_yjUC_rG0Fo1sDy9nDQ9hqbkM"
+            },
+            {
+              "width": 168,
+              "height": 168,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQH90IzIlvhwSg/feedshare-document-images_160/B56Z6ajKqwIgAc-/0/1780709376049?e=1785974400&v=beta&t=yoPtgeONzhxhOr2wxI4iX3umRIrHlZmEqLrWc8ZEfx4"
+            },
+            {
+              "width": 1282,
+              "height": 1282,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQH90IzIlvhwSg/feedshare-document-images_1280/B56Z6ajKqwIgAQ-/0/1780709376049?e=1785974400&v=beta&t=vRNq21MBM8r00zAzg5SJfSPbu-xwHCZi7shYz9xkoPw"
+            },
+            {
+              "width": 810,
+              "height": 810,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQH90IzIlvhwSg/feedshare-document-images_800/B56Z6ajKqwIgAk-/0/1780709376049?e=1785974400&v=beta&t=SeKJPDEwMnFaCHeiAGdePZlye_0YfQaPUPoaA-mOftY"
+            },
+            {
+              "width": 483,
+              "height": 483,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQH90IzIlvhwSg/feedshare-document-images_480/B56Z6ajKqwIgAg-/0/1780709376049?e=1785974400&v=beta&t=4VMJcraqTAtytjIwMheBIVlAFbhIDGlNJN0Al7WO5PA"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468836707141050368",
+        "likes": 7,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370",
+        "sessionId": "516bc8ac-8314-4a09-ba98-baca795182b1"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7457817093292597248",
+      "entityId": "7457817093292597248",
+      "linkedinUrl": "https://www.linkedin.com/posts/marek-dabrowski-8a502370_leanmanufacturing-continuousimprovement-gemba-activity-7457817093292597248-QH9F",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7457817092310982656",
+      "shareUrn": "urn:li:share:7457817092310982656",
+      "content": "100+ years. 5 eras. The same question.\n\"Why does it take so long?\"\n\nTaylor asked it with a stopwatch in a steel mill. Ford asked it on the moving assembly line. Toyoda asked it next to a loom. Ohno asked it in front of a parts supermarket. Today, we ask it in front of a CNC cell...with a tablet in hand.\n\nThe tools changed. The waste didn't.\n\nBooks grow. Frameworks grow. Conferences grow. The pile of waste on the shop floor? Still there.\n\nHere's the reframe most plants miss:\n\nThe history of lean is not the history of tools. It is the history of the discipline of seeing.\n\nThe shop floor tells the truth. Stability first. The rest will follow.\n\nSo walk the floor.\nFollow the order.\nWatch the handoffs.\nLook at the waiting.\nFind where information stops moving.\nFind where people are working around the system.\n\n→ Where did you first ask \"why does it take so long?\" on your shop floor...and what did you actually see? Drop it in the comments. That's how we learn from each other.\n\n#LeanManufacturing #ContinuousImprovement #Gemba #Kaizen #OperationalExcellence #LeanMarkAI",
+      "author": {
+        "id": "ACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "universalName": null,
+        "publicIdentifier": "marek-dabrowski-8a502370",
+        "type": "profile",
+        "name": "Marek Dabrowski",
+        "linkedinUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "info": "Founder, LeanMark.ai | Lean Manufacturing Consultant | Lead Time Reduction, Flow & Continuous Improvement | Sheet Metal & SMB Plants | Practical AI for Operations in a new AI era | Industry 4.0 | eVSM | Smart Camera",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG4nwWr1dyoXQ/profile-displayphoto-crop_800_800/B4EZmzspaeHcAM-/0/1759656452247?e=1786579200&v=beta&t=MW2AWvSSkYHxgP4skSjP9LhhMoLxeO2xgnHnQMrG-2w",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "250870589"
+      },
+      "postedAt": {
+        "timestamp": 1778082154582,
+        "date": "2026-05-06T15:42:34.582Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEINVnfYQO1Vw/feedshare-image-high-res/B56Z399IIJKoAY-/0/1778082153296?e=1786579200&v=beta&t=LStzZzztp_Rk66aO9T0lZcTOKmcoxLkjl2SaTILN7y4",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7457817093292597248",
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370",
+        "sessionId": "516bc8ac-8314-4a09-ba98-baca795182b1"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487865978131972098",
+      "entityId": "7487865978131972098",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_if-air-freight-is-a-regular-habit-its-usually-activity-7487865978131972098-rZfe",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487865977603465216",
+      "shareUrn": "urn:li:share:7487865977603465216",
+      "content": "If air freight is a regular habit, it’s usually not a freight problem.\n\n\n(It’s a planning inputs problem.)\n\n\nTwo small process fixes took a client from weekly air shipments to quarterly.\n\n\nHere’s how it happened:\n1) Cleaned up and improved their demand signals\n\n2) Rebuilt their safety stock calculation to actually reflect lead time and demand variability\n\nMore accurate supply plans meant fewer emergency gaps and fewer gaps meant fewer “we need this now” air shipments.\n\nThe solve wasn’t a new system or a big investment.\n\nWhich exactly why I like starting with small, high-leverage process fixes: they reduce firefighting with a realistic level of effort.\n\nSolid planning inputs, revisited consistently, can realistic have large impacts.",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1785246367009,
+        "date": "2026-07-28T13:46:07.009Z",
+        "postedAgoShort": "6h",
+        "postedAgoText": "6 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487865978131972098",
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486052889119838208",
+      "entityId": "7486052889119838208",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_weekly-air-shipments-arent-just-expensive-activity-7486052889119838208-TOsc",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486052888541175808",
+      "shareUrn": "urn:li:share:7486052888541175808",
+      "content": "Weekly air shipments aren’t just expensive.\n\nThey’re a signal your planning process is forcing emergencies.\n\nA client went from weekly air freight to quarterly exceptions with two small process fixes.\n\nThe “before”:\n\nThey were living in gaps:\n\n-Supply plans weren’t matching reality\n\n-“We need this now” became normal\n\n-Air freight became the default patch\n\nThe turning point:\n\nInstead of shopping for a new system, we asked a simpler question:\n\n“What inputs are causing us to make the wrong decision… confidently?”\n\nWhat we fixed:\n\n-Cleaned up and improved their demand signals\n\n-Rebuilt their safety stock calculation to actually reflect lead time and demand variability\n\nThen the dominoes fell:\n\n-More accurate supply plans meant fewer emergency gaps\n\n-Fewer gaps meant fewer “we need this now” air shipments\n\n-Air freight went from a weekly reality to a quarterly exception\n\nWhy this worked:\n\nIt wasn’t a big investment. It wasn’t a new tool.\n\nIt was getting the fundamentals right so planning decisions got better.",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1784814092903,
+        "date": "2026-07-23T13:41:32.903Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486052889119838208",
+        "likes": 7,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7463226077616852993",
+      "entityId": "7463226077616852993",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_client-our-supply-chain-is-working-fine-activity-7463226077616852993-k0LZ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7463226076874358784",
+      "shareUrn": "urn:li:share:7463226076874358784",
+      "content": "Client: Our supply chain is working fine. There's no need to change it.\n\n\nMe: \"Fine\" is expensive.\n\n\nGrowing companies know how to keep things running. And operational teams are used to making the current system work.\n\nBut you don't have to settle for \"fine.\" Or wait until something breaks. Or miss opportunities hiding in plain sight.\n\nThe gap between \"fine\" and optimized is where profit lives.\nYou can have both stability and growth.",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1779371756939,
+        "date": "2026-05-21T13:55:56.939Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7463226077616852993",
+        "likes": 21,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 16
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7465092347228286976",
+      "entityId": "7465092347228286976",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_we-got-production-back-online-2-weeks-early-activity-7465092347228286976-cJXe",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7465092346498564096",
+      "shareUrn": "urn:li:share:7465092346498564096",
+      "content": "We got production back online 2 weeks early by looking in an unexpected place.\n\nOur client's key component failed QC specs. Production was on hold, inventory dropping daily, and the supplier was weeks out on a replacement.\n\nMost consultants would have called a meeting to discuss options.\n\nInstead, I grabbed a spreadsheet and started an inventory reconciliation across their network.\n\nBuried in a former co-man's warehouse:  the exact component we needed.\n\nOne phone call. Two hours later: QC approval and a pickup scheduled.\n\n\nResult: Production restarted 2 weeks ahead of the \"best case\" timeline.\n\nSure, a part of our jobs as consultants is working through strategy and the 30,000 feet view, but supply chain also happens in the problem solving and execution level work. Walking the warehouse floor, knowing your inventory system inside out, and being willing to dig through the data yourself.",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1779816710288,
+        "date": "2026-05-26T17:31:50.288Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7465092347228286976",
+        "likes": 27,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 23
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7462849163488129024",
+      "entityId": "7462849163488129024",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_if-youve-noticed-its-been-quiet-from-me-activity-7462849163488129024-7wIE",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7462849162540322817",
+      "shareUrn": "urn:li:share:7462849162540322817",
+      "content": "If you've noticed it's been quiet from me on here — you're not wrong.\n\n\nThe last several months have been a whirlwind behind the scenes at Golden Thread Operations: growing our team, refreshing our brand (check out the re-brand from Value-Chain to Golden Thread!), taking on some of the most complex and rewarding client work we've done yet.\n\nStacy Corona and I been deep in the weeds helping clients untangle supply chains, hit meaningful operational milestones, and build the kind of infrastructure that actually scales. The work has been demanding — and honestly, really really rewarding.\n\nNow that we're catching our breath a bit, I'm looking forward to being more present here again — sharing what we're learning, what we're building, and the kinds of problems we love solving.\n\n\nMore to come. Good to be back. 👋",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1779281893608,
+        "date": "2026-05-20T12:58:13.608Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7462849163488129024",
+        "likes": 66,
+        "comments": 13,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 44
+          },
+          {
+            "type": "PRAISE",
+            "count": 14
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7457779148216856578",
+      "entityId": "7457779148216856578",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_episode-155-mary-kate-kloeblen-partner-activity-7457779148216856578-Z1m8",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7457779147210383360",
+      "shareUrn": "urn:li:share:7457779147210383360",
+      "content": "Scaling operations is an adventure. I got to talk about exactly that on the Road 2 Retail Podcast & Consultancy podcast with TRACEY PRIEST and Bruce Montgomery.\n\n\n\nWe had a great conversation about the messy, beautiful reality of scaling operations — the mishaps that teach you more than the wins, the moments where systems break and you figure out what's actually holding things together, and what it really takes to build operations that can grow.\n\nIf you're in the CPG, retail, or manufacturing space — or just love an honest conversation about what happens behind the scenes — give it a listen.\n\n🔗 https://lnkd.in/git5BmTp",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1778073107771,
+        "date": "2026-05-06T13:11:47.771Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Episode # 155 Mary Kate Kloeblen- Partner & Co-founder at Golden Thread Operations",
+        "subtitle": "youtube.com",
+        "link": "https://youtu.be/fzXKcMxoZzs",
+        "linkLabel": "Open video: Episode # 155 Mary Kate Kloeblen- Partner & Co-founder at Golden Thread Operations on youtu.be",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/sync/v2/D5627AQE5BUmn4jFK6g/articleshare-shrink_1280_800/B56Z39amykIoAQ-/0/1778073104519?e=1785877200&v=beta&t=XYAYsWqc-QeCbd6v-BUvGkc9tP1nU1JeKqbC91ZWEHA",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7457779148216856578",
+        "likes": 13,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 10
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7455327537049620480",
+      "entityId": "7455327537049620480",
+      "linkedinUrl": "https://www.linkedin.com/posts/marek-dabrowski-8a502370_why-lean-implementations-fail-activity-7455327537049620480-n1Vn",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7455327536160329728",
+      "shareUrn": "urn:li:ugcPost:7455327536160329728",
+      "content": "4 Lean rollouts. 3 failed. 1 worked.\nSame tools. Same training.\n\nSo what was different in the one that worked?\nWe moved the operation from 40,000 sq ft to 15,000. Six months later, down to 9,000.\n\nSame operations. Same output. Inventory dropped about 90%.\n\nIn the other 3 plants, what leaders said on the floor undid the work every day.\nPeople don't only listen during meetings. They listen during pressure. They listen when a defect appears. They listen when the schedule is behind.\nThose moments shape the culture.\n\n\"Just hit the numbers.\" \"Stop bringing me problems.\" \"Who messed up?\" \"We tried Lean before.\"\n\nEvery phrase quietly kills the system before it takes root.\n\n10 phrases that sabotage Lean. And what to say instead.\nSwipe 👉\n\nWhat phrase have you heard quietly kill improvement?\n\n#Leadership #LeanManufacturing #ContinuousImprovement #Kaizen #Gemba #LeanAI",
+      "author": {
+        "id": "ACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "universalName": null,
+        "publicIdentifier": "marek-dabrowski-8a502370",
+        "type": "profile",
+        "name": "Marek Dabrowski",
+        "linkedinUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "info": "Founder, LeanMark.ai | Lean Manufacturing Consultant | Lead Time Reduction, Flow & Continuous Improvement | Sheet Metal & SMB Plants | Practical AI for Operations in a new AI era | Industry 4.0 | eVSM | Smart Camera",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG4nwWr1dyoXQ/profile-displayphoto-crop_800_800/B4EZmzspaeHcAM-/0/1759656452247?e=1786579200&v=beta&t=MW2AWvSSkYHxgP4skSjP9LhhMoLxeO2xgnHnQMrG-2w",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "250870589"
+      },
+      "postedAt": {
+        "timestamp": 1777488598120,
+        "date": "2026-04-29T18:49:58.120Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "Why Lean Implementations Fail?",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQFqzSMH7SNcZg/feedshare-document-url-metadata-scrapper-pdf/B56Z3aj2LkIUA4-/0/1777488327288?e=1785877200&v=beta&t=XyGBzdrnwabDwpqTMRL_CKPlFHAuZ-c_KPoBKadVXp8",
+        "coverPages": [
+          {
+            "width": 1541,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D561FAQFqzSMH7SNcZg/feedshare-document-cover-images_1920/B56Z3aj2LkIUBQ-/0/1777488327860?e=1785877200&v=beta&t=zxNDjgHiVqgjcL9LIAiCmCCJJjDaLJ11--7OfjL38ts",
+              "https://media.licdn.com/dms/image/v2/D561FAQFqzSMH7SNcZg/feedshare-document-cover-images_1920/B56Z3aj2LkIUBQ-/1/1777488327860?e=1785877200&v=beta&t=GHLG8BQdCyv8IMojAlzUN6J7AZZq232qz_X-NWZWbIM",
+              "https://media.licdn.com/dms/image/v2/D561FAQFqzSMH7SNcZg/feedshare-document-cover-images_1920/B56Z3aj2LkIUBQ-/2/1777488327860?e=1785877200&v=beta&t=PczP9BNKv-6TyUf69WNSS_1trF2t-Db_QZ174WbMFQI"
+            ],
+            "height": 1926
+          }
+        ],
+        "totalPageCount": 9,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQFqzSMH7SNcZg/feedshare-document-master-manifest/B56Z3aj2LkIUBY-/0/1777488327860?e=1785877200&v=beta&t=C4Y7y0zS3lCyyBu4u4MJZaMe0lFKMi6_o7mpBOajhgM",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D561FAQFqzSMH7SNcZg",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQFqzSMH7SNcZg/feedshare-document-transcript/B56Z3aj2LkIUA0-/0/1777488327860?e=1785974400&v=beta&t=QpUqjBdKyjQb9ussh9QgBUqh6-bCEd_KHQEEY2Jipa4",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQFqzSMH7SNcZg/feedshare-document-pdf-analyzed/B56Z3aj2LkIUAY-/0/1777488327860?e=1785974400&v=beta&t=NtNx6cAVG9MS60HbWqIfZ73q8gb-AfJ1vaQUlZgTQSc",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 393,
+              "height": 492,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQFqzSMH7SNcZg/feedshare-document-images_480/B56Z3aj2LkIUAg-/0/1777488327860?e=1785974400&v=beta&t=Gh_d3FudOP3PW7JXSehfR4K4ZCW6l_gUpib_2BsPtr0"
+            },
+            {
+              "width": 641,
+              "height": 801,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQFqzSMH7SNcZg/feedshare-document-images_800/B56Z3aj2LkIUAk-/0/1777488327860?e=1785974400&v=beta&t=ojxAhyIniz6pNk3a0LF71QOW0hQBcFiufCvMQxEv0mI"
+            },
+            {
+              "width": 135,
+              "height": 168,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQFqzSMH7SNcZg/feedshare-document-images_160/B56Z3aj2LkIUAc-/0/1777488327860?e=1785974400&v=beta&t=T8cocCwyOARQM-lDUCX17W0PazdrDpTBuAHrzfqlMOQ"
+            },
+            {
+              "width": 1035,
+              "height": 1293,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQFqzSMH7SNcZg/feedshare-document-images_1280/B56Z3aj2LkIUAQ-/0/1777488327860?e=1785974400&v=beta&t=E9koY-pjNUs5LhYXbsIzkpW1rW-co0-d2cDL1_X6BLM"
+            },
+            {
+              "width": 1541,
+              "height": 1926,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQFqzSMH7SNcZg/feedshare-document-images_1920/B56Z3aj2LkIUAo-/0/1777488327860?e=1785974400&v=beta&t=aBDd8fiIBlnL3DRv0_yUH3o-kB1Fd7KtAP5I8RKk17U"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7455327536160329728",
+        "likes": 6,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370",
+        "sessionId": "516bc8ac-8314-4a09-ba98-baca795182b1"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482795171865206784",
+      "entityId": "7482795171865206784",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_if-your-erp-is-the-source-of-truth-why-activity-7482795171865206784-OsrX",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482795171311439872",
+      "shareUrn": "urn:li:share:7482795171311439872",
+      "content": "If your ERP is “the source of truth,” why does everyone still live in Excel?\n\n\nI used to think it was only a legacy-system problem.\n\nBut I’ve seen it in plenty of modern environments too—across industries and company sizes.\n\nHere’s the pattern I keep running into:\n\nSpreadsheets don’t show up because teams love spreadsheets. They show up because teams are trying to solve one of three gaps:\n\nTrust gap (the ERP data is wrong or inconsistent)\n\nFit gap (the ERP can’t flex to how the business actually runs)\n\nVisibility gap (people can’t validate what’s behind the number)\n\n\nAnd once a spreadsheet becomes the “real” planning file, it quietly changes how decisions get made.\n\n\nCurious where you land: in your world, is Excel mostly filling a trust, fit, or visibility gap?",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1784037392584,
+        "date": "2026-07-14T13:56:32.584Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482795171865206784",
+        "likes": 29,
+        "comments": 30,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 25
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477717659690692608",
+      "entityId": "7477717659690692608",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_the-old-playbook-one-central-fulfillment-activity-7477717659690692608-Lkz1",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477717656960167936",
+      "shareUrn": "urn:li:share:7477717656960167936",
+      "content": "The old playbook: One central fulfillment node. Simple, clean, easy to manage.\n\nThe new playbook: Expand into multiple nodes. Get closer to your customer. \n\nThe smarter playbook: It actually depends — and getting it wrong is expensive either way. \n\n\nHere's what I've seen play out recently with two CPG brands in the health and wellness space: \n\nBrand A came to me operating out of two fulfillment locations. On paper it made sense. \n\nIn practice? \n\nThey were a wholesale-driven business with a leaner team, and the complexity was quietly killing them. Inventory split across two nodes meant they couldn't optimize levels at either one — which led to chronic stockouts that were frustrating their retail partners. \n\nThe fix was consolidating to one central node. \n\nSimpler inventory management, lower carrying costs, fewer headaches for a team that didn't have the bandwidth to manage the complexity. \n\n\nBrand B was the opposite story. A DTC-first business shipping from one central location — with over 30% of their orders traveling to zones 6-8. \n\nThey had the team, the right logistics partners, and the volume to justify a second node. \n\nThe projected savings? $250K annually just in outbound shipping costs. \n\nSame industry. Completely different answers.\n\n I believe the brands that win in the next era of fulfillment won't default to \"one node\" or \"many nodes\" — they'll ask better questions first. \n\nWhat does my channel mix look like? Where does my customer actually live? What can my team and partners realistically support? \n\n\nNetwork design is a lever for better performance and cost savings and knowing when to pull it in either direction leads to better outcomes in the long run.",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1782826819346,
+        "date": "2026-06-30T13:40:19.346Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477717659690692608",
+        "likes": 13,
+        "comments": 5,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 11
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7467950882337214464",
+      "entityId": "7467950882337214464",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_last-month-i-helped-a-client-slash-their-activity-7467950882337214464-wNP9",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467950881703903234",
+      "shareUrn": "urn:li:share:7467950881703903234",
+      "content": "Last month I helped a client slash their packaging costs by 40%\n\nIt came down to eliminating one unnecessary step in their supply chain ⤵️\n\n(and if you’re a growing CPG brand this might be costing you extra $ too)\n\nMy client came to me with the challenge of improving margins on their hero product.\n\nWhile getting up to speed on their supply chain, I discovered they were sourcing packaging through a distributor instead of going directly to the factory.\n\nTwo strategic moves changed everything:\n-We cut out the middleman and sourced packaging directly from the factory\n\n-Negotiated blanket PO terms that gave us volume pricing to take advantage of the next pricing tier without requiring us to put out more cash upfront that we had with the distributor.\n\nThe result?\n\nSignificant packaging cost reduction while actually improving their cash flow position all within a month.\n\nThe best part?\n\nThe factory was eager to work with us, going above and beyond to ensure we felt comfortable throughout the process of re-negotiating.\n\nWhat's one supply chain \"middleman\" you've never thought to eliminate?",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1780498238167,
+        "date": "2026-06-03T14:50:38.167Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7467950882337214464",
+        "likes": 28,
+        "comments": 6,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 22
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480253524300169216",
+      "entityId": "7480253524300169216",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_you-can-have-the-right-planning-software-activity-7480253524300169216-ZWsm",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480253522060431360",
+      "shareUrn": "urn:li:share:7480253522060431360",
+      "content": "You can have the “right” planning software and still have bad planning.\n\n\nBecause the real question is: is your planning process built for the stage you’re actually in?\n\n\nThis is the framework I use to help clients make that call — from early-stage founders all the way to brands doing mass wholesale.\n\nPlanning complexity (in real life) tends to evolve like this:\n\n1) Early-stage (single channel, lean SKU count) → Demand is easier to read. Supply is more direct. Fewer moving parts.\n\n2) Growing multichannel (DTC + wholesale, expanding SKUs) → Demand signals multiply. Fulfillment gets more complex. Forecasting becomes a cross-functional sport.\n\n3) Mass wholesale (broad network, high SKU count) → Supply networks layer. SKU velocity behaves wildly differently across the catalog. Retailer behavior starts driving the forecast (POs, chargebacks, replenishment cycles).\n\n\nThe constants — regardless of stage:\n-Your model is only as good as the data you trust\n\n-Planning is only as good as the alignment conversations around it\n\n-Cadence beats sophistication (re-forecasting + scenario planning)\n\n\nWhen a client works through this framework, they can immediately spot where they’re overbuilt (wasting time) or underbuilt (risking bigger problems later).\n\nAnd if you’re waiting for “enterprise tools” before you plan well — you can stop waiting. \n\nGet the basics right, keep them consistent, and scale them as complexity shows up.",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1783431416583,
+        "date": "2026-07-07T13:36:56.583Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480253524300169216",
+        "likes": 10,
+        "comments": 6,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 10
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480636472786583552",
+      "entityId": "7480636472786583552",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_a-client-hired-golden-thread-because-their-activity-7480636472786583552-9J-U",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480636470131617793",
+      "shareUrn": "urn:li:share:7480636470131617793",
+      "content": "A client hired Golden Thread because their 3PL was becoming the ceiling on growth — and they didn’t have a real planning + manufacturing scale-up process to fall back on.\n\n\nLast year, they hit a wall.\n\n\nGrowth was happening, but their fulfillment partner couldn’t keep pace, and every manufacturing run felt like starting from scratch.\n\nThey told me something I still think about:\n\nThey were tired of every growth milestone feeling like a fire to put out instead of a win to celebrate.\n\nAnd it wasn’t really about the 3PL.\n\nThey wanted infrastructure that wouldn’t break every time the business hit its next stage.\n\n\nFast forward to today:\n\nFulfillment runs hands-off. \n\nManufacturing operates like a machine as we scale up and expand. \n\nPlanning is dialed in enough that day-to-day is a light lift — with close attention only where exceptions pop up.\n\n\nThat freed-up time and attention went straight into growth:\n\n-3 new product launches\n-2 brand collaborations\n-sales volume that’s doubled\n\n\nThis didn’t happen by accident.\n\nWe:\n\n1️⃣ fixed the fulfillment partner mismatch\n2️⃣ built manufacturing scale-up processes that could flex with demand\nmade planning consistent instead of reactive\n3️⃣ freed the team to focus on growth instead of operations firefighting\n\n\nWhat we’ve built isn’t just a smoother operation.\n\nWe’ve built the infrastructure to keep growing without ops being the bottleneck.\n\nOne important note: work like this can feel “disruptive” to tackle mid-growth — but the disruption of not fixing it is usually worse (and shows up at the worst possible time).",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1783522718617,
+        "date": "2026-07-08T14:58:38.617Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480636472786583552",
+        "likes": 24,
+        "comments": 4,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 19
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485324010826649602",
+      "entityId": "7485324010826649602",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_a-lot-of-founders-delay-fixing-operations-activity-7485324010826649602-ytx4",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485324010076114944",
+      "shareUrn": "urn:li:share:7485324010076114944",
+      "content": "A lot of founders delay fixing operations because they don’t want to “disrupt” growth.\n\n\nBut here’s what it looks like when you don’t fix it:\n\nGrowth is happening… and every milestone feels like another fire to put out.\n\nThat’s where a client was last year.\n\nTheir 3PL couldn’t keep pace, and they had no real planning + manufacturing scale-up process to fall back on—so every manufacturing run felt like starting from scratch.\n\nThe turning point wasn’t “we need a new 3PL.”\n\nIt was: we need infrastructure that won’t break at the next stage.\n\nFast forward to today:\n\nFulfillment runs hands-off. \n\nManufacturing operates like a machine as we scale up and expand. \n\nPlanning is dialed in enough that day-to-day is a light lift — with close attention only where exceptions pop up.\n\nAnd the time/attention they got back went straight into growth:\n\n-3 new product launches\n-2 brand collaborations\n-sales volume that’s doubled\n\nWhat we did was straightforward (not easy, but straightforward):\n\n-fixed the fulfillment partner mismatch\n-built manufacturing scale-up processes that could flex with demand\n-made planning consistent instead of reactive\n-freed the team to focus on growth instead of ops firefighting\n\nIf you’re scaling and your ops stack is starting to become the constraint, DM me “OPS” and I’ll tell you what I’d assess first and what a realistic path forward could look like.\n\nNo pressure. Just a quick fit check.",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1784640314776,
+        "date": "2026-07-21T13:25:14.776Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485324010826649602",
+        "likes": 5,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478086689803141120",
+      "entityId": "7478086689803141120",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_we-were-watching-inventory-drop-day-by-day-activity-7478086689803141120-LUdL",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478086689119264768",
+      "shareUrn": "urn:li:share:7478086689119264768",
+      "content": "We were watching inventory drop day by day.\n\n\n(And a supplier shortage meant it could turn into a sales problem fast.)\n\nOne thing I wish I knew earlier in my career about contingency planning:\n\nThe relationships you maintain when you don’t need them are the ones that save you when you do.\n\nEarlier this year, a primary supplier hit an unexpected materials shortage and we were running dangerously low on inventory—the kind of low where you’re doing the math daily and hoping your timeline holds.\n\nThe thing that saved us was a former co-manufacturer we’d worked with for two years before switching to another provider.\n\nWe hadn’t given them a PO in a while—but we stayed in touch, kept the relationship warm, and treated them well on the way out.\n\n\nOne phone call later, they moved quickly to source materials and get our production scheduled.\n\nWe got inventory out the door in time.\n\nIf that relationship had gone cold, we would’ve been starting from scratch in the middle of a crisis—vetting someone new while the clock was ticking.\n\nYour contingency plan is only as strong as the relationships behind it.\n\nSecondary suppliers, backup co-mans, alternative logistics providers—they’re not just names on a list. \n\nThey’re relationships that need attention even when everything is running smoothly.",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1782914802981,
+        "date": "2026-07-01T14:06:42.981Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478086689803141120",
+        "likes": 16,
+        "comments": 16,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 13
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478531757491900416",
+      "entityId": "7478531757491900416",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_my-dad-had-a-boat-that-rarely-worked-properly-activity-7478531757491900416--ZMr",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478531754774003712",
+      "shareUrn": "urn:li:share:7478531754774003712",
+      "content": "My dad had a boat that rarely worked properly.\n\n\n\nEvery summer, my siblings and I spent long days helping him sand, refinish, and paint it. We came home sunburnt, covered in varnish, and exhausted. \n\nIt wasn’t glamorous. But there was something deeply satisfying about taking something worn down and leaving it better than you found it.\n\n\nThat principle has followed me into every engagement I’ve taken on.\n\n\nEarlier in my consulting journey, I stepped into a client situation where a lot was on fire: process breakdowns, an overcomplicated supply structure, teams working in silos with little visibility into what anyone else was doing—and morale that reflected all of it.\n\n\nI could have focused purely on operational fixes. But I had this clear feeling that the process problems and the people problems were connected.\n\n\nSo alongside the operational improvements, we built in regular cross-functional touchpoints, created collaborative project plans with clear accountability, and made space for teams to actually communicate with each other. Slowly, trust started to build.\n\n\nAnd then you could feel the shift: teams that had been siloed started to see operations not as a source of friction, but as a function that was there to help them.\n\n\nThat moment when the energy in a room changes is one of the most rewarding parts of this work.",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1783020915387,
+        "date": "2026-07-02T19:35:15.387Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478531757491900416",
+        "likes": 12,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 11
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7467570674081964033",
+      "entityId": "7467570674081964033",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_operationally-the-ultimate-goal-of-selling-activity-7467570674081964033-7tHG",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467570673243226114",
+      "shareUrn": "urn:li:share:7467570673243226114",
+      "content": "Operationally, the ultimate goal of selling across multiple channels isn't just more revenue — it's building one flexible pool of inventory that can support all of them.\n\nWhen inventory is siloed, you end up stocked out on DTC while pallets of the same SKU sit allocated to wholesale. Meanwhile, a retail order comes in and no one has visibility into what's actually available to promise.\n\nThat flexibility needs to extend to how and where orders get fulfilled too. \n\nCan you shift volume between fulfillment nodes? \n\nCan you fulfill a wholesale order from a 3PL that typically handles DTC? \n\nHave you thought through contingencies if one channel spikes unexpectedly?\n\nThis is what it actually means to operate as a true multichannel business — not just selling in multiple places, but building a supply chain nimble enough to support it.\n\nThe goal isn't perfection, sales spikes happen and production delays occur. The goal is keep sales flowing with a productive inventory pool with minimal disruptions.",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1780407589455,
+        "date": "2026-06-02T13:39:49.455Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7467570674081964033",
+        "likes": 25,
+        "comments": 6,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 22
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483162904557531136",
+      "entityId": "7483162904557531136",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_preparing-for-a-major-product-launch-easy-activity-7483162904557531136-oQ2k",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483162903445983233",
+      "shareUrn": "urn:li:share:7483162903445983233",
+      "content": "Preparing for a major product launch? Easy.\n\nJust do these 5 simple steps:\n\nLine up your co-manufacturer months in advance ✅\n\nNail down every component of your BOM ✅\n\nExecute a flawless tech transfer from your old co-man to your new one ✅\n\nWatch a key component get stuck in your new co-man’s supply chain and threaten your entire launch timeline ✅\n\nPanic.\n\nSimple! See you at launch day! 🎉\n\nOkay, jokes aside.\n\nWe were mid-tech transfer—moving to a turnkey model with a new co-manufacturer—when they hit trouble sourcing a critical component in time for our launch window. \n\nThe clock was ticking, and my first thought was, “Are we really about to delay this over one part?”\n\nThe obvious options were to scramble for a new supplier or push the launch.\nInstead, we paused and took stock of what we actually had. \n\nSitting at our old co-manufacturer? The exact raw material needed.\n\nWe sold the component directly to the new co-man, kept the timeline intact, and launched without a hitch.\n\nNo new budget. No new vendors. No drama.\n\nThe lesson I took from that moment: when things go sideways, your first instinct doesn’t have to be spending more or adding more. Sometimes the solution is already somewhere in your supply chain and you just have to go find it.\n\n\nResourcefulness will always beat budget.",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1784125066890,
+        "date": "2026-07-15T14:17:46.890Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483162904557531136",
+        "likes": 13,
+        "comments": 11,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485687318809333760",
+      "entityId": "7485687318809333760",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_i-was-tasked-with-modeling-how-much-warehouse-activity-7485687318809333760-w9gT",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485687318163378176",
+      "shareUrn": "urn:li:share:7485687318163378176",
+      "content": "I was tasked with modeling how much warehouse space a client would need during peak season.\n\nOn paper, it sounds straightforward.\n\nIn reality, the pressure is that if your inputs are messy, your “answer” looks confident… and still leads you straight into a capacity problem.\n\nSo I started with the unglamorous part:\n\n1️⃣ I made sure all logistics specs for their SKUs were documented and up to date. Simple, but everything downstream depends on it.\n\n2️⃣ I built a more detailed inventory model with a week-over-week view, so we could see where inventory swelled and dipped throughout the month.\n\n3️⃣ We aligned on the “rules” for ordering by category (because different categories created very different outcomes).\n\n4️⃣ Then I pulled it all into one model that summed weekly pallet-position needs by storage area against current warehouse capacity constraints.\n\n\nThe result: transparency on what storage needs to prioritize, plus a clear map of which weeks were close to (or over) capacity so we could build a solid gameplan for the next several months.\n\nIf you’re heading into peak, what’s the one piece that feels hardest to get clean right now: the data, the rules, or the model?",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1784726934149,
+        "date": "2026-07-22T13:28:54.149Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485687318809333760",
+        "likes": 8,
+        "comments": 8,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 8
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480991067480158208",
+      "entityId": "7480991067480158208",
+      "linkedinUrl": "https://www.linkedin.com/posts/mary-kate-kloeblen-16052225_the-delay-email-hitand-my-stomach-dropped-activity-7480991067480158208-9OUl",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480991066834296834",
+      "shareUrn": "urn:li:share:7480991066834296834",
+      "content": "The delay email hit—and my stomach dropped.\n\n\nEarlier this year, I was managing a PO for a co-manufacturer that needed to feed directly into a display build for a client, timed to help their team get ahead of their busy season.\n\nThen the timeline started slipping. Once… then again… then again. Weeks of delays.\n\nPeople assume that’s where you go into full firefighting mode.\n\nAnd I get it. The stress was real. Each update felt like a gut punch.\n\nBut I didn’t want stress making the decisions for me, so I forced one small reset: get calm, get specific, and look for what we could actually move.\n\nThat’s when the solution got obvious.\n\nSitting in our warehouse was returns inventory that hadn’t been touched. We QC-ed it, re-packed it, and repurposed it for the display.\n\nThe client’s team stayed on track for their busy season. No drama. No scramble.\n\nThat moment reminded me: operations rewards steadiness. \n\nWhen you stay calm, you see the puzzle—not just the pressure.\n\nWhat’s a moment where staying calm unlocked a solution you wouldn’t have found otherwise?",
+      "author": {
+        "id": "ACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "universalName": null,
+        "publicIdentifier": "mary-kate-kloeblen-16052225",
+        "type": "profile",
+        "name": "Mary Kate Kloeblen",
+        "linkedinUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAU8_FgB80dUYHhnvEE0nSy4sXT6OyTaww0",
+        "info": "Fractional Supply Chain Leader & Trusted Ops Partner to fast-growing CPG brands | I help founders build scalable, low-stress supply chains | Saved Clients $500K+ | 13 years of supply chain & logistics experience",
+        "website": "https://calendly.com/marykate-kloeblen/meet-and-greet",
+        "websiteLabel": "Book an appointment",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQGPp1bpVi9G-A/profile-displayphoto-crop_800_800/B4DZ5qKaY_IMAI-/0/1779897576693?e=1786579200&v=beta&t=ZdwUobJSHlAtMwlVL4avCOL8bIY9mzO86py4nlXLa_8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "87882840"
+      },
+      "postedAt": {
+        "timestamp": 1783607260580,
+        "date": "2026-07-09T14:27:40.580Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480991067480158208",
+        "likes": 8,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+        "sessionId": "55a9b2bd-a18b-45b8-80e9-4fefefd2c17b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487855131246428160",
+      "entityId": "7487855131246428160",
+      "linkedinUrl": "https://www.linkedin.com/posts/marciadwilliams_bad-metrics-make-demand-planners-look-bad-activity-7487855131246428160-d2Pw",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487855129950482433",
+      "shareUrn": "urn:li:share:7487855129950482433",
+      "content": "Bad metrics make demand planners look bad.\n\nThis infographic shows the 7 critical metrics for demand planners to track:\n\n# 1 - Forecast Accuracy (at the right level)\n↳ How close the forecast is to actual demand at the level where decisions are made (SKU-family, product family, region)\n↳ WMAPE = Σ |Actual − Forecast| / Σ Actual\n\n# 2 - Forecast Bias\n↳ Whether the forecast is systematically over- or under-stated over time\n↳ Bias = Σ (Actual − Forecast) / Σ Forecast\n\n# 3 - Forecast Value Add (FVA)\n↳ Whether the demand planning process improves or degrades the forecast compared to a baseline \n↳ FVA = Accuracy_after − Accuracy_before; Positive FVA → planning added value; Negative FVA → planning added noise\n\n# 4 - Demand Volatility (Coefficient of Variation)\n↳ How unstable demand is relative to its average\n↳ Coefficient of Variation (CoV) = Standard Deviation of Demand / Mean Demand; Higher CoV = more volatile, less predictable demand\n\n# 5 - Consensus Forecast Accuracy\n↳ How accurate the final, cross-functional forecast is after Sales, Marketing, and Finance inputs\n↳ Consensus Accuracy = |Actual − Consensus Forecast| / Actual\n \n# 6 - Forecast Timeliness / Stability\n↳ How much the forecast changes after it should be locked\n↳ Forecast Stability = |Forecast_t − Forecast_t−1| / Forecast_t−1\nOr % Changed Volume = Volume changed after freeze / Total forecast volume\n\n# 7 - Forecast Accuracy vs Inventory Outcome\n↳ Whether forecast accuracy actually translates into better inventory and service results\n↳ Excess Inventory ≈ Over-forecast × Unit Cost; Stockouts ≈ Under-forecast × Demand Shortfall \n\nAny others to add?\n\n↳ Want to know more about demand planning and S&OP? Pre-order a copy of my book The Supply Chain Playbook to unlock amazing bonuses today: https://lnkd.in/echFYs2z Bonuses available with pre-orders only.",
+      "author": {
+        "id": "ACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "universalName": null,
+        "publicIdentifier": "marciadwilliams",
+        "type": "profile",
+        "name": "Marcia D Williams",
+        "linkedinUrl": "https://www.linkedin.com/in/marciadwilliams?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "info": "Optimizing Supply Chain-Finance Planning (S&OP/ IBP) at Large Fast-Growing CPGs for GREATER Profits with Automation in Excel, Power BI, and Machine Learning | Supply Chain Consultant | Educator | Author | Speaker |",
+        "website": "https://usmsupplychain.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQGM0JPCU9h3HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1574956968169?e=1786579200&v=beta&t=hPgOR724SM1seQUIclOij3VUM70joJYs2pQqW4Ljazs",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "106437686"
+      },
+      "postedAt": {
+        "timestamp": 1785243780910,
+        "date": "2026-07-28T13:03:00.910Z",
+        "postedAgoShort": "7h",
+        "postedAgoText": "7 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGup84RaO_dvA/feedshare-shrink_1280/B4DZ.o0kEoGYAM-/0/1785243779768?e=1786579200&v=beta&t=Uf9NOLewC0Cqb_KJfCcHfHzjLBREsKENrkQ3pHbBB1U",
+          "width": 1280,
+          "height": 1785
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487855131246428160",
+        "likes": 74,
+        "comments": 12,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 65
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marciadwilliams",
+        "sessionId": "79e7019b-aaf7-418f-970c-fc17442d6ac8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487480161144307712",
+      "entityId": "7487480161144307712",
+      "linkedinUrl": "https://www.linkedin.com/posts/marciadwilliams_few-can-keep-up-with-the-supply-chain-manager-activity-7487480161144307712-N5oz",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487475927652888576",
+      "shareUrn": "urn:li:share:7487475927652888576",
+      "content": "Few can keep up with the Supply Chain Manager workout.\n\n20 Push-ups\n↳ Pushing suppliers for faster deliveries\n\n15 Deadlifts\n↳ Lifting excess inventory\n\n30 Minutes on the Treadmill\n↳ Running after late orders\n\n45 Minutes of Cycling\n↳ Keeping products moving\n\n45 Minutes of Pilates\n↳ Balancing demand and supply\n\n30 Minutes of Yoga\n↳ Staying calm during customer escalations\n\n10 Sprints\n↳ Responding to last-minute executive requests\n\nNo gym membership required.\n\nSupply Chain Managers already get a full-body workout every day.\n\nGuaranteed.\n\nAny points to add?\n\n↳ Want to know more about modern supply chain? Pre-order a copy of my book The Supply Chain Playbook to unlock amazing bonuses today: https://lnkd.in/echFYs2z Bonuses available with pre-orders only.",
+      "author": {
+        "id": "ACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "universalName": null,
+        "publicIdentifier": "marciadwilliams",
+        "type": "profile",
+        "name": "Marcia D Williams",
+        "linkedinUrl": "https://www.linkedin.com/in/marciadwilliams?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "info": "Optimizing Supply Chain-Finance Planning (S&OP/ IBP) at Large Fast-Growing CPGs for GREATER Profits with Automation in Excel, Power BI, and Machine Learning | Supply Chain Consultant | Educator | Author | Speaker |",
+        "website": "https://usmsupplychain.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQGM0JPCU9h3HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1574956968169?e=1786579200&v=beta&t=hPgOR724SM1seQUIclOij3VUM70joJYs2pQqW4Ljazs",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "106437686"
+      },
+      "postedAt": {
+        "timestamp": 1785154381071,
+        "date": "2026-07-27T12:13:01.071Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQH_fPgR_GWriw/feedshare-image-high-res/B4DZ.jbrmgIIAU-/0/1785153370988?e=1786579200&v=beta&t=oaMA1JH2uZ_NvKdoRP_xB2uMD7zRfFRX9vvuiGgW47s",
+          "width": 1095,
+          "height": 1437
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487480161144307712",
+        "likes": 435,
+        "comments": 64,
+        "shares": 32,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 329
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 75
+          },
+          {
+            "type": "EMPATHY",
+            "count": 18
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marciadwilliams",
+        "sessionId": "79e7019b-aaf7-418f-970c-fc17442d6ac8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486755433915764736",
+      "entityId": "7486755433915764736",
+      "linkedinUrl": "https://www.linkedin.com/posts/marciadwilliams_bad-sop-meetings-are-nightmares-everyone-activity-7486755433915764736-QOLG",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486755432850665472",
+      "shareUrn": "urn:li:share:7486755432850665472",
+      "content": "Bad S&OP meetings are nightmares.\n\nEveryone walks into the meeting hoping for:\n↳ Decisions\n↳ Alignment\n↳ Accountability\n↳ Great questions\n↳ Executive support\n↳ One business game plan\n↳ Something new from last cycle\n \nInstead...\n\nMany S&OP meetings become:\n↳ Zero decisions\n↳ Endless KPI reviews\n↳ \"Let's discuss it offline.\"\n↳ Defending last month's numbers\n↳ Functional debates on who’s right\n↳ A copy-paste of last month meeting\n↳ A collection of beautiful dashboards\n \nAny points to add?\n\n↳ Want to know more about S&OP? Join me LIVE in a FREE masterclass on Winning metrics in S&OP. Register here: https://lnkd.in/gRSVfqfA",
+      "author": {
+        "id": "ACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "universalName": null,
+        "publicIdentifier": "marciadwilliams",
+        "type": "profile",
+        "name": "Marcia D Williams",
+        "linkedinUrl": "https://www.linkedin.com/in/marciadwilliams?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "info": "Optimizing Supply Chain-Finance Planning (S&OP/ IBP) at Large Fast-Growing CPGs for GREATER Profits with Automation in Excel, Power BI, and Machine Learning | Supply Chain Consultant | Educator | Author | Speaker |",
+        "website": "https://usmsupplychain.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQGM0JPCU9h3HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1574956968169?e=1786579200&v=beta&t=hPgOR724SM1seQUIclOij3VUM70joJYs2pQqW4Ljazs",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "106437686"
+      },
+      "postedAt": {
+        "timestamp": 1784981592635,
+        "date": "2026-07-25T12:13:12.635Z",
+        "postedAgoShort": "3d",
+        "postedAgoText": "3 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEt7xWIAEesuw/feedshare-shrink_1280/B56Z.ZMZRbIQAM-/0/1784981591559?e=1786579200&v=beta&t=yw-xSSAmLKG8Lz7fzxncC6d4p4qgQY-XW48bSF5phwo",
+          "width": 1280,
+          "height": 1655
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486755433915764736",
+        "likes": 1018,
+        "comments": 58,
+        "shares": 38,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 743
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 247
+          },
+          {
+            "type": "EMPATHY",
+            "count": 15
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marciadwilliams",
+        "sessionId": "79e7019b-aaf7-418f-970c-fc17442d6ac8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487117843663069185",
+      "entityId": "7487117843663069185",
+      "linkedinUrl": "https://www.linkedin.com/posts/marciadwilliams_everyone-sees-inventory-differently-sales-activity-7487117843663069185-G2p2",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487117842400743424",
+      "shareUrn": "urn:li:share:7487117842400743424",
+      "content": "Everyone sees inventory differently.\n\nSales sees opportunity and loves it.\nFinance sees cash trapped and hates it.\nSupply Chain has a love-hate relationship with inventory.\n\nSales says:\n↳ \"The more the better.\"\n↳ \"I can't sell what I don't have.\"\n\nFinance says:\n↳ \"How can we reduce it?\"\n↳ \"It’s impacting cash flow badly.\"\n\nSupply Chain says:\n↳ \"I want the right inventory.\"\n↳ \"Not too much. Not too little.\"\n\nNone of them are wrong.\nThat's the challenge.\nThe different functions pulling in different directions.\n\nS&OP aligns Sales, Marketing, Finance, Supply Chain, and Operations around one inventory strategy.\n \nIt goes beyond the functional silos.\n\nIt creates one business game plan.\n\nAny points to add?\n\n↳ Want to know more about S&OP? Join me LIVE in a FREE masterclass on Winning metrics in S&OP. Register here: https://lnkd.in/gRSVfqfA",
+      "author": {
+        "id": "ACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "universalName": null,
+        "publicIdentifier": "marciadwilliams",
+        "type": "profile",
+        "name": "Marcia D Williams",
+        "linkedinUrl": "https://www.linkedin.com/in/marciadwilliams?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "info": "Optimizing Supply Chain-Finance Planning (S&OP/ IBP) at Large Fast-Growing CPGs for GREATER Profits with Automation in Excel, Power BI, and Machine Learning | Supply Chain Consultant | Educator | Author | Speaker |",
+        "website": "https://usmsupplychain.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQGM0JPCU9h3HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1574956968169?e=1786579200&v=beta&t=hPgOR724SM1seQUIclOij3VUM70joJYs2pQqW4Ljazs",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "106437686"
+      },
+      "postedAt": {
+        "timestamp": 1785067997852,
+        "date": "2026-07-26T12:13:17.852Z",
+        "postedAgoShort": "2d",
+        "postedAgoText": "2 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGlCPS7UOxHrA/feedshare-shrink_1280/B56Z.eWANJKMAM-/0/1785067996373?e=1786579200&v=beta&t=T5jCMqWany28HI6BFvxLtTmBU5f1LjAaNigU8ehsTl4",
+          "width": 1280,
+          "height": 1580
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487117843663069185",
+        "likes": 1046,
+        "comments": 112,
+        "shares": 74,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 983
+          },
+          {
+            "type": "INTEREST",
+            "count": 24
+          },
+          {
+            "type": "EMPATHY",
+            "count": 18
+          },
+          {
+            "type": "PRAISE",
+            "count": 9
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marciadwilliams",
+        "sessionId": "79e7019b-aaf7-418f-970c-fc17442d6ac8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486392997883019265",
+      "entityId": "7486392997883019265",
+      "linkedinUrl": "https://www.linkedin.com/posts/marciadwilliams_a-demand-planner-is-not-a-supply-planner-activity-7486392997883019265-Xo1e",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486389657656803328",
+      "shareUrn": "urn:li:share:7486389657656803328",
+      "content": "A demand planner is NOT a supply planner.\n\nThis infographic compares both roles:\n\nFocus\n↳ Demand planner: prediction of the future demand\n↳ Supply planner: optimization to accomplish demand plan\n\nKey activities\n↳ Demand planner: identify anomalies in data and refine forecasts\n↳ Supply planner: plan capacity and inventory to align with demand\n\nStakeholders\n↳ Demand planner: CEO, marketing, sales, new product introductions, finance, supply planning\n↳ Supply planner: manufacturing/operations/production, materials, procurement, finance, demand planning\n\nNegotiation skills\n↳ Demand planner: to navigate internal politics and communicate gaps against the plan\n↳ Supply planner: to secure favorable terms with demand planners, production managers and suppliers\n\nData\n↳ Demand planner: uses models to predict demand; POS data, shipments, orders\n↳ Supply planner: uses models to optimize capacity, resources, inventory \n\nDemand\n↳ Demand planner: unconstrained demand\n↳ Supply planner: turns unconstrained demand into constrained demand\n\nMetrics\n↳ Demand planner: FVA (forecast value added), MAPE, WMAPE, bias\n↳ Supply planner: OTIF (on time in full), fill rate, lost sales, inventory turnover\n\nTechnology\n↳ Demand planner: advanced forecasting and data representation tools\n↳ Supply planner: ERP, planning systems and inventory management tools\n\nImpact on financials\n↳ Demand planner: revenue (top line)\n↳ Supply planner: cost (bottom line)\nNote: late shipments or shortages can also impact the top line\n\nAny others to add?\n\n↳ Want to know more about supply chain planning roles? Pre-order a copy of my book The Supply Chain Playbook to unlock amazing bonuses today: https://lnkd.in/echFYs2z Bonuses available with pre-orders only.",
+      "author": {
+        "id": "ACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "universalName": null,
+        "publicIdentifier": "marciadwilliams",
+        "type": "profile",
+        "name": "Marcia D Williams",
+        "linkedinUrl": "https://www.linkedin.com/in/marciadwilliams?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "info": "Optimizing Supply Chain-Finance Planning (S&OP/ IBP) at Large Fast-Growing CPGs for GREATER Profits with Automation in Excel, Power BI, and Machine Learning | Supply Chain Consultant | Educator | Author | Speaker |",
+        "website": "https://usmsupplychain.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQGM0JPCU9h3HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1574956968169?e=1786579200&v=beta&t=hPgOR724SM1seQUIclOij3VUM70joJYs2pQqW4Ljazs",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "106437686"
+      },
+      "postedAt": {
+        "timestamp": 1784895181151,
+        "date": "2026-07-24T12:13:01.151Z",
+        "postedAgoShort": "4d",
+        "postedAgoText": "4 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQE4zSSJOcaoOA/feedshare-shrink_1280/B56Z.T_uU.KgAM-/0/1784894383837?e=1786579200&v=beta&t=MxAK3S5x2iqJGWAjuDnr0fCglRoQT-5wCLemcMp5lS0",
+          "width": 1280,
+          "height": 1572
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486392997883019265",
+        "likes": 190,
+        "comments": 45,
+        "shares": 35,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 180
+          },
+          {
+            "type": "INTEREST",
+            "count": 7
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marciadwilliams",
+        "sessionId": "79e7019b-aaf7-418f-970c-fc17442d6ac8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483856306433544192",
+      "entityId": "7483856306433544192",
+      "linkedinUrl": "https://www.linkedin.com/posts/marciadwilliams_not-all-planners-are-the-same-this-infographic-activity-7483856306433544192-ZqIj",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483856305397432320",
+      "shareUrn": "urn:li:share:7483856305397432320",
+      "content": "Not all planners are the same.\n\nThis infographic compares demand vs supply vs production vs materials planner:\n\nDemand planner\n↳ build & challenge forecasts\n↳ manage bias & assumptions\n↳ translate sales signals\n↳ forecast accuracy (WMAPE/ MAPE)\n↳ forecast bias\n\nSupply planner\n↳ balance demand vs capacity\n↳ set inventory targets\n↳ run trade-off scenarios\n↳ OTIF / Service Level\n↳ inventory turns or WOS (weeks of supply)\n\nProduction planner\n↳ sequence & release orders\n↳ manage line constraints\n↳ adjust plans daily\n↳ schedule adherence\n↳ line utilization / throughput\n\nMaterials planner\n↳ receive & validate MRP\n↳ manage material availability\n↳ expedite \n↳ material shortages %\n↳ supplier OTIF\n\nAny others to add?\n\n↳ Want to know more about supply chain planning? Pre-order a copy of my book The Supply Chain Playbook to unlock amazing bonuses today: https://lnkd.in/echFYs2z Bonuses available with pre-orders only.",
+      "author": {
+        "id": "ACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "universalName": null,
+        "publicIdentifier": "marciadwilliams",
+        "type": "profile",
+        "name": "Marcia D Williams",
+        "linkedinUrl": "https://www.linkedin.com/in/marciadwilliams?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "info": "Optimizing Supply Chain-Finance Planning (S&OP/ IBP) at Large Fast-Growing CPGs for GREATER Profits with Automation in Excel, Power BI, and Machine Learning | Supply Chain Consultant | Educator | Author | Speaker |",
+        "website": "https://usmsupplychain.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQGM0JPCU9h3HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1574956968169?e=1786579200&v=beta&t=hPgOR724SM1seQUIclOij3VUM70joJYs2pQqW4Ljazs",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "106437686"
+      },
+      "postedAt": {
+        "timestamp": 1784290386780,
+        "date": "2026-07-17T12:13:06.780Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHAj9C7H9mXjg/feedshare-shrink_1280/B4EZ9v_p7kKoAM-/0/1784290386077?e=1786579200&v=beta&t=F008JJejRgu4k2R6ldUsV1TM2s7Z2orOEoH3fKt1eMQ",
+          "width": 1280,
+          "height": 1629
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483856306433544192",
+        "likes": 1615,
+        "comments": 82,
+        "shares": 254,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1537
+          },
+          {
+            "type": "EMPATHY",
+            "count": 33
+          },
+          {
+            "type": "INTEREST",
+            "count": 30
+          },
+          {
+            "type": "PRAISE",
+            "count": 9
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marciadwilliams",
+        "sessionId": "79e7019b-aaf7-418f-970c-fc17442d6ac8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484581058131402752",
+      "entityId": "7484581058131402752",
+      "linkedinUrl": "https://www.linkedin.com/posts/marciadwilliams_supply-chain-does-not-have-amnesia-it-usually-activity-7484581058131402752-BdWU",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484574312457494528",
+      "shareUrn": "urn:li:share:7484574312457494528",
+      "content": "Supply Chain does NOT have amnesia.\n\nIt usually starts like this:\n↳ \"We need it fast.\"\n↳ \"The customer is waiting.\"\n↳ \"This is a huge opportunity.\"\n↳ \"Can Supply Chain get it here faster?\"\n\nEveryone jumps into action.\n↳ Production changes the schedule\n↳ Suppliers receive urgent calls\n↳ Other customer orders are delayed\n↳ Inventory plans are disrupted\n\nThen...\n\nThe customer didn’t take it.\n\nSuddenly...\n↳ Nobody remembers the urgency\n↳ Excess inventory becomes a Supply Chain problem\n↳ Finance asks why inventory increased\n↳ Supply Chain is expected to fix it\n\nSales may forget.\n\nSupply Chain remembers every expedite.\n\nAny other points to add?\n\n↳ Want to know more about S&OP and supply chain planning? Pre-order a copy of my book The Supply Chain Playbook to unlock amazing bonuses today: https://lnkd.in/echFYs2z Bonuses available with pre-orders only.",
+      "author": {
+        "id": "ACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "universalName": null,
+        "publicIdentifier": "marciadwilliams",
+        "type": "profile",
+        "name": "Marcia D Williams",
+        "linkedinUrl": "https://www.linkedin.com/in/marciadwilliams?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "info": "Optimizing Supply Chain-Finance Planning (S&OP/ IBP) at Large Fast-Growing CPGs for GREATER Profits with Automation in Excel, Power BI, and Machine Learning | Supply Chain Consultant | Educator | Author | Speaker |",
+        "website": "https://usmsupplychain.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQGM0JPCU9h3HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1574956968169?e=1786579200&v=beta&t=hPgOR724SM1seQUIclOij3VUM70joJYs2pQqW4Ljazs",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "106437686"
+      },
+      "postedAt": {
+        "timestamp": 1784463181050,
+        "date": "2026-07-19T12:13:01.050Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFEmMqrUdccrA/feedshare-shrink_1280/B4EZ96MrWkHoAM-/0/1784461571983?e=1786579200&v=beta&t=z7FLjSGA1K2jZR6P_TXx_11BJRzJLxFscycICwivKhk",
+          "width": 1280,
+          "height": 1655
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484581058131402752",
+        "likes": 2711,
+        "comments": 165,
+        "shares": 205,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2051
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 598
+          },
+          {
+            "type": "EMPATHY",
+            "count": 25
+          },
+          {
+            "type": "PRAISE",
+            "count": 16
+          },
+          {
+            "type": "INTEREST",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 9
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marciadwilliams",
+        "sessionId": "79e7019b-aaf7-418f-970c-fc17442d6ac8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483493894601555970",
+      "entityId": "7483493894601555970",
+      "linkedinUrl": "https://www.linkedin.com/posts/marciadwilliams_most-in-sales-dont-get-lead-times-they-activity-7483493894601555970-vAis",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483484094979493888",
+      "shareUrn": "urn:li:share:7483484094979493888",
+      "content": "Most in Sales don't get lead times.\n\nThey celebrate the customer order.\nThey promise before asking.\nThey tell Supply Chain last.\n\nThen come the questions:\n↳ \"Can we ship next week?\"\n↳ \"Can we make an exception?\"\n↳ \"Can't the supplier make it faster?\"\n↳ \"Can Production squeeze it in?\"\n↳ \"This customer is really, really important.\"\n\nThen reality hits.\n\nLead times exist for a reason:\n↳ Supplier capacity\n↳ Raw material availability\n↳ Manufacturing constraints\n↳ Transportation\n↳ Existing customer commitments\n\nSupply Chain can't magically create products.\n\nLead times are real.\n\nAny other points to add?\n\n↳ Want to know more about modern supply chain? Pre-order a copy of my book The Supply Chain Playbook to unlock amazing bonuses today: https://lnkd.in/echFYs2z Bonuses available with pre-orders only.",
+      "author": {
+        "id": "ACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "universalName": null,
+        "publicIdentifier": "marciadwilliams",
+        "type": "profile",
+        "name": "Marcia D Williams",
+        "linkedinUrl": "https://www.linkedin.com/in/marciadwilliams?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "info": "Optimizing Supply Chain-Finance Planning (S&OP/ IBP) at Large Fast-Growing CPGs for GREATER Profits with Automation in Excel, Power BI, and Machine Learning | Supply Chain Consultant | Educator | Author | Speaker |",
+        "website": "https://usmsupplychain.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQGM0JPCU9h3HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1574956968169?e=1786579200&v=beta&t=hPgOR724SM1seQUIclOij3VUM70joJYs2pQqW4Ljazs",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "106437686"
+      },
+      "postedAt": {
+        "timestamp": 1784203981066,
+        "date": "2026-07-16T12:13:01.066Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQE9FknELYVHhw/feedshare-image-high-res/B4EZ9qtIdhJkAY-/0/1784201644177?e=1786579200&v=beta&t=VRty97WuO4KeXoMHzaHbIbWdHf7QGegigu28J321XH8",
+          "width": 1000,
+          "height": 1294
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483493894601555970",
+        "likes": 3254,
+        "comments": 162,
+        "shares": 269,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2265
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 898
+          },
+          {
+            "type": "EMPATHY",
+            "count": 43
+          },
+          {
+            "type": "PRAISE",
+            "count": 23
+          },
+          {
+            "type": "INTEREST",
+            "count": 17
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marciadwilliams",
+        "sessionId": "79e7019b-aaf7-418f-970c-fc17442d6ac8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486030609736400896",
+      "entityId": "7486030609736400896",
+      "linkedinUrl": "https://www.linkedin.com/posts/marciadwilliams_supply-chain-roles-are-not-created-equal-activity-7486030609736400896-5x5R",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486023486700695552",
+      "shareUrn": "urn:li:share:7486023486700695552",
+      "content": "Supply chain roles are NOT created equal.\n\nEvery role has its own flavor.\n\nChocolate = Demand Planner\n↳ The most popular flavor\n↳ Everyone wants to know what demand will look like\n\nSalted Caramel = Supply Planner\n↳ Supply Planning is all about balance\n↳ Too much inventory hurts cash; too little inventory hurts service\n\nCookies & Cream = S&OP Lead\n↳ Different ingredients, one great outcome\n↳ S&OP brings every function together around one business plan\n\nLemon = Procurement\n↳ Not always the sweetest role\n↳ Negotiating prices, challenging suppliers, and protecting margins isn't supposed to be easy\n\nStrawberry = Customer Service\n↳ Keeping customers happy\n↳ Solving problems; building relationships\n\nVanilla = Logistics Manager\n↳ The flavor everyone knows\n↳ Keeping products moving every day, 24/7\n\nPistachio = AI Agents\n↳ The newest flavor on the menu\n↳ Everyone is talking about it\n\nAny others to add?\n\n↳ Want to know more about modern supply chain? Pre-order a copy of my book The Supply Chain Playbook to unlock amazing bonuses today: https://lnkd.in/echFYs2z Bonuses available with pre-orders only.",
+      "author": {
+        "id": "ACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "universalName": null,
+        "publicIdentifier": "marciadwilliams",
+        "type": "profile",
+        "name": "Marcia D Williams",
+        "linkedinUrl": "https://www.linkedin.com/in/marciadwilliams?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "info": "Optimizing Supply Chain-Finance Planning (S&OP/ IBP) at Large Fast-Growing CPGs for GREATER Profits with Automation in Excel, Power BI, and Machine Learning | Supply Chain Consultant | Educator | Author | Speaker |",
+        "website": "https://usmsupplychain.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQGM0JPCU9h3HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1574956968169?e=1786579200&v=beta&t=hPgOR724SM1seQUIclOij3VUM70joJYs2pQqW4Ljazs",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "106437686"
+      },
+      "postedAt": {
+        "timestamp": 1784808781084,
+        "date": "2026-07-23T12:13:01.084Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEh-Uvh5J2AVw/feedshare-shrink_1280/B56Z.OysdRG4AM-/0/1784807082301?e=1786579200&v=beta&t=TtGG1i8nDb4Zeno7bBp0ngioF1mu4AnenJsBtAPoiYM",
+          "width": 1280,
+          "height": 1647
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486030609736400896",
+        "likes": 806,
+        "comments": 87,
+        "shares": 69,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 699
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 66
+          },
+          {
+            "type": "EMPATHY",
+            "count": 24
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marciadwilliams",
+        "sessionId": "79e7019b-aaf7-418f-970c-fc17442d6ac8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485305833845727232",
+      "entityId": "7485305833845727232",
+      "linkedinUrl": "https://www.linkedin.com/posts/marciadwilliams_sales-owns-the-forecast-until-its-wrong-activity-7485305833845727232-LiOQ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485299697499156480",
+      "shareUrn": "urn:li:share:7485299697499156480",
+      "content": "Sales owns the forecast until it’s wrong.\n\nThen…\n\nIt becomes:\n↳ Supply Chain's inventory\n↳ Operations' production\n↳ Procurement's purchase orders\n↳ Finance's working capital\n↳ Demand Planning's forecast\n\nThat's not how forecast ownership works:\n↳ A forecast doesn't belong to one function\n↳ A forecast belongs to the business\n↳ Sales should own the forecast whether demand ends up above or below the plan\n\nForecast ownership cannot change depending on the result.\n\nAny points to add?\n\n↳ Want to know more about S&OP and demand planning? Pre-order a copy of my book The Supply Chain Playbook to unlock amazing bonuses today: https://lnkd.in/echFYs2z Bonuses available with pre-orders only.",
+      "author": {
+        "id": "ACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "universalName": null,
+        "publicIdentifier": "marciadwilliams",
+        "type": "profile",
+        "name": "Marcia D Williams",
+        "linkedinUrl": "https://www.linkedin.com/in/marciadwilliams?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "info": "Optimizing Supply Chain-Finance Planning (S&OP/ IBP) at Large Fast-Growing CPGs for GREATER Profits with Automation in Excel, Power BI, and Machine Learning | Supply Chain Consultant | Educator | Author | Speaker |",
+        "website": "https://usmsupplychain.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQGM0JPCU9h3HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1574956968169?e=1786579200&v=beta&t=hPgOR724SM1seQUIclOij3VUM70joJYs2pQqW4Ljazs",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "106437686"
+      },
+      "postedAt": {
+        "timestamp": 1784635981046,
+        "date": "2026-07-21T12:13:01.046Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHzET3yLCbKUQ/feedshare-shrink_1280/B56Z.EgaP8G8AQ-/0/1784634516850?e=1786579200&v=beta&t=VSX0e3iPIi5H02swanaiZBUkXv1wSFcV39PGPQz5suQ",
+          "width": 1280,
+          "height": 1655
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485305833845727232",
+        "likes": 566,
+        "comments": 41,
+        "shares": 31,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 440
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 108
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marciadwilliams",
+        "sessionId": "79e7019b-aaf7-418f-970c-fc17442d6ac8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485668221837275137",
+      "entityId": "7485668221837275137",
+      "linkedinUrl": "https://www.linkedin.com/posts/marciadwilliams_sop-is-not-about-the-past-you-cant-change-activity-7485668221837275137-jwJr",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485665370255761408",
+      "shareUrn": "urn:li:share:7485665370255761408",
+      "content": "S&OP is NOT about the past.\n\nYou can't change the past.\nIf you can't change it, it's NOT S&OP.\n\nMany companies spend most of their S&OP meetings reviewing last month's numbers.\n\nHours discussing:\n↳ Last month's actuals vs. forecast\n↳ Last month's OTIF\n↳ Last month's inventory levels\n↳ Last month's production performance\n↳ Last month's misses\n↳ Last month's explanations\n\nOf course, you need to understand what happened.\n\nBut only for one reason:\nTo make better decisions about the future.\n\nS&OP is not a KPI review meeting.\nFinance closes the books.\nS&OP changes the future.\n\nEvery discussion in an S&OP meeting should end with a decision about the future:\n↳ Should we approve overtime?\n↳ Should we delay a promotion?\n↳ Should we secure additional supplier capacity?\n↳ Should we commit to unconfirmed customer demand?\n\nIf a discussion doesn't influence a future decision...\n\nIt belongs somewhere else.\n\nNot in S&OP.\n\nThe past explains.\n\nS&OP decides what happens next.\n\nAny points to add?\n\nJoin me LIVE in a FREE masterclass on Winning metrics in S&OP.\nRegister here: https://lnkd.in/gRSVfqfA",
+      "author": {
+        "id": "ACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "universalName": null,
+        "publicIdentifier": "marciadwilliams",
+        "type": "profile",
+        "name": "Marcia D Williams",
+        "linkedinUrl": "https://www.linkedin.com/in/marciadwilliams?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "info": "Optimizing Supply Chain-Finance Planning (S&OP/ IBP) at Large Fast-Growing CPGs for GREATER Profits with Automation in Excel, Power BI, and Machine Learning | Supply Chain Consultant | Educator | Author | Speaker |",
+        "website": "https://usmsupplychain.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQGM0JPCU9h3HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1574956968169?e=1786579200&v=beta&t=hPgOR724SM1seQUIclOij3VUM70joJYs2pQqW4Ljazs",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "106437686"
+      },
+      "postedAt": {
+        "timestamp": 1784722381076,
+        "date": "2026-07-22T12:13:01.076Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGp8eAroaOQ-Q/feedshare-image-high-res/B56Z.Js_L4KcAU-/0/1784721700430?e=1786579200&v=beta&t=ggt_Y1zWxBZUCxTcfF16ZZ2lHveY5LTIVK_ixhB5QgQ",
+          "width": 1530,
+          "height": 1484
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485668221837275137",
+        "likes": 289,
+        "comments": 62,
+        "shares": 15,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 268
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marciadwilliams",
+        "sessionId": "79e7019b-aaf7-418f-970c-fc17442d6ac8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484943445997023232",
+      "entityId": "7484943445997023232",
+      "linkedinUrl": "https://www.linkedin.com/posts/marciadwilliams_materials-planners-are-not-data-entry-clerks-activity-7484943445997023232-H5H1",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484934845962428417",
+      "shareUrn": "urn:li:share:7484934845962428417",
+      "content": "Materials planners are NOT data entry clerks.\n\nMost think being a materials planner is about:\n↳ Running MRP every day\n↳ Reviewing MRP exceptions\n↳ Releasing purchase orders\n↳ Updating purchase orders\n↳ Calling suppliers for updates\n↳ Following up on late deliveries\n↳ Maintaining multiple spreadsheets\n\nThat's only what people see.\n\nBeing a materials planner is really about:\n↳ Preventing production lines from stopping\n↳ Anticipating material shortages before they happen\n↳ Understanding how demand changes impact every component\n↳ Balancing inventory without creating excess stock\n↳ Validating BOMs, lead times, and planning parameters\n↳ Adjusting to last-minute production schedule changes\n↳ Sharing accurate forecasts with suppliers for better planning\n\nMaterials planners are critical to:\n↳ Protecting customer service\n↳ Optimizing inventory\n↳ Improving cash flow\n \nMaterials planners keep plants running.\n\nAny points to add?\n\n↳ Want to know more about materials planning? Pre-order a copy of my book The Supply Chain Playbook to unlock amazing bonuses today: https://lnkd.in/echFYs2z Bonuses available with pre-orders only.",
+      "author": {
+        "id": "ACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "universalName": null,
+        "publicIdentifier": "marciadwilliams",
+        "type": "profile",
+        "name": "Marcia D Williams",
+        "linkedinUrl": "https://www.linkedin.com/in/marciadwilliams?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "info": "Optimizing Supply Chain-Finance Planning (S&OP/ IBP) at Large Fast-Growing CPGs for GREATER Profits with Automation in Excel, Power BI, and Machine Learning | Supply Chain Consultant | Educator | Author | Speaker |",
+        "website": "https://usmsupplychain.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQGM0JPCU9h3HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1574956968169?e=1786579200&v=beta&t=hPgOR724SM1seQUIclOij3VUM70joJYs2pQqW4Ljazs",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "106437686"
+      },
+      "postedAt": {
+        "timestamp": 1784549581050,
+        "date": "2026-07-20T12:13:01.050Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHBuvdVB4rt1Q/feedshare-shrink_1280/B56Z9_UlHYGUAQ-/0/1784547529442?e=1786579200&v=beta&t=pG095xUofMNhLgkGYV12uBSOjG85uoIBjEXPLd0F0D8",
+          "width": 1113,
+          "height": 1114
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484943445997023232",
+        "likes": 207,
+        "comments": 24,
+        "shares": 23,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 187
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "EMPATHY",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marciadwilliams",
+        "sessionId": "79e7019b-aaf7-418f-970c-fc17442d6ac8"
+      }
+    }
+  ]
+}

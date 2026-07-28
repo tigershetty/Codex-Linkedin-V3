@@ -1,0 +1,692 @@
+{
+  "runId": "09VkEs40HrvabPyhh",
+  "datasetId": "b6m17OVBvLJBq0Kf7",
+  "offset": 0,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7459856232657620993",
+      "entityId": "7459856232657620993",
+      "linkedinUrl": "https://www.linkedin.com/posts/supplychainaipro_%F0%9D%90%96%F0%9D%90%A1%F0%9D%90%B2-%F0%9D%90%9A%F0%9D%90%A6-%F0%9D%90%88-%F0%9D%90%A7%F0%9D%90%A8%F0%9D%90%AD-%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%AD%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A0-%F0%9D%90%AD%F0%9D%90%A1%F0%9D%90%9E-activity-7459856232657620993-inro",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7459856231478976512",
+      "shareUrn": "urn:li:share:7459856231478976512",
+      "content": "\"𝐖𝐡𝐲 𝐚𝐦 𝐈 𝐧𝐨𝐭 𝐠𝐞𝐭𝐭𝐢𝐧𝐠 𝐭𝐡𝐞 𝐫𝐢𝐠𝐡𝐭 𝐫𝐞𝐬𝐮𝐥𝐭𝐬 𝐟𝐫𝐨𝐦 𝐀𝐈?\"\n\nI hear this a lot. The secret isn't just in the prompt, it’s in picking the 𝐫𝐢𝐠𝐡𝐭 𝐞𝐧𝐠𝐢𝐧𝐞 for the task. Using a high-level model for a simple email is a waste of tokens, while using a basic model for complex contract analysis won't give you the depth you need.\n\nThis 𝐏𝐫𝐨𝐜𝐮𝐫𝐞𝐦𝐞𝐧𝐭 𝐃𝐞𝐜𝐢𝐬𝐢𝐨𝐧 𝐓𝐫𝐞𝐞 is your roadmap to:\n• 𝐂𝐮𝐭𝐭𝐢𝐧𝐠 𝐝𝐨𝐰𝐧 analysis time significantly.\n• 𝐂𝐡𝐨𝐨𝐬𝐢𝐧𝐠 the perfect Claude model (Sonnet vs. Haiku vs. Opus).\n• 𝐌𝐚𝐬𝐭𝐞𝐫𝐢𝐧𝐠 \"𝐂𝐨𝐰𝐨𝐫𝐤\" for high-level scenario planning.\n\nStop guessing and start prompting with 𝐬𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐜 𝐢𝐧𝐭𝐞𝐧𝐭!\n\n🔖 𝗦𝗮𝘃𝗲 to ensure you’re always using the right tool for the job!\n♻️ 𝗥𝗲𝗽𝗼𝘀𝘁 to empower your network with the ultimate AI procurement workflow!\n🔔 𝐅𝐨𝐥𝐥𝐨𝐰 Asmaa Gad & Supply Chain AI Pro for more AI insights!",
+      "author": {
+        "id": "ACoAAAlF6-oBDufeP1Z7MQYs4B4MUW2BibbWgb8",
+        "universalName": null,
+        "publicIdentifier": "supplychainaipro",
+        "type": "profile",
+        "name": "Asmaa Gad",
+        "linkedinUrl": "https://www.linkedin.com/in/supplychainaipro?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAlF6-oBDufeP1Z7MQYs4B4MUW2BibbWgb8",
+        "info": "Master AI for Procurement & Supply Chain | Free Playbooks, Tutorials & Templates | Founder @Supply Chain AI Pro",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFGKuz3AWBv7g/profile-displayphoto-crop_800_800/B56Z5v6BXOJgAM-/0/1779993946874?e=1786579200&v=beta&t=Oj_MTqXNmRJtdkW7b-oMco894Q7zoDEYj7mhrdpvgkA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "155577322"
+      },
+      "postedAt": {
+        "timestamp": 1778568323292,
+        "date": "2026-05-12T06:45:23.292Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHoyU8YFXXDCg/feedshare-shrink_1280/B4EZ4a7tj5IAAU-/0/1778568321997?e=1786579200&v=beta&t=cZJ2MKr6Q3_2lTri8asmmgHWtjLdEplKcfq7g4MI-t8",
+          "width": 1280,
+          "height": 1920
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7459856232657620993",
+        "likes": 175,
+        "comments": 16,
+        "shares": 17,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 152
+          },
+          {
+            "type": "INTEREST",
+            "count": 18
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/supplychainaipro_%F0%9D%90%96%F0%9D%90%A1%F0%9D%90%B2-%F0%9D%90%9A%F0%9D%90%A6-%F0%9D%90%88-%F0%9D%90%A7%F0%9D%90%A8%F0%9D%90%AD-%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%AD%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A0-%F0%9D%90%AD%F0%9D%90%A1%F0%9D%90%9E-activity-7459856232657620993-inro",
+        "sessionId": "187ad2a2-5dbc-462d-9db9-e2a0e2300573"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7460219130940489729",
+      "entityId": "7460219130940489729",
+      "linkedinUrl": "https://www.linkedin.com/posts/supplychainaipro_%F0%9D%90%87%F0%9D%90%A8%F0%9D%90%B0-%F0%9D%90%AD%F0%9D%90%A8-%F0%9D%90%8C%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%8F%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%9C%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%A6-activity-7460219130940489729-40oI",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7460219129526915072",
+      "shareUrn": "urn:li:share:7460219129526915072",
+      "content": "𝐇𝐨𝐰 𝐭𝐨 𝐌𝐚𝐬𝐭𝐞𝐫 𝐏𝐫𝐨𝐜𝐮𝐫𝐞𝐦𝐞𝐧𝐭 𝐰𝐢𝐭𝐡 𝐂𝐥𝐚𝐮𝐝𝐞 𝐢𝐧 𝟕 𝐃𝐚𝐲𝐬...\n\nWe hear a lot about 𝐀𝐈 𝐢𝐧 𝐏𝐫𝐨𝐜𝐮𝐫𝐞𝐦𝐞𝐧𝐭, but very few people actually know where to start. This infographic breaks down the journey into 𝟏𝟎 𝐭𝐚𝐜𝐭𝐢𝐜𝐚𝐥 𝐦𝐨𝐯𝐞𝐬 to help you shift from \"drowning in details\" to \"𝐥𝐞𝐚𝐝𝐢𝐧𝐠 𝐰𝐢𝐭𝐡 𝐝𝐚𝐭𝐚\".\n\nWhat I love most about this roadmap is the 𝐃𝐚𝐢𝐥𝐲 𝐅𝐥𝐨𝐰 concept. AI isn't just a one-off tool; it’s a \"𝐝𝐢𝐠𝐢𝐭𝐚𝐥 𝐭𝐞𝐚𝐦𝐦𝐚𝐭𝐞\" that helps you build a complete system.\n\n𝐏𝐚𝐲 𝐜𝐥𝐨𝐬𝐞 𝐚𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧 𝐭𝐨 𝐒𝐭𝐞𝐩 𝟓 𝐚𝐧𝐝 𝐒𝐭𝐞𝐩 𝟔:\n\n• 𝐌𝐚𝐬𝐭𝐞𝐫𝐢𝐧𝐠 𝐭𝐡𝐞 𝐏𝐫𝐨𝐦𝐩𝐭: Learning the (𝐑𝐨𝐥𝐞 + 𝐓𝐚𝐬𝐤 + 𝐂𝐨𝐧𝐭𝐞𝐱𝐭) formula to get actionable results.\n• 𝐓𝐡𝐞 𝐌𝐢𝐧𝐝𝐬𝐞𝐭 𝐒𝐡𝐢𝐟𝐭: Training Claude to think like a \"𝐒𝐞𝐧𝐢𝐨𝐫 𝐁𝐮𝐲𝐞𝐫\" on your team, not just a chatbot.\n\nIf you start applying these steps, I guarantee you'll 𝐬𝐚𝐯𝐞 𝐡𝐨𝐮𝐫𝐬 𝐨𝐟 𝐫𝐨𝐮𝐭𝐢𝐧𝐞 𝐰𝐨𝐫𝐤 every single week.\n\n🔖 𝗦𝗮𝘃𝗲 so you can come back to these steps while setting up your own AI Hub.\n♻️ 𝗥𝗲𝗽𝗼𝘀𝘁 so your team can start working faster and smarter starting today.\n🔔 𝐅𝐨𝐥𝐥𝐨𝐰 Asmaa Gad & Supply Chain AI Pro for more AI insights!",
+      "author": {
+        "id": "ACoAAAlF6-oBDufeP1Z7MQYs4B4MUW2BibbWgb8",
+        "universalName": null,
+        "publicIdentifier": "supplychainaipro",
+        "type": "profile",
+        "name": "Asmaa Gad",
+        "linkedinUrl": "https://www.linkedin.com/in/supplychainaipro?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAlF6-oBDufeP1Z7MQYs4B4MUW2BibbWgb8",
+        "info": "Master AI for Procurement & Supply Chain | Free Playbooks, Tutorials & Templates | Founder @Supply Chain AI Pro",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFGKuz3AWBv7g/profile-displayphoto-crop_800_800/B56Z5v6BXOJgAM-/0/1779993946874?e=1786579200&v=beta&t=Oj_MTqXNmRJtdkW7b-oMco894Q7zoDEYj7mhrdpvgkA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "155577322"
+      },
+      "postedAt": {
+        "timestamp": 1778654844985,
+        "date": "2026-05-13T06:47:24.985Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGqhNgm09gEzw/feedshare-shrink_1280/B4EZ4gFxDkJoAM-/0/1778654843830?e=1786579200&v=beta&t=1IYS_eGITFWYKX-liOSJKm_utbNbeI6eDOYMYa02y7k",
+          "width": 1280,
+          "height": 1920
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7460219130940489729",
+        "likes": 434,
+        "comments": 47,
+        "shares": 35,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 405
+          },
+          {
+            "type": "INTEREST",
+            "count": 20
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/supplychainaipro_%F0%9D%90%87%F0%9D%90%A8%F0%9D%90%B0-%F0%9D%90%AD%F0%9D%90%A8-%F0%9D%90%8C%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%8F%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%9C%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%A6-activity-7460219130940489729-40oI",
+        "sessionId": "227ecbaf-9e5c-4d48-b399-d6dad467b49f"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7460581602880864258",
+      "entityId": "7460581602880864258",
+      "linkedinUrl": "https://www.linkedin.com/posts/supplychainaipro_6-steps-1-goal-%F0%9D%90%81%F0%9D%90%9E%F0%9D%90%AD%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%8E%F0%9D%90%AE%F0%9D%90%AD%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%A6%F0%9D%90%9E%F0%9D%90%AC-activity-7460581602880864258-e787",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7460581601538764800",
+      "shareUrn": "urn:li:share:7460581601538764800",
+      "content": "6 Steps. 1 Goal: 𝐁𝐞𝐭𝐭𝐞𝐫 𝐎𝐮𝐭𝐜𝐨𝐦𝐞𝐬 𝐰𝐢𝐭𝐡 𝐀𝐈\n\nIf you’re ready to move procurement from a back-office function to a 𝐯𝐚𝐥𝐮𝐞 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐧𝐠 𝐩𝐨𝐰𝐞𝐫𝐡𝐨𝐮𝐬𝐞, follow these 6 core principles:\n\n𝟏. 𝐏𝐫𝐨𝐜𝐞𝐬𝐬 𝐨𝐯𝐞𝐫 𝐓𝐨𝐨𝐥𝐬: Solve the problem before picking the tech.\n𝟐. 𝐒𝐩𝐞𝐜𝐢𝐟𝐢𝐜𝐢𝐭𝐲 𝐨𝐯𝐞𝐫 𝐆𝐞𝐧𝐞𝐫𝐚𝐥𝐢𝐭𝐲: Narrow your use case for real impact.\n𝟑. 𝐌𝐚𝐩𝐩𝐢𝐧𝐠 𝐨𝐯𝐞𝐫 𝐆𝐮𝐞𝐬𝐬𝐢𝐧𝐠: Understand your workflow before you change it.\n𝟒. 𝐕𝐚𝐥𝐮𝐞 𝐨𝐯𝐞𝐫 𝐏𝐫𝐨𝐦𝐢𝐬𝐞𝐬: Choose an entry point that proves ROI fast.\n𝟓. 𝐂𝐨𝐧𝐬𝐢𝐬𝐭𝐞𝐧𝐜𝐲 𝐨𝐯𝐞𝐫 𝐏𝐢𝐥𝐨𝐭𝐬: Scale what works to build a competitive advantage.\n𝟔. 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐨𝐯𝐞𝐫 𝐇𝐲𝐩𝐞: AI is only as strong as your data and governance.\n\nThe future of procurement is 𝐢𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐭, 𝐚𝐮𝐭𝐨𝐦𝐚𝐭𝐞𝐝, and 𝐬𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐜.\nAre you ready to lead the change?\n\n𝐉𝐨𝐢𝐧 our free newsletter for weekly AI tips in procurement and supply chain → https://lnkd.in/ebGwQKwH\n\n🔖 𝐒𝐚𝐯𝐞 so you never lose sight of the essentials during your AI transition.\n♻️ 𝐑𝐞𝐩𝐨𝐬𝐭 these 6 golden rules with your colleagues and network.\n🔔 𝐅𝐨𝐥𝐥𝐨𝐰 Asmaa Gad & Supply Chain AI Pro for more AI insights!",
+      "author": {
+        "id": "ACoAAAlF6-oBDufeP1Z7MQYs4B4MUW2BibbWgb8",
+        "universalName": null,
+        "publicIdentifier": "supplychainaipro",
+        "type": "profile",
+        "name": "Asmaa Gad",
+        "linkedinUrl": "https://www.linkedin.com/in/supplychainaipro?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAlF6-oBDufeP1Z7MQYs4B4MUW2BibbWgb8",
+        "info": "Master AI for Procurement & Supply Chain | Free Playbooks, Tutorials & Templates | Founder @Supply Chain AI Pro",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFGKuz3AWBv7g/profile-displayphoto-crop_800_800/B56Z5v6BXOJgAM-/0/1779993946874?e=1786579200&v=beta&t=Oj_MTqXNmRJtdkW7b-oMco894Q7zoDEYj7mhrdpvgkA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "155577322"
+      },
+      "postedAt": {
+        "timestamp": 1778741265030,
+        "date": "2026-05-14T06:47:45.030Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQG9QgmGSBeCMw/feedshare-shrink_1280/B4EZ4lPbrOHcAM-/0/1778741263739?e=1786579200&v=beta&t=9Zx1bS2VBtX-8eFf-VfnYHDwn-fOtfjPDktxMFNVzdk",
+          "width": 1280,
+          "height": 2000
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7460581602880864258",
+        "likes": 109,
+        "comments": 37,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 94
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/supplychainaipro_6-steps-1-goal-%F0%9D%90%81%F0%9D%90%9E%F0%9D%90%AD%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%8E%F0%9D%90%AE%F0%9D%90%AD%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%A6%F0%9D%90%9E%F0%9D%90%AC-activity-7460581602880864258-e787",
+        "sessionId": "747fd181-9e1d-459b-acbc-3de34cc2c820"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7466137551251378176",
+      "entityId": "7466137551251378176",
+      "linkedinUrl": "https://www.linkedin.com/posts/sarah-hurzeler_forecasts-dont-buy-inventory-plans-don-activity-7466137551251378176-XXE2",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7463262020184948740",
+      "shareUrn": "urn:li:share:7463262020184948740",
+      "content": "Forecasts don’t buy inventory.\nPlans don’t place POs.\nBuyers do.\n\nAnd this is where many inventory problems quietly begin.\nMost organizations talk about forecasting and planning.\nFar fewer talk about the connection between forecasting, planning, and buying.\n\nBut all three drive inventory performance together.\n→ Forecasting: Builds the demand signal using history, trends, and market inputs.\n\n→ Planning: Translates that signal into inventory, capacity, and supply decisions.\n\n→ Buying: Turns those decisions into real cash commitments and inventory receipts.\n\nThe relationship that matters:\nForecasting predicts demand.\nPlanning positions supply.\nBuying commits cash.\n\nWhere organizations struggle is in the gap between the three.\n- The forecast shifts.\n- The plan lags.\n- The buy order is already placed.\n\nThat’s when problems compound:\n- Inventory building ahead of demand\n- Short buys on fast-moving SKUs\n- Excess working capital exposure\n- Margin pressure from reactionary purchasing\n- Service levels slipping during volatility\n\nStrong operators understand:\n- Forecasting improves visibility.\n- Planning improves readiness.\n- Buying determines financial exposure.\n\nThe real challenge is not optimizing one function independently.\n\nIt’s aligning all three fast enough to respond to changing demand.\n\nQuestion for Operators: Where does your organization see the biggest disconnect today...forecasting, planning, or buying?",
+      "author": {
+        "id": "ACoAAAFYtNEBWZy_CRbxxko0s8Bd13w-VgsWGjc",
+        "universalName": null,
+        "publicIdentifier": "sarah-hurzeler",
+        "type": "profile",
+        "name": "Sarah Hurzeler",
+        "linkedinUrl": "https://www.linkedin.com/in/sarah-hurzeler?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAFYtNEBWZy_CRbxxko0s8Bd13w-VgsWGjc",
+        "info": "COO | VP Supply Chain | Engineering-Led Ops | AI-Driven Transformation | Fabletics, Mattel",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQGtwglewvPi7Q/profile-displayphoto-crop_800_800/B56Zvrehl6KcAI-/0/1769182207481?e=1786579200&v=beta&t=LvH_szfr46vdTKngMbbcldh9lsI6gYEMTd46YNpdEUQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "22590673"
+      },
+      "postedAt": {
+        "timestamp": 1780065906346,
+        "date": "2026-05-29T14:45:06.346Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHNAWDZXYbT3g/feedshare-image-high-res/B56Z5LVQumGYAU-/0/1779380325535?e=1786579200&v=beta&t=XRPx_82M-iAI2Kq3AnhdlfM880WG_Ksfa8B5DH65YIY",
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7466137551251378176",
+        "likes": 31,
+        "comments": 4,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 31
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/sarah-hurzeler_forecasts-dont-buy-inventory-plans-don-activity-7466137551251378176-XXE2",
+        "sessionId": "da0e8cc6-1e9f-4640-b10d-6320b0726983"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7465654357552824320",
+      "entityId": "7465654357552824320",
+      "linkedinUrl": "https://www.linkedin.com/posts/supplychainaipro_nobody-told-me-procurement-could-feel-this-activity-7465654357552824320-Vz0i",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7464953534304665600",
+      "shareUrn": "urn:li:share:7464953534304665600",
+      "content": "Nobody told me procurement could feel this powerful.\n\nI just mapped out 𝟮𝟬 𝘄𝗮𝘆𝘀 𝗔𝗜 𝗶𝘀 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗹𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝘂𝗿𝗲𝗺𝗲𝗻𝘁, and honestly, the results are wild.\n\nHere's what's changing RIGHT NOW:\n\n✅ 𝗦𝗽𝗲𝗻𝗱 𝗔𝗻𝗮𝗹𝘆𝘀𝗶𝘀 → AI spots saving opportunities you'd miss in months of manual work\n✅ 𝗦𝘂𝗽𝗽𝗹𝗶𝗲𝗿 𝗥𝗶𝘀𝗸 𝗔𝘀𝘀𝗲𝘀𝘀𝗺𝗲𝗻𝘁 → Real-time risk scores before problems hit \n✅ 𝗖𝗼𝗻𝘁𝗿𝗮𝗰𝘁 𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝗰𝗲 → Key terms, gaps & renewal dates extracted in seconds\n✅ 𝗥𝗙𝘅 𝗖𝗿𝗲𝗮𝘁𝗶𝗼𝗻 → Tailored RFPs generated from your own strategy\n✅ 𝗜𝗻𝘃𝗼𝗶𝗰𝗲 𝗠𝗮𝘁𝗰𝗵𝗶𝗻𝗴 → Exceptions flagged automatically, zero manual chasing\n\nAnd that's just 𝟱 𝗼𝗳 𝘁𝗵𝗲 𝟮𝟬!\n\nThe teams still doing this manually in 2025? They're leaving 𝘁𝗶𝗺𝗲, 𝗺𝗼𝗻𝗲𝘆, 𝗮𝗻𝗱 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝘀 on the table.\n\nThe shift isn't coming. 𝗜𝘁'𝘀 𝗮𝗹𝗿𝗲𝗮𝗱𝘆 𝗵𝗲𝗿𝗲.\n\n🔖 𝗦𝗮𝘃𝗲 𝘁𝗵𝗶𝘀, you'll want to come back to it when you're ready to implement.\n♻️ 𝗥𝗲𝗽𝗼𝘀𝘁 𝘁𝗼 𝘀𝗵𝗮𝗿𝗲 𝘄𝗶𝘁𝗵 𝘆𝗼𝘂𝗿 𝗽𝗿𝗼𝗰𝘂𝗿𝗲𝗺𝗲𝗻𝘁 𝘁𝗲𝗮𝗺, they need to see this.\n🔔 𝐅𝐨𝐥𝐥𝐨𝐰 Asmaa Gad & Supply Chain AI Pro for more AI insights!",
+      "author": {
+        "id": "ACoAAAlF6-oBDufeP1Z7MQYs4B4MUW2BibbWgb8",
+        "universalName": null,
+        "publicIdentifier": "supplychainaipro",
+        "type": "profile",
+        "name": "Asmaa Gad",
+        "linkedinUrl": "https://www.linkedin.com/in/supplychainaipro?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAlF6-oBDufeP1Z7MQYs4B4MUW2BibbWgb8",
+        "info": "Master AI for Procurement & Supply Chain | Free Playbooks, Tutorials & Templates | Founder @Supply Chain AI Pro",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFGKuz3AWBv7g/profile-displayphoto-crop_800_800/B56Z5v6BXOJgAM-/0/1779993946874?e=1786579200&v=beta&t=Oj_MTqXNmRJtdkW7b-oMco894Q7zoDEYj7mhrdpvgkA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "155577322"
+      },
+      "postedAt": {
+        "timestamp": 1779950703991,
+        "date": "2026-05-28T06:45:03.991Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGz-gxBpwVELQ/feedshare-shrink_1280/B4EZ5jXrkyJAAM-/0/1779783613595?e=1786579200&v=beta&t=LlJ9TeMzFghsOOA9j9DSOz4QjCRw0a9SOuTmqGkqjaA",
+          "width": 1280,
+          "height": 2060
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7465654357552824320",
+        "likes": 653,
+        "comments": 74,
+        "shares": 58,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 606
+          },
+          {
+            "type": "INTEREST",
+            "count": 29
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/supplychainaipro_nobody-told-me-procurement-could-feel-this-activity-7465654357552824320-Vz0i",
+        "sessionId": "788be677-b101-408b-83c7-dc92946499e8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7471426142412046336",
+      "entityId": "7471426142412046336",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_instead-of-another-youtube-rabbit-hole-tonight-activity-7471426142412046336-sG4O",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7471174390496399361",
+      "shareUrn": "urn:li:share:7471174390496399361",
+      "content": "Instead of another YouTube rabbit hole tonight.\n\nTake these 11 courses to master Claude (for free):\n\n→ Level 1 - 20 mins: The basics.\n\nClaude certificates: claude101.com\nClaude For Dummies: https://lnkd.in/gTKxkNrY\nAI is (stupidly) simple: https://lnkd.in/dJYMwNDR\nClaude Roadmap: https://lnkd.in/e7PVYri3\n\n→ Level 2 - 55 mins: Real workflows. \n\nClaude Cowork: claude-co.work\nClaude for teams: how-claude.team\nClaude for slides: how-to-gamma.ai\nClaude Skills: claude-skills.free\n\n→ Level 3 - 45 mins: The pro moves.\n\nClaude Connectors: https://lnkd.in/dHzsSDwR\nStop hitting Claude's limits: https://lnkd.in/gzzhvrY6\nUpload yourself in Claude: https://lnkd.in/dgDDpgBv\nStop using Claude at work: https://lnkd.in/ejAek_jw\n\nPro tip: Don't binge it. Do one level per sitting. \n\nActually apply each guide before moving to the next",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1781326804736,
+        "date": "2026-06-13T05:00:04.736Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGw6JPSO5DltA/feedshare-shrink_1280/B4EZ67xg9FJYAM-/0/1781266781038?e=1786579200&v=beta&t=GJuuM2WKxNwcqNZyIihrM9ccyN9e5X1j_CuEqsSXBM0",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7471426142412046336",
+        "likes": 3145,
+        "comments": 143,
+        "shares": 308,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2852
+          },
+          {
+            "type": "INTEREST",
+            "count": 161
+          },
+          {
+            "type": "EMPATHY",
+            "count": 95
+          },
+          {
+            "type": "PRAISE",
+            "count": 28
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/ruben-hassid_instead-of-another-youtube-rabbit-hole-tonight-activity-7471426142412046336-sG4O",
+        "sessionId": "390fb5f6-781c-43bf-865b-3599cda0638b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7453710646333972480",
+      "entityId": "7453710646333972480",
+      "linkedinUrl": "https://www.linkedin.com/posts/supplychainaipro_%F0%9D%97%96%F0%9D%97%B9%F0%9D%97%AE%F0%9D%98%82%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%B5%F0%9D%97%AE%F0%9D%98%80-%F0%9D%9F%AE%F0%9D%9F%AE-%F0%9D%97%B3%F0%9D%97%B2%F0%9D%97%AE%F0%9D%98%81%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B2%F0%9D%98%80-activity-7453710646333972480-jUmz",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7453695192819458049",
+      "shareUrn": "urn:li:share:7453695192819458049",
+      "content": "𝗖𝗹𝗮𝘂𝗱𝗲 𝗵𝗮𝘀 𝟮𝟮+ 𝗳𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝗳𝗼𝗿 𝗽𝗿𝗼𝗰𝘂𝗿𝗲𝗺𝗲𝗻𝘁.\n𝗠𝗼𝘀𝘁 𝗽𝗲𝗼𝗽𝗹𝗲 𝘂𝘀𝗲 𝟭.\n\nThey type a question. Get an answer. Close the tab.\nThat's not AI for procurement. That's a fancy search engine.\n\nHere's what the top performers actually use:\n→ Global Instructions - so Claude always thinks like a senior buyer \n→ Skills - reusable RFQ generators and risk checkers \n→ Connectors - plugged into Google Sheets, Gmail, Drive \n→ Scoped Memory - remembers past negotiations and decisions \n→ Scheduled Tasks - weekly spend reports on autopilot \n→ Extended Thinking - for make vs buy and cost breakdowns\n\nThe difference is NOT the tool. It's how you set it up.\n\nI mapped every single feature in plain English.\n\nSave this. Set it up once. Use it forever.\n\nJoin our free newsletter for weekly AI tips in procurement and supply chain → https://lnkd.in/ebGwQKwH\n\nFollow Asmaa Gad + Supply Chain AI Pro for more",
+      "author": {
+        "id": "ACoAAAlF6-oBDufeP1Z7MQYs4B4MUW2BibbWgb8",
+        "universalName": null,
+        "publicIdentifier": "supplychainaipro",
+        "type": "profile",
+        "name": "Asmaa Gad",
+        "linkedinUrl": "https://www.linkedin.com/in/supplychainaipro?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAlF6-oBDufeP1Z7MQYs4B4MUW2BibbWgb8",
+        "info": "Master AI for Procurement & Supply Chain | Free Playbooks, Tutorials & Templates | Founder @Supply Chain AI Pro",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFGKuz3AWBv7g/profile-displayphoto-crop_800_800/B56Z5v6BXOJgAM-/0/1779993946874?e=1786579200&v=beta&t=Oj_MTqXNmRJtdkW7b-oMco894Q7zoDEYj7mhrdpvgkA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "155577322"
+      },
+      "postedAt": {
+        "timestamp": 1777103101333,
+        "date": "2026-04-25T07:45:01.333Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFGj8BClNaDBA/feedshare-image-high-res/B4EZ3DYSBVIgAU-/0/1777099415980?e=1786579200&v=beta&t=bjbNIZfZULeocfcmQx1WfF2JyEOL0THPksglk9Cqo9c",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7453710646333972480",
+        "likes": 2382,
+        "comments": 88,
+        "shares": 183,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2276
+          },
+          {
+            "type": "INTEREST",
+            "count": 73
+          },
+          {
+            "type": "EMPATHY",
+            "count": 19
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/supplychainaipro_%F0%9D%97%96%F0%9D%97%B9%F0%9D%97%AE%F0%9D%98%82%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%B5%F0%9D%97%AE%F0%9D%98%80-%F0%9D%9F%AE%F0%9D%9F%AE-%F0%9D%97%B3%F0%9D%97%B2%F0%9D%97%AE%F0%9D%98%81%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B2%F0%9D%98%80-activity-7453710646333972480-jUmz",
+        "sessionId": "8f54e490-4a30-4e47-af4d-e8ef90a63e66"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7462400649981476864",
+      "entityId": "7462400649981476864",
+      "linkedinUrl": "https://www.linkedin.com/posts/supplychainaipro_%F0%9D%90%87%F0%9D%90%A8%F0%9D%90%AD-%F0%9D%90%AD%F0%9D%90%9A%F0%9D%90%A4%F0%9D%90%9E-%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%90%A9%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%9C%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%A6%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD-activity-7462400649981476864-oy_K",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7462400648400146432",
+      "shareUrn": "urn:li:share:7462400648400146432",
+      "content": "𝐇𝐨𝐭 𝐭𝐚𝐤𝐞: 𝐌𝐨𝐬𝐭 𝐩𝐫𝐨𝐜𝐮𝐫𝐞𝐦𝐞𝐧𝐭 𝐭𝐞𝐚𝐦𝐬 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐀𝐈 𝐰𝐫𝐨𝐧𝐠, 𝐚𝐧𝐝 𝐭𝐡𝐞 𝐝𝐚𝐭𝐚 𝐩𝐫𝐨𝐯𝐞𝐬 𝐢𝐭.\n\nTeams are asking one-off questions and getting generic answers.\nThat's not a copilot. 𝐓𝐡𝐚𝐭'𝐬 𝐣𝐮𝐬𝐭 𝐚 𝐟𝐚𝐧𝐜𝐲 𝐆𝐨𝐨𝐠𝐥𝐞.\n\n𝐀 𝐫𝐞𝐚𝐥 𝐏𝐫𝐨𝐜𝐮𝐫𝐞𝐦𝐞𝐧𝐭 𝐀𝐈 𝐂𝐨𝐩𝐢𝐥𝐨𝐭 𝐰𝐨𝐫𝐤𝐬 𝐝𝐢𝐟𝐟𝐞𝐫𝐞𝐧𝐭𝐥𝐲. Here's the breakdown:\n\nCAPABILITY → REAL BUSINESS IMPACT\n✅ 𝐃𝐨𝐜𝐮𝐦𝐞𝐧𝐭 𝐈𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐜𝐞 → Zero manual data entry from POs, contracts & invoices\n✅ 𝐀𝐮𝐭𝐨-𝐟𝐢𝐧𝐝 𝐄𝐯𝐞𝐫𝐲𝐭𝐡𝐢𝐧𝐠 → Searches ERP, emails & drives so you stop wasting hours\n✅ 𝐌𝐞𝐦𝐨𝐫𝐲 𝐋𝐚𝐲𝐞𝐫 → Remembers suppliers, pricing & past decisions... no repeat questions\n✅ 𝐄𝐧𝐟𝐨𝐫𝐜𝐞𝐝 𝐂𝐨𝐦𝐩𝐥𝐢𝐚𝐧𝐜𝐞 → 100% policy adherence, approval flows respected, every time\n✅ 𝐃𝐞𝐜𝐢𝐬𝐢𝐨𝐧-𝐑𝐞𝐚𝐝𝐲 𝐎𝐮𝐭𝐩𝐮𝐭 → Recommendations with expected savings, risks & next steps\n\n𝐀𝐧𝐝 𝐡𝐞𝐫𝐞'𝐬 𝐰𝐡𝐚𝐭 𝐢𝐭 𝐰𝐢𝐥𝐥 𝐍𝐄𝐕𝐄𝐑 𝐝𝐨:\n→ Share confidential supplier data\n→ Skip approvals\n→ Make decisions without data\n\nBuilt with 𝐂𝐥𝐚𝐮𝐝𝐞. Guided by your 𝐩𝐨𝐥𝐢𝐜𝐢𝐞𝐬. Always 𝐝𝐞𝐜𝐢𝐬𝐢𝐨𝐧-𝐫𝐞𝐚𝐝𝐲.\n\nThe gap between procurement teams using AI strategically and those that don't is 𝐠𝐫𝐨𝐰𝐢𝐧𝐠 𝐅𝐀𝐒𝐓.\n\nThe question isn't whether AI will transform procurement.\nIt's whether 𝐘𝐎𝐔 𝐰𝐢𝐥𝐥 𝐥𝐞𝐚𝐝 𝐭𝐡𝐚𝐭 𝐭𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 ... or watch it happen.\n\n𝐉𝐨𝐢𝐧 our free newsletter for weekly AI tips in procurement and supply chain → https://lnkd.in/eiyuDvEU\n\n🔖 𝐒𝐚𝐯𝐞 𝐭𝐡𝐢𝐬 𝐩𝐨𝐬𝐭, the full setup template is right there in the image above.\n♻️ 𝐑𝐞𝐩𝐨𝐬𝐭 so your network stops leaving procurement efficiency on the table.\n🔔 𝐅𝐨𝐥𝐥𝐨𝐰 Asmaa Gad & Supply Chain AI Pro for more AI insights!",
+      "author": {
+        "id": "ACoAAAlF6-oBDufeP1Z7MQYs4B4MUW2BibbWgb8",
+        "universalName": null,
+        "publicIdentifier": "supplychainaipro",
+        "type": "profile",
+        "name": "Asmaa Gad",
+        "linkedinUrl": "https://www.linkedin.com/in/supplychainaipro?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAlF6-oBDufeP1Z7MQYs4B4MUW2BibbWgb8",
+        "info": "Master AI for Procurement & Supply Chain | Free Playbooks, Tutorials & Templates | Founder @Supply Chain AI Pro",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFGKuz3AWBv7g/profile-displayphoto-crop_800_800/B56Z5v6BXOJgAM-/0/1779993946874?e=1786579200&v=beta&t=Oj_MTqXNmRJtdkW7b-oMco894Q7zoDEYj7mhrdpvgkA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "155577322"
+      },
+      "postedAt": {
+        "timestamp": 1779174959655,
+        "date": "2026-05-19T07:15:59.655Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHU-N2CXG-Kww/feedshare-shrink_1280/B4EZ4_FXMJIIAM-/0/1779174831563?e=1786579200&v=beta&t=NFCLlXUNYvNDzefksim4-KQYJqs8PFeA3yzSSxcfRWk",
+          "width": 1280,
+          "height": 2027
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7462400649981476864",
+        "likes": 150,
+        "comments": 34,
+        "shares": 16,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 126
+          },
+          {
+            "type": "INTEREST",
+            "count": 14
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/supplychainaipro_%F0%9D%90%87%F0%9D%90%A8%F0%9D%90%AD-%F0%9D%90%AD%F0%9D%90%9A%F0%9D%90%A4%F0%9D%90%9E-%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%90%A9%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%9C%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%A6%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD-activity-7462400649981476864-oy_K",
+        "sessionId": "cc25292a-f8d9-487b-a05a-79dca46fa095"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7456963522044968960",
+      "entityId": "7456963522044968960",
+      "linkedinUrl": "https://www.linkedin.com/posts/supplychainaipro_procurement-supplychain-generativeai-activity-7456963522044968960-sDNX",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7456963520606343168",
+      "shareUrn": "urn:li:share:7456963520606343168",
+      "content": "The question is no longer \"𝐒𝐡𝐨𝐮𝐥𝐝 𝐰𝐞 𝐮𝐬𝐞 𝐀𝐈 𝐢𝐧 𝐏𝐫𝐨𝐜𝐮𝐫𝐞𝐦𝐞𝐧𝐭?\" but \"𝐇𝐨𝐰 𝐝𝐨 𝐰𝐞 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐨𝐧𝐚𝐥𝐢𝐳𝐞 𝐢𝐭 𝐞𝐟𝐟𝐞𝐜𝐭𝐢𝐯𝐞𝐥𝐲?\"\n\nProcurement isn't just about \"buying stuff\" anymore, it’s about 𝐨𝐮𝐭𝐬𝐦𝐚𝐫𝐭𝐢𝐧𝐠 𝐭𝐡𝐞 𝐦𝐚𝐫𝐤𝐞𝐭. If you’re still stuck in manual spreadsheets, you’re leaving money on the table. AI is the ultimate leverage to move from a 𝐜𝐨𝐬𝐭 𝐜𝐞𝐧𝐭𝐞𝐫 to a 𝐬𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐜 𝐯𝐚𝐥𝐮𝐞 𝐝𝐫𝐢𝐯𝐞𝐫.\n\nThis 𝐏𝐫𝐨𝐜𝐮𝐫𝐞𝐦𝐞𝐧𝐭 𝐀𝐈 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐲 𝐌𝐚𝐩 is your 90-day blueprint to:\n✅ 𝐈𝐝𝐞𝐧𝐭𝐢𝐟𝐲 high-impact gaps & hidden savings.\n✅ 𝐏𝐫𝐞𝐝𝐢𝐜𝐭 risks before they hit your supply chain.\n✅ 𝐒𝐜𝐚𝐥𝐞 what actually works with a disciplined roadmap.\n\nStop playing catch-up. Start leading the 𝐀𝐈 𝐭𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧.\n\n📰 𝐉𝐨𝐢𝐧 a growing community of supply chain professionals who are making smarter decisions every week through AI-powered insights: https://lnkd.in/eiyuDvEU\n\n🔖 𝗦𝗮𝘃𝗲 this guide for your next strategy session!\n♻️ 𝗥𝗲𝗽𝗼𝘀𝘁 to help your network lead the AI shift!\n🔔 𝐅𝐨𝐥𝐥𝐨𝐰 Asmaa Gad & Supply Chain AI Pro for more insights!\n\n#Procurement #SupplyChain #GenerativeAI\n#DigitalTransformation #FutureOfWork",
+      "author": {
+        "id": "ACoAAAlF6-oBDufeP1Z7MQYs4B4MUW2BibbWgb8",
+        "universalName": null,
+        "publicIdentifier": "supplychainaipro",
+        "type": "profile",
+        "name": "Asmaa Gad",
+        "linkedinUrl": "https://www.linkedin.com/in/supplychainaipro?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAlF6-oBDufeP1Z7MQYs4B4MUW2BibbWgb8",
+        "info": "Master AI for Procurement & Supply Chain | Free Playbooks, Tutorials & Templates | Founder @Supply Chain AI Pro",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFGKuz3AWBv7g/profile-displayphoto-crop_800_800/B56Z5v6BXOJgAM-/0/1779993946874?e=1786579200&v=beta&t=Oj_MTqXNmRJtdkW7b-oMco894Q7zoDEYj7mhrdpvgkA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "155577322"
+      },
+      "postedAt": {
+        "timestamp": 1777878647338,
+        "date": "2026-05-04T07:10:47.338Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGOr2f2MWbz1g/feedshare-shrink_1280/B4EZ3UZMwBKMAQ-/0/1777384869722?e=1786579200&v=beta&t=EPUSMfAGzlFRbnHRXmmTEgsc3_6UI9TlBQfJHf6xjOk",
+          "width": 1280,
+          "height": 1599
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7456963522044968960",
+        "likes": 103,
+        "comments": 20,
+        "shares": 9,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 91
+          },
+          {
+            "type": "INTEREST",
+            "count": 9
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/supplychainaipro_procurement-supplychain-generativeai-activity-7456963522044968960-sDNX",
+        "sessionId": "aaf8ec84-1f70-4344-bd27-be3f69d04d3a"
+      }
+    }
+  ]
+}

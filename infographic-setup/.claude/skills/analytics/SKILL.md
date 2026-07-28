@@ -1,202 +1,199 @@
 ---
 name: analytics
-description: Use when the user runs /analytics [slug], after a LinkedIn post is live and its
-  analytics Excel export is saved. Reads the LinkedIn Excel (PERFORMANCE + TOP DEMOGRAPHICS),
-  pulls the creative decisions from the post file (101-copy.md or ai-for-sc-[slug].md), derives
-  the performance metrics, writes analytics.md, and appends a row to analytics-log.csv.
+description: Use after a LinkedIn post, Substack issue, or website artifact is live. Captures standardized Day-7 and Day-30 channel metrics, updates the package analytics.md, and appends a linked snapshot to data/analytics-log.csv.
 ---
 
 # Analytics Skill — Shetty's Desk
 
 ## Purpose
-Capture post-publish performance for the learning loop. Works for both active pipelines
-(Supply Chain 101 and AI for Supply Chain). Reads the LinkedIn analytics Excel, derives the
-metrics, and writes two outputs: a per-post `analytics.md` and a row in `data/analytics-log.csv`.
+
+`data/analytics-log.csv` is the single cross-channel performance ledger for LinkedIn, Substack and website outputs. Every row is one content item on one channel at one measurement checkpoint. Related outputs share the same package slug and use explicit content IDs.
+
+This skill supports both active content pipelines and Substack/website distribution. It does not combine unlike channel outcomes into a universal score.
 
 ## Invoke
-```
-/analytics [topic-slug]
-```
 
-## Prerequisites
-- LinkedIn analytics Excel saved in `data/analytics-exports/` (create the folder if needed).
-  Sheets used: **PERFORMANCE** and **TOP DEMOGRAPHICS** (a **Caption** sheet is read if present).
-- The post file exists: `data/{week}/{slug}/101-copy.md` **or** `data/{week}/{slug}/ai-for-sc-{slug}.md`.
-
-## Output
-```
-data/{YYYY-W##}/{slug}/analytics.md
-data/analytics-log.csv   (appended)
+```text
+/analytics [slug] [channel] [checkpoint]
 ```
 
----
+- `channel`: `linkedin`, `substack`, or `website`
+- `checkpoint`: `7` or `30`, measured as days after publication or artifact launch
+- If channel or checkpoint is omitted, infer only when one unambiguous source exists; otherwise ask.
 
-## Step 1 — Find the post file + Excel
+## Identity Contract
 
-Locate the post file (this also tells you the week and the content type):
-```python
-import glob
-hits  = glob.glob(f"data/*/{slug}/101-copy.md") + glob.glob(f"data/*/{slug}/ai-for-sc-{slug}.md")
-post_path    = hits[0]
-week         = post_path.split("/")[1]                      # e.g. 2026-W21
-content_type = "101" if post_path.endswith("101-copy.md") else "ai-for-sc"
-```
-If no post file: print the expected paths and stop.
+Use these identifiers before reading metrics:
 
-Find the Excel by matching the slug to the filename (case-insensitive, partial match on the first word):
-```python
-xls = glob.glob("data/analytics-exports/*.xlsx")
-```
-One match → proceed. Multiple → ask which. Zero → print the expected path and stop.
+- `slug`: shared package ID linking research, five LinkedIn slots, a Substack issue and a website artifact.
+- `content_id`: stable channel item ID: `{channel}:{YYYY-W##}:{slug}:{sequence}`.
+- `linked_content_id`: the direct upstream or downstream item being tested, when applicable.
+- `experiment_id`: the weekly experiment from `templates/weekly-signal-scan-template.md`, when applicable.
 
----
+Never use a URL as the only identifier. Never merge two channel items because they share a headline.
 
-## Step 2 — Read the Excel (PERFORMANCE + TOP DEMOGRAPHICS)
+## Sources
 
-LinkedIn formats numbers like "55,142" — strip commas before casting.
-```python
-import openpyxl
-def clean_int(v): return 0 if v is None else int(str(v).replace(",", "").strip())
+### LinkedIn
 
-wb = openpyxl.load_workbook(excel_path)
-perf = {r[0]: r[1] for r in wb["PERFORMANCE"].iter_rows(values_only=True) if r[0]}
+Preferred source: the private LinkedIn analytics export in `data/analytics-exports/`. Use the `PERFORMANCE` and `TOP DEMOGRAPHICS` sheets and the `Caption` sheet when present.
 
-post_url         = perf.get("Post URL", "")
-post_date        = perf.get("Post Date", "")
-impressions      = clean_int(perf.get("Impressions"))
-members_reached  = clean_int(perf.get("Members reached"))
-profile_viewers  = clean_int(perf.get("Profile viewers from this post"))
-followers_gained = clean_int(perf.get("Followers gained from this post"))
-reactions        = clean_int(perf.get("Reactions"))
-comments         = clean_int(perf.get("Comments"))
-reposts          = clean_int(perf.get("Reposts"))
-saves            = clean_int(perf.get("Saves"))
-sends            = clean_int(perf.get("Sends on LinkedIn"))
+Capture:
 
-# TOP DEMOGRAPHICS: first occurrence of each category = the top entry
-demo = {}
-for r in wb["TOP DEMOGRAPHICS"].iter_rows(min_row=2, values_only=True):
-    cat, val, pct = (r + (None, None, None))[:3]
-    if cat and val is not None and cat not in demo:
-        demo[cat] = (val, round(float(pct) * 100, 1) if pct else None)
-top_seniority = demo.get("Seniority", ("unknown", None))
-top_industry  = demo.get("Industry",  ("unknown", None))
-top_job_title = demo.get("Job title", ("unknown", None))
-top_company_size = demo.get("Company size", ("unknown", None))
-```
-If a sheet is missing: warn, set its fields to defaults, continue.
+- impressions, members reached, reactions, comments, reposts, saves and sends;
+- profile viewers and followers gained;
+- audience at publish when recorded;
+- post URL and publication date.
 
----
+Apify may later supply public post URL/activity ID, date, caption, format and public reactions/comments/reposts. It cannot replace private impressions, reach, saves, profile viewers, follower gain or click data.
 
-## Step 3 — Read the creative decisions from the post file
+### Substack
 
-Both `101-copy.md` and `ai-for-sc-{slug}.md` use the same hook block.
-```python
-text = open(post_path, encoding="utf-8").read()
+Preferred source: the publication dashboard, captured manually at the standard checkpoint.
 
-# hook_type: under "## Selected Hook", the line "**Type**: ..."
-import re
-m = re.search(r"## Selected Hook.*?\*\*Type\*\*:\s*(.+)", text, re.S)
-hook_type = m.group(1).strip() if m else "unknown"
+Capture:
 
-# caption_preview: first non-empty line under "## LinkedIn Caption"
-cap = re.search(r"## LinkedIn Caption\s*(.+)", text, re.S)
-caption_preview = ""
-if cap:
-    for line in cap.group(1).splitlines():
-        if line.strip():
-            caption_preview = line.strip()[:120]
-            break
-```
-Extra context for `analytics.md` (header fields, optional — skip any that are absent):
-- **101**: `**Topic**` and `**Episode**`; visual tool = ChatGPT (GPT Image 2).
-- **AI for SC**: `**Role**`, `**Tool**`, `**Visual Format**`, `**Hero Statement**`; visual tool = code-render.
+- issue views and email recipients;
+- open rate and link clicks;
+- free subscribers gained from the issue;
+- unsubscribes, comments and restacks when available;
+- subscribers at publish, issue URL and publication date.
 
----
+Use blank for an unavailable metric. Never convert missing values to zero.
 
-## Step 4 — Derive metrics
-```python
-def pct(a, b): return 0.0 if b == 0 else round(a / b * 100, 2)
-engagement_rate     = pct(reactions + comments + reposts + saves + sends, impressions)
-reach_efficiency    = pct(members_reached, impressions)
-save_rate           = pct(saves, members_reached)
-follower_conversion = pct(followers_gained, members_reached)
-composite_score     = round(saves * 3 + reposts * 2 + engagement_rate, 2)
+### Website
+
+Preferred source: the site's analytics and explicit artifact events.
+
+Capture:
+
+- unique visitors to the artifact page;
+- artifact downloads;
+- tool starts and tool completions;
+- launch URL and launch date.
+
+An event counts only when its definition is stable. Page views are not downloads; downloads are not completed use.
+
+## Standard Checkpoints
+
+- **Day 7:** first comparison point for distribution and initial conversion.
+- **Day 30:** durable reach, repeat discovery and downstream use.
+
+Set `captured_at` to the actual capture timestamp and `snapshot_day` to `7` or `30`. If captured late, preserve the actual timestamp and note the variance. Compare content only at the same checkpoint and within the same channel and format unless the analysis explicitly says otherwise.
+
+## Cross-Channel Ledger Schema
+
+The current CSV begins with a legacy LinkedIn schema. On the first cross-channel append, migrate it to the following superset without deleting or reordering existing rows. Preserve every existing column and value; backfill new fields as blank, except `channel=linkedin` for identifiable historical LinkedIn rows.
+
+### Existing fields retained
+
+```text
+week,slug,post_date,post_url,impressions,members_reached,reactions,comments,
+reposts,saves,profile_viewers,followers_gained,engagement_rate,save_rate,
+follower_conversion,composite_score,content_type,hook_type,caption_preview
 ```
 
----
+### Fields appended
 
-## Step 5 — Write analytics.md
+```text
+channel,content_id,linked_content_id,experiment_id,snapshot_day,captured_at,
+audience_at_publish,sends,substack_views,email_recipients,open_rate,link_clicks,
+free_subscribers_gained,unsubscribes,restacks,unique_visitors,
+artifact_downloads,tool_starts,tool_completions,click_rate,
+subscriber_conversion,artifact_conversion,tool_completion_rate,notes
+```
 
-`data/{week}/{slug}/analytics.md`:
+Field definitions:
+
+| Field | Definition |
+|---|---|
+| `slug` | Shared package ID; retained for backward compatibility. |
+| `content_id` | Unique channel item ID. |
+| `linked_content_id` | Directly linked item whose flow is being tested. |
+| `snapshot_day` | Standard checkpoint: 7 or 30. |
+| `captured_at` | Actual ISO timestamp of metric capture. |
+| `audience_at_publish` | LinkedIn followers or Substack subscribers at publication; blank for website. |
+| `substack_views` | Views reported for the issue. |
+| `email_recipients` | Delivered/eligible email recipients reported for the issue. |
+| `link_clicks` | Issue link clicks; do not infer website visits from this field. |
+| `unique_visitors` | Unique visitors to the website artifact page. |
+| `artifact_downloads` | Confirmed artifact-download events. |
+| `tool_starts` | Confirmed starts of an interactive workflow. |
+| `tool_completions` | Confirmed successful completions of that workflow. |
+
+`post_date` and `post_url` remain the publication/launch date and URL for all channels despite their legacy names.
+
+## Derived Metrics
+
+Calculate only when the denominator is available and greater than zero; otherwise leave blank.
+
+```text
+LinkedIn engagement rate = (reactions + comments + reposts + saves + sends) / impressions
+LinkedIn save rate = saves / members_reached
+LinkedIn follower conversion = followers_gained / members_reached
+Substack click rate = link_clicks / email_recipients
+Substack subscriber conversion = free_subscribers_gained / substack_views
+Website artifact conversion = artifact_downloads / unique_visitors
+Website tool completion rate = tool_completions / tool_starts
+```
+
+Store rates consistently as percentages, matching the existing ledger convention.
+
+`composite_score` is a historical compatibility field only. Leave it blank for new snapshots. It must never rank topics, select formats, compare channels, or act as a production gate.
+
+## Per-Package Analytics File
+
+Update, rather than overwrite, `data/{YYYY-W##}/{slug}/analytics.md`.
+
+Use one section per content item and checkpoint:
+
 ```markdown
-# Analytics — {slug}
+## {channel} — {content_id} — Day {snapshot_day}
 
-## Metadata
-Week: {week} · Content type: {content_type} · Post date: {post_date}
-Post URL: {post_url}
+- Captured: {captured_at}
+- Published: {post_date}
+- URL: {post_url}
+- Linked item: {linked_content_id or none}
+- Experiment: {experiment_id or none}
 
-## Creative Decisions
-Hook type: {hook_type}
-[101]      Topic: {topic} · Episode: {episode} · Visual: ChatGPT (GPT Image 2)
-[AI for SC] Role: {role} · Tool: {tool} · Visual format: {visual_format} · Visual: code-render
-
-## Performance
 | Metric | Value |
-|---|---|
-| Impressions | {impressions} |
-| Members reached | {members_reached} |
-| Profile viewers | {profile_viewers} |
-| Followers gained | {followers_gained} |
-| Reactions / Comments / Reposts | {reactions} / {comments} / {reposts} |
-| Saves / Sends | {saves} / {sends} |
+|---|---:|
+| ... | ... |
 
-## Derived
-| Signal | Value |
-|---|---|
-| Engagement rate | {engagement_rate}% |
-| Reach efficiency | {reach_efficiency}% |
-| Save rate | {save_rate}% |
-| Follower conversion | {follower_conversion}% |
-| Composite score | {composite_score} |
-
-## Top Audience
-Seniority: {top_seniority} · Industry: {top_industry} · Job title: {top_job_title} · Company size: {top_company_size}
+### Interpretation
+- What happened:
+- What the metric can support:
+- What it cannot support:
+- What to repeat, stop, or test next:
 ```
 
----
+Keep the final published caption or issue title as compact context. Do not copy a full Substack article into the analytics file.
 
-## Step 6 — Append to analytics-log.csv
+## Append Rules
 
-Use this **exact** header (matches the existing file — do not change column order):
-```python
-import csv, os
-csv_path = "data/analytics-log.csv"
-headers = ["week","slug","post_date","post_url","impressions","members_reached",
-           "reactions","comments","reposts","saves","profile_viewers","followers_gained",
-           "engagement_rate","save_rate","follower_conversion","composite_score",
-           "content_type","hook_type","caption_preview"]
-row = {"week":week,"slug":slug,"post_date":post_date,"post_url":post_url,
-       "impressions":impressions,"members_reached":members_reached,"reactions":reactions,
-       "comments":comments,"reposts":reposts,"saves":saves,"profile_viewers":profile_viewers,
-       "followers_gained":followers_gained,"engagement_rate":engagement_rate,"save_rate":save_rate,
-       "follower_conversion":follower_conversion,"composite_score":composite_score,
-       "content_type":content_type,"hook_type":hook_type,"caption_preview":caption_preview}
-write_header = not os.path.exists(csv_path)
-with open(csv_path, "a", newline="") as f:
-    w = csv.DictWriter(f, fieldnames=headers)
-    if write_header: w.writeheader()
-    w.writerow(row)
+1. Read the current CSV header and all existing rows.
+2. If the appended fields are absent, perform a one-time superset migration while preserving all existing data.
+3. Reject an append when the tuple `(content_id, snapshot_day)` already exists unless the user explicitly requests a correction.
+4. Write unavailable values as blank, never zero.
+5. Preserve source precision; do not estimate missing private metrics from public interactions.
+6. Append the new row, then verify column count, row count and the written identifiers.
+
+## Decision Rules
+
+- Compare LinkedIn posts against Tiger's recent LinkedIn baseline at the same age and format.
+- Compare Substack issues against prior Substack issues at the same checkpoint.
+- Compare website artifacts by the same event definitions and observation window.
+- Use cross-channel linkage to ask whether discovery produced deeper reading or artifact use; do not add the metrics together.
+- A single outlier generates a hypothesis, not a permanent rule.
+- Record one next action tied to the weekly experiment.
+
+## Confirm
+
+```text
+Analytics logged — {content_id} / Day {snapshot_day}
+analytics.md updated · analytics-log.csv verified
+Primary channel signal: {metric} = {value}
+Next test: {one action}
 ```
 
----
-
-## Step 7 — Confirm
-```
-✅ Analytics logged — {slug} / {week} ({content_type})
-   analytics.md written · analytics-log.csv → {N} rows
-   Save rate: {save_rate}% | Engagement: {engagement_rate}% | Composite: {composite_score}
-```
-
-## Token Budget
-~2K tokens. Reads 1 Excel + 1 post file. Writes 2 files.
+Do not report or celebrate `composite_score`.

@@ -479,7 +479,7 @@ Our images end at the last card. There is no payoff moment.
 
 4. **Community-framing CTA.** "REPOST to help others" rather than "Follow [creator]." Positions the creator as serving the community rather than collecting followers. Creates a different psychological response.
 
-5. **Data sub-headline.** "After growing 1,000+ accounts, this is the blueprint." The sub-headline beneath the title adds credibility through specificity. Shetty's Desk equivalent: "Built from 8 years in procurement operations" or "Used to source across 12 categories at Tetra Pak."
+5. **Evidence sub-headline.** "After growing 1,000+ accounts, this is the blueprint." The sub-headline beneath the title adds credibility through specificity. Shetty's Desk may use only a public-safe claim present in the approved authority register; otherwise lead with the verified dataset, method, sample size, or artifact behind the post.
 
 ---
 
@@ -631,7 +631,7 @@ Observed in 12 of 19 images. This is one of Stanley's most powerful trust device
 
 **Why it works**: The sub-headline does two jobs simultaneously. It filters the audience (is this for me?) and it establishes authority before the first card is read. The reader has already decided the creator knows something before they read a word of the content.
 
-**Shetty's Desk equivalent**: Tiger has 8 years in procurement operations at Tetra Pak. The sub-headline for AI for SC posts should be: "Built from 8 years in procurement operations" or "Used to source across 12 categories at Tetra Pak" or similar. This is the data sub-headline Tiger already has — it just isn't on the image yet.
+**Shetty's Desk equivalent**: use only an employer, tenure, category, result, or credential claim that appears in the approved authority register and is marked public-safe. If no such claim is approved, establish authority with the verified public dataset, method, sample size, worked example, or artifact used in the post. Never infer a personal credential from old drafts or reference material.
 
 ---
 
@@ -757,7 +757,7 @@ Ranked by impact on save rate (highest first):
 
 1. **Claim headings** — Already fixed in v4. Highest single impact. The heading is the scroll-stopper. No other improvement matters if the heading is a topic label.
 
-2. **Data sub-headline with Tiger's credentials** — "Built from 8 years in procurement operations at Tetra Pak" or "Used across 12 sourcing categories." This is the authority signal that makes the insider knowledge credible. Apply to all AI for SC Practitioner posts.
+2. **Evidence sub-headline** — use an approved public-safe authority claim, or lead with the verified dataset, method, sample size, worked example, or artifact. Do not manufacture a credential line or apply one universally.
 
 3. **One-liner summary under each card title** — Fixed in v4 card specs. The skimmer reads this. The reader reads the body. Two audiences served by one addition.
 

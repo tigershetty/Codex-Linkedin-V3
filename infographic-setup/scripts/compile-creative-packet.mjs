@@ -51,7 +51,7 @@ const labels = field(brief, 'Labels')
 
 const packet = `# Creative Packet — ${slug}
 
-**Purpose:** minimal context for GPT Image 2 rendering and output QA. Use this packet instead of reopening the whole calendar, Top-100 workbook, or long planning docs unless the topic itself changes.
+**Purpose:** minimal context for GPT Image 2 rendering and output QA. Use this packet instead of reopening the whole calendar, reference corpus, or long planning docs unless the topic itself changes.
 
 ## Audience Payoff
 
@@ -80,15 +80,17 @@ const packet = `# Creative Packet — ${slug}
 - **Text lock:** ${field(brief, 'Text lock')}
 - **Logo plan:** ${field(brief, 'Logo plan')}
 
-## Top-100 Adaptation
+## Evidence And Reference Mechanic
 
+- **Reference mode:** ${field(brief, 'Reference mode') || (field(brief, 'Caption index ref') ? 'legacy Top-100 brief' : 'not declared')}
+- **Evidence/mechanic source:** ${field(brief, 'Evidence/mechanic source') || 'not declared'}
 - **Power format:** ${field(brief, 'Power format')}
 - **Caption index refs:** ${field(brief, 'Caption index ref')}
 - **Structure lesson:** ${field(brief, 'Structure reference lesson')}
 - **Caption lesson:** ${field(brief, 'Caption promise lesson')}
 - **Craft lesson:** ${field(brief, 'Craft/brand lesson')}
-- **Reference card GPT lesson:** ${field(ref, 'Reference lesson for GPT Image 2') || 'See reference-learning-card.md'}
-- **Visual mechanics:** ${field(ref, 'Visual mechanics to borrow') || 'See top100-visual-mechanics-index.md'}
+- **Reference card GPT lesson:** ${field(ref, 'Reference lesson for GPT Image 2') || 'No separate reference card; use the declared evidence/artifact mechanic'}
+- **Visual mechanics:** ${field(ref, 'Visual mechanics to borrow') || field(brief, 'Structure reference lesson')}
 
 ## Creative USP
 

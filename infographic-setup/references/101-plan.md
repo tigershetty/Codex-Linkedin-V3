@@ -1,14 +1,16 @@
 # Shetty's Desk — Supply Chain 101: Content Plan
-**Version**: 3 (updated 2026-06-21)
+**Version**: 4 (V4 status updated 2026-07-28)
 **Used by**: `/101` skill (topic lookup)
-**Scope**: Two layers — (1) the original 24-topic foundational series (Months 1–3 below, published as Episodes 1–24); (2) the **active Monthly Theme Model (W21–W52, 2026)** — one SC function per month, 2 conceptual posts per week, paired with the AI for SC series on the same theme. Read alongside `references/master-calendar.md` for the Run-Week ↔ Plan-Week mapping.
+**Scope**: Candidate bank and historical series registry. The original 24-topic series remains historical evidence; W21–W52 supplies optional candidates. V4 no longer guarantees two conceptual posts per week or a paired theme. Use `v4-audience-growth-operating-system.md` and the weekly scorecard before production.
 **Visual**: Visual Engine v2 is now active (`visual-engine-v2.md`). GPT Image 2 is the primary creative renderer; HTML/code-render (`renderer/`, HTML→PNG) is the backup and comparison lane. Use the Cobalt Grid brand frame (`references/brand-kits/cobalt-grid/FRAME.md`) as the current brand seed. ⚠ The Gemini prompt template at the BOTTOM of this file is **DEPRECATED** legacy (old coral/cream brand, "no 3D") — do not use it.
 
 ---
 
 ## Series Logic
 
-Each infographic builds on the previous one without requiring it. A follower who discovers the series at post 14 can understand it fully, but a follower from post 1 will see how concepts connect.
+Each accepted infographic stands alone while contributing to a coherent library. Sequence is useful
+context, not permission to publish: an entry proceeds only when it passes the V4 audience,
+evidence, artifact, channel, and Tiger-source gates.
 
 **Month 1 — The Language**: Shared vocabulary. What a supply chain is, how its functions, planning layers, and production strategies relate.
 **Month 2 — The Mechanics**: How supply chains buy, hold inventory, manage cost, and move goods. The operating system.
@@ -65,7 +67,7 @@ Each infographic builds on the previous one without requiring it. A follower who
 
 ## MONTHLY THEME MODEL: Supply Chain 101 Advanced (W21–W52, 2026)
 
-**Architecture**: One SC function per month. Each week has a sub-topic. Posts 1 and 2 within each week are foundational/conceptual — this is the register for `/101`. All posts are single-image infographics in plain language. The AI for SC posts (Posts 3+4) for the same week are handled by the `/ai-for-sc` skill.
+**Legacy architecture**: The table groups two foundational/conceptual candidates and two AI-for-SC candidates under each weekly sub-topic. Treat those positions as an archive and idea bank, not a publishing quota, pairing rule, or format mandate. V4 may select zero, one, or several candidates only after the audience/evidence gate.
 
 **Series identity**: "Supply Chain 101 — [Function] Edition" outer brand. Captions use "This month on Shetty's Desk: [Function]" as conversational framing.
 

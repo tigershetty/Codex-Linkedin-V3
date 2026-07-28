@@ -1,7 +1,7 @@
 # Editorial Rebuild — Next 12 Weeks
 
 **Date:** 2026-06-30  
-**Status:** Active rebuild layer for RW03-RW12  
+**Status:** Historical candidate/reframing board; V4 weekly admission supersedes its pair-selection rule
 **Input files:** `master-calendar.md`, `101-plan.md`, `ai-for-sc-plan-v2.md`, `audience-intelligence.md`, `topic-selection-scorecard.md`, `analytics-log.csv`, `content-engine-audit-v1.md`
 
 ## Purpose
@@ -283,10 +283,9 @@ Park or rebuild later:
 
 ## Operating Decision
 
-Use this file as the editorial board for RW03-RW12. For each week:
+Use this file as one candidate/reframing input for RW03-RW12. For each V4 week:
 
 1. run a signal scan,
 2. score the candidates,
-3. build the highest-scoring 101 + AI pair,
-4. keep the function theme only if it supports audience pull.
-
+3. select five posts as one evidence-led portfolio across any justified production lanes,
+4. keep a function theme or 101 + AI pairing only if it improves audience value and the declared experiment.

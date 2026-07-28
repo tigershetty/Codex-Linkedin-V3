@@ -1,0 +1,3394 @@
+{
+  "runId": "2GxREcPR9oeSbtdEJ",
+  "datasetId": "xstT6TL4ERn2chKs3",
+  "offset": 0,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7487931016762933248",
+      "entityId": "7487931016762933248",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_the-faulty-thinking-stopping-most-people-activity-7487931016762933248-P_ji",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487931016058146816",
+      "shareUrn": "urn:li:ugcPost:7487931016058146816",
+      "content": "This is your last chance:\n\nOn tomorrow's Masterclass, I'm going to show you the fastest way to create a side hustle in 2026 (with the skills and experience you already have from your day job!).\n\nIf you can't make it, I'll send you the replay (but you have to register to receive it).\n\nRegister (for free) here:",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1785261873427,
+        "date": "2026-07-28T18:04:33.427Z",
+        "postedAgoShort": "2h",
+        "postedAgoText": "2 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7486478316200435712",
+        "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_the-faulty-thinking-stopping-most-people-activity-7486478316200435712-Aj3L",
+        "content": "The faulty thinking stopping most people from starting a side hustle in 2026:\n\nBelieving they need to learn a brand-new skill to make extra money.\n\nThe good news?\n\nThis is completely wrong.\n\nBecause the most lucrative side hustle you can build right now combines:\n\n1. Your existing writing skills\n2. AND industry expertise\n\nBut most people just never realize they can put the two together (and get paid well for it).\n\nThis is why ghostwriting is one of the most lucrative (and easiest) side hustles you can start in 2026.\n\nI’ve seen people from every profession use ghostwriting to scale their income (and even quit their jobs to become full-time ghostwriters):\n\n• Baristas\n• Consultants\n• French teachers\n\nAnd more!\n\nWhich is why I'm hosting a new live Masterclass:\n\nWrite Your Way Out: How To Use Your Day Job Skills To Build A \"Lifestyle Side Hustle\" That Boosts Your Income And Buys You The Freedom To Quit Your 9-To-5\n\nRegister for FREE below:",
+        "contentAttributes": [],
+        "author": {
+          "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+          "universalName": null,
+          "publicIdentifier": "nicolascole",
+          "type": "profile",
+          "name": "Nicolas Cole 🚢👻",
+          "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+          "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+            "width": 800,
+            "height": 800
+          },
+          "urn": "225441954"
+        },
+        "postedAt": {
+          "timestamp": 1784915522623,
+          "date": "2026-07-24T17:52:02.623Z",
+          "postedAgoShort": "4d",
+          "postedAgoText": "4 days ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [],
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": false,
+          "hideSendAction": false,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/nicolascole_the-faulty-thinking-stopping-most-people-activity-7486478316200435712-Aj3L?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7486478316200435712",
+        "shareUrn": "urn:li:ugcPost:7486478315415900160",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7486478315415900160",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487931016058146816",
+        "likes": 3,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486035325082025984",
+      "entityId": "7486035325082025984",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_7-simple-steps-to-make-10000-per-month-activity-7486035325082025984-qZnJ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7486035323794128896",
+      "shareUrn": "urn:li:ugcPost:7486035323794128896",
+      "content": "They don't want you to know how easy starting and scaling a writing side hustle from $0 to $10,000/month in 2026 is.\n\nIt's only 7 simple steps:\n\nI've created multiple businesses with 6 and 7-figure income streams.\n\nThis is the 7-step playbook I use every time:\n\n—\n📌 The service I recommend to reach $10,000/month fast?\n\nGhostwriting.\n\nIt's how I went from broke freelancer to making $20k/month in less than 60 days.\n\nWant to land high-paying writing clients on LinkedIn?\n\nGet started (for free) here: https://lnkd.in/e6JpFRBz",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1784809905310,
+        "date": "2026-07-23T12:31:45.310Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "7 Simple Steps To Make $10,000 Per Month",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQGUXaqlHSyw0w/feedshare-document-url-metadata-scrapper-pdf/B4EZ.O9XCJJMA4-/0/1784809878868?e=1785877200&v=beta&t=c3yMkUTMC3UnYqStfZpoXcFH8n5nTQ6c9Vh7q2gmqyo",
+        "coverPages": [
+          {
+            "width": 1537,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4E1FAQGUXaqlHSyw0w/feedshare-document-cover-images_1920/B4EZ.O9XCJJMBQ-/0/1784809878928?e=1785877200&v=beta&t=JCvBY6Eowga3LhastmM0rB4cJ-glc7qPrJ31yA5K23M",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQGUXaqlHSyw0w/feedshare-document-cover-images_1920/B4EZ.O9XCJJMBQ-/1/1784809878928?e=1785877200&v=beta&t=aL3twKRv2vNFapS3zd9ZPaGlkyB5jGsMCvALbfO2EQY",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQGUXaqlHSyw0w/feedshare-document-cover-images_1920/B4EZ.O9XCJJMBQ-/2/1784809878928?e=1785877200&v=beta&t=jEgp5JaGzWYOhweoX13ulU-MHM3gNBX5EehX_J28Bs0"
+            ],
+            "height": 1922
+          }
+        ],
+        "totalPageCount": 10,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGUXaqlHSyw0w/feedshare-document-master-manifest/B4EZ.O9XCJJMBY-/0/1784809879057?e=1785877200&v=beta&t=M4Rzx91bPCFUq1zo7V9-tXsTy2UB8qmRSG4v6j6MfVk",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4E1FAQGUXaqlHSyw0w",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQGUXaqlHSyw0w/feedshare-document-transcript/B4EZ.O9XCJJMA0-/0/1784809879057?e=1785974400&v=beta&t=Nbx_Ri79t2beduJVp4T-jUI3TbO6XHIMRcELgXRGTXo",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQGUXaqlHSyw0w/feedshare-document-pdf-analyzed/B4EZ.O9XCJJMAY-/0/1784809879057?e=1785974400&v=beta&t=gYL4PmCCqGfivStPhyrti6KaoHcZPwysF5XntTBUbdE",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 1537,
+              "height": 1922,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGUXaqlHSyw0w/feedshare-document-images_1920/B4EZ.O9XCJJMAo-/0/1784809879057?e=1785974400&v=beta&t=td-r9WU_MoqSwCkpQPY7SSej6F5meWVXjmUK1Xm0-mU"
+            },
+            {
+              "width": 387,
+              "height": 484,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGUXaqlHSyw0w/feedshare-document-images_480/B4EZ.O9XCJJMAg-/0/1784809879057?e=1785974400&v=beta&t=NFmUpdVgagDg2xYZe9ps_5pYHbW5gfIG0Ebl7Ev5uYY"
+            },
+            {
+              "width": 137,
+              "height": 171,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGUXaqlHSyw0w/feedshare-document-images_160/B4EZ.O9XCJJMAc-/0/1784809879057?e=1785974400&v=beta&t=BrfX7_5fS-RY1LQRwwydgPGlhhOF1GWEugDUEbKAiI0"
+            },
+            {
+              "width": 650,
+              "height": 812,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGUXaqlHSyw0w/feedshare-document-images_800/B4EZ.O9XCJJMAk-/0/1784809879057?e=1785974400&v=beta&t=Tduwb5LDRDwsxGr5DZFWhAt2JeuTsdmdrbcIBnRzEzo"
+            },
+            {
+              "width": 1025,
+              "height": 1281,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGUXaqlHSyw0w/feedshare-document-images_1280/B4EZ.O9XCJJMAQ-/0/1784809879057?e=1785974400&v=beta&t=HQT9acmHcwL5X4jUtUJ7NxsHi6pGD0phAtuDBGGaz24"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486035323794128896",
+        "likes": 77,
+        "comments": 37,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 66
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487844591308644352",
+      "entityId": "7487844591308644352",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_plenty-of-humans-have-been-pontificating-activity-7487844591308644352-hGtO",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487844589991800832",
+      "shareUrn": "urn:li:share:7487844589991800832",
+      "content": "Plenty of humans have been pontificating on chimp-level ideas for ages. \n\nJust look at the self-help book industry:\n\n“The key to rapid growth and compounding improvement is to take action.” \n\nHumanSlop\n\nEven in the age of AI, you can't rely on it 100%.\n\nInstead, make sure you master the skills you need to do your work manually.\n\nUsing AI is then an added bonus and a way to increase your leverage.\n\nThis is why the top 1% writers don't need AI to deliver for their clients (although it makes them way more efficient).\n\nJust like how they don't even need to write well to get paid 6-figures.\n\nThey've simply mastered these highly in-demand skills:\n\n• Premium positioning\n• Irresistible offer creation\n• Consistent client acquisition\n\nAnd more.\n\nWhich is how they're making $100,000+ per year with just a laptop.\n\nThe good news?\n\nRight now, LinkedIn is the fastest-growing social media.\n\nAnd many of the smartest people in the world have just realized they need to be on this platform.\n\nSo, I put together a 5-day blueprint to teach you how to:\n\n• Charge premium prices\n• Create your irresistible offer\n• Find your lucrative ghostwriting niche\n• Land new, high-paying clients every month\n\nIn other words...\n\nEverything you need to start LinkedIn Ghostwriting in the next 5 days.\n\nClick here to get instant access to my proven blueprint (for FREE): https://lnkd.in/djKQY3sU",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1785241267993,
+        "date": "2026-07-28T12:21:07.993Z",
+        "postedAgoShort": "8h",
+        "postedAgoText": "8 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEKnFpK0HU5bQ/feedshare-shrink_1280/B4DZ.oq.OsKsAQ-/0/1785241265482?e=1786579200&v=beta&t=93CuqAN4uzCJD9sASTai1zyw5Gsi7sRXad-_UG6Y9ac",
+          "width": 1080,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487844591308644352",
+        "likes": 87,
+        "comments": 48,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 80
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486398175205953536",
+      "entityId": "7486398175205953536",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_this-writer-made-5000-in-a-crazy-obscure-activity-7486398175205953536-5QJ9",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486398173754859520",
+      "shareUrn": "urn:li:share:7486398173754859520",
+      "content": "This writer made $5,000 in a crazy obscure niche hiding in plain sight (most people would completely ignore it):\n\nHorses.\n\nFor context, after 15 years in government, Charlie was fed up with the bureaucracy & 2-hour commute.\n\nShe realized she needed her freedom.\n\nUnlike 99% of people, Charlie actually started doing something about it.\n\nBut for the next 2 years, she ran into nothing but dead ends.\n\nCharlie spent more than she cares to admit on one program or another that ultimately taught her skills she could've learned for free on YouTube.\n\nSo, she went down the YouTube rabbit hole.\n\nThen one day, Charlie stumbled upon one of my videos.\n\nIn it, I was talking about how:\n\n> I am a writer\n> I hit $20,000/mo in 60 days\n> I teach others to make money writing\n\nCharlie thought to herself:\n\n\"There's no way any of this is true - he's just another fake guru.\"\n\nBut she kept going through my YouTube content.\n\nAnd then my business partner's LinkedIn posts.\n\nAnd then talking to others I've mentored.\n\nUntil she decided to try ghostwriting.\n\n17 days later?\n\nCharlie landed her first paid client as a ghostwriter.\n\nAnd a few months afterwards, she made her investment back (and then some).\n\nThe skills she mastered as a ghostwriter built her an incredible foundation.\n\nThese days, Charlie's applying them to her own content.\n\nHer TikTok account has grown to 129,000 followers.\n\nWant the same 5-step playbook Charlie (and 10,000+ Premium Ghostwriters) have used?\n\nUse the link below to get FREE access.\n\nHere's everything you need to start ghostwriting in 2026: https://lnkd.in/eutdVGdM",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1784896415521,
+        "date": "2026-07-24T12:33:35.521Z",
+        "postedAgoShort": "4d",
+        "postedAgoText": "4 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGVFxJanWjoRQ/feedshare-shrink_800/B4EZ.UHeF2JkAc-/0/1784896414374?e=1786579200&v=beta&t=m0td77a9shUeO6kiMUijyGP5KBu7q6MCJEP5DPFc7VQ",
+          "width": 620,
+          "height": 870
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486398175205953536",
+        "likes": 73,
+        "comments": 49,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 62
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481324168593133568",
+      "entityId": "7481324168593133568",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_5-steps-to-maximize-client-retention-activity-7481324168593133568-sCzP",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7481324167590559744",
+      "shareUrn": "urn:li:ugcPost:7481324167590559744",
+      "content": "Making $100,000 per year as a writer isn’t hard.\n\nThis is all you need:\n\n• 3 writing clients\n• Paying $2,800/mo\n• A system so they don’t churn\n\nCheck out this carousel for my 5-step system to retain clients for months (if not years).\n\nOnce you do?\n\nAll you need is your first (or next) high-paying writing client.\n\nSo, I created a FREE 5-step blueprint with everything you need.\n\nInside you’ll find my:\n\n• Secret to charging premium prices\n• Formula for finding your own lucrative niche\n• Proven technique for landing high-paying clients every month\n\nAnd more!\n\nClick here to get instant (free) access: https://lnkd.in/em7UmWKU",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1783686678074,
+        "date": "2026-07-10T12:31:18.074Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "5 Steps To Maximize Client Retention",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQGhHhFUAb-R_Q/feedshare-document-url-metadata-scrapper-pdf/B4EZ9L5.ckJUA8-/0/1783684918174?e=1785877200&v=beta&t=Shb4ZX5kmUpjrJ4R5u4Jvxi11q0lviTfwf3k3g1s6sg",
+        "coverPages": [
+          {
+            "width": 1536,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4E1FAQGhHhFUAb-R_Q/feedshare-document-cover-images_1920/B4EZ9L5.ckJUBU-/0/1783684918358?e=1785877200&v=beta&t=4kDLzcgi8PVE24F2ziVtvggwBJjgD3TKhe8385G3YXM",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQGhHhFUAb-R_Q/feedshare-document-cover-images_1920/B4EZ9L5.ckJUBU-/1/1783684918358?e=1785877200&v=beta&t=B_v9a94Ak9yz2AhaHd7KJBy_Po_N1f8Y2YJYw9_GZf0",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQGhHhFUAb-R_Q/feedshare-document-cover-images_1920/B4EZ9L5.ckJUBU-/2/1783684918358?e=1785877200&v=beta&t=6NiFq6FUEFNeT6XrFq6sa5U2y6rK7HTwNK_WXFkHVeU"
+            ],
+            "height": 1920
+          }
+        ],
+        "totalPageCount": 8,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGhHhFUAb-R_Q/feedshare-document-master-manifest/B4EZ9L5.ckJUBc-/0/1783684918424?e=1785877200&v=beta&t=_jf4rBC-E5T6pLYT_xujlRNAhLuLWlgznO8eksJkhmE",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4E1FAQGhHhFUAb-R_Q",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQGhHhFUAb-R_Q/feedshare-document-transcript/B4EZ9L5.ckJUA4-/0/1783684918424?e=1785974400&v=beta&t=TkWyYzlD6e6QBCtQGLF0LuoZ818nA4IXQJqRqXnnK6Q",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQGhHhFUAb-R_Q/feedshare-document-pdf-analyzed/B4EZ9L5.ckJUAc-/0/1783684918424?e=1785974400&v=beta&t=PtP4dYRCToTfgh29DL8uzNwlDLU1ZFBemdrpLqia5Ks",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 642,
+              "height": 802,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGhHhFUAb-R_Q/feedshare-document-images_800/B4EZ9L5.ckJUAo-/0/1783684918424?e=1785974400&v=beta&t=hGtE2SII7PJYqpankj5nXI2sibDnbuw8Jw5i1fzRbMo"
+            },
+            {
+              "width": 1026,
+              "height": 1282,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGhHhFUAb-R_Q/feedshare-document-images_1280/B4EZ9L5.ckJUAU-/0/1783684918424?e=1785974400&v=beta&t=Xs5FsP-LDMrekMJBBzQRdaWoQXoso832EPlzA02hLao"
+            },
+            {
+              "width": 1536,
+              "height": 1920,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGhHhFUAb-R_Q/feedshare-document-images_1920/B4EZ9L5.ckJUAs-/0/1783684918424?e=1785974400&v=beta&t=rw2aOWnlrMh0-irsEmVzQmNtVIhU1QDIy-J4Py7u0y8"
+            },
+            {
+              "width": 132,
+              "height": 165,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGhHhFUAb-R_Q/feedshare-document-images_160/B4EZ9L5.ckJUAg-/0/1783684918424?e=1785974400&v=beta&t=FZnqzPTuO7nrLVHCOoTd622bRrV1Bzw0hlkqt0Y4jto"
+            },
+            {
+              "width": 384,
+              "height": 480,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGhHhFUAb-R_Q/feedshare-document-images_480/B4EZ9L5.ckJUAk-/0/1783684918424?e=1785974400&v=beta&t=3zqIyBoAB2JTfFPKfRvBDMeBbu2UAbjReQrkVEncjBE"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481324167590559744",
+        "likes": 78,
+        "comments": 41,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 73
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484949446661853184",
+      "entityId": "7484949446661853184",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_7-dangerous-signs-ai-is-going-to-replace-activity-7484949446661853184-Pzo_",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7484949445466492928",
+      "shareUrn": "urn:li:ugcPost:7484949445466492928",
+      "content": "Your job is going to be replaced by AI.\n\nDoes hearing that make your heart stop?\n\nDoes it make you nervous and uncertain?\n\nIs it uncomfortable?\n\nWhether you believe this statement (”Your job is going to be replaced by AI”) is true...\n\nI strongly encourage you to operate as if it is.\n\nHere’s why:\n\nArtificial Intelligence isn’t just going to affect “a handful” of industries.\n\nIt’s going to affect every industry, all over the world, starting now.\n\nWhich means:\n\n> if you want to remain relevant\n> if you don’t want to get caught with your pants down (ouch)\n> if you want to have a thriving career over the next ~30 years\n\nThen you are better off ASSUMING AI is going to impact you—versus assuming AI “won’t” impact you.\n\nThe former will be prepared, and the latter will be left behind.\n\nSo, with that in mind:\n\nHow can you tell how “at-risk” you are?\n\nThese are the 7 (subtle) signs AI is most likely going to replace you (and what you can do about it):\n\n1. You get paid per hour (for digital work)\n2. You are a \"Digital Laborer\"\n3. Your task list = \"doing,\" not \"thinking\"\n4. Your work requires zero creative decision-making\n5. Your creative decision-making is arbitrary\n6. You get paid to create commodity projects\n7. Your content/POV is easily substitutable\n\nTL;DR\n\nYou need to be irreplaceable.\n\nHere's how:\n\nBecome an AI LinkedIn Ghostwriter.\n\nYou get paid (a premium) to think about what will help your clients build their personal brands.\n\nAnd then you let AI do the heavy-lifting for each LinkedIn post with my LinkedIn Ghostwriter OS:\n\n• A step-by-step, 30-day implementation roadmap\n• 20+ AI prompts to help you become a ghostwriter\n• My \"Leaks & Faucets\" strategy for finding leads\n• Viral content LI templates (that anyone can use)\n• Voice matching prompt to write in any client's style\n• My $3M Sales Call script that closes high-ticket deals\n\nWant access?\n\nClick here and I'll send you a free copy: https://lnkd.in/e4KkbZsH",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1784551011720,
+        "date": "2026-07-20T12:36:51.720Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "7 Dangerous Signs AI Is Going To Replace You",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQG-uFW_cZcRCg/feedshare-document-chunked-pdf/B4EZ9_hX0kJUBk-/0/1784550883922?e=1785877200&v=beta&t=4bivGvA16GGIGkY8utyZPSY9PgPDL5aeqoMga3JkiAU",
+        "coverPages": [
+          {
+            "width": 1536,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4E1FAQG-uFW_cZcRCg/feedshare-document-cover-images_1920/B4EZ9_hX0kJUBQ-/0/1784550883922?e=1785877200&v=beta&t=SLnhyifQIYk6fbtRQrK1K9RUBgmv-yBgdBFPq8Y0ukw",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQG-uFW_cZcRCg/feedshare-document-cover-images_1920/B4EZ9_hX0kJUBQ-/1/1784550883922?e=1785877200&v=beta&t=t2PmncmiUo3_kqlYC0UjTfn1M_-WVdRR81beM8LD1BM",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQG-uFW_cZcRCg/feedshare-document-cover-images_1920/B4EZ9_hX0kJUBQ-/2/1784550883922?e=1785877200&v=beta&t=UzXlN8zNIdcRf0IcWGr4yMO7ZyXcwPinsUlu_A6-Rp0"
+            ],
+            "height": 1920
+          }
+        ],
+        "totalPageCount": 10,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQG-uFW_cZcRCg/feedshare-document-master-manifest/B4EZ9_hX0kJUBY-/0/1784550883977?e=1785877200&v=beta&t=S5uFiKY4fZpozUQyMChKARN8bqblB4-yuKYJxa4t68k",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4E1FAQG-uFW_cZcRCg",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQG-uFW_cZcRCg/feedshare-document-transcript/B4EZ9_hX0kJUA0-/0/1784550883977?e=1785974400&v=beta&t=81JB-amvFHRDO8Kelayo7qWvWwn4ub-3Hj7onGD7sbQ",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQG-uFW_cZcRCg/feedshare-document-pdf-analyzed/B4EZ9_hX0kJUAY-/0/1784550883977?e=1785974400&v=beta&t=8zWaZCO5JLGMVk-0ti7Tzj63nLg0Av5Mf2KbHkG7eaw",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 1536,
+              "height": 1920,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQG-uFW_cZcRCg/feedshare-document-images_1920/B4EZ9_hX0kJUAo-/0/1784550883977?e=1785974400&v=beta&t=qzaWGl2n66VhHj6E6zPXuINcLlVjVXad-9gZ83Clqvw"
+            },
+            {
+              "width": 1026,
+              "height": 1282,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQG-uFW_cZcRCg/feedshare-document-images_1280/B4EZ9_hX0kJUAQ-/0/1784550883977?e=1785974400&v=beta&t=Lo70J2ssR4tvjYXl8dQwUT56cuUxYxHr6G0EOtwDW3s"
+            },
+            {
+              "width": 642,
+              "height": 802,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQG-uFW_cZcRCg/feedshare-document-images_800/B4EZ9_hX0kJUAk-/0/1784550883977?e=1785974400&v=beta&t=ei1Bg8bZQUf7cdrRHaDfE7061wy1lapFtXARUB4sLXM"
+            },
+            {
+              "width": 384,
+              "height": 480,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQG-uFW_cZcRCg/feedshare-document-images_480/B4EZ9_hX0kJUAg-/0/1784550883977?e=1785974400&v=beta&t=k4djXcG8eVYGkUlz-IKoWzMUe-Fbv6ImRRPEkflrXYw"
+            },
+            {
+              "width": 132,
+              "height": 165,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQG-uFW_cZcRCg/feedshare-document-images_160/B4EZ9_hX0kJUAc-/0/1784550883977?e=1785974400&v=beta&t=JVa_tikfkSphcS8l_mLtUo_YzyDHuLH3HJqn3Xhpn-A"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484949445466492928",
+        "likes": 94,
+        "comments": 83,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 77
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 6
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482048623531261952",
+      "entityId": "7482048623531261952",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_i-paid-alex-hormozi-35000-to-hear-his-free-activity-7482048623531261952-xNjE",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7481361874735943680",
+      "shareUrn": "urn:li:ugcPost:7481361874735943680",
+      "content": "I paid Alex Hormozi $35,000 to hear his free advice.\n\nHere's why:\n\nHis content can apply to anyone.\n\n• College students at the beginning of their careers\n• Professionals wanting to build a business outside their jobs\n• Experienced business owners trying to scale from $1M to $3M-$5M\n• Or my business that's been stuck trying to hit $1,000,000 per month\n\nWhich means 2 things:\n\n1. His content needs to be broad enough to apply to everyone\n2. He needs to output a ton of content for someone at each stage of business\n\nNeither are great options for me.\n\nGeneral advice won't help me solve the current bottleneck I have.\n\nAnd I don't have the time to search for the 1 piece of content across his entire library.\n\nSo, it's a no-brainer for me to pay a small amount in proportion to the potential ROI.\n\nI get:\n\n• To ask specific questions\n• More direct access to him & his team\n• Custom advice & tactics that only apply to me\n\nBTW - Our business is NOT the right type of business for 99% of people to go build.\n\nIf you're just getting started, the operational complexity is too high.\n\nInstead, I'd recommend building a 1-person ghostwriting agency.\n\nIt's how I went from $0 to $20,000/month in less than 60 days.\n\nWant a (FREE) copy of my proven blueprint?\n\nClick here to get instant access: https://lnkd.in/eSXhNpDK",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1783859401591,
+        "date": "2026-07-12T12:30:01.591Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQEjDP2a2NBecQ/videocover-low/B4EZ9MjE_wJgBQ-/0/1783695699487?e=1785877200&v=beta&t=zUWsmVE3SkBvjwvctEXhQoapVLkRhfevl_BB3ZKMjas",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQEjDP2a2NBecQ/mp4-720p-30fp-crf28/B4EZ9MjE_wJgCQ-/0/1783695712804?e=1785877200&v=beta&t=n4En0UPP7Pxtq96V3zIveO85cUxwTsaxBJx_12gTrA8"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481361874735943680",
+        "likes": 120,
+        "comments": 31,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 105
+          },
+          {
+            "type": "EMPATHY",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478422897858879488",
+      "entityId": "7478422897858879488",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_two-weeks-ago-microsofts-ai-chief-predicted-activity-7478422897858879488-43Ux",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478422895442976768",
+      "shareUrn": "urn:li:share:7478422895442976768",
+      "content": "Two weeks ago, Microsoft's AI Chief predicted all white-collar jobs will be automated in the next 18 months.\n\nI'm one of the highest-paid ghostwriters in the world.\n\nHere are 8 reasons why AI won't destroy the ghostwriting industry:\n\n1. Writing is only 50% of the value (maybe less)\n\nGhostwriters audit profiles, manage tech stacks, track algorithms, engage with followers & build infrastructure.\n\nReplacing ALL of that with AI requires a proficiency 99.9% of businesses don't have.\n\n2. Uneducated inputs = low-quality outputs\n\nTo actually use AI, you have to know what to ask it.\n\nBut even the smartest people in the world have no clue how to write in the Digital Age, let alone direct AI to do it for them.\n\n3. People don't write on the Internet because they're scared (not because they don't know how)\n\nMost have insights worth sharing. They just fear judgment & negative feedback.\n\nA ghostwriter gives clients permission to share ideas publicly.\n\n4. You need to know how to use AI for it to \"replace\" a job\n\n99% can't even create a Gmail filter.\n\nWill it replace jobs in the top 1% of digitally savvy companies? Probably.\n\nWill it replace jobs in 34,752,434 small US businesses (99.9% of all)? Probably not.\n\n5. Most people don't know what they know (and need someone to help them realize it)\n\nI've ghostwritten for 300+ industry leaders. ALL took their knowledge for granted.\n\nThey needed someone to ask questions & help them see the value of what they know.\n\n6. AI doesn't have training data on your life experiences\n\nAI can write how-to content.\n\nBut it can't tell YOUR story of near-bankruptcy, a viral dorm room launch, or a chance meeting with an investor.\n\nYou need a ghostwriter to ask the right questions.\n\n7. The highest form of writing is \"saying what hasn't been said yet\"\n\nAI excels at rewriting what already exists. It can't innovate—coming up with new ideas or truly unique ways to say them.\n\nThat's your ultimate edge as a writer & ghostwriter.\n\n8. Demand for ghostwriters is about to explode (and AI can help you)\n\nEvery business owner needs to create content online.\n\nThey don't have time. So they hire experts.\n\nGhostwriters can then use AI as their Digital Intern, scale clients faster, and charge a premium.\n\n📌 As a ghostwriter, you can:\n\n• Work with 2-3 high-paying clients\n• Each paying you $2,000-$3,000/mo\n• And you've got a fantastic side hustle (or business)\n\nI put together a complete crash course on how to land high-paying clients.\n\nGet it here (for free): https://lnkd.in/g9-p8SEJ",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1782994961228,
+        "date": "2026-07-02T12:22:41.228Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEx56Hcs2Mrag/feedshare-shrink_1280/B56Z8ix_0jHUAM-/0/1782994959918?e=1786579200&v=beta&t=eJ-outSHODwoVz_-Kmyytw1oU_FjlAqJ831kFmZ5mgI",
+          "width": 534,
+          "height": 698
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478422897858879488",
+        "likes": 80,
+        "comments": 45,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 70
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482773569295425538",
+      "entityId": "7482773569295425538",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_right-now-were-helping-80-writers-launch-activity-7482773569295425538-78Nt",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482773568079101952",
+      "shareUrn": "urn:li:share:7482773568079101952",
+      "content": "Right now, we're helping 80+ writers launch their LinkedIn personal brands.\n\nSo, I built an AI system that does something wild:\n\n• It audits your LinkedIn\n• Fixes your positioning\n• Writes your content\n\nAnd everything else you need to own a niche on LinkedIn.\n\nIt's called the LinkedIn Personal Brand Builder.\n\nWe just shared this AI asset with our 1,800+ writing students.\n\nAnd they love it!\n\nSo, for the next 48 hours, you can get a copy...\n\nFor free.\n\nWhy?\n\nBecause building a personal brand on LinkedIn is how you:\n\n• Grow your network\n• Accelerate your career\n• Get picked for promotions\n• Attract new job opportunities\n• Build a lucrative ($$$) side hustle\n\nAnd I want to help as many people as possible.\n\nHere's what you get inside my LinkedIn Personal Brand Builder:\n\n• The Profile Audit—checks your profile against a 9-point personal branding checklist and tells you exactly what to fix\n\n• The Positioning Consultant—30 niche ideas, a full \"constellation\" map, and 7 headline + About section options\n\n• The Audience Research—a complete customer research package: frustrations, wants, dreams, fears, and objections\n\n• The Content Pillars—walks you through the Lean Content Multiplication Method to generate 10 post ideas\n\n• The Post Writer—drafts 5 ready-to-publish posts at a time from a library of 50 proven formats\n\nWant the full system for free?\n\nComment \"brand\" and I'll send it to you ASAP.\n\n(If we're not connected, send me a connection request with the word \"brand\" so I can DM you.)\n\nPS - This works even if you have:\n\n• No audience\n• No positioning\n• No content strategy\n• Or no idea what to post\n\nIt literally meets you where you are and tells you exactly what to do next.",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1784032242130,
+        "date": "2026-07-14T12:30:42.130Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEaHNWb0KhX9Q/feedshare-shrink_1280/B4EZ9gm6LrK4AM-/0/1784032241145?e=1786579200&v=beta&t=qoXhhurKLcw9wdLZgf7f_TTOWHw0itOFORFN6VzwhxY",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482773569295425538",
+        "likes": 296,
+        "comments": 864,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 271
+          },
+          {
+            "type": "EMPATHY",
+            "count": 19
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479149528126771200",
+      "entityId": "7479149528126771200",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_agree-gaming-helped-me-learn-skills-like-activity-7479149528126771200-_CVg",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478456727114276864",
+      "shareUrn": "urn:li:share:7478456727114276864",
+      "content": "Agree?\n\nGaming helped me learn skills like:\n\n• Work ethic\n• Real-time strategy\n• Managing teams to win\n• Embracing monotony to achieve goals\n\nI learned these playing World of Warcraft for 12+ hours per day as a teenager.\n\nThey later became *the* separator between me and my peers.\n\nVideo games are an amazing training ground for building these skills, especially as a kid.\n\nBut the goal isn't to stay in the video game world forever.\n\nThe goal is to put your skills to the ultimate test and play the game of life.\n\nAnd so, I did.\n\nI started a ghostwriting agency with my childhood best friend (Drew).\n\n18 months later, we scaled that business to $180,000/month.\n\nBut you don't need to:\n\n• Be a talented writer\n• Land 300+ writing clients\n• Hire 15+ full-time employees\n\nLike we did to make a great living as a ghostwriter.\n\nAs a ghostwriter on LinkedIn, you can:\n\n• Work with 2-3 high-paying clients\n• Each paying you $2,000-$3,000 per month\n• And you've got a fantastic side hustle (or business)\n\nSo, I put together a complete crash course on how to become a LinkedIn Ghostwriter.\n\nIt has everything you need to get started.\n\nClick here to get (free) instant access: https://lnkd.in/gTuydFMa",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1783168203384,
+        "date": "2026-07-04T12:30:03.384Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGCDZ33woh8Pg/feedshare-shrink_1280/B56Z8jQxBNHIAM-/0/1783003025735?e=1786579200&v=beta&t=dIYWB3yGM6L2vOtv4tUryFkENjbGpcG7nXeTaFajla8",
+          "width": 1188,
+          "height": 1188
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479149528126771200",
+        "likes": 105,
+        "comments": 40,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 93
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483136484330414082",
+      "entityId": "7483136484330414082",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_claude-will-automate-50-of-your-linkedin-activity-7483136484330414082-EdPV",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483136481235116032",
+      "shareUrn": "urn:li:share:7483136481235116032",
+      "content": "Claude will automate 50% of your LinkedIn posts...\n\nIF you fix one ANNOYING habit:\n\nYour AI output sounding like a robot.\n\nRight now, I'm seeing well-formatted, highly optimized LinkedIn content perform worse.\n\nMy hunch is many writers are just throwing their content through AI to \"perfect\" it.\n\nBut in reality, that's removing the little nuances that make your writing voice unique.\n\nThe good news?\n\nThis is an easy fix (you can solve it in the next 3 minutes).\n\nAll you have to do is give your Claude project these 3 key assets:\n\n1. Your Style Guide\n\nThis is a custom set of writing rules.\n\nAnd they tell Claude *how* you want to write.\n\nNot just *what* to write about.\n\nThis includes:\n\n> Writing examples that sound like you\n> Words and phrases you use often\n> Tone guidelines (casual, analytical, story-driven\n> Formatting preferences (short sentences, headers, bullets)\n\nEvery writer has a distinct writing \"fingerprint.\"\n\nAnd so do you.\n\n2. Example Content Library\n\nI have been writing on the internet for years.\n\nAnd in all this time, I have amassed a large library in my Notion Master Content Table with thousands of examples to share with AI.\n\nBut the problem?\n\nClaude has short-term memory.\n\nAnd if you give it too much information at one time, you can easily overwhelm it. More does not equal better.\n\nSo to avoid this problem, you only need to give it 3 to 4 good examples of your writing.\n\nThis is good news for you!\n\nBecause in just a few hours, you can write a handful of LinkedIn posts.\n\nWhich means you're a whole lot closer to Claude writing that sounds like you than you might think.\n\n3. Audience Profile & Offer Doc\n\nFinally, if you want Claude to help align your content with your business, it needs to understand what you sell.\n\nYour Offer Doc should include:\n\n> Who you help\n> What problem you solve\n> Your products or services (and key benefits)\n> Your ideal customer’s language, pain points, and goals\n\nWithout all this context, your AI is just guessing.\n\nAnd that inevitably means more of YOUR time spent editing things manually.\n\nBut once you have these 3 assets?\n\nYou can write social posts for high-paying clients.\n\nThis is what I did.\n\nAnd my first writing client paid me $5,000.\n\nThese days, the *easiest* way to get started is by LinkedIn Ghostwriting.\n\nSo, I created a 5-step blueprint to help anyone become a LinkedIn Ghostwriter (even if you have no writing experience).\n\nGrab a FREE copy to start ghostwriting ASAP: https://lnkd.in/eRfyWDnq",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1784118767817,
+        "date": "2026-07-15T12:32:47.817Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQG5ZOa5y8OrZg/feedshare-image-high-res/B4EZ9lw.sSK4AU-/0/1784118766652?e=1786579200&v=beta&t=Z7MF6nHrGeGF9O--xZkrEpvrSniGYJQZkxVu6N5Dnss",
+          "width": 1047,
+          "height": 1148
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483136484330414082",
+        "likes": 78,
+        "comments": 44,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 71
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478787181176881152",
+      "entityId": "7478787181176881152",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_11-copywriting-tips-to-make-money-ghostwriting-activity-7478787181176881152-KHg5",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7478456409756434432",
+      "shareUrn": "urn:li:ugcPost:7478456409756434432",
+      "content": "The single most powerful skill for making money online in 2026:\n\n(It's how my little business generated $8,200,000 last year)\n\nCopywriting.\n\nAnd every ghostwriter and freelance writer should master this skill.\n\nHere are 11 copywriting tips I used to become a 6-figure writer (so you can too this year):\n\n1. Never blame the reader\n\n2. Name and claim the problem\n\n3. Promise outcomes, not learning\n\n4. Be a painkiller, not a vitamin\n\n5. Share your client's \"before\" story\n\n6. Use tangible, not intangible language\n\n7. Use objective, not subjective language\n\n8. Define specifically who the content is for\n\n9. Pull back the curtain with insider information\n\n10. Frame the problem, then educate on the solution\n\n11. \"This small action will lead to this giant outcome\"\n\nCheck out my carousel below to find out how to use each of these copywriting tips.\n\nBy the way, my first job out of college was at an ad agency as an entry-level copywriter.\n\nUntil I quit with no plan.\n\nAll I had was a $15 desk from Goodwill and $3,000 in my savings.\n\n60 days later, I was making 6+ figures/year as a ghostwriter.\n\nBut if I had to start over in 2026?\n\nI would become a LinkedIn Ghostwriter.\n\nIt’s the easiest way to make money on this platform in 2026.\n\n• You don't need an audience\n• You don't need any writing experience\n• You don't need to build a digital product\n\nSo, I put together a FREE 5-step blueprint with everything you need to get started.\n\nClick here to get instant access: https://lnkd.in/gmjYey6S",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1783081813139,
+        "date": "2026-07-03T12:30:13.139Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "11 Copywriting Tips To Make Money Ghostwriting In 2026",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQEJTV-WQVKYzA/feedshare-document-sanitized-pdf/B56Z8jQZJFKgA8-/0/1783002929177?e=1785877200&v=beta&t=rjDbNdy9WupXpAFU1cFjQxWRpbmie0JhTQXRkTtbDiM",
+        "coverPages": [
+          {
+            "width": 1536,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D561FAQEJTV-WQVKYzA/feedshare-document-cover-images_1920/B56Z8jQZJFKgBQ-/0/1783002929542?e=1785877200&v=beta&t=cWKc_m6GLmdIQWjpFWp7F9BravyFHCsYL0CIhdwRepk",
+              "https://media.licdn.com/dms/image/v2/D561FAQEJTV-WQVKYzA/feedshare-document-cover-images_1920/B56Z8jQZJFKgBQ-/1/1783002929542?e=1785877200&v=beta&t=IrCdlPJaE9wTvYCaU7o92Wf65x_9qfxIA0G83bG16fk",
+              "https://media.licdn.com/dms/image/v2/D561FAQEJTV-WQVKYzA/feedshare-document-cover-images_1920/B56Z8jQZJFKgBQ-/2/1783002929542?e=1785877200&v=beta&t=iNE6ZIZ0IVkY_P_InDdK9bikMs4M4Ql1FIrNCD36Giw"
+            ],
+            "height": 1920
+          }
+        ],
+        "totalPageCount": 16,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQEJTV-WQVKYzA/feedshare-document-master-manifest/B56Z8jQZJFKgBY-/0/1783002929542?e=1785877200&v=beta&t=o41rwyikkDUVDMDFwJu_bywpT9yn3rZzD5UfG-Z8OdM",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D561FAQEJTV-WQVKYzA",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQEJTV-WQVKYzA/feedshare-document-transcript/B56Z8jQZJFKgA0-/0/1783002929542?e=1785974400&v=beta&t=YFaXnWw8gb-kxVCnEwhODkKZgNjgaBZmAZidLfTcfJ4",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D561FAQEJTV-WQVKYzA/feedshare-document-pdf-analyzed/B56Z8jQZJFKgAY-/0/1783002929542?e=1785974400&v=beta&t=zhcBxsOXW_FLtdIANd2m9xlUY5dZdfB5pNgRw_-n5sI",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 132,
+              "height": 165,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQEJTV-WQVKYzA/feedshare-document-images_160/B56Z8jQZJFKgAc-/0/1783002929542?e=1785974400&v=beta&t=QutLaoT3HJ90IxAAqgxLE7870ot8tdxDyOcihm2GAHs"
+            },
+            {
+              "width": 1536,
+              "height": 1920,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQEJTV-WQVKYzA/feedshare-document-images_1920/B56Z8jQZJFKgAo-/0/1783002929542?e=1785974400&v=beta&t=Q6D7NUkEJMF9rldJGlGCACvGwPKcw5CdVmZ4rrKkrxs"
+            },
+            {
+              "width": 384,
+              "height": 480,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQEJTV-WQVKYzA/feedshare-document-images_480/B56Z8jQZJFKgAg-/0/1783002929542?e=1785974400&v=beta&t=nz3dD7qg__1Yk3AgrJ-z-yf8FLbE7hboaBCp2pbUjF0"
+            },
+            {
+              "width": 1026,
+              "height": 1282,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQEJTV-WQVKYzA/feedshare-document-images_1280/B56Z8jQZJFKgAQ-/0/1783002929542?e=1785974400&v=beta&t=asXIScgW3XtLXo9hUc8jZkffwIaaRUrGh32u-BpHPo8"
+            },
+            {
+              "width": 642,
+              "height": 802,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D561FAQEJTV-WQVKYzA/feedshare-document-images_800/B56Z8jQZJFKgAk-/0/1783002929542?e=1785974400&v=beta&t=x3eebFe7kxLArDczAdjeK1KzVh-5lbUZmSLODZYDQCA"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478456409756434432",
+        "likes": 94,
+        "comments": 51,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 89
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482410889388843008",
+      "entityId": "7482410889388843008",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_my-8000000-email-marketing-strategy-activity-7482410889388843008-xPWp",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7482410888340123649",
+      "shareUrn": "urn:li:ugcPost:7482410888340123649",
+      "content": "My little writing business generates $600,000+ per month.\n\nWe just send these 4 simple emails:\n\n1. Value\n2. Indirect\n3. Direct\n4. Gated Value\n\nThis is the email strategy we used to make $8,000,000 in 2026.\n\nWhich is how I know writing clients happily pay $5,000/mo (and more) for this service.\n\nThe only question is:\n\nWill that writer be YOU or someone else?\n\nI put our entire email system into my Weekly Newsletter Toolkit.\n\nHere's everything you get inside (for free):\n\n• Value Newsletter Claude Skill: Writes a pure-value email that builds trust at scale\n\n• Indirect Newsletter Claude Skill: Writes a gentle education-to-sales email that kills one objection\n\n• Direct Newsletter Claude Skill: Writes a short, confident pitch that drives one clear next step\n\n• Subject Line Generator Claude Skill: Writes 10 irresistible subject lines for any email\n\n• Email Subject Line Swipe File: 50 proven subject lines + preview texts you can adapt for any client, any email\n\n📌 Want my Weekly Newsletter Toolkit (for free)?\n\nClick here to grab a copy: https://lnkd.in/e2jZheBe",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1783945772502,
+        "date": "2026-07-13T12:29:32.502Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "My $8,000,000 Email Marketing Strategy",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQFx3-j-YwhaEA/feedshare-document-url-metadata-scrapper-pdf/B4EZ9bapmIHkA4-/0/1783945141898?e=1785877200&v=beta&t=Vd_ZppAc4JjAYLXmvthO7mrlLNlf7k8A0UjeGm3tW0E",
+        "coverPages": [
+          {
+            "width": 1536,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4E1FAQFx3-j-YwhaEA/feedshare-document-cover-images_1920/B4EZ9bapmIHkBQ-/0/1783945142039?e=1785877200&v=beta&t=scZtBnyDSHOJTv1rMo9lD-zpsWiK6gfutPzVSKczB7A",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQFx3-j-YwhaEA/feedshare-document-cover-images_1920/B4EZ9bapmIHkBQ-/1/1783945142039?e=1785877200&v=beta&t=Q4hDiDzgNl2DLPtZqoHGYUpSorXfnjP3-8IeoTfX7pg",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQFx3-j-YwhaEA/feedshare-document-cover-images_1920/B4EZ9bapmIHkBQ-/2/1783945142039?e=1785877200&v=beta&t=SRNKNjbzEpFRacnevSVFDI9VAM7mM5R0hyJZ5aAwKe4"
+            ],
+            "height": 1920
+          }
+        ],
+        "totalPageCount": 8,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQFx3-j-YwhaEA/feedshare-document-master-manifest/B4EZ9bapmIHkBY-/0/1783945142978?e=1785877200&v=beta&t=-pJ2DoJUN7CQUlgMCWfX5oOPAeKDikGWgWXYVQkRu9c",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4E1FAQFx3-j-YwhaEA",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQFx3-j-YwhaEA/feedshare-document-transcript/B4EZ9bapmIHkA0-/0/1783945142978?e=1785974400&v=beta&t=8wgIDR_dr_u4l72k7E0uIwQ442gDEedntWdRJ-wcy5Y",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQFx3-j-YwhaEA/feedshare-document-pdf-analyzed/B4EZ9bapmIHkAY-/0/1783945142978?e=1785974400&v=beta&t=c_hrJ4BoYhD1-b-QJC42nnCBEtjjJ59evkTFZdoLXOc",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 1536,
+              "height": 1920,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQFx3-j-YwhaEA/feedshare-document-images_1920/B4EZ9bapmIHkAo-/0/1783945142978?e=1785974400&v=beta&t=6WwZoSN2UZUXzmCOXIox9zV8QdvVM5pppjCE6footAI"
+            },
+            {
+              "width": 642,
+              "height": 802,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQFx3-j-YwhaEA/feedshare-document-images_800/B4EZ9bapmIHkAk-/0/1783945142978?e=1785974400&v=beta&t=wElS_j9P7FARfq6QXmw2zwpSkGyT80lb1p2q403Pv6k"
+            },
+            {
+              "width": 1026,
+              "height": 1282,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQFx3-j-YwhaEA/feedshare-document-images_1280/B4EZ9bapmIHkAQ-/0/1783945142978?e=1785974400&v=beta&t=1ytNuHm7hfhbEiuqoEiBUCkZLALaq_fZnyib3ueDO60"
+            },
+            {
+              "width": 132,
+              "height": 165,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQFx3-j-YwhaEA/feedshare-document-images_160/B4EZ9bapmIHkAc-/0/1783945142978?e=1785974400&v=beta&t=rF9Aj5N9GGulO1YZT0pVE-N0Q-7Nukpj2eNom-QsIb4"
+            },
+            {
+              "width": 384,
+              "height": 480,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQFx3-j-YwhaEA/feedshare-document-images_480/B4EZ9bapmIHkAg-/0/1783945142978?e=1785974400&v=beta&t=YwqeWSVKvfdSZRSPZbubpZ4OsjVK55mirzEjxxBTu9M"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482410888340123649",
+        "likes": 93,
+        "comments": 65,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 88
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480961553245241344",
+      "entityId": "7480961553245241344",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_how-to-land-3000-writing-clients-in-the-activity-7480961553245241344-mhzK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480961551940710400",
+      "shareUrn": "urn:li:share:7480961551940710400",
+      "content": "How to land $3,000 writing clients in the next 30 days:\n\nEspecially if you have no:\n\n• Followers\n• Email list\n• Credibility\n• Testimonials\n• Or any case studies\n\nYou don't need any of these.\n\nAll you need is a laptop & a Wifi connection.\n\nHere's exactly what I'd do (in 7 dead-simple steps):\n\n1. Niche down by service\n\nPick *one* service you want to specialize in.\n\nThree strong starting points:\n\n• Social Ghostwriting\n• Newsletter Ghostwriting\n• Educational Email Course (EEC) Ghostwriting\n\nAny of them work.\n\nIn 2017, my agency did *one* thing:\n\n800-word thought leadership articles. Nothing else.\n\n2. Use yourself as your first case study\n\nOnce I pick a service, I'm proving it works on myself first.\n\nIf I choose EEC Ghostwriting, I build an EEC for myself.\n\nI pin it to my social profiles & create something I can point to. This is exactly how I landed my first ghostwriting clients in 2016.\n\nMy profile was all the proof I needed.\n\nAnd yes, you can power-level all of this in a week.\n\n3. Build your Leaks & Faucets list\n\nBefore cold outreach, I'd start with who I already know.\n\nAnd there are 2 types of people I recommend Warm Outreaching to:\n\n• Leaks: Someone you can help directly\n\n• Faucets: Someone who might not need your help personally, but knows people who do\n\nYou already know your first 5 clients.\n\nThey're in your life right now.\n\nYou just haven't thought of them that way yet.\n\n4. Reach out to all of them—and follow up at least 5x per person\n\nMost worry about being annoying or desperate.\n\nDon't worry. You're not.\n\nA follow-up message is just a reminder.\n\nTrust me, the money is ALL in the follow-up.\n\nI'd bet on landing 1-3 clients from this list alone.\n\n5. If your network comes up empty, move to cold outreach\n\nLet's pretend steps 1-4 produce nothing.\n\n(They won't, but let's pretend.)\n\nI'd identify industries where I already have an information advantage.\n\nSome existing knowledge or context that makes my outreach smarter than a generalist's.\n\nThen I'd start finding specific people to reach out to.\n\n6. Block 60 minutes every morning for high-quality outreach\n\nBut first, I'd spend 15 minutes on their profile.\n\nI'd find the specific problem I can solve for them.\n\nThen I'd send a personalized Free Consulting message showing exactly where I can help and why.\n\n7. Repeat every day—and ramp up volume if results are slow\n\nNo client after 2 weeks?\n\nGo from 60 minutes to 2 hours per day.\n\nStill nothing at 3 weeks?\n\nPush to 3-4 hours.\n\nWhen it's not working, most people assume the strategy is broken. It almost never is.\n\nThe strategy is fine.\n\nThe volume just isn't there yet.\n\n📌 From here, you just need ONE more thing:\n\nTo create your Irresistible Offer.\n\nWith one, it becomes a no-brainer for writing clients to pay you $3,000+.\n\nI put together a FREE crash course with everything you need to charge a premium.\n\nClick here to get instant access: https://lnkd.in/ensNTaZg",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1783600223838,
+        "date": "2026-07-09T12:30:23.838Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFnVVVfYSc28g/feedshare-shrink_1280/B4EZ9G24_VHwAM-/0/1783600222441?e=1786579200&v=beta&t=rVYf4060dETG7dgJvcf44o497CikAiQC3Vx4xq5ULHc",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480961553245241344",
+        "likes": 81,
+        "comments": 46,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 75
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485672284150599680",
+      "entityId": "7485672284150599680",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_christopher-nolan-is-the-last-great-director-activity-7485672284150599680-ldnr",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485672282917421057",
+      "shareUrn": "urn:li:share:7485672282917421057",
+      "content": "Christopher Nolan is the last great director of this century. But not because The Odyssey made $264 million opening weekend.\n\nBecause he found a method to irresistible storytelling:\n\nNolan uses the Plot Map Technique to visualize his storyline.\n\nHe doesn’t want “constraints” to hold him back when writing the story (especially if it's complex).\n\nSo he uses this technique to help his production team:\n\n1. Visualize the plot arc(s)\n2. Create it on screen\n\nLet's take Inception as an example (since I haven't gotten a chance to see The Odyssey yet).\n\nThe intricate plot is a journey around dreams within dreams, jumping between layers of reality.\n\nNolan's Plot Map for Inception resembles Kurt Vonnegut's \"Man in Hole\" story shape.\n\nThis is where the main character:\n\n1. Faces a problem\n2. Gets out of it\n3. Grows from the experience\n\nBut Nolan added an interesting twist:\n\nIn Inception, as Cobb (played by DiCaprio) moves closer to the dream world of Limbo, he travels \"down\" the plot map toward problems.\n\nThen, he must fight his way \"up\" to reality.\n\nThis not only mirrors Cobb's journey but also the movie's core concept of nested dreams.\n\nBy using the Plot Map, Nolan keeps the story focused despite the movie's:\n\n• Multiple “dream” storylines\n• Competing character arcs\n• And ever-increasing stakes\n\nWithout the Plot Map, the story would have become unfocused and hard to follow.\n\nNolan planned the entire 2.5-hour Inception movie on a single page.\n\nOther notable writers have similar practices:\n\n• Norman Mailer (in Harlot's Ghost)\n• Henry Miller (in Tropic of Capricorn)\n• JK Rowling (in the Harry Potter series)\n\nWant to use this technique for yourself?\n\nTry this:\n\n• Make a Visual Outline (shapes, arrows, visuals)\n• Emphasize Key Points (incident, climax, resolution)\n• Map Character Development (impact of events/themes)\n\nThis will help you keep your story focused while writing.\n\nAnd then to monetize as a writer ASAP?\n\nStart ghostwriting.\n\nIt's how I went from a broke freelancer to $20k/month in 60 days.\n\nWant to know how to land high-paying clients before the end of 2026?\n\nGet started (for free!) here: https://lnkd.in/ek_eTN7E",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1784723349607,
+        "date": "2026-07-22T12:29:09.607Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFYNyazCVWInQ/feedshare-image-high-res/B4EZ.JzRqSHkAU-/0/1784723348426?e=1786579200&v=beta&t=WdeoL6SNBeHdSJjwmCw9ycnKLG5qbtAexQxwT6-VKT4",
+          "width": 878,
+          "height": 881
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485672284150599680",
+        "likes": 88,
+        "comments": 55,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 76
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485311091628134400",
+      "entityId": "7485311091628134400",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_im-a-pro-writer-and-i-have-generated-over-activity-7485311091628134400-kUWr",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485311089434406912",
+      "shareUrn": "urn:li:share:7485311089434406912",
+      "content": "I'm a pro writer.\n\nAnd I have generated over $1,000,000 across:\n\n• SaaS ($1m+)\n• Agency ($5m+)\n• Consulting ($2m+)\n• Paid Newsletter ($2m+)\n• Self-Published Books ($1m+)\n• Cohort-Based Course ($3m+)\n• Low-Ticket Digital Products ($2m+)\n• High-Ticket Group Coaching ($10m+)\n\nThis has taught me a tremendous amount about:\n\na) How to monetize as a writer and\nb) What the most luractive business models are\n\nAnd after helping 1,500+ writers make their first $1 on the Internet, I've learned a very simple truth:\n\nThe \"right\" path is different for everyone.\n\nA little while back, I hosted a FREE Live Masterclass where I walked through:\n\n• The 9 different ways writers can use words to make $1,000,000—plus the pros and cons of each, so you can decide which one to take based on your situation and goals.\n\n• A deep dive on how each Writer Career Path monetizes, so you understand exactly how it works—which you can then replicate for yourself over and over again.\n\n• The fastest path to $1,000,000 for beginners. & which career paths you should ignore (because they take too long to monetize) and which ones to double down on, so you can accelerate your earnings as a writer as quickly as possible.\n\nAnd tons more!\n\nComment \"paths\" below and I'll DM my entire Masterclass to you for free.\n\nPS... If we're not connected, then send me a connection request with the word \"books\" and I'll DM them to you.",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1784637234599,
+        "date": "2026-07-21T12:33:54.599Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGL4vy5XbOl6Q/feedshare-shrink_1280/B4EZ.EqxPJHAAQ-/0/1784637232775?e=1786579200&v=beta&t=IF5Ny3Cnn1Zgr_xouGoEoAmetImBL2vwArBlOsNGplY",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485311091628134400",
+        "likes": 216,
+        "comments": 517,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 190
+          },
+          {
+            "type": "EMPATHY",
+            "count": 16
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484585339098062848",
+      "entityId": "7484585339098062848",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_i-scaled-my-ghostwriting-agency-to-180000-activity-7484585339098062848-bLye",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484226853612785665",
+      "shareUrn": "urn:li:share:7484226853612785665",
+      "content": "I scaled my ghostwriting agency to $180,000/mo in 18 months.\n\nBut my biggest mistake?\n\nI quickly became the lowest-paid employee.\n\nThere is SO MUCH I would do differently today (which is why I co-founded Velocity, our Email Ghostwriting agency with my business partner Daniel Bustamante 🥷🏻).\n\nFor context:\n\nBefore I started my first ghostwriting agency, I was:\n\n> Making $20k+/mo ghostwriting myself\n> Working ~4 hours per day\n> 0 obligations\n> Total stress-free lifestyle business\n\nBut...\n\nAt our height, I was:\n\n> Working 80 hrs per week\n> Employing 22 full-time people\n> Earning 50% less ($100k/year)\n> On calls from 6am to 6pm (or later)\n> Unable to go even 1 full day without working\n\nI was so stressed, I ended up getting shingles.\n\nAt the time, I thought \"building an agency\" was just another way of saying \"effortlessly scaling income.\"\n\nThis was a complete delusion.\n\nThere are really only 2 types of ghostwriting agencies you can build:\n\n1. Lifestyle agencies (1-5 people, $250k - $1M in revenue)\n2. Big business agencies (50+ people, $10M+ in revenue)\n\nBasically...\n\nEither you want to build a small, profitable, \"fun\" agency.\n\nOr you want to be a mega successful agency entrepreneur.\n\nThe \"in between\" is The Valley of Death.\n\nAnd I was hating life.\n\nWith Velocity, we're building a lifestyle agency.\n\nWith an incredibly lean team, we've already generated over $200,000 in revenue this year.\n\nAnd we're not doing anything special.\n\nWe're literally just following the same 5-step blueprint we've shared with 10,000+ aspiring ghostwriters.\n\nThe types of writing clients we're working with are paying us $1,500-$5,000 per month (and more).\n\nYou only need 1 to have an incredible 10-hour per week side hustle.\n\nHere's a link to the proven blueprint we're using: https://lnkd.in/exXG8za7",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1784464201712,
+        "date": "2026-07-19T12:30:01.712Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGpnRYLmBTchg/feedshare-image-high-res/B4EZ91QqgxK4AY-/0/1784378731577?e=1786579200&v=beta&t=EzodybF1HnwmVvfeG6s9-mpk7yoPteCntWFkNwAzTsY",
+          "width": 1545,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484585339098062848",
+        "likes": 104,
+        "comments": 33,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 90
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487122051892281346",
+      "entityId": "7487122051892281346",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_the-impact-ai-is-having-right-now-on-online-activity-7487122051892281346-sF_D",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486394407483588608",
+      "shareUrn": "urn:li:share:7486394407483588608",
+      "content": "The impact AI is having right now on online writing couldn't be better for beginner writers. But not for any of the reasons you would think.\n\nIt has made EVERYONE incredibly lazy.\n\nEvery morning, I scroll my LinkedIn feed while replying to comments.\n\nI see so many of the same:\n\n> AI slop replies\n> Copy/paste posts\n> Meaningless platitudes\n\nAt first, this was frustrating as hell (the effortless comments on my posts still grind my gears sometimes—i'm only human lol).\n\nBut I sat with it some more during my morning journaling session.\n\nI actually think this is an incredible opportunity for everyone starting to build a LinkedIn audience right now.\n\nIt has literally never been easier to be a top 1% creator.\n\n> Average content quality has fallen off a cliff\n> Readers are craving writing from an actual human\n> Your competition is quitting after ~20 AI-written posts that flop\n\nAll you have to do is deploy a little bit of effort.\n\nTrust me, taking the AI shortcut is the long road in disguise.\n\nThe writers who:\n\n> Slow down\n> Write content manually\n> Take the time to actually learn\n> Practice their craft consistently\n\nNot only end up being better writers, but get 10x better results using AI.\n\nThey also end up getting paid WAY MORE in the long run.\n\nJust as long as you don't waste months making the same mistakes over and over again.\n\n📌 This is why I wrote my Premium Ghostwriting Blueprint.\n\nI spent years making $100 per article as a freelance writer.\n\nUntil I learned the secret to charging a premium.\n\nOnce I did, I charged $1,000 for the same articles and hit $20,000/mo in less than 60 days.\n\nClick here to get my FREE blueprint with everything you need to land high-paying writing clients: https://lnkd.in/euDVBm8Y",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1785069001172,
+        "date": "2026-07-26T12:30:01.172Z",
+        "postedAgoShort": "2d",
+        "postedAgoText": "2 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFUwIzO60hufA/feedshare-image-high-res/B4EZ.UECvBHMAY-/0/1784895515833?e=1786579200&v=beta&t=7yDlURqRSjs0foQiOk5_9SoMMZ3jSRwxNQMISX9cpjw",
+          "width": 1080,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487122051892281346",
+        "likes": 124,
+        "comments": 62,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 106
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483498793854906368",
+      "entityId": "7483498793854906368",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_this-economist-just-made-4000-writing-a-activity-7483498793854906368-fju5",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483498792651100160",
+      "shareUrn": "urn:li:share:7483498792651100160",
+      "content": "This economist just made $4,000 writing a few emails and only had to do ONE thing:\n\nFollow up.\n\nAnd then follow up again.\n\nAnd then follow up some more.\n\nIn fact, McHale followed up with his high-ticket client 20 times!\n\nThat final time, they emailed him back saying:\n\n\"This is great timing because we're repositioning to a new market.\"\n\nMost send 2-3 follow-ups and then give up.\n\nWhy?\n\nBecause they're worried about getting angry messages.\n\nBut the \"secret\" no one wants to hear is...\n\nAll the money is in the follow-up.\n\nWhen you lead with education and value in your follow-ups, there's next to 0 chance you'll annoy someone.\n\n(High-paying clients are just busy business owners who appreciate getting reminded—we easily forget to reply!)\n\nThis is just the most recent reminder that the fastest way to land premium writing clients is just to:\n\n> Send more follow-ups\n> Send more follow-ups\n> Send more follow-ups\n> Send more follow-ups\n> Send more follow-ups\n\nBecause you never know when something will shift in their business and they suddenly need a ghostwriter ASAP.\n\nSo, I built a FREE blueprint to help you be that ghostwriter.\n\nInside my Premium Ghostwriting Blueprint, you'll get:\n\n> The secret to charging premium prices\n> A crash course to create your Irresistible Offer\n> The most effective way to do outreach & follow-ups\n> A proven technique to land new, premium clients every month\n> My 3-part formula to find your own lucrative ghostwriting niche\n\nWant a FREE copy?\n\nClick here to get my Premium Ghostwriting Blueprint: https://lnkd.in/en5BQD5J",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1784205149139,
+        "date": "2026-07-16T12:32:29.139Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGhlNUGlUSqog/feedshare-shrink_1280/B4EZ9q6f5EH8AM-/0/1784205147980?e=1786579200&v=beta&t=smroxMOgBDtubcUuPR-1fw6-1aQGU8e4JRcnpgwleJc",
+          "width": 889,
+          "height": 449
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483498793854906368",
+        "likes": 80,
+        "comments": 63,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 73
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481686246218702848",
+      "entityId": "7481686246218702848",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_the-ai-fear-mongering-online-drives-me-insane-activity-7481686246218702848-k1Vc",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481361642878873600",
+      "shareUrn": "urn:li:share:7481361642878873600",
+      "content": "The AI fear-mongering online drives me insane.\n\nIt’s just one big neon sign that...\n\nThe average human never picks up a book.\n\nAll these people who claim “they can always tell it’s written by AI” are just becoming aware of rhetorical principles that have been around since The Bible.\n\nI’m a professional, millionaire writer.\n\nAnd AI, in a few short years, has already reached a point where I have a hard time distinguishing between:\n\n• A sentence I wrote\n• A sentence it wrote\n• A sentence we wrote together\n\nThe times I can tell, it’s never one of these rhetorical cliches.\n\n(Which lots of mediocre, human writers use all the time too)\n\nIt’s more subtle.\n\n• The rhythm of a sentence or paragraph\n• Or a metaphor I would never choose due to taste, not “correctness”\n• Or a stylistic decision, like an adjective I would never use in that context\n\nI beg you to READ MORE.\n\nGo read David Foster Wallace, Dostoyevsky, or Jane Austen.\n\nEvery single rhetorical mechanism and stylistic grammatical decision (like using an M-dash to extend or combine thoughts) has been used in literature forever.\n\nBecause even if you don’t use AI?\n\nSome uneducated readers will still think you did.\n\nAnd if you use AI, most people can’t tell.\n\nBoth are true.\n\nSo the takeaway is:\n\nIt doesn’t matter whether you used AI or not.\n\nBut the top 1% in every field are to\n\nWhich is why you should learn how to use this tool.\n\nRight now, the top 1% in EVERY field are already leveraging AI to be way more efficient and profitable.\n\nAnd soon, it won't be a \"nice to have\" skill.\n\nIt will be required.\n\nWithout these skills, you will:\n\n• Be paid less\n• Get passed over for promotions\n• Have your career trajectory disrupted\n\nYou need to clear your entire calendar to immerse yourself in developing AI skills.\n\nAnd you need a vehicle to practice those skills.\n\nThe starting point I recommend?\n\n📌 LinkedIn Ghostwriting with AI.\n\nThe kinds of high-paying clients LinkedIn Ghostwriters serve don't have the time to play around with AI prompts (just like they don't have the time to write). \n\nSo, there's never been a better time to get started.\n\nHere's a FREE 5-step blueprint to help you start making money as a LinkedIn Ghostwriter: https://lnkd.in/eSg-cxAM",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1783773004107,
+        "date": "2026-07-11T12:30:04.107Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEiCwoUmlAXYg/feedshare-shrink_800/B4EZ9MixYbJMAg-/0/1783695611737?e=1786579200&v=beta&t=wI2_a1VTCnMFoiNUEfQSZpJVEuhgZbxysaK2wg3tYlY",
+          "width": 729,
+          "height": 337
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481686246218702848",
+        "likes": 74,
+        "comments": 55,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 57
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480599388390785024",
+      "entityId": "7480599388390785024",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_im-giving-away-2-of-my-most-popular-books-activity-7480599388390785024-8ifB",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480599385429487616",
+      "shareUrn": "urn:li:share:7480599385429487616",
+      "content": "I'm giving away 2 of my most popular books for free.\n\nWhy?\n\nBecause I want to help 1 million people make a living writing on the internet.\n\nSo, for the next 48 hours, I'm giving away my 2 best-selling books for free:\n\n• The Art & Business of Online Writing\n• The Art & Business of Ghostwriting\n\nI've spent 10+ years figuring out how to make money as a writer.\n\n(After I was told in college, \"Nobody makes a living as a writer!\")\n\nAnd since then, I have generated over $1,000,000 across:\n\n• SaaS ($1m+)\n• Agency ($5m+)\n• Consulting ($2m+)\n• Paid Newsletter ($2m+)\n• Self-Published Books ($1m+)\n• Cohort-Based Course ($3m+)\n• Low-Ticket Digital Products ($2m+)\n• High-Ticket Group Coaching ($10m+)\n\nSo, yeah...\n\nYou can earn a lucrative living as a writer IF you know how.\n\nWhich is why I'm giving away my 2 most popular books (so you can start making a living as a writer too!).\n\nInside these books, I explain:\n\n• Why you shouldn’t start a blog, how to find your voice as a writer, and the exact steps to build a daily writing habit.\n\n• The quickest way to monetize your writing (and get paid to network and learn from industry leaders in your niche).\n\n• The secret to making more money as a writer (so you can escape the freelance writer hamster wheel).\n\nAnd tons more!\n\nComment \"books\" below and I'll DM them to you for free.\n\n♻️ Plus, if you repost this post, I'll DM you a copy of my latest book:\n\nWriter Career Paths: 9 Ways To Make $1,000,000 With Words\n\nJust repost and I'll DM you the link.\n\nPS... If we're not connected, then send me a connection request with the word \"books\" and I'll DM them to you.",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1783513877008,
+        "date": "2026-07-08T12:31:17.008Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGnp0GLXz2ZaA/feedshare-shrink_1280/B4EZ9BtgR2KoAQ-/0/1783513875864?e=1786579200&v=beta&t=JCq4j0tK_xsPcMh6H_NlaDdsKfTkInabSUVbgl16OL4",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480599388390785024",
+        "likes": 335,
+        "comments": 1096,
+        "shares": 133,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 290
+          },
+          {
+            "type": "EMPATHY",
+            "count": 28
+          },
+          {
+            "type": "PRAISE",
+            "count": 11
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487486510485848064",
+      "entityId": "7487486510485848064",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_one-simple-change-is-how-i-went-from-0-to-activity-7487486510485848064-5LaR",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487486509177077760",
+      "shareUrn": "urn:li:share:7487486509177077760",
+      "content": "One simple change is how I went from $0 to $7,000 per month as a part-time writer:\n\nI stopped calling myself a freelancer.\n\nAnd instead, I started calling myself a Premium Ghostwriter.\n\nAll of a sudden?\n\nI landed 2 (!) high-paying clients in 24 hours.\n\nNeither of them cared I worked a few hours per week ghostwriting for them.\n\nBut becoming a ghostwriter isn't all about the money.\n\nHere are 7 reasons why I believe everyone should start a ghostwriting side hustle:\n\n1. You Get Paid To Learn\n\n2. You Get Paid To Practice\n\n3. You Get Paid To Build Your Network\n\n4. You Get Paid To Know About Trends Early\n\n5. You Get Paid To Experience Different Lives\n\n6. You Get Paid To Learn How To Write In Different Voices\n\n7. You Get Paid To Write About Subjects You're Passionate About\n\nNow, if you're interested in becoming a ghostwriter...\n\nI recommend starting \"small.\"\n\nJust 1 high-paying client can pay you anywhere from $1,500 to $5,000+ per month.\n\nThis is a great way to give ghostwriting a try.\n\nAnd you don't have to worry about:\n\n• Replacing your 9-5\n• Paying your own taxes\n• Finding new health insurance\n• Becoming a first-time entrepreneur\n\nIf you want to scale your income from there, great.\n\nYou only need:\n\n• 3 high-paying clients\n• Paying you $2,700/month\n• To make $100,000+ per year\n\nAnd I have a FREE, 5-step blueprint that’s already helped over 10,000 writers start ghostwriting.\n\nIt has everything you need to start landing high-paying writing clients.\n\nClick here to grab a FREE copy of my Premium Ghostwriting Blueprint: https://lnkd.in/daMa3A8A",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1785155894872,
+        "date": "2026-07-27T12:38:14.872Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQG8DSscEXNV8g/feedshare-shrink_1280/B4DZ.jlTeyKwAM-/0/1785155893535?e=1786579200&v=beta&t=b0MJbTE9uOOw4STAV6Lnz-wG1Mgd8iX9UlGfAzgX5Fk",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487486510485848064",
+        "likes": 100,
+        "comments": 73,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 86
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486759675271512064",
+      "entityId": "7486759675271512064",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_want-to-make-100000year-without-building-activity-7486759675271512064-lVnH",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486394209453907968",
+      "shareUrn": "urn:li:share:7486394209453907968",
+      "content": "Want to make $100,000/year WITHOUT building a business?\n\nLuckily, you don’t have to:\n\nEvery week, thousands of companies around the world are hiring top ghostwriting talent.\n\nThese 6 remote jobs are all paying 6-figure salaries (with benefits):\n\n1. Director, Enterprise Product Marketing at Instacart ($203,000 - $214,000/yr)\n\n2.Creative Director, Brand Marketing at Chime ($201,000 - $279,000/yr)\n\n3. Head of Marketing & Communications at Garden3d ($150,000 - $230,000/yr)\n\n4. Director, Social Media Marketing at Starface World ($140,000 - $160,000/yr)\n\n5. Content Marketing Manager at Conversica ($120,000 - $154,000/yr)\n\n6. Customer Marketing Manager at Dataiku ($100,000 - $140,000/yr)\n\nA lot of these companies are in tech.\n\nBut whatever the tech industry pioneers, every other industry will soon follow.\n\nIt's already happening.\n\nMy ghostwriting students are landing clients in \"weird\" niches like:\n\n• Dentistry\n• Poker Coaches\n• Horse Ranching\n\nGhostwriting works in *any* niche.\n\nWhich is why right now is only the beginning of the massive demand we're seeing for ghostwriters.\n\nThere are MILLIONS of opportunities already within reach.\n\nIF you have a step-by-step blueprint showing you how to:\n\n• Find your \"weird\" (but extremely lucrative) niche\n• Land new, high-paying clients every month\n• Charge a premium for your work\n\nSo, I put together a 5-step blueprint with everything you need to get started as a ghostwriter.\n\nWant free access?\n\nClick here to get a FREE copy: https://lnkd.in/eTHi5P4F",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1784982603853,
+        "date": "2026-07-25T12:30:03.853Z",
+        "postedAgoShort": "3d",
+        "postedAgoText": "3 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQF7y8e4MCNA-g/feedshare-image-high-res/B4EZ.UD3Z9J0AU-/0/1784895469480?e=1786579200&v=beta&t=q6C6d5MDU2_WtmLpOCGNfyU5SnjMeueOgv1vtCmDEo8",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486759675271512064",
+        "likes": 92,
+        "comments": 26,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 84
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479511913349963776",
+      "entityId": "7479511913349963776",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_this-is-the-easiest-online-business-to-activity-7479511913349963776-lawK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7478457036452765696",
+      "shareUrn": "urn:li:ugcPost:7478457036452765696",
+      "content": "This is the *easiest* online business to scale from $0 to $10,000/month:\n\n(It's not selling eBooks, guides, or courses)\n\nIt's ghostwriting.\n\nYou don't need:\n\n• An audience\n• Any sales skills\n• A writing background\n\nTo start making money as a ghostwriter.\n\nPositioning myself as a Premium Ghostwriter is how I hit $240,000/year in less than 60 days.\n\nAnd demand is exploding as industry leaders need help scaling their message online.\n\nRight now, they're paying anywhere from $1,500 to $5,000+ per month.\n\nJust one high-paying client is the perfect side hustle.\n\nFrom there, you can choose to scale as high as $10k, $20k, or even $50k+ per month.\n\nWant to know how to find and land these writing clients?\n\nClick here to grab my FREE 5-step blueprint with everything you need to get started: https://lnkd.in/gkq2mT7Q",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1783254602754,
+        "date": "2026-07-05T12:30:02.754Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQHzNOhVjpmngw/videocover-low/B56Z8jRD2fKEBQ-/0/1783003104352?e=1785877200&v=beta&t=Ez5HFAxXsjQEY0CKpDdj55Oqs2PjxGg-TIkybXVTAAw",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D5605AQHzNOhVjpmngw/mp4-720p-30fp-crf28/B56Z8jRD2fKECQ-/0/1783003108459?e=1785877200&v=beta&t=gABnqwYSxI2TJyG897xaDHXUdiIXDxgFqrUV7GwWKKI"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478457036452765696",
+        "likes": 35,
+        "comments": 18,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 31
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484226459511934976",
+      "entityId": "7484226459511934976",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_i-got-paid-20000month-to-ghostwrite-for-activity-7484226459511934976-lfeA",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7484226408173572096",
+      "shareUrn": "urn:li:ugcPost:7484226408173572096",
+      "content": "I got paid $20,000/month to ghostwrite for industry leaders.\n\nIt nearly cost me my own writing career.\n\nIn the beginning, I lacked MANY skills.\n\nOne of the hardest for me to build was time management, so I really struggled with juggling my clients' content and my own personal writing.\n\nFor context:\n\nAt this point in my life, I had been writing online (and for myself) for 5+ years.\n\nI always knew I'd be a writer.\n\nSo, this phase of my career came at the cost of projects I would've MUCH rather been working on.\n\nBut in hindsight, that's okay!\n\nAs a writer, you should master every type of writing:\n\n> Essays\n> Tweets\n> LinkedIn Posts\n> Personal Stories\n> Sales Copywriting\n\nYou can't just be a \"writer.\"\n\nYou need to be a multi-dimensional writer.\n\nAnd enough time has passed for me to realize:\n\nNothing improved my own writing faster than becoming a ghostwriter.\n\nBut these days, the easiest way to get started is by ghostwriting on LinkedIn.\n\nThere's literally 1.3 BILLION users on this platform.\n\nAnd less than 1% are actually posting content consistently (despite knowing they should be).\n\nI put together a free, 5-day email course to help you land high-paying writing clients on LinkedIn.\n\nClick here to get yourself a copy (for free): https://lnkd.in/ejwVp2AN",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1784378638151,
+        "date": "2026-07-18T12:43:58.151Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQF6jB2P7nodGg/videocover-low/B4EZ91QRXJHwBQ-/0/1784378629018?e=1785877200&v=beta&t=vzJcnI8qSqQZJ-5xtXGTSM0Eq5C6QM5o6UUfibSfFTs",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQF6jB2P7nodGg/mp4-720p-30fp-crf28/B4EZ91QRXJHwCQ-/0/1784378631911?e=1785877200&v=beta&t=82R3fGxMBDs3uPrkEobVquK1D8Hvjt_1nYFP5Xv6l2o"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484226408173572096",
+        "likes": 67,
+        "comments": 36,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 59
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486478316200435712",
+      "entityId": "7486478316200435712",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_the-faulty-thinking-stopping-most-people-activity-7486478316200435712-Aj3L",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7486478315415900160",
+      "shareUrn": "urn:li:ugcPost:7486478315415900160",
+      "content": "The faulty thinking stopping most people from starting a side hustle in 2026:\n\nBelieving they need to learn a brand-new skill to make extra money.\n\nThe good news?\n\nThis is completely wrong.\n\nBecause the most lucrative side hustle you can build right now combines:\n\n1. Your existing writing skills\n2. AND industry expertise\n\nBut most people just never realize they can put the two together (and get paid well for it).\n\nThis is why ghostwriting is one of the most lucrative (and easiest) side hustles you can start in 2026.\n\nI’ve seen people from every profession use ghostwriting to scale their income (and even quit their jobs to become full-time ghostwriters):\n\n• Baristas\n• Consultants\n• French teachers\n\nAnd more!\n\nWhich is why I'm hosting a new live Masterclass:\n\nWrite Your Way Out: How To Use Your Day Job Skills To Build A \"Lifestyle Side Hustle\" That Boosts Your Income And Buys You The Freedom To Quit Your 9-To-5\n\nRegister for FREE below:",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1784915522623,
+        "date": "2026-07-24T17:52:02.623Z",
+        "postedAgoShort": "4d",
+        "postedAgoText": "4 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486478315415900160",
+        "likes": 22,
+        "comments": 10,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 20
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483861252289740800",
+      "entityId": "7483861252289740800",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_ai-isnt-the-shortcut-you-think-it-is-after-activity-7483861252289740800-roFO",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483861251039719424",
+      "shareUrn": "urn:li:share:7483861251039719424",
+      "content": "AI isn't the shortcut you think it is.\n\nAfter teaching 15,000+ writers, I've noticed:\n\nThe faster a student jumps to using AI, the worse their writing is.\n\nWhereas the ones who slow down and take the time to actually learn and practice the skill end up not only being better writers but get 10x better results using AI.\n\nWhy?\n\nBecause they’re getting leverage on skills they have built from the ground up. \n\nNow, don't get me wrong.\n\nI love technology & AI.\n\nBut I deliberately look for ways to practice writing “the hard way” because I see such a tremendous return on that effort later, when combined with AI. \n\nSo yea, we can’t pretend these new technologies don’t exist. \n\nBut we also shouldn’t discount the long-term cost of always trying to take the shortcut.\n\nThat's why I recommend starting a ghostwriting side hustle.\n\nIt's what I did while working & commuting 1 hour each way to my entry-level job.\n\nNothing will accelerate your writing skills than getting paid (well) to write content for industry leaders.\n\nEventually, I realized something:\n\nI would make WAY more money and work fewer hours if I quit my 9-5 to focus on my new ghostwriting business.\n\n60 days later?\n\nI hit $20,000/month with just a handful of clients.\n\nNow, I'm not saying you need to hand in your 2-week notice or start planning your escape from your job.\n\nBut it's worth trying.\n\nEspecially considering the average side hustle makes less than $900/month—and right now, writing clients are paying anywhere from $1,500-$5,000.\n\nWant a step-by-step roadmap to find them?\n\nClick here to get everything you need: https://lnkd.in/eR3sJAJ6",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1784291565964,
+        "date": "2026-07-17T12:32:45.964Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHA37M0kFLaCQ/feedshare-image-high-res/B4EZ9wEJqCH8AY-/0/1784291564430?e=1786579200&v=beta&t=mLwjHO6jOSsO8WVgw1ZQr1TCM1y595HjbCYwOu0Xukk",
+          "width": 1080,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483861252289740800",
+        "likes": 93,
+        "comments": 72,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 80
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479874833137344514",
+      "entityId": "7479874833137344514",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_you-absolutely-dont-need-10m-to-feel-rich-activity-7479874833137344514-KucZ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479874832030146561",
+      "shareUrn": "urn:li:share:7479874832030146561",
+      "content": "You absolutely don’t need $10M to feel rich lol. \n\nHere's the problem with net worth conversations:\n\nThey always forget the context of burn rate. \n\nEven if you have $10M net worth, if you spend everything you earn (high burn), you will feel poor. \n\nConversely, if you have $1M net worth but save a lot (low burn), you’ll feel rich. \n\nThat said, as soon as I crossed $1M net worth:\n\n• I was less stressed\n• I felt way more abundant\n• And “making more money” felt easier\n\nThe easiest way to accelerate your net worth?\n\nStarting a ghostwriting side hustle.\n\nIt's what I did while working & commuting 1 hour each way to my entry-level job as a copywriter.\n\nBut eventually I realized something:\n\nI would make WAY more money and work fewer hours if I quit my 9-5 to focus on my new ghostwriting business.\n\nAnd 60 days later?\n\nI hit $20,000/month with just a handful of clients.\n\nNow, I'm not saying you need to hand in your 2-week notice or start planning the escape from your job.\n\nBut it's worth giving this a shot.\n\nEspecially considering the average side hustle makes less than $900/month—and right now, writing clients are paying anywhere from $1,500-$5,000.\n\nWant a step-by-step roadmap to find them?\n\nClick here to get everything you need: https://lnkd.in/eaPeSxfX",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1783341129574,
+        "date": "2026-07-06T12:32:09.574Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHyiSkCKMRHAQ/feedshare-image-high-res/B4EZ83ahgRK4AU-/0/1783341128023?e=1786579200&v=beta&t=6e-78OEyVjvQjCJyTBRrR51GUyX69h6zNjE99f5bAsM",
+          "width": 1080,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479874833137344514",
+        "likes": 174,
+        "comments": 73,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 156
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483166134029139968",
+      "entityId": "7483166134029139968",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_this-is-hands-down-the-best-linkedin-outreach-activity-7483166134029139968-DNZ1",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483166133487996928",
+      "shareUrn": "urn:li:ugcPost:7483166133487996928",
+      "content": "Daniel runs our email ghostwriting agency, Velocity.\n\nAnd we use all the same tactics we teach other ghostwriters to use to land high-quality clients. We call it \"Free Consulting.\"\n\nIt's almost like... being helpful, at scale, is the secret!\n\n(This strategy is how I built a $2M/yr ghostwriting agency myself.)",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1784125836856,
+        "date": "2026-07-15T14:30:36.856Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7483093645634564096",
+        "linkedinUrl": "https://www.linkedin.com/posts/thibautsouyris_this-is-hands-down-the-best-linkedin-outreach-activity-7483093645634564096-dTpw",
+        "content": "This is hands down the best LinkedIn outreach sequence I have ever received.\n\nA few things that stand out:\n\n1) Relevance\n\nI've been following Daniel for a while and he shares bangers after bangers on email marketing.\n\nWhen he reached out, I couldn't ignore his message because when I think about email marketing, I think of him.\n\nHe also signed up to my newsletter and immediately pointed to an improvement I could make.\n\n2) Tone\n\nCheck the messages he sent. Sentences are short, punchy, they don't start with a capital letter.\n\nHe doesn't try to impress me with jargon, he's just having a conversation with a simple goal in mind: have me answer.\n\n3) AI test = passed\n\nDaniel is really good at using AI. So I asked a few questions to find out if I was speaking with him or an AI agent.\n\nEither it's him, or his AI agent is insanely good. If that's the case, we're cooked.\n\nAnyways, Daniel Bustamante 🥷🏻, congrats, you got yourself a meeting.",
+        "contentAttributes": [
+          {
+            "start": 882,
+            "length": 20,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAADuMaFABszju8YJwPVPJqdDkPY6vSBX87zA",
+              "firstName": "Daniel",
+              "lastName": "Bustamante 🥷🏻",
+              "linkedinUrl": "https://www.linkedin.com/in/dbusta",
+              "publicIdentifier": "dbusta"
+            }
+          }
+        ],
+        "author": {
+          "id": "ACoAAAL8odIBj2pMpkgjwonPaMaA6sUPZFpo1zE",
+          "universalName": null,
+          "publicIdentifier": "thibautsouyris",
+          "type": "profile",
+          "name": "Thibaut Souyris",
+          "linkedinUrl": "https://www.linkedin.com/in/thibautsouyris?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAL8odIBj2pMpkgjwonPaMaA6sUPZFpo1zE",
+          "info": "The Sales Creator Agent | I help Sales Creators find, negotiate, and close brand partnerships",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D4D03AQE9HxiTCXaDsw/profile-displayphoto-crop_800_800/B4DZnn40aGKQAI-/0/1760532058619?e=1786579200&v=beta&t=KUWvYqmC-BxoCrps_iO3vfwW3lnTDxlO77pDCkcn8nU",
+            "width": 800,
+            "height": 800
+          },
+          "urn": "50110930"
+        },
+        "postedAt": {
+          "timestamp": 1784108554276,
+          "date": "2026-07-15T09:42:34.276Z",
+          "postedAgoShort": "1w",
+          "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E22AQHUgdEeZ0GYzA/feedshare-shrink_1280/B4EZ9lKBZkHwAQ-/0/1784108554291?e=1786579200&v=beta&t=rpovK_gMMllqIZBnrh87I7lfnk6h4fhEgBmN1aqQaFw",
+            "width": 1002,
+            "height": 862
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E22AQF_xwosQ7y9vg/feedshare-image-high-res/B4EZ9lKBaIJEAY-/0/1784108554331?e=1786579200&v=beta&t=FUuvSBZQjYqNgF5xod2cEcvEoIkiBIL9MTufFPxmGYY",
+            "width": 1002,
+            "height": 862
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E22AQHKMx1ov-hYKw/feedshare-image-high-res/B4EZ9lKBZaH8AY-/0/1784108554342?e=1786579200&v=beta&t=x5ezvwq-wBP8sYEPLCUegUjOSv1L0ICczmJIq2Yguj8",
+            "width": 1002,
+            "height": 862
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E22AQE9uGioiZFi6g/feedshare-shrink_1280/B4EZ9lKBZ_K4AU-/0/1784108554375?e=1786579200&v=beta&t=UM7-nz_mulNr-ezX0g8J8lGeBDr5I0aZgJvnMFniksc",
+            "width": 1002,
+            "height": 862
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E22AQE0FwzSO_PkUA/feedshare-image-high-res/B4EZ9lKBZyJIAc-/0/1784108554356?e=1786579200&v=beta&t=1F8EA2r2e051ASb_TAnL2d2lZxvbL7ENgktpHuzvzrM",
+            "width": 1002,
+            "height": 862
+          }
+        ],
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": false,
+          "hideSendAction": false,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/thibautsouyris_this-is-hands-down-the-best-linkedin-outreach-activity-7483093645634564096-dTpw?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7483093645634564096",
+        "shareUrn": "urn:li:ugcPost:7483093644330188800",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483093644330188800",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483166133487996928",
+        "likes": 25,
+        "comments": 10,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 19
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480236853393072128",
+      "entityId": "7480236853393072128",
+      "linkedinUrl": "https://www.linkedin.com/posts/nicolascole_why-writing-for-free-makes-you-more-money-activity-7480236853393072128-ByqM",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7480236851535048704",
+      "shareUrn": "urn:li:ugcPost:7480236851535048704",
+      "content": "This data analyst has landed:\n\n• 1 (paid) Educational Email Course (EEC) client\n• 1 (paid) EEC and monthly newsletter client\n• 1 (free) EEC client\n\nBut more important than the money?\n\nGaining the ability to own his value and articulate it so others will pay him a premium.\n\nWhich is how Giovanni was able to go all in on his 1-person ghostwriting business.\n\nRecently, he landed a NEW client who wanted to pay him.\n\nBut Giovanni turned it down (!).\n\nAnd it was the smartest decision he could've made.\n\nHere's why:\n\nThe problem was Giovanni's client wanted to give him a percentage of their low-ticket product.\n\nInstead, he offered to do it for free (in exchange for some referrals).\n\nSo, let’s run some napkin math to see why that was a good decision:\n\n• We don’t know how much the product costs, but let’s be generous and say it’s a $350 product\n\n• Let’s keep that going and they sell 100 copies—making them $35,000 in revenue\n\n• Then let’s say the client gives him a pretty decent slice of that (10%)—Giovanni pockets $3,500\n\nWell, that’s LESS than what we recommend for this specific project.\n\nWe suggest $5,000 at a *minimum.*\n\nBut what you may not know?\n\nOn average, it takes 20+ emails for someone to become a customer.\n\nSo, maybe Giovanni would’ve helped the client sell 100+ low-ticket products.\n\nBut probably less.\n\nAnd with that rev-share model?\n\nThere would’ve been WAY more pressure on him to deliver results (so he could get paid what he's worth).\n\nThis is why I never recommend doing any type of rev-share.\n\nJust take the cash.\n\nOr do the work for free.\n\nIt’s the fastest way to prove to potential clients you're worth charging a premium for.\n\nBut at some point, it's time to start making money.\n\nThis ^ is where most people fail.\n\nSo, I wrote a FREE 5-step blueprint to help anyone land their first (or next) high-paying writing client.\n\nClick here to get everything you need: https://lnkd.in/eaPeSxfX",
+      "author": {
+        "id": "ACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "universalName": null,
+        "publicIdentifier": "nicolascole",
+        "type": "profile",
+        "name": "Nicolas Cole 🚢👻",
+        "linkedinUrl": "https://www.linkedin.com/in/nicolascole?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA1v-KIBbWTAwzu-peEXEhfcqWwRpu-jhVo",
+        "info": "I talk about digital writing, ghostwriting, and self-publishing | Co-Founder Ship 30, Typeshare, Write With AI, Premium Ghostwriting Academy | Author of 10 books | DM “👻” if you want to land high-paying writing clients",
+        "website": "https://li.premiumghostwritingblueprint.com/?el=cole_bio&htrafficsource=linkedin_organic&utm_source=Cole_bio",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH4ux4OZhsurQ/profile-displayphoto-crop_800_800/B4EZmM4jt7IkAI-/0/1759005261462?e=1786579200&v=beta&t=0p7yuAg9zZCd5t8947uFvi3G1_d9P-k6BtEmUXUjWJk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "225441954"
+      },
+      "postedAt": {
+        "timestamp": 1783427441929,
+        "date": "2026-07-07T12:30:41.929Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "Why Writing For Free Makes You More Money",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQEmJFa9YmsxIg/feedshare-document-sanitized-pdf/B4EZ88WTm9JMBo-/0/1783423909420?e=1785877200&v=beta&t=Ocaqh5j7s6NyVjPmPf66-MWlEKOtFq1u9PEhOrC_1uM",
+        "coverPages": [
+          {
+            "width": 1541,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4E1FAQEmJFa9YmsxIg/feedshare-document-cover-images_1920/B4EZ88WTm9JMB8-/0/1783423909351?e=1785877200&v=beta&t=4vaWT74-P1q-PfFUoCIgV6uk-A4H-2eq_fY5NXFr6RA",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQEmJFa9YmsxIg/feedshare-document-cover-images_1920/B4EZ88WTm9JMB8-/1/1783423909351?e=1785877200&v=beta&t=MaZvI96xYX_DhxvLPXdfNTBCv4UxbavP1PkJIRJ8W7M"
+            ],
+            "height": 1926
+          }
+        ],
+        "totalPageCount": 2,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEmJFa9YmsxIg/feedshare-document-master-manifest/B4EZ88WTm9JMCE-/0/1783423909644?e=1785877200&v=beta&t=I1Ra9dODKny93QYXoygWoGG7vq3BwCFsewzZW4OjkX0",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4E1FAQEmJFa9YmsxIg",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQEmJFa9YmsxIg/feedshare-document-transcript/B4EZ88WTm9JMBg-/0/1783423909644?e=1785974400&v=beta&t=0bQ1rXR6XktuR5WfsIV056dIERM3GvS-12Ny-fDGR6k",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQEmJFa9YmsxIg/feedshare-document-pdf-analyzed/B4EZ88WTm9JMBE-/0/1783423909644?e=1785974400&v=beta&t=huUDYlH4i8k1Nd0Uy3WtmyAnBQejBNPijVbnDr4gJ30",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 393,
+              "height": 492,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEmJFa9YmsxIg/feedshare-document-images_480/B4EZ88WTm9JMBM-/0/1783423909644?e=1785974400&v=beta&t=cTG9A6kPtpU_rFBHDZXIq3agCy-TVIEsZP0ecerk9J4"
+            },
+            {
+              "width": 641,
+              "height": 801,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEmJFa9YmsxIg/feedshare-document-images_800/B4EZ88WTm9JMBQ-/0/1783423909644?e=1785974400&v=beta&t=hyq9zMK4_IlbxfzF5jgbeWAa9KI_4fFwhpoutWUn1co"
+            },
+            {
+              "width": 1541,
+              "height": 1926,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEmJFa9YmsxIg/feedshare-document-images_1920/B4EZ88WTm9JMBU-/0/1783423909644?e=1785974400&v=beta&t=xwESb82QdmSOvlZrJ9EZ6qVQAxmd4VLVYDn7A9N0Fgk"
+            },
+            {
+              "width": 1035,
+              "height": 1293,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEmJFa9YmsxIg/feedshare-document-images_1280/B4EZ88WTm9JMA8-/0/1783423909644?e=1785974400&v=beta&t=2PbQr96iJDnl1dzPEXpyNZt0CcUzalis7hs7nZaiWI4"
+            },
+            {
+              "width": 135,
+              "height": 168,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEmJFa9YmsxIg/feedshare-document-images_160/B4EZ88WTm9JMBI-/0/1783423909644?e=1785974400&v=beta&t=aZxNhazWmtQm9NEylV8U2LdhyEZTBGf2J8jut0ulnCk"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480236851535048704",
+        "likes": 94,
+        "comments": 56,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 88
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/nicolascole",
+        "sessionId": "1a54a4ea-9da3-4be2-bb2b-812cc8db7d1a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487828474619957248",
+      "entityId": "7487828474619957248",
+      "linkedinUrl": "https://www.linkedin.com/posts/mischa-collins_my-big-fat-linkedin-glow-up-is-here-activity-7487828474619957248-r23H",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487828473642770432",
+      "shareUrn": "urn:li:share:7487828473642770432",
+      "content": "My big fat LinkedIn glow up is here!!!!!! 🍑✨💅🏽\n\nI couldn't keep saying, \"your LinkedIn profile is your landing page\" knowing mine looked basic.\n\nSo I fixed it.\n\nShe's giving LinkedIn domination..….",
+      "author": {
+        "id": "ACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "universalName": null,
+        "publicIdentifier": "mischa-collins",
+        "type": "profile",
+        "name": "Mischa Collins",
+        "linkedinUrl": "https://www.linkedin.com/in/mischa-collins?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "info": "Built my LinkedIn. Now I help you do the same 🍑 200+ clients coached on turning online visibility → income.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQH_aWBjMztD0w/profile-displayphoto-crop_800_800/B4DZ.oCKNhGkAI-/0/1785230568824?e=1786579200&v=beta&t=YDBPAOwn_HIpMlpbu4TRtbQlN82mS9D_Y2xGIpDdCGY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "540105052"
+      },
+      "postedAt": {
+        "timestamp": 1785237425475,
+        "date": "2026-07-28T11:17:05.475Z",
+        "postedAgoShort": "9h",
+        "postedAgoText": "9 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFB2qETkAEVjw/feedshare-shrink_1280/B4DZ.ocUaFJ4AQ-/0/1785237424125?e=1786579200&v=beta&t=n8mhzW9Zv5Hb9voVk6rLhOHGCxMsy-AQD_7aDOySBTw",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487828474619957248",
+        "likes": 714,
+        "comments": 256,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 492
+          },
+          {
+            "type": "EMPATHY",
+            "count": 118
+          },
+          {
+            "type": "PRAISE",
+            "count": 85
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 15
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mischa-collins",
+        "sessionId": "c8fa8ed3-aef7-46fa-973e-df78aff17cc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480938949331435520",
+      "entityId": "7480938949331435520",
+      "linkedinUrl": "https://www.linkedin.com/posts/mischa-collins_never-delete-your-linkedin-post-never-delete-activity-7480938949331435520-MR4b",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480938948836458496",
+      "shareUrn": "urn:li:share:7480938948836458496",
+      "content": "Never delete your LinkedIn post.\nNever delete your LinkedIn post.\nNever delete your LinkedIn post.\nNever delete your LinkedIn post.\nNever delete your LinkedIn post.\nNever delete your LinkedIn post.\n\nEven if you get 5 impressions.\nEven if it makes you cringe reading it. \nEven if you have 1 like and it's from your mum.\n\nNever delete your LinkedIn posts. \n\nNot because it’s harmful to the algorithm \n\nBut because one day, when it all starts working…you’ll want to look back on them.\n\nThey’ll show you how far you’ve come.",
+      "author": {
+        "id": "ACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "universalName": null,
+        "publicIdentifier": "mischa-collins",
+        "type": "profile",
+        "name": "Mischa Collins",
+        "linkedinUrl": "https://www.linkedin.com/in/mischa-collins?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "info": "Built my LinkedIn. Now I help you do the same 🍑 200+ clients coached on turning online visibility → income.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQH_aWBjMztD0w/profile-displayphoto-crop_800_800/B4DZ.oCKNhGkAI-/0/1785230568824?e=1786579200&v=beta&t=YDBPAOwn_HIpMlpbu4TRtbQlN82mS9D_Y2xGIpDdCGY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "540105052"
+      },
+      "postedAt": {
+        "timestamp": 1783594834645,
+        "date": "2026-07-09T11:00:34.645Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480938949331435520",
+        "likes": 2139,
+        "comments": 447,
+        "shares": 33,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1674
+          },
+          {
+            "type": "EMPATHY",
+            "count": 283
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 99
+          },
+          {
+            "type": "PRAISE",
+            "count": 54
+          },
+          {
+            "type": "INTEREST",
+            "count": 22
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 7
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mischa-collins",
+        "sessionId": "c8fa8ed3-aef7-46fa-973e-df78aff17cc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478402342208552962",
+      "entityId": "7478402342208552962",
+      "linkedinUrl": "https://www.linkedin.com/posts/mischa-collins_2-years-ago-afraid-of-presenting-to-a-5-activity-7478402342208552962-oPOw",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478402341101043714",
+      "shareUrn": "urn:li:share:7478402341101043714",
+      "content": "2 years ago: Afraid of presenting to a 5 person team.\n\nLast week: I spoke at Cannes Lions to 300 CMOs.\n\nAfter the CMO of LinkedIn, OpenAI, Adobe and JLL.\n\nA couple of years ago, the idea of public speaking would have made me throw up.\n\nI used to get nervous unmuting on a Zoom call.\n\nLast Tuesday, the nerves were still there.\nEspecially when I saw who was before me...\n\nBut I turned those nerves into energy.\n\nI haven't had a personality transplant.\nI haven't had public speaking coaching.\nI just got tired of letting fear keep me stuck.\n\nSo I spent the last 2 years putting myself in uncomfortable situations on purpose.\n\n→ Podcasts and webinars I didn't \"feel\" ready for\n→ Networking events where I knew no one\n→ Being in rooms I didn't \"belong\" in\n\nI've purposefully made myself comfortable with being uncomfortable.\n\nSo that when dream situations like this arise…\n\nMy first thought isn't \"I can't do this?!\"\n\nIt's \"let's f*****g do this.\"\n\nThe nerves never fully go away.\n\nYou just learn to use them.\n\n\nWhat's something that makes you nervous but you want to do anyway?",
+      "author": {
+        "id": "ACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "universalName": null,
+        "publicIdentifier": "mischa-collins",
+        "type": "profile",
+        "name": "Mischa Collins",
+        "linkedinUrl": "https://www.linkedin.com/in/mischa-collins?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "info": "Built my LinkedIn. Now I help you do the same 🍑 200+ clients coached on turning online visibility → income.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQH_aWBjMztD0w/profile-displayphoto-crop_800_800/B4DZ.oCKNhGkAI-/0/1785230568824?e=1786579200&v=beta&t=YDBPAOwn_HIpMlpbu4TRtbQlN82mS9D_Y2xGIpDdCGY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "540105052"
+      },
+      "postedAt": {
+        "timestamp": 1782990060379,
+        "date": "2026-07-02T11:01:00.379Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFnz3i3cPa4dw/feedshare-shrink_1280/B4EZ8ifTLxKoAM-/0/1782990058779?e=1786579200&v=beta&t=_rE2sxZ1yZU8WUk15gK9t2mPRJQsH-Hxsb0S9JVQ-_g",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478402342208552962",
+        "likes": 981,
+        "comments": 326,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 705
+          },
+          {
+            "type": "EMPATHY",
+            "count": 151
+          },
+          {
+            "type": "PRAISE",
+            "count": 106
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 17
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mischa-collins",
+        "sessionId": "c8fa8ed3-aef7-46fa-973e-df78aff17cc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478766089573756928",
+      "entityId": "7478766089573756928",
+      "linkedinUrl": "https://www.linkedin.com/posts/mischa-collins_most-companies-rely-on-one-person-to-post-activity-7478766089573756928-V6rn",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478766086914658304",
+      "shareUrn": "urn:li:share:7478766086914658304",
+      "content": "Most companies rely on one person to post on LinkedIn.\n\nBut that one person can only reach one type of buyer.\n\nLet's say you rely on your CEO...\n\nThey post on LinkedIn consistently.\nThey build a loyal audience.\n\nThat audience is only one slice of your market.\n\nInstead, you need to tap into your whole company to reach all buyers.\n\nI've been saying this for ages:\n\nEmployee-generated content on LinkedIn is the future.\n\nAnd Clay just proved it.\n\nThey generated 6 million LinkedIn impressions last quarter.\n\nNot from ads.\nNot from paid partnerships.\n\nFrom their employees posting (organically!).\n\nThey matched each executive to a specific buyer persona:\n\n→ Head of GTM Engineering posts for growth teams\n→ Enterprise Sales posts for enterprise buyers\n→ Head of Growth posts for marketing leaders\n→ Head of Sales posts for revenue leaders\n→ Founders post for other founders\n\nEvery person owns an audience.\nEvery post has a job.\n\nMost companies ignore the distribution channel that is right in front of their nose.\n\nYour employees are trusted brand advocates.\n\nWe all know the LinkedIn algorithm (and the people on here) prefer humans to logos.\n\nPeople trust people.\nPeople buy from people.\n\nSo start tapping into yours.\n\n\nThanks Bruno Estrella for proving my point 🤪  \n\n\nP.S. I help companies turn their employees into trusted voices on LinkedIn. Comment TEAM if you want to stop relying on one person to reach every buyer.",
+      "author": {
+        "id": "ACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "universalName": null,
+        "publicIdentifier": "mischa-collins",
+        "type": "profile",
+        "name": "Mischa Collins",
+        "linkedinUrl": "https://www.linkedin.com/in/mischa-collins?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "info": "Built my LinkedIn. Now I help you do the same 🍑 200+ clients coached on turning online visibility → income.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQH_aWBjMztD0w/profile-displayphoto-crop_800_800/B4DZ.oCKNhGkAI-/0/1785230568824?e=1786579200&v=beta&t=YDBPAOwn_HIpMlpbu4TRtbQlN82mS9D_Y2xGIpDdCGY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "540105052"
+      },
+      "postedAt": {
+        "timestamp": 1783076784509,
+        "date": "2026-07-03T11:06:24.509Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEd90u_t0JWmQ/feedshare-image-high-res/B4EZ8nqICYJkAY-/0/1783076782877?e=1786579200&v=beta&t=AuDeETlGWSgtoxUUBmTCu7Oe4GBcUKP2s-sNW71wJoo",
+          "width": 800,
+          "height": 440
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478766089573756928",
+        "likes": 175,
+        "comments": 107,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 134
+          },
+          {
+            "type": "EMPATHY",
+            "count": 21
+          },
+          {
+            "type": "INTEREST",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mischa-collins",
+        "sessionId": "c8fa8ed3-aef7-46fa-973e-df78aff17cc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479571523570208768",
+      "entityId": "7479571523570208768",
+      "linkedinUrl": "https://www.linkedin.com/posts/mischa-collins_i-genuinely-have-never-been-more-excited-activity-7479571523570208768-WQYc",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479571522022539265",
+      "shareUrn": "urn:li:share:7479571522022539265",
+      "content": "I genuinely have never been more excited about LikedIn and it's potential. \n\nI've been posting consistently for nearly two years.\n\nI love writing.\nI love sharing and building community.\nAnd I've always been able to see its potential.\n\nBut after coming back from Cannes...\n\n(did I mention I went to Cannes???)\n\nI've never been more excited.\n\nWe are at the beginning of the LinkedIn golden era.\n\nBrands know they need to be here. \nBut most still don't understand it. \n\nThey're figuring out how to invest.\nAnd, that's where the opportunity is.\n\nDespite being at the beginning, I met creators at Cannes getting paid 6-figures for a single LinkedIn post. \n\nMost still see LinkedIn as a job platform.\nThe more advanced use it to generate leads.\nBut the ones paying attention see something bigger. \n\nThey're generating a whole revenue stream from paid partnerships. \n\nThe money is real, the opportunity is real.\nAnd it's still early.\n\nIf you've been thinking about posting.\n\nI strongly encourage you to do it.\n\nLinkedIn is only going to get better.\n\nAnd if you start now...\n\nYou get to be part of it.\n\n\nWhat's stopping you from starting?\n\n\nP.S. I wrote about why Cannes made me so excited for this in my latest Substack.\n\nRead it here: https://lnkd.in/enk8wYMP",
+      "author": {
+        "id": "ACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "universalName": null,
+        "publicIdentifier": "mischa-collins",
+        "type": "profile",
+        "name": "Mischa Collins",
+        "linkedinUrl": "https://www.linkedin.com/in/mischa-collins?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "info": "Built my LinkedIn. Now I help you do the same 🍑 200+ clients coached on turning online visibility → income.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQH_aWBjMztD0w/profile-displayphoto-crop_800_800/B4DZ.oCKNhGkAI-/0/1785230568824?e=1786579200&v=beta&t=YDBPAOwn_HIpMlpbu4TRtbQlN82mS9D_Y2xGIpDdCGY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "540105052"
+      },
+      "postedAt": {
+        "timestamp": 1783268814938,
+        "date": "2026-07-05T16:26:54.938Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFLRhmJ3k7Chg/feedshare-shrink_1280/B4EZ8zGqh.K4AM-/0/1783268814249?e=1786579200&v=beta&t=nnUil7_-9cUd3qg_YBO4MoSJjuS0vaMxZ61vaA5csgs",
+          "width": 1280,
+          "height": 1706
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479571523570208768",
+        "likes": 558,
+        "comments": 133,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 451
+          },
+          {
+            "type": "EMPATHY",
+            "count": 77
+          },
+          {
+            "type": "PRAISE",
+            "count": 13
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mischa-collins",
+        "sessionId": "c8fa8ed3-aef7-46fa-973e-df78aff17cc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482750782023503873",
+      "entityId": "7482750782023503873",
+      "linkedinUrl": "https://www.linkedin.com/posts/mischa-collins_guys-ive-been-sitting-on-an-idea-for-9-activity-7482750782023503873-0a10",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7482747219830562818",
+      "shareUrn": "urn:li:ugcPost:7482747219830562818",
+      "content": "Guys, I’ve been sitting on an idea for 9 months.\n\nI’m finally ready to talk about it!!!\n\nPeople kept asking me: “What’s next??”\n\nAnd, tbh I kept replying \"not sure\".\n\nBecause I didn’t want to start something new unless I was FULLY sure about it. \n\nI needed to know there was demand. \nI needed to know it excited me.\n\nWell being around the biggest companies at Cannes confirmed all of the above. \n\nThe conversation has moved on from founder-led marketing. \nNow entire teams need to be posting on LinkedIn. \n\nI kept hearing the same excuses in Cannes: \n\n→ \"Leadership doesn't have time\"\n→ \"Teams don't know where to start\"\n→ \"If they are posting, it's not performing\"\n\nBut with the right support and guidance companies can crush it on here. \n\nClickUp, Clay and Stanley are all proof of that. \n\nThey've figured out that employees are the most powerful marketing asset.\n\nWhen your people post:\n\n- Your brand gets free visibility\n- Buyers trust you before the first call\n- You attract better talent\n- Sales cycles shorten\n\nSo, I'm working with companies to build out their employee advocacy programs and achieve all of the above. \n\nIf you're a B2B company with 20+ employees...\nDM me \"TEAM\" and I'll share the details.\n\n\nP.S. I can only work with 3 companies to start. If this is you, don't wait.",
+      "author": {
+        "id": "ACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "universalName": null,
+        "publicIdentifier": "mischa-collins",
+        "type": "profile",
+        "name": "Mischa Collins",
+        "linkedinUrl": "https://www.linkedin.com/in/mischa-collins?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "info": "Built my LinkedIn. Now I help you do the same 🍑 200+ clients coached on turning online visibility → income.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQH_aWBjMztD0w/profile-displayphoto-crop_800_800/B4DZ.oCKNhGkAI-/0/1785230568824?e=1786579200&v=beta&t=YDBPAOwn_HIpMlpbu4TRtbQlN82mS9D_Y2xGIpDdCGY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "540105052"
+      },
+      "postedAt": {
+        "timestamp": 1784026809221,
+        "date": "2026-07-14T11:00:09.221Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482747219830562818",
+        "likes": 730,
+        "comments": 269,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 562
+          },
+          {
+            "type": "EMPATHY",
+            "count": 90
+          },
+          {
+            "type": "PRAISE",
+            "count": 60
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 16
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mischa-collins",
+        "sessionId": "c8fa8ed3-aef7-46fa-973e-df78aff17cc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475141526679949312",
+      "entityId": "7475141526679949312",
+      "linkedinUrl": "https://www.linkedin.com/posts/mischa-collins_i-just-spoke-at-cannes-lions-activity-7475141526679949312-wK_B",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475141525539106818",
+      "shareUrn": "urn:li:share:7475141525539106818",
+      "content": "I just spoke at Cannes Lions!!!!!!! 😭😭\n\nAfter CMOs @ LinkedIn, OpenAI and Adobe. \n\nWith two women I’ve admired forever:  \n\nLara Acosta \nCourtney Johnson 📣 Social Media  \n\nAll because I posted something “cringe” 2 years ago. \n\nCan’t believe this is what I get to call work x",
+      "author": {
+        "id": "ACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "universalName": null,
+        "publicIdentifier": "mischa-collins",
+        "type": "profile",
+        "name": "Mischa Collins",
+        "linkedinUrl": "https://www.linkedin.com/in/mischa-collins?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "info": "Built my LinkedIn. Now I help you do the same 🍑 200+ clients coached on turning online visibility → income.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQH_aWBjMztD0w/profile-displayphoto-crop_800_800/B4DZ.oCKNhGkAI-/0/1785230568824?e=1786579200&v=beta&t=YDBPAOwn_HIpMlpbu4TRtbQlN82mS9D_Y2xGIpDdCGY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "540105052"
+      },
+      "postedAt": {
+        "timestamp": 1782212621374,
+        "date": "2026-06-23T11:03:41.374Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHW3xNq8J8jyg/feedshare-shrink_1280/B4EZ70Jlo9KMAM-/0/1782212620363?e=1786579200&v=beta&t=kq-HaSksvR534Pc0jtiswIYpfBY2cib8CgHmlaMd4kw",
+          "width": 1280,
+          "height": 1707
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475141526679949312",
+        "likes": 950,
+        "comments": 351,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 634
+          },
+          {
+            "type": "PRAISE",
+            "count": 153
+          },
+          {
+            "type": "EMPATHY",
+            "count": 147
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 11
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mischa-collins",
+        "sessionId": "c8fa8ed3-aef7-46fa-973e-df78aff17cc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479852382609248256",
+      "entityId": "7479852382609248256",
+      "linkedinUrl": "https://www.linkedin.com/posts/mischa-collins_linkedin-can-change-your-life-it-changed-activity-7479852382609248256-uf2h",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479852381560569857",
+      "shareUrn": "urn:li:share:7479852381560569857",
+      "content": "LinkedIn can change your life (it changed mine).\n\nAll it takes is 60 minutes a day for a year.\n\nSince posting on LinkedIn:\n\n→ I’ve gained 62,000 followers\n→ Spoken on podcasts and at Cannes Lions\n→ Built a 6-figure business purely on inbound\n\nYou can do the same if you dedicate one hour a day...\n\nAnd follow my process:\n\nCommenting: 15 mins\n\n→ Pick 10 creators or ideal customers\n→ Comment on their posts every day\n→ Build relationships and support others\n\nWriting: 15 mins\n\n→ Open Stanley and feed him a prompt\n→ One idea, one problem, one lesson\n→ A post in your voice in 2 minutes not 2 hours\n\nResponding: 15 mins\n\n→ Never post and ghost\n→ Reply to every comment for at least 15 mins\n→ Ask follow up questions to build community\n\nEngaging: 15 mins\n\n→ Reply to all new messages\n→ Send 10 connection requests per day\n→ Send 5 DMs to prospects or people you admire\n\nBonus: batch your content creation\n\n→ One sitting to write your posts for the week\n→ One sitting to create the graphics\n→ One sitting to schedule everything out\n\nStop jumping between tasks because that kills your momentum.\n\n4 blocks.\n15 minutes each\n4 blocks.\n1 year.\n\nBe efficient with your time.\nBe consistent.\n\nAnd, LinkedIn will change your life.\n\n\nP.S. How long do you spend on LinkedIn? Be honest...",
+      "author": {
+        "id": "ACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "universalName": null,
+        "publicIdentifier": "mischa-collins",
+        "type": "profile",
+        "name": "Mischa Collins",
+        "linkedinUrl": "https://www.linkedin.com/in/mischa-collins?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "info": "Built my LinkedIn. Now I help you do the same 🍑 200+ clients coached on turning online visibility → income.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQH_aWBjMztD0w/profile-displayphoto-crop_800_800/B4DZ.oCKNhGkAI-/0/1785230568824?e=1786579200&v=beta&t=YDBPAOwn_HIpMlpbu4TRtbQlN82mS9D_Y2xGIpDdCGY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "540105052"
+      },
+      "postedAt": {
+        "timestamp": 1783335776951,
+        "date": "2026-07-06T11:02:56.951Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEwS4sR4jVFnA/feedshare-shrink_1280/B4EZ83GGw_KoAM-/0/1783335775613?e=1786579200&v=beta&t=B-6IArHzIISezsEXajGA3W2455QmquHbYTAdT4awCw0",
+          "width": 1200,
+          "height": 1500
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479852382609248256",
+        "likes": 312,
+        "comments": 238,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 242
+          },
+          {
+            "type": "EMPATHY",
+            "count": 43
+          },
+          {
+            "type": "PRAISE",
+            "count": 13
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mischa-collins",
+        "sessionId": "c8fa8ed3-aef7-46fa-973e-df78aff17cc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478040036823777280",
+      "entityId": "7478040036823777280",
+      "linkedinUrl": "https://www.linkedin.com/posts/mischa-collins_ive-generated-4601837-impressions-in-12-activity-7478040036823777280-nIW5",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478040035599106049",
+      "shareUrn": "urn:li:share:7478040035599106049",
+      "content": "I’ve generated 4,601,837 impressions in 12 months.\n\nMy viral posts always follow this framework:\n\nI call it the POST framework.\n\nP: Personal story\n→ Open with something real and recent\n→ Start mid-scene not at the beginning\n→ Hook starts with \"I\" to make it feel human\n\nO: Over-exaggerate the emotion\n→ Go harder on the feeling than feels comfortable\n→ Amplify how bad it was or how good it became\n→ This is where most people hold back → don't\n\nS: Steps they can take\n→ What did you actually do next? Make practical\n→ 3-8 bullet points works best → use listicles\n→ Specific enough that someone can copy it\n\nT: Turn it back to the reader\n→ Always end with them, not you\n→ Make them feel like the post was written for them\n→ End with a question to encourage comments\n\nHere's what it looked like in my best performing post:\n\nP: I applied for 200 jobs & got rejected from them all\nO: Depressed, hopeless and no idea what to do next\nS: I posted anyway. I was honest. I was vulnerable.\nT: This is your sign to post that post\n\nMillions of impressions.\nHundreds of job opportunities.\nThousands of comments and DMs.\n\nAll from a four step framework and I stopped fearing honesty.\n\nTry it in your next post.\n\nAnd, tag me if you do!!\n\n\nP.S. Do you follow templates or frameworks when writing?",
+      "author": {
+        "id": "ACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "universalName": null,
+        "publicIdentifier": "mischa-collins",
+        "type": "profile",
+        "name": "Mischa Collins",
+        "linkedinUrl": "https://www.linkedin.com/in/mischa-collins?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACAxWVwBhEp7S8J8NJ-MeqBlnxqORT6ZYEM",
+        "info": "Built my LinkedIn. Now I help you do the same 🍑 200+ clients coached on turning online visibility → income.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQH_aWBjMztD0w/profile-displayphoto-crop_800_800/B4DZ.oCKNhGkAI-/0/1785230568824?e=1786579200&v=beta&t=YDBPAOwn_HIpMlpbu4TRtbQlN82mS9D_Y2xGIpDdCGY",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "540105052"
+      },
+      "postedAt": {
+        "timestamp": 1782903680044,
+        "date": "2026-07-01T11:01:20.044Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQG6g9kOpdGl-g/feedshare-shrink_1280/B4EZ8dVyMJKkAM-/0/1782903678163?e=1786579200&v=beta&t=D2LLfODiRQdfxVOX2Uu409VvE5iZk-4-PA97P-NTWgg",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478040036823777280",
+        "likes": 233,
+        "comments": 150,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 176
+          },
+          {
+            "type": "EMPATHY",
+            "count": 42
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/mischa-collins",
+        "sessionId": "c8fa8ed3-aef7-46fa-973e-df78aff17cc8"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487658119007961089",
+      "entityId": "7487658119007961089",
+      "linkedinUrl": "https://www.linkedin.com/posts/marek-dabrowski-8a502370_leanmanufacturing-aiinmanufacturing-industry40-activity-7487658119007961089-sFlf",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7469158886592172033",
+      "shareUrn": "urn:li:share:7469158886592172033",
+      "content": "What if your Lean system is already too slow for AI-driven manufacturing???\n\nThat’s the uncomfortable question behind Industry 4.0.\n\nA lot of factories talk about AI, IoT, Big Data, Machine Learning, Cloud Computing, AR, VR and robots.\n\nThe diagram looks clean.\n\nBut the floor tells a different story.\n\nMachines still wait for decisions.\nSupervisors still chase updates.\nOperators still ask what’s next.\nMaintenance still reacts after the breakdown.\nQuality still finds problems too late.\n\nThen we call it “digital transformation.”\n\nBut if the basic system is unstable, technology only makes the instability more visible.\n\nAI can read the data.\nIoT can collect the signal.\nCloud can connect the plant.\nRobots can repeat the motion.\nAR can guide the operator.\nBig Data can show the pattern.\n\nBut someone still needs to define the process.\n\nWhat is the standard?\nWhere is the bottleneck?\nWho owns the response?\nWhat happens when the signal turns red?\nWhat decision changes on the floor?\n\nThat’s where Lean still matters.\n\nIndustry 4.0 without Lean becomes expensive noise.\n\nLean gives the system structure.\nAI makes the system visible.\n\nThe real opportunity is not replacing the floor with technology.\n\nIt is building a floor where people, process and technology finally speak the same language.\n\nStability first...\nThen AI has something worth reading.\n\n#leanmanufacturing #aiinmanufacturing #industry40 #manufacturing #continuousimprovement #iot #machinelearning #smartfactory #ai",
+      "author": {
+        "id": "ACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "universalName": null,
+        "publicIdentifier": "marek-dabrowski-8a502370",
+        "type": "profile",
+        "name": "Marek Dabrowski",
+        "linkedinUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "info": "Founder, LeanMark.ai | Lean Manufacturing Consultant | Lead Time Reduction, Flow & Continuous Improvement | Sheet Metal & SMB Plants | Practical AI for Operations in a new AI era | Industry 4.0 | eVSM | Smart Camera",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG4nwWr1dyoXQ/profile-displayphoto-crop_800_800/B4EZmzspaeHcAM-/0/1759656452247?e=1786579200&v=beta&t=MW2AWvSSkYHxgP4skSjP9LhhMoLxeO2xgnHnQMrG-2w",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "250870589"
+      },
+      "postedAt": {
+        "timestamp": 1785196809532,
+        "date": "2026-07-28T00:00:09.532Z",
+        "postedAgoShort": "20h",
+        "postedAgoText": "20 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQE_WoJlYDQHnQ/feedshare-image-high-res/B56Z6fIbazJoAU-/0/1780786247653?e=1786579200&v=beta&t=74to2qDc7hlaGF76owwpjxJ6FtEv1tybcmCx4IzA8gQ",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487658119007961089",
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370",
+        "sessionId": "516bc8ac-8314-4a09-ba98-baca795182b1"
+      }
+    }
+  ]
+}

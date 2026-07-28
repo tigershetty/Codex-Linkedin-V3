@@ -1,0 +1,3272 @@
+{
+  "runId": "KS2huGwra4G6SoKrx",
+  "datasetId": "V0ZSnT6N85V9okmRJ",
+  "offset": 240,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7465137777131552768",
+      "entityId": "7465137777131552768",
+      "linkedinUrl": "https://www.linkedin.com/posts/northfind-management_virginmegatore-sop-retailtransformation-ugcPost-7465137405105319937-Ru_N",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7465137405105319937",
+      "shareUrn": "urn:li:ugcPost:7465137405105319937",
+      "content": "NorthFind Management has been supporting Virgin Megastore MENA during their S&OP transformation since last summer, and the changes in daily work are phenomenal. Moving from inventory buffers to inventory levels optimised against real-time supplier performance and customer behaviour; integrating the invaluable market insights of their Commercial team into statistically-driven forecasts; and iterative portfolio rationalisation blending financial, strategic and supply chain considerations... these are all enhancements to Virgin's ways of working that are seeing tangible improvements to customers and shareholders.\n\nIt is all ultimately due to the great work of the Virgin team, led by Karima V. Griffin and Abdelrahman Oraby, and supported by the Commercial and Supply Chain teams. 🚀",
+      "author": {
+        "id": "3364856",
+        "universalName": "northfind-management",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "NorthFind Management",
+        "linkedinUrl": "https://www.linkedin.com/company/northfind-management/posts",
+        "info": "2,321 followers",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C560BAQE_LktC6hoUkQ/company-logo_400_400/company-logo_400_400/0/1630616097076/northfind_partners_logo?e=1786579200&v=beta&t=aPopflxXFX7zZbnWqFF4yPclklOAW9ocL6oT8BK3scw",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "3364856"
+      },
+      "postedAt": {
+        "timestamp": 1779827541621,
+        "date": "2026-05-26T20:32:21.621Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7465003070070870016",
+        "linkedinUrl": "https://www.linkedin.com/posts/virgin-megastore_virginmegatore-sop-retailtransformation-activity-7465003070070870016-drDK",
+        "content": "Over the past year, Virgin Megastore has been on an S&OP transformation journey with the support of NorthFind Management, focused on improving planning, strengthening alignment across the business and suppliers, and better supporting our customers.\n\nWhile changing ways of working and improving data visibility takes time, it’s rewarding to already see real operational improvements taking shape. By combining data-driven insights and valuable commercial input, we’re making more conscious inventory decisions, improving forecasting, and positioning stock more effectively for our customers.\n\nThe S&OP process has also complemented our portfolio rationalization and inventory optimization efforts by creating better collaboration, all achieved organically through improved processes and ways of working, without the need for additional technology.\n\nIt’s exciting to see the business continue evolving towards a more connected and forward-looking way of operating!\n\n#VirginMegatore #SOP #RetailTransformation #SupplyChain #Forecasting",
+        "contentAttributes": [],
+        "author": {
+          "id": "10349431",
+          "universalName": "virgin-megastore",
+          "publicIdentifier": null,
+          "type": "company",
+          "name": "Virgin Megastore MENA",
+          "linkedinUrl": "https://www.linkedin.com/company/virgin-megastore/posts",
+          "info": "147,815 followers",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFg2dS1FnODFQ/company-logo_400_400/company-logo_400_400/0/1630570029655/virgin_megastore_logo?e=1786579200&v=beta&t=PFAR98TvBVbVi2MXaf5WpTvOzpRLmChElBvfoYyuuRQ",
+            "width": 400,
+            "height": 400
+          },
+          "urn": "10349431"
+        },
+        "postedAt": {
+          "timestamp": 1779795424955,
+          "date": "2026-05-26T11:37:04.955Z",
+          "postedAgoShort": "2mo",
+          "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E10AQHDa2UL10bSsA/image-shrink_1280/B4EZ5kEuwpIwAc-/0/1779795422757?e=1785877200&v=beta&t=hxF5zce5cSHkIvL9YvBHTPFOcC4WWrAa-BAaFy4Ti8I",
+            "width": 1280,
+            "height": 956
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E10AQF_dACCFH4GAw/image-shrink_1280/B4EZ5kEvCUJMAc-/0/1779795423931?e=1785877200&v=beta&t=XB33pJM2QEkFGSeho_SAHjIYRVg85t-MsKShpghCB-M",
+            "width": 1280,
+            "height": 960
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E10AQFqdIYxvV0Ydw/image-shrink_1280/B4EZ5kEvMaKMAc-/0/1779795424791?e=1785877200&v=beta&t=JhaPLm7r12EC-w_jpozD_nOjCIwhchPug2Ig3dIq2l4",
+            "width": 1280,
+            "height": 917
+          }
+        ],
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": false,
+          "hideSendAction": false,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/virgin-megastore_virginmegatore-sop-retailtransformation-activity-7465003070070870016-drDK?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7465003070070870016",
+        "shareUrn": "urn:li:ugcPost:7465003067109810176",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7465003067109810176",
+        "engagement": null
+      },
+      "repostedBy": {
+        "name": "Jonathon Karelse",
+        "publicIdentifier": "jonathonkarelse",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/jonathonkarelse?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0"
+      },
+      "repostedAt": {
+        "timestamp": 1779827541621,
+        "date": "2026-05-26T20:32:21.621Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQH7xHWzWByi4Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584032540131?e=1786579200&v=beta&t=pbhU0oC6ZQxlxy-4T0KzdSjMeof5OXyv_lG1z5C-5lM",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7465137777131552768?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7465137777131552768%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=tYPmYpbaT5oHNlnWWTOVlw%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/jonathonkarelse?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0",
+        "text": "Jonathon Karelse reposted this"
+      },
+      "engagement": {
+        "id": "7465137405105319937",
+        "likes": 29,
+        "comments": 2,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 24
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jonathonkarelse",
+        "sessionId": "859de78d-6206-42bb-a691-099387f5261a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7454629359463596032",
+      "entityId": "7454629359463596032",
+      "linkedinUrl": "https://www.linkedin.com/posts/jonathonkarelse_youre-not-a-rocket-scientist-so-stop-activity-7454629359463596032-YdeU",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7454629356431122432",
+      "shareUrn": "urn:li:share:7454629356431122432",
+      "content": "You're not a rocket scientist 🚀, so stop being surprised that your latest forecast shit the bed again.\n\nWe are hearing increasingly that with \"quantum leaps\" (marketer words, not mine) in technology - in ML, in particular - that huge gains are there for the taking for savvy forecasters. Some bold/delusional solutions salespeople go so far as to promise 20 or 30% improvements in your forecast.\n\nThe problem is, you're not doing rocket science. You're trying to predict the outcome of something so much more complex that the vast majority of practitioners and tools give up on causality before they start and resort to auto-regression.\n\nWith over a hundred trillion neural connections in each human brain, it makes a credible argument for being the most complex structure in the universe. Multiply that by many humans in any market, and you have a system whose innate variability is so high that you will not have anything better than directional success except in very specific, controlled applications.\n\nThe issue isn't that you need stronger math. 😂 It is true we have many multiples more computing power now than we did when we last landed people on the moon. But we were able to do so with little more than a slide rule because the first principles equations we used were based on a solid EMPIRICAL understanding of the entirety of the system. That is, all of the variables at play. \n\nThe residuals in many physics experiments are so small BECAUSE THE SYSTEM IS SO WELL UNDERSTOOD that they can be used to accurately account for minute seismic movements across the Pacific when observing waves lapping on the beach in California.\n\nIn real life, many companies are lucky to see 40% error margins at a meaningful granularity and horizon not because they need better software. Or consultants. Not because humans made their math-based forecast worse (although that happens a lot). But because the nature of their value chain is based on millions of conscious and unconscious decisions being made in real-time by humans whose motivations and behaviours at an individual level remain predictably elusive.\n\nThere are too many unknown unknowns to delude oneself into the misapprehension that we are doing hard science. People selling solutions hate the sound of that but it's true. It is why very few practitioners look at causality and even fewer have success using it predictively. \n\nWe are at the end of the day giving up on the \"why\" and looking at the \"what\" and, with varying degrees of success, predicting that what happened before will happen again.\n\nWhat does that mean?\n\n1️⃣ Begin by understanding based on your value chain what is possible from forecasting.\n\n2️⃣ Understand what the cost/benefit of forecast improvement is in your specific context.\n\n3️⃣ Be realistic about what you can achieve through forecasting, and focus effort where ROI is the greatest (Supplier performance management, BOM consolidation/simplification, lead time variability reduction initiatives, etc.)",
+      "author": {
+        "id": "ACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0",
+        "universalName": null,
+        "publicIdentifier": "jonathonkarelse",
+        "type": "profile",
+        "name": "Jonathon Karelse",
+        "linkedinUrl": "https://www.linkedin.com/in/jonathonkarelse?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0",
+        "info": "Operations Leader | HBR Advisory Council | Forbes Bestselling Author",
+        "website": "http://www.northfind.com",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQH7xHWzWByi4Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584032540131?e=1786579200&v=beta&t=pbhU0oC6ZQxlxy-4T0KzdSjMeof5OXyv_lG1z5C-5lM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "81953141"
+      },
+      "postedAt": {
+        "timestamp": 1777322139612,
+        "date": "2026-04-27T20:35:39.612Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEuBXNw6eTbCQ/feedshare-image-high-res/B56Z3Qp5g4GgAc-/0/1777322137933?e=1786579200&v=beta&t=eC7m3rpFFyolQiKOHvht5t8_PScABES-OVCo6No66xE",
+          "width": 1402,
+          "height": 1122
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7454629359463596032",
+        "likes": 37,
+        "comments": 14,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 27
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jonathonkarelse",
+        "sessionId": "859de78d-6206-42bb-a691-099387f5261a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7457111174736695297",
+      "entityId": "7457111174736695297",
+      "linkedinUrl": "https://www.linkedin.com/posts/jonathonkarelse_how-do-you-measure-forecast-performance-activity-7457111174736695297-0E-s",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7457111172840939520",
+      "shareUrn": "urn:li:share:7457111172840939520",
+      "content": "How do you measure forecast performance?\n\nClient: Well, we don't really do that right now.\n\nWe'll do it for you. Here are your diagnostic metrics and here is the financial impact.\n\nClient: OK. Wow. That seems bad but can you show us some benchmarks?\n\nBenchmarks aren't particularly useful for these measures. There are a lot of unique considerations for your portfolio and customers as well as your financials. But we can show you what typical range of values you should expect for the demand profile of your specific portfolio.\n\nClient: Excellent. Let's do that.\n\nHere you go.\n\nClient: Well, our business is unique so...\n\nToo many people use KPIs the way a drunk uses a lamppost: for support, rather than illumination.",
+      "author": {
+        "id": "ACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0",
+        "universalName": null,
+        "publicIdentifier": "jonathonkarelse",
+        "type": "profile",
+        "name": "Jonathon Karelse",
+        "linkedinUrl": "https://www.linkedin.com/in/jonathonkarelse?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0",
+        "info": "Operations Leader | HBR Advisory Council | Forbes Bestselling Author",
+        "website": "http://www.northfind.com",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQH7xHWzWByi4Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584032540131?e=1786579200&v=beta&t=pbhU0oC6ZQxlxy-4T0KzdSjMeof5OXyv_lG1z5C-5lM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "81953141"
+      },
+      "postedAt": {
+        "timestamp": 1777913850483,
+        "date": "2026-05-04T16:57:30.483Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHKbQp5MLZTWA/feedshare-shrink_800/B56Z3z7GTaHEAc-/0/1777913849371?e=1786579200&v=beta&t=t_ZsuxM0QM18yXNZna9U5V4UhrmBze3KChzGGgrmMo0",
+          "width": 520,
+          "height": 696
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7457111174736695297",
+        "likes": 46,
+        "comments": 13,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 34
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 10
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jonathonkarelse",
+        "sessionId": "859de78d-6206-42bb-a691-099387f5261a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7450222888911126528",
+      "entityId": "7450222888911126528",
+      "linkedinUrl": "https://www.linkedin.com/posts/jonathonkarelse_montreal-biotech-forecastvalueadd-activity-7450222888911126528-7jY4",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7450222887602655232",
+      "shareUrn": "urn:li:share:7450222887602655232",
+      "content": "I'm pleased to be returning to present at another International Institute of Forecasters International Symposium on Forecasting, this time in #Montreal, at the end of June.\n\nMy fellow speakers will be acclaimed neuroscientist John Burkhardt, Ph.D. and the global demand planning lead at Canada's leading #biotech company STEMCELL Technologies, Crystal Lee.\n\nTogether we will be (re)introducing Michael Gilliland's seminal work on #ForecastValueAdd, with a specific focus on value delivery in practice. In particular, how to integrate financial #ROI for each component of a forecast; a step often missed by many of today's #FVA proponents.\n\nApart from our session, the ISF will feature many of the world's leading practitioners and academics who will be presenting the latest insights into #demandplanning and #forecasting. If you only have time for one event this year, this is the one to attend.",
+      "author": {
+        "id": "ACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0",
+        "universalName": null,
+        "publicIdentifier": "jonathonkarelse",
+        "type": "profile",
+        "name": "Jonathon Karelse",
+        "linkedinUrl": "https://www.linkedin.com/in/jonathonkarelse?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0",
+        "info": "Operations Leader | HBR Advisory Council | Forbes Bestselling Author",
+        "website": "http://www.northfind.com",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQH7xHWzWByi4Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584032540131?e=1786579200&v=beta&t=pbhU0oC6ZQxlxy-4T0KzdSjMeof5OXyv_lG1z5C-5lM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "81953141"
+      },
+      "postedAt": {
+        "timestamp": 1776271555164,
+        "date": "2026-04-15T16:45:55.164Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEoUrdaL77SUA/feedshare-shrink_1280/B56Z2SCPbYKkAM-/0/1776271554515?e=1786579200&v=beta&t=FS8MvFtEuDlz2-Frkd8g_OjEl3grLD02cuhcpz56kFk",
+          "width": 1085,
+          "height": 783
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7450222888911126528",
+        "likes": 54,
+        "comments": 4,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 48
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jonathonkarelse",
+        "sessionId": "859de78d-6206-42bb-a691-099387f5261a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7471354805332922368",
+      "entityId": "7471354805332922368",
+      "linkedinUrl": "https://www.linkedin.com/posts/jonathonkarelse_yvr-activity-7471354805332922368-OLSE",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7471354802262679553",
+      "shareUrn": "urn:li:share:7471354802262679553",
+      "content": "Landing at #YVR last night with my youngest son, we wanted to grab a quick drink before the car ride back home.\n\nLee's Donuts now has a location in Domestic Arrivals and at this time of evening, had the market cornered on a place to get a drink. They were also contending with their leftover inventory from the day and were offering donuts at 50% off. How many we bought is not the point of this post. 😆\n\nThe gentleman working there volunteered that his manager had overbought inventory that day based on expectations of increased volume from the FIFA World Cup kicking off in Vancouver (and cities across North America) last night.\n\nAnd this, to me, underlines the fundamental limitation in the definition of \"Demand Planning\" as presented by people selling you software and quick Forecast Accuracy fixes.\n\nForecasting is not Demand Planning. At all. It isn't a plan, for starters.\n\nSoftware isn't going to tell a new retail location selling donuts during a once in a generation event how many donuts to buy.\n\nExtrapolating intrinsic demand patterns from history to (ultimately naively, though not always incorrectly) assume that the future will look like a version of it is something computers can do reasonably well. And humans don't typically add a lot of value here.\n\nBut that is not Demand Planning. That is time series forecasting. And it often counts for exactly zero in the real world.\n\nDemand Planning is the work that Manager at Lee's Donuts did to use the information they had available and to derive a reasonable range of demand values for the day. Executing against that plan weighed the upside benefit of the high end against the downside cost of the low end and determined a plan that met their risk tolerance.\n\nAt ten minutes from closing I addressed 20% of their inventory issue at a price that was probably still profitable on a per unit basis, and two employees happily went home with the small balance of the inventory resulting from the demand call.",
+      "author": {
+        "id": "ACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0",
+        "universalName": null,
+        "publicIdentifier": "jonathonkarelse",
+        "type": "profile",
+        "name": "Jonathon Karelse",
+        "linkedinUrl": "https://www.linkedin.com/in/jonathonkarelse?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0",
+        "info": "Operations Leader | HBR Advisory Council | Forbes Bestselling Author",
+        "website": "http://www.northfind.com",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQH7xHWzWByi4Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584032540131?e=1786579200&v=beta&t=pbhU0oC6ZQxlxy-4T0KzdSjMeof5OXyv_lG1z5C-5lM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "81953141"
+      },
+      "postedAt": {
+        "timestamp": 1781309796651,
+        "date": "2026-06-13T00:16:36.651Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEeZ8onAi50sQ/feedshare-image-high-res/B56Z6.VmvHGsAY-/0/1781309795587?e=1786579200&v=beta&t=EXx_YMTmN-jM_VvRRoWpA3t6gVcuw8sVp0O8zWwedPU",
+          "width": 1446,
+          "height": 1087
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7471354805332922368",
+        "likes": 53,
+        "comments": 11,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 48
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jonathonkarelse",
+        "sessionId": "859de78d-6206-42bb-a691-099387f5261a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7444860177671004160",
+      "entityId": "7444860177671004160",
+      "linkedinUrl": "https://www.linkedin.com/posts/jonathonkarelse_about-three-weeks-ago-i-wrote-a-post-teasing-activity-7444860177671004160-AglG",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7444860174819045376",
+      "shareUrn": "urn:li:share:7444860174819045376",
+      "content": "About three weeks ago I wrote a post teasing an update that would have meant a monumental change to NorthFind Management. A fairly expansive NDA stands in the way of telling a detailed story about this, but suffice it to say that one of the world's largest consultancies liked what they were seeing about our client value delivery and service, and spent the last five months selling the idea of using their expansive network and resources to allow us to do so at scale.\n\nI was sceptical at first, but was ultimately moved by what I saw as a legitimate force multiplier opportunity. And, I will be honest: the idea of a Big 4 aggressively trying to acquire us with the explicit goal of having us change and improve their GTM in the Operations advisory space was good for the ego.\n\nBut as time went on and more and more stakeholders were pulled in for consultation and opinion, there were a few questions I was having more and more difficulty answering satisfactorily:\n\n- Am I certain that post merger my team and I would be able to continue to deliver the kind of value and action focused client support that we have for the last 15 years?\n\n- Am I certain that we would retain the flexibility to meet the unique requirements of all our clients at whatever point that are at in their Operations journey, and not try to have them conform to a single, scripted approach?\n\n- Am I certain that we would not be offering advisory and managed services as an adjunct to software sales (whereas today we never sell software, and see it as a tool rather than a solution)?\n\nNorthFind began in direct response to the rigid profit-driven (this is consultant, not client profit) approach to many consultants in the Operations Management space. We have consistently seen ourselves as partners who get into the weeds, get scarred, and help drag people across the finish line. Our primary motivation remain client success because we don't have shareholders or partners with quarterly income disbursement expectations to meet.\n\nThis morning, on what will be my final call with these consultants, it was clear to me I couldn't answer these questions appropriately. It was clear that the big news is that NorthFind has a model built on client outcomes, and there is no need to change it. And having dodged a bullet, I'm excited to return 100% of our focus to where it belongs: What can we do to help you do what you do better?",
+      "author": {
+        "id": "ACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0",
+        "universalName": null,
+        "publicIdentifier": "jonathonkarelse",
+        "type": "profile",
+        "name": "Jonathon Karelse",
+        "linkedinUrl": "https://www.linkedin.com/in/jonathonkarelse?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0",
+        "info": "Operations Leader | HBR Advisory Council | Forbes Bestselling Author",
+        "website": "http://www.northfind.com",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQH7xHWzWByi4Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584032540131?e=1786579200&v=beta&t=pbhU0oC6ZQxlxy-4T0KzdSjMeof5OXyv_lG1z5C-5lM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "81953141"
+      },
+      "postedAt": {
+        "timestamp": 1774992985170,
+        "date": "2026-03-31T21:36:25.170Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHwIPIDjfix0w/feedshare-shrink_1280/B56Z1F04U3KcAM-/0/1774992983673?e=1786579200&v=beta&t=dFguUqQTjAJf_hGfBo8e-mGGq880yF2BsvIi91I8MJg",
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7444860177671004160",
+        "likes": 118,
+        "comments": 26,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 96
+          },
+          {
+            "type": "PRAISE",
+            "count": 15
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jonathonkarelse",
+        "sessionId": "859de78d-6206-42bb-a691-099387f5261a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7472785870216089600",
+      "entityId": "7472785870216089600",
+      "linkedinUrl": "https://www.linkedin.com/posts/jonathonkarelse_international-montreal-activity-7472785870216089600-Yeeq",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7472785868752265216",
+      "shareUrn": "urn:li:share:7472785868752265216",
+      "content": "I'm getting ready for the upcoming International Institute of Forecasters #International Symposium on Forecasting in #Montreal, where I will be joining Crystal Lee from STEMCELL Technologies and John Burkhardt, Ph.D. for a panel on Forecast Value Add.\n\nAdoption of FVA is now widespread enough that there are plenty of people who don't really know where it came from (thanks Michael Gilliland) and how best to make use of it.\n\nAs one of the earlier proponents of FVA, I used it in particular to highlight process steps that were yielding negative ROI. For me, forecasting has never been about considering Accuracy a performance indicator. It is a process diagnostic metric. Real business performance is measured in dollars.\n\nUnderstanding how a forecast impacts the P&L is a lot more useful than blindly throwing all your eggs (and money) into the forecasting basket and assuming that ROI comes out the other end. Depending on the nature of your business, it often doesn't. This was a lesson I learned early on during my time in the tire industry. Portfolio complexity and limited shipment windows for seasonal tires meant deterministic forecasts, no matter how sophisticated the software, were not up to the challenge of inventory positioning on their own. \n\nROI may better be achieved through lead-time optimization and control initiatives; through multi-echelon inventory optimization; or through more effective supplier performance management.\n\nFVA used properly - join Crystal, John and I in Montreal to learn more - allows me to understand the limitations of forecasting and whether there are other areas in enterprise planning that will better lead to delighted customers and shareholders.",
+      "author": {
+        "id": "ACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0",
+        "universalName": null,
+        "publicIdentifier": "jonathonkarelse",
+        "type": "profile",
+        "name": "Jonathon Karelse",
+        "linkedinUrl": "https://www.linkedin.com/in/jonathonkarelse?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0",
+        "info": "Operations Leader | HBR Advisory Council | Forbes Bestselling Author",
+        "website": "http://www.northfind.com",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQH7xHWzWByi4Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584032540131?e=1786579200&v=beta&t=pbhU0oC6ZQxlxy-4T0KzdSjMeof5OXyv_lG1z5C-5lM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "81953141"
+      },
+      "postedAt": {
+        "timestamp": 1781650989107,
+        "date": "2026-06-16T23:03:09.107Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFtCG5jTizPDw/feedshare-image-high-res/B56Z7SrJ1MJ0AU-/0/1781650988623?e=1786579200&v=beta&t=HdH74gmG0giQ9YqDXcH07UP1_Wz7HzO3Z1k80ob8L74",
+          "width": 1357,
+          "height": 775
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7472785870216089600",
+        "likes": 52,
+        "comments": 4,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 45
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jonathonkarelse",
+        "sessionId": "859de78d-6206-42bb-a691-099387f5261a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7435396109805678593",
+      "entityId": "7435396109805678593",
+      "linkedinUrl": "https://www.linkedin.com/posts/jonathonkarelse_neworleans-analytics-behavioral-activity-7435396109805678593-XFec",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7435396106798231552",
+      "shareUrn": "urn:li:share:7435396106798231552",
+      "content": "I am now a few days away from announcing the biggest news 📢 we've had in NorthFind Management's 15 years of history. And as the news gets closer, I'm finding myself increasingly reflecting on some of those seminal moments along the way which, at the time, were just decisions to do the work.\n\nI'm sharing this especially for younger Operators who are just coming up to emphasise how critical showing up and performing is in every engagement.\n\nOne moment was in the days in #NewOrleans leading up to the Institute of Business Forecasting & Planning annual #Analytics conference. We had just finished a #behavioral assay of The HEINEKEN Company's global Demand Planning team along with a number of smaller organizations, and I was getting ready to present our findings on judgemental bias in demand planning practice.\n\nMy deck was done, but I wanted to complete a comprehensive white paper in case we had questions after the session. The rest of my team was on Bourbon Street (I'm looking at you in particular Robert Sanders, Michelle O'Shaughnessy and Vivian Hsieh) blowing up my phone with increasing frequency, and their texts were indicative of levels of fun inversely proportional to the 'fun' I was having in the hotel drafting said white paper.\n\nI stayed and finished, and the next day a leader in one of the world's largest software company's asked for the whitepaper which led to an engagement, which bolstered our initial findings and capability, which led to a peer-reviewed study at the  International Institute of Forecasters, which essentially helped, along with John Burkhardt, Ph.D.'s support, launch this new capability in our practice.\n\nTo be honest, the decision to do the work consistently has always been easy because I'm blessed to be doing something I love, but there are days what it is less easy than others. 😆 But you do it, consistently. And good things follow.\n\n** I chose this picture because one of the things I've loved most about our work is being on the shop floor seeing process improvement in practice. I love a Gemba walk in the morning. It feels like... victory. 😂",
+      "author": {
+        "id": "ACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0",
+        "universalName": null,
+        "publicIdentifier": "jonathonkarelse",
+        "type": "profile",
+        "name": "Jonathon Karelse",
+        "linkedinUrl": "https://www.linkedin.com/in/jonathonkarelse?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAATigXUBlETqchei8OX7Hnjz91Pk_2o9BE0",
+        "info": "Operations Leader | HBR Advisory Council | Forbes Bestselling Author",
+        "website": "http://www.northfind.com",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQH7xHWzWByi4Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584032540131?e=1786579200&v=beta&t=pbhU0oC6ZQxlxy-4T0KzdSjMeof5OXyv_lG1z5C-5lM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "81953141"
+      },
+      "postedAt": {
+        "timestamp": 1772736575557,
+        "date": "2026-03-05T18:49:35.557Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFS4p9KWPwwTA/feedshare-shrink_1280/B56Zy_VXJxKQAg-/0/1772736574577?e=1786579200&v=beta&t=iMUtQqoaZJWPSLTmLAg31Gq0v2Z_Sir0k_ocSnxhatc",
+          "width": 1280,
+          "height": 1706
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7435396109805678593",
+        "likes": 101,
+        "comments": 3,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 87
+          },
+          {
+            "type": "PRAISE",
+            "count": 10
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jonathonkarelse",
+        "sessionId": "859de78d-6206-42bb-a691-099387f5261a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484689453463175168",
+      "entityId": "7484689453463175168",
+      "linkedinUrl": "https://www.linkedin.com/posts/alex-valculescu_excel-data-modeling-with-power-pivot-dax-activity-7482904550853652481-Rgi6",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482904550107160579",
+      "shareUrn": "urn:li:share:7482904550107160579",
+      "content": "Continuous improvement has always been part of my career philosophy.\nI’ve just completed the Excel Data Modelling with Power Pivot & DAX course from XelPlus — a challenging but rewarding deep dive into building smarter, scalable data models.\nFor me, this isn’t just another certificate. It’s a deliberate investment in the skills needed for the next chapter of my career.\nThe ability to turn raw data into meaningful insights is becoming one of the most valuable capabilities in finance, and I’m excited to keep sharpening it.\nOnwards and upwards. 😊",
+      "author": {
+        "id": "ACoAAB1J0NMBmRnbKPbNoV7ztD3rdLmeCbld1ew",
+        "universalName": null,
+        "publicIdentifier": "alex-valculescu",
+        "type": "profile",
+        "name": "Alexandru Valculescu",
+        "linkedinUrl": "https://www.linkedin.com/in/alex-valculescu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB1J0NMBmRnbKPbNoV7ztD3rdLmeCbld1ew",
+        "info": ",",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFKQkbNZxvB-A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1611074236569?e=1786579200&v=beta&t=6LkWDq8kb77XO1VmTabujhNnIuREEGBk-RVQwrDzURM",
+          "width": 300,
+          "height": 300
+        },
+        "urn": "491376851"
+      },
+      "postedAt": {
+        "timestamp": 1784489024511,
+        "date": "2026-07-19T19:23:44.511Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Excel Data Modeling with Power Pivot & DAX was issued by XelPlus to Alexandru Valculescu ‎.",
+        "subtitle": "credly.com",
+        "link": "https://www.credly.com/badges/8cee47db-c3a4-4dd2-a129-13e3919753e2/linked_in?t=ti6o6m",
+        "linkLabel": "Open article: Excel Data Modeling with Power Pivot & DAX was issued by XelPlus to Alexandru Valculescu ‎. by credly.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQGYQQHQQNy5Ew/image-shrink_800/B4EZ9ieCqiHMAg-/0/1784063470486?e=1785877200&v=beta&t=jNf_9XGh8pogwLg3m5LOh4h7Jr7oXH458O0QtDw_uLQ",
+          "width": 672,
+          "height": 352
+        }
+      },
+      "repostedBy": {
+        "name": "Leila Gharani",
+        "publicIdentifier": "leilagharani",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI"
+      },
+      "repostedAt": {
+        "timestamp": 1784489024511,
+        "date": "2026-07-19T19:23:44.511Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7484689453463175168?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7484689453463175168%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=ba8e4wtXs0WA1iOX919XuA%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "text": "Leila Gharani reposted this"
+      },
+      "engagement": {
+        "id": "7482904550853652481",
+        "likes": 18,
+        "comments": 3,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 14
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475889674129924097",
+      "entityId": "7475889674129924097",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_excel-microsoftcopilot-copilot-activity-7475889674129924097-SQED",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475889673022795776",
+      "shareUrn": "urn:li:share:7475889673022795776",
+      "content": "So Copilot builds me a table.\n\nFirst thing I do? Reformat the whole thing.\nEvery time.\n\nThere are other little things too. Like using merge and center instead of center across selection.\n\nYou can change that now. \nCopilot has new personalization options.\n\nIn this video I cover how it works, and how to set it up:\n👉 https://lnkd.in/d4xQk-qh\n\nCurious if you use Copilot in Excel and if you'll use personalization? \n\n#excel #microsoftcopilot #copilot",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1782390993626,
+        "date": "2026-06-25T12:36:33.626Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHQPgiTnZGtCA/feedshare-shrink_1280/B4DZ7.yC5CI4AM-/0/1782390992719?e=1786579200&v=beta&t=OJN6kuuRmD-GZc_W3M43LUSN9mnKfk0dpkC64vmcQMw",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475889674129924097",
+        "likes": 130,
+        "comments": 3,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 114
+          },
+          {
+            "type": "INTEREST",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477687809743704064",
+      "entityId": "7477687809743704064",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_excel-essential-training-certificate-activity-7477687809743704064-QKm2",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7477687808933969920",
+      "shareUrn": "urn:li:ugcPost:7477687808933969920",
+      "content": "\"Until recently, I thought Excel was just… Excel.\"\nSame. I think most of us start there.\n\nThank you for sharing this Varsha Venkatesan. So glad the course was useful.",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1782819702564,
+        "date": "2026-06-30T11:41:42.564Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7476550853877862401",
+        "linkedinUrl": "https://www.linkedin.com/posts/varsha-venkatesan-01ab82217_excel-essential-training-certificate-activity-7476550853877862401-yfnN",
+        "content": "Until recently, I thought Excel was just… Excel.\n\nIt wasn't until I worked on the buying side of my recent M&S industry collaboration that I realised how much planning and decision-making happens through it. Building range plans, organising product information, comparing options and making sense of large amounts of data showed me I'd only been using a small part of what Excel can actually do.\n\nThat experience pushed me to build a stronger understanding of Excel beyond the basics, so I decided to do a Microsoft Excel course by Leila Gharani. I was genuinely surprised by the depth of the content. She explains everything so clearly, with practical examples that made it easy to understand and apply.\n\nIt's easy to think of Excel as \"just a spreadsheet\", but it's actually one of the most valuable tools across buying, merchandising, planning and product roles. I'm really glad I took the time to build this skill, and I'd definitely recommend this course to anyone looking to become more confident with Excel.",
+        "contentAttributes": [
+          {
+            "start": 506,
+            "length": 9,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "1035",
+              "name": "Microsoft",
+              "linkedinUrl": "https://www.linkedin.com/company/microsoft/"
+            }
+          },
+          {
+            "start": 532,
+            "length": 13,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+              "firstName": "Leila",
+              "lastName": "Gharani",
+              "linkedinUrl": "https://www.linkedin.com/in/leilagharani",
+              "publicIdentifier": "leilagharani"
+            }
+          }
+        ],
+        "author": {
+          "id": "ACoAADbQCZYBt-XDUe_K9ZAGvKPBkG2WKZq6dMs",
+          "universalName": null,
+          "publicIdentifier": "varsha-venkatesan-01ab82217",
+          "type": "profile",
+          "name": "Varsha Venkatesan",
+          "linkedinUrl": "https://www.linkedin.com/in/varsha-venkatesan-01ab82217?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADbQCZYBt-XDUe_K9ZAGvKPBkG2WKZq6dMs",
+          "info": "Fashion Design | Buying & Merchandising Aspirant | MA Fashion Design Management (UAL)",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D4E35AQEiHkWOJu-OPQ/profile-framedphoto-shrink_800_800/B4EZvd4IPnGsAg-/0/1768954037517?e=1785877200&v=beta&t=k4zKIxvTLs1R5U4h8uuXOE1sU7LLruOSKRS5Pye7qKk",
+            "width": 800,
+            "height": 800
+          },
+          "urn": "919603606"
+        },
+        "postedAt": {
+          "timestamp": 1782548631162,
+          "date": "2026-06-27T08:23:51.162Z",
+          "postedAgoShort": "1mo",
+          "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [],
+        "document": {
+          "title": "Excel Essential Training Certificate",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQGiCZwtr5be4Q/feedshare-document-url-metadata-scrapper-pdf/B4EZ8ILBzxJIA4-/0/1782548537464?e=1785877200&v=beta&t=j0X55f2KpKU_Lv1B9L_AWVN-dT5KDAsoELKnIEEUvAU",
+          "coverPages": [
+            {
+              "width": 1925,
+              "imageUrls": [
+                "https://media.licdn.com/dms/image/v2/D4E1FAQGiCZwtr5be4Q/feedshare-document-cover-images_1920/B4EZ8ILBzxJIBQ-/0/1782548537777?e=1785877200&v=beta&t=aCVYhkBPYFwgtbIJIA5MZvg6SFQa-o0t6737GCu3Mnk"
+              ],
+              "height": 1487
+            }
+          ],
+          "totalPageCount": 1,
+          "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGiCZwtr5be4Q/feedshare-document-master-manifest/B4EZ8ILBzxJIBY-/0/1782548537776?e=1785877200&v=beta&t=NhmEGSCR_fCIwgG-wdNS4KHJ9c68MQSL-yZa4g-H8AU",
+          "manifest": {
+            "asset": "urn:li:digitalmediaAsset:D4E1FAQGiCZwtr5be4Q",
+            "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQGiCZwtr5be4Q/feedshare-document-transcript/B4EZ8ILBzxJIA0-/0/1782548537776?e=1785974400&v=beta&t=Iy4ECpmLsbKk1VYJBe2C1uFHjwM5xJFdgtE2bewgauc",
+            "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQGiCZwtr5be4Q/feedshare-document-pdf-analyzed/B4EZ8ILBzxJIAY-/0/1782548537776?e=1785974400&v=beta&t=2HDDzkdH_W5jqrGt9W6DhWpg8ki4BpVuioCNg4ZaA1U",
+            "scanRequiredForDownload": true,
+            "perResolutions": [
+              {
+                "width": 165,
+                "height": 127,
+                "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGiCZwtr5be4Q/feedshare-document-images_160/B4EZ8ILBzxJIAc-/0/1782548537776?e=1785974400&v=beta&t=kWaZ8G5h6Womr6MrGu20vM4LRcWYw5h2awAQyllQP5g"
+              },
+              {
+                "width": 1925,
+                "height": 1487,
+                "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGiCZwtr5be4Q/feedshare-document-images_1920/B4EZ8ILBzxJIAo-/0/1782548537776?e=1785974400&v=beta&t=wqLoLMtVUM55_BkH7L-oGIs2NoBFdCEqn63MjDpRKXo"
+              },
+              {
+                "width": 802,
+                "height": 620,
+                "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGiCZwtr5be4Q/feedshare-document-images_800/B4EZ8ILBzxJIAk-/0/1782548537776?e=1785974400&v=beta&t=GkHDsOzgEfcwgIA2FQg-xieqbEwjvckqGgCvMz6t-bs"
+              },
+              {
+                "width": 484,
+                "height": 374,
+                "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGiCZwtr5be4Q/feedshare-document-images_480/B4EZ8ILBzxJIAg-/0/1782548537776?e=1785974400&v=beta&t=04-TAJLM5n_AWksH1-5kkMDsMk7Vhog9Ut4Ekjn7WIo"
+              },
+              {
+                "width": 1287,
+                "height": 994,
+                "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQGiCZwtr5be4Q/feedshare-document-images_1280/B4EZ8ILBzxJIAQ-/0/1782548537776?e=1785974400&v=beta&t=6QHkx1K9TMozjOaNR2FfiqR1HYw_Ha6zm4vAASrHhNw"
+              }
+            ]
+          }
+        },
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": false,
+          "hideSendAction": false,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/varsha-venkatesan-01ab82217_excel-essential-training-certificate-activity-7476550853877862401-yfnN?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7476550853877862401",
+        "shareUrn": "urn:li:ugcPost:7476550851369701376",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7476550851369701376",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477687808933969920",
+        "likes": 71,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 64
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475161318120103936",
+      "entityId": "7475161318120103936",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_if-you-dont-like-the-sound-of-your-voice-activity-7475161318120103936-Nc3a",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7475161010967031808",
+      "shareUrn": "urn:li:ugcPost:7475161010967031808",
+      "content": "If you don't like the sound of your voice in videos, this is for you.\n\nWhat's something you avoided for years that you finally did?",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1782217340021,
+        "date": "2026-06-23T12:22:20.021Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQEeOzmCX5EqbA/videocover-low/B4EZ70berAKwBM-/0/1782217312672?e=1785877200&v=beta&t=7R2BV29AYtxh1PlP7Ouo21QVgfDfU298V3x_A5nU96E",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQEeOzmCX5EqbA/mp4-720p-30fp-crf28/B4EZ70berAKwCM-/0/1782217324968?e=1785877200&v=beta&t=Yiwb0ZB8hdK2q4uXhcXAPnLH15A3cjw9UNbHmVRVnb8"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475161010967031808",
+        "likes": 468,
+        "comments": 49,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 397
+          },
+          {
+            "type": "EMPATHY",
+            "count": 38
+          },
+          {
+            "type": "PRAISE",
+            "count": 18
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 11
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486012286357200896",
+      "entityId": "7486012286357200896",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_msexcel-pythoninexcel-activity-7486012286357200896-HMNM",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485958311520124929",
+      "shareUrn": "urn:li:ugcPost:7485958311520124929",
+      "content": "Here’s 1 formula to switch \"wide\" data into \"long\" format\nMost people will think of Power Query for this.\n\nAnd Power Query is great... but did you know you can reshape these monthly reports with a single Python formula right inside Excel? \n\nIf you’re on Microsoft 365, just type =PY, point to your table, and let .melt() do the heavy lifting.\n\n#msexcel #pythoninexcel",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1784804412450,
+        "date": "2026-07-23T11:00:12.450Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQENbC1FlSJ5Lw/videocover-low/B4EZ.N3g70K4BU-/0/1784791572011?e=1785877200&v=beta&t=H3EaKI66JjNtuN4hJsI4WMklyv8ZEgWEF6vlotK37Vg",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQENbC1FlSJ5Lw/mp4-720p-30fp-crf28/B4EZ.N3g70K4CU-/0/1784791581547?e=1785877200&v=beta&t=PJi0djvDMreHVZ-uTADqPCJNLvSucjDeDG2OJ9dnCRI"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485958311520124929",
+        "likes": 344,
+        "comments": 17,
+        "shares": 16,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 324
+          },
+          {
+            "type": "INTEREST",
+            "count": 12
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479868354913001472",
+      "entityId": "7479868354913001472",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_certificate-of-completion-activity-7479868354913001472--qUG",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479868354057551872",
+      "shareUrn": "urn:li:share:7479868354057551872",
+      "content": "Love this from Irina. Fully agree with the order:\nGet comfortable with Excel first, then bring Copilot in. That's when it actually helps. Thanks so much for sharing.",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1783339585045,
+        "date": "2026-07-06T12:06:25.045Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7479860850862755840",
+        "linkedinUrl": "https://www.linkedin.com/posts/irinadametkina_certificate-of-completion-activity-7479860850862755840-Yc5_",
+        "content": "Just want to give a shout-out to my network: I found this course really valuable for anyone who wants to refresh or learn Excel.\nThanks, Excel Essential Training (Microsoft 365) by Leila Gharani! It's a REALLY well-designed course. The pace is just right, the explanations are clear, and the depth is exactly what's needed to understand the concepts. I also love the little challenges after each topic, they're a great way to apply what you've just learned.\nI'm refreshing my Excel knowledge, so I decided to start with the basics, and I have to tell you, I've learned a lot!\nAs a TA Manager, strong Excel skills are something I rely on, from tracking recruitment funnels to building reports. I'm also looking forward to using Copilot alongside Excel to build dashboards that make it easier to track progress and stay on top of tasks. 🏆 \n https://lnkd.in/dbjgxzJj #microsoftcopilot #microsoftexcel.",
+        "contentAttributes": [
+          {
+            "start": 181,
+            "length": 13,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+              "firstName": "Leila",
+              "lastName": "Gharani",
+              "linkedinUrl": "https://www.linkedin.com/in/leilagharani",
+              "publicIdentifier": "leilagharani"
+            }
+          }
+        ],
+        "author": {
+          "id": "ACoAAA8M7CcBxwzvNg1OCPLJh7bxkYDHI_1st1c",
+          "universalName": null,
+          "publicIdentifier": "irinadametkina",
+          "type": "profile",
+          "name": "Irina D.",
+          "linkedinUrl": "https://www.linkedin.com/in/irinadametkina?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA8M7CcBxwzvNg1OCPLJh7bxkYDHI_1st1c",
+          "info": "Talent Acquisition | UAE Labor Law | Studying towards the CIPD Level 7",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D4D03AQF07gtT2bLESA/profile-displayphoto-crop_800_800/B4DZ396iVUJkAI-/0/1778081487948?e=1786579200&v=beta&t=pCG8SF8OzbvjrbnR6glMuapNZC-NxUPTVUpr_7JJ0RQ",
+            "width": 800,
+            "height": 800
+          },
+          "urn": "252505127"
+        },
+        "postedAt": {
+          "timestamp": 1783337795940,
+          "date": "2026-07-06T11:36:35.940Z",
+          "postedAgoShort": "3w",
+          "postedAgoText": "3 weeks ago • Edited • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [],
+        "article": {
+          "title": "Certificate of Completion",
+          "subtitle": "linkedin.com",
+          "link": "https://www.linkedin.com/learning/certificates/d1618143134aa584c16c7c682325d2a80fefb98b5988f4ec6cea4681a220929d",
+          "linkLabel": "Open article: Certificate of Completion by linkedin.com",
+          "description": null,
+          "image": {
+            "url": "https://media.licdn.com/dms/image/v2/D4D22AQHa0vyhDyR8sA/feedshare-image-high-res/B4DZ83MJvAK0AU-/0/1783337360605?e=1786579200&v=beta&t=bUIEpOQQ6QWyiwXLsovWH2WmT4JevH2S52CzOSKEyog",
+            "width": 1649,
+            "height": 1275
+          }
+        },
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": false,
+          "hideSendAction": false,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/irinadametkina_certificate-of-completion-activity-7479860850862755840-Yc5_?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7479860850862755840",
+        "shareUrn": "urn:li:share:7479860850120585216",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479860850120585216",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479868354913001472",
+        "likes": 39,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 36
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7470808627033894913",
+      "entityId": "7470808627033894913",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_excel-powerquery-activity-7470808627033894913-UB0e",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7470808625939312641",
+      "shareUrn": "urn:li:share:7470808625939312641",
+      "content": "Removing duplicates and keeping the latest record. Sounds simple.\n\nSort by date descending → remove duplicates → done.\nIn Power Query, that \"done\" might be wrong.\n\nThis video explains why and how to fix it: https://lnkd.in/d-wwneHi\nIf you use Power Query, you should see this.\n\n#excel #powerquery",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1781179577597,
+        "date": "2026-06-11T12:06:17.597Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQH6EtlfOQgWgg/feedshare-shrink_1280/B4DZ62k25GGwAM-/0/1781179576335?e=1786579200&v=beta&t=QyUXJ2FpGfkZ4Hq7uDHrZIs6PmoeyW12NRqw-d2UB54",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7470808627033894913",
+        "likes": 192,
+        "comments": 14,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 175
+          },
+          {
+            "type": "INTEREST",
+            "count": 10
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7470373054867718144",
+      "entityId": "7470373054867718144",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_microsoftexcel-microsoftcopilot-activity-7470373054867718144-rjUH",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7470373054037123074",
+      "shareUrn": "urn:li:ugcPost:7470373054037123074",
+      "content": "It's live.\n\nAfter months of work with the team, my Excel Essential Training course is up on LinkedIn Learning. And it's free with the link below.\n\nIt's made for people at corporate jobs who've used Excel for years but never really sat down and learned it.\n\nMany thanks to Kate Gagnon and Emanuel Garcia for making this happen.\n\nGrab a coffee and start here: \n\n#microsoftexcel #microsoftcopilot",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1781075729100,
+        "date": "2026-06-10T07:15:29.100Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D560DAQGwTjdSatw0Gg/learning-public-crop_240_432/B56Zy_.i8EKcAU-/0/1772747370865?e=1785877200&v=beta&t=4VARxOLH1CclOT5nhfizWsqmuTFoauHIqBfMOAo7goU",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D560DAQG3sCLrVigGMg/mp4-720p-30fp-crf28/B4DZ6Of0onGcA4-/0/1780507174895?e=1785877200&v=beta&t=fcXIZ4IYEDj36ZIrhjE8NaV74VDnArh71DHE7_0vegk"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7470373054037123074",
+        "likes": 607,
+        "comments": 31,
+        "shares": 19,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 499
+          },
+          {
+            "type": "PRAISE",
+            "count": 50
+          },
+          {
+            "type": "EMPATHY",
+            "count": 47
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 7
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7472629494042947584",
+      "entityId": "7472629494042947584",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_lets-say-someone-hands-you-a-folder-of-csv-activity-7472629494042947584-7yeZ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7472629492998664192",
+      "shareUrn": "urn:li:ugcPost:7472629492998664192",
+      "content": "Let's say someone hands you a folder of CSV files. Different date formats. Some have extra header rows. One has columns in a different order.\n\nYour job: combine them into one clean table.\n\nCould you do it in Power Query without AI-ing/Googling anything?\n\nIf you hesitated, that's normal. Most people learn Power Query by following along. But following along and solving a problem cold are two different skills.\n\nWe put together 15 exercises like this. Real messy files. A goal. You solve it, then compare your approach to a video walkthrough. \nIf you're interested, check it out: Link in the comments.\n\nIs there a Power Query problem that trips you up the most at work?",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1781613706122,
+        "date": "2026-06-16T12:41:46.122Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEnIvIhvyh-nQ/feedshare-image-high-res/B4DZ7Qc6_9GYAU-/0/1781613703598?e=1786579200&v=beta&t=rab4qKINQXQjsnnoYxKAvdQcl2PKYcKRhxi-dditxiU",
+          "width": 1536,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFHgiBf-W3Rig/feedshare-image-high-res/B4DZ7Qc69UGwAU-/0/1781613703509?e=1786579200&v=beta&t=Dxo7L1El01kujySXYG8xBT3gdDaBgopwtuGKnPWbuRo",
+          "width": 1536,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGL4z3re5c_JA/feedshare-image-high-res/B4DZ7Qc7EuJ8AU-/0/1781613703838?e=1786579200&v=beta&t=LP_Z82Acq5h10qJdv4ElHif-vDokOTTMtmRrs1V6kcU",
+          "width": 1536,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHSOfBDL69KFg/feedshare-image-high-res/B4DZ7Qc68uKgAY-/0/1781613703317?e=1786579200&v=beta&t=XSmTDTnbgziLqbjYh9u7Ya0uUtUg_hMXdFfC8x2fR3Y",
+          "width": 1536,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHJMiLyT17sTQ/feedshare-image-high-res/B4DZ7Qc7EdKIAY-/0/1781613704050?e=1786579200&v=beta&t=bdzvqoazgVQ6JIbUJ8KtW1NmGNU3jH1xNsumAxZsYDY",
+          "width": 1536,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGm8INjzxeTyA/feedshare-image-high-res/B4DZ7Qc7DkJ8AY-/0/1781613703765?e=1786579200&v=beta&t=WKW6okdSHycAbIUJf_D9-18Z9Ik0l2wIq1J8FnRl6hI",
+          "width": 1536,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7472629492998664192",
+        "likes": 377,
+        "comments": 20,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 343
+          },
+          {
+            "type": "EMPATHY",
+            "count": 13
+          },
+          {
+            "type": "INTEREST",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7460676588817326080",
+      "entityId": "7460676588817326080",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_excel-officescripts-activity-7460676588817326080-W-jd",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7460676587617787904",
+      "shareUrn": "urn:li:share:7460676587617787904",
+      "content": "Excel can send emails now.\nDirectly from your desktop or even Excel ONLINE!\n \nOne click → converts specific sheets to PDF → emails them to the right people.\n \nYou do need a script - but there's NO VBA and NO Power Automate. \n \nI built a version where you just list the names, emails, and sheet names in a table. The script does the rest.\n \nHere's the full walkthrough: https://lnkd.in/d_aNWnub\n\n#excel #officescripts",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1778763911442,
+        "date": "2026-05-14T13:05:11.442Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEfrtQaUjgpaQ/feedshare-shrink_1280/B4DZ4ml0lXG4AQ-/0/1778763909703?e=1786579200&v=beta&t=nddtsxrQIcPfzM4wixt8JXgd8rFR2KpVkMFHqamp2gY",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7460676588817326080",
+        "likes": 225,
+        "comments": 21,
+        "shares": 9,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 196
+          },
+          {
+            "type": "INTEREST",
+            "count": 22
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7465384748870365184",
+      "entityId": "7465384748870365184",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_just-came-across-this-clip-from-earlier-this-activity-7465384748870365184-Qc7X",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7465384587259625472",
+      "shareUrn": "urn:li:ugcPost:7465384587259625472",
+      "content": "Just came across this clip from earlier this year. Saw this in the BTS footage the team grabbed during recording.\n\nI'd just wrapped recording an Excel course at LinkedIn Learning. Worked with a wonderful project manager and filming crew. \n\nThere's a lot that goes into creating a course people don't see. And yes, that includes me making weird moves before speaking 😂 \n\nThe editing is done now. Almost ready. Will share more soon.",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1779886424272,
+        "date": "2026-05-27T12:53:44.272Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQHFJF_x52gIUg/videocover-high/B4DZ5pf1GbG4BM-/0/1779886415940?e=1785877200&v=beta&t=xOaaCFNAI7l1LovVzFbsts9UWQowwcJO20GddcOwl5c",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHFJF_x52gIUg/mp4-720p-30fp-crf28/B4DZ5pf1GbG4B8-/0/1779886419396?e=1785877200&v=beta&t=2_usNlHvAcs5_GQNesXyQnFkdzjTe1htpqVKa8uouG8"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7465384587259625472",
+        "likes": 423,
+        "comments": 15,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 365
+          },
+          {
+            "type": "EMPATHY",
+            "count": 31
+          },
+          {
+            "type": "PRAISE",
+            "count": 20
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483816813881970688",
+      "entityId": "7483816813881970688",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_mvpbuzz-excel-activity-7483816813881970688-P2Q6",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483816812724408320",
+      "shareUrn": "urn:li:ugcPost:7483816812724408320",
+      "content": "Many thanks to Microsoft for recognizing me as MVP for another year. I can't believe it's 10 times already! That's crazy.\n\nMany thanks to you for watching my tutorials, commenting and sharing your feedback. \n\nFun fact: our graphic designer is away this month, so I created this image using Microsoft Designer. The last time I used Designer was 6 months ago and it drove me nuts. \n\nThis time I was able to figure it out mostly on my own. It's improved a lot and you don't need additional AI credits for most things like you did before. \n\nI did have to use ChatGPT to figure out how to add other elements, like the MVP logo and the background. The Microsoft documentation online was outdated and the buttons were no longer there. You'd think you could drag and drop from Explorer to add elements, but no. It's copy and paste.\n\n#MVPbuzz  #excel",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1784280971022,
+        "date": "2026-07-17T09:36:11.022Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFnaX6QNkdRHw/feedshare-image-high-res/B4DZ9vbu2cI8AU-/0/1784280969031?e=1786579200&v=beta&t=rm6ynyXbcv3td0uYurqmW5D2nuziN8vD2vuAP9gvZOc",
+          "width": 1729,
+          "height": 1383
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQG-gjdPu7SFsQ/feedshare-image-high-res/B4DZ9vbu5tI4AQ-/0/1784280969148?e=1786579200&v=beta&t=r1HXDeTxIlglQXehPh8T2LyGqvIKVjPzhsXhrTFlUPc",
+          "width": 1879,
+          "height": 922
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483816812724408320",
+        "likes": 656,
+        "comments": 100,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 462
+          },
+          {
+            "type": "PRAISE",
+            "count": 162
+          },
+          {
+            "type": "EMPATHY",
+            "count": 28
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7460345899198840832",
+      "entityId": "7460345899198840832",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_heres-why-i-go-to-the-global-excel-summit-activity-7460345899198840832-eETg",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7460345814616309760",
+      "shareUrn": "urn:li:ugcPost:7460345814616309760",
+      "content": "Here's why I go to the Global Excel Summit.\nSee you there?\n\nInfo here: https://lnkd.in/d76d5zM4",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1778685068893,
+        "date": "2026-05-13T15:11:08.893Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQGB99i7IU0JyA/videocover-low/B4DZ4h5AziI4BQ-/0/1778685056763?e=1785877200&v=beta&t=gJToLDGHGZBQ8m_1U8Sjzlf42BBFFZGpAJiwbSv0oIw",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQGB99i7IU0JyA/mp4-720p-30fp-crf28/B4DZ4h5AziI4CQ-/0/1778685061658?e=1785877200&v=beta&t=pdIpMfxYOWIgzupYn1rk-35rzrOHfuOXsEWCwN2ucZI"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7460345814616309760",
+        "likes": 323,
+        "comments": 15,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 292
+          },
+          {
+            "type": "EMPATHY",
+            "count": 23
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7466035659451916289",
+      "entityId": "7466035659451916289",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_powerpoint-officetips-activity-7466035659451916289-hx8T",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7465776219767267329",
+      "shareUrn": "urn:li:ugcPost:7465776219767267329",
+      "content": "\"No one's reading that.\" 😬\n \nIf you're still adding bullet points with lots of text on your corporate slides, you're losing people instantly. \n\nGood news: It takes exactly 2 clicks to get to something polished and professional 👇\n\n#powerpoint #officetips",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1780041613448,
+        "date": "2026-05-29T08:00:13.448Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQFOn8waJd-UXw/videocover-low/B4DZ5vD.ZJKABQ-/0/1779979776310?e=1785877200&v=beta&t=aikhKwILvJzNA-PQGqmQpYSgIR7a6gPGwR6JbD7hx0g",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQFOn8waJd-UXw/mp4-720p-30fp-crf28/B4DZ5vD.ZJKACQ-/0/1779979784130?e=1785877200&v=beta&t=D7A4ri98GvBf2n5KuOxvvoIYANopAunXLkvuGrPCqu0"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7465776219767267329",
+        "likes": 489,
+        "comments": 13,
+        "shares": 14,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 438
+          },
+          {
+            "type": "EMPATHY",
+            "count": 29
+          },
+          {
+            "type": "PRAISE",
+            "count": 10
+          },
+          {
+            "type": "INTEREST",
+            "count": 9
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7456957672496615424",
+      "entityId": "7456957672496615424",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_stop-adding-helper-columns-to-your-pivot-activity-7456957672496615424-BwbL",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7456957672022609921",
+      "shareUrn": "urn:li:ugcPost:7456957672022609921",
+      "content": "Sometimes we forget what our everyday tools can do...",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1777877252697,
+        "date": "2026-05-04T06:47:32.697Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7455497406906867714",
+        "linkedinUrl": "https://www.linkedin.com/posts/xelplus_stop-adding-helper-columns-to-your-pivot-activity-7455497406906867714-0fKC",
+        "content": "Your PivotTable already knows the % change.\nMost people add a helper column anyway.\n\nRight-click the value → Show Values As → % Difference From. \n\nThat's it. \n\nThe pivot calculates it, updates when you filter, recalculates when you refresh.\n\nOne detail that trips most people up:\nWhen you set the base item to \"Previous,\" that doesn't mean \"previous month.\" \n\nIt means the previous visible cell in the pivot. In a month-by-month layout it happens to be the same thing. \n\nChange the layout to quarters, and \"Previous\" now means previous quarter.\n\nSame setting. Different meaning. \n\nWhatever the pivot shows, that's what \"Previous\" refers to.\n\nIf you build monthly reports, this one's worth knowing cold.",
+        "contentAttributes": [],
+        "author": {
+          "id": "14821259",
+          "universalName": "xelplus",
+          "publicIdentifier": null,
+          "type": "company",
+          "name": "XelPlus",
+          "linkedinUrl": "https://www.linkedin.com/company/xelplus/posts",
+          "info": "27,852 followers",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQG_HYlF_2ij5w/company-logo_400_400/company-logo_400_400/0/1681399485497/xelplus_logo?e=1786579200&v=beta&t=AO_RUcyt9dTOt3IfpTDORHpq30xY9a6KEwvaOlEsD8g",
+            "width": 400,
+            "height": 400
+          },
+          "urn": "14821259"
+        },
+        "postedAt": {
+          "timestamp": 1777529098250,
+          "date": "2026-04-30T06:04:58.250Z",
+          "postedAgoShort": "2mo",
+          "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [],
+        "postVideo": {
+          "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQHbvUF-7bPPdg/videocover-low/B4DZ3c_U.MHoBQ-/0/1777529083775?e=1785877200&v=beta&t=ZAEzbASJ5ajtlIwiGKQPlczs1S6R8fvoSnmeKHtiS_4",
+          "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHbvUF-7bPPdg/mp4-720p-30fp-crf28/B4DZ3c_U.MHoCQ-/0/1777529087682?e=1785877200&v=beta&t=5LYIwqpncZlByYJTS9Zle53NYl6JYiodZy5TYErkwaw"
+        },
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": false,
+          "hideSendAction": false,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/xelplus_stop-adding-helper-columns-to-your-pivot-activity-7455497406906867714-0fKC?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7455497406906867714",
+        "shareUrn": "urn:li:ugcPost:7455497319560568832",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7455497319560568832",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7456957672022609921",
+        "likes": 78,
+        "comments": 4,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 68
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7445394661189484544",
+      "entityId": "7445394661189484544",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_100-files-1-second-to-rename-them-all-activity-7445394661189484544-4n6x",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7443211186533212160",
+      "shareUrn": "urn:li:ugcPost:7443211186533212160",
+      "content": "100 files. 1 second to rename them all!\n\nYou see, Windows has a built-in \"superpower\" most users never touch. All it takes is this:",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1775120415971,
+        "date": "2026-04-02T09:00:15.971Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQHxuf89mwiCDQ/videocover-low/B4DZ0uZNdhI0BU-/0/1774599858098?e=1785877200&v=beta&t=NHhrHQcWwih3UePvrNo-HIWief5L5Hh8QkYIgRR3Z5M",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHxuf89mwiCDQ/mp4-720p-30fp-crf28/B4DZ0uZNdhI0CI-/0/1774599866010?e=1785877200&v=beta&t=VBW-S6eQwhRgJQnEIPHeO5jXaosJfOCNAN5dvSb1o78"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7443211186533212160",
+        "likes": 641,
+        "comments": 31,
+        "shares": 28,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 545
+          },
+          {
+            "type": "INTEREST",
+            "count": 47
+          },
+          {
+            "type": "EMPATHY",
+            "count": 35
+          },
+          {
+            "type": "PRAISE",
+            "count": 11
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7447988253099663361",
+      "entityId": "7447988253099663361",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_excel-ges2026-activity-7447988253099663361-BJHU",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7447987851264184320",
+      "shareUrn": "urn:li:ugcPost:7447987851264184320",
+      "content": "You need to find 4 digit codes from messy text data?\nMe in 2004 would have done it manually. \nMe in 2014 would have used VBA. Me now?\n\nJust 60 seconds with one formula.\n\n______\nP.S. Join me at the Global Excel Summit in London: https://lnkd.in/d76d5zM4\n-> if you decide to join, use code LEILA to get 20% off.\n\n#Excel #GES2026",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1775738776469,
+        "date": "2026-04-09T12:46:16.469Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQHxAJztLi2giQ/videocover-high/B4DZ1yRw4MKoBY-/0/1775738757913?e=1785877200&v=beta&t=3SaAU3eBsya5Cn4Ehi9pg7pUfQcNmwBmDyvz9wC511Y",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHxAJztLi2giQ/mp4-720p-30fp-crf28/B4DZ1yRw4MKoCI-/0/1775738770259?e=1785877200&v=beta&t=jwzcF0D_cbLxDH4HTWm1iXnGKyKzUYZXSf5Ahx1mniM"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7447987851264184320",
+        "likes": 376,
+        "comments": 18,
+        "shares": 18,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 327
+          },
+          {
+            "type": "INTEREST",
+            "count": 29
+          },
+          {
+            "type": "EMPATHY",
+            "count": 15
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7450475139051388928",
+      "entityId": "7450475139051388928",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_excel-activity-7450475139051388928-t3il",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7450475137910366208",
+      "shareUrn": "urn:li:share:7450475137910366208",
+      "content": "For years, my pivot tables looked bad. I mean, that's just how pivot tables look.\n\nSo when I needed to present my ugly pivot table data, I'd copy the data out and format it separately on the grid. \n\nTurns out none of that was necessary.\n\nOne trick I wish I'd known sooner: stop using conditional formatting for pivot table indicators. Use custom number formats instead. It makes a difference:\n\n[Color43]■;[Color53]■;\n\nThat's it. Positive values get a nice green square, negative values get a red square. No conditional formatting rules to manage. Plus it just looks a whole lot better.\n\nHere's the full tutorial on transforming those ugly pivots to management-ready reports: https://lnkd.in/dSUuy9hy\n\n#excel",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1776331696284,
+        "date": "2026-04-16T09:28:16.284Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFgtmg-c8B2iw/feedshare-shrink_1280/B4DZ2VnqPFH8AM-/0/1776331695344?e=1786579200&v=beta&t=ki4LUIOZkmBkUmXnGWliixXtUKNjkzgEBdNK5uG7UQI",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7450475139051388928",
+        "likes": 640,
+        "comments": 16,
+        "shares": 19,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 577
+          },
+          {
+            "type": "INTEREST",
+            "count": 38
+          },
+          {
+            "type": "EMPATHY",
+            "count": 17
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7454884808368799744",
+      "entityId": "7454884808368799744",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_excel-activity-7454884808368799744-9M2j",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7454884667637317632",
+      "shareUrn": "urn:li:ugcPost:7454884667637317632",
+      "content": "Years ago, I'd have copy-pasted my way through a list like this. \nTurns out there's no need. \n\nBe honest, who here is like \"wait, Excel can do this?\"\n\n#excel",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1777383043377,
+        "date": "2026-04-28T13:30:43.377Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQEFSChrWBBIQA/feedshare-thumbnail_720_1280/B4DZ3USLbeHYA0-/0/1777383028716?e=1785877200&v=beta&t=P29-omUnHGyJBWFdYkQu34N9G6pZ75eyTRI68Ts-Xfg",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQEFSChrWBBIQA/mp4-720p-30fp-crf28/B4DZ3USLbeHYCQ-/0/1777383037165?e=1785877200&v=beta&t=osIQp_UsY9cv2P80Mxj0EQzfHwy9cbY7lr65zD0iq9g"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7454884667637317632",
+        "likes": 752,
+        "comments": 40,
+        "shares": 37,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 653
+          },
+          {
+            "type": "INTEREST",
+            "count": 59
+          },
+          {
+            "type": "EMPATHY",
+            "count": 27
+          },
+          {
+            "type": "PRAISE",
+            "count": 11
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7442969040727273472",
+      "entityId": "7442969040727273472",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_excel-msexcel-activity-7442969040727273472-bCXi",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442968896569188353",
+      "shareUrn": "urn:li:ugcPost:7442968896569188353",
+      "content": "Make better Excel Progress Bars in 3 easy steps:\nHere is the pro way to visualize progress and make your reports stand out:\n\n1️⃣ Select your percentages \n2️⃣ Conditional Formatting > Data Bars\n3️⃣ Set Min to 0 and Max to 1 for a perfect scale\n\nChange a number, and the bar follows.\nThat’s it. Easy as that.\n\n#excel #msexcel",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1774542102987,
+        "date": "2026-03-26T16:21:42.987Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQEyTjB2CryTvA/videocover-low/B4DZ0q82oSIoBU-/0/1774542091469?e=1785877200&v=beta&t=BO3YdjNvZ9niXoMNGwfEChg2vFeVS93pP3oPbZ8zBLI",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQEyTjB2CryTvA/mp4-720p-30fp-crf28/B4DZ0q82oSIoCI-/0/1774542096776?e=1785877200&v=beta&t=w_JxLP6_0CMpeUfMXU2nGjFTUJUq1KSyhtpxXpZKsWU"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7442968896569188353",
+        "likes": 434,
+        "comments": 11,
+        "shares": 20,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 392
+          },
+          {
+            "type": "INTEREST",
+            "count": 22
+          },
+          {
+            "type": "EMPATHY",
+            "count": 14
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7458133914826674176",
+      "entityId": "7458133914826674176",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_work-hard-and-youll-be-noticed-thats-activity-7458133914826674176-qN_G",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7458133643975299072",
+      "shareUrn": "urn:li:ugcPost:7458133643975299072",
+      "content": "\"Work hard and you'll be noticed.\"\nThat's the career advice I followed for years.\nWorst advice I ever got.\n\nHere's what I've learned since.",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1778157690722,
+        "date": "2026-05-07T12:41:30.722Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQFEjaeFGLIhuw/videocover-high/B4DZ4CdLySJ8BQ-/0/1778157671179?e=1785877200&v=beta&t=MURsiaZC5psAqsJ8kf08kNcfx7ca5IGG17-t1qdaGYI",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQFEjaeFGLIhuw/mp4-720p-30fp-crf28/B4DZ4CdLySJ8CA-/0/1778157683393?e=1785877200&v=beta&t=tls_hbdlzfq87wF34Kq-6YsAt8i9HlPtUlflNOIt3iM"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7458133643975299072",
+        "likes": 615,
+        "comments": 42,
+        "shares": 19,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 524
+          },
+          {
+            "type": "EMPATHY",
+            "count": 42
+          },
+          {
+            "type": "INTEREST",
+            "count": 30
+          },
+          {
+            "type": "PRAISE",
+            "count": 10
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7440387646021058560",
+      "entityId": "7440387646021058560",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_msexcel-excel-activity-7440387646021058560-nxwG",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7440387644934483968",
+      "shareUrn": "urn:li:share:7440387644934483968",
+      "content": "How many CSV files are sitting in your folders right now? 📂\n\nLet's say you need to check who submitted their data, whether it's complete, if anything is missing. So you open the first file, scan through it, close it, open the next one. Repeat.\n\nWhat if you didn't have to open any of them?\n\nI built a simple control dashboard in Excel where you pick a month from a dropdown --> instantly see who submitted, flag missing data, and calculate totals. \nAll pulled from the CSV files using formulas.\n\nNo Power Query. No VBA. No macros.\n\nThe key is a new Excel function called IMPORTCSV. It's in the Insiders beta right now, so not available to everyone yet. You give it a file path and it pulls the CSV data right into your spreadsheet.\n\nThe dashboard took 15 minutes to set up. Reusable every single month.\nFull walkthrough in the video: \n\n👉 https://lnkd.in/d7-M9jvm\n\nI also left the file in the description for when you get access.\n\nAre you in the Insiders program? Curious who's already got this.\n#msexcel #excel",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1773926650529,
+        "date": "2026-03-19T13:24:10.529Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFsSM3LlQ6Lig/feedshare-image-high-res/B4DZ0GRI3iIoAU-/0/1773926649854?e=1786579200&v=beta&t=oJQyRPkOs8V0BtF8XdY4UHNcfdbW3po-8YxiDSKQcl4",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7440387646021058560",
+        "likes": 215,
+        "comments": 5,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 191
+          },
+          {
+            "type": "INTEREST",
+            "count": 10
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7442148273970208768",
+      "entityId": "7442148273970208768",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_youtube-excel-activity-7442148273970208768-oevD",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7441864460610269184",
+      "shareUrn": "urn:li:share:7441864460610269184",
+      "content": "We just passed 3,000,000 subscribers on YouTube.\n10 years ago, some of my corporate friends made fun of me for starting a YouTube channel. \n\nFair enough. \nCorporate people didn't really take YouTube seriously back then.\n\nBut here's what 10 years and 3 million people taught me:\n\n#1 - Don't box yourself in\nI deliberately never named my channel \"Excel.\" \nI knew I didn't want to be stuck in one lane. But even then, it took me years to actually post something outside of Excel because I was scared my audience wouldn't approve.\n\nThen last year, I posted something completely different. \nA Rubik's cube tutorial. \nYes. A Rubik's cube! On an Excel channel.\n\nThat video now has 3,000,000 views. It's actually still our #1 most watched video. Hundreds of people have commented that they finally solved a Rubik's cube because of it.\n\nI almost didn't post it. I teach tools like Excel and Power BI. But I realized, my main thing is helping people solve problems. It doesn't always have to be Excel. \nAfter all, I left corporate because I didn't want to be boxed in. It didn't make sense to create that box in my own business.\n\n#2 - Do things you're passionate about and stop overthinking it.\nThe Rubik's cube wasn't a strategy. I just loved it. \nNot everything has to be strategy. What's the fun in work if you can't take some time and do things you love.\n\n#3 - Know when to switch from \"growth mode\" to \"sustainable mode.\"\nFor years, I posted every week. Then twice a week. There was a time I posted three times. I was terrified that if I stopped, everything would collapse.\n\nThen I started getting stressed out. I was working on videos, courses, everything. And I had a YouTuber friend whose burnout got so bad he couldn't turn the camera on anymore. Beautiful channel. But he just couldn't do it anymore.\n\nI took a month off. I didn't want to start hating what I loved.\nNothing collapsed. The channel was fine.\n\nYour stats do go down when you post less. But you have to decide what matters more. I love teaching, and I want to keep doing this for a while. So I found a pace I can actually sustain.\n\nIt's like losing weight. You need the calorie deficit to get there. But at some point, you have to eat in a way you can live with. And only you know when that point is.\n\nI'm grateful for 3 million. But that's just a number. What makes me happier is reading the comments below the videos from people sharing their wins. Whether it's solving a Rubik's cube or getting a promotion because they finally learned Power Query.\n\nWhat's something you almost didn't do but are really glad you did?\n\n#youtube #excel",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1774346416943,
+        "date": "2026-03-24T10:00:16.943Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQERP3Tru1rYmQ/feedshare-image-high-res/B4DZ0bQSzpHEAU-/0/1774278750035?e=1786579200&v=beta&t=AM-dK9_aL9OiGFZtSzNURqzDk47mdCyZBEYrLa7hoy0",
+          "width": 1536,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7442148273970208768",
+        "likes": 2135,
+        "comments": 233,
+        "shares": 10,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1525
+          },
+          {
+            "type": "PRAISE",
+            "count": 382
+          },
+          {
+            "type": "EMPATHY",
+            "count": 200
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 16
+          },
+          {
+            "type": "INTEREST",
+            "count": 11
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7435612736656412672",
+      "entityId": "7435612736656412672",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_excel-activity-7435612736656412672-QE83",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7435612570859982848",
+      "shareUrn": "urn:li:ugcPost:7435612570859982848",
+      "content": "Here's a quick Excel trick to make your templates self-explanatory, so people actually know what to put in each cell without asking you.\n\n#excel",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1772788223423,
+        "date": "2026-03-06T09:10:23.423Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQHm_pje-iTVzg/feedshare-thumbnail_720_1280/B4DZzCaVFwJUA4-/0/1772788208240?e=1785877200&v=beta&t=4Qcx32UfrcMoS1iuchYmVbha4M0QMlysHhHY2MdCj08",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHm_pje-iTVzg/mp4-720p-30fp-crf28/B4DZzCaVFwJUCE-/0/1772788214238?e=1785877200&v=beta&t=gm7_wQnVdL-Dynn5bHK-9DOGIOo17DsGMFdS4hkQrys"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7435612570859982848",
+        "likes": 211,
+        "comments": 9,
+        "shares": 9,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 196
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7430319331068059648",
+      "entityId": "7430319331068059648",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_excel-msexcel-chart-activity-7430319331068059648-F8hj",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7430319330157838336",
+      "shareUrn": "urn:li:share:7430319330157838336",
+      "content": "Is your chart choice helping or hurting your credibility?\n\nEven if your boss asks for a pie chart (as they usually do), do them a favor and don’t send them a cluttered mess with 8+ slices. It doesn't do your analysis justice.\n\nHere's the better choice: https://lnkd.in/gTdwNiGA\n\nYou don't need to have design skills or ninja Excel skills. It's pretty simple actually. \n\nLet me know what you think. BTW, I'm not against pie charts. Just those with 8+ slices.\n\n#excel #msexcel #chart",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1771526177184,
+        "date": "2026-02-19T18:36:17.184Z",
+        "postedAgoShort": "5mo",
+        "postedAgoText": "5 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFqZTKHiCsQvw/feedshare-image-high-res/B56Zx3MD6NHsAY-/0/1771526176637?e=1786579200&v=beta&t=Ju-whiGNcZeOzxshxYPlRn-VpRqHePK8VtFRuFKYhRA",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7430319331068059648",
+        "likes": 158,
+        "comments": 7,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 144
+          },
+          {
+            "type": "INTEREST",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7432859819360796672",
+      "entityId": "7432859819360796672",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_excel-activity-7432859819360796672-hBCa",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7432859634408984576",
+      "shareUrn": "urn:li:ugcPost:7432859634408984576",
+      "content": "Do you ever need to compare two lists to find what's missing?\n\nYeah, there's no need to do it manually. You can quickly highlight mismatches using this technique.\n\n#Excel",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1772131876793,
+        "date": "2026-02-26T18:51:16.793Z",
+        "postedAgoShort": "5mo",
+        "postedAgoText": "5 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQHJypZMmVj78w/videocover-high/B4DZybSi40JIBc-/0/1772131859146?e=1785877200&v=beta&t=FZ_qq6feuDTyFNthf4JtqW0VcMVLKs51oNEuZbtNWjk",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHJypZMmVj78w/mp4-720p-30fp-crf28/B4DZybSi40JICM-/0/1772131866870?e=1785877200&v=beta&t=g-9D8WegV4nIZhOVu_-dOIhXxyZeJGxOTuV2s9_YOO8"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7432859634408984576",
+        "likes": 575,
+        "comments": 34,
+        "shares": 14,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 517
+          },
+          {
+            "type": "INTEREST",
+            "count": 24
+          },
+          {
+            "type": "EMPATHY",
+            "count": 20
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7437801389084549120",
+      "entityId": "7437801389084549120",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_msexcel-activity-7437801389084549120-3y-i",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7437801217109565442",
+      "shareUrn": "urn:li:ugcPost:7437801217109565442",
+      "content": "So you want to make your chart \"more visual\" without distorting the data? \n\nHere's an option:\n#msexcel",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1773310038825,
+        "date": "2026-03-12T10:07:18.825Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQEVoo5eTbuRqg/feedshare-thumbnail_720_1280/B4DZzhg3ckGwA4-/0/1773310015588?e=1785877200&v=beta&t=62OfaZ2OEtIWogK4MCXf8sAv6MwOtIdy-ZDmpwBjARQ",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQEVoo5eTbuRqg/mp4-720p-30fp-crf28/B4DZzhg3ckGwCE-/0/1773310032599?e=1785877200&v=beta&t=V7qbes-GyJHkAf7wiXZc9HPp5uW4jCN3aZq9Eow5pS8"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7437801217109565442",
+        "likes": 524,
+        "comments": 4,
+        "shares": 12,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 479
+          },
+          {
+            "type": "EMPATHY",
+            "count": 18
+          },
+          {
+            "type": "INTEREST",
+            "count": 17
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7432048872325173248",
+      "entityId": "7432048872325173248",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_excel-activity-7432048872325173248-KExZ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7432048871431864320",
+      "shareUrn": "urn:li:ugcPost:7432048871431864320",
+      "content": "So this is what happened the last two weeks.\n\nI was at the LinkedIn Learning studios in Carpinteria, California. Recording an Excel course. My first time there.\n \nThere were 3 people in the room with me the entire time: a director, a producer, and a video production tech. This wasn't just \"hit record and talk.\" They were listening for clarity, transitions, pacing, energy.\n \nHere’s something people don’t realize. I didn’t either when I first started recording: \n\nWhen you watch a polished video and think, “that was smooth”, you’re seeing the edit. The raw footage is usually full of pauses, retakes and stumbles.\n \nPlus the camera dumps your energy just like it dumps your makeup. You have to bring WAY more energy than feels natural just to look normal on screen. The hardest part was switching between eye contact with the camera and screen recordings without losing my train of thought or letting the energy drop.\n \nBefore any recordings, weeks went into prepping the exercise files and scripting.\n \nNow it's in the hands of the editors. From the early cuts I've seen so far, it looks great. \n\nI'll share more when I have a date. If you use #Excel even a little, you’ll want to keep an eye out for it.\n\nMany thanks to the awesome and super fun production team!",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1771938531953,
+        "date": "2026-02-24T13:08:51.953Z",
+        "postedAgoShort": "5mo",
+        "postedAgoText": "5 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQESxXFPed8zMg/feedshare-image-high-res/B56ZyPxEgkKUAY-/0/1771938531707?e=1786579200&v=beta&t=X7N6zVugDkQUKXNfWkY3si3p_g8q5FdvvzuArALfJmU",
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFI8-hP3Xkmhw/feedshare-shrink_1280/B56ZyPxEgdHsAg-/0/1771938531697?e=1786579200&v=beta&t=8O0ufYLjqKUlsjznJCSINHjxF853LAEA1Xf8DTuwXz0",
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQF18BASrU0thQ/feedshare-shrink_1280/B56ZyPxEgNJMAg-/0/1771938531657?e=1786579200&v=beta&t=PivGp6ZCMUoWyy5tKmgYb-OJsFQOOHCpfcXKg6oHg_w",
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQH3ujEI0WH-Aw/feedshare-shrink_1280/B56ZyPxEgMJMAg-/0/1771938531636?e=1786579200&v=beta&t=aKKGY4pEi5-Vl-Q1zb8SJP-60J_Vdh784cqoQzY80Ro",
+          "width": 1032,
+          "height": 1032
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGyBKCKffVy3w/feedshare-image-high-res/B56ZyPxEgTHUAc-/0/1771938531723?e=1786579200&v=beta&t=rlRGeJbVnRwQ1sYIIBffk8SErtmfLiSw1n-DuLnBQJc",
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEWvu2bd-0XcQ/feedshare-shrink_1280/B56ZyPxEgOKoAg-/0/1771938531721?e=1786579200&v=beta&t=3WgRRaLgNIxHHPCh_2lVP9H22xCeGkMH7a8IjUw2CtE",
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQF0tMQrx6fcUA/feedshare-image-high-res/B56ZyPxEgEKMAY-/0/1771938531698?e=1786579200&v=beta&t=C2Tz_EytYz1HQDL0ItaVYYfXCNkkmGQhRfRKEx_LFeo",
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFAmTa5n2aE5w/feedshare-image-high-res/B56ZyPxEhTKUAY-/0/1771938531838?e=1786579200&v=beta&t=rUeEoQC6RGdScXnARDZPPKIHu32OMG-bedi9Q3UZP9s",
+          "width": 1280,
+          "height": 960
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7432048871431864320",
+        "likes": 1544,
+        "comments": 54,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1283
+          },
+          {
+            "type": "PRAISE",
+            "count": 126
+          },
+          {
+            "type": "EMPATHY",
+            "count": 112
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 16
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480240021107732482",
+      "entityId": "7480240021107732482",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_most-of-us-wouldnt-drop-an-excel-file-in-activity-7480240021107732482-mz89",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480240019891351552",
+      "shareUrn": "urn:li:share:7480240019891351552",
+      "content": "Most of us wouldn't drop an Excel file in ChatGPT to analyze. We'd open Excel. Maybe get help from Copilot.\nBut it turns out that plenty of people can't be bothered to open Excel. They drag the file into ChatGPT and go with it.\n\nSo I was curious. Could it actually handle a proper file? \n\nNot a clean one-tab example. But multiple sheets it had to relate on its own, even where the column headers didn't match. Also no formulas. It would have to write the calculations on its own.\n\nI lined up four questions, each harder than the last. I was sure it would fall apart on the third one. Here's what happened: https://lnkd.in/dYsa2Fjs\n\nBTW - I think it's totally fine to use ChatGPT or any AI for ad-hoc analysis. For recurring reporting build a deterministic model with Power Query and Power Pivot instead.",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1783428197171,
+        "date": "2026-07-07T12:43:17.171Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGh5of9CyW85w/feedshare-image-high-res/B4DZ88mqXuJsAU-/0/1783428196136?e=1786579200&v=beta&t=LdKBn4WQmfJbqD7kMMm-Dq-tCgKcohaWxuG8tm0zpvk",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480240021107732482",
+        "likes": 218,
+        "comments": 32,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 203
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7463531450043129856",
+      "entityId": "7463531450043129856",
+      "linkedinUrl": "https://www.linkedin.com/posts/leilagharani_ges2026-activity-7463531450043129856-pok3",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7463531446666973184",
+      "shareUrn": "urn:li:ugcPost:7463531446666973184",
+      "content": "Just got back from Global Excel Summit in London.\nBTW that cape on the table isn't mine. I usually don't take it to conferences. \n\nVictor Momoh tackled the thing most people are quietly avoiding, and walked through it step by step until it actually clicked. Yep. REGEX.\n\nAnn K. Emery covered 40! visualization tips in 40 minutes. It was full of golden nuggets.\n\nDamien Bird from Microsoft showed how Power Automate and Copilot Studio can work together. A smooth live demo right on stage. Which is harder than it looks.\n\nJakob Nielsen also from Microsoft showed us how we can build our own data types in Excel with the Data Types add-in. Since organization data types are retired from Excel, this is the best replacement.\n\nUnpivot had an in person session on Power BI vs Excel. Real, funny, and honest about where each one actually wins.\n\nAnd Mark Proctor proved Excel can play Taylor Swift songs. 🎸 \nThat wasn't his only point. He also showed how Excel handles values in the backend, and how sometimes 1<>1 in Excel. Standup comedy meets the advanced stuff we thought we already knew.\n\nI had the honor of opening the event. Talking about the topics that are my top interests right now. Python's data science libraries and how complex time series analysis is actually realistically possible in Excel. Unlike what some articles might claim.\n\nThe thread running through almost every session: \nExcel isn't one tool anymore. It's a toolbox. And the toolbox keeps growing.\n\nIan Schnoor, put it well. Don't marry a single club. Every tool has strengths and weaknesses. The goal is finding the right fit for the situation and the person.\n\nDanielle Stein Fairhurst and Cristiano Galvao both made the case that even as AI takes on more, the human in the chain still matters. And yes, we might get annoyed with AI for many reasons but how we interact and how we ask AI stuff, matters a lot.\n\nGreat to catch up with Oz du Soleil and many others I usually just see once a year. I met many members of our Python in Excel and Power Query courses. Thanks to everyone for stopping by and telling me a bit about your stories.\n\nHuge thanks to Elena Lalovska, Tea Kuseva and the whole DATEL Productions Ltd. team for putting this together. And to Fay Bordbar and Giles Male for being such fun, easygoing hosts. \n\n#GES2026",
+      "author": {
+        "id": "ACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "universalName": null,
+        "publicIdentifier": "leilagharani",
+        "type": "profile",
+        "name": "Leila Gharani",
+        "linkedinUrl": "https://www.linkedin.com/in/leilagharani?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAEakOUB7VfuriOeDj_BpQfpNLlA-AL1KbI",
+        "info": "Excel & Python in Excel · Microsoft MVP (9x) · 3M YouTube",
+        "website": "https://www.xelplus.com/courses/",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C5603AQFk0XdXTB5wTw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1584565856022?e=1786579200&v=beta&t=U_5L4Neyp8tUFw1HbgbdiXOVmpMRe5uItAMza7zZz4s",
+          "width": 529,
+          "height": 529
+        },
+        "urn": "18518245"
+      },
+      "postedAt": {
+        "timestamp": 1779444563399,
+        "date": "2026-05-22T10:09:23.399Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFEP8C4erCCCQ/feedshare-image-high-res/B4DZ5PKS3DI8AI-/0/1779444559791?e=1786579200&v=beta&t=CUrLz2ceWwCt6QBaY66BRF34bdIbKYkwzwBkTry-5I8",
+          "width": 1536,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHbVT8-FjuVGA/feedshare-image-high-res/B4DZ5PKSPjJUAU-/0/1779444557086?e=1786579200&v=beta&t=ZQcaOtlls8Nmon2km1PzOiJIXG5pOqbO3l08xEIKNXQ",
+          "width": 960,
+          "height": 960
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHuMI5L_aE_jw/feedshare-image-high-res/B4DZ5PKSWvI4AU-/0/1779444557731?e=1786579200&v=beta&t=Qs_QloduV478RIMxCHfH8kTy7BlyOgA0SvIWcsSEdxw",
+          "width": 1438,
+          "height": 1438
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFaZoKhgxa0ng/feedshare-image-high-res/B4DZ5PKSssJ4Ag-/0/1779444559055?e=1786579200&v=beta&t=zpE5S2aIVpnVxPak8UIX3nyFEbaDr5MGWmqVjLOwLAY",
+          "width": 1536,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFqufDZAzmmJw/feedshare-image-high-res/B4DZ5PKTDWJQAU-/0/1779444560659?e=1786579200&v=beta&t=JR4vPqgk_tVoJ9_SOJfpLPQTzHHO_5WuwRI_fI0M3gY",
+          "width": 1536,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEsVBL06kbFtw/feedshare-image-high-res/B4DZ5PKTQJGcAU-/0/1779444561510?e=1786579200&v=beta&t=2EcK-64VFSUWDOJLKNxdXGLXMov_0C2Gj2on6kAWFYg",
+          "width": 1536,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7463531446666973184",
+        "likes": 373,
+        "comments": 27,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 309
+          },
+          {
+            "type": "EMPATHY",
+            "count": 41
+          },
+          {
+            "type": "PRAISE",
+            "count": 20
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/leilagharani",
+        "sessionId": "6ba3d508-3515-495c-8a06-4a0ca54848ee"
+      }
+    }
+  ]
+}

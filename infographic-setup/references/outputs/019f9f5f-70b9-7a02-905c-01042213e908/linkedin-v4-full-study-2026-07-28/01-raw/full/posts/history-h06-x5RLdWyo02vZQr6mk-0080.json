@@ -1,0 +1,3272 @@
+{
+  "runId": "x5RLdWyo02vZQr6mk",
+  "datasetId": "T83tmA6qmLFpCiAaW",
+  "offset": 80,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7452340465237934081",
+      "entityId": "7452340465237934081",
+      "linkedinUrl": "https://www.linkedin.com/posts/sammeli-sammalkorpi_giving-back-to-where-you-came-from-is-one-activity-7452340465237934081-mdpR",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7452340463715414017",
+      "shareUrn": "urn:li:share:7452340463715414017",
+      "content": "Giving back to where you came from is one of the more satisfying things in working life. Today that meant returning to Aalto University, my alma mater, for the IPSERA 2026 conference.\n\nI joined Ulla Luhtasela on a panel about how digitalization can support sustainability in purchasing and supply chain management. Never a dull topic for me. Procurement is a much bigger lever than cost, and digitalization turns the 80% of emissions hiding in scope 3 into something procurement can actually measure and manage.\n\n Thank you IPSERA and Aalto for having me. Until next time!",
+      "author": {
+        "id": "ACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "universalName": null,
+        "publicIdentifier": "sammeli-sammalkorpi",
+        "type": "profile",
+        "name": "Sammeli Sammalkorpi",
+        "linkedinUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "info": "CEO and Co-founder at Sievo",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQF4jMuvKuf2mQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655895156563?e=1786579200&v=beta&t=Rqz6T8HjUJjOhUl4pjQr_wXhTXIi1EfWEeMCGGsqOVc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "170719"
+      },
+      "postedAt": {
+        "timestamp": 1776776424703,
+        "date": "2026-04-21T13:00:24.703Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEgyiJjWC5zGA/feedshare-image-high-res/B4DZ2wIKOJGQAU-/0/1776776422976?e=1786579200&v=beta&t=9ap80r2dub7w8TOGZH2eRE6z1NJG6fAw4Vw7HsyPg4k",
+          "width": 2048,
+          "height": 1474
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7452340465237934081",
+        "likes": 92,
+        "comments": 3,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 81
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi",
+        "sessionId": "0472bb00-eb39-4b01-b558-2f1ca3a3eab2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7453080355777024000",
+      "entityId": "7453080355777024000",
+      "linkedinUrl": "https://www.linkedin.com/posts/sammeli-sammalkorpi_ai-everywhere-said-leadership-everywhere-activity-7453080355777024000-tm9U",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7453080354564784128",
+      "shareUrn": "urn:li:share:7453080354564784128",
+      "content": "'AI everywhere,' said leadership. 'Everywhere but our data,' said infosec. Sitting between that, as a CPO, is a genuinely frustrating place to be.\n\nBut actually, I find this frustration one of the more useful diagnostics in the market right now.\n\nAI is built for speed, Enterprise AI is built for control. Many vendors in the market right now are selling the first kind and calling it the second. \n\nThe question here isn't how to get infosec to say yes to the shiny new AI solution, but whether you're asking for Enterprise AI in the first place. \n\nThe demo looks the same either way. The architecture underneath doesn't.\n\nThe vendors who've built the enterprise layer with governance, controls, data confidentiality tend to get through. The ones who haven't, don't. We built that enterprise layer 22 years ago on the data side, and I find the same logic applies to every technology that eventually touches enterprise data. \n\nBut CPOs who learn to make that distinction now will find themselves nodding a lot less and asking a lot more!",
+      "author": {
+        "id": "ACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "universalName": null,
+        "publicIdentifier": "sammeli-sammalkorpi",
+        "type": "profile",
+        "name": "Sammeli Sammalkorpi",
+        "linkedinUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "info": "CEO and Co-founder at Sievo",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQF4jMuvKuf2mQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655895156563?e=1786579200&v=beta&t=Rqz6T8HjUJjOhUl4pjQr_wXhTXIi1EfWEeMCGGsqOVc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "170719"
+      },
+      "postedAt": {
+        "timestamp": 1776952828354,
+        "date": "2026-04-23T14:00:28.354Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFhMyr588Hz5w/feedshare-image-high-res/B4DZ26pFvwGQAU-/0/1776952827343?e=1786579200&v=beta&t=dGKjFSfdubdLABHUlgK_9rb85JC0WqWx-tlhRSJpEK4",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7453080355777024000",
+        "likes": 42,
+        "comments": 2,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 35
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi",
+        "sessionId": "0472bb00-eb39-4b01-b558-2f1ca3a3eab2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475879294511026179",
+      "entityId": "7475879294511026179",
+      "linkedinUrl": "https://www.linkedin.com/posts/sammeli-sammalkorpi_today-i-learned-that-breakfast-panels-and-activity-7475879294511026179-aufH",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7475878902545166336",
+      "shareUrn": "urn:li:ugcPost:7475878902545166336",
+      "content": "Today I learned that breakfast panels and endurance sports are not mutually exclusive… especially at 8 am in 30°C Hamburg.\n\nFortunately, the audience seemed considerably more heat resistant than I was.\n\nFantastic way to kick off the Procurement Summit with akirolabs, H&Z Management Consulting and Axpo Group.. No matter how enthusiastically you start talking about AI and agents, the conversation eventually ends up being about data. As it should!\n\nHuge thanks to Samuel Maier, Michael Pleuger, Oliver Fleck and Sven C. Schumacher as well as everyone attending for the great discussion. You made the early start (and the tropical conditions) absolutely worth it! 🌴",
+      "author": {
+        "id": "ACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "universalName": null,
+        "publicIdentifier": "sammeli-sammalkorpi",
+        "type": "profile",
+        "name": "Sammeli Sammalkorpi",
+        "linkedinUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "info": "CEO and Co-founder at Sievo",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQF4jMuvKuf2mQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655895156563?e=1786579200&v=beta&t=Rqz6T8HjUJjOhUl4pjQr_wXhTXIi1EfWEeMCGGsqOVc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "170719"
+      },
+      "postedAt": {
+        "timestamp": 1782388518932,
+        "date": "2026-06-25T11:55:18.932Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQH7a2Vh5R5QHQ/feedshare-image-high-res/B4DZ7.oOTMGkAY-/0/1782388418017?e=1786579200&v=beta&t=T7xlRgGyFMLYAlOP6aWlNCareg7zYnx98D2Moi4Ku6U",
+          "width": 1288,
+          "height": 969
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGciYipiWAVUg/feedshare-shrink_1280/B4DZ7.oO5MJwAM-/0/1782388423561?e=1786579200&v=beta&t=5Pl9cbNOdLYTm1Vt5rsjdsKkzQvPUcgoqRC_VI30iAk",
+          "width": 1280,
+          "height": 1707
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475878902545166336",
+        "likes": 42,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 40
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi",
+        "sessionId": "0472bb00-eb39-4b01-b558-2f1ca3a3eab2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7460407271378829312",
+      "entityId": "7460407271378829312",
+      "linkedinUrl": "https://www.linkedin.com/posts/sammeli-sammalkorpi_i-measure-sievos-growth-in-many-ways-square-activity-7460407271378829312-xOEB",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7460288533765873664",
+      "shareUrn": "urn:li:share:7460288533765873664",
+      "content": "I measure Sievo's growth in many ways. Square feet is one of them; perhaps less business relevant, but more fun.\n\nWe just signed a lease for a bigger office in Chicago. The old one couldn't keep up with us which, if I'm being honest, is a pretty sweet problem to have.\n\nWalking into a new office always makes the next chapter of growth feel very concrete.\n\nThe funny thing is, AI agents don't need much office space. But making them actually work in your business, with your data and all the mess that comes with it, that's still very much a human problem. And it's the one we're here to solve.\n\nOne last thing about the new office: the railway runs right outside the window, and trains pass all day. Feels like the right view for a company with no interest in standing still.",
+      "author": {
+        "id": "ACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "universalName": null,
+        "publicIdentifier": "sammeli-sammalkorpi",
+        "type": "profile",
+        "name": "Sammeli Sammalkorpi",
+        "linkedinUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "info": "CEO and Co-founder at Sievo",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQF4jMuvKuf2mQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655895156563?e=1786579200&v=beta&t=Rqz6T8HjUJjOhUl4pjQr_wXhTXIi1EfWEeMCGGsqOVc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "170719"
+      },
+      "postedAt": {
+        "timestamp": 1778699701161,
+        "date": "2026-05-13T19:15:01.161Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFsvBeyWT3l4g/feedshare-shrink_1280/B4DZ4hE42oKAAM-/0/1778671391058?e=1786579200&v=beta&t=9C8GVrCBt3G1K9YQ5_X98Gxb8SmS8dG-ey36q4fLQ3w",
+          "width": 1280,
+          "height": 1706
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7460407271378829312",
+        "likes": 377,
+        "comments": 18,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 324
+          },
+          {
+            "type": "PRAISE",
+            "count": 41
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi",
+        "sessionId": "0472bb00-eb39-4b01-b558-2f1ca3a3eab2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7457150402367512576",
+      "entityId": "7457150402367512576",
+      "linkedinUrl": "https://www.linkedin.com/posts/sammeli-sammalkorpi_procurement-analytics-spend-activity-7457150402367512576-HUL4",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7457150401579061250",
+      "shareUrn": "urn:li:share:7457150401579061250",
+      "content": "Few things give me as much pleasure as pulling on the threads of a giant dataset with people who actually want to see where they lead. \n\nThis week that meant an hour with Philip Ideson and Kelly Barner on Art of Procurement, going through the State of Spend report. Recommend a listen, especially if you've ever found yourself benchmarking your team against... well, your team.",
+      "author": {
+        "id": "ACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "universalName": null,
+        "publicIdentifier": "sammeli-sammalkorpi",
+        "type": "profile",
+        "name": "Sammeli Sammalkorpi",
+        "linkedinUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "info": "CEO and Co-founder at Sievo",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQF4jMuvKuf2mQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655895156563?e=1786579200&v=beta&t=Rqz6T8HjUJjOhUl4pjQr_wXhTXIi1EfWEeMCGGsqOVc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "170719"
+      },
+      "postedAt": {
+        "timestamp": 1777923203079,
+        "date": "2026-05-04T19:33:23.079Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7457042592179048448",
+        "linkedinUrl": "https://www.linkedin.com/posts/art-of-procurement_procurement-analytics-spend-activity-7457042592179048448-AyMz",
+        "content": "What would your procurement strategy look like if you could benchmark against $1.4 trillion in spend across industries, categories, and regions?\n\n🎧 https://lnkd.in/gDWt-K_S\n\nThat’s exactly the perspective Sammeli Sammalkorpi, Co-Founder and CEO at Sievo, shares in this week’s podcast episode. One of the biggest takeaways is this: even the most mature procurement organizations still have meaningful opportunities hiding in plain sight.\n\nNot because they are underperforming overall, but because performance is uneven. Strength in some areas can mask gaps in others.\n\nOne question from the conversation really stood out: “If you're spending 20% more than your industry peers in a category, is that justified or just accepted?”\n\nThat is where benchmarking becomes powerful. It moves the conversation from assumption to evidence, and from reporting to action.\n\nWe also explored how spend spikes, payment terms, and even long-standing policies like “no PO, no pay” can reveal deeper opportunities to improve how procurement contributes to the business.\n\n📺 Watch the full conversation and see where your biggest opportunities might be: https://lnkd.in/gnS9a-WJ\n\n#procurement #analytics #spend",
+        "contentAttributes": [
+          {
+            "start": 148,
+            "length": 24,
+            "type": "TEXT_LINK",
+            "hyperlink": null,
+            "textLink": "https://lnkd.in/gDWt-K_S"
+          },
+          {
+            "start": 205,
+            "length": 19,
+            "type": "PROFILE_MENTION",
+            "hyperlink": "https://www.linkedin.com/in/ACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+              "firstName": "Sammeli",
+              "lastName": "Sammalkorpi",
+              "linkedinUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi",
+              "publicIdentifier": "sammeli-sammalkorpi"
+            }
+          },
+          {
+            "start": 248,
+            "length": 5,
+            "type": "COMPANY_NAME",
+            "hyperlink": "https://www.linkedin.com/company/sievo-oy/",
+            "textLink": null,
+            "company": {
+              "id": "95761",
+              "name": "Sievo",
+              "linkedinUrl": "https://www.linkedin.com/company/sievo-oy/"
+            }
+          },
+          {
+            "start": 1133,
+            "length": 24,
+            "type": "TEXT_LINK",
+            "hyperlink": null,
+            "textLink": "https://lnkd.in/gnS9a-WJ"
+          }
+        ],
+        "author": {
+          "id": "7590008",
+          "universalName": "art-of-procurement",
+          "publicIdentifier": null,
+          "type": "company",
+          "name": "Art of Procurement",
+          "linkedinUrl": "https://www.linkedin.com/company/art-of-procurement/posts",
+          "info": "26,830 followers",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHXaolcRBHPjw/company-logo_400_400/company-logo_400_400/0/1735744760325/art_of_procurement_logo?e=1786579200&v=beta&t=hdb-PeRvVzUznQsz5EZ53NuGIY2UGwaWbxPnavqj7X8",
+            "width": 400,
+            "height": 400
+          },
+          "urn": "7590008"
+        },
+        "postedAt": {
+          "timestamp": 1777897499127,
+          "date": "2026-05-04T12:24:59.127Z",
+          "postedAgoShort": "2mo",
+          "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQHAJIuTlzKByg/feedshare-image-high-res/B56Z3y8uSlH4AU-/0/1777897497999?e=1786579200&v=beta&t=XoeeFpOY_4tPr8hYsqNQkCdAOwS9twC7CjUGzPh00a0",
+            "width": 1200,
+            "height": 1200
+          }
+        ],
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": true,
+          "hideSendAction": true,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/art-of-procurement_procurement-analytics-spend-activity-7457042592179048448-AyMz?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7457042592179048448",
+        "shareUrn": "urn:li:share:7457042588764901377",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7457042588764901377",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7457150402367512576",
+        "likes": 16,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 13
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi",
+        "sessionId": "0472bb00-eb39-4b01-b558-2f1ca3a3eab2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7463539968095756288",
+      "entityId": "7463539968095756288",
+      "linkedinUrl": "https://www.linkedin.com/posts/sammeli-sammalkorpi_where-does-finlands-next-growth-story-come-activity-7463539968095756288-XEG0",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7463539967198355456",
+      "shareUrn": "urn:li:share:7463539967198355456",
+      "content": "Where does Finland's next growth story come from?\n\nThat's the theme at Prodeko Seminar today. Couldn't be there, which is a shame, but the question is worth thinking about regardless.\n\nMy honest take is that growth comes from the same place it always has: people who know how to build things and are stubborn enough to keep going when it gets hard.\n\nI know it sounds like a bad motivational poster and I apologize for that. But I've watched enough companies up close (including Sievo) to believe that stubbornness is an underrated competitive advantage.\n\nThough I'd add one disclaimer here: there are different kinds of stubbornness. Finns are good at the head-down, iterate-until-it-works kind. Going into faraway rooms where nobody has heard of you and staying anyway, that's the stubbornness we need more of.\n\nYou can have the talent, the timing, the capital, the product. None of that matters if you need the odds to be in your favor. \n\nThe good news is Finland has never been great at reading the odds anyway.",
+      "author": {
+        "id": "ACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "universalName": null,
+        "publicIdentifier": "sammeli-sammalkorpi",
+        "type": "profile",
+        "name": "Sammeli Sammalkorpi",
+        "linkedinUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "info": "CEO and Co-founder at Sievo",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQF4jMuvKuf2mQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655895156563?e=1786579200&v=beta&t=Rqz6T8HjUJjOhUl4pjQr_wXhTXIi1EfWEeMCGGsqOVc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "170719"
+      },
+      "postedAt": {
+        "timestamp": 1779446594261,
+        "date": "2026-05-22T10:43:14.261Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7463539968095756288",
+        "likes": 64,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 56
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi",
+        "sessionId": "0472bb00-eb39-4b01-b558-2f1ca3a3eab2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7442946779047817216",
+      "entityId": "7442946779047817216",
+      "linkedinUrl": "https://www.linkedin.com/posts/sammeli-sammalkorpi_creative-destruction-is-only-a-problem-if-activity-7442946779047817216-NQMS",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442946775843487744",
+      "shareUrn": "urn:li:ugcPost:7442946775843487744",
+      "content": "Creative destruction is only a problem if you're not taking it as an opportunity. AI is making sure everyone has to pick a side.\n\nIn this context, it was more relevant than ever to listen to Philippe Aghion, the Nobel Prize winner in Economics. Spent this morning at his talk in Helsinki, organized by Prime Minister Petteri Orpo and the Economic Council, alongside Peter Sarlin and Pia Santavirta.\n\nThe big thesis: real growth happens through creative destruction... innovations making old ones obsolete.\n\nRight now, procurement is experiencing a disruption like this. Procurement has always operated with real-life limits on what's feasible. Time and attention are finite, and the function has always had to make peace with that. Agentic AI is starting to change the physics.\n\nWe're about to find out what procurement can actually look like beyond those constraints. Honestly, that's the most exciting thing I've seen in years. It's not only about the cost saving potential, but also thinking about everything AI makes possible for our customers. Things that simply weren't possible before.",
+      "author": {
+        "id": "ACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "universalName": null,
+        "publicIdentifier": "sammeli-sammalkorpi",
+        "type": "profile",
+        "name": "Sammeli Sammalkorpi",
+        "linkedinUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "info": "CEO and Co-founder at Sievo",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQF4jMuvKuf2mQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655895156563?e=1786579200&v=beta&t=Rqz6T8HjUJjOhUl4pjQr_wXhTXIi1EfWEeMCGGsqOVc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "170719"
+      },
+      "postedAt": {
+        "timestamp": 1774536795389,
+        "date": "2026-03-26T14:53:15.389Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEEgxUcKD6-Iw/feedshare-image-high-res/B4DZ0qopmrHMAU-/0/1774536792932?e=1786579200&v=beta&t=OF-XvJVCoz57nSoX9KQYl6_roLj3YAag8XaJx0h7XsI",
+          "width": 2048,
+          "height": 1535
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGXnextXVAqUA/feedshare-image-high-res/B4DZ0qopo2GUAU-/0/1774536793185?e=1786579200&v=beta&t=jkHrc-oM_M0lZs0LKBDER9tJD-pK3PozaXAEmFnCXOA",
+          "width": 2047,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7442946775843487744",
+        "likes": 40,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 35
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi",
+        "sessionId": "0472bb00-eb39-4b01-b558-2f1ca3a3eab2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7447271675601178624",
+      "entityId": "7447271675601178624",
+      "linkedinUrl": "https://www.linkedin.com/posts/sammeli-sammalkorpi_what-important-truth-do-very-few-people-agree-activity-7447271675601178624-IfMd",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7447271674590248960",
+      "shareUrn": "urn:li:share:7447271674590248960",
+      "content": "What important truth do very few people agree with you on?\n\nThis is the classic Peter Thiel interview question. And my go-to-answer has been, \"Investing in women's football in Finland has, amongst other benefits, unavoidably a good ROI\". I may have scored low on \"how important\" truth this is (well, it's important to me) - but I definitely have scored well on \"very few people agree\" part.\n\nNow, I'm happy to realize I may soon need to change my go-to-answer, as the facts that prove the business case are emerging.\n\nHJK Women's (club I'm investor in) second year as an independent company was completed, and we're seeing:\n- 188 % y-o-y revenue growth, now at 560 kEUR\n- 50 % y-o-y reduction in losses, now at -207 kEUR\n\nIt is now obvious (to me, at least), that the business model works. We expect to see top-line growth continue, and us reaching break-even latest in 2028. Key drivers of revenue are (i) sponsorship agreements; (ii) Euro-game revenue, and (iii) player transfer fees.\n\nHuge kudos to Jussi Raita, CEO at HJK Naiset, who has created this growth. \n\nPS. Not doing bad sporting wise, either. In Finland, we won last year all 3 trophies available to us. Haven't lost a home game in national league since 2023. This season... 2 games played, 2 won.",
+      "author": {
+        "id": "ACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "universalName": null,
+        "publicIdentifier": "sammeli-sammalkorpi",
+        "type": "profile",
+        "name": "Sammeli Sammalkorpi",
+        "linkedinUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "info": "CEO and Co-founder at Sievo",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQF4jMuvKuf2mQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655895156563?e=1786579200&v=beta&t=Rqz6T8HjUJjOhUl4pjQr_wXhTXIi1EfWEeMCGGsqOVc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "170719"
+      },
+      "postedAt": {
+        "timestamp": 1775567931080,
+        "date": "2026-04-07T13:18:51.080Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7447271675601178624",
+        "likes": 78,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 62
+          },
+          {
+            "type": "PRAISE",
+            "count": 12
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi",
+        "sessionId": "0472bb00-eb39-4b01-b558-2f1ca3a3eab2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7450100625469710336",
+      "entityId": "7450100625469710336",
+      "linkedinUrl": "https://www.linkedin.com/posts/sammeli-sammalkorpi_last-time-i-wrote-that-the-ultimate-life-activity-7450100625469710336--rzz",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7450100624408399872",
+      "shareUrn": "urn:li:share:7450100624408399872",
+      "content": "Last time I wrote that the ultimate life achievement for a Finnish engineer is to be invited to Sweden to speak about enterprise sales. Turns out there's one even better: being invited back.\n\nExcited to be on stage at SaaSiest again on May 5-6 in Malmö. Same topic, but with AI reshaping SaaS, there's never been more at stake for getting enterprise sales right.",
+      "author": {
+        "id": "ACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "universalName": null,
+        "publicIdentifier": "sammeli-sammalkorpi",
+        "type": "profile",
+        "name": "Sammeli Sammalkorpi",
+        "linkedinUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "info": "CEO and Co-founder at Sievo",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQF4jMuvKuf2mQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655895156563?e=1786579200&v=beta&t=Rqz6T8HjUJjOhUl4pjQr_wXhTXIi1EfWEeMCGGsqOVc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "170719"
+      },
+      "postedAt": {
+        "timestamp": 1776242405288,
+        "date": "2026-04-15T08:40:05.288Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGnsf3zVHHGMA/feedshare-shrink_800/B4DZ2QTChTHMAc-/0/1776242403634?e=1786579200&v=beta&t=WtuQSFncpC6_qOLs25h6ijK0rcMHGass4_H6Hr2-KpA",
+          "width": 640,
+          "height": 533
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7450100625469710336",
+        "likes": 126,
+        "comments": 4,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 99
+          },
+          {
+            "type": "PRAISE",
+            "count": 19
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi",
+        "sessionId": "0472bb00-eb39-4b01-b558-2f1ca3a3eab2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7454550178151264256",
+      "entityId": "7454550178151264256",
+      "linkedinUrl": "https://www.linkedin.com/posts/sammeli-sammalkorpi_every-wappu-im-reminded-of-where-sievo-activity-7454550178151264256-CEvy",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7454550175144009728",
+      "shareUrn": "urn:li:share:7454550175144009728",
+      "content": "Every Wappu, I'm reminded of where Sievo really came from.\n\nI happen to come from Prodeko, Guild of Industrial Engineering and Management. A pretty unusual student community, in the best sense.\n\nA lot of who I am and a lot of what Sievo turned out to be, started in that crowd. Life-long friendships, business instincts I still rely on, high tolerance for ambiguity, and the healthy habit of not always taking myself too seriously... all of it.\n\nSo every Wappu, when a new Prodeko generation shows up at our office in rainbow-striped overalls, I clear my calendar. Once a year my past walks back in, and I get to say thanks in person.\n\nToday was no exception. Thanks for coming by, see you next time!",
+      "author": {
+        "id": "ACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "universalName": null,
+        "publicIdentifier": "sammeli-sammalkorpi",
+        "type": "profile",
+        "name": "Sammeli Sammalkorpi",
+        "linkedinUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAACmt8B0Y05hYbab_-nrAiSoFwsf6qFE5s",
+        "info": "CEO and Co-founder at Sievo",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQF4jMuvKuf2mQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655895156563?e=1786579200&v=beta&t=Rqz6T8HjUJjOhUl4pjQr_wXhTXIi1EfWEeMCGGsqOVc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "170719"
+      },
+      "postedAt": {
+        "timestamp": 1777303261316,
+        "date": "2026-04-27T15:21:01.316Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHAIy981ojAVw/feedshare-image-high-res/B4DZ3Ph4coHkAU-/0/1777303259715?e=1786579200&v=beta&t=BOSQTrpIrcAPIj6UmmvXXWHe4ySSQ3EmrFGQL5fwxIc",
+          "width": 2048,
+          "height": 1437
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7454550178151264256",
+        "likes": 239,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 200
+          },
+          {
+            "type": "EMPATHY",
+            "count": 20
+          },
+          {
+            "type": "PRAISE",
+            "count": 18
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sammeli-sammalkorpi",
+        "sessionId": "0472bb00-eb39-4b01-b558-2f1ca3a3eab2"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487781029441814528",
+      "entityId": "7487781029441814528",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_deleting-50-of-my-profile-content-resulted-activity-7487781029441814528-8SkD",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487780767952056321",
+      "shareUrn": "urn:li:ugcPost:7487780767952056321",
+      "content": "Deleting 50'% of my profile content resulted in 2x more relevant profile viewers within 3 weeks. Here's why!\n\nFor years I treated my LinkedIn profile like an archive.\n\nFrench profile.\nDutch profile.\nGerman profile.\nSpanish profile.\n\nOld services.\nOutdated achievements.\nTopics of my previous life that I no longer wanted to be known for.\n\nWith the introduction of LinkedIn's Interest Graph I realized something.\nMy profile was attracting confusion instead of clients.\n\nSo I made 3 instant changes.\n\n• I deleted all second-language profiles and kept one English version.\n• I removed roughly 50% of my old content and experience.\n• I rewrote my headline, About section and work descriptions fully from the client perspective.\n\nNot “what I did.”\nBut “how I help.”\n\nWithin 3 weeks my profile attracted far more relevant visitors and my content reach increased by 20-30%.\n\nLinkedIn rewards clarity.\nSo does your human audience.\n\nMost profiles don’t need more information.\nThey need less noise.\n\nPS: When was the last time you really restructured your profile?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1785226113663,
+        "date": "2026-07-28T08:08:33.663Z",
+        "postedAgoShort": "12h",
+        "postedAgoText": "12 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQHzTXcuMlck2Q/videocover-high/B4DZ.nxH1UIEBU-/0/1785226104234?e=1785877200&v=beta&t=64QOWMk6_LTKYX8eisx_NSGRKeAEfRZgK8VGLTRK1dk",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHzTXcuMlck2Q/mp4-720p-30fp-crf28/B4DZ.nxH1UIECQ-/0/1785226108411?e=1785877200&v=beta&t=oZH48LZL_IbUtKtDx_elAgxMImR1xs0eHsUiVhMkhCs"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487780767952056321",
+        "likes": 225,
+        "comments": 92,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 176
+          },
+          {
+            "type": "INTEREST",
+            "count": 31
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485945049168576513",
+      "entityId": "7485945049168576513",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_embracing-myself-for-46-degrees-here-today-activity-7485945049168576513-fkBs",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485945047688036353",
+      "shareUrn": "urn:li:share:7485945047688036353",
+      "content": "Embracing myself for 46 degrees here today outside Valencia. That means getting up at 6:00am, taking care of the animals (ducks, chickens, geese, pigs) and walking Siena 🐶.\n \nWriting this post at 8:20am outside with the temperature already on 33 degrees, before heading back into the house and spending time with my beloved air-conditioning.\n \nI'm privileged to live in the middle of nature in beautiful Spain, but last year forest fires came close to 15km from my house, we could see the flames at night on top of the mountains at the horizon.\n \nThe extreme heat makes me more aware of how surface and architecture can influence what we feel every single day.\n \nLooking at my plot I have asphalt, dried grass, weeds, trees, buildings. It's a dance between shade and full exposure to sun.\n\nThis one photo (originally posted by Louis De Jaeger) says more than any climate report.\n \nSame street. \nSame sun. \nSame moment. \nThe only difference is what covers the ground.\n \nAsphalt and brick soak up the sun all day, then radiate it back at us long into the night. This is the urban heat island effect, baked into how we build.\n \nTrees don't just block sun. They actively cool the air by releasing water, like a natural air conditioner running for free.\n \nWe spend fortunes on air conditioning to fight a heat we designed into our cities. Meanwhile the cheapest, most beautiful cooling technology on earth grows from the ground and asks for almost nothing in return.\n \nA city without trees is an oven. A city with trees is a refuge. \n \nDefinitely going to plant some extra trees in autumn\n\nPS: Let me know, how many degrees are you expecting and where?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1784788381855,
+        "date": "2026-07-23T06:33:01.855Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFRHyGU2MweLA/feedshare-image-high-res/B4EZ.NrWr6HsAY-/0/1784788380677?e=1786579200&v=beta&t=N8RGzJp6Fk0MIiu5BaQBpaxVzKam2eCAsAO4uTm-Y7k",
+          "width": 800,
+          "height": 1065
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485945049168576513",
+        "likes": 512,
+        "comments": 115,
+        "shares": 14,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 414
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 32
+          },
+          {
+            "type": "EMPATHY",
+            "count": 25
+          },
+          {
+            "type": "INTEREST",
+            "count": 23
+          },
+          {
+            "type": "PRAISE",
+            "count": 17
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487394885134798848",
+      "entityId": "7487394885134798848",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_rvdb4-system-of-trust-building-activity-7487394885134798848-hG5y",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487394882026635264",
+      "shareUrn": "urn:li:ugcPost:7487394882026635264",
+      "content": "Trust isn't a decision your audience makes on purpose. It's a shortcut their brain takes to avoid risk. Understand this and you'll grow your impact.\n\nMost people treat LinkedIn trust like a light switch.\n \nPost → hope people believe you.\n \nUnfortunately that's not how it works. The shortcut to avoid bad decisions fires in milliseconds, long before anyone reads your value proposition.\n \nA few things happening in your reader's head, whether you're aware of it or not:\n \n1. The halo effect.\n   means they judge your credibility before they've read a single line, based purely on how your profile looks.\n \n2. Specificity beats vagueness, every time. \n   Vague claims trigger skepticism. Specific claims (even small ones) trigger belief, because the brain trusts receipts more than promises.\n \n3. Loss aversion is why a single thoughtful comment does more for your pipeline than five posts. \n   Rare reads as valuable, and most engagement on this platform is not rare.\n \n4. And the mere-exposure effect explains why the fifth touchpoint lands and the first one doesn't. \n   Your reader isn't more convinced by then. They're just less afraid.\n \nNone of this happens by accident. It happens because trust is an integrated system with four moving parts, working in sequence, not in isolation.\n \nI've been on the platform since 2005 and honestly over 95% of people over-invest in just one signle part of that system, ignore the rest, then wonder why visibility never turns into pipeline.\n \nIn the Carousel you'll find the 4 pillars to build trust on LinkedIn. \nSwipe through it and let me know which one needs more attention!",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1785134049686,
+        "date": "2026-07-27T06:34:09.686Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "RVDB_4 System of trust Building",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQFz582ieTRzQA/feedshare-document-sanitized-pdf/B4EZ.iP2YXJQA8-/0/1785133496730?e=1785877200&v=beta&t=P9poiPAu6PW5OXqiyvlrVHbMMwB6ffuaHJUrkWJY_lE",
+        "coverPages": [
+          {
+            "width": 1925,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4E1FAQFz582ieTRzQA/feedshare-document-cover-images_1920/B4EZ.iP2YXJQBQ-/0/1785133497217?e=1785877200&v=beta&t=AATQaKyjLU98HXCK0sjfAl-i9qROTBuK1AyRoC7ULjo",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQFz582ieTRzQA/feedshare-document-cover-images_1920/B4EZ.iP2YXJQBQ-/1/1785133497217?e=1785877200&v=beta&t=SJAl0fGdoKzClPsJ0OLxJf47lD5-8WXXeWBXPCtNph4",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQFz582ieTRzQA/feedshare-document-cover-images_1920/B4EZ.iP2YXJQBQ-/2/1785133497217?e=1785877200&v=beta&t=NvsqlUbkOaowb0WU3ZbQnk4SKXkKeBsYJLtoEmXFjns"
+            ],
+            "height": 1925
+          }
+        ],
+        "totalPageCount": 8,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQFz582ieTRzQA/feedshare-document-master-manifest/B4EZ.iP2YXJQBY-/0/1785133497788?e=1785877200&v=beta&t=ey1d-0iuAhGVJ66Zu5tC647V8ghnqZZWf06vl3FljP0",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4E1FAQFz582ieTRzQA",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQFz582ieTRzQA/feedshare-document-transcript/B4EZ.iP2YXJQA0-/0/1785133497788?e=1785974400&v=beta&t=TxvndKk4MIwya8wXzo5hvwynSIq2LF7hYKI7aASPGWQ",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQFz582ieTRzQA/feedshare-document-pdf-analyzed/B4EZ.iP2YXJQAY-/0/1785133497788?e=1785974400&v=beta&t=JzGTR4cDQ8jjRxD2kPRMIAhqbZlDBP5ThOpuK4TNSUE",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 800,
+              "height": 800,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQFz582ieTRzQA/feedshare-document-images_800/B4EZ.iP2YXJQAk-/0/1785133497788?e=1785974400&v=beta&t=dpHJlUdbmVGGt_Ip4ima7wKeTI9s8_wELsforgWcq_8"
+            },
+            {
+              "width": 500,
+              "height": 500,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQFz582ieTRzQA/feedshare-document-images_480/B4EZ.iP2YXJQAg-/0/1785133497788?e=1785974400&v=beta&t=3PgRQTEqGl5ZhsNcNql1jaOeIhZpaVX4x4y0Mv3LAyQ"
+            },
+            {
+              "width": 1300,
+              "height": 1300,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQFz582ieTRzQA/feedshare-document-images_1280/B4EZ.iP2YXJQAQ-/0/1785133497788?e=1785974400&v=beta&t=irNTRoOZFjK3EkxhGNhq41L1O5QpQHZEzT90XpgJcTQ"
+            },
+            {
+              "width": 1925,
+              "height": 1925,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQFz582ieTRzQA/feedshare-document-images_1920/B4EZ.iP2YXJQAo-/0/1785133497788?e=1785974400&v=beta&t=93WEtbvAewD_8RhHt2h1nHY5-YP9QDwgZl_Wf9bjDmw"
+            },
+            {
+              "width": 175,
+              "height": 175,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQFz582ieTRzQA/feedshare-document-images_160/B4EZ.iP2YXJQAc-/0/1785133497788?e=1785974400&v=beta&t=c2wP0SKZ9R7Qxdi3OYvOfehMsNKEREwKFAFIscEKjsU"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487394882026635264",
+        "likes": 155,
+        "comments": 79,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 124
+          },
+          {
+            "type": "INTEREST",
+            "count": 14
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487094134860767232",
+      "entityId": "7487094134860767232",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_i-read-so-many-wrong-advice-on-external-links-activity-7487094134860767232-CsFv",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487094134303019008",
+      "shareUrn": "urn:li:ugcPost:7487094134303019008",
+      "content": "I read so many wrong advice on external links on LinkedIn, that I decided to dedicate an entire LinkedIn Newsletter to this topic.\n\nBecause external links don't kill your reach. Your strategy does.\n\nI just pulled fresh data from 300,000 posts published between March and June, and one number completely reversed since April. The advice about stacking multiple links to soften the penalty? It's not just outdated now. It's actively backfiring.\n\nI also found out why the \"link in the first comment\" trick is quietly costing people conversions, not just reach, and what LinkedIn actually does to comments that contain links that almost nobody has noticed yet.\n\nIn this week's newsletter I break down:\n- The real reach cost of a single link, updated for June\n- Why more links used to help and now actively hurts\n- What LinkedIn does to links in comments (and the conversion gap it creates)\n- The difference between a link that costs you and one that earns its click\n- Six ways to convert without paying the reach penalty at all\n\nIf you post on LinkedIn and use links, even occasionally, this one will change how you write your next CTA.\n\nClick below to read it.",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1785062345233,
+        "date": "2026-07-26T10:39:05.233Z",
+        "postedAgoShort": "2d",
+        "postedAgoText": "2 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "#67 The Link Penalty Just Changed. Most People Missed It.",
+        "subtitle": "Richard van der Blom",
+        "link": "https://www.linkedin.com/pulse/67-link-penalty-just-changed-most-people-missed-richard-van-der-blom-9iese?trackingId=j%2BNIP9dAqaqDlHF%2BgzqfIA%3D%3D",
+        "linkLabel": "Open article: #67 The Link Penalty Just Changed. Most People Missed It. by Richard van der Blom • 8 min read",
+        "description": "Everyone has an opinion on external links. Almost nobody has the data. So this week, no frameworks, no formats, just one question answered properly: w",
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E12AQHfBYbI6Lqv8g/article-cover_image-shrink_720_1280/B4EZ.aiDBzJUAQ-/0/1785004044719?e=1786579200&v=beta&t=OH2oQwcgqyGynSO5Oyb75S-l-MdX725NuWh--_ZM-fE",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487094134303019008",
+        "likes": 377,
+        "comments": 102,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 271
+          },
+          {
+            "type": "INTEREST",
+            "count": 90
+          },
+          {
+            "type": "PRAISE",
+            "count": 10
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484560678020849664",
+      "entityId": "7484560678020849664",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_i-broke-my-own-rule-last-week-six-posts-activity-7484560678020849664-EKMq",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7484560677399900161",
+      "shareUrn": "urn:li:ugcPost:7484560677399900161",
+      "content": "I broke my own rule last week.\nSix posts a week, every week, since January. \n\nThen my content library dried up mid-week and I had nothing left to publish. Ironic, since this week's newsletter is entirely about posting frequency and what the data actually says about it.\n\nBut frequency isn't even the headline. AI is.\n\nA new analysis of 287,000+ posts just priced exactly what certain AI writing habits cost you in reach. Some phrases you've probably used this month are quietly tanking your distribution. Others, surprisingly, are helping.\n\nThis week's edition covers:\n\n1. The real numbers behind posting once, twice, three times, or daily, and where the payoff actually sits\n2. The AI patterns costing creators reach right now, priced individually\n3. An AI tool that's already changed how I plan my Monday mornings\n4. A live Mastermind session on AI and LinkedIn strategy without losing your voice\n\nClick below to read the full breakdown.",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1784458322053,
+        "date": "2026-07-19T10:52:02.053Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "#66 The AI Slop Reach Penalty",
+        "subtitle": "Richard van der Blom",
+        "link": "https://www.linkedin.com/pulse/66-ai-slop-reach-penalty-richard-van-der-blom-4u3he?trackingId=9YmPyC%2FcMSPtrIbIZABl6w%3D%3D",
+        "linkLabel": "Open article: #66 The AI Slop Reach Penalty by Richard van der Blom • 6 min read",
+        "description": "Last week I broke a habit I'd kept unbroken since January, and the reason had nothing to do with laziness. My head was too full of new ideas to make r",
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E12AQGiuOSIe-5QKg/article-cover_image-shrink_720_1280/B4EZ96ADXnIwAQ-/0/1784458267092?e=1786579200&v=beta&t=wqYwcP5bi3YeEARMiS5ZCooZnDHFb8RCFlN5HI9GSmc",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484560677399900161",
+        "likes": 230,
+        "comments": 76,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 184
+          },
+          {
+            "type": "INTEREST",
+            "count": 33
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485587121517391872",
+      "entityId": "7485587121517391872",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_two-types-of-linkedin-creators-only-one-activity-7485587121517391872-QYQj",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485587118505824256",
+      "shareUrn": "urn:li:share:7485587118505824256",
+      "content": "Two types of LinkedIn creators. Only one builds a brand that survives.\nThe Hype Guy vs. The Doom Guy. \n\nYou probably know a Hype Guy. Every post is a win. \nEvery client is thrilled. LinkedIn \"loves\" him.\n \nThen we have the The Doom Guy. LinkedIn is broken. Reach is dead. \nHe's burned out and telling you about it daily.\n \nBoth work short-term. Both quietly damage your brand long-term.\n \n𝗟𝗲𝘁'𝘀 𝗹𝗼𝗼𝗸 𝗮𝘁 𝘁𝗵𝗲 𝗱𝗮𝘁𝗮 𝗮𝗻𝗱 𝗽𝘀𝘆𝗰𝗵𝗼𝗹𝗼𝗴𝘆, 𝗶𝗻 𝘀𝗶𝗺𝗽𝗹𝗲 𝗹𝗮𝗻𝗴𝘂𝗮𝗴𝗲:\n \n1. Our feeds are already biased toward positivity. Across major platforms, 80–90% of posts lean positive, even when people are not that happy offline. Result: your \"always winning\" narrative stops feeling inspiring and starts feeling fake.\n2. Vulnerability does create connection, but only in a specific form. Recent studies show people trust you most when you share past, mild vulnerabilities plus current competence. \"I struggled with X, here is how I solved it, here is the system\" beats both \"I never struggle\" and \"I'm still drowning.\"\n3. Extremes drive engagement, not authority. One large LinkedIn analysis found neutral or mixed-tone posts can drive up to 9x more meaningful engagement than overly positive ones, and negative posts often spark more comments than hype posts. But if all you post is outrage, people see you as entertaining, not as someone they'd pay.\n \n𝗪𝗵𝗮𝘁 𝘁𝗵𝗶𝘀 𝗺𝗲𝗮𝗻𝘀 𝗳𝗼𝗿 𝘆𝗼𝘂𝗿 𝗯𝗿𝗮𝗻𝗱:\n \nLive in \"everything is a success\" mode, and short-term you get more likes, less friction, easier sponsor deals. Long-term you get less perceived authenticity and an audience that quietly doubts your numbers and your advice.\n \nLive in \"LinkedIn is evil, I struggle every day\" mode, and short-term you get more comments, more debate, more \"finally someone says it.\" Long-term you brand yourself as the system's victim, not the operator who can navigate it and help others win.\n \nPeople follow success with scars. \nNot success without cracks. \nNot struggle without solutions. \n \nMy recommendation: show wins with receipts. Show struggles with constraints. Stop performing at the extremes, and let your feed show competence and honesty instead of hype and drama.\n\nNow! Audit your last 30 posts. Which extreme are you closer to, and what is that doing to how people trust your brand?\n\nNote to myself: let's balance it a bit more okay Mr. Critical Guy?\nPS: Bonus points for guessing the venue where this picture was taken.",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1784703045253,
+        "date": "2026-07-22T06:50:45.253Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGdzmYq1aJxnA/feedshare-shrink_1280/B4EZ.Il0cgJ0AM-/0/1784703043689?e=1786579200&v=beta&t=_rqO7_JeLUzJ57Xm3-mEsDeKhxoXbRTFsEK0K1b7voY",
+          "width": 477,
+          "height": 655
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485587121517391872",
+        "likes": 155,
+        "comments": 91,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 122
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 10
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483101545094594560",
+      "entityId": "7483101545094594560",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_aiemployee-activity-7483101545094594560-Zy-B",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483101543534202880",
+      "shareUrn": "urn:li:share:7483101543534202880",
+      "content": "Five campaigns. Twenty-nine countries. $2.5 million in ad spend. Their team was completely maxed out.\n\nKulina is a European e-commerce brand selling kitchenware across 29 markets. Their performance marketing team was running at full capacity. Every day managing five campaigns, watching budgets, pausing waste, scaling winners, across every market, manually.\n\nThe ceiling wasn't budget or strategy; it was purely operational capacity.\nThere simply weren't enough hours in the working day to manage more.\n\nSo they added Viktor, an AI employee that lives in Slack, connects to their ad platforms, and actually operates the campaigns.\n\nI’m not talking about advising them, no, I’m talking about operating them after your approval.\n\nThe result: they went from 5 campaigns to 60, across all 29 markets, optimized twice a day. But with the same team and headcount.\n\nThat's a 12x increase in campaign volume. Same team and headcount.\n\nA significant gap is now emerging between companies that deploy AI to 𝘥𝘰 work and those that merely ask AI for advice.\n\nThis gap is already visible in output tables, cost structures, and campaign dashboards.\n\nMost AI tools offer your team better answers.\nviktor.com, however, multiplies your team's capacity.\n\nOr as Kulina’s CEO Antonín Štětina stated: “Mindblowing all-in-one AI which does everything in a single solution”\n\nGet started free at https://lnkd.in/eSRzx35H  $ 100 in credits included, no card.\n\nIs your team still asking AI for advice or putting it to work?\n\nPS: In Partnership with Viktor\n\n#AIEmployee",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1784110437654,
+        "date": "2026-07-15T10:13:57.654Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFwxinGyOR6PA/feedshare-image-high-res/B4EZ9b_8HyJgAY-/0/1783954916142?e=1786579200&v=beta&t=Z5JB_xnbJx-QC7Z0SAzGe2poIqZOCNhDYk1_AgJzwWw",
+          "width": 1536,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483101545094594560",
+        "likes": 70,
+        "comments": 54,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 60
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484853664864563200",
+      "entityId": "7484853664864563200",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_linkedin-creators-arent-fighting-the-algorithm-activity-7484853664864563200-ilj2",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484853661752434688",
+      "shareUrn": "urn:li:share:7484853661752434688",
+      "content": "LinkedIn creators aren’t fighting the algorithm. \nThey’re fighting 4 much bigger challenges.\n\nIf you’re posting consistently and still feel invisible, it’s probably not your “content quality”. \nNope, I think it's the system you’re trying to win in.\n\n4 Real challenges most LinkedIn creators are facing right now👇\n\n1. Reach is collapsing while effort is exploding \n   You post more, you engage more… and your impressions still go down. The feed is overcrowded, attention is fragmented, and LinkedIn quietly prioritises formats that keep people scrolling and clicking, not thinking. Result: High‑effort posts get the same reach as low‑effort “engagement bait” and creators burn out.\n   \n2. The platform wants creators, but isn’t built for them \n   LinkedIn talks about “supporting creators”, but most tools still serve recruiters, advertisers and B2B sales teams first. External links are punished (don't tell me they aren't because some person at LinkedIn says they aren't), analytics are still pretty basic, and there’s no real creator‑centric infrastructure for audience ownership or monetisation. You’re building a brand on rented land, with very limited control over what gets seen and by whom.\n   \n3. Format shift is happening faster than skill shift \n   Carousel posts are no longer the default power format. Text only, video, visual storytelling and “multi‑touch” content loops win. In the meantime most creators still operate like it’s 2024. The gap between “I can write a post” and “I can architect a content system” is where a lot of reach and revenue is currently dying.\n   \n4. Engagement doesn’t equal business outcomes anymore \n   It’s now very possible to have big numbers and small pipelines. The feed rewards emotional stories, but most creators don’t have a clear path from post → profile → product → pipeline Likes, comments and followers feel good… until you realise they’re not paying your invoices.\n\nIf you’re creating content on LinkedIn please keep this in mind:\nYou don’t need more content. You need a better content economy around you:\n\n• Clear positioning instead of random topics\n• A portfolio of formats, not just text posts\n• A distribution & relationship strategy beyond the feed\n• A monetisation path that turns attention into opportunity\n  \nI’m curious: Which of these 4 challenges is hitting you the hardest right now—1, 2, 3 or 4?\n\nDrop the number in the comments and I’ll reply with one practical fix you can implement this week.",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1784528175560,
+        "date": "2026-07-20T06:16:15.560Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFsUVSv8FuytQ/feedshare-image-high-res/B4EZ9.Kvi4IAAU-/0/1784528173522?e=1786579200&v=beta&t=VxVbvjd4vrVAC1TOQY81O1-NXBMpU2bTe7SsOVZ9Vus",
+          "width": 896,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484853664864563200",
+        "likes": 246,
+        "comments": 155,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 212
+          },
+          {
+            "type": "INTEREST",
+            "count": 21
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485236703486525440",
+      "entityId": "7485236703486525440",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_for-years-ive-been-almost-100-linkedinfocused-activity-7485236703486525440-Meq1",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485236701691465728",
+      "shareUrn": "urn:li:ugcPost:7485236701691465728",
+      "content": "For years I’ve been almost 100% LinkedIn‑focused. Starting september 2026 that changes.\n\nThe easy part of going multi‑platform (Substack, X, YouTube and maybe even Instagram) is “post everywhere”. \n\nThe hard part for me is keeping:\n• one strategy across channels\n• smart repurposing, not copy‑paste spam\n• clear analytics without five tools and ten spreadsheets\n\nThat “hard part” is why I’ve joined DemandBird as ambassador and shareholder. \nIt’s a B2B‑focused social operating system built by Alex Boyd and Mac M. to fix exactly this multi‑channel chaos many businesses are experiencing.\n\nThree reasons I think DemandBird has huge potential, and yes I'm biased:\n• Write once, adapt for every platform in your own voice.\n• Plan, schedule and publish across channels from one shared calendar.\n• See performance across all socials – including compliant LinkedIn profile analytics – in one dashboard.\n\nI’m still LinkedIn‑first today, but I’m building my 2027 multi‑platform strategy with DemandBird in mind. \n\nAnd since I’m officially on board now…\nHit me with your wishlist.\n\nIf you’re an agency, B2B team or creator juggling several socials, what problems do you want a tool like this to solve for you?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1784619499084,
+        "date": "2026-07-21T07:38:19.084Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485236701691465728",
+        "likes": 317,
+        "comments": 251,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 232
+          },
+          {
+            "type": "PRAISE",
+            "count": 49
+          },
+          {
+            "type": "INTEREST",
+            "count": 20
+          },
+          {
+            "type": "EMPATHY",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481246171206852609",
+      "entityId": "7481246171206852609",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_a-tiny-group-is-quietly-hijacking-linkedin-activity-7481246171206852609-uDVK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481246170024173568",
+      "shareUrn": "urn:li:share:7481246170024173568",
+      "content": "A tiny group is quietly hijacking LinkedIn.\n0.1% of members only and unfortunately, that's not a typo.\n\nThey're using AI tools and automation so aggressively that they now influence 30% of all conversations on the platform.\n\nCausing real damage - aka erosion of trust - to the platform.\n\nThe rest of us, the ones actually trying to build real relationships are paying the price.\n\nBuyers are checking LinkedIn less. \nCEOs are deleting 40 InMails before reading a single one. \nTrust is eroding. Fast.\n\nMeanwhile the numbers tell the full story:\n→ Mass automation: less than 1% conversion \n→ Authentic human strategy: 10–20% conversion\n\nI know, you are tired and need the business quickly.\nBut believe me when I tell you that the shortcut is the longest route to results.\n\nUse AI tools and automation and you don't have a reach problem\nYou are creating a trust deficit problem.\n\nAre you seeing more automated noise in your feed this year?\nOr is it just me talking to the void?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1783668082048,
+        "date": "2026-07-10T07:21:22.048Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHyqAfTg7EqtA/feedshare-shrink_1280/B4EZ9K5wHrIAAM-/0/1783668081380?e=1786579200&v=beta&t=mGAlGFskVxYUuEbaTQ0xsWw_DqbynP0HVhEbtiQnkL8",
+          "width": 1194,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481246171206852609",
+        "likes": 349,
+        "comments": 179,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 268
+          },
+          {
+            "type": "INTEREST",
+            "count": 50
+          },
+          {
+            "type": "PRAISE",
+            "count": 14
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 9
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478325584608100352",
+      "entityId": "7478325584608100352",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_i-never-shared-how-much-money-i-make-not-activity-7478325584608100352-9ClQ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478325581563203584",
+      "shareUrn": "urn:li:share:7478325581563203584",
+      "content": "I never shared how much money I make. Not a single Stripe payout screenshot. Am I doing LinkedIn wrong?\n\nMaybe it's my Dutch heritage.\nWe're the people who split restaurant bills down to the cent, but would rather die than tell you our salary.\n\nOr maybe it's how I was raised.\nI didn't know what my dad earned until I left the house at 23.\nMoney was discussed the same way we discussed feelings.\nWe didn't.\n\nBut apparently \"sharing what you earn\" is the new social proof.\n\nCoaches flexing cohort sign-ups.\nScreenshots of Stripe dashboards.\n\"How I made $847,293 in Q2\" (oddly specific numbers = more believable, right?)\n\nAnd here I am, still thinking social proof comes from clients and your network.\nLike a caveman.\n\nThen last month I lost a community member.\nHis reason, and I quote:\n\n\"The other guy made millions last year and can show me how to do it too.\"\n\nMy first instinct? Tell him what I earned.\nMy second instinct? Let him go find out what \"made millions\" actually means.\n\nMaybe I'm old-fashioned.\nMaybe I should start posting income screenshots.\nMaybe I should buy a Lamborghini and pose next to it.\n\nOr maybe I'll just keep building things that work.\n\nWhat's your take,  does talking money prove success?\nOr just prove you talk about money?\n\nPS: Don't worry about me. I'm fine financially.\nI just can't prove it with a screenshot.",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1782971759941,
+        "date": "2026-07-02T05:55:59.941Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEzcRYcXu_dgQ/feedshare-shrink_1280/B4EZ8hZfQDHkAM-/0/1782971757939?e=1786579200&v=beta&t=zemKI44cgM-sRhYnNqIDU7f54QAFts_CTmNFeX49i1k",
+          "width": 1073,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478325584608100352",
+        "likes": 296,
+        "comments": 252,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 225
+          },
+          {
+            "type": "EMPATHY",
+            "count": 21
+          },
+          {
+            "type": "PRAISE",
+            "count": 18
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 14
+          },
+          {
+            "type": "INTEREST",
+            "count": 10
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 8
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480149516000808960",
+      "entityId": "7480149516000808960",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_9-types-of-clients-your-need-to-ditch-now-activity-7480149516000808960-RWnu",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7480149515031752704",
+      "shareUrn": "urn:li:ugcPost:7480149515031752704",
+      "content": "I said no to a 100k annual deal.  And it felt as the right thing to do! Here are 9 type of clients you need to Ditch now, regardless their money 👇\n\n\nWe have all been there: that client who makes you question your life choices every time their name pops up on your phone. \n\nBut not all money is good money. \nSometimes, the cost of working with a problematic client far outweighs the pay check. \n\nSo, let's dive into the 9 types of clients you should consider breaking up with (like, yesterday).\n\nMy favourite (in a cynical mode) is on slide 10.\n\nAnd don't worry, I also share 6 signs that you are working with the right clients.\n\nMy favourites are on slide 15.\n\nPS: When was the last time you took on a client that was a pain in the *ss?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1783406619072,
+        "date": "2026-07-07T06:43:39.072Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "9 Types of Clients Your Need to DItch Now",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQHEU88vwXUxWA/feedshare-document-chunked-pdf/B4EZ87USNTHoBk-/0/1783406605587?e=1785877200&v=beta&t=1e4ahg1bR8F177FDpmWgmoF5psfkSIZe5mHNN7jBzCE",
+        "coverPages": [
+          {
+            "width": 1537,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4E1FAQHEU88vwXUxWA/feedshare-document-cover-images_1920/B4EZ87USNTHoBQ-/0/1783406603946?e=1785877200&v=beta&t=BI80zYCx0Q87qIuGnP2IWFRQFwTHK_pblqHAnem5jG0",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQHEU88vwXUxWA/feedshare-document-cover-images_1920/B4EZ87USNTHoBQ-/1/1783406603946?e=1785877200&v=beta&t=fZ0_AeXqbx_Sm4mY4N7Uwy9-mjA_mGlu5Qw7RkjhZ1Y",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQHEU88vwXUxWA/feedshare-document-cover-images_1920/B4EZ87USNTHoBQ-/2/1783406603946?e=1785877200&v=beta&t=R0lcIAypBaoIcPPDo5sYLR8VWBmjVQfyGn-4f7CDy-M"
+            ],
+            "height": 1921
+          }
+        ],
+        "totalPageCount": 17,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHEU88vwXUxWA/feedshare-document-master-manifest/B4EZ87USNTHoBY-/0/1783406604183?e=1785877200&v=beta&t=wOkixWf3gg4Jo_rVb-V3qgh4cavKcrXXDgD6xsAmqgQ",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4E1FAQHEU88vwXUxWA",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQHEU88vwXUxWA/feedshare-document-transcript/B4EZ87USNTHoA0-/0/1783406604183?e=1785974400&v=beta&t=O2R2BX0CEGCHhScn497WW6E2Jie0myDzppVCfIgsT3k",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQHEU88vwXUxWA/feedshare-document-pdf-analyzed/B4EZ87USNTHoAY-/0/1783406604183?e=1785974400&v=beta&t=mFheH2cwGJ46xQW29lae2pmpeRLPIutAAuPhFCbuy20",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 387,
+              "height": 484,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHEU88vwXUxWA/feedshare-document-images_480/B4EZ87USNTHoAg-/0/1783406604183?e=1785974400&v=beta&t=l69EclSoyJf6XTLYdGRv_OWZiByAsrjgNgj5q6qvzy4"
+            },
+            {
+              "width": 1537,
+              "height": 1921,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHEU88vwXUxWA/feedshare-document-images_1920/B4EZ87USNTHoAo-/0/1783406604183?e=1785974400&v=beta&t=NRfwh_b6jby7AcPXiGtbOcQtLZX-FafMKeOJvIDeGC8"
+            },
+            {
+              "width": 1025,
+              "height": 1281,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHEU88vwXUxWA/feedshare-document-images_1280/B4EZ87USNTHoAQ-/0/1783406604183?e=1785974400&v=beta&t=6YTgWyIB8TQExadweiFD-2SOaQFH8-GJjR0OihuIldE"
+            },
+            {
+              "width": 650,
+              "height": 812,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHEU88vwXUxWA/feedshare-document-images_800/B4EZ87USNTHoAk-/0/1783406604183?e=1785974400&v=beta&t=5MCcTzMZ732l9-5aniZOxylTwZamx4N8318xQQ2E8Q8"
+            },
+            {
+              "width": 137,
+              "height": 171,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHEU88vwXUxWA/feedshare-document-images_160/B4EZ87USNTHoAc-/0/1783406604183?e=1785974400&v=beta&t=_4vSot6Ius3AgyzWwTan1BzusiOAv1_ekSfct9QLhVE"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480149515031752704",
+        "likes": 189,
+        "comments": 106,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 148
+          },
+          {
+            "type": "EMPATHY",
+            "count": 15
+          },
+          {
+            "type": "INTEREST",
+            "count": 11
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478719310958546947",
+      "entityId": "7478719310958546947",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_the-algorithm-is-changing-fast-so-we-stepped-activity-7478719310958546947-_Mm-",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478719308131655680",
+      "shareUrn": "urn:li:share:7478719308131655680",
+      "content": "The algorithm is changing fast, so we stepped up the pace of our research as well. 5 Trends worth knowing, based on +12,000 creators since March.\n\nThe first one I noticed myself, down -22% for my own content.\n\n1. Carousels are tanking.\n\nOur analysis of 40,000+ carousel posts shows average reach is down 40%, and engagement has dropped by 30%. LinkedIn is making room for video, and your audience is done swiping through low-value slides.\n\n2. Deleting posts hurts more than it helps.\n\nGot a typo, wrong visual, or just underperforming content? Unless it's truly off-brand, let it live. Try to resuscitate it. Deleting doesn't erase it from your history; it signals instability to the algorithm.\n\n3. Your connections are dragging down your reach.\n\nWant to grow fast? Build followers. But be ruthless about who you connect with. If they don't post, don't engage, and sit outside your topic fingerprint, they'll quietly tank your distribution.\n\n4. Spamming DMs is killing your visibility.\n\nIf people keep ignoring your messages, LinkedIn notices. Low response rates on your outbound DMs signal spam behavior, and the platform will suppress your profile and content. Honestly, I'm cheering for this one.\n\n5. Comment-and-run is getting penalized.\n\nLeave 30 comments and disappear? LinkedIn now tracks whether you follow up. If someone replies to your comment and you ghost them, our data shows your comment reach can drop by 35%. Your relevance ranking tanks.\n\nThe algorithm rewards behavior that looks like genuine participation.\nPerformative tactics are quietly dying, and honestly, that's a good thing!\n\nThese findings are part of our ongoing research for the Algorithm Insights Report 2026. The next update drops in October, included free for all 4,000+ previous buyers and TRIBE members. \n\nGet your copy in my Featured Section or the profile link at the top of my Profile.\n\nWhich of these 5 is hitting your strategy hardest?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1783065631618,
+        "date": "2026-07-03T08:00:31.618Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHbx8xcgU59gQ/feedshare-shrink_1280/B4EZ8m_lO2IcAU-/0/1783065629892?e=1786579200&v=beta&t=7c-8RC38E_ZL1gQD5n0wF9Lc-jD2qZddxivGMKzQyZk",
+          "width": 1073,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478719310958546947",
+        "likes": 645,
+        "comments": 276,
+        "shares": 19,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 475
+          },
+          {
+            "type": "INTEREST",
+            "count": 141
+          },
+          {
+            "type": "EMPATHY",
+            "count": 20
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480510477811490817",
+      "entityId": "7480510477811490817",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_a-member-of-my-tribe-community-reached-out-activity-7480510477811490817-vaJY",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480510476586770432",
+      "shareUrn": "urn:li:share:7480510476586770432",
+      "content": "A member of my TRIBE community reached out last week. His DMs weren't getting any responses.\n\"Send them over\" I said. He's making a mistake most of us make.\n \nHe was putting in real effort, thoughtful, well-intended messages. But without realizing it, every one of them was a statement about himself. His work, his offer, his value. Not one left room for the other person to say anything back.\n \nThat's not a copywriting problem but more a psychology problem.\n \nLet me tell you what's actually happening in someone's head when they open a DM:\n \n→ If the message asks them to justify their own behavior (\"why did you view my profile?\"), most people have no real answer, what do they reply? Right. Nothing! \n \n→ If the message describes you instead of them, there's nothing in it for their brain to react to.\n \n→ If the message ends in a soft, open-ended CTA (\"I'm just a DM away\"), you've handed them all the work of deciding what happens next. Most people won't do that work. They'll just scroll on.\n \nThe fix isn't \"be more salesy\" or \"be more casual.\" \n\nIt's actually much more simple:\n \nEvery message should end in something answerable in under 10 seconds. \nA specific question. A fork. A light provocation instead of a statement.\n \nI broke this down into the 3 moments that matter most:\n\n1. Profile View\n2. Connection request accepted\n3. 48 Hours later \n   \n   and two different ways to approach each one, depending on your style.\n \nFull flowchart below 👇\n \nWhich approach sounds more like you: naming the tension directly, or building trust slowly first?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1783492679074,
+        "date": "2026-07-08T06:37:59.074Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEIzSth-5J2Fw/feedshare-shrink_1280/B4EZ8.FPwTJ0AM-/0/1783452990771?e=1786579200&v=beta&t=fklB9NUxsXw6nd1MH57VsMl_K1jALQF9zPduCrmFrgo",
+          "width": 1194,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480510477811490817",
+        "likes": 155,
+        "comments": 69,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 120
+          },
+          {
+            "type": "INTEREST",
+            "count": 23
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479062697213411328",
+      "entityId": "7479062697213411328",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_can-we-be-clear-about-something-if-you-want-activity-7479062697213411328-eoAw",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478722164318412801",
+      "shareUrn": "urn:li:share:7478722164318412801",
+      "content": "Can we be clear about something? If you want to sell me something, don't call it a partnership and pretend you are interested in my services. \n\nIt's annoying as f*ck!",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1783147501281,
+        "date": "2026-07-04T06:45:01.281Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479062697213411328",
+        "likes": 140,
+        "comments": 52,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 93
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 24
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477247279293411329",
+      "entityId": "7477247279293411329",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_the-anti-pitch-playbook-activity-7477247279293411329-j-z3",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7477247234351390720",
+      "shareUrn": "urn:li:ugcPost:7477247234351390720",
+      "content": "Most people pitch on LinkedIn the same week they decide they need money.\nNo context or trust. No authority, yet they wonder why no one replies.\n \nYou know me, I found some data on this:\n \nCold outreach on LinkedIn gets a 10.3% response rate. That's triple cold email. But first-degree connections respond at 26.9%. This gap shows how much a relationship matters.\n \nAttachments in a first InMail cut conversions by 75%. \nLinks in a first message lower acceptance by 20%. \nAutomated sequences get flagged and quietly buried.\n \nThe problem was never that LinkedIn doesn't convert, it's just that a lot of people go for shortcuts. \n \nThis carousel breaks down a 5-step sequence that fixes that. No pitch. No spray-and-pray. Just the exact order that makes a \"yes\" feel obvious by the time you ask.\n \nSwipe through. \nStep 3 is the one most people think they can skip.\n \nWhat step in this sequence do you struggle with most?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1782714671920,
+        "date": "2026-06-29T06:31:11.920Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "The Anti Pitch Playbook",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQHCcHJe3I_FYA/feedshare-document-sanitized-pdf/B4EZ8SEn4vJgA8-/0/1782714639424?e=1785877200&v=beta&t=OHDHonV07qRbQEDht12_UplMW1BIKtO5llFMWgngfjI",
+        "coverPages": [
+          {
+            "width": 1550,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4E1FAQHCcHJe3I_FYA/feedshare-document-cover-images_1920/B4EZ8SEn4vJgBQ-/0/1782714639425?e=1785877200&v=beta&t=GyE5kBStgVtB0S_p5Fk1CO2-jg32nBvUNv0qXXdih7E",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQHCcHJe3I_FYA/feedshare-document-cover-images_1920/B4EZ8SEn4vJgBQ-/1/1782714639425?e=1785877200&v=beta&t=7MXlR5ipTStHMEt9DK3I2SRC0TnhRYF5lo9ed1z7ShE",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQHCcHJe3I_FYA/feedshare-document-cover-images_1920/B4EZ8SEn4vJgBQ-/2/1782714639425?e=1785877200&v=beta&t=aSmgS5MSQnQNaWnhPAPkRVc3_k9asB7__zlpkQiZuj4"
+            ],
+            "height": 1937
+          }
+        ],
+        "totalPageCount": 13,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHCcHJe3I_FYA/feedshare-document-master-manifest/B4EZ8SEn4vJgBY-/0/1782714642893?e=1785877200&v=beta&t=rA0cwgYmxkvQSZkQ7shva3j9M68Wx2BBdwsUsZTgUYM",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4E1FAQHCcHJe3I_FYA",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQHCcHJe3I_FYA/feedshare-document-transcript/B4EZ8SEn4vJgA0-/0/1782714642893?e=1785974400&v=beta&t=Dm9vxI47B_ogXB1gqsNV0XzG38EO7zKV86ujJdLaoPU",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQHCcHJe3I_FYA/feedshare-document-pdf-analyzed/B4EZ8SEn4vJgAY-/0/1782714642893?e=1785974400&v=beta&t=QC3i276HOKgWpXz8gOkCxByrK24KoHr9-5U7HQTEX0o",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 150,
+              "height": 187,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHCcHJe3I_FYA/feedshare-document-images_160/B4EZ8SEn4vJgAc-/0/1782714642893?e=1785974400&v=beta&t=_rgCDqRQ-wzy7D0AEmnCl6MfM-dbtPOsNQVg5cupaZ4"
+            },
+            {
+              "width": 1025,
+              "height": 1281,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHCcHJe3I_FYA/feedshare-document-images_1280/B4EZ8SEn4vJgAQ-/0/1782714642893?e=1785974400&v=beta&t=n2lupnSGcOAs5B3z20L-WiJc9n7tMl-je75ygBt2QB4"
+            },
+            {
+              "width": 1550,
+              "height": 1937,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHCcHJe3I_FYA/feedshare-document-images_1920/B4EZ8SEn4vJgAo-/0/1782714642893?e=1785974400&v=beta&t=txGHZfNP76-L3WWT_VIv7WOht2kocBHohe_-Pz7WrvA"
+            },
+            {
+              "width": 650,
+              "height": 812,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHCcHJe3I_FYA/feedshare-document-images_800/B4EZ8SEn4vJgAk-/0/1782714642893?e=1785974400&v=beta&t=GA5U6_u0171xy5ztdGvJLzmezE_l9XS5-fULP1NW9Tc"
+            },
+            {
+              "width": 400,
+              "height": 500,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHCcHJe3I_FYA/feedshare-document-images_480/B4EZ8SEn4vJgAg-/0/1782714642893?e=1785974400&v=beta&t=3yeJ0AAakX3Dc36KKXDhSJDVCvjLeGetQplR64cJoho"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477247234351390720",
+        "likes": 297,
+        "comments": 161,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 235
+          },
+          {
+            "type": "INTEREST",
+            "count": 34
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 10
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486316463830532096",
+      "entityId": "7486316463830532096",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_spent-the-last-few-weeks-running-experiments-activity-7486316463830532096-mMDE",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486316460831756288",
+      "shareUrn": "urn:li:share:7486316460831756288",
+      "content": "Spent the last few weeks running experiments for the October Algorithm Report update. Three things stood out. All three surprised me.\n \n1. \"Celebrate an Occasion\" posts get an algorithm boost\n \nBigger creators are quietly shifting their announcement content. Not \"here's my new offer\" but \"I hit 25,000 followers.\" \"I signed client #1,000.\" \"I just became an ambassador for [tool].\"\n \nI was skeptical. Then I tested it myself. My own celebration post outperformed my regular announcement posts by 2.3x impressions.\n \nAcross 800 posts we analyzed, the average lift sits between 1.6x and 2.1x.\n \nHow to use it:\n \n• Attach the milestone to a number, not a feeling. \"25,000 followers\" beats \"grateful for this community.\"\n• Pair the win with one specific lesson, not a thank-you list.\n• Use it sparingly. This works because it's rare. Every week and it reads as humble-bragging, not milestone-marking.\n \n2. Infographics are in freefall, especially AI-made ones\n \n2024 was the year of the infographic. Dense visual, one scroll-stop, multiplier between 5x and 7x. Everyone piled in.\n \nThat era is over. Across more than 6,000 infographics we analyzed, the format now sits between 0.9x and 1.4x. Some underperform a plain text post. Fully AI-designed ones drop further, to 0.6x-1.1x.\n \nMy read: infographic fatigue plus a growing \"this smells like plagiarism/AI\" instinct from the audience.\n \nWhat to do instead:\n \n• Swap the single dense infographic for a document post (carousel/PDF). Underused, and it outperforms infographics at the moment\n• One clear insight per visual, not ten data points crammed into one frame.\n• Hand-drawn or clearly human-annotated visuals are currently beating polished AI graphics. Imperfection reads as authenticity.\n \n3. Popular topics can pull you outside your own topic cluster\n \nYour distribution is built mostly on topic fit now, not network size. Which normally means: stay in your lane, post your 2-3 core themes, let the algorithm learn where you belong.\n \nBut there's an exception. Tie a trending, seasonal topic to a genuine personal experience, and it temporarily pulls your post into interest clusters you don't normally reach. Summer is here, so climate and sustainability content is a live example. Across 1,200+ posts in this category, a post connecting that theme to a personal experience outperformed regular posts by up to 3.5x impressions.\n\nHow to use this: \n\nTreat it as an occasional excursion, not a new content pillar. The topic gets you the temporary reach into new clusters. Your usual 2-3 themes are what get you remembered once people arrive.\n \nNone of these samples come close to the 1.3 million posts behind the Algorithm Insights Report itself, but 800 to 6,000+ posts is still a solid early signal. Full breakdown lands in the October update.\n \nWhich of these three are you most likely to test this week?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1784876934011,
+        "date": "2026-07-24T07:08:54.011Z",
+        "postedAgoShort": "4d",
+        "postedAgoText": "4 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHfGFEGBxeWuA/feedshare-shrink_1280/B4EZ.S9JvVJUAU-/0/1784876932414?e=1786579200&v=beta&t=b8MamwWo-ApNEitUrpn0Ksfcc52h4FvirebFq42Hfh0",
+          "width": 1194,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486316463830532096",
+        "likes": 190,
+        "comments": 95,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 144
+          },
+          {
+            "type": "INTEREST",
+            "count": 28
+          },
+          {
+            "type": "EMPATHY",
+            "count": 11
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479797764953137152",
+      "entityId": "7479797764953137152",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_4000-downloads-of-the-algorithm-insights-activity-7479797764953137152-n3Gd",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479797761991909376",
+      "shareUrn": "urn:li:share:7479797761991909376",
+      "content": "4,000 downloads of the Algorithm Insights Report 2026.\nBut 200+ pages is a lot to digest when you just need the answer NOW.\n\nSo I made this. ↓\n\nThe Ultimate LinkedIn Cheat Sheet 2026.\n\nOne page. Nine sections. Everything you need to stop guessing.\n\nIt covers Profile, Content, Algorithm, Tools, Buying Signals, Conversion, Engagement Strategy, Don'ts, and Do's.\n\nEach section distilled to what actually moves the needle.\n\nThe cheat sheet covers what most creators still get wrong: the topic fingerprinting, tools that will get you banned vs tools that won't, buying signals hiding in plain sight, and why consistency beats frequency every single time.\n\nRead it once for the overview. \nRead it twice to actually implement.\n\nThis is the companion piece to the full report. \nPrint it and keep it next to your screen, oh and do send me a picture of it!\n\nFull report available in my Featured Section.\n\nOctober update coming with dedicated sections for Job Seekers and Lead Generation.\n\nWhat's the most pressing LinkedIn challenge you're facing right now?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1783322755087,
+        "date": "2026-07-06T07:25:55.087Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHKuj426eoPxQ/feedshare-shrink_1280/B4EZ82UbczJkAM-/0/1783322753094?e=1786579200&v=beta&t=jBc4jgW1C8KvkkWINO1mmIMpI1uuuyP6qQU-irjPx9A",
+          "width": 1073,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479797764953137152",
+        "likes": 327,
+        "comments": 104,
+        "shares": 9,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 265
+          },
+          {
+            "type": "INTEREST",
+            "count": 30
+          },
+          {
+            "type": "EMPATHY",
+            "count": 16
+          },
+          {
+            "type": "PRAISE",
+            "count": 14
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480874707786047488",
+      "entityId": "7480874707786047488",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_gianni-infantino-and-the-fifa-just-gave-every-activity-7480874707786047488-dctR",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480546068280049664",
+      "shareUrn": "urn:li:share:7480546068280049664",
+      "content": "Gianni Infantino and the FIFA just gave every leader on this platform a live case study in how NOT to use power.\n \nOne phone call from the Oval Office. One suspended red card. One World Cup match reshaped in real time.\n \nIn case you didn't got the message.\n \nTrump called Infantino. Asked him to review Balogun's suspension. Days later, FIFA suspended the automatic ban for a one-year probation. Belgium's appeal got thrown out on a technicality: apparently they weren't even a \"party\" to their own protest. The US played Belgium anyway.\n \nResult? USA lost 4-1. Eliminated. Every ounce of \"special treatment\" backfired spectacularly.\n \nBut the damage was already done before kickoff.\n \nUEFA called it \"unprecedented, incomprehensible and unjustifiable.\" Belgium's federation said it was \"astonished.\" Infantino kept insisting the judicial bodies are independent, while confirming on the record that a sitting head of state got a rule bent in his direction.\n \nThe leadership lesson hiding behind all of this?\n \nInfantino's entire mandate after the Blatter scandals was one word: TRUST Show the world FIFA plays it straight, every time, for everyone.\n \nHe broke it in one weekend. In front of the biggest audience football has ever had.\n \nNow let's bring this to LinkedIn.\n \nYou also have power. Reach. Authority. Followers who take your word more seriously than they probably should.\n \nThe temptation is the same one Infantino faced. Bend a rule. Make an exception. Protect someone close to you when you think nobody's watching.\n \nExcept on LinkedIn, everybody's watching.\n \nThree rules I never break with influence, and what they look like on LinkedIn:\n \n1. Protect fair process. \n   Don't quietly delete a critical comment on your own post because it makes you look bad. Leave it up, or reply to it in public.\n   \n2. Share the spotlight. \n   Don't claim your success when it's a joint effort like \"I built this.\" Tag the people who actually did the work, in the post, not buried in a comment.\n   \n3. Set the standard higher. \n   Don't write a glowing recommendation for someone in your circle that you wouldn't write for a stranger with the same track record.\n \nInfantino had one shot to prove FIFA earned trust back. \nHe ruined it on a single phone call.\n \nYou get hundreds of those \"one phone calls\" a year, in comments, in promotions, in decisions nobody will ever audit.\n \nWhat's the one rule you'd never bend, even for your favorite person in the room?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1783579518267,
+        "date": "2026-07-09T06:45:18.267Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHFHnz83KFPKg/feedshare-shrink_1280/B4EZ9A9AqyIkAM-/0/1783501163474?e=1786579200&v=beta&t=xDaKTmqlaTtS-FlV-TU7HQ7LI7AMORQPykREVhqf9EU",
+          "width": 1073,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480874707786047488",
+        "likes": 151,
+        "comments": 54,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 114
+          },
+          {
+            "type": "PRAISE",
+            "count": 13
+          },
+          {
+            "type": "EMPATHY",
+            "count": 11
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482678764758507520",
+      "entityId": "7482678764758507520",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_the-linkedin-algorithm-no-longer-is-a-black-activity-7482678764758507520-bpIK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482678763613392896",
+      "shareUrn": "urn:li:share:7482678763613392896",
+      "content": "The LinkedIn algorithm no longer is a black box. 5 Things that are Scaling at the moment vs. 5 that are Tanking.\n\n\n🔼 WHAT'S SCALING\n\n1. Personal takes with original images: +30% reach.\nYour story, your photo, your perspective. The algorithm is rewarding what AI can't fake.\n\n2. Saves are the sleeper metric.\nIn our Algorithm Insights Report 2026, saves already outperformed every other signal. That lead just grew even further. Under 3% of posts earn even one. That's your opening.\n\n3. Network size no longer caps your reach.\nPosts now travel to people with zero connection to you, purely on topic match. A 500-connection account can out-distribute a 50K one when the topic fingerprint is strong.\n\n4. Comments that spark replies: +25%.\nSingle comments are losing ground. But a comment triggering 2+ replies? That's what the algorithm is counting now. Not comments. Conversations.\n\n5. External links to in-depth content: +21%.\nCheckout pages? +3%. The algorithm rewards depth, not sales pages.\n\n🔽 WHAT'S TANKING\n\n1. Comments overall: −9%.\nA flat \"great post!\" barely registers anymore.\n\n2. Topic inconsistency.\nAuthors posting on-topic 8/10 times outperform those at 6/10 by 30%. Drifting off your lane isn't neutral; it actively costs you.\n\n3. Carousels: −40% reach, −30% engagement.\nAcross 40,000+ posts we analyzed. LinkedIn is making room for video, and slides aren't it anymore.\n\n4. Plain reshares: −20 to −30% extended reach.\nThe \"share this\" ask that used to work? Dead weight now.\n\n5. Off-topic comments.\nA flood of comments from the wrong audience can actively suppress your post. Not just fail to help—actively hurt.\n\nThe algorithm rewards genuine participation. \nPerformative and manipulative tactics are being weeded out.\n\nThese findings are part of our ongoing research for the Algorithm Insights Report 2026. The October update drops with dedicated sections for Job Seekers and Lead Generation—included free for all 4,000+ previous buyers and TRIBE members. [ see profile link & Featured Section for more info ]\n\nWhich of these is hitting your strategy hardest?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1784009638967,
+        "date": "2026-07-14T06:13:58.967Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGv-QHKOCROrg/feedshare-shrink_1280/B4EZ9b3XH2JUAM-/0/1783952667635?e=1786579200&v=beta&t=WHa95CjfJwAFn_d5Jqh8sL2g1CWygHYmiz1kFiwxnUY",
+          "width": 1194,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482678764758507520",
+        "likes": 416,
+        "comments": 174,
+        "shares": 16,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 322
+          },
+          {
+            "type": "INTEREST",
+            "count": 73
+          },
+          {
+            "type": "EMPATHY",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479465893496971265",
+      "entityId": "7479465893496971265",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_for-four-years-i-trusted-carousels-more-activity-7479465893496971265-0m4B",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7479465893048229888",
+      "shareUrn": "urn:li:ugcPost:7479465893048229888",
+      "content": "For four years, I trusted carousels more than any other format on LinkedIn.\nTwo months ago, I checked my own numbers. Reach down 22% on that exact format.\n\nI assumed it was a fluke at first, unfortunately it wasn't.\n\nIn this week's newsletter, I break down what happened to carousels, backed by data from 40,000+ posts tracked since March:\n\n→ Why reach dropped 40% and engagement dropped 30% across the format\n\n→ Why dwell time isn't the full story anymore, and what completion rate actually measures\n\n→ How the format got flooded by people optimizing for the swipe instead of the substance\n\n→ The 20-minute audit I now run on every format before I trust it again\n\nFormat loyalty feels like consistency. On LinkedIn, it's often just a lagging indicator.\n\nIf you've been coasting on a format because it used to work, this one's for you.\nFull breakdown, plus the audit framework, in this week's edition.\n\nClick below to read it.",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1783243630766,
+        "date": "2026-07-05T09:27:10.766Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "#65 Why your Best LinkedIn Format just Stopped Working",
+        "subtitle": "Richard van der Blom",
+        "link": "https://www.linkedin.com/pulse/65-why-your-best-linkedin-format-just-stopped-working-van-der-blom-gwkve?trackingId=XNovqj8kkfkTMNlKKfvSOg%3D%3D",
+        "linkLabel": "Open article: #65 Why your Best LinkedIn Format just Stopped Working by Richard van der Blom • 6 min read",
+        "description": "For four years, carousels were my safest bet. Predictable reach, easy production, an audience trained to swipe. Then I checked my own numbers two mont",
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E12AQHsnJD46d8e0w/article-cover_image-shrink_720_1280/B4EZ8s_f8MHAAQ-/0/1783166275412?e=1786579200&v=beta&t=YkjfRImKsEYS0WiiyCJwvOhRCO-Yc3Nq5o9-K9pLPww",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479465893048229888",
+        "likes": 198,
+        "comments": 61,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 156
+          },
+          {
+            "type": "INTEREST",
+            "count": 36
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477724797435641857",
+      "entityId": "7477724797435641857",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_of-all-the-things-happening-in-the-world-activity-7477724797435641857-QGsh",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477724796387233792",
+      "shareUrn": "urn:li:share:7477724796387233792",
+      "content": "Of all the things happening in the world, this is what LinkedIn decided I needed to be notified about?\n\nWhere exactly did we take the wrong turn?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1782828521117,
+        "date": "2026-06-30T14:08:41.117Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEdP_RkpJNOfA/feedshare-shrink_1280/B4EZ8Y3E5VHkAM-/0/1782828519310?e=1786579200&v=beta&t=SJH4fjpAoembCWJX7cWNmdv1rpgmt_QSROyi9YG5mU4",
+          "width": 1179,
+          "height": 2556
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477724797435641857",
+        "likes": 199,
+        "comments": 127,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "ENTERTAINMENT",
+            "count": 94
+          },
+          {
+            "type": "LIKE",
+            "count": 91
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477995909713379328",
+      "entityId": "7477995909713379328",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_finally-linkedin-in-2026-is-punishing-lazy-activity-7477995909713379328-cbHj",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477995907305701378",
+      "shareUrn": "urn:li:share:7477995907305701378",
+      "content": "Finally LinkedIn in 2026 is punishing lazy virality. I remember a quickly shot video in my feed with close to no value reaching half a million views. Bye bye.\n\nYour follower count is becoming irrelevant.\nYour engagement is quietly collapsing.\nAnd your workload keeps growing.\n\nYou know me, I've been tracking this shift:\n\nMost entrepreneurs on LinkedIn are burning out because they're still optimizing for visibility, not results.\n\nYou never have an algorithm problem, it's always about intention.\n\nLinkedIn has shifted from professional social network to intent graph. The platform now rewards invisible interactions (like clicks, saves, profile visits, DMs) far more than performative engagement.\n\nThe more you chase likes, the more you train the algorithm (and your audience) to see you as free entertainment instead of a decision partner.\n\nIf you're building a business here, that's lethal.\n\n3 moves to stop burning out while LinkedIn gets stricter:\n\n→ 1. Stop feeding the feed. Build assets instead.\nTreat each post as a reusable knowledge object, not a one-off opinion. Carousels, frameworks and checklists that people can save and apply will outperform hot takes over time. If a post wouldn't belong in your playbook, don't publish it.\n\n→ 2. Measure silent intent as your primary KPI.\nStart tracking what actually moves the business: clicks to your site, DM replies, call bookings, profile visits from your ICP. If a post explodes in likes but generates zero intent, declare it a failure. The algorithm already does.\n\n→ 3. Design a sustainable rhythm, not a heroic sprint.\nPick a narrow promise for your audience (aka one problem, one transformation) and show up consistently in that lane. Build recurring formats you can execute on autopilot instead of reinventing yourself every day for the feed.\n\nLinkedIn 2027 will be brutal on people who still act like creators instead of operators.\n\nThe platform is evolving into a work operating system, not a vanity arena.\n\nYour job is no longer to win the feed.\nYour job is to turn attention into outcomes, without living on the platform or copying the wrong strategies.\n\nWhich of these 3 shifts is hardest for you to make?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1782893159321,
+        "date": "2026-07-01T08:05:59.321Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHuUuS33L4Grg/feedshare-image-high-res/B4EZ8ctp0vK4AU-/0/1782893157989?e=1786579200&v=beta&t=ubO_RWNs3ktWCDZYpo8XIjEhlXtdjTxNwtx1jOVE884",
+          "width": 896,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477995909713379328",
+        "likes": 319,
+        "comments": 132,
+        "shares": 11,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 256
+          },
+          {
+            "type": "INTEREST",
+            "count": 39
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476159857369264128",
+      "entityId": "7476159857369264128",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_nobody-owes-you-their-attention-ive-been-activity-7476159857369264128-GFcE",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475591288260747266",
+      "shareUrn": "urn:li:share:7475591288260747266",
+      "content": "Nobody owes you their attention. I've been saying this since 2016, when most people on LinkedIn treated their audience like a captive crowd. \n\n80% pitch. 20% substance. \nAs if followers had nowhere else to scroll.\n\nTen years later? Same mistake. Different excuses.\n\n\"But I need the business.\"\n\"My boss wants visibility.\"\n\"I don't have time for value posts.\"\n\nMeanwhile, the algorithm got smarter. The feed got more demanding and trust became the scarcest currency on the platform.\n\nThe people still treating their audience like they owe them something? \nTheir posts sink. Their DMs go unanswered. Their connection requests sit in limbo.\n\nThe ones who are willing to invest time? They're getting messages like \"I've been reading your stuff for months.\" They build pipeline without cold outreach. They attract instead of chase.\n\nI've trained over 350,000 professionals on this. \nThe data is clear and the pattern is undeniable.\n\nWhen you lead with value, people 𝘸𝘢𝘯𝘵 to hear what you're offering.\nWhen you pitch first, they scroll past before your second line loads.\n\nSo before you hit publish, ask yourself:\n\nIs this worth 𝘮𝘺 scroll?\n\nIf the answer is no, don't expect it from anyone else.\nIf you want help creating content that earns attention instead of begging for it, Stanley makes it simple. \n\nPlan, write, and track content that actually lands.\nA platform built for successful entrepreneurs.\n\nTry it free for 7 days 👇\nhttps://lnkd.in/e5qgeQFe\n\nNobody owes you their attention.\n\nIt was true in 2016.\nIt's even more true now.\n\nPS: I'm a proud advisor and ambassador of Stanley.",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1782455410330,
+        "date": "2026-06-26T06:30:10.330Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFx_adCC23YAA/feedshare-shrink_1280/B4EZ76iqkhKMAM-/0/1782319852093?e=1786579200&v=beta&t=BB9bP54N-ssQVyFkXr8EucM3PD7K-Lljsne_U23HGpY",
+          "width": 896,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7476159857369264128",
+        "likes": 107,
+        "comments": 55,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 93
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483460422080172032",
+      "entityId": "7483460422080172032",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_the-new-algorithm-tells-us-to-stay-in-lane-activity-7483460422080172032-YhcS",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483460421253935104",
+      "shareUrn": "urn:li:ugcPost:7483460421253935104",
+      "content": "The new algorithm tells us to stay in lane (aka on topic). Our feed looks like a massive bubble. \nLinkedIn announced a new feature of a \"Special Feed for you\" but how and when is unclear.\n\nWhat is your experience?\nIf you would look one year back, was the feed more valuable then or now?\n\nI'll take an iced cappuccino please!",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1784196000595,
+        "date": "2026-07-16T10:00:00.595Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483460421253935104",
+        "likes": 128,
+        "comments": 156,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 109
+          },
+          {
+            "type": "INTEREST",
+            "count": 14
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475847204197498882",
+      "entityId": "7475847204197498882",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_linkedin-just-made-a-small-but-smart-change-activity-7475847204197498882-mHAy",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475847202792378368",
+      "shareUrn": "urn:li:share:7475847202792378368",
+      "content": "LinkedIn just made a small but smart change. In your feed, engagement numbers now show as symbols instead of text.\n \n👍 180 💬 144 🔁 2\n \nClean. Fast. Less cluttered.\nSo? Good move.\n \nBut since we're already tweaking the engagement experience... \nLinkedIn, I have a wishlist.\n \nYou have the data. You just need the UI.\n \nHere are 5 features that would actually change how creators use this platform:\n \n1. Show me who saved my post \n↳ Saves are your strongest reach signal.  A post with 10+ saves reaches a median of 2,085% more than one with zero. Yet you hide who saved it completely. Give me names. Let me start a real conversation.\n \n2. Show me engagement streaks \n↳ Who has liked, commented or shared 3, 5, 10 of my posts in a row? That person is not a passive follower. That's a warm lead. Possibly a buyer. Flag them. Make them visible.\n \n3. Show me multiple-action engagers \n↳ Who liked AND commented AND shared the same post? That triple signal is the highest intent a follower can show without sending a DM. I want to know who they are.\n \n4. Suggest connections based on the above \n↳ You already recommend people I might know. Start recommending people who have been quietly telling me they're interested. Turn the algorithm into a sales assistant.\n \n5. Show me which companies are engaging repeatedly \n↳ Not just individuals. Which organisations are sending multiple people to my content? That's account-level intent data sitting unused. B2B creators would pay for that insight alone.\n \nBonus 6. Let me see engagement trends over time per follower \n↳ Did someone go from liking one post a month to three a week? Warming up. Show me the trajectory, not just the snapshot.\n \nLinkedIn already has this data.\n \nThe gap between what they track and what they share with creators is still huge.\n \nWhich of these 6 would you use most?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1782380868005,
+        "date": "2026-06-25T09:47:48.005Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFzPOv6fStIdg/feedshare-shrink_1280/B4EZ7.LaxjJMAM-/0/1782380866985?e=1786579200&v=beta&t=pBuIZhIE0KB16XOBSwrCIwmUZo9rIwTHyjhvIIAMNMU",
+          "width": 1194,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475847204197498882",
+        "likes": 269,
+        "comments": 135,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 196
+          },
+          {
+            "type": "INTEREST",
+            "count": 25
+          },
+          {
+            "type": "EMPATHY",
+            "count": 21
+          },
+          {
+            "type": "PRAISE",
+            "count": 18
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 9
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7474714052804554752",
+      "entityId": "7474714052804554752",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_it-was-1999-my-first-job-at-a-staffing-activity-7474714052804554752-25Ft",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7473652935659446272",
+      "shareUrn": "urn:li:share:7473652935659446272",
+      "content": "It was 1999. My first job, at a staffing agency. A major Dutch car factory put their staffing contract out to tender. 10 agencies invited to pitch, round one.\n \nThat got cut to 6, for round two.\n \nThen 3 of us, for a final round: half a day of negotiation, brainstorming, and presentations to convince them we should be their primary supplier.\n \nAll human to human. Three rounds. Months of work. Not a single piece of it done online, no digital research, no shortlisting mechanisms, nothing like that.\n \nThat's how B2B used to work. People met people, and the best relationship-builder usually won the deal.\n \nFast forward to last week, when I watched two AI agents negotiate a vendor contract.\n \nNo human in the room. No human in the loop until the final sign-off. Pricing, terms, back-and-forth, all handled machine-to-machine, in about 4 minutes.\n \nSame fundamental task as that car factory tender. Completely different world.\n \nWe've spent 25 years optimizing GTM for human attention (better copy, better design, better funnels, better \"personalization.\") All of it built on one assumption: a person reads it, feels something, decides.\n \nThat assumption is starting to break.\n \n→ Discovery is moving from search and ads to protocol-native distribution agents can parse \n→ Trust is moving from brand and design to machine-readable reputation \n→ Funnels are becoming autonomous journeys, no human required to move stage to stage \n→ CRMs are turning from systems of record into systems of action \n→ Revenue itself is becoming a recursive execution loop, not a quarterly motion\n \nMost of us are still optimizing for a buyer who reads, feels, and decides like I did in that boardroom in 1999.\n \nThe next buyer might not read at all.\n \nI'm not saying humans disappear from B2B as high-stakes decisions still need someone accountable for them. I'm saying the 𝘱𝘢𝘵𝘩 to that decision is being rebuilt by agents, right now, while most of us are still A/B testing subject lines.\n \nIf that unsettles you a little good. \nIt should have unsettled me too, watching that demo.\n \nI'm an advisor/ambassador for Hard Skill Exchange, and they're hosting a free virtual summit on exactly this shift: Agent-to-Agent GTM, June 23–25. I'll also be speaking at one of their future summits.\n\nhttps://lnkd.in/ebJpe2sQ\n\nWorth three days of your attention if you'd rather get ahead of this than get caught by it.",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1782110703660,
+        "date": "2026-06-22T06:45:03.660Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGv_dlocZgTrA/feedshare-shrink_1280/B4EZ7e_vkEHsAM-/0/1781857712678?e=1786579200&v=beta&t=KnShHzjG-5TprqaLZQdg_VCiSiKQdOY0vLnS8_wlDXQ",
+          "width": 1132,
+          "height": 862
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7474714052804554752",
+        "likes": 92,
+        "comments": 57,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 69
+          },
+          {
+            "type": "INTEREST",
+            "count": 11
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476916431981457408",
+      "entityId": "7476916431981457408",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_most-linkedin-creators-are-unknowingly-using-activity-7476916431981457408-PMj5",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7476916431368990720",
+      "shareUrn": "urn:li:ugcPost:7476916431368990720",
+      "content": "Most LinkedIn creators are unknowingly using tools that violate LinkedIn's terms. Not just gray area violations. Explicit ones.\n\nAnd when LinkedIn acts (whether they are right or wrong) your visibility pays the price.\nI know this firsthand, as they banned me twice.\nOnce when I was doing a research experiment. The second time on my birthday, while moving my parents into an elderly care home. In both cases, getting the account back took days. \n\nBut recovering the reach and performance took over a month.\n\nIn this week's newsletter I cover:\n— The line between tools LinkedIn permits and tools it bans\n— The ShieldApp takedown and what LinkedIn's move against Clay, Apollo and Expandi means for your stack\n — A 5-step audit to clean up your tools before something else forces you to\n — Three content creation tools I personally use that are fully aligned with LinkedIn's terms\n\nIf you use any third-party tools connected to your LinkedIn account, this edition is worth your time.\n\nClick below to read it.",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1782635791774,
+        "date": "2026-06-28T08:36:31.774Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "#64 LinkedIn Tools that get you Banned vs. The Good Ones",
+        "subtitle": "Richard van der Blom",
+        "link": "https://www.linkedin.com/pulse/64-linkedin-tools-get-you-banned-vs-good-ones-richard-van-der-blom-ggwwe?trackingId=aZK1DeDWeTBCtYg4h3ZCOQ%3D%3D",
+        "linkLabel": "Open article: #64 LinkedIn Tools that get you Banned vs. The Good Ones by Richard van der Blom • 6 min read",
+        "description": "Your LinkedIn account took years to build. One wrong tool can take it down in hours and getting it back does not mean getting back to where you were.T",
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E12AQE25l3vnPrI1g/article-cover_image-shrink_720_1280/B4EZ8NWWAeHAAQ-/0/1782635393786?e=1786579200&v=beta&t=g0-kYxIUi9CfzRDSFqOP6uDnRZNXreCyodhvq3b8O5s",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7476916431368990720",
+        "likes": 234,
+        "comments": 63,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 183
+          },
+          {
+            "type": "INTEREST",
+            "count": 36
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475448998515105793",
+      "entityId": "7475448998515105793",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_most-companies-are-leaving-80-of-their-linkedin-activity-7475448998515105793-SHQD",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475448996547825664",
+      "shareUrn": "urn:li:share:7475448996547825664",
+      "content": "Most companies are leaving 80% of their LinkedIn reach on the table. Not because they're inactive, but because they're following outdated rules.\n\nThey invest in the Company Page, hire someone to post 3x a week and then wonder why only 200 people see it.\n\nYour Company Page and your personal profile aren't competitors.\nYou just need to treat them like a system, which most companies don’t understand.\n\nAfter analysing millions of posts for the Algorithm Insights Report 2026, this is what we see at the moment:\n\n→ 1. Personal profiles get 8x more reach and 12x the engagement of Company Pages\nPages speak into the void. People interact. If your team isn't posting, your brand is invisible.\n\n→ 2. \"Resharing with your own thoughts\" is a \"no-go\"\nLinkedIn classifies this as low-effort copied content and suppresses it. What works: comment on the Company Page post, or use instant reshare. Two actions. Completely different outcome.\n\n→ 3. Your thought leaders are your highest-value distribution channel\nB2B buyers follow people, not logos. Content from C-level profiles reaches a more relevant, more senior audience than brand content ever will.\n\n→ 4. C-level creating original content get up to 5x more views\nThe algorithm elevates them as high-credibility sources. A single post from your CEO can reach more qualified buyers in 48 hours than a month of Company Page posts.\n\n→ 5. Who engages matters as much as how many\n80%+ engagement from internal colleagues is an algorithmic red flag. External engagement from people outside your existing audience is the accelerator.\n\nThis is exactly why I co-founded Narify. One system connecting your Page and your people.Ideal for agencies that support multiple clients and Employee Advocacy Programs that need a boost\n\n👉 See how it works: www.narify.com\nOr send me a DM to schedule your personal demo\n\nBe honest!\nWhat percentage of your engagement comes from your own colleagues?",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1782285928372,
+        "date": "2026-06-24T07:25:28.372Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGLZKfHYrDhLA/feedshare-image-high-res/B4EZ74hQDoKMAY-/0/1782285926937?e=1786579200&v=beta&t=yj8pd9iQoFv2ZNX2km9SYMWrsNQa4Qi9WTnnxWirXjA",
+          "width": 1010,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475448998515105793",
+        "likes": 228,
+        "comments": 99,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 183
+          },
+          {
+            "type": "INTEREST",
+            "count": 26
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475093172931497984",
+      "entityId": "7475093172931497984",
+      "linkedinUrl": "https://www.linkedin.com/posts/richardvanderblom_i-called-my-dad-yesterday-for-fathers-day-activity-7475093172931497984-7ZVP",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475093169886498816",
+      "shareUrn": "urn:li:share:7475093169886498816",
+      "content": "I called my dad yesterday for Father's Day. One day too late. He won't mind. In less than 3 months I will be a father myself. Exciting and terrifying at the same time.\n \nFour years. Two lost pregnancies. Medical complications. Conversations late at night about whether to keep going, whether this was still worth it, whether we were still okay.\n \nWe kept going.\n \nAnd now The Netherlands and Argentina are creating a little piece of Spain.\n \nWhen I shared those experiences publicly, over 200 DMs came in. People I had never met, going through the same thing. Parents growing old and getting dementia. Miscarriages before becoming a father and mother. My wife read them with me. That moment reminded me why I talk about the hard stuff.\n \nSame when I write about my dad's dementia. Him in the Netherlands, with me in Spain as an only child. My mom gone since last summer. It's not easy to put into words, but people care and respond, because they know there words might help to heal.\n \nI was 27 when I met my ex-wife. She had two boys, three and seven years old. For seventeen years I tried to be a good stepfather. They taught me so many valuable lessons. Patience, presence, showing up even when you don't know if you're doing it right.\n \nWhen I met Evelina in 2021, we knew early on what we both wanted. So we went all-in, but the road was harder than we expected.\n \nSeptember will change everything. Three of us. Four if you count Siena, our thirteen year old labradoodle who has no idea what is coming.\n \nMy dad? The thing about dementia nobody tells you, is that it sometimes comes with a laugh. Every time I remind him he is becoming a grandfather at 80, it is the first time he hears it. And every single time, he cannot stop cheering.\n \nI get to give him that moment twice a day.\n \nLife is not clean or linear. But it is worth showing up for.\n \nDon't you think?\n \nPS: We mixed up the football shirts in the photo. I should wear the Dutch one. Evelina the Argentinian. The little one gets the Spanish. We'll get it right in September. That's a promise.",
+      "author": {
+        "id": "ACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "universalName": null,
+        "publicIdentifier": "richardvanderblom",
+        "type": "profile",
+        "name": "Richard van der Blom",
+        "linkedinUrl": "https://www.linkedin.com/in/richardvanderblom?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAACGGz8B4INu9V_hVH2WSp0gKcPe4ad0M1s",
+        "info": "LinkedIn Sales Strategist | Algorithm Research-Backed | Helping Entrepreneurs Turn Visibility Into Revenue Without Living on the Platform | 350K+ Professionals Trained | +1,000 Companies Supported | Keynote Speaker",
+        "website": "https://www.richardvanderblom.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGjVRwwMleTZQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709662494102?e=1786579200&v=beta&t=OnX-rj5u3nIFb7l9TIfTwY8TYIXWawDcFhumdTbX04M",
+          "width": 600,
+          "height": 600
+        },
+        "urn": "8788799"
+      },
+      "postedAt": {
+        "timestamp": 1782201092942,
+        "date": "2026-06-23T07:51:32.942Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHmYTQwlw12Zg/feedshare-shrink_1280/B4EZ7zdoUrHoAM-/0/1782201091777?e=1786579200&v=beta&t=jlBKNhZwHeVyKtwBS2bGOR8pMlcaxv4jlCs9JbQ4Eqk",
+          "width": 1200,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475093172931497984",
+        "likes": 664,
+        "comments": 172,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 322
+          },
+          {
+            "type": "EMPATHY",
+            "count": 206
+          },
+          {
+            "type": "PRAISE",
+            "count": 82
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 54
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/richardvanderblom",
+        "sessionId": "09b8c8ac-64b5-4926-a600-6d155fccb39a"
+      }
+    }
+  ]
+}

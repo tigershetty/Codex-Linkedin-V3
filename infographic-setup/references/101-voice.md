@@ -1,18 +1,18 @@
 # Shetty's Desk — Supply Chain 101 Voice Reference
 **Version**: 2.0
 **Used by**: `/101` skill
-**Purpose**: Voice anchor for Supply Chain 101 series. Load before writing any 101 caption.
-**Master voice**: Always read `tiger-voice.md` (workspace root) alongside this file. That file is the authority on Tiger's voice DNA. This file adds 101-specific structure and audience calibration.
+**Purpose**: Accessible-register guidance for accepted V4 Supply Chain 101 topics.
+**Master voice**: Always read `tiger-voice.md` and the approved Tiger source note alongside this file. Those sources are authoritative; this file does not impose a repeated caption structure.
 
 ---
 
 ## What This Series Is
 
-Supply Chain 101 is a weekly series of single-image infographics that break down supply chain fundamentals. Each post teaches one concept clearly. The audience includes both practitioners and non-supply-chain professionals.
+Supply Chain 101 is a production format for explaining accepted supply-chain decisions and foundations clearly. It has no automatic weekly quota. The primary audience remains the V4 practitioner; non-supply-chain professionals are a secondary reach audience.
 
-**Series identity**: "Supply Chain 101" — referenced in every post
-**Hashtag**: #SupplyChain101 (always included alongside #ShettysDesk)
-**Sign-off**: "Follow Poornajith Shetty and Shetty's Desk for more supply chain insights" + a save prompt
+**Series identity**: "Supply Chain 101" when the label helps orient the reader
+**Hashtag**: #SupplyChain101 when relevant
+**Ending**: earn the next action or response; do not repeat one compulsory sign-off
 
 ---
 
@@ -34,13 +34,13 @@ Supply Chain 101 is a weekly series of single-image infographics that break down
 
 ### Pattern Breakers (use at least 1 per post)
 - Start a sentence with "And" or "But"
-- Include one specific detail from Tiger's real experience
+- Include one specific public-safe detail only when it maps to an approved Tiger source ID; otherwise use evidence, method, artifact, or decision boundary
 - Use a parenthetical aside mid-sentence (signals thinking in real time)
 - Vary bullet structure — not all 3 bullets need the same format
 - Let a sentence run longer than feels "optimal" when working through an idea
 
 ### Hard Rules
-See `tiger-voice.md` — Hard Rules section. Non-negotiable across all pipelines.
+See `tiger-voice.md` — `Hard Rules — Authenticity and Provenance`. Non-negotiable across all pipelines.
 
 ---
 
@@ -55,26 +55,24 @@ See `tiger-voice.md` — Hard Rules section. Non-negotiable across all pipelines
 | Hook style | Data-led, case-study anchored | Metaphor-led, analogy-driven, accessible |
 | Caption length | 200–350 words, dense | 150–300 words, breathing room |
 | Bullets | Named firms + embedded numbers | Concept explanations + simple examples |
-| Opinion | "My take:" — arguable position | Lighter reframe or practical insight |
+| Opinion | Tiger-approved judgment in natural language | Lighter reframe or practical insight |
 | CTA | Names "your organisation" or "your supply chain" | Invites reflection, not audit |
 
 ---
 
-## 101 Post Structure (7 parts — adapted)
+## 101 Reasoning Ingredients
 
-This structure is a guide, not a straitjacket. Vary how each part is expressed so posts do not all read identically. The voice should flow naturally. not march through labelled sections.
+These are optional ingredients, not seven mandatory parts. Use only what the problem, proof, artifact and Tiger judgment earn. The voice should flow naturally, not march through labelled sections.
 
 1. **Hook** (1–2 sentences) — accessible, metaphor-led, stops a non-practitioner mid-scroll
 2. **Series Frame** (1–2 sentences) — positions this post in the Supply Chain 101 series, references previous post if relevant
 3. **Core Explanation** (2–3 sentences) — the concept in plain language, no jargon. Can flow into the bullets naturally rather than standing as a rigid separate block.
 4. **Supporting Detail** — explain 2–3 aspects of the concept with examples or analogies. These do NOT need to be formatted as uniform bullets every time. Vary the approach: flowing paragraphs, mixed formats, questions within the explanation. Not all points need the same bold-label-plus-explanation structure.
 5. **Reframe / Opinion** (1–2 sentences) — use Tiger's opinion bridges ("My view on this is that...", "Here's the thing most people miss..."). Rotate between posts. Do NOT default to "My take:" or the same bridge every time.
-6. **CTA Question** — single open question, invites reflection, accessible to non-practitioners. Be specific enough that the reader knows exactly what to think about.
-7. **Sign-off + Hashtags**
-   - "Follow Poornajith Shetty and Shetty's Desk for more supply chain insights and save this for [specific reference use]."
-   - #ShettysDesk #SupplyChainIntelligence #SCM #SupplyChain101 + 1 topic-specific tag
+6. **Ending** — a specific question, action, caveat, or useful closing distinction when it improves the piece.
+7. **Attribution / tags** — only what serves discovery and clarity; never a compulsory repeated block.
 
-**Word count**: 150–300 words. Keep it lighter than deep dive.
+**Length**: determined by the accepted content brief. Keep it lighter than a Substack decision brief and remove explanation that does not change understanding.
 
 ---
 
@@ -177,7 +175,7 @@ The same 10 hook types from the deep-dive pipeline apply, but adapted for access
 | 3 | Stat-Lead | Use a simple, surprising number — not a dense ratio |
 | 4 | Contrarian | Challenge a common assumption non-practitioners hold |
 | 5 | Paradox | Use a relatable contradiction, not a mechanism chain |
-| 6 | Personal-Reflection | "I get asked this all the time..." framing |
+| 6 | Personal-Reflection | Available only when the exact experience maps to an approved Tiger source ID |
 | 7 | Result-First | Start with a visible outcome, then explain the concept |
 | 8 | Timeline-Shock | Trace a product journey as a timeline |
 | 9 | Comparison-Gap | Two things people think are the same, shown as different |

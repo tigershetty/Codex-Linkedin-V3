@@ -1,17 +1,22 @@
 # AI for Supply Chain — Series Tracker
-**Series**: AI for Supply Chain (Posts 3+4 each week)
-**Format**: Two practical use-case posts per week — each for a specific SC role and AI tool
+**Series**: AI for Supply Chain
+**Format**: Practical use-case posts for specific SC roles and decisions; no fixed weekly quota
 **Topic bank**: Monthly theme model (see `infographic-setup/CLAUDE.md` Part 3)
-**Frequency**: 2 posts/week (Posts 3+4 in weekly quartet, alongside 101 Posts 1+2)
+**Frequency**: Evidence-led allocation within the five-post V4 LinkedIn portfolio
 **Period**: W21 onward (May 2026+)
 **Status**: Active — v2 pipeline (use-case model, no fixed Practitioner/Leader split)
-**Last updated**: 2026-07-16
+**Last updated**: 2026-07-28
+
+> **V4 note:** unified 2+2 numbering below is historical metadata, not the current publishing
+> contract. Topic admission, audience value, evidence, artifact utility, and portfolio fit decide
+> whether an AI-for-SC candidate is selected.
 
 ---
 
 ## Episode Status
 
-**Unified numbering**: Each week = 4 posts (2 x 101 + 2 x AI for SC), numbered sequentially across both series. AI for SC posts = Posts 3+4 each week. W21: Ep27 + Ep28. W22: Ep31 + Ep32 (TBD).
+**Historical unified numbering**: the pre-V4 system numbered four weekly posts across both series.
+Keep those IDs for traceability; do not infer a current 2+2 cadence from them.
 
 | Ep (unified) | Role | Use Case | Week | Theme | Tool | Slug | Hook Type | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -28,7 +33,7 @@
 ---
 
 ## Notes
-- Each week = two posts: different SC role + different AI tool per post
+- When multiple AI-for-SC posts enter one portfolio, vary role, decision, evidence, and tool where that improves audience value
 - File naming: `ai-for-sc-[use-case-slug].md` (not practitioner/leader)
 - Qualified AI-for-SC posts pass the resource gate and ship a direct-download pack with a compact field guide and safe first run.
 - Hooks lead with a professional distinction, operating situation, or current capability with a concrete payoff.

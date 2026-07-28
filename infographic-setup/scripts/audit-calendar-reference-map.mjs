@@ -62,7 +62,7 @@ for (const row of rows) {
   if (!row.section) failures.push([row.post, 'missing RW section']);
   if (!row.post) failures.push([row.post || '(blank)', 'missing post name']);
   if (!allowedJobs.has(row.audienceJob)) failures.push([row.post, `unexpected audience job: ${row.audienceJob}`]);
-  if (wordCount(row.promise) < 5) failures.push([row.post, 'reference-proven promise is too thin']);
+  if (wordCount(row.promise) < 5) failures.push([row.post, 'curated-reference promise hypothesis is too thin']);
   if (!formatRe.test(row.powerFormat)) failures.push([row.post, `unrecognized power format: ${row.powerFormat}`]);
   if (wordCount(row.captionPattern) < 2) failures.push([row.post, 'caption pattern is too thin']);
   if (!artifactRe.test(row.saveTrigger)) failures.push([row.post, `save trigger lacks artifact language: ${row.saveTrigger}`]);

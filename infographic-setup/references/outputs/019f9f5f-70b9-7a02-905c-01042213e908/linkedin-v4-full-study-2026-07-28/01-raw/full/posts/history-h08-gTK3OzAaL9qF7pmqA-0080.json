@@ -1,0 +1,3611 @@
+{
+  "runId": "gTK3OzAaL9qF7pmqA",
+  "datasetId": "pOokxA64KCTr3cF4W",
+  "offset": 80,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7475865436304175105",
+      "entityId": "7475865436304175105",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_your-linkedin-visuals-dont-need-to-take-activity-7475865436304175105-rl6S",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475843014549082112",
+      "shareUrn": "urn:li:share:7475843014549082112",
+      "content": "Your LinkedIn visuals don't need to take 3 hours.\nYou just need the right setup.\nEvery post that gets engagement is built with tools you already have access to.\nHere's what's actually working:\n\n→ Claude for Carousels: https://lnkd.in/e5b2xPUs\n→ ChatGPT for Infographics: https://lnkd.in/e5y6iXHE\n→ Design Principles for LinkedIn Visuals: https://lnkd.in/e_YJJ3ih\n→ Carousel Strategy for LinkedIn: https://lnkd.in/e4rAjt2z\n→ YouTube Videos to LinkedIn Carousels: https://lnkd.in/eq3YgdDy\nTotal cost: $0.\nTotal time to learn: One weekend.\nFive resources. Five bookmarks.\nEverything you need to stop overthinking and start creating.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1782385214878,
+        "date": "2026-06-25T11:00:14.878Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFWJ2aSxidKVA/feedshare-image-high-res/B4EZ7.Hm4KJkAU-/0/1782379868192?e=1786579200&v=beta&t=I2jqY66J8zMCsQMcwToeLshgmcnP1sC8KpMv6fcLco8",
+          "width": 1476,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475865436304175105",
+        "likes": 96,
+        "comments": 30,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 78
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475140674561163264",
+      "entityId": "7475140674561163264",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_stop-walking-into-cold-calls-on-a-2-minute-activity-7475140674561163264-xFDE",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475135686099111936",
+      "shareUrn": "urn:li:share:7475135686099111936",
+      "content": "Stop walking into cold calls on a 2-minute LinkedIn skim.\nYou know their name.\nYou know their company.\nThat's it.\nInstead, use Claude to give you a full brief on any prospect in under 10 minutes.\nHere's exactly how it works:\n\nStep 1 - Set the Context\nPaste your company info into Claude once. Everything else flows from here.\nPrompt: \"Your company name, what you sell, who you sell to, the problem you solve, how you're different, industries you work in, why people buy, why deals fall through. Remember this context for everything I ask next.\"\n\nStep 2 - Build the Prospect Profile\nPaste their LinkedIn profile text. Claude extracts who they are and what matters to them.\nPrompt: \"Here is [Name]'s LinkedIn profile: [PASTE LINKEDIN PROFILE TEXT]. Summarize who they are, what is their role, how long have they been in this position, what they likely prioritize, and any recent activity that signals intent.\"\n\nStep 3 - Research the Company\nGive Claude the company name. You get their business model, customers, and current challenges.\nPrompt: \"Here is the company: [COMPANY NAME]. Tell me their business model, who their customers are, what problems they likely face right now, and any recent news, hires, or funding that is relevant.\"\n\nStep 4 - Build Your Call Edge\nClaude gives you 5 questions, 3 objection responses, and one opening line.\nPrompt: \"Give me 5 discovery questions, 3 likely objections with one-line responses, and one opening line based on this prospect and company.\"\n\nAll in Claude. Under 10 minutes.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1782212418213,
+        "date": "2026-06-23T11:00:18.213Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQE9WFTnr2mdvw/feedshare-shrink_1280/B4EZ70ES3lJgAM-/0/1782211228184?e=1786579200&v=beta&t=Kx9rWL8XB0MUWFFk-LootCK6XqeHVDqyi3GvQsdAcgI",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475140674561163264",
+        "likes": 152,
+        "comments": 53,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 131
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7474781449007734786",
+      "entityId": "7474781449007734786",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_linkedins-profile-now-impacts-your-post-activity-7474781449007734786-G-Cq",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7474781447984226304",
+      "shareUrn": "urn:li:share:7474781447984226304",
+      "content": "LinkedIn's profile now impacts your post ranking.\n\nYour headline, About section, and featured content are algorithm signals. \nA vague headline buries your posts even if the content is good.\n\nThe difference between 2-3% engagement and 6%+ comes down to what you're tracking. \nOne approach watches saves and dwell time while the other measures likes and impressions.\n\nWhen someone saves your post, they're bookmarking it to use later. \nWhen they spend 60 seconds on your post instead of 3, the algorithm treats it completely differently.\n\nConsistency matters more than volume while posting on LinkedIn. \nPosting at the same time every week and replying to comments creates more momentum that posting 10 times one week can't match.\n\nStart tracking these metrics. \nWithin weeks, you'll see patterns in what actually works for your audience.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1782126772167,
+        "date": "2026-06-22T11:12:52.167Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQG5ft2pN9SDKg/feedshare-shrink_1280/B4EZ7vCHfFIcAM-/0/1782126770618?e=1786579200&v=beta&t=w4yilzrHhcqdn9MBPE8wKI0ZhNSkjdXHgxN73tBDv9s",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7474781449007734786",
+        "likes": 239,
+        "comments": 60,
+        "shares": 17,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 199
+          },
+          {
+            "type": "INTEREST",
+            "count": 23
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7472603935489523715",
+      "entityId": "7472603935489523715",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_i-recorded-6-months-of-my-sales-calls-with-activity-7472603935489523715-R9ht",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7471860313672290304",
+      "shareUrn": "urn:li:share:7471860313672290304",
+      "content": "I recorded 6 months of my sales calls with an AI.\nHere is what the data showed me.\n\nMy real pitch only starts ten or fifteen minutes into the call.\nThe first part is a conversation about them, where they are now, what they use day to day, what works, what is broken, and whether they are happy with what they pay for it.\n\nWhile they answer all of that, they hand me their objections without knowing it.\n\nFour of them come back on almost every call.\nWhen I pull up the deals that closed, these are the answers I gave.\nI am not saying the words closed the deal.\nThe data just keeps pointing at the same ones.\n\n→ \"We already have tools for this.\"\n↳ I never trash the tool they already use.\nI ask what works for them, and the one thing they would change about it.\nThat one thing is usually where I fit.\n\n→ \"We handle it in house.\"\n↳ I make it clear I am not there to replace their team.\nThen I ask what doing it themselves takes, in hours and people, and I show them where I make it lighter.\n\n→ \"It's not a priority right now.\"\n↳ This tells me I have not made the problem feel urgent enough.\nI ask what would have to change for it to move up the list, and what another quarter of waiting costs them.\nIf the honest answer is nothing, I let it go.\n\n→ \"We don't have the budget.\"\n↳ When someone says this, I stop talking about price.\nI go back to what the problem is already costing them every month, because that is almost always the real conversation.\n\nNone of this shows up one call at a time.\nI keep Claap running on every call.\nIt records, syncs to my CRM, and lets me pull up the closed deals and see which responses keep showing up in my best months.\n\nI even built an objection dashboard straight from my calls, no code needed.\nHere is how I set it up, if you want your own:\nhttps://lnkd.in/d5zKXAZk\n\nBONUS:\nANTI SALES is the most honest thing I do, and it wins me the most deals.\nWhen I am clearly not the right fit (too expensive for what they need), I say it straight and point them to a competitor who fits better.\nThose are the people who come back, or refer me.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1781607612488,
+        "date": "2026-06-16T11:00:12.488Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGi3vuPondzgw/feedshare-shrink_1280/B4DZ7FhXRHK8AM-/0/1781430318463?e=1786579200&v=beta&t=M_RXQDJKbxlxIbyCVDLRNW8X-5MrE7Ji2qK4TB_BUm8",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7472603935489523715",
+        "likes": 226,
+        "comments": 94,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 179
+          },
+          {
+            "type": "INTEREST",
+            "count": 20
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 14
+          },
+          {
+            "type": "EMPATHY",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7472241601290014721",
+      "entityId": "7472241601290014721",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_your-best-posts-wont-matter-if-your-profile-activity-7472241601290014721-0-WM",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7472241598274236416",
+      "shareUrn": "urn:li:share:7472241598274236416",
+      "content": "Your best posts won't matter if your profile doesn't convert.\n\nPeople spend 6-10 seconds scanning your profile to decide whether to message you or move on. \nIf your current profile converts 1% of visitors into conversations and an optimized profile moves that to 3%, every 100 profile views matters. \n\nOptimized LinkedIn profiles are more likely to appear in search results and help convert profile visitors into leads. \n\nHere are 5 prompts to audit your LinkedIn profile in 5 minutes-\n\nHeadline Optimization Prompt: \n\"My LinkedIn headline is: [INSERT YOUR HEADLINE] | I help: [INSERT WHO YOU HELP] | The problem I solve: [INSERT THE PROBLEM] | Keywords people search for in my industry: [INSERT 3-5 KEYWORDS] Audit this headline on 3 things: 1. Is it clear what I do? 2. Does it mention who I help? 3. Does it include searchable keywords? If weak, rewrite it better.\"\n\nAbout Section Prompt: \n\"This is my LinkedIn About section: [PASTE YOUR FULL ABOUT TEXT] | The problem I solve: [INSERT PROBLEM] | My ideal customer: [INSERT WHO THEY ARE] Rate this About section on: 1. Does the first two sentences make clear what problem I solve? 2. Would my ideal customer see themselves in this? 3. Is there a clear CTA (link, contact, next step)? Rewrite the weak parts.\"\n\nExperience Description Prompt: \n\"Here are my LinkedIn experience descriptions: [PASTE EACH JOB DESCRIPTION] For each role, tell me if it shows what I accomplished and the impact or if it just lists duties. Then rewrite 2-3 descriptions to emphasize: Money saved or made, People managed, Problems solved & Business results. Not task lists.\"\n\nCall to Action Prompt: \n\"What I do: [INSERT WHAT YOU OFFER] | Who I help: [INSERT YOUR IDEAL CUSTOMER] | What I want them to do: [INSERT NEXT STEP - book call, DM, visit site, etc] Write me three different CTAs: 1. One for my headline 2. One for my About section 3. One for my pinned post Make them specific and action-oriented.\"\n\nFeatured Content Prompt: \n\"What I'm currently featuring on my profile: [DESCRIBE WHAT'S PINNED] | My positioning: [INSERT WHAT YOU WANT TO BE KNOWN FOR] | My niche: [INSERT YOUR NICHE] Is my featured content proving I'm an expert in [YOUR NICHE]? If not, what 3-5 posts should I feature instead to show: Expertise in [your niche], Proof of results, Authority in [specific area]\"\n\nCopy these five and run them in Claude. You'll know exactly what to fix.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1781521225283,
+        "date": "2026-06-15T11:00:25.283Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGE0s7oxuySHA/feedshare-shrink_1280/B4EZ7K8I1qIwAc-/0/1781521223563?e=1786579200&v=beta&t=u265O7HYqhwxYCX2CGXqfG2xNnVnyeE0r4QioENzLdg",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7472241601290014721",
+        "likes": 186,
+        "comments": 61,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 161
+          },
+          {
+            "type": "EMPATHY",
+            "count": 13
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7473691299964067840",
+      "entityId": "7473691299964067840",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_using-one-ai-tool-for-everything-limits-what-activity-7473691299964067840-eFMt",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7473691297049137152",
+      "shareUrn": "urn:li:share:7473691297049137152",
+      "content": "Using one AI tool for everything limits what you get.\n\nKnow what each tool is weak at, and you'll know which one to use.\n\n- Claude: Catches its own errors better than others (26.4% vs 36.2% confidence-contradiction rate). Use it when being wrong costs you.\n\n- ChatGPT: Strongest for everyday productivity, creative writing, and general tasks across the board. \n\n- Perplexity: Leads on citation accuracy by 37%—every answer comes with sources you can actually verify. \n\n- Grok: Built for real-time social conversations and fast-paced interactions, especially on X for catching emerging trends. \n\n- Notion: Built directly into your workflows. Use it when you're already inside Notion for notes and tasks.\n\n- NotebookLM: Everything comes cited. Use it for learning and studying because sources matter.\n\nThe Claude-Perplexity pair is structurally complementary; use them together for research that needs both precision and verification. \n\nPick based on what the task actually needs. That's it",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1781866860381,
+        "date": "2026-06-19T11:01:00.381Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGIyy8XDxgCMg/feedshare-shrink_1280/B4EZ7fioaNHkAU-/0/1781866858799?e=1786579200&v=beta&t=xRwG0UmHACagQAp5Kvs2q42xpAUwtfXG7nLlrMHvO-c",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7473691299964067840",
+        "likes": 164,
+        "comments": 48,
+        "shares": 16,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 150
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475503043573256192",
+      "entityId": "7475503043573256192",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_the-tool-you-pick-determines-how-fast-you-activity-7475503043573256192-t9G3",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475499462472368128",
+      "shareUrn": "urn:li:share:7475499462472368128",
+      "content": "The tool you pick determines how fast you finish a task.\n\nHalf of the slowness comes from fighting the wrong tool. \nOnce you stop doing that, everything becomes much faster.\n\nHere's how I use them:\n\n1. Comments backing up\nI use Wispr Flow to comment faster. I finish in half the time instead of typing each one out.\n\n2. Need visuals in 10 minutes\nI send ChatGPT my previous posts and my visual style as reference. \nType it what the new post needs and then I drop it into Canva and edit the infographic. \n\n3. Planning a month ahead\nClaude breaks down the content pillars and themes. \nThen Notion holds the calendar and I use Notion AI to organize batches.\n\n4. Find what's trending in my niche\nI go to subreddits in my space. Filter by top this month or this year and that tells me what people actually care about. \nGrok also catches conversations early before they blow up everywhere.\n\n5. Turn one video into five posts\nOne YouTube video becomes five different LinkedIn posts. \nNotebookLM pulls the key points, and Notion organizes them by angle. \n\n6. Writing posts\nI use Wispr Flow to give me a rough voice draft of what I want to say. \nI paste that into Claude and it adapts it to my actual voice and makes it sharper. One back-and-forth and it's ready.\n\n7. Sanity check claims\nI use Perplexity to fact-check before posting. \nIt pulls sources so I'm not guessing if something is true.\n\n8. Visual inspiration\nI reference what works visually on Pinterest and Reddit. \nSee what resonates in design, color, layout and apply those elements to my own work.\n\nStart doing this with one task. \nYou'll notice the difference immediately.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1782298813718,
+        "date": "2026-06-24T11:00:13.718Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEzYdd72fdiaA/feedshare-shrink_1280/B4EZ75PJk8HAAM-/0/1782297959191?e=1786579200&v=beta&t=b8SrqPDb42sZ7XlL4zCjOIZTpPQ-leaHJrQUlmH8RNI",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475503043573256192",
+        "likes": 92,
+        "comments": 51,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 79
+          },
+          {
+            "type": "EMPATHY",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7470430474260361216",
+      "entityId": "7470430474260361216",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_chatgpt-is-not-the-best-tool-for-linkedin-activity-7470430474260361216-6e7r",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7470430473178230784",
+      "shareUrn": "urn:li:share:7470430473178230784",
+      "content": "ChatGPT is not the best tool for LinkedIn.\nIt is not even close.\nIt was the first tool everyone used, and that is the only reason it is still the default.\n\nHere is my stack for 2026:\n\nWriting content: Claude. It matches my tone and keeps my voice consistent throughout. \n\nCreating visuals: ChatGPT. It understands design intention better than anything else. You describe what you want, and it gets the aesthetic right.\n\nMarket research: Gemini. You catch signals before they blow up on LinkedIn. \n\nResearch: Perplexity. Sources are attached. Everything's organized so you actually read where the information came from.\n\nContent strategy: Claude. You understand what your audience is actually responding to and build from there.\n\nDictation: Wispr Flow. I dictate whatever's happening, thoughts I'm having, comments I want to write. It turns voice into something usable.\n\nSummarizing articles: NotebookLM. It extracts what matters without the fluff.\n\nSpotting signals: Grok. Trends show up here first.\n\nThis is the stack that works for me in 2026.\n\nHaving said that, the tool is only half the job.\nHow you use it is the other half.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1781089418950,
+        "date": "2026-06-10T11:03:38.950Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGQnQQEQv9DkA/feedshare-shrink_1280/B4EZ6xM7ZRHoAU-/0/1781089417374?e=1786579200&v=beta&t=H3d8erMQ2pErpEz1H7G4sQep7LLadbwg-Am7zR6-ebU",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7470430474260361216",
+        "likes": 180,
+        "comments": 58,
+        "shares": 14,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 155
+          },
+          {
+            "type": "INTEREST",
+            "count": 12
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7473328683580215297",
+      "entityId": "7473328683580215297",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_these-9-claude-skills-cut-your-sales-prep-activity-7473328683580215297-lRGc",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7473328682393280512",
+      "shareUrn": "urn:li:share:7473328682393280512",
+      "content": "These 9 Claude Skills cut your sales prep time in half.\n\nResearch. Scripts. Follow-ups. Call analysis. Outreach.\nThe tasks that eat a rep's day before a single conversation happens.\nAll of it can be a skill now.\n\nHere is what is in it:\n\n1. Account Qualification - qualify prospects faster and smarter\nhttps://lnkd.in/eJi8zqCi\n\n2. Call Analysis - analyze calls to close more deals\nhttps://lnkd.in/eqjgV3DA\n\n3. Cold Call Scripts - scripts that get people to actually listen\nhttps://lnkd.in/ehCUrRXf\n\n4. Company Intelligence - deep research on any company, instantly\nhttps://lnkd.in/edzDQFgC\n\n5. Follow-Up Emails - follow-ups that keep deals moving\nhttps://lnkd.in/eEvVfNt5\n\n6. Multithread Outreach - reach every stakeholder, not just one\nhttps://lnkd.in/eSXMySKa\n\n7. Powerful Framework - apply top sales frameworks to any situation\nhttps://lnkd.in/esx3wPtP\n\n8. Prospect Research - know your prospect before you reach out\nhttps://lnkd.in/eHz3WRxS\n\n9. Sales Orchestrator - run your full sales process without missing a beat\nhttps://lnkd.in/eyBUCvUB\n\nAll free to download and install.\nBookmark this before your next call.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1781780405898,
+        "date": "2026-06-18T11:00:05.898Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEjYbzP72EKpA/feedshare-image-high-res/B4EZ7aY1ozJUAU-/0/1781780405045?e=1786579200&v=beta&t=UbGaTGE3uj-5d3-kuixHhrWL4vwdtJjokiKEkdMFAqA",
+          "width": 800,
+          "height": 737
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7473328683580215297",
+        "likes": 171,
+        "comments": 76,
+        "shares": 14,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 150
+          },
+          {
+            "type": "INTEREST",
+            "count": 9
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7470791983784067072",
+      "entityId": "7470791983784067072",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_how-to-master-designs-for-linkedin-activity-7470791983784067072-u1cp",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7470765704250585089",
+      "shareUrn": "urn:li:ugcPost:7470765704250585089",
+      "content": "Stop spending hours designing carousels.\nYou can build one in 60 seconds.\n\nCarousels get up to 3.7x more engagement than text-only posts on LinkedIn.\nBut they are harder to build.\n\nSo this is how you can do it quickly:\n\n1. Connect Canva to Claude.\n2. Open the Design tab on your dashboard.\n3. Name your project and select \"High fidelity.\"\n4. Upload screenshots of a carousel style you like.\n5. Ask Claude to build a Canva template based on it.\n6. Your design is ready in minutes.\n7. Edit colors, fonts, text in under five minutes.\n\nDesign is now faster.\nSo now you can spend more time on the idea than the design.\n\nSave this for your next carousel.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1781175609537,
+        "date": "2026-06-11T11:00:09.537Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "How to Master Designs for LinkedIn",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQF-D90Vtt8MmA/feedshare-document-url-metadata-scrapper-pdf/B4DZ619s7PJcA4-/0/1781169313104?e=1785877200&v=beta&t=7-Fe7h4QDocnmYejiewcSkhBwn0cJnT6J0KbLP0OJ_s",
+        "coverPages": [
+          {
+            "width": 1541,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4D1FAQF-D90Vtt8MmA/feedshare-document-cover-images_1920/B4DZ619s7PJcBQ-/0/1781169313935?e=1785877200&v=beta&t=NJ20OWL09JZ7mTrLhYIdW6-qMkQ6yWgKxTTWfaP93J8",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQF-D90Vtt8MmA/feedshare-document-cover-images_1920/B4DZ619s7PJcBQ-/1/1781169313935?e=1785877200&v=beta&t=3km9zFCR9JlTm6Zx6a7WUPBK7xyYFAVXvPgIOC8HXP0",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQF-D90Vtt8MmA/feedshare-document-cover-images_1920/B4DZ619s7PJcBQ-/2/1781169313935?e=1785877200&v=beta&t=DD8bLJguUwZOAUF_0zNUZTYyL6osF7L_xq6SoqMC-Ng"
+            ],
+            "height": 1926
+          }
+        ],
+        "totalPageCount": 9,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQF-D90Vtt8MmA/feedshare-document-master-manifest/B4DZ619s7PJcBY-/0/1781169313935?e=1785877200&v=beta&t=cS1uo9mhT8gqsg4U-4RkJdKPzZ477etaBf7833-ofBs",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4D1FAQF-D90Vtt8MmA",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQF-D90Vtt8MmA/feedshare-document-transcript/B4DZ619s7PJcA0-/0/1781169313935?e=1785974400&v=beta&t=oj5AwClbe_sQHi8xLy0M-c_TGuHm_bSyj7qFKhd9zW0",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQF-D90Vtt8MmA/feedshare-document-pdf-analyzed/B4DZ619s7PJcAY-/0/1781169313935?e=1785974400&v=beta&t=aPuLIKNGWIRZL6WED6LiVo9pDOghL7YgAnjQF-eOx9c",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 393,
+              "height": 492,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQF-D90Vtt8MmA/feedshare-document-images_480/B4DZ619s7PJcAg-/0/1781169313935?e=1785974400&v=beta&t=jK6xOeXX8tkG_J6xYEVTXNcpZ4aefuZc6XxHpxG1yvY"
+            },
+            {
+              "width": 1035,
+              "height": 1293,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQF-D90Vtt8MmA/feedshare-document-images_1280/B4DZ619s7PJcAQ-/0/1781169313935?e=1785974400&v=beta&t=UEMeEfomprRoSmLn7Emd0tbLLu-HZ6dPw2qKqkjnYqw"
+            },
+            {
+              "width": 641,
+              "height": 801,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQF-D90Vtt8MmA/feedshare-document-images_800/B4DZ619s7PJcAk-/0/1781169313935?e=1785974400&v=beta&t=RdAt8Ql_5R4wdWNTPeslDPdM1tbBsRmdJaYfNe4K0eE"
+            },
+            {
+              "width": 1541,
+              "height": 1926,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQF-D90Vtt8MmA/feedshare-document-images_1920/B4DZ619s7PJcAo-/0/1781169313935?e=1785974400&v=beta&t=GRlJKK49rjLxKuZGlG-xlSX_NIk7gHdi00mELyENLEU"
+            },
+            {
+              "width": 135,
+              "height": 168,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQF-D90Vtt8MmA/feedshare-document-images_160/B4DZ619s7PJcAc-/0/1781169313935?e=1785974400&v=beta&t=9qJuaUe9vn5SzOxeGskOx-OHbNDIhaYlkQ5T8VF20_w"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7470765704250585089",
+        "likes": 222,
+        "comments": 67,
+        "shares": 14,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 192
+          },
+          {
+            "type": "INTEREST",
+            "count": 14
+          },
+          {
+            "type": "EMPATHY",
+            "count": 13
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/yonathan-levy",
+        "sessionId": "61e29aed-ea83-4733-8f56-eb33d62a43ac"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7466524269057835008",
+      "entityId": "7466524269057835008",
+      "linkedinUrl": "https://www.linkedin.com/posts/vipin-k-rastogi-a751847a_supply-chain-role-as-a-theme-park-activity-7466524269057835008-SpvD",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7466524268097343488",
+      "shareUrn": "urn:li:share:7466524268097343488",
+      "content": "Supply Chain Role as a Theme Park !! 🎢🎡🎠\nDifferent Rides-Same Park-Same Mission 🗺️🤝🎯",
+      "author": {
+        "id": "ACoAABDBVPkBkwipIqNkeiiGmEFa_D_VcswXgMM",
+        "universalName": null,
+        "publicIdentifier": "vipin-k-rastogi-a751847a",
+        "type": "profile",
+        "name": "Vipin K Rastogi",
+        "linkedinUrl": "https://www.linkedin.com/in/vipin-k-rastogi-a751847a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABDBVPkBkwipIqNkeiiGmEFa_D_VcswXgMM",
+        "info": "Supply Chain & Sourcing Professional",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "281105657"
+      },
+      "postedAt": {
+        "timestamp": 1780158107056,
+        "date": "2026-05-30T16:21:47.056Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQF55b6UH4Osyw/feedshare-shrink_1280/B56Z55sQnDIIAQ-/0/1780158106323?e=1786579200&v=beta&t=c1RD5EW-dICEdKz8TvM_NT02jk4VuZvpZYmn4_GRkhE",
+          "width": 1079,
+          "height": 1341
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7466524269057835008",
+        "likes": 20,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 20
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/vipin-k-rastogi-a751847a",
+        "sessionId": "ca4a203c-ab19-4f58-9ce5-a5346ab95eef"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7456550155622871040",
+      "entityId": "7456550155622871040",
+      "linkedinUrl": "https://www.linkedin.com/posts/vipin-k-rastogi-a751847a_supply-chain-roles-as-birds-different-activity-7456550155622871040-8CRt",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7456550154704277505",
+      "shareUrn": "urn:li:share:7456550154704277505",
+      "content": "SUPPLY CHAIN ROLES AS BIRDS 🐦 \n\nDifferent BIRDS...One MISSION",
+      "author": {
+        "id": "ACoAABDBVPkBkwipIqNkeiiGmEFa_D_VcswXgMM",
+        "universalName": null,
+        "publicIdentifier": "vipin-k-rastogi-a751847a",
+        "type": "profile",
+        "name": "Vipin K Rastogi",
+        "linkedinUrl": "https://www.linkedin.com/in/vipin-k-rastogi-a751847a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABDBVPkBkwipIqNkeiiGmEFa_D_VcswXgMM",
+        "info": "Supply Chain & Sourcing Professional",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "281105657"
+      },
+      "postedAt": {
+        "timestamp": 1777780093103,
+        "date": "2026-05-03T03:48:13.103Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEXfmYOVFwUCw/feedshare-shrink_1280/B56Z3r82j4J0AM-/0/1777780091441?e=1786579200&v=beta&t=xcClcUdkO4NsTk_f3HY6WArypKnOdlqNlUUHGiWo7mY",
+          "width": 1079,
+          "height": 1609
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7456550155622871040",
+        "likes": 27,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 27
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/vipin-k-rastogi-a751847a",
+        "sessionId": "ca4a203c-ab19-4f58-9ce5-a5346ab95eef"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7471042444143300608",
+      "entityId": "7471042444143300608",
+      "linkedinUrl": "https://www.linkedin.com/posts/vipin-k-rastogi-a751847a_packaging-furnitureindustry-qualityassurance-activity-7471042444143300608-UiTW",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7471042443488993281",
+      "shareUrn": "urn:li:share:7471042443488993281",
+      "content": "\"First squeeze sourcing to save a few rupees on packaging, then curse Supply Chain for damages worth thousands. This is perhaps one of the most expensive cost-saving philosophies followed by many organizations.\"\n\n\"Save ₹10 on packaging, lose ₹1,000 in damages, and then hold a review meeting on Supply Chain performance.\" 😄\n\nThe real issue is not supply chain execution, but the failure to recognize packaging as a critical component of product protection and customer experience.\n\nOrganization's view towards packaging must be as a value creator and business enabler rather than an expense.\n\nIt is an investment that protects product value, enhances customer experience, supports brand positioning, reduces supply chain losses, and ultimately contributes to revenue growth and profitability. \n\nThe right question is not 'How much does packaging cost?' but 'What value does packaging create and protect?'",
+      "author": {
+        "id": "ACoAABDBVPkBkwipIqNkeiiGmEFa_D_VcswXgMM",
+        "universalName": null,
+        "publicIdentifier": "vipin-k-rastogi-a751847a",
+        "type": "profile",
+        "name": "Vipin K Rastogi",
+        "linkedinUrl": "https://www.linkedin.com/in/vipin-k-rastogi-a751847a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABDBVPkBkwipIqNkeiiGmEFa_D_VcswXgMM",
+        "info": "Supply Chain & Sourcing Professional",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "281105657"
+      },
+      "postedAt": {
+        "timestamp": 1781235323940,
+        "date": "2026-06-12T03:35:23.940Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7470781154858545152",
+        "linkedinUrl": "https://www.linkedin.com/posts/jitendra-nagar-8a4066bb_packaging-furnitureindustry-qualityassurance-activity-7470781154858545152-0VN-",
+        "content": "📦 Packaging Is Not a Cost. It Is Risk Management-\nMany furniture manufacturers focus heavily on product quality, finishing, construction, and production efficiency.\nYet one critical factor is often underestimated:\nPackaging.\nA product may leave the factory in perfect condition, but its real journey starts after loading.\nIt will be lifted, stacked, transported, unloaded, warehoused, and finally delivered to the customer.\nWhen packaging is properly engineered:\n✅ Transit damage is reduced\n✅ Customer complaints decrease\n✅ Replacement costs are minimized\n✅ Brand reputation is protected\n✅ Customer satisfaction improves\n✅ Buyer confidence increases\nHowever, when packaging is weak or poorly designed:\n❌ Product damage increases\n❌ Claims and replacements rise\n❌ Logistics costs increase\n❌ Customer trust is affected\n❌ Supplier credibility suffers\n❌ Future business opportunities may be lost\nThe true purpose of packaging is not to pack a product.\nIts purpose is to ensure that the customer receives the product exactly as the manufacturer intended.\nIn furniture manufacturing, packaging should be developed with the same attention as the product itself.\nBecause a product is only successful when it reaches the customer safely.\n#Packaging #FurnitureIndustry #QualityAssurance #ProductDevelopment #ISTA #SupplyChain #FurnitureManufacturing",
+        "contentAttributes": [],
+        "author": {
+          "id": "ACoAABl1g3wBnKTMIFIIagbLuPsy8JCmBxhaylE",
+          "universalName": null,
+          "publicIdentifier": "jitendra-nagar-8a4066bb",
+          "type": "profile",
+          "name": "jitendra nagar",
+          "linkedinUrl": "https://www.linkedin.com/in/jitendra-nagar-8a4066bb?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABl1g3wBnKTMIFIIagbLuPsy8JCmBxhaylE",
+          "info": "Global Supplier Quality & Product Development Specialist |Furniture Technician | Quality Assurance | Furniture Sourcing – India | Factory Audits | Fit-Out & Joinery |Hospitality | Supporting US & International Retailers",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D5603AQH7uw_CYZNWIw/profile-displayphoto-crop_800_800/B56Z9AnvcdKcAI-/0/1783495589097?e=1786579200&v=beta&t=9Q7JM54Fr1NdBz8cKfkjZ77siAN5KKZbE2DdkgnPrNw",
+            "width": 800,
+            "height": 800
+          },
+          "urn": "427131772"
+        },
+        "postedAt": {
+          "timestamp": 1781173027720,
+          "date": "2026-06-11T10:17:07.720Z",
+          "postedAgoShort": "1mo",
+          "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQEBuYHjOdA32g/feedshare-image-high-res/B56Z62L31FIAAU-/0/1781173026410?e=1786579200&v=beta&t=Unf3mRvyJywqobkelLcTv0hr63Xtzp-2T1mmJ_nOFt8",
+            "width": 1451,
+            "height": 1084
+          }
+        ],
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": false,
+          "hideSendAction": false,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/jitendra-nagar-8a4066bb_packaging-furnitureindustry-qualityassurance-activity-7470781154858545152-0VN-?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7470781154858545152",
+        "shareUrn": "urn:li:share:7470781151796981761",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7470781151796981761",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7471042444143300608",
+        "likes": 13,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 13
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/vipin-k-rastogi-a751847a",
+        "sessionId": "ca4a203c-ab19-4f58-9ce5-a5346ab95eef"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7433670125465239552",
+      "entityId": "7433670125465239552",
+      "linkedinUrl": "https://www.linkedin.com/posts/vipin-k-rastogi-a751847a_procurement-is-not-a-chair-its-a-pressure-activity-7433670125465239552-phuh",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7433670124542287872",
+      "shareUrn": "urn:li:share:7433670124542287872",
+      "content": "Procurement is not a Chair, It's a Pressure Zone...",
+      "author": {
+        "id": "ACoAABDBVPkBkwipIqNkeiiGmEFa_D_VcswXgMM",
+        "universalName": null,
+        "publicIdentifier": "vipin-k-rastogi-a751847a",
+        "type": "profile",
+        "name": "Vipin K Rastogi",
+        "linkedinUrl": "https://www.linkedin.com/in/vipin-k-rastogi-a751847a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABDBVPkBkwipIqNkeiiGmEFa_D_VcswXgMM",
+        "info": "Supply Chain & Sourcing Professional",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "281105657"
+      },
+      "postedAt": {
+        "timestamp": 1772325068823,
+        "date": "2026-03-01T00:31:08.823Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGozXo3V0ETJQ/feedshare-image-high-res/B56ZymzlwmJMAU-/0/1772325068065?e=1786579200&v=beta&t=J7D_YS07Z6J6oqSL9imHsJE0nOi33bu-A5-bju34Qlo",
+          "width": 1079,
+          "height": 720
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7433670125465239552",
+        "likes": 28,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 28
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/vipin-k-rastogi-a751847a",
+        "sessionId": "ca4a203c-ab19-4f58-9ce5-a5346ab95eef"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7452557536769261568",
+      "entityId": "7452557536769261568",
+      "linkedinUrl": "https://www.linkedin.com/posts/vipin-k-rastogi-a751847a_36-years-countless-learnings-endless-gratitude-activity-7452557536769261568-oMph",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7452557534613118977",
+      "shareUrn": "urn:li:share:7452557534613118977",
+      "content": "36 years. Countless learnings. Endless gratitude.\n\nI am proud to mark 36 years of an enriching professional journey.\n\nThe journey has been filled with opportunities to learn, lead, and evolve in the various functions i.e. IT, MIS, SAP, Accounts, Sourcing & Supply Chain. \n\nIt has been a truly rewarding experience filled with learning, challenges, and growth. From adapting to changing business environments to contributing towards organizational success, every phase has added immense value to my journey.\n\nI feel grateful to have worked with inspiring leaders, supportive colleagues, and strong teams who made this journey meaningful.\n\nThank you to everyone who has been a part of these 36 years.\n\nLooking forward to continuing the journey with the same passion and commitment.",
+      "author": {
+        "id": "ACoAABDBVPkBkwipIqNkeiiGmEFa_D_VcswXgMM",
+        "universalName": null,
+        "publicIdentifier": "vipin-k-rastogi-a751847a",
+        "type": "profile",
+        "name": "Vipin K Rastogi",
+        "linkedinUrl": "https://www.linkedin.com/in/vipin-k-rastogi-a751847a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABDBVPkBkwipIqNkeiiGmEFa_D_VcswXgMM",
+        "info": "Supply Chain & Sourcing Professional",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "281105657"
+      },
+      "postedAt": {
+        "timestamp": 1776828178589,
+        "date": "2026-04-22T03:22:58.589Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7452557536769261568",
+        "likes": 147,
+        "comments": 60,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 128
+          },
+          {
+            "type": "PRAISE",
+            "count": 16
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/vipin-k-rastogi-a751847a",
+        "sessionId": "ca4a203c-ab19-4f58-9ce5-a5346ab95eef"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7438816678945202176",
+      "entityId": "7438816678945202176",
+      "linkedinUrl": "https://www.linkedin.com/posts/sapna-pandey-08582b105_not-every-challenge-in-life-can-be-fought-ugcPost-7438439872350101505-uT9h",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7438439872350101505",
+      "shareUrn": "urn:li:ugcPost:7438439872350101505",
+      "content": "Not every challenge in life can be fought.\nNot every situation can be avoided.\nSome problems require something smarter — strategy.\nI recently watched a short wildlife clip that left me thinking.\nA wild animal had a cheetah sitting on its back, ready to attack.\nRunning away? Not possible.\nFighting back? Almost certain death.\nInstead of reacting in panic, the animal did something surprising.\nIt slowly walked into a nearby pond.\nBut the pond had crocodiles.\nThe moment the cheetah realized the danger, it jumped off.\nWithin seconds, the crocodiles turned their attention to the cheetah…\nand the animal calmly walked away to safety.\nNo fight.\nNo panic.\nJust smart thinking.\nThe lesson?\nIn life and in business, strategy often wins over struggle.\nIn corporate life, many of us carry our own “cheetah” on our backs:\n• Office politics from a colleague\n• A project that constantly creates pressure\n• A manager who blocks new ideas\n• A client who delays payments endlessly\nMost people respond the same way.\nThey work harder.\nThey argue more.\nThey complain louder.\nYet nothing really improves.\nBecause sometimes the issue is not effort — it’s the approach.\nSmart professionals understand this.\nThey don’t try to fight every battle.\nThey redesign the situation.\nThey adjust the process.\nThey change the conversation.\nThey involve the right stakeholders.\nAnd suddenly, the problem resolves itself.\nIn corporate life, strength helps.\nBut strategy changes the game.",
+      "author": {
+        "id": "ACoAABqkHKUB0awgfRJcFfvR_JRB5jXIenwRxII",
+        "universalName": null,
+        "publicIdentifier": "sapna-pandey-08582b105",
+        "type": "profile",
+        "name": "Sapna Pandey",
+        "linkedinUrl": "https://www.linkedin.com/in/sapna-pandey-08582b105?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABqkHKUB0awgfRJcFfvR_JRB5jXIenwRxII",
+        "info": "Strategic HR Leader | HR Business Partner | Manufacturing & MNCs | People Strategy & Employee Experience | Driving Engagement, Capability & Sustainable Growth(Compliance) | HR Analytics",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEAILNEUofl9A/profile-displayphoto-crop_800_800/B56Z6YjXUhKIAM-/0/1780675868195?e=1786579200&v=beta&t=K4jVlz1xo5YALxolMN5UNhDintVFjPhrVt36ZvtknG0",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "446962853"
+      },
+      "postedAt": {
+        "timestamp": 1773552102791,
+        "date": "2026-03-15T05:21:42.791Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQFmWGQNTbe8gQ/videocover-low/B56ZzqlqVbI0BU-/0/1773462268403?e=1785877200&v=beta&t=Kj5zBE9Hvg0u_nvJEQ5y56lzpdEZNUNVOBQf0p-9vYk",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D5605AQFmWGQNTbe8gQ/mp4-720p-30fp-crf28/B56ZzqlqVbI0CI-/0/1773462269723?e=1785877200&v=beta&t=NFh_qYMVl7i26gSto-0MfBkZxnyY8gb0lEcZWsW5z-g"
+      },
+      "repostedBy": {
+        "name": "Vipin K Rastogi",
+        "publicIdentifier": "vipin-k-rastogi-a751847a",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/vipin-k-rastogi-a751847a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABDBVPkBkwipIqNkeiiGmEFa_D_VcswXgMM"
+      },
+      "repostedAt": {
+        "timestamp": 1773552102791,
+        "date": "2026-03-15T05:21:42.791Z"
+      },
+      "header": {
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7438816678945202176?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7438816678945202176%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=wuDMbLYR17CER5jTu9IKHQ%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/vipin-k-rastogi-a751847a?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABDBVPkBkwipIqNkeiiGmEFa_D_VcswXgMM",
+        "text": "Vipin K Rastogi reposted this"
+      },
+      "engagement": {
+        "id": "7438439872350101505",
+        "likes": 351,
+        "comments": 12,
+        "shares": 26,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 324
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 18
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/vipin-k-rastogi-a751847a",
+        "sessionId": "ca4a203c-ab19-4f58-9ce5-a5346ab95eef"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487841295416131585",
+      "entityId": "7487841295416131585",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_the-worlds-highest-paid-people-dont-do-activity-7487841295416131585-p6vl",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487841237773959168",
+      "shareUrn": "urn:li:ugcPost:7487841237773959168",
+      "content": "The world’s highest paid people don’t do the work, they build the systems. \n\nThe value of systems thinking has always been high. AI only amplifies that even more.",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1785240482191,
+        "date": "2026-07-28T12:08:02.191Z",
+        "postedAgoShort": "8h",
+        "postedAgoText": "8 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQFcq40593xe3g/videocover-high/B4DZ.on7seJABM-/0/1785240470329?e=1785877200&v=beta&t=T0lOe9DY1ghgCg9xDmZJaJbKOGOfilM4vx-IzSyb15k",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQFcq40593xe3g/mp4-720p-30fp-crf28/B4DZ.on7seJAB8-/0/1785240474711?e=1785877200&v=beta&t=s37EOtaE39IL7adI2A7apNEYlrlwdxxowGxdnvJarc8"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487841237773959168",
+        "likes": 17,
+        "comments": 3,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 14
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484966635976470529",
+      "entityId": "7484966635976470529",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_the-non-ai-skill-im-investing-the-most-time-activity-7484966635976470529-PXeu",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484966633287909376",
+      "shareUrn": "urn:li:share:7484966633287909376",
+      "content": "The non-AI skill I'm investing the most time in right now: nervous system regulation.\n\nHear me out, even if you think you're already pretty calm under pressure.\n\nThe more work you hand off to AI, the more you're left with the hard stuff. The ambiguous calls. The high-stakes decisions. The projects with ten open threads and no clear answer.\n\nAI takes your easy work. What remains is harder, more complex, and more mentally taxing than what most of us are used to carrying.\n\nThat's not a complaint. It's just the math.\n\nWhich means the ability to stay clear-headed under that kind of cognitive load, to not get frazzled when things are messy and unresolved, is becoming a serious professional edge.\n\nI'm not talking about meditation as a wellness habit. I'm talking about nervous system regulation as a performance skill. The same way you'd train for endurance if your job suddenly got more physically demanding.\n\nThe job got more demanding. Most of us haven't trained for it yet.\n\nCurious if anyone else is thinking about this. What non-technical skills are you investing in right now as AI changes the shape of your work?",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1784555109972,
+        "date": "2026-07-20T13:45:09.972Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484966635976470529",
+        "likes": 111,
+        "comments": 45,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 71
+          },
+          {
+            "type": "INTEREST",
+            "count": 16
+          },
+          {
+            "type": "EMPATHY",
+            "count": 14
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485318094949789696",
+      "entityId": "7485318094949789696",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_this-one-ai-feature-probably-saved-me-10-activity-7485318094949789696-htAe",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485318093959942144",
+      "shareUrn": "urn:li:share:7485318093959942144",
+      "content": "This one AI feature probably saved me 10 hours this weekend. And lots of AI apps have them.\n\nIf you see a box like this (example from Typeform below)... this is what I call an AI Builder.\n\nMany software tools are now adding AI Builders. And if you see one in yours - it's HIGHLY likely that you don't need to set up anything by hand anymore. You can get their AI to do it. \n\nGoodbye annoying clicking.\n\nBut here's the next level trick I use\n\nInstead of typing from scratch in this box, I open up a chat window with Claude or ChatGPT and discuss my project and generate an \"implementation spec\". This is a detailed step by step of what questions, fields, settings, etc. I want. And I don't write that by hand. I get AI to do it. \n\nIf you're playbooking - you can take this up ANOTHER level.\n\nZapier has an AI Builder that will implement an entire playbook for you.\nn8n's AI Builder can too. \nAirtable's AI Builder can create tables with the right fields, fill in seed data, etc. \n\nLook for AI Builders in your tools.",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1784638904321,
+        "date": "2026-07-21T13:01:44.321Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQFReXoc0m93Ig/image-shrink_1280/B4EZ.ExC5qK4Ac-/0/1784638877636?e=1785877200&v=beta&t=SfK5i_EJJFfsgqR17Sa75U9llI_VxaaLf1NYk8JUkd0",
+          "width": 1280,
+          "height": 750
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485318094949789696",
+        "likes": 48,
+        "comments": 18,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 42
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485841558899027968",
+      "entityId": "7485841558899027968",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_aioperations-aienablement-operations-activity-7485841558899027968-XtXY",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485841558261440512",
+      "shareUrn": "urn:li:share:7485841558261440512",
+      "content": "Huge congrats Claire Wissler ! Can’t wait to watch you continue to grow :)",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1784763707852,
+        "date": "2026-07-22T23:41:47.852Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7485836173689507840",
+        "linkedinUrl": "https://www.linkedin.com/posts/clairewissler_aioperations-aienablement-operations-activity-7485836173689507840-zost",
+        "content": "I'm proud to announce my completion of the AI Operator Bootcamp from The AI Exchange. I'm now a Certified AI Operator! 🎉\n\nSo what does that mean?\n\nOver the course of 2 months I learned a rigorous, practical framework for creating repeatable workflows that automate business operations using AI. It spans the full lifecycle, from requirements gathering to design, build, testing and rollout, so I now have a comprehensive approach I can apply to future projects.\n\nOne of my favorite aspects of the bootcamp was the focus on teaching process instead of technology. In an ever-evolving landscape of AI tools, it mattered to me to learn something that stays valuable as the tools keep changing.\n\nThank you to Rachel Woods, Hannah Marie Oliva and the entire team for creating and running the bootcam, and to Emily Carter, who recommended it based on her own experience!\n\nI'm excited to continue to put these skills to work. If you're curious how this kind of approach could support your business, I'd love to chat.\n\n#AIOperations #AIEnablement #Operations #ProcessDesign",
+        "contentAttributes": [
+          {
+            "start": 705,
+            "length": 12,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+              "firstName": "Rachel",
+              "lastName": "Woods",
+              "linkedinUrl": "https://www.linkedin.com/in/woodsrach",
+              "publicIdentifier": "woodsrach"
+            }
+          },
+          {
+            "start": 719,
+            "length": 18,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAABdFg9sBOgghffPhAx7WvmY8qare6Qou30I",
+              "firstName": "Hannah Marie",
+              "lastName": "Oliva",
+              "linkedinUrl": "https://www.linkedin.com/in/hannahmrobles",
+              "publicIdentifier": "hannahmrobles"
+            }
+          },
+          {
+            "start": 803,
+            "length": 12,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAAvHlwBamypJHGvO9kFPXf5bOlbvnQ2nPY",
+              "firstName": "Emily",
+              "lastName": "Carter",
+              "linkedinUrl": "https://www.linkedin.com/in/emilyacarter",
+              "publicIdentifier": "emilyacarter"
+            }
+          }
+        ],
+        "author": {
+          "id": "ACoAAABOv2MBNiXdJTle70dk7E8LyyQTdCMtf8I",
+          "universalName": null,
+          "publicIdentifier": "clairewissler",
+          "type": "profile",
+          "name": "Claire Wissler",
+          "linkedinUrl": "https://www.linkedin.com/in/clairewissler?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABOv2MBNiXdJTle70dk7E8LyyQTdCMtf8I",
+          "info": "Fostering authentic growth through AI-driven, human-centered operations | certified AI Operator | ex-Google",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/C5603AQEf6MdY79GqRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1606347800991?e=1786579200&v=beta&t=M-huuC6blPhc0jXnmO8RhUupdEak5PzpV9cfOWnhHw4",
+            "width": 636,
+            "height": 636
+          },
+          "urn": "5160803"
+        },
+        "postedAt": {
+          "timestamp": 1784762423918,
+          "date": "2026-07-22T23:20:23.918Z",
+          "postedAgoShort": "5d",
+          "postedAgoText": "5 days ago • Edited • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQGEltyWOwxg7A/feedshare-image-high-res/B56Z.MIVbHIQAU-/0/1784762423234?e=1786579200&v=beta&t=UsgsDVZqGAeQytSEM2FQ5CDJ41YS8vUo-3dg9fACuug",
+            "width": 1287,
+            "height": 994
+          }
+        ],
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": false,
+          "hideSendAction": false,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/clairewissler_aioperations-aienablement-operations-activity-7485836173689507840-zost?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7485836173689507840",
+        "shareUrn": "urn:li:share:7485836172074786816",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485836172074786816",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485841558899027968",
+        "likes": 20,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 9
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484770518697537536",
+      "entityId": "7484770518697537536",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_i-have-a-theory-about-systems-thinking-activity-7484770518697537536-sgK0",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7484770517972041728",
+      "shareUrn": "urn:li:ugcPost:7484770517972041728",
+      "content": "I have a theory about systems thinking... help me learn 🤓",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1784508351969,
+        "date": "2026-07-20T00:45:51.969Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484770517972041728",
+        "likes": 13,
+        "comments": 15,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 12
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485914655417118721",
+      "entityId": "7485914655417118721",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_certified-ai-operator-activity-7485914655417118721-8l2x",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485914654649561090",
+      "shareUrn": "urn:li:ugcPost:7485914654649561090",
+      "content": "Abigail Lo cannot wait to keep watching you be an absolute force!! Congrats!",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1784781135420,
+        "date": "2026-07-23T04:32:15.420Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7485895223546650624",
+        "linkedinUrl": "https://www.linkedin.com/posts/abigaillo_certified-ai-operator-activity-7485895223546650624-lWQE",
+        "content": "𝗜 𝗳𝗶𝗻𝗮𝗹𝗹𝘆 𝗱𝗶𝗱 𝗶𝘁.\n\nLast year, I heard Rachel Woods describe what she does in an interview with Tiago Forte.\n\nI remember sitting there thinking:\n\n𝘚𝘩𝘦'𝘴 𝘵𝘢𝘭𝘬𝘪𝘯𝘨 𝘵𝘰 𝘮𝘦.\n\n𝘐 𝘤𝘢𝘯 𝘥𝘰 𝘵𝘩𝘢𝘵.\n\n𝘐'𝘮 𝘨𝘰𝘪𝘯𝘨 𝘵𝘰 𝘥𝘰 𝘵𝘩𝘢𝘵.\n\n𝗦𝗼 𝗜 𝗱𝗶𝗱.\n\nI handed in my exam and project work at midnight on 1st July.\n\nA week later, I got the email and certificate to say I had passed.\n\n𝗜'𝗺 𝗼𝗳𝗳𝗶𝗰𝗶𝗮𝗹𝗹𝘆 𝗮𝗻 𝗔𝗜 𝗢𝗽𝗲𝗿𝗮𝘁𝗼𝗿 🥳 \n\nSo... what does that mean?\n\nIt means I can:\n\n • Build playbooks for AI to run consistently (and not run on vibes, as Rachel would say).\n\n • Find opportunities where your business can get ROI from using AI.\n\n • Help document and map your processes so we can see where AI should help and where a human should.\n\n • Guide your team to adopt AI together, rather than everyone doing something their own way.\n\nA well-meaning friend asked me:\n\n\"𝗔𝗿𝗲𝗻'𝘁 𝘆𝗼𝘂 𝘄𝗼𝗿𝗿𝗶𝗲𝗱 𝘁𝗵𝗮𝘁 𝘄𝗵𝗮𝘁 𝘆𝗼𝘂 𝗹𝗲𝗮𝗿𝗻𝗲𝗱 𝘄𝗶𝗹𝗹 𝗯𝗲𝗰𝗼𝗺𝗲 𝗼𝗯𝘀𝗼𝗹𝗲𝘁𝗲 𝗯𝗲𝗰𝗮𝘂𝘀𝗲 𝗔𝗜 𝗶𝘀 𝗺𝗼𝘃𝗶𝗻𝗴 𝘀𝗼 𝗳𝗮𝘀𝘁?\"\n\nFair question. My honest answer was... no.\n\nThere will always be something new to learn and more tools to explore.\n\nBut I didn't learn about various tools.  \n\nThe programme was grounded in fundamental operational principles.\n\nSystems thinking.\n\nProcess mapping.\n\nDecision-making frameworks and more...\n\nThose principles become even more valuable as AI evolves because they help us decide what should be done, how it should be done, and where AI can create the most value.\n\nFor that, I'm truly grateful to the AI Momentum Protocols (AMP) team, Rachel Woods, Joy Myers and Hannah Marie Oliva for making this such a challenging and rewarding experience.\n\nMore than anything, this course gave me a method for the kind of work I've wanted to do for a long time.\n\nNow I'm excited to help leaders and their teams put this work into practice.",
+        "contentAttributes": [
+          {
+            "start": 1422,
+            "length": 27,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "102040620",
+              "name": "AI Momentum Protocols (AMP)",
+              "linkedinUrl": "https://www.linkedin.com/company/ai-momentum-protocols/"
+            }
+          },
+          {
+            "start": 1456,
+            "length": 12,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+              "firstName": "Rachel",
+              "lastName": "Woods",
+              "linkedinUrl": "https://www.linkedin.com/in/woodsrach",
+              "publicIdentifier": "woodsrach"
+            }
+          },
+          {
+            "start": 1470,
+            "length": 9,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAACjbdLwBInHTrZDIkRMduqFgLsLwsMsJGYs",
+              "firstName": "Joy",
+              "lastName": "Myers",
+              "linkedinUrl": "https://www.linkedin.com/in/joy-myers-678690171",
+              "publicIdentifier": "joy-myers-678690171"
+            }
+          },
+          {
+            "start": 1484,
+            "length": 18,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAABdFg9sBOgghffPhAx7WvmY8qare6Qou30I",
+              "firstName": "Hannah Marie",
+              "lastName": "Oliva",
+              "linkedinUrl": "https://www.linkedin.com/in/hannahmrobles",
+              "publicIdentifier": "hannahmrobles"
+            }
+          }
+        ],
+        "author": {
+          "id": "ACoAAAbPAusBNuoN1ivU0HOD5ze2Jmte-61-AkU",
+          "universalName": null,
+          "publicIdentifier": "abigaillo",
+          "type": "profile",
+          "name": "Abigail Lo",
+          "linkedinUrl": "https://www.linkedin.com/in/abigaillo?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAbPAusBNuoN1ivU0HOD5ze2Jmte-61-AkU",
+          "info": "Fractional COO | Helping founders step back through process automation & AI operations | HRDC Accredited Trainer",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D5603AQHwgHdDxpuxcQ/profile-displayphoto-crop_800_800/B56ZwI75dYHIAI-/0/1769676445955?e=1786579200&v=beta&t=i1WXSpjUOl2o1QvV_15PJ0XCR_Iylm42eh_dQTbQhuA",
+            "width": 800,
+            "height": 800
+          },
+          "urn": "114229995"
+        },
+        "postedAt": {
+          "timestamp": 1784776502501,
+          "date": "2026-07-23T03:15:02.501Z",
+          "postedAgoShort": "5d",
+          "postedAgoText": "5 days ago • Edited • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [],
+        "document": {
+          "title": "Certified AI Operator",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQEkHebmfmcV8w/feedshare-document-chunked-pdf/B4EZ.C3BhQJ0Bk-/0/1784606891631?e=1785877200&v=beta&t=i41r4BqKchDEU2YiQJ-Nvwv1Il2TsWzVNzVlQP4ToyQ",
+          "coverPages": [
+            {
+              "width": 1925,
+              "imageUrls": [
+                "https://media.licdn.com/dms/image/v2/D4E1FAQEkHebmfmcV8w/feedshare-document-cover-images_1920/B4EZ.C3BhQJ0BQ-/0/1784606891834?e=1785877200&v=beta&t=_JG4laYEhcbU0M27U2NHY5RqNZ4kTSJaryO9-W-ZNW4"
+              ],
+              "height": 1487
+            }
+          ],
+          "totalPageCount": 1,
+          "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEkHebmfmcV8w/feedshare-document-master-manifest/B4EZ.C3BhQJ0BY-/0/1784606891933?e=1785877200&v=beta&t=c7_db7qO55cxHQrudiMKXqVcL5LRAVloeKpwB6fvEQA",
+          "manifest": {
+            "asset": "urn:li:digitalmediaAsset:D4E1FAQEkHebmfmcV8w",
+            "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQEkHebmfmcV8w/feedshare-document-transcript/B4EZ.C3BhQJ0A0-/0/1784606891933?e=1785974400&v=beta&t=3_1VytLCLZWdXyTHK6pjedVKEAz0uQC5wJJaouaEUeo",
+            "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQEkHebmfmcV8w/feedshare-document-pdf-analyzed/B4EZ.C3BhQJ0AY-/0/1784606891933?e=1785974400&v=beta&t=gZgtwQxcCWvJWz2oZPAQ-3bIF9hr8wjq__q44sRRUD8",
+            "scanRequiredForDownload": true,
+            "perResolutions": [
+              {
+                "width": 484,
+                "height": 374,
+                "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEkHebmfmcV8w/feedshare-document-images_480/B4EZ.C3BhQJ0Ag-/0/1784606891933?e=1785974400&v=beta&t=kE_Rm90F5ed8MaNhWqNPb2K02br9KFSGxnazsemvFyc"
+              },
+              {
+                "width": 1925,
+                "height": 1487,
+                "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEkHebmfmcV8w/feedshare-document-images_1920/B4EZ.C3BhQJ0Ao-/0/1784606891933?e=1785974400&v=beta&t=jwp2eyq40R_JKoBtR4NkWgT1XW5niNwt2YuvMwKAaTc"
+              },
+              {
+                "width": 165,
+                "height": 127,
+                "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEkHebmfmcV8w/feedshare-document-images_160/B4EZ.C3BhQJ0Ac-/0/1784606891933?e=1785974400&v=beta&t=ftMuapy_HblCp-LRbniEBpGKazyEr325JXTAslNOn50"
+              },
+              {
+                "width": 1287,
+                "height": 994,
+                "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEkHebmfmcV8w/feedshare-document-images_1280/B4EZ.C3BhQJ0AQ-/0/1784606891933?e=1785974400&v=beta&t=_tWrKbpo6kwRUaX_DXWFIxwcoF_hmE5XBWpoior92cQ"
+              },
+              {
+                "width": 802,
+                "height": 620,
+                "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEkHebmfmcV8w/feedshare-document-images_800/B4EZ.C3BhQJ0Ak-/0/1784606891933?e=1785974400&v=beta&t=SJUQOzm68tKmtzgXtMu43ReXp5ctGlkg1_T0T3uXyNE"
+              }
+            ]
+          }
+        },
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": false,
+          "hideSendAction": false,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/abigaillo_certified-ai-operator-activity-7485895223546650624-lWQE?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7485895223546650624",
+        "shareUrn": "urn:li:ugcPost:7485184452315414528",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485184452315414528",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485914654649561090",
+        "likes": 23,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 14
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487492320586665984",
+      "entityId": "7487492320586665984",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_the-best-answer-to-will-ai-take-my-job-activity-7487492320586665984-Datx",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487492319928209408",
+      "shareUrn": "urn:li:share:7487492319928209408",
+      "content": "The best answer to: “Will AI take my job?”\n\nTry to replace yourself with AI first (!!) let me tell you how and why -- \n\nThe goal isn’t to protect your current task list.\n\nIt’s to remove yourself from as much execution as possible... then move into:\n\n- System design\n- Management\n- Verification\n\nThat’s where human value is moving.\n\nThe purpose of jobs is not to stay busy doing the same work. And it's about to become all about building the system that can do it without you... and become the person who knows how to run it.\n\nDon’t wait for AI to redefine your role.\nRedefine it first.",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1785157280108,
+        "date": "2026-07-27T13:01:20.108Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487492320586665984",
+        "likes": 48,
+        "comments": 16,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 35
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480261852891856898",
+      "entityId": "7480261852891856898",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_fable-is-anthropics-most-powerful-ai-model-activity-7480261852891856898-q0OI",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480261850429816832",
+      "shareUrn": "urn:li:share:7480261850429816832",
+      "content": "Fable is Anthropic's most powerful AI model (and also most expensive). Here's how to get it to train cheaper AI models and save $$\n\nNot because the expensive model isn't worth it. But because they're using it wrong.\n\nHere's the framework AI companies use internally, called model distillation, and how you can apply it yourself.\n\nWhat AI labs do:\nThey train an expensive model on a specific task until it's really good at that task. Then they use that expensive model to generate the data for a cheaper model needs to do the same job.\n\nExpensive model builds the playbook. Cheap model runs it.\n\nYou can do the exact same thing.\n\nWhen I'm building a new AI workflow, I always start with the most capable model I have access to. I use it to develop and refine the playbook for that process. I have it critique the playbook. Update it. Run it. Improve it.\n\nOnce the playbook is solid, I test it on a cheaper model.\n\nNine times out of ten, a well-written playbook runs just fine on a cheaper model. The expensive model did the hard thinking. The cheap model executes.\n\nYou keep the expensive model in your back pocket for genuinely novel problems. But your day-to-day workflows? Those can run cheap.\n\nSo if you're experimenting with Fable right now, use it to build the playbook. Not just to run tasks.\n\nThe goal isn't to use the most powerful model for everything. The goal is to use it once, well, so everything else gets cheaper.",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1783433402274,
+        "date": "2026-07-07T14:10:02.274Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480261852891856898",
+        "likes": 72,
+        "comments": 22,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 55
+          },
+          {
+            "type": "INTEREST",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477509431404982272",
+      "entityId": "7477509431404982272",
+      "linkedinUrl": "https://www.linkedin.com/posts/coo-alliance_every-coo-is-hearing-the-same-thing-right-activity-7476001423990779904-Zan2",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7476001422963224576",
+      "shareUrn": "urn:li:share:7476001422963224576",
+      "content": "Every COO is hearing the same thing right now:\n\n\"We need an AI strategy.\"\n\nThe problem is that most companies are approaching AI the same way they approach every new trend: buying tools before fixing processes.\n\nIn this conversation, CAMERON HEROLD sits down with Rachel Woods to discuss what it actually takes to create value with AI inside a growing company.\n\nThe discussion goes beyond software and focuses on execution, operational leverage, and how leaders can increase output without continuously increasing headcount.\n\nAI Momentum Protocols (AMP) is a Silver Partner of COO Alliance.\n\nLearn more about our partner:\nhttps://runonamp.com/\n\nWatch the full conversation on YouTube:\nhttps://lnkd.in/dhB-_-36",
+      "author": {
+        "id": "24999261",
+        "universalName": "coo-alliance",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "COO Alliance",
+        "linkedinUrl": "https://www.linkedin.com/company/coo-alliance/posts",
+        "info": "15,084 followers",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGrYl0vaPtA8Q/company-logo_400_400/B4DZxPLE6NJ8AY-/0/1770854830433/coo_alliance_logo?e=1786579200&v=beta&t=1_A_DTIBgXt67SqxCbX8_OGdzTAGxC_i3dw32cAAiOc",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "24999261"
+      },
+      "postedAt": {
+        "timestamp": 1782777173854,
+        "date": "2026-06-29T23:52:53.854Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQHGr5ITDtEaMg/image-shrink_1280/B4DZ8AXrNyI0Ac-/0/1782417634539?e=1785877200&v=beta&t=MLXVrspKYQj3aX4rcb-pcPfxWdNH8iuIKd7r5X7z5uw",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "repostedBy": {
+        "name": "Rachel Woods",
+        "publicIdentifier": "woodsrach",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ"
+      },
+      "repostedAt": {
+        "timestamp": 1782777173854,
+        "date": "2026-06-29T23:52:53.854Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7477509431404982272?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7477509431404982272%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=U3Jmo3j3AOKmT73aP6Hlbw%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "text": "Rachel Woods reposted this"
+      },
+      "engagement": {
+        "id": "7476001423990779904",
+        "likes": 53,
+        "comments": 11,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 45
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478906864693354498",
+      "entityId": "7478906864693354498",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_great-operators-are-able-to-move-at-the-speed-activity-7478906864693354498-ZEbB",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478906864278118400",
+      "shareUrn": "urn:li:share:7478906864278118400",
+      "content": "Great operators are able to move at the speed of their ideas. \n\nTop 1% operators enable entire teams to move at the speed of their ideas.",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1783110347913,
+        "date": "2026-07-03T20:25:47.913Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478906864693354498",
+        "likes": 27,
+        "comments": 0,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 19
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476280252290478080",
+      "entityId": "7476280252290478080",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_aiforb2b-activity-7476280252290478080-pCuL",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7476280251761942528",
+      "shareUrn": "urn:li:ugcPost:7476280251761942528",
+      "content": "👇  THIS!",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1782484114716,
+        "date": "2026-06-26T14:28:34.716Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7475973757606739969",
+        "linkedinUrl": "https://www.linkedin.com/posts/marketingaiinstitute_aiforb2b-activity-7475973757606739969-kLLn",
+        "content": "One of Rachel Woods' most important points:\n\n\"AI Operator\" is not a job title.\n\nIt's a capability.\n\nMany organizations are still thinking about AI as something owned by a single person, team, or department.\n\nBut that's not how this plays out.\n\nEvery team will need to learn how to operate with AI. Every manager will need to understand how AI can help scale work. And every professional will need to develop a baseline level of AI fluency. #AIforB2B\n\n🎥 Content produced using Goldcast's amazing Content Lab.",
+        "contentAttributes": [
+          {
+            "start": 7,
+            "length": 12,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+              "firstName": "Rachel",
+              "lastName": "Woods",
+              "linkedinUrl": "https://www.linkedin.com/in/woodsrach",
+              "publicIdentifier": "woodsrach"
+            }
+          },
+          {
+            "start": 476,
+            "length": 8,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "65901227",
+              "name": "Goldcast",
+              "linkedinUrl": "https://www.linkedin.com/company/goldcast/"
+            }
+          }
+        ],
+        "author": {
+          "id": "12634270",
+          "universalName": "marketingaiinstitute",
+          "publicIdentifier": null,
+          "type": "company",
+          "name": "Marketing AI Institute",
+          "linkedinUrl": "https://www.linkedin.com/company/marketingaiinstitute/posts",
+          "info": "21,979 followers",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQHiKanWYgRe4w/company-logo_400_400/B56Zi.T6vNHAAg-/0/1755539550080/marketingaiinstitute_logo?e=1786579200&v=beta&t=kcVd8VLogBgc80zWTxGVt-meW-Xr9DHtG18UWblQPq4",
+            "width": 400,
+            "height": 400
+          },
+          "urn": "12634270"
+        },
+        "postedAt": {
+          "timestamp": 1782411040689,
+          "date": "2026-06-25T18:10:40.689Z",
+          "postedAgoShort": "1mo",
+          "postedAgoText": "1 month ago • Edited • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [],
+        "postVideo": {
+          "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E10AQGkS1OAX5eRUQ/videocover-high/B4EZ7_.Zz7JEAs-/0/1782411017220?e=1785877200&v=beta&t=KnIuFVEsaaa3RHB1Xj4pSx7hIXsck3Cmu4w8ybaNwNQ",
+          "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E10AQGkS1OAX5eRUQ/mp4-720p-30fp-crf28/B4EZ7_.Zz7JEBo-/0/1782411027724?e=1785877200&v=beta&t=VYSi27odUTeKc_TzXdFEqGovzEzs-0-sL-AHQJWYqxE"
+        },
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": false,
+          "hideSendAction": false,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/marketingaiinstitute_aiforb2b-activity-7475973757606739969-kLLn?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7475973757606739969",
+        "shareUrn": "urn:li:ugcPost:7475973755434000388",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7475973755434000388",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7476280251761942528",
+        "likes": 64,
+        "comments": 4,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 55
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481544174274572288",
+      "entityId": "7481544174274572288",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_one-of-the-best-things-about-traveling-is-activity-7481544174274572288-aN7T",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481544173892853760",
+      "shareUrn": "urn:li:share:7481544173892853760",
+      "content": "One of the best things about traveling is coming home to a whole list of new AI playbooks I want to write.",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1783739131516,
+        "date": "2026-07-11T03:05:31.516Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481544174274572288",
+        "likes": 34,
+        "comments": 6,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 25
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483499952749461504",
+      "entityId": "7483499952749461504",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_last-week-my-ai-agents-did-over-200-hours-activity-7483499952749461504-O1CV",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483499949670776832",
+      "shareUrn": "urn:li:share:7483499949670776832",
+      "content": "Last week my AI agents did over 200+ hours of work.\n\nSo many people that speak about AI agents, also talk about how messy and unruly they are.\n\nI'll tell you my secret - it's all about the agents' source of truth.\n\nFor years our project statuses lived in our heads. And while some people are good at writing everything down, I'm pretty bad at keeping notes. And if you're trying to use agents in an environment like that, you're doomed to fail.\n\nSo we flipped it.\nContext layer first, agents second.\n\nThat's what has been pulling me into monday.com and their newly released agents.\n\nWith real access and real context, they can:\n- Actually execute task themselves.\n- Provide fully detailed reports and keep plans on track.\n- Share and contribute to the same knowledge base as the rest of the company.\n\nAnd this isn't just about project management. Sales, legal, HR... anywhere the context lives in someone's head instead of a system, this same problem shows up. \n\nCheck out what monday.com is doing.\n(and thanks to them for sponsoring this post!)",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1784205425441,
+        "date": "2026-07-16T12:37:05.441Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFf5xEyz6F0IQ/feedshare-image-high-res/B4EZ9q7jDuIkAU-/0/1784205423704?e=1786579200&v=beta&t=NAPcr-ajldfyoQgLBb-KmIb19RLRJ87Tlxcncz0RK3g",
+          "width": 2048,
+          "height": 1365
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483499952749461504",
+        "likes": 369,
+        "comments": 27,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 337
+          },
+          {
+            "type": "PRAISE",
+            "count": 16
+          },
+          {
+            "type": "EMPATHY",
+            "count": 11
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475915308562587648",
+      "entityId": "7475915308562587648",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_6-unhinged-ways-i-operate-with-ai-including-activity-7475915308562587648-GxBB",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7475915307836956672",
+      "shareUrn": "urn:li:ugcPost:7475915307836956672",
+      "content": "6 unhinged ways I operate with AI... including the boring step nobody wants to do.",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1782397105351,
+        "date": "2026-06-25T14:18:25.351Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5610AQHqoWCMIEJeRw/videocover-high/B56Z7_JSQrIQAo-/0/1782397087577?e=1785877200&v=beta&t=6JuahBu0T_LHJIgyDDgI2fKql_3fuFwc959-zyfHMPk",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D5610AQHqoWCMIEJeRw/mp4-720p-30fp-crf28/B56Z7_JSQrIQBk-/0/1782397093563?e=1785877200&v=beta&t=U937xGjGdwKKeYWnCvgd3oLW0SKi6lCnA6JftCQQx1Q"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475915307836956672",
+        "likes": 53,
+        "comments": 6,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 44
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475148156595474433",
+      "entityId": "7475148156595474433",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_stop-treating-ai-as-a-tech-project-rachel-activity-7475148156595474433-7VNB",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475008245841948673",
+      "shareUrn": "urn:li:share:7475008245841948673",
+      "content": "Had a blast with CAMERON HEROLD talking about what CEOs, COOs and leaders should be thinking about when it comes to AI Operations. \n\nSome 🌶️  takes for sure. \n\nCheck it out -> https://lnkd.in/g-8qB5Hn",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1782214202069,
+        "date": "2026-06-23T11:30:02.069Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Stop Treating AI as a Tech Project | Rachel Woods, Founder and CEO of AMP",
+        "subtitle": "youtube.com",
+        "link": "https://www.youtube.com/watch?v=W5MHBKhbxYI",
+        "linkLabel": "Open video: Stop Treating AI as a Tech Project | Rachel Woods, Founder and CEO of AMP on youtube.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/sync/v2/D5627AQG7G4YiTf0SMw/articleshare-shrink_1280_800/B56Z7yQUuAHUAg-/0/1782180826871?e=1785877200&v=beta&t=L9bSfqd_lOnU2dezjHfb4zTcRrj7yL7oVwONwhObWKc",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475148156595474433",
+        "likes": 23,
+        "comments": 3,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 18
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7474464901432823808",
+      "entityId": "7474464901432823808",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_what-are-you-playbooking-this-weekend-activity-7474464901432823808-x7me",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7474310016351641601",
+      "shareUrn": "urn:li:share:7474310016351641601",
+      "content": "What are you playbooking this weekend? 🤔",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1782051301344,
+        "date": "2026-06-21T14:15:01.344Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7474464901432823808",
+        "likes": 14,
+        "comments": 9,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 10
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475175911236063232",
+      "entityId": "7475175911236063232",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_join-thousands-of-ai-forward-b2b-marketers-activity-7475175911236063232-7UHG",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7475175910376275968",
+      "shareUrn": "urn:li:ugcPost:7475175910376275968",
+      "content": "Can't wait to join Paul Roetzer and all these amazing speakers on Thursday! Join us 🙌",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1782220819291,
+        "date": "2026-06-23T13:20:19.291Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7475163052234133504",
+        "linkedinUrl": "https://www.linkedin.com/posts/paulroetzer_join-thousands-of-ai-forward-b2b-marketers-activity-7475163052234133504-Zy_B",
+        "content": "Join thousands of AI-forward B2B marketers this Thursday for the 3rd annual AI for B2B Marketers Summit presented by Intercept. \n\nThe virtual event runs from 12:00 - 4:30 pm and features: Mike Kaput, A. Lee Judge, Andrew Au, John Lovett, Taylor Radey, Mark Schaefer, and Rachel Woods.\n\nYou’ll learn: \n\n> How AI is creating real value in B2B marketing today\n> How AI agents may change marketing workflows and operations\n> How LLMs are influencing visibility, discoverability, and buyer research\n> How AI-powered content teams are evolving beyond faster production\n> How customer behavior is changing as AI enters the buying journey\n> What AI-forward marketers are learning about skills, roles, and team structure\n> How to guide more strategic conversations about AI inside your organization\n\nSee the full agenda and speaker lineup on the event site.",
+        "contentAttributes": [
+          {
+            "start": 188,
+            "length": 10,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAALwVvABrpCiwbaknEWkMMUw_V8OeyO89D0",
+              "firstName": "Mike",
+              "lastName": "Kaput",
+              "linkedinUrl": "https://www.linkedin.com/in/mikekaput",
+              "publicIdentifier": "mikekaput"
+            }
+          },
+          {
+            "start": 200,
+            "length": 12,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAlGQc0BoXRFFXjlVlJcz0AKZAQt2XrrG8c",
+              "firstName": "A. Lee",
+              "lastName": "Judge",
+              "linkedinUrl": "https://www.linkedin.com/in/aleejudge",
+              "publicIdentifier": "aleejudge"
+            }
+          },
+          {
+            "start": 214,
+            "length": 9,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAGXhYEBLWPW645tcmpWw8acCtNa_slnhf4",
+              "firstName": "Andrew",
+              "lastName": "Au",
+              "linkedinUrl": "https://www.linkedin.com/in/auandrew",
+              "publicIdentifier": "auandrew"
+            }
+          },
+          {
+            "start": 225,
+            "length": 11,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAABoAVUBakyrWNRaMY5PYO53tKJi_2eB4Pw",
+              "firstName": "John",
+              "lastName": "Lovett",
+              "linkedinUrl": "https://www.linkedin.com/in/jlovett",
+              "publicIdentifier": "jlovett"
+            }
+          },
+          {
+            "start": 238,
+            "length": 12,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAIeBHMBLDGk-sjaU7EesI7xmzsc6B-XLO8",
+              "firstName": "Taylor",
+              "lastName": "Radey",
+              "linkedinUrl": "https://www.linkedin.com/in/taylorradey",
+              "publicIdentifier": "taylorradey"
+            }
+          },
+          {
+            "start": 252,
+            "length": 13,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAG6eOMBH6rM68KiyK_LZHx0T-JuTh0XGao",
+              "firstName": "Mark",
+              "lastName": "Schaefer",
+              "linkedinUrl": "https://www.linkedin.com/in/markwschaefer",
+              "publicIdentifier": "markwschaefer"
+            }
+          },
+          {
+            "start": 271,
+            "length": 12,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+              "firstName": "Rachel",
+              "lastName": "Woods",
+              "linkedinUrl": "https://www.linkedin.com/in/woodsrach",
+              "publicIdentifier": "woodsrach"
+            }
+          }
+        ],
+        "author": {
+          "id": "ACoAAABpzmABeXs2qVjePyI9iPUWemMu76BA5GA",
+          "universalName": null,
+          "publicIdentifier": "paulroetzer",
+          "type": "profile",
+          "name": "Paul Roetzer",
+          "linkedinUrl": "https://www.linkedin.com/in/paulroetzer?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABpzmABeXs2qVjePyI9iPUWemMu76BA5GA",
+          "info": "Founder & CEO, SmarterX & Marketing AI Institute | Co-Host of The Artificial Intelligence Show Podcast",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D4D03AQExD5rq62Scfw/profile-displayphoto-crop_800_800/B4DZg.2_7uH4AI-/0/1753401263254?e=1786579200&v=beta&t=bUiVQf9uj1q8gArZCL_Uw-1V2Wd1rUp-39eB6asqq6w",
+            "width": 800,
+            "height": 800
+          },
+          "urn": "6934112"
+        },
+        "postedAt": {
+          "timestamp": 1782217753466,
+          "date": "2026-06-23T12:29:13.466Z",
+          "postedAgoShort": "1mo",
+          "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQGHplkkfrhjSg/feedshare-image-high-res/B56Z70dLqsGcAU-/0/1782217751578?e=1786579200&v=beta&t=58l9m8Vm_UjJQYzlCuhf8nsndXsfgp1RyGADFrvWu1I",
+            "width": 1200,
+            "height": 1200
+          },
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQHJ1xOvz2dz_g/feedshare-image-high-res/B56Z70dLr9KEAc-/0/1782217751850?e=1786579200&v=beta&t=ZIgdG1YW9-dkGEAxILdWTSwnx41OFR_Sy0HQBhzcqfU",
+            "width": 1536,
+            "height": 1040
+          }
+        ],
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": false,
+          "hideSendAction": false,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/paulroetzer_join-thousands-of-ai-forward-b2b-marketers-activity-7475163052234133504-Zy_B?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7475163052234133504",
+        "shareUrn": "urn:li:ugcPost:7475163051013382145",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7475163051013382145",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475175910376275968",
+        "likes": 13,
+        "comments": 1,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475540827251924992",
+      "entityId": "7475540827251924992",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_most-people-let-their-ai-infer-context-about-activity-7475540827251924992-585R",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475540824529936386",
+      "shareUrn": "urn:li:share:7475540824529936386",
+      "content": "Most people let their AI infer context about them randomly. I actually tell mine exactly what to know.\n\nI call it a personal README. And it's one of the highest-leverage things I've done to get better AI output.\n\nHere are the 6 things I include:\n\n1. Who I am\nBasic background. Not a bio, just enough context to ground everything else.\n\n2. How I think\nDo I make fast decisions or deliberate ones? Do I optimize for simplicity or first principles? Do I care more about reducing risk or moving fast? This one changes how the AI frames every piece of advice it gives me.\n\n3. My actual work\nThe types of tasks, responsibilities, and domains I operate in. Without this, AI defaults to generic. With it, everything becomes specific.\n\n4. How I work with others\nHow I want to show up in different situations. Meetings, feedback, leadership moments. Useful any time I'm asking for help navigating a people situation.\n\n5. Mental models, frameworks, and mentors I admire\nThis is where it gets interesting. When AI knows which thinkers and frameworks I already trust, its advice actually fits my worldview instead of contradicting it.\n\n6. A glossary of key terms\nEvery industry and every person has their own language. I define mine so I stop repeating myself and the AI stops misinterpreting me.\n\nThe last two have given me the most leverage by far.\n\nIf you're using AI heavily in your work and you haven't built something like this, you're essentially starting from scratch every single conversation.\n\nCurious if anyone else has done something similar. What would you add to the list?",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1782307822049,
+        "date": "2026-06-24T13:30:22.049Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475540827251924992",
+        "likes": 51,
+        "comments": 20,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 42
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7470080763699470336",
+      "entityId": "7470080763699470336",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_everyone-says-give-your-ai-more-context-activity-7470080763699470336-guuW",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7470080761002471424",
+      "shareUrn": "urn:li:share:7470080761002471424",
+      "content": "Everyone says 'give your AI more context' but nobody shows you what that actually means.\n\nHere's the specific thing I do.\n\nBefore I start any AI task, I ask myself: if I asked the AI a question about the background information I assume it knows, would it get it right?\n\nIf I'm not sure, I just ask it directly.\n\nFor example: 'List out our current products, what they cost, and who they're targeted to.'\n\nThat's it. One simple prompt reveals exactly what your AI knows and what it doesn't.\n\nMaybe it has the right products but outdated pricing. Maybe it has no idea what that internal acronym means. Maybe it's working with information from six months ago.\n\nYou won't know until you check.\n\nThis takes 30 seconds and saves you from generating outputs that are confidently wrong about your own business.\n\nAI doesn't tell you what it doesn't know. So you have to ask.\n\nTest your context before you assume it's there.",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1781006041455,
+        "date": "2026-06-09T11:54:01.455Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7470080763699470336",
+        "likes": 43,
+        "comments": 15,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 38
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7472984912271171584",
+      "entityId": "7472984912271171584",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_ai-isnt-unreliable-its-just-running-on-activity-7472984912271171584-Va4Z",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7472984911352578048",
+      "shareUrn": "urn:li:ugcPost:7472984911352578048",
+      "content": "AI isn't unreliable. It's just running on vibes. \n\nEveryone wants to hand AI more of their business, but the second you loosen the leash, the work gets worse. \n\nThe fix isn't a better prompt. It's a playbook: the step-by-step process for how you want the work done, not just what you want done.\n\nOwn the playbook → extend the leash → actually trust it.\n\nSave this if your AI keeps disappointing you. 👇 \n\n---\n\nP.S. Comment CLASS and I'll send you an invite to the masterclass I'm hosting in 2 weeks on my playbooking method. Covering this and more!",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1781698444431,
+        "date": "2026-06-17T12:14:04.431Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5610AQEeUpuDzxhNiQ/videocover-low/B56Z7VgGqfIQAk-/0/1781698427764?e=1785877200&v=beta&t=eQ6A1D6wS3uUQPYx5kitH0jYkEMbLfStUY3HiocpV8Q",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D5610AQEeUpuDzxhNiQ/mp4-720p-30fp-crf28/B56Z7VgGqfIQBk-/0/1781698432895?e=1785877200&v=beta&t=rGW8er96ZJqGpKtzmFGHZ050_ZjnkzsDt4vrxP7S2LE"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7472984911352578048",
+        "likes": 44,
+        "comments": 7,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 36
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468680956875558912",
+      "entityId": "7468680956875558912",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_i-turned-off-built-in-memory-in-most-of-my-activity-7468680956875558912-NGJE",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468680956217036800",
+      "shareUrn": "urn:li:share:7468680956217036800",
+      "content": "I turned off built-in memory in most of my AI accounts. \n\nNot because memory is bad.\n\nBecause memory makes AI feel smarter... but not always more reliable (!!)\n\nExample:\n- Today Claude was running my email triage playbook.\n- I had sent over a team member’s calendar booking link for an edge case email.\n- Then Claude remembered it.\n- And decided it should start sending THAT link instead of mine.\n\nLuckily I caught it.\n\nBut this is exactly the problem with built-in memory in operational workflows.\n\nIt can take a one-off exception and quietly turn it into a new rule.\n\nWhich is terrifying if you’re using AI for actual business processes.\n\nFor brainstorming? Great.\n\nFor personalization? Maybe useful.\n\nFor production workflows?\nI want the AI following the playbook... not guessing what I “probably” want based on something it saw yesterday.\n\nThe source of truth should be the playbooks, not the AI tool's memory.\n\nThis is one of those AI ops lessons that feels small until it breaks something.\n\nMemory can make AI feel more human. But in operations, I don’t want more human.\n\nI want more reliable.",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1780672301501,
+        "date": "2026-06-05T15:11:41.501Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468680956875558912",
+        "likes": 124,
+        "comments": 23,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 85
+          },
+          {
+            "type": "INTEREST",
+            "count": 30
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476256633774333961",
+      "entityId": "7476256633774333961",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_sponsored-googleworkspacewithgemini-activity-7476256633774333961-7cTh",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7476256632968986626",
+      "shareUrn": "urn:li:ugcPost:7476256632968986626",
+      "content": "Google Workspace just dropped a bunch of features and there's one I'm already hooked on.\n\nThe new Projects feature in Google Drive lets you pull emails, docs, and files into one place, and then ask Gemini questions across all of it. We used it to coordinate a big launch last week and instead of hunting through 1,000 emails for answers, I just asked.\n\nThey also upgraded Gemini in Sheets (interactive apps!!) and added AI avatars, which I'm using to prototype my talks before I give them (yes I'm a weirdo).\n\nThis is exactly what I mean when I say own the playbook, rent the tech. Your workflow should stay yours. and when the tools catch up, you move your workflow into the better tool.\n\nGo check out Google's Workspace blog for all the updates.\n\n#Sponsored #GoogleWorkspacewithGemini",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1782478483623,
+        "date": "2026-06-26T12:54:43.623Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5610AQHywUM_v3fhow/videocover-high/B56Z8D_kHOG8Ao-/0/1782478425277?e=1785877200&v=beta&t=fPiMwFoKvNwhckXHqJDN3hO5_PWQ4qpDhbBm6kF6Ir4",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D5610AQHywUM_v3fhow/mp4-720p-30fp-crf28/B56Z8D_kHOG8Bk-/0/1782478429609?e=1785877200&v=beta&t=EPzq9tgNo94HTsNgpI6IKUjaD3-h_50MnTsTpmoRiHM"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7476256632968986626",
+        "likes": 113,
+        "comments": 9,
+        "shares": 11,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 105
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7470192282995056642",
+      "entityId": "7470192282995056642",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_amp-stop-chasing-ai-tools-start-building-activity-7470192282995056642-rT2W",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7470192282307133440",
+      "shareUrn": "urn:li:share:7470192282307133440",
+      "content": "Congrats Laura Gardner! Well deserved and can't wait to keep following your journey!",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1781032629727,
+        "date": "2026-06-09T19:17:09.727Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7470154973599682560",
+        "linkedinUrl": "https://www.linkedin.com/posts/laura-gardner-595b9097_amp-stop-chasing-ai-tools-start-building-activity-7470154973599682560-uy4k",
+        "content": "Last month I earned my AI Operator certification from AI Momentum Protocols (AMP) https://runonamp.com/. The experience reinforced a belief that shapes much of my work: AI's value isn't in replacing human judgment, it's in clearing the operational drag that keeps people from exercising that judgment in the first place.\n\nI focus on internal operations, especially the repetitive work that quietly consumes the workday: manual handoffs, status chasing, document review, and moving data from one system to another. AI won't solve every problem, and it shouldn't make decisions that require experience and accountability. But applied well, it removes friction so people can spend their time on the work only they can do, interpreting ambiguous requirements, weighing tradeoffs, building relationships, and making the judgment calls a system can't.\n\nThat's what I valued most about this program: it gave me a practical, repeatable way to find where AI creates real operational lift — and, just as importantly, where it doesn't. Rather than experimenting for its own sake, the framework moves through identifying the right opportunity, designing the solution, configuring it, and bringing the rest of the team along so the change actually sticks.\n\nI'm especially excited to help teams across business development, HR, finance, and operations adopt AI in ways that are useful, responsible, and measurable. Done well, this doesn't shrink the human role, it makes it more strategic.\n\nA sincere thank you to Hannah Marie Oliva, Joy Myers, Rachel Woods and the whole team at AMP for building a program that's both rigorous and practical.\n\nIf you're working through where AI actually fits into your daily operations, I'd love to connect and compare notes.\n\n#AI #FutureOfWork #Automation #KnowledgeWork #Leadership",
+        "contentAttributes": [
+          {
+            "start": 1500,
+            "length": 18,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAABdFg9sBOgghffPhAx7WvmY8qare6Qou30I",
+              "firstName": "Hannah Marie",
+              "lastName": "Oliva",
+              "linkedinUrl": "https://www.linkedin.com/in/hannahmrobles",
+              "publicIdentifier": "hannahmrobles"
+            }
+          },
+          {
+            "start": 1520,
+            "length": 9,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAACjbdLwBInHTrZDIkRMduqFgLsLwsMsJGYs",
+              "firstName": "Joy",
+              "lastName": "Myers",
+              "linkedinUrl": "https://www.linkedin.com/in/joy-myers-678690171",
+              "publicIdentifier": "joy-myers-678690171"
+            }
+          },
+          {
+            "start": 1531,
+            "length": 12,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+              "firstName": "Rachel",
+              "lastName": "Woods",
+              "linkedinUrl": "https://www.linkedin.com/in/woodsrach",
+              "publicIdentifier": "woodsrach"
+            }
+          }
+        ],
+        "author": {
+          "id": "ACoAABSkUEEBH9D7sRRLVC0L1t6Qhe0NW82DTus",
+          "universalName": null,
+          "publicIdentifier": "laura-gardner-595b9097",
+          "type": "profile",
+          "name": "Laura Gardner",
+          "linkedinUrl": "https://www.linkedin.com/in/laura-gardner-595b9097?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABSkUEEBH9D7sRRLVC0L1t6Qhe0NW82DTus",
+          "info": "Business Systems Manager | AI Enablement | Automation & Process Improvement | Data Analytics",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D5603AQFwykH-Y8ExvA/profile-displayphoto-crop_800_800/B56Zk1tlD9KMAM-/0/1757542765679?e=1786579200&v=beta&t=jW_Vh0Uq5jPWZ6TnTLppYSwD2KwhBz9jmZTtYZ7hHUo",
+            "width": 800,
+            "height": 800
+          },
+          "urn": "346312769"
+        },
+        "postedAt": {
+          "timestamp": 1781023734474,
+          "date": "2026-06-09T16:48:54.474Z",
+          "postedAgoShort": "1mo",
+          "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [],
+        "article": {
+          "title": "AMP | Stop Chasing AI Tools. Start Building Playbooks.",
+          "subtitle": "runonamp.com",
+          "link": "https://runonamp.com/",
+          "linkLabel": "Open article: AMP | Stop Chasing AI Tools. Start Building Playbooks. by runonamp.com",
+          "description": null,
+          "image": null
+        },
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": false,
+          "hideSendAction": false,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/laura-gardner-595b9097_amp-stop-chasing-ai-tools-start-building-activity-7470154973599682560-uy4k?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7470154973599682560",
+        "shareUrn": "urn:li:share:7470154972031004672",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7470154972031004672",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7470192282995056642",
+        "likes": 11,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475586390106222592",
+      "entityId": "7475586390106222592",
+      "linkedinUrl": "https://www.linkedin.com/posts/woodsrach_aioperator-artificialintelligence-aiautomation-activity-7475586390106222592-1Wyz",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475586389343096832",
+      "shareUrn": "urn:li:share:7475586389343096832",
+      "content": "Yay Cameron Huber congrats! The team and I have been so impressed with your dedication and super excited to continue following your journey as you apply this!",
+      "author": {
+        "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "universalName": null,
+        "publicIdentifier": "woodsrach",
+        "type": "profile",
+        "name": "Rachel Woods",
+        "linkedinUrl": "https://www.linkedin.com/in/woodsrach?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+        "info": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFxrW34NPaKuw/profile-displayphoto-crop_800_800/B4EZxn4q24JoAI-/0/1771269435167?e=1786579200&v=beta&t=CPo5z1mDfcI9Mt7d50Fl72RHGA3jL0yLfdq-Kdg1fhs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "260469137"
+      },
+      "postedAt": {
+        "timestamp": 1782318685080,
+        "date": "2026-06-24T16:31:25.080Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7475350807010451456",
+        "linkedinUrl": "https://www.linkedin.com/posts/cameron-huber_aioperator-artificialintelligence-aiautomation-activity-7475350807010451456-Y1ts",
+        "content": "I just earned my AI Operator Certification from AI Momentum Protocols (AMP), and I am pretty proud of this accomplishment!\n\n7 weeks, 2 playbooks built and automated in Zapier, countless late nights and weekends. Let's just say I did not know what I was signing up for when I joined last minute, but here we are!\n\nI went into this bootcamp already using AI every day in my role as Newsletter Operations and Revenue Strategy Manager at The Assist. But there is a huge difference between using AI and building systems using it. My company recognized we had an AI gap — everyone was doing their own thing, but we were not operating as a team or building automations that could scale across the whole company yet. This bootcamp was my first step toward fixing that.\n\nOver the past 7 weeks, I learned the CRAFT Cycle, a framework for turning messy business processes into reliable AI playbooks. I built 2 working Zapier automations from scratch, wrote full playbook documentation, ran real QA testing, hit actual technical blockers and worked through them, and completed the full certification exam.\n\nGenuinely one of the most intensive things I have done professionally. I work long days and spent most of my nights and weekends on coursework for 7 weeks straight. But I came out the other side with skills I will use every single day and a whole backlog of playbooks I cannot wait to build.\n\nIf you are thinking about it, go in prepared to work hard. And then do it anyway. \nShoutout to the AI Momentum Protocols (AMP) team & Rachel Woods for building something that actually delivers! 🙌\n\n#AIOperator #ArtificialIntelligence #AIAutomation #TheAssist #Automation #Zapier #ProfessionalDevelopment",
+        "contentAttributes": [
+          {
+            "start": 48,
+            "length": 27,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "102040620",
+              "name": "AI Momentum Protocols (AMP)",
+              "linkedinUrl": "https://www.linkedin.com/company/ai-momentum-protocols/"
+            }
+          },
+          {
+            "start": 434,
+            "length": 10,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "75665799",
+              "name": "The Assist",
+              "linkedinUrl": "https://www.linkedin.com/company/the-assist/"
+            }
+          },
+          {
+            "start": 1487,
+            "length": 27,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "102040620",
+              "name": "AI Momentum Protocols (AMP)",
+              "linkedinUrl": "https://www.linkedin.com/company/ai-momentum-protocols/"
+            }
+          },
+          {
+            "start": 1522,
+            "length": 12,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+              "firstName": "Rachel",
+              "lastName": "Woods",
+              "linkedinUrl": "https://www.linkedin.com/in/woodsrach",
+              "publicIdentifier": "woodsrach"
+            }
+          }
+        ],
+        "author": {
+          "id": "ACoAACS_6rABHyut5hqsWF4MLsA1ZbCMZy_bp0c",
+          "universalName": null,
+          "publicIdentifier": "cameron-huber",
+          "type": "profile",
+          "name": "Cameron Huber",
+          "linkedinUrl": "https://www.linkedin.com/in/cameron-huber?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACS_6rABHyut5hqsWF4MLsA1ZbCMZy_bp0c",
+          "info": "Newsletter Operations & Revenue Strategist | 3x Growth Leader | Scaling Growth Through Smart Ops & Strategic Storytelling",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D5603AQFd6pb0vSbdBQ/profile-displayphoto-crop_800_800/B56Z7SO_pdIUAI-/0/1781643609905?e=1786579200&v=beta&t=pB0PDzsGFrou0XDDVRVD9Dlv9MTecXfR6ZKRvolnvtY",
+            "width": 800,
+            "height": 800
+          },
+          "urn": "616557232"
+        },
+        "postedAt": {
+          "timestamp": 1782262517693,
+          "date": "2026-06-24T00:55:17.693Z",
+          "postedAgoShort": "1mo",
+          "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D5622AQEU3sohQ7ddOA/feedshare-shrink_800/B56Z73H8ebG8Ac-/0/1782262515826?e=1786579200&v=beta&t=ds3zipzXRzcT6Z6R_RwQwmYOcik-DNjBHzYBdyp35Nc",
+            "width": 792,
+            "height": 611
+          }
+        ],
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": false,
+          "hideSendAction": false,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/cameron-huber_aioperator-artificialintelligence-aiautomation-activity-7475350807010451456-Y1ts?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7475350807010451456",
+        "shareUrn": "urn:li:share:7475350803751530496",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475350803751530496",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475586390106222592",
+        "likes": 9,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/woodsrach",
+        "sessionId": "1870ceed-2e76-4a0d-aa43-1e776539ede0"
+      }
+    }
+  ]
+}

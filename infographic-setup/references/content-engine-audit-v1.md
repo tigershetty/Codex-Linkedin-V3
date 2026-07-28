@@ -4,6 +4,11 @@
 **Status:** Audit first; rebuild brief next  
 **Scope:** `master-calendar.md`, `101-plan.md`, `ai-for-sc-plan-v2.md`, research briefs, source system, analytics, voice docs, and how upstream context feeds visuals.
 
+> **V4 supersession note (2026-07-28):** this audit explains the diagnosis that led to V4. Use
+> `v4-audience-growth-operating-system.md` for current cadence and topic admission. In particular,
+> the Top-100 is now optional curated-success packaging intelligence, not a mandatory upstream gate
+> or a set of proven causal formats.
+
 ## Executive Diagnosis
 
 The visual system was not the only problem. It was downstream of a deeper issue:
@@ -21,7 +26,7 @@ The repo has strong pieces:
 
 But the upstream engine is not yet world-class because topic selection is mostly pre-planned by supply-chain function, not dynamically chosen from audience demand, current market tension, role pain, performance data, and Tiger's lived authority.
 
-**2026-06-30 update:** the top-100 reference set now becomes an upstream selection input, not only a visual mood board. Use `references/top100-reference-intelligence.md` to connect each candidate topic to a proven image format, caption promise, save trigger, and audience value artifact before research or visual generation.
+**2026-06-30 historical update:** the Top-100 reference set became an upstream selection input rather than only a mood board. V4 narrows that decision: use it after topic admission when a curated-winner mechanic hypothesis materially improves packaging; do not call the format proven.
 
 ## 1. What Is Working
 

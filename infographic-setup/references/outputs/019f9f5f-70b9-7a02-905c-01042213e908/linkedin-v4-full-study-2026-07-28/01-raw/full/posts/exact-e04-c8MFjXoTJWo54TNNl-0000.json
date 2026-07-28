@@ -1,0 +1,692 @@
+{
+  "runId": "c8MFjXoTJWo54TNNl",
+  "datasetId": "3X4xkDRufGbrDWZqf",
+  "offset": 0,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7446894707063902208",
+      "entityId": "7446894707063902208",
+      "linkedinUrl": "https://www.linkedin.com/posts/marciadwilliams_supply-chain-and-procurement-speak-their-activity-7446894707063902208-PDbB",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7446894705977552896",
+      "shareUrn": "urn:li:share:7446894705977552896",
+      "content": "Supply chain and procurement speak their own language.\n\nThis infographic shows 65 acronyms across planning, logistics & procurement:\n\n# 1 - 3PL – Third-Party Logistics\n# 2 - 4PL – Fourth-Party Logistics\n# 3 - AP – Accounts Payable\n# 4 - APS – Advanced Planning System\n# 5 - BOM – Bill of Materials\n# 6 - BOL – Bill of Lading\n# 7 - BPO – Business Process Outsourcing\n# 8 - CAPEX – Capital Expenditure\n# 9 - CFR – Cost and Freight\n# 10 - CIF – Cost, Insurance and Freight\n# 11 - COGS – Cost of Goods Sold\n# 12 - CRP – Capacity Requirement Planning\n# 13 - DAP – Delivered At Place\n# 14 - DC – Distribution Center\n# 15 - DDP – Delivered Duty Paid\n# 16 - DRP – Distribution Requirement Planning\n# 17 - DTS – Days to Ship\n# 18 - EBIT – Earnings Before Interest & Taxes\n# 19 - EBITDA – Earnings Before Interest, Taxes, Depreciation & Amortization\n# 20 - EOQ – Economic Order Quantity\n# 21 - ERP – Enterprise Resource Planning\n# 22 - ETA – Estimated Time of Arrival\n# 23 - ETD – Estimated Time of Departure\n# 24 - FCL – Full Container Load\n# 25 - FP&A – Financial Planning & Analysis\n# 26 - FTL – Full Truckload\n# 27 - GI – Goods Issue\n# 28 - GM – Gross Margin\n# 29 - GR – Goods Receipt\n# 30 - GRN – Goods Receipt Note\n# 31 - IBP – Integrated Business Planning\n# 32 - KPI – Key Performance Indicator\n# 33 - LCL – Less than Container Load\n# 34 - LTL – Less Than Truckload\n# 35 - MAPE – Mean Absolute Percentage Error\n# 36 - ML Model – Machine Learning Model\n# 37 - MoM – Month over Month\n# 38 - MOQ – Minimum Order Quantity\n# 39 - MPS – Master Production Schedule\n# 40 - MRP – Material Requirement Planning\n# 41 - OPEX – Operational Expenditure\n# 42 - OTD – On-Time Delivery\n# 43 - OTIF – On Time In Full\n# 44 - P2P – Procure to Pay\n# 45 - PO – Purchase Order\n# 46 - POD – Proof of Delivery\n# 47 - PR – Purchase Requisition\n# 48 - RCCP – Rough Cut Capacity Planning\n# 49 - RFI – Request for Information\n# 50 - RFP – Request for Proposal\n# 51 - RFQ – Request for Quotation\n# 52 - S&OE – Sales and Operations Execution\n# 53 - S&OP – Sales and Operations Planning\n# 54 - SIOP – Sales, Inventory, and Operations Planning\n# 55 - SKU – Stock Keeping Unit\n# 56 - SLA – Service Level Agreement\n# 57 - SRM – Supplier Relationship Management\n# 58 - TCO – Total Cost of Ownership\n# 59 - TMS – Transportation Management System\n# 60 - UM – Unit of Measure\n# 61 - WMS – Warehouse Management System\n# 62 - WMAPE – Weighted Mean Absolute Percentage Error\n# 63 - WoW – Week over Week\n# 64 - xP&A – Extended Planning and Analysis\n# 65 - YTD – Year to Date",
+      "author": {
+        "id": "ACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "universalName": null,
+        "publicIdentifier": "marciadwilliams",
+        "type": "profile",
+        "name": "Marcia D Williams",
+        "linkedinUrl": "https://www.linkedin.com/in/marciadwilliams?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "info": "Optimizing Supply Chain-Finance Planning (S&OP/ IBP) at Large Fast-Growing CPGs for GREATER Profits with Automation in Excel, Power BI, and Machine Learning | Supply Chain Consultant | Educator | Author | Speaker |",
+        "website": "https://usmsupplychain.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQGM0JPCU9h3HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1574956968169?e=1786579200&v=beta&t=hPgOR724SM1seQUIclOij3VUM70joJYs2pQqW4Ljazs",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "106437686"
+      },
+      "postedAt": {
+        "timestamp": 1775478054777,
+        "date": "2026-04-06T12:20:54.777Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEunJm8FIxWgg/feedshare-shrink_1280/B4EZ1ivRslIQAQ-/0/1775478054079?e=1786579200&v=beta&t=QszRzBtmo82P5VQocVNeQS55gQ5aPcJsMrN1qNT-2Ls",
+          "width": 1280,
+          "height": 1895
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7446894707063902208",
+        "likes": 442,
+        "comments": 37,
+        "shares": 84,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 397
+          },
+          {
+            "type": "INTEREST",
+            "count": 28
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/marciadwilliams_supply-chain-and-procurement-speak-their-activity-7446894707063902208-PDbB",
+        "sessionId": "88baa5b2-76f2-4cc0-9e0a-66946d7f48b6"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468986861345087488",
+      "entityId": "7468986861345087488",
+      "linkedinUrl": "https://www.linkedin.com/posts/joshejsanders_90-of-a-viral-linkedin-post-depends-on-1-activity-7468986861345087488-eGba",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468986859868631040",
+      "shareUrn": "urn:li:share:7468986859868631040",
+      "content": "90% of a viral LinkedIn post depends on 1 thing.\n\nGet it wrong, and the whole post could flop...\n\nThe hook determines whether people engage with your post or move on.\n\nI've written hooks across 100s of accounts.\n\nAfter 1,000+ posts tested across multiple brands, \nThe formats winning 12 months ago aren't getting reach anymore.\n\nIn 2024, curiosity hooks dominated.\nThey were vague and clickbait-adjacent. \n\"You won't believe what happened next\" energy.\n\nIn 2026, authority hooks win.\nAnd the algorithm prioritises content that gets read by the right people.\n\nYour hook needs to do 2 things at once:\nStop the scroll, and signal who the post is for.\n\nHere's the complete hook writing playbook for 2026:\n\n1️⃣ How To\n\nLead with a powerful statement and drop the \"how to\" on line 2.\n\n↳ Best for: Top of funnel reach and saves.\n↳ Example: Delegation is the most underrated leadership skill. Here's how to do it properly:\n\n2️⃣ How I\n\nLead with a specific result and a timeframe.\n\n↳ Best for: Trust building and conversion content.\n↳ Example: How I generated 23,000 leads in 30 days. Without running a single ad:\n\n3️⃣ Contrarian\n\nMake a strong, polarising claim.\n\n↳ Best for: Reach, comments, and challenging bad advice.\n↳ Example: Most LinkedIn advice is making your content worse. Here's what to do instead:\n\n4️⃣ Shocking Stats\n\nLead with a number that stops the reader cold.\n\n↳ Best for: Awareness content and broad reach.\n↳ Example: 95% of LinkedIn posts get fewer than 1,000 impressions. Here's why yours is one of them:\n\n5️⃣ Open Promise\n\nMake a bold promise based on a credible result. Add a timeframe.\n\n↳ Best for: Mid and bottom of funnel content.\n↳ Example: This one change grew a LinkedIn account by 400% in 3 months. Here's exactly what changed:\n\nHook formats evolve, but the formatting rules never do:\n\nLine 1: 62 characters maximum.\nLine 2: 50 characters maximum.\n\nNo bold or italics in the hook, ever.\n1 clear idea per hook.\n\nAuthority, specificity, and ICP relevance are doing more work in 2026 than shock alone.\n\nAsk yourself this after every hook you write:\nWould this stop me from scrolling?\n\nIf the answer isn't an immediate yes, rewrite it.\n\nHooks are the highest leverage skill on LinkedIn right now.\n1 line can double your reach, or kill it entirely.\n\nStart treating them like they matter that much.\n\nWhat's a hook that made you stop scrolling recently?\nDrop it below, I'm curious 👇\n\n💾 Save this as your hook writing reference.\n♻️ Repost to a founder whose content deserves more reach.\nAnd follow me, Josh S., for more LinkedIn breakdowns like this.",
+      "author": {
+        "id": "ACoAABYmgaEBvDezxBdUvvF9EzRSzIc8kuDH5oY",
+        "universalName": null,
+        "publicIdentifier": "joshejsanders",
+        "type": "profile",
+        "name": "Josh S.",
+        "linkedinUrl": "https://www.linkedin.com/in/joshejsanders?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABYmgaEBvDezxBdUvvF9EzRSzIc8kuDH5oY",
+        "info": "The creator economy is changing how founders grow | I help founders navigate it | 5+ years in the space | Co-Founder of The Creator Accelerator | Follow for posts on Personal Branding, Content Creation & AI",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHts0weXObiDw/profile-displayphoto-crop_800_800/B4EZ5BDFMoJAAM-/0/1779207789599?e=1786579200&v=beta&t=JuF0rOnI-5feVyCymXQn6zde_ga60UJNt1LNjEpQ6O8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "371622305"
+      },
+      "postedAt": {
+        "timestamp": 1780745234810,
+        "date": "2026-06-06T11:27:14.810Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFCu7GNCfUWWA/feedshare-shrink_1280/B4EZ6cYMqCKkAM-/0/1780740049860?e=1786579200&v=beta&t=A2_LJCeB8H0BIJ6mfZVYVibTtl-e1YRtiDwCyYxaNYQ",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468986861345087488",
+        "likes": 362,
+        "comments": 144,
+        "shares": 21,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 323
+          },
+          {
+            "type": "INTEREST",
+            "count": 23
+          },
+          {
+            "type": "EMPATHY",
+            "count": 11
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/joshejsanders_90-of-a-viral-linkedin-post-depends-on-1-activity-7468986861345087488-eGba",
+        "sessionId": "ff2c1349-c72b-444c-a21e-6681d0a5435b"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7463202442491650048",
+      "entityId": "7463202442491650048",
+      "linkedinUrl": "https://www.linkedin.com/posts/marciadwilliams_not-every-sop-is-equal-this-infographic-activity-7463202442491650048--i8y",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7463202441539350528",
+      "shareUrn": "urn:li:share:7463202441539350528",
+      "content": "NOT every S&OP is equal.\n\nThis infographic shows immature vs mature S&OP:\n\nVariability\n↳ Immature: assumes a stable plan and reacts when it breaks\n↳ Mature: builds plans expecting variability from the start\n\nForecast\n↳ Immature: single numbers, example: “Forecast = 100K”\n↳ Mature: ranges, example: “Forecast = 90–110K, here’s how we respond”\n\nConstraints\n↳ Immature: discovers bottlenecks when service drops\n↳ Mature: knows what will break before it does\n\nTrade-offs\n↳ Immature: avoids difficult choices\n↳ Mature: makes trade-offs visible; service vs inventory; cost vs responsiveness\n\nReaction to Noise\n↳ Immature: adjusts plans constantly\n↳ Mature: separates signal from noise and protects plan stability\n\nDecisions\n↳ Immature: waits for more data\n↳ Mature: makes informed decisions with imperfect data\n\nAlignment Before the Meeting\n↳ Immature: uses S&OP to ‘figure things out’\n↳ Mature: uses S&OP to confirm and commit\n\nAny others to add?\n\n↳ Want to master S&OP, pre-order a copy of my book The Supply Chain Playbook to unlock amazing bonuses today: https://lnkd.in/echFYs2z",
+      "author": {
+        "id": "ACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "universalName": null,
+        "publicIdentifier": "marciadwilliams",
+        "type": "profile",
+        "name": "Marcia D Williams",
+        "linkedinUrl": "https://www.linkedin.com/in/marciadwilliams?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAZYHDYB5zCBrvi_hf_thQK6NdgeYOKKkSQ",
+        "info": "Optimizing Supply Chain-Finance Planning (S&OP/ IBP) at Large Fast-Growing CPGs for GREATER Profits with Automation in Excel, Power BI, and Machine Learning | Supply Chain Consultant | Educator | Author | Speaker |",
+        "website": "https://usmsupplychain.com/newsletter/",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4E03AQGM0JPCU9h3HA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1574956968169?e=1786579200&v=beta&t=hPgOR724SM1seQUIclOij3VUM70joJYs2pQqW4Ljazs",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "106437686"
+      },
+      "postedAt": {
+        "timestamp": 1779366121886,
+        "date": "2026-05-21T12:22:01.886Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEGoFVzg_JjOw/feedshare-shrink_1280/B4EZ5KfE0FI0AQ-/0/1779366121133?e=1786579200&v=beta&t=jy28gWV1SoWh0wJo8bdW0obUBDRRLJ_HApmx2FPMK3Y",
+          "width": 1280,
+          "height": 1577
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7463202442491650048",
+        "likes": 323,
+        "comments": 43,
+        "shares": 35,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 292
+          },
+          {
+            "type": "INTEREST",
+            "count": 21
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/marciadwilliams_not-every-sop-is-equal-this-infographic-activity-7463202442491650048--i8y",
+        "sessionId": "b50a6ef7-2c8a-442b-9a84-f97046f2758a"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7462103543844388864",
+      "entityId": "7462103543844388864",
+      "linkedinUrl": "https://www.linkedin.com/posts/joshejsanders_everyone-tells-you-to-just-post-but-nobody-activity-7462103543844388864-RNc9",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7462103540547743744",
+      "shareUrn": "urn:li:share:7462103540547743744",
+      "content": "Everyone tells you to \"just post\".\n\nBut nobody tells you the system for having a successful post.\n\nThat's why so many founders are stuck with flatlined reach, low engagement, and no leads, despite showing up every day.\n\nThey post, close the app... and nothing happens.\n\nTheir impressions drop, and comments dry up. \nSo they start questioning whether LinkedIn even works.\n\nIt does, you just need the system around the post.\n\nHere's the full system, broken into 3 parts :)\n\nPart 1️⃣: Ideation\nDon't start from scratch; use pre-validated content as your foundation.\nFind what's already working in your niche, then make it yours 👇\n\n→ Find a top-performing post in your space using Saywhat or Instagram.\n→ Open Claude and drop it in as a reference.\n→ Brief your angle: Same structure, your insight, your audience.\n→ Review, refine, and hit publish.\n\nPart 2️⃣: Going Live\nTiming is a tactic, so use it.\nHere's how to stop killing the post before it's even posted 👇\n\n→ Post between 7–9 am or 12–2 pm in your audience's time zone.\n→ Triple-check spelling and grammar before you go live.\n→ Tag 1-2 relevant people max.\n\nPart 3️⃣: After Posting\nThe next 30 minutes decide how far your content travels. \nThis is where you can boost engagement with your ICP 👇\n\n→ First 10 mins: Reply to every comment and engage on 5 posts.\n→ Next 10 mins: Check if impressions are moving and profile visits are spiking.\n→ Final 10 mins: Identify who engaged, and if they're in your ICP.\n\n(Look for founders, operators, and decision-makers in the comments. \nThese are the people worth engaging with directly.)\n\nMost people post and close the app.\nDon't be most people !\n\nThe more work you put in before and after posting,\nThe higher your reach will become.\n\nWhat do you do straight after posting on LinkedIn? \nDrop it below.\n\nWant to go deeper on this? \nJoin our upcoming webinar on How Founders Are Generating Leads in 2026. \n\nYou'll get: \n\n✅ AI workflows that scaled Searchable to $2 million in ARR.\n✅ A clear understanding of what's changed on LinkedIn in 2026.\n✅ The lead gen systems behind growing Chris's personal brand from 32k to 3M. \n\nSign up today so you don't miss out 👉 https://lnkd.in/edEDiMJE\n\n💾 Save this as your go-to posting checklist.\n♻️ Repost to help a founder who's posting consistently but not seeing results.\nFollow me, Josh S., for more LinkedIn frameworks that actually work.",
+      "author": {
+        "id": "ACoAABYmgaEBvDezxBdUvvF9EzRSzIc8kuDH5oY",
+        "universalName": null,
+        "publicIdentifier": "joshejsanders",
+        "type": "profile",
+        "name": "Josh S.",
+        "linkedinUrl": "https://www.linkedin.com/in/joshejsanders?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABYmgaEBvDezxBdUvvF9EzRSzIc8kuDH5oY",
+        "info": "The creator economy is changing how founders grow | I help founders navigate it | 5+ years in the space | Co-Founder of The Creator Accelerator | Follow for posts on Personal Branding, Content Creation & AI",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHts0weXObiDw/profile-displayphoto-crop_800_800/B4EZ5BDFMoJAAM-/0/1779207789599?e=1786579200&v=beta&t=JuF0rOnI-5feVyCymXQn6zde_ga60UJNt1LNjEpQ6O8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "371622305"
+      },
+      "postedAt": {
+        "timestamp": 1779104124032,
+        "date": "2026-05-18T11:35:24.032Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHEXl67LlDg_A/feedshare-shrink_1280/B4EZ463oKoKoAM-/0/1779104121966?e=1786579200&v=beta&t=E386AIf2EsVG_src5dw3kZhbbvi-5HoYDoBX7CS9p3M",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7462103543844388864",
+        "likes": 276,
+        "comments": 159,
+        "shares": 10,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 244
+          },
+          {
+            "type": "EMPATHY",
+            "count": 13
+          },
+          {
+            "type": "INTEREST",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 7
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/joshejsanders_everyone-tells-you-to-just-post-but-nobody-activity-7462103543844388864-RNc9",
+        "sessionId": "e1acff12-346e-456a-bf09-ebd5832b7c48"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7459787333303943168",
+      "entityId": "7459787333303943168",
+      "linkedinUrl": "https://www.linkedin.com/posts/mercadokorina_industrialengineers-industrialengineering-activity-7459787333303943168-2BrI",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7459787332028665857",
+      "shareUrn": "urn:li:share:7459787332028665857",
+      "content": "Claude for #IndustrialEngineers in 2026 (A LinkedIn Series)\n\n💡AI is a powerful tool, but your Industrial Engineering expertise is irreplaceable. Strategic prompting works best when it’s grounded in your IE knowledge and years of experience. Always exercise caution when using AI, follow your corporate policies, and remember, this table is meant as a guide, not a substitute for professional judgment.\n\n⚠️ NEVER share sensitive or proprietary data with external AI tools. Even if you have Internal AI tool, ALWAYS check internal policies.\n⚠️ Follow your company’s AI usage policies (many now publish clear guidelines).\n⚠️ THIS IS MAINLY FOR LEARNING: Use anonymized or simulated data for learning, testing, or brainstorming prompts.\n────୨ৎ────\n\nBefore Claude vs. After Claude + and the exact prompts to get there.\n⬛ the real difference\n\nBefore Claude:\n VSM drawn by hand in Visio → 2–3 days\n FMEA row by row → entire afternoon\n SOP written from scratch → every time\n Root cause analysis → 2-hour whiteboard session\n OEE calculated manually after every shift\n\nAfter Claude:\n VSM structured with takt time + bottleneck in ~40 min\n FMEA ranked by RPN, ready for review\n Operator SOP generated in minutes\n 5 Whys + fishbone pre-built and organized\n OEE broken into real loss drivers instantly\n\n🗒️  STARTER PROMPTS \n(Subscribe here https://lnkd.in/g8kMjf4c for FULL PROMPTS)\n\n✅ Value Stream Map\n “Map my current state VSM for [process]… calculate takt time, lead time, VA time, identify bottleneck.”\n✅ FMEA\n “Build an FMEA for [process]… score severity, occurrence, detection (1–10). Rank by RPN.”\n✅ Root Cause Analysis\n “Run a 5 Whys on this defect… then build a fishbone (Man, Machine, Method, Material, Environment).”\n✅ Line Balance\n “Balance this line using takt time… identify bottleneck and efficiency.”\n✅ OEE Analysis\n “Break down OEE from shift data… include 6 big losses and top 2 priorities.”\n✅ SOP Draft\n “Write an operator SOP… include steps, safety, and quality checkpoints.”\n✅ Lean Audit\n “Analyze for 8 wastes and suggest countermeasures.”\n✅ Capital ROI\n “Build a capital justification with payback, NPV, and project charter.”\n\n🚀 See Prompt Engineering Starter Guide:🚀 https://lnkd.in/grn3-ft2\n\n📨 1 AI + engineering workflow every week. \nFollow for more. 🩵 \n────୨ৎ────\n\n🚀 New Substack Article (first comment)🚀 \n\n#IndustrialEngineering #ContinuousImprovement #LeanManufacturing #SixSigma #AIinEngineering #IndustrialAI #ProcessImprovement #OperationsManagement #ManufacturingEngineering #PromptEngineering #ClaudeAI #AIWorkflows",
+      "author": {
+        "id": "ACoAAAicBGIB8QcQ29PsG0gsoiQ2g94kbSZmFNk",
+        "universalName": null,
+        "publicIdentifier": "mercadokorina",
+        "type": "profile",
+        "name": "Korina Mercado",
+        "linkedinUrl": "https://www.linkedin.com/in/mercadokorina?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAicBGIB8QcQ29PsG0gsoiQ2g94kbSZmFNk",
+        "info": "Helping Leaders Future-Proof Operations with AI & Industrial Engineering | AI Governance & Safety | Continuous Improvement Leader | Founder @KonnectKonsult | Agile Sigma™ Black Belt | 150K+ Community",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQH8OPgeYouDTg/profile-displayphoto-crop_800_800/B56ZpsdCT8KAAI-/0/1762756143025?e=1786579200&v=beta&t=9q8qeS97ENtb-evaAaO5-O0dzZSL0V8R3hgNaOpRGQ8",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "144442466"
+      },
+      "postedAt": {
+        "timestamp": 1778551896406,
+        "date": "2026-05-12T02:11:36.406Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHHaRt7rX7J_g/feedshare-shrink_1280/B56Z4Z9DLjKEAM-/0/1778551895043?e=1786579200&v=beta&t=lhmK-wVlfRZ-9hPyel6J-4xlF4a1_WfxjQTKXamUFUM",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7459787333303943168",
+        "likes": 1015,
+        "comments": 36,
+        "shares": 136,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 901
+          },
+          {
+            "type": "INTEREST",
+            "count": 60
+          },
+          {
+            "type": "EMPATHY",
+            "count": 28
+          },
+          {
+            "type": "PRAISE",
+            "count": 22
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/mercadokorina_industrialengineers-industrialengineering-activity-7459787333303943168-2BrI",
+        "sessionId": "7f3ea72f-87c1-43e1-8d32-c3bb1067f593"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7464950856669458432",
+      "entityId": "7464950856669458432",
+      "linkedinUrl": "https://www.linkedin.com/posts/marek-dabrowski-8a502370_leanmanufacturing-continuousimprovement-operationsmanagement-activity-7464950856669458432-YNut",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7464950855608422401",
+      "shareUrn": "urn:li:share:7464950855608422401",
+      "content": "Most plants don’t have a Lean problem.\nThey have a layer problem.\n\nThey try to improve culture before standard work exists.\n\nThey ask for accountability before the work is visible.\n\nThey install dashboards before people agree what “normal” looks like.\n\nThey run Kaizen events before daily management is stable.\nAnd then everyone wonders why the improvement doesn’t hold.\n\nA Lean operation is built in layers:\n\n1. Standard work\n2. isual management\n3. Daily management\n4. CI systems\n5. Culture\n\nCulture is NOT where you start.\nCulture is what shows up after the lower layers become real on the floor.\n\nIf the standard is unclear, the board won’t save you.\n\nIf the board is ignored, the meeting won’t save you.\n\nIf the meeting has no action, the culture won’t change.\n\nStart where the work happens.\n\nMake the standard VISIBLE.\n\nThen manage the gap every day.\n\nThat’s where Lean starts to hold.\n\nWhat layer is weakest in most plants you’ve seen?\n\n#leanmanufacturing #continuousimprovement #operationsmanagement #manufacturing #standardwork #visualmanagement #kaizen",
+      "author": {
+        "id": "ACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "universalName": null,
+        "publicIdentifier": "marek-dabrowski-8a502370",
+        "type": "profile",
+        "name": "Marek Dabrowski",
+        "linkedinUrl": "https://www.linkedin.com/in/marek-dabrowski-8a502370?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7z-z0BIXq2LXdiW13tIvfgzP31ONMkTCY",
+        "info": "Founder, LeanMark.ai | Lean Manufacturing Consultant | Lead Time Reduction, Flow & Continuous Improvement | Sheet Metal & SMB Plants | Practical AI for Operations in a new AI era | Industry 4.0 | eVSM | Smart Camera",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG4nwWr1dyoXQ/profile-displayphoto-crop_800_800/B4EZmzspaeHcAM-/0/1759656452247?e=1786579200&v=beta&t=MW2AWvSSkYHxgP4skSjP9LhhMoLxeO2xgnHnQMrG-2w",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "250870589"
+      },
+      "postedAt": {
+        "timestamp": 1779782976310,
+        "date": "2026-05-26T08:09:36.310Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEBAB274OfVjw/feedshare-image-high-res/B4EZ5jVP2dJMAc-/0/1779782975246?e=1786579200&v=beta&t=itqgWiYzsUJI0ZNrUCvwMa-LdUGhz8XuWsEeJtUHvcQ",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7464950856669458432",
+        "likes": 673,
+        "comments": 138,
+        "shares": 86,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 630
+          },
+          {
+            "type": "EMPATHY",
+            "count": 19
+          },
+          {
+            "type": "PRAISE",
+            "count": 10
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 7
+          },
+          {
+            "type": "INTEREST",
+            "count": 7
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/marek-dabrowski-8a502370_leanmanufacturing-continuousimprovement-activity-7464950856669458432-21wj",
+        "sessionId": "4d2f1fde-edbf-4d10-8412-e3d3119b85fd"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7465337376018481152",
+      "entityId": "7465337376018481152",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_last-august-i-was-broke-af-posting-on-a-activity-7465337376018481152-L_Hr",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7465337374940479488",
+      "shareUrn": "urn:li:share:7465337374940479488",
+      "content": "Last August, I was broke AF posting on a dead LinkedIn account. 35K followers later, I'm living proof content hacks are bullshit. Steal my 3-bucket system:\n\nDon't @ me. I'm not a \"LinkedInfluencer.\" All I figured out is clients hire YOU for personality. Expertise only gets you in the room.\n\nGet this and you stop begging for clients. But most of y'all do the opposite, trying to:\n\n- sound smart instead of real\n- avoid personal stories at all costs\n- overrely on AI before writing a single sentence\n\nAll to avoid cringe. Babe, your AI crap is doing the cringing for you.\n\nMy entire pipeline runs on 3 post types:\n\n1/ Life content: my observations & hot takes\n\nMakes people feel seen. I write about:\n\n- Permission to be myself\n- Living with an autistic & ADHD brain\n- Relationships that broke me and built me\n- Never quite fitting the corporate mold (shocker)\n\n→ paired with selfies and candid shots\n\n2/ Expertise content: specific methods and processes\n\nProves you know your sh*t. I write about:\n\n- Personality-first positioning, my whole methodology\n- Writing hooks that make people feel something\n- Turning messy expertise into clear offers\n- The LinkedIn stuff nobody teaches\n\n→ paired with infographics, screenshots, and framework visuals\n\n3/ Business content: client stories & decisions\n\nMakes them want to reach out NOW. I write about:\n\n- Client transformations told through my lens\n- New launches (+ the thinking behind them)\n- The messy ops of being a solopreneur\n- The wins I'm proud of and why\n\n→ paired with screenshots, selfies, BTS shots\n\nAll 3 post types start with a lived moment. That's personality-first to a tee.\n\nIf you don't know where to start, steal my 15 best-performing angles.\n\nPS: love the infographic? Vince Pierri and I are building one live + writing the post next week. Price jumps Friday. Click \"Visit my website\" to grab a spot.",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1779875129704,
+        "date": "2026-05-27T09:45:29.704Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFaq81UzQEzKw/feedshare-shrink_1280/B4EZ5o0uPIK0AM-/0/1779875129179?e=1786579200&v=beta&t=axyZkYkmkJxMhEmImmhD2oZYX86rwsEkXDjC2ULqK6Q",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7465337376018481152",
+        "likes": 749,
+        "comments": 218,
+        "shares": 29,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 583
+          },
+          {
+            "type": "EMPATHY",
+            "count": 71
+          },
+          {
+            "type": "INTEREST",
+            "count": 62
+          },
+          {
+            "type": "PRAISE",
+            "count": 23
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 10
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/magalidereu_last-august-i-was-broke-af-posting-on-a-activity-7465337376018481152-L_Hr",
+        "sessionId": "f1c4551f-3278-4e88-8ec7-7ca44dac089e"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7460562088730562560",
+      "entityId": "7460562088730562560",
+      "linkedinUrl": "https://www.linkedin.com/posts/mayank-pandey-56359295_supplychain-demandplanning-supplyplanning-activity-7460562088730562560-8FoF",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7460557665673506816",
+      "shareUrn": "urn:li:share:7460557665673506816",
+      "content": "Most people think supply chains run on ERP systems 🖥\n\nThey don’t.\n\nThey run on a 3-layer 🌐planning engine.\n\nAnd whether you manufacture products, distribute them, or simply procure and resell them…\n\nthe logic is fundamentally the same.\n\n━━━━━━━━━━━━━━━\n📊 LAYER 1 — DEMAND PLANNING\n“What is likely to happen?”\n━━━━━━━━━━━━━━━\n\nThis layer senses and predicts demand using:\n\n✅ Historical trends\n✅ Promotions & pricing\n✅ Market intelligence\n✅ POS / downstream signals\n✅ Seasonality\n✅ AI-assisted forecasting\n✅ Scenario planning\n\nThe goal is NOT perfect forecasting.\n\nThe real goal is:\n\n⚡ Faster decision-making under uncertainty.\n\n━━━━━━━━━━━━━━━\n⚙️ LAYER 2 — SUPPLY PLANNING\n“How will the network respond?”\n━━━━━━━━━━━━━━━\n\nThis is the orchestration layer.\n\nDepending on the business model, this may involve:\n\n🏭 Manufacturing planning\n📦 Inventory planning\n🚚 Replenishment planning\n🌐 Deployment planning\n🛒 Allocation planning\n🏢 Capacity planning\n\nThis layer balances:\n\n⚖️ Service levels\n⚖️ Capacity\n⚖️ Inventory\n⚖️ Lead times\n⚖️ Cost\n⚖️ Flexibility\n\nThis is where most supply chain trade-offs are made.\n\n━━━━━━━━━━━━━━━\n📦 LAYER 3 — EXECUTION PLANNING\n“What exactly needs to happen?”\n━━━━━━━━━━━━━━━\n\nThis layer converts plans into execution:\n\n✅ Purchase orders\n✅ Supplier schedules\n✅ Production orders\n✅ Warehouse replenishments\n✅ Transportation movements\n✅ Inventory deployments\n\nThis is where instability gets amplified if upstream signals are weak.\n\nAnd this is exactly why small demand changes often create massive upstream disruption.\n\n━━━━━━━━━━━━━━━\n🚨 WHY MANY PLANNING ORGANIZATIONS STILL STRUGGLE\n━━━━━━━━━━━━━━━\n\nBecause these layers often operate in silos.\n\nDemand planners forecast.\nSupply planners firefight.\nProcurement expedites.\nWarehouses react.\nFinance questions inventory.\n\nEveryone optimizes locally.\nThe network suffers globally.\n\n━━━━━━━━━━━━━━━\n🚀 WHAT LEADING ORGANIZATIONS ARE DOING DIFFERENTLY\n━━━━━━━━━━━━━━━\n\nModern supply chains are shifting toward:\n\n✅ AI-assisted planning\n✅ Real-time replanning\n✅ End-to-end visibility\n✅ Scenario simulations\n✅ Constraint-aware planning\n✅ Demand sensing\n✅ Multi-echelon inventory optimization\n✅ Integrated Business Planning (IBP)\n\nThe future of planning is no longer:\n\nForecast → Plan → Execute\n\nIt is becoming:\n\n📡 Sense → Simulate → Decide → Adapt\n\nContinuously.\n\nAnd the companies that master this loop will build the fastest, smartest, and most resilient supply chains of the next decade.\n\n#SupplyChain #DemandPlanning #SupplyPlanning #IBP #SOP #InventoryManagement #Logistics #Procurement #Manufacturing #ERP #SCM #SupplyChainManagement #BusinessTransformation #AI #Operations #Forecasting #Planning #DigitalTransformation #SupplyChainAnalytics #NetworkOptimization",
+      "author": {
+        "id": "ACoAABQydZsBOSYKSr9hTiXu_zWNmnzAmQ9q5r8",
+        "universalName": null,
+        "publicIdentifier": "mayank-pandey-56359295",
+        "type": "profile",
+        "name": "Mayank Pandey",
+        "linkedinUrl": "https://www.linkedin.com/in/mayank-pandey-56359295?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABQydZsBOSYKSr9hTiXu_zWNmnzAmQ9q5r8",
+        "info": "Enabling AI-Driven Supply Chain Transformation through Strategy, Analytics & Capability Building | MITx SCM credential holder | Decision Sciences Enthusiast",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": null,
+        "urn": "338851227"
+      },
+      "postedAt": {
+        "timestamp": 1778736612494,
+        "date": "2026-05-14T05:30:12.494Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFR_Bx-mr99Aw/feedshare-image-high-res/B56Z4k5qorH4AY-/0/1778735557394?e=1786579200&v=beta&t=XoQqH54lK8HnbabO_WLJ5HF1GhI-p-ejd5sebmp2T08",
+          "width": 1024,
+          "height": 1508
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7460562088730562560",
+        "likes": 88,
+        "comments": 5,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 85
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/mayank-pandey-56359295_supplychain-demandplanning-supplyplanning-activity-7460562088730562560-8FoF",
+        "sessionId": "7c6bbcfd-d9ee-4152-83a0-17e2f02220c9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7445658855327375360",
+      "entityId": "7445658855327375360",
+      "linkedinUrl": "https://www.linkedin.com/posts/logistics-guide-2a9652167_supplychain-logistics-excel-activity-7445658855327375360-z43w",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7445427014561579010",
+      "shareUrn": "urn:li:share:7445427014561579010",
+      "content": "Most Supply Chain Professionals Know Operations.\nBut Very Few Truly Know Excel.\n\nWith 15+ years of Logistics & International Business experience, I’ve observed one clear pattern:\n👉 Students understand concepts.\n 👉 Professionals understand operations.\n ❌ But many struggle with Excel — the real backbone of supply chain decision-making.\n\nWhether you are handling:\n • Inventory planning\n • Freight cost analysis\n • Lead time tracking\n • Demand forecasting\n • Supplier performance review\n • Safety stock calculation\n\nExcel is not optional.\nIt is your silent competitive advantage.\nRecently, I compiled a list of 50 Excel formulas that every Supply Chain & Logistics professional must know.\n\nNot fancy formulas.\nNot theoretical ones.\n\nBut formulas that are used daily in:\n ✔ Inventory sheets\n ✔ Freight comparison files\n ✔ MIS reports\n ✔ Forecast models\n ✔ KPI dashboards\n ✔ Purchase planning sheets\n\nHere are a few examples:\n • SUMIFS() – Multi-condition cost analysis\n • XLOOKUP() – Faster and cleaner than VLOOKUP\n • IF() – Reorder level alerts\n • DATEDIF() – Transit time calculation\n • NETWORKDAYS() – Working day calculation\n • FORECAST.LINEAR() – Demand projection\n • STDEV() – Safety stock support\n • IFERROR() – Clean reporting\n\nMost professionals only use 5–6 formulas.\nBut mastering 30–40 of them can change how you analyze data forever.\n\n📌 If you are a:\n • Student of Logistics\n • Export-Import Executive\n • Supply Chain Planner\n • Warehouse Manager\n • Procurement Professional\n\nYou should build strong Excel capability this year. Because data-driven professionals grow faster.\nIf you want, comment “PDF” and I’ll share the complete structured list.\n\n#SupplyChain #Logistics #Excel #InventoryManagement #Procurement #Freight #SCM #ExportImport #LogisticsGuide #Logisticsstudy",
+      "author": {
+        "id": "ACoAACfI3CEBWNTXWxhm-xodjnckTm2WhGFAB3k",
+        "universalName": null,
+        "publicIdentifier": "logistics-guide-2a9652167",
+        "type": "profile",
+        "name": "Logistics Guide",
+        "linkedinUrl": "https://www.linkedin.com/in/logistics-guide-2a9652167?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACfI3CEBWNTXWxhm-xodjnckTm2WhGFAB3k",
+        "info": "Logistics and Supply Chain Enthusiast | Subject Matter Expert | 147K+ Followers | Educator | Content Creator",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHAdaRbEqEbUw/profile-displayphoto-shrink_800_800/B56ZdGlQ_SG0Ao-/0/1749235864300?e=1786579200&v=beta&t=4M01eCuldRYjGF19_1W5GHUbiORORmHt2Zf5x0YU6LA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "667474977"
+      },
+      "postedAt": {
+        "timestamp": 1775183404762,
+        "date": "2026-04-03T02:30:04.762Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHs4LwaeP-kgQ/feedshare-shrink_1280/B56Z1N4alKJYAQ-/0/1775128128107?e=1786579200&v=beta&t=bIApd1TlP4yfypQdAFV6s6MXC8EFbFoQvXUxx4k__cw",
+          "width": 1244,
+          "height": 1539
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7445658855327375360",
+        "likes": 1293,
+        "comments": 169,
+        "shares": 166,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1245
+          },
+          {
+            "type": "INTEREST",
+            "count": 27
+          },
+          {
+            "type": "EMPATHY",
+            "count": 11
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/logistics-guide-2a9652167_supplychain-logistics-excel-activity-7445658855327375360-z43w",
+        "sessionId": "cf53bb8a-6bcc-4d41-82f0-719ef9db0b86"
+      }
+    }
+  ]
+}

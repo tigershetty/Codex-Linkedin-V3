@@ -1,7 +1,7 @@
 # Top-100 Reference Intelligence — Image + Caption Engine
 
 **Date:** 2026-06-30  
-**Status:** Active upstream input for topic selection, captions, and Visual Engine v2 prompts  
+**Status:** Optional post-qualification packaging intelligence for captions and Visual Engine v2 prompts
 **Source corpus:** `references/top 100/` + `references/top 100/Reference File and Caption.xlsx`  
 **Lean caption lookup:** `references/top100-caption-index.md`  
 **Lean visual lookup:** `references/top100-visual-inventory.md` + `references/top100-contact-sheet.html`  
@@ -9,7 +9,9 @@
 
 ## 1. Operating Principle
 
-The top-100 references are not a mood board. They are a proof set.
+The top-100 references are not a mood board. They are a curated-success mechanic library.
+
+They show what successful creators chose to publish and package. Stage 0 recovered 73 reference rows as 72 unique cases, with 42 baseline-qualified for quantitative comparison. That is useful, but not representative: 71 of the 72 recovered posts are reported as single images. The corpus does **not** prove that a format caused performance or that the same mechanic will work for Shetty's Desk. Use it to form testable image/content hypotheses, then compare like with like in V4 measurement.
 
 Each reference contains two kinds of intelligence:
 
@@ -18,41 +20,43 @@ Each reference contains two kinds of intelligence:
 | Image | format, hierarchy, density, structure, proof devices, save mechanics | makes GPT Image 2 outputs more distinctive and less dashboard-like |
 | Caption | opening tension, audience promise, authority proof, list cadence, CTA/save trigger | makes the topic feel useful before the reader even zooms into the image |
 
-Every flagship post must answer:
+When a flagship post uses this library, it must answer:
 
-> Which reference-proven stop-scroll promise are we adapting, and what makes it specific to supply chain?
+> Which curated-success mechanic are we adapting, what makes it specific to supply chain, and what evidence limitation remains?
 
-If the answer is "it looks nice," the reference has not been used correctly.
+If the answer is "it looks nice," label the fit `curated_aesthetic`. A topic may still proceed on stronger Tiger, peer, audience-pain, or public-proof evidence; do not force a Top-100 justification.
 
 ## 2. Lean Usage Rule
 
 Do **not** load all 100 images/captions into a normal production run.
 
-Use this sequence instead:
+When an accepted topic benefits from curated-success packaging intelligence, use this sequence:
 
-1. Pick the topic and audience job.
+1. Confirm the topic has already passed the V4 audience/evidence gate and name the audience job.
 2. Choose the nearest **power format** from the selector below.
 3. Run `node scripts/compile-topic-seed.mjs {topic-or-slug}` to pull the calendar row, power-format mechanics, and initial Top-100 image-caption shortlist.
 4. Use `top100-visual-inventory.md` or `top100-contact-sheet.html` to visually shortlist references before opening individual image files.
 5. Use `top100-caption-index.md` to verify caption promises and save triggers without opening the workbook.
-6. Open only **3 references**:
-   - one structure reference,
-   - one caption/promise reference,
-   - one craft/brand reference.
-7. Fill one `Reference Learning Card` from `templates/reference-learning-card-template.md`.
+6. Open only the minimum useful set, normally **1–3 references**. A single reference may cover structure, caption/promise, or craft; do not fill slots for their own sake.
+7. Fill one `Reference Learning Card` from `templates/reference-learning-card-template.md` when an external reference is used.
 8. Feed only the extracted lessons into the content brief and GPT Image 2 prompt.
 
 This preserves taste without burning context.
 
-## 3. What The Top 100 Proves
+## 3. What The Top 100 Can and Cannot Support
 
-The existing corpus analysis found these production facts:
+The visual review offers design hypotheses:
 
 - 4:5 portrait dominates; square and landscape are usually weaker for this genre.
 - Dense reference cards work when each cell follows one repeated reading schema.
 - The strongest posts are useful artifacts, not decorative posters.
 - The visual structure must be the argument: ladder for maturity, funnel for narrowing, map for navigation, formula card for calculation, decision tree for choice.
-- Captions do not merely describe the image. They sell the audience value: save this, use this, decide faster, avoid this mistake, explain this better.
+- Captions often do more than describe the image. They make the audience value legible: save this, use this, decide faster, avoid this mistake, explain this better.
+
+These are production observations, not population-level performance facts. The clean visual lane is
+63 unique personal static cases after excluding a company page, missing local assets, and local-GIF
+conflicts. Do not use this corpus to rank static images against documents, galleries, video, text,
+articles, or quotes.
 
 ## 4. Power Formats To Reuse
 
@@ -94,12 +98,13 @@ Open the full spreadsheet only after selecting the 1-3 references that matter fo
 | Personal preference | Makes the framework feel chosen, not generated | "The one I would look at first is..." |
 | Repost/save CTA | Gives the reader a clear sharing reason | Use sparingly; prefer task-specific save triggers over generic engagement asks. |
 
-## 6. Topic Gate: Reference-Proven Value
+## 6. Optional Reference-Mechanic Check
 
-Before a topic enters production, define its reference fit:
+After a topic qualifies, define its reference fit only if this library is used:
 
 ```md
-Reference-proven promise:
+Evidence classification: top100_heuristic_signal / inspiration_only / unresolved
+Curated-success promise:
 Power format:
 Closest top-100 reference files:
 Caption pattern to adapt:
@@ -109,7 +114,7 @@ Visual argument in one sentence:
 Why this is Shetty's Desk, not a generic creator:
 ```
 
-Reject or reframe the topic if:
+Reject the **reference adaptation**, not necessarily the topic, if:
 
 - the reference fit is only aesthetic,
 - the caption promise is generic,
@@ -120,7 +125,7 @@ Reject or reframe the topic if:
 
 ## 7. Calendar Adaptation Rule
 
-The calendar remains a candidate bank. The top-100 layer decides how a candidate becomes worth making.
+The calendar remains a candidate bank. The V4 audience/evidence gate decides whether a candidate is worth making. Top-100 may sharpen the packaging after that decision.
 
 | Calendar topic type | Weak calendar frame | Reference-led frame |
 |---|---|---|
@@ -132,7 +137,7 @@ The calendar remains a candidate bank. The top-100 layer decides how a candidate
 
 ## 8. GPT Image 2 Prompt Upgrade
 
-Every flagship GPT Image 2 prompt should now include a short reference intelligence block:
+When a flagship GPT Image 2 prompt uses this library, include a short reference intelligence block:
 
 ```md
 REFERENCE INTELLIGENCE:
@@ -151,7 +156,8 @@ Keep the prompt open enough for GPT Image 2 to compose creatively. Do not turn t
 
 ## 9. Quality Bar
 
-A publishable post must score at least 4/5 on all four reference-intelligence dimensions:
+A publishable post must score at least 4/5 on stop-scroll promise, save utility, and Shetty's Desk
+originality. Score reference adaptation only when a reference is actually used:
 
 | Dimension | What 5 means |
 |---|---|

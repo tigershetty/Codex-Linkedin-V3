@@ -1,0 +1,801 @@
+{
+  "runId": "AGmXUTmldmyyIsG28",
+  "datasetId": "waDrimhV19Mo1a2FB",
+  "projection": [
+    "creator",
+    "hiring",
+    "influencer",
+    "verified",
+    "connectionsCount",
+    "followerCount",
+    "about",
+    "firstName",
+    "lastName",
+    "headline",
+    "id",
+    "linkedinUrl",
+    "publicIdentifier",
+    "location",
+    "originalQuery",
+    "primaryLocale",
+    "currentPosition"
+  ],
+  "items": [
+    {
+      "creator": true,
+      "hiring": false,
+      "influencer": false,
+      "verified": false,
+      "connectionsCount": 9119,
+      "followerCount": 188012,
+      "about": null,
+      "firstName": "Anisha",
+      "lastName": "Jain",
+      "headline": "How to write (better) with AI.",
+      "id": "ACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+      "linkedinUrl": "https://www.linkedin.com/in/theanishajain",
+      "publicIdentifier": "theanishajain",
+      "location": {
+        "linkedinText": "London, England, United Kingdom",
+        "countryCode": "GB",
+        "parsed": {
+          "text": "London, United Kingdom",
+          "countryCode": "GB",
+          "regionCode": null,
+          "country": "UK",
+          "countryFull": "United Kingdom",
+          "state": "England",
+          "city": "London"
+        }
+      },
+      "originalQuery": {
+        "url": "https://www.linkedin.com/in/theanishajain"
+      },
+      "primaryLocale": {
+        "country": "US",
+        "language": "en"
+      },
+      "currentPosition": [
+        {
+          "position": "Content Creator",
+          "location": null,
+          "employmentType": "Full-time",
+          "workplaceType": null,
+          "companyName": "How To AI",
+          "companyLinkedinUrl": "https://www.linkedin.com/company/how-to-ai-guide/",
+          "companyId": "96214400",
+          "duration": "1 yr 7 mos",
+          "description": null,
+          "skills": null,
+          "startDate": {
+            "month": "Jan",
+            "year": 2025,
+            "text": "Jan 2025"
+          },
+          "endDate": {
+            "text": "Present"
+          },
+          "companyLogo": {
+            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQG8BvWSKaVY5w/company-logo_400_400/company-logo_400_400/0/1737090985419/ai_art_midjourney_logo?e=1786579200&v=beta&t=Y-z_c09N4tF7MnpPdOEpRGOT01dc3euGjluyEtl-uzI",
+            "sizes": [
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D4D0BAQG8BvWSKaVY5w/company-logo_400_400/company-logo_400_400/0/1737090985419/ai_art_midjourney_logo?e=1786579200&v=beta&t=Y-z_c09N4tF7MnpPdOEpRGOT01dc3euGjluyEtl-uzI",
+                "width": 400,
+                "height": 400
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D4D0BAQG8BvWSKaVY5w/company-logo_200_200/company-logo_200_200/0/1737090985419/ai_art_midjourney_logo?e=1786579200&v=beta&t=hFR4miBQ9erMepxWutTx5LgCfhDiT2MzrvlNN-VBMN0",
+                "width": 200,
+                "height": 200
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D4D0BAQG8BvWSKaVY5w/company-logo_100_100/company-logo_100_100/0/1737090985419/ai_art_midjourney_logo?e=1786579200&v=beta&t=iz6zDQmkJqfbUflU_r9V3xIiJED0uBxYTmlLK9_7yXs",
+                "width": 100,
+                "height": 100
+              }
+            ]
+          },
+          "companyUniversalName": "how-to-ai-guide"
+        }
+      ]
+    },
+    {
+      "creator": true,
+      "hiring": false,
+      "influencer": true,
+      "verified": true,
+      "connectionsCount": 4120,
+      "followerCount": 132789,
+      "about": "TLDR: Worked in strategy consulting → Joined strategy team at Atlassian → Started writing strategy case studies → People liked them, so I left my job and went full-time\n\nCheck it out → StrategyBreakdowns.com\n\nWe partner with companies like Atlassian, Notion, Intercom, Hubspot, Miro, Vanta, Clay, Mixpanel, and Ahrefs to reach 150k+ tech decision-makers. Click here to explore sponsorships → passionfroot.me/strategybreakdowns",
+      "firstName": "Tom",
+      "lastName": "Alder",
+      "headline": "Founder of Strategy Breakdowns",
+      "id": "ACoAACYYev8BuPds4uEFz0WZj4pwEGsebB13MDg",
+      "linkedinUrl": "https://www.linkedin.com/in/tom-alder",
+      "publicIdentifier": "tom-alder",
+      "location": {
+        "linkedinText": "Greater Sydney Area",
+        "countryCode": "AU",
+        "parsed": {
+          "text": "Sydney, Australia",
+          "countryCode": "AU",
+          "regionCode": null,
+          "country": "Australia",
+          "countryFull": "Australia",
+          "state": "New South Wales",
+          "city": "Sydney"
+        }
+      },
+      "originalQuery": {
+        "url": "https://www.linkedin.com/in/tom-alder"
+      },
+      "primaryLocale": {
+        "country": "US",
+        "language": "en"
+      },
+      "currentPosition": [
+        {
+          "position": "Founder",
+          "location": "Sydney, New South Wales, Australia",
+          "employmentType": null,
+          "workplaceType": null,
+          "companyName": "Strategy Breakdowns",
+          "companyLinkedinUrl": "https://www.linkedin.com/company/strategy-breakdowns/",
+          "companyId": "99213244",
+          "duration": "3 yrs 2 mos",
+          "description": "The 3-minute weekly email on strategy playbooks and growth hacks that built the world's greatest companies.\n\nJoin us at strategybreakdowns.com",
+          "skills": null,
+          "startDate": {
+            "month": "Jun",
+            "year": 2023,
+            "text": "Jun 2023"
+          },
+          "endDate": {
+            "text": "Present"
+          },
+          "companyLogo": {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQEuLn3L0B0fgg/company-logo_400_400/company-logo_400_400/0/1724074542010/strategy_breakdowns_logo?e=1786579200&v=beta&t=itrKTiNOAme872CXrLdPmrnPU0_zO_G2mP8ZBRN1WTM",
+            "sizes": [
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQEuLn3L0B0fgg/company-logo_400_400/company-logo_400_400/0/1724074542010/strategy_breakdowns_logo?e=1786579200&v=beta&t=itrKTiNOAme872CXrLdPmrnPU0_zO_G2mP8ZBRN1WTM",
+                "width": 400,
+                "height": 400
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQEuLn3L0B0fgg/company-logo_200_200/company-logo_200_200/0/1724074542010/strategy_breakdowns_logo?e=1786579200&v=beta&t=ugq9H6xrXSrGZA0kSvNRtR3VHRsOOigXSWtQIY7pTCw",
+                "width": 200,
+                "height": 200
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQEuLn3L0B0fgg/company-logo_100_100/company-logo_100_100/0/1724074542010/strategy_breakdowns_logo?e=1786579200&v=beta&t=3pfK7qxW4i7xbyAem2tSoCP27hY4UkQeHPTSt028r-o",
+                "width": 100,
+                "height": 100
+              }
+            ]
+          },
+          "companyUniversalName": "strategy-breakdowns"
+        }
+      ]
+    },
+    {
+      "creator": true,
+      "hiring": false,
+      "influencer": false,
+      "verified": true,
+      "connectionsCount": 30000,
+      "followerCount": 141117,
+      "about": "There are plenty of expensive ways to get better at Procurement.\n\nExpensive courses and Qualifications. \n\n\n\nBut after 25+ years in both direct and indirect procurement roles, I figured out the real differentiator for procurement success - and it doesn’t cost the earth.\n\n\n\nIt’s how you interact with others.\n\nYour ability to influence, communicate, and collaborate.\n\nIn short, your soft skills.\n\n\n\nI’m Tom Mills, Procurement Protagonist®, and through years of hard-won experience (and a few battle scars), I built the frameworks that helped me and my teams thrive. \n\n\n\nThose frameworks became my flagship course, Procurement Soft Skills Mastery, now helping procurement professionals elevate their careers around the world.\n\n\n\nI also simplify procurement through cheat sheets, frameworks, and my weekly newsletter, Procure Bites -- - read by over 20,000 procurement pros who want real, relatable insights (not jargon).\n\n\n\nHere’s how I can help you:\n\n\n\n1. Subscribe to Procure Bites - the number one independent procurement newsletter.\n\n\n\n2. Join the waitlist for Procurement Soft Skills Mastery (limited enrolment windows).\n\n\n\n3. Partner with me through the Quarterly Growth Package if you’re a business looking to reach 130,000+ LinkedIn followers and 24,000+ newsletter subscribers.\n\n\n\nAll links are in my bio and featured section.\n\n\n\n📧 Sponsorship enquiries: tommills@procurebites.com\n\n\n\n(no sales emails, please)",
+      "firstName": "Tom",
+      "lastName": "Mills",
+      "headline": "Get 1% smarter at Procurement every week | Join 24,000+ newsletter subscribers | Link in featured section (it’s free)👇",
+      "id": "ACoAAAVr8moBAVmsO9kioR9_iDqK_4WFg8RTsgQ",
+      "linkedinUrl": "https://www.linkedin.com/in/tom-mills-procurement",
+      "publicIdentifier": "tom-mills-procurement",
+      "location": {
+        "linkedinText": "London Area, United Kingdom",
+        "countryCode": "GB",
+        "parsed": {
+          "text": "United Kingdom, United Kingdom",
+          "countryCode": "GB",
+          "regionCode": null,
+          "country": "UK",
+          "countryFull": "United Kingdom",
+          "state": "United Kingdom"
+        }
+      },
+      "originalQuery": {
+        "url": "https://www.linkedin.com/in/tom-mills-procurement"
+      },
+      "primaryLocale": {
+        "country": "US",
+        "language": "en"
+      },
+      "currentPosition": [
+        {
+          "position": "Founder",
+          "location": null,
+          "employmentType": "Full-time",
+          "workplaceType": null,
+          "companyName": "Procurement Protagonist Ltd",
+          "companyLinkedinUrl": "https://www.linkedin.com/company/procurement-protagonist-ltd/",
+          "companyId": "108150411",
+          "duration": "1 yr 4 mos",
+          "description": "Author of Procure Bites, the number 1 Procurement newsletter delivering insights to help Procurement Professionals get 1% better every week. \n\nCreator of Procurement Soft Skills Mastery, the online course that's fast tracking Procurement careers globally.\n\nPublic Speaker.",
+          "skills": null,
+          "startDate": {
+            "month": "Apr",
+            "year": 2025,
+            "text": "Apr 2025"
+          },
+          "endDate": {
+            "text": "Present"
+          },
+          "companyLogo": {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQEaJCSu93vEyA/company-logo_400_400/B56Zid0gNIHUAY-/0/1754994443494/procurement_protagonist_ltd_logo?e=1786579200&v=beta&t=0xbR6hooqfQUK-WQqBeiB1p9GXmI0xZX3TwUa-KlfrE",
+            "sizes": [
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQEaJCSu93vEyA/company-logo_400_400/B56Zid0gNIHUAY-/0/1754994443494/procurement_protagonist_ltd_logo?e=1786579200&v=beta&t=0xbR6hooqfQUK-WQqBeiB1p9GXmI0xZX3TwUa-KlfrE",
+                "width": 400,
+                "height": 400
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQEaJCSu93vEyA/company-logo_200_200/B56Zid0gNIHUAI-/0/1754994443494/procurement_protagonist_ltd_logo?e=1786579200&v=beta&t=o7Wxw3VBRtI7sB7EPSCqscgQUUG33GIs_r-t2WRqD8Y",
+                "width": 200,
+                "height": 200
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQEaJCSu93vEyA/company-logo_100_100/B56Zid0gNIHUAQ-/0/1754994443494/procurement_protagonist_ltd_logo?e=1786579200&v=beta&t=HGlrCmQochDkNx6i5oVdi-7nyptu9GBp_TvgfEgTULE",
+                "width": 100,
+                "height": 100
+              }
+            ]
+          },
+          "companyUniversalName": "procurement-protagonist-ltd"
+        }
+      ]
+    },
+    {
+      "creator": false,
+      "hiring": false,
+      "influencer": false,
+      "verified": true,
+      "connectionsCount": 4704,
+      "followerCount": 4913,
+      "about": "𝗣𝗿𝗼𝗰𝘂𝗿𝗲𝗺𝗲𝗻𝘁 𝗯𝗲𝗰𝗼𝗺𝗲𝘀 𝗯𝘂𝘀𝗶𝗻𝗲𝘀𝘀-𝗰𝗿𝗶𝘁𝗶𝗰𝗮𝗹 𝘄𝗵𝗲𝗻 𝗶𝘁 𝗼𝗽𝗲𝗿𝗮𝘁𝗲𝘀 𝗮𝘀 𝘁𝗵𝗲 𝗯𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗶𝘁𝘀𝗲𝗹𝗳.\n\nI build procurement operating models that make that happen.\n\nFor more than 20 years at Procter & Gamble, across North America, APAC, and IMEA, I’ve led procurement transformation in large, matrixed organizations—building leadership capability, aligning teams across regions, and shifting procurement from a support function into an integral part of how the business runs.\n\n𝗪𝗛𝗔𝗧 𝗜 𝗙𝗢𝗖𝗨𝗦 𝗢𝗡 𝗧𝗢𝗗𝗔𝗬:\n• 𝗣𝗿𝗼𝗰𝘂𝗿𝗲𝗺𝗲𝗻𝘁 𝗲𝗰𝗼𝘀𝘆𝘀𝘁𝗲𝗺𝘀 𝗮𝗻𝗱 𝗽𝗮𝗿𝘁𝗻𝗲𝗿𝘀𝗵𝗶𝗽𝘀\nOperating models where aligned incentives and embedded governance turn suppliers from vendors into value-creating partners.\n\n• 𝗔𝗜-𝗲𝗻𝗮𝗯𝗹𝗲𝗱 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝗻𝗴 𝗺𝗼𝗱𝗲𝗹𝘀\nAI-powered decision flows that shorten time-to-market, simplify partner engagement, and embed risk and governance into everyday business decisions—without slowing execution.\n\n• 𝗚𝗼𝘃𝗲𝗿𝗻𝗮𝗻𝗰𝗲 𝗯𝘂𝗶𝗹𝘁 𝗶𝗻𝘁𝗼 𝗲𝘅𝗲𝗰𝘂𝘁𝗶𝗼𝗻\nBusiness systems where risk, compliance, and responsibility are embedded into everyday decisions—so teams move faster with confidence, not slower with controls.\n\n𝗛𝗢𝗪 𝗜 𝗧𝗛𝗜𝗡𝗞:\nProcurement earns influence when it helps the business make better decisions—faster, at scale, and with confidence. Sustainable results come from designing systems that scale judgment, trust, and accountability across people, partners, and technology.\n\nOutside my operating roles, I write and coach on leadership and system design.",
+      "firstName": "Nikhil",
+      "lastName": "Tripathi",
+      "headline": "Creating the Procurement of the Future | Outcome Oriented • Ecosystem Empowered • AI Accelerated | Enterprise Transformation and Partnerships Leader @P&G Beauty",
+      "id": "ACoAACtHrR0BZG2Ox0XNpjI-H9qfBpB67P-oXjA",
+      "linkedinUrl": "https://www.linkedin.com/in/tripathinikhil",
+      "publicIdentifier": "tripathinikhil",
+      "location": {
+        "linkedinText": "Cincinnati Metropolitan Area",
+        "countryCode": "US",
+        "parsed": {
+          "text": "Cincinnati, OH, United States",
+          "countryCode": "US",
+          "regionCode": null,
+          "country": "United States",
+          "countryFull": "United States of America",
+          "state": "Ohio",
+          "city": "Cincinnati"
+        }
+      },
+      "originalQuery": {
+        "url": "https://www.linkedin.com/in/tripathinikhil"
+      },
+      "primaryLocale": {
+        "country": "US",
+        "language": "en"
+      },
+      "currentPosition": [
+        {
+          "position": "Director of Purchasing | Marketing & Media Ecosystems | AI-Enabled Operating Models",
+          "location": "Cincinnati Metropolitan Area",
+          "employmentType": "Full-time",
+          "workplaceType": "On-site",
+          "companyName": "Procter & Gamble",
+          "companyLinkedinUrl": "https://www.linkedin.com/company/procter-and-gamble/",
+          "companyId": "1116",
+          "duration": "2 yrs 1 mo",
+          "description": "Lead a complex marketing and media ecosystem across agencies, platforms, and partners, designing AI-enabled operating models that accelerate ROI, shorten time-to-market, and embed governance directly into how the business executes.",
+          "skills": [
+            "Ecosystem Management",
+            "Strategic Partnerships",
+            "Artificial Intelligence (AI)",
+            "Outcome Driven Innovation",
+            "Business Model Transformation"
+          ],
+          "experienceGroupId": "eae2eb2e7a6b65d4b33769c708c79aaf52082134",
+          "startDate": {
+            "month": "Jul",
+            "year": 2024,
+            "text": "Jul 2024"
+          },
+          "endDate": {
+            "text": "Present"
+          },
+          "companyLogo": {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQEI1MYhkkqixQ/company-logo_400_400/B56ZcYR97xGsAU-/0/1748459053801/procter_and_gamble_logo?e=1786579200&v=beta&t=binofj0AIN-nakq6wDIW_hhZCRydTjKY33HdCFe4zG8",
+            "sizes": [
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQEI1MYhkkqixQ/company-logo_400_400/B56ZcYR97xGsAU-/0/1748459053801/procter_and_gamble_logo?e=1786579200&v=beta&t=binofj0AIN-nakq6wDIW_hhZCRydTjKY33HdCFe4zG8",
+                "width": 400,
+                "height": 400
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQEI1MYhkkqixQ/company-logo_200_200/B56ZcYR97xGsAE-/0/1748459053801/procter_and_gamble_logo?e=1786579200&v=beta&t=_2We7aVIrrbu5oiTCHrxsLaRjPjvfAtdWaLw4GEIJ5k",
+                "width": 200,
+                "height": 200
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQEI1MYhkkqixQ/company-logo_100_100/B56ZcYR97xGsAM-/0/1748459053801/procter_and_gamble_logo?e=1786579200&v=beta&t=yqhl3K6efYr5Hy_X-HTv0JeYzF3zdOOPlNpjrTFWknI",
+                "width": 100,
+                "height": 100
+              }
+            ]
+          },
+          "companyUniversalName": "procter-and-gamble"
+        }
+      ]
+    },
+    {
+      "creator": true,
+      "hiring": false,
+      "influencer": false,
+      "verified": true,
+      "connectionsCount": 27805,
+      "followerCount": 47897,
+      "about": "I help supply chain leaders reduce forecast errors by 20-35% and inventory levels by 20%.\n\n👉 Do you suffer from shortages and dead stocks? \n👉 Do you suffer from poor forecasting accuracy? \n\nLet's schedule a call to talk about your demand and supply planning capabilities.\nContact me here, https://supchains.com/lets-talk/\n\nIf you want to learn more about supply chain planning, I forecast that you will love my mailing list. \n👉 Weekly insights on forecasting & inventory optimization\n👉 New ideas and best practices\n👉 and invitations to exclusive webinars and masterclasses directly to your inbox.\n\nJoin the community today: https://supchains.com/resources/\n\nWant to learn by yourself?\n\n👉 Make your own statistical and ML forecasting models?\nwww.amazon.com/Data-Science-Supply-Chain-Forecasting/dp/3110671107/\n\n👉 Make your own inventory models?\nwww.amazon.com/Inventory-Optimization-Simulations-Nicolas-Vandeput/dp/3110673916\nwww.udemy.com/course/optimize-inventory-planning/?referralCode=92E13E33C9ED7739DC25\n\n👉 Set up best practices for your demand planning process?\nwww.amazon.com/Demand-Forecasting-Practices-Nicolas-Vandeput/dp/1633438090\n\n👉 Learn how to use Forecasting KPIs?\nwww.udemy.com/course/demand-forecasting-kpis-for-supply-chain-planning/?referralCode=83F6A71B86E383A39B5A",
+      "firstName": "Nicolas",
+      "lastName": "Vandeput",
+      "headline": "My models reduce Forecast Error by 30% and Inventory by 20% | I train demand and supply planners | Join a community of more than 12500+ demand and supply planning professionals | Link in bio 👇",
+      "id": "ACoAAAYoQrYBklBPaPr7SYA90DvfC6d2EkuBoWQ",
+      "linkedinUrl": "https://www.linkedin.com/in/vandeputnicolas",
+      "publicIdentifier": "vandeputnicolas",
+      "location": {
+        "linkedinText": "Brussels, Brussels Region, Belgium",
+        "countryCode": "BE",
+        "parsed": {
+          "text": "Brussels, Belgium",
+          "countryCode": "BE",
+          "regionCode": null,
+          "country": "Belgium",
+          "countryFull": "Belgium",
+          "state": "Brussels-Capital Region",
+          "city": "Brussels"
+        }
+      },
+      "originalQuery": {
+        "url": "https://www.linkedin.com/in/vandeputnicolas"
+      },
+      "primaryLocale": {
+        "country": "US",
+        "language": "en"
+      },
+      "currentPosition": [
+        {
+          "position": "CEO, Founder",
+          "location": "Brussels, Brussels Region, Belgium",
+          "employmentType": "Full-time",
+          "workplaceType": null,
+          "companyName": "SupChains",
+          "companyLinkedinUrl": "https://www.linkedin.com/company/supchains/",
+          "companyId": "12667544",
+          "duration": "9 yrs 10 mos",
+          "description": "I help my clients reduce forecast errors by up to 30% and inventory by 20%.\nContact me here: supchains.com/lets-talk\n\nHelped clients such as Ikea, Sanofi, Goodyear, P&G, Zooplus, KitchenAid, Pernod Ricard, Danfoss, BIC, and BD.",
+          "skills": [
+            "Demand Forecasting",
+            "Inventory Optimization",
+            "Machine Learning",
+            "Coaching",
+            "Employee Training"
+          ],
+          "experienceGroupId": "1bc41076b3d8610801bb73ee663668f118878aad",
+          "startDate": {
+            "month": "Oct",
+            "year": 2016,
+            "text": "Oct 2016"
+          },
+          "endDate": {
+            "text": "Present"
+          },
+          "companyLogo": {
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGm4XvwTFX8rg/company-logo_400_400/company-logo_400_400/0/1684314048915/supchains_logo?e=1786579200&v=beta&t=ajCG2cs8D9eghk0GSz2GoWLG4ZSlgqFx3ihkrVXK66A",
+            "sizes": [
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGm4XvwTFX8rg/company-logo_400_400/company-logo_400_400/0/1684314048915/supchains_logo?e=1786579200&v=beta&t=ajCG2cs8D9eghk0GSz2GoWLG4ZSlgqFx3ihkrVXK66A",
+                "width": 400,
+                "height": 400
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGm4XvwTFX8rg/company-logo_200_200/company-logo_200_200/0/1684314048915/supchains_logo?e=1786579200&v=beta&t=iFVGHcXEaBbLjU_Wtsnjl_9eyNymq8tBgM-w6HyyOZ0",
+                "width": 200,
+                "height": 200
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGm4XvwTFX8rg/company-logo_100_100/company-logo_100_100/0/1684314048915/supchains_logo?e=1786579200&v=beta&t=x6wWCCCN8My2YxY0Ko4biKdGxAga3Xsxuxz-CDwA1kE",
+                "width": 100,
+                "height": 100
+              }
+            ]
+          },
+          "companyUniversalName": "supchains"
+        }
+      ]
+    },
+    {
+      "creator": false,
+      "hiring": false,
+      "influencer": false,
+      "verified": false,
+      "connectionsCount": 1091,
+      "followerCount": 1207,
+      "about": "34 years of rich & extensive experience in Commercial Operations encompassing Supply Chain, Sourcing Products & Services, Strategic Planning & Budgeting.\n\nKnown for driving strategies to achieve cost savings through alternate sourcing, product & vendor development, productive negotiations, sub-contracting & localization. \n\nKnown for strong credentials, adhering to systems & policies and for building strong associations with suppliers & service providers. \n\nExtensive experience in Product development, Vendor development (from overseas and within India), Sourcing, RFQ handling and Costing.\n\nInstrumental in working & managing people across various geographies leading to vast global exposure & different leadership styles.\n\nAn effective communicator with excellent relationship building & interpersonal skills. Strong analytical, problem solving & organizational abilities.",
+      "firstName": "Vipin K",
+      "lastName": "Rastogi",
+      "headline": "Supply Chain & Sourcing Professional",
+      "id": "ACoAABDBVPkBkwipIqNkeiiGmEFa_D_VcswXgMM",
+      "linkedinUrl": "https://www.linkedin.com/in/vipin-k-rastogi-a751847a",
+      "publicIdentifier": "vipin-k-rastogi-a751847a",
+      "location": {
+        "linkedinText": "New Delhi, Delhi, India",
+        "countryCode": "IN",
+        "parsed": {
+          "text": "New Delhi, India",
+          "countryCode": "IN",
+          "regionCode": null,
+          "country": "India",
+          "countryFull": "India",
+          "state": "Delhi",
+          "city": "New Delhi"
+        }
+      },
+      "originalQuery": {
+        "url": "https://www.linkedin.com/in/vipin-k-rastogi-a751847a"
+      },
+      "primaryLocale": {
+        "country": "US",
+        "language": "en"
+      },
+      "currentPosition": [
+        {
+          "position": "Head of Sourcing & Supply Chain",
+          "location": "Gurugram, Haryana, India",
+          "employmentType": "Full-time",
+          "workplaceType": null,
+          "companyName": "Roca Bathroom Products Private Limited",
+          "companyLinkedinUrl": "https://www.linkedin.com/search/results/all/?keywords=Roca+Bathroom+Products+Private+Limited",
+          "duration": "15 yrs 2 mos",
+          "description": "Responsible for India’s Supply Chain, Procurement / Sourcing, strategy & results. The scope of sourcing and procurement includes \n        - Finished Products Sourcing (Ceramic Sanitaryware, Faucets, Wellness etc) from domestic market & from overseas (mainly from China)\n\n        - Factory Materials Management (GAS, Electricity, Raw Materials, Consumables, Packing Material etc)\n\n        - Working Capital (Inventories & Payments), CAPEX and Services (Marketing & Factories)\n\n\tStrategize, identify and evaluate potential sourcing opportunities available from India & overseas (extensive knowledge of China Market). Create sustainable suppliers for items in the purview of strategic sourcing from India & from overseas (China, Taiwan, Europe etc).\n\n\tResponsible for negotiating long term purchase & service agreements and pricing with suppliers & service providers.\n\n\tResponsible for effective and timely new product development project closure with Product Management Team, Quality Personnel and Sales to ensure right product, at the right price and right on time.\n\n\tResponsible for Logistics i.e. Freight (Inward & outward), Forwarding & Clearing Agencies finalization by signing long term agreements.\n\n\tEnsure Global procurement Process compliance and strategic day-to-day operational procurement success\n\n\tCoordination with Material Planning / Logistics / Sales / Customer Care to ensure Product Availability, Post Sales Service etc.\n\n\tLeading team of 42 members (including Senior Managers, Managers, Dy Managers, Officers)",
+          "skills": null,
+          "startDate": {
+            "month": "Jun",
+            "year": 2011,
+            "text": "Jun 2011"
+          },
+          "endDate": {
+            "text": "Present"
+          }
+        }
+      ]
+    },
+    {
+      "creator": true,
+      "hiring": false,
+      "influencer": false,
+      "verified": true,
+      "connectionsCount": 11010,
+      "followerCount": 466334,
+      "about": "Struggling to turn LinkedIn into real business growth? You’re not alone - most entrepreneurs are. \n\nIn 18 months, I went from 3k to 395k followers, generated 320M+ views, and built a mid-6-figures bootstrapped business with zero CAC.\n\nNow I help committed entrepreneurs & CXOs grow their businesses on LinkedIn.\n\nBefore posting on LinkedIn, I thought social media was a total waste of time. \n\nMy journey: \n\n- 2015–2020: Investment Banking & Private Equity (Goldman Sachs, Vitruvian Partners) \n- 2020–2022: Business school - still convinced social media was all fluff \n- 2023: Built a VC-backed crypto startup and watched competitors skyrocket using social media \n- 2024: Started posting myself → grew from 3k to 395k followers (fastest-growing new LinkedIn account in the world), generated 300M+ views, built a 7-figure bootstrapped business with zero CAC (Saywhat[dot]ai) \n\nSince then, I’ve worked with 600+ entrepreneurs to grow their brands and businesses on LinkedIn. \n\nHow I can help you: \n\n1️⃣ For solopreneurs, coaches, and consultants \n\nCheck out Saywhat[dot]ai - our software platform & community helping 600+ entrepreneurs. \n\nMedian user posting 5x/week sees +130% views in 90 days. \nAverage user sees 800% more views in 90 days. \n\nFor more case studies, check out the website.\n\n2️⃣ For Founders/CXOs \n\nI’ll run and grow your LinkedIn end-to-end: strategy, content creation, and audience building to grow your business. \n\nI work exclusively with Series A+ startups or $10M+ ARR who are: \n- Committed to LinkedIn as a serious, long-term growth channel \n- Willing to invest significantly in brand building (not “testing the waters”) \n\nIf that’s you, send me a DM to learn more.\n\n3️⃣ For free weekly tips Subscribe to my Level Up Newsletter for LinkedIn growth tactics.\n\nAnd get 120 free LinkedIn post ideas + my AI writing prompts here: https://levelupnewsletter.beehiiv.com/subscribe\n\n4️⃣ For a bit of motivation and some tactical business building advice - just give me a follow!\n\nExcited to support you on your journey however I can!",
+      "firstName": "Will",
+      "lastName": "McTighe",
+      "headline": "LinkedIn & B2B Marketing Whisperer | Helped 600+ Founders & Execs Build Influence",
+      "id": "ACoAAAmba70BW5ezenXwgoPmHUpyUPNj0njRSM4",
+      "linkedinUrl": "https://www.linkedin.com/in/will-mctighe",
+      "publicIdentifier": "will-mctighe",
+      "location": {
+        "linkedinText": "San Francisco, California, United States",
+        "countryCode": "US",
+        "parsed": {
+          "text": "San Francisco, CA, United States",
+          "countryCode": "US",
+          "regionCode": null,
+          "country": "United States",
+          "countryFull": "United States of America",
+          "state": "California",
+          "city": "San Francisco"
+        }
+      },
+      "originalQuery": {
+        "url": "https://www.linkedin.com/in/will-mctighe"
+      },
+      "primaryLocale": {
+        "country": "US",
+        "language": "en"
+      },
+      "currentPosition": [
+        {
+          "position": "CEO, Founder",
+          "location": "San Francisco, CA",
+          "employmentType": "Full-time",
+          "workplaceType": "Remote",
+          "companyName": "WM Media",
+          "companyLinkedinUrl": "https://www.linkedin.com/company/wm-media-group/",
+          "companyId": "104928283",
+          "duration": "2 yrs",
+          "description": "Helping AI & Hardware CEOs build iconic personal brands.",
+          "skills": null,
+          "startDate": {
+            "month": "Aug",
+            "year": 2024,
+            "text": "Aug 2024"
+          },
+          "endDate": {
+            "text": "Present"
+          },
+          "companyLogo": {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQG0qiS56IXC1A/company-logo_400_400/company-logo_400_400/0/1726017421457/wmm_holdings_llc_logo?e=1786579200&v=beta&t=0Rph-X0y2gyetesP0O1zqs86YjMI5e8sIuP7Lj28UjM",
+            "sizes": [
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQG0qiS56IXC1A/company-logo_400_400/company-logo_400_400/0/1726017421457/wmm_holdings_llc_logo?e=1786579200&v=beta&t=0Rph-X0y2gyetesP0O1zqs86YjMI5e8sIuP7Lj28UjM",
+                "width": 400,
+                "height": 400
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQG0qiS56IXC1A/company-logo_200_200/company-logo_200_200/0/1726017421457/wmm_holdings_llc_logo?e=1786579200&v=beta&t=dLTEId1yEHvfNhF2lmwT2i6U1b2Y7sUrTU6-n21NST4",
+                "width": 200,
+                "height": 200
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQG0qiS56IXC1A/company-logo_100_100/company-logo_100_100/0/1726017421457/wmm_holdings_llc_logo?e=1786579200&v=beta&t=SV46tOsdokHQrXF76dyDDVo0p_8LCbeIrjRo4O1hLkU",
+                "width": 100,
+                "height": 100
+              }
+            ]
+          },
+          "companyUniversalName": "wm-media-group"
+        }
+      ]
+    },
+    {
+      "creator": false,
+      "hiring": false,
+      "influencer": false,
+      "verified": true,
+      "connectionsCount": 21666,
+      "followerCount": 23043,
+      "about": "My career is dedicated to advancing, championing, and driving progress in our field as a whole and support business leaders and professional in S&OP (Sales & Operations Planning) and IBP (Integrated Business Planning).\n\nDiscover more:\n🎙️ My PODCAST: IBF on Demand\nLinkedIn Channel: https://www.linkedin.com/company/ibf-on-demand-podcast/ \nYouTube: https://www.youtube.com/channel/UCIDyayZeWzrBgzOSgHVIitQ \nor wherever you get and listen to podcast\n\n📚 My BOOKS: \nPractical Guide to Sales and Operations Planning (S&OP/IBP)\nhttps://ibf.org/books/practical-guide-to-sales-and-operations-planning-sop-ibp-112\nPredictive Analytics for Business Forecasting and planning \nhttps://ibf.org/books/predictive-analytics-for-business-forecasting-and-planning-111 \n\n\n✍️ My ARTICLES: \nBlog: https://demand-planning.com/author/ericwilson/\nJournal: https://ibf.org/knowledge/jbf-articles?date=&popularity=&keywords=&author=eric+wilson&published=\n\nAs an Author, Speaker Consultant, Trainer, and award-winning innovator in my fields, I leverage over 25 years of practitioner experience spanning from CPG to retail, as well as organizational change, solutions consulting, and business strategy. I have led educational trainings around the world, frequently serve as a keynote speaker and panelist for executive forums at professional conferences, and authored numerous articles in publications, peer-reviewed journals, magazines, newspapers, and the author of multiple books. I aim to simplify complexity, challenge assumptions, and help organizations operate more effectively. My passion is about bridging the gap between strategy, process, and culture especially in global environments where alignment is both critical and difficult.\n\nFun Fact: I am a big foodie and if you search and find me on Insta you can see what I eat while I am traveling the world...\n\nPlease reach out to me to connect:\nphone 859.983.5190\nemail wilsondemand@gmail.com\nweb https://ericwilsonauthor.com/",
+      "firstName": "Eric",
+      "lastName": "Wilson",
+      "headline": "The Voice of  Sales and Operations Planning (S&OP/IBP) and Business Planning",
+      "id": "ACoAAAEtw3wBM1iEE0XuQYPCSqA-9cq4cqYskw0",
+      "linkedinUrl": "https://www.linkedin.com/in/wilsondemand",
+      "publicIdentifier": "wilsondemand",
+      "location": {
+        "linkedinText": "Richmond, Kentucky, United States",
+        "countryCode": "US",
+        "parsed": {
+          "text": "Richmond, KY, United States",
+          "countryCode": "US",
+          "regionCode": null,
+          "country": "United States",
+          "countryFull": "United States of America",
+          "state": "Kentucky",
+          "city": "Richmond"
+        }
+      },
+      "originalQuery": {
+        "url": "https://www.linkedin.com/in/wilsondemand"
+      },
+      "primaryLocale": {
+        "country": "US",
+        "language": "en"
+      },
+      "currentPosition": [
+        {
+          "position": "Director  - Supply and Demand Thought Leadership",
+          "location": "New York City Metropolitan Area",
+          "employmentType": "Full-time",
+          "workplaceType": null,
+          "companyName": "Institute of Business Forecasting & Planning",
+          "companyLinkedinUrl": "https://www.linkedin.com/company/institute-of-business-forecasting-and-planning/",
+          "companyId": "227318",
+          "duration": "8 yrs 11 mos",
+          "description": "Help shape and work to position Institute of Business Forecasting (IBF) as a leader and maximize the organizations sustainability as a membership organization for forecasting professionals.  Help drive the strategy and creation of research and content that foster the growth of Demand Planning, Forecasting, and Sales & Operations Planning (S&OP).  Collaborate with other leaders in the field and research to help identify trends and impacts in demand planning and S&OP and analytics that could impact clients worldwide. ",
+          "skills": [
+            "Business Process",
+            "Project Management",
+            "Presentations",
+            "Change Management"
+          ],
+          "startDate": {
+            "month": "Sep",
+            "year": 2017,
+            "text": "Sep 2017"
+          },
+          "endDate": {
+            "text": "Present"
+          },
+          "companyLogo": {
+            "url": "https://media.licdn.com/dms/image/v2/C510BAQGQAoD5sgEomg/company-logo_400_400/company-logo_400_400/0/1631356960726?e=1786579200&v=beta&t=JEFqHyedgTpQHxYGXBbzzV6NDXK0Ow-BCnh3I2ONXAY",
+            "sizes": [
+              {
+                "url": "https://media.licdn.com/dms/image/v2/C510BAQGQAoD5sgEomg/company-logo_400_400/company-logo_400_400/0/1631356960726?e=1786579200&v=beta&t=JEFqHyedgTpQHxYGXBbzzV6NDXK0Ow-BCnh3I2ONXAY",
+                "width": 400,
+                "height": 400
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/C510BAQGQAoD5sgEomg/company-logo_200_200/company-logo_200_200/0/1631356960726?e=1786579200&v=beta&t=QbiGy3D9olbjJC-IS0K4yOkfAb01E5XvYr_EcjPWGvc",
+                "width": 200,
+                "height": 200
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/C510BAQGQAoD5sgEomg/company-logo_100_100/company-logo_100_100/0/1631356960726?e=1786579200&v=beta&t=JeuEf2xzLvN5eBNczISH6T7Z3xSsv3uc4A5fLH-DujE",
+                "width": 100,
+                "height": 100
+              }
+            ]
+          },
+          "companyUniversalName": "institute-of-business-forecasting-and-planning"
+        }
+      ]
+    },
+    {
+      "creator": true,
+      "hiring": false,
+      "influencer": false,
+      "verified": false,
+      "connectionsCount": 8397,
+      "followerCount": 44642,
+      "about": "DIVIUP\n\nWe help agencies & B2B services streamline their operations and scale their services using AI.\n\nWe focus on activities that drive:\n- More leads\n- More pipeline\n- More revenue\n- More customers\n- More time spent on what matters\n\nWhen you work with us, you're tapping into:\n- Over 7 years of experience in AI (I led AI projects at Facebook on their ads ranking tech)\n- The team that \"wrote the book\" on AI Operations and was one of the first to use the term in Spring 2023\n- Trainings that have helped 5,000+ people learn about AI\n- Expertise that's attracted 250,000+ followers across social media platforms\n- 1000s of hours of AI implementation projects\n\nTHE AI EXCHANGE\n\nI also founded The AI Exchange, the largest private community for professionals learning about AI and AI Operations. If you're looking to DIY, learn via courses and through a supportive community. This is for you. Join the 1,500+ in our private community, you can learn more at theaiexchange.com \n\n---\n\nReady to take your agency to the next level with AI? Let's connect and discuss how I can help you achieve your goals.\n\nEmail: rachel@diviupagency.com\nWebsite: diviupagency.com",
+      "firstName": "Rachel",
+      "lastName": "Woods",
+      "headline": "Founder at AI Momentum Protocols (AMP) • AI Operator & Ex-Facebook AI • Keynote Speaker",
+      "id": "ACoAAA-GcZEB1Efo6vRJ-H8ZWRM-70gtvWadWGQ",
+      "linkedinUrl": "https://www.linkedin.com/in/woodsrach",
+      "publicIdentifier": "woodsrach",
+      "location": {
+        "linkedinText": "Austin, Texas Metropolitan Area",
+        "countryCode": "US",
+        "parsed": {
+          "text": "Austin, TX, United States",
+          "countryCode": "US",
+          "regionCode": null,
+          "country": "United States",
+          "countryFull": "United States of America",
+          "state": "Texas",
+          "city": "Austin"
+        }
+      },
+      "originalQuery": {
+        "url": "https://www.linkedin.com/in/woodsrach"
+      },
+      "primaryLocale": {
+        "country": "US",
+        "language": "en"
+      },
+      "currentPosition": [
+        {
+          "position": "Founder, CEO",
+          "location": "Austin, Texas Metropolitan Area",
+          "employmentType": "Full-time",
+          "workplaceType": null,
+          "companyName": "AI Momentum Protocols (AMP)",
+          "companyLinkedinUrl": "https://www.linkedin.com/company/ai-momentum-protocols/",
+          "companyId": "102040620",
+          "duration": "3 yrs 9 mos",
+          "description": "We help teams scale themselves with AI. Learn the methodology at: runonamp.com",
+          "skills": null,
+          "startDate": {
+            "month": "Nov",
+            "year": 2022,
+            "text": "Nov 2022"
+          },
+          "endDate": {
+            "text": "Present"
+          },
+          "companyLogo": {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQHJorpk_ktfbQ/company-logo_400_400/B56Zze6hfVJYAY-/0/1773266409746/parrot_labs_ai_logo?e=1786579200&v=beta&t=68LB10sjafAC_1hbdxWo3vdiVTe2ixpXWua9gptW5ew",
+            "sizes": [
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQHJorpk_ktfbQ/company-logo_400_400/B56Zze6hfVJYAY-/0/1773266409746/parrot_labs_ai_logo?e=1786579200&v=beta&t=68LB10sjafAC_1hbdxWo3vdiVTe2ixpXWua9gptW5ew",
+                "width": 400,
+                "height": 400
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQHJorpk_ktfbQ/company-logo_200_200/B56Zze6hfVJYAI-/0/1773266409746/parrot_labs_ai_logo?e=1786579200&v=beta&t=f8fs8DhhNBaHJk0RWwS_mX3aUpEHqvnkFK26JyEFuQc",
+                "width": 200,
+                "height": 200
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D560BAQHJorpk_ktfbQ/company-logo_100_100/B56Zze6hfVJYAQ-/0/1773266409746/parrot_labs_ai_logo?e=1786579200&v=beta&t=3fs1-qgmdR9NmI0bhBD7o6JVjho-9N4SOEKFn0P5zWQ",
+                "width": 100,
+                "height": 100
+              }
+            ]
+          },
+          "companyUniversalName": "ai-momentum-protocols"
+        }
+      ]
+    },
+    {
+      "creator": true,
+      "hiring": false,
+      "influencer": false,
+      "verified": true,
+      "connectionsCount": 29999,
+      "followerCount": 766942,
+      "about": "I love helping people succeed !!  🌍🌎🌏 Click the FOLLOW button to be part of my community of 765,000 SAP and Data Science data enthusiasts !\n-\nSAP S/4HANA Rise Private Cloud Edition\nSAP S/4HANA Cloud 2408\nSAP S/4HANA System Conversion\nS/4HANA Finance 2025, 2023,2022,2021, 2020, 1909, 1809, 1709,1610,1511 and 1503/ 1605  \n\n- Universal Journal- New Asset Accounting- Integrated Business Planning- SAP Fiori- SAP Fashion Management Solution (FMS)- SAP Customer Activity Repository (CAR) - SAP HANA Enterprise Cloud (HEC)- Netweaver Business Client (NWBC)- SAP Vendor Invoice Management (VIM)- Financial Closing Cockpit Add On 2.0 sp5- FSCM Credit Management, Dispute Management, Collections Management- New GL\n\n27 years SAP Financials experience  in 15 countries onsite. United Kingdom, Germany, France, Spain, Italy, Switzerland, The Netherlands, Belgium, Sweden, Mexico, Austria, Poland, Finland, Norway and the USA (California, Hawaii, Texas, South Carolina, Oregon) SAP projects: Nestle, Unilever, Sara Lee, Wrigley, Mars, Inbev, Maxxium, Total, Reebok, Nike, Shell, DSM, Ministry of Defense, Ministry of Justice, KONE, USG people, TNT Express, Technicolor, Philips, Sealed Air, PAR Petroleum, ASICS, Maxeda, Fujifilm, ING, Equinor, Prorail, Ahold Delhaize, Leprino foods, Agrifirm. Carrefour, RET.\n\nWouter G.V. van Heddeghem\nCertified SAP S/4HANA Finance Consultant\nsapfinancials@gmail.com\n+31-6-24650502 Dutch Mobile Whatsapp\n\nSkills- SAP Financials- Project Management- Bid management- Blueprint- Fit/Gap analysis- Customizing- Functional design- Testing- Training- Resource Allocation- Multilingual English, Dutch, French, Spanish, learning Hindi- Client facing- On site - EU Passport- MoD/MoJ Clearance- Outsourcing- Technical Interviewing of SAP FICO Consultants- Offshore transition - Securing external financial reporting during transformation- SAP Experience since 1999",
+      "firstName": "Wouter",
+      "lastName": "van Heddeghem ",
+      "headline": "Product Owner S/4HANA Finance + Dutch + French + Spanish + English. 765,000 SAP Followers.  I promote SAP jobseekers for free on LinkedIn.",
+      "id": "ACoAAAAdrw0BQBVTxJcvVbueulS5gUdFkGi8aSM",
+      "linkedinUrl": "https://www.linkedin.com/in/woutervanheddeghem",
+      "publicIdentifier": "woutervanheddeghem",
+      "location": {
+        "linkedinText": "The Randstad, Netherlands",
+        "countryCode": "NL",
+        "parsed": {
+          "text": "Netherlands",
+          "countryCode": "NL",
+          "regionCode": null,
+          "country": "Netherlands",
+          "countryFull": "Netherlands"
+        }
+      },
+      "originalQuery": {
+        "url": "https://www.linkedin.com/in/woutervanheddeghem"
+      },
+      "primaryLocale": {
+        "country": "US",
+        "language": "en"
+      },
+      "currentPosition": [
+        {
+          "position": "Product Owner SAP S/4HANA Finance ",
+          "location": null,
+          "employmentType": "Permanent",
+          "workplaceType": null,
+          "companyName": "RET",
+          "companyLinkedinUrl": "https://www.linkedin.com/company/ret/",
+          "companyId": "165728",
+          "duration": "1 yr 7 mos",
+          "description": "Doing my 9th SAP S/4HANA Project. RISE SAP S/4HANA Private Cloud Edition.\nSAP Implementation partner selection. Did all the Explore workshops. Registered all the decisions in CALM. Trained the keyusers to use the EML.",
+          "skills": [
+            "SAP S/4HANA"
+          ],
+          "startDate": {
+            "month": "Jan",
+            "year": 2025,
+            "text": "Jan 2025"
+          },
+          "endDate": {
+            "text": "Present"
+          },
+          "companyLogo": {
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-TR8btAd0Rg/company-logo_400_400/B4EZuTDzw.IwAY-/0/1767698808244/ret_logo?e=1786579200&v=beta&t=GpXScKcNpkVEXqcH8VQmdl7UvLJfsr2kmvz99dMg2WI",
+            "sizes": [
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-TR8btAd0Rg/company-logo_400_400/B4EZuTDzw.IwAY-/0/1767698808244/ret_logo?e=1786579200&v=beta&t=GpXScKcNpkVEXqcH8VQmdl7UvLJfsr2kmvz99dMg2WI",
+                "width": 400,
+                "height": 400
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-TR8btAd0Rg/company-logo_200_200/B4EZuTDzw.IwAI-/0/1767698808244/ret_logo?e=1786579200&v=beta&t=QI6HHLJu5A-0Hqm234B7O7uZAIKUJnS9YzYfz6EGcwg",
+                "width": 200,
+                "height": 200
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-TR8btAd0Rg/company-logo_100_100/B4EZuTDzw.IwAQ-/0/1767698808244/ret_logo?e=1786579200&v=beta&t=v97ayvcdC9qj6wkavBaWLPgcdrxcKYhv0hwDYFx0RTA",
+                "width": 100,
+                "height": 100
+              }
+            ]
+          },
+          "companyUniversalName": "ret"
+        }
+      ]
+    }
+  ]
+}

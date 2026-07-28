@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "evaluatedAt": "2026-07-28T21:45:22.751Z",
+  "classification": "model_inter_run_consistency_not_human_validity",
+  "input": {
+    "itemsPath": "/Users/tigershetty/Documents/Codex/2026-06-30/ho/Codex-Linkedin-V3/infographic-setup/references/outputs/019f9f5f-70b9-7a02-905c-01042213e908/linkedin-v4-full-study-2026-07-28/03-blind/coding-items.json",
+    "itemsSha256": "68425b4aaef50000fa458c555190379cbf47dd424340c81f983191cccc793502",
+    "coderAPath": "/Users/tigershetty/Documents/Codex/2026-06-30/ho/Codex-Linkedin-V3/infographic-setup/references/outputs/019f9f5f-70b9-7a02-905c-01042213e908/linkedin-v4-full-study-2026-07-28/03-blind/coder-a.json",
+    "coderASha256": "54656ce2286661d960e37b7658cb15dc256e315b4bb58fdab1e9ffd5d160ee73",
+    "coderBPath": "/Users/tigershetty/Documents/Codex/2026-06-30/ho/Codex-Linkedin-V3/infographic-setup/references/outputs/019f9f5f-70b9-7a02-905c-01042213e908/linkedin-v4-full-study-2026-07-28/03-blind/coder-b.json",
+    "coderBSha256": "fb68947eb506936fa549a4c1768e95722234205c30d1dd1fd2b720625e8c4403",
+    "codebookPath": "/Users/tigershetty/Documents/Codex/2026-06-30/ho/Codex-Linkedin-V3/infographic-setup/references/linkedin-v4-stage0-codebook-v1.md",
+    "codebookSha256": "c996c5822c5c0fe3db194f949de5eac8ed4df4f5d381eed80c1d9100bdc6d4d3"
+  },
+  "structuralIssues": [],
+  "provenanceIssues": [
+    "coder_a_codebook_sha_mismatch",
+    "coder_b_input_sha_missing",
+    "coder_b_codebook_sha_missing"
+  ],
+  "calibration": {
+    "passId": "calibration",
+    "itemN": 16,
+    "comparisons": 288,
+    "overallExactAgreement": 0.8924,
+    "requiredOverallAgreement": 0.85,
+    "minimumFieldAgreement": 0.6875,
+    "exactFieldsPass": false,
+    "ac1FieldsPass": false,
+    "pass": false
+  },
+  "holdout": {
+    "passId": "holdout",
+    "itemN": 12,
+    "comparisons": 216,
+    "overallExactAgreement": 0.8981,
+    "requiredOverallAgreement": 0.9,
+    "minimumFieldAgreement": 0.6667,
+    "exactFieldsPass": false,
+    "ac1FieldsPass": false,
+    "pass": false,
+    "formalInterpretation": "descriptive_only_because_calibration_failed"
+  },
+  "formalGatePass": false,
+  "decision": "Do not freeze the meaning-heavy taxonomy. Revise/adjudicate failed fields before using them as decision-grade evidence. Reliability provenance is incomplete; no exact-final-codebook claim is permitted.",
+  "excludedModule": "Primary visual structure and visual descriptors were not evaluated because the blind input exposed only native-format summaries."
+}
