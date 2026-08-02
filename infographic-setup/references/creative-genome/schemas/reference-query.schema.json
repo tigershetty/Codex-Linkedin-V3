@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shettysdesk.com/schemas/creative-genome/reference-query.schema.json",
+  "title": "Creative Reference Query",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "status",
+    "query_id",
+    "content_id",
+    "reader_decision",
+    "care_statement",
+    "audience_terms",
+    "topic_terms",
+    "content_modes",
+    "hook_types",
+    "visual_structures",
+    "artifact_types",
+    "ctas",
+    "excluded_patterns",
+    "source_preferences",
+    "eligible_creative_signals",
+    "limit",
+    "tiger_precedent_limit"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema_version": { "const": "1.0.0" },
+    "status": { "enum": ["draft", "ready"] },
+    "query_id": { "type": "string", "minLength": 1 },
+    "content_id": { "type": "string" },
+    "reader_decision": { "type": "string" },
+    "care_statement": { "type": "string" },
+    "audience_terms": { "$ref": "#/$defs/stringArray" },
+    "topic_terms": { "$ref": "#/$defs/stringArray" },
+    "content_modes": { "$ref": "#/$defs/stringArray" },
+    "hook_types": { "$ref": "#/$defs/stringArray" },
+    "visual_structures": { "$ref": "#/$defs/stringArray" },
+    "artifact_types": { "$ref": "#/$defs/stringArray" },
+    "ctas": { "$ref": "#/$defs/stringArray" },
+    "excluded_patterns": { "$ref": "#/$defs/stringArray" },
+    "source_preferences": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": ["saved_positive", "tiger_native_performance", "top100_curated_reference", "stage0_current_market"]
+      }
+    },
+    "eligible_creative_signals": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "enum": ["saved_positive", "top100_curated_reference"] }
+    },
+    "limit": { "type": "integer", "minimum": 10, "maximum": 15 },
+    "tiger_precedent_limit": { "type": "integer", "minimum": 0, "maximum": 5 }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "ready" } } },
+      "then": {
+        "properties": {
+          "query_id": { "$ref": "#/$defs/readyId" },
+          "content_id": { "$ref": "#/$defs/readyId" },
+          "reader_decision": { "minLength": 1 },
+          "care_statement": { "minLength": 1 }
+        },
+        "anyOf": [
+          { "properties": { "audience_terms": { "minItems": 1 } } },
+          { "properties": { "topic_terms": { "minItems": 1 } } },
+          { "properties": { "content_modes": { "minItems": 1 } } },
+          { "properties": { "hook_types": { "minItems": 1 } } },
+          { "properties": { "visual_structures": { "minItems": 1 } } },
+          { "properties": { "artifact_types": { "minItems": 1 } } },
+          { "properties": { "ctas": { "minItems": 1 } } }
+        ]
+      }
+    }
+  ],
+  "$defs": {
+    "readyId": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!.*(?:^|[-_])(?:draft|placeholder|todo|tbd)(?:$|[-_])).+$"
+    },
+    "stringArray": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    }
+  }
+}

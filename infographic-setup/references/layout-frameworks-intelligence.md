@@ -1,30 +1,36 @@
 # Layout & Framework Intelligence
 
-**Version:** 1.0 · **Created:** 2026-06-20 · **For:** Shetty's Desk infographic engine (Supply Chain 101 + AI for Supply Chain)
-**Purpose:** A permanent layout/framework *selector*. For every topic, pick the single best-matching visual layout instead of defaulting to one (e.g. the 4-card grid). This file benchmarks the top ~200 visual layouts and frameworks used in professional infographics and consulting decks, scores each for HTML/CSS/GSAP code-render feasibility, and maps the high-impact ones to supply-chain use.
+**Version:** 1.1 · **Created:** 2026-06-20 · **Reframed:** 2026-08-02 · **For:** Shetty's Desk visual production
+**Purpose:** A secondary layout catalog for implementing or challenging a selected Creative Genome direction. It does not select the topic, creative concept, or renderer. Use it after the reference bundle and visual argument exist, never as the source of the first generic layout.
 
 ## How to use this file
 
-1. **Start at §1 — The Selector.** Read the concept you're explaining ("this is a *trade-off*", "this is a *hidden cost*", "this is a *sequence*") and jump to the matching layout.
-2. **Confirm against §2 — Catalog.** Each row has: what it explains best · the question it answers · anatomy · visual-rhetoric (why the shape persuades) · render feasibility · source. Use this to verify the shape *argues* the point, not just decorates it.
-3. **Sanity-check against §3 — Consulting benchmark** for credibility/conventions (action titles, MECE, Harvey balls, etc.).
-4. **For the code-render pipeline (AI for SC),** go to §4 — the shortlist of patterns that are both high-impact and Easy/Medium to build in HTML/CSS/GSAP, mapped to SC use cases and cross-referenced to our 50-format library in `ai-for-sc-visual-dna.md`.
+1. Read `reference-bundle.json`, `recombination-brief.md`, and `creative-brief-lite.md` first.
+2. State the visual argument and dominant object before opening this catalog.
+3. Use §1 and §2 to test whether the selected shape actually expresses the relationship.
+4. Use §3 for established business conventions and §4 only when HTML/SVG is the chosen renderer.
+5. Follow `visual-engine-v2.md` and the Cobalt Grid brand frame for active production rules.
 
-**Engine constraints assumed throughout:** HTML→PNG via Playwright/Chrome (deterministic, seek-safe), optional GSAP for animated GIF/MP4, brand = azure-blue + eco-green on white, Poppins, mobile-legible (≥14px), 1:1 or portrait. "Feasibility" is rated for *this* stack:
+**Feasibility note:** Render ratings describe the historical HTML→PNG stack. They are implementation
+hints only; Visual Engine v2 may select GPT Image 2, HTML/SVG, a spreadsheet, a document, website UI,
+or another surface. For HTML/SVG:
 - **Easy** = flexbox/grid + borders/backgrounds + simple SVG; no math.
 - **Medium** = SVG paths/`clip-path`/CSS transforms (3D, isometric), some geometry, GSAP timeline.
 - **Hard** = layout algorithms (force-directed, Sankey routing, treemap squarify, Voronoi) or dense data binding — usually needs a JS lib (d3) at render time.
 
 **The one rule:** the layout must *make the argument*. A funnel claims "narrowing/conversion"; a pyramid claims "foundation/hierarchy"; a matrix claims "two independent trade-offs"; a waterfall claims "contribution/bridge"; an iceberg claims "hidden mass." If the shape's built-in claim is false for your topic, the layout is wrong even if it looks good.
 
-> **Selection method — decompose the message into its claims (added 2026-06-29).** A post's message usually contains **several arguable claims at once, and each claim points to a different framework family.** Choosing *which claim to lead with* is the creative fork — don't anchor on the first metaphor and hunt for neighbours of it (that is how a selection narrows to one safe-but-generic shape). Method: (1) write the message in one line; (2) list every distinct claim inside it; (3) map each claim to the shape that *makes that argument*; (4) pick by which claim is the headline **and** by data integrity — a framework that needs per-item numbers you don't have forces invented figures, so prefer one supported by the verified facts, and keep non-highlighted items neutral/unmarked. Worked example — *"six clauses, teams fight Liability hardest, 77% of disputes start at Scope"* decomposes to: hidden-mass (iceberg) · ranking-mismatch (dumbbell/slope) · misallocated-defense (scales/fortress) · structure-with-one-weak-member (pillars/weak-link) · concentration (Pareto) · cascade (domino). Same fact, six honest shapes. (For the AI-still lane specifically, see `ai-still-prompt-learnings.md`.)
+> **Selection method — decompose the message into its claims (added 2026-06-29).** A post's message usually contains **several arguable claims at once, and each claim points to a different framework family.** Choosing *which claim to lead with* is the creative fork — don't anchor on the first metaphor and hunt for neighbours of it (that is how a selection narrows to one safe-but-generic shape). Method: (1) write the message in one line; (2) list every distinct claim inside it; (3) map each claim to the shape that *makes that argument*; (4) pick by which claim is the headline **and** by data integrity — a framework that needs per-item numbers you don't have forces invented figures, so prefer one supported by the verified facts, and keep non-highlighted items neutral/unmarked. Worked example — *"six clauses, teams fight Liability hardest, 77% of disputes start at Scope"* decomposes to: hidden-mass (iceberg) · ranking-mismatch (dumbbell/slope) · misallocated-defense (scales/fortress) · structure-with-one-weak-member (pillars/weak-link) · concentration (Pareto) · cascade (domino). Same fact, six honest shapes. Use `creative-engine-v4-recombination.md` and `visual-engine-v2.md` for the active image-production path.
 
-> **Then make it look world-class → `premium-visual-craft.md`.** This file picks *which* framework; the craft file governs *how to render any framework premium* (the SetProduct **Orion** design tokens, the data-journalism house style, the consulting slide-craft rules, the chart-styling CSS recipes). Picking the right shape and rendering it with generic styling still looks generic — always read the craft file before building. **Family 5 below + the §4 picks all assume the craft layer is applied.**
+> **Active craft authority:** use `visual-engine-v2.md`, `creative-engine-v4-recombination.md`, and
+> `brand-kits/cobalt-grid/FRAME.md`. The catalog contributes possible shapes, not a mandatory house
+> style or visual family.
 
-**The second rule (composition mode, added 2026-06-21):** after picking the layout, decide how much of the canvas the hero owns.
-- **Mode A — hero-dominant / integrated:** one complex thing → hero takes **60–70%**, supporting detail embedded *into* it (leader-line annotations on the object, in-place labels, anchored micro-viz, embedded axis/legend) instead of separate blocks. For a single mechanism / "how X works." Guardrail: strict anchor grid + leader lines (no loose floating text).
-- **Mode B — layered multi-block:** a comparison / multiple data cuts → 3D hero + 2–3 clean elements (the 4-layer pattern: gestalt hero + precision scorecard + proportion bar + narration callouts). Fill whitespace with information, not decoration.
-- A single still may **combine patterns** (e.g. stacked towers #43 + Harvey balls #106 + part-to-whole #44 + callouts); reserve the rest for later posts. Build real 3D with JS `clip-path` isometry, not CSS 3D transforms. Exemplar: `renderer/templates/sc101-quote-iso-towers.html`.
+**Composition reminder (added 2026-06-21, reframed 2026-08-02):** after choosing the visual
+argument, decide how much of the canvas the dominant object needs. An integrated hero can absorb
+annotations and micro-visuals; a comparison may need several coordinated blocks. Choose the minimum
+number of elements that makes the argument clear. Three-dimensional treatment and multi-block
+density are options, not requirements.
 
 ---
 
@@ -359,7 +365,7 @@ Format of each row: **Name** | Explains best | Question it answers (when) | Anat
 
 ### Family 5 — 2026 premium / editorial data-viz additions (research sweep)
 
-From the 2026 sweep across Visual Capitalist + Voronoi, The Economist/FT (Burn-Murdoch), McKinsey/BCG/Bain/Gartner, SetProduct **Orion**, Eric Partaker & Visualize Value. These are the high-performing, code-renderable formats that were thin or missing above. **All of these assume the craft layer in `premium-visual-craft.md` is applied** (title-as-claim, one accent + ghosting, direct labels, source band, Orion stat-card cadence, refined chart styling).
+From the 2026 sweep across Visual Capitalist + Voronoi, The Economist/FT (Burn-Murdoch), McKinsey/BCG/Bain/Gartner, SetProduct **Orion**, Eric Partaker & Visualize Value. These are code-renderable formats that were thin or missing above. Treat them as candidates only when they strengthen the selected visual argument; apply the active Cobalt Grid brand and Visual Engine v2 rules.
 
 | # | Name | Explains best | When to use | Anatomy | Visual-rhetoric | Render | Source |
 |---|---|---|---|---|---|---|---|
@@ -380,7 +386,9 @@ From the 2026 sweep across Visual Capitalist + Voronoi, The Economist/FT (Burn-M
 
 > **Note on overlaps:** slope chart (#71), beeswarm (#201), small multiples (#203), Marimekko (#103), tornado (#109), Harvey balls (#106), football-field (#105), value chain (#97), Three Horizons (#99) already appear above — Family 5 sharpens or pairs them with the craft layer and adds the genuinely-missing editorial formats (dumbbell, bump, connected scatter, tile-grid, butterfly, driver tree, Orion stat-card, reference-band area, sparkline-row, annotated line). The catalog now spans **~229 patterns**.
 
-> **The editorial / scientific pole → `premium-visual-craft.md` §8.** For posts that *teach a system* (an anatomy, a how-it-works, a journey, a map, a taxonomy), the higher-craft moves are the **isometric cutaway / "knowledge graphic"** (Schwochow — anatomy #25/#173, our SVG iso kit), the **radial science-plate** (Eleanor Lutz — radial #8 / coxcomb #208 with concentric-ring labels + a museum-plate frame), the **process panorama / journey** (#180/#212), and the **quantified-report small-multiples grid** (Felton — #203). These are layout choices here; the craft file §8 is how to render them so they look like Lutz/Schwochow, not clip-art.
+> **Editorial and scientific candidates:** an isometric cutaway, radial science plate, process
+> panorama, or quantified small-multiples grid may suit a system explanation. None is a flagship
+> default. Select it only when the Creative Genome direction and reading route call for it.
 
 ---
 
@@ -414,9 +422,11 @@ Verified from the data-viz canon (FT Visual Vocabulary, fully reviewed) and the 
 
 ---
 
-## 4. Top picks for our code-render engine
+## 4. HTML/SVG implementation candidates
 
-Shortlist: high-impact AND Easy/Medium in HTML/CSS/GSAP, mapped to supply-chain use and to our existing 50-format library (`ai-for-sc-visual-dna.md`). These should be the *default candidates* the selector reaches for.
+This historical shortlist records formats that are practical in HTML/CSS/GSAP. Use it only after
+HTML/SVG is selected and the reference bundle already supplies the creative direction. The legacy
+format IDs are retained for traceability, not as a default menu.
 
 | Pick | Build notes (HTML/CSS/GSAP) | Feasibility | SC use case | 50-format link |
 |---|---|---|---|---|
@@ -449,7 +459,7 @@ Shortlist: high-impact AND Easy/Medium in HTML/CSS/GSAP, mapped to supply-chain 
 
 ## Executive summary (12 lines)
 
-1. The single most useful artifact here is **§1 The Selector** — read the *nature of the idea* (sequence, trade-off, hidden cost, contribution, hierarchy) and the layout follows; stop defaulting to the 4-card grid.
+1. Use this catalog only after Creative Genome recombination selects the argument; then §1 can test whether a candidate shape expresses that argument.
 2. **Every layout makes a built-in argument.** Funnel = narrowing/conversion; pyramid = foundation; matrix = two independent trade-offs; waterfall = contribution; iceberg = hidden mass; ladder = self-location. If the claim is false for the topic, the layout is wrong.
 3. The **data-viz canon reduces to nine questions** (FT Visual Vocabulary): magnitude, change-over-time, part-to-whole, ranking, deviation, distribution, correlation, flow, spatial — match the question, then the chart.
 4. **Abela's Chart Chooser** collapses further to four: comparison, composition, distribution, relationship — a fast first cut when in doubt.
@@ -459,8 +469,8 @@ Shortlist: high-impact AND Easy/Medium in HTML/CSS/GSAP, mapped to supply-chain 
 8. **Cost anatomy, radar, Mekko, decomposition bands, small networks** are Medium but high-value for SC — worth the SVG effort.
 9. **Avoid in code-render**: Sankey, chord, treemap, Voronoi, sunburst, cartogram, force-directed graphs — they need d3 layout algorithms and read poorly at mobile 1:1.
 10. Our existing 50-format library already covers most winners; the **gaps to add are: maturity ladder, cycle/flywheel, concentric rings, Marimekko, tornado, slope chart.**
-11. **Mobile-1:1 discipline**: prefer layouts that stay legible with ≤6 elements and ≥14px text; dense charts (parallel coords, beeswarm, big networks) violate this.
-12. **Selection beats decoration**: the catalog (§2, 200+ entries) exists so each topic gets the *one* shape whose rhetoric matches its meaning — that is the whole point of this intelligence.
+11. **Mobile-feed discipline**: prefer layouts that stay legible in the intended LinkedIn export; simplify dense charts when their marks or labels collapse at feed size.
+12. **Creative direction beats decoration**: use the catalog to strengthen the selected visual rhetoric, not to replace ten-concept exploration with one familiar shape.
 
 ---
 

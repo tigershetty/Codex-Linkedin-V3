@@ -1,333 +1,198 @@
-# Visual Engine v2 — GPT Image 2 First, HTML Control Lane
+# Visual Engine v2.2 — Direction First, Renderer Appropriate
 
-**Version:** 2.1
-**Date:** 2026-07-13
-**Status:** Active production workflow for new 101 and AI for Supply Chain visuals
-**North star:** reference-fidelity first, lean inputs, world-class infographic output.
-**Holy Grail benchmark:** `data/2026-W28/supply-chain-resilience-os/visual.png` via `references/holy-grail-visual-standard.md`.
+**Date:** 2026-08-02
+**Status:** Active visual-production workflow
+**Upstream:** `creative-genome-recombination-engine-v1.md` and `creative-engine-v4-recombination.md`
 
-This file supersedes the old assumption that the code-render path is always primary. The new system uses **ChatGPT / GPT Image 2 as the primary creative renderer** because the best recent results came from open, reference-led prompts. The HTML renderer stays active as the **backup, comparison, and precision lane** so every post can be checked against a deterministic layout when exact text, numbers, or structure matter.
+## Thesis
 
-## 1. Operating Thesis
-
-The old workflow tried to "train" the visual system mostly through prose. That produced competent cards, but too often the output looked like a polished dashboard instead of a distinctive editorial infographic.
-
-Visual Engine v2 changes the job of each layer:
+The renderer is not the creative strategy. Select the reader promise, Creative Genome assembly, and
+visual argument first. Then choose the surface that expresses it most clearly and accurately.
 
 | Layer | Job |
 |---|---|
-| Reference set | Carries style, taste, composition ambition, and visual fidelity |
-| Cobalt Grid brand frame | Carries the brand atoms and restraint rules |
-| Prompt | Carries the argument, structure, exact content, and mobile readability constraints |
-| GPT Image 2 | Produces the primary visual direction |
-| HTML renderer | Produces a deterministic control image for comparison, backup, and exact-data cases |
-| QA scorecard | Decides whether the result is publishable, not just "nice" |
+| Creative Genome bundle | Attention, comprehension, utility, and bridge mechanics |
+| Recombination brief | Ten concepts, three developed directions, and the selected assembly |
+| Cobalt Grid | Brand ownership and restraint |
+| Claim contract | Exact limits on numbers, outcomes, comparisons, and personal authority |
+| Renderer | Execute the selected direction |
+| Review | Decide whether the public asset is clear, useful, original, and true |
 
-The core principle: **references do the style work; the prompt does the thinking work.**
+## Renderer selection
 
-### 1.1 Holy Grail Flagship Lane
-
-For flagship posts, the default ambition is now:
-
-> supply-chain operating intelligence rendered as a premium one-page artifact in a credible 3D/isometric supply-chain scene.
-
-Read `references/holy-grail-visual-standard.md` before prompting. The `supply-chain-resilience-os` image proved the working formula:
-
-| Layer | What must be designed before render |
+| Surface | Use when |
 |---|---|
-| Operating artifact | OS, playbook, field manual, decision map, diagnostic, scorecard, review pack, or one-page book |
-| Meeting moment | The real workflow where the reader would use it |
-| Content backbone | SCOR, APQC, TTS/TTR, Kraljic, S&OP, inventory math, forecast decomposition, QBR logic, contract clauses, or role-specific AI workflow |
-| Module map | 5-9 useful modules with distinct visual metaphors, not repeated cards |
-| Supply-chain scene | Desk/control-room/port/warehouse/factory/planning-table context that supports the artifact |
-| Logo plan | Exact Shetty's Desk placement and any removable tool/logo zones, with reserved built-in plates/chips for deterministic overlays |
+| GPT Image 2 | Illustration, editorial object, metaphor, scene, or unusual composition carries the idea |
+| HTML/SVG | Exact wording, data, geometry, interface, comparison, or repeatable control matters most |
+| Spreadsheet | The working model, formulas, inputs, or decision table is the value |
+| Document/PDF | A reference, field guide, checklist, or printable system is the value |
+| Website UI | Interaction, user inputs, filtering, or repeated use materially improves the outcome |
+| Motion | Sequence, change, comparison, or signal flow cannot be communicated as well in one still |
 
-Do not use this lane for every lightweight post. Use it when the post should be a brand-defining saved artifact.
+No surface is automatically more premium. Do not force illustration around a spreadsheet problem or
+force a dashboard around a conceptual visual.
 
-## 2. Default Render Lanes
+## Brand authority
 
-| Lane | Status | Use when | Output |
-|---|---|---|---|
-| GPT Image 2 | **Primary** | Default for new infographic concepts, especially when the visual needs editorial judgment, metaphor, unusual composition, or reference fidelity | AI-rendered still, usually 3:4 portrait |
-| GPT Image 2 Holy Grail artifact | **Flagship primary** | Save-worthy posts where the image should become an operating tool: OS, field manual, playbook, diagnostic, decision map, or one-page book | Premium 3D/isometric artifact scene + surgical cleanup |
-| HTML / code-render | **Backup + control** | Exact numbers, dense tables, text-heavy comparisons, charts that must be pixel-perfect, or when GPT output misses the structure | HTML template + PNG in `renderer/` |
-| Motion / GIF / MP4 | **Optional finishing lane** | Only after `visual.png` is approved and sequencing, reveal, or signal movement improves the argument | Layout-adaptive motion artifact via `motion-engine-v1.md` |
+Use `references/brand-kits/cobalt-grid/FRAME.md` as the production authority:
 
-For each flagship post, keep both lanes when practical:
+- warm cream and electric cobalt as the base;
+- editorial serif hierarchy with restrained sans or mono labels;
+- visible grid discipline and square structural geometry;
+- functional depth, not glossy SaaS decoration;
+- one rare semantic accent only when meaning requires it;
+- exact Shetty's Desk logo asset, never model-redrawn.
 
-1. One GPT Image 2 prompt and generation record.
-2. One HTML control render or wireframe render.
-3. A short comparison note explaining which image is final and why.
+Creative references contribute structure, hierarchy, density, metaphor, and illustration method.
+They do not replace the brand.
 
-## 3. Brand Seed — Cobalt Grid Adapted For LinkedIn
+Use icon libraries only when the icon names a real tool, state, or action. Use official AI/tool marks
+only for exact referential chips. Never construct the Shetty's Desk mark from third-party geometry.
+Borrow an illustration repository's method - one cognitive action, a physical metaphor, whitespace,
+and a clear shot - without copying its recurring character or distinctive style.
 
-The active brand seed is:
+## Required visual inputs
 
-`references/brand-kits/cobalt-grid/FRAME.md`
+- `reference-bundle.json` with selected creative atoms and anti-copy boundaries;
+- `recombination-brief.md` with the selected direction;
+- `content-brief-v2.md` with reader, content mode, claim ledger, and channel job;
+- `creative-brief-lite.md` with one visual move and exact text;
+- Cobalt Grid brand frame and exact owned or official assets.
 
-Cobalt Grid is not a prison. It is the starting brand grammar:
+Existing legacy packages retain their historical inputs for reproduction. New work must use the
+reference bundle.
 
-| Atom | Active rule |
-|---|---|
-| Color | warm cream paper + electric cobalt as the base system |
-| Grid | visible graph-paper / measured-plane sensibility |
-| Type | editorial serif dominance, restrained sans labels, mono chrome when useful |
-| Shape | square, flat, no soft dashboard cards |
-| Depth | structural depth only; no glossy z-axis look |
-| Density | sparse declarative frames or dense ledgers, not generic four-card dashboards |
-| Signature | pixel-stack, ledger, hairline, QR/glitch, mono indexing can be borrowed as recurring marks |
+## Visual contract
 
-The Cobalt Grid source is two-color, but LinkedIn posts may occasionally need one semantic accent when the claim demands it. The accent must be rare, functional, and tied to meaning. If the image starts to look like a multi-color SaaS dashboard, it failed the brand frame.
-
-## 4. Reference-Fidelity Method
-
-Start with the accepted audience problem, proof, and operating artifact. Top-100 is an optional
-production grammar, not a mandatory mood board or topic gate. Read
-`references/top100-reference-intelligence.md` only when curated-success mechanics materially
-improve the information structure; otherwise record `Top-100 not used` and name the stronger
-Tiger, peer, public-pain, primary-source, or artifact mechanic.
-
-When external references are useful, select only the minimum needed (normally **1 to 5**):
-
-| Reference type | Purpose |
-|---|---|
-| Structure reference | The layout family that makes the argument |
-| Caption promise reference | The opening tension, value promise, and save trigger to adapt |
-| Craft reference | Typography, spacing, label economy, editorial confidence |
-| Brand reference | Cobalt Grid or Shetty's Desk anchor |
-| Optional tension reference | A contrasting composition that prevents sameness |
-
-A brand reference remains useful in either mode. A Top-100 structure or caption reference is not
-required when the operating artifact and evidence already provide a stronger visual grammar.
-
-Before prompting, write the post's visual move in one sentence:
-
-> "This image should make the reader feel/see that [claim] by using [visual structure]."
-
-If that sentence is vague, the prompt is not ready.
-
-Also write the stop-scroll sentence:
-
-> "At feed size, the reader should instantly see [shape/claim] and think [why this is worth saving]."
-
-For Holy Grail candidates, also write the artifact contract:
+Write these sentences before production:
 
 ```md
-Holy Grail fit:
-Operating artifact:
-Meeting moment:
-Supply-chain scene:
-Content backbone:
-Module map:
-Logo plan:
+At feed size, the reader sees:
+The image makes this claim legible by showing:
+The useful object or action is:
+The eye moves from -> through -> to:
+The caption adds, rather than repeats:
 ```
 
-## 5. Best Single Prompt Workflow
+If those lines are vague, return to recombination. Do not repair a weak idea with style adjectives.
 
-The default is **one strong prompt**, not a menu of tiny variants.
+## Composition rules
 
-Creative Engine v3 adds the required preflight. Before rendering, create `creative-brief-lite.md` from `templates/creative-brief-lite-template.md`, compile the prompt with `node scripts/compile-gpt-image-prompt.mjs data/{week}/{slug}`, and check the compiled prompt against `references/creative-engine-v3-lean.md`.
+- Use one dominant visual object and one primary reading route.
+- Embed supporting detail into the hero where possible instead of creating a wall of cards.
+- Let whitespace clarify hierarchy; do not leave large areas empty without intent.
+- Keep only text needed for recognition, use, or correct interpretation.
+- Use exact mathematical notation for formula-led work.
+- Keep source notes and qualifications legible but subordinate.
+- Treat 3D/isometric scenes, flat editorial illustration, diagrams, charts, photographed artifacts,
+  typographic references, and interfaces as equal families.
+- Keep a visual understandable without opening the caption.
 
-### Step 1 — Claim Decomposition
+## GPT Image 2 path
 
-Write the message in one line. Then list the hidden visual claims:
-
-| Claim type | Example visual families |
-|---|---|
-| Hidden mass | iceberg, cutaway, submerged system |
-| Mismatch | slope, offset markers, split ranking |
-| Weak link | chain, pillars, keystone, fault line |
-| Process | flow, relay, conveyor, decision tree |
-| Concentration | Pareto, waffle, treemap, stacked share |
-| Before/after | diptych, threshold, conversion frame |
-
-Pick the one claim the visual should lead with.
-
-### Step 2 — Framework Lock
-
-Choose the one structure that makes the claim. Do this before adding style words.
-
-Bad: "make it premium, cinematic, more dramatic."
-Good: "show six contract clauses as one architectural structure where Scope is the load-bearing cracked column."
-
-### Step 3 — Prompt Skeleton
-
-Use this skeleton for GPT Image 2:
+Use a prompt compiled from the selected recombination. Lock the text and meaning, but allow composition
+freedom.
 
 ```md
-Task: Create a world-class editorial infographic for LinkedIn.
+TASK:
+Create an original editorial LinkedIn visual for Shetty's Desk.
 
-Use the attached references for visual intelligence: composition, hierarchy, restraint, spacing, and craft.
-Follow the brand frame: warm cream paper, electric cobalt ink, visible grid discipline, editorial serif headline, restrained labels, flat structural depth.
-Create a fresh layout; do not copy the subject matter or exact composition of any reference.
+READER AND PAYOFF:
+[reader, work moment, and useful outcome]
 
-REFERENCE INTELLIGENCE:
-- Structure reference: [file] — adapt [format/eye path], not the subject.
-- Caption promise reference: [file] — adapt [audience promise/save trigger].
-- Craft reference: [file or brand frame] — adapt [density/hierarchy/restraint].
+CREATIVE ASSEMBLY:
+- Attention atom: [mechanism and transformation]
+- Comprehension atom: [mechanism and transformation]
+- Utility atom: [mechanism and transformation]
+- Bridge atom: [mechanism and transformation]
+- Anti-copy boundary: [what cannot be reproduced]
 
-CREATIVE USP:
-[why this beats a generic LinkedIn infographic]
+VISUAL ARGUMENT:
+[one dominant object, eye path, and payoff]
 
-STOP-SCROLL TEST:
-At feed size, the reader should instantly see [shape/claim] and think [why this is worth saving].
+CONTENT:
+[exact title, labels, data, footer, and placement homes]
 
-TOPIC:
-[one line]
+CLAIM INTEGRITY:
+[claim classes, sources, assumptions, and prohibited inference]
 
-THE QUESTION THIS ANSWERS:
-[reader's actual question, in plain language]
+BRAND AND ASSETS:
+[Cobalt Grid plus exact logo and tool assets]
 
-VISUAL STRUCTURE:
-[one dominant visual system; name the focal element and how the eye should move]
-
-CONTENT TO INCLUDE ON THE IMAGE:
-- Heading: "[max 8 words]"
-- Subheading: "[short, useful]"
-- Labels: [exact labels]
-- Data/facts: [only sourced facts from the research brief]
-
-CONTENT RULES:
-- Mobile-readable at LinkedIn feed size
-- Labels over paragraphs
-- One dominant visual idea
-- Every number must match the research brief
-- Keep on-image text lean
-
-BRAND FEEL:
-Editorial, measured, sharp, reference-led, not a generic SaaS dashboard.
+COMPOSITION FREEDOM:
+[where the renderer may invent arrangement without inventing content]
 ```
 
-For Holy Grail candidates, add the block from `holy-grail-visual-standard.md`:
+Use positive instructions. Long negative prompt blocks usually make the image colder and more generic.
 
-```md
-HOLY GRAIL CALIBER:
-Use `supply-chain-resilience-os/visual.png` as the quality bar: a premium one-page operating artifact staged in a clean 3D/isometric supply-chain desk scene. Do not copy that topic or layout exactly. Match the level of clarity, depth, usefulness, dimensional polish, and brand authorship.
+## Exact-control path
 
-ARTIFACT-FIRST DIRECTION:
-The artifact is the hero. The surrounding 3D scene supports the topic and adds credibility, but it must not steal attention from the operating tool.
+Use HTML/SVG, spreadsheet, document, or website UI when the value depends on exact content. The
+control is not required for every image-model concept. Build it when it helps answer:
 
-POST-PRODUCTION PLAN:
-Leave a clean logo zone for the exact Shetty's Desk logo. Avoid source text or tool chips unless explicitly requested. If a tool/logo is used, it must be small and removable without damaging the composition.
+- Can the reader use the artifact without interpretation errors?
+- Do the numbers, labels, and relationships fit honestly?
+- Does interaction add value beyond a still?
+- Would deterministic production better preserve the selected creative assembly?
 
-LOGO FINISHING:
-Ask GPT Image 2 for blank built-in logo zones, not approximate logos. Use the exact repo assets after generation. Tool logos belong in small chip/icon slots. Shetty's Desk belongs on a designed plate or placard with safe padding. If a generated chip includes an approximate tool mark, rebuild or clean the chip before inserting the official asset. Inspect tight crops of every logo zone before promoting the result to `visual.png`; no duplicated overlays, ghosted marks, or "exact enough" logo approvals.
+## Complementary caption
 
-FORMULA FINISHING:
-When the formula is the hero, do not ask for or approve calculator syntax such as `SQRT(2DS/H)`. Ask for proper mathematical notation: a visible radical over the full expression and a stacked fraction for division where space allows. Inspect a tight crop before promotion; reject ghosted old text, slash-only shorthand when a fraction is expected, or cramped math that does not survive feed size.
+The visual should provide the immediate model, framework, reference, or artifact. The caption should
+add the operating context, reasoning, application, limitation, or Tiger judgment. Remove sentences
+that merely read the image aloud.
+
+## Review gate
+
+Use `templates/visual-output-review-template.md`. Publish only when:
+
+- the problem or promise is visible in 3 seconds;
+- the main insight is understood in 10 seconds;
+- useful action is available in 30 seconds;
+- the selected atoms are visible but the output does not resemble one source end to end;
+- the image has one message, one hero, and one reading route;
+- the result feels like Cobalt Grid / Shetty's Desk;
+- text, logos, formulas, relationships, and numbers are exact;
+- each claim meets its support burden;
+- the LinkedIn crop preserves comprehension and utility.
+
+Hard fails:
+
+- copied composition, artwork, distinctive wording, character, or branding;
+- invented number, outcome, company proof, or personal authority;
+- generic four-card dashboard or generic AI showroom;
+- several competing heroes or reading routes;
+- a beautiful image with no useful takeaway;
+- visual and caption duplicating each other;
+- third-party or model-redrawn Shetty's Desk logo.
+
+## Motion
+
+After `visual.png` is approved, use `motion-engine-v1.md` only when this sentence is strong:
+
+> Motion helps because the reader needs to see [sequence or change] in [reading order].
+
+Otherwise record a still-only decision. When motion is used, preserve exact text, assets, and opening
+and closing frames; export both GIF and MP4 and run the motion audit.
+
+## Package files
+
+```text
+reference-query.json
+reference-candidates.json
+reference-bundle.json
+recombination-brief.md
+content-brief-v2.md
+creative-brief-lite.md
+gpt-image-2-prompt.md             # when used
+gpt-image-2-prompt-compiled.md    # when used
+visual-output-review.md
+visual-comparison.md              # when multiple surfaces are compared
+visual.png
+visual-linkedin.png               # when a non-cropping 4:5 export is needed
+visual-motion.gif / .mp4          # when motion is earned
+publish-manifest.json
+analytics.md
 ```
 
-For GPT Image 2, avoid long negative prompt blocks. Phrase constraints positively.
-
-### Step 4 — HTML Control
-
-After the GPT prompt is written, create a small HTML control only if it helps answer one of these:
-
-- Does the structure actually fit the content?
-- Are the numbers readable and truthful?
-- Would a deterministic version outperform the generated image?
-- Is the generated image drifting away from the brand frame?
-
-The HTML control does not need to be beautiful every time. It needs to be honest.
-
-### Step 5 - Motion Finishing Lane
-
-Motion is produced only after the still is selected and passes visual QA. Read
-`references/motion-engine-v1.md`, then answer:
-
-> Motion helps this post because the reader needs to see [sequence/change] in
-> the order [reading logic].
-
-If that sentence is weak, stop at `visual.png` and record a still-only exception.
-Otherwise the standard post package includes the still, GIF, and MP4 master.
-
-When motion is earned:
-
-- create a post-specific motion brief from `templates/motion-brief-template.md`,
-- map semantic components from the actual layout,
-- keep the complete still as the locked base,
-- use source-fitted covers, source-derived highlights, and restrained SVG signals,
-- never move raw rectangular crops, body text, or approximate logos,
-- export both GIF and full-resolution MP4,
-- require pixel-identical opening and closing lossless frames.
-- run `node scripts/audit-motion-package.mjs data/{week}/{slug}` before promotion.
-
-The EOQ decision board is the implementation benchmark, not a choreography
-template: `videos/optimal-batch-size-motion/`.
-
-## 6. Artifact Contract
-
-Each visual post folder should aim for:
-
-| File | Purpose |
-|---|---|
-| `research-brief.md` | sourced facts, definitions, examples |
-| `101-copy.md` or `ai-for-sc-[slug].md` | caption, hooks, post copy |
-| `gpt-image-2-prompt.md` | final prompt, references used, generation notes |
-| `gpt-image-2-prompt-compiled.md` | prompt compiled from the creative brief and reference card; preferred draft for GPT Image 2 |
-| `creative-brief-lite.md` | one-page audience value, reference fit, visual argument, and creative USP |
-| `holy-grail-fit.md` or Holy Grail fields in `creative-brief-lite.md` | flagship-only artifact contract: operating artifact, meeting moment, supply-chain scene, content backbone, module map, text lock, and logo plan |
-| `visual-output-review.md` | post-render scoring against stop-scroll, save utility, reference adaptation, originality, readability, and integrity |
-| `html-control.md` or renderer template link | backup/control lane notes |
-| `visual-comparison.md` | side-by-side judgment and final pick |
-| `visual.png` | selected final visual |
-| `visual-linkedin.png` | non-cropping 1080 x 1350 companion when the canonical master is taller than 4:5 |
-| `visual-motion.gif` | standard picture-first motion companion after still approval and eligibility pass |
-| `visual-motion.mp4` | standard full-resolution motion master after still approval and eligibility pass |
-| `motion-qa.md` | motion QA: reset/focus frames, endpoint pixel checks, media specs, and promotion decision |
-| `resource-plan.md` | AI-for-SC resource eligibility and package contract |
-| `publish-manifest.json` | explicit caption/still approval and website handoff status |
-
-Do not let generated experiments become the source of truth. The source of truth is the prompt, references, comparison note, and chosen `visual.png`.
-
-Read `references/publish-asset-spec-v1.md` before export. Preserve `visual.png` exactly after approval; if it falls outside the organic 4:5 boundary, create a branded non-cropping `visual-linkedin.png` companion rather than cropping the artifact.
-
-## 7. Visual QA Scorecard
-
-Score every candidate from 1 to 5:
-
-| Dimension | What 5 means |
-|---|---|
-| Reference fidelity | It feels like it belongs in the top reference set, not adjacent stock art |
-| Brand ownership | Cobalt Grid / Shetty's Desk DNA is obvious without a logo doing all the work |
-| Argument clarity | The structure teaches the idea in under 2 seconds |
-| Editorial craft | Type, spacing, hierarchy, and restraint feel designed, not decorated |
-| Mobile legibility | The key claim and labels survive feed-size viewing |
-| Data integrity | No invented numbers, labels, claims, or misleading chart shapes |
-| Distinctiveness | It is not another generic four-card dashboard |
-
-For AI-for-SC flagship posts, add a caption/visual consistency check before publish:
-
-- the visual shows an operating artifact the tool can help build,
-- the caption names the reader's input pack,
-- the caption names the output artifact,
-- the caption explains the meeting/workflow value,
-- explicit AI-risk warnings are not forced into the published copy when they weaken the hook or value promise.
-
-Publish bar:
-
-- **Minimum:** 4 average, no dimension below 3.
-- **World-class target:** 4.5 average, with 5s in argument clarity and editorial craft.
-- If distinctiveness is 2 or lower, change the framework before changing adjectives.
-
-## 8. Removal / De-Emphasis Plan
-
-Do not delete files without explicit approval. Instead:
-
-| Legacy item | New handling |
-|---|---|
-| Old code-render-primary language | Mark as superseded by Visual Engine v2 |
-| Gemini handoff prompts | Deep Dive archive / emergency legacy only |
-| Nano Banana-first lane | Historical experiment; GPT Image 2 is now the primary creative renderer |
-| Tracked `renderer/out` duplicates | Keep for now, but move toward canonical post-folder artifacts and generated-output ignore policy |
-| Stale trackers | Reconcile against `master-calendar.md` and actual `data/` folders before using |
-
-## 9. Practical First Principles
-
-1. Start from the argument, not the decoration.
-2. Use the fewest inputs that preserve taste: zero to five justified external references, one brand frame, one strong prompt. Do not force Top-100 when the evidence/artifact mechanic is stronger.
-3. Make one structure dominate.
-4. Let the grid, type, and restraint create brand memory.
-5. Keep HTML rendering alive as a control, not as the default creative bottleneck.
-6. Improve by changing the framework first, then the prompt, then the renderer.
-7. For motion, repeat the production system but redesign the choreography around each visual's layout.
+Preserve `visual.png` after approval. Create a non-cropping LinkedIn companion when needed rather
+than destructively cropping the master.

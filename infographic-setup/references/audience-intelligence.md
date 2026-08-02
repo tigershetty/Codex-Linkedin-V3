@@ -1,6 +1,6 @@
 # Audience Intelligence — Shetty's Desk
 
-**Date:** 2026-07-28
+**Date:** 2026-08-02
 **Status:** Active V4 upstream input for topic selection
 **Use after:** `v4-audience-growth-operating-system.md`
 **Use before:** `master-calendar.md`, `101-plan.md`, `ai-for-sc-plan-v2.md`, `visual-engine-v2.md`
@@ -14,8 +14,9 @@ meetings.
 
 They are hearing broad claims about AI but rarely receive a practical pathway from a real
 work problem to the required inputs, method, artifact, validation, and human-owned decision.
-They do not need more definitions or generic AI lists. They need useful evidence, a method
-they can inspect, and language they can defend in a meeting.
+They do not need more definitions or generic AI lists. They need a useful method they can
+inspect, support proportionate to what the content actually claims, and language they can
+defend in a meeting.
 
 Early-career professionals and cross-functional colleagues remain valuable secondary reach
 audiences. They do not override the primary practitioner when topics are selected.
@@ -58,25 +59,48 @@ Every topic should serve at least one job:
 | Save time | "Can I use this in my next workflow?" | template, prompt, checklist |
 | Understand AI safely | "Can this tool really do this, and how do I verify it?" | workflow + verification step |
 
-## Evidence Signals To Watch
+## Intelligence Signals To Watch
 
-V4 uses public evidence rather than requiring practitioner interviews or private validation.
+V4 uses public, inspectable intelligence and claim-proportionate support rather than requiring
+practitioner interviews or private validation.
 
 | Signal | What qualifies | What does not qualify |
 |---|---|---|
 | Audience pain | a concrete decision, recurring task, failure, cost, delay, risk, or career pressure visible in public practitioner material | a broad trend with no role or consequence |
 | Near-peer evidence | a mechanic that repeats above comparable creators' own mature baselines | raw likes from one large account |
-| Curated-success evidence | a Top-100 case or other known-success reference with clear transfer logic | frequency in the reference set treated as causal proof |
-| Public proof path | official data, standards, peer-reviewed research, formula/model, documented method, or transparent worked example | unattributed statistics or AI-generated claims |
+| Accepted creative intelligence | a Tiger-saved post, Top-100 case, or other approved reference with a reusable hook, promise, structure, visual, save, or CTA mechanic | re-litigating whether Tiger was right to save it before it can enter a creative bundle |
+| Claim support | support matched to the claim mode: correct attribution for frameworks; exact sources for facts; traceable inputs and methods for calculations; documented evidence for company outcomes or causal claims | one universal proof burden, unattributed statistics, or AI-generated claims presented as fact |
 | Artifact feasibility | an inspectable calculator, workbook, dashboard, decision board, map, checklist, benchmark, or validated workflow | a decorative visual or generic prompt list |
 | Timely relevance | a verified event, regulation, company move, market signal, or tool change that alters a practitioner decision | generic AI news with no supply-chain implication |
+
+## Claim-Proportionate Support
+
+Evidence burden follows the claim, not the post format. Record one `claim_mode` for a simple
+piece or `mixed` plus one ledger row per load-bearing claim:
+
+| Claim mode | Minimum support |
+|---|---|
+| `editorial_explainer` | correct logic, attribution where a framework is borrowed, scope, and failure boundary |
+| `formula_or_method` | attributed method; traceable inputs, units, assumptions, and reproduction when a result is calculated |
+| `sourced_fact` | exact source, date, unit, population or scope, and limitation |
+| `documented_case` | named deployment, success, or failure; who reported it; result definition; and limits on transfer |
+| `public_data_analysis` | source dataset, fields, filters, transformations, assumptions, and reproducible output |
+| `tool_workflow` | current official capability source, real input/output where an outcome is shown, validation, and human owner |
+| `tiger_interpretation` | approved Tiger source ID and wording that presents the rule as judgment rather than universal fact |
+| `comparative_or_causal` | evidence capable of supporting comparative or causal wording; otherwise narrow the language |
+| `simulation_or_hypothesis` | explicitly chosen and visibly labelled; never the default proof for a method or outcome |
+| `mixed` | separate ledger rows and support for every claim mode present |
+
+Internal test fixtures are allowed for calculation and software QA. They remain test evidence,
+are excluded from public proof, and do not become caption hooks, visual results, case studies, or
+deployment claims.
 
 ## Channel Behaviour
 
 | Surface | What the audience should receive |
 |---|---|
 | LinkedIn | one useful distinction, decision, artifact, or timely interpretation that stands alone |
-| Substack flagship | the full evidence, method, worked example, limits, and Tiger judgment |
+| Substack flagship | the full support, method, optional source-backed application, limits, and Tiger judgment |
 | Substack Notes | short observations, corrections, evidence fragments, and questions worth carrying forward |
 | Website | a durable artifact or tool that is more useful than static content alone |
 
@@ -113,7 +137,7 @@ Before a topic proceeds, answer:
 
 1. Who exactly is this for?
 2. What decision, recurring task, failure, cost, risk, or ambition do they recognize?
-3. What public evidence shows that the subject deserves attention?
+3. What support is required for the claims this piece intends to make, and is it available?
 4. What will they understand, decide, or do differently?
 5. What artifact or reusable takeaway could they inspect or use?
 6. Which channel has a real job: LinkedIn, Substack, website, or a deliberate combination?
@@ -121,18 +145,21 @@ Before a topic proceeds, answer:
 
 If these answers are weak, the topic is not ready.
 
-## Optional Curated-Success Packaging Test
+## Required Creative Bundle
 
-After the audience test, use `top100-reference-intelligence.md` only when it materially improves
-the promise or information structure:
+Every selected topic receives a creative bundle before drafting. Tiger's saved posts, the Top-100
+corpus, Tiger's own winners, and approved brand references are accepted creative intelligence;
+do not add another gate that questions whether a saved item is creatively valuable.
 
-1. If a curated-success reference is useful, which caption promise does this topic adapt? Otherwise record `not used` and name the stronger evidence lane.
-2. Which curated-winner format hypothesis makes the idea easier to understand?
-3. Why would the audience save the image, not just like it?
-4. What task, meeting, or career moment does the reference mechanic map to?
-5. What is the Shetty's Desk originality layer?
+Record:
 
-The reference supplies a mechanic hypothesis, not proof that the mechanic caused reach. Stage 0
-recovered an overwhelmingly single-image Top-100 sample, so it cannot decide the native format.
-The best topics combine audience pain, public evidence, buildable utility, Tiger's real judgment,
-and packaging worth testing on Tiger's account—even when no Top-100 reference is needed.
+1. `creative_bundle_id`;
+2. the exact saved-post, Top-100, Tiger, and brand reference IDs or paths;
+3. `genome_reference_ids` and stable `creative_element_ids` for the accepted source mechanics;
+4. what task, meeting, or career moment each selected mechanic serves;
+5. the Shetty's Desk originality layer;
+6. `transfer_result`: `pending`, `transferred`, `unclear`, or `did_not_transfer` after Tiger's matched outcome is available.
+
+The creative bundle determines how the idea is packaged. The `support_ledger` in the claim
+contract determines what can be stated. Tiger's prospective result improves future bundle
+selection; it does not retroactively invalidate the source reference or block its current use.

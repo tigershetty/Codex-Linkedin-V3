@@ -6,7 +6,8 @@
  * and infographic reference posts.
  *
  * NOTE: Apify cannot access your private saved posts (those require your session).
- * Use fetch-linkedin-saves.mjs for saved posts.
+ * Saved-post refreshes use the approved read-only collection procedure documented with the
+ * Creative Genome. The former direct-cookie collector is preserved in scripts-archive.
  * Use this script for: public profile posts, hashtag searches, competitor analysis.
  *
  * SETUP:

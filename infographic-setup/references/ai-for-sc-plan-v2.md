@@ -13,12 +13,14 @@ both; the rows do not create a two-post quota. Every entry specifies:
 - **Role** — the specific SC role this post speaks to
 - **Tool** — the AI tool used (Claude / ChatGPT / Copilot / Gemini)
 - **Use Case** — the specific task or workflow the post covers
-- **Hook direction** — the hook type and angle that fits this use case
-- **Visual** — specific format assigned per post from `references/ai-for-sc-visual-dna.md`. Do not default to 4-card grid.
+- **Hook direction** — a historical angle to challenge during recombination, not a required hook
+- **Visual** — a historical format suggestion. Treat it as one candidate, not a production instruction.
 
-**Visual**: Each post has a specific visual format assigned below. Formats are defined in `references/ai-for-sc-visual-dna.md`. The SKILL loads that file before generating any Gemini prompt. Do not default to the 4-card grid.
+For new work, retrieve 10–15 Creative Genome references, generate ten concepts, and develop at least
+three directions before choosing a visual argument or renderer. Use `references/visual-engine-v2.md`;
+do not default to the historical format or to a four-card grid.
 
-**Tool selection guide** (quick reference):
+**Historical tool-selection guide** (revalidate against current official sources before use):
 - **Claude** — document drafting, structured analysis, multi-step reasoning, scenario framing, policy/compliance language
 - **ChatGPT** — calculation, formula-based analysis, scoring models, fast iteration, broad data interpretation
 - **Copilot** — Excel formulas, Power BI, Word/PowerPoint, in-file data analysis, Microsoft 365 workflows

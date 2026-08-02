@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shettysdesk.com/schemas/creative-genome/performance-snapshot.schema.json",
+  "title": "Creative Bundle Performance Snapshot",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "content_id",
+    "channel",
+    "checkpoint",
+    "captured_at",
+    "creative_bundle_id",
+    "genome_reference_ids",
+    "creative_element_ids",
+    "element_transfer",
+    "content_mode",
+    "claim_mode",
+    "artifact_type",
+    "metrics",
+    "transfer_result",
+    "next_adaptation",
+    "notes"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema_version": { "const": "1.0.0" },
+    "content_id": { "type": "string" },
+    "channel": { "enum": ["linkedin", "substack", "website"] },
+    "checkpoint": { "enum": ["24h", "day7", "day28"] },
+    "captured_at": { "type": ["string", "null"] },
+    "creative_bundle_id": { "type": "string" },
+    "genome_reference_ids": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^(LI-|TEXT-)" },
+      "uniqueItems": true
+    },
+    "creative_element_ids": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "element_transfer": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["creative_element_id", "transfer_result", "note"],
+        "properties": {
+          "creative_element_id": { "type": "string", "pattern": "^CE-" },
+          "transfer_result": { "enum": ["pending", "transferred", "unclear", "did_not_transfer"] },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "content_mode": { "type": "string" },
+    "claim_mode": { "type": "string" },
+    "artifact_type": { "type": ["string", "null"] },
+    "metrics": {
+      "type": "object",
+      "additionalProperties": { "type": ["number", "null"] }
+    },
+    "transfer_result": { "enum": ["pending", "transferred", "unclear", "did_not_transfer"] },
+    "next_adaptation": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

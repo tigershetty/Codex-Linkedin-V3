@@ -1,136 +1,127 @@
-# Content Brief v2 — Template
+# Content Brief v2 — Creative Genome Template
 
 **Week:** `{YYYY-W##}`
 **Slug:** `{slug}`
-**Content ID:** `{YYYY-W##}-{slug}-{channel}-{sequence}`
-**Series:** `Supply Chain 101` / `AI for Supply Chain`
+**Content ID:** `{channel}:{YYYY-W##}:{slug}:{sequence}`
 **Primary channel:** `LinkedIn` / `Substack` / `Website`
-**Parent slug:** `{shared research/artifact package}`
-**Candidate source:** `public pain evidence` / `creator pattern` / `public data` / `research` / `timely event` / `analytics` / `calendar candidate`
+**Production lane:** `Supply Chain 101` / `AI for Supply Chain` / `other`
+**Starting path:** `problem-led` / `pattern-led` / `evidence-led` / `timely-led`
 
-## 0. V4 Decision
+## 1. Reader Contract
 
-**Weekly slot:** `problem map` / `framework-artifact` / `AI workflow` / `proof-boundary` / `experiment`
-**Problem:**
-**Promise:**
-**Proof available:**
-**Useful artifact:**
-**Experiment hypothesis:** `If we change [one variable], [audience] will show [observable behaviour], because [reason].`
-**Matched comparison:** `{content ID or none}`
+**Primary reader:**
+**Work / career moment:**
+**Decision, pain, ambition, or curiosity:**
+**Care statement:**
+**Standalone LinkedIn payoff:**
+**Useful action within 30 seconds:**
 
-## 0A. Tiger Source Gate
+## 2. Creative Genome
+
+**creative_bundle_id:** `CB-{YYYY-W##}-{##}`
+**Genome snapshot:**
+**Reference query:** `reference-query.json`
+**Reference bundle:** `reference-bundle.json`
+**genome_reference_ids:**
+**creative_element_ids:**
+**Tiger precedent IDs:**
+
+| Creative job | Reference / element ID | Mechanism transformed | Shetty's Desk transformation | Anti-copy boundary |
+|---|---|---|---|---|
+| Attention |  |  |  |  |
+| Comprehension |  |  |  |  |
+| Utility |  |  |  |  |
+| Bridge |  |  |  |  |
+
+Saved membership is already a positive creative label. Do not add a reference-validity review.
+
+## 3. Recombination
+
+**Ten-concept board:** `recombination-brief.md`
+**Concept families covered:**
+**Direction A:**
+**Direction B:**
+**Direction C:**
+**Selected direction and why:**
+**Coherence check:** how every selected atom supports one reader promise
+
+## 4. Content And Claim Contract
+
+**Content mode:** `framework` / `checklist-reference` / `workflow` / `template-tool` / `formula-calculator` / `documented-case` / `public-data-analysis` / `opinion-synthesis` / `narrative-identity` / `AI-workflow` / `hybrid`
+**Claim mode:** `editorial_explainer` / `formula_or_method` / `sourced_fact` / `documented_case` / `public_data_analysis` / `tool_workflow` / `tiger_interpretation` / `comparative_or_causal` / `simulation_or_hypothesis` / `mixed`
+**support_ledger:** required for load-bearing claims
+
+| Claim ID | Planned wording | Claim mode | Required support | Source / Tiger source ID | Qualification or prohibited wording | Status |
+|---|---|---|---|---|---|---|
+| `CL-01` |  |  |  |  |  | pending / supported / remove |
+
+**Research depth:** `not required beyond logic / attribution` / `targeted support note` / `full research brief` / `current capability verification`
+**Support file:** `support-note.md` / `research-brief.md` / `not required beyond ledger`
+**Public simulation:** `not used` / `explicitly selected and visibly labelled`
+**Internal test fixtures:** `none` / `{paths}`
+**Internal fixtures excluded from public proof:** `yes`
+
+## 5. Tiger Source
 
 **Source mode:** `fresh Tiger input` / `approved voice-bank source` / `research-led`
-**Source file:** `data/{YYYY-W##}/{slug}/tiger-source.md` / `not applicable to factual draft`
+**Source file:** `tiger-source.md` / `not required`
 **Approved source IDs:**
-**Tiger-approved stance:**
-**Practical failure boundary / uncertainty:**
+**Tiger judgment:**
+**Failure boundary / uncertainty:** `approved Tiger wording` / `not applicable to research-led mode`
 **Approved first-person claims:**
 **Confidentiality review:** `clear` / `restricted` / `pending`
 
-> Research-led work may contain Tiger's clearly labelled interpretation, but it may not claim that Tiger built, used, observed, managed, or achieved something without an approved source ID.
+## 6. Channel Jobs
 
-## 1. Topic Qualification
+**LinkedIn value:**
+**Substack added value:** `none` / `{specific depth that cannot fit the post}`
+**Website added value:** `none` / `{specific utility beyond the post}`
+**Bridge action:** `save` / `discuss` / `read` / `use` / `subscribe` / `return`
+**Why a click is earned:**
 
-**Topic:**
-**Audience segment:**
-**Audience pain/desire:**
-**Post promise:**
-**Why now:**
-**Tiger authority:**
+## 7. Caption Shape
 
-## 2. Topic Score
-
-| Dimension | Score |
-|---|---:|
-| Audience pain and role specificity /20 |  |
-| Public evidence path /15 |  |
-| Market and competitive signal /15 |  |
-| Artifact and workflow utility /15 |  |
-| Tiger contribution /10 |  |
-| Reach and distribution fit /10 |  |
-| Freshness and timing /5 |  |
-| Visual and explanatory potential /5 |  |
-| Portfolio fit /5 |  |
-| **Total /100** |  |
-
-**Decision:** `build` / `reframe` / `park`
-
-## 3. Reference Mechanic Fit
-
-**Reference decision:** `Top-100 used` / `other curated-success reference used` / `not used—stronger evidence lane`
-**Primary evidence/packaging lane:** `Tiger` / `strict peer` / `decision panel` / `public pain` / `primary source` / `timely signal` / `curated success`
-**Curated-success mechanic to test:**
-**Power format:** PF1 / PF2 / PF3 / PF4 / PF5 / PF6 / PF7 / PF8 / process flow / concept metaphor
-**Closest top-100 reference files:**
-**Caption pattern to adapt:**
-**Save trigger:**
-**Audience value in one sentence:**
-**Why this is Shetty's Desk, not a generic creator:**
-
-> Do not force a Top-100 analogy. If it is not the strongest lane, mark it `not used` and build the packaging from the accepted audience problem, proof, and artifact.
-
-## 4. Research Thesis
-
-**Non-obvious thesis:**
-**Counterargument / caveat:**
-**What people get wrong:**
-**Meeting-room use:**
-
-## 5. Content Shape
-
-**Hook direction:**
-**Opening line candidate:**
-**Core explanation:**
+**Opening tension / promise:**
+**Argument sequence:**
+**Payoff timing:**
+**What the caption adds to the visual:**
 **Reusable takeaway:**
-**CTA question:**
+**Closing action or question:**
 
-## 6. Visual Argument
+## 8. Visual Argument
 
-> The reader should understand `{claim}` because the image shows `{structure}`.
+> The reader understands `{claim}` because the image shows `{relationship}`.
 
-**Primary visual structure:**
-**Reference direction:**
-**Data/labels needed:**
-**HTML control needed?** `yes` / `no`
+**Dominant object:**
+**Primary eye path:**
+**Useful object on image:**
+**Exact data / labels:**
+**Renderer:** `GPT Image 2` / `HTML-SVG` / `spreadsheet` / `document` / `website UI` / `other`
+**Why this renderer fits the direction:**
+**Caption / visual non-duplication:**
 
-## 7. AI-for-SC Only
+## 9. AI Workflow Only
 
-**Role:**
-**Recurring frustration:**
-**Input data required:**
-**Current execution surface:** Cowork / Claude Code / ChatGPT Work / Codex / Copilot agent / Workspace Studio / Gemini Enterprise / Grok Skill / Grok Build / other verified surface
+**Role and current friction:**
+**Input pack:**
+**Current verified execution surface:**
+**Reusable method:**
+**Connected context and permitted actions:**
+**Deterministic work:**
+**Validation / rejection control:**
+**Finished artifact:**
+**Human owner and system-of-record boundary:**
+**Cadence:**
 
-**Reusable unit:** skill / plugin / agent / workflow / governed instruction set
+## 10. Handoff And Learning
 
-**Connected context:** approved files / apps / connectors / MCP tools / enterprise sources
-
-**Work split:** workers / subagents / deterministic steps / scripts / tools
-
-**Control gate:** validation / restricted permission / hook / test / human checkpoint that can reject or stop unsupported output
-
-**Finished artifact package:**
-
-**Cadence:** on demand / scheduled / triggered / monitored / long-running
-
-**Boundary / human decision point:** where the AI output must be challenged, verified, or translated into the system of record
-**Caption value promise:** what the tool can actually build for the reader; do not let caveats dominate the published post
-**Research date and official sources:**
-
-**Reusable artifact:** skill contract / plugin map / agent definition / table schema / checklist / model / dashboard / meeting narrative / decision board / review pack
-
-## 8. Resource And Publish Handoff
-
-**Resource eligibility score:** `/6`
-**Resource decision:** `required` / `lightweight` / `not warranted`
-**Safe first run:**
-**Direct download:** `yes - no email/account gate`
+**Resource decision:** `full resource` / `lightweight resource` / `not warranted`
+**First-run input mode:** `public/licensed data` / `blank user input` / `no-data workflow` / `explicit labelled simulation`
+**Direct download:** `yes - no email/account gate` / `not applicable`
 **Caption status:** `draft` / `approved`
 **Visual status:** `draft` / `approved`
 **Motion status:** `pending` / `approved` / `still-only`
-**LinkedIn export:** native 4:5 / `visual-linkedin.png` required
-**Website status:** `hold` until caption + still approval
-**Substack role:** `flagship` / `note` / `derivative` / `not selected`
-**Substack source requirement:** `fresh source required for flagship` / `covered by weekly source` / `not applicable`
-**Website artifact:**
-**Measurement snapshot:** `7-day` / `30-day` / `both`
+**Website status:** `hold` / `ready` / `published`
+**Measurement checkpoints:** `24h` / `7-day` / `28-day`
+**transfer_result:** `pending` / `transferred` / `unclear` / `did_not_transfer`
+**Next adaptation:**

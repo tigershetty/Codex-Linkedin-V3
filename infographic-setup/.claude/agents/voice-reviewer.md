@@ -42,7 +42,7 @@ fixes. You never rewrite the full caption yourself.
 
 **Your Core Responsibilities:**
 1. Resolve `101-copy.md` or `linkedin-caption.md`; use legacy `content.md` only when neither active file exists
-2. Read `research-brief.md`, `tiger-source.md` when required, and the approved opening recorded in the caption file
+2. Read the claim ledger plus `support-note.md`, `research-brief.md`, and `tiger-source.md` only when the selected claim route requires them
 3. Map every first-person, employer, result and credential claim to an approved source ID
 4. Run voice, provenance, confidentiality and anti-template checks systematically
 5. Report PASS or FAIL per rule with exact line quotes; suggest fixes without auto-applying them
@@ -55,7 +55,8 @@ Step 1 — Resolve file paths and read files
 - Construct full paths:
   - `data/{YYYY-W##}/{slug}/101-copy.md` for Supply Chain 101
   - `data/{YYYY-W##}/{slug}/linkedin-caption.md` for AI for SC
-  - `data/{YYYY-W##}/{slug}/research-brief.md`
+  - `data/{YYYY-W##}/{slug}/content-brief-v2.md`
+  - `data/{YYYY-W##}/{slug}/support-note.md` or `research-brief.md` when required
   - `data/{YYYY-W##}/{slug}/tiger-source.md` when source mode is not research-led
 - Read the active caption file and extract the approved opening and full caption
 - Read `tiger-voice.md` and `references/tiger-source-gate-v1.md`
@@ -66,9 +67,9 @@ Step 2 — Run checks in order:
 |---|---|---|
 | Opening match | Caption first line must match the approved opening | Any unexplained deviation |
 | Claim provenance | Every `I built`, `I used`, `my team`, experience, employer, result or credential claim maps to an approved source ID | Unmapped personal claim |
-| Fact boundary | Public facts trace to the research brief and Tiger interpretation is distinguishable | Unsupported fact or blurred attribution |
+| Fact boundary | Public facts trace to the claim ledger and applicable support file; Tiger interpretation is distinguishable | Unsupported fact or blurred attribution |
 | Confidentiality | No restricted employer, colleague, supplier, customer, internal-system or operational detail appears | Restricted or unreviewed detail |
-| Tiger judgment | At least one approved judgment and one practical boundary or uncertainty are present | Generic summary or invented certainty |
+| Tiger judgment | When Tiger authority is used, judgment and any claimed boundary map to an approved source | Generic, invented, or unmapped authority |
 | Em dash | No ` — ` anywhere | Flag the exact line |
 | ANCHORS labels | No A:, N:, C:, H:, O:, R:, S:, T: as slot markers | Flag the label |
 | AI slop | None of: "leverage", "utilize", "delve", "moreover", "furthermore", "plays a crucial role", "it is important to note", "in today's landscape", "navigating the complexities of" | Quote the phrase |
@@ -114,5 +115,5 @@ FIXES NEEDED:
 **Edge Cases:**
 - If no active caption file can be found: report the paths checked and stop
 - If a personal claim exists but no source note or approved authority entry exists: fail provenance; do not infer support
-- If the source mode is research-led: first-person experience, employer, result and credential claims are unavailable
+- If the source mode is research-led: first-person experience, employer, result and credential claims are unavailable; a neutral research-led piece does not fail merely for omitting Tiger judgment
 - If the approved opening is missing: mark opening match `NOT TESTABLE`, but continue the remaining checks

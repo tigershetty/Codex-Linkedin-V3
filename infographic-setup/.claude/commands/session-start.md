@@ -1,22 +1,27 @@
-Check the current state of the content engine and brief me so I can pick up where I left off.
+Brief me on the current Shetty's Desk V4 state so I can continue without restarting the workflow.
 
-Do the following in order:
+Do this in order:
 
-1. **Find the current week.** List folders in `data/` and identify the most recent ISO week folder (YYYY-W##).
+1. Read `references/v4-audience-growth-operating-system.md` and
+   `references/creative-genome-recombination-engine-v1.md`.
+2. Find the most recent ISO week under `data/` and list its active slug folders.
+3. For each slug, report the furthest completed stage:
+   - signal or candidate only;
+   - `reference-query.json`;
+   - `reference-candidates.json`;
+   - `recombination-brief.md` with ten concepts and three directions;
+   - validated `reference-bundle.json`;
+   - `content-brief-v2.md` and selected claim mode;
+   - `support-note.md`, `research-brief.md`, or `tiger-source.md` when required;
+   - caption/copy and `creative-brief-lite.md`;
+   - reviewed or approved `visual.png`;
+   - motion/resource package;
+   - `analytics.md`.
+4. Flag the exact missing input or approval blocking any active slug. Do not call optional research,
+   motion, a website artifact, or a PDF incomplete unless the selected direction requires it.
+5. State which five-post weekly portfolio slots are filled, open, or intentionally unassigned.
+6. Ask which active slug or new reader opportunity to continue. Mention `/101` and `/ai-for-sc` only
+   as downstream production lanes.
 
-2. **Find active slugs.** Inside that week folder, list topic-slug subdirectories and which files exist in each.
-
-3. **Report pipeline stage per slug** (active pipelines):
-   - `101-copy.md` → Supply Chain 101 post done
-   - `ai-for-sc-[use-case-slug].md` → AI for SC post done (note its render brief / rendered visual)
-   - `analytics.md` → published and tracked
-
-4. **Flag incomplete AI for SC posts.** Any `ai-for-sc-[slug].md` where a PDF was requested but
-   `ai-for-sc-[slug]-pdf.md` is missing — call it out.
-
-5. **Ask which pipeline:** "Supply Chain 101 (`/101`) or AI for Supply Chain (`/ai-for-sc`)?"
-   Both draw from `references/master-calendar.md` (101 → `references/101-plan.md`; AI for SC → `references/ai-for-sc-plan-v2.md`).
-
-Format the output as a brief status block — week, slugs, stage, any incomplete posts.
-
-(Deep Dive is archived — its skills live in `skills-archive/deep-dive/`.)
+Keep the response compact: week, slug, selected direction, stage, blocker, and next valid action.
+Treat calendars and lane plans as candidate banks. Deep Dive remains archived.

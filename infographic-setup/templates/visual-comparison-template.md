@@ -1,83 +1,58 @@
 # Visual Comparison — Template
 
-**Week:** `{YYYY-W##}`  
-**Slug:** `{slug}`  
-**Series:** `Supply Chain 101` / `AI for Supply Chain`  
-**Date:** `{YYYY-MM-DD}`  
-**Final visual:** `visual.png`
+Use only when two surfaces or directions answer a real unresolved production decision. Do not create
+variants to satisfy a quota.
 
-## 1. Visual Move
+**Week:** `{YYYY-W##}`
+**Slug:** `{slug}`
+**Creative bundle:** `{creative_bundle_id}`
+**Selected recombination direction:** `{direction}`
+**Decision this comparison resolves:**
 
-One sentence:
+## Fixed Reader Contract
 
-> This image should make the reader see that `{claim}` by using `{visual structure}`.
+**Primary reader and work moment:**
+**3-second problem or promise:**
+**10-second insight:**
+**30-second useful action:**
+**Claim support that both candidates must preserve:**
+**Anti-copy boundary:**
+**Brand frame:** `references/brand-kits/cobalt-grid/FRAME.md`
 
-## 2. Inputs
+## Candidate A
 
-| Input | Notes |
-|---|---|
-| Research brief | `{path}` |
-| Brand frame | `references/brand-kits/cobalt-grid/FRAME.md` |
-| Structure references | `{3-5 reference paths or links}` |
-| Content source | `{101-copy.md or ai-for-sc-[slug].md}` |
+**Surface / renderer:**
+**Visual argument:**
+**Dominant object and eye path:**
+**Creative atoms visibly adapted:**
+**What this candidate makes easier to understand or use:**
+**Exactness or accessibility risk:**
+**Output path:**
 
-## 3. GPT Image 2 Lane
+## Candidate B
 
-**Prompt file:** `gpt-image-2-prompt.md`
+**Surface / renderer:**
+**Visual argument:**
+**Dominant object and eye path:**
+**Creative atoms visibly adapted:**
+**What this candidate makes easier to understand or use:**
+**Exactness or accessibility risk:**
+**Output path:**
 
-**References attached:**
-- `{reference 1}`
-- `{reference 2}`
-- `{reference 3}`
+## Decision
 
-**Generation notes:**
-- Engine: `GPT Image 2`
-- Aspect ratio: `3:4` unless the post requires otherwise
-- Result location / panel notes: `{link or note}`
+| Question | Candidate A | Candidate B |
+|---|---|---|
+| Which makes the selected argument clearer at feed size? |  |  |
+| Which preserves the useful object or action better? |  |  |
+| Which keeps text, formulas, data, and logos exact? |  |  |
+| Which feels more original while respecting the reference boundary? |  |  |
+| Which better belongs to Cobalt Grid / Shetty's Desk? |  |  |
 
-**Candidate judgment:**
+**Chosen candidate:**
+**Why it wins for this reader promise:**
+**Required fixes before review:**
+**Learning to carry forward:**
 
-| Dimension | Score 1-5 | Notes |
-|---|---:|---|
-| Reference fidelity |  |  |
-| Brand ownership |  |  |
-| Argument clarity |  |  |
-| Editorial craft |  |  |
-| Mobile legibility |  |  |
-| Data integrity |  |  |
-| Distinctiveness |  |  |
-
-## 4. HTML Control Lane
-
-**Renderer template:** `{renderer/templates/[slug]-control.html}`  
-**Rendered output:** `{renderer/out/[slug]-control.png}`  
-
-**Control purpose:**
-- `{exact numbers / layout fit / backup publish candidate / comparison only}`
-
-**Control judgment:**
-
-| Dimension | Score 1-5 | Notes |
-|---|---:|---|
-| Structure fit |  |  |
-| Exactness |  |  |
-| Brand fit |  |  |
-| Mobile legibility |  |  |
-| Publish readiness |  |  |
-
-## 5. Final Decision
-
-**Chosen lane:** `GPT Image 2` / `HTML control`
-
-**Why this wins:**
-
-`{short rationale}`
-
-**Required fixes before publish:**
-- `{fix 1}`
-- `{fix 2}`
-
-**Archive notes / reusable seed:**
-
-`{what to reuse or avoid next time}`
-
+Promote only the explicitly approved result to `visual.png`. A losing candidate remains a test of
+this execution, not evidence that its source atoms were poor creative signals.

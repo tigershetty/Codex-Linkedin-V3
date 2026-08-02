@@ -6,13 +6,42 @@
   "parentSlug": "{slug}",
   "channel": "linkedin",
   "series": "{series}",
+  "intelligence": {
+    "creative_bundle_id": null,
+    "genome_reference_ids": [],
+    "creative_element_ids": [],
+    "transfer_result": "pending"
+  },
+  "claims": {
+    "claim_mode": "pending",
+    "support_ledger": [
+      {
+        "claim_id": null,
+        "claim": null,
+        "claim_mode": null,
+        "support_source_ids": [],
+        "qualification": null,
+        "status": "pending"
+      }
+    ],
+    "public_simulation": {
+      "present": false,
+      "label": null,
+      "limitation": null
+    },
+    "internal_test_fixtures": {
+      "present": false,
+      "paths": [],
+      "excluded_from_public_proof": true
+    }
+  },
   "caption": {
     "file": "linkedin-caption.md",
     "status": "draft",
     "approvedAt": null
   },
   "voice": {
-    "sourceFile": "tiger-source.md",
+    "sourceFile": null,
     "sourceMode": "pending",
     "provenanceStatus": "pending",
     "qaStatus": "pending",
@@ -37,7 +66,7 @@
     "version": null,
     "pack": null,
     "guide": null,
-    "directDownloadNoEmail": true,
+    "directDownloadNoEmail": null,
     "validationStatus": "pending"
   },
   "website": {

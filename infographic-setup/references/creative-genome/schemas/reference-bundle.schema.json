@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shettysdesk.com/schemas/creative-genome/reference-bundle.schema.json",
+  "title": "Creative Reference Bundle",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "creative_bundle_id",
+    "query_id",
+    "content_id",
+    "snapshot_id",
+    "status",
+    "claim_mode",
+    "reader_contract",
+    "selected_direction",
+    "coherence_rationale",
+    "tiger_precedent_ids",
+    "references"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema_version": { "const": "1.0.0" },
+    "creative_bundle_id": { "type": "string", "minLength": 1 },
+    "query_id": { "type": "string" },
+    "content_id": { "type": "string" },
+    "snapshot_id": { "type": "string" },
+    "status": { "enum": ["draft", "ready"] },
+    "claim_mode": {
+      "enum": [
+        "documented_case",
+        "public_data_analysis",
+        "formula_or_method",
+        "tool_workflow",
+        "tiger_interpretation",
+        "editorial_explainer",
+        "sourced_fact",
+        "comparative_or_causal",
+        "simulation_or_hypothesis",
+        "mixed"
+      ]
+    },
+    "reader_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["problem_3s", "insight_10s", "action_30s"],
+      "properties": {
+        "problem_3s": { "type": "string" },
+        "insight_10s": { "type": "string" },
+        "action_30s": { "type": "string" }
+      }
+    },
+    "selected_direction": { "type": "string" },
+    "coherence_rationale": { "type": "string" },
+    "tiger_precedent_ids": {
+      "type": "array",
+      "maxItems": 2,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^LI-" }
+    },
+    "references": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["reference_id", "roles", "atoms", "anti_copy_boundary", "visual_claim_status", "visual_inspection_note"],
+        "properties": {
+          "reference_id": { "type": "string", "pattern": "^(LI-|TEXT-)" },
+          "roles": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "enum": ["attention", "comprehension", "utility", "bridge"] }
+          },
+          "atoms": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["creative_element_id", "atom_type", "source_mechanism", "adaptation"],
+              "properties": {
+                "creative_element_id": { "type": "string", "pattern": "^CE-" },
+                "atom_type": { "enum": ["attention", "argument", "visual", "utility", "tone", "bridge"] },
+                "source_mechanism": { "type": "string", "minLength": 1 },
+                "adaptation": { "type": "string", "minLength": 1 }
+              }
+            }
+          },
+          "anti_copy_boundary": { "type": "string" },
+          "visual_claim_status": { "enum": ["not_used", "pending_inspection", "source_visual_inspected", "genome_manual_verified"] },
+          "visual_inspection_note": { "type": ["string", "null"] }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "ready" } } },
+      "then": {
+        "properties": {
+          "creative_bundle_id": { "$ref": "#/$defs/readyId" },
+          "query_id": { "$ref": "#/$defs/readyId" },
+          "content_id": { "$ref": "#/$defs/readyId" },
+          "references": { "minItems": 2 }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "readyId": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!.*(?:^|[-_])(?:draft|placeholder|todo|tbd)(?:$|[-_])).+$"
+    }
+  }
+}

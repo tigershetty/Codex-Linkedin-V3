@@ -1,14 +1,14 @@
 # Style Guide — Learned Patterns
 
-Updated by: pattern-synthesizer agent (runs after /retrospective, requires 4+ weeks of data)
-Read by: learning-advisor agent at start of each pipeline stage
+Status: historical pattern evidence; not an active V4 authority
+Current authorities: `references/creative-genome-recombination-engine-v1.md`, `references/visual-engine-v2.md`, and `.claude/skills/analytics/SKILL.md`
 
 Last updated: 2026-06-21 — manual entry: code-render visual standard (supplier-quote)
 
 ---
 
 ## Code-Render Visual Patterns (manual, 2026-06-21)
-*Source: perfecting `renderer/templates/sc101-quote-iso-towers.html` as the new visual bar. Full detail in `references/render-pilot-workflow.md` §2b + §4 and `renderer/README.md` §6b. Applies to **101 (now code-render primary)** and AI for SC.*
+*Source: perfecting `renderer/templates/sc101-quote-iso-towers.html` as a historical code-render benchmark. Full historical detail is archived at `references/_archive/pre-creative-genome-2026-08-02/render-pilot-workflow.md`; current renderer choice follows `references/visual-engine-v2.md`.*
 
 **Design — confirmed effective**
 | Pattern | What it is | Why it works |

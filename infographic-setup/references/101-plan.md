@@ -1,16 +1,16 @@
 # Shetty's Desk — Supply Chain 101: Content Plan
 **Version**: 4 (V4 status updated 2026-07-28)
 **Used by**: `/101` skill (topic lookup)
-**Scope**: Candidate bank and historical series registry. The original 24-topic series remains historical evidence; W21–W52 supplies optional candidates. V4 no longer guarantees two conceptual posts per week or a paired theme. Use `v4-audience-growth-operating-system.md` and the weekly scorecard before production.
-**Visual**: Visual Engine v2 is now active (`visual-engine-v2.md`). GPT Image 2 is the primary creative renderer; HTML/code-render (`renderer/`, HTML→PNG) is the backup and comparison lane. Use the Cobalt Grid brand frame (`references/brand-kits/cobalt-grid/FRAME.md`) as the current brand seed. ⚠ The Gemini prompt template at the BOTTOM of this file is **DEPRECATED** legacy (old coral/cream brand, "no 3D") — do not use it.
+**Scope**: Candidate bank and historical series registry. The original 24-topic series remains historical evidence; W21–W52 supplies optional candidates. V4 no longer guarantees two conceptual posts per week or a paired theme. Use `v4-audience-growth-operating-system.md`, Creative Genome retrieval, and `creative-opportunity-selection.md` before production.
+**Visual**: Visual Engine v2.2 is active (`visual-engine-v2.md`). Choose GPT Image 2, HTML/SVG, spreadsheet, document, website UI, or another suitable surface after the creative direction is selected. Use the Cobalt Grid brand frame (`references/brand-kits/cobalt-grid/FRAME.md`). The retired Gemini template is preserved under `templates-archive/pre-creative-genome-2026-08-02/`.
 
 ---
 
 ## Series Logic
 
 Each accepted infographic stands alone while contributing to a coherent library. Sequence is useful
-context, not permission to publish: an entry proceeds only when it passes the V4 audience,
-evidence, artifact, channel, and Tiger-source gates.
+context, not permission to publish. An entry proceeds only after Creative Genome recombination has
+produced a useful reader direction and its planned claims have the support they require.
 
 **Month 1 — The Language**: Shared vocabulary. What a supply chain is, how its functions, planning layers, and production strategies relate.
 **Month 2 — The Mechanics**: How supply chains buy, hold inventory, manage cost, and move goods. The operating system.
@@ -188,52 +188,3 @@ evidence, artifact, channel, and Tiger-source gates.
 | W51 | Year review | What changed in supply chain in 2026 — and what it means for your function | What actually shifted in supply chain this year that I need to understand and adapt to? | Supply chain does not change slowly. It changes in jumps. 2026 had 3 jumps that will still matter in 2027. | 3-change visual: three event/shift boxes, each with: what changed (1 line), the SC impact (2 lines), the implication for your function (1 line). Relevant to logistics leaders, procurement leaders, and planners separately. | Open with "jumps not gradual" hook. Walk the 3 changes. Opinion: the leaders who stay ahead of supply chain shifts are not the ones who react fastest — they are the ones who build enough slack into their operations to absorb a shift without a crisis. CTA: of these 3 changes, which one affected your function most this year? |
 | W52 | Year ahead | The supply chain challenges that will define 2027 | What should I be thinking about and preparing for in my supply chain role going into next year? | The supply chain challenges of 2027 are already visible in the signals from 2026. The question is not whether they are coming — it is whether your supply chain is positioned to absorb them. | 4-challenge visual: each challenge as a panel — challenge name, the signal it is already sending, what supply chains need to have in place to respond. Keep to 4 to maintain readability. | Open with "already visible" hook. Walk the 4 challenges. Opinion: the teams that will struggle in 2027 are not the ones facing new problems — they are the ones who have not yet built the capabilities to handle the problems that were visible in 2025. CTA: of these 4, which is your supply chain least prepared for? |
 | W52 | Year ahead | How the best SC leaders are preparing their teams for the next 12 months | What are the SC leaders I respect doing right now to set their teams up for next year? | Great SC leaders do not wait for the year to start to prepare for it. They do 4 things in the last quarter that most leaders skip. | 4-action visual: (1) Capability audit — what skills does the team need in 2027 that they don't have today? (2) Risk re-score — which risks changed ranking in 2026 and what does that mean for mitigation? (3) Technology roadmap — what one tool should the team add to the stack next year? (4) Succession signal — who on the team is ready for a bigger role? | Open with "4 things most leaders skip" hook. Walk the 4 actions. Opinion: the most underdone of these 4 is the capability audit — leaders plan projects and budgets but rarely plan explicitly for the skills their team will need to execute them. CTA: of these 4, which is the one your organisation does most consistently, and which is the one nobody does? |
-
----
-
-## Gemini Prompt Template
-
-Use this template for every 101 infographic. Replace bracketed fields with topic details.
-
-```
-You are a senior infographic designer creating a single-image LinkedIn
-infographic for a supply chain thought leadership brand called Shetty's Desk.
-
-BRAND KIT:
-- Heading font: Poppins Bold 700
-- Body font: Lora Regular 400
-- Background: #FAF9F5 (warm off-white)
-- Primary accent: #D97757 (burnt orange) — emphasis, numbers, key labels
-- Secondary accent: #6A9BCC (steel blue) — secondary elements, comparison columns
-- Heading colour: #141413
-- Body colour: #3D3929
-- Card/panel background: #FFFFFF with subtle shadow
-- Divider lines: #E8E6DC
-- Design style: Visual Capitalist-inspired. Clean, data-forward, minimal
-  decoration, high information density with clear visual hierarchy.
-  No generic icons, no clip art, no gradients.
-
-FORMAT: Single image, 1080x1350px (portrait, 4:5 ratio for LinkedIn).
-This is NOT a carousel. Everything fits on ONE image.
-
-TOPIC: [INSERT TOPIC NAME]
-THE QUESTION THIS ANSWERS: [INSERT FROM TABLE]
-VISUAL STRUCTURE: [INSERT VISUAL FORMAT FROM TABLE]
-
-CONTENT RULES:
-- Maximum 60 words total on the image (excluding labels and axis text)
-- Heading: maximum 8 words, set in Poppins Bold
-- Every element must be readable at mobile phone size
-- Use whitespace to separate sections
-- Data labels and annotations preferred over paragraph text
-- Comparisons use columns or side-by-side panels, not paragraphs
-- Include small Shetty's Desk wordmark and #ShettysDeskSC in bottom margin
-- One branded accent bar (burnt orange, 4px) across top edge
-
-DO NOT:
-- Use stock photography or illustrations of people
-- Use 3D effects, shadows on text, or drop shadows on shapes
-- Use more than 3 colours from the brand kit on any single image
-- Add decorative elements that do not carry information
-- Use font sizes below 14px at final output resolution
-```

@@ -1,199 +1,55 @@
 ---
 name: analytics
-description: Use after a LinkedIn post, Substack issue, or website artifact is live. Captures standardized Day-7 and Day-30 channel metrics, updates the package analytics.md, and appends a linked snapshot to data/analytics-log.csv.
+description: Capture and interpret LinkedIn, Substack, and website performance after publication. Use for /analytics requests and performance reviews that must link outcomes to the exact Creative Genome reference bundle and elements used, preserve channel-specific metrics, and update transfer learning without downgrading saved references.
 ---
 
-# Analytics Skill — Shetty's Desk
+# Analytics
 
-## Purpose
+Record what happened to this adaptation on Tiger's channels. Do not judge the source reference itself.
 
-`data/analytics-log.csv` is the single cross-channel performance ledger for LinkedIn, Substack and website outputs. Every row is one content item on one channel at one measurement checkpoint. Related outputs share the same package slug and use explicit content IDs.
+## Identify the package
 
-This skill supports both active content pipelines and Substack/website distribution. It does not combine unlike channel outcomes into a universal score.
+1. Resolve `content_id`, channel, publication time, URL, and checkpoint.
+2. Read the exact `reference-bundle.json` used at publication.
+3. Record `creative_bundle_id`, genome snapshot, `genome_reference_ids`, Tiger precedent IDs, and
+   stable `creative_element_ids` by role: attention, comprehension, utility, and bridge.
+4. Refuse to analyze a draft bundle that differs from the published package.
 
-## Invoke
+## Capture observations
 
-```text
-/analytics [slug] [channel] [checkpoint]
-```
+Append observations at 24 hours, 7 days, and 28 days. Preserve the actual capture timestamp when late.
+Record both the assembly `transfer_result` and one `element_transfer` result per creative element.
 
-- `channel`: `linkedin`, `substack`, or `website`
-- `checkpoint`: `7` or `30`, measured as days after publication or artifact launch
-- If channel or checkpoint is omitted, infer only when one unambiguous source exists; otherwise ask.
+- LinkedIn: impressions, reach, reactions, comments, reposts, saves, sends, profile viewers, followers gained, and link/artifact actions when exposed.
+- Substack: views, recipients, opens, clicks, subscriptions, unsubscribes, comments, restacks, and referrals when exposed.
+- Website: qualified visitors, artifact starts, completions, downloads, return use, and source channel.
+- Qualitative: practitioner role, implementation question, correction, counterexample, or reported use.
 
-## Identity Contract
+Write unavailable values as blank, never zero. Keep unlike channel metrics separate.
 
-Use these identifiers before reading metrics:
+## Compare appropriately
 
-- `slug`: shared package ID linking research, five LinkedIn slots, a Substack issue and a website artifact.
-- `content_id`: stable channel item ID: `{channel}:{YYYY-W##}:{slug}:{sequence}`.
-- `linked_content_id`: the direct upstream or downstream item being tested, when applicable.
-- `experiment_id`: the weekly experiment from `templates/weekly-signal-scan-template.md`, when applicable.
+Use Tiger posts at the same channel, maturity, native format, audience job, and mechanism as the comparison set. Report raw outcomes and useful rates separately. Do not calculate or use a universal composite score.
 
-Never use a URL as the only identifier. Never merge two channel items because they share a headline.
+## Record element transfer
 
-## Sources
-
-### LinkedIn
-
-Preferred source: the private LinkedIn analytics export in `data/analytics-exports/`. Use the `PERFORMANCE` and `TOP DEMOGRAPHICS` sheets and the `Caption` sheet when present.
-
-Capture:
-
-- impressions, members reached, reactions, comments, reposts, saves and sends;
-- profile viewers and followers gained;
-- audience at publish when recorded;
-- post URL and publication date.
-
-Apify may later supply public post URL/activity ID, date, caption, format and public reactions/comments/reposts. It cannot replace private impressions, reach, saves, profile viewers, follower gain or click data.
-
-### Substack
-
-Preferred source: the publication dashboard, captured manually at the standard checkpoint.
-
-Capture:
-
-- issue views and email recipients;
-- open rate and link clicks;
-- free subscribers gained from the issue;
-- unsubscribes, comments and restacks when available;
-- subscribers at publish, issue URL and publication date.
-
-Use blank for an unavailable metric. Never convert missing values to zero.
-
-### Website
-
-Preferred source: the site's analytics and explicit artifact events.
-
-Capture:
-
-- unique visitors to the artifact page;
-- artifact downloads;
-- tool starts and tool completions;
-- launch URL and launch date.
-
-An event counts only when its definition is stable. Page views are not downloads; downloads are not completed use.
-
-## Standard Checkpoints
-
-- **Day 7:** first comparison point for distribution and initial conversion.
-- **Day 30:** durable reach, repeat discovery and downstream use.
-
-Set `captured_at` to the actual capture timestamp and `snapshot_day` to `7` or `30`. If captured late, preserve the actual timestamp and note the variance. Compare content only at the same checkpoint and within the same channel and format unless the analysis explicitly says otherwise.
-
-## Cross-Channel Ledger Schema
-
-The current CSV begins with a legacy LinkedIn schema. On the first cross-channel append, migrate it to the following superset without deleting or reordering existing rows. Preserve every existing column and value; backfill new fields as blank, except `channel=linkedin` for identifiable historical LinkedIn rows.
-
-### Existing fields retained
+For each published element, append one transfer observation:
 
 ```text
-week,slug,post_date,post_url,impressions,members_reached,reactions,comments,
-reposts,saves,profile_viewers,followers_gained,engagement_rate,save_rate,
-follower_conversion,composite_score,content_type,hook_type,caption_preview
+element_id | role | adaptation | observed outcome | comparison | transfer status | next change
 ```
 
-### Fields appended
+Use `pending`, `transferred`, `unclear`, or `did_not_transfer` as the transfer status. Apply the status only to this Shetty's Desk adaptation.
 
-```text
-channel,content_id,linked_content_id,experiment_id,snapshot_day,captured_at,
-audience_at_publish,sends,substack_views,email_recipients,open_rate,link_clicks,
-free_subscribers_gained,unsubscribes,restacks,unique_visitors,
-artifact_downloads,tool_starts,tool_completions,click_rate,
-subscriber_conversion,artifact_conversion,tool_completion_rate,notes
-```
+Never change `saved_by_tiger`, `positive_creative_signal`, or the source reference's creative status because our post underperformed. A weak result means the chosen combination, translation, audience match, execution, or distribution did not transfer as intended.
 
-Field definitions:
+## Update files
 
-| Field | Definition |
-|---|---|
-| `slug` | Shared package ID; retained for backward compatibility. |
-| `content_id` | Unique channel item ID. |
-| `linked_content_id` | Directly linked item whose flow is being tested. |
-| `snapshot_day` | Standard checkpoint: 7 or 30. |
-| `captured_at` | Actual ISO timestamp of metric capture. |
-| `audience_at_publish` | LinkedIn followers or Substack subscribers at publication; blank for website. |
-| `substack_views` | Views reported for the issue. |
-| `email_recipients` | Delivered/eligible email recipients reported for the issue. |
-| `link_clicks` | Issue link clicks; do not infer website visits from this field. |
-| `unique_visitors` | Unique visitors to the website artifact page. |
-| `artifact_downloads` | Confirmed artifact-download events. |
-| `tool_starts` | Confirmed starts of an interactive workflow. |
-| `tool_completions` | Confirmed successful completions of that workflow. |
+1. Append the channel snapshot to `data/analytics-log.csv` without overwriting an existing content/checkpoint row.
+2. Update `data/{week}/{slug}/analytics.md` with metrics, comparison set, element transfer, practitioner signals, and one next action.
+3. Update the Creative Genome learning index only through bundle and element IDs.
+4. Preserve prior snapshots and corrections as an audit trail.
 
-`post_date` and `post_url` remain the publication/launch date and URL for all channels despite their legacy names.
+## Report
 
-## Derived Metrics
-
-Calculate only when the denominator is available and greater than zero; otherwise leave blank.
-
-```text
-LinkedIn engagement rate = (reactions + comments + reposts + saves + sends) / impressions
-LinkedIn save rate = saves / members_reached
-LinkedIn follower conversion = followers_gained / members_reached
-Substack click rate = link_clicks / email_recipients
-Substack subscriber conversion = free_subscribers_gained / substack_views
-Website artifact conversion = artifact_downloads / unique_visitors
-Website tool completion rate = tool_completions / tool_starts
-```
-
-Store rates consistently as percentages, matching the existing ledger convention.
-
-`composite_score` is a historical compatibility field only. Leave it blank for new snapshots. It must never rank topics, select formats, compare channels, or act as a production gate.
-
-## Per-Package Analytics File
-
-Update, rather than overwrite, `data/{YYYY-W##}/{slug}/analytics.md`.
-
-Use one section per content item and checkpoint:
-
-```markdown
-## {channel} — {content_id} — Day {snapshot_day}
-
-- Captured: {captured_at}
-- Published: {post_date}
-- URL: {post_url}
-- Linked item: {linked_content_id or none}
-- Experiment: {experiment_id or none}
-
-| Metric | Value |
-|---|---:|
-| ... | ... |
-
-### Interpretation
-- What happened:
-- What the metric can support:
-- What it cannot support:
-- What to repeat, stop, or test next:
-```
-
-Keep the final published caption or issue title as compact context. Do not copy a full Substack article into the analytics file.
-
-## Append Rules
-
-1. Read the current CSV header and all existing rows.
-2. If the appended fields are absent, perform a one-time superset migration while preserving all existing data.
-3. Reject an append when the tuple `(content_id, snapshot_day)` already exists unless the user explicitly requests a correction.
-4. Write unavailable values as blank, never zero.
-5. Preserve source precision; do not estimate missing private metrics from public interactions.
-6. Append the new row, then verify column count, row count and the written identifiers.
-
-## Decision Rules
-
-- Compare LinkedIn posts against Tiger's recent LinkedIn baseline at the same age and format.
-- Compare Substack issues against prior Substack issues at the same checkpoint.
-- Compare website artifacts by the same event definitions and observation window.
-- Use cross-channel linkage to ask whether discovery produced deeper reading or artifact use; do not add the metrics together.
-- A single outlier generates a hypothesis, not a permanent rule.
-- Record one next action tied to the weekly experiment.
-
-## Confirm
-
-```text
-Analytics logged — {content_id} / Day {snapshot_day}
-analytics.md updated · analytics-log.csv verified
-Primary channel signal: {metric} = {value}
-Next test: {one action}
-```
-
-Do not report or celebrate `composite_score`.
+Return the primary channel outcome, the strongest practitioner signal, which bundle elements transferred or need adaptation, and the next change. Avoid causal claims that the observed data cannot support, but do not reopen whether the saved references were worth saving.

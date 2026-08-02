@@ -1,19 +1,22 @@
 # Publish And Resource Handoff v1
 
-**Version:** 2.0
-**Date:** 2026-07-28
+**Version:** 2.1
+**Date:** 2026-08-02
 **Status:** Active final-stage workflow for Supply Chain 101 and AI for Supply Chain
 
 ## Purpose
 
 The post folder is the creative source of truth. The website is a publication surface, not a place to infer missing approvals.
 
-The final handoff runs only after the Tiger source, voice, still, and caption have each cleared their explicit approval gates.
+The final handoff runs only after the required provenance, voice, still, and caption gates have
+cleared. Record `not required` when a research-led piece uses no Tiger authority or when the selected
+claim mode needs no separate research file.
 
 ## Status Sequence
 
 ```text
-Tiger source captured -> research complete -> draft -> provenance QA
+creative bundle assigned -> claim contract complete -> required support/source complete or not required
+      -> draft -> provenance QA
       -> Tiger voice approved -> caption approved
       -> still approved -> motion complete or still-only
       -> resource complete or not warranted -> website ready
@@ -40,11 +43,24 @@ node scripts/audit-publish-handoff.mjs data/{week}/{slug} --ready
 
 Hard rules:
 
-- New post folders contain `tiger-source.md` from `templates/tiger-source-note-template.md`.
+- New post folders contain `tiger-source.md` only when personal judgment, experience, result,
+  employer context, or first-person authority is used.
+- Every new manifest records a non-empty `creative_bundle_id`, its `genome_reference_ids`,
+  `creative_element_ids`, a
+  `claim_mode`, a `support_ledger`, and a `transfer_result` state.
+- The creative bundle is the accepted packaging input. The `support_ledger` governs factual,
+  numerical, causal, company-outcome, simulation, and first-person claims separately.
 - For schema-version-2 handoffs, `voice.provenanceStatus`, `voice.qaStatus`, and `voice.status` must all be `approved` before the website can become `ready`.
 - Record `voice.aiDisclosure` as `profile/footer`, `post-level`, or `not-required`; never leave the disclosure decision implicit.
 - Every first-person experience, result, credential, team-practice, and employer claim maps to an approved source ID.
-- Public facts remain traceable to `research-brief.md`; research must not be rewritten as Tiger's lived experience.
+- Public facts and numbers remain traceable to the support ledger, `support-note.md`, or
+  `research-brief.md` as required; company-outcome and causal
+  claims carry the stronger support required by those claim modes; research must not be
+  rewritten as Tiger's lived experience.
+- A public simulation is allowed only when `claim_mode` is `simulation_or_hypothesis` or `mixed`, the
+  caption and visual label it clearly, and the support ledger states what it does not prove.
+- Internal calculation or software fixtures are allowed, but their paths are recorded separately
+  and `excluded_from_public_proof` remains `true`.
 - Restricted workplace detail requires explicit public-use approval.
 - `caption.status` remains `draft` until the user confirms the final text.
 - `visual.status` remains `draft` until the user approves the exact canonical still.
@@ -54,36 +70,33 @@ Hard rules:
 - Use MP4 for website motion when available; retain GIF for LinkedIn.
 - Work in the website repo on a `codex/*` branch, verify desktop/mobile, and use Vercel preview before production.
 
-## AI-for-SC Resource Eligibility
+## Resource Decision
 
-Score one point for each:
+Build a resource only when the destination adds material utility beyond the LinkedIn post. Decide
+with these questions, without a numeric threshold:
 
-1. reusable method, skill, workflow, or decision policy;
-2. safe synthetic input pack;
-3. deterministic script, schema, checklist, or validator;
-4. three or more reviewable outputs;
-5. useful beginner first run without production access;
-6. explicit failure modes and human decision boundary.
+1. What real task can the reader complete or inspect with it?
+2. Does a downloadable or interactive surface improve that task beyond the on-platform explanation?
+3. Can the first use begin safely with public/licensed inputs, blank reader input, an explicitly
+   labelled simulation, or no data?
+4. What validation and human decision boundary does the task require?
+5. What is the smallest useful package: a one-page reference, template, workbook, calculator,
+   workflow pack, dashboard, or interactive tool?
 
-Decision:
-
-- `4-6`: resource required;
-- `2-3`: lightweight template/checklist only;
-- `0-1`: not warranted.
-
-Record the result in `resource-plan.md`.
+Record `full resource`, `lightweight resource`, or `not warranted` with the reason in
+`resource-plan.md`. A post does not fail because no resource is warranted.
 
 ## Resource Standard
 
-An eligible pack contains:
+An eligible pack contains only what its reader job requires, including:
 
 - direct ZIP download with no email, account, or newsletter gate;
-- a four-page branded field guide by default;
-- one safe first-run command or equivalent;
-- synthetic inputs and completed examples;
-- reusable instructions or skill assets;
-- deterministic checks and a validation checklist;
-- `MANIFEST.json`, version notes, checksums, limitations, and the human decision boundary.
+- a concise explanation or field guide sized to the task;
+- one safe first use or equivalent;
+- public or licensed inputs, a blank user-input mode, or an explicitly labelled simulation when simulation itself is the chosen content mode;
+- reusable instructions or working assets when they add value;
+- the checks and validation appropriate to the method;
+- version, limitations, provenance, and the human decision boundary in a form proportionate to the package.
 
 The website resource page should demonstrate the method before the download button, state what is inside, and name the first safe run.
 
@@ -91,7 +104,8 @@ The website resource page should demonstrate the method before the download butt
 
 ### Substack
 
-- stable AI-use transparency appears in the Substack About page or publication footer, with post-level disclosure where synthetic or materially AI-generated elements could be misunderstood.
+- stable AI-use transparency appears in the Substack About page or publication footer, with
+  post-level disclosure where an explicit simulation or materially AI-generated element could be misunderstood.
 
 ### Website
 

@@ -1,62 +1,50 @@
 ---
-name: feedback-capture
-description: Use when Tiger approves a visual, rejects one, or finishes posting for the week.
-  Captures qualitative feedback into memory/feedback-log.md. Works for both active pipelines
-  (Supply Chain 101 and AI for Supply Chain). Invoked with /feedback [slug] [notes].
+name: feedback
+description: Capture Tiger's qualitative judgment after a caption, visual, artifact, or published package is approved, revised, or rejected. Use for /feedback requests to attach exact feedback to Creative Genome bundle and element IDs and turn it into a concrete adaptation instruction.
 ---
 
-# Feedback Capture Skill — Shetty's Desk
+# Feedback
 
-## Purpose
-Record what worked and what didn't for each post, so the learning layer has qualitative input.
-Writes a structured entry to `memory/feedback-log.md`. Run it within 24 hours of approving a
-visual or publishing a post.
+Record Tiger's judgment as first-party learning about the current adaptation.
 
-## Invoke
-```
-/feedback [topic-slug] [optional: brief notes in quotes]
-```
-Example:
-```
-/feedback rfq-with-claude "hero number landed, caption opening too long"
-```
+## Resolve context
 
-## What This Skill Does
+1. Find the slug and published or reviewed asset.
+2. Read `reference-bundle.json` and identify the relevant hook, visual, explanation, save, and artifact element IDs.
+3. Read existing feedback before appending. Never overwrite Tiger's earlier words.
 
-**Step 1: Read context**
-- Read `memory/feedback-log.md` to get the current schema.
-- Find the post file: `data/*/{slug}/101-copy.md` or `data/*/{slug}/ai-for-sc-{slug}.md`.
-  - Which file it is sets the **content type** (101 vs AI for SC).
-  - Read the **hook type** ("## Selected Hook" → "**Type**:").
-  - Read the **visual**: for 101 = the ChatGPT (GPT Image 2) prompt; for AI for SC = the
-    code-render template named in the header / Render Brief (`renderer/templates/...`).
+## Capture the feedback
 
-**Step 2: Ask Tiger three rapid questions (one at a time)**
-1. "Visual quality — World-class / Approved / Needed iteration / Rejected?"
-   (the rendered infographic — GPT Image 2 for 101, code-render for AI for SC)
-2. "Caption quality — Strong / Weak opening / Missing context / Needs rewrite?"
-3. "Anything specific to note for next week? (enter to skip)"
+Use notes already supplied by Tiger. Ask only for missing information that changes the learning:
 
-**Step 3: Write the feedback entry**
+1. What worked or felt worth keeping?
+2. What felt confusing, generic, excessive, off-voice, or unusable?
+3. Which exact change should the next adaptation make?
+
+Do not ask Tiger to classify a hook taxonomy or assign a universal score.
+
+## Write the entry
 
 Append to `memory/feedback-log.md`:
+
+```markdown
+## {date} — {content_id}
+
+- Creative bundle: {creative_bundle_id}
+- Genome references: {genome_reference_ids}
+- Creative elements: {creative_element_ids}
+- Asset and status: {caption|visual|artifact|package} / {approved|revise|rejected}
+- Element IDs reviewed: {ids}
+- Tiger's exact feedback: {verbatim}
+- Keep: {specific mechanism}
+- Change: {specific adaptation}
+- Next-use instruction: {one executable instruction}
 ```
-## [YYYY-W##] — [slug]  ([101 | AI for SC])
 
-**Date logged**: [today]
-**Hook type used**: [from the post file]
-**Visual**: [101: GPT Image 2 prompt | AI for SC: code-render template name]
-**Visual quality**: [answer from Step 2]
-**Caption quality**: [answer from Step 2]
-**Tiger's notes**: [answer from Step 2, or "none"]
+Record which element the instruction applies to. Separate Tiger's exact words from Codex's interpretation.
 
-**What worked**: [infer from visual quality + notes]
-**What to change**: [infer from caption quality + notes]
-**Advisory for next week**: [one suggestion based on the pattern]
-```
+## Preserve source status
 
-**Step 4: Confirm**
-Output: "Feedback logged for [slug] → memory/feedback-log.md updated. [N] entries in log."
+Apply approval or rejection to this output and its adaptation. Never invalidate or downgrade the saved reference. If Tiger rejects the borrowed mechanism itself, record `do_not_reuse_for_shettys_desk` on the element-learning layer while preserving its positive saved signal.
 
-## Token Budget
-~500 tokens. Reads 2 files, writes one append. Fast.
+Confirm the file, content ID, bundle ID, element IDs, and appended instruction.

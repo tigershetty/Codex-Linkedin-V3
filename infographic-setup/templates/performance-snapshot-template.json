@@ -1,0 +1,30 @@
+{
+  "$schema": "../references/creative-genome/schemas/performance-snapshot.schema.json",
+  "schema_version": "1.0.0",
+  "content_id": "",
+  "channel": "linkedin",
+  "checkpoint": "day7",
+  "captured_at": null,
+  "creative_bundle_id": "",
+  "genome_reference_ids": [],
+  "creative_element_ids": [],
+  "element_transfer": [],
+  "content_mode": "",
+  "claim_mode": "",
+  "artifact_type": null,
+  "metrics": {
+    "impressions": null,
+    "members_reached": null,
+    "reactions": null,
+    "comments": null,
+    "reposts": null,
+    "saves": null,
+    "sends": null,
+    "followers_gained": null,
+    "artifact_starts": null,
+    "artifact_completions": null
+  },
+  "transfer_result": "pending",
+  "next_adaptation": "",
+  "notes": ""
+}

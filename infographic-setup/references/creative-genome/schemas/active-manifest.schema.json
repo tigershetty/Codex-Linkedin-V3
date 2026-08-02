@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shettysdesk.com/schemas/creative-genome/active-manifest.schema.json",
+  "title": "Creative Genome Active Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "snapshot", "counts", "source", "build_contract"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "snapshot": {
+      "type": "object",
+      "required": ["id", "path", "record_schema", "sha256"],
+      "properties": {
+        "id": { "type": "string" },
+        "path": { "type": "string" },
+        "record_schema": { "type": "string" },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "required": ["creative_posts", "saved_positive_signals", "tiger_performance_records", "top100_curated_records", "top100_local_asset_links", "manual_verified_visuals"],
+      "properties": {
+        "creative_posts": { "type": "integer", "minimum": 0 },
+        "saved_positive_signals": { "type": "integer", "minimum": 0 },
+        "tiger_performance_records": { "type": "integer", "minimum": 0 },
+        "top100_curated_records": { "type": "integer", "minimum": 0 },
+        "top100_local_asset_links": { "type": "integer", "minimum": 0 },
+        "manual_verified_visuals": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "source": { "type": "object" },
+    "build_contract": { "type": "object" }
+  }
+}

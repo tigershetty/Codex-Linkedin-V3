@@ -8,6 +8,16 @@
 
 **Gate status:** `captured` / `extracted` / `public-use approved` / `provenance passed` / `voice approved`
 
+**claim_mode:** `editorial_explainer` / `formula_or_method` / `sourced_fact` / `documented_case` / `public_data_analysis` / `tool_workflow` / `tiger_interpretation` / `comparative_or_causal` / `simulation_or_hypothesis` / `mixed`
+
+**creative_bundle_id:** `CB-{YYYY-W##}-{##}`
+
+**genome_reference_ids:** `{curated reference IDs}`
+
+**creative_element_ids:** `{CE-* IDs from the accepted bundle}`
+
+**transfer_result:** `pending` / `transferred` / `unclear` / `did_not_transfer`
+
 ## 1. Raw Input Provenance
 
 **Source ID:** `TS-{YYYYMMDD}-{##}`
@@ -62,6 +72,12 @@
 |---|---|---|
 |  |  | quote / paraphrase / judgment / hypothesis / public fact |
 
+### `support_ledger`
+
+| Claim ID | Draft claim | claim_mode | Support / source ID | Qualification | Status |
+|---|---|---|---|---|---|
+| `CL-01` |  |  |  |  | pending / supported / remove |
+
 **Tiger-approved stance:**
 
 **Tiger-approved uncertainty or failure boundary:**
@@ -72,7 +88,15 @@
 
 **AI assisted with:** source discovery / evidence extraction / calculation / artifact build / structure / editing / visual generation / other
 
-**Synthetic or simulated material present:** yes / no
+**Public simulation mode:** not used / explicit and labelled
+
+**Public simulation label and limitation:**
+
+**Internal calculation or software fixtures present:** yes / no
+
+**Internal fixture paths:**
+
+**Internal fixtures excluded from public proof:** yes
 
 **Post-level disclosure required:** yes / no
 

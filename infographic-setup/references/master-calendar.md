@@ -25,17 +25,19 @@ There are **two kinds of "week"** and keeping them separate is what stops the dr
 
 ## How to run a week (the weekly loop)
 
-Each V4 week is a **five-post evidence-led portfolio**. This calendar supplies candidates; the
-weekly signal scan and scorecard decide which five ideas, series, and channel roles earn work.
+Each V4 week is a **five-post audience-learning portfolio**. This calendar supplies candidates; the
+weekly signal scan and creative opportunity selection decide which five ideas, series, and channel
+roles earn work.
 
 ```
 1. Open this file and the other candidate banks for possible problems and slugs.
 2. Run `templates/weekly-signal-scan-template.md`; include Tiger, peer, public-pain, primary-source, Substack, and timely lanes as relevant.
-3. Score candidates with `references/topic-selection-scorecard.md`; select five LinkedIn posts as one portfolio and declare one experiment variable.
-4. Use Top-100 only when it materially improves packaging. Otherwise record the stronger evidence lane and proceed without it.
-5. Apply the Tiger source gate, research brief, and then the appropriate `/101` or `/ai-for-sc` production lane.
+3. Use `references/creative-opportunity-selection.md`; retrieve saved-post mechanics and develop creative range before narrowing the five-post portfolio.
+4. Build a Creative Genome bundle for every selected major post. Top-100 assets are a richer subset of the complete saved library, not an optional decoration step.
+5. Select the claim mode, apply proportionate support and the Tiger source gate where required, then
+   use the appropriate `/101` or `/ai-for-sc` production lane.
 6. Build and audit the still/motion/resource package under the existing production rules.
-7. Publish only after explicit approval; record Day-7 and Day-30 channel-specific outcomes.
+7. Publish only after explicit approval; record 24-hour, Day-7, and Day-28 channel-specific outcomes.
 ```
 
 > **The sequence is no longer the contract.** Dates and rows are planning aids. V4 evidence and
@@ -78,7 +80,9 @@ Legend: ☐ to do · ◐ drafted · ✅ posted
 
 > **RW01 101 refresh (2026-06-21):** Compare-quotes + Funnel were published first; the 101 pair was then refreshed with two genuinely-different, sourced procurement topics built on the new research-first standard — **Kraljic matrix** (Ep35) and **Make-vs-buy** (Ep36). All four RW01 cards now use **Logo 2**; the AISC pair (Ep05/Ep06) was rebuilt with new visual models + the research engine. See each slug's `research-brief.md`.
 
-> **RW03 source rebuild (2026-06-30):** The supplier-performance week now has a weekly signal scan and scored content briefs under `data/2026-W28/`. Use `_editorial/weekly-signal-scan.md` + each slug's `content-brief-v2.md` before research or visual work.
+> **Historical RW03 note (2026-06-30):** The supplier-performance week used scored content briefs
+> under `data/2026-W28/`. Preserve those files as historical execution evidence; new work uses the
+> Creative Genome, recombination brief, and claim-proportionate support.
 
 ---
 
@@ -113,11 +117,10 @@ The content banks run through PW52. Same loop, same mapping (RW## → PW = RW+22
 ## Pointers
 - **101 topics** → `references/101-plan.md` (Monthly Theme Model section, keyed by Plan Week)
 - **AI for SC use cases** → `references/ai-for-sc-plan-v2.md` (keyed by Plan Week, Episode Index at the bottom)
-- **Audience + topic gate** → `references/audience-intelligence.md` · `references/topic-selection-scorecard.md` · `references/top100-reference-intelligence.md`
-- **Calendar-to-reference map** → `references/calendar-reference-adaptation-map-v1.md`
-- **Creative QA engine** → `references/creative-engine-v3-lean.md`
-- **Audit / rebuild rationale** → `references/content-engine-audit-v1.md`
-- **RW03-RW12 rebuild layer** → `references/editorial-rebuild-next-12-weeks.md`
+- **Audience + opportunity selection** → `references/audience-intelligence.md` · `references/creative-opportunity-selection.md`
+- **Creative Genome + recombination** → `references/creative-genome-recombination-engine-v1.md`
+- **Creative production QA** → `references/creative-engine-v4-recombination.md`
+- **Historical audit and fixed calendar maps** → `references/_archive/pre-creative-genome-2026-08-02/`
 - **Trackers** → `data/101-series-tracker.md` · `data/ai-for-sc-series-tracker.md`
 - **Voice** → `tiger-voice.md` (root) + `references/101-voice.md` + `references/published-voice.md`
 - **Render** → `visual-engine-v2.md` (GPT Image 2 primary + HTML control lane) · `renderer/README.md` (code-render backup/control) · HyperFrames skills (`/motion-graphics`) when motion is needed

@@ -1,0 +1,27 @@
+{
+  "$schema": "../references/creative-genome/schemas/reference-query.schema.json",
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "query_id": "RQ-DRAFT",
+  "content_id": "",
+  "reader_decision": "",
+  "care_statement": "",
+  "audience_terms": [],
+  "topic_terms": [],
+  "content_modes": [],
+  "hook_types": [],
+  "visual_structures": [],
+  "artifact_types": [],
+  "ctas": [],
+  "excluded_patterns": [],
+  "source_preferences": [
+    "saved_positive",
+    "top100_curated_reference"
+  ],
+  "eligible_creative_signals": [
+    "saved_positive",
+    "top100_curated_reference"
+  ],
+  "limit": 12,
+  "tiger_precedent_limit": 5
+}

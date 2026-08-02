@@ -1,7 +1,7 @@
 ---
 name: content-types-map
 description: Master reference for the content pipelines — when to use each, voice register, visual tool, outputs
-updated: 2026-07-28
+updated: 2026-08-02
 ---
 
 # Content Types Map — Shetty's Desk
@@ -16,8 +16,8 @@ posts before assigning a production lane; the old seven-month calendar is a cand
 
 **What:** Educational lane for accepted supply-chain decisions and foundations in plain language. Its weekly allocation is evidence-led, not fixed.
 **Audience:** experts AND non-practitioners.
-**Pipeline:** after V4 topic, evidence, and Tiger-source gates, `/101 [topic]` → openings + caption + visual package.
-**Visual:** **Visual Engine v2** — GPT Image 2 primary; use Cobalt Grid + selected reference images for style intelligence.
+**Pipeline:** Creative Genome retrieval → ten concepts → three developed directions → selected content and claim mode → `/101 [topic]`.
+**Visual:** **Visual Engine v2.2** — select GPT Image 2, HTML/SVG, spreadsheet, document, or website UI after the creative direction.
 **Voice:** plain language, metaphor-led, series framing. `references/101-voice.md` + `tiger-voice.md`.
 **Topic source:** `references/101-plan.md`. **Tracker:** `data/101-series-tracker.md`. **Output:** `101-copy.md`.
 
@@ -27,15 +27,16 @@ posts before assigning a production lane; the old seven-month calendar is a cand
 
 **What:** Practical AI use cases for specific SC roles. Its weekly allocation and theme are evidence-led, not fixed.
 **Audience:** any SC role — the role is set by the use case (purchaser, planner, logistics coordinator, etc.).
-**Pipeline:** after V4 topic, evidence, and Tiger-source gates, `/ai-for-sc [week] [use-case-slug]` → openings + caption + visual/resource decision.
-**Visual:** **Visual Engine v2** — GPT Image 2 primary for stills; code-render (`renderer/`) for deterministic HTML→PNG/GIF/MP4 backup, exact-data controls, and motion-ready layouts.
+**Pipeline:** Creative Genome retrieval → ten concepts → three developed directions → selected workflow and claim mode → `/ai-for-sc [week] [use-case-slug]`.
+**Visual:** **Visual Engine v2.2** — choose the renderer after the argument; use deterministic surfaces when exact data, text, or interaction carries the value.
 **Voice:** practical, copy-paste ready. Loads `tiger-voice.md` + `references/published-voice.md` + `references/101-voice.md`.
-**Use-case source:** `references/ai-for-sc-plan-v2.md`. **Visual references:** `references/visual-engine-v2.md` + `references/ai-for-sc-visual-dna.md` + `references/ai-for-sc-creative-intelligence.md` + `references/render-pilot-workflow.md`.
+**Use-case source:** `references/ai-for-sc-plan-v2.md`. **Creative source:** `references/creative-genome-recombination-engine-v1.md`. **Visual workflow:** `references/visual-engine-v2.md`.
 **Tracker:** `data/ai-for-sc-series-tracker.md`. **Output:** `ai-for-sc-[use-case-slug].md` (+ `-pdf.md` if requested).
 
-**Non-negotiables:** hook names role + current limitation (real tool) + AI unlock; every post captures the
-boundary / human decision point in the brief; the published caption leads with the tool artifact and workflow value;
-when multiple AI-for-SC posts enter one portfolio, vary role, decision, evidence, and tool where that improves audience value.
+**Non-negotiables:** make the role, work moment, input, output, validation, and human owner legible
+somewhere in the package. Let the selected Creative Genome direction decide whether the opening leads
+with the problem, distinction, workflow, artifact, case, or current product change. When multiple
+AI-for-SC posts enter one portfolio, vary role and decision where that improves audience value.
 
 ---
 
@@ -53,6 +54,15 @@ deep-dive-only references) is archived under `skills-archive/deep-dive/`. Voice 
 | Master voice | `tiger-voice.md` (workspace root) | Writing style, tone, what to reject — all content |
 | Master calendar | `references/master-calendar.md` | 7-month theme calendar, both active series aligned |
 | Data folder | `data/{week}/{slug}/` | All output by week and slug |
+
+Every active content package also records:
+
+- `creative_bundle_id`, `genome_reference_ids`, and `creative_element_ids` for the accepted hook, promise, structure, visual,
+  save-trigger, and CTA mechanics being adapted;
+- `claim_mode` and a `support_ledger` whose burden matches each load-bearing claim;
+- `transfer_result` after the matched Tiger performance and artifact-use checkpoint;
+- any explicit public `simulation` as a visibly labelled content mode, never a default example;
+- internal test fixtures separately, with an explicit exclusion from public proof.
 
 ## Decision Tree
 ```

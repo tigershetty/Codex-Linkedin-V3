@@ -1,6 +1,13 @@
 #!/usr/bin/env node
-import { existsSync, readFileSync, writeFileSync } from 'fs';
-import { basename, join, resolve } from 'path';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import { basename, join, resolve } from 'node:path';
+import {
+  MANIFEST_RELATIVE_PATH,
+  SETUP_ROOT,
+  readJson,
+  sha256,
+  stableStringify,
+} from './lib/creative-genome.mjs';
 
 const folder = process.argv[2];
 const writeReport = process.argv.includes('--write');
@@ -22,39 +29,231 @@ function has(name) {
 }
 
 function read(name) {
-  return readFileSync(file(name), 'utf8');
+  return has(name) ? readFileSync(file(name), 'utf8') : '';
 }
 
 function field(markdown, label) {
+  if (!markdown) return '';
   const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const re = new RegExp(`^\\*\\*${escaped}:\\*\\*\\s*(.*)$`, 'm');
-  const match = markdown.match(re);
+  const match = markdown.match(new RegExp(`^\\*\\*${escaped}:?\\*\\*\\s*(.*)$`, 'm'));
   return match ? match[1].trim() : '';
 }
 
-function wordCount(value) {
-  return (value.match(/[A-Za-z0-9]+/g) || []).length;
+function first(...values) {
+  return values.find((value) => String(value ?? '').trim()) ?? '';
 }
 
-function hasAny(value, words) {
-  const text = value.toLowerCase();
-  return words.some((word) => text.includes(word));
+function plain(value) {
+  return String(value ?? '').replace(/`/g, '').trim();
 }
 
-function countRefs(value) {
-  return new Set((value.match(/\b\d{1,3}\b/g) || []).map(Number)).size;
+function isFilled(value) {
+  const text = String(value ?? '').trim();
+  const unquoted = text.replace(/`/g, '').trim();
+  return Boolean(unquoted)
+    && !/^\{[^}]+\}$/.test(unquoted)
+    && !/`[^`]+`\s*\/\s*`[^`]+`/.test(text)
+    && !/^(todo|tbd|not declared|draft \/ ready)$/i.test(unquoted);
 }
 
-function scoreDimension(name, checks) {
-  const earned = checks.reduce((sum, check) => sum + (check.pass ? check.points : 0), 0);
-  const possible = checks.reduce((sum, check) => sum + check.points, 0);
-  const score = Math.round((earned / possible) * 20);
-  return {
-    name,
-    score,
-    checks,
-    misses: checks.filter((check) => !check.pass).map((check) => check.fix),
+function allFilled(values) {
+  return values.every(isFilled);
+}
+
+function parseJson(name) {
+  if (!has(name)) return { value: null, error: '' };
+  try {
+    return { value: JSON.parse(read(name)), error: '' };
+  } catch (error) {
+    return { value: null, error: error.message };
+  }
+}
+
+function conceptBoardStatus(markdown) {
+  const section = markdown.match(/## Ten Concepts[\s\S]*?\n(.*?)(?=\n## Three Developed Directions|$)/s)?.[1] ?? '';
+  const rows = new Map();
+  for (const line of section.split('\n')) {
+    if (!/^\|\s*\d{1,2}\s*\|/.test(line)) continue;
+    const cells = line.split('|').slice(1, -1).map((cell) => cell.trim());
+    const index = Number(cells[0]);
+    if (index < 1 || index > 10 || rows.has(index)) continue;
+    rows.set(index, cells.slice(1, 7));
+  }
+  const complete = rows.size === 10
+    && Array.from({ length: 10 }, (_, index) => rows.has(index + 1)).every(Boolean)
+    && [...rows.values()].every((cells) => cells.length === 6 && cells.every(isFilled));
+  const signatures = new Set(
+    [...rows.values()].map((cells) => `${plain(cells[2]).toLowerCase()}|${plain(cells[5]).toLowerCase()}`),
+  );
+  return { complete: complete && signatures.size >= 3, signatures: signatures.size };
+}
+
+function directionValues(markdown, letter) {
+  const section = markdown.match(new RegExp(`### Direction ${letter}\\n([\\s\\S]*?)(?=\\n### Direction [A-C]|\\n## Selection|$)`))?.[1] ?? '';
+  const required = [
+    'Concept',
+    'Reader promise',
+    'Opening',
+    'Visual object and eye path',
+    'Useful object',
+    'Caption arc',
+    'Bridge',
+    'Claim modes and support route',
+    'Why it is original',
+  ];
+  return Object.fromEntries(required.map((label) => {
+    const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return [label, section.match(new RegExp(`^- ${escaped}:\\s*(.*)$`, 'm'))?.[1] ?? ''];
+  }));
+}
+
+function directionComplete(markdown, letter) {
+  return Object.values(directionValues(markdown, letter)).every(isFilled);
+}
+
+function directionSignatureCount(markdown) {
+  return new Set(['A', 'B', 'C'].map((letter) => {
+    const values = directionValues(markdown, letter);
+    return [
+      values['Visual object and eye path'],
+      values['Useful object'],
+      values.Bridge,
+      values.Opening,
+    ].map((value) => plain(value).toLowerCase()).join('|');
+  })).size;
+}
+
+function bundleShapeReady(bundle) {
+  if (!bundle || bundle.status !== 'ready') return false;
+  if (!isFilled(first(bundle.creative_bundle_id, bundle.bundle_id)) || !isFilled(bundle.selected_direction) || !isFilled(bundle.coherence_rationale)) return false;
+  if (!bundle.reader_contract || !allFilled([
+    bundle.reader_contract.problem_3s,
+    bundle.reader_contract.insight_10s,
+    bundle.reader_contract.action_30s,
+  ])) return false;
+  if (!Array.isArray(bundle.references) || bundle.references.length < 2 || bundle.references.length > 4) return false;
+  const roles = new Set(bundle.references.flatMap((reference) => reference.roles ?? []));
+  const comprehensionInspected = bundle.references
+    .filter((reference) => reference.roles?.includes('comprehension'))
+    .every((reference) => ['source_visual_inspected', 'genome_manual_verified'].includes(reference.visual_claim_status));
+  const legacyAtomBundle = !bundle.creative_bundle_id && Boolean(bundle.bundle_id);
+  const atomsReady = bundle.references.every((reference) => Array.isArray(reference.atoms)
+    && reference.atoms.length > 0
+    && reference.atoms.every((atom) => legacyAtomBundle && typeof atom === 'string'
+      ? isFilled(atom)
+      : allFilled([atom?.creative_element_id, atom?.atom_type, atom?.source_mechanism, atom?.adaptation])));
+  return comprehensionInspected
+    && atomsReady
+    && ['attention', 'comprehension', 'utility', 'bridge'].every((role) => roles.has(role))
+    && bundle.references.every((reference) => allFilled([
+      reference.reference_id,
+      reference.anti_copy_boundary,
+    ]));
+}
+
+function normalizedClaimMode(value) {
+  const normalized = plain(value).toLowerCase().replace(/[ -]/g, '_');
+  return ({
+    framework: 'editorial_explainer',
+    sourced_calculation: 'formula_or_method',
+    causal: 'comparative_or_causal',
+    tiger_judgment: 'tiger_interpretation',
+    simulation: 'simulation_or_hypothesis',
+  })[normalized] ?? normalized;
+}
+
+function supportRequired(mode) {
+  return [
+    'sourced_fact',
+    'sourced_calculation',
+    'documented_case',
+    'causal',
+    'public_data_analysis',
+    'formula_or_method',
+    'tool_workflow',
+    'comparative_or_causal',
+    'mixed',
+  ].includes(normalizedClaimMode(mode));
+}
+
+function supportPresent(content, brief) {
+  const declared = first(field(brief, 'Support ledger / claim IDs'), field(content, 'support_ledger'));
+  const declaredIds = [...plain(declared).matchAll(/\bCL-[A-Za-z0-9_-]+\b/g)].map((match) => match[0]);
+  const rows = new Map();
+  for (const line of content.split('\n')) {
+    if (!/^\|/.test(line)) continue;
+    const cells = line.split('|').slice(1, -1).map((cell) => plain(cell));
+    const id = cells.find((cell) => /^CL-[A-Za-z0-9_-]+$/.test(cell));
+    if (!id) continue;
+    rows.set(id, cells.at(-1)?.toLowerCase() ?? '');
+  }
+  const ids = declaredIds.length ? declaredIds : [...rows.keys()];
+  return ids.length > 0 && ids.every((id) => rows.get(id) === 'supported');
+}
+
+function coherenceIssues(bundle, query, candidates, content, brief, recombination) {
+  const issues = [];
+  const compare = (label, values, normalize = plain) => {
+    if (!allFilled(values)) {
+      issues.push(`${label} is missing from one or more required files`);
+      return;
+    }
+    if (new Set(values.map(normalize)).size !== 1) issues.push(`${label} does not match across files`);
   };
+  compare('content_id', [
+    bundle?.content_id,
+    query?.content_id,
+    candidates?.content_id,
+    field(content, 'Content ID'),
+    field(recombination, 'Content ID'),
+  ]);
+  compare('query_id', [bundle?.query_id, query?.query_id, candidates?.query_id, field(recombination, 'Query ID')]);
+  compare('creative_bundle_id', [
+    first(bundle?.creative_bundle_id, bundle?.bundle_id),
+    field(content, 'creative_bundle_id'),
+    field(brief, 'creative_bundle_id'),
+  ]);
+  compare('snapshot_id', [
+    bundle?.snapshot_id,
+    candidates?.snapshot_id,
+    field(content, 'Genome snapshot'),
+    field(recombination, 'Genome snapshot'),
+  ]);
+  compare('selected_direction', [bundle?.selected_direction, field(brief, 'Selected direction'), field(recombination, 'Selected direction')]);
+  compare('claim_mode', [bundle?.claim_mode, field(content, 'Claim mode'), field(brief, 'Claim mode')], normalizedClaimMode);
+  const candidateIds = new Set((candidates?.results ?? []).map((result) => result.reference_id));
+  const missingReferences = (bundle?.references ?? [])
+    .map((reference) => reference.reference_id)
+    .filter((referenceId) => !candidateIds.has(referenceId));
+  if (missingReferences.length) issues.push(`bundle references are absent from candidates.results: ${missingReferences.join(', ')}`);
+  const tigerCandidateIds = new Set((candidates?.tiger_precedents ?? []).map((result) => result.reference_id));
+  const missingPrecedents = (bundle?.tiger_precedent_ids ?? [])
+    .filter((referenceId) => !tigerCandidateIds.has(referenceId));
+  if (missingPrecedents.length) issues.push(`Tiger precedents are absent from candidates.tiger_precedents: ${missingPrecedents.join(', ')}`);
+  if (!candidates?.query_contract || typeof candidates.query_contract !== 'object') {
+    issues.push('reference-candidates.json is missing query_contract');
+  } else if (query && stableStringify(candidates.query_contract, 0) !== stableStringify({
+    care_statement: query.care_statement,
+    content_modes: query.content_modes,
+    reader_decision: query.reader_decision,
+  }, 0)) {
+    issues.push('reference-candidates.json query_contract does not match reference-query.json');
+  }
+  const manifest = readJson(resolve(SETUP_ROOT, MANIFEST_RELATIVE_PATH));
+  if (query && candidates?.query_sha256 !== sha256(stableStringify(query, 0))) {
+    issues.push('reference-candidates.json query_sha256 does not match reference-query.json');
+  }
+  if (candidates?.snapshot_id !== manifest.snapshot.id) {
+    issues.push('reference-candidates.json snapshot_id does not match the active manifest');
+  }
+  if (candidates?.snapshot_sha256 !== manifest.snapshot.sha256) {
+    issues.push('reference-candidates.json snapshot_sha256 does not match the active manifest');
+  }
+  return issues;
+}
+
+function gate(name, pass, fix, note = '') {
+  return { name, pass: Boolean(pass), fix, note };
 }
 
 if (!has('creative-brief-lite.md')) {
@@ -63,267 +262,215 @@ if (!has('creative-brief-lite.md')) {
 }
 
 const brief = read('creative-brief-lite.md');
-const ref = has('reference-learning-card.md') ? read('reference-learning-card.md') : '';
-const prompt = has('gpt-image-2-prompt.md') ? read('gpt-image-2-prompt.md') : '';
-const slug = field(brief, 'Slug') || basename(dir);
+const content = read('content-brief-v2.md');
+const recombination = read('recombination-brief.md');
+const prompt = first(read('gpt-image-2-prompt-compiled.md'), read('gpt-image-2-prompt.md'));
+const parsedBundle = parseJson('reference-bundle.json');
+const bundle = parsedBundle.value;
+const parsedQuery = parseJson('reference-query.json');
+const query = parsedQuery.value;
+const parsedCandidates = parseJson('reference-candidates.json');
+const candidates = parsedCandidates.value;
+const slug = first(field(brief, 'Slug'), basename(dir));
+const genomeMode = has('reference-bundle.json')
+  || has('recombination-brief.md')
+  || /^# Creative Brief Lite — Recombination Template/m.test(brief);
+const renderer = first(field(brief, 'Renderer'), genomeMode ? '' : 'GPT Image 2');
+const imageRenderer = /gpt\s*image|image model/i.test(renderer) || (!renderer && !genomeMode);
+const claimMode = first(field(brief, 'Claim mode'), field(content, 'Claim mode'), bundle?.claim_mode);
+const claimModeNormalized = normalizedClaimMode(claimMode);
+const simulationMode = /simulation/.test(claimModeNormalized);
+const tigerMode = /tiger_(judgment|interpretation)/.test(claimModeNormalized);
+const numbersDeclaration = plain(field(brief, 'Numbers/data')).toLowerCase();
+const fixturesExcluded = first(
+  field(brief, 'Internal test fixtures excluded'),
+  field(content, 'Internal fixtures excluded from public proof'),
+);
+const publicSimulation = field(content, 'Public simulation');
+const identityIssues = genomeMode
+  ? coherenceIssues(bundle, query, candidates, content, brief, recombination)
+  : [];
+const conceptStatus = conceptBoardStatus(recombination);
+const distinctDirectionCount = directionSignatureCount(recombination);
+const promptReady = !imageRenderer || (genomeMode
+  ? /CREATIVE ASSEMBLY:/i.test(prompt)
+    && /CLAIM INTEGRITY:/i.test(prompt)
+    && /TEXT PLACEMENT MAP:/i.test(prompt)
+  : (/VISUAL STRUCTURE:/i.test(prompt) && /TEXT LOCK:/i.test(prompt))
+    || (/CREATIVE ASSEMBLY:/i.test(prompt)
+      && /CLAIM INTEGRITY:/i.test(prompt)
+      && /TEXT PLACEMENT MAP:/i.test(prompt)));
 
-const audienceSegment = field(brief, 'Audience segment');
-const audienceJob = field(brief, 'Audience job');
-const afterReading = field(brief, 'After reading, they can');
-const moment = field(brief, 'Meeting/task/career moment');
-const openingClaim = field(brief, 'Opening claim');
-const stopReason = field(brief, 'Why this stops the right reader');
-const saveTrigger = field(brief, 'Save trigger');
-const artifact = field(brief, 'Reusable artifact on image');
-const holyGrailCandidate = field(brief, 'Holy Grail candidate?');
-const holyGrailFit = field(brief, 'Holy Grail fit');
-const referenceMode = field(brief, 'Reference mode');
-const mechanicSource = field(brief, 'Evidence/mechanic source');
-const powerFormat = field(brief, 'Power format');
-const structureLesson = field(brief, 'Structure reference lesson');
-const captionLesson = field(brief, 'Caption promise lesson');
-const craftLesson = field(brief, 'Craft/brand lesson');
-const captionIndex = field(brief, 'Caption index ref');
-const genericBeat = field(brief, 'Why this beats a generic LinkedIn infographic');
-const shettyBeat = field(brief, "Why this is Shetty's Desk");
-const visualMove = field(brief, 'One-sentence visual move');
-const labels = field(brief, 'Labels');
-const textPlacementMap = field(brief, 'Text placement map');
-const isHolyGrail = /^yes\b/i.test(holyGrailCandidate) || Boolean(holyGrailFit);
-const usesTop100 = /top[- ]?100/i.test(referenceMode)
-  || (!referenceMode && countRefs(captionIndex) >= 1 && !/not used|none|n\/a/i.test(captionIndex));
-
-const referenceMechanics = field(ref, 'Visual mechanics to borrow');
-const referencePromptLesson = field(ref, 'Reference lesson for GPT Image 2');
-const whatToBorrow = field(ref, 'What to borrow');
-const whatToAvoid = field(ref, 'What to avoid copying');
-const supplyChainTranslation = field(ref, 'Supply-chain translation');
-
-const domainWords = [
-  'supplier',
-  'vendor',
-  'procurement',
-  'purchasing',
-  'review',
-  'scorecard',
-  'score',
-  'metric',
-  'planning',
-  'forecast',
-  'inventory',
-  'capacity',
-  'sourcing',
-  'demand',
-  'production',
-  's&op',
-  'sku',
-  'replenishment',
-  'warehouse',
-  'logistics',
-  'resilience',
-  'disruption',
-  'incident',
-  'recovery',
-  'response',
-  'operating',
-  'executive',
-  'ai',
-  'claude',
-  'copilot',
+const commonGates = [
+  gate(
+    'Reader contract',
+    allFilled([
+      field(brief, 'Audience segment'),
+      field(brief, 'After reading, they can'),
+      field(brief, 'Meeting/task/career moment'),
+    ]) && isFilled(first(field(brief, 'Care statement'), field(brief, 'Why this stops the right reader'))),
+    'Define the reader, work moment, why they care, and what they can do after reading.',
+  ),
+  gate(
+    'Visual argument',
+    allFilled([
+      field(brief, 'One-sentence visual move'),
+      field(brief, 'Dominant shape/metaphor'),
+      field(brief, 'Eye path'),
+      field(brief, 'Reusable artifact on image'),
+    ]),
+    'Define one visual move, one hero, one reading route, and one useful object.',
+  ),
+  gate(
+    'Exact content and assets',
+    allFilled([
+      field(brief, 'Heading'),
+      field(brief, 'Labels'),
+      field(brief, 'Text placement map'),
+      field(brief, 'Logo/asset references'),
+    ]),
+    'Lock the heading, labels, placement homes, and exact owned or official assets.',
+  ),
+  gate(
+    'Renderer handoff',
+    isFilled(renderer) && promptReady,
+    imageRenderer
+      ? 'Compile the GPT Image prompt with creative assembly, claim integrity, and exact placement.'
+      : 'Declare the renderer and why it carries the selected direction.',
+  ),
 ];
 
-const artifactWords = [
-  'test',
-  'checklist',
-  'formula',
-  'map',
-  'prompt',
-  'template',
-  'decision rule',
-  'framework',
-  'matrix',
-  'index',
-  'loop',
-  'curve',
-  'card',
-  'operating system',
-  'field manual',
-  'playbook',
-  'review artifact',
-  'os',
+const genomeGates = [
+  gate(
+    'Retrieval contract files',
+    has('reference-query.json')
+      && has('reference-candidates.json')
+      && !parsedQuery.error
+      && !parsedCandidates.error
+      && query?.status === 'ready'
+      && query?.query_id !== 'RQ-DRAFT',
+    parsedQuery.error || parsedCandidates.error
+      ? `Repair retrieval JSON: ${parsedQuery.error || parsedCandidates.error}`
+      : 'Add a ready, non-template reference-query.json and its generated reference-candidates.json.',
+  ),
+  gate(
+    'Creative Genome bundle',
+    !parsedBundle.error && bundleShapeReady(bundle),
+    parsedBundle.error
+      ? `Repair reference-bundle.json: ${parsedBundle.error}`
+      : 'Set the bundle to ready with 2-4 transformed references covering attention, comprehension, utility, and bridge.',
+  ),
+  gate(
+    'Cross-file identity and direction',
+    identityIssues.length === 0,
+    identityIssues.join('; ') || 'Align the content ID, bundle ID, snapshot, selected direction, and claim mode across the package.',
+  ),
+  gate(
+    'Ten concepts',
+    conceptStatus.complete,
+    `Use unique indices 1-10, fill all six concept fields, and create at least three dominant-move + atom-combination signatures (found ${conceptStatus.signatures}).`,
+  ),
+  gate(
+    'Three directions',
+    ['A', 'B', 'C'].every((letter) => directionComplete(recombination, letter))
+      && distinctDirectionCount === 3,
+    `Develop complete and genuinely different Directions A, B, and C; visual object + useful object + bridge signatures must be unique (found ${distinctDirectionCount}).`,
+  ),
+  gate(
+    'Selected coherent assembly',
+    allFilled([
+      first(field(brief, 'Selected direction'), bundle?.selected_direction, field(recombination, 'Selected direction')),
+      first(field(brief, 'Coherence rationale'), bundle?.coherence_rationale, field(recombination, 'Coherence rationale')),
+    ]),
+    'Select one direction and explain how every atom reinforces the same reader promise.',
+  ),
 ];
 
-const tensionWords = [
-  'not',
-  'wrong',
-  'fails',
-  'failure',
-  'risk',
-  'stop',
-  'spike',
-  'nothing',
-  'which',
-  'why',
-  'can',
-  '?',
+let claimReady = isFilled(claimMode) && isFilled(field(brief, 'Numbers/data'));
+let claimFix = 'Declare the claim mode and numbers/data status.';
+if (claimReady && (supportRequired(claimMode) || numbersDeclaration === 'source-backed') && !supportPresent(content, brief)) {
+  claimReady = false;
+  claimFix = 'Map every load-bearing CL ID to a ledger row with exact status supported.';
+}
+if (claimReady && tigerMode) {
+  const tigerSource = first(
+    field(content, 'Source file'),
+    field(content, 'Approved source IDs'),
+    field(content, 'Tiger judgment'),
+  );
+  if (!isFilled(tigerSource)) {
+    claimReady = false;
+    claimFix = 'Add approved Tiger source material for the personal judgment or interpretation.';
+  }
+}
+const simulationDeclaration = plain(publicSimulation).toLowerCase();
+const simulationSelected = simulationMode
+  || simulationDeclaration === 'explicitly selected and visibly labelled'
+  || numbersDeclaration === 'explicit-labelled-simulation';
+if (claimReady && simulationSelected) {
+  const coherentSimulationMode = simulationMode || claimModeNormalized === 'mixed';
+  const labelled = simulationDeclaration === 'explicitly selected and visibly labelled'
+    && numbersDeclaration === 'explicit-labelled-simulation';
+  if (!coherentSimulationMode || !labelled || !/^yes$/i.test(fixturesExcluded.replace(/`/g, '').trim())) {
+    claimReady = false;
+    claimFix = 'Use simulation_or_hypothesis or mixed, label the simulation in both contracts, and confirm internal fixtures are excluded.';
+  }
+}
+
+const claimGate = gate('Claim-proportionate support', claimReady, claimFix);
+const legacyGates = [
+  gate(
+    'Legacy creative mechanic',
+    allFilled([
+      field(brief, 'Opening claim'),
+      field(brief, 'Why this stops the right reader'),
+      field(brief, 'Save trigger'),
+    ]),
+    'Complete the opening, stop reason, and save trigger. New work should migrate to a Creative Genome bundle.',
+    'Compatibility gate only; it does not certify a Creative Genome recombination.',
+  ),
 ];
 
-const dimensions = [
-  scoreDimension('Audience payoff', [
-    {
-      points: 5,
-      pass: wordCount(audienceSegment) >= 3 && hasAny(audienceSegment, domainWords),
-      fix: 'Make the audience segment concrete and domain-specific.',
-    },
-    {
-      points: 5,
-      pass: wordCount(audienceJob) >= 2 && !/explain clearly$/i.test(audienceJob.trim()),
-      fix: 'Use a specific reader job beyond a generic explain-clearly task.',
-    },
-    {
-      points: 5,
-      pass: wordCount(afterReading) >= 8 && hasAny(afterReading, domainWords),
-      fix: 'Make the after-reading payoff a practical supply-chain action.',
-    },
-    {
-      points: 5,
-      pass: moment.split(',').filter((item) => wordCount(item) >= 2).length >= 2,
-      fix: 'Name at least two concrete meetings, tasks, or workflow moments.',
-    },
-  ]),
-  scoreDimension('Stop-scroll tension', [
-    {
-      points: 5,
-      pass: wordCount(openingClaim) >= 5 && !/^what is\b/i.test(openingClaim),
-      fix: 'Use a sharper opening claim than a definition-style headline.',
-    },
-    {
-      points: 5,
-      pass: hasAny(openingClaim, tensionWords),
-      fix: 'Add visible tension, contradiction, risk, or a question to the opening claim.',
-    },
-    {
-      points: 5,
-      pass: wordCount(stopReason) >= 12 && hasAny(stopReason, domainWords),
-      fix: 'Tie the stop-scroll reason to a recognizable supply-chain pain.',
-    },
-    {
-      points: 5,
-      pass: wordCount(visualMove) >= 12 && hasAny(visualMove, domainWords),
-      fix: 'Make the visual move explain a real operating problem, not a generic layout.',
-    },
-  ]),
-  scoreDimension('Save utility', [
-    {
-      points: 5,
-      pass: hasAny(`${saveTrigger} ${artifact}`, artifactWords),
-      fix: 'Name a reusable artifact such as a test, matrix, loop, checklist, formula, or decision rule.',
-    },
-    {
-      points: 5,
-      pass: wordCount(artifact) >= 3 && hasAny(artifact, domainWords),
-      fix: 'Make the reusable artifact specific to the topic, not just "template" or "checklist."',
-    },
-    {
-      points: 5,
-      pass: wordCount(labels) >= 3 && labels.split(';').filter(Boolean).length <= 40 && wordCount(textPlacementMap) >= 10,
-      fix: 'Use enough exact labels to make the artifact useful, keep the set controlled, then map every label to an intended placement home.',
-    },
-    {
-      points: 5,
-      pass: /Bottom question:\s*"/.test(prompt) || field(brief, 'Bottom question') || isHolyGrail,
-      fix: 'Add a bottom question, or mark the post as a Holy Grail operating artifact with a clean logo/footer plan.',
-    },
-  ]),
-  scoreDimension('Evidence/mechanic adaptation', [
-    {
-      points: 5,
-      pass: usesTop100 ? countRefs(captionIndex) >= 1 : wordCount(referenceMode) >= 1 && wordCount(mechanicSource) >= 1,
-      fix: usesTop100
-        ? 'Cite at least one exact Top-100 caption index reference.'
-        : 'Declare the non-Top-100 reference mode and its Tiger, peer, public-pain, primary-source, timely, or artifact mechanic.',
-    },
-    {
-      points: 5,
-      pass: usesTop100
-        ? wordCount(referenceMechanics) >= 16 && hasAny(referenceMechanics, ['row', 'grid', 'map', 'loop', 'formula', 'card', 'legend', 'strip', 'rail', 'schema'])
-        : wordCount(powerFormat) >= 1 && wordCount(structureLesson) >= 8,
-      fix: usesTop100
-        ? 'Extract concrete visual mechanics from the selected reference image.'
-        : 'Translate the accepted evidence or operating artifact into a concrete power format and structure mechanic.',
-    },
-    {
-      points: 5,
-      pass: usesTop100 ? wordCount(referencePromptLesson) >= 8 : wordCount(captionLesson) >= 8,
-      fix: usesTop100
-        ? 'Add a GPT Image 2 lesson that tells the renderer what to make dominant.'
-        : 'State the audience promise the non-Top-100 evidence/artifact mechanic must make legible.',
-    },
-    {
-      points: 5,
-      pass: usesTop100
-        ? wordCount(whatToBorrow) >= 6 && wordCount(whatToAvoid) >= 6 && wordCount(supplyChainTranslation) >= 8
-        : wordCount(craftLesson) >= 6 && wordCount(genericBeat) >= 10 && wordCount(shettyBeat) >= 10,
-      fix: usesTop100
-        ? 'Clarify what to borrow, what not to copy, and how the reference translates to supply chain.'
-        : 'Define the craft lesson and make the artifact clearly better than generic content and specific to Shetty\'s Desk.',
-    },
-  ]),
-  scoreDimension('Creative USP and renderer leverage', [
-    {
-      points: 5,
-      pass: wordCount(genericBeat) >= 10 && !/generic linkedin infographic/i.test(genericBeat),
-      fix: 'Make the generic-beating claim specific, not just a restatement of the field label.',
-    },
-    {
-      points: 5,
-      pass: wordCount(shettyBeat) >= 10 && hasAny(shettyBeat, domainWords),
-      fix: 'Make the Shetty angle practitioner-specific and domain-grounded.',
-    },
-    {
-      points: 5,
-      pass: /IMAGE ENGINE INTENT:|CREATIVE DIRECTION:/i.test(prompt) && /premium creative renderer/i.test(prompt),
-      fix: 'Use a prompt that explicitly lets GPT Image 2 act as a premium creative renderer.',
-    },
-    {
-      points: 5,
-      pass: /TEXT LOCK:/i.test(prompt) && /TEXT PLACEMENT MAP:/i.test(prompt) && /TEXT PLACEMENT RULE:/i.test(prompt),
-      fix: 'Keep exact-text discipline and a per-label placement map in the prompt so creative freedom does not corrupt labels.',
-    },
-  ]),
+const gates = [
+  ...(genomeMode ? genomeGates : legacyGates),
+  ...commonGates,
+  ...(genomeMode ? [claimGate] : []),
 ];
+const misses = gates.filter((item) => !item.pass);
+const ready = misses.length === 0;
+const warnings = [];
+if (!genomeMode) warnings.push('Legacy compatibility mode: the package can continue, but new work must use reference-bundle.json and recombination-brief.md.');
+if (!genomeMode && !isFilled(claimMode)) warnings.push('Legacy package has no explicit claim mode; verify any factual, numerical, causal, company, or personal claim manually.');
 
-const total = dimensions.reduce((sum, item) => sum + item.score, 0);
-const failingDimensions = dimensions.filter((item) => item.score < 16);
-const pass = total >= 85 && failingDimensions.length === 0;
+const report = `# Creative Readiness Review — ${slug}
 
-const report = `# Creative Director Score — ${slug}
+**Source:** \`${folder}\`
+**Mode:** ${genomeMode ? 'Creative Genome + recombination' : 'legacy compatibility'}
+**Decision:** ${ready ? 'READY — proceed to render or final-output review' : 'NOT READY — resolve the blocking gates'}
 
-**Source:** \`${folder}\`  
-**Threshold:** 85/100 and every dimension at least 16/20  
-**Score:** ${total}/100  
-**Decision:** ${pass ? 'PASS — ready for render/review' : 'FAIL — revise before render'}
+| Gate | Status | Note |
+|---|---|---|
+${gates.map((item) => `| ${item.name} | ${item.pass ? 'PASS' : 'BLOCK'} | ${item.pass ? (item.note || 'Ready.') : item.fix} |`).join('\n')}
 
-| Dimension | Score |
-|---|---:|
-${dimensions.map((item) => `| ${item.name} | ${item.score}/20 |`).join('\n')}
+## Blocking Actions
 
-## Misses
+${misses.map((item) => `- **${item.name}:** ${item.fix}`).join('\n') || '- None.'}
 
-${dimensions.flatMap((item) => item.misses.map((miss) => `- **${item.name}:** ${miss}`)).join('\n') || '- None.'}
+## Warnings
 
-## Creative Director Rule
+${warnings.map((warning) => `- ${warning}`).join('\n') || '- None.'}
 
-Do not fix a weak score by adding adjectives. Change the audience payoff, reference lesson, visual artifact, or exact on-image structure.
+## Rule
+
+Readiness is non-numeric. Do not repair a weak direction with adjectives or compensate for an
+unsupported claim with visual polish. Change the assembly, reader promise, support route, or renderer.
 `;
 
 process.stdout.write(report);
 
 if (writeReport) {
-  writeFileSync(file('creative-director-score.md'), report, 'utf8');
-  console.log(`\nWrote ${folder}/creative-director-score.md`);
+  writeFileSync(file('creative-readiness-review.md'), report, 'utf8');
+  console.log(`\nWrote ${folder}/creative-readiness-review.md`);
 }
 
-if (!pass) {
-  process.exit(1);
-}
+if (!ready) process.exit(1);

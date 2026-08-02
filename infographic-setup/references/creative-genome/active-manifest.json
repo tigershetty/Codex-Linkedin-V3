@@ -1,0 +1,57 @@
+{
+  "build_contract": {
+    "deterministic": true,
+    "record_order": "reference_id ascending",
+    "saved_signal_policy": "Every Tiger-saved post is a positive creative signal.",
+    "visual_verification_policy": "Preview-only or text-derived visual classifications remain heuristic_unverified. Only documented manual lightbox review may be manual_verified."
+  },
+  "counts": {
+    "creative_posts": 953,
+    "manual_verified_visuals": 2,
+    "saved_positive_signals": 480,
+    "tiger_performance_records": 60,
+    "top100_curated_records": 72,
+    "top100_local_asset_links": 70
+  },
+  "schema_version": "1.0.0",
+  "snapshot": {
+    "id": "creative-genome-2026-08-02-v1",
+    "path": "references/creative-genome/snapshots/creative-genome-2026-08-02-v1.jsonl",
+    "record_schema": "references/creative-genome/schemas/creative-post.schema.json",
+    "sha256": "b850c4179ec588dec551348aa1cb89338b4e2569b728ee658f338a2a0c04ad41"
+  },
+  "source": {
+    "collection_date": "2026-08-02",
+    "files": {
+      "inferences": {
+        "path": "references/outputs/019fc389-0554-7a43-a8fa-07bd597be61d/linkedin-content-market-fit-audit-2026-08-02/inferences.jsonl",
+        "sha256": "c0f55593b9082aed8f8efbe2cef33b469622d92a51eb5f30409f87b446458c58"
+      },
+      "manualOverrides": {
+        "path": "references/outputs/019fc389-0554-7a43-a8fa-07bd597be61d/linkedin-content-market-fit-audit-2026-08-02/manual-review-overrides.csv",
+        "sha256": "4a2c73ce4efb38ff2a0b81b9e034cb047ca2dfe756f78ed398a6110d586a4a58"
+      },
+      "posts": {
+        "path": "references/outputs/019fc389-0554-7a43-a8fa-07bd597be61d/linkedin-content-market-fit-audit-2026-08-02/posts.jsonl",
+        "sha256": "0a388cd7250d2e2d4a7e0210550a90a98f663bcb13a99509bef19caf161a061b"
+      },
+      "provenance": {
+        "path": "references/outputs/019fc389-0554-7a43-a8fa-07bd597be61d/linkedin-content-market-fit-audit-2026-08-02/provenance.csv",
+        "sha256": "59207b527b4612c23461a7a8200dc6096b0263ade95774e39fc55eea7090e51b"
+      },
+      "savedSnapshot": {
+        "path": "references/outputs/019fc389-0554-7a43-a8fa-07bd597be61d/linkedin-content-market-fit-audit-2026-08-02/source-snapshots/linkedin-saved-curated-collection.jsonl",
+        "sha256": "26503d19a5b0788f8c8ab15513beb6ed8b9c591dfcc89ed818af06d6eadfba09"
+      },
+      "tigerSnapshot": {
+        "path": "references/outputs/019fc389-0554-7a43-a8fa-07bd597be61d/linkedin-content-market-fit-audit-2026-08-02/source-snapshots/linkedin-tiger-native-analytics.jsonl",
+        "sha256": "3b272a92c95f9c82646defed21372e2e316558b1ca300aa5ee374169fca9664f"
+      },
+      "validation": {
+        "path": "references/outputs/019fc389-0554-7a43-a8fa-07bd597be61d/linkedin-content-market-fit-audit-2026-08-02/validation-report.json",
+        "sha256": "2f9d3a2263652be0abcd67f8143920937a0594d550b1d85127ae09c39688cd86"
+      }
+    },
+    "immutable_audit_root": "references/outputs/019fc389-0554-7a43-a8fa-07bd597be61d/linkedin-content-market-fit-audit-2026-08-02"
+  }
+}

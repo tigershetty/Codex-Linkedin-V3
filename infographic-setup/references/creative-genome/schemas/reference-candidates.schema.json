@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shettysdesk.com/schemas/creative-genome/reference-candidates.schema.json",
+  "title": "Creative Reference Candidates",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "query_id",
+    "content_id",
+    "query_contract",
+    "query_sha256",
+    "snapshot_id",
+    "snapshot_sha256",
+    "result_count",
+    "results",
+    "tiger_precedents"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema_version": { "const": "1.0.0" },
+    "query_id": { "type": "string", "minLength": 1 },
+    "content_id": { "type": "string", "minLength": 1 },
+    "query_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reader_decision", "care_statement", "content_modes"],
+      "properties": {
+        "reader_decision": { "type": "string" },
+        "care_statement": { "type": "string" },
+        "content_modes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "query_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "snapshot_id": { "type": "string", "minLength": 1 },
+    "snapshot_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "result_count": { "type": "integer", "minimum": 0, "maximum": 15 },
+    "results": { "type": "array", "maxItems": 15, "items": { "$ref": "#/$defs/result" } },
+    "tiger_precedents": { "type": "array", "maxItems": 5, "items": { "$ref": "#/$defs/result" } }
+  },
+  "$defs": {
+    "result": {
+      "type": "object",
+      "required": [
+        "reference_id",
+        "creator",
+        "canonical_url",
+        "observed_hook",
+        "annotations",
+        "positive_signals",
+        "creative_assets",
+        "retrieval_score",
+        "retrieval_matches",
+        "diversity_signature",
+        "visual_use_guardrail"
+      ],
+      "properties": {
+        "reference_id": { "type": "string", "pattern": "^(LI-|TEXT-)" },
+        "creator": { "type": ["string", "null"] },
+        "canonical_url": { "type": ["string", "null"] },
+        "observed_hook": { "type": ["string", "null"] },
+        "observed_caption_excerpt": { "type": ["string", "null"] },
+        "annotations": { "type": "object" },
+        "positive_signals": { "type": "object" },
+        "creative_assets": { "type": "object" },
+        "retrieval_score": { "type": "number" },
+        "retrieval_matches": { "type": "array", "items": { "type": "string" } },
+        "diversity_signature": { "type": "string" },
+        "visual_use_guardrail": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

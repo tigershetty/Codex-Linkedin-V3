@@ -1,81 +1,70 @@
-# Creative Brief Lite — Template
+# Creative Brief Lite — Recombination Template
 
-**Week:** `{YYYY-W##}`  
-**Slug:** `{slug}`  
-**Series:** Supply Chain 101 / AI for Supply Chain  
+**Week:** `{YYYY-W##}`
+**Slug:** `{slug}`
+**Production lane:** Supply Chain 101 / AI for Supply Chain / other
+**creative_bundle_id:**
+**Selected direction:**
 
-## 1. Audience Value
+## 1. Reader And Payoff
 
-**Audience segment:**  
-**Audience job:** explain clearly / make a better decision / avoid a mistake / look sharper at work / save time / use AI safely  
-**After reading, they can:**  
-**Meeting/task/career moment:**  
+**Audience segment:**
+**Audience job:**
+**After reading, they can:**
+**Meeting/task/career moment:**
+**Care statement:**
 
-## 2. Stop-Scroll Promise
+## 2. Creative Assembly
 
-**Opening claim:**  
-**Why this stops the right reader:**  
-**Save trigger:** test / checklist / formula / map / prompt / template / decision rule  
+**Attention atom:** `{element ID} -> {mechanism and transformation}`
+**Comprehension atom:** `{element ID} -> {mechanism and transformation}`
+**Utility atom:** `{element ID} -> {mechanism and transformation}`
+**Bridge atom:** `{element ID} -> {mechanism and transformation}`
+**Tiger precedent:**
+**Anti-copy boundary:**
+**Coherence rationale:**
 
-## 3. Reference Intelligence
+## 3. Reader Contract
 
-**Reference mode:** top-100 / other curated reference / evidence-artifact only
-**Evidence/mechanic source:** Tiger / strict peer / decision panel / public pain / primary source / timely signal / selected reference
-**Power format:** PF1 / PF2 / PF3 / PF4 / PF5 / PF6 / PF7 / PF8 / process flow / concept metaphor  
-**Structure reference lesson:**  
-**Caption promise lesson:**  
-**Caption index ref:** refs {n} / not used
-**Craft/brand lesson:**  
-
-> Top-100 is optional. In `evidence-artifact only` mode, explain the operating-artifact or public-evidence mechanic in the lesson fields and write `not used` for the caption index.
+**Opening claim:**
+**Why this stops the right reader:**
+**Useful action in 30 seconds:**
+**Caption adds:**
+**Visual provides:**
 
 ## 4. Visual Argument
 
-**One-sentence visual move:**  
-**Dominant shape/metaphor:**  
-**Eye path:**  
-**Reusable artifact on image:**  
-**Value-density layer:**  
+**One-sentence visual move:**
+**Dominant shape/metaphor:**
+**Eye path:**
+**Reusable artifact on image:**
+**Value-density layer:**
+**Mobile 3/10/30 plan:**
 
-## 4A. Holy Grail Fit
+## 5. Exact Content And Claims
 
-**Holy Grail candidate?** yes / no  
-**Holy Grail fit:**  
-**Operating artifact:**  
-**Meeting moment:**  
-**Supply-chain scene:**  
-**Content backbone:**  
-**Module map:**  
-**Text lock:**  
-**Logo plan:** reserve exact built-in zones for deterministic post-production overlays. For Shetty's Desk, specify plate/placard location, safe padding, and whether the logo should sit centered/lower/left/right. For tool logos, specify a small blank chip/icon slot and exact intended anchor.
+**Heading:**
+**Subheading:**
+**Labels:** `{semicolon-separated exact strings}`
+**Text placement map:**
+**Bottom question:**
+**Footer/chrome:**
+**Claim mode:**
+**Support ledger / claim IDs:**
+**Numbers/data:** `source-backed` / `conceptual-no-number` / `explicit-labelled-simulation` / `none`
+**Internal test fixtures excluded:** `yes` / `not applicable`
 
-## 5. Exact Content
+## 6. Brand And Assets
 
-**Heading:**  
-**Subheading:**  
-**Labels:**  
-**Text placement map:**  
-**Bottom question:**  
-**Footer/chrome:**  
-**Numbers/data:** sourced / hypothetical / conceptual / none  
-**Logo/asset references:** `renderer/assets/logos/shettys-desk-logo-2.png`; add tool logo/symbol assets when the visual names Claude, ChatGPT, Copilot, Gemini, or a software platform  
-
-## 5A. AI-for-SC Caption Promise
-
-**Input pack the reader can gather:**  
-**Tool output artifact:**  
-**Meeting value:**  
-**Boundary to keep in the brief:**  
-**Published-caption stance:** value-first / boundary-explicit / balanced  
-
-## 6. Creative USP
-
-**Why this beats a generic LinkedIn infographic:**  
-**Why this is Shetty's Desk:**  
+**Brand frame:** `references/brand-kits/cobalt-grid/FRAME.md`
+**Logo plan:**
+**Logo/asset references:** `renderer/assets/logos/shettys-desk-logo-2.png`
+**Official tool assets, if meaningful:**
 
 ## 7. Render Plan
 
-**GPT Image 2 prompt file:** `gpt-image-2-prompt.md`  
-**Creative director score file:** `creative-director-score.md`  
-**HTML control needed?** yes / no  
-**Output review file:** `visual-output-review.md`
+**Renderer:** `GPT Image 2` / `HTML-SVG` / `spreadsheet` / `document` / `website UI` / `other`
+**Why this renderer:**
+**Composition freedom:**
+**Deterministic finishing required:**
+**Output review:** `visual-output-review.md`

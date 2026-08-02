@@ -1,0 +1,200 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shettysdesk.com/schemas/creative-genome/creative-post.schema.json",
+  "title": "Shetty's Desk Creative Genome Post",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "reference_id",
+    "creator",
+    "publication",
+    "corpus_signals",
+    "creative_assets",
+    "observed",
+    "annotations",
+    "performance",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "reference_id": { "type": "string", "pattern": "^(LI-|TEXT-)" },
+    "creator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "profile_url"],
+      "properties": {
+        "name": { "type": ["string", "null"] },
+        "profile_url": { "type": ["string", "null"] }
+      }
+    },
+    "publication": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["activity_id", "canonical_url", "observed_at", "inferred_at", "relative_age_observed"],
+      "properties": {
+        "activity_id": { "type": ["string", "null"] },
+        "canonical_url": { "type": ["string", "null"] },
+        "observed_at": { "type": ["string", "null"] },
+        "inferred_at": { "type": ["string", "null"] },
+        "relative_age_observed": { "type": ["string", "null"] }
+      }
+    },
+    "corpus_signals": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["saved_positive", "stage0_current_market", "tiger_native_performance", "top100_curated_reference"],
+      "properties": {
+        "saved_positive": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["value", "basis"],
+          "properties": {
+            "value": { "type": "boolean" },
+            "basis": { "type": ["string", "null"], "enum": ["tiger_intentional_save", null] }
+          }
+        },
+        "stage0_current_market": { "type": "boolean" },
+        "tiger_native_performance": { "type": "boolean" },
+        "top100_curated_reference": { "type": "boolean" }
+      }
+    },
+    "creative_assets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["top100_references"],
+      "properties": {
+        "top100_references": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["reference_number", "local_asset_path", "caption_index_path", "visual_inspection_required"],
+            "properties": {
+              "reference_number": { "type": "integer", "minimum": 1, "maximum": 100 },
+              "local_asset_path": { "type": ["string", "null"] },
+              "caption_index_path": { "const": "references/top100-caption-index.md" },
+              "visual_inspection_required": { "const": true }
+            }
+          }
+        }
+      }
+    },
+    "observed": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["caption", "hook", "missing_fields", "native_format_code", "observation_confidence", "visual_observation"],
+      "properties": {
+        "caption": { "type": ["string", "null"] },
+        "hook": { "type": ["string", "null"] },
+        "missing_fields": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "native_format_code": { "type": ["string", "null"] },
+        "observation_confidence": { "type": ["string", "null"] },
+        "visual_observation": { "type": ["string", "null"] }
+      }
+    },
+    "annotations": {
+      "type": "object",
+      "required": [
+        "target_audience",
+        "problem_family",
+        "job_to_be_done",
+        "topic",
+        "hook_type",
+        "promise",
+        "proof_type",
+        "lived_experience_signal",
+        "emotional_trigger",
+        "artifact_type",
+        "format",
+        "visual_structure",
+        "cta"
+      ],
+      "properties": {
+        "visual_structure": { "$ref": "#/$defs/visualAnnotation" }
+      },
+      "additionalProperties": { "$ref": "#/$defs/annotation" }
+    },
+    "performance": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["captured_at", "metrics", "observation_status"],
+          "properties": {
+            "captured_at": { "type": ["string", "null"] },
+            "metrics": { "type": "object" },
+            "observation_status": { "const": "observed_native_analytics" }
+          }
+        }
+      ]
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["collected_at", "provenance_ids", "source_memberships"],
+      "properties": {
+        "collected_at": { "type": ["string", "null"] },
+        "provenance_ids": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "source_memberships": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+      }
+    }
+  },
+  "$defs": {
+    "annotation": {
+      "type": "object",
+      "required": ["basis", "status", "value"],
+      "properties": {
+        "basis": { "type": "string" },
+        "confidence": { "type": ["string", "null"] },
+        "evidence": { "type": ["string", "null"] },
+        "evidence_limit": { "type": ["string", "null"] },
+        "reviewed_at": { "type": ["string", "null"] },
+        "status": { "enum": ["not_observed", "heuristic_unverified", "manual_reviewed"] },
+        "value": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "visualAnnotation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["basis", "confidence", "evidence", "evidence_limit", "inspection_level", "status", "value"],
+      "properties": {
+        "basis": { "type": "string" },
+        "confidence": { "type": ["string", "null"] },
+        "evidence": { "type": ["string", "null"] },
+        "evidence_limit": { "type": ["string", "null"] },
+        "inspection_level": { "enum": ["not_inspected", "preview_only", "manual_lightbox"] },
+        "status": { "enum": ["not_observed", "heuristic_unverified", "manual_verified"] },
+        "value": { "type": ["string", "null"] }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "inspection_level": { "enum": ["not_inspected", "preview_only"] }
+            }
+          },
+          "then": {
+            "properties": {
+              "status": { "enum": ["not_observed", "heuristic_unverified"] }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": { "const": "manual_verified" }
+            }
+          },
+          "then": {
+            "properties": {
+              "inspection_level": { "const": "manual_lightbox" }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,262 +1,225 @@
 # V4 Audience Growth Operating System
 
-**Version:** 1.2
-**Date:** 2026-07-28
-**Status:** Active canonical operating foundation for the six-week V4 pilot
-**Applies before:** topic plans, research, captions, visuals, motion, resources, and publishing
+**Version:** 2.0
+**Date:** 2026-08-02
+**Status:** Active canonical V4 operating system
+**Applies before:** topic selection, research depth, captions, visuals, artifacts, distribution, and measurement
 
 ## Decision
 
-Shetty's Desk is moving from a polished-content pipeline to an audience-learning system:
+Shetty's Desk is an audience-learning and value-building system, not a polished-content factory.
 
-> Find a consequential problem for a defined supply-chain practitioner, prove that it is worth addressing, add Tiger's real judgment, build something useful, distribute it through the right channel, and measure what happened.
+> Use Tiger's saved-post library as the creative north star, recombine its strongest mechanisms
+> into original supply-chain value, support each claim at the level it requires, add Tiger's real
+> judgment where appropriate, and learn from what transfers to the audience.
 
-This file is the upstream authority for V4. Existing calendars and topic plans remain candidate libraries. Existing research, visual, motion, resource, and publishing workflows remain downstream production modules.
+The workflow is creative-first and claim-responsible. It does not force every idea through a
+consultant-grade research report, a calculator, a named case, or a fixed visual style.
 
-When an older instruction conflicts with this file on audience, topic selection, cadence, channel role, evidence status, or voice sourcing, this file wins.
+## Primary audience
 
-## Primary Audience
+1. Working supply-chain planners and planning managers using Excel, ERP, planning systems, and
+   recurring review meetings.
+2. Purchasing and procurement practitioners comparing suppliers, defending cost and risk choices,
+   and improving operational work.
+3. Supply-chain transformation leaders translating AI, data, systems, and process change into
+   useful, controlled adoption.
 
-V4 prioritizes:
+Early-career and cross-functional readers are valuable secondary reach audiences. They may become
+the primary reader for a specific career, capability, or translation piece when that choice is explicit.
 
-1. working supply-chain planners and planning managers who live in Excel, ERP, planning systems, and recurring review meetings;
-2. purchasing and procurement practitioners who must compare suppliers, defend cost and risk decisions, and improve operational work;
-3. supply-chain transformation leaders who must translate AI, data, systems, and process change into controlled adoption.
+## What the completed intelligence now tells us
 
-Early-career professionals and cross-functional colleagues may benefit from the work, but they are secondary reach audiences rather than the primary topic-selection target.
+The 2026-08-02 snapshot contains 953 deduplicated posts, including 480 saved posts and 60 Tiger
+posts with native analytics. The saved collection is a deliberately curated positive set. The
+correct response is not to keep testing whether it deserves use; it is to decode the creative moves
+Tiger found worth retaining.
 
-## What Stage 0 Actually Changed
+Tiger's own results have different jobs:
 
-The full Stage-0 corpus is large enough to improve selection, but not balanced enough to manufacture
-a universal growth formula. The operating consequences are mandatory:
+- identity and navigation artifacts have shown discovery potential;
+- planning and inventory decision artifacts have shown save and follower-conversion potential;
+- named-company operating-model cases have shown discovery potential;
+- current tool-first AI packaging has not transferred well and should be creatively rebuilt around
+  the role, decision, output, and human ownership.
 
-1. **No portable mechanic is installed as a rule.** None passed both the strict peer and matched Top-100 thresholds, including near-peer support.
-2. **Peer and Top-100 evidence keep different jobs.** Ten creators pass the strict cadence panel; 14 histories are left-censored. Seventy-three Top-100 references were recovered, but 71 of 72 unique posts are reported as single images. Neither layer replaces the other.
-3. **Three current-market panels are retained.** Use the 20-creator radar panel for discovery, the 15-creator decision panel for directional screening, and the 10-creator strict panel for sensitivity. Never report the relaxed panels as the frozen 24-person design.
-4. **Automated labels are scouting aids.** The 2026-07-28 inter-run gate failed, especially on audience specificity and primary artifact. Its provenance check also found a codebook-hash mismatch for coder A and missing input/codebook hashes for coder B, so no exact-final-codebook claim is allowed. Hook, job, proof, artifact, content-class, and problem-family rules nominate experiments; they are not causal or decision-grade facts.
-5. **Top-100 is not a format benchmark.** Use the clean static-image subset for visual-mechanic inspiration only. It cannot prove that images beat documents, galleries, video, text, or quotes.
-6. **Prospective Tiger evidence decides transfer.** A candidate becomes part of the operating system only after it earns repeatable qualified reach, saves, follows, readership, artifact use, or another declared outcome on Tiger's own channels.
-7. **Do not pay for completeness without decision value.** The €35 Apify tier would mostly reduce
-   left-censoring and Top-100 recovery gaps; it would not solve causality, codebook reliability, or
-   transfer. Reopen paid extraction only when a prospective decision depends on the missing data.
+These are starting transfer signals, not permanent formulas. Use the complete audit as the baseline
+and the Creative Genome as the active retrieval layer.
 
-### Starting experiment queue
+## The fixed intelligence architecture
 
-The automated screen produced 15 `screen_A` combinations. They are discovery prompts, not a
-calendar or ranked opportunity list:
+| Layer | What it decides |
+|---|---|
+| Saved posts and Top-100 | How value may be packaged: hook, argument, visual grammar, utility, and bridge |
+| Tiger performance | Which mechanisms transferred on this account and toward which outcome |
+| Audience and market signals | Which role, decision, pain, ambition, or curiosity is live |
+| Claim support | What may be stated and with what qualification |
+| Tiger voice | The stance, interpretation, failure boundary, first check, owner, and uncertainty |
 
-- investigate evidence/result-led openings and fully copyable operating assets as **heuristic peer signals**, then test one variable at a time;
-- test AI workflow posts that help a practitioner understand, execute, or prevent a failure, especially when inputs, output, validation, and ownership are visible;
-- test procurement decision/reference artifacts and inventory failure-prevention references with public data, formulas, or transparent worked examples;
-- use correction hooks, method promises, external evidence, worked demonstrations, reasoned models, and embedded decision references as **heuristic Top-100 inspiration**—never as proof, and only one variable at a time;
-- reject creator-growth and broad leadership signals unless they are translated into a planning, purchasing, logistics, or transformation job.
+Keep these layers separate. Do not create one universal quality, creator, topic, or post score.
 
-Every item above must still pass the topic admission gate and Tiger source gate. A strong external
-response ratio does not excuse a generic audience promise or an invented point of view.
+## Creative Genome rule
 
-## Six-Week Pilot Contract
+Read `creative-genome-recombination-engine-v1.md` before selecting or producing new major content.
 
-The pilot runs for six consecutive publishing weeks.
+- All saved posts have `positive_creative_signal=true`.
+- Saved status is enough for creative use; no second validity debate is required.
+- Retrieve 10-15 relevant references before narrowing the idea.
+- Generate ten concepts and develop at least three meaningfully different directions.
+- Build a coherent attention, comprehension, utility, and bridge bundle.
+- Borrow mechanisms, not wording, subject matter, art, identity, or branding.
+- Use Tiger results to learn transfer, never to invalidate the saved source.
+
+The local Top-100 collection is a richer visual subset of this larger system. Its assets and indexes
+remain useful inputs, but the complete 480-post saved corpus is the active north star.
+
+## Opportunity selection
+
+Use `creative-opportunity-selection.md`. Work may begin problem-first, pattern-first, evidence-first,
+or timely-signal-first. No starting path is inherently superior.
+
+A direction enters production when it has:
+
+1. a primary reader and recognizable work or career moment;
+2. a clear care statement and useful payoff;
+3. a coherent Creative Genome reference bundle;
+4. enough creative range to avoid the first generic solution;
+5. a selected content mode and support route for its actual claims;
+6. a credible Tiger contribution or an explicit decision to remain research-led;
+7. standalone LinkedIn value and a real reason for any Substack or website continuation.
+
+A topic is not rejected merely because it lacks a numerical case. It is rejected or narrowed when
+its central claim exceeds available support, its reader payoff remains vague, or its creative
+directions collapse into generic packaging.
+
+## Claim-proportionate support
+
+Evidence burden follows the claim, not the whole post.
+
+| Claim class | Minimum support |
+|---|---|
+| Framework, checklist, visual map, or workflow | Correct logic, attribution where applicable, scope, and failure boundary |
+| Tiger operating recommendation | Approved Tiger source; presented as judgment or a proposed rule |
+| Descriptive number | Exact source, date, unit, scope, and limitation |
+| Calculated number or formula | Traceable inputs, sourced method, assumptions, and reproducible calculation |
+| Named company outcome | Documented case, reporting party, exact outcome, and case-specific limitation |
+| Comparative or causal statement | Evidence capable of supporting the wording; otherwise narrow it |
+| Current AI or software capability | Current official source plus a real run or documented deployment when an outcome is shown |
+| First-person experience or result | Approved Tiger source ID |
+| Simulation or hypothesis | Explicitly selected and labelled; never presented as a real outcome |
+
+When support is missing, remove or narrow that claim before discarding the idea. Internal software
+fixtures may test logic, but they cannot become public proof, customer outcomes, or numeric hooks.
+
+## Tiger source gate
+
+Research can find the subject. It cannot manufacture Tiger's perspective.
+
+Use `tiger-source-gate-v1.md` and `templates/tiger-source-note-template.md` when the piece includes
+Tiger's personal judgment, experience, result, employer context, or first-person authority.
+
+Without an approved source, Codex may research, retrieve references, recombine concepts, calculate,
+build neutral artifacts, and draft research-led copy. It must not invent personal anecdotes, beliefs,
+conversations, credentials, or results.
+
+## Channel contract
 
 | Surface | Cadence | Primary job |
 |---|---:|---|
-| LinkedIn | 5 posts per week | discovery, qualified reach, fast topic and format learning |
-| LinkedIn comments | 20-30 minutes of thoughtful manual commenting on publishing days | earn relevant visibility and contribute real professional value |
-| Substack flagship | 1 issue every 2 weeks, 3 total | depth, recurring readership, stronger voice, and an owned email relationship |
-| Substack Notes | 3 per week | observations, evidence fragments, useful distinctions, and discovery |
-| Website | artifact-led, only when the topic earns it | interactive tools, downloadable resources, durable reference pages, and later monetization |
+| LinkedIn | 5 value-dense posts per week | discovery, qualified reach, fast creative and topic learning |
+| LinkedIn comments | 20-30 minutes of thoughtful manual commenting on publishing days | relevant visibility and professional contribution |
+| Substack flagship | 1 issue every 2 weeks | depth, recurring readership, voice, and owned relationship |
+| Substack Notes | 3 per week | observations, useful fragments, timely signals, and discovery |
+| Website | only when additional utility is real | durable tools, references, guides, workflows, and products |
 
-No automated comments, engagement pods, copied replies, keyword gates, or manufactured conversations are allowed. Codex may identify relevant posts and prepare context, but Tiger owns the final comment and publishes it manually.
-
-The pilot is not a revenue promise or a universal growth formula. Its purpose is to learn which problem-promise-proof-artifact combinations attract the intended audience and produce repeatable demand signals.
-
-## Channel Roles
-
-### LinkedIn: discovery
-
-Each post must deliver standalone value. A link to Substack or the website is used only when the destination contains meaningful additional depth or a usable artifact.
-
-The five weekly posts are a portfolio, not a fixed 2+2 curriculum. Aim to cover the following jobs across the week without forcing weak slots:
-
-- a decision distinction or practical foundation;
-- a practitioner workflow or operating artifact;
-- an AI-enabled workflow with visible inputs, output, validation, and human ownership;
-- a timely event, company mechanism, or public-data interpretation when the evidence is strong;
-- a career, leadership, implementation, experiment, or field-correction perspective.
-
-Supply Chain 101 and AI for Supply Chain remain production formats. They do not decide the topic and do not receive an automatic weekly quota.
-
-### Substack: depth and relationship
-
-Every two weeks, one evidence cluster may become a flagship issue. It should not be a longer copy of a LinkedIn caption.
-
-Each issue should normally contain:
-
-1. the decision or problem;
-2. why a planner, buyer, or transformation leader should care;
-3. the public evidence and source limits;
-4. the method, calculation, or workflow;
-5. a worked example or useful artifact;
-6. Tiger's judgment, failure boundary, and uncertainty;
-7. the next question or experiment.
-
-Notes should sound lighter and more observational than flagship issues. They may carry a chart, source, correction, useful distinction, or short Tiger reflection, but they must not become AI-summary spam.
-
-### Website: utility and durable value
-
-The website is the canonical product and artifact layer. Build a website asset only when it makes the work materially more useful than the post or article alone, for example a calculator, workbook, dashboard, decision board, validated template, source-backed guide, or safe runnable workflow.
-
-Existing resource rules still apply: do not block a useful download behind an email or account gate. A voluntary Substack subscription is separate from access to the promised artifact.
-
-## Public-Evidence Research Lanes
-
-V4 does not require practitioner interviews or private conversations for topic selection. It uses public, inspectable evidence:
-
-| Lane | Question | Typical inputs |
-|---|---|---|
-| Tiger baseline | What has and has not worked on this account? | LinkedIn native analytics, public post history, saves, follows, reach, and mature-post comparisons |
-| Peers/current market | What repeats near Tiger's reach and constraints? | radar, decision, and strict creator panels; within-creator public response; explicit censoring state |
-| Curated-success cases | What mechanics appear in known successful references? | recovered Top-100 captions, clean local assets, exact posts, and baseline-qualified same-author controls |
-| Practitioner pain | Which decisions and recurring frictions carry real stakes? | public practitioner posts, comments as published evidence, job descriptions, forums, reports, standards, and trade publications |
-| Public proof | Can the idea be demonstrated defensibly? | official datasets, standards, peer-reviewed research, formulas, documented methods, public company data, and transparent synthetic examples |
-| Timely signals | What changed that matters to the audience now? | free WorldMonitor, primary news and regulatory sources, company releases, logistics data, and verified tool documentation |
-| Creator and publication intelligence | Which topics, structures, and distribution systems are gaining attention? | LinkedIn, Substack publications and Notes, RSS, creator archives, and Apify where approved |
-
-Agent-Reach, open-deep-research, Boop, academic-research, and scientific-agent repositories are pattern references, not dependencies. Borrow source registries, recursive research, provenance, approval gates, and selected analytical methods only when they reduce work or improve reliability. Do not install a full external system by default.
-
-## Evidence Discipline
-
-The Stage-0 corpus has three independent layers: Tiger, near peers/current market, and Top-100 curated-success cases. Preserve that separation.
-
-- Compare creators against their own mature baseline before comparing across creators.
-- Use follower strata and matched cases where the data permits; follower count is a current stratum, never a historical engagement denominator.
-- Do not compare raw interaction totals across differently sized accounts as if they were reach.
-- Do not call a common Top-100 pattern causal or universally successful.
-- Do not use one universal creator, topic, or post score.
-- Keep impressions, reach, follows, saves, public interactions, clicks, subscriptions, and artifact use as distinct outcomes.
-- Label automated findings as `cross_track_heuristic_signal`, `peer_heuristic_signal`, `top100_heuristic_signal`, or `unresolved`; each remains exploratory until prospective Tiger outcomes repeat.
-- Use only `prospective_test_only`, `consider_one_variable_peer_test`, `inspiration_or_one_variable_test`, or `do_not_standardize` as production treatments. Stage 0 installed no permanent mechanic.
-- Label every automated match `AH1/AH2/AH3`; reserve Grade A/B/C for a validated meaning-level coding pass.
-- Never treat a left-censored creator history as a failure.
-- Exclude wrapper-only repost outcomes, quote-vs-text comparisons, and GIF-vs-static claims until their dedicated gates pass.
-
-The Top-100 corpus supplies curated-winner mechanics and hypotheses until matched outcome evidence supports a stronger claim. Its recovered format distribution is too skewed to support cross-format recommendations.
-
-## Topic Admission Gate
-
-A candidate may enter research only when it has:
-
-1. a named primary audience and recognizable decision or pain;
-2. at least one public evidence path;
-3. a peer, curated-success, Tiger, or timely signal explaining why it deserves attention;
-4. a useful output or artifact path;
-5. a credible Tiger contribution;
-6. a clear role for LinkedIn, Substack, the website, or a deliberate combination.
-
-Use `audience-intelligence.md` and `topic-selection-scorecard.md`. The calendar can suggest a topic, but it cannot qualify one.
-
-## Tiger Source Gate
-
-Research can discover the subject. It cannot manufacture Tiger's perspective.
-
-Apply `tiger-source-gate-v1.md` and create `data/{week}/{slug}/tiger-source.md` from
-`../templates/tiger-source-note-template.md`. Before a flagship caption or Substack issue is
-treated as final, capture a short Tiger source note in voice or text that answers:
-
-1. What caught my attention here?
-2. What do I agree or disagree with?
-3. Where could this method fail in real work?
-4. What would I check or decide first?
-5. What am I still uncertain about?
-
-The source note is a dependency, not optional decoration:
-
-- without it, Codex may research, calculate, organize evidence, propose questions, and draft a neutral outline;
-- without it, Codex must not invent a personal anecdote, firsthand result, workplace conversation, client story, belief, or first-person claim;
-- the final piece must contain a Tiger-approved judgment or explicitly remain an evidence brief rather than personal thought leadership.
-
-Codex's role is researcher, evidence assembler, artifact builder, challenger, and editor. It is not a substitute personality.
-
-## Weekly Operating Loop
-
-```text
-1. Measure
-   Read mature Tiger results by outcome, audience, problem, proof, artifact, and channel.
-
-2. Scan
-   Gather public pain, peer, curated-success, research, Substack, and timely signals.
-
-3. Shortlist
-   Produce six or more candidates without using the calendar as the deciding input.
-
-4. Qualify
-   Apply the topic scorecard, evidence tier, artifact path, channel role, and Tiger source requirement.
-
-5. Select the portfolio
-   Choose five LinkedIn posts and identify whether the fortnight earns a Substack flagship or website artifact.
-
-6. Research and build
-   Produce the sourced brief, Tiger source note, content brief, artifact, caption, visual, and optional motion/resource.
-
-7. Publish and distribute
-   Publish manually, comment thoughtfully, and adapt the evidence cluster to each channel without duplicating copy.
-
-8. Learn
-   Record results at a consistent maturity point, compare against relevant baselines, and feed the next scan.
-```
-
-## Measurement Without One Magic Score
-
-Use outcome families rather than an opaque composite:
+Do not automate comments, use engagement pods, manufacture conversations, or hide the promised
+artifact behind an email or account gate.
 
 ### LinkedIn
 
-- impressions and members reached;
-- saves, comments, reposts, and sends separately;
-- profile viewers and followers gained;
-- follower conversion and save rate where denominators are known;
-- within-Tiger mature-post lift and matched content comparisons.
+Every post must stand alone. Use the five weekly posts as a creative and audience portfolio, not a
+fixed 2+2 curriculum. Supply Chain 101 and AI for Supply Chain are downstream production lanes, not
+topic quotas.
 
 ### Substack
 
-- source of free subscriptions;
-- visitor-to-subscriber conversion where available;
-- open and click rates interpreted with delivery context;
-- replies, shares, recommendations, referrals, and follower-to-subscriber movement;
-- retention and repeat reading over time.
+A flagship issue should deepen an evidence cluster, method, case, limitation, or Tiger judgment. It
+must not be a longer copy of the LinkedIn caption. Notes may be lighter, observational, and timely,
+but should never become AI-summary spam.
 
-### Website and artifacts
+### Website
 
-- qualified visits and traffic source;
-- artifact starts, downloads, completions, or repeat use where measurable;
-- conversion into voluntary subscribers or returning visitors;
-- qualitative failure, confusion, and support signals.
+Build only when the destination adds material utility: a calculator, workbook, reference, dashboard,
+decision board, guide, validated template, or runnable workflow. Start with the reader's useful
+decision, not the internal audit model.
 
-No single metric proves content quality. Record publication age and compare like with like.
+## Weekly operating loop
 
-## Six-Week Review
+```text
+1. Learn
+   Read mature Tiger outcomes and atom-level transfer notes.
 
-At the end of the pilot, decide:
+2. Scan
+   Gather audience pain, saved-pattern opportunities, public evidence, Substack, and timely signals.
 
-- which audience roles repeatedly responded;
-- which problem families earned qualified reach or repeat readership;
-- which proof and artifact types transferred to Tiger's account;
-- which results depended on news, promotion, authority, or an established audience;
-- whether the Substack flagship and Notes cadence is sustainable;
-- which website artifacts showed real use;
-- which production steps should be automated, simplified, or removed.
+3. Retrieve
+   Build Creative Genome shortlists for several promising reader jobs.
 
-Only then revise the longer calendar, product roadmap, or monetization plan.
+4. Recombine
+   Generate ten concepts and develop at least three distinct directions per serious candidate.
 
-## Supporting References
+5. Select
+   Choose a five-post portfolio using reader payoff, creative strength, claim support, and channel role.
 
-- Audience and qualification: `audience-intelligence.md`, `topic-selection-scorecard.md`
-- Stage-0 method and limitations: `linkedin-v4-stage0-research-spec.md`, `linkedin-v4-stage0-codebook-v1.md`
-- Stage-0 completion report: `outputs/019f9f5f-70b9-7a02-905c-01042213e908/linkedin-v4-full-study-2026-07-28/stage0-completion-report.md`
-- Stage-0 audit trail: `outputs/019f9f5f-70b9-7a02-905c-01042213e908/linkedin-v4-full-study-2026-07-28/linkedin-v4-stage0-research-control-final.xlsx`
-- Creator systems: `linkedin-creator-benchmark-50-2026.md`, `ai-creator-education-growth-playbook.md`
-- Voice and provenance: `../../tiger-voice.md`, `tiger-source-gate-v1.md`, `tiger-voice-bank.md`
-- Candidate calendars: `master-calendar.md`, `101-plan.md`, `ai-for-sc-plan-v2.md`
-- Weekly execution: `../templates/weekly-signal-scan-template.md`; active Pilot Week 1: `../data/2026-W32/v4-weekly-signal-scan.md`
-- Production: `visual-engine-v2.md`, `creative-engine-v3-lean.md`, `motion-engine-v1.md`
-- Final handoff: `publish-resource-handoff-v1.md`, `publish-asset-spec-v1.md`
+6. Support
+   Run only the research depth required by the planned claims; capture Tiger source where needed.
+
+7. Build
+   Produce complementary visual, caption, and optional artifact through the selected content mode.
+
+8. Publish and distribute
+   Publish manually, comment thoughtfully, and adapt the evidence cluster to each channel.
+
+9. Measure
+   Connect results to the exact reference bundle and creative atoms used.
+```
+
+Research and creative exploration may loop. This is intentional. Do not freeze the creative direction
+before learning what the subject can truthfully and usefully become.
+
+## Measurement
+
+Keep outcomes separate:
+
+- **LinkedIn:** impressions, reached members, saves, sends, comments, reposts, profile viewers,
+  relevant followers, and matched-age conversion rates;
+- **Substack:** visits, subscriber sources, subscriptions, opens with delivery context, clicks,
+  replies, shares, recommendations, and repeat reading;
+- **Website:** qualified visits, downloads, starts, completions, return use, and voluntary subscriptions.
+
+Link every new output to `creative_bundle_id`, `genome_reference_ids`, `creative_element_ids`,
+`content_mode`, and `claim_mode`. Record whether the assembly transferred and an `element_transfer`
+result for each accepted creative element. Do not
+rewrite the creative source's positive-signal status.
+
+## Adding news and trends later
+
+WorldMonitor, primary news, regulation, company releases, social listening, Substack momentum, and
+tool updates are freshness inputs. Add them as signal and retrieval facets. They do not replace the
+Creative Genome, the reader contract, claim support, or Tiger voice.
+
+## Active authorities
+
+- Creative intelligence: `creative-genome-recombination-engine-v1.md`
+- Opportunity selection: `creative-opportunity-selection.md`
+- Audience: `audience-intelligence.md`
+- Voice and provenance: `../../tiger-voice.md`, `tiger-source-gate-v1.md`
+- Production QA: `creative-engine-v4-recombination.md`, `visual-engine-v2.md`
+- Brand: `brand-kits/cobalt-grid/FRAME.md`
+- Motion: `motion-engine-v1.md`
+- Handoff: `publish-resource-handoff-v1.md`, `publish-asset-spec-v1.md`
+- Measurement: `.claude/skills/analytics/SKILL.md`
+- Immutable baseline: `outputs/019fc389-0554-7a43-a8fa-07bd597be61d/linkedin-content-market-fit-audit-2026-08-02/`
+
+Calendars and lane plans are candidate banks. Archived files are historical evidence, never current
+workflow authority.
