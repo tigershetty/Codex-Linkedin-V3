@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "name": "Shetty's Desk Ship Now vs Consolidate Calculator",
+  "version": "0.2.0",
+  "status": "local_verified_publication_hold",
+  "entrypoint": "index.html",
+  "firstSafeRun": "python3 -m http.server 4173 --bind 127.0.0.1 --directory infographic-setup/data/2026-W32/ship-now-vs-consolidate",
+  "testCommand": "node --test infographic-setup/data/2026-W32/ship-now-vs-consolidate/calculator/decision-engine.test.mjs",
+  "sourceOfTruth": [
+    "../research-brief.md",
+    "../decision-model-test-cases.json",
+    "../tiger-source.md"
+  ],
+  "capabilities": [
+    "compatibility gate",
+    "input freshness and credibility gate",
+    "best/base/worst service scenarios",
+    "differential economics",
+    "ship-now and consolidation timelines",
+    "joint KAM and Purchasing Manager exception record",
+    "joint KAM and Purchasing Manager replan escalation",
+    "recurring-exception system warning",
+    "downloadable JSON decision record",
+    "synthetic green, amber, and red first runs"
+  ],
+  "humanDecisionBoundary": {
+    "customerCommitmentOwner": "KAM",
+    "freightDecisionOwner": "Purchasing Manager",
+    "serviceExceptionRequiresBoth": true,
+    "autonomousRelease": false,
+    "erpOrTmsUpdate": false
+  },
+  "excluded": [
+    "production data connection",
+    "ERP or TMS write-back",
+    "automated shipment release",
+    "network optimization",
+    "carrier selection",
+    "EOQ or batch-size optimization",
+    "probability-weighted expected value",
+    "public deployment"
+  ],
+  "qa": {
+    "engineTests": 20,
+    "desktopViewport": "1440x1000",
+    "mobileViewport": "390x844",
+    "screenshots": [
+      "qa/desktop-consolidate-result.png",
+      "qa/mobile-service-risk-result.png"
+    ]
+  }
+}

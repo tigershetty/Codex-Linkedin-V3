@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A customer-first decision aid for choosing whether to ship a ready inbound PO now or wait to consolidate it with a second compatible PO."
+    />
+    <title>Ship Now vs Consolidate — Shetty's Desk</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./styles.css?v=20260802-7" />
+  </head>
+  <body>
+    <a class="skip-link" href="#decision-form">Skip to calculator inputs</a>
+
+    <header class="hero">
+      <div class="hero__eyebrow">Shetty's Desk · Decision Tool 01</div>
+      <div class="hero__layout">
+        <div>
+          <h1>Ship now, or wait to consolidate?</h1>
+          <p class="hero__lede">
+            Test both feasible options against the customer date first, then compare only the costs that genuinely change. If neither option is robust, KAM and Purchasing Manager must jointly replan or expedite; waiting through a consolidation miss requires their joint exception.
+          </p>
+        </div>
+        <aside class="principle-card" aria-label="Decision order">
+          <span>Decision order</span>
+          <ol>
+            <li>Data and compatibility</li>
+            <li>Customer need-by</li>
+            <li>Differential economics</li>
+            <li>Joint exception approval</li>
+          </ol>
+        </aside>
+      </div>
+
+      <div class="demo-bar" aria-label="Synthetic test cases">
+        <div>
+          <strong>Try the validated synthetic cases</strong>
+          <span>They contain invented values for logic testing, not business results.</span>
+        </div>
+        <div class="button-row">
+          <button type="button" class="button button--quiet" id="load-green">Load consolidate case</button>
+          <button type="button" class="button button--quiet" id="load-amber">Load service-risk case</button>
+          <button type="button" class="button button--quiet" id="load-red">Load data-stop case</button>
+          <button type="button" class="button button--ghost" id="new-decision">Start blank</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="synthetic-banner" id="synthetic-banner" hidden role="status">
+      <strong>Synthetic example loaded.</strong> All values are invented and must not be presented as a business result.
+    </div>
+
+    <main class="workspace">
+      <form id="decision-form" class="decision-form" novalidate>
+        <section class="form-section" aria-labelledby="validity-title">
+          <div class="section-heading">
+            <span class="section-index">01</span>
+            <div>
+              <h2 id="validity-title">Decision validity</h2>
+              <p>Classify every load-bearing input. Unknown, stale, or unreliable data must remain visible.</p>
+            </div>
+          </div>
+
+          <div class="field-grid field-grid--three">
+            <label class="field">
+              <span>Evaluation date and time <b aria-hidden="true">*</b></span>
+              <input class="model-input" id="evaluation-at" type="datetime-local" required />
+            </label>
+            <label class="field">
+              <span>Decision record ID</span>
+              <input class="model-input" id="record-id" type="text" placeholder="e.g. PO-4711 / 2026-08-02" />
+            </label>
+            <label class="field">
+              <span>Calculator currency <b aria-hidden="true">*</b></span>
+              <select class="model-input" id="currency">
+                <option>EUR</option>
+                <option>USD</option>
+                <option>GBP</option>
+                <option>SEK</option>
+              </select>
+            </label>
+          </div>
+
+          <h3>Compatibility gate</h3>
+          <p class="helper">Choose pass only after the condition has been checked. A failure means do not consolidate; unknown means data stop.</p>
+          <div class="table-wrap">
+            <table class="input-table">
+              <thead>
+                <tr><th scope="col">Condition</th><th scope="col">Status</th></tr>
+              </thead>
+              <tbody id="compatibility-body"></tbody>
+            </table>
+          </div>
+
+          <h3>Freshness and ownership</h3>
+          <div class="validity-grid">
+            <article class="validity-card">
+              <h4>Customer commitment</h4>
+              <label class="field">
+                <span>Freshness</span>
+                <select class="model-input" id="needby-status"></select>
+              </label>
+              <label class="field"><span>KAM / commitment source</span><input class="model-input" id="needby-owner" type="text" placeholder="Name, role, or reference" /></label>
+              <label class="field">
+                <span>Confirmed at</span>
+                <input class="model-input" id="needby-confirmed-at" type="datetime-local" />
+              </label>
+              <label class="check-field"><input class="model-input" id="needby-confirmed-kam" type="checkbox" /> Confirmed by KAM</label>
+              <label class="check-field"><input class="model-input" id="needby-authoritative" type="checkbox" /> Authoritative for all affected demand</label>
+            </article>
+
+            <article class="validity-card">
+              <h4>Shipment A readiness</h4>
+              <label class="field">
+                <span>Freshness</span>
+                <select class="model-input" id="ready-a-status"></select>
+              </label>
+              <label class="field"><span>Readiness source</span><input class="model-input" id="ready-a-source" type="text" placeholder="Supplier contact or release notice" /></label>
+              <label class="check-field"><input class="model-input" id="ready-a-confirmed" type="checkbox" /> Released and confirmed ready</label>
+            </article>
+
+            <article class="validity-card">
+              <h4>Supplier B range</h4>
+              <label class="field">
+                <span>Freshness</span>
+                <select class="model-input" id="supplier-status"></select>
+              </label>
+              <label class="field"><span>Supplier source / contact</span><input class="model-input" id="supplier-source" type="text" /></label>
+              <label class="field">
+                <span>Last supplier update</span>
+                <input class="model-input" id="supplier-updated-at" type="datetime-local" />
+              </label>
+              <label class="check-field"><input class="model-input" id="supplier-credible" type="checkbox" /> Range is credible enough to use</label>
+            </article>
+
+            <article class="validity-card">
+              <h4>Transit range</h4>
+              <label class="field">
+                <span>Freshness</span>
+                <select class="model-input" id="transit-status"></select>
+              </label>
+              <label class="field"><span>Carrier / forwarder source</span><input class="model-input" id="transit-source" type="text" /></label>
+              <label class="field">
+                <span>Last carrier update</span>
+                <input class="model-input" id="transit-updated-at" type="datetime-local" />
+              </label>
+            </article>
+
+            <article class="validity-card">
+              <h4>Freight quotes</h4>
+              <label class="field">
+                <span>Freshness</span>
+                <select class="model-input" id="quotes-status"></select>
+              </label>
+              <label class="field"><span>Quote reference / source</span><input class="model-input" id="quote-source" type="text" /></label>
+              <div class="field-pair">
+                <label class="field"><span>Issued at</span><input class="model-input" id="quote-issued-at" type="datetime-local" /></label>
+                <label class="field"><span>Valid through</span><input class="model-input" id="quote-valid-through" type="datetime-local" /></label>
+              </div>
+              <label class="check-field"><input class="model-input" id="quotes-comparable" type="checkbox" /> Same lane, scope, service, currency, and surcharges</label>
+            </article>
+          </div>
+        </section>
+
+        <section class="form-section" aria-labelledby="service-title">
+          <div class="section-heading">
+            <span class="section-index">02</span>
+            <div>
+              <h2 id="service-title">Customer service timelines</h2>
+              <p>Enter the first feasible consolidation departure, not only the date shipment B becomes ready.</p>
+            </div>
+          </div>
+
+          <div class="field-grid field-grid--three">
+            <label class="field"><span>Customer need-by <b aria-hidden="true">*</b></span><input class="model-input" id="need-by-at" type="datetime-local" /></label>
+            <label class="field"><span>Shipment A ready <b aria-hidden="true">*</b></span><input class="model-input" id="ready-a-at" type="datetime-local" /></label>
+            <label class="field"><span>Ship-now departure <b aria-hidden="true">*</b></span><input class="model-input" id="ship-now-dispatch-at" type="datetime-local" /></label>
+            <label class="field"><span>Incoterm <b aria-hidden="true">*</b></span><input class="model-input" id="incoterm" type="text" placeholder="e.g. FCA" /></label>
+            <label class="field field--wide"><span>Named place <b aria-hidden="true">*</b></span><input class="model-input" id="named-place" type="text" placeholder="e.g. supplier dock, Malmö" /></label>
+          </div>
+
+          <div class="table-wrap table-wrap--wide">
+            <table class="input-table scenario-input-table">
+              <thead>
+                <tr>
+                  <th scope="col">Scenario</th>
+                  <th scope="col">B ready</th>
+                  <th scope="col">First feasible consolidation departure</th>
+                  <th scope="col">Ship-now transit days</th>
+                  <th scope="col">Consolidated transit days</th>
+                  <th scope="col">Ship-now handling / buffer</th>
+                  <th scope="col">Consolidated handling / buffer</th>
+                </tr>
+              </thead>
+              <tbody id="service-scenario-body"></tbody>
+            </table>
+          </div>
+          <p class="helper">Best, base, and worst are sensitivity cases, not probabilities. This tool does not calculate an expected value.</p>
+        </section>
+
+        <section class="form-section" aria-labelledby="economics-title">
+          <div class="section-heading">
+            <span class="section-index">03</span>
+            <div>
+              <h2 id="economics-title">Differential economics</h2>
+              <p>Enter only costs that change between shipping now and waiting. Blank and zero are intentionally different.</p>
+            </div>
+          </div>
+
+          <div class="field-grid field-grid--four">
+            <label class="field"><span>Quote currency</span><select class="model-input" id="quote-currency"><option>EUR</option><option>USD</option><option>GBP</option><option>SEK</option></select></label>
+            <label class="field"><span>Ship A separately</span><input class="model-input" id="freight-a" type="number" min="0" step="0.01" inputmode="decimal" /></label>
+            <label class="field"><span>Ship B separately later (current estimate)</span><input class="model-input" id="freight-b" type="number" min="0" step="0.01" inputmode="decimal" /></label>
+            <label class="field"><span>Minimum worthwhile net saving (M)</span><input class="model-input" id="minimum-net-value" type="number" min="0" step="0.01" inputmode="decimal" /></label>
+          </div>
+
+          <div class="economic-mode">
+            <label class="field">
+              <span>Incremental wait-cost method</span>
+              <select class="model-input" id="economic-mode">
+                <option value="direct_daily">Direct differential cost per held day</option>
+                <option value="annual_rate">Annual-rate shortcut</option>
+              </select>
+            </label>
+
+            <div id="annual-rate-fields" class="annual-rate-fields" hidden>
+              <label class="field"><span>Shipment A value</span><input class="model-input" id="shipment-a-value" type="number" min="0" step="0.01" inputmode="decimal" /></label>
+              <label class="field"><span>Genuinely incremental annual rate (%)</span><input class="model-input" id="annual-rate-percent" type="number" min="0" step="0.01" inputmode="decimal" /></label>
+              <label class="check-field check-field--emphasis"><input class="model-input" id="annual-assumption" type="checkbox" /> Holding A creates this incremental ownership/capital cost versus shipping now</label>
+            </div>
+          </div>
+
+          <div class="table-wrap table-wrap--wide">
+            <table class="input-table scenario-input-table">
+              <thead>
+                <tr>
+                  <th scope="col">Scenario</th>
+                  <th scope="col">Consolidated freight</th>
+                  <th scope="col" class="direct-daily-heading">Incremental cost per held day</th>
+                  <th scope="col">One-off differential cost</th>
+                  <th scope="col">Recovery / expedite / shortage cost</th>
+                </tr>
+              </thead>
+              <tbody id="economic-scenario-body"></tbody>
+            </table>
+          </div>
+          <p class="helper">The annual-rate shortcut is blocked until its incremental-cost assumption is explicitly confirmed. Incoterms are recorded, but never used to infer title or capital exposure automatically.</p>
+        </section>
+
+        <section class="form-section" aria-labelledby="governance-title">
+          <div class="section-heading">
+            <span class="section-index">04</span>
+            <div>
+              <h2 id="governance-title">Governance and exception record</h2>
+              <p>The immediate decision can run without a recurrence policy. If you want the system warning, declare the threshold instead of relying on a hidden default.</p>
+            </div>
+          </div>
+
+          <div class="field-grid field-grid--three">
+            <label class="field"><span>Date basis</span><select class="model-input" id="date-basis"><option value="elapsed_24h_days">Elapsed 24-hour days (current MVP)</option></select></label>
+            <label class="field"><span>Recent comparable exceptions</span><input class="model-input" id="recent-exception-count" type="number" min="0" step="1" inputmode="numeric" placeholder="Optional" /></label>
+            <label class="field"><span>System-correction threshold</span><input class="model-input" id="recurring-threshold" type="number" min="1" step="1" inputmode="numeric" placeholder="Optional" /></label>
+          </div>
+
+          <div class="exception-panel">
+            <label class="check-field check-field--emphasis"><input class="audit-input" id="exception-requested" type="checkbox" /> Request a joint consolidation exception when waiting misses the customer date</label>
+            <div id="exception-fields" class="exception-fields" hidden>
+              <div class="field-grid field-grid--two">
+                <label class="field"><span>KAM name</span><input class="audit-input" id="kam-name" type="text" /></label>
+                <label class="field"><span>KAM decision</span><select class="audit-input" id="kam-status"><option value="pending">Pending</option><option value="approve">Approve exception</option><option value="reject">Reject exception</option></select></label>
+                <label class="field"><span>Purchasing Manager name</span><input class="audit-input" id="purchasing-name" type="text" /></label>
+                <label class="field"><span>Purchasing Manager decision</span><select class="audit-input" id="purchasing-status"><option value="pending">Pending</option><option value="approve">Approve exception</option><option value="reject">Reject exception</option></select></label>
+                <label class="field"><span>Joint decision time</span><input class="audit-input" id="exception-decision-at" type="datetime-local" /></label>
+                <label class="field field--wide"><span>Exception reason</span><textarea class="audit-input" id="exception-reason" rows="3"></textarea></label>
+              </div>
+              <button type="button" class="button button--quiet" id="record-exception">Update exception record</button>
+            </div>
+          </div>
+
+          <div class="evaluate-bar">
+            <div>
+              <strong>Run the gates in order</strong>
+              <span>The tool recommends; it never releases a shipment or changes ERP/TMS data.</span>
+            </div>
+            <button type="submit" class="button button--primary" id="evaluate-button">Evaluate decision</button>
+          </div>
+        </section>
+      </form>
+
+      <aside class="result-panel" id="result-panel" data-code="AWAITING_EVALUATION" aria-live="polite" aria-labelledby="result-title">
+        <div class="result-panel__sticky">
+          <div class="result-kicker">Decision output</div>
+          <div class="result-banner" id="result-banner">
+            <span id="result-label">AWAITING INPUT</span>
+            <h2 id="result-title">Complete the operating inputs, then evaluate</h2>
+            <p id="result-reason">No recommendation has been made.</p>
+          </div>
+
+          <div id="stale-notice" class="stale-notice" hidden>
+            Inputs changed after the last evaluation. Re-evaluate before using or exporting the decision.
+          </div>
+
+          <section id="issues-section" class="result-section" hidden>
+            <h3>What must be corrected</h3>
+            <ol id="issues-list"></ol>
+          </section>
+
+          <section id="scenario-section" class="result-section" hidden>
+            <div class="result-section__heading">
+              <h3>Best / base / worst</h3>
+              <span>Service shown before cost</span>
+            </div>
+            <div class="table-wrap result-table-wrap">
+              <table class="result-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Case</th>
+                    <th scope="col">Consolidated ETA</th>
+                    <th scope="col">Service slack</th>
+                    <th scope="col">Ship-now ETA</th>
+                    <th scope="col">Held days</th>
+                    <th scope="col">Freight saved</th>
+                    <th scope="col">Differential cost</th>
+                    <th scope="col">Net value</th>
+                    <th scope="col">Permitted hold</th>
+                  </tr>
+                </thead>
+                <tbody id="scenario-results"></tbody>
+              </table>
+            </div>
+          </section>
+
+          <section id="exception-result-section" class="result-section" hidden>
+            <h3 id="exception-result-title">Exception status</h3>
+            <p id="exception-result"></p>
+          </section>
+
+          <section id="system-result-section" class="result-section" hidden>
+            <h3>System correction</h3>
+            <p id="system-result"></p>
+          </section>
+
+          <section id="warnings-section" class="result-section" hidden>
+            <h3>Limits and warnings</h3>
+            <ul id="warnings-list"></ul>
+          </section>
+
+          <div class="result-actions">
+            <button type="button" class="button button--quiet" id="download-record" disabled>Download decision record</button>
+            <button type="button" class="button button--ghost" id="print-result" disabled>Print result</button>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="page-footer">
+      <strong>Decision aid, not autonomous instruction.</strong>
+      <span>Human owners remain accountable for customer commitments, freight decisions, exceptions, and every system-of-record change.</span>
+    </footer>
+
+    <script type="module" src="./app.mjs?v=20260802-7"></script>
+  </body>
+</html>

@@ -3,9 +3,9 @@
 - **Week:** `2026-W32`
 - **Content ID:** `2026-W32-ship-now-vs-consolidate-linkedin-01`
 - **Research date:** `2026-07-29`
-- **Status:** decision model tested with synthetic scenarios; Tiger review required
+- **Status:** operating order approved by Tiger; calculator built and locally verified
 - **Source mode:** `research-led` with fresh Tiger decision rules in `tiger-source.md`
-- **Production gate:** no caption, visual, calculator build, Substack issue, or publish handoff authorized yet
+- **Production gate:** calculator build authorized and complete; no caption, visual, Substack issue, public website handoff, or publication authorized yet
 
 ## 0. Executive Decision
 
@@ -120,12 +120,17 @@ The first version must not invent missing rates, dates, or customer commitments.
 For scenario `s` in `best`, `base`, and `worst`:
 
 ```text
-wait_days_s = max(0, ready_B_s - ready_A)
+supplier_wait_days_s = max(0, ready_B_s - ready_A)
 
 consolidated_dispatch_s = first_feasible_departure_after(ready_B_s)
 
+hold_days_s = max(0, consolidated_dispatch_s - ready_A)
+
 consolidated_ETA_s =
   consolidated_dispatch_s + handling_days_s + transit_days_s
+
+ship_now_ETA_s =
+  ship_now_dispatch + ship_now_handling_days_s + ship_now_transit_days_s
 
 service_slack_days_s = customer_need_by - consolidated_ETA_s
 
@@ -136,36 +141,38 @@ incremental_nonfreight_cost_s = Delta I_s + Delta S_s + Delta R_s
 net_consolidation_value_s =
   freight_saved_s - incremental_nonfreight_cost_s
 
-economic_break_even_wait_s =
+economic_break_even_hold_s =
   (freight_saved_s - C0_s - M) / k_s
 
-latest_safe_wait_s =
+latest_safe_hold_s =
   customer_need_by - handling_days_s - transit_days_s - ready_A
 ```
 
-For the linear illustration, `incremental_nonfreight_cost_s(w) = C0_s + k_s × w`, where `C0_s` is the one-off differential cost and `k_s` is the defensible incremental cost per wait day.
+For the linear illustration, `incremental_nonfreight_cost_s(h) = C0_s + k_s × h`, where `C0_s` is the one-off differential cost, `k_s` is the defensible incremental cost per held day, and `h` runs until the actual consolidation departure. Using `ready_B - ready_A` alone understates held time when a carrier cutoff delays dispatch after B becomes ready.
 
 `Delta I_s` must compare the two ownership/inventory timelines. `V_A × carrying rate × waiting days / 365` is valid only when holding A creates that incremental cost versus the ship-now baseline. If ownership and capital exposure are unchanged while A moves into transit, that shortcut may overstate the cost and must be replaced with the actual differential storage, financing, or handling cost.
 
 The linear break-even calculation is illustrative and valid only when the numerator is positive, incremental wait cost is reasonably linear, and the quote remains valid. The operational waiting limit is the smaller of the economic and service limits:
 
 ```text
-permitted_wait_s = min(economic_break_even_wait_s, latest_safe_wait_s)
+permitted_hold_s = min(economic_break_even_hold_s, latest_safe_hold_s)
 
-robust_permitted_wait = min(permitted_wait_s across all credible scenarios)
+robust_permitted_hold = min(permitted_hold_s across all credible scenarios)
 ```
 
 With dynamic or piecewise freight pricing, calculate net value at each feasible departure and use the last wait point where every credible scenario remains service-feasible and non-negative. Reprice at quote expiry, carrier cutoff, and material supplier updates.
 
 ### Decision logic
 
-1. **Compatibility fails:** `SHIP NOW / DO NOT CONSOLIDATE`.
+1. **Compatibility fails:** `DO NOT CONSOLIDATE`; evaluate and, if necessary, expedite the next feasible non-consolidated response against need-by.
 2. **Need-by, supplier-ready range, transit range, or current quote is missing/stale:** `DATA STOP`; do not hold A under a new consolidation decision.
-3. **Any credible scenario has negative service slack:** default `SHIP NOW`. A proposed exception becomes `ESCALATE — KAM + PURCHASING MANAGER`.
-4. **All credible scenarios meet need-by and all net values exceed `M`:** `CONSOLIDATE`.
-5. **Service passes but the economic scenarios disagree or sit near the threshold:** `REVIEW`; refresh quotes or narrow the uncertainty.
-6. **Repeated exceptions:** flag the governing rule, supplier reliability, customer-date process, or freight setup for system correction.
-7. **Both ship-now and consolidation miss the need-by date:** `REPLAN / EXPEDITE / CUSTOMER DISCUSSION`; do not select the cheaper miss.
+3. **Neither option protects need-by across every credible scenario:** `REPLAN / EXPEDITE / CUSTOMER DISCUSSION`; require a joint KAM + Purchasing Manager response and do not select the cheaper miss.
+4. **Only ship-now is robust:** default `SHIP NOW`. Waiting becomes `ESCALATE — KAM + PURCHASING MANAGER` and a joint exception never relabels the miss as safe.
+5. **Only consolidation is robust:** `CONSOLIDATE`; the customer date takes precedence and economics remain informational.
+6. **Both options are robust and all consolidation net values exceed `M`:** `CONSOLIDATE`.
+7. **Both options are robust but all consolidation net values are at or below `M`:** `SHIP NOW`.
+8. **Both options are robust but the economic scenarios disagree or sit near the threshold:** `REVIEW`; refresh quotes or narrow the uncertainty.
+9. **Repeated exceptions:** flag the governing rule, supplier reliability, customer-date process, or freight setup for system correction.
 
 This is a transparent decision aid, not a universal optimizer or an autonomous shipping instruction.
 
@@ -225,6 +232,8 @@ The first useful calculator needs five surfaces:
 
 It does not need AI, login, a large dashboard, or an email gate in its minimum useful version.
 
+**Implemented:** `calculator/` is a zero-dependency, website-ready decision board that shares one deterministic engine across the browser interface and automated tests. It adds the ship-now timeline required to evaluate the “both options late” branch, exports an auditable JSON decision record, and keeps public publication on hold.
+
 ## 9. Prospective Content Experiment
 
 - **Opening variable:** role decision first, not named tool/task first.
@@ -245,7 +254,7 @@ It does not need AI, login, a large dashboard, or an email gate in its minimum u
 - Three scenarios cannot protect against omitted tail events; ranges should eventually come from supplier promise-error history and quote volatility.
 - Incoterms allocate obligations, costs, and risk but do not by themselves define title or the customer delay consequence.
 - The synthetic run must not be presented as a business result.
-- A calculator should be built only after Tiger accepts or changes the model and test outcomes.
+- Tiger accepted the operating order on `2026-08-02`; the calculator was then built and verified locally. This approval does not approve public wording or publication.
 
 ## Sources
 

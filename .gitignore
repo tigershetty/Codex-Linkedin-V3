@@ -34,6 +34,10 @@ Thumbs.db
 # Local review and rendering scratch; promote durable evidence into a dated archive
 /tmp/
 
+# Local browser QA scratch; promote selected evidence into the post folder
+/.playwright-cli/
+/output/playwright/
+
 # Build outputs
 .next/
 

@@ -8,7 +8,7 @@
 
 **Source mode:** `fresh`
 
-**Gate status:** `extracted`
+**Gate status:** `operating-model-approved; public-use pending`
 
 ## 1. Raw Input Provenance
 
@@ -58,6 +58,10 @@ Pending.
 
 > Sure, let's experiment and try
 
+**Operating-order approval (not public wording):**
+
+> Yes—the operating order matches reality: data and compatibility → customer need-by across credible scenarios → differential economics → joint exception approval. Go ahead and build the calculator now.
+
 ## 3. Approved Public-Safe Excerpts
 
 | Statement ID | Public-safe excerpt | Evidence class | Source location | Allowed channels | Approval |
@@ -76,7 +80,9 @@ Pending.
 |---|---|---|
 | No draft authorized | pending | pending |
 
-**Tiger-approved stance:** pending
+**Tiger-approved operating logic:** customer-first gate order approved on `2026-08-02`
+
+**Tiger-approved public stance or wording:** pending
 
 **Tiger-approved uncertainty or failure boundary:** pending
 
@@ -102,4 +108,4 @@ Pending.
 
 **Approved at:** pending
 
-**Notes:** C3 was selected on `2026-07-29`. The working research scenario is two compatible inbound POs from the same supplier, lane, destination, and service class: shipment A is ready and shipment B will be ready in a few days. This is a release-timing decision, not another EOQ or batch-size post. Tiger's first captured decision rule is that the customer need-by date is inspected first. Tiger also distinguishes a governed exception from a recurring workaround: exceptions can proceed through escalation, but they cannot become the normal operating method. Tiger named the KAM and Purchasing Manager as the decision owners. Tiger identified three practical failure inputs: unreliable supplier-ready dates, customer dates that need greater clarity, and dynamic freight costs. Tiger agreed to experiment with best/base/worst-case scenarios and forced escalation when a credible scenario threatens the need-by date. This is approval to test the method, not approval of public wording or a result. The working interpretation—pending public-use approval—is that service feasibility is the standard hard gate; the KAM protects the customer commitment, the Purchasing Manager owns the purchasing/freight trade-off, and neither side accepts the exception alone. Recurring exceptions indicate a system or rule that needs correction. A single-point recommendation would create false precision when dates or rates are unstable, so the artifact should record source, timestamp, confidence, and scenario range for those inputs. The proposed output is freight saved, differential option cost, net consolidation value, break-even wait/date, service-gate result, input-confidence flags, joint approval status, and `ship now / consolidate / escalate / review`. No caption, visual, calculator, or Substack draft is authorized yet.
+**Notes:** C3 was selected on `2026-07-29`. The working research scenario is two compatible inbound POs from the same supplier, lane, destination, and service class: shipment A is ready and shipment B will be ready in a few days. This is a release-timing decision, not another EOQ or batch-size post. Tiger's first captured decision rule is that the customer need-by date is inspected first. Tiger also distinguishes a governed exception from a recurring workaround: exceptions can proceed through escalation, but they cannot become the normal operating method. Tiger named the KAM and Purchasing Manager as the decision owners. Tiger identified three practical failure inputs: unreliable supplier-ready dates, customer dates that need greater clarity, and dynamic freight costs. Tiger agreed to experiment with best/base/worst-case scenarios and forced escalation when a credible scenario threatens the need-by date. This is approval to test the method, not approval of public wording or a result. The working interpretation—pending public-use approval—is that service feasibility is the standard hard gate; the KAM protects the customer commitment, the Purchasing Manager owns the purchasing/freight trade-off, and neither side accepts the exception alone. Recurring exceptions indicate a system or rule that needs correction. A single-point recommendation would create false precision when dates or rates are unstable, so the artifact should record source, timestamp, confidence, and scenario range for those inputs. The proposed output is freight saved, differential option cost, net consolidation value, break-even wait/date, service-gate result, input-confidence flags, joint approval status, and `ship now / consolidate / escalate / review`. The calculator is authorized for local implementation and testing; no caption, visual, Substack draft, public website release, or publication is authorized yet.

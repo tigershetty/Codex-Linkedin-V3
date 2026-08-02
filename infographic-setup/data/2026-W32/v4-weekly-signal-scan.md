@@ -3,7 +3,7 @@
 - **Run week:** `RW01`
 - **ISO week:** `2026-W32`
 - **Prepared:** `2026-07-29`
-- **Status:** `C3 research model tested; awaiting Tiger review before calculator or drafting`
+- **Status:** `C3 calculator built and locally verified; public voice, caption, visual, and website handoff remain gated`
 - **Canonical workflow:** `references/v4-audience-growth-operating-system.md`
 - **Research evidence:** `data/2026-W32/v4-week1-research-evidence.md`
 
@@ -57,7 +57,7 @@ Select only after the admission board is complete. The functions below are portf
 | Slot | Function | Content ID | Topic | Proof / artifact | Source mode | Status |
 |---|---|---|---|---|---|---|
 | 1 | Decision distinction / problem map |  |  |  |  | pending |
-| 2 | Framework, formula, or operating artifact | `2026-W32-ship-now-vs-consolidate-linkedin-01` | One inbound PO is ready; should it ship now or wait for the next compatible PO? | Release-timing calculator with break-even date, hard service gate, and input-confidence flags | fresh Tiger input extracted; public-use pending | research model tested; Tiger review |
+| 2 | Framework, formula, or operating artifact | `2026-W32-ship-now-vs-consolidate-linkedin-01` | One inbound PO is ready; should it ship now or wait for the next compatible PO? | Release-timing calculator with break-even date, hard service gate, input-confidence flags, and joint exception record | operating model approved; public-use pending | calculator locally verified; publication hold |
 | 3 | Verified AI workflow with a human control |  |  |  |  | pending |
 | 4 | Proof, failure boundary, or public-data interpretation |  |  |  |  | pending |
 | 5 | One deliberate experiment or timely/leadership angle |  |  |  |  | pending |
@@ -104,4 +104,4 @@ The week is ready for production only when:
 - any Substack flagship has fresh Tiger input;
 - [x] no topic was selected solely because it appeared in the old calendar or Top-100 set.
 
-Current gate: **C3 research model tested; Tiger review required before calculator or drafting.**
+Current gate: **C3 calculator is built and locally verified. Public wording, caption, still, website port, preview, and publication remain separate approval gates.**
