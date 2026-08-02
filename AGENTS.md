@@ -1,12 +1,14 @@
-# Shetty's Desk — LinkedIn-V2 Workspace
+# Shetty's Desk — Audience Growth V4 Workspace
 
-LinkedIn supply chain content engine for Tiger Shetty's "Shetty's Desk" brand.
-Version-controlled for remote Codex access (web/mobile).
+Audience, research, and publishing engine for Tiger Shetty's "Shetty's Desk" brand.
+LinkedIn is the discovery surface, Substack is the depth and relationship surface, and
+the website is the durable artifact and product surface. Version-controlled for remote
+Codex access (web/mobile).
 
 ## Repo Map
 | Path | Status | Purpose |
 |---|---|---|
-| `infographic-setup/` | **Active** | The content engine — `/101` + `/ai-for-sc` pipelines, topic plans, voice, data. Start here: `infographic-setup/AGENTS.md` and `infographic-setup/CLAUDE.md` |
+| `infographic-setup/` | **Active** | The V4 audience-growth engine plus the `/101` and `/ai-for-sc` production lanes. Start with `infographic-setup/references/v4-audience-growth-operating-system.md`, then read `infographic-setup/AGENTS.md` and `infographic-setup/CLAUDE.md`. |
 | `videos/` | **Active** | Post-specific motion projects for the standard still + motion package. Use `infographic-setup/references/motion-engine-v1.md`; repeat the production system, not a fixed choreography. |
 | `ui-kit/` | Reference | Reusable React blocks + animations salvaged from the retired web app |
 | `docs/` | Reference | Design specs and automation plans (history) |
@@ -15,14 +17,27 @@ Version-controlled for remote Codex access (web/mobile).
 | `test-linkedin-post.sh` | On hold | LinkedIn draft-post test (see below) |
 | `_archive/` | Archive | `web-app/` (retired Vite/React + Python app), `eco-mobility/` (prior project) |
 
-## The content engine (where the work happens)
-Two active pipelines share one 7-month monthly theme calendar:
-- **Supply Chain 101** (`/101`) — Posts 1 + 2 each week, plain-language concepts. Visual: **Visual Engine v2** — ChatGPT / GPT Image 2 is the primary creative renderer; HTML/code-render (`infographic-setup/renderer/`) is the backup and comparison lane. After still approval, **Motion Engine v1** produces the layout-adaptive GIF/MP4 companion unless the motion eligibility gate records a still-only exception.
-- **AI for Supply Chain** (`/ai-for-sc`) — Posts 3 + 4 each week, role-based AI use cases. Visual: **Visual Engine v2** — GPT Image 2 first for editorial infographic output, with HTML/code-render retained for exact-data controls and backup PNGs. After still approval, **Motion Engine v1** produces the layout-adaptive GIF/MP4 companion unless the motion eligibility gate records a still-only exception.
+## The audience-growth engine (where the work happens)
+
+The canonical upstream system is `infographic-setup/references/v4-audience-growth-operating-system.md`.
+It selects audience problems, evidence, artifacts, channel roles, and experiments before a
+production lane is chosen.
+
+The six-week V4 pilot uses:
+
+- **LinkedIn:** five value-dense posts per week plus 20–30 minutes of thoughtful manual commenting on publishing days.
+- **Substack:** one flagship issue every two weeks plus three Notes per week.
+- **Website:** artifact-led publication when a calculator, workbook, dashboard, guide, decision board, or validated workflow adds real utility.
+
+Two production lanes remain active, but neither receives an automatic weekly quota:
+
+- **Supply Chain 101** (`/101`) — plain-language decision distinctions and practical foundations. Visual: **Visual Engine v2** — ChatGPT / GPT Image 2 is the primary creative renderer; HTML/code-render (`infographic-setup/renderer/`) is the backup and comparison lane. After still approval, **Motion Engine v1** produces the layout-adaptive GIF/MP4 companion unless the motion eligibility gate records a still-only exception.
+- **AI for Supply Chain** (`/ai-for-sc`) — role-specific AI workflows with explicit inputs, artifacts, validation, and human ownership. Visual: **Visual Engine v2** — GPT Image 2 first for editorial infographic output, with HTML/code-render retained for exact-data controls and backup PNGs. After still approval, **Motion Engine v1** produces the layout-adaptive GIF/MP4 companion unless the motion eligibility gate records a still-only exception.
 - **Final publish stage** — after explicit still and caption approval, use `infographic-setup/references/publish-resource-handoff-v1.md`. AI-for-SC posts also pass a resource eligibility gate; qualified packs are direct-download, no-email resources with a compact branded field guide, safe sample run, completed outputs, and validation.
 - **Deep Dive** — data-heavy research pipeline, **archived** (`infographic-setup/skills-archive/deep-dive/`).
 
-Plans (single sources of truth):
+Canonical operating system and supporting plans:
+- V4 operating system: `infographic-setup/references/v4-audience-growth-operating-system.md`
 - Master calendar: `infographic-setup/references/master-calendar.md`
 - 101 topics: `infographic-setup/references/101-plan.md`
 - AI for SC use cases: `infographic-setup/references/ai-for-sc-plan-v2.md`
@@ -41,6 +56,7 @@ Plans (single sources of truth):
 ## Voice DNA
 - **File:** `tiger-voice.md` (workspace root) — definitive voice reference across all pipelines.
 - **Interview plan:** `voice-interview-plan.md`. Applies to all writing: captions, posts, copy, emails.
+- **V4 source gate:** use `infographic-setup/references/tiger-source-gate-v1.md`. Research may find and structure the idea, but no flagship caption or Substack issue is final until Tiger supplies or approves the stance, failure boundary, first check, human owner, and uncertainty. Never invent a personal anecdote, result, conversation, or belief.
 
 ## Gemini — Two Separate Uses
 1. **Infographic Gem** ("Shetty's Desk — Infographic Engine") — for the archived Deep Dive pipeline. Requires `infographic-setup/references/brand-anchor-v1.webp` upload each session.

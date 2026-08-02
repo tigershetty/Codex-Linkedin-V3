@@ -1,0 +1,26 @@
+{
+  "profile": {
+    "profileScraperMode": "Profile details no email ($4 per 1k)",
+    "urls": [
+      "https://www.linkedin.com/in/stuart-hardman",
+      "https://www.linkedin.com/in/supplychainaipro",
+      "https://www.linkedin.com/in/charlie-hills"
+    ]
+  },
+  "posts": {
+    "targetUrls": [
+      "https://www.linkedin.com/in/stuart-hardman",
+      "https://www.linkedin.com/in/supplychainaipro",
+      "https://www.linkedin.com/in/charlie-hills",
+      "https://www.linkedin.com/posts/anguscraigfcips_like-many-people-ive-been-trying-to-get-activity-7450877132563558400-2vPe",
+      "https://www.linkedin.com/posts/ericpartaker_85-of-leaders-regretted-a-major-decision-activity-7471169532758355968-c7NH"
+    ],
+    "maxPosts": 10,
+    "postedLimitDate": "2026-02-15T00:00:00+01:00",
+    "includeQuotePosts": true,
+    "includeReposts": true,
+    "scrapeReactions": false,
+    "scrapeComments": false,
+    "contextCountry": "any"
+  }
+}

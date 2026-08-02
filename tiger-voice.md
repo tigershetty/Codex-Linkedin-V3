@@ -128,9 +128,20 @@ Tiger's preferred writing sits between choppy fragments and long-winded explanat
 - Use emojis unless they serve a genuine purpose
 - Write in a way that could have been written by anyone about anything — specificity is authenticity
 
+### Hard Rules — Authenticity and Provenance
+
+- Never invent or infer a personal anecdote, quotation, opinion, result, credential, team practice, implementation, or workplace experience.
+- A first-person claim such as "I built," "I used," "my team," or "in my experience" requires an approved source ID from `infographic-setup/data/{week}/{slug}/tiger-source.md` or `infographic-setup/references/tiger-voice-bank.md`.
+- Public research can support Tiger's analysis, but it cannot be rewritten as something Tiger personally observed or achieved.
+- Employer, colleague, supplier, customer, internal-system, operating-number, and process details are restricted by default. Use them only when Tiger explicitly approves the exact public claim.
+- Keep fact, professional judgment, hypothesis, and AI-assisted inference distinct. Preserve Tiger's uncertainty instead of polishing it into false certainty.
+- If no personal source exists, write as analysis. Specificity should come from the evidence, method, calculation, artifact, or decision boundary.
+- Only explicitly approved final writing and high-signal Tiger corrections may teach the voice system. Never use untouched AI drafts as voice evidence.
+- Apply `infographic-setup/references/tiger-source-gate-v1.md` before publication. `tiger-voice.md` remains the stable authority; the voice bank is the curated evidence and change ledger.
+
 ### Pattern Breakers (use at least 1 per post)
 - Start a sentence with "And" or "But"
-- Include one specific detail from real experience (a real meeting, a real product, a real number)
+- Include one specific, public-safe detail from an approved Tiger source; otherwise use a sourced method, artifact, calculation, or decision boundary
 - Use a parenthetical aside mid-sentence (like this one — it signals thinking in real time)
 - Vary bullet structure — not all 3 bullets need to follow the same format
 - Occasionally let a sentence run longer than feels "optimal" — humans do this when they're working through an idea

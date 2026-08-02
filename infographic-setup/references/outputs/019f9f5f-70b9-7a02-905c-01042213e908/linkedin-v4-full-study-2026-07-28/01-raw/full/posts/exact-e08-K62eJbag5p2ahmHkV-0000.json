@@ -1,0 +1,256 @@
+{
+  "runId": "K62eJbag5p2ahmHkV",
+  "datasetId": "KFNDH02nUGEAnJeXJ",
+  "offset": 0,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7462819434639056896",
+      "entityId": "7462819434639056896",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_linkedin-replaced-its-algorithm-with-a-single-activity-7462819434639056896-NSmK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7462812255982645248",
+      "shareUrn": "urn:li:share:7462812255982645248",
+      "content": "LinkedIn replaced its algorithm with a single AI system.\nAnd it works differently from what you are used to.\n\nEvery post now goes through four stages before it reaches anyone.\nQuality check, testing, distribution, and matching.\n\n1. The first stage filters out spam and engagement bait instantly.\n2. The second stage shows your post to a small group and watches what happens. If people engage, distribution expands and if they scroll past, it stops.\n3. Who sees it after that depends on how often they interact with you and how closely your topic matches their activity.\n4. The algorithm then matches your post to users based on topic, language, and mentioned companies.\n\nA few numbers worth knowing:\nComments now carry 15x more weight than likes.\nOne save drives 5x more reach than a like and 2x more than a comment.\nPosts with 60+ seconds of dwell time hit 15.6% engagement.\nPosts with under 3 seconds hit 1.2%.\n\nOnce you see how it works, you post differently.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1779274805698,
+        "date": "2026-05-20T11:00:05.698Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEIb7ZerZQ3mw/feedshare-shrink_1280/B4EZ5E8M3oH8AM-/0/1779273093052?e=1786579200&v=beta&t=fQCK0QTutRJ1uYrcBbkf7bKns3OM3gOAIB7QtRSi0eA",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7462819434639056896",
+        "likes": 155,
+        "comments": 54,
+        "shares": 10,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 131
+          },
+          {
+            "type": "INTEREST",
+            "count": 12
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/yonathan-levy_linkedin-replaced-its-algorithm-with-a-single-activity-7462819434639056896-NSmK",
+        "sessionId": "8b72b4a9-c53f-41ce-a987-4a38a3127740"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7461007326070800384",
+      "entityId": "7461007326070800384",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_the-best-way-to-sell-on-linkedin-is-to-stop-activity-7461007326070800384-fktl",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7461007325017894912",
+      "shareUrn": "urn:li:share:7461007325017894912",
+      "content": "The best way to sell on LinkedIn is to stop selling.\nSounds weird, but the data backs it up.\n\nHubSpot found that inbound leads convert at 14.6%.\nOutbound converts at 1.7%.\n\nThat is not a small gap.\nPeople who find you through your content are 8x more likely to buy than people you cold message.\n\nThe problem is that inbound takes time.\nThree to six months of consistent posting before the pipeline builds.\nThat is why everyone defaults to outbound and skips the content part.\n\nHere is what that looks like:\n\nPhase 1 is research.\nPick your niche, define your ICP, study what is already working in your space.\n\nPhase 2 is building.\nPost 3-4x a week. Track what performs weekly and double down on what works.\n\nPhase 3 is where it pays off.\nBuild a content bank, create a guide that people associate with your name.\n\nYour content does the selling.\nYou just have to give it time.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1778842765348,
+        "date": "2026-05-15T10:59:25.348Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGUZD0u3V-Pog/feedshare-shrink_1280/B4EZ4rSoKzJMAM-/0/1778842764482?e=1786579200&v=beta&t=j8SiGWBnxbqmPMNCgun-8RlnCQepw60f4fGBUHrsF_M",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7461007326070800384",
+        "likes": 136,
+        "comments": 47,
+        "shares": 14,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 116
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/yonathan-levy_the-best-way-to-sell-on-linkedin-is-to-stop-activity-7461007326070800384-fktl",
+        "sessionId": "f5e592b0-1548-4099-abbb-f61eabb24d9c"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7437105309875183616",
+      "entityId": "7437105309875183616",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_linkedin-rewards-the-people-who-understand-activity-7437105309875183616-v30x",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7437105308822384640",
+      "shareUrn": "urn:li:share:7437105308822384640",
+      "content": "LinkedIn rewards the people who understand how it works.\n\nHere is what the data shows:\n\n54% of people find you through your posts.\n30% through your comments.\n15% through network recommendations.\nLess than 1% through search.\n\nComment strategically. Every sharp comment is a profile visit waiting to happen.\n\nBeyond that:\n\n- Your best post from 90 days ago is new to 40% of your current followers. Repost it.\n- Reddit, your DMs, Grok - your audience is telling you exactly what to post about. You just have to look.\n- Design for mobile first. One idea per slide. High contrast and large text.\n- Batch your content. Collect, write, build visuals, schedule - all in one system.\n\nThe people growing fast on LinkedIn run a better system.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1773144080609,
+        "date": "2026-03-10T12:01:20.609Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQE3vYzm9P5nqA/feedshare-shrink_1280/B4EZzXn3jFJMAM-/0/1773144079055?e=1786579200&v=beta&t=eLyOmmR7hp2mMH6SjbZySN75ijIsu0GNiKSzJuxcWGo",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7437105309875183616",
+        "likes": 381,
+        "comments": 130,
+        "shares": 28,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 330
+          },
+          {
+            "type": "INTEREST",
+            "count": 27
+          },
+          {
+            "type": "EMPATHY",
+            "count": 16
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/posts/yonathan-levy_linkedin-rewards-the-people-who-understand-activity-7437105309875183616-v30x",
+        "sessionId": "cc63c821-b5b9-443e-8d36-5bb90f16e671"
+      }
+    }
+  ]
+}

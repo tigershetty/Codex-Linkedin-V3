@@ -1,0 +1,1446 @@
+{
+  "runId": "0FteOviCyR5VsRG4Q",
+  "datasetId": "TrisdoDA4LgrcBr80",
+  "offset": 40,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7437542694534660096",
+      "entityId": "7437542694534660096",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_6-links-1-product-if-any-single-one-fails-activity-7437542694534660096-CFyv",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7437542693171396608",
+      "shareUrn": "urn:li:share:7437542693171396608",
+      "content": "6 links. 1 product. If any single one fails, it does not arrive. That is a supply chain.\n\nI'm starting a series called Supply Chain 101. A simple, yet fundamental breakdown of supply chain building blocks and concepts made easy to understand and follow.\n\nBoth for experts and non supply chain folks! \n\nSo, what is a Supply Chain?\n\nA supply chain is not a single department or one organisation, it is the sequence of steps, people, and companies that turns raw material into something sitting on a shelf with a name on it. \n\n• The Source and the Supplier: The first 2 links determine what the product is made of and whether there is enough of it. Every shortage, substitution, and quality failure traces back here.\n\n• The Factory and the Warehouse: Links 3 and 4 are where raw material becomes product and where most of the cost is locked in before a single order is placed.\n\n• The Delivery and the Customer: They are the moment where 5 previous decisions either pay off or unravel at the final customer and how it is brought to them.\n\nWhich of these 6 links does your organisation understand the least? And.. is that the same one that keeps producing surprises for your supply chain?\n\n---\n\nFollow Poornajith Shetty for more supply chain insights and save this frame for the next time someone asks you to explain what a supply chain actually does.",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1773248361238,
+        "date": "2026-03-11T16:59:21.238Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHIsdBch5mUFQ/feedshare-shrink_1280/B4EZzd1qrdJAAM-/0/1773248359569?e=1786579200&v=beta&t=7su2k0jJMoH8syz316Jt0ziWXhjajD_nknjA1LrWWUQ",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7437542694534660096",
+        "likes": 12,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 12
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7443339949006868481",
+      "entityId": "7443339949006868481",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_every-supply-chain-professional-you-probably-activity-7443339949006868481-dUzc",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7443339947656503297",
+      "shareUrn": "urn:li:share:7443339947656503297",
+      "content": "Every supply chain professional you probably talk to about AI says some version of the same thing: \"I know it is useful, I just do not know where to start\".\n\nLet's continue on Episode 2 of the AI for Supply Chain series. Last post mapped which tasks AI handles well versus which still need you. This one is about closing the gap between seeing that map and actually doing something with it.\n\nThe research paints a clear picture: 80% of professionals have tried AI at work, but 57% spend less than 1% of their time in it. And 63% of companies have no AI usage policy at all, which means the barrier for most people is not that their organisation said no. \n\n• Most people in supply chain say the same thing: they opened ChatGPT or Claude once, typed something general like \"help me with demand planning,\" got an answer that could have come from a textbook, and closed the tab. But the difference between a useless AI interaction and a genuinely helpful one is almost always context. \"Help with demand planning\" gets you a Wikipedia summary. \n\n• \"Here are my last 12 months of forecast versus actuals for product family X\" Tell me where the bias is, whether it is model bias or input bias, and which months drove the largest error\" gets you something you can actually use in your next S&OP review.\n\nIf I were in your shoes, I would pick one task from this past week and get started. Not the most complex one. \n\nDescribe it to the AI the way you would brief a new team member: here is the situation, here is what I need, and here is what good output looks like. That is your first prompt.\n\nWhat is the one task from this week you would hand to an AI first? \n\n---\n\nFollow Poornajith Shetty for more supply chain insights! Save this frame or Repost it for the next time someone says \"I just do not know where to start\".",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1774630534412,
+        "date": "2026-03-27T16:55:34.412Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEzZU-cbbfqTw/feedshare-shrink_1280/B4EZ0wOPdoG0AQ-/0/1774630533592?e=1786579200&v=beta&t=ixK7Ob39Ak8zBntVD50EDEw0IAVL-wQ1QFD6TaC1fBw",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7443339949006868481",
+        "likes": 4,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7455995198607839232",
+      "entityId": "7455995198607839232",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_offshoring-saves-money-on-labour-nearshoring-activity-7455995198607839232-Sg_m",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7450453708083208192",
+      "shareUrn": "urn:li:share:7450453708083208192",
+      "content": "Offshoring saves money on labour. Nearshoring saves money on speed. Reshoring saves money on control. All three are true and all three are incomplete. The real comparison isn't unit cost, it is the total landed cost, and most companies miss the whole truth\n\nThis is Episode 18 of Supply Chain 101. In Episode 17 we covered demand planning, sensing, and shaping. Today we're looking at one of the most debated strategic decisions in modern supply chain: where should you manufacture?\n\nThere are three options, and each one optimises for something different:\n• Offshoring means manufacturing far from your end market, typically in low-cost countries. The advantage is lower unit cost. The trade-offs are longer lead times, higher inventory requirements, shipping costs, customs complexity, and less direct oversight of quality and operations.\n\n• Nearshoring means manufacturing closer to your end market, though not necessarily in the same country. Think Mexico for US companies, or Turkey and Eastern Europe for Western European companies. The advantage is shorter lead times and easier coordination. The trade-off is higher unit cost than offshoring, though not always by as much as people assume.\n\n• Reshoring means bringing manufacturing back to your home market. The advantage is maximum control, minimal lead time, and the simplest supply chain. The trade-off is typically the highest unit cost, though automation is closing that gap in some industries.\n\nHere's the thing most people miss: the comparison should never be unit cost alone. \n\nTotal landed cost includes freight, duties, inventory carrying costs, quality failure rates, lead time buffers, management overhead, and the opportunity cost of slow response. When you add those factors, offshoring's advantage often shrinks significantly, and in some cases flips entirely. \n\nHas your org run a total landed cost comparison, or is the decision still based on the number on the supplier quote?\n\n---\n\nFound this useful? Follow Poornajith Shetty for more supply chain insights and save/repost this for the next time someone says \"it's cheaper to make it overseas\" without showing the full math.",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1777647781040,
+        "date": "2026-05-01T15:03:01.040Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFK5D3XsEDTBg/feedshare-image-high-res/B56Z2VUKwGIYAc-/0/1776326585620?e=1786579200&v=beta&t=xTLiUjncWpWJac2QWPTOpruTcQzn7HhVzAfz0hEZcMg",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7455995198607839232",
+        "likes": 3,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7438223426168782848",
+      "entityId": "7438223426168782848",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_most-supply-chain-leaders-tracking-hormuz-activity-7438223426168782848-i8ij",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7438223424088461312",
+      "shareUrn": "urn:li:share:7438223424088461312",
+      "content": "Most supply chain leaders tracking Hormuz are watching oil prices. \n\nThe more important signal is Urea. 49% of global seaborne nitrogen is stranded inside the Gulf, as the biological clock for Northern Hemisphere spring planting runs in real time.\n\nThe March/April application window for corn, wheat, and soybean opened March 1. Unlike freight costs, missed nitrogen application creates permanent yield damage that no delayed shipment is able to recover.\n\n• The feedstock chain: Qatar is simultaneously the world's largest LNG exporter and a dominant urea producer. Hormuz halted both. Fertilizer plants in India, Pakistan, and Bangladesh are cutting domestic production too, because the gas feedstock for manufacturing their own supply is also blocked.\n\n• The 30-day rule: Agronomists confirm nitrogen applied after the first 30 days of plant growth cannot recover stunted root development. Current 2026 models project a 12% global cereal yield loss if the blockade holds through May.\n\n• Brazil and India: Brazil has secured only 30% of its next crop inputs, with May/June arrivals unconfirmed. India needs 10 million tonnes of urea for Kharif season in June. Both are currently stranded inside the Gulf with no confirmed replacement source identified.\n\nMy take: Oil is one part of the picture, but this shortage of urea will have a broader impact on food prices across the globe moving forward. \n\nWhich other dependencies in your supply chain have been halted due to the Hormuz strait deadlock since February 28?\n\n---\n\nFollow Poornajith Shetty for more supply chain insights!",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1773410660307,
+        "date": "2026-03-13T14:04:20.307Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEX8Yfv2Ll70Q/feedshare-shrink_1280/B4EZzngyefI8AY-/0/1773410658630?e=1786579200&v=beta&t=qr19Izf7i2SEYRrrxDzCuZhjZcz_XgP_XziP2F1R-s0",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7438223426168782848",
+        "likes": 9,
+        "comments": 0,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 9
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7440063470382931968",
+      "entityId": "7440063470382931968",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_logistics-moves-it-supply-chain-decides-activity-7440063470382931968-74F-",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7439760364621275138",
+      "shareUrn": "urn:li:share:7439760364621275138",
+      "content": "Logistics moves it. Supply chain decides whether it should be moved at all, from where, and at what cost. Two words people use interchangeably. Two very different jobs.\n\nThis is episode 2 of Supply Chain 101. Last week we defined what a supply chain actually is. This week we separate it from the function it gets confused with most often: Logistics.\n\nThink about your morning coffee - someone had to decide which country to source those beans from, which supplier offered the best balance of quality and price, and how much inventory to hold so your café never runs out. That is supply chain. \n\nSomeone else had to get those beans from the port to the roaster, from the roaster to the warehouse, and from the warehouse to the café before opening time. That is logistics.\n\n• Logistics is movement and storage. It answers: is the right product arriving at the right place, on time, and at the right cost?\n• Supply chain is the architecture around that movement. It answers: are we sourcing the right product, from the right supplier, in the right quantity, for the right market?\n• The relationship: logistics is a function inside supply chain, not a synonym for it. \n\nHere is the thing most people miss: when a company calls its logistics team 'supply chain', the planning and sourcing decisions often have no clear owner. And decisions without owners get made by default rather than by design.\n\nWhat does your company call the team that decides which suppliers to use and how much inventory to carry? Is that team the same one managing the trucks?\n\n---\n\nFollow Poornajith Shetty for more supply chain insights and save this frame for the next time someone asks you what the difference is between supply chain and logistics.",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1773849361034,
+        "date": "2026-03-18T15:56:01.034Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQF8RmPYW4f78Q/feedshare-image-high-res/B4EZz9WoN.JEAU-/0/1773777093875?e=1786579200&v=beta&t=tCUcuhHd3NuvHKnRTE5n7FX32Ej5T6x4hB9zAI6X7Lg",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7440063470382931968",
+        "likes": 21,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 21
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7439340292522119169",
+      "entityId": "7439340292522119169",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_this-is-what-took-the-us-from-their-shores-activity-7439340292522119169-octz",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7439340291158884353",
+      "shareUrn": "urn:li:share:7439340291158884353",
+      "content": "This is what took the U.S from their shores to the Battlefront on the Middle Eastern waters.\n\nDuring replenishment, every 90 seconds, a 5,200-pound load crosses 200 feet of open ocean between two ships doing highway speed(on water). The U.S. Navy runs this operation with no warehouse, no dock, and no fixed infrastructure. This is the Navy's Underway Replenishment.\n\nTwo ships that are pitching independently in the wide ocean. \n\nHere's what makes the Navy's Underway Replenishment unique:\n• Stream stations: A single tensioned highline delivers 104 tons per hour, and a Nimitz-class carrier runs six or more stations simultaneously to push combined throughput past 1,200 tons per hour across fuel, ordnance, and provisions.\n\n• Tolerance envelope: Helmsmen hold two ships within plus or minus 10 feet of lateral separation at 12 knots for eight consecutive hours, maintaining course within 2 degrees and speed within half a knot.\n\n• Full evolution: A carrier strike group transfers 6,000 short tons of material in a single UNREP window of six to ten hours, with load sequencing driven by consumption priority and ship stability.\n\nI find it interesting that the Navy started with the worst constraint, constant motion over open water, and engineered backward. That inversion is why their system works under pressure and most commercial ones don't. \n\nWhen was the last time your organisation stress-tested throughput assumptions?\n\n---\n\nFollow Poornajith Shetty for more supply chain insights!",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1773676941996,
+        "date": "2026-03-16T16:02:21.996Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHZ5cvTizM4sw/feedshare-shrink_1280/B4EZz3YkzCI8AM-/0/1773676941022?e=1786579200&v=beta&t=Ns_KEVEzcQ42Vf7tKjsTiafVXoKt_gGwE8u1v-5A3ec",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7439340292522119169",
+        "likes": 4,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7440818644235890688",
+      "entityId": "7440818644235890688",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_roughly-60-of-a-typical-planners-week-is-activity-7440818644235890688-xhGw",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7440818641022935041",
+      "shareUrn": "urn:li:share:7440818641022935041",
+      "content": "Roughly 60% of a typical planner's week is pattern detection, report drafting, and data categorisation. That is the 60% AI compresses. The other 40% is where careers are being built.\n\nThe supply chain role you are in today will not look the same in five years. Not because the fundamentals change, but because the tools around those fundamentals are shifting faster than most teams can absorb. \n\n• Demand planners are already using structured prompts to run bias analysis in minutes instead of hours. \n• Procurement professionals are stress-testing supplier contracts with AI before they sit down to negotiate. \n• Logistics coordinators are building carrier comparisons that used to take half a day in under ten minutes. This is not a future trend. It is happening now, unevenly, across the industry.\n\nThat is why I think it's important to get on that train, and take you along on that journey. I am learning and want to share with you what it looks today and what's to come.   \n\nSo, here's AI for Supply Chain. A series of practical workflows, prompts and honest conversations about what AI actually changes for supply chain professionals and what it does not. No fear mongering, hype or generic \"use AI to analyse your data.\"\n\nIt's what will separate competent from extraordinary. These are built for practitioners who already know their domain and want to compound that knowledge with speed.\n\nThis first post draws that very line. The infographic maps two columns: tasks where AI is genuinely faster than you, and tasks where your experience, relationships, and judgement cannot be replicated. The professionals who combine both sides will define the next generation of supply chain leadership.\n\nMap your last week to those two columns. Your ratio tells you exactly where your opportunity sits.\n\n---\n\nFollow Poornajith Shetty for more supply chain insights and save this frame for the next time someone asks you what AI can do in supply chain and what it can't.",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1774029408511,
+        "date": "2026-03-20T17:56:48.511Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFYlniniIkdKw/feedshare-image-high-res/B4EZ0MZICeHsAY-/0/1774029406710?e=1786579200&v=beta&t=C9gPde_9NC4_0rZ0DBKUzXrJe-4EXnXvd_7DMV8q2-o",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7440818644235890688",
+        "likes": 11,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 10
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7449474230271836160",
+      "entityId": "7449474230271836160",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_how-do-you-buy-a-car-procurement-is-activity-7449474230271836160-jjnb",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7449324847811280896",
+      "shareUrn": "urn:li:share:7449324847811280896",
+      "content": "How do you buy a car? \n\n• Procurement is the months of research: which brands, which features, which dealerships have the best reputation and financing terms. \n\n• Purchasing is the day you walk in, negotiate the final price, and sign the papers. \n\nYour company does both. The question is whether anyone has separated them.\n\nThis is Episode 9 of Supply Chain 101. So far we've covered the language of supply chain: planning layers, production strategies, and frameworks. Now we're moving into the mechanics. How supply chains buy, hold inventory, manage cost, and move goods. And it starts here, with the most commonly confused pair of words in the profession.\n\n• Purchasing is operational and executional. It's the daily work of converting a need into a transaction: sending purchase orders, confirming delivery dates, managing invoices. \n• Procurement is strategic. It's the work of deciding who to buy from, where to source, at what terms, and under what quality standards. Procurement designs the supplier relationship before purchasing executes it. \n\nHere's the confusing part: when companies conflate the two, strategic decisions get treated like operational tasks. A supplier that should be evaluated on total cost, reliability, and alignment gets chosen because they responded to the RFQ fastest. And vice versa: operational orders that just need to go out get held up by strategic review they don't require.\n\nDoes your company have a procurement strategy, or just a purchasing department?\n\n---\n\nFound this useful? \nFollow Poornajith Shetty for more supply chain insights and save/repost this for the next time someone uses procurement and purchasing interchangeably.",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1776093061035,
+        "date": "2026-04-13T15:11:01.035Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEqeQhlAxBzpw/feedshare-shrink_1280/B56Z2FRedpHEAM-/0/1776057444475?e=1786579200&v=beta&t=3fyh-Y9CTjvpLKOpO25ZkHqgC_E-uSM-4oJbCdHz4xc",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7449474230271836160",
+        "likes": 8,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7449829567516557312",
+      "entityId": "7449829567516557312",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_why-does-the-team-buying-raw-materials-for-activity-7449829567516557312-Hobv",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7449332864459968512",
+      "shareUrn": "urn:li:share:7449332864459968512",
+      "content": "Why does the team buying raw materials for your product report to the VP of Supply Chain, while the team buying laptops, cleaning services, and travel reports to... nobody in particular?\n\nThis is Episode 10 of Supply Chain 101. In Episode 9 we separated purchasing from procurement. Today we're splitting procurement itself into two categories, because the difference determines how much attention (and money) each one gets.\n\n• Direct procurement covers everything that ends up in the finished product: raw materials, components, packaging. If you make cars, it's the steel, the electronics, the tyres. These categories get dedicated teams, supplier scorecards, and quarterly business reviews because the link between what you buy and what you sell is obvious.\n\n• Indirect procurement covers everything the company needs to operate that doesn't touch the product: IT infrastructure, office supplies, facility management, travel, MRO (maintenance, repair, and operations), and professional services. These categories are often fragmented across departments, managed by whoever happens to need the service, and renewed on autopilot.\n\nWhat I see is indirect spend is typically 15-30% of revenue, and in most organisations it has a fraction of the strategic oversight that direct spend receives. Not because the money is small, but because it's spread across dozens of categories with no single owner. And that fragmentation is exactly why it's where some of the easiest savings sit. \n\nThe contrarian view is simple: if you've already optimised your direct material costs, the next lever isn't pushing suppliers harder. It's looking at the indirect side of the ledger where contracts auto-renew and nobody benchmarks.\n\nWho owns indirect spend in your organisation?\n\n---\n\nFound this useful? \nFollow Poornajith Shetty for more supply chain insights and save/repost this the next time someone says \"procurement\" without specifying which kind.",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1776177780036,
+        "date": "2026-04-14T14:43:00.036Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGk7alOa6Xw7g/feedshare-image-high-res/B56Z2FYw74HkAU-/0/1776059355157?e=1786579200&v=beta&t=iJjK3tUVp4Xw_BZou26BoSKp3D-22ZY_Dcg6S7bK49c",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7449829567516557312",
+        "likes": 6,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7442640583359221760",
+      "entityId": "7442640583359221760",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_every-time-a-delivery-gets-missed-where-i-activity-7442640583359221760-Z676",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7442640580062412800",
+      "shareUrn": "urn:li:share:7442640580062412800",
+      "content": "Every time a delivery gets missed where I work, the first question is always the same: was that a planning problem or a scheduling problem? It sounds like semantics, but the fix for each is completely different\n\nThis is episode 3 of Supply Chain 101. Last time we separated supply chain from logistics. Now we are going inside the factory, where two words that sound interchangeable are very different.\n\nThink of it like architecture and construction. \n\n• Planning is the blueprint: it decides how many units of which product you need over the next month, whether your lines have enough capacity, and which product families take priority. \nIt works on the assumption that resources will be available when it is time to execute. \nThat assumption makes planning useful, but it also makes it fragile, because the production floor does not operate on assumptions.\n\n• Scheduling is the construction crew: It takes that blueprint and figures out the actual sequence: which order runs on which machine, when changeovers happen, what to do when Machine 3 is down for maintenance on Wednesday and the raw material for Batch 7 arrived a day late. \nThese are not planning failures but floor realities that require a completely different kind of decision-making: trade-offs between competing orders, real-time sequencing, and working within whatever capacity is actually available right now.\n\n• Where it breaks is the space between the two. If the planner hands over a monthly volume target without understanding what the floor looks like this week, the scheduler essentially starts from scratch every morning. And if the scheduler never feeds back what actually happened, next month's plan gets built on the same assumptions that already failed.\n\nIf you look at the bigger picture, this is one of the most underestimated gaps in manufacturing. \n\nSo next time your production team misses a target: was the plan wrong, or did the plan just not survive contact with the floor?\n---\n\nFollow Poornajith Shetty for more supply chain insights and save this frame save this for the next time someone blames 'bad planning' for what may  actually be a scheduling problem or vice versa.",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1774463792648,
+        "date": "2026-03-25T18:36:32.648Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGVF-Jelu-ruA/feedshare-image-high-res/B4EZ0mSKxRIUAU-/0/1774463790533?e=1786579200&v=beta&t=rhtPWMXw_pY4ROH78fF_HrsQv40cEVFkJzHrUON1GSg",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7442640583359221760",
+        "likes": 9,
+        "comments": 4,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7431677458656944128",
+      "entityId": "7431677458656944128",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_shettysdesk-supplychain-fastfashion-activity-7431677458656944128-d__q",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7431614666331549696",
+      "shareUrn": "urn:li:share:7431614666331549696",
+      "content": "How do you get a customer to visit your store 17 times a year without spending 1€ on traditional advertising? \n\nZara’s supply chain could actually be their best marketing department. I’ve been dissecting the difference between efficiency and responsiveness. In a traditional supply chain, the goal is the lowest cost per unit. But Zara doubled down on an alternative idea: a cheap shirt that nobody wants is the most expensive item in the warehouse. \n\nWhile the rest of the industry was drowning in unsold inventory and 50% off clearance racks, Zara wanted to build on three pillars of strategic speed:\n- The Intentional Scarcity Loop: By changing floor designs every 14 days, they’ve gamified the shopping experience. The \"buy or bye\" psychology allows them to sell 85% of their stock at full price.\n- Physical speed : Utilizing \"The Cube\", underground monorails and airfreight they deliver to European stores in 24 hours and global markets in 48 hours.\n- Wait-and-See Manufacturing: Zara only commits about 50% of its production before a season starts. By keeping their capacity liquid, they secure flexibility.\n\nThey prioritize agility over cost by using air freight, focusing on proximal logistics. It is their play on being the most responsive player in the market instead of just the cheapest. \n\nMy take: The fast fashion approach has a huge impact on the environment, I believe we have lots of work to be done with promoting more eco-friendly practices. Nonetheless, an interesting study on agility and responsiveness. \n\nWhich brand’s supply chain should I deconstruct next for Shetty’s Desk? \nTag a brand or a supply chain disruptor you’re watching below.\n\n#ShettysDesk #SupplyChain #FastFashion #Zara #Strategy #Logistics #AgileBusiness #RetailInnovation #Inditex",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1771849980034,
+        "date": "2026-02-23T12:33:00.034Z",
+        "postedAgoShort": "5mo",
+        "postedAgoText": "5 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGEfO2ZAzcIHw/feedshare-image-high-res/B4EZyJmKHTGkAU-/0/1771835007923?e=1786579200&v=beta&t=rOxzH7mUkI-ufe_KcmIs0X6sP6JSwgrW0yMWHRxaZ0s",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7431677458656944128",
+        "likes": 14,
+        "comments": 3,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 11
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "2",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "paginationToken": "dXJuOmxpOmFjdGl2aXR5Ojc0Mzc1NDI2OTQ1MzQ2NjAwOTYtMTc3MzI0ODM2MTIyMA==",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7436809798576410624",
+      "entityId": "7436809798576410624",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_why-does-the-worlds-most-recognised-energy-activity-7436809798576410624-M5AZ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7436809796080562176",
+      "shareUrn": "urn:li:share:7436809796080562176",
+      "content": "Why does the world's most recognised energy drink not own a single factory?\n\n9 cents. That is what it costs Red Bull to make its drink. The can it comes in costs more. Here is why that number is the entire strategy.\n\nRed Bull outsources everything. Rauch Fruit Juice mixes and fills the beverage. Ball Corporation makes the can. Both partners are collocated on the same footprint in Austria, with direct rail and highway access built into the site. The supply chain is not lean by accident.\n\nThree things that make it work:\n• The SKU discipline: Red Bull runs 17 product configurations. Monster Energy manages 150+. Fewer variants means Rauch and Ball can optimise every production run. No variety tax in the supply chain.\n\n• The collocation model: Until 2021, two Alpine sites supplied every can sold globally. Same layout each time: Rauch plant, Ball plant, rail access, highway access. Red Bull replicated the exact model in Phoenix in 2021 for the US market.\n\n•  The cost split: Of every roughly $3 can, 9 cents covers the drink. Around $1 goes back into marketing and athlete sponsorship. The supply chain efficiency is what funds the brand engine.\n\nMy take: Red Bull did not build a beverage company, it built a marketing machine and designed the supply chain to be cheap enough to leave $1 per can for everything else.\n\nIf you removed your brand budget and looked at what your supply chain architecture is actually enabling or constraining in your organisation, what would you find?\n\n---\n\nFollow Poornajith Shetty for more supply chain insights!",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1773073625225,
+        "date": "2026-03-09T16:27:05.225Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFryqx7-VxJAw/feedshare-image-high-res/B4EZzTbGegIMAY-/0/1773073623369?e=1786579200&v=beta&t=tbxUVI8SWAFothHtwP6XX2huyEbIa49JnSCLy8nsyko",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7436809798576410624",
+        "likes": 46,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 37
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "2",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "paginationToken": "dXJuOmxpOmFjdGl2aXR5Ojc0Mzc1NDI2OTQ1MzQ2NjAwOTYtMTc3MzI0ODM2MTIyMA==",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7432443510550786048",
+      "entityId": "7432443510550786048",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_glp-1-distribution-crisis-activity-7432443510550786048-BYRi",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7431301006409330688",
+      "shareUrn": "urn:li:ugcPost:7431301006409330688",
+      "content": "Most supply chain leaders are so focused on what they need to build, they've stopped asking what they already have that someone else desperately needs?\n\nMcKesson didn't win a GLP-1 contract and then build the cold chain. They had the cold chain, then GLP-1 arrived. That sequence matters more than anything else in this story.\n\nThree interesting developments in the GLP-1 distribution:\n- The McKesson Anomaly: They didn't stumble into $14Billion in GLP-1 distribution revenue but had the capacity ready. \n- Deloitte findings: There was a $3-5 return, per dollar invested at 50,000+ sq ft in cold chain capacity.\n- Executive Indecision: Gartner puts 40-50% of organizations ranking GLP-1 cold chain a top-3 priority in the camp that still won't commit capital in time. \n\nThe problem with cold chain is that by the time the demand proves itself, you're already 18-36 months from being able to serve it. Compliance requirements cannot be compressed and lead time is fixed. \n\nThis edition of Shetty's Desk maps who's positioned, who's exposed, and a positioning matrix for what is to come.\n\nIf demand shifted in your category tomorrow, which asset in your current footprint would become suddenly scarce? \n\n#ShettysDesk #SupplyChainIntelligence #SCM #ColdChainStrategy McKesson Specialty Health McKesson Canada McKesson Canada",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1772032621038,
+        "date": "2026-02-25T15:17:01.038Z",
+        "postedAgoShort": "5mo",
+        "postedAgoText": "5 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "GLP-1  Distribution Crisis",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQHr87joqWBy_g/feedshare-document-sanitized-pdf/B4EZyFIt7ZKcA8-/0/1771760183223?e=1785877200&v=beta&t=wuddxlWkrxhtXnIj-bd9Nzv0FWhccPuH1BH9QW7gWMY",
+        "coverPages": [
+          {
+            "width": 1537,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4E1FAQHr87joqWBy_g/feedshare-document-cover-images_1920/B4EZyFIt7ZKcBQ-/0/1771760183662?e=1785877200&v=beta&t=YMzOjVk3Vc8yWeeDPGIjgiByBVNUZONJs7yRWZzTakc",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQHr87joqWBy_g/feedshare-document-cover-images_1920/B4EZyFIt7ZKcBQ-/1/1771760183662?e=1785877200&v=beta&t=prQhUUGt6azPimKjUxBGMuF4B0kjkKR6SxdNMQmsodI",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQHr87joqWBy_g/feedshare-document-cover-images_1920/B4EZyFIt7ZKcBQ-/2/1771760183662?e=1785877200&v=beta&t=MTYvzoG7EE5zn3aPc1LVBigsP_ld7KHvY9blh2TTI8E"
+            ],
+            "height": 1922
+          }
+        ],
+        "totalPageCount": 8,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHr87joqWBy_g/feedshare-document-master-manifest/B4EZyFIt7ZKcBY-/0/1771760183945?e=1785877200&v=beta&t=9sk_qoN4-F-uQtzHrXOszFMuWE8BT2Skg9FxiKhs_sk",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4E1FAQHr87joqWBy_g",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQHr87joqWBy_g/feedshare-document-transcript/B4EZyFIt7ZKcA0-/0/1771760183945?e=1785974400&v=beta&t=lLZgiKy4PnCzXUC-vMOsALnqb7H_90vKeYJKWddwTqs",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQHr87joqWBy_g/feedshare-document-pdf-analyzed/B4EZyFIt7ZKcAY-/0/1771760183945?e=1785974400&v=beta&t=LchSSEWHrjGXqfLsc3uKUo2qi1QYiUtIQWnE25I7-iY",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 387,
+              "height": 484,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHr87joqWBy_g/feedshare-document-images_480/B4EZyFIt7ZKcAg-/0/1771760183945?e=1785974400&v=beta&t=tR_SPpKa0LybB_E5K-oALQDi_l97Es9LlAGlAXjuhdo"
+            },
+            {
+              "width": 1537,
+              "height": 1922,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHr87joqWBy_g/feedshare-document-images_1920/B4EZyFIt7ZKcAo-/0/1771760183945?e=1785974400&v=beta&t=aBxH8tWKWwhFOKQocwzIl70S6s98ph8ZNVvWrKNmmVg"
+            },
+            {
+              "width": 1025,
+              "height": 1281,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHr87joqWBy_g/feedshare-document-images_1280/B4EZyFIt7ZKcAQ-/0/1771760183945?e=1785974400&v=beta&t=UfJwDE8QVzPk7mOI9ad9pvwxHkWHteZP2F8dEG1RVIU"
+            },
+            {
+              "width": 650,
+              "height": 812,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHr87joqWBy_g/feedshare-document-images_800/B4EZyFIt7ZKcAk-/0/1771760183945?e=1785974400&v=beta&t=2DVJEzaV4znoeFkTVX-4w-j-gA8tzmvVm19uo4MPklE"
+            },
+            {
+              "width": 137,
+              "height": 171,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHr87joqWBy_g/feedshare-document-images_160/B4EZyFIt7ZKcAc-/0/1771760183945?e=1785974400&v=beta&t=GwhAzfxFzPqNLkPllcftNO_mAYDYp7IARc_HEgeoo7k"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7431301006409330688",
+        "likes": 9,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 8
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "2",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "paginationToken": "dXJuOmxpOmFjdGl2aXR5Ojc0Mzc1NDI2OTQ1MzQ2NjAwOTYtMTc3MzI0ODM2MTIyMA==",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7434332531879014401",
+      "entityId": "7434332531879014401",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_february-28-2026-us-israeli-strikes-on-activity-7434332531879014401-xKL-",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7434332528561295360",
+      "shareUrn": "urn:li:share:7434332528561295360",
+      "content": "February 28, 2026: US-Israeli strikes on Iran.\n\nMarch 1: insurance underwriters withdraw Hormuz coverage.\n\nMarch 2: 170 container ships. 450,000 TEUs. Zero movement.\n\nThe world's most critical energy corridor took 48 hours to close.\n\nThe insurance market closed the Strait of Hormuz before any naval blockade. At $750,000 per transit, no carrier can afford to move through a war zone. \n\nThe 90-day cascade from that decision is already in motion.\n• The chokepoint scale: 20% of global oil, one-fifth of LNG, and one-third of global fertilizer trade all transit a waterway 39 kilometres wide. Bypass infrastructure covers only 13% of that flow.\n\n• The insurance mechanism: War-risk premiums doubled in a single session, pushing annualised transit costs to $150-200 million per vessel. \n\n• The petrochemical blind spot: Iran's feedstock capacity is driving a 15-25% cost spike in plastics, adhesives, and specialty chemicals. \n\nMy take: the Hormuz story is not about oil prices only. It is about an efficiency model that removed lots of buffer from global supply chains and left a 39km waterway as one of the last unhedged structural risk which will have much wider consequences across industries.\n\nWhat other consequences do you think the Hormuz strait blockade will have on the global supply chain? \n\n---\n\nFollow Poornajith Shetty for more supply chain insights!  \n\nSources in the comments :)",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1772482998819,
+        "date": "2026-03-02T20:23:18.819Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEOcAJ9fIDBMA/feedshare-shrink_1280/B4DZywOCtxKgAc-/0/1772482997413?e=1786579200&v=beta&t=8sux4V7IsQu91bE9ifZsrcRnbnUZ3ZVOZyKr2p4QRT0",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7434332531879014401",
+        "likes": 12,
+        "comments": 5,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 12
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "2",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "paginationToken": "dXJuOmxpOmFjdGl2aXR5Ojc0Mzc1NDI2OTQ1MzQ2NjAwOTYtMTc3MzI0ODM2MTIyMA==",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7433889772617613312",
+      "entityId": "7433889772617613312",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_shettysdesk-supplychain-failproof-activity-7433889772617613312-i-MT",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7433889769698344960",
+      "shareUrn": "urn:li:share:7433889769698344960",
+      "content": "1 error in every 16 million deliveries ≈ 99.999999% accuracy. \n\nSix sigma certification defines world class with a tolerance of 3.4 defects per million. \n\nThe Dabbawalas of Mumbai do 200,000+ daily deliveries within a 30 minute delivery window. Whatever you think that costs to run, you're wrong. \n\nIt's only $14 a month per customer.\n\nThe Dabbawalas run on constraints so tight there's almost no room for a decision to go wrong and they've been doing it since 1890.\n\nWhat KPMG, Deloitte, and Philips found when they looked closely:\n• Design for simplicity: The system was designed for workers who couldn't read. That constraint forced standardization so complete that the coding system still hasn't needed an upgrade or no requirement for software.\n\n• Multiple hand-offs: Each tiffin box changes hands at least six times in each direction≈2.4 million handoffs daily. With only 40 seconds to loads hundreds of boxes onto trains and only 20 seconds to switch trains. \n\n• The 1993 Trust Test: During the Mumbai bombings, police frisked every commuter on the suburban railway except the Dabbawalas. A century of reliable delivery built that.\n\nSupply chain complexity is expensive. The Dabbawalas didn't build a better tracking system, they built a system that doesn't need one. \n\nWhat's the variability in your network that you're managing with technology instead of removing with design?\n\nSources in the comments :)\n\n#ShettysDesk #SupplyChain #Failproof #Strategy #Simplicity #Dabbawalas",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1772377436785,
+        "date": "2026-03-01T15:03:56.785Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGyrv7fNtjy5A/feedshare-image-high-res/B4EZyp7WrRH0AU-/0/1772377435186?e=1786579200&v=beta&t=5xxXRIrhBXlO33aadWFLMhlSlChTq11ttCR8HUMu-Yw",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7433889772617613312",
+        "likes": 11,
+        "comments": 3,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 10
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "2",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "paginationToken": "dXJuOmxpOmFjdGl2aXR5Ojc0Mzc1NDI2OTQ1MzQ2NjAwOTYtMTc3MzI0ODM2MTIyMA==",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7435715067708411904",
+      "entityId": "7435715067708411904",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_total-landed-cost-tariffs-activity-7435715067708411904-ic6Y",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7435606262056361984",
+      "shareUrn": "urn:li:ugcPost:7435606262056361984",
+      "content": "The wrong assumption is not that tariffs are expensive. It is that a 25% tariff rate = a 25% landed cost increase; it does not.\n\nMost procurement and supply chain teams are pricing goods on a model built before the tariff regime tripled. Running landed cost on 4-5 components when 11 exist; means your finance team is working with numbers that are wrong by a margin of 38-52%. Every mispriced PO compounds that error, and 18-32% of the tariff burden your company paid last year may already be recoverable.\n\nThis edition of Shetty's Desk maps the 11-component Total Landed Cost (TLC) model, the duty drawback audit, and the TLC Leader matrix for identifying where your tariff management program actually stands.\n\nThree key takeaways:\n- 11 components make up total landed cost. Most company models count fewer than 5.\n- Nike maintained 43-46% gross margin across 2018-2023 while peers absorbed 200-400 basis points of tariff compression.\n- 18-32% of apparent tariff exposure is recoverable for companies with formal TLC programs, drawback claims, and HTS audits in place.\n\nWhy a 25% tariff rate ≠ a 25% landed cost increase?\nBuffer inventory, brokerage complexity, and compliance overhead are the secondary costs it triggers. They compound the impact, and most models miss all of them.\n\nHow complete is the Total Landed Cost model your organisation currently uses for sourcing decisions?\n\n---\n\nFollow Poornajith Shetty for more supply chain insights! \n\nDollar Tree Stores Dollar Tree Distribution, Inc. Nike",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1772812621047,
+        "date": "2026-03-06T15:57:01.047Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "Total Landed Cost - Tariffs",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQHEmCB89waFwg/feedshare-document-chunked-pdf/B4EZzCUZUnIQBk-/0/1772786654648?e=1785877200&v=beta&t=omviTaH5tDKMpCd_Zsjt9xX2y3xruA6hDjLjcNY7OV4",
+        "coverPages": [
+          {
+            "width": 1925,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4E1FAQHEmCB89waFwg/feedshare-document-cover-images_1920/B4EZzCUZUnIQBQ-/0/1772786655162?e=1785877200&v=beta&t=3foeiR5i3z02AzB5ImlVlypTrbT3Fzr_4of5Zla2E3A",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQHEmCB89waFwg/feedshare-document-cover-images_1920/B4EZzCUZUnIQBQ-/1/1772786655162?e=1785877200&v=beta&t=D6JCQ5WzKf6I3pFOdU72U8nipfgn0KRx-5l-YZ04xww",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQHEmCB89waFwg/feedshare-document-cover-images_1920/B4EZzCUZUnIQBQ-/2/1772786655162?e=1785877200&v=beta&t=zz8V-0Ra39DrYZBj9F5u-Owjgqssq-ZQFCRDL_34gAg"
+            ],
+            "height": 1925
+          }
+        ],
+        "totalPageCount": 8,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHEmCB89waFwg/feedshare-document-master-manifest/B4EZzCUZUnIQBY-/0/1772786655329?e=1785877200&v=beta&t=n5DePhhar89KsgCY6wEN6qn9f8WrtGdeBujNdVgk04k",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4E1FAQHEmCB89waFwg",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQHEmCB89waFwg/feedshare-document-transcript/B4EZzCUZUnIQA0-/0/1772786655329?e=1785974400&v=beta&t=U4PT_-BFGZ0FuLS0njHA9sdssge_fX9LNzsIrueAhyI",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQHEmCB89waFwg/feedshare-document-pdf-analyzed/B4EZzCUZUnIQAY-/0/1772786655329?e=1785974400&v=beta&t=R3ivmgff029AkYdLWsFDxJSrQ4-1QxddnNo_L5oPFrs",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 1287,
+              "height": 1287,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHEmCB89waFwg/feedshare-document-images_1280/B4EZzCUZUnIQAQ-/0/1772786655329?e=1785974400&v=beta&t=0B3yBrHU3Zee1BsIn2QzvINUBGyTEfg2nxpSkwbDna4"
+            },
+            {
+              "width": 487,
+              "height": 487,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHEmCB89waFwg/feedshare-document-images_480/B4EZzCUZUnIQAg-/0/1772786655329?e=1785974400&v=beta&t=SKpM_V83Xu5z5N9zef8kMxd3LunlRKUh5uCjEa9EKZk"
+            },
+            {
+              "width": 800,
+              "height": 800,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHEmCB89waFwg/feedshare-document-images_800/B4EZzCUZUnIQAk-/0/1772786655329?e=1785974400&v=beta&t=BWAlci6E1x9pFHLfUkoaOyHwRVMHilqZpxsyahWlqQ0"
+            },
+            {
+              "width": 1925,
+              "height": 1925,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHEmCB89waFwg/feedshare-document-images_1920/B4EZzCUZUnIQAo-/0/1772786655329?e=1785974400&v=beta&t=VmgzVsv16ya9hz8zbCd9Qcg7chbNlLa_2RR002ThW1I"
+            },
+            {
+              "width": 162,
+              "height": 162,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQHEmCB89waFwg/feedshare-document-images_160/B4EZzCUZUnIQAc-/0/1772786655329?e=1785974400&v=beta&t=ctGfYt1hR5c78IiwZm604m9TirDLqzNyBnYZCXwbsjk"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7435606262056361984",
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "2",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "paginationToken": "dXJuOmxpOmFjdGl2aXR5Ojc0Mzc1NDI2OTQ1MzQ2NjAwOTYtMTc3MzI0ODM2MTIyMA==",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7434862773030948864",
+      "entityId": "7434862773030948864",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_96-of-dry-cargo-containers-100-of-refrigerated-activity-7434862773030948864-2GvG",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7433624509422657536",
+      "shareUrn": "urn:li:share:7433624509422657536",
+      "content": "96% of dry cargo containers. \n\n100% of refrigerated ones. \n\nAll manufactured in one country.\n\nChina produces 1,015.1 million tons of crude steel annually. India is second at 149.4 million. The US, Japan, and Russia combined are no competition.\n\nSteel accounts for 60% of the cost of a container. Because China produces more steel than the rest of the world combined, the geography of the raw material now dictates the geography of the container industry.\n\nAmerican manufacturing owned the standard in 1956. Today, three companies (CIMC, DFIC, and CXIC) are the Boeing and Airbus of the shipping world.\n\nWhat a closer look at the industrial data reveals: \n• The Logistics Loop: Building a container in the West requires importing Chinese steel, paying tariffs, and then shipping the heavy, empty box back to China to pick up goods. The math fails at every step. \n• Black Light Factories: This is no longer a story of cheap labor. These are state of the art facilities using laser welding and AI quality control. They are designed to run in the dark. \n• Regulatory Survival: In 2017, a mandate for water based paints forced every small manufacturer out of business. Only the Big Three had the state backed capital to upgrade their factories and absorb the market.\n\nIndia is now challenging this logic with almost a $1 Billion Container Manufacturing Assistance Scheme. The goal is to build an annual capacity of 1 million TEUs and reduce the import of 2 million empty containers every year. It is a massive strategic bet to reclaim a seat at the table.\n\nSupply chain resilience is easy to talk about but expensive to build. When the raw math of steel and scale favors a single geography, diversification becomes a cost most companies simply cannot pay.\n\nWhat other foundation of your business is built on a logic you no longer control?\n\n--- \n\nFollow Poornajith Shetty for more supply chain insights",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1772609418161,
+        "date": "2026-03-04T07:30:18.161Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHHRRvUaZEqnw/feedshare-image-high-res/B4EZymKGe4H0AY-/0/1772314192112?e=1786579200&v=beta&t=A2vSHyQKbsqACBX7HwXtQxfFELa76qataLurroGjvmU",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7434862773030948864",
+        "likes": 6,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "2",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "paginationToken": "dXJuOmxpOmFjdGl2aXR5Ojc0Mzc1NDI2OTQ1MzQ2NjAwOTYtMTc3MzI0ODM2MTIyMA==",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7430619873980043265",
+      "entityId": "7430619873980043265",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_shettysdesk-supplychain-logistics-activity-7430619873980043265-ZQb1",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7430619872558174208",
+      "shareUrn": "urn:li:share:7430619872558174208",
+      "content": "Why is the world's second-largest shipping company buying warehouses instead of ships?\n\nFor decades, the shipping industry followed a single rule: build larger ships to drive down costs. Maersk is breaking that mold by moving away from a model centered only on the ocean and building an integrated system instead, over the past few years.\n\nThe main objective is to escape the commodity trap. Ocean freight is currently volatile and price-sensitive, with on-time rates often stuck between 50% and 60%. Maersk is creating a sticky service model focused on three pillars:\n- Total control: They manage the journey from the factory floor to the front doorstep.\n- Predictable growth: Logistics services provide steady growth that protects the company from market crashes.\n- Reliability: Maersk is betting that premium brands will pay more for a guaranteed 90% on-time delivery rate.\n\nTo own these assets, they spent $3.6 billion on LF Logistics and $1.68 billion on Pilot Freight Services. They are moving beyond port-to-port logistics. It is a gamble on being the most reliable player in the market instead of just the largest.\n\n#ShettysDesk #SupplyChain #Logistics #Maersk #Strategy #Shipping #DigitalTransformation\n\nAs you see, I'm experimenting with new tools and formats with Shetty's Desk. Got inspired by Tiny Experiments written by Anne-Laure Le Cunff, PhD on two aspects - curiosity over perfection and iteration over intensity! \n\nSources in the first comment :)",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1771597832198,
+        "date": "2026-02-20T14:30:32.198Z",
+        "postedAgoShort": "5mo",
+        "postedAgoText": "5 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGu2P0BGwSQFg/feedshare-shrink_1280/B4EZx7dZr_GgAk-/0/1771597831320?e=1786579200&v=beta&t=8VoQ5sSatMiQNrxILObpcm5Dbe7rtwqCug5BzjeaxuE",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7430619873980043265",
+        "likes": 377,
+        "comments": 36,
+        "shares": 28,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 342
+          },
+          {
+            "type": "INTEREST",
+            "count": 27
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "2",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "paginationToken": "dXJuOmxpOmFjdGl2aXR5Ojc0Mzc1NDI2OTQ1MzQ2NjAwOTYtMTc3MzI0ODM2MTIyMA==",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7429930054463397888",
+      "entityId": "7429930054463397888",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_shettys-desk-01-activity-7429930054463397888-mYwC",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7429930052156362753",
+      "shareUrn": "urn:li:ugcPost:7429930052156362753",
+      "content": "I've spent some years working in supply chain. You get really good at your slice of it. Your tools, your process, your company's setup. You learn it deeply. But supply chain is enormous.\n\nThe decisions driving pharma distribution look nothing like what drives fast fashion replenishment. The way an automotive OEM thinks about supplier risk is a completely different problem to how a food manufacturer handles demand variability. Same concepts. Wildly different applications.\n\nWorking inside one company, one industry, one supply chain setup is limiting in ways that are easy to miss until you step outside it.\n\nThat's why I'm starting Shetty's Desk.\n\nI want to stay close to how these concepts actually play out across industries. The real use cases out there, what worked and what didn't. The research sitting in Tier 1 consulting briefs and academic papers that most practitioners never get to, I aim to learn for me and share these insights with you. \n\nSupply chain drives more decisions than most people outside the industry realize. That's a gap I believe is worth closing because it affects everyone. Going through the actual research, building it into something readable.\n\nThe first one is on Nearshoring. The math most teams use to model it is incomplete, and the gap between what companies are planning and what they're actually executing is one of the more interesting problems in the industry right now.\n\n80% of COOs plan to nearshore. 98% haven't moved. The carousel maps why: the 7-factor total landed cost model, the Mexico FDI picture, and the go/no-go framework that holds up when your CFO starts asking questions.\n\nWhat's a supply chain topic you've wanted to go deeper on?\n\n#ShettysDesk #SupplyChainIntelligence #SCM #Nearshoring #COO\n\nThanks to Ruben Hassid, Marcia D Williams, Charlie Hills 🦩 , Nikhil Kamath, Finshots, Chris Donnelly and Colby Kultgen for the inspiration of creating top quality content to get me started on this! Follow along on this journey!",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1771433366409,
+        "date": "2026-02-18T16:49:26.409Z",
+        "postedAgoShort": "5mo",
+        "postedAgoText": "5 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "Shetty's Desk // 01",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQEw8UuosP3O7Q/feedshare-document-url-metadata-scrapper-pdf/B4EZxxnD6zGYA4-/0/1771432593238?e=1785877200&v=beta&t=3rgAHH6clsENQ1La-Z7Zxtxa2ZmD3aaJt5ZjxTHIyFE",
+        "coverPages": [
+          {
+            "width": 1537,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4E1FAQEw8UuosP3O7Q/feedshare-document-cover-images_1920/B4EZxxnD6zGYBQ-/0/1771432593575?e=1785877200&v=beta&t=rSaUs5V_Wcu95cH7s1ro8COTnnrSxziES2bjODpJss0",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQEw8UuosP3O7Q/feedshare-document-cover-images_1920/B4EZxxnD6zGYBQ-/1/1771432593575?e=1785877200&v=beta&t=-LeVwdSQ4a-45_VqYuanehnHexsOu_85Zbw7qp20ksY",
+              "https://media.licdn.com/dms/image/v2/D4E1FAQEw8UuosP3O7Q/feedshare-document-cover-images_1920/B4EZxxnD6zGYBQ-/2/1771432593575?e=1785877200&v=beta&t=-iAZlTieb2WQf2Pne7PTF1SfNiUJ3-6Xepe2suAXsTk"
+            ],
+            "height": 1922
+          }
+        ],
+        "totalPageCount": 8,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEw8UuosP3O7Q/feedshare-document-master-manifest/B4EZxxnD6zGYBY-/0/1771432593641?e=1785877200&v=beta&t=GdCj-1Tq6TQ4OHwtfclkEkoK1pNlIv9M74O8JW0ufF4",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4E1FAQEw8UuosP3O7Q",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQEw8UuosP3O7Q/feedshare-document-transcript/B4EZxxnD6zGYA0-/0/1771432593641?e=1785974400&v=beta&t=ZOpQrAxa35To2EDp9RUVrvwiIZhL4QzeSltr3dYAsH8",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4E1FAQEw8UuosP3O7Q/feedshare-document-pdf-analyzed/B4EZxxnD6zGYAY-/0/1771432593641?e=1785974400&v=beta&t=yb2OrocgPzcdhtUNWZdChZGrT7YgaxEibEu3a_BBmDs",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 137,
+              "height": 171,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEw8UuosP3O7Q/feedshare-document-images_160/B4EZxxnD6zGYAc-/0/1771432593641?e=1785974400&v=beta&t=wIOjgH4c_55sWny9L4O_ChMvxj8V2WbsrU_HgFIWzsg"
+            },
+            {
+              "width": 1025,
+              "height": 1281,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEw8UuosP3O7Q/feedshare-document-images_1280/B4EZxxnD6zGYAQ-/0/1771432593641?e=1785974400&v=beta&t=2ISUaflgdwstuTpPQsFQgKQ-Kg0r6XvKctm6UG81u6I"
+            },
+            {
+              "width": 387,
+              "height": 484,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEw8UuosP3O7Q/feedshare-document-images_480/B4EZxxnD6zGYAg-/0/1771432593641?e=1785974400&v=beta&t=NsGkKV1TZ8h8q1bj4WqZJ7nsyUvKkcqCk_oSbXkS9GQ"
+            },
+            {
+              "width": 650,
+              "height": 812,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEw8UuosP3O7Q/feedshare-document-images_800/B4EZxxnD6zGYAk-/0/1771432593641?e=1785974400&v=beta&t=P6ebGFKYGHRz-1fwFmRWUFD6KdDKsp7MMmt52Wzj6ZE"
+            },
+            {
+              "width": 1537,
+              "height": 1922,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4E1FAQEw8UuosP3O7Q/feedshare-document-images_1920/B4EZxxnD6zGYAo-/0/1771432593641?e=1785974400&v=beta&t=H0nGcQaM_Ytn9GVQQGQCtAiXN_zj6Zj4xeJIlY-7YnY"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7429930052156362753",
+        "likes": 39,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 32
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "2",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "paginationToken": "dXJuOmxpOmFjdGl2aXR5Ojc0Mzc1NDI2OTQ1MzQ2NjAwOTYtMTc3MzI0ODM2MTIyMA==",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7433165079338164224",
+      "entityId": "7433165079338164224",
+      "linkedinUrl": "https://www.linkedin.com/posts/shettys-desk_shettysdesk-supplychain-sportswear-activity-7433165079338164224-cg79",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7433165077865721856",
+      "shareUrn": "urn:li:share:7433165077865721856",
+      "content": "Why would a $100B+ company bring a CEO out of retirement to fix its supply chain and product pipeline? The answer is more than just shoes. \n\nFor some years, Nike followed a singular digital playbook: they cut off wholesale partners, prioritized their own website, and leaned heavily into lifestyle-retro styles. But that strategy hit a wall 2 years ago when the company suffered its worst trading day in history, wiping out $28 billion in market value in a single day. \n\nNike is breaking that mold. They brought back veteran Elliott Hill out of retirement to serve as CEO, the main objective is to reclaim the 'Technical Lead' from aggressive new rivals like OnRunning and Hoka. \n\nNike wants to build this on three strategic pillars aiming to run it like a marathon and not a sprint:\n• Putting the Athlete First: Utilizing the Sports Research Lab’s 400 plus motion capture cameras to ensure every product is built for performance and not just fashion.\n• Organizational Speed: Reorganizing the entire company by sport category, specifically Air Jordan, Converse, Nike Running, Nike Training and ACG, to move faster than the competition.\n• Operational Cleanup: Aggressively clearing out old inventory and re-evaluating the China market, where sales recently fell by more than 9%.\n\nNike is betting that by earning back its space on wholesale shelves and focusing on innovation, it can return to its long-term algorithm of mid to high single-digit revenue growth. It is all hands on deck in an effort on returning to its roots.\n\nWho else should I be tracking for my next review at Shetty’s Desk? Tag a brand or a leader you are currently watching.\n\n#ShettysDesk #SupplyChain #Sportswear #Nike #Strategy #BusinessTurnaround #Innovation #DistributionStrategy",
+      "author": {
+        "id": "ACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "universalName": null,
+        "publicIdentifier": "shettys-desk",
+        "type": "profile",
+        "name": "Poornajith Shetty",
+        "linkedinUrl": "https://www.linkedin.com/in/shettys-desk?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAB7yj9EBx_rtu-IrGjeV2JO1VPhHEmb1SJM",
+        "info": "| Helping you understand Supply Chain (better) |",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQHVZOTrJAKUHA/profile-displayphoto-crop_800_800/B4EZz9fiSXGkAM-/0/1773779431012?e=1786579200&v=beta&t=UNpnVppCFpTi5mhIVVkM-u_kU-AL6WA9CoNsiJNlyLM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "519213009"
+      },
+      "postedAt": {
+        "timestamp": 1772204656443,
+        "date": "2026-02-27T15:04:16.443Z",
+        "postedAgoShort": "5mo",
+        "postedAgoText": "5 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQETTGlEB-Pz6A/feedshare-shrink_1280/B4DZyQRw0PIoAc-/0/1771947101939?e=1786579200&v=beta&t=kz2gw4gSP9-0XhVNZxDxq664BeMGDTTcCRETI030m8w",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7433165079338164224",
+        "likes": 10,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 10
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "2",
+        "targetUrl": "https://www.linkedin.com/in/shettys-desk",
+        "paginationToken": "dXJuOmxpOmFjdGl2aXR5Ojc0Mzc1NDI2OTQ1MzQ2NjAwOTYtMTc3MzI0ODM2MTIyMA==",
+        "sessionId": "2f110477-6819-4462-8750-4641182bebf0"
+      }
+    }
+  ]
+}

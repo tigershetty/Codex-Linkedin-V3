@@ -18,6 +18,11 @@ a standard that survives an expert reading it. This skill guarantees that by mak
 > **Topic gate:** before research starts, the topic must have an audience segment
 > and score from `references/topic-selection-scorecard.md`. The calendar is a
 > candidate library, not automatic permission to build.
+>
+> **V4 authority:** read `references/v4-audience-growth-operating-system.md`
+> before framing the topic. Research must start with a demonstrated decision pain,
+> public evidence, and a plausible useful artifact. A successful creator reference
+> is a packaging hypothesis, not proof that the same mechanic will cause our result.
 
 ## Invoke
 ```
@@ -40,11 +45,13 @@ unless the user asks for a refresh.
 ---
 
 ## Step 1 — Frame the research questions
-Read `references/audience-intelligence.md`,
+Read `references/v4-audience-growth-operating-system.md`,
+`references/audience-intelligence.md`,
 `references/topic-selection-scorecard.md`, the topic's plan row
 (`references/101-plan.md` or `references/ai-for-sc-plan-v2.md`) and the matching
-tracker. First write the topic qualification: audience segment, pain/desire,
-post promise, why now, Tiger authority, visual argument, and score. Then write
+tracker. First write the topic qualification: audience segment, decision pain,
+post promise, public proof available, useful artifact, why now, Tiger source mode,
+visual argument, and score. Then write
 1–3 scoped research questions:
 - **101:** one analyst is usually enough — the concept's definition, origin, the
   2–4 hard facts/benchmarks that can sit on the card, and the "so what."
@@ -76,6 +83,10 @@ using the schema below. Keep card-ready numbers **bold**. Keep the honesty ledge
 - [ ] (AI for SC) tool-capability claims sourced to current vendor docs and the
       release status, execution architecture, control gate, cadence, and human owner captured?
 - [ ] Honesty ledger lists what could not be verified?
+- [ ] At least one primary or authoritative public source supports the problem or method?
+- [ ] The proposed artifact is named, feasible, and useful without requiring a purchase?
+- [ ] Creator-format claims are labelled as hypotheses unless matched outcomes support them?
+- [ ] Tiger source mode is recorded; any personal or authority claim maps to an approved source ID?
 
 Only when this passes does `/101` / `/ai-for-sc` proceed to hooks.
 
@@ -93,6 +104,10 @@ Only when this passes does `/101` / `/ai-for-sc` proceed to hooks.
 - Post promise:
 - Why now:
 - Tiger authority:
+- Tiger source mode:
+- Approved source IDs:
+- Public problem evidence:
+- Proposed artifact:
 - Visual argument:
 - Topic score:
 - Decision: build / reframe / park

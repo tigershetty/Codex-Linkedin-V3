@@ -1,0 +1,101 @@
+{
+  "runId": "AzmKIezJLathk31mI",
+  "datasetId": "FWc3ubLrJHFDhg0v8",
+  "projection": [
+    "creator",
+    "hiring",
+    "influencer",
+    "verified",
+    "connectionsCount",
+    "followerCount",
+    "about",
+    "firstName",
+    "lastName",
+    "headline",
+    "id",
+    "linkedinUrl",
+    "publicIdentifier",
+    "location",
+    "originalQuery",
+    "primaryLocale",
+    "currentPosition"
+  ],
+  "items": [
+    {
+      "creator": true,
+      "hiring": false,
+      "influencer": false,
+      "verified": true,
+      "connectionsCount": 7326,
+      "followerCount": 28807,
+      "about": null,
+      "firstName": "Yonathan",
+      "lastName": "Levy",
+      "headline": "Strong brands don’t pitch\n",
+      "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+      "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy",
+      "publicIdentifier": "yonathan-levy",
+      "location": {
+        "linkedinText": "France",
+        "countryCode": "FR",
+        "parsed": {
+          "text": "France",
+          "countryCode": "FR",
+          "regionCode": null,
+          "country": "France",
+          "countryFull": "France"
+        }
+      },
+      "originalQuery": {
+        "url": "https://www.linkedin.com/in/yonathan-levy"
+      },
+      "primaryLocale": {
+        "country": "US",
+        "language": "en"
+      },
+      "currentPosition": [
+        {
+          "position": "Co Founder & COO",
+          "location": null,
+          "employmentType": null,
+          "workplaceType": null,
+          "companyName": "Leed Services",
+          "companyLinkedinUrl": "https://www.linkedin.com/company/leedservices/",
+          "companyId": "91197985",
+          "duration": "1 yr",
+          "description": null,
+          "skills": null,
+          "startDate": {
+            "month": "Aug",
+            "year": 2025,
+            "text": "Aug 2025"
+          },
+          "endDate": {
+            "text": "Present"
+          },
+          "companyLogo": {
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG4EAf-kvumLA/company-logo_400_400/B4EZ1UPjdLJUAY-/0/1775234858014/leedservices_logo?e=1786579200&v=beta&t=XCvswe5qm0JUTeO8idQfk7PGoXiqaVQkfxhyxn6SNdQ",
+            "sizes": [
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG4EAf-kvumLA/company-logo_400_400/B4EZ1UPjdLJUAY-/0/1775234858014/leedservices_logo?e=1786579200&v=beta&t=XCvswe5qm0JUTeO8idQfk7PGoXiqaVQkfxhyxn6SNdQ",
+                "width": 400,
+                "height": 400
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG4EAf-kvumLA/company-logo_200_200/B4EZ1UPjdLJUAI-/0/1775234858014/leedservices_logo?e=1786579200&v=beta&t=q_v47UsueLLxw6b9J9JVx4wfXdjrEx2DgT9I77L7isA",
+                "width": 200,
+                "height": 200
+              },
+              {
+                "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG4EAf-kvumLA/company-logo_100_100/B4EZ1UPjdLJUAQ-/0/1775234858014/leedservices_logo?e=1786579200&v=beta&t=8Tm4cgwqPUMkZTICVRzYJ9XSfnqxOXfweppfcQtOFIY",
+                "width": 100,
+                "height": 100
+              }
+            ]
+          },
+          "companyUniversalName": "leedservices"
+        }
+      ]
+    }
+  ]
+}

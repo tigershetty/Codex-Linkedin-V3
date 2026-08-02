@@ -1,6 +1,10 @@
 # Shetty's Desk — Master Run Calendar
 **Recalibrated**: 2026-06-20 (was drifting — built for W21 start, but only W21–W22 shipped)
-**This file is the single source of truth for: what week am I on, what posts this week, what's the status.**
+**V4 status (2026-07-28): historical tracker and candidate bank, not the cadence or topic-admission source of truth.**
+
+`v4-audience-growth-operating-system.md` now controls audience, five-post cadence, evidence,
+channel roles, and topic admission. The rows below preserve useful themes, slugs, and production
+status; they do not force four posts, one theme, or a 2 × 101 plus 2 × AI allocation.
 
 ---
 
@@ -21,22 +25,21 @@ There are **two kinds of "week"** and keeping them separate is what stops the dr
 
 ## How to run a week (the weekly loop)
 
-Each Run Week = **4 posts** on **one theme**: 2 × Supply Chain 101 (the concept) + 2 × AI for SC (the workflow).
+Each V4 week is a **five-post evidence-led portfolio**. This calendar supplies candidates; the
+weekly signal scan and scorecard decide which five ideas, series, and channel roles earn work.
 
 ```
-1.  Open this file → find the current Run Week row → treat its slugs as candidates.
-2.  Run a weekly signal scan (`templates/weekly-signal-scan-template.md`) and score the topic candidates (`references/topic-selection-scorecard.md`).
-3.  Apply the top-100 reference gate (`references/top100-reference-intelligence.md`): define the power format, caption promise, stop-scroll value, save trigger, and Shetty's Desk originality layer.
-4.  /101 [slug]                     → Post 1 + Post 2  (concept)         → data/{ISO-week}/{slug}/101-copy.md
-5.  /ai-for-sc W[PW] [slug]         → Post 3 + Post 4  (AI workflow)     → data/{ISO-week}/{slug}/ai-for-sc-{slug}.md
-6.  Create the Creative Engine v3 brief (`templates/creative-brief-lite-template.md`) and compile/preflight the GPT Image 2 prompt with `node scripts/compile-gpt-image-prompt.mjs data/{ISO-week}/{slug}`.
-7.  Render the visual via Visual Engine v2: GPT Image 2 primary · HTML/code-render backup/control (`/renderer`) · animated GIF/MP4 only when motion improves the argument
-8.  Review the output (`templates/visual-output-review-template.md`) and run `node scripts/audit-visual-package.mjs data/{ISO-week}/{slug}`
-9.  Post on LinkedIn → tick the box in this file → /feedback [slug]
-10. After analytics export: /analytics [slug]
+1. Open this file and the other candidate banks for possible problems and slugs.
+2. Run `templates/weekly-signal-scan-template.md`; include Tiger, peer, public-pain, primary-source, Substack, and timely lanes as relevant.
+3. Score candidates with `references/topic-selection-scorecard.md`; select five LinkedIn posts as one portfolio and declare one experiment variable.
+4. Use Top-100 only when it materially improves packaging. Otherwise record the stronger evidence lane and proceed without it.
+5. Apply the Tiger source gate, research brief, and then the appropriate `/101` or `/ai-for-sc` production lane.
+6. Build and audit the still/motion/resource package under the existing production rules.
+7. Publish only after explicit approval; record Day-7 and Day-30 channel-specific outcomes.
 ```
 
-> **Cadence is yours.** The table assumes one Run Week per real calendar week, but the only thing that matters is order. Behind? Just keep going down the rows — the dates are a guide, the sequence is the contract.
+> **The sequence is no longer the contract.** Dates and rows are planning aids. V4 evidence and
+> audience value decide whether a candidate is built, reframed, deferred, or skipped.
 
 ---
 

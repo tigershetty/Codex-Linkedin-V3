@@ -1,12 +1,13 @@
-# Shetty's Desk — LinkedIn-V2 Workspace
+# Shetty's Desk — Audience Growth V4 Workspace
 
-LinkedIn supply chain content engine for Tiger Shetty's "Shetty's Desk" brand.
-Version-controlled for remote Codex access (web/mobile).
+Audience, research, and publishing engine for Tiger Shetty's "Shetty's Desk" brand. LinkedIn is
+the discovery surface, Substack is the depth/relationship surface, and the website is the durable
+artifact/product surface. Version-controlled for remote Codex access (web/mobile).
 
 ## Repo Map
 | Path | Status | Purpose |
 |---|---|---|
-| `infographic-setup/` | **Active** | The content engine — `/101` + `/ai-for-sc` pipelines, topic plans, voice, data. Start here: `infographic-setup/AGENTS.md` and `infographic-setup/CLAUDE.md` |
+| `infographic-setup/` | **Active** | The V4 audience-growth engine plus `/101` and `/ai-for-sc` production lanes. Start with `infographic-setup/references/v4-audience-growth-operating-system.md`, then `infographic-setup/AGENTS.md` and `infographic-setup/CLAUDE.md`. |
 | `ui-kit/` | Reference | Reusable React blocks + animations salvaged from the retired web app |
 | `docs/` | Reference | Design specs and automation plans (history) |
 | `tiger-voice.md` | **Active** | Master Voice DNA — the authority for ALL written output |
@@ -14,13 +15,19 @@ Version-controlled for remote Codex access (web/mobile).
 | `test-linkedin-post.sh` | On hold | LinkedIn draft-post test (see below) |
 | `_archive/` | Archive | `web-app/` (retired Vite/React + Python app), `eco-mobility/` (prior project) |
 
-## The content engine (where the work happens)
-Two active pipelines share one 7-month monthly theme calendar:
-- **Supply Chain 101** (`/101`) — Posts 1 + 2 each week, plain-language concepts. Visual: **Visual Engine v2** — ChatGPT / GPT Image 2 is the primary creative renderer; HTML/code-render (`infographic-setup/renderer/`) is the backup and comparison lane.
-- **AI for Supply Chain** (`/ai-for-sc`) — Posts 3 + 4 each week, role-based AI use cases. Visual: **Visual Engine v2** — GPT Image 2 first for editorial infographic output, with HTML/code-render retained for exact-data controls and backup PNGs. **Motion Engine v1** is the optional, layout-adaptive GIF/MP4 finishing lane after `visual.png` is approved.
+## The audience-growth engine (where the work happens)
+
+`infographic-setup/references/v4-audience-growth-operating-system.md` is the upstream authority.
+The pilot uses five evidence-led LinkedIn posts per week, thoughtful manual commenting, fortnightly
+Substack when depth is earned, and website artifacts when utility is earned.
+
+Two active production lanes remain available after V4 topic admission; neither owns a fixed quota:
+- **Supply Chain 101** (`/101`) — plain-language decision distinctions and practical foundations.
+- **AI for Supply Chain** (`/ai-for-sc`) — role-specific AI workflows with explicit inputs, artifact, validation, and human ownership.
 - **Deep Dive** — data-heavy research pipeline, **archived** (`infographic-setup/skills-archive/deep-dive/`).
 
-Plans (single sources of truth):
+Operating system and supporting candidate/production references:
+- V4 operating system: `infographic-setup/references/v4-audience-growth-operating-system.md`
 - Master calendar: `infographic-setup/references/master-calendar.md`
 - 101 topics: `infographic-setup/references/101-plan.md`
 - AI for SC use cases: `infographic-setup/references/ai-for-sc-plan-v2.md`

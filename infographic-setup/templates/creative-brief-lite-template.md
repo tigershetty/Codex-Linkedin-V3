@@ -19,11 +19,15 @@
 
 ## 3. Reference Intelligence
 
+**Reference mode:** top-100 / other curated reference / evidence-artifact only
+**Evidence/mechanic source:** Tiger / strict peer / decision panel / public pain / primary source / timely signal / selected reference
 **Power format:** PF1 / PF2 / PF3 / PF4 / PF5 / PF6 / PF7 / PF8 / process flow / concept metaphor  
 **Structure reference lesson:**  
 **Caption promise lesson:**  
-**Caption index ref:**  
+**Caption index ref:** refs {n} / not used
 **Craft/brand lesson:**  
+
+> Top-100 is optional. In `evidence-artifact only` mode, explain the operating-artifact or public-evidence mechanic in the lesson fields and write `not used` for the caption index.
 
 ## 4. Visual Argument
 

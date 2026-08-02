@@ -1,0 +1,2544 @@
+{
+  "runId": "x5RLdWyo02vZQr6mk",
+  "datasetId": "T83tmA6qmLFpCiAaW",
+  "offset": 160,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7481032036258893824",
+      "entityId": "7481032036258893824",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_what-a-time-to-be-alive-activity-7481032036258893824-aT8g",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481032035894050817",
+      "shareUrn": "urn:li:share:7481032035894050817",
+      "content": "What a time to be alive!",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1783617028298,
+        "date": "2026-07-09T17:10:28.298Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481032036258893824",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481070929197072384",
+      "entityId": "7481070929197072384",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_a-question-ive-become-obsessed-with-lately-activity-7481070929197072384-P0s4",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481036778980659200",
+      "shareUrn": "urn:li:share:7481036778980659200",
+      "content": "A question I’ve become obsessed with lately… \n\n\nWhat if every person in the organization ONLY focused on revenue generating activities - and the rest you gave to AI? \n\n(collecting data for reports, building spreadsheets, writing emails, “circling back”, reviewing sales calls, searching for docs on a server, asking “why do I feel like I’m missing something on this…”, on and on and on…)  \n\nSo much time wasted. \n\nWhat if we gave it all that to AI - and we only do the things that actually move the needle….\n\nWould we work the same amount of hours or less?",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1783626301097,
+        "date": "2026-07-09T19:45:01.097Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481070929197072384",
+        "likes": 1,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479897645210161153",
+      "entityId": "7479897645210161153",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_a-bad-prompt-gets-you-a-bad-answer-every-activity-7479897645210161153-e4Qe",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479897644715253760",
+      "shareUrn": "urn:li:share:7479897644715253760",
+      "content": "\"A bad prompt gets you a bad answer. Every time. The AI isn't the problem.\"",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1783346568396,
+        "date": "2026-07-06T14:02:48.396Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479897645210161153",
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "reactions": []
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478086201090920448",
+      "entityId": "7478086201090920448",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_using-one-ai-tool-for-everything-is-why-your-activity-7478086201090920448-Duij",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478086200495431680",
+      "shareUrn": "urn:li:share:7478086200495431680",
+      "content": "Using one AI tool for everything is why your results are inconsistent.\n\nChatGPT and Claude are not the same tool.\nUsing them interchangeably is like using a scalpel for every job because \"it's sharp.\"\n\nDO THIS:\nSplit your workflows this way:\n\nUse Claude for: anything that needs precision — long documents, complex instructions, client deliverables, writing that needs to sound like you.\n\nUse ChatGPT for: anything that needs breadth — real-time web search, image generation, quick research, browsing current info.\n\nFor high-stakes work: run both. Use one output to react to the other.\n\nGet this:\nConsistently better outputs because you're using each tool for what it's actually built for — not just whatever tab you have open.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1782914686463,
+        "date": "2026-07-01T14:04:46.463Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478086201090920448",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480622205102370816",
+      "entityId": "7480622205102370816",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_stop-building-prompts-from-scratch-save-activity-7480622205102370816-Ckg0",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480622204557156352",
+      "shareUrn": "urn:li:share:7480622204557156352",
+      "content": "Stop building prompts from scratch. Save these 3. Use them forever.\n\nEvery week you sit down and write a prompt you've basically written before.\nThat's wasted time.\n\nDO THIS:\nOpen a Google Doc right now. Title it \"Prompt Library.\" Paste these in:\n\nThe Brain Dump Cleaner:\n\"Here are my rough notes from [situation]. Turn them into a clear, structured summary I can share with [client/team]. Keep it under [X] words. Tone: [direct/warm/professional].\"\n\nThe Decision Framer:\n\"I'm deciding between [Option A] and [Option B]. Context: [2–3 sentences]. Give me a pros/cons breakdown and a recommendation based on [my specific goal].\"\n\nThe Outreach Writer:\n\"I want to reach out to [person] at [company]. Here's what I know about them: [context]. Here's what I offer: [offer]. Write a short, direct message. No templates. No fluff.\"\n\nGet this:\nA prompt library you'll use every single week.\nCustomize each one for your business once — then paste and go forever.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1783519316936,
+        "date": "2026-07-08T14:01:56.936Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480622205102370816",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481029261424766976",
+      "entityId": "7481029261424766976",
+      "linkedinUrl": "https://www.linkedin.com/posts/claude_theres-hope-in-hard-questions-ugcPost-7480728529220014080-iEAD",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7480728529220014080",
+      "shareUrn": "urn:li:ugcPost:7480728529220014080",
+      "content": "We don't get the benefits of AI without addressing the hard questions.",
+      "author": {
+        "id": "106863934",
+        "universalName": "claude",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Claude",
+        "linkedinUrl": "https://www.linkedin.com/showcase/claude/posts",
+        "info": "2,911,757 followers",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFko-zWIZk_pw/company-logo_400_400/B4EZhiRWKvHgAY-/0/1753995371543/claude_logo?e=1786579200&v=beta&t=YMLvwLtZPL9hpuwvuVFrqbOyoRhebPjWk6w0vvLTvFU",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "106863934"
+      },
+      "postedAt": {
+        "timestamp": 1783616366726,
+        "date": "2026-07-09T16:59:26.726Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5610AQGA5Sqd9jjQwA/videocover-low/B56Z9Dhmq9IQBI-/0/1783544316121?e=1785877200&v=beta&t=cYUPHny5jZiQZSr5fsHmccXAiJ3ZngZN0BPL6upA9nc",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D5610AQGA5Sqd9jjQwA/progressive-servable-video/B56Z9Dhmq9IQAc-/0/1783544314336?e=1785877200&v=beta&t=GWmePHu0sdKxuYLIPIxvsml5Q4SfTBv3F8X6e4kyQx8"
+      },
+      "repostedBy": {
+        "name": "Sean Conerly",
+        "publicIdentifier": "sean-conerly-49063054",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg"
+      },
+      "repostedAt": {
+        "timestamp": 1783616366726,
+        "date": "2026-07-09T16:59:26.726Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7481029261424766976?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7481029261424766976%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=6OEkInGD0v5jWwdUkMUANQ%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "text": "Sean Conerly reposted this"
+      },
+      "engagement": {
+        "id": "7480728529220014080",
+        "likes": 308,
+        "comments": 31,
+        "shares": 9,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 272
+          },
+          {
+            "type": "EMPATHY",
+            "count": 14
+          },
+          {
+            "type": "PRAISE",
+            "count": 13
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481323847556943872",
+      "entityId": "7481323847556943872",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_hey-claude-that-sucked-try-again-claude-activity-7481323847556943872-cuf_",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481282523151376384",
+      "shareUrn": "urn:li:share:7481282523151376384",
+      "content": "“Hey Claude… that sucked - try again”\n\n\nClaude’s fine. Your settings aren’t. \n\nModels - Fable, Opus, Sonnet, Haiku\nEfforts - Max, High, Med, Low\n\nThe goal is to find the right combination for the task. \n\nIt’s the same logic as assigning work to people. \n\nYou wouldn’t pull your best analyst to accept a calendar invite.\n\nYou wouldn’t send an intern to close a deal. \n\nLikewise, you don’t need Fable 5 Max to reply to Brenda’s passive aggressive email and Haiku Low isn’t enough for your 15 page report due in 10 minutes. \n\nLock in your model settings to fit each task.  \n\nIn a month you’ll see costs and anxiety go down while tasks completed and quality of output go up. \n\nhttps://lnkd.in/gg4r2tf7",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1783686601533,
+        "date": "2026-07-10T12:30:01.533Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGRrmkBi5BVNA/feedshare-shrink_1280/B56Z9La0MEGgAM-/0/1783676748834?e=1786579200&v=beta&t=TPSiFQWOHFcoU16gSvyZR5gMx9eBTVKdy7aTPMvwD7s",
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481323847556943872",
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "reactions": []
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478810356526764044",
+      "entityId": "7478810356526764044",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_your-day-doesnt-have-to-start-with-you-figuring-activity-7478810356526764044-L0tJ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478810355943493632",
+      "shareUrn": "urn:li:share:7478810355943493632",
+      "content": "Your day doesn't have to start with you figuring out what matters. Let Claude tell you.\n\nThe old way: you wake up, check your phone, react to whatever hit your inbox first, and spend your first hour catching up instead of leading.\n\nDO THIS:\nSet Claude up so it briefs you — you don't brief it.\n\n1. Go to Settings → General → Instructions for Claude. Add your current priorities, your active clients, and your biggest goals for the week.\n2. Connect Claude to your calendar and email if you haven't already.\n3. First thing in the morning, open Claude and ask: \"Based on what's on my plate, what should I be focused on right now? What's coming today I need to be ready for?\"\n\nGet this:\nYour first 30 minutes become intentional instead of reactive.\nClaude surfaces what matters. You execute.\nYou stop chasing your day — your day starts with a plan.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1783087338573,
+        "date": "2026-07-03T14:02:18.573Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478810356526764044",
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "reactions": []
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477361095007956992",
+      "entityId": "7477361095007956992",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_re-explaining-yourself-to-claude-every-single-activity-7477361095007956992-2RD2",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477361093904887808",
+      "shareUrn": "urn:li:share:7477361093904887808",
+      "content": "Re-explaining yourself to Claude every single conversation? Stop.\n\nMost people treat every Claude chat like meeting a stranger.\nThat's the problem.\n\nDO THIS:\nThree steps — do them once, benefit forever:\n\n1. Go to Settings → General → Instructions for Claude. Write your master prompt. (Who you are, who your clients are, your tone, what good looks like.)\n2. Go to Projects → Create a new Project for your most important workflow. Add a project-level prompt with specific context for that work.\n3. Upload 2–3 key documents to that project — your service offering, your templates, your process doc.\n\nGet this:\nClaude stops being a generic assistant and becomes a pre-briefed team member. It knows your business, your clients, your standards — before you type a single word.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1782741807701,
+        "date": "2026-06-29T14:03:27.701Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477361095007956992",
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7473737049737674752",
+      "entityId": "7473737049737674752",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_someone-using-ai-well-is-outpacing-you-right-activity-7473737049737674752-Nu5-",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7473737049091563521",
+      "shareUrn": "urn:li:share:7473737049091563521",
+      "content": "Someone using AI well is outpacing you right now. Here's how to close the gap.\n\nThey're not smarter. They're not working more hours.\nThey've just removed the friction from execution.\n\nDO THIS:\nPick the single most repetitive task in your week — the one you dread, the one that eats 60–90 minutes and shouldn't.\nOpen Claude. Build one prompt that handles that task end to end.\nRun it 3 times. Adjust it. Save it.\n\nGet this:\nThat task goes from 90 minutes to 15 — every single week.\nThat's 75 minutes back. Every week. Forever.\nMultiply that across your whole business and the gap closes fast.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1781877767977,
+        "date": "2026-06-19T14:02:47.977Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7473737049737674752",
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483883883747258369",
+      "entityId": "7483883883747258369",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_the-best-prompt-i-ever-wrote-was-a-complete-activity-7483883883747258369-wf9O",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483883882518368256",
+      "shareUrn": "urn:li:share:7483883882518368256",
+      "content": "The best prompt I ever wrote was a complete mess.\n\nNo framework. No role assignment. No carefully structured context.\nJust everything in my head, dumped into the chat without editing.\n\nHere's what I've figured out:\n\nWhen you try to \"craft\" the perfect prompt, you edit out the context that matters.\nYou trim the parts that feel obvious.\nYou tighten it up so much that you remove the thing Claude actually needed to help you.\n\nA brain dump doesn't do that.\nThe confusion is in there. The backstory is in there. The real stakes are in there.\nAnd that's exactly what a good AI response needs.\n\nClaude doesn't need your polish. It needs your honesty.\n\nDO THIS:\nNext time you're stuck on something, don't write a prompt.\nOpen Claude and just start talking — like you're explaining the situation to someone who actually has time to hear all of it.\nDump everything. The context, the frustration, what you've already tried, what you're actually trying to accomplish.\n\nGet this:\nAn output that's actually useful, because it's responding to your real problem — not the cleaned-up version you thought you were supposed to present.\nMessy in. Useful out. Every time.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1784296961724,
+        "date": "2026-07-17T14:02:41.724Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483883883747258369",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476274197246410753",
+      "entityId": "7476274197246410753",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_your-claude-outputs-are-generic-because-you-activity-7476274197246410753-Euvs",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7476274195903954944",
+      "shareUrn": "urn:li:share:7476274195903954944",
+      "content": "Your Claude outputs are generic because you skipped this one step.\n\nOpen Claude. Go to Settings → General → Instructions for Claude.\nThat field is empty for most people. It shouldn't be.\n\nDO THIS:\nWrite your master prompt — 3–5 sentences that tell Claude who you are every single time:\n→ What your business does\n→ Who your clients are\n→ Your tone (direct? warm? technical?)\n→ What good output looks like for you\n→ Any words, formats, or habits to avoid\n\nExample: \"I run an AI consulting firm. My clients are small business owners with 5–20 employees. I communicate directly — no fluff, no corporate-speak. Keep all outputs concise and action-oriented. Never use bullet points unless I ask for them.\"\n\nGet this:\nEvery conversation Claude has with you, from today forward, is pre-calibrated to your business.\nNo more re-explaining yourself. No more generic outputs.\nOne 10-minute setup. Permanent payoff.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1782482671081,
+        "date": "2026-06-26T14:04:31.081Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7476274197246410753",
+        "likes": 4,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7474826640489934848",
+      "entityId": "7474826640489934848",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_one-prompt-change-that-makes-every-ai-output-activity-7474826640489934848-EOVS",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7474826639965716480",
+      "shareUrn": "urn:li:share:7474826639965716480",
+      "content": "One prompt change that makes every AI output 10x more useful.\n\nYou asked AI what to do and got an answer that didn't quite fit.\nThat's a prompt problem, not an AI problem.\n\nDO THIS:\nStop asking: \"What should I do about X?\"\nStart asking: \"Give me 5 different approaches to X. For each one, tell me the pros, the cons, and which type of situation it works best for. My situation: [2–3 sentences of context].\"\n\nGet this:\nA decision-making framework instead of a single recommendation.\nYou stop accepting answers and start choosing from options — which is how every good decision actually gets made.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1782137546656,
+        "date": "2026-06-22T14:12:26.656Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7474826640489934848",
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475549331421323264",
+      "entityId": "7475549331421323264",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_the-ai-isnt-the-problem-your-instructions-activity-7475549331421323264-r0Uw",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475549330934800384",
+      "shareUrn": "urn:li:share:7475549330934800384",
+      "content": "\"The AI isn't the problem. Your instructions are.\"",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1782309849601,
+        "date": "2026-06-24T14:04:09.601Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475549331421323264",
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "reactions": []
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7471199965839663104",
+      "entityId": "7471199965839663104",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_your-ai-is-only-as-smart-as-your-instructions-activity-7471199965839663104-PtIN",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7471199965357228032",
+      "shareUrn": "urn:li:share:7471199965357228032",
+      "content": "Your AI is only as smart as your instructions.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1781272880039,
+        "date": "2026-06-12T14:01:20.039Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7471199965839663104",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7473012456341008384",
+      "entityId": "7473012456341008384",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_the-bottleneck-isnt-ai-its-the-quality-activity-7473012456341008384-73gu",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7473012455980302336",
+      "shareUrn": "urn:li:share:7473012455980302336",
+      "content": "\"The bottleneck isn't AI. It's the quality of your questions.\"",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1781705011449,
+        "date": "2026-06-17T14:03:31.449Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7473012456341008384",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7467791493144064000",
+      "entityId": "7467791493144064000",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_github-seanconerly88agentic-commerce-bridge-activity-7467791493144064000-EV5A",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467791491998982145",
+      "shareUrn": "urn:li:share:7467791491998982145",
+      "content": "The protocol dropped 4 days ago. The demo is running tonight.\n\nGoogle's AP2 and UCP updates just landed and I built a working multi-retailer agentic shopping agent on top of both.\n\nIt normalizes Shopify and WooCommerce inventory to UCP spec and issues real AP2 checkout mandates. I built it around cigars because that's my world, but the architecture works for any vertical.\n\nThe full flow: taste profile → AI matching across multiple stores → one-tap purchase with a verified mandate chain.\n\nIn plain English: almost any retailer site can now be wired into an agentic shopping experience as soon as tomorrow. Before the big platforms get there first.\n\nGit Repo here:\nhttps://lnkd.in/gay-DKrb\n\nYoung me is proud and giddy.\nOld me is going to bed.\n\nWe celebrate tomorrow.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1780460236822,
+        "date": "2026-06-03T04:17:16.822Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "GitHub - seanconerly88/agentic-commerce-bridge: The first working demo built on UCP + AP2. A multi-platform agentic commerce bridge that normalizes legacy retail inventory and issues real AP2 checkout mandates.",
+        "subtitle": "github.com",
+        "link": "http://github.com/seanconerly88/agentic-commerce-bridge",
+        "linkLabel": "Open article: GitHub - seanconerly88/agentic-commerce-bridge: The first working demo built on UCP + AP2. A multi-platform agentic commerce bridge that normalizes legacy retail inventory and issues real AP2 checkout mandates. by github.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/sync/v2/D5627AQH1dVeZqXtnnQ/articleshare-shrink_1280_800/B56Z6LrpSYJ0Ag-/0/1780459935673?e=1785877200&v=beta&t=GV2sU4fqR7eRLPXYYss4H8BCv0pxiETJszQxQXQH8QE",
+          "width": 1200,
+          "height": 600
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7467791493144064000",
+        "likes": 2,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481347142737899521",
+      "entityId": "7481347142737899521",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_dont-use-ai-to-do-more-use-ai-to-decide-activity-7481347142737899521-plqy",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481347142301810688",
+      "shareUrn": "urn:li:share:7481347142301810688",
+      "content": "Don't use AI to do more. Use AI to decide better.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1783692155537,
+        "date": "2026-07-10T14:02:35.537Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481347142737899521",
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "reactions": []
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7467939388312686593",
+      "entityId": "7467939388312686593",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_stop-wasting-time-activity-7467939388312686593-SimU",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467939387536789504",
+      "shareUrn": "urn:li:share:7467939387536789504",
+      "content": "Stop wasting time.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1780495497778,
+        "date": "2026-06-03T14:04:57.778Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5610AQFx6sr8WoSojg/image-shrink_1280/B56Z6NzP.9J0Ac-/0/1780495483044?e=1785877200&v=beta&t=1_YE1eqrR1nVClxCcqYYY84-GGyCP5zXHZZlx1wXohg",
+          "width": 1080,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7467939388312686593",
+        "likes": 4,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7470475519139119106",
+      "entityId": "7470475519139119106",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_the-blank-page-problem-is-an-ai-problem-activity-7470475519139119106-AWF8",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7470475518560071681",
+      "shareUrn": "urn:li:share:7470475518560071681",
+      "content": "The blank page problem is an AI problem. Here's the fix.\n\nYou sit down to write a proposal, a strategy doc, a client update.\nAnd you stare at the screen for 20 minutes because you don't know where to start.\n\nDO THIS:\nBefore you write a single word yourself, open Claude and say:\n\"I need to write [deliverable] for [client/audience] about [topic]. Ask me the 5 questions you need answered to help me write it.\"\n\nAnswer the questions. Let Claude draft from your answers.\n\nGet this:\nYour own thinking, organized and turned into a first draft — in the time it used to take you to write one bad opening paragraph. The blank page disappears the second you let AI ask the questions instead of you asking yourself.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1781100158486,
+        "date": "2026-06-10T14:02:38.486Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7470475519139119106",
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468289223264026625",
+      "entityId": "7468289223264026625",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_i-wish-i-knew-this-sooner-websites-have-activity-7468289223264026625-Z01U",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7468105328790798337",
+      "shareUrn": "urn:li:ugcPost:7468105328790798337",
+      "content": "I wish I knew this sooner.\nWebsites have never been easier.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1780578904930,
+        "date": "2026-06-04T13:15:04.930Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQEgng-rY0CxYA/videocover-high/B56Z6QKTJEJQBQ-/0/1780535082138?e=1785877200&v=beta&t=m4TGX1ELJnjnmqQsmWYGw-UdghpRTSc45_ExeaLahxs",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D5605AQEgng-rY0CxYA/mp4-720p-30fp-crf28/B56Z6QKTJEJQCA-/0/1780535090750?e=1785877200&v=beta&t=FTUWwM2fDT_4fia4XO9pwKQn5Xut4Ka2Fjla5DbBoZg"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468105328790798337",
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7467577059809345536",
+      "entityId": "7467577059809345536",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_stop-learning-ai-start-using-it-avoid-activity-7467577059809345536-oVF2",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467577058890756096",
+      "shareUrn": "urn:li:share:7467577058890756096",
+      "content": "Stop learning AI. Start using it.\n\nAvoid \"learning mode\" for too long.\n\nWhen you have more tutorials saved and newsletters subscribed than problems solved, you're playing the game wrong.\n\nYour actual workload hasn't changed.\n\nSO DO THIS:\nNext time you hit a work problem (any problem) open Claude Cowork or ChatGPT Business before you do anything else. Type out the problem exactly as it exists. Don't clean it up. Don't overthink the prompt. Just describe what's in your way and ask for help.\n\nUNDERSTAND THIS:\nIn just 10 minutes you'll have a starting point that would've taken you an hour on your own.\n\nThe \"learning\" you've been delaying? It happens in that chat- not in the newsletter.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1780409111931,
+        "date": "2026-06-02T14:05:11.931Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5610AQFH8luodlY51w/image-shrink_800/B56Z6Ipg6.HAAk-/0/1780409045025?e=1785877200&v=beta&t=7znm9k1G7PHh--wfmrCfZAgOrXv8YWVI6R57MqarExo",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7467577059809345536",
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7450517116891619328",
+      "entityId": "7450517116891619328",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_ai-replacing-your-sales-team-is-the-wrong-activity-7450517116891619328-wLv8",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7450493844464504832",
+      "shareUrn": "urn:li:share:7450493844464504832",
+      "content": "AI replacing your sales team is the wrong goal. Here's what the right goal looks like.\n\nMy client, a service based business on the east coast, recently laid out his dream of AI handling every sales call, closing every deal — not to cut staff, but to multiply force. Well-intentioned. Well crafted strategy - except for one glaring weakness...\n\nService businesses are human-delivered. AI is smart, consistent and increasingly persuasive but it's not alive and it's not perfect. The risk here is the AI promising or insinuating a deliverable that is out of scope or flat out wrong.\n\nThe smarter play keeps humans at two critical points:\n\n1. A team member quality-checks AI outputs daily — as a routine part of their day, not a bottleneck before every message.\n\n2. A human closer verifies every promise pre-payment, pre-fulfillment — making sure what's being pitched aligns with what you can actually deliver. That's what keeps your brand and your future customer on the same page.\n\nFull automation of sales when humans deliver the service is a fast track to an inevitable credibility risk. My client just avoided it. Yours can too.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1776341704581,
+        "date": "2026-04-16T12:15:04.581Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFDbYYLjdJCqA/feedshare-shrink_1280/B56Z2V4rImHgAM-/0/1776336155392?e=1786579200&v=beta&t=UympQDwECLRM_fJAapKZjo_7ngUzLylI77wsJ6OtS4E",
+          "width": 928,
+          "height": 1152
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7450517116891619328",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482434193810010113",
+      "entityId": "7482434193810010113",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_youve-been-learning-ai-for-months-and-activity-7482434193810010113-qII-",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482434193319284736",
+      "shareUrn": "urn:li:share:7482434193319284736",
+      "content": "You've been \"learning AI\" for months and have nothing to show for it. Here's the fix.\n\nThe tutorials are good. The newsletters are fine.\nBut consuming content about AI is not the same as using it.\n\nDO THIS:\nRight now — not after this post, not after lunch — open Claude or ChatGPT.\nPick the most annoying task on your to-do list.\nPaste the whole problem into the chat. Messy. Unpolished. Just the real situation.\nSee what comes back. React to it. Iterate once or twice.\n\nGet this:\nMore progress in the next 30 minutes than 6 months of watching tutorials gave you.\nThe learning you've been waiting to have? It lives inside the actual chat — not in the content about it.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1783951328709,
+        "date": "2026-07-13T14:02:08.709Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482434193810010113",
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7467180779857416192",
+      "entityId": "7467180779857416192",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_nxtapexclaudecoworklinkedincarousel-activity-7467180779857416192-jf0h",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7467180779135995904",
+      "shareUrn": "urn:li:ugcPost:7467180779135995904",
+      "content": "Most people open Claude Cowork and treat it like a better chatbot.\n\nThat is the mistake.\n\nClaude Cowork becomes powerful when it knows who you are, has access to the right folders, understands the project, remembers context, and can actually take action through tools.\n\nFollow for daily Claude Cowork tips.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1780314631428,
+        "date": "2026-06-01T11:50:31.428Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "nxt_apex_claude_cowork_linkedin_carousel",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D5610AQHpbC4Oy9tiOg/ads-document-pdf-analyzed/B56Z6DBUEuIEAQ-/0/1780314621039?e=1785877200&v=beta&t=wk5JZqUEXIUuUWauTGvgTaHH2GgIhQ26c22jCfBQ14k",
+        "coverPages": [
+          {
+            "width": 1538,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D5610AQHpbC4Oy9tiOg/ads-document-cover-images_1920/B56Z6DBUEuIEBA-/0/1780314621618?e=1785877200&v=beta&t=VCuhoYV5zc-5UUYn1GuvxGivuK8MwXjcVWsPE-OR2Nw",
+              "https://media.licdn.com/dms/image/v2/D5610AQHpbC4Oy9tiOg/ads-document-cover-images_1920/B56Z6DBUEuIEBA-/1/1780314621618?e=1785877200&v=beta&t=rrEScFtaUS4218DJqfIiSZ6ovb3mRXEu5csSZULVw0Q",
+              "https://media.licdn.com/dms/image/v2/D5610AQHpbC4Oy9tiOg/ads-document-cover-images_1920/B56Z6DBUEuIEBA-/2/1780314621618?e=1785877200&v=beta&t=EwF3mXofzUhP_DuRrp1yeNME6c92_lXRpXq9zpXtAWI"
+            ],
+            "height": 1920
+          }
+        ],
+        "totalPageCount": 9,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D5610AQHpbC4Oy9tiOg/ads-document-master-manifest/B56Z6DBUEuIEBI-/0/1780314621618?e=1785877200&v=beta&t=xDapcickKITjdcHOSFDgEXJuRZE-ZJ2zElaF6SDAfOU",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D5610AQHpbC4Oy9tiOg",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D5610AQHpbC4Oy9tiOg/ads-document-transcript/B56Z6DBUEuIEAs-/0/1780314621618?e=1785974400&v=beta&t=YTKTW8Sejzp_k6rqGPjs_Tc4PQPW5ITtmquzMWJObgU",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D5610AQHpbC4Oy9tiOg/ads-document-pdf-analyzed/B56Z6DBUEuIEAQ-/0/1780314621618?e=1785974400&v=beta&t=0KKxzMJkceI6duPoyIHUV8Ph2ODQoXJDYSgNErO2q0A",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 1028,
+              "height": 1283,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D5610AQHpbC4Oy9tiOg/ads-document-images_1280/B56Z6DBUEuIEAg-/0/1780314621618?e=1785974400&v=beta&t=B0G7K7ThycyWeLVB3UoE8o8ri3Y2Z_jtMbvesof-rxY"
+            },
+            {
+              "width": 1538,
+              "height": 1920,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D5610AQHpbC4Oy9tiOg/ads-document-images_1920/B56Z6DBUEuIEAk-/0/1780314621618?e=1785974400&v=beta&t=vMNDKEBusj2HbvADcRadt4DULKOqvZagbBoRMJZdeEQ"
+            },
+            {
+              "width": 136,
+              "height": 169,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D5610AQHpbC4Oy9tiOg/ads-document-images_160/B56Z6DBUEuIEAU-/0/1780314621618?e=1785974400&v=beta&t=bHHgHyCHmj412MyXICiRrSQDJF49hjq9Af8m-hXMXIw"
+            },
+            {
+              "width": 646,
+              "height": 806,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D5610AQHpbC4Oy9tiOg/ads-document-images_800/B56Z6DBUEuIEAc-/0/1780314621618?e=1785974400&v=beta&t=XYqCyPQyp7T8Ffg8R9yKMyNgKjIB73cwpEkdpLB7a6E"
+            },
+            {
+              "width": 391,
+              "height": 488,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D5610AQHpbC4Oy9tiOg/ads-document-images_480/B56Z6DBUEuIEAY-/0/1780314621618?e=1785974400&v=beta&t=uo0vhy87LkvPKwRUr2OKlDKzyWsNAmyIyZsDCWobPrI"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7467180779135995904",
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "reactions": []
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7472288023561261056",
+      "entityId": "7472288023561261056",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_getting-bad-outputs-from-ai-its-not-the-activity-7472288023561261056-3R7Q",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7472288023020339200",
+      "shareUrn": "urn:li:share:7472288023020339200",
+      "content": "Getting bad outputs from AI? It's not the AI. Here's the fix.\n\nMost people accept the first response, decide it's \"not good enough,\" and go back to doing it manually.\n\nDO THIS:\nAfter you get any AI output, add one of these to your next message:\n→ \"What am I missing?\"\n→ \"What assumptions are you making that might be wrong?\"\n→ \"What's the strongest counterargument to what you just wrote?\"\n→ \"Give me a version that's more direct and 30% shorter.\"\n\nGet this:\nAn output that actually challenges your thinking instead of just echoing it back.\nThe first response is a draft. The real value is in the pushback.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1781532293215,
+        "date": "2026-06-15T14:04:53.215Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7472288023561261056",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481289872285003776",
+      "entityId": "7481289872285003776",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_how-claude-responds-to-me-sometimes-activity-7481289872285003776-bliW",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481285049766604800",
+      "shareUrn": "urn:li:share:7481285049766604800",
+      "content": "How Claude responds to me sometimes 😂",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1783678501197,
+        "date": "2026-07-10T10:15:01.197Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFYJchsqFnB-w/feedshare-shrink_1280/B56Z9LdHErKUAM-/0/1783677350444?e=1786579200&v=beta&t=2Vg_bd8GNT1Lpygt25jEV5lhUkfIFSIfgdWXdFYjMV4",
+          "width": 1080,
+          "height": 1920
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481289872285003776",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484979946503897088",
+      "entityId": "7484979946503897088",
+      "linkedinUrl": "https://www.linkedin.com/posts/philipideson_procurement-partnerships-vested-activity-7484979946503897088-vtha",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484979945249820673",
+      "shareUrn": "urn:li:share:7484979945249820673",
+      "content": "Procurement's greatest opportunity isn't found in a contract, but in the relationships that continue long after the contract is signed.\n\n🎧 https://lnkd.in/eAx4kmDg\n\nIn this week’s episode of the podcast, I welcome back Vested author Kate Vitasek to discuss why this is the case and what procurement can do about it.\n\nKate has spent decades studying what separates successful partnerships from those that struggle, and her latest book, The Vested Way: Five Rules for Achieving the Impossible, brings those lessons together in a way that's both practical and widely applicable.\n\n#procurement #partnerships #vested @Art of procurement",
+      "author": {
+        "id": "ACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "universalName": null,
+        "publicIdentifier": "philipideson",
+        "type": "profile",
+        "name": "Philip Ideson",
+        "linkedinUrl": "https://www.linkedin.com/in/philipideson?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "info": "Building procurement’s only always-on source for peer-driven insights, procuretech intelligence, and executive collaboration. | 🎙️📺 Founder, Art of Procurement | 2.5M+ podcast downloads",
+        "website": "https://artofprocurement.com/subscribe",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQEbf1y_hKqmRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728741210633?e=1786579200&v=beta&t=U6FKxoicAFZ42OLq6Wc5cSdlGq5G7nCTJP-zqCLYlkc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "4338164"
+      },
+      "postedAt": {
+        "timestamp": 1784558283449,
+        "date": "2026-07-20T14:38:03.449Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGYnzwWB3V5Ow/feedshare-image-high-res/B4EZ9_9mZYHAAU-/0/1784558282633?e=1786579200&v=beta&t=1Le9Tm7qwvY5-8Br636j4ntJfPgZUng_HZjH90GFKf0",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484979946503897088",
+        "likes": 31,
+        "comments": 6,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 26
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/philipideson",
+        "sessionId": "504a6c2e-5fe6-47ca-8da5-3752765b8197"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487500152144953345",
+      "entityId": "7487500152144953345",
+      "linkedinUrl": "https://www.linkedin.com/posts/philipideson_procurement-ai-leadership-activity-7487500152144953345-oL92",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487500150660128768",
+      "shareUrn": "urn:li:share:7487500150660128768",
+      "content": "Almost every conversation about AI seems to focus on the technology, when that is just one part of a much bigger puzzle.\n\n🎧https://lnkd.in/eJ2YGKH6\n\nIn this discussion with Gael De Martelaere, CPO of Hexion Inc., we talk about leadership, operating models, team development, and the foundations procurement needs to build if it wants AI to create lasting value.\n\nGaël shared how Hexion is rethinking procurement to better support the company's broader transformation, rebuilding processes with AI in mind while encouraging every member of the team to develop the curiosity and digital skills needed for what's ahead.\n\n#procurement #AI #leadership Art of Procurement",
+      "author": {
+        "id": "ACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "universalName": null,
+        "publicIdentifier": "philipideson",
+        "type": "profile",
+        "name": "Philip Ideson",
+        "linkedinUrl": "https://www.linkedin.com/in/philipideson?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "info": "Building procurement’s only always-on source for peer-driven insights, procuretech intelligence, and executive collaboration. | 🎙️📺 Founder, Art of Procurement | 2.5M+ podcast downloads",
+        "website": "https://artofprocurement.com/subscribe",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQEbf1y_hKqmRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728741210633?e=1786579200&v=beta&t=U6FKxoicAFZ42OLq6Wc5cSdlGq5G7nCTJP-zqCLYlkc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "4338164"
+      },
+      "postedAt": {
+        "timestamp": 1785159147297,
+        "date": "2026-07-27T13:32:27.297Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQF1g8cQTsdeJw/feedshare-image-high-res/B4EZ.jxtmGH8AU-/0/1785159146213?e=1786579200&v=beta&t=i4EOZLLKnT0dH4nPE8UqXo_tI-MJr8LoL-dTq3odmpc",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487500152144953345",
+        "likes": 24,
+        "comments": 4,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 21
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/philipideson",
+        "sessionId": "504a6c2e-5fe6-47ca-8da5-3752765b8197"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479904512678273026",
+      "entityId": "7479904512678273026",
+      "linkedinUrl": "https://www.linkedin.com/posts/philipideson_procurement-supplychain-transformation-activity-7479904512678273026-RFoT",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479904511319420928",
+      "shareUrn": "urn:li:share:7479904511319420928",
+      "content": "As AI reshapes how work gets done, procurement has an opportunity to redefine the value they create and the new skills their teams will need to succeed.\n🎧 https://lnkd.in/eXjbkVFq\n\nIn this week’s episode of the podcast, I speak with Israel Santiesteban, a former CPO and supply chain leader whose career has taken him through organizations including Danone, Kraft Heinz, and Schreiber Foods.\n\nIsrael has spent decades leading transformation in complex industries, and he shares a practical perspective on where AI is making a real difference today and where procurement leaders should focus next.\n\n#procurement #supplychain #transformation Art of Procurement",
+      "author": {
+        "id": "ACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "universalName": null,
+        "publicIdentifier": "philipideson",
+        "type": "profile",
+        "name": "Philip Ideson",
+        "linkedinUrl": "https://www.linkedin.com/in/philipideson?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "info": "Building procurement’s only always-on source for peer-driven insights, procuretech intelligence, and executive collaboration. | 🎙️📺 Founder, Art of Procurement | 2.5M+ podcast downloads",
+        "website": "https://artofprocurement.com/subscribe",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQEbf1y_hKqmRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728741210633?e=1786579200&v=beta&t=U6FKxoicAFZ42OLq6Wc5cSdlGq5G7nCTJP-zqCLYlkc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "4338164"
+      },
+      "postedAt": {
+        "timestamp": 1783348205728,
+        "date": "2026-07-06T14:30:05.728Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEinWq3iVnHaw/feedshare-image-high-res/B4EZ831hFwH8AY-/0/1783348204406?e=1786579200&v=beta&t=ST5-hS6iggyBo6NUFmF280CHupX0P9xcnHMyT9CnpmE",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479904512678273026",
+        "likes": 7,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/philipideson",
+        "sessionId": "504a6c2e-5fe6-47ca-8da5-3752765b8197"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7472279293490868225",
+      "entityId": "7472279293490868225",
+      "linkedinUrl": "https://www.linkedin.com/posts/philipideson_procurement-tokens-spendmanagement-activity-7472279293490868225-dYs2",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7471204296399765505",
+      "shareUrn": "urn:li:share:7471204296399765505",
+      "content": "A year ago, we weren’t thinking about AI tokens. Today, they are one of the fastest-growing technology spend categories - and many organizations are struggling to keep up.\n\n🎧 https://lnkd.in/edmUYzXa\n\nIn this week’s Art of Procurement podcast episode, I speak with Jon Winsett, CEO of NPI, to explore what procurement leaders need to understand about AI token consumption and why it is quickly becoming a governance, budgeting, and sourcing challenge.\n\nOur conversation is focused on where rapidly rising token costs are beginning to impact budgets, why many organizations still lack visibility into what is driving consumption, and how procurement can play an important role in bringing more discipline to this emerging category.\n\n#procurement #tokens #spendmanagement #ArtArt of Procurement",
+      "author": {
+        "id": "ACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "universalName": null,
+        "publicIdentifier": "philipideson",
+        "type": "profile",
+        "name": "Philip Ideson",
+        "linkedinUrl": "https://www.linkedin.com/in/philipideson?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "info": "Building procurement’s only always-on source for peer-driven insights, procuretech intelligence, and executive collaboration. | 🎙️📺 Founder, Art of Procurement | 2.5M+ podcast downloads",
+        "website": "https://artofprocurement.com/subscribe",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQEbf1y_hKqmRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728741210633?e=1786579200&v=beta&t=U6FKxoicAFZ42OLq6Wc5cSdlGq5G7nCTJP-zqCLYlkc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "4338164"
+      },
+      "postedAt": {
+        "timestamp": 1781530211804,
+        "date": "2026-06-15T13:30:11.804Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHbsKieKvTgww/feedshare-shrink_1280/B4EZ68Mt8nJ8AQ-/0/1781273911379?e=1786579200&v=beta&t=c1Wq2JVJSBXBHyokXbDr5EfQ0Mz2ZrV87z0aGHMYF6U",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7472279293490868225",
+        "likes": 24,
+        "comments": 3,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 22
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/philipideson",
+        "sessionId": "504a6c2e-5fe6-47ca-8da5-3752765b8197"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7469747266526973952",
+      "entityId": "7469747266526973952",
+      "linkedinUrl": "https://www.linkedin.com/posts/philipideson_procurement-lean-talent-activity-7469747266526973952-2033",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7469747263024607232",
+      "shareUrn": "urn:li:share:7469747263024607232",
+      "content": "Some of the most interesting conversations I have with procurement leaders are about choices.\n🎧 https://lnkd.in/e48yVyD9\n\nWhere do you invest limited resources? What work should stay in-house? What should be outsourced? How do you make sure your team is spending time on the things that matter most?\n\nThose questions were the focus of my recent conversation with Stephen Rauf, Global Head of Indirect Procurement at Zoetis, the world’s leading animal health company.\n\nStephen shares how he has led the transformation of a lean, high-impact procurement team and why one of the most important leadership questions he faces is whether to build capabilities internally or partner for specialized expertise.\n\nStephen’s perspective reinforces a lesson many procurement leaders are learning firsthand: sustainable transformation comes from thoughtfully aligning people, process, technology, and business priorities around the outcomes that matter most.\n\n#procurement #lean #talent Art of Procurement",
+      "author": {
+        "id": "ACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "universalName": null,
+        "publicIdentifier": "philipideson",
+        "type": "profile",
+        "name": "Philip Ideson",
+        "linkedinUrl": "https://www.linkedin.com/in/philipideson?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "info": "Building procurement’s only always-on source for peer-driven insights, procuretech intelligence, and executive collaboration. | 🎙️📺 Founder, Art of Procurement | 2.5M+ podcast downloads",
+        "website": "https://artofprocurement.com/subscribe",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQEbf1y_hKqmRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728741210633?e=1786579200&v=beta&t=U6FKxoicAFZ42OLq6Wc5cSdlGq5G7nCTJP-zqCLYlkc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "4338164"
+      },
+      "postedAt": {
+        "timestamp": 1780926529533,
+        "date": "2026-06-08T13:48:49.533Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFDGjPX3-2-CQ/feedshare-shrink_1280/B4EZ6nfjn8J4AM-/0/1780926528303?e=1786579200&v=beta&t=SRk7onMzwjHWhenCsFQO2rPJRs7FgacCGFKY0yrp1Oo",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7469747266526973952",
+        "likes": 13,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/philipideson",
+        "sessionId": "504a6c2e-5fe6-47ca-8da5-3752765b8197"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7474814547917209600",
+      "entityId": "7474814547917209600",
+      "linkedinUrl": "https://www.linkedin.com/posts/philipideson_procurement-ai-leadership-activity-7474814547917209600-rHLN",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7474814545316843521",
+      "shareUrn": "urn:li:share:7474814545316843521",
+      "content": "As AI accelerates access to information, procurement leaders face an important question: how do we continue to create value in ways that matter to the business?\n\n🎧 https://lnkd.in/ecKvhtgr\n\nIn this week’s episode of the pod, I speak with Gary Mizhir, Senior Director, Head of Innovation and Excellence at FIS.\n\nOur conversation explores why procurement leaders should challenge traditional assumptions about the function's role and actively seek opportunities to contribute in new areas of the business.\n\nGary believes that the future belongs to procurement teams that combine technology, data, and market intelligence with something far more human: the ability to build relationships, influence decisions, support executive leaders, and help the business navigate complexity.\n\n#procurement #AI #leadership Art of Procurement",
+      "author": {
+        "id": "ACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "universalName": null,
+        "publicIdentifier": "philipideson",
+        "type": "profile",
+        "name": "Philip Ideson",
+        "linkedinUrl": "https://www.linkedin.com/in/philipideson?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "info": "Building procurement’s only always-on source for peer-driven insights, procuretech intelligence, and executive collaboration. | 🎙️📺 Founder, Art of Procurement | 2.5M+ podcast downloads",
+        "website": "https://artofprocurement.com/subscribe",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQEbf1y_hKqmRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728741210633?e=1786579200&v=beta&t=U6FKxoicAFZ42OLq6Wc5cSdlGq5G7nCTJP-zqCLYlkc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "4338164"
+      },
+      "postedAt": {
+        "timestamp": 1782134663562,
+        "date": "2026-06-22T13:24:23.562Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEysJ4XpgpkYQ/feedshare-image-high-res/B4EZ7vgOPEHoAY-/0/1782134662354?e=1786579200&v=beta&t=4xoBE80xmgHmn032GKn___uDrJwweqIRoIF5QSsJfwI",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7474814547917209600",
+        "likes": 29,
+        "comments": 6,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 25
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/philipideson",
+        "sessionId": "504a6c2e-5fe6-47ca-8da5-3752765b8197"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7460332803797450753",
+      "entityId": "7460332803797450753",
+      "linkedinUrl": "https://www.linkedin.com/posts/philipideson_this-week-im-in-nyc-at-hfs-researchs-how-activity-7460332803797450753-iR_w",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7460332800525778944",
+      "shareUrn": "urn:li:share:7460332800525778944",
+      "content": "This week I’m in NYC at HFS Research’s “How to AI” Summit.\n\nHFS founder Phil Fersht kicked things off with a keynote that weaved together their research data and their real world experience helping companies in their AI transformation journeys.\n\nSome data points from Phil’s keynote that stood out:\n\nOnly 13% of Global 2000 companies have reached real AI maturity across any of their implementations. 87% are still experimenting.\n\nThe companies with lower AI maturity are planning 28% workforce cuts.\n\nThe companies with higher AI maturity are planning only 2% cuts, and 37% of them actually expect workforce growth.\n\nLess mature organizations seem to be approaching AI primarily as a cost efficiency lever: reduce labor, lower spend, automate tasks.\n\nMore mature organizations appear to be using AI as a value creation lever: increase capacity, redesign work, improve decisions, and create growth.\n\nFor procurement, this should shape how we think about:\n\n- business cases for AI\n- services and outsourcing strategy\n- whether AI is just a cost takeout tool or a driver of enterprise value\n- how we evaluate supplier innovation\n- what outcomes we should actually be buying\n\nAnother stat that stood out: 75% of enterprises are looking to replace services with AI solutions in the next 2–3 years, while three-quarters of BPO and IT services contracts are already being renegotiated because of AI.\n\nProcurement has a front row seat to this transformation, and as such we have influence is helping shape enterprise AI strategy. \n\nFor us, the goal should be to help shift the conversation from “Where can AI help us do the same work cheaper?” To “How can AI help us create more value?”\n\nI’m looking forward to hearing more from practitioners over the next couple of days!",
+      "author": {
+        "id": "ACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "universalName": null,
+        "publicIdentifier": "philipideson",
+        "type": "profile",
+        "name": "Philip Ideson",
+        "linkedinUrl": "https://www.linkedin.com/in/philipideson?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "info": "Building procurement’s only always-on source for peer-driven insights, procuretech intelligence, and executive collaboration. | 🎙️📺 Founder, Art of Procurement | 2.5M+ podcast downloads",
+        "website": "https://artofprocurement.com/subscribe",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQEbf1y_hKqmRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728741210633?e=1786579200&v=beta&t=U6FKxoicAFZ42OLq6Wc5cSdlGq5G7nCTJP-zqCLYlkc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "4338164"
+      },
+      "postedAt": {
+        "timestamp": 1778681946706,
+        "date": "2026-05-13T14:19:06.706Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGPFUw-e5J2Sg/feedshare-image-high-res/B4EZ4htI1rJoAU-/0/1778681944196?e=1786579200&v=beta&t=IfYF70xmV_G-bzy0HyYIwBIDdoFbSkF7lqsYtHOjgxE",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7460332803797450753",
+        "likes": 22,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 18
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/philipideson",
+        "sessionId": "504a6c2e-5fe6-47ca-8da5-3752765b8197"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7465034323709186048",
+      "entityId": "7465034323709186048",
+      "linkedinUrl": "https://www.linkedin.com/posts/philipideson_procurement-marketing-stakeholders-activity-7465034323709186048-cJJn",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7465034322371215362",
+      "shareUrn": "urn:li:share:7465034322371215362",
+      "content": "“If you mention savings more than once in a meeting with marketing, they'll just tune you out.”\n\n🎧https://lnkd.in/evb4X59p\n\nProcurement enters a stakeholder conversation focused on cost reduction because that is the language procurement organizations are conditioned to prioritize… but marketing leaders are usually focused on growth, brand impact, customer engagement, and speed to market.\n\nIf procurement shows up talking only about savings, it creates a disconnect from what stakeholders value.\n\nIn this week’s episode, I welcome Brad DeHart to the show. Brad has helped shape marketing procurement functions across industries, and his experience spans both the buy and sell sides, giving him a front-row seat to what works, and what might set your team back.\n\n#procurement #marketing #stakeholders Art of Procurement",
+      "author": {
+        "id": "ACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "universalName": null,
+        "publicIdentifier": "philipideson",
+        "type": "profile",
+        "name": "Philip Ideson",
+        "linkedinUrl": "https://www.linkedin.com/in/philipideson?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "info": "Building procurement’s only always-on source for peer-driven insights, procuretech intelligence, and executive collaboration. | 🎙️📺 Founder, Art of Procurement | 2.5M+ podcast downloads",
+        "website": "https://artofprocurement.com/subscribe",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQEbf1y_hKqmRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728741210633?e=1786579200&v=beta&t=U6FKxoicAFZ42OLq6Wc5cSdlGq5G7nCTJP-zqCLYlkc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "4338164"
+      },
+      "postedAt": {
+        "timestamp": 1779802876403,
+        "date": "2026-05-26T13:41:16.403Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQH1iv1FZook0A/feedshare-image-high-res/B4EZ5khKXlGUAU-/0/1779802875638?e=1786579200&v=beta&t=CHsMAL_BhAcuZAtaHYh3-h-PoF_HB9BRCjzXULVEVtg",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7465034323709186048",
+        "likes": 21,
+        "comments": 10,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 20
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/philipideson",
+        "sessionId": "504a6c2e-5fe6-47ca-8da5-3752765b8197"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7454529335178338304",
+      "entityId": "7454529335178338304",
+      "linkedinUrl": "https://www.linkedin.com/posts/philipideson_procurement-orchestration-automation-activity-7454529335178338304-ECga",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7454529333735616512",
+      "shareUrn": "urn:li:share:7454529333735616512",
+      "content": "It’s a technology shift for sure, but I think it’s also a significant shift in the operating model because procurement has to now decide who gets to do what role…\"\n\n 🎧 https://lnkd.in/eSw3uSYP\n\nIn this week’s episode of the pod, I speak with Viji Doraiswamy, VP of Product Marketing at Coupa. Drawing on her experience working closely with large organizations, we discuss how companies are approaching agentic AI, how they are addressing concerns around trust, and why orchestration is becoming such an important part of operating model transformation.\n\nWhat stood out to me from the conversation is how quickly teams are moving from experimentation to real results, particularly when they focus on practical use cases that free up time for more strategic work.\n\nAt this moment, procurement leaders have a rare degree of choice. The ability to shape how work gets done, where value is created, and how teams spend their time is now more within reach than ever, and those who act on it intentionally and strategically will define the next phase of procurement’s evolution.\n\n#procurement #orchestration #automation Art of Procurement",
+      "author": {
+        "id": "ACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "universalName": null,
+        "publicIdentifier": "philipideson",
+        "type": "profile",
+        "name": "Philip Ideson",
+        "linkedinUrl": "https://www.linkedin.com/in/philipideson?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "info": "Building procurement’s only always-on source for peer-driven insights, procuretech intelligence, and executive collaboration. | 🎙️📺 Founder, Art of Procurement | 2.5M+ podcast downloads",
+        "website": "https://artofprocurement.com/subscribe",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQEbf1y_hKqmRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728741210633?e=1786579200&v=beta&t=U6FKxoicAFZ42OLq6Wc5cSdlGq5G7nCTJP-zqCLYlkc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "4338164"
+      },
+      "postedAt": {
+        "timestamp": 1777298291964,
+        "date": "2026-04-27T13:58:11.964Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHe52_9NgyK1w/feedshare-image-high-res/B4EZ3PO7diHMAY-/0/1777298290797?e=1786579200&v=beta&t=EaqIlLDgoqDh7P312nLaiRRaXf9px975m6TovynPj2Q",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7454529335178338304",
+        "likes": 32,
+        "comments": 3,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 31
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/philipideson",
+        "sessionId": "504a6c2e-5fe6-47ca-8da5-3752765b8197"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7462127329440600064",
+      "entityId": "7462127329440600064",
+      "linkedinUrl": "https://www.linkedin.com/posts/philipideson_procurement-transformation-ai-activity-7462127329440600064-6-uZ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7462127326106112000",
+      "shareUrn": "urn:li:share:7462127326106112000",
+      "content": "What separates “digital masters” from the rest of procurement?\n\n🎧 https://lnkd.in/e9kjvkNt\n\nIn this week’s episode of the pod, I speak with Chris Riley, Ryan Flynn, and Jocelyn Mayfield from Deloitte. We discuss how leading procurement teams are connecting digital investments directly to business outcomes, and why AI is forcing organizations to rethink operating models from the ground up.\n\nWe also get into one of the biggest questions facing procurement today: how should we reskill and develop talent for a future that will require very different capabilities than in the past?\n\nWhat I took away from this conversation is that procurement has yet another important opportunity to redefine our role in the business, but doing so will require a whole lot more than digital transformation or new tech adoption.\n\n#procurement #transformation #AI Art of Procurement",
+      "author": {
+        "id": "ACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "universalName": null,
+        "publicIdentifier": "philipideson",
+        "type": "profile",
+        "name": "Philip Ideson",
+        "linkedinUrl": "https://www.linkedin.com/in/philipideson?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "info": "Building procurement’s only always-on source for peer-driven insights, procuretech intelligence, and executive collaboration. | 🎙️📺 Founder, Art of Procurement | 2.5M+ podcast downloads",
+        "website": "https://artofprocurement.com/subscribe",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQEbf1y_hKqmRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728741210633?e=1786579200&v=beta&t=U6FKxoicAFZ42OLq6Wc5cSdlGq5G7nCTJP-zqCLYlkc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "4338164"
+      },
+      "postedAt": {
+        "timestamp": 1779109794960,
+        "date": "2026-05-18T13:09:54.960Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHlAS8tSba_8w/feedshare-image-high-res/B4EZ47NQuBKQAU-/0/1779109792994?e=1786579200&v=beta&t=vc45URixCI_NlWxEkqNmHtgfG07qRo2biaJpet9-1E0",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7462127329440600064",
+        "likes": 19,
+        "comments": 3,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 18
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/philipideson",
+        "sessionId": "504a6c2e-5fe6-47ca-8da5-3752765b8197"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7458152053282975745",
+      "entityId": "7458152053282975745",
+      "linkedinUrl": "https://www.linkedin.com/posts/philipideson_our-third-catalyst-event-is-in-books-and-activity-7458152053282975745-gcjB",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7458152050023952384",
+      "shareUrn": "urn:li:ugcPost:7458152050023952384",
+      "content": "Our third Catalyst event is in books, and what a great day it was! 🤩\n\nWe set out to build a safe space for procurement executives to not only be inspired, but to create a safe space for them to work ON their operating model with peers. \n\nAs with everything we try to do at Art of Procurement, it's about pragmatism and taking action, not hype!  The initial feedback has been humbling and motivates us to keep building this community around the profession that we all care so deeply about.\n\nThere are so many people to thank. 🙏\n\nI was lucky to share the stage with so many experts in our field: Jan Griffiths, Jason Powell, Naveen Sastry, Saurabh Gupta, Linda Chuan, Michael Shields, Kelly Barner, David Tollen, Mark Zafra, Ashish G., Brian Peters, Tony Uphoff plus many other facilitators for our roundtables and mastermind session.\n\nAnd of course, we wouldn't be able to host an event like this without our partners.  At Catalyst, our partners are experts too.  We break down the buyer/seller silos to create an environment where we can all learn from each other.  \n\nThis requires an open mind from both practitioners and providers alike. Zip, Tropic, Ironclad, SpendHound, Lean Six Search | Supply Chain Recruitment Cotiss were all a key part of our day, and our day was richer for their expertise.\n\nFor me personally, this event was different than our previous two. Thanks to the leadership of Jim Cahalan and the entire AOP team, I got to show up and participate rather than feel the minute-by-minute stress of all the operational micro-decisions that have to be made on the day to make an event like this a success. \n\nAnd finally, to those who invested a day of their precious time AND joined us ready to be open, vulnerable, and learn... Catalyst couldn't be Catalyst without it!\n\nSo, thank you San Francisco... we'll be back next year. \n\nAnd next up -> Detroit and New York City!  \n\nIf you are an executive-level practitioner and would like to join us, let me know.",
+      "author": {
+        "id": "ACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "universalName": null,
+        "publicIdentifier": "philipideson",
+        "type": "profile",
+        "name": "Philip Ideson",
+        "linkedinUrl": "https://www.linkedin.com/in/philipideson?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "info": "Building procurement’s only always-on source for peer-driven insights, procuretech intelligence, and executive collaboration. | 🎙️📺 Founder, Art of Procurement | 2.5M+ podcast downloads",
+        "website": "https://artofprocurement.com/subscribe",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQEbf1y_hKqmRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728741210633?e=1786579200&v=beta&t=U6FKxoicAFZ42OLq6Wc5cSdlGq5G7nCTJP-zqCLYlkc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "4338164"
+      },
+      "postedAt": {
+        "timestamp": 1778162015267,
+        "date": "2026-05-07T13:53:35.267Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQF4pkzMLMUZ4w/feedshare-image-high-res/B4EZ4Ctw8UJsAU-/0/1778162013045?e=1786579200&v=beta&t=n8uS9l2tYGV0nx2mIe2T5W9jZ7z5g0sNbPHVzhpYzFw",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEbnlilGUIn-A/feedshare-image-high-res/B4EZ4Ctwv7G8AY-/0/1778162012294?e=1786579200&v=beta&t=hZpiUTrpYXO-eoVC1_rk8rByY8dhbLgrQkEMTgBq1yg",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFCYvMd6U4PsQ/feedshare-image-high-res/B4EZ4CtwpOHcAU-/0/1778162011928?e=1786579200&v=beta&t=T6A5-7CYuY_HFdqtLItj_2_lAu_4oVwLW1lDZBg7ZiU",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEjGXpXvKCeQw/feedshare-image-high-res/B4EZ4CtwAPIcAU-/0/1778162009173?e=1786579200&v=beta&t=UAHCOvxZJ1Xa8z6VqtrhlbXO3nmPgdlkkwb9mjgi9tM",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEr8-dYigdsSQ/feedshare-image-high-res/B4EZ4Ctw4UIMBc-/0/1778162012821?e=1786579200&v=beta&t=5Ya1y43cPMJCSSg7LLhqgyXCR5edNLX381ffL--wp7w",
+          "width": 2048,
+          "height": 1152
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFqdez1kcoJag/feedshare-image-high-res/B4EZ4CtvufHQAU-/0/1778162008135?e=1786579200&v=beta&t=6gMJOOL5s3kodKpraScTMWaiBciD_NW5jeSgY4WiAaI",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEbOEqs_PpFWA/feedshare-image-high-res/B4EZ4CtvU0GYAU-/0/1778162006349?e=1786579200&v=beta&t=h1iuLCrFRhtUmY8RQVxqTclrNY2AVwuLQfqINRX5pY8",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHxFBmIn3Ivfg/feedshare-image-high-res/B4EZ4CtwQVJoAU-/0/1778162010531?e=1786579200&v=beta&t=-HIdh-ELCylUmfbn5uLOP3fTFSPpw425JZzGrtfi0us",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGNiIhUYTOgpA/feedshare-image-high-res/B4EZ4Ctw5gHUAU-/0/1778162013215?e=1786579200&v=beta&t=oV7k8RrIPI2kPQ-HynNIynULz-N2uhgw_1iLFblln0M",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHYzijtInQY3g/feedshare-image-high-res/B4EZ4Ctw5LHUAU-/0/1778162012868?e=1786579200&v=beta&t=XbWdG660Vtmsqi8CXWoOtGvETUxRmsyBf5s1xqgH0Zo",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEz9EoNXWntwg/feedshare-image-high-res/B4EZ4Ctv.nIcAY-/0/1778162009206?e=1786579200&v=beta&t=cKXrkiIgv3XxulK3kxdJdYGqPYzjRx0SyvbwRTZmzyw",
+          "width": 2048,
+          "height": 1365
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFhzIJFiVbnkQ/feedshare-image-high-res/B4EZ4CtwGnGYAU-/0/1778162009968?e=1786579200&v=beta&t=CvxmsWYdz-dput-hje1J6Y4-yriBHKoNiPIjAuyHhSI",
+          "width": 2048,
+          "height": 1365
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7458152050023952384",
+        "likes": 142,
+        "comments": 25,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 108
+          },
+          {
+            "type": "PRAISE",
+            "count": 23
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/philipideson",
+        "sessionId": "504a6c2e-5fe6-47ca-8da5-3752765b8197"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7446925077151010816",
+      "entityId": "7446925077151010816",
+      "linkedinUrl": "https://www.linkedin.com/posts/philipideson_procurement-catalyst-events-activity-7446925077151010816-LyXa",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7446925075922092032",
+      "shareUrn": "urn:li:share:7446925075922092032",
+      "content": "The pace of change is accelerating, and procurement leaders can’t afford passive learning anymore. We need real conversations with peers who are facing the same challenges.\n\n🎧 https://lnkd.in/ebNUAFfs\n\nIn this week’s episode of the pod, I am joined by our Director of Events, Jim Cahalan, to discuss how we’ve designed the AOP Catalyst event series to meet the needs of this moment.\n\nWe talk about why our events are intentionally built for action – not just ideas – and how smaller, more intimate settings, paired with unique venues, help create the conditions for honest, meaningful dialogue.\n\nThis episode offers a behind-the-scenes look at how we bring these impactful experiences to life for senior procurement leaders.\n\nArt of Procurement #procurement #Catalyst #events",
+      "author": {
+        "id": "ACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "universalName": null,
+        "publicIdentifier": "philipideson",
+        "type": "profile",
+        "name": "Philip Ideson",
+        "linkedinUrl": "https://www.linkedin.com/in/philipideson?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "info": "Building procurement’s only always-on source for peer-driven insights, procuretech intelligence, and executive collaboration. | 🎙️📺 Founder, Art of Procurement | 2.5M+ podcast downloads",
+        "website": "https://artofprocurement.com/subscribe",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQEbf1y_hKqmRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728741210633?e=1786579200&v=beta&t=U6FKxoicAFZ42OLq6Wc5cSdlGq5G7nCTJP-zqCLYlkc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "4338164"
+      },
+      "postedAt": {
+        "timestamp": 1775485295570,
+        "date": "2026-04-06T14:21:35.570Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEecrj6KX_3hw/feedshare-image-high-res/B4EZ1jK5cKGYAU-/0/1775485294630?e=1786579200&v=beta&t=v-AXTwfnt_M4a9ZiRqCSwJj6QUSdWddLLxt2Q5kZ2qo",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7446925077151010816",
+        "likes": 29,
+        "comments": 4,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 28
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/philipideson",
+        "sessionId": "504a6c2e-5fe6-47ca-8da5-3752765b8197"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7457074050478305280",
+      "entityId": "7457074050478305280",
+      "linkedinUrl": "https://www.linkedin.com/posts/philipideson_procurement-analytics-benchmarking-activity-7457074050478305280-BZWK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7457074048833978369",
+      "shareUrn": "urn:li:share:7457074048833978369",
+      "content": "Spend analytics has come a long way from spreadsheets, but many organizations still struggle to describe what “good” actually looks like. \n🎧 https://lnkd.in/eXPrP6sh\n\nWithout a clear benchmark, it is easy to assume performance is strong when there are still meaningful opportunities left untapped.\n\nIn this week’s podcast episode, Kelly Barner and I talk with Sammeli Sammalkorpi, Co-Founder and CEO of Sievo, to explore insights drawn from $1.4 trillion in procurement spend, as outlined in their annual State of Spend report. \n\nOur conversation challenges some long-held assumptions, particularly around control. We discussed whether policies like ‘no PO, no pay’ always serve the intended purpose, and how procurement leaders can take a more nuanced approach depending on the category and business context. \n\nProcurement’s ability to create impact is closely tied to how well they understand their own performance in context. When that context is grounded in data, it becomes much easier to move from assumption to action.\n\n#procurement #analytics #benchmarking Art of Procurement",
+      "author": {
+        "id": "ACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "universalName": null,
+        "publicIdentifier": "philipideson",
+        "type": "profile",
+        "name": "Philip Ideson",
+        "linkedinUrl": "https://www.linkedin.com/in/philipideson?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAABCMfQBzpREM9tYba3YevedNGtNIoMeUts",
+        "info": "Building procurement’s only always-on source for peer-driven insights, procuretech intelligence, and executive collaboration. | 🎙️📺 Founder, Art of Procurement | 2.5M+ podcast downloads",
+        "website": "https://artofprocurement.com/subscribe",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQEbf1y_hKqmRQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728741210633?e=1786579200&v=beta&t=U6FKxoicAFZ42OLq6Wc5cSdlGq5G7nCTJP-zqCLYlkc",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "4338164"
+      },
+      "postedAt": {
+        "timestamp": 1777904999370,
+        "date": "2026-05-04T14:29:59.370Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGHOVFcLrHknw/feedshare-shrink_1280/B4EZ3zZVQ3JEAM-/0/1777904997761?e=1786579200&v=beta&t=adxxgopcA8OGfZIWkGNtKqfiR08SB93e0cEMcIpX9_U",
+          "width": 1200,
+          "height": 1200
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7457074050478305280",
+        "likes": 24,
+        "comments": 3,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 22
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/philipideson",
+        "sessionId": "504a6c2e-5fe6-47ca-8da5-3752765b8197"
+      }
+    }
+  ]
+}

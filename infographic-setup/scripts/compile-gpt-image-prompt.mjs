@@ -71,6 +71,8 @@ const data = {
   openingClaim: field(brief, 'Opening claim'),
   stopReason: field(brief, 'Why this stops the right reader'),
   saveTrigger: field(brief, 'Save trigger'),
+  referenceMode: field(brief, 'Reference mode'),
+  mechanicSource: field(brief, 'Evidence/mechanic source'),
   powerFormat: field(brief, 'Power format'),
   structureLesson: field(brief, 'Structure reference lesson'),
   captionLesson: field(brief, 'Caption promise lesson'),
@@ -158,7 +160,7 @@ const prompt = `# GPT Image 2 Prompt — ${data.slug}
 **Week:** ${data.week}  
 **Series:** ${data.series}  
 **Source brief:** \`creative-brief-lite.md\`  
-**Reference card:** \`reference-learning-card.md\`  
+**Reference card:** ${existsSync(refPath) ? '\`reference-learning-card.md\`' : 'not used'}
 
 ## Prompt
 
@@ -171,8 +173,10 @@ This is for ${data.audienceSegment}. They are trying to ${data.audienceJob}. Aft
 Moment of use: ${stripTrailingPeriod(data.moment || 'a real supply-chain meeting or workflow')}.
 
 REFERENCE INTELLIGENCE:
+- Mode: ${data.referenceMode || (data.captionIndex ? 'legacy reference brief' : 'evidence/artifact only')}
+- Evidence/mechanic source: ${data.mechanicSource || 'accepted audience problem and operating artifact'}
 - Structure: ${data.powerFormat} -> ${data.structureLesson}
-- Caption promise: ${data.captionIndex || 'top-100 caption index'} -> ${data.captionLesson}
+- Caption promise: ${data.captionIndex || 'no caption-index reference'} -> ${data.captionLesson}
 - Craft: Cobalt Grid brand frame -> ${data.craftLesson}
 ${refPromptLesson ? `- Reference card lesson: ${refPromptLesson}` : ''}
 ${refVisualMechanics ? `- Visual mechanics: ${refVisualMechanics}` : ''}

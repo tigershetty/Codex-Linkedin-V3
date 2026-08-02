@@ -1,0 +1,30 @@
+{
+  "collected_at": "2026-08-02T18:05:05.577Z",
+  "access": {
+    "surface": "logged-in LinkedIn session in the in-app browser",
+    "read_only": true,
+    "profile": "https://www.linkedin.com/in/shettys-desk/"
+  },
+  "profile_snapshot": {
+    "followers_visible": 1511,
+    "profile_viewers_sidebar_visible": 504,
+    "profile_viewers_sidebar_scope": "The sidebar number was visible, but its comparison window was not established in this audit; do not compare it with post-attributed profile viewers."
+  },
+  "content_analytics_snapshot": {
+    "range": "2025-08-03 to 2026-08-02",
+    "impressions": 333575,
+    "social_engagements": 3390,
+    "reactions": 2367,
+    "comments": 203,
+    "reposts": 19,
+    "saves": 678,
+    "sends": 123,
+    "link_engagements": 1
+  },
+  "limitations": [
+    "The aggregate snapshot does not fully reconcile with the sum of the 60 post pages; both observations are retained.",
+    "The saved-post list did not expose engagement counts or impressions.",
+    "Metrics can continue to change after collection."
+  ]
+}
+

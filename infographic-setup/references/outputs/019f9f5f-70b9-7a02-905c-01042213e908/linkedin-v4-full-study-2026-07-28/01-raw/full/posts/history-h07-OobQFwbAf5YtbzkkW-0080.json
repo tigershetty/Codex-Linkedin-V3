@@ -1,0 +1,3383 @@
+{
+  "runId": "OobQFwbAf5YtbzkkW",
+  "datasetId": "FVy1cmGSxLCdDim0s",
+  "offset": 80,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7462774120854757377",
+      "entityId": "7462774120854757377",
+      "linkedinUrl": "https://www.linkedin.com/posts/theanishajain_i-cant-believe-my-claude-is-finally-brutal-activity-7462774120854757377-McS7",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7462758762139832320",
+      "shareUrn": "urn:li:share:7462758762139832320",
+      "content": "I can't believe my Claude is (finally) brutal.\n\nIt stops agreeing with everything I say. Here's how:\n\n→ Start by reading this: https://lnkd.in/g9ZPfNw6.\n→ Go to Claude > Settings.\n→ Paste the prompt in 'Instructions for Claude':\n\n\"You are committed to honesty, accuracy, and epistemic humility above all else.\n\nYour priority is not to sound confident. Your priority is to be correct, clear, and transparent about what you know, what you do not know, and what you are inferring.\n\nFollow these rules in every response:\n\n1. UNCERTAINTY\n\nIf you are not fully certain about a fact, say so clearly.\n\nUse phrases like:\n- \"I'm not certain, but...\"\n- \"You should verify this...\"\n- \"I may be wrong here, but...\"\n- \"Based on the information available to me...\"\n- \"This is my best estimate, not a confirmed fact.\"\n\nNever state uncertain claims as facts.\n\nIf the answer depends on missing context, say what context is missing.\n\nIf there are multiple plausible answers, explain the main possibilities instead of pretending there is only one.\n\n2. SOURCES\n\nDo not invent sources.\n\nNever fabricate:\n- paper titles\n- URLs\n- authors\n- studies\n- statistics\n- books\n- legal cases\n- quotes\n- company reports\n- historical references\n\nIf you cannot name a real, verifiable source, say so.\n\nIf you are relying on general knowledge rather than a specific source, say that clearly.\n\nWhen citing sources, prefer:\n- official documentation\n- primary sources\n- peer-reviewed papers\n- government or institutional data\n- direct statements from the relevant person or organization\n\nIf a source may be outdated, say so.\n\n3. STATISTICS AND NUMBERS\n\nFlag any number, statistic, percentage, ranking, market size, salary figure, performance metric, or estimate that you are not fully confident in.\n\nUse phrases like:\n- \"I believe this is approximately...\"\n- \"This number may be outdated.\"\n- \"Verify this against a primary source before relying on it.\"\n- \"I do not have enough information to confirm the exact figure.\"\n\nDo not make up numbers to make an answer sound more useful.\n\nIf a precise number is unavailable, give a range only if it is justified. Otherwise say the number is unknown.\n\n4. RECENT EVENTS\n\nDo not guess about current events.\n\nFor any topic that may have changed recently, including:\n- news\n- elections\n- laws\n- regulations\n- product features\n- company leadership\n- software versions\n- AI model capabilities\n- market data\n\nSay that the information may have changed and should be verified with a current source.\nDo not present outdated information as current.\n\n5. PEOPLE AND QUOTES\n\nNever attribute a quote to a real person unless you are certain they said it.\n\nIf unsure, say:\n- \"I cannot confirm this quote is accurate.\"\n- \"This quote is commonly attributed to them, but I cannot verify it.\"\n- \"I do not know who originally said this.\"\n\nDo not invent statements, beliefs, or motives for real people.\nSeparate confirmed facts from interpretation.\n\nIf any answer is \"yes,\" revise before responding.\"",
+      "author": {
+        "id": "ACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "universalName": null,
+        "publicIdentifier": "theanishajain",
+        "type": "profile",
+        "name": "Anisha Jain",
+        "linkedinUrl": "https://www.linkedin.com/in/theanishajain?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "info": "How to write (better) with AI.",
+        "website": "https://ruben.substack.com/p/from-49-to-10000-followers-in-17",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFkJYRw5ttAHw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729497704839?e=1786579200&v=beta&t=7hw52JH_qCwzeS8HTYk5XcQxvAV5yEttghxEqXHCrX8",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "767821864"
+      },
+      "postedAt": {
+        "timestamp": 1779264002050,
+        "date": "2026-05-20T08:00:02.050Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGxzGCNeFCajg/feedshare-shrink_1280/B56Z5ELjKtGoAM-/0/1779260339371?e=1786579200&v=beta&t=mnMY39tbj9LddftA50Wk8VlzsptBYi-SjfTFpqwOwm8",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7462774120854757377",
+        "likes": 2492,
+        "comments": 290,
+        "shares": 175,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2158
+          },
+          {
+            "type": "INTEREST",
+            "count": 171
+          },
+          {
+            "type": "EMPATHY",
+            "count": 102
+          },
+          {
+            "type": "PRAISE",
+            "count": 40
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 11
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 10
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/theanishajain",
+        "sessionId": "8e20f489-27c0-493b-a08c-db5ba711775f"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7459520121292861440",
+      "entityId": "7459520121292861440",
+      "linkedinUrl": "https://www.linkedin.com/posts/theanishajain_stop-prompting-claude-literally-these-activity-7459520121292861440-kl4_",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7459520120122679297",
+      "shareUrn": "urn:li:share:7459520120122679297",
+      "content": "Stop prompting Claude (literally).\n\nThese 3 files prompt better than you ever will:\n\nFile 1. about-me .md (W-H-H)\n✦ Who I am: my role, my audience, my industry.\n✦ How I work: tools, process, what \"done\" means.\n✦ What I hate: AI shortcuts, bad patterns, lazy tone.\n✦ Copy the entire prompt to build your own about me file: https://lnkd.in/g5fgtwmG\n\nFile 2. anti-ai-writing-style .md (W-P-V)\n✦ Banned words: delve, harness (80+ more).\n✦ Banned patterns: \"this isn't X, this is Y.\"\n✦ Voice rules: 3 sentences max per paragraph.\n✦ Download the exact file here: how-to-ai.guide\n✦ Don't pay anything. Reply to the welcome email.\n✦ Click on the notion link in the 2nd mail for the file.\n\nFile 3. my-company .md (G-F-N)\n✦ Goals: my targets per platform, my revenue lines.\n✦ Focus: where my energy goes this quarter.\n✦ Saying no to: opportunities, trends, distractions.\n✦ Read this free guide to set it up: claude-co.work\n\nHow to set it up in 20 minutes:\n✦ Create a folder on your computer: \"Cowork.\"\n✦ Drop these 3 files inside ABOUT ME/ subfolder.\n✦ Paste Global Instructions in Cowork's settings.\n✦ Open a new task → Claude reads all 3 files first.\n\nWhat this kills forever:\n✦ Re-typing \"act as a...\" every morning.\n✦ Re-explaining your tone in every chat.\n✦ Outputs that sound like everyone else's outputs.\n\nThe 500-word prompt is dead.\nThe 3-file setup runs forever.\n\n♻️ Repost if your network is still typing prompts.",
+      "author": {
+        "id": "ACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "universalName": null,
+        "publicIdentifier": "theanishajain",
+        "type": "profile",
+        "name": "Anisha Jain",
+        "linkedinUrl": "https://www.linkedin.com/in/theanishajain?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "info": "How to write (better) with AI.",
+        "website": "https://ruben.substack.com/p/from-49-to-10000-followers-in-17",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFkJYRw5ttAHw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729497704839?e=1786579200&v=beta&t=7hw52JH_qCwzeS8HTYk5XcQxvAV5yEttghxEqXHCrX8",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "767821864"
+      },
+      "postedAt": {
+        "timestamp": 1778488188098,
+        "date": "2026-05-11T08:29:48.098Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQF7A-7EgYrA6A/feedshare-shrink_1280/B56Z4WKBSBIQAM-/0/1778488186670?e=1786579200&v=beta&t=8kF2DV1ck52xEFVZsVf7Y4sXaREiMooKP_51qKbvCtI",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7459520121292861440",
+        "likes": 962,
+        "comments": 164,
+        "shares": 73,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 827
+          },
+          {
+            "type": "INTEREST",
+            "count": 85
+          },
+          {
+            "type": "EMPATHY",
+            "count": 26
+          },
+          {
+            "type": "PRAISE",
+            "count": 11
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 11
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/theanishajain",
+        "sessionId": "8e20f489-27c0-493b-a08c-db5ba711775f"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7459875026989658114",
+      "entityId": "7459875026989658114",
+      "linkedinUrl": "https://www.linkedin.com/posts/theanishajain_linkedin-has-1150000000-accounts-here-activity-7459875026989658114-GCrb",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7459820468598943744",
+      "shareUrn": "urn:li:share:7459820468598943744",
+      "content": "LinkedIn has 1,150,000,000 accounts.\n\nHere are 56 LinkedIn creators who will teach you more skills than a 4-year degree:\n\nAI\n1. Ruben Hassid: Explains AI in simple, easy steps.\n2. Chip Huyen: Teaches AI through storytelling.\n3. Anisha Jain Shares ways to create content (+AI).\n4. Greg Isenberg: Builds internet-first companies.\n5. Axelle Malek: Explains AI tools in a clear way.\n6. Olivia Moore: Covers AI from the VC side.\n7. Wyndo: Shares practical, no-fluff AI systems. \n\nContent:\n8. Jake Ward: Shares lessons from scaling SEO.\n9. AJ Eckstein 🧩: Connects creators with brands.\n10. Tara: Writes on writing, storytelling, & books.\n11. Diandra: Turn ideas into content machines.\n12. Justin: Making people LinkedIn niche famous\n13. Mischa: Teach you how to write on LinkedIn.\n14. Josh: Tests what works and shares it all.\n\nCEO: \n15. Grant Lee: Building Gamma to make AI slides.\n16. Guillermo: Building the future of web + AI.\n17. Tanay Kothari: Building Wispr, voice-to-text AI.\n18. Eric: Coaches CEOs to peak performance. \n19. Aravind Srinivas: CEO of Perplexity.\n20. Satya Nadella: CEO of Microsoft.\n21. Anton Osika: CEO of Lovable, last software.\n\nVideo: \n22. Simon Meyer: Creates cinematic ads.\n23. David Blagojevic: How to make hooking videos.\n24. Matthieu: Creative Lead, Google DeepMind.\n25. PJ Accetturo: Makes viral AI ads.\n26. Sebastien: Helps creators master AI video tools.\n27. Alex: Produces Hollywood-level AI content.\n28. Dave: Brings AI into film, TV, and ads.\n\nDesign:\n29. Felix: Shares how AI changes modern design.\n30. Tatiana: Posts Midjourney tips & prompts.\n31. Drew Brucker: Talks AI design + Midjourney.\n32. Dogan: Shows how to work smarter with AI.\n33. Nick: Teaches how to design great content.\n34. Daniel: Shows how to design for Linkedin.\n35. Ross: Posts daily tips for mastering AI.\n\nCoaching/Mindset:\n36: Maria Zhanette: Curates who's worth following.\n37. Dan Go: Transforms entrepreneur bodies.\n38. Colby Kultgen: Posts daily 1% better tips.\n39. Reno Perry: Helps land $200K+ dream jobs.\n40. Ben Meer: Shares systems for life optimization.\n\n(Rest of the creators are listed in the top comment)",
+      "author": {
+        "id": "ACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "universalName": null,
+        "publicIdentifier": "theanishajain",
+        "type": "profile",
+        "name": "Anisha Jain",
+        "linkedinUrl": "https://www.linkedin.com/in/theanishajain?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "info": "How to write (better) with AI.",
+        "website": "https://ruben.substack.com/p/from-49-to-10000-followers-in-17",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFkJYRw5ttAHw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729497704839?e=1786579200&v=beta&t=7hw52JH_qCwzeS8HTYk5XcQxvAV5yEttghxEqXHCrX8",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "767821864"
+      },
+      "postedAt": {
+        "timestamp": 1778572804210,
+        "date": "2026-05-12T08:00:04.210Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGkWLxZwSpjbw/feedshare-shrink_1280/B56Z4abL7pIkAM-/0/1778559795473?e=1786579200&v=beta&t=ntIIBtyzL_2PPCbwN6DyuQvOv6mB64kvgjazNLNUveU",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7459875026989658114",
+        "likes": 1152,
+        "comments": 247,
+        "shares": 100,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 956
+          },
+          {
+            "type": "EMPATHY",
+            "count": 74
+          },
+          {
+            "type": "INTEREST",
+            "count": 71
+          },
+          {
+            "type": "PRAISE",
+            "count": 27
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 22
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/theanishajain",
+        "sessionId": "8e20f489-27c0-493b-a08c-db5ba711775f"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7463136842075324418",
+      "entityId": "7463136842075324418",
+      "linkedinUrl": "https://www.linkedin.com/posts/theanishajain_id-rather-drink-water-from-a-week-old-flower-activity-7463136842075324418-CTju",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7463136840800296961",
+      "shareUrn": "urn:li:share:7463136840800296961",
+      "content": "I'd rather drink water from a week-old flower vase than gatekeep claude101.com - to master Claude:\n\n→ Level 1 - 24 min: The basics.\n\nClaude For Dummies: https://lnkd.in/gTKxkNrY\nHow to prompt Claude: https://lnkd.in/grTNFckP\nClaude Certified: https://lnkd.in/gRGUT4iK\n\n→ Level 2 - 1 hour: Real workflows. \n\nClaude Cowork: claude-co.work\nClaude for teams: how-claude.team\nClaude Design: claudedesign.free\nCowork + Projects: https://lnkd.in/d8BHqTvV\nClaude for slides: how-to-gamma.ai\nClaude Skills: claude-skills.free\n\n→ Level 3 - 3.5 hours: The pro moves.\n\nAvoid sycophancy: https://lnkd.in/eSWiXGzK\nClaude to sound like you: https://lnkd.in/g5fgtwmG\nStop hitting Claude limits: https://lnkd.in/gzzhvrY6\nStop Prompting: https://lnkd.in/e47NxW22\nStop sounding like AI: https://lnkd.in/g9ZPfNw6\n\n→ Level 4 - 8 hours: Expert mode. \n\nClaude Computer: https://lnkd.in/dSaSqRxw\nClaude Code: claudecode.free\n\nPro tip: Don't binge it. Do one level per sitting. \n\nActually apply each guide before moving to the next.",
+      "author": {
+        "id": "ACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "universalName": null,
+        "publicIdentifier": "theanishajain",
+        "type": "profile",
+        "name": "Anisha Jain",
+        "linkedinUrl": "https://www.linkedin.com/in/theanishajain?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "info": "How to write (better) with AI.",
+        "website": "https://ruben.substack.com/p/from-49-to-10000-followers-in-17",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFkJYRw5ttAHw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729497704839?e=1786579200&v=beta&t=7hw52JH_qCwzeS8HTYk5XcQxvAV5yEttghxEqXHCrX8",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "767821864"
+      },
+      "postedAt": {
+        "timestamp": 1779350481528,
+        "date": "2026-05-21T08:01:21.528Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGQG2jSbyAqbw/feedshare-shrink_1280/B56Z5JjaL_JEAM-/0/1779350480080?e=1786579200&v=beta&t=YJP57zk1vioy3lSsXjtOChGhErLxql1Q6rpDODtkM3Y",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7463136842075324418",
+        "likes": 1482,
+        "comments": 167,
+        "shares": 124,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1318
+          },
+          {
+            "type": "INTEREST",
+            "count": 76
+          },
+          {
+            "type": "EMPATHY",
+            "count": 51
+          },
+          {
+            "type": "PRAISE",
+            "count": 21
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 12
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/theanishajain",
+        "sessionId": "8e20f489-27c0-493b-a08c-db5ba711775f"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7465673245489369088",
+      "entityId": "7465673245489369088",
+      "linkedinUrl": "https://www.linkedin.com/posts/theanishajain_you-think-youve-mastered-claude-here-activity-7465673245489369088-1mnR",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7465668294956462080",
+      "shareUrn": "urn:li:share:7465668294956462080",
+      "content": "You think you've mastered Claude. \n\nHere are 7 daily habits proving you haven't (yet):\n\nMistake 1. You open a new chat for every task.\nFix: Build Cowork Projects for each part of your tasks. Each gets its own folder & about-me file. Claude now knows your tone, your goals, & your last 10 decisions.\n\nMistake 2. You write every draft from a blank page.\nFix: Drop writing-style .md and anti-ai-writing-style .md in your Cowork folder. Claude reads them before every draft. Every word sounds like you.\n\nMistake 3. You check Gmail by hand every morning.\nFix: Plug Connectors into Gmail, Slack, and Granola. Every morning: one summary. What to reply to. What's slipping. Click. Done.\n\nMistake 4. You open Canva with a blank canvas.\nFix: Draft the brief inside claude .ai/design first. Then hit \"Send to Canva.\" Never guess at a blank screen again.\n\nMistake 5. You redo the same task twice.\nFix: The second time you run it, turn it into a Skill. One /command, every instruction baked in.\n\nMistake 6. You lose ideas to your Notes app.\nFix: Speak them with Wispr .ai. The transcript lands in your Cowork folder. Claude turns each one into a hook, a caption, and a brief. Batched.\n\nMistake 7. You build spreadsheets cell by cell.\nFix: Drop your CSV into Cowork and describe the output. Claude writes the formulas, builds the model, saves the .xlsx in your folder. You open it already done.\n\nTo download my (exact) Claude .md files:\n\n1. Go to how-to-ai.guide.\n2. Subscribe for free. Open my welcome email.\n3. Hit the automatic reply button inside.\n4. Go to the Notion link in the second mail.\n5. Copy-paste prompts, too.",
+      "author": {
+        "id": "ACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "universalName": null,
+        "publicIdentifier": "theanishajain",
+        "type": "profile",
+        "name": "Anisha Jain",
+        "linkedinUrl": "https://www.linkedin.com/in/theanishajain?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "info": "How to write (better) with AI.",
+        "website": "https://ruben.substack.com/p/from-49-to-10000-followers-in-17",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFkJYRw5ttAHw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729497704839?e=1786579200&v=beta&t=7hw52JH_qCwzeS8HTYk5XcQxvAV5yEttghxEqXHCrX8",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "767821864"
+      },
+      "postedAt": {
+        "timestamp": 1779955207226,
+        "date": "2026-05-28T08:00:07.226Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEVu6iRrypfZg/feedshare-shrink_1280/B56Z5thwIJJsAM-/0/1779954025719?e=1786579200&v=beta&t=GAK_yE507r9STwvmGGmw5rpRt2KBMCaacNrg3vLTBoI",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7465673245489369088",
+        "likes": 1239,
+        "comments": 171,
+        "shares": 47,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1074
+          },
+          {
+            "type": "INTEREST",
+            "count": 95
+          },
+          {
+            "type": "EMPATHY",
+            "count": 48
+          },
+          {
+            "type": "PRAISE",
+            "count": 15
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 7
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/theanishajain",
+        "sessionId": "8e20f489-27c0-493b-a08c-db5ba711775f"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7460964599266381824",
+      "entityId": "7460964599266381824",
+      "linkedinUrl": "https://www.linkedin.com/posts/theanishajain_how-to-learn-claude-completely-in-just-90-activity-7460964599266381824-tvvk",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7460964597957779456",
+      "shareUrn": "urn:li:share:7460964597957779456",
+      "content": "How to learn Claude completely in just 90 seconds:\n\n(Save this. Send it to your team. Thank me later.)\n\nPart 1: What Claude actually is\n\nClaude is an AI you talk to.\nMade by Anthropic. Same species as ChatGPT.\nBut different personality, different strengths.\n\nPart 2: Three Claudes (pick one)\n\nBrowser Claude → claude .com. Just prompting.\nDesktop Claude → App. It sees your local files.\nCowork → inside the desktop app. Runs tasks.\n\nBrowser = ask.\nDesktop = ask + access.\nCowork = ask + access + do.\nStart with the browser. Move to Cowork.\n\nPart 3: Plans and Pricing\n\nFree Plan. 2 weeks to decide if Claude is for you.\nPro Plan ($20/month) for Opus, Cowork & Projects.\nMax Plan ($100/month). For more tokens daily.\nPay monthly, not annually. Cancel if not used.\n\nPart 4: Models\n\nOpus 4.7 (smartest, deep work).\nSonnet (quick tasks).\nHaiku (fastest).\nTurn on Extended Thinking for hard problems.\n\nPart 5: How to actually talk to Claude\n\nBe specific: tone, length, audience.\nProvide examples. Claude learns faster from them.\nSay what you want, not what you don't want.\nEdit messages instead of stacking corrections.\n\nPart 6: Advanced Usage\n\nFirst drafts in your voice (if you give examples).\n50-page PDFs summarized with page references.\nLong documents (200+ pages, nothing lost).\nThinking through messy decisions out loud.\nWorking with files on your computer (desktop only).\n\nPart 7: Integrations and Organization\n\nConnectors. Slack, Gmail, Granola, and 50+ more.\nProjects. Folders that remember files across chats.\nSkills. Reusable workflows triggered by /commands.\nFolder structure: about-me, outputs, templates.\n\nPart 8: What Claude can't do\n\nNo image generation. Use ChatGPT.\nNot best at real-time search. Use Grok.\nPrecise math. Unless it's running code, don't trust it\n\nPart 9: Tips and Best Practices\n\nDownload desktop app to access files & Cowork.\nTurn on Extended Thinking for difficult problems.\nCancel subscription if you don't use by week 3.\n\nHonest take:\nMost people open Claude, type \"write me something good,\" get a generic response & leave.\n\nThat's skipping the setup, instead of Claude failing.\n\nThe 1.25% who actually try it?\n\nThey open the app tonight. They paste one of their old emails. They ask Claude to rewrite it sharper.\n20 minutes later, they get it.\n\nFull beginner guide: https://lnkd.in/gvezTwuy",
+      "author": {
+        "id": "ACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "universalName": null,
+        "publicIdentifier": "theanishajain",
+        "type": "profile",
+        "name": "Anisha Jain",
+        "linkedinUrl": "https://www.linkedin.com/in/theanishajain?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "info": "How to write (better) with AI.",
+        "website": "https://ruben.substack.com/p/from-49-to-10000-followers-in-17",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFkJYRw5ttAHw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729497704839?e=1786579200&v=beta&t=7hw52JH_qCwzeS8HTYk5XcQxvAV5yEttghxEqXHCrX8",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "767821864"
+      },
+      "postedAt": {
+        "timestamp": 1778832578484,
+        "date": "2026-05-15T08:09:38.484Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQG8fOV7i3LL4Q/feedshare-image-high-res/B56Z4qrw.3HwAU-/0/1778832576871?e=1786579200&v=beta&t=3QD7AXtPHbe0hTutNU8xjld9ikoUQvGXq__qQO49tLg",
+          "width": 1536,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7460964599266381824",
+        "likes": 373,
+        "comments": 123,
+        "shares": 29,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 325
+          },
+          {
+            "type": "INTEREST",
+            "count": 20
+          },
+          {
+            "type": "PRAISE",
+            "count": 14
+          },
+          {
+            "type": "EMPATHY",
+            "count": 11
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/theanishajain",
+        "sessionId": "8e20f489-27c0-493b-a08c-db5ba711775f"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7472211461784641536",
+      "entityId": "7472211461784641536",
+      "linkedinUrl": "https://www.linkedin.com/posts/theanishajain_not-a-typo-mistake-on-the-3rd-one-i-rated-activity-7472211461784641536-IjdA",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7472211460627136512",
+      "shareUrn": "urn:li:share:7472211460627136512",
+      "content": "Not a typo mistake on the 3rd one.\n\nI rated every AI tool you use (brutally):\n\n✦ 𝗧𝗛𝗘 TOP TIER ✦\n\nClaude - 12/10\n\n☑ The one I actually work inside all day.\n☑ Best at writing, thinking, & coding.\n☑ Yes, I gave it a 12. I stand by it.\n\n✦ 𝗣𝗘𝗥𝗙𝗘𝗖𝗧 𝗦𝗖𝗢𝗥𝗘𝗦 ✦\n\nWispr Flow – 10/10\n\n☑ Write text with your voice.\n☑ Insanely fast and accurate.\n☑ Keeps training on your edits.\n\nGranola – 10/10\n\n☑ The best AI meeting notetaker.\n☑ Made for simplicity and efficiency.\n☑ One of the few that does NOT join the call.\n\nGamma – 10/10\n\n☑ Make slides, with AI.\n☑ The best PowerPoint killer.\n☑ With taste in their designs.\n\n✦ 𝗧𝗛𝗘 𝗦𝗢𝗟𝗜𝗗 𝗢𝗡𝗘𝗦 ✦\n\nNotion - 9/10\n\n☑ Where my whole brain lives.\n☑ AI is now baked into every page.\n☑ Still the best workspace, period.\n\nCanva – 9/10\n\n☑ The non-designer design tool.\n☑ Getting scary good at AI features.\n☑ I make half my visuals here.\n\nChatGPT Image - 9/10\n\n☑ Shockingly good at text in images.\n☑ My go-to for quick visuals.\n☑ The one OpenAI feature I open daily.\n\nChatGPT – 8/10\n\n☑ Still the default for most people.\n☑ Great all-rounder, master of none.\n☑ Loses to Claude where it matters to me.\n\nGrok – 8/10\n\n☑ The alternative from Elon Musk.\n☑ Best at searching tweets, and that's nice.\n☑ Not at the top yet, but growing (very) fast.\n\nNotebookLM – 8/10\n\n☑ Upload your courses and actually learn.\n☑ Turns sources into podcasts and mindmaps.\n☑ Takes up to 50 sources, even from YouTube.\n\nPerplexity – 7/10\n\n☑ The one AI built to search.\n☑ Most of the LLMs live inside it.\n☑ The \"Discover\" tab beats Google News.\n\nGrammarly - 7/10\n\n☑ The quiet one nobody talks about.\n☑ Still fixes what I miss every day.\n☑ Boring, but it earns its spot.\n\n✦ 𝗧𝗛𝗘 𝗠𝗜𝗗 𝗢𝗡𝗘𝗦 ✦\n\nGemini – 6/10\n\n☑ Google's answer to ChatGPT.\n☑ Not great at search or text, but good at…\n☑ … multi-lingual tasks.\n\nNano Banana – 5/10\n\n☑ Genuinely fun image model.\n☑ Stole the show for a while.\n☑ Switched to ChatGPT image for better quality.\n\n✦ 𝗧𝗛𝗘 𝗗𝗜𝗦𝗔𝗣𝗣𝗢𝗜𝗡𝗧𝗠𝗘𝗡𝗧𝗦 ✦\n\nOtter – 3/10\n\n☑ The famous meeting notetaker?\n☑ I hate having it connected to the call.\n☑ Granola does this better in every way.\n\n✦ 𝗧𝗛𝗘 𝗭𝗘𝗥𝗢𝗦 ✦\n\nCopilot – the worst LLM at almost everything - 0/10\nReplit – far better options for vibecoding - 0/10\n\n♻️ Repost this image so they can find the best AI.\n\nTo keep up with AI, subscribe to the only (free) newsletter I trust blindly: how-to-ai.guide.",
+      "author": {
+        "id": "ACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "universalName": null,
+        "publicIdentifier": "theanishajain",
+        "type": "profile",
+        "name": "Anisha Jain",
+        "linkedinUrl": "https://www.linkedin.com/in/theanishajain?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "info": "How to write (better) with AI.",
+        "website": "https://ruben.substack.com/p/from-49-to-10000-followers-in-17",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFkJYRw5ttAHw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729497704839?e=1786579200&v=beta&t=7hw52JH_qCwzeS8HTYk5XcQxvAV5yEttghxEqXHCrX8",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "767821864"
+      },
+      "postedAt": {
+        "timestamp": 1781514039465,
+        "date": "2026-06-15T09:00:39.465Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQF2l9nYtgjEWg/feedshare-shrink_1280/B56Z7Kguf0JsAM-/0/1781514037701?e=1786579200&v=beta&t=wYrV5Aa62hm556WUaIU6zIg-0XgUNQ04qFX3POFyJOw",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7472211461784641536",
+        "likes": 186,
+        "comments": 166,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 137
+          },
+          {
+            "type": "INTEREST",
+            "count": 22
+          },
+          {
+            "type": "EMPATHY",
+            "count": 14
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/theanishajain",
+        "sessionId": "8e20f489-27c0-493b-a08c-db5ba711775f"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7458425474310897664",
+      "entityId": "7458425474310897664",
+      "linkedinUrl": "https://www.linkedin.com/posts/theanishajain_dont-pay-for-claude-courses-in-2026-activity-7458425474310897664-HtWl",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7458421015824510976",
+      "shareUrn": "urn:li:share:7458421015824510976",
+      "content": "Don't pay $$$ for Claude courses in 2026.\n\nInstead, save these 15 (free) guides for later:\n\nClaude 101: https://lnkd.in/g75wfW-A\nClaude Certified: https://lnkd.in/g8RErj7i\nClaude Design: https://lnkd.in/eGnArUbB\nClaude Skills: https://lnkd.in/g9MQUC-Z\nStop Prompting: https://lnkd.in/e47NxW22\nStop sounding like AI: https://lnkd.in/gb-6qd57\nClaude for your team: https://lnkd.in/gafjDp35\nClaude For Dummies: https://lnkd.in/gTKxkNrY\nSet up Claude Cowork: https://lnkd.in/gyhbMXtb\nAI Slides (PPT in 2026): https://lnkd.in/gzBrbWkM\nClaude to sound like you: https://lnkd.in/gbwnfs34\nStop hitting Claude limits: https://lnkd.in/gzzhvrY6\nHow to setup Claude Code: https://lnkd.in/gsRhsFxT\nClaude as your computer: https://lnkd.in/dSaSqRxw\nClaude Cowork + Project: https://lnkd.in/d8BHqTvV\n\n___\n\nFollow me never to miss my 1x daily post.\n\nYou want to help someone in your network? ♻️ Repost this so they can find the best free resources.",
+      "author": {
+        "id": "ACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "universalName": null,
+        "publicIdentifier": "theanishajain",
+        "type": "profile",
+        "name": "Anisha Jain",
+        "linkedinUrl": "https://www.linkedin.com/in/theanishajain?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "info": "How to write (better) with AI.",
+        "website": "https://ruben.substack.com/p/from-49-to-10000-followers-in-17",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFkJYRw5ttAHw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729497704839?e=1786579200&v=beta&t=7hw52JH_qCwzeS8HTYk5XcQxvAV5yEttghxEqXHCrX8",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "767821864"
+      },
+      "postedAt": {
+        "timestamp": 1778227203920,
+        "date": "2026-05-08T08:00:03.920Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQH0JntFH118pQ/feedshare-shrink_1280/B56Z4GiZIzJkAM-/0/1778226140327?e=1786579200&v=beta&t=VcQk2hWBuud6Vl9GKceJj2oXPngyd_57FcqYTkYBfA4",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7458425474310897664",
+        "likes": 1802,
+        "comments": 134,
+        "shares": 282,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1642
+          },
+          {
+            "type": "INTEREST",
+            "count": 74
+          },
+          {
+            "type": "EMPATHY",
+            "count": 65
+          },
+          {
+            "type": "PRAISE",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 7
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/theanishajain",
+        "sessionId": "8e20f489-27c0-493b-a08c-db5ba711775f"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7464586055976034304",
+      "entityId": "7464586055976034304",
+      "linkedinUrl": "https://www.linkedin.com/posts/theanishajain_11-absurdly-useful-ai-tools-youre-missing-activity-7464586055976034304-XGXE",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7464574124040814592",
+      "shareUrn": "urn:li:share:7464574124040814592",
+      "content": "11 ABSURDLY useful AI tools you're missing in 2026\n\n1. Wispr.ai – talk, and it types for you\n2. Granola.ai – remembers your meetings\n3. Gamma.app – makes slides fast\n4. Claude.ai – does your job (like you)\n5. Seedance2.app – generate cinematic video\n6. Shortcut.ai – specialized in Excel only\n7. Grok.com – search the web deeply\n8. ElevenLabs.io – voice cloning leader\n9. Code.Claude.com – to make websites/apps\n10. ChatGPT.com – best for images \n11. Notebooklm.google.com – to learn faster\n\nRepost ♻ to help others work (absurdly) well.",
+      "author": {
+        "id": "ACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "universalName": null,
+        "publicIdentifier": "theanishajain",
+        "type": "profile",
+        "name": "Anisha Jain",
+        "linkedinUrl": "https://www.linkedin.com/in/theanishajain?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "info": "How to write (better) with AI.",
+        "website": "https://ruben.substack.com/p/from-49-to-10000-followers-in-17",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFkJYRw5ttAHw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729497704839?e=1786579200&v=beta&t=7hw52JH_qCwzeS8HTYk5XcQxvAV5yEttghxEqXHCrX8",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "767821864"
+      },
+      "postedAt": {
+        "timestamp": 1779696001047,
+        "date": "2026-05-25T08:00:01.047Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFaARUstNdU3w/feedshare-image-high-res/B56Z5d.nBrIEAU-/0/1779693154897?e=1786579200&v=beta&t=4AHq2zEJa2wBJ3M6V5dBZfkgSuS0lwtB4k78z4xQR-s",
+          "width": 1536,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7464586055976034304",
+        "likes": 1241,
+        "comments": 165,
+        "shares": 166,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1111
+          },
+          {
+            "type": "INTEREST",
+            "count": 79
+          },
+          {
+            "type": "EMPATHY",
+            "count": 38
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/theanishajain",
+        "sessionId": "8e20f489-27c0-493b-a08c-db5ba711775f"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7471120882443280384",
+      "entityId": "7471120882443280384",
+      "linkedinUrl": "https://www.linkedin.com/posts/theanishajain_this-is-the-most-useless-button-on-your-keyboard-activity-7471120882443280384-FlVH",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7471120881268994048",
+      "shareUrn": "urn:li:share:7471120881268994048",
+      "content": "This is the most useless button on your keyboard.\n\nIt switches languages. That's it. You'll never need it.\n\nHere's how I made it useful:\n\n1. I stopped typing entirely (using this exact key).\n2. I downloaded Wispr Flow (free at wispr .ai).\n3. I picked Shift/fn as my activation key.\n4. Now I hold Shift, talk, & it writes everything.\n5. If it misspells, I correct it once. It remembers.\n\nThat's 5 steps to never type again.\n\nResults after 30 days:\n\n✦ I write at 143 words per minute. \n✦ Top 1% of typists write at 120. \n✦ I've written 200+ LinkedIn posts this way.\n\nThat's it. No more typing.\n\n♻️ Repost this if your keyboard needs a break.",
+      "author": {
+        "id": "ACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "universalName": null,
+        "publicIdentifier": "theanishajain",
+        "type": "profile",
+        "name": "Anisha Jain",
+        "linkedinUrl": "https://www.linkedin.com/in/theanishajain?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAC3ECCgB974JAYKpQmH9cNSSFJv0PaJCxxc",
+        "info": "How to write (better) with AI.",
+        "website": "https://ruben.substack.com/p/from-49-to-10000-followers-in-17",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQFkJYRw5ttAHw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729497704839?e=1786579200&v=beta&t=7hw52JH_qCwzeS8HTYk5XcQxvAV5yEttghxEqXHCrX8",
+          "width": 500,
+          "height": 500
+        },
+        "urn": "767821864"
+      },
+      "postedAt": {
+        "timestamp": 1781254025088,
+        "date": "2026-06-12T08:47:05.088Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEfKoPJKqY31A/feedshare-shrink_1280/B56Z67A19IIQAQ-/0/1781254023847?e=1786579200&v=beta&t=6CPxqNgR09o7Uj84iJdfLqIaFp4rRg836HH68_7bJKw",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7471120882443280384",
+        "likes": 579,
+        "comments": 226,
+        "shares": 10,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 468
+          },
+          {
+            "type": "INTEREST",
+            "count": 52
+          },
+          {
+            "type": "EMPATHY",
+            "count": 42
+          },
+          {
+            "type": "PRAISE",
+            "count": 11
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/theanishajain",
+        "sessionId": "8e20f489-27c0-493b-a08c-db5ba711775f"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485462190158868480",
+      "entityId": "7485462190158868480",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_a-loaded-truck-is-not-always-an-optimized-activity-7485462190158868480-SR2w",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485462187768078336",
+      "shareUrn": "urn:li:share:7485462187768078336",
+      "content": "A loaded truck is not always an optimized truck.\nSometimes the floor is full…\n\nbut the cube is still half-empty.\n\nThat means you are not just moving product.\n\nYou are also moving air.\n\nAnd unplanned empty space increases cost per shipped unit.\n\nGood pallet loading is not only about fitting more boxes.\n\nIt is about balancing:\n\n→ stacking pattern\n→ weight distribution\n→ pallet stability\n→ vehicle height\n→ route sequence\n→ product compatibility\n→ safety limits\n\nColumn stacking may give strength.\n\nInterlocking may give stability.\n\nPinwheel may reduce shifting.\n\nSplit row may help mixed-SKU deliveries.\n\nBut none of them should be used blindly.\n\nThe right loading plan depends on the product, pallet, vehicle, route, and handling conditions.\n\nBefore maximizing cube, always check:\n\n→ Weight limit\n→ Stack height\n→ Product fragility\n→ Route sequence\n→ Compatibility\n\nBecause the goal is not just a full truck.\nThe goal is a safe, stable, cost-efficient load.\n\nSave this cheatsheet for your next dispatch or loading review.\nFollow TARIQ ZAMAN for practical warehouse and logistics content.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1784673259296,
+        "date": "2026-07-21T22:34:19.296Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHSvl5Qh80t8g/feedshare-shrink_1280/B4DZ.G0MViKYAQ-/0/1784673257670?e=1786579200&v=beta&t=X8m7g1Eov18s1AEl3PZccTcAt6DGiGdfDY0CAqgxMyM",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485462190158868480",
+        "likes": 42,
+        "comments": 5,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 36
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483564903677546496",
+      "entityId": "7483564903677546496",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_otif-is-not-just-a-delivery-kpi-it-is-the-activity-7483564903677546496-ZoXf",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483564902033457152",
+      "shareUrn": "urn:li:share:7483564902033457152",
+      "content": "OTIF is not just a delivery KPI.\nIt is the final score of your whole supply chain.\n\nBecause an order only passes when it is both:\n\n→ On Time\nDelivered within the agreed window.\n\n→ In Full\nCorrect item, correct quantity, no shortage.\n\nLate but complete?\nOTIF fail.\n\nOn time but short?\nOTIF fail.\n\nThat is why OTIF should never be calculated by averaging On-Time % and In-Full %.\n\nIt must count only the orders that pass both conditions.\n\nIn my experience, improving OTIF is not about blaming transport only.\n\nOTIF breaks earlier:\n\n→ Inventory mismatch\n→ Wrong pick\n→ Missing item\n→ Late staging\n→ Loading delay\n→ Missed delivery appointment\n\nThe real question is:\n\nWhere did the promise break?\n\nTrack the failure point.\nFix the process.\nThen OTIF improves.\n\nSave and repost this cheatsheet.\nFollow TARIQ ZAMAN for practical warehouse and logistics content.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1784220910949,
+        "date": "2026-07-16T16:55:10.949Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQF2sH7y6acmiw/feedshare-shrink_1280/B4DZ9r2nmPK8AM-/0/1784220908670?e=1786579200&v=beta&t=W0oSsmmCg-nKi5FLvJ7VT0GLqCx0kSVLAhxsX8utinA",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483564903677546496",
+        "likes": 50,
+        "comments": 4,
+        "shares": 10,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 45
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487610047053717504",
+      "entityId": "7487610047053717504",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_most-warehouse-errors-dont-start-in-picking-activity-7487610047053717504-my7r",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487610045593968640",
+      "shareUrn": "urn:li:share:7487610045593968640",
+      "content": "Most warehouse errors don’t start in picking.\nThey start at inbound.\n\nA wrong quantity received today becomes a stock mismatch tomorrow.\n\nA damaged pallet accepted today becomes a customer complaint later.\n\nA missing batch or expiry entry today becomes a traceability issue during audit.\n\nInbound is not just unloading a truck.\n\nIt is the first control gate of the warehouse.\n\nBefore stock becomes usable, it must pass through the right checks:\n\n→ PO / ASN matched\n → Vehicle, seal, and documents verified\n → Goods unloaded safely\n → SKU, quantity, batch, expiry, and condition checked\n → Status set correctly\n → GRN posted and WMS updated\n\nGood inbound control protects every process after it.\n\nPutaway becomes cleaner.\nPicking becomes more accurate.\nShipping becomes more reliable.\n\nThe warehouse does not become accurate at dispatch.\n\nIt becomes accurate at receiving.\n\nSave this cheatsheet for your next inbound floor check.\n\nFollow TARIQ ZAMAN for practical warehouse and logistics content.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1785185348285,
+        "date": "2026-07-27T20:49:08.285Z",
+        "postedAgoShort": "23h",
+        "postedAgoText": "23 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGXcEw4PJ9LaA/feedshare-shrink_1280/B4DZ.lVqQVIEAU-/0/1785185347446?e=1786579200&v=beta&t=etK_SUVYnluiksVmpRgtMe6qbPxWDz2aJDCAeWYDvZY",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487610047053717504",
+        "likes": 29,
+        "comments": 5,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 24
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486942126304477184",
+      "entityId": "7486942126304477184",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_process-before-systems-activity-7486942126304477184-e84p",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7486942122928136192",
+      "shareUrn": "urn:li:ugcPost:7486942122928136192",
+      "content": "I asked a warehouse team: how do you pick, pack, and ship?\nThey couldn't answer but...\n\n\n....but they wanted a WMS.\n\nThis happens more than you think.\n\nMe and Tom Brouillette got on a call.\nDifferent continents. Same industry.\nAnd we kept saying the same thing.\n\nCompanies want digital transformation.\nBut they skip the foundation.\n\n→ No process documented.\n→ No people trained on the current way.\n→ No one can name the actual problem.\n\nThen they buy the system\nand wonder why nobody uses it.\n\nTransformation has a sequence:\nProcess first. People second. System last.\n\nSkip a step and it collapses.\n\nWe broke this whole converstaion down into 15 slides\nwith real stories, the mistakes we keep seeing,\nand five questions to answer honestly\nbefore signing any purchase order.\n\nSwipe through and save it.\nTag someone who needs to see this.\n\nFollow TARIQ ZAMAN to get such insights and Tom Brouillette for his exceptional knowledge in supply chain.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1785026103569,
+        "date": "2026-07-26T00:35:03.569Z",
+        "postedAgoShort": "2d",
+        "postedAgoText": "2 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "Process Before Systems.",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-chunked-pdf/B4DZ.b1xk6H0Bk-/0/1785025994341?e=1785877200&v=beta&t=Oo_H95cX9lZO_MAC_wbCxlW8vk9TGHrsNGEmp0lRn6I",
+        "coverPages": [
+          {
+            "width": 1555,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-cover-images_1920/B4DZ.b1xk6H0BQ-/0/1785025994383?e=1785877200&v=beta&t=NtMg6p4YIB4UwBtyaYrrA5qKcdQCOItIQ7L2ZaxDDbo",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-cover-images_1920/B4DZ.b1xk6H0BQ-/1/1785025994383?e=1785877200&v=beta&t=oBdtZkq6vteUcOVmtlPuedDkc8kHqMlhHaMgtdrB5k4",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-cover-images_1920/B4DZ.b1xk6H0BQ-/2/1785025994383?e=1785877200&v=beta&t=YADrQp_aMWsTMrQEZWqPBNZxfHqlyARj5h3twSktbaY"
+            ],
+            "height": 1944
+          }
+        ],
+        "totalPageCount": 15,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-master-manifest/B4DZ.b1xk6H0BY-/0/1785025994383?e=1785877200&v=beta&t=ZM17eF4hy08WS3A2u_OBuaC-RV_YCVHUYAzRpXAo0ac",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4D1FAQHgGh4Xg8JN9A",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-transcript/B4DZ.b1xk6H0A0-/0/1785025994383?e=1785974400&v=beta&t=ws7MbVySOum_nNDjOSNB2p2p0Bh1XZyb6eb1Y9C_OHw",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-pdf-analyzed/B4DZ.b1xk6H0AY-/0/1785025994383?e=1785974400&v=beta&t=YeoQAm5TceeGQqPm5uLVVWZmpIU7S7MvF7E1iPIT4ww",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 133,
+              "height": 166,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-images_160/B4DZ.b1xk6H0Ac-/0/1785025994383?e=1785974400&v=beta&t=PBxUMiYSa_XcpVrc0irf8j0-i2qJ7haIl5hjQnHWyTg"
+            },
+            {
+              "width": 644,
+              "height": 805,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-images_800/B4DZ.b1xk6H0Ak-/0/1785025994383?e=1785974400&v=beta&t=6FDeCz3Hi3o52wLQOWbldl9QjsGgAhgfu5gUDCVkdok"
+            },
+            {
+              "width": 1555,
+              "height": 1944,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-images_1920/B4DZ.b1xk6H0Ao-/0/1785025994383?e=1785974400&v=beta&t=rSAxriHE_k37FDCwl1XMDPhIox0MVxZ2Z00kucU1UXo"
+            },
+            {
+              "width": 1044,
+              "height": 1305,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-images_1280/B4DZ.b1xk6H0AQ-/0/1785025994383?e=1785974400&v=beta&t=TrnmLFb4nXTsetWXoC4smGoaO8YUzcKPlsZlO5_S3b4"
+            },
+            {
+              "width": 400,
+              "height": 500,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-images_480/B4DZ.b1xk6H0Ag-/0/1785025994383?e=1785974400&v=beta&t=6lVqNKhwiflH2cSIQdlXOYa7eoYdSyyPWN8Zd5eKdw0"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486942122928136192",
+        "likes": 25,
+        "comments": 4,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 20
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487175657635098625",
+      "entityId": "7487175657635098625",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_process-before-systems-ugcPost-7486942122928136192-JMnI",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7486942122928136192",
+      "shareUrn": "urn:li:ugcPost:7486942122928136192",
+      "content": "I asked a warehouse team: how do you pick, pack, and ship?\nThey couldn't answer but...\n\n\n....but they wanted a WMS.\n\nThis happens more than you think.\n\nMe and Tom Brouillette got on a call.\nDifferent continents. Same industry.\nAnd we kept saying the same thing.\n\nCompanies want digital transformation.\nBut they skip the foundation.\n\n→ No process documented.\n→ No people trained on the current way.\n→ No one can name the actual problem.\n\nThen they buy the system\nand wonder why nobody uses it.\n\nTransformation has a sequence:\nProcess first. People second. System last.\n\nSkip a step and it collapses.\n\nWe broke this whole converstaion down into 15 slides\nwith real stories, the mistakes we keep seeing,\nand five questions to answer honestly\nbefore signing any purchase order.\n\nSwipe through and save it.\nTag someone who needs to see this.\n\nFollow TARIQ ZAMAN to get such insights and Tom Brouillette for his exceptional knowledge in supply chain.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1785081781777,
+        "date": "2026-07-26T16:03:01.777Z",
+        "postedAgoShort": "2d",
+        "postedAgoText": "2 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "Process Before Systems.",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-chunked-pdf/B4DZ.b1xk6H0Bk-/0/1785025994341?e=1785877200&v=beta&t=Oo_H95cX9lZO_MAC_wbCxlW8vk9TGHrsNGEmp0lRn6I",
+        "coverPages": [
+          {
+            "width": 1555,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-cover-images_1920/B4DZ.b1xk6H0BQ-/0/1785025994383?e=1785877200&v=beta&t=NtMg6p4YIB4UwBtyaYrrA5qKcdQCOItIQ7L2ZaxDDbo",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-cover-images_1920/B4DZ.b1xk6H0BQ-/1/1785025994383?e=1785877200&v=beta&t=oBdtZkq6vteUcOVmtlPuedDkc8kHqMlhHaMgtdrB5k4",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-cover-images_1920/B4DZ.b1xk6H0BQ-/2/1785025994383?e=1785877200&v=beta&t=YADrQp_aMWsTMrQEZWqPBNZxfHqlyARj5h3twSktbaY"
+            ],
+            "height": 1944
+          }
+        ],
+        "totalPageCount": 15,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-master-manifest/B4DZ.b1xk6H0BY-/0/1785025994383?e=1785877200&v=beta&t=ZM17eF4hy08WS3A2u_OBuaC-RV_YCVHUYAzRpXAo0ac",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4D1FAQHgGh4Xg8JN9A",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-transcript/B4DZ.b1xk6H0A0-/0/1785025994383?e=1785974400&v=beta&t=ws7MbVySOum_nNDjOSNB2p2p0Bh1XZyb6eb1Y9C_OHw",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-pdf-analyzed/B4DZ.b1xk6H0AY-/0/1785025994383?e=1785974400&v=beta&t=YeoQAm5TceeGQqPm5uLVVWZmpIU7S7MvF7E1iPIT4ww",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 133,
+              "height": 166,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-images_160/B4DZ.b1xk6H0Ac-/0/1785025994383?e=1785974400&v=beta&t=PBxUMiYSa_XcpVrc0irf8j0-i2qJ7haIl5hjQnHWyTg"
+            },
+            {
+              "width": 644,
+              "height": 805,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-images_800/B4DZ.b1xk6H0Ak-/0/1785025994383?e=1785974400&v=beta&t=6FDeCz3Hi3o52wLQOWbldl9QjsGgAhgfu5gUDCVkdok"
+            },
+            {
+              "width": 1555,
+              "height": 1944,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-images_1920/B4DZ.b1xk6H0Ao-/0/1785025994383?e=1785974400&v=beta&t=rSAxriHE_k37FDCwl1XMDPhIox0MVxZ2Z00kucU1UXo"
+            },
+            {
+              "width": 1044,
+              "height": 1305,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-images_1280/B4DZ.b1xk6H0AQ-/0/1785025994383?e=1785974400&v=beta&t=TrnmLFb4nXTsetWXoC4smGoaO8YUzcKPlsZlO5_S3b4"
+            },
+            {
+              "width": 400,
+              "height": 500,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHgGh4Xg8JN9A/feedshare-document-images_480/B4DZ.b1xk6H0Ag-/0/1785025994383?e=1785974400&v=beta&t=6lVqNKhwiflH2cSIQdlXOYa7eoYdSyyPWN8Zd5eKdw0"
+            }
+          ]
+        }
+      },
+      "repostedBy": {
+        "name": "TARIQ ZAMAN",
+        "publicIdentifier": "tariq-zaman-pak",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38"
+      },
+      "repostedAt": {
+        "timestamp": 1785081781777,
+        "date": "2026-07-26T16:03:01.777Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7487175657635098625?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7487175657635098625%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=mSxDtWIyGW%2F9Gew787GtLg%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "text": "TARIQ ZAMAN reposted this"
+      },
+      "engagement": {
+        "id": "7486942122928136192",
+        "likes": 25,
+        "comments": 4,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 20
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485012121060065281",
+      "entityId": "7485012121060065281",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_9-improvement-initiatives-by-tariq-zaman-ugcPost-7484899563242319873-Hu15",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7484899563242319873",
+      "shareUrn": "urn:li:ugcPost:7484899563242319873",
+      "content": "CASE STUDY: How we increased warehouse capacity by 37%, reduced errors, and saved PKR 1.7M.\n\nAt first, the problem looked simple:\n\n“We need more space.”\n\nBut after walking the floor, the real issue became clear.\n\nSpace was being lost through weak location control, poor visibility, repeated process errors, unnecessary movement, and unclear storage logic.\n\nSo we focused on fixing the process from inside.\n\nWe improved storage logic, location discipline, movement flow, visual control, and process reliability.\n\nWe also added Poka-Yoke controls so errors were prevented before they happened.\n\nThe result:\n\n→ 9 continuous improvement initiatives\n→ 3 Poka-Yoke controls\n→ 37% increase in Flour Warehouse capacity\n→ 35% increase in Technical Store capacity\n→ PKR 1.7M cost savings\n\nBefore expanding your warehouse, inspect your process.\n\nYour operation may have more capacity than you think.\n\nDM me “WAREHOUSE” and let’s discuss your improvement opportunity.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1784565954461,
+        "date": "2026-07-20T16:45:54.461Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "9 improvement initiatives by Tariq Zaman",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-url-metadata-scrapper-pdf/B4DZ9.0NE2I4A4-/0/1784539045946?e=1785877200&v=beta&t=1oXjK271OG0wz-yNIBIJ2zLLLjAajJ2gIbn9BwOeCJA",
+        "coverPages": [
+          {
+            "width": 1537,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-cover-images_1920/B4DZ9.0NE2I4BQ-/0/1784539046388?e=1785877200&v=beta&t=vMjeq19CQrwnU1dagklLtcc5OyXGx0dICIf7_JSjhFc",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-cover-images_1920/B4DZ9.0NE2I4BQ-/1/1784539046388?e=1785877200&v=beta&t=41maV1abU3JWQFCAwMeuxCvGS7-WSccSEizqCc7-4BI",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-cover-images_1920/B4DZ9.0NE2I4BQ-/2/1784539046388?e=1785877200&v=beta&t=Bdwxvy4Ax8W-JsmgCd4Um0TCfnX66cv5dxHCcjXHDg0"
+            ],
+            "height": 1921
+          }
+        ],
+        "totalPageCount": 20,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-master-manifest/B4DZ9.0NE2I4BY-/0/1784539046428?e=1785877200&v=beta&t=HDeax76uLoSbdlIr4Rr0os-1asp7w_JuGd4gnvdibXU",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4D1FAQHG-8hdkl7nNw",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-transcript/B4DZ9.0NE2I4A0-/0/1784539046428?e=1785974400&v=beta&t=RBUx8apfiEKy0Q0sO8SAkOBltEHcu7MQXsq9kyvLaZE",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-pdf-analyzed/B4DZ9.0NE2I4AY-/0/1784539046428?e=1785974400&v=beta&t=dotYttfr_NrYmHbsmrImBSgMwrx0wXPO0__tHxSPfhI",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 1025,
+              "height": 1281,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-images_1280/B4DZ9.0NE2I4AQ-/0/1784539046428?e=1785974400&v=beta&t=tezGKUptGgXRYAcTYuKvXz7BF6kLYJr1jDuhBuQZ-g8"
+            },
+            {
+              "width": 387,
+              "height": 484,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-images_480/B4DZ9.0NE2I4Ag-/0/1784539046428?e=1785974400&v=beta&t=qW-FNoC1mpIyQ-fJTjxo23iAQBKYcxdQYgdhr1mYMWI"
+            },
+            {
+              "width": 1537,
+              "height": 1921,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-images_1920/B4DZ9.0NE2I4Ao-/0/1784539046428?e=1785974400&v=beta&t=fsgqDC_RcJ2sDCWQPyTNcCPMxfYQOvmd-UDpMWJyQ24"
+            },
+            {
+              "width": 650,
+              "height": 812,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-images_800/B4DZ9.0NE2I4Ak-/0/1784539046428?e=1785974400&v=beta&t=h4IaAXb-JhVjQ_74yJIYTPCCsG5E8OAxdiWlu8pfdSE"
+            },
+            {
+              "width": 137,
+              "height": 171,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-images_160/B4DZ9.0NE2I4Ac-/0/1784539046428?e=1785974400&v=beta&t=oDl1oW-Xa8LpOt0q937RufwZPqjNNBiokW-heQQFkKg"
+            }
+          ]
+        }
+      },
+      "repostedBy": {
+        "name": "TARIQ ZAMAN",
+        "publicIdentifier": "tariq-zaman-pak",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38"
+      },
+      "repostedAt": {
+        "timestamp": 1784565954461,
+        "date": "2026-07-20T16:45:54.461Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7485012121060065281?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7485012121060065281%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=8fFKWgpG5Z%2FJEFfoaXzT8w%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "text": "TARIQ ZAMAN reposted this"
+      },
+      "engagement": {
+        "id": "7484899563242319873",
+        "likes": 13,
+        "comments": 2,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 9
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484899564475437056",
+      "entityId": "7484899564475437056",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_9-improvement-initiatives-by-tariq-zaman-activity-7484899564475437056-p-Qz",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7484899563242319873",
+      "shareUrn": "urn:li:ugcPost:7484899563242319873",
+      "content": "CASE STUDY: How we increased warehouse capacity by 37%, reduced errors, and saved PKR 1.7M.\n\nAt first, the problem looked simple:\n\n“We need more space.”\n\nBut after walking the floor, the real issue became clear.\n\nSpace was being lost through weak location control, poor visibility, repeated process errors, unnecessary movement, and unclear storage logic.\n\nSo we focused on fixing the process from inside.\n\nWe improved storage logic, location discipline, movement flow, visual control, and process reliability.\n\nWe also added Poka-Yoke controls so errors were prevented before they happened.\n\nThe result:\n\n→ 9 continuous improvement initiatives\n→ 3 Poka-Yoke controls\n→ 37% increase in Flour Warehouse capacity\n→ 35% increase in Technical Store capacity\n→ PKR 1.7M cost savings\n\nBefore expanding your warehouse, inspect your process.\n\nYour operation may have more capacity than you think.\n\nDM me “WAREHOUSE” and let’s discuss your improvement opportunity.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1784539118880,
+        "date": "2026-07-20T09:18:38.880Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "document": {
+        "title": "9 improvement initiatives by Tariq Zaman",
+        "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-url-metadata-scrapper-pdf/B4DZ9.0NE2I4A4-/0/1784539045946?e=1785877200&v=beta&t=1oXjK271OG0wz-yNIBIJ2zLLLjAajJ2gIbn9BwOeCJA",
+        "coverPages": [
+          {
+            "width": 1537,
+            "imageUrls": [
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-cover-images_1920/B4DZ9.0NE2I4BQ-/0/1784539046388?e=1785877200&v=beta&t=vMjeq19CQrwnU1dagklLtcc5OyXGx0dICIf7_JSjhFc",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-cover-images_1920/B4DZ9.0NE2I4BQ-/1/1784539046388?e=1785877200&v=beta&t=41maV1abU3JWQFCAwMeuxCvGS7-WSccSEizqCc7-4BI",
+              "https://media.licdn.com/dms/image/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-cover-images_1920/B4DZ9.0NE2I4BQ-/2/1784539046388?e=1785877200&v=beta&t=Bdwxvy4Ax8W-JsmgCd4Um0TCfnX66cv5dxHCcjXHDg0"
+            ],
+            "height": 1921
+          }
+        ],
+        "totalPageCount": 20,
+        "manifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-master-manifest/B4DZ9.0NE2I4BY-/0/1784539046428?e=1785877200&v=beta&t=HDeax76uLoSbdlIr4Rr0os-1asp7w_JuGd4gnvdibXU",
+        "manifest": {
+          "asset": "urn:li:digitalmediaAsset:D4D1FAQHG-8hdkl7nNw",
+          "transcriptManifestUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-transcript/B4DZ9.0NE2I4A0-/0/1784539046428?e=1785974400&v=beta&t=RBUx8apfiEKy0Q0sO8SAkOBltEHcu7MQXsq9kyvLaZE",
+          "transcribedDocumentUrl": "https://media.licdn.com/dms/document/media/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-pdf-analyzed/B4DZ9.0NE2I4AY-/0/1784539046428?e=1785974400&v=beta&t=dotYttfr_NrYmHbsmrImBSgMwrx0wXPO0__tHxSPfhI",
+          "scanRequiredForDownload": true,
+          "perResolutions": [
+            {
+              "width": 1025,
+              "height": 1281,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-images_1280/B4DZ9.0NE2I4AQ-/0/1784539046428?e=1785974400&v=beta&t=tezGKUptGgXRYAcTYuKvXz7BF6kLYJr1jDuhBuQZ-g8"
+            },
+            {
+              "width": 387,
+              "height": 484,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-images_480/B4DZ9.0NE2I4Ag-/0/1784539046428?e=1785974400&v=beta&t=qW-FNoC1mpIyQ-fJTjxo23iAQBKYcxdQYgdhr1mYMWI"
+            },
+            {
+              "width": 1537,
+              "height": 1921,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-images_1920/B4DZ9.0NE2I4Ao-/0/1784539046428?e=1785974400&v=beta&t=fsgqDC_RcJ2sDCWQPyTNcCPMxfYQOvmd-UDpMWJyQ24"
+            },
+            {
+              "width": 650,
+              "height": 812,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-images_800/B4DZ9.0NE2I4Ak-/0/1784539046428?e=1785974400&v=beta&t=h4IaAXb-JhVjQ_74yJIYTPCCsG5E8OAxdiWlu8pfdSE"
+            },
+            {
+              "width": 137,
+              "height": 171,
+              "imageManifestUrl": "https://media.licdn.com/dms/document/pl/v2/D4D1FAQHG-8hdkl7nNw/feedshare-document-images_160/B4DZ9.0NE2I4Ac-/0/1784539046428?e=1785974400&v=beta&t=oDl1oW-Xa8LpOt0q937RufwZPqjNNBiokW-heQQFkKg"
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484899563242319873",
+        "likes": 13,
+        "comments": 2,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 9
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483142824553725952",
+      "entityId": "7483142824553725952",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_warehouse-safety-is-not-a-poster-on-the-wall-activity-7483142824553725952-R3bX",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483142823085760513",
+      "shareUrn": "urn:li:share:7483142823085760513",
+      "content": "Warehouse safety is not a poster on the wall.\nIt is what happens before the shift starts.\n\nBefore the forklift moves.\nBefore the dock door opens.\nBefore a new worker enters the floor.\n\nMost serious warehouse accidents are not “bad luck.”\n\nThey usually come from skipped controls:\n\n→ Untrained forklift operators\n→ Unsecured docks\n→ Damaged racking ignored\n→ Pedestrians in forklift aisles\n→ New workers without induction\n→ Unstable loads on racks\n→ No fall protection at height\n\nOne shortcut can cost a life.\n\nBefore every shift, ask:\n\n→ Forklift inspected?\n→ Walkways clear?\n→ PPE being worn?\n→ Damaged racking tagged?\n→ New workers inducted?\n\nIf the answer is not YES to all five, the shift is not ready.\n\nSpeed matters.\nDispatch matters.\nProductivity matters.\nBut no shipment is worth an injury.\n\nSave this cheatsheet for your next floor walk.\nFollow TARIQ ZAMAN for practical warehouse and logistics content.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1784120279444,
+        "date": "2026-07-15T12:57:59.444Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEM1ibmNmKUXw/feedshare-shrink_1280/B4DZ9l2vkNJAAM-/0/1784120278401?e=1786579200&v=beta&t=IzaArW7j_LAG0PZizFpLxmn32NyBzRCeQGRGaohVMSM",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483142824553725952",
+        "likes": 50,
+        "comments": 16,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 48
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484627514942824448",
+      "entityId": "7484627514942824448",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_otif-is-not-just-a-delivery-kpi-it-is-the-activity-7483564903677546496-ZoXf",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483564902033457152",
+      "shareUrn": "urn:li:share:7483564902033457152",
+      "content": "OTIF is not just a delivery KPI.\nIt is the final score of your whole supply chain.\n\nBecause an order only passes when it is both:\n\n→ On Time\nDelivered within the agreed window.\n\n→ In Full\nCorrect item, correct quantity, no shortage.\n\nLate but complete?\nOTIF fail.\n\nOn time but short?\nOTIF fail.\n\nThat is why OTIF should never be calculated by averaging On-Time % and In-Full %.\n\nIt must count only the orders that pass both conditions.\n\nIn my experience, improving OTIF is not about blaming transport only.\n\nOTIF breaks earlier:\n\n→ Inventory mismatch\n→ Wrong pick\n→ Missing item\n→ Late staging\n→ Loading delay\n→ Missed delivery appointment\n\nThe real question is:\n\nWhere did the promise break?\n\nTrack the failure point.\nFix the process.\nThen OTIF improves.\n\nSave and repost this cheatsheet.\nFollow TARIQ ZAMAN for practical warehouse and logistics content.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1784474257217,
+        "date": "2026-07-19T15:17:37.217Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQF2sH7y6acmiw/feedshare-shrink_1280/B4DZ9r2nmPK8AM-/0/1784220908670?e=1786579200&v=beta&t=W0oSsmmCg-nKi5FLvJ7VT0GLqCx0kSVLAhxsX8utinA",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "repostedBy": {
+        "name": "TARIQ ZAMAN",
+        "publicIdentifier": "tariq-zaman-pak",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38"
+      },
+      "repostedAt": {
+        "timestamp": 1784474257217,
+        "date": "2026-07-19T15:17:37.217Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7484627514942824448?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7484627514942824448%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=qi75XSFneNIOL4L2DT0F3Q%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "text": "TARIQ ZAMAN reposted this"
+      },
+      "engagement": {
+        "id": "7483564903677546496",
+        "likes": 50,
+        "comments": 4,
+        "shares": 10,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 45
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482026391459487744",
+      "entityId": "7482026391459487744",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_you-counted-your-warehouse-last-year-youll-activity-7480935898608472066-b_RT",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480935897304125441",
+      "shareUrn": "urn:li:share:7480935897304125441",
+      "content": "You counted your warehouse last year.\nYou'll find the same errors this year.\nAnd you'll blame the same people.\n\nBecause the count was never the problem.\n\nWarehouses mostly treat counting like a correction exercise.\n\nFind the gap.\nAdjust the system.\nMove on.\n\nNobody asks why the gap exists.\n\nSo next month:\nsame location, same SKU, same variance.\nDifferent person gets blamed.\n\nCounting finds the number.\nOnly investigating fixes the process.\n\nTwo methods exist.\nThey do two different jobs:\n\n→ Physical count: \nFull shutdown, count everything, reconcile the books. \nFor audits and year-end.\n\n→ Cycle count: \nSmall ongoing counts during operations. \nCatches errors early. No shutdown.\n\nBut both are useless\nif you skip the real step:\n\n→ A variance shows up. Why?\n→ Same bin, third month in a row. Why?\n→ Messy location, mixed stock. Why?\n→ Adjustment made, no approval trail. Why?\n\nThe count didn't fail.\nThe follow-up never happened.\n\nStart correcting what caused the gap.\n\nYour warehouse doesn't need more counts.\nIt needs fewer reasons to be wrong.\n\nP.S. What's the most common variance you keep finding in your operation?",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1783854101052,
+        "date": "2026-07-12T11:01:41.052Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEhS6Z1R5dlkA/feedshare-shrink_1280/B4DZ9GfjQjK8AM-/0/1783594104611?e=1786579200&v=beta&t=-qMT2EM2SsykJOMVwvbGVPlTLUgXzRziPItwfvu6nHk",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "repostedBy": {
+        "name": "TARIQ ZAMAN",
+        "publicIdentifier": "tariq-zaman-pak",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38"
+      },
+      "repostedAt": {
+        "timestamp": 1783854101052,
+        "date": "2026-07-12T11:01:41.052Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7482026391459487744?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7482026391459487744%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=sevnitYd35Sjct9wGMLCGw%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "text": "TARIQ ZAMAN reposted this"
+      },
+      "engagement": {
+        "id": "7480935898608472066",
+        "likes": 176,
+        "comments": 36,
+        "shares": 19,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 165
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479194329719250944",
+      "entityId": "7479194329719250944",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_most-warehouses-dont-need-more-storage-activity-7479116737620119553-ayR-",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479116735787487232",
+      "shareUrn": "urn:li:share:7479116735787487232",
+      "content": "Most warehouses don’t need more storage.\nThey need better flow.\n\nCross-docking is one of the simplest examples of this.\n\nInstead of receiving goods, storing them, picking them again, and handling them multiple times, the product moves from inbound to outbound with minimal storage time.\n\nInbound truck\n → Sorting / staging\n → Outbound truck\n\nThat sounds simple.\n\nBut cross-docking only works when the operation is disciplined.\n\nIt needs reliable suppliers, clear dock scheduling, accurate sorting, proper staging, and strong coordination between inbound and outbound teams.\n\nWithout that, cross-docking becomes dock congestion with a fancy name.\n\nThere are three common types:\n\n→ Flow-through: goods move straight from receiving to shipping.\n → Consolidation: small shipments combine into one full load.\n → Deconsolidation: one large shipment breaks into smaller deliveries.\n\nThe goal is not to remove storage completely.\n\nThe goal is to remove unnecessary storage.\n\nBecause some products should flow fast.\n\nAnd some products should stay controlled.\n\nSave this cheatsheet for your next warehouse flow review.\nFollow TARIQ ZAMAN for more such warehouse and logistics insights..",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1783178884916,
+        "date": "2026-07-04T15:28:04.916Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFZrBQlgMkayg/feedshare-shrink_1280/B4DZ8spCjzJ4AQ-/0/1783160384529?e=1786579200&v=beta&t=Zy29pZpB2bc0dgNV17238HcLhiArg67NQYsVV34uo0I",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "repostedBy": {
+        "name": "TARIQ ZAMAN",
+        "publicIdentifier": "tariq-zaman-pak",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38"
+      },
+      "repostedAt": {
+        "timestamp": 1783178884916,
+        "date": "2026-07-04T15:28:04.916Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7479194329719250944?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7479194329719250944%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=EmIVEwfgdIuSI47sNkjQ9g%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "text": "TARIQ ZAMAN reposted this"
+      },
+      "engagement": {
+        "id": "7479116737620119553",
+        "likes": 61,
+        "comments": 8,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 55
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479116737620119553",
+      "entityId": "7479116737620119553",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_most-warehouses-dont-need-more-storage-activity-7479116737620119553-ayR-",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479116735787487232",
+      "shareUrn": "urn:li:share:7479116735787487232",
+      "content": "Most warehouses don’t need more storage.\nThey need better flow.\n\nCross-docking is one of the simplest examples of this.\n\nInstead of receiving goods, storing them, picking them again, and handling them multiple times, the product moves from inbound to outbound with minimal storage time.\n\nInbound truck\n → Sorting / staging\n → Outbound truck\n\nThat sounds simple.\n\nBut cross-docking only works when the operation is disciplined.\n\nIt needs reliable suppliers, clear dock scheduling, accurate sorting, proper staging, and strong coordination between inbound and outbound teams.\n\nWithout that, cross-docking becomes dock congestion with a fancy name.\n\nThere are three common types:\n\n→ Flow-through: goods move straight from receiving to shipping.\n → Consolidation: small shipments combine into one full load.\n → Deconsolidation: one large shipment breaks into smaller deliveries.\n\nThe goal is not to remove storage completely.\n\nThe goal is to remove unnecessary storage.\n\nBecause some products should flow fast.\n\nAnd some products should stay controlled.\n\nSave this cheatsheet for your next warehouse flow review.\nFollow TARIQ ZAMAN for more such warehouse and logistics insights..",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1783160385518,
+        "date": "2026-07-04T10:19:45.518Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFZrBQlgMkayg/feedshare-shrink_1280/B4DZ8spCjzJ4AQ-/0/1783160384529?e=1786579200&v=beta&t=Zy29pZpB2bc0dgNV17238HcLhiArg67NQYsVV34uo0I",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479116737620119553",
+        "likes": 61,
+        "comments": 8,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 55
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480935898608472066",
+      "entityId": "7480935898608472066",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_you-counted-your-warehouse-last-year-youll-activity-7480935898608472066-b_RT",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480935897304125441",
+      "shareUrn": "urn:li:share:7480935897304125441",
+      "content": "You counted your warehouse last year.\nYou'll find the same errors this year.\nAnd you'll blame the same people.\n\nBecause the count was never the problem.\n\nWarehouses mostly treat counting like a correction exercise.\n\nFind the gap.\nAdjust the system.\nMove on.\n\nNobody asks why the gap exists.\n\nSo next month:\nsame location, same SKU, same variance.\nDifferent person gets blamed.\n\nCounting finds the number.\nOnly investigating fixes the process.\n\nTwo methods exist.\nThey do two different jobs:\n\n→ Physical count: \nFull shutdown, count everything, reconcile the books. \nFor audits and year-end.\n\n→ Cycle count: \nSmall ongoing counts during operations. \nCatches errors early. No shutdown.\n\nBut both are useless\nif you skip the real step:\n\n→ A variance shows up. Why?\n→ Same bin, third month in a row. Why?\n→ Messy location, mixed stock. Why?\n→ Adjustment made, no approval trail. Why?\n\nThe count didn't fail.\nThe follow-up never happened.\n\nStart correcting what caused the gap.\n\nYour warehouse doesn't need more counts.\nIt needs fewer reasons to be wrong.\n\nP.S. What's the most common variance you keep finding in your operation?",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1783594107296,
+        "date": "2026-07-09T10:48:27.296Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEhS6Z1R5dlkA/feedshare-shrink_1280/B4DZ9GfjQjK8AM-/0/1783594104611?e=1786579200&v=beta&t=-qMT2EM2SsykJOMVwvbGVPlTLUgXzRziPItwfvu6nHk",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480935898608472066",
+        "likes": 176,
+        "comments": 36,
+        "shares": 19,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 165
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478813372961173504",
+      "entityId": "7478813372961173504",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_uhhh-logistics-activity-7478765533895671808-ZNq3",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478765532918325248",
+      "shareUrn": "urn:li:share:7478765532918325248",
+      "content": "Uhhh !  Logistics ... 🙂",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1783088057747,
+        "date": "2026-07-03T14:14:17.747Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEZ8K3CXTgW0w/feedshare-shrink_1280/B4DZ8npnvXIIAM-/0/1783076650865?e=1786579200&v=beta&t=JPFlb6uQCI199rfkP84FjUbs4QOghoR6b_22gC7Rc6g",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "repostedBy": {
+        "name": "TARIQ ZAMAN",
+        "publicIdentifier": "tariq-zaman-pak",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38"
+      },
+      "repostedAt": {
+        "timestamp": 1783088057747,
+        "date": "2026-07-03T14:14:17.747Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7478813372961173504?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7478813372961173504%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=MJw7w7ZwYeAZ1IZgQw%2B94g%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "text": "TARIQ ZAMAN reposted this"
+      },
+      "engagement": {
+        "id": "7478765533895671808",
+        "likes": 16,
+        "comments": 3,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 10
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7475834056098660353",
+      "entityId": "7475834056098660353",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_a-warehouse-dashboard-is-useless-if-it-only-activity-7475834056098660353-VkyO",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475834053028524032",
+      "shareUrn": "urn:li:share:7475834053028524032",
+      "content": "A warehouse dashboard is useless if it only looks good.\nThe real job of KPIs is not reporting.\nIt is finding the leak.\n\nInventory accuracy is low?\n→ Check receiving, putaway, and cycle counts.\n\nDock-to-stock time is high?\n→ Check inbound flow, QC delays, and putaway congestion.\n\nPicking accuracy is dropping?\n→ Check labels, scanning discipline, and SKU similarity.\n\nOTIF is weak?\n→ Check stock accuracy, picking, loading, and dispatch timing.\n\nCost per order is rising?\n→ Check labor, rework, space usage, and avoidable errors.\n\nA good warehouse manager does not track numbers just to fill a report.\n\nThey track numbers to fix the process.\n\nBecause every delay, error, and cost usually shows up somewhere in the dashboard before it becomes a bigger problem.\n\nTrack the KPI.\nFind the leak.\nFix the process.\n\nSave this cheatsheet for your next warehouse performance review.\nFollow TARIQ ZAMAN  for warehouse & logistics content.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1782377733254,
+        "date": "2026-06-25T08:55:33.254Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQF96_bT83bLdQ/feedshare-shrink_1280/B4DZ79_dOjKkAM-/0/1782377731715?e=1786579200&v=beta&t=r_nDaN5pEP46ycp2y_zw9j8G9WCLsG4nCrEddpcFCTA",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7475834056098660353",
+        "likes": 46,
+        "comments": 1,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 42
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478208052899336193",
+      "entityId": "7478208052899336193",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_youre-counting-every-sku-the-same-way-storing-activity-7478025913230811136-Ak77",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478025910864994304",
+      "shareUrn": "urn:li:share:7478025910864994304",
+      "content": "You're counting every SKU the same way.\nStoring every SKU the same way.\nReordering every SKU the same way.\n\nAnd it's quietly bleeding your warehouse dry.\n\nNot every SKU deserves equal attention.\n\n10-20% of your SKUs\ndrive 70-80% of your value.\n\nThe rest? Most of them barely move.\n\nBut most warehouses treat them all\nlike they matter equally.\n\nSame cycle counts.\nSame prime locations.\nSame reorder logic.\n\nThat's not discipline.\nThat's wasted effort on the wrong things.\n\nABC classification fixes this:\n\n→ A items: few SKUs, highest value. Count often. Best locations. Tight control.\n→ B items: moderate value. Standard reorder rules. Routine review.\n→ C items: many SKUs, lowest value. Simplify. Lower-touch storage. Count less.\n\nBut here's what most people stop at.\n\nABC tells you what matters.\nIt doesn't tell you how predictable it is.\n\nThat's where XYZ comes in:\n\n→ X: steady demand. Automate replenishment.\n→ Y: variable demand. Review periodically.\n→ Z: unpredictable demand. Buffer stock and watch closely.\n\nCombine them and you get a 3x3 matrix\nthat sets your stock policy per SKU.\n\nAX gets automated.\nCZ gets questioned: should you even carry it?\n\nWalk your floor tomorrow\nand ask one question:\n\nAre your A items in the best locations,\nor are C items sitting in prime space\nthey don't deserve?\n\nI mapped the full framework, the mistakes,\nand the XYZ matrix in one cheatsheet (below).\n\nSave it before your next inventory review.\nFollow TARIQ ZAMAN for more such warehouse and logistics insights..",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1782943738198,
+        "date": "2026-07-01T22:08:58.198Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEygnR87MGI2Q/feedshare-shrink_1280/B4DZ8dI8DoJcAM-/0/1782900310997?e=1786579200&v=beta&t=2ubOP01PgpqtL0Fz-fXxuKjQeapTXS070Rvc7PHxKw4",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "repostedBy": {
+        "name": "TARIQ ZAMAN",
+        "publicIdentifier": "tariq-zaman-pak",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38"
+      },
+      "repostedAt": {
+        "timestamp": 1782943738198,
+        "date": "2026-07-01T22:08:58.198Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7478208052899336193?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7478208052899336193%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=ynlGtJv9hWkmOTtKpe4wdQ%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "text": "TARIQ ZAMAN reposted this"
+      },
+      "engagement": {
+        "id": "7478025913230811136",
+        "likes": 51,
+        "comments": 15,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 49
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478765533895671808",
+      "entityId": "7478765533895671808",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_uhhh-logistics-activity-7478765533895671808-ZNq3",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478765532918325248",
+      "shareUrn": "urn:li:share:7478765532918325248",
+      "content": "Uhhh !  Logistics ... 🙂",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1783076652025,
+        "date": "2026-07-03T11:04:12.025Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEZ8K3CXTgW0w/feedshare-shrink_1280/B4DZ8npnvXIIAM-/0/1783076650865?e=1786579200&v=beta&t=JPFlb6uQCI199rfkP84FjUbs4QOghoR6b_22gC7Rc6g",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478765533895671808",
+        "likes": 16,
+        "comments": 3,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 10
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482898150907658240",
+      "entityId": "7482898150907658240",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_10000-followers-that-number-means-a-lot-activity-7482898150907658240-kjJ8",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482898149242556416",
+      "shareUrn": "urn:li:share:7482898149242556416",
+      "content": "10,000 followers.\nThat number means a lot.\n\nThis profile was never meant to be just about posts.\n\nIt was built around one simple idea:\n→ Make warehouse and logistics knowledge practical.\n→ Make complex operations easier to understand.\n→ Share lessons that people can actually use at work.\n\nEvery save, comment, repost, and message has helped shape this journey.\n\nSo thank you.\n\nThank you for reading.\nThank you for engaging.\nThank you for sharing the content with your teams.\nThank you for proving that practical supply chain knowledge still matters.\n\n10,000 followers is more than a number.\n\nIt is a community of people who believe in better warehouses, better logistics, and better execution.\n\nGrateful for every one of you.\n\nThe journey continues.\n\nLearn. Apply. Improve.\n\nFollow TARIQ ZAMAN for more such content coming...",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1784061944701,
+        "date": "2026-07-14T20:45:44.701Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHhSPH3M9rBKg/feedshare-shrink_1280/B4DZ9iYNtTI0AM-/0/1784061943607?e=1786579200&v=beta&t=FazhA__B_pGcAbCQaADe8c6tPKA98s9gMkGISKXwxRs",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482898150907658240",
+        "likes": 89,
+        "comments": 33,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 73
+          },
+          {
+            "type": "PRAISE",
+            "count": 13
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477524047271211008",
+      "entityId": "7477524047271211008",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_your-warehouse-layout-was-decided-before-activity-7476648131024248832-rJCP",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7476648127698100226",
+      "shareUrn": "urn:li:share:7476648127698100226",
+      "content": "Your warehouse layout was decided\nbefore you were hired.\n\nAnd it is probably costing you\nmore than any process ever will.\n\nMost managers inherit a floor plan\nand never question it.\n\n→ They optimise picking.\n→ They fix slotting.\n→ They redesign packing stations.\n\nBut the flow itself?\nNobody touches it.\n\nHere is the problem:\n\nA bad layout taxes every single movement.\nEvery pick. Every putaway. Every pallet.\nAll day. Every shift. For years.\n\nThree layouts exist.\nEach one solves a different problem:\n\n— U-Shape puts receiving and shipping on the same wall. One dock crew, fast cross-docking, short travel for your top movers. Best when space is tight and volume is moderate.\n\n— I-Shape runs a straight line from receiving to shipping, opposite ends. Zero cross-traffic, clean linear flow. Best for high-volume operations that need total separation.\n\n— L-Shape bends the flow around a corner, receiving and shipping on adjacent walls. Best when the building shape forces it, or you need moderate separation without the cost of two full dock setups.\n\nThe layout nobody chose on purpose\nis quietly deciding your cost per order.\n\nI mapped all three side by side\nwith the trade-offs and a comparison table\nin one cheatsheet (below).\n\nSave it for the next time someone says\n\"we just need to fix the picking.\"\n\nSave this cheatsheet for your next warehouse performance review.\nFollow TARIQ ZAMAN for warehouse & logistics content.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1782780658548,
+        "date": "2026-06-30T00:50:58.548Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQECzgZZ9Hsimw/feedshare-shrink_1280/B4DZ8Jj2ZaKsAM-/0/1782571821504?e=1786579200&v=beta&t=mVyZSZBTKmuctCkxb24yuNachDuaqhTj3V4KbXwDXSc",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "repostedBy": {
+        "name": "TARIQ ZAMAN",
+        "publicIdentifier": "tariq-zaman-pak",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38"
+      },
+      "repostedAt": {
+        "timestamp": 1782780658548,
+        "date": "2026-06-30T00:50:58.548Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7477524047271211008?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7477524047271211008%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=Ox%2Fjxd9vmZ%2FLYu0jYCgBQQ%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "text": "TARIQ ZAMAN reposted this"
+      },
+      "engagement": {
+        "id": "7476648131024248832",
+        "likes": 142,
+        "comments": 17,
+        "shares": 16,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 134
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485602532803788804",
+      "entityId": "7485602532803788804",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_a-loaded-truck-is-not-always-an-optimized-activity-7485462190158868480-SR2w",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485462187768078336",
+      "shareUrn": "urn:li:share:7485462187768078336",
+      "content": "A loaded truck is not always an optimized truck.\nSometimes the floor is full…\n\nbut the cube is still half-empty.\n\nThat means you are not just moving product.\n\nYou are also moving air.\n\nAnd unplanned empty space increases cost per shipped unit.\n\nGood pallet loading is not only about fitting more boxes.\n\nIt is about balancing:\n\n→ stacking pattern\n→ weight distribution\n→ pallet stability\n→ vehicle height\n→ route sequence\n→ product compatibility\n→ safety limits\n\nColumn stacking may give strength.\n\nInterlocking may give stability.\n\nPinwheel may reduce shifting.\n\nSplit row may help mixed-SKU deliveries.\n\nBut none of them should be used blindly.\n\nThe right loading plan depends on the product, pallet, vehicle, route, and handling conditions.\n\nBefore maximizing cube, always check:\n\n→ Weight limit\n→ Stack height\n→ Product fragility\n→ Route sequence\n→ Compatibility\n\nBecause the goal is not just a full truck.\nThe goal is a safe, stable, cost-efficient load.\n\nSave this cheatsheet for your next dispatch or loading review.\nFollow TARIQ ZAMAN for practical warehouse and logistics content.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1784706719590,
+        "date": "2026-07-22T07:51:59.590Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHSvl5Qh80t8g/feedshare-shrink_1280/B4DZ.G0MViKYAQ-/0/1784673257670?e=1786579200&v=beta&t=X8m7g1Eov18s1AEl3PZccTcAt6DGiGdfDY0CAqgxMyM",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "repostedBy": {
+        "name": "TARIQ ZAMAN",
+        "publicIdentifier": "tariq-zaman-pak",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38"
+      },
+      "repostedAt": {
+        "timestamp": 1784706719590,
+        "date": "2026-07-22T07:51:59.590Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7485602532803788804?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7485602532803788804%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=HsGyQMC3a2MCnAs0iQvotA%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "text": "TARIQ ZAMAN reposted this"
+      },
+      "engagement": {
+        "id": "7485462190158868480",
+        "likes": 42,
+        "comments": 5,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 36
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476230592544632833",
+      "entityId": "7476230592544632833",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_42-containers-one-day-before-the-deadline-activity-7476230592544632833-3sD4",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7476230591340843008",
+      "shareUrn": "urn:li:ugcPost:7476230591340843008",
+      "content": "42 containers.\nOne day before the deadline.\nAnd not a single excuse along the way.\n\nMost people see the shipment after it is done.\nThey never see what it took to get there.\n\nBecause warehouse execution is not logistics.\nIt is people refusing to quit\nwhen everything says they should.\n\nHere is what this team was up against:\n\n→ A timeline most teams would reject\n→ 42 containers, back to back\n→ Operational problems hitting live\n→ Physical workload that doesn't pause\n→ Zero room for a single delay\n\nAnd here is what nobody saw:\n\n→ The hands that moved every load\n→ The eyes that checked every detail\n→ The supervisors keeping flow alive\n→ The team members solving problems on the spot\n→ The discipline to keep going without complaint\n\nThey did not have perfect conditions.\nThey did not have unlimited time.\nThey did not have anyone cheering from the sideline.\n\nThey had each other.\nAnd that was enough.\n\n42 containers.\nCompleted one day early.\n\nThat is not luck.\nThat is not a system.\nThat is a team that refused to let the deadline win.\n\nTo every person in these photos:\n\nYou did not just complete a task.\nYou protected a commitment.\n\nRespect earned.\nMission accomplished.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1782472274910,
+        "date": "2026-06-26T11:11:14.910Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEoPRYMH7yyAw/feedshare-shrink_1280/B4EZ8DoGhgJYAM-/0/1782472272439?e=1786579200&v=beta&t=NLaSKuApcB6a4Mqn_9vUOAQaQ_Eiu3sKmCdTMvconFg",
+          "width": 1280,
+          "height": 1706
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFLxPzXwoCwww/feedshare-shrink_1280/B4EZ8DoGmyJgAY-/0/1782472272714?e=1786579200&v=beta&t=PaODyrs4C9EoJeVlLdMdCHxNltOVpYMFy3rLSfT-Ohs",
+          "width": 1280,
+          "height": 1706
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7476230591340843008",
+        "likes": 70,
+        "comments": 17,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 58
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478025913230811136",
+      "entityId": "7478025913230811136",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_youre-counting-every-sku-the-same-way-storing-activity-7478025913230811136-Ak77",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478025910864994304",
+      "shareUrn": "urn:li:share:7478025910864994304",
+      "content": "You're counting every SKU the same way.\nStoring every SKU the same way.\nReordering every SKU the same way.\n\nAnd it's quietly bleeding your warehouse dry.\n\nNot every SKU deserves equal attention.\n\n10-20% of your SKUs\ndrive 70-80% of your value.\n\nThe rest? Most of them barely move.\n\nBut most warehouses treat them all\nlike they matter equally.\n\nSame cycle counts.\nSame prime locations.\nSame reorder logic.\n\nThat's not discipline.\nThat's wasted effort on the wrong things.\n\nABC classification fixes this:\n\n→ A items: few SKUs, highest value. Count often. Best locations. Tight control.\n→ B items: moderate value. Standard reorder rules. Routine review.\n→ C items: many SKUs, lowest value. Simplify. Lower-touch storage. Count less.\n\nBut here's what most people stop at.\n\nABC tells you what matters.\nIt doesn't tell you how predictable it is.\n\nThat's where XYZ comes in:\n\n→ X: steady demand. Automate replenishment.\n→ Y: variable demand. Review periodically.\n→ Z: unpredictable demand. Buffer stock and watch closely.\n\nCombine them and you get a 3x3 matrix\nthat sets your stock policy per SKU.\n\nAX gets automated.\nCZ gets questioned: should you even carry it?\n\nWalk your floor tomorrow\nand ask one question:\n\nAre your A items in the best locations,\nor are C items sitting in prime space\nthey don't deserve?\n\nI mapped the full framework, the mistakes,\nand the XYZ matrix in one cheatsheet (below).\n\nSave it before your next inventory review.\nFollow TARIQ ZAMAN for more such warehouse and logistics insights..",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1782900312717,
+        "date": "2026-07-01T10:05:12.717Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEygnR87MGI2Q/feedshare-shrink_1280/B4DZ8dI8DoJcAM-/0/1782900310997?e=1786579200&v=beta&t=2ubOP01PgpqtL0Fz-fXxuKjQeapTXS070Rvc7PHxKw4",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478025913230811136",
+        "likes": 51,
+        "comments": 15,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 49
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483204316032425984",
+      "entityId": "7483204316032425984",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_warehouse-safety-is-not-a-poster-on-the-wall-activity-7483142824553725952-R3bX",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483142823085760513",
+      "shareUrn": "urn:li:share:7483142823085760513",
+      "content": "Warehouse safety is not a poster on the wall.\nIt is what happens before the shift starts.\n\nBefore the forklift moves.\nBefore the dock door opens.\nBefore a new worker enters the floor.\n\nMost serious warehouse accidents are not “bad luck.”\n\nThey usually come from skipped controls:\n\n→ Untrained forklift operators\n→ Unsecured docks\n→ Damaged racking ignored\n→ Pedestrians in forklift aisles\n→ New workers without induction\n→ Unstable loads on racks\n→ No fall protection at height\n\nOne shortcut can cost a life.\n\nBefore every shift, ask:\n\n→ Forklift inspected?\n→ Walkways clear?\n→ PPE being worn?\n→ Damaged racking tagged?\n→ New workers inducted?\n\nIf the answer is not YES to all five, the shift is not ready.\n\nSpeed matters.\nDispatch matters.\nProductivity matters.\nBut no shipment is worth an injury.\n\nSave this cheatsheet for your next floor walk.\nFollow TARIQ ZAMAN for practical warehouse and logistics content.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1784134940155,
+        "date": "2026-07-15T17:02:20.155Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEM1ibmNmKUXw/feedshare-shrink_1280/B4DZ9l2vkNJAAM-/0/1784120278401?e=1786579200&v=beta&t=IzaArW7j_LAG0PZizFpLxmn32NyBzRCeQGRGaohVMSM",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "repostedBy": {
+        "name": "TARIQ ZAMAN",
+        "publicIdentifier": "tariq-zaman-pak",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38"
+      },
+      "repostedAt": {
+        "timestamp": 1784134940155,
+        "date": "2026-07-15T17:02:20.155Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7483204316032425984?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7483204316032425984%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=KJVFF8w9pFfJaJ%2FqymqGhQ%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "text": "TARIQ ZAMAN reposted this"
+      },
+      "engagement": {
+        "id": "7483142824553725952",
+        "likes": 50,
+        "comments": 16,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 48
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477662314117296128",
+      "entityId": "7477662314117296128",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_your-wms-says-fifo-your-floor-says-otherwise-activity-7477662314117296128-yqBr",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477522833590546432",
+      "shareUrn": "urn:li:share:7477522833590546432",
+      "content": "Your WMS says FIFO.\nYour floor says otherwise.\n\nI've walked into warehouses\nwhere the system says rotation is perfect.\n\nThen I check the back of the lane.\n\nDust. Faded labels.\nStock that hasn't moved in months.\n\nThe system didn't fail.\nThe floor did.\n\nStock rotation is not a setting you pick\nand forget about.\n\nIt's a discipline you verify\nevery single day.\n\nThree methods exist.\nEach one protects something different:\n\n→ FEFO: earliest expiry leaves first. Protects compliance.\n→ FIFO: oldest received leaves first. Prevents aging stock.\n→ LIFO: newest leaves first. Only works when expiry doesn't matter.\n\nHere's where most warehouses go wrong:\n\n→ Expiry date missing from WMS. Team picks by arrival instead. Product expires on the shelf.\n→ New stock placed in front because putaway is faster. Old stock buried behind it for months.\n→ Perishables stored in LIFO racking because that's what was available. Audit risk ignored.\n\nThe fix is not in the system.\nThe fix is on the floor.\n\nWalk the lane.\nCheck the back of the shelf.\nIf old stock is gathering dust,\nyour rotation has already failed.\n\nI mapped all three methods side by side\nwith the mistakes and floor checks\nin one cheatsheet (below). Save it.\n\nFollow TARIQ ZAMAN for more such Warehouse and logistics management insights.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1782813623933,
+        "date": "2026-06-30T10:00:23.933Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGp9vsGMjT16Q/feedshare-shrink_1280/B4DZ8V_ZPPGYAM-/0/1782780368602?e=1786579200&v=beta&t=3XT4zl8AYOZK4L9xuPI4Hjj2sygXts612ToiF_EedRc",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477662314117296128",
+        "likes": 31,
+        "comments": 4,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 28
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476648131024248832",
+      "entityId": "7476648131024248832",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_your-warehouse-layout-was-decided-before-activity-7476648131024248832-rJCP",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7476648127698100226",
+      "shareUrn": "urn:li:share:7476648127698100226",
+      "content": "Your warehouse layout was decided\nbefore you were hired.\n\nAnd it is probably costing you\nmore than any process ever will.\n\nMost managers inherit a floor plan\nand never question it.\n\n→ They optimise picking.\n→ They fix slotting.\n→ They redesign packing stations.\n\nBut the flow itself?\nNobody touches it.\n\nHere is the problem:\n\nA bad layout taxes every single movement.\nEvery pick. Every putaway. Every pallet.\nAll day. Every shift. For years.\n\nThree layouts exist.\nEach one solves a different problem:\n\n— U-Shape puts receiving and shipping on the same wall. One dock crew, fast cross-docking, short travel for your top movers. Best when space is tight and volume is moderate.\n\n— I-Shape runs a straight line from receiving to shipping, opposite ends. Zero cross-traffic, clean linear flow. Best for high-volume operations that need total separation.\n\n— L-Shape bends the flow around a corner, receiving and shipping on adjacent walls. Best when the building shape forces it, or you need moderate separation without the cost of two full dock setups.\n\nThe layout nobody chose on purpose\nis quietly deciding your cost per order.\n\nI mapped all three side by side\nwith the trade-offs and a comparison table\nin one cheatsheet (below).\n\nSave it for the next time someone says\n\"we just need to fix the picking.\"\n\nSave this cheatsheet for your next warehouse performance review.\nFollow TARIQ ZAMAN for warehouse & logistics content.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1782571823841,
+        "date": "2026-06-27T14:50:23.841Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQECzgZZ9Hsimw/feedshare-shrink_1280/B4DZ8Jj2ZaKsAM-/0/1782571821504?e=1786579200&v=beta&t=mVyZSZBTKmuctCkxb24yuNachDuaqhTj3V4KbXwDXSc",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7476648131024248832",
+        "likes": 142,
+        "comments": 17,
+        "shares": 16,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 134
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7473797552329637888",
+      "entityId": "7473797552329637888",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_picking-delays-dont-always-mean-your-team-activity-7473714508960673792-5rtf",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7473714507714945024",
+      "shareUrn": "urn:li:share:7473714507714945024",
+      "content": "Picking delays don’t always mean your team is slow.\nSometimes, the picking method is the real problem.\n\nA picker walks the same aisle again and again.\n→ That is wasted movement.\n\nOrders wait because one zone is overloaded.\n→ That is poor flow.\n\nTeams pick fast, then spend too much time sorting.\n→ That is hidden rework.\n\nDispatch gets delayed because orders were not released in the right sequence.\n→ That is a planning problem.\n\nThis is why the right picking method matters.\n\nNot every warehouse needs the same approach.\n\n𝗣𝗶𝗲𝗰𝗲 𝗣𝗶𝗰𝗸𝗶𝗻𝗴\n→ Best when order volume is low and orders are simple.\n𝗕𝗮𝘁𝗰𝗵 𝗣𝗶𝗰𝗸𝗶𝗻𝗴\n→ Best when many orders share the same SKUs.\n𝗭𝗼𝗻𝗲 𝗣𝗶𝗰𝗸𝗶𝗻𝗴\n→ Best when the warehouse is large and SKUs are spread across different areas.\n𝗪𝗮𝘃𝗲 𝗣𝗶𝗰𝗸𝗶𝗻𝗴\n→ Best when dispatch timing, carrier schedules, or shipping cut-offs matter.\n𝗖𝗹𝘂𝘀𝘁𝗲𝗿 𝗣𝗶𝗰𝗸𝗶𝗻𝗴\n→ Best when small e-commerce orders need to move fast without getting mixed up.\n\nThe mistake is not choosing a “bad” method.\n\nThe mistake is using the wrong method for your workflow.\n\nMost efficient warehouses combine methods based on:\n\n→ Order volume\n→ SKU spread\n→ Warehouse layout\n→ Team size\n→ Dispatch pressure\n→ Sorting accuracy\n\nThe goal is simple:\n\nReduce walking.\nReduce waiting.\nReduce sorting mistakes.\nKeep orders moving toward dispatch.\n\nSave this cheatsheet for your next warehouse picking review.\n———\nFollow Tariq Zaman for more warehouse & logistics insights.\n\nRepost if it helped  ♻",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1781892192919,
+        "date": "2026-06-19T18:03:12.919Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFIpy3xYAtPvA/feedshare-shrink_1280/B4DZ7f3vzCIYAM-/0/1781872394375?e=1786579200&v=beta&t=h8UDmFhnamZVZWeCWAKt-0toyLSANIKYz21O9TA5AJM",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "repostedBy": {
+        "name": "TARIQ ZAMAN",
+        "publicIdentifier": "tariq-zaman-pak",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38"
+      },
+      "repostedAt": {
+        "timestamp": 1781892192919,
+        "date": "2026-06-19T18:03:12.919Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7473797552329637888?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7473797552329637888%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=zyxu0A%2BKZnUdy7JB0WbTMg%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "text": "TARIQ ZAMAN reposted this"
+      },
+      "engagement": {
+        "id": "7473714508960673792",
+        "likes": 35,
+        "comments": 4,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 30
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7473714508960673792",
+      "entityId": "7473714508960673792",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_picking-delays-dont-always-mean-your-team-activity-7473714508960673792-5rtf",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7473714507714945024",
+      "shareUrn": "urn:li:share:7473714507714945024",
+      "content": "Picking delays don’t always mean your team is slow.\nSometimes, the picking method is the real problem.\n\nA picker walks the same aisle again and again.\n→ That is wasted movement.\n\nOrders wait because one zone is overloaded.\n→ That is poor flow.\n\nTeams pick fast, then spend too much time sorting.\n→ That is hidden rework.\n\nDispatch gets delayed because orders were not released in the right sequence.\n→ That is a planning problem.\n\nThis is why the right picking method matters.\n\nNot every warehouse needs the same approach.\n\n𝗣𝗶𝗲𝗰𝗲 𝗣𝗶𝗰𝗸𝗶𝗻𝗴\n→ Best when order volume is low and orders are simple.\n𝗕𝗮𝘁𝗰𝗵 𝗣𝗶𝗰𝗸𝗶𝗻𝗴\n→ Best when many orders share the same SKUs.\n𝗭𝗼𝗻𝗲 𝗣𝗶𝗰𝗸𝗶𝗻𝗴\n→ Best when the warehouse is large and SKUs are spread across different areas.\n𝗪𝗮𝘃𝗲 𝗣𝗶𝗰𝗸𝗶𝗻𝗴\n→ Best when dispatch timing, carrier schedules, or shipping cut-offs matter.\n𝗖𝗹𝘂𝘀𝘁𝗲𝗿 𝗣𝗶𝗰𝗸𝗶𝗻𝗴\n→ Best when small e-commerce orders need to move fast without getting mixed up.\n\nThe mistake is not choosing a “bad” method.\n\nThe mistake is using the wrong method for your workflow.\n\nMost efficient warehouses combine methods based on:\n\n→ Order volume\n→ SKU spread\n→ Warehouse layout\n→ Team size\n→ Dispatch pressure\n→ Sorting accuracy\n\nThe goal is simple:\n\nReduce walking.\nReduce waiting.\nReduce sorting mistakes.\nKeep orders moving toward dispatch.\n\nSave this cheatsheet for your next warehouse picking review.\n———\nFollow Tariq Zaman for more warehouse & logistics insights.\n\nRepost if it helped  ♻",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1781872393837,
+        "date": "2026-06-19T12:33:13.837Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFIpy3xYAtPvA/feedshare-shrink_1280/B4DZ7f3vzCIYAM-/0/1781872394375?e=1786579200&v=beta&t=h8UDmFhnamZVZWeCWAKt-0toyLSANIKYz21O9TA5AJM",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7473714508960673792",
+        "likes": 35,
+        "comments": 4,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 30
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7473541967977689089",
+      "entityId": "7473541967977689089",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_the-most-expensive-thing-in-your-warehouse-activity-7473317389988720640-iN55",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7473317389007249409",
+      "shareUrn": "urn:li:share:7473317389007249409",
+      "content": "The most expensive thing in your warehouse isn't the racking.\nIt's the wrong racking.\n\n→ Selective when you needed flow.\n→ Drive-in when you needed access.\n→ Density when you needed speed.\n\nEvery racking system does one job well.\nPut it in the wrong operation\nand it quietly costs you\npicks, space, and time.\n\n1. Match high-SKU variety to access.\n2. Match bulk with few SKUs to density.\n3. Match expiry-sensitive goods to FIFO.\n4. Match expensive floor space to mobile.\n\nThe rack should serve the operation.\n\nNever the other way around.\n\nI broke down all six systems in one cheatsheet (below).\n\nSave it before your next layout decision.\n\n———\nFollow Tariq Zaman for more warehouse & logistics insights.\n\nRepost and save it for later if it helped ♻",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1781831256861,
+        "date": "2026-06-19T01:07:36.861Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQECFKj3-PnQZw/feedshare-shrink_1280/B56Z7aOkbWH4AM-/0/1781777713890?e=1786579200&v=beta&t=fUQ0vBCAyIt4U6wAhpFL70H6MbE_szoIH7AxKEw2IGk",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "repostedBy": {
+        "name": "TARIQ ZAMAN",
+        "publicIdentifier": "tariq-zaman-pak",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38"
+      },
+      "repostedAt": {
+        "timestamp": 1781831256861,
+        "date": "2026-06-19T01:07:36.861Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7473541967977689089?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7473541967977689089%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=RGb95%2B%2Fc499eBVy9slWCPg%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "text": "TARIQ ZAMAN reposted this"
+      },
+      "engagement": {
+        "id": "7473317389988720640",
+        "likes": 240,
+        "comments": 11,
+        "shares": 24,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 232
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477830994633519105",
+      "entityId": "7477830994633519105",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_your-warehouse-layout-was-decided-before-activity-7476648131024248832-rJCP",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7476648127698100226",
+      "shareUrn": "urn:li:share:7476648127698100226",
+      "content": "Your warehouse layout was decided\nbefore you were hired.\n\nAnd it is probably costing you\nmore than any process ever will.\n\nMost managers inherit a floor plan\nand never question it.\n\n→ They optimise picking.\n→ They fix slotting.\n→ They redesign packing stations.\n\nBut the flow itself?\nNobody touches it.\n\nHere is the problem:\n\nA bad layout taxes every single movement.\nEvery pick. Every putaway. Every pallet.\nAll day. Every shift. For years.\n\nThree layouts exist.\nEach one solves a different problem:\n\n— U-Shape puts receiving and shipping on the same wall. One dock crew, fast cross-docking, short travel for your top movers. Best when space is tight and volume is moderate.\n\n— I-Shape runs a straight line from receiving to shipping, opposite ends. Zero cross-traffic, clean linear flow. Best for high-volume operations that need total separation.\n\n— L-Shape bends the flow around a corner, receiving and shipping on adjacent walls. Best when the building shape forces it, or you need moderate separation without the cost of two full dock setups.\n\nThe layout nobody chose on purpose\nis quietly deciding your cost per order.\n\nI mapped all three side by side\nwith the trade-offs and a comparison table\nin one cheatsheet (below).\n\nSave it for the next time someone says\n\"we just need to fix the picking.\"\n\nSave this cheatsheet for your next warehouse performance review.\nFollow TARIQ ZAMAN for warehouse & logistics content.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1782853840502,
+        "date": "2026-06-30T21:10:40.502Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQECzgZZ9Hsimw/feedshare-shrink_1280/B4DZ8Jj2ZaKsAM-/0/1782571821504?e=1786579200&v=beta&t=mVyZSZBTKmuctCkxb24yuNachDuaqhTj3V4KbXwDXSc",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "repostedBy": {
+        "name": "TARIQ ZAMAN",
+        "publicIdentifier": "tariq-zaman-pak",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38"
+      },
+      "repostedAt": {
+        "timestamp": 1782853840502,
+        "date": "2026-06-30T21:10:40.502Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7477830994633519105?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7477830994633519105%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=C4LQ%2B2Q45x1amGJiWZE95g%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "text": "TARIQ ZAMAN reposted this"
+      },
+      "engagement": {
+        "id": "7476648131024248832",
+        "likes": 142,
+        "comments": 17,
+        "shares": 16,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 134
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476171259794472960",
+      "entityId": "7476171259794472960",
+      "linkedinUrl": "https://www.linkedin.com/posts/tariq-zaman-pak_a-warehouse-dashboard-is-useless-if-it-only-activity-7475834056098660353-VkyO",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7475834053028524032",
+      "shareUrn": "urn:li:share:7475834053028524032",
+      "content": "A warehouse dashboard is useless if it only looks good.\nThe real job of KPIs is not reporting.\nIt is finding the leak.\n\nInventory accuracy is low?\n→ Check receiving, putaway, and cycle counts.\n\nDock-to-stock time is high?\n→ Check inbound flow, QC delays, and putaway congestion.\n\nPicking accuracy is dropping?\n→ Check labels, scanning discipline, and SKU similarity.\n\nOTIF is weak?\n→ Check stock accuracy, picking, loading, and dispatch timing.\n\nCost per order is rising?\n→ Check labor, rework, space usage, and avoidable errors.\n\nA good warehouse manager does not track numbers just to fill a report.\n\nThey track numbers to fix the process.\n\nBecause every delay, error, and cost usually shows up somewhere in the dashboard before it becomes a bigger problem.\n\nTrack the KPI.\nFind the leak.\nFix the process.\n\nSave this cheatsheet for your next warehouse performance review.\nFollow TARIQ ZAMAN  for warehouse & logistics content.",
+      "author": {
+        "id": "ACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "universalName": null,
+        "publicIdentifier": "tariq-zaman-pak",
+        "type": "profile",
+        "name": "TARIQ ZAMAN",
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "info": "Warehouse & Logistics Manager | Optimizing Layouts That Increase Capacity & Speed Operations | Inventory Management",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "377852442"
+      },
+      "postedAt": {
+        "timestamp": 1782458128880,
+        "date": "2026-06-26T07:15:28.880Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQF96_bT83bLdQ/feedshare-shrink_1280/B4DZ79_dOjKkAM-/0/1782377731715?e=1786579200&v=beta&t=r_nDaN5pEP46ycp2y_zw9j8G9WCLsG4nCrEddpcFCTA",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "repostedBy": {
+        "name": "TARIQ ZAMAN",
+        "publicIdentifier": "tariq-zaman-pak",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38"
+      },
+      "repostedAt": {
+        "timestamp": 1782458128880,
+        "date": "2026-06-26T07:15:28.880Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQFbdyf4S2995A/profile-displayphoto-crop_800_800/B4DZ.lXbKDJ8AI-/0/1785185810570?e=1786579200&v=beta&t=iCM6rgOuIEBcHpZKHcjSl1qOXyN_AaWJb5pS6X0U6KQ",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7476171259794472960?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7476171259794472960%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=SRoHNYU5dddjGc41r1QXzw%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/tariq-zaman-pak?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAABaFkhoBInG0qUmfTdPVOzovSB6QBI3fZ38",
+        "text": "TARIQ ZAMAN reposted this"
+      },
+      "engagement": {
+        "id": "7475834056098660353",
+        "likes": 46,
+        "comments": 1,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 42
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/tariq-zaman-pak",
+        "sessionId": "b60d1bf7-9155-4a3a-9435-d2488b43a056"
+      }
+    }
+  ]
+}

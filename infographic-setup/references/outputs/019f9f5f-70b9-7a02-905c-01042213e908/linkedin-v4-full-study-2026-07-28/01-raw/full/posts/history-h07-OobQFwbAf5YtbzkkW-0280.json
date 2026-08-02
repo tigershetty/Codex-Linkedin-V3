@@ -1,0 +1,800 @@
+{
+  "runId": "OobQFwbAf5YtbzkkW",
+  "datasetId": "FVy1cmGSxLCdDim0s",
+  "offset": 280,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7457361306031960064",
+      "entityId": "7457361306031960064",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_we-want-a-new-system-but-can-it-still-do-activity-7457361306031960064-Zc2O",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7457361304169783296",
+      "shareUrn": "urn:li:share:7457361304169783296",
+      "content": "“We want a new system… but can it still do what the old one did?”\n\n20+ years and I still hear this in almost every project.\n\nIt starts full of ambition:\n“We want something modern, streamlined, fully integrated”\n\nThen about 10 minutes later:\n“Can it create that report we print every Monday”\n“Can we keep that workaround?”\n“Can it look the same?”\n\nAt this point I’m usually thinking… so you want a new system, but as a tribute act to the old one. 🤔 \n\nAnd to be fair, it’s understandable. It’s human.\n\nPeople don’t ask for the old system because they loved it. They ask for it because they understood it.\n\nThat slightly awkward process\nThat Excel report nobody trusts but everyone uses\nThat workaround no one admits owning\n\n…they’re familiar. And familiar wins, every time.\n\nThe reality is:\nNew system projects aren’t really about replacing software.\nThey’re about replacing habits.\nAnd that’s the bit that’s hardest to price, plan, or document.\n\nBecause software is logical. People… less so.\n\nMy default response is to go back to what my kids taught me years ago - \"Why?\" once you ask it a few times you can normally spot the reasoning behind it. Then you can start to address it!\n\nCurious how others handle this balance…\n\n👉 How far do you go to keep things familiar versus actually moving forward?",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1777973486431,
+        "date": "2026-05-05T09:31:26.431Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEr-c60pO_8KA/feedshare-image-high-res/B4EZ33el8KIMAU-/0/1777973485633?e=1786579200&v=beta&t=IrmEAQJ7NkF95g9eZxTbkAWSV9Opd9p3qvMfZirPmiM",
+          "width": 1920,
+          "height": 1100
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7457361306031960064",
+        "likes": 17,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 13
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7448450551983271936",
+      "entityId": "7448450551983271936",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_new-forrester-total-economic-impact-study-activity-7448450551983271936-8cuf",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7448450551371100160",
+      "shareUrn": "urn:li:share:7448450551371100160",
+      "content": "Always good to see what you know being backed up by real facts and figures.",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1775848997112,
+        "date": "2026-04-10T19:23:17.112Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7445364430608994304",
+        "linkedinUrl": "https://www.linkedin.com/posts/microsoft-dynamics-365-business-central_new-forrester-total-economic-impact-study-activity-7445364430608994304-X_b-",
+        "content": "📊 New Forrester Total Economic Impact™ study for Microsoft Dynamics 365 Business Central\nA newly published Forrester TEI study highlights the potential value organizations can realize by modernizing finance and operations on a unified ERP platform.\n\nThe study projects that the composite organization could achieve:\n➡️ More than 200% ROI and $460K net present value (NPV) over three years\n➡️ Potential payback in six months (within a three‑year modeled analysis)\n\nBy year three, the study also points to projected operational improvements, including:\n➡️ Up to 30% reduction in monthly close time\n➡️ Up to 50% time savings across AP, AR, and billing activities\n\nFrom improving finance productivity to reducing complexity and gaining real‑time visibility, Dynamics 365 Business Central helps organizations operate more efficiently and make better‑informed decisions.\nJust as importantly, it creates a strong foundation for what comes next with Copilot and AI‑powered agents.\n\n👉 Read Mike Morton’s blog for the full findings: https://lnkd.in/egY29JdA",
+        "contentAttributes": [
+          {
+            "start": 49,
+            "length": 39,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "91571669",
+              "name": "Microsoft Dynamics 365 Business Central",
+              "linkedinUrl": "https://www.linkedin.com/company/microsoft-dynamics-365-business-central/"
+            }
+          },
+          {
+            "start": 981,
+            "length": 11,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAAjD38BiEoY61UFdMQqYM9_cJofLi0nJ9A",
+              "firstName": "Mike",
+              "lastName": "Morton",
+              "linkedinUrl": "https://www.linkedin.com/in/mike-morton-853929",
+              "publicIdentifier": "mike-morton-853929"
+            }
+          }
+        ],
+        "author": {
+          "id": "91571669",
+          "universalName": "microsoft-dynamics-365-business-central",
+          "publicIdentifier": null,
+          "type": "company",
+          "name": "Microsoft Dynamics 365 Business Central",
+          "linkedinUrl": "https://www.linkedin.com/company/microsoft-dynamics-365-business-central/posts",
+          "info": "34,189 followers",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF1Ooe-Stg6dg/company-logo_400_400/B4EZwJq0t8HkAY-/0/1769688747395/microsoft_dynamics_365_business_central_logo?e=1786579200&v=beta&t=fwrFYDSpLF23FfgzWBmIiloRvXwxqGhUs-bd0qzXxfk",
+            "width": 400,
+            "height": 400
+          },
+          "urn": "91571669"
+        },
+        "postedAt": {
+          "timestamp": 1775113208439,
+          "date": "2026-04-02T07:00:08.439Z",
+          "postedAgoShort": "3mo",
+          "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E22AQHzkbnRWqslug/feedshare-image-high-res/B4EZ1Jh6P4JcAY-/0/1775055119601?e=1786579200&v=beta&t=qNjcN0tSVM74qUam2Q3zA63WowzEyUrwOtRv8fMkpTE",
+            "width": 1200,
+            "height": 1200
+          }
+        ],
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": false,
+          "hideSendAction": false,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/microsoft-dynamics-365-business-central_new-forrester-total-economic-impact-study-activity-7445364430608994304-X_b-?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7445364430608994304",
+        "shareUrn": "urn:li:share:7445120793304338432",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7445120793304338432",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7448450551983271936",
+        "likes": 5,
+        "comments": 1,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7445420845767974912",
+      "entityId": "7445420845767974912",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_ok-its-not-friday-but-theres-a-bank-holiday-activity-7445420845767974912-n2_D",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7445420844635320321",
+      "shareUrn": "urn:li:share:7445420844635320321",
+      "content": "Ok, it's not Friday, but there's a bank holiday tomorrow so today is as good as a Friday and I need to get this 𝙵̶𝚛̶𝚒̶𝚍̶𝚊̶𝚢̶ Thursday Rant off my chest.\n\nBring out the klaxon...\n\n🚨🚨Thursday Rant🚨🚨\n\nWe're all aware of 'shrinkflation' the ever decreasing size of various grocery items:\n📉 Tins of Quality Street getting ever smaller\n📉 King Size Mars Bars that are now the size of Fun Size from when we were kids\n📉 Grab bags of crisps that are well, normal size packs of crisps\n\nI have a modicum of acceptance of some of these. You may have one or two less sweets or crisps and it helps with the waist size. But... I saw an abomination in Tesco last night. One that really triggered my mild OCD.\n\nLook at number of tea bags in the boxes in the image below. Look closely.\n🫖 Small box - 40 tea bags - perfectly reasonable\n🫖 Large box - 160 tea bags - pretty standard\n🫖 Medium box - 70 (SEVENTY!) tea bags - WHAT ARE YOU DOING!\n\nI don't know about you but shrinkflation isn't going to make me have less cups of tea in a day so reducing the box size does absolutely nothing, I'm just going to buy more boxes which in all likelihood means more packaging waste. Just put the prices up a bit!!\n\nSeventy tea bags, i'm still shaking my head. Have them in neat multiples.\n\nAnyway, if you're a business contemplating shrinkflation perhaps making other areas of your business more efficient could stop you upsetting your customers with random quantities of items in boxes.\n\nIf you need a more efficient cloud based ERP system to help you manage your costs and get better control of your business and you want it in quick then get in contact and let me help you.",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1775126658861,
+        "date": "2026-04-02T10:44:18.861Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFZK8G82BmpeA/feedshare-image-high-res/B4EZ1NyzjJHYAU-/0/1775126657620?e=1786579200&v=beta&t=i72ToxjBezAtol09IuJF_gIVXciuR4m_SQdC132ogus",
+          "width": 1536,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7445420845767974912",
+        "likes": 6,
+        "comments": 4,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7442913090125357056",
+      "entityId": "7442913090125357056",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_it-was-great-to-be-here-yesterday-and-not-activity-7442913090125357056-SuVm",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7442913089311686658",
+      "shareUrn": "urn:li:ugcPost:7442913089311686658",
+      "content": "It was great to be here yesterday and not have to worry about the performance on the pitch!\n\nThe Network My Club Fratton Park event is always a good one and had a couple of interesting conversations (not the ones about Pompey)",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1774528763324,
+        "date": "2026-03-26T12:39:23.324Z",
+        "postedAgoShort": "4mo",
+        "postedAgoText": "4 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEy_X6oaeULQQ/feedshare-image-high-res/B4EZ0qKAwsI4AY-/0/1774528761634?e=1786579200&v=beta&t=9A9fbqsK6PeB8NMaQczqD4jaw2fubSZKZRYY5BlHg4g",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQElp3gjdri3Kg/feedshare-image-high-res/B4EZ0qKAt8JUAY-/0/1774528761360?e=1786579200&v=beta&t=N5TzcIFXzs4trZAVvMp0rbYUAmR2WdIsjugILc_Kh3g",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7442913089311686658",
+        "likes": 32,
+        "comments": 11,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 26
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7432837400743161856",
+      "entityId": "7432837400743161856",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_whats-your-website-going-to-be-called-mike-activity-7432837400743161856-ZkZ8",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7432837399891783681",
+      "shareUrn": "urn:li:share:7432837399891783681",
+      "content": "Domain names - do you need them for your business?\n\nI was having a chat with someone today that are setting up a new company, they've picked the name, registered the company but the .com domain for their actual company name isn't available.\n\nInstead they've picked a hyphenated domain and chosen an extended form of part of their company name with a .com on the end, so it's not really their company name at all but they've also got the .co.uk version of \"not their company name\"\n\nThey're UK based so I checked the obvious and their exact company name .co.uk was available, for less than £4 per year. They're aware and didn't want it.\n\nThis isn't my area of expertise but admit to being a bit puzzled. It brought to mind the video below.\n\nWould you go for the .co.uk for your actual company name or ignore it entirely?\n\nhttps://lnkd.in/eYXAtVcM",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1772126531778,
+        "date": "2026-02-26T17:22:11.778Z",
+        "postedAgoShort": "5mo",
+        "postedAgoText": "5 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "What’s your website going to be called? Mike sniffs out another on The Apprentice",
+        "subtitle": "youtube.com",
+        "link": "https://www.youtube.com/shorts/YBzH0InZrdA",
+        "linkLabel": "Open video: What’s your website going to be called? Mike sniffs out another on The Apprentice on youtube.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/sync/v2/D4E27AQG_YGFKsVUgMg/articleshare-shrink_1280_800/B4EZya951_H8AQ-/0/1772126445538?e=1785877200&v=beta&t=9sybCPreHuxdZb3xoLIPBHGhMLqVH6swYA75rp1Qx_k",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7432837400743161856",
+        "likes": 1,
+        "comments": 7,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7447626630769831936",
+      "entityId": "7447626630769831936",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_how-to-calculate-business-central-consolidation-activity-7447626630769831936-sLxa",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7447626628437798913",
+      "shareUrn": "urn:li:share:7447626628437798913",
+      "content": "How easy is it to get access to the data in Business Central, manipulate it and then push it back into Business Central? Very Easy!\n\nI've recently been doing some work with a group of companies to help them workout their consolidation eliminations. Using completely standard functionality in Business Central and Excel we've built a working solution.\n\nI've covered a lot of the framework in this blog:\n\nhttps://lnkd.in/e54uMazt",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1775652558987,
+        "date": "2026-04-08T12:49:18.987Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "How to Calculate Business Central Consolidation Eliminations",
+        "subtitle": "quickdynamics.co.uk",
+        "link": "https://quickdynamics.co.uk/how-to-calculate-business-central-consolidation-eliminations/",
+        "linkLabel": "Open article: How to Calculate Business Central Consolidation Eliminations by quickdynamics.co.uk",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/sync/v2/D4E27AQEJ_YD1VBP3GQ/articleshare-shrink_800/B4EZ1tI4ukH0AI-/0/1775652540032?e=1785877200&v=beta&t=fM6BVluYr2xPR7Puv7W_F_vZgVcJeQpsEbd4BsIPOjs",
+          "width": 600,
+          "height": 600
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7447626630769831936",
+        "likes": 3,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7432046461451902977",
+      "entityId": "7432046461451902977",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_im-spending-the-day-in-chichester-today-activity-7432046461451902977-Ietx",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7432046460726120448",
+      "shareUrn": "urn:li:ugcPost:7432046460726120448",
+      "content": "I'm spending the day in Chichester today, an interesting city a lot of which was built by the Romans. They knew how to build things to last.\n\nA lot of the old Roman walls are still walkable (see pics).\n\nToday's meeting is a strategy planning session, I may not last as long as the Romans but I plan to be around for a long while!",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1771937957156,
+        "date": "2026-02-24T12:59:17.156Z",
+        "postedAgoShort": "5mo",
+        "postedAgoText": "5 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGbvDF1SQY6qQ/feedshare-shrink_1280/B4EZyPu3oyH8Ac-/0/1771937955034?e=1786579200&v=beta&t=ucKRx6MKUAZj7PAK8MRD__dKobvDm-COvJktvKEUsTI",
+          "width": 1280,
+          "height": 1706
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHlBzsfVaAzWw/feedshare-shrink_1280/B4EZyPu3zkGgAc-/0/1771937956019?e=1786579200&v=beta&t=RtOjSxrPew8HniEAJv_WF2IyzzjGA6TtYnqn4AaqxVs",
+          "width": 1280,
+          "height": 1706
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7432046460726120448",
+        "likes": 32,
+        "comments": 7,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 28
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7429790301550153728",
+      "entityId": "7429790301550153728",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_new-signing-alert-were-pleased-to-activity-7429790301550153728-jEXR",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7429790298580525056",
+      "shareUrn": "urn:li:ugcPost:7429790298580525056",
+      "content": "⚽ New Signing Alert ⚽ \n\nWe're pleased to share that Jake Hill has joined our growing team at Quick Dynamics as our new Business Central Support Consultant.\n\nJake is an Arsenal fan, but we’ve welcomed him anyway. Every team needs a bit of balance and apparently that includes bringing in someone who thinks the North London derby counts as a stressful day out.\n\nHe was offered the job the day after Arsenal walloped Pompey 4-1 and was gracious enough not to mention it at all. \n\nHe’s already settled in brilliantly, bringing enthusiasm, sharp thinking and the sort of calm focus that makes the rest of us wonder if he’s secretly been here for months. We're genuinely excited to have him here with us.\n\nPlease join us in giving Jake a warm welcome. Even if you support Spurs.",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1771400046718,
+        "date": "2026-02-18T07:34:06.718Z",
+        "postedAgoShort": "5mo",
+        "postedAgoText": "5 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEKGrYnpLu_yQ/feedshare-shrink_1280/B4DZxvq5z6HkAc-/0/1771400044489?e=1786579200&v=beta&t=_BRkNYBwqzGCJZu--ob1XFhV7AEXCzDXkeDIR7Dx894",
+          "width": 1280,
+          "height": 1706
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHtZhZHbNPZWg/feedshare-image-high-res/B4DZxvq5hMHAAU-/0/1771400043267?e=1786579200&v=beta&t=dVtN3y3X3so_deCuLxeE2UDozxq2wwqCMNxg-9Ji0lw",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7429790298580525056",
+        "likes": 85,
+        "comments": 23,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 57
+          },
+          {
+            "type": "PRAISE",
+            "count": 20
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7430264942626467840",
+      "entityId": "7430264942626467840",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_the-monthly-portsmouth-city-council-networking-activity-7430264942626467840-81jt",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7430264941712154624",
+      "shareUrn": "urn:li:ugcPost:7430264941712154624",
+      "content": "The monthly Portsmouth City Council networking meeting had a glow up today. There were 60+ of us at the Ottoman Kitchen.\n\nNo lunchtime buffets for us, pittas & grills all round. Lovely food and the most bling toilets in Portsmouth (visit to find out more!)\n\nGood to catch up with Mandy Magee, Steve Squires & Tom O'Malley and a host of others.",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1771513209969,
+        "date": "2026-02-19T15:00:09.969Z",
+        "postedAgoShort": "5mo",
+        "postedAgoText": "5 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEZ1MI1tDlb8w/feedshare-image-high-res/B4EZx2aliKJMAU-/0/1771513207877?e=1786579200&v=beta&t=j6nZD8SXGHOggM5v5JZNKHPyHpgeyUKHdG1Iogl5Dx0",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQG2rnF0suzVDw/feedshare-image-high-res/B4EZx2alZZGgAU-/0/1771513207591?e=1786579200&v=beta&t=hz8St7D6P4VP-hLtAv_Q57Rlgz7wGvm-Vk7CCA2YjbU",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7430264941712154624",
+        "likes": 21,
+        "comments": 18,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 18
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7448309075483873280",
+      "entityId": "7448309075483873280",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_businesscentral-msdyn365bc-erp-activity-7448309075483873280-bA78",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7448309074397458432",
+      "shareUrn": "urn:li:share:7448309074397458432",
+      "content": "I got Jake to review all of the new functionality released in Business Central 2026 Wave 1 and he's picked out his 5 favourite new features. Link in comments.\n\nIf you're frustrated with your archaic on-premise finance or ERP system why don't you get in contact and find out about some of the benefits of moving to a cloud based system.\n\n#BusinessCentral #MSDyn365BC #erp",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1775815266486,
+        "date": "2026-04-10T10:01:06.486Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHVLDNJxT3MjA/feedshare-image-high-res/B4EZ121omkH0AU-/0/1775815264978?e=1786579200&v=beta&t=Jo0xUZDIWD4pR5esAd5GedTptp9siTTg6GJcwsToeE4",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7448309075483873280",
+        "likes": 11,
+        "comments": 1,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    }
+  ]
+}

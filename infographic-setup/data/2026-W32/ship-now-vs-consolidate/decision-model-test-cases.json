@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "status": "synthetic_test_fixture",
+  "currency": "EUR",
+  "dayBasis": 365,
+  "warning": "Invented values for logic testing only. These are not business results.",
+  "decisionRules": {
+    "customerNeedByFirst": true,
+    "credibleServiceMissDefault": "ship_now",
+    "exceptionApproval": [
+      "KAM",
+      "Purchasing Manager"
+    ],
+    "missingOrStaleHardGate": "data_stop",
+    "automaticConsolidationRequires": [
+      "compatibility_pass",
+      "all_credible_scenarios_meet_need_by",
+      "all_credible_scenarios_meet_minimum_net_value",
+      "quotes_valid"
+    ]
+  },
+  "formulaContract": {
+    "freightSaved": "freightASeparate + freightBSeparate - freightConsolidated",
+    "incrementalWaitCost": "shipmentAValue * incrementalAnnualWaitRate * waitDays / dayBasis",
+    "netConsolidationValue": "freightSaved - incrementalWaitCost - incrementalHandling - incrementalRecovery",
+    "serviceSlackDays": "needByDay - etaDay",
+    "economicBreakEvenWaitDays": "(freightSaved - incrementalHandling - incrementalRecovery - minimumNetValue) / incrementalDailyWaitCost",
+    "fixtureAssumption": "The annual wait rate is incremental to the ship-now timeline. Replace it with actual timeline differences when this is not true."
+  },
+  "cases": [
+    {
+      "id": "GREEN_CONSOLIDATE",
+      "commonInputs": {
+        "needByDay": 16,
+        "freightASeparate": 800,
+        "freightBSeparate": 650,
+        "shipmentAValue": 30000,
+        "incrementalAnnualWaitRate": 0.24,
+        "incrementalHandling": 50,
+        "incrementalRecovery": 0,
+        "minimumNetValue": 0,
+        "compatibility": "pass",
+        "quotesValid": true
+      },
+      "scenarios": [
+        {
+          "name": "best",
+          "waitDays": 2,
+          "transitDays": 8,
+          "etaDay": 10,
+          "freightConsolidated": 980,
+          "freightSaved": 470,
+          "incrementalWaitCost": 39.45,
+          "netConsolidationValue": 380.55,
+          "serviceSlackDays": 6,
+          "economicBreakEvenWaitDays": 21.29,
+          "serviceGate": "pass"
+        },
+        {
+          "name": "base",
+          "waitDays": 3,
+          "transitDays": 9,
+          "etaDay": 12,
+          "freightConsolidated": 1050,
+          "freightSaved": 400,
+          "incrementalWaitCost": 59.18,
+          "netConsolidationValue": 290.82,
+          "serviceSlackDays": 4,
+          "economicBreakEvenWaitDays": 17.74,
+          "serviceGate": "pass"
+        },
+        {
+          "name": "worst",
+          "waitDays": 4,
+          "transitDays": 10,
+          "etaDay": 14,
+          "freightConsolidated": 1120,
+          "freightSaved": 330,
+          "incrementalWaitCost": 78.9,
+          "netConsolidationValue": 201.1,
+          "serviceSlackDays": 2,
+          "economicBreakEvenWaitDays": 14.19,
+          "serviceGate": "pass"
+        }
+      ],
+      "expected": {
+        "decision": "consolidate",
+        "reason": "All credible scenarios meet need-by and remain economically positive."
+      }
+    },
+    {
+      "id": "AMBER_SERVICE_ESCALATION",
+      "commonInputs": {
+        "needByDay": 16,
+        "freightASeparate": 850,
+        "freightBSeparate": 700,
+        "shipmentAValue": 25000,
+        "incrementalAnnualWaitRate": 0.24,
+        "incrementalHandling": 50,
+        "incrementalRecovery": 0,
+        "minimumNetValue": 0,
+        "compatibility": "pass",
+        "quotesValid": true
+      },
+      "scenarios": [
+        {
+          "name": "best",
+          "waitDays": 2,
+          "transitDays": 7,
+          "etaDay": 9,
+          "freightConsolidated": 1050,
+          "freightSaved": 500,
+          "incrementalWaitCost": 32.88,
+          "netConsolidationValue": 417.12,
+          "serviceSlackDays": 7,
+          "economicBreakEvenWaitDays": 27.37,
+          "serviceGate": "pass"
+        },
+        {
+          "name": "base",
+          "waitDays": 5,
+          "transitDays": 9,
+          "etaDay": 14,
+          "freightConsolidated": 1125,
+          "freightSaved": 425,
+          "incrementalWaitCost": 82.19,
+          "netConsolidationValue": 292.81,
+          "serviceSlackDays": 2,
+          "economicBreakEvenWaitDays": 22.81,
+          "serviceGate": "pass"
+        },
+        {
+          "name": "worst",
+          "waitDays": 8,
+          "transitDays": 11,
+          "etaDay": 19,
+          "freightConsolidated": 1200,
+          "freightSaved": 350,
+          "incrementalWaitCost": 131.51,
+          "netConsolidationValue": 168.49,
+          "serviceSlackDays": -3,
+          "economicBreakEvenWaitDays": 18.25,
+          "serviceGate": "fail"
+        }
+      ],
+      "expected": {
+        "defaultDecision": "ship_now",
+        "exceptionPath": "escalate",
+        "requiredApprovers": [
+          "KAM",
+          "Purchasing Manager"
+        ],
+        "reason": "The worst credible scenario misses need-by even though its economics remain positive."
+      }
+    },
+    {
+      "id": "RED_DATA_STOP",
+      "inputFlags": [
+        "customer_need_by_not_confirmed",
+        "supplier_latest_ready_date_missing",
+        "consolidated_quote_expired"
+      ],
+      "expected": {
+        "modelStatus": "data_stop",
+        "consolidationDecision": "not_authorized",
+        "operatingDefault": "do_not_newly_hold_shipment_a",
+        "requiredActions": [
+          "KAM confirms one authoritative customer need-by date",
+          "Purchasing obtains a credible supplier-ready range",
+          "Purchasing obtains a timestamped valid consolidated quote"
+        ]
+      }
+    }
+  ]
+}

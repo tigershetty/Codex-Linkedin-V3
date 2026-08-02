@@ -26,8 +26,8 @@ If the answer is only "an infographic," the prompt is not Holy Grail-ready.
 Use this flow for flagship 101 and AI-for-SC posts:
 
 1. **Audience job:** pick one job from `audience-intelligence.md`.
-2. **Reference fit:** use `top100-reference-intelligence.md`, `top100-caption-index.md`, `top100-visual-inventory.md`, `top100-contact-sheet.html`, `top100-visual-mechanics-index.md`, and, for RW03-RW12, `calendar-reference-adaptation-map-v1.md`. Run `node scripts/audit-calendar-reference-map.mjs` after editing the map.
-3. **Topic seed:** run `node scripts/compile-topic-seed.mjs {topic-or-slug}` to get a compact audience/promise/format/mechanics starter plus shortlisted Top-100 image-caption references.
+2. **Reference decision:** first name the strongest packaging/evidence lane. Use the Top-100 indexes and calendar map only when a curated-success mechanic materially improves the accepted topic; otherwise record `Top-100 not used` and work from the stronger Tiger, peer, public-pain, or primary-source mechanic. Run `node scripts/audit-calendar-reference-map.mjs` after editing the optional map.
+3. **Topic seed:** run `node scripts/compile-topic-seed.mjs {topic-or-slug}` when the calendar/Top-100 routing layer is relevant. Treat its shortlist as optional inspiration, not topic proof.
 4. **Holy Grail fit:** for flagship posts, read `holy-grail-visual-standard.md` and define the operating artifact, meeting moment, supply-chain scene, content backbone, module map, text lock, and logo plan.
 5. **Creative brief:** fill `templates/creative-brief-lite-template.md`.
 6. **Build package:** run `node scripts/build-visual-package.mjs data/{week}/{slug}`. This compiles the GPT Image 2 prompt, syncs the canonical prompt, compiles the lean creative packet, runs the creative-director score, and runs the strict audit.
@@ -46,10 +46,10 @@ The brief is deliberately small. It should carry only the logic GPT Image 2 need
 - audience job,
 - stop-scroll claim,
 - save trigger,
-- top-100 format,
-- caption pattern from `top100-caption-index.md`,
-- shortlisted visual references from `top100-visual-inventory.md` or `top100-contact-sheet.html`,
-- visual mechanics from `top100-visual-mechanics-index.md` or the selected reference image,
+- chosen evidence/packaging lane,
+- Top-100 format and caption pattern when used, otherwise `not used` plus the alternative mechanic,
+- shortlisted visual references when they genuinely help,
+- visual mechanics from the selected reference or the accepted operating artifact,
 - visual metaphor,
 - Holy Grail fit for flagship posts,
 - exact on-image text,
@@ -79,7 +79,7 @@ Before rendering, the prompt must pass all 8 checks:
 | Stop-scroll shape | The feed-size visual object is named: ladder, map, funnel, anatomy, formula, decision tree, etc. |
 | Save trigger | The image contains a reusable artifact: test, checklist, formula, map, prompt, template, or decision rule. |
 | Holy Grail fit | For flagship posts, the prompt defines the operating artifact, meeting moment, 3D/isometric supply-chain scene, content backbone, module map, and logo plan. |
-| Reference adaptation | The prompt names what to adapt from the top-100 references without copying subject matter. |
+| Reference adaptation | When a reference is used, the prompt names what to adapt without copying subject matter; otherwise it names the stronger evidence/artifact mechanic and records `Top-100 not used`. |
 | Visual mechanics | The prompt names concrete image mechanics: row schema, legend, metric strip, dotted rails, worked example, utility strip, or equivalent. |
 | Creative USP | The prompt states why this beats a generic LinkedIn infographic. |
 | Text discipline | On-image text is exact, short, and ranked by importance. |
@@ -106,15 +106,15 @@ The creative-director score can also be run directly:
 node scripts/score-creative-director.mjs data/{week}/{slug}
 ```
 
-It scores the brief, reference card, and GPT Image 2 prompt across audience payoff, stop-scroll tension, save utility, Top-100 adaptation, and renderer leverage. Minimum bar: 85/100 and no dimension below 16/20.
+It scores the brief, optional reference card, and GPT Image 2 prompt across audience payoff, stop-scroll tension, save utility, evidence/mechanic adaptation, and renderer leverage. Minimum bar: 85/100 and no dimension below 16/20.
 
-The preferred topic starter is:
+When the accepted topic is using the optional calendar/Top-100 routing layer, run:
 
 ```bash
 node scripts/compile-topic-seed.mjs supplier-flexibility-matrix
 ```
 
-This reads `calendar-reference-adaptation-map-v1.md`, `top100-visual-mechanics-index.md`, `top100-visual-inventory.md`, and `top100-caption-index.md`, then prints a compact seed with audience payoff, stop-scroll promise, power format, visual mechanics, reusable artifact, USP, and a shortlist of actual reference images/captions to inspect. Use it before filling `creative-brief-lite.md`.
+This reads `calendar-reference-adaptation-map-v1.md`, `top100-visual-mechanics-index.md`, `top100-visual-inventory.md`, and `top100-caption-index.md`, then prints a compact seed with audience payoff, stop-scroll promise, power format, visual mechanics, reusable artifact, USP, and a shortlist of actual reference images/captions to inspect. Use it before `creative-brief-lite.md` only in that optional route; otherwise begin from the accepted content brief and the stronger Tiger, peer, public-pain, primary-source, or artifact mechanic.
 
 Refresh the Top-100 visual routing layer with:
 
@@ -138,7 +138,7 @@ The lower-level compact packet compiler is:
 node scripts/compile-creative-packet.mjs data/{week}/{slug}
 ```
 
-This writes `creative-packet.md`. It is the lean handoff: audience payoff, stop-scroll reason, Top-100 adaptation, exact text, render instruction, and QA gate. Do not reopen the whole calendar, workbook, or long planning docs unless the topic itself changes.
+This writes `creative-packet.md`. It is the lean handoff: audience payoff, stop-scroll reason, selected evidence/reference mechanic, exact text, render instruction, and QA gate. Do not reopen the whole calendar, workbook, or long planning docs unless the topic itself changes.
 
 ## 5. Prompt Shape
 
@@ -277,7 +277,7 @@ Regenerate if:
 - the structure does not teach the idea in two seconds,
 - the save trigger is missing,
 - the prompt relied on adjectives instead of a specific visual metaphor,
-- the top-100 reference lesson is invisible.
+- a selected reference or evidence mechanic is named but invisible in the result.
 - a Holy Grail candidate loses the artifact-first composition during cleanup.
 
 Do not regenerate by adding more adjectives. Change the framework, reference lesson, or on-image artifact.

@@ -1,7 +1,7 @@
 # Shetty's Desk — Published Voice Reference (Deep Dive)
 **Version**: 2.0
-**Used by**: `/content` skill (Step 4: LinkedIn caption)
-**Purpose**: Voice anchor for deep dive LinkedIn captions. Load before writing any caption.
+**Status**: Historical Deep Dive examples only. Not a V4 caption template.
+**Purpose**: Preserve examples and anti-patterns from the archived Deep Dive pipeline. V4 writing follows `tiger-voice.md`, `references/tiger-source-gate-v1.md`, and the active channel skill.
 **Master voice**: Always read `tiger-voice.md` (workspace root) alongside this file. That file is the authority on Tiger's voice DNA. This file adds deep-dive-specific structure and audience calibration.
 
 ---
@@ -127,7 +127,8 @@ What makes it work:                       ← Three named bullets (narrative)
   their route. Error = personal income
   loss. Accountability is structural.
 
-My take: technology solves the wrong       ← Opinion: arguable
+Here's the thing most people miss:         ← Opinion: arguable
+technology solves the wrong
 problem when the process itself removes
 error at the source.
 
@@ -160,7 +161,7 @@ Three things McKesson had that others did not:
   for guaranteed fill rates, so the
   economics rewarded speed.
 
-My take: the GLP-1 story is not about
+My view on this is that the GLP-1 story is not about
 demand forecasting. It is about who
 built the infrastructure before demand
 arrived.
@@ -198,7 +199,7 @@ What changed:
   services earn 8-12% margin vs.
   1-3% in container freight.
 
-My take: Maersk is not becoming an
+If you look at the bigger picture, Maersk is not becoming an
 Amazon. It is becoming the company
 that makes Amazon-level delivery
 economics available to mid-market

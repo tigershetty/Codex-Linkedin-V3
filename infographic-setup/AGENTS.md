@@ -1,21 +1,30 @@
 # Infographic Setup — Active Agent Instructions
 
-This folder is the active LinkedIn content engine for Shetty's Desk.
+This folder is the active V4 audience-growth and content-production engine for Shetty's Desk.
 
 ## Start Here
 
-1. Read `../tiger-voice.md` for voice.
-2. Read `CLAUDE.md` for the current pipeline map and operational gotchas.
-3. Read `references/audience-intelligence.md`, `references/topic-selection-scorecard.md`, and `references/top100-reference-intelligence.md` before accepting a topic into production.
-4. Read `references/visual-engine-v2.md` before creating any new visual.
-5. Read `references/creative-engine-v3-lean.md` before creating or judging a GPT Image 2 prompt.
-6. For flagship visuals, read `references/holy-grail-visual-standard.md` before writing the prompt. The benchmark example is `data/2026-W28/supply-chain-resilience-os/visual.png`.
-7. For AI-for-SC flagship visuals/captions, read `references/workflow-learning-2026-07-08-demand-review-to-sequence-board.md` so the post starts with the input pack, tool artifact, meeting payoff, and deterministic logo plan.
-8. For AI-for-SC education posts, read `references/ai-creator-education-growth-playbook.md`, `references/ai-work-surfaces-benchmark-2026-07.md`, and `references/linkedin-creator-benchmark-50-2026.md`. Lead with one memorable supply-chain distinction, then teach the current execution layer: persistent method, connected context, specialized work, a control gate, a finished artifact, and operating cadence. Ordinary chat is a scratchpad, not the flagship capability story.
-9. Before animating any approved still, read `references/motion-engine-v1.md`. Motion is a layout-adaptive finishing lane, not a reusable EOQ animation template.
-10. Before a post or resource moves to the website, read `references/publish-resource-handoff-v1.md` and `references/publish-asset-spec-v1.md`.
-11. Use `references/master-calendar.md`, `references/101-plan.md`, and `references/ai-for-sc-plan-v2.md` as candidate banks, not as blind autopilot.
-12. Use `references/calendar-reference-adaptation-map-v1.md` to convert calendar candidates into reference-proven promises, power formats, and save triggers.
+1. Read `references/v4-audience-growth-operating-system.md`. It is authoritative for audience, cadence, channels, evidence, topic admission, and the Tiger source gate.
+2. Read `../tiger-voice.md` for voice and `references/tiger-source-gate-v1.md` for authenticity and provenance.
+3. Read `CLAUDE.md` for the current pipeline map and operational gotchas.
+4. Read `references/audience-intelligence.md` and `references/topic-selection-scorecard.md` before accepting a topic into production. Read `references/top100-reference-intelligence.md` only when curated-success packaging is being considered after qualification.
+5. Read `references/visual-engine-v2.md` before creating any new visual.
+6. Read `references/creative-engine-v3-lean.md` before creating or judging a GPT Image 2 prompt.
+7. For flagship visuals, read `references/holy-grail-visual-standard.md` before writing the prompt. The benchmark example is `data/2026-W28/supply-chain-resilience-os/visual.png`.
+8. For AI-for-SC flagship visuals/captions, read `references/workflow-learning-2026-07-08-demand-review-to-sequence-board.md` so the post starts with the input pack, tool artifact, meeting payoff, and deterministic logo plan.
+9. For AI-for-SC education posts, read `references/ai-creator-education-growth-playbook.md`, `references/ai-work-surfaces-benchmark-2026-07.md`, and `references/linkedin-creator-benchmark-50-2026.md`. Lead with one memorable supply-chain distinction, then teach the current execution layer: persistent method, connected context, specialized work, a control gate, a finished artifact, and operating cadence. Ordinary chat is a scratchpad, not the flagship capability story.
+10. Before animating any approved still, read `references/motion-engine-v1.md`. Motion is a layout-adaptive finishing lane, not a reusable EOQ animation template.
+11. Before a post or resource moves to the website, read `references/publish-resource-handoff-v1.md` and `references/publish-asset-spec-v1.md`.
+12. Use `references/master-calendar.md`, `references/101-plan.md`, and `references/ai-for-sc-plan-v2.md` as candidate banks, not as blind autopilot.
+13. Use `references/calendar-reference-adaptation-map-v1.md` as optional packaging intelligence after a topic passes V4 qualification. Its Top-100 patterns are curated-winner hypotheses, not causal proof.
+
+## V4 Pilot Cadence
+
+- Publish five LinkedIn posts per week as an evidence-led portfolio; do not force a fixed 2 × 101 plus 2 × AI allocation.
+- Spend 20–30 minutes on thoughtful, manual LinkedIn commenting on publishing days. Codex may prepare context but must not automate or publish comments.
+- Publish one Substack flagship every two weeks and three Substack Notes per week.
+- Build a website artifact only when it materially extends the post or article.
+- Measure LinkedIn, Substack, and website outcomes separately. Do not collapse them into one universal score.
 
 ## Current Visual Workflow
 
@@ -37,9 +46,12 @@ The goal is reference-fidelity first: a world-class editorial infographic, not a
 
 Before research, hooks, captions, or visuals:
 
+- run the public-evidence signal scan from `references/v4-audience-growth-operating-system.md`,
 - define the audience segment,
 - score the topic with `references/topic-selection-scorecard.md`,
-- define the top-100 reference fit: power format, caption promise, save trigger, and Shetty's Desk originality,
+- identify the strongest evidence/packaging lane; when Top-100 is genuinely useful, define its curated-winner mechanic hypothesis, and otherwise record `Top-100 not used` plus the stronger Tiger, peer, public-pain, or primary-source basis,
+- record the channel role: LinkedIn standalone, Substack pillar/support, website artifact, or an intentional combination,
+- create `tiger-source.md` from `templates/tiger-source-note-template.md` and pass `references/tiger-source-gate-v1.md` before final first-person copy,
 - define the Holy Grail fit for flagship visuals: operating artifact, meeting moment, supply-chain scene, content backbone, module map, and logo plan,
 - for AI-for-SC, define one core professional distinction and the execution architecture using `references/ai-creator-education-growth-playbook.md`; verify named capabilities with `references/ai-work-surfaces-benchmark-2026-07.md`, score the caption with `references/linkedin-creator-benchmark-50-2026.md`, and do not present ordinary file-upload chat as a sophisticated workflow,
 - create a content brief from `templates/content-brief-v2-template.md` for major posts,
@@ -54,10 +66,9 @@ Before research, hooks, captions, or visuals:
 - use MP4 for website motion previews and retain GIF for LinkedIn,
 - use `templates/weekly-signal-scan-template.md` when selecting a full week.
 
-The calendar is a candidate library. Audience demand, save utility, research strength, and Tiger's authority decide what actually gets built.
+The calendar is a candidate library. Audience pain, competitive and public evidence, artifact value, channel fit, and Tiger's approved judgment decide what actually gets built.
 
-For RW03-RW12, read `references/editorial-rebuild-next-12-weeks.md` before using the old calendar row.
-For RW03-RW12, also read `references/calendar-reference-adaptation-map-v1.md` before drafting the content brief or visual prompt.
+`references/editorial-rebuild-next-12-weeks.md` and `references/calendar-reference-adaptation-map-v1.md` preserve useful candidate and packaging work, but neither overrides V4 topic qualification.
 
 ## Rules
 
@@ -66,6 +77,7 @@ For RW03-RW12, also read `references/calendar-reference-adaptation-map-v1.md` be
 - Never install packages silently.
 - Keep generated artifacts traceable to a prompt, references, and a final comparison note.
 - Do not invent numbers, deltas, dates, or claims. Every load-bearing fact must come from the research brief or approved source material.
+- Do not invent Tiger's experience, anecdotes, conversations, results, or beliefs. Without a Tiger source note, research and neutral outlining may continue, but a flagship first-person caption or Substack issue is not final.
 - For motion, the first and final lossless frames must match the approved `visual.png` exactly. Never animate raw rectangular crops, approximate logos, or moving body text.
 - Preserve `visual.png` as the canonical master. For organic LinkedIn posts, use a native 1080 x 1350 visual or a non-cropping `visual-linkedin.png` companion when the master is taller than 4:5.
 - Never publish a draft caption or infer approval from a visual go-ahead. Website updates are the final stage after explicit caption and still approval.

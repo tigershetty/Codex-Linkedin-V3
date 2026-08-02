@@ -81,11 +81,13 @@ The Cobalt Grid source is two-color, but LinkedIn posts may occasionally need on
 
 ## 4. Reference-Fidelity Method
 
-Use the 100 reference images as a production grammar, not a mood board.
+Start with the accepted audience problem, proof, and operating artifact. Top-100 is an optional
+production grammar, not a mandatory mood board or topic gate. Read
+`references/top100-reference-intelligence.md` only when curated-success mechanics materially
+improve the information structure; otherwise record `Top-100 not used` and name the stronger
+Tiger, peer, public-pain, primary-source, or artifact mechanic.
 
-Before selecting references, read `references/top100-reference-intelligence.md`. The reference set now carries both image intelligence and caption intelligence: the visual format, stop-scroll promise, save trigger, and audience value artifact. Do not use references only for style.
-
-For every post, select **3 to 5 references**:
+When external references are useful, select only the minimum needed (normally **1 to 5**):
 
 | Reference type | Purpose |
 |---|---|
@@ -94,6 +96,9 @@ For every post, select **3 to 5 references**:
 | Craft reference | Typography, spacing, label economy, editorial confidence |
 | Brand reference | Cobalt Grid or Shetty's Desk anchor |
 | Optional tension reference | A contrasting composition that prevents sameness |
+
+A brand reference remains useful in either mode. A Top-100 structure or caption reference is not
+required when the operating artifact and evidence already provide a stronger visual grammar.
 
 Before prompting, write the post's visual move in one sentence:
 
@@ -320,7 +325,7 @@ Do not delete files without explicit approval. Instead:
 ## 9. Practical First Principles
 
 1. Start from the argument, not the decoration.
-2. Use the fewest inputs that preserve taste: 3 to 5 references, one brand frame, one strong prompt.
+2. Use the fewest inputs that preserve taste: zero to five justified external references, one brand frame, one strong prompt. Do not force Top-100 when the evidence/artifact mechanic is stronger.
 3. Make one structure dominate.
 4. Let the grid, type, and restraint create brand memory.
 5. Keep HTML rendering alive as a control, not as the default creative bottleneck.

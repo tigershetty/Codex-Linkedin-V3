@@ -1,0 +1,37 @@
+pass_id,field,item_n,exact_n,exact_agreement,gwet_ac1,category_count,expected_agreement,disagreement_pairs
+calibration,audience_specificity,16,12,0.75,0.6949,5,0.1807,AS5 <> AS2 | AS4 <> AS1 | AS2 <> AS5 | AS3 <> AS2
+calibration,entry_hook,16,15,0.9375,0.9293,8,0.1164,H8 <> H2
+calibration,job_promised,16,16,1,1,8,0.115,
+calibration,primary_proof,16,13,0.8125,0.7842,7,0.1312,P5 <> P6 | P1 <> P4 | P0 <> P3
+calibration,primary_artifact,16,11,0.6875,0.6446,6,0.1207,AR2 <> AR4 | AR1 <> AR3 | AR5 <> AR0
+calibration,platform_format,16,16,1,1,3,0.1133,
+calibration,primary_cta,16,14,0.875,0.8469,5,0.1836,C2 <> C1 | C7 <> C0
+calibration,content_class,16,13,0.8125,0.7782,6,0.1547,K3 <> K2 | K8 <> K4 | K2 <> K5
+calibration,problem_family,16,15,0.9375,0.9277,7,0.1351,PB9 <> PB11
+calibration,OC_INPUTS,16,14,0.875,0.8202,2,0.3047,no <> yes | yes <> no
+calibration,OC_STEPS,16,14,0.875,0.75,2,0.5,no <> yes
+calibration,OC_OUTPUT,16,14,0.875,0.8202,2,0.3047,no <> yes | yes <> no
+calibration,OC_VALIDATION,16,14,0.875,0.75,2,0.5,no <> yes
+calibration,DD_NEWS,16,15,0.9375,0.8951,2,0.4043,yes <> no
+calibration,DD_PROMOTION,16,15,0.9375,0.8792,2,0.4824,yes <> no
+calibration,DD_PERSONAL_AUTHORITY,16,15,0.9375,0.8792,2,0.4824,yes <> no
+calibration,DD_COMMENT_GATE,16,16,1,,1,,
+calibration,DD_EVERGREEN,16,15,0.9375,0.8792,2,0.4824,no <> yes
+holdout,audience_specificity,12,8,0.6667,0.5636,4,0.2361,AS3 <> AS2 | AS2 <> AS3
+holdout,entry_hook,12,10,0.8333,0.8112,8,0.1171,H7 <> H1 | H4 <> H5
+holdout,job_promised,12,11,0.9167,0.9019,6,0.1507,J7 <> J6
+holdout,primary_proof,12,11,0.9167,0.8982,5,0.1814,P1 <> P0
+holdout,primary_artifact,12,10,0.8333,0.8063,6,0.1396,AR5 <> AR0 | AR0 <> NA
+holdout,platform_format,12,12,1,1,2,0.1528,
+holdout,primary_cta,12,11,0.9167,0.8999,5,0.1675,C2 <> C3
+holdout,content_class,12,10,0.8333,0.8068,7,0.1372,K3 <> K5 | K3 <> K2
+holdout,problem_family,12,12,1,1,7,0.1319,
+holdout,OC_INPUTS,12,12,1,1,2,0.375,
+holdout,OC_STEPS,12,11,0.9167,0.8345,2,0.4965,yes <> no
+holdout,OC_OUTPUT,12,11,0.9167,0.858,2,0.4132,yes <> no
+holdout,OC_VALIDATION,12,11,0.9167,0.8345,2,0.4965,yes <> no
+holdout,DD_NEWS,12,12,1,1,2,0.375,
+holdout,DD_PROMOTION,12,10,0.8333,0.7,2,0.4444,yes <> no
+holdout,DD_PERSONAL_AUTHORITY,12,10,0.8333,0.7333,2,0.375,yes <> no
+holdout,DD_COMMENT_GATE,12,12,1,,1,,
+holdout,DD_EVERGREEN,12,10,0.8333,0.6757,2,0.4861,no <> yes

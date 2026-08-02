@@ -1,14 +1,15 @@
 # AI for Supply Chain — Topic Plan v2 (W21–W52)
-**Version**: 3.0
+**Version**: 4.0 candidate-bank status (2026-07-28)
 **Aligned with**: `references/101-plan.md` monthly themes
 **Used by**: `/ai-for-sc` skill (Step 2: Load Pre-Defined Use Cases)
-**Status**: Active from W21 (2026-06-07)
+**Status**: Active candidate bank; V4 weekly admission decides which entries, if any, are built
 
 ---
 
 ## How to Read This File
 
-Each week has two posts (Post A and Post B). Every post entry specifies:
+Each historical plan week contains Post A and Post B candidates. V4 may select neither, one, or
+both; the rows do not create a two-post quota. Every entry specifies:
 - **Role** — the specific SC role this post speaks to
 - **Tool** — the AI tool used (Claude / ChatGPT / Copilot / Gemini)
 - **Use Case** — the specific task or workflow the post covers
@@ -23,8 +24,9 @@ Each week has two posts (Post A and Post B). Every post entry specifies:
 - **Copilot** — Excel formulas, Power BI, Word/PowerPoint, in-file data analysis, Microsoft 365 workflows
 - **Gemini** — market research, trade compliance, multi-source search, web-linked data
 
-**Role diversity rule**: Each week uses 2 different SC roles.
-**Tool diversity rule**: Each week uses 2 different AI tools.
+**Portfolio diversity guidance**: when multiple AI candidates are selected, vary role, decision,
+evidence, and tool where that improves audience value. Do not force diversity or volume at the
+expense of the stronger practitioner problem.
 
 ---
 

@@ -1,0 +1,3150 @@
+{
+  "runId": "AE9LhU0kitWVH1NJW",
+  "datasetId": "gSYVSPJUXHOTPiGMm",
+  "offset": 0,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7487934057922809858",
+      "entityId": "7487934057922809858",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_this-month-3-of-my-linkedin-posts-died-in-activity-7487809945128579072-I1HQ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487809943874478080",
+      "shareUrn": "urn:li:share:7487809943874478080",
+      "content": "This month, 3 of my LinkedIn posts died in public. You'd think I'd lose my sh*t for a minute, right? Nah. I lost it for 392:\n\n66% below average. Cool. My ego immediately went: \n\n\"Am I a fraud now? What if it was all a fluke?\" \n\nBut then I did an autopsy on all three:\n\n- My hooks led with insights and statements\n- I made the point about me entirely, not about you\n- Each post was missing a pivot, realization or shift\n- My closers and CTAs didn't call back to the hook\n- I used insider lingo, gating folks outside my bubble\n\nWell damn. I gain 1K followers a week. Get 25,000 impressions a post. I know what works: \n\n- A hook that drops you into the scene, not an insight\n- Start with my world, then bridge to my audience's\n- Have a clear villain, turning point or realization\n- Close the loop with a callback to my hook\n- Speak my audience's language (not mine)\n\n95% of my posts look like this:\n\nMoment → why it mattered → pivot → lesson → CTA\n\nSo why did these three flop? \n\nStupid simple: I put my expertise first, not my personality. \n\nWant my autopsy of your last post? \n\nShow me your shitties. I'll tell you what killed them.",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1785262598496,
+        "date": "2026-07-28T18:16:38.496Z",
+        "postedAgoShort": "10h",
+        "postedAgoText": "10 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFKA9RXYGLcvw/feedshare-shrink_1280/B56Z.oLd96IoAM-/0/1785233006762?e=1786579200&v=beta&t=bsVh2rvW81UjQTnBW59Sa7v2D3dUHNQaRHP1m5SQyR4",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "repostedBy": {
+        "name": "Magali De Reu",
+        "publicIdentifier": "magalidereu",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI"
+      },
+      "repostedAt": {
+        "timestamp": 1785262598496,
+        "date": "2026-07-28T18:16:38.496Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7487934057922809858?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7487934057922809858%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=aqzT0f3nKNntyRd%2FCTm06w%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "text": "Magali De Reu reposted this"
+      },
+      "engagement": {
+        "id": "7487809945128579072",
+        "likes": 281,
+        "comments": 220,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 203
+          },
+          {
+            "type": "EMPATHY",
+            "count": 45
+          },
+          {
+            "type": "PRAISE",
+            "count": 12
+          },
+          {
+            "type": "INTEREST",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485274337210609665",
+      "entityId": "7485274337210609665",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_last-year-i-refused-to-write-sales-posts-activity-7485274337210609665-eAye",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485274335771955200",
+      "shareUrn": "urn:li:share:7485274335771955200",
+      "content": "Last year, I REFUSED to write sales posts. F*cking cringe, man. $498K later, I use my own damn system:\n\nP.R.O.M.O, the one post framework that sells by showing, not selling.\n\nWrite your next post without playing cringe roulette ↓\n\n1 – Open with a personal moment + proof point\n\n- Pick one problem your ICP can't shut up about\n- Tie it to a real moment, yours or a client's\n- Stack the receipt right away\n\n→ \"Holy sh*t, my Amazon client just closed 25K from LinkedIn.\"\n\n2 – Reveal the true problem sitting underneath\n\n- Agitate it so the reader FEELS it too\n- Name a myth you can debunk\n- Show them what it's costing\n\n→ \"Nobody taught you to sell without sounding like a used car salesman.\"\n\n3 – Tie it to your process or way of working\n\n- Talk about the method you used (yours or a client's)\n- Stick to one method that solves the real problem\n\nLess choice = less friction.\n\n→ \"So I built a 5-step arc that does the pitching while you tell the story.\"\n\n4 – Back up your claims with receipts\n\nDrop stats and screenshots where skepticism kicks in. Numbers give them reasons to believe.\n\n→ \"Last month she turned down an $8K keynote. The $45K retainer attached to her last talk was a better use of her time.\"\n\n5 – One CTA that owns the sell\n\nFinish with ONE specific step. Don't ask for comments or LinkedIn will bury your post alive.\n\n→ \"Visit my website to join the waitlist. Or don't. I'm not your mom.\"\n\nThis is how I made $498K in sales, all from LinkedIn. My consultant clients LOVE it. One closed €14K after her first P.R.O.M.O post.\n\nThe best part? This post followed the arc to a tee. ✌️\n\nPS: In 2 hours, 2,200 subscribers are getting an invite that'll help them sell. Get on the list before a lead ghosts you again (website's up top)",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1784628471663,
+        "date": "2026-07-21T10:07:51.663Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGo6VtaVK31jw/feedshare-image-high-res/B4EZ.EJUKeJkAU-/0/1784628470596?e=1786579200&v=beta&t=i2cTyqwfOoHTVGg7h6V8-AnMkANEAMe0_RQlJoox-GY",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485274337210609665",
+        "likes": 235,
+        "comments": 150,
+        "shares": 10,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 171
+          },
+          {
+            "type": "EMPATHY",
+            "count": 29
+          },
+          {
+            "type": "PRAISE",
+            "count": 17
+          },
+          {
+            "type": "INTEREST",
+            "count": 14
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483055980742782976",
+      "entityId": "7483055980742782976",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_in-11-months-ive-made-480k-from-linkedin-activity-7483055980742782976-_g8X",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483055979706687488",
+      "shareUrn": "urn:li:share:7483055979706687488",
+      "content": "In 11 months, I've made $480K from LinkedIn. This is where I say 'it's not about the money,' right? Except I'm not full of sh*t:\n\nI'm autistic + ADHD. Whatever I can make easy, I will:\n\n- I fly business cause economy is SENSORY HELL\n- I book adult-only hotels cause toddlers wreck me\n- I pay pricey coaches cause bad advice costs more\n- I take spa days when my nervous system hits 404 \n- I love getting validation for my work (sue me)\n\nI'm so sick of these \"I don't need much\" coaches on here. Bruh, you charge $15K for a call. 😂\n\nIf you're premium, be f*cking proud of it, y'all.\n\nWhat's the weirdest anti-flex you've seen on here?",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1784099574266,
+        "date": "2026-07-15T07:12:54.266Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGReLAIVleLxQ/feedshare-shrink_1280/B4EZ9knwrsIkAQ-/0/1784099572782?e=1786579200&v=beta&t=f41mEEovGNddOs990q6BiPEA6IK-eAoOztzcI46asNQ",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483055980742782976",
+        "likes": 493,
+        "comments": 283,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 334
+          },
+          {
+            "type": "EMPATHY",
+            "count": 79
+          },
+          {
+            "type": "PRAISE",
+            "count": 53
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 20
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485988329348501505",
+      "entityId": "7485988329348501505",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_remotelife-activity-7485988329348501505-JoaD",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485988328031387648",
+      "shareUrn": "urn:li:share:7485988328031387648",
+      "content": "Holy sh*t, I've been doing LinkedIn all wrong. Bye bye, personal stories and infographics. My new winning strategy is to:\n\n- Call out people whining about AI in a post that's *definitely not* 100% AI\n\n- Brag about my simple, boring life while flexing a fake 7-figure lifestyle\n\n- Post \"10 Claude skills that'll change your life,\" knowing damn well they won't\n\n- Crown myself LinkedIn expert because the same narcissistic selfie pulls 1,000 likes\n\n- Hook with psycho rage-bait, land the most spineless take in human history\n\nAnyway, back to sipping coconuts in Bali because you know, #remotelife ✌️\n\nWhat's your favorite LinkedIn cliché right now?",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1784798700654,
+        "date": "2026-07-23T09:25:00.654Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGFUF4AWy65Yg/feedshare-image-high-res/B4EZ.OSt2iH8AY-/0/1784798699336?e=1786579200&v=beta&t=ci4h6j1ELzdPWyBIXAlsLFbZ16NyZmT498hKToV8MOo",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485988329348501505",
+        "likes": 483,
+        "comments": 315,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 273
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 139
+          },
+          {
+            "type": "EMPATHY",
+            "count": 47
+          },
+          {
+            "type": "PRAISE",
+            "count": 11
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483820087615983616",
+      "entityId": "7483820087615983616",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_thrilled-to-announce-i-cant-join-this-trend-activity-7483820087615983616-C0HP",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483820086839996416",
+      "shareUrn": "urn:li:ugcPost:7483820086839996416",
+      "content": "thrilled to announce i can't join this trend because i have nothing to announce",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1784281751541,
+        "date": "2026-07-17T09:49:11.541Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483820086839996416",
+        "likes": 857,
+        "comments": 276,
+        "shares": 9,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 426
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 365
+          },
+          {
+            "type": "PRAISE",
+            "count": 37
+          },
+          {
+            "type": "EMPATHY",
+            "count": 22
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477302157143179264",
+      "entityId": "7477302157143179264",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_last-thursday-i-thought-i-was-dying-it-activity-7477302157143179264-Ns6f",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477302155859697666",
+      "shareUrn": "urn:li:share:7477302155859697666",
+      "content": "Last Thursday, I thought I was dying. It wasn't my asthma. It was a gnawing feeling I hadn't had since my last job:\n\nTrapped, with no way out. The Europe heatwave got me scared sh*tless.\n\nMy fiancée has heart problems. I'm asthmatic. And I HATE that feeling of being trapped.\n\nSo we left. Bags half-packed, I booked a hotel room without hesitating. And I loved myself for it.\n\nSure, I had the money 5 years ago too. But I'd have thought twice. Then talked myself out of it.\n\nBack then, that Thursday would've looked like me:\n\n- Sweating in a 35°C flat, telling myself to toughen up.\n- Stressing about the time I wasn't spending working.\n- Counting which \"favors\" I'd have to cut that month.\n\nBecause back then my body wasn't mine to protect. A boss decided when I worked. A startup swallowed €80K of my unpaid work.\n\nLosing control isn't abstract for me. I've lived it. At school, at work, in rooms where being wired differently got punished.\n\nSo when the heat hit and my chest closed up? The panic wasn't about the weather. It was the old feeling. Trapped, without an exit or a say.\n\nI built a business that runs on my rules. And that business booked two scared, overheating people into a cold room without flinching.\n\nThat's the freedom nobody writes about on LinkedIn. You book the cold room when your body needs it. Because you can.\n\nMy fiancée and I both slept that night. Breathing.\n\nAnd I remembered I built this so my body would always be mine to protect.\n\nPS: That cold hotel room was paid for by posts. If you want the 3 that booked me clients while I slept, I'll break them down in my €1 workshop tomorrow.",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1782727755819,
+        "date": "2026-06-29T10:09:15.819Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQH8bCTcZMGa4w/feedshare-image-high-res/B4EZ8S2sM0HAAU-/0/1782727754882?e=1786579200&v=beta&t=5b7iuYfTpJ5KIbCXRBjKE1Cjx81OMVSnYuE55FZ9NPA",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477302157143179264",
+        "likes": 324,
+        "comments": 166,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 230
+          },
+          {
+            "type": "EMPATHY",
+            "count": 61
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 26
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481283928918736896",
+      "entityId": "7481283928918736896",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_im-thrilled-to-announce-we-are-still-not-activity-7481283928918736896-Jpyi",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481283927953879041",
+      "shareUrn": "urn:li:share:7481283927953879041",
+      "content": "i'm thrilled to announce we are STILL NOT OKAY",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1783677084188,
+        "date": "2026-07-10T09:51:24.188Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGCuRLs53vbow/feedshare-image-high-res/B4EZ9LcFwOJUAY-/0/1783677082926?e=1786579200&v=beta&t=FWdkbA7x6uvCM_b_6oa1imQ6JVzomzZ4pSb1NIsRmAk",
+          "width": 1197,
+          "height": 1467
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481283928918736896",
+        "likes": 228,
+        "comments": 117,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 120
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 94
+          },
+          {
+            "type": "EMPATHY",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480562178845167616",
+      "entityId": "7480562178845167616",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_i-will-never-do-the-4-hour-work-week-inefficient-activity-7480562178845167616-N7L4",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480562177704337408",
+      "shareUrn": "urn:li:share:7480562177704337408",
+      "content": "I will NEVER do the 4-hour work week. Inefficient? Bruh, I'm f*cking magnificent.\n\nEveryone told me to remove myself from delivery. Build systems and scale.\n\nWhat I realized $465,763 later? I AM the damn funnel:\n\n- I serve the truth your last Temu LinkedIn coach hid.\n- I use AI to accelerate my insane pattern recognition.\n- I write every post and community update myself.\n- I answer DMs and client questions personally.\n\nEverything else = an ecosystem built to protect that.\n\nWake up, babes. We're in an intimacy recession. Everything automatable gets automated. \n\nA real person who knows your name and your mess? Rarest thing on the market right now. \n\nFYI, that's a GOOD thing.\n\nWhat do you do that Claude can't?",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1783505005561,
+        "date": "2026-07-08T10:03:25.561Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQG6_EtVRs5vPw/feedshare-image-high-res/B4EZ9BLqhMIAAU-/0/1783505004928?e=1786579200&v=beta&t=BgQ0zWkd0eto7Y_KwQ3VzNDa7Cx8rk_2s7LMuonOtsM",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480562178845167616",
+        "likes": 465,
+        "comments": 227,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 346
+          },
+          {
+            "type": "EMPATHY",
+            "count": 67
+          },
+          {
+            "type": "PRAISE",
+            "count": 35
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 11
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483460047482621952",
+      "entityId": "7483460047482621952",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_day-4-on-linkedin-banned-for-being-too-weird-activity-7483460047482621952-B-Vz",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483460045976997888",
+      "shareUrn": "urn:li:share:7483460045976997888",
+      "content": "Day 4 on LinkedIn: banned for being too weird. Day 354: still too weird. The only thing that changed? These 5 unhinged rules:\n\n1/ My only metric is nausea\n\nComfortable posts = boring as f*ck. \n\nIf it doesn't scare me, I don't post it. That fear is the thing no competitor can clone in a prompt.\n\n2/ I rewrite every hook until it feels criminally honest\n\nEvery version sucks until the last one. I keep going until it's specific, 100% me, unswappable.\n\n(This hook was the 14th iteration)\n\n3/ I keep a file of my signature words like a serial killer\n\nThe best way to sound like you? Create your own signature word bank.\n\nI feed AI my weird md file. Every post stays Magali-coded. Some words that made the file:\n\n- labrador\n- unhinged\n- criminally honest\n- weaponize your weird\n\n4/ I comment like real me, not professional me\n\nI'm REALLY bad at small talk. I skip \"great post!\" and go unhinged.\n\n- I comment in lowercase (normal casing is weird AF)\n- I talk about not washing my hair for 6 days\n- I call BS on takes I disagree with.\n\n5/ I treat rude DMs as proof the brand is working\n\nEvery week, an idiot sandwich lands in my inbox to tell me what's wrong with my:\n\n- posts (\"you swear too much for a woman\")\n- photo (\"your tongue triggers creepy men\")\n- brand (\"you'll never get clients looking like that\")\n\nI screenshot it > smile > get back to writing.\n\nThe stuff that got me banned is the stuff that gets me paid. So post the thing you're scared to publish. ✌️\n\nPS: no energy for all this? I built a Claude skill + 2 tools that help your profile + posts look like a person who doesn't get banned (go to 'visit my website' ↑)",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1784195911284,
+        "date": "2026-07-16T09:58:31.284Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHvYfc_nWqwsg/feedshare-shrink_1280/B4EZ9qXQgOJ0AM-/0/1784195909967?e=1786579200&v=beta&t=yIkwF7O7nryNvwagP2uTtHEst8ZeNsfH9cgQZkEAdW4",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483460047482621952",
+        "likes": 250,
+        "comments": 160,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 177
+          },
+          {
+            "type": "EMPATHY",
+            "count": 47
+          },
+          {
+            "type": "PRAISE",
+            "count": 18
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 7
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485639066072305664",
+      "entityId": "7485639066072305664",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_on-sunday-this-loser-tried-to-steal-my-car-activity-7485639066072305664-YIWg",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485639064960856064",
+      "shareUrn": "urn:li:share:7485639064960856064",
+      "content": "On Sunday, this loser tried to steal my car. Today, they get the treatment I save for my LinkedIn copycats:\n\nI EXPOSE the sh*t out of them.\n\nThat morning, an alert hit my phone: \"suspicious activity around your vehicle.\"\n\nI watched the footage back. Full face, clear as day.\n\nCould've called the cops, eh? Nah. I wanted to expose him myself. Same energy I bring to LinkedIn thieves. \n\nThis year alone, people have stolen:\n\n- My entire orange and bold brand aesthetic\n- My tagline and LinkedIn headline, word for word\n- My Claude post that went viral, passed off as their own\n\nI don't \"report\" these thieves. That's lazy. I drag them, out in the open.\n\nSee, copycats always miss the same thing:\n\nYou can stare at my car. Screenshot my posts. Even copy every pixel of it.\n\nBut you'll NEVER show up like the loud labrador who owns it.\n\nAnd if I catch you stealing mine? You'll find out why my brand color is blood orange. ✌️",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1784715429800,
+        "date": "2026-07-22T10:17:09.800Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQH5nrtlEuj6kQ/feedshare-shrink_1280/B56Z.JVD.jGUAM-/0/1784715428312?e=1786579200&v=beta&t=MqAbGyft6tUtD0JhqzMoaJqpP4IN0gjAAGP9L5C3_f4",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485639066072305664",
+        "likes": 338,
+        "comments": 230,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 222
+          },
+          {
+            "type": "PRAISE",
+            "count": 43
+          },
+          {
+            "type": "EMPATHY",
+            "count": 35
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 22
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 10
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478388962059964417",
+      "entityId": "7478388962059964417",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_yesterday-someone-asked-me-if-i-liked-being-activity-7478388962059964417-w0ls",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478388960935993345",
+      "shareUrn": "urn:li:share:7478388960935993345",
+      "content": "Yesterday someone asked me if I liked being \"LinkedIn famous.\" LINKEDIN? Bishh, I want to be LABRADOR famous:\n\nI'm loyal to a fault. Obsessed with my clients' wins. Babbling til someone stops me and teaching them to do it too.\n\nWhich means there's shit I'll NEVER do:\n\n- Join pods so I look like a pretty + popular girl\n- Copy last week's viral format and call it mine\n- Beg y'all to grab my Ryanair-quality Claude skill\n- Perform vulnerability for likes, not because I feel it\n- Take brand deals that make me scream into a pillow\n\nSo no, I'm not a LinkedInfluencer. I want to be disgustingly USEFUL.\n\nLinkedIn famous makes you optimize for reach. Labrador famous though? That gets you PAID.\n\nWhich one are you chasing? ✌️",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1782986870303,
+        "date": "2026-07-02T10:07:50.303Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGJbrl2EqHlHQ/feedshare-shrink_1280/B4EZ8iTIgIKQAM-/0/1782986869101?e=1786579200&v=beta&t=4l4T01rMUOfOJaem2TIImmUBXsdQBLOQEgaRGvMHOXc",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478388962059964417",
+        "likes": 273,
+        "comments": 163,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 205
+          },
+          {
+            "type": "EMPATHY",
+            "count": 39
+          },
+          {
+            "type": "PRAISE",
+            "count": 20
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478708174577967106",
+      "entityId": "7478708174577967106",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_fck-your-impressions-and-followers-my-only-activity-7478708174577967106-f3_p",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478708173416271872",
+      "shareUrn": "urn:li:share:7478708173416271872",
+      "content": "F*ck your impressions and followers. My only LinkedIn metric? This exact chair: \n\nGot one too? Congrats, you've made it:\n\n- It's not automated (Claude can't smell-test jeans)\n- It skips folding (delegate what doesn't serve you)\n- It kills impulse decisions (always trust the process)\n- It's proof your system scales (chair → floor → bed)\n- It holds clothes in existential limbo (too clean to wash, too worn to hang)\n\nForget impressions. The only thing I'm pressing is these wrinkles into tomorrow's outfit.\n\nTruth or chair: how many layers is yours?",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1783062976498,
+        "date": "2026-07-03T07:16:16.498Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGy_0MU2SrgTw/feedshare-shrink_1280/B4EZ8m1c9aHMAQ-/0/1783062975484?e=1786579200&v=beta&t=XPIMHNAL4EV61YNxozAEdq1n1z1wzyPvK9Xs3-lpbp0",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478708174577967106",
+        "likes": 254,
+        "comments": 192,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 145
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 74
+          },
+          {
+            "type": "EMPATHY",
+            "count": 22
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482377654680195073",
+      "entityId": "7482377654680195073",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_last-week-i-killed-my-own-community-i-had-activity-7482377654680195073-GuMc",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482377652574552065",
+      "shareUrn": "urn:li:share:7482377652574552065",
+      "content": "Last week I killed my own community. I had 100 members, some signing $22K deals. But it was a lie:\n\nThe name was: \"Content to Gigs.\" Write content, get gigs. The classic shortcut, right?\n\nExcept I DESPISE shortcuts. Everything I do goes against them:\n\n- I help solopreneurs excavate the personality buried in their heads\n- I teach them discomfort is the signal to post, not to stop\n- I show them how to coin their own language\n\nWhat a hypocrite I was for diluting all that with a basic-*ss name.\n\nSure, it was working. Some signed high-ticket deals, others saw their impressions jump 1,251%.\n\nSo why change it? Because gigs were never the point. Becoming yourself is.\n\nTo me, personal branding has always been 80% identity work, 20% LinkedIn tactics.\n\nPutting yourself out there 100% raw is scary. But I promise ya: the more you do it, the more you become it.\n\nAnd the right people arrive already sold. They book the call saying \"I feel like I know you.\"\n\nThe Obvious Yes = what I want for every person in that room.\n\nWhy are you still posting like you should, instead of like who you are?\n\n---\n\nPS: if you want first dibs when community doors open, get on The Obvious Yes waitlist via 'visit my website' up top.",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1783937848730,
+        "date": "2026-07-13T10:17:28.730Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQE-_bNq1s6sJQ/feedshare-image-high-res/B4EZ9a.1CEIAAU-/0/1783937847728?e=1786579200&v=beta&t=bmyQEriBeK-pWE3rFLsfZBqVn2x_caXHtyqXhrBTqiU",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482377654680195073",
+        "likes": 329,
+        "comments": 155,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 228
+          },
+          {
+            "type": "EMPATHY",
+            "count": 68
+          },
+          {
+            "type": "PRAISE",
+            "count": 23
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480194814630637568",
+      "entityId": "7480194814630637568",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_last-july-i-never-knew-what-the-fck-to-activity-7480194814630637568-IgEd",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480194811849867264",
+      "shareUrn": "urn:li:share:7480194811849867264",
+      "content": "Last July, I NEVER knew what the f*ck to write about. 11 mil impressions later, I live and die by ONE rule:\n\nMoments FIRST.\n\nCoaches will sell you the craziest lies to make you sound smart.\n\n\"Post educational value.\" \n\"Lead with expertise.\"\n\"Find a content pillar.\"\n\nYou don't wanna sound smart. AI can beat you in a flash. Be relatable instead.\n\nFor the first time, I'm handing over my entire system:\n\n1/ Start with a moment, not an insight\n\nMy life is more boring than yours. I still never run out of things to write about. Some of my stuff last week:\n\n- Me not folding my laundry\n- Crying in front of 100 people on a call\n- Someone asking if I want to be LinkedIn famous\n\nIt's stupidly simple. And it WORKS.\n\n2/ Nail your core message\n\nOnce I have my moment, I build a rough skeleton around it.\n\nOne I wrote recently: “Yesterday, I ran a workshop breaking down the content that made me €28k. And then I started crying”. \n\nOnly halfway there. But it's a skeleton I can dress up.\n\n3/ Decide the goal + who it's for\n\nI don't buy top, middle, bottom of the funnel. Nobody scrolls LinkedIn thinking \"I'm in the consideration phase.\"\n\nMy only 3 buckets:\n\n- Personal: make them feel seen → attracts peers\n- Proof: show you can do it → attracts peers + ICP\n- Promo: trigger them to act now → converts your ICP\n\nMy best angles for each: https://lnkd.in/en9wCxMb\n\n4/ Draft the full post\n\nNow you write. All you need is the perfect STORM:\n\n- Stuck: your hook, a moment tied to a pain point\n- Thirst: agitate what happened + why it matters\n- Obstacle: the pivot or the villain in your story\n- Revelation: what you learned or what changed\n- Mirror: callback to the hook\n\nOne paragraph per bit, and the post formats itself.\n\nTry it here: https://lnkd.in/eqgnbCQe \n\n5/ Write your hook\n\nThis is your ONLY shot at pulling your audience in. The only way to do it: be specific.\n\nPLACE is my proven method for specific hooks. Pick at least 3 elements and make sure cost is one of them\n\nSteal the system here: https://lnkd.in/eiK5pjcy\n\n6/ Call back to your hook\n\nYour reader wants closure. Write the closer right after the hook so they connect. The only rule?  ONE simple action. \n\n- A statement if you want authority\n- A question if you want engagement\n- A soft or hard CTA if you want to sell\n\nWhile y'all hunt for the perfect angle, your best post already happened.\n\nYou just didn't write it down. ✌️\n\nPS: This afternoon, I'm dropping a Claude skill that pulls moments from your life. Newsletter subscribers get it first (hit 'visit website' up top)",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1783417419107,
+        "date": "2026-07-07T09:43:39.107Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEjfVZAZo00AQ/feedshare-image-high-res/B4EZ879g5zIcAY-/0/1783417417451?e=1786579200&v=beta&t=ZALehqZSBZkgEBXY3AUDD1dvNbypOCcd4Fq4iyHuw68",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480194814630637568",
+        "likes": 495,
+        "comments": 155,
+        "shares": 19,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 403
+          },
+          {
+            "type": "EMPATHY",
+            "count": 42
+          },
+          {
+            "type": "INTEREST",
+            "count": 29
+          },
+          {
+            "type": "PRAISE",
+            "count": 18
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487089091499425792",
+      "entityId": "7487089091499425792",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_9-months-ago-i-got-engaged-to-this-woman-activity-7487089091499425792-_3Eu",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487089090329407488",
+      "shareUrn": "urn:li:share:7487089090329407488",
+      "content": "9 months ago, I got engaged to this woman. But she doesn't give a f*ck about LinkedIn. So I'm leaving her...\n\n...out of all of this. Not my life, duh. This CIRCUS. We're opposites down to the wiring:\n\n- She's calm and introverted, I'm a labrador.\n- She's the peacekeeper, I ruffle feathers.\n- She dreams, I act mid-sentence.\n\nMy partner is in interior design. She's never read a hook in her life. But I wouldn't want her to. \n\nThis app can turn you into a mess. Building it from a home office gets lonely. She's there when I:\n\n- Spiral over some douche waffle hate-DMing me\n- Want to blow it all up when the algo's on a bender\n- Call the bank hysterical because I lost my card again\n\nShe's never once asked about my impressions. Only whether I'm okay behind them.\n\nSo nope, the algorithm doesn't get to touch her.\n\nAnd next year, I get to marry her. 🧡",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1785061142802,
+        "date": "2026-07-26T10:19:02.802Z",
+        "postedAgoShort": "2d",
+        "postedAgoText": "2 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFCBBeHOtiRQQ/feedshare-image-high-res/B4EZ.d720.JYAU-/0/1785061142200?e=1786579200&v=beta&t=PxjnRgbuQ8_gzFk8g1Hjh_40PqKHmC9A0GvDP27gIg0",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487089091499425792",
+        "likes": 684,
+        "comments": 173,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 368
+          },
+          {
+            "type": "EMPATHY",
+            "count": 231
+          },
+          {
+            "type": "PRAISE",
+            "count": 57
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 23
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487809945128579072",
+      "entityId": "7487809945128579072",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_this-month-3-of-my-linkedin-posts-died-in-activity-7487809945128579072-I1HQ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487809943874478080",
+      "shareUrn": "urn:li:share:7487809943874478080",
+      "content": "This month, 3 of my LinkedIn posts died in public. You'd think I'd lose my sh*t for a minute, right? Nah. I lost it for 392:\n\n66% below average. Cool. My ego immediately went: \n\n\"Am I a fraud now? What if it was all a fluke?\" \n\nBut then I did an autopsy on all three:\n\n- My hooks led with insights and statements\n- I made the point about me entirely, not about you\n- Each post was missing a pivot, realization or shift\n- My closers and CTAs didn't call back to the hook\n- I used insider lingo, gating folks outside my bubble\n\nWell damn. I gain 1K followers a week. Get 25,000 impressions a post. I know what works: \n\n- A hook that drops you into the scene, not an insight\n- Start with my world, then bridge to my audience's\n- Have a clear villain, turning point or realization\n- Close the loop with a callback to my hook\n- Speak my audience's language (not mine)\n\n95% of my posts look like this:\n\nMoment → why it mattered → pivot → lesson → CTA\n\nSo why did these three flop? \n\nStupid simple: I put my expertise first, not my personality. \n\nWant my autopsy of your last post? \n\nShow me your shitties. I'll tell you what killed them.",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1785233007700,
+        "date": "2026-07-28T10:03:27.700Z",
+        "postedAgoShort": "10h",
+        "postedAgoText": "10 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFKA9RXYGLcvw/feedshare-shrink_1280/B56Z.oLd96IoAM-/0/1785233006762?e=1786579200&v=beta&t=bsVh2rvW81UjQTnBW59Sa7v2D3dUHNQaRHP1m5SQyR4",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487809945128579072",
+        "likes": 281,
+        "comments": 220,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 203
+          },
+          {
+            "type": "EMPATHY",
+            "count": 45
+          },
+          {
+            "type": "PRAISE",
+            "count": 12
+          },
+          {
+            "type": "INTEREST",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481636689799544833",
+      "entityId": "7481636689799544833",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_this-newsletter-subscriber-thought-my-content-activity-7481636689799544833-UiIe",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481636688767729664",
+      "shareUrn": "urn:li:share:7481636688767729664",
+      "content": "This newsletter subscriber thought my content was getting mediocre. So I spiced up his life with a Google Doc on basic human manners. 🥰",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1783761188936,
+        "date": "2026-07-11T09:13:08.936Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHgIAHweUkQSA/feedshare-image-high-res/B4EZ9Qc7HcIAAU-/0/1783761187599?e=1786579200&v=beta&t=_ITi1TCTZiYKUU7Y_yJZEVT-iIv8faolFgDk5vC33WI",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481636689799544833",
+        "likes": 235,
+        "comments": 120,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 116
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 64
+          },
+          {
+            "type": "PRAISE",
+            "count": 31
+          },
+          {
+            "type": "EMPATHY",
+            "count": 14
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480929582762774528",
+      "entityId": "7480929582762774528",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_holy-sht-theres-40000-of-you-best-year-activity-7480929582762774528-syOB",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480929581781368832",
+      "shareUrn": "urn:li:share:7480929581781368832",
+      "content": "Holy sh*t, there's 40,000 of you. Best year of my career, easily. So why the hell am I losing all my friends?\n\nBetween 7K and 40K, this is my \"success story\":\n\n- Friends building families while I build my brand.\n- I go to concerts feeling Thrivecart buzz in my bag\n- I'm the last to arrive, first to leave at every gathering\n\nThe more I grow, the more my circle keeps shrinking.\n\nMy wedding invitation list gets shorter every year.\n\nI used to think \"becoming successful\" meant everyone would finally get it. Finally stop side-eyeing my choices.\n\nNope. Success just made the contrast louder.\n\nThe people who knew me before? Some couldn't handle the version I stopped hiding.\n\nThe AuDHD brain on full display. The unfiltered takes. The labrador energy that doesn't have an off switch.\n\nI'm not mad at them. Okay, maybe a little. Mostly we just outgrew each other.\n\nBut man, nobody warned me that 40,000 strangers cheering would feel lonelier than 7,000 and a full dinner table.\n\nAnyone else?",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1783592601481,
+        "date": "2026-07-09T10:23:21.481Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGrto19sbU83w/feedshare-shrink_1280/B4EZ9GZ0JCKIAM-/0/1783592600467?e=1786579200&v=beta&t=WJo0JmyJIgw8B1RfJV4bacMU5wV-KPUAEe8Zpz9Mj88",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480929582762774528",
+        "likes": 543,
+        "comments": 275,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 372
+          },
+          {
+            "type": "EMPATHY",
+            "count": 80
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 61
+          },
+          {
+            "type": "PRAISE",
+            "count": 22
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479831710629621760",
+      "entityId": "7479831710629621760",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_3-years-ago-i-called-the-crisis-line-their-activity-7479831710629621760-SjNY",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479831709509865472",
+      "shareUrn": "urn:li:share:7479831709509865472",
+      "content": "3 years ago, I called the crisis line. Their reaction? \"Wow, your life really DOES suck.\" Then the line disconnected.\n\n2023 was the worst year of my life. Partner gone, clients gone, hospitalized in Spain after trying to kill myself.\n\nA few weeks later, I called the hotline from my own bed. They confirmed my belief that my life was a dumpster fire. Then the line disconnected. \n\n(By accident, I think. I hope.)\n\nI was baffled. Then I started laughing hysterically.\n\nI remember thinking: no one is coming to save me. I am pretty much all I have left.\n\nSo I started FIGHTING like a maniac instead:\n\n- Trauma therapy 3x/week until I wanted to puke \n- A surf retreat where I sobbed through breathwork while strangers held space\n- 2am walks around the block because sitting alone in silence felt like dying\n\nSlowly, I built the stable foundation I'd been holding everyone else accountable for.\n\nHas it been all rainbows and unicorns since? F*ck no.\n\nI lost €100K on a startup 2 years later. Setbacks that would've sent old me right back to that hospital bed.\n\nBut I never felt suicidal again. \n\nI'm not saying 'just fix yourself.' I'm saying this:\n\nDon't wait for rock bottom to start fighting for yourself. I did. And I wish someone had told me: \n\nNo one owes you peace. It's yours to f*cking make.\n\nWhat part of your life sucks enough to change?",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1783330848367,
+        "date": "2026-07-06T09:40:48.367Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGDIq14L6Gi2Q/feedshare-shrink_1280/B4EZ82zTeIHwAM-/0/1783330846945?e=1786579200&v=beta&t=_kUGnl9uXLphJfQDosEBdHXA1wAMlvPSA__kOU9_TBo",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479831710629621760",
+        "likes": 632,
+        "comments": 223,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 347
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 156
+          },
+          {
+            "type": "EMPATHY",
+            "count": 94
+          },
+          {
+            "type": "PRAISE",
+            "count": 29
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487872104487444480",
+      "entityId": "7487872104487444480",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_this-month-3-of-my-linkedin-posts-died-in-activity-7487809945128579072-I1HQ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487809943874478080",
+      "shareUrn": "urn:li:share:7487809943874478080",
+      "content": "This month, 3 of my LinkedIn posts died in public. You'd think I'd lose my sh*t for a minute, right? Nah. I lost it for 392:\n\n66% below average. Cool. My ego immediately went: \n\n\"Am I a fraud now? What if it was all a fluke?\" \n\nBut then I did an autopsy on all three:\n\n- My hooks led with insights and statements\n- I made the point about me entirely, not about you\n- Each post was missing a pivot, realization or shift\n- My closers and CTAs didn't call back to the hook\n- I used insider lingo, gating folks outside my bubble\n\nWell damn. I gain 1K followers a week. Get 25,000 impressions a post. I know what works: \n\n- A hook that drops you into the scene, not an insight\n- Start with my world, then bridge to my audience's\n- Have a clear villain, turning point or realization\n- Close the loop with a callback to my hook\n- Speak my audience's language (not mine)\n\n95% of my posts look like this:\n\nMoment → why it mattered → pivot → lesson → CTA\n\nSo why did these three flop? \n\nStupid simple: I put my expertise first, not my personality. \n\nWant my autopsy of your last post? \n\nShow me your shitties. I'll tell you what killed them.",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1785247827646,
+        "date": "2026-07-28T14:10:27.646Z",
+        "postedAgoShort": "10h",
+        "postedAgoText": "10 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFKA9RXYGLcvw/feedshare-shrink_1280/B56Z.oLd96IoAM-/0/1785233006762?e=1786579200&v=beta&t=bsVh2rvW81UjQTnBW59Sa7v2D3dUHNQaRHP1m5SQyR4",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "repostedBy": {
+        "name": "Magali De Reu",
+        "publicIdentifier": "magalidereu",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI"
+      },
+      "repostedAt": {
+        "timestamp": 1785247827646,
+        "date": "2026-07-28T14:10:27.646Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7487872104487444480?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7487872104487444480%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=7G5XVtS0qsL%2FpQJDOPsMfg%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "text": "Magali De Reu reposted this"
+      },
+      "engagement": {
+        "id": "7487809945128579072",
+        "likes": 281,
+        "comments": 220,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 203
+          },
+          {
+            "type": "EMPATHY",
+            "count": 45
+          },
+          {
+            "type": "PRAISE",
+            "count": 12
+          },
+          {
+            "type": "INTEREST",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479480103731699712",
+      "entityId": "7479480103731699712",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_im-about-to-piss-off-50-of-linkedin-but-activity-7479480103731699712-_WPa",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479480102473469952",
+      "shareUrn": "urn:li:share:7479480102473469952",
+      "content": "I'm about to piss off 50% of LinkedIn but: stop taking advice from creators who only teach what worked for THEM.\n\nI read a Substack from a 100K creator yesterday. Their honest take: \"Lead with expertise, not personality.\"\n\nI've seen dozens of these posts last month alone. But these creators:\n\n- Were first movers in marketing or AI\n- Built a biz when skill alone was a differentiator\n- Got known before everyone had AI tools in their pocket\n\nAnd now they're charging $50K for courses teaching those methods. What they don't mention? It worked because they got there FIRST. \n\nProblem is, you can't buy 2022. Claude hands out expertise for free now.\n\nFor the rest of us swimming in a sea of 50,000 consultants saying the same shit? Your weird is the only thing Claude can't copy.\n\nI sell a personality-first methodology too. But I teach for the market that exists NOW. That means:\n\n- Excavate your personality, then layer it on expertise\n- Package it into a framework only YOU can sell\n- Master LinkedIn and email writing FIRST\n\nThis is how I built a six-figure business on LinkedIn. It's also how I helped a recent Netflix leaver and 100+ solo consultants at 2K followers do the same.\n\nWhat I will NEVER teach? The unhinged labrador energy. The AuDHD brain on full display. That's not a method, it's just me.\n\nSo before you buy a 100K creator's $50K playbook, ask: \n\nAre they teaching what works, or what worked for them? ✌️",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1783247018750,
+        "date": "2026-07-05T10:23:38.750Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGRPBfQnPzK5A/feedshare-shrink_1280/B4EZ8xzhRCHkAM-/0/1783247017295?e=1786579200&v=beta&t=GUUFIwiogL_0PunE0t0wkdIdqwx1VR5TnHZNQb7KjGk",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479480103731699712",
+        "likes": 238,
+        "comments": 120,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 169
+          },
+          {
+            "type": "EMPATHY",
+            "count": 32
+          },
+          {
+            "type": "PRAISE",
+            "count": 14
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 10
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482728300797210625",
+      "entityId": "7482728300797210625",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_a-6-figure-creator-just-called-me-a-h00ker-activity-7482728300797210625-wqUt",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482728299543117824",
+      "shareUrn": "urn:li:share:7482728299543117824",
+      "content": "A 6-figure creator just called me a h00ker. He's right. After seducing 8 million, here are my favorite buyer psych triggers ↓\n\nLinkedIn coaches treat hooks like neurosurgery. Babes, it's patterns with a potty mouth.\n\nI use PLACE to make my hooks stupidly specific. But on top of that? I rotate these 5 buyer psychology triggers to get y'all to do whatever the f*ck I want:\n\n1/ Garden-path effect creates instant investment\n\nWrite a first line that reads one way, then flip the meaning with the next.\n\n\"[A line that means one thing]. [The turn that reveals you meant another].\"\n\nThe flip forces a re-read. Someone who just caught the twist feels smart = they keep scrolling.\n\nI use this when I'm about to get vulnerable and need a soft way in. Lures them past their defenses before they realize they're about to feel something.\n\n2/ Expectation subversion gets them in the comments\n\nName the advice everyone parrots, break it, show the receipts.\n\n\"[The rule everyone repeats]. [Your proof it's wrong]. [What you did instead].\"\n\nYou're picking a fight with a belief they hold. They'll comment to argue or to cheer. \n\nThis one's my chaos gremlin for when I want smoke.\n\n3/ Self-disclosure reciprocity builds trust\n\nShow the win everyone sees, then admit the private cost behind it.\n\n\"[The public flex]. [The thing behind it you don't say out loud].\"\n\nYou go first with something real. They drop their guard because you dropped yours.\n\nFYI, people don't connect with your wins. They connect with what your wins cost you.\n\n4/ Time contrast makes them believe in you\n\nPut two moments side by side. Same you, different chapter.\n\n\"At [then], I [low point]. At [now], I [where you are]. [The line that ties them].\"\n\nTwo timestamps do the selling. The distance you covered is proof it's possible for them too.\n\nComeback fuel, baby. \n\n5/ Pratfall effect makes them want to buy\n\nDrop a real number to flex, then pair it with a flaw you're not hiding.\n\n\"[Real result with a specific number]. [The messy, human detail right next to it].\"\n\nA flex on its own reads like bragging. A flex with a visible crack reads like a person. Competence plus one honest flaw makes you look human. \n\n5 triggers, exposed like your browser history. Now you know how I get y'all to stop, read, and slide into my DMs. ✌️\n\nPS: These hook angles are part of the Content Miner, my Claude skill. Grab that and 2 custom tools to fix your ugly a$s profile + positioning (website up top).",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1784021449279,
+        "date": "2026-07-14T09:30:49.279Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFb-aefUvFd_A/feedshare-image-high-res/B4EZ9f9rLlK4AU-/0/1784021445673?e=1786579200&v=beta&t=5OYWFPU-hEsXu2tJyng7rVJB0qUeyOZDZEq7uWqDxlc",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482728300797210625",
+        "likes": 318,
+        "comments": 168,
+        "shares": 11,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 256
+          },
+          {
+            "type": "EMPATHY",
+            "count": 30
+          },
+          {
+            "type": "INTEREST",
+            "count": 20
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477666459058536448",
+      "entityId": "7477666459058536448",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_last-july-my-partner-joked-she-was-dating-activity-7477666459058536448-YlD-",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477666457657679872",
+      "shareUrn": "urn:li:share:7477666457657679872",
+      "content": "Last July, my partner joked she was dating my laptop. Neither of us laughed. But last week, I made €7K from ONE digital product while we picked wedding flowers:\n\nUntil January, I averaged 10 coaching leads a week from LinkedIn. Great money, but I was overworked and tired of one platform holding all my income.\n\nSo I asked Jacob Pegs to help me build a full product ecosystem. Since February, I've made 72K in sales from 4 digital products, one cohort, and one community.\n\nHere's the weekly system behind it:\n\n/1 2 of my 5 LinkedIn posts grow the email list\n\nEvery post opens with a personality-first hook. Non-negotiable. But 2 of them funnel people to my list through a soft CTA: \"Visit my website up top\" or \"DM me a keyword.\"\n\n/2 One post tanks my reach on purpose\n\nThe algorithm hates external links. I do it anyway. Once a week I link straight to a product, workshop, or community.\n\nReach craters, sales don't. The people who click are ready to buy. Everyone else was never going to.\n\n/3 I email daily (yes, really)\n\nI'll always love LinkedIn. But the algo decides who sees my work. Email? That's mine.\n\nPeople unsubscribe, sure. That filters out anyone without intent. I rotate 5 types, and every one opens with a real moment.\n\n____\n\nStory + specificity = 55% open rate, 8% click rate. Industry average is 21% and 2.5%, and I'm not even trying to be humble about beating it.\n\nIt started with a €29 product and 274 subs. Now I have 2,100, they've bought 40K worth of products, and three became 15K coaching clients.\n\nAll from my personality-first approach combined with Jacob's ascension build.\n\nPS: Jacob's my guest speaker in my community next month. I'll be sharing more the coming weeks. Click my website up top to get first dibs. ✌️",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1782814612164,
+        "date": "2026-06-30T10:16:52.164Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQERvqyqHoEfhg/feedshare-shrink_1280/B4EZ8YB_mLHwAQ-/0/1782814611374?e=1786579200&v=beta&t=2FYYGxCo5kFwc81_IIE_7TPGijt8QlaKcrtVZ_nqJV0",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477666459058536448",
+        "likes": 280,
+        "comments": 95,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 214
+          },
+          {
+            "type": "EMPATHY",
+            "count": 28
+          },
+          {
+            "type": "PRAISE",
+            "count": 24
+          },
+          {
+            "type": "INTEREST",
+            "count": 11
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482005102548029440",
+      "entityId": "7482005102548029440",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_2-hours-after-this-picture-was-taken-i-broke-activity-7482005102548029440-6wHy",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482005101432360960",
+      "shareUrn": "urn:li:share:7482005101432360960",
+      "content": "2 hours after this picture was taken, I broke down in a London hotel room. \"We need to talk,\" she said.\n\nI'd been stuck for MONTHS. Miserable at work, terrified to leave. A ticking time bomb.\n\nMy partner didn't try to fix it. She just said: \"Go do what you love. I'll be here either way.\"\n\nThat was my cue. I resigned that night. 11 months later:\n\n- I'm running a 6-figure solo business I LOVE\n- She catches the spirals before I tank a launch\n- She does the books because admin eztkljffdlksd\n- We're planning a wedding I can afford because of LinkedIn\n\nPeople ask if I call her my business partner. Nah, that's way too small.\n\nShe's the reason I didn't quit before I even started.\n\nMan, I'd still be crying on that hotel couch without her.\n\nWho's the silent cofounder behind all your wins?",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1783849025380,
+        "date": "2026-07-12T09:37:05.380Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFJDnEM8CpzmQ/feedshare-shrink_1280/B4EZ9Vr_qyK4AM-/0/1783849024563?e=1786579200&v=beta&t=3ulsGTZdoGt9heYA5-a6QQrSY2GcSvAWOKJTGWRDruc",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482005102548029440",
+        "likes": 957,
+        "comments": 227,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 533
+          },
+          {
+            "type": "EMPATHY",
+            "count": 308
+          },
+          {
+            "type": "PRAISE",
+            "count": 63
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 52
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478026967246745600",
+      "entityId": "7478026967246745600",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_yesterday-i-ran-a-workshop-breaking-down-activity-7478026967246745600-vinj",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478026965585690627",
+      "shareUrn": "urn:li:share:7478026965585690627",
+      "content": "Yesterday, I ran a workshop breaking down 3 posts that made me €28k. But then it was ME who broke down. Live, in front of 100+ people:\n\nI wasn't nervous. An artist I looked up to died last month and built a career being unapologetically himself. Every euro from the workshop went to his foundation.\n\nSo there I was, kicking it off, when my voice cracked. Couldn't get the next word out and started sobbing.\n\nThen I did the thing I tell everyone else never to do. I apologized. For crying. On my own damn workshop.\n\nIronic, right? Because I built this entire business on being unapologetically me:\n\n- Posting with mascara streaks still drying\n- Hitting publish on the draft that made me nauseous\n- Saying 'post this' and watching a client land the job\n- Turning a client into a friend by being weird together\n\nYet there I was, apologizing for the very thing I preach. \n\nI braced for judgment. But I got EMPATHY instead:\n\nA woman's feed blew up after posting her diagnosis at 60. Another said I helped her find herself.\n\nBoth thanked me for the space to be honest.\n\nThat's when I remembered: this is 100% identity work.\n\nPeople don't trust me despite the ugly crying. They trust me BECAUSE of it.\n\nThat thing you keep burying? That's what gets you paid. Post it enough and the mask becomes the face.\n\nSo please, next post, show up as you. Cracked voice, tears and all. \n\nPS: The full breakdown of these 3 posts goes out in my newsletter this afternoon. Click 'visit my website' up top to grab it.",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1782900564014,
+        "date": "2026-07-01T10:09:24.014Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHHWS1AO3DHLg/feedshare-image-high-res/B4EZ8dJ5l9IsAU-/0/1782900562702?e=1786579200&v=beta&t=uO-21102ir_a7bB6pO2QmDkzyq8rsouKnguJ73t4jAo",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478026967246745600",
+        "likes": 353,
+        "comments": 153,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 229
+          },
+          {
+            "type": "EMPATHY",
+            "count": 68
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 39
+          },
+          {
+            "type": "PRAISE",
+            "count": 13
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484534516594749440",
+      "entityId": "7484534516594749440",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_if-youre-too-scared-to-dm-strangers-i-just-activity-7484534516594749440-y6Oj",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484534515739201536",
+      "shareUrn": "urn:li:share:7484534515739201536",
+      "content": "if you're too scared to DM strangers: i just dragged the bar straight to hell ✌️",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1784452084683,
+        "date": "2026-07-19T09:08:04.683Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQG69j_Oxu82Dw/feedshare-shrink_1280/B4EZ95oe3JJIAM-/0/1784452083718?e=1786579200&v=beta&t=twMmJgjSerBT0mm_cpQCOHK8dC36KMYVUp5B8t5RExM",
+          "width": 1280,
+          "height": 1568
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484534516594749440",
+        "likes": 278,
+        "comments": 122,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "ENTERTAINMENT",
+            "count": 158
+          },
+          {
+            "type": "LIKE",
+            "count": 104
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484178794530992128",
+      "entityId": "7484178794530992128",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_magali-should-be-in-jail-a-linkedin-banner-activity-7484178794530992128-Ngip",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484178793163825152",
+      "shareUrn": "urn:li:share:7484178793163825152",
+      "content": "\"Magali should be in jail.\" A LinkedIn banner designer just posted this to 13,258 people. What the f*ck?\n\nOkay, make no mistake, I proudly own the crime:\n\nI'd seen Zubia's work with Alicia Teltz. Illegally good. I kept thinking, how come she wasn't bigger? So I slid into her DMs. \n\nThe more I got to know her, the more I wanted to back her.\n\nI was unknown once too. People gave me a chance before I had any proof.\n\nSo I wired her $1000 and told her: \"I don't need designs, just wanna support you.\"\n\nThat's personality-first purchasing for ya:\n\n- You buy the course for the brain, not the curriculum\n- You hire the coach for their energy, not their creds\n- You back the small creator cause you saw them first\n\nThe product is the excuse, the person is the reason.\n\nAnd your audience will do the same for you, btw. They pay for your weird, your POV, your way of showing up. \n\nSo yeah, guilty AF. Charge me whatever you want. ✌️",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1784367273934,
+        "date": "2026-07-18T09:34:33.934Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHGXe2LBlFveQ/feedshare-shrink_1280/B4EZ90k9CfHkAM-/0/1784367272542?e=1786579200&v=beta&t=R2TixlTb-4YNNNFhZCTqqrpwBUtjOTxIzl_NFl01b-s",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484178794530992128",
+        "likes": 443,
+        "comments": 184,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 272
+          },
+          {
+            "type": "EMPATHY",
+            "count": 96
+          },
+          {
+            "type": "PRAISE",
+            "count": 45
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 15
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 12
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484906489837563906",
+      "entityId": "7484906489837563906",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_women-are-too-emotional-for-business-my-activity-7484906489837563906-rOKv",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484906486805184512",
+      "shareUrn": "urn:li:share:7484906486805184512",
+      "content": "\"Women are too emotional for business\", my last boss said to my face. So I sent him the most emotional exit email of his life:\n\nIn 2024, this man hired me to run marketing for his company. He wanted me as his cofounder.\n\nOn paper, a dream. In reality, he:\n\n- Called me greedy for asking to split the equity fairly\n- Mocked our female stakeholders behind their backs\n- Asked me to disclose my autism diagnosis live on a client call, as proof I \"overreact\"\n\nThe last one I still feel in my chest. Him, smiling like he'd made a joke. Me, swallowing every word so I wouldn't prove him right.\n\nThe money never added up either. Figures I couldn't reconcile, questions he waved away. \n\nEvery time I pushed, he shrank it. So I shrank myself to match.\n\nThat's what gaslighting does, right? You stop trusting your gut and start believing you're the problem.\n\nSo I did for months. Until the day he said it again. Then I did get emotional. Very. I sent an email saying:\n\n- Keep your stinking shares. I don't want a cent of 'em\n- You still owe me $21K on an unpaid invoice\n- I learned a lot from you, but f*ck, I'm out\n\nThis unemotional man blocked me everywhere within the hour. Said he wouldn't pay. Waved off $83K of unpaid labor like it was pocket change.\n\nThat week, I posted my first emotional LinkedIn piece.\n\nToday, I've made 20x what he still refuses to pay me. I did it by being a very emotional woman.\n\nHighly profitable, these female instincts. ✌️",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1784540770015,
+        "date": "2026-07-20T09:46:10.015Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFj1Ar8nMiZeg/feedshare-image-high-res/B4EZ9.6yaVJIAU-/0/1784540768223?e=1786579200&v=beta&t=zcq76tGfQFWEqc6ms78gVZUaIP4kFCdyFTC24yHTsH8",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484906489837563906",
+        "likes": 731,
+        "comments": 282,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 471
+          },
+          {
+            "type": "EMPATHY",
+            "count": 134
+          },
+          {
+            "type": "PRAISE",
+            "count": 77
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 44
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487469008305393664",
+      "entityId": "7487469008305393664",
+      "linkedinUrl": "https://www.linkedin.com/posts/activity-7487467184865292288-0sNo",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487461038477582336",
+      "shareUrn": "urn:li:ugcPost:7487461038477582336",
+      "content": "Magali De Reu built her brand on repelling people.\n\nNot the algorithm's favourite strategy. \n\nIt's the reason her calendar is full.\n\nI asked her what \"personality-first\" means.\n\nHer answer: \n\nAI made expertise cheap. \nEveryone pulls from the same well of information. \nWhat's left is you.\n\nShe splits personality into three levers:\n\n1. Scars and stripes: \n↳ What you lived through, and what you earned from it.\n\n2. Stance: \n↳ A point of view someone could argue with.\n\n3. Style: \n↳ How you write, what you repeat, the words only you use.\n\nAt least one has to show up in everything you publish.\n\nAnd each one costs you readers. \nThat's the design, not a side effect.\n\nA real stance loses you everyone who disagrees with it. \nA real style loses you everyone who finds it grating.\nWhat's left is people who want you specifically.\n\nOne of her clients kept her personality off LinkedIn. \n→ Polished posts\n→ Correct opinions\n\nNothing you'd remember by Thursday.\n\nMagali asked her one question:\n\n\"Where's that spicy personality of yours?\"\n\nSo she started showing it.\n\nThen came:\n\n→ Leads\n→ Comments\n→ Podcast invites\n\nand DMs from people quietly following her.\n\nMagali calls the method “flaw to feature.”\n\nWrite down what you were told to tone down. \nWrite down what you've been scared to put in public. \nThose are the things nobody can copy off you.\n\nFor Magali it was her autism and her ADHD.\n\n→ Too blunt. \n→ Too honest. \n→ Too direct. \n→ Too much.\n\nThat's her job description now. \nWhat you see is what you get.\n\nIf nobody is leaving, nobody is choosing you either.\n\nSo what's the thing about you that you keep editing out of your posts?",
+      "author": {
+        "id": "ACoAAAdHALABEv7gko35uAEkW4PgE1Pbpm0UKzk",
+        "universalName": null,
+        "publicIdentifier": "jeremycbennett",
+        "type": "profile",
+        "name": "Jeremy Bennett",
+        "linkedinUrl": "https://www.linkedin.com/in/jeremycbennett?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAdHALABEv7gko35uAEkW4PgE1Pbpm0UKzk",
+        "info": "I interview LinkedIn’s top business leaders every weekday 7am EST | Featured in Forbes | 13M views | 110K+ followers | 2 world designations | 3 books | 3 documentaries | Keynote Speaker | Spoken live to tens of thousands",
+        "website": "https://www.insightspodcast.ca",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQHayJfbOkCY8g/profile-displayphoto-crop_800_800/B56Z9CnGoOIQAI-/0/1783528977360?e=1786579200&v=beta&t=ynbR8dcOK0F4Ouipe-enhnUEY-fl994omTMi3_GSJBs",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "122093744"
+      },
+      "postedAt": {
+        "timestamp": 1785151722027,
+        "date": "2026-07-27T11:28:42.027Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQEMUM4-re9oUA/videocover-low/B56Z.jTHOlKABE-/0/1785151211025?e=1785877200&v=beta&t=wbrH6-VYcVCHLuKlCKa22tWW3oSgAzwiVIr_99U3yko",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D5605AQEMUM4-re9oUA/mp4-720p-30fp-crf28/B56Z.jTHOlKAB4-/0/1785151279036?e=1785877200&v=beta&t=t5K1iwA052a1KWAu-YH3zOQiINiz9M1OWA13xTsyIRM"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/posts/activity-7487469008305393664-96cz?openCollaboratorList=false",
+        "imageLink": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "text": "Magali De Reu collaborated on this"
+      },
+      "engagement": null,
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486353211323392000",
+      "entityId": "7486353211323392000",
+      "linkedinUrl": "https://www.linkedin.com/posts/magalidereu_last-year-i-was-googling-how-to-get-linkedin-activity-7486353211323392000-3TLD",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486353209867943936",
+      "shareUrn": "urn:li:share:7486353209867943936",
+      "content": "Last year, I was Googling 'how to get LinkedIn leads.' Today award-winning creators are Googling ME:\n\nWhat the f*ck, I can't believe this is my life. \"It's just LinkedIn\"? Blah blah, here's what LinkedIn gave me:\n\n- $489K+ in revenue from coaching + community\n- Invites by Jasmin Alić and Richard van der Blom\n- Collabs with 100K creators I used to stalk from afar\n- Business lessons that would've taken 2 years alone\n\nI've never sent a cold DM in my life. I didn't \"network.\"\n\nI just started posting like I talk. Swearing included. \n\nStrangers became clients. Clients became collaborators. \n\n(Still processing some are my best friends now lol)\n\nThis app gave me my life back. AND three honorable mentions in the LinkedIn lunatics subreddit.\n\nLabrador energy stays undefeated. ✌\n\nWhat's this platform given you besides the algorithm-induced anxiety?",
+      "author": {
+        "id": "ACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "universalName": null,
+        "publicIdentifier": "magalidereu",
+        "type": "profile",
+        "name": "Magali De Reu",
+        "linkedinUrl": "https://www.linkedin.com/in/magalidereu?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA47zOUB3nnCZUB3Pn3OzXq1XghoPk6IBhI",
+        "info": "i make your weird sell your expertise past $10K MRR | 150+ brands | $489K solo in 11 months → install the personality-first engine at theobviousy.es/about",
+        "website": "https://www.theobviousy.es/about",
+        "websiteLabel": "Visit my website",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQGar-AQ_p8F3A/profile-displayphoto-crop_800_800/B4EZ3qHAMNHcAI-/0/1777749199805?e=1786579200&v=beta&t=QgKdwurIkS_AkY4yMx3kv_xY0mhmpcF-QKJ2pnSW3Yk",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "238800101"
+      },
+      "postedAt": {
+        "timestamp": 1784885695296,
+        "date": "2026-07-24T09:34:55.296Z",
+        "postedAgoShort": "4d",
+        "postedAgoText": "4 days ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGv4hm8mXQafQ/feedshare-image-high-res/B4EZ.TekwZIcAc-/0/1784885693786?e=1786579200&v=beta&t=t1IFa9ON5NyXgr_tfP-I70QqOIMHrN2RCnu_ZjQllAM",
+          "width": 1080,
+          "height": 1350
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486353211323392000",
+        "likes": 345,
+        "comments": 212,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 224
+          },
+          {
+            "type": "EMPATHY",
+            "count": 66
+          },
+          {
+            "type": "PRAISE",
+            "count": 43
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 11
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://be.linkedin.com/in/magalidereu",
+        "sessionId": "b888f9de-1ee4-48f6-a07e-afd9aaa9cab0"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483113223844478976",
+      "entityId": "7483113223844478976",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_your-prospects-delete-your-emails-faster-activity-7483113223844478976-9kO6",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483091126183268352",
+      "shareUrn": "urn:li:share:7483091126183268352",
+      "content": "Your prospects delete your emails\nfaster than you delete pizza flyers.\n\nThe flyer at least targets someone who orders pizza.\nYour email targets a job title.\n\nAfter years in sales, here is the most valuable thing I learned:\n\nEvery deal starts with two things.\n\n1. The right keyword, placed as early as possible in your pitch or your email.\n2. The right timing.\n\nLet me explain why timing became an obsession for me.\nOver the last five years I sold for Deel and for cyber startups.\n\nDeel has several products, and each one matches a precise moment in a company's life cycle. A company opening an office abroad has a need that did not exist a month earlier. Catch that moment and the situation dictates the pitch.\n\nSame in cybersecurity: a fresh fundraise means shipping faster, hiring in waves, and a growing surface to attack.\n\nKnowing this changed nothing about how hard it was.\nCatching these moments was fully manual, and honestly discouraging. On 200 cold calls, you land on a good timing once, if you are lucky. Same odds on 500 or 1,000 cold emails.\n\nThe technique was right and the job still felt like a lottery.\n\nIn 2026, hoping you arrived at the right moment is no longer a strategy you're allowed to have. The tools exist now.\n\nThat's what I use lemlist agents for. \n\nI pick the signals that matter for my business (a fundraise, an office opening, a hiring spree on a specific role) and they scan daily. \n\nWhen one fires, the lead lands in my campaign, and the signal tells me both things at once: which words to open with, and that today is the day to reach out.\n\nSince I made the switch, my cold email open rate went from 18% to 61%. And the same shift happened on my cold calls, because opening with the right keyword at the right moment works on the phone even better than in writing.\n\nBut the numbers are not even the real change.\n\nI do a third of the volume I used to, and I close more than I ever did, because I spend my weeks talking to people instead of trying to talk to people.\n\nAnd there is a side effect nobody mentions: confidence. Sending 500 emails into the void and dialing 150 numbers a week where nothing is happening quietly destroys yours. Reaching out where something just happened means getting taken seriously on almost every touch, and that changes how you sell everything.\n\nThe volume was never my problem. Arriving after the signature was.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1784113222085,
+        "date": "2026-07-15T11:00:22.085Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEHt2mTrHM-Kw/feedshare-image-high-res/B4DZ9lHuoUK0AU-/0/1784107953157?e=1786579200&v=beta&t=WbmvJd0GJU4f04zKpEbxy-P2fxKmu1u84KpRjJmlp18",
+          "width": 1612,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483113223844478976",
+        "likes": 575,
+        "comments": 141,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 402
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 117
+          },
+          {
+            "type": "EMPATHY",
+            "count": 25
+          },
+          {
+            "type": "INTEREST",
+            "count": 15
+          },
+          {
+            "type": "PRAISE",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://fr.linkedin.com/in/yonathan-levy",
+        "sessionId": "e7627193-9db2-4956-a61d-b89fcd095418"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486374674264944641",
+      "entityId": "7486374674264944641",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_claude-can-run-your-entire-sales-stack-from-activity-7486374674264944641-8WRF",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486374671416975360",
+      "shareUrn": "urn:li:share:7486374671416975360",
+      "content": "Claude can run your entire sales stack from one chat.\nThe thing that makes that possible is a connector.\n\nA connector links Claude straight to a tool you already use, so it reads from that tool and works inside it without you copying anything across.\n\nYou turn one on from the plus button inside Claude, then Connectors.\nPick the tool, sign in once, and it stays on for every chat after that.\n\nThese eight are worth connecting if your day runs on outreach and pipeline.\n\n1. Google Drive - finds the battlecard or case study you need mid-conversation.\n2. Attio - keeps your pipeline current without you touching a field.\n3. Slack - catches you up on a channel and drafts the reply.\n4. FullEnrich - gets you a verified number when a prospect goes quiet.\n5. Gamma - turns a rough idea into a deck you can send.\n6. Notion - brings your playbook into the chat while you work the deal.\n7. Granola - writes up the call you just finished with the next steps.\n8. lemlist - builds and sends your outbound from the same conversation.\n\nTurn on the two or three that match how you work and let Claude handle the moving around.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1784890812460,
+        "date": "2026-07-24T11:00:12.460Z",
+        "postedAgoShort": "4d",
+        "postedAgoText": "4 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGPdFSLtfRAmA/feedshare-shrink_1280/B4DZ.TyGCSIYAM-/0/1784890810975?e=1786579200&v=beta&t=egk4z0nVjbov9v8UPHIzLEZqZY0E6rkiRK2y3VVd44w",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486374674264944641",
+        "likes": 92,
+        "comments": 38,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 70
+          },
+          {
+            "type": "EMPATHY",
+            "count": 12
+          },
+          {
+            "type": "INTEREST",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://fr.linkedin.com/in/yonathan-levy",
+        "sessionId": "e7627193-9db2-4956-a61d-b89fcd095418"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484925126455496704",
+      "entityId": "7484925126455496704",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_i-lost-more-deals-to-my-inbox-than-to-competitors-activity-7484925126455496704-zDZS",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483104695503446016",
+      "shareUrn": "urn:li:share:7483104695503446016",
+      "content": "I lost more deals to my inbox than to competitors.\n\nEvery time my pipeline looked bad, I ran the same ritual. \nFriday night, inbox open, calendar open, scrolling through weeks of calls looking for one thing: the follow-ups I never sent.\n\nAnd I found them. Every time. \nA great call, a prospect saying \"we'll get back to you\" or \"timing isn't quite right yet\", and then nothing. No email. Or one email with the info they asked for, then silence.\n\nJust by reaching back out, I booked meetings and closed deals. Which means the ones I never caught are still out there. Deals I lost without ever knowing they existed.\n\nYou can be great at sales and still miss this. Run 7 calls in a day, let one big deal eat your whole week, and things slip. You're human.\n\nI don't run that Friday ritual anymore. I keep Granola open during my calls. \nIt's an AI notepad, no bot popping into the meeting, and it takes the notes for me while I stay focused on the prospect.\n\nThe second I hang up, it's all there. Clean notes, what I promised to send, and the follow-up already drafted, exactly the way a good follow-up should be. I read it, change a word or two, send.\n\nEven on the days when I'm running from call to call, the follow-up goes out. And a prospect who gets a sharp, personal email minutes after we hang up notices. It says something about how seriously you take their business. \n\nI'm never going back. The results speak for themselves.\n\nDeals don't die in my inbox anymore.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1784545213331,
+        "date": "2026-07-20T11:00:13.331Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQErqcXci7YyBg/feedshare-image-high-res/B4DZ9lUETDJwAU-/0/1784111187627?e=1786579200&v=beta&t=Rpiy85Xm21hj10V4IHGPtBzXlMDohQjCN9BFd-9RqVY",
+          "width": 2000,
+          "height": 993
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484925126455496704",
+        "likes": 94,
+        "comments": 70,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 67
+          },
+          {
+            "type": "EMPATHY",
+            "count": 14
+          },
+          {
+            "type": "INTEREST",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://fr.linkedin.com/in/yonathan-levy",
+        "sessionId": "e7627193-9db2-4956-a61d-b89fcd095418"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480576525701005313",
+      "entityId": "7480576525701005313",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_access-to-claude-fable-5-on-paid-plans-has-activity-7480576525701005313-xdvj",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480576524312612865",
+      "shareUrn": "urn:li:share:7480576524312612865",
+      "content": "Access to Claude Fable 5 on paid plans has been extended till July 12th.\nAfter that, it moves to usage credits at $10/$50 per million tokens.\n\nFable 5 sits in Anthropic's new Mythos class, a tier above Opus. It leads knowledge work benchmarks and handles complex reasoning that used to require a team of analysts.\n\nYou have a few more days with the most powerful Claude model at no extra cost. Here are 5 things worth doing before the window closes:\n\n1. Feed it your biggest mess. If you have years of scattered files, notes, and documents, give them all to Fable in one session. It handles massive context better than any other model and can organize everything you throw at it.\n\n2. Build systems that outlast Fable access. Create reusable project instructions, templates, and workflows inside Claude Projects. When you drop back to Opus or Sonnet, those systems keep running without Fable.\n\n3. Have Fable audit how you use Claude. Ask it to review your current projects, instructions, and workflows. It tells you what's inefficient and what needs fixing so every future session runs smoother.\n\n4. Have Fable teach you how it thinks. Ask it to walk through its reasoning step by step and save that breakdown. Use it to write better prompts for Opus and Sonnet going forward.\n\n5. Have Fable stress-test your ideas. Give it your business plan, strategy, or pitch and ask it to find every hole and blind spot. Its reasoning is deep enough to challenge your thinking at a level other models can't.\n\nThe window closes July 12th. Use it while it's included.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1783508426118,
+        "date": "2026-07-08T11:00:26.118Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFc3_D9LqusJQ/feedshare-image-high-res/B4EZ9BYtZiJEAU-/0/1783508424804?e=1786579200&v=beta&t=snG1Y-T2QLQcA2Ab4uT7xYPkCTPHdhw1ThVVyxvtglc",
+          "width": 1658,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480576525701005313",
+        "likes": 110,
+        "comments": 53,
+        "shares": 9,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 100
+          },
+          {
+            "type": "INTEREST",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://fr.linkedin.com/in/yonathan-levy",
+        "sessionId": "e7627193-9db2-4956-a61d-b89fcd095418"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482750859399946240",
+      "entityId": "7482750859399946240",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_fable-5-builds-better-skills-than-any-other-activity-7482750859399946240-Ln7d",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482741670573420544",
+      "shareUrn": "urn:li:share:7482741670573420544",
+      "content": "Fable 5 builds better skills than any other Claude model.\nFor sales, that means skills you build now with Fable keep running long after access ends.\n\nFable processes context and reasons through problems at a level that Opus and Sonnet can't match yet.\n\nThese 4 sales skills are worth building with Fable while you have access:\n\n1. /prospect-research takes a LinkedIn URL and company name and gives you a full brief with role summary, priorities, pain points, and recent signals. Fable holds all sources in memory at once, whereas Sonnet starts dropping context.\n\n2. /qualify-any-lead scores any prospect against your ICP and tells you whom to spend time on before you waste 20 minutes on someone who was never a fit.\n\n3. /pipeline-risk-check flags which deals are slipping, why, and what action to take this week. Fable reasons through each deal individually instead of pattern matching.\n\n4. /analyze-lost-deals takes notes from 10-20 lost deals and finds patterns in why they fell through so the same mistakes stop repeating.\n\nBuild these with Fable. \nRun them on any model after.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1784026827669,
+        "date": "2026-07-14T11:00:27.669Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFy3QCA8IlXyA/feedshare-shrink_1280/B4DZ9gJ5UjJ8AM-/0/1784024635165?e=1786579200&v=beta&t=f1s2ZHEmIt9f1SLBoaR6Sw7uZHx_WW1oN5gKPTCbDsY",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482750859399946240",
+        "likes": 122,
+        "comments": 47,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 104
+          },
+          {
+            "type": "INTEREST",
+            "count": 8
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://fr.linkedin.com/in/yonathan-levy",
+        "sessionId": "e7627193-9db2-4956-a61d-b89fcd095418"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480214037620998144",
+      "entityId": "7480214037620998144",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_your-next-deal-is-already-looking-at-your-activity-7480214037620998144-JbV-",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480195954550321154",
+      "shareUrn": "urn:li:share:7480195954550321154",
+      "content": "Your next deal is already looking at your LinkedIn profile.\nThe question is whether it's convincing them or losing them.\n\nWhen someone sees your post, clicks your profile, reads your headline, scrolls your featured section, and then DMs you, that entire path happens because your brand did the work before you said a word.\n\nActive personal brands on LinkedIn receive 47% more inbound than inactive ones. \nThat gap comes down to whether your niche, content, and profile are aligned.\n\nYour niche decides everything. If someone visits your profile and can't describe what you do in one sentence, nothing else matters.\n\nYour content pillars keep you consistent so the algorithm learns who your posts are for.\n\nWhen your profile, content, and engagement all say the same thing about you, people remember you.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1783422002225,
+        "date": "2026-07-07T11:00:02.225Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGRm9iMP8QwkA/feedshare-shrink_1280/B4EZ87.lVyJEAM-/0/1783417689913?e=1786579200&v=beta&t=VvVVIGYOQfWtddrBkWaTBGQOvcKusXY-3G3PRagVeHE",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480214037620998144",
+        "likes": 133,
+        "comments": 59,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 117
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://fr.linkedin.com/in/yonathan-levy",
+        "sessionId": "e7627193-9db2-4956-a61d-b89fcd095418"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487824175533834241",
+      "entityId": "7487824175533834241",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_linkedin-is-the-second-most-cited-domain-activity-7487824175533834241-yZqW",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487819399664664577",
+      "shareUrn": "urn:li:share:7487819399664664577",
+      "content": "LinkedIn is the second most cited domain on the internet right now.\n\nSemrush analysed 89,000 LinkedIn URLs cited by ChatGPT, Perplexity, and Google AI Mode.\n\n11% of all AI responses reference LinkedIn.\nOnly one domain gets cited more.\n\nWhen AI cites your post, it mirrors it almost exactly.\nSemantic similarity scores of 0.57 to 0.60, higher than Reddit and Quora.\nYour words show up in AI answers the way you wrote them.\n\nHere is what gets cited:\n\n- Original posts. 95% of cited content is original. Reshares barely register.\n- Educational content. Over half of all cited posts are knowledge or advice-driven.\n- Mid-length posts. 50 to 299 words is the sweet spot for feed posts.\n\nHere is who gets cited:\n\n- Authors who post 5 or more times a month.\n- Authors with 2000 or more followers.\n- Posts with 15 to 25 reactions on average.\n\nPeople are searching on ChatGPT and Perplexity every day.\nLinkedIn is one of the first places AI looks for answers.\nPosting consistently here is how you show up in those answers.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1785236400493,
+        "date": "2026-07-28T11:00:00.493Z",
+        "postedAgoShort": "9h",
+        "postedAgoText": "9 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQE5_PZlfIbEkg/feedshare-image-high-res/B4DZ.oUENwGwAY-/0/1785235260710?e=1786579200&v=beta&t=JInp13n7apc0NdWBbWtuNWUFTO4CltyBgeDQJ7AYA50",
+          "width": 800,
+          "height": 1000
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487824175533834241",
+        "likes": 56,
+        "comments": 50,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 45
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://fr.linkedin.com/in/yonathan-levy",
+        "sessionId": "e7627193-9db2-4956-a61d-b89fcd095418"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476227983838490624",
+      "entityId": "7476227983838490624",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_youre-burning-through-claude-tokens-in-2-activity-7476227983838490624-SrqK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7476227982567747586",
+      "shareUrn": "urn:li:share:7476227982567747586",
+      "content": "You're burning through Claude tokens in 2 hours of work.\n\nWhen you jump between different tasks in one conversation, tokens stack fast. Every new request carries all the old work with it. Disabled tools eat 55,000 tokens before you type anything.\n\nHere's what changes it:\n\n1. Start fresh conversations between different tasks\nDon't paste old work into new conversations. Old context keeps piling up on every turn.\n\n2. Reference instead of copying entire documents\nPoint Claude to what you need instead of pasting full pages. Claude opens it and you save tokens.\n\n3. Pick Haiku for quick work, Sonnet for everyday, Opus for strategy\nOpus costs five times more than Haiku. Wrong model for routine tasks burns your quota fast.\n\n4. Disable tools you're not using\nFive idle integrations cost 55,000 tokens of overhead before you start.\n\n5. Your window resets every 5 hours\nEnd and restart when it does. Don't run sessions into hour six.\n\n6. Trim documents to what matters\nDon't paste everything. Paste only what you actually need for the task.\n\n7. Keep instructions concise\nEvery line gets reprocessed with every message you send.\n\n8. Use batch API for large documents\nCosts half the standard rate for big generation work.\n\n9. Turn off extended thinking for routine work\nUse it for hard problems. Disable it for straightforward writing.\n\n10. Use Projects instead of pasting everything\nClaude pulls what it needs instead of you dumping your entire context.\n\nYour tokens stretch further when you design work around how Claude consumes them.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1782471652946,
+        "date": "2026-06-26T11:00:52.946Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQH2V79ZIvQvbg/feedshare-shrink_1280/B4EZ8Dlu6bJEAM-/0/1782471651544?e=1786579200&v=beta&t=GKQ4boJn9mopMm1YwtWa_N-ZcHSEEKmS1LANtTVBap8",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7476227983838490624",
+        "likes": 103,
+        "comments": 29,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 85
+          },
+          {
+            "type": "INTEREST",
+            "count": 9
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://fr.linkedin.com/in/yonathan-levy",
+        "sessionId": "e7627193-9db2-4956-a61d-b89fcd095418"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478040518346817536",
+      "entityId": "7478040518346817536",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_linkedins-algorithm-changed-completely-in-activity-7478040518346817536-30jf",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7478040516991844354",
+      "shareUrn": "urn:li:share:7478040516991844354",
+      "content": "LinkedIn's algorithm changed completely in early 2026.\nHere's what it measures now.\n\n360Brew replaced the entire old ranking system. It's a 150-billion-parameter AI model that reads your profile, your post, and how people engage with it before deciding who sees your content.\n\nHere's what changed:\n\n1. Saves carry 5x the weight of a like and 2x the weight of a comment. Content people bookmark travels further than anything that gets a quick like and scroll.\n\n2. Your first 90 minutes after posting decide 70% of your total reach. Post when your audience is online or the algorithm never gets the early signals it needs.\n\n3. Dwell time matters more than reactions. Someone reading for 60 seconds tells the algorithm more than 50 people who tapped like without reading.\n\n4. Your profile headline, About section, and experience feed into every single post you publish. 360Brew checks your credibility before it distributes your content.\n\nThis is what decides if 100 people see your post or 10,000.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1782903794848,
+        "date": "2026-07-01T11:03:14.848Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEoDqUIuJspUQ/feedshare-shrink_1280/B4EZ8dWOelHAAM-/0/1782903794060?e=1786579200&v=beta&t=B6_1bKNsHt-U9E9FK3NwOHziszuWhkUR6uvSNB3aVVA",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478040518346817536",
+        "likes": 226,
+        "comments": 89,
+        "shares": 13,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 189
+          },
+          {
+            "type": "INTEREST",
+            "count": 14
+          },
+          {
+            "type": "EMPATHY",
+            "count": 12
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://fr.linkedin.com/in/yonathan-levy",
+        "sessionId": "e7627193-9db2-4956-a61d-b89fcd095418"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483476730188304384",
+      "entityId": "7483476730188304384",
+      "linkedinUrl": "https://www.linkedin.com/posts/yonathan-levy_every-sales-task-has-an-ai-that-beats-the-activity-7483476730188304384-dzsK",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483476728988721152",
+      "shareUrn": "urn:li:share:7483476728988721152",
+      "content": "Every sales task has an AI that beats the others at it.\nThe trick is knowing which tool wins which task.\n\nHere's the split that works.\n\nClaude handles prospect research and call prep because it holds multiple sources in memory at once and builds full briefs without losing context halfway through.\n\nGrok catches buying signals on X in real time: hiring surges, funding rounds, product launches, and competitor complaints.\n\nNotebookLM is where you learn from your own calls. Upload transcripts and it pulls out what objections came up and how they were handled. Everything is cited.\n\nChatGPT generates visual sales materials like one-pagers and proposal visuals faster than building from scratch.\n\nGemini works natively inside Google Workspace so if your pipeline lives in Sheets or your email threads are in Gmail, it analyzes everything without you exporting a single file.\n\nUse each for what it's built for.",
+      "author": {
+        "id": "ACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "universalName": null,
+        "publicIdentifier": "yonathan-levy",
+        "type": "profile",
+        "name": "Yonathan Levy",
+        "linkedinUrl": "https://www.linkedin.com/in/yonathan-levy?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADFsKccB0gJPu-pBEcfD2hQ2nHfHPQYTwSk",
+        "info": "Strong brands don’t pitch",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQEZIuxy884Fkg/profile-displayphoto-crop_800_800/B4DZtptfPAIIAM-/0/1767005091384?e=1786579200&v=beta&t=apTQe16twSiCbqzpZtVrHbpGj67c2NdAuw5acP8DL3c",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "829172167"
+      },
+      "postedAt": {
+        "timestamp": 1784199888751,
+        "date": "2026-07-16T11:04:48.751Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEDt2ZNB3qu5w/feedshare-shrink_1280/B4DZ9qmbj7GYAM-/0/1784199887729?e=1786579200&v=beta&t=bmXV8vSdwbee_ysL0WEqUYFi31z6kMP2AwRoFeV_W9c",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483476730188304384",
+        "likes": 155,
+        "comments": 79,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 136
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "INTEREST",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://fr.linkedin.com/in/yonathan-levy",
+        "sessionId": "e7627193-9db2-4956-a61d-b89fcd095418"
+      }
+    }
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "generated_at": "2026-08-02T18:05:05.577Z",
+  "database": {
+    "deduplicated_posts": 953,
+    "provenance_observations": 1014,
+    "engagement_observations": 1014,
+    "inferred_tag_rows": 953
+  },
+  "source_layers": {
+    "tiger_native_analytics": 60,
+    "saved_curated_collection": 480,
+    "saved_with_activity_id": 463,
+    "saved_without_activity_id": 17,
+    "top100_reference_library": 72,
+    "stage0_current_market": 402
+  },
+  "overlaps": {
+    "saved_and_top100": 61,
+    "saved_and_current_market": 0,
+    "saved_and_tiger": 0,
+    "top100_and_current_market": 0
+  },
+  "tiger_performance": {
+    "post_count": 60,
+    "post_page_impressions_sum": 331620,
+    "annual_aggregate_snapshot": {
+      "range": "2025-08-03 to 2026-08-02",
+      "impressions": 333575,
+      "social_engagements": 3390,
+      "reactions": 2367,
+      "comments": 203,
+      "reposts": 19,
+      "saves": 678,
+      "sends": 123,
+      "link_engagements": 1
+    },
+    "annual_aggregate_minus_post_page_sum": 1955,
+    "mean_impressions": 5527,
+    "median_impressions": 508.5,
+    "p25_impressions": 256.5,
+    "p75_impressions": 1027.5,
+    "top_1_share": 0.5325312104215668,
+    "top_2_share": 0.7046770399855256,
+    "top_3_share": 0.7894367046619625,
+    "top_posts": [
+      {
+        "record_id": "LI-7461085741503111168",
+        "url": "https://www.linkedin.com/posts/shettys-desk_you-can-be-10-years-deep-into-supply-chain-activity-7461085741503111168-wXGz",
+        "hook": "You can be 10 years deep into supply chain and still not know which career you're actually building?",
+        "impressions": 176598,
+        "reactions": 1175,
+        "comments": 70,
+        "reposts": 86,
+        "saves": 411,
+        "sends": 71,
+        "profile_viewers": 324,
+        "followers_gained": 338,
+        "save_rate": 0.0023273196751945097,
+        "follower_conversion": 0.0019139514603789397
+      },
+      {
+        "record_id": "LI-7430619873980043265",
+        "url": "https://www.linkedin.com/posts/shettys-desk_shettysdesk-supplychain-logistics-activity-7430619873980043265-ZQb1",
+        "hook": "Why is the world's second-largest shipping company buying warehouses instead of ships?",
+        "impressions": 57087,
+        "reactions": 377,
+        "comments": 36,
+        "reposts": 28,
+        "saves": 62,
+        "sends": 27,
+        "profile_viewers": 195,
+        "followers_gained": 115,
+        "save_rate": 0.0010860616252386709,
+        "follower_conversion": 0.002014469143587857
+      },
+      {
+        "record_id": "LI-7444395247545057280",
+        "url": "https://www.linkedin.com/posts/shettys-desk_when-strategic-decisions-get-made-with-operational-activity-7444395247545057280-KGf7",
+        "hook": "When strategic decisions get made with operational urgency, companies build warehouses they don't need. When operational decisions wait for strategic approval, customers don't get their orders.",
+        "impressions": 28108,
+        "reactions": 140,
+        "comments": 11,
+        "reposts": 6,
+        "saves": 65,
+        "sends": 5,
+        "profile_viewers": 28,
+        "followers_gained": 42,
+        "save_rate": 0.002312508894264978,
+        "follower_conversion": 0.0014942365162942935
+      },
+      {
+        "record_id": "LI-7454544388887609344",
+        "url": "https://www.linkedin.com/posts/shettys-desk_a-1pl-owns-every-truck-and-every-warehouse-activity-7454544388887609344-UlOt",
+        "hook": "A 1PL owns every truck and every warehouse whereas a 5PL owns nothing and manages everything. The further up the ladder you go, the less you physically control and the more you strategically coordinate.",
+        "impressions": 12546,
+        "reactions": 36,
+        "comments": 0,
+        "reposts": 6,
+        "saves": 11,
+        "sends": 0,
+        "profile_viewers": 13,
+        "followers_gained": 7,
+        "save_rate": 0.0008767734736170891,
+        "follower_conversion": 0.0005579467559381476
+      },
+      {
+        "record_id": "LI-7452733456163311616",
+        "url": "https://www.linkedin.com/posts/shettys-desk_20-of-your-skus-drive-80-of-your-revenue-activity-7452733456163311616-jIG0",
+        "hook": "20% of your SKUs drive 80% of your revenue. That's the Pareto principle, and most supply chain teams know it. But revenue alone doesn't tell you how to plan them from an SC perspective. It is the second dimension, demand predictability, that changes everything.",
+        "impressions": 8962,
+        "reactions": 70,
+        "comments": 3,
+        "reposts": 6,
+        "saves": 55,
+        "sends": 4,
+        "profile_viewers": 15,
+        "followers_gained": 41,
+        "save_rate": 0.006137022985940638,
+        "follower_conversion": 0.004574871680428476
+      },
+      {
+        "record_id": "LI-7436809798576410624",
+        "url": "https://www.linkedin.com/posts/shettys-desk_why-does-the-worlds-most-recognised-energy-activity-7436809798576410624-M5AZ",
+        "hook": "Why does the world's most recognised energy drink not own a single factory?",
+        "impressions": 7124,
+        "reactions": 46,
+        "comments": 0,
+        "reposts": 1,
+        "saves": 9,
+        "sends": 5,
+        "profile_viewers": 23,
+        "followers_gained": 5,
+        "save_rate": 0.0012633352049410444,
+        "follower_conversion": 0.0007018528916339135
+      },
+      {
+        "record_id": "LI-7450922775105495041",
+        "url": "https://www.linkedin.com/posts/shettys-desk_safety-stock-exists-because-the-future-is-activity-7450922775105495041-rWI4",
+        "hook": "Safety stock exists because the future is uncertain. But most companies calculate it using averages, which assume the future behaves like the past. The very thing safety stock is meant to protect against is the thing the formula ignores.",
+        "impressions": 6328,
+        "reactions": 42,
+        "comments": 5,
+        "reposts": 6,
+        "saves": 18,
+        "sends": 2,
+        "profile_viewers": 16,
+        "followers_gained": 35,
+        "save_rate": 0.0028445006321112516,
+        "follower_conversion": 0.0055309734513274336
+      },
+      {
+        "record_id": "LI-7439340292522119169",
+        "url": "https://www.linkedin.com/posts/shettys-desk_this-is-what-took-the-us-from-their-shores-activity-7439340292522119169-octz",
+        "hook": "This is what took the U.S from their shores to the Battlefront on the Middle Eastern waters.",
+        "impressions": 4461,
+        "reactions": 4,
+        "comments": 2,
+        "reposts": 0,
+        "saves": 1,
+        "sends": 0,
+        "profile_viewers": 7,
+        "followers_gained": 0,
+        "save_rate": 0.00022416498542927594,
+        "follower_conversion": 0
+      },
+      {
+        "record_id": "LI-7447660277678002177",
+        "url": "https://www.linkedin.com/posts/shettys-desk_how-does-a-car-manufacturer-decide-to-build-activity-7447660277678002177-qhrf",
+        "hook": "How does a car manufacturer decide to build 50,000 vehicles before a single buyer walks into a dealership? And why would a yacht builder refuse to start without a signed contract and a custom specification?",
+        "impressions": 3452,
+        "reactions": 24,
+        "comments": 4,
+        "reposts": 3,
+        "saves": 2,
+        "sends": 0,
+        "profile_viewers": 5,
+        "followers_gained": 10,
+        "save_rate": 0.0005793742757821553,
+        "follower_conversion": 0.0028968713789107765
+      },
+      {
+        "record_id": "LI-7477749045566877696",
+        "url": "https://www.linkedin.com/posts/shettys-desk_who-carries-the-cost-when-the-work-runs-over-activity-7477749045566877696-Bwdh",
+        "hook": "Who carries the cost when the work runs over?",
+        "impressions": 2784,
+        "reactions": 6,
+        "comments": 0,
+        "reposts": 0,
+        "saves": 1,
+        "sends": 0,
+        "profile_viewers": 2,
+        "followers_gained": 3,
+        "save_rate": 0.00035919540229885057,
+        "follower_conversion": 0.0010775862068965517
+      }
+    ],
+    "bottom_posts": [
+      {
+        "record_id": "LI-7478821859275354112",
+        "url": "https://www.linkedin.com/posts/shettys-desk_the-best-supply-chains-do-not-avoid-every-activity-7478821859275354112-5vdh",
+        "hook": "The best supply chains do not avoid every disruption. They respond faster because the rhythm is already clear.",
+        "impressions": 57,
+        "reactions": 1,
+        "comments": 0,
+        "reposts": 0,
+        "saves": 0,
+        "followers_gained": 0
+      },
+      {
+        "record_id": "LI-7481374428807708672",
+        "url": "https://www.linkedin.com/posts/shettys-desk_excel-can-calculate-eoq-but-chatgpt-can-activity-7481374428807708672-2Qbu",
+        "hook": "Excel can calculate EOQ, but ChatGPT can help turn the calculation into a planner-reviewable decision board.",
+        "impressions": 68,
+        "reactions": 1,
+        "comments": 0,
+        "reposts": 0,
+        "saves": 0,
+        "followers_gained": 0
+      },
+      {
+        "record_id": "LI-7474809168688910336",
+        "url": "https://www.linkedin.com/posts/shettys-desk_one-2x2-grid-drawn-in-1983-still-decides-activity-7474809168688910336-WkTV",
+        "hook": "One 2x2 grid, drawn in 1983, still decides how the best buyers spend their time.",
+        "impressions": 86,
+        "reactions": 2,
+        "comments": 0,
+        "reposts": 0,
+        "saves": 0,
+        "followers_gained": 0
+      },
+      {
+        "record_id": "LI-7481010027776921600",
+        "url": "https://www.linkedin.com/posts/shettys-desk_power-bi-can-show-you-the-error-but-claude-activity-7481010027776921600-2e6o",
+        "hook": "Power BI can show you the error, but Claude can help turn it into the questions the planner needs on the table.",
+        "impressions": 103,
+        "reactions": 2,
+        "comments": 0,
+        "reposts": 0,
+        "saves": 1,
+        "followers_gained": 0
+      },
+      {
+        "record_id": "LI-7475163000140697600",
+        "url": "https://www.linkedin.com/posts/shettys-desk_cooking-dinner-or-ordering-in-is-the-same-activity-7475163000140697600-RU5u",
+        "hook": "Cooking dinner or ordering in is the same call companies make on everything they sell?",
+        "impressions": 122,
+        "reactions": 4,
+        "comments": 0,
+        "reposts": 0,
+        "saves": 0,
+        "followers_gained": 0
+      },
+      {
+        "record_id": "LI-7484869206836965376",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7484869206836965376/",
+        "hook": "The executive meeting does not rescue a weak S&OP cycle. It exposes where the hand-offs stopped.",
+        "impressions": 141,
+        "reactions": 2,
+        "comments": 0,
+        "reposts": 0,
+        "saves": 0,
+        "followers_gained": 0
+      },
+      {
+        "record_id": "LI-7483548799299166208",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7483548799299166208/",
+        "hook": "A faster forecast cycle can create more planner activity without creating a better decision.",
+        "impressions": 153,
+        "reactions": 1,
+        "comments": 0,
+        "reposts": 0,
+        "saves": 0,
+        "followers_gained": 0
+      },
+      {
+        "record_id": "LI-7470469573981515776",
+        "url": "https://www.linkedin.com/posts/shettys-desk_why-does-every-cost-reduction-programme-start-activity-7470469573981515776-ldhd",
+        "hook": "Why does every cost reduction programme start with a conversation and end with a spreadsheet nobody agrees on?",
+        "impressions": 153,
+        "reactions": 3,
+        "comments": 0,
+        "reposts": 0,
+        "saves": 0,
+        "followers_gained": 0
+      },
+      {
+        "record_id": "LI-7477394219435909120",
+        "url": "https://www.linkedin.com/posts/shettys-desk_everyone-reinforces-the-wrong-clause-when-activity-7477394219435909120-Bt2W",
+        "hook": "Everyone reinforces the wrong clause.",
+        "impressions": 154,
+        "reactions": 2,
+        "comments": 0,
+        "reposts": 0,
+        "saves": 0,
+        "followers_gained": 0
+      },
+      {
+        "record_id": "LI-7480286761890258944",
+        "url": "https://www.linkedin.com/posts/shettys-desk_why-the-sentence-can-you-just-change-the-activity-7480286761890258944-EUEc",
+        "hook": "Why the sentence \"can you just change the plan?\" is rarely as simple as it sounds?",
+        "impressions": 166,
+        "reactions": 6,
+        "comments": 0,
+        "reposts": 0,
+        "saves": 0,
+        "followers_gained": 1
+      }
+    ],
+    "problem_family_distribution": [
+      {
+        "label": "procurement, sourcing, or suppliers",
+        "count": 17
+      },
+      {
+        "label": "logistics, warehousing, or transport",
+        "count": 10
+      },
+      {
+        "label": "inventory and replenishment",
+        "count": 7
+      },
+      {
+        "label": "business strategy, finance, or entrepreneurship",
+        "count": 6
+      },
+      {
+        "label": "planning and forecasting",
+        "count": 6
+      },
+      {
+        "label": "AI workflows, adoption, or governance",
+        "count": 5
+      },
+      {
+        "label": "marketing, growth, sales, or creator work",
+        "count": 3
+      },
+      {
+        "label": "career, leadership, communication, or people",
+        "count": 2
+      },
+      {
+        "label": "lean, process improvement, quality, or constraints",
+        "count": 2
+      },
+      {
+        "label": "Excel, data, analytics, or BI",
+        "count": 1
+      },
+      {
+        "label": "other or unclear",
+        "count": 1
+      }
+    ],
+    "audience_distribution": [
+      {
+        "label": "purchasing and procurement practitioners",
+        "count": 28
+      },
+      {
+        "label": "planners and planning managers",
+        "count": 19
+      },
+      {
+        "label": "broad supply-chain practitioners",
+        "count": 13
+      }
+    ]
+  },
+  "saved_curated_patterns": {
+    "authors": [
+      {
+        "label": "Marcia D Williams",
+        "count": 35
+      },
+      {
+        "label": "Ruben Hassid",
+        "count": 27
+      },
+      {
+        "label": "MJ Jaindl",
+        "count": 21
+      },
+      {
+        "label": "Asmaa Gad",
+        "count": 20
+      },
+      {
+        "label": "Charlie Hills 🦩",
+        "count": 16
+      },
+      {
+        "label": "Eric Partaker",
+        "count": 16
+      },
+      {
+        "label": "Yonathan Levy",
+        "count": 16
+      },
+      {
+        "label": "Onesphore RAKOTOMALALA",
+        "count": 10
+      },
+      {
+        "label": "Anisha Jain",
+        "count": 7
+      },
+      {
+        "label": "Matt Barker",
+        "count": 7
+      },
+      {
+        "label": "Nicolas Cole 🚢👻",
+        "count": 7
+      },
+      {
+        "label": "Tom Mills",
+        "count": 7
+      },
+      {
+        "label": "Chris Donnelly",
+        "count": 6
+      },
+      {
+        "label": "Diandra Escobar",
+        "count": 5
+      },
+      {
+        "label": "Fatima Khan",
+        "count": 5
+      },
+      {
+        "label": "Lara Acosta",
+        "count": 5
+      },
+      {
+        "label": "Stanley",
+        "count": 5
+      },
+      {
+        "label": "Colby Kultgen",
+        "count": 4
+      },
+      {
+        "label": "How to AI",
+        "count": 4
+      },
+      {
+        "label": "Matt Gray",
+        "count": 4
+      }
+    ],
+    "target_audiences": [
+      {
+        "label": "creators and marketers",
+        "count": 150
+      },
+      {
+        "label": "broad professional or unstated",
+        "count": 84
+      },
+      {
+        "label": "planners and planning managers",
+        "count": 68
+      },
+      {
+        "label": "purchasing and procurement practitioners",
+        "count": 51
+      },
+      {
+        "label": "supply-chain transformation leaders",
+        "count": 47
+      },
+      {
+        "label": "broad supply-chain practitioners",
+        "count": 35
+      },
+      {
+        "label": "early-career professionals",
+        "count": 26
+      },
+      {
+        "label": "leaders and managers",
+        "count": 19
+      }
+    ],
+    "problem_families": [
+      {
+        "label": "AI workflows, adoption, or governance",
+        "count": 163
+      },
+      {
+        "label": "planning and forecasting",
+        "count": 66
+      },
+      {
+        "label": "career, leadership, communication, or people",
+        "count": 48
+      },
+      {
+        "label": "transformation, systems, ERP, or operating model",
+        "count": 41
+      },
+      {
+        "label": "marketing, growth, sales, or creator work",
+        "count": 34
+      },
+      {
+        "label": "inventory and replenishment",
+        "count": 28
+      },
+      {
+        "label": "logistics, warehousing, or transport",
+        "count": 26
+      },
+      {
+        "label": "procurement, sourcing, or suppliers",
+        "count": 26
+      },
+      {
+        "label": "other or unclear",
+        "count": 19
+      },
+      {
+        "label": "Excel, data, analytics, or BI",
+        "count": 16
+      },
+      {
+        "label": "lean, process improvement, quality, or constraints",
+        "count": 9
+      },
+      {
+        "label": "business strategy, finance, or entrepreneurship",
+        "count": 4
+      }
+    ],
+    "hook_types": [
+      {
+        "label": "plain premise/announcement",
+        "count": 290
+      },
+      {
+        "label": "correction/distinction",
+        "count": 57
+      },
+      {
+        "label": "evidence/result",
+        "count": 38
+      },
+      {
+        "label": "method/artifact promise",
+        "count": 34
+      },
+      {
+        "label": "pain/consequence scene",
+        "count": 20
+      },
+      {
+        "label": "complete list/map",
+        "count": 12
+      },
+      {
+        "label": "curiosity question",
+        "count": 12
+      },
+      {
+        "label": "timely change/news",
+        "count": 12
+      },
+      {
+        "label": "personal/build story",
+        "count": 5
+      }
+    ],
+    "ctas": [
+      {
+        "label": "platform engagement",
+        "count": 128
+      },
+      {
+        "label": "commercial conversion",
+        "count": 107
+      },
+      {
+        "label": "traffic/owned audience",
+        "count": 85
+      },
+      {
+        "label": "none",
+        "count": 68
+      },
+      {
+        "label": "keyword gate",
+        "count": 45
+      },
+      {
+        "label": "generic discussion",
+        "count": 37
+      },
+      {
+        "label": "direct contact",
+        "count": 5
+      },
+      {
+        "label": "practitioner discussion",
+        "count": 5
+      }
+    ],
+    "visual_structures": [
+      {
+        "label": "process or workflow",
+        "count": 130
+      },
+      {
+        "label": "not observed or unresolved",
+        "count": 124
+      },
+      {
+        "label": "chart, data, or formula",
+        "count": 78
+      },
+      {
+        "label": "comparison or matrix",
+        "count": 73
+      },
+      {
+        "label": "checklist, grid, or index",
+        "count": 29
+      },
+      {
+        "label": "reference or cheat sheet",
+        "count": 20
+      },
+      {
+        "label": "decision tree or branching path",
+        "count": 15
+      },
+      {
+        "label": "worked screenshot or demonstration",
+        "count": 9
+      },
+      {
+        "label": "narrative illustration or metaphor",
+        "count": 2
+      }
+    ],
+    "caveat": "Saved posts are an intentionally curated high-performing/interesting reference set. These counts describe the collection and packaging evidence; they do not estimate population prevalence or causal performance effects."
+  }
+}

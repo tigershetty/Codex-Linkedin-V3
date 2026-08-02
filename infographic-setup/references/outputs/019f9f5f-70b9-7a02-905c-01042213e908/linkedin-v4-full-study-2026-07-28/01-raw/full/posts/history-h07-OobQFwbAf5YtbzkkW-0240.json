@@ -1,0 +1,3184 @@
+{
+  "runId": "OobQFwbAf5YtbzkkW",
+  "datasetId": "FVy1cmGSxLCdDim0s",
+  "offset": 240,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7487815725613588482",
+      "entityId": "7487815725613588482",
+      "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7487815725613588482",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:groupPost:13090439-7487815724644749312",
+      "shareUrn": "urn:li:groupPost:13090439-7487815724644749312",
+      "content": "Ladies, I'm so sorry I've been neglecting you.  The last few months have been crazy, but for great reasons. And I'm proud and excited to announce that my first course is now available on LinkedIn Learning!!\n\nIt's a 5 day challenge with one section each day. It's called 5 Days to Cleaner Data and I hope you enjoy it.\n\nKeep pushing hard, put yourself out your comfort zone, and great things can happen!\n\nI want to be more active again, so let me know what type of content you'd like to see in the group!\n\nhttps://lnkd.in/dyh7D9SS",
+      "author": {
+        "id": null,
+        "universalName": "13090439",
+        "publicIdentifier": null,
+        "type": "company",
+        "name": "Women Who Speak",
+        "linkedinUrl": "https://www.linkedin.com/groups/13090439?q=highlightedFeedForGroups&highlightedUpdateUrn=urn%3Ali%3AgroupPost%3A13090439-7487815724644749312",
+        "info": "Susan Walsh • 3rd+",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": null,
+        "urn": "urn:li:group:13090439"
+      },
+      "postedAt": {
+        "timestamp": 1785234385875,
+        "date": "2026-07-28T10:26:25.875Z",
+        "postedAgoShort": "10h",
+        "postedAgoText": "10 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7487573930438856704",
+        "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_shut-the-front-door-5-days-to-cleaner-activity-7487573930438856704-sAAI",
+        "content": "SHUT THE FRONT DOOR... 5 Days to Cleaner Data?!\n\nYep, it's finally here. I've just launched my brand-new 5 Days to Cleaner Data challenge on LinkedIn Learning, and over the next five days I'll be sharing a different lesson each day this week.\n\nThink of it as a mini bootcamp for anyone who wants cleaner data, better analytics, and AI they can actually trust.\n\nWhether you're just starting out with data or you've been working with it for years, this challenge is designed to give you practical techniques you can put into action straight away.  \n\nOh, and did I mention the practice files and resources?  I know, I'm too good to you!\n\nBut I'm not just going to give it to you all at once; each day you'll tackle one hands-on task using my COAT framework to transform a messy dataset into one that's Consistent, Organised, Accurate and Trustworthy.\n\nNo fluff. No theory overload. Just practical, real-world data cleaning that will help you build confidence and create data you can trust.\n\nSo if you've ever wondered why your dashboards don't quite add up or why AI keeps giving you questionable answers, now's the perfect time to jump in.\n\nWho's joining me for Day 1? 🚀  https://lnkd.in/eFcKNdEq\n\nLinkedIn LinkedIn Learning The Classification Guru Ltd Samification Jennifer Brady Brandi Beals Starshine Roshell",
+        "contentAttributes": [
+          {
+            "start": 1196,
+            "length": 8,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "1337",
+              "name": "LinkedIn",
+              "linkedinUrl": "https://www.linkedin.com/company/linkedin/"
+            }
+          },
+          {
+            "start": 1205,
+            "length": 17,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "15083827",
+              "name": "LinkedIn Learning",
+              "linkedinUrl": "https://www.linkedin.com/showcase/linkedinlearning/"
+            }
+          },
+          {
+            "start": 1223,
+            "length": 27,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "11156031",
+              "name": "The Classification Guru Ltd",
+              "linkedinUrl": "https://www.linkedin.com/company/theclassificationguru/"
+            }
+          },
+          {
+            "start": 1251,
+            "length": 12,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "104222320",
+              "name": "Samification",
+              "linkedinUrl": "https://www.linkedin.com/showcase/samification/"
+            }
+          },
+          {
+            "start": 1264,
+            "length": 14,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAFpDt4Bjap_gfP7lsGrQLNEAK1Jl25n8YU",
+              "firstName": "Jennifer",
+              "lastName": "Brady",
+              "linkedinUrl": "https://www.linkedin.com/in/jennifercbrady",
+              "publicIdentifier": "jennifercbrady"
+            }
+          },
+          {
+            "start": 1279,
+            "length": 12,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAH8n2ABpOjnt4RJei2Lk87UlMmO2s2UDJg",
+              "firstName": "Brandi",
+              "lastName": "Beals",
+              "linkedinUrl": "https://www.linkedin.com/in/brandibeals",
+              "publicIdentifier": "brandibeals"
+            }
+          },
+          {
+            "start": 1292,
+            "length": 17,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAEQflYBA36GrpDWxw01frDMBehZ8_bNFdw",
+              "firstName": "Starshine",
+              "lastName": "Roshell",
+              "linkedinUrl": "https://www.linkedin.com/in/starshine-roshell",
+              "publicIdentifier": "starshine-roshell"
+            }
+          }
+        ],
+        "author": {
+          "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+          "universalName": null,
+          "publicIdentifier": "susanewalsh",
+          "type": "profile",
+          "name": "Susan Walsh",
+          "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+          "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+          "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+          "websiteLabel": "View my services",
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+            "width": 800,
+            "height": 800
+          },
+          "urn": "41922218"
+        },
+        "postedAt": {
+          "timestamp": 1785176737413,
+          "date": "2026-07-27T18:25:37.413Z",
+          "postedAgoShort": "1d",
+          "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [],
+        "article": {
+          "title": "Did Someone Say 5 Days to Cleaner Data??",
+          "subtitle": "Susan Walsh",
+          "link": "https://www.linkedin.com/pulse/did-someone-say-5-days-cleaner-data-susan-walsh-7ln6e?trackingId=Eq2xrYk%2BNspJnJK919S2KQ%3D%3D",
+          "linkLabel": "Open article: Did Someone Say 5 Days to Cleaner Data?? by Susan Walsh • 1 min read",
+          "description": "My New LinkedIn Learning Challenge is Live!I'm excited to share that Day 1 of my new \"5 Days to Cleaner Data\" LinkedIn Learning Challenge has official",
+          "image": null
+        },
+        "newsletterUrl": "https://www.linkedin.com/newsletters/the-data-dossier-6861649082113499136",
+        "newsletterTitle": "The Data Dossier",
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": false,
+          "hideSendAction": false,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/susanewalsh_shut-the-front-door-5-days-to-cleaner-activity-7487573930438856704-sAAI?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7487573930438856704",
+        "shareUrn": "urn:li:ugcPost:7487573929453248512",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487573929453248512",
+        "engagement": {
+          "id": "7487573929453248512",
+          "likes": 123,
+          "comments": 36,
+          "shares": 5,
+          "reactions": [
+            {
+              "type": "LIKE",
+              "count": 74
+            },
+            {
+              "type": "PRAISE",
+              "count": 38
+            },
+            {
+              "type": "EMPATHY",
+              "count": 7
+            },
+            {
+              "type": "APPRECIATION",
+              "count": 3
+            },
+            {
+              "type": "INTEREST",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "13090439-7487815724644749312",
+        "likes": 5,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485675796553154560",
+      "entityId": "7485675796553154560",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_you-know-youre-old-when-you-phonetically-activity-7485675796553154560-QPFj",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485675795978489856",
+      "shareUrn": "urn:li:share:7485675795978489856",
+      "content": "You know you’re old when…\n\n\nYou phonetically spell your postcode as “3 sierra tango” and the young girl asks “is it 3CT”\n\nWhen did this happen?? 😭😭😭😭\n\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1784724187029,
+        "date": "2026-07-22T12:43:07.029Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485675796553154560",
+        "likes": 15,
+        "comments": 8,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "ENTERTAINMENT",
+            "count": 10
+          },
+          {
+            "type": "LIKE",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487522938339033090",
+      "entityId": "7487522938339033090",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_the-dirty-data-clinic-you-bring-the-problem-activity-7487522938339033090-Hg6W",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487522936917082112",
+      "shareUrn": "urn:li:share:7487522936917082112",
+      "content": "The Dirty Data Clinic: You bring the problem, I’ll bring the solution! \n\nOn 10 September, I’ll be running a Dirty Data Clinic at KonnectHouse's Procurement Data Unlocked in New York, and I'm here to help YOU.\n\nThis isn’t going to be me standing on stage simply telling you that your data is dirty. You probably already know that! \n\nInstead, you’ll have the chance to bring me your real procurement data problems:\n\n💊 Duplicate suppliers\n💊 Inconsistent names and formats\n💊 Missing information\n💊 Classification conundrums\n💊 Taxonomy troubles\n💊 Data that simply isn’t fit for AI or automation\n\nAnd I’ll help diagnose what’s going wrong and, most importantly, what you can actually do about it.\n\nNo vague theory. No magic wand. Just practical advice from someone who has spent far too many years fixing dirty data!\n\nThe doctor is ready to see you now. Are you coming? 🩺 \n\nSign up here: https://lnkd.in/eCSRgBVT \n\nThis event has some other great speakers, including Stephen Day  FCIPS Jay Sklar Subs Tripathy  Kat Devlin Tiffanie J. and Michael Shields.\n\nShout out to Claire Barnes and Sophie Lumley for a great event.\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1785164579949,
+        "date": "2026-07-27T15:02:59.949Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5610AQFbVzV08yjJ7A/image-shrink_1280/B56Z.kGTR3JoAc-/0/1785164543399?e=1785877200&v=beta&t=4ySqB02M9JdNI5V4fsQnXiCo5p_qlhiIWKKOS3ab59Q",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487522938339033090",
+        "likes": 18,
+        "comments": 18,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 13
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486092363329785856",
+      "entityId": "7486092363329785856",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_from-the-outside-running-your-own-business-activity-7486092363329785856-sGNL",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486092359902949377",
+      "shareUrn": "urn:li:share:7486092359902949377",
+      "content": "From the outside, running your own business looks cool/fun/easy/exciting/glamourus.  But the reality is, it's HARD.\n\nHere's a chart of my turnover since 2017; this is not profit, but shows you just how wild the highs and lows can be.\n\nBut people don't want to talk about the lows; they think it doesn't look good to prospective clients, and might appear as though you're just \"moaning\".  But we're not.  We're really struggling some days, while others we are flying.  And those same feelings can also happen within the same hour too.\n\nSomeone said to me this week, \"I had no idea until I did it myself\", and this is important because so many people are embarking on self-employment and startups, and we need to prepare them for the reality.\n\nSome will do really well and get off the ground running; others will struggle.  You know, I didn't land my first client for 10 months; it was really tough. I had to supplement my income with contract and part-time work, which ultimately distracted me from the business, and I had to make a decision after 2 years to go all in or walk away.  \n\nThankfully, I went all in, but as you can see, it's not been smooth sailing that whole time. \n\nMy advice to anyone looking to start a business would be the following:\n\n- have at least 6 months' savings\n- never have more than 50% of your business with one client\n- prepare for delays and disappointments\n- people you think will support you can disappear\n- get a good accountant; Rebecca Trudgett has been my rock\n- use professionals where you lack experience; Laura Sands is my copywriting guru\n- GenAI is powerful now; leverage that as much as you can to help manage your workload\n\nI know some great business owners, some war-weary like me, others in the exciting new business phase.  I'd love to know some of their tips for business owners too.\n\nKirsty Carr Simon Bird Matthew Spencer Sheldon Mydat Anna McGovern Rachel Hassall Amanda Prochaska David McCarty Trusted Advisor  Daniela Osio Jem Bevan Sarah Bostock 🦎CHRISTINE A. MACKAY 🔜  Farnborough International Airshow (FIA) Josh Ryan EDITA SALTE",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1784823504288,
+        "date": "2026-07-23T16:18:24.288Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQEGR8TNh7rCdQ/image-shrink_1280/B4EZ.PxQrWJgAc-/0/1784823483433?e=1785877200&v=beta&t=j28BpZvvRzR0fZn5Oba5lJ0ecEEBs-6FuM5i2x1hzSA",
+          "width": 1280,
+          "height": 693
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486092363329785856",
+        "likes": 64,
+        "comments": 46,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 35
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 11
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485963793395703808",
+      "entityId": "7485963793395703808",
+      "linkedinUrl": "https://www.linkedin.com/posts/leechambers-1_watch-this-video-it-feels-so-close-to-home-ugcPost-7485846818287853568-eA38",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485846818287853568",
+      "shareUrn": "urn:li:ugcPost:7485846818287853568",
+      "content": "Watch this video\n\nIt feels so close to home\n\nIt was released by our friends at UN Women UK yesterday.\n\nIt resonates deeply. Because we’ve all been there.\n\nThe “what should I do”. The “what ifs”. The “someone else might”. The “is it my place”.\n\nIt’s why we’ve researched the impact of fear on men stepping in, both in the moment and to inclusion at large. Understanding it. Validating it. Working to move beyond it.\n\nIt’s why having challenging conversations, how to be an upstander and how to call out, in and forward are core skills in our work with men and organisations\n\nAnd it’s why we frame allyship as a skillset. A universal skillset that everyone can build. In the small, everyday moment of exclusion. Ready to be an upstander in moments that require a form of response.\n\nAt Male Allies UK, we are on a mission to equip 1 million men with the skills of allyship\n\nSkills that can be used to make change\n\nSkills that break the silence\n\nIt all starts with a conversation\n\nAre you ready to have one?",
+      "author": {
+        "id": "ACoAACymoTwBU6Ssj26X3mmdd4HJJPQgcIztnNA",
+        "universalName": null,
+        "publicIdentifier": "leechambers-1",
+        "type": "profile",
+        "name": "Lee Chambers",
+        "linkedinUrl": "https://www.linkedin.com/in/leechambers-1?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACymoTwBU6Ssj26X3mmdd4HJJPQgcIztnNA",
+        "info": "Making Allyship Happen - CEO at Male Allies UK - Keynote Speaker - UN Women Changemaker - Kavli Fellow - Author of Momentum",
+        "website": "https://www.linkedin.com/services/page/680397307905727007",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQH-0BkusVHSwg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693555541173?e=1786579200&v=beta&t=khz4eyF3S8YaTJvnUyVs7ATXphdn4SwQ1nCWclKvjMw",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "749117756"
+      },
+      "postedAt": {
+        "timestamp": 1784792850827,
+        "date": "2026-07-23T07:47:30.827Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQFEHmTymRTatw/videocover-high/B4EZ.MSBMXHsBc-/0/1784764966389?e=1785877200&v=beta&t=ttpTKWvj3z1mN8cALl-34Thxost17HjP1Wb0YelLs7Q",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQFEHmTymRTatw/mp4-720p-30fp-crf28/B4EZ.MSBMXHsCY-/0/1784764973336?e=1785877200&v=beta&t=XdmT1qBwytbLiGqiyOUeZu6RWYbaVKxVJQOMP72Ypso"
+      },
+      "repostedBy": {
+        "name": "Susan Walsh",
+        "publicIdentifier": "susanewalsh",
+        "universalName": null,
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg"
+      },
+      "repostedAt": {
+        "timestamp": 1784792850827,
+        "date": "2026-07-23T07:47:30.827Z"
+      },
+      "header": {
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "linkedinUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7485963793395703808?updateEntityUrn=urn%3Ali%3Afsd_update%3A%28urn%3Ali%3Aactivity%3A7485963793395703808%2CMEMBER_SHARES%2CDEBUG_REASON%2CDEFAULT%2Cfalse%29&originTrackingId=fUzHCL6ZpUPhswnAnY1RIg%3D%3D",
+        "imageLink": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "text": "Susan Walsh reposted this"
+      },
+      "engagement": {
+        "id": "7485846818287853568",
+        "likes": 1620,
+        "comments": 147,
+        "shares": 395,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1007
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 363
+          },
+          {
+            "type": "EMPATHY",
+            "count": 153
+          },
+          {
+            "type": "PRAISE",
+            "count": 65
+          },
+          {
+            "type": "INTEREST",
+            "count": 32
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486738879186632704",
+      "entityId": "7486738879186632704",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_they-say-dont-believe-everything-you-see-activity-7486738879186632704-f62h",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7486738876166815745",
+      "shareUrn": "urn:li:ugcPost:7486738876166815745",
+      "content": "They say don't believe everything you see on social media, and posts from my last holiday were the perfect example of that.\n\nYou all saw the lovely beaches, nice pools and fun activities, and fake smiles, trying to convince myself I was having a good time, but you didn't see what was really going on.\n\nI've raised complaints with the travel agent and fed back to the hotel, but I'm still waiting to hear back.  Here's what happened:\n\nOn my first evening, around 20–30 flies appeared in the toilet area, crawling up the walls and across the floor. I was aware there could be flies and had prepared for a few, but this was far more than that.\n\nWhen I reported it to reception, I was told it was normal, they looked as though they were dying anyway, and it was “just the way it is”. I felt dismissed and as though I was overreacting. After a long journey, as a solo female traveller in an unfamiliar hotel and country, I didn’t have the energy to push further. I simply wanted someone to acknowledge my concerns and remove the flies.\n\nWhen I returned from dinner, there were even more, crawling beneath the toilet door into the open-plan sink and bedroom area. I killed as many as I could with towels and blocked the bottom of the door with another towel.\n\nThroughout the week, I also experienced poor customer service in the bars and one restaurant, alongside several housekeeping issues. These included a stained duvet and dead flies being left for two days until I cleaned them myself.  And then there were the stray dogs...\n\nI tried to explain at checkout how the initial response had made me feel and how it had set the tone for my holiday. Once again, I was met with comments such as “they’re common here”, “we all have them in our homes” \n\nUnfortunately, the flies, housekeeping problems, and most importantly, the dismissive way my concerns were handled significantly affected my experience. Not what I expected from a supposedly 4* hotel.\n\nI didn't complain more because, as a solo female traveller, while I felt completely safe there, I didn't want to make myself vulnerable by complaining too much, and I hope this is taken into consideration when they review my complaint.\n\nIt also raises a great point around how important customer service and experience are, how you treat people, and how you make them feel.  If you're running a business, this is one of the most powerful things you leverage if you're doing it right.\n\nAnd these optics aren't just relevant to my holiday; this can be true for many different scenarios. So don't compare yourself to what you see on social media, focus on you, and enjoy the journey that you're on.\n\nHave a great weekend all and enjoy the summer hols!\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1784977645680,
+        "date": "2026-07-25T11:07:25.680Z",
+        "postedAgoShort": "3d",
+        "postedAgoText": "3 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGd_qLFV21OuA/feedshare-shrink_1280/B4EZ.Y9V19KoAQ-/0/1784977656674?e=1786579200&v=beta&t=_Dkwn47P0w_orRbh4NQyy4cn3FLp2y8pMC575-Ee0nI",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQENFdX2PSx1kA/feedshare-shrink_1280/B4EZ.Y9V04HkAQ-/0/1784977645465?e=1786579200&v=beta&t=KzEJ6C1aC9s6mDDd-GOiHggLJs8J7Fdtefq5QfvZ2o0",
+          "width": 1280,
+          "height": 1707
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGr8sMrAuKdaw/feedshare-image-high-res/B4EZ.Y9V0.H4AY-/0/1784977645381?e=1786579200&v=beta&t=wzCkjRdg82E1SOa-K5jSam-HFcT0MJdzH9XMFDpddS4",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFiUxC0YmhR0A/feedshare-shrink_1280/B4EZ.Y9V1ZK4AY-/0/1784977645476?e=1786579200&v=beta&t=7Q5S5llSI_oya7QToKRXEImJiBzAwG_9fLEPcYKN8ZE",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQENaXR5jryD8g/feedshare-image-high-res/B4EZ.Y9V1iKIAc-/0/1784977645428?e=1786579200&v=beta&t=_oF958KoVlFWwFpCXpC8h-aqsor5Q3ITllFYUvPaEr4",
+          "width": 1280,
+          "height": 960
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486738876166815745",
+        "likes": 25,
+        "comments": 19,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "APPRECIATION",
+            "count": 15
+          },
+          {
+            "type": "LIKE",
+            "count": 10
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484551421858664448",
+      "entityId": "7484551421858664448",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_the-hard-times-make-you-appreciate-the-good-activity-7484551421858664448-iKA9",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7484551359116197888",
+      "shareUrn": "urn:li:ugcPost:7484551359116197888",
+      "content": "The hard times make you appreciate the good times even more.\n\nAfter a rough couple of years, I finally managed to get my first holiday in 2 years. \n\nUnfortunately, while it looked amazing, I didn’t have the best experience and I’ve now raised a complaint. \n\nI’m most upset and disappointed because I spent a lot of money, which I worked really hard for, and didn’t get the service I expected - we’ve all been there, right??\n\nBut in the grand scheme of things, I’ve been through a lot worse. Taking these emotions out of it, nothing serious happened and there will be more holidays. \n\nSo this song celebrates the hard times that make us appreciate the good times.\n\nHave a great week ahead!\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1784456115212,
+        "date": "2026-07-19T10:15:15.212Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQE_BWrL6A-c3A/videocover-high/B4DZ953zl6GkBM-/0/1784456102678?e=1785877200&v=beta&t=Dlhypek2xKGsIvPF_FzyyXduobXr8lhYUxKR-i4NOQs",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQE_BWrL6A-c3A/mp4-720p-30fp-crf28/B4DZ953zl6GkB8-/0/1784456106767?e=1785877200&v=beta&t=UuQrw5XM4J1fS4OnBqtO7L8YQ5pPowDrSZYT_MaoXUo"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484551359116197888",
+        "likes": 53,
+        "comments": 12,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 33
+          },
+          {
+            "type": "EMPATHY",
+            "count": 11
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487095858723934208",
+      "entityId": "7487095858723934208",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_happy-sunday-saw-this-on-insta-and-decided-activity-7487095858723934208-fRUL",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487095820127813632",
+      "shareUrn": "urn:li:ugcPost:7487095820127813632",
+      "content": "Happy Sunday! Saw this on Insta and decided to make my own.\n\nProud to be a badass and own my bitchiness 😉\n\nHere are just some of the words strong women get called:\n\n🧐 Bossy\n🧐 Difficult\n🧐 Pushy\n🧐 Demanding\n🧐 Opinionated\n🧐 Loud\n🧐 “Too much”\n🧐 Emotional\n\nMeanwhile, similar traits in men are often described as:\n\n🤔 Leader\n🤔 Passionate\n🤔 Persistent\n🤔 Authoritative\n🤔 Straight talking\n\nSame behaviours. Different labels.\n\nThe good news? More women are owning these words instead of apologising for them.\n\nI’ll happily be “bossy” if it means getting things done. I’ll happily be “opinionated” if it means standing up for what I believe in.\n\nAnd if being “too much” means refusing to make myself smaller to make someone else comfortable… I’ll take that too.\n\nWhat did I miss?\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1785062756234,
+        "date": "2026-07-26T10:45:56.234Z",
+        "postedAgoShort": "2d",
+        "postedAgoText": "2 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQG-yhB0jclk6A/videocover-high/B4EZ.eB.qAJMBM-/0/1785062748508?e=1785877200&v=beta&t=moyJ1iDGq902kWhs3x9usZWpx3Yday8dJhK0UfiAoqQ",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQG-yhB0jclk6A/mp4-720p-30fp-crf28/B4EZ.eB.qAJMB8-/0/1785062749655?e=1785877200&v=beta&t=cxGlhq5bpG4QOHWs5w9lkNIjTmpL8wIAQXmcqxMH_2c"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487095820127813632",
+        "likes": 46,
+        "comments": 26,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 22
+          },
+          {
+            "type": "PRAISE",
+            "count": 11
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485596676209074176",
+      "entityId": "7485596676209074176",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_its-official-even-chatgpt-knows-that-nothing-activity-7485596676209074176-e072",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485596675013693441",
+      "shareUrn": "urn:li:share:7485596675013693441",
+      "content": "It's official!  Even ChatGPT knows that nothing escapes The Classification Guru 🤣 \n\nAt some point in the last month or so, there was a shift in my relationship with my GPT.  We took it to the next level, and I'm not talking romantically!\n\nI truly now see mine as a coworker; we have banter together, I bounce ideas off of it, and I feed back to it when it's not right.  I know many switched over to Claude, but I've built up a solid knowledge base over the last two years that I just don't believe you can \"lift and shift\" into another tool.\n\nRecently, it's been exceptional, but this week, it's been a bit wonky, so I was asking about it during this conversation.\n\nI tend to find these things go in waves; it gets worse for a bit, then so much better afterwards.  As with everything in life, it's about consistency.  Sticking with it pays off in the long run, I believe.\n\nBut I also believe in the right tool for the right job, so there's definitley things I wouldn't ask it to do, like presentations, for example.\n\nI'd love to know what GPT you're using, and how you're using it. Do you get the good bants with yours like I do?\n\nSpill all in the comments...\n\nOpenAI The Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1784705323269,
+        "date": "2026-07-22T07:28:43.269Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHcR0iafRqTow/feedshare-image-high-res/B4EZ.IugrKH8AU-/0/1784705321930?e=1786579200&v=beta&t=fUDinXemigtpvoy2dnhE7ijaKjRA7wV24zCd7F2SAp4",
+          "width": 888,
+          "height": 460
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485596676209074176",
+        "likes": 27,
+        "comments": 11,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 13
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 11
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483458297568751616",
+      "entityId": "7483458297568751616",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_this-is-how-i-feel-when-ive-classified-and-activity-7483458297568751616-Z6ml",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483458255688568832",
+      "shareUrn": "urn:li:ugcPost:7483458255688568832",
+      "content": "This is how I feel when I’ve classified and cleaned data, and how you will too!\n\nYou’ll get a full picture of what’s going on around you, giving you the opportunity to delve in on the details.\n\nWe’ll give you clarity, peace and focus to make the right decisions and and find opportunities you didn’t even know existed.\n\nWhether that’s a new customised taxonomy, supplier normalisation, classification, vendor master, ERP, P2P or CRM cleaning, or perhaps help with a transformation project, we’re here to help.\n\nIf you’d like to feel like this, get in touch!\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1784195494072,
+        "date": "2026-07-16T09:51:34.072Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQGnWYEGkFORBg/videocover-high/B4DZ9qVolgIIBM-/0/1784195486344?e=1785877200&v=beta&t=jM_mNo5c4a7igrKTyuKgRlLN-1yTowmHZz1mSqzi_bg",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQGnWYEGkFORBg/mp4-720p-30fp-crf28/B4DZ9qVolgIIB8-/0/1784195489036?e=1785877200&v=beta&t=BeSaxztmn-fUnJ0t63h5vbbK-UvMGVWSsa-nAfdJ-Io"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483458255688568832",
+        "likes": 46,
+        "comments": 10,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 30
+          },
+          {
+            "type": "EMPATHY",
+            "count": 11
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487573930438856704",
+      "entityId": "7487573930438856704",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_shut-the-front-door-5-days-to-cleaner-activity-7487573930438856704-sAAI",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487573929453248512",
+      "shareUrn": "urn:li:ugcPost:7487573929453248512",
+      "content": "SHUT THE FRONT DOOR... 5 Days to Cleaner Data?!\n\nYep, it's finally here. I've just launched my brand-new 5 Days to Cleaner Data challenge on LinkedIn Learning, and over the next five days I'll be sharing a different lesson each day this week.\n\nThink of it as a mini bootcamp for anyone who wants cleaner data, better analytics, and AI they can actually trust.\n\nWhether you're just starting out with data or you've been working with it for years, this challenge is designed to give you practical techniques you can put into action straight away.  \n\nOh, and did I mention the practice files and resources?  I know, I'm too good to you!\n\nBut I'm not just going to give it to you all at once; each day you'll tackle one hands-on task using my COAT framework to transform a messy dataset into one that's Consistent, Organised, Accurate and Trustworthy.\n\nNo fluff. No theory overload. Just practical, real-world data cleaning that will help you build confidence and create data you can trust.\n\nSo if you've ever wondered why your dashboards don't quite add up or why AI keeps giving you questionable answers, now's the perfect time to jump in.\n\nWho's joining me for Day 1? 🚀  https://lnkd.in/eFcKNdEq\n\nLinkedIn LinkedIn Learning The Classification Guru Ltd Samification Jennifer Brady Brandi Beals Starshine Roshell",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1785176737413,
+        "date": "2026-07-27T18:25:37.413Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Did Someone Say 5 Days to Cleaner Data??",
+        "subtitle": "Susan Walsh",
+        "link": "https://www.linkedin.com/pulse/did-someone-say-5-days-cleaner-data-susan-walsh-7ln6e?trackingId=Eq2xrYk%2BNspJnJK919S2KQ%3D%3D",
+        "linkLabel": "Open article: Did Someone Say 5 Days to Cleaner Data?? by Susan Walsh • 1 min read",
+        "description": "My New LinkedIn Learning Challenge is Live!I'm excited to share that Day 1 of my new \"5 Days to Cleaner Data\" LinkedIn Learning Challenge has official",
+        "image": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487573929453248512",
+        "likes": 123,
+        "comments": 36,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 74
+          },
+          {
+            "type": "PRAISE",
+            "count": 38
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484170464760807424",
+      "entityId": "7484170464760807424",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_happy-saturday-everyone-may-your-choices-activity-7484170464760807424--0x-",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484170463779131393",
+      "shareUrn": "urn:li:share:7484170463779131393",
+      "content": "Happy Saturday everyone, may your choices be abundant 😂😂",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1784365287962,
+        "date": "2026-07-18T09:01:27.962Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFtP-wYJuy6UA/feedshare-shrink_1280/B4DZ90dYRcI0AM-/0/1784365286933?e=1786579200&v=beta&t=IzReuFfwE2LBNM1mAleQeZVXQV8u5qr5eB4Vu-OCICM",
+          "width": 1179,
+          "height": 1954
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484170464760807424",
+        "likes": 22,
+        "comments": 4,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "ENTERTAINMENT",
+            "count": 12
+          },
+          {
+            "type": "LIKE",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487784287635943424",
+      "entityId": "7487784287635943424",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_i-dont-know-how-you-could-have-but-just-activity-7487784287635943424-uaC9",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487784286876651521",
+      "shareUrn": "urn:li:ugcPost:7487784286876651521",
+      "content": "I don't know how you could have, but just in case you missed it, the first of my LinkedIn Learning courses is LIVE.\n\nIt's a 5-day challenge, small bits every day to get you to cleaner data.  And your very own dirty datasets to work with!\n\nSo if you have a LinkedIn Learning subscription, get you and your team on this challenge.  Why not even compare results?  \n\nAnd let me know how you get on!",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1785226890477,
+        "date": "2026-07-28T08:21:30.477Z",
+        "postedAgoShort": "12h",
+        "postedAgoText": "12 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D560DAQEFB4KiY3pcwA/learning-public-crop_240_432/B56Z8FkPLtIgAU-/0/1782504813850?e=1785877200&v=beta&t=6U_whX68yMoFtX4flmXVLD--LtLU4NAqCWE_fGLgKGo",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D0DAQF82mi2bs9t1Q/mp4-1080p-30fp-crf28/B4DZ.BPrR7K0A8-/0/1784579819467?e=1785877200&v=beta&t=nBGhbS3Ex42HfnBISlHufv316wkKcB9XidDjHOqMIrk"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487784286876651521",
+        "likes": 154,
+        "comments": 66,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 81
+          },
+          {
+            "type": "PRAISE",
+            "count": 52
+          },
+          {
+            "type": "EMPATHY",
+            "count": 18
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484985524181610497",
+      "entityId": "7484985524181610497",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_classification-question-where-would-maintenance-activity-7484985524181610497-aRRG",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484909766088167425",
+      "shareUrn": "urn:li:share:7484909766088167425",
+      "content": "Classification question: \"Where would maintenance/servicing spend sit in this? It's both parts and labour(people)?\"\n\nTom Mills tagged me in a comment on one of his posts this weekend, answering the above question by David J..\n\nMy response was that I always classify based on what you’re buying from the supplier. So, if the parts/spares are included as part of the service or maintenance, then I would classify it as a service. \n\nIf they are purely buying parts with no service included, then for me, it’s a product.\n\nAnother way to look at it is this: Are the costs of the parts, which are part of a service, negotiable, i.e., can you negotiate the price of this? If not, then I’d put it under service.\n\nThat being said, if the client wants it to be classified as parts, we will do that.  It has to be what is best for your organisation.\n\nHow do you classify maintenance/servicing?\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1784559613271,
+        "date": "2026-07-20T15:00:13.271Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQG4DpoQVkdVxA/feedshare-image-high-res/B4EZ9.9xSKKQAY-/0/1784541550138?e=1786579200&v=beta&t=W3yp9_D1iC28caQDlZqFoVnvPZ0KZYYr88QlsLjrv4I",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484985524181610497",
+        "likes": 14,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 9
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483052045759905792",
+      "entityId": "7483052045759905792",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_im-baaaack-but-just-no-work-until-tomorrow-activity-7483052045759905792-IlOH",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483052044623335425",
+      "shareUrn": "urn:li:share:7483052044623335425",
+      "content": "I’m baaaack, but just! No work until tomorrow though 😃\n\nAnd when I am back, give me a call. \n\nJust like this picture, your data could look lovely at first glance, but you never know what is hiding under the surface, and so it’s always worth checking.\n\nThere are a lot of digital transformation and implementation projects going on right now, and dirty data could sabotage it.\n\nInvest up front and you will reap the rewards down the line, helping to minimise errors, delays, extra costs, or even abandonment of the project.\n\nAlways happy to help, plus in need to fund my next holiday I’m not waiting another 2 years 😂😂\n\nThe Classification Guru Ltd  Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1784098636093,
+        "date": "2026-07-15T06:57:16.093Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHzgbxDkTjB7Q/feedshare-image-high-res/B4DZ9kkLKyI8AU-/0/1784098634711?e=1786579200&v=beta&t=SygbN3u6eiWyJQXJMVevBcYWzawbA3mlVWs6DHESd_s",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483052045759905792",
+        "likes": 55,
+        "comments": 10,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 39
+          },
+          {
+            "type": "EMPATHY",
+            "count": 10
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480195625687429121",
+      "entityId": "7480195625687429121",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_as-im-not-working-here-a-non-work-post-activity-7480195625687429121-Pkb_",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480195624664014862",
+      "shareUrn": "urn:li:share:7480195624664014862",
+      "content": "As I’m not working, here a non work post 😂",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1783417612478,
+        "date": "2026-07-07T09:46:52.478Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFYKJeWW-mUMw/feedshare-shrink_1280/B4EZ87.SSzKoAM-/0/1783417611717?e=1786579200&v=beta&t=jctU6WFGdeRYhZVsen5yEHhnrtX_jY2BVtO_QS2XKXE",
+          "width": 1179,
+          "height": 1966
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480195625687429121",
+        "likes": 50,
+        "comments": 8,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "ENTERTAINMENT",
+            "count": 24
+          },
+          {
+            "type": "LIKE",
+            "count": 23
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481756936472887296",
+      "entityId": "7481756936472887296",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_happy-saturday-i-made-friends-im-in-the-activity-7481756936472887296-5w4-",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481756935474790400",
+      "shareUrn": "urn:li:share:7481756935474790400",
+      "content": "Happy Saturday!\n\nI made friends. I’m in the bar again 😂\n\nHere’s your weekly demotivation….",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1783789857977,
+        "date": "2026-07-11T17:10:57.977Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEyDzRcMseTMQ/feedshare-shrink_1280/B4EZ9SKShbJ0AQ-/0/1783789857154?e=1786579200&v=beta&t=6DfMZPrJkaY_DcpjI0dafvMNijVVbRldODo6VPkO2JY",
+          "width": 1179,
+          "height": 2115
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481756936472887296",
+        "likes": 25,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "ENTERTAINMENT",
+            "count": 14
+          },
+          {
+            "type": "LIKE",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486374638235713536",
+      "entityId": "7486374638235713536",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_one-of-my-linkedin-learning-courses-is-imminent-activity-7486374638235713536-2jMa",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7486374635568103424",
+      "shareUrn": "urn:li:ugcPost:7486374635568103424",
+      "content": "One of my LinkedIn Learning courses is imminent, but do you know what I had to go through to get to the right place??\n \nLondon, New York, and then finally Carpinteria after a 33-hour disaster journey with no luggage. But it was worth every single second. I can't wait to see the results and start sharing them with you very soon...\n \nBut absolutely none of this would be possible without Jennifer Brady reaching out in the first place and Brandi Shailer thinking it was a good idea. It literally made my year!\n \nThen I was introduced to Starshine Roshell, superstar producer extraordinaire who helped me build something amazing, not once, but twice!\n \nFinally, the production team behind it: Elise London, Aron Ives Ash Blodgett and Belle Lin on makeup.\n \nAnd there were a whole host more people on site, from reception to the canteen to the sound and lighting guys, who made it a really special occasion.\n \nIf you're keen to get your hands on the first course as soon as it launches, make sure you're subscribed to my LinkedIn newsletter as I'll be publishing the link as soon as it's live. \n\nSign up here https://lnkd.in/e2y2wBkR \n \nCongrats to George Firican who also has a course coming out soon too, and these fabulous people already have courses available right now - Serena H. Huang, Ph.D. Kristen Kehrer Christina Stathopoulos, MSc Keith McCormick Martin John Oz du Soleil\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1784890803870,
+        "date": "2026-07-24T11:00:03.870Z",
+        "postedAgoShort": "4d",
+        "postedAgoText": "4 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQGY-4y9L0PHbw/videocover-low/B4EZ.OflNAIkBI-/0/1784802075528?e=1785877200&v=beta&t=0FYPxv4XqaMo-8p8OmADDTOEv4J6-l-ZlAl7o5ghJkc",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQGY-4y9L0PHbw/mp4-720p-30fp-crf28/B4EZ.OflNAIkB8-/0/1784802081407?e=1785877200&v=beta&t=teLnJl2X7ExL36eGgg1Y4eHNhzSgVM35mUmACuiSHro"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486374635568103424",
+        "likes": 76,
+        "comments": 21,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 43
+          },
+          {
+            "type": "PRAISE",
+            "count": 16
+          },
+          {
+            "type": "EMPATHY",
+            "count": 15
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478844099077419008",
+      "entityId": "7478844099077419008",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_its-f-it-friday-and-i-am-frazzled-activity-7478844099077419008-prez",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7478844098553192449",
+      "shareUrn": "urn:li:ugcPost:7478844098553192449",
+      "content": "It's F-It Friday... and I am FRAZZLED! 🤯\n\nLike really frazzled, but in a fantastically good way.\n\nJune has been an absolute whirlwind - speaking events, webinars, filming my LinkedIn Learning course, and somehow trying to keep everything else moving too!\n\nI honestly don't think I've ever worked as hard as I have over the last few months, but I'm incredibly grateful to be busy and tired for all the right reasons.\n\nFilming the course was definitely the highlight of the month... although just getting there turned into an adventure in itself. You'll have to read on for that story!\n\nI've also been unusually quiet on the Samification™ front. Don't worry, we're still here, quietly tinkering away behind the scenes, making it bigger, better and brainier while everything else has been going on.\n\nSo, here's what June looked like, hope you all have a wonderful weekend.  Time to switch off...\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1783095383424,
+        "date": "2026-07-03T16:16:23.424Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "The Data June-iverse",
+        "subtitle": "Susan Walsh",
+        "link": "https://www.linkedin.com/pulse/data-june-iverse-susan-walsh-2en6e?trackingId=kJfK%2FAvvznE9RzIWP1V8kQ%3D%3D",
+        "linkLabel": "Open article: The Data June-iverse by Susan Walsh • 4 min read",
+        "description": "I am frazzled! But in a fantastically great way. June saw a couple of events, and of course the big news - filming my LinkedIn Learning course. I don'",
+        "image": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E12AQEtcF3hY8gYfQ/article-cover_image-shrink_720_1280/B4EZ8owlOKIsAQ-/0/1783095252567?e=1786579200&v=beta&t=5z2ODdmxTYS3Gsr4M1MSuuvyWYtoYgFhXcPXEb7NOEk",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478844098553192449",
+        "likes": 44,
+        "comments": 17,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 24
+          },
+          {
+            "type": "PRAISE",
+            "count": 14
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482441508659580929",
+      "entityId": "7482441508659580929",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_how-was-your-monday-yeh-not-bad-i-i-activity-7482441508659580929-lG5a",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7482441507711541248",
+      "shareUrn": "urn:li:ugcPost:7482441507711541248",
+      "content": "How was your Monday? Yeh not bad, I….\n\nI did ALL the things today 😍\n\n✅ Catamaran\n✅ Waterfall\n✅ Wild monkeys\n✅ Snorkelling\n✅ Parasailing\n✅ Visit a beautiful beach\n✅ Saw boats called Vitamin Sea and Fanta Sea\n✅ Didn’t get burned \n\nIt was MAGICAL.  Thank you dirty data.\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1783953072705,
+        "date": "2026-07-13T14:31:12.705Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEAL1p6fQuHGQ/feedshare-image-high-res/B4DZ9b422iJAAU-/0/1783953061966?e=1786579200&v=beta&t=LAa7G2ZgIhqJ49yVHmaJemVGuHvm1RsdcSJwIa8SGSs",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGS1p5ADW6-Sw/feedshare-shrink_1280/B4DZ9b43RxHgAQ-/0/1783953070610?e=1786579200&v=beta&t=WhXDVDqMLHwI7DrYgrAzhQv8_bR0Y9yBkr3Sj2CIS6U",
+          "width": 1280,
+          "height": 1707
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFl7Oa47xQJLA/feedshare-shrink_1280/B4DZ9b43SkHgAQ-/0/1783953064153?e=1786579200&v=beta&t=gBGE7hMmRZvt-OhIctzojmZZTJVbZYjkFlyXf6z5nH8",
+          "width": 1280,
+          "height": 1707
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQF1ztvLOnJ4xw/feedshare-shrink_1280/B4DZ9b43KyGYAM-/0/1783953067923?e=1786579200&v=beta&t=YJBsBierlEdjdjjQaA7uMzpwsNTjocQirhqXPwQPrSc",
+          "width": 1280,
+          "height": 1707
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHAwpLpirZodQ/feedshare-shrink_1280/B4DZ9b422IHEAQ-/0/1783953062154?e=1786579200&v=beta&t=Wr8QyFTNLWHwBoBLUwHu0a1uVXUwvW8ojgUl2YPVy2M",
+          "width": 1280,
+          "height": 1707
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEqspaCD6-nYg/feedshare-shrink_1280/B4DZ9b427gK0AM-/0/1783953065462?e=1786579200&v=beta&t=eN468NLWq5WvAmpv9n15dkYqmz2TZ3pMuIk6FUBSO-I",
+          "width": 1280,
+          "height": 1707
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHLOfn3U8Z18Q/feedshare-image-high-res/B4DZ9b42vcI4AY-/0/1783953062009?e=1786579200&v=beta&t=KYJgcZzkIUT02gKPwAvAP0ogffAVqvlrDeJf037tVFc",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQG3Ytmk4JNJHg/feedshare-shrink_1280/B4DZ9b428JHgAQ-/0/1783953066183?e=1786579200&v=beta&t=uZ0yGYZ9yPJMYzAQfpilpSM1Jfreaqx4wpjnoOaF6YE",
+          "width": 1280,
+          "height": 1707
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHC1GPDo9dpMQ/feedshare-image-high-res/B4DZ9b43AgI8AU-/0/1783953065204?e=1786579200&v=beta&t=XnH-1zPYN8GlxQ10S8OkFcUpkMjmt6ywTSSTXz4lKQs",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHBZPtx1Y4zeg/feedshare-image-high-res/B4DZ9b429pJ8AU-/0/1783953063919?e=1786579200&v=beta&t=QQCwRTTahUZtNbqKuYU4tiN9gNgyhSsAX8Ksf4-tjuo",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEjzACdtZhBig/feedshare-image-high-res/B4DZ9b43ShJQAY-/0/1783953064256?e=1786579200&v=beta&t=ehVi-EPdqw0WmY-UGh9ow0su_YAZa8osmxeRf_ebyHI",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGbABGmuYsS8w/feedshare-shrink_1280/B4DZ9b43TcIYAM-/0/1783953067158?e=1786579200&v=beta&t=VSSHi6aBHPphQqe2ErWmsP0xIqFGKZF1HJ_asDkgJSA",
+          "width": 1280,
+          "height": 1707
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482441507711541248",
+        "likes": 116,
+        "comments": 17,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 75
+          },
+          {
+            "type": "EMPATHY",
+            "count": 33
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479511387589873664",
+      "entityId": "7479511387589873664",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_im-tired-actually-im-exhausted-ive-activity-7479511387589873664-I-bw",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7479511386616729600",
+      "shareUrn": "urn:li:ugcPost:7479511386616729600",
+      "content": "I’m tired. Actually, I’m exhausted. \n\nI’ve worked since Feb with very few days off and I’m at the airport again.\n\nBut this time it’s different. I’m taking my first holiday in 2 years and I’m so excited. Wait till you see where I end up!\n\nAnd as well as that, I hit 37kg weight loss today, so I’ll be celebrating by putting it some of back on and I can’t wait!\n\nSo watch this space. Some of you know, so don’t spoil the fun, but can you think where I might be going??\n\nAlso I met a new guy today 😂😂\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1783254477403,
+        "date": "2026-07-05T12:27:57.403Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHsistaRzX8SA/feedshare-image-high-res/B4EZ8yP8NsHwAo-/0/1783254470992?e=1786579200&v=beta&t=USL6E4cocJZ8qMOeWa4emjEKhT8BibSRgVWAfTBbZhE",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQF1nn6BZ89kqg/feedshare-image-high-res/B4EZ8yP9JdKoAU-/0/1783254476442?e=1786579200&v=beta&t=vj_HQnj007UG4uZtd3WIARUjTLX9ba5NqvLYL9a87RI",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479511386616729600",
+        "likes": 217,
+        "comments": 74,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 129
+          },
+          {
+            "type": "EMPATHY",
+            "count": 50
+          },
+          {
+            "type": "PRAISE",
+            "count": 27
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 11
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479204443213828096",
+      "entityId": "7479204443213828096",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_happy-saturday-i-like-big-bots-activity-7479204443213828096-64LD",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479204442144288768",
+      "shareUrn": "urn:li:share:7479204442144288768",
+      "content": "Happy Saturday!  🎶🎶🎶\n\nI like big bots and I cannot lie,\nYou other data nerds can’t deny,\nWhen a file logs in with a messy little case,\nAnd bad fields in your face\nYou get SPRUNG!\n\nWanna dive in deep,\n’Cause your dataset’s lookin’ cheap,\nThose errors you keep ignorin’,\nGot my pivot tables snorin’.\n\nOh AI, I wanna train ya,\nClassify ya,\nAuto-clean and refine ya.\n\nMy team tried to warn me,\nThat dirty data’s lookin’ way too thorny!\n\nOoh big bots smooth that grime,\nClean rows one line at a time,\nWith Python or R, we’ll own it,\n’Cause a clean dataset? I want it!\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1783181296161,
+        "date": "2026-07-04T16:08:16.161Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEsCdei7c65uQ/feedshare-shrink_1280/B4EZ8t4zyZJUAM-/0/1783181295054?e=1786579200&v=beta&t=9kUEKNk9F0px4VIkShU7930rVgrZfr8JDK3z6k-le3I",
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479204443213828096",
+        "likes": 35,
+        "comments": 9,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "ENTERTAINMENT",
+            "count": 16
+          },
+          {
+            "type": "LIKE",
+            "count": 11
+          },
+          {
+            "type": "EMPATHY",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485291391846359040",
+      "entityId": "7485291391846359040",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_this-is-how-we-think-ai-works-but-the-reality-activity-7485291391846359040-Zu53",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485291329460146176",
+      "shareUrn": "urn:li:ugcPost:7485291329460146176",
+      "content": "This is how we think AI works, but the reality is very different....\n\nWe wave a magic wand 🪄 , and poof!🌟 Instant results. \n\nExcept it's not like that; AI isn’t magic. It can only work with the data, instructions and context we give it.\n\nIf your data is inaccurate, incomplete, duplicated, inconsistent or poorly structured, AI won’t magically know what you meant. It will use what you give it, and potentially produce the wrong answer faster, and at a much bigger scale.\n\nClean data gives AI the strong foundations it needs to identify patterns, make accurate recommendations and deliver results you can actually trust.\n\nSo, before you expect a fairytale ending from AI, make sure your data is ready for the ball. And of course, Alteryx can help. \n\nBecause AI might provide the magic, but clean data makes the magic possible. \n\nAnd yes, I will absolutely milk my princess outfit from Alteryx Inspire at any opportunity! \n\nShout out to my co-princess Serena H. Huang, Ph.D., and the mostly willing participants Aiah Rachel Wieder, Nicola Woodhouse and Matt Chisam at Golden Analytics for joining in the fun!\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1784632537805,
+        "date": "2026-07-21T11:15:37.805Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQGlmoxTMgg-9g/videocover-low/B4EZ.EY0r5HABI-/0/1784632529773?e=1785877200&v=beta&t=6v2utioLpb45Am3R_EdS-NgKq5gr5C2b3D7Nh5GBGII",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQGlmoxTMgg-9g/mp4-720p-30fp-crf28/B4EZ.EY0r5HAB8-/0/1784632531497?e=1785877200&v=beta&t=MfnijgeD2pvajDzEtGMJPowNK07Y-LxA5PGQJdIgfaQ"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485291329460146176",
+        "likes": 26,
+        "comments": 2,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 14
+          },
+          {
+            "type": "EMPATHY",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481274088913719296",
+      "entityId": "7481274088913719296",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_friday-vibes-have-a-good-weekend-everyone-activity-7481274088913719296-WXXj",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7481274037999046658",
+      "shareUrn": "urn:li:ugcPost:7481274037999046658",
+      "content": "Friday vibes, have a good weekend everyone!",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1783674738148,
+        "date": "2026-07-10T09:12:18.148Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQGFNP1DEh7oHg/videocover-low/B4EZ9LTGUXHMBI-/0/1783674727958?e=1785877200&v=beta&t=3P15Pf9wt7C8iUusX7Iv2CSrvJdpomzYt5fTMxsBISk",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQGFNP1DEh7oHg/mp4-720p-30fp-crf28/B4EZ9LTGUXHMB8-/0/1783674733089?e=1785877200&v=beta&t=yTqvnr0Zjy7koR1ig4VLcC2dd0U1IPxVG3PqA82OyU8"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481274037999046658",
+        "likes": 88,
+        "comments": 13,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 56
+          },
+          {
+            "type": "EMPATHY",
+            "count": 26
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485998531359522816",
+      "entityId": "7485998531359522816",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_when-a-bunch-of-women-in-procurement-get-activity-7485998531359522816-1jVP",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485998529354608641",
+      "shareUrn": "urn:li:share:7485998529354608641",
+      "content": "When a bunch of women in procurement get together, something magical happens.\n\nAnd I'm so excited to be attending the KonnectHouse Women in Procurement Leadership & Development Seminar in New York on 9th September.\n\nThis event will be bringing together a dynamic and feisty community of women who uplift, inspire, and champion one another while sharing knowledge, building meaningful connections and supporting each other’s professional growth. Along with a few laughs and maybe bubbles 🥂  along the way....\n\nI’m looking forward to an engaging day of honest conversations and actionable insights covering leadership, influence, executive presence, career development, personal branding, and creating more inclusive workplace cultures.\n\nNot only that, but many of my connections will be attending, and it's going to be a great opportunity to catch up or meet for the first time.\n\nSo, who wants to join me in New York?  \n\nI'm looking forward to seeing Dr. Charlotte Anabelle de Brabandt - Digital Futurist Shachi Rai Gupta Amanda Prochaska A'Keela Johnson, MBA Cynthia O'Dell MBA, PMP Sheri Spinks and of course, the fabulous female organisers Claire Barnes and Sophie Lumley \n\n\n👉 Find out more and reserve your place:\nhttps://lnkd.in/eeja2Bcf \n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1784801133003,
+        "date": "2026-07-23T10:05:33.003Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E10AQG7JjTH0G-NqQ/image-shrink_1280/B4EZ.Ob7AwH8Ag-/0/1784801112433?e=1785877200&v=beta&t=i9gNSs4J8HY0cRYBGeSjUURdiRnF4HB7o0NNfOB-QNk",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485998531359522816",
+        "likes": 87,
+        "comments": 26,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 53
+          },
+          {
+            "type": "EMPATHY",
+            "count": 16
+          },
+          {
+            "type": "PRAISE",
+            "count": 13
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484287385250238464",
+      "entityId": "7484287385250238464",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_if-linkedin-posts-were-more-honest-im-activity-7484287385250238464-xG7R",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484287384264695809",
+      "shareUrn": "urn:li:share:7484287384264695809",
+      "content": "If LinkedIn posts were more honest….\n\nI’m in a playful mood today, back to serious(ish) business from Monday…",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1784393163979,
+        "date": "2026-07-18T16:46:03.979Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEevAmLUebC9A/feedshare-shrink_1280/B4DZ92HuFYJwAM-/0/1784393163342?e=1786579200&v=beta&t=0f10vbSBj4OXu-7Zgw-NeGHghtrGECTFDT_vxJKPW0Y",
+          "width": 1179,
+          "height": 1608
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484287385250238464",
+        "likes": 36,
+        "comments": 14,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "ENTERTAINMENT",
+            "count": 19
+          },
+          {
+            "type": "LIKE",
+            "count": 14
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480991334741295104",
+      "entityId": "7480991334741295104",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_what-do-you-call-this-wee-guy-he-was-on-activity-7480991334741295104-ZfQI",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480991333508325377",
+      "shareUrn": "urn:li:share:7480991333508325377",
+      "content": "What do you call this wee guy? \n\nHe was on my wall here in Mauritius, I‘ve known him as a forky taily my whole life.\n\nApparently he’s an earwig to the rest of the world 😂\n\nAnd that is why it’s important to put a COAT on your data, especially when working. Across teams and regions. Make sure it’s:\n\nConsistent - everyone’s using the same language, terminology, processes, standards and even units of measure\n\nOrganised - categorise it so that what you need is easy to find \n\nAccurate - define what that is and agree standards\n\nTrustworthy - when you have all of the above, your data becomes trustworthy, reliable, and AI ready.\n\nOk back to the cocktails now… 🍹\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1783607324300,
+        "date": "2026-07-09T14:28:44.300Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGxViPIWHK6TA/feedshare-shrink_1280/B4EZ9HR9siJkAU-/0/1783607322875?e=1786579200&v=beta&t=5n51qSnxInfndAQKUsIsqfioFq5UGdQ1jhKLTWVb84o",
+          "width": 1280,
+          "height": 1707
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480991334741295104",
+        "likes": 19,
+        "comments": 10,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 14
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483822291609563136",
+      "entityId": "7483822291609563136",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_shhh-can-you-keep-a-secret-because-i-cant-activity-7483822291609563136-drct",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483822290305200128",
+      "shareUrn": "urn:li:share:7483822290305200128",
+      "content": "Shhh! Can you keep a secret?  Because I can't!! 🤣 \n\nI can't tell you exactly when, but my first LinkedIn Learning course is launching IMMINENTLY.  Woooow!\n\nI really can't wait for you to see it all, I haven't even seen it myself yet, but as soon as I can talk about it, I'll let you know....\n\nImagine that, me talking dirty data to anyone with a LinkedIn Learning subscription.  What an opportunity to share my knowledge!\n\nKeep your 👀 peeled in the coming weeks...\n\nWhat are you most looking forward to learning from me?\n\nHuge shoutout to Starshine Roshell, superstar producer extraordinaire!",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1784282277014,
+        "date": "2026-07-17T09:57:57.014Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D10AQGDyuO4pMYgsg/image-shrink_1280/B4DZ9vgpK2J4Ac-/0/1784282257300?e=1785877200&v=beta&t=L6Tm1gcgXxZHF5qVeuptyfAOIM4oIgZ2ZNmBnBLs5IY",
+          "width": 1280,
+          "height": 1706
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483822291609563136",
+        "likes": 138,
+        "comments": 37,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 81
+          },
+          {
+            "type": "PRAISE",
+            "count": 42
+          },
+          {
+            "type": "EMPATHY",
+            "count": 12
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484881898951905280",
+      "entityId": "7484881898951905280",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_whos-up-for-a-procurement-style-tomorrowland-activity-7484881898951905280-V1pn",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484881898150912000",
+      "shareUrn": "urn:li:share:7484881898150912000",
+      "content": "Who's up for a procurement-style Tomorrowland? Like resourcing and raving??\n\nI have serious FOMO after seeing all the videos over the weekend, what a setup, that's how you do an event!\n\nI'm thinking a Procurement Raveolution 🤣 \n\nI know that Iain Campbell McKenna and Max Kent would be up for it; who else??\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1784534907091,
+        "date": "2026-07-20T08:08:27.091Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484881898951905280",
+        "likes": 32,
+        "comments": 16,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 14
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 6
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479851419617931264",
+      "entityId": "7479851419617931264",
+      "linkedinUrl": "https://www.linkedin.com/posts/susanewalsh_oh-hey-mauritius-hope-i-dont-see-any-activity-7479851419617931264-a0zO",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7479851418779172865",
+      "shareUrn": "urn:li:ugcPost:7479851418779172865",
+      "content": "Oh, hey Mauritius!\n\nHope I don’t see any dirty data here, I’m off duty! 😂\n\nThe Classification Guru Ltd Samification",
+      "author": {
+        "id": "ACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "universalName": null,
+        "publicIdentifier": "susanewalsh",
+        "type": "profile",
+        "name": "Susan Walsh",
+        "linkedinUrl": "https://www.linkedin.com/in/susanewalsh?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAJ_rqoB-21JhqwucMHOhg_-vtoJ-we77Wg",
+        "info": "Dirty data doesn’t fix itself. Fortunately, I do | Founder, The Classification Guru | LinkedIn Learning instructor | 2x author | Speaker | TEDx | Creator of Samification™ & COAT",
+        "website": "https://www.linkedin.com/services/page/9400953078b4397aab",
+        "websiteLabel": "View my services",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQF04M3zLjGsew/profile-displayphoto-crop_800_800/B4EZ6hZzGoI0AI-/0/1780824357977?e=1786579200&v=beta&t=w-69Mm1MWByj7AneqwbbMP7iIqpZortV9vUpCWIfZSQ",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "41922218"
+      },
+      "postedAt": {
+        "timestamp": 1783335547356,
+        "date": "2026-07-06T10:59:07.356Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQE_MHIPBiPe4w/feedshare-image-high-res/B4EZ83FKroKoAU-/0/1783335532361?e=1786579200&v=beta&t=EYQh0Xka7LlJJhjNZQytF8rKotI_YoxwPwB2yD9PG0I",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHtDQcFqlt9tw/feedshare-image-high-res/B4EZ83FLYjK4AU-/0/1783335537990?e=1786579200&v=beta&t=rtHbKoX9M6-U_9hnc1hMLbwFczFe6smBhxO4tlmItGI",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHF9weps3US8w/feedshare-image-high-res/B4EZ83FLUMHsAU-/0/1783335541126?e=1786579200&v=beta&t=mqmgZJzuj_ipJk1Msdc7esvvcF0u9QF2bxWTu8bSTUY",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQE_YIVMFyEFkQ/feedshare-image-high-res/B4EZ83FLVYJMAU-/0/1783335536710?e=1786579200&v=beta&t=vKSdHa9avlU4wJhfeofzSwtlIkteVvM0Rz7DPhKz97g",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEBJfvQ9tY0WA/feedshare-shrink_1280/B4EZ83FKWLHoAM-/0/1783335536718?e=1786579200&v=beta&t=e9KDeidlsZz4lH-YVQakForqSTkbGClofysgxTky1Rk",
+          "width": 1280,
+          "height": 1707
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGtyyiqakfvrw/feedshare-image-high-res/B4EZ83FLbPHoAY-/0/1783335537830?e=1786579200&v=beta&t=ueQw2B_Vo4trOniqiOfqH0k5p3nmENE_dZvHi4Uwa9s",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFGLUaYCPbvxQ/feedshare-image-high-res/B4EZ83FKp2HMAU-/0/1783335535485?e=1786579200&v=beta&t=d7tnwKQ25-vKf27fwJMOYRgNukm6b_gH6JOPJCBdyG4",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEWjEsTRAnhNQ/feedshare-image-high-res/B4EZ83FKM.HMAU-/0/1783335534369?e=1786579200&v=beta&t=Eii7IRQiXCpO91klDiODU45AjXh0DJMVNb5krb0UAzA",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFd5xWre6BUbw/feedshare-image-high-res/B4EZ83FMpTHkAU-/0/1783335545278?e=1786579200&v=beta&t=BvhurZ3n1qIjufyqOcaEol1-ZUrBPOzFmmrfADZ6NaQ",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479851418779172865",
+        "likes": 198,
+        "comments": 71,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 128
+          },
+          {
+            "type": "EMPATHY",
+            "count": 48
+          },
+          {
+            "type": "PRAISE",
+            "count": 19
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/susanewalsh",
+        "sessionId": "1c3d160c-caca-495c-9af3-7a0dabb1e6b3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487873493770940416",
+      "entityId": "7487873493770940416",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_businesscentral-dynamics365-erp-activity-7487873493770940416-Gxl3",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487873490675556352",
+      "shareUrn": "urn:li:share:7487873490675556352",
+      "content": "𝗪𝗵𝘆 𝗱𝗼 𝘀𝗼 𝗺𝗮𝗻𝘆 𝘀𝘆𝘀𝘁𝗲𝗺 𝗱𝗲𝗺𝗼𝘀 𝗲𝗻𝗱 𝘂𝗽 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝘀𝗮𝗺𝗲 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻?\n\n\"Can it be as simple as our current system?\"\n\nI had this during a recent Business Central demo. The operations team could immediately see the benefits. Better visibility, more integrated processes and a platform that could support the company's growth plans.\n\nThe finance team were less convinced.\n\nTheir current system is easier.\n\nAnd to be fair, they're right.\n\nThe challenge is that their current system is a finance system. It does finance really well, but it was never designed to manage the wider business processes that the company now needs.\n\nAs businesses grow, processes become more complex. More people. More transactions. More stock. More projects. More reporting. More integration.\n\nThere's a common misconception that a modern ERP should be able to handle all of that complexity whilst remaining as simple as an accounting package designed for a much narrower purpose.\n\nUnfortunately, business processes don't become simpler as a company scales.\n\nThe real goal isn't to make complex processes look simple. It's to make them manageable, visible and controlled.\n\nSometimes the easiest system today becomes the biggest constraint tomorrow.\n\nWhat's interesting, though, is that we're starting to see technology come full circle.\n\nWith Copilot, agents and AI becoming increasingly embedded within Business Central, we're getting closer to a world where the complexity remains in the system, but users don't necessarily have to deal with all of it directly.\n\nInstead of learning every process, users can increasingly be guided through tasks, have routine activities automated, and let the system do more of the heavy lifting.\n\nThe business still gets the capability it needs to scale. The user gets a simpler experience.\n\nMaybe the question won't be \"Can it be as simple as our current system?\"\n\nMaybe it'll become \"Can it be more powerful without feeling more complicated?\"\n\nAnd that's a much more interesting conversation.\n\n#BusinessCentral #Dynamics365 #ERP #Copilot #AI #BusinessGrowth #DigitalTransformation",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1785248158877,
+        "date": "2026-07-28T14:15:58.877Z",
+        "postedAgoShort": "6h",
+        "postedAgoText": "6 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFvT-oTZ59Qtw/feedshare-image-high-res/B4EZ.pFQxjJ0AU-/0/1785248157167?e=1786579200&v=beta&t=Jo_bJOH1SGYor8oVrD1Is6raQZturJSvtFUxZ5CKmJQ",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487873493770940416",
+        "likes": 6,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7478797375172608000",
+      "entityId": "7478797375172608000",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_when-was-the-last-time-you-had-a-workshop-activity-7478797375172608000-IC0W",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7478797374048407552",
+      "shareUrn": "urn:li:ugcPost:7478797374048407552",
+      "content": "When was the last time you had a workshop interrupted by a 5 year old with a Super Soaker?\n\nWith the weather being glorious and not insanely hot, Jodie Goodchild decided to hold the Known For monthly session near Canoe Lake in Southsea. All was going well until a mum walked past with her two kids and one of them decided to hose down Tom O'Malley (business protection expert) 🤣\n\nCue exasperated mum trying to get her kids away whilst 30 local business people were in hysterics.",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1783084243577,
+        "date": "2026-07-03T13:10:43.577Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFXINgne4dVrw/feedshare-image-high-res/B4EZ8oGlK.HkAU-/0/1783084242369?e=1786579200&v=beta&t=uOKUmrY2Cz7dTH3mH5f3mOweZaCwejrhXgFlihbYvL0",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHqGE2hODnacQ/feedshare-image-high-res/B4EZ8oGk8jHMAU-/0/1783084241394?e=1786579200&v=beta&t=97JfYiidzTjoHhHGZVyxSRpFAys-7GzKcYncMYzMNo0",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7478797374048407552",
+        "likes": 18,
+        "comments": 2,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "ENTERTAINMENT",
+            "count": 11
+          },
+          {
+            "type": "LIKE",
+            "count": 5
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484979059014172672",
+      "entityId": "7484979059014172672",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_businesscentral-dynamics365-erp-activity-7484979059014172672-BD-4",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484979057454096384",
+      "shareUrn": "urn:li:share:7484979057454096384",
+      "content": "Now that the World Cup is over, the heatwave has broken it feels like we're getting back to normal... or at least a different kind of chaos now the kids have broken up from school. 😄\n\nAmongst all the distractions last week, I stumbled across a piece of functionality in Business Central that genuinely made my day.\n\nOne of the biggest benefits of a SaaS ERP system isn't just that it's hosted in the cloud and you don't need to worry about managing servers. It's that the product is constantly evolving, with Microsoft delivering new features and improvements every release.\n\nA customer contacted me because they needed a user to access a very specific area of Business Central, but their current permissions didn't allow it.\n\nPermission management has always been one of those areas where shortcuts can come back to bite you later. I've never been a fan of creating lots of bespoke permission sets. They can become difficult to maintain and often create problems down the line. At the same time, assigning a standard permission set isn't always ideal because it can grant far more permissions than the user actually needs.\n\nThe real challenge has often been working out which permission set gives access to a particular page or table without spending ages digging through documentation and settings.\n\nThat's where a feature introduced in the April release of Business Central comes in.\n\nThe Permissions Overview page allows you to enter a page or table and instantly see which permission sets provide access to it. Better still, you can immediately review everything else that permission set grants access to.\nWhat used to be a frustrating and time-consuming task now takes a couple of minutes.\n\nIt's not the sort of feature that grabs the headlines, but these are often the improvements that make the biggest difference day to day. They help consultants, administrators and support teams make better decisions, avoid unnecessary customisation, and keep systems easier to manage in the long run.\n\nSometimes it's the little things that make you appreciate just how much Business Central continues to improve with every release.\nHave you come across any hidden gems in recent Business Central updates?\n\n#BusinessCentral #Dynamics365 #ERP #MicrosoftDynamics365 #SME #BusinessApplications\n\nPS I'm reliably informed that the algorithm loves pictures and selfies, it's still hot and you're never too old for a Mr Freeze!",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1784558071855,
+        "date": "2026-07-20T14:34:31.855Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHpu8jejbPPgg/feedshare-image-high-res/B4EZ9_8yn9JgAc-/0/1784558070589?e=1786579200&v=beta&t=5M2yzG-PCdbqo_ExCVCcyj5_1ZA3BHpD91aVa4fMkhk",
+          "width": 1440,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484979059014172672",
+        "likes": 20,
+        "comments": 13,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 16
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7467902902553116672",
+      "entityId": "7467902902553116672",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_couple-of-good-bits-of-new-for-quick-dynamics-activity-7467902902553116672-nUZX",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7467902901294776320",
+      "shareUrn": "urn:li:share:7467902901294776320",
+      "content": "Couple of good bits of new for Quick Dynamics today!\n\nFirstly we welcome Jennifer as a Marketing Assistant on a part time basis, Jennifer is studying Marketing at Portsmouth University and is going to be helping us out with some exciting changes over the next couple of months.\n\nWe also have Jake passing his MB-800 exam and is now a certified Business Central consultant. This shows how much progress he's made in his support role over the last few months and i'm looking forward to see how much he progresses in the future.",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1780486798895,
+        "date": "2026-06-03T11:39:58.895Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEv0bIvPwmfrg/feedshare-image-high-res/B4EZ6NSHaTKIAU-/0/1780486797342?e=1786579200&v=beta&t=Y0Xka4cpJB95WqIRfVUmV17CgN1bYFVL2t1_uy7z6d4",
+          "width": 1344,
+          "height": 1344
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7467902902553116672",
+        "likes": 48,
+        "comments": 8,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 31
+          },
+          {
+            "type": "PRAISE",
+            "count": 12
+          },
+          {
+            "type": "EMPATHY",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7460666355940257793",
+      "entityId": "7460666355940257793",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_waterproof-mobile-phones-mobile-apps-and-activity-7460666355940257793-U5O7",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7460666352920391680",
+      "shareUrn": "urn:li:share:7460666352920391680",
+      "content": "Waterproof mobile phones, mobile apps and cloud software are BRILLIANT!\n\nI’ve done something really nasty to my back this week that has left me pretty much incapacitated, even breathing hurts and that’s a fairly important thing to be doing regularly.\n\nI’ve discovered the only thing that actually relieves the pain is lying in a hot bath with the Whirlpool on (humble brag). Unfortunately, traditionally it’s not a great place to work. Until I realised I could do nearly everything I wanted to do on my phone:\n\n✔️ Emails\n✔️ Payment runs in Business Central using Yavrio\n✔️ Teams chats\n✔️ Copilot \n✔️ Microsoft 365 apps\n✔️ Arranging meetings – not attending them (that would be a step too far!!)\n\nI’ve often said in conversations with prospects that the nice thing about cloud Business Central that you can use it anywhere you need to, even on the beach if you need to check something on holiday. Add in the bath to that as well!\n\nDanny knows...",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1778761471734,
+        "date": "2026-05-14T12:24:31.734Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFlaoIcvgjynA/feedshare-image-high-res/B4EZ4mcg.SJAAU-/0/1778761470201?e=1786579200&v=beta&t=m4abGb0bDMcTLN-eSuIEHG4h2rmahufxoMo9iUpdSL0",
+          "width": 1511,
+          "height": 1041
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7460666355940257793",
+        "likes": 12,
+        "comments": 12,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 7
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7467520842059513857",
+      "entityId": "7467520842059513857",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_learning-to-pass-an-exam-vs-learning-to-do-activity-7467520842059513857-gSqk",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7467520840935571456",
+      "shareUrn": "urn:li:ugcPost:7467520840935571456",
+      "content": "Learning to pass an exam vs learning to do a job.\n\nIt's a real issue, for some reason when people set exams they often do it from a very literal \"follow the rules\" way and not from a practical real world experience approach.\n\nThere are certain exams that we take in our industry that show you know your way around Business Central. However, what they don't show is that you know how to deal with customers, question why people are trying to do something, and ensuring you can set the system up in an appropriate way.\n\nI know someone studying for the MB-800 exam and thankfully they've picked up how badly worded the questions are and how they expect you to answer. They've also pointed out that it isn't how they would do it in the real world. That's a relief! The difference between text books (or Learn websites) and real world is huge. \n\nA couple of examples below:\n\nIn the first i'd always be questioning why they're trying to post to the blocked dimensions rather than just ploughing in and unblocking them. It might be legitimate but in my experience a lot of the time it's end user error.\n\nIn the second I honestly had never noticed that the page was called \"Edit Dimension Set Entries\" - you click the Dimensions action to get to it. And then the final point about \"Implementing Codeunit 408\" is bizarre, you don't implement it, it's standard functionality, it's just there and baked in to the system.\n\nIf you have to sit any of these Microsoft exams (or anyone elses) what are your biggest frustrations with them?",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1780395708575,
+        "date": "2026-06-02T10:21:48.575Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEl_pMz9GWMOg/feedshare-image-high-res/B4EZ6H2oqwHoAU-/0/1780395707399?e=1786579200&v=beta&t=Ukuy-t8pL-scS78RiLxO5lStcTtmxv0TQfooV_PtT1s",
+          "width": 1482,
+          "height": 1311
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHAego74QBbUg/feedshare-image-high-res/B4EZ6H2oqpGwAU-/0/1780395707387?e=1786579200&v=beta&t=6m7iG8CkC2AM2QO1J_ARIDTjfuZniPRpaK0tGHBi57Q",
+          "width": 1470,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7467520840935571456",
+        "likes": 4,
+        "comments": 4,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7463261082535481344",
+      "entityId": "7463261082535481344",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_ive-had-a-busy-couple-of-days-doing-the-activity-7463261082535481344-RnZO",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7463261081470291969",
+      "shareUrn": "urn:li:ugcPost:7463261081470291969",
+      "content": "I've had a busy couple of days doing the networking rounds, like buses, you wait ages then 2 come along at once!\n\nYesterday we were at Fratton Park for the Network My Club event, I think you can imagine one of the main topics of conversation. Suffice to say that even when removing and laying a new pitch there was less digging than is going on at the other end of the M27 😉\n\nToday we were on top of Portsdown Hill (with the best views of Portsmouth) for the Portsmouth Council event run by Danielle Eberhardt and Joseph G. (who I keep bumping into this week!). Lots of familiar faces, a couple of new ones, and some very interesting conversations.\n\nAn interesting ice breaker at this event which I might post up separately to see how well people know me...",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1779380102762,
+        "date": "2026-05-21T16:15:02.762Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHLdy7KWmGvYA/feedshare-image-high-res/B4EZ5LUZrjIIAY-/0/1779380100428?e=1786579200&v=beta&t=zI7HpUSv5KMVl14H6cstRtiNvvqS0LPd2q1C-wRwm58",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEr9PpVOUE33Q/feedshare-image-high-res/B4EZ5LUZnxG8AU-/0/1779380100202?e=1786579200&v=beta&t=SybaISs9rjvX9Q6sYj2VvhonaZpKamA5DyhJmkLML7A",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHA9jJyRA2T7w/feedshare-image-high-res/B4EZ5LUZoIIIAU-/0/1779380100198?e=1786579200&v=beta&t=MG2y8VdQOmyODGz5NLhESb5gHOocJS2NvSdL7MGIDI4",
+          "width": 2048,
+          "height": 1536
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHVQNqfbZV6_A/feedshare-image-high-res/B4EZ5LUZuGIkAU-/0/1779380100750?e=1786579200&v=beta&t=yEDBkBYwucod2L_pX2B45WY0SqW5vemVLe0PmIqjy08",
+          "width": 2048,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7463261081470291969",
+        "likes": 22,
+        "comments": 8,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 19
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485615263611088896",
+      "entityId": "7485615263611088896",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_businesscentral-dynamics365-erp-activity-7485615263611088896-DePk",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485615260670935040",
+      "shareUrn": "urn:li:share:7485615260670935040",
+      "content": "\"𝗪𝗵𝗮𝘁 𝘀𝘁𝗼𝗽𝘀 𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 𝘂𝗽𝗱𝗮𝘁𝗶𝗻𝗴 𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗖𝗲𝗻𝘁𝗿𝗮𝗹 𝗶𝗻 𝘁𝗵𝗲 𝗺𝗶𝗱𝗱𝗹𝗲 𝗼𝗳 𝗮 𝗯𝘂𝘀𝘆 𝘄𝗼𝗿𝗸𝗱𝗮𝘆?\"\n\nIt's a question I've been asked quite a few times by customers considering moving to Business Central SaaS.\n\nThe answer is update windows.\n\nFor our customers, we configure maintenance windows so Microsoft knows when updates can be applied with the least disruption to the business.\n\nOne of our customers was due to receive a production update last night. The update started as planned, but something interesting happened.\n\nThe monitoring systems determined that the update wasn't going to complete within the agreed update window. Rather than overrunning into business hours and causing potential disruption, Microsoft automatically stopped the update and rolled everything back.\n\nThis morning the system was fully available and the customer could carry on working as normal.\n\nIt's one of those behind-the-scenes features that most people never see, but it highlights the amount of engineering that goes into running a modern SaaS service.\n\nWhen people think about Business Central SaaS, they often focus on new features, automatic upgrades and not having to manage servers.\n\nFor me, it's also about things like this. The safeguards that make sure updates happen at the right time, in the right way, and don't get in the way of the business.\n\nNot the most glamorous feature, but definitely one of the most important. 👍\n\n#BusinessCentral #Dynamics365 #ERP #MicrosoftDynamics365 #SaaS #CloudERP\n\nA picture of an update window would be really boring so here's one of my favourite window pictures I took on holiday 3 years ago. Feel free to guess where it is.",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1784709754851,
+        "date": "2026-07-22T08:42:34.851Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFUKxsDx0HOeQ/feedshare-image-high-res/B4EZ.I_aj.HkAU-/0/1784709753459?e=1786579200&v=beta&t=l7HaiLdMxUTUjGbkNZieIrPk7JsHtPEPZQrCd5ru_ZE",
+          "width": 1309,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485615263611088896",
+        "likes": 6,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7463536681170919425",
+      "entityId": "7463536681170919425",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_has-anyone-thought-about-how-ai-could-make-activity-7463536681170919425-b39D",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7463536680130584576",
+      "shareUrn": "urn:li:ugcPost:7463536680130584576",
+      "content": "Has anyone thought about how AI could make their home life easier?\n\nI'm sure everyone is getting a little sick hearing about AI and how loads of people are going to lose their jobs, personally I prefer to see it as a way to make us all a bit more efficient and remove some of the drudgery from our jobs.\n\nI thought i'd take that principle and apply it to home life. I reckon I spend about an hour a week (usually on a Sunday morning) doing 2 things:\n\n📌 Putting together a meal plan for the week that caters for everyone in the family, the days where we've got less time to cook, the days where one or many of us are out. People not liking certain meals etc \n\n📌 Building a shopping list from all of those recipes and working out what I need to get in the weekly shop.\n\nSo when incapacitated last week I spent a couple of hours in an evening having a play with Microsoft Copilot to see if I could save myself some time.\n\nThis is only a simple prototype but already looking useful.\n\nI've got a spreadsheet saved in OneDrive (I could point it at favourite recipe websites if I wanted) which i'm starting to populate with all of the recipes we use. There are a series of columns with key information. I might expand this a bit for example \"Types of Meal\" - Hearty, Light, Summer etc. I could maybe even get it to check the weather and suggest BBQ if weather and time permits 🤔\n\nI've given it a series of instructions to mix up the protein and carbs during the week, to only have so many \"Bad\" meals (I might change this to a points system and set a maximum number of points per week). It pays attention to who is in/out on any given night and might suggest meals that one particular person isn't fond of if they're not around. I can say that i've got some ingredient that I particularly want to use up and it will add in recipes including that.\n\nIt then produces a meal list which I can tweak as I wish. Once the meal list is finalised I can then prompt it to groups all of the ingredients together and gives me a summarised shopping list. I've not yet got this pushing into a separate list as I like to check what I've got in fridge/cupboard/freezer etc first.\n\nIt's only in the early stages with a handful of recipes but as I build it up I reckon it's going to save me about 45 minutes a week and a lot of stress!!\n\nAnyone else doing cool personal things with AI in their personal life?",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1779445810597,
+        "date": "2026-05-22T10:30:10.597Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQF9hA1nhElhOA/feedshare-shrink_20/B4EZ5PPD0THQAI-/0/1779445808688?e=1786579200&v=beta&t=oeaScbKB6IjsiMHMFPHIJCdNavk2KbJ7OvK66YR4ymE",
+          "width": 2281,
+          "height": 412
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGZ4jIemGra9w/feedshare-shrink_1280/B4EZ5PPDzVIAAM-/0/1779445808581?e=1786579200&v=beta&t=QvGfufJ6SHvgoXs52QoR2JCnEUBdDWAceqfDDBEIU4U",
+          "width": 1092,
+          "height": 792
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQE133uDguoBag/feedshare-image-high-res/B4EZ5PPD1yIIAY-/0/1779445808777?e=1786579200&v=beta&t=_fJjDP0BT9xK9qnqMhxnED5xXVg9JzHaZwiUbWS8lbc",
+          "width": 1236,
+          "height": 1127
+        },
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEfvpkBSQuV4A/feedshare-image-high-res/B4EZ5PPD2OJ0AU-/0/1779445808943?e=1786579200&v=beta&t=95ULsSDwi8CMdoDfKKuaL_UBiXPqgV4_NjAPScdaUCg",
+          "width": 1163,
+          "height": 1107
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7463536680130584576",
+        "likes": 5,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7450100416916111360",
+      "entityId": "7450100416916111360",
+      "linkedinUrl": "https://www.linkedin.com/posts/stuart-hardman_this-week-chantal-and-i-have-been-working-activity-7450100416916111360-GZP8",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7450100415263633408",
+      "shareUrn": "urn:li:share:7450100415263633408",
+      "content": "This week Chantal and I have been working in North London on a go-live replacing a well known accounts package with a Microsoft Dynamics Business Central ERP system. The company is a food & drink importer and distributor with:\n\n📌  Multiple locations for inventory with site to site replenishment\n📌  Lot tracking with expiry dates\n📌  Assembly management\n📌  Financial accounting with Making Tax Digital\n📌  Multi currency with open banking integration\n\nAll carried out using our Quick Start model with a project started this year (and Easter which is their busiest time of the year sandwiched in there!).\n\nWe're looking forward to helping them improve and grow their business with better data, improved processes and reduced rekeying and manual tasks.",
+      "author": {
+        "id": "ACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "universalName": null,
+        "publicIdentifier": "stuart-hardman",
+        "type": "profile",
+        "name": "Stuart Hardman",
+        "linkedinUrl": "https://www.linkedin.com/in/stuart-hardman?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAADBrpoYBXex5caTA6ltNyIJB55FhfvFnKyE",
+        "info": "Known For enabling growth for SMEs through new, efficient business systems | Business Central Expert | Microsoft Partner | Part time brewer and Slash wannabe.",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQG0sk1ybB6pDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711636534645?e=1786579200&v=beta&t=Z1kqRWAKscho9xXfBzCx2MGs41Lv-Yc1MacRN-renkI",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "812361350"
+      },
+      "postedAt": {
+        "timestamp": 1776242355565,
+        "date": "2026-04-15T08:39:15.565Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQE3896LchRBCw/feedshare-image-high-res/B4EZ2QS2h7JwAY-/0/1776242354646?e=1786579200&v=beta&t=-05fTmWMe_jHwwNlLn2svi1F7gz0aKia6vZiJg8p9As",
+          "width": 1431,
+          "height": 1431
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7450100416916111360",
+        "likes": 27,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 18
+          },
+          {
+            "type": "EMPATHY",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/stuart-hardman",
+        "sessionId": "1eaf4c51-2173-4c55-a512-b99fdbe529f3"
+      }
+    }
+  ]
+}

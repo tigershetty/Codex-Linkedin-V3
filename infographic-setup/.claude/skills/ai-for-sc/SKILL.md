@@ -3,18 +3,30 @@ name: ai-for-sc
 description: Use when the user runs /ai-for-sc [week] or /ai-for-sc [week] [use-case-slug]. Monthly theme model pipeline for AI for Supply Chain series. Runs the research-engine FIRST so every AI-tool capability, execution-surface, method, and data claim is verified from current official sources. Generates practical role-specific posts that teach persistent method, connected context, specialized execution, control gates, finished artifacts, cadence, and human ownership.
 ---
 
-# /ai-for-sc Skill — AI for Supply Chain Pipeline (v3)
+# /ai-for-sc Skill — AI for Supply Chain Pipeline (v4)
 
 ## Purpose
-Generates AI for Supply Chain posts from practical use cases within the approved monthly theme model. One week = one theme = two posts. Each post covers a specific SC role + specific AI use case + specific tool. No fixed audience tiers — the role is determined by the task. Posts are practical, concrete, and copy-paste ready.
+Turns a demonstrated practitioner problem into a verified AI workflow, control gate and usable artifact. The theme plan is a candidate library; the V4 weekly board decides which use case earns production.
+
+## V4 Override — Read First
+
+This section supersedes every conflicting legacy instruction later in this file.
+
+1. Read `references/v4-audience-growth-operating-system.md`, the completed `content-brief-v2.md`, `research-brief.md`, `references/tiger-source-gate-v1.md`, and `tiger-source.md` when required.
+2. Select use cases from public pain evidence and the weekly board. The old plan may suggest candidates, but it is not automatic permission to build.
+3. Draft **three intentionally different evidence-led openings**, not ten taxonomy completions. A personal-reflection opening is forbidden without an approved source ID.
+4. Use the structure below as a reasoning checklist, not a fixed sequence or sign-off. Tiger's approved stance, practical boundary and uncertainty must shape the final draft.
+5. Every tool claim comes from current official sources. Every personal, employer, result or credential claim comes from an approved Tiger source or authority-register entry.
+
+Ignore any later “pre-defined source of truth,” ten-hook, fixed-sign-off or rigid-template instruction that conflicts with this override.
 
 ## Invoke
 ```
-/ai-for-sc [week]                    → generates BOTH use-case posts for that week
+/ai-for-sc [week]                    → generates only that week's V4-board-approved AI use case(s); never assumes both plan rows
 /ai-for-sc [week] [use-case-slug]    → generates one specific post
 ```
 Examples:
-- `/ai-for-sc W21` → Week 21 (Procurement theme) — two practical use-case posts
+- `/ai-for-sc W21` → reviews that week's candidates and generates only the use cases already admitted on the V4 weekly board
 - `/ai-for-sc W21 rfq-with-claude` → W21 RFQ use case only
 - `/ai-for-sc W26 demand-simulation` → W26 demand simulation use case only
 
@@ -24,9 +36,9 @@ Read all of these before generating a single word. They are the intelligence bas
 | File | What it provides |
 |---|---|
 | `tiger-voice.md` | Voice DNA — rhythm, opinion style, what to reject, pattern breakers |
-| `references/published-voice.md` | Hook quality bar, "NOT THIS" list, annotated examples |
+| `references/published-voice.md` | Historical Deep Dive examples only; never use its fixed structure as a V4 template |
 | `references/101-voice.md` | Accessible register, plain language first, adapted hook taxonomy |
-| `references/ai-for-sc-plan-v2.md` | Pre-defined topic plan — load the week's two use cases (Role, Tool, Use Case, Hook direction, Visual format) |
+| `references/ai-for-sc-plan-v2.md` | Candidate bank — inspect the requested use case's Role, Tool, Use Case, Hook direction, and Visual format only after V4 admission |
 | `references/ai-creator-education-growth-playbook.md` | Current AI education system and execution-stack standard |
 | `references/ai-work-surfaces-benchmark-2026-07.md` | Current official product surfaces and the nine-question caption-depth standard |
 | `references/linkedin-creator-benchmark-50-2026.md` | Cross-domain creator patterns and 40-point caption QA |
@@ -67,7 +79,7 @@ Do not proceed until the brief clears the research-engine quality gate.
 
 ## Step 1: Load All Intelligence
 
-0. Read the `research-brief.md`(s) from Step 0 — the verified fact base for both posts.
+0. Read the `research-brief.md` for every admitted post from Step 0 — the verified fact base for each selected use case.
 
 1. Read `tiger-voice.md` — internalize:
    - Natural rhythm: longer flowing sentences, connective tissue ("because", "so", "which means")
@@ -85,7 +97,7 @@ Do not proceed until the brief clears the research-engine quality gate.
    - Accessible register: plain language first, technical term explained second
    - The test: would the right SC person read this over coffee and recognise their own workflow?
 
-4. Read `references/ai-for-sc-plan-v2.md` — extract Post A and Post B for the requested week. Note the Role, Tool, Use Case, and Hook direction for each. Do not define use cases at runtime — the plan is the source of truth.
+4. Read `references/ai-for-sc-plan-v2.md` for candidate use cases, then confirm the selected use case has passed the V4 weekly topic gate.
 
 5. Read `data/ai-for-sc-series-tracker.md` — note:
    - Last episode number
@@ -93,37 +105,36 @@ Do not proceed until the brief clears the research-engine quality gate.
 
 ---
 
-## Step 2: Load Pre-Defined Use Cases
+## Step 2: Select A Qualified Use Case
 
-Use cases are pre-defined in `references/ai-for-sc-plan-v2.md`. Do not define them at runtime.
+Use `references/ai-for-sc-plan-v2.md` as one candidate bank. Production requires a completed V4 content brief and topic-gate decision.
 
 1. Open `references/ai-for-sc-plan-v2.md` and locate the entry for the requested week
-2. Extract Post A and Post B — Role, Tool, Use Case, Hook direction
+2. Extract only the requested or weekly-board-approved candidate(s) — Role, Tool, Use Case, Hook direction
 3. Cross-check `data/ai-for-sc-series-tracker.md` — confirm this episode hasn't been published already
 4. Present to the user before generating anything:
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  W[##] — [Theme]
- Pre-defined use cases:
+ Qualified candidate(s) from the approved weekly board:
 
- Post A (Ep[##]): [Role] + [Tool]
- → [Use Case]
+ Candidate 1: [Role] + [Tool]
+→ [Use Case]
 
- Post B (Ep[##]): [Role] + [Tool]
- → [Use Case]
+ Candidate 2 (only if independently admitted): [Role] + [Tool]
+→ [Use Case]
 
  Confirm to proceed, or override a use case?
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
-5. If confirmed — proceed to Step 3 (hooks) for Post A
+5. Proceed to Step 3 only for the candidate(s) already admitted or explicitly selected
 6. If the user overrides a use case — accept it and verify:
-   - Different SC role from the other post
-   - Different AI tool from the other post
+   - If another AI post is selected, vary the role and tool when that improves the portfolio
    - Not a repeat of a role + use case already in the series tracker
 
-Do NOT generate hooks until use cases are confirmed.
+Do NOT generate openings until the use case is confirmed.
 
 ### AI Tool Selection (verify before every run)
 - **Claude** — Cowork role plugins and scheduled tasks; Claude Code for skills, scoped subagents, MCP, scripts, hooks, and tests
@@ -134,9 +145,9 @@ Do NOT generate hooks until use cases are confirmed.
 
 ---
 
-## Step 3: Generate 10 Hook Options (per post)
+## Step 3: Generate 3 Evidence-Led Openings (per post)
 
-With all voice intelligence loaded, generate 10 hooks per use case.
+With all voice intelligence loaded, generate three deliberately different openings per use case. The taxonomy below is a pattern library, not a checklist to complete.
 
 **New hook rule — replaces the Practitioner/Leader distinction:**
 
@@ -154,7 +165,7 @@ The hook becomes the verbatim opening line of the published post. Test it: would
 | 3 | Stat-Lead | Use only a verified number that materially changes the decision; do not invent time savings |
 | 4 | Contrarian | Challenge the assumption that [task] requires manual effort, a specialist, or an IT ticket |
 | 5 | Paradox | A task that looks routine but costs more time or quality than it should |
-| 6 | Personal-Reflection | "I built this workflow because my team was [doing X manually] every [week/quarter]..." |
+| 6 | Personal-Reflection | Available only when the exact experience maps to an approved Tiger source ID; never invent “my team” or “I built” framing |
 | 7 | Result-First | Start with what AI produced — then show the method |
 | 8 | Workflow-Progression | One-off answer versus a reusable, controlled, scheduled operating artifact |
 | 9 | Comparison-Gap | Same decision, different execution architecture or control depth |
@@ -186,7 +197,7 @@ Use this as a reasoning checklist, not a rigid paragraph template. The role, dec
 9. SIGN-OFF
 ```
 
-**Word count**: 300–450 words when the execution detail earns the space.
+**Length**: determined by the accepted content brief. Keep only execution detail that changes what the practitioner can understand, inspect, or do.
 
 ### Caption Rules (non-negotiable)
 - Sentences flow with connective reasoning — no stacked fragments
@@ -199,7 +210,7 @@ Use this as a reasoning checklist, not a rigid paragraph template. The role, dec
 - Name at least seven of nine depth elements from `references/ai-work-surfaces-benchmark-2026-07.md`
 - At least one validation must be able to reject, block, or route an unsupported result to review
 - AI must not be positioned as replacing judgement; the SC professional owns the operating decision
-- Sign-off: "Follow Poornajith Shetty and Shetty's Desk for more supply chain insights and save this for [specific reference use]."
+- Ending: choose a specific question, action, boundary, or invitation only when it earns its place; do not repeat a fixed sign-off.
 - Hashtags: #ShettysDesk #SupplyChainIntelligence #SCM #AIforSupplyChain + 1 topic-specific tag (5 max)
 
 ---
@@ -210,8 +221,8 @@ Visual Engine v2 is the active lane. GPT Image 2 is the primary creative rendere
 
 ### 5.1 Build the creative packet
 
-1. Complete `content-brief-v2.md`, `reference-learning-card.md`, and `creative-brief-lite.md`.
-2. Select three to five references for structure, caption promise, craft, brand, and optional contrast.
+1. Complete `content-brief-v2.md` and `creative-brief-lite.md`. Complete `reference-learning-card.md` only when a curated external reference is actually used.
+2. When references add information value, select the minimum needed (normally one to five) for structure, caption promise, craft, brand, or contrast. Otherwise record `Top-100 not used` and name the stronger mechanic.
 3. Define one dominant visual argument, the exact text map, value-density layer, execution architecture, and logo zones.
 4. Compile `gpt-image-2-prompt-compiled.md` with the repo script.
 
@@ -275,7 +286,7 @@ Write the eligibility result in `resource-plan.md` even when the decision is `no
 
 ## Step 8: Caption Approval And Website Handoff
 
-1. Present ten engineered hooks and one voice-QA caption candidate after the still and resource promise are clear.
+1. Present three evidence-led openings and one provenance-checked caption candidate after the still and resource promise are clear.
 2. Do not mark the caption approved from inference. Record the user's final text verbatim only after explicit confirmation.
 3. Create `publish-manifest.json` from `templates/publish-manifest-template.json`. Keep `caption.status` as `draft` until confirmed.
 4. Only when the caption and still are both approved may `website.status` move to `ready`.
@@ -290,21 +301,21 @@ Write the eligibility result in `resource-plan.md` even when the decision is `no
 ---
 ## Output File Structure
 
-Each completed post folder should contain:
+Each completed post folder should contain the required files below. Bracketed files are conditional:
 
 ```text
 data/{YYYY-W##}/{use-case-slug}/
 |-- research-brief.md
 |-- content-brief-v2.md
-|-- reference-learning-card.md
+|-- [reference-learning-card.md]  # only when an external reference is used
 |-- creative-brief-lite.md
 |-- gpt-image-2-prompt.md
 |-- gpt-image-2-prompt-compiled.md
 |-- visual-output-review.md
 |-- visual.png
-|-- visual-motion.gif
-|-- visual-motion.mp4
-|-- motion-qa.md
+|-- [visual-motion.gif]           # when motion is eligible
+|-- [visual-motion.mp4]           # when motion is eligible
+|-- [motion-qa.md]                # when motion is eligible
 |-- linkedin-caption.md
 |-- resource-plan.md
 `-- publish-manifest.json
@@ -313,7 +324,7 @@ data/{YYYY-W##}/{use-case-slug}/
 - `visual.png` is the approved canonical still.
 - `visual-motion.gif` is the LinkedIn motion companion when eligible.
 - `visual-motion.mp4` is the website and full-resolution motion master.
-- `linkedin-caption.md` keeps all ten hooks and the exact caption approval status.
+- `linkedin-caption.md` keeps the three tested openings, their experiment rationale, source IDs, and exact caption approval status.
 - `resource-plan.md` records whether a downloadable pack is required and why.
 - `publish-manifest.json` is the final cross-repo handoff; it cannot be ready while the caption or still is unapproved.
 
@@ -327,13 +338,14 @@ data/{YYYY-W##}/{use-case-slug}/
 - [ ] Product availability is labelled accurately as generally available, beta, preview, or early access?
 
 **Use Cases:**
-- [ ] Two different SC roles — not the same job title twice in the same week?
-- [ ] Two different AI tools — not the same tool twice?
-- [ ] Neither use case repeats a role + task combination already in the series tracker?
-- [ ] One use case is a regular workflow task; the other adds a new capability?
+- [ ] Every selected use case passed the V4 weekly admission gate?
+- [ ] If multiple AI posts are selected, is any role/tool repetition justified by stronger audience value?
+- [ ] No selected use case repeats a role + task combination already in the series tracker unless repetition is the declared experiment?
+- [ ] Each use case produces a concrete workflow artifact and human-owned decision?
 
-**Hooks:**
-- [ ] All 10 open with different first words and different structural devices?
+**Openings:**
+- [ ] Three openings test meaningfully different audience or argument approaches?
+- [ ] Any personal opening maps to an approved Tiger source ID?
 - [ ] Hook names the role or situation specifically enough to self-identify?
 - [ ] Hook names the current limitation (specific tool or manual process)?
 - [ ] Hook shows the AI unlock concretely?
@@ -348,7 +360,7 @@ data/{YYYY-W##}/{use-case-slug}/
 - [ ] The meeting payoff is explicit?
 - [ ] Human+AI boundary is precise without allowing caveats to dominate?
 - [ ] At least 1 pattern breaker from tiger-voice.md?
-- [ ] 300–450 words when the execution detail earns the space?
+- [ ] Length is earned by useful execution detail rather than padding or a fixed target?
 - [ ] Reads like Tiger wrote it — flowing, connected, specific?
 - [ ] Bullets use • not -?
 
@@ -376,4 +388,4 @@ data/{YYYY-W##}/{use-case-slug}/
 ---
 
 ## Token Budget
-~5–8K tokens per post. ~10–14K for both posts in one run.
+~5–8K tokens per post. Scale the run only to the number of independently admitted posts.

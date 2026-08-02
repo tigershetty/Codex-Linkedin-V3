@@ -1,0 +1,3015 @@
+{
+  "runId": "x5RLdWyo02vZQr6mk",
+  "datasetId": "T83tmA6qmLFpCiAaW",
+  "offset": 120,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7487824255045472256",
+      "entityId": "7487824255045472256",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_dont-read-another-technical-claude-code-activity-7487824255045472256-txzj",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487545882578620416",
+      "shareUrn": "urn:li:share:7487545882578620416",
+      "content": "Don't read another (technical) Claude Code guide.\n\nLearn it the way Duolingo teaches Spanish:\n\nI built a 15-page course. Free at → how-to-ai.guide\n\nIt's for the person who installed Claude Code six months ago & still hasn't opened it once.\n\nWhat's inside:\n\nUnit 0 · You pick what you're building, and your answer changes which units matter.\n\nUnit 1 · You type one prompt to get a file on your desktop. First lesson in just 30 secs, on page 5.\n\nUnit 2 · Three settings once and for all. Then publish a live website & text the link to your mum.\n\nUnit 3 · The 240-word prompt I paste every time I open Claude Code, taught as 6 tiles, one at a time. \n\nUnit 4 · Screenshot what's wrong, type \"fix this.\" Plus how to undo, the moment you break it.\n\nUnit 5 · Why every vibecoded site looks identical, and the free DESIGN .md file that fixes it in 3 clicks.\n\nUnit 6 · Your usage is your hearts & Claude Code eats them faster. 5 habits that keep a $20 plan alive all month, plus when to use something else.\n\nUnit 7 · 10 copy-paste prompts. A landing page, a dashboard, a clickable mockup for your developer.\n\nUnit 8 · The prompt for when a real developer takes over. And an honest page on what this still can't do.\n\nYou will not write a line of code. \nYou will not read one either.\nYet you will build something like a coder.\n\nThe entire course takes 7 days.\nBut getting the pdf just takes 2 minutes:\n\n1. Go to how-to-ai.guide. Subscribe for free.\n2. Open the welcome email in your inbox.\n3. Tap the Notion library link inside.\n4. Download \"Duolingo for Claude Code.\"\n5. Start with page 5 (the 30-second win).\n\nKnow someone who installed Claude Code and never opened it? Send them this post. It's the favor.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1785236419450,
+        "date": "2026-07-28T11:00:19.450Z",
+        "postedAgoShort": "9h",
+        "postedAgoText": "9 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEnuz5jUlMZwA/feedshare-shrink_1280/B4EZ.kbTczHwAM-/0/1785170049342?e=1786579200&v=beta&t=fQ9jypnCRgJcOQeIgHDaRb2AFTcHXbTgufZivtRTl8w",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487824255045472256",
+        "likes": 402,
+        "comments": 190,
+        "shares": 18,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 331
+          },
+          {
+            "type": "EMPATHY",
+            "count": 29
+          },
+          {
+            "type": "INTEREST",
+            "count": 27
+          },
+          {
+            "type": "PRAISE",
+            "count": 10
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487733625392762880",
+      "entityId": "7487733625392762880",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_the-best-way-to-get-good-at-ai-is-ridiculously-activity-7487733625392762880-Sdi5",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7487637709038055424",
+      "shareUrn": "urn:li:ugcPost:7487637709038055424",
+      "content": "The best way to get good at AI is ridiculously simple\n\nJust hold Shift & YAP. Let me show you:\n\nStep 1. Go to wispr .ai. Download it for free.\nStep 2. Open Settings → General → Shortcuts.\nStep 3. Pick your activation key. I use Shift.\nStep 4. Open Claude. Hold Shift. Start yapping.\n\nNot for 30 seconds. Not a clean, polished prompt.\n\nYap for 3 minutes straight. Minimum.\n\nTalk about what you know.\nThe pain points you've seen at work.\nThe mistakes your clients keep making.\nThe stories only you can tell.\n\nDon't organize & outline. Don't think about hooks.\nJust rant like you're venting to a friend.\n\nStep 5. End your rant with this exact line:\n\n\"These were all my messy thoughts.\nI want to turn this into a LinkedIn post.\nDon't find context outside of what I said.\nHelp me structure it. Put it in the right order.\nStart by asking me questions.\"\n\nStep 6. Answer Claude's questions with 'Shift' key.\nStep 7. Claude writes the post. You edit hard.\n\nThat's the whole workflow.\n\nHere's why this works and prompting doesn't:\n\nWhen you type a prompt, you outsource thinking AND execution to AI.\nWhen you yap, you only outsource the execution.\n\nThe thinking is yours. The stories are yours.\nAI doesn't have your 10 years of experience. You do.\n\nThat's why your posts sound robotic and mine don't.\n\nThree things about Wispr Flow that I personally love:\n\n→ It strips your \"ums\" and \"ahs\" automatically.\n→ It learns your words. Correct it once. It remembers forever.\n→ You can whisper. So even at work, it works.\n\nYour prompt is 500 words you agonized over.\nMine is 3 minutes of yapping.\n\nThe magic was never the prompt. It was the rant.\n\n♻️ Repost to help anyone still copy-pasting prompt templates that don't work.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1785214811657,
+        "date": "2026-07-28T05:00:11.657Z",
+        "postedAgoShort": "15h",
+        "postedAgoText": "15 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQE648iybomemg/videocover-high/B4EZ.lwwNtJkBU-/0/1785192488597?e=1785877200&v=beta&t=xumdqJRU8HTTJrfNqoyNqgu6h2k34lSJPmpztxSysOI",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQE648iybomemg/mp4-720p-30fp-crf28/B4EZ.lwwNtJkCQ-/0/1785192526125?e=1785877200&v=beta&t=4XEawHjE9y58oFuou36iEFeZ0C_a9GW_qvz4syVgu0I"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487637709038055424",
+        "likes": 559,
+        "comments": 187,
+        "shares": 30,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 471
+          },
+          {
+            "type": "INTEREST",
+            "count": 46
+          },
+          {
+            "type": "EMPATHY",
+            "count": 26
+          },
+          {
+            "type": "PRAISE",
+            "count": 11
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487371217813934080",
+      "entityId": "7487371217813934080",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_writing-emails-from-scratch-in-2026-is-embarrassing-activity-7487371217813934080-Vrpp",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487247808459296768",
+      "shareUrn": "urn:li:share:7487247808459296768",
+      "content": "Writing emails from scratch in 2026 is embarrassing\n\nHere's what I do instead (only takes 2 minutes):\n\nStep 1. Install Granola. ai. It's free. \n→ It silently transcribes every Zoom/Teams/Meet call you join. No bot creeping in your meeting. \n→ People talk normally & you get the real conversation. Always open Granola when in calls.\n(To gather the context of all your meetings.)\n\nStep 2. Open the Claude desktop app. \n→ Settings > Connector > Connect Gmail + Granola\n→ Claude can now read your inbox AND meeting transcripts at the same time. \n→ Most people connect just Gmail. It's not enough. \n→ Without Granola, Claude drafts emails with zero memory of what was actually said in the meetings.\n\nStep 3. Open the email you need to reply to. \n→ Note the sender + the meeting it ties to. \n→ This step is what makes the prompt 10x sharper. \n→ You're telling Claude exactly where to look in Granola so it doesn't guess.\n\nStep 4. Prompt Claude (with context): \n\"Pull [sender]'s email about [topic]. Search Granola for our meetings on [topic] in the last [timeframe]. Draft a reply that [confirms / answers / declines]. Tone: warm + direct. Length: short.\" \n\nStep 5. Ask Claude to \"save as draft.\"\n→ It lands in your Gmail. 0 copy and paste. You just open Gmail, review it, and hit send. \n→ The whole loop happens without leaving Claude.\n\nPro tip: Don't grant write access on day one. Read-only first. Watch how Claude uses it for a week, then upgrade. \n\nMost accidents happen when you enable Claude with full access & asks to \"clean up my inbox.\"\n\nTo download all of my other Claude infographics:\n\nStep 1. Go to how-to-ai.guide.\nStep 2. Subscribe for free. Don't pay anything.\nStep 3. Open my welcome email (most skip this).\nStep 4. Hit the automatic reply button inside.\nStep 5. Download my infographics from my Notion.\n\nBonus. Enjoy my best copy-paste prompts, too.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1785128406957,
+        "date": "2026-07-27T05:00:06.957Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGe4c0wR4DgiA/feedshare-image-high-res/B4EZ.gMNTFH8AU-/0/1785098982995?e=1786579200&v=beta&t=_2ExFx7REhHIO4HErb6VRSW5-K5eA23ZN6x3CPrs8Qk",
+          "width": 2048,
+          "height": 1152
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487371217813934080",
+        "likes": 599,
+        "comments": 226,
+        "shares": 28,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 515
+          },
+          {
+            "type": "INTEREST",
+            "count": 39
+          },
+          {
+            "type": "EMPATHY",
+            "count": 31
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487461879179726850",
+      "entityId": "7487461879179726850",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_if-you-already-knew-all-26-hacks-unfollow-activity-7487461879179726850-YQQ_",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487367693411540992",
+      "shareUrn": "urn:li:share:7487367693411540992",
+      "content": "If you already knew all 26 hacks, unfollow me.\n\nAlmost nobody makes it past Claude hack 8:\n\n(#3 is me deleting my own past advice):\n\n1. Use the Claude Desktop app. The browser is the demo. The app is where Cowork lives.\n\n2. Use Cowork, not the chatbot. If you're typing into a chat box, you're using it like it's 2025.\n\n3. Forget .md files & folders. Folders leak old outputs into your context, and nobody on Earth maintains those files weekly.\n\n4. Skills and Projects. That's the entire system now. A skill is a capability you teach once. A project is a place you go back to.\n\n5. Delete your about-me file. Rebuild it as a skill so it follows you into every single chat.\n✦ Don't know how to build one? Take mine:\n✦ Go to how-to-ai.guide. Subscribe for free.\n✦ Don't pay anything. Open my welcome email.\n✦ Hit the automatic reply button inside.\n✦ Open the Notion link. Go to \"Claude skills\".\n✦ Download the library. Upload it in Customize.\n\n6. Turn every setting off. Empty your global instructions. Leave Connectors on. That's it.\n\n7. Projects remember between chats. And you can share one with your entire team in two clicks.\n\n8. Here's where most people quit reading. The longer your chat, the dumber it gets. Anthropic's own engineers said it out loud.\n\n9. So stop typing \"no, I meant…\". Click \"Restart the conversation from here\" on an earlier message. \n\n10. A token is roughly one word. Every word you send & receive is money. Message 30 costs you 31 times message 1.\n\n11. Point Fable 5 at your single hardest problem. Two turns. Then switch models. Turns are the most expensive habit you have.\n\n12. Opus 5 High for everything else. High, not Max.\n\n13. Don't give Claude steps. Give it the goal & get out of the way. Steps drag it down to old Claude.\n\n14. Don't paste logins, passwords, or keys. Ever.\n\n15. Skills fire themselves. You don't prompt them. You type /command.\n\n16. It will sound 100% sure when it's dead wrong.\n\n17. Don't trust agreement either. Claude is a sycophant. Pleasing you and being right are two different jobs.\n\n18. Use Research mode (the \"+\" in the chat box). Almost nobody knows it's in there. Give it something genuinely hard.\n\n19. Add \"use AskUserQuestion\" to your prompt. Claude interviews you before it answers. It prompts itself better than you ever will.\n\n20. Talk, don't type. Cowork reads 100,000 words in 15 secs, then waits for you at 60 words per minute. You speak at 150.\n\n21. Ask for five very different versions. Then pick one. That part is taste, and taste is the part it can't do for you.\n\n22. Make it audit its own answer before you trust a single line.\n\n23. Feed it too much context and it goes in circles. Same answers every time, zero creativity. Keep the context in the project and the chat clean.\n\n24. The first draft is yours to fix, not to ship. Always.\n\n25. The only rule that matters: outsource the thinking, never the understanding.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1785150022311,
+        "date": "2026-07-27T11:00:22.311Z",
+        "postedAgoShort": "1d",
+        "postedAgoText": "1 day ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFz1AyfBvONSg/feedshare-shrink_1280/B4EZ.h5PWHK0AM-/0/1785127565164?e=1786579200&v=beta&t=scbbIz1HtxYmJHyH2Oous3GAyeUvOU48-3n0_4OVQzA",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487461879179726850",
+        "likes": 2051,
+        "comments": 301,
+        "shares": 139,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1855
+          },
+          {
+            "type": "INTEREST",
+            "count": 110
+          },
+          {
+            "type": "EMPATHY",
+            "count": 54
+          },
+          {
+            "type": "PRAISE",
+            "count": 18
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486374672033316864",
+      "entityId": "7486374672033316864",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_dont-post-obvious-ai-written-content-activity-7486374672033316864-tYgN",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486297683050151937",
+      "shareUrn": "urn:li:share:7486297683050151937",
+      "content": "Don't post (obvious) AI-written content.\n\nHere are 12 tells to delete & the 11 skills that fix it:\n\n(all 11 skills are free here → how-to-ai.guide)\n\nDelete these from your writing today-\n\n1. \"Delve.\" You've never said it out loud. Once.\n2. \"Crucial/pivotal.\" Nothing is that pivotal.\n3. \"Tapestry.\" No human speaks like this.\n4. \"Here's the thing.\" There is no thing.\n5. \"Hope this helps.\" It doesn't. It outs you.\n6. \"After careful consideration.\" without considering\n7. \"to provide a quick update.\" Just give the update.\n8. \"Most people…\" The lazy oversimplification.\n9. \"Robust / seamless / realm.\" The corporate AI.\n10. Adverb abuse. \"X quietly runs Y.\" Nothing runs.\n11. \"It's not X, it's Y.\" The famous AI sentence alive.\n12. 'This isn't a budget. It's a statement of intent' No\n\nNow my personally used 11 Claude skills that fix it:\n\n1. /writer\nWrites the first draft in your structure, not Claude's.\nGood draft in = nothing to clean up later.\n\n2. /editor\nCuts the fluff and the filler.\nEvery sentence earns its place or dies.\n\n3. /fact-checker\nKills invented stats and fake-sounding quotes.\nOne hallucinated number and nobody trusts you again.\n\n4. /anti-AI style\nThe base rewrite. Breaks the robotic rhythm \nwhere every sentence is the same 18 words.\n\n5. /ban-the-AI-words\nAuto-blocks \"delve,\" \"crucial,\" \"tapestry\"\n& the entire red list above.\n\n6. /ban-the-AI-patterns\nKills \"It's not X, it's Y\" and the fake-deep endings.\nThe patterns out you faster than the words do.\n\n7. /sound like your posts\nFeed it 5 of your old posts. It writes like YOU, not like Claude. This one replaces every \"humanizer\" tool you've paid for.\n\n8. /humanizer\nStrips whatever AI smell is left.\nContractions in, em dashes out.\n\n9. /red-pen\nFlags your weak lines before your readers do.\n\n10. /self-critique\nClaude critiquing Claude beats Claude on the first try. It loops until the text reads clean.\n\n11. /auto-block-banned-words\nThe safety net. Nothing on the red list ever ships again.\n\nThat's the whole setup. \n12 tells deleted. 11 skills. 0 AI smell.\n\nWant the exact Claude Skills library I use?\nIt's free here → how-to-ai.guide.\nSubscribe. Open the welcome email.\nClick the Notion link inside.\nDownload the Claude Skills folder.\nUpload once to Claude. Done.\n\n♻️ Repost this so people can stop sounding like AI.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784890811928,
+        "date": "2026-07-24T11:00:11.928Z",
+        "postedAgoShort": "4d",
+        "postedAgoText": "4 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFOkC4KXCA4kw/feedshare-shrink_1280/B4EZ.SsEw9JYAM-/0/1784872455670?e=1786579200&v=beta&t=tVnnu3CExflQ82hgCpYZiud9W598bOB16Zbr7XxpHJE",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486374672033316864",
+        "likes": 3568,
+        "comments": 605,
+        "shares": 239,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3256
+          },
+          {
+            "type": "INTEREST",
+            "count": 157
+          },
+          {
+            "type": "EMPATHY",
+            "count": 86
+          },
+          {
+            "type": "PRAISE",
+            "count": 29
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 22
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 18
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486646420314230785",
+      "entityId": "7486646420314230785",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_you-could-spend-a-weekend-building-this-yourself-activity-7486646420314230785-ZZX0",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486395653363838976",
+      "shareUrn": "urn:li:share:7486395653363838976",
+      "content": "You could spend a weekend building this yourself.\n\nOr just download my Drive (for free) in five secs:\n\nStart here 👉 how-to-ai.guide\n\nIt's just seven folders in Google Drive. That's the point. Inside are the 27 Claude Skills I actually use.\n\nHere's what each folder gets you:\n\n📂 GO VIRAL (6 skills) - hooks & post formulas that stop the scroll\n📂 SOUND LIKE ME (3 skills) - trains Claude to write in your voice (removes the robotic AI tone)\n📂 PROMPTS CODES (5 skills) - turns a rough idea into a clean, ready-to-send prompt\n📂 RESEARCH (3 skills) - deep research, fact-checking, and web/Reddit reports with real sources\n📂 SLIDES (2 skills) - full presentation decks, from outline to finished slides\n📂 SPREADSHEETS (2 skills) - builds, fixes, and formats Excel/CSV (formulas, charts, cleanup)\n📂 EVERYTHING ELSE - meeting notes, negotiation playbooks, handoff docs, and a step-by-step coach\n\n…and the rest of the future Skills as we'll update.\n\nHow to get the whole library (free, ~5 secs):\n\n1/ Subscribe free at how-to-ai.guide\n2/ Open the welcome email (don't skip this — the link's inside)\n3/ Click the Notion link → open the \"Skills\" folder\n4/ Download the whole Skills library\n5/ In Claude: Settings → Skills → upload them\n\nJust type your task. The right skill fires on its own.\n\nSave this so you don't lose the steps, and follow if you want more Claude setups like this.\n\nStart here: how-to-ai.guide",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784955601767,
+        "date": "2026-07-25T05:00:01.767Z",
+        "postedAgoShort": "3d",
+        "postedAgoText": "3 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEeQJOTkNazNQ/feedshare-shrink_1280/B4EZ.UFLT_JMAM-/0/1784895813388?e=1786579200&v=beta&t=l1MUDoY9mtKBVQQ_P3mJGwvSgFirR6NbuuwP6e6mIcY",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486646420314230785",
+        "likes": 410,
+        "comments": 84,
+        "shares": 34,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 365
+          },
+          {
+            "type": "INTEREST",
+            "count": 26
+          },
+          {
+            "type": "EMPATHY",
+            "count": 16
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486284088073568256",
+      "entityId": "7486284088073568256",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_stop-bookmarking-50-guides-youll-never-read-activity-7486284088073568256-hod9",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486136608535121920",
+      "shareUrn": "urn:li:share:7486136608535121920",
+      "content": "Stop bookmarking 50 guides you'll never read. \n\nYou can skip all of it with these 17 free guides:\n\nClaude 101: https://lnkd.in/gTKxkNrY\nClaude Fable-5: https://lnkd.in/eXGyP7eR\nClaude Cowork: https://lnkd.in/ewnrQbDt\nClaude Code: https://lnkd.in/dDZc89_J\nClaude Skills: https://lnkd.in/gRq4tpgc\nClaude Design: https://lnkd.in/eGnArUbB\nClaude for Excel: https://lnkd.in/dPmwrBk8\n⁠How to Prompt: https://lnkd.in/gEbmng5W\nClaude + Linkedin: https://lnkd.in/gyZ2Y-ym\nBe good at Claude: https://lnkd.in/g49kgYX9\nStop writing like AI: https://lnkd.in/gb-6qd57\n⁠Claude for your team: https://lnkd.in/gafjDp35\nAI Detectors are scam: https://lnkd.in/e8hfzKh8\nClaude Connectors: https://lnkd.in/d2RNrTEM\nStop Prompting Claude: https://lnkd.in/e47NxW22\nClaude to sound like you: https://lnkd.in/gbwnfs34\nStop hitting Claude limits: https://lnkd.in/gzzhvrY6\nStop using Claude at work:https://lnkd.in/gPiDW8Qn\n\n___\n\n1. Save this list for later (three dots, top right).\n2. Share it with a friend by ♻️ reposting this image.\n3. Subscribe to my free newsletter: how-to-ai.guide.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784869215029,
+        "date": "2026-07-24T05:00:15.029Z",
+        "postedAgoShort": "4d",
+        "postedAgoText": "4 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFfOjOK92iJGQ/feedshare-shrink_1280/B4EZ.QZk21JMAM-/0/1784834052024?e=1786579200&v=beta&t=hyiH2Nc4PMQIk1Wf_JPMeiTt4EMl47ecN1EcoaTVqrU",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486284088073568256",
+        "likes": 1148,
+        "comments": 172,
+        "shares": 123,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1028
+          },
+          {
+            "type": "INTEREST",
+            "count": 48
+          },
+          {
+            "type": "EMPATHY",
+            "count": 41
+          },
+          {
+            "type": "PRAISE",
+            "count": 19
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 11
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485196899046653952",
+      "entityId": "7485196899046653952",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_claude-doesnt-come-with-a-manual-so-i-activity-7485196899046653952-QJbJ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485029172432646144",
+      "shareUrn": "urn:li:share:7485029172432646144",
+      "content": "Claude doesn't come with a manual. \n\nSo I wrote a simple guide (like IKEA instructions):\n\nMost people open Claude, type a question, get a bad answer & decide it's \"just another chatbot.\"\n\nThe problem is nobody handed you the instructions. So I wrote one, like flat-pack furniture. \n\nHere's the whole thing:\n\n1. Get the entire manual (for free)\nGo to how-to-ai.guide. Subscribe for free.\nOpen the received email in your inbox.\nGo to the link, download \"Ikea Claude manual\"\nKeep it open in a second tab while you follow along.\n\n2. The one sentence to end every prompt with - it makes you better at Claude than 99% of people\n\n3. Goals vs. tasks: why \"write me an email\" gets a worse result than telling Claude what you want\n\n4. The Claude rule that stops your chats getting slow, dumb, and expensive\n\n5. How to give Claude a memory, so every chat already knows who you are\n\n6. The expensive model nobody warns you about and when to use it\n\n7. Connecting your Gmail and calendar, and the skills you build once and never rebuild\n\nNo coding. No folders. No jargon. \nIf you can build a bookshelf, you can do this.\n\nKeep it open in a second tab while you follow along:\n→ how-to-ai.guide\n\nI removed every word that wasn't necessary and drew the rest.\n\nIf your team is still typing one-line questions into a Ferrari, send them this.\n\n(If you share it, mention the newsletter. Be nice.)",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784610008966,
+        "date": "2026-07-21T05:00:08.966Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFtEkYKp2Ok8Q/feedshare-shrink_1280/B4EZ.AqXrfIAAM-/0/1784570019138?e=1786579200&v=beta&t=j_4DfmtJektzSVL_mRpVpve4RaGk0g8JqitEuFRH9N0",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485196899046653952",
+        "likes": 2238,
+        "comments": 264,
+        "shares": 159,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1972
+          },
+          {
+            "type": "INTEREST",
+            "count": 112
+          },
+          {
+            "type": "EMPATHY",
+            "count": 87
+          },
+          {
+            "type": "PRAISE",
+            "count": 32
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 26
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 9
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487008813410086913",
+      "entityId": "7487008813410086913",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_prompting-is-dead-heres-what-to-actually-activity-7487008813410086913-hiwW",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485643459354107904",
+      "shareUrn": "urn:li:share:7485643459354107904",
+      "content": "Prompting is dead.\n\nHere's what to actually do instead (in one image):\n\n1. Download the Claude desktop app (free to start).\n2. Open Cowork, the tab between Chat & Code.\n3. Go to Settings → turn almost everything OFF.\n4. Keep only Connectors on. Gmail + Google Drive.\n5. Leave Global Instructions empty. \n6. Delete the \"Cowork\" folder. Delete the .md files.\n7. Turn it into Claude skills instead: /skill-creator.\n8. Don't want to start from scratch? Grab my 27 Claude Skill library (free) → how-to-ai.guide\n9. Check your inbox. The email has the library link.\n10. Open the link → download the Skills folder.\n11. In Claude: Customize → Skills → Upload a skill.\n12. Bake your voice, hooks, rules & rejections into it.\n13. Invoke it with a slash: /my-voice + a one-line ask.\n14. Prompt Claude: \"ask me questions first.\"\n15. Let Claude interview you until it can't fail.\n16. Export the output straight to Drive. One button.\n17. Model: Opus 4.8 on High. Fable-5 when it's free.\n\nBy the way, here are the red flags you're still working like it's 2025:\n\n1. You built a \"Claude Cowork\" folder. Folders leak.\n2. You maintain about-me .md. Make it a Skill.\n3. You re-upload the same files. Skills auto-travel.\n4. Your prompt is 500 words. Skill + one-line prompt\n5. \"Act as a copywriter…\" it still doesn't know you.\n6. You dump giant context. Claude goes in circles.\n7. You told it to \"never read output folder.\" It reads it\n8. You re-explain your tone. Put it in a Skill once.\n9. You copy random prompts They're not your voice\n10. You don't use Connectors. It can't see Gmail...\n11. You're still in Chat. The top 1% are in Cowork.\n12. You think \"prompting\" is a skill. You operate now\n13. You never got my Skill library: how-to-ai.guide.\n\nYes, I was the folders-and-files guy. I was wrong.\nPeople still type 500-word prompts in 2026.\n\nWant to help your network upgrade?\n ♻️ Repost this so they finally drop the folders.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1785042003014,
+        "date": "2026-07-26T05:00:03.014Z",
+        "postedAgoShort": "2d",
+        "postedAgoText": "2 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEp_OpnWaE38Q/feedshare-shrink_1280/B56Z.JZD09GgAM-/0/1784716476146?e=1786579200&v=beta&t=M3QhmeZA2-iOuuph95rYWC_HkQMXLfbdhDMKCzHGF1k",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487008813410086913",
+        "likes": 1825,
+        "comments": 159,
+        "shares": 100,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1679
+          },
+          {
+            "type": "INTEREST",
+            "count": 89
+          },
+          {
+            "type": "EMPATHY",
+            "count": 38
+          },
+          {
+            "type": "PRAISE",
+            "count": 11
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485921687142752257",
+      "entityId": "7485921687142752257",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_can-you-detect-ai-activity-7485921687142752257-sseT",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485715386991218689",
+      "shareUrn": "urn:li:share:7485715386991218689",
+      "content": "You're deleting em dashes to hide AI-written emails.\n\nIt won't save you. You're fixing the wrong thing. Here's why:\n\n1. AI detectors are coin flips. OpenAI fired their own detection team - because they couldn't detect it.\n2. GPT Zero makes $30M/year selling this dream. It's a scam.\n3. Feed it short text, and it has nothing to work with. Pure guess.\n4. Prompt AI for a specific style and the \"AI look\" vanishes. Instantly. Infinitely.\n5. Nobody caught your coworker for saying \"delve.\" They caught them for zero effort.\n\nPeople are busy hiding their AI.\nVery few realize there was never anything to hide.\n\nSomehow, most people blame the em dashes... when the real problem is workslop: work that looks finished but dumps the effort on you.\n\nI wrote the full breakdown: why detection is a scam, why you're a better detector than the $30M bots, and the exact loop + swarm prompts I use so I never ship AI slop (even to 238,000 readers).\n\nIt's free if you click here: https://lnkd.in/e8hfzKh8\n\nForget hiding the AI. Put the effort back in.\n\n-----\n\nPS: I am not paid by Claude.\n\nI know I talk (a whole lot) about Claude. But I don't care about Claude. Claude doesn't pay me.\n\nI'm sharing, twice a week, how my work is speeding up (very fast) with AI.\n\nAs I'm trying to keep up, I want 𝘺𝘰𝘶 to keep up. So we move just as fast.\n\nI want to be the great filter to your AI noise. 850,000 people read this once a week to focus on the how.\n\nSome came because of my LinkedIn. But most readers subscribed because someone they trusted sent one of my articles to them.\n\nIf this article helped you, be that person for someone else (and share it):",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784782811914,
+        "date": "2026-07-23T05:00:11.914Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "Can you detect AI?",
+        "subtitle": "ruben.substack.com",
+        "link": "https://ruben.substack.com/p/how-to-bypass-ai-detectors",
+        "linkLabel": "Open article: Can you detect AI? by ruben.substack.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/sync/v2/D4E27AQGFOV4yHlgogA/articleshare-shrink_1280_800/B4EZ.Kab7VIwAg-/0/1784733614363?e=1785877200&v=beta&t=gtM0gSokW0n1QkprAOyuLGfEq3Y0oVhvYKnsk_xsZLk",
+          "width": 1200,
+          "height": 675
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485921687142752257",
+        "likes": 385,
+        "comments": 173,
+        "shares": 18,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 329
+          },
+          {
+            "type": "INTEREST",
+            "count": 31
+          },
+          {
+            "type": "EMPATHY",
+            "count": 14
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486012303193333761",
+      "entityId": "7486012303193333761",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_how-to-turn-your-best-prompt-into-a-skill-activity-7486012303193333761-Rdwh",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485608282469011457",
+      "shareUrn": "urn:li:share:7485608282469011457",
+      "content": "How to turn your best prompt into a skill (in 10 min):\n\n1. Don't write the Claude skill manually. \n2. There's a faster way, and it takes 10 seconds.\n3. Download a ready-made one: how-to-ai.guide.\n4. Upload it: Claude settings → Capabilities → Skills.\n5. Now the part nobody tells you 👇\n6. Claude reads the 2-line description when it fires.\n7. Not the prompt inside. The description. \n8. So write it like a task, not a topic.\nBad: \"Helps with writing.\"\nGood: \"Use when I ask for a LinkedIn hook.\"\n9. Give each skill ONE job.\n10. A skill that does 3 things fires for none of them.\n11. Hooks & emails & posts? It reaches for nothing.\n12. Boring and single-purpose wins.\n13. Test it the right way: don't say \"use my skill.\"\n14. Just ask for the task like normal.\n15. Fires on its own = you built it right.\n16. Doesn't fire = Description is too vague.\n17. Stuck anywhere? Type ELI5 (\"explain like I'm 5\").\n18. Claude drops the jargon instantly. I use this more\n19. Run it on Cowork, Opus 4.8, effort on High.\n\nSame skill, better output. \n\nHere's why this beats any single prompt:\n\nA great prompt helps you once. \nA skill turns it into a reflex Claude has forever. \n\nIt's the difference between driving a car & building a road you'll drive every day for the rest of your life.\n\nI built 27 of these - the ones I actually use daily and put them on how-to-ai.guide so you never start from a blank file.\n\nDownload one, and if it changes how you work, send it to the person on your team who still thinks \"Claude\" is a guy's name. That's how this spreads.\n\nGrab all 27 free: how-to-ai.guide",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784804416464,
+        "date": "2026-07-23T11:00:16.464Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGJfJkl5veSzA/feedshare-shrink_1280/B4EZ.I5EQeHkAM-/0/1784708089729?e=1786579200&v=beta&t=6aACIJgYFlqNCks96J7hhV2tNxt5qTZyEox9OYyKgX0",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486012303193333761",
+        "likes": 883,
+        "comments": 199,
+        "shares": 94,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 787
+          },
+          {
+            "type": "INTEREST",
+            "count": 53
+          },
+          {
+            "type": "EMPATHY",
+            "count": 28
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485287503235764224",
+      "entityId": "7485287503235764224",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_dont-read-this-if-you-only-post-once-a-month-activity-7485287503235764224-w8SZ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485232935982333953",
+      "shareUrn": "urn:li:share:7485232935982333953",
+      "content": "Don't read this if you only post once a month.\n\nYou'll burn $100 & hate me. But if you post weekly:\n\n...this turns your own LinkedIn content into a machine that writes posts in your voice.\n\n—\n\nSTEP 1. Don't extract your own posts first.\n\nExtract the best creator in your niche instead.\n\nHere's why. If your posts already crush it - great, train on them. But if they don't, feeding Claude 400 mediocre posts just teaches it to be mediocre.\n\nSo find the person whose LinkedIn you wish was yours (30+ posts, real engagement). You're not copying them. You're showing Claude what \"great\" looks like in your world - before you feed it yours.\n\n—\n\nSTEP 2. Pull the LinkedIn posts for $2.\n\n→ Go to Apify, make a free account\n→ Open the \"LinkedIn Profile Posts\" agent\n→ Paste the profile URL\n→ Save & Start\n\nFree signup = $5 in credits = up to 2,000 posts. \nYou pay nothing today.\n\n(Never automate from your own logged-in account. The posts are public - the tool grabs them safely.)\n\nWait ~2 minutes. The raw output looks terrifying. It's fine. Export as Excel.\n\n—\n\nSTEP 3: Make Claude do math, not vibes.\n\nUpload the Excel and tell it: \"Compute the exact stats in code. Don't guess.\"\n\nThis is where 99% of people get fake answers, because the spreadsheet lies:\n\n→ The real format is in which media columns are.\n→ The date is inside each post's activity ID. Claude can decode it - you never would.\n→ For image & carousel, ask Claude to OPEN media & look. Never let it judge a post from the caption.\n\n8–10 minutes later, you get two files:\na REPORT (what wins & why) and an SOP (the exact recipe for your next post).\n\n—\n\nSTEP 4: Turn it into a Claude /skill.\n\nSame chat, upload my LinkedIn post recipe skill at how-to-ai.guide. Subscribe for free; the welcome email gives you the download link.\n\n—\n\nSTEP 5: This is your weekly loop.\n\nNew chat on Claude → type / → invoke your skill.\nAnswer 3 questions. Get 5 angles (ask for 500 if you're greedy). Pick one. Claude writes the caption AND tells you what image to make.\n\nOne invocation = one post. Every week.\n\n—\n\nTwo honest warnings:\n\n1. Don't run one viral recipe on repeat. A viral post is a burger - delicious, dangerous. Clone the best occasionally. Don't eat it every day.\n\n2. Close the loop. Every good post you publish becomes new training data. Better posts → smarter Claude → better posts. That's the whole game.\n\n—\n\nWant my actual skills instead of building your own?\n\nThe extraction skill, the recipe skill, and the caption skill I use every week are all free in my library.\n\n→ Subscribe free at how-to-ai.guide\n→ Open the welcome email (don't skip this)\n→ Click the Notion link → \"Skills\" folder\n→ Download the whole Skills library\n→ Upload to Claude → Settings → Skills\n\nDone. You're running my exact setup in 5 minutes.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784631610688,
+        "date": "2026-07-21T11:00:10.688Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQH6qPbY1L1d-A/feedshare-shrink_1280/B4EZ.DjsQSK4AM-/0/1784618599862?e=1786579200&v=beta&t=IMORULDWRMCWbvmy3_dPhJgau3LhniYIak3W-MBGJtM",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485287503235764224",
+        "likes": 780,
+        "comments": 244,
+        "shares": 44,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 692
+          },
+          {
+            "type": "INTEREST",
+            "count": 47
+          },
+          {
+            "type": "EMPATHY",
+            "count": 30
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484925156843393025",
+      "entityId": "7484925156843393025",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_dont-use-claude-until-you-read-this-activity-7484925156843393025-aQIe",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484914382582366208",
+      "shareUrn": "urn:li:share:7484914382582366208",
+      "content": "Don't use Claude until you read this: \n\n(then send it to your entire team)\n\n✦ Claude Chat\n\nStep 1. Go to claude .ai.\nStep 2. Type what you need.\nStep 3. Start here at how-to-claude.ai\nStep 4. There is no step 5.\n\nBut here's the mistake:\nDon't start a new chat every time.\nKeep going in the same one.\nClaude gets smarter the more context it has.\n\n✦ Claude Projects\n\nStep 1. Click \"Projects\" in the sidebar.\nStep 2. Create a new project.\nStep 3. Upload your brand voice, docs & references.\nStep 4. Download my files at how-to-ai.guide\nStep 5. Don't pay anything, get it in welcome email.\n\nIt's like handing a new hire a binder on 1st day.\n\"Here's how we do things.\"\nEvery chat after that is informed by that binder.\n\n✦ Claude Cowork\n\nStep 1. Download the Claude desktop app.\nStep 2. Click \"Cowork\" next to Chat.\nStep 3. Go to this free guide: claude-co.work\nStep 4. Grant access to your folders.\nStep 5. Describe the outcome you want.\n\nThis is the one that replaces your intern.\nIt opens your files. Does the work. \nHands you the deliverable. You just review it.\n\n✦ Claude Skills\n\nStep 1. Create a SKILL .md file.\nStep 2. Write out how to do one task perfectly.\nStep 3. Upload it in Settings → Skills.\nStep 4. Use Claude Skills: https://lnkd.in/dq6xHS4p\nStep 5. Claude detects when it's relevant.\n\nYou don't teach a chef what \"cooking\" is.\nYou hand them a specific recipe.\nSkills are recipes.\n(My skills library is in the CTA below. Steal them.)\n\n✦ Claude Code\n\nStep 1. Download the Claude desktop app.\nStep 2. Click the \"Code\" tab at the top.\nStep 3. Create a folder on your computer.\nStep 4. Claude Code: claudecode.free\nStep 5. Connect GitHub.\n\nYou now have a junior developer on call 24/7.\nYou describe the vision. Claude builds it.\n\nPro tip: The biggest mistake across all 5:\nDescribing steps instead of outcomes.\n\nDon't say \"Open file A, copy column B.\"\nSay \"Combine the revenue data into one summary.\"\n\nLet Claude figure out the how.\n\nTo download my Claude skills, prompts & files:\n\nStep 1. Go to how-to-ai.guide.\nStep 2. Subscribe for free. Don't pay anything.\nStep 3. Open my welcome email (most skip this).\nStep 4. Go to the given Notion library link.\nStep 5. Every skill, prompt & file is in there.\nBonus. Enjoy my best infographics, too.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784545220576,
+        "date": "2026-07-20T11:00:20.576Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHLK_GbEQCoFQ/feedshare-shrink_1280/B4EZ9_B97IHwAM-/0/1784542650550?e=1786579200&v=beta&t=vxkF5lF0TxpAl15XwoZURH11SF1Z-lVhB0rhGJcydFs",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484925156843393025",
+        "likes": 1128,
+        "comments": 293,
+        "shares": 75,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1012
+          },
+          {
+            "type": "INTEREST",
+            "count": 68
+          },
+          {
+            "type": "EMPATHY",
+            "count": 29
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 11
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486737016571731968",
+      "entityId": "7486737016571731968",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_delete-every-prompt-template-you-ever-saved-activity-7486737016571731968-9DoM",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486374090484793344",
+      "shareUrn": "urn:li:share:7486374090484793344",
+      "content": "Delete every prompt template you ever saved.\n\nYou only need these 3 Claude Skills:\n\n1. /how-to SKILL\n☑ Your universal guide. A → Z on any task.\nType \"/how-to\" + what you want.\nClaude asks the right questions to builds the plan.\n↳ Replaces every \"how do I do this?\" prompt.\n\n2. /about-me\n☑ Who you are. How you think. How you write:\nOpen Claude. Run a 100-question interview.\nOr turn your old about-me .md into a Skill.\n↳ Now Claude sounds exactly like you.\n\n3. /skill-creator\n☑ The Skill that builds your other Skills.\nType /skill-creator. Answer the questions. Save.\nOr say \"make it a skill\" in any long chat.\n↳ This is how you replace the next 500 prompts.\n\n5. Dictate, don't type\n☑ Use Wispr . ai (free). Voice is faster:\nYou answer 100 questions in 90 minutes.\nVoice is also more honest than typing.\n↳ Vagueness won't survive Claude's follow-ups.\n\n5. Skills + Projects. Nothing else.\n☑ Forget folders, files & global instructions:\nSkill = a capability you can teach someone.\nProject = a specific context (a client, a campaign).\n↳ Turn everything OFF. No settings is the best one.\n\nI teach you how Claude works at how-to-ai.guide.\n\nDownload my Skills library for free:\n\nStep 1: Subscribe for free at how-to-ai.guide\nStep 2: Open your welcome email.\nStep 3: Trace the link. Open the 'Skills' folder.\nStep 4: Access my entire Skills library.\nStep 5: Claude settings → Capabilities → Skills.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784977201598,
+        "date": "2026-07-25T11:00:01.598Z",
+        "postedAgoShort": "3d",
+        "postedAgoText": "3 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEzY7tOwqCgtw/feedshare-shrink_1280/B4EZ.TxkIDJ0AM-/0/1784890672059?e=1786579200&v=beta&t=31Bql5DEP8gja1qbQP8yaCwymAzDvqfWz66Cbh7yIxk",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486737016571731968",
+        "likes": 1340,
+        "comments": 181,
+        "shares": 118,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1221
+          },
+          {
+            "type": "INTEREST",
+            "count": 76
+          },
+          {
+            "type": "EMPATHY",
+            "count": 26
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 11
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485649907404550144",
+      "entityId": "7485649907404550144",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_the-slowest-way-to-use-claude-is-to-keep-activity-7485649907404550144-ZDxu",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485587025744609280",
+      "shareUrn": "urn:li:share:7485587025744609280",
+      "content": "The slowest way to use Claude is to keep prompting \n\nThis (one-time) setup makes Claude work like you:\n\n(full setup + free Skills library → how-to-ai.guide)\n\nCowork\n\n☑ Claude chat answers alone. Cowork is a team:\nChat gives you one Claude and one reply.\nCowork spins up many Claude that plan, search, and build before it answers you.\n↳ Download the Claude app, get Pro, open Cowork.\n\nDelete your old setup\n\n☑ Folders and files were the mistake (mine too):\nFolders leak old work into new answers. \nFiles rot the moment you stop updating them.\nTurn OFF every setting & Global Instructions empty.\n↳ Too much context makes Claude repeat itself. Give it room to think.\n\nSkills\n\n☑ Start with one thing you already do every week:\nDo the task in a normal chat, then prompt \"make it a skill.\" Claude builds it for you.\nSave it - now you call it anytime with /command.\n↳ Once it clicks, make more with /skill-creator and feed them your real data.\n\nProjects\n\n☑ A project holds the context a skill can't:\nDrop in a client's files, emails, & past campaigns - it remembers across every chat.\nThe test: teachable to someone → Skill. \nA specific client or campaign → Project.\n↳ Use your skills inside your projects. \n\nThe habits\n\n☑ The setup is useless if you keep your old habits:\nTalk, don't type. Install Wispr Flow (it's free) and speak the prompt, the answers, the feedback.\nEnd every prompt with \"ask me questions.\" \nCall out the mistake - don't accept it.\n↳ Export outputs to Google Drive. \nDon't trust Claude's own files.\n\nSave your Claude tokens\n\n☑ Long chats are token eaters:\nDon't send follow-ups. \nEdit or restart from an earlier message instead.\nStart a fresh session every 20 messages. \nBatch your tasks into one prompt.\n↳ Use Sonnet / Haiku for quick tasks. \nSave Opus for the deep work.\n\nDownload my Claude Skills library for free:\n\nStep 1: Subscribe for free at how-to-ai.guide.\nStep 2: Open your welcome email. \nStep 3: Trace the link inside. Open the Skills library.\nStep 4: Import my skills straight into your Claude. \nStep 5: Send this image to your team's channel.\nStep 6: Read 2x newsletters per week (for free).\nStep 7: Become the \"AI person\" at work, forever.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784718014575,
+        "date": "2026-07-22T11:00:14.575Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFt5IuxxkKqwA/feedshare-shrink_1280/B4EZ.IlvEcHoAM-/0/1784703021818?e=1786579200&v=beta&t=YmkUws8nkCV-UqImnKVWXsAI7GPQTuyTufG2_BnWV-4",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485649907404550144",
+        "likes": 1290,
+        "comments": 291,
+        "shares": 118,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1145
+          },
+          {
+            "type": "INTEREST",
+            "count": 77
+          },
+          {
+            "type": "EMPATHY",
+            "count": 44
+          },
+          {
+            "type": "PRAISE",
+            "count": 18
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484472094089633792",
+      "entityId": "7484472094089633792",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_how-to-master-claude-fable-5-in-only-15-steps-activity-7484472094089633792-kC5y",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484291025000247296",
+      "shareUrn": "urn:li:share:7484291025000247296",
+      "content": "How to master Claude Fable 5 in only 15 steps:\n\n(Send it to your team. They're burning credits)\n\n1. Pick one super hard, expensive problem.\n\"Rewrite this email\" is shooting a bird with a bazooka. Bring Fable a hard decision, a research report, a mess only a genius untangles.\n\n2. Open a new Claude chat.\nFable re-reads the entire thread with every message - and you pay for every re-read. \nNew task, new chat. No exceptions.\n\n3. Select Fable 5 → Effort High.\nSave \"Max\" effort for the truly brutal jobs. \nThinking time costs credits too.\n\n4. Paste your \"about-me\" doc.\nAI is average by default - trained on everyone, so it answers like everyone. Keep one Google Doc: who you are, what you do, how you write. Paste it first.\n\n5. Give it your goal, not a task.\nThe template: \"I need [task] for [goal]. I expect [goal] achieved once we hit [specific targets].\"\n\n6. Add to the first prompt: \"Ask me questions first.\"\nExact Prompt: \"Start by asking me questions about the task, goal & targets to fully understand the context.\"\n\n7. Add this to a prompt: \"Answer first, explain after.\"\nNow the first sentence of every follow up prompt is the bottom line. No more scrolling through methodology to find your answer.\n\n8. Add: \"Don't say done. Prove it.\"\nExact prompt: \"Only report work you can point to evidence for. If something is not verified, say so.\"\nThis removes the fake \"all done!\" reports. Same standard you'd hold a new hire to.\n\n9. Add: \"Pick one option. Commit.\"\nExact prompt: \"When you have enough information to act, act. Give me a recommendation, not a survey of options.\" You want a verdict, not a menu.\n\n10. Send it. Answer its questions.\nIt asks 3-4 sharp ones. This 2-minute interview decides the quality of everything after.\n\n11. Let it work. Don't interrupt.\nEvery \"oh wait, also-\" makes it re-read the whole thread. I paid $14 for one chat learning this.\n\n12. Stop after 2 messages.\nFable's job is the genius part: the plan, the strategy, the hard call. That's it.\n\n13. Switch to Opus 4.8 (High). Same chat.\nModel menu → switch. Opus is included in your plan & it reads everything Fable just planned.\n(Cowork can't switch mid-chat. Annoying, I know)\n\n14. Finish everything there.\nDrafts, edits, the 20-message back-and-forth: all on Opus. That's the free part.\n\n15. Save it all in a Project.\nYour files and instructions live there permanently. Tomorrow's session starts warm, not from zero.\n\nFable 5 thinks for 2 prompts. Opus 4.8 does the rest\n\n----\n\nOne last thing.\n\nI built a Skill that writes these prompts FOR you.\nIt's called /fable-prompter. You hand it a lazy idea. \nIt gives you an optimised prompt.\n\nHere's how to get it (takes 3 minutes):\n\n1. Subscribe to my free newsletter: how-to-ai.guide.\n2. You will receive an email. \n3. Click the Notion Library link mentioned inside. \n4. The /fable-prompter file is inside.\n5. Go to Claude settings → Skills (\"Capabilities\").\n6. Click + and upload the file. Toggle it on.\n7. Open a chat. Type /fable-prompter + your idea.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784437201998,
+        "date": "2026-07-19T05:00:01.998Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQG4hupAaHbdPw/feedshare-shrink_1280/B4EZ92LBwZKQAM-/0/1784394030884?e=1786579200&v=beta&t=Ni62HHaJHqr63O2x7O9kwg55pEWJIiwbT6Ft9q0ePzs",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484472094089633792",
+        "likes": 1458,
+        "comments": 186,
+        "shares": 110,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1316
+          },
+          {
+            "type": "INTEREST",
+            "count": 80
+          },
+          {
+            "type": "EMPATHY",
+            "count": 36
+          },
+          {
+            "type": "PRAISE",
+            "count": 13
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 10
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487099410330402816",
+      "entityId": "7487099410330402816",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_these-are-the-exact-claude-skills-i-use-every-activity-7487099410330402816-ngXV",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485625380931043328",
+      "shareUrn": "urn:li:share:7485625380931043328",
+      "content": "These are the exact Claude Skills I use every day.\n\nI'm giving you the whole library (for free):\n\nA Skill is just a /command that fires itself.\n\nNo more re-explaining who you are.\nNo more \"read this file first.\"\nNo more rebuilding the same setup every chat.\n\nYou type one word. Claude already knows the job.\n\nHere are the ones I use the most:\n\n1. /grill-me - forces Claude to interview me with 10-15 questions before it builds anything.\n2. /humanizer - kills the em-dashes, the dead giveaway AI words. Finally reads human.\n3. /fact-checker - verifies every claim before I publish. Saved me from bad info more than once.\n4. /prompt-master - restructures my messy brain-dumps before Claude runs the task. \n5. /linkedin-hook - writes the first two lines that decide whether anyone reads the post.\n\n…and the rest of the library, all done, all free.\n\nStop building Skills from scratch. I already did the days of work. Here's how to get all of them:\n\nStep 1. Subscribe for free at how-to-ai.guide.\nStep 2. Open the welcome email (don't skip this).\nStep 3. Click the Notion link. Open \"Skills\" folder.\nStep 4. Download the whole Skills library.\nStep 5. Upload to Claude → Settings → Skills.\n\nThat's it. One click, zero weekends.\nThe best part: Claude only reads the 3-line header of each Skill until you need it. So installing the whole library actually saves tokens.\n\n♻️ Repost this to save someone a weekend.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1785063603003,
+        "date": "2026-07-26T11:00:03.003Z",
+        "postedAgoShort": "2d",
+        "postedAgoText": "2 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEgN_JdyFgL4A/feedshare-shrink_1280/B56Z.JIndJG8AM-/0/1784712165773?e=1786579200&v=beta&t=dO6OBfhQuomsW2ecAHcdX2DmlhKTJ5XGAbVEJ3GkFjU",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487099410330402816",
+        "likes": 937,
+        "comments": 155,
+        "shares": 92,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 851
+          },
+          {
+            "type": "INTEREST",
+            "count": 46
+          },
+          {
+            "type": "EMPATHY",
+            "count": 26
+          },
+          {
+            "type": "PRAISE",
+            "count": 10
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485559320336642048",
+      "entityId": "7485559320336642048",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_27-claude-shortcut-hacks-for-faster-prompts-activity-7485559320336642048-jE8S",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485306802335784962",
+      "shareUrn": "urn:li:share:7485306802335784962",
+      "content": "27 Claude shortcut hacks for faster prompts: \n\n(worth saving for later) \n\nGrab all 27 shortcuts for free: how-to-ai.guide\n\nEach one is a full prompt I already pre-wrote, saved as a / command. You type a word instead of a page.\n\n——\n/I-HAVE-ADHD shapes every reply so an ADHD brain can act on it, leading with the next action.\n/FABLE-PROMPTER turns a rough idea into a polished prompt tuned for Claude Fable.\n/MEETING-VISUALISER turns meeting notes into a clean visual summary or diagram.\n/MY-VIRAL-LINKEDIN-POST drafts a post in your own proven style, with hooks and angles.\n/HOW-TO turns \"I want to do X with Claude\" into a finished result, step by step.\n/INFOGRAPHIC-BUILDER turns text into a polished 1080x1350 infographic for social.\n/DEEP-RESEARCH-ANALYZER synthesizes many sources into cited, actionable summaries.\n/DECK-BUILDER builds presentation decks end to end, from outline to slides in Gamma.\n/LINKEDIN-HOOK writes scroll-stopping first two lines for a LinkedIn post.\n/48 turns a rough idea into a finished prompt tuned for Opus 4.8.\n/NEGOTIATION builds multi-expert negotiation playbooks for your deals.\n/EXCEL-STYLE applies your personal style to any tracker or dashboard.\n/HORMOZI-VIRAL-1 writes a post using Alex Hormozi's viral \"I built wealth without…\" recipe.\n/ANTI-AI-WRITING-STYLE rewrites text so it stops sounding like AI.\n/CLIENT-BRIEF builds a sharp pre-call brief on any prospect from CRM, email, and web.\n/LINKEDIN-POST-REPORT turns a LinkedIn posts export into an analytics report plus an SOP.\n/VIRAL-LINKEDIN-POST-RECIPE captures a viral post's recipe, then reproduces it for any topic.\n/GRILL-ME interviews you with 10-15 questions before it builds anything.\n/MEETING-NOTES turns a Granola or Notion meeting into a summary with action items.\n/INSTAGRAM-CAROUSEL builds carousel slides on a fixed six-template system.\n/REDDIT-RESEARCHER researches Reddit, X, YouTube, and more into a cited 30-day report.\n/FACT-CHECKER verifies every claim in a draft against real sources.\n/PROMPT-MAKER restructures a messy brain-dump into a clean task spec.\n/HAND-OFF compresses the whole chat into a handoff doc so anyone can resume.\n/WRITE-A-SKILL turns a plain description into an installable SKILL .md.\n/PERSONAL-VOICE calibrates a profile from your writing, then checks every draft against it.\n/XLSX reads, edits, or creates spreadsheets: formulas, charts, and clean-up.\n——\n\nI turned every long prompt I actually use into a Skill you install once.\n\nTo download all 27 Claude prompt shortcuts (free):\n\n→ Subscribe: how-to-ai.guide\n→ Open the welcome email.\n→ Click the Notion link inside.\n→ Download the Claude Skills folder.\n→ Upload once to Claude. Done.\n\nYou build it once. It works forever.\nGet all 27 shortcuts, free: how-to-ai.guide.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784696416935,
+        "date": "2026-07-22T05:00:16.935Z",
+        "postedAgoShort": "6d",
+        "postedAgoText": "6 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQGujvCBnktO3g/feedshare-shrink_1280/B4EZ.Em3rwKQAM-/0/1784636210424?e=1786579200&v=beta&t=jFoxD12x_ISK5shMJMxepbOXx7F9GH5bUJWo4bo0dHY",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485559320336642048",
+        "likes": 703,
+        "comments": 173,
+        "shares": 58,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 621
+          },
+          {
+            "type": "INTEREST",
+            "count": 49
+          },
+          {
+            "type": "EMPATHY",
+            "count": 22
+          },
+          {
+            "type": "PRAISE",
+            "count": 6
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483837949164486656",
+      "entityId": "7483837949164486656",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_13-ridiculous-tools-worth-every-penny-in-activity-7483837949164486656-hOO3",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483823235915173888",
+      "shareUrn": "urn:li:share:7483823235915173888",
+      "content": "13 (ridiculous) tools worth every penny in 2026:\n\n1. Claude.ai (solve complex problems)\n2. Grok.com (research with real-time news)\n3. Granola.ai (never take notes again)\n4. Wisprflow.ai (write with your voice)\n5. Suno.ai (compose music with AI)\n6. Gamma.app (create presentations)\n7. Canva.com (design graphics)\n8. Seedance2.app (generate AI videos)\n9. ChatGPT.com (create realistic images)\n10. Shortcut.ai (build spreadsheets with AI)\n11. ElevenLabs.io (AI voice cloning)\n12. Code.claude.com (build anything with prompts)\n13. Notebooklm.google.com (chat with your source)\n\n📤 Save this list, it might help you one day.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784286010066,
+        "date": "2026-07-17T11:00:10.066Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483837949164486656",
+        "likes": 407,
+        "comments": 174,
+        "shares": 43,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 334
+          },
+          {
+            "type": "INTEREST",
+            "count": 34
+          },
+          {
+            "type": "EMPATHY",
+            "count": 27
+          },
+          {
+            "type": "PRAISE",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483475552599830528",
+      "entityId": "7483475552599830528",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_youre-still-stuck-at-level-1-of-claude-activity-7483475552599830528-FSKQ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483457382363205632",
+      "shareUrn": "urn:li:share:7483457382363205632",
+      "content": "You're still stuck at Level 1 of Claude.\n\nHere are the 6 levels above you (one tip each):\n\nQuick recap. Level 1 is one sentence in a prompt:\nEnd every prompt with \"Ask me questions first.\"\nClaude interviews YOU. You click the answers. \nThe output gets 10x more personal.\n\nLevel 2 → Talk. Don't type.\nYou type 60 words a minute. You speak 150.\nDownload Wispr .ai (free). Hold the key. Talk.\nYour prompts get longer, richer & take half the time.\n\nLevel 3 → Leave the chat.\nGet the Claude app → open the \"Cowork\" tab.\nDrop in a messy doc, old proposal, numbers.\nThen: \"Build a spreadsheet to do [X]. Ask me what you need first.\" 3 minutes later: a real Excel file.\n\nLevel 4 → Connect your apps.\nLeft sidebar → Customize → Connectors.\nConnect Gmail,  Calendar, your notetaker (Granola).\nThen test it: \"Prep me for tomorrow using my emails, calendar, and meeting notes.\"\n\nLevel 5 → Teach it once. Use it forever.\nType /skill-creator and prompt: \"Teach Claude to build spreadsheets exactly the way I like them. Ask me questions first.\"\nAnswer its questions. Click \"Save skill.\"\nNow /[Skill name] works in every future chat. \n\nLevel 6 → Master the models.\nUse the new Claude Fable 5 for quick 2 prompts.\nSwitch to Opus 4.8, Effort High, for the heavy work.\nThe wrong model wastes the exact same prompt.\n\nLevel 7 → Vibecode.\nOpen the </> Code. Turn on \"Bypass permissions.\"\n(It's the scary button. All it means is: go, I trust you.)\nThen: \"Build a page where people book a 30-min call with me. Ask me questions first.\"\n4 mins later, it works. You built software. In English.\n\nEvery single level runs on \"Ask me questions first.\"\n\nSo I made my personal Claude skill library public - the exact skills I use every day.\n\n→ Subscribe at how-to-ai.guide.\n→ You will receive an email with the library link.\n→ Download the relevant skills as per your use case.\n→ Go to Claude Customize → Skills → Upload.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784199607992,
+        "date": "2026-07-16T11:00:07.992Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHVECBd3ZxQCA/feedshare-shrink_1280/B4EZ9qU1ZdHoAU-/0/1784195275387?e=1786579200&v=beta&t=GLhyfkZFzQtbRfR7ooxNNElA9IpDrLafuppZFOd7Xz0",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483475552599830528",
+        "likes": 2006,
+        "comments": 302,
+        "shares": 120,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1824
+          },
+          {
+            "type": "INTEREST",
+            "count": 96
+          },
+          {
+            "type": "EMPATHY",
+            "count": 51
+          },
+          {
+            "type": "PRAISE",
+            "count": 17
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 10
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 8
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483384969151729664",
+      "entityId": "7483384969151729664",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_chatgpt-shamelessly-copied-claude-activity-7483384969151729664-tZ9M",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483223665040470016",
+      "shareUrn": "urn:li:share:7483223665040470016",
+      "content": "You're about to switch back to ChatGPT.\n\nRead this before you cancel Claude subscription:\n\n1. Yes, the new launch of \"ChatGPT Work\" does what Claude Cowork does. Agents and all.\n\n2. But I hit \"You're out of usage\" in the middle of my first task on ChatGPT Work (On a paid plan).\n\n3. If you want more ChatGPT usage? You can't buy it. There is no $100 tier like Claude's to top it up.\n\n4. Your only way is Enterprise: 150 seats minimum.\n\n5. The one thing worth keeping ChatGPT for: image generation. Still the best, by far. Better than Gemini.\n\nPeople saw the announcement & are ready to jump.\n\nVery few tested it. (I did. I couldn't finish the work.)\n\nSomehow, most people blame their prompts... when the problem is the plan stops you mid-task.\n\nI wrote the full guide: how to access the new ChatGPT, which of the 30 setups to pick, and when switching actually makes sense.\n\nIt's free if you click here: https://lnkd.in/eQiszyvM\n\nForget the launches. Test it on one real task first.\n\n---\n\nPS: I am not paid by Claude.\nI know I talk (a whole lot) about Claude. But I don't care about Claude. Claude doesn't pay me.\n\nI'm sharing, twice a week, how my work is speeding up (very fast) with AI.\n\nAs I'm trying to keep up, I want 𝘺𝘰𝘶 to keep up. So we move just as fast.\n\nI want to be the great filter to your AI noise. And 825,000 people read this twice a week to focus on the how.\n\nSome came because of my LinkedIn. But most readers subscribed because someone they trusted sent one of my articles to them.\n\nIf this article helped you, be that person for someone else (and share it):",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784178011215,
+        "date": "2026-07-16T05:00:11.215Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "article": {
+        "title": "ChatGPT shamelessly copied Claude.",
+        "subtitle": "ruben.substack.com",
+        "link": "https://ruben.substack.com/p/chatgpt-copied-claude",
+        "linkLabel": "Open article: ChatGPT shamelessly copied Claude. by ruben.substack.com",
+        "description": null,
+        "image": {
+          "url": "https://media.licdn.com/dms/image/sync/v2/D4E27AQHKjVBUxrLF8g/articleshare-shrink_1280_800/B4EZ9mnGyvJMAg-/0/1784132955737?e=1785877200&v=beta&t=ZM-pCkWXal4DN9lWrIcUCeS9Xa66beF8yzcViT2uqII",
+          "width": 1200,
+          "height": 675
+        }
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483384969151729664",
+        "likes": 348,
+        "comments": 170,
+        "shares": 11,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 277
+          },
+          {
+            "type": "INTEREST",
+            "count": 43
+          },
+          {
+            "type": "EMPATHY",
+            "count": 16
+          },
+          {
+            "type": "PRAISE",
+            "count": 8
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484834515715076096",
+      "entityId": "7484834515715076096",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_my-9-most-used-claude-skills-to-write-prompts-activity-7484834515715076096-4LST",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484680272337244160",
+      "shareUrn": "urn:li:share:7484680272337244160",
+      "content": "My 9 (most-used) Claude Skills to write prompts.\n\nDownload the whole library for free:\n\n👉 how-to-ai.guide - subscribe free; the welcome email gives you the download link.\n\nEverything below is what you'll get in the library:\n\n1. /prompt-master - restructures a brain-dump into a clean task spec before Claude runs anything.\n\n2. /grill-me - interrogates until nothing is vague. The prompt fixes itself in the answers.\n\n3. /how-to - for when I don't even know what to ask. Maps the steps first, then we prompt.\n\n4. /48 - rewrites the optimised prompt for Opus 4.8. Models read differently.\n\n5. /fable - same job, tuned for the new Fable 5. Two models, two ways of prompting.\n\n6. /personal-voice - bakes my writing voice into the prompt. Outputs sound like me on the first try.\n\n7. /anti-ai - remove the em-dashes and the dead giveaway AI words before they ever appear.\n\n8. /write-a-skill - turns any prompt I reuse into a new Skill. The library builds itself.\n\n9. /handoff - compresses the whole chat into the opening prompt of the next one. Nothing gets lost.\n\n…and the rest of the library, all done, all free.\n\nStop studying prompt engineering. I already turned it into 9 Skills. Getting them takes 2 minutes:\n\nStep 1. Subscribe free at how-to-ai.guide.\nStep 2. Open the welcome email (don't skip this).\nStep 3. Click the Notion link → \"Skills\" folder.\nStep 4. Download the whole Skills library.\nStep 5. Upload to Claude → Settings → Skills.\n\nThe best part: the Skills stack. Claude runs /grill-me into /48 into /personal-voice in one chat - you just answer the questions and watch.\n\n♻️ Repost this to save someone from prompting.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784523610047,
+        "date": "2026-07-20T05:00:10.047Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQG94pNPVYWyUw/feedshare-shrink_1280/B4EZ97tDE6HwAM-/0/1784486834970?e=1786579200&v=beta&t=N84QuXof-y3v5YENVFneF9X-gaslYSfcXySzzH5NgW4",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484834515715076096",
+        "likes": 2812,
+        "comments": 265,
+        "shares": 265,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 2564
+          },
+          {
+            "type": "INTEREST",
+            "count": 137
+          },
+          {
+            "type": "EMPATHY",
+            "count": 70
+          },
+          {
+            "type": "PRAISE",
+            "count": 26
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 14
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483747336880373760",
+      "entityId": "7483747336880373760",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_you-just-paid-for-a-claude-pro-subscription-activity-7483747336880373760-OMl_",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7483536017690435586",
+      "shareUrn": "urn:li:ugcPost:7483536017690435586",
+      "content": "You just paid for a Claude Pro subscription.\n\nBut you're (still) hitting limits daily. Here's why:\n\nYour tokens are leaking & your habits are the leak.\n\nHere are the 7-steps for you to shamelessly copy:\n\nWatch the full vid here: https://lnkd.in/e63AQmAg\n\n1. Match the task: Haiku → Sonnet → Opus → Fable\n2. Learn how to paste text instead of dropping files\n3. Make Claude plan before you let it build\n4. Stop stacking follow-ups, edit 1 message instead\n5. Batch every ask into 1 prompt, not 5 chats\n6. Turn off web search + unused connectors\n7. Keep your \"about me\" file under 2,000 words\n\nPeople get Claude limits all wrong.\nAnd they pay for a bigger plan as a result.\n\nBut the reality is that upgrading is no longer enough to win in the token economy this 2026.\n\nTo win, you need this proven system.\n\nAnd I laid it out for you so you can copy paste it.\n\nWatch the full breakdown here: https://lnkd.in/e63AQmAg\n\nAnd a bonus tip for anyone reading this:\n\nSpeak your prompts with a tool like Wispr .ai.\nYou'll naturally give richer context in one take.\nRicher context = fewer follow-ups = fewer tokens.\n\nMore answers from the same plan. Never a loss.\n\nRepost ♻️ this to save your whole team's tokens.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784264406414,
+        "date": "2026-07-17T05:00:06.414Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQGxgURLiscVXA/videocover-high/B4EZ9rcd.LHABU-/0/1784214057919?e=1785877200&v=beta&t=UaBh1Bxrf2TuVaRCeZMcU8fndZkusL1dcdZ8_skcHfw",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQGxgURLiscVXA/mp4-720p-30fp-crf28/B4EZ9rcd.LHACQ-/0/1784214076091?e=1785877200&v=beta&t=xyN7OiV0ny_norQ5WOtos_0v0lo5zL1RRIkjGXeWW_U"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483536017690435586",
+        "likes": 632,
+        "comments": 230,
+        "shares": 44,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 557
+          },
+          {
+            "type": "INTEREST",
+            "count": 34
+          },
+          {
+            "type": "EMPATHY",
+            "count": 26
+          },
+          {
+            "type": "PRAISE",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 7
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484562689374199808",
+      "entityId": "7484562689374199808",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_i-wrote-these-6-claude-formulas-for-my-team-activity-7484562689374199808-N4j2",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484526915287019521",
+      "shareUrn": "urn:li:share:7484526915287019521",
+      "content": "I wrote these 6 Claude formulas for my team.\n\nNobody's allowed to skip them (including you):\n\nFORMULA 1. Delete your \"about-me\" text file.\n\nI asked you to create the text file, but later I realised Claude re-read it before every single task.\n\nTurn it into a skill instead:\n\n→ Open a Claude chat. Upload your old file.\n→ Prompt: \"Turn this into a skill I invoke with /about-me. Trim it under 2,000 words. Ask me questions\"\n→ Save. Now it loads only when you call it.\n\nDownload my file from here: how-to-ai.guide to get started (the link in the email after subscribing)\n\nFORMULA 2. Skills + Projects. Nothing else.\n\nThe test my team runs on every workflow:\n\nYou can teach it to someone → Skill.\nIt's a client or a campaign → Project.\n\nThe move nobody does: combine them.\n\n/contract skill, inside the client's Project, with Gmail connected. Claude drafts the contract in your style, with the client's real context, quoting the actual email thread.\n\nFORMULA 3. No settings are the best settings.\n\nTurn off Memory. Leave Global Instructions empty. Keep Connectors on. Done.\n\nToo much context sends Claude in circles. Same answer, every time. Fine when you draft the same contract weekly. Death when you brainstorm.\n\nFORMULA 4. Make Claude ask YOU.\n\n\"I want [task] to [success criteria]. Ask me questions using AskUserQuestion before you start.\"\n\nThe part most people miss: this trick is infinite. When Claude hallucinates mid-chat, say \"ask more questions.\" It keeps asking until failing is impossible.\n\nFORMULA 5. Fable on Low. Opus on High.\n\nFable-5 runs on usage credits: $0.15 for a question, $14 if you let a session run long. I tested. I paid.\n\nSo: Fable on Low effort, your 2 hardest turns only. Then switch the model mid-chat to Opus 4.8 on High. It's included in your plan.\n\nFORMULA 6. Edit. Don't follow up.\n\nMessage 30 costs 31x more than message 1. Claude re-reads everything, every turn.\n\nSo never type \"no, I meant...\"\n\nClick Edit on your prompt. Everything after it disappears. Or click \"Restart the conversation from here\" and go as high up as you can.\n\nBONUS: 3 formulas that didn't fit on the image.\n\nFORMULA 7. Batch your tasks. \n3 prompts = 3 full re-reads. \n\"Summarize this, list the main points, suggest a headline\" = 1 message, 1 read, better answer.\n\nFORMULA 8. Speak. Don't type. \nYou type 60 words a minute. You talk 150. \nDictate your prompts using wispr .ai and Claude gets double the context in one shot.\n\nFORMULA 9. Chat. Code. Cowork. \nA quick question → Chat. \nSoftware → Code. \nAnything document-shaped → Cowork.\n\nThat's 6 formulas in the image. 9 in this caption. Told you not to skip.\n\nI turned all 6 into ready-to-upload Claude skills. Free in my welcome email: how-to-ai.guide\n\nAlready subscribed? DM \"formulas\" and I'll give you the step-by-step to get the right link.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784458801597,
+        "date": "2026-07-19T11:00:01.597Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHrdBf6y6H_fQ/feedshare-shrink_1280/B4EZ95hka5IAAU-/0/1784450271413?e=1786579200&v=beta&t=FxHjC3960mhGgcWSJwkh7W0KW-lowGx0AAg4e7hX6Zk",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484562689374199808",
+        "likes": 2114,
+        "comments": 188,
+        "shares": 137,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1956
+          },
+          {
+            "type": "INTEREST",
+            "count": 100
+          },
+          {
+            "type": "EMPATHY",
+            "count": 40
+          },
+          {
+            "type": "PRAISE",
+            "count": 9
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 8
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484109710284058624",
+      "entityId": "7484109710284058624",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_stop-buying-expensive-500-courses-to-learn-activity-7484109710284058624-UtVQ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483853932843425792",
+      "shareUrn": "urn:li:share:7483853932843425792",
+      "content": "Stop buying expensive $500 courses to learn AI.\n\nI’ve already done it for you. With one list:\n\nStraight to the point. Zero confusion. And no fluff.\n\nSpend a day mastering Claude here: claude101.com\n\n___\n\nClaude 101: https://lnkd.in/gTKxkNrY\nClaude Fable-5: https://lnkd.in/eXGyP7eR\nClaude Cowork: https://lnkd.in/ewnrQbDt\nClaude Code: https://lnkd.in/dDZc89_J\nClaude Skills: https://lnkd.in/gRq4tpgc\nClaude Design: https://lnkd.in/eGnArUbB\nClaude for Excel: https://lnkd.in/dPmwrBk8\n⁠How to Prompt: https://lnkd.in/gEbmng5W\nClaude + Linkedin: https://lnkd.in/gyZ2Y-ym\nBe good at Claude: https://lnkd.in/g49kgYX9\nStop writing like AI: https://lnkd.in/gb-6qd57\n⁠Claude for your team: https://lnkd.in/gafjDp35\nClaude Connectors: https://lnkd.in/d2RNrTEM\nStop Prompting Claude: https://lnkd.in/e47NxW22\nClaude to sound like you: https://lnkd.in/gbwnfs34\nStop hitting Claude limits: https://lnkd.in/gzzhvrY6\nStop using Claude at work:https://lnkd.in/gPiDW8Qn\n\n___\n\n1. Save this list for later (three dots, top right).\n2. Share it with a friend by ♻️ reposting this image.\n3. Subscribe to my free newsletter: how-to-ai.guide.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784350802966,
+        "date": "2026-07-18T05:00:02.966Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFwJsvbHo_o7A/feedshare-shrink_1280/B4EZ9v9ftfKIAM-/0/1784289820091?e=1786579200&v=beta&t=9ynDxBj0Vwwqh3DrTVKHGJpS3T43LtcFpJF10jx9AUA",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484109710284058624",
+        "likes": 1598,
+        "comments": 118,
+        "shares": 213,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1445
+          },
+          {
+            "type": "INTEREST",
+            "count": 77
+          },
+          {
+            "type": "EMPATHY",
+            "count": 49
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 15
+          },
+          {
+            "type": "PRAISE",
+            "count": 11
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483022576189960192",
+      "entityId": "7483022576189960192",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_delete-your-33-unread-claude-guides-bookmarks-activity-7483022576189960192-LPlq",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482998063498772480",
+      "shareUrn": "urn:li:share:7482998063498772480",
+      "content": "Delete your 33 unread Claude guides bookmarks. \n\nThis (stupid simple) roadmap is all you need:\n\n→ Quick Start - 20 mins: Get going.\n\nThe basics of Claude: https://lnkd.in/dHy7XY-p\nPrompt better: https://lnkd.in/enUpBqcT\nUse Projects: https://lnkd.in/gYgBuEFm\nGet free certified: https://lnkd.in/dNCDaR9k\n\n→ Head Start - 30 mins: Real work.\nNew interface tour: claudedesign.free\nCreate slides with AI: how-to-gamma.ai\nFirst Claude skill: https://lnkd.in/e5kk5BSV\nMake Claude challenge you: https://lnkd.in/dNjxZ7gQ\n\n→ Go Deeper - 45 mins: The pro moves.\nClaude Cowork: https://lnkd.in/ewnrQbDt\nSet up your team: how-claude.team\nTrain your voice: https://lnkd.in/dgDDpgBv\nBuild with Code (vibecode): claudecode.free\n\n→ More Deeper - extras: Stop sounding like a robot.\nSound less AI: https://lnkd.in/dwxBkmja\nAvoid token limits: https://lnkd.in/dZVmzS9E\nClaude connectors: https://lnkd.in/dHzsSDwR\nUse Claude for Excel: https://lnkd.in/d6rM-GSm\n\nPro tip: Don't binge it. Do one ring per sitting.\n\nActually apply each guide before moving to the next.\n\n---\n\nTo download my personally used Claude Skill:\n\nStep 1. Go to how-to-ai.guide.\nStep 2. Open my welcome email (most skip this).\nStep 3. Go to the link mentioned in the email.\nStep 4. Download 27 Claude Skills.\nStep 5. Enjoy my best copy-paste prompts, too.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784091610000,
+        "date": "2026-07-15T05:00:10.000Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEEeZT600W6eQ/feedshare-shrink_1280/B4EZ9jzFjoJgAM-/0/1784085764731?e=1786579200&v=beta&t=1FfTpbQxRJERtn_qk0R_f6fpLoZO3CQ-5Nz9ORh104Q",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483022576189960192",
+        "likes": 1042,
+        "comments": 187,
+        "shares": 105,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 946
+          },
+          {
+            "type": "INTEREST",
+            "count": 55
+          },
+          {
+            "type": "EMPATHY",
+            "count": 25
+          },
+          {
+            "type": "PRAISE",
+            "count": 11
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482750773844545538",
+      "entityId": "7482750773844545538",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_my-mom-asked-me-what-the-hell-is-claude-activity-7482750773844545538-NWeN",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482712794652573696",
+      "shareUrn": "urn:li:share:7482712794652573696",
+      "content": "My mom asked me, \"What the hell is Claude?\" \n\nThis image did the job, not me:\n\nThen she called. 6 more questions in 20 minutes.\nHer questions will teach you, better than I ever did:\n\n→ \"What do I type in the prompt box?\"\nCopy this template and fill it with your context: \"I want to [TASK] for [RESULT]. AskUserQuestion.\"\n\nClaude asks 3-5 questions. You tap the answers.\nPrompting, solved. She never asked about it again.\n\n→ \"You expect me to type all that?\"\nNo. Talk to your Claude. Download Wispr .ai (free).\nYou speak 4x faster than you type.\n(She speaks 400x. Sorry mom.)\n\n→ \"Where did my file go?\"\nGo to Claude desktop app. Locate \"cowork.\" \nOpen \"Projects\" and upload all the files there. \n\nShe dropped in a messy PDF. She got an Excel. \nSaved on her computer. Found it herself.\n\n→ \"What the hell is a Claude skill?\"\nFair question. A long prompt turned into a Claude command that runs on its own, every single time.\n\nBuilding your own takes weeks. So I handed mine.\n\nDownload my entire Skill library: how-to-ai.guide.\nOpen the email received in your inbox.\nGo to the given link and download the skills.\nClaude Customize → Skills → Upload. 2 minutes.\nHer Claude now works like mine. Yours can too.\n\n→ \"It's reading my emails??\"\nOnly if you let it. Gmail, calendar, meeting notes.\nHer first test: \"prep me for tomorrow's meeting\"\nShe called back just to say \"witchcraft.\"\n\n→ \"Why did nobody tell me this?\"\nBecause 98.75% of people have never tried Claude. \nEveryone's waiting to feel ready.\n\nShe skipped the waiting. So can you.\n\nSave this for your own mom. Or dad, boss, friend.\n\nThe one who keeps saying \"I'm so behind.\"\n10 minutes. 1 image. That's the whole entry fee.\n\nGet all 27 Claude Skills, free: how-to-ai.guide.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784026807271,
+        "date": "2026-07-14T11:00:07.271Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEDpKJzH-nSWQ/feedshare-shrink_1280/B4EZ9fvonSK4AQ-/0/1784017750987?e=1786579200&v=beta&t=JknfMiFQwJ1N1keU5HuuCnGwC8AG6U7HwXE_uP_WsRE",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482750773844545538",
+        "likes": 1598,
+        "comments": 350,
+        "shares": 111,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1447
+          },
+          {
+            "type": "INTEREST",
+            "count": 65
+          },
+          {
+            "type": "EMPATHY",
+            "count": 51
+          },
+          {
+            "type": "PRAISE",
+            "count": 18
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 11
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 6
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482660157684957184",
+      "entityId": "7482660157684957184",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_this-chart-changed-how-i-use-claude-entirely-activity-7482660157684957184-LwY9",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482484909664710656",
+      "shareUrn": "urn:li:share:7482484909664710656",
+      "content": "This chart changed how I use Claude (entirely).\n\nEvery time I re-explain a task, I just repeat \"never explain twice\" cuz literally why would I do that\n\nHere's the whole trick, in only 4 words:\n\n\"Make it a skill.\"\n\nThat's it. That's the green square.\n\n1. You explain a task to Claude once. Normal.\n2. The task comes back next week. Don't re-explain\n3. You prompt in the same chat: \"make it a skill.\"\n4. Claude turns the entire chat into a /command.\n\nNext time, you type /that-command and Claude already knows everything: the format, the tone, the rules, your weird preferences.\n\nRed square: a weekly task = 52 explanations a year.\n\nThe report you re-brief every Monday. \nThe email format you re-describe. \nThe spreadsheet style you re-teach. \nYou did this to yourself 52 times.\n\nI went further. Things I've explained twice are a skill.\n\nMy LinkedIn posts. \nMy Excel style.\nMy client brief.\nMy fact checker.\nMy anti-AI words and phrases.\nEven who I am (my about-me file is a /skill, so I don't introduce myself again and again anymore either).\n\nAnd yes, the yellow square is real: I've built skills I never reused. A wasted skill costs me 2 minutes. \n\nRe-explaining costs a year. \nI'll take the bad trade 10 times out of 10.\n\nI'm giving away my 26 skills to download (for free):\n\nStep 1. Subscribe for free at how-to-ai.guide.\nStep 2. Open the welcome email (don't skip this).\nStep 3. Click the Notion link. Open \"Skills\" folder.\nStep 4. Download the whole Skills library.\nStep 5. Upload to Claude → Settings → Skills.\n\nThat's it. One click, zero effort.\nThe best part: Claude only reads the 3-line header of each Skill until you need it. So installing the whole library actually saves tokens.\n\n♻️ Repost this to save someone a weekend.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784005202695,
+        "date": "2026-07-14T05:00:02.695Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQHltkBvYt0Xgg/feedshare-image-high-res/B4EZ9cgYIkJkAU-/0/1783963419536?e=1786579200&v=beta&t=6OBAl7XdGYmNacOpKHHQHFCWWVpY5k6iKbJwuvLEc3o",
+          "width": 1536,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482660157684957184",
+        "likes": 879,
+        "comments": 232,
+        "shares": 31,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 774
+          },
+          {
+            "type": "INTEREST",
+            "count": 56
+          },
+          {
+            "type": "EMPATHY",
+            "count": 29
+          },
+          {
+            "type": "PRAISE",
+            "count": 10
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 6
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484200306608685056",
+      "entityId": "7484200306608685056",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_chatgpt-shamelessly-copied-claude-but-nobody-activity-7484200306608685056-2bed",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483841419032432640",
+      "shareUrn": "urn:li:share:7483841419032432640",
+      "content": "ChatGPT shamelessly copied Claude.\n\nBut nobody tells you which one to pay for. Here:\n\nPay Claude $100/mo → it does the work.\nPay ChatGPT $20/mo → it makes the images.\n\nThat's my split. The image shows my 8 reasons:\n\n1/ Port your skills before you test anything.\nGive ChatGPT any Claude skill with this prompt:\n\"Make a skill from this [Skill name]. Just update Claude to ChatGPT.\"\nYour whole setup transfers. You start at expert level.\n\n2/ The 30-combo math, decoded.\n2 models (ChatGPT 5.5, 5.6) × 3 flavors (Sol, Terra, Luna) × effort levels (Light → Extra High) × 2 speed.\n\n→ Fast mode = 1.5× the price.\n→ Skip Terra entirely. Nobody knows \"medium task\"\n→ Sol-Ultra eats your usage. A couple of turns to plan, then switch to Luna-High.\n\n3/ The enterprise trap nobody screenshots.\nChatGPT Enterprise = 150 seats minimum.\nA 150-person company pays $3,000/mo in seats + $17,000/mo in tokens.\n\nRun Sol on High? $37,000/mo.\nClaude under 150 seats: $100 flat. \nSeat # 151 flips you to pay-per-token.\n\n→ Under 150 people: take the flat seats today.\n→ Near 151: budget tokens before you hire.\n\n4/ Steal my team's image setup.\nDon't buy everyone a seat for image gen. One shared $20 ChatGPT account covers the team.\n\n5/ The tiebreaker if you're still stuck.\nPick the one your team already opens daily.\nEvery company has one AI superman. \nAdoption beats every benchmark in this caption.\n\nI pay $120/mo for both. \nThis is exactly how I'd spend it again.\n\nThis post is just a summary of my entire newsletter based on my test: https://lnkd.in/eQiszyvM",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784372402813,
+        "date": "2026-07-18T11:00:02.813Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQG8fWeGHr8Xlw/feedshare-shrink_1280/B4EZ9vyHYtIsAM-/0/1784286836775?e=1786579200&v=beta&t=hXmwlgvcF3iy8MKmPGNeIK9CF-FTud6RZez8AuVN3Oc",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484200306608685056",
+        "likes": 414,
+        "comments": 186,
+        "shares": 22,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 348
+          },
+          {
+            "type": "INTEREST",
+            "count": 32
+          },
+          {
+            "type": "EMPATHY",
+            "count": 24
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483113140533104640",
+      "entityId": "7483113140533104640",
+      "linkedinUrl": "https://www.linkedin.com/posts/ruben-hassid_i-made-a-16-page-pdf-to-get-you-claude-certified-activity-7483113140533104640-cutc",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483075883604516864",
+      "shareUrn": "urn:li:share:7483075883604516864",
+      "content": "I made a 16-page PDF to get you Claude-certified.\n\nThe certificates are official by Anthropic & free...\n\nAnd the playbook is free too, at how-to-ai.guide. Here's what's inside:\n\nThe Claude Certification Playbook.\n\n→ 3 official certificates & the order to take them in.\n→ Step from creating an account to downloading.\n→ The fake detector (yes, people sell fake ones).\n→ The LinkedIn format to showcase the certificates. \n→ The copy-paste announcement post on LinkedIn.\n→ What you can honestly say about it in interviews.\n\nThe certificates take 6 hours. \nGetting the playbook takes 2 minutes:\n\n1. Go to how-to-ai.guide. Subscribe for free.\n2. Open the welcome email in your inbox.\n3. Tap the Notion library link inside.\n4. Download \"The Claude Certification Playbook.\"\n5. Start with page 4 (the fake detector).\n\nKnow someone job hunting? Send them this post. It's the favor.",
+      "author": {
+        "id": "ACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "universalName": null,
+        "publicIdentifier": "ruben-hassid",
+        "type": "profile",
+        "name": "Ruben Hassid",
+        "linkedinUrl": "https://www.linkedin.com/in/ruben-hassid?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACTqmSEBqjBKksN0HBAs4iOYD-4FG5tf6hw",
+        "info": "Master AI before it masters you.",
+        "website": "https://ruben.substack.com/welcome?no_skip=1",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4E03AQFy_MD1nlZiqg/profile-displayphoto-crop_800_800/B4EZtAXz6IGYAI-/0/1766311543870?e=1786579200&v=beta&t=dFNc47bmuLrZTdVdQOsy1oTMDBxkNbFlHchXjtvipSo",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "619354401"
+      },
+      "postedAt": {
+        "timestamp": 1784113202222,
+        "date": "2026-07-15T11:00:02.222Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEvCqLK1aQ1iQ/feedshare-shrink_1280/B4EZ9k53P8HoAQ-/0/1784104318550?e=1786579200&v=beta&t=WAl7NbQ-mHBEz8WZX8BqR4VhG_zsPk4jDzbtBAZf0VA",
+          "width": 1280,
+          "height": 1600
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483113140533104640",
+        "likes": 3665,
+        "comments": 342,
+        "shares": 316,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 3350
+          },
+          {
+            "type": "EMPATHY",
+            "count": 119
+          },
+          {
+            "type": "INTEREST",
+            "count": 115
+          },
+          {
+            "type": "PRAISE",
+            "count": 58
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 22
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/ruben-hassid",
+        "sessionId": "62e64a77-d856-46d2-acf4-3279dad27244"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487886685184126976",
+      "entityId": "7487886685184126976",
+      "linkedinUrl": "https://www.linkedin.com/posts/sigcopple_siop-supplychain-salesandoperations-activity-7487886685184126976-piNv",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7487886682453663744",
+      "shareUrn": "urn:li:share:7487886682453663744",
+      "content": "The optimization tool says to cut safety stock.  The risk is low.  The math is sound.\n\nNobody cuts it.\n\nNot because they disagree with the model.  Because two years ago they took the blame for a stockout, and excess inventory sits in a nebulous bucket on the balance sheet.\n\nThat asymmetry is the whole story.  A stockout has a date, a customer, and a name attached to it.  Excess has none of those.  It's a line on a balance sheet that never gets traced back to a person or a decision.  So planners protect against the outcome that gets them called into a room, and the tool becomes something to override, not use.\n\nYou see the same instinct on the floor.  A site would rather see material piled in front of a critical machine than trust a number telling them they don't need it.  The pile is visible.  The carrying cost isn't.\n\nWhat they're buying is protection against variation that would be a historic outlier...insurance against an event that hasn't happened in years, priced at whatever working capital costs.\n\nOptimization doesn't fail on math.  It fails because the pain of the past outweighs the will to optimize.\n\n#SIOP #SupplyChain #SalesAndOperations #InventoryManagement #InventoryOptimization",
+      "author": {
+        "id": "ACoAAAH4oDEBJvmwovtMPUAm1OMEo1s0tDJwaec",
+        "universalName": null,
+        "publicIdentifier": "sigcopple",
+        "type": "profile",
+        "name": "Sig Copple",
+        "linkedinUrl": "https://www.linkedin.com/in/sigcopple?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAH4oDEBJvmwovtMPUAm1OMEo1s0tDJwaec",
+        "info": "Supply Chain Executive | SIOP & Advanced Planning Systems | Inventory Optimization | Global Team Leadership",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHSKExRABQE2w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1671040242483?e=1786579200&v=beta&t=4MKelGdTmeGuJ4dg-v9HBVIHMKz4YXRhz-ux2teq8zw",
+          "width": 607,
+          "height": 607
+        },
+        "urn": "33071153"
+      },
+      "postedAt": {
+        "timestamp": 1785251303955,
+        "date": "2026-07-28T15:08:23.955Z",
+        "postedAgoShort": "5h",
+        "postedAgoText": "5 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7487886685184126976",
+        "likes": 2,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sigcopple",
+        "sessionId": "f6f1a641-004c-4fbe-99b3-8d0c28e6ce14"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480249480563527680",
+      "entityId": "7480249480563527680",
+      "linkedinUrl": "https://www.linkedin.com/posts/sigcopple_siop-supplychain-forecastaccuracy-activity-7480249480563527680-OEhe",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480249479640657920",
+      "shareUrn": "urn:li:share:7480249479640657920",
+      "content": "When a forecast misses and the product has a long lead time, organizations reach for the magic word…”EXPEDITE”.\n\nHere’s what that actually costs.\n\nI had a sterilization queue I could push a SKU through faster when we needed it. It worked. The product showed up. What wasn’t immediately apparent is that every other product sitting in that queue got delayed to make room.\n\nExpediting feels like a safety valve. In reality, it’s an exchange. The disruption doesn’t disappear, it moves to someone else’s product line, and almost nobody traces it back to the original forecasting miss that caused it.\n\nThis is why “we can always expedite” is one of the most expensive sentences in supply chain. It’s true in isolation and false in aggregate. The capacity to expedite is finite, shared, and invisible until you’re the one waiting behind someone else’s emergency.\n\nIf your SIOP process treats expediting as a free recovery option instead of a cost with a real budget, you’re not planning…you’re borrowing against the future.\n\n#SIOP #SupplyChain #ForecastAccuracy",
+      "author": {
+        "id": "ACoAAAH4oDEBJvmwovtMPUAm1OMEo1s0tDJwaec",
+        "universalName": null,
+        "publicIdentifier": "sigcopple",
+        "type": "profile",
+        "name": "Sig Copple",
+        "linkedinUrl": "https://www.linkedin.com/in/sigcopple?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAH4oDEBJvmwovtMPUAm1OMEo1s0tDJwaec",
+        "info": "Supply Chain Executive | SIOP & Advanced Planning Systems | Inventory Optimization | Global Team Leadership",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHSKExRABQE2w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1671040242483?e=1786579200&v=beta&t=4MKelGdTmeGuJ4dg-v9HBVIHMKz4YXRhz-ux2teq8zw",
+          "width": 607,
+          "height": 607
+        },
+        "urn": "33071153"
+      },
+      "postedAt": {
+        "timestamp": 1783430452481,
+        "date": "2026-07-07T13:20:52.481Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480249480563527680",
+        "likes": 15,
+        "comments": 0,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 14
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sigcopple",
+        "sessionId": "f6f1a641-004c-4fbe-99b3-8d0c28e6ce14"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482808635618766848",
+      "entityId": "7482808635618766848",
+      "linkedinUrl": "https://www.linkedin.com/posts/sigcopple_siop-supplychain-salesandoperations-activity-7482808635618766848-dXDf",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482808634368843776",
+      "shareUrn": "urn:li:share:7482808634368843776",
+      "content": "We launched a strategic project to improve delivery performance.\n\nFirst finding: nobody could say what our delivery performance actually was.\n\nEvery site self-reports.  No metric standard.  One site measures against request date.  Another measures against promise date...and gives itself a 7-day grace period after the promise.  Same company, same metric name, multiple different definitions.  Every number in every review deck was true by its own rules and comparable to nothing.\n\nSo we collected the data manually across a subset of plants.  Two things became obvious fast: the volume can't be managed by someone on top of their day job, and Excel can't hold it.\n\nHere's the part that should sound familiar.  The data exists.  Every order, every promise date, every ship date is sitting in our systems right now.  It's not a data problem, it's an access problem.  And the IT investment to fix access has been sitting in approval for months, while the strategic project that depends on it moves forward anyway.\n\nThat's the pattern: companies fund the initiative because initiatives are visible.  The data plumbing underneath is invisible...right up until you discover your sites have been grading their own homework with different answer keys.\n\nYou can't improve what you measure six different ways.\n\n#SIOP #SupplyChain #SalesAndOperations #DeliveryPerformance #ContinuousImprovement",
+      "author": {
+        "id": "ACoAAAH4oDEBJvmwovtMPUAm1OMEo1s0tDJwaec",
+        "universalName": null,
+        "publicIdentifier": "sigcopple",
+        "type": "profile",
+        "name": "Sig Copple",
+        "linkedinUrl": "https://www.linkedin.com/in/sigcopple?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAH4oDEBJvmwovtMPUAm1OMEo1s0tDJwaec",
+        "info": "Supply Chain Executive | SIOP & Advanced Planning Systems | Inventory Optimization | Global Team Leadership",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHSKExRABQE2w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1671040242483?e=1786579200&v=beta&t=4MKelGdTmeGuJ4dg-v9HBVIHMKz4YXRhz-ux2teq8zw",
+          "width": 607,
+          "height": 607
+        },
+        "urn": "33071153"
+      },
+      "postedAt": {
+        "timestamp": 1784040602593,
+        "date": "2026-07-14T14:50:02.593Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482808635618766848",
+        "likes": 14,
+        "comments": 4,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 12
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sigcopple",
+        "sessionId": "f6f1a641-004c-4fbe-99b3-8d0c28e6ce14"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7477719990058569728",
+      "entityId": "7477719990058569728",
+      "linkedinUrl": "https://www.linkedin.com/posts/sigcopple_supplychain-siop-forecastaccuracy-activity-7477719990058569728-to9S",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7477719988162748416",
+      "shareUrn": "urn:li:share:7477719988162748416",
+      "content": "A clinician orders a device at 11am expecting it tomorrow.\n\nWhat they don't see: the unit took 18 days to manufacture, ship, and clear sterilization before it could even be in stock to ship.\n\nSales defaulted to the obvious assumption: high-runners drive the business, focus the forecast there.\n\nThey were wrong.  The actual demand drivers were the traditionally lower-volume SKUs...and sales had the signal.  Customer conversations showed it.  They just never said it out loud in the SIOP meeting, because they didn't see that meeting as where demand intelligence was supposed to land.\n\nThis is what people miss about SIOP: it's not a forecasting exercise, it's a demand intelligence pipeline.  With an 18-day lead time, there's no recovering from a miss at the shipping dock...the recovery window closed weeks earlier.\n\nSame-day delivery promises don't fail at the dock.  They fail in a meeting Sales didn't think mattered.\n\n-Director of SIOP & Global Inventory Management. Writing about what actually breaks SIOP, from inside it.\n\n#SupplyChain #SIOP #ForecastAccuracy #MedDevice",
+      "author": {
+        "id": "ACoAAAH4oDEBJvmwovtMPUAm1OMEo1s0tDJwaec",
+        "universalName": null,
+        "publicIdentifier": "sigcopple",
+        "type": "profile",
+        "name": "Sig Copple",
+        "linkedinUrl": "https://www.linkedin.com/in/sigcopple?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAH4oDEBJvmwovtMPUAm1OMEo1s0tDJwaec",
+        "info": "Supply Chain Executive | SIOP & Advanced Planning Systems | Inventory Optimization | Global Team Leadership",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHSKExRABQE2w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1671040242483?e=1786579200&v=beta&t=4MKelGdTmeGuJ4dg-v9HBVIHMKz4YXRhz-ux2teq8zw",
+          "width": 607,
+          "height": 607
+        },
+        "urn": "33071153"
+      },
+      "postedAt": {
+        "timestamp": 1782827374949,
+        "date": "2026-06-30T13:49:34.949Z",
+        "postedAgoShort": "4w",
+        "postedAgoText": "0 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7477719990058569728",
+        "likes": 27,
+        "comments": 7,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 24
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sigcopple",
+        "sessionId": "f6f1a641-004c-4fbe-99b3-8d0c28e6ce14"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7432076572636954624",
+      "entityId": "7432076572636954624",
+      "linkedinUrl": "https://www.linkedin.com/posts/sigcopple_peer-connects-please-share-i-am-looking-activity-7432076572636954624-kiHQ",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7432076572217528320",
+      "shareUrn": "urn:li:share:7432076572217528320",
+      "content": "Great initiative. Peer-to-peer conversations like this are where real, practical supply chain insights get shared. Looking forward to the discussions and learning from the group.",
+      "author": {
+        "id": "ACoAAAH4oDEBJvmwovtMPUAm1OMEo1s0tDJwaec",
+        "universalName": null,
+        "publicIdentifier": "sigcopple",
+        "type": "profile",
+        "name": "Sig Copple",
+        "linkedinUrl": "https://www.linkedin.com/in/sigcopple?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAH4oDEBJvmwovtMPUAm1OMEo1s0tDJwaec",
+        "info": "Supply Chain Executive | SIOP & Advanced Planning Systems | Inventory Optimization | Global Team Leadership",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHSKExRABQE2w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1671040242483?e=1786579200&v=beta&t=4MKelGdTmeGuJ4dg-v9HBVIHMKz4YXRhz-ux2teq8zw",
+          "width": 607,
+          "height": 607
+        },
+        "urn": "33071153"
+      },
+      "postedAt": {
+        "timestamp": 1771945136222,
+        "date": "2026-02-24T14:58:56.222Z",
+        "postedAgoShort": "5mo",
+        "postedAgoText": "5 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7430432544187342848",
+        "linkedinUrl": "https://www.linkedin.com/posts/kristen-lebaron-80ab8347_peer-connects-please-share-i-am-looking-activity-7430432544187342848-iwGm",
+        "content": "Peer Connects!  Please Share. \n\nI am looking to form a small monthly peer group focused on supply chain discussions. The group will meet once a month to cover topics such as:\n\n- Best practice frameworks / templates \n- Supply chain design \n- Best practices in planning and operations\n- Solutions that support end-to-end strategic planning strategies.\n\nPotential discussion topics may include:\n\n- APS planning tools\n- E-commerce \n- Strategic sourcing\n- Network design\n- Digital transformation roadmaps\n\nIf this resonates with you, please express your interest. I would love to gauge participation and tailor the group to provide the most value to everyone involved. To avoid you being solicited by other companies - feel free to private message me with your interest. Thank you",
+        "contentAttributes": [],
+        "author": {
+          "id": "ACoAAAn2VMoBQJ87bA_-KbJJaQHR6LU8vUIH2Jg",
+          "universalName": null,
+          "publicIdentifier": "kristen-lebaron-80ab8347",
+          "type": "profile",
+          "name": "Kristen LeBaron",
+          "linkedinUrl": "https://www.linkedin.com/in/kristen-lebaron-80ab8347?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAn2VMoBQJ87bA_-KbJJaQHR6LU8vUIH2Jg",
+          "info": "VP Strategic Planning",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D5603AQGjbfbEPW1PVg/profile-displayphoto-crop_800_800/B56Z2biM9qHkAI-/0/1776430930536?e=1786579200&v=beta&t=R49HzGZZWZT2Rkv8Q2izr3QWJ9h4--VlBgIucDEo-04",
+            "width": 800,
+            "height": 800
+          },
+          "urn": "167138506"
+        },
+        "postedAt": {
+          "timestamp": 1771553169295,
+          "date": "2026-02-20T02:06:09.295Z",
+          "postedAgoShort": "5mo",
+          "postedAgoText": "5 months ago • Edited • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [],
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": true,
+          "hideSendAction": true,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/kristen-lebaron-80ab8347_peer-connects-please-share-i-am-looking-activity-7430432544187342848-iwGm?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7430432544187342848",
+        "shareUrn": "urn:li:share:7430432543604342784",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7430432543604342784",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7432076572636954624",
+        "likes": 10,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 9
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sigcopple",
+        "sessionId": "f6f1a641-004c-4fbe-99b3-8d0c28e6ce14"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480977593677029376",
+      "entityId": "7480977593677029376",
+      "linkedinUrl": "https://www.linkedin.com/posts/sigcopple_siop-supplychain-salesandoperations-activity-7480977593677029376-HWlt",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480977590988611584",
+      "shareUrn": "urn:li:share:7480977590988611584",
+      "content": "The fastest way to kill a SIOP process isn't in a bad forecast.\n\nIt's one sentence: \"I'm not sure that data is right.\"\n\nHere's how it plays out.  the SIOP numbers get compiled manually.  Usually one person, one spreadsheet, every month.  Then a function walks into the meeting with their own dashboard that slices the data differently.  Something appears they don't like.  So they challenge the data itself.\n\nNo refuting data.  No alternative number.  Just doubt.\n\nAnd it works...because doubt is asymmetric.  The challenge takes five seconds.  Proving the data was right takes two weeks, and by then the meeting has moved on and the decision didn't get made.  A manager told me years ago: everyone reads the headline, no one reads the retraction on page 6.\n\nThe damage isn't that one number got questioned.  It's that the process itself is now suspect.  Next month, every uncomfortable finding gets the same treatment...because the precedent is set that data you don't like can be dismissed instead of disproven.\n\nThe fix isn't a better spreadsheet.  It's a rule: challenges to the data require data.  If you can't bring a number, the number on the screen stands.\n\n#SIOP #SupplyChain #SalesAndOperations #DataDriven",
+      "author": {
+        "id": "ACoAAAH4oDEBJvmwovtMPUAm1OMEo1s0tDJwaec",
+        "universalName": null,
+        "publicIdentifier": "sigcopple",
+        "type": "profile",
+        "name": "Sig Copple",
+        "linkedinUrl": "https://www.linkedin.com/in/sigcopple?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAH4oDEBJvmwovtMPUAm1OMEo1s0tDJwaec",
+        "info": "Supply Chain Executive | SIOP & Advanced Planning Systems | Inventory Optimization | Global Team Leadership",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHSKExRABQE2w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1671040242483?e=1786579200&v=beta&t=4MKelGdTmeGuJ4dg-v9HBVIHMKz4YXRhz-ux2teq8zw",
+          "width": 607,
+          "height": 607
+        },
+        "urn": "33071153"
+      },
+      "postedAt": {
+        "timestamp": 1783604048175,
+        "date": "2026-07-09T13:34:08.175Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480977593677029376",
+        "likes": 11,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 10
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sigcopple",
+        "sessionId": "f6f1a641-004c-4fbe-99b3-8d0c28e6ce14"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483513917885923328",
+      "entityId": "7483513917885923328",
+      "linkedinUrl": "https://www.linkedin.com/posts/sigcopple_siop-supplychain-salesandoperations-activity-7483513917885923328-cw4I",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483513915084075008",
+      "shareUrn": "urn:li:share:7483513915084075008",
+      "content": "Sales has two forecasts.\n\nThe one they commit to their leadership.  And the one they hand to SIOP.\n\nThe number they give sales leadership is conservative because that number has consequences.  Miss it and there's no bonus, no high fives, no place to hide.\n\nThe number they give SIOP is inflated because that number has none.  If supply chain builds to it and demand doesn't show, the disappointment lands on the SIOP team, the inventory lands on ops metrics, and sales absorbs exactly nothing.\n\nI've sat in leadership meetings and heard it said out loud: \"We're driving to X, but think we'll hit Y.\"\n\nHere's what that tells you: sales can forecast just fine.  They forecast precisely as accurately as each audience can hold them accountable.  The inflated SIOP number isn't a skill problem, it's a rational response to a process with no teeth.  Infinite inventory means never missing a potential sale, and there's no downside charged to the people asking for it.\n\nSo before you buy forecasting software or run another accuracy workshop, ask one question: what happens to sales when the SIOP number misses?\n\nIf the answer is \"nothing\", you don't have a forecast.\n\nYou have a wish list.\n\n#SIOP #SupplyChain #SalesAndOperations #DemandPlanning #ForecastAccuracy",
+      "author": {
+        "id": "ACoAAAH4oDEBJvmwovtMPUAm1OMEo1s0tDJwaec",
+        "universalName": null,
+        "publicIdentifier": "sigcopple",
+        "type": "profile",
+        "name": "Sig Copple",
+        "linkedinUrl": "https://www.linkedin.com/in/sigcopple?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAH4oDEBJvmwovtMPUAm1OMEo1s0tDJwaec",
+        "info": "Supply Chain Executive | SIOP & Advanced Planning Systems | Inventory Optimization | Global Team Leadership",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHSKExRABQE2w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1671040242483?e=1786579200&v=beta&t=4MKelGdTmeGuJ4dg-v9HBVIHMKz4YXRhz-ux2teq8zw",
+          "width": 607,
+          "height": 607
+        },
+        "urn": "33071153"
+      },
+      "postedAt": {
+        "timestamp": 1784208754989,
+        "date": "2026-07-16T13:32:34.989Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483513917885923328",
+        "likes": 16,
+        "comments": 1,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 15
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sigcopple",
+        "sessionId": "f6f1a641-004c-4fbe-99b3-8d0c28e6ce14"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483159378133458944",
+      "entityId": "7483159378133458944",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_stop-treating-ai-like-a-tool-you-turn-on-activity-7483159378133458944-_-Nq",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483159377621803008",
+      "shareUrn": "urn:li:share:7483159377621803008",
+      "content": "Stop treating AI like a tool you turn on. Start treating it like a team member you actually brief.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1784124226125,
+        "date": "2026-07-15T14:03:46.125Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483159378133458944",
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "reactions": []
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485831906018865152",
+      "entityId": "7485831906018865152",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_an-openai-model-just-hacked-into-hugging-activity-7485831906018865152-5qD_",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485831786434961408",
+      "shareUrn": "urn:li:ugcPost:7485831786434961408",
+      "content": "An OpenAI model just hacked into Hugging Face on its own. Everyone's calling it a warning shot. It's not. Here's why that headline shouldn't slow down your AI adoption for a second.",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1784761406426,
+        "date": "2026-07-22T23:03:26.426Z",
+        "postedAgoShort": "5d",
+        "postedAgoText": "5 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D5605AQHh96xSpEKAHg/videocover-high/B56Z.MEWJBHUBM-/0/1784761380004?e=1785877200&v=beta&t=9seqtIJWgapxKl6moCbH7Drmki1y6d4YrkT4ECOEsrE",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D5605AQHh96xSpEKAHg/mp4-720p-30fp-crf28/B56Z.MEWJBHUB8-/0/1784761394530?e=1785877200&v=beta&t=VQgP3OxgTF-ZDnjTGX1MVlr4uuNwV_5p0Q5Ny9lD_s0"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485831786434961408",
+        "likes": 1,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483191157456363520",
+      "entityId": "7483191157456363520",
+      "linkedinUrl": "https://www.linkedin.com/posts/sean-conerly-49063054_the-4-pillars-for-my-geo-strategy-1-foundation-activity-7483191157456363520-vxTp",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483191156479205376",
+      "shareUrn": "urn:li:share:7483191156479205376",
+      "content": "The 4 pillars for my GEO strategy\n\n\n\n1. Foundation - SEO + Crawlability\n\n2. Findability - Make it easy for AI to find me\n\n3. Answerability - Make it easy for AI to speak for me\n\n4. Authority - Make it easy for AI to trust me\n\n\nWhat’s your strategy?",
+      "author": {
+        "id": "ACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "universalName": null,
+        "publicIdentifier": "sean-conerly-49063054",
+        "type": "profile",
+        "name": "Sean Conerly",
+        "linkedinUrl": "https://www.linkedin.com/in/sean-conerly-49063054?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAt7vawBYzfy7_v0b0337evINmsLeBq4YEg",
+        "info": "Building AI infrastructure most people are still talking about | Husband | Dog Dad | Rabid College Football Fan (Geaux Tigers)",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/C4D03AQFWmB2EbWJoOA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1561388303198?e=1786579200&v=beta&t=FZWDduykHKh8yhFsJHsh9xc1dGed-5UpMg_RlIuxGW4",
+          "width": 400,
+          "height": 400
+        },
+        "urn": "192658860"
+      },
+      "postedAt": {
+        "timestamp": 1784131802906,
+        "date": "2026-07-15T16:10:02.906Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQEnHi41L65tzA/feedshare-image-high-res/B56Z9mitM5GgAc-/0/1784131802206?e=1786579200&v=beta&t=bzpuAYETFuZhquPQANiV_ItT61QDcv-8_spk99ifbgo",
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483191157456363520",
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "reactions": []
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/sean-conerly-49063054",
+        "sessionId": "33a6f6de-eed5-4aad-9c54-044d5ab3b577"
+      }
+    }
+  ]
+}

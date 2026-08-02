@@ -4,7 +4,11 @@
 **Frequency (Phase 1)**: Bulk-scheduled 2026-05-08 to publish by 2026-05-15 (original 2/week cadence abandoned)
 **Period (Phase 1)**: March – May 2026 (W11–W18)
 **Status**: Phase 1 complete — all 24 episodes published or scheduled. Phase 2 (monthly theme model) begins W21.
-**Last updated**: 2026-06-07
+**Last updated**: 2026-07-28
+
+> **V4 note:** this file tracks episode history and candidate status. Supply Chain 101 no longer
+> owns Posts 1+2 or a fixed weekly quota; accepted topics enter the five-post V4 portfolio only
+> after the audience, evidence, artifact, and Tiger-source gates.
 
 ---
 
@@ -50,7 +54,9 @@
 
 ## Phase 2 — Monthly Theme Model (from W21)
 
-The series continues as **Supply Chain 101 — [Function] Edition** from W21 onward. Posts 1+2 each week cover the same sub-topic as Posts 3+4 (AI for Supply Chain) — all 4 posts in a week are on the same theme.
+The series continues as **Supply Chain 101 — [Function] Edition** from W21 onward. The old 2 × 101
+plus 2 × AI weekly pairing remains historical planning context; V4 allocates posts by evidence
+and audience value and may mix themes when that produces a stronger portfolio.
 
 **Topic bank**: `references/101-plan.md` → Monthly Theme Model section (Months 1–7, W21–W52)
 **Commands**: `/101 [topic-slug]` — same pipeline, topics now drawn from monthly theme model

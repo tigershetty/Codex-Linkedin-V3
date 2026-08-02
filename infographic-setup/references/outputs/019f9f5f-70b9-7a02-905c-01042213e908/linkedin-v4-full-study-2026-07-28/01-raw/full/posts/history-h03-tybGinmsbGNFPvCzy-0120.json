@@ -1,0 +1,2826 @@
+{
+  "runId": "tybGinmsbGNFPvCzy",
+  "datasetId": "VJLC5jQTBXajzHkTi",
+  "offset": 120,
+  "projection": [
+    "type",
+    "id",
+    "entityId",
+    "linkedinUrl",
+    "shareLinkedinUrl",
+    "shareUrn",
+    "content",
+    "author",
+    "postedAt",
+    "postImages",
+    "postVideo",
+    "document",
+    "article",
+    "repost",
+    "repostedBy",
+    "repostedAt",
+    "header",
+    "engagement",
+    "query"
+  ],
+  "items": [
+    {
+      "type": "post",
+      "id": "7468257551462117378",
+      "entityId": "7468257551462117378",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_double-cross-vodka-will-be-participating-activity-7468257551462117378-qhH6",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468257550811971584",
+      "shareUrn": "urn:li:share:7468257550811971584",
+      "content": "Stop by next week at Bar Convent Brooklyn!\n\nWe will have the whole team out for sampling and meetings.\n\nManhattan Beer Distributors and Opici Family Distributing",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1780571353784,
+        "date": "2026-06-04T11:09:13.784Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "repost": {
+        "id": "7468256637649076225",
+        "linkedinUrl": "https://www.linkedin.com/posts/old-nassau-imports-double-cross-vodka-_double-cross-vodka-will-be-participating-activity-7468256637649076225-HbuX",
+        "content": "Double Cross Vodka will be participating and showcasing next week, June 9th and 10th at Bar Convent Brooklyn in the emerging brands pavillion, located at Industry City in Brooklyn, NY. \n\nPlease stop by for samplings, to meet the team, and discuss all things Vodka!\n\nTo set up meetings, please email\nInfo@doublecrossvodka.com\n\nDino Minelli , Alexandra Nata , Robert French, Harry McKaig",
+        "contentAttributes": [
+          {
+            "start": 0,
+            "length": 18,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "657568",
+              "name": "Double Cross Vodka",
+              "linkedinUrl": "https://www.linkedin.com/company/old-nassau-imports-double-cross-vodka-/"
+            }
+          },
+          {
+            "start": 88,
+            "length": 20,
+            "type": "COMPANY_NAME",
+            "hyperlink": null,
+            "textLink": null,
+            "company": {
+              "id": "11119481",
+              "name": "Bar Convent Brooklyn",
+              "linkedinUrl": "https://www.linkedin.com/company/barconventbrooklyn/"
+            }
+          },
+          {
+            "start": 326,
+            "length": 12,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAjtvm4BZJdnPExKlVjzBfAfoWe6uwTLmH8",
+              "firstName": "Dino",
+              "lastName": "Minelli",
+              "linkedinUrl": "https://www.linkedin.com/in/dino-minelli-b5220042",
+              "publicIdentifier": "dino-minelli-b5220042"
+            }
+          },
+          {
+            "start": 341,
+            "length": 14,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAABYyuygBqeE9cvdLOIFJIzyFBmpN3-2RyZE",
+              "firstName": "Alexandra",
+              "lastName": "Nata",
+              "linkedinUrl": "https://www.linkedin.com/in/anata11",
+              "publicIdentifier": "anata11"
+            }
+          },
+          {
+            "start": 358,
+            "length": 13,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAHUs5EBD_LTr9Pg73QyniB_0kdgK1PmxhM",
+              "firstName": "Robert",
+              "lastName": "French",
+              "linkedinUrl": "https://www.linkedin.com/in/robert-french-b29353a",
+              "publicIdentifier": "robert-french-b29353a"
+            }
+          },
+          {
+            "start": 373,
+            "length": 12,
+            "type": "PROFILE_MENTION",
+            "hyperlink": null,
+            "textLink": null,
+            "profile": {
+              "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+              "firstName": "Harry",
+              "lastName": "McKaig",
+              "linkedinUrl": "https://www.linkedin.com/in/harrymckaig",
+              "publicIdentifier": "harrymckaig"
+            }
+          }
+        ],
+        "author": {
+          "id": "657568",
+          "universalName": "old-nassau-imports-double-cross-vodka-",
+          "publicIdentifier": null,
+          "type": "company",
+          "name": "Double Cross Vodka",
+          "linkedinUrl": "https://www.linkedin.com/company/old-nassau-imports-double-cross-vodka-/posts",
+          "info": "990 followers",
+          "website": null,
+          "websiteLabel": null,
+          "avatar": {
+            "url": "https://media.licdn.com/dms/image/v2/D560BAQGkwEBHFHoYYA/company-logo_400_400/company-logo_400_400/0/1720906186648/old_nassau_imports_double_cross_vodka__logo?e=1786579200&v=beta&t=F6cvOZXGBeNvd58ge7vlmRy_nwtzCOqFgHVv1gkwu3o",
+            "width": 400,
+            "height": 400
+          },
+          "urn": "657568"
+        },
+        "postedAt": {
+          "timestamp": 1780571135914,
+          "date": "2026-06-04T11:05:35.914Z",
+          "postedAgoShort": "1mo",
+          "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+        },
+        "postImages": [
+          {
+            "url": "https://media.licdn.com/dms/image/v2/D4E22AQGGk_aKRH3bMg/feedshare-shrink_1280/B4EZ6ST1nQIgAM-/0/1780571134731?e=1786579200&v=beta&t=guxIZ2mN74hD7er16ItJuxCRM70WF86jyrIvAolPU5E",
+            "width": 1080,
+            "height": 1080
+          }
+        ],
+        "socialContent": {
+          "hideCommentsCount": false,
+          "hideReactionsCount": false,
+          "hideSocialActivityCounts": false,
+          "hideShareAction": true,
+          "hideSendAction": true,
+          "hideRepostsCount": false,
+          "hideViewsCount": false,
+          "trustInterventionBanner": null,
+          "hideReactAction": false,
+          "hideCommentAction": false,
+          "shareUrl": "https://www.linkedin.com/posts/old-nassau-imports-double-cross-vodka-_double-cross-vodka-will-be-participating-activity-7468256637649076225-HbuX?",
+          "showContributionExperience": false,
+          "showSocialDetail": true
+        },
+        "comments": [],
+        "header": {
+          "text": null
+        },
+        "entityId": "7468256637649076225",
+        "shareUrn": "urn:li:share:7468256636567064576",
+        "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468256636567064576",
+        "engagement": null
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468257551462117378",
+        "likes": 17,
+        "comments": 7,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 17
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7469784658592034819",
+      "entityId": "7469784658592034819",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_when-youve-got-one-of-the-highest-rated-activity-7469784658592034819-KYwN",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7469784585162354688",
+      "shareUrn": "urn:li:ugcPost:7469784585162354688",
+      "content": "When you’ve got one of the highest-rated, highest-scoring vodkas in the world, it doesn’t take much to make a great cocktail.\n\nMing Tsai, The James Beard Foundation and The National Academy of Television Arts & Sciences Emmy Award winning chef —just proved it with “The Worlds Simplest Cocktail”\n\nIce-cold Double Cross Vodka\n\nSplash of water to open it up\n\nLemon to garnish, if desired\n\nThat’s it. When the spirit’s that clean, you let it do the talking.\n\nWatch Ming pour it 👇",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1780935444496,
+        "date": "2026-06-08T16:17:24.496Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQGg_crucFi07g/videocover-high/B4EZ6oBgMDHMBU-/0/1780935429837?e=1785877200&v=beta&t=44aZOyOOAI6-9MTDscOS9B-VAMLYrFnjGZfeSAY6Nfs",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQGg_crucFi07g/mp4-720p-30fp-crf28/B4EZ6oBgMDHMCE-/0/1780935438526?e=1785877200&v=beta&t=B4r3nDYbpJTXnVXOw8VCrSjn-e18ZReyJ_KAhc-8eZ4"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7469784585162354688",
+        "likes": 18,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 17
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7487895909637287937",
+      "entityId": "7487895909637287937",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_how-i-came-back-to-double-cross-vodka-i-activity-7487895909637287937-ApQe",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7465066845142790145",
+      "shareUrn": "urn:li:ugcPost:7465066845142790145",
+      "content": "How I Came Back to Double Cross Vodka.\n\nI was at Pernod Ricard launching Absolut Miami at the Fontainebleau.\n\nWe spent $50K to deck out the pool, the bars, the whole nine yards.\n\nAnd this guy is sitting there buying drinks right underneath our nose — at our own party — promoting his brand. Double Cross.\n\nMet him for five minutes. Didn't think much of it.\n\nSix months later, he convinced me to quit my secure job and join his scrappy startup in New York.\n\nAfter we lost the founder in an accident, I left. Spent years at larger companies. Got bored. Went looking for something to build again.\n\nAnd through fate and a few connections, the new owners of Double Cross reached out. The brand had been wiped out during COVID — lost distribution, couldn't import, needed a restart.\n\nSo we put together a small team, a three-phase plan, and a commitment to do it more disciplined this time.\n\nThat's how I ended up back here.\n\nFull conversation with Adam Steinberg on the Shelf Help: The Tactical CPG Podcast.\nhttps://lnkd.in/ewatju7Z",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1785253503236,
+        "date": "2026-07-28T15:45:03.236Z",
+        "postedAgoShort": "4h",
+        "postedAgoText": "4 hours ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4D05AQGBr_12B2-xXA/videocover-high/B4DZ5k.xV.H4BY-/0/1779810639519?e=1785877200&v=beta&t=jtVczA50K444G58d1O-gJ1oNF-gU-STAl_nIGk6CgQs",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4D05AQGBr_12B2-xXA/mp4-720p-30fp-crf28/B4DZ5k.xV.H4CI-/0/1779810648740?e=1785877200&v=beta&t=44-fBESggP1pgAVcxOQyIjRR23sjrGWj5JQWaChBmqQ"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7465066845142790145",
+        "likes": 9,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 7
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7470142745307877376",
+      "entityId": "7470142745307877376",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_be-very-big-in-a-small-place-we-dont-need-activity-7470142745307877376-0LP1",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7465064044186644481",
+      "shareUrn": "urn:li:ugcPost:7465064044186644481",
+      "content": "Be Very Big in a Small Place\n\nWe don't need 900 points of distribution in New Jersey.\n\nWe need 250.\n\nAnd we need to show up huge in every single one of them.\n\nThis is the mistake I see brands make over and over — they spread across 50 markets before they've figured out how to win in one.\n\nIf you can't build velocity in one market with one consumer base, what makes you think 50 markets is going to work?\n\nGo deep. Not wide. Be very big in a small place.\n\nFull conversation with Adam Steinberg on the Shelf Help: The Tactical CPG Podcast.\nhttps://lnkd.in/ewatju7Z\n\nAdam Steinberg and Shelf Help: The Tactical CPG Podcast",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1781020819022,
+        "date": "2026-06-09T16:00:19.022Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "postVideo": {
+        "thumbnailUrl": "https://media.licdn.com/dms/image/v2/D4E05AQGSghOFcDkpnw/videocover-low/B4EZ5k8N3WJoBI-/0/1779809969585?e=1785877200&v=beta&t=kDD0nrSSWbvIwLPfAWUB5FHvX4p6R878o-bl3YHkl54",
+        "videoUrl": "https://dms.licdn.com/playlist/vid/v2/D4E05AQGSghOFcDkpnw/mp4-720p-30fp-crf28/B4EZ5k8N3WJoB8-/0/1779809974788?e=1785877200&v=beta&t=J8--oKQhNHD5t6qvcTyibtSfXHXa7uCaoCme08joXEU"
+      },
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7465064044186644481",
+        "likes": 23,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 20
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7470822469281497088",
+      "entityId": "7470822469281497088",
+      "linkedinUrl": "https://www.linkedin.com/posts/harrymckaig_spirits-ceos-say-its-a-storm-beer-ceos-activity-7470822469281497088-016x",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7446991268120842240",
+      "shareUrn": "urn:li:share:7446991268120842240",
+      "content": "Spirits CEOs say it's a storm. Beer CEOs say it's a sea change. One of them is wrong.\n\nGreg Hughes and the spirits consensus — Suntory Global Spirits — are calling this cyclical. Input costs, post-COVID normalization, discretionary spending compression. The playbook is: hold price, manage inventory, wait it out.\n\nRahul Goyal at Molson Coors Beverage Company is not waiting. His language around this moment is structural — a \"defining moment\" for the category. Beer has been losing share for two decades. A cyclical framing doesn't fit that math. Opposite end is Michel Doukeris over at Anheuser-Busch, AB InBev\n\nThen there's Heaven Hill Brands. Kate Latts made a point that doesn't fit either camp cleanly: as a family business, they measure in decades, not quarters. It's a different decision framework entirely. And the long view has an advantage when you are not worried about public markets. \n\nThe structural vs. cyclical read has real stakes. If it's cyclical, you cut costs and protect margin until the volume comes back. If it's structural, you reposition now or you don't reposition at all.\n\nMy read: spirits is cyclical. Beer is structural. The problem is that spirits and beer are increasingly fighting for the same consumer.",
+      "author": {
+        "id": "ACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "universalName": null,
+        "publicIdentifier": "harrymckaig",
+        "type": "profile",
+        "name": "Harry McKaig",
+        "linkedinUrl": "https://www.linkedin.com/in/harrymckaig?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAITUWYBJXf85w0W2s7kVN_-ctaoKBnpjyQ",
+        "info": "CEO at Double Cross Vodka | Building and scaling consumer brands | Commercial Strategy, Operations & Finance | Food, Beverage & CPG | Georgetown Ms Finance",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQEbICz1p6h8Xg/profile-displayphoto-crop_800_800/B56Z.gH8NzGUAM-/0/1785097864936?e=1786579200&v=beta&t=Kv9iqS5x-7x--bUWuHxi7gl0nSBYdig-S4fMC5QAayU",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "34820454"
+      },
+      "postedAt": {
+        "timestamp": 1781182877846,
+        "date": "2026-06-11T13:01:17.846Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQEk-9YrjiDlbQ/feedshare-shrink_1280/B4EZ1kHGYxIsAM-/0/1775501076301?e=1786579200&v=beta&t=ni8XAbTjdDS8NetQPQB7Zfq0yFRZIB8I2s3-4lOv-hc",
+          "width": 1200,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7470822469281497088",
+        "likes": 53,
+        "comments": 27,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 46
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/harrymckaig",
+        "sessionId": "b53d3c1e-3a9b-4d22-a4bb-7d8a7f7a9815"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7461618742263820288",
+      "entityId": "7461618742263820288",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-scm-finance-activity-7461618742263820288-eAlG",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7461618740925886464",
+      "shareUrn": "urn:li:share:7461618740925886464",
+      "content": "SUPPLY CHAIN IS NOT JUST AN OPERATIONS FUNCTION.\nIt’s a financial engine.\n\nEvery supply chain decision impacts:\n• Cash flow\n• Working capital\n• Inventory investment\n• Service cost\n• Profitability\n\nBut many organizations still manage supply chain and finance separately.\n\nOperations focuses on service.\n\nFinance focuses on cost.\n\nThe best companies connect both.\n\nBecause supply chain performance is not measured only by:\n❌ Trucks moved\n❌ Orders shipped\n❌ Forecast accuracy\n\nIt’s measured by:\n✅ Inventory turns\n✅ Cash conversion cycle\n✅ Working capital efficiency\n✅ Cost-to-serve\n✅ Service level profitability\n\nThat’s why modern SCM dashboards are evolving.\n\nToday’s dashboards must answer business questions like:\n\n👉 Which SKUs are blocking working capital?\n👉 Which customers create low-margin complexity?\n👉 Where are expedite costs increasing?\n👉 Which inventory is becoming obsolete?\n👉 How much service are we buying with extra inventory?\n\nBecause data alone is not enough.\n\nA good dashboard helps teams:\n• Prioritize decisions\n• Identify financial risks\n• Align operations with business goals\n• Improve responsiveness\n• Drive profitability\n\nAnd the biggest shift?\n\nSupply chain leaders are no longer judged only on execution.\n\nThey’re judged on business impact.\n\nBecause the future of SCM is:\nOperational excellence + Financial intelligence.\n\nWhat KPI do you believe matters most in an SCM finance dashboard?\n\n#SupplyChain #SCM #Finance #InventoryManagement #SOP #WorkingCapital #Operations #SupplyPlanning #Dashboard #Business",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1778988538328,
+        "date": "2026-05-17T03:28:58.328Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQG9jgbwJiVg7Q/feedshare-image-high-res/B4DZ4z.tJfHMAU-/0/1778988536721?e=1786579200&v=beta&t=sJChgonPA7dQJf9Z-pNMoS5NYO1EUf8PRZ-19vA3jMM",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7461618742263820288",
+        "likes": 67,
+        "comments": 4,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 63
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7459950557387210752",
+      "entityId": "7459950557387210752",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-inventorymanagement-supplyplanning-activity-7459950557387210752-Hirs",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7459835994675118080",
+      "shareUrn": "urn:li:share:7459835994675118080",
+      "content": "INVENTORY DOESN’T SOLVE SUPPLY CHAIN PROBLEMS.\nIt only hides them temporarily.\n\nToo much inventory often means:\n• Poor forecasting\n• Unstable supply\n• Long lead times\n• Weak coordination\n• Slow decision-making\n\nBut too little inventory?\n\nThat creates:\n• Stockouts\n• Expediting costs\n• Service failures\n• Production disruption\n• Lost sales\n\nThat’s why inventory management is not about keeping MORE stock.\n\nIt’s about keeping the RIGHT stock.\n\nStrong supply chains focus on:\n✅ Where inventory should sit\n✅ Which SKUs need tighter control\n✅ Which items create the highest business risk\n✅ How fast inventory moves\n✅ How variability impacts stock levels\n\nThe best planners understand one important truth:\n\nInventory is a business decision —\nnot just a warehouse number.\n\nEvery extra pallet affects:\n• Cash flow\n• Service levels\n• Working capital\n• Operational flexibility\n\nAnd in today’s volatile environment:\n\nThe companies that manage inventory intelligently\nrespond faster than competitors.\n\nBecause supply chain advantage is no longer built only on cost.\n\nIt’s built on responsiveness.\n\nWhat’s the biggest inventory challenge in your organization today?\n\n#SupplyChain #InventoryManagement #SupplyPlanning #Logistics #Warehouse #Operations #Planning #SCM",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1778590812060,
+        "date": "2026-05-12T13:00:12.060Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFU4GHIrTvGgQ/feedshare-image-high-res/B4DZ4apToZJUAU-/0/1778563496819?e=1786579200&v=beta&t=5LDjNbhsRj8MPoKLV4V6ROtZx-__CGy6NbTmGhVahAk",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7459950557387210752",
+        "likes": 21,
+        "comments": 1,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 21
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7468596338797195264",
+      "entityId": "7468596338797195264",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-demandplanning-supplyplanning-activity-7468596338797195264-kQJs",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7468596337589059584",
+      "shareUrn": "urn:li:share:7468596337589059584",
+      "content": "APS Tools Don't Create Better Plans. The right APS tool for your business does.\n\nOver the last few years, three names have dominated supply chain transformation discussions:\n🔹 Kinaxis RapidResponse\n🔹 o9 Digital Brain\n🔹 Planvisage\n\nMany organizations ask:\n\"Which one is the best?\"\n\nThe better question is:\n\"Best for what?\"\n\nHere's my simplified view:\nKinaxis\n✅ Strong in concurrent planning\n✅ Fast scenario simulations\n✅ Excellent for supply-demand balancing\n✅ Widely adopted in large global enterprises\nBest when: → Speed of decision-making matters.\n\no9 Digital Brain\n✅ Advanced AI & machine learning capabilities\n✅ End-to-end digital planning platform\n✅ Strong demand sensing & integrated business planning \n✅ Powerful visualization\nBest when: → Organizations want a digital transformation platform, not just a planning tool.\n\nPlanvisage\n✅ Practical and planner-friendly \n✅ Strong visibility and planning workflows \n✅ Faster deployment for many organizations ✅ Good balance between functionality and usability\nBest when: → Businesses want planning maturity without excessive complexity.\n\nThe reality?\nNo APS system fixes:\n❌ Poor master data\n❌ Weak planning processes\n❌ Lack of cross-functional alignment\n❌ Leadership indecision\n\nTechnology accelerates planning.\nBut planning excellence starts with people, process, and discipline.\n\nWhat's your experience with APS tools?\n\nWhich platform has created the most business value in your organization?\n\n#SupplyChain #DemandPlanning #SupplyPlanning #SOP #IBP #Kinaxis #o9Solutions #APS #SupplyChainTransformation #Planning",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1780652126979,
+        "date": "2026-06-05T09:35:26.979Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQHzejHMh36zjQ/feedshare-image-high-res/B4DZ6XIy3WH8AY-/0/1780652125984?e=1786579200&v=beta&t=QuAJ1cd_paV1gVZloskUxAgD7cXBQW4PziKZhySJjLg",
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7468596338797195264",
+        "likes": 35,
+        "comments": 0,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 33
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7456319109438484480",
+      "entityId": "7456319109438484480",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-inventorymanagement-planning-activity-7456319109438484480-HryL",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7456296445210411008",
+      "shareUrn": "urn:li:share:7456296445210411008",
+      "content": "INVENTORY: THE BIGGEST ILLUSION IN SUPPLY CHAIN\n\nOn dashboards, inventory looks simple.\n\nStock on hand.\nDays of inventory.\nFill rate looks healthy.\n\nBut in reality?\n\nInventory is where all mistakes hide.\n👉 Wrong forecast → excess stock\n👉 Delayed supply → stockouts\n👉 Poor segmentation → wrong priorities\n👉 No visibility → reactive decisions\n\nEarly in my career, I thought inventory was about keeping enough stock.\n\nNow I see it differently:\n👉 Inventory is not about quantity.\n👉 It’s about positioning and control.\n\nThe real value comes from:\n• Knowing what to stock, not just how much\n• Segmenting SKUs (ABC / critical vs non-critical)\n• Balancing service vs working capital\n• Acting early, not reacting late\n\nBecause in the end —\nMore inventory doesn’t solve problems.\nBetter decisions do.\n\nHow do you manage inventory in your organization — data-driven or reactive?\n\n#SupplyChain #InventoryManagement #Planning #Operations #SCM #Logistics",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1777725007400,
+        "date": "2026-05-02T12:30:07.400Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGmAsjVRoSlpg/feedshare-shrink_1280/B4DZ3oWGqTKAAM-/0/1777719602100?e=1786579200&v=beta&t=f4iaCSdOl_jDfxaUI2MktwPzUBmZytflZnK6rYKSp68",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7456319109438484480",
+        "likes": 123,
+        "comments": 7,
+        "shares": 7,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 119
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7463544633927589890",
+      "entityId": "7463544633927589890",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-procurement-suppliermanagement-activity-7463544633927589890-sUVF",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7463544632379932672",
+      "shareUrn": "urn:li:share:7463544632379932672",
+      "content": "A SUPPLIER IS NOT JUST A VENDOR.\nThey are part of your supply chain strategy.\n\nMany companies select suppliers based only on price.\n\nBut low cost means nothing if:\n• Deliveries are inconsistent\n• Quality is unstable\n• Lead times keep changing\n• Communication is weak\n• Expedites become normal\n\nIn reality —\n\nPoor supplier performance creates:\n❌ Inventory instability\n❌ Production disruption\n❌ Excess safety stock\n❌ Higher logistics cost\n❌ Customer service risk\n\nThat’s why strong procurement teams evaluate suppliers beyond cost.\n\nThe best supply chains focus on:\n\n✅ OTIF (On Time In Full)\nCan suppliers deliver reliably?\n\n✅ Lead Time Stability\nAre timelines predictable?\n\n✅ Responsiveness\nHow quickly do they react during disruptions?\n\n✅ Quality Performance\nDo materials consistently meet standards?\n\n✅ Collaboration\nDo suppliers share risks and planning visibility?\n\nBecause procurement is no longer just purchasing.\n\nIt’s risk management.\n\nAnd in today’s volatile environment:\n\nThe companies that build resilient supplier networks\nrecover faster than competitors.\n\nOne lesson I’ve learned:\n\nA good supplier saves cost.\n\nA great supplier protects the business.\n\nWhat matters most in supplier evaluation in your organization:\nCost, Reliability, or Responsiveness?\n\n#SupplyChain #Procurement #SupplierManagement #SCM #Operations #SupplyPlanning #Logistics #Manufacturing #InventoryManagement",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1779447706682,
+        "date": "2026-05-22T11:01:46.682Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFksFnK1N3T2Q/feedshare-image-high-res/B4DZ5PWSyXJQAU-/0/1779447704995?e=1786579200&v=beta&t=ZRPDBH0s_3_G82R-cd1-Vte6eBWjP3XXUva7T4Tdtlg",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7463544633927589890",
+        "likes": 36,
+        "comments": 3,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 36
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7465675831613452289",
+      "entityId": "7465675831613452289",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-scm-supplychainvisibility-activity-7465675831613452289-ot2X",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7465675830392938496",
+      "shareUrn": "urn:li:share:7465675830392938496",
+      "content": "SUPPLY CHAIN VISIBILITY: The Most Expensive Problem Is the One You Can’t See\n\nMany companies don’t struggle because they lack data.\n\nThey struggle because they lack visibility.\n\nOrders get delayed.\nInventory exists… but in the wrong location.\nSuppliers miss timelines.\nProduction plans change overnight.\n\nAnd suddenly everyone starts firefighting.\n\nThe reality is:\n\n👉 Most supply chain problems don’t start at the point of failure.\n👉 They start much earlier — when visibility is missing.\n\nStrong supply chain teams don’t just track KPIs.\n\nThey create visibility across:\n• Demand changes\n• Supplier risks\n• Inventory movement\n• Production constraints\n• Logistics disruptions\n\nBecause when visibility improves:\n\n✔ Decisions become faster\n✔ Risks become proactive instead of reactive\n✔ Teams collaborate better\n✔ Customer service improves\n\nA dashboard alone doesn’t solve problems.\n\nBut the right visibility helps teams take the right action at the right time.\n\nThat’s where real supply chain performance begins.\n\n#SupplyChain #SCM #SupplyChainVisibility #Operations #Logistics #InventoryManagement #Planning #SOP",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1779955823806,
+        "date": "2026-05-28T08:10:23.806Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFtDVWgQl8u9A/feedshare-shrink_1280/B4DZ5tom.XGYAM-/0/1779955822791?e=1786579200&v=beta&t=Hq_J5-kiyqt2CJM8OXyhLC6aRZm493MQ7-m0BELrD48",
+          "width": 1215,
+          "height": 1295
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7465675831613452289",
+        "likes": 14,
+        "comments": 6,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 14
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7449071326507606016",
+      "entityId": "7449071326507606016",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-demandplanning-forecasting-activity-7449071326507606016-IZnX",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7448697461256232960",
+      "shareUrn": "urn:li:share:7448697461256232960",
+      "content": "Demand planning looks structured on paper.\n\nData. Models. Forecasts. Accuracy metrics.\n\nBut in reality?\n\nIt’s much more than numbers.\n\nAfter 11+ years in demand & supply planning, one thing stands out:\n\n👉 Forecasting is not about predicting perfectly.\n👉 It’s about understanding why demand changes.\n\nBecause no model can capture everything.\n\nPromotions shift demand.\nMarket dynamics change.\nCustomer behavior evolves.\n\nAnd that’s where real planning begins.\n\nThe difference between a good planner and a great one?\n\n👉 A good planner explains what the forecast is.\n👉 A great planner explains why it changed and what to do next.\n\nTools and models help.\n\nBut judgment, collaboration, and context make the real difference.\n\nCurious to know —\nWhat’s the biggest challenge you face in demand planning?\n\n#SupplyChain #DemandPlanning #Forecasting #SOP #Leadership #Analytics",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1775997001292,
+        "date": "2026-04-12T12:30:01.292Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFaEfhQH037og/feedshare-shrink_1280/B56Z18W32bGgAM-/0/1775907864239?e=1786579200&v=beta&t=_eznC0y_vzIPKa1956C_SU6Lg8LbYVBMDkZeNThS6I0",
+          "width": 1260,
+          "height": 1980
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7449071326507606016",
+        "likes": 749,
+        "comments": 22,
+        "shares": 92,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 716
+          },
+          {
+            "type": "INTEREST",
+            "count": 20
+          },
+          {
+            "type": "EMPATHY",
+            "count": 9
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7458500972005298176",
+      "entityId": "7458500972005298176",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_leadership-supplychain-peoplemanagement-activity-7458500972005298176-UcKP",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7458421091753934848",
+      "shareUrn": "urn:li:share:7458421091753934848",
+      "content": "DATA DOESN’T MAKE DECISIONS.\nPEOPLE DO.\n\nIn supply chain, we love dashboards.\nForecast accuracy.\n\nInventory turns.\nOTIF.\nCapacity utilization.\nEverything looks measurable.\n\nBut one thing I’ve learned over time:\n👉 A dashboard can show a problem.\n👉 Only people can solve it.\n\nThe best supply chains are not built only on systems.\n\nThey are built on: ✔ Trust between teams\n✔ Fast communication\n✔ Ownership during disruptions\n✔ Leaders who stay calm under pressure\n✔ Teams willing to collaborate, not blame\n\nBecause when disruption happens —\nIt’s not Excel that saves operations.\nIt’s people stepping up together.\n\nEarly in my career, I focused heavily on technical skills.\n\nToday, I believe the real differentiator is: the ability to align people toward one goal.\n\nThat’s what turns good operations into great organizations.\n\nWhat do you think matters more in today’s workplace: technical expertise or people leadership?\n\n#Leadership #SupplyChain #PeopleManagement #Operations #Teamwork #SCM #CareerGrowth",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1778245203973,
+        "date": "2026-05-08T13:00:03.973Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEIuP8etj9HVw/feedshare-image-high-res/B4DZ4GidiVG4AU-/0/1778226158111?e=1786579200&v=beta&t=nSt7cPdUDAThE6ivZZAbAE01wPdfNVk3z7WWtpBWJTQ",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7458500972005298176",
+        "likes": 5,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 5
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7457650856411271168",
+      "entityId": "7457650856411271168",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_leadership-peoplemanagement-supplychain-activity-7457650856411271168-BUOs",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7457650855186513921",
+      "shareUrn": "urn:li:share:7457650855186513921",
+      "content": "TECHNICAL SKILLS MAY GET YOU PROMOTED.\nPEOPLE MANAGEMENT MAKES YOU A LEADER.\n\nEarly in my career, I believed strong technical knowledge was enough.\n\nUnderstand planning.\nKnow the systems.\nSolve operational problems.\nAnd yes — those things matter.\n\nBut leadership taught me something bigger:\n\n👉 Teams don’t grow because of processes alone.\n👉 They grow because of trust, clarity, and support.\n\nYou can have: \n\n• The best dashboards\n• The best KPIs\n• The best planning tools\n\nBut if people are disengaged, communication is weak, and accountability is missing —\nperformance will eventually suffer.\n\nGreat leaders don’t just manage tasks.\nThey: \n✔ Build confidence\n✔ Develop people\n✔ Create ownership\n✔ Encourage collaboration\n✔ Give clarity during uncertainty\n\nBecause in the end —\nSupply chains are not run by spreadsheets.\nThey are run by people.\n\nAnd strong teams outperform strong systems every time.\n\nWhat leadership skill do you think matters most in today’s workplace?\n\n#Leadership #PeopleManagement #SupplyChain #Teamwork #Operations #Management #CareerGrowth",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1778042520621,
+        "date": "2026-05-06T04:42:00.621Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQH8ZGgFIPfsyg/feedshare-image-high-res/B4DZ37l7v.I0AU-/0/1778042518860?e=1786579200&v=beta&t=MCp0NIF3gCB-SgSrG_E7341ZecC1dpo6WyjNy85k6vw",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7457650856411271168",
+        "likes": 16,
+        "comments": 0,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 16
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7461037775010603008",
+      "entityId": "7461037775010603008",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-demandplanning-forecasting-activity-7461037775010603008-GsXL",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7459837266480459776",
+      "shareUrn": "urn:li:share:7459837266480459776",
+      "content": "FORECAST ACCURACY ALONE DOESN’T MAKE A GREAT PLANNER.\n\nA forecast can be 95% accurate…\n\n…and still fail the business.\n\nWhy?\n\nBecause supply chains don’t run on accuracy alone.\n\nThey run on:\n• Responsiveness\n• Decision-making\n• Risk management\n• Alignment\n• Execution\n\nMany teams focus only on MAPE.\n\nBut great planners also ask:\n\n👉 What caused the change?\n👉 Was the bias consistent?\n👉 Which SKUs create the biggest risk?\n👉 How quickly can we react?\n👉 What happens if demand suddenly shifts?\n\nBecause forecasting is not just predicting demand.\n\nIt’s preparing the business for uncertainty.\n\nIn reality:\n\nA slightly less accurate forecast with fast response capability\noften performs better than a “perfect” forecast that reacts too slowly.\n\nThat’s why modern planning is shifting from:\n\n❌ Static forecasting\nto\n✅ Dynamic decision-making\n\nStrong planners don’t just report numbers.\n\nThey challenge assumptions.\nThey identify risks.\nThey connect demand with business impact.\n\nAnd most importantly —\n\nThey help the organization make better decisions faster.\n\nBecause in supply chain,\n\nSpeed + alignment often beats perfect accuracy.\n\nWhat metric does your organization focus on most:\nForecast Accuracy, Service Level, or Inventory?\n\n#SupplyChain #DemandPlanning #Forecasting #SOP #InventoryManagement #Planning #SCM #Operations",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1778850024941,
+        "date": "2026-05-15T13:00:24.941Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFuGLnuZHGeSA/feedshare-image-high-res/B4DZ4aqdzsIUAY-/0/1778563800597?e=1786579200&v=beta&t=R8ZMbV-TTmgDIBJRhoXH5Uq4zGkKjx8qPH0mWgVlhPM",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7461037775010603008",
+        "likes": 49,
+        "comments": 2,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 46
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7454840886145802240",
+      "entityId": "7454840886145802240",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-supplyplanning-operations-activity-7454840886145802240-uuv7",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7454840883092316160",
+      "shareUrn": "urn:li:share:7454840883092316160",
+      "content": "SUPPLY PLANNING: WHERE PLANS MEET REALITY\n\nOn Excel, supply planning looks simple.\n\nCapacity is available.\nMaterials are aligned.\nProduction is smooth.\n\nBut in reality?\n\nIt’s a constant balancing act.\n👉 Machines break down\n👉 Suppliers delay\n👉 Demand suddenly spikes\n👉 Priorities keep changing\n\nEarly in my career, I thought supply planning was about creating a perfect production plan.\nNow I see it differently:\n👉 Supply planning is not about perfection.\n👉 It’s about responsiveness and control.\n\nThe real value comes from:\n• Knowing your true constraints\n• Building flexibility into the plan\n• Prioritizing what really matters\n• Making fast decisions when things change\n\nBecause in the end —\nA flexible plan you can execute\nis better than a perfect plan you can’t.\n\nHow does supply planning work in your organization — structured or reactive?\n\n#SupplyChain #SupplyPlanning #Operations #Manufacturing #Planning #SCM",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1777372571503,
+        "date": "2026-04-28T10:36:11.503Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQE03RcvTi6Zhw/feedshare-image-high-res/B4DZ3TqR1aI4AU-/0/1777372569286?e=1786579200&v=beta&t=29Xn8k0bi6OdB9oeupGkqciwz3nCeKd5cxWLf-ND4yc",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7454840886145802240",
+        "likes": 181,
+        "comments": 9,
+        "shares": 22,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 170
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7447274616189792256",
+      "entityId": "7447274616189792256",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-leadership-decisionmaking-activity-7447274616189792256-bq2a",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7447225605705830400",
+      "shareUrn": "urn:li:share:7447225605705830400",
+      "content": "One of the hardest things to learn in supply chain is\n\nSaying NO.\n\nEarly in my career, I used to say yes to everything.\n\nUrgent dispatch? Yes.\nLast-minute changes? Yes.\nUnrealistic timelines? Still yes.\n\nI thought that’s what being “supportive” meant.\n\nBut over time, I realized:\n\n👉 Saying yes to everything creates more problems than it solves.\n\nIt leads to:\n• Broken plans\n• Operational stress\n• Missed commitments\n• Loss of credibility\n\nThat’s when I changed my approach.\n\nInstead of saying yes, I started saying:\n\n👉 “Here’s what is possible.”\n👉 “Here’s the impact.”\n👉 “Here are the trade-offs.”\n\nBecause in supply chain —\n\n👉 Good planning is not about pleasing everyone.\n👉 It’s about protecting execution.\n\nThat shift made a huge difference.\n\nHave you faced similar situations?\n\n#SupplyChain #Leadership #DecisionMaking #Operations #CareerGrowth",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1775568632171,
+        "date": "2026-04-07T13:30:32.171Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7447274616189792256",
+        "likes": 63,
+        "comments": 12,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 57
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7447999300305018880",
+      "entityId": "7447999300305018880",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-operations-leadership-activity-7447999300305018880-TaZ_",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7447226683784519680",
+      "shareUrn": "urn:li:share:7447226683784519680",
+      "content": "Everything looks perfect… on the plan.\n\nNumbers match.\nCapacity is aligned.\nInventory looks sufficient.\n\nBut then execution starts.\n\nDelays happen.\nConstraints show up.\nReality hits.\n\nI’ve seen this many times in supply chain.\n\nEarly on, I used to believe:\n\n👉 A good plan guarantees good execution.\n\nBut experience taught me otherwise.\n\n👉 A plan is only as good as its execution readiness.\n\nThat’s when I changed my focus:\n\n• Spent more time understanding ground constraints\n• Worked closely with operations teams\n• Built flexibility into plans\n• Prepared for what could go wrong\n\nBecause in real supply chains —\n\n👉 Execution doesn’t fail on paper.\n👉 It fails on the ground.\n\nAnd that’s where real learning happens.\n\nHow do you bridge the gap between planning and execution?\n\n#SupplyChain #Operations #Leadership #Execution #Planning",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1775741410328,
+        "date": "2026-04-09T13:30:10.328Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHGDH5XOMIqpA/feedshare-shrink_1280/B56Z1ndNVbKsAQ-/0/1775557203563?e=1786579200&v=beta&t=FfQLO59d8mIxtkwLY-B8QNQUjzLonz7IlPVeSMhH1C8",
+          "width": 1260,
+          "height": 844
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7447999300305018880",
+        "likes": 17,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 16
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7446543543764156416",
+      "entityId": "7446543543764156416",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-kpis-operations-activity-7446543543764156416-Nt3n",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7446543542769954816",
+      "shareUrn": "urn:li:share:7446543542769954816",
+      "content": "If you work in the supply chain, these are some metrics you can’t ignore:\n\nThey may look simple — but they drive most decisions.\n\n📊 Service & Demand\n• Service Level → ability to meet customer demand\n• Forecast Accuracy → how close your plan is to reality\n• Fill Rate → % of orders fulfilled on time\n\n📦 Inventory\n• Inventory Turns → how efficiently stock is used\n• Days of Inventory (DOH) → how long stock lasts\n• Stockout Rate → lost sales due to no inventory\n\n🚚 Operations\n• OTIF (On-Time In-Full) → delivery performance\n• Lead Time → time from order to delivery\n• Capacity Utilization → how effectively resources are used\n\n💰 Cost\n• Logistics Cost % → cost vs revenue\n• Carrying Cost → cost of holding inventory\n• Obsolescence → dead or slow-moving stock\n\n⚖️ Planning Balance\n• Demand vs Supply Variance\n• Plan Adherence\n• Backorder Levels\n\nThese are not just metrics.\n\n👉 They are signals that tell you what’s working… and what’s not.\n\nThe real skill is not tracking them —\nbut knowing which one to act on and when.\n\nWhich metric do you rely on the most?\n\n#SupplyChain #KPIs #Operations #DemandPlanning #Leadership",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1775394330922,
+        "date": "2026-04-05T13:05:30.922Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQElW5_8gfZvLg/feedshare-image-high-res/B56Z1dv5RkI8AU-/0/1775394329985?e=1786579200&v=beta&t=ZkTmy3k5s2MmIrka7oehHk1MaDd5MD65HhjrKdX7H-k",
+          "width": 1024,
+          "height": 1492
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7446543543764156416",
+        "likes": 60,
+        "comments": 1,
+        "shares": 8,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 58
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7445361515240787969",
+      "entityId": "7445361515240787969",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-demandplanning-leadership-activity-7445361515240787969-dUdH",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7445361513437167616",
+      "shareUrn": "urn:li:share:7445361513437167616",
+      "content": "The biggest myth in supply chain:\n\n“If the forecast is accurate, everything will work.”\n\nIn reality, even the best forecasts fail.\n\nI’ve seen:\n• High forecast accuracy → but poor service levels\n• “Perfect” numbers → but operational chaos\n• Detailed plans → but no execution\n\nBecause the real problem is not accuracy.\n\nIt’s alignment.\n\nWhen sales, operations, and planning are not aligned —\neven a great forecast becomes useless.\n\nThat’s when I shifted my focus:\n\n👉 From improving numbers\n👉 To improving decision-making and alignment\n\nBecause in supply chain —\n\nExecution doesn’t fail due to bad data.\nIt fails due to disconnected decisions.\n\nWhat’s been your experience — accuracy vs alignment?\n\n#SupplyChain #DemandPlanning #Leadership #SOP #Operations",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1775112513361,
+        "date": "2026-04-02T06:48:33.361Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7445361515240787969",
+        "likes": 29,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 28
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7458850768901783552",
+      "entityId": "7458850768901783552",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-supplyplanning-sop-activity-7458850768901783552--zBu",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7458824751864745984",
+      "shareUrn": "urn:li:share:7458824751864745984",
+      "content": "SUPPLY PLANNING FUNDAMENTALS\nExecution starts where forecasting ends.\n\nDemand planning predicts what could happen.\n\nSupply planning decides:\nCan we actually deliver it?\n\nA supply plan is not just numbers in ERP.\n\nIt’s a balance between:\n• Capacity\n• Inventory\n• Lead times\n• Service levels\n• Cost\n• Constraints\n\nStrong supply planners don’t just create plans.\n\nThey manage trade-offs.\n\nHere’s what supply planning really involves:\n\n1️⃣ Capacity Planning\nCan plants, suppliers, and warehouses handle the demand?\n\n2️⃣ Inventory Strategy\nWhere should inventory sit?\nHow much buffer is enough?\n\n3️⃣ Lead Time Management\nA 2-day delay at supplier level can impact the entire network.\n\n4️⃣ Constraint Management\nMachines fail. Suppliers delay. Demand changes.\nSupply planning is about responding fast.\n\n5️⃣ Prioritization\nNot every SKU gets equal focus.\nHigh-impact items need tighter control.\n\n6️⃣ Cross-Functional Alignment\nSupply planning works only when procurement, production, logistics, and sales move together.\n\nAnd the biggest lesson?\n\nPerfect plans fail every day.\n\nFlexible plans survive.\n\nThe best supply planners are not the ones with the cleanest spreadsheets.\n\nThey’re the ones who make the best decisions under uncertainty.\n\nWhat’s the biggest challenge in supply planning in your organization?\n\n#SupplyChain #SupplyPlanning #SOP #InventoryManagement #Operations #Planning #Procurement #Manufacturing",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1778328602052,
+        "date": "2026-05-09T12:10:02.052Z",
+        "postedAgoShort": "2mo",
+        "postedAgoText": "2 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFTF1-MEBpwxQ/feedshare-image-high-res/B56Z4MRk8OKMAU-/0/1778322395207?e=1786579200&v=beta&t=KRfsc6EpXtO-LEZUoCsZQi0Y18wnlQmO9TOY-cLdK-c",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7458850768901783552",
+        "likes": 166,
+        "comments": 1,
+        "shares": 20,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 162
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7453113786930171904",
+      "entityId": "7453113786930171904",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-demandplanning-forecasting-activity-7453113786930171904-Jn6W",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7453113784329551872",
+      "shareUrn": "urn:li:share:7453113784329551872",
+      "content": "FORECAST ACCURACY IS OVERRATED.\n\nYes, you read that right.\n\nFor years, I believed improving accuracy was the ultimate goal in demand planning.\n\nBetter models.\nBetter data.\nBetter numbers.\n\nBut experience teaches you something different:\n\n👉 Accuracy alone doesn’t drive better decisions.\n\nBecause you can have:\n\n✔ High accuracy\n❌ But wrong direction (bias)\n\nAnd that’s where problems start.\n\nOver-forecast → excess inventory\nUnder-forecast → stockouts\n\nThe real question is not:\n\n👉 “How accurate is the forecast?”\n\nIt is:\n\n👉 “What is the impact if we are wrong?”\n\nThat’s why strong planning focuses on:\n\n• Accuracy (how wrong)\n• Bias (direction of error)\n• Business impact\n\nBecause in the end—\n\n👉 A slightly less accurate but unbiased forecast\nis far more valuable than a “perfect-looking” but biased one\n\nForecasting is not about numbers.\n\n👉 It’s about decisions.\n\nWhat do you focus on more — accuracy or bias?\n\n#SupplyChain #DemandPlanning #Forecasting #Leadership #SCM",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1776960798962,
+        "date": "2026-04-23T16:13:18.962Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQGCeqJOnFGgYg/feedshare-image-high-res/B4DZ27HffkG4AY-/0/1776960797066?e=1786579200&v=beta&t=tGcKa_IvHzRcX-dQrxW8PmZky5cfpZrI6kb_5v8btoU",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7453113786930171904",
+        "likes": 192,
+        "comments": 3,
+        "shares": 26,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 183
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7448664976111824896",
+      "entityId": "7448664976111824896",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-operations-leadership-activity-7448664976111824896-NOxz",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7448664975146921984",
+      "shareUrn": "urn:li:share:7448664975146921984",
+      "content": "A typical day in supply chain..\n\nLooks simple… until it starts.\n\nYou begin with a plan.\nNumbers look fine.\nEverything seems under control.\n\nAnd then reality kicks in.\n\nA supplier delay.\nA sudden demand spike.\nA production constraint.\n\nPriorities start shifting every hour.\n\nBy midday, you’re not following the plan anymore —\nyou’re managing trade-offs.\n\nCost vs service.\nSpeed vs stability.\nAvailability vs efficiency.\n\nAnd by the end of the day?\n\nThe plan has changed.\nBut the goal remains the same:\n\n👉 Keep the business moving.\n\nThat’s what makes supply chain unique.\n\nIt’s not just planning.\nIt’s constant coordination, quick decisions, and balancing uncertainty.\n\nBecause in the end —\n\n👉 Supply chain is where strategy meets reality.\n\nIf you’re in SCM, what does your day usually look like?\n\n#SupplyChain #Operations #Leadership #Logistics #DemandPlanning #SCM",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1775900119808,
+        "date": "2026-04-11T09:35:19.808Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFWR_CzjTcjMw/feedshare-shrink_1280/B56Z175UtCKgAM-/0/1775900118092?e=1786579200&v=beta&t=-4DrqiJ2yYOPoSu9q5avUULc9JRJmBQJA9KKk18Dijc",
+          "width": 1260,
+          "height": 586
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7448664976111824896",
+        "likes": 23,
+        "comments": 0,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 22
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7450533460164829184",
+      "entityId": "7450533460164829184",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-sop-leadership-activity-7450533460164829184-VY2E",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7450500849908449280",
+      "shareUrn": "urn:li:share:7450500849908449280",
+      "content": "S&OP looks perfect… on slides.\n\nBalanced demand.\nAligned supply.\nClean numbers.\n\nBut in reality?\n\nIt’s where most organizations struggle.\n\nSales wants higher numbers.\nOperations want stability.\nFinance wants cost control.\n\nThe supply chain sits in the middle — trying to align everything.\n\nEarly in my career, I thought S&OP was about getting the perfect plan.\n\nNow I see it differently:\n\n👉 S&OP is not about perfection\n👉 It’s about alignment and trade-offs\n\nThe real value comes from:\n\n• Asking the right questions\n• Challenging assumptions\n• Evaluating scenarios\n• Driving cross-functional decisions\n\nBecause in the end —\n\n👉 A plan everyone supports\nis better than a perfect plan no one follows\n\nHow effective is S&OP in your organization — structured or reactive?\n\n#SupplyChain #SOP #Leadership #Planning #Operations",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1776345601121,
+        "date": "2026-04-16T13:20:01.121Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQH9oUu1UUN5uQ/feedshare-image-high-res/B4DZ2V_CwkGQAY-/0/1776337825076?e=1786579200&v=beta&t=wBdUUh18U43T4L7JIZsugiwuFvS0a69e4uyTlCdTXhk",
+          "width": 812,
+          "height": 972
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7450533460164829184",
+        "likes": 66,
+        "comments": 2,
+        "shares": 5,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 61
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7444280191310336001",
+      "entityId": "7444280191310336001",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-demandplanning-leadership-activity-7444280191310336001-tvqE",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7444280190236717056",
+      "shareUrn": "urn:li:share:7444280190236717056",
+      "content": "Most people think the supply chain is about numbers.\n\nForecast accuracy. Fill rate. Inventory turns.\n\nBut after so many years in demand & supply planning, I’ve learned something else 👇\n\n👉 Supply chain is actually about decision making under uncertainty.\n\nI still remember a phase when demand was highly unpredictable.\n\nForecasts were failing. Inventory was either excess or insufficient. Pressure from sales, production, and leadership — all at once.\n\nAnd that’s when I realized:\n\nIt’s not about having perfect data.\n\nIt’s about:\n• Taking calculated risks\n• Aligning cross-functional teams\n• Making fast decisions with incomplete information\n• And owning the outcome\n\nThat phase changed how I approach planning.\n\nToday, whether it's demand forecasting, S&OP, or inventory planning — I focus more on decision quality than data perfection.\n\nBecause in real business…\n\n👉 Waiting for perfect data is often the biggest risk.\n\nCurious to know —\nHow do you make decisions when data is incomplete?\n\n#SupplyChain #DemandPlanning #Leadership #SOP #InventoryManagement #CareerGrowth",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1774854705646,
+        "date": "2026-03-30T07:11:45.646Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4E22AQFXXhl1A3wkqA/feedshare-shrink_1280/B4EZ09lYrTJUAM-/0/1774854704123?e=1786579200&v=beta&t=-rw8dTzW6s-ChvIZKwW9_KAsQxbAtzAB2WGnQTLX-q4",
+          "width": 1260,
+          "height": 700
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7444280191310336001",
+        "likes": 127,
+        "comments": 15,
+        "shares": 4,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 124
+          },
+          {
+            "type": "INTEREST",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7449803669014945793",
+      "entityId": "7449803669014945793",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-inventorymanagement-operations-activity-7449803669014945793-2fuV",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7449775289985015808",
+      "shareUrn": "urn:li:share:7449775289985015808",
+      "content": "Inventory management looks simple on reports.\n\nStock levels.\nCoverage days.\nReorder points.\n\nBut in reality?\n\nIt’s one of the toughest balancing acts in the supply chain.\n\nAfter years in planning, one thing stands out:\n\n👉 Inventory is not about having more stock.\n👉 It’s about managing uncertainty.\n\nBecause every decision has a trade-off.\n\nMore inventory → higher cost\nLess inventory → service risk\n\nAnd most challenges come from:\n\n• Demand variability\n• Lead time uncertainty\n• Wrong assumptions\n• Lack of visibility\n\nThat’s where real control comes in.\n\n👉 Not just tracking stock\n👉 But understanding why it moves\n\nThe difference between average and strong inventory management?\n\n👉 Average focuses on numbers\n👉 Strong focuses on drivers and decisions\n\nBecause in the end —\n\n👉 Inventory is not an asset by default\n👉 It becomes one only when managed right\n\nWhat’s the biggest challenge you face in inventory management?\n\n#SupplyChain #InventoryManagement #Operations #Planning #Leadership",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1776171605352,
+        "date": "2026-04-14T13:00:05.352Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFD09k4dTcYLQ/feedshare-image-high-res/B4DZ2LrJjZG0AU-/0/1776164837861?e=1786579200&v=beta&t=qkPR4rZkz-fZ3WVddepk4mXB3vtc8tAJZkAhQMltaNk",
+          "width": 1260,
+          "height": 1388
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7449803669014945793",
+        "likes": 629,
+        "comments": 16,
+        "shares": 75,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 615
+          },
+          {
+            "type": "INTEREST",
+            "count": 9
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "ENTERTAINMENT",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7451940732749213696",
+      "entityId": "7451940732749213696",
+      "linkedinUrl": "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-operations-logistics-activity-7451940732749213696-C15T",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7451938439777689600",
+      "shareUrn": "urn:li:share:7451938439777689600",
+      "content": "The Supply Chain looks linear… on paper.\n\nDemand → Planning → Procurement → Logistics → Delivery\n\nA clean roadmap.\nStep-by-step. Predictable.\n\nBut in reality?\n\nIt’s never that simple.\n\nDemand changes overnight.\nSuppliers delay.\nTransport gets disrupted.\nInventory doesn’t match plans.\n\nAnd suddenly—\n\n👉 The “roadmap” becomes a constant adjustment exercise.\n\nEarly in my career, I thought the supply chain was about following a process.\n\nNow I see it differently:\n\n👉 It’s about managing interdependencies.\n\nBecause every step impacts the next:\n\n• A forecast error becomes excess inventory\n• A delay becomes a production issue\n• A planning gap becomes a customer problem\n\nThe real skill?\n\n👉 Not executing steps\n👉 But connecting them\n\nBecause in the end—\n\n👉 Supply Chain is not a function\n👉 It’s a system\n\nAnd strong professionals don’t just manage steps…\nThey manage the flow.\n\nWhere do you see the biggest breakdown in this chain?\n\n#SupplyChain #Operations #Logistics #Planning #Leadership",
+      "author": {
+        "id": "ACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "universalName": null,
+        "publicIdentifier": "jigar-patel-96b4286b",
+        "type": "profile",
+        "name": "Jigar Patel",
+        "linkedinUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAA7VvWMBqBKbYrtk8RHn5OIbgppDyrXJSjU",
+        "info": "Chief Manager - Global Supply Chain & Operations | S&OP Transformation Leader | Global Operations| Strategic Business Growth | Driving Performance & Efficiency",
+        "website": null,
+        "websiteLabel": null,
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D5603AQESOHlxzoHqzQ/profile-displayphoto-crop_800_800/B56ZslyliUJsAI-/0/1765865579081?e=1786579200&v=beta&t=6751ryppz0DM6ewKYGH7W1oQHSWowsUsUE-9waFtfRM",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "248888675"
+      },
+      "postedAt": {
+        "timestamp": 1776681121051,
+        "date": "2026-04-20T10:32:01.051Z",
+        "postedAgoShort": "3mo",
+        "postedAgoText": "3 months ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFhtirnfb4D_w/feedshare-image-high-res/B4DZ2qahaKGUAY-/0/1776680572921?e=1786579200&v=beta&t=OLRWRcouzIP14SZMCrbw8-7Y3ffeHJYhPygVSwXuBgU",
+          "width": 1260,
+          "height": 1464
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7451940732749213696",
+        "likes": 54,
+        "comments": 4,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 52
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/jigar-patel-96b4286b",
+        "sessionId": "a8721d54-2655-41b3-9dc1-814b5ca95053"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483531888364752897",
+      "entityId": "7483531888364752897",
+      "linkedinUrl": "https://www.linkedin.com/posts/joelcollindemers_sap-is-migrating-your-ariba-network-account-activity-7483531888364752897-8vL7",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483531886489780224",
+      "shareUrn": "urn:li:share:7483531886489780224",
+      "content": "SAP is migrating your Ariba Network account to BTP this year. You don't apply. You don't pick your slot. You have no choice...\n \nSAP assigns the waves. Every account *should* move by the end of 2026.\n \nHere's why this one catches people.\n \nNothing breaks.\n \nNothing new starts either.\n \nNo fire. No process change.\n\nSo the 30-day notice lands in a shared inbox and sits there... Unactioned.\n \nThen the interface changes on a Tuesday and your category managers are fielding supplier questions nobody briefed them for.\n \nWhat it means depends on where you sit:\n \n→ If you're waiting on next-gen Ariba, this is the gate. Nothing unlocks until you're through it.\n \n→ If you run heavy network functionality, you go last. The waves seem to be sequenced by complexity.\n \n→ Your network suppliers also migrate but on their own schedule, not yours.\n \nMost teams will learn their wave date from an email they weren't expecting.\n \nThat's a bad way to find out.\n \nTomorrow morning, a better option lands.\n \nDebadatta Dash is publishing the full 2026 timeline in /n Procurement:\n\nBuyers and suppliers, what carries over, what doesn't, and how to push your date.\n \nHe sent me an early copy.\n\nIt's the clearest read on the wave logic I've found.\n \n(AND it's 100% free)\n \nSubscribe before it hits inboxes tomorrow: https://lnkd.in/gV3S3jRH\n \nWhat questions do you have for Deb about the migration?\n \nLet him know by tagging him in the comments 👇",
+      "author": {
+        "id": "ACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "universalName": null,
+        "publicIdentifier": "joelcollindemers",
+        "type": "profile",
+        "name": "Joël Collin-Demers",
+        "linkedinUrl": "https://www.linkedin.com/in/joelcollindemers?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "info": "Your Digital Procurement Mentor | I help 13,000+ procurement pros make smarter technology decisions. Join them for free below 👇",
+        "website": "https://newsletter.pureprocurement.ca/subscribe?utm_source=LinkedIn&utm_medium=Profile&utm_campaign=Button",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHMiylHaRzm7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701698397899?e=1786579200&v=beta&t=CScrT1Nu7iPTdBgChLHVm6Luz05AGEvdkrH6u4KArwA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "79349619"
+      },
+      "postedAt": {
+        "timestamp": 1784213039485,
+        "date": "2026-07-16T14:43:59.485Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQF05GzkH6htUQ/feedshare-image-high-res/B56Z9rYmWSGgAU-/0/1784213038776?e=1786579200&v=beta&t=gvrXyI9O68nJxLWyEnHPnl3wrxPIhDhdSKCso4PEbh0",
+          "width": 832,
+          "height": 859
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483531888364752897",
+        "likes": 44,
+        "comments": 20,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 37
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/joelcollindemers",
+        "sessionId": "533478b5-4f2a-495b-9385-ada2943075e9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7484983511851024385",
+      "entityId": "7484983511851024385",
+      "linkedinUrl": "https://www.linkedin.com/posts/joelcollindemers_eauctions-are-the-most-misused-tool-in-the-activity-7484983511851024385-yGuS",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7484983508495523840",
+      "shareUrn": "urn:li:share:7484983508495523840",
+      "content": "eAuctions are the most misused tool in the sourcing toolkit... Here's what you need to know.\n\nMost teams reach for eAuctions to \"squeeze suppliers\"...\n  \nThen wonder why the savings vanish and the relationship sours.\n\nThe same failures play out over and over again:\n\n→ Fuzzy specs, so nobody can bid apples-to-apples\n→ Launch day arrives... and nobody shows up (or hates you for it)\n→ A strategic partner treated like an interchangeable vendor\n→ Weeks of work... Trust quietly torched... Swearing off eAuctions forever.\n\nThe tool isn't broken. It's pointed at the wrong target.\n\nThe real question isn't \"can we auction this?\"\n\nFor beginners, it's \"does this category fit an auction, and did we run the RFP first?\"\n\nHere's the shift most teams miss:\n\nYes, you can run an eAuction instead of an RFP...\n\nFor truly commoditized spot buys with decent volumes, it's a fast, repeatable play.\n\n(If \"one-off widgets\", just use a marketplace!)\n\nBut if that's the only way you use them, you're capping the value you can pull out.\n\nOr worse, you'll use them in situations where you're hurting things rather than improving them...\n  \nThe bigger, safer unlock on your learning journey: run the RFP first, and let the eAuction replace the best-and-final-offer process that comes after it.\n  \nThat way you keep a backup position, protect the relationship, and true-up bids before anyone races to the bottom.\n\nJanice Marquardt covered the logic behind this beautifully in last night's newsletter edition.\n\nRead it here: https://lnkd.in/dNy8viyd\n\nOne more thing: an eAuction with no price drop isn't a failure.\n  \nIt's confirmation your suppliers already gave you their best number.\n  \nThe decision tree below shows when to run one, and the best practices that make it work.\n  \nRFP first, then auction: are you running it this way, or the other way around?\n\nWhat am I missing? \n\nLet me know in the comments 👇\n\nP.S. Are there other, more advanced strategies to run eAuctions? Sure. But is this a good place for beginners to start to get comfortable with good chances of success? Absolutely.",
+      "author": {
+        "id": "ACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "universalName": null,
+        "publicIdentifier": "joelcollindemers",
+        "type": "profile",
+        "name": "Joël Collin-Demers",
+        "linkedinUrl": "https://www.linkedin.com/in/joelcollindemers?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "info": "Your Digital Procurement Mentor | I help 13,000+ procurement pros make smarter technology decisions. Join them for free below 👇",
+        "website": "https://newsletter.pureprocurement.ca/subscribe?utm_source=LinkedIn&utm_medium=Profile&utm_campaign=Button",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHMiylHaRzm7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701698397899?e=1786579200&v=beta&t=CScrT1Nu7iPTdBgChLHVm6Luz05AGEvdkrH6u4KArwA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "79349619"
+      },
+      "postedAt": {
+        "timestamp": 1784559133494,
+        "date": "2026-07-20T14:52:13.494Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQFdtoj886qznw/feedshare-image-high-res/B4DZ.AA11fIEAU-/0/1784559132345?e=1786579200&v=beta&t=w0yQOrwiifhn2gAygzZAWDyWGVlaDSIUrhSsNfa0QEs",
+          "width": 1080,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7484983511851024385",
+        "likes": 70,
+        "comments": 40,
+        "shares": 10,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 63
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/joelcollindemers",
+        "sessionId": "533478b5-4f2a-495b-9385-ada2943075e9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486767231847059456",
+      "entityId": "7486767231847059456",
+      "linkedinUrl": "https://www.linkedin.com/posts/joelcollindemers_in-this-weekends-newsletter-im-showing-activity-7486767231847059456-4iAz",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486424635035656192",
+      "shareUrn": "urn:li:share:7486424635035656192",
+      "content": "In this weekend's newsletter, I'm showing you how to build a Procurement AI agent from scratch.\n \nNo code. No procurement software license. No hoops to jump through.\n \nYou can build something useful yourself in an afternoon.\n\n(In fact, it only took me 3 prompts)\n \nI know, because I opened a blank screen and did it live this week on a webinar.\n\nThen I wrote up every step as an ebook.\n \nInside:\n \n→ How to design and scope an agent using IGOE diagrams\n→ The context and data an agent needs before it's useful\n→ How to get it comparing pricing against benchmarks\n→ How to have it review contracts and flag what matters\n→ Where a self-built agent is enough and where it isn't\n \nThat last one matters most.\n \nBuilding your own is not always the right answer.\n\nBut you can't judge that line until you've built something and hit it yourself.\n \nThis guide is how you get this knowledge, step-by-step.\n \nIt goes out to every Pure Procurement subscriber this Sunday.\n\nFree.\n\nI'll also include a link to the webinar replay where I used my own guide to build an agent in front of an audience.\n\nYou can follow along with with the guide as the instruction manual, and the video as your teacher.\n \nIf you're on the list, it all lands in your inbox tomorrow.\n\nSubscribe here: https://lnkd.in/eFs8dc-F\n \nHave you built an agent yet, or still just reading about them?\n\nLet's turn you into the former!\n\nP.S. This isn't just good for Claude... It can work on Gemini, ChatGPT, MS Copilot or any other LLM you're using in your work.",
+      "author": {
+        "id": "ACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "universalName": null,
+        "publicIdentifier": "joelcollindemers",
+        "type": "profile",
+        "name": "Joël Collin-Demers",
+        "linkedinUrl": "https://www.linkedin.com/in/joelcollindemers?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "info": "Your Digital Procurement Mentor | I help 13,000+ procurement pros make smarter technology decisions. Join them for free below 👇",
+        "website": "https://newsletter.pureprocurement.ca/subscribe?utm_source=LinkedIn&utm_medium=Profile&utm_campaign=Button",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHMiylHaRzm7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701698397899?e=1786579200&v=beta&t=CScrT1Nu7iPTdBgChLHVm6Luz05AGEvdkrH6u4KArwA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "79349619"
+      },
+      "postedAt": {
+        "timestamp": 1784984405481,
+        "date": "2026-07-25T13:00:05.481Z",
+        "postedAgoShort": "3d",
+        "postedAgoText": "3 days ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGtKnLp73kfAA/feedshare-shrink_1280/B56Z.UfiVGG0AM-/0/1784902723323?e=1786579200&v=beta&t=q5Oxb2TjYUwFuNCQs_hMov5ECd0RskD0RFqcW7pIZeg",
+          "width": 1280,
+          "height": 1656
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486767231847059456",
+        "likes": 42,
+        "comments": 8,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 38
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/joelcollindemers",
+        "sessionId": "533478b5-4f2a-495b-9385-ada2943075e9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483154349200789504",
+      "entityId": "7483154349200789504",
+      "linkedinUrl": "https://www.linkedin.com/posts/joelcollindemers_i-see-the-procurement-spend-funnel-a-bit-activity-7483154349200789504-xFc9",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483154347992973312",
+      "shareUrn": "urn:li:share:7483154347992973312",
+      "content": "I see the procurement spend funnel a bit differently than others...\n\nHere's how I break down procurement's spend influence:\n\n→ Total Company Spend\nThis is everything your company spends money on. Salaries, rent, utilities, software, materials - everything.\n\n→ Addressable Spend\nAll spend where procurement CAN have an influence. Non-addressable = spend where procurement involvement is useless.\n\n→ Spend Under Management\nHow much of addressable spend is currently formally under procurement's purview (e.g. via your procurement policy's RACI). This varies and depends on your function's maturity, responsibilities and organizational influence.\n\n→ Spend Under Contract/Strategy\nSpend that's actively managed from a strategic procurement standpoint. Where competitive negotiation and value creation happens. How much spend are you running through your classic \"7-step procurement process\"?\n\n→ Fully Governed Spend\nWhere procurement can link strategy to realized savings through clear purchasing channels (P2P). Very hard to measure without a spend cube and purposeful mapping of your purchasing channels to your spend category (e.g. commodity codes).\n\nYou need Procurement, Accounting, Operations and IT fully aligned to get \"Fully Governed Spend\"\n\n(You also need a good handle on this to make Intake & Orchestration work, by the way...)\n\nYet, this is where the magic happens.\n\nKey Insights:\n\n→ Addressable comes BEFORE spend under management scope\n→ Just because spend is \"addressable\" doesn't mean you have jurisdiction/influence over it\n→ Procurement's job is moving spend down the funnel systematically to generate value\n→ Full governance = strategy linked to realized savings in procure-to-pay processes\n\nThe biggest gap?\n\nMost procurement teams measure success on \"spend under management\" but can't prove value creation.\n\nThe real question isn't \"how much spend touches procurement?\"\n\nIt's \"how much spend can we prove we're optimizing?\"\n\nWhat does your spend funnel look like?\n\nDoesn't matter if it's different...\n\nWhat matters is that you have clear/coherent definitions...\n\nAnd aligned stakeholders 😅\n\nLet me know where you disagree in the comments 👇\n_________________________\n\nP.S. I help companies choose and implement ProcureTech solutions for a living.\n\nEvery Sunday, I send out a free newsletter which documents the best practices, trends and frameworks in ProcureTech. It's read by 13.000+ Procurement professionals (and counting...)\n\nSubscribe here for free: https://lnkd.in/g5yXYDqj",
+      "author": {
+        "id": "ACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "universalName": null,
+        "publicIdentifier": "joelcollindemers",
+        "type": "profile",
+        "name": "Joël Collin-Demers",
+        "linkedinUrl": "https://www.linkedin.com/in/joelcollindemers?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "info": "Your Digital Procurement Mentor | I help 13,000+ procurement pros make smarter technology decisions. Join them for free below 👇",
+        "website": "https://newsletter.pureprocurement.ca/subscribe?utm_source=LinkedIn&utm_medium=Profile&utm_campaign=Button",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHMiylHaRzm7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701698397899?e=1786579200&v=beta&t=CScrT1Nu7iPTdBgChLHVm6Luz05AGEvdkrH6u4KArwA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "79349619"
+      },
+      "postedAt": {
+        "timestamp": 1784123027134,
+        "date": "2026-07-15T13:43:47.134Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHmHhaQRDXVDQ/feedshare-image-high-res/B56Z9mBOt7KcAU-/0/1784123026532?e=1786579200&v=beta&t=p2uWOoS5CvlBHu6sHP-eFanhiBTW_pcCUJb76KL-wEg",
+          "width": 1080,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483154349200789504",
+        "likes": 201,
+        "comments": 38,
+        "shares": 15,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 181
+          },
+          {
+            "type": "INTEREST",
+            "count": 13
+          },
+          {
+            "type": "EMPATHY",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/joelcollindemers",
+        "sessionId": "533478b5-4f2a-495b-9385-ada2943075e9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7485324095098707969",
+      "entityId": "7485324095098707969",
+      "linkedinUrl": "https://www.linkedin.com/posts/joelcollindemers_im-showing-you-how-to-build-an-ai-agent-activity-7485324095098707969-nuBj",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7485324093932597249",
+      "shareUrn": "urn:li:share:7485324093932597249",
+      "content": "I'm showing you how to build an AI agent live.... Then putting it head-to-head against software you'd pay for.\n\nThere's a lot of talking about AI agents in procurement today... \n\nBut unfortunately, not a lot of doing.\n\nSo instead of another slide deck, I'll open a blank screen and build a procurement agent on Claude, from scratch.\n\nThen Johan runs the exact same use case through Vertice AI.\n\nSame problem. Two approaches.\n\nWe compare the outcomes honestly.\n\nBecause \"build vs. buy\" isn't a slogan.\n\nIt's a real decision with a real line:\n \n→ Where a self-built agent is more than enough\n→ Where it falls short and why\n\nYou'll leave knowing which side of that line you're on.\n\nPlus a live look at what agents can actually do:\n\n→ Compare vendor pricing against benchmarks\n→ Flag overlapping tools and unused licenses\n→ Review contract terms and conditions\n→ Surface savings hiding in your spend\n\nIf you've been agent-curious but never dipped your toes in, this is where you start.\n\nSave your seat 👇\n\nhttps://lnkd.in/gW3TqECP\n\nWhat questions do you have? I'll get ready!\n\nP.S. You'll get this nifty ebook I wrote for the occasion sent to you after the webinar.",
+      "author": {
+        "id": "ACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "universalName": null,
+        "publicIdentifier": "joelcollindemers",
+        "type": "profile",
+        "name": "Joël Collin-Demers",
+        "linkedinUrl": "https://www.linkedin.com/in/joelcollindemers?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "info": "Your Digital Procurement Mentor | I help 13,000+ procurement pros make smarter technology decisions. Join them for free below 👇",
+        "website": "https://newsletter.pureprocurement.ca/subscribe?utm_source=LinkedIn&utm_medium=Profile&utm_campaign=Button",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHMiylHaRzm7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701698397899?e=1786579200&v=beta&t=CScrT1Nu7iPTdBgChLHVm6Luz05AGEvdkrH6u4KArwA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "79349619"
+      },
+      "postedAt": {
+        "timestamp": 1784640334868,
+        "date": "2026-07-21T13:25:34.868Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQFhhMee3q0lgA/feedshare-image-high-res/B56Z.E2mYTH4AU-/0/1784640333557?e=1786579200&v=beta&t=tNPS3Dq9zzIddokAg27zepCH1ShxtIMDNbg446FS2t8",
+          "width": 816,
+          "height": 1054
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7485324095098707969",
+        "likes": 57,
+        "comments": 18,
+        "shares": 2,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 52
+          },
+          {
+            "type": "PRAISE",
+            "count": 3
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/joelcollindemers",
+        "sessionId": "533478b5-4f2a-495b-9385-ada2943075e9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7483887449316970497",
+      "entityId": "7483887449316970497",
+      "linkedinUrl": "https://www.linkedin.com/posts/joelcollindemers_uber-blew-through-its-entire-2026-ai-usage-activity-7483887449316970497-6LhN",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7483887447978885120",
+      "shareUrn": "urn:li:share:7483887447978885120",
+      "content": "Uber blew through its entire 2026 AI usage budgets by April. Your company is next.\n \nMicrosoft pulled AI coding licenses from thousands of engineers the same quarter.\n\nSome were burning $2,000/month... Each.\n \nTwo of the most sophisticated tech buyers on the planet, caught by the same thing:\n \nNobody set a usage cap.\n \nThat's not bad luck. That's the pricing model working as designed.\n \nEvery major AI vendor is running the same 4-step playbook (you watched cloud vendors run it a decade ago):\n \n→ Step 1: Subsidize adoption. Flat, seat-based pricing. The \"yes\" comes easy.\n \n→ Step 2: Become essential. Adoption quietly becomes dependency.\n \n→ Step 3: Absorb the real cost, short term. They're playing for pricing power later.\n \n→ Step 4: Shift to usage-based pricing once leaving is no longer a live option.\n \nWe're at step 4.\n \nAnd the minute your team start using \"AI Workflow Studios\", this becomes your problem too. Not just IT's.\n \n3 questions to ask at your next AI-supported software renewal:\n \n→ What usage tier does the flat fee actually cover?\n \n→ When a team burns through it, is it overage billing? Or does the tool just stop working?\n \n→ Can we negotiate a hard usage cap into the contract itself?\n \nI break down the full playbook (and how to get ahead of it) in episode 6 of ProcureTech Unpacked, out today.\n \nHas usage-based AI pricing hit your invoices yet...? Or are you still on flat fees?\n\nWhat questions do you have?\n\nLet me know in the comments and...\n\nTune in here:\n🟣 Apple Podcasts: https://lnkd.in/e-HZKKJX \n🟢 Spotify: https://lnkd.in/exshmPQC \n🔴 YouTube: https://lnkd.in/dVcn_ys6",
+      "author": {
+        "id": "ACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "universalName": null,
+        "publicIdentifier": "joelcollindemers",
+        "type": "profile",
+        "name": "Joël Collin-Demers",
+        "linkedinUrl": "https://www.linkedin.com/in/joelcollindemers?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "info": "Your Digital Procurement Mentor | I help 13,000+ procurement pros make smarter technology decisions. Join them for free below 👇",
+        "website": "https://newsletter.pureprocurement.ca/subscribe?utm_source=LinkedIn&utm_medium=Profile&utm_campaign=Button",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHMiylHaRzm7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701698397899?e=1786579200&v=beta&t=CScrT1Nu7iPTdBgChLHVm6Luz05AGEvdkrH6u4KArwA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "79349619"
+      },
+      "postedAt": {
+        "timestamp": 1784297811822,
+        "date": "2026-07-17T14:16:51.822Z",
+        "postedAgoShort": "1w",
+        "postedAgoText": "1 week ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D4D22AQEvDeDfq5-ewg/feedshare-shrink_1280/B4DZ9wb.chJcAY-/0/1784297810168?e=1786579200&v=beta&t=gyedce4oq1ilojI4fRmpAurc1t_S2HgYL5AjyKDpwzI",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7483887449316970497",
+        "likes": 18,
+        "comments": 6,
+        "shares": 3,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 17
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/joelcollindemers",
+        "sessionId": "533478b5-4f2a-495b-9385-ada2943075e9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480642869976911872",
+      "entityId": "7480642869976911872",
+      "linkedinUrl": "https://www.linkedin.com/posts/joelcollindemers_most-procurement-teams-are-trying-to-bolt-activity-7480642869976911872-CaPs",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480642868848615425",
+      "shareUrn": "urn:li:share:7480642868848615425",
+      "content": "Most procurement teams are trying to bolt an LLM onto systems that were never designed to talk back.\n\nYou paste a PO number into ChatGPT.\n\nIt has no idea what a PO number is in your ERP.\n\nNo context, no live data, no action it can actually take.\n\nThat's the gap between \"AI chatbot\" and \"AI that does procurement work.\"\n\nThe fix isn't a bigger prompt...\n\nIt's connecting your LLM to your actual systems (ERP, S2P, contracts) through the right integration layer, so it can read real data and take real action instead of guessing.\n\nI'm jumping into a live session on exactly this right now\n\n→ How to Get Your LLM Talking to Your Procurement Systems.\n\nJoin live (starting now):  https://lnkd.in/gYMXsGh9\n\nCan't make it live? Same link gets you the recording after.\n\nIs your LLM actually connected to your procurement stack, or still stuck copy-pasting?",
+      "author": {
+        "id": "ACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "universalName": null,
+        "publicIdentifier": "joelcollindemers",
+        "type": "profile",
+        "name": "Joël Collin-Demers",
+        "linkedinUrl": "https://www.linkedin.com/in/joelcollindemers?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "info": "Your Digital Procurement Mentor | I help 13,000+ procurement pros make smarter technology decisions. Join them for free below 👇",
+        "website": "https://newsletter.pureprocurement.ca/subscribe?utm_source=LinkedIn&utm_medium=Profile&utm_campaign=Button",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHMiylHaRzm7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701698397899?e=1786579200&v=beta&t=CScrT1Nu7iPTdBgChLHVm6Luz05AGEvdkrH6u4KArwA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "79349619"
+      },
+      "postedAt": {
+        "timestamp": 1783524243826,
+        "date": "2026-07-08T15:24:03.826Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQETX_fm3ngLEA/feedshare-shrink_1280/B56Z9CVDPcGgAQ-/0/1783524242640?e=1786579200&v=beta&t=TUm0xY6lVLnFA0FhJFs5Gs1pDy3tlwgO4Jyt8QbHvXg",
+          "width": 1280,
+          "height": 658
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480642869976911872",
+        "likes": 18,
+        "comments": 1,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 15
+          },
+          {
+            "type": "EMPATHY",
+            "count": 2
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/joelcollindemers",
+        "sessionId": "533478b5-4f2a-495b-9385-ada2943075e9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7476632145147359232",
+      "entityId": "7476632145147359232",
+      "linkedinUrl": "https://www.linkedin.com/posts/joelcollindemers_im-a-fan-of-centralized-procurement-but-activity-7476632145147359232-OfaY",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7476632142072926208",
+      "shareUrn": "urn:li:share:7476632142072926208",
+      "content": "I'm a fan of centralized procurement... But it has it's limits:\n\nIf you centralize everything:\n\n→ Buying channel management\n→ PO creation / Follow up\n→ System implementation\n→ Process management\n→ Category strategies\n→ AP Processing\n→ Etc.\n\nYou better be damn good at staying connected to the business...\n\nOtherwise, you risk losing touch with the reality of operations...\n\nThat's when the \"Us vs. Them\", Operations vs. Corporate dynamic emerges.\n\n\"Those procurement people don't understand us...\"\n\nOnce you've correctly centralized procurement, it's all about relationships.\n\nBUT, with recent advances in Procurement Technology, I think we can dream bigger.\n\nInstead of having \"Center-Led Procurement\" as the end goal,\n\nwe should be striving for \"Center-Governed Procurement\".\n\nWhat's the difference?\n\nInstead of routing all new files above certain amounts through your Procurement CoE/Shared Services,\n\nYou put in place the technology, processes, business rules and user experiences that enable the business to procure everything without you.\n\nWHILE\n\nrespecting all the hard work you've put in to define category strategies that optimize value for the business....\n\nAND\n\nbeing available to tackle the really hard stuff where the business wants you involved.\n\nIt's the difference between being on the tarmac with glow sticks shouting at planes...\n\nAnd sitting in the air control tower, confident that the system is foolproof.\n\nYou only intervene when there's a worthwhile opportunity/need instead of every time.\n\nThe key? Designing beautiful user experience that enable adoption AND compliance.\n\nThis way, you know your \"baseline level\" of control is enforced.\n\nAnd you can focus on looking forward.\n\nWhat do you think?\n\nLet me know in the comments 👇\n_________________________\n\n𝗣.𝗦. I help companies go through this funnel for a living.\n\nEvery Sunday, I send out a free newsletter which documents the best practices, trends and frameworks you need to make it happen. It's read by 13,000+ Procurement professionals (and counting...)\n\nSubscribe here for free: https://lnkd.in/gm_wiG3K",
+      "author": {
+        "id": "ACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "universalName": null,
+        "publicIdentifier": "joelcollindemers",
+        "type": "profile",
+        "name": "Joël Collin-Demers",
+        "linkedinUrl": "https://www.linkedin.com/in/joelcollindemers?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "info": "Your Digital Procurement Mentor | I help 13,000+ procurement pros make smarter technology decisions. Join them for free below 👇",
+        "website": "https://newsletter.pureprocurement.ca/subscribe?utm_source=LinkedIn&utm_medium=Profile&utm_campaign=Button",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHMiylHaRzm7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701698397899?e=1786579200&v=beta&t=CScrT1Nu7iPTdBgChLHVm6Luz05AGEvdkrH6u4KArwA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "79349619"
+      },
+      "postedAt": {
+        "timestamp": 1782568012511,
+        "date": "2026-06-27T13:46:52.511Z",
+        "postedAgoShort": "1mo",
+        "postedAgoText": "1 month ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQE71qSowDyshA/feedshare-image-high-res/B56Z8JVURMKcAY-/0/1782568011098?e=1786579200&v=beta&t=DPfqzA-tTsTE66n5a9ZIkAUDv-V1CtyWJIKuZQKtR8A",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7476632145147359232",
+        "likes": 98,
+        "comments": 8,
+        "shares": 11,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 88
+          },
+          {
+            "type": "INTEREST",
+            "count": 7
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          },
+          {
+            "type": "APPRECIATION",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/joelcollindemers",
+        "sessionId": "533478b5-4f2a-495b-9385-ada2943075e9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7479874341070065665",
+      "entityId": "7479874341070065665",
+      "linkedinUrl": "https://www.linkedin.com/posts/joelcollindemers_a-3-way-matched-purchase-beats-a-non-po-invoice-activity-7479874341070065665-kMXX",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7479856189632143360",
+      "shareUrn": "urn:li:share:7479856189632143360",
+      "content": "A 3-way matched purchase beats a Non-PO Invoice every time:\n\nWhy?\n\nWhen you have a matching purchase order, a Goods/Service Receipt and Invoice (3-way match) before payment, you increase:\n\n➝ Fraud prevention\n➝ Duplicate payment risks\n➝ Visibility and transparency\n➝ Accuracy and error reduction\n➝ Efficiency in Dispute Resolution\n➝ Financial control (approval of spend)\n➝ Timely payment (when the invoice matches...)\n\nBut bring this up with folks who don't do it today and... Hear them moan...\n\n\"That's overkill.\"\n\n\"Our suppliers won't be able to do that.\"\n\n\"We're already approving the invoices so what's the point?\"\n\nWhy?\n\nBecause 3-way match is harder than a Non-PO Invoice process.\n\nIt requires you understand your purchasing profile and purchasing channels consequently.\n\nIt requires you educate users and suppliers on these processes.\n\nIt requires you plan proactively instead or \"reacting urgently.\"\n\nIt requires more knowledge and rigor.\n\nThese are all cultural issues. \n\nThese are all change issues.\n\nIf you're not doing 3-way matching today, should you turn it on for 100% of your invoices tomorrow? \n\nNo.\n\nThat will be a disaster...\n\nBut you should be developing a long term change plan to trend towards 3-way match for most of your categories.\n\nOne logical bite at a time.\n\nWith a 3-way match process, you can automate the end-to-end P2P process!\n\nNot so with Non-PO Invoices.\n\nWhen you get to the other side, you'll wonder how the heck you were operating with 100% non-PO invoices.\n\n(However, there ARE valid Non-PO invoice exceptions)\n\nDisagree? Let me have it in the comments 👇",
+      "author": {
+        "id": "ACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "universalName": null,
+        "publicIdentifier": "joelcollindemers",
+        "type": "profile",
+        "name": "Joël Collin-Demers",
+        "linkedinUrl": "https://www.linkedin.com/in/joelcollindemers?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "info": "Your Digital Procurement Mentor | I help 13,000+ procurement pros make smarter technology decisions. Join them for free below 👇",
+        "website": "https://newsletter.pureprocurement.ca/subscribe?utm_source=LinkedIn&utm_medium=Profile&utm_campaign=Button",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHMiylHaRzm7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701698397899?e=1786579200&v=beta&t=CScrT1Nu7iPTdBgChLHVm6Luz05AGEvdkrH6u4KArwA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "79349619"
+      },
+      "postedAt": {
+        "timestamp": 1783341012256,
+        "date": "2026-07-06T12:30:12.256Z",
+        "postedAgoShort": "3w",
+        "postedAgoText": "3 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7479874341070065665",
+        "likes": 18,
+        "comments": 11,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 17
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/joelcollindemers",
+        "sessionId": "533478b5-4f2a-495b-9385-ada2943075e9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7486413471161413632",
+      "entityId": "7486413471161413632",
+      "linkedinUrl": "https://www.linkedin.com/posts/joelcollindemers_still-asking-suppliers-to-create-a-username-activity-7486413471161413632-LSnb",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7486413468041089024",
+      "shareUrn": "urn:li:share:7486413468041089024",
+      "content": "Still asking suppliers to create a username and password in 2026? Your supplier experience is obsolete.\n \nNot aging. Obsolete.\n \nEvery ProcureTech business case has a critical path.\n\nIt's almost always supplier enablement.\n \nYour sourcing platform doesn't save a dollar until suppliers bid.\n \nYour risk tool doesn't flag anything until suppliers submit information.\n \nYour P2P doesn't touch a transaction until suppliers send confirmations and invoices to the right place.\n \nNone of it works without people who don't work for you (suppliers!)\n \nInternal change management is the easy half.\n\nYou've got an org chart, a sponsor, a budget.\n \nAnd you still lose. Constantly.\n \nNow take all of that away. That's supplier enablement.\n \nSo every login screen is a place where a supplier closes the tab and never comes back.\n \nThat's not a UX complaint. That's your business case leaking.\n \nSix questions to put in your next demo script:\n \n→ Are you gathering information, or validating it? Ask them to confirm, not create.\n \n→ Does it require a login? Domain recognition. Magic links. No credentials rotting in spam.\n \n→ Does it connect to your whole stack? One front door, data routes everywhere. Otherwise it's another silo.\n \n→ Does it handle both ends of supplier sophistication? An agent responding by API, and Marie from accounting replying by email with her W-9 attached.\n \n→ Are suppliers stakeholders in the workflow, or outsiders waiting on an attachment?\n \n→ Can it tell a transactional supplier from a strategic partner?\n \nPut these in the demo. Not the RFP. Make them show you.\n \nAre your suppliers still logging into a portal today?\n\nThis is Episode 7 of ProcureTech Unpacked.\n\nTen minutes on why the portal model is dead on arrival, and all six questions presented with the rationale behind them.\n\nLet me know what you think!\n \n🟣 Apple: https://lnkd.in/gvMtGDXk\n🟢 Spotify: https://lnkd.in/gFd7uGh3\n🔴 YouTube: https://lnkd.in/gdqG6-Q9",
+      "author": {
+        "id": "ACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "universalName": null,
+        "publicIdentifier": "joelcollindemers",
+        "type": "profile",
+        "name": "Joël Collin-Demers",
+        "linkedinUrl": "https://www.linkedin.com/in/joelcollindemers?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "info": "Your Digital Procurement Mentor | I help 13,000+ procurement pros make smarter technology decisions. Join them for free below 👇",
+        "website": "https://newsletter.pureprocurement.ca/subscribe?utm_source=LinkedIn&utm_medium=Profile&utm_campaign=Button",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHMiylHaRzm7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701698397899?e=1786579200&v=beta&t=CScrT1Nu7iPTdBgChLHVm6Luz05AGEvdkrH6u4KArwA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "79349619"
+      },
+      "postedAt": {
+        "timestamp": 1784900062361,
+        "date": "2026-07-24T13:34:22.361Z",
+        "postedAgoShort": "4d",
+        "postedAgoText": "4 days ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHpYVY9YegeBw/feedshare-image-high-res/B56Z.UVYY3GcAY-/0/1784900060957?e=1786579200&v=beta&t=W6wL7w4sq-NeFI6bKj2eC7MCIXsTtXxrk21eCKGTh0g",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7486413471161413632",
+        "likes": 41,
+        "comments": 13,
+        "shares": 1,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 31
+          },
+          {
+            "type": "INTEREST",
+            "count": 5
+          },
+          {
+            "type": "PRAISE",
+            "count": 4
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/joelcollindemers",
+        "sessionId": "533478b5-4f2a-495b-9385-ada2943075e9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7481403247195365377",
+      "entityId": "7481403247195365377",
+      "linkedinUrl": "https://www.linkedin.com/posts/joelcollindemers_how-are-you-going-to-successfully-deploy-activity-7481403247195365377-ML8q",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7481403246050234368",
+      "shareUrn": "urn:li:share:7481403246050234368",
+      "content": "How are you going to successfully deploy AI Agents if you can't define them in one sentence?\n\nMost procurement leaders can't.\n\nThey just know AI agents are supposed to fix everything.\n\nHere's the definition we use at Pure Procurement:\n\nAn AI agent (big or small) is a trigger-driven business process that navigates ambiguity to produce a defined outcome inside policy guardrails (guides), using connected systems, data and stakeholders (enablers).\n\nHere are the 5 parts:\n\n→ Trigger — what starts it (a request, a document, a scheduled job)\n→ Outcome — the defined result it's working toward\n→ Guides — the policy layer constraining behavior\n→ Enablers — the systems and data it can call on\n→ Process — the reasoning path between trigger and outcome (not a fixed flowchart)\n\nOnce you have that, ask 3 questions before you deploy:\n\n1️⃣ Is the path to the outcome ambiguous? If every rule is explicit, use traditional automation, not an LLM agent.\n\n2️⃣ Is a \"directionally correct\" output recoverable? If a wrong output is catastrophic, raise the bar significantly.\n\n3️⃣ Are the guides clearly defined? An agent without guardrails isn't an agent. It's chaos with a chatbot interface.\n\nCan't answer all 3? It's not ready for production.\n\nWe go deeper on this framework (and the AI Agent Studio arms race across S2P platforms) in episode 5 of the ProcureTech Unpacked podcast, out today\n\nWould you poke holes in my definition?\n\nLet me know in the comments 👇\n\n🎧 Listen to episode 5 of ProcureTech Unpacked: \n\n🟣 Apple Podcasts: https://lnkd.in/g9WDBjtS\n🟢 Spotify: https://lnkd.in/g-wxc8_f\n🔴 YouTube: https://lnkd.in/gEJTu7JM",
+      "author": {
+        "id": "ACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "universalName": null,
+        "publicIdentifier": "joelcollindemers",
+        "type": "profile",
+        "name": "Joël Collin-Demers",
+        "linkedinUrl": "https://www.linkedin.com/in/joelcollindemers?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "info": "Your Digital Procurement Mentor | I help 13,000+ procurement pros make smarter technology decisions. Join them for free below 👇",
+        "website": "https://newsletter.pureprocurement.ca/subscribe?utm_source=LinkedIn&utm_medium=Profile&utm_campaign=Button",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHMiylHaRzm7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701698397899?e=1786579200&v=beta&t=CScrT1Nu7iPTdBgChLHVm6Luz05AGEvdkrH6u4KArwA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "79349619"
+      },
+      "postedAt": {
+        "timestamp": 1783705531882,
+        "date": "2026-07-10T17:45:31.882Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQHXmj9GtcwtLA/feedshare-image-high-res/B56Z9NInCCGoAU-/0/1783705530804?e=1786579200&v=beta&t=SGna3OzSDGfa7Qv_T16MFnEnKxlDaOfKEyORXVW6NNo",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7481403247195365377",
+        "likes": 26,
+        "comments": 15,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 23
+          },
+          {
+            "type": "EMPATHY",
+            "count": 1
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          },
+          {
+            "type": "INTEREST",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/joelcollindemers",
+        "sessionId": "533478b5-4f2a-495b-9385-ada2943075e9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7480988411823288320",
+      "entityId": "7480988411823288320",
+      "linkedinUrl": "https://www.linkedin.com/posts/joelcollindemers_well-well-well-every-major-s2p-platform-activity-7480988411823288320-5uYp",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7480988410677997569",
+      "shareUrn": "urn:li:share:7480988410677997569",
+      "content": "Well, well, well... Every major S2P platform now has an AI Agent Studio.\n  \nZip, Coupa, Oracle, Ivalua, Jaggaer, Zycus, GEP, SAP Ariba. All of them.\n  \nQuick level-set: For me, an AI agent is just an automated business process that supports ambiguity.\n\nThe only different with past workflow tools? Supporting ambiguity via LLMs.\n  \nAn \"AI agent\" can use an LLM to \"figure things out\" when the inputs aren't clean or the path isn't fixed.\n  \nAn Agent Studio is the workbench that lets you configure, govern and deploy those agents inside your platform, instead of waiting on the vendor's roadmap.\n  \nI mapped the press release date for every studio on the right-hand side of the Gartner Magic Quadrant for S2P Suites.\n\nFull timeline is in the graphic.\n  \nBut does that mean they're all created equal?\n  \nGod no.\n  \n→ Some let you Bring-Your-Own-LLM\n→ Others lock you into a frontier model like ChatGPT, take it or leave it\n\n→ Some come with lots of pre-packaged agents for procurement\n→ Others come with the toolbox and you need to start from scratch\n\n→ Some let your team build and deploy freely\n→ Others require the vendor to vet and approve every agent first\n\n→ Some are true low-code studios for business users\n→ Others still need a technical admin in the loop\n  \nNone of that shows up in the press release.\n\nYou only find it in the demo, the contract fine print, the implementation roadblocks.\n\n(There's also a ton of great \"non-Gartner MQ\" options out there depending on your context. Happy to point you toward a few via DM if useful)\n  \nThose nuances are important to see the differences between options.\n\nThose differences can make or break your business case.\n\nBut there's another important bit with these AI Studios:\n  \nThey are just the new generation of workflow builder, with LLMs as one more tool in the workflow.\n  \nAnd the value was never in the tool.\n\nIt's in the work underneath it:\n\n→ Defining the problem precisely,\n→ Mapping the process steps,\n→ Deciding where an LLM actually earns its place,\n→ Configuring the workflow and governance to hold up at scale.\n  \nBuy the studio for the flexibility.\n\nWin with it through the strategy work most teams skip.\n\n(There are no silver bullets)\n  \nWhich of these constraints (LLM lock-in vs. vendor vetting) would be the bigger dealbreaker for your team?\n\nLet me know in the comments 👇\n________________________________________________\n\nP.S. I help companies choose and implement ProcureTech solutions for a living.\n  \nEvery Sunday, I break down the tools, trends and frameworks shaping ProcureTech in a free newsletter read by 13,000+ procurement professionals.\n  \nSubscribe here for free: https://lnkd.in/gyWUgfsT",
+      "author": {
+        "id": "ACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "universalName": null,
+        "publicIdentifier": "joelcollindemers",
+        "type": "profile",
+        "name": "Joël Collin-Demers",
+        "linkedinUrl": "https://www.linkedin.com/in/joelcollindemers?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "info": "Your Digital Procurement Mentor | I help 13,000+ procurement pros make smarter technology decisions. Join them for free below 👇",
+        "website": "https://newsletter.pureprocurement.ca/subscribe?utm_source=LinkedIn&utm_medium=Profile&utm_campaign=Button",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHMiylHaRzm7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701698397899?e=1786579200&v=beta&t=CScrT1Nu7iPTdBgChLHVm6Luz05AGEvdkrH6u4KArwA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "79349619"
+      },
+      "postedAt": {
+        "timestamp": 1783606627422,
+        "date": "2026-07-09T14:17:07.422Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQGfpxtb-txwdw/feedshare-shrink_1280/B56Z9HPUbOH4AM-/0/1783606626353?e=1786579200&v=beta&t=AO_o1z-z_hq2_IhU5ljs60z278p4VI23t_LaV94JcVg",
+          "width": 1080,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7480988411823288320",
+        "likes": 218,
+        "comments": 45,
+        "shares": 6,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 199
+          },
+          {
+            "type": "INTEREST",
+            "count": 18
+          },
+          {
+            "type": "PRAISE",
+            "count": 1
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/joelcollindemers",
+        "sessionId": "533478b5-4f2a-495b-9385-ada2943075e9"
+      }
+    },
+    {
+      "type": "post",
+      "id": "7482834161335173120",
+      "entityId": "7482834161335173120",
+      "linkedinUrl": "https://www.linkedin.com/posts/joelcollindemers_every-time-someone-waves-the-gartner-magic-activity-7482834161335173120-Q4sT",
+      "shareLinkedinUrl": "https://www.linkedin.com/feed/update/urn:li:share:7482834160106004480",
+      "shareUrn": "urn:li:share:7482834160106004480",
+      "content": "Every time someone waves the Gartner Magic Quadrant to justify their arguments, here's my systematic playbook:\n  \nThis week I was in a multi-function, multi-stakeholder meeting.\n\nWe were talking about ProcureTech market trends.\n  \nSomeone from IT thought a 2x2 box would settle the debate about which ProcureTech platform was the best for their business...\n  \nIt didn't.\n  \nHere's why the box falls apart in this context:\n  \n→ \"Leader\" status measures market presence and vision, not fit for your stack\n\n→ The same weighting applies to a 200-person company and a 50,000-person company\n\n→ Change management capacity isn't a criteria on the chart\n\n→ Your existing tech debt isn't a criteria on the chart\n\n→ Your internal champions and political capital aren't a criteria on the chart\n\n→ Your industry isn't a criteria on the chart\n\n→ Your strategy isn't a criteria on the chart\n\n→ Your budget isn't a criteria on the chart\n\n→ Your spend profile isn't a criteria on the chart\n  \nThe \"Best\" solution in a box does NOT mean it's the right solution for you.\n  \nAnalyst reports are a starting point for market awareness.\n\n(Gartner will actually be the first to tell you that)\n  \nThey are NOT a substitute for a structured internal evaluation:\n \n→ Map your objectives and the capabilities you need to get there (not a requirements wish list)\n→ Determine your strategy to acquire these capabilities based on market dynamics\n→ Weight vendors against YOUR constraints\n→ Test drive with YOUR data, YOUR team, YOUR workflows\n→ Reference-check with companies YOUR size and complexity\n→ Make your own independent decision...\n  \nThere are no shortcuts in life, people.\n\nYou're never going to find answers that lead to competitive advantage in a 2x2 box... 😅\n\n(I really wish you could!)\n  \nHave you ever had a Magic Quadrant used against you in a stakeholder meeting?\n\nWhat else do you say to put the 2x2 box back into context?\n\nWhat did I miss from my list below?\n\nLet me know in the comments 👇\n______________________________________\n  \nP.S. I help companies choose and implement ProcureTech solutions for a living.\n  \nEvery Sunday, I send out a free newsletter documenting the best practices, trends and frameworks in ProcureTech. It's read by 13,000+ Procurement professionals (and counting...)\n  \nSubscribe here for free: https://lnkd.in/gmGEphMp",
+      "author": {
+        "id": "ACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "universalName": null,
+        "publicIdentifier": "joelcollindemers",
+        "type": "profile",
+        "name": "Joël Collin-Demers",
+        "linkedinUrl": "https://www.linkedin.com/in/joelcollindemers?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAAAS6x3MB5MOJQg9g2NLQibcPDhd6HpE_dnw",
+        "info": "Your Digital Procurement Mentor | I help 13,000+ procurement pros make smarter technology decisions. Join them for free below 👇",
+        "website": "https://newsletter.pureprocurement.ca/subscribe?utm_source=LinkedIn&utm_medium=Profile&utm_campaign=Button",
+        "websiteLabel": "View my newsletter",
+        "avatar": {
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQHMiylHaRzm7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1701698397899?e=1786579200&v=beta&t=CScrT1Nu7iPTdBgChLHVm6Luz05AGEvdkrH6u4KArwA",
+          "width": 800,
+          "height": 800
+        },
+        "urn": "79349619"
+      },
+      "postedAt": {
+        "timestamp": 1784046688398,
+        "date": "2026-07-14T16:31:28.398Z",
+        "postedAgoShort": "2w",
+        "postedAgoText": "2 weeks ago • Edited • Visible to anyone on or off LinkedIn"
+      },
+      "postImages": [
+        {
+          "url": "https://media.licdn.com/dms/image/v2/D5622AQG2sinWj43iMw/feedshare-shrink_1280/B56Z9heBVuHIAM-/0/1784046687814?e=1786579200&v=beta&t=p7a16-6rLfKhe8L4jMM8InkucUspIJyGHPnfeqcTidY",
+          "width": 1080,
+          "height": 1080
+        }
+      ],
+      "header": {
+        "text": null
+      },
+      "engagement": {
+        "id": "7482834161335173120",
+        "likes": 39,
+        "comments": 8,
+        "shares": 0,
+        "reactions": [
+          {
+            "type": "LIKE",
+            "count": 33
+          },
+          {
+            "type": "INTEREST",
+            "count": 4
+          },
+          {
+            "type": "PRAISE",
+            "count": 2
+          }
+        ]
+      },
+      "query": {
+        "sortBy": "date",
+        "page": "1",
+        "targetUrl": "https://www.linkedin.com/in/joelcollindemers",
+        "sessionId": "533478b5-4f2a-495b-9385-ada2943075e9"
+      }
+    }
+  ]
+}

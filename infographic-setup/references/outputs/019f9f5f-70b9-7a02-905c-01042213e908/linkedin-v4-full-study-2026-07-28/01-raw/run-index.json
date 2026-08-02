@@ -1,0 +1,2037 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-28T20:32:10.585Z",
+  "safety": {
+    "comments": false,
+    "reactions": false,
+    "emailSearch": false,
+    "hardStopUsd": 8.25
+  },
+  "totals": {
+    "runCount": 31,
+    "succeeded": 31,
+    "succeededDefinition": "Apify run status only; includes one charged profile execution that terminated at the free-user item limit and produced no normalized profile.",
+    "dataProducingExecutions": 30,
+    "chargedLimitTerminatedExecutions": 1,
+    "spendUsd": 5.066
+  },
+  "runs": [
+    {
+      "runId": "uSHJzvq9IHZTfrhNS",
+      "actorId": "LpVuK3Zozwuipa5bp",
+      "status": "SUCCEEDED",
+      "statusMessage": "max charge reached",
+      "startedAt": "2026-07-28T18:56:25.640Z",
+      "finishedAt": "2026-07-28T18:56:57.144Z",
+      "buildId": "hUQaAf7ZuRs2RXMu7",
+      "buildNumber": "0.0.127",
+      "datasetId": "NA7hICSgGpoqlxjYI",
+      "keyValueStoreId": "GEIecqz112rDikpQA",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 180,
+        "memoryMbytes": 256,
+        "maxItems": null,
+        "maxTotalChargeUsd": 0.012,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 512
+      },
+      "chargedEventCounts": {
+        "profile": 3,
+        "profile_with_email": 0
+      },
+      "usageTotalUsd": 0.012,
+      "eventUsage": {
+        "profile": {
+          "eventTitle": "Profile details",
+          "eventTotalUsd": 0.012
+        },
+        "profile_with_email": {
+          "eventTitle": "Profile details + email search",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "profileScraperMode": "Profile details no email ($4 per 1k)",
+        "urls": [
+          "https://www.linkedin.com/in/stuart-hardman",
+          "https://www.linkedin.com/in/supplychainaipro",
+          "https://www.linkedin.com/in/charlie-hills"
+        ]
+      }
+    },
+    {
+      "runId": "zvZJchtRjqs9KCqcd",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "statusMessage": "max charge reached",
+      "startedAt": "2026-07-28T18:57:25.719Z",
+      "finishedAt": "2026-07-28T18:57:34.718Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "DhyZXerVrsMAjTgU0",
+      "keyValueStoreId": "tZyeampwTeC5Srpwk",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 240,
+        "memoryMbytes": 256,
+        "maxItems": null,
+        "maxTotalChargeUsd": 0.06405,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 32,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 0
+      },
+      "usageTotalUsd": 0.06405,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.064
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/in/stuart-hardman",
+          "https://www.linkedin.com/in/supplychainaipro",
+          "https://www.linkedin.com/in/charlie-hills",
+          "https://www.linkedin.com/posts/anguscraigfcips_like-many-people-ive-been-trying-to-get-activity-7450877132563558400-2vPe",
+          "https://www.linkedin.com/posts/ericpartaker_85-of-leaders-regretted-a-major-decision-activity-7471169532758355968-c7NH"
+        ],
+        "maxPosts": 10,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "J0zxZzgY9NJJoeNua",
+      "actorId": "LpVuK3Zozwuipa5bp",
+      "status": "SUCCEEDED",
+      "statusMessage": "free user item limit exceeded",
+      "startedAt": "2026-07-28T20:22:43.695Z",
+      "finishedAt": "2026-07-28T20:22:47.036Z",
+      "buildId": "hUQaAf7ZuRs2RXMu7",
+      "buildNumber": "0.0.127",
+      "datasetId": "Nc0hKuJlArCttZay2",
+      "keyValueStoreId": "bbkzv61dN7kKXvusE",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 900,
+        "memoryMbytes": 512,
+        "maxItems": 81,
+        "maxTotalChargeUsd": 0.34,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "profile": 1,
+        "profile_with_email": 0
+      },
+      "usageTotalUsd": 0.004,
+      "eventUsage": {
+        "profile": {
+          "eventTitle": "Profile details",
+          "eventTotalUsd": 0.004
+        },
+        "profile_with_email": {
+          "eventTitle": "Profile details + email search",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "profileScraperMode": "Profile details no email ($4 per 1k)",
+        "urls": [
+          "https://be.linkedin.com/in/magalidereu",
+          "https://fr.linkedin.com/in/yonathan-levy",
+          "https://uk.linkedin.com/in/ericpartaker",
+          "https://www.linkedin.com/in/adam-smiarowski",
+          "https://www.linkedin.com/in/agnieszka-kamila-van-der-veen-mba-8943266b",
+          "https://www.linkedin.com/in/aleksandar-radosevic-b2b-saas-copywriting",
+          "https://www.linkedin.com/in/alex-vacca",
+          "https://www.linkedin.com/in/alper-ozel-723ab511",
+          "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+          "https://www.linkedin.com/in/anguscraigfcips",
+          "https://www.linkedin.com/in/anupkarumanchi",
+          "https://www.linkedin.com/in/benjamintwillis",
+          "https://www.linkedin.com/in/charlie-hills",
+          "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+          "https://www.linkedin.com/in/danielstanton",
+          "https://www.linkedin.com/in/davidianscottbarr",
+          "https://www.linkedin.com/in/demanddrivencarol",
+          "https://www.linkedin.com/in/diandraescobar",
+          "https://www.linkedin.com/in/dinesh-krishna-4a568782",
+          "https://www.linkedin.com/in/dmartell",
+          "https://www.linkedin.com/in/donnellychris",
+          "https://www.linkedin.com/in/edouardthieuleux",
+          "https://www.linkedin.com/in/elisabethswan",
+          "https://www.linkedin.com/in/ericpartaker",
+          "https://www.linkedin.com/in/fatima-rasheed-khan",
+          "https://www.linkedin.com/in/fouad317",
+          "https://www.linkedin.com/in/giovanni-beggiato",
+          "https://www.linkedin.com/in/harrymckaig",
+          "https://www.linkedin.com/in/hashimhamdanek",
+          "https://www.linkedin.com/in/jaindl",
+          "https://www.linkedin.com/in/jigar-patel-96b4286b",
+          "https://www.linkedin.com/in/joelcollindemers",
+          "https://www.linkedin.com/in/john-kloetzing",
+          "https://www.linkedin.com/in/johnckill",
+          "https://www.linkedin.com/in/jonathan-parsons-marketing",
+          "https://www.linkedin.com/in/jonathonkarelse",
+          "https://www.linkedin.com/in/joshejsanders",
+          "https://www.linkedin.com/in/kbjanderson",
+          "https://www.linkedin.com/in/kelly-barner-6884443",
+          "https://www.linkedin.com/in/knut-alicke",
+          "https://www.linkedin.com/in/laraacostar",
+          "https://www.linkedin.com/in/leilagharani",
+          "https://www.linkedin.com/in/lisa-crosbie",
+          "https://www.linkedin.com/in/loracecere",
+          "https://www.linkedin.com/in/marciadwilliams",
+          "https://www.linkedin.com/in/marek-dabrowski-8a502370",
+          "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+          "https://www.linkedin.com/in/mayank-pandey-56359295",
+          "https://www.linkedin.com/in/mercadokorina",
+          "https://www.linkedin.com/in/mischa-collins",
+          "https://www.linkedin.com/in/nicolascole",
+          "https://www.linkedin.com/in/nielsvh",
+          "https://www.linkedin.com/in/niranjan-kulkarni-pk",
+          "https://www.linkedin.com/in/onesphore-rkt",
+          "https://www.linkedin.com/in/philipideson",
+          "https://www.linkedin.com/in/richardvanderblom",
+          "https://www.linkedin.com/in/ronalinlagsa",
+          "https://www.linkedin.com/in/ruben-hassid",
+          "https://www.linkedin.com/in/sammeli-sammalkorpi",
+          "https://www.linkedin.com/in/sarah-hurzeler",
+          "https://www.linkedin.com/in/sarahbarneshumphrey",
+          "https://www.linkedin.com/in/sean-conerly-49063054",
+          "https://www.linkedin.com/in/shettys-desk",
+          "https://www.linkedin.com/in/sigcopple",
+          "https://www.linkedin.com/in/sigiosagie",
+          "https://www.linkedin.com/in/stuart-hardman",
+          "https://www.linkedin.com/in/suebayes",
+          "https://www.linkedin.com/in/supplychainaipro",
+          "https://www.linkedin.com/in/susanewalsh",
+          "https://www.linkedin.com/in/tariq-zaman-pak",
+          "https://www.linkedin.com/in/theanishajain",
+          "https://www.linkedin.com/in/tom-alder",
+          "https://www.linkedin.com/in/tom-mills-procurement",
+          "https://www.linkedin.com/in/tripathinikhil",
+          "https://www.linkedin.com/in/vandeputnicolas",
+          "https://www.linkedin.com/in/vipin-k-rastogi-a751847a",
+          "https://www.linkedin.com/in/will-mctighe",
+          "https://www.linkedin.com/in/wilsondemand",
+          "https://www.linkedin.com/in/woodsrach",
+          "https://www.linkedin.com/in/woutervanheddeghem",
+          "https://www.linkedin.com/in/yonathan-levy"
+        ]
+      }
+    },
+    {
+      "runId": "IMV3hHozUdbd0a7Gz",
+      "actorId": "LpVuK3Zozwuipa5bp",
+      "status": "SUCCEEDED",
+      "statusMessage": "max charge reached",
+      "startedAt": "2026-07-28T20:25:15.286Z",
+      "finishedAt": "2026-07-28T20:26:41.869Z",
+      "buildId": "hUQaAf7ZuRs2RXMu7",
+      "buildNumber": "0.0.127",
+      "datasetId": "VoLAagXU8h8O7uFrg",
+      "keyValueStoreId": "doWxjtQnSowyvi8a6",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 900,
+        "memoryMbytes": 512,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.04,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "profile": 10,
+        "profile_with_email": 0
+      },
+      "usageTotalUsd": 0.04,
+      "eventUsage": {
+        "profile": {
+          "eventTitle": "Profile details",
+          "eventTotalUsd": 0.04
+        },
+        "profile_with_email": {
+          "eventTitle": "Profile details + email search",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "profileScraperMode": "Profile details no email ($4 per 1k)",
+        "urls": [
+          "https://be.linkedin.com/in/magalidereu",
+          "https://fr.linkedin.com/in/yonathan-levy",
+          "https://uk.linkedin.com/in/ericpartaker",
+          "https://www.linkedin.com/in/adam-smiarowski",
+          "https://www.linkedin.com/in/agnieszka-kamila-van-der-veen-mba-8943266b",
+          "https://www.linkedin.com/in/aleksandar-radosevic-b2b-saas-copywriting",
+          "https://www.linkedin.com/in/alex-vacca",
+          "https://www.linkedin.com/in/alper-ozel-723ab511",
+          "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+          "https://www.linkedin.com/in/anguscraigfcips"
+        ]
+      }
+    },
+    {
+      "runId": "GjH6dE47u2gfnCtxd",
+      "actorId": "LpVuK3Zozwuipa5bp",
+      "status": "SUCCEEDED",
+      "statusMessage": "max charge reached",
+      "startedAt": "2026-07-28T20:23:33.792Z",
+      "finishedAt": "2026-07-28T20:24:26.397Z",
+      "buildId": "hUQaAf7ZuRs2RXMu7",
+      "buildNumber": "0.0.127",
+      "datasetId": "xENbMs4OWnVCQYWQj",
+      "keyValueStoreId": "teXpZAKD8beM1ITyn",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 900,
+        "memoryMbytes": 512,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.04,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "profile": 10,
+        "profile_with_email": 0
+      },
+      "usageTotalUsd": 0.04,
+      "eventUsage": {
+        "profile": {
+          "eventTitle": "Profile details",
+          "eventTotalUsd": 0.04
+        },
+        "profile_with_email": {
+          "eventTitle": "Profile details + email search",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "profileScraperMode": "Profile details no email ($4 per 1k)",
+        "urls": [
+          "https://www.linkedin.com/in/anupkarumanchi",
+          "https://www.linkedin.com/in/benjamintwillis",
+          "https://www.linkedin.com/in/charlie-hills",
+          "https://www.linkedin.com/in/christoph-roser-allaboutlean",
+          "https://www.linkedin.com/in/danielstanton",
+          "https://www.linkedin.com/in/davidianscottbarr",
+          "https://www.linkedin.com/in/demanddrivencarol",
+          "https://www.linkedin.com/in/diandraescobar",
+          "https://www.linkedin.com/in/dinesh-krishna-4a568782",
+          "https://www.linkedin.com/in/dmartell"
+        ]
+      }
+    },
+    {
+      "runId": "EuZZ9EcnGTRtt8OCX",
+      "actorId": "LpVuK3Zozwuipa5bp",
+      "status": "SUCCEEDED",
+      "statusMessage": "max charge reached",
+      "startedAt": "2026-07-28T20:24:25.739Z",
+      "finishedAt": "2026-07-28T20:25:19.128Z",
+      "buildId": "hUQaAf7ZuRs2RXMu7",
+      "buildNumber": "0.0.127",
+      "datasetId": "mx12nUTPwFTLg2c3u",
+      "keyValueStoreId": "6jo7B9pl5DVjPHVTt",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 900,
+        "memoryMbytes": 512,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.04,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "profile": 10,
+        "profile_with_email": 0
+      },
+      "usageTotalUsd": 0.04,
+      "eventUsage": {
+        "profile": {
+          "eventTitle": "Profile details",
+          "eventTotalUsd": 0.04
+        },
+        "profile_with_email": {
+          "eventTitle": "Profile details + email search",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "profileScraperMode": "Profile details no email ($4 per 1k)",
+        "urls": [
+          "https://www.linkedin.com/in/donnellychris",
+          "https://www.linkedin.com/in/edouardthieuleux",
+          "https://www.linkedin.com/in/elisabethswan",
+          "https://www.linkedin.com/in/ericpartaker",
+          "https://www.linkedin.com/in/fatima-rasheed-khan",
+          "https://www.linkedin.com/in/fouad317",
+          "https://www.linkedin.com/in/giovanni-beggiato",
+          "https://www.linkedin.com/in/harrymckaig",
+          "https://www.linkedin.com/in/hashimhamdanek",
+          "https://www.linkedin.com/in/jaindl"
+        ]
+      }
+    },
+    {
+      "runId": "xogWmjerxtvn4lgEh",
+      "actorId": "LpVuK3Zozwuipa5bp",
+      "status": "SUCCEEDED",
+      "statusMessage": "max charge reached",
+      "startedAt": "2026-07-28T20:26:54.802Z",
+      "finishedAt": "2026-07-28T20:28:24.450Z",
+      "buildId": "hUQaAf7ZuRs2RXMu7",
+      "buildNumber": "0.0.127",
+      "datasetId": "MWT0hcH78TgGto6SJ",
+      "keyValueStoreId": "gNeEec2H3fAQ69daf",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 900,
+        "memoryMbytes": 512,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.04,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "profile": 10,
+        "profile_with_email": 0
+      },
+      "usageTotalUsd": 0.04,
+      "eventUsage": {
+        "profile": {
+          "eventTitle": "Profile details",
+          "eventTotalUsd": 0.04
+        },
+        "profile_with_email": {
+          "eventTitle": "Profile details + email search",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "profileScraperMode": "Profile details no email ($4 per 1k)",
+        "urls": [
+          "https://www.linkedin.com/in/jigar-patel-96b4286b",
+          "https://www.linkedin.com/in/joelcollindemers",
+          "https://www.linkedin.com/in/john-kloetzing",
+          "https://www.linkedin.com/in/johnckill",
+          "https://www.linkedin.com/in/jonathan-parsons-marketing",
+          "https://www.linkedin.com/in/jonathonkarelse",
+          "https://www.linkedin.com/in/joshejsanders",
+          "https://www.linkedin.com/in/kbjanderson",
+          "https://www.linkedin.com/in/kelly-barner-6884443",
+          "https://www.linkedin.com/in/knut-alicke"
+        ]
+      }
+    },
+    {
+      "runId": "0kOd0HnCgGkJzCzJP",
+      "actorId": "LpVuK3Zozwuipa5bp",
+      "status": "SUCCEEDED",
+      "statusMessage": "max charge reached",
+      "startedAt": "2026-07-28T20:26:58.118Z",
+      "finishedAt": "2026-07-28T20:27:47.768Z",
+      "buildId": "hUQaAf7ZuRs2RXMu7",
+      "buildNumber": "0.0.127",
+      "datasetId": "buRtAIAinmbKffgJ9",
+      "keyValueStoreId": "tHAjGYjebcdBLCzb2",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 900,
+        "memoryMbytes": 512,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.04,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "profile": 10,
+        "profile_with_email": 0
+      },
+      "usageTotalUsd": 0.04,
+      "eventUsage": {
+        "profile": {
+          "eventTitle": "Profile details",
+          "eventTotalUsd": 0.04
+        },
+        "profile_with_email": {
+          "eventTitle": "Profile details + email search",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "profileScraperMode": "Profile details no email ($4 per 1k)",
+        "urls": [
+          "https://www.linkedin.com/in/laraacostar",
+          "https://www.linkedin.com/in/leilagharani",
+          "https://www.linkedin.com/in/lisa-crosbie",
+          "https://www.linkedin.com/in/loracecere",
+          "https://www.linkedin.com/in/marciadwilliams",
+          "https://www.linkedin.com/in/marek-dabrowski-8a502370",
+          "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+          "https://www.linkedin.com/in/mayank-pandey-56359295",
+          "https://www.linkedin.com/in/mercadokorina",
+          "https://www.linkedin.com/in/mischa-collins"
+        ]
+      }
+    },
+    {
+      "runId": "5JO35w6pvzfSwyj62",
+      "actorId": "LpVuK3Zozwuipa5bp",
+      "status": "SUCCEEDED",
+      "statusMessage": "max charge reached",
+      "startedAt": "2026-07-28T20:27:01.498Z",
+      "finishedAt": "2026-07-28T20:28:22.222Z",
+      "buildId": "hUQaAf7ZuRs2RXMu7",
+      "buildNumber": "0.0.127",
+      "datasetId": "lQPLidfehzvkC8IJN",
+      "keyValueStoreId": "Kvqko4otsswGGYb65",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 900,
+        "memoryMbytes": 512,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.04,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "profile": 10,
+        "profile_with_email": 0
+      },
+      "usageTotalUsd": 0.04,
+      "eventUsage": {
+        "profile": {
+          "eventTitle": "Profile details",
+          "eventTotalUsd": 0.04
+        },
+        "profile_with_email": {
+          "eventTitle": "Profile details + email search",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "profileScraperMode": "Profile details no email ($4 per 1k)",
+        "urls": [
+          "https://www.linkedin.com/in/nicolascole",
+          "https://www.linkedin.com/in/nielsvh",
+          "https://www.linkedin.com/in/niranjan-kulkarni-pk",
+          "https://www.linkedin.com/in/onesphore-rkt",
+          "https://www.linkedin.com/in/philipideson",
+          "https://www.linkedin.com/in/richardvanderblom",
+          "https://www.linkedin.com/in/ronalinlagsa",
+          "https://www.linkedin.com/in/ruben-hassid",
+          "https://www.linkedin.com/in/sammeli-sammalkorpi",
+          "https://www.linkedin.com/in/sarah-hurzeler"
+        ]
+      }
+    },
+    {
+      "runId": "ahNv8RbbaYoJBMWbw",
+      "actorId": "LpVuK3Zozwuipa5bp",
+      "status": "SUCCEEDED",
+      "statusMessage": "max charge reached",
+      "startedAt": "2026-07-28T20:27:06.509Z",
+      "finishedAt": "2026-07-28T20:28:25.844Z",
+      "buildId": "hUQaAf7ZuRs2RXMu7",
+      "buildNumber": "0.0.127",
+      "datasetId": "nTiiMPQNgBW82uF1w",
+      "keyValueStoreId": "DivBfDlNKR8lanG7v",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 900,
+        "memoryMbytes": 512,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.04,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "profile": 10,
+        "profile_with_email": 0
+      },
+      "usageTotalUsd": 0.04,
+      "eventUsage": {
+        "profile": {
+          "eventTitle": "Profile details",
+          "eventTotalUsd": 0.04
+        },
+        "profile_with_email": {
+          "eventTitle": "Profile details + email search",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "profileScraperMode": "Profile details no email ($4 per 1k)",
+        "urls": [
+          "https://www.linkedin.com/in/sarahbarneshumphrey",
+          "https://www.linkedin.com/in/sean-conerly-49063054",
+          "https://www.linkedin.com/in/shettys-desk",
+          "https://www.linkedin.com/in/sigcopple",
+          "https://www.linkedin.com/in/sigiosagie",
+          "https://www.linkedin.com/in/stuart-hardman",
+          "https://www.linkedin.com/in/suebayes",
+          "https://www.linkedin.com/in/supplychainaipro",
+          "https://www.linkedin.com/in/susanewalsh",
+          "https://www.linkedin.com/in/tariq-zaman-pak"
+        ]
+      }
+    },
+    {
+      "runId": "AGmXUTmldmyyIsG28",
+      "actorId": "LpVuK3Zozwuipa5bp",
+      "status": "SUCCEEDED",
+      "statusMessage": "max charge reached",
+      "startedAt": "2026-07-28T20:27:09.697Z",
+      "finishedAt": "2026-07-28T20:28:02.160Z",
+      "buildId": "hUQaAf7ZuRs2RXMu7",
+      "buildNumber": "0.0.127",
+      "datasetId": "waDrimhV19Mo1a2FB",
+      "keyValueStoreId": "ychYkAqHFpbRB3VXB",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 900,
+        "memoryMbytes": 512,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.04,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "profile": 10,
+        "profile_with_email": 0
+      },
+      "usageTotalUsd": 0.04,
+      "eventUsage": {
+        "profile": {
+          "eventTitle": "Profile details",
+          "eventTotalUsd": 0.04
+        },
+        "profile_with_email": {
+          "eventTitle": "Profile details + email search",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "profileScraperMode": "Profile details no email ($4 per 1k)",
+        "urls": [
+          "https://www.linkedin.com/in/theanishajain",
+          "https://www.linkedin.com/in/tom-alder",
+          "https://www.linkedin.com/in/tom-mills-procurement",
+          "https://www.linkedin.com/in/tripathinikhil",
+          "https://www.linkedin.com/in/vandeputnicolas",
+          "https://www.linkedin.com/in/vipin-k-rastogi-a751847a",
+          "https://www.linkedin.com/in/will-mctighe",
+          "https://www.linkedin.com/in/wilsondemand",
+          "https://www.linkedin.com/in/woodsrach",
+          "https://www.linkedin.com/in/woutervanheddeghem"
+        ]
+      }
+    },
+    {
+      "runId": "AzmKIezJLathk31mI",
+      "actorId": "LpVuK3Zozwuipa5bp",
+      "status": "SUCCEEDED",
+      "statusMessage": "max charge reached",
+      "startedAt": "2026-07-28T20:27:13.363Z",
+      "finishedAt": "2026-07-28T20:27:15.331Z",
+      "buildId": "hUQaAf7ZuRs2RXMu7",
+      "buildNumber": "0.0.127",
+      "datasetId": "FWc3ubLrJHFDhg0v8",
+      "keyValueStoreId": "36CPF7kaJL51w2lmQ",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 900,
+        "memoryMbytes": 512,
+        "maxItems": 1,
+        "maxTotalChargeUsd": 0.004,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "profile": 1,
+        "profile_with_email": 0
+      },
+      "usageTotalUsd": 0.004,
+      "eventUsage": {
+        "profile": {
+          "eventTitle": "Profile details",
+          "eventTotalUsd": 0.004
+        },
+        "profile_with_email": {
+          "eventTitle": "Profile details + email search",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "profileScraperMode": "Profile details no email ($4 per 1k)",
+        "urls": [
+          "https://www.linkedin.com/in/yonathan-levy"
+        ]
+      }
+    },
+    {
+      "runId": "AE9LhU0kitWVH1NJW",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:29:10.104Z",
+      "finishedAt": "2026-07-28T20:29:25.796Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "gSYVSPJUXHOTPiGMm",
+      "keyValueStoreId": "2IQAfeQQjlYldXrAx",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 300,
+        "maxTotalChargeUsd": 0.601,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 183,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 1
+      },
+      "usageTotalUsd": 0.36705,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.366
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0.001
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://be.linkedin.com/in/magalidereu",
+          "https://fr.linkedin.com/in/yonathan-levy",
+          "https://uk.linkedin.com/in/ericpartaker",
+          "https://www.linkedin.com/company/aiforleaders",
+          "https://www.linkedin.com/company/logistics-guide-2a9652167",
+          "https://www.linkedin.com/company/stanley-from-stan",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7462756369956229120",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7464933759554015232",
+          "https://www.linkedin.com/feed/update/urn:li:activity:7466778079034769408",
+          "https://www.linkedin.com/in/adam-smiarowski"
+        ],
+        "maxPosts": 30,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "8g0ZVyjPlPYFOSgt4",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:29:14.410Z",
+      "finishedAt": "2026-07-28T20:29:21.667Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "EtzBRRAHKOqcR5B6w",
+      "keyValueStoreId": "UMfxQfRtcYjEWafzD",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 300,
+        "maxTotalChargeUsd": 0.601,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 270,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 0
+      },
+      "usageTotalUsd": 0.54005,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.54
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/in/agnieszka-kamila-van-der-veen-mba-8943266b",
+          "https://www.linkedin.com/in/aleksandar-radosevic-b2b-saas-copywriting",
+          "https://www.linkedin.com/in/alex-vacca",
+          "https://www.linkedin.com/in/alper-ozel-723ab511",
+          "https://www.linkedin.com/in/amit-kumar-rai-a945842b",
+          "https://www.linkedin.com/in/anguscraigfcips",
+          "https://www.linkedin.com/in/anupkarumanchi",
+          "https://www.linkedin.com/in/benjamintwillis",
+          "https://www.linkedin.com/in/charlie-hills",
+          "https://www.linkedin.com/in/christoph-roser-allaboutlean"
+        ],
+        "maxPosts": 30,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "x7St4aXtopqstDmW7",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "statusMessage": "max charge reached",
+      "startedAt": "2026-07-28T20:29:20.487Z",
+      "finishedAt": "2026-07-28T20:29:29.016Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "zmX1JaCjzEP7yOpZd",
+      "keyValueStoreId": "R9ITQcvIR5KI99lak",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 300,
+        "maxTotalChargeUsd": 0.601,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 300,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 0
+      },
+      "usageTotalUsd": 0.60005,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.6
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/in/danielstanton",
+          "https://www.linkedin.com/in/davidianscottbarr",
+          "https://www.linkedin.com/in/demanddrivencarol",
+          "https://www.linkedin.com/in/diandraescobar",
+          "https://www.linkedin.com/in/dinesh-krishna-4a568782",
+          "https://www.linkedin.com/in/dmartell",
+          "https://www.linkedin.com/in/donnellychris",
+          "https://www.linkedin.com/in/edouardthieuleux",
+          "https://www.linkedin.com/in/elisabethswan",
+          "https://www.linkedin.com/in/ericpartaker"
+        ],
+        "maxPosts": 30,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "tybGinmsbGNFPvCzy",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:29:25.284Z",
+      "finishedAt": "2026-07-28T20:29:33.946Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "VJLC5jQTBXajzHkTi",
+      "keyValueStoreId": "jCEoEakniUHoa0unm",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 300,
+        "maxTotalChargeUsd": 0.601,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 267,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 0
+      },
+      "usageTotalUsd": 0.53405,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.534
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/in/fatima-rasheed-khan",
+          "https://www.linkedin.com/in/fouad317",
+          "https://www.linkedin.com/in/giovanni-beggiato",
+          "https://www.linkedin.com/in/harrymckaig",
+          "https://www.linkedin.com/in/hashimhamdanek",
+          "https://www.linkedin.com/in/jaindl",
+          "https://www.linkedin.com/in/jigar-patel-96b4286b",
+          "https://www.linkedin.com/in/joelcollindemers",
+          "https://www.linkedin.com/in/john-kloetzing",
+          "https://www.linkedin.com/in/johnckill"
+        ],
+        "maxPosts": 30,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "KS2huGwra4G6SoKrx",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:29:29.485Z",
+      "finishedAt": "2026-07-28T20:29:38.771Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "V0ZSnT6N85V9okmRJ",
+      "keyValueStoreId": "dNcwQbEMgHjdjgXbU",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 300,
+        "maxTotalChargeUsd": 0.601,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 278,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 0
+      },
+      "usageTotalUsd": 0.55605,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.556
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/in/jonathan-parsons-marketing",
+          "https://www.linkedin.com/in/jonathonkarelse",
+          "https://www.linkedin.com/in/joshejsanders",
+          "https://www.linkedin.com/in/kbjanderson",
+          "https://www.linkedin.com/in/kelly-barner-6884443",
+          "https://www.linkedin.com/in/knut-alicke",
+          "https://www.linkedin.com/in/laraacostar",
+          "https://www.linkedin.com/in/leilagharani",
+          "https://www.linkedin.com/in/lisa-crosbie",
+          "https://www.linkedin.com/in/loracecere"
+        ],
+        "maxPosts": 30,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "2GxREcPR9oeSbtdEJ",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:29:35.761Z",
+      "finishedAt": "2026-07-28T20:29:45.166Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "xstT6TL4ERn2chKs3",
+      "keyValueStoreId": "rE24mewyLKdBlYajR",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 300,
+        "maxTotalChargeUsd": 0.601,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 235,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 0
+      },
+      "usageTotalUsd": 0.47005,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.47000000000000003
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/in/marciadwilliams",
+          "https://www.linkedin.com/in/marek-dabrowski-8a502370",
+          "https://www.linkedin.com/in/mary-kate-kloeblen-16052225",
+          "https://www.linkedin.com/in/mayank-pandey-56359295",
+          "https://www.linkedin.com/in/mercadokorina",
+          "https://www.linkedin.com/in/mischa-collins",
+          "https://www.linkedin.com/in/nicolascole",
+          "https://www.linkedin.com/in/nielsvh",
+          "https://www.linkedin.com/in/niranjan-kulkarni-pk",
+          "https://www.linkedin.com/in/onesphore-rkt"
+        ],
+        "maxPosts": 30,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "x5RLdWyo02vZQr6mk",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:29:39.522Z",
+      "finishedAt": "2026-07-28T20:29:48.227Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "T83tmA6qmLFpCiAaW",
+      "keyValueStoreId": "PkJshHa2UWlXlUrHc",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 300,
+        "maxTotalChargeUsd": 0.601,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 247,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 1
+      },
+      "usageTotalUsd": 0.49505,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.494
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0.001
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/in/philipideson",
+          "https://www.linkedin.com/in/richardvanderblom",
+          "https://www.linkedin.com/in/ronalinlagsa",
+          "https://www.linkedin.com/in/ruben-hassid",
+          "https://www.linkedin.com/in/sammeli-sammalkorpi",
+          "https://www.linkedin.com/in/sarah-hurzeler",
+          "https://www.linkedin.com/in/sarahbarneshumphrey",
+          "https://www.linkedin.com/in/sean-conerly-49063054",
+          "https://www.linkedin.com/in/sigcopple",
+          "https://www.linkedin.com/in/sigiosagie"
+        ],
+        "maxPosts": 30,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "OobQFwbAf5YtbzkkW",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:29:44.297Z",
+      "finishedAt": "2026-07-28T20:29:52.275Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "FVy1cmGSxLCdDim0s",
+      "keyValueStoreId": "riBqv1GWuZiMv2JEJ",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 300,
+        "maxTotalChargeUsd": 0.601,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 290,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 0
+      },
+      "usageTotalUsd": 0.58005,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.58
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/in/stuart-hardman",
+          "https://www.linkedin.com/in/suebayes",
+          "https://www.linkedin.com/in/supplychainaipro",
+          "https://www.linkedin.com/in/susanewalsh",
+          "https://www.linkedin.com/in/tariq-zaman-pak",
+          "https://www.linkedin.com/in/theanishajain",
+          "https://www.linkedin.com/in/tom-alder",
+          "https://www.linkedin.com/in/tom-mills-procurement",
+          "https://www.linkedin.com/in/tripathinikhil",
+          "https://www.linkedin.com/in/vandeputnicolas"
+        ],
+        "maxPosts": 30,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "gTK3OzAaL9qF7pmqA",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:29:48.048Z",
+      "finishedAt": "2026-07-28T20:29:59.417Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "pOokxA64KCTr3cF4W",
+      "keyValueStoreId": "3HqmRU2DrNnTfHo8o",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 180,
+        "maxTotalChargeUsd": 0.361,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 126,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 0
+      },
+      "usageTotalUsd": 0.25205,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.252
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/in/vipin-k-rastogi-a751847a",
+          "https://www.linkedin.com/in/will-mctighe",
+          "https://www.linkedin.com/in/wilsondemand",
+          "https://www.linkedin.com/in/woodsrach",
+          "https://www.linkedin.com/in/woutervanheddeghem",
+          "https://www.linkedin.com/in/yonathan-levy"
+        ],
+        "maxPosts": 30,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "jbaIhdspELqXWrvNE",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:29:52.719Z",
+      "finishedAt": "2026-07-28T20:29:58.857Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "zewnvgbqYWYAYeOkq",
+      "keyValueStoreId": "CccO3ofLamc9a59LV",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.021,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 7,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 0
+      },
+      "usageTotalUsd": 0.01405,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.014
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/posts/activity-7464646524967411712-lZuq",
+          "https://www.linkedin.com/posts/activity-7465008937407356928-TUDX",
+          "https://www.linkedin.com/posts/activity-7470082425780424705-jFD1",
+          "https://www.linkedin.com/posts/adam-smiarowski_i-talk-to-supply-chain-directors-regularly-activity-7459540348030287872-1N9b",
+          "https://www.linkedin.com/posts/agnieszka-kamila-van-der-veen-mba-8943266b_the-most-underrated-lean-tool-the-spaghetti-activity-7457024996649885697-5ggt",
+          "https://www.linkedin.com/posts/agnieszka-kamila-van-der-veen-mba-8943266b_we-talk-a-lot-about-improvement-continuous-activity-7456050233689653248-U3Vs",
+          "https://www.linkedin.com/posts/aiforleaders_the-complete-claude-code-breakdown-%F0%9D%97%95%F0%9D%97%B2%F0%9D%97%B0%F0%9D%97%BC%F0%9D%97%BA%F0%9D%97%B2-activity-7450845523378540544-lY8X",
+          "https://www.linkedin.com/posts/aleksandar-radosevic-b2b-saas-copywriting_linkedin-content-creation-tools-are-getting-activity-7462504793379545088-JnMT",
+          "https://www.linkedin.com/posts/alex-vacca_if-i-was-setting-up-linkedin-outbound-from-activity-7465701646250070016-gp7t",
+          "https://www.linkedin.com/posts/alper-ozel-723ab511_supply-chain-grid-assess-maturity-unlock-activity-7433021723471601664-quyq"
+        ],
+        "maxPosts": 1,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "v25I4RPPxxlxOHsha",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "statusMessage": "max charge reached",
+      "startedAt": "2026-07-28T20:29:56.967Z",
+      "finishedAt": "2026-07-28T20:30:06.020Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "Q3RIrzsvkrqg7jWbW",
+      "keyValueStoreId": "wHSm2Wc2aAT4cLT85",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.021,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 10,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 0
+      },
+      "usageTotalUsd": 0.020050000000000002,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.02
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/posts/amit-kumar-rai-a945842b_here-is-a-highly-concise-executive-summary-activity-7464969341328019456-eHeb",
+          "https://www.linkedin.com/posts/anguscraigfcips_like-many-people-ive-been-trying-to-get-activity-7450877132563558400-2vPe",
+          "https://www.linkedin.com/posts/anupkarumanchi_erp-in-manufacturing-is-more-than-a-back-office-activity-7470744054700589057-5b_x",
+          "https://www.linkedin.com/posts/benjamintwillis_supplychain-ai-activity-7447320076212412416-zFS7",
+          "https://www.linkedin.com/posts/charlie-hills_claude-almost-runs-my-entire-content-system-activity-7468602533284974592-g74g",
+          "https://www.linkedin.com/posts/charlie-hills_stanleypartner-activity-7453019851943587840-BkMA",
+          "https://www.linkedin.com/posts/charlie-hills_zapierpartner-activity-7465341043337555968-dR1B",
+          "https://www.linkedin.com/posts/demanddrivencarol_a-ceo-told-me-last-month-that-his-supply-activity-7458568915321982976-xuiZ",
+          "https://www.linkedin.com/posts/diandraescobar_a-client-of-ours-pulled-824k-impressions-activity-7468279103163596800-WOb5",
+          "https://www.linkedin.com/posts/diandraescobar_if-you-want-true-inbound-from-linkedin-every-activity-7444357555960823808-dzVx"
+        ],
+        "maxPosts": 1,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "qZBvFz25WARnQGcGK",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:30:07.058Z",
+      "finishedAt": "2026-07-28T20:30:15.008Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "dZhLLRIF1ngOXAEI1",
+      "keyValueStoreId": "dJkx1xVkNnAAzEWor",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.021,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 8,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 2
+      },
+      "usageTotalUsd": 0.018050000000000004,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.016
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0.002
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/posts/dinesh-krishna-4a568782_ppc-forecasting-supplychain-activity-7444403543404359680-qpoi",
+          "https://www.linkedin.com/posts/dmartell_most-people-think-theyre-using-ai-theyre-activity-7444261643456364545-Gl7j",
+          "https://www.linkedin.com/posts/donnellychris_breaking-anthropic-just-launched-claude-activity-7451961814654881793-crVI",
+          "https://www.linkedin.com/posts/edouardthieuleux_this-is-what-your-supply-chain-org-chart-activity-7450452978395840512-XsFD",
+          "https://www.linkedin.com/posts/ericpartaker_85-of-leaders-regretted-a-major-decision-activity-7471169532758355968-c7NH",
+          "https://www.linkedin.com/posts/ericpartaker_90-of-companies-stall-before-they-can-scale-activity-7397257478574325761-hiVl",
+          "https://www.linkedin.com/posts/ericpartaker_businesses-underperform-for-7-reasons-most-activity-7466821513392865280-h3ae",
+          "https://www.linkedin.com/posts/ericpartaker_the-difference-between-a-10m-company-and-activity-7377658268292104192-nJ9r",
+          "https://www.linkedin.com/posts/ericpartaker_youve-heard-of-okrs-youve-tracked-kpis-activity-7465695889701990400-R6LQ",
+          "https://www.linkedin.com/posts/fatima-rasheed-khan_replitpartner-activity-7470414535900876800-6uJb"
+        ],
+        "maxPosts": 1,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "aHluwZ5yVuJnoUslc",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "statusMessage": "max charge reached",
+      "startedAt": "2026-07-28T20:30:13.965Z",
+      "finishedAt": "2026-07-28T20:30:24.572Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "Bl2KKX2yfrJ5pfS0C",
+      "keyValueStoreId": "R3Obi8y1RBGhaODxX",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.021,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 9,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 1
+      },
+      "usageTotalUsd": 0.019050000000000004,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.018000000000000002
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0.001
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/posts/fouad317_logistics-supplychain-operations-activity-7450581283635720193-A7Ve",
+          "https://www.linkedin.com/posts/giovanni-beggiato_if-claude-feels-wrong-youre-probably-the-activity-7455209344322768896--D7f",
+          "https://www.linkedin.com/posts/harrymckaig_12-companies-3000-brands-over-250-billion-activity-7447282183183962113-gjfG",
+          "https://www.linkedin.com/posts/hashimhamdanek_sop-salesandoperationsplanning-demandplanning-activity-7461899653442060288-jPql",
+          "https://www.linkedin.com/posts/jaindl_everyone-overcomplicates-linkedin-growth-activity-7460295282996649984-wKSn",
+          "https://www.linkedin.com/posts/jaindl_i-posted-for-6-months-on-linkedin-no-results-activity-7453047525629980672-W-Yr",
+          "https://www.linkedin.com/posts/jaindl_ive-posted-784-times-on-linkedin-i-made-activity-7459932907940536321-tmR7",
+          "https://www.linkedin.com/posts/jigar-patel-96b4286b_supplychain-inventorymanagement-operations-activity-7449803669014945793-2fuV",
+          "https://www.linkedin.com/posts/joelcollindemers_most-procurement-teams-waste-30-of-their-activity-7381679058448990208-umN2",
+          "https://www.linkedin.com/posts/jonathan-parsons-marketing_ai-isnt-complicated-you-were-just-taught-activity-7465809158206865409-mlld"
+        ],
+        "maxPosts": 1,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "c8MFjXoTJWo54TNNl",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:30:22.338Z",
+      "finishedAt": "2026-07-28T20:30:35.604Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "3X4xkDRufGbrDWZqf",
+      "keyValueStoreId": "GkuBHyVAoYwmNLajJ",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.021,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 9,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 0
+      },
+      "usageTotalUsd": 0.018050000000000004,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.018000000000000002
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/posts/joshejsanders_90-of-a-viral-linkedin-post-depends-on-1-activity-7468986861345087488-eGba",
+          "https://www.linkedin.com/posts/joshejsanders_everyone-tells-you-to-just-post-but-nobody-activity-7462103543844388864-RNc9",
+          "https://www.linkedin.com/posts/laraacostar_you-dont-need-algorithm-hacks-to-grow-on-activity-7449418737713238016-8dep",
+          "https://www.linkedin.com/posts/logistics-guide-2a9652167_supplychain-logistics-excel-activity-7445658855327375360-z43w",
+          "https://www.linkedin.com/posts/magalidereu_last-august-i-was-broke-af-posting-on-a-activity-7465337376018481152-L_Hr",
+          "https://www.linkedin.com/posts/marciadwilliams_not-every-sop-is-equal-this-infographic-activity-7463202442491650048--i8y",
+          "https://www.linkedin.com/posts/marciadwilliams_supply-chain-and-procurement-speak-their-activity-7446894707063902208-PDbB",
+          "https://www.linkedin.com/posts/marek-dabrowski-8a502370_leanmanufacturing-continuousimprovement-activity-7464950856669458432-21wj",
+          "https://www.linkedin.com/posts/mayank-pandey-56359295_supplychain-demandplanning-supplyplanning-activity-7460562088730562560-8FoF",
+          "https://www.linkedin.com/posts/mercadokorina_industrialengineers-industrialengineering-activity-7459787333303943168-2BrI"
+        ],
+        "maxPosts": 1,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "dKLLkP37DgqaOfVOb",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:30:26.200Z",
+      "finishedAt": "2026-07-28T20:30:35.035Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "dA9tY00b04DufFHhP",
+      "keyValueStoreId": "9ccTzbahtVNASS8vt",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.021,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 8,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 2
+      },
+      "usageTotalUsd": 0.018050000000000004,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.016
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0.002
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/posts/mischa-collins_back-in-march-my-engagement-dropped-by-20-activity-7467168415565197313-7c7l",
+          "https://www.linkedin.com/posts/mischa-collins_if-i-had-to-start-my-linkedin-again-this-activity-7462094771885449216-D6zg",
+          "https://www.linkedin.com/posts/nicolascole_i-just-created-a-claude-skills-pack-to-help-activity-7455232999509430273-6Et5",
+          "https://www.linkedin.com/posts/nicolascole_i-just-packaged-102-of-my-best-content-templates-activity-7447623181395484672-lcbr",
+          "https://www.linkedin.com/posts/onesphore-rkt_fifo-vs-fefo-vs-lifo-vs-nifo-fifo-is-not-activity-7423636363196981248-N1d9",
+          "https://www.linkedin.com/posts/onesphore-rkt_sap-extended-warehouse-management-ewm-activity-7424725973817831426-lnud",
+          "https://www.linkedin.com/posts/onesphore-rkt_sap-sd-t-codes-for-supply-chain-professionals-activity-7451270751556419584-letS",
+          "https://www.linkedin.com/posts/richardvanderblom_the-algorithm-insights-report-2026-is-built-activity-7462022923265134592-_rGV",
+          "https://www.linkedin.com/posts/ronalinlagsa_demand-planning-next-level-most-people-activity-7449046219600982016-I3fm",
+          "https://www.linkedin.com/posts/ruben-hassid_how-to-climb-all-4-layers-of-claude-in-one-activity-7447961600159977472-2Qco"
+        ],
+        "maxPosts": 1,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "09VkEs40HrvabPyhh",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:30:30.970Z",
+      "finishedAt": "2026-07-28T20:30:39.213Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "b6m17OVBvLJBq0Kf7",
+      "keyValueStoreId": "acQj0si11kRVQPxOG",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.021,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 9,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 0
+      },
+      "usageTotalUsd": 0.018050000000000004,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.018000000000000002
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/posts/ruben-hassid_instead-of-another-youtube-rabbit-hole-tonight-activity-7471426142412046336-sG4O",
+          "https://www.linkedin.com/posts/sarah-hurzeler_forecasts-dont-buy-inventory-plans-don-activity-7466137551251378176-XXE2",
+          "https://www.linkedin.com/posts/stanley-from-stan_ive-helped-write-84000-linkedin-posts-activity-7464684274374529025-F-Zl",
+          "https://www.linkedin.com/posts/supplychainaipro_%F0%9D%90%87%F0%9D%90%A8%F0%9D%90%AD-%F0%9D%90%AD%F0%9D%90%9A%F0%9D%90%A4%F0%9D%90%9E-%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AC%F0%9D%90%AD-%F0%9D%90%A9%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%9C%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%A6%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD-activity-7462400649981476864-oy_K",
+          "https://www.linkedin.com/posts/supplychainaipro_%F0%9D%90%87%F0%9D%90%A8%F0%9D%90%B0-%F0%9D%90%AD%F0%9D%90%A8-%F0%9D%90%8C%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%8F%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%9C%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%A6-activity-7460219130940489729-40oI",
+          "https://www.linkedin.com/posts/supplychainaipro_%F0%9D%90%96%F0%9D%90%A1%F0%9D%90%B2-%F0%9D%90%9A%F0%9D%90%A6-%F0%9D%90%88-%F0%9D%90%A7%F0%9D%90%A8%F0%9D%90%AD-%F0%9D%90%A0%F0%9D%90%9E%F0%9D%90%AD%F0%9D%90%AD%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A0-%F0%9D%90%AD%F0%9D%90%A1%F0%9D%90%9E-activity-7459856232657620993-inro",
+          "https://www.linkedin.com/posts/supplychainaipro_%F0%9D%97%96%F0%9D%97%B9%F0%9D%97%AE%F0%9D%98%82%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%B5%F0%9D%97%AE%F0%9D%98%80-%F0%9D%9F%AE%F0%9D%9F%AE-%F0%9D%97%B3%F0%9D%97%B2%F0%9D%97%AE%F0%9D%98%81%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B2%F0%9D%98%80-activity-7453710646333972480-jUmz",
+          "https://www.linkedin.com/posts/supplychainaipro_6-steps-1-goal-%F0%9D%90%81%F0%9D%90%9E%F0%9D%90%AD%F0%9D%90%AD%F0%9D%90%9E%F0%9D%90%AB-%F0%9D%90%8E%F0%9D%90%AE%F0%9D%90%AD%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%A6%F0%9D%90%9E%F0%9D%90%AC-activity-7460581602880864258-e787",
+          "https://www.linkedin.com/posts/supplychainaipro_nobody-told-me-procurement-could-feel-this-activity-7465654357552824320-Vz0i",
+          "https://www.linkedin.com/posts/supplychainaipro_procurement-supplychain-generativeai-activity-7456963522044968960-sDNX"
+        ],
+        "maxPosts": 1,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "FxQkTfleNz5qpaWAu",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:30:34.500Z",
+      "finishedAt": "2026-07-28T20:30:41.843Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "wmeJIEZHUV3Y7REid",
+      "keyValueStoreId": "XDtf708oNvHFA1hAg",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 10,
+        "maxTotalChargeUsd": 0.021,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 6,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 3
+      },
+      "usageTotalUsd": 0.015050000000000001,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.012
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0.003
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/posts/theanishajain_linkedin-has-1150000000-accounts-here-activity-7382709536224313344-OdFE",
+          "https://www.linkedin.com/posts/tom-alder_i-vibe-coded-a-tool-that-got-me-250k-impressions-activity-7459578395459227648-U54P",
+          "https://www.linkedin.com/posts/tom-mills-procurement_a-procurement-manager-is-not-what-most-people-activity-7425121098503176192-8_Cs",
+          "https://www.linkedin.com/posts/tom-mills-procurement_how-to-shift-procurement-to-strategic-free-activity-7459888401522028544-dKrm",
+          "https://www.linkedin.com/posts/tom-mills-procurement_most-procurement-teams-want-to-innovate-activity-7458802962056937474-aJP6",
+          "https://www.linkedin.com/posts/tom-mills-procurement_strategic-sourcing-is-as-rare-as-a-diet-at-activity-7313455219453898752-oi5F",
+          "https://www.linkedin.com/posts/vandeputnicolas_outgrowing-the-safety-stockformula-activity-7459573119217782785-u2uv",
+          "https://www.linkedin.com/posts/vipin-k-rastogi-a751847a_supply-chain-roles-as-birds-different-activity-7456550155622871040-8CRt",
+          "https://www.linkedin.com/posts/will-mctighe_linkedin-isnt-too-crowded-starting-from-activity-7465748779611197440-ZIBR",
+          "https://www.linkedin.com/posts/woutervanheddeghem_check-out-this-post-by-dinesh-r-%F0%9D%99%88%F0%9D%99%8F%F0%9D%99%8A-activity-7440469486719266817-Qjqh"
+        ],
+        "maxPosts": 1,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "K62eJbag5p2ahmHkV",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:30:38.269Z",
+      "finishedAt": "2026-07-28T20:30:47.376Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "KFNDH02nUGEAnJeXJ",
+      "keyValueStoreId": "MzCbjCfZcsAEpgsw4",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 5,
+        "maxTotalChargeUsd": 0.011,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 3,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 1
+      },
+      "usageTotalUsd": 0.00705,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.006
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0.001
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/posts/yonathan-levy_finding-content-ideas-doesnt-have-to-feel-activity-7426958209128591360-0j4s",
+          "https://www.linkedin.com/posts/yonathan-levy_i-built-a-claude-skill-that-creates-linkedin-activity-7459920357614071808-NDIB",
+          "https://www.linkedin.com/posts/yonathan-levy_linkedin-replaced-its-algorithm-with-a-single-activity-7462819434639056896-NSmK",
+          "https://www.linkedin.com/posts/yonathan-levy_linkedin-rewards-the-people-who-understand-activity-7437105309875183616-v30x",
+          "https://www.linkedin.com/posts/yonathan-levy_the-best-way-to-sell-on-linkedin-is-to-stop-activity-7461007326070800384-fktl"
+        ],
+        "maxPosts": 1,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    },
+    {
+      "runId": "0FteOviCyR5VsRG4Q",
+      "actorId": "A3cAPGpwBEG8RJwse",
+      "status": "SUCCEEDED",
+      "startedAt": "2026-07-28T20:30:43.048Z",
+      "finishedAt": "2026-07-28T20:31:00.703Z",
+      "buildId": "3LKhR2pMDYOrJY6LM",
+      "buildNumber": "0.0.79",
+      "datasetId": "TrisdoDA4LgrcBr80",
+      "keyValueStoreId": "bErWJSf2sdG91UYu2",
+      "options": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256,
+        "maxItems": 120,
+        "maxTotalChargeUsd": 0.140153,
+        "isMaxTotalChargeUsdSetByUser": true,
+        "diskMbytes": 1024
+      },
+      "chargedEventCounts": {
+        "apify-actor-start": 1,
+        "post": 60,
+        "reaction": 0,
+        "comment": 0,
+        "no-result": 0
+      },
+      "usageTotalUsd": 0.12004999999999999,
+      "eventUsage": {
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventTotalUsd": 0.00005
+        },
+        "post": {
+          "eventTitle": "Post",
+          "eventTotalUsd": 0.12
+        },
+        "reaction": {
+          "eventTitle": "Reaction",
+          "eventTotalUsd": 0
+        },
+        "comment": {
+          "eventTitle": "Comment",
+          "eventTotalUsd": 0
+        },
+        "no-result": {
+          "eventTitle": "0-result query",
+          "eventTotalUsd": 0
+        }
+      },
+      "input": {
+        "targetUrls": [
+          "https://www.linkedin.com/in/shettys-desk"
+        ],
+        "maxPosts": 120,
+        "postedLimitDate": "2026-02-15T00:00:00+01:00",
+        "includeQuotePosts": true,
+        "includeReposts": true,
+        "scrapeReactions": false,
+        "scrapeComments": false,
+        "contextCountry": "any"
+      }
+    }
+  ]
+}

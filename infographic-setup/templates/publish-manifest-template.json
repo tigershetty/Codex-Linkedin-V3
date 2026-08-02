@@ -1,12 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "week": "{YYYY-W##}",
   "slug": "{slug}",
-  "series": "AI for Supply Chain",
+  "contentId": "linkedin:{YYYY-W##}:{slug}:01",
+  "parentSlug": "{slug}",
+  "channel": "linkedin",
+  "series": "{series}",
   "caption": {
     "file": "linkedin-caption.md",
     "status": "draft",
     "approvedAt": null
+  },
+  "voice": {
+    "sourceFile": "tiger-source.md",
+    "sourceMode": "pending",
+    "provenanceStatus": "pending",
+    "qaStatus": "pending",
+    "status": "draft",
+    "approvedAt": null,
+    "aiDisclosure": "pending"
   },
   "visual": {
     "file": "visual.png",

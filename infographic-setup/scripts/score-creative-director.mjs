@@ -77,6 +77,12 @@ const saveTrigger = field(brief, 'Save trigger');
 const artifact = field(brief, 'Reusable artifact on image');
 const holyGrailCandidate = field(brief, 'Holy Grail candidate?');
 const holyGrailFit = field(brief, 'Holy Grail fit');
+const referenceMode = field(brief, 'Reference mode');
+const mechanicSource = field(brief, 'Evidence/mechanic source');
+const powerFormat = field(brief, 'Power format');
+const structureLesson = field(brief, 'Structure reference lesson');
+const captionLesson = field(brief, 'Caption promise lesson');
+const craftLesson = field(brief, 'Craft/brand lesson');
 const captionIndex = field(brief, 'Caption index ref');
 const genericBeat = field(brief, 'Why this beats a generic LinkedIn infographic');
 const shettyBeat = field(brief, "Why this is Shetty's Desk");
@@ -84,6 +90,8 @@ const visualMove = field(brief, 'One-sentence visual move');
 const labels = field(brief, 'Labels');
 const textPlacementMap = field(brief, 'Text placement map');
 const isHolyGrail = /^yes\b/i.test(holyGrailCandidate) || Boolean(holyGrailFit);
+const usesTop100 = /top[- ]?100/i.test(referenceMode)
+  || (!referenceMode && countRefs(captionIndex) >= 1 && !/not used|none|n\/a/i.test(captionIndex));
 
 const referenceMechanics = field(ref, 'Visual mechanics to borrow');
 const referencePromptLesson = field(ref, 'Reference lesson for GPT Image 2');
@@ -227,26 +235,38 @@ const dimensions = [
       fix: 'Add a bottom question, or mark the post as a Holy Grail operating artifact with a clean logo/footer plan.',
     },
   ]),
-  scoreDimension('Top-100 adaptation', [
+  scoreDimension('Evidence/mechanic adaptation', [
     {
       points: 5,
-      pass: countRefs(captionIndex) >= 1,
-      fix: 'Cite at least one exact Top-100 caption index reference.',
+      pass: usesTop100 ? countRefs(captionIndex) >= 1 : wordCount(referenceMode) >= 1 && wordCount(mechanicSource) >= 1,
+      fix: usesTop100
+        ? 'Cite at least one exact Top-100 caption index reference.'
+        : 'Declare the non-Top-100 reference mode and its Tiger, peer, public-pain, primary-source, timely, or artifact mechanic.',
     },
     {
       points: 5,
-      pass: wordCount(referenceMechanics) >= 16 && hasAny(referenceMechanics, ['row', 'grid', 'map', 'loop', 'formula', 'card', 'legend', 'strip', 'rail', 'schema']),
-      fix: 'Extract concrete visual mechanics from the selected reference image.',
+      pass: usesTop100
+        ? wordCount(referenceMechanics) >= 16 && hasAny(referenceMechanics, ['row', 'grid', 'map', 'loop', 'formula', 'card', 'legend', 'strip', 'rail', 'schema'])
+        : wordCount(powerFormat) >= 1 && wordCount(structureLesson) >= 8,
+      fix: usesTop100
+        ? 'Extract concrete visual mechanics from the selected reference image.'
+        : 'Translate the accepted evidence or operating artifact into a concrete power format and structure mechanic.',
     },
     {
       points: 5,
-      pass: wordCount(referencePromptLesson) >= 8,
-      fix: 'Add a GPT Image 2 lesson that tells the renderer what to make dominant.',
+      pass: usesTop100 ? wordCount(referencePromptLesson) >= 8 : wordCount(captionLesson) >= 8,
+      fix: usesTop100
+        ? 'Add a GPT Image 2 lesson that tells the renderer what to make dominant.'
+        : 'State the audience promise the non-Top-100 evidence/artifact mechanic must make legible.',
     },
     {
       points: 5,
-      pass: wordCount(whatToBorrow) >= 6 && wordCount(whatToAvoid) >= 6 && wordCount(supplyChainTranslation) >= 8,
-      fix: 'Clarify what to borrow, what not to copy, and how the reference translates to supply chain.',
+      pass: usesTop100
+        ? wordCount(whatToBorrow) >= 6 && wordCount(whatToAvoid) >= 6 && wordCount(supplyChainTranslation) >= 8
+        : wordCount(craftLesson) >= 6 && wordCount(genericBeat) >= 10 && wordCount(shettyBeat) >= 10,
+      fix: usesTop100
+        ? 'Clarify what to borrow, what not to copy, and how the reference translates to supply chain.'
+        : 'Define the craft lesson and make the artifact clearly better than generic content and specific to Shetty\'s Desk.',
     },
   ]),
   scoreDimension('Creative USP and renderer leverage', [

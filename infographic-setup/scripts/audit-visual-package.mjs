@@ -58,6 +58,13 @@ function captionIndexCited() {
   return /\brefs?\b/i.test(value) && /\d/.test(value);
 }
 
+function usesTop100Reference() {
+  const mode = field('creative-brief-lite.md', 'Reference mode').toLowerCase();
+  if (mode) return /top[- ]?100/.test(mode) && !/not used/.test(mode);
+  const captionIndex = field('creative-brief-lite.md', 'Caption index ref').toLowerCase();
+  return captionIndexCited() && !/not used|none|n\/a/.test(captionIndex);
+}
+
 function saveTriggerValid() {
   const value = field('creative-brief-lite.md', 'Save trigger').toLowerCase();
   return /\b(test|checklist|formula|map|prompt|template|decision rule|framework|reference card)\b/.test(value);
@@ -125,13 +132,13 @@ function publishDecisionReady() {
 }
 
 const requiresHtmlControl = htmlControlRequired();
+const requiresTop100Reference = usesTop100Reference();
 const visualInfo = pngDimensions('visual.png');
 const linkedInInfo = pngDimensions('visual-linkedin.png');
 const maxLinkedInPhotoBytes = 5 * 1024 * 1024;
 const reviewDimensions = [
   'Stop-scroll clarity',
   'Save utility',
-  'Reference adaptation',
   "Shetty's Desk originality",
   'Visual argument',
   'Brand ownership',
@@ -145,19 +152,19 @@ const checks = [
     fix: 'Add content-brief-v2.md from templates/content-brief-v2-template.md.',
   },
   {
-    name: 'content brief has top-100 reference fit',
-    pass: contains('content-brief-v2.md', 'Top-100 Reference Fit'),
-    fix: 'Add the reference-proven promise, power format, save trigger, and originality layer.',
+    name: 'content brief declares its reference decision',
+    pass: contains('content-brief-v2.md', 'Reference Mechanic Fit') || contains('content-brief-v2.md', 'Top-100 Reference Fit'),
+    fix: 'Declare whether Top-100 is used; if not, name the stronger Tiger, peer, public-pain, or primary-source lane.',
   },
   {
-    name: 'reference learning card exists',
-    pass: has('reference-learning-card.md'),
-    fix: 'Add reference-learning-card.md from templates/reference-learning-card-template.md.',
+    name: 'selected Top-100 reference has a learning card',
+    pass: !requiresTop100Reference || has('reference-learning-card.md'),
+    fix: 'Add reference-learning-card.md for the selected Top-100 reference, or set Reference mode to an honest non-Top-100 lane.',
   },
   {
-    name: 'reference card has visual mechanics',
-    pass: filled('reference-learning-card.md', 'Visual mechanics to borrow'),
-    fix: 'Add concrete image-layout mechanics from the selected Top-100 reference images.',
+    name: 'selected Top-100 card has visual mechanics',
+    pass: !requiresTop100Reference || filled('reference-learning-card.md', 'Visual mechanics to borrow'),
+    fix: 'Add concrete image-layout mechanics from the selected Top-100 reference image.',
   },
   {
     name: 'creative brief exists',
@@ -165,9 +172,9 @@ const checks = [
     fix: 'Add creative-brief-lite.md from templates/creative-brief-lite-template.md.',
   },
   {
-    name: 'creative brief cites caption index',
-    pass: captionIndexCited(),
-    fix: 'Add concrete top100-caption-index.md reference numbers to creative-brief-lite.md, such as refs 5, 70, and 87.',
+    name: 'Top-100 mode cites the caption index',
+    pass: !requiresTop100Reference || captionIndexCited(),
+    fix: 'Cite concrete top100-caption-index.md reference numbers, or switch to a justified non-Top-100 Reference mode.',
   },
   {
     name: 'creative brief has audience payoff',
@@ -182,7 +189,7 @@ const checks = [
   {
     name: 'creative brief has reference intelligence',
     pass: ['Power format', 'Structure reference lesson', 'Caption promise lesson', 'Craft/brand lesson'].every((label) => filled('creative-brief-lite.md', label)),
-    fix: 'Define the Top-100 power format, structure lesson, caption promise lesson, and craft lesson.',
+    fix: 'Define the selected power format, structure mechanic, caption promise, and craft lesson from the declared evidence/reference lane.',
   },
   {
     name: 'creative brief has visual artifact and USP',
@@ -246,7 +253,7 @@ const checks = [
   },
   {
     name: 'creative packet is lean render context',
-    pass: contains('creative-packet.md', 'Audience Payoff') && contains('creative-packet.md', 'Top-100 Adaptation') && contains('creative-packet.md', 'Exact Text') && contains('creative-packet.md', 'Text Placement Discipline') && contains('creative-packet.md', 'Value Density') && contains('creative-packet.md', 'Logo And Asset Inserts') && contains('creative-packet.md', 'Creative Direction') && contains('creative-packet.md', 'Image Engine Intent') && contains('creative-packet.md', 'Composition Freedom') && contains('creative-packet.md', 'QA Gate'),
+    pass: contains('creative-packet.md', 'Audience Payoff') && (contains('creative-packet.md', 'Evidence And Reference Mechanic') || contains('creative-packet.md', 'Top-100 Adaptation')) && contains('creative-packet.md', 'Exact Text') && contains('creative-packet.md', 'Text Placement Discipline') && contains('creative-packet.md', 'Value Density') && contains('creative-packet.md', 'Logo And Asset Inserts') && contains('creative-packet.md', 'Creative Direction') && contains('creative-packet.md', 'Image Engine Intent') && contains('creative-packet.md', 'Composition Freedom') && contains('creative-packet.md', 'QA Gate'),
     fix: 'Regenerate creative-packet.md so rendering can use a compact context handoff.',
   },
   {
@@ -290,7 +297,7 @@ const checks = [
   },
   {
     name: 'output review clears creative score floor',
-    pass: reviewDimensions.every((label) => scoreAtLeast(label, 4)),
+    pass: reviewDimensions.every((label) => scoreAtLeast(label, 4)) && (scoreAtLeast('Evidence/reference adaptation', 4) || scoreAtLeast('Reference adaptation', 4)),
     fix: 'Revise/regenerate until every creative score is at least 4/5.',
   },
   {

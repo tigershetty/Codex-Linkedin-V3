@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "attemptedAt": "2026-07-28",
+  "actor": "harvestapi/linkedin-profile-posts",
+  "purpose": "Recover the 16 Top-100 references whose exact LinkedIn URLs were known but absent from the normalized corpus.",
+  "inputCount": 16,
+  "maxPostsPerTarget": 1,
+  "peopleLevelExpansion": {
+    "comments": false,
+    "reactions": false,
+    "emails": false
+  },
+  "chargeCapUsd": 0.10,
+  "result": "not_started",
+  "platformError": "Monthly usage hard limit exceeded",
+  "runId": null,
+  "datasetId": null,
+  "amountChargedUsd": 0,
+  "interpretation": "This is an account-level Apify limit, not a research budget stop. Recorded study spend remains $5.066 across 31 Actor executions: 30 data-producing and one charged $0.004 limit-terminated execution. The 16 cases stay unresolved in the quantitative corpus and are not imputed."
+}
