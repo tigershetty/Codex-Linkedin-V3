@@ -1,56 +1,33 @@
-# LinkedIn Hooks — The Last Defensible Departure
+# LinkedIn Hooks — C3 Canonical Selection
 
-**Week:** `2026-W32`  
-**Slug:** `ship-now-vs-consolidate`  
-**Status:** draft complete; Tiger final selection pending  
+**Week:** `2026-W32`
+**Slug:** `ship-now-vs-consolidate`
+**Status:** selected hook set; Tiger final selection pending
+**Selected source:** `hooks-v9-framework-blind-spot.md`
 **Recommended hook:** `H1`
 
 ## Hook Set
 
 ### H1 — Recommended
 
-A freight saving can be perfectly real and still be the wrong shipping decision. The customer need-by date decides whether a ready shipment has permission to wait.
+A freight quote gives you a number. “Ready tomorrow” gives you an assumption.
 
 ### H2
 
-Shipment A is ready and shipment B may be ready soon, so how long can the first order wait without spending the customer's time?
+The lower combined rate only matters after the supplier-ready range clears the customer-safe departure.
 
 ### H3
 
-Every ready shipment has a last defensible departure under the inputs you know today. Once that line passes, consolidation starts spending the customer's time.
+A ready PO should not become the buffer for an uncertain supplier promise.
 
 ### H4
 
-Before asking how much consolidation saves, ask whether the customer date gives the ready shipment permission to wait.
+Before holding a ready shipment, find the departure the customer date cannot afford to lose.
 
 ### H5
 
-Purchasing can see a freight saving while the KAM sees a customer risk, and both views need to meet at one departure limit.
-
-### H6
-
-An uncertain supplier date, an unconfirmed customer date or an expired quote cannot produce a precise consolidation decision, however clean the calculator looks.
-
-### H7
-
-The best case can support consolidation and the base case can still look acceptable, but one credible service miss should change the release decision.
-
-### H8
-
-A ready order can wait only until the first of two limits arrives: the service boundary or the economic break-even point.
-
-### H9
-
-Exceptions are part of a working supply chain, but a recurring exception is no longer just an exception. It is a system signal.
-
-### H10
-
-A defensible consolidation decision should answer three questions: why the shipment waited, which customer date governed it, and who accepted the exception.
+The freight saving becomes a decision input only after service feasibility has cleared.
 
 ## Selection Logic
 
-- `H1` gives the broadest reach without becoming generic: it opens with a recognisable contradiction and then names the practical decision.
-- `H4` is the strongest concise alternative when the visual carries more of the explanation.
-- `H9` is the strongest governance-led follow-up for a later post about recurring exceptions.
-
-No hook uses a synthetic result, customer claim, probability, prediction, or engagement-bait CTA.
+`H1` supplies the blind spot that the visual makes physical: a precise freight quote can sit beside an imprecise supplier promise. It does not invent a case, result, or personal scene; the rest of the caption supplies the usable operating sequence and boundary.

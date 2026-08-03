@@ -1,6 +1,6 @@
 # Hook Routes — C3 V8
 
-**Status:** Draft. Selected after the V3 native decision-board test; final Tiger approval pending.
+**Status:** Historical V10 hook set — superseded by `hooks-v9-framework-blind-spot.md`; retained for learning only.
 
 ## Primary hook
 

@@ -1,6 +1,6 @@
 # LinkedIn Caption — C3 V8
 
-**Status:** Draft — final Tiger approval and publication pending
+**Status:** Historical V10 companion draft — superseded by `linkedin-caption-v9-framework-blind-spot.md`; retained for learning only.
 
 Your supplier says the second PO will be ready tomorrow. The first is packed, and the combined
 freight rate is lower if you wait. Does the customer date give you room to hold it?

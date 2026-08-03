@@ -69,6 +69,8 @@ Before rendering, confirm:
   a separate artifact;
 - any number or outcome follows the claim contract;
 - the anti-copy boundary is explicit;
+- where the selected visual uses a threshold, range, or gate, the plan shows input → boundary →
+  changed action rather than placing a label beside an inert line;
 - the renderer has composition freedom without permission to invent content;
 - the selected brand expression and exact logo plan are defined.
 
@@ -80,6 +82,7 @@ Pass only when all are true:
 - main idea is understandable in 10 seconds;
 - a useful action or reference is available in 30 seconds;
 - the image visibly proves the opening tension and has a specific work moment;
+- a selected threshold, range, or gate visibly shows input → boundary → changed action;
 - the visual and caption are complementary;
 - the result can be traced to the standard reference shelf or flagship bundle without looking like
   any one source post;
@@ -93,6 +96,7 @@ Hard fails:
 - generic card-grid or AI-showroom output;
 - a polished rule, calculator, or diagram with no visible work moment or story tension;
 - a generic physical scene whose visual object does not prove the headline;
+- a labelled threshold, range, or gate that is causally inert;
 - copied wording, composition, character, or branding;
 - invented number, outcome, customer proof, or personal authority;
 - a visual that requires the caption to explain what it is;

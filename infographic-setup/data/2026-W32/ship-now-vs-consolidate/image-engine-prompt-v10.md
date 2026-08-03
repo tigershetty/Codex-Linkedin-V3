@@ -1,6 +1,6 @@
 # Image Engine Prompt — C3 V10 V3 Release Decision Board
 
-**Status:** Selected native draft; final Tiger approval pending.
+**Status:** Historical V10 prompt — superseded by `image-engine-prompt-v12-time-to-wait-tableau.md`; retained for learning only.
 
 Create a true 4:5 LinkedIn portrait visual in the Shetty's Desk V3 language: a high-information
 native editorial teaching instrument, not a warehouse photo, SaaS UI, generic dashboard, card

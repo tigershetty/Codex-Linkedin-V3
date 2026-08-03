@@ -13,12 +13,17 @@ argument, and a useful thing to keep. V3 owns the expression: tangible operating
 ice-white and cobalt depth, semantic green and coral, and a spatial consequence that makes the rule
 understandable.
 
-## The owned family — instrumented operating explanations
+## The owned family — Operational Constraint Cinema
 
-The V3 signature is not one repeated 3D prop. It is an **instrumented operating explanation**:
-native editorial hierarchy, a tangible or diagrammatic operating system, a causal path, and one
-saveable model. The reader should see the work moment, deciding test, and conditional consequence
-inside one rendered world.
+The V3 signature is not one repeated 3D prop or a blue decision board. It is **Operational
+Constraint Cinema**: make the evidence or input, the consequential boundary, and the permitted
+action legible inside one coherent operating world. The reader should see what feeds the limit,
+where it bites, and why crossing it changes the decision.
+
+An **instrumented operating explanation** is one manifestation of that family: native editorial
+hierarchy, a tangible or diagrammatic operating system, a causal path, and one saveable model.
+The reader should see the work moment, deciding test, and conditional consequence inside one
+rendered world.
 
 A **Commitment Object** is the highest-tension member of that family: a precision-made physical
 instrument that makes an invisible point of no return visible, such as a freeze fence, allocation
@@ -34,9 +39,10 @@ a gate.
 ## Five moves
 
 1. **One live conflict.** The reader sees a recognisable decision, not a topic label.
-2. **One instrumented system.** A gate, route, fence, board, queue, corridor, timing rig, or
-   compact causal atlas makes the decision testable. The competing pressures have to act on the
-   same system; labels alone do not create a mechanism.
+2. **Evidence → boundary → permitted action.** A gate, route, fence, board, queue, corridor,
+   timing rig, or compact causal atlas makes the decision testable. The competing pressures have
+   to feed the same boundary, and the reader has to see what changes when it is crossed; labels
+   alone do not create a mechanism.
 3. **Spatial consequence.** The eye can follow what happens if the wrong choice wins.
 4. **Semantic material.** Blue is system/infrastructure, green is the protected promise or verified
    route, and coral is constraint, temptation, or exposure. These colours never decorate.
@@ -49,6 +55,8 @@ Before keeping a render, ask only:
 
 - At three seconds, can the reader name the trade-off?
 - At ten seconds, can they follow the mechanism and consequence without the caption?
+- If the story uses a range, threshold, gate, or limit, can they see what feeds it, where it is
+  crossed, and which action changes?
 - Does the caption add the working method rather than translating an image that failed to explain
   itself?
 
@@ -72,6 +80,8 @@ operating world.
   overlays.
 - Generic warehouse props, mascots, generic chrome-for-chrome's-sake, watermarks, tool chips, or
   decorative risk colours.
+- A threshold, range, or gate that is merely labelled rather than visibly fed and connected to a
+  changed action.
 - More than one visual argument or enough labels that the caption becomes compulsory.
 - Copied creator layouts, wording, art, branding, or invented results.
 - V3's old dense placard treatment. Preserve the world-building; remove the clutter.
@@ -83,9 +93,6 @@ operating world.
   argument.
 - `references/top 100/33.jpeg` and `LI-7463202442491650048` — decisive contrast at feed speed.
 - `references/top 100/5.jpeg` — utility belongs inside the visual object.
-- `data/2026-W32/ship-now-vs-consolidate/visual-v10-v3-release-decision-board-4x5.png` — an
-  instrumented decision board makes inputs, the calibrated gate, conditional outputs, and the
-  customer-first operating order visible in one native image.
 
 Use this with `fast-post-loop-v1.md` and `v3-creative-repertoire-v1.md`. It is deliberately
 lightweight: choose the reader tension, make one working mechanism visible, and then decide whether

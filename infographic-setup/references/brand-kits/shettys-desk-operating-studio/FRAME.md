@@ -12,9 +12,10 @@ canvas: 1080x1350 (4:5)
 
 Make a real supply-chain decision feel concrete before explaining it. The reader should recognise a
 live work moment, see what is at risk, understand the decision system, and keep a useful mental
-model or field object. Build an **instrumented operating explanation**: native editorial hierarchy,
-a tangible or diagrammatic operating system, a causal path, and one useful model. When the topic is
-a decision boundary, a bespoke **Commitment Object** can make the point of no return visible.
+model or field object. Build **Operational Constraint Cinema**: native editorial hierarchy, a
+tangible or diagrammatic operating system, and—when a boundary is the story—evidence → boundary →
+permitted action in one useful model. A bespoke **Commitment Object** can make the point of no
+return visible, but neither it nor an instrumented board is a required format.
 
 This is the luminous, information-rich visual language that made the V3 work feel above-par: an
 airy white operating world, smooth 2.5D/isometric systems, purposeful detail, integrated native
@@ -59,6 +60,8 @@ Coral is never decorative. It means the exposure, constraint, cost, or exception
   transformation, contrast, or a route through a real system.
 - Use a **central visual spine**: a route, gate, board, timeline, queue, corridor, loading dock,
   ladder, machine, or other object that makes the argument visible.
+- When a range, threshold, gate, or limit is the hero, show what feeds it and what action changes
+  when it is crossed. A label beside a line is not an operating mechanism.
 - A short rule, owner, timing window, or label may belong to the physical story, but it is never a
   required module. Do not turn a scene into a dashboard mosaic just to make it feel useful.
 - Use density as a reward for looking closer, not tiny text. The reader should understand the

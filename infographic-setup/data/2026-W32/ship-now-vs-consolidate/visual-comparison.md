@@ -1,9 +1,11 @@
-# Visual Comparison — The Last Defensible Departure
+# Visual Comparison — Historical Deterministic Route
+
+> **Status — superseded.** This comparison documents the former hybrid/deterministic choice. The active native candidate is `visual-v12-time-to-wait-tableau-corrected.png`, selected through `post-card.md` and reviewed in `visual-output-review-v12.md`.
 
 **Week:** `2026-W32`  
 **Slug:** `ship-now-vs-consolidate`  
 **creative_bundle_id:** `CB-2026-W32-C3-LAST-SAFE-DEPARTURE-01`  
-**Selected final:** `visual.png`
+**Historical selected final:** `visual.png`
 
 ## Visual Move
 

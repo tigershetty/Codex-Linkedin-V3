@@ -2,9 +2,9 @@
 
 > **Status — historical creative control.** This brief preserves the original formula-led route and
 > its evidence decisions, but its visual/caption selection is superseded. Do not use it to render,
-> approve, or publish the current post. `post-card.md` is the execution authority: the native V3
-> Release Decision Board in `visual-v10-v3-release-decision-board-4x5.png`, paired with
-> `linkedin-caption-v8.md`.
+> approve, or publish the current post. `post-card.md` is the execution authority: the native
+> Time-to-Wait Tableau in `visual-v12-time-to-wait-tableau-corrected.png`, paired with
+> `linkedin-caption-v9-framework-blind-spot.md`.
 
 **Week:** `2026-W32`  
 **Slug:** `ship-now-vs-consolidate`  
@@ -13,8 +13,8 @@
 **Genome snapshot:** `creative-genome-2026-08-02-v1`  
 **Stage:** retained non-selected creative control; do not publish, refine, or use its existing
 visual/caption as the active candidate. The technical package remains intact for learning. The
-former replacement named below is also superseded; use `post-card.md` for the active V10 native
-draft.
+former replacement named below is also superseded; use `post-card.md` for the active V12 native
+candidate.
 **Lane:** Supply Chain 101 with a website decision-tool continuation  
 **Claim mode:** `formula_or_method`
 

@@ -120,6 +120,11 @@ Codex may research, calculate, challenge, structure, and edit. It must not:
 - infer a credential, result, team practice, or employer claim;
 - insert restricted operational detail because it makes the post more specific.
 
+A generic conditional work moment may make a framework understandable, but it must not be written
+as a report of something that happened. A named or particular supplier, customer, conversation, or
+live incident needs a mapped source. When no such source exists, use a framework or blind-spot
+opening and let the specificity come from the method, boundary, and useful action.
+
 If no personal source exists, write the piece as analysis. Specificity should come from the evidence, method, artifact, calculation, or decision boundary rather than invented intimacy.
 
 ### 4. Provenance QA

@@ -127,6 +127,8 @@ Backstage intelligence may be complex. The public output must be simple:
 - a useful action, reference, or next step is available in **30 seconds**;
 - the visual has one dominant message and one primary reading route;
 - the visual itself proves the opening tension before the reader needs the caption;
+- when the selected visual primitive uses a range, threshold, gate, or limit, the plan names the
+  evidence that feeds it, the boundary, and the action that changes when it is crossed;
 - the caption and visual add different value instead of duplicating each other.
 
 ## Content modes and claim support

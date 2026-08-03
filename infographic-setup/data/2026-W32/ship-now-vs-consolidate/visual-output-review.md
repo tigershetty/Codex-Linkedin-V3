@@ -1,4 +1,6 @@
-# Visual Output Review — Creative Genome
+# Visual Output Review — Historical Deterministic Route
+
+> **Status — superseded.** This review applies only to the former HTML/deterministic route and is retained as learning evidence. The current native candidate and its review are `visual-v12-time-to-wait-tableau-corrected.png` and `visual-output-review-v12.md`.
 
 **Week / slug:** `2026-W32 / ship-now-vs-consolidate`  
 **Candidate:** `html-control.png` promoted to `visual.png`  
@@ -56,8 +58,8 @@
 
 ## Decision
 
-**Publish decision:** `approve`  
-**What must change:** nothing before Tiger review; any requested wording change must be re-rendered and rechecked at mobile size.  
+**Historical production decision:** `approved as the former deterministic route; superseded`
+**What must change:** do not use this review to approve or publish the current post; any requested wording change belongs to the selected V12 native package.
 **What must be preserved:** the route-switch metaphor, customer-date priority, two-limit formula, sensitivity qualifier, three action branches and exact wordmark.  
 **Motion helps because:** it does not materially improve comprehension; the static route already explains the decision.  
 **Motion decision:** `still only`  

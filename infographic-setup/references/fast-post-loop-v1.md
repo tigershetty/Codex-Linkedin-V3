@@ -60,13 +60,16 @@ review an older `visual.png` simply because it happens to exist.
 ## The five reader checks
 
 1. **Stop:** Would the right reader recognise the situation in three seconds?
-2. **Show:** Does the image itself show the tension, rather than a caption explaining it?
+2. **Show:** Does the image itself show the tension, rather than a caption explaining it? For a
+   constraint route, can the reader see the evidence → boundary → changed action with the headline
+   covered?
 3. **Keep:** Is there one useful rule, map, or distinction worth saving?
 4. **True:** Are the visible claims proportionate to the support we actually have?
 5. **Tiger:** Does the caption sound like a person making a clear point, not a generic explainer?
 
-One critical no triggers one named correction, not a new direction. If it remains a critical no
-after that correction, park the post. Never use extra production effort to disguise a weak story.
+One critical no triggers one named correction, not a new direction. For a constraint route, that
+correction must repair the causal proof of the boundary; if it does not, park the post. Never use
+extra production effort to disguise a weak story.
 
 ## Rendering rule
 

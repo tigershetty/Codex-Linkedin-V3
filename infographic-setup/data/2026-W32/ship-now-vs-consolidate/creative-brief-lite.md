@@ -2,9 +2,9 @@
 
 > **Status — historical execution brief.** This file records the former Cobalt Grid / deterministic
 > HTML-SVG direction. It is retained for learning only and must not be used to render, approve, or
-> publish this post. The current execution authority is `post-card.md`: the native V3 Release
-> Decision Board in `visual-v10-v3-release-decision-board-4x5.png`, paired with
-> `linkedin-caption-v8.md`.
+> publish this post. The current execution authority is `post-card.md`: the native Time-to-Wait
+> Tableau in `visual-v12-time-to-wait-tableau-corrected.png`, paired with
+> `linkedin-caption-v9-framework-blind-spot.md`.
 
 **Week:** `2026-W32`  
 **Slug:** `ship-now-vs-consolidate`  

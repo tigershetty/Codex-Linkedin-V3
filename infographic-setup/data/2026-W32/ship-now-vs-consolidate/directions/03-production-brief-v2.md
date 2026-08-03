@@ -1,6 +1,8 @@
 # Direction 03 Production Brief v2 — Customer-Safe Timing Corridor
 
-**Status:** selected replacement after independent visual review; draft only, not approved for publication.
+**Status:** historical precursor / creative hypothesis. Its deterministic HTML route is superseded
+by Direction 04's native `visual-v12-time-to-wait-tableau-corrected.png`; retain this file for the
+decision logic, not as a current render or publication route.
 **Creative family:** half-truth → missing dimension → decision rule
 **Primary post job:** saves and relevant follows
 **Brand expression:** Shetty's Desk Operating Studio
@@ -53,7 +55,7 @@ Source: `TS-20260802-02-A` through `TS-20260802-02-D` in `../tiger-source.md`.
 | Saveable rule | `Hold only if B's latest credible ready date clears the last safe departure.` |
 | Boundary | `If the range crosses the gate: release PO A. No clear date: KAM + Purchasing Manager escalate.` |
 
-## Final asset route
+## Historical asset route
 
 - Hero scene: `../visual-assets/customer-safe-timing-corridor-v1.png`
 - Deterministic source: `renderer/templates/sc101-customer-safe-window-v3.html`
