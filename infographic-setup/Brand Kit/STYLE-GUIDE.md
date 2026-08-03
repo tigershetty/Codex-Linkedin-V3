@@ -6,9 +6,9 @@ from a polished isometric infographic reference set and generalized so it applie
 
 Use this file as the human-readable guide. For machine use (Claude Code), pair it with `brand-tokens.json`. For image models, use `PROMPT-LIBRARY.txt` and the visual one-pager `Shettys-Desk-Brand-Kit.pdf`.
 
-> **V4 standard-post override:** a normal LinkedIn post is one image-engine-native operating scene,
-> not an assembled infographic. Start with the reader's live tension, choose one physical mechanism,
-> and render one composition. Never paste an HTML/SVG, dashboard, title, footer, or logo overlay
+> **V5 standard-post override:** a normal LinkedIn post is one image-engine-native operating scene,
+> not an assembled infographic. Start with the reader's live tension, choose one **Commitment Object**
+> or other physical mechanism, and render one composition. Never paste an HTML/SVG, dashboard, title, footer, or logo overlay
 > over that final scene. The current authority is
 > `../references/brand-kits/shettys-desk-operating-studio/FRAME.md`. The modular rules below are
 > retained for explicit carousels and exact artifacts.
@@ -17,7 +17,7 @@ Use this file as the human-readable guide. For machine use (Claude Code), pair i
 
 ## 1. Brand Essence
 
-Optimistic, science-led, credible, modern. Clean and airy, built on luminous blue gradients with a vivid **signature green** that always signals *positive / progress / the smart choice*. Data-driven but human. The precision-artifact expression uses smooth isometric 2.5D vector art on white; the standard V4 post may use an equally clear native Operating Studio scene.
+Optimistic, science-led, credible, modern. Clean and airy, built on luminous blue gradients with a vivid **signature green** that always signals *positive / progress / the smart choice*. Data-driven but human. The precision-artifact expression uses smooth isometric 2.5D vector art on white; the standard V5 post uses a tangible, premium Operating Studio **Commitment Object** or scene when a decision must be felt before it is explained.
 
 Three cues make the precision-artifact expression recognizable:
 
@@ -40,7 +40,7 @@ The Shetty's Desk mark: a **hand-textured chalk ring** above a serif *Shetty's* 
 
 **Logo colors:** Terracotta `#D97656` · Olive `#3C3828` · White `#FFFFFF`. All four files are **800×800 transparent PNGs** — they sit on any surface; a dark canvas (`#000000` / Navy `#1939A5`) shows them best.
 
-**The two-layer rule:** the logo palette is the **identity layer** (terracotta/olive, textured, serif, dark canvas); the azure/eco-green system is the **content layer** (flat isometric, white canvas). Keep them on their own layers. A small exact logo may be used on an approved carousel or separate exact artifact; a standard native scene relies on the profile and caption unless the owned mark can be built into the render without an overlay. Never recolor, stretch, outline, or add effects to the mark.
+**The two-layer rule:** the logo palette is the **identity layer** (terracotta/olive, textured, serif, dark canvas); the azure/eco-green system is the **content layer** (the operating world and its semantic decisions). Flat isometric on white is one precision-artifact expression, not the rule for every native scene. Keep the layers separate. A small exact logo may be used on an approved carousel or separate exact artifact; a standard native scene relies on the profile and caption unless the owned mark can be built into the render without an overlay. Never recolor, stretch, outline, or add effects to the mark.
 
 ## 2. Color Palette
 
@@ -122,9 +122,16 @@ A single geometric sans across the system. The reference uses a Gotham/Montserra
 
 ## 5. Illustration & Iconography
 
-Every graphic is flat-design **isometric / 2.5D vector** art: smooth blue gradients, soft long shadows, rounded geometric forms, gentle glows, pure-white background.
+The brand has two deliberate visual modes. A standard native feed post uses a tactile **Commitment Object**: a bespoke operating instrument whose physical mechanism makes the decision visible. An explicitly selected carousel or exact artifact uses flat-design **isometric / 2.5D vector** art: smooth blue gradients, soft long shadows, rounded geometric forms, gentle glows, pure-white background.
 
-**Do**
+**Do — standard native feed scene**
+
+- Start with one Commitment Object when the work has a point of no return: a release gate, lock, fence, timing rig, allocation boundary, or capacity slot.
+- Make every visible pressure act on the same object; the recommendation must be legible from what can pass, stop, lock, or release.
+- Use tactile studio materials — brushed aluminium, cobalt anodising, clear acrylic — without drifting into generic warehouse stock photography.
+- Keep any in-image words short and physically integral to the scene.
+
+**Do — precision artifact / carousel**
 
 - Isometric or front-flat vector with smooth gradient fills
 - Pure white / very light blue background
@@ -133,16 +140,16 @@ Every graphic is flat-design **isometric / 2.5D vector** art: smooth blue gradie
 - Friendly mini-figures + green rounded speech bubbles for a human touch
 - Generous negative space; one clear focal object
 
-**Don't**
+**Don't — in either mode**
 
-- No photographs or 3D-render realism
+- No generic stock logistics photography or disconnected decorative props
 - No hard black outlines or hand-drawn sketch look
 - No dark or busy backgrounds
 - Don't use green for anything negative/costly
 - No harsh or black drop shadows
 - Avoid clutter — keep it editorial and airy
 
-**Generalized motifs** (swap the original subject for yours): isometric laptops/phones/dashboards, charts & growth arrows, people at work, city blocks, connected nodes & dashed paths, map pins & number badges, green speech bubbles, lightbulbs/gears/targets, globe.
+**Generalized motifs** (swap the original subject for yours): release gates, timing rigs, capacity slots, allocation locks, route rails, loaded carriers, isometric laptops/phones/dashboards, charts & growth arrows, people at work, city blocks, connected nodes & dashed paths, map pins & number badges, green speech bubbles, lightbulbs/gears/targets, globe.
 
 > The reference images in `/reference-images` show the original subject (EVs/energy). **Attach them for the *art style*, not the content** — tell the model "match this rendering style, not the subject."
 
@@ -177,7 +184,7 @@ The same DNA, fed the way each tool prefers:
 
 **Gemini — Nano Banana Pro** → attach 1–2 reference images + paste the Gemini prompt from `PROMPT-LIBRARY.txt`. Strong at reference-image consistency and in-image text. Or drag in the one-page PDF as the style reference.
 
-**ChatGPT Image 2** → paste the ChatGPT prompt; lead with "flat-design isometric vector infographic, pure white background." Reuse the identical style block every time for a coherent series. Drag in the PDF or a reference image too.
+**ChatGPT Image 2** → for a standard feed post, lead with the V5 Native Scene block and its Commitment Object, not a generic style label. For a carousel or exact artifact, lead with "flat-design isometric vector infographic, pure white background." Reuse the appropriate style block within its visual mode. Drag in the relevant reference image too.
 
 **Claude Code** → for a standard post, use the Operating Studio frame and a native image-engine prompt. It may use the tokens to build an editable HTML/SVG only when a separate exact artifact or carousel has been explicitly selected.
 

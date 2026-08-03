@@ -5,9 +5,9 @@ A reusable visual system for creating on-brand LinkedIn infographics, with the r
 | File | What it is | Best for |
 |---|---|---|
 | **Shettys-Desk-Brand-Kit.html** | Interactive kit — click-to-copy colors, gradients, type, illustration rules, and a live **AI Prompt Studio** | Browsing the system; building prompts by hand |
-| **Shettys-Desk-Brand-Kit.pdf** | Visual 1-page reference (swatches, gradients, examples, master style block) | Attach as a palette/material reference; the V4 standard-post override below still applies |
+| **Shettys-Desk-Brand-Kit.pdf** | Visual 1-page reference (swatches, gradients, examples, precision-artifact style block) | Attach as a palette/material reference; the V5 standard-post override below still applies |
 | **Shettys-Desk-Brand-Kit-DETAILED.pdf** | Pre-V4 brand book with palette, layouts, prompt modules, guides, and examples | **Legacy precision-artifact/carousel reference only**; do not use as the authority for a standard native LinkedIn post |
-| **PROMPT-LIBRARY.txt** | Copy-paste master style block + module templates + ready examples per model | Generating images fast in any model |
+| **PROMPT-LIBRARY.txt** | Copy-paste V5 native-scene block, precision-artifact block, module templates, and ready examples per model | Generating images fast in any model |
 | **brand-tokens.json** | Machine-readable tokens (colors, gradients, fonts, prompts, formats) | **Claude Code** — single source of truth |
 | **STYLE-GUIDE.md** | Full human + machine readable style guide | Reference / onboarding / Claude Code |
 | **reference-images/** | 7 high-res style exemplars | Attach as "match this art style" references |
@@ -17,13 +17,15 @@ A reusable visual system for creating on-brand LinkedIn infographics, with the r
 
 **Gemini (Nano Banana Pro)** → attach `Shettys-Desk-Brand-Kit.pdf` (or 1–2 reference images) + paste the Gemini prompt from `PROMPT-LIBRARY.txt`. Fill in your subject.
 
-**ChatGPT Image 2** → paste the ChatGPT prompt from `PROMPT-LIBRARY.txt`, lead with the style block, attach a reference image. Reuse the same block every time for a coherent series.
+**ChatGPT Image 2** → for a standard feed post, paste the V5 Native Scene block from
+`PROMPT-LIBRARY.txt` and attach a V3 reference image. Use the flat style block only for an
+explicit precision artifact or carousel.
 
 **Claude Code** → for a standard LinkedIn post, read the current Operating Studio frame and the
 Fast Post Loop, then use the tokens to write one image-engine-native scene prompt. Use editable
 HTML/SVG only when the planned output is a separate precision artifact or carousel.
 
-## V4 standard-post override
+## V5 standard-post route
 
 For an ordinary LinkedIn post, do **not** generate modules and assemble an infographic layout.
 Select one visible operating story, then render it as one coherent native image. No HTML/SVG,

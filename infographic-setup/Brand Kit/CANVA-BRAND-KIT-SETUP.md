@@ -86,7 +86,7 @@ Logo colors: Terracotta `#D97656` · Olive `#3C3828` — the **identity layer**,
 In Brand Hub → **Brand Guidelines** (or add a "Guidelines" note in the kit), paste the blocks below. This is the "how to create new things" layer.
 
 ### Brand essence
-Optimistic, credible, modern, data-driven and human. Clean white space, luminous blue gradients, and a vivid green that always signals the positive. Every visual is smooth isometric 2.5D vector art — never photographic.
+Optimistic, credible, modern, data-driven and human. Clean white space, luminous blue gradients, and a vivid green that always signals the protected or positive path. Precision artifacts use smooth isometric 2.5D vector art; standard native feed scenes use a tactile Operating Studio Commitment Object when the reader needs to see a decision boundary.
 
 ### Color meaning (the rule that creates consistency)
 - **Blue** = the system / neutral subject matter.
@@ -98,12 +98,12 @@ Optimistic, credible, modern, data-driven and human. Clean white space, luminous
 Poppins throughout. Headers 800 UPPERCASE; body 300–400. Signature move: an oversized bold number beside a small light uppercase caption (e.g. **97%** OF THE TIME).
 
 ### Illustration style
-Flat-design isometric / 2.5D vector. Smooth blue gradients, soft long shadows, rounded forms, pure white background, one focal object, generous white space. **No** photos, 3D realism, hard outlines, dark backgrounds, or clutter. Never put green on a negative element.
+For precision artifacts: flat-design isometric / 2.5D vector with smooth blue gradients, soft long shadows, rounded forms, pure white background, and generous white space. For standard native feed scenes: allow tactile studio realism—brushed aluminium, cobalt structure, clear acrylic, and visible causal mechanics—but never generic logistics stock photography, dashboards, or overlays. Never put green on a negative element.
 
 ### Precision-artifact layout modules
 Pin header → intro + character → concept row (3–4 icons) → hero scene → stat callout → sources footer.
 
-> **V4 standard-post override:** a normal LinkedIn feed post is one native Operating Studio scene,
+> **V5 standard-post route:** a normal LinkedIn feed post is one native Operating Studio scene,
 > not a Canva assembly. Start with a live reader tension and one physical mechanism; use Canva
 > modules only for an explicitly selected carousel or exact artifact.
 
@@ -124,8 +124,8 @@ Portrait 1080×1350 (4:5, default) · Square 1080×1080 · Carousel 1080×1350 �
 After designing a cover/interior you like, **… menu → Create a brand template** so the whole series starts from it (these *can* be created from designs).
 
 **C. AI-generated illustrations (Gemini / ChatGPT Image 2 / Claude Code)**
-For a standard feed post, use the V4 Native Scene block in `PROMPT-LIBRARY.txt`; render one
-coherent composition and do not assemble overlays. For a carousel or exact artifact, use the master
+For a standard feed post, use the V5 Native Scene block in `PROMPT-LIBRARY.txt`; render one
+coherent composition and do not assemble overlays. For a carousel or exact artifact, use the precision-artifact
 style block + module templates, then place the modules into the Canva design.
 
 ---

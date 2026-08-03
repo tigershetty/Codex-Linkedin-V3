@@ -12,7 +12,8 @@ canvas: 1080x1350 (4:5)
 
 Make a real supply-chain decision feel concrete before explaining it. The reader should recognise a
 live work moment, see what is at risk, understand the decision system, and keep a useful mental
-model or field object.
+model or field object. When the topic is a decision boundary, build a bespoke **Commitment Object**:
+a physical instrument that makes the point of no return visible.
 
 This is the luminous, information-rich visual language that made the V3 work feel above-par: an
 airy white operating world, smooth 2.5D/isometric systems, purposeful detail, and a clear human
@@ -45,7 +46,7 @@ Use `Brand Kit/brand-tokens.json` as the source of truth.
 | Protected, verified, available, recommended | eco-green `#38E6A6` and mint `#8FF3CC` |
 | Risk, friction, expensive, late, exception | coral `#E27199`, used sparingly |
 | Type | Poppins or a close geometric sans; strong, short hierarchy; never an editorial serif default |
-| Materials | frosted panels, soft gradients, clean depth, long diffused shadows; never photorealistic |
+| Materials | brushed aluminium, cobalt anodising, clear acrylic, frosted panels, clean depth, and long diffused shadows; tactile studio realism is welcome, generic logistics stock photography is not |
 | Identity | exact owned Shetty's Desk logo only when it can live inside an approved carousel or separate artifact; standard native scenes rely on the profile and caption, and never redraw the mark |
 
 Green is never decorative. It means the protected promise, verified path, or recommended action.
@@ -53,8 +54,8 @@ Coral is never decorative. It means the exposure, constraint, cost, or exception
 
 ## Visual grammar
 
-- Prefer a smooth 2.5D/isometric operating scene, a physical decision object, a transformation,
-  contrast, or a route through a real system.
+- Prefer a smooth 2.5D/isometric operating scene, a physical **Commitment Object**, a
+  transformation, contrast, or a route through a real system.
 - Use a **central visual spine**: a route, gate, board, timeline, queue, corridor, loading dock,
   ladder, machine, or other object that makes the argument visible.
 - A short rule, owner, timing window, or label may belong to the physical story, but it is never a
@@ -71,7 +72,8 @@ Coral is never decorative. It means the exposure, constraint, cost, or exception
 
 1. **Operating scene** — a reader lives inside a real system and sees the tension, route, or
    consequence.
-2. **Decision board** — a physical or visual gate explains a difficult choice with a compact rule.
+2. **Commitment object** — a bespoke physical gate, fence, timing rig, lock, or release mechanism
+   shows exactly where a decision becomes binding.
 3. **Editorial data reference** — a chart, checklist, ladder, or map is the hero because precision
    is the value.
 
@@ -126,6 +128,7 @@ the brief when its two-colour editorial restraint makes the reader's job clearer
 
 ## V3 creative direction
 
-Use `../../operational-decision-cinema-v1.md` to judge the owned V3 expression: one physical
-operating trade-off, spatial consequence, semantic material, and embedded utility. It is a light
-creative direction, not a replacement for the Fast Post Loop or a permanent visual template.
+Use `../../operational-decision-cinema-v1.md` to judge the owned V3 expression: a Commitment
+Object where appropriate, one physical operating trade-off, spatial consequence, semantic material,
+and embedded utility. It is a light creative direction, not a replacement for the Fast Post Loop or
+a permanent visual template.

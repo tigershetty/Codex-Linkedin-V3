@@ -13,11 +13,24 @@ argument, and a useful thing to keep. V3 owns the expression: tangible operating
 ice-white and cobalt depth, semantic green and coral, and a spatial consequence that makes the rule
 understandable.
 
+## The owned detail — Commitment Objects
+
+A **Commitment Object** is a precision-made physical instrument that makes an invisible point of no
+return visible: a freeze fence, allocation lock, release gate, capacity slot, approval seal, or
+last-safe-departure window. It is not a reusable layout or a decorative 3D prop. Its parts must be
+causally connected, so a reader can see what the decision permits, blocks, or makes irreversible
+before reading the caption.
+
+This is the brand detail that distinguishes Shetty's Desk from generic logistics imagery: each
+post can have a different story, while the audience learns that the work is about finding where an
+operating choice becomes a commitment.
+
 ## Five moves
 
 1. **One live conflict.** The reader sees a recognisable decision, not a topic label.
-2. **One physical mechanism.** A gate, route, fence, board, queue, corridor, or object makes the
-   decision irreversible or testable.
+2. **One Commitment Object.** A gate, route, fence, board, queue, corridor, or timing rig makes
+   the decision irreversible or testable. The competing pressures have to act on the same object;
+   labels alone do not create a mechanism.
 3. **Spatial consequence.** The eye can follow what happens if the wrong choice wins.
 4. **Semantic material.** Blue is system/infrastructure, green is the protected promise or verified
    route, and coral is constraint, temptation, or exposure. These colours never decorate.
@@ -51,8 +64,8 @@ operating world.
 
 - Equal-weight cards, fake software UI, dashboard mosaics, lower strips, or pasted HTML/SVG/title
   overlays.
-- Generic warehouse props, mascots, glossy chrome, watermarks, tool chips, or decorative risk
-  colours.
+- Generic warehouse props, mascots, generic chrome-for-chrome's-sake, watermarks, tool chips, or
+  decorative risk colours.
 - More than one visual argument or enough labels that the caption becomes compulsory.
 - Copied creator layouts, wording, art, branding, or invented results.
 - V3's old dense placard treatment. Preserve the world-building; remove the clutter.
@@ -64,8 +77,9 @@ operating world.
   argument.
 - `references/top 100/33.jpeg` and `LI-7463202442491650048` — decisive contrast at feed speed.
 - `references/top 100/5.jpeg` — utility belongs inside the visual object.
-- `data/2026-W32/ship-now-vs-consolidate/visual-v7-decision-cinema.png` — a freight-saving pull,
-  last-safe-departure gate, and customer promise form one spatial decision.
+- `data/2026-W32/ship-now-vs-consolidate/visual-v8-commitment-object.png` — a freight
+  counterweight, loaded release carriage, last-safe-departure gate, and customer promise form one
+  causal decision machine.
 
 Use this with `fast-post-loop-v1.md` and `v3-creative-repertoire-v1.md`. It is deliberately
 lightweight: choose the reader tension, make one working mechanism visible, and then decide whether
