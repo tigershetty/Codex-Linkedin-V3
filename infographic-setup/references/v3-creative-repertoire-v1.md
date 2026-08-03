@@ -60,6 +60,19 @@ layout.
 - **Use when:** career, capability, transformation maturity, or AI adoption is the real reader job.
 - **Source shelf:** references/top 100/71.jpeg and references/top 100/87.jpeg.
 
+## 6. Operating trace
+
+- **Reader moment:** an uncertain time, readiness window, queue, demand signal, or capacity loss
+  changes a real decision before anyone has time to explain it.
+- **Visual move:** turn that invisible variable into a material trace that bends, crosses, blocks,
+  fills, spills, layers, or resolves inside one operating world.
+- **Keep:** a memorable way to see what actually makes the option unsafe, not another generic rule.
+- **Fast test:** remove the trace. If the image still says the same thing, it was decorative and the
+  route has not earned production.
+- **Use when:** the reader needs to see change, uncertainty, or pressure act on a physical system.
+- **Source shelf:** references/top 100/65.jpeg, references/top 100/44.jpeg, and
+  data/2026-W32/ship-now-vs-consolidate/visual-v14-counterfactual-dispatch-diorama-linkedin-4x5.png.
+
 ## Anti-pattern
 
 Do not turn every route into a dashboard. The point is to make the reader feel a real operating

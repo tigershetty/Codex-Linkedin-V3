@@ -1,6 +1,6 @@
 # Hook Routes — C3 V8
 
-**Status:** Historical V10 hook set — superseded by `hooks-v9-framework-blind-spot.md`; retained for learning only.
+**Status:** Historical hook set — superseded by `hooks-v10-temporal-consolidation.md`; retained for learning only.
 
 ## Primary hook
 

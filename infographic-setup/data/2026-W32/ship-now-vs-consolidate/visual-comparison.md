@@ -1,6 +1,6 @@
 # Visual Comparison — Historical Deterministic Route
 
-> **Status — superseded.** This comparison documents the former hybrid/deterministic choice. The active native candidate is `visual-v12-time-to-wait-tableau-corrected.png`, selected through `post-card.md` and reviewed in `visual-output-review-v12.md`.
+> **Status — superseded.** This comparison documents the former hybrid/deterministic choice. The active native candidate is `visual-v14-counterfactual-dispatch-diorama-linkedin-4x5.png`, selected through `post-card.md` and reviewed in `five-reader-review-v14-counterfactual-dispatch.md`.
 
 **Week:** `2026-W32`  
 **Slug:** `ship-now-vs-consolidate`  

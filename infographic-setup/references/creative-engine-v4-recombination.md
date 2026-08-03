@@ -39,6 +39,9 @@ The engine does not choose the topic and does not revalidate the saved reference
 - Let support modules explain the hero; do not make every fact a separate card.
 - Treat 3D/isometric, flat editorial illustration, charts, diagrams, photographed artifacts, and
   typographic references as equal pattern families. Pick the one that makes the argument clearest.
+- When an invisible time, range, queue, capacity, or demand variable is the story, an Operating
+  Trace can make it visibly alter the scene. It is an option for an earned story mechanism, never a
+  brand requirement or decorative flourish.
 - Use the selected Shetty's Desk brand expression. For the default Operating Studio, show the reader
   tension through a physical or visual operating mechanism, use blue for systems, green for the
   protected/recommended path, and coral sparingly for risk or exception. References contribute
@@ -71,6 +74,8 @@ Before rendering, confirm:
 - the anti-copy boundary is explicit;
 - where the selected visual uses a threshold, range, or gate, the plan shows input → boundary →
   changed action rather than placing a label beside an inert line;
+- where a trace is selected, it visibly changes a physical consequence rather than merely carrying
+  colour or decoration;
 - the renderer has composition freedom without permission to invent content;
 - the selected brand expression and exact logo plan are defined.
 

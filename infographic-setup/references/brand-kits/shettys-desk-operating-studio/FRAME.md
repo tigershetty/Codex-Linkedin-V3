@@ -60,6 +60,10 @@ Coral is never decorative. It means the exposure, constraint, cost, or exception
   transformation, contrast, or a route through a real system.
 - Use a **central visual spine**: a route, gate, board, timeline, queue, corridor, loading dock,
   ladder, machine, or other object that makes the argument visible.
+- When time, readiness, queue, capacity, or another invisible variable is the real tension,
+  consider an **Operating Trace**: a material route, range, queue, or flow that visibly changes the
+  system. It is a creative option, not a mandatory style. If it appears, it must do causal work;
+  removing it should make the argument collapse.
 - When a range, threshold, gate, or limit is the hero, show what feeds it and what action changes
   when it is crossed. A label beside a line is not an operating mechanism.
 - A short rule, owner, timing window, or label may belong to the physical story, but it is never a

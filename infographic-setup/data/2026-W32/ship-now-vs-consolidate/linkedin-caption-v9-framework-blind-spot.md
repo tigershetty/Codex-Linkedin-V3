@@ -1,6 +1,6 @@
 # LinkedIn Caption — C3 V9 Framework Blind Spot
 
-**Status:** Selected draft — final Tiger wording approval and publication pending
+**Status:** Historical draft — superseded by `linkedin-caption-v10-temporal-consolidation.md`; retained for learning only.
 
 A freight quote gives you a number. “Ready tomorrow” gives you an assumption.
 

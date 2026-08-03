@@ -1,6 +1,6 @@
 # Visual Output Review — V12 Time-to-Wait Tableau
 
-**Status:** Selected flagship candidate — final Tiger visual approval and publication pending
+**Status:** Historical native candidate — retained as learning evidence; superseded for C3 by V14.
 
 **Candidate:** `visual-v12-time-to-wait-tableau-corrected.png`
 **Renderer:** native image engine
@@ -26,6 +26,6 @@
 
 ## Decision
 
-**Production decision:** selected candidate. V10 remains historical because its gate was labelled but not causally demonstrated; V11 remains the first-render precursor; V12 is the single named causal correction. No further render is authorised for this route.
+**Historical production decision:** V12 corrected a range-boundary proof but did not make the two-load consolidation counterfactual sufficiently tangible. It remains a useful precursor; `visual-v14-counterfactual-dispatch-diorama-linkedin-4x5.png` is the active C3 candidate.
 
 **Still required:** Tiger approves the visual and the selected caption independently; publication and website release remain blocked until then.

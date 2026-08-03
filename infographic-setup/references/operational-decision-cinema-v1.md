@@ -36,17 +36,31 @@ causal atlas, formula card, or other instrumented explanation when they make the
 brand ownership comes from the standard of explanation and craft—not from forcing every idea through
 a gate.
 
-## Five moves
+### Signature move — the Operating Trace
+
+When an invisible operating variable is the actual source of tension, make it leave a physical mark
+on the world. A time window may bend into a dispatch line, a readiness range may strike a shutter, a
+queue may fill a bay, a capacity loss may eat a route, or a demand change may move a material flow.
+That visible force is an **Operating Trace**.
+
+This is a creative invitation, not a compulsory brand device or another checklist gate. Use it when
+it is the clearest way to let the reader see input → constraint → consequence without being told.
+Its one discipline is simple: remove the trace and the image should lose its argument. A decorative
+blue cable, graph, or colour streak is not an Operating Trace.
+
+## Six moves
 
 1. **One live conflict.** The reader sees a recognisable decision, not a topic label.
-2. **Evidence → boundary → permitted action.** A gate, route, fence, board, queue, corridor,
+2. **A causal trace when it helps.** Make the changing variable physically alter the operating
+   world rather than explain it with a label or card.
+3. **Evidence → boundary → permitted action.** A gate, route, fence, board, queue, corridor,
    timing rig, or compact causal atlas makes the decision testable. The competing pressures have
    to feed the same boundary, and the reader has to see what changes when it is crossed; labels
    alone do not create a mechanism.
-3. **Spatial consequence.** The eye can follow what happens if the wrong choice wins.
-4. **Semantic material.** Blue is system/infrastructure, green is the protected promise or verified
+4. **Spatial consequence.** The eye can follow what happens if the wrong choice wins.
+5. **Semantic material.** Blue is system/infrastructure, green is the protected promise or verified
    route, and coral is constraint, temptation, or exposure. These colours never decorate.
-5. **Embedded utility.** The reader keeps a decision rule, distinction, or mental model because it
+6. **Embedded utility.** The reader keeps a decision rule, distinction, or mental model because it
    belongs to the scene — not because a lower information strip tells them to save it.
 
 ## Fast judgment
@@ -82,6 +96,7 @@ operating world.
   decorative risk colours.
 - A threshold, range, or gate that is merely labelled rather than visibly fed and connected to a
   changed action.
+- A visible route, range, or flow that looks attractive but does not change a physical consequence.
 - More than one visual argument or enough labels that the caption becomes compulsory.
 - Copied creator layouts, wording, art, branding, or invented results.
 - V3's old dense placard treatment. Preserve the world-building; remove the clutter.
@@ -93,6 +108,9 @@ operating world.
   argument.
 - `references/top 100/33.jpeg` and `LI-7463202442491650048` — decisive contrast at feed speed.
 - `references/top 100/5.jpeg` — utility belongs inside the visual object.
+- `data/2026-W32/ship-now-vs-consolidate/visual-v14-counterfactual-dispatch-diorama-linkedin-4x5.png`
+  — a readiness range becomes a physical dispatch trace; the held load makes the counterfactual
+  consequence visible.
 
 Use this with `fast-post-loop-v1.md` and `v3-creative-repertoire-v1.md`. It is deliberately
 lightweight: choose the reader tension, make one working mechanism visible, and then decide whether

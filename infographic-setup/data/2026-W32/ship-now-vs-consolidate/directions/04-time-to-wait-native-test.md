@@ -1,7 +1,8 @@
 # Direction 04 — Time-to-Wait Tableau
 
-**Status:** selected native flagship candidate after its single permitted causal correction; final
-Tiger visual and caption approval pending.
+**Status:** historical native candidate. V12 is retained as the precursor that established the
+time-constraint lesson; it is superseded for C3 by `05-counterfactual-dispatch-diorama.md` and
+`visual-v14-counterfactual-dispatch-diorama-linkedin-4x5.png`.
 
 ## The visual wager
 
@@ -35,10 +36,11 @@ customer-safe wait window. A lower combined freight rate is deliberately not the
 With the headline covered, a planner should still see within ten seconds that waiting for PO B
 becomes unsafe when its latest credible readiness crosses the customer-safe departure boundary.
 
-**Result:** passed in `visual-v12-time-to-wait-tableau-corrected.png`. The coral range is bounded,
-its `LATEST` edge crosses the transparent last-safe-departure plane, and the integrated release
-lock changes the permitted action without a caption-only explanation.
+**Historical result:** V12 made range → boundary → release visible, but did not make the
+consolidation counterfactual or the two loads sufficiently tangible. It is preserved as a learning
+artifact rather than the active candidate.
 
 **Render ledger:** V11 first native render proved the scene but not the causal range crossing. V12
-was the one permitted named correction, limited to visible `range → boundary → release` proof. No
-further render is authorised; a failure would have parked the family rather than decorated it.
+corrected that constraint, then C3 moved to a different declared visual primitive—Counterfactual
+Dispatch Diorama—to make the actual consolidation choice visible. That later family has its own
+bounded V13 → V14 ledger in Direction 05.

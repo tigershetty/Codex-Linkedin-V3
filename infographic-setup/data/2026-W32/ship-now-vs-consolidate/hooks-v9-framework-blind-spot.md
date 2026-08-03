@@ -1,6 +1,6 @@
 # Hook Routes — C3 V9 Framework Blind Spot
 
-**Status:** Selected hook set — final Tiger selection pending
+**Status:** Historical hook set — superseded by `hooks-v10-temporal-consolidation.md`; retained for learning only.
 
 ## Recommended hook
 

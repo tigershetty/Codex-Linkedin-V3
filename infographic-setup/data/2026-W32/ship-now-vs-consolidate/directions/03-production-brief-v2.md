@@ -1,7 +1,7 @@
 # Direction 03 Production Brief v2 — Customer-Safe Timing Corridor
 
 **Status:** historical precursor / creative hypothesis. Its deterministic HTML route is superseded
-by Direction 04's native `visual-v12-time-to-wait-tableau-corrected.png`; retain this file for the
+by Direction 05's native `visual-v14-counterfactual-dispatch-diorama-linkedin-4x5.png`; retain this file for the
 decision logic, not as a current render or publication route.
 **Creative family:** half-truth → missing dimension → decision rule
 **Primary post job:** saves and relevant follows

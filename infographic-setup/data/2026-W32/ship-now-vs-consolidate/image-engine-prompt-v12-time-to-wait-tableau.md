@@ -1,7 +1,7 @@
 # Image Engine Prompt — C3 V12 Time-to-Wait Tableau
 
-**Status:** Source record for the selected native candidate. Render budget exhausted; do not use
-this file to start another iteration.
+**Status:** Historical source record for the V12 timing-tableau candidate. It is retained for
+learning only; do not use this file to start another iteration.
 
 Preserve the exact V11 composition, headline/deck hierarchy, packed PO truck, transparent last-
 safe-departure plane, customer terminal, and absence of panels, footer, or control-board chrome.
@@ -19,6 +19,5 @@ company results, logos, people, or extra copy.
 
 ## Render result
 
-`visual-v12-time-to-wait-tableau-corrected.png` passed the headline-covered causal-proof test:
-the latest credible-ready edge crosses the departure boundary and visibly changes the action to
-release now.
+`visual-v12-time-to-wait-tableau-corrected.png` passed its narrower timing proof, but it did not
+make the consolidation counterfactual clear enough. Direction 05 now owns the active V14 candidate.

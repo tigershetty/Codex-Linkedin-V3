@@ -4,21 +4,21 @@
 **Slug:** `ship-now-vs-consolidate`
 **Hook:** `H1`
 **Status:** selected draft; Tiger approval and publication pending
-**Selected source:** `linkedin-caption-v9-framework-blind-spot.md`
+**Selected source:** `linkedin-caption-v10-temporal-consolidation.md`
 
 ## Recommended Caption
 
-A freight quote gives you a number. “Ready tomorrow” gives you an assumption.
+A lower combined rate can be worth waiting for, but only if the customer date is not being used as the buffer.
 
-When a packed order could be held for a lower combined rate, it is easy for the saving to dominate the decision. But the order needs to run the other way: confirm the customer commitment first, work backwards to the last departure that still protects it, and then test the full credible ready-date range for the second PO against that departure.
+Take the simple version in the visual: A is ready now. B may be able to join the same departure, but its readiness is a range. Holding A creates a fuller load if B arrives early enough; it also spends the last departure that still protects the customer if B does not.
 
-If the customer date, supplier range, transit basis, or freight quote is stale, refresh it before comparing anything. And if the latest credible date crosses the safe departure while the ready shipment can still protect the customer, release it.
+Freight research calls that trade-off temporal consolidation. A fuller shipment can reduce transport cost, while holding the first available order can add inventory or other holding cost. That is useful context, but it still leaves the operational question: where is the last departure that the customer date cannot afford to lose?
 
-This does not remove economics from the decision. It puts the economics where they belong—after service feasibility has cleared.
+That is where I would start. Work backwards from the need-by date and test the latest credible edge of B’s range. If it crosses the departure while A can still protect the date, release A before the saving is compared.
 
-The harder situation is when neither route protects the commitment. That should be visible and jointly owned by the KAM and Purchasing Manager, rather than becoming a quiet workaround for planning. If it keeps returning, the issue is no longer the exception itself. It is the system behind it: date reliability, the customer-date process, or the freight setup.
+If neither route protects the date, the issue has moved beyond a freight calculation. The KAM and Purchasing Manager need to own the exception together. And if the same exception keeps returning, the process needs repair rather than another workaround—promise reliability, customer-date clarity, or the freight setup underneath it.
 
-This is a proposed release rule for two compatible orders with current inputs; it is not an optimiser or a prediction.
+Where does your process draw the last departure it cannot afford to lose?
 
 ## Publish Disclosure
 
@@ -30,6 +30,7 @@ Use this line only after Tiger's final visual and caption approval makes it accu
 
 | Passage | Support | Treatment |
 |---|---|---|
+| Temporal consolidation is a cost-and-waiting trade-off | Bookbinder & Higginson (2002); Wei, Çetinkaya & Cline (2023) | research context only; no individual optimisation result is claimed |
 | Customer need-by is tested before freight economics | `TS-20260802-02-A`; `CL-C3-02` | Tiger professional judgment and proposed decision order |
 | Latest credible supplier-ready date crossing the safe departure changes the release decision | `TS-20260802-02-B`; `CL-C3-05` | Tiger operating recommendation, framed as a proposed rule |
 | KAM + Purchasing Manager jointly own a genuine exception | `TS-20260802-02-C`; `CL-C3-05` | Tiger governance recommendation; approval does not make the risk safe |

@@ -6,5 +6,5 @@ portrait rather than a usable LinkedIn 4:5 canvas. It is not an active candidate
 
 **2026-08-04 status correction:** this README pre-dates the V12 review. V10 is now preserved as a
 historical test because its boundary was labelled rather than visibly fed and crossed. The active
-candidate is `../../visual-v12-time-to-wait-tableau-corrected.png`; this archive remains untouched
+candidate is `../../visual-v14-counterfactual-dispatch-diorama-linkedin-4x5.png`; this archive remains untouched
 as evidence of the rejected route.
