@@ -45,9 +45,15 @@ for (const folder of folders) {
     console.error(`Missing package folder: ${folder}`);
     process.exit(1);
   }
-  const standardPost = existsSync(postCardPath) && !flagship;
-  if (!standardPost && !existsSync(briefPath)) {
-    console.error(`Missing __INTERP1__`);
+  const postCard = existsSync(postCardPath) ? readFileSync(postCardPath, 'utf8') : '';
+  const declaredRoute = field(postCard, 'Route') || field(postCard, 'Route class');
+  const declaredFlagship = /\bflagship\b|\bbrand[- ]lab\b/i.test(declaredRoute);
+  const standardPost = existsSync(postCardPath) && !flagship && !declaredFlagship;
+  const activeFlagshipDraft = declaredFlagship
+    && Boolean(field(postCard, 'Active visual'))
+    && Boolean(field(postCard, 'Active caption'));
+  if (!standardPost && !activeFlagshipDraft && !existsSync(briefPath)) {
+    console.error(`Missing flagship brief: ${relative(root, briefPath)}`);
     process.exit(1);
   }
 
@@ -55,6 +61,17 @@ for (const folder of folders) {
     console.log(`\n== ${folder} ==`);
     console.log('Mode: standard fast post');
     run('audit-visual-package.mjs', [folder]);
+    run('audit-fast-post.mjs', [folder]);
+    continue;
+  }
+
+  // A declared flagship can retain its full genome and historic route tests beside a newly
+  // selected native draft. Once the post card names that draft, audit the current reader-facing
+  // output and ready reference bundle rather than treating an older renderer brief as active.
+  if (activeFlagshipDraft) {
+    console.log(`\n== ${folder} ==`);
+    console.log('Mode: declared flagship active post-card draft');
+    run('audit-visual-package.mjs', [folder, '--flagship']);
     continue;
   }
 

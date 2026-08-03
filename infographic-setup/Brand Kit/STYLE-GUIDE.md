@@ -6,9 +6,11 @@ from a polished isometric infographic reference set and generalized so it applie
 
 Use this file as the human-readable guide. For machine use (Claude Code), pair it with `brand-tokens.json`. For image models, use `PROMPT-LIBRARY.txt` and the visual one-pager `Shettys-Desk-Brand-Kit.pdf`.
 
-> **V5 standard-post override:** a normal LinkedIn post is one image-engine-native operating scene,
-> not an assembled infographic. Start with the reader's live tension, choose one **Commitment Object**
-> or other physical mechanism, and render one composition. Never paste an HTML/SVG, dashboard, title, footer, or logo overlay
+> **V5 standard-post override:** a normal LinkedIn post is one image-engine-native **Instrumented
+> Operating Explanation**, not an assembled infographic. Start with the reader's live tension, choose
+> one rendered operating system—an instrumented decision board, causal atlas, paired-state rig, or a
+> **Commitment Object** when an irreversible boundary must be felt—and render one composition. Never
+> paste an HTML/SVG, dashboard, title, footer, or logo overlay
 > over that final scene. The current authority is
 > `../references/brand-kits/shettys-desk-operating-studio/FRAME.md`. The modular rules below are
 > retained for explicit carousels and exact artifacts.
@@ -17,7 +19,7 @@ Use this file as the human-readable guide. For machine use (Claude Code), pair i
 
 ## 1. Brand Essence
 
-Optimistic, science-led, credible, modern. Clean and airy, built on luminous blue gradients with a vivid **signature green** that always signals *positive / progress / the smart choice*. Data-driven but human. The precision-artifact expression uses smooth isometric 2.5D vector art on white; the standard V5 post uses a tangible, premium Operating Studio **Commitment Object** or scene when a decision must be felt before it is explained.
+Optimistic, science-led, credible, modern. Clean and airy, built on luminous blue gradients with a vivid **signature green** that always signals *positive / progress / the smart choice*. Data-driven but human. The precision-artifact expression uses smooth isometric 2.5D vector art on white; the standard V5 post uses a tangible or diagrammatic premium Operating Studio **Instrumented Operating Explanation**. A **Commitment Object** is the high-tension subgrammar for a decision that has an irreversible boundary and must be felt before it is explained.
 
 Three cues make the precision-artifact expression recognizable:
 
@@ -122,12 +124,12 @@ A single geometric sans across the system. The reference uses a Gotham/Montserra
 
 ## 5. Illustration & Iconography
 
-The brand has two deliberate visual modes. A standard native feed post uses a tactile **Commitment Object**: a bespoke operating instrument whose physical mechanism makes the decision visible. An explicitly selected carousel or exact artifact uses flat-design **isometric / 2.5D vector** art: smooth blue gradients, soft long shadows, rounded geometric forms, gentle glows, pure-white background.
+The brand has two deliberate visual modes. A standard native feed post uses an **Instrumented Operating Explanation**: a tangible or diagrammatic operating system whose visible inputs, causal path, decision boundary, and saveable rule make the work legible. A tactile **Commitment Object** is its high-tension subgrammar when an irreversible decision boundary must become physically clear. An explicitly selected carousel or exact artifact uses flat-design **isometric / 2.5D vector** art: smooth blue gradients, soft long shadows, rounded geometric forms, gentle glows, pure-white background.
 
 **Do — standard native feed scene**
 
-- Start with one Commitment Object when the work has a point of no return: a release gate, lock, fence, timing rig, allocation boundary, or capacity slot.
-- Make every visible pressure act on the same object; the recommendation must be legible from what can pass, stop, lock, or release.
+- Start with one instrumented operating explanation: an instrumented decision board, causal atlas, paired-state rig, or another coherent operating system. Use a Commitment Object when the work has a point of no return: a release gate, lock, fence, timing rig, allocation boundary, or capacity slot.
+- Make every visible pressure act on the same operating system; the recommendation must be legible from its causal path, its boundary, or what can pass, stop, lock, or release.
 - Use tactile studio materials — brushed aluminium, cobalt anodising, clear acrylic — without drifting into generic warehouse stock photography.
 - Keep any in-image words short and physically integral to the scene.
 
@@ -184,7 +186,7 @@ The same DNA, fed the way each tool prefers:
 
 **Gemini — Nano Banana Pro** → attach 1–2 reference images + paste the Gemini prompt from `PROMPT-LIBRARY.txt`. Strong at reference-image consistency and in-image text. Or drag in the one-page PDF as the style reference.
 
-**ChatGPT Image 2** → for a standard feed post, lead with the V5 Native Scene block and its Commitment Object, not a generic style label. For a carousel or exact artifact, lead with "flat-design isometric vector infographic, pure white background." Reuse the appropriate style block within its visual mode. Drag in the relevant reference image too.
+**ChatGPT Image 2** → for a standard feed post, lead with the V5 Native Scene block and its chosen Instrumented Operating Explanation, not a generic style label. Use a Commitment Object only when the decision has an irreversible boundary. For a carousel or exact artifact, lead with "flat-design isometric vector infographic, pure white background." Reuse the appropriate style block within its visual mode. Drag in the relevant reference image too.
 
 **Claude Code** → for a standard post, use the Operating Studio frame and a native image-engine prompt. It may use the tokens to build an editable HTML/SVG only when a separate exact artifact or carousel has been explicitly selected.
 

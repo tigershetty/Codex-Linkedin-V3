@@ -320,20 +320,28 @@ function safeRelativeCandidate(value) {
   return relation;
 }
 
-function standardPostAudit() {
+function declaredFlagship(card) {
+  const route = plain(first(field(card, 'Route'), field(card, 'Route class'))).toLowerCase();
+  return /\bflagship\b|\bbrand[- ]lab\b/.test(route);
+}
+
+function activePostCardAudit() {
   const card = read('post-card.md');
-  if (!card || flagship) return false;
+  if (!card) return false;
+  const flagshipCard = declaredFlagship(card);
+  if (flagship && !flagshipCard) return false;
 
   const activeVisual = safeRelativeCandidate(field(card, 'Active visual'));
   const activeCaption = safeRelativeCandidate(field(card, 'Active caption'));
   const review = read('five-reader-review.md');
+  const route = plain(field(card, 'Route'));
   const requiredCardFields = [
     'Reader and real work moment',
     'Opening tension',
     'The visible proof',
     'The useful keep',
     'Saved references used',
-    'Three rough routes',
+    flagshipCard ? 'Three creative families tested' : 'Three rough routes',
     'Selected route and why',
     'Active visual',
     'Active caption',
@@ -344,11 +352,21 @@ function standardPostAudit() {
     .every((label) => /^(yes|pass)\b/i.test(field(review, label)));
   const renderer = plain(field(card, 'Renderer')).toLowerCase();
   const visualInfo = activeVisual ? pngDimensions(activeVisual) : null;
+  const bundleCheck = flagshipCard ? validateBundleExternally() : { pass: true, detail: '' };
   const checks = [
     {
-      name: 'standard post card is complete',
+      name: `${flagshipCard ? 'flagship' : 'standard'} post card is complete`,
       pass: requiredCardFields.every((label) => isFilled(field(card, label))),
-      fix: 'Complete the standard post card before review.',
+      fix: `Complete the ${flagshipCard ? 'flagship' : 'standard'} post card before review.`,
+    },
+    {
+      name: `${flagshipCard ? 'flagship' : 'standard'} route is declared`,
+      pass: flagshipCard
+        ? /\bflagship\b|\bbrand[- ]lab\b/i.test(route)
+        : /^standard(?:\s+fast\s+post)?$/i.test(route),
+      fix: flagshipCard
+        ? 'Declare Route as flagship (or explicitly name it a brand-lab exception).'
+        : 'Declare Route as standard or standard fast post.',
     },
     {
       name: 'active visual pointer resolves',
@@ -366,9 +384,9 @@ function standardPostAudit() {
       fix: 'Use a non-empty social PNG at least 900 pixels on each side.',
     },
     {
-      name: 'standard visual is image-engine native',
+      name: 'active visual is image-engine native',
       pass: /image/.test(renderer) && !/html|svg|overlay/.test(renderer),
-      fix: 'Set Renderer to Image engine native; do not finish a standard social visual with HTML, SVG, or overlay layers.',
+      fix: 'Set Renderer to Image engine native; do not finish a social visual with HTML, SVG, or overlay layers.',
     },
     {
       name: 'five reader checks pass',
@@ -376,6 +394,13 @@ function standardPostAudit() {
       fix: 'Complete five-reader-review.md with Stop, Show, Keep, True, and Tiger set to yes or pass.',
     },
   ];
+  if (flagshipCard) {
+    checks.push({
+      name: 'flagship Creative Genome bundle remains ready and valid',
+      pass: bundleCheck.pass,
+      fix: `Repair and validate reference-bundle.json. ${bundleCheck.detail}`.trim(),
+    });
+  }
 
   let failures = 0;
   for (const check of checks) {
@@ -388,14 +413,14 @@ function standardPostAudit() {
     }
   }
   if (failures) {
-    console.error('\n' + failures + ' standard post check(s) failed.');
+    console.error(`\n${failures} ${flagshipCard ? 'flagship' : 'standard'} post check(s) failed.`);
     process.exit(1);
   }
-  console.log('\nStandard post draft audit passed. This is not publication approval; Tiger approval is still required.');
+  console.log(`\n${flagshipCard ? 'Flagship' : 'Standard'} post draft audit passed. This is not publication approval; Tiger approval is still required.`);
   process.exit(0);
 }
 
-standardPostAudit();
+activePostCardAudit();
 
 const brief = read('creative-brief-lite.md');
 const content = read('content-brief-v2.md');

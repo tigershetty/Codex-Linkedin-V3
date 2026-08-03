@@ -1,55 +1,59 @@
-# Standard Post Card — Ship Now vs Consolidate
+# Flagship Post Card — Ship Now vs Consolidate
 
-**Reader and real work moment:** A planner or buyer has a ready shipment, a supplier says the next
-PO will be ready tomorrow, and a combined freight quote makes waiting look attractive.
+**Route:** flagship
 
-**Opening tension:** One PO is packed. The second is "ready tomorrow." The combined freight rate
-is lower. Would you hold the first shipment?
+**Route class:** Flagship / V3 visual-identity brand-lab exception — not a standard fast post.
 
-**The visible proof:** One loaded blue release carriage sits at a physical rail fork. A coral
-freight counterweight is mechanically tethered to it and pulls toward the hold track; the only
-other path runs through the last-safe-departure gate to the green customer-need-by dock.
+**Reader and real work moment:** A planner or buyer has one packed PO, a supplier says a second
+compatible PO may be ready tomorrow, and a combined freight rate makes waiting feel sensible.
 
-**The useful keep:** Start at the customer need-by, work backwards to the last safe departure, then
-test the second PO against that gate across credible ready-date scenarios. If one does not clear and
-the ready PO still protects need-by, release it; if neither option protects need-by, replan or
-expedite.
+**Opening tension:** Your supplier says the second PO will be ready tomorrow. The first is packed,
+and the combined freight rate is lower if you wait. Does the customer date give you room to hold it?
 
-**Saved references used:** Pressure-gate pattern from the V3 MPS commitment fence, Top-100
-reference 33's decisive common-variable contrast, and Top-100 reference 65's principle that a
-visible route can carry a complete operating argument. Caption route uses the saved-post concrete
-work-moment-to-missing-question pattern.
+**The visible proof:** A native V3 **RELEASE DECISION BOARD** makes the actual inputs visible:
+ready PO, second-PO date range, and customer need-by. They feed one calibrated last-safe-departure
+gate. The physical branches show the rule conditionally: if the credible range misses the gate,
+ship now; if it clears, consolidate. Coral marks uncertainty, not consolidation itself.
 
-**Three rough routes:** A: the freight counterweight, release carriage, and departure gate form one
-Commitment Object; B: a departure clock turns the customer-safe hold window into a timing rig; C:
-a supplier's "tomorrow" becomes a translucent date range crossing the same departure boundary; D:
-joint approval records an exception but cannot open an unsafe gate.
+**The useful keep:** `customer date → safe departure → supplier range → freight rate`. The reader
+can use the order before comparing a freight saving; neither route protects service without a joint
+KAM and Purchasing Manager exception.
 
-**Selected route and why:** A, the Commitment Object. The selected native render makes the freight
-saving a physical counterweight tied to the same loaded carriage that must either take the coral hold
-track or clear the last-safe-departure gate. It restores the V3 language of a bespoke operating
-instrument rather than a generic warehouse scene or a flat editorial card. The image carries the
-collision; the caption carries the working question and exception ownership.
+**Saved references used:** V3 MPS commitment board for native hierarchy and a rule-bearing control
+surface; V3 Batch Size Decision Board for a complete teaching instrument; Top-100 reference 33 for
+feed-speed contrast; reference 65 for causal flow; reference 5 for a self-contained saveable model.
+
+**Three creative families tested:** A: commitment-object product rig; B: timing/uncertainty
+instrument; C: V3 instrumented decision board. The V3 board was selected because it preserves the
+physical causal system while visibly carrying the reader moment, test, conditional outputs, and
+operating order. The V3 board received one semantic correction and one platform-format correction;
+the test is now closed.
+
+**Selected route and why:** C — instrumented operating explanation. The owned family is not a
+single 3D prop or a permanent grid. It is native editorial hierarchy plus a tangible or diagrammatic
+operating system, a causal path, and a useful model. A Commitment Object remains a high-tension
+subgrammar for an irreversible decision; it does not replace formula cards, atlases, or other V3
+teaching instruments.
 
 **Renderer:** Image engine native
 
-**Active visual:** visual-v8-commitment-object.png
+**Active visual:** visual-v10-v3-release-decision-board-4x5.png
 
-**Active caption:** linkedin-caption-v7.md
+**Active caption:** linkedin-caption-v8.md
 
 **Claim boundary:** This is a Tiger-approved operating rule, not a claim about a measured saving,
-customer outcome, or universal supplier-performance result. The post does not show internal
-calculator fixtures or invented numbers.
+customer outcome, or universal supplier-performance result. It does not expose internal calculator
+fixtures or invented numbers.
 
 **Publication status:** Draft — awaiting Tiger approval
 
-**Render note:** _archive/2026-08-03-native-first-pass/visual-v4-image-engine.png is preserved as
-the rejected first native candidate. _archive/2026-08-03-native-direction-tests/visual-v5-image-engine.png
-restored the V3 operating-world language but repeated the answer in too many placards. V6 tested
-stronger freight-tension stories but remained generic logistics cinema. V7 removed the card layout
-but retained warehouse scenery and made the headline carry too much of the story. V8 is the selected
-Commitment Object: the competing pressures act on the same physical release mechanism.
-At cold thumbnail size it leads with the departure commitment before it names the consolidation
-choice, so the primary hook remains part of the visual's reader entry point. Do not solve that by
-adding a title overlay; make the grammar recognisable through repetition and test the next
-Commitment Object against this limitation.
+**Brand-lab note:** The C3 folder contains a calculator, research, and historical attempts and is
+therefore a declared flagship exception. It must not be used as evidence that normal five-post-per-
+week work may carry a calculator, research bundle, multiple finished visual routes, or unlimited
+render loops.
+
+**Render note:** The prior V8 Commitment Object is preserved as a rejected high-tension direction:
+it made freight, departure, and customer need-by tangible but behaved as a premium product photograph
+before it explained the live release decision. V10 restores the V3 standard of native title,
+inputs, test, conditional outputs, and a saveable rule in one rendered world. No HTML or external
+overlay was used.

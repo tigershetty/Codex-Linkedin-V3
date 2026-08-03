@@ -13,24 +13,30 @@ argument, and a useful thing to keep. V3 owns the expression: tangible operating
 ice-white and cobalt depth, semantic green and coral, and a spatial consequence that makes the rule
 understandable.
 
-## The owned detail — Commitment Objects
+## The owned family — instrumented operating explanations
 
-A **Commitment Object** is a precision-made physical instrument that makes an invisible point of no
-return visible: a freeze fence, allocation lock, release gate, capacity slot, approval seal, or
-last-safe-departure window. It is not a reusable layout or a decorative 3D prop. Its parts must be
-causally connected, so a reader can see what the decision permits, blocks, or makes irreversible
-before reading the caption.
+The V3 signature is not one repeated 3D prop. It is an **instrumented operating explanation**:
+native editorial hierarchy, a tangible or diagrammatic operating system, a causal path, and one
+saveable model. The reader should see the work moment, deciding test, and conditional consequence
+inside one rendered world.
 
-This is the brand detail that distinguishes Shetty's Desk from generic logistics imagery: each
-post can have a different story, while the audience learns that the work is about finding where an
-operating choice becomes a commitment.
+A **Commitment Object** is the highest-tension member of that family: a precision-made physical
+instrument that makes an invisible point of no return visible, such as a freeze fence, allocation
+lock, release gate, capacity slot, approval seal, or last-safe-departure window. It is not a
+reusable layout or a decorative 3D prop. Its parts must be causally connected, so a reader can see
+what the decision permits, blocks, or makes irreversible before reading the caption.
+
+Use a Commitment Object when an irreversible operating choice is the story. Use a decision board,
+causal atlas, formula card, or other instrumented explanation when they make the work clearer. The
+brand ownership comes from the standard of explanation and craft—not from forcing every idea through
+a gate.
 
 ## Five moves
 
 1. **One live conflict.** The reader sees a recognisable decision, not a topic label.
-2. **One Commitment Object.** A gate, route, fence, board, queue, corridor, or timing rig makes
-   the decision irreversible or testable. The competing pressures have to act on the same object;
-   labels alone do not create a mechanism.
+2. **One instrumented system.** A gate, route, fence, board, queue, corridor, timing rig, or
+   compact causal atlas makes the decision testable. The competing pressures have to act on the
+   same system; labels alone do not create a mechanism.
 3. **Spatial consequence.** The eye can follow what happens if the wrong choice wins.
 4. **Semantic material.** Blue is system/infrastructure, green is the protected promise or verified
    route, and coral is constraint, temptation, or exposure. These colours never decorate.
@@ -77,9 +83,9 @@ operating world.
   argument.
 - `references/top 100/33.jpeg` and `LI-7463202442491650048` — decisive contrast at feed speed.
 - `references/top 100/5.jpeg` — utility belongs inside the visual object.
-- `data/2026-W32/ship-now-vs-consolidate/visual-v8-commitment-object.png` — a freight
-  counterweight, loaded release carriage, last-safe-departure gate, and customer promise form one
-  causal decision machine.
+- `data/2026-W32/ship-now-vs-consolidate/visual-v10-v3-release-decision-board-4x5.png` — an
+  instrumented decision board makes inputs, the calibrated gate, conditional outputs, and the
+  customer-first operating order visible in one native image.
 
 Use this with `fast-post-loop-v1.md` and `v3-creative-repertoire-v1.md`. It is deliberately
 lightweight: choose the reader tension, make one working mechanism visible, and then decide whether

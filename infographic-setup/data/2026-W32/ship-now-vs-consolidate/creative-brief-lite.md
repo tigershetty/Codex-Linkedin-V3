@@ -1,12 +1,18 @@
 # Creative Brief Lite — Recombination — The Last Defensible Departure
 
+> **Status — historical execution brief.** This file records the former Cobalt Grid / deterministic
+> HTML-SVG direction. It is retained for learning only and must not be used to render, approve, or
+> publish this post. The current execution authority is `post-card.md`: the native V3 Release
+> Decision Board in `visual-v10-v3-release-decision-board-4x5.png`, paired with
+> `linkedin-caption-v8.md`.
+
 **Week:** `2026-W32`  
 **Slug:** `ship-now-vs-consolidate`  
 **Content ID:** `2026-W32-ship-now-vs-consolidate-linkedin-01`  
 **creative_bundle_id:** `CB-2026-W32-C3-LAST-SAFE-DEPARTURE-01`  
-**Selected direction:** Direction B — The Last Safe Departure  
+**Selected direction (historical):** Direction B — The Last Safe Departure
 **Claim mode:** `formula_or_method`  
-**Renderer:** HTML/SVG with generated editorial illustration insert
+**Renderer (historical):** HTML/SVG with generated editorial illustration insert
 
 ## 1. Reader Contract
 

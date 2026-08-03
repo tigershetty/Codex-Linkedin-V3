@@ -1,11 +1,20 @@
 # Content Brief v2 — The Last Safe Departure
 
+> **Status — historical creative control.** This brief preserves the original formula-led route and
+> its evidence decisions, but its visual/caption selection is superseded. Do not use it to render,
+> approve, or publish the current post. `post-card.md` is the execution authority: the native V3
+> Release Decision Board in `visual-v10-v3-release-decision-board-4x5.png`, paired with
+> `linkedin-caption-v8.md`.
+
 **Week:** `2026-W32`  
 **Slug:** `ship-now-vs-consolidate`  
 **Content ID:** `2026-W32-ship-now-vs-consolidate-linkedin-01`  
 **creative_bundle_id:** `CB-2026-W32-C3-LAST-SAFE-DEPARTURE-01`  
 **Genome snapshot:** `creative-genome-2026-08-02-v1`  
-**Stage:** retained non-selected creative control; do not publish, refine, or use the existing visual/caption as the active candidate. The technical package remains intact for learning. The active replacement is `directions/03-production-brief-v2.md` and its `visual-v3.png` / `linkedin-caption-v3.md` draft pair.
+**Stage:** retained non-selected creative control; do not publish, refine, or use its existing
+visual/caption as the active candidate. The technical package remains intact for learning. The
+former replacement named below is also superseded; use `post-card.md` for the active V10 native
+draft.
 **Lane:** Supply Chain 101 with a website decision-tool continuation  
 **Claim mode:** `formula_or_method`
 
@@ -32,9 +41,9 @@
 **Standalone LinkedIn payoff:** the reader receives the complete decision order, two-limit formula, and failure boundary without clicking away.  
 **Website payoff:** the calculator applies the same rule to current dates, ranges, quotes, and differential costs and exports an audit record.
 
-## 3. Selected Creative Direction
+## 3. Historical Creative Direction
 
-**Direction:** `The Last Safe Departure`  
+**Direction (historical):** `The Last Safe Departure`
 **Opening tension:** the freight quote can reward waiting while the customer date still requires departure today.  
 **Dominant object:** one cobalt route switch that sends a ready pallet toward either `SHIP NOW` or `WAIT + CONSOLIDATE`; both paths terminate at one customer need-by gate.  
 **Reading route:** decision scene -> best/base/worst timing band -> service-safe hold -> economic break-even hold -> smaller limit -> decision state.  
@@ -100,8 +109,8 @@ No first-run continuation is required. Add a deeper issue only if the LinkedIn r
 5. ~~Run visual, source, voice, and publish QA before requesting final asset approval.~~ Production QA passed `2026-08-02`; Tiger approval remains separate.
 6. Publication remains blocked until Tiger separately approves the final visual and final caption.
 
-## 8. Current Decision
+## 8. Historical Decision
 
-**Recommendation:** proceed with `The Last Safe Departure`.  
+**Recommendation at the time:** proceed with `The Last Safe Departure`.
 **Reason:** it has the strongest balance of immediate tension, broad comprehension, practitioner usefulness, and a natural product bridge.  
-**Current stop point:** production and QA; no publication or public website release is authorized.
+**Stop point at the time:** production and QA; no publication or public website release is authorized.

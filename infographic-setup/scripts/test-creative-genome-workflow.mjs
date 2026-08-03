@@ -293,9 +293,27 @@ function writePngHeader(path, width = 1080, height = 1350) {
   writeFileSync(path, png);
 }
 
-function standardPostPackage(name, { activeVisual = 'selected.png', activeCaption = 'selected-caption.md', selected = true } = {}) {
+function standardPostPackage(name, {
+  activeVisual = 'selected.png',
+  activeCaption = 'selected-caption.md',
+  selected = true,
+  routeLock = true,
+  route = 'standard',
+  startedAt = '2026-08-03T09:00:00Z',
+  selectedAt = '2026-08-03T09:25:00Z',
+  renderBudget = 1,
+  renderPaths = [activeVisual],
+  roughRoutes = 'A: departure gate; B: freight counterweight; C: role collision.',
+} = {}) {
   const dir = join(tempRoot, name);
   mkdirSync(dir, { recursive: true });
+  const routeLockFields = routeLock
+    ? `**Route:** ${route}
+**Started at:** ${startedAt}
+**Selected at:** ${selectedAt}
+**Render budget:** ${renderBudget}
+**Render paths:** ${renderPaths.join(', ')}`
+    : '';
   writeFileSync(
     join(dir, 'post-card.md'),
     `# Standard Post Card
@@ -305,8 +323,9 @@ function standardPostPackage(name, { activeVisual = 'selected.png', activeCaptio
 **The visible proof:** A physical departure gate makes the trade-off visible.
 **The useful keep:** Clear the gate or release what is ready.
 **Saved references used:** V3 pressure gate and one saved reference.
-**Three rough routes:** Gate; quote collision; role collision.
+**Three rough routes:** ${roughRoutes}
 **Selected route and why:** Gate because it makes the boundary visible.
+${routeLockFields}
 **Renderer:** Image engine native
 **Active visual:** ${activeVisual}
 **Active caption:** ${activeCaption}
@@ -326,9 +345,26 @@ function standardPostPackage(name, { activeVisual = 'selected.png', activeCaptio
     'utf8',
   );
   if (selected) {
-    writePngHeader(join(dir, activeVisual));
+    for (const renderPath of renderPaths) {
+      writePngHeader(join(dir, renderPath));
+    }
     writeFileSync(join(dir, activeCaption), 'Selected draft caption.\\n', 'utf8');
   }
+  return dir;
+}
+
+function flagshipActiveDraftPackage(name) {
+  const dir = standardPostPackage(name, { route: 'flagship' });
+  const postCardPath = join(dir, 'post-card.md');
+  writeFileSync(
+    postCardPath,
+    readFileSync(postCardPath, 'utf8').replace(
+      '**Three rough routes:**',
+      '**Three creative families tested:**',
+    ),
+    'utf8',
+  );
+  writeJson(join(dir, 'reference-bundle.json'), readyBundle());
   return dir;
 }
 
@@ -666,12 +702,93 @@ test('standard build bypasses flagship paperwork and remains draft-only', () => 
   assert(
     /Mode: standard fast post/i.test(result.output)
       && /Standard post draft audit passed/i.test(result.output)
+      && /Fast Post route-lock audit passed/i.test(result.output)
       && /not publication approval/i.test(result.output),
     `Standard build did not clearly remain a draft.\\n${result.output}`,
   );
   assert(
     !/Creative Genome|Legacy compatibility|creative-brief-lite\\.md/i.test(result.output),
     `Standard build asked for flagship paperwork.\\n${result.output}`,
+  );
+});
+
+test('declared flagship audits its selected native post-card draft without reviving a historic brief', () => {
+  const dir = flagshipActiveDraftPackage('flagship-active-native-draft');
+  const result = runCli('build-visual-package.mjs', [dir, '--check-only']);
+  assertSuccess(result, 'flagship active native draft build');
+  assert(
+    /Mode: declared flagship active post-card draft/i.test(result.output)
+      && /Flagship post draft audit passed/i.test(result.output)
+      && /not publication approval/i.test(result.output),
+    `Flagship did not audit the selected native draft.\n${result.output}`,
+  );
+  assert(
+    !/Creative Genome \+ recombination|legacy compatibility|missing flagship brief/i.test(result.output),
+    `Flagship reactivated an historic execution brief.\n${result.output}`,
+  );
+});
+
+test('Fast Post route lock rejects missing metadata', () => {
+  const dir = standardPostPackage('standard-missing-route-lock', { routeLock: false });
+  assertFailure(
+    runCli('audit-fast-post.mjs', [dir]),
+    /FAIL route lock metadata is complete/i,
+    'standard post without route-lock metadata',
+  );
+});
+
+test('Fast Post route lock rejects a late selection', () => {
+  const dir = standardPostPackage('standard-late-selection', {
+    selectedAt: '2026-08-03T09:31:00Z',
+  });
+  assertFailure(
+    runCli('audit-fast-post.mjs', [dir]),
+    /FAIL selected route was chosen within 30 minutes/i,
+    'standard post selected after 30 minutes',
+  );
+});
+
+test('Fast Post route lock rejects more than three rough routes', () => {
+  const dir = standardPostPackage('standard-four-routes', {
+    roughRoutes: 'A: gate; B: counterweight; C: role collision; D: date range.',
+  });
+  assertFailure(
+    runCli('audit-fast-post.mjs', [dir]),
+    /FAIL rough routes are named and capped at three/i,
+    'standard post with four rough routes',
+  );
+});
+
+test('Fast Post route lock rejects a render budget above two', () => {
+  const dir = standardPostPackage('standard-render-budget-three', {
+    renderBudget: 3,
+  });
+  assertFailure(
+    runCli('audit-fast-post.mjs', [dir]),
+    /FAIL render budget is one or two/i,
+    'standard post with render budget above two',
+  );
+});
+
+test('Fast Post route lock rejects more than two actual renders', () => {
+  const dir = standardPostPackage('standard-three-renders', {
+    renderBudget: 2,
+    renderPaths: ['selected.png', 'render-2.png', 'render-3.png'],
+  });
+  assertFailure(
+    runCli('audit-fast-post.mjs', [dir]),
+    /FAIL actual render count stays within budget/i,
+    'standard post with three actual renders',
+  );
+});
+
+test('Fast Post route lock rejects co-located flagship markers', () => {
+  const dir = standardPostPackage('standard-flagship-contamination');
+  writeJson(join(dir, 'reference-bundle.json'), { status: 'ready' });
+  assertFailure(
+    runCli('audit-fast-post.mjs', [dir]),
+    /FAIL standard package has no co-located active flagship markers/i,
+    'standard post with a flagship marker',
   );
 });
 

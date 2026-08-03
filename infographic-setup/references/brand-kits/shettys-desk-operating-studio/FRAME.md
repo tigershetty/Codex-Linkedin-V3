@@ -12,13 +12,14 @@ canvas: 1080x1350 (4:5)
 
 Make a real supply-chain decision feel concrete before explaining it. The reader should recognise a
 live work moment, see what is at risk, understand the decision system, and keep a useful mental
-model or field object. When the topic is a decision boundary, build a bespoke **Commitment Object**:
-a physical instrument that makes the point of no return visible.
+model or field object. Build an **instrumented operating explanation**: native editorial hierarchy,
+a tangible or diagrammatic operating system, a causal path, and one useful model. When the topic is
+a decision boundary, a bespoke **Commitment Object** can make the point of no return visible.
 
 This is the luminous, information-rich visual language that made the V3 work feel above-par: an
-airy white operating world, smooth 2.5D/isometric systems, purposeful detail, and a clear human
-consequence. It is the default expression for new LinkedIn posts. It is not a demand that every
-post look identical or use an isometric scene.
+airy white operating world, smooth 2.5D/isometric systems, purposeful detail, integrated native
+typography, and a clear human consequence. It is the default expression for new LinkedIn posts. It
+is not a demand that every post look identical or use an isometric scene.
 
 ## Reader-first hierarchy
 

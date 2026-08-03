@@ -197,8 +197,10 @@ every post.
    Connect results to the exact reference bundle and creative atoms used.
 ```
 
-Research and creative exploration may loop. This is intentional. Do not freeze the creative direction
-before learning what the subject can truthfully and usefully become.
+Research and creative exploration may loop inside a declared flagship or brand lab. This is
+intentional when the work is testing a new family, claim burden, or reusable artifact. The standard
+Fast Post Loop does not loop after minute 25: it selects one route, permits one named correction,
+and parks an unresolved story rather than quietly becoming a flagship.
 
 ## Measurement
 
