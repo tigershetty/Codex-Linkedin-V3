@@ -64,10 +64,12 @@ Read `creative-genome-recombination-engine-v1.md` before selecting or producing 
 
 - All saved posts have `positive_creative_signal=true`.
 - Saved status is enough for creative use; no second validity debate is required.
-- Retrieve 10-15 relevant references before narrowing the idea.
-- Select one story archetype and one primary post job before drafting. Then write a creative seed,
-  generate ten concepts, and make at least three meaningfully different
-  visible rough directions before final production.
+- Standard weekly posts use the Fast Post Loop: two to four relevant saved references, three rough
+  routes, a hard 25-minute select-or-kill point, and one active post card.
+- Flagships use the full Creative Genome route: fresh 10-15 reference retrieval, a deeper
+  recombination, claim ledger, and package audit.
+- A story archetype and post job are optional creative prompts for the standard route and required
+  only when they sharpen a flagship assembly.
 - Require visible proof of the opening tension in the selected image; captions add the next layer,
   rather than explaining what the image failed to show.
 - Build a coherent attention, comprehension, utility, and bridge bundle.
@@ -82,7 +84,7 @@ remain useful inputs, but the complete 480-post saved corpus is the active north
 Use `creative-opportunity-selection.md`. Work may begin problem-first, pattern-first, evidence-first,
 or timely-signal-first. No starting path is inherently superior.
 
-A direction enters production when it has:
+A flagship direction enters production when it has:
 
 1. a primary reader and recognizable work or career moment;
 2. a clear care statement and useful payoff;
@@ -159,6 +161,10 @@ decision, not the internal audit model.
 
 ## Weekly operating loop
 
+For ordinary LinkedIn posts, use fast-post-loop-v1.md. The loop below describes the wider weekly
+portfolio and the flagship path; it does not make a full research package the admission price for
+every post.
+
 ```text
 1. Learn
    Read mature Tiger outcomes and atom-level transfer notes.
@@ -167,11 +173,13 @@ decision, not the internal audit model.
    Gather audience pain, saved-pattern opportunities, public evidence, Substack, and timely signals.
 
 3. Retrieve
-   Build Creative Genome shortlists for several promising reader jobs.
+   Pull two to four saved references from the current shelf for standard posts. Run a fresh
+   Creative Genome retrieval only for a new creative family or flagship.
 
 4. Recombine
-   Write the creative seed, generate ten concepts, then make three visibly different rough direction
-   tiles. Force a select / hybridise / kill decision before full production.
+   For standard posts, make three prompt cards and select or kill at minute 25. For flagships,
+   write the creative seed, generate ten concepts, and make three visibly different rough
+   directions before full production.
 
 5. Select
    Choose a five-post portfolio using reader payoff, creative strength, claim support, and channel role.
@@ -215,6 +223,7 @@ Creative Genome, the reader contract, claim support, or Tiger voice.
 
 ## Active authorities
 
+- Fast weekly production: `fast-post-loop-v1.md`, `v3-creative-repertoire-v1.md`
 - Creative intelligence: `creative-genome-recombination-engine-v1.md`, `creative-story-archetypes-v1.md`
 - Opportunity selection: `creative-opportunity-selection.md`
 - Audience: `audience-intelligence.md`

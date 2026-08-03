@@ -5,7 +5,8 @@ This folder is the active Shetty's Desk creative-intelligence and content-produc
 ## Session start
 
 1. Read `references/v4-audience-growth-operating-system.md`.
-2. Read `references/creative-genome-recombination-engine-v1.md`.
+2. Choose the route: read references/fast-post-loop-v1.md for an ordinary LinkedIn post, or read
+   references/creative-genome-recombination-engine-v1.md for a flagship.
 3. Read `../tiger-voice.md` and `references/tiger-source-gate-v1.md`.
 4. Inspect the current week and active slug in `data/`.
 5. Identify the current stage: signal scan, retrieval, recombination, support, production,
@@ -14,34 +15,33 @@ This folder is the active Shetty's Desk creative-intelligence and content-produc
 7. Use `references/creative-engine-v4-recombination.md` and `references/visual-engine-v2.md` before
    building or judging a visual.
 
-## Mandatory order for new major content
+## Fast default for ordinary LinkedIn posts
 
-```text
-reference-query.json
-  -> 10-15 saved reference candidates
-  -> reference-bundle.json
-  -> story archetype + primary post job + creative seed + 10 concepts
-  -> at least 3 distinct visible direction tiles
-  -> forced select / hybridise / kill gate
-  -> selected content mode and claim contract
-  -> proportionate research and Tiger source
-  -> complementary visual + caption + optional artifact
-  -> publication and transfer learning
-```
+    post-card.md
+      -> two to four saved references from the current shelf
+      -> three rough routes: hook / visible proof / saveable keep
+      -> select or kill at minute 25
+      -> image-engine-native visual + complementary caption
+      -> five reader checks and Tiger approval
 
-Use:
+Do not create a calculator, detailed concept board, or full package unless the post is explicitly
+escalated.
 
-```bash
-node scripts/build-creative-genome.mjs
-node scripts/retrieve-creative-references.mjs \
-  --query data/{week}/{slug}/reference-query.json \
-  --output data/{week}/{slug}/reference-candidates.json
-node scripts/compile-recombination-brief.mjs \
-  --candidates data/{week}/{slug}/reference-candidates.json \
-  --output data/{week}/{slug}/recombination-brief.md
-node scripts/validate-reference-bundle.mjs \
-  --input data/{week}/{slug}/reference-bundle.json
-```
+## Flagship route
+
+The following full route is reserved for a new creative family, substantial claim burden, reusable
+public artifact, Substack flagship, or brand-defining post:
+
+    reference-query.json
+      -> 10-15 saved reference candidates
+      -> reference-bundle.json
+      -> story archetype + primary post job + creative seed + 10 concepts
+      -> at least 3 distinct visible direction tiles
+      -> forced select / hybridise / kill gate
+      -> selected content mode and claim contract
+      -> proportionate research and Tiger source
+      -> complementary visual + caption + optional artifact
+      -> publication and transfer learning
 
 All saved posts are positive creative signals. Do not add a reference-validity gate, a numeric topic
 threshold, or a record justifying why a particular Top-100 source was skipped. Top-100 local images
@@ -65,8 +65,8 @@ Internal fixtures may test software. They cannot become public proof or a public
 ## Current production system
 
 - Visual creative: `references/creative-engine-v4-recombination.md`.
-- Renderer choice: GPT Image 2, HTML/SVG, spreadsheet, document, or another surface according to the
-  selected direction and exactness needed.
+- Renderer choice: use the image engine for a standard Operating Studio social visual. HTML/SVG,
+  spreadsheet, and documents are separate artifact surfaces when exactness is the reader value.
 - Default brand authority: `references/brand-kits/shettys-desk-operating-studio/FRAME.md`.
 - Cobalt Grid is a deliberate secondary editorial expression, never the unexamined default.
 - Visual review: `templates/visual-output-review-template.md`.
@@ -75,7 +75,8 @@ Internal fixtures may test software. They cannot become public proof or a public
 
 Treat 3D/isometric, flat illustration, diagram, chart, photographed artifact, typographic reference,
 and interactive tool as equal creative families. Do not make renderer or style choice before the
-argument is selected.
+argument is selected. Never finish a standard image-led post by placing HTML or SVG overlays over an
+image-engine scene.
 
 ## Cadence
 
@@ -94,36 +95,29 @@ neither bypasses creative retrieval.
 
 ## Package files
 
-New major packages should contain:
+Standard LinkedIn post:
 
-```text
-reference-query.json
-reference-candidates.json
-reference-bundle.json
-recombination-brief.md
-creative-seed.md
-directions/                     # three rough, visibly distinct directions before final production
-content-brief-v2.md
-research-brief.md              # only when the claim route requires it
-tiger-source.md                # when Tiger authority is used
-creative-brief-lite.md
-caption or copy file
-visual.png
-visual-output-review.md
-analytics.md
-```
+    post-card.md
+    caption file
+    image-engine-native visual
+    short five-reader review
+    analytics.md
+
+Flagship packages retain the full reference query, candidate list, bundle, recombination brief,
+content brief, research and Tiger-source files where needed, creative brief, final visual, review,
+and analytics.
 
 ## Rules
 
 - Never invent facts, numbers, outcomes, personal authority, or customer proof.
 - Never copy a source creator's wording, subject, branding, artwork, or distinctive expression.
 - Keep one reader promise and one primary reading route.
-- Pick a story archetype and post job from `references/creative-story-archetypes-v1.md`; require
-  visible proof of the opening tension, not merely a pretty scene beside it.
+- Use the V3 repertoire and story archetypes as prompts, not a compliance task; require visible
+  proof of the opening tension, not merely a pretty scene beside it.
 - Ensure the problem or promise is visible in 3 seconds, the idea in 10, and useful action in 30.
 - Make caption and visual complementary.
-- Run `templates/creative-direction-sprint-template.md` before full production. Do not use a
-  calculator, research dossier, or polished caption as a substitute for a compelling public story.
+- Use the fast direction sprint before standard production. Do not use a calculator, research
+  dossier, or polished caption as a substitute for a compelling public story.
 - Use exact owned and official logos; do not use third-party icon geometry to rebuild the brand.
 - Never infer caption approval from visual approval.
 - Never delete superseded files; move them to a dated archive with a reason.

@@ -63,6 +63,9 @@ Coral is never decorative. It means the exposure, constraint, cost, or exception
   visual even if they never read the caption.
 - Use people only when they clarify a role, hand-off, or human consequence. Avoid generic mascot
   decoration.
+- For an image-led social post, render the scene, hierarchy, typography treatment, and tension as
+  one image-engine-native composition. Do not paste HTML, SVG, dashboard panels, or title bars over
+  the final scene.
 
 ### Allowed modes
 
@@ -87,9 +90,12 @@ covered. The close should give a reader something worth saving.
 
 ## Direction sprint standard
 
-Before a full visual, caption, calculator, research dossier, or image refinement, make three rough
-4:5 direction tiles. A direction must differ in the **story mechanism or visual primitive**, not
-only in colour, title, or icon.
+For a standard post, use the Fast Post Loop: three rough prompt cards, a hard select-or-kill point
+at minute 25, and one image-engine-native final. Do not make three rendered social tiles.
+
+For a flagship, make three rough 4:5 direction tiles before a full visual, caption, calculator,
+research dossier, or image refinement. A direction must differ in the **story mechanism or visual
+primitive**, not only in colour, title, or icon.
 
 Each tile declares:
 

@@ -7,9 +7,10 @@ const args = process.argv.slice(2);
 const folders = args.filter((arg) => !arg.startsWith('--'));
 const checkOnly = args.includes('--check-only');
 const preflightOnly = args.includes('--preflight');
+const flagship = args.includes('--flagship');
 
 if (!folders.length || (checkOnly && preflightOnly)) {
-  console.error('Usage: node scripts/build-visual-package.mjs data/{week}/{slug} [...] [--check-only | --preflight]');
+  console.error('Usage: node scripts/build-visual-package.mjs data/{week}/{slug} [...] [--flagship] [--check-only | --preflight]');
   process.exit(2);
 }
 
@@ -38,14 +39,23 @@ for (const folder of folders) {
   const briefPath = join(dir, 'creative-brief-lite.md');
   const bundlePath = join(dir, 'reference-bundle.json');
   const recombinationPath = join(dir, 'recombination-brief.md');
+  const postCardPath = join(dir, 'post-card.md');
 
   if (!existsSync(dir)) {
     console.error(`Missing package folder: ${folder}`);
     process.exit(1);
   }
-  if (!existsSync(briefPath)) {
-    console.error(`Missing ${relative(root, briefPath)}`);
+  const standardPost = existsSync(postCardPath) && !flagship;
+  if (!standardPost && !existsSync(briefPath)) {
+    console.error(`Missing __INTERP1__`);
     process.exit(1);
+  }
+
+  if (standardPost) {
+    console.log(`\n== ${folder} ==`);
+    console.log('Mode: standard fast post');
+    run('audit-visual-package.mjs', [folder]);
+    continue;
   }
 
   const brief = readFileSync(briefPath, 'utf8');
@@ -102,6 +112,6 @@ for (const folder of folders) {
   if (preflightOnly) {
     console.log('Preflight passed; final visual audit intentionally skipped.');
   } else {
-    run('audit-visual-package.mjs', [folder]);
+    run('audit-visual-package.mjs', [folder, ...(flagship ? ['--flagship'] : [])]);
   }
 }

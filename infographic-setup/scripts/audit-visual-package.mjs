@@ -11,9 +11,10 @@ import {
 } from './lib/creative-genome.mjs';
 
 const folder = process.argv[2];
+const flagship = process.argv.includes('--flagship');
 
 if (!folder) {
-  console.error('Usage: node scripts/audit-visual-package.mjs data/{week}/{slug}');
+  console.error('Usage: node scripts/audit-visual-package.mjs data/{week}/{slug} [--flagship]');
   process.exit(2);
 }
 
@@ -309,6 +310,92 @@ function validateBundleExternally() {
 function addCheck(checks, name, pass, fix) {
   checks.push({ name, pass: Boolean(pass), fix });
 }
+
+function safeRelativeCandidate(value) {
+  const candidate = plain(value).replace(/["\u0060]/g, '').trim();
+  if (!candidate || /^(https?:)?\/\//i.test(candidate)) return '';
+  const absolute = resolve(dir, candidate);
+  const relation = relative(dir, absolute);
+  if (relation === '' || relation === '..' || relation.startsWith('../')) return '';
+  return relation;
+}
+
+function standardPostAudit() {
+  const card = read('post-card.md');
+  if (!card || flagship) return false;
+
+  const activeVisual = safeRelativeCandidate(field(card, 'Active visual'));
+  const activeCaption = safeRelativeCandidate(field(card, 'Active caption'));
+  const review = read('five-reader-review.md');
+  const requiredCardFields = [
+    'Reader and real work moment',
+    'Opening tension',
+    'The visible proof',
+    'The useful keep',
+    'Saved references used',
+    'Three rough routes',
+    'Selected route and why',
+    'Active visual',
+    'Active caption',
+    'Claim boundary',
+    'Publication status',
+  ];
+  const reviewPasses = ['Stop', 'Show', 'Keep', 'True', 'Tiger']
+    .every((label) => /^(yes|pass)\b/i.test(field(review, label)));
+  const renderer = plain(field(card, 'Renderer')).toLowerCase();
+  const visualInfo = activeVisual ? pngDimensions(activeVisual) : null;
+  const checks = [
+    {
+      name: 'standard post card is complete',
+      pass: requiredCardFields.every((label) => isFilled(field(card, label))),
+      fix: 'Complete the standard post card before review.',
+    },
+    {
+      name: 'active visual pointer resolves',
+      pass: Boolean(activeVisual && has(activeVisual) && statSync(file(activeVisual)).size > 0),
+      fix: 'Point Active visual at the selected, non-empty local PNG.',
+    },
+    {
+      name: 'active caption pointer resolves',
+      pass: Boolean(activeCaption && has(activeCaption) && statSync(file(activeCaption)).size > 0),
+      fix: 'Point Active caption at the selected local caption file.',
+    },
+    {
+      name: 'active visual is a usable social PNG',
+      pass: Boolean(visualInfo && visualInfo.width >= 900 && visualInfo.height >= 900),
+      fix: 'Use a non-empty social PNG at least 900 pixels on each side.',
+    },
+    {
+      name: 'standard visual is image-engine native',
+      pass: /image/.test(renderer) && !/html|svg|overlay/.test(renderer),
+      fix: 'Set Renderer to Image engine native; do not finish a standard social visual with HTML, SVG, or overlay layers.',
+    },
+    {
+      name: 'five reader checks pass',
+      pass: reviewPasses,
+      fix: 'Complete five-reader-review.md with Stop, Show, Keep, True, and Tiger set to yes or pass.',
+    },
+  ];
+
+  let failures = 0;
+  for (const check of checks) {
+    if (check.pass) {
+      console.log('PASS ' + check.name);
+    } else {
+      failures += 1;
+      console.log('FAIL ' + check.name);
+      console.log('     ' + check.fix);
+    }
+  }
+  if (failures) {
+    console.error('\n' + failures + ' standard post check(s) failed.');
+    process.exit(1);
+  }
+  console.log('\nStandard post draft audit passed. This is not publication approval; Tiger approval is still required.');
+  process.exit(0);
+}
+
+standardPostAudit();
 
 const brief = read('creative-brief-lite.md');
 const content = read('content-brief-v2.md');

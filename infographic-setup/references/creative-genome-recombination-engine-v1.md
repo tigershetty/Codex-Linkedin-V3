@@ -51,9 +51,10 @@ Decompose each reference into:
 Preview presence never counts as a verified visual annotation. Inspect the actual image or a local
 Top-100 asset before a visual atom is marked `visually_verified`.
 
-## Creative retrieval
+## Creative retrieval for flagships
 
-Begin every LinkedIn post, flagship Substack issue, and website artifact with a structured query:
+Use structured fresh retrieval for a flagship LinkedIn post, flagship Substack issue, or website
+artifact:
 
 1. primary reader and work moment;
 2. decision, pain, ambition, or curiosity;
@@ -64,6 +65,10 @@ Begin every LinkedIn post, flagship Substack issue, and website artifact with a 
 
 Retrieve 10-15 saved references by **fit**, not by a universal quality score. The shortlist should
 contain enough variety to escape the first obvious format.
+
+For an ordinary LinkedIn post, use the Fast Post Loop instead: pull two to four references from the
+current shelf, write three rough routes, and either select or kill the subject within 25 minutes.
+The saved collection remains the north star in both routes.
 
 ## The reference bundle
 
@@ -90,14 +95,14 @@ For every selected atom record:
 
 ## Recombination, not imitation
 
-Do not adapt one creator end to end. Generate at least ten concepts by recombining different atoms
-across the shortlist. Change the argument, visual object, utility, or value bridge - not merely the
-headline wording.
+Do not adapt one creator end to end. Change the argument, visual object, utility, or value bridge -
+not merely the headline wording.
 
-Develop at least three genuinely different concept families before selection. First turn each into
-a rough visible 4:5 direction tile using `templates/creative-direction-sprint-template.md`. A
-direction is not a different headline, colour treatment, or icon. It has a different reader moment,
-first-frame hook, visual primitive, and useful keep. A useful default spread is:
+For a flagship, generate at least ten concepts and develop three genuinely different concept
+families before selection. For a standard post, generate three deliberately different rough routes
+only: each has a hook, visible proof, and saveable keep. A direction is not a different headline,
+colour treatment, or icon. It has a different reader moment, first-frame hook, visual primitive,
+and useful keep. A useful flagship spread is:
 
 - **Utility:** the clearest tool, map, reference, or working artifact;
 - **Visual idea:** the strongest metaphor, transformation, contrast, or physical object;
@@ -108,11 +113,10 @@ them. Run a forced select / hybridise / kill comparison before claim support, ca
 finished captions, or visual polishing. Select the direction with the clearest combined reader
 payoff, not the safest production path.
 
-Before producing the tiles, select a story archetype and a primary post job using
-`creative-story-archetypes-v1.md`. The selection is a creative catalyst, not a constraint: it makes
-the intended hook → friction → reveal → action sequence explicit and prevents a direction from
-becoming a good-looking but storyless operating diagram. Every selected direction must state the
-observable visual proof of its opening tension and what the caption uniquely adds.
+Before producing a flagship tile, select a story archetype and primary post job if they clarify the
+hook, friction, reveal, and action. They are creative catalysts, not constraints. Every selected
+direction must state the observable visual proof of its opening tension and what the caption
+uniquely adds.
 
 ## Reader contract
 
@@ -150,6 +154,9 @@ public result, customer outcome, case study, or reason to care.
 
 ## Operating flow
 
+The flow below is for flagships. Standard LinkedIn posts follow fast-post-loop-v1.md and do not
+produce a full reference bundle unless the post is explicitly escalated.
+
 ```text
 Measure Tiger transfer
   -> scan audience and current signals
@@ -170,7 +177,10 @@ for the claims whose burden requires it.
 
 ## Per-package files
 
-Every new major content package uses:
+Every standard LinkedIn post has one post-card.md that identifies its active visual and caption,
+the selected route, reference shelf, claim boundary, and publication status.
+
+Every flagship content package uses:
 
 - `reference-query.json` - the retrieval intent;
 - `reference-candidates.json` - deterministic shortlist;

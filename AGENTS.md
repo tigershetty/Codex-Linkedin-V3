@@ -7,15 +7,17 @@ artifact and product surface.
 ## Start here
 
 1. Read `infographic-setup/references/v4-audience-growth-operating-system.md`.
-2. Read `infographic-setup/references/creative-genome-recombination-engine-v1.md`.
+2. Choose the route: read infographic-setup/references/fast-post-loop-v1.md for an ordinary
+   LinkedIn post, or read infographic-setup/references/creative-genome-recombination-engine-v1.md
+   for a flagship.
 3. Read `tiger-voice.md`, then `infographic-setup/AGENTS.md` and `infographic-setup/CLAUDE.md`.
 
 The active order is:
 
 ```text
-saved-post Creative Genome
-  -> creative retrieval and recombination
-  -> reader and content-mode selection
+saved-post intelligence
+  -> fast post loop for ordinary LinkedIn work
+     OR full Creative Genome route for a declared flagship
   -> claim-proportionate support
   -> Tiger voice when required
   -> visual, caption, and optional artifact
@@ -37,9 +39,9 @@ saved-post Creative Genome
 ## V4 contract
 
 - Treat every saved post as a positive creative signal. Never re-litigate whether it deserves use.
-- Retrieve 10-15 references, generate ten concepts, and develop at least three genuinely different
-  **visible rough directions** before selecting a major post. A direction differs in story mechanism
-  or visual primitive, not merely in title, colour, or icon.
+- Ordinary posts use the 75-minute Fast Post Loop: two to four saved references, three rough
+  routes, a 25-minute select-or-kill point, and one active post card. Full retrieval, ten concepts,
+  and three developed directions are reserved for flagships.
 - Support each claim at the level it requires. Frameworks do not need fabricated outcome data;
   numerical, causal, company, and personal claims need traceable support.
 - Never publish internal software fixtures as customer proof or a real outcome.
@@ -64,6 +66,8 @@ Engine. Research depth follows the selected claim mode.
 ## Active authorities
 
 - Operating system: `infographic-setup/references/v4-audience-growth-operating-system.md`
+- Fast production: `infographic-setup/references/fast-post-loop-v1.md`
+- V3 repertoire: `infographic-setup/references/v3-creative-repertoire-v1.md`
 - Creative Genome: `infographic-setup/references/creative-genome-recombination-engine-v1.md`
 - Opportunity selection: `infographic-setup/references/creative-opportunity-selection.md`
 - Creative production: `infographic-setup/references/creative-engine-v4-recombination.md`
@@ -84,8 +88,11 @@ or `/ai-for-sc` plans are candidate banks. Files under dated archive folders are
 - Never delete files without explicit approval; move superseded material into a dated archive.
 - Never install packages silently.
 - Keep generated artifacts traceable to their reference bundle, claim support, prompt, and review.
+- For a standard image-led post, use an image-engine-native final. Never finish it by pasting HTML,
+  SVG, dashboard cards, or title overlays over the rendered scene.
 - Do not automate LinkedIn comments or publish without explicit approval.
-- Preserve `visual.png` as the canonical still once approved.
+- Preserve the active visual named by post-card.md once approved; do not silently treat an older
+  visual.png as the selected post.
 
 ## Deployment
 

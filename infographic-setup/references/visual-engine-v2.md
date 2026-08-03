@@ -12,7 +12,7 @@ visual argument first. Then choose the surface that expresses it most clearly an
 | Layer | Job |
 |---|---|
 | Creative Genome bundle | Attention, comprehension, utility, and bridge mechanics |
-| Recombination brief | Creative seed, ten concepts, three visible directions, and the selected assembly |
+| Recombination brief | Flagship-only creative seed, ten concepts, three visible directions, and the selected assembly |
 | Shetty's Desk Operating Studio | Default brand ownership, live decision tension, and useful visual system |
 | Claim contract | Exact limits on numbers, outcomes, comparisons, and personal authority |
 | Renderer | Execute the selected direction |
@@ -22,8 +22,8 @@ visual argument first. Then choose the surface that expresses it most clearly an
 
 | Surface | Use when |
 |---|---|
-| GPT Image 2 | Illustration, editorial object, metaphor, scene, or unusual composition carries the idea |
-| HTML/SVG | Exact wording, data, geometry, interface, comparison, or repeatable control matters most |
+| Image engine | Standard Operating Studio illustration, editorial object, metaphor, scene, or unusual composition |
+| HTML/SVG | A separate precise artifact where exact wording, data, geometry, interface, comparison, or repeatable control matters most |
 | Spreadsheet | The working model, formulas, inputs, or decision table is the value |
 | Document/PDF | A reference, field guide, checklist, or printable system is the value |
 | Website UI | Interaction, user inputs, filtering, or repeated use materially improves the outcome |
@@ -31,6 +31,9 @@ visual argument first. Then choose the surface that expresses it most clearly an
 
 No surface is automatically more premium. Do not force illustration around a spreadsheet problem or
 force a dashboard around a conceptual visual.
+
+Do not use HTML or SVG as a title-and-card layer pasted over an image-engine scene. That hybrid is
+neither a coherent rendered visual nor a useful exact artifact.
 
 ## Brand authority
 
@@ -53,11 +56,11 @@ and a clear shot - without copying its recurring character or distinctive style.
 
 ## Required visual inputs
 
-- `reference-bundle.json` with selected creative atoms and anti-copy boundaries;
-- `recombination-brief.md` with the selected direction;
-- `content-brief-v2.md` with reader, content mode, claim ledger, and channel job;
-- `creative-brief-lite.md` with one visual move and exact text;
-- selected Shetty's Desk brand frame and exact owned or official assets.
+- **Standard:** post-card.md with the selected route, two to four saved references, one visual move,
+  short on-image wording, claim boundary, and active candidate paths.
+- **Flagship:** reference bundle, recombination brief, content brief, and creative brief with the
+  selected assembly and claim ledger.
+- Selected Shetty's Desk brand frame and exact owned or official assets when they materially matter.
 
 Existing legacy packages retain their historical inputs for reproduction. New work must use the
 reference bundle.
@@ -66,8 +69,8 @@ reference bundle.
 
 Before production:
 
-1. Complete the creative direction sprint. Three rough 4:5 tiles must have visibly different story
-   mechanisms before any one direction receives full production.
+1. Standard: use the Fast Post Loop and choose or kill three rough routes at minute 25. Flagship:
+   develop three rough 4:5 directions with different story mechanisms.
 2. Select, hybridise, or kill; do not use a final render as the first meaningful comparison.
 
 Then write these sentences:
@@ -94,7 +97,7 @@ If those lines are vague, return to recombination. Do not repair a weak idea wit
   typographic references, and interfaces as equal families.
 - Keep a visual understandable without opening the caption.
 
-## GPT Image 2 path
+## Image-engine path
 
 Use a prompt compiled from the selected recombination. Lock the text and meaning, but allow composition
 freedom.
@@ -133,8 +136,9 @@ Use positive instructions. Long negative prompt blocks usually make the image co
 
 ## Exact-control path
 
-Use HTML/SVG, spreadsheet, document, or website UI when the value depends on exact content. The
-control is not required for every image-model concept. Build it when it helps answer:
+Use HTML/SVG, spreadsheet, document, or website UI when the value depends on exact content. Publish
+it as its own usable artifact, not a finishing layer over an image-engine visual. The control is not
+required for every image-model concept. Build it when it helps answer:
 
 - Can the reader use the artifact without interpretation errors?
 - Do the numbers, labels, and relationships fit honestly?
@@ -182,23 +186,19 @@ and closing frames; export both GIF and MP4 and run the motion audit.
 
 ## Package files
 
-```text
-reference-query.json
-reference-candidates.json
-reference-bundle.json
-recombination-brief.md
-content-brief-v2.md
-creative-brief-lite.md
-gpt-image-2-prompt.md             # when used
-gpt-image-2-prompt-compiled.md    # when used
-visual-output-review.md
-visual-comparison.md              # when multiple surfaces are compared
-visual.png
-visual-linkedin.png               # when a non-cropping 4:5 export is needed
-visual-motion.gif / .mp4          # when motion is earned
-publish-manifest.json
-analytics.md
-```
+Standard:
+
+    post-card.md
+    image-engine prompt and native visual
+    short five-reader review
+    caption file
+    analytics.md
+
+Flagship:
+
+    reference query, candidates, bundle, recombination brief, content brief, creative brief,
+    image-engine prompt when used, visual review, selected final visual, optional motion,
+    publish manifest, and analytics
 
 Preserve `visual.png` after approval. Create a non-cropping LinkedIn companion when needed rather
 than destructively cropping the master.

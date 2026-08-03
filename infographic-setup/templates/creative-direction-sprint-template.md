@@ -1,113 +1,50 @@
-# Creative Direction Sprint — Story-First Gate
+# Fast Direction Sprint
 
-Use this before full research, a calculator build, final caption, or visual refinement. The aim is
-to fail fast on a weak **public story**, not to prove every eventual claim.
+Use this for a standard LinkedIn post. It is deliberately small: a fast creative test, not a
+miniature production project. For a flagship, use the full recombination brief instead.
 
-This is a launchpad, not a compliance exercise. The only forced choices are: what story engine the
-reader gets, what job the post must do, and what the visual proves before the caption begins.
-Read `../references/creative-story-archetypes-v1.md` first.
+## 1. Four-line post card — ten minutes
 
-## 0. Story card — five minutes
-
-**Primary reader:**
-**Exact work moment:**
-**Archetype selected:**
-**Primary post job:** qualified reach / save / relevant follow / artifact use
+**Reader and live work moment:**
 **Opening tension:**
-**Visible proof of that tension:**
-**Reader path:** hook → friction → reveal → action
-**Saveable keep:**
-**What the caption adds that the image cannot:**
+**Visible proof:**
+**Useful keep:**
 
-Kill the candidate if this sentence cannot be completed clearly:
+Pull two to four saved references from the current shelf. Note the mechanics to borrow and the
+anti-copy boundary in one line each.
 
-> A [reader] must decide [action] when [real constraint] puts [consequence] at risk.
+## 2. Three rough routes — ten minutes
 
-## 1. Retrieval and atoms — seven minutes
+| Route | Hook | Visible proof | Saveable keep | Kill if |
+|---|---|---|---|---|
+| A |  |  |  |  |
+| B |  |  |  |  |
+| C |  |  |  |  |
 
-**Attention mechanics to borrow:**
-**Visual mechanisms to borrow:**
-**Utility mechanisms to borrow:**
-**Anti-copy boundaries:**
+These are prompt cards, sketches, or thumbnail notes. They are not rendered social posts, HTML
+mock-ups, or three versions of the same headline.
 
-## 2. Ten micro-concepts — six minutes
+## 3. Select or kill — five minutes
 
-List ten different possible hooks, contrasts, questions, visual objects, or utility formats. Do not
-polish them. A title variation does not count as a different concept.
+**Selected route:**
+**Why it wins:**
+**Caption adds:**
 
-## 3. Three visible directions — twelve minutes
+Choose the route only if the right reader can recognise the situation, see the tension, and keep
+one useful idea. If none does, park the topic now.
 
-Create a rough 4:5 tile for each direction and complete the fields below. A tile may be a
-wireframe, rough scene, or textless illustrated composition with exact headline overlay.
+## 4. Build one native visual and one caption
 
-### Direction A
+Use the image engine to render the selected Operating Studio scene as one coherent composition.
+Do not use HTML, SVG, or title overlays to finish it. Let the caption add the human conflict,
+reasoning, limitation, or judgment the scene does not show.
 
-**Name:**
-**Archetype and job:**
-**First-frame hook:**
-**Reader moment:**
-**Visual argument / physical mechanism:**
-**Visible proof of the opening tension:**
-**Eye path:**
-**What the reader saves:**
-**Caption's extra work (2–3 sentences, not the full caption):**
-**Kill if:**
+## 5. Stop after five checks
 
-### Direction B
+1. Stop: recognisable in three seconds.
+2. Show: tension visible without the caption.
+3. Keep: one rule, map, or distinction worth saving.
+4. True: claims fit the support available.
+5. Tiger: sounds like a person making a clear point.
 
-**Name:**
-**Archetype and job:**
-**First-frame hook:**
-**Reader moment:**
-**Visual argument / physical mechanism:**
-**Visible proof of the opening tension:**
-**Eye path:**
-**What the reader saves:**
-**Caption's extra work (2–3 sentences, not the full caption):**
-**Kill if:**
-
-### Direction C
-
-**Name:**
-**Archetype and job:**
-**First-frame hook:**
-**Reader moment:**
-**Visual argument / physical mechanism:**
-**Visible proof of the opening tension:**
-**Eye path:**
-**What the reader saves:**
-**Caption's extra work (2–3 sentences, not the full caption):**
-**Kill if:**
-
-## 4. Forced decision — five minutes
-
-| Test | A | B | C |
-|---|---|---|---|
-| Stops the right reader in three seconds |  |  |  |
-| Makes the tension visible without caption |  |  |  |
-| Has a distinct, original visual mechanism |  |  |  |
-| Leaves a useful model, not just a maxim |  |  |  |
-| Uses one clear story engine and one primary post job |  |  |  |
-| Feels like Shetty's Desk Operating Studio |  |  |  |
-
-**Decision:** select / hybridise / kill
-
-**Why:**
-
-### Five-minute art-direction kill test
-
-- Can the reader see a specific work moment and consequence, rather than a generic B2B process?
-- Does one physical mechanism do the argument, rather than detached summary cards?
-- With the headline covered, is the collision still obvious?
-- Does the hero occupy the middle of the canvas with operating context, decision object, and action?
-- Is there one reading route from pressure → gate → consequence?
-- Can the reader keep a reusable rule, reference, or map from the image alone?
-- Would this still look specific and compelling at LinkedIn feed size?
-
-One critical “no” means redraw or kill the direction. Do not use polish to conceal it.
-
-## 5. Only after selection
-
-Choose the content and claim mode, run only proportionate support, then build the selected visual,
-caption, and optional artifact. Do not use a polished calculator, research brief, or finished
-caption as a substitute for a strong direction.
+One critical no means revise once or park it.

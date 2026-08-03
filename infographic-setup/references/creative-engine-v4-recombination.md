@@ -11,23 +11,21 @@ The engine does not choose the topic and does not revalidate the saved reference
 
 ## Required inputs
 
-- approved `reference-bundle.json`;
-- completed `recombination-brief.md`, creative seed, and three visible rough directions with a
-  forced select / hybridise / kill decision;
-- a selected story archetype, primary post job, and visible proof of the opening tension;
-- `content-brief-v2.md` with reader, content mode, claim contract, and channel job;
-- claim support appropriate to the statements being made;
-- Tiger source note when personal judgment or first-person authority is used;
-- `references/brand-kits/shettys-desk-operating-studio/FRAME.md` as the default brand authority,
-  unless the brief explicitly selects the secondary Cobalt Grid expression.
+- **Standard post:** a post card, two to four saved references, three rough routes, a selected
+  visible proof, claim boundary, and Tiger source note when personal judgment is used.
+- **Flagship:** an approved reference bundle, recombination brief, creative seed, three visible
+  rough directions, content brief, claim support, and Tiger source note where appropriate.
+- The Operating Studio frame is the default brand authority unless the brief explicitly selects the
+  secondary Cobalt Grid expression.
 
 ## Production flow
 
 1. Confirm one reader promise and the 3/10/30-second contract.
 2. Select or hybridise the strongest direction from the visible sprint, not the easiest renderer.
 3. Build `creative-brief-lite.md` from the selected recombination.
-4. Choose GPT Image 2, HTML/SVG, spreadsheet, document, or another surface based on the idea and
-   exactness required. No renderer is the creative strategy.
+4. Use the image engine for a standard Operating Studio social visual. Use HTML/SVG, spreadsheet,
+   document, or another surface only when that separate artifact is the reader value. No renderer is
+   the creative strategy.
 5. Compile the packet and prompt when an image model is used.
 6. Review mobile comprehension, utility, originality, brand, claim integrity, and anti-copy boundaries.
 7. Add motion only when sequence or change materially improves the argument.
@@ -49,6 +47,9 @@ The engine does not choose the topic and does not revalidate the saved reference
   from third-party geometry.
 - Use illustration references as method inspiration, not as a copied recurring character or style.
 - Keep on-image wording short, exact, and attached to the correct object.
+- Do not use HTML or SVG overlays to finish an image-engine-led social visual. If exact labels,
+  formulas, or data matter more than the scene, publish a separate precise artifact rather than
+  faking a hybrid social image.
 
 ## Complementary caption rule
 
@@ -63,7 +64,8 @@ Before rendering, confirm:
 - the selected creative atoms are visible in the plan;
 - the image has one stop-scroll object and a clear eye path;
 - the useful takeaway is present on the image;
-- exact text has one intended home;
+- the image-engine text is short enough to be inspected for legibility, or exact content lives in
+  a separate artifact;
 - any number or outcome follows the claim contract;
 - the anti-copy boundary is explicit;
 - the renderer has composition freedom without permission to invent content;
