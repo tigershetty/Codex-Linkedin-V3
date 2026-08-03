@@ -65,8 +65,11 @@ Read `creative-genome-recombination-engine-v1.md` before selecting or producing 
 - All saved posts have `positive_creative_signal=true`.
 - Saved status is enough for creative use; no second validity debate is required.
 - Retrieve 10-15 relevant references before narrowing the idea.
-- Write a creative seed, generate ten concepts, and make at least three meaningfully different
+- Select one story archetype and one primary post job before drafting. Then write a creative seed,
+  generate ten concepts, and make at least three meaningfully different
   visible rough directions before final production.
+- Require visible proof of the opening tension in the selected image; captions add the next layer,
+  rather than explaining what the image failed to show.
 - Build a coherent attention, comprehension, utility, and bridge bundle.
 - Borrow mechanisms, not wording, subject matter, art, identity, or branding.
 - Use Tiger results to learn transfer, never to invalidate the saved source.
@@ -212,7 +215,7 @@ Creative Genome, the reader contract, claim support, or Tiger voice.
 
 ## Active authorities
 
-- Creative intelligence: `creative-genome-recombination-engine-v1.md`
+- Creative intelligence: `creative-genome-recombination-engine-v1.md`, `creative-story-archetypes-v1.md`
 - Opportunity selection: `creative-opportunity-selection.md`
 - Audience: `audience-intelligence.md`
 - Voice and provenance: `../../tiger-voice.md`, `tiger-source-gate-v1.md`

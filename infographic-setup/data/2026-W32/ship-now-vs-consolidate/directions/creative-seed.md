@@ -50,20 +50,20 @@ These are not three colour variants. They are three different ways into the same
 
 At mobile size, which tile would make a practitioner stop because it resembles a real decision they have had to make — and then save because it gives them a clearer way to handle it?
 
-## Sprint result — 2026-08-03
+## Sprint result — 2026-08-03 (corrected after independent review)
 
-**Selected:** Direction 01 — *Which order gets to wait?*
+**Selected:** Direction 03 rebuilt as *Customer-Safe Timing Corridor*.
 
-It wins the reach test because the release decision is immediately legible before any framework is
-introduced: a ready pallet, a tempting wait path, and a customer need-by gate. Direction 02 is
-retained as a future KAM/Purchasing ownership post; Direction 03 is retained as a future
-high-save timing-reference post. Neither needs to be forced into the first post.
+The first Direction 01 candidate was a visual hard fail: it had an attractive route switch but did
+not make the governing fact visible. The reader could not see the shrinking time allowance between
+the ready PO, uncertain second PO, last safe departure, and customer need-by. Direction 03 supplies
+that proof and gives the reader a compact release rule, so it now serves both the stop and the save.
 
 | Direction | Rough visual test | Decision |
 |---|---|---|
-| 01 | `../visual-v2.png` | selected for final caption and review |
+| 01 | `../visual-v2.png` | hard-failed; preserve as non-selected control, do not polish or publish |
 | 02 | `../visual-assets/ship-now-vs-consolidate-direction-02-hero-4x5.png` | retain as leadership sequel; generic role panels need a stronger public hook before polish |
-| 03 | `../visual-assets/ship-now-vs-consolidate-direction-03-hero-4x5.png` | retain as date-corridor sequel; strong save utility, less immediate human tension |
+| 03 | `../visual-assets/customer-safe-timing-corridor-v1.png` | selected as the full timing-corridor rebuild; production brief `03-production-brief-v2.md` |
 
-The test chooses the story, not the most elaborate render. The old Cobalt visual remains a
-non-selected technical control and is not part of this comparison.
+The test chooses the story and visible proof, not the most elaborate render. The old Cobalt visual
+and Direction 01 visual remain non-selected technical controls and are not part of this comparison.

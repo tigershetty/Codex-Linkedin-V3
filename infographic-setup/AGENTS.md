@@ -20,7 +20,7 @@ This folder is the active Shetty's Desk creative-intelligence and content-produc
 reference-query.json
   -> 10-15 saved reference candidates
   -> reference-bundle.json
-  -> creative seed + 10 concepts
+  -> story archetype + primary post job + creative seed + 10 concepts
   -> at least 3 distinct visible direction tiles
   -> forced select / hybridise / kill gate
   -> selected content mode and claim contract
@@ -118,6 +118,8 @@ analytics.md
 - Never invent facts, numbers, outcomes, personal authority, or customer proof.
 - Never copy a source creator's wording, subject, branding, artwork, or distinctive expression.
 - Keep one reader promise and one primary reading route.
+- Pick a story archetype and post job from `references/creative-story-archetypes-v1.md`; require
+  visible proof of the opening tension, not merely a pretty scene beside it.
 - Ensure the problem or promise is visible in 3 seconds, the idea in 10, and useful action in 30.
 - Make caption and visual complementary.
 - Run `templates/creative-direction-sprint-template.md` before full production. Do not use a

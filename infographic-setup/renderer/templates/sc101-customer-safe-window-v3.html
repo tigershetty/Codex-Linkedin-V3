@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../assets/fonts.css">
+<style>
+  :root {
+    --azure: #2798FB;
+    --royal: #247BE1;
+    --deep: #215DC3;
+    --navy: #15315C;
+    --eco: #38E6A6;
+    --eco-deep: #159B6B;
+    --mint: #8FF3CC;
+    --coral: #E27199;
+    --coral-deep: #C84E78;
+    --muted: #5D7599;
+    --line: #DCEAF8;
+    --ice: #F3F9FE;
+  }
+
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1080px; min-height: 1350px; }
+
+  #card {
+    position: relative;
+    width: 1080px;
+    height: 1350px;
+    overflow: hidden;
+    padding: 54px 62px 34px;
+    color: var(--navy);
+    font-family: "Poppins", Arial, sans-serif;
+    background:
+      radial-gradient(ellipse 55% 27% at 102% 0%, rgba(56,230,166,.15) 0%, rgba(56,230,166,0) 72%),
+      radial-gradient(ellipse 50% 34% at -6% 44%, rgba(39,152,251,.13) 0%, rgba(39,152,251,0) 72%),
+      linear-gradient(180deg, #FFFFFF 0%, #FAFCFF 47%, #EEF7FF 100%);
+  }
+
+  .kicker {
+    color: var(--azure);
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: .145em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin-top: 10px;
+    max-width: 915px;
+    color: var(--navy);
+    font-size: 57px;
+    font-weight: 800;
+    letter-spacing: -2.05px;
+    line-height: .94;
+  }
+
+  h1 .question { color: var(--coral-deep); }
+
+  .top-rule {
+    width: 100%;
+    height: 5px;
+    margin: 17px 0 13px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--azure) 0%, var(--royal) 44%, rgba(39,152,251,0) 100%);
+  }
+
+  .deck {
+    max-width: 850px;
+    color: var(--muted);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -.22px;
+    line-height: 1.28;
+  }
+
+  .scene {
+    position: relative;
+    height: 536px;
+    margin: 23px -26px 0;
+    overflow: hidden;
+    border: 1px solid rgba(178,215,247,.92);
+    border-radius: 35px;
+    background: #F5FAFF;
+    box-shadow: 0 27px 56px rgba(33,93,195,.14), inset 0 0 0 1px rgba(255,255,255,.92);
+  }
+
+  .scene::after {
+    position: absolute;
+    z-index: 2;
+    inset: 0;
+    content: "";
+    pointer-events: none;
+    background:
+      linear-gradient(180deg, rgba(255,255,255,.2) 0%, rgba(255,255,255,0) 20%, rgba(255,255,255,0) 74%, rgba(242,248,255,.3) 100%),
+      linear-gradient(90deg, rgba(255,255,255,.16), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 82%, rgba(255,255,255,.1));
+  }
+
+  .scene img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 62%;
+    filter: saturate(1.05) contrast(1.015);
+  }
+
+  .scene-label {
+    position: absolute;
+    z-index: 3;
+    min-width: 131px;
+    padding: 9px 11px 10px;
+    border: 1px solid rgba(255,255,255,.94);
+    border-radius: 15px;
+    background: rgba(255,255,255,.9);
+    box-shadow: 0 10px 22px rgba(26,80,145,.15);
+    backdrop-filter: blur(9px);
+  }
+
+  .scene-label .name {
+    display: block;
+    color: var(--muted);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .085em;
+    line-height: 1.05;
+    text-transform: uppercase;
+  }
+
+  .scene-label .state {
+    display: block;
+    margin-top: 3px;
+    color: var(--navy);
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: -.3px;
+    line-height: 1.08;
+  }
+
+  .scene-label.ready { left: 25px; bottom: 23px; }
+  .scene-label.ready .state { color: var(--deep); }
+  .scene-label.uncertain { left: 85px; top: 26px; }
+  .scene-label.uncertain .state { color: var(--coral-deep); }
+  .scene-label.gate { left: 390px; top: 35px; }
+  .scene-label.gate .state { color: var(--eco-deep); }
+  .scene-label.customer { right: 24px; top: 39px; }
+  .scene-label.customer .state { color: var(--navy); }
+
+  .window-badge {
+    position: absolute;
+    z-index: 3;
+    right: 248px;
+    bottom: 44px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 13px;
+    border: 1px solid rgba(56,230,166,.55);
+    border-radius: 999px;
+    background: rgba(245,255,251,.93);
+    box-shadow: 0 9px 20px rgba(21,155,107,.14);
+    color: var(--eco-deep);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+
+  .window-badge .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--eco);
+    box-shadow: 0 0 0 4px rgba(56,230,166,.18);
+  }
+
+  .rail-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 1px 10px;
+  }
+
+  .rail-heading span:first-child {
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+  }
+
+  .rail-heading span:last-child {
+    color: var(--deep);
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .timeline {
+    display: grid;
+    grid-template-columns: 1.1fr 25px 1.35fr 25px 1.32fr 25px 1.14fr;
+    align-items: center;
+    min-height: 72px;
+    padding: 10px 13px;
+    border: 1px solid rgba(198,224,248,.94);
+    border-radius: 18px;
+    background: rgba(255,255,255,.89);
+    box-shadow: 0 12px 28px rgba(33,93,195,.08);
+  }
+
+  .time-step {
+    min-width: 0;
+  }
+
+  .time-step .number {
+    display: inline-grid;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    place-items: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+    vertical-align: 1px;
+  }
+
+  .time-step .text {
+    color: var(--navy);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: -.08px;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
+
+  .time-step.ready .number { background: var(--royal); }
+  .time-step.range .number { background: var(--coral-deep); }
+  .time-step.gate .number { background: var(--eco-deep); }
+  .time-step.need .number { background: var(--navy); }
+
+  .arrow {
+    position: relative;
+    color: #92BDE8;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .arrow.safe { color: var(--eco-deep); }
+
+  .release-rule {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 15px;
+    padding: 15px 18px;
+    border: 1px solid rgba(39,152,251,.21);
+    border-radius: 18px;
+    background: linear-gradient(102deg, rgba(39,152,251,.1) 0%, rgba(56,230,166,.15) 100%);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.9);
+  }
+
+  .rule-mark {
+    width: 40px;
+    height: 40px;
+    flex: 0 0 auto;
+    display: grid;
+    place-items: center;
+    border-radius: 13px;
+    background: linear-gradient(135deg, var(--mint), var(--eco));
+    box-shadow: 0 8px 16px rgba(21,155,107,.18), inset 0 1px 0 rgba(255,255,255,.6);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 900;
+  }
+
+  .rule-copy .label {
+    display: block;
+    color: var(--deep);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: .11em;
+    text-transform: uppercase;
+  }
+
+  .rule-copy strong {
+    display: block;
+    margin-top: 2px;
+    color: var(--navy);
+    font-size: 19px;
+    font-weight: 800;
+    letter-spacing: -.45px;
+    line-height: 1.17;
+  }
+
+  .rule-copy strong b { color: var(--eco-deep); }
+
+  .boundary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    margin-top: 13px;
+    overflow: hidden;
+    border: 1px solid rgba(212,229,246,.98);
+    border-radius: 16px;
+    background: rgba(255,255,255,.86);
+    box-shadow: 0 10px 23px rgba(33,93,195,.06);
+  }
+
+  .boundary > div {
+    min-height: 55px;
+    padding: 11px 14px;
+  }
+
+  .boundary > div + div {
+    border-left: 1px solid var(--line);
+  }
+
+  .boundary .small {
+    display: block;
+    color: var(--muted);
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .11em;
+    text-transform: uppercase;
+  }
+
+  .boundary strong {
+    display: block;
+    margin-top: 2px;
+    color: var(--navy);
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: -.15px;
+    line-height: 1.15;
+  }
+
+  .boundary .release strong { color: var(--coral-deep); }
+  .boundary .exception strong { color: var(--deep); }
+
+  .footer-rule {
+    position: absolute;
+    right: 62px;
+    bottom: 93px;
+    left: 62px;
+    height: 3px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--azure), var(--eco) 58%, rgba(56,230,166,0));
+  }
+
+  .footer {
+    position: absolute;
+    right: 62px;
+    bottom: 28px;
+    left: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer img {
+    width: 62px;
+    height: 62px;
+    object-fit: contain;
+  }
+
+  .byline {
+    color: var(--navy);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: right;
+  }
+
+  .byline span {
+    display: block;
+    margin-top: 1px;
+    color: var(--muted);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+<main id="card">
+  <div class="kicker">Supply Chain 101 · Inbound Freight</div>
+  <h1>Hold this ready<br>shipment until<br>tomorrow<span class="question">?</span></h1>
+  <div class="top-rule"></div>
+  <p class="deck">A cheaper freight quote is not the same as time to wait.</p>
+
+  <section class="scene" aria-label="Customer-safe timing corridor">
+    <img src="../assets/generated/customer-safe-timing-corridor-v1.png" alt="">
+    <div class="scene-label ready"><span class="name">PO A</span><span class="state">Ready now</span></div>
+    <div class="scene-label uncertain"><span class="name">PO B</span><span class="state">Credible ready range</span></div>
+    <div class="scene-label gate"><span class="name">Last safe</span><span class="state">Departure</span></div>
+    <div class="scene-label customer"><span class="name">Customer</span><span class="state">Need-by</span></div>
+    <div class="window-badge"><span class="dot"></span>Wait window</div>
+  </section>
+
+  <div class="rail-heading">
+    <span>Read the release from left to right</span>
+    <span>Customer date first.</span>
+  </div>
+
+  <section class="timeline" aria-label="The four timing checks">
+    <div class="time-step ready"><span class="number">1</span><span class="text">Ready now</span></div>
+    <span class="arrow">›</span>
+    <div class="time-step range"><span class="number">2</span><span class="text">B ready range</span></div>
+    <span class="arrow safe">›</span>
+    <div class="time-step gate"><span class="number">3</span><span class="text">Last safe departure</span></div>
+    <span class="arrow">›</span>
+    <div class="time-step need"><span class="number">4</span><span class="text">Customer need-by</span></div>
+  </section>
+
+  <section class="release-rule" aria-label="Release rule">
+    <span class="rule-mark">✓</span>
+    <div class="rule-copy">
+      <span class="label">Release rule</span>
+      <strong>Hold only if B's <b>latest credible ready date</b> clears the last safe departure.</strong>
+    </div>
+  </section>
+
+  <section class="boundary" aria-label="Decision boundary">
+    <div class="release"><span class="small">Range crosses the gate?</span><strong>Release PO A.</strong></div>
+    <div class="exception"><span class="small">No clear date?</span><strong>KAM + Purchasing Manager escalate.</strong></div>
+  </section>
+
+  <div class="footer-rule"></div>
+  <footer class="footer">
+    <img src="../assets/logos/shettys-desk-logo-2.png" alt="Shetty's Desk">
+    <div class="byline">Poornajith Shetty<span>Shetty's Desk</span></div>
+  </footer>
+</main>
+</body>
+</html>

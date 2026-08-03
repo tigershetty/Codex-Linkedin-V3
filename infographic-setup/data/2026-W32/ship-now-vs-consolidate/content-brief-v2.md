@@ -5,7 +5,7 @@
 **Content ID:** `2026-W32-ship-now-vs-consolidate-linkedin-01`  
 **creative_bundle_id:** `CB-2026-W32-C3-LAST-SAFE-DEPARTURE-01`  
 **Genome snapshot:** `creative-genome-2026-08-02-v1`  
-**Stage:** retained non-selected creative control; do not publish, refine, or use the existing visual/caption as the active candidate. The technical package remains intact for learning. The active replacement starts at `directions/creative-seed.md` and must pass the V3-derived direction sprint before production.  
+**Stage:** retained non-selected creative control; do not publish, refine, or use the existing visual/caption as the active candidate. The technical package remains intact for learning. The active replacement is `directions/03-production-brief-v2.md` and its `visual-v3.png` / `linkedin-caption-v3.md` draft pair.
 **Lane:** Supply Chain 101 with a website decision-tool continuation  
 **Claim mode:** `formula_or_method`
 

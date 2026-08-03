@@ -1,6 +1,6 @@
 # Direction 01 Production Brief — Which Order Gets to Wait?
 
-**Status:** selected candidate after the rapid direction sprint; final Tiger approval and publication remain pending.  
+**Status:** hard-failed after independent visual review; retained only as a non-selected control. Do not refine or publish.
 **Creative family:** operating scene / decision story  
 **Brand expression:** Shetty's Desk Operating Studio  
 **Brand frame:** `references/brand-kits/shettys-desk-operating-studio/FRAME.md`

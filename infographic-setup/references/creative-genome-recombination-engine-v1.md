@@ -108,6 +108,12 @@ them. Run a forced select / hybridise / kill comparison before claim support, ca
 finished captions, or visual polishing. Select the direction with the clearest combined reader
 payoff, not the safest production path.
 
+Before producing the tiles, select a story archetype and a primary post job using
+`creative-story-archetypes-v1.md`. The selection is a creative catalyst, not a constraint: it makes
+the intended hook → friction → reveal → action sequence explicit and prevents a direction from
+becoming a good-looking but storyless operating diagram. Every selected direction must state the
+observable visual proof of its opening tension and what the caption uniquely adds.
+
 ## Reader contract
 
 Backstage intelligence may be complex. The public output must be simple:
@@ -116,6 +122,7 @@ Backstage intelligence may be complex. The public output must be simple:
 - the main insight is understandable in **10 seconds**;
 - a useful action, reference, or next step is available in **30 seconds**;
 - the visual has one dominant message and one primary reading route;
+- the visual itself proves the opening tension before the reader needs the caption;
 - the caption and visual add different value instead of duplicating each other.
 
 ## Content modes and claim support

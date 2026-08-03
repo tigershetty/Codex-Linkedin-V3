@@ -14,6 +14,7 @@ The engine does not choose the topic and does not revalidate the saved reference
 - approved `reference-bundle.json`;
 - completed `recombination-brief.md`, creative seed, and three visible rough directions with a
   forced select / hybridise / kill decision;
+- a selected story archetype, primary post job, and visible proof of the opening tension;
 - `content-brief-v2.md` with reader, content mode, claim contract, and channel job;
 - claim support appropriate to the statements being made;
 - Tiger source note when personal judgment or first-person authority is used;
@@ -34,6 +35,8 @@ The engine does not choose the topic and does not revalidate the saved reference
 ## Visual rules
 
 - Use one dominant object and one primary reading route.
+- Make the opening tension visible with the headline covered. A beautiful scene that needs the
+  caption to supply its central collision is not a final direction.
 - Let support modules explain the hero; do not make every fact a separate card.
 - Treat 3D/isometric, flat editorial illustration, charts, diagrams, photographed artifacts, and
   typographic references as equal pattern families. Pick the one that makes the argument clearest.
@@ -73,6 +76,7 @@ Pass only when all are true:
 - problem or promise is visible in 3 seconds;
 - main idea is understandable in 10 seconds;
 - a useful action or reference is available in 30 seconds;
+- the image visibly proves the opening tension and has a specific work moment;
 - the visual and caption are complementary;
 - the result can be traced to the bundle without looking like any one source post;
 - the design feels like Shetty's Desk;
@@ -84,6 +88,7 @@ Hard fails:
 
 - generic card-grid or AI-showroom output;
 - a polished rule, calculator, or diagram with no visible work moment or story tension;
+- a generic physical scene whose visual object does not prove the headline;
 - copied wording, composition, character, or branding;
 - invented number, outcome, customer proof, or personal authority;
 - a visual that requires the caption to explain what it is;
