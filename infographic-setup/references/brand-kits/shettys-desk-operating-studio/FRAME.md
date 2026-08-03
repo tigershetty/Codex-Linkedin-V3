@@ -1,7 +1,7 @@
 ---
 version: v1
 name: Shetty's Desk — Operating Studio
-status: Default visual expression for new LinkedIn operating artifacts
+status: Default visual expression for new LinkedIn operating artifacts after route choice
 source_of_truth: ../../../Brand Kit/brand-tokens.json
 canvas: 1080x1350 (4:5)
 ---
@@ -24,7 +24,7 @@ post look identical or use an isometric scene.
 Every visual begins with this sequence:
 
 ```text
-live reader tension -> physical or visual decision mechanism -> useful operating model -> small brand signature
+live reader tension -> physical or visual decision mechanism -> useful operating model
 ```
 
 - **At feed size:** show the collision, question, or promise.
@@ -46,7 +46,7 @@ Use `Brand Kit/brand-tokens.json` as the source of truth.
 | Risk, friction, expensive, late, exception | coral `#E27199`, used sparingly |
 | Type | Poppins or a close geometric sans; strong, short hierarchy; never an editorial serif default |
 | Materials | frosted panels, soft gradients, clean depth, long diffused shadows; never photorealistic |
-| Identity | exact owned Shetty's Desk logo in a small footer or placard; never redraw it |
+| Identity | exact owned Shetty's Desk logo only when it can live inside an approved carousel or separate artifact; standard native scenes rely on the profile and caption, and never redraw the mark |
 
 Green is never decorative. It means the protected promise, verified path, or recommended action.
 Coral is never decorative. It means the exposure, constraint, cost, or exception.
@@ -57,8 +57,8 @@ Coral is never decorative. It means the exposure, constraint, cost, or exception
   contrast, or a route through a real system.
 - Use a **central visual spine**: a route, gate, board, timeline, queue, corridor, loading dock,
   ladder, machine, or other object that makes the argument visible.
-- Let the support modules be part of the story: a status chip, a short rule, a visible owner, a
-  timing window, or a small decision card. Do not turn them into a dashboard mosaic.
+- A short rule, owner, timing window, or label may belong to the physical story, but it is never a
+  required module. Do not turn a scene into a dashboard mosaic just to make it feel useful.
 - Use density as a reward for looking closer, not tiny text. The reader should understand the
   visual even if they never read the caption.
 - Use people only when they clarify a role, hand-off, or human consequence. Avoid generic mascot
@@ -77,16 +77,17 @@ Coral is never decorative. It means the exposure, constraint, cost, or exception
 
 No permanent grid, two-colour restriction, or mandatory isometric scene applies to this frame.
 
-### Strong default composition — 1080 x 1350
+### Composition principles — 1080 x 1350
 
-1. **Opening zone (top 18–24%)** — a concise tension-led headline; small kicker only if it helps.
-2. **Operating scene (middle 52–60%)** — one hero mechanism and one clear left-to-right or
-   top-to-bottom eye path.
-3. **Useful close (bottom 18–24%)** — a compact decision rule, three checks, or reader action.
-4. **Footer (small)** — logo/signature and sources only when a source is genuinely needed.
+There is no mandatory headline zone, lower takeaway panel, footer, logo, or fixed camera angle. A
+standard native scene is one composition, not a template assembled from zones. Typography may be
+part of the picture when it carries the tension, while the profile and caption provide identity and
+method.
 
-The headline should make sense without a subtitle. The hero should still work if the headline is
-covered. The close should give a reader something worth saving.
+The scene needs one clear eye path and one useful operating model. It should still work if a
+headline is covered, but it does not need to repeat its rule in a lower strip. If exact sources,
+formulas, or instructions are necessary, use the caption or a deliberately chosen precision artifact
+rather than compressing them into the scene.
 
 ## Direction sprint standard
 
@@ -122,3 +123,9 @@ production and claim support. This is a creative test, not a three-variant produ
 notes, sharp single-framework statements, or a clearly chosen series. It is **not** the default
 for primary operating scenes, decision tools, or the first creative test. Select it explicitly in
 the brief when its two-colour editorial restraint makes the reader's job clearer.
+
+## V3 creative direction
+
+Use `../../operational-decision-cinema-v1.md` to judge the owned V3 expression: one physical
+operating trade-off, spatial consequence, semantic material, and embedded utility. It is a light
+creative direction, not a replacement for the Fast Post Loop or a permanent visual template.

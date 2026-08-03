@@ -8,3 +8,7 @@
 Choose the expression in the creative brief. Brand expression is a reader-comprehension decision,
 not a decorative afterthought. The default uses `Brand Kit/brand-tokens.json`; neither expression
 permits redrawing the owned logo or copying a saved creator's look.
+
+For an ordinary LinkedIn post, the default expression is one image-engine-native composition.
+The Brand Kit's modular rules apply only to an explicitly selected carousel or precision artifact;
+they never justify HTML/SVG or logo layers pasted over a native final visual.

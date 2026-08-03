@@ -60,14 +60,16 @@ saved-post intelligence
 - `/101`: plain-language decision distinctions, frameworks, references, and practical foundations.
 - `/ai-for-sc`: role-specific AI workflows with real inputs and outputs, validation, and human ownership.
 
-Neither lane receives a fixed weekly quota. Both begin with the Creative Genome and Recombination
-Engine. Research depth follows the selected claim mode.
+Neither lane receives a fixed weekly quota. Both draw on Creative Genome intelligence; only a
+declared flagship enters the full Genome and Recombination route. Research depth follows the
+selected claim mode.
 
 ## Active authorities
 
 - Operating system: `infographic-setup/references/v4-audience-growth-operating-system.md`
 - Fast production: `infographic-setup/references/fast-post-loop-v1.md`
 - V3 repertoire: `infographic-setup/references/v3-creative-repertoire-v1.md`
+- V3 creative direction: `infographic-setup/references/operational-decision-cinema-v1.md`
 - Creative Genome: `infographic-setup/references/creative-genome-recombination-engine-v1.md`
 - Opportunity selection: `infographic-setup/references/creative-opportunity-selection.md`
 - Creative production: `infographic-setup/references/creative-engine-v4-recombination.md`
@@ -87,7 +89,8 @@ or `/ai-for-sc` plans are candidate banks. Files under dated archive folders are
 - Check for existing files before creating new ones.
 - Never delete files without explicit approval; move superseded material into a dated archive.
 - Never install packages silently.
-- Keep generated artifacts traceable to their reference bundle, claim support, prompt, and review.
+- Keep generated artifacts traceable to their selected reference shelf or flagship bundle, claim
+  support, prompt, and review.
 - For a standard image-led post, use an image-engine-native final. Never finish it by pasting HTML,
   SVG, dashboard cards, or title overlays over the rendered scene.
 - Do not automate LinkedIn comments or publish without explicit approval.

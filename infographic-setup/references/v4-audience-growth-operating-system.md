@@ -210,10 +210,11 @@ Keep outcomes separate:
   replies, shares, recommendations, and repeat reading;
 - **Website:** qualified visits, downloads, starts, completions, return use, and voluntary subscriptions.
 
-Link every new output to `creative_bundle_id`, `genome_reference_ids`, `creative_element_ids`,
-`content_mode`, and `claim_mode`. Record whether the assembly transferred and an `element_transfer`
-result for each accepted creative element. Do not
-rewrite the creative source's positive-signal status.
+Link a standard output to its `post-card.md`, saved reference IDs, `content_mode`, and `claim_mode`.
+Link a flagship output to `creative_bundle_id`, `genome_reference_ids`, `creative_element_ids`,
+`content_mode`, and `claim_mode`. Record whether the assembly transferred and an
+`element_transfer` result for each accepted creative element. Do not rewrite the creative source's
+positive-signal status.
 
 ## Adding news and trends later
 
@@ -223,7 +224,8 @@ Creative Genome, the reader contract, claim support, or Tiger voice.
 
 ## Active authorities
 
-- Fast weekly production: `fast-post-loop-v1.md`, `v3-creative-repertoire-v1.md`
+- Fast weekly production: `fast-post-loop-v1.md`, `v3-creative-repertoire-v1.md`,
+  `operational-decision-cinema-v1.md`
 - Creative intelligence: `creative-genome-recombination-engine-v1.md`, `creative-story-archetypes-v1.md`
 - Opportunity selection: `creative-opportunity-selection.md`
 - Audience: `audience-intelligence.md`

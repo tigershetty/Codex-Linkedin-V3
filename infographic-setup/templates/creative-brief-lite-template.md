@@ -1,4 +1,7 @@
-# Creative Brief Lite — Recombination Template
+# Creative Brief Lite — Flagship Recombination Template
+
+**Scope:** Use only for a declared flagship. A standard LinkedIn post uses `post-card.md`, three
+rough routes, a native visual, a complementary caption, and the five-reader review instead.
 
 **Week:** `{YYYY-W##}`
 **Slug:** `{slug}`

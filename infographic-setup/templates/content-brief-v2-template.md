@@ -1,4 +1,8 @@
-# Content Brief v2 — Creative Genome Template
+# Content Brief v2 — Flagship Creative Genome Template
+
+**Scope:** Use only for a declared flagship. A standard LinkedIn post keeps its reader promise,
+saved-reference shelf, three rough routes, claim boundary, active visual, and caption in
+`post-card.md`.
 
 **Week:** `{YYYY-W##}`
 **Slug:** `{slug}`

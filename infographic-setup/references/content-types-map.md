@@ -16,7 +16,9 @@ posts before assigning a production lane; the old seven-month calendar is a cand
 
 **What:** Educational lane for accepted supply-chain decisions and foundations in plain language. Its weekly allocation is evidence-led, not fixed.
 **Audience:** experts AND non-practitioners.
-**Pipeline:** Creative Genome retrieval → ten concepts → three developed directions → selected content and claim mode → `/101 [topic]`.
+**Pipeline:** Standard: Fast Post Loop (2–4 saved references → 3 rough routes → select/kill → one
+native post). Flagship: Creative Genome retrieval → ten concepts → three developed directions →
+selected content and claim mode → `/101 [topic]`.
 **Visual:** **Visual Engine v2.2** — select GPT Image 2, HTML/SVG, spreadsheet, document, or website UI after the creative direction.
 **Voice:** plain language, metaphor-led, series framing. `references/101-voice.md` + `tiger-voice.md`.
 **Topic source:** `references/101-plan.md`. **Tracker:** `data/101-series-tracker.md`. **Output:** `101-copy.md`.
@@ -27,7 +29,9 @@ posts before assigning a production lane; the old seven-month calendar is a cand
 
 **What:** Practical AI use cases for specific SC roles. Its weekly allocation and theme are evidence-led, not fixed.
 **Audience:** any SC role — the role is set by the use case (purchaser, planner, logistics coordinator, etc.).
-**Pipeline:** Creative Genome retrieval → ten concepts → three developed directions → selected workflow and claim mode → `/ai-for-sc [week] [use-case-slug]`.
+**Pipeline:** Standard: Fast Post Loop (2–4 saved references → 3 rough routes → select/kill → one
+native post). Flagship: Creative Genome retrieval → ten concepts → three developed directions →
+selected workflow and claim mode → `/ai-for-sc [week] [use-case-slug]`.
 **Visual:** **Visual Engine v2.2** — choose the renderer after the argument; use deterministic surfaces when exact data, text, or interaction carries the value.
 **Voice:** practical, copy-paste ready. Loads `tiger-voice.md` + `references/published-voice.md` + `references/101-voice.md`.
 **Use-case source:** `references/ai-for-sc-plan-v2.md`. **Creative source:** `references/creative-genome-recombination-engine-v1.md`. **Visual workflow:** `references/visual-engine-v2.md`.
@@ -55,7 +59,7 @@ deep-dive-only references) is archived under `skills-archive/deep-dive/`. Voice 
 | Master calendar | `references/master-calendar.md` | 7-month theme calendar, both active series aligned |
 | Data folder | `data/{week}/{slug}/` | All output by week and slug |
 
-Every active content package also records:
+Every flagship, resource, or website-bound content package records:
 
 - `creative_bundle_id`, `genome_reference_ids`, and `creative_element_ids` for the accepted hook, promise, structure, visual,
   save-trigger, and CTA mechanics being adapted;
@@ -63,6 +67,10 @@ Every active content package also records:
 - `transfer_result` after the matched Tiger performance and artifact-use checkpoint;
 - any explicit public `simulation` as a visibly labelled content mode, never a default example;
 - internal test fixtures separately, with an explicit exclusion from public proof.
+
+A standard LinkedIn-only post records its selected saved-reference shelf, three rough routes, claim
+boundary, active visual, caption, five-reader review, and analytics in its post folder. It does not
+need a full Genome bundle or website manifest just because it belongs to an active lane.
 
 ## Decision Tree
 ```

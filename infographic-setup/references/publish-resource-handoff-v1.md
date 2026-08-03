@@ -12,22 +12,46 @@ The final handoff runs only after the required provenance, voice, still, and cap
 cleared. Record `not required` when a research-led piece uses no Tiger authority or when the selected
 claim mode needs no separate research file.
 
-## Status Sequence
+## Route scope
+
+**Standard LinkedIn-only post:** the handoff is complete when the approved `post-card.md`, active
+visual, approved caption, five-reader review, and planned analytics record agree. Do not create a
+publish manifest, resource package, website article, or motion project merely to satisfy this file.
+
+**Flagship, resource, or website handoff:** use the complete manifest and channel gates below. It
+must retain the full Creative Genome provenance and any support ledger needed for its public claims.
+
+## Standard LinkedIn-only sequence
 
 ```text
-creative bundle assigned -> claim contract complete -> required support/source complete or not required
-      -> draft -> provenance QA
-      -> Tiger voice approved -> caption approved
-      -> still approved -> motion complete or still-only
-      -> resource complete or not warranted -> website ready
+post card -> claim boundary and required source/support -> visual and caption draft
+      -> five-reader review -> Tiger caption approval + exact still approval
+      -> manual LinkedIn publish -> analytics
+```
+
+Motion, a resource, a website article, a manifest, and Vercel are not stages in this route. Add one
+only if a deliberate expansion earns its own value.
+
+## Flagship, resource, or website sequence
+
+```text
+creative bundle -> claim contract -> required support/source -> draft -> provenance QA
+      -> Tiger voice approved -> caption approved -> still approved
+      -> optional approved motion -> resource complete or not warranted -> website ready
       -> Vercel preview approved -> production merge
 ```
 
-Never skip a status. A source is not automatically public-safe, voice approval does not approve later wording changes, visual approval does not approve the caption, and a caption edit does not approve a production deployment.
+Never skip a relevant status. A source is not automatically public-safe, voice approval does not
+approve later wording changes, visual approval does not approve the caption, and a caption edit does
+not approve a production deployment.
 
 ## Publish Manifest
 
-Copy `templates/publish-manifest-template.json` to the post folder as `publish-manifest.json`. Assign the stable `contentId`, shared `parentSlug`, channel, and series before drafting. New posts use schema version 2 and the voice block. Existing schema-version-1 manifests remain valid as legacy records, but they do not provide the V4 provenance gate.
+For a flagship, resource, or website handoff, copy
+`templates/publish-manifest-template.json` to the post folder as `publish-manifest.json`. Assign the
+stable `contentId`, shared `parentSlug`, channel, and series before drafting. New manifests use schema
+version 2 and the voice block. Existing schema-version-1 manifests remain valid as legacy records,
+but they do not provide the V4 provenance gate.
 
 Audit the manifest while it is on hold:
 
@@ -45,7 +69,7 @@ Hard rules:
 
 - New post folders contain `tiger-source.md` only when personal judgment, experience, result,
   employer context, or first-person authority is used.
-- Every new manifest records a non-empty `creative_bundle_id`, its `genome_reference_ids`,
+- Every new flagship/resource/website manifest records a non-empty `creative_bundle_id`, its `genome_reference_ids`,
   `creative_element_ids`, a
   `claim_mode`, a `support_ledger`, and a `transfer_result` state.
 - The creative bundle is the accepted packaging input. The `support_ledger` governs factual,

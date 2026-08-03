@@ -1,7 +1,7 @@
 # Motion Brief - {Post Title}
 
 **Post folder:** `data/{week}/{slug}/`  
-**Source visual:** `data/{week}/{slug}/visual.png`  
+**Source visual:** active path resolved from `data/{week}/{slug}/post-card.md`
 **Motion project:** `videos/{slug}-motion/`  
 **Status:** draft / QA / selected
 
@@ -73,7 +73,7 @@ List items where clean background reconstruction is not credible.
 
 ## 7. Asset Plan
 
-- [ ] Copy approved `visual.png` into the motion project
+- [ ] Copy the approved active visual into the motion project as `assets/visual.png`
 - [ ] Build semantic masks only for cleanly isolatable color/content
 - [ ] Build fitted covers only where reset-frame reconstruction is clean
 - [ ] Keep integrated scenes/charts as whole components
@@ -96,5 +96,6 @@ List items where clean background reconstruction is not credible.
 - `data/{week}/{slug}/visual-motion.mp4`
 - `data/{week}/{slug}/motion-qa.md`
 
-The first and final lossless frames must be pixel-identical to `visual.png`.
+The first and final lossless frames must be pixel-identical to the active visual resolved from
+`post-card.md`.
 Run `node scripts/audit-motion-package.mjs data/{week}/{slug}` after export.

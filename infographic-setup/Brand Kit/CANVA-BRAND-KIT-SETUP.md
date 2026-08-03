@@ -100,8 +100,12 @@ Poppins throughout. Headers 800 UPPERCASE; body 300–400. Signature move: an ov
 ### Illustration style
 Flat-design isometric / 2.5D vector. Smooth blue gradients, soft long shadows, rounded forms, pure white background, one focal object, generous white space. **No** photos, 3D realism, hard outlines, dark backgrounds, or clutter. Never put green on a negative element.
 
-### Layout modules (combine for any post)
+### Precision-artifact layout modules
 Pin header → intro + character → concept row (3–4 icons) → hero scene → stat callout → sources footer.
+
+> **V4 standard-post override:** a normal LinkedIn feed post is one native Operating Studio scene,
+> not a Canva assembly. Start with a live reader tension and one physical mechanism; use Canva
+> modules only for an explicitly selected carousel or exact artifact.
 
 ### LinkedIn formats
 Portrait 1080×1350 (4:5, default) · Square 1080×1080 · Carousel 1080×1350 · Banner 1584×396 · Story 1080×1920. Keep ~6% safe margins; export at 2×.
@@ -113,13 +117,16 @@ Portrait 1080×1350 (4:5, default) · Square 1080×1080 · Carousel 1080×1350 �
 **A. New on-brand Canva design**
 1. Create any design (e.g. **1080×1350** for a LinkedIn post).
 2. In the editor, open the **Brand** tab → your colors and fonts are one click away. Apply **Brand Kit** to recolor/retype quickly.
-3. Build with the layout modules above; set background to White `#FFFFFF`.
+3. For a carousel or exact artifact, build with the layout modules above; set background to White
+   `#FFFFFF`. Do not use this as a finishing layer over a native feed scene.
 
 **B. Reusable templates**
 After designing a cover/interior you like, **… menu → Create a brand template** so the whole series starts from it (these *can* be created from designs).
 
 **C. AI-generated illustrations (Gemini / ChatGPT Image 2 / Claude Code)**
-Use the master style block + module templates in `PROMPT-LIBRARY.txt`. Generate each module on white, then place into the Canva design. Keep the style block identical; change only the subject.
+For a standard feed post, use the V4 Native Scene block in `PROMPT-LIBRARY.txt`; render one
+coherent composition and do not assemble overlays. For a carousel or exact artifact, use the master
+style block + module templates, then place the modules into the Canva design.
 
 ---
 

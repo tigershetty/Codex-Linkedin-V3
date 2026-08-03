@@ -2,17 +2,18 @@
 
 **Version:** 1.1
 **Date:** 2026-07-13
-**Status:** Active motion standard for Supply Chain 101 and AI for Supply Chain
+**Status:** Opt-in motion workflow after an approved active still
 **Reference implementation:** `videos/optimal-batch-size-motion/`
 **Reference outputs:** `data/2026-W30/optimal-batch-size-decision-board/visual-motion.gif`; `data/2026-W31/mps-as-a-production-commitment/visual-motion.gif`
 
 ## 1. Purpose
 
-Motion is the standard companion lane for an already approved `visual.png` when
-the eligibility gate passes. The default eligible package is `visual.png`,
-`visual-motion.gif`, and `visual-motion.mp4`. Motion must make the still easier
-to notice, understand, or follow without replacing the still as the primary
-artifact. A still-only result requires a documented eligibility exception.
+Motion is an optional companion lane for an already approved active visual when
+the eligibility gate passes. The active visual is resolved from `post-card.md`,
+not inferred from the legacy filename `visual.png`. Motion must make the still
+easier to notice, understand, or follow without replacing the still as the
+primary artifact. A still-only result is the default whenever motion does not
+materially improve the argument.
 
 The operating principle is:
 
@@ -35,7 +36,7 @@ the choreography does not.
 | A clean reset is not always possible | MPS status, horizon, and model covers damaged the printed grid, perspective, or compound shadows | Reject destructive clearing when reconstruction is not credible; keep the still locked and use delayed registered highlights plus signals along existing paths |
 | Text and logos are fragile | Moving or rebuilding them introduces drift, overlap, and brand damage | Keep all body text, formulas that cannot be isolated cleanly, and exact logos locked unless the motion concept specifically requires a verified reveal |
 | The still needs reading time | Continuous effects make a dense infographic harder to consume | End with at least 1.2 seconds of the complete, motion-free visual |
-| The loop must preserve the approved art | A near-match is not enough for a picture-first post | The first and final lossless frames must be pixel-identical to `visual.png` |
+| The loop must preserve the approved art | A near-match is not enough for a picture-first post | The first and final lossless frames must be pixel-identical to the active visual resolved from `post-card.md` |
 
 ## 3. Motion Eligibility Gate
 
@@ -61,14 +62,16 @@ If the sentence is weak, do not animate the post.
 
 ### Constants across every post
 
-- `visual.png` is the immutable visual source.
+- The approved active visual named by `post-card.md` is the immutable source.
+  `visual.png` is only a legacy-compatible alias.
 - The opening frame is the complete still.
 - The closing frame is the complete still.
 - Exact text, numbers, formulas, logos, and brand geometry remain correct.
 - Motion stays inside registered semantic regions.
 - The GIF remains readable when paused on any frame.
-- A full-resolution MP4 master is exported with every GIF.
-- The GIF is the LinkedIn publishing asset. The website serves the MP4 master with the approved still as poster and keeps the GIF only as fallback.
+- A full-resolution MP4 master is exported with every approved GIF.
+- If motion is approved, the GIF is the LinkedIn publishing asset. The website serves the MP4 master
+  with the approved still as poster and keeps the GIF only as fallback.
 - Playwright captures deterministic frames; FFmpeg performs final encoding.
 
 ### Variables authored for every post
@@ -106,7 +109,7 @@ The archetype defines the eye path. It does not prescribe the art direction.
 
 Every production composition has four possible layer types:
 
-1. **Locked base** - the complete approved `visual.png`; always present.
+1. **Locked base** - the complete approved active visual resolved from `post-card.md`; always present.
 2. **Clean covers** - source-fitted plates that temporarily hide a semantic
    component during a delayed reveal.
 3. **Source highlights** - transparent, source-colored masks that add a short
@@ -139,7 +142,8 @@ component boundary or isolation method before tuning animation.
 ### Step 1 - Lock the still
 
 - Finish visual QA first.
-- Promote the selected image to `visual.png`.
+- Resolve the selected image from `post-card.md`; copy it into the motion project without replacing
+  or renaming the source asset.
 - Do not animate a still that still needs text, logo, formula, or data repairs.
 
 ### Step 2 - Write the motion brief
@@ -264,7 +268,7 @@ noise.
 
 ### Hard fails
 
-- first or final lossless frame differs from `visual.png`,
+- first or final lossless frame differs from the approved active visual,
 - wrong, clipped, ghosted, duplicated, or moving text,
 - approximate or moving brand/tool logos,
 - raw crop rectangles visibly overlap the source,

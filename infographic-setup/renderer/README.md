@@ -1,5 +1,5 @@
-# Shetty's Desk — Infographic Renderer & Production Playbook
-**Created**: 2026-06-15 · **Status**: Active deterministic control and motion renderer. Read `../references/visual-engine-v2.md` first.
+# Shetty's Desk — Precision Artifact & Motion Renderer
+**Created**: 2026-06-15 · **Status**: Active only for separate exact artifacts, carousels, and approved motion finishing. Read `../references/visual-engine-v2.md` first.
 **Active companions**: `../references/creative-genome-recombination-engine-v1.md` (source selection and recombination) · `../references/visual-engine-v2.md` (visual authority) · `../references/brand-kits/shettys-desk-operating-studio/FRAME.md` (default brand expression) · `../references/brand-kits/cobalt-grid/FRAME.md` (explicit secondary editorial expression) · `../references/layout-frameworks-intelligence.md` (optional layout vocabulary) · `../memory/visual-benchmarks/top100-visual-dna.md` (historical Top-100 pattern analysis). This file is the deterministic *production* layer.
 
 ---
@@ -7,7 +7,10 @@
 ## 0. What this is
 A **deterministic HTML → PNG/GIF/MP4 renderer** for Shetty's Desk LinkedIn infographics. We write a self-contained HTML template, and Playwright/Chromium screenshots it at exact pixels. Text and numbers rendered by code stay precise and reproducible.
 
-**Current role:** GPT Image 2 is the primary creative still renderer under Visual Engine v2. Use this renderer for HTML control images, exact-data final art, and the Motion Engine v1 finishing lane.
+**Current role:** the image engine is the primary renderer for a standard creative still. Use this
+renderer only for a separate precise artifact, exact-data visual, controlled carousel, or the Motion
+Engine v1 finishing lane. It must never add HTML/SVG, dashboard, title, footer, or logo layers over
+an image-engine-native standard post.
 
 The 2026-06-21 code-render-primary decision is superseded. Both active pipelines are GPT Image 2-first for creative stills; code render remains a maintained precision tool.
 
@@ -45,10 +48,11 @@ PLAYWRIGHT_NODE_MODULES=/path/to/node_modules node render.mjs templates/x.html o
 Use this for picture-first LinkedIn GIFs where the approved visual stays intact.
 Read `../references/motion-engine-v1.md` before building. The active pipeline is:
 
-`visual.png` -> post-specific motion brief -> semantic component map -> masks/covers/highlights -> HTML/SVG/GSAP timeline -> Playwright frames -> FFmpeg MP4 + GIF.
+`post-card.md` active visual -> post-specific motion brief -> semantic component map -> masks/covers/highlights -> HTML/SVG/GSAP timeline -> Playwright frames -> FFmpeg MP4 + GIF.
 
 Rules:
-- Keep the approved `visual.png` as the locked background.
+- Resolve the approved active visual from `post-card.md` and keep that exact still as the locked
+  background. `visual.png` is only a legacy-compatible alias, never the authority.
 - Map components from the actual layout and reading order.
 - Use semantic masks for clean color elements, fitted cover plates for object cards, and whole-component reveals for integrated charts or 3D scenes.
 - Use source-derived highlights and restrained SVG signals only as support.
@@ -64,7 +68,7 @@ For the approved EOQ reference implementation, see:
 - `../../videos/optimal-batch-size-motion/compositions/delayed-reveal.html`
 - `../../videos/optimal-batch-size-motion/shot-plan-delayed-reveal.json`
 
-Initialize a new post-specific project after `visual.png` is approved:
+Initialize a new post-specific project after the active visual named by `post-card.md` is approved:
 
 ```bash
 cd ..
@@ -168,8 +172,13 @@ A stacked tower = N iso bands, each height ∝ its value (benchmark #43 in real 
 
 ---
 
-## 7. Layout laws (learned this session)
-1. **3-zone vertical:** title (2 lines, one word coral-popped, + credibility sub) / body / [footer optional]. Body never touches edges.
+## 7. Historical precision-artifact layout notes (not standard-post guidance)
+
+These observations apply only after a precision artifact, controlled carousel, or code-rendered
+motion composition has been deliberately selected. A standard Fast Post Loop does not use these
+layout laws, footer conventions, multi-block schemas, or HTML template mechanics.
+1. **Optional 3-zone vertical:** title / body / [footer optional] can be useful for a selected
+   precision artifact. Body never touches edges.
 2. **Repeated per-cell schema** is the #1 "designed not generated" tell: anchor (number/icon) → bold label → one-line gloss → optional tag (Use For / Best For / Limitation / Result).
 3. **Side annotations need their own rail.** Never let margin text sit under a full-width block (this caused the "text behind the first block" bug). Use a CSS grid per row: `[left-rail | centered block | right-rail]`, so annotations align to their block automatically.
 4. **One clean text block per layer** beats scattered callouts. PF1 uses a parallel "You ___ / It ___" line per level — it doubles as the progression story.
@@ -193,7 +202,7 @@ A stacked tower = N iso bands, each height ∝ its value (benchmark #43 in real 
 
 **Logo convention**: the *featured AI tool's* mark sits in the **hero corner** (top-right), sized to the corner's whitespace (Law 11), as a *capability* signal — never a "Powered by" line (AI-for-SC only — **101 carries no tool mark**). The **Shetty's Desk logo anchors the footer** as part of the sign-off. Tool logos via `@lobehub/icons-static-svg` (`claude`, `openai` — `currentColor`, tint to the tool hue).
 
-**Build philosophy — design system, NOT parametrization** (Tiger, 2026-06-15): do **not** turn these into `{{token}}` fill-in templates — that makes every post in a format look identical, which Tiger explicitly rejects. Instead treat the repo as a **kit-of-parts**: reusable brand components (coral-thread header/footer, stat treatment, bright background recipe, 3D slab, prompt block, card anatomy, icon/logo system) that get assembled into a **fresh concept fitted to each topic** (cost → stacked column; maturity → ladder; risk → radar; flow → pipeline). *Parametrize the brand (constant), bespoke the concept (per topic).* The source Gemini-prompt files can be rewritten as structured **HTML render briefs** per post.
+**Build philosophy — design system, NOT parametrization** (Tiger, 2026-06-15): do **not** turn these into `{{token}}` fill-in templates — that makes every selected precision artifact in a format look identical, which Tiger explicitly rejects. Instead treat the repo as a **kit-of-parts**: reusable brand components (coral-thread header/footer, stat treatment, bright background recipe, 3D slab, prompt block, card anatomy, icon/logo system) that get assembled into a **fresh precision concept fitted to each topic** (cost → stacked column; maturity → ladder; risk → radar; flow → pipeline). *Parametrize the brand (constant), bespoke the concept (per topic).* The source Gemini-prompt files can be rewritten as structured **HTML render briefs** per post.
 
 ---
 
@@ -237,13 +246,12 @@ A stacked tower = N iso bands, each height ∝ its value (benchmark #43 in real 
 
 ---
 
-## 12. How to build a NEW template
+## 12. How to build a new precision template
 
-> **3-variant standard (2026-06-28): every post renders 3 DISTINCT concepts and the user picks one.** Run
-> `layout-select` for 3 different frameworks (3 benchmark patterns + 3 hero devices — three skeletons, not
-> three colour swaps), then build `templates/<slug>-v1.html`, `-v2.html`, `-v3.html`, render + QA each, and
-> surface all 3. After the pick, copy the chosen `out/<slug>-vN.png` to the post's `visual.png` and keep all
-> 3 templates + out PNGs (variety log + future-post seed). This applies to 101 and AI-for-SC alike.
+> **Historical three-variant rule (2026-06-28):** this applies only when a chosen precision artifact
+> needs three code-rendered structure tests. It is superseded for ordinary LinkedIn posts by the Fast
+> Post Loop: three rough prompt cards, select or kill at minute 25, then one native final. Do not
+> build three HTML templates or promote a selected file to `visual.png` for a standard post.
 
 1. Pick **3 distinct** power formats from the subject→format selector in `top100-visual-dna.md`.
 2. Copy the nearest reference template per variant (`sc101-quote-iso-towers`/`pf6`/`pf7`) as a starting skeleton.

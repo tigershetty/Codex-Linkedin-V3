@@ -5,8 +5,8 @@ A reusable visual system for creating on-brand LinkedIn infographics, with the r
 | File | What it is | Best for |
 |---|---|---|
 | **Shettys-Desk-Brand-Kit.html** | Interactive kit — click-to-copy colors, gradients, type, illustration rules, and a live **AI Prompt Studio** | Browsing the system; building prompts by hand |
-| **Shettys-Desk-Brand-Kit.pdf** | Visual 1-page reference (swatches, gradients, examples, master style block) | **Drag into Gemini / ChatGPT Image 2** as a quick style reference |
-| **Shettys-Desk-Brand-Kit-DETAILED.pdf** | The full 20-page brand book — essence, complete color specs (hex/RGB/CMYK), gradients, type, illustration rules, motif library, layout, formats, the entire AI prompt system, per-tool guides, worked examples, reference gallery, and a QA checklist | The complete reference; deep onboarding; thorough style attachment |
+| **Shettys-Desk-Brand-Kit.pdf** | Visual 1-page reference (swatches, gradients, examples, master style block) | Attach as a palette/material reference; the V4 standard-post override below still applies |
+| **Shettys-Desk-Brand-Kit-DETAILED.pdf** | Pre-V4 brand book with palette, layouts, prompt modules, guides, and examples | **Legacy precision-artifact/carousel reference only**; do not use as the authority for a standard native LinkedIn post |
 | **PROMPT-LIBRARY.txt** | Copy-paste master style block + module templates + ready examples per model | Generating images fast in any model |
 | **brand-tokens.json** | Machine-readable tokens (colors, gradients, fonts, prompts, formats) | **Claude Code** — single source of truth |
 | **STYLE-GUIDE.md** | Full human + machine readable style guide | Reference / onboarding / Claude Code |
@@ -19,10 +19,22 @@ A reusable visual system for creating on-brand LinkedIn infographics, with the r
 
 **ChatGPT Image 2** → paste the ChatGPT prompt from `PROMPT-LIBRARY.txt`, lead with the style block, attach a reference image. Reuse the same block every time for a coherent series.
 
-**Claude Code** → "Read `brand-tokens.json` and build a 1080×1350 LinkedIn carousel using the Shetty's Desk tokens…" It injects colors/gradients/fonts into editable HTML/SVG.
+**Claude Code** → for a standard LinkedIn post, read the current Operating Studio frame and the
+Fast Post Loop, then use the tokens to write one image-engine-native scene prompt. Use editable
+HTML/SVG only when the planned output is a separate precision artifact or carousel.
 
-## The one rule
+## V4 standard-post override
 
-Keep the **master style block identical** across everything and change only the `{subject}`. Generate each module on a white background, then assemble in the layout anatomy. That's what keeps the whole feed looking like one brand.
+For an ordinary LinkedIn post, do **not** generate modules and assemble an infographic layout.
+Select one visible operating story, then render it as one coherent native image. No HTML/SVG,
+dashboard, title, footer, or logo layer is pasted over the final scene. The governing source is
+`../references/brand-kits/shettys-desk-operating-studio/FRAME.md`.
+
+## Legacy modular and precision-artifact route
+
+The module templates below remain useful when exactness is the point: a downloadable field card,
+spreadsheet companion, controlled carousel, or other precision artifact. They are not the default
+for a normal feed image. Preserve the palette, material language, and colour meanings across a
+series; do not force identical layouts or a repeated module stack.
 
 > Note: reference images show the original subject (mobility/energy). Attach them for the **art style**, not the content.

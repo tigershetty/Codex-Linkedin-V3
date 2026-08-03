@@ -2,7 +2,7 @@
 
 **Week:** `{YYYY-W##}`  
 **Slug:** `{slug}`  
-**Source:** `data/{week}/{slug}/visual.png`  
+**Source:** active path resolved from `data/{week}/{slug}/post-card.md`
 **GIF:** `data/{week}/{slug}/visual-motion.gif`  
 **MP4:** `data/{week}/{slug}/visual-motion.mp4`  
 **Composition:** `videos/{slug}-motion/compositions/main.html`  
@@ -21,7 +21,7 @@
 
 ## 2. Source-Fidelity Gate
 
-- [ ] `visual.png` was approved before motion production began
+- [ ] The active visual named by `post-card.md` was approved before motion production began
 - [ ] Complete visual is the opening frame
 - [ ] Complete visual is the closing frame
 - [ ] Body text remains locked

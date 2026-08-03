@@ -283,6 +283,55 @@ function readinessPackage(name, { concepts, directions, claimMode, supportStatus
   return dir;
 }
 
+function writePngHeader(path, width = 1080, height = 1350) {
+  const png = Buffer.alloc(24);
+  Buffer.from('89504e470d0a1a0a', 'hex').copy(png, 0);
+  png.writeUInt32BE(13, 8);
+  Buffer.from('IHDR').copy(png, 12);
+  png.writeUInt32BE(width, 16);
+  png.writeUInt32BE(height, 20);
+  writeFileSync(path, png);
+}
+
+function standardPostPackage(name, { activeVisual = 'selected.png', activeCaption = 'selected-caption.md', selected = true } = {}) {
+  const dir = join(tempRoot, name);
+  mkdirSync(dir, { recursive: true });
+  writeFileSync(
+    join(dir, 'post-card.md'),
+    `# Standard Post Card
+
+**Reader and real work moment:** A planner is making a release decision.
+**Opening tension:** The customer date and the freight quote disagree.
+**The visible proof:** A physical departure gate makes the trade-off visible.
+**The useful keep:** Clear the gate or release what is ready.
+**Saved references used:** V3 pressure gate and one saved reference.
+**Three rough routes:** Gate; quote collision; role collision.
+**Selected route and why:** Gate because it makes the boundary visible.
+**Renderer:** Image engine native
+**Active visual:** ${activeVisual}
+**Active caption:** ${activeCaption}
+**Claim boundary:** An operating rule, not a measured outcome.
+**Publication status:** Draft — awaiting Tiger approval
+`,
+    'utf8',
+  );
+  writeFileSync(
+    join(dir, 'five-reader-review.md'),
+    `**Stop:** yes
+**Show:** yes
+**Keep:** yes
+**True:** yes
+**Tiger:** yes
+`,
+    'utf8',
+  );
+  if (selected) {
+    writePngHeader(join(dir, activeVisual));
+    writeFileSync(join(dir, activeCaption), 'Selected draft caption.\\n', 'utf8');
+  }
+  return dir;
+}
+
 test('checked-in Creative Genome rebuild is deterministic', () => {
   const first = runCli('build-creative-genome.mjs', ['--check']);
   const second = runCli('build-creative-genome.mjs', ['--check']);
@@ -588,6 +637,41 @@ test('ready publish handoff rejects an untouched V4 manifest', () => {
       /FAIL all declared public claims are supported/i,
     ],
     'untouched schema-version-2 publish manifest',
+  );
+});
+
+test('standard build rejects stale fallback assets when active pointers are broken', () => {
+  const dir = standardPostPackage('standard-stale-fallback', { selected: false });
+  writePngHeader(join(dir, 'visual.png'));
+  writeFileSync(join(dir, 'old-caption.md'), 'Stale caption.\\n', 'utf8');
+  const result = runCli('build-visual-package.mjs', [dir, '--check-only']);
+  assertFailure(
+    result,
+    [
+      /FAIL active visual pointer resolves/i,
+      /FAIL active caption pointer resolves/i,
+    ],
+    'standard build with stale fallback assets',
+  );
+  assert(
+    !/FAIL final visual exists|Creative Genome|Legacy compatibility|creative-brief-lite\\.md/i.test(result.output),
+    `Standard build fell into the flagship route.\\n${result.output}`,
+  );
+});
+
+test('standard build bypasses flagship paperwork and remains draft-only', () => {
+  const dir = standardPostPackage('standard-fast-post');
+  const result = runCli('build-visual-package.mjs', [dir, '--check-only']);
+  assertSuccess(result, 'standard fast post build');
+  assert(
+    /Mode: standard fast post/i.test(result.output)
+      && /Standard post draft audit passed/i.test(result.output)
+      && /not publication approval/i.test(result.output),
+    `Standard build did not clearly remain a draft.\\n${result.output}`,
+  );
+  assert(
+    !/Creative Genome|Legacy compatibility|creative-brief-lite\\.md/i.test(result.output),
+    `Standard build asked for flagship paperwork.\\n${result.output}`,
   );
 });
 

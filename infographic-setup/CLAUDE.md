@@ -1,12 +1,14 @@
 # Shetty's Desk V4 — Operational Map
 
-The active V4 system is Creative Genome first, recombination second, and claim-proportionate research
-third. `/101` and `/ai-for-sc` are production lanes, not upstream strategy.
+The active V4 system has two deliberate routes: the Fast Post Loop for ordinary LinkedIn work, and
+the full Creative Genome for declared flagships. Claim-proportionate research follows the route,
+not the other way around. `/101` and `/ai-for-sc` are production lanes, not upstream strategy.
 
 ## Precedence
 
 1. `references/v4-audience-growth-operating-system.md`
-2. `references/creative-genome-recombination-engine-v1.md`
+2. `references/fast-post-loop-v1.md` for standard LinkedIn work, or
+   `references/creative-genome-recombination-engine-v1.md` for a declared flagship
 3. `references/creative-opportunity-selection.md`
 4. `../tiger-voice.md` and `references/tiger-source-gate-v1.md`
 5. `references/creative-engine-v4-recombination.md`
@@ -21,8 +23,9 @@ source material. Dated archive folders never override active files.
 |---|---|
 | Learn | matched-age Tiger outcomes linked to the bundle and atoms used |
 | Scan | audience, saved-pattern, evidence, Substack, and timely opportunities |
-| Retrieve | 10-15 saved references selected by fit, not a quality score |
-| Recombine | creative seed, ten concepts, three distinct visible direction tiles, and a forced selection |
+| Route | choose standard Fast Post Loop or declared flagship before research starts |
+| Retrieve | standard: two to four saved references from the current shelf; flagship: 10-15 by fit |
+| Recombine | standard: three rough routes and a minute-25 select-or-kill; flagship: creative seed, ten concepts, three visible directions |
 | Select | reader, care statement, content mode, useful payoff, channel job, and claim contract |
 | Support | only the research depth and Tiger source required by the planned claims |
 | Produce | complementary caption, visual, and optional artifact |
@@ -34,7 +37,7 @@ source material. Dated archive folders never override active files.
 | | Supply Chain 101 | AI for Supply Chain |
 |---|---|---|
 | Job | make a useful distinction, framework, decision, or reference clear | make a role-specific AI workflow understandable and usable |
-| Creative source | Creative Genome bundle | Creative Genome bundle |
+| Creative source | V3 repertoire and saved-reference shelf; full bundle only for a flagship | same |
 | Research | routed by claim mode | current tool facts plus support required by the domain and outcome claims |
 | Voice | Tiger source only when personal judgment or authority is used | same |
 | Output | caption + approved still; artifact or motion when useful | caption + approved still + resource decision; artifact or motion when useful |
@@ -68,19 +71,20 @@ The active generated genome is declared by:
 Every saved post keeps `positive_creative_signal=true`. Annotation and visual-review status describe
 inspection depth only. Tiger outcomes measure transfer, not whether the source deserved to be saved.
 
-## Creative brief contract
+## Standard post card
 
-Every new major post needs:
+An ordinary LinkedIn post needs only:
 
 - one primary reader and work moment;
-- one care statement and one standalone LinkedIn payoff;
-- a coherent attention, comprehension, utility, and bridge assembly;
-- ten concepts before narrowing;
-- at least three genuinely different directions;
-- one selected content mode;
-- a claim ledger with support appropriate to each claim;
-- an anti-copy boundary;
-- a reason for any Substack or website continuation.
+- opening tension, visible proof, and useful keep;
+- two to four saved references plus anti-copy boundaries;
+- three rough routes and a minute-25 select-or-kill;
+- one active native visual and caption path;
+- a claim boundary and five-reader review.
+
+Use the full Creative Genome contract only for a declared flagship: fresh retrieval, ten concepts,
+three developed directions, full assembly, claim ledger, and reason for a Substack or website
+continuation.
 
 ## Visual contract
 
@@ -90,10 +94,13 @@ Grid is an explicit secondary editorial choice. The reference bundle contributes
 mechanics, not another creator's look. One dominant object and one reading route beat a dense
 internal model dump.
 
-Choose the renderer after the creative direction:
+For a standard image-led post, use the image engine as one coherent final composition. Do not finish
+it with HTML, SVG, dashboard, logo, or title overlays.
 
-- GPT Image 2 for illustration-led editorial composition;
-- HTML/SVG for exact text, data, geometry, or interface control;
+Choose a separate exact artifact only when precision is the actual reader value:
+
+- image engine for illustration-led editorial composition;
+- HTML/SVG for an independent exact worksheet, reference, data view, or interface;
 - spreadsheets, documents, or website UI when the artifact itself is the content;
 - motion only when sequence, comparison, or change improves the argument.
 

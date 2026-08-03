@@ -87,7 +87,7 @@ const uniqueProductionIds = (values, prefix) => Array.isArray(values)
 
 check('schema version is supported', supportedSchema, 'Use schema version 1 for legacy posts or the current schema-version-2 template.');
 check('caption file exists', localFile(manifest.caption?.file), 'Save the caption file named in the manifest.');
-check('approved visual exists', manifest.visual?.status !== 'approved' || localFile(manifest.visual?.file), 'Promote the approved still to visual.png.');
+check('approved visual exists', manifest.visual?.status !== 'approved' || localFile(manifest.visual?.file), 'Set visual.file to the approved active still path.');
 check('approved motion has GIF', manifest.motion?.status !== 'approved' || localFile(manifest.motion?.gif), 'Export the approved GIF or change motion status.');
 check('approved motion has MP4', manifest.motion?.status !== 'approved' || localFile(manifest.motion?.mp4), 'Export the MP4 website master or change motion status.');
 check(

@@ -4,12 +4,35 @@
 ==================================================================
 
 HOW TO USE
-- Paste the MASTER STYLE BLOCK into any image model, then add one
-  MODULE template and fill in {subject}.
+- For a STANDARD LINKEDIN POST, use the V4 NATIVE SCENE block below:
+  one reader tension, one physical mechanism, one rendered composition.
+  Do not generate modules or assemble an overlay after rendering.
+- Use the MODULE templates only for an explicitly selected carousel or
+  precision artifact where exact controlled layout is the reader value.
 - For best consistency, also attach 1-2 images from /reference-images
   and say "match this art style, not the subject."
-- Keep the style block IDENTICAL across a series; change only {subject}.
-- Generate each module separately on a white background, then assemble.
+- Preserve colour meanings and material language across a series; do not
+  force the same layout or a repeated module stack.
+
+------------------------------------------------------------------
+ V4 NATIVE SCENE BLOCK  (standard LinkedIn post)
+------------------------------------------------------------------
+Create one original, image-engine-native Shetty's Desk Operating Studio
+scene for {reader and live work moment}. Make {one contested decision}
+visible through {one physical mechanism: gate / route / boundary / board /
+handoff / transformation}. The reader must understand the tension at feed
+size and keep {one decision rule or mental object} at closer look.
+
+Use a luminous white or ice-blue operating world, azure-to-navy systems,
+eco-green only for the protected or recommended path, and coral only for
+real risk, friction, or exception. Use clean 2.5D depth and purposeful
+detail; choose the visual family the argument needs rather than forcing a
+module stack. Keep on-image words short and integral to the scene.
+
+Render the scene, hierarchy, and typography as one final image. No HTML,
+SVG, cards, dashboard mosaic, pasted title bar, footer, watermark, or
+model-redrawn logo overlay. Do not invent numbers, outcomes, or company
+proof.
 
 ------------------------------------------------------------------
  MASTER STYLE BLOCK  (the DNA — every prompt inherits this)
@@ -33,7 +56,7 @@ texture, dark or busy backgrounds, clutter, harsh or black drop shadows,
 muddy gradients, and using green for anything negative.
 
 ------------------------------------------------------------------
- MODULE TEMPLATES  (pick one, fill {subject})
+ MODULE TEMPLATES  (precision artifact / carousel only)
 ------------------------------------------------------------------
 HERO SCENE
   A single large isometric hero scene showing {subject}. One clear
@@ -155,7 +178,7 @@ outlines, sketch/hand-drawn texture, dark or busy backgrounds, clutter,
 harsh or black drop shadows, muddy gradients, and using green for
 anything negative.
 
---- EXAMPLE C · CLAUDE CODE · brief ---
+--- EXAMPLE C · CLAUDE CODE · precision-artifact brief ---
 "Read brand-tokens.json. Build a 1080x1350 LinkedIn carousel cover as
 inline SVG using the Shetty's Desk tokens: navy-to-azure blue gradient
 panel, an UPPERCASE Poppins 800 title, a thin azure rule fading right,
@@ -167,13 +190,13 @@ editable .svg I can tweak."
 ------------------------------------------------------------------
 The Shetty's Desk mark (textured terracotta ring #D97656 + serif
 wordmark, olive #3C3828 / white on black) is a fixed asset in
-/logos - never regenerate or recolor it with AI. Place it AFTER
-assembly: small mono variant as a footer watermark, or on a navy
-#1939A5 footer strip. Keep the logo palette out of AI illustration
-prompts; the content layer stays azure/eco-green on white.
+/logos - never regenerate or recolor it with AI. Use it after assembly
+only on an approved carousel or precision artifact. Do not paste it
+over a standard native scene. Keep the logo palette out of AI
+illustration prompts; the content layer stays azure/eco-green on white.
 
 ==================================================================
- ASSEMBLY RECIPE (any tool)
+ PRECISION-ARTIFACT ASSEMBLY RECIPE (any tool)
 ==================================================================
 1. Header banner (module: SECTION HEADER, text: LABEL)
 2. Intro figure + green speech bubble (module: SINGLE ICON)
@@ -182,4 +205,5 @@ prompts; the content layer stays azure/eco-green on white.
 5. Stat callout (module: STAT, text: STAT)
 6. Sources footer (plain text, deep blue, centered)
 Keep every background white -> assemble in Canva/Figma/Claude Code.
+Never use this recipe as a finishing layer over a standard native scene.
 ==================================================================

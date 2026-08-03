@@ -1,20 +1,25 @@
-# Five-reader review — selected native V5
+# Five-reader review — selected native V7
 
-**Active visual:** visual-v5-image-engine.png
+**Active visual:** visual-v7-decision-cinema.png
 
-**Stop:** yes — the headline puts the reader into a real release question.
+**Stop:** yes — the opening line names two valid signals that directly conflict in the reader's
+work, and the immediate physical tension earns the second look.
 
-**Show:** yes — the ready pallet has a green route through the gate while the second PO is visibly
-behind the coral delay barrier.
+**Show:** yes — the coral lower-freight tag and cable pull the ready shipment back while the only
+green route runs through the physical last-safe-departure gate to customer need-by. The uncertain
+second PO remains visibly behind the coral barrier.
 
-**Keep:** yes — the integrated rule is visible: if it misses the gate, ship what is ready.
+**Keep:** yes — the physical \`LAST SAFE DEPARTURE\` gate is the useful mental object. The caption
+turns it into the simple working check: establish the gate from need-by, then test the latest
+credible supplier-ready date against it.
 
 **True:** yes — the visual makes no numerical, customer-outcome, or universal supplier-performance
 claim. The operating rule and escalation path are bounded by tiger-source.md.
 
-**Tiger:** yes — the caption begins with the disputed supplier date, makes the customer date the
-decision point, and gives KAM plus Purchasing Manager the exception ownership without pretending to
-have a case study.
+**Tiger:** yes — the caption explains the logic in a connected, practitioner-facing voice; it turns
+need-by into the last safe departure, uses credible scenarios rather than one hoped-for supplier
+date, and gives KAM plus Purchasing Manager the exception ownership without pretending to have a
+case study.
 
 **Reviewer decision:** selected draft. It is ready for Tiger's visual and caption approval, not
 automatic publication.

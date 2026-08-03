@@ -64,13 +64,15 @@ Internal fixtures may test software. They cannot become public proof or a public
 
 ## Current production system
 
-- Visual creative: `references/creative-engine-v4-recombination.md`.
+- Visual creative: `references/creative-engine-v4-recombination.md`,
+  `references/operational-decision-cinema-v1.md`, and `references/v3-creative-repertoire-v1.md`.
 - Renderer choice: use the image engine for a standard Operating Studio social visual. HTML/SVG,
   spreadsheet, and documents are separate artifact surfaces when exactness is the reader value.
 - Default brand authority: `references/brand-kits/shettys-desk-operating-studio/FRAME.md`.
 - Cobalt Grid is a deliberate secondary editorial expression, never the unexamined default.
-- Visual review: `templates/visual-output-review-template.md`.
-- Motion after still approval: `references/motion-engine-v1.md`.
+- Visual review: standard posts use `five-reader-review.md`; flagships and precision artifacts use
+  `templates/visual-output-review-template.md`.
+- Optional motion after still approval and a passed eligibility gate: `references/motion-engine-v1.md`.
 - Publish/resource handoff: `references/publish-resource-handoff-v1.md`.
 
 Treat 3D/isometric, flat illustration, diagram, chart, photographed artifact, typographic reference,

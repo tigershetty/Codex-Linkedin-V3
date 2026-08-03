@@ -675,7 +675,7 @@ addCheck(
   checks,
   'final visual exists and is non-empty',
   has('visual.png') && statSync(file('visual.png')).size > 0,
-  'Save the approved canonical still as visual.png.',
+  'Save the approved canonical still at the package visual path.',
 );
 addCheck(
   checks,
@@ -724,7 +724,7 @@ for (const check of checks) {
 }
 
 if (!genomeMode) {
-  console.warn('WARN Legacy compatibility mode: new work must use the Creative Genome bundle and recombination brief.');
+  console.warn('WARN Legacy compatibility mode: migrate this package to the full Creative Genome route only if it is being expanded into a declared flagship.');
 }
 if (visualInfo) {
   const ratio = visualInfo.width / visualInfo.height;

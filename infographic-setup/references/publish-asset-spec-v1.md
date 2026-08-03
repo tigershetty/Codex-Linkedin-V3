@@ -15,11 +15,12 @@ Nineteen canonical `visual.png` files were reviewed.
 - Website stills are safe because the article component uses width-constrained `object-contain` behavior and preserves the native ratio.
 - Website GIFs range from roughly 1.1 MB to 3.8 MB. Existing MP4 masters are only about 383 KB to 954 KB and should be served on the website.
 
-## Canonical And Export Files
+## Source Resolution And Export Files
 
 | File | Purpose | Rule |
 |---|---|---|
-| `visual.png` | Canonical approved master | Preserve exactly after approval |
+| `post-card.md` → `Active visual` | Canonical approved master | Resolve and preserve exactly after approval |
+| `visual.png` | Legacy-compatible alias | Never infer selection from this filename when `post-card.md` names another asset |
 | `visual-linkedin.png` | Organic feed companion | 1080 x 1350 (4:5), under 5 MB |
 | `visual-motion.gif` | LinkedIn motion companion | Under 100 MB and 500 frames; remain readable when paused |
 | `visual-motion.mp4` | Website/full-resolution master | Same visual ratio, H.264-compatible delivery, still poster |
@@ -28,7 +29,7 @@ Nineteen canonical `visual.png` files were reviewed.
 
 Design future posts natively at 1080 x 1350 when the concept allows it.
 
-When the approved master is taller:
+When the approved active master is taller:
 
 1. do not crop the artifact;
 2. do not scale or distort the artwork;
@@ -40,7 +41,7 @@ The companion is an export treatment, not a redesigned post.
 
 ## Website Rule
 
-- Preserve the canonical native ratio.
+- Preserve the approved active visual's native ratio.
 - Use Next Image for stills with explicit width/height and responsive sizes.
 - Use MP4 for motion preview when available; retain GIF only as fallback and publishing asset.
 - Use the approved still as the video poster.

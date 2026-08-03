@@ -30,7 +30,26 @@ if (!postDir.startsWith(dataDir + sep)) {
   process.exit(1);
 }
 
-const visualPath = join(postDir, 'visual.png');
+function selectedVisualPath() {
+  const postCardPath = join(postDir, 'post-card.md');
+  if (!existsSync(postCardPath)) return join(postDir, 'visual.png');
+  const card = readFileSync(postCardPath, 'utf8');
+  const match = card.match(/^\*\*Active visual:?\*\*\s*(.*)$/m);
+  const candidate = match?.[1]?.replace(/`/g, '').trim();
+  if (!candidate) {
+    console.error(`Active visual is missing from ${postCardPath}`);
+    process.exit(1);
+  }
+  const resolved = resolve(postDir, candidate);
+  const relation = relative(postDir, resolved);
+  if (relation === '' || relation === '..' || relation.startsWith(`..${sep}`)) {
+    console.error(`Active visual must resolve inside the post folder: ${candidate}`);
+    process.exit(1);
+  }
+  return resolved;
+}
+
+const visualPath = selectedVisualPath();
 if (!existsSync(visualPath)) {
   console.error(`Approved source visual not found: ${visualPath}`);
   process.exit(1);
@@ -39,7 +58,7 @@ if (!existsSync(visualPath)) {
 function pngDimensions(path) {
   const buffer = readFileSync(path);
   const signature = buffer.subarray(1, 4).toString('ascii');
-  if (signature !== 'PNG') throw new Error('visual.png is not a PNG file');
+  if (signature !== 'PNG') throw new Error('approved source is not a PNG file');
   return { width: buffer.readUInt32BE(16), height: buffer.readUInt32BE(20) };
 }
 
@@ -116,7 +135,7 @@ writeNew(join(projectDir, 'compositions', 'main.html'), composition);
 copyNew(visualPath, join(projectDir, 'assets', 'visual.png'));
 
 const readme = `# ${title} Motion\n\n` +
-  `Source: \`infographic-setup/data/${week}/${slug}/visual.png\`\n\n` +
+  `Source: \`${relative(repoDir, visualPath)}\`\n\n` +
   `Follow \`infographic-setup/references/motion-engine-v1.md\`. ` +
   `The motion brief, component builder, and timeline must be adapted to this visual.\n`;
 writeNew(join(projectDir, 'README.md'), readme);

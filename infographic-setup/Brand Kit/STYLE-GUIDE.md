@@ -1,16 +1,25 @@
 # Shetty's Desk — Brand Kit & Infographic Style Guide
 
-A reusable visual system for LinkedIn infographics. The DNA is extracted from a polished isometric infographic reference set and generalized so it applies to **any topic** — business, tech, career, data, ideas — not just the original subject.
+A reusable visual system for LinkedIn infographics and precision artifacts. The DNA is extracted
+from a polished isometric infographic reference set and generalized so it applies to **any topic**
+— business, tech, career, data, ideas — not just the original subject.
 
 Use this file as the human-readable guide. For machine use (Claude Code), pair it with `brand-tokens.json`. For image models, use `PROMPT-LIBRARY.txt` and the visual one-pager `Shettys-Desk-Brand-Kit.pdf`.
+
+> **V4 standard-post override:** a normal LinkedIn post is one image-engine-native operating scene,
+> not an assembled infographic. Start with the reader's live tension, choose one physical mechanism,
+> and render one composition. Never paste an HTML/SVG, dashboard, title, footer, or logo overlay
+> over that final scene. The current authority is
+> `../references/brand-kits/shettys-desk-operating-studio/FRAME.md`. The modular rules below are
+> retained for explicit carousels and exact artifacts.
 
 ---
 
 ## 1. Brand Essence
 
-Optimistic, science-led, credible, modern. Clean and airy, built on luminous blue gradients with a vivid **signature green** that always signals *positive / progress / the smart choice*. Data-driven but human — friendly mini-figures and speech bubbles keep it approachable. Every visual is smooth **isometric 2.5D vector art on white** — never photographic.
+Optimistic, science-led, credible, modern. Clean and airy, built on luminous blue gradients with a vivid **signature green** that always signals *positive / progress / the smart choice*. Data-driven but human. The precision-artifact expression uses smooth isometric 2.5D vector art on white; the standard V4 post may use an equally clear native Operating Studio scene.
 
-Three things make it instantly recognizable and must always be preserved:
+Three cues make the precision-artifact expression recognizable:
 
 1. **The signature green→blue gradient** on the positive/highlight element.
 2. **Flat isometric 2.5D illustration** with soft long shadows on pure white.
@@ -31,7 +40,7 @@ The Shetty's Desk mark: a **hand-textured chalk ring** above a serif *Shetty's* 
 
 **Logo colors:** Terracotta `#D97656` · Olive `#3C3828` · White `#FFFFFF`. All four files are **800×800 transparent PNGs** — they sit on any surface; a dark canvas (`#000000` / Navy `#1939A5`) shows them best.
 
-**The two-layer rule:** the logo palette is the **identity layer** (terracotta/olive, textured, serif, dark canvas); the azure/eco-green system is the **content layer** (flat isometric, white canvas). Keep them on their own layers — on infographics, the logo appears small (mono variant as a footer watermark or on a navy footer strip), never as a recolored part of the illustration. Keep clear space ≥ a quarter of the ring's width; never stretch, recolor, outline, or add effects to the mark.
+**The two-layer rule:** the logo palette is the **identity layer** (terracotta/olive, textured, serif, dark canvas); the azure/eco-green system is the **content layer** (flat isometric, white canvas). Keep them on their own layers. A small exact logo may be used on an approved carousel or separate exact artifact; a standard native scene relies on the profile and caption unless the owned mark can be built into the render without an overlay. Never recolor, stretch, outline, or add effects to the mark.
 
 ## 2. Color Palette
 
@@ -139,7 +148,7 @@ Every graphic is flat-design **isometric / 2.5D vector** art: smooth blue gradie
 
 ---
 
-## 6. Layout & Format System
+## 6. Carousel and precision-artifact layout system
 
 Reusable module anatomy — combine these blocks for any infographic:
 
@@ -162,7 +171,7 @@ Reusable module anatomy — combine these blocks for any infographic:
 
 ---
 
-## 7. How to Generate Infographics (3 tools)
+## 7. How to Generate (3 tools)
 
 The same DNA, fed the way each tool prefers:
 
@@ -170,9 +179,11 @@ The same DNA, fed the way each tool prefers:
 
 **ChatGPT Image 2** → paste the ChatGPT prompt; lead with "flat-design isometric vector infographic, pure white background." Reuse the identical style block every time for a coherent series. Drag in the PDF or a reference image too.
 
-**Claude Code** → point it at `brand-tokens.json` + this guide. It can inject tokens into HTML/SVG or build generation prompts, compose modules per the layout anatomy, and output editable on-brand graphics.
+**Claude Code** → for a standard post, use the Operating Studio frame and a native image-engine prompt. It may use the tokens to build an editable HTML/SVG only when a separate exact artifact or carousel has been explicitly selected.
 
-**Golden workflow:** generate each *module* separately on a white background → assemble in the layout anatomy → keep the style block identical across the series, changing only the `{subject}`.
+**Standard workflow:** choose one reader tension → one physical or visual mechanism → one native image-engine composition → five-reader check. The visual family can vary with the argument; the palette and colour meanings maintain ownership.
+
+**Precision-artifact workflow:** generate each *module* separately on a white background → assemble in the layout anatomy. Use this only when the reader needs an exact controlled artifact, not as a default feed-image finish.
 
 ---
 

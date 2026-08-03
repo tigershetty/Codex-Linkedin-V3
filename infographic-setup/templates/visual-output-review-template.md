@@ -1,4 +1,7 @@
-# Visual Output Review — Creative Genome Template
+# Visual Output Review — Flagship Creative Genome Template
+
+**Scope:** Use only for a declared flagship or precision artifact. A standard LinkedIn post uses
+`five-reader-review.md` against its active visual.
 
 **Week / slug:**
 **Candidate:**

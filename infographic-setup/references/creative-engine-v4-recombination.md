@@ -22,7 +22,8 @@ The engine does not choose the topic and does not revalidate the saved reference
 
 1. Confirm one reader promise and the 3/10/30-second contract.
 2. Select or hybridise the strongest direction from the visible sprint, not the easiest renderer.
-3. Build `creative-brief-lite.md` from the selected recombination.
+3. Standard: keep the selected route in `post-card.md` and move directly to the native visual and
+   complementary caption. Flagship: build `creative-brief-lite.md` from the selected recombination.
 4. Use the image engine for a standard Operating Studio social visual. Use HTML/SVG, spreadsheet,
    document, or another surface only when that separate artifact is the reader value. No renderer is
    the creative strategy.
@@ -80,7 +81,8 @@ Pass only when all are true:
 - a useful action or reference is available in 30 seconds;
 - the image visibly proves the opening tension and has a specific work moment;
 - the visual and caption are complementary;
-- the result can be traced to the bundle without looking like any one source post;
+- the result can be traced to the standard reference shelf or flagship bundle without looking like
+  any one source post;
 - the design feels like Shetty's Desk;
 - text, formula, relationship, logo, and data integrity are exact;
 - factual and personal claims meet their individual support burden;
@@ -107,5 +109,6 @@ node scripts/build-visual-package.mjs data/{week}/{slug}
 node scripts/audit-visual-package.mjs data/{week}/{slug}
 ```
 
-Existing legacy packages retain their historical inputs for reproduction. All new V4 work uses the
-Creative Genome route.
+Existing legacy packages retain their historical inputs for reproduction. Standard V4 posts use the
+Fast Post Loop and draw on Creative Genome intelligence; declared flagships use the full Creative
+Genome route.

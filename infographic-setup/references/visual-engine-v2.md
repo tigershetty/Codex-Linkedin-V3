@@ -2,16 +2,18 @@
 
 **Date:** 2026-08-02
 **Status:** Active visual-production workflow
-**Upstream:** `creative-genome-recombination-engine-v1.md` and `creative-engine-v4-recombination.md`
+**Upstream:** `fast-post-loop-v1.md` for standard posts; `creative-genome-recombination-engine-v1.md`
+and `creative-engine-v4-recombination.md` for declared flagships
 
 ## Thesis
 
-The renderer is not the creative strategy. Select the reader promise, Creative Genome assembly, and
-visual argument first. Then choose the surface that expresses it most clearly and accurately.
+The renderer is not the creative strategy. Select the reader promise, route-appropriate creative
+input, and visual argument first. Then choose the surface that expresses it most clearly and
+accurately.
 
 | Layer | Job |
 |---|---|
-| Creative Genome bundle | Attention, comprehension, utility, and bridge mechanics |
+| Standard reference shelf or flagship Genome bundle | Attention, comprehension, utility, and bridge mechanics |
 | Recombination brief | Flagship-only creative seed, ten concepts, three visible directions, and the selected assembly |
 | Shetty's Desk Operating Studio | Default brand ownership, live decision tension, and useful visual system |
 | Claim contract | Exact limits on numbers, outcomes, comparisons, and personal authority |
@@ -62,8 +64,8 @@ and a clear shot - without copying its recurring character or distinctive style.
   selected assembly and claim ledger.
 - Selected Shetty's Desk brand frame and exact owned or official assets when they materially matter.
 
-Existing legacy packages retain their historical inputs for reproduction. New work must use the
-reference bundle.
+Existing legacy packages retain their historical inputs for reproduction. New flagships use the
+reference bundle; standard posts use the selected post card and its two-to-four-reference shelf.
 
 ## Visual contract
 
@@ -99,6 +101,40 @@ If those lines are vague, return to recombination. Do not repair a weak idea wit
 
 ## Image-engine path
 
+### Standard native scene
+
+Compile the prompt from the selected `post-card.md`. Lock the reader tension, visible proof, useful
+keep, short on-image wording, and claim boundary, but allow composition freedom.
+
+```md
+TASK:
+Create one original, image-engine-native LinkedIn scene for Shetty's Desk.
+
+READER AND LIVE MOMENT:
+[reader, work moment, and why it matters]
+
+VISIBLE TENSION:
+[the collision or question the reader sees immediately]
+
+PHYSICAL OR VISUAL MECHANISM:
+[one object, route, boundary, transformation, or decision system]
+
+USEFUL KEEP:
+[one decision rule, distinction, or mental model embedded in the scene]
+
+TEXT AND CLAIM BOUNDARY:
+[only short integral wording; exact claims and prohibited inference]
+
+COMPOSITION:
+[one eye path; semantic green/coral if relevant; render as one native image]
+
+AVOID:
+HTML/SVG overlays, dashboard cards, title/footer bars, watermarks, model-redrawn logos, and
+invented numbers, outcomes, or company proof.
+```
+
+### Flagship image-engine prompt
+
 Use a prompt compiled from the selected recombination. Lock the text and meaning, but allow composition
 freedom.
 
@@ -120,13 +156,13 @@ VISUAL ARGUMENT:
 [one dominant object, eye path, and payoff]
 
 CONTENT:
-[exact title, labels, data, footer, and placement homes]
+[exact title, labels, data, and placement homes]
 
 CLAIM INTEGRITY:
 [claim classes, sources, assumptions, and prohibited inference]
 
 BRAND AND ASSETS:
-[Selected Shetty's Desk expression plus exact logo and tool assets]
+[Selected Shetty's Desk expression plus exact owned/official assets when they matter]
 
 COMPOSITION FREEDOM:
 [where the renderer may invent arrangement without inventing content]
@@ -153,7 +189,8 @@ that merely read the image aloud.
 
 ## Review gate
 
-Use `templates/visual-output-review-template.md`. Publish only when:
+For a standard post, use `five-reader-review.md` against the active visual. For a flagship or
+precision artifact, use `templates/visual-output-review-template.md`. Publish only when:
 
 - the problem or promise is visible in 3 seconds;
 - the main insight is understood in 10 seconds;
@@ -177,7 +214,8 @@ Hard fails:
 
 ## Motion
 
-After `visual.png` is approved, use `motion-engine-v1.md` only when this sentence is strong:
+After the active visual named by `post-card.md` is approved, use `motion-engine-v1.md` only when
+this sentence is strong:
 
 > Motion helps because the reader needs to see [sequence or change] in [reading order].
 
@@ -200,5 +238,6 @@ Flagship:
     image-engine prompt when used, visual review, selected final visual, optional motion,
     publish manifest, and analytics
 
-Preserve `visual.png` after approval. Create a non-cropping LinkedIn companion when needed rather
-than destructively cropping the master.
+Preserve the active visual path named by `post-card.md` after approval. `visual.png` remains a
+legacy-compatible alias only. Create a non-cropping LinkedIn companion when needed rather than
+destructively cropping the master.

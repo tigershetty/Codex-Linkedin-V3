@@ -1,11 +1,15 @@
 # Layout & Framework Intelligence
 
 **Version:** 1.1 · **Created:** 2026-06-20 · **Reframed:** 2026-08-02 · **For:** Shetty's Desk visual production
-**Purpose:** A secondary layout catalog for implementing or challenging a selected Creative Genome direction. It does not select the topic, creative concept, or renderer. Use it after the reference bundle and visual argument exist, never as the source of the first generic layout.
+**Purpose:** A secondary layout catalog for implementing or challenging a selected visual argument.
+It does not select the topic, creative concept, or renderer. A standard post opens it only after the
+post card and visual argument exist; a flagship opens it after the reference bundle and recombination
+brief exist. Never use it as the source of the first generic layout.
 
 ## How to use this file
 
-1. Read `reference-bundle.json`, `recombination-brief.md`, and `creative-brief-lite.md` first.
+1. Standard: read `post-card.md` and its selected visual argument. Flagship: read
+   `reference-bundle.json`, `recombination-brief.md`, and `creative-brief-lite.md`.
 2. State the visual argument and dominant object before opening this catalog.
 3. Use §1 and §2 to test whether the selected shape actually expresses the relationship.
 4. Use §3 for established business conventions and §4 only when HTML/SVG is the chosen renderer.

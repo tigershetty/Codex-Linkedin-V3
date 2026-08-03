@@ -2,8 +2,8 @@
   "$schema": "https://shettys-desk/brand-tokens.schema.json",
   "brand": {
     "name": "Shetty's Desk",
-    "type": "Personal LinkedIn infographic visual system",
-    "essence": "Optimistic, science-led, credible and modern. Clean and airy, with luminous blue gradients and a vivid signature green that always signals positive / progress / the smart choice. Data-driven but human. Every visual is smooth isometric 2.5D vector art on white — never photographic.",
+    "type": "Personal LinkedIn operating-scene and precision-artifact visual system",
+    "essence": "Optimistic, science-led, credible and modern. Clean and airy, with luminous blue gradients and a vivid signature green that always signals positive / progress / the smart choice. Data-driven but human. Standard posts use one native operating scene; the precision route uses smooth isometric 2.5D vector art on white.",
     "personality": ["optimistic", "credible", "modern", "calm", "data-driven", "approachable"],
     "derivedFrom": "EcoMobility infographic reference set (visual DNA extracted and generalized; subject matter is now topic-agnostic)"
   },
@@ -29,7 +29,7 @@
       "monoOlive": "Single-color uses on light/cream surfaces; print.",
       "rules": [
         "The logo layer is IDENTITY (terracotta/olive/black, textured, serif) and intentionally distinct from the CONTENT layer (azure/eco-green flat isometric on white). Don't mix the two palettes within one element.",
-        "On infographics: place the logo small as a footer watermark (mono variants preferred), or use the navy footer strip.",
+        "On an approved carousel or exact artifact, a small exact logo may appear in the footer. Do not paste a logo over a standard native scene.",
         "Keep clear space of at least the ring's quarter-width around the mark; don't recolor, stretch, outline, or add effects to the textured ring."
       ]
     }
@@ -83,7 +83,7 @@
     "signatureMove": "Mixed-weight stat callout: a huge 800-weight number beside small 300-weight uppercase supporting words (e.g. '97% OF THE TIME')."
   },
   "illustration": {
-    "style": "Flat-design isometric / 2.5D vector",
+    "style": "V4 Operating Studio: tangible native 2.5D operating scene; precision route: flat-design isometric / 2.5D vector",
     "rules": {
       "do": [
         "Isometric or front-flat vector with smooth gradient fills",
@@ -121,7 +121,7 @@
     "banner":           { "px": "1584x396",  "ratio": "4:1",  "use": "Profile / article banner" },
     "story":            { "px": "1080x1920", "ratio": "9:16", "use": "Vertical / long-scroll" }
   },
-  "layoutAnatomy": [
+  "precisionArtifactLayoutAnatomy": [
     "1. Pin header — number/topic badge + UPPERCASE title + thin azure rule fading right",
     "2. Intro + character — short light paragraph paired with a mini-figure + green speech bubble",
     "3. Concept row — 3-4 isometric icons, each a bold label + 1-line caption",
@@ -130,9 +130,12 @@
     "6. Sources footer — centered small blue 'Sources:' list (credibility is part of the brand)"
   ],
   "prompts": {
+    "standardNativeSceneBlock": "Create one original, image-engine-native Shetty's Desk Operating Studio scene for {reader and live work moment}. Make {one contested decision} visible through {one physical mechanism}. The reader must understand the tension at feed size and keep {one decision rule or mental object} at closer look. Use a luminous white or ice-blue operating world, azure-to-navy systems, eco-green only for the protected or recommended path, and coral only for real risk, friction, or exception. Render scene, hierarchy, and short integral typography as one final image. No HTML, SVG, cards, dashboard mosaic, pasted title bar, footer, watermark, or model-redrawn logo overlay. Do not invent numbers, outcomes, or company proof.",
+    "standardNativeSceneUsage": "Default for an ordinary LinkedIn post. Choose a reader tension and physical mechanism first. Do not generate modules or assemble overlays after rendering.",
     "styleBlock": "Flat-design isometric 2.5D vector infographic illustration in the \"Shetty's Desk\" brand style. Smooth blue gradients (azure #2798FB through royal #247BE1 to deep navy #1939A5), rounded geometric shapes, soft diffused long shadows, subtle glows, clean editorial composition on a pure white background. A signature green eco-gradient (mint #8FF3CC to emerald #38E6A6) marks the positive / progress / highlighted element; coral-pink #E27199 marks any negative / warning element, used sparingly. Modern, optimistic, science-led, tech-forward. Crisp vector look — NOT photorealistic, no 3D render, no hard black outlines, no sketch texture, no dark backgrounds.",
+    "styleBlockUsage": "Precision artifact or carousel only. It is not the default standard LinkedIn post route.",
     "avoid": "Avoid: photorealism, 3D renders, hard black outlines, sketch/hand-drawn texture, dark or busy backgrounds, clutter, harsh or black drop shadows, muddy gradients, and using green for anything negative.",
-    "modules": {
+    "precisionArtifactModules": {
       "hero":    "A single large isometric hero scene showing {subject}. One clear focal object centered with generous white space around it.",
       "row":     "A horizontal row of 3-4 matching isometric concept icons illustrating {subject}. Identical style, scale and lighting across all icons, evenly spaced on white, each suitable for a bold label beneath it.",
       "single":  "A single isometric concept icon representing {subject}, centered, with a soft long shadow, isolated on pure white.",
@@ -174,14 +177,14 @@
         ]
       },
       "claude-code": {
-        "usage": "Read brand-tokens.json, inject colors/gradients/fonts into HTML/SVG or generation prompts. Compose modules per layoutAnatomy, keep backgrounds white, assemble in the chosen LinkedIn format.",
+        "usage": "For a standard LinkedIn post, read standardNativeSceneBlock and write one native image-engine prompt. Use HTML/SVG only for a separately selected precision artifact or carousel.",
         "tips": [
           "Use this file as the single source of truth for all tokens",
-          "Generate each module on a white background, then assemble in the layout grid",
-          "Prefer SVG/HTML for editable, on-brand output"
+          "Do not add HTML/SVG, dashboard, title, footer, or logo layers over a standard native scene",
+          "Generate modules and use SVG/HTML only for a separately selected precision artifact or carousel"
         ]
       }
     }
   },
-  "workflow": "Generate each MODULE separately (header, scene, icon row, stat) on a white background, then assemble them in the layout anatomy. This keeps every infographic editable and perfectly on-brand. For a coherent series, reuse the identical style block every time and only change {subject}."
+  "workflow": "Standard LinkedIn post: choose one reader tension and physical mechanism, then render one coherent native image-engine scene with no HTML/SVG or dashboard overlay. Precision artifact or carousel: generate modules separately and assemble only when exact controlled layout is the reader value. Preserve palette, colour semantics, and material language across a series without forcing identical layouts."
 }

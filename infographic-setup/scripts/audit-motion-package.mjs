@@ -47,6 +47,21 @@ function read(path) {
   return file(path) ? readFileSync(path, 'utf8') : '';
 }
 
+function selectedVisual() {
+  const postCardPath = join(postDir, 'post-card.md');
+  if (!file(postCardPath)) return { path: join(postDir, 'visual.png'), error: '' };
+  const card = read(postCardPath);
+  const match = card.match(/^\*\*Active visual:?\*\*\s*(.*)$/m);
+  const candidate = match?.[1]?.replace(/`/g, '').trim();
+  if (!candidate) return { path: '', error: 'Active visual is missing from post-card.md.' };
+  const resolved = resolve(postDir, candidate);
+  const relation = relative(postDir, resolved);
+  if (relation === '' || relation === '..' || relation.startsWith(`..${sep}`)) {
+    return { path: '', error: 'Active visual must resolve inside the post folder.' };
+  }
+  return { path: resolved, error: '' };
+}
+
 function probe(path) {
   if (!file(path)) return null;
   const result = spawnSync('ffprobe', [
@@ -65,15 +80,21 @@ function probe(path) {
   }
 }
 
-const visual = join(postDir, 'visual.png');
+const selected = selectedVisual();
+const visual = selected.path;
 const gif = join(postDir, 'visual-motion.gif');
 const mp4 = join(postDir, 'visual-motion.mp4');
 const qaPath = join(postDir, 'motion-qa.md');
 const briefPath = join(projectDir, 'motion-brief.md');
 const shotPath = join(projectDir, 'shot-plan.json');
 const compositionPath = join(projectDir, 'compositions', 'main.html');
+const copiedVisual = join(projectDir, 'assets', 'visual.png');
 
-check('approved visual exists', nonEmpty(visual, 1000), 'Promote the approved still to visual.png first.');
+check(
+  'approved active visual exists',
+  !selected.error && nonEmpty(visual, 1000),
+  selected.error || 'Set post-card.md Active visual to the approved non-empty PNG.',
+);
 check('canonical GIF exists', nonEmpty(gif, 1000), 'Export visual-motion.gif.');
 check('canonical MP4 exists', nonEmpty(mp4, 1000), 'Export visual-motion.mp4.');
 check('motion QA exists', nonEmpty(qaPath, 100), 'Complete motion-qa.md.');
@@ -94,6 +115,12 @@ check('canonical outputs promoted', /Canonical outputs promoted:\*\*\s*yes\b/i.t
 
 const composition = read(compositionPath);
 check('composition locks approved visual', /\.\.\/assets\/visual\.png/.test(composition), 'Use the copied approved visual as the locked base.');
+check(
+  'motion project copies the approved active visual',
+  nonEmpty(visual, 1000) && nonEmpty(copiedVisual, 1000)
+    && readFileSync(visual).equals(readFileSync(copiedVisual)),
+  'Copy the selected Active visual from post-card.md to videos/{slug}-motion/assets/visual.png.',
+);
 check('composition exposes deterministic timeline', /window\.__tl\s*=/.test(composition) && /window\.__dur\s*=/.test(composition), 'Expose window.__tl and window.__dur.');
 
 let shotValid = false;

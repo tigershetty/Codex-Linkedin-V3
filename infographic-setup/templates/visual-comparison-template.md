@@ -1,10 +1,12 @@
-# Visual Comparison — Template
+# Visual Comparison — Flagship / Precision-Artifact Template
 
-Use only when two surfaces or directions answer a real unresolved production decision. Do not create
-variants to satisfy a quota.
+Use only when two surfaces or directions answer a real unresolved flagship or precision-artifact
+production decision. Do not create variants to satisfy a quota. Standard LinkedIn posts use three
+rough route cards before one native final, not this template.
 
 **Week:** `{YYYY-W##}`
 **Slug:** `{slug}`
+**Route:** `flagship` / `precision artifact`
 **Creative bundle:** `{creative_bundle_id}`
 **Selected recombination direction:** `{direction}`
 **Decision this comparison resolves:**
@@ -54,5 +56,6 @@ variants to satisfy a quota.
 **Required fixes before review:**
 **Learning to carry forward:**
 
-Promote only the explicitly approved result to `visual.png`. A losing candidate remains a test of
-this execution, not evidence that its source atoms were poor creative signals.
+Promote only the explicitly approved result to the active asset path named in the post card or
+publish manifest; never infer selection from `visual.png`. A losing candidate remains a test of this
+execution, not evidence that its source atoms were poor creative signals.
