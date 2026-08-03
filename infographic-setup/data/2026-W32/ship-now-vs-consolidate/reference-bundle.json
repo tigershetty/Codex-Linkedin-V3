@@ -1,0 +1,91 @@
+{
+  "$schema": "../../../references/creative-genome/schemas/reference-bundle.schema.json",
+  "schema_version": "1.0.0",
+  "creative_bundle_id": "CB-2026-W32-C3-LAST-SAFE-DEPARTURE-01",
+  "query_id": "RQ-2026-W32-C3-SHIP-NOW-VS-CONSOLIDATE-V1",
+  "content_id": "2026-W32-ship-now-vs-consolidate-linkedin-01",
+  "snapshot_id": "creative-genome-2026-08-02-v1",
+  "status": "ready",
+  "claim_mode": "formula_or_method",
+  "reader_contract": {
+    "problem_3s": "A ready shipment is waiting for a second PO, but the customer date may not permit the hold.",
+    "insight_10s": "The maximum defensible hold is the smaller of the service-safe limit and the economic break-even limit across every credible scenario.",
+    "action_30s": "Check compatibility and input freshness, calculate both limits, then ship, consolidate, stop, review, or escalate with the reason recorded."
+  },
+  "selected_direction": "Direction B — The Last Safe Departure",
+  "coherence_rationale": "The contradiction earns attention, the route-to-deadline makes the decision legible, the two-limit formula supplies a saveable method, and the calculator continues the same release decision with the reader's current inputs.",
+  "tiger_precedent_ids": [
+    "LI-7452009427345362944",
+    "LI-7479906357559824384"
+  ],
+  "references": [
+    {
+      "reference_id": "LI-7463202442491650048",
+      "roles": [
+        "attention"
+      ],
+      "atoms": [
+        {
+          "creative_element_id": "CE-C3-ATTN-01",
+          "atom_type": "attention",
+          "source_mechanism": "A sharp correction separates the familiar label from the decision that actually matters.",
+          "adaptation": "Open on the contradiction that a freight saving can be real while holding the shipment is still impermissible."
+        }
+      ],
+      "anti_copy_boundary": "Do not reuse 'NOT every X is equal,' immature-versus-mature categories, the central VS spine, source wording, palette, labels, artwork, or branding.",
+      "visual_claim_status": "source_visual_inspected",
+      "visual_inspection_note": "The portrait asset uses two opposing columns separated by a dark category spine. Only the immediate contrast mechanism is retained; the source composition and expression are excluded."
+    },
+    {
+      "reference_id": "LI-7460562088730562560",
+      "roles": [
+        "comprehension"
+      ],
+      "atoms": [
+        {
+          "creative_element_id": "CE-C3-COMP-01",
+          "atom_type": "argument",
+          "source_mechanism": "Ordered layers make a complex operating system understandable as a small sequence of questions.",
+          "adaptation": "Convert the layers into one route: current data and compatibility, service deadline, differential economics, then a recorded decision."
+        }
+      ],
+      "anti_copy_boundary": "Do not reuse the three-layer engine, demand/supply/execution framing, 'sense/simulate/decide/adapt,' source icons, numbered layout, palette, wording, artwork, or branding.",
+      "visual_claim_status": "source_visual_inspected",
+      "visual_inspection_note": "The asset presents three large numbered layers with an explicit top-down reading path and supporting sidebars. The new direction uses only the staged-question principle and changes the object, number of stages, direction, and visual grammar."
+    },
+    {
+      "reference_id": "LI-7444403543404359680",
+      "roles": [
+        "utility"
+      ],
+      "atoms": [
+        {
+          "creative_element_id": "CE-C3-UTIL-01",
+          "atom_type": "utility",
+          "source_mechanism": "A method becomes saveable when calculation, interpretation, and practical use condition are kept together.",
+          "adaptation": "Show the service-safe hold and economic break-even hold separately, then state that the smaller limit governs across all credible scenarios."
+        }
+      ],
+      "anti_copy_boundary": "Do not reuse the forecasting subject, method list, mini charts, blue/orange card system, source wording, card composition, artwork, or branding.",
+      "visual_claim_status": "source_visual_inspected",
+      "visual_inspection_note": "The source repeats compact method cards that pair a miniature visual with a short explanation and use condition. The new asset changes the subject and composition and retains only the complete-method utility principle."
+    },
+    {
+      "reference_id": "LI-7459888401522028544",
+      "roles": [
+        "bridge"
+      ],
+      "atoms": [
+        {
+          "creative_element_id": "CE-C3-BRIDGE-01",
+          "atom_type": "bridge",
+          "source_mechanism": "A complete on-feed diagnostic creates a legitimate bridge to a deeper execution resource.",
+          "adaptation": "Give the full release rule on LinkedIn, then offer the no-email calculator only for live dates, quotes, scenarios, and an auditable decision record."
+        }
+      ],
+      "anti_copy_boundary": "Do not reuse tactical-to-strategic framing, the seven-panel guide, chess or target motifs, red-green stop/go styling, 'free guide' CTA, source wording, artwork, or branding.",
+      "visual_claim_status": "source_visual_inspected",
+      "visual_inspection_note": "The source is a dense multi-part procurement guide that delivers substantial feed value before the external-resource bridge. The new direction keeps that value sequencing but uses a single deadline race and a different destination utility."
+    }
+  ]
+}

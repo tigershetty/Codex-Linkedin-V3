@@ -17,7 +17,7 @@ variants to satisfy a quota.
 **30-second useful action:**
 **Claim support that both candidates must preserve:**
 **Anti-copy boundary:**
-**Brand frame:** `references/brand-kits/cobalt-grid/FRAME.md`
+**Brand frame:** `references/brand-kits/shettys-desk-operating-studio/FRAME.md`
 
 ## Candidate A
 
@@ -47,7 +47,7 @@ variants to satisfy a quota.
 | Which preserves the useful object or action better? |  |  |
 | Which keeps text, formulas, data, and logos exact? |  |  |
 | Which feels more original while respecting the reference boundary? |  |  |
-| Which better belongs to Cobalt Grid / Shetty's Desk? |  |  |
+| Which better belongs to the selected Shetty's Desk expression? |  |  |
 
 **Chosen candidate:**
 **Why it wins for this reader promise:**

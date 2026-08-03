@@ -65,7 +65,8 @@ Read `creative-genome-recombination-engine-v1.md` before selecting or producing 
 - All saved posts have `positive_creative_signal=true`.
 - Saved status is enough for creative use; no second validity debate is required.
 - Retrieve 10-15 relevant references before narrowing the idea.
-- Generate ten concepts and develop at least three meaningfully different directions.
+- Write a creative seed, generate ten concepts, and make at least three meaningfully different
+  visible rough directions before final production.
 - Build a coherent attention, comprehension, utility, and bridge bundle.
 - Borrow mechanisms, not wording, subject matter, art, identity, or branding.
 - Use Tiger results to learn transfer, never to invalidate the saved source.
@@ -166,7 +167,8 @@ decision, not the internal audit model.
    Build Creative Genome shortlists for several promising reader jobs.
 
 4. Recombine
-   Generate ten concepts and develop at least three distinct directions per serious candidate.
+   Write the creative seed, generate ten concepts, then make three visibly different rough direction
+   tiles. Force a select / hybridise / kill decision before full production.
 
 5. Select
    Choose a five-post portfolio using reader payoff, creative strength, claim support, and channel role.
@@ -215,7 +217,8 @@ Creative Genome, the reader contract, claim support, or Tiger voice.
 - Audience: `audience-intelligence.md`
 - Voice and provenance: `../../tiger-voice.md`, `tiger-source-gate-v1.md`
 - Production QA: `creative-engine-v4-recombination.md`, `visual-engine-v2.md`
-- Brand: `brand-kits/cobalt-grid/FRAME.md`
+- Default brand: `brand-kits/shettys-desk-operating-studio/FRAME.md`
+- Secondary editorial expression: `brand-kits/cobalt-grid/FRAME.md`
 - Motion: `motion-engine-v1.md`
 - Handoff: `publish-resource-handoff-v1.md`, `publish-asset-spec-v1.md`
 - Measurement: `.claude/skills/analytics/SKILL.md`

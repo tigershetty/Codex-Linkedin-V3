@@ -1,6 +1,6 @@
 # Shetty's Desk — Infographic Renderer & Production Playbook
 **Created**: 2026-06-15 · **Status**: Active deterministic control and motion renderer. Read `../references/visual-engine-v2.md` first.
-**Active companions**: `../references/creative-genome-recombination-engine-v1.md` (source selection and recombination) · `../references/visual-engine-v2.md` (visual authority) · `../references/brand-kits/cobalt-grid/FRAME.md` (brand) · `../references/layout-frameworks-intelligence.md` (optional layout vocabulary) · `../memory/visual-benchmarks/top100-visual-dna.md` (historical Top-100 pattern analysis). This file is the deterministic *production* layer.
+**Active companions**: `../references/creative-genome-recombination-engine-v1.md` (source selection and recombination) · `../references/visual-engine-v2.md` (visual authority) · `../references/brand-kits/shettys-desk-operating-studio/FRAME.md` (default brand expression) · `../references/brand-kits/cobalt-grid/FRAME.md` (explicit secondary editorial expression) · `../references/layout-frameworks-intelligence.md` (optional layout vocabulary) · `../memory/visual-benchmarks/top100-visual-dna.md` (historical Top-100 pattern analysis). This file is the deterministic *production* layer.
 
 ---
 

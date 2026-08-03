@@ -1,0 +1,84 @@
+{
+  "$schema": "../../../references/creative-genome/schemas/reference-query.schema.json",
+  "schema_version": "1.0.0",
+  "status": "ready",
+  "query_id": "RQ-2026-W32-C3-SHIP-NOW-VS-CONSOLIDATE-V1",
+  "content_id": "2026-W32-ship-now-vs-consolidate-linkedin-01",
+  "reader_decision": "Purchasing practitioners, KAMs, logistics colleagues, and planning managers deciding whether a ready shipment should leave now or wait for another compatible PO without risking the customer need-by date.",
+  "care_statement": "Freight savings matter only if the customer date remains protected; the reader should leave with a reusable service-first decision order, uncertainty gate, and escalation path.",
+  "audience_terms": [
+    "purchasing and procurement practitioners"
+  ],
+  "topic_terms": [
+    "decision",
+    "trade-off",
+    "customer",
+    "service",
+    "risk",
+    "exception",
+    "cost",
+    "wait",
+    "freight",
+    "consolidation"
+  ],
+  "content_modes": [
+    "reasoned model only",
+    "worked demonstration",
+    "first-party result/test",
+    "named real-world case",
+    "decision/reference artifact",
+    "executable/interactive",
+    "completed example only"
+  ],
+  "hook_types": [
+    "pain/consequence scene",
+    "method/artifact promise",
+    "correction/distinction",
+    "evidence/result",
+    "complete list/map",
+    "curiosity question",
+    "personal/build story"
+  ],
+  "visual_structures": [
+    "decision tree or branching path",
+    "comparison or matrix",
+    "process or workflow",
+    "chart, data, or formula",
+    "checklist, grid, or index",
+    "reference or cheat sheet",
+    "worked screenshot or demonstration",
+    "narrative illustration or metaphor"
+  ],
+  "artifact_types": [
+    "decision/reference artifact",
+    "executable/interactive",
+    "copyable operating asset",
+    "completed example only",
+    "downloadable resource"
+  ],
+  "ctas": [
+    "none",
+    "traffic/owned audience",
+    "practitioner discussion"
+  ],
+  "excluded_patterns": [
+    "EOQ",
+    "optimal batch size",
+    "AI tool stack",
+    "ChatGPT prompt",
+    "AI makes the trade-off visible",
+    "ultimate cheat sheet",
+    "comment",
+    "free guide"
+  ],
+  "source_preferences": [
+    "saved_positive",
+    "top100_curated_reference"
+  ],
+  "eligible_creative_signals": [
+    "saved_positive",
+    "top100_curated_reference"
+  ],
+  "limit": 15,
+  "tiger_precedent_limit": 5
+}

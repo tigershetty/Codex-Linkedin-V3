@@ -56,7 +56,9 @@
 
 ## 6. Brand And Assets
 
-**Brand frame:** `references/brand-kits/cobalt-grid/FRAME.md`
+**Brand expression:** `Shetty's Desk Operating Studio`
+**Brand frame:** `references/brand-kits/shettys-desk-operating-studio/FRAME.md`
+**Brand direction:** `luminous white/pale-blue operating world; Poppins; blue system; green = protected/recommended; coral = risk/exception; controlled non-photorealistic depth`
 **Logo plan:**
 **Logo/asset references:** `renderer/assets/logos/shettys-desk-logo-2.png`
 **Official tool assets, if meaningful:**

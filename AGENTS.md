@@ -38,7 +38,8 @@ saved-post Creative Genome
 
 - Treat every saved post as a positive creative signal. Never re-litigate whether it deserves use.
 - Retrieve 10-15 references, generate ten concepts, and develop at least three genuinely different
-  directions before selecting a major post.
+  **visible rough directions** before selecting a major post. A direction differs in story mechanism
+  or visual primitive, not merely in title, colour, or icon.
 - Support each claim at the level it requires. Frameworks do not need fabricated outcome data;
   numerical, causal, company, and personal claims need traceable support.
 - Never publish internal software fixtures as customer proof or a real outcome.
@@ -67,7 +68,8 @@ Engine. Research depth follows the selected claim mode.
 - Opportunity selection: `infographic-setup/references/creative-opportunity-selection.md`
 - Creative production: `infographic-setup/references/creative-engine-v4-recombination.md`
 - Visual workflow: `infographic-setup/references/visual-engine-v2.md`
-- Brand: `infographic-setup/references/brand-kits/cobalt-grid/FRAME.md`
+- Default brand expression: `infographic-setup/references/brand-kits/shettys-desk-operating-studio/FRAME.md`
+- Optional secondary editorial expression: `infographic-setup/references/brand-kits/cobalt-grid/FRAME.md`
 - Voice gate: `infographic-setup/references/tiger-source-gate-v1.md`
 - Motion: `infographic-setup/references/motion-engine-v1.md`
 - Publish handoff: `infographic-setup/references/publish-resource-handoff-v1.md`

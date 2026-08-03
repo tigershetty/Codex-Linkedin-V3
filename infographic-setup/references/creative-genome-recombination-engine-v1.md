@@ -94,15 +94,19 @@ Do not adapt one creator end to end. Generate at least ten concepts by recombini
 across the shortlist. Change the argument, visual object, utility, or value bridge - not merely the
 headline wording.
 
-Develop at least three genuinely different concept families before selection. A useful default
-spread is:
+Develop at least three genuinely different concept families before selection. First turn each into
+a rough visible 4:5 direction tile using `templates/creative-direction-sprint-template.md`. A
+direction is not a different headline, colour treatment, or icon. It has a different reader moment,
+first-frame hook, visual primitive, and useful keep. A useful default spread is:
 
 - **Utility:** the clearest tool, map, reference, or working artifact;
 - **Visual idea:** the strongest metaphor, transformation, contrast, or physical object;
 - **Narrative:** the strongest reveal, case, identity shift, or before-and-after logic.
 
 These are exploration prompts, not fixed quotas. A stronger fourth direction may replace any of
-them. Select the direction with the clearest combined reader payoff, not the safest production path.
+them. Run a forced select / hybridise / kill comparison before claim support, calculator work,
+finished captions, or visual polishing. Select the direction with the clearest combined reader
+payoff, not the safest production path.
 
 ## Reader contract
 
@@ -144,8 +148,9 @@ Measure Tiger transfer
   -> scan audience and current signals
   -> retrieve 10-15 saved references
   -> decompose the useful creative atoms
-  -> recombine into 10 concepts
-  -> develop 3 distinct directions
+  -> recombine into a creative seed + 10 concepts
+  -> make 3 distinct visible direction tiles
+  -> force a select / hybridise / kill decision
   -> select content mode and reader promise
   -> apply claim-proportionate support
   -> add Tiger judgment where needed
@@ -164,6 +169,7 @@ Every new major content package uses:
 - `reference-candidates.json` - deterministic shortlist;
 - `reference-bundle.json` - selected atoms and anti-copy boundaries;
 - `recombination-brief.md` - ten concepts, three developed directions, and the selected assembly;
+- `creative-seed.md` and `directions/` - the work moment and three rough direction tiles;
 - `content-brief-v2.md` - reader, mode, claim contract, channel job, and artifact decision;
 - production files appropriate to the selected direction.
 

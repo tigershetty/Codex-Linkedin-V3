@@ -12,8 +12,8 @@ visual argument first. Then choose the surface that expresses it most clearly an
 | Layer | Job |
 |---|---|
 | Creative Genome bundle | Attention, comprehension, utility, and bridge mechanics |
-| Recombination brief | Ten concepts, three developed directions, and the selected assembly |
-| Cobalt Grid | Brand ownership and restraint |
+| Recombination brief | Creative seed, ten concepts, three visible directions, and the selected assembly |
+| Shetty's Desk Operating Studio | Default brand ownership, live decision tension, and useful visual system |
 | Claim contract | Exact limits on numbers, outcomes, comparisons, and personal authority |
 | Renderer | Execute the selected direction |
 | Review | Decide whether the public asset is clear, useful, original, and true |
@@ -34,14 +34,14 @@ force a dashboard around a conceptual visual.
 
 ## Brand authority
 
-Use `references/brand-kits/cobalt-grid/FRAME.md` as the production authority:
+Use `references/brand-kits/shettys-desk-operating-studio/FRAME.md` as the default production
+authority. Its default is a white/light-blue luminous operating world, Poppins hierarchy, smooth
+2.5D/isometric or equivalently strong visual object, blue system infrastructure, green for the
+protected/recommended path, and coral sparingly for risk or exception. The exact Shetty's Desk logo
+remains an owned asset, never model-redrawn.
 
-- warm cream and electric cobalt as the base;
-- editorial serif hierarchy with restrained sans or mono labels;
-- visible grid discipline and square structural geometry;
-- functional depth, not glossy SaaS decoration;
-- one rare semantic accent only when meaning requires it;
-- exact Shetty's Desk logo asset, never model-redrawn.
+`references/brand-kits/cobalt-grid/FRAME.md` is an opt-in secondary editorial expression for a
+specific restraint-led argument. It must be selected in the brief; it is not a neutral default.
 
 Creative references contribute structure, hierarchy, density, metaphor, and illustration method.
 They do not replace the brand.
@@ -57,14 +57,20 @@ and a clear shot - without copying its recurring character or distinctive style.
 - `recombination-brief.md` with the selected direction;
 - `content-brief-v2.md` with reader, content mode, claim ledger, and channel job;
 - `creative-brief-lite.md` with one visual move and exact text;
-- Cobalt Grid brand frame and exact owned or official assets.
+- selected Shetty's Desk brand frame and exact owned or official assets.
 
 Existing legacy packages retain their historical inputs for reproduction. New work must use the
 reference bundle.
 
 ## Visual contract
 
-Write these sentences before production:
+Before production:
+
+1. Complete the creative direction sprint. Three rough 4:5 tiles must have visibly different story
+   mechanisms before any one direction receives full production.
+2. Select, hybridise, or kill; do not use a final render as the first meaningful comparison.
+
+Then write these sentences:
 
 ```md
 At feed size, the reader sees:
@@ -117,7 +123,7 @@ CLAIM INTEGRITY:
 [claim classes, sources, assumptions, and prohibited inference]
 
 BRAND AND ASSETS:
-[Cobalt Grid plus exact logo and tool assets]
+[Selected Shetty's Desk expression plus exact logo and tool assets]
 
 COMPOSITION FREEDOM:
 [where the renderer may invent arrangement without inventing content]
@@ -150,7 +156,7 @@ Use `templates/visual-output-review-template.md`. Publish only when:
 - useful action is available in 30 seconds;
 - the selected atoms are visible but the output does not resemble one source end to end;
 - the image has one message, one hero, and one reading route;
-- the result feels like Cobalt Grid / Shetty's Desk;
+- the result feels like the selected Shetty's Desk expression;
 - text, logos, formulas, relationships, and numbers are exact;
 - each claim meets its support burden;
 - the LinkedIn crop preserves comprehension and utility.

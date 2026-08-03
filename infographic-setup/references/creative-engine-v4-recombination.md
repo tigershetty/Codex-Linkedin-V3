@@ -12,16 +12,18 @@ The engine does not choose the topic and does not revalidate the saved reference
 ## Required inputs
 
 - approved `reference-bundle.json`;
-- completed `recombination-brief.md` with ten concepts and three developed directions;
+- completed `recombination-brief.md`, creative seed, and three visible rough directions with a
+  forced select / hybridise / kill decision;
 - `content-brief-v2.md` with reader, content mode, claim contract, and channel job;
 - claim support appropriate to the statements being made;
 - Tiger source note when personal judgment or first-person authority is used;
-- `references/brand-kits/cobalt-grid/FRAME.md` as the brand authority.
+- `references/brand-kits/shettys-desk-operating-studio/FRAME.md` as the default brand authority,
+  unless the brief explicitly selects the secondary Cobalt Grid expression.
 
 ## Production flow
 
 1. Confirm one reader promise and the 3/10/30-second contract.
-2. Select the strongest direction, not the easiest renderer.
+2. Select or hybridise the strongest direction from the visible sprint, not the easiest renderer.
 3. Build `creative-brief-lite.md` from the selected recombination.
 4. Choose GPT Image 2, HTML/SVG, spreadsheet, document, or another surface based on the idea and
    exactness required. No renderer is the creative strategy.
@@ -35,8 +37,10 @@ The engine does not choose the topic and does not revalidate the saved reference
 - Let support modules explain the hero; do not make every fact a separate card.
 - Treat 3D/isometric, flat editorial illustration, charts, diagrams, photographed artifacts, and
   typographic references as equal pattern families. Pick the one that makes the argument clearest.
-- Use Cobalt Grid colours, typography, spacing, and logo system. References contribute information
-  architecture and creative atoms, not another creator's brand.
+- Use the selected Shetty's Desk brand expression. For the default Operating Studio, show the reader
+  tension through a physical or visual operating mechanism, use blue for systems, green for the
+  protected/recommended path, and coral sparingly for risk or exception. References contribute
+  information architecture and creative atoms, not another creator's brand.
 - Use exact official logos only when a named tool or platform is part of the meaning.
 - Use third-party icon libraries only for referential UI states; never build the Shetty's Desk logo
   from third-party geometry.
@@ -60,7 +64,7 @@ Before rendering, confirm:
 - any number or outcome follows the claim contract;
 - the anti-copy boundary is explicit;
 - the renderer has composition freedom without permission to invent content;
-- the Cobalt Grid brand and exact logo plan are defined.
+- the selected brand expression and exact logo plan are defined.
 
 ## Output review
 
@@ -79,6 +83,7 @@ Pass only when all are true:
 Hard fails:
 
 - generic card-grid or AI-showroom output;
+- a polished rule, calculator, or diagram with no visible work moment or story tension;
 - copied wording, composition, character, or branding;
 - invented number, outcome, customer proof, or personal authority;
 - a visual that requires the caption to explain what it is;

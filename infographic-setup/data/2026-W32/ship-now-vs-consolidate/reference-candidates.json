@@ -1,0 +1,2262 @@
+{
+  "$schema": "references/creative-genome/schemas/reference-candidates.schema.json",
+  "content_id": "2026-W32-ship-now-vs-consolidate-linkedin-01",
+  "query_contract": {
+    "care_statement": "Freight savings matter only if the customer date remains protected; the reader should leave with a reusable service-first decision order, uncertainty gate, and escalation path.",
+    "content_modes": [
+      "reasoned model only",
+      "worked demonstration",
+      "first-party result/test",
+      "named real-world case",
+      "decision/reference artifact",
+      "executable/interactive",
+      "completed example only"
+    ],
+    "reader_decision": "Purchasing practitioners, KAMs, logistics colleagues, and planning managers deciding whether a ready shipment should leave now or wait for another compatible PO without risking the customer need-by date."
+  },
+  "query_id": "RQ-2026-W32-C3-SHIP-NOW-VS-CONSOLIDATE-V1",
+  "query_sha256": "db2e32d5bd35b485230d4e19d9e48ad798f8fa16da5feb11039e216308798204",
+  "result_count": 15,
+  "results": [
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "decision/reference artifact"
+        },
+        "cta": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "none"
+        },
+        "format": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "single static image"
+        },
+        "hook_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "plain premise/announcement"
+        },
+        "job_to_be_done": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "prevent/fix failure"
+        },
+        "problem_family": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "inventory and replenishment"
+        },
+        "promise": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "DEMAND PLANNING (NEXT LEVEL) Most people forecast. Few actually plan."
+        },
+        "proof_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "reasoned model only"
+        },
+        "target_audience": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "planners and planning managers"
+        },
+        "topic": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "forecast quality and decision consequences"
+        },
+        "visual_structure": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "preview_only",
+          "status": "heuristic_unverified",
+          "value": "comparison or matrix"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/feed/update/urn:li:activity:7449046219600982016",
+      "creative_assets": {
+        "top100_references": [
+          {
+            "caption_index_path": "references/top100-caption-index.md",
+            "local_asset_path": "references/top 100/89.jpeg",
+            "reference_number": 89,
+            "visual_inspection_required": true
+          }
+        ]
+      },
+      "creator": "Ronalin L.",
+      "diversity_signature": "plain premise/announcement | comparison or matrix | decision/reference artifact",
+      "observed_caption_excerpt": "DEMAND PLANNING (NEXT LEVEL) Most people forecast. Few actually plan. Everyone knows the basics: What • When • How Much But real demand planning starts when you ask: Why is demand changing—and what will it cost if I’m wrong? 1. Not all demand behaves the same Stable → optimize cost Seasonal → manage timing Trend → control scaling risk Irregular → protect with buffers Misclassification = wrong inventory, wrong decisions. 2. There is no universal forecasting model Stop applying one method to all SKUs. Match model to behavior. Segment demand properly. Accept trade-offs (accuracy vs responsiveness",
+      "observed_hook": "DEMAND PLANNING (NEXT LEVEL)",
+      "positive_signals": {
+        "saved_positive": true,
+        "tiger_native_performance": false,
+        "top100_curated_reference": true
+      },
+      "reference_id": "LI-7449046219600982016",
+      "retrieval_matches": [
+        "artifact:decision/reference artifact",
+        "content_mode:decision/reference artifact|reasoned model only",
+        "cta:none",
+        "source:saved_positive",
+        "source:top100_curated_reference",
+        "token_overlap:and|cost|decision|if|model|or|planning|real|risk|service",
+        "topic:cost|decision|risk|service|trade-off",
+        "visual:comparison or matrix"
+      ],
+      "retrieval_score": 62,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "copyable operating asset"
+        },
+        "cta": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "generic discussion"
+        },
+        "format": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "single static image"
+        },
+        "hook_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "correction/distinction"
+        },
+        "job_to_be_done": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "interpret current change"
+        },
+        "problem_family": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "planning and forecasting"
+        },
+        "promise": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "NOT every S&OP is equal. This infographic shows immature vs mature S&OP:"
+        },
+        "proof_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "no proof"
+        },
+        "target_audience": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "planners and planning managers"
+        },
+        "topic": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "forecast quality and decision consequences"
+        },
+        "visual_structure": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "preview_only",
+          "status": "heuristic_unverified",
+          "value": "comparison or matrix"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/feed/update/urn:li:activity:7463202442491650048",
+      "creative_assets": {
+        "top100_references": [
+          {
+            "caption_index_path": "references/top100-caption-index.md",
+            "local_asset_path": "references/top 100/33.jpeg",
+            "reference_number": 33,
+            "visual_inspection_required": true
+          }
+        ]
+      },
+      "creator": "Marcia D Williams",
+      "diversity_signature": "correction/distinction | comparison or matrix | copyable operating asset",
+      "observed_caption_excerpt": "NOT every S&OP is equal. This infographic shows immature vs mature S&OP: Variability ↳ Immature: assumes a stable plan and reacts when it breaks ↳ Mature: builds plans expecting variability from the start Forecast ↳ Immature: single numbers, example: “Forecast = 100K” ↳ Mature: ranges, example: “Forecast = 90–110K, here’s how we respond” Constraints ↳ Immature: discovers bottlenecks when service drops ↳ Mature: knows what will break before it does Trade-offs ↳ Immature: avoids difficult choices ↳ Mature: makes trade-offs visible; service vs inventory; cost vs responsiveness Reaction to Noise ↳",
+      "observed_hook": "NOT every S&OP is equal.",
+      "positive_signals": {
+        "saved_positive": true,
+        "tiger_native_performance": false,
+        "top100_curated_reference": true
+      },
+      "reference_id": "LI-7463202442491650048",
+      "retrieval_matches": [
+        "artifact:copyable operating asset",
+        "hook:correction/distinction",
+        "source:saved_positive",
+        "source:top100_curated_reference",
+        "token_overlap:and|cost|decision|example|for|order|service|the|trade|with",
+        "topic:cost|decision|service|trade-off|wait",
+        "visual:comparison or matrix"
+      ],
+      "retrieval_score": 58,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "not observed or unresolved"
+        },
+        "cta": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "none"
+        },
+        "format": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "image preview observed; native subtype unresolved"
+        },
+        "hook_type": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "plain premise/announcement"
+        },
+        "job_to_be_done": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "prevent/fix failure"
+        },
+        "problem_family": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "inventory and replenishment"
+        },
+        "promise": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "📦 Essential Logistics KPIs (With Formulas) — Track Smarter, Operate Better Most teams track KPIs… but the real value comes when you understand, connect, and act on them."
+        },
+        "proof_type": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "reasoned model only"
+        },
+        "target_audience": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "broad supply-chain practitioners"
+        },
+        "topic": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "inventory policy and segmentation"
+        },
+        "visual_structure": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "preview_only",
+          "status": "heuristic_unverified",
+          "value": "process or workflow"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/feed/update/urn:li:activity:7451604228185444352",
+      "creative_assets": {
+        "top100_references": []
+      },
+      "creator": "Marko Vasovic",
+      "diversity_signature": "plain premise/announcement | process or workflow | not observed or unresolved",
+      "observed_caption_excerpt": "📦 Essential Logistics KPIs (With Formulas) — Track Smarter, Operate Better Most teams track KPIs… but the real value comes when you understand, connect, and act on them. Here’s a practical breakdown 👇 --- 🚚 On-Time Delivery (OTD) Measures reliability and customer trust Formula: OTD % = (On-Time Deliveries ÷ Total Deliveries) × 100 👉 Target: ≥ 95% --- 🧾 Order Accuracy Ensures error-free fulfillment Formula: Accuracy % = (Correct Orders ÷ Total Orders) × 100 👉 Every mistake = cost + reputation hit --- 📊 Inventory Turnover Reflects how efficiently inventory is managed Formula: Inventory Tu",
+      "observed_hook": "📦 Essential Logistics KPIs (With Formulas) — Track Smarter, Operate Better",
+      "positive_signals": {
+        "saved_positive": true,
+        "tiger_native_performance": false,
+        "top100_curated_reference": false
+      },
+      "reference_id": "LI-7451604228185444352",
+      "retrieval_matches": [
+        "content_mode:reasoned model only",
+        "cta:none",
+        "source:saved_positive",
+        "token_overlap:and|by|consolidation|cost|customer|date|freight|logistics|order|real",
+        "topic:consolidation|cost|customer|freight|risk|service",
+        "visual:process or workflow"
+      ],
+      "retrieval_score": 56,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "copyable operating asset"
+        },
+        "cta": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "none"
+        },
+        "format": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "single static image"
+        },
+        "hook_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "plain premise/announcement"
+        },
+        "job_to_be_done": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "decide/diagnose"
+        },
+        "problem_family": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "inventory and replenishment"
+        },
+        "promise": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "Most people think supply chains run on ERP systems 🖥 They don’t."
+        },
+        "proof_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "reasoned model only"
+        },
+        "target_audience": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "planners and planning managers"
+        },
+        "topic": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "forecast quality and decision consequences"
+        },
+        "visual_structure": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "preview_only",
+          "status": "heuristic_unverified",
+          "value": "process or workflow"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/feed/update/urn:li:activity:7460562088730562560",
+      "creative_assets": {
+        "top100_references": [
+          {
+            "caption_index_path": "references/top100-caption-index.md",
+            "local_asset_path": "references/top 100/46.jpeg",
+            "reference_number": 46,
+            "visual_inspection_required": true
+          }
+        ]
+      },
+      "creator": "Mayank Pandey",
+      "diversity_signature": "plain premise/announcement | process or workflow | copyable operating asset",
+      "observed_caption_excerpt": "Most people think supply chains run on ERP systems 🖥 They don’t. They run on a 3-layer 🌐planning engine. And whether you manufacture products, distribute them, or simply procure and resell them… the logic is fundamentally the same. ━━━━━━━━━━━━━━━ 📊 LAYER 1 — DEMAND PLANNING “What is likely to happen?” ━━━━━━━━━━━━━━━ This layer senses and predicts demand using: ✅ Historical trends ✅ Promotions & pricing ✅ Market intelligence ✅ POS / downstream signals ✅ Seasonality ✅ AI-assisted forecasting ✅ Scenario planning The goal is NOT perfect forecasting. The real goal is: ⚡ Faster decision-making ",
+      "observed_hook": "Most people think supply chains run on ERP systems 🖥",
+      "positive_signals": {
+        "saved_positive": true,
+        "tiger_native_performance": false,
+        "top100_curated_reference": true
+      },
+      "reference_id": "LI-7460562088730562560",
+      "retrieval_matches": [
+        "artifact:copyable operating asset",
+        "content_mode:reasoned model only",
+        "cta:none",
+        "source:saved_positive",
+        "source:top100_curated_reference",
+        "token_overlap:and|cost|decision|if|logistics|model|or|planning|procurement|real",
+        "topic:cost|decision|service|trade-off",
+        "visual:process or workflow"
+      ],
+      "retrieval_score": 54,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "not observed or unresolved"
+        },
+        "cta": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "platform engagement"
+        },
+        "format": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "image preview observed; native subtype unresolved"
+        },
+        "hook_type": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "evidence/result"
+        },
+        "job_to_be_done": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "execute/create faster"
+        },
+        "problem_family": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "planning and forecasting"
+        },
+        "promise": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "Here is a highly concise, executive summary of the Supply Chain Metrics cheat sheet. It condenses the 14 key performance indicators into 4 core operational pillars for fast, high-level review. 1. Demand & Capacity Planning"
+        },
+        "proof_type": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "worked demonstration"
+        },
+        "target_audience": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "planners and planning managers"
+        },
+        "topic": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "forecast quality and decision consequences"
+        },
+        "visual_structure": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "preview_only",
+          "status": "heuristic_unverified",
+          "value": "comparison or matrix"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/feed/update/urn:li:activity:7464218649566916608",
+      "creative_assets": {
+        "top100_references": []
+      },
+      "creator": "Safa Abdulhadi Alshafai",
+      "diversity_signature": "evidence/result | comparison or matrix | not observed or unresolved",
+      "observed_caption_excerpt": "Here is a highly concise, executive summary of the Supply Chain Metrics cheat sheet. It condenses the 14 key performance indicators into 4 core operational pillars for fast, high-level review. 1. Demand & Capacity Planning Forecast Accuracy: Measures variance between forecasted and actual demand to reduce planning variability. Capacity Utilization: Tracks actual vs. maximum possible production output to balance underutilization against operational overload. 2. Sourcing, Inventory & Cost Efficiency Inventory Turnover & Days of Inventory (DOI): Dual metrics tracking asset efficiency—how fast sto",
+      "observed_hook": "Here is a highly concise, executive summary of the Supply Chain Metrics cheat sheet. It condenses the 14 key performance indicators into 4 core operational pillars for fast, high-level review.",
+      "positive_signals": {
+        "saved_positive": true,
+        "tiger_native_performance": false,
+        "top100_curated_reference": false
+      },
+      "reference_id": "LI-7464218649566916608",
+      "retrieval_matches": [
+        "content_mode:worked demonstration",
+        "hook:evidence/result",
+        "source:saved_positive",
+        "token_overlap:and|by|cost|customer|date|decision|for|freight|logistics|model",
+        "topic:cost|customer|decision|freight|service",
+        "visual:comparison or matrix"
+      ],
+      "retrieval_score": 53,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "not observed or unresolved"
+        },
+        "cta": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "none"
+        },
+        "format": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "image preview observed; native subtype unresolved"
+        },
+        "hook_type": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "plain premise/announcement"
+        },
+        "job_to_be_done": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "execute/create faster"
+        },
+        "problem_family": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "logistics, warehousing, or transport"
+        },
+        "promise": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "Freight procurement has been broken for decades, and everyone knows it. Every year, shippers spend months trapped in RFP cycles, chasing spreadsheets and negotiating rates that expire before the ink dries. It's a \"fragmentation tax\" on your business—a slow, manual process that leaves money on the table every single time."
+        },
+        "proof_type": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "reasoned model only"
+        },
+        "target_audience": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "purchasing and procurement practitioners"
+        },
+        "topic": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "supplier and sourcing decisions"
+        },
+        "visual_structure": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "preview_only",
+          "status": "heuristic_unverified",
+          "value": "process or workflow"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/feed/update/urn:li:activity:7433298081753935872",
+      "creative_assets": {
+        "top100_references": []
+      },
+      "creator": "Jett McCandless",
+      "diversity_signature": "plain premise/announcement | process or workflow | not observed or unresolved",
+      "observed_caption_excerpt": "Freight procurement has been broken for decades, and everyone knows it. Every year, shippers spend months trapped in RFP cycles, chasing spreadsheets and negotiating rates that expire before the ink dries. It's a \"fragmentation tax\" on your business—a slow, manual process that leaves money on the table every single time. Yesterday, we launched the AI Freight Procurement Agent inside project44’s Intelligent TMS to end that cycle for good. The AI agent engages thousands of carriers in parallel, continuously benchmarks your rates against live market conditions, launches mini-bids in seconds inste",
+      "observed_hook": "Freight procurement has been broken for decades, and everyone knows it.",
+      "positive_signals": {
+        "saved_positive": true,
+        "tiger_native_performance": false,
+        "top100_curated_reference": false
+      },
+      "reference_id": "LI-7433298081753935872",
+      "retrieval_matches": [
+        "audience:purchasing and procurement practitioners",
+        "content_mode:reasoned model only",
+        "cta:none",
+        "source:saved_positive",
+        "token_overlap:and|cost|for|freight|logistics|model|need|now|only|procurement",
+        "topic:cost|decision|freight|service",
+        "visual:process or workflow"
+      ],
+      "retrieval_score": 51,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "not observed or unresolved"
+        },
+        "cta": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "traffic/owned audience"
+        },
+        "format": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "image preview observed; native subtype unresolved"
+        },
+        "hook_type": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "correction/distinction"
+        },
+        "job_to_be_done": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "decide/diagnose"
+        },
+        "problem_family": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "planning and forecasting"
+        },
+        "promise": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "AI is NOT magic in supply chain planning. This infographic co-authored with Tarit Mitra shows what AI can & cannot do:"
+        },
+        "proof_type": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "worked demonstration"
+        },
+        "target_audience": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "planners and planning managers"
+        },
+        "topic": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "forecast quality and decision consequences"
+        },
+        "visual_structure": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "preview_only",
+          "status": "heuristic_unverified",
+          "value": "comparison or matrix"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/feed/update/urn:li:activity:7432775894743642112",
+      "creative_assets": {
+        "top100_references": []
+      },
+      "creator": "Marcia D Williams",
+      "diversity_signature": "correction/distinction | comparison or matrix | not observed or unresolved",
+      "observed_caption_excerpt": "AI is NOT magic in supply chain planning. This infographic co-authored with Tarit Mitra shows what AI can & cannot do: Instant Statistical Forecasting vs Detect Hidden Agendas ↳ AI can: spots trends, seasonality, and outliers across millions of SKUs faster than any manual model ↳ AI cannot: identify sandbagging, inflated targets, or motivations behind the numbers Real-Time Demand Sensing vs Cross-Functional Conflicts ↳ AI can: ingests POS, web searches, social signals, and weather at scale continuously ↳ AI cannot: won't arbitrate supply vs. revenue trade-offs or sales vs. operations prioritie",
+      "observed_hook": "AI is NOT magic in supply chain planning.",
+      "positive_signals": {
+        "saved_positive": true,
+        "tiger_native_performance": false,
+        "top100_curated_reference": false
+      },
+      "reference_id": "LI-7432775894743642112",
+      "retrieval_matches": [
+        "content_mode:worked demonstration",
+        "cta:traffic/owned audience",
+        "hook:correction/distinction",
+        "source:saved_positive",
+        "token_overlap:and|by|decision|for|model|off|only|or|planning|real",
+        "topic:customer|decision|trade-off|wait",
+        "visual:comparison or matrix"
+      ],
+      "retrieval_score": 50,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "decision/reference artifact"
+        },
+        "cta": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "traffic/owned audience"
+        },
+        "format": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "single static image"
+        },
+        "hook_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "method/artifact promise"
+        },
+        "job_to_be_done": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "prevent/fix failure"
+        },
+        "problem_family": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "marketing, growth, sales, or creator work"
+        },
+        "promise": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "Last August, I was broke AF posting on a dead LinkedIn account. 35K followers later, I'm living proof content hacks are bullshit. Steal my 3-bucket system: Don't @ me. I'm not a \"LinkedInfluencer.\" All I figured out is clients hire YOU for personality. Expertise only gets you in the room."
+        },
+        "proof_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "named real-world case"
+        },
+        "target_audience": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "supply-chain transformation leaders"
+        },
+        "topic": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "AI workflow design and adoption"
+        },
+        "visual_structure": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "preview_only",
+          "status": "heuristic_unverified",
+          "value": "process or workflow"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/feed/update/urn:li:activity:7465337376018481152",
+      "creative_assets": {
+        "top100_references": [
+          {
+            "caption_index_path": "references/top100-caption-index.md",
+            "local_asset_path": "references/top 100/27.gif",
+            "reference_number": 27,
+            "visual_inspection_required": true
+          }
+        ]
+      },
+      "creator": "Magali De Reu",
+      "diversity_signature": "method/artifact promise | process or workflow | decision/reference artifact",
+      "observed_caption_excerpt": "Last August, I was broke AF posting on a dead LinkedIn account. 35K followers later, I'm living proof content hacks are bullshit. Steal my 3-bucket system: Don't @ me. I'm not a \"LinkedInfluencer.\" All I figured out is clients hire YOU for personality. Expertise only gets you in the room. Get this and you stop begging for clients. But most of y'all do the opposite, trying to: - sound smart instead of real - avoid personal stories at all costs - overrely on AI before writing a single sentence All to avoid cringe. Babe, your AI crap is doing the cringing for you. My entire pipeline runs on 3 pos",
+      "observed_hook": "Last August, I was broke AF posting on a dead LinkedIn account. 35K followers later, I'm living proof content hacks are bullshit. Steal my 3-bucket system:",
+      "positive_signals": {
+        "saved_positive": true,
+        "tiger_native_performance": false,
+        "top100_curated_reference": true
+      },
+      "reference_id": "LI-7465337376018481152",
+      "retrieval_matches": [
+        "artifact:decision/reference artifact",
+        "content_mode:decision/reference artifact|named real-world case",
+        "cta:traffic/owned audience",
+        "hook:method/artifact promise",
+        "source:saved_positive",
+        "source:top100_curated_reference",
+        "token_overlap:and|first|for|if|now|only|real|the|with",
+        "topic:cost|decision",
+        "visual:process or workflow"
+      ],
+      "retrieval_score": 50,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "copyable operating asset"
+        },
+        "cta": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "none"
+        },
+        "format": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "single static image"
+        },
+        "hook_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "method/artifact promise"
+        },
+        "job_to_be_done": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "understand/explain"
+        },
+        "problem_family": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "inventory and replenishment"
+        },
+        "promise": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "Forecasting is not guessing — it’s structured decision making. Choosing the right forecasting method can directly impact:"
+        },
+        "proof_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "reasoned model only"
+        },
+        "target_audience": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "planners and planning managers"
+        },
+        "topic": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "forecast quality and decision consequences"
+        },
+        "visual_structure": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "preview_only",
+          "status": "heuristic_unverified",
+          "value": "chart, data, or formula"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/feed/update/urn:li:activity:7444403543404359680",
+      "creative_assets": {
+        "top100_references": [
+          {
+            "caption_index_path": "references/top100-caption-index.md",
+            "local_asset_path": "references/top 100/96.jpeg",
+            "reference_number": 96,
+            "visual_inspection_required": true
+          }
+        ]
+      },
+      "creator": "Dinesh Krishna",
+      "diversity_signature": "method/artifact promise | chart, data, or formula | copyable operating asset",
+      "observed_caption_excerpt": "Forecasting is not guessing — it’s structured decision making. Choosing the right forecasting method can directly impact: ✔ Inventory levels ✔ Capacity utilization ✔ Customer delivery performance Here are 4 widely used forecasting techniques every planner should know: 🔹 Naive / Simple Average Best for stable demand with minimal variation. Quick and easy starting point. 🔹 Simple Moving Average (SMA) Smooths fluctuations by averaging past ‘n’ periods. Ideal for moderate variability. 🔹 Weighted Moving Average (WMA) Gives more importance to recent data (e.g., 0.5, 0.3, 0.2). Useful when trends ",
+      "observed_hook": "Forecasting is not guessing — it’s structured decision making.",
+      "positive_signals": {
+        "saved_positive": true,
+        "tiger_native_performance": false,
+        "top100_curated_reference": true
+      },
+      "reference_id": "LI-7444403543404359680",
+      "retrieval_matches": [
+        "artifact:copyable operating asset",
+        "content_mode:reasoned model only",
+        "cta:none",
+        "hook:method/artifact promise",
+        "source:saved_positive",
+        "source:top100_curated_reference",
+        "token_overlap:and|by|customer|decision|for|model|real|should|the|with",
+        "topic:customer|decision",
+        "visual:chart, data, or formula"
+      ],
+      "retrieval_score": 48,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "downloadable resource"
+        },
+        "cta": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "traffic/owned audience"
+        },
+        "format": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "single static image"
+        },
+        "hook_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "method/artifact promise"
+        },
+        "job_to_be_done": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "prevent/fix failure"
+        },
+        "problem_family": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "procurement, sourcing, or suppliers"
+        },
+        "promise": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "How to shift procurement to strategic. Free Guide 🎁 Perception is built on evidence. But the evidence the business sees every day is tactical."
+        },
+        "proof_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "no proof"
+        },
+        "target_audience": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "purchasing and procurement practitioners"
+        },
+        "topic": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "supplier and sourcing decisions"
+        },
+        "visual_structure": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "preview_only",
+          "status": "heuristic_unverified",
+          "value": "comparison or matrix"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/feed/update/urn:li:activity:7459888401522028544",
+      "creative_assets": {
+        "top100_references": [
+          {
+            "caption_index_path": "references/top100-caption-index.md",
+            "local_asset_path": "references/top 100/56.jpeg",
+            "reference_number": 56,
+            "visual_inspection_required": true
+          }
+        ]
+      },
+      "creator": "Tom Mills",
+      "diversity_signature": "method/artifact promise | comparison or matrix | downloadable resource",
+      "observed_caption_excerpt": "How to shift procurement to strategic. Free Guide 🎁 Perception is built on evidence. But the evidence the business sees every day is tactical. Let's look at the transformation step by step: 1️⃣ Signs the business sees you as tactical ↳ They only involve you AFTER a supplier has been chosen ↳ Stakeholders treat procurement as a box-ticking exercise ↳ You're only measured on cost savings ↳ You spend more time on POs than influencing decisions ↳ Nobody invites you to early planning conversations ↳ Your reports go to Finance, not the boardroom ↳ The business regularly goes around procurement enti",
+      "observed_hook": "How to shift procurement to strategic. Free Guide 🎁",
+      "positive_signals": {
+        "saved_positive": true,
+        "tiger_native_performance": false,
+        "top100_curated_reference": true
+      },
+      "reference_id": "LI-7459888401522028544",
+      "retrieval_matches": [
+        "artifact:downloadable resource",
+        "audience:purchasing and procurement practitioners",
+        "cta:traffic/owned audience",
+        "excluded_pattern:free guide",
+        "hook:method/artifact promise",
+        "source:saved_positive",
+        "source:top100_curated_reference",
+        "token_overlap:and|by|cost|for|if|need|off|only|planning|po",
+        "topic:cost|decision|risk|wait",
+        "visual:comparison or matrix"
+      ],
+      "retrieval_score": 48,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "none"
+        },
+        "cta": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "generic discussion"
+        },
+        "format": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "single static image"
+        },
+        "hook_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "plain premise/announcement"
+        },
+        "job_to_be_done": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "execute/create faster"
+        },
+        "problem_family": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "AI workflows, adoption, or governance"
+        },
+        "promise": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "Nobody told me procurement could feel this powerful. I just mapped out 𝟮𝟬 𝘄𝗮𝘆𝘀 𝗔𝗜 𝗶𝘀 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗹𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝘂𝗿𝗲𝗺𝗲𝗻𝘁, and honestly, the results are wild."
+        },
+        "proof_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "first-party result/test"
+        },
+        "target_audience": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "purchasing and procurement practitioners"
+        },
+        "topic": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "supplier and sourcing decisions"
+        },
+        "visual_structure": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "preview_only",
+          "status": "heuristic_unverified",
+          "value": "reference or cheat sheet"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/feed/update/urn:li:activity:7465654357552824320",
+      "creative_assets": {
+        "top100_references": [
+          {
+            "caption_index_path": "references/top100-caption-index.md",
+            "local_asset_path": "references/top 100/22.jpeg",
+            "reference_number": 22,
+            "visual_inspection_required": true
+          }
+        ]
+      },
+      "creator": "Asmaa Gad",
+      "diversity_signature": "plain premise/announcement | reference or cheat sheet | none",
+      "observed_caption_excerpt": "Nobody told me procurement could feel this powerful. I just mapped out 𝟮𝟬 𝘄𝗮𝘆𝘀 𝗔𝗜 𝗶𝘀 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗹𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝘂𝗿𝗲𝗺𝗲𝗻𝘁, and honestly, the results are wild. Here's what's changing RIGHT NOW: ✅ 𝗦𝗽𝗲𝗻𝗱 𝗔𝗻𝗮𝗹𝘆𝘀𝗶𝘀 → AI spots saving opportunities you'd miss in months of manual work ✅ 𝗦𝘂𝗽𝗽𝗹𝗶𝗲𝗿 𝗥𝗶𝘀𝗸 𝗔𝘀𝘀𝗲𝘀𝘀𝗺𝗲𝗻𝘁 → Real-time risk scores before problems hit ✅ 𝗖𝗼𝗻𝘁𝗿𝗮𝗰𝘁 𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝗰𝗲 → Key terms, gaps & renewal dates extracted in seconds ✅ 𝗥𝗙𝘅 𝗖𝗿𝗲𝗮𝘁𝗶𝗼𝗻 → Tailored RFPs generated from your own strategy ",
+      "observed_hook": "Nobody told me procurement could feel this powerful.",
+      "positive_signals": {
+        "saved_positive": true,
+        "tiger_native_performance": false,
+        "top100_curated_reference": true
+      },
+      "reference_id": "LI-7465654357552824320",
+      "retrieval_matches": [
+        "audience:purchasing and procurement practitioners",
+        "content_mode:first-party result/test",
+        "source:saved_positive",
+        "source:top100_curated_reference",
+        "token_overlap:and|for|need|now|procurement|ready|real|risk|the|with",
+        "topic:decision|exception|risk",
+        "visual:reference or cheat sheet"
+      ],
+      "retrieval_score": 48,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "not observed or unresolved"
+        },
+        "cta": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "commercial conversion"
+        },
+        "format": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "image preview observed; native subtype unresolved"
+        },
+        "hook_type": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "curiosity question"
+        },
+        "job_to_be_done": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "prevent/fix failure"
+        },
+        "problem_family": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "logistics, warehousing, or transport"
+        },
+        "promise": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "📢How Payment Practices Shape Supplier Relationships? Most companies think payment terms are a finance decision."
+        },
+        "proof_type": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "no proof"
+        },
+        "target_audience": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "purchasing and procurement practitioners"
+        },
+        "topic": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "supplier and sourcing decisions"
+        },
+        "visual_structure": {
+          "basis": "rule-based text classification v1",
+          "confidence": "low; heuristic classification for research triage only",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "preview_only",
+          "status": "heuristic_unverified",
+          "value": "not observed or unresolved"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/feed/update/urn:li:activity:7438765633200091136",
+      "creative_assets": {
+        "top100_references": []
+      },
+      "creator": "Eman Abouzeid",
+      "diversity_signature": "curiosity question | not observed or unresolved | not observed or unresolved",
+      "observed_caption_excerpt": "📢How Payment Practices Shape Supplier Relationships? Most companies think payment terms are a finance decision. In reality, they are a supply chain decision. Because suppliers don’t judge you only by the price you negotiate. They judge you by how reliably you pay. And that signal travels fast across the supplier market. 👉 A buyer known for paying on time quickly becomes a preferred customer. 👉 A buyer known for late payments quietly becomes a risk. And when disruption hits — capacity shortages, raw material constraints, or logistics delays. Suppliers remember exactly who treated them like p",
+      "observed_hook": "📢How Payment Practices Shape Supplier Relationships?",
+      "positive_signals": {
+        "saved_positive": true,
+        "tiger_native_performance": false,
+        "top100_curated_reference": false
+      },
+      "reference_id": "LI-7438765633200091136",
+      "retrieval_matches": [
+        "audience:purchasing and procurement practitioners",
+        "hook:curiosity question",
+        "source:saved_positive",
+        "token_overlap:and|by|customer|decision|first|for|logistics|only|or|procurement",
+        "topic:customer|decision|risk|service"
+      ],
+      "retrieval_score": 47,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "none"
+        },
+        "cta": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "generic discussion"
+        },
+        "format": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "single static image"
+        },
+        "hook_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "plain premise/announcement"
+        },
+        "job_to_be_done": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "understand/explain"
+        },
+        "problem_family": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "inventory and replenishment"
+        },
+        "promise": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "Inventory management looks simple on reports. Stock levels."
+        },
+        "proof_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "no proof"
+        },
+        "target_audience": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "broad supply-chain practitioners"
+        },
+        "topic": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "inventory policy and segmentation"
+        },
+        "visual_structure": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "preview_only",
+          "status": "heuristic_unverified",
+          "value": "not observed or unresolved"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/feed/update/urn:li:activity:7449803669014945793",
+      "creative_assets": {
+        "top100_references": [
+          {
+            "caption_index_path": "references/top100-caption-index.md",
+            "local_asset_path": "references/top 100/82.jpeg",
+            "reference_number": 82,
+            "visual_inspection_required": true
+          }
+        ]
+      },
+      "creator": "Jigar Patel",
+      "diversity_signature": "plain premise/announcement | not observed or unresolved | none",
+      "observed_caption_excerpt": "Inventory management looks simple on reports. Stock levels. Coverage days. Reorder points. But in reality? It’s one of the toughest balancing acts in the supply chain. After years in planning, one thing stands out: 👉 Inventory is not about having more stock. 👉 It’s about managing uncertainty. Because every decision has a trade-off. More inventory → higher cost Less inventory → service risk And most challenges come from: • Demand variability • Lead time uncertainty • Wrong assumptions • Lack of visibility That’s where real control comes in. 👉 Not just tracking stock 👉 But understanding why ",
+      "observed_hook": "Inventory management looks simple on reports.",
+      "positive_signals": {
+        "saved_positive": true,
+        "tiger_native_performance": false,
+        "top100_curated_reference": true
+      },
+      "reference_id": "LI-7449803669014945793",
+      "retrieval_matches": [
+        "source:saved_positive",
+        "source:top100_curated_reference",
+        "token_overlap:and|by|cost|decision|off|only|planning|real|risk|service",
+        "topic:cost|decision|risk|service|trade-off"
+      ],
+      "retrieval_score": 47,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "decision/reference artifact"
+        },
+        "cta": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "generic discussion"
+        },
+        "format": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "single static image"
+        },
+        "hook_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "timely change/news"
+        },
+        "job_to_be_done": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "understand/explain"
+        },
+        "problem_family": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "procurement, sourcing, or suppliers"
+        },
+        "promise": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "Like many people, I’ve been trying to get my head around AI in procurement. A post by Asmaa Gad this week really helped. Her Agentic AI Platforms Map (65 platforms, 10 categories, 2026 edition) brilliantly illustrates how crowded this space has become. Given the number of platforms and categories, I wanted to step back and understand what they actually do. The discussion that followed provided the answer. AI platforms can broadly be viewed as operating across three layers:"
+        },
+        "proof_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "no proof"
+        },
+        "target_audience": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "purchasing and procurement practitioners"
+        },
+        "topic": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "supplier and sourcing decisions"
+        },
+        "visual_structure": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "preview_only",
+          "status": "heuristic_unverified",
+          "value": "process or workflow"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/feed/update/urn:li:activity:7450877132563558400",
+      "creative_assets": {
+        "top100_references": [
+          {
+            "caption_index_path": "references/top100-caption-index.md",
+            "local_asset_path": "references/top 100/84.jpeg",
+            "reference_number": 84,
+            "visual_inspection_required": true
+          }
+        ]
+      },
+      "creator": "Angus Craig FCIPS",
+      "diversity_signature": "timely change/news | process or workflow | decision/reference artifact",
+      "observed_caption_excerpt": "Like many people, I’ve been trying to get my head around AI in procurement. A post by Asmaa Gad this week really helped. Her Agentic AI Platforms Map (65 platforms, 10 categories, 2026 edition) brilliantly illustrates how crowded this space has become. Given the number of platforms and categories, I wanted to step back and understand what they actually do. The discussion that followed provided the answer. AI platforms can broadly be viewed as operating across three layers: - Orchestration: automating end-to-end procurement workflows (e.g. major Source-to-Pay suites such as Coupa, SAP Ariba, GE",
+      "observed_hook": "Like many people, I’ve been trying to get my head around AI in procurement. A post by Asmaa Gad this week really helped. Her Agentic AI Platforms Map (65 platforms, 10 categories, 2026 edition) brilliantly illustrates how crowded this space has become.",
+      "positive_signals": {
+        "saved_positive": true,
+        "tiger_native_performance": false,
+        "top100_curated_reference": true
+      },
+      "reference_id": "LI-7450877132563558400",
+      "retrieval_matches": [
+        "artifact:decision/reference artifact",
+        "audience:purchasing and procurement practitioners",
+        "content_mode:decision/reference artifact",
+        "source:saved_positive",
+        "source:top100_curated_reference",
+        "token_overlap:and|by|first|for|need|or|procurement|risk|the|with",
+        "topic:decision|risk",
+        "visual:process or workflow"
+      ],
+      "retrieval_score": 47,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "decision/reference artifact"
+        },
+        "cta": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "generic discussion"
+        },
+        "format": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "single static image"
+        },
+        "hook_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "plain premise/announcement"
+        },
+        "job_to_be_done": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "execute/create faster"
+        },
+        "problem_family": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "AI workflows, adoption, or governance"
+        },
+        "promise": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "𝗬𝗼𝘂𝗿 𝗔𝗜 𝗽𝗶𝗹𝗼𝘁 𝘄𝗶𝗹𝗹 𝗳𝗮𝗶𝗹. 𝗡𝗼𝘁 𝗯𝗲𝗰𝗮𝘂𝘀𝗲 𝗼𝗳 𝘁𝗵𝗲 𝘁𝗲𝗰𝗵. 𝗕𝗲𝗰𝗮𝘂𝘀𝗲 𝘆𝗼𝘂 𝘀𝗸𝗶𝗽𝗽𝗲𝗱 𝘁𝗵𝗲 𝗠𝗩𝗣."
+        },
+        "proof_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "first-party result/test"
+        },
+        "target_audience": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "purchasing and procurement practitioners"
+        },
+        "topic": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "supplier and sourcing decisions"
+        },
+        "visual_structure": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "preview_only",
+          "status": "heuristic_unverified",
+          "value": "process or workflow"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/feed/update/urn:li:activity:7462756369956229120",
+      "creative_assets": {
+        "top100_references": [
+          {
+            "caption_index_path": "references/top100-caption-index.md",
+            "local_asset_path": "references/top 100/34.jpeg",
+            "reference_number": 34,
+            "visual_inspection_required": true
+          }
+        ]
+      },
+      "creator": "Asmaa Gad",
+      "diversity_signature": "plain premise/announcement | process or workflow | decision/reference artifact",
+      "observed_caption_excerpt": "𝗬𝗼𝘂𝗿 𝗔𝗜 𝗽𝗶𝗹𝗼𝘁 𝘄𝗶𝗹𝗹 𝗳𝗮𝗶𝗹. 𝗡𝗼𝘁 𝗯𝗲𝗰𝗮𝘂𝘀𝗲 𝗼𝗳 𝘁𝗵𝗲 𝘁𝗲𝗰𝗵. 𝗕𝗲𝗰𝗮𝘂𝘀𝗲 𝘆𝗼𝘂 𝘀𝗸𝗶𝗽𝗽𝗲𝗱 𝘁𝗵𝗲 𝗠𝗩𝗣. Most procurement teams go straight to \"AI for everything.\" Then wonder why the CPO pulled the plug. Here's what actually works: → Pick ONE painful workflow (not five) → Prove the pain is real before building anything → Interview 8 to 12 buyers and stakeholders → Scope it so tight it delivers value in 4 to 8 weeks → Track adoption, time saved, and savings from day one → Scale only when the CPO trusts the results Bad MVP: an all-in-one procurement copilot. G",
+      "observed_hook": "𝗬𝗼𝘂𝗿 𝗔𝗜 𝗽𝗶𝗹𝗼𝘁 𝘄𝗶𝗹𝗹 𝗳𝗮𝗶𝗹.",
+      "positive_signals": {
+        "saved_positive": true,
+        "tiger_native_performance": false,
+        "top100_curated_reference": true
+      },
+      "reference_id": "LI-7462756369956229120",
+      "retrieval_matches": [
+        "artifact:decision/reference artifact",
+        "audience:purchasing and procurement practitioners",
+        "content_mode:decision/reference artifact|first-party result/test",
+        "source:saved_positive",
+        "source:top100_curated_reference",
+        "token_overlap:and|for|only|procurement|real|savings|the",
+        "topic:decision|risk",
+        "visual:process or workflow"
+      ],
+      "retrieval_score": 47,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    }
+  ],
+  "schema_version": "1.0.0",
+  "snapshot_id": "creative-genome-2026-08-02-v1",
+  "snapshot_sha256": "b850c4179ec588dec551348aa1cb89338b4e2569b728ee658f338a2a0c04ad41",
+  "tiger_precedents": [
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "decision/reference artifact"
+        },
+        "cta": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "traffic/owned audience"
+        },
+        "format": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "single static image"
+        },
+        "hook_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "method/artifact promise"
+        },
+        "job_to_be_done": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "prevent/fix failure"
+        },
+        "problem_family": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "procurement, sourcing, or suppliers"
+        },
+        "promise": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "Why did some companies recover from 2020–2025 disruptions in weeks while others took years? Not because they predicted the events. Because they had categorised the risks, and the framework told them where to look first."
+        },
+        "proof_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "named real-world case"
+        },
+        "target_audience": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "purchasing and procurement practitioners"
+        },
+        "topic": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "supplier and sourcing decisions"
+        },
+        "visual_structure": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "not_inspected",
+          "status": "heuristic_unverified",
+          "value": "comparison or matrix"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/posts/shettys-desk_why-did-some-companies-recover-from-2020-activity-7458548271448391680-BfFI",
+      "creative_assets": {
+        "top100_references": []
+      },
+      "creator": "Poornajith Shetty",
+      "diversity_signature": "method/artifact promise | comparison or matrix | decision/reference artifact",
+      "observed_caption_excerpt": "Why did some companies recover from 2020–2025 disruptions in weeks while others took years? Not because they predicted the events. Because they had categorised the risks, and the framework told them where to look first. This is Episode 21 of Supply Chain 101. In Episode 20 we covered sourcing strategy and the trade-offs between single, dual, and multi-source. Today we're zooming out to look at the broader question: how do you systematically think about everything that could go wrong, without trying to predict the unpredictable? The starting point is a 2x2 risk matrix: probability on one axis, ",
+      "observed_hook": "Why did some companies recover from 2020–2025 disruptions in weeks while others took years?",
+      "positive_signals": {
+        "saved_positive": false,
+        "tiger_native_performance": true,
+        "top100_curated_reference": false
+      },
+      "reference_id": "LI-7458548271448391680",
+      "retrieval_matches": [
+        "artifact:decision/reference artifact",
+        "audience:purchasing and procurement practitioners",
+        "content_mode:decision/reference artifact|named real-world case",
+        "cta:traffic/owned audience",
+        "hook:method/artifact promise",
+        "source:tiger_native_performance",
+        "token_overlap:and|customer|first|for|need|now|or|ready|risk|the",
+        "topic:customer|decision|risk|trade-off",
+        "visual:comparison or matrix"
+      ],
+      "retrieval_score": 58,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "none"
+        },
+        "cta": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "generic discussion"
+        },
+        "format": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "single static image"
+        },
+        "hook_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "curiosity question"
+        },
+        "job_to_be_done": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "execute/create faster"
+        },
+        "problem_family": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "procurement, sourcing, or suppliers"
+        },
+        "promise": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "Why does your supplier say 6 weeks but the customer waits 10? Because supplier lead time is one of at least five lead times in your supply chain, and it's the only a portion most companies measure. This is Episode 13 of Supply Chain 101. In Episode 12 we covered safety stock and how lead time variability drives how much buffer you need. Today we're unpacking lead time itself, because most companies are only measuring a fraction of it."
+        },
+        "proof_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "named real-world case"
+        },
+        "target_audience": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "purchasing and procurement practitioners"
+        },
+        "topic": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "inventory policy and segmentation"
+        },
+        "visual_structure": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "not_inspected",
+          "status": "heuristic_unverified",
+          "value": "reference or cheat sheet"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/posts/shettys-desk_why-does-your-supplier-say-6-weeks-but-the-activity-7452009427345362944-aEhm",
+      "creative_assets": {
+        "top100_references": []
+      },
+      "creator": "Poornajith Shetty",
+      "diversity_signature": "curiosity question | reference or cheat sheet | none",
+      "observed_caption_excerpt": "Why does your supplier say 6 weeks but the customer waits 10? Because supplier lead time is one of at least five lead times in your supply chain, and it's the only a portion most companies measure. This is Episode 13 of Supply Chain 101. In Episode 12 we covered safety stock and how lead time variability drives how much buffer you need. Today we're unpacking lead time itself, because most companies are only measuring a fraction of it. When someone says \"lead time,\" they usually mean supplier lead time: how long it takes from placing a PO to receiving the goods. But that's one segment of a much",
+      "observed_hook": "Why does your supplier say 6 weeks but the customer waits 10? Because supplier lead time is one of at least five lead times in your supply chain, and it's the only a portion most companies measure.",
+      "positive_signals": {
+        "saved_positive": false,
+        "tiger_native_performance": true,
+        "top100_curated_reference": false
+      },
+      "reference_id": "LI-7452009427345362944",
+      "retrieval_matches": [
+        "audience:purchasing and procurement practitioners",
+        "content_mode:named real-world case",
+        "hook:curiosity question",
+        "source:tiger_native_performance",
+        "token_overlap:and|customer|decision|for|if|logistics|need|only|or|order",
+        "topic:cost|customer|decision|freight|wait",
+        "visual:reference or cheat sheet"
+      ],
+      "retrieval_score": 54,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "decision/reference artifact"
+        },
+        "cta": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "generic discussion"
+        },
+        "format": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "single static image"
+        },
+        "hook_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "correction/distinction"
+        },
+        "job_to_be_done": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "understand/explain"
+        },
+        "problem_family": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "planning and forecasting"
+        },
+        "promise": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "When demand moves, the first question should not be “who was wrong?” That sounds obvious, but it happens more often than people admit."
+        },
+        "proof_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "worked demonstration"
+        },
+        "target_audience": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "planners and planning managers"
+        },
+        "topic": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "forecast quality and decision consequences"
+        },
+        "visual_structure": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "not_inspected",
+          "status": "heuristic_unverified",
+          "value": "reference or cheat sheet"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/posts/shettys-desk_when-demand-moves-the-first-question-should-activity-7479906357559824384-qYLE",
+      "creative_assets": {
+        "top100_references": []
+      },
+      "creator": "Poornajith Shetty",
+      "diversity_signature": "correction/distinction | reference or cheat sheet | decision/reference artifact",
+      "observed_caption_excerpt": "When demand moves, the first question should not be “who was wrong?” That sounds obvious, but it happens more often than people admit. The team explains the variance, the baseline was too high, a promotion did not lift the way it was expected to, orders moved between weeks, a customer pulled back. All of that is useful, but it is still only the diagnostic layer. The real value starts when the team asks what the miss changes. Does inventory need to move? Does capacity need to shift? Does supply need to be expedited, delayed, or rebalanced? Does the customer promise still hold? This is where dem",
+      "observed_hook": "When demand moves, the first question should not be “who was wrong?”",
+      "positive_signals": {
+        "saved_positive": false,
+        "tiger_native_performance": true,
+        "top100_curated_reference": false
+      },
+      "reference_id": "LI-7479906357559824384",
+      "retrieval_matches": [
+        "artifact:decision/reference artifact",
+        "content_mode:decision/reference artifact|worked demonstration",
+        "hook:correction/distinction",
+        "source:tiger_native_performance",
+        "token_overlap:and|customer|decision|first|for|if|model|need|off|only",
+        "topic:customer|decision|risk|trade-off",
+        "visual:reference or cheat sheet"
+      ],
+      "retrieval_score": 51,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "none"
+        },
+        "cta": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "generic discussion"
+        },
+        "format": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "single static image"
+        },
+        "hook_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "curiosity question"
+        },
+        "job_to_be_done": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "execute/create faster"
+        },
+        "problem_family": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "lean, process improvement, quality, or constraints"
+        },
+        "promise": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "Why the sentence \"can you just change the plan?\" is rarely as simple as it sounds? Sales may see demand, finance may see revenue, customer service may see a promise date."
+        },
+        "proof_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "named real-world case"
+        },
+        "target_audience": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "purchasing and procurement practitioners"
+        },
+        "topic": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "inventory policy and segmentation"
+        },
+        "visual_structure": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "not_inspected",
+          "status": "heuristic_unverified",
+          "value": "not observed or unresolved"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/posts/shettys-desk_why-the-sentence-can-you-just-change-the-activity-7480286761890258944-EUEc",
+      "creative_assets": {
+        "top100_references": []
+      },
+      "creator": "Poornajith Shetty",
+      "diversity_signature": "curiosity question | not observed or unresolved | none",
+      "observed_caption_excerpt": "Why the sentence \"can you just change the plan?\" is rarely as simple as it sounds? Sales may see demand, finance may see revenue, customer service may see a promise date. But operations has to translate that into lines, people, materials, tooling, changeovers, quality checks, supplier arrivals, and all the smaller constraints that do not show up neatly when the number first changes. That is where the production plan sits. It is the translation layer between demand ambition and factory commitment, it takes the demand signal and asks a more grounded set of questions: • Do we have the capacity? •",
+      "observed_hook": "Why the sentence \"can you just change the plan?\" is rarely as simple as it sounds?",
+      "positive_signals": {
+        "saved_positive": false,
+        "tiger_native_performance": true,
+        "top100_curated_reference": false
+      },
+      "reference_id": "LI-7480286761890258944",
+      "retrieval_matches": [
+        "audience:purchasing and procurement practitioners",
+        "content_mode:named real-world case",
+        "hook:curiosity question",
+        "source:tiger_native_performance",
+        "token_overlap:and|cost|customer|date|decision|first|for|if|off|or",
+        "topic:cost|customer|decision|service|trade-off"
+      ],
+      "retrieval_score": 51,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    },
+    {
+      "annotations": {
+        "artifact_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "none"
+        },
+        "cta": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "generic discussion"
+        },
+        "format": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "single static image"
+        },
+        "hook_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "method/artifact promise"
+        },
+        "job_to_be_done": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "decide/diagnose"
+        },
+        "problem_family": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "procurement, sourcing, or suppliers"
+        },
+        "promise": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "Why did your company choose the cheapest supplier and end up spending more? This is Episode 15 of Supply Chain 101. In Episode 14 we covered how to classify SKUs by value and demand pattern. Today we're looking at how companies evaluate what they pay for those SKUs, because the number on the purchase order is only the tip of the iceberg."
+        },
+        "proof_type": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "worked demonstration"
+        },
+        "target_audience": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "purchasing and procurement practitioners"
+        },
+        "topic": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence_limit": "Tags are hypotheses for manual review, not causal or decision-grade labels.",
+          "status": "heuristic_unverified",
+          "value": "inventory policy and segmentation"
+        },
+        "visual_structure": {
+          "basis": "Stage-0 automated code plus rule-based enrichment",
+          "confidence": "low-to-medium; Stage-0 meaning reliability gate failed",
+          "evidence": null,
+          "evidence_limit": "A preview or text-derived classification cannot verify detailed visual mechanics.",
+          "inspection_level": "not_inspected",
+          "status": "heuristic_unverified",
+          "value": "narrative illustration or metaphor"
+        }
+      },
+      "canonical_url": "https://www.linkedin.com/posts/shettys-desk_why-did-your-company-choose-the-cheapest-activity-7453456470278504448-bWLa",
+      "creative_assets": {
+        "top100_references": []
+      },
+      "creator": "Poornajith Shetty",
+      "diversity_signature": "method/artifact promise | narrative illustration or metaphor | none",
+      "observed_caption_excerpt": "Why did your company choose the cheapest supplier and end up spending more? This is Episode 15 of Supply Chain 101. In Episode 14 we covered how to classify SKUs by value and demand pattern. Today we're looking at how companies evaluate what they pay for those SKUs, because the number on the purchase order is only the tip of the iceberg. Total Cost of Ownership (TCO) is what you actually pay when you account for everything beyond unit price. Think of it as an iceberg: Above the waterline is the unit price. It's visible, it's on the quote, and it's what most procurement negotiations focus on. B",
+      "observed_hook": "Why did your company choose the cheapest supplier and end up spending more?",
+      "positive_signals": {
+        "saved_positive": false,
+        "tiger_native_performance": true,
+        "top100_curated_reference": false
+      },
+      "reference_id": "LI-7453456470278504448",
+      "retrieval_matches": [
+        "audience:purchasing and procurement practitioners",
+        "content_mode:worked demonstration",
+        "hook:method/artifact promise",
+        "source:tiger_native_performance",
+        "token_overlap:and|by|cost|decision|for|freight|logistics|only|or|order",
+        "topic:cost|decision|freight|risk",
+        "visual:narrative illustration or metaphor"
+      ],
+      "retrieval_score": 49,
+      "visual_use_guardrail": "Treat visual structure as a retrieval hint until the source visual is inspected."
+    }
+  ]
+}

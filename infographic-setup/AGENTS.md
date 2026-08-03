@@ -20,8 +20,9 @@ This folder is the active Shetty's Desk creative-intelligence and content-produc
 reference-query.json
   -> 10-15 saved reference candidates
   -> reference-bundle.json
-  -> 10 concepts
-  -> at least 3 distinct directions
+  -> creative seed + 10 concepts
+  -> at least 3 distinct visible direction tiles
+  -> forced select / hybridise / kill gate
   -> selected content mode and claim contract
   -> proportionate research and Tiger source
   -> complementary visual + caption + optional artifact
@@ -66,7 +67,8 @@ Internal fixtures may test software. They cannot become public proof or a public
 - Visual creative: `references/creative-engine-v4-recombination.md`.
 - Renderer choice: GPT Image 2, HTML/SVG, spreadsheet, document, or another surface according to the
   selected direction and exactness needed.
-- Brand authority: `references/brand-kits/cobalt-grid/FRAME.md`.
+- Default brand authority: `references/brand-kits/shettys-desk-operating-studio/FRAME.md`.
+- Cobalt Grid is a deliberate secondary editorial expression, never the unexamined default.
 - Visual review: `templates/visual-output-review-template.md`.
 - Motion after still approval: `references/motion-engine-v1.md`.
 - Publish/resource handoff: `references/publish-resource-handoff-v1.md`.
@@ -99,6 +101,8 @@ reference-query.json
 reference-candidates.json
 reference-bundle.json
 recombination-brief.md
+creative-seed.md
+directions/                     # three rough, visibly distinct directions before final production
 content-brief-v2.md
 research-brief.md              # only when the claim route requires it
 tiger-source.md                # when Tiger authority is used
@@ -116,6 +120,8 @@ analytics.md
 - Keep one reader promise and one primary reading route.
 - Ensure the problem or promise is visible in 3 seconds, the idea in 10, and useful action in 30.
 - Make caption and visual complementary.
+- Run `templates/creative-direction-sprint-template.md` before full production. Do not use a
+  calculator, research dossier, or polished caption as a substitute for a compelling public story.
 - Use exact owned and official logos; do not use third-party icon geometry to rebuild the brand.
 - Never infer caption approval from visual approval.
 - Never delete superseded files; move them to a dated archive with a reason.

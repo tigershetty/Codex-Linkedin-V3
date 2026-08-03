@@ -292,7 +292,9 @@ ${selectedAtoms(bundle, brief)}
 
 ## Brand, Assets, And Renderer
 
-- **Brand frame:** ${value(field(brief, 'Brand frame'), 'references/brand-kits/cobalt-grid/FRAME.md')}
+- **Brand expression:** ${value(field(brief, 'Brand expression'), 'Shetty\'s Desk Operating Studio')}
+- **Brand frame:** ${value(field(brief, 'Brand frame'), 'references/brand-kits/shettys-desk-operating-studio/FRAME.md')}
+- **Brand direction:** ${value(field(brief, 'Brand direction'), 'luminous white/pale-blue operating world; semantic blue, green, and coral; controlled non-photorealistic depth')}
 - **Logo plan:** ${value(field(brief, 'Logo plan'))}
 - **Assets:** ${value(field(brief, 'Logo/asset references'))}
 - **Official tool assets:** ${value(field(brief, 'Official tool assets, if meaningful'), 'none')}

@@ -22,7 +22,7 @@ source material. Dated archive folders never override active files.
 | Learn | matched-age Tiger outcomes linked to the bundle and atoms used |
 | Scan | audience, saved-pattern, evidence, Substack, and timely opportunities |
 | Retrieve | 10-15 saved references selected by fit, not a quality score |
-| Recombine | ten concepts and at least three distinct developed directions |
+| Recombine | creative seed, ten concepts, three distinct visible direction tiles, and a forced selection |
 | Select | reader, care statement, content mode, useful payoff, channel job, and claim contract |
 | Support | only the research depth and Tiger source required by the planned claims |
 | Produce | complementary caption, visual, and optional artifact |
@@ -84,8 +84,11 @@ Every new major post needs:
 
 ## Visual contract
 
-Cobalt Grid is the brand authority. The reference bundle contributes creative mechanics, not another
-creator's look. One dominant object and one reading route beat a dense internal model dump.
+Shetty's Desk Operating Studio is the default brand authority. It makes a real work collision
+concrete through a luminous operating scene, semantic colour, and a useful visual model. Cobalt
+Grid is an explicit secondary editorial choice. The reference bundle contributes creative
+mechanics, not another creator's look. One dominant object and one reading route beat a dense
+internal model dump.
 
 Choose the renderer after the creative direction:
 

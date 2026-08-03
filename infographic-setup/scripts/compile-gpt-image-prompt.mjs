@@ -263,7 +263,12 @@ const data = {
     field(brief, 'Internal test fixtures excluded'),
     field(content, 'Internal fixtures excluded from public proof'),
   ),
-  brandFrame: first(field(brief, 'Brand frame'), 'references/brand-kits/cobalt-grid/FRAME.md'),
+  brandExpression: first(field(brief, 'Brand expression'), 'Shetty\'s Desk Operating Studio'),
+  brandFrame: first(field(brief, 'Brand frame'), 'references/brand-kits/shettys-desk-operating-studio/FRAME.md'),
+  brandDirection: first(
+    field(brief, 'Brand direction'),
+    'Luminous white/pale-blue operating world; Poppins hierarchy; blue system infrastructure; green means protected or recommended; coral means risk or exception; controlled non-photorealistic depth.',
+  ),
   logoPlan: field(brief, 'Logo plan'),
   logoAssets: field(brief, 'Logo/asset references'),
   officialAssets: field(brief, 'Official tool assets, if meaningful'),
@@ -362,11 +367,13 @@ Use only supported facts, formulas, relationships, outcomes, and first-person au
 simulation was selected, label it visibly and do not present it as an observed result.
 
 BRAND AND ASSETS:
+- Brand expression: ${data.brandExpression}
 - Brand frame: ${data.brandFrame}
+- Brand direction: ${data.brandDirection}
 - Logo plan: ${data.logoPlan || 'Reserve one clean zone for the exact Shetty\'s Desk logo asset.'}
 - Owned assets: ${data.logoAssets}
-${data.officialAssets ? `- Official tool assets: ${data.officialAssets}\n` : ''}Use Cobalt Grid as the identity system. References contribute mechanisms and structure, not another
-creator's brand. Use the exact logo asset; do not redraw it.
+${data.officialAssets ? `- Official tool assets: ${data.officialAssets}\n` : ''}Use the selected Shetty's Desk brand expression as the identity system. References contribute
+mechanisms and structure, not another creator's brand. Use the exact logo asset; do not redraw it.
 
 COMPOSITION FREEDOM:
 ${data.compositionFreedom || 'Choose the clearest original arrangement for the selected direction while preserving one hero, one reading route, and the exact content.'}
