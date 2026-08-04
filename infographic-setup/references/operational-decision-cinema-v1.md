@@ -1,24 +1,26 @@
-# Operational Decision Cinema v1
+# Authored Editorial Engineering v1
 
 **Status:** Active V3 creative direction inside Operating Studio — a direction, not a template.
 
 ## Job
 
-Turn an invisible operating trade-off into one physical, premium 4:5 world that a practitioner can
+Turn an invisible operating trade-off into one authored, premium 4:5 world that a practitioner can
 read before opening the caption. It is how Shetty's Desk makes a decision feel consequential and
-useful without falling back to a dashboard, a card grid, or a generic AI illustration.
+useful without falling back to a dashboard, a card grid, or a generic AI illustration. The standard
+is a technical editorial cover plus a working instrument: an idea that stops the feed and rewards
+the closer look with a real operating model.
 
 The saved-post genome contributes packaging mechanics: a tension worth stopping for, a clear visual
 argument, and a useful thing to keep. V3 owns the expression: tangible operating objects, luminous
 ice-white and cobalt depth, semantic green and coral, and a spatial consequence that makes the rule
 understandable.
 
-## The owned family — Operational Constraint Cinema
+## The owned family — Authored editorial engineering
 
-The V3 signature is not one repeated 3D prop or a blue decision board. It is **Operational
-Constraint Cinema**: make the evidence or input, the consequential boundary, and the permitted
-action legible inside one coherent operating world. The reader should see what feeds the limit,
-where it bites, and why crossing it changes the decision.
+The V3 signature is not one repeated 3D prop or a blue decision board. It is **Authored Editorial
+Engineering**: make the evidence or input, the consequential boundary, and the permitted action
+legible inside one coherent operating world. The reader should see what feeds the limit, where it
+bites, and why crossing it changes the decision.
 
 An **instrumented operating explanation** is one manifestation of that family: native editorial
 hierarchy, a tangible or diagrammatic operating system, a causal path, and one saveable model.
@@ -94,6 +96,8 @@ operating world.
   overlays.
 - Generic warehouse props, mascots, generic chrome-for-chrome's-sake, watermarks, tool chips, or
   decorative risk colours.
+- A miniature factory, conveyor, carton, gate, or clock that asks the reader to decode the topic
+  before they can recognise the proposition. The working metaphor must be specific to the story.
 - A threshold, range, or gate that is merely labelled rather than visibly fed and connected to a
   changed action.
 - A visible route, range, or flow that looks attractive but does not change a physical consequence.
@@ -108,9 +112,13 @@ operating world.
   argument.
 - `references/top 100/33.jpeg` and `LI-7463202442491650048` — decisive contrast at feed speed.
 - `references/top 100/5.jpeg` — utility belongs inside the visual object.
-- `data/2026-W32/ship-now-vs-consolidate/visual-v14-counterfactual-dispatch-diorama-linkedin-4x5.png`
-  — a readiness range becomes a physical dispatch trace; the held load makes the counterfactual
-  consequence visible.
+
+### Retained failure learning
+
+`data/2026-W32/ship-now-vs-consolidate/visual-v14-counterfactual-dispatch-diorama-linkedin-4x5.png`
+is preserved as a C3 learning artifact, not a source anchor. It proved one useful point: an invisible
+variable must physically change the outcome. It failed the V3 bar because the generic miniature
+conveyor/gate scene needed too much decoding and did not give the reader a visible operating keep.
 
 Use this with `fast-post-loop-v1.md` and `v3-creative-repertoire-v1.md`. It is deliberately
 lightweight: choose the reader tension, make one working mechanism visible, and then decide whether

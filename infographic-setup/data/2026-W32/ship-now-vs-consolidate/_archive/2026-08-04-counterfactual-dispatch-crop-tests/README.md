@@ -4,5 +4,7 @@ These two files are preserved only to document an unsuccessful centre-crop attem
 the V14 native master to LinkedIn 4:5. They cut the `CUSTOMER NEED-BY` reference at the top and are
 not publishable assets.
 
-The selected delivery asset is `../../visual-v14-counterfactual-dispatch-diorama-linkedin-4x5.png`,
-which uses an explicit top-aligned crop and retains the complete reading route.
+At the time, the selected delivery candidate was
+`../../visual-v14-counterfactual-dispatch-diorama-linkedin-4x5.png`, which used an explicit
+top-aligned crop and retained the complete reading route. The C3 public-content route is now
+parked, so neither crop nor master is a publish candidate.

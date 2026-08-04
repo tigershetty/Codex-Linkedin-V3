@@ -1,0 +1,75 @@
+{
+  "$schema": "../../../references/creative-genome/schemas/reference-query.schema.json",
+  "schema_version": "1.0.0",
+  "status": "ready",
+  "query_id": "RQ-2026-W32-FLAT-PACK-NETWORK-DECISION-V1",
+  "content_id": "2026-W32-flat-pack-network-decision-linkedin-01",
+  "reader_decision": "Supply-chain planners, purchasing practitioners, and transformation leaders deciding which products should remain globally sourced when landed cost, cube efficiency, tariff exposure, volatility, and response time no longer move together.",
+  "care_statement": "A familiar flat-pack product makes the network-design trade-off visible: efficient transport can still be right, but it is not a permanent answer once a product's demand-response and landed-cost exposure change.",
+  "audience_terms": [
+    "supply chain practitioners",
+    "purchasing and procurement practitioners",
+    "operations leaders"
+  ],
+  "topic_terms": [
+    "sourcing",
+    "network",
+    "supply chain",
+    "transport",
+    "cost",
+    "risk",
+    "resilience",
+    "manufacturing",
+    "decision"
+  ],
+  "content_modes": [
+    "named real-world case",
+    "public data analysis",
+    "reasoned model only",
+    "decision/reference artifact",
+    "narrative illustration or metaphor"
+  ],
+  "hook_types": [
+    "contrarian or tension statement",
+    "pain/consequence scene",
+    "evidence/result",
+    "correction/distinction",
+    "curiosity question"
+  ],
+  "visual_structures": [
+    "narrative illustration or metaphor",
+    "before/after or transformation",
+    "process or workflow",
+    "comparison or matrix",
+    "chart, data, or formula"
+  ],
+  "artifact_types": [
+    "decision/reference artifact",
+    "completed example only",
+    "copyable operating asset"
+  ],
+  "ctas": [
+    "none",
+    "traffic/owned audience",
+    "practitioner discussion"
+  ],
+  "excluded_patterns": [
+    "EOQ",
+    "ultimate cheat sheet",
+    "AI tool stack",
+    "ChatGPT prompt",
+    "comment",
+    "free guide",
+    "generic dashboard"
+  ],
+  "source_preferences": [
+    "saved_positive",
+    "top100_curated_reference"
+  ],
+  "eligible_creative_signals": [
+    "saved_positive",
+    "top100_curated_reference"
+  ],
+  "limit": 15,
+  "tiger_precedent_limit": 5
+}

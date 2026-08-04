@@ -5,6 +5,6 @@ V3 release-board test. Its decision logic is sound, but the image engine returne
 portrait rather than a usable LinkedIn 4:5 canvas. It is not an active candidate.
 
 **2026-08-04 status correction:** this README pre-dates the V12 review. V10 is now preserved as a
-historical test because its boundary was labelled rather than visibly fed and crossed. The active
-candidate is `../../visual-v14-counterfactual-dispatch-diorama-linkedin-4x5.png`; this archive remains untouched
+historical test because its boundary was labelled rather than visibly fed and crossed. V14 was
+subsequently tested but the C3 public-content route is now parked; this archive remains untouched
 as evidence of the rejected route.

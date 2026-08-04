@@ -1,0 +1,91 @@
+{
+  "$schema": "../../../references/creative-genome/schemas/reference-bundle.schema.json",
+  "schema_version": "1.0.0",
+  "creative_bundle_id": "CB-2026-W32-FLAT-PACK-NETWORK-01",
+  "query_id": "RQ-2026-W32-FLAT-PACK-NETWORK-DECISION-V1",
+  "content_id": "2026-W32-flat-pack-network-decision-linkedin-01",
+  "snapshot_id": "creative-genome-2026-08-02-v1",
+  "status": "ready",
+  "claim_mode": "mixed",
+  "reader_contract": {
+    "problem_3s": "One unbranded flat-pack carton visibly opens into two competing supply-network architectures.",
+    "insight_10s": "Product geometry can lower transport cost while tariff exposure, volatility, capacity, and response time change the right network by SKU.",
+    "action_30s": "Re-test sourcing category by category: cube, landed cost, duty exposure, volatility, viable capacity, and the value of a faster response."
+  },
+  "selected_direction": "Direction A — Forensic Flat-Pack Atlas",
+  "coherence_rationale": "A familiar physical object earns broad attention, the hinge makes the hidden network architecture visible, and the caption turns the public case into a compact SKU-level review lens without treating nearshoring as a universal answer.",
+  "tiger_precedent_ids": [
+    "LI-7435715067708411904",
+    "LI-7452009427345362944"
+  ],
+  "references": [
+    {
+      "reference_id": "LI-7458568915321982976",
+      "roles": [
+        "attention"
+      ],
+      "atoms": [
+        {
+          "creative_element_id": "CE-FP-ATTN-01",
+          "atom_type": "attention",
+          "source_mechanism": "A single physical structure embodies a proposition before the reader reaches the explanatory copy.",
+          "adaptation": "Make the flat-pack object's fold physically become the network hinge, so product geometry visibly creates the operating question."
+        }
+      ],
+      "anti_copy_boundary": "Do not reuse the cracked MRP stack, AI/forecast layers, serif statement, navy poster composition, source wording, branding, or any claim about planning systems.",
+      "visual_claim_status": "source_visual_inspected",
+      "visual_inspection_note": "The saved visual turns a layered-stack proposition into one cracked sculpture. Only the working-metaphor principle is retained; the new object, story, material language, and reading route are different."
+    },
+    {
+      "reference_id": "LI-7457024996649885697",
+      "roles": [
+        "comprehension"
+      ],
+      "atoms": [
+        {
+          "creative_element_id": "CE-FP-COMP-01",
+          "atom_type": "visual",
+          "source_mechanism": "A normally abstract operating reality becomes convincing when the reader can literally see the changed flow.",
+          "adaptation": "Let the carton unfold into the long-haul and regional paths so the contrast is visible before the caption names the decision factors."
+        }
+      ],
+      "anti_copy_boundary": "Do not reuse the spaghetti-diagram subject, before/after factory layout, people, red/green route composition, claimed project outcomes, wording, or branding.",
+      "visual_claim_status": "source_visual_inspected",
+      "visual_inspection_note": "The saved visual makes an operational pattern visible rather than merely described. The new direction borrows only that show-the-system mechanism."
+    },
+    {
+      "reference_id": "LI-7470067172392947714",
+      "roles": [
+        "utility"
+      ],
+      "atoms": [
+        {
+          "creative_element_id": "CE-FP-UTIL-01",
+          "atom_type": "utility",
+          "source_mechanism": "A concise visual earns a save when a familiar tension lands in one reusable practical model.",
+          "adaptation": "Give the reader one compact SKU re-test lens in the caption, while the visual makes product design a memorable first input to the model."
+        }
+      ],
+      "anti_copy_boundary": "Do not reuse inventory formulas, calculation layout, colourful formula cards, worked examples, wording, icons, or branding.",
+      "visual_claim_status": "source_visual_inspected",
+      "visual_inspection_note": "The saved formula card joins plain-language explanation and a useful reference. The adaptation uses its compact utility principle only; no formula-card composition is retained."
+    },
+    {
+      "reference_id": "LI-7460562088730562560",
+      "roles": [
+        "bridge"
+      ],
+      "atoms": [
+        {
+          "creative_element_id": "CE-FP-BRIDGE-01",
+          "atom_type": "bridge",
+          "source_mechanism": "A visible operating architecture gives the reader a reason to continue from a familiar label into the actual decision system.",
+          "adaptation": "The post stands alone, then naturally opens a future field-guide or Substack follow-up about the SKU inputs behind a network decision rather than using a generic lead magnet."
+        }
+      ],
+      "anti_copy_boundary": "Do not reuse the three-layer planning engine, its columns, icon set, wording, palette, system labels, artwork, or branding.",
+      "visual_claim_status": "source_visual_inspected",
+      "visual_inspection_note": "The source uses an everyday enterprise label to reveal the hidden architecture underneath it. The adaptation changes the subject and uses one physical object rather than a layer diagram."
+    }
+  ]
+}

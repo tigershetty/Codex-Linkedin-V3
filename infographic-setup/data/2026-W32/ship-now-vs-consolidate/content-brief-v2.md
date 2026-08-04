@@ -2,9 +2,7 @@
 
 > **Status — historical creative control.** This brief preserves the original formula-led route and
 > its evidence decisions, but its visual/caption selection is superseded. Do not use it to render,
-> approve, or publish the current post. `post-card.md` is the execution authority: the native
-> Counterfactual Dispatch Diorama in `visual-v14-counterfactual-dispatch-diorama-linkedin-4x5.png`, paired with
-> `linkedin-caption-v10-temporal-consolidation.md`.
+> approve, or publish. The C3 public-content route is parked; `post-card.md` is the status authority.
 
 **Week:** `2026-W32`  
 **Slug:** `ship-now-vs-consolidate`  
@@ -12,9 +10,8 @@
 **creative_bundle_id:** `CB-2026-W32-C3-LAST-SAFE-DEPARTURE-01`  
 **Genome snapshot:** `creative-genome-2026-08-02-v1`  
 **Stage:** retained non-selected creative control; do not publish, refine, or use its existing
-visual/caption as the active candidate. The technical package remains intact for learning. The
-former replacement named below is also superseded; use `post-card.md` for the active V14 native
-candidate.
+visual/caption as an active candidate. The technical package remains intact for learning and for a
+possible later calculator/product test. The former V14 native visual is also superseded.
 **Lane:** Supply Chain 101 with a website decision-tool continuation  
 **Claim mode:** `formula_or_method`
 

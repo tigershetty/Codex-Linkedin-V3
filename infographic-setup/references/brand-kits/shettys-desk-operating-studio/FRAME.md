@@ -12,15 +12,17 @@ canvas: 1080x1350 (4:5)
 
 Make a real supply-chain decision feel concrete before explaining it. The reader should recognise a
 live work moment, see what is at risk, understand the decision system, and keep a useful mental
-model or field object. Build **Operational Constraint Cinema**: native editorial hierarchy, a
-tangible or diagrammatic operating system, and—when a boundary is the story—evidence → boundary →
-permitted action in one useful model. A bespoke **Commitment Object** can make the point of no
+model or field object. Build **authored editorial engineering**: a technical editorial cover plus
+a tangible or diagrammatic working instrument, and—when a boundary is the story—evidence → boundary
+→ permitted action in one useful model. A bespoke **Commitment Object** can make the point of no
 return visible, but neither it nor an instrumented board is a required format.
 
 This is the luminous, information-rich visual language that made the V3 work feel above-par: an
 airy white operating world, smooth 2.5D/isometric systems, purposeful detail, integrated native
 typography, and a clear human consequence. It is the default expression for new LinkedIn posts. It
-is not a demand that every post look identical or use an isometric scene.
+is not a demand that every post look identical or use an isometric scene. A piece must have a
+working metaphor or forensic evidence object that belongs only to the particular story; generic
+conveyors, pallets, gates, and clocks do not satisfy that bar.
 
 ## Reader-first hierarchy
 
@@ -56,8 +58,9 @@ Coral is never decorative. It means the exposure, constraint, cost, or exception
 
 ## Visual grammar
 
-- Prefer a smooth 2.5D/isometric operating scene, a physical **Commitment Object**, a
-  transformation, contrast, or a route through a real system.
+- Prefer a smooth 2.5D/isometric operating scene, a physical **Commitment Object**, a forensic
+  operating atlas, a working metaphor, a transformation, contrast, or a route through a real
+  system.
 - Use a **central visual spine**: a route, gate, board, timeline, queue, corridor, loading dock,
   ladder, machine, or other object that makes the argument visible.
 - When time, readiness, queue, capacity, or another invisible variable is the real tension,
@@ -136,7 +139,7 @@ the brief when its two-colour editorial restraint makes the reader's job clearer
 
 ## V3 creative direction
 
-Use `../../operational-decision-cinema-v1.md` to judge the owned V3 expression: a Commitment
-Object where appropriate, one physical operating trade-off, spatial consequence, semantic material,
-and embedded utility. It is a light creative direction, not a replacement for the Fast Post Loop or
-a permanent visual template.
+Use `../../operational-decision-cinema-v1.md` to judge the owned V3 expression: an authored
+technical cover plus a working instrument, one physical operating trade-off, spatial consequence,
+semantic material, and embedded utility. It is a light creative direction, not a replacement for
+the Fast Post Loop or a permanent visual template.

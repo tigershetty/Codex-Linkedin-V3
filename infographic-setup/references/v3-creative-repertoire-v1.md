@@ -4,8 +4,9 @@
 new scorecard.
 
 V3 is a rendering language: tangible operating objects, luminous white and blue depth, semantic
-green and coral, and spatial logic that works before the caption. It is not one repeated board
-layout.
+green and coral, and spatial logic that works before the caption. Its signature is an authored
+technical cover plus a working instrument—not one repeated board layout or generic 3D logistics
+scene.
 
 ## 1. Pressure gate
 
@@ -71,7 +72,21 @@ layout.
   route has not earned production.
 - **Use when:** the reader needs to see change, uncertainty, or pressure act on a physical system.
 - **Source shelf:** references/top 100/65.jpeg, references/top 100/44.jpeg, and
-  data/2026-W32/ship-now-vs-consolidate/visual-v14-counterfactual-dispatch-diorama-linkedin-4x5.png.
+  data/2026-W31/mps-as-a-production-commitment/visual.png.
+
+## 7. Forensic operating atlas
+
+- **Reader moment:** a familiar object, formula, public case, or physical product hides the real
+  decision system.
+- **Visual move:** turn that evidence object into a museum-grade technical plate, exploded view,
+  cutaway, or working map where its structure reveals the operating consequence.
+- **Keep:** one source-backed test, comparison, or model the reader can use beyond the example.
+- **Fast test:** cover the labels. If the reader cannot still name the object and proposition, the
+  image is too generic; kill it rather than adding a dashboard.
+- **Use when:** public data, formulas, process mechanics, named-company operating cases, or
+  verifiable AI workflows provide the actual reason to care.
+- **Source shelf:** references/top 100/5.jpeg, references/top 100/44.jpeg, and
+  data/2026-W31/bom-to-mps-connection/visual.png.
 
 ## Anti-pattern
 

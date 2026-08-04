@@ -2,9 +2,8 @@
 
 > **Status — historical execution brief.** This file records the former Cobalt Grid / deterministic
 > HTML-SVG direction. It is retained for learning only and must not be used to render, approve, or
-> publish this post. The current execution authority is `post-card.md`: the native Counterfactual
-> Dispatch Diorama in `visual-v14-counterfactual-dispatch-diorama-linkedin-4x5.png`, paired with
-> `linkedin-caption-v10-temporal-consolidation.md`.
+> publish this post. The C3 visual route is now parked; its calculator remains a possible future
+> product test, but no current visual or caption is authorised.
 
 **Week:** `2026-W32`  
 **Slug:** `ship-now-vs-consolidate`  
