@@ -11,4 +11,4 @@ The browser route is useful for confirming live availability and media type. It 
 
 ## Decision
 
-Do not spend hours attempting 421 browser captures. Use a batch-capable authorized retrieval source for media acquisition; then feed the local assets back into the existing review ledger and forensic-record workflow. The full record-level evidence is in `browser-media-recovery-pilot-2026-08-05.json`.
+Do not spend hours attempting 421 browser captures. The 421 pending records are temporarily marked `explicitly_inaccessible` so the V4 calibration gate can proceed without pretending media was reviewed. Use a batch-capable authorized retrieval source later, then replace that provisional status with locally captured assets and forensic-record evidence. The full record-level evidence is in `browser-media-recovery-pilot-2026-08-05.json`.
