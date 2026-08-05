@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0.0",
+  "reference_id": "TOP100-065",
+  "forensic_record_status": "complete_calibration_record_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/65.jpeg",
+    "status": "visually_inspected",
+    "format": "single_image",
+    "inspection_limitations": ["The visible before/after numbers are attributed in the caption to the creator's projects; they are not independently verified in this record."]
+  },
+  "source_context": {
+    "creator": "AkiJun (visible on asset)",
+    "post_url": null,
+    "caption_source": "top100_workbook",
+    "caption_hook": "The spaghetti diagram is presented as an underrated Lean tool because it makes waste visible.",
+    "caption_argument": [
+      "A simple observed path can reveal movement and rework that dashboards hide.",
+      "The team changes when it sees the actual flow rather than debating it.",
+      "The caption reports project results, including reduced walking, movement, process steps and lead time."
+    ],
+    "observed_performance_context": ["Included in Tiger's intentionally curated Top-100 reference set."],
+    "unknowns": ["Original post date", "Original engagement and distribution", "Independent verification of project outcomes"]
+  },
+  "reader_situation": {
+    "primary_reader": "Operations, warehouse or planning practitioner who senses waste in a process but cannot yet make it obvious to the team.",
+    "work_moment": "A continuous-improvement conversation is stalled in opinion, imperfect data, or an abstract KPI debate.",
+    "tension": "The problem is real but invisible enough that people do not agree it deserves attention.",
+    "desired_response": "practical_use",
+    "topic_selection_boundary": "This record does not choose a process, intervention, data source or future post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "The oversized headline asks a provocative question, then the red, tangled factory paths visually prove chaos immediately. The reader can see the argument before reading the words.",
+    "comprehension_3_10_seconds": "The before/after split turns the floor layout into a simple cause-and-effect story: tangled crossings versus a direct green flow.",
+    "value_exchange_10_30_seconds": "The right-side impact panel and bottom how-to sequence turn an attention image into an executable observation method.",
+    "identity_or_curiosity_trigger": "Lean practitioners recognise a familiar frustration: a sophisticated organisation can overlook an embarrassingly visible source of waste.",
+    "promise_proved_by_visual": "The physical route diagram is the evidence. It demonstrates how a pen-on-layout reveals unnecessary movement much more powerfully than a summary KPI."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "Two-column Lean poster with a large red tangled before-state factory scene, a green after-state scene, impact panels and a short observation method.",
+    "composition_and_grid": "Magazine-style two-column board. The left two-thirds carries the large before/after factory scenes; the right third carries why/impact/gain panels; the final lower band gives a short method and a concluding value statement.",
+    "dominant_anchor": "The red spaghetti routes across the before-state floor. Its disorder creates the visual tension and earns the headline.",
+    "eye_path": ["provocative headline", "red before-state map", "green after-state map", "right-side impact comparison", "bottom six-step method", "closing line"],
+    "information_chunks": ["headline and contrarian promise", "before scene", "after scene", "measurable impact panel", "method steps", "human/behavioural payoff"],
+    "hierarchy": "The visual problem is largest; numbers and methods support it. This keeps the page from becoming a generic Lean cheat sheet.",
+    "typography": "Condensed heavy uppercase headline and clear sectional labels create a shop-floor poster feel. Brush-stroke emphasis is used sparingly to turn one sentence into a maxim.",
+    "colour_material_and_contrast": "Red/green performs more than branding: it encodes chaos versus flow. Industrial dark-blue labels frame white panels and make the page feel procedural and concrete.",
+    "imagery_role": "The plant scenes are explanatory models. People, materials and stations make the travel paths emotionally and operationally legible.",
+    "density_and_pacing": "The graphic has a strong entry scene, then moves into dense support. It rewards a fast reader with one clear message and a slower reader with method and proof.",
+    "craft_observations": ["The before/after is a causal visual narrative, not a decorative comparison.", "The red/green coding holds across illustration, headers and performance signals.", "The method is deliberately subordinate to the visual discovery moment."]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Turn an invisible failure into an observable before/after so a reader can locate the intervention.",
+    "claim_mode": "evidence-backed",
+    "argument_sequence": ["Challenge the assumption that simple tools are weak", "show the hidden waste", "show the improved flow", "offer reported project impacts", "explain the observation method", "make the human change mechanism explicit"],
+    "compression_method": "Operational story: visible state change carries the argument; metrics and method substantiate it afterward.",
+    "reader_payoff": "A practical way to turn a vague process-waste conversation into an observable team exercise.",
+    "save_share_return_motives": ["Use during a Lean/warehouse workshop", "Share with an improvement lead", "Return to follow the six-step observation method", "Use the before/after logic to frame a local problem"],
+    "caption_to_visual_choreography": "The image makes the insight immediate and offers a concise process. The caption supplies the emotional case for observation, expands the reasons the tool works, and contains the creator-attributed impact claims."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Turn an invisible failure into an observable before/after so a reader can locate the intervention.",
+      "reader_state": ["invisible waste", "abstract debate", "friction without a shared picture", "need for action"],
+      "visual_grammar": ["one shared scene or process", "visibly bad state", "visibly changed state", "one meaning-bearing contrast system", "method and evidence after the reveal"],
+      "information_grammar": ["provoke with an overlooked problem", "show the current reality", "show what changes", "support with method/evidence", "name the human or operational action"],
+      "social_action_mechanics": ["save as workshop prompt", "send to an improvement partner", "revisit to apply the observation method", "use to align a team around a visible problem"],
+      "use_when": ["The chosen opportunity has a real or clearly labelled illustrative current state and a credible changed state.", "The failure can be shown spatially, temporally or as a visible flow.", "The reader needs to see where to intervene, not just learn a definition."],
+      "do_not_use_when": ["There is no defensible before/after or no meaningful intervention.", "The narrative is speculative but presented as a real outcome.", "The chosen value is a simple concept distinction rather than visible change."],
+      "topic_selection_boundary": "This mechanism chooses no topic, process, data source or intervention. It only specifies when visible transformation is the right creative grammar."
+    },
+    "transferable_atoms": [
+      "Make an invisible operational failure physically visible before explaining it.",
+      "Use a true before/after with a shared scene so the reader can see what changed.",
+      "Treat evidence and method as support for a visual discovery, not as the opening hook.",
+      "End with the human change mechanism: what seeing the process makes possible."
+    ],
+    "reverse_build_specification": "When a selected opportunity contains an invisible but observable failure and a credible changed state, use a shared before/after scene or flow to make the tension visible in the first frame. Reveal the intervention through what changes in the same system, then support the visual discovery with method, assumptions and provenance-appropriate evidence. Make the visual deliver the discovery; let the caption explain why the change matters and how a reader can investigate locally. Require a real observation or an explicitly labelled illustrative scenario. Do not use without a defensible state change, and do not borrow the source's factory scene, spaghetti routes, metrics, lettering or composition.",
+    "editable_levers": ["topic: intentionally unselected", "visible failure", "shared scene", "before/after contrast axis", "evidence depth", "method length", "artifact form"],
+    "required_original_inputs": ["Observed or sourced process map", "Validated data or clearly labelled illustrative scenario", "Specific role hand-offs", "Failure and redesigned intervention", "Source/provenance for any quantitative claim"],
+    "anti_copy_boundary": ["Factory imagery and spaghetti-path drawing", "reported project percentages", "headline and closing slogan", "red/green shop-floor composition"],
+    "falsification_question": "Can a reader point to the exact hand-off or rule that creates the waste—and the redesigned action that removes it—without relying on the caption?"
+  }
+}

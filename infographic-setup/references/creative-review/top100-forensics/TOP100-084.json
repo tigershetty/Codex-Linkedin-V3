@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.1.0",
+  "reference_id": "TOP100-084",
+  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/84.jpeg",
+    "status": "visually_inspected",
+    "format": "single_image",
+    "inspection_limitations": []
+  },
+  "source_context": {
+    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
+    "post_url": null,
+    "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
+    "caption_available": true,
+    "caption_sha256": "0ec7f7e82591175a082f9501ac24b0fe066578546483930760550d3e7ab861b9",
+    "caption_hook": "Like many people, I’ve been trying to get my head around AI in procurement. A post by Asmaa Gad this week really helped. Her Agentic AI Platforms Map (65 platforms, 10 categories, 2026 edition) brilliantly illustrates how crowded this space has become.",
+    "caption_argument_segments": [
+      "Like many people, I’ve been trying to get my head around AI in procurement. A post by Asmaa Gad this week really helped. Her Agentic AI Platforms Map (65 platforms, 10 categories, 2026 edition) brilliantly illustrates h…",
+      "Given the number of platforms and categories, I wanted to step back and understand what they actually do. The discussion that followed provided the answer. AI platforms can broadly be viewed as operating across three la…",
+      "It’s worth noting that the major S2P platforms are increasingly bundling spend analytics and risk monitoring into their core offerings. So are these truly three distinct categories, or three overlapping capabilities? Pe…"
+    ],
+    "observed_performance_context": [
+      "Included in Tiger’s intentionally curated Top-100 reference set."
+    ],
+    "unknowns": [
+      "Original post-level analytics unless separately captured.",
+      "Independent validation of factual or numerical claims within the source post."
+    ]
+  },
+  "reader_situation": {
+    "primary_reader_state": [
+      "market opacity",
+      "choice overload",
+      "need for orientation at scale"
+    ],
+    "desired_response": [
+      "save as a market map",
+      "send to a colleague",
+      "return to compare options"
+    ],
+    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Agentic AI platforms market map.",
+    "comprehension_3_10_seconds": "The reader follows the category groups, repeated entries, one shared legend or hierarchy to understand the structure without reading the full caption.",
+    "value_exchange_10_30_seconds": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
+    "identity_or_curiosity_trigger": "market opacity; choice overload; need for orientation at scale",
+    "promise_proved_by_visual": "The visual’s proof mechanism is Agentic AI platforms market map."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "Agentic AI platforms market map",
+    "composition_and_grid": "category groups; repeated entries; one shared legend or hierarchy; visible scope and provenance",
+    "dominant_anchor": "Agentic AI platforms market map",
+    "eye_path": [
+      "headline/promise",
+      "dominant visual primitive",
+      "repeated information units",
+      "reader payoff or next action"
+    ],
+    "information_chunks": [
+      "state scope and selection rule",
+      "group the landscape",
+      "make comparison possible",
+      "show source/date/limitations"
+    ],
+    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
+    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
+    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
+    "imagery_role": "Imagery supports the mechanism: Agentic AI platforms market map.",
+    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "craft_observations": [
+      "Agentic AI platforms market map",
+      "Reusable atom: Market landscape turns tools into strategic categories",
+      "The source’s visual identity, typography and precise layout remain non-transferable."
+    ]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
+    "argument_sequence": [
+      "state scope and selection rule",
+      "group the landscape",
+      "make comparison possible",
+      "show source/date/limitations"
+    ],
+    "compression_method": "category groups; repeated entries; one shared legend or hierarchy; visible scope and provenance",
+    "reader_payoff": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
+    "save_share_return_motives": [
+      "save as a market map",
+      "send to a colleague",
+      "return to compare options"
+    ],
+    "caption_to_visual_choreography": "State inclusion criteria, provenance, date sensitivity and what the landscape is not claiming."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
+      "reader_state": [
+        "market opacity",
+        "choice overload",
+        "need for orientation at scale"
+      ],
+      "visual_grammar": [
+        "category groups",
+        "repeated entries",
+        "one shared legend or hierarchy",
+        "visible scope and provenance"
+      ],
+      "information_grammar": [
+        "state scope and selection rule",
+        "group the landscape",
+        "make comparison possible",
+        "show source/date/limitations"
+      ],
+      "social_action_mechanics": [
+        "save as a market map",
+        "send to a colleague",
+        "return to compare options"
+      ],
+      "use_when": [
+        "The collection has a defensible scope and grouping logic.",
+        "The reader gains orientation from seeing the landscape together.",
+        "Sources, dates and exclusions can be named."
+      ],
+      "do_not_use_when": [
+        "The map creates an implied ranking without evidence.",
+        "Entries are incomplete but presented as exhaustive.",
+        "The reader needs a focused decision rather than an overview."
+      ],
+      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+    },
+    "transferable_atoms": [
+      "Market landscape turns tools into strategic categories",
+      "state scope and selection rule",
+      "group the landscape"
+    ],
+    "reverse_build_specification": "When a chosen opportunity requires landscape orientation, group a bounded set by one clear taxonomy, declare the scope and source basis, and make the reader’s next comparison possible. Do not disguise an unverified list as market truth.",
+    "editable_levers": [
+      "topic: intentionally unselected",
+      "reader work moment",
+      "visual primitive",
+      "information depth",
+      "caption role",
+      "format/material treatment"
+    ],
+    "required_original_inputs": [
+      "A chosen reader tension with real relevance.",
+      "Correct logic, process or sourced evidence proportionate to the selected claim.",
+      "An original visual object/scene/interface that proves the chosen promise.",
+      "A caption that adds a different layer of value from the visual."
+    ],
+    "anti_copy_boundary": [
+      "Logo collection and market claims",
+      "source wording and caption rhetoric",
+      "source creator identity, brand assets and distinctive composition",
+      "any source claim not independently supportable"
+    ],
+    "falsification_question": "After seeing an original execution, can a target reader identify the intended compress a broad landscape of people, companies, tools or signals into a navigable overview. without relying on the caption?"
+  },
+  "provenance": {
+    "visual_observation_id": "top100-visual-inspection-2026-08-05#84",
+    "source_context_id": "top100-workbook#84",
+    "content_hash": "005abddcca3c5d73f677056fda1636c83c9c3944d2c7552732df0cec01a52e40"
+  }
+}

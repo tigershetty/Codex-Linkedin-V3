@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.1.0",
+  "reference_id": "TOP100-058",
+  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/58.gif",
+    "status": "visually_inspected",
+    "format": "animated_or_gif_first_frame_reviewed",
+    "inspection_limitations": [
+      "Motion is not inferred beyond the available first-frame inspection."
+    ]
+  },
+  "source_context": {
+    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
+    "post_url": null,
+    "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
+    "caption_available": true,
+    "caption_sha256": "da7df4c198641768a7266621d97b532a416300af4da914329272a62cada53033",
+    "caption_hook": "I vibe-coded a tool that got me 250k impressions the next day.",
+    "caption_argument_segments": [
+      "I vibe-coded a tool that got me 250k impressions the next day.",
+      "Here's exactly how it works - and the prompt I used to build it.",
+      "I used to lose 45 minutes every morning scrolling Reddit for content ideas.",
+      "I asked Perplexity Computer to build me a tool that would do it for me.",
+      "2 evenings. 5 conversations. 0 code I wrote myself.",
+      "Perplexity called it Reddit Radar:"
+    ],
+    "observed_performance_context": [
+      "Included in Tiger’s intentionally curated Top-100 reference set."
+    ],
+    "unknowns": [
+      "Original post-level analytics unless separately captured.",
+      "Independent validation of factual or numerical claims within the source post."
+    ]
+  },
+  "reader_situation": {
+    "primary_reader_state": [
+      "market opacity",
+      "choice overload",
+      "need for orientation at scale"
+    ],
+    "desired_response": [
+      "save as a market map",
+      "send to a colleague",
+      "return to compare options"
+    ],
+    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by LinkedIn post screenshot used as proof-of-reach.",
+    "comprehension_3_10_seconds": "The reader follows the category groups, repeated entries, one shared legend or hierarchy to understand the structure without reading the full caption.",
+    "value_exchange_10_30_seconds": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
+    "identity_or_curiosity_trigger": "market opacity; choice overload; need for orientation at scale",
+    "promise_proved_by_visual": "The visual’s proof mechanism is LinkedIn post screenshot used as proof-of-reach."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "LinkedIn post screenshot used as proof-of-reach",
+    "composition_and_grid": "category groups; repeated entries; one shared legend or hierarchy; visible scope and provenance",
+    "dominant_anchor": "LinkedIn post screenshot used as proof-of-reach",
+    "eye_path": [
+      "headline/promise",
+      "dominant visual primitive",
+      "repeated information units",
+      "reader payoff or next action"
+    ],
+    "information_chunks": [
+      "state scope and selection rule",
+      "group the landscape",
+      "make comparison possible",
+      "show source/date/limitations"
+    ],
+    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
+    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
+    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
+    "imagery_role": "Imagery supports the mechanism: LinkedIn post screenshot used as proof-of-reach.",
+    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "craft_observations": [
+      "LinkedIn post screenshot used as proof-of-reach",
+      "Reusable atom: Evidence screenshot can validate a lesson",
+      "The source’s visual identity, typography and precise layout remain non-transferable."
+    ]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
+    "argument_sequence": [
+      "state scope and selection rule",
+      "group the landscape",
+      "make comparison possible",
+      "show source/date/limitations"
+    ],
+    "compression_method": "category groups; repeated entries; one shared legend or hierarchy; visible scope and provenance",
+    "reader_payoff": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
+    "save_share_return_motives": [
+      "save as a market map",
+      "send to a colleague",
+      "return to compare options"
+    ],
+    "caption_to_visual_choreography": "State inclusion criteria, provenance, date sensitivity and what the landscape is not claiming."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
+      "reader_state": [
+        "market opacity",
+        "choice overload",
+        "need for orientation at scale"
+      ],
+      "visual_grammar": [
+        "category groups",
+        "repeated entries",
+        "one shared legend or hierarchy",
+        "visible scope and provenance"
+      ],
+      "information_grammar": [
+        "state scope and selection rule",
+        "group the landscape",
+        "make comparison possible",
+        "show source/date/limitations"
+      ],
+      "social_action_mechanics": [
+        "save as a market map",
+        "send to a colleague",
+        "return to compare options"
+      ],
+      "use_when": [
+        "The collection has a defensible scope and grouping logic.",
+        "The reader gains orientation from seeing the landscape together.",
+        "Sources, dates and exclusions can be named."
+      ],
+      "do_not_use_when": [
+        "The map creates an implied ranking without evidence.",
+        "Entries are incomplete but presented as exhaustive.",
+        "The reader needs a focused decision rather than an overview."
+      ],
+      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+    },
+    "transferable_atoms": [
+      "Evidence screenshot can validate a lesson",
+      "state scope and selection rule",
+      "group the landscape"
+    ],
+    "reverse_build_specification": "When a chosen opportunity requires landscape orientation, group a bounded set by one clear taxonomy, declare the scope and source basis, and make the reader’s next comparison possible. Do not disguise an unverified list as market truth.",
+    "editable_levers": [
+      "topic: intentionally unselected",
+      "reader work moment",
+      "visual primitive",
+      "information depth",
+      "caption role",
+      "format/material treatment"
+    ],
+    "required_original_inputs": [
+      "A chosen reader tension with real relevance.",
+      "Correct logic, process or sourced evidence proportionate to the selected claim.",
+      "An original visual object/scene/interface that proves the chosen promise.",
+      "A caption that adds a different layer of value from the visual."
+    ],
+    "anti_copy_boundary": [
+      "Another creator's metrics/screenshot",
+      "source wording and caption rhetoric",
+      "source creator identity, brand assets and distinctive composition",
+      "any source claim not independently supportable"
+    ],
+    "falsification_question": "After seeing an original execution, can a target reader identify the intended compress a broad landscape of people, companies, tools or signals into a navigable overview. without relying on the caption?"
+  },
+  "provenance": {
+    "visual_observation_id": "top100-visual-inspection-2026-08-05#58",
+    "source_context_id": "top100-workbook#58",
+    "content_hash": "d518190c47b5a4c5f5457989fc1cc6ddfb006bfd3de9d43f4190e4aee945ffa6"
+  }
+}

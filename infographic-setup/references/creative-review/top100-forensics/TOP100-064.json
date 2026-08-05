@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0.0",
+  "reference_id": "TOP100-064",
+  "forensic_record_status": "complete_calibration_record_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/64.jpeg",
+    "status": "visually_inspected",
+    "format": "single_image",
+    "inspection_limitations": ["No direct post-level analytics are attached to this Top-100 asset."]
+  },
+  "source_context": {
+    "creator": "unknown from local visual alone",
+    "post_url": null,
+    "caption_source": "top100_workbook",
+    "caption_hook": "Supply-chain roles are framed as different birds in one flock.",
+    "caption_argument": [
+      "Each function has a recognisable operating personality.",
+      "The humour is intentionally affectionate rather than technical.",
+      "The closing prompt invites readers to name their own S&OP 'bird'."
+    ],
+    "observed_performance_context": ["Included in Tiger's intentionally curated Top-100 reference set."],
+    "unknowns": ["Creator identity", "Original post date", "Original engagement and distribution"]
+  },
+  "reader_situation": {
+    "primary_reader": "Any supply-chain practitioner who has experienced the predictable personalities and tensions between adjacent functions.",
+    "work_moment": "A reader is scrolling between operational problems and wants to feel seen before they want a technical lesson.",
+    "tension": "Cross-functional friction is real, but explaining it directly can sound accusatory or tedious.",
+    "desired_response": "recognition",
+    "topic_selection_boundary": "This record does not choose a topic, identity set, metaphor or future post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "The headline 'Supply Chain Roles as Birds' creates an immediate, unexpected category collision; seven colourful character portraits make the post legible even before the text is read.",
+    "comprehension_3_10_seconds": "The stacked rows turn the reader into a self-directed quiz: role -> bird -> funny truth -> icon. The reader scans for their own role first.",
+    "value_exchange_10_30_seconds": "The post gives a socially safe language for role differences and a small moment of workplace recognition rather than a formal framework.",
+    "identity_or_curiosity_trigger": "'Which one are we?' is more compelling than 'Here are seven functions.' The post uses affiliation and humour as the entry point.",
+    "promise_proved_by_visual": "Distinctive birds, numbers and colour-coded rows show the mapping immediately; the visual has enough personality to carry the premise without the caption."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "Tall seven-row identity list using large illustrated birds, role labels and one short behavioural reveal per row.",
+    "composition_and_grid": "Tall, evenly stacked seven-row list. Each row has a large numbered badge, an expressive bird portrait, a role label, a short character sentence, and a small reinforcing icon/line on the right.",
+    "dominant_anchor": "The birds—not the text—are the recognition devices. Their faces, clothes and poses assign personality before explanation.",
+    "eye_path": ["headline", "first bird/role pair", "reader's own role row", "other roles", "closing character at bottom right"],
+    "information_chunks": ["identity headline", "seven repeated role-personality cards", "visual micro-jokes", "bottom creator mark"],
+    "hierarchy": "Role labels are bold and dominant within each row; the humour line and supporting icon work as quick second and third beats.",
+    "typography": "Huge condensed/sans headline, bold uppercase role labels, then a mixture of normal and handwritten/script accents for personality.",
+    "colour_material_and_contrast": "Warm off-white paper-like background lets the vivid birds carry colour. Each row receives a distinct accent colour, but the system stays unified through repeated card structure.",
+    "imagery_role": "The illustrations are semantic characters, not decoration. They give the stereotype an emotional and memorable body.",
+    "density_and_pacing": "Very low cognitive load per row; the reader can consume one joke at a time and continue because each row promises a new reveal.",
+    "craft_observations": ["The taxonomy is deliberately incomplete in a technical sense but complete in a social-recognition sense.", "Rows are self-contained, which makes it highly scrollable and commentable.", "Humour lowers the defensiveness that a literal role critique could trigger."]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Create benign self-recognition that makes a shared work tension socially discussable.",
+    "claim_mode": "opinion",
+    "argument_sequence": ["Unexpected metaphor", "role-by-role recognition", "friendly exaggeration", "whole-team unity line", "identity question for comments"],
+    "compression_method": "Archetype mapping: a dense job description becomes one memorable creature and one behavioural truth.",
+    "reader_payoff": "A memorable, human way to name cross-functional tendencies without claiming a universal organisational truth.",
+    "save_share_return_motives": ["Send to a colleague for a low-friction inside joke", "Tag a teammate", "Use as a prompt for a team conversation", "Return for a quick role map"],
+    "caption_to_visual_choreography": "The image executes the joke and gives all seven reveals. The caption broadens it into the shared-mission idea and asks the reader to participate with their own mapping."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Create benign self-recognition that makes a shared work tension socially discussable.",
+      "reader_state": ["role identity", "shared frustration", "need for social permission", "desire to feel seen"],
+      "visual_grammar": ["one surprising metaphor", "five-to-seven repeated identity reveals", "semantic character/object imagery", "low cognitive load per row"],
+      "information_grammar": ["unexpected premise", "find-yourself reveal", "scan adjacent identities", "shared-mission or participation close"],
+      "social_action_mechanics": ["tag a colleague", "comment with a missing identity", "send as a friendly inside joke", "revisit as a team conversation starter"],
+      "use_when": ["The chosen opportunity contains a widely recognisable but low-stakes human pattern.", "A metaphor can add warmth without erasing important nuance.", "The desired response is recognition, participation or discussion before instruction."],
+      "do_not_use_when": ["The content needs technical precision, a sensitive critique or a substantiated outcome claim.", "The metaphor would stereotype, humiliate or simplify a real power imbalance.", "The reader requires a step-by-step action rather than social recognition."],
+      "topic_selection_boundary": "This mechanism chooses no group, event, metaphor or workplace issue. It only defines the conditions under which an identity mirror can work."
+    },
+    "transferable_atoms": [
+      "Use an unexpected but readable metaphor for a real work identity.",
+      "Make every row reveal one recognisable behavioural truth.",
+      "Keep criticism affectionate and specific enough to prompt tagging.",
+      "Use the caption for community participation, not for repeating the visual."
+    ],
+    "reverse_build_specification": "When a selected opportunity contains a shared, low-stakes workplace identity and needs recognition before instruction, use one original metaphor to create several self-contained archetype reveals. Let the reader find themselves first, then scan the adjacent perspectives. Keep each reveal kind, specific and independently legible. Make the visual deliver the social recognition; let the caption establish the common tension and invite contribution. Require lived-language and a fairness check. Do not use where precision, sensitivity or evidence is the primary need, and do not borrow animal characters, the flock premise, wording, illustrations or typography from the source.",
+    "editable_levers": ["topic: intentionally unselected", "metaphor family", "identity set", "level of humour", "participation prompt", "visual character style"],
+    "required_original_inputs": ["A real recurring cross-functional moment", "Language practitioners use to describe the tension", "A fairness check so no role is mocked or reduced to a caricature", "Original illustrative concept"],
+    "anti_copy_boundary": ["Bird species and personality jokes", "same role-to-creature mapping", "stacked card composition", "headline/subheadline wording"],
+    "falsification_question": "Do practitioners recognise a real moment and voluntarily tag or add a missing perspective, rather than merely liking the illustration?"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.1.0",
+  "reference_id": "TOP100-071",
+  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/71.jpeg",
+    "status": "visually_inspected",
+    "format": "single_image",
+    "inspection_limitations": []
+  },
+  "source_context": {
+    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
+    "post_url": null,
+    "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
+    "caption_available": true,
+    "caption_sha256": "8a8626ed6eb2d90bc9ace11ac4a6eaa5769cd23b331d98cdb7e4e39360909ffb",
+    "caption_hook": "𝗠𝗼𝘀𝘁 𝗽𝗿𝗼𝗰𝘂𝗿𝗲𝗺𝗲𝗻𝘁 𝗽𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹𝘀 𝗮𝗿𝗲 𝘀𝘁𝘂𝗰𝗸 𝗼𝗻 𝗟𝗲𝘃𝗲𝗹 𝟭.",
+    "caption_argument_segments": [
+      "𝗠𝗼𝘀𝘁 𝗽𝗿𝗼𝗰𝘂𝗿𝗲𝗺𝗲𝗻𝘁 𝗽𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹𝘀 𝗮𝗿𝗲 𝘀𝘁𝘂𝗰𝗸 𝗼𝗻 𝗟𝗲𝘃𝗲𝗹 𝟭. 𝗧𝗵𝗲𝗿𝗲 𝗮𝗿𝗲 𝟰 𝗹𝗲𝘃𝗲𝗹𝘀.",
+      "Level 1: Claude Chat → You type. It responds. Like a search engine. Level 2: Claude Cowork → It lives on your desktop. Reads your files. Creates real .docx, .xlsx, .pptx in your folder. Level 3: Skills and Plugins → You…",
+      "Each level unlocks a different kind of value.",
+      "Level 1 saves you minutes. Level 4 saves you 15-20 hours per week. Most people never leave Level 1 because they don't know the other three exist.",
+      "Now you do.",
+      "Join our free newsletter for weekly AI tips in procurement and supply chain → https://lnkd.in/ebGwQKwH"
+    ],
+    "observed_performance_context": [
+      "Included in Tiger’s intentionally curated Top-100 reference set."
+    ],
+    "unknowns": [
+      "Original post-level analytics unless separately captured.",
+      "Independent validation of factual or numerical claims within the source post."
+    ]
+  },
+  "reader_situation": {
+    "primary_reader_state": [
+      "uncertain starting point",
+      "ambition without path",
+      "need to see progression"
+    ],
+    "desired_response": [
+      "self-assess",
+      "save as a roadmap",
+      "use to start a team conversation"
+    ],
+    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Procurement Claude layers as a tiered cake.",
+    "comprehension_3_10_seconds": "The reader follows the levels, rings, stages, ladder or journey, clear start/end orientation, one capability shift per level to understand the structure without reading the full caption.",
+    "value_exchange_10_30_seconds": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+    "identity_or_curiosity_trigger": "uncertain starting point; ambition without path; need to see progression",
+    "promise_proved_by_visual": "The visual’s proof mechanism is Procurement Claude layers as a tiered cake."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "Procurement Claude layers as a tiered cake",
+    "composition_and_grid": "levels, rings, stages, ladder or journey; clear start/end orientation; one capability shift per level; visible movement between states",
+    "dominant_anchor": "Procurement Claude layers as a tiered cake",
+    "eye_path": [
+      "headline/promise",
+      "dominant visual primitive",
+      "repeated information units",
+      "reader payoff or next action"
+    ],
+    "information_chunks": [
+      "name current condition",
+      "show sequential capability shifts",
+      "define what changes at each level",
+      "make the next move intelligible"
+    ],
+    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
+    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
+    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
+    "imagery_role": "Imagery supports the mechanism: Procurement Claude layers as a tiered cake.",
+    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "craft_observations": [
+      "Procurement Claude layers as a tiered cake",
+      "Reusable atom: Metaphor makes capability depth immediately visible",
+      "The source’s visual identity, typography and precise layout remain non-transferable."
+    ]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+    "argument_sequence": [
+      "name current condition",
+      "show sequential capability shifts",
+      "define what changes at each level",
+      "make the next move intelligible"
+    ],
+    "compression_method": "levels, rings, stages, ladder or journey; clear start/end orientation; one capability shift per level; visible movement between states",
+    "reader_payoff": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+    "save_share_return_motives": [
+      "self-assess",
+      "save as a roadmap",
+      "use to start a team conversation"
+    ],
+    "caption_to_visual_choreography": "State the limits of the progression, prevent false precision and invite the reader to consider their current condition."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+      "reader_state": [
+        "uncertain starting point",
+        "ambition without path",
+        "need to see progression"
+      ],
+      "visual_grammar": [
+        "levels, rings, stages, ladder or journey",
+        "clear start/end orientation",
+        "one capability shift per level",
+        "visible movement between states"
+      ],
+      "information_grammar": [
+        "name current condition",
+        "show sequential capability shifts",
+        "define what changes at each level",
+        "make the next move intelligible"
+      ],
+      "social_action_mechanics": [
+        "self-assess",
+        "save as a roadmap",
+        "use to start a team conversation"
+      ],
+      "use_when": [
+        "The chosen opportunity has a credible progression rather than a marketing funnel.",
+        "Moving between states changes capabilities or decisions, not just labels.",
+        "The reader benefits from locating a current state."
+      ],
+      "do_not_use_when": [
+        "The levels are arbitrary.",
+        "There is no meaningful order.",
+        "The post would imply false maturity scoring or unsupported benchmarks."
+      ],
+      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+    },
+    "transferable_atoms": [
+      "Metaphor makes capability depth immediately visible",
+      "name current condition",
+      "show sequential capability shifts"
+    ],
+    "reverse_build_specification": "When a chosen opportunity is genuinely developmental, use a clear progression with one capability change per stage. Make the starting point, movement and next credible step visible, and avoid treating maturity labels as evidence without support.",
+    "editable_levers": [
+      "topic: intentionally unselected",
+      "reader work moment",
+      "visual primitive",
+      "information depth",
+      "caption role",
+      "format/material treatment"
+    ],
+    "required_original_inputs": [
+      "A chosen reader tension with real relevance.",
+      "Correct logic, process or sourced evidence proportionate to the selected claim.",
+      "An original visual object/scene/interface that proves the chosen promise.",
+      "A caption that adds a different layer of value from the visual."
+    ],
+    "anti_copy_boundary": [
+      "Cake/telescope visual language",
+      "source wording and caption rhetoric",
+      "source creator identity, brand assets and distinctive composition",
+      "any source claim not independently supportable"
+    ],
+    "falsification_question": "After seeing an original execution, can a target reader identify the intended make progress, capability depth or transformation feel navigable rather than abstract. without relying on the caption?"
+  },
+  "provenance": {
+    "visual_observation_id": "top100-visual-inspection-2026-08-05#71",
+    "source_context_id": "top100-workbook#71",
+    "content_hash": "9bd780efed5bae371894edfbc4f86f495e2ffd8a5a16e62fb21cd95f6ccca42c"
+  }
+}

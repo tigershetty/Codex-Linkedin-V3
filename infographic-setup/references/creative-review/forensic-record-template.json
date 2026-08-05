@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "reference_id": "TOP100-000",
+  "asset": {
+    "path": "references/top 100/000.jpeg",
+    "status": "visually_inspected",
+    "format": "single_image",
+    "inspection_limitations": []
+  },
+  "source_context": {
+    "creator": "",
+    "post_url": null,
+    "caption_source": "top100_workbook",
+    "caption_hook": "",
+    "caption_argument": [],
+    "observed_performance_context": [],
+    "unknowns": []
+  },
+  "reader_situation": {
+    "primary_reader": "",
+    "work_moment": "",
+    "tension": "",
+    "desired_response": "recognition | understanding | practical_use | memorable_intrigue"
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "",
+    "comprehension_3_10_seconds": "",
+    "value_exchange_10_30_seconds": "",
+    "identity_or_curiosity_trigger": "",
+    "promise_proved_by_visual": ""
+  },
+  "visual_forensics": {
+    "composition_and_grid": "",
+    "dominant_anchor": "",
+    "eye_path": [],
+    "information_chunks": [],
+    "hierarchy": "",
+    "typography": "",
+    "colour_material_and_contrast": "",
+    "imagery_role": "",
+    "density_and_pacing": "",
+    "craft_observations": []
+  },
+  "content_mechanics": {
+    "claim_mode": "framework | explanatory | opinion | evidence-backed | product",
+    "argument_sequence": [],
+    "compression_method": "",
+    "reader_payoff": "",
+    "save_share_return_motives": [],
+    "caption_to_visual_choreography": ""
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "",
+      "reader_state": [],
+      "visual_grammar": [],
+      "information_grammar": [],
+      "social_action_mechanics": [],
+      "use_when": [],
+      "do_not_use_when": [],
+      "topic_selection_boundary": "This record does not choose a topic."
+    },
+    "transferable_atoms": [],
+    "reverse_build_specification": "",
+    "editable_levers": ["topic: intentionally unselected"],
+    "required_original_inputs": [],
+    "anti_copy_boundary": [],
+    "falsification_question": ""
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0.0",
+  "reference_id": "TOP100-013",
+  "forensic_record_status": "complete_calibration_record_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/13.jpeg",
+    "status": "visually_inspected",
+    "format": "single_image",
+    "inspection_limitations": ["No direct post-level analytics are attached to this Top-100 asset."]
+  },
+  "source_context": {
+    "creator": "unknown from local visual alone",
+    "post_url": null,
+    "caption_source": "top100_workbook",
+    "caption_hook": "Forecasting, planning and buying are different jobs that jointly determine inventory performance.",
+    "caption_argument": [
+      "Forecasting creates the demand signal.",
+      "Planning translates the signal into supply, capacity and inventory decisions.",
+      "Buying creates the cash and receipt commitment.",
+      "The operational problem is the delay and misalignment between those three functions."
+    ],
+    "observed_performance_context": ["Included in Tiger's intentionally curated Top-100 reference set."],
+    "unknowns": ["Creator identity", "Original post date", "Original engagement and distribution"]
+  },
+  "reader_situation": {
+    "primary_reader": "Planner, buyer or inventory leader who sees forecast changes arrive after commitments have already been made.",
+    "work_moment": "A cross-functional discussion has become vague because people use forecasting, planning and buying as if they were interchangeable.",
+    "tension": "Everyone owns part of inventory performance, but no one can see where responsibility and financial exposure change hands.",
+    "desired_response": "understanding",
+    "topic_selection_boundary": "This record does not choose a topic, terms, audience or future post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "Three large, adjacent labels—Forecasting, Planning and Buying—signal a distinction the reader likely feels but has not cleanly named.",
+    "comprehension_3_10_seconds": "The repeated vertical structure lets the reader compare definition, role, inputs, outputs and success measure across all three without changing reading rules.",
+    "value_exchange_10_30_seconds": "The reader acquires a vocabulary for diagnosing the forecast-to-plan-to-PO hand-off, not merely three definitions.",
+    "identity_or_curiosity_trigger": "Operational people recognise the sentence-level conflict: 'the forecast changed' versus 'the order is already placed.'",
+    "promise_proved_by_visual": "The equal columns prove that the three activities are related but non-identical; the graphic makes the boundary visible before the caption explains the consequence."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "High-contrast three-column comparison table with repeated decision rows and a shared conclusion.",
+    "composition_and_grid": "A single-page comparison board: high-contrast title area above three equal vertical lanes. Each lane follows the same row order, with a dark category label at the top/side and a compact block of information below.",
+    "dominant_anchor": "The three-way comparison itself; no decorative hero image competes with it.",
+    "eye_path": ["Question/title", "Forecasting lane", "Planning lane", "Buying lane", "shared lower conclusion"],
+    "information_chunks": ["distinction headline", "three equivalent function lanes", "shared relationship/consequence"],
+    "hierarchy": "Large functional labels create first-level scan; short descriptors and row labels create second-level scan; supporting details remain subordinate.",
+    "typography": "Bold high-contrast sans-serif labels, intentionally stronger than explanatory copy. This is a reading interface, not a poster.",
+    "colour_material_and_contrast": "Restrained white surface with dark anchors and separated lanes; colour is used for categorical separation rather than mood.",
+    "imagery_role": "Minimal. The visual primitive is a table/comparison, which is the proof mechanism.",
+    "density_and_pacing": "Fast entry, then controlled vertical reading. Repetition reduces cognitive switching despite a high information load.",
+    "craft_observations": ["The columns are genuinely comparable, not three unrelated text boxes.", "The content is compressed into decision-relevant categories rather than encyclopaedic detail.", "The reader can stop at any lane and still retain a complete local answer."]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Disambiguate related concepts so a group can make a more precise decision.",
+    "claim_mode": "explanatory",
+    "argument_sequence": ["Name a conflation", "separate the three jobs", "show the hand-off relationship", "connect misalignment to inventory and cash consequences", "invite the reader to identify their own weakest link"],
+    "compression_method": "Parallel schema: every concept answers the same small set of questions.",
+    "reader_payoff": "A reusable way to clarify accountability and escalation in a forecasting-to-buying process.",
+    "save_share_return_motives": ["Useful in a meeting where terms are being conflated", "Easy to send to a planner/buyer counterpart", "Acts as a concise onboarding reference"],
+    "caption_to_visual_choreography": "The image handles the distinction; the caption supplies the operational consequence—forecast shifts, plan lag, order already placed—and turns the visual taxonomy into a live business problem."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Disambiguate related concepts so a group can make a more precise decision.",
+      "reader_state": ["conceptual confusion", "cross-functional disagreement", "need for shared vocabulary"],
+      "visual_grammar": ["two-to-four equal lanes", "one shared row schema", "minimal decorative imagery", "visible shared conclusion"],
+      "information_grammar": ["name the conflation", "separate each concept through the same questions", "show the hand-off or relationship", "name the consequence of conflation"],
+      "social_action_mechanics": ["save as meeting reference", "send to an adjacent function", "use to make an abstract disagreement specific"],
+      "use_when": ["The chosen opportunity contains a small set of terms readers mistake for one another.", "Each term can be compared fairly on the same decision-relevant schema.", "The payoff is a clearer boundary, owner, choice or escalation."],
+      "do_not_use_when": ["The core value depends on a chronological causal story.", "The concepts are not genuinely comparable.", "The post requires rich emotional recognition rather than precision."],
+      "topic_selection_boundary": "This mechanism chooses no topic, audience, terms or comparison rows. Those are selected only after opportunity research."
+    },
+    "transferable_atoms": [
+      "Start with three terms readers casually conflate.",
+      "Force each term through the same decision schema.",
+      "Use the final shared section to expose the failure at the hand-off, not within an individual function.",
+      "Let the caption provide a lived scenario the comparison itself cannot show."
+    ],
+    "reverse_build_specification": "When a selected opportunity contains a small set of conflated concepts and needs a shared decision vocabulary, use equal comparison lanes to make the boundary visible in the first frame. Keep one repeated decision schema across all lanes, then reveal the hand-off or consequence that the separated concepts create together. Make the visual deliver precision; let the caption supply the lived scenario, nuance and invitation. Require accurate definitions and a real reason the distinction matters. Do not use this mechanism for a causal timeline or unrelated categories, and do not borrow the source's terms, wording, type system or lane construction.",
+    "editable_levers": ["topic: intentionally unselected", "number of concepts: two to four", "comparison rows: three to six", "reader role", "decision consequence", "conclusion form"],
+    "required_original_inputs": ["Validated definitions from the target operating process", "Named data owner for each concept", "Real decision boundary or failure mode", "Original examples or sourced process logic"],
+    "anti_copy_boundary": ["Forecasting/planning/buying wording and examples", "source's specific column treatment", "source typography and category labels", "source caption rhetoric"],
+    "falsification_question": "If relevant readers cannot tell which date they own or what action changes when it moves after ten seconds, did the distinction transfer?"
+  }
+}

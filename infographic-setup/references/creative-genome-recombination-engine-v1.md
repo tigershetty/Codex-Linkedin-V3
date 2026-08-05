@@ -48,9 +48,20 @@ Decompose each reference into:
 - **creative atoms:** the smallest mechanisms that may be transformed without copying;
 - **anti-copy boundary:** subject matter, wording, branding, artwork, and distinctive expression that must not be reproduced.
 
+For Top-100 references and any flagship source, the decomposition is only complete when it also
+contains a forensic creative record: source context, thumbnail/three-second read, layout and eye-path
+analysis, caption-to-visual choreography, reader action mechanics, and a prompt-style reverse
+construction brief. See `creative-review/reference-forensics-v1.md`. This prevents a shallow
+"pastel cards / dark grid" analysis from masquerading as creative intelligence.
+
 Preview presence never counts as a verified visual annotation. The active visual authority is the
 manual `references/creative-review/reference-review-ledger.jsonl`: inspect the actual image or
 record it explicitly inaccessible before a visual atom is marked `visually_verified`.
+
+The completed Top-100 visual subset is indexed in
+`references/creative-genome/top100-creative-genome-v1.json`, with its operating guide in
+`references/creative-genome/creative-retrieval-guide-v1.md`. It is deliberately searchable by
+reader state, desired response and cognitive job—not by a preselected supply-chain topic.
 
 ## Creative retrieval for flagships
 
@@ -199,6 +210,10 @@ From `infographic-setup/`:
 
 ```bash
 node scripts/build-creative-genome.mjs
+node scripts/validate-top100-forensics.mjs
+node scripts/build-top100-creative-genome.mjs
+node scripts/validate-top100-creative-genome.mjs
+node scripts/retrieve-top100-creative-mechanisms.mjs --reader-state "choice overload" --response "practical use"
 node scripts/retrieve-creative-references.mjs \
   --query data/{week}/{slug}/reference-query.json \
   --output data/{week}/{slug}/reference-candidates.json

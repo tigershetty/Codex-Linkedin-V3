@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.1.0",
+  "reference_id": "TOP100-022",
+  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/22.jpeg",
+    "status": "visually_inspected",
+    "format": "single_image",
+    "inspection_limitations": []
+  },
+  "source_context": {
+    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
+    "post_url": null,
+    "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
+    "caption_available": true,
+    "caption_sha256": "2bc4bec98d75d11ae8768a82cad337b6a57b0f046dea7f76ba5d804b0b7b6226",
+    "caption_hook": "Nobody told me procurement could feel this powerful.",
+    "caption_argument_segments": [
+      "Nobody told me procurement could feel this powerful.",
+      "I just mapped out 𝟮𝟬 𝘄𝗮𝘆𝘀 𝗔𝗜 𝗶𝘀 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗲𝗹𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝘂𝗿𝗲𝗺𝗲𝗻𝘁, and honestly, the results are wild.",
+      "Here's what's changing RIGHT NOW:",
+      "✅ 𝗦𝗽𝗲𝗻𝗱 𝗔𝗻𝗮𝗹𝘆𝘀𝗶𝘀 → AI spots saving opportunities you'd miss in months of manual work ✅ 𝗦𝘂𝗽𝗽𝗹𝗶𝗲𝗿 𝗥𝗶𝘀𝗸 𝗔𝘀𝘀𝗲𝘀𝘀𝗺𝗲𝗻𝘁 → Real-time risk scores before problems hit ✅ 𝗖𝗼𝗻𝘁𝗿𝗮𝗰𝘁 𝗜𝗻𝘁𝗲\ud835…",
+      "And that's just 𝟱 𝗼𝗳 𝘁𝗵𝗲 𝟮𝟬!",
+      "The teams still doing this manually in 2025? They're leaving 𝘁𝗶𝗺𝗲, 𝗺𝗼𝗻𝗲𝘆, 𝗮𝗻𝗱 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝘀 on the table."
+    ],
+    "observed_performance_context": [
+      "Included in Tiger’s intentionally curated Top-100 reference set."
+    ],
+    "unknowns": [
+      "Original post-level analytics unless separately captured.",
+      "Independent validation of factual or numerical claims within the source post."
+    ]
+  },
+  "reader_situation": {
+    "primary_reader_state": [
+      "information overload",
+      "need for quick lookup",
+      "desire to feel more fluent at work"
+    ],
+    "desired_response": [
+      "save as a field reference",
+      "share with a newer colleague",
+      "return during real work"
+    ],
+    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Procurement AI use-case table.",
+    "comprehension_3_10_seconds": "The reader follows the modular reference blocks or table, strong title promise, repeated card/row rule to understand the structure without reading the full caption.",
+    "value_exchange_10_30_seconds": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+    "identity_or_curiosity_trigger": "information overload; need for quick lookup; desire to feel more fluent at work",
+    "promise_proved_by_visual": "The visual’s proof mechanism is Procurement AI use-case table."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "Procurement AI use-case table",
+    "composition_and_grid": "modular reference blocks or table; strong title promise; repeated card/row rule; grouping through category and hierarchy",
+    "dominant_anchor": "Procurement AI use-case table",
+    "eye_path": [
+      "headline/promise",
+      "dominant visual primitive",
+      "repeated information units",
+      "reader payoff or next action"
+    ],
+    "information_chunks": [
+      "state the scope",
+      "group items by a usable logic",
+      "give compact definitions/formulas/examples",
+      "make the reference retrievable at a glance"
+    ],
+    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
+    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
+    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
+    "imagery_role": "Imagery supports the mechanism: Procurement AI use-case table.",
+    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "craft_observations": [
+      "Procurement AI use-case table",
+      "Reusable atom: Prompt, input, output, and outcome in one row",
+      "The source’s visual identity, typography and precise layout remain non-transferable."
+    ]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+    "argument_sequence": [
+      "state the scope",
+      "group items by a usable logic",
+      "give compact definitions/formulas/examples",
+      "make the reference retrievable at a glance"
+    ],
+    "compression_method": "modular reference blocks or table; strong title promise; repeated card/row rule; grouping through category and hierarchy",
+    "reader_payoff": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+    "save_share_return_motives": [
+      "save as a field reference",
+      "share with a newer colleague",
+      "return during real work"
+    ],
+    "caption_to_visual_choreography": "Explain scope, provenance, use boundary and the one practical reason the reader should keep the reference."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+      "reader_state": [
+        "information overload",
+        "need for quick lookup",
+        "desire to feel more fluent at work"
+      ],
+      "visual_grammar": [
+        "modular reference blocks or table",
+        "strong title promise",
+        "repeated card/row rule",
+        "grouping through category and hierarchy"
+      ],
+      "information_grammar": [
+        "state the scope",
+        "group items by a usable logic",
+        "give compact definitions/formulas/examples",
+        "make the reference retrievable at a glance"
+      ],
+      "social_action_mechanics": [
+        "save as a field reference",
+        "share with a newer colleague",
+        "return during real work"
+      ],
+      "use_when": [
+        "The information is durable and consulted repeatedly.",
+        "There is a defensible grouping logic.",
+        "Compression preserves rather than distorts the meaning."
+      ],
+      "do_not_use_when": [
+        "The reader needs one deep causal explanation.",
+        "The list is arbitrary or too broad to be reliable.",
+        "A single decision tool would be more useful than a compendium."
+      ],
+      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+    },
+    "transferable_atoms": [
+      "Prompt, input, output, and outcome in one row",
+      "state the scope",
+      "group items by a usable logic"
+    ],
+    "reverse_build_specification": "When a chosen opportunity contains durable, repeat-use knowledge, create a compact field guide with an explicit scope and repeated retrieval pattern. Make every row earn its place, make grouping visible, and state what the guide cannot decide for the reader.",
+    "editable_levers": [
+      "topic: intentionally unselected",
+      "reader work moment",
+      "visual primitive",
+      "information depth",
+      "caption role",
+      "format/material treatment"
+    ],
+    "required_original_inputs": [
+      "A chosen reader tension with real relevance.",
+      "Correct logic, process or sourced evidence proportionate to the selected claim.",
+      "An original visual object/scene/interface that proves the chosen promise.",
+      "A caption that adds a different layer of value from the visual."
+    ],
+    "anti_copy_boundary": [
+      "Five-column table copy/design",
+      "source wording and caption rhetoric",
+      "source creator identity, brand assets and distinctive composition",
+      "any source claim not independently supportable"
+    ],
+    "falsification_question": "After seeing an original execution, can a target reader identify the intended package a dense but recurring body of knowledge into a reference readers can repeatedly consult. without relying on the caption?"
+  },
+  "provenance": {
+    "visual_observation_id": "top100-visual-inspection-2026-08-05#22",
+    "source_context_id": "top100-workbook#22",
+    "content_hash": "99359bb8e565dd3d9b7f3afa17a6650b89de649cfd2447ac6c00ef4c55be5bea"
+  }
+}

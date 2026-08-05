@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.1.0",
+  "reference_id": "TOP100-085",
+  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/85.jpeg",
+    "status": "visually_inspected",
+    "format": "single_image",
+    "inspection_limitations": []
+  },
+  "source_context": {
+    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
+    "post_url": null,
+    "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
+    "caption_available": true,
+    "caption_sha256": "cf94b506c1c97e029bf98879de11f4ec9382c3c9210c86ebfd6e1e1b0e963eba",
+    "caption_hook": "This is what your supply chain org chart looks like today.",
+    "caption_argument_segments": [
+      "This is what your supply chain org chart looks like today. And this is what it will look like tomorrow. AI is not just changing tools. It’s redesigning roles.",
+      "Three big changes I see across companies:",
+      "The rise of the Supply Chain Orchestrator Someone who manages by exception, not by task Focusing on decisions, not data crunching",
+      "The emergence of App Makers / Super Analysts People from the business building their own tools Replacing hundreds of Excels with simple, scalable apps",
+      "The creation of AI Product roles To structure, prioritize, and govern all these initiatives Avoiding chaos at scale",
+      "The biggest shift is this: From execution To orchestration From manual work To decision-making"
+    ],
+    "observed_performance_context": [
+      "Included in Tiger’s intentionally curated Top-100 reference set."
+    ],
+    "unknowns": [
+      "Original post-level analytics unless separately captured.",
+      "Independent validation of factual or numerical claims within the source post."
+    ]
+  },
+  "reader_situation": {
+    "primary_reader_state": [
+      "uncertain starting point",
+      "ambition without path",
+      "need to see progression"
+    ],
+    "desired_response": [
+      "self-assess",
+      "save as a roadmap",
+      "use to start a team conversation"
+    ],
+    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Before/after AI-native supply-chain org chart.",
+    "comprehension_3_10_seconds": "The reader follows the levels, rings, stages, ladder or journey, clear start/end orientation, one capability shift per level to understand the structure without reading the full caption.",
+    "value_exchange_10_30_seconds": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+    "identity_or_curiosity_trigger": "uncertain starting point; ambition without path; need to see progression",
+    "promise_proved_by_visual": "The visual’s proof mechanism is Before/after AI-native supply-chain org chart."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "Before/after AI-native supply-chain org chart",
+    "composition_and_grid": "levels, rings, stages, ladder or journey; clear start/end orientation; one capability shift per level; visible movement between states",
+    "dominant_anchor": "Before/after AI-native supply-chain org chart",
+    "eye_path": [
+      "headline/promise",
+      "dominant visual primitive",
+      "repeated information units",
+      "reader payoff or next action"
+    ],
+    "information_chunks": [
+      "name current condition",
+      "show sequential capability shifts",
+      "define what changes at each level",
+      "make the next move intelligible"
+    ],
+    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
+    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
+    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
+    "imagery_role": "Imagery supports the mechanism: Before/after AI-native supply-chain org chart.",
+    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "craft_observations": [
+      "Before/after AI-native supply-chain org chart",
+      "Reusable atom: Organisation change is clearer as two structures",
+      "The source’s visual identity, typography and precise layout remain non-transferable."
+    ]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+    "argument_sequence": [
+      "name current condition",
+      "show sequential capability shifts",
+      "define what changes at each level",
+      "make the next move intelligible"
+    ],
+    "compression_method": "levels, rings, stages, ladder or journey; clear start/end orientation; one capability shift per level; visible movement between states",
+    "reader_payoff": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+    "save_share_return_motives": [
+      "self-assess",
+      "save as a roadmap",
+      "use to start a team conversation"
+    ],
+    "caption_to_visual_choreography": "State the limits of the progression, prevent false precision and invite the reader to consider their current condition."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+      "reader_state": [
+        "uncertain starting point",
+        "ambition without path",
+        "need to see progression"
+      ],
+      "visual_grammar": [
+        "levels, rings, stages, ladder or journey",
+        "clear start/end orientation",
+        "one capability shift per level",
+        "visible movement between states"
+      ],
+      "information_grammar": [
+        "name current condition",
+        "show sequential capability shifts",
+        "define what changes at each level",
+        "make the next move intelligible"
+      ],
+      "social_action_mechanics": [
+        "self-assess",
+        "save as a roadmap",
+        "use to start a team conversation"
+      ],
+      "use_when": [
+        "The chosen opportunity has a credible progression rather than a marketing funnel.",
+        "Moving between states changes capabilities or decisions, not just labels.",
+        "The reader benefits from locating a current state."
+      ],
+      "do_not_use_when": [
+        "The levels are arbitrary.",
+        "There is no meaningful order.",
+        "The post would imply false maturity scoring or unsupported benchmarks."
+      ],
+      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+    },
+    "transferable_atoms": [
+      "Organisation change is clearer as two structures",
+      "name current condition",
+      "show sequential capability shifts"
+    ],
+    "reverse_build_specification": "When a chosen opportunity is genuinely developmental, use a clear progression with one capability change per stage. Make the starting point, movement and next credible step visible, and avoid treating maturity labels as evidence without support.",
+    "editable_levers": [
+      "topic: intentionally unselected",
+      "reader work moment",
+      "visual primitive",
+      "information depth",
+      "caption role",
+      "format/material treatment"
+    ],
+    "required_original_inputs": [
+      "A chosen reader tension with real relevance.",
+      "Correct logic, process or sourced evidence proportionate to the selected claim.",
+      "An original visual object/scene/interface that proves the chosen promise.",
+      "A caption that adds a different layer of value from the visual."
+    ],
+    "anti_copy_boundary": [
+      "Exact role names and org-chart claim",
+      "source wording and caption rhetoric",
+      "source creator identity, brand assets and distinctive composition",
+      "any source claim not independently supportable"
+    ],
+    "falsification_question": "After seeing an original execution, can a target reader identify the intended make progress, capability depth or transformation feel navigable rather than abstract. without relying on the caption?"
+  },
+  "provenance": {
+    "visual_observation_id": "top100-visual-inspection-2026-08-05#85",
+    "source_context_id": "top100-workbook#85",
+    "content_hash": "b1b67726308d3ba96e62be09ec49418cb80049084ce518043315d1a47593406f"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.1.0",
+  "reference_id": "TOP100-069",
+  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/69.jpeg",
+    "status": "visually_inspected",
+    "format": "single_image",
+    "inspection_limitations": []
+  },
+  "source_context": {
+    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
+    "post_url": null,
+    "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
+    "caption_available": true,
+    "caption_sha256": "08762b615a99b69f11cd898460fefd7e2e600a6197c65f0dad8ce561659be4fb",
+    "caption_hook": "Strategic Sourcing is as rare as a diet at a Barbecue.",
+    "caption_argument_segments": [
+      "Strategic Sourcing is as rare as a diet at a Barbecue.",
+      "Procurement teams confuse the minimum three bid process as a stategy.",
+      "But I’ve seen supplier selection fail time and again as Price is confused with Value.",
+      "Depending on the context, three areas to consider:",
+      "- Does your Procurement team understand Strategic Sourcing? - Do you have the time to deliver this? - Are you adequately resourced?",
+      "Let's breakdown Strategic Sourcing into its basic steps:"
+    ],
+    "observed_performance_context": [
+      "Included in Tiger’s intentionally curated Top-100 reference set."
+    ],
+    "unknowns": [
+      "Original post-level analytics unless separately captured.",
+      "Independent validation of factual or numerical claims within the source post."
+    ]
+  },
+  "reader_situation": {
+    "primary_reader_state": [
+      "system opacity",
+      "fragmented ownership",
+      "need to see the whole before acting locally"
+    ],
+    "desired_response": [
+      "save as an orientation reference",
+      "send to a collaborator",
+      "use to explain a system without a long meeting"
+    ],
+    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Traditional/three-bid/strategic sourcing comparison.",
+    "comprehension_3_10_seconds": "The reader follows the central anchor or process spine, labelled nodes/layers/lanes, visible relationship connectors to understand the structure without reading the full caption.",
+    "value_exchange_10_30_seconds": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+    "identity_or_curiosity_trigger": "system opacity; fragmented ownership; need to see the whole before acting locally",
+    "promise_proved_by_visual": "The visual’s proof mechanism is Traditional/three-bid/strategic sourcing comparison."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "Traditional/three-bid/strategic sourcing comparison",
+    "composition_and_grid": "central anchor or process spine; labelled nodes/layers/lanes; visible relationship connectors; bounded visual zones",
+    "dominant_anchor": "Traditional/three-bid/strategic sourcing comparison",
+    "eye_path": [
+      "headline/promise",
+      "dominant visual primitive",
+      "repeated information units",
+      "reader payoff or next action"
+    ],
+    "information_chunks": [
+      "name the system",
+      "show its parts",
+      "reveal relationships",
+      "locate the intervention or decision point"
+    ],
+    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
+    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
+    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
+    "imagery_role": "Imagery supports the mechanism: Traditional/three-bid/strategic sourcing comparison.",
+    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "craft_observations": [
+      "Traditional/three-bid/strategic sourcing comparison",
+      "Reusable atom: Process complexity is legible through longer flow",
+      "The source’s visual identity, typography and precise layout remain non-transferable."
+    ]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+    "argument_sequence": [
+      "name the system",
+      "show its parts",
+      "reveal relationships",
+      "locate the intervention or decision point"
+    ],
+    "compression_method": "central anchor or process spine; labelled nodes/layers/lanes; visible relationship connectors; bounded visual zones",
+    "reader_payoff": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+    "save_share_return_motives": [
+      "save as an orientation reference",
+      "send to a collaborator",
+      "use to explain a system without a long meeting"
+    ],
+    "caption_to_visual_choreography": "Supply the system’s operating consequence, boundary conditions or point of view that a static map cannot prove."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+      "reader_state": [
+        "system opacity",
+        "fragmented ownership",
+        "need to see the whole before acting locally"
+      ],
+      "visual_grammar": [
+        "central anchor or process spine",
+        "labelled nodes/layers/lanes",
+        "visible relationship connectors",
+        "bounded visual zones"
+      ],
+      "information_grammar": [
+        "name the system",
+        "show its parts",
+        "reveal relationships",
+        "locate the intervention or decision point"
+      ],
+      "social_action_mechanics": [
+        "save as an orientation reference",
+        "send to a collaborator",
+        "use to explain a system without a long meeting"
+      ],
+      "use_when": [
+        "The opportunity is about relationships between components rather than a single list.",
+        "The visual can make a hidden dependency, flow or ownership boundary clearer.",
+        "The reader benefits from an overview before detailed instruction."
+      ],
+      "do_not_use_when": [
+        "The main reader need is a simple one-step decision.",
+        "Relationships would be invented or speculative.",
+        "A table would communicate the content more clearly."
+      ],
+      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+    },
+    "transferable_atoms": [
+      "Process complexity is legible through longer flow",
+      "name the system",
+      "show its parts"
+    ],
+    "reverse_build_specification": "When a chosen opportunity needs orientation in a complex system, select one visual grammar—spine, hub, layers or lanes—and use it consistently to make relationships legible. Give each node one job and let the caption explain why the relationship matters.",
+    "editable_levers": [
+      "topic: intentionally unselected",
+      "reader work moment",
+      "visual primitive",
+      "information depth",
+      "caption role",
+      "format/material treatment"
+    ],
+    "required_original_inputs": [
+      "A chosen reader tension with real relevance.",
+      "Correct logic, process or sourced evidence proportionate to the selected claim.",
+      "An original visual object/scene/interface that proves the chosen promise.",
+      "A caption that adds a different layer of value from the visual."
+    ],
+    "anti_copy_boundary": [
+      "Exact arrow/pictogram sequence",
+      "source wording and caption rhetoric",
+      "source creator identity, brand assets and distinctive composition",
+      "any source claim not independently supportable"
+    ],
+    "falsification_question": "After seeing an original execution, can a target reader identify the intended orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible. without relying on the caption?"
+  },
+  "provenance": {
+    "visual_observation_id": "top100-visual-inspection-2026-08-05#69",
+    "source_context_id": "top100-workbook#69",
+    "content_hash": "d0a885e1001aa7b7f30d4ef4a566059a4bff10d7dd2fdafb74af9a6af22af446"
+  }
+}

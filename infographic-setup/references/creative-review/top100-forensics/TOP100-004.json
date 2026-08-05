@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.1.0",
+  "reference_id": "TOP100-004",
+  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/4.jpeg",
+    "status": "visually_inspected",
+    "format": "single_image",
+    "inspection_limitations": []
+  },
+  "source_context": {
+    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
+    "post_url": null,
+    "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
+    "caption_available": true,
+    "caption_sha256": "cae435b2dff5d5733fa312e8c261070684e4f9cd4cebc55b9f6fa028a4a542f0",
+    "caption_hook": "Everyone thinks the highest-paid writers:",
+    "caption_argument_segments": [
+      "Everyone thinks the highest-paid writers:",
+      "• Ghostwrite books • Create social content • Craft speeches for leaders",
+      "But the highest-paid ghostwriters I know write something people hardly ever talk about:",
+      "Email.",
+      "In the last 5 years, email is the channel that's helped me generate over $20,000,000 in sales.",
+      "And it's the one marketing channel MILLIONS of businesses desperately need help with."
+    ],
+    "observed_performance_context": [
+      "Included in Tiger’s intentionally curated Top-100 reference set."
+    ],
+    "unknowns": [
+      "Original post-level analytics unless separately captured.",
+      "Independent validation of factual or numerical claims within the source post."
+    ]
+  },
+  "reader_situation": {
+    "primary_reader_state": [
+      "uncertain value",
+      "need to see what exists",
+      "desire for a practical shortcut"
+    ],
+    "desired_response": [
+      "comment or click for the resource",
+      "save for later access",
+      "share with someone who needs the tool"
+    ],
+    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Product-pack lead magnet surrounded by benefit cards.",
+    "comprehension_3_10_seconds": "The reader follows the central tangible object/interface, benefit modules pointing inward or outward, clear contents and use outcomes to understand the structure without reading the full caption.",
+    "value_exchange_10_30_seconds": "Make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value.",
+    "identity_or_curiosity_trigger": "uncertain value; need to see what exists; desire for a practical shortcut",
+    "promise_proved_by_visual": "The visual’s proof mechanism is Product-pack lead magnet surrounded by benefit cards."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "Product-pack lead magnet surrounded by benefit cards",
+    "composition_and_grid": "central tangible object/interface; benefit modules pointing inward or outward; clear contents and use outcomes; one direct action",
+    "dominant_anchor": "Product-pack lead magnet surrounded by benefit cards",
+    "eye_path": [
+      "headline/promise",
+      "dominant visual primitive",
+      "repeated information units",
+      "reader payoff or next action"
+    ],
+    "information_chunks": [
+      "name the object",
+      "show what it contains",
+      "show the job it helps complete",
+      "give the next access/use action"
+    ],
+    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
+    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
+    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
+    "imagery_role": "Imagery supports the mechanism: Product-pack lead magnet surrounded by benefit cards.",
+    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "craft_observations": [
+      "Product-pack lead magnet surrounded by benefit cards",
+      "Reusable atom: Tangible object as the centre of a value map",
+      "The source’s visual identity, typography and precise layout remain non-transferable."
+    ]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value.",
+    "argument_sequence": [
+      "name the object",
+      "show what it contains",
+      "show the job it helps complete",
+      "give the next access/use action"
+    ],
+    "compression_method": "central tangible object/interface; benefit modules pointing inward or outward; clear contents and use outcomes; one direct action",
+    "reader_payoff": "Make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value.",
+    "save_share_return_motives": [
+      "comment or click for the resource",
+      "save for later access",
+      "share with someone who needs the tool"
+    ],
+    "caption_to_visual_choreography": "Clarify who the object is for, what it does not solve, access terms and real evidence of utility if claimed."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value.",
+      "reader_state": [
+        "uncertain value",
+        "need to see what exists",
+        "desire for a practical shortcut"
+      ],
+      "visual_grammar": [
+        "central tangible object/interface",
+        "benefit modules pointing inward or outward",
+        "clear contents and use outcomes",
+        "one direct action"
+      ],
+      "information_grammar": [
+        "name the object",
+        "show what it contains",
+        "show the job it helps complete",
+        "give the next access/use action"
+      ],
+      "social_action_mechanics": [
+        "comment or click for the resource",
+        "save for later access",
+        "share with someone who needs the tool"
+      ],
+      "use_when": [
+        "A real artifact, interface, toolkit or workflow exists.",
+        "The image can truthfully show what the reader receives or does.",
+        "The offer has a clear practical use."
+      ],
+      "do_not_use_when": [
+        "There is no real usable object.",
+        "The product image is a substitute for proof.",
+        "The post uses a forced CTA before giving standalone value."
+      ],
+      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+    },
+    "transferable_atoms": [
+      "Tangible object as the centre of a value map",
+      "name the object",
+      "show what it contains"
+    ],
+    "reverse_build_specification": "When a chosen opportunity has a real usable object, centre the artifact or interface and organise surrounding value by jobs completed. Make the object tangible, separate claims from proof, and ensure the post is useful even without the CTA.",
+    "editable_levers": [
+      "topic: intentionally unselected",
+      "reader work moment",
+      "visual primitive",
+      "information depth",
+      "caption role",
+      "format/material treatment"
+    ],
+    "required_original_inputs": [
+      "A chosen reader tension with real relevance.",
+      "Correct logic, process or sourced evidence proportionate to the selected claim.",
+      "An original visual object/scene/interface that proves the chosen promise.",
+      "A caption that adds a different layer of value from the visual."
+    ],
+    "anti_copy_boundary": [
+      "Purple 3D book and arrows",
+      "source wording and caption rhetoric",
+      "source creator identity, brand assets and distinctive composition",
+      "any source claim not independently supportable"
+    ],
+    "falsification_question": "After seeing an original execution, can a target reader identify the intended make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value. without relying on the caption?"
+  },
+  "provenance": {
+    "visual_observation_id": "top100-visual-inspection-2026-08-05#4",
+    "source_context_id": "top100-workbook#4",
+    "content_hash": "a28e0ee992fb4c16a15002ca1f406c40f9df8a8cca8e2e59b8f562dbedb319c5"
+  }
+}

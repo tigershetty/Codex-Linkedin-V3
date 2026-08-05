@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.1.0",
+  "reference_id": "TOP100-031",
+  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/31.jpeg",
+    "status": "visually_inspected",
+    "format": "single_image",
+    "inspection_limitations": []
+  },
+  "source_context": {
+    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
+    "post_url": null,
+    "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
+    "caption_available": true,
+    "caption_sha256": "c94ee27806e58b5cfc32781a30cbc510cccbf969e823e6dba0c3328ed1d5d369",
+    "caption_hook": "You can cut waste by 70% & boost quality by 90%.",
+    "caption_argument_segments": [
+      "You can cut waste by 70% & boost quality by 90%. When you know the Japanese secret of Kaizen.",
+      "It’s not a trend or a tactic. It’s a system used by the world’s most efficient companies.",
+      "Kaizen is the practice of making small, continuous improvements.",
+      "Those daily tweaks add up to serious results.",
+      "Most CEOs chase the big wins. Major transformations. Strategic change initiatives.",
+      "Kaizen leaders focus on the next 1% improvement."
+    ],
+    "observed_performance_context": [
+      "Included in Tiger’s intentionally curated Top-100 reference set."
+    ],
+    "unknowns": [
+      "Original post-level analytics unless separately captured.",
+      "Independent validation of factual or numerical claims within the source post."
+    ]
+  },
+  "reader_situation": {
+    "primary_reader_state": [
+      "need for recognition",
+      "abstract tension",
+      "social friction around naming a pattern"
+    ],
+    "desired_response": [
+      "tag a colleague",
+      "comment with a personal example",
+      "remember and repeat the idea"
+    ],
+    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Kaizen idea explained through a human/brain metaphor.",
+    "comprehension_3_10_seconds": "The reader follows the one unexpected metaphor, strong visual object or scene, small reveal units to understand the structure without reading the full caption.",
+    "value_exchange_10_30_seconds": "Make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy.",
+    "identity_or_curiosity_trigger": "need for recognition; abstract tension; social friction around naming a pattern",
+    "promise_proved_by_visual": "The visual’s proof mechanism is Kaizen idea explained through a human/brain metaphor."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "Kaizen idea explained through a human/brain metaphor",
+    "composition_and_grid": "one unexpected metaphor; strong visual object or scene; small reveal units; emotionally legible contrast",
+    "dominant_anchor": "Kaizen idea explained through a human/brain metaphor",
+    "eye_path": [
+      "headline/promise",
+      "dominant visual primitive",
+      "repeated information units",
+      "reader payoff or next action"
+    ],
+    "information_chunks": [
+      "surprising premise",
+      "recognisable truth",
+      "brief unpacking",
+      "invitation to identify or discuss"
+    ],
+    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
+    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
+    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
+    "imagery_role": "Imagery supports the mechanism: Kaizen idea explained through a human/brain metaphor.",
+    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "craft_observations": [
+      "Kaizen idea explained through a human/brain metaphor",
+      "Reusable atom: Metaphor first, then three applied contexts",
+      "The source’s visual identity, typography and precise layout remain non-transferable."
+    ]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy.",
+    "argument_sequence": [
+      "surprising premise",
+      "recognisable truth",
+      "brief unpacking",
+      "invitation to identify or discuss"
+    ],
+    "compression_method": "one unexpected metaphor; strong visual object or scene; small reveal units; emotionally legible contrast",
+    "reader_payoff": "Make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy.",
+    "save_share_return_motives": [
+      "tag a colleague",
+      "comment with a personal example",
+      "remember and repeat the idea"
+    ],
+    "caption_to_visual_choreography": "Unpack the metaphor, state its boundary and invite recognition without overstating a universal truth."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy.",
+      "reader_state": [
+        "need for recognition",
+        "abstract tension",
+        "social friction around naming a pattern"
+      ],
+      "visual_grammar": [
+        "one unexpected metaphor",
+        "strong visual object or scene",
+        "small reveal units",
+        "emotionally legible contrast"
+      ],
+      "information_grammar": [
+        "surprising premise",
+        "recognisable truth",
+        "brief unpacking",
+        "invitation to identify or discuss"
+      ],
+      "social_action_mechanics": [
+        "tag a colleague",
+        "comment with a personal example",
+        "remember and repeat the idea"
+      ],
+      "use_when": [
+        "A real lived pattern can be made clearer without losing nuance.",
+        "The desired response is recognition or intrigue before instruction.",
+        "The metaphor is kind, original and culturally safe."
+      ],
+      "do_not_use_when": [
+        "The post carries high-stakes factual, technical or sensitive criticism.",
+        "The metaphor stereotypes people or minimises harm.",
+        "The reader requires a precise procedure."
+      ],
+      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+    },
+    "transferable_atoms": [
+      "Metaphor first, then three applied contexts",
+      "surprising premise",
+      "recognisable truth"
+    ],
+    "reverse_build_specification": "When a chosen opportunity needs recognition before explanation, create one original, respectful metaphor that makes the tension visible. Use the visual for the memorable collision and the caption for the nuance, boundary and conversation.",
+    "editable_levers": [
+      "topic: intentionally unselected",
+      "reader work moment",
+      "visual primitive",
+      "information depth",
+      "caption role",
+      "format/material treatment"
+    ],
+    "required_original_inputs": [
+      "A chosen reader tension with real relevance.",
+      "Correct logic, process or sourced evidence proportionate to the selected claim.",
+      "An original visual object/scene/interface that proves the chosen promise.",
+      "A caption that adds a different layer of value from the visual."
+    ],
+    "anti_copy_boundary": [
+      "Silhouette/brain graphic",
+      "source wording and caption rhetoric",
+      "source creator identity, brand assets and distinctive composition",
+      "any source claim not independently supportable"
+    ],
+    "falsification_question": "After seeing an original execution, can a target reader identify the intended make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy. without relying on the caption?"
+  },
+  "provenance": {
+    "visual_observation_id": "top100-visual-inspection-2026-08-05#31",
+    "source_context_id": "top100-workbook#31",
+    "content_hash": "01a13152e8433d371f50e7db22db5c1a5432f507a259ecd443e8e1312d26381b"
+  }
+}

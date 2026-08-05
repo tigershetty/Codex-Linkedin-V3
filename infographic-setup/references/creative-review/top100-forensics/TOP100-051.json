@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.1.0",
+  "reference_id": "TOP100-051",
+  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/51.jpeg",
+    "status": "visually_inspected",
+    "format": "single_image",
+    "inspection_limitations": []
+  },
+  "source_context": {
+    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
+    "post_url": null,
+    "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
+    "caption_available": true,
+    "caption_sha256": "83fc3b1580c8c39cf68ad5cd0888c764e6cb62d2025b0bc9652503b07c9ac01c",
+    "caption_hook": "I talk to Supply Chain Directors regularly.",
+    "caption_argument_segments": [
+      "I talk to Supply Chain Directors regularly.",
+      "One pattern keeps showing up. The gap between what they expected from Agentic AI and what actually happened after go-live.",
+      "Here's what surprises them most.",
+      "1. It works best on repetitive decisions, not strategic ones. The biggest wins came from high-volume, rule-based calls. Expedite or not. Allocate or hold. Not from strategy. The system handles the noise. People handle t…",
+      "2. Deployment takes 6–9 months, not 6 weeks. Vendors promise fast. Reality is slow. Change management, data cleanup, process redesign. None of that fits in a sprint.",
+      "3. The biggest win isn't the outcome. It's decision transparency. Planners stopped asking \"why did the system do that?\" They started understanding it. Teams work differently once that shift happens."
+    ],
+    "observed_performance_context": [
+      "Included in Tiger’s intentionally curated Top-100 reference set."
+    ],
+    "unknowns": [
+      "Original post-level analytics unless separately captured.",
+      "Independent validation of factual or numerical claims within the source post."
+    ]
+  },
+  "reader_situation": {
+    "primary_reader_state": [
+      "system opacity",
+      "fragmented ownership",
+      "need to see the whole before acting locally"
+    ],
+    "desired_response": [
+      "save as an orientation reference",
+      "send to a collaborator",
+      "use to explain a system without a long meeting"
+    ],
+    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Agentic AI truths as five evidence bands.",
+    "comprehension_3_10_seconds": "The reader follows the central anchor or process spine, labelled nodes/layers/lanes, visible relationship connectors to understand the structure without reading the full caption.",
+    "value_exchange_10_30_seconds": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+    "identity_or_curiosity_trigger": "system opacity; fragmented ownership; need to see the whole before acting locally",
+    "promise_proved_by_visual": "The visual’s proof mechanism is Agentic AI truths as five evidence bands."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "Agentic AI truths as five evidence bands",
+    "composition_and_grid": "central anchor or process spine; labelled nodes/layers/lanes; visible relationship connectors; bounded visual zones",
+    "dominant_anchor": "Agentic AI truths as five evidence bands",
+    "eye_path": [
+      "headline/promise",
+      "dominant visual primitive",
+      "repeated information units",
+      "reader payoff or next action"
+    ],
+    "information_chunks": [
+      "name the system",
+      "show its parts",
+      "reveal relationships",
+      "locate the intervention or decision point"
+    ],
+    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
+    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
+    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
+    "imagery_role": "Imagery supports the mechanism: Agentic AI truths as five evidence bands.",
+    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "craft_observations": [
+      "Agentic AI truths as five evidence bands",
+      "Reusable atom: Thesis supported by a visual proof on every row",
+      "The source’s visual identity, typography and precise layout remain non-transferable."
+    ]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+    "argument_sequence": [
+      "name the system",
+      "show its parts",
+      "reveal relationships",
+      "locate the intervention or decision point"
+    ],
+    "compression_method": "central anchor or process spine; labelled nodes/layers/lanes; visible relationship connectors; bounded visual zones",
+    "reader_payoff": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+    "save_share_return_motives": [
+      "save as an orientation reference",
+      "send to a collaborator",
+      "use to explain a system without a long meeting"
+    ],
+    "caption_to_visual_choreography": "Supply the system’s operating consequence, boundary conditions or point of view that a static map cannot prove."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+      "reader_state": [
+        "system opacity",
+        "fragmented ownership",
+        "need to see the whole before acting locally"
+      ],
+      "visual_grammar": [
+        "central anchor or process spine",
+        "labelled nodes/layers/lanes",
+        "visible relationship connectors",
+        "bounded visual zones"
+      ],
+      "information_grammar": [
+        "name the system",
+        "show its parts",
+        "reveal relationships",
+        "locate the intervention or decision point"
+      ],
+      "social_action_mechanics": [
+        "save as an orientation reference",
+        "send to a collaborator",
+        "use to explain a system without a long meeting"
+      ],
+      "use_when": [
+        "The opportunity is about relationships between components rather than a single list.",
+        "The visual can make a hidden dependency, flow or ownership boundary clearer.",
+        "The reader benefits from an overview before detailed instruction."
+      ],
+      "do_not_use_when": [
+        "The main reader need is a simple one-step decision.",
+        "Relationships would be invented or speculative.",
+        "A table would communicate the content more clearly."
+      ],
+      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+    },
+    "transferable_atoms": [
+      "Thesis supported by a visual proof on every row",
+      "name the system",
+      "show its parts"
+    ],
+    "reverse_build_specification": "When a chosen opportunity needs orientation in a complex system, select one visual grammar—spine, hub, layers or lanes—and use it consistently to make relationships legible. Give each node one job and let the caption explain why the relationship matters.",
+    "editable_levers": [
+      "topic: intentionally unselected",
+      "reader work moment",
+      "visual primitive",
+      "information depth",
+      "caption role",
+      "format/material treatment"
+    ],
+    "required_original_inputs": [
+      "A chosen reader tension with real relevance.",
+      "Correct logic, process or sourced evidence proportionate to the selected claim.",
+      "An original visual object/scene/interface that proves the chosen promise.",
+      "A caption that adds a different layer of value from the visual."
+    ],
+    "anti_copy_boundary": [
+      "Existing card/robot illustration",
+      "source wording and caption rhetoric",
+      "source creator identity, brand assets and distinctive composition",
+      "any source claim not independently supportable"
+    ],
+    "falsification_question": "After seeing an original execution, can a target reader identify the intended orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible. without relying on the caption?"
+  },
+  "provenance": {
+    "visual_observation_id": "top100-visual-inspection-2026-08-05#51",
+    "source_context_id": "top100-workbook#51",
+    "content_hash": "25bfc0faf92b612f2299b99036104248b1df53a08b934833fd4e337794377686"
+  }
+}

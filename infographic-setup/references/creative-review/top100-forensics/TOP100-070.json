@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.1.0",
+  "reference_id": "TOP100-070",
+  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/70.jpeg",
+    "status": "visually_inspected",
+    "format": "single_image",
+    "inspection_limitations": []
+  },
+  "source_context": {
+    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
+    "post_url": null,
+    "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
+    "caption_available": true,
+    "caption_sha256": "821c008a0a34b28bbcf4f10656002d707ca6b42fcac5eee026bc31e92f0709ac",
+    "caption_hook": "𝗖𝗹𝗮𝘂𝗱𝗲 𝗵𝗮𝘀 𝟮𝟮+ 𝗳𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝗳𝗼𝗿 𝗽𝗿𝗼𝗰𝘂𝗿𝗲𝗺𝗲𝗻𝘁.",
+    "caption_argument_segments": [
+      "𝗖𝗹𝗮𝘂𝗱𝗲 𝗵𝗮𝘀 𝟮𝟮+ 𝗳𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝗳𝗼𝗿 𝗽𝗿𝗼𝗰𝘂𝗿𝗲𝗺𝗲𝗻𝘁. 𝗠𝗼𝘀𝘁 𝗽𝗲𝗼𝗽𝗹𝗲 𝘂𝘀𝗲 𝟭.",
+      "They type a question. Get an answer. Close the tab. That's not AI for procurement. That's a fancy search engine.",
+      "Here's what the top performers actually use: → Global Instructions - so Claude always thinks like a senior buyer → Skills - reusable RFQ generators and risk checkers → Connectors - plugged into Google Sheets, Gmail, Dri…",
+      "The difference is NOT the tool. It's how you set it up.",
+      "I mapped every single feature in plain English.",
+      "Save this. Set it up once. Use it forever."
+    ],
+    "observed_performance_context": [
+      "Included in Tiger’s intentionally curated Top-100 reference set."
+    ],
+    "unknowns": [
+      "Original post-level analytics unless separately captured.",
+      "Independent validation of factual or numerical claims within the source post."
+    ]
+  },
+  "reader_situation": {
+    "primary_reader_state": [
+      "blank-page friction",
+      "process uncertainty",
+      "desire for a reliable first move"
+    ],
+    "desired_response": [
+      "save for later execution",
+      "send to someone learning the process",
+      "return at the point of work"
+    ],
+    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Claude for procurement feature atlas.",
+    "comprehension_3_10_seconds": "The reader follows the numbered sequence, one visible action per stage, progress cue to understand the structure without reading the full caption.",
+    "value_exchange_10_30_seconds": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "identity_or_curiosity_trigger": "blank-page friction; process uncertainty; desire for a reliable first move",
+    "promise_proved_by_visual": "The visual’s proof mechanism is Claude for procurement feature atlas."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "Claude for procurement feature atlas",
+    "composition_and_grid": "numbered sequence; one visible action per stage; progress cue; optional prompt/interface/example at each stage",
+    "dominant_anchor": "Claude for procurement feature atlas",
+    "eye_path": [
+      "headline/promise",
+      "dominant visual primitive",
+      "repeated information units",
+      "reader payoff or next action"
+    ],
+    "information_chunks": [
+      "start condition",
+      "small steps",
+      "decision or quality gate",
+      "repeatable loop or next action"
+    ],
+    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
+    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
+    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
+    "imagery_role": "Imagery supports the mechanism: Claude for procurement feature atlas.",
+    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "craft_observations": [
+      "Claude for procurement feature atlas",
+      "Reusable atom: Tool features become useful when attached to work jobs",
+      "The source’s visual identity, typography and precise layout remain non-transferable."
+    ]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "argument_sequence": [
+      "start condition",
+      "small steps",
+      "decision or quality gate",
+      "repeatable loop or next action"
+    ],
+    "compression_method": "numbered sequence; one visible action per stage; progress cue; optional prompt/interface/example at each stage",
+    "reader_payoff": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "save_share_return_motives": [
+      "save for later execution",
+      "send to someone learning the process",
+      "return at the point of work"
+    ],
+    "caption_to_visual_choreography": "Explain the work moment, trade-offs and failure boundary behind the steps; do not merely transcribe them."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Convert an intimidating process into a sequence a reader can start and repeat.",
+      "reader_state": [
+        "blank-page friction",
+        "process uncertainty",
+        "desire for a reliable first move"
+      ],
+      "visual_grammar": [
+        "numbered sequence",
+        "one visible action per stage",
+        "progress cue",
+        "optional prompt/interface/example at each stage"
+      ],
+      "information_grammar": [
+        "start condition",
+        "small steps",
+        "decision or quality gate",
+        "repeatable loop or next action"
+      ],
+      "social_action_mechanics": [
+        "save for later execution",
+        "send to someone learning the process",
+        "return at the point of work"
+      ],
+      "use_when": [
+        "A useful outcome genuinely requires ordered actions.",
+        "The reader can begin without hidden prerequisites.",
+        "The sequence has a real quality check or decision point."
+      ],
+      "do_not_use_when": [
+        "The work is non-linear and forcing steps would mislead.",
+        "The post cannot specify a valid first action.",
+        "The claim is a broad strategy rather than a process."
+      ],
+      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+    },
+    "transferable_atoms": [
+      "Tool features become useful when attached to work jobs",
+      "start condition",
+      "small steps"
+    ],
+    "reverse_build_specification": "When an opportunity needs a repeatable start-to-finish path, use numbered stages with one action and one visible output per stage. Make progress feel possible, include the point at which the reader must judge or validate, and reserve the caption for context and exceptions.",
+    "editable_levers": [
+      "topic: intentionally unselected",
+      "reader work moment",
+      "visual primitive",
+      "information depth",
+      "caption role",
+      "format/material treatment"
+    ],
+    "required_original_inputs": [
+      "A chosen reader tension with real relevance.",
+      "Correct logic, process or sourced evidence proportionate to the selected claim.",
+      "An original visual object/scene/interface that proves the chosen promise.",
+      "A caption that adds a different layer of value from the visual."
+    ],
+    "anti_copy_boundary": [
+      "Source's extensive feature map",
+      "source wording and caption rhetoric",
+      "source creator identity, brand assets and distinctive composition",
+      "any source claim not independently supportable"
+    ],
+    "falsification_question": "After seeing an original execution, can a target reader identify the intended convert an intimidating process into a sequence a reader can start and repeat. without relying on the caption?"
+  },
+  "provenance": {
+    "visual_observation_id": "top100-visual-inspection-2026-08-05#70",
+    "source_context_id": "top100-workbook#70",
+    "content_hash": "e8d0d28f2260a20ed35db3af204ad4676602d8b11dd642cb137f5557cc38ece3"
+  }
+}

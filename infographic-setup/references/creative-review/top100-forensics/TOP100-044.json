@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.1.0",
+  "reference_id": "TOP100-044",
+  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/44.jpeg",
+    "status": "visually_inspected",
+    "format": "single_image",
+    "inspection_limitations": []
+  },
+  "source_context": {
+    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
+    "post_url": null,
+    "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
+    "caption_available": true,
+    "caption_sha256": "f46893cd95ddb0dbd15c2882a6e30e90159e25db1c2a3c295fd140a7617c135e",
+    "caption_hook": "A CEO told me last month that his supply chain team is running flat out and falling further behind every quarter.",
+    "caption_argument_segments": [
+      "A CEO told me last month that his supply chain team is running flat out and falling further behind every quarter.",
+      "I asked him what tools they were using. MRP. Forecast-driven. Same system they installed in 1998 getting ready for the Y2K crisis.",
+      "I asked him what had changed since 1998.",
+      "He laughed.",
+      "EVERYTHING.",
+      "Customer expectations. Product complexity. Lead time pressure. Supplier reliability. Demand volatility. Geopolitics."
+    ],
+    "observed_performance_context": [
+      "Included in Tiger’s intentionally curated Top-100 reference set."
+    ],
+    "unknowns": [
+      "Original post-level analytics unless separately captured.",
+      "Independent validation of factual or numerical claims within the source post."
+    ]
+  },
+  "reader_situation": {
+    "primary_reader_state": [
+      "need for recognition",
+      "abstract tension",
+      "social friction around naming a pattern"
+    ],
+    "desired_response": [
+      "tag a colleague",
+      "comment with a personal example",
+      "remember and repeat the idea"
+    ],
+    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Cracked AI stack metaphor poster.",
+    "comprehension_3_10_seconds": "The reader follows the one unexpected metaphor, strong visual object or scene, small reveal units to understand the structure without reading the full caption.",
+    "value_exchange_10_30_seconds": "Make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy.",
+    "identity_or_curiosity_trigger": "need for recognition; abstract tension; social friction around naming a pattern",
+    "promise_proved_by_visual": "The visual’s proof mechanism is Cracked AI stack metaphor poster."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "Cracked AI stack metaphor poster",
+    "composition_and_grid": "one unexpected metaphor; strong visual object or scene; small reveal units; emotionally legible contrast",
+    "dominant_anchor": "Cracked AI stack metaphor poster",
+    "eye_path": [
+      "headline/promise",
+      "dominant visual primitive",
+      "repeated information units",
+      "reader payoff or next action"
+    ],
+    "information_chunks": [
+      "surprising premise",
+      "recognisable truth",
+      "brief unpacking",
+      "invitation to identify or discuss"
+    ],
+    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
+    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
+    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
+    "imagery_role": "Imagery supports the mechanism: Cracked AI stack metaphor poster.",
+    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "craft_observations": [
+      "Cracked AI stack metaphor poster",
+      "Reusable atom: Physical metaphor can carry a sharp thesis",
+      "The source’s visual identity, typography and precise layout remain non-transferable."
+    ]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy.",
+    "argument_sequence": [
+      "surprising premise",
+      "recognisable truth",
+      "brief unpacking",
+      "invitation to identify or discuss"
+    ],
+    "compression_method": "one unexpected metaphor; strong visual object or scene; small reveal units; emotionally legible contrast",
+    "reader_payoff": "Make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy.",
+    "save_share_return_motives": [
+      "tag a colleague",
+      "comment with a personal example",
+      "remember and repeat the idea"
+    ],
+    "caption_to_visual_choreography": "Unpack the metaphor, state its boundary and invite recognition without overstating a universal truth."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy.",
+      "reader_state": [
+        "need for recognition",
+        "abstract tension",
+        "social friction around naming a pattern"
+      ],
+      "visual_grammar": [
+        "one unexpected metaphor",
+        "strong visual object or scene",
+        "small reveal units",
+        "emotionally legible contrast"
+      ],
+      "information_grammar": [
+        "surprising premise",
+        "recognisable truth",
+        "brief unpacking",
+        "invitation to identify or discuss"
+      ],
+      "social_action_mechanics": [
+        "tag a colleague",
+        "comment with a personal example",
+        "remember and repeat the idea"
+      ],
+      "use_when": [
+        "A real lived pattern can be made clearer without losing nuance.",
+        "The desired response is recognition or intrigue before instruction.",
+        "The metaphor is kind, original and culturally safe."
+      ],
+      "do_not_use_when": [
+        "The post carries high-stakes factual, technical or sensitive criticism.",
+        "The metaphor stereotypes people or minimises harm.",
+        "The reader requires a precise procedure."
+      ],
+      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+    },
+    "transferable_atoms": [
+      "Physical metaphor can carry a sharp thesis",
+      "surprising premise",
+      "recognisable truth"
+    ],
+    "reverse_build_specification": "When a chosen opportunity needs recognition before explanation, create one original, respectful metaphor that makes the tension visible. Use the visual for the memorable collision and the caption for the nuance, boundary and conversation.",
+    "editable_levers": [
+      "topic: intentionally unselected",
+      "reader work moment",
+      "visual primitive",
+      "information depth",
+      "caption role",
+      "format/material treatment"
+    ],
+    "required_original_inputs": [
+      "A chosen reader tension with real relevance.",
+      "Correct logic, process or sourced evidence proportionate to the selected claim.",
+      "An original visual object/scene/interface that proves the chosen promise.",
+      "A caption that adds a different layer of value from the visual."
+    ],
+    "anti_copy_boundary": [
+      "Cracked-block image and exact claim",
+      "source wording and caption rhetoric",
+      "source creator identity, brand assets and distinctive composition",
+      "any source claim not independently supportable"
+    ],
+    "falsification_question": "After seeing an original execution, can a target reader identify the intended make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy. without relying on the caption?"
+  },
+  "provenance": {
+    "visual_observation_id": "top100-visual-inspection-2026-08-05#44",
+    "source_context_id": "top100-workbook#44",
+    "content_hash": "b617d5f994e622729c0f190c0a0b97c6dd6f89e668945e2c5b24f533c3ebefc8"
+  }
+}

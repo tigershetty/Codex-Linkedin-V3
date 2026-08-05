@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.1.0",
+  "reference_id": "TOP100-041",
+  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/41.gif",
+    "status": "visually_inspected",
+    "format": "animated_or_gif_first_frame_reviewed",
+    "inspection_limitations": [
+      "Motion is not inferred beyond the available first-frame inspection."
+    ]
+  },
+  "source_context": {
+    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
+    "post_url": null,
+    "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
+    "caption_available": true,
+    "caption_sha256": "01bf958c945053781501f2e0fbac544205eb3494bc0edb1da5fe61aa6026ddfe",
+    "caption_hook": "Never run out of content ideas again.",
+    "caption_argument_segments": [
+      "Never run out of content ideas again.",
+      "Here's how I use Reddit to find them:",
+      "Step 1 → Type any topic into a Google Sheet. Step 2 → Find popular Reddit threads on that topic. Step 3 → Add the most engaging ones to your sheet.",
+      "What you get:",
+      "☑ Ideas validated by real conversations and real upvotes. ☑ Hooks that already captured attention. ☑ Topics your audience genuinely cares about.",
+      "Most people stare at a blank page and guess what to post."
+    ],
+    "observed_performance_context": [
+      "Included in Tiger’s intentionally curated Top-100 reference set."
+    ],
+    "unknowns": [
+      "Original post-level analytics unless separately captured.",
+      "Independent validation of factual or numerical claims within the source post."
+    ]
+  },
+  "reader_situation": {
+    "primary_reader_state": [
+      "blank-page friction",
+      "process uncertainty",
+      "desire for a reliable first move"
+    ],
+    "desired_response": [
+      "save for later execution",
+      "send to someone learning the process",
+      "return at the point of work"
+    ],
+    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Topic -> Reddit -> LinkedIn idea micro-flow.",
+    "comprehension_3_10_seconds": "The reader follows the numbered sequence, one visible action per stage, progress cue to understand the structure without reading the full caption.",
+    "value_exchange_10_30_seconds": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "identity_or_curiosity_trigger": "blank-page friction; process uncertainty; desire for a reliable first move",
+    "promise_proved_by_visual": "The visual’s proof mechanism is Topic -> Reddit -> LinkedIn idea micro-flow."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "Topic -> Reddit -> LinkedIn idea micro-flow",
+    "composition_and_grid": "numbered sequence; one visible action per stage; progress cue; optional prompt/interface/example at each stage",
+    "dominant_anchor": "Topic -> Reddit -> LinkedIn idea micro-flow",
+    "eye_path": [
+      "headline/promise",
+      "dominant visual primitive",
+      "repeated information units",
+      "reader payoff or next action"
+    ],
+    "information_chunks": [
+      "start condition",
+      "small steps",
+      "decision or quality gate",
+      "repeatable loop or next action"
+    ],
+    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
+    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
+    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
+    "imagery_role": "Imagery supports the mechanism: Topic -> Reddit -> LinkedIn idea micro-flow.",
+    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "craft_observations": [
+      "Topic -> Reddit -> LinkedIn idea micro-flow",
+      "Reusable atom: Make a hidden transformation visible",
+      "The source’s visual identity, typography and precise layout remain non-transferable."
+    ]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "argument_sequence": [
+      "start condition",
+      "small steps",
+      "decision or quality gate",
+      "repeatable loop or next action"
+    ],
+    "compression_method": "numbered sequence; one visible action per stage; progress cue; optional prompt/interface/example at each stage",
+    "reader_payoff": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "save_share_return_motives": [
+      "save for later execution",
+      "send to someone learning the process",
+      "return at the point of work"
+    ],
+    "caption_to_visual_choreography": "Explain the work moment, trade-offs and failure boundary behind the steps; do not merely transcribe them."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Convert an intimidating process into a sequence a reader can start and repeat.",
+      "reader_state": [
+        "blank-page friction",
+        "process uncertainty",
+        "desire for a reliable first move"
+      ],
+      "visual_grammar": [
+        "numbered sequence",
+        "one visible action per stage",
+        "progress cue",
+        "optional prompt/interface/example at each stage"
+      ],
+      "information_grammar": [
+        "start condition",
+        "small steps",
+        "decision or quality gate",
+        "repeatable loop or next action"
+      ],
+      "social_action_mechanics": [
+        "save for later execution",
+        "send to someone learning the process",
+        "return at the point of work"
+      ],
+      "use_when": [
+        "A useful outcome genuinely requires ordered actions.",
+        "The reader can begin without hidden prerequisites.",
+        "The sequence has a real quality check or decision point."
+      ],
+      "do_not_use_when": [
+        "The work is non-linear and forcing steps would mislead.",
+        "The post cannot specify a valid first action.",
+        "The claim is a broad strategy rather than a process."
+      ],
+      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+    },
+    "transferable_atoms": [
+      "Make a hidden transformation visible",
+      "start condition",
+      "small steps"
+    ],
+    "reverse_build_specification": "When an opportunity needs a repeatable start-to-finish path, use numbered stages with one action and one visible output per stage. Make progress feel possible, include the point at which the reader must judge or validate, and reserve the caption for context and exceptions.",
+    "editable_levers": [
+      "topic: intentionally unselected",
+      "reader work moment",
+      "visual primitive",
+      "information depth",
+      "caption role",
+      "format/material treatment"
+    ],
+    "required_original_inputs": [
+      "A chosen reader tension with real relevance.",
+      "Correct logic, process or sourced evidence proportionate to the selected claim.",
+      "An original visual object/scene/interface that proves the chosen promise.",
+      "A caption that adds a different layer of value from the visual."
+    ],
+    "anti_copy_boundary": [
+      "Exact platform-specific flow",
+      "source wording and caption rhetoric",
+      "source creator identity, brand assets and distinctive composition",
+      "any source claim not independently supportable"
+    ],
+    "falsification_question": "After seeing an original execution, can a target reader identify the intended convert an intimidating process into a sequence a reader can start and repeat. without relying on the caption?"
+  },
+  "provenance": {
+    "visual_observation_id": "top100-visual-inspection-2026-08-05#41",
+    "source_context_id": "top100-workbook#41",
+    "content_hash": "e02e73caaad7e1dab8664dbe659036b618846fea4a80ed9c234254fd441892a3"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.1.0",
+  "reference_id": "TOP100-032",
+  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "review_method": {
+    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+  },
+  "asset": {
+    "path": "references/top 100/32.jpeg",
+    "status": "visually_inspected",
+    "format": "single_image",
+    "inspection_limitations": []
+  },
+  "source_context": {
+    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
+    "post_url": null,
+    "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
+    "caption_available": true,
+    "caption_sha256": "97838123504a1a5fb08d15f0a6cc367a266c2370d4ffa22a6692bb194f5cbf8e",
+    "caption_hook": "\"Our on-time delivery rate is 97%.\"",
+    "caption_argument_segments": [
+      "\"Our on-time delivery rate is 97%.\"",
+      "Sounds great. But, 97% of what?",
+      "Line items shipped? Orders fully complete? Value delivered? On time by whose clock, yours or the customer's?",
+      "The metric you choose changes the story entirely. Here are 3 supply chain KPIs I've been learning about that are easy to track wrong:",
+      "1. On-Time In-Full (OTIF) Most teams track \"on-time\" OR \"in-full\" separately. OTIF combines both, an order is only a win if it arrives complete AND on schedule. Tracking them apart hides the real fill rate problem.",
+      "2. Inventory Turnover A high turnover ratio looks healthy. But if you're turning inventory fast because you're constantly running lean and expediting orders, that's a cost problem disguised as a performance win."
+    ],
+    "observed_performance_context": [
+      "Included in Tiger’s intentionally curated Top-100 reference set."
+    ],
+    "unknowns": [
+      "Original post-level analytics unless separately captured.",
+      "Independent validation of factual or numerical claims within the source post."
+    ]
+  },
+  "reader_situation": {
+    "primary_reader_state": [
+      "hidden waste",
+      "abstract debate",
+      "need for a shared picture before action"
+    ],
+    "desired_response": [
+      "save as workshop prompt",
+      "send to an improvement partner",
+      "use to align around a visible problem"
+    ],
+    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+  },
+  "attention_physics": {
+    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Bad dashboard vs useful dashboard before/after.",
+    "comprehension_3_10_seconds": "The reader follows the same system shown twice, clear current and changed state, one meaning-bearing contrast system to understand the structure without reading the full caption.",
+    "value_exchange_10_30_seconds": "Turn an invisible failure into an observable transformation so the reader can locate the intervention.",
+    "identity_or_curiosity_trigger": "hidden waste; abstract debate; need for a shared picture before action",
+    "promise_proved_by_visual": "The visual’s proof mechanism is Bad dashboard vs useful dashboard before/after."
+  },
+  "visual_forensics": {
+    "asset_specific_observation": "Bad dashboard vs useful dashboard before/after",
+    "composition_and_grid": "same system shown twice; clear current and changed state; one meaning-bearing contrast system; supporting method after the reveal",
+    "dominant_anchor": "Bad dashboard vs useful dashboard before/after",
+    "eye_path": [
+      "headline/promise",
+      "dominant visual primitive",
+      "repeated information units",
+      "reader payoff or next action"
+    ],
+    "information_chunks": [
+      "show the current reality",
+      "show the changed state",
+      "name the intervention",
+      "support with method and provenance-appropriate evidence"
+    ],
+    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
+    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
+    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
+    "imagery_role": "Imagery supports the mechanism: Bad dashboard vs useful dashboard before/after.",
+    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "craft_observations": [
+      "Bad dashboard vs useful dashboard before/after",
+      "Reusable atom: Show what to stop measuring, then what matters",
+      "The source’s visual identity, typography and precise layout remain non-transferable."
+    ]
+  },
+  "content_mechanics": {
+    "primary_cognitive_job": "Turn an invisible failure into an observable transformation so the reader can locate the intervention.",
+    "argument_sequence": [
+      "show the current reality",
+      "show the changed state",
+      "name the intervention",
+      "support with method and provenance-appropriate evidence"
+    ],
+    "compression_method": "same system shown twice; clear current and changed state; one meaning-bearing contrast system; supporting method after the reveal",
+    "reader_payoff": "Turn an invisible failure into an observable transformation so the reader can locate the intervention.",
+    "save_share_return_motives": [
+      "save as workshop prompt",
+      "send to an improvement partner",
+      "use to align around a visible problem"
+    ],
+    "caption_to_visual_choreography": "Explain observation method, limitations and why the change matters; never hide unsupported outcomes in the caption."
+  },
+  "recombination": {
+    "mechanism_fingerprint": {
+      "primary_cognitive_job": "Turn an invisible failure into an observable transformation so the reader can locate the intervention.",
+      "reader_state": [
+        "hidden waste",
+        "abstract debate",
+        "need for a shared picture before action"
+      ],
+      "visual_grammar": [
+        "same system shown twice",
+        "clear current and changed state",
+        "one meaning-bearing contrast system",
+        "supporting method after the reveal"
+      ],
+      "information_grammar": [
+        "show the current reality",
+        "show the changed state",
+        "name the intervention",
+        "support with method and provenance-appropriate evidence"
+      ],
+      "social_action_mechanics": [
+        "save as workshop prompt",
+        "send to an improvement partner",
+        "use to align around a visible problem"
+      ],
+      "use_when": [
+        "There is a real or explicitly illustrative before/after state.",
+        "The change can be shown without inventing an outcome.",
+        "The reader needs to see where an intervention happens."
+      ],
+      "do_not_use_when": [
+        "No defensible state change exists.",
+        "The outcome would be fabricated or causal claims overstated.",
+        "A distinction or definition is the actual reader need."
+      ],
+      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+    },
+    "transferable_atoms": [
+      "Show what to stop measuring, then what matters",
+      "show the current reality",
+      "show the changed state"
+    ],
+    "reverse_build_specification": "When a chosen opportunity contains a visible state change, reuse the same scene or process to show the current condition and intervention. Let the visual prove the tension; use caption and sources for method, evidence and limitations.",
+    "editable_levers": [
+      "topic: intentionally unselected",
+      "reader work moment",
+      "visual primitive",
+      "information depth",
+      "caption role",
+      "format/material treatment"
+    ],
+    "required_original_inputs": [
+      "A chosen reader tension with real relevance.",
+      "Correct logic, process or sourced evidence proportionate to the selected claim.",
+      "An original visual object/scene/interface that proves the chosen promise.",
+      "A caption that adds a different layer of value from the visual."
+    ],
+    "anti_copy_boundary": [
+      "Original dashboard screenshots",
+      "source wording and caption rhetoric",
+      "source creator identity, brand assets and distinctive composition",
+      "any source claim not independently supportable"
+    ],
+    "falsification_question": "After seeing an original execution, can a target reader identify the intended turn an invisible failure into an observable transformation so the reader can locate the intervention. without relying on the caption?"
+  },
+  "provenance": {
+    "visual_observation_id": "top100-visual-inspection-2026-08-05#32",
+    "source_context_id": "top100-workbook#32",
+    "content_hash": "3cdf5388ef77a4aea3d49475fa582206dafa2f8bd2200d55409199e019ddb81f"
+  }
+}
