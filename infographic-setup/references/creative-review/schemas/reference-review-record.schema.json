@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shettysdesk.com/schemas/creative-review/reference-review-record.schema.json",
+  "title": "Shetty's Desk Manual Creative Review Record",
+  "type": "object",
+  "required": ["schema_version", "reference_id", "source", "media", "review", "creative", "visual"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "reference_id": { "type": "string", "pattern": "^(LI-|TEXT-)" },
+    "media": {
+      "type": "object",
+      "required": ["status", "asset_paths", "availability_note", "checked_at"],
+      "properties": {
+        "status": { "enum": ["available_local", "captured_local", "needs_authorized_retrieval", "explicitly_inaccessible"] },
+        "asset_paths": { "type": "array", "items": { "type": "string" } },
+        "availability_note": { "type": ["string", "null"] },
+        "checked_at": { "type": ["string", "null"] }
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": ["status", "reviewed_at", "reviewer", "evidence", "inaccessible_reason"],
+      "properties": {
+        "status": { "enum": ["pending_media", "ready_for_manual_review", "manual_reviewed", "inaccessible"] },
+        "reviewed_at": { "type": ["string", "null"] },
+        "reviewer": { "type": ["string", "null"] },
+        "evidence": { "type": ["string", "null"] },
+        "inaccessible_reason": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

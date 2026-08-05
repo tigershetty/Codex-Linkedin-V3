@@ -1,7 +1,7 @@
 ---
 version: v1
 name: Shetty's Desk — Operating Studio
-status: Default visual expression for new LinkedIn operating artifacts after route choice
+status: Historical V3/V5 visual expression. Not an active V4 default; use only as a named reference.
 source_of_truth: ../../../Brand Kit/brand-tokens.json
 canvas: 1080x1350 (4:5)
 ---

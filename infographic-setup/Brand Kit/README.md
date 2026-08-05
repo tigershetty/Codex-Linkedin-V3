@@ -1,4 +1,8 @@
-# Shetty's Desk — Brand Kit (Pack Contents)
+# Shetty's Desk — Brand Kit (Historical V3/V5 Pack Contents)
+
+> **V4 reset notice:** This kit preserves earlier Operating Studio material. It is not the active
+> default for visual production. Use `../references/creative-review/signature-system-v1.md` until
+> the completed 480-post creative review establishes the new signature system.
 
 A reusable visual system for creating on-brand LinkedIn infographics, with the right format for each tool you use.
 

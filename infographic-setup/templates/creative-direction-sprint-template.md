@@ -35,7 +35,8 @@ one useful idea. If none does, park the topic now.
 
 ## 4. Build one native visual and one caption
 
-Use the image engine to render the selected Operating Studio scene as one coherent composition.
+Use the image engine to render the selected visual family as one coherent composition when an
+image-led route is chosen.
 Do not use HTML, SVG, or title overlays to finish it. Let the caption add the human conflict,
 reasoning, limitation, or judgment the scene does not show.
 

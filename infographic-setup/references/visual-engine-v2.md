@@ -15,7 +15,7 @@ accurately.
 |---|---|
 | Standard reference shelf or flagship Genome bundle | Attention, comprehension, utility, and bridge mechanics |
 | Recombination brief | Flagship-only creative seed, ten concepts, three visible directions, and the selected assembly |
-| Shetty's Desk Operating Studio | Default brand ownership, live decision tension, and useful visual system |
+| Provisional Signature System | Product-grade clarity without a default visual family; select the family from the reader task |
 | Claim contract | Exact limits on numbers, outcomes, comparisons, and personal authority |
 | Renderer | Execute the selected direction |
 | Review | Decide whether the public asset is clear, useful, original, and true |
@@ -24,7 +24,7 @@ accurately.
 
 | Surface | Use when |
 |---|---|
-| Image engine | Standard Operating Studio illustration, editorial object, metaphor, scene, or unusual composition |
+| Image engine | Selected illustration, editorial object, metaphor, scene, or unusual composition |
 | HTML/SVG | A separate precise artifact where exact wording, data, geometry, interface, comparison, or repeatable control matters most |
 | Spreadsheet | The working model, formulas, inputs, or decision table is the value |
 | Document/PDF | A reference, field guide, checklist, or printable system is the value |
@@ -39,14 +39,12 @@ neither a coherent rendered visual nor a useful exact artifact.
 
 ## Brand authority
 
-Use `references/brand-kits/shettys-desk-operating-studio/FRAME.md` as the default production
-authority. Its default is a white/light-blue luminous operating world, Poppins hierarchy, smooth
-2.5D/isometric or equivalently strong visual object, blue system infrastructure, green for the
-protected/recommended path, and coral sparingly for risk or exception. The exact Shetty's Desk logo
-remains an owned asset, never model-redrawn.
+Use `references/creative-review/signature-system-v1.md` as the active production guardrail. The
+creative route must explicitly choose its visual family before a renderer is selected. The exact
+Shetty's Desk logo remains an owned asset, never model-redrawn.
 
-`references/brand-kits/cobalt-grid/FRAME.md` is an opt-in secondary editorial expression for a
-specific restraint-led argument. It must be selected in the brief; it is not a neutral default.
+Operating Studio and `references/brand-kits/cobalt-grid/FRAME.md` are historical reference
+material. Neither may be selected by default.
 
 Creative references contribute structure, hierarchy, density, metaphor, and illustration method.
 They do not replace the brand.
@@ -62,7 +60,8 @@ and a clear shot - without copying its recurring character or distinctive style.
   short on-image wording, claim boundary, and active candidate paths.
 - **Flagship:** reference bundle, recombination brief, content brief, and creative brief with the
   selected assembly and claim ledger.
-- Selected Shetty's Desk brand frame and exact owned or official assets when they materially matter.
+- Selected visual family, signature guardrail, and exact owned or official assets when they
+  materially matter.
 
 Existing legacy packages retain their historical inputs for reproduction. New flagships use the
 reference bundle; standard posts use the selected post card and its two-to-four-reference shelf.
@@ -89,7 +88,8 @@ If those lines are vague, return to recombination. Do not repair a weak idea wit
 
 ## Composition rules
 
-- Use one dominant visual object and one primary reading route.
+- Use one deliberate reader response and one primary reading route. A framework, map, table, or
+  sequence may use a clear progression instead of a single hero object.
 - Embed supporting detail into the hero where possible instead of creating a wall of cards.
 - Let whitespace clarify hierarchy; do not leave large areas empty without intent.
 - Keep only text needed for recognition, use, or correct interpretation.
@@ -153,7 +153,7 @@ CREATIVE ASSEMBLY:
 - Anti-copy boundary: [what cannot be reproduced]
 
 VISUAL ARGUMENT:
-[one dominant object, eye path, and payoff]
+[reader response, eye path, and payoff]
 
 CONTENT:
 [exact title, labels, data, and placement homes]
@@ -162,7 +162,7 @@ CLAIM INTEGRITY:
 [claim classes, sources, assumptions, and prohibited inference]
 
 BRAND AND ASSETS:
-[Selected Shetty's Desk expression plus exact owned/official assets when they matter]
+[Selected visual family, signature guardrail, plus exact owned/official assets when they matter]
 
 COMPOSITION FREEDOM:
 [where the renderer may invent arrangement without inventing content]
@@ -196,8 +196,8 @@ precision artifact, use `templates/visual-output-review-template.md`. Publish on
 - the main insight is understood in 10 seconds;
 - useful action is available in 30 seconds;
 - the selected atoms are visible but the output does not resemble one source end to end;
-- the image has one message, one hero, and one reading route;
-- the result feels like the selected Shetty's Desk expression;
+- the image has one message and one intentional reading route;
+- the result follows the selected visual family and signature guardrail;
 - text, logos, formulas, relationships, and numbers are exact;
 - each claim meets its support burden;
 - the LinkedIn crop preserves comprehension and utility.

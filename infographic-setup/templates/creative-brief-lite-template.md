@@ -59,9 +59,9 @@ rough routes, a native visual, a complementary caption, and the five-reader revi
 
 ## 6. Brand And Assets
 
-**Brand expression:** `Shetty's Desk Operating Studio`
-**Brand frame:** `references/brand-kits/shettys-desk-operating-studio/FRAME.md`
-**Brand direction:** `luminous white/pale-blue operating world; Poppins; blue system; green = protected/recommended; coral = risk/exception; controlled non-photorealistic depth`
+**Visual family selected:** `{editorial typography / framework-map / annotated real material / data reference / illustrated metaphor / spatial scene / photographic artifact / motion sequence}`
+**Signature guardrail:** `references/creative-review/signature-system-v1.md`
+**Brand direction:** `derive material, type treatment, palette and density from the selected visual family, reader tension and signature guardrail; do not inherit a legacy palette or scene treatment by default`
 **Logo plan:**
 **Logo/asset references:** `renderer/assets/logos/shettys-desk-logo-2.png`
 **Official tool assets, if meaningful:**

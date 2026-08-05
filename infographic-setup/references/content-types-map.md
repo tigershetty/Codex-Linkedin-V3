@@ -4,11 +4,11 @@ description: Master reference for the content pipelines — when to use each, vo
 updated: 2026-08-02
 ---
 
-# Content Types Map — Shetty's Desk
+# Content Types Map — Historical Lane Reference
 
-Two production pipelines are **active**; one (Deep Dive) is **archived**. All share the master
-voice (`tiger-voice.md`) and write to `data/{week}/{slug}/`. V4 selects five weekly LinkedIn
-posts before assigning a production lane; the old seven-month calendar is a candidate bank.
+> **V4 reset notice:** `/101` and `/ai-for-sc` are candidate banks, not active skills or routing
+> commands. Start with `opportunity-desk`, then use `creative-direction`, `release-editor`, and
+> `audience-transfer` as appropriate.
 
 ---
 

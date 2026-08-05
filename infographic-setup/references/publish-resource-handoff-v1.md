@@ -2,7 +2,7 @@
 
 **Version:** 2.1
 **Date:** 2026-08-02
-**Status:** Active final-stage workflow for Supply Chain 101 and AI for Supply Chain
+**Status:** Active final-stage workflow for V4 releases
 
 ## Purpose
 
@@ -11,6 +11,11 @@ The post folder is the creative source of truth. The website is a publication su
 The final handoff runs only after the required provenance, voice, still, and caption gates have
 cleared. Record `not required` when a research-led piece uses no Tiger authority or when the selected
 claim mode needs no separate research file.
+
+Before the first V4 release, the Creative Review Foundation must pass
+`node scripts/validate-reference-review-foundation.mjs --require-complete`. That first release is a
+calibration post and must pass `node scripts/audit-calibration-release.mjs data/{week}/{slug}` before
+five-post cadence resumes.
 
 ## Route scope
 
@@ -96,7 +101,8 @@ Hard rules:
 
 ## Resource Decision
 
-Build a resource only when the destination adds material utility beyond the LinkedIn post. Decide
+Build a resource only when the destination adds material utility beyond the LinkedIn post **and**
+the tension has repeated or its enduring use is clear. Decide
 with these questions, without a numeric threshold:
 
 1. What real task can the reader complete or inspect with it?

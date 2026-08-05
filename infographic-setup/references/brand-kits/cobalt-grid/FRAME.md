@@ -1,7 +1,7 @@
 ---
 version: alpha
 name: Cobalt Grid — Frame (video / frame layer)
-status: Secondary editorial expression — select explicitly; not the default Shetty's Desk LinkedIn frame
+status: Historical editorial expression. Not an active V4 default; use only as a named reference.
 description: >
   Video-first companion to Cobalt Grid's design.md. The unit is the frame (1920×1080). Atoms
   are identical and sacred — warm cream paper, electric cobalt ink (the only ink), the permanent

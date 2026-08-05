@@ -1,5 +1,8 @@
 # V3 Creative Repertoire v1
 
+**Status:** Historical source material. It may supply a mechanism when explicitly selected; it is
+not a V4 template, visual default, or brand authority.
+
 **Purpose:** a small shelf of visual moves we can recombine quickly. This is a repertoire, not a
 new scorecard.
 

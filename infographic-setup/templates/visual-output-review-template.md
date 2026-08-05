@@ -41,10 +41,10 @@
 
 ## Creative Quality
 
-- [ ] One dominant message and one hero
+- [ ] One dominant message and one intentional reading route
 - [ ] Not a generic card grid, AI showroom, or internal audit dump
 - [ ] Useful object is visible without opening the caption
-- [ ] The selected Shetty's Desk brand expression is clear and supports the reader's job
+- [ ] The selected visual family and signature guardrail are clear and support the reader's job
 - [ ] Caption and visual provide complementary value
 - [ ] Supporting detail improves comprehension rather than decoration
 

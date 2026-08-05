@@ -528,7 +528,7 @@ if (genomeMode) {
       field(brief, 'Reusable artifact on image'),
       field(brief, 'Mobile 3/10/30 plan'),
     ]),
-    'Complete the reader contract, one visual argument, one hero, one eye path, one useful object, and the mobile 3/10/30 plan.',
+    'Complete the reader contract, one visual argument, one deliberate response, one eye path, one useful object, and the mobile 3/10/30 plan.',
   );
 } else {
   addCheck(

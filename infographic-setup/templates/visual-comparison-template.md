@@ -19,7 +19,7 @@ rough route cards before one native final, not this template.
 **30-second useful action:**
 **Claim support that both candidates must preserve:**
 **Anti-copy boundary:**
-**Brand frame:** `references/brand-kits/shettys-desk-operating-studio/FRAME.md`
+**Signature guardrail:** `references/creative-review/signature-system-v1.md`
 
 ## Candidate A
 

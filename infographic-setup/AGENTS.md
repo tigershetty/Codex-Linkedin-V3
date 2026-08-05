@@ -5,7 +5,9 @@ This folder is the active Shetty's Desk creative-intelligence and content-produc
 ## Session start
 
 1. Read `references/v4-audience-growth-operating-system.md`.
-2. Choose the route: read references/fast-post-loop-v1.md for an ordinary LinkedIn post, or read
+2. Before V4 production, run `node scripts/validate-reference-review-foundation.mjs --require-complete`.
+   Do not treat a caption, preview, or heuristic label as a visual review.
+3. Choose the route: read references/fast-post-loop-v1.md for an ordinary LinkedIn post, or read
    references/creative-genome-recombination-engine-v1.md for a flagship.
 3. Read `../tiger-voice.md` and `references/tiger-source-gate-v1.md`.
 4. Inspect the current week and active slug in `data/`.
@@ -65,11 +67,13 @@ Internal fixtures may test software. They cannot become public proof or a public
 ## Current production system
 
 - Visual creative: `references/creative-engine-v4-recombination.md`,
-  `references/operational-decision-cinema-v1.md`, and `references/v3-creative-repertoire-v1.md`.
-- Renderer choice: use the image engine for a standard Operating Studio social visual. HTML/SVG,
+  `references/visual-engine-v2.md`, and `references/creative-review/signature-system-v1.md`.
+  The V3 repertoire is source material only; Operational Decision Cinema is historical reference.
+- Renderer choice: use the image engine for a selected image-led social visual. HTML/SVG,
   spreadsheet, and documents are separate artifact surfaces when exactness is the reader value.
-- Default brand authority: `references/brand-kits/shettys-desk-operating-studio/FRAME.md`.
-- Cobalt Grid is a deliberate secondary editorial expression, never the unexamined default.
+- Visual signature guardrail: `references/creative-review/signature-system-v1.md`.
+- No visual family is an unexamined default. Operating Studio and Cobalt Grid are historical reference
+  material only; use neither unless a future signature decision explicitly reactivates it.
 - Visual review: standard posts use `five-reader-review.md`; flagships and precision artifacts use
   `templates/visual-output-review-template.md`.
 - Optional motion after still approval and a passed eligibility gate: `references/motion-engine-v1.md`.
@@ -113,7 +117,8 @@ and analytics.
 
 - Never invent facts, numbers, outcomes, personal authority, or customer proof.
 - Never copy a source creator's wording, subject, branding, artwork, or distinctive expression.
-- Keep one reader promise and one primary reading route.
+- Keep one dominant reader response and one primary reading route. The response may be recognition,
+  understanding, practical use, or intentional visual intrigue.
 - Use the V3 repertoire and story archetypes as prompts, not a compliance task; require visible
   proof of the opening tension, not merely a pretty scene beside it.
 - Ensure the problem or promise is visible in 3 seconds, the idea in 10, and useful action in 30.
@@ -121,5 +126,9 @@ and analytics.
 - Use the fast direction sprint before standard production. Do not use a calculator, research
   dossier, or polished caption as a substitute for a compelling public story.
 - Use exact owned and official logos; do not use third-party icon geometry to rebuild the brand.
+- Preserve an internal source ledger, but keep public visuals and captions uncluttered unless a source
+  materially improves reader value.
+- Record a measurement-only audience relevance sample after high-reach posts; never use it as an
+  automatic publishing gate.
 - Never infer caption approval from visual approval.
 - Never delete superseded files; move them to a dated archive with a reason.

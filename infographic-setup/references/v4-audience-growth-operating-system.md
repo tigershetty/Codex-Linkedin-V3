@@ -1,7 +1,7 @@
 # V4 Audience Growth Operating System
 
-**Version:** 2.0
-**Date:** 2026-08-02
+**Version:** 2.1
+**Date:** 2026-08-05
 **Status:** Active canonical V4 operating system
 **Applies before:** topic selection, research depth, captions, visuals, artifacts, distribution, and measurement
 
@@ -16,6 +16,15 @@ Shetty's Desk is an audience-learning and value-building system, not a polished-
 The workflow is creative-first and claim-responsible. It does not force every idea through a
 consultant-grade research report, a calculator, a named case, or a fixed visual style.
 
+## Foundation gate
+
+The saved collection is the creative north star, but captions and preview classifications do not
+constitute a visual library. Before V4 production, use
+`references/creative-review/reference-review-ledger.jsonl` and its validation gate to recover
+authorized inspectable media and manually review every saved reference or record why it is
+explicitly inaccessible. The first permitted V4 release after this gate is one calibration post;
+five-post cadence resumes only after its review.
+
 ## Primary audience
 
 1. Working supply-chain planners and planning managers using Excel, ERP, planning systems, and
@@ -25,8 +34,9 @@ consultant-grade research report, a calculator, a named case, or a fixed visual 
 3. Supply-chain transformation leaders translating AI, data, systems, and process change into
    useful, controlled adoption.
 
-Early-career and cross-functional readers are valuable secondary reach audiences. They may become
-the primary reader for a specific career, capability, or translation piece when that choice is explicit.
+Early-career and cross-functional readers are valuable reach audiences. Broad career, learning and
+industry pieces are permitted, but high-reach posts receive a measurement-only relevance sample so
+we can learn who the attention is attracting without restricting the creative portfolio.
 
 ## What the completed intelligence now tells us
 
@@ -77,12 +87,23 @@ Read `creative-genome-recombination-engine-v1.md` before selecting or producing 
 - Use Tiger results to learn transfer, never to invalidate the saved source.
 
 The local Top-100 collection is a richer visual subset of this larger system. Its assets and indexes
-remain useful inputs, but the complete 480-post saved corpus is the active north star.
+remain useful inputs, but the complete 480-post saved corpus is the active north star. A post is not
+visually verified until its review-ledger record says so; captions and previews remain retrieval
+signals only.
 
 ## Opportunity selection
 
 Use `creative-opportunity-selection.md`. Work may begin problem-first, pattern-first, evidence-first,
 or timely-signal-first. No starting path is inherently superior.
+
+Use two active opportunity lanes:
+
+1. **Saved-post mechanism + real supply-chain tension:** start with a proven creative mechanism,
+   then make a lived planning, purchasing, logistics, transformation, career, or leadership moment
+   clearer, more useful, or more discussable.
+2. **Verified timely event:** respond within 24–48 hours only when a verified development changes a
+   reader's decision and there is a genuinely useful angle. Otherwise, collect the signal for a
+   deeper weekly synthesis rather than manufacturing urgency.
 
 A flagship direction enters production when it has:
 
@@ -202,12 +223,20 @@ intentional when the work is testing a new family, claim burden, or reusable art
 Fast Post Loop does not loop after minute 25: it selects one route, permits one named correction,
 and parks an unresolved story rather than quietly becoming a flagship.
 
+## Automation boundary
+
+The repository is canonical. Before the Creative Review Foundation and calibration release pass,
+automation is limited to reproducible validation and file generation already held here. Afterwards,
+add only read-only reference intake, topic scanning, authorized asset routing, and analytics
+reconciliation when each improves a specific manual decision. Do not automate publishing,
+commenting, WhatsApp control, or make Notion a dependency.
+
 ## Measurement
 
 Keep outcomes separate:
 
 - **LinkedIn:** impressions, reached members, saves, sends, comments, reposts, profile viewers,
-  relevant followers, and matched-age conversion rates;
+  followers gained, a small relevance sample for high-reach posts, and matched-age conversion rates;
 - **Substack:** visits, subscriber sources, subscriptions, opens with delivery context, clicks,
   replies, shares, recommendations, and repeat reading;
 - **Website:** qualified visits, downloads, starts, completions, return use, and voluntary subscriptions.
@@ -226,18 +255,17 @@ Creative Genome, the reader contract, claim support, or Tiger voice.
 
 ## Active authorities
 
-- Fast weekly production: `fast-post-loop-v1.md`, `v3-creative-repertoire-v1.md`,
-  `operational-decision-cinema-v1.md`
+- Fast weekly production: `fast-post-loop-v1.md`; `v3-creative-repertoire-v1.md` is historical
+  source material, not a default visual authority.
 - Creative intelligence: `creative-genome-recombination-engine-v1.md`, `creative-story-archetypes-v1.md`
 - Opportunity selection: `creative-opportunity-selection.md`
 - Audience: `audience-intelligence.md`
 - Voice and provenance: `../../tiger-voice.md`, `tiger-source-gate-v1.md`
 - Production QA: `creative-engine-v4-recombination.md`, `visual-engine-v2.md`
-- Default brand: `brand-kits/shettys-desk-operating-studio/FRAME.md`
-- Secondary editorial expression: `brand-kits/cobalt-grid/FRAME.md`
+- Provisional signature guardrail: `creative-review/signature-system-v1.md`
 - Motion: `motion-engine-v1.md`
 - Handoff: `publish-resource-handoff-v1.md`, `publish-asset-spec-v1.md`
-- Measurement: `.claude/skills/analytics/SKILL.md`
+- Measurement: `.claude/skills/audience-transfer/SKILL.md`
 - Immutable baseline: `outputs/019fc389-0554-7a43-a8fa-07bd597be61d/linkedin-content-market-fit-audit-2026-08-02/`
 
 Calendars and lane plans are candidate banks. Archived files are historical evidence, never current

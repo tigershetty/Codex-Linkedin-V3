@@ -1,4 +1,7 @@
-# Shetty's Desk — Brand Kit & Infographic Style Guide
+# Shetty's Desk — Brand Kit & Infographic Style Guide (Historical V3/V5 Reference)
+
+> **V4 reset notice:** Operating Studio is preserved as historical design material, not an active
+> default. Use `../references/creative-review/signature-system-v1.md` for new V4 work.
 
 A reusable visual system for LinkedIn infographics and precision artifacts. The DNA is extracted
 from a polished isometric infographic reference set and generalized so it applies to **any topic**

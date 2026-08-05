@@ -319,7 +319,7 @@ const commonGates = [
       field(brief, 'Eye path'),
       field(brief, 'Reusable artifact on image'),
     ]),
-    'Define one visual move, one hero, one reading route, and one useful object.',
+    'Define one visual move, one deliberate reader response, one reading route, and one useful object.',
   ),
   gate(
     'Exact content and assets',

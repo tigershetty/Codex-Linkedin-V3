@@ -1,6 +1,7 @@
 # Authored Editorial Engineering v1
 
-**Status:** Active V3 creative direction inside Operating Studio — a direction, not a template.
+**Status:** Historical V3 creative direction. It may supply a mechanism when explicitly selected,
+but it is not a V4 default, template, or brand authority.
 
 ## Job
 

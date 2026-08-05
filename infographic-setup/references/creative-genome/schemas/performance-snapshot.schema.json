@@ -18,6 +18,7 @@
     "claim_mode",
     "artifact_type",
     "metrics",
+    "audience_relevance_sample",
     "transfer_result",
     "next_adaptation",
     "notes"
@@ -59,6 +60,17 @@
     "metrics": {
       "type": "object",
       "additionalProperties": { "type": ["number", "null"] }
+    },
+    "audience_relevance_sample": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "sample_size", "relevant_count", "observations"],
+      "properties": {
+        "status": { "enum": ["not_needed", "pending", "captured"] },
+        "sample_size": { "type": ["integer", "null"], "minimum": 0 },
+        "relevant_count": { "type": ["integer", "null"], "minimum": 0 },
+        "observations": { "type": "array", "items": { "type": "string" } }
+      }
     },
     "transfer_result": { "enum": ["pending", "transferred", "unclear", "did_not_transfer"] },
     "next_adaptation": { "type": "string" },

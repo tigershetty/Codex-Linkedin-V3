@@ -1,6 +1,6 @@
 # Fast Post Loop v1
 
-**Status:** active default for ordinary LinkedIn posts
+**Status:** active only after the Creative Review Foundation and calibration gate pass
 
 ## Why it exists
 
@@ -9,6 +9,11 @@ creative work and removes the paperwork that was delaying it.
 
 Use this for an ordinary LinkedIn post. Use the full Creative Genome package only when the post is
 a flagship, contains a substantial evidence claim, or needs a real downloadable artifact.
+
+Before any V4 production, run `node scripts/validate-reference-review-foundation.mjs --require-complete`.
+The first release after it passes is a declared calibration post. Do not restart the five-post cadence
+until the calibration review records the approved visual, caption, audience-relevance sample, and
+one transfer decision.
 
 ## The 75-minute ceiling
 
@@ -59,13 +64,13 @@ review an older `visual.png` simply because it happens to exist.
 
 ## The five reader checks
 
-1. **Stop:** Would the right reader recognise the situation in three seconds?
+1. **Stop:** Would the right reader recognise the situation, understand a useful promise, or feel a deliberate visual intrigue in three seconds?
 2. **Show:** Does the image itself show the tension, rather than a caption explaining it? For a
    constraint route, can the reader see the evidence → boundary → changed action with the headline
    covered?
 3. **Keep:** Is there one useful rule, map, or distinction worth saving?
 4. **True:** Are the visible claims proportionate to the support we actually have?
-5. **Tiger:** Does the caption sound like a person making a clear point, not a generic explainer?
+5. **Tiger:** Does the caption sound like a relatable translator or challenging peer making a clear point, not a generic explainer?
 
 One critical no triggers one named correction, not a new direction. For a constraint route, that
 correction must repair the causal proof of the boundary; if it does not, park the post. Never use
@@ -73,7 +78,7 @@ extra production effort to disguise a weak story.
 
 ## Rendering rule
 
-For a standard Operating Studio post, the final visual is rendered natively by the image engine.
+For a standard image-led post, the final visual is rendered natively by the image engine.
 Do not paste HTML, SVG, dashboard cards, or a title layer over an image to make it feel finished.
 The scene, hierarchy, text treatment, and visual tension must be one rendered composition.
 

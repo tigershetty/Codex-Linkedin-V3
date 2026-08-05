@@ -36,6 +36,7 @@ Use these fields instead of a numeric score:
 | Tiger contribution | Is fresh Tiger judgment needed, available, or intentionally absent? |
 | Channel job | Does LinkedIn stand alone, and what additional value earns Substack or website continuation? |
 | Portfolio role | Does this add a new audience, problem, creative family, utility, or timely angle? |
+| Reach diagnosis | If this reaches broadly, what relevance sample will tell us who it is attracting? |
 
 ## Decisions
 
@@ -84,3 +85,9 @@ Park or reframe only when one of these remains true after exploration:
   cannot be narrowed;
 - the deeper destination merely repeats the LinkedIn post;
 - the output depends on invented authority, experience, result, or customer proof.
+
+## Resource admission
+
+Build a template, playbook, or tool only when the underlying tension recurs across the saved library,
+market/search signals, practitioner responses, or multiple high-utility posts. A resource must add
+return value; it is never attached merely to manufacture a lead-capture CTA.

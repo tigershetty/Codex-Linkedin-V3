@@ -263,11 +263,11 @@ const data = {
     field(brief, 'Internal test fixtures excluded'),
     field(content, 'Internal fixtures excluded from public proof'),
   ),
-  brandExpression: first(field(brief, 'Brand expression'), 'Shetty\'s Desk Operating Studio'),
-  brandFrame: first(field(brief, 'Brand frame'), 'references/brand-kits/shettys-desk-operating-studio/FRAME.md'),
+  brandExpression: first(field(brief, 'Visual family selected'), 'explicitly selected visual family'),
+  brandFrame: first(field(brief, 'Signature guardrail'), 'references/creative-review/signature-system-v1.md'),
   brandDirection: first(
     field(brief, 'Brand direction'),
-    'Luminous white/pale-blue operating world; Poppins hierarchy; blue system infrastructure; green means protected or recommended; coral means risk or exception; controlled non-photorealistic depth.',
+    'Product-grade clarity: derive material, type treatment, palette and density from the explicitly selected visual family, reader tension, and signature guardrail. Do not inherit a legacy palette or scene treatment by default.',
   ),
   logoPlan: field(brief, 'Logo plan'),
   logoAssets: field(brief, 'Logo/asset references'),
@@ -372,11 +372,11 @@ BRAND AND ASSETS:
 - Brand direction: ${data.brandDirection}
 - Logo plan: ${data.logoPlan || 'Reserve one clean zone for the exact Shetty\'s Desk logo asset.'}
 - Owned assets: ${data.logoAssets}
-${data.officialAssets ? `- Official tool assets: ${data.officialAssets}\n` : ''}Use the selected Shetty's Desk brand expression as the identity system. References contribute
+${data.officialAssets ? `- Official tool assets: ${data.officialAssets}\n` : ''}Use the selected visual family and signature guardrail as the identity system. References contribute
 mechanisms and structure, not another creator's brand. Use the exact logo asset; do not redraw it.
 
 COMPOSITION FREEDOM:
-${data.compositionFreedom || 'Choose the clearest original arrangement for the selected direction while preserving one hero, one reading route, and the exact content.'}
+${data.compositionFreedom || 'Choose the clearest original arrangement for the selected direction while preserving one deliberate reader response, one reading route, and the exact content.'}
 Selected renderer: ${data.renderer}. Deterministic finishing: ${data.deterministicFinish || 'use when exact text, logos, formulas, or geometry need correction'}.
 
 HARD RISKS TO AVOID:

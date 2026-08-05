@@ -15,8 +15,9 @@ The engine does not choose the topic and does not revalidate the saved reference
   visible proof, claim boundary, and Tiger source note when personal judgment is used.
 - **Flagship:** an approved reference bundle, recombination brief, creative seed, three visible
   rough directions, content brief, claim support, and Tiger source note where appropriate.
-- The Operating Studio frame is the default brand authority unless the brief explicitly selects the
-  secondary Cobalt Grid expression.
+- `creative-review/signature-system-v1.md` is the active brand authority. The brief must select a
+  visual family from the reader tension and mechanism; Operating Studio and Cobalt Grid are
+  historical references, never defaults.
 
 ## Production flow
 
@@ -24,7 +25,7 @@ The engine does not choose the topic and does not revalidate the saved reference
 2. Select or hybridise the strongest direction from the visible sprint, not the easiest renderer.
 3. Standard: keep the selected route in `post-card.md` and move directly to the native visual and
    complementary caption. Flagship: build `creative-brief-lite.md` from the selected recombination.
-4. Use the image engine for a standard Operating Studio social visual. Use HTML/SVG, spreadsheet,
+4. Use the image engine for a selected image-led social visual. Use HTML/SVG, spreadsheet,
    document, or another surface only when that separate artifact is the reader value. No renderer is
    the creative strategy.
 5. Compile the packet and prompt when an image model is used.
@@ -33,7 +34,8 @@ The engine does not choose the topic and does not revalidate the saved reference
 
 ## Visual rules
 
-- Use one dominant object and one primary reading route.
+- Use one deliberate reader response and one primary reading route. A framework, map, table, or
+  sequence may use a clear progression instead of a single hero object.
 - Make the opening tension visible with the headline covered. A beautiful scene that needs the
   caption to supply its central collision is not a final direction.
 - Let support modules explain the hero; do not make every fact a separate card.
@@ -42,10 +44,10 @@ The engine does not choose the topic and does not revalidate the saved reference
 - When an invisible time, range, queue, capacity, or demand variable is the story, an Operating
   Trace can make it visibly alter the scene. It is an option for an earned story mechanism, never a
   brand requirement or decorative flourish.
-- Use the selected Shetty's Desk brand expression. For the default Operating Studio, show the reader
-  tension through a physical or visual operating mechanism, use blue for systems, green for the
-  protected/recommended path, and coral sparingly for risk or exception. References contribute
-  information architecture and creative atoms, not another creator's brand.
+- Use the selected visual family and the provisional signature guardrail. Show the reader tension
+  through a physical or visual mechanism, useful framework, career recognition, industry story, or
+  deliberate intrigue that belongs to the selected argument. References contribute information
+  architecture and creative atoms, not another creator's brand.
 - Use exact official logos only when a named tool or platform is part of the meaning.
 - Use third-party icon libraries only for referential UI states; never build the Shetty's Desk logo
   from third-party geometry.
@@ -77,7 +79,7 @@ Before rendering, confirm:
 - where a trace is selected, it visibly changes a physical consequence rather than merely carrying
   colour or decoration;
 - the renderer has composition freedom without permission to invent content;
-- the selected brand expression and exact logo plan are defined.
+- the selected visual family, signature guardrail, and exact logo plan are defined.
 
 ## Output review
 

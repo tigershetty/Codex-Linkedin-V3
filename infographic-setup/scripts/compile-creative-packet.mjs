@@ -292,9 +292,9 @@ ${selectedAtoms(bundle, brief)}
 
 ## Brand, Assets, And Renderer
 
-- **Brand expression:** ${value(field(brief, 'Brand expression'), 'Shetty\'s Desk Operating Studio')}
-- **Brand frame:** ${value(field(brief, 'Brand frame'), 'references/brand-kits/shettys-desk-operating-studio/FRAME.md')}
-- **Brand direction:** ${value(field(brief, 'Brand direction'), 'luminous white/pale-blue operating world; semantic blue, green, and coral; controlled non-photorealistic depth')}
+- **Visual family:** ${value(field(brief, 'Visual family selected'), 'explicitly selected visual family')}
+- **Signature guardrail:** ${value(field(brief, 'Signature guardrail'), 'references/creative-review/signature-system-v1.md')}
+- **Brand direction:** ${value(field(brief, 'Brand direction'), 'product-grade clarity, selected visual family, and no unearned style mandate')}
 - **Logo plan:** ${value(field(brief, 'Logo plan'))}
 - **Assets:** ${value(field(brief, 'Logo/asset references'))}
 - **Official tool assets:** ${value(field(brief, 'Official tool assets, if meaningful'), 'none')}
@@ -305,7 +305,7 @@ ${selectedAtoms(bundle, brief)}
 ${legacySection}
 ## Production QA
 
-- One reader promise, one dominant message, one hero, and one primary reading route.
+- One reader promise, one deliberate response, one dominant message, and one primary reading route.
 - Selected atoms are visible, transformed, and coherent; the output does not resemble one source end to end.
 - The useful object is legible without opening the caption.
 - Exact text, logos, formulas, relationships, and data survive mobile output.

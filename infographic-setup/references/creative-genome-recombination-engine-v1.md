@@ -48,8 +48,9 @@ Decompose each reference into:
 - **creative atoms:** the smallest mechanisms that may be transformed without copying;
 - **anti-copy boundary:** subject matter, wording, branding, artwork, and distinctive expression that must not be reproduced.
 
-Preview presence never counts as a verified visual annotation. Inspect the actual image or a local
-Top-100 asset before a visual atom is marked `visually_verified`.
+Preview presence never counts as a verified visual annotation. The active visual authority is the
+manual `references/creative-review/reference-review-ledger.jsonl`: inspect the actual image or
+record it explicitly inaccessible before a visual atom is marked `visually_verified`.
 
 ## Creative retrieval for flagships
 
@@ -122,10 +123,10 @@ uniquely adds.
 
 Backstage intelligence may be complex. The public output must be simple:
 
-- the problem, tension, or promise is visible in **3 seconds**;
+- the problem, tension, promise, or intentional visual intrigue is visible in **3 seconds**;
 - the main insight is understandable in **10 seconds**;
 - a useful action, reference, or next step is available in **30 seconds**;
-- the visual has one dominant message and one primary reading route;
+- the visual has one dominant reader response and one primary reading route;
 - the visual itself proves the opening tension before the reader needs the caption;
 - when the selected visual primitive uses a range, threshold, gate, or limit, the plan names the
   evidence that feeds it, the boundary, and the action that changes when it is crossed;

@@ -25,6 +25,11 @@ saved-post intelligence
   -> atom-level transfer learning
 ```
 
+V4 production is gated by the Creative Review Foundation. Before a new V4 post, run
+`node scripts/validate-reference-review-foundation.mjs --require-complete` from
+`infographic-setup/`. Captions and previews are retrieval signals, not visual review. The first
+release after the gate passes is a calibration post; five-post cadence resumes only after its review.
+
 ## Repo map
 
 | Path | Status | Purpose |
@@ -68,14 +73,13 @@ selected claim mode.
 
 - Operating system: `infographic-setup/references/v4-audience-growth-operating-system.md`
 - Fast production: `infographic-setup/references/fast-post-loop-v1.md`
-- V3 repertoire: `infographic-setup/references/v3-creative-repertoire-v1.md`
-- V3 creative direction: `infographic-setup/references/operational-decision-cinema-v1.md`
+- V3 repertoire: `infographic-setup/references/v3-creative-repertoire-v1.md` (historical source
+  material, not a visual default)
 - Creative Genome: `infographic-setup/references/creative-genome-recombination-engine-v1.md`
 - Opportunity selection: `infographic-setup/references/creative-opportunity-selection.md`
 - Creative production: `infographic-setup/references/creative-engine-v4-recombination.md`
 - Visual workflow: `infographic-setup/references/visual-engine-v2.md`
-- Default brand expression: `infographic-setup/references/brand-kits/shettys-desk-operating-studio/FRAME.md`
-- Optional secondary editorial expression: `infographic-setup/references/brand-kits/cobalt-grid/FRAME.md`
+- Provisional signature guardrail: `infographic-setup/references/creative-review/signature-system-v1.md`
 - Voice gate: `infographic-setup/references/tiger-source-gate-v1.md`
 - Motion: `infographic-setup/references/motion-engine-v1.md`
 - Publish handoff: `infographic-setup/references/publish-resource-handoff-v1.md`
@@ -93,6 +97,7 @@ or `/ai-for-sc` plans are candidate banks. Files under dated archive folders are
   support, prompt, and review.
 - For a standard image-led post, use an image-engine-native final. Never finish it by pasting HTML,
   SVG, dashboard cards, or title overlays over the rendered scene.
+- Operating Studio and Cobalt Grid are historical reference material, not automatic visual defaults.
 - Do not automate LinkedIn comments or publish without explicit approval.
 - Preserve the active visual named by post-card.md once approved; do not silently treat an older
   visual.png as the selected post.

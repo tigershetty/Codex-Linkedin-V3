@@ -10,10 +10,11 @@ brief exist. Never use it as the source of the first generic layout.
 
 1. Standard: read `post-card.md` and its selected visual argument. Flagship: read
    `reference-bundle.json`, `recombination-brief.md`, and `creative-brief-lite.md`.
-2. State the visual argument and dominant object before opening this catalog.
+2. State the visual argument and primary reading route before opening this catalog.
 3. Use §1 and §2 to test whether the selected shape actually expresses the relationship.
 4. Use §3 for established business conventions and §4 only when HTML/SVG is the chosen renderer.
-5. Follow `visual-engine-v2.md` and the selected Shetty's Desk brand expression for active production rules.
+5. Follow `visual-engine-v2.md`, the selected visual family, and the provisional signature guardrail
+   for active production rules.
 
 **Feasibility note:** Render ratings describe the historical HTML→PNG stack. They are implementation
 hints only; Visual Engine v2 may select GPT Image 2, HTML/SVG, a spreadsheet, a document, website UI,
@@ -27,11 +28,12 @@ or another surface. For HTML/SVG:
 > **Selection method — decompose the message into its claims (added 2026-06-29).** A post's message usually contains **several arguable claims at once, and each claim points to a different framework family.** Choosing *which claim to lead with* is the creative fork — don't anchor on the first metaphor and hunt for neighbours of it (that is how a selection narrows to one safe-but-generic shape). Method: (1) write the message in one line; (2) list every distinct claim inside it; (3) map each claim to the shape that *makes that argument*; (4) pick by which claim is the headline **and** by data integrity — a framework that needs per-item numbers you don't have forces invented figures, so prefer one supported by the verified facts, and keep non-highlighted items neutral/unmarked. Worked example — *"six clauses, teams fight Liability hardest, 77% of disputes start at Scope"* decomposes to: hidden-mass (iceberg) · ranking-mismatch (dumbbell/slope) · misallocated-defense (scales/fortress) · structure-with-one-weak-member (pillars/weak-link) · concentration (Pareto) · cascade (domino). Same fact, six honest shapes. Use `creative-engine-v4-recombination.md` and `visual-engine-v2.md` for the active image-production path.
 
 > **Active craft authority:** use `visual-engine-v2.md`, `creative-engine-v4-recombination.md`, and
-> `brand-kits/shettys-desk-operating-studio/FRAME.md` (or an explicitly selected secondary frame).
+> `creative-review/signature-system-v1.md`. The catalog contributes possible shapes, not a mandatory
+> house style or visual family.
 > The catalog contributes possible shapes, not a mandatory house style or visual family.
 
 **Composition reminder (added 2026-06-21, reframed 2026-08-02):** after choosing the visual
-argument, decide how much of the canvas the dominant object needs. An integrated hero can absorb
+argument, decide how much of the canvas the primary visual structure needs. An integrated system can absorb
 annotations and micro-visuals; a comparison may need several coordinated blocks. Choose the minimum
 number of elements that makes the argument clear. Three-dimensional treatment and multi-block
 density are options, not requirements.
@@ -369,7 +371,7 @@ Format of each row: **Name** | Explains best | Question it answers (when) | Anat
 
 ### Family 5 — 2026 premium / editorial data-viz additions (research sweep)
 
-From the 2026 sweep across Visual Capitalist + Voronoi, The Economist/FT (Burn-Murdoch), McKinsey/BCG/Bain/Gartner, SetProduct **Orion**, Eric Partaker & Visualize Value. These are code-renderable formats that were thin or missing above. Treat them as candidates only when they strengthen the selected visual argument; apply the selected Shetty's Desk brand expression and Visual Engine v2 rules.
+From the 2026 sweep across Visual Capitalist + Voronoi, The Economist/FT (Burn-Murdoch), McKinsey/BCG/Bain/Gartner, SetProduct **Orion**, Eric Partaker & Visualize Value. These are code-renderable formats that were thin or missing above. Treat them as candidates only when they strengthen the selected visual argument; apply the selected visual family, provisional signature guardrail, and Visual Engine v2 rules.
 
 | # | Name | Explains best | When to use | Anatomy | Visual-rhetoric | Render | Source |
 |---|---|---|---|---|---|---|---|

@@ -88,11 +88,13 @@ continuation.
 
 ## Visual contract
 
-Shetty's Desk Operating Studio is the default brand authority. It makes a real work collision
-concrete through a luminous operating scene, semantic colour, and a useful visual model. Cobalt
-Grid is an explicit secondary editorial choice. The reference bundle contributes creative
-mechanics, not another creator's look. One dominant object and one reading route beat a dense
-internal model dump.
+`references/creative-review/signature-system-v1.md` is the active guardrail. No visual family is a
+default while the 480-post manual review is incomplete: an editorial framework, map, real material,
+illustration, spatial scene, data reference, typographic treatment or motion sequence must earn its
+place through the reader tension and visual mechanism. Operating Studio and Cobalt Grid are
+historical reference material, not default brand authorities. The reference bundle contributes
+creative mechanics, not another creator's look. One dominant reader response and one reading route
+beat a dense internal model dump.
 
 For a standard image-led post, use the image engine as one coherent final composition. Do not finish
 it with HTML, SVG, dashboard, logo, or title overlays.
@@ -134,6 +136,10 @@ Record channel metrics separately and link them to:
 - `content_mode` and `claim_mode`;
 - `artifact_type`;
 - `transfer_result`, `element_transfer`, and next adaptation.
+
+For high-reach posts, record a small audience-relevance sample of visible new followers and
+engagers. It is a diagnostic only: reach remains the early growth objective and the sample may not
+automatically block a topic or format.
 
 Do not use the historical `composite_score` as a gate. Do not standardize a mechanism from one
 outlier or kill it from one weak adaptation.
