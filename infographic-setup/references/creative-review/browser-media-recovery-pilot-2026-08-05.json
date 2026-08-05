@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "pilot_date": "2026-08-05",
+  "method": "Read-only inspection through an authenticated LinkedIn browser session. No reactions, comments, follows, messages, publishing or account changes were made.",
+  "purpose": "Test whether the browser route can recover inspectable media for the saved-post foundation without treating live visibility as locally captured media.",
+  "result": {
+    "sample_size": 20,
+    "post_pages_visible": 20,
+    "document_carousels_visible": 16,
+    "document_pages_indicated": 218,
+    "image_posts_visible": 3,
+    "no_inspectable_image_surface_observed": 1,
+    "stable_local_assets_persisted": 0
+  },
+  "interpretation": "The browser route reliably proves post availability and exposes document pagination, but its media inventory is volatile on LinkedIn's legacy post renderer. It therefore cannot be used as a bulk local-capture method without an additional authorized retrieval layer. No ledger record is upgraded by this pilot.",
+  "records": [
+    {"reference_id":"LI-6593017830470406144","media_surface":"three-image post observed after follow-up DOM inspection","page_indicator":null,"post_visible":true},
+    {"reference_id":"LI-6979058882522267648","media_surface":"document_carousel","page_indicator":"Page 1 of 13","post_visible":true},
+    {"reference_id":"LI-7018909754370535424","media_surface":"document_carousel","page_indicator":"Page 1 of 14","post_visible":true},
+    {"reference_id":"LI-7020612282283933696","media_surface":"document_carousel","page_indicator":"Page 1 of 33","post_visible":true},
+    {"reference_id":"LI-7020735475174789121","media_surface":"document_carousel","page_indicator":"Page 1 of 11","post_visible":true},
+    {"reference_id":"LI-7021106585624027136","media_surface":"document_carousel","page_indicator":"Page 1 of 13","post_visible":true},
+    {"reference_id":"LI-7021168286553837568","media_surface":"document_carousel","page_indicator":"Page 1 of 27","post_visible":true},
+    {"reference_id":"LI-7028562173849210880","media_surface":"document_carousel","page_indicator":"Page 1 of 6","post_visible":true},
+    {"reference_id":"LI-7032206962893209600","media_surface":"single_image","page_indicator":null,"post_visible":true},
+    {"reference_id":"LI-7041407639095832576","media_surface":"document_carousel","page_indicator":"Page 1 of 15","post_visible":true},
+    {"reference_id":"LI-7041770024998490113","media_surface":"document_carousel","page_indicator":"Page 1 of 8","post_visible":true},
+    {"reference_id":"LI-7042116023642189824","media_surface":"document_carousel","page_indicator":"Page 1 of 12","post_visible":true},
+    {"reference_id":"LI-7042141882964987904","media_surface":"no inspectable image or document surface observed","page_indicator":null,"post_visible":true},
+    {"reference_id":"LI-7044646561246547968","media_surface":"document_carousel","page_indicator":"Page 1 of 12","post_visible":true},
+    {"reference_id":"LI-7044646858652053506","media_surface":"document_carousel","page_indicator":"Page 1 of 12","post_visible":true},
+    {"reference_id":"LI-7046818799446048768","media_surface":"document_carousel","page_indicator":"Page 1 of 13","post_visible":true},
+    {"reference_id":"LI-7051528585618100224","media_surface":"document_carousel","page_indicator":"Page 1 of 14","post_visible":true},
+    {"reference_id":"LI-7056014896852791296","media_surface":"single_image","page_indicator":null,"post_visible":true},
+    {"reference_id":"LI-7056028861712502784","media_surface":"document_carousel","page_indicator":"Page 1 of 7","post_visible":true},
+    {"reference_id":"LI-7062399099462938624","media_surface":"document_carousel","page_indicator":"Page 1 of 8","post_visible":true}
+  ],
+  "next_decision": "Do not run a 421-post browser capture. Use a batch-capable authorized retrieval source, then return recovered assets to the existing ledger for manual visual annotation."
+}
