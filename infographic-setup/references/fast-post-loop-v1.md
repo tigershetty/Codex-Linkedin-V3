@@ -98,6 +98,14 @@ caption still fails the Tiger or Keep check, park the post rather than adding mo
 An exact spreadsheet, field guide, calculator, or document may be a separate artifact when it adds
 genuine utility. It is not a compulsory lower strip bolted onto a social visual.
 
+## Field Guide exception
+
+Use the specialist Field Guide Notebook route only when the selected post needs a compact working
+reference and passes the admission test in `v5-field-guide-notebook-production-system.md`. It may
+remain a standard post if the first 25 minutes still select it, but it needs a
+`field-guide-spec.json`, a deterministic Figma master, and the Field Guide review; it never becomes
+a generic card template or a reason to expand a weak daily topic into a flagship.
+
 ## Flagship and brand-lab route
 
 This loop is deliberately narrow. Declare a separate `**Route:** flagship` or brand-lab package

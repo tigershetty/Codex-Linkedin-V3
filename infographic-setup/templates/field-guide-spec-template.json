@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "status": "ready",
+  "field_guide_id": "FG-EXAMPLE-SUPPLY-RISK-ESCALATION",
+  "artifact_type": "field_guide",
+  "family": "field_guide_notebook",
+  "title": "Before You Escalate a Supply Risk",
+  "primary_reader": "A planner or purchasing practitioner who has spotted a possible supply issue and needs to decide whether it warrants escalation.",
+  "reader_contract": {
+    "reader_moment": "A date, quantity, or supplier signal looks wrong, but the practical consequence is still unclear.",
+    "reader_payoff": "A short, repeatable way to separate a signal worth escalating from one that needs more checking first.",
+    "decision_question": "What needs to be checked before asking others to act on a potential supply risk?",
+    "glance_3s": "Three checks before escalation.",
+    "scan_10s": "Reliability, customer exposure, then recoverability.",
+    "use_30s": "Run the three checks in order and record the first unresolved issue before escalating."
+  },
+  "scope": {
+    "in_scope": "A reusable conversation scaffold for early supply-risk triage.",
+    "not_for": "It does not set company-specific escalation thresholds, promise a recovery date, or replace the accountable decision-maker.",
+    "assumptions": "Use the organisation's current customer commitments, supplier information, and escalation policy."
+  },
+  "truth_class": "framework",
+  "truth_contract": {
+    "basis": "An editorial framework that separates three different questions in a supply-risk conversation.",
+    "scope": "It is a reusable conversation scaffold, not a company escalation policy or performance model.",
+    "not_claiming": "It does not prove that the sequence prevents shortages, predicts outcomes, or applies unchanged in every organisation."
+  },
+  "visual_argument": {
+    "spatial_model": "decision_tree",
+    "spatial_claim": "The next action changes according to the result of a small number of named checks.",
+    "why_shape_truthful": "Each branch represents a distinct condition: information reliability, customer exposure, or recoverability. The layout does not imply a ranking or a time sequence that the framework does not claim.",
+    "anti_misread": "Do not present the checks as a maturity ladder, score, or forecast of customer impact."
+  },
+  "modules": [
+    {
+      "module_id": "M-01",
+      "title": "Check the signal",
+      "module_type": "check",
+      "reader_action": "State what changed, when it changed, and which source supplied the information.",
+      "claim_ids": [
+        "CL-01"
+      ]
+    },
+    {
+      "module_id": "M-02",
+      "title": "Check the customer exposure",
+      "module_type": "decision",
+      "reader_action": "Name the affected commitment and the latest credible date for a decision.",
+      "claim_ids": [
+        "CL-02"
+      ]
+    },
+    {
+      "module_id": "M-03",
+      "title": "Check the recovery options",
+      "module_type": "check",
+      "reader_action": "List the recovery paths that remain possible and the information each one still needs.",
+      "claim_ids": [
+        "CL-03"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CL-01",
+      "text": "A useful escalation begins by making the observed signal and its source visible.",
+      "claim_type": "framework",
+      "evidence": {
+        "status": "not_required",
+        "rationale": "This is an editorial operating framework, not a measured external outcome."
+      }
+    },
+    {
+      "claim_id": "CL-02",
+      "text": "Customer exposure is a separate question from whether a supplier signal exists.",
+      "claim_type": "framework",
+      "evidence": {
+        "status": "not_required",
+        "rationale": "This is a distinction within the framework; it does not assert an external fact or result."
+      }
+    },
+    {
+      "claim_id": "CL-03",
+      "text": "A recovery conversation is stronger when its remaining options and unknowns are explicit.",
+      "claim_type": "framework",
+      "evidence": {
+        "status": "not_required",
+        "rationale": "This is an editorial operating framework, not a causal performance claim."
+      }
+    }
+  ],
+  "boundary_or_exception": {
+    "type": "both",
+    "statement": "If the customer commitment is already at risk and the information is unreliable, escalate the uncertainty rather than inventing a recovery date.",
+    "reader_response": "Mark the date as unconfirmed, name the owner of the next fact check, and escalate through the agreed customer-first route.",
+    "claim_ids": [
+      "CL-01",
+      "CL-02",
+      "CL-03"
+    ]
+  },
+  "next_action": "Use the three checks in the next supply exception, then adapt the language to the local escalation policy.",
+  "motion": {
+    "decision": "still",
+    "reason": "The reader needs a stable reference they can scan and return to during a live exception."
+  }
+}

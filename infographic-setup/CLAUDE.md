@@ -88,13 +88,15 @@ continuation.
 
 ## Visual contract
 
-`references/creative-review/signature-system-v1.md` is the active guardrail. No visual family is a
-default while the 480-post manual review is incomplete: an editorial framework, map, real material,
-illustration, spatial scene, data reference, typographic treatment or motion sequence must earn its
-place through the reader tension and visual mechanism. Operating Studio and Cobalt Grid are
-historical reference material, not default brand authorities. The reference bundle contributes
-creative mechanics, not another creator's look. One dominant reader response and one reading route
-beat a dense internal model dump.
+`references/creative-review/signature-system-v2.md` is the active guardrail. The 480-post review
+foundation is complete, and it establishes the Field Guide Notebook as a specialist working-reference
+family—not a default for every post. An editorial framework, map, real material, illustration,
+spatial scene, data reference, typographic treatment or motion sequence must still earn its place
+through the reader tension and visual mechanism. Use
+`references/v5-field-guide-notebook-production-system.md` for a Field Guide; Operating Studio and
+Cobalt Grid remain historical reference material. The reference bundle contributes creative
+mechanics, not another creator's look. One dominant reader response and one reading route beat a
+dense internal model dump.
 
 For a standard image-led post, use the image engine as one coherent final composition. Do not finish
 it with HTML, SVG, dashboard, logo, or title overlays.

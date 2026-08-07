@@ -79,7 +79,8 @@ selected claim mode.
 - Opportunity selection: `infographic-setup/references/creative-opportunity-selection.md`
 - Creative production: `infographic-setup/references/creative-engine-v4-recombination.md`
 - Visual workflow: `infographic-setup/references/visual-engine-v2.md`
-- Provisional signature guardrail: `infographic-setup/references/creative-review/signature-system-v1.md`
+- Signature and Field Guide authority: `infographic-setup/references/creative-review/signature-system-v2.md`,
+  with the specialist route in `infographic-setup/references/v5-field-guide-notebook-production-system.md`
 - Voice gate: `infographic-setup/references/tiger-source-gate-v1.md`
 - Motion: `infographic-setup/references/motion-engine-v1.md`
 - Publish handoff: `infographic-setup/references/publish-resource-handoff-v1.md`
@@ -97,6 +98,8 @@ or `/ai-for-sc` plans are candidate banks. Files under dated archive folders are
   support, prompt, and review.
 - For a standard image-led post, use an image-engine-native final. Never finish it by pasting HTML,
   SVG, dashboard cards, or title overlays over the rendered scene.
+- A selected Field Guide is a separate exact working-reference artifact: use a deterministic Figma
+  master rather than asking an image model to typeset dense material.
 - Operating Studio and Cobalt Grid are historical reference material, not automatic visual defaults.
 - Do not automate LinkedIn comments or publish without explicit approval.
 - Preserve the active visual named by post-card.md once approved; do not silently treat an older

@@ -15,7 +15,7 @@ accurately.
 |---|---|
 | Standard reference shelf or flagship Genome bundle | Attention, comprehension, utility, and bridge mechanics |
 | Recombination brief | Flagship-only creative seed, ten concepts, three visible directions, and the selected assembly |
-| Provisional Signature System | Product-grade clarity without a default visual family; select the family from the reader task |
+| Signature System V2 | Product-grade clarity plus a specialist Field Guide grammar for real working references; select the family from the reader task |
 | Claim contract | Exact limits on numbers, outcomes, comparisons, and personal authority |
 | Renderer | Execute the selected direction |
 | Review | Decide whether the public asset is clear, useful, original, and true |
@@ -39,9 +39,11 @@ neither a coherent rendered visual nor a useful exact artifact.
 
 ## Brand authority
 
-Use `references/creative-review/signature-system-v1.md` as the active production guardrail. The
-creative route must explicitly choose its visual family before a renderer is selected. The exact
-Shetty's Desk logo remains an owned asset, never model-redrawn.
+Use `references/creative-review/signature-system-v2.md` as the active production guardrail. The
+creative route must explicitly choose its visual family before a renderer is selected. When a Field
+Guide is selected, follow `references/v5-field-guide-notebook-production-system.md`: it is a
+specialist resource family, not an automatic template. The exact Shetty's Desk logo remains an owned
+asset, never model-redrawn.
 
 Operating Studio and `references/brand-kits/cobalt-grid/FRAME.md` are historical reference
 material. Neither may be selected by default.
@@ -172,9 +174,11 @@ Use positive instructions. Long negative prompt blocks usually make the image co
 
 ## Exact-control path
 
-Use HTML/SVG, spreadsheet, document, or website UI when the value depends on exact content. Publish
-it as its own usable artifact, not a finishing layer over an image-engine visual. The control is not
-required for every image-model concept. Build it when it helps answer:
+Use HTML/SVG, spreadsheet, document, Figma, or website UI when the value depends on exact content.
+Publish it as its own usable artifact, not a finishing layer over an image-engine visual. A dense
+Field Guide should have a Figma master with exact type, source/exception treatment, and an explicit
+`field-guide-spec.json`; an image model may explore material but cannot typeset the final reference.
+The control is not required for every image-model concept. Build it when it helps answer:
 
 - Can the reader use the artifact without interpretation errors?
 - Do the numbers, labels, and relationships fit honestly?

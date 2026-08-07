@@ -1,0 +1,1681 @@
+{
+  "schema_version": "1.0.0",
+  "index_purpose": "Internal creative-reference provenance and retrieval aid; not a performance dataset.",
+  "source": {
+    "workbook": "infographic-setup/references/Vincent Pierri Reference/Vincent Pierri.xlsx",
+    "media_directory": "infographic-setup/references/Vincent Pierri Reference",
+    "source_preservation": "The raw user-supplied source is read only by this script."
+  },
+  "known_limitations": [
+    "The workbook has no original LinkedIn URLs, dates, native metrics, or explicit media-to-caption links.",
+    "Matching numeric IDs are asserted-by-ID only, never verified post provenance.",
+    "Asset 2 is a known manual visual/caption mismatch and must not be auto-paired.",
+    "GIF duration is the sum of Graphics Control Extension delays; actual social-platform playback may differ.",
+    "This corpus is a curated creative-reference set, not a random sample or causal performance study."
+  ],
+  "summary": {
+    "workbook_numeric_id_count": 100,
+    "workbook_id_min": 1,
+    "workbook_id_max": 100,
+    "caption_count": 40,
+    "asset_count": 53,
+    "gif_count": 39,
+    "jpeg_count": 14,
+    "asset_ids_missing_within_media_range": [
+      23,
+      31
+    ],
+    "pairing_status_counts": {
+      "asserted_by_numeric_id": 37,
+      "asset_only": 15,
+      "caption_only": 2,
+      "known_manual_mismatch": 1,
+      "source_row_without_caption_or_asset": 45
+    },
+    "dimension_counts": {
+      "1052x1316": 1,
+      "1080x1317": 1,
+      "1080x1350": 35,
+      "1118x1398": 1,
+      "1280x1600": 1,
+      "1280x1601": 1,
+      "800x1000": 13
+    },
+    "gif_motion_metadata": {
+      "frame_count_min": 75,
+      "frame_count_median": 176,
+      "frame_count_max": 351,
+      "duration_ms_min": 3000,
+      "duration_ms_median": 8360,
+      "duration_ms_max": 18320,
+      "duration_method": "Sum of GIF Graphics Control Extension frame delays."
+    },
+    "caption_word_count": {
+      "min": 170,
+      "median": 398.0,
+      "max": 527,
+      "method": "Regex token count; only captions present in the supplied workbook."
+    }
+  },
+  "unlinked_workbook_cells": [
+    {
+      "cell": "A2",
+      "value": "File name and image",
+      "status": "unlinked_source_note"
+    },
+    {
+      "cell": "B2",
+      "value": "Caption",
+      "status": "unlinked_source_note"
+    },
+    {
+      "cell": "I35",
+      "value": "Vincent Pierri’s visual takeover of LinkedIn is now complete.\n\nA few months ago, Tyler Hakes 🍋 asked me if I knew who was creating “those infographics”. You know, the ones with the boxy layouts, eye-catching colorways, and of course, the animated balls flowing throughout. They definitely stop the scroll.\n\nOne day, I opened up LinkedIn and saw no less than three of these in the feed.\n\nVincent’s been building an impressive client roster, eager to tap into that magic for their own posts. And now he’s running cohorts throughout the year, teaching hundreds of others his wizardry.\n\nYou can see this format in action on Tas, Heike, and Brendan's pages. I'm not sure whether Vincent or a 3rd party created them or if they made the graphics themselves, but the style is instantly recognizable.  \n\nIn the mid 2010s, ballers like Neil Patel and The New York Times would hire motion designers and 3D artists to create massive gifographics. 2014's bandwidth could barely contain these graphical behemoths. \n\nToday’s trend leans toward a leaner and cleaner interface. But they’re all descendants of Edward Tufte’s \"graphical displays\" as documented in his 1983 book 𝘛𝘩𝘦 𝘝𝘪𝘴𝘶𝘢𝘭 𝘋𝘪𝘴𝘱𝘭𝘢𝘺 𝘰𝘧 𝘘𝘶𝘢𝘯𝘵𝘪𝘵𝘢𝘵𝘪𝘷𝘦 𝘐𝘯𝘧𝘰𝘳𝘮𝘢𝘵𝘪𝘰𝘯.\n\nWhat truly sealed Vincent’s complete domination of an entire social platform was the banger post Stefan Gladbach dropped yesterday. When people start creating parodies of your work, you’ve arrived.\n\nAnyways, the circle is now complete.\n\n👑🥂 Cheers to you, Vincent, you've earned this.",
+      "status": "unlinked_source_note_on_indexed_row"
+    }
+  ],
+  "records": [
+    {
+      "post_id": 1,
+      "workbook_row": 3,
+      "creator": "Vincent Pierri",
+      "caption": "How do you get paid to post on LinkedIn about brands like Adobe and Logitech? This is your roadmap ⬇️\n\nOver the last two and a half years, we (that’s Heike Young and Vincent Pierri) have grown our LinkedIn audiences to a combined 80K+ followers.\n\nWe now do LinkedIn creator partnerships with brands we love because we want people to know about them… and it’s a great side hustle.\n\nYou can do this too!\n\nWe boiled down the entire process into three major steps.\n\n1️⃣ Attract brands.\n\n2️⃣ Nail your content.\n\n3️⃣ Turn that into more partnerships.\n\nWe made you this infographic to show the exact breakdown of tactics within each step so you can start earning $$$$ from your posts.\n\nStill not sure if you wanna do this? Let’s clear up a few myths about sponsored content on LinkedIn.\n\nMYTH: You need to have a huge following to do this.\n\nREALITY: Brands want creators who reach their exact ICP and talk about their target topics. That person could have 3,000 followers or 30k.\n\nMYTH: Making sponsored content is cringe.\n\nREALITY: Sure, a few people may think it’s cringe. But people who are great at making content deserve to get paid for what they do. \n\nOn LinkedIn, we’ve found that people tend to be very supportive of creators who turn their skills into a side hustle.\n\nMYTH: You need to be an ~~influencer~~ to do this.\n\nREALITY: You can be a paid creator without ever posting a GRWM video or taking a picture of your food! This is about being a knowledge creator, not a lifestyle influencer.\n\nDo you have more questions about how we evaluate partnership options or how to get started? Let us know in the comments!",
+      "caption_word_count": 288,
+      "asset": {
+        "format": "jpeg",
+        "width": 1080,
+        "height": 1350,
+        "filename": "1.jpeg",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/1.jpeg",
+        "bytes": 185684,
+        "sha256": "7d57dbdbcfbc1883b4d192b8258633d715da6c67d45a6a4243125498d0cfb338"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 2,
+      "workbook_row": 4,
+      "creator": "Vincent Pierri",
+      "caption": "2024: “Selfies are dead!”\n2025: “Carousels are dead!”\n2026: “Infographics are dead!”\n\nOkay, but they’re not dead.\nNone of the above actually.\n\nThey’re all just went through the same cycle every content format does:\n\n1️⃣ A format is underused\n2️⃣ It starts outperforming\n3️⃣ Everyone copies it, now with AI\n4️⃣ It stops feeling new\n5️⃣ People declare it dead\n\nBut it's not actually dead.\nAnd the format still works if used properly.\n\nThink about it:\n\nYou can’t post a lame carousel and go viral like 2023.\nBut you should still strategically use carousels.\n\nYou can’t post a dumb story and go viral like 2022.\nBut you should still tell stories, just really good ones.\n\nYou can’t post AI infographics and go viral like 2024.\nBut you must still post super valuable infographics.\n\nInfographics aren’t dead...\nAI Infographics ARE dead...\n\n...Which is good for you.\n...Good for the format.\nAnd eventually, good for the platform.\n\n(when eventually people stop posting the AI ones)\n\nValuable infographics still work for viral TOFU:\n\n→ https://lnkd.in/d6edvdki\n→ https://lnkd.in/gykuBXhB\n→ https://lnkd.in/d8agpzr6\n→ https://lnkd.in/d7y7Cs3T\n\nAnd they still work for BOFU:\n\n→ I made an infographic for Nicole Ramirez last week\n→ It generated 3 leads in 8 hours\n→ One already bought\n→ She turned away the others cause she’s booked\n\nTL;DR:\n\nDon’t depend on one format and turn off your brain.\n\nFocus on adding value.\n\nThen choose the right format for the idea.\n\nAnd yes, I’ll be making infographics for experts for a good long time.\n\nHit me up if you have expertise you want to package into something valuable, easy to consume, and not AI-generated.",
+      "caption_word_count": 276,
+      "asset": {
+        "format": "gif",
+        "width": 1280,
+        "height": 1600,
+        "frame_count": 250,
+        "duration_ms_from_gce": 11240,
+        "filename": "2.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/2.gif",
+        "bytes": 2898123,
+        "sha256": "d9f5733cc18a3dcda27a5f43dd483fd416e5ba74d25dd3675b3ff67d71ccc9db"
+      },
+      "pairing_status": "known_manual_mismatch",
+      "pairing_warning": "Manual visual inspection found that asset 2 and workbook caption 2 describe different pieces. Treat this record as a known mismatch unless original post provenance resolves it.",
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 3,
+      "workbook_row": 5,
+      "creator": "Vincent Pierri",
+      "caption": "15 proven decision-making principles:\nI wish I knew these at age 25.\n(These help avoid most bad decisions)\n\n1️⃣ Newspaper Test\n↳ Make decisions you'd feel good about if the whole world found out.\n\n2️⃣ Sunk Cost\n↳ Ignore past investments when deciding what creates the best future.\n\n3️⃣ Availability Heuristic\n↳ Don’t confuse what comes to mind easily with what’s most likely.\n\n4️⃣ Stoic Dichotomy\n↳ Focus your energy only on what you can control.\n\n5️⃣ Average Payoff\n↳ Choose based on the average long-term payoff, not the most likely outcome.\n\n6️⃣ Categorical Imperative\n↳ Only follow principles you’d be comfortable with everyone following.\n\n7️⃣ Know Thyself\n↳ Good decisions begin with self-awareness.\n\n8️⃣ Golden Rule\n↳ Treat others the way you’d want to be treated.\n\n9️⃣ Fair Play\n↳ Don’t go against the grain until you can clearly explain why others are wrong.\n\n1️⃣0️⃣ Lindy Effect\n↳ The longer an idea has survived, the longer it’s likely to keep surviving.\n\n1️⃣1️⃣ Middle Way\n↳ Avoid destructive extremes and choose the balanced path.\n\n1️⃣2️⃣ First-Idea Bias\n↳ Don’t give the first idea you hear undue weight.\n\n1️⃣3️⃣ Confirmation Bias\n↳ Seek evidence that could prove you wrong before you decide.\n\n1️⃣4️⃣ Comparative Advantage\n↳ Ask yourself: Where do I have a natural advantage?\n\n1️⃣5️⃣ Age 80 + age 10 Test\n↳ Make choices your younger and older selves would both admire.\n\n90% of decisions can be solved with these 15 ideas.\n\nWhich is your favorite?",
+      "caption_word_count": 236,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 125,
+        "duration_ms_from_gce": 5000,
+        "filename": "3.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/3.gif",
+        "bytes": 3390549,
+        "sha256": "a11934f6facbe19963ebc6b64cb4ae2fc4aa95fe891e778e93aa6b5a5a225002"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 4,
+      "workbook_row": 6,
+      "creator": "Vincent Pierri",
+      "caption": "The cost to live comfortably in the top 50 US metros:\n\n1. Boston, Massachusetts: $347,000\n2. Burlington, Vermont: $325,000\n3. Urban Honolulu, Hawaii: $321,000\n4. Seattle, Washington: $310,000\n5. New York City, New York: $309,000\n6. Portland, Oregon: $299,000\n7. Denver, Colorado: $297,000\n8. Los Angeles, California: $293,000\n9. Trenton, New Jersey: $284,000\n10. Hartford, Connecticut: $282,000\n11. Minneapolis, Minnesota: $282,000\n12. Anchorage, Alaska: $279,000\n13. Portland, Maine: $274,000\n14. Philadelphia, Pennsylvania: $274,000\n15. Manchester, New Hampshire: $269,000\n16. Providence, Rhode Island: $269,000\n17. Indianapolis, Indiana: $261,000\n18. Chicago, Illinois: $255,000\n19. Baltimore, Maryland: $255,000\n20. Phoenix, Arizona: $244,000\n21. Billings, Montana: $244,000\n22. Las Vegas, Nevada: $244,000\n23. Milwaukee, Wisconsin: $244,000\n24. Boise, Idaho: $241,000\n25. Miami, Florida: $237,000\n26. Salt Lake City, Utah: $237,000\n27. Atlanta, Georgia: $231,000\n28. Albuquerque, New Mexico: $231,000\n29. Cincinnati, Ohio: $231,000\n30. Omaha, Nebraska: $230,000\n31. St. Louis, Missouri: $227,000\n32. Charlotte, North Carolina: $225,000\n33. Virginia Beach, Virginia: $224,000\n34. Detroit, Michigan: $220,000\n35. Dallas–Fort Worth, Texas: $220,000\n36. Oklahoma City, Oklahoma: $216,000\n37. Louisville, Kentucky: $214,000\n38. Greenville, South Carolina: $214,000\n39. Des Moines, Iowa: $213,000\n40. Nashville, Tennessee: $213,000\n41. Cheyenne, Wyoming: $211,000\n42. Dover, Delaware: $210,000\n43. Birmingham, Alabama: $209,000\n44. Fargo, North Dakota: $208,000\n45. Sioux Falls, South Dakota: $208,000\n46. Wichita, Kansas: $206,000\n47. Little Rock, Arkansas: $203,000\n48. New Orleans, Louisiana: $199,000\n49. Jackson, Mississippi: $198,000\n50. Huntington–Ashland, West Virginia: $195,000\n\nIf you're feeling the pinch financially, you're not alone.\n\nI help people make money on LinkedIn,\nby turning their expertise into infographics.",
+      "caption_word_count": 310,
+      "asset": {
+        "format": "jpeg",
+        "width": 1118,
+        "height": 1398,
+        "filename": "4.jpeg",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/4.jpeg",
+        "bytes": 185254,
+        "sha256": "77372e5aa86722cd1df2895efef0b7a6327e46c7c68f7867d26861d8ba7d7f9f"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 5,
+      "workbook_row": 7,
+      "creator": "Vincent Pierri",
+      "caption": "I’ve worked with seven top 0.1% creators this year. Most are wrestling with the same problem. Here’s how to overcome it.\n\nMost LinkedIn creators go through 5 phases.\nThis is why they rise. And eventually fall.\nHere’s how to avoid the trap:\n\n1️⃣ Phase 1: Early Struggle\n\nAt this point, nothing is working.\nSo the creator is willing to try everything.\n\nAnd they typically do.\n\nCopying other people’s posts, comment tactics, wild DM strategies, AI writing, human writing, lead magnets, engagement pods, courses, coaches and even buying followers.\n\nNothing works until...\n\n2️⃣ Phase 2: Moment of Inspiration\n\nThe creator finds a golden tool. Maybe even two.\nThat golden tool leads to audience growth.\nAnd often their first leads or clients.\n\nIt might be:\n\n→ A certain post format\n→ A writing style\n→ A hook structure\n→ A visual aesthetic\n→ A trend\n→ A content type\n\nThe creator believes they’ve unlocked the secrets of the universe.\n\nWhich leads to...\n\n3️⃣ Phase 3: Systematizing\n\nThe creator builds systems to make that golden tool work more efficiently.\n\nThis is where they create:\n\n→ A content calendar\n→ Content pillars\n→ AI prompts\n→ Hook generators\n→ Repeatable post structures\n→ Automations\n\nThe creator leans back in their chair, ready to ride their system off into the sunset.\n\nUntil...\n\n4️⃣ Phase 4: Stagnation\n\nThe system stops working.\nThe golden tool has turned into cardboard.\nImpressions, followers and leads slow down.\n\nBut rather than going back to phases 1 and 2...\n\nWhich is what would keep the brand alive!!!!\n\nThe creator doubles down on the system.\n\n“I just need to make my hooks tighter.”\n“I just need to stick closer to my pillars.”\n“I just need MORE AI help.”\n\nBut it never works.\nBecause the platform has evolved.\n\nAnd NO golden tool lasts forever.\nNo matter how well it worked six months ago.\n\n5️⃣ Phase 5: Departure\n\nThe creator tries TikTok, Instagram and Substack.\nThen eventually gives up and gets a real job.\n\nSo...\n\nIf things are slowing down for you, but you’re still using the same strategy you used six months ago...\n\nDon’t blame the algo.\nAnd don't blame AI saturation.\n\nIt would be nice to build a system that worked forever.\nBut that is just not how life or social media works.\n\nBecome a beginner again.\nKeep experimenting.\nUntil you find your next golden tool.\n\nBut next time, don't get hooked on it.\nUse it until it stops working.\nThen experiment again.\n\nYou got this.\n\n__\n\nP.S. This is also why most companies eventually fail.\n\nIt’s the same journey from startup freedom to enterprise ick.\n\nYou don’t need to treat yourself with the same bureaucracy and constraints as a massive company.\n\nYou are a creator.\n\nStay in startup mode.",
+      "caption_word_count": 448,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 292,
+        "duration_ms_from_gce": 16160,
+        "filename": "5.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/5.gif",
+        "bytes": 2364545,
+        "sha256": "22f83f6e9fa5353632bf36577b12456aeaebf04b94b27644363ca0bc8bfc3b78"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 6,
+      "workbook_row": 8,
+      "creator": "Vincent Pierri",
+      "caption": "11 life principles I wish knew 20 years ago:\n(These solve nearly work related problems)\n\n1️⃣ Hofstadter’s Law\n↳ Everything takes longer than you expect. Even when you expect it to.\n\n2️⃣ Chesterton’s Fence\n↳ Before changing something, understand why it exists in the first place.\n\n3️⃣ Hanlon’s Razor\n↳ Don’t assume someone is malicious when carelessness explains it just fine.\n\n4️⃣ Parkinson’s Law\n↳ Work expands to fill the time you give it. Shorter deadlines create faster action.\n\n5️⃣ Brooks’s Law\n↳ Adding more people to a late project often makes it even later.\n\n6️⃣ Goodhart’s Law\n↳ Once a metric becomes the goal, people start gaming the metric.\n\n7️⃣ Occam’s Razor\n↳ When two explanations fit the facts, the simpler one is usually the better place to start.\n\n8️⃣ Hick’s Law\n↳ More choices create slower decisions. Simplify your options to move faster.\n\n9️⃣ The Pareto Principle\n↳ A small percentage of your actions usually creates most of your results.\n\n🔟 The Dunning–Kruger Effect\n↳ The less skilled you are, the harder it can be to recognize how much you still don’t know.\n\n1️⃣1️⃣ The Peter Principle\n↳ People often keep getting promoted until they reach a job they’re bad at.\n\n90% of my day-to-day work issues could’ve been solved by one of these.\n\nWhich one is your favorite?",
+      "caption_word_count": 211,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 176,
+        "duration_ms_from_gce": 7040,
+        "filename": "6.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/6.gif",
+        "bytes": 1675859,
+        "sha256": "e53d7661b3248439dc9158c4c64853a6ed877fe169ec65a4890c9c33cab77bb2"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 7,
+      "workbook_row": 9,
+      "creator": "Vincent Pierri",
+      "caption": "I made this graphic for Nausheen I. Chen. \n(It got her 1,200+ followers in 24 hours.)\nHere’s how we made it:\n\nNausheen told me the post performed 10x better than one of her typical posts.\n\nHere’s the link so you can see it live:\nhttps://lnkd.in/gykuBXhB\n\nThe exact 4-step process we used:\n\n1️⃣ Nausheen brought an idea\n\nShe had just finished developing a new method she uses to coach top 1% CEOs, founders and leaders.\n\n2️⃣ We filtered and organized the concepts together\n\nHaving a massive amount of expertise is amazing.\n\n(I think she sent me 3–4 pages of content.)\n\nBut we had to figure out:\n\n→ What was most important\n→ What could be cut\n→ How to express it visually\n\nIt’s no good to just throw paragraphs into boxes.\n\nWe decided on a spreadsheet-style chart.\n\nThen we made it very, very spicy.\n\n3️⃣ We animated it\n\nWe went through a few rounds of animation until it was pixel-perfect.\n\n4️⃣ Nausheen wrote a KILLER hook + post\n\nWriting the accompanying post is a service I offer.\nBut I knew Nausheen should write her own.\n\nTypically, the best outcome happens when the creator’s own voice shines through alongside the visual.\n\nThe rest history.\nWe’re starting our next one soon…😇\n\nWant to create viral infographic content like this?\n\nTwo options:\n\n→ We can work 1:1\n→ Join my $599 class and learn to DIY it\n\nRead my About section for all the details.\n\nDM me with questions.\n\nYou’ve got this.",
+      "caption_word_count": 248,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 202,
+        "duration_ms_from_gce": 8600,
+        "filename": "7.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/7.gif",
+        "bytes": 810853,
+        "sha256": "6cc04e5a52e390bb4cfc6ec3b4f2650fd18a686253e03cea783b6e37d82af6f4"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 8,
+      "workbook_row": 10,
+      "creator": "Vincent Pierri",
+      "caption": "I redesigned one of Lara Acosta's infographics.\nLink to original below. This is the remake.\nI changed these 7 things:\n\nBefore: https://lnkd.in/gVD8Cfs2\n\nWhat I changed:\n\n1️⃣ TYPOGRAPHY\n\n→ Removed the script-style subtitle\n→ Made the sub-hook match the panel headers\n→ Made the title about 50% larger\n→ Balanced both title lines\n→ Removed the highlight behind “Dominate”\n→ Made the footer text smaller\n→ Used only 3 font styles besides the title\n\nHeader font. Bullet font. Detail font.\n(Her original had at least 6 or 7)\n\n2️⃣ COLOR\n\n→ Used a pure white outer background for more pop\n→ Limited each panel to one color family\n→ Used only tints of that color for everything\n→ Made bottom-right panel 1 color instead of multiple\n\n3️⃣ DEPTH + SHAPES\n\n→ Added subtle drop shadows to primary shapes\n→ Standardized border thickness and corner radius\n→ Replaced black number boxes with muted circles\n\n4️⃣ SPACING + ALIGNMENT\n\n→ Made panel padding uniform\n\n25 px EXACTLY. Vertical and horizontal.\n\n→ Made every panel gap uniform\n\n15 px EXACTLY. Vertical and horizontal.\n\n→ Fixed the panel-header alignment\n(Some were left. Some centered. Others just off.)\n\n→ Standardized step-number placement\n→ Consistent spacing for headings, shapes and copy\n→ Shrunk outer margins so the panels had more room\n→ Balanced the footer\n\n5️⃣ STRUCTURE\n\n→ Added one dominant visual system to every panel\n(2 of the 4 original panels were almost entirely text)\n\nPanel 1: Stacked expertise system\nPanel 2: 80/20 split\nPanel 3: Modular action list\nPanel 4: Step-by-step blueprint\n\n→ Made all 4 panels feel like one system\n→ Balanced the visual weight across the graphic\n→ Turned the video checklist into punchy labels\n→ Made the 1-to-4 reading order clearer\n\n6️⃣ COPY + READABILITY\n\n→ Made every bullet one line maximum\n→ Cut unnecessary and repeated words\n→ Replaced full sentences with shorter phrases\n→ Made similar bullets follow the same structure\n→ Shortened line lengths for mobile\n→ Turned abstract advice into memorable labels:\n\nMicro-niche\nProof\nInsights\nHook\nFocus\nEngage\n\n→ Made each panel understandable at a glance\n\n7️⃣ VISUAL NOISE\n\n→ Removed almost all empty checkboxes\n→ Removed the tilted “New era” sticker\n→ Removed unnecessary dividers and compartments\n→ Reduced competing text sizes and shapes\n\nLara, please use this version if you repost.\n\nNo charge. :)\n\nThen please hire me to make you some bangers.\n\nP.S. \n\nMy next Infographics Cohort starts Aug 5.\n\n$599 for 4 live sessions.\n\nYou’ll get 100+ templates, unlimited DM help and a custom animated infographic made by me.\n\nPlus a complete training on how to turn your expertise into reach, authority and leads.\n\nLink to details: https://lnkd.in/geAghciM",
+      "caption_word_count": 411,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 195,
+        "duration_ms_from_gce": 8080,
+        "filename": "8.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/8.gif",
+        "bytes": 642366,
+        "sha256": "b751ab439bd68df65ac04a0c80971ae3ddaf1912d37f4ab887f10adbefc4d027"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 9,
+      "workbook_row": 11,
+      "creator": "Vincent Pierri",
+      "caption": "There are 2 ways to use selfies for content strategy\n(depending on whether you're hot or normal looking)\nHere's the breakdown ↓\n\n——— IF YOU'RE HOT ———\n\n1️⃣ TOP of funnel → Selfies\n\n→ Share stories about your life & biz with selfies\n→ Being attractive will help stop the scroll\n→ Impressions will be strong. People will click follow\n\n(Works for both guys and gals)\n\n2️⃣ MIDDLE of funnel → Infographics\n\n→ People already think you're cool\n→ Now show you know your stuff with infographics\n→ Build more trust by sharing expertise\n\n3️⃣ BOTTOM of funnel → Client wins\n\n→ Prove that what you do works\n\n\n——— IF YOU'RE NORMAL LOOKING ———\n\n1️⃣ TOP of funnel → Infographics\n\n→ You can't stop the scroll with your face. That's ok.\n→ Build a following by sharing next level expertise\n→ Dense resources people can actually use\n→ People will click follow before seeing your face\n\n2️⃣ MIDDLE of funnel → Selfies\n\n→ People do still want to know what you look like\n→ Be yourself. Accept it's ok to be average looking\n→ Share stories about your life & biz still\n→ Seeing your face still helps people buy\n\n3️⃣ BOTTOM of funnel → Client wins\n\n→ Prove that what you do works\n\nIn summary:\n\nHOT PEOPLE\n1️⃣ TOP of funnel → Selfies\n2️⃣ MIDDLE of funnel → Infographics\n3️⃣ BOTTOM of funnel → Client wins\n\nEVERYONE ELSE\n1️⃣ TOP of funnel → Infographics\n2️⃣ MIDDLE of funnel → Selfies\n3️⃣ BOTTOM of funnel → Client wins\n\nYou're welcome.\n_____\nSome may say this is shallow. Or satire.\nBut it is also an undeniable scientific fact.\nIgnore at your own risk.\n\nP.s. I have applied this framework to my own content. Check my feed for real examples.",
+      "caption_word_count": 264,
+      "asset": {
+        "format": "jpeg",
+        "width": 1080,
+        "height": 1350,
+        "filename": "9.jpeg",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/9.jpeg",
+        "bytes": 148732,
+        "sha256": "f4080755a6ba90403fa88aba85a306f5b7722555997ae0a6dd0f43dbc9152875"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 10,
+      "workbook_row": 12,
+      "creator": "Vincent Pierri",
+      "caption": "If your follower count isn't growing, I can tell you why within 90 seconds of looking at your profile. It almost always comes down to the same thing. ↓\n↓\n↓\n ↳ Not enough educational content.\n\nHere's what I mean.\n\nThere are 3 kinds of posts you can utilize.\n\n1️⃣ Story-Driven Posts\n\nThese are relatable anecdotes from your life/work.\nThey're light and accessible.\nThis is what is typically considered top of funnel.\n\n2️⃣ Educational Posts\n\nThis is content designed for your ICP to use.\nIt's the infographics and sometimes carousels.\nDense and save-able resources.\n\n3️⃣ POV Posts\n\nThis is the content that argues for your point of view. It's the controversial, hot-take stuff. Designed to attract the right people and repel the wrong ones.\n\nNow when you look at the stats in the graphic...\nYes, story posts get the most likes and comments.\n\nBUT...\n\nEducational posts get 4x the followers of the other two post types.\n\n4x!!!!\n\nWhen your follower count is stuck, it's almost always because you're posting mostly story posts or POV posts. \n\nThink about it like this:\n\nIf someone is mostly talks about themselves...\nor tries to convince you of something...\ndo you want to listen to that person?\n\nWould you want to follow that person??\n\nPeople say that educational content is dead.\n\nLet this chart finally convince you otherwise.\n\n\"But aren't there some big creators who don't post any educational content?\"\n\nYes. \n\nThere are some people who have such interesting backstories and lives that they can just talk about themselves. \n\nAnd people show up to listen.\n\nOr they are INCREDIBLY good at humor/entertainment/memes/funny POV stuff.\n\nBUT... \n\nfor the rest of us?\n\nEducational is your best bet to grow a following.\n\nIf you're an expert, teach people your craft. \nThey'll show up in droves.\n\nAnd if you post educational content and no one cares?\n\nThat's actually good news… kinda.\nOr at least an important insight.\n\nIt means you probably need to go back and sharpen the saw.\n\nIf you're an expert and no one follows you for your expertise... it might be time to build your expertise.\n\nHelp people win. \nGive them resources they can use. \nIf they don't care, make better resources.\n\nEverything else will work itself out.\n\nP.S. These stats come from 4 months of my own content. Thanks to my EA Olivia Crank for gathering the data.\n\nP.P.S. Want to learn how to turn your expertise into viral infographics?\n\nI'll teach you everything I know in a 4-week class this August.\n\n$599 bucks + I\"ll make your first infographic for free.\n\nDetails & sign up: https://lnkd.in/geAghciM",
+      "caption_word_count": 437,
+      "asset": {
+        "format": "jpeg",
+        "width": 1080,
+        "height": 1350,
+        "filename": "10.jpeg",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/10.jpeg",
+        "bytes": 141436,
+        "sha256": "a4d9b9181067012a0678b302dc787ac29f7efc40b4bb46f142a953ef1666c18b"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 11,
+      "workbook_row": 13,
+      "creator": "Vincent Pierri",
+      "caption": "You: “How do I turn my ideas into cool infographics?”\nMe: You have 3 options. ↓\n1️⃣ Hire a graphic designer\n\nPros:\n→ Usually the cheapest option\n→ Good if you already have a clear strategy\n→ Can make your ideas look more polished\n\nCons:\n→ The graphic is only as strong as your brief\n→ You need to know what to ask for\n→ You need to how to visualize your ideas\n\nA graphic designer can make your idea look better. But they usually won’t tell you which idea is worth turning into a graphic.\n\n2️⃣ Hire a content curator\n\nThese are the people who find other people’s posts.\nThey look for viral ideas in your niche.\nThen they repurpose them for you.\n\nPros:\n→ Faster\n→ Less strategic work from you\n→ Ideas are “pre-validated”\n\nCons:\n→ Generic by definition\n→ Built on other people’s ideas\n→ Harder to create a unique POV\n\nThis can work.\n\nBut it is not the best way to build a thought leadership brand.\n\n3️⃣ Hire a visual content strategist\n\nSomeone like me.\n\nHere’s what I do. I don’t just “make graphics.”\n\n(Although yes...I will obviously make them all for you.)\n\nI help your turn your expertise into a visual content engine.\n\nThe process:\n\n1. Create your infographic identity\n\n→ Fonts, colors, layouts, and visual patterns\n→ Optimized for your specific brand\n→ Tailored for LinkedIn traction\n\n2. Build your framework library\n\n→ Clarify your niche and POV\n→ Map your strongest ideas\n→ Filter for pain, novelty, and save-worthy density\n\nI guide the whole process.\n\nI do not expect you to already know which ideas are best to post about.\n\nThat is literally the point of hiring me.\n\n3. Turn your best ideas into posts\n\nI help you find the most interesting ways to visualize your expertise.\n\nThen we turn those ideas into custom graphics and POV-driven text posts.\n\nBy the end, every pixel is absolute fire.\n\nWe tweak until it's perfect and looks exactly how you want it.\n\nIt's the same strategy I used to build my own public-speaking consultancy.\n\nTurned into a 6-figure side hustle while I was in-house.\n\nIt’s what led to viral posts for my clients:\n\nE.g. 1—https://lnkd.in/gykuBXhB\nE.g. 2—https://lnkd.in/g4Xek7Yq\nE.g. 3— https://lnkd.in/gJiVT9fB\nE.g. 4—https://lnkd.in/gRSXwar6\nE.g. 5—https://lnkd.in/gU9f35yp\n\nAnd these...\n\nE.g. 6—https://lnkd.in/g3VtP93e\nE.g. 7—https://lnkd.in/gJTNV7xc\nE.g. 8—https://lnkd.in/g7psDiZG\nE.g. 9—https://lnkd.in/ggXWth3G\nE.g. 10—https://lnkd.in/g2nPCkzN\n\nAnd it has helped clients get:\n\n→ Their first wildly successful posts\n→ Massive follower growth\n→ More subscribers\n→ More inbound leads\n→ More discovery calls than they could keep up with\n\nPricing:\n→ Kickoff: $3K\n\nYou get:\n→ Your infographic brand identity\n→ Your first 5 fully built visuals\n→ POV-driven text posts\n\nOPTIONAL: profile full redo for additional $1k\n\nAfter that:\n→ $1,500/month for ongoing creating, strategy, design, coaching, and performance feedback\n\nI’m taking on 2 clients next month.\n\nIf you’re serious about doing this thing DM me.\n\nOr book a call here: https://lnkd.in/gGZ_E-DN\n\nSee ya soon.",
+      "caption_word_count": 517,
+      "asset": {
+        "format": "jpeg",
+        "width": 1080,
+        "height": 1350,
+        "filename": "11.jpeg",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/11.jpeg",
+        "bytes": 240688,
+        "sha256": "af4879fdd63fbb1c2be819a4d748e45f9b0cb029b826d4595d575875187d12fb"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 12,
+      "workbook_row": 14,
+      "creator": "Vincent Pierri",
+      "caption": "There are 3 kinds of “going viral.” \nOnly 1 helps your business.\nHow to nail it. ↓\n\nQuick breakdown:\n\n1️⃣ Empathy Virality\n\nThis is the most common kind of viral.\n\nWhat is empathy virality?\n→ Relatable stories\n→ Shared frustrations\n→ “I feel seen” moments\n\nThe post goes viral because it strikes a human nerve.\nThese are often paired with simple selfie posts.\n\nHow can you tell you hit empathy virality?\n↳ Likes: 2–4% of impressions\n↳ Saves: 0.1–0.6%\n↳ Comments: 0.1–0.3%\n\nWhy this doesn’t help your business much\n✖️ The virality has nothing to do with your offer\n✖️ High engagement fast, then the post dies\n✖️ Zero compounding value\n\nThis is why people say,\n“It's not worth trying to go viral!”\n\nWhen it comes to this kind of virality, 100% agree.\nFor business purposes, it’s basically useless.\n\n2️⃣ Debate Virality\n\nThis is the loudest kind of viral.\n\nWhat is debate virality?\n→ Strong POVs\n→ Hot takes\n→ Black-and-white framing\n→ Content people argue about\n\nHow can you tell you hit debate virality?\n↳ Likes: ~2–3% of impressions\n↳ Comments: 0.6–1.5%\n↳ Saves: 0.3–0.8%\n\nThese posts grow as long as debate continues.\n\nThis can be good or bad for your business\n→ Massive visibility\n→ Strong POV positioning\n\nBut it can polarize…and it doesn’t always convert.\n\nIt's only worth it if your post is closely related to your actual service.\n\n3️⃣ Resource Virality\n\nThis is the most overlooked kind of viral…\n\n…and the MOST profitable.\n\nWhat is resource virality?\n→ Tactical frameworks\n→ Repeatable systems\n→ Checklists people reuse\n\nContent people actually save.\n\nHow can you tell you hit resource virality?\n↳ Saves: 2–4%+ of impressions\n↳ Likes: 1.2–3%\n↳ Comments: 0.2–0.6%\n\nThese posts start slower, but compound over time.\n\nWhy resource virality is AMAZING for your business.\n✓ Builds trust automatically\n✓ Compounds over weeks\n✓ Establishes you as THE resource in your space\n\nThe 3 keys to create \"Resource Virality\" posts\n\n1) Density\n→ One post answers many questions\n→ Enough scannability to get it at a glance\n→ But tons of depth so people want to refer back\n\n2) Clarity\n→ Simple structure beats clever writing\n\n3) Save-worthiness\n→ People think, “I’ll need this later”\n\nInfographics work by far the best.\n\nSome people say,\n“Going viral isn’t worth it.”\n\nIt depends on which kind of viral you m ean.\n\nIf you just want growth → empathy helps.\nIf you want to be known for a POV → debate helps.\nIf you want a business → resource virality win.\n\nSave this so you can build the right kind of viral content.\n\nYou got this.",
+      "caption_word_count": 423,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 200,
+        "duration_ms_from_gce": 8000,
+        "filename": "12.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/12.gif",
+        "bytes": 1068428,
+        "sha256": "bea18ab3352ef709244a18b842655464f6a382f9d88e0a7abc341c2f1722af4b"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 13,
+      "workbook_row": 15,
+      "creator": "Vincent Pierri",
+      "caption": "Here are 4 steps to create an animated funnel visual.\nSave this one, design nerds.\n(Also, skip to bottom for fun AI rant.)\n\n1️⃣ Build each slice of the funnel\n\nYou need 3 parts for each section:\n\n→ top oval\n→ middle rectangle\n→ bottom oval\n\nLayer them in that order.\n\nAdd a gradient to the middle and bottom so they feel like one section.\n\n2️⃣ Create an expanding animation for each slice\n\nResize the rectangles. Move the top ovals.\nThat creates the “expanding funnel” effect.\n\n3️⃣ Trigger each expansion one at a time\n\nMake each expansion its own group.\n\nThat way you can move each section around later without rebuilding the whole thing.\n\n4️⃣ Move the sections as they expand\n\nStart with all the flattened sections at the bottom.\nAs each one expands, move the rest up.\nRepeat until the whole funnel is expanded.\n\nRANT SECTION\n\nNow all you AI folks are wondering:\n\n“Can’t AI do this?”\n\nTo which I say:\n\nNot yet.\n\nMaybe someday. Maybe tomorrow. Maybe never.\n\nBut here’s what I do know.\n\nComputer animation first showed up in Hitchcock’s *Vertigo* title sequence in 1958.\n\nThat was 68 years ago.\n\nHumans can manually control every single pixel of CGI output. Hollywood spends MILLIONS on it.\n\nAnd somehow...\nit still often looks totally fake.\n\nI have the same expectation with AI visuals and infographics.\n\nWhen the robots make it...\n\nit usually looks like the robots made it.\n\nGeneric content and generic layouts.\n\nAt the end of the day, it’s just poorly copying humans.\n\nA lot of people are using AI to copy my graphics.\nI get tagged in them a few times a week.\n\nAnd as you might expect...\nthey look like Walmart versions of mine.\n\nSo for now, I keep making them by hand.\n\nAm I a grumpy old man who can’t get with the times?\n\nMaybe.\n\nWe’ll see.\n\nBut it takes me about 1 hour per graphic.\n\nThe folks using AI say it takes them about the same.\n\nSo at the end of the day:\n\nSame time required. Much lower quality.\n\nFood for thought, friends.\n\nPS. Want to learn how to turn expertise into infographics?\n\nCome to my animated infographics cohort.\n\n4 weeks. $599. Starts August 5th.\n\nI'll teach you this cool animation stuff.\nBut even more importantly I'll teach you how to...\n\n1. Turn thoughts into frameworks\n2. Turn frameworks into visuals\n3. Turn visuals into detailed infographics\n4. Make those infographics look pristine\n5. Make those pristine infographics animated.\n\nAll for $599, PLUS I'll make your first one for you.\n\nUnlimited DM support through the month as well.\n\nWe can talk about infographics, your offer, positioning, etc.\nHere for you through the 4 week journey.\n\nDetails + testimonials: https://lnkd.in/gVU8EyCM\nSign up link: https://lnkd.in/gNRXiCJP\n\nSee you soon!",
+      "caption_word_count": 464,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 235,
+        "duration_ms_from_gce": 10520,
+        "filename": "13.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/13.gif",
+        "bytes": 3086379,
+        "sha256": "25adf75c4a6e94fdedc7c40f578dd67b777d30b17179ee0edf772d453d6c327f"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 14,
+      "workbook_row": 16,
+      "creator": "Vincent Pierri",
+      "caption": "Henneke signed up for my infographic cohort.\nNever posted an infographic before. The results:\nImpressions up 281%. Engagement up 189%.\n\nHenneke is a writing coach.\n\nShe helps people write with more clarity, personality, and soul.\n\nShe already had a strong voice and POV.\n\nBut she had never used infographics as a core content format.\n\nSo she came to my cohort.\n\nOver 4 weeks, she learned the basic skills:\n\n→ How to turn expertise into visual frameworks\n→ How to get the right density on the page\n→ How to make the graphic clear instead of cluttered\n→ How to adapt the format to her own brand\n→ How to write hooks & captions that support the graphic\n\nShe leaned into the DM support I offer for members.\n\nAsked me questions all along the month-long journey.\n\nAnd I gave her TONS of feedback on...\n\n→ Structure\n→ Colors\n→ Density\n→ Positioning\n→ How to make the graphic feel more “her”\n\nThen she started posting.\n\nHer first infographic got:\n\n→ 22,720 impressions\n→ 467 likes\n\nHer fifth infographic got:\n\n→ 20,416 impressions\n→ 277 likes\n\nOverall, since posting her first infographic:\n\n→ Impressions are up 281%\n→ Engagement is up 189%\n\nAnd she’s only posted 6 total.\n\n2 of the 6 have already crossed 20K impressions.\n\nIf you're thinking:\n\n\"I don't have time for this!\"\n\nListen here:\n\nHenneke told me posting 1 infographic a week is working well for her.\n\nIt's a maneagable workload.\n\nYou don't need to post infographics every single day.\nYou don't need to abandon your normal content.\nYou don't need to become a designer.\n\nYou just need to learn how to package your expertise visually now and then.\n\nIt goes a very long way.\n\nSo if you want to learn how to do this too...\n\nCome join the next cohort.\n\n→ Starts August 5\n→ $599\n→ 4 live classes\n→ 100+ templates\n→ Unlimited DM support\n→ And I’ll even make your first graphic for you\n\nYep.\n\nI’ll personally make one custom graphic for every person who joins.\n\nHere are ALL the details: https://lnkd.in/gJxmunFm\n\nAnd here’s the sign-up link: https://lnkd.in/gNRXiCJP\n\nSee you soon. :)",
+      "caption_word_count": 342,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 138,
+        "duration_ms_from_gce": 8000,
+        "filename": "14.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/14.gif",
+        "bytes": 1463448,
+        "sha256": "a56b471028cd883ca6e9412ab7962c566df00074736fe3be12f6cec8cfa68918"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 15,
+      "workbook_row": 17,
+      "creator": "Vincent Pierri",
+      "caption": "Most people don’t need better PowerPoint skills.\nThey need a faster way to make a deck... \n...that doesn’t look terrible.\n\nThat’s where Gamma comes in.\n\nFor years, making a deck meant one of two things:\n\n→ Use a generic template\n→ Spend hours moving boxes around\n\nNeither option was great.\nThe deck looked very bland.\nOr it took forever.\n\nGamma makes the whole thing easier.\n\nYou can use it to create:\n\n→ Client pitches\n→ Sales decks\n→ Proposals\n→ Project updates\n→ QBRs\n→ Portfolios\n→ Campaigns\n→ Brand guides\n→ Investor decks\n\nAnd the process is pretty simple.\n\n1️⃣ Pick a template\n\nGamma handles most of the layout, spacing and design.\n\n2️⃣ Make it yours\n\nAdd your content, switch the visuals and clean up anything that feels off.\n\n3️⃣ Share the result\n\nYou can have a solid-looking deck ready in under 20 minutes.\nWithout spending half your day in PowerPoint.\nOr moving the same text box 14 times.\n\nCheck the infographic for a simple breakdown of how it works ↓ \n\nClick here to try: https://lnkd.in/gz4DRC7V\n\nhashtag#GammaPartner",
+      "caption_word_count": 170,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 126,
+        "duration_ms_from_gce": 8600,
+        "filename": "15.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/15.gif",
+        "bytes": 885629,
+        "sha256": "2c730805c4b4e7676756a88d370dcbd2e9c0c694ab1d895a53e7cb875dda9dce"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 16,
+      "workbook_row": 18,
+      "creator": "Vincent Pierri",
+      "caption": "Gifted people often struggle to build a biz on LI.\nAverage people often find it easy. Why?\n\nYes, you need some gifting.\nBut many talented people struggle to get traction.\n\nHere’s why:\n\nOftentimes, average gifted people have fewer options.\n\n→ They’re good at 2–3 things.\n→ So they pick 1 and focus.\n\nSuper gifted people are often good at 7–10 things.\n\n→ So they have a harder time picking.\n→ And a harder time finding a niche.\n\nThe riches are in the niches, as they say.\n\nBut finding your niche means cutting things you COULD do well.\n\nIf you’re struggling with LI, here’s a 5-step process to find your niche.\n\nI’ll use my journey as an example.\n\n1️⃣ List problems you can solve\n\nCreate an inventory of every problem your skills can solve.\n\nHere was my original list:\n\n✓ Accountability coaching\n✓ Strategic planning\n✓ General infographics\n✓ Slide-deck design\n✓ Brand identities\n✓ Mindset coaching\n✓ Hiring & firing soft skills\n✓ Keynote creation\n✓ Animated infographics\n✓ Website design\n✓ Video editing\n✓ Speaking delivery skills\n✓ Leadership principles\n✓ Emotional intelligence coaching\n\n2️⃣ Filter by teachability\n\nThe fastest way to get leads is by teaching your expertise for free.\n\nYou can market other ways, but teaching is the easiest.\n\nHere was my filtered list with the less-teachable options removed:\n\n✓ Ghostwriting\n✓ Video editing\n✓ Brand identities\n✓ Keynote creation\n✓ Animated infographics\n✓ Slide-deck design\n✓ Leadership principles\n✓ General infographics\n\n3️⃣ Filter by what you enjoy\n\nJust because you can teach something doesn’t mean you want to build a business around it.\n\nYou should actually enjoy it.\n\nHere was my filtered list with the things I didn’t want to do all day removed:\n\n✓ Video editing\n✓ Brand identities\n✓ Animated infographics\n✓ General infographics\n✓ Keynote creation\n\n4️⃣ Filter by demand/value\n\nMy first niche was helping write keynotes for execs.\n\nIt was a low six-figure side hustle.\n\nI realized animated infographics were a bigger, more immediate need.\n\nWhich led me to:\n\n✓ Animated infographics\n\nThat was the clearest overlap between:\n\n→ What I could teach\n→ What I enjoyed\n→ What people valued\n→ What people were already asking me for\n\n5️⃣ Choose only one buyer\n\nYou can’t speak clearly to everyone at the same time.\nFocus your content and offer on one specific ICP.\n\nHere was my final niche:\n✓ Animated infographics for solopreneurs\n\nThat’s the process:\n\n1️⃣ List everything you could solve\n2️⃣ Keep what you can teach\n3️⃣ Keep what you enjoy\n4️⃣ Keep what people urgently want\n5️⃣ Choose one clear buyer\n\nYour niche usually isn’t something you find.\n\nIt’s what remains after filtering a bunch of stuff.\n\nSave this for your next business identity crisis.\n\nP.S. Want to learn how to create infographics that build your biz?\n\nCome join my cohort in Aug.\n\n→ Four 1-hour sessions\n→ 100+ templates\n→ Unlimited DMs\n→ A custom infographic DFY\n→ Guest sesh with Magali\n→ $599\n→ Details: https://lnkd.in/gNRXiCJP\n\nDM with Qs!",
+      "caption_word_count": 464,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 199,
+        "duration_ms_from_gce": 18320,
+        "filename": "16.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/16.gif",
+        "bytes": 2277341,
+        "sha256": "69d3f59751abc7522f73abbf203279db1b9c1ffafd2eb9a4a6f19e8a787a6b1e"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 17,
+      "workbook_row": 19,
+      "creator": "Vincent Pierri",
+      "caption": "This is my content strategy.\nIt’s how I grew from 0–34k in 24 months.\nIt has 4 parts. How it works ↓\n\n(Drop this image into AI.\nUse to create your content strategy.\nAsk for pillars, post ideas and hooks.)\n\nHere’s the four-part system.\n\n1️⃣ Practical Content\n\nWhat is practical content?\n- Useful content your ICP can apply immediately\n- Exceptional value, even if they never hire you\n- Bonus if it’s packaged in beautiful visuals\n\nWhat is the purpose?\n↳ Serve your audience and build your following\n\nWhat is success?\n↳ People click follow because you’ve made their lives easier\n\nHow do you come up with it? Ask yourself:\n- What frameworks do I use?\n- What tools does my ICP need help using?\n- What guides could people use with AI?\n\nBest formats:\n↳ Infographics and video tutorials\n\n2️⃣ POV Content\n\nWhat is POV content?\n- Your unique perspective on your industry\n- What you do that others won’t\n- Actual hot takes and industry misconceptions\n\nWhat is the purpose?\n↳ Differentiate yourself and attract the right people\n\nWhat is success?\n- The right people become more bought in\n- People comment to agree, disagree or debate\n- You become known for a POV, not just tips\n\nHow do you come up with it? Ask yourself:\n- What do I believe that others don’t?\n- What hills am I willing to die on?\n- Where have I changed my mind over time?\n\nBest formats:\n↳ Selfies, text-only posts and video\n\n3️⃣ Personal Content\n\nWhat is personal content?\n- Your personal and/or business-related experiences\n- Your story, processes, problems and milestones\n- Behind-the-scenes of what you’re building\n\nWhat is the purpose?\n↳ Build human connection\n\nWhat is success?\n- People feel connected\n- Trust is built\n- Replies, DMs and “this hit” messages\n\nHow do you come up with it? Ask yourself:\n- What revenue milestone have I reached?\n- What part of my story haven’t I shared?\n- What’s happening behind the scenes?\n\nBest formats:\n↳ Selfies, text-only posts and video\n\n4️⃣ Promo Content\n\nWhat is promo content?\n↳ A clear offer supported by actual proof\n\nWhat is the purpose?\n↳ Create inbound leads\n\nWhat is success?\n- Buying feels easy\n- Inbound DMs\n- Paid invoices\n- People saying, “How do I sign up?”\n\nHow do you come up with it? Ask yourself:\n- What client quotes can I share?\n- What measurable client results can I show?\n- What offer could I explain more clearly?\n\nBest formats:\n↳ Carousels and proof pictures\n\nThat’s it. Four parts.\n\nRecommended frequency:\n\n1️⃣ Practical: 45%\n2️⃣ POV: 25%\n3️⃣ Personal: 15%\n4️⃣ Promo: 15%\n\nYou got this!\n\nP.S. Want to learn how to create animated infographics that build your following and business?\n\nCome join The Infographics Cohort in August.\n\nI’ll teach you and a few others everything I know.\n\n→ Four 1-hour live sessions\n→ 100+ plug-and-play templates\n→ Unlimited async DM support\n→ A custom animated infographic made for you\n→ Guest session with Magali De Reu\n→ Starts August 5 at 9:30 AM EST\n→ $599 total\n→ Details here: https://lnkd.in/gNRXiCJP\n\nDM me with any Qs!",
+      "caption_word_count": 485,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 152,
+        "duration_ms_from_gce": 8000,
+        "filename": "17.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/17.gif",
+        "bytes": 503120,
+        "sha256": "00ef8e0b492c147cad850b0e48783e7ac0631d55d918fa643b2fc520b9e71f1b"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 18,
+      "workbook_row": 20,
+      "creator": "Vincent Pierri",
+      "caption": "I got 6m impressions my first year on LinkedIn.\nHere are the 3 hook styles you must master:\n\nSave this for your next round of posts:\n\n1️⃣ Hook Style #1: Desire-Driven\n\nLead with an outcome your audience wants.\nTease the “how” without giving it away.\n\nFRAMEWORK 1: Outcome + process\n\ne.g.\nThis is my content strategy. How I grew from 0–34k.\nIt has 4 ingredients. Here’s how it works.\n\nFRAMEWORK 2: Outcome + simple fix\n\ne.g.\nHow do I give a 30-min talk without being boring?\nHere’s the secret.\n\nFRAMEWORK 3: Outcome + blindspot\n\ne.g.\nThere are 3 kinds of “going viral.”\nOnly 1 helps your business. How to nail it.\n\nFRAMEWORK 4: Outcome + social proof\n\ne.g.\nI’ve trained 50 speakers in the last 12 months.\nHere are 5 tactics that help with stage fright.\n\n2️⃣ Hook Style #2: POV-Driven\n\nDisagree with a commonly held belief.\nTease why to make people click “...see more”\n\nFRAMEWORK 1: Overestimated value + downside\n\ne.g.\nBrilliant thinkers often deliver uncompelling talks.\nAverage thinkers often persuade. The difference?\n\nFRAMEWORK 2: Social proof + common mistakes\n\ne.g.\nI’ve coached ~70 speakers in 2025.\nHere are the 6 delivery mistakes I see most.\n\nFRAMEWORK 3: Unexpected belief + tease\n\ne.g.\nI believe anyone can give a 35-min talk without notes.\nHere’s why.\n\nFRAMEWORK 4: Negative outcome + self-test\n\ne.g.\nWhen a speaker is unlikable, everyone can feel it...\n...except the speaker. Here’s how to test your likability.\n\n3️⃣ Hook Style #3: Story-Driven\n\nLead with a story people want to hear.\nTease the process, lesson or outcome.\n\nFRAMEWORK 1: Outcome + process\n\ne.g.\nI made this graphic for Tas. Got her 700 followers in 48 hours.\nHere’s how we made it.\n\nFRAMEWORK 2: Life event + ask for advice\n\ne.g.\nJust quit my day job.\nLooking for advice.\n\nFRAMEWORK 3: Credibility + life timeline\n\ne.g.\n28,000 followers, but I’ve never shared my life story.\nHere’s my life’s timeline in 11 bullets.\n\nFRAMEWORK 4: Relatable confession\n\ne.g.\nAs a dad, I feel constantly caught in this tension:\nbeing a good provider vs. being a good example.\n\nDrop these frameworks into AI.\nAdd your audience, expertise and topic.\n\nThen ask it to write 10 versions of each.\n\nThat gives you 120 hooks.\n\nGreat posts can die under weak hooks.\n\nMaster these 3 styles and give your best ideas a fighting chance.\n\n---\n\nP.S. Want to create viral infographics that build your business?\n\nCome join my 4-week sprint cohort:\n\n“How to Create Viral Infographics That Build Your Biz”\n\n→ Starts August 5\n→ $599 total\n→ 4 live, small-group classes\n→ Unlimited DM support\n→ 100+ editable templates\n→ I’ll make your first graphic for you\n\nDetails: https://lnkd.in/gJxmunFm\nCase study: https://lnkd.in/deViRkzQ\n\nSee you soon. :)",
+      "caption_word_count": 457,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 299,
+        "duration_ms_from_gce": 11960,
+        "filename": "18.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/18.gif",
+        "bytes": 1342768,
+        "sha256": "cc4438157229b42dda8effab52af3c515a1ca1f99cbfe0de65dd13cbfa799f6f"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 19,
+      "workbook_row": 21,
+      "creator": "Vincent Pierri",
+      "caption": "Solopreneur: \"My offer isn't getting enough traction.\"\nMe: Here are 10 criteria to test it against.\n\nI've worked with 200+ solos over the last year or so.\nSo much success or failure comes down to their offer.\n\nBefore I sold animated infographics...\n[an unfairly easy to sell offer]\n...I had an ACTUAL biz selling speaking coaching.\n\nI turned it into a 6-figure side hustle in 6 months.\n\nSo much of my traction came down to the offer.\n\nMy offer was:\n↳ \"I help SaaS leaders nail their first conference talk.\"\n\nMany clients said I helped them become great communicators.\n\nBut if my offer had been:\n↳ \"I help leaders become great communicators.\"\n\nI would have made $0.\n\nThe 1st one hits 9/10 criteria for an easy-to-sell offer.\nThe 2nd one hits 2/10.\n\nHere are the 10 criteria:\n\n(in order of importance, from most to least.)\n\n1️⃣ The problem is known and specific\n\nIdeally, it is tied to the kind of work that is already present on someone's actual calendar.\n\n(I.e., preparing for a conference talk.)\n\n2️⃣ The problem is urgent\n\nTime, money, or personal satisfaction on the line.\nAnd your ICP is ALREADY feeling it.\n\n3️⃣ The outcome is narrow\n\nNailing one talk is a narrower outcome than becoming a great communicator.\nMore accessible and, therefore, more exciting.\n\n4️⃣ The value is fast rather than slow\n\nIf it's going to take a long time and a lot of money before there's any change...\n...you'd better aim for a VERY specific niche and have a ton of proof.\n\n5️⃣ The results are easy to measure\n\n\"Nailing a talk\" is very subjective.\nThat was the biggest problem with my first offer.\nIt's hard to measure.\nIt's best if the customer knows they can track success or failure.\n\n6️⃣ There is only one decision-maker\n\nFor many offers, this isn't an option.\nBut if there's a way to structure it this way, it's far easier to sell.\n\n7️⃣ The commitment is short-term\n\nThe commitment I ask for is only one month.\n\nEspecially if you want to go high-ticket, start with a short-term commitment.\n\n8️⃣ There is low buyer effort\n\nThis was the hardest part about selling conference talk prep.\n\nIt's a TON of work for the buyer.\n\nBut the earlier criteria outweighed it.\n\n9️⃣ There is low risk if it fails\n\nIf you're asking to fundamentally alter someone's business or department, it will be harder to sell...\n\n...even if the outcome is good.\n\n🔟 The process is standardized rather than custom\n\nPeople like to buy something you've sold many times before.\n__\n\nIf you are missing five or more of these criteria...\n...you may never get traction with your current offer.\n\nRedo or refine the offer and see what happens.\n\nP.S.\n\nWant to turn your expertise into cool graphics like this?\n\nHere are two options:\n\n1️⃣ The Animated Infographics Cohort\n\nStarts August 5 — $599\nNo design background needed.\n(I'll make one graphic for every member.)\nDetails here: https://lnkd.in/gsaBCX7T\n\n2️⃣ Work with me 1:1 — $1,500 subscription\n\n4–8 graphics a month. I make them.\nWe have a lot of fun.\nDetails here: https://lnkd.in/gxbhMFzs",
+      "caption_word_count": 527,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 136,
+        "duration_ms_from_gce": 11920,
+        "filename": "19.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/19.gif",
+        "bytes": 1625506,
+        "sha256": "635b6e35086bb91c0530c23912cc1372db747efdee0bcdf7549ed4c8cab9ef82"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 20,
+      "workbook_row": 22,
+      "creator": "Vincent Pierri",
+      "caption": "“Organic reach is dead.” But I just helped Heike Young get 37k organic impressions...\n....on a promo post for a brand. Here's how:\n\nA pure brand partnership post is the exact kind of post people ASSUME LinkedIn will bury...\n\n...especially if it's not boosted with paid spend.\n...and this one had 0 dollars behind it.\n\nBut it was NOT buried.\n\n→ 37,228 impressions\n→ 76 comments\n→ 51 reposts\n→ 747 saves\n→ 779 likes\n\nSo what happened?\n\nThe post worked because it followed the same rules I have been RUTHLESS about with my clients.\n\n1️⃣ Big Problem\n→ Aim for a real, painful problem people are facing\n\n2️⃣ High Actionability\n→ Give them a solution they can use immediately\n\n3️⃣ Low Saturation\n→ Make sure the solution feels somewhat new\n\n4️⃣ High Density\n→ Pack in so much info people MUST click \"save\"\n\nThat's it.\n\nDespite being essentially an advertisement... it still hit those bench marks.\nAnd therefore it was hashtag#blessed post.\n\nHuge win for Heike Young and huge win for her partnership with Storyblok.\n\nHere are some OTHER recent hashtag#blessed posts from myself, my 1:1 clients, and my cohort members:\n\nhttps://lnkd.in/gaCaVeuM\nhttps://lnkd.in/gfeEJ8eJ\nhttps://lnkd.in/g6kKy7Z7\nhttps://lnkd.in/gD8BzWm8\nhttps://lnkd.in/gJ86tgPV\n\nWe all want to automate and systematize LI content creation.\n\nDo it as fast & Claude powered as possible.\n\nBut there's just no point if no one reads it.\n\nYou've got to aim for QUALITY.\n\n90 minutes per week creating 5 posts is worse than\n90 minutes a week on 1 post that really helps people.\n\nYou already have the material:\n\n→ Content breakdowns\n→ Repeatable processes\n→ Frameworks\n→ Workflows\n→ Systems\n\nThings that people can actually USE.\n\nTake them and turn them into a beautiful infographic.\n\nWatch the impressions fly.\n\nHit me up if you want to go further faster.\n\nNext cohort/class where I teach this starts August 5.\n\n• More details drop tomorrow.\n• DM me if you're ready to join.\n• Or sign up here: https://lnkd.in/gNRXiCJP\n\nIf you want to work together 1:1, here's the details:\n\nhttps://lnkd.in/gWQcZhh2\n\nOrganic reach ain't dead.\n\nThe bar has just been raised.\n\nAnd you can rise with it.",
+      "caption_word_count": 363,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1317,
+        "frame_count": 80,
+        "duration_ms_from_gce": 6080,
+        "filename": "20.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/20.gif",
+        "bytes": 2234343,
+        "sha256": "9cc732d9b9a4dc238fed27689ff5dedc0ad4504ea4f0ab1a174411644e421d41"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 21,
+      "workbook_row": 23,
+      "creator": "Vincent Pierri",
+      "caption": "I've averaged 1300+ new followers/month for 2 years.\nIt took learning 3 skills and using them every week. \nHow to do all 3: ↓\n\nSkill 1️⃣: Thoughtful Commenting\n\nYou must leave great comments on others' posts.\nYou never graduate from this.\n\nI got one from Justin Welsh the other day.\n850k followers.\n(Yes, it's his team, but the point stands.)\n\nWhy leave comments?\n↳ Create new connections and increase visibility\n↳ Comments often get more views than posts\n\nWho to comment on?\n↳ Peers in your field: some will comment back\n↳ Your ICP: Most will ignore. Some will convert.\n\nHow many comments to leave per day?\n↳ 5-10 is ideal. Do what you can handle\n\nWhat to say in each comment?\n↳ Check infographic for templates\n\nSkill 2️⃣ Tactful DMing\n\nYou must send great DMs to friends and prospects.\nYou ALSO never graduate from this.\n\nGot one from Darren McKee the other day.\nHe was just checking in.\nHe's got 150k followers.\n\nWhen he DMs me...\n* I feel good\n* I'm more likely to engage with this content\n\nI'm not saying that's WHY he checked in...\nBut that's typically how it works.\n\nWho to DM?\n↳ Peers: people you genuinely want to know\n↳ Warm leads: people liking, commenting, or sharing\n↳ Also, learn to soft pitch warm leads\n\nHow many DMs per day?\n↳ 2-3 is enough\n↳ Don't overwhelm yourself\n\nHow to DM warm leads?\n↳ Check the infographic for templates\n\nSkill 3️⃣ Ultra-engaging content\n\nHere are the four post types I recommend (4Ps):\n\n1. Personal Posts\n\n↳ Connect people to your story.\n↳ Formats: picture, video, text\n↳ Talk about recent wins, challenges, questions, hobbies, learnings, life/family, and growth.\n\n2. Practical Posts\n\n↳ Teach something people will actually use.\n↳ Formats: infographics, text only\n↳ Share actionable frameworks, guides, templates, tool overviews, do’s vs. don’ts, and time-savers.\n\n3. Point of View Posts\n\n↳ Differentiate yourself.\n↳ Formats: picture, video, text\n↳ Talk about best practices you don’t do, “wrong” things you do, industry debates, and expertise you think is outdated.\n\n4. Promo Posts\n\n↳ Give people a reason to buy.\n↳ Formats: picture, video, text only\n↳ Talk about measurable client results, how you help people make $$$, from X to Y in Z time, unexpected benefits, and wins.\n\nIdeally, you post one of these per week.\n→ Personal\n→ Practical\n→ Point of View\n→ Promo\n\nThen support them with:\n↳Daily comments\n↳Daily DMs\n\nThe HARDEST part about doing this is the 3rd step.\n↳ Ultra-engaging content.\n\nThat's why this Thursday, Magali and I are rolling back the curtain and showing you how to do it.\n\nWe'll be building a brand new viral post live on the call.\n\nYou’ll get to watch us:\n↳ Decide between decent and exceptional ideas\n↳ Turn a raw idea into a framework\n↳ Decide what should be visual and what shouldn’t\n↳ Test hooks, structures, and angles\n↳ Make the post feel useful and save-worthy\n↳ Write a brilliant caption\n\nYou should come.\nLink: https://lnkd.in/g-YhF8n2\n\nPrice just went up to $100.\nWorth it.\n\nSee you Thurs @ 11am EST",
+      "caption_word_count": 486,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 175,
+        "duration_ms_from_gce": 7000,
+        "filename": "21.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/21.gif",
+        "bytes": 1893226,
+        "sha256": "647ea5128142f7da4115b44b843cb938118aec0f6c6a596c63689ef597f5bec3"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 22,
+      "workbook_row": 24,
+      "creator": "Vincent Pierri",
+      "caption": "First infographic → 24 engagements.\nLatest infographic → 313 engagements.\nHow I cracked virality in 23 months ↓\n\nI posted my first infographic in June of 2024.\nI posted my latest one last week.\n\nYou can see them both below.\n\nIt's easy to confuse what got better between the two.\n\nYou might think the difference is:\n\n→ Canva templates vs. custom Figma designs\n→ Boring colors vs. interesting ones\n→ Static vs. animation\n\nThat stuff DID get better.\n\nAnd it DOES matter.\n\nBut!\n\nCracking the code on viral infographics is actually MUCH less about those sorts of design principles.\n\nWhat's actually producing consistent virality for myself and my clients is subtle and hard to codify.\n\nIt's much more art than science.\n\n→ What looks cool vs. what people will actually use\n→ What ideas are worth including vs. discarding\n→ What works best as an infographic vs. carousel\n→ How to add tons of detail without overwhelming\n→ What gets clicks vs. what actually books calls\n→ What creates a quick like vs. obsessive saves\n→ Educational value vs. personality\n\nIt's those tiny judgment calls that are producing posts like these for my clients and students:\n\nhttps://lnkd.in/gizggA7A — 560 likes\nhttps://lnkd.in/gfeEJ8eJ — 297 likes\nhttps://lnkd.in/giS86U8t — 389 likes\nhttps://lnkd.in/gbSvPbCp — 435 likes\nhttps://lnkd.in/gV9AfCWs — 327 likes\n\nI've always WISHED there was a way for people to just watch me build them live with a client.\n\nBecause it's VERY hard to explain this stuff in theory.\n\nYou kind of just have to see it happen.\n\n50–100 tiny little decisions packed into a design power hour.\n\nBut literally what client would be cool with that?\nWho would let a bunch of strangers watch it happen?\n\nThen... \nunprompted... \non a fateful day... \none of my favorite clients Magali De Reu said:\n\n\"What if we let people tune in and watch our process live?\"\n\nShe thought of it on her OWN.\n\nAnd I was STOKED.\n\nSO WE'RE GOING TO DO IT.\n\nIt's honestly a little vulnerable for both of us...\n\n...but I immediately said yes.\n\nSo on June 4th @ 11am EST, we're doing a one-time live session where:\n\n→ I design an infographic from scratch\n→ Magali writes the LinkedIn post live\n→ We explain every hook, layout, and decision\n→ We break down WHY ideas get chosen or killed\n→ We show the difference between a 5k and 50k post\n→ Live Q&A\n→ Replay included forever\n\nThis will not be a planned course.\n\nIt will be our real process, unplanned and unhinged, live.\n\n65k+ combined followers.\n\n€79.\n\n(AND for a little extra cash, you get 100+ templates and frameworks you can steal for yourself.)\n\nHere's the sign-up link: https://lnkd.in/gk5nSfUr\n\nDM me if you have questions!\n\nSee you next week!!",
+      "caption_word_count": 452,
+      "asset": {
+        "format": "gif",
+        "width": 800,
+        "height": 1000,
+        "frame_count": 76,
+        "duration_ms_from_gce": 3040,
+        "filename": "22.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/22.gif",
+        "bytes": 2267816,
+        "sha256": "eeeb456b7a1d8288e6c3a59ad32d8a926b6cec10f667089a29bb0a822c701880"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 23,
+      "workbook_row": 25,
+      "creator": "Vincent Pierri",
+      "caption": "Great content often gets buried by the algorithm.\nAverage content often goes stupidly viral.\nHere's why (and how to nail virality):\n\nIt's easy to get mad when a great post gets 37 likes.\n\nI do too.\n\nAnd maybe sometimes the content was perfect, but the stars just didn't align that day.\n\nHowever, I think far too often we're just not competitive enough.\n\nIf you write a great book, you want amazing cover art.\n ⤷  Why?\n ⤷  Because you're up against every book on the shelf.\n\nIf your script gets bought, you want A+ producers.\n ⤷  Why?\n ⤷  You're up against ever movie on Rotten Tomatoes.\n\nIf you wrote a hit song, you want flawless production.\n ⤷  Why?\n ⤷  You're up against every other song on Spotify.\n\nBut for some reason...\nwhen it comes to our own posts...\nwe just forget...\n\n ⤷  we're up against every other post in the feed.\n\nIf you take the attitude of:\n\n\"Great content should stand on its own...\nit doesn't need bells and whistles...\"\n\n...that's fine...\n\nBut every other creative person in every other industry is cringing.\nIt’s just not the way life works.\n\nIf you want your posts to stop the scroll, the fastest way to get there is to start making animated infographics that illustrate your thoughts.\n\nHere are some great examples:\n\nhttps://lnkd.in/eJSR5sjf\nhttps://lnkd.in/gmGz7-na\nhttps://lnkd.in/ggXWth3G\nhttps://lnkd.in/gJiVT9fB\nhttps://lnkd.in/ey9-GhFf\n\n(These are all posts I made for clients btw)\n\nHire a designer and start raising the bar.\n\nOr hit me up to work together.\n\nDetails of my 1:1 offer here: https://lnkd.in/gThmvBfP\n\nDM me to get started.\n\nLet's make some bangers",
+      "caption_word_count": 276,
+      "asset": null,
+      "pairing_status": "caption_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 24,
+      "workbook_row": 26,
+      "creator": "Vincent Pierri",
+      "caption": "Brilliant founders often struggle with content strategy.\nAverage thinkers often nail it. Why?\n\nHow to build an audience on LI is a bit misleading.\n\nYou might think it's about...\n\n→ the quality of your thinking\n→ the strength of your product\n→ your years of experience\n\nBut it has little to do with that.\n\nIt actually depends on where you create on the spectrum.\n\nHere’s what I mean (and how people get this wrong):\n\nContent exists on a spectrum.\n\n→ On one end it's tactical & action-oriented\n→ On the other it's high-level & outcome-oriented\n→ And everything in between\n\nRoughly 6 layers total.\n\nHere’s what it looks like at a glance.\n\nDetailed / Practical\n↑\n | Layer 1 — Tactical help\n | Layer 2 — Guides & walkthroughs\n | Layer 3 — Framework content\n | Layer 4 — Strategy-level content\n | Layer 5 — Your point of view\n | Layer 6 — The outcomes you provide\n↓\nHigh Level / Abstract\n\nHere’s what happens when you roll the content out:\n\n→ The outer layers attract practitioners.\n→ The inner layers attract stakeholders.\n\n→ The inner layers can help close deals.\n→ The outer layers are what grow your audience.\n\nHere’s the problem for smart people:\n\nBrilliant people often prefer layers 4, 5 & 6.\n\n→ They think that anything else is \"dumbing it down.\"\n→ So they focus there... and their reach stays tiny.\n\nAverage thinkers often prefer layers 1, 2 & 3.\n\n→ It feels fun and intuitive to them.\n→ So they focus there... and their audience grows.\n\nYes, you need all 6 layers for a long-term business.\n\nBut it's generally best to build from the outside in.\n\n→ Focus on the outer layers\n→ Build an audience by helping people win\n→ Then move inward as you grow\n\nThere’s a lot of debate on this.\n\n\"You don't need to have a big following!\"\n\"Just reach the RIGHT people.\"\n\nThere’s some truth to that.\n\nBut think about it this way:\n\nYou can sell to people who barely know you.\n|\nor\n|\nYou can sell to people who already follow you.\n\nI recommend the second option.",
+      "caption_word_count": 319,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 141,
+        "duration_ms_from_gce": 8840,
+        "filename": "24.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/24.gif",
+        "bytes": 3067061,
+        "sha256": "bf52ba7996ccb0ced10c38a961b09db939178b396615a142543bf0351ee5d263"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 25,
+      "workbook_row": 27,
+      "creator": "Vincent Pierri",
+      "caption": "Founder: I'm posting on LI. But can't get my team to.\nMe: Here are 10 ideas to get 'em going.\n\n✓ A founder posting on LinkedIn puts you in the top 10%.\n✅ A whole team posting puts you in the top 1%.\n\nBut you will not stumble into the top 1%.\n\nIt takes a founder committed to building a brand.\nAND committed to helping the team do the same.\n\nYou might be thinking:\n“I can’t imagine my whole team posting.”\n\nThat’s fine.\n\nJust imagine one person posting.\n\nThat’s where it starts.\n\nI don’t know your team. But I know this:\n\nEvery team has a hidden seed of greatness.\n\nSomeone who could create real online buzz...\nbut hasn’t been given the right tools.\nOr the right incentives.\n\nIt starts with:\n→ You\n→ then one person \n→ then the people who were a little unsure\n→ then suddenly… the whole team is rocking\n\nAnd in this era, that's how history is made. \nWith a very, very visible team.\n\nBelow are 10 ways to get the ball rolling.\n\nIt will be slow.\nThen faster.\nThen momentum.\n\nStart with the free ones.\nSee what happens.\n\nYou've got this!\n___\nP.s. Want hands-on help getting your team to post?\n\nHeike Young and I run workshops to help teams build their online presence.\n\nYou get:\n\n→ An incredibly fun 3-hour workshop\n→ Starter kit of 1-month content roadmap\n→ Plug-in-play Infographics\n→ Optional 1:1 coaching\n\nDetails here: https://lnkd.in/gWrZZrqm\n\nDM me if you’re interested.",
+      "caption_word_count": 244,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 105,
+        "duration_ms_from_gce": 8360,
+        "filename": "25.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/25.gif",
+        "bytes": 2603424,
+        "sha256": "99c5cca58a0bed77aadc8e2b9f555d08dc3a233f7687dea65bff56bd71b5be10"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 26,
+      "workbook_row": 28,
+      "creator": "Vincent Pierri",
+      "caption": "I made this for Heike. It's now her #1 graphic post.\n47k impressions • 1k saves • 250 followers\nWe made it in 90 min. Here's how:\n\nBefore the behind-the-scenes... some other fun stats.\n\n→ 900+ likes\n→ Lots of lead convos started\n→ Highest newsletter response rate in months\n→ Post viewers were her ICP (Directors/senior)\n\n(Infographics don't just get attention from interns!)\n\nLink to original post: https://lnkd.in/gmGz7-na\n\nHere's how we cooked it up.\n\n1️⃣ Heike brought a strong idea\n\n→ It wasn't a fuzzy tid bit she wanted to play with\n→ It was her People-Generated Content strategy\n→ This is her core offer she sells to companies\n\n(P.S. If you stumbled on this post and need a B2B content + social strategy... you just got very lucky. Hit Heike up RIGHT FREAKING NOW)\n\n2️⃣ Heike brought the beginnings of a visual concept\n\n→ You can see her original concept in the comments\n→ It wasn't perfect. But it was enough for a direction\n\n(You can see the original mock up in the comments below.)\n\n3️⃣ We live-built it together\n\n→ Some of my clients prefer to work async\n→ That works fine for bigger projects\n\nBut if you've got a one-off idea, building it together works fastest\n\nIt allows us to riff back and forth\nThen we can hold the tension between design & idea\n\n4️⃣ We had fun\n\nThis is the surprising part for most people\nIt's fun to watch someone bring your idea to life\n\nWant me to live-build a graphic for you?\n\nDM me to book a 90-minute slot and we'll do it together\n\n$500\n\nNew random offer I've never tried before... we'll see how it goes! :)\n\nOther ways to work with me:\n\n1. I'll make you one and teach you how to DIY: \n↳ https://lnkd.in/gYffpJT2\n\n2. Starter pack 1:1:\n↳ https://lnkd.in/gTdKc9iR\n\n3. Training with your team:\n↳ https://lnkd.in/gP4Pdf3R",
+      "caption_word_count": 312,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 147,
+        "duration_ms_from_gce": 8040,
+        "filename": "26.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/26.gif",
+        "bytes": 2291648,
+        "sha256": "2149333746baab8c4e035a1ad02f24488f76e8329458324112c2d18fd92b9ea4"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 27,
+      "workbook_row": 29,
+      "creator": "Vincent Pierri",
+      "caption": "\"How do I find the right design for my infographic?\"\nHere are 8 core layouts to choose from: ↓↓↓\n\nTurns out there's only 8 core visual layouts.\nAfter making hundreds that's what I've found.\n\nThat's good news for two reasons.\n\n1) It simplifies your choices\n2) Almost every idea can fit any of them\n\nIt's just a matter of seeing which one feels best for the nuance you're trying to get across.\n\nHere's the quick breakdown of when to use all 8.\n\n1️⃣ The Venn Diagram (2, 3 & 4 Circles)\n\nBEST FOR: helping people see how your framework works together.\n\nHOW TO USE:\n→ Place one part of your framework in each circle\n→ Use overlaps to show how each affects the other\n→ Only works with 2, 3, 4 part frameworks\n\n2️⃣ The Classic Chart\n\nBEST FOR: deep diving every facet of a topic\n\nHOW TO USE:\n→ Put each piece of your framework in the columns\n→ Compare along different parameters in the rows\n→ If the framework has 5 or more parts... flip the axis\n\n3️⃣ The Funnel\n\nBEST FOR: showing how things flow\n\nHOW TO USE:\n→ Put each piece of the framework in sequential order\n→ Stack them from top to bottom\n→ Add boxes/notes outside the funnel to spice it up\n\n4️⃣ The Nested Circles\n\nBEST FOR: showing interrelationship or layers\n\nHOW TO USE:\n→ Put the core idea in the middle\n→ Build outward with the surrounding layers\n→ Good for simplifying a large, complex discipline\n\n5️⃣ The Pyramid\n\nBEST FOR: showing hierarchy\n\nHOW TO USE:\n→ Put the foundational idea at the bottom\n→ Stack the rest upward by importance or priority\n→ May help to put an arrow at the bottom going up\n\n6️⃣ The Decision Tree\n\nBEST FOR: showing multiple paths or outcomes\n\nHOW TO USE:\n→ Start with one core question or starting point\n→ Branch into different options\n→ Keep each branch simple and easy to follow\n\n7️⃣ The Timeline\n\nBEST FOR: showing sequences over time\n\nHOW TO USE:\n→ Lay out steps from left to right or top to bottom\n→ Add specific timestamps\n→ Especially helpful for very practical tasks\n\n8️⃣ The 2x2 Matrix\n\nBEST FOR: simplifying decisions or comparisons\n\nHOW TO USE:\n→ Pick two variables for your axes\n→ Place each idea in the correct quadrant\n→ One quadrant can be best, or all 4 can be equal\n\nNOTE:\nSince there are only 8 layouts, in order to stand out you'll have to spice them up.\n\n→ Cool color coding\n→ Extra info boxes\n→ Combining shapes and charts\n\nEtc. \n\nBut! \n\nBefore you make it shiny, just map your framework onto one of these 8.\n\nThen make it pop.\n\nGive it a try!\n\nP.S. Want me to make an animated infographic FOR you? And want a complete guided course on how to turn your ideas into infographics?\n\nCome to my cohort in May.\n\nWe will...\n\n1) How to turn your thoughts into frameworks\n2) How to translate those frameworks into visuals\n3) A crash course on graphic design & animation\n4) How to write viral text posts\n\nI'll make a custom animated one for you by the end of the process.\n\n$599 total.\n\nDetails & sign up here: https://lnkd.in/gWBPysu8\n\nDM me with questions.",
+      "caption_word_count": 524,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 236,
+        "duration_ms_from_gce": 9960,
+        "filename": "27.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/27.gif",
+        "bytes": 2430043,
+        "sha256": "80652a70aa16c9160f4a1739c2aa1bcfa46b21903e4104af0280e13ad469b2d6"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 28,
+      "workbook_row": 30,
+      "creator": "Vincent Pierri",
+      "caption": "Next cohort will be the best yet. Here's why.\n1️⃣ I’ll train you how to create viral infographics\n2️⃣ I’ll make your first one FOR you\n\nYes, that’s correct.\n\nEvery person in the cohort will leave with one custom, completed, ANIMATED infographic made by me.\n\nDesigned in your brand.\nReady to post immediately.\n\nI've trained 200+ on turning ideas into infographics.\n\nHere’s why they grow your following AND generate leads.\n\nMost LinkedIn content is incredibly fast to make.\n\n→ A quick selfie.\n→ An AI-generated carousel.\n→ A short opinion post.\n\nBut infographics require more thought.\n\nYou have to:\n\n→ Filter and organize your thinking\n→ Turn those ideas into a clear framework\n→ Map the framework onto a shape-based visual\n→ Make the graphic clean and compelling\n→ Write a text post that pulls people in\n\nMost people don't have the tools for that.\n\n(AI still can’t make shape-based ones that look even halfway decent.)\n\nSo when YOU do...\nYour content stands out.\n\nThat’s why infographics perform so well.\n\nPAST COHORT MEMBER BANGERS\n\n→ 2nd infographic ever. 303 likes. 29 reposts.\nhttps://lnkd.in/gwMbhkTY\n\n→ First infographic ever. 503 likes. 34 reposts.\nhttps://lnkd.in/gpSZgP4X\n\n→ First infographic ever. 442 likes. 24 reposts.\nhttps://lnkd.in/gnn5K-FA\n\n→ First infographic ever. 1,000 saves.\nhttps://lnkd.in/gZUfjk7G\n\n→ Leveled up post-cohort. 232 likes. 13 reposts.\nhttps://lnkd.in/gdecqAVr\n\n→ Leveled up post-cohort. 220 likes. 11 reposts.\nhttps://lnkd.in/gKSnGy4h\n\nMany started seeing:\n\n→ New followers\n→ Inbound leads\n→ Authority growth\n→ Revenue acceleration\n\nInside the cohort, I walk through the full process.\n\nFrom idea → framework → visual → viral post.\n\nBut I realized something after training 200+.\n\nToo many people were finishing… but didn’t know what “good” looked like.\n\nThey had all the tools.\nBut no clear reference point for their future content.\n\nSo I’m changing that.\nEveryone now leaves with one fully built infographic.\n\nMade by me.\n\nNot only that…\n\nI’m increasing the template library from 50 → 100.\n\nThese new templates are MUCH easier to style.\nMore plug-and-play.\n(Something you can immediately run with.)\n\nOld Cohort: (You still get all this)\n\n→ How to turn ideas into clear frameworks\n→ How to map frameworks into visual layouts\n→ How to design clean, high-performing infographics\n→ How to write hooks + posts that drive engagement\n→ 50 infographic templates\n→ Live feedback + hands-on sessions\n\nNew Cohort: You now also get this...\n\n→ 1 custom animated infographic (made by me/team)\n→ Designed in your brand (colors, fonts, layout)\n→ Ready-to-post asset you can use immediately\n→ 100 plug-and-play templates\n→ Faster execution with simpler starting points\n\nDETAILS\n\n→ NUMBER OF PARTICIPANTS: 10 max\n→ WHEN: Wednesdays in May\n→ LENGTH: Four 1-hour sessions\n→ CURRENT TIME SLOT OPENINGS:\n\n— 9:30am EST\n— 12:30pm EST\n— 3:30pm EST\n\n→ COST: $599\n\nIf you're interested, DM me.\n\nIf you already know you're in, grab your spot here:\nhttps://lnkd.in/gXqwSj5A",
+      "caption_word_count": 459,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 251,
+        "duration_ms_from_gce": 10040,
+        "filename": "28.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/28.gif",
+        "bytes": 2058956,
+        "sha256": "382d66e0ff4171575a6ed2b908352490d7ea3c312af3bde9b459588e6d5b5657"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 29,
+      "workbook_row": 31,
+      "creator": "Vincent Pierri",
+      "caption": "Some nail the content calendar, but biz stays stuck.\nSome don't even have one, but grow like crazy. Why?\n\nA lot of people are trying to systematize LinkedIn.\n\nThey've trained Claude with military precision.\n\nThe robots are running the...\n\n→ Content calendar\n→ Visuals creation\n→ Post ideation\n→ Commenting\n→ Copywriting\n→ DM replies\n\n(Or you pay someone to do all that)\n\nIt feels very \"in control.\"\n\n\"I've finally got LinkedIn on autopilot!\nNow I can move on to more important things.\"\n\nBut there is...\n\n→ Very little traction\n→ Very low engagement\n→ Few or crappy quality leads\n\nI'm not against systematizing, automating, or using AI.\n\nIf you want Claude to run your life, that's fine.\n\nBut...\n\nIf you automate your content...\nbefore your content is any good...\n\n...you've basically screwed yourself.\n\nYou have to actually put some soul into it.\n\nHere's my \"system:\"\n\n→ Zero connection requests per week\n→ Five comments on a good day\n→ No content calendar\n→ One post at a time\n→ Nothing planned\n→ Almost no AI\n\nBut...\n\n→ I have a 100% inbound business\n→ I'll do multiple six figures in 2026\n→ I average 1,500 new followers a month\n→ I typically see 10–30k impressions per post\n→ I generally see 2.5–3.5% save rate per post\n\nWhy?\n\nBecause I am obsessed.\n\nObsessed with every post having a 'wow' factor.\nObsessed with people saying, \"I've never seen that.\"\nObsessed with DMs asking, \"How can I make those?\"\n\nObsession pays off.\n\nEspecially when most are aiming to think as little as possible about content.\n\nBut it's even more than that.\n\nFor me...\n\nContent creation is not a means to an end.\nIt is a reward in and of itself.\n\nThe creative process is not how I make money.\nThe creative process is how I stay sharp.\nStaying sharp is how I make money.\n\nI want to stay obsessed in order to stay ahead.\nThe moment I go on autopilot is the start of the end.\n\nNow I am in the content creation niche.\nSo content creation is more crucial for me than you.\n\nBut!\n\nIf content is supposed to drive your business,\nbut you have NO obsession...\n\nYou just won't ever stand out.\nIt's just too saturated already.\n\nIt's gotta hurt a little.\n\nA little blood.\nA little sweat.\nA few tears learning Figma.\nA few more learning Jitter.\n\nThat real human pain is your moat.\nIt's what keeps you a step ahead.\n\nDetails on how to do this are in the graphic below.\n\nI'm here to help how I can.\n\nOffers below.\n\n__________________\nOFFERS:\n\nOPTION 1: Join the Visuals Cohort (Kick off TOMORROW)\n↳ $500—Grab a spot: https://lnkd.in/gx4rwrr5\n\nOPTION 2: Work together 1:1\n↳ Do a Starter Pack — https://lnkd.in/gfCMSNaw\n\nOPTION 3: Have me & Heike train your team\n↳ Info: https://lnkd.in/g8RBqu7W",
+      "caption_word_count": 463,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 176,
+        "duration_ms_from_gce": 7040,
+        "filename": "29.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/29.gif",
+        "bytes": 1669635,
+        "sha256": "4b16b1279e7d7a8a56d5aba45d2c3bb152a5aa4ce6a8a692df471dbcc57708ec"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 30,
+      "workbook_row": 32,
+      "creator": "Vincent Pierri",
+      "caption": "rying to grow your personal brand in 2026?\nTake 5 min and write one of these posts.\n\nYour future self will thank you.\n\nWhich is your favorite?\n\n#1: Thank-you post: Thank somebody who changed your career. A great manager, somebody who hired you for an early role. Tag them and say what you’re thankful for.\n\n#2: A travel lesson: Everybody loves a travel pic! Talk about a place you recently traveled to, and something you learned while you were there.\n\n#3: Pop culture inspo: Share an artist, creator, or star who’s always inspired you, and explain how they shaped your work.\n\n#4: Childhood dream vs. now: Say what you wanted to be when you grow up, and how that impetus does or doesn’t still show up in you now.\n\n#5: Reintroducing yourself: If you haven’t posted in a while, remind everybody who you are and what you’re good at.\n\n#6: Younger self advice: If I could go back in time ten years, I’d tell myself this, as I grew my career.\n\n#7: Learning takeaway: Post about something you just learned and what stuck with you.\n\n#8: Ask a question: Ask a genuine question you’ve been wondering about, and invite feedback and responses.\n\n#9: Resource ask: Ask folks who is the best XYZ in your industry, and see what recommendations and suggestions you get.\n\n#10: Counterintuitive take: Flex your thought leadership muscle. Everyone in your industry or field says XYZ, and explain why you think that’s so backwards.\n\n#11: Underrated skill: 1 skill people overlook in your field is THIS, and here’s why it matters.\n\n#12: Pet peeve: One thing that drives you nuts in your industry is XYZ thing, and share more.\n\n#13: Predictions: What do you think is coming this year, or in the next few months, to your field? Why?\n\n#14: Industry reflection: One trend stood out to you over the last month, or year, or different period of time. What was it?\n\n(Save this post. Try 'em out later!)\n\nP.S. Thanks to Heike Young for letting me try an infographic version of her incredible video post: https://lnkd.in/g_4KzH7P\n\nPart of what we're experimenting with as we prep for our upcoming employee generated content workshops!\n\nWant to bring us in to train your team on content creation?\n\nHere's all the detail: https://lnkd.in/gKY5qbpm",
+      "caption_word_count": 390,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 327,
+        "duration_ms_from_gce": 6540,
+        "filename": "30.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/30.gif",
+        "bytes": 2472912,
+        "sha256": "597aa34a96af8c8ad729d286d71992d0b127165ab93dba4bab58069f5fbb2c48"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 31,
+      "workbook_row": 33,
+      "creator": "Vincent Pierri",
+      "caption": "There are 2 ways to go viral.\nOne way makes $. The other doesn't.\nHere's the difference (I lived it last week.)\n\nLast Friday I went viral.\n100k+ impressions.\nI wasn’t excited.\n\nWhy?\n\nBecause I went viral for making a joke about Kevin O'Leary's content flopping.\n\nYou can see the post here: https://lnkd.in/gdib7dV3\n\nAnd I knew that because I went viral for a random funny post... I would not make any money.\n\nI was wrong.\nI made $500.\nOne new person bought a seat in the cohort.\n\n(To be fair, I’m not even sure that’s why they bought.)\n\nI also got...80 new followers...\n\nThat is a HORRIBLE R.O.I. on 100k impressions.\n\nIf you compare that to the previous 100k impressions...\n\n...which came from about 10 posts...\n...which each went \"mini-viral\" (10-15k impressions)\n...which helped my audience solve problems...\n\n...those 100k impressions made ~$16,000.\n\nAll new inbound work.\n\nI bet...\n\nIf those 10ish posts got about half the impressions,\nI would've made about half the income.\n\nPeople say it's not worth trying to go viral.\n\nSometimes I agree.\n\nIt's NOT worth it if you go viral for content that has nothing to do with what you sell.\n\nIf you're trying to go viral with random hot takes on AI, LinkedIn and/or politics...\n\nYes, there is 0 point in that.\n\nBUT.\n\nIf you're creating extraordinarily helpful content...\n...the more impressions the better.\n\nWhen those go viral, you make a lot of $$$.\n\nWant to learn how?\n\nI teach a 4-week cohort on just that.\n\n1. How to turn your ideas into frameworks \n2. How to turn your frameworks into visuals \n3. How to write banger text posts \n4. How to go the \"right kind\" of viral \n\n...the kind that actually makes money.\n\nWant to join?\n\nIt starts April 1.\n\n(Last time I’m offering it at $500 a seat.)\n\nHere’s all the info: https://lnkd.in/gywAneYc\nHere’s the sign-up link: https://lnkd.in/g4atiPcY\n\nTWO OTHER WAYS TO WORK WITH ME:\n\n1. One-on-one\nDetails here: https://lnkd.in/gNG6GmeB\n\n2. A workshop for your in-house team\n\nI just started offering the greatest workshop ever on employee generated content.\n\nI'm tag-teaming it with the ONE AND ONLY Heike Young.\n\nHere’s the info for THAT offer: https://lnkd.in/gP4Pdf3R\n\nSee ya soon.",
+      "caption_word_count": 385,
+      "asset": null,
+      "pairing_status": "caption_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 32,
+      "workbook_row": 34,
+      "creator": "Vincent Pierri",
+      "caption": "There are 2 ways to go viral.\nOne way makes $. The other doesn't.\nHere's the difference (I lived it last week.)\n\nLast Friday I went viral.\n100k+ impressions.\nI wasn’t excited.\n\nWhy?\n\nBecause I went viral for making a joke about Kevin O'Leary's content flopping.\n\nYou can see the post here: https://lnkd.in/gdib7dV3\n\nAnd I knew that because I went viral for a random funny post... I would not make any money.\n\nI was wrong.\nI made $500.\nOne new person bought a seat in the cohort.\n\n(To be fair, I’m not even sure that’s why they bought.)\n\nI also got...80 new followers...\n\nThat is a HORRIBLE R.O.I. on 100k impressions.\n\nIf you compare that to the previous 100k impressions...\n\n...which came from about 10 posts...\n...which each went \"mini-viral\" (10-15k impressions)\n...which helped my audience solve problems...\n\n...those 100k impressions made ~$16,000.\n\nAll new inbound work.\n\nI bet...\n\nIf those 10ish posts got about half the impressions,\nI would've made about half the income.\n\nPeople say it's not worth trying to go viral.\n\nSometimes I agree.\n\nIt's NOT worth it if you go viral for content that has nothing to do with what you sell.\n\nIf you're trying to go viral with random hot takes on AI, LinkedIn and/or politics...\n\nYes, there is 0 point in that.\n\nBUT.\n\nIf you're creating extraordinarily helpful content...\n...the more impressions the better.\n\nWhen those go viral, you make a lot of $$$.\n\nWant to learn how?\n\nI teach a 4-week cohort on just that.\n\n1. How to turn your ideas into frameworks \n2. How to turn your frameworks into visuals \n3. How to write banger text posts \n4. How to go the \"right kind\" of viral \n\n...the kind that actually makes money.\n\nWant to join?\n\nIt starts April 1.\n\n(Last time I’m offering it at $500 a seat.)\n\nHere’s all the info: https://lnkd.in/gywAneYc\nHere’s the sign-up link: https://lnkd.in/g4atiPcY\n\nTWO OTHER WAYS TO WORK WITH ME:\n\n1. One-on-one\nDetails here: https://lnkd.in/gNG6GmeB\n\n2. A workshop for your in-house team\n\nI just started offering the greatest workshop ever on employee generated content.\n\nI'm tag-teaming it with the ONE AND ONLY Heike Young.\n\nHere’s the info for THAT offer: https://lnkd.in/gP4Pdf3R\n\nSee ya soon.",
+      "caption_word_count": 385,
+      "asset": {
+        "format": "jpeg",
+        "width": 1080,
+        "height": 1350,
+        "filename": "32.jpeg",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/32.jpeg",
+        "bytes": 113286,
+        "sha256": "08a80f0f117c030223dd8e65e12c7c5bdd00282d357c6e07038dabfe503479f8"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 33,
+      "workbook_row": 35,
+      "creator": "Vincent Pierri",
+      "caption": "I got 200+ customers from one carousel.\nHere's how I did it.\n\n1) I created a new offer that I knew would sell\n\n→ A 4-week cohort teaching people how to turn their expertise into viral infographics\n\n2) I sold it for cheap\n\n→ $500 total\n\n3) I created a carousel breaking the offer down\n\n→ Total breakdown in the graphic below\n→ Comment \"results\" for a high-res version\n→ Original post: https://lnkd.in/g-upxSPg\n\n4) I wrote a text post leading with my origin story\n\n→ I think there's something that works about that\n→ It attracts people who are already invested in you before you give the pitch\n\n5) I linked back to the same carousel in every following post\n\nIn every post for about 4 months, I added a link that sent people directly back to this carousel.\n\nInstead of sending people to an external website, I just kept sending people back to the same LinkedIn post.\n\nI used the carousel as my landing page.\n\nNot saying this is right for everyone, but it worked for me.\n\nI think sometimes we think fancier is better, but sometimes simpler is better.\n\nIf you want to follow the same strategy, comment \"results\" and I'll send you the high-res version of this infographic.\n\nThat way you can see exactly how the slides work together.\n\nAnd don't forget... if you want to learn how to turn your expertise into viral visual frameworks... here's all the info: https://lnkd.in/gyPxw6_R\n\n(And yes, it's the exact same carousel & posted, just spruced up & reposted a few months after. :)",
+      "caption_word_count": 259,
+      "asset": {
+        "format": "jpeg",
+        "width": 1080,
+        "height": 1350,
+        "filename": "33.jpeg",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/33.jpeg",
+        "bytes": 193047,
+        "sha256": "ce82e7edbc16efff540dbea5ccaa437a0634fe468d8db58a14178dafa27e332d"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 34,
+      "workbook_row": 36,
+      "creator": "Vincent Pierri",
+      "caption": "There are 7 ways to monetize your LinkedIn following.\nSome work best at 1k followers. Others at 100k.\nHere's the full breakdown:\n\nI grew from 0-32k in less than 2 years.\nThis is what I wish someone told me at 1k followers.\n\n(Save this. You’ll want it sooner than you think!)\n\n___________________________________________\n0–1k FOLLOWERS\n\nFOCUS ON:\n→ Done-for-you & 1:1\n\nWHY:\n→ This is all you have credibility for at this point\n→ Your audience gives 0 social proof or extra umph\n→ Lean on your proven expertise & results\n\nNEXT STEPS:\n→ Start building your email list. You'll need it later\n\n___________________________________________\n1–10k FOLLOWERS\n\nFOCUS ON:\n→ 1:1 & low-cost cohorts\n→ Try to land some free speaking gigs\n\nWHY:\n→ You'll eventually want to phase out of DFY\n→ High-ticket cohorts & speaking gigs are the future\n\nNEXT STEPS:\n→ Get comfortable leading a group & being on stage\n\n___________________________________________\n10–20k FOLLOWERS\n\nFOCUS ON:\n→ Cohorts\n→ Speaking\n→ Early free/low cost communtiies\n\nWHY:\n→ People start to view you as a category expert\n→ Group leverage becomes possible\n→ Your audience is big enough that people want to meet you\n\nNEXT STEPS:\n→ Start saying no to bad 1:1 clients\n→ Raise your cohort prices\n→ Beta test a course or paid community\n\n___________________________________________\n20–50k FOLLOWERS\n\nFOCUS ON:\n→ Higher ticket speaking & workshops\n→ Cohorts as a funnel to higher ticket offers\n→ Paid communities\n\nWHY:\n→ Authority compounds at this level\n→ Event organizers start to find you\n→ Audience becomes a real demand engine\n\nNEXT STEPS:\n→ Raise prices aggressively\n→ Start hiring help\n→ Look for high-level partnerships & collabs\n\n___________________________________________\n50–100k+ FOLLOWERS\n\nFOCUS ON:\n→ Speaking\n→ Courses\n→ Paid communities\n→ Newsletter monetization\n\nWHY:\n→ Your audience is now a real media asset\n→ You can monetize through scale instead of time\n→ Leverage matters more than hourly work\n\nNEXT STEPS:\n→ Hire people to run programs\n→ Treat courses as a funnel & actual revenue stream\n→ Prioritize audience growth & distribution\n\n___________________________________________\nQuick cheat sheet:\n\n0–1k → Sell your time\n1–10k → Sell your expertise\n10–20k → Sell group access\n20–50k → Sell authority\n50–100k+ → Sell scale\n\nDifferent audience sizes require different offers.\n\nWhat I wish I knew!\n\nGo get 'em.\n\n______\nP.S. Want to turn your ideas into viral visual frameworks like this?\n\nHere are two ways we can work together.\n\n1️⃣ Join a DIY cohort of 10 leaders\n\nStarts April 1!\n\n→ Build your own visual framework system from scratch\n→ $500 (Last month offered at this price point)\n→ Details & sign up: https://lnkd.in/gY-jg32h\n\n2️⃣ Work with me 1:1\n\n→ I’ll guide you through the entire process\n→ Subscriptions starting at $1500/month\n→ All the details: https://lnkd.in/gThmvBfP",
+      "caption_word_count": 426,
+      "asset": {
+        "format": "jpeg",
+        "width": 1080,
+        "height": 1350,
+        "filename": "34.jpeg",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/34.jpeg",
+        "bytes": 222624,
+        "sha256": "3c1e8043c34743eb1157d1c65e808876f8640e5bcb6ed28b0259e1cd259ab915"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 35,
+      "workbook_row": 37,
+      "creator": "Vincent Pierri",
+      "caption": "Most buyers are asking 4 different questions.\nMost founders only answer 1.\nHere’s how to answer all 4.\n\n(Save this image drop it into your fav LLM)\n\nThose 4 questions are:\n\n• Are you actually good at what you do?\n• Do you think deeply about your work?\n• Are you legit, or just good marketing?\n• Do you have real experience?\n\nGreat “build in public” content answers all four.\n\nMost founders accidentally answer the same question over and over again.\n\nThey answer what they THINK everyone's asking.\nAnd forget to answer the rest.\n\nWhen you rotate across all four types, people start to see the full picture of your business.\n\nThat’s the difference between content that builds trust…\n…and content that just feels like updates.\n\nLet me show you how it works.\n\nTYPE 1) Your Wins + Insights They Revealed\n\nThis answers:\n\n→ “Are you actually good at what you do?”\n\nWhen you share wins and the pattern behind them, readers see your expertise.\n\nExamples:\n\n→ After testing [new approach], we figured out ____.\n→ After trying [several tactics], this finally worked: ____.\n→ A breakthrough with [feature / strategy] showed ____.\n\nTYPE 2) Wins + Questions They Raised\n\nThis answers:\n\n→ “Do you think deeply about your work?”\n\nSometimes success raises new questions.\n\nSharing them shows curiosity and reflection.\n\nExamples:\n\n→ [Recent win] made me rethink ____.\n→ Hit [milestone] this week. Now I’m wondering ____.\n→ A [customer success] raised a new question: ____.\n\nTYPE 3) Losses + Questions They Exposed\n\nThis answers:\n\n→ “Are you real, or just marketing?”\n\nNot everything works.\n\nSharing failed experiments shows honesty.\n\nExamples:\n\n→ Tried [new strategy] this week and it failed: ____.\n→ Weeks testing [idea]. It didn’t improve ____.\n→ A customer chose [other solution]. I wonder ____.\n\nTYPE 4) Losses + Lessons They Taught\n\nThis answers:\n\n→ “Do you have real experience?”\n\nMany insights come from mistakes.\n\nSharing those lessons shows judgment and experience.\n\nExamples:\n\n→ A mistake with [project / launch] revealed ____.\n→ We thought the issue was [X]. It was actually ____.\n→ One failed experiment with [idea] exposed ____.\n\nIf you want your content to build trust, remember this:\n\nBuyers don’t just want to see wins.\n\nThey want to see:\n\n→ progress\n→ thinking\n→ honesty\n→ experience\n\nThat’s what the 32 prompts in the graphic help with.\n\nRotate through all four.\n\nYou've got this.\n\n____\nP.S. Want to turn your ideas into viral visual content?\nHere are two ways we can work together.\n\n1️⃣ Join a DIY cohort of 10 leaders\n\n(Starts tomorrow — a few spots are still open.)\n\n→ Build your own visual framework system from scratch\n→ $500\n→ Details & sign up: https://lnkd.in/gY-jg32h\n\n2️⃣ Work with me 1:1\n\n→ I’ll guide you through the entire process\n→ Subscriptions starting at $1500/month\n→ All the details: https://lnkd.in/gThmvBfP",
+      "caption_word_count": 448,
+      "asset": {
+        "format": "jpeg",
+        "width": 1080,
+        "height": 1350,
+        "filename": "35.jpeg",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/35.jpeg",
+        "bytes": 234020,
+        "sha256": "8200c2460a8c3f63b5f3cd07671d1d5bc3695e7aa55479cb2fe4a62ea5f4e5a3"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 36,
+      "workbook_row": 38,
+      "creator": "Vincent Pierri",
+      "caption": "The smartest founders often have zero buzz on LI.\nThe average ones are often going viral. Why?\n\nHow much attention you get is not JUST about...\n\n→ How you get results\n→ How often you post on LI\n→ How brilliant your ideas are\n→ How strong your visuals are\n→ How fickle the algorithm is today\n\nThe amount of buzz is often throttled by 1 thing:\n\nWhether or not you have a strong POV.\n\nIn just a second, I’ll show you how to find your POV in 6 steps below.\n\n(Save this to use 'em later)\n\nBut first…\n\nWhat is a strong POV?\n\nEssentially, it’s this:\n\n→ A single, industry-level hot take.\n\nIt repels the wrong people.\nIt attracts the right people.\n\nFor reference, here are a few POV examples.\n\nMy POV is essentially this:\n\n\"Founders should aim to build a large audience by turning their expertise into viral content.\"\n\n→ That is an incredibly attractive idea to some.\n→ It is an incredibly repulsive idea to others.\n\nThat’s what’s scary about a POV.\nIt will attract criticism.\n\nBut if I didn’t have a POV, I wouldn’t have a business.\n\nA few other POV examples:\n\n→ Josh Lowman: The best companies combine business, product, and brand strategy to create NEW categories.\n\n→ Anthony Pierri & Rob Kaminski: Startup websites should lead with clarity, not vision.\n\n→ Tas Bober: Landing pages should aim to educate, not convert.\n\n→ Will Greenblatt: Aspiring speakers should aim to get paid workshops, not paid keynotes.\n\nFor each one of these POVs, there are industry experts who would strongly disagree.\n\nThat’s when you know you’re on the right path to something worth repeating.\n\nHow do you find your POV?\n\nHere are the six steps:\n\n1️⃣ Identify ICP\n\n→ Write for one specific, real person.\n→ Don’t write for “the market.”\n→ If you write for everyone, you write for no one.\n\n2️⃣ Choose Anchor Outcome\n\n→ Pick one outcome they deeply want.\n→ Don’t stack multiple outcomes to get more buzz.\n\n3️⃣ Identify Misconception\n\n→ Surface one belief that’s holding them back.\n→ Make sure people really believe that misconception\n→ Don’t just pick a \"straw-man\" belief\n\n4️⃣ Argue the Alternative\n\n→ Present a better path forward.\n→ Don’t hedge it with endless nuance.\n\n5️⃣ Distill to One Sentence\n\n→ Compress your POV into one sharp idea.\n→ Contrast the old and the new if possible.\n→ Ask if it would make anyone mad. It should.\n\n6️⃣ Repeat It Relentlessly\n\n→ Say it again and again.\n→ Don’t reinvent yourself every quarter.\n\nSave this post and give it a try!\n\nIf you want feedback on yours, DM it to me.\nI really like helping people tighten these up.\n\n\n_______________________________\nP.S. Want to turn your ideas into viral content?\n\nHere are two ways to work with me.\n\n1️⃣ Join a DIY cohort of 10 leaders \n\n(STARTS TOMORROW — you can still join!)\n→ Build your visual framework system from the ground up\n→ $500\n→ Details & sign up here: https://lnkd.in/gY-jg32h\n\n2️⃣ Work with me 1:1\n→ I’ll personally guide you through the full process\n→ Subscriptions starting at $1500/month\n→ All the details here: https://lnkd.in/gThmvBfP",
+      "caption_word_count": 503,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 248,
+        "duration_ms_from_gce": 9920,
+        "filename": "36.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/36.gif",
+        "bytes": 2090620,
+        "sha256": "b9401d70d97c30504cb869cdfc5ced7c2c258488e168aff1fe265358169b5205"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 37,
+      "workbook_row": 39,
+      "creator": "Vincent Pierri",
+      "caption": "“I don’t know how to turn my expertise into content.”\nHere’s a step-by-step process to do just that.\n\n(Save this for your next content day)\n\nStep 1) Brain Dump Ideas\n\n→ Open a single, blank document\n→ List POVs, frameworks, tactics\n→ Pull from client work + FAQs\n→ Aim for 30–50 raw ideas\n→ Don’t edit it yet\n\nStep 2) Organize the Ideas\n\n→ Sort from abstract to tactical\n→ Sort strategy vs. execution\n→ Look for standalone ideas\n→ Cluster similar sets\n\nStep 3) Pain Point Filter\n\n→ Look for ideas that solve real problems\n→ Cut anything vague or theoretical\n→ Tie big ideas to pain points\n\nStep 4) Filter for Application\n\n→ Make sure it could lead to immediate action\n→ Prioritize steps + tactical frameworks\n→ Ask: “Can my ICP use this today?”\n→ Cut theory-only ideas\n\nStep 5) Visualize as an Infographic\n\n→ Restructure ideas if needed\n→ Massage 1 idea into 3–7 steps\n→ Choose a simple shape format\n→ Avoid paragraphs in simple boxes\n→ Use nested circles, pyramid, funnel, etc\n\nStep 6) Add Density\n\n→ Add sub-frameworks & tactics\n→ Ask, \"What would they still not understand?\"\n→ Aim for final to feel like a comprehensive resource\n\nStep 7) Build It Out\n\n→ Add pills, arrows, breakdowns for clarity\n→ Tighten labels and wording\n→ Fix hierarchy + spacing\n→ Keep every box valuable\n\nStep 8) Write Text Post\n\n→ Lead with the ICP problem\n→ Explain each step quickly\n→ End with a next action\n→ Keep lines short\n\nStep 9) Post\n\n→ Publish\n→ Repeat 2x weekly\n→ Double down on winning ideas\n→ Track SAVES (Aim for 3% of impressions)\n\nYou've got this!\n\nThanks to Jake Ward for this format inspo!\n\n___\n\nP.S. Want to turn your expertise into structured frameworks…\n\nAnd then into high-performing, animated infographics??\n\nHere are two ways to do it:\n\nJoin a DIY cohort of 10 leaders (STARTS WEDs)\n→ Build your visual framework system from scratch\n→ $500\n→ Details here: https://lnkd.in/gY-jg32h\n\nWork with me 1:1\n→ I’ll guide you through the entire process\n→ Subscriptions starting at $1500/month\n→ All the details here: https://lnkd.in/gThmvBfP",
+      "caption_word_count": 327,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 148,
+        "duration_ms_from_gce": 8040,
+        "filename": "37.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/37.gif",
+        "bytes": 1063773,
+        "sha256": "868ba67e93ed394f07c56df4e336d760427769f8bc2d396a2a3159242027523a"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 38,
+      "workbook_row": 40,
+      "creator": "Vincent Pierri",
+      "caption": "There are 3 ways to grow your following on LinkedIn.\nOnly 1 builds a long-term business.\nHow to choose. ↓\n\nQuick breakdown:\n\n1️⃣ “Pre-validated” Growth\n\nThis is the fastest way to grow.\n\nWhat it is\n→ Find posts that already popped off\n→ Copy the structure & idea\n→ Tweak the angle & copy \n→ Republish it\n\nStrengths\n✓ Low creative risk\n✓ Quickest way to grow\n✓ Easy to execute consistently\n\nWeaknesses\n✖️ Hard to prove real expertise\n✖️ Weak differentiation\n✖️ Easily forgotten\n\nWhat you can sell with this strategy\n→ Growth coaching\n→ Content templates\n→ Newsletter sponsorships\n→ “How to grow on LinkedIn” programs\n\nI'm not saying this growth is \"bad.\"\nBut it is the most fragile way to build a business.\n\nIt's essentially content curation and redistribution.\n\n2️⃣ Personality Growth\n\nThis kind of growth produces the most personal connection.\n\nWhat it is\n→ Be extraordinarily funny\n→ Say what others won’t\n→ Try to produce strong emotion\n→ Aim for “I feel seen” moments\n\nThe following grows because people connect with you as a person.\n\nStrengths\n✓ Builds deep connection\n✓ Strong brand affinity\n✓ Creates loyalty\n\nWeaknesses\n✖️ Not all can do it, no matter how hard they work\n✖️ Basically depends on your capacity to entertain\n✖️ Your offer options are somewhat limited\n\nWhat you can sell with this strategy\n→ Ghostwriting\n→ Speaking\n→ Brand partnerships\n→ Personal brand consulting\n\n3️⃣ Framework Growth\n\nThis is the most overlooked path…\n…and the MOST profitable in the long run.\n\nWhat it is\n→ Package your expertise into systems\n→ Use content to solve clear ICP problems\n→ Turn experience into structured thinking\n\nIn other words, produce content that people actually learn from.\n\nStrengths\n✓ If you're very good at something, this will work\n✓ Best way to create inbound leads\n✓ Establishes genuine authority\n✓ Compounds over time\n\nWeaknesses\n✖️ Hardest mental work\n✖️ Slower early growth\n✖️ Requires real expertise\n\nWhat you can sell with this strategy\n→ Consulting\n→ Agencies\n→ Advisory\n→ High-ticket services\n→ Cohorts & training\n\nThese posts may start slower…\n…but they compound for weeks.\n\nAnd if you're the best in your field,\nyou'll eventually be known as the best in your field.\n\n→ If you just want numbers → pre-validated works.\n→ If you want loyalty → personality works.\n→ For expertise-based business → frameworks win.\n\nGrow the right kind of following.\n\nYou got this.\n\n___\nP.S. Want to learn how to turn your ideas into frameworks that establish your expertise?\n\nAnd then turn them into banger, animated infographics??\n\nHere are two options:\n\nJoin a DIY cohort of 10 leaders next month.\n→ Learn all the skills together\n→ $500 \n→ Details here: https://lnkd.in/gY-jg32h\n\nWork with me 1:1\n→ I'll help you nail the whole process\n→ Subscriptions starting at $1500 a month\n→ All the details here: https://lnkd.in/gThmvBfP",
+      "caption_word_count": 431,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 300,
+        "duration_ms_from_gce": 12000,
+        "filename": "38.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/38.gif",
+        "bytes": 1436730,
+        "sha256": "27bba3c1df4f2aefd42e8bddf084494915853d71e5986bdd0c0355680e792ad1"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 39,
+      "workbook_row": 41,
+      "creator": "Vincent Pierri",
+      "caption": "I made this graphic for Tas Bober.\n(It got her 700+ followers in 48 hours.)\nHow we made it:\n\nHere's her actual post:\nhttps://lnkd.in/gJiVT9fB\n\nHere’s what else happened:\n\n– 80,220 impressions\n– 50,999 members reached\n– 1,190 reactions\n– 123 comments\n– 91 reposts\n– 2,153 saves\n– 178 sends\n– 326 profile views\n\nHow I create viral visuals. ↓\n\nThis is the exact 5-step process Tas & I used.\n\n1️⃣ I asked Tas to build a “mind map.”\n\nThe mind map is a massive flow chart.\n\nIt has bullet point summaries of Tas’s frameworks.\n\n– The high-level frameworks\n– The sub-frameworks supporting them\n– The micro-frameworks underneath\n\nThese are not random post ideas.\nIt’s her highest-value & best thinking.\n\n2️⃣ We sifted for the most viral ideas.\n\nNot every framework should become a post.\n\nI helped her identify which frameworks were most likely to get real traction.\n\n3️⃣ I translated the idea into a visual framework.\n\nThe info can’t JUST be valuable.\nThe image has to look cool and different on the feed.\n\nSo we made this cool, color-coded flow-chart idea.\n\n4️⃣ I finalized the image + animation in Tas’s brand identity.\n\n– Her colors\n– Her fonts\n– Her vibe\n\nThen I added the animation, which is very cool, IMO.\n\n5️⃣ I guided the text post creative process.\n\n– The hook\n– The framing\n– The positioning\n– The CTA\n\nThis is CRUCIAL for a post to really get traction.\n\nIf you're interested in some 1:1 support in turning your expertise into viral infographics, let's chat.\n\nHere's the detail of the offer:\nhttps://lnkd.in/grAS8EFH\n\nHere's the link to book a call:\nhttps://lnkd.in/gWh_jgK5",
+      "caption_word_count": 265,
+      "asset": {
+        "format": "gif",
+        "width": 1280,
+        "height": 1601,
+        "frame_count": 209,
+        "duration_ms_from_gce": 9880,
+        "filename": "39.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/39.gif",
+        "bytes": 1295713,
+        "sha256": "38c6f14fd212c58a7cb3e9f709bcc42e63937300dde374ef8460bc33503aa053"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 40,
+      "workbook_row": 42,
+      "creator": "Vincent Pierri",
+      "caption": "Brilliant founders often struggle with content strategy.\nAverage thinkers often nail it. Why?\n\nHow to build an audience on LI is a bit misleading.\n\nYou might think it's about...\n\n→ the quality of your thinking\n→ the strength of your product\n→ your years of experience\n\nBut it has little to do with that.\n\nIt actually depends on where you create on the spectrum.\n\nHere’s what I mean (and how people get this wrong):\n\nContent exists on a spectrum.\n\n→ On one end it's high-level & outcome-oriented\n→ On the other it's tactical & action-oriented\n→ And everything in between\n\nRoughly 7 layers total.\n\nHere’s what it looks like at a glance.\n\nHigh Level / Abstract\n↑\n | Layer 1 — The outcomes you provide\n | Layer 2 — Your main point of view\n | Layer 3 — Strategic-level content\n | Layer 4 — Framework content\n | Layer 5 — Simple guides\n | Layer 6 — Tactical help\n | Layer 7 — Micro-hacks\n↓\nDetailed / Practical\n\nHere’s what happens when you roll the content out:\n\n→ The top of the spectrum attracts stakeholders.\n→ The bottom of the spectrum attracts practitioners.\n\n→ The top of the spectrum can help close deals.\n→ The bottom is what actually grows your audience.\n\nHere’s the problem for smart people:\n\nBrilliant people often prefer layers 1, 2 & 3.\n\n→ They think that anything else is \"dumbing it down.\"\n→ So they focus there... and their reach stays tiny.\n\nAverage thinkers often prefer layers 5, 6 & 7.\n\n→ It feels fun and intuitive to them.\n→ So they focus there... and their audience grows.\n\nYes, you need all 7 layers for a long-term business.\n\nBut it's generally best to build from the bottom up.\n\n→ Focus on the bottom of the spectrum.\n→ Build an audience by helping people win.\n→ Then monetize it as it grows.\n\nThere’s a lot of debate on this.\n\n\"You don't need to have a big following!\"\n\"Just reach the RIGHT people.\"\n\nThere’s some truth to that.\n\nBut think about it this way:\n\nYou can sell to people who barely know you.\n|\nor\n|\nYou can sell to people who already follow you.\n\nI recommend the second option.\n\n- Check the graphic for ideas for the bottom layers\n- Save this post for content inspo for later\n\n\n___\nP.S. Want to grow your audience and your business?\n\nHere are two options:\n\nJoin a small DIY cohort of 10 next month.\n→ Learn all the skills together\n→ $500 \n→ Details here: https://lnkd.in/gY-jg32h\n\nWork with me 1:1\n→ I'll help you nail it\n→ Subscriptions starting at $1500 a month\n→ Details here: https://lnkd.in/gThmvBfP",
+      "caption_word_count": 406,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 175,
+        "duration_ms_from_gce": 7000,
+        "filename": "40.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/40.gif",
+        "bytes": 1864634,
+        "sha256": "cb2782ce65d92eb7f8e32c9558eedc708acbadca98e30de2b6ff20ae49ceaf9c"
+      },
+      "pairing_status": "asserted_by_numeric_id",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 41,
+      "workbook_row": 43,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": {
+        "format": "jpeg",
+        "width": 1080,
+        "height": 1350,
+        "filename": "41.jpeg",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/41.jpeg",
+        "bytes": 232826,
+        "sha256": "5c894ac708ca18b2e1030bb1f3df9d8d90466c9de307d42172f92e1614d71ac4"
+      },
+      "pairing_status": "asset_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 42,
+      "workbook_row": 44,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": {
+        "format": "gif",
+        "width": 1052,
+        "height": 1316,
+        "frame_count": 248,
+        "duration_ms_from_gce": 9920,
+        "filename": "42.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/42.gif",
+        "bytes": 2349999,
+        "sha256": "e18cb730062fc0694b154abcdf6fe052dfec7ae27bbfa3e3b34e45b850ddee51"
+      },
+      "pairing_status": "asset_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 43,
+      "workbook_row": 45,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": {
+        "format": "gif",
+        "width": 1080,
+        "height": 1350,
+        "frame_count": 101,
+        "duration_ms_from_gce": 4040,
+        "filename": "43.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/43.gif",
+        "bytes": 1166612,
+        "sha256": "e2fc017f6575be2b3d41237dc86c91d2453ac1c91a6016af11b7257f153d45a6"
+      },
+      "pairing_status": "asset_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 44,
+      "workbook_row": 46,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": {
+        "format": "jpeg",
+        "width": 800,
+        "height": 1000,
+        "filename": "44.jpeg",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/44.jpeg",
+        "bytes": 112356,
+        "sha256": "c637d9b56ebaf24fe12326ccdc9d40ecf0e99f7f705d321a460de836f8d8ac80"
+      },
+      "pairing_status": "asset_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 45,
+      "workbook_row": 47,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": {
+        "format": "gif",
+        "width": 800,
+        "height": 1000,
+        "frame_count": 176,
+        "duration_ms_from_gce": 10040,
+        "filename": "45.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/45.gif",
+        "bytes": 2163621,
+        "sha256": "1b74068904b013362b36d3e9516fc7b005f05c3eacdf2e2131e137ac29f060fa"
+      },
+      "pairing_status": "asset_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 46,
+      "workbook_row": 48,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": {
+        "format": "gif",
+        "width": 800,
+        "height": 1000,
+        "frame_count": 101,
+        "duration_ms_from_gce": 4040,
+        "filename": "46.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/46.gif",
+        "bytes": 2753302,
+        "sha256": "a66ba7a3eb4d372baf1dbf929c053ab15b045859dc8882303409c37e36cf57b0"
+      },
+      "pairing_status": "asset_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 47,
+      "workbook_row": 49,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": {
+        "format": "gif",
+        "width": 800,
+        "height": 1000,
+        "frame_count": 111,
+        "duration_ms_from_gce": 4440,
+        "filename": "47.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/47.gif",
+        "bytes": 826843,
+        "sha256": "df5cfd0e5273aaf6d3a826e3bb05f376220cc7f5de18b71f82bfbcebedb63356"
+      },
+      "pairing_status": "asset_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 48,
+      "workbook_row": 50,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": {
+        "format": "gif",
+        "width": 800,
+        "height": 1000,
+        "frame_count": 231,
+        "duration_ms_from_gce": 12000,
+        "filename": "48.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/48.gif",
+        "bytes": 547181,
+        "sha256": "ab8919632bd5ead323cc166bd3a943c4ed1bf69089622c3942e40a3273ae5aab"
+      },
+      "pairing_status": "asset_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 49,
+      "workbook_row": 51,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": {
+        "format": "jpeg",
+        "width": 800,
+        "height": 1000,
+        "filename": "49.jpeg",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/49.jpeg",
+        "bytes": 128782,
+        "sha256": "70452a6aac8f4be5b570130e748d17510eff3e732af004caee79e346b3ea25a9"
+      },
+      "pairing_status": "asset_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 50,
+      "workbook_row": 52,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": {
+        "format": "gif",
+        "width": 800,
+        "height": 1000,
+        "frame_count": 200,
+        "duration_ms_from_gce": 8000,
+        "filename": "50.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/50.gif",
+        "bytes": 1070007,
+        "sha256": "97e890f2a6ee195bee68e0e50d75f5836996bd26ec679c650b927b442e3d1c85"
+      },
+      "pairing_status": "asset_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 51,
+      "workbook_row": 53,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": {
+        "format": "gif",
+        "width": 800,
+        "height": 1000,
+        "frame_count": 351,
+        "duration_ms_from_gce": 14040,
+        "filename": "51.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/51.gif",
+        "bytes": 1347180,
+        "sha256": "399309344ad36e260738dadcb822cbaf1eccc0484ae85f715055f80fb8e4bb30"
+      },
+      "pairing_status": "asset_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 52,
+      "workbook_row": 54,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": {
+        "format": "jpeg",
+        "width": 800,
+        "height": 1000,
+        "filename": "52.jpeg",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/52.jpeg",
+        "bytes": 135430,
+        "sha256": "417fc1ee284996a6d204dab17424c8014a623a6dac431684e1eeed87d0bbbe53"
+      },
+      "pairing_status": "asset_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 53,
+      "workbook_row": 55,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": {
+        "format": "jpeg",
+        "width": 800,
+        "height": 1000,
+        "filename": "53.jpeg",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/53.jpeg",
+        "bytes": 126502,
+        "sha256": "0f4a002ae7447f12ed1d1973c5670ddf2a5abebcd933fb560d0bc2976da5e88d"
+      },
+      "pairing_status": "asset_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 54,
+      "workbook_row": 56,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": {
+        "format": "gif",
+        "width": 800,
+        "height": 1000,
+        "frame_count": 350,
+        "duration_ms_from_gce": 14000,
+        "filename": "54.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/54.gif",
+        "bytes": 2179155,
+        "sha256": "7f922df9186fb233ef81150e5c8e5f582a2ef22c008babeb5cf7ae762c8f4ac0"
+      },
+      "pairing_status": "asset_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 55,
+      "workbook_row": 57,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": {
+        "format": "gif",
+        "width": 800,
+        "height": 1000,
+        "frame_count": 75,
+        "duration_ms_from_gce": 3000,
+        "filename": "55.gif",
+        "relative_source_path": "infographic-setup/references/Vincent Pierri Reference/55.gif",
+        "bytes": 888342,
+        "sha256": "5190d10bcf08e766da029e7d3cc93ba632e63696c2237fe80fb18277a2e7f2d4"
+      },
+      "pairing_status": "asset_only",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 56,
+      "workbook_row": 58,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 57,
+      "workbook_row": 59,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 58,
+      "workbook_row": 60,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 59,
+      "workbook_row": 61,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 60,
+      "workbook_row": 62,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 61,
+      "workbook_row": 63,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 62,
+      "workbook_row": 64,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 63,
+      "workbook_row": 65,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 64,
+      "workbook_row": 66,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 65,
+      "workbook_row": 67,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 66,
+      "workbook_row": 68,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 67,
+      "workbook_row": 69,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 68,
+      "workbook_row": 70,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 69,
+      "workbook_row": 71,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 70,
+      "workbook_row": 72,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 71,
+      "workbook_row": 73,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 72,
+      "workbook_row": 74,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 73,
+      "workbook_row": 75,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 74,
+      "workbook_row": 76,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 75,
+      "workbook_row": 77,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 76,
+      "workbook_row": 78,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 77,
+      "workbook_row": 79,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 78,
+      "workbook_row": 80,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 79,
+      "workbook_row": 81,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 80,
+      "workbook_row": 82,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 81,
+      "workbook_row": 83,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 82,
+      "workbook_row": 84,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 83,
+      "workbook_row": 85,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 84,
+      "workbook_row": 86,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 85,
+      "workbook_row": 87,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 86,
+      "workbook_row": 88,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 87,
+      "workbook_row": 89,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 88,
+      "workbook_row": 90,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 89,
+      "workbook_row": 91,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 90,
+      "workbook_row": 92,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 91,
+      "workbook_row": 93,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 92,
+      "workbook_row": 94,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 93,
+      "workbook_row": 95,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 94,
+      "workbook_row": 96,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 95,
+      "workbook_row": 97,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 96,
+      "workbook_row": 98,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 97,
+      "workbook_row": 99,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 98,
+      "workbook_row": 100,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 99,
+      "workbook_row": 101,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    },
+    {
+      "post_id": 100,
+      "workbook_row": 102,
+      "creator": null,
+      "caption": null,
+      "caption_word_count": null,
+      "asset": null,
+      "pairing_status": "source_row_without_caption_or_asset",
+      "pairing_warning": null,
+      "pairing_provenance": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+    }
+  ]
+}

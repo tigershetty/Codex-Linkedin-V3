@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "field_guide_id": "FG-CROSS-FUNCTIONAL-TRANSLATOR-MAP-V5",
+  "artifact_type": "field_guide",
+  "family": "field_guide_notebook",
+  "title": "Six Supply-Chain Translation Prompts",
+  "primary_reader": "An early- or mid-career supply-chain practitioner who wants to become more cross-functional but does not know which adjacent working language to learn next.",
+  "reader_contract": {
+    "reader_moment": "You hear 'get cross-functional exposure' but cannot connect that advice to the decision your own work hands to someone else.",
+    "reader_payoff": "A practical way to choose one adjacent supply-chain language to learn next.",
+    "decision_question": "Which adjacent decision should I understand better to make my current work more useful?",
+    "glance_3s": "Do not learn all of supply chain. Learn the next decision your work affects.",
+    "scan_10s": "Six functions connect through the decisions they hand onward.",
+    "use_30s": "Locate your current function, follow one directional transfer, and ask which decision your work makes harder for the next owner."
+  },
+  "scope": {
+    "in_scope": "A bounded career-development and collaboration framework for selecting one adjacent function to understand better.",
+    "not_for": "It is not a universal career ladder, competency benchmark, organisational design, or guarantee that every role should follow the same handoff.",
+    "assumptions": "The reader adapts the language to their own company structure, role scope, and current decision rights."
+  },
+  "truth_class": "framework",
+  "truth_contract": {
+    "basis": "An editorial synthesis of six common supply-chain functions and the next decision each role often needs to understand.",
+    "scope": "The map is a conversation and learning aid, not an empirical model of career progression or functional ownership.",
+    "not_claiming": "It does not prove that one sequence is optimal, that every company uses these functions, or that cross-functional literacy causes a career outcome."
+  },
+  "visual_argument": {
+    "spatial_model": "translator_atlas",
+    "spatial_claim": "Each function has an adjacent decision language that can make its next cross-functional conversation more useful.",
+    "why_shape_truthful": "An asymmetric atlas lets a reader start at one function and trace one useful hop to a decision language, without pretending that the six links are verified receiver ownership or a universal operating sequence.",
+    "anti_misread": "Do not show this as a ladder, wheel, fixed network of functional ownership, or prescribed career rotation sequence."
+  },
+  "modules": [
+    {
+      "module_id": "M-01",
+      "title": "Procurement → demand signal",
+      "module_type": "reference",
+      "reader_action": "Ask how the demand signal changes the supplier conversation before treating price or lead time as the only input.",
+      "claim_ids": ["CL-01"]
+    },
+    {
+      "module_id": "M-02",
+      "title": "Planning → capacity constraint",
+      "module_type": "reference",
+      "reader_action": "Translate a plan into the capacity question that manufacturing or a supplier must resolve.",
+      "claim_ids": ["CL-02"]
+    },
+    {
+      "module_id": "M-03",
+      "title": "Manufacturing → delivery promise",
+      "module_type": "reference",
+      "reader_action": "Connect the production constraint to the commitment that logistics or the customer-facing team must manage.",
+      "claim_ids": ["CL-03"]
+    },
+    {
+      "module_id": "M-04",
+      "title": "Logistics → customer commitment",
+      "module_type": "reference",
+      "reader_action": "Frame movement and freight choices through the commitment they protect or put at risk.",
+      "claim_ids": ["CL-04"]
+    },
+    {
+      "module_id": "M-05",
+      "title": "Analytics → operator decision",
+      "module_type": "reference",
+      "reader_action": "Ask which operator decision should become easier before building another report or model.",
+      "claim_ids": ["CL-05"]
+    },
+    {
+      "module_id": "M-06",
+      "title": "Strategy → frontline workflow",
+      "module_type": "reference",
+      "reader_action": "Test whether the strategic idea can be explained as a changed frontline decision or handoff.",
+      "claim_ids": ["CL-06"]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CL-01",
+      "text": "Procurement can use the demand signal as an adjacent language for a better supplier conversation.",
+      "claim_type": "framework",
+      "evidence": {"status": "not_required", "rationale": "A bounded editorial framework, not a documented performance outcome."}
+    },
+    {
+      "claim_id": "CL-02",
+      "text": "Planning can use the capacity constraint as an adjacent language for a more workable plan.",
+      "claim_type": "framework",
+      "evidence": {"status": "not_required", "rationale": "A bounded editorial framework, not a documented performance outcome."}
+    },
+    {
+      "claim_id": "CL-03",
+      "text": "Manufacturing can use the delivery promise as an adjacent language for clearer handoffs.",
+      "claim_type": "framework",
+      "evidence": {"status": "not_required", "rationale": "A bounded editorial framework, not a documented performance outcome."}
+    },
+    {
+      "claim_id": "CL-04",
+      "text": "Logistics can use the customer commitment as an adjacent language for prioritising movement choices.",
+      "claim_type": "framework",
+      "evidence": {"status": "not_required", "rationale": "A bounded editorial framework, not a documented performance outcome."}
+    },
+    {
+      "claim_id": "CL-05",
+      "text": "Analytics can use the operator decision as an adjacent language for making analysis more usable.",
+      "claim_type": "framework",
+      "evidence": {"status": "not_required", "rationale": "A bounded editorial framework, not a documented performance outcome."}
+    },
+    {
+      "claim_id": "CL-06",
+      "text": "Strategy can use the frontline workflow as an adjacent language for testing implementation reality.",
+      "claim_type": "framework",
+      "evidence": {"status": "not_required", "rationale": "A bounded editorial framework, not a documented performance outcome."}
+    }
+  ],
+  "boundary_or_exception": {
+    "type": "both",
+    "statement": "Do not treat a map of adjacent languages as a reason to become shallow across everything. Some decisions require deep specialist ownership; this guide only helps choose the next useful conversation.",
+    "reader_response": "Choose one adjacent handoff, then ask the relevant specialist which real decision, project, or meeting would teach it safely.",
+    "claim_ids": ["CL-01", "CL-02", "CL-03", "CL-04", "CL-05", "CL-06"]
+  },
+  "next_action": "Before your next meeting, ask: \"What decision does my work make harder for the next owner?\" Then ask that owner what they need from your work.",
+  "motion": {
+    "decision": "still",
+    "reason": "The map needs stable reading time and a reader should be able to return to any handoff without waiting through an animation."
+  }
+}

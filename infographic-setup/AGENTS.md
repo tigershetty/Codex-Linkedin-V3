@@ -67,12 +67,15 @@ Internal fixtures may test software. They cannot become public proof or a public
 ## Current production system
 
 - Visual creative: `references/creative-engine-v4-recombination.md`,
-  `references/visual-engine-v2.md`, and `references/creative-review/signature-system-v1.md`.
+  `references/visual-engine-v2.md`, and `references/creative-review/signature-system-v2.md`.
   The V3 repertoire is source material only; Operational Decision Cinema is historical reference.
 - Renderer choice: use the image engine for a selected image-led social visual. HTML/SVG,
-  spreadsheet, and documents are separate artifact surfaces when exactness is the reader value.
-- Visual signature guardrail: `references/creative-review/signature-system-v1.md`.
-- No visual family is an unexamined default. Operating Studio and Cobalt Grid are historical reference
+  spreadsheet, documents, and Figma are separate artifact surfaces when exactness is the reader value.
+- Visual signature guardrail: `references/creative-review/signature-system-v2.md`. The Field Guide
+  Notebook is a specialist working-reference family, not a replacement for every post family; use
+  `references/v5-field-guide-notebook-production-system.md` only when its admission test passes.
+- No visual family is an unexamined default. The completed review established a Field Guide grammar
+  for saveable working references, while Operating Studio and Cobalt Grid remain historical reference
   material only; use neither unless a future signature decision explicitly reactivates it.
 - Visual review: standard posts use `five-reader-review.md`; flagships and precision artifacts use
   `templates/visual-output-review-template.md`.

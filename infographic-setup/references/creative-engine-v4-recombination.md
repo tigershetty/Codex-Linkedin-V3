@@ -15,9 +15,10 @@ The engine does not choose the topic and does not revalidate the saved reference
   visible proof, claim boundary, and Tiger source note when personal judgment is used.
 - **Flagship:** an approved reference bundle, recombination brief, creative seed, three visible
   rough directions, content brief, claim support, and Tiger source note where appropriate.
-- `creative-review/signature-system-v1.md` is the active brand authority. The brief must select a
-  visual family from the reader tension and mechanism; Operating Studio and Cobalt Grid are
-  historical references, never defaults.
+- `creative-review/signature-system-v2.md` is the active brand authority. The brief must select a
+  visual family from the reader tension and mechanism; the Field Guide Notebook is available only
+  for a working-reference post that passes its specialist admission test. Operating Studio and
+  Cobalt Grid are historical references, never defaults.
 
 ## Production flow
 
@@ -26,8 +27,9 @@ The engine does not choose the topic and does not revalidate the saved reference
 3. Standard: keep the selected route in `post-card.md` and move directly to the native visual and
    complementary caption. Flagship: build `creative-brief-lite.md` from the selected recombination.
 4. Use the image engine for a selected image-led social visual. Use HTML/SVG, spreadsheet,
-   document, or another surface only when that separate artifact is the reader value. No renderer is
-   the creative strategy.
+   document, Figma, or another surface only when that separate artifact is the reader value. For a
+   Field Guide, use the deterministic Figma master and its review contract; no renderer is the
+   creative strategy.
 5. Compile the packet and prompt when an image model is used.
 6. Review mobile comprehension, utility, originality, brand, claim integrity, and anti-copy boundaries.
 7. Add motion only when sequence or change materially improves the argument.
@@ -44,7 +46,7 @@ The engine does not choose the topic and does not revalidate the saved reference
 - When an invisible time, range, queue, capacity, or demand variable is the story, an Operating
   Trace can make it visibly alter the scene. It is an option for an earned story mechanism, never a
   brand requirement or decorative flourish.
-- Use the selected visual family and the provisional signature guardrail. Show the reader tension
+- Use the selected visual family and Signature System V2. Show the reader tension
   through a physical or visual mechanism, useful framework, career recognition, industry story, or
   deliberate intrigue that belongs to the selected argument. References contribute information
   architecture and creative atoms, not another creator's brand.

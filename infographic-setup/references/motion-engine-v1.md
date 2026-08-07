@@ -15,6 +15,14 @@ easier to notice, understand, or follow without replacing the still as the
 primary artifact. A still-only result is the default whenever motion does not
 materially improve the argument.
 
+### Field Guide Notebook handoff
+
+For a selected Field Guide Notebook, the editable deterministic master is the source of truth—not a
+flattened social export. Keep module, boundary, source, and action layers semantically named in the
+master, export a verified still first, and animate only one genuinely informative state change. The
+Field Guide motion decision must also pass `v5-field-guide-notebook-production-system.md`; it does
+not loosen this engine's source-fidelity, opening-frame, or final-frame rules.
+
 The operating principle is:
 
 > Keep the authored visual intact. Rebuild its reading sequence through motion
