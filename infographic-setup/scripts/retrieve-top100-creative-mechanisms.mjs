@@ -29,6 +29,10 @@ const overlap = (needle, haystack) => {
   return [...left].filter((token) => right.has(token)).length;
 };
 const genome = JSON.parse(readFileSync(resolve(process.cwd(), 'references/creative-genome/top100-creative-genome-v1.json'), 'utf8'));
+if (!/Never retrieve from provisional_template_candidates/i.test(genome.retrieval_contract?.provenance_rule ?? '')) {
+  console.error('Creative Genome provenance contract is missing; rebuild and validate the Top-100 genome before retrieval.');
+  process.exit(1);
+}
 const desired = [query.reader_state, query.response, query.cognitive_job].filter(Boolean).join(' ');
 const ranked = genome.records
   .map((record) => {
@@ -55,6 +59,6 @@ const ranked = genome.records
 
 console.log(JSON.stringify({
   query,
-  boundary: 'Topic deliberately unselected. Use this result only to assemble original creative routes after a real opportunity is chosen.',
+  boundary: 'Topic deliberately unselected. Results include only manually evidenced Top-100 records; provisional template-assisted candidates are excluded until an asset-specific review promotes them.',
   candidates: ranked,
 }, null, 2));

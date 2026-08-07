@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 36,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/36.gif",
+    "sha256": "b9401d70d97c30504cb869cdfc5ced7c2c258488e168aff1fe265358169b5205",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        5000,
+        9400
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A large “How to Craft Your POV” promise places “POV” in a compact lavender tag.",
+    "layout": "A centered five-layer cylindrical stack is flanked by a left explanation column and a right mistakes-to-avoid column.",
+    "reading_order": "Title / clarifier → central bottom-to-top progression → horizontally aligned explanation and failure-mode boxes.",
+    "typography": "Plain oversized title, rough highlighted acronym, bold stage labels on the cylinders, and compact explanatory sans text in flanking boxes.",
+    "colour": "Pastel lavender, pink, aqua, blue, and peach distinguish stack layers and corresponding note boxes.",
+    "surface": "White background, thin dark outlines, softly shaded cylinders, rounded note boxes, and a bottom directional arrow.",
+    "modules": "Five sequential layers plus five explanatory and five caution modules paired by color/height.",
+    "density": "High: progression and counterexamples coexist because their positions are synchronized."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 248,
+      "duration_ms_from_gce": 9920
+    },
+    "observed_state_change": "The centered stack starts flattened, rises into distinct cylinders, and brings its stage labels into readable position while side notes retain their anchors.",
+    "motion_job": "Make an ordered layered metaphor physically assemble, revealing the dependencies between steps.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Understand a dependency-ordered sequence while seeing common failure modes at the corresponding stage.",
+    "argument_shape": "Layered progression with parallel cautions.",
+    "mechanism": "Put the main progression in one physical object and align explanatory / exception material to the relevant level.",
+    "use_condition": "Use only where the order and dependency are true; a stack should not be used to decorate an unordered list."
+  },
+  "anti_copy_boundary": "Do not reuse the POV framework, layered-cylinder object, side-note pairing, color sequence, title tag, or animation choreography.",
+  "claim_boundary": {
+    "public_claim_status": "caption_association_unverified",
+    "note": "The asset is a conceptual framework; matching caption metadata is asserted by numeric ID rather than verified provenance."
+  }
+}

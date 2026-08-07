@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-019",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7465008937407356928, bound to references/top 100/19'.jpeg at SHA-256 f6c6c2444e25c376389e6b5acf092e576e5d4672bfaa8b00a761b0eec2eaaf73.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7465008937407356928; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex direct-asset visual reviewer - Batch C",
+    "reviewed_at": "2026-08-07T15:30:00+02:00",
+    "evidence": "Full-size direct inspection of references/top 100/19'.jpeg against the declared SHA-256; observations below describe the rendered library of mini-graphics."
   },
   "asset": {
     "path": "references/top 100/19'.jpeg",
-    "status": "visually_inspected",
+    "sha256": "f6c6c2444e25c376389e6b5acf092e576e5d4672bfaa8b00a761b0eec2eaaf73",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "f6c6c2444e25c376389e6b5acf092e576e5d4672bfaa8b00a761b0eec2eaaf73",
+      "reviewer": "Codex direct-asset visual reviewer - Batch C",
+      "reviewed_at": "2026-08-07T15:30:00+02:00",
+      "evidence": "Full-size direct inspection of references/top 100/19'.jpeg against the declared SHA-256; observations below describe the rendered library of mini-graphics. Asset hash: f6c6c2444e25c376389e6b5acf092e576e5d4672bfaa8b00a761b0eec2eaaf73."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Eric Partaker",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7465008937407356928",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "5362e8f041c337639b0f153134fa9ef0f533dce752284d502cf14a0750f9bed9",
@@ -34,138 +49,155 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7465008937407356928",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "desire for a trusted starting point",
-      "need to see breadth before committing attention"
-    ],
-    "desired_response": [
-      "save as a starting point",
-      "share as a resource collection",
-      "return to explore individual pieces"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A browsable visual library that aids recall and gives multiple entry points; individual framework claims need their own source checking.",
+    "work_moment": "A strategy practitioner wants a compact index of common planning frameworks instead of a single long article.",
+    "tension": "Abundance and competence: the reader is offered a whole shelf of familiar tools in one visual.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Collection of prior assets presented as a portfolio.",
-    "comprehension_3_10_seconds": "The reader follows the collection wall or directory, many small coherent artifacts, clear organising principle to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Signal depth and create a return path by packaging a body of related work as one visible collection.",
-    "identity_or_curiosity_trigger": "desire for a trusted starting point; need to see breadth before committing attention",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Collection of prior assets presented as a portfolio."
+    "thumbnail_read_0_3_seconds": "0-3s: the enormous Strategy Book in One Page headline promises unusually high value density. 3-10s: a mosaic of recognisably different diagrams signals breadth and makes readers search for a familiar framework. 10-30s: the reader can zoom into one mini-framework at a time and return later for the rest.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Title -> whichever mini-framework catches the reader's eye -> adjacent diagrams by local colour or geometry -> blue footer. There is no required single reading order.”.",
+    "value_exchange_10_30_seconds": "A browsable visual library that aids recall and gives multiple entry points; individual framework claims need their own source checking.",
+    "identity_or_curiosity_trigger": "Abundance and competence: the reader is offered a whole shelf of familiar tools in one visual.",
+    "promise_proved_by_visual": "The mosaic is a catalogue mechanism: visual variety helps a reader locate and remember a framework by shape as well as title."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Collection of prior assets presented as a portfolio",
-    "composition_and_grid": "collection wall or directory; many small coherent artifacts; clear organising principle; entry point into the archive",
-    "dominant_anchor": "Collection of prior assets presented as a portfolio",
+    "asset_specific_observation": "Tall off-white editorial sheet headed by a large serif title, then a dense four-column mosaic of roughly a dozen different strategy mini-diagrams, with a full-width blue download footer.",
+    "composition_and_grid": "A deliberately packed magazine-like grid with unequal module sizes. Thin white gutters and colour blocks prevent the sheet from collapsing into an undifferentiated wall.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: The huge title is the sole thumbnail-level anchor; at normal size each named mini-framework competes as a local entry point; fine print lives inside each tile.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Title",
+      "whichever mini-framework catches the reader's eye",
+      "adjacent diagrams by local colour or geometry",
+      "blue footer. There is no required single reading order."
     ],
     "information_chunks": [
-      "show the collection",
-      "reveal its organising principle",
-      "make a first item or pathway obvious",
-      "offer a return/continuation bridge"
+      "One-page library promise",
+      "many named mini-frameworks",
+      "varied diagrams and checklists",
+      "free-download CTA."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Collection of prior assets presented as a portfolio.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "The huge title is the sole thumbnail-level anchor; at normal size each named mini-framework competes as a local entry point; fine print lives inside each tile.",
+    "typography": "Editorial serif for headings, compact sans for body copy, varied subhead sizes; labels are bold enough to act as a browsing index.",
+    "colour_material_and_contrast": "Warm paper texture, black editorial type, restrained pastel blocks, thin line diagrams, occasional bold primary colours and small gold tape-like corner accents.",
+    "imagery_role": "Each module uses its own diagram primitive: tables, wheels, matrices, staircases, loops, a skyline, Venn-style circles and small people illustrations.",
+    "density_and_pacing": "The title is immediate; next comes exploratory browsing rather than a sequential lesson. The image rewards multiple 10-30 second visits.",
     "craft_observations": [
-      "Collection of prior assets presented as a portfolio",
-      "Reusable atom: A body of work can itself be the product",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The density is earned by genuine variation in information form, not by duplicating one card treatment. Some microtext is too small for a feed preview but works as a reason to save. Module boundaries are clear even though the entire page has an intentionally library-like abundance."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Signal depth and create a return path by packaging a body of related work as one visible collection.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A browsable visual library that aids recall and gives multiple entry points; individual framework claims need their own source checking.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "show the collection",
-      "reveal its organising principle",
-      "make a first item or pathway obvious",
-      "offer a return/continuation bridge"
+      "One-page library promise",
+      "many named mini-frameworks",
+      "varied diagrams and checklists",
+      "free-download CTA."
     ],
-    "compression_method": "collection wall or directory; many small coherent artifacts; clear organising principle; entry point into the archive",
-    "reader_payoff": "Signal depth and create a return path by packaging a body of related work as one visible collection.",
+    "compression_method": "The reviewed visual mechanism is “The mosaic is a catalogue mechanism: visual variety helps a reader locate and remember a framework by shape as well as title.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A browsable visual library that aids recall and gives multiple entry points; individual framework claims need their own source checking.",
     "save_share_return_motives": [
-      "save as a starting point",
-      "share as a resource collection",
-      "return to explore individual pieces"
+      "High save potential as an index or memory jogger, with value accumulating across repeat visits."
     ],
-    "caption_to_visual_choreography": "Explain what unifies the collection and where a reader should start, rather than merely claiming volume."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “The mosaic is a catalogue mechanism: visual variety helps a reader locate and remember a framework by shape as well as title.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Signal depth and create a return path by packaging a body of related work as one visible collection.",
+      "mechanism_family": "collection",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "One-page library promise -> many named mini-frameworks -> varied diagrams and checklists -> free-download CTA.",
+          "Tall off-white editorial sheet headed by a large serif title, then a dense four-column mosaic of roughly a dozen different strategy mini-diagrams, with a full-width blue download footer.",
+          "A deliberately packed magazine-like grid with unequal module sizes. Thin white gutters and colour blocks prevent the sheet from collapsing into an undifferentiated wall.",
+          "The mosaic is a catalogue mechanism: visual variety helps a reader locate and remember a framework by shape as well as title."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A browsable visual library that aids recall and gives multiple entry points; individual framework claims need their own source checking.",
       "reader_state": [
-        "desire for a trusted starting point",
-        "need to see breadth before committing attention"
+        "A strategy practitioner wants a compact index of common planning frameworks instead of a single long article."
       ],
       "visual_grammar": [
-        "collection wall or directory",
-        "many small coherent artifacts",
-        "clear organising principle",
-        "entry point into the archive"
+        "Tall off-white editorial sheet headed by a large serif title, then a dense four-column mosaic of roughly a dozen different strategy mini-diagrams, with a full-width blue download footer.",
+        "A deliberately packed magazine-like grid with unequal module sizes. Thin white gutters and colour blocks prevent the sheet from collapsing into an undifferentiated wall.",
+        "The mosaic is a catalogue mechanism: visual variety helps a reader locate and remember a framework by shape as well as title."
       ],
       "information_grammar": [
-        "show the collection",
-        "reveal its organising principle",
-        "make a first item or pathway obvious",
-        "offer a return/continuation bridge"
+        "One-page library promise -> many named mini-frameworks -> varied diagrams and checklists -> free-download CTA.",
+        "A browsable visual library that aids recall and gives multiple entry points; individual framework claims need their own source checking.",
+        "High save potential as an index or memory jogger, with value accumulating across repeat visits."
       ],
       "social_action_mechanics": [
-        "save as a starting point",
-        "share as a resource collection",
-        "return to explore individual pieces"
+        "High save potential as an index or memory jogger, with value accumulating across repeat visits."
       ],
       "use_when": [
-        "There is a real body of related work.",
-        "The collection itself creates more value than one item alone.",
-        "The organising principle is clear."
+        "The already selected reader moment genuinely benefits from an original collection rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The collection is thin or purely self-promotional.",
-        "Individual assets do not have standalone value.",
-        "The reader needs one focused answer now."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "A body of work can itself be the product",
-      "show the collection",
-      "reveal its organising principle"
+      "For a true reference library, use a stable page title and a deliberately varied set of diagram primitives. Give each module enough local completion to be useful but avoid pretending the mosaic is one linear argument. Build a navigable visual index rather than repeating identical cards."
     ],
-    "reverse_build_specification": "When a chosen opportunity is best served by a real collection, make the system of work visible and give the reader a clear starting route. The visual must prove useful breadth, not simply announce output volume.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original collection whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: For a true reference library, use a stable page title and a deliberately varied set of diagram primitives. Give each module enough local completion to be useful but avoid pretending the mosaic is one linear argument. Build a navigable visual index rather than repeating identical cards. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Creator's collage and assets",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not reproduce the Strategy Book title, particular framework selection, Eric Partaker mini-diagrams, paper texture, gold corner tabs, blue footer or collection layout.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended signal depth and create a return path by packaging a body of related work as one visible collection. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#19",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#19",
     "source_context_id": "top100-workbook#19",
-    "content_hash": "19875e6de854dcf5fb9831e2413cde0f47e9a38592f7f8dfcc68904e5e40d848"
+    "content_hash": "19875e6de854dcf5fb9831e2413cde0f47e9a38592f7f8dfcc68904e5e40d848",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7465008937407356928",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/19'.jpeg",
+      "asset_sha256": "f6c6c2444e25c376389e6b5acf092e576e5d4672bfaa8b00a761b0eec2eaaf73",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

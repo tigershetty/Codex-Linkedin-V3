@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-072",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7453019851943587840, bound to references/top 100/72.jpeg at SHA-256 6b695b497eb84064ee542abe74b478b3d06f3da7ef9f98d8a2f4b04c2407a7a6.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7453019851943587840; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex manual visual reviewer, batch 2026-08-07-a",
+    "reviewed_at": "2026-08-07T00:00:00.000Z",
+    "evidence": "Direct full-size review of references/top 100/72.jpeg at SHA-256 6b695b497eb84064ee542abe74b478b3d06f3da7ef9f98d8a2f4b04c2407a7a6. This is a static JPEG; GIF frame evidence is not applicable."
   },
   "asset": {
     "path": "references/top 100/72.jpeg",
-    "status": "visually_inspected",
+    "sha256": "6b695b497eb84064ee542abe74b478b3d06f3da7ef9f98d8a2f4b04c2407a7a6",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "6b695b497eb84064ee542abe74b478b3d06f3da7ef9f98d8a2f4b04c2407a7a6",
+      "reviewer": "Codex manual visual reviewer, batch 2026-08-07-a",
+      "reviewed_at": "2026-08-07T00:00:00.000Z",
+      "evidence": "Direct full-size review of references/top 100/72.jpeg at SHA-256 6b695b497eb84064ee542abe74b478b3d06f3da7ef9f98d8a2f4b04c2407a7a6. This is a static JPEG; GIF frame evidence is not applicable. Asset hash: 6b695b497eb84064ee542abe74b478b3d06f3da7ef9f98d8a2f4b04c2407a7a6."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Charlie Hills 🦩",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7453019851943587840",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "a0a89815aecc805811ece68ea68ad8e66bc30e77f73de4f857cbf54b13c2028f",
@@ -34,140 +49,166 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7453019851943587840",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "blank-page friction",
-      "process uncertainty",
-      "desire for a reliable first move"
-    ],
-    "desired_response": [
-      "save for later execution",
-      "send to someone learning the process",
-      "return at the point of work"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: An eight-step content workflow with a visual cue, short action list, sample prompt, and pro tip in every step.",
+    "work_moment": "A creator is unhappy with generic AI-written posts and wants an operating method that preserves their voice while using AI for structure and iteration.",
+    "tension": "Relief and self-protection: AI becomes a support tool rather than a replacement for the reader's perspective.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by AI writing workflow as eight actionable cards.",
-    "comprehension_3_10_seconds": "The reader follows the numbered sequence, one visible action per stage, progress cue to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Convert an intimidating process into a sequence a reader can start and repeat.",
-    "identity_or_curiosity_trigger": "blank-page friction; process uncertainty; desire for a reliable first move",
-    "promise_proved_by_visual": "The visual’s proof mechanism is AI writing workflow as eight actionable cards."
+    "thumbnail_read_0_3_seconds": "STOP ASKING AI TO WRITE A POST is a contrarian high-contrast headline, followed by eight numbered process cards that promise a reusable alternative.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Headline -> 01 Extract your voice -> across first-row steps 02-04 -> second-row steps 05-08 -> bottom profile/URL footer.”.",
+    "value_exchange_10_30_seconds": "An eight-step content workflow with a visual cue, short action list, sample prompt, and pro tip in every step.",
+    "identity_or_curiosity_trigger": "Relief and self-protection: AI becomes a support tool rather than a replacement for the reader's perspective.",
+    "promise_proved_by_visual": "The repeated card anatomy turns a vague anti-generic-AI stance into a visible operating system that can be followed or adapted step by step."
   },
   "visual_forensics": {
-    "asset_specific_observation": "AI writing workflow as eight actionable cards",
-    "composition_and_grid": "numbered sequence; one visible action per stage; progress cue; optional prompt/interface/example at each stage",
-    "dominant_anchor": "AI writing workflow as eight actionable cards",
+    "asset_specific_observation": "Tall dark-navy grid with a four-column by two-row set of eight numbered workflow cards beneath a prominent headline and one-line subhead.",
+    "composition_and_grid": "Highly regular eight-card grid. Every card repeats image, bullets, dark prompt inset, and orange-edged pro-tip inset, making a large amount of content predictable to scan.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: The white/orange title and highlighted YOUR word lead; numbered orange step badges and all-caps step names form a second scan; white illustration cards, bullet lists, prompt panels, and PRO TIP blocks form nested detail.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Headline",
+      "01 Extract your voice",
+      "across first-row steps 02-04",
+      "second-row steps 05-08",
+      "bottom profile/URL footer."
     ],
     "information_chunks": [
-      "start condition",
-      "small steps",
-      "decision or quality gate",
-      "repeatable loop or next action"
+      "State the contrarian rule",
+      "extract voice",
+      "build content bank",
+      "generate hooks",
+      "map structure",
+      "add proof",
+      "refine by platform",
+      "humanise",
+      "save as system."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: AI writing workflow as eight actionable cards.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "The white/orange title and highlighted YOUR word lead; numbered orange step badges and all-caps step names form a second scan; white illustration cards, bullet lists, prompt panels, and PRO TIP blocks form nested detail.",
+    "typography": "Heavy all-caps white stage labels, bright orange numbers/accents, compact white bullet text, italic prompt scripts, and a yellow highlight object produce a branded instructional hierarchy.",
+    "colour_material_and_contrast": "Near-black navy grid background, thin pale card borders, white paper illustration cells, orange numbering, yellow highlight, and orange left rules on PRO TIP boxes.",
+    "imagery_role": "Simple white hand-drawn-style illustrations inside each card provide an immediate visual metaphor for voice, ideas, hooks, structure, proof, platform, humanisation, and system.",
+    "density_and_pacing": "Strong first-frame promise; reader can consume one card at a time or move in numeric order. The nested prompts add slow reading but do not obscure stage order.",
     "craft_observations": [
-      "AI writing workflow as eight actionable cards",
-      "Reusable atom: One workflow, one action, one prompt, one pro tip per card",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "One stable card grammar supports unusually high density; each step carries an action and a reason; visual repetition is intentional but could become monotonous in a series, and behavioural claims about AI output are opinion rather than demonstrated evidence."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: An eight-step content workflow with a visual cue, short action list, sample prompt, and pro tip in every step.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "start condition",
-      "small steps",
-      "decision or quality gate",
-      "repeatable loop or next action"
+      "State the contrarian rule",
+      "extract voice",
+      "build content bank",
+      "generate hooks",
+      "map structure",
+      "add proof",
+      "refine by platform",
+      "humanise",
+      "save as system."
     ],
-    "compression_method": "numbered sequence; one visible action per stage; progress cue; optional prompt/interface/example at each stage",
-    "reader_payoff": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "compression_method": "The reviewed visual mechanism is “The repeated card anatomy turns a vague anti-generic-AI stance into a visible operating system that can be followed or adapted step by step.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "An eight-step content workflow with a visual cue, short action list, sample prompt, and pro tip in every step.",
     "save_share_return_motives": [
-      "save for later execution",
-      "send to someone learning the process",
-      "return at the point of work"
+      "Save as a content-production checklist; return for a next post; share with a creator who wants less generic output."
     ],
-    "caption_to_visual_choreography": "Explain the work moment, trade-offs and failure boundary behind the steps; do not merely transcribe them."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “The repeated card anatomy turns a vague anti-generic-AI stance into a visible operating system that can be followed or adapted step by step.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Convert an intimidating process into a sequence a reader can start and repeat.",
+      "mechanism_family": "workflow",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "State the contrarian rule -> extract voice -> build content bank -> generate hooks -> map structure -> add proof -> refine by platform -> humanise -> save as system.",
+          "Tall dark-navy grid with a four-column by two-row set of eight numbered workflow cards beneath a prominent headline and one-line subhead.",
+          "Highly regular eight-card grid. Every card repeats image, bullets, dark prompt inset, and orange-edged pro-tip inset, making a large amount of content predictable to scan.",
+          "The repeated card anatomy turns a vague anti-generic-AI stance into a visible operating system that can be followed or adapted step by step."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: An eight-step content workflow with a visual cue, short action list, sample prompt, and pro tip in every step.",
       "reader_state": [
-        "blank-page friction",
-        "process uncertainty",
-        "desire for a reliable first move"
+        "A creator is unhappy with generic AI-written posts and wants an operating method that preserves their voice while using AI for structure and iteration."
       ],
       "visual_grammar": [
-        "numbered sequence",
-        "one visible action per stage",
-        "progress cue",
-        "optional prompt/interface/example at each stage"
+        "Tall dark-navy grid with a four-column by two-row set of eight numbered workflow cards beneath a prominent headline and one-line subhead.",
+        "Highly regular eight-card grid. Every card repeats image, bullets, dark prompt inset, and orange-edged pro-tip inset, making a large amount of content predictable to scan.",
+        "The repeated card anatomy turns a vague anti-generic-AI stance into a visible operating system that can be followed or adapted step by step."
       ],
       "information_grammar": [
-        "start condition",
-        "small steps",
-        "decision or quality gate",
-        "repeatable loop or next action"
+        "State the contrarian rule -> extract voice -> build content bank -> generate hooks -> map structure -> add proof -> refine by platform -> humanise -> save as system.",
+        "An eight-step content workflow with a visual cue, short action list, sample prompt, and pro tip in every step.",
+        "Save as a content-production checklist; return for a next post; share with a creator who wants less generic output."
       ],
       "social_action_mechanics": [
-        "save for later execution",
-        "send to someone learning the process",
-        "return at the point of work"
+        "Save as a content-production checklist; return for a next post; share with a creator who wants less generic output."
       ],
       "use_when": [
-        "A useful outcome genuinely requires ordered actions.",
-        "The reader can begin without hidden prerequisites.",
-        "The sequence has a real quality check or decision point."
+        "The already selected reader moment genuinely benefits from an original workflow rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The work is non-linear and forcing steps would mislead.",
-        "The post cannot specify a valid first action.",
-        "The claim is a broad strategy rather than a process."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "One workflow, one action, one prompt, one pro tip per card",
-      "start condition",
-      "small steps"
+      "Use a strong contrarian thesis to earn a procedural board; make every step self-contained; pair visible stage number, micro-illustration, practical bullets, example prompt, and one field-tested caution."
     ],
-    "reverse_build_specification": "When an opportunity needs a repeatable start-to-finish path, use numbered stages with one action and one visible output per stage. Make progress feel possible, include the point at which the reader must judge or validate, and reserve the caption for context and exceptions.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original workflow whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: Use a strong contrarian thesis to earn a procedural board; make every step self-contained; pair visible stage number, micro-illustration, practical bullets, example prompt, and one field-tested caution. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Dark blueprint/card system",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not reuse the exact eight-step content method, prompt text, headline, navy/orange palette, card layouts, or creator/substack branding.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended convert an intimidating process into a sequence a reader can start and repeat. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#72",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#72",
     "source_context_id": "top100-workbook#72",
-    "content_hash": "1458c9b6e9669d0fc30297c6fe8b15f04a827ec1d1b588da273c75239df757e5"
+    "content_hash": "1458c9b6e9669d0fc30297c6fe8b15f04a827ec1d1b588da273c75239df757e5",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7453019851943587840",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/72.jpeg",
+      "asset_sha256": "6b695b497eb84064ee542abe74b478b3d06f3da7ef9f98d8a2f4b04c2407a7a6",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

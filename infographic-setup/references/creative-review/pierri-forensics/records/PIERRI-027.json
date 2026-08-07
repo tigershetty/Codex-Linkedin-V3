@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 27,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/27.gif",
+    "sha256": "80652a70aa16c9160f4a1739c2aa1bcfa46b21903e4104af0280e13ad469b2d6",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        5000,
+        9500
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "The phrase “STRUCTURE” is placed in a prominent lavender tag inside an otherwise plain-language title.",
+    "layout": "A conditional layout-selection board: one input (“framework has N parts”) branches to eight shape options with miniature diagrams.",
+    "reading_order": "Title → input tag → top row of compatible structures → lower row of further structures connected through the same branch spine.",
+    "typography": "Large lightweight title, rough display accent, and compact explanatory labels directly above simple structural sketches.",
+    "colour": "Alternating lavender, pink, aqua, and blue panels distinguish possible structures without becoming the main information code.",
+    "surface": "White page, one continuous dark branching line, pale flat modules, thin rules, and minimal shadow.",
+    "modules": "One variable input plus eight visual alternatives, each with a plain-language use condition and schematic.",
+    "density": "High: multiple choices remain coherent because they answer one input question."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 236,
+      "duration_ms_from_gce": 9960
+    },
+    "observed_state_change": "The sampled input moves from “2 parts” to “4+ parts”; its miniature diagrams add/expand their components before returning to the initial state as a loop.",
+    "motion_job": "Show how one change in input cardinality alters the candidate visual structures while preserving context.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Choose a visual structure by the actual relationship in a framework, not by decoration preference.",
+    "argument_shape": "Conditional selection tree.",
+    "mechanism": "Expose the selection variable first, then show a finite set of shape options whose miniatures make the consequence visible.",
+    "use_condition": "Use only when the input variable is real and the choice rules reflect the underlying logic rather than a style preference."
+  },
+  "anti_copy_boundary": "Do not reuse the “eight layouts” taxonomy, example diagrams, lavender title tag, branching board, source wording, or motion loop.",
+  "claim_boundary": {
+    "public_claim_status": "caption_association_unverified",
+    "note": "The visual is a framework reference. Its matching workbook caption remains an asserted numeric association, not source-proven post metadata."
+  }
+}

@@ -25,10 +25,14 @@ saved-post intelligence
   -> atom-level transfer learning
 ```
 
-V4 production is gated by the Creative Review Foundation. Before a new V4 post, run
+The Creative Review Foundation controls when Top-100 material may be treated as high-confidence
+forensic visual intelligence. Run
 `node scripts/validate-reference-review-foundation.mjs --require-complete` from
-`infographic-setup/`. Captions and previews are retrieval signals, not visual review. The first
-release after the gate passes is a calibration post; five-post cadence resumes only after its review.
+`infographic-setup/` before declaring the foundation complete, restarting the V4 five-post cadence,
+or using its unreviewed records as a calibration basis. Captions and previews are retrieval signals,
+not visual review. The gate does **not** block an internal design lab or a post whose selected
+references already carry separate evidence-bound review; it blocks false certainty about the wider
+collection.
 
 ## Repo map
 
@@ -80,10 +84,12 @@ selected claim mode.
 - Opportunity selection: `infographic-setup/references/creative-opportunity-selection.md`
 - Creative production: `infographic-setup/references/creative-engine-v4-recombination.md`
 - Visual workflow: `infographic-setup/references/visual-engine-v2.md`
-- Signature and Field Guide authority: `infographic-setup/references/creative-review/signature-system-v2.md`,
-  with the specialist route in `infographic-setup/references/v5-field-guide-notebook-production-system.md`
+- Signature authority: `infographic-setup/references/creative-review/signature-system-v3.md`
+- Framework-led social visual route: `infographic-setup/references/v5-working-infographic-production-system.md`
+- Field Guide specialist route: `infographic-setup/references/v5-field-guide-notebook-production-system.md`
 - Voice gate: `infographic-setup/references/tiger-source-gate-v1.md`
-- Motion: `infographic-setup/references/motion-engine-v1.md`
+- Motion: `infographic-setup/references/motion-engine-v1.md` for picture-first work;
+  `infographic-setup/references/motion-engine-v2-semantic-states.md` for Figma-native frameworks
 - Publish handoff: `infographic-setup/references/publish-resource-handoff-v1.md`
 - Immutable LinkedIn audit: `infographic-setup/references/outputs/019fc389-0554-7a43-a8fa-07bd597be61d/linkedin-content-market-fit-audit-2026-08-02/`
 
@@ -99,8 +105,9 @@ or `/ai-for-sc` plans are candidate banks. Files under dated archive folders are
   support, prompt, and review.
 - For a standard image-led post, use an image-engine-native final. Never finish it by pasting HTML,
   SVG, dashboard cards, or title overlays over the rendered scene.
-- A selected Field Guide is a separate exact working-reference artifact: use a deterministic Figma
-  master rather than asking an image model to typeset dense material.
+- A selected high-density Visual Framework or Field Guide uses a deterministic Figma master as the
+  actual LinkedIn visual; do not ask an image model to typeset dense material. Keep normal
+  scene-led posts image-native.
 - Operating Studio and Cobalt Grid are historical reference material, not automatic visual defaults.
 - Do not automate LinkedIn comments or publish without explicit approval.
 - Preserve the active visual named by post-card.md once approved; do not silently treat an older

@@ -293,7 +293,7 @@ ${selectedAtoms(bundle, brief)}
 ## Brand, Assets, And Renderer
 
 - **Visual family:** ${value(field(brief, 'Visual family selected'), 'explicitly selected visual family')}
-- **Signature guardrail:** ${value(field(brief, 'Signature guardrail'), 'references/creative-review/signature-system-v2.md')}
+- **Signature guardrail:** ${value(field(brief, 'Signature guardrail'), 'references/creative-review/signature-system-v3.md')}
 - **Brand direction:** ${value(field(brief, 'Brand direction'), 'product-grade clarity, selected visual family, and no unearned style mandate')}
 - **Logo plan:** ${value(field(brief, 'Logo plan'))}
 - **Assets:** ${value(field(brief, 'Logo/asset references'))}

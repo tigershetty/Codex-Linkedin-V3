@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 30,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/30.gif",
+    "sha256": "597aa34a96af8c8ad729d286d71992d0b127165ab93dba4bab58069f5fbb2c48",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        3300,
+        6200
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A broad promise for “14 PROVEN LinkedIn Post Ideas” combines a lightweight headline with one lavender highlighted word-object.",
+    "layout": "A left-to-right spectrum arrow organizes 14 prompt cards into personal, reflective, and professional territories linked by curved paths.",
+    "reading_order": "Title → the large spectrum label → individual prompt cards within each territory → small moving markers / connectors.",
+    "typography": "Large headline, rough highlighted word, bold card labels, and editable-looking sentence starters in smaller sans type.",
+    "colour": "Lavender introduces personal prompts, blue handles reflective prompts, and aqua handles professional prompts.",
+    "surface": "White background, raised pale cards, curved dark connectors, a large two-tone arrow, and light drop shadows.",
+    "modules": "Fourteen prompt cards arranged as five personal, four reflective, and five professional ideas.",
+    "density": "High but modular: a reader can save the whole list or extract one usable prompt independently."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 327,
+      "duration_ms_from_gce": 6540
+    },
+    "observed_state_change": "Sampled frames show small colored markers travelling through the spectrum and along card connectors while the full prompt board remains visible.",
+    "motion_job": "Direct attention along an existing categorical route; the movement does not replace the static map.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Browse a broad set of prompt types without reading them as an arbitrary checklist.",
+    "argument_shape": "Spectrum-based taxonomy.",
+    "mechanism": "Make the organizing continuum explicit, then place modular examples along it so a reader can locate themselves and choose one entry point.",
+    "use_condition": "Use only when a meaningful continuum exists; otherwise use a clearer taxonomy or table."
+  },
+  "anti_copy_boundary": "Do not reuse the 14-item prompt bank, personal-to-professional spectrum, source title/claim, individual cards, colors, connectors, or motion markers.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "“Proven” is a visible source assertion. The corpus does not include evidence sufficient to reuse that claim."
+  }
+}

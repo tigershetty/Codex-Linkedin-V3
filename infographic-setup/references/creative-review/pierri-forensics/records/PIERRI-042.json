@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 42,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/42.gif",
+    "sha256": "e18cb730062fc0694b154abcdf6fe052dfec7ae27bbfa3e3b34e45b850ddee51",
+    "format": "gif",
+    "canvas": {
+      "width": 1052,
+      "height": 1316
+    }
+  },
+  "caption_link": {
+    "status": "asset_only",
+    "association_confidence": "no_caption_supplied",
+    "caption_available": false,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        5000,
+        9400
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "“How to Write a VIRAL HOOK” pairs an oversized promise with a lavender rough-display phrase.",
+    "layout": "One top principle leads to a four-quadrant formula board; each quadrant contains a hook pattern and several example lines.",
+    "reading_order": "Title → one-sentence rule → four numbered formula types → examples and small numeric badges within each type.",
+    "typography": "Large plain sans title, rough display accent, bold numbered formula labels, and highlighted phrase fragments inside small examples.",
+    "colour": "Lavender, pink, aqua, and blue separate the four formula families while shared white panels preserve a common template.",
+    "surface": "Pale gradient background, rounded boxes, dotted-outline blanks, highlighted phrase chips, fine dark borders, and soft shadows.",
+    "modules": "One top rule plus four formula quadrants, each containing three examples.",
+    "density": "Very high: the visual operates as a small reference library, not a one-glance slogan."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 248,
+      "duration_ms_from_gce": 9920
+    },
+    "observed_state_change": "Sampled frames show formula elements, phrase highlights, and example text entering progressively while the four-quadrant structure remains fixed.",
+    "motion_job": "Stage a dense reference in a coherent build while preserving a usable final still.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Learn an abstract formula by seeing several varied applications beside it.",
+    "argument_shape": "Formula library with examples.",
+    "mechanism": "Give every formula a consistent visual slot and include several examples so readers can recognize the invariant and the variation.",
+    "use_condition": "Use only if example material is original, attributed, or explicitly illustrative; do not insert invented social proof."
+  },
+  "anti_copy_boundary": "Do not reuse the hook formulas, examples, claimed metrics, four-panel geometry, highlighted blanks, color system, or title treatment.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "No source caption accompanies this asset, and the visible impression badges are not independently verified."
+  }
+}

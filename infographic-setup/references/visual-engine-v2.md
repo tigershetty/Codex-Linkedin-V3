@@ -15,7 +15,7 @@ accurately.
 |---|---|
 | Standard reference shelf or flagship Genome bundle | Attention, comprehension, utility, and bridge mechanics |
 | Recombination brief | Flagship-only creative seed, ten concepts, three visible directions, and the selected assembly |
-| Signature System V2 | Product-grade clarity plus a specialist Field Guide grammar for real working references; select the family from the reader task |
+| Signature System V3 | Operational Cartography: select a scene, Working Infographic, Field Guide, or tool route from the reader task |
 | Claim contract | Exact limits on numbers, outcomes, comparisons, and personal authority |
 | Renderer | Execute the selected direction |
 | Review | Decide whether the public asset is clear, useful, original, and true |
@@ -25,6 +25,7 @@ accurately.
 | Surface | Use when |
 |---|---|
 | Image engine | Selected illustration, editorial object, metaphor, scene, or unusual composition |
+| Figma | The actual final LinkedIn visual for a framework that needs exact wording, hierarchy, data, geometry, comparison, or repeatable control |
 | HTML/SVG | A separate precise artifact where exact wording, data, geometry, interface, comparison, or repeatable control matters most |
 | Spreadsheet | The working model, formulas, inputs, or decision table is the value |
 | Document/PDF | A reference, field guide, checklist, or printable system is the value |
@@ -39,11 +40,14 @@ neither a coherent rendered visual nor a useful exact artifact.
 
 ## Brand authority
 
-Use `references/creative-review/signature-system-v2.md` as the active production guardrail. The
-creative route must explicitly choose its visual family before a renderer is selected. When a Field
-Guide is selected, follow `references/v5-field-guide-notebook-production-system.md`: it is a
-specialist resource family, not an automatic template. The exact Shetty's Desk logo remains an owned
-asset, never model-redrawn.
+Use `references/creative-review/signature-system-v3.md` as the active production guardrail. The
+creative route must explicitly choose its visual family before a renderer is selected. When a
+framework-led social visual is selected, follow
+`references/v5-working-infographic-production-system.md` and use Figma as the exact final surface.
+Use `references/working-infographic-figma-master-v1.md` for the editable-source contract.
+When a Field Guide is selected, follow `references/v5-field-guide-notebook-production-system.md`:
+it is a specialist durable-reference family, not an automatic template. The exact Shetty's Desk logo
+remains an owned asset, never model-redrawn.
 
 Operating Studio and `references/brand-kits/cobalt-grid/FRAME.md` are historical reference
 material. Neither may be selected by default.
@@ -174,11 +178,12 @@ Use positive instructions. Long negative prompt blocks usually make the image co
 
 ## Exact-control path
 
-Use HTML/SVG, spreadsheet, document, Figma, or website UI when the value depends on exact content.
-Publish it as its own usable artifact, not a finishing layer over an image-engine visual. A dense
-Field Guide should have a Figma master with exact type, source/exception treatment, and an explicit
-`field-guide-spec.json`; an image model may explore material but cannot typeset the final reference.
-The control is not required for every image-model concept. Build it when it helps answer:
+Use Figma, HTML/SVG, spreadsheet, document, or website UI when the value depends on exact content.
+A high-density Working Infographic may be the final LinkedIn visual directly exported from a selected
+Figma node; it is not a separate downloadable artifact merely because it is exact. A dense Field
+Guide should have its specialist Figma master, exact type, and source/exception treatment; an image
+model may explore material but cannot typeset the final reference. Do not use HTML/SVG as a title-and-
+card layer pasted over an image-engine scene. Build the exact-control route when it helps answer:
 
 - Can the reader use the artifact without interpretation errors?
 - Do the numbers, labels, and relationships fit honestly?
@@ -197,8 +202,8 @@ For a standard post, use `five-reader-review.md` against the active visual. For 
 precision artifact, use `templates/visual-output-review-template.md`. Publish only when:
 
 - the problem or promise is visible in 3 seconds;
-- the main insight is understood in 10 seconds;
-- useful action is available in 30 seconds;
+- the reading structure is understood in 10 seconds;
+- useful action is available in 30–90 seconds when the reader stays with the reference;
 - the selected atoms are visible but the output does not resemble one source end to end;
 - the image has one message and one intentional reading route;
 - the result follows the selected visual family and signature guardrail;
@@ -231,7 +236,7 @@ and closing frames; export both GIF and MP4 and run the motion audit.
 Standard:
 
     post-card.md
-    image-engine prompt and native visual
+    image-engine prompt and native visual, or selected Figma node/export for a Working Infographic
     short five-reader review
     caption file
     analytics.md

@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shettysdesk.com/schemas/creative-review/pierri-asset-forensic.schema.json",
+  "title": "Pierri corpus asset-bound forensic sidecar",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "corpus_id",
+    "asset_id",
+    "review_status",
+    "source_asset",
+    "caption_link",
+    "inspection",
+    "visual_anatomy",
+    "motion",
+    "transferable_mechanism",
+    "anti_copy_boundary",
+    "claim_boundary"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "corpus_id": { "const": "vincent-pierri-local-reference" },
+    "asset_id": { "type": "integer", "minimum": 1, "maximum": 100 },
+    "review_status": { "const": "reviewed_direct_asset" },
+    "source_asset": {
+      "type": "object",
+      "required": ["relative_path", "sha256", "format", "canvas"],
+      "properties": {
+        "relative_path": { "type": "string" },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "format": { "enum": ["gif", "jpeg"] },
+        "canvas": {
+          "type": "object",
+          "required": ["width", "height"],
+          "properties": {
+            "width": { "type": "integer", "minimum": 1 },
+            "height": { "type": "integer", "minimum": 1 }
+          }
+        }
+      }
+    },
+    "caption_link": {
+      "type": "object",
+      "required": ["status", "association_confidence", "caption_available", "limitation"],
+      "properties": {
+        "status": {
+          "enum": ["asserted_by_numeric_id", "known_manual_mismatch", "asset_only"]
+        },
+        "association_confidence": {
+          "enum": ["asserted_by_numeric_id_only", "explicitly_not_paired", "no_caption_supplied"]
+        },
+        "caption_available": { "type": "boolean" },
+        "limitation": { "type": "string", "minLength": 1 }
+      }
+    },
+    "inspection": {
+      "type": "object",
+      "required": ["reviewer", "inspected_on", "evidence_scope", "motion_sampling"],
+      "properties": {
+        "reviewer": { "type": "string", "minLength": 1 },
+        "inspected_on": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "evidence_scope": { "type": "string", "minLength": 1 },
+        "motion_sampling": {
+          "type": "object",
+          "required": ["method", "sampled_positions_ms", "limitation"],
+          "properties": {
+            "method": { "type": "string", "minLength": 1 },
+            "sampled_positions_ms": { "type": "array", "items": { "type": "number", "minimum": 0 } },
+            "limitation": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    },
+    "visual_anatomy": {
+      "type": "object",
+      "required": ["title", "layout", "reading_order", "typography", "colour", "surface", "modules", "density"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "layout": { "type": "string", "minLength": 1 },
+        "reading_order": { "type": "string", "minLength": 1 },
+        "typography": { "type": "string", "minLength": 1 },
+        "colour": { "type": "string", "minLength": 1 },
+        "surface": { "type": "string", "minLength": 1 },
+        "modules": { "type": "string", "minLength": 1 },
+        "density": { "type": "string", "minLength": 1 }
+      }
+    },
+    "motion": {
+      "type": "object",
+      "required": ["mode", "source_metadata", "observed_state_change", "motion_job", "limitation"],
+      "properties": {
+        "mode": { "enum": ["static", "gif_sampled"] },
+        "source_metadata": { "type": "object" },
+        "observed_state_change": { "type": "string", "minLength": 1 },
+        "motion_job": { "type": "string", "minLength": 1 },
+        "limitation": { "type": "string", "minLength": 1 }
+      }
+    },
+    "transferable_mechanism": {
+      "type": "object",
+      "required": ["reader_job", "argument_shape", "mechanism", "use_condition"],
+      "properties": {
+        "reader_job": { "type": "string", "minLength": 1 },
+        "argument_shape": { "type": "string", "minLength": 1 },
+        "mechanism": { "type": "string", "minLength": 1 },
+        "use_condition": { "type": "string", "minLength": 1 }
+      }
+    },
+    "anti_copy_boundary": { "type": "string", "minLength": 1 },
+    "claim_boundary": {
+      "type": "object",
+      "required": ["public_claim_status", "note"],
+      "properties": {
+        "public_claim_status": {
+          "enum": ["no_performance_claim_in_asset", "asset_claims_not_independently_verified", "caption_association_unverified"]
+        },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

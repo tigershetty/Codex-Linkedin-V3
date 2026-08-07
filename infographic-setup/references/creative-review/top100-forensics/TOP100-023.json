@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-023",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7465748779611197440, bound to references/top 100/23.jpeg at SHA-256 c0d018664070fa4261803954698761eecb31baf6b1430eff188b5f567a16bd25.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7465748779611197440; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex direct-asset visual reviewer - Batch C",
+    "reviewed_at": "2026-08-07T15:30:00+02:00",
+    "evidence": "Full-size direct inspection of references/top 100/23.jpeg against the declared SHA-256; observations below describe the rendered multi-diagram guide."
   },
   "asset": {
     "path": "references/top 100/23.jpeg",
-    "status": "visually_inspected",
+    "sha256": "c0d018664070fa4261803954698761eecb31baf6b1430eff188b5f567a16bd25",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "c0d018664070fa4261803954698761eecb31baf6b1430eff188b5f567a16bd25",
+      "reviewer": "Codex direct-asset visual reviewer - Batch C",
+      "reviewed_at": "2026-08-07T15:30:00+02:00",
+      "evidence": "Full-size direct inspection of references/top 100/23.jpeg against the declared SHA-256; observations below describe the rendered multi-diagram guide. Asset hash: c0d018664070fa4261803954698761eecb31baf6b1430eff188b5f567a16bd25."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Will McTighe",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7465748779611197440",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "4c32e238268060faf0ff36dc96b6eb86d56170b17aabaed6cb1a7e7841217dca",
@@ -34,138 +49,161 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7465748779611197440",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "desire for a trusted starting point",
-      "need to see breadth before committing attention"
-    ],
-    "desired_response": [
-      "save as a starting point",
-      "share as a resource collection",
-      "return to explore individual pieces"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A broad visual menu of mechanisms that can start a planning conversation; the stated growth tactics and examples require independent assessment.",
+    "work_moment": "A professional is trying to organise content, audience building, video, lead capture and time allocation into one coherent personal-brand system.",
+    "tension": "Ambition made manageable: a large personal-brand goal is divided into named work areas.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Personal-brand operating playbook collage.",
-    "comprehension_3_10_seconds": "The reader follows the collection wall or directory, many small coherent artifacts, clear organising principle to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Signal depth and create a return path by packaging a body of related work as one visible collection.",
-    "identity_or_curiosity_trigger": "desire for a trusted starting point; need to see breadth before committing attention",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Personal-brand operating playbook collage."
+    "thumbnail_read_0_3_seconds": "0-3s: the oversized Personal Brand phrase sits on a coral highlight like a physical label and promises a high-stakes outcome. 3-10s: six large colour-coded modules advertise distinct ways to build that outcome. 10-30s: varied diagrams make readers browse the part matching their current growth problem.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Headline -> coral How To Go Viral module -> teal Content Strategy module -> orange Write for LinkedIn / olive Video modules -> coral Lead Magnet flow / orange Power Hour clock -> footer.”.",
+    "value_exchange_10_30_seconds": "A broad visual menu of mechanisms that can start a planning conversation; the stated growth tactics and examples require independent assessment.",
+    "identity_or_curiosity_trigger": "Ambition made manageable: a large personal-brand goal is divided into named work areas.",
+    "promise_proved_by_visual": "Different diagram types translate several different kinds of advice into a single visual field without flattening everything into repetitive cards."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Personal-brand operating playbook collage",
-    "composition_and_grid": "collection wall or directory; many small coherent artifacts; clear organising principle; entry point into the archive",
-    "dominant_anchor": "Personal-brand operating playbook collage",
+    "asset_specific_observation": "Tall warm-paper poster with a huge two-line editorial headline, then a two-column stack of six rounded, colour-coded module boxes of unequal height, and a thin subscription footer.",
+    "composition_and_grid": "A modular editorial two-column grid with wide left/right blocks. Component height varies according to content, but rounded bounds and consistent margins keep the collection coherent.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: The serif headline and coral word-object are first; large all-caps module headers are second; diagrams and concise rows inside each module are third.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Headline",
+      "coral How To Go Viral module",
+      "teal Content Strategy module",
+      "orange Write for LinkedIn / olive Video modules",
+      "coral Lead Magnet flow / orange Power Hour clock",
+      "footer."
     ],
     "information_chunks": [
-      "show the collection",
-      "reveal its organising principle",
-      "make a first item or pathway obvious",
-      "offer a return/continuation bridge"
+      "Outcome promise",
+      "criteria for viral content",
+      "content funnel",
+      "writing/video guidance",
+      "lead magnet flow",
+      "operating-time allocation."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Personal-brand operating playbook collage.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "The serif headline and coral word-object are first; large all-caps module headers are second; diagrams and concise rows inside each module are third.",
+    "typography": "Elegant black display serif for the headline, white bold sans inside coloured header bands, compact black sans body and occasional small label capsules.",
+    "colour_material_and_contrast": "Cream paper texture, coral/teal/orange/olive semantic blocks, soft tinted interiors, thin dark outlines, modest shadows, black text and lightly illustrated icons.",
+    "imagery_role": "Each module chooses a meaningful primitive: simple icon trio and flowchart, a physical funnel, a document before/after, a small table, a magnet and a clock.",
+    "density_and_pacing": "The headline earns the first pause. Readers then browse by module title and colour instead of consuming a forced sequence; local diagrams reward a deeper look.",
     "craft_observations": [
-      "Personal-brand operating playbook collage",
-      "Reusable atom: Many proof forms arranged as one system",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The highlighted phrase behaves like a tactile editorial object, not merely colour emphasis. Module forms vary more than their boundaries, preventing a generic dashboard feel. The printed-paper texture and serif/sans pairing create a recognisable field-guide/editorial identity."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Signal depth and create a return path by packaging a body of related work as one visible collection.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A broad visual menu of mechanisms that can start a planning conversation; the stated growth tactics and examples require independent assessment.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "show the collection",
-      "reveal its organising principle",
-      "make a first item or pathway obvious",
-      "offer a return/continuation bridge"
+      "Outcome promise",
+      "criteria for viral content",
+      "content funnel",
+      "writing/video guidance",
+      "lead magnet flow",
+      "operating-time allocation."
     ],
-    "compression_method": "collection wall or directory; many small coherent artifacts; clear organising principle; entry point into the archive",
-    "reader_payoff": "Signal depth and create a return path by packaging a body of related work as one visible collection.",
+    "compression_method": "The reviewed visual mechanism is “Different diagram types translate several different kinds of advice into a single visual field without flattening everything into repetitive cards.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A broad visual menu of mechanisms that can start a planning conversation; the stated growth tactics and examples require independent assessment.",
     "save_share_return_motives": [
-      "save as a starting point",
-      "share as a resource collection",
-      "return to explore individual pieces"
+      "A return-value overview: a reader can revisit the particular module relevant to content, distribution or lead capture."
     ],
-    "caption_to_visual_choreography": "Explain what unifies the collection and where a reader should start, rather than merely claiming volume."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “Different diagram types translate several different kinds of advice into a single visual field without flattening everything into repetitive cards.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Signal depth and create a return path by packaging a body of related work as one visible collection.",
+      "mechanism_family": "comparison",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "Outcome promise -> criteria for viral content -> content funnel -> writing/video guidance -> lead magnet flow -> operating-time allocation.",
+          "Tall warm-paper poster with a huge two-line editorial headline, then a two-column stack of six rounded, colour-coded module boxes of unequal height, and a thin subscription footer.",
+          "A modular editorial two-column grid with wide left/right blocks. Component height varies according to content, but rounded bounds and consistent margins keep the collection coherent.",
+          "Different diagram types translate several different kinds of advice into a single visual field without flattening everything into repetitive cards."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A broad visual menu of mechanisms that can start a planning conversation; the stated growth tactics and examples require independent assessment.",
       "reader_state": [
-        "desire for a trusted starting point",
-        "need to see breadth before committing attention"
+        "A professional is trying to organise content, audience building, video, lead capture and time allocation into one coherent personal-brand system."
       ],
       "visual_grammar": [
-        "collection wall or directory",
-        "many small coherent artifacts",
-        "clear organising principle",
-        "entry point into the archive"
+        "Tall warm-paper poster with a huge two-line editorial headline, then a two-column stack of six rounded, colour-coded module boxes of unequal height, and a thin subscription footer.",
+        "A modular editorial two-column grid with wide left/right blocks. Component height varies according to content, but rounded bounds and consistent margins keep the collection coherent.",
+        "Different diagram types translate several different kinds of advice into a single visual field without flattening everything into repetitive cards."
       ],
       "information_grammar": [
-        "show the collection",
-        "reveal its organising principle",
-        "make a first item or pathway obvious",
-        "offer a return/continuation bridge"
+        "Outcome promise -> criteria for viral content -> content funnel -> writing/video guidance -> lead magnet flow -> operating-time allocation.",
+        "A broad visual menu of mechanisms that can start a planning conversation; the stated growth tactics and examples require independent assessment.",
+        "A return-value overview: a reader can revisit the particular module relevant to content, distribution or lead capture."
       ],
       "social_action_mechanics": [
-        "save as a starting point",
-        "share as a resource collection",
-        "return to explore individual pieces"
+        "A return-value overview: a reader can revisit the particular module relevant to content, distribution or lead capture."
       ],
       "use_when": [
-        "There is a real body of related work.",
-        "The collection itself creates more value than one item alone.",
-        "The organising principle is clear."
+        "The already selected reader moment genuinely benefits from an original comparison rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The collection is thin or purely self-promotional.",
-        "Individual assets do not have standalone value.",
-        "The reader needs one focused answer now."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Many proof forms arranged as one system",
-      "show the collection",
-      "reveal its organising principle"
+      "For a broad playbook, use a small collection of modules whose diagram form matches the idea: a funnel for audience stages, a clock for time allocation, a table for format choice, a flow for lead capture. Hold the page together with one stable headline and deliberately distinct colour zones."
     ],
-    "reverse_build_specification": "When a chosen opportunity is best served by a real collection, make the system of work visible and give the reader a clear starting route. The visual must prove useful breadth, not simply announce output volume.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original comparison whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: For a broad playbook, use a small collection of modules whose diagram form matches the idea: a funnel for audience stages, a clock for time allocation, a table for format choice, a flow for lead capture. Hold the page together with one stable headline and deliberately distinct colour zones. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Magazine collage layout",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not reproduce the Life-Changing Personal Brand headline, exact module titles/advice, coral/teal/orange/olive palette, funnel, magnet and clock illustrations, footer CTA or author branding.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended signal depth and create a return path by packaging a body of related work as one visible collection. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#23",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#23",
     "source_context_id": "top100-workbook#23",
-    "content_hash": "5baa180807393192b6769cbb1e8188652e8de2c1c19a2929c3e2cda80827aac4"
+    "content_hash": "5baa180807393192b6769cbb1e8188652e8de2c1c19a2929c3e2cda80827aac4",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7465748779611197440",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/23.jpeg",
+      "asset_sha256": "c0d018664070fa4261803954698761eecb31baf6b1430eff188b5f567a16bd25",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

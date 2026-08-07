@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 18,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/18.gif",
+    "sha256": "cc4438157229b42dda8effab52af3c515a1ca1f99cbfe0de65dd13cbfa799f6f",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        6000,
+        11500
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "An oversized “How to Write a VIRAL HOOK” title gives the key phrase its own lavender rounded object.",
+    "layout": "A dense two-column catalog: three stacked hook families on the left connect to framework formulas and full examples on the right.",
+    "reading_order": "Title and scope line → family label → formula → linked example → small impression badge; repeat through three color-coded families.",
+    "typography": "Bold rough category tags, clear sans headings, compact examples, and selectively highlighted phrase fragments.",
+    "colour": "Lavender, pink, and aqua partition three hook families; the same colors carry through formulas, examples, and links.",
+    "surface": "Pale gradient wash behind white/colored cards, fine dark connectors, rounded containers, and quiet shadows.",
+    "modules": "Three family bands, each with four formula-to-example pairings and small numeric badges.",
+    "density": "Extremely high, but the single repeated formula → example mapping makes saving and later reuse plausible."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 299,
+      "duration_ms_from_gce": 11960
+    },
+    "observed_state_change": "Sampled frames show labels, formula cards, phrase highlights, and example rows entering in a staged build; the completed catalog remains a static reference.",
+    "motion_job": "Reveal the repeated mapping from category to formula to example, rather than animate decoration for its own sake.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Turn an abstract writing principle into reusable patterns plus context-rich examples.",
+    "argument_shape": "Taxonomy with formula-to-example mappings.",
+    "mechanism": "For each category, pair a concise generative formula with a real-looking applied instance so readers can bridge abstraction and use.",
+    "use_condition": "Use only if examples are accurately sourced, clearly labelled illustrative, or written as original examples—not fabricated proof."
+  },
+  "anti_copy_boundary": "Do not reuse the hook formulas, examples, metrics, family names, color bands, rough type, phrase highlights, or dense board geometry.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "Visible impressions and case-like statements are creator claims; numeric caption matching does not prove the original asset-caption relationship."
+  }
+}

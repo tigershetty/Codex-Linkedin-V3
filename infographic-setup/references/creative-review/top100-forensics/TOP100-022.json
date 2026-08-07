@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-022",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7465654357552824320, bound to references/top 100/22.jpeg at SHA-256 90c0a529e053c3bbfa2afb5454aad87db1dbe45c372dcf773371147651970acc.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7465654357552824320; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex direct-asset visual reviewer - Batch C",
+    "reviewed_at": "2026-08-07T15:30:00+02:00",
+    "evidence": "Full-size direct inspection of references/top 100/22.jpeg against the declared SHA-256; observations below describe the rendered matrix and visible density."
   },
   "asset": {
     "path": "references/top 100/22.jpeg",
-    "status": "visually_inspected",
+    "sha256": "90c0a529e053c3bbfa2afb5454aad87db1dbe45c372dcf773371147651970acc",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "90c0a529e053c3bbfa2afb5454aad87db1dbe45c372dcf773371147651970acc",
+      "reviewer": "Codex direct-asset visual reviewer - Batch C",
+      "reviewed_at": "2026-08-07T15:30:00+02:00",
+      "evidence": "Full-size direct inspection of references/top 100/22.jpeg against the declared SHA-256; observations below describe the rendered matrix and visible density. Asset hash: 90c0a529e053c3bbfa2afb5454aad87db1dbe45c372dcf773371147651970acc."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Asmaa Gad",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7465654357552824320",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "2bc4bec98d75d11ae8768a82cad337b6a57b0f046dea7f76ba5d804b0b7b6226",
@@ -34,140 +49,156 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7465654357552824320",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "information overload",
-      "need for quick lookup",
-      "desire to feel more fluent at work"
-    ],
-    "desired_response": [
-      "save as a field reference",
-      "share with a newer colleague",
-      "return during real work"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A dense discovery matrix that translates broad AI interest into named procurement work patterns, subject to review of its stated prompts and outcomes.",
+    "work_moment": "A procurement practitioner needs specific, bounded ways to turn an AI discussion into a possible task, input and output.",
+    "tension": "Practical possibility: broad AI language is converted into a list of recognisable procurement tasks.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Procurement AI use-case table.",
-    "comprehension_3_10_seconds": "The reader follows the modular reference blocks or table, strong title promise, repeated card/row rule to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
-    "identity_or_curiosity_trigger": "information overload; need for quick lookup; desire to feel more fluent at work",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Procurement AI use-case table."
+    "thumbnail_read_0_3_seconds": "0-3s: the large 20 Procurement AI Use Cases headline promises a finite, role-specific reference. 3-10s: the table headers reveal a useful schema of use case, prompt, inputs, format and outcome. 10-30s: the reader finds one job row and can inspect its input/output contract.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Headline -> table headers -> left use-case column -> across a selected row from prompt to inputs, format and outcome -> branded footer.”.",
+    "value_exchange_10_30_seconds": "A dense discovery matrix that translates broad AI interest into named procurement work patterns, subject to review of its stated prompts and outcomes.",
+    "identity_or_curiosity_trigger": "Practical possibility: broad AI language is converted into a list of recognisable procurement tasks.",
+    "promise_proved_by_visual": "The repeated input-to-outcome row structure makes each AI idea feel operationally bounded instead of generic; table form itself supplies credibility and retrieval."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Procurement AI use-case table",
-    "composition_and_grid": "modular reference blocks or table; strong title promise; repeated card/row rule; grouping through category and hierarchy",
-    "dominant_anchor": "Procurement AI use-case table",
+    "asset_specific_observation": "Very tall white portrait matrix: a large navy title above a five-column table with a dark navy header row, twenty ruled rows, and a black-and-gold branded footer.",
+    "composition_and_grid": "A strict spreadsheet-like grid of five unequal columns. Wide prompt/input/outcome columns accommodate detailed prose, while the narrow use-case column supports scanning.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: The quantity-and-topic title provides entry; dark column headers establish the data schema; coloured use-case labels form the scrollable index; smaller prompt and outcome text supplies detail.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Headline",
+      "table headers",
+      "left use-case column",
+      "across a selected row from prompt to inputs, format and outcome",
+      "branded footer."
     ],
     "information_chunks": [
-      "state the scope",
-      "group items by a usable logic",
-      "give compact definitions/formulas/examples",
-      "make the reference retrievable at a glance"
+      "Counted use-case promise",
+      "five-column operating schema",
+      "twenty task rows",
+      "product/author footer."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Procurement AI use-case table.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "The quantity-and-topic title provides entry; dark column headers establish the data schema; coloured use-case labels form the scrollable index; smaller prompt and outcome text supplies detail.",
+    "typography": "Heavy navy sans headline, white all-caps table headers, bold coloured use-case labels and smaller compact body text with italicised prompt language.",
+    "colour_material_and_contrast": "White ground, dark navy table header and footer, light grey cell rules, alternating soft pastel use-case label pills and a gold footer band.",
+    "imagery_role": "There is almost no pictorial imagery; colour-coded use-case name cells carry the visual indexing function.",
+    "density_and_pacing": "Fast schema recognition, then a slow row-level reference read. The format intentionally privileges saving and zooming over instant casual consumption.",
     "craft_observations": [
-      "Procurement AI use-case table",
-      "Reusable atom: Prompt, input, output, and outcome in one row",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The matrix earns its density because all five columns answer different practical questions. Most body copy is too small for feed-speed reading, making the title and schema essential. Colour appears only in the first-column labels, avoiding a false data encoding."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A dense discovery matrix that translates broad AI interest into named procurement work patterns, subject to review of its stated prompts and outcomes.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "state the scope",
-      "group items by a usable logic",
-      "give compact definitions/formulas/examples",
-      "make the reference retrievable at a glance"
+      "Counted use-case promise",
+      "five-column operating schema",
+      "twenty task rows",
+      "product/author footer."
     ],
-    "compression_method": "modular reference blocks or table; strong title promise; repeated card/row rule; grouping through category and hierarchy",
-    "reader_payoff": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+    "compression_method": "The reviewed visual mechanism is “The repeated input-to-outcome row structure makes each AI idea feel operationally bounded instead of generic; table form itself supplies credibility and retrieval.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A dense discovery matrix that translates broad AI interest into named procurement work patterns, subject to review of its stated prompts and outcomes.",
     "save_share_return_motives": [
-      "save as a field reference",
-      "share with a newer colleague",
-      "return during real work"
+      "A reference to revisit while selecting one procurement workflow to investigate or prototype."
     ],
-    "caption_to_visual_choreography": "Explain scope, provenance, use boundary and the one practical reason the reader should keep the reference."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “The repeated input-to-outcome row structure makes each AI idea feel operationally bounded instead of generic; table form itself supplies credibility and retrieval.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+      "mechanism_family": "structured_explainer",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "Counted use-case promise -> five-column operating schema -> twenty task rows -> product/author footer.",
+          "Very tall white portrait matrix: a large navy title above a five-column table with a dark navy header row, twenty ruled rows, and a black-and-gold branded footer.",
+          "A strict spreadsheet-like grid of five unequal columns. Wide prompt/input/outcome columns accommodate detailed prose, while the narrow use-case column supports scanning.",
+          "The repeated input-to-outcome row structure makes each AI idea feel operationally bounded instead of generic; table form itself supplies credibility and retrieval."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A dense discovery matrix that translates broad AI interest into named procurement work patterns, subject to review of its stated prompts and outcomes.",
       "reader_state": [
-        "information overload",
-        "need for quick lookup",
-        "desire to feel more fluent at work"
+        "A procurement practitioner needs specific, bounded ways to turn an AI discussion into a possible task, input and output."
       ],
       "visual_grammar": [
-        "modular reference blocks or table",
-        "strong title promise",
-        "repeated card/row rule",
-        "grouping through category and hierarchy"
+        "Very tall white portrait matrix: a large navy title above a five-column table with a dark navy header row, twenty ruled rows, and a black-and-gold branded footer.",
+        "A strict spreadsheet-like grid of five unequal columns. Wide prompt/input/outcome columns accommodate detailed prose, while the narrow use-case column supports scanning.",
+        "The repeated input-to-outcome row structure makes each AI idea feel operationally bounded instead of generic; table form itself supplies credibility and retrieval."
       ],
       "information_grammar": [
-        "state the scope",
-        "group items by a usable logic",
-        "give compact definitions/formulas/examples",
-        "make the reference retrievable at a glance"
+        "Counted use-case promise -> five-column operating schema -> twenty task rows -> product/author footer.",
+        "A dense discovery matrix that translates broad AI interest into named procurement work patterns, subject to review of its stated prompts and outcomes.",
+        "A reference to revisit while selecting one procurement workflow to investigate or prototype."
       ],
       "social_action_mechanics": [
-        "save as a field reference",
-        "share with a newer colleague",
-        "return during real work"
+        "A reference to revisit while selecting one procurement workflow to investigate or prototype."
       ],
       "use_when": [
-        "The information is durable and consulted repeatedly.",
-        "There is a defensible grouping logic.",
-        "Compression preserves rather than distorts the meaning."
+        "The already selected reader moment genuinely benefits from an original structured explainer rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The reader needs one deep causal explanation.",
-        "The list is arbitrary or too broad to be reliable.",
-        "A single decision tool would be more useful than a compendium."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Prompt, input, output, and outcome in one row",
-      "state the scope",
-      "group items by a usable logic"
+      "When presenting many use cases, choose a fixed schema that includes the actual input and expected output rather than only a benefit. Make the first column a scan index. Use density only when a reader can extract a row without needing the entire table."
     ],
-    "reverse_build_specification": "When a chosen opportunity contains durable, repeat-use knowledge, create a compact field guide with an explicit scope and repeated retrieval pattern. Make every row earn its place, make grouping visible, and state what the guide cannot decide for the reader.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original structured explainer whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: When presenting many use cases, choose a fixed schema that includes the actual input and expected output rather than only a benefit. Make the first column a scan index. Use density only when a reader can extract a row without needing the entire table. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Five-column table copy/design",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not reproduce the exact 20 procurement use cases, prompt text, five-column matrix, pastel row labels, Supply Chain AI Pro branding, portrait or footer treatment.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended package a dense but recurring body of knowledge into a reference readers can repeatedly consult. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#22",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#22",
     "source_context_id": "top100-workbook#22",
-    "content_hash": "99359bb8e565dd3d9b7f3afa17a6650b89de649cfd2447ac6c00ef4c55be5bea"
+    "content_hash": "99359bb8e565dd3d9b7f3afa17a6650b89de649cfd2447ac6c00ef4c55be5bea",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7465654357552824320",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/22.jpeg",
+      "asset_sha256": "90c0a529e053c3bbfa2afb5454aad87db1dbe45c372dcf773371147651970acc",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

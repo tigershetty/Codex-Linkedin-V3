@@ -1,17 +1,27 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-032",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "provisional_template_assisted_candidate",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "mode": "template_assisted_candidate",
+    "generated_at": "2026-08-07T00:00:00.000Z",
+    "visual_basis": "High-level discovery-index labels plus a reusable profile mapping; no record-level manual asset review is attached.",
     "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "boundary": "This candidate is a routing aid for manual review. It cannot establish asset-specific visual mechanics, animation behaviour, factual claims, or a high-confidence creative mechanism.",
+    "reviewer": null,
+    "reviewed_at": null,
+    "evidence": null
   },
   "asset": {
     "path": "references/top 100/32.jpeg",
-    "status": "visually_inspected",
+    "sha256": "c2932bda61a81ab879c6a1d37c54bbeec21c77de6c5d4150714ba0a9d41f23ad",
+    "status": "available_for_manual_review",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": null,
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "No manual asset-specific visual review is attached to this generated candidate."
+    ]
   },
   "source_context": {
     "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
@@ -36,138 +46,54 @@
       "Independent validation of factual or numerical claims within the source post."
     ]
   },
-  "reader_situation": {
-    "primary_reader_state": [
+  "template_assisted_hypotheses": {
+    "profile_name": "before_after",
+    "source_discovery_index": "top100-visual-inspection-2026-08-05#32",
+    "candidate_visual_mechanism": "Bad dashboard vs useful dashboard before/after",
+    "candidate_transferable_atom": "Show what to stop measuring, then what matters",
+    "candidate_anti_copy_boundary": "Original dashboard screenshots",
+    "candidate_cognitive_job": "Turn an invisible failure into an observable transformation so the reader can locate the intervention.",
+    "candidate_reader_states": [
       "hidden waste",
       "abstract debate",
       "need for a shared picture before action"
     ],
-    "desired_response": [
-      "save as workshop prompt",
-      "send to an improvement partner",
-      "use to align around a visible problem"
+    "candidate_visual_grammar": [
+      "same system shown twice",
+      "clear current and changed state",
+      "one meaning-bearing contrast system",
+      "supporting method after the reveal"
     ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
-  },
-  "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Bad dashboard vs useful dashboard before/after.",
-    "comprehension_3_10_seconds": "The reader follows the same system shown twice, clear current and changed state, one meaning-bearing contrast system to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Turn an invisible failure into an observable transformation so the reader can locate the intervention.",
-    "identity_or_curiosity_trigger": "hidden waste; abstract debate; need for a shared picture before action",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Bad dashboard vs useful dashboard before/after."
-  },
-  "visual_forensics": {
-    "asset_specific_observation": "Bad dashboard vs useful dashboard before/after",
-    "composition_and_grid": "same system shown twice; clear current and changed state; one meaning-bearing contrast system; supporting method after the reveal",
-    "dominant_anchor": "Bad dashboard vs useful dashboard before/after",
-    "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
-    ],
-    "information_chunks": [
+    "candidate_information_grammar": [
       "show the current reality",
       "show the changed state",
       "name the intervention",
       "support with method and provenance-appropriate evidence"
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Bad dashboard vs useful dashboard before/after.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
-    "craft_observations": [
-      "Bad dashboard vs useful dashboard before/after",
-      "Reusable atom: Show what to stop measuring, then what matters",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
-    ]
-  },
-  "content_mechanics": {
-    "primary_cognitive_job": "Turn an invisible failure into an observable transformation so the reader can locate the intervention.",
-    "argument_sequence": [
-      "show the current reality",
-      "show the changed state",
-      "name the intervention",
-      "support with method and provenance-appropriate evidence"
+    "candidate_caption_job": "Explain observation method, limitations and why the change matters; never hide unsupported outcomes in the caption.",
+    "candidate_use_when": [
+      "There is a real or explicitly illustrative before/after state.",
+      "The change can be shown without inventing an outcome.",
+      "The reader needs to see where an intervention happens."
     ],
-    "compression_method": "same system shown twice; clear current and changed state; one meaning-bearing contrast system; supporting method after the reveal",
-    "reader_payoff": "Turn an invisible failure into an observable transformation so the reader can locate the intervention.",
-    "save_share_return_motives": [
-      "save as workshop prompt",
-      "send to an improvement partner",
-      "use to align around a visible problem"
+    "candidate_do_not_use_when": [
+      "No defensible state change exists.",
+      "The outcome would be fabricated or causal claims overstated.",
+      "A distinction or definition is the actual reader need."
     ],
-    "caption_to_visual_choreography": "Explain observation method, limitations and why the change matters; never hide unsupported outcomes in the caption."
-  },
-  "recombination": {
-    "mechanism_fingerprint": {
-      "primary_cognitive_job": "Turn an invisible failure into an observable transformation so the reader can locate the intervention.",
-      "reader_state": [
-        "hidden waste",
-        "abstract debate",
-        "need for a shared picture before action"
-      ],
-      "visual_grammar": [
-        "same system shown twice",
-        "clear current and changed state",
-        "one meaning-bearing contrast system",
-        "supporting method after the reveal"
-      ],
-      "information_grammar": [
-        "show the current reality",
-        "show the changed state",
-        "name the intervention",
-        "support with method and provenance-appropriate evidence"
-      ],
-      "social_action_mechanics": [
-        "save as workshop prompt",
-        "send to an improvement partner",
-        "use to align around a visible problem"
-      ],
-      "use_when": [
-        "There is a real or explicitly illustrative before/after state.",
-        "The change can be shown without inventing an outcome.",
-        "The reader needs to see where an intervention happens."
-      ],
-      "do_not_use_when": [
-        "No defensible state change exists.",
-        "The outcome would be fabricated or causal claims overstated.",
-        "A distinction or definition is the actual reader need."
-      ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
-    },
-    "transferable_atoms": [
-      "Show what to stop measuring, then what matters",
-      "show the current reality",
-      "show the changed state"
-    ],
-    "reverse_build_specification": "When a chosen opportunity contains a visible state change, reuse the same scene or process to show the current condition and intervention. Let the visual prove the tension; use caption and sources for method, evidence and limitations.",
-    "editable_levers": [
-      "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
-      "caption role",
-      "format/material treatment"
-    ],
-    "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
-    ],
-    "anti_copy_boundary": [
-      "Original dashboard screenshots",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
-    ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended turn an invisible failure into an observable transformation so the reader can locate the intervention. without relying on the caption?"
+    "candidate_reverse_build_specification": "When a chosen opportunity contains a visible state change, reuse the same scene or process to show the current condition and intervention. Let the visual prove the tension; use caption and sources for method, evidence and limitations.",
+    "topic_selection_boundary": "This template does not select a future topic, audience, factual claim or post angle.",
+    "required_next_step": "Inspect the local asset and write record-specific evidence before promoting any candidate field into a manual forensic record or Creative Genome retrieval."
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#32",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#32",
     "source_context_id": "top100-workbook#32",
-    "content_hash": "3cdf5388ef77a4aea3d49475fa582206dafa2f8bd2200d55409199e019ddb81f"
+    "content_hash": "3cdf5388ef77a4aea3d49475fa582206dafa2f8bd2200d55409199e019ddb81f",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    }
   }
 }

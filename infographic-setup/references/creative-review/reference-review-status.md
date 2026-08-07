@@ -6,7 +6,7 @@
 | Measure | Count |
 |---|---:|
 | Saved references | 480 |
-| Local assets ready for review | 59 |
+| Local assets available | 59 |
 | Needs authorized read-only retrieval | 0 |
 | Explicitly inaccessible | 421 |
 | Manually reviewed | 59 |
@@ -14,4 +14,6 @@
 | Ready for manual review | 0 |
 | Inaccessible | 421 |
 
-Do not treat preview or caption-derived classifications as visual review. V4 production remains blocked until every record is manually reviewed or explicitly inaccessible.
+Do not treat preview or caption-derived classifications as visual review. The foundation is complete:
+V4 may enter one calibration release, while the five-post cadence remains paused until that
+calibration has been reviewed.

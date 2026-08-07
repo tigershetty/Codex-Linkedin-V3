@@ -5,8 +5,11 @@ This folder is the active Shetty's Desk creative-intelligence and content-produc
 ## Session start
 
 1. Read `references/v4-audience-growth-operating-system.md`.
-2. Before V4 production, run `node scripts/validate-reference-review-foundation.mjs --require-complete`.
-   Do not treat a caption, preview, or heuristic label as a visual review.
+2. Before declaring the V4 foundation complete, restarting five-post cadence, or treating an
+   unreviewed Top-100 record as verified creative intelligence, run
+   `node scripts/validate-reference-review-foundation.mjs --require-complete`. Do not treat a
+   caption, preview, or heuristic label as a visual review. An internal lab using separately
+   evidence-bound references remains permitted while the wider review is unfinished.
 3. Choose the route: read references/fast-post-loop-v1.md for an ordinary LinkedIn post, or read
    references/creative-genome-recombination-engine-v1.md for a flagship.
 3. Read `../tiger-voice.md` and `references/tiger-source-gate-v1.md`.
@@ -25,7 +28,7 @@ This folder is the active Shetty's Desk creative-intelligence and content-produc
       -> two to four saved references from the current shelf
       -> three rough routes: hook / visible proof / saveable keep
       -> select or kill at minute 25
-      -> image-engine-native visual + complementary caption
+      -> selected visual surface (scene-native or Figma-native framework) + complementary caption
       -> five reader checks and Tiger approval
 
 Do not create a calculator, detailed concept board, or full package unless the post is explicitly
@@ -69,22 +72,27 @@ Internal fixtures may test software. They cannot become public proof or a public
 ## Current production system
 
 - Visual creative: `references/creative-engine-v4-recombination.md`,
-  `references/visual-engine-v2.md`, and `references/creative-review/signature-system-v2.md`.
+  `references/visual-engine-v2.md`, `references/creative-review/signature-system-v3.md`, and
+  `references/v5-working-infographic-production-system.md`.
   The V3 repertoire is source material only; Operational Decision Cinema is historical reference.
-- Renderer choice: use the image engine for a selected image-led social visual. HTML/SVG,
-  spreadsheet, documents, and Figma are separate artifact surfaces when exactness is the reader value.
-- Visual signature guardrail: `references/creative-review/signature-system-v2.md`. The Field Guide
-  Notebook is a specialist working-reference family, not a replacement for every post family; use
-  `references/v5-field-guide-notebook-production-system.md` only when its admission record selects
-  the family. Field Guides add `field-guide-admission.json`,
+- Renderer choice: use the image engine for a selected scene-led social visual. A framework-led
+  LinkedIn visual may be Figma-native when exact type and diagram geometry are the reader value;
+  HTML/SVG, spreadsheet, documents, and website remain separate artifact surfaces when they add
+  more utility than a still.
+- Visual signature guardrail: `references/creative-review/signature-system-v3.md`. The Visual
+  Framework route is the high-density social-reference route; the Field Guide Notebook remains a
+  specialist durable-reference family. Field Guides add `field-guide-admission.json`,
   `field-guide-visual-copy-choreography.json`, and `field-guide-manifest.json`; validate the spec
   and audit the manifest before any ready/publish handoff.
-- No visual family is an unexamined default. The completed review established a Field Guide grammar
-  for saveable working references, while Operating Studio and Cobalt Grid remain historical reference
-  material only; use neither unless a future signature decision explicitly reactivates it.
+- No visual family is an unexamined default. Working Infographics may use a truthful map, table,
+  comparison, taxonomy, path, spectrum, or matrix; arbitrary card walls fail. Operating Studio and
+  Cobalt Grid remain historical reference material only; use neither unless a future signature
+  decision explicitly reactivates it.
 - Visual review: standard posts use `five-reader-review.md`; flagships and precision artifacts use
   `templates/visual-output-review-template.md`.
-- Optional motion after still approval and a passed eligibility gate: `references/motion-engine-v1.md`.
+- Optional motion after still approval and a passed eligibility gate:
+  `references/motion-engine-v1.md` for picture-first work or
+  `references/motion-engine-v2-semantic-states.md` for Figma-native frameworks.
 - Publish/resource handoff: `references/publish-resource-handoff-v1.md`.
 
 Treat 3D/isometric, flat illustration, diagram, chart, photographed artifact, typographic reference,
@@ -113,7 +121,7 @@ Standard LinkedIn post:
 
     post-card.md
     caption file
-    image-engine-native visual
+    selected final visual (scene-native or Figma-native framework)
     short five-reader review
     analytics.md
 

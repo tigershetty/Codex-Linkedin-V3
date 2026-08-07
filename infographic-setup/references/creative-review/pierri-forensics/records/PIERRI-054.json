@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 54,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/54.gif",
+    "sha256": "7f922df9186fb233ef81150e5c8e5f582a2ef22c008babeb5cf7ae762c8f4ac0",
+    "format": "gif",
+    "canvas": {
+      "width": 800,
+      "height": 1000
+    }
+  },
+  "caption_link": {
+    "status": "asset_only",
+    "association_confidence": "no_caption_supplied",
+    "caption_available": false,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        1500,
+        2800
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "“How to Create an ANIMATED INFOGRAPHIC” makes both operative words into large lavender rough-display tags.",
+    "layout": "A nine-tile catalog presents a different animated technique in every equally sized cell, with a miniature demonstration and method note.",
+    "reading_order": "Title → scan nine numbered tiles left-to-right and top-to-bottom → use each miniature as the retrieval cue.",
+    "typography": "Large headline, hand-rendered emphasis labels, small section headers, and compact process notes.",
+    "colour": "Each tile has a distinct pastel fill that helps separation but does not encode a data variable.",
+    "surface": "Flat colored tile fields, dark rules, simple illustrated objects, pills, and fine shadows.",
+    "modules": "Nine equal technique cards, each containing a miniature motion specimen plus a concise how-to note.",
+    "density": "Medium-high: the catalog is designed for browsing and later retrieval rather than a single linear argument."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 350,
+      "duration_ms_from_gce": 14000
+    },
+    "observed_state_change": "Across sampled frames, individual miniatures visibly demonstrate path tracing, orbital movement, checkbox completion, appearing pills, selector travel, exploding circles, and text movement.",
+    "motion_job": "Teach animation by showing each micro-mechanism in the exact spatial context it would affect.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Select a motion technique based on the visual change it makes, not an abstract label alone.",
+    "argument_shape": "Technique catalog with live specimens.",
+    "mechanism": "Pair a named technique with a tiny observable state change and a concise implementation note.",
+    "use_condition": "Use only when motion adds explanatory value; an animation catalog is not a reason to animate otherwise static content."
+  },
+  "anti_copy_boundary": "Do not reuse the nine-technique catalog, tile contents, method labels, color palette, rough title tags, or source animation examples.",
+  "claim_boundary": {
+    "public_claim_status": "no_performance_claim_in_asset",
+    "note": "This is a craft reference rather than a performance study. It does not establish that any specific animation improves LinkedIn results."
+  }
+}

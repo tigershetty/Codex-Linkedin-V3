@@ -1,18 +1,27 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-083",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "provisional_template_assisted_candidate",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "mode": "template_assisted_candidate",
+    "generated_at": "2026-08-07T00:00:00.000Z",
+    "visual_basis": "High-level discovery-index labels plus a reusable profile mapping; no record-level manual asset review is attached.",
     "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "boundary": "This candidate is a routing aid for manual review. It cannot establish asset-specific visual mechanics, animation behaviour, factual claims, or a high-confidence creative mechanism.",
+    "reviewer": null,
+    "reviewed_at": null,
+    "evidence": null
   },
   "asset": {
     "path": "references/top 100/83.gif",
-    "status": "visually_inspected",
-    "format": "animated_or_gif_first_frame_reviewed",
+    "sha256": "8663f4759d76cc4f5ca52b2db40bd8aa59a7ce0d48996523fff2ff524349cca4",
+    "status": "available_for_manual_review",
+    "format": "gif",
+    "manual_review_evidence": null,
+    "frame_evidence": [],
     "inspection_limitations": [
-      "Motion is not inferred beyond the available first-frame inspection."
+      "No manual asset-specific visual review is attached to this generated candidate.",
+      "No GIF frame sequence has been manually sampled; do not infer motion or pacing."
     ]
   },
   "source_context": {
@@ -38,138 +47,54 @@
       "Independent validation of factual or numerical claims within the source post."
     ]
   },
-  "reader_situation": {
-    "primary_reader_state": [
+  "template_assisted_hypotheses": {
+    "profile_name": "system_map",
+    "source_discovery_index": "top100-visual-inspection-2026-08-05#83",
+    "candidate_visual_mechanism": "Make-to-order process map",
+    "candidate_transferable_atom": "Cross-functional lanes show true operational hand-offs",
+    "candidate_anti_copy_boundary": "Exact SAP flow/pictograms",
+    "candidate_cognitive_job": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+    "candidate_reader_states": [
       "system opacity",
       "fragmented ownership",
       "need to see the whole before acting locally"
     ],
-    "desired_response": [
-      "save as an orientation reference",
-      "send to a collaborator",
-      "use to explain a system without a long meeting"
+    "candidate_visual_grammar": [
+      "central anchor or process spine",
+      "labelled nodes/layers/lanes",
+      "visible relationship connectors",
+      "bounded visual zones"
     ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
-  },
-  "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Make-to-order process map.",
-    "comprehension_3_10_seconds": "The reader follows the central anchor or process spine, labelled nodes/layers/lanes, visible relationship connectors to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
-    "identity_or_curiosity_trigger": "system opacity; fragmented ownership; need to see the whole before acting locally",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Make-to-order process map."
-  },
-  "visual_forensics": {
-    "asset_specific_observation": "Make-to-order process map",
-    "composition_and_grid": "central anchor or process spine; labelled nodes/layers/lanes; visible relationship connectors; bounded visual zones",
-    "dominant_anchor": "Make-to-order process map",
-    "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
-    ],
-    "information_chunks": [
+    "candidate_information_grammar": [
       "name the system",
       "show its parts",
       "reveal relationships",
       "locate the intervention or decision point"
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Make-to-order process map.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
-    "craft_observations": [
-      "Make-to-order process map",
-      "Reusable atom: Cross-functional lanes show true operational hand-offs",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
-    ]
-  },
-  "content_mechanics": {
-    "primary_cognitive_job": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
-    "argument_sequence": [
-      "name the system",
-      "show its parts",
-      "reveal relationships",
-      "locate the intervention or decision point"
+    "candidate_caption_job": "Supply the system’s operating consequence, boundary conditions or point of view that a static map cannot prove.",
+    "candidate_use_when": [
+      "The opportunity is about relationships between components rather than a single list.",
+      "The visual can make a hidden dependency, flow or ownership boundary clearer.",
+      "The reader benefits from an overview before detailed instruction."
     ],
-    "compression_method": "central anchor or process spine; labelled nodes/layers/lanes; visible relationship connectors; bounded visual zones",
-    "reader_payoff": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
-    "save_share_return_motives": [
-      "save as an orientation reference",
-      "send to a collaborator",
-      "use to explain a system without a long meeting"
+    "candidate_do_not_use_when": [
+      "The main reader need is a simple one-step decision.",
+      "Relationships would be invented or speculative.",
+      "A table would communicate the content more clearly."
     ],
-    "caption_to_visual_choreography": "Supply the system’s operating consequence, boundary conditions or point of view that a static map cannot prove."
-  },
-  "recombination": {
-    "mechanism_fingerprint": {
-      "primary_cognitive_job": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
-      "reader_state": [
-        "system opacity",
-        "fragmented ownership",
-        "need to see the whole before acting locally"
-      ],
-      "visual_grammar": [
-        "central anchor or process spine",
-        "labelled nodes/layers/lanes",
-        "visible relationship connectors",
-        "bounded visual zones"
-      ],
-      "information_grammar": [
-        "name the system",
-        "show its parts",
-        "reveal relationships",
-        "locate the intervention or decision point"
-      ],
-      "social_action_mechanics": [
-        "save as an orientation reference",
-        "send to a collaborator",
-        "use to explain a system without a long meeting"
-      ],
-      "use_when": [
-        "The opportunity is about relationships between components rather than a single list.",
-        "The visual can make a hidden dependency, flow or ownership boundary clearer.",
-        "The reader benefits from an overview before detailed instruction."
-      ],
-      "do_not_use_when": [
-        "The main reader need is a simple one-step decision.",
-        "Relationships would be invented or speculative.",
-        "A table would communicate the content more clearly."
-      ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
-    },
-    "transferable_atoms": [
-      "Cross-functional lanes show true operational hand-offs",
-      "name the system",
-      "show its parts"
-    ],
-    "reverse_build_specification": "When a chosen opportunity needs orientation in a complex system, select one visual grammar—spine, hub, layers or lanes—and use it consistently to make relationships legible. Give each node one job and let the caption explain why the relationship matters.",
-    "editable_levers": [
-      "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
-      "caption role",
-      "format/material treatment"
-    ],
-    "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
-    ],
-    "anti_copy_boundary": [
-      "Exact SAP flow/pictograms",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
-    ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible. without relying on the caption?"
+    "candidate_reverse_build_specification": "When a chosen opportunity needs orientation in a complex system, select one visual grammar—spine, hub, layers or lanes—and use it consistently to make relationships legible. Give each node one job and let the caption explain why the relationship matters.",
+    "topic_selection_boundary": "This template does not select a future topic, audience, factual claim or post angle.",
+    "required_next_step": "Inspect the local asset and write record-specific evidence before promoting any candidate field into a manual forensic record or Creative Genome retrieval."
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#83",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#83",
     "source_context_id": "top100-workbook#83",
-    "content_hash": "fd8b1f4d89c6a1821c8d2f7d8fc450da201d226d1f902df927a6bb2a9ca4bd9d"
+    "content_hash": "fd8b1f4d89c6a1821c8d2f7d8fc450da201d226d1f902df927a6bb2a9ca4bd9d",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    }
   }
 }

@@ -1,17 +1,27 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-074",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "provisional_template_assisted_candidate",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "mode": "template_assisted_candidate",
+    "generated_at": "2026-08-07T00:00:00.000Z",
+    "visual_basis": "High-level discovery-index labels plus a reusable profile mapping; no record-level manual asset review is attached.",
     "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "boundary": "This candidate is a routing aid for manual review. It cannot establish asset-specific visual mechanics, animation behaviour, factual claims, or a high-confidence creative mechanism.",
+    "reviewer": null,
+    "reviewed_at": null,
+    "evidence": null
   },
   "asset": {
     "path": "references/top 100/74.jpeg",
-    "status": "visually_inspected",
+    "sha256": "127ca601285514ab373e29eaa6162ce917b380d51aa4c015d1618d4920c05f68",
+    "status": "available_for_manual_review",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": null,
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "No manual asset-specific visual review is attached to this generated candidate."
+    ]
   },
   "source_context": {
     "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
@@ -36,138 +46,54 @@
       "Independent validation of factual or numerical claims within the source post."
     ]
   },
-  "reader_situation": {
-    "primary_reader_state": [
+  "template_assisted_hypotheses": {
+    "profile_name": "field_guide",
+    "source_discovery_index": "top100-visual-inspection-2026-08-05#74",
+    "candidate_visual_mechanism": "SAP EWM T-code directory",
+    "candidate_transferable_atom": "An ugly but useful reference sheet can win through utility",
+    "candidate_anti_copy_boundary": "Creator's watermark and directory",
+    "candidate_cognitive_job": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+    "candidate_reader_states": [
       "information overload",
       "need for quick lookup",
       "desire to feel more fluent at work"
     ],
-    "desired_response": [
-      "save as a field reference",
-      "share with a newer colleague",
-      "return during real work"
+    "candidate_visual_grammar": [
+      "modular reference blocks or table",
+      "strong title promise",
+      "repeated card/row rule",
+      "grouping through category and hierarchy"
     ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
-  },
-  "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by SAP EWM T-code directory.",
-    "comprehension_3_10_seconds": "The reader follows the modular reference blocks or table, strong title promise, repeated card/row rule to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
-    "identity_or_curiosity_trigger": "information overload; need for quick lookup; desire to feel more fluent at work",
-    "promise_proved_by_visual": "The visual’s proof mechanism is SAP EWM T-code directory."
-  },
-  "visual_forensics": {
-    "asset_specific_observation": "SAP EWM T-code directory",
-    "composition_and_grid": "modular reference blocks or table; strong title promise; repeated card/row rule; grouping through category and hierarchy",
-    "dominant_anchor": "SAP EWM T-code directory",
-    "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
-    ],
-    "information_chunks": [
+    "candidate_information_grammar": [
       "state the scope",
       "group items by a usable logic",
       "give compact definitions/formulas/examples",
       "make the reference retrievable at a glance"
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: SAP EWM T-code directory.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
-    "craft_observations": [
-      "SAP EWM T-code directory",
-      "Reusable atom: An ugly but useful reference sheet can win through utility",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
-    ]
-  },
-  "content_mechanics": {
-    "primary_cognitive_job": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
-    "argument_sequence": [
-      "state the scope",
-      "group items by a usable logic",
-      "give compact definitions/formulas/examples",
-      "make the reference retrievable at a glance"
+    "candidate_caption_job": "Explain scope, provenance, use boundary and the one practical reason the reader should keep the reference.",
+    "candidate_use_when": [
+      "The information is durable and consulted repeatedly.",
+      "There is a defensible grouping logic.",
+      "Compression preserves rather than distorts the meaning."
     ],
-    "compression_method": "modular reference blocks or table; strong title promise; repeated card/row rule; grouping through category and hierarchy",
-    "reader_payoff": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
-    "save_share_return_motives": [
-      "save as a field reference",
-      "share with a newer colleague",
-      "return during real work"
+    "candidate_do_not_use_when": [
+      "The reader needs one deep causal explanation.",
+      "The list is arbitrary or too broad to be reliable.",
+      "A single decision tool would be more useful than a compendium."
     ],
-    "caption_to_visual_choreography": "Explain scope, provenance, use boundary and the one practical reason the reader should keep the reference."
-  },
-  "recombination": {
-    "mechanism_fingerprint": {
-      "primary_cognitive_job": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
-      "reader_state": [
-        "information overload",
-        "need for quick lookup",
-        "desire to feel more fluent at work"
-      ],
-      "visual_grammar": [
-        "modular reference blocks or table",
-        "strong title promise",
-        "repeated card/row rule",
-        "grouping through category and hierarchy"
-      ],
-      "information_grammar": [
-        "state the scope",
-        "group items by a usable logic",
-        "give compact definitions/formulas/examples",
-        "make the reference retrievable at a glance"
-      ],
-      "social_action_mechanics": [
-        "save as a field reference",
-        "share with a newer colleague",
-        "return during real work"
-      ],
-      "use_when": [
-        "The information is durable and consulted repeatedly.",
-        "There is a defensible grouping logic.",
-        "Compression preserves rather than distorts the meaning."
-      ],
-      "do_not_use_when": [
-        "The reader needs one deep causal explanation.",
-        "The list is arbitrary or too broad to be reliable.",
-        "A single decision tool would be more useful than a compendium."
-      ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
-    },
-    "transferable_atoms": [
-      "An ugly but useful reference sheet can win through utility",
-      "state the scope",
-      "group items by a usable logic"
-    ],
-    "reverse_build_specification": "When a chosen opportunity contains durable, repeat-use knowledge, create a compact field guide with an explicit scope and repeated retrieval pattern. Make every row earn its place, make grouping visible, and state what the guide cannot decide for the reader.",
-    "editable_levers": [
-      "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
-      "caption role",
-      "format/material treatment"
-    ],
-    "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
-    ],
-    "anti_copy_boundary": [
-      "Creator's watermark and directory",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
-    ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended package a dense but recurring body of knowledge into a reference readers can repeatedly consult. without relying on the caption?"
+    "candidate_reverse_build_specification": "When a chosen opportunity contains durable, repeat-use knowledge, create a compact field guide with an explicit scope and repeated retrieval pattern. Make every row earn its place, make grouping visible, and state what the guide cannot decide for the reader.",
+    "topic_selection_boundary": "This template does not select a future topic, audience, factual claim or post angle.",
+    "required_next_step": "Inspect the local asset and write record-specific evidence before promoting any candidate field into a manual forensic record or Creative Genome retrieval."
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#74",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#74",
     "source_context_id": "top100-workbook#74",
-    "content_hash": "a92c3679137299c02f3ee45034d9b4d4dc3cb36d60bc1fdf11d86c1e16d2f6ad"
+    "content_hash": "a92c3679137299c02f3ee45034d9b4d4dc3cb36d60bc1fdf11d86c1e16d2f6ad",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    }
   }
 }

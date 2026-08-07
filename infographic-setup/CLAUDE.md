@@ -79,7 +79,7 @@ An ordinary LinkedIn post needs only:
 - opening tension, visible proof, and useful keep;
 - two to four saved references plus anti-copy boundaries;
 - three rough routes and a minute-25 select-or-kill;
-- one active native visual and caption path;
+- one active selected visual (scene-native or Figma-native framework) and caption path;
 - a claim boundary and five-reader review.
 
 Use the full Creative Genome contract only for a declared flagship: fresh retrieval, ten concepts,
@@ -88,15 +88,19 @@ continuation.
 
 ## Visual contract
 
-`references/creative-review/signature-system-v2.md` is the active guardrail. The 480-post review
-foundation is complete, and it establishes the Field Guide Notebook as a specialist working-reference
-family—not a default for every post. An editorial framework, map, real material, illustration,
-spatial scene, data reference, typographic treatment or motion sequence must still earn its place
-through the reader tension and visual mechanism. Use
-`references/v5-field-guide-notebook-production-system.md` for a Field Guide; Operating Studio and
-Cobalt Grid remain historical reference material. The reference bundle contributes creative
-mechanics, not another creator's look. One dominant reader response and one reading route beat a
-dense internal model dump.
+`references/creative-review/signature-system-v3.md` is the active guardrail. A framework-led
+LinkedIn post may use `references/v5-working-infographic-production-system.md` and a deterministic
+Figma visual as its actual final social asset when exact hierarchy and diagram geometry are the
+reader value. Field Guide Notebook remains a specialist durable-reference family; use
+`references/v5-field-guide-notebook-production-system.md` only when its compact working-reference
+contract is the right answer. An editorial framework, map, real material, illustration, spatial
+scene, data reference, typographic treatment, or motion sequence must still earn its place through
+the reader tension and visual mechanism. Operating Studio and Cobalt Grid remain historical
+reference material. The reference bundle contributes mechanisms, not another creator's look.
+
+Reference availability and forensic craft review are different controls. Do not call a record
+manually inspected, or use it as high-confidence visual intelligence, without asset-bound review
+evidence. A passing availability gate is not a substitute for that evidence.
 
 A selected Field Guide records its specialist admission, visual/caption choreography, and package
 manifest alongside the spec. The manifest is the canonical source of record for a linked Figma node

@@ -1,17 +1,27 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-062",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "provisional_template_assisted_candidate",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "mode": "template_assisted_candidate",
+    "generated_at": "2026-08-07T00:00:00.000Z",
+    "visual_basis": "High-level discovery-index labels plus a reusable profile mapping; no record-level manual asset review is attached.",
     "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "boundary": "This candidate is a routing aid for manual review. It cannot establish asset-specific visual mechanics, animation behaviour, factual claims, or a high-confidence creative mechanism.",
+    "reviewer": null,
+    "reviewed_at": null,
+    "evidence": null
   },
   "asset": {
     "path": "references/top 100/62.jpeg",
-    "status": "visually_inspected",
+    "sha256": "ca6ea29f87b34658b345a1b57a0a92b083fac8c7ce7b55722d295f74d622289e",
+    "status": "available_for_manual_review",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": null,
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "No manual asset-specific visual review is attached to this generated candidate."
+    ]
   },
   "source_context": {
     "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
@@ -36,138 +46,54 @@
       "Independent validation of factual or numerical claims within the source post."
     ]
   },
-  "reader_situation": {
-    "primary_reader_state": [
+  "template_assisted_hypotheses": {
+    "profile_name": "product_proof",
+    "source_discovery_index": "top100-visual-inspection-2026-08-05#62",
+    "candidate_visual_mechanism": "Three skills around a product object",
+    "candidate_transferable_atom": "Limited set, strong outcome, central product",
+    "candidate_anti_copy_boundary": "3D book and product copy",
+    "candidate_cognitive_job": "Make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value.",
+    "candidate_reader_states": [
       "uncertain value",
       "need to see what exists",
       "desire for a practical shortcut"
     ],
-    "desired_response": [
-      "comment or click for the resource",
-      "save for later access",
-      "share with someone who needs the tool"
+    "candidate_visual_grammar": [
+      "central tangible object/interface",
+      "benefit modules pointing inward or outward",
+      "clear contents and use outcomes",
+      "one direct action"
     ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
-  },
-  "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Three skills around a product object.",
-    "comprehension_3_10_seconds": "The reader follows the central tangible object/interface, benefit modules pointing inward or outward, clear contents and use outcomes to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value.",
-    "identity_or_curiosity_trigger": "uncertain value; need to see what exists; desire for a practical shortcut",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Three skills around a product object."
-  },
-  "visual_forensics": {
-    "asset_specific_observation": "Three skills around a product object",
-    "composition_and_grid": "central tangible object/interface; benefit modules pointing inward or outward; clear contents and use outcomes; one direct action",
-    "dominant_anchor": "Three skills around a product object",
-    "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
-    ],
-    "information_chunks": [
+    "candidate_information_grammar": [
       "name the object",
       "show what it contains",
       "show the job it helps complete",
       "give the next access/use action"
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Three skills around a product object.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
-    "craft_observations": [
-      "Three skills around a product object",
-      "Reusable atom: Limited set, strong outcome, central product",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
-    ]
-  },
-  "content_mechanics": {
-    "primary_cognitive_job": "Make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value.",
-    "argument_sequence": [
-      "name the object",
-      "show what it contains",
-      "show the job it helps complete",
-      "give the next access/use action"
+    "candidate_caption_job": "Clarify who the object is for, what it does not solve, access terms and real evidence of utility if claimed.",
+    "candidate_use_when": [
+      "A real artifact, interface, toolkit or workflow exists.",
+      "The image can truthfully show what the reader receives or does.",
+      "The offer has a clear practical use."
     ],
-    "compression_method": "central tangible object/interface; benefit modules pointing inward or outward; clear contents and use outcomes; one direct action",
-    "reader_payoff": "Make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value.",
-    "save_share_return_motives": [
-      "comment or click for the resource",
-      "save for later access",
-      "share with someone who needs the tool"
+    "candidate_do_not_use_when": [
+      "There is no real usable object.",
+      "The product image is a substitute for proof.",
+      "The post uses a forced CTA before giving standalone value."
     ],
-    "caption_to_visual_choreography": "Clarify who the object is for, what it does not solve, access terms and real evidence of utility if claimed."
-  },
-  "recombination": {
-    "mechanism_fingerprint": {
-      "primary_cognitive_job": "Make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value.",
-      "reader_state": [
-        "uncertain value",
-        "need to see what exists",
-        "desire for a practical shortcut"
-      ],
-      "visual_grammar": [
-        "central tangible object/interface",
-        "benefit modules pointing inward or outward",
-        "clear contents and use outcomes",
-        "one direct action"
-      ],
-      "information_grammar": [
-        "name the object",
-        "show what it contains",
-        "show the job it helps complete",
-        "give the next access/use action"
-      ],
-      "social_action_mechanics": [
-        "comment or click for the resource",
-        "save for later access",
-        "share with someone who needs the tool"
-      ],
-      "use_when": [
-        "A real artifact, interface, toolkit or workflow exists.",
-        "The image can truthfully show what the reader receives or does.",
-        "The offer has a clear practical use."
-      ],
-      "do_not_use_when": [
-        "There is no real usable object.",
-        "The product image is a substitute for proof.",
-        "The post uses a forced CTA before giving standalone value."
-      ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
-    },
-    "transferable_atoms": [
-      "Limited set, strong outcome, central product",
-      "name the object",
-      "show what it contains"
-    ],
-    "reverse_build_specification": "When a chosen opportunity has a real usable object, centre the artifact or interface and organise surrounding value by jobs completed. Make the object tangible, separate claims from proof, and ensure the post is useful even without the CTA.",
-    "editable_levers": [
-      "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
-      "caption role",
-      "format/material treatment"
-    ],
-    "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
-    ],
-    "anti_copy_boundary": [
-      "3D book and product copy",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
-    ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value. without relying on the caption?"
+    "candidate_reverse_build_specification": "When a chosen opportunity has a real usable object, centre the artifact or interface and organise surrounding value by jobs completed. Make the object tangible, separate claims from proof, and ensure the post is useful even without the CTA.",
+    "topic_selection_boundary": "This template does not select a future topic, audience, factual claim or post angle.",
+    "required_next_step": "Inspect the local asset and write record-specific evidence before promoting any candidate field into a manual forensic record or Creative Genome retrieval."
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#62",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#62",
     "source_context_id": "top100-workbook#62",
-    "content_hash": "5eb75c4e1a8b7471b2165f1aa7384b379061d7eaf4166e143a6cd3881fb14337"
+    "content_hash": "5eb75c4e1a8b7471b2165f1aa7384b379061d7eaf4166e143a6cd3881fb14337",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    }
   }
 }

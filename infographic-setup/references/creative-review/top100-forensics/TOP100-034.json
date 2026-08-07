@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-034",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7462756369956229120, bound to references/top 100/34.jpeg at SHA-256 d4ea940d5047d743ec6c6934df63129e95ab576279cb4bd1e1c6233ddb0ad6bb.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7462756369956229120; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex direct-asset visual reviewer — Batch B",
+    "reviewed_at": "2026-08-07T15:00:00+02:00",
+    "evidence": "Full-size direct inspection of references/top 100/34.jpeg against the declared SHA-256; observations below describe the actual six-stage MVP guide."
   },
   "asset": {
     "path": "references/top 100/34.jpeg",
-    "status": "visually_inspected",
+    "sha256": "d4ea940d5047d743ec6c6934df63129e95ab576279cb4bd1e1c6233ddb0ad6bb",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "d4ea940d5047d743ec6c6934df63129e95ab576279cb4bd1e1c6233ddb0ad6bb",
+      "reviewer": "Codex direct-asset visual reviewer — Batch B",
+      "reviewed_at": "2026-08-07T15:00:00+02:00",
+      "evidence": "Full-size direct inspection of references/top 100/34.jpeg against the declared SHA-256; observations below describe the actual six-stage MVP guide. Asset hash: d4ea940d5047d743ec6c6934df63129e95ab576279cb4bd1e1c6233ddb0ad6bb."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Asmaa Gad",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7462756369956229120",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "10b4fab4651bafc16b6de0f6435a8cc96317b6d0af074cf9ed7cc07b69db2551",
@@ -34,140 +49,163 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7462756369956229120",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "blank-page friction",
-      "process uncertainty",
-      "desire for a reliable first move"
-    ],
-    "desired_response": [
-      "save for later execution",
-      "send to someone learning the process",
-      "return at the point of work"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A staged checklist for choosing a high-value problem, validating it, defining an MVP, planning a pilot, learning and scaling with governance.",
+    "work_moment": "A procurement leader is trying to turn broad AI interest into a narrowly scoped, validated pilot that can gain support and scale responsibly.",
+    "tension": "Confidence that a small pilot can be legitimate, tempered by guardrails around scope and governance.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Procurement AI MVP journey in six modules.",
-    "comprehension_3_10_seconds": "The reader follows the numbered sequence, one visible action per stage, progress cue to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Convert an intimidating process into a sequence a reader can start and repeat.",
-    "identity_or_curiosity_trigger": "blank-page friction; process uncertainty; desire for a reliable first move",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Procurement AI MVP journey in six modules."
+    "thumbnail_read_0_3_seconds": "0–3s: ‘How To Build A Procurement AI MVP’ plus the Pain Point → MVP → Value line makes a business-oriented transformation visible. 3–10s: six colour-coded numbered panels show a full narrow-to-scale sequence. 10–30s: each panel supplies a checklist, good/bad contrast or small loop; the reader can locate the stage currently blocking a pilot.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Title → three-node value chain → panels 1–3 across → panels 4–6 across → narrow/fast/responsible footer → branded strip.”.",
+    "value_exchange_10_30_seconds": "A staged checklist for choosing a high-value problem, validating it, defining an MVP, planning a pilot, learning and scaling with governance.",
+    "identity_or_curiosity_trigger": "Confidence that a small pilot can be legitimate, tempered by guardrails around scope and governance.",
+    "promise_proved_by_visual": "A staged pilot map gives shape to a fuzzy AI project by separating problem validation, product scope, economic approval, learning and governance."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Procurement AI MVP journey in six modules",
-    "composition_and_grid": "numbered sequence; one visible action per stage; progress cue; optional prompt/interface/example at each stage",
-    "dominant_anchor": "Procurement AI MVP journey in six modules",
+    "asset_specific_observation": "Warm off-white poster with large black/brown title, a simple three-node Pain Point→MVP→Value chain, then six colour-bordered rectangular sections arranged in two rows of three, followed by a three-part icon footer.",
+    "composition_and_grid": "Balanced six-tile process field with an additional top chain and bottom summary, allowing a reader to alternate between overview and detailed sections.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: Title and top value chain lead; numbered coloured panel headings are second; checklists, diagrams and prompt-like callouts form the close-read layer.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Title",
+      "three-node value chain",
+      "panels 1–3 across",
+      "panels 4–6 across",
+      "narrow/fast/responsible footer",
+      "branded strip."
     ],
     "information_chunks": [
-      "start condition",
-      "small steps",
-      "decision or quality gate",
-      "repeatable loop or next action"
+      "High-value problem",
+      "validate pain/opportunity",
+      "define one core MVP",
+      "build CPO business case/pilot",
+      "measure/learn/iterate",
+      "scale with governance",
+      "narrow/fast/responsible summary."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Procurement AI MVP journey in six modules.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "Title and top value chain lead; numbered coloured panel headings are second; checklists, diagrams and prompt-like callouts form the close-read layer.",
+    "typography": "Black/brown bold sans title with an italic serif subtitle; coloured serif panel headings, compact sans body text, large numbered labels and highlighted quote/callout strips.",
+    "colour_material_and_contrast": "Cream paper ground, thin coloured rounded borders, blue/green/gold/orange/pink/purple headings, pale highlighted checklists and a small orange brand footer.",
+    "imagery_role": "Magnifier, checklist, AI robot, briefcase, iteration-loop and governance building icons give every panel a distinct semantic entry; small good/bad boxes and loop diagram explain selected steps.",
+    "density_and_pacing": "Top-down overview first; panels permit stage-specific lookup; bottom summary closes the loop with a memorable three-part rule.",
     "craft_observations": [
-      "Procurement AI MVP journey in six modules",
-      "Reusable atom: Pain -> MVP -> value as visual narrative",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The three-node chain establishes a visual thesis before detail. Each panel has a unique evidence device, preventing repetition: checklists, comparison, loop, and priority list. Coloured borders make a dense six-part board independently navigable."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A staged checklist for choosing a high-value problem, validating it, defining an MVP, planning a pilot, learning and scaling with governance.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "start condition",
-      "small steps",
-      "decision or quality gate",
-      "repeatable loop or next action"
+      "High-value problem",
+      "validate pain/opportunity",
+      "define one core MVP",
+      "build CPO business case/pilot",
+      "measure/learn/iterate",
+      "scale with governance",
+      "narrow/fast/responsible summary."
     ],
-    "compression_method": "numbered sequence; one visible action per stage; progress cue; optional prompt/interface/example at each stage",
-    "reader_payoff": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "compression_method": "The reviewed visual mechanism is “A staged pilot map gives shape to a fuzzy AI project by separating problem validation, product scope, economic approval, learning and governance.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A staged checklist for choosing a high-value problem, validating it, defining an MVP, planning a pilot, learning and scaling with governance.",
     "save_share_return_motives": [
-      "save for later execution",
-      "send to someone learning the process",
-      "return at the point of work"
+      "An early-pilot planning reference that supports a conversation with a CPO or transformation sponsor."
     ],
-    "caption_to_visual_choreography": "Explain the work moment, trade-offs and failure boundary behind the steps; do not merely transcribe them."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “A staged pilot map gives shape to a fuzzy AI project by separating problem validation, product scope, economic approval, learning and governance.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Convert an intimidating process into a sequence a reader can start and repeat.",
+      "mechanism_family": "visual_explainer",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "High-value problem → validate pain/opportunity → define one core MVP → build CPO business case/pilot → measure/learn/iterate → scale with governance → narrow/fast/responsible summary.",
+          "Warm off-white poster with large black/brown title, a simple three-node Pain Point→MVP→Value chain, then six colour-bordered rectangular sections arranged in two rows of three, followed by a three-part icon footer.",
+          "Balanced six-tile process field with an additional top chain and bottom summary, allowing a reader to alternate between overview and detailed sections.",
+          "A staged pilot map gives shape to a fuzzy AI project by separating problem validation, product scope, economic approval, learning and governance."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A staged checklist for choosing a high-value problem, validating it, defining an MVP, planning a pilot, learning and scaling with governance.",
       "reader_state": [
-        "blank-page friction",
-        "process uncertainty",
-        "desire for a reliable first move"
+        "A procurement leader is trying to turn broad AI interest into a narrowly scoped, validated pilot that can gain support and scale responsibly."
       ],
       "visual_grammar": [
-        "numbered sequence",
-        "one visible action per stage",
-        "progress cue",
-        "optional prompt/interface/example at each stage"
+        "Warm off-white poster with large black/brown title, a simple three-node Pain Point→MVP→Value chain, then six colour-bordered rectangular sections arranged in two rows of three, followed by a three-part icon footer.",
+        "Balanced six-tile process field with an additional top chain and bottom summary, allowing a reader to alternate between overview and detailed sections.",
+        "A staged pilot map gives shape to a fuzzy AI project by separating problem validation, product scope, economic approval, learning and governance."
       ],
       "information_grammar": [
-        "start condition",
-        "small steps",
-        "decision or quality gate",
-        "repeatable loop or next action"
+        "High-value problem → validate pain/opportunity → define one core MVP → build CPO business case/pilot → measure/learn/iterate → scale with governance → narrow/fast/responsible summary.",
+        "A staged checklist for choosing a high-value problem, validating it, defining an MVP, planning a pilot, learning and scaling with governance.",
+        "An early-pilot planning reference that supports a conversation with a CPO or transformation sponsor."
       ],
       "social_action_mechanics": [
-        "save for later execution",
-        "send to someone learning the process",
-        "return at the point of work"
+        "An early-pilot planning reference that supports a conversation with a CPO or transformation sponsor."
       ],
       "use_when": [
-        "A useful outcome genuinely requires ordered actions.",
-        "The reader can begin without hidden prerequisites.",
-        "The sequence has a real quality check or decision point."
+        "The already selected reader moment genuinely benefits from an original visual explainer rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The work is non-linear and forcing steps would mislead.",
-        "The post cannot specify a valid first action.",
-        "The claim is a broad strategy rather than a process."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Pain -> MVP -> value as visual narrative",
-      "start condition",
-      "small steps"
+      "For an innovation process, use a visible value chain at the top and a set of step panels that each contain one concrete decision, a test/criterion and an anti-pattern. End with a shorter three-part mnemonic that restates the overall discipline."
     ],
-    "reverse_build_specification": "When an opportunity needs a repeatable start-to-finish path, use numbered stages with one action and one visible output per stage. Make progress feel possible, include the point at which the reader must judge or validate, and reserve the caption for context and exceptions.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original visual explainer whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: For an innovation process, use a visible value chain at the top and a set of step panels that each contain one concrete decision, a test/criterion and an anti-pattern. End with a shorter three-part mnemonic that restates the overall discipline. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Individual card layout",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not copy the exact six-step MVP sequence, buyer-interview counts, implementation durations, good/bad example, multi-colour panel palette, footer copy or author branding; validate all numeric or causal claims separately.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended convert an intimidating process into a sequence a reader can start and repeat. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#34",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#34",
     "source_context_id": "top100-workbook#34",
-    "content_hash": "26d8fea23e93e7572cba9e61745ccead9538fadf5d1de4a72a8c77201c6840fa"
+    "content_hash": "26d8fea23e93e7572cba9e61745ccead9538fadf5d1de4a72a8c77201c6840fa",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7462756369956229120",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/34.jpeg",
+      "asset_sha256": "d4ea940d5047d743ec6c6934df63129e95ab576279cb4bd1e1c6233ddb0ad6bb",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

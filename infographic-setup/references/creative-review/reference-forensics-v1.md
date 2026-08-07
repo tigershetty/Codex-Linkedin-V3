@@ -81,10 +81,11 @@ a recommendation from the record.
 
 ## Gate for use in V4
 
-No image becomes a Creative Genome reference bundle merely because it is visually attractive. It must
-have:
+No image becomes a high-confidence Creative Genome reference bundle merely because it is visually
+attractive or has a template-assisted profile. It must have:
 
-1. a verified visual record;
+1. a `manual_forensic_review` record tied to the exact local asset hash, reviewer, date, and
+   record-specific evidence (plus GIF frame evidence where relevant);
 2. a specific attention and reader-payoff mechanism;
 3. a caption-to-visual relationship or an explicit `caption_unavailable` state;
 4. a topic-neutral mechanism fingerprint and original transformation path;
@@ -93,7 +94,8 @@ have:
 
 ## Applying it to the Top-100
 
-1. Analyse all local assets in `top100-forensics/`.
+1. Treat `provisional_template_assisted_candidate` records in `top100-forensics/` as a review queue,
+   not as a completed forensic layer. Promote an asset only after actual inspection.
 2. Use the Top-100 workbook only for source context and caption analysis; do not infer visual facts
    from it.
 3. Map the 59 matching assets into the 480-post ledger after the forensic record exists.

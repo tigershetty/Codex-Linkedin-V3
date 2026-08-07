@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 2,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/2.gif",
+    "sha256": "d9f5733cc18a3dcda27a5f43dd483fd416e5ba74d25dd3675b3ff67d71ccc9db",
+    "format": "gif",
+    "canvas": {
+      "width": 1280,
+      "height": 1600
+    }
+  },
+  "caption_link": {
+    "status": "known_manual_mismatch",
+    "association_confidence": "explicitly_not_paired",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        5600,
+        10800
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A testimonial-like message sits above a high-contrast editorial headline for “The 5 Components of LinkedIn Personal Brand Strategy.”",
+    "layout": "One integrated board: top message card points into five connected components, mixing a funnel, Venn, rows, and micro-notes.",
+    "reading_order": "Message / social proof cue → promise → upper components → lower linked components → strategy detail.",
+    "typography": "Large high-contrast editorial headline paired with compact sans module labels and small explanatory text.",
+    "colour": "Cream board with dark green rules plus restrained muted mint, yellow, tan, and green component surfaces.",
+    "surface": "Paper-like board, dark outlines, connected rules, small raised elements, and a screenshot-shaped evidence card.",
+    "modules": "Five named components with different sub-diagrams, all held inside one connected system.",
+    "density": "Very high: multiple sub-frameworks coexist, but a clear outer board and numbered labels preserve orientation."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 250,
+      "duration_ms_from_gce": 11240
+    },
+    "observed_state_change": "Sampled frames show the complete board staying legible while a temporary wipe/occlusion travels through a lower component area; the semantic change cannot be established confidently from the three samples.",
+    "motion_job": "Attention staging around one sub-region; the final board does not depend on motion to be useful.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "See how several interdependent elements make one system rather than consume five disconnected tips.",
+    "argument_shape": "Integrated system map with heterogeneous evidence displays.",
+    "mechanism": "Give each component its own apt micro-diagram but retain one enclosing visual grammar and visible connection paths.",
+    "use_condition": "Use only where the components genuinely interact and distinct diagram types clarify rather than decorate them."
+  },
+  "anti_copy_boundary": "Do not reuse the testimonial framing, title, five-part formulation, serif/sans pairing, board arrangement, green palette, component diagrams, or source-style evidence card.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The asset visibly contains a testimonial-like result cue and self-described framework claims. Its supplied caption is a known visual/caption mismatch."
+  }
+}

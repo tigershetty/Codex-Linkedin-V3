@@ -1,4 +1,5 @@
-import { existsSync, statSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { existsSync, readFileSync, statSync } from 'node:fs';
 import { relative, resolve } from 'node:path';
 import {
   SETUP_ROOT,
@@ -27,6 +28,8 @@ export const REVIEW_STATUSES = new Set([
   'manual_reviewed',
   'inaccessible',
 ]);
+
+const SHA256 = /^[a-f0-9]{64}$/;
 
 const CREATIVE_FIELDS = [
   'attention_mechanism',
@@ -137,6 +140,32 @@ function localAssetsExist(paths) {
     });
 }
 
+function localAssetHashesMatch(paths, declaredHashes) {
+  if (!declaredHashes || typeof declaredHashes !== 'object' || Array.isArray(declaredHashes)) return false;
+  return paths.every((assetPath) => {
+    const expected = declaredHashes[assetPath];
+    if (!SHA256.test(expected ?? '')) return false;
+    const fullPath = resolve(SETUP_ROOT, assetPath);
+    const actual = createHash('sha256').update(readFileSync(fullPath)).digest('hex');
+    return actual === expected;
+  });
+}
+
+function validReviewDate(value) {
+  return nonEmpty(value) && !Number.isNaN(Date.parse(value));
+}
+
+function validGifFrameEvidence(record) {
+  const gifPaths = (record.media?.asset_paths ?? []).filter((assetPath) => /\.gif$/i.test(assetPath));
+  if (!gifPaths.length) return true;
+  const frames = record.review?.gif_frame_evidence;
+  if (!Array.isArray(frames) || !frames.length) return false;
+  return gifPaths.every((assetPath) => frames.some((frame) => frame?.asset_path === assetPath
+    && Number.isInteger(frame?.frame_index) && frame.frame_index >= 0
+    && Number.isFinite(frame?.timestamp_ms) && frame.timestamp_ms >= 0
+    && nonEmpty(frame?.observation)));
+}
+
 function allFieldsPresent(record, area, fields) {
   return fields.every((field) => nonEmpty(record[area]?.[field]));
 }
@@ -191,8 +220,17 @@ export function validateReviewLedger(records, { requireComplete = false } = {}) 
       if (!['available_local', 'captured_local'].includes(mediaStatus) || !hasLocalAssets) {
         errors.push(`${label}: manual review requires an inspectable local asset`);
       }
-      if (!nonEmpty(record.review?.reviewed_at) || !nonEmpty(record.review?.reviewer) || !nonEmpty(record.review?.evidence)) {
-        errors.push(`${label}: manual review requires reviewed_at, reviewer, and evidence`);
+      if (!validReviewDate(record.review?.reviewed_at) || !nonEmpty(record.review?.reviewer) || !nonEmpty(record.review?.evidence)) {
+        errors.push(`${label}: manual review requires a valid reviewed_at, reviewer, and evidence`);
+      }
+      if (record.review?.review_kind !== 'manual_asset_review') {
+        errors.push(`${label}: manual review requires review_kind=manual_asset_review`);
+      }
+      if (!localAssetHashesMatch(record.media?.asset_paths ?? [], record.media?.asset_sha256)) {
+        errors.push(`${label}: manual review requires asset_sha256 values that match every local reviewed asset`);
+      }
+      if (!validGifFrameEvidence(record)) {
+        errors.push(`${label}: manual review of a GIF requires frame-level evidence with asset_path, frame_index, timestamp_ms, and observation`);
       }
       if (!allFieldsPresent(record, 'creative', CREATIVE_FIELDS)) {
         errors.push(`${label}: manual review is missing creative anatomy fields`);
@@ -251,7 +289,7 @@ export function statusMarkdown(validation) {
     `**Status:** ${validation.valid && usable === counts.total ? 'ready for calibration' : 'foundation incomplete'}\n\n` +
     `| Measure | Count |\n|---|---:|\n` +
     `| Saved references | ${counts.total} |\n` +
-    `| Local assets ready for review | ${counts.available_local + counts.captured_local} |\n` +
+    `| Local assets available | ${counts.available_local + counts.captured_local} |\n` +
     `| Needs authorized read-only retrieval | ${counts.needs_authorized_retrieval} |\n` +
     `| Explicitly inaccessible | ${counts.explicitly_inaccessible} |\n` +
     `| Manually reviewed | ${counts.manual_reviewed} |\n` +

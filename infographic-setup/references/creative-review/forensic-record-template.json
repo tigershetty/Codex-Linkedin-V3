@@ -1,18 +1,36 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-000",
+  "forensic_record_status": "manual_forensic_review",
+  "review_method": {
+    "mode": "manual_asset_review",
+    "visual_basis": "Describe the actual local asset and review method.",
+    "context_basis": "Caption/transcript source, or explicit caption_unavailable state.",
+    "boundary": "Caption context never substitutes for visual inspection; unverified claims remain unverified.",
+    "reviewer": "Named reviewer or accountable review role",
+    "reviewed_at": "2026-08-07T00:00:00.000Z",
+    "evidence": "Point to the record-specific visual evidence and any review notes."
+  },
   "asset": {
     "path": "references/top 100/000.jpeg",
-    "status": "visually_inspected",
+    "sha256": "sha256 of the exact local asset",
+    "status": "manually_reviewed",
     "format": "single_image",
+    "manual_review_evidence": {
+      "asset_sha256": "same sha256 as asset.sha256",
+      "reviewer": "same accountable reviewer or role",
+      "reviewed_at": "2026-08-07T00:00:00.000Z",
+      "evidence": "The record-specific observations below were made against this exact local file."
+    },
+    "frame_evidence": [],
     "inspection_limitations": []
   },
   "source_context": {
     "creator": "",
     "post_url": null,
-    "caption_source": "top100_workbook",
+    "caption_source": "top100_workbook | caption_unavailable",
     "caption_hook": "",
-    "caption_argument": [],
+    "caption_argument_segments": [],
     "observed_performance_context": [],
     "unknowns": []
   },
@@ -20,7 +38,8 @@
     "primary_reader": "",
     "work_moment": "",
     "tension": "",
-    "desired_response": "recognition | understanding | practical_use | memorable_intrigue"
+    "desired_response": "recognition | understanding | practical_use | memorable_intrigue",
+    "topic_selection_boundary": "This record does not choose a topic."
   },
   "attention_physics": {
     "thumbnail_read_0_3_seconds": "",

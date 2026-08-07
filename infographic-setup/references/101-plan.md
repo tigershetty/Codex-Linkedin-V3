@@ -2,7 +2,7 @@
 **Version**: 4 (V4 status updated 2026-07-28)
 **Used by**: `/101` skill (topic lookup)
 **Scope**: Candidate bank and historical series registry. The original 24-topic series remains historical evidence; W21–W52 supplies optional candidates. V4 no longer guarantees two conceptual posts per week or a paired theme. Use `v4-audience-growth-operating-system.md`, Creative Genome retrieval, and `creative-opportunity-selection.md` before production.
-**Visual**: Visual Engine v2.2 is active (`visual-engine-v2.md`). Choose GPT Image 2, HTML/SVG, spreadsheet, document, website UI, or another suitable surface after the creative direction is selected. Use the active Signature System (`references/creative-review/signature-system-v2.md`); no legacy frame is a default. The retired Gemini template is preserved under `templates-archive/pre-creative-genome-2026-08-02/`.
+**Visual**: Visual Engine v2.2 is active (`visual-engine-v2.md`). Choose image-native, Figma-native Working Infographic, HTML/SVG, spreadsheet, document, website UI, or another suitable surface after the creative direction is selected. Use the active Signature System (`references/creative-review/signature-system-v3.md`); no legacy frame is a default. The retired Gemini template is preserved under `templates-archive/pre-creative-genome-2026-08-02/`.
 
 ---
 

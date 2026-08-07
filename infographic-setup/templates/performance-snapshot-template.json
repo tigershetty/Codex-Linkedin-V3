@@ -1,6 +1,6 @@
 {
   "$schema": "../references/creative-genome/schemas/performance-snapshot.schema.json",
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "content_id": "",
   "channel": "linkedin",
   "checkpoint": "day7",
@@ -12,6 +12,23 @@
   "content_mode": "",
   "claim_mode": "",
   "artifact_type": null,
+  "creative_execution": {
+    "visual_family": "",
+    "spatial_thesis": "",
+    "reading_contract": {
+      "glance_3s": "",
+      "orientation_10s": "",
+      "deep_use": ""
+    },
+    "density_plan": {
+      "macro_regions": 1,
+      "micro_units": 0,
+      "reason_for_density": ""
+    },
+    "motion_treatment": "still_only",
+    "creative_atoms": [],
+    "source_capture_provenance": ""
+  },
   "metrics": {
     "impressions": null,
     "members_reached": null,

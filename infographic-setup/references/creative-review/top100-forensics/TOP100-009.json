@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-009",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7468986861345087488, bound to references/top 100/9.jpeg at SHA-256 acda3858254f77d8875a17657d86234657d930f229b074d11a1699b3d8dbf5c3.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7468986861345087488; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex direct-asset visual reviewer - Batch C",
+    "reviewed_at": "2026-08-07T15:30:00+02:00",
+    "evidence": "Full-size direct inspection of references/top 100/9.jpeg against the declared SHA-256; observations below describe the rendered multi-part hook guide, not the validity of its claims about platform performance."
   },
   "asset": {
     "path": "references/top 100/9.jpeg",
-    "status": "visually_inspected",
+    "sha256": "acda3858254f77d8875a17657d86234657d930f229b074d11a1699b3d8dbf5c3",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "acda3858254f77d8875a17657d86234657d930f229b074d11a1699b3d8dbf5c3",
+      "reviewer": "Codex direct-asset visual reviewer - Batch C",
+      "reviewed_at": "2026-08-07T15:30:00+02:00",
+      "evidence": "Full-size direct inspection of references/top 100/9.jpeg against the declared SHA-256; observations below describe the rendered multi-part hook guide, not the validity of its claims about platform performance. Asset hash: acda3858254f77d8875a17657d86234657d930f229b074d11a1699b3d8dbf5c3."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Josh S.",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7468986861345087488",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "86eca744c89c080f2578f26cfdf548c569733022f56134be06c02c9a9df99794",
@@ -34,140 +49,161 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7468986861345087488",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "information overload",
-      "need for quick lookup",
-      "desire to feel more fluent at work"
-    ],
-    "desired_response": [
-      "save as a field reference",
-      "share with a newer colleague",
-      "return during real work"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A visually indexed bank of hook forms, language categories and formatting prompts; headline and performance claims should not be treated as established facts without source checks.",
+    "work_moment": "A writer is trying to turn a vague need for a stronger opening into concrete options while drafting a LinkedIn post.",
+    "tension": "Reduced blank-page anxiety through a visibly finite set of starter structures.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Hook-writing playbook with numbered modular cards.",
-    "comprehension_3_10_seconds": "The reader follows the modular reference blocks or table, strong title promise, repeated card/row rule to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
-    "identity_or_curiosity_trigger": "information overload; need for quick lookup; desire to feel more fluent at work",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Hook-writing playbook with numbered modular cards."
+    "thumbnail_read_0_3_seconds": "0-3s: oversized editorial type and yellow-highlighted Scroll Stopping Hooks promise a specific, timely skill. 3-10s: four numbered pastel bands reveal a practical sequence from types to phrases, formatting and templates. 10-30s: the reader can copy one category or one template from the dense final section.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Headline -> five hook-type columns -> five phrase-category columns -> three formatting columns -> nine template cells -> navy download/footer strip.”.",
+    "value_exchange_10_30_seconds": "A visually indexed bank of hook forms, language categories and formatting prompts; headline and performance claims should not be treated as established facts without source checks.",
+    "identity_or_curiosity_trigger": "Reduced blank-page anxiety through a visibly finite set of starter structures.",
+    "promise_proved_by_visual": "The chapter system makes a broad craft skill decomposable: concept, vocabulary, format and reusable starting structures appear as different forms of help."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Hook-writing playbook with numbered modular cards",
-    "composition_and_grid": "modular reference blocks or table; strong title promise; repeated card/row rule; grouping through category and hierarchy",
-    "dominant_anchor": "Hook-writing playbook with numbered modular cards",
+    "asset_specific_observation": "Tall pale-blue sheet with a monumental serif headline, yellow word highlights and four wide rounded pastel sections stacked vertically; the final lavender section contains a 3-by-3 template grid.",
+    "composition_and_grid": "A strict vertical chapter stack. Each section uses a different local grid suited to its contents: five columns for categories, three columns for rules and a nine-cell array for templates.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: Headline first; blue numbered circles and section titles next; icon-plus-category rows and template cells are the close-read layer; dark footer is last.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Headline",
+      "five hook-type columns",
+      "five phrase-category columns",
+      "three formatting columns",
+      "nine template cells",
+      "navy download/footer strip."
     ],
     "information_chunks": [
-      "state the scope",
-      "group items by a usable logic",
-      "give compact definitions/formulas/examples",
-      "make the reference retrievable at a glance"
+      "Outcome-oriented headline",
+      "five hook types",
+      "phrase categories",
+      "formatting rules",
+      "nine reusable templates",
+      "download CTA."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Hook-writing playbook with numbered modular cards.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "Headline first; blue numbered circles and section titles next; icon-plus-category rows and template cells are the close-read layer; dark footer is last.",
+    "typography": "Large navy editorial serif display type, blue serif section labels, rounded sans body, bold category names and compact all-caps template placeholders.",
+    "colour_material_and_contrast": "Cool pale-blue field, cream/yellow/peach/blue/lavender chapter fills, fine navy outlines, white rounded cards, yellow highlight strokes and a dark navy footer.",
+    "imagery_role": "Small illustrated book, target, lightning bolt, chart, speech bubble and other icons serve as fast category markers; the visual is fundamentally typographic and table-based.",
+    "density_and_pacing": "The headline creates a decisive entry, then the numbered bands let readers skim or stop. Density increases toward the reusable templates, which gives a reason to save rather than trying to make every line feed-readable.",
     "craft_observations": [
-      "Hook-writing playbook with numbered modular cards",
-      "Reusable atom: A tool kit broken into small usable parts",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The yellow highlights turn the central promise into a physical editorial object. Different grids keep each chapter from becoming a repeated card stack. The final template grid is intentionally dense but visually contained, while the major title carries thumbnail readability."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A visually indexed bank of hook forms, language categories and formatting prompts; headline and performance claims should not be treated as established facts without source checks.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "state the scope",
-      "group items by a usable logic",
-      "give compact definitions/formulas/examples",
-      "make the reference retrievable at a glance"
+      "Outcome-oriented headline",
+      "five hook types",
+      "phrase categories",
+      "formatting rules",
+      "nine reusable templates",
+      "download CTA."
     ],
-    "compression_method": "modular reference blocks or table; strong title promise; repeated card/row rule; grouping through category and hierarchy",
-    "reader_payoff": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+    "compression_method": "The reviewed visual mechanism is “The chapter system makes a broad craft skill decomposable: concept, vocabulary, format and reusable starting structures appear as different forms of help.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A visually indexed bank of hook forms, language categories and formatting prompts; headline and performance claims should not be treated as established facts without source checks.",
     "save_share_return_motives": [
-      "save as a field reference",
-      "share with a newer colleague",
-      "return during real work"
+      "Repeat-use drafting reference: a reader can revisit one row when writing an opening."
     ],
-    "caption_to_visual_choreography": "Explain scope, provenance, use boundary and the one practical reason the reader should keep the reference."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “The chapter system makes a broad craft skill decomposable: concept, vocabulary, format and reusable starting structures appear as different forms of help.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+      "mechanism_family": "taxonomy",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "Outcome-oriented headline -> five hook types -> phrase categories -> formatting rules -> nine reusable templates -> download CTA.",
+          "Tall pale-blue sheet with a monumental serif headline, yellow word highlights and four wide rounded pastel sections stacked vertically; the final lavender section contains a 3-by-3 template grid.",
+          "A strict vertical chapter stack. Each section uses a different local grid suited to its contents: five columns for categories, three columns for rules and a nine-cell array for templates.",
+          "The chapter system makes a broad craft skill decomposable: concept, vocabulary, format and reusable starting structures appear as different forms of help."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A visually indexed bank of hook forms, language categories and formatting prompts; headline and performance claims should not be treated as established facts without source checks.",
       "reader_state": [
-        "information overload",
-        "need for quick lookup",
-        "desire to feel more fluent at work"
+        "A writer is trying to turn a vague need for a stronger opening into concrete options while drafting a LinkedIn post."
       ],
       "visual_grammar": [
-        "modular reference blocks or table",
-        "strong title promise",
-        "repeated card/row rule",
-        "grouping through category and hierarchy"
+        "Tall pale-blue sheet with a monumental serif headline, yellow word highlights and four wide rounded pastel sections stacked vertically; the final lavender section contains a 3-by-3 template grid.",
+        "A strict vertical chapter stack. Each section uses a different local grid suited to its contents: five columns for categories, three columns for rules and a nine-cell array for templates.",
+        "The chapter system makes a broad craft skill decomposable: concept, vocabulary, format and reusable starting structures appear as different forms of help."
       ],
       "information_grammar": [
-        "state the scope",
-        "group items by a usable logic",
-        "give compact definitions/formulas/examples",
-        "make the reference retrievable at a glance"
+        "Outcome-oriented headline -> five hook types -> phrase categories -> formatting rules -> nine reusable templates -> download CTA.",
+        "A visually indexed bank of hook forms, language categories and formatting prompts; headline and performance claims should not be treated as established facts without source checks.",
+        "Repeat-use drafting reference: a reader can revisit one row when writing an opening."
       ],
       "social_action_mechanics": [
-        "save as a field reference",
-        "share with a newer colleague",
-        "return during real work"
+        "Repeat-use drafting reference: a reader can revisit one row when writing an opening."
       ],
       "use_when": [
-        "The information is durable and consulted repeatedly.",
-        "There is a defensible grouping logic.",
-        "Compression preserves rather than distorts the meaning."
+        "The already selected reader moment genuinely benefits from an original taxonomy rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The reader needs one deep causal explanation.",
-        "The list is arbitrary or too broad to be reliable.",
-        "A single decision tool would be more useful than a compendium."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "A tool kit broken into small usable parts",
-      "state the scope",
-      "group items by a usable logic"
+      "For a practical writing guide, group inputs by the action they influence and make the final template inventory separately scannable. Use a clear numerical index across sections. Pair conceptual types with concrete examples, but do not use formulaic language as proof of guaranteed outcomes."
     ],
-    "reverse_build_specification": "When a chosen opportunity contains durable, repeat-use knowledge, create a compact field guide with an explicit scope and repeated retrieval pattern. Make every row earn its place, make grouping visible, and state what the guide cannot decide for the reader.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original taxonomy whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: For a practical writing guide, group inputs by the action they influence and make the final template inventory separately scannable. Use a clear numerical index across sections. Pair conceptual types with concrete examples, but do not use formulaic language as proof of guaranteed outcomes. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Creator's pastel grid",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not reproduce the Scroll Stopping Hooks headline, claimed post-analysis figure, hook taxonomy, word/phrase list, character counts, nine templates, yellow highlight treatment, navy footer or source branding.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended package a dense but recurring body of knowledge into a reference readers can repeatedly consult. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#9",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#9",
     "source_context_id": "top100-workbook#9",
-    "content_hash": "5bfed5b7f9c488f17f9d32398d9f76b9912bf90990ac8e8955d6bd284995e5df"
+    "content_hash": "5bfed5b7f9c488f17f9d32398d9f76b9912bf90990ac8e8955d6bd284995e5df",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7468986861345087488",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/9.jpeg",
+      "asset_sha256": "acda3858254f77d8875a17657d86234657d930f229b074d11a1699b3d8dbf5c3",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

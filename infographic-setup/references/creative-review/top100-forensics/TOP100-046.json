@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-046",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7460562088730562560, bound to references/top 100/46.jpeg at SHA-256 e60246153e59944c23d74fa3f2626014c1c27544e3905f7aced1e3f5fb9a96b2.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7460562088730562560; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex direct-asset visual reviewer — Batch B",
+    "reviewed_at": "2026-08-07T15:00:00+02:00",
+    "evidence": "Full-size direct inspection of references/top 100/46.jpeg against the declared SHA-256; observations below describe the actual planning-engine infographic."
   },
   "asset": {
     "path": "references/top 100/46.jpeg",
-    "status": "visually_inspected",
+    "sha256": "e60246153e59944c23d74fa3f2626014c1c27544e3905f7aced1e3f5fb9a96b2",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "e60246153e59944c23d74fa3f2626014c1c27544e3905f7aced1e3f5fb9a96b2",
+      "reviewer": "Codex direct-asset visual reviewer — Batch B",
+      "reviewed_at": "2026-08-07T15:00:00+02:00",
+      "evidence": "Full-size direct inspection of references/top 100/46.jpeg against the declared SHA-256; observations below describe the actual planning-engine infographic. Asset hash: e60246153e59944c23d74fa3f2626014c1c27544e3905f7aced1e3f5fb9a96b2."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Mayank Pandey",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7460562088730562560",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "b2348f421037bea6d60964724c300a24bbcaa6e1fea5a63ba9560b9013c780c0",
@@ -34,140 +49,159 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7460562088730562560",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "system opacity",
-      "fragmented ownership",
-      "need to see the whole before acting locally"
-    ],
-    "desired_response": [
-      "save as an orientation reference",
-      "send to a collaborator",
-      "use to explain a system without a long meeting"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A single visual reference tying three planning layers to inputs, decisions, failure modes and a continuous response loop.",
+    "work_moment": "A supply-chain practitioner needs a plain-language map of how demand, supply and execution planning connect, and where local optimisation can fail the network.",
+    "tension": "Clarity from seeing a complicated operating system in a familiar vertical stack and concern about siloed local optimisation.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Three-layer planning engine stack.",
-    "comprehension_3_10_seconds": "The reader follows the central anchor or process spine, labelled nodes/layers/lanes, visible relationship connectors to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
-    "identity_or_curiosity_trigger": "system opacity; fragmented ownership; need to see the whole before acting locally",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Three-layer planning engine stack."
+    "thumbnail_read_0_3_seconds": "0–3s: the oversized ‘3-Layer Planning Engine’ headline and three vertically stacked coloured blocks establish an organisational model. 3–10s: arrows imply a demand-to-supply-to-execution sequence while a row of industry icons broadens applicability. 10–30s: readers inspect the components, trade-offs, failure panel and bottom operating loop.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Title → industry applicability strip → green Demand block → blue Supply block → purple Execution block → lower Sense/Simulate/Decide/Adapt strip and side outcome panel.”.",
+    "value_exchange_10_30_seconds": "A single visual reference tying three planning layers to inputs, decisions, failure modes and a continuous response loop.",
+    "identity_or_curiosity_trigger": "Clarity from seeing a complicated operating system in a familiar vertical stack and concern about siloed local optimisation.",
+    "promise_proved_by_visual": "A vertical architecture diagram makes dependency and handoff visible, then adds side evidence about what degrades when layers are disconnected."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Three-layer planning engine stack",
-    "composition_and_grid": "central anchor or process spine; labelled nodes/layers/lanes; visible relationship connectors; bounded visual zones",
-    "dominant_anchor": "Three-layer planning engine stack",
+    "asset_specific_observation": "Tall white canvas: huge navy/blue headline, small industry icon strip, three wide stacked modules down the left two-thirds, comparison/exception panels along the right, and a bottom continuous-loop band.",
+    "composition_and_grid": "A primary 3-step vertical process is accompanied by two narrow right-side ‘struggle’/‘doing differently’ cards and a footer-sized outcome loop.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: Headline and coloured vertical layer labels lead; large layer labels and arrows form the second scan; component icons, side panels and outcome loop are close-read detail.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Title",
+      "industry applicability strip",
+      "green Demand block",
+      "blue Supply block",
+      "purple Execution block",
+      "lower Sense/Simulate/Decide/Adapt strip and side outcome panel."
     ],
     "information_chunks": [
-      "name the system",
-      "show its parts",
-      "reveal relationships",
-      "locate the intervention or decision point"
+      "Broad applicability",
+      "three layers and their questions",
+      "components and balancing variables",
+      "organisational failure pattern / alternative practices",
+      "sense-simulate-decide-adapt outcome loop."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Three-layer planning engine stack.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "Headline and coloured vertical layer labels lead; large layer labels and arrows form the second scan; component icons, side panels and outcome loop are close-read detail.",
+    "typography": "Extra-bold condensed sans for headline; broad all-caps layer tags; smaller bold sans for components and goals; coloured keywords reinforce hierarchy.",
+    "colour_material_and_contrast": "White ground, navy title bands and arrows, dark green/blue/purple semantic layer fields, small flat-vector icons and pale bordered content panels.",
+    "imagery_role": "Factory, truck, cart, supplier and other operational icons identify industries and planning tasks; arrows and balance symbols encode relationships.",
+    "density_and_pacing": "Readers receive the model in three large sweeps first, then can fan out into layers, side diagnosis and bottom operating cycle.",
     "craft_observations": [
-      "Three-layer planning engine stack",
-      "Reusable atom: Layers make hidden systems discussable",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The left rail carries the main causal flow and has the largest surface area. Side panels are visibly subordinate through their narrower width. Arrows between modules enforce an order even with a lot of internal detail."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A single visual reference tying three planning layers to inputs, decisions, failure modes and a continuous response loop.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "name the system",
-      "show its parts",
-      "reveal relationships",
-      "locate the intervention or decision point"
+      "Broad applicability",
+      "three layers and their questions",
+      "components and balancing variables",
+      "organisational failure pattern / alternative practices",
+      "sense-simulate-decide-adapt outcome loop."
     ],
-    "compression_method": "central anchor or process spine; labelled nodes/layers/lanes; visible relationship connectors; bounded visual zones",
-    "reader_payoff": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+    "compression_method": "The reviewed visual mechanism is “A vertical architecture diagram makes dependency and handoff visible, then adds side evidence about what degrades when layers are disconnected.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A single visual reference tying three planning layers to inputs, decisions, failure modes and a continuous response loop.",
     "save_share_return_motives": [
-      "save as an orientation reference",
-      "send to a collaborator",
-      "use to explain a system without a long meeting"
+      "Orientation resource for explaining planning architecture to a colleague or using as a shared vocabulary in an improvement discussion."
     ],
-    "caption_to_visual_choreography": "Supply the system’s operating consequence, boundary conditions or point of view that a static map cannot prove."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “A vertical architecture diagram makes dependency and handoff visible, then adds side evidence about what degrades when layers are disconnected.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+      "mechanism_family": "comparison",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "Broad applicability → three layers and their questions → components and balancing variables → organisational failure pattern / alternative practices → sense-simulate-decide-adapt outcome loop.",
+          "Tall white canvas: huge navy/blue headline, small industry icon strip, three wide stacked modules down the left two-thirds, comparison/exception panels along the right, and a bottom continuous-loop band.",
+          "A primary 3-step vertical process is accompanied by two narrow right-side ‘struggle’/‘doing differently’ cards and a footer-sized outcome loop.",
+          "A vertical architecture diagram makes dependency and handoff visible, then adds side evidence about what degrades when layers are disconnected."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A single visual reference tying three planning layers to inputs, decisions, failure modes and a continuous response loop.",
       "reader_state": [
-        "system opacity",
-        "fragmented ownership",
-        "need to see the whole before acting locally"
+        "A supply-chain practitioner needs a plain-language map of how demand, supply and execution planning connect, and where local optimisation can fail the network."
       ],
       "visual_grammar": [
-        "central anchor or process spine",
-        "labelled nodes/layers/lanes",
-        "visible relationship connectors",
-        "bounded visual zones"
+        "Tall white canvas: huge navy/blue headline, small industry icon strip, three wide stacked modules down the left two-thirds, comparison/exception panels along the right, and a bottom continuous-loop band.",
+        "A primary 3-step vertical process is accompanied by two narrow right-side ‘struggle’/‘doing differently’ cards and a footer-sized outcome loop.",
+        "A vertical architecture diagram makes dependency and handoff visible, then adds side evidence about what degrades when layers are disconnected."
       ],
       "information_grammar": [
-        "name the system",
-        "show its parts",
-        "reveal relationships",
-        "locate the intervention or decision point"
+        "Broad applicability → three layers and their questions → components and balancing variables → organisational failure pattern / alternative practices → sense-simulate-decide-adapt outcome loop.",
+        "A single visual reference tying three planning layers to inputs, decisions, failure modes and a continuous response loop.",
+        "Orientation resource for explaining planning architecture to a colleague or using as a shared vocabulary in an improvement discussion."
       ],
       "social_action_mechanics": [
-        "save as an orientation reference",
-        "send to a collaborator",
-        "use to explain a system without a long meeting"
+        "Orientation resource for explaining planning architecture to a colleague or using as a shared vocabulary in an improvement discussion."
       ],
       "use_when": [
-        "The opportunity is about relationships between components rather than a single list.",
-        "The visual can make a hidden dependency, flow or ownership boundary clearer.",
-        "The reader benefits from an overview before detailed instruction."
+        "The already selected reader moment genuinely benefits from an original comparison rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The main reader need is a simple one-step decision.",
-        "Relationships would be invented or speculative.",
-        "A table would communicate the content more clearly."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Layers make hidden systems discussable",
-      "name the system",
-      "show its parts"
+      "When a system has dependent layers, use a strict spatial stack and repeat one question per layer. Place exceptions or contrast panels to the side so they inform the core flow without breaking it. Use an outcome loop only after the system is clear."
     ],
-    "reverse_build_specification": "When a chosen opportunity needs orientation in a complex system, select one visual grammar—spine, hub, layers or lanes—and use it consistently to make relationships legible. Give each node one job and let the caption explain why the relationship matters.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original comparison whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: When a system has dependent layers, use a strict spatial stack and repeat one question per layer. Place exceptions or contrast panels to the side so they inform the core flow without breaking it. Use an outcome loop only after the system is clear. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Exact blue/green/violet stack",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not copy the exact 3-layer headings, specific claims about leading organisations, icon taxonomy, green/blue/purple layer palette, or headline/footer language.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#46",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#46",
     "source_context_id": "top100-workbook#46",
-    "content_hash": "faa95121a87a18a21643d8be72fdd972d4431906d561cac6e8d17c0a8f9677ed"
+    "content_hash": "faa95121a87a18a21643d8be72fdd972d4431906d561cac6e8d17c0a8f9677ed",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7460562088730562560",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/46.jpeg",
+      "asset_sha256": "e60246153e59944c23d74fa3f2626014c1c27544e3905f7aced1e3f5fb9a96b2",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

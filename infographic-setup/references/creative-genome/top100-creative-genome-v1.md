@@ -1,8 +1,10 @@
 # Top-100 Creative Genome
 
-**Status:** 97 locally inspected visual forensic records synthesised on 2026-08-05.
+**Status:** 60 asset-hashed manual forensic record(s); 37 template-assisted candidate(s) awaiting manual review.
 
-This is a creative retrieval index, not a topic engine. Start with a selected reader moment and intended response; use this index to choose how the value should be packaged. Factual claims still require separate support.
+This is a high-confidence creative retrieval index, not a topic engine. Start with a selected reader moment and intended response; use only the manual/evidenced records below to choose how the value should be packaged. Factual claims still require separate support.
+
+The provisional candidate list is deliberately excluded from mechanism retrieval. It exists only to route the next manual reviews without pretending a profile mapping inspected the asset.
 
 ## Retrieval contract
 
@@ -12,374 +14,330 @@ Bring: reader state, desired response, cognitive job, claim mode and format cons
 
 | Family | Records | Reader state it serves | Best used when | Avoid when |
 |---|---:|---|---|---|
-| field_guide | 22 | information overload; need for quick lookup; desire to feel more fluent at work | The information is durable and consulted repeatedly. | The reader needs one deep causal explanation. |
-| workflow | 18 | blank-page friction; process uncertainty; desire for a reliable first move | A useful outcome genuinely requires ordered actions. | The work is non-linear and forcing steps would mislead. |
-| system_map | 15 | system opacity; fragmented ownership; need to see the whole before acting locally | The opportunity is about relationships between components rather than a single list. | The main reader need is a simple one-step decision. |
-| maturity | 13 | uncertain starting point; ambition without path; need to see progression | The chosen opportunity has a credible progression rather than a marketing funnel. | The levels are arbitrary. |
-| comparison | 8 | conceptual confusion; cross-functional disagreement; need for shared vocabulary | The opportunity contains a small set of concepts that readers confuse. | The idea needs a chronological causal story. |
-| data_landscape | 6 | market opacity; choice overload; need for orientation at scale | The collection has a defensible scope and grouping logic. | The map creates an implied ranking without evidence. |
-| metaphor | 6 | need for recognition; abstract tension; social friction around naming a pattern | A real lived pattern can be made clearer without losing nuance. | The post carries high-stakes factual, technical or sensitive criticism. |
-| product_proof | 4 | uncertain value; need to see what exists; desire for a practical shortcut | A real artifact, interface, toolkit or workflow exists. | There is no real usable object. |
-| before_after | 2 | hidden waste; abstract debate; need for a shared picture before action | There is a real or explicitly illustrative before/after state. | No defensible state change exists. |
-| collection | 2 | desire for a trusted starting point; need to see breadth before committing attention | There is a real body of related work. | The collection is thin or purely self-promotional. |
-| taxonomy | 1 | vocabulary gap; need to sort options; uncertain categorisation | The domain has a stable, useful set of categories. | Categories are arbitrary, disputed or need extensive caveats. |
+| workflow | 14 | A professional wants to turn an existing LinkedIn profile into a simple personal website but needs a clear sequence and proof of what each screen should look like.; A creator or c… | The already selected reader moment genuinely benefits from an original workflow rather than a generic list. | The spatial relationship does not improve comprehension, recognition or practical use. |
+| comparison | 10 | conceptual confusion; cross-functional disagreement; need for shared vocabulary | The chosen opportunity contains a small set of terms readers mistake for one another. | The core value depends on a chronological causal story. |
+| maturity | 7 | A procurement or transformation leader needs a simple way to discuss whether AI ambition is ahead of operational readiness.; A planning team needs language to distinguish reactive… | The already selected reader moment genuinely benefits from an original maturity rather than a generic list. | The spatial relationship does not improve comprehension, recognition or practical use. |
+| taxonomy | 6 | A writer is trying to turn a vague need for a stronger opening into concrete options while drafting a LinkedIn post.; A practitioner is looking for integrations but does not know… | The already selected reader moment genuinely benefits from an original taxonomy rather than a generic list. | The spatial relationship does not improve comprehension, recognition or practical use. |
+| before_after | 5 | An industrial engineer spends hours creating or analysing recurring artifacts such as a VSM, FMEA, root-cause analysis, SOP or OEE calculation.; A procurement professional wants a… | The already selected reader moment genuinely benefits from an original before after rather than a generic list. | The spatial relationship does not improve comprehension, recognition or practical use. |
+| structured_explainer | 5 | A procurement practitioner needs specific, bounded ways to turn an AI discussion into a possible task, input and output.; A B2B creator or marketer wants to know which content is… | The already selected reader moment genuinely benefits from an original structured explainer rather than a generic list. | The spatial relationship does not improve comprehension, recognition or practical use. |
+| system_map | 4 | A manufacturing practitioner needs a broad orientation to how production planning, inventory, procurement, execution, cost and visibility connect inside an ERP environment.; A man… | The already selected reader moment genuinely benefits from an original system map rather than a generic list. | The spatial relationship does not improve comprehension, recognition or practical use. |
+| field_guide | 3 | A supply-chain leader is reconciling expectations of agentic AI with repetitive decisions, data quality, deployment effort and changing roles.; A creator wants a compact checklist… | The already selected reader moment genuinely benefits from an original field guide rather than a generic list. | The spatial relationship does not improve comprehension, recognition or practical use. |
+| collection | 2 | A leader needs a way to choose a decision tool based on urgency, reversibility, group involvement, uncertainty or time horizon.; A strategy practitioner wants a compact index of c… | The already selected reader moment genuinely benefits from an original collection rather than a generic list. | The spatial relationship does not improve comprehension, recognition or practical use. |
+| visual_explainer | 2 | A procurement leader is trying to turn broad AI interest into a narrowly scoped, validated pilot that can gain support and scale responsibly.; A ghostwriter or consultant wants to… | The already selected reader moment genuinely benefits from an original visual explainer rather than a generic list. | The spatial relationship does not improve comprehension, recognition or practical use. |
+| data_landscape | 1 | A transformation leader needs a shared architecture vocabulary before debating whether an AI use case belongs to a task, a domain, or a cross-functional layer. | The already selected reader moment genuinely benefits from an original data landscape rather than a generic list. | The spatial relationship does not improve comprehension, recognition or practical use. |
+| metaphor | 1 | role identity; shared frustration; need for social permission | The chosen opportunity contains a widely recognisable but low-stakes human pattern. | The content needs technical precision, a sensitive critique or a substantiated outcome claim. |
 
 ## Family detail
 
-### field_guide (22)
+### workflow (14)
 
-**Cognitive job:** Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.
+**Cognitive job:** Make the inspected reader payoff actionable: A visual walkthrough that combines high-level steps, screenshots and small action checklists in one vertical flow. / Make the inspected reader payoff actionable: A visual map of a multi-channel operating model, with clear separation between LinkedIn, Instagram, YouTube and newsletter routes; the named software claims need separate verification. / Make the inspected reader payoff actionable: A visually indexed working sheet that gathers several outreach decisions in one place; stated benchmarks and practices need their own evidence check. / Make the inspected reader payoff actionable: A common-schema comparison that clarifies the different jobs of three familiar management terms. / Make the inspected reader payoff actionable: A scan-friendly visual model for discussing a claimed distribution process and its practical implications; the statements themselves need separate verification. / Make the inspected reader payoff actionable: A broad map of S&OP that can orient a new participant or seed a team conversation about the process. / Make the inspected reader payoff actionable: One structured workflow showing that a post has preparatory, launch and follow-through work—not merely a writing task. / Make the inspected reader payoff actionable: A three-phase plan that distinguishes foundation, audience-building and authority stages. / Make the inspected reader payoff actionable: Six operational principles with a visual mnemonic for each, useful as an early adoption checklist. / Make the inspected reader payoff actionable: A broad workflow map that gives several possible next actions within one saved visual. / Make the inspected reader payoff actionable: A one-page planning schema that links content roles to metrics and tactics. / Make the inspected reader payoff actionable: An eight-step content workflow with a visual cue, short action list, sample prompt, and pro tip in every step. / Make the inspected reader payoff actionable: A broad orientation covering definition, significance, use-case ranking, brand setup, outputs, workflow, and do/don't limits. / Make the inspected reader payoff actionable: A dense orientation sheet that groups setup and workflow mechanics into seven labelled modules.
 
-**Reader states:** information overload; need for quick lookup; desire to feel more fluent at work
+**Reader states:** A professional wants to turn an existing LinkedIn profile into a simple personal website but needs a clear sequence and proof of what each screen should look like.; A creator or content operator wants to understand how one source system can produce channel-specific workflows without losing the role of each channel.; A commercial practitioner is assembling an outreach system and wants one page that names the moving parts.; A manager or team needs to stop conflating goals, performance measures and critical success factors during planning or performance conversations.; A creator is trying to decide what publishing behaviour is worth changing when platform distribution feels opaque.; A cross-functional supply-chain participant needs a shared model of S&OP participants, review steps, inputs, outputs and common breakdowns.; A LinkedIn creator wants a usable operating routine that includes ideation, publishing preparation and the immediate post-publish period.; A practitioner wants to build audience trust before introducing product-oriented content on LinkedIn.; A procurement team is deciding where to begin with AI and needs an accessible sequence from problem definition to a sustainable foundation.; A creator is looking for a repeatable weekly LinkedIn operating rhythm across profile, publishing, response and measurement.; A creator is posting irregularly and needs to distinguish discovery, trust, conversion, and relationship work instead of treating every post as the same job.; A creator is unhappy with generic AI-written posts and wants an operating method that preserves their voice while using AI for structure and iteration.; A founder or creator wants a practical way to turn an idea into design outputs without treating an AI product as magic.; A user wants to understand getting started, project structure, agents, hooks, commands, skills, and memory without moving between multiple documents.
 
-**Visual grammar:** modular reference blocks or table; strong title promise; repeated card/row rule; grouping through category and hierarchy
+**Visual grammar:** Tall dark charcoal grid board with title band at top and six vertically stacked blue gradient stage cards down the centre. Each stage connects left to a screenshot and right to a short numbered action list.; A three-column system: proof screenshots at left, sequence cards in the centre, action detail at right. Fine white connector lines cross the gutters to map all three.; The central spine gives a linear promise, while side evidence makes each stage actionable and credible; the line routing explicitly binds screen, step and instructions.; Tall midnight-navy system map with a large title at top, a central rounded Claude x Charlie hub below, four evenly spaced branching channel headers, and colour-matched vertical task rails extending toward a footer.; A hub-and-spoke top section transitions into four parallel swimlanes. Each lane uses uniform cards and vertical spacing, but lengths differ according to workflow depth.; Branching plus separate vertical lanes proves two relationships at once: shared origin and channel-specific sequence. The draw/reveal animation reinforces the emergence of the system from a central hub.; Tall near-black poster with a large title, then seven rounded modules arranged as one full-width top band, two medium second-row blocks, three equal third-row blocks and a full-width concluding band.; A dashboard-like but deliberately editorial modular grid. Modules vary in height and width according to their information form, while retaining common rounded corners and perimeter spacing.; Coloured, numbered modules make a multi-dimensional system navigable without forcing a false linear sequence; each module has a distinct cognitive job.; Tall paper-toned sheet with a giant three-term headline, followed by three full-height pastel columns and one bottom integration band spanning the width.; Three equal vertical lanes use an identical sequence of sections and baselines. A bottom panel breaks the columns to explain the relationship across them.; Equal columns prevent the concepts from collapsing into one blended list; the lower band repairs the separation by showing how they connect.; Tall white poster with a two-line headline, then a 2-by-2 grid of large rounded process cards, followed by two half-width bottom panels and a blue footer.; A strict two-column board with repeated bordered cards, but the final two panels intentionally break the four-step rhythm to become an operational summary.; A numbered grid converts a claimed back-end process into a visible sequence; the bottom comparison translates the model into behavioural choices.; Tall white sheet with a dark-navy title masthead; early two-column definition/benefits panels; a central five-step horizontal sequence; lower three-column inputs/outputs/challenges and KPI/impact/chart modules.; A highly structured magazine grid with wide central process row and three lower columns; large numbered headers make each cluster independently retrievable.; An explainer board turns an organisational process into a visible map: who participates, what flows in, what happens, what comes out, and what can derail it.; Pale blue portrait sheet with a massive two-line serif title above three full-height pastel columns: lavender Ideation, yellow-green Going Live and mint After Posting.; Three equal columns use identical header/body/footer structure but custom lower modules appropriate to each phase.; Temporal columns make the invisible lifecycle of a post visible, turning generic ‘just post’ advice into a repeatable work sequence.; White poster with a large two-line title and glossy LinkedIn mark; three wide horizontal rounded phase bands follow; a dotted-border pro-tip strip occupies the lower quarter.; A strict vertical three-stage roadmap; each horizontal band uses a different left/right placement of label block, bullets and supporting image.; A staged roadmap makes ‘sell without selling’ tangible by separating the behaviours that earn permission from later conversion activity.; Cream portrait poster: large title above a balanced 2×3 grid of white rounded panels; each panel has a saturated colour header, number circle, instructional copy and mini-diagram.; Six evenly sized instructional tiles create a clear scan pattern, with internal diagrams placed where unused white space permits.; A repeated module grammar turns an abstract set of principles into six separately usable small operating aids.; Pale blue poster with a large mixed-type headline, two full-width rounded modules at top, then six smaller modules in a three-column lower grid and a cobalt footer.; A visual operating manual: wide modules hold a sequence and small modules hold independent reference material.; The sheet packages a multi-part system as a spatial dashboard so readers can navigate by operating job rather than read a long post in order.; White vertical board with a very large cropped teal funnel at right and four stacked horizontal stage cards filling the remaining width.; Four wide cards repeat an identical row structure while the literal funnel overlaps their right ends, producing a stable left-to-right reading route.; The funnel makes the word funnel concrete without requiring a separate explanatory diagram; repeated cards show that each stage has a different job, evidence measure, and action.; Tall dark-navy grid with a four-column by two-row set of eight numbered workflow cards beneath a prominent headline and one-line subhead.; Highly regular eight-card grid. Every card repeats image, bullets, dark prompt inset, and orange-edged pro-tip inset, making a large amount of content predictable to scan.; The repeated card anatomy turns a vague anti-generic-AI stance into a visible operating system that can be followed or adapted step by step.; Tall off-white field-guide page with an oversized dark-green serif title, two top explanatory panels, a six-card ranked middle band, and four colour-coded practical modules below.; A carefully balanced two-column grid with wide full-width ranking band and four lower colour fields; all cards sit on an off-white lightly gridded paper field.; The visual turns a product evaluation into a decision guide: the ranking expresses relative fit, and the coloured modules separate setup, outputs, workflow, and constraints.; Pale green technical reference board with two narrow left-column modules, two broad central modules, and a right-side memory module under a strong title strip.; A rigid rounded-rectangle dashboard grid with varied module spans. Thin green borders and pale highlight headers unify the board.; Each kind of instruction uses a visible native form: tree for file structure, arrows for workflow, code block for configuration, and step table for commands.
 
-**Use when:** - The information is durable and consulted repeatedly.
-- There is a defensible grouping logic.
-- Compression preserves rather than distorts the meaning.
+**Use when:** - The already selected reader moment genuinely benefits from an original workflow rather than a generic list.
+- The spatial relationship or sequence can make the intended response clearer at a glance.
+- The visual can carry a truthful promise without needing unsupported outcome claims.
 
-**Do not use when:** - The reader needs one deep causal explanation.
-- The list is arbitrary or too broad to be reliable.
-- A single decision tool would be more useful than a compendium.
+**Do not use when:** - The spatial relationship does not improve comprehension, recognition or practical use.
+- A short text post or simpler visual would communicate the value more clearly.
+- The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved.
 
-**Transferable atoms:** - Formula + visual behaviour + example
-- state the scope
-- group items by a usable logic
-- A tool kit broken into small usable parts
-- Teach framework through its shape
-- Category -> choices -> next action
-- Strong promise then clear module payoff
-- Prompt, input, output, and outcome in one row
-- High-density reference can be the product
-- Repeated formula cards create save value
-- One principle per tile, each with a small visual
-- Diagnose -> shift language -> measure differently
-- Explicit contrast makes advice fast to scan
-- Framework + use case + illustrative diagram
-- An ugly but useful reference sheet can win through utility
-- Make diagnosis concrete with scored dimensions
-- KPI means definition + formula + current signal + decision link
-- Large claim, then honest sections, ranked use cases, and limits
-- Categorised lookup table yields durable save value
-- Concept, formula, decision risk, cadence, and KPI map in one page
-- Large promise, then four separate jobs
-- Decision map connects demand type, model, KPI, and failure
-- Alphabet/term inventory has high return utility
-- Huge usefulness can outweigh visual novelty
+**Transferable atoms:** - For a software walkthrough, use a central stage spine, real/representative screen evidence on one side and micro-actions on the other. Make each action traceable to a screen. Use connectors to prove which checklist belongs to which step, not as ornamental wiring.
+- When one source creates several different workflows, use a true branching diagram with colour-coded lanes. Preserve local vertical sequence inside each branch. Animate the branch construction or state reveal, not the text, so a paused frame remains informative.
+- For a multi-part operating guide, use large numbered modules as a navigation system and let each module use the diagram type that best fits its job. A dark field can support density if type, borders and semantic colours retain high contrast. Do not mistake glowing panels for proof.
+- For a three-way distinction, make each column answer exactly the same questions. Use a final integration strip only after the differences are clear. Give each concept a distinct colour field, but retain one shared typographic grid.
+- Expose an invisible process through a small number of named stages. Use a final contrast panel to distinguish helpful and harmful responses. Keep process and response visually separate so the reader can skim either layer.
+- For an operating system with many interconnected parts, preserve one central process spine and let definitions, actors, inputs, outputs and metrics orbit it as labelled modules. Make the process sequence larger than the supporting catalogue.
+- Use three columns when a workflow has distinct temporal phases. Give each phase a different background field, a defined job, numbered actions and a small visual process or checklist at the point where uncertainty is highest.
+- Use phased bands when the reader needs to see what changes over time. Pair each phase with actions and a recognisable evidence object, then add one bounded rule that prevents premature escalation.
+- Use a 2×3 field when six principles are comparable but each benefits from a unique explanatory mini-diagram. Give each module a concrete ‘Try this’ instruction and keep the progression visible in numbering rather than an artificial flowchart.
+- Group a broad operating system into unequal functional modules and make the time-bound routine visually dominant. Provide both a recurring loop and a planning horizon so the reader can choose a next action.
+- Let one literal object embody the concept; use repeated stage modules with a fixed internal schema; put metrics and tactics at a smaller subordinate level.
+- Use a strong contrarian thesis to earn a procedural board; make every step self-contained; pair visible stage number, micro-illustration, practical bullets, example prompt, and one field-tested caution.
+- Use a strong editorial title to hold a long-form field sheet; segment a broad guide into distinctive colour-banded zones; include both possibility and limitation so the resource earns trust.
+- Use a high-contrast title and clearly named modules; mix code, mini-diagrams, tables, and prose only where each format earns its cognitive role; preserve a persistent grid so dense content remains findable.
 
-**Reference records:** TOP100-005, TOP100-009, TOP100-014, TOP100-017, TOP100-021, TOP100-022, TOP100-025, TOP100-037, TOP100-049, TOP100-056, TOP100-057, TOP100-063, TOP100-074, TOP100-076, TOP100-077, TOP100-078, TOP100-081, TOP100-082, TOP100-088, TOP100-089, TOP100-094, TOP100-099
+**Reference records:** TOP100-003, TOP100-011, TOP100-021, TOP100-024, TOP100-036, TOP100-039, TOP100-042, TOP100-048, TOP100-049, TOP100-050, TOP100-068, TOP100-072, TOP100-078, TOP100-079
 
-### workflow (18)
+### comparison (10)
 
-**Cognitive job:** Convert an intimidating process into a sequence a reader can start and repeat.
+**Cognitive job:** Disambiguate related concepts so a group can make a more precise decision. / Make the inspected reader payoff actionable: A broad but structured reference sheet for planning a commenting practice; performance assertions and tactics require separate verification. / Make the inspected reader payoff actionable: A broad visual menu of mechanisms that can start a planning conversation; the stated growth tactics and examples require independent assessment. / Make the inspected reader payoff actionable: A memorable visual way to discuss a proposed order of operating layers; the framework remains a point of view rather than a universal maturity model. / Make the inspected reader payoff actionable: A browsable collection of prompt frameworks organised by content role rather than a vague injunction to post more. / Make the inspected reader payoff actionable: A visible scaffold for thinking about capabilities, guardrails and a configuration prompt—without claiming that the depicted assistant is already deployed. / Make the inspected reader payoff actionable: A one-screen comparison of several LinkedIn formats and the source author’s proposed usage parameters. / Make the inspected reader payoff actionable: A single visual reference tying three planning layers to inputs, decisions, failure modes and a continuous response loop. / Make the inspected reader payoff actionable: A productised menu of seven sales/ghostwriting tasks inside a single resource bundle. / Make the inspected reader payoff actionable: A compact method-to-demand-condition lookup with a visible chart treatment for each method.
 
-**Reader states:** blank-page friction; process uncertainty; desire for a reliable first move
+**Reader states:** conceptual confusion; cross-functional disagreement; need for shared vocabulary; A professional wants to grow through thoughtful LinkedIn commenting but lacks a system for selection, quality, timing and measurement.; A professional is trying to organise content, audience building, video, lead capture and time allocation into one coherent personal-brand system.; An operations leader is deciding where to start when improvement activity, management routines and culture are being discussed at the same time.; A creator wants enough distinct prompt starters to maintain a regular posting rhythm without repeatedly beginning from a blank page.; A procurement practitioner wants to articulate the components, constraints and output format of an AI assistant rather than rely on isolated chat requests.; A LinkedIn creator is selecting content formats and wants a quick constraint or cadence cue rather than a long research report.; A supply-chain practitioner needs a plain-language map of how demand, supply and execution planning connect, and where local optimisation can fail the network.; A freelance writer or seller wants to assess an AI-assisted sales resource quickly and decide whether the components cover their current pipeline gap.; A planner needs to choose a first-pass forecasting method and explain why demand behaviour, not preference, should drive the choice.
 
-**Visual grammar:** numbered sequence; one visible action per stage; progress cue; optional prompt/interface/example at each stage
+**Visual grammar:** two-to-four equal lanes; one shared row schema; minimal decorative imagery; visible shared conclusion; Tall warm-paper worksheet with a large purple header, followed by seven purple-titled rounded modules arranged in mostly full-width horizontal bands and paired blocks, then a pale footer.; A printed handout system: thick rounded boundaries enclose each numbered chapter, while a central two-column grid accommodates paired comparisons and schedules.; A large subject is broken into visibly distinct questions, so the reader can see that commenting involves target choice, behaviour, timing and feedback rather than one generic advice list.; Tall warm-paper poster with a huge two-line editorial headline, then a two-column stack of six rounded, colour-coded module boxes of unequal height, and a thin subscription footer.; A modular editorial two-column grid with wide left/right blocks. Component height varies according to content, but rounded bounds and consistent margins keep the collection coherent.; Different diagram types translate several different kinds of advice into a single visual field without flattening everything into repetitive cards.; Square editorial poster: a large centred concentric target occupies the middle while detailed monochrome factory line art frames the outer edges; a turquoise handwritten route enters from upper left.; A central circular diagram owns the page; outer industrial drawing is deliberately lower contrast so it suggests context without obscuring the rings.; The concentric structure makes foundational-to-cultural dependency spatial, while the entry arrow prevents readers from treating outer layers as an interchangeable list.; Tall warm-off-white sheet: oversized orange headline and one-line instruction above three evenly spaced tapered columns, each with a tinted category header, a short specification block and five vertically linked prompt cards.; A highly regular three-column comparison/reference sheet. Each column uses the same vertical grammar but contains a different role and different prompt templates.; Parallel labelled buckets make a content mix visible; the repeated card stacks turn a vague planning goal into a menu of selectable starting points.; Cream vertical poster: large black title at top; left two-column stack of ten white/orange capability cards; right tall black code-editor-like configuration panel; a full-width orange prompt strip and three dark application cards at bottom.; Asymmetric two-column comparison: narrower functional cards versus a larger code/configuration object, united by repeated orange numbered markers.; A capability-to-configuration pairing makes an assistant feel concrete by showing both what it does and the rules that should shape it.; Bright blue grid poster with a full-width white title, then eight translucent rectangular format cards in four rows, bridged by large blue circular icons through the centre.; Symmetrical two-column card stack around a zig-zag centre chain of icons, producing an infographic/dashboard hybrid.; A consistent metric-card system turns format choice into a scanable comparison board rather than prose advice.; Tall white canvas: huge navy/blue headline, small industry icon strip, three wide stacked modules down the left two-thirds, comparison/exception panels along the right, and a bottom continuous-loop band.; A primary 3-step vertical process is accompanied by two narrow right-side ‘struggle’/‘doing differently’ cards and a footer-sized outcome loop.; A vertical architecture diagram makes dependency and handoff visible, then adds side evidence about what degrades when layers are disconnected.; Tall black-to-burnt-orange product-promo page with an oversized white title, a central 3D skill-pack object, six surrounding benefit blocks, inward hand-drawn arrows, and a strong comment CTA.; A two-column outer grid with a single central product column, separated by thin vertical and horizontal rules. Arrows cross the rules to unite the modules.; The physical central product makes six dispersed service outcomes look like components of one packaged resource rather than unrelated promises.; Tall white explainer with a navy masthead, subtitle, four large rounded method cards, and a repeated footer message.; Four equal rounded horizontal cards use a left chart / right explanation split, giving each option the same visual grammar.; The same actual-versus-forecast chart grammar appears under every method, so the reader can visually compare response behaviour and not only labels.
 
-**Use when:** - A useful outcome genuinely requires ordered actions.
-- The reader can begin without hidden prerequisites.
-- The sequence has a real quality check or decision point.
-
-**Do not use when:** - The work is non-linear and forcing steps would mislead.
-- The post cannot specify a valid first action.
-- The claim is a broad strategy rather than a process.
-
-**Transferable atoms:** - One action per step, shown in sequence
-- start condition
-- small steps
-- Command, outcome, and number are enough
-- Behaviour is clearer when shown against its opposite
-- Interface pattern: tool -> job -> first move
-- A taxonomy becomes memorable when it has flow
-- One page can combine a weekly operating system
-- Pain -> MVP -> value as visual narrative
-- One rule per card with visual consequence
-- Pair plain language with the actual mechanism
-- Make a hidden transformation visible
-- Before/during/after makes a repeatable rhythm
-- Show a role's work before introducing the tool
-- Phase, action, and purpose in a simple sequence
-- A plan becomes tangible when timeboxed
-- Numbered path creates an entry point for a big topic
-- Show the production surface, not just advice
-- Tool features become useful when attached to work jobs
-- One workflow, one action, one prompt, one pro tip per card
-
-**Reference records:** TOP100-003, TOP100-015, TOP100-016, TOP100-020, TOP100-027, TOP100-028, TOP100-034, TOP100-036, TOP100-038, TOP100-041, TOP100-042, TOP100-047, TOP100-048, TOP100-050, TOP100-052, TOP100-053, TOP100-070, TOP100-072
-
-### system_map (15)
-
-**Cognitive job:** Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.
-
-**Reader states:** system opacity; fragmented ownership; need to see the whole before acting locally
-
-**Visual grammar:** central anchor or process spine; labelled nodes/layers/lanes; visible relationship connectors; bounded visual zones
-
-**Use when:** - The opportunity is about relationships between components rather than a single list.
-- The visual can make a hidden dependency, flow or ownership boundary clearer.
-- The reader benefits from an overview before detailed instruction.
-
-**Do not use when:** - The main reader need is a simple one-step decision.
-- Relationships would be invented or speculative.
-- A table would communicate the content more clearly.
-
-**Transferable atoms:** - Central system with role-specific edges
-- name the system
-- show its parts
-- One system, many complementary primitives
-- Parallel streams reveal a complete workflow
-- One core model, one visual anchor
-- Complete operating model in one reference
-- Tool connections + actual interface as proof
-- Layers make hidden systems discussable
-- Thesis supported by a visual proof on every row
-- Decisions deserve a true branching visual
-- Process complexity is legible through longer flow
-- Translate a technical setup into a labelled system map
-- Make an invisible file system spatial and readable
-- Cross-functional lanes show true operational hand-offs
-- Horizontal process spine + cross-functional and domain layers
-- Tool capabilities are credible when coupled to an application
-
-**Reference records:** TOP100-002, TOP100-010, TOP100-011, TOP100-018, TOP100-039, TOP100-040, TOP100-046, TOP100-051, TOP100-054, TOP100-069, TOP100-079, TOP100-080, TOP100-083, TOP100-095, TOP100-097
-
-### maturity (13)
-
-**Cognitive job:** Make progress, capability depth or transformation feel navigable rather than abstract.
-
-**Reader states:** uncertain starting point; ambition without path; need to see progression
-
-**Visual grammar:** levels, rings, stages, ladder or journey; clear start/end orientation; one capability shift per level; visible movement between states
-
-**Use when:** - The chosen opportunity has a credible progression rather than a marketing funnel.
-- Moving between states changes capabilities or decisions, not just labels.
-- The reader benefits from locating a current state.
-
-**Do not use when:** - The levels are arbitrary.
-- There is no meaningful order.
-- The post would imply false maturity scoring or unsupported benchmarks.
-
-**Transferable atoms:** - Maturity progresses outward
-- name current condition
-- show sequential capability shifts
-- A hierarchy turns adoption into a journey
-- Stages with action and payoff
-- Progression shown as accumulating capability
-- Upgrade story through levels, formulas, and icons
-- Circular curriculum turns a list into a path
-- Strategy is a balanced system, not an isolated tool
-- Let the diagram embody the concept
-- Metaphor makes capability depth immediately visible
-- Organisation change is clearer as two structures
-- Capability progression can be spatial
-- One dominant shape can govern a long explainer
-- Use a vertical conceptual progression for a new mental model
-
-**Reference records:** TOP100-008, TOP100-029, TOP100-030, TOP100-045, TOP100-059, TOP100-061, TOP100-067, TOP100-068, TOP100-071, TOP100-085, TOP100-086, TOP100-091, TOP100-100
-
-### comparison (8)
-
-**Cognitive job:** Disambiguate a small set of related concepts so a reader can make a more precise decision. / Disambiguate related concepts so a group can make a more precise decision.
-
-**Reader states:** conceptual confusion; cross-functional disagreement; need for shared vocabulary
-
-**Visual grammar:** two-to-four equal lanes; one repeated comparison schema; clear categorical separation; shared conclusion or decision rule; one shared row schema; minimal decorative imagery; visible shared conclusion
-
-**Use when:** - The opportunity contains a small set of concepts that readers confuse.
-- Each concept is genuinely comparable on the same decision-relevant questions.
-- The payoff is a clearer boundary, choice, owner or escalation.
-- The chosen opportunity contains a small set of terms readers mistake for one another.
+**Use when:** - The chosen opportunity contains a small set of terms readers mistake for one another.
 - Each term can be compared fairly on the same decision-relevant schema.
 - The payoff is a clearer boundary, owner, choice or escalation.
+- The already selected reader moment genuinely benefits from an original comparison rather than a generic list.
+- The spatial relationship or sequence can make the intended response clearer at a glance.
+- The visual can carry a truthful promise without needing unsupported outcome claims.
 
-**Do not use when:** - The idea needs a chronological causal story.
-- The categories are not comparable.
-- The value depends on emotional recognition rather than precision.
-- The core value depends on a chronological causal story.
+**Do not use when:** - The core value depends on a chronological causal story.
 - The concepts are not genuinely comparable.
 - The post requires rich emotional recognition rather than precision.
+- The spatial relationship does not improve comprehension, recognition or practical use.
+- A short text post or simpler visual would communicate the value more clearly.
+- The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved.
 
-**Transferable atoms:** - Number + when-to-use + visual proof
-- name the conflation
-- answer the same questions for each concept
-- Same questions answered across people
-- Start with three terms readers casually conflate.
+**Transferable atoms:** - Start with three terms readers casually conflate.
 - Force each term through the same decision schema.
 - Use the final shared section to expose the failure at the hand-off, not within an individual function.
 - Let the caption provide a lived scenario the comparison itself cannot show.
-- Equal columns make categories legible
-- Diagnostic comparison with criteria bridge
-- Equal columns with one shared schema enable choice
-- Rows are useful when criteria columns answer the decision
-- One chart per method plus the best-use condition
+- For a large process guide, number sections and use each section's form to match its purpose: comparison for good/bad, schedule for timing, list for measurement. Use repeated headers to allow entry anywhere. Avoid a long process if the content is actually a collection of independent principles.
+- For a broad playbook, use a small collection of modules whose diagram form matches the idea: a funnel for audience stages, a clock for time allocation, a table for format choice, a flow for lead capture. Hold the page together with one stable headline and deliberately distinct colour zones.
+- When a framework has prerequisites, locate the starting condition physically at the centre and make later layers radiate outward. Use an environmental scene only if it reinforces the work context. Give the reader a directional cue rather than assuming concentric rings alone explain priority.
+- Divide a repeatable content system by genuinely different roles, then let each role contain reusable prompts. Use high density only when every cell is independently selectable. Animate an attention path or state change, not the explanatory text itself.
+- For a system-design post, juxtapose user-facing capabilities with the governing configuration that creates them. Use a code-like or document-like artifact only when it represents a real editable object, and make guardrails as visible as benefits.
+- When several comparable options each have one primary variable, use a uniform metric-card system and reserve extreme type for the actual choice variable. Keep source information visible and distinguish observed data from recommendations.
+- When a system has dependent layers, use a strict spatial stack and repeat one question per layer. Place exceptions or contrast panels to the side so they inform the core flow without breaking it. Use an outcome loop only after the system is clear.
+- Use an inspectable product object as the centre of a benefit constellation; give every satellite one named job; separate what exists from the results it may support.
+- Pair each option with the same miniature visual proof; repeat method, rule, and best-use schema; make decision condition more prominent than formula detail.
 
-**Reference records:** TOP100-001, TOP100-007, TOP100-013, TOP100-024, TOP100-033, TOP100-073, TOP100-090, TOP100-096
+**Reference records:** TOP100-013, TOP100-016, TOP100-023, TOP100-026, TOP100-027, TOP100-038, TOP100-043, TOP100-046, TOP100-060, TOP100-096
 
-### data_landscape (6)
+### maturity (7)
 
-**Cognitive job:** Compress a broad landscape of people, companies, tools or signals into a navigable overview.
+**Cognitive job:** Make the inspected reader payoff actionable: A visually memorable maturity conversation starter with a clearly ordered framework; its claims and prescribed levels need independent validation before use as advice. / Make the inspected reader payoff actionable: A meeting-ready diagnostic comparison that lets a reader name which operating behaviour is currently visible. / Make the inspected reader payoff actionable: A stage-based operating model that differentiates early consistency from later conversion and revenue questions. / Make the inspected reader payoff actionable: A visual map of an upgrade path from a simplistic formula to policy choices informed by forecast uncertainty. / Make the inspected reader payoff actionable: A strategic conversation map that moves from problem discovery through use cases, 90-day plan, and outcome areas without starting from technology alone. / Make the inspected reader payoff actionable: A visually memorable checklist-like progression from chat to cowork, skills/plugins, and code/computer. / Make the inspected reader payoff actionable: A compact vocabulary for separating response generation, programmed automation, and goal-directed execution.
 
-**Reader states:** market opacity; choice overload; need for orientation at scale
+**Reader states:** A procurement or transformation leader needs a simple way to discuss whether AI ambition is ahead of operational readiness.; A planning team needs language to distinguish reactive S&OP habits from more deliberate ways of working.; A new LinkedIn creator wants to know which behaviours and metrics should change as an audience grows.; A planner needs to explain why a familiar safety-stock formula may be too coarse for a more forecast-aware decision.; A procurement leader wants to turn AI ambition into a sequenced discussion of opportunity, advantage, plan, measurement, and a shared purpose.; An AI user feels stuck in chat and wants to see what additional capabilities or setup habits could change their work.; A reader knows chat tools and automation tools but cannot articulate what changes when an agent is given a goal rather than a fixed workflow.
 
-**Visual grammar:** category groups; repeated entries; one shared legend or hierarchy; visible scope and provenance
+**Visual grammar:** Tall parchment-toned poster: oversized editorial title across the top, central five-step 3D pyramid, quotation box at upper left, explanatory note at upper right, and five compact action boxes along the lower third.; A central symmetric hierarchy floats in a field of off-white texture. Auxiliary content fills the left, right and lower margins without challenging the pyramid's dominance.; The shrinking stacked form encodes progression and dependency: readers understand the base-to-tip relation before they parse the language.; Full-height two-column comparison: an orange left lane and ochre right lane flank a wide dark charcoal central spine that carries seven category labels.; A symmetrical matrix with rows aligned precisely across both columns. The central spine absorbs the labels so the two outer lanes can devote full width to the contrast.; The shared spine proves that both sides are being judged against identical operating dimensions, making the side-by-side contrast feel like a diagnosis rather than a list.; Cream portrait poster with a large highlighted serif headline, four stacked rounded stage bands in purple/pink/mint/grey tints, and a bottom tracking table.; A vertical maturity ladder rendered as four wide horizontal containers, each with columns for content, engagement and an outcome message.; A self-identification ladder lets the reader locate their current state before consuming recommendations intended for that state.; Wide horizontal white canvas: large title above a single five-node maturity rail, with a faded bell curve at left and rising bar chart at right.; A single ordered axis organizes five evenly spaced rounded cards; generous white margin stops technical notation becoming visually oppressive.; A maturity rail makes a technical replacement argument legible as successive capability states rather than an unstructured equation dump.; Tall white strategy canvas with a dark headline, two large upper quadrants, two lower quadrants, and a large outlined central circle overlapping all four fields.; A precise four-quadrant board around a centre circle; each quadrant uses a lightly tinted rounded rectangle and holds a different mix of prompts, lists, and metrics.; The central north-star circle turns four potentially disconnected strategy workstreams into parts of one stated purpose and success definition.; Tall warm-toned tier diagram: a tapered terracotta structure is split into four large horizontal levels, with white action rows inside and a start-here marker at right.; One central tapered vertical structure holds all detail; levels expand in width down the page while annotations sit outside its perimeter.; The physical slope and widening tiers imply a progression from easy surface use to broader, more powerful operational access.; Tall two-column maturity explainer: three stacked level rows on the right and three large diagonal blue tool panels on the left.; A fixed three-row repeated structure shares a horizontal baseline with unequal left polygons, keeping the progression readable despite high copy volume.; The visual proves that the three labels differ by operational responsibility: tool examples are physically grouped beside each stage, while the repeated limitation line prevents the ladder from reading as simple hype.
 
-**Use when:** - The collection has a defensible scope and grouping logic.
-- The reader gains orientation from seeing the landscape together.
-- Sources, dates and exclusions can be named.
+**Use when:** - The already selected reader moment genuinely benefits from an original maturity rather than a generic list.
+- The spatial relationship or sequence can make the intended response clearer at a glance.
+- The visual can carry a truthful promise without needing unsupported outcome claims.
 
-**Do not use when:** - The map creates an implied ranking without evidence.
-- Entries are incomplete but presented as exhaustive.
-- The reader needs a focused decision rather than an overview.
+**Do not use when:** - The spatial relationship does not improve comprehension, recognition or practical use.
+- A short text post or simpler visual would communicate the value more clearly.
+- The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved.
 
-**Transferable atoms:** - One central numerical anchor with scannable tiles
-- state scope and selection rule
-- group the landscape
-- Selection itself is a useful product
-- Evidence screenshot can validate a lesson
-- Market landscape turns tools into strategic categories
-- Comparison card: automation vs human work must be visible together
-- A network map gives scale and relationship intuition
+**Transferable atoms:** - Use a spatial hierarchy when the relationship genuinely is dependency or sequence. Add a separate action zone only after the hierarchy is clear. Let colour separate levels but preserve a single reading direction.
+- Use a comparison only when both sides answer the same categories. Let a central spine hold the shared dimensions so neither side has to repeat labels. Make the contrast a behavioural difference rather than a vague good-versus-bad adjective.
+- For a time or maturity progression, use horizontal stage bands with a stable internal grammar: activities, a behavioural message and a metric. Make the stage boundary—not the end-state number—the core navigation device.
+- Place a technical progression on a clearly directional rail. Make each state independently legible with one formula or method, one descriptor and a bounded status. Use a visible endpoint only when the relationship is genuinely ordered.
+- Use a central north-star object to bind four related strategic questions; make each quadrant contribute a different decision job; balance ambition with a visible measurement/operationalisation path.
+- Use a spatial hierarchy when access or capability grows by level; put a reader start marker outside the structure; keep one action row per step.
+- Use a small ordered set with a distinct rule and limitation per level; let familiar artefacts prove the category; use a repeated progression rather than a generic feature list.
 
-**Reference records:** TOP100-043, TOP100-055, TOP100-058, TOP100-084, TOP100-087, TOP100-092
+**Reference records:** TOP100-029, TOP100-033, TOP100-045, TOP100-059, TOP100-067, TOP100-091, TOP100-100
 
-### metaphor (6)
+### taxonomy (6)
 
-**Cognitive job:** Make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy. / Create benign self-recognition that makes a shared work tension socially discussable.
+**Cognitive job:** Make the inspected reader payoff actionable: A visually indexed bank of hook forms, language categories and formatting prompts; headline and performance claims should not be treated as established facts without source checks. / Make the inspected reader payoff actionable: A compact browsing directory organised by the work outcome an integration supports, rather than a raw logo dump. / Make the inspected reader payoff actionable: An at-a-glance branching route from task characteristics to an intended tool/mode, with examples near each decision. / Make the inspected reader payoff actionable: A broad feature-to-procurement-workflow reference that names setup, skill, context, integration, data, and automation components. / Make the inspected reader payoff actionable: A category-led inventory of visible vendors, with short category descriptions and a compact foundation layer. / Make the inspected reader payoff actionable: A single-screen acronym catalogue organised by colour-coded domain labels.
 
-**Reader states:** need for recognition; abstract tension; social friction around naming a pattern; role identity; shared frustration; need for social permission; desire to feel seen
+**Reader states:** A writer is trying to turn a vague need for a stronger opening into concrete options while drafting a LinkedIn post.; A practitioner is looking for integrations but does not know which adjacent systems could connect to a chosen AI environment.; A procurement practitioner is unsure which AI model or working mode fits a quick communication task, deeper analysis or a file-based workflow.; A procurement practitioner wants to move from using chat for isolated questions to designing repeatable, data-aware work with defined controls.; A procurement or supply-chain transformation reader needs a quick landscape scan before deciding which platform category deserves deeper research.; A practitioner sees unfamiliar acronyms across planning, logistics, and procurement and wants a quick onboarding glossary rather than a long article.
 
-**Visual grammar:** one unexpected metaphor; strong visual object or scene; small reveal units; emotionally legible contrast; one surprising metaphor; five-to-seven repeated identity reveals; semantic character/object imagery; low cognitive load per row
+**Visual grammar:** Tall pale-blue sheet with a monumental serif headline, yellow word highlights and four wide rounded pastel sections stacked vertically; the final lavender section contains a 3-by-3 template grid.; A strict vertical chapter stack. Each section uses a different local grid suited to its contents: five columns for categories, three columns for rules and a nine-cell array for templates.; The chapter system makes a broad craft skill decomposable: concept, vocabulary, format and reusable starting structures appear as different forms of help.; Tall white directory with a two-line navy headline, nine rounded category containers of different sizes, rows of app logo tiles, and a full-width dark-navy three-step footer.; A modular grid that varies block width according to category size while maintaining common inner spacing. The first category spans the full width, then later categories form two- and three-column bands.; Categorical grouping tames a long inventory: colour, label and logos cooperate to make a reader find an app by functional destination.; Tall black poster with a centred two-question branching tree; light question cards sit above multiple orange/green action cards and a warm branded footer.; A hierarchical tree with white connectors; lower cards form a staggered reference grid rather than a uniform list.; The visible branching logic prevents a complex tool-selection question from becoming a flat list of options.; Tall cream operating map with a warm orange title masthead, five-dot legend, three stacked rows of rounded procurement-capability cards, dotted connector paths, and a dark conclusion band.; A highly regular multi-column card grid with rounded blocks, arranged as an operating system rather than chronological steps. Dotted braces connect related capability tiers.; Domain-specific examples inside each capability card turn generic product features into procurement work possibilities, while the grouping/legend makes the many cards feel like one system.; Tall market-map catalogue with a navy masthead, ten horizontal coloured category rows, each with a large left category label and a right run of white vendor logo cards.; Highly regular list-grid: one narrow category column and a flexible horizontal card row, repeated vertically with pale background banding.; The repeated category-to-vendor structure turns an unbounded platform market into a spatially searchable index.; Tall catalogue poster: black title masthead and legend above a dense six-column grid of sixty-five white micro-cards.; Uniform six-column grid with consistent tile dimensions and a small grey card shadow, designed for non-linear lookup rather than a narrative route.; The tile grid makes each term independently findable, while repeated colour tabs encode category without needing a chart or paragraph.
 
-**Use when:** - A real lived pattern can be made clearer without losing nuance.
-- The desired response is recognition or intrigue before instruction.
-- The metaphor is kind, original and culturally safe.
-- The chosen opportunity contains a widely recognisable but low-stakes human pattern.
-- A metaphor can add warmth without erasing important nuance.
-- The desired response is recognition, participation or discussion before instruction.
+**Use when:** - The already selected reader moment genuinely benefits from an original taxonomy rather than a generic list.
+- The spatial relationship or sequence can make the intended response clearer at a glance.
+- The visual can carry a truthful promise without needing unsupported outcome claims.
 
-**Do not use when:** - The post carries high-stakes factual, technical or sensitive criticism.
-- The metaphor stereotypes people or minimises harm.
-- The reader requires a precise procedure.
-- The content needs technical precision, a sensitive critique or a substantiated outcome claim.
-- The metaphor would stereotype, humiliate or simplify a real power imbalance.
-- The reader requires a step-by-step action rather than social recognition.
+**Do not use when:** - The spatial relationship does not improve comprehension, recognition or practical use.
+- A short text post or simpler visual would communicate the value more clearly.
+- The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved.
 
-**Transferable atoms:** - Place a framework inside a lived environment
-- surprising premise
-- recognisable truth
-- Metaphor first, then three applied contexts
-- Start with stereotype, reveal true complexity
-- Physical metaphor can carry a sharp thesis
-- Use an unexpected but readable metaphor for a real work identity.
-- Make every row reveal one recognisable behavioural truth.
-- Keep criticism affectionate and specific enough to prompt tagging.
-- Use the caption for community participation, not for repeating the visual.
-- Challenge a received idea with an unexpected analogy
+**Transferable atoms:** - For a practical writing guide, group inputs by the action they influence and make the final template inventory separately scannable. Use a clear numerical index across sections. Pair conceptual types with concrete examples, but do not use formulaic language as proof of guaranteed outcomes.
+- For a tool directory, group items by the job they enable and give each group a concrete one-line outcome. Use recognisable marks as retrieval anchors but do not let logos replace the organizing logic. End with the smallest viable start path.
+- Use a decision tree only when two or three observable conditions can route the reader to genuinely different next actions. Pair each leaf with concrete examples. Make branch labels visually unmissable and keep the decision questions above the options.
+- Make a generic capability space role-specific through real work objects; use grouped cards and a legend to separate setup levels; give an end-state contrast that expresses the operating shift.
+- Use a clear category rail and repeated logo cards for a true landscape; make the stated scope and date visible; separate high-level layers from point solutions.
+- Make a collection visibly bounded; use a repeated micro-card with one quick answer; use colour as a retrieval cue, not decoration.
 
-**Reference records:** TOP100-026, TOP100-031, TOP100-035, TOP100-044, TOP100-064, TOP100-066
+**Reference records:** TOP100-009, TOP100-017, TOP100-054, TOP100-070, TOP100-084, TOP100-094
 
-### product_proof (4)
+### before_after (5)
 
-**Cognitive job:** Make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value.
+**Cognitive job:** Make the inspected reader payoff actionable: A dense, task-specific reference that combines a contrast in workflow with prompt starters for several named methods. / Make the inspected reader payoff actionable: A structured ten-move route covering workspace, file system, documents, prompts, workflows and iteration. / Make the inspected reader payoff actionable: A broad self-assessment with symptoms, desired business experience, behaviour shifts, language shifts, metrics and a final checklist. / Turn an invisible failure into an observable before/after so a reader can locate the intervention. / Make the inspected reader payoff actionable: A visual prompt for comparing possible organisational responsibilities across small, medium, and large company contexts.
 
-**Reader states:** uncertain value; need to see what exists; desire for a practical shortcut
+**Reader states:** An industrial engineer spends hours creating or analysing recurring artifacts such as a VSM, FMEA, root-cause analysis, SOP or OEE calculation.; A procurement professional wants an ordered starting plan for setting up an AI-supported way of working rather than isolated prompts.; A procurement team feels it is viewed as an order-processing function and needs to diagnose the evidence, language and measures that reinforce that perception.; invisible waste; abstract debate; friction without a shared picture; need for action; A supply-chain leader is trying to imagine how roles and reporting lines might change as AI capability is introduced, without assuming every human function disappears.
 
-**Visual grammar:** central tangible object/interface; benefit modules pointing inward or outward; clear contents and use outcomes; one direct action
+**Visual grammar:** Cream editorial page: brand line and centred italic tension at top; a wide red-header comparison table; a dense lower half of eight labelled prompt rows; author/footer strip.; Strong horizontal rules turn the poster into a structured worksheet; two columns become a single full-width list after the comparison.; A true task-by-task before/after creates credibility, while the prompt inventory converts the concept into a saveable working sheet.; Tall navy poster with a huge headline band above ten numbered cells arranged in five horizontal rows of two, plus a branded orange footer.; A tightly ruled two-column roadmap; each row contains an unequal amount of text but consistent number/title/icon placement.; A numbered operating roadmap converts a large AI-adoption topic into a sequence of visible work artifacts and habits.; Dense blue-and-white poster: a full-width headline, then a 3-column top diagnostic row, a mid-page stop/go and speech-bubble comparison, and lower metric/checklist panels.; Bordered newspaper-like grid with unequal modules: broad three-column diagnosis above tightly packed two-column transformation and checklist sections.; A multiple-contrast transformation board lets the reader find evidence of both the current perception and the desired operating posture.; one shared scene or process; visibly bad state; visibly changed state; one meaning-bearing contrast system; method and evidence after the reveal; Deep-blue vertical org-chart board split into Before AI at left and After AI at right, with three horizontal sections for small, medium, and large companies.; A stable two-column comparison repeated across three context bands, with white reporting lines on a dark field and yellow connectors showing transformation.; Side-by-side reporting structures make roles that stay, consolidate, or emerge visible as changed positions rather than abstract AI rhetoric.
 
-**Use when:** - A real artifact, interface, toolkit or workflow exists.
-- The image can truthfully show what the reader receives or does.
-- The offer has a clear practical use.
-
-**Do not use when:** - There is no real usable object.
-- The product image is a substitute for proof.
-- The post uses a forced CTA before giving standalone value.
-
-**Transferable atoms:** - Tangible object as the centre of a value map
-- name the object
-- show what it contains
-- Product has a clearer story when benefits point inward
-- Limited set, strong outcome, central product
-- Product-led card design with named benefits
-
-**Reference records:** TOP100-004, TOP100-060, TOP100-062, TOP100-093
-
-### before_after (2)
-
-**Cognitive job:** Turn an invisible failure into an observable transformation so the reader can locate the intervention. / Turn an invisible failure into an observable before/after so a reader can locate the intervention.
-
-**Reader states:** hidden waste; abstract debate; need for a shared picture before action; invisible waste; friction without a shared picture; need for action
-
-**Visual grammar:** same system shown twice; clear current and changed state; one meaning-bearing contrast system; supporting method after the reveal; one shared scene or process; visibly bad state; visibly changed state; method and evidence after the reveal
-
-**Use when:** - There is a real or explicitly illustrative before/after state.
-- The change can be shown without inventing an outcome.
-- The reader needs to see where an intervention happens.
+**Use when:** - The already selected reader moment genuinely benefits from an original before after rather than a generic list.
+- The spatial relationship or sequence can make the intended response clearer at a glance.
+- The visual can carry a truthful promise without needing unsupported outcome claims.
 - The chosen opportunity has a real or clearly labelled illustrative current state and a credible changed state.
 - The failure can be shown spatially, temporally or as a visible flow.
 - The reader needs to see where to intervene, not just learn a definition.
 
-**Do not use when:** - No defensible state change exists.
-- The outcome would be fabricated or causal claims overstated.
-- A distinction or definition is the actual reader need.
+**Do not use when:** - The spatial relationship does not improve comprehension, recognition or practical use.
+- A short text post or simpler visual would communicate the value more clearly.
+- The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved.
 - There is no defensible before/after or no meaningful intervention.
 - The narrative is speculative but presented as a real outcome.
 - The chosen value is a simple concept distinction rather than visible change.
 
-**Transferable atoms:** - Show what to stop measuring, then what matters
-- show the current reality
-- show the changed state
+**Transferable atoms:** - Start a how-to with a contrast between an existing task and a changed workflow. Name the real work artifacts. Place directly usable examples below the proof, so the reader can save one visual for both orientation and execution.
+- Use an ordered roadmap when prerequisites matter. Combine a large sequence number with one task headline and a small concrete output, keeping the same visual slot across steps.
+- For a complex maturity/identity change, turn each claim into a visible contrast: cross/check, stop/go, old/new language or old/new metric. Use section numbers as a retrieval map, not just decoration.
 - Make an invisible operational failure physically visible before explaining it.
 - Use a true before/after with a shared scene so the reader can see what changed.
 - Treat evidence and method as support for a visual discovery, not as the opening hook.
 - End with the human change mechanism: what seeing the process makes possible.
+- Use a paired before/after grammar for a concrete structural contrast; scale the same question across different operating contexts; use connector lines to show reporting or coordination changes.
 
-**Reference records:** TOP100-032, TOP100-065
+**Reference records:** TOP100-047, TOP100-052, TOP100-056, TOP100-065, TOP100-085
+
+### structured_explainer (5)
+
+**Cognitive job:** Make the inspected reader payoff actionable: A dense discovery matrix that translates broad AI interest into named procurement work patterns, subject to review of its stated prompts and outcomes. / Make the inspected reader payoff actionable: A clear conceptual map of how publishing inputs could connect to content-attribution outputs and inform future topic choices. / Make the inspected reader payoff actionable: A memorable way to open a discussion about whether the constraint is foundational system logic rather than planner capability. / Make the inspected reader payoff actionable: A grouped index of visible T-codes across customer, vendor, sales, delivery, billing, pricing, master-data, and reporting tasks. / Make the inspected reader payoff actionable: A broad planning primer that links demand pattern, method, KPIs, risks, and decision consequences in one scrollable board.
+
+**Reader states:** A procurement practitioner needs specific, bounded ways to turn an AI discussion into a possible task, input and output.; A B2B creator or marketer wants to know which content is influencing pipeline rather than stopping at impressions and reactions.; A planning team keeps adding forecasting or AI layers while the foundational planning logic remains a source of recurring friction.; An SAP user needs to recall a transaction code during a practical task and values a printable/saveable reference more than an explanation of the whole module.; A planner has to translate noisy demand into a model, inventory position, and service decision rather than treating forecast accuracy as the only goal.
+
+**Visual grammar:** Very tall white portrait matrix: a large navy title above a five-column table with a dark navy header row, twenty ruled rows, and a black-and-gold branded footer.; A strict spreadsheet-like grid of five unequal columns. Wide prompt/input/outcome columns accommodate detailed prose, while the narrow use-case column supports scanning.; The repeated input-to-outcome row structure makes each AI idea feel operationally bounded instead of generic; table form itself supplies credibility and retrieval.; Tall white dotted-grid canvas: title and premise at top; a top-half system flow with five content-tool logos converging to LinkedIn and Sociale​ads.io; a large dashboard/product view fills the lower half; a final feedback instruction sits at the bottom.; A top-to-bottom service-blueprint diagram: input tools → distribution/tracking integration → analytical interface → feedback instruction, with looping arrows returning upward.; A visible closed loop makes the abstract assertion ‘engagement is not business impact’ easier to grasp as a measurable systems problem.; Centred vertical monument: four offset 3D blocks stack from a large cracked grey base to a small turquoise cap; a large two-line conclusion anchors the lower third.; Tall single-column poster with generous negative blue space around the object, no panels or dense reference material.; A spatial stack makes a dependency relationship literal: an unstable base cannot reliably support upgrades.; Tall pale-blue cheat sheet with title/introduction panel above a five-by-three matrix of coloured rounded domain cards, each holding bullet-style code/action rows.; Three equal columns with five stacked domain cards; dotted side connectors imply a process/knowledge path but do not carry essential meaning.; Repeated code/action rows convert a broad ERP module into a field reference where the desired answer is an individual command.; Tall multi-module planning poster with an illustrated hero, four equal demand-type cards, a method table, a business-impact panel, KPI cards, common-failure cards, and a bottom process ribbon.; A vertical magazine grid with a wide hero zone followed by alternating two- and four-column modules; internal rounded cards create clear local chunks.; The four demand patterns provide a visible bridge between abstract forecasting language and different operational responses; the rest of the board expands that decision logic.
+
+**Use when:** - The already selected reader moment genuinely benefits from an original structured explainer rather than a generic list.
+- The spatial relationship or sequence can make the intended response clearer at a glance.
+- The visual can carry a truthful promise without needing unsupported outcome claims.
+
+**Do not use when:** - The spatial relationship does not improve comprehension, recognition or practical use.
+- A short text post or simpler visual would communicate the value more clearly.
+- The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved.
+
+**Transferable atoms:** - When presenting many use cases, choose a fixed schema that includes the actual input and expected output rather than only a benefit. Make the first column a scan index. Use density only when a reader can extract a row without needing the entire table.
+- To make a multi-tool workflow understandable, show inputs converging into one system, expose the output view, and explicitly close the loop back to the next decision. Label integrations and sources as conceptual unless the implementation is verified.
+- Use a single physical object whose failure propagates through every layer. Make the operational thesis readable in the object before explaining it. Reserve the smallest layer for the fashionable solution so the hierarchy itself carries the critique.
+- Use task-domain grouping for a lookup artefact; distinguish domain blocks with colour; keep each row in a consistent code
+- action schema; design for return rather than feed-speed reading.
+- Open with the three questions that organize the entire subject; convert variation types into visually distinct cards; connect abstract measures to an operational consequence.
+
+**Reference records:** TOP100-022, TOP100-040, TOP100-044, TOP100-081, TOP100-089
+
+### system_map (4)
+
+**Cognitive job:** Make the inspected reader payoff actionable: A dense, domain-by-domain starter map for discussing ERP operating areas; its detailed advice needs independent validation before use in a real implementation. / Make the inspected reader payoff actionable: A one-page orientation sheet pairing a central systems map with a practical action list; framework accuracy and adaptation need their own sources. / Make the inspected reader payoff actionable: A compact map from four recognizable applications to possible procurement tasks and prompt examples; the individual capabilities need current verification. / Make the inspected reader payoff actionable: A spatial overview that links parent companies, familiar labels, and headline scale claims in one frame.
+
+**Reader states:** A manufacturing practitioner needs a broad orientation to how production planning, inventory, procurement, execution, cost and visibility connect inside an ERP environment.; A manager needs a compact way to recall the parts of an organisational design framework and discuss their relationships.; A procurement practitioner wants role-specific starting points for a general AI assistant, but needs a quick way to relate tools to recognised work surfaces.; A reader senses that consumer brands are less independent than they look and wants a fast mental picture of concentrated ownership.
+
+**Visual grammar:** Tall white poster with a huge black-and-blue title, four small top advice cards, a central large blue ERP device, six dark-blue rounded domain nodes in a ring, and twenty-four smaller advice cards arranged around the perimeter.; A radial system diagram combines central hub, six satellite labels and perimeter advice cards. Orthogonal blue connectors run from cards into the relevant node and back to the central hub.; A hub-and-spoke topology makes cross-functional ERP scope visible, while the same four prompts repeated at each domain establish a usable local reading contract.; Tall warm-white poster with a large serif title, a bordered upper relationship diagram containing seven coloured nodes around a central rounded Shared Values box, and a blue-bordered six-tip lower section.; A symmetric radial relationship graphic sits in the upper two-thirds, with ample margin around outer labels. A rigid two-column list below shifts to a procedural reading mode.; The graph's many crossing lines encode mutual relationship, while the central shared-value box visually stabilises the composition as a hub.; Tall white sheet: two-line black/coral headline at top, a cropped circular Copilot hub at far left, four vertically stacked Microsoft application icons in the left-middle, and four large matching bordered detail cards on the right.; Asymmetrical left-to-right system diagram: recognizable tools stack on the left while larger text cards stack on the right, with generous white space between them for moving connectors.; The animation draws a relationship that could otherwise be missed in an asymmetric layout: each application is visibly attached to exactly one procurement use-case card.; Dark radial relationship map with BIG ALCOHOL at the centre, twelve coloured parent-company hubs around it, and smaller branded circles orbiting each parent.; A hub-and-spoke radial network arranged by visual balance rather than a chronological route; each cluster is self-contained but connected to a common centre.; The topology makes concentration visible: many peripheral brands physically collapse into a few large parent hubs, so the relationship itself carries the claim.
+
+**Use when:** - The already selected reader moment genuinely benefits from an original system map rather than a generic list.
+- The spatial relationship or sequence can make the intended response clearer at a glance.
+- The visual can carry a truthful promise without needing unsupported outcome claims.
+
+**Do not use when:** - The spatial relationship does not improve comprehension, recognition or practical use.
+- A short text post or simpler visual would communicate the value more clearly.
+- The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved.
+
+**Transferable atoms:** - For a multi-domain operating system, give each domain the same question set and make the central shared system visibly connect to all of them. Use an animated transition only if it emphasises the map or route; final static legibility must be complete. Keep technical connectors disciplined enough to be traced.
+- Use a relationship graph when dependencies matter more than rank. Put the shared or integrating element at the centre, but do not let the central object obscure the other nodes. Separate the overview diagram from the action list so the reader knows which layer is conceptual and which is procedural.
+- When mapping one platform to several role-specific workflows, use familiar entry objects and pair each with one clear information card. Animate only the connections so the static end frame remains a usable reference. Match connector colour to its destination rather than rely on spatial proximity alone.
+- Use a hub-and-spoke map when ownership or dependency is the subject; make recognisable leaf nodes do the curiosity work; let macro facts frame rather than replace the relationship diagram.
+
+**Reference records:** TOP100-002, TOP100-018, TOP100-020, TOP100-092
+
+### field_guide (3)
+
+**Cognitive job:** Make the inspected reader payoff actionable: Five compact prompts for a more realistic AI implementation conversation, framed as patterns rather than laws in the footer. / Make the inspected reader payoff actionable: A one-screen reference that enables fast retrieval of one rule at a time rather than a long linear tutorial. / Make the inspected reader payoff actionable: A compact inventory-control reference covering protection, triggers, coverage, segmentation, trade-offs, KPIs, mistakes, and routines.
+
+**Reader states:** A supply-chain leader is reconciling expectations of agentic AI with repetitive decisions, data quality, deployment effort and changing roles.; A creator wants a compact checklist of choices across formats, hooks, cadence, engagement and profile behaviour.; A supply-chain practitioner needs to turn scattered inventory concepts into a recurring weekly, monthly, per-order, and quarterly operating rhythm.
+
+**Visual grammar:** Tall white poster: headline and robot/director dashboard vignette at top, five full-width rounded horizontal sections, then a blue question footer.; Five rounded pale-blue bands with a left-to-right relationship between a numbered visual, written claim and secondary proof visual.; A finite, numbered checklist turns an ambiguous technology topic into five inspectable implementation conditions.; Charcoal poster with a large central title tile surrounded by twelve equally styled rounded rectangles in a near-grid.; A modular 4-column-like field with the title occupying the central large tile and independent advice tiles around it.; A central index plus surrounding modules makes a dense checklist feel like a reference board rather than an article.; Tall nine-plus-module poster: dark navy hero with warehouse imagery and a three-circle balance diagram, followed by a dense grid of numbered rounded panels and a navy conclusion ribbon.; A card-heavy 3-column vertical grid with occasional wide horizontal bands; numbering supplies navigation where reading order could otherwise be ambiguous.; The balance Venn makes the central trade-off visible, while numbered cards let a reader treat the poster as an inventory-control checklist.
+
+**Use when:** - The already selected reader moment genuinely benefits from an original field guide rather than a generic list.
+- The spatial relationship or sequence can make the intended response clearer at a glance.
+- The visual can carry a truthful promise without needing unsupported outcome claims.
+
+**Do not use when:** - The spatial relationship does not improve comprehension, recognition or practical use.
+- A short text post or simpler visual would communicate the value more clearly.
+- The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved.
+
+**Transferable atoms:** - Use a numbered series when the reader needs to orient across several distinct considerations. Give each claim a different small visual proof, not a repeated icon. State a visible scope boundary when the observations are non-universal.
+- A hub-and-surround grid works when the content consists of independently useful rules. Give each tile a consistent positive/negative pair so a reader can scan, save and return non-linearly.
+- Use an explicit trade-off diagram at the top; number modules to make a complex reference navigable; couple formulas with a decision use and a recurring review moment.
+
+**Reference records:** TOP100-051, TOP100-057, TOP100-082
 
 ### collection (2)
 
-**Cognitive job:** Signal depth and create a return path by packaging a body of related work as one visible collection.
+**Cognitive job:** Make the inspected reader payoff actionable: A browsable index of distinct decision-making frameworks where each has an explicit stated use condition and example; individual models and examples require independent validation. / Make the inspected reader payoff actionable: A browsable visual library that aids recall and gives multiple entry points; individual framework claims need their own source checking.
 
-**Reader states:** desire for a trusted starting point; need to see breadth before committing attention
+**Reader states:** A leader needs a way to choose a decision tool based on urgency, reversibility, group involvement, uncertainty or time horizon.; A strategy practitioner wants a compact index of common planning frameworks instead of a single long article.
 
-**Visual grammar:** collection wall or directory; many small coherent artifacts; clear organising principle; entry point into the archive
+**Visual grammar:** Tall warm-paper poster with a monumental two-line serif headline, then seven numbered framework modules in a varied three-column masonry grid and a full-width blue footer.; A deliberately varied grid: three narrow modules at top, a medium left module, a wide central module, and two large lower modules. All keep a common rounded rectangle and coloured-outline family.; The mosaic makes selection visual: framework names, local diagram shapes and use conditions act together as an index for different decision contexts.; Tall off-white editorial sheet headed by a large serif title, then a dense four-column mosaic of roughly a dozen different strategy mini-diagrams, with a full-width blue download footer.; A deliberately packed magazine-like grid with unequal module sizes. Thin white gutters and colour blocks prevent the sheet from collapsing into an undifferentiated wall.; The mosaic is a catalogue mechanism: visual variety helps a reader locate and remember a framework by shape as well as title.
 
-**Use when:** - There is a real body of related work.
-- The collection itself creates more value than one item alone.
-- The organising principle is clear.
+**Use when:** - The already selected reader moment genuinely benefits from an original collection rather than a generic list.
+- The spatial relationship or sequence can make the intended response clearer at a glance.
+- The visual can carry a truthful promise without needing unsupported outcome claims.
 
-**Do not use when:** - The collection is thin or purely self-promotional.
-- Individual assets do not have standalone value.
-- The reader needs one focused answer now.
+**Do not use when:** - The spatial relationship does not improve comprehension, recognition or practical use.
+- A short text post or simpler visual would communicate the value more clearly.
+- The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved.
 
-**Transferable atoms:** - A body of work can itself be the product
-- show the collection
-- reveal its organising principle
-- Many proof forms arranged as one system
+**Transferable atoms:** - When presenting a set of frameworks, use a different diagram primitive only where it expresses the unique logic of the framework. Give each module a concise use-for condition, then a local example. Make the mosaic a library, not a fake linear process.
+- For a true reference library, use a stable page title and a deliberately varied set of diagram primitives. Give each module enough local completion to be useful but avoid pretending the mosaic is one linear argument. Build a navigable visual index rather than repeating identical cards.
 
-**Reference records:** TOP100-019, TOP100-023
+**Reference records:** TOP100-001, TOP100-019
 
-### taxonomy (1)
+### visual_explainer (2)
 
-**Cognitive job:** Give readers a simple classification system that helps them identify what they are looking at.
+**Cognitive job:** Make the inspected reader payoff actionable: A staged checklist for choosing a high-value problem, validating it, defining an MVP, planning a pilot, learning and scaling with governance. / Make the inspected reader payoff actionable: A productised overview that makes each component feel like a distinct job inside one skills pack.
 
-**Reader states:** vocabulary gap; need to sort options; uncertain categorisation
+**Reader states:** A procurement leader is trying to turn broad AI interest into a narrowly scoped, validated pilot that can gain support and scale responsibly.; A ghostwriter or consultant wants to understand a paid-looking resource quickly enough to decide whether to request it.
 
-**Visual grammar:** repeatable category tiles or branches; clear labels; consistent visual key; small examples or conditions
+**Visual grammar:** Warm off-white poster with large black/brown title, a simple three-node Pain Point→MVP→Value chain, then six colour-bordered rectangular sections arranged in two rows of three, followed by a three-part icon footer.; Balanced six-tile process field with an additional top chain and bottom summary, allowing a reader to alternate between overview and detailed sections.; A staged pilot map gives shape to a fuzzy AI project by separating problem validation, product scope, economic approval, learning and governance.; Black-to-deep-blue product-promo board with a large headline, four corner benefit zones, a central angled box mockup, looping arrows, and a keyword CTA strip.; A four-quadrant information field split by thin rules, with the product object deliberately breaking the centre intersection.; The product object turns five digital skills into a cohesive purchasable system; the surrounding cards explain what the object contains.
 
-**Use when:** - The domain has a stable, useful set of categories.
-- A reader can identify an option using visible criteria.
-- The taxonomy reduces real confusion.
+**Use when:** - The already selected reader moment genuinely benefits from an original visual explainer rather than a generic list.
+- The spatial relationship or sequence can make the intended response clearer at a glance.
+- The visual can carry a truthful promise without needing unsupported outcome claims.
 
-**Do not use when:** - Categories are arbitrary, disputed or need extensive caveats.
-- A process map is needed instead of a classification.
-- The list is presented as complete without a scope boundary.
+**Do not use when:** - The spatial relationship does not improve comprehension, recognition or practical use.
+- A short text post or simpler visual would communicate the value more clearly.
+- The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved.
 
-**Transferable atoms:** - Long vocabulary list gains rhythm from one continuous path
-- name the universe
-- define categories
+**Transferable atoms:** - For an innovation process, use a visible value chain at the top and a set of step panels that each contain one concrete decision, a test/criterion and an anti-pattern. End with a shorter three-part mnemonic that restates the overall discipline.
+- Place the product or artefact at the centre; let surrounding benefit modules point inward; name tangible components rather than vague transformation claims.
 
-**Reference records:** TOP100-098
+**Reference records:** TOP100-034, TOP100-093
+
+### data_landscape (1)
+
+**Cognitive job:** Make the inspected reader payoff actionable: A system-level view that separates workflow scope, ownership layer, and enabling data layer.
+
+**Reader states:** A transformation leader needs a shared architecture vocabulary before debating whether an AI use case belongs to a task, a domain, or a cross-functional layer.
+
+**Visual grammar:** Landscape system architecture board with process steps across the top, a central boxed Agents and tools field, and two full-width foundation bands at the bottom.; A strongly aligned matrix: process columns at top dictate the placement and span of agent boxes below, while foundation bands run full width.; Horizontal span and vertical placement visually separate shared agents, functional agents, and executable tools while connecting them to the underlying process and data foundation.
+
+**Use when:** - The already selected reader moment genuinely benefits from an original data landscape rather than a generic list.
+- The spatial relationship or sequence can make the intended response clearer at a glance.
+- The visual can carry a truthful promise without needing unsupported outcome claims.
+
+**Do not use when:** - The spatial relationship does not improve comprehension, recognition or practical use.
+- A short text post or simpler visual would communicate the value more clearly.
+- The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved.
+
+**Transferable atoms:** - Use aligned horizontal layers to distinguish abstraction levels; keep process context on top and data foundation on bottom; make cross-functional spans visibly longer than local tasks.
+
+**Reference records:** TOP100-095
+
+### metaphor (1)
+
+**Cognitive job:** Create benign self-recognition that makes a shared work tension socially discussable.
+
+**Reader states:** role identity; shared frustration; need for social permission; desire to feel seen
+
+**Visual grammar:** one surprising metaphor; five-to-seven repeated identity reveals; semantic character/object imagery; low cognitive load per row
+
+**Use when:** - The chosen opportunity contains a widely recognisable but low-stakes human pattern.
+- A metaphor can add warmth without erasing important nuance.
+- The desired response is recognition, participation or discussion before instruction.
+
+**Do not use when:** - The content needs technical precision, a sensitive critique or a substantiated outcome claim.
+- The metaphor would stereotype, humiliate or simplify a real power imbalance.
+- The reader requires a step-by-step action rather than social recognition.
+
+**Transferable atoms:** - Use an unexpected but readable metaphor for a real work identity.
+- Make every row reveal one recognisable behavioural truth.
+- Keep criticism affectionate and specific enough to prompt tagging.
+- Use the caption for community participation, not for repeating the visual.
+
+**Reference records:** TOP100-064
 
 ## Non-negotiable boundary
 

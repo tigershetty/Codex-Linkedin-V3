@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 12,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/12.gif",
+    "sha256": "bea18ab3352ef709244a18b842655464f6a382f9d88e0a7abc341c2f1722af4b",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        4000,
+        7600
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A large promise about making a post go “VIRAL” leads with a prominent lavender tag and a short clarification line.",
+    "layout": "Three-column matrix compares empathy, debate, and resource varieties across repeated rows such as behaviour, shelf life, engagement, content, and business effect.",
+    "reading_order": "Promise → three category headers → top-to-bottom comparison rows → colored action pills / closing impact row.",
+    "typography": "Large plain sans with rough display accent, bold category headers, and a dense table of compact labels and numerical annotations.",
+    "colour": "Pink, aqua, and lavender encode the three alternatives through headers, row fills, curves, and decision pills.",
+    "surface": "White, fine black table rules, flat colour fields, softly shadowed pill annotations, and simple line/area chart motifs.",
+    "modules": "Three columns and seven shared row categories; several rows use small chart-like sketches instead of only text.",
+    "density": "Very high: a single visual contains qualitative, time, and numeric comparisons with a fixed reader path."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 200,
+      "duration_ms_from_gce": 8000
+    },
+    "observed_state_change": "Sampled frames show category labels, line/area marks, and pill markers arriving in stages while the row-and-column structure remains stable.",
+    "motion_job": "Progressively expose comparison evidence without changing the outer comparison model.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Understand a multi-criterion distinction between three genuinely different outcomes.",
+    "argument_shape": "Multi-criteria comparison with mixed qualitative and quantitative rows.",
+    "mechanism": "Keep the column logic stable while letting the visual encoding match each row’s semantic type: text, curve, range, or action.",
+    "use_condition": "Use only when numbers are sourced and comparably defined; otherwise keep the visual qualitative and name its boundary."
+  },
+  "anti_copy_boundary": "Do not reuse the source “virality” taxonomy, rates, claims, curves, row labels, colour assignment, pill treatment, or title cadence.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The visible engagement percentages, business outcomes, and format claims lack native provenance in the supplied corpus."
+  }
+}

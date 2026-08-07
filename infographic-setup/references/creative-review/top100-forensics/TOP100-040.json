@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-040",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7462504793379545088, bound to references/top 100/40.jpeg at SHA-256 2ee5a95ba8fa63ed98d94e9af3a2c2b4e6dcb9195cdcdd87dd4333275054a66c.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7462504793379545088; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex direct-asset visual reviewer — Batch B",
+    "reviewed_at": "2026-08-07T15:00:00+02:00",
+    "evidence": "Full-size direct inspection of references/top 100/40.jpeg against the declared SHA-256; observations below describe the actual tool-flow and product-view composition; displayed dashboard figures are source-post visuals, not independently validated evidence."
   },
   "asset": {
     "path": "references/top 100/40.jpeg",
-    "status": "visually_inspected",
+    "sha256": "2ee5a95ba8fa63ed98d94e9af3a2c2b4e6dcb9195cdcdd87dd4333275054a66c",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "2ee5a95ba8fa63ed98d94e9af3a2c2b4e6dcb9195cdcdd87dd4333275054a66c",
+      "reviewer": "Codex direct-asset visual reviewer — Batch B",
+      "reviewed_at": "2026-08-07T15:00:00+02:00",
+      "evidence": "Full-size direct inspection of references/top 100/40.jpeg against the declared SHA-256; observations below describe the actual tool-flow and product-view composition; displayed dashboard figures are source-post visuals, not independently validated evidence. Asset hash: 2ee5a95ba8fa63ed98d94e9af3a2c2b4e6dcb9195cdcdd87dd4333275054a66c."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Aleksandar Radosevic",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7462504793379545088",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "0343bff099d31d8fb1660ab8c3ece321b99ad86e5ff6e220c32cb994e0ae808d",
@@ -34,140 +49,161 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7462504793379545088",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "system opacity",
-      "fragmented ownership",
-      "need to see the whole before acting locally"
-    ],
-    "desired_response": [
-      "save as an orientation reference",
-      "send to a collaborator",
-      "use to explain a system without a long meeting"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A clear conceptual map of how publishing inputs could connect to content-attribution outputs and inform future topic choices.",
+    "work_moment": "A B2B creator or marketer wants to know which content is influencing pipeline rather than stopping at impressions and reactions.",
+    "tension": "Relief from measurement ambiguity and desire for a closer connection between content and revenue.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Post-to-pipeline integration diagram.",
-    "comprehension_3_10_seconds": "The reader follows the central anchor or process spine, labelled nodes/layers/lanes, visible relationship connectors to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
-    "identity_or_curiosity_trigger": "system opacity; fragmented ownership; need to see the whole before acting locally",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Post-to-pipeline integration diagram."
+    "thumbnail_read_0_3_seconds": "0–3s: the large ‘WHY some posts convert better’ title turns a vague content question into a business-outcome promise. 3–10s: a visibly connected tool-flow shows content tools converging into LinkedIn and a lead-tracking system. 10–30s: the lower product dashboard provides a concrete imagined/claimed view of the resulting attribution and feedback loop.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Title → content-tool row → LinkedIn plus tracking logos → highlighted output statement → dashboard panels/right post card → bottom feedback loop.”.",
+    "value_exchange_10_30_seconds": "A clear conceptual map of how publishing inputs could connect to content-attribution outputs and inform future topic choices.",
+    "identity_or_curiosity_trigger": "Relief from measurement ambiguity and desire for a closer connection between content and revenue.",
+    "promise_proved_by_visual": "A visible closed loop makes the abstract assertion ‘engagement is not business impact’ easier to grasp as a measurable systems problem."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Post-to-pipeline integration diagram",
-    "composition_and_grid": "central anchor or process spine; labelled nodes/layers/lanes; visible relationship connectors; bounded visual zones",
-    "dominant_anchor": "Post-to-pipeline integration diagram",
+    "asset_specific_observation": "Tall white dotted-grid canvas: title and premise at top; a top-half system flow with five content-tool logos converging to LinkedIn and Sociale​ads.io; a large dashboard/product view fills the lower half; a final feedback instruction sits at the bottom.",
+    "composition_and_grid": "A top-to-bottom service-blueprint diagram: input tools → distribution/tracking integration → analytical interface → feedback instruction, with looping arrows returning upward.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: Title is dominant; logo flow and large dashboard are second; individual dashboard metrics and sample people/deal rows are close-read.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Title",
+      "content-tool row",
+      "LinkedIn plus tracking logos",
+      "highlighted output statement",
+      "dashboard panels/right post card",
+      "bottom feedback loop."
     ],
     "information_chunks": [
-      "name the system",
-      "show its parts",
-      "reveal relationships",
-      "locate the intervention or decision point"
+      "Question about conversion",
+      "create content in multiple tools",
+      "post/distribute",
+      "connect to tracking layer",
+      "view influenced leads/pipeline/revenue",
+      "feed winning topics back into creation."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Post-to-pipeline integration diagram.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "Title is dominant; logo flow and large dashboard are second; individual dashboard metrics and sample people/deal rows are close-read.",
+    "typography": "Heavy black sans headline, small all-caps workflow label, brand-coloured logo text, underlined key phrases and UI-style small text in the dashboard.",
+    "colour_material_and_contrast": "White dotted-grid background, thin black/grey connectors, brand-coloured logos, orange highlight outlines and a polished white dashboard mockup with soft panel shadows.",
+    "imagery_role": "Actual-style tool logos and product-interface mockups do explanatory work; thin arrows/labeled connectors show systems integration and feedback direction.",
+    "density_and_pacing": "Readers first understand the system topology, then dwell on the evidence-like dashboard detail, then see the return loop that makes it an operating system.",
     "craft_observations": [
-      "Post-to-pipeline integration diagram",
-      "Reusable atom: Tool connections + actual interface as proof",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The lower mockup is intentionally large enough to act as a proof object, even though its numbers must not be treated as verified evidence. Curved return arrows turn a one-way pipeline into a learning loop. The dotted grid supports a technical blueprint feel."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A clear conceptual map of how publishing inputs could connect to content-attribution outputs and inform future topic choices.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "name the system",
-      "show its parts",
-      "reveal relationships",
-      "locate the intervention or decision point"
+      "Question about conversion",
+      "create content in multiple tools",
+      "post/distribute",
+      "connect to tracking layer",
+      "view influenced leads/pipeline/revenue",
+      "feed winning topics back into creation."
     ],
-    "compression_method": "central anchor or process spine; labelled nodes/layers/lanes; visible relationship connectors; bounded visual zones",
-    "reader_payoff": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+    "compression_method": "The reviewed visual mechanism is “A visible closed loop makes the abstract assertion ‘engagement is not business impact’ easier to grasp as a measurable systems problem.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A clear conceptual map of how publishing inputs could connect to content-attribution outputs and inform future topic choices.",
     "save_share_return_motives": [
-      "save as an orientation reference",
-      "send to a collaborator",
-      "use to explain a system without a long meeting"
+      "A system map for discussing measurement architecture and why a post-performance feedback loop matters."
     ],
-    "caption_to_visual_choreography": "Supply the system’s operating consequence, boundary conditions or point of view that a static map cannot prove."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “A visible closed loop makes the abstract assertion ‘engagement is not business impact’ easier to grasp as a measurable systems problem.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+      "mechanism_family": "structured_explainer",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "Question about conversion → create content in multiple tools → post/distribute → connect to tracking layer → view influenced leads/pipeline/revenue → feed winning topics back into creation.",
+          "Tall white dotted-grid canvas: title and premise at top; a top-half system flow with five content-tool logos converging to LinkedIn and Sociale​ads.io; a large dashboard/product view fills the lower half; a final feedback instruction sits at the bottom.",
+          "A top-to-bottom service-blueprint diagram: input tools → distribution/tracking integration → analytical interface → feedback instruction, with looping arrows returning upward.",
+          "A visible closed loop makes the abstract assertion ‘engagement is not business impact’ easier to grasp as a measurable systems problem."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A clear conceptual map of how publishing inputs could connect to content-attribution outputs and inform future topic choices.",
       "reader_state": [
-        "system opacity",
-        "fragmented ownership",
-        "need to see the whole before acting locally"
+        "A B2B creator or marketer wants to know which content is influencing pipeline rather than stopping at impressions and reactions."
       ],
       "visual_grammar": [
-        "central anchor or process spine",
-        "labelled nodes/layers/lanes",
-        "visible relationship connectors",
-        "bounded visual zones"
+        "Tall white dotted-grid canvas: title and premise at top; a top-half system flow with five content-tool logos converging to LinkedIn and Sociale​ads.io; a large dashboard/product view fills the lower half; a final feedback instruction sits at the bottom.",
+        "A top-to-bottom service-blueprint diagram: input tools → distribution/tracking integration → analytical interface → feedback instruction, with looping arrows returning upward.",
+        "A visible closed loop makes the abstract assertion ‘engagement is not business impact’ easier to grasp as a measurable systems problem."
       ],
       "information_grammar": [
-        "name the system",
-        "show its parts",
-        "reveal relationships",
-        "locate the intervention or decision point"
+        "Question about conversion → create content in multiple tools → post/distribute → connect to tracking layer → view influenced leads/pipeline/revenue → feed winning topics back into creation.",
+        "A clear conceptual map of how publishing inputs could connect to content-attribution outputs and inform future topic choices.",
+        "A system map for discussing measurement architecture and why a post-performance feedback loop matters."
       ],
       "social_action_mechanics": [
-        "save as an orientation reference",
-        "send to a collaborator",
-        "use to explain a system without a long meeting"
+        "A system map for discussing measurement architecture and why a post-performance feedback loop matters."
       ],
       "use_when": [
-        "The opportunity is about relationships between components rather than a single list.",
-        "The visual can make a hidden dependency, flow or ownership boundary clearer.",
-        "The reader benefits from an overview before detailed instruction."
+        "The already selected reader moment genuinely benefits from an original structured explainer rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The main reader need is a simple one-step decision.",
-        "Relationships would be invented or speculative.",
-        "A table would communicate the content more clearly."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Tool connections + actual interface as proof",
-      "name the system",
-      "show its parts"
+      "To make a multi-tool workflow understandable, show inputs converging into one system, expose the output view, and explicitly close the loop back to the next decision. Label integrations and sources as conceptual unless the implementation is verified."
     ],
-    "reverse_build_specification": "When a chosen opportunity needs orientation in a complex system, select one visual grammar—spine, hub, layers or lanes—and use it consistently to make relationships legible. Give each node one job and let the caption explain why the relationship matters.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original structured explainer whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: To make a multi-tool workflow understandable, show inputs converging into one system, expose the output view, and explicitly close the loop back to the next decision. Label integrations and sources as conceptual unless the implementation is verified. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Original product/workflow map",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not copy tool logos, product screenshots, fictional customer/lead rows, dashboard figures, the exact flow arrows or any attribution claim without independent proof.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#40",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#40",
     "source_context_id": "top100-workbook#40",
-    "content_hash": "ddbe57a4e1945f7765877c8f8ae55946258e403c6abee7b7ca44ba8b2fbcabe2"
+    "content_hash": "ddbe57a4e1945f7765877c8f8ae55946258e403c6abee7b7ca44ba8b2fbcabe2",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7462504793379545088",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/40.jpeg",
+      "asset_sha256": "2ee5a95ba8fa63ed98d94e9af3a2c2b4e6dcb9195cdcdd87dd4333275054a66c",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

@@ -1,17 +1,27 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-055",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "provisional_template_assisted_candidate",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "mode": "template_assisted_candidate",
+    "generated_at": "2026-08-07T00:00:00.000Z",
+    "visual_basis": "High-level discovery-index labels plus a reusable profile mapping; no record-level manual asset review is attached.",
     "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "boundary": "This candidate is a routing aid for manual review. It cannot establish asset-specific visual mechanics, animation behaviour, factual claims, or a high-confidence creative mechanism.",
+    "reviewer": null,
+    "reviewed_at": null,
+    "evidence": null
   },
   "asset": {
     "path": "references/top 100/55.jpeg",
-    "status": "visually_inspected",
+    "sha256": "03a4f8e54a4ce088696f46e7c82c20f599e0df2d0a37c4ea5494d2d08426fead",
+    "status": "available_for_manual_review",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": null,
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "No manual asset-specific visual review is attached to this generated candidate."
+    ]
   },
   "source_context": {
     "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
@@ -36,138 +46,54 @@
       "Independent validation of factual or numerical claims within the source post."
     ]
   },
-  "reader_situation": {
-    "primary_reader_state": [
+  "template_assisted_hypotheses": {
+    "profile_name": "data_landscape",
+    "source_discovery_index": "top100-visual-inspection-2026-08-05#55",
+    "candidate_visual_mechanism": "Curated creator directory by category",
+    "candidate_transferable_atom": "Selection itself is a useful product",
+    "candidate_anti_copy_boundary": "Creator identities and directory arrangement",
+    "candidate_cognitive_job": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
+    "candidate_reader_states": [
       "market opacity",
       "choice overload",
       "need for orientation at scale"
     ],
-    "desired_response": [
-      "save as a market map",
-      "send to a colleague",
-      "return to compare options"
+    "candidate_visual_grammar": [
+      "category groups",
+      "repeated entries",
+      "one shared legend or hierarchy",
+      "visible scope and provenance"
     ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
-  },
-  "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Curated creator directory by category.",
-    "comprehension_3_10_seconds": "The reader follows the category groups, repeated entries, one shared legend or hierarchy to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
-    "identity_or_curiosity_trigger": "market opacity; choice overload; need for orientation at scale",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Curated creator directory by category."
-  },
-  "visual_forensics": {
-    "asset_specific_observation": "Curated creator directory by category",
-    "composition_and_grid": "category groups; repeated entries; one shared legend or hierarchy; visible scope and provenance",
-    "dominant_anchor": "Curated creator directory by category",
-    "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
-    ],
-    "information_chunks": [
+    "candidate_information_grammar": [
       "state scope and selection rule",
       "group the landscape",
       "make comparison possible",
       "show source/date/limitations"
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Curated creator directory by category.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
-    "craft_observations": [
-      "Curated creator directory by category",
-      "Reusable atom: Selection itself is a useful product",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
-    ]
-  },
-  "content_mechanics": {
-    "primary_cognitive_job": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
-    "argument_sequence": [
-      "state scope and selection rule",
-      "group the landscape",
-      "make comparison possible",
-      "show source/date/limitations"
+    "candidate_caption_job": "State inclusion criteria, provenance, date sensitivity and what the landscape is not claiming.",
+    "candidate_use_when": [
+      "The collection has a defensible scope and grouping logic.",
+      "The reader gains orientation from seeing the landscape together.",
+      "Sources, dates and exclusions can be named."
     ],
-    "compression_method": "category groups; repeated entries; one shared legend or hierarchy; visible scope and provenance",
-    "reader_payoff": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
-    "save_share_return_motives": [
-      "save as a market map",
-      "send to a colleague",
-      "return to compare options"
+    "candidate_do_not_use_when": [
+      "The map creates an implied ranking without evidence.",
+      "Entries are incomplete but presented as exhaustive.",
+      "The reader needs a focused decision rather than an overview."
     ],
-    "caption_to_visual_choreography": "State inclusion criteria, provenance, date sensitivity and what the landscape is not claiming."
-  },
-  "recombination": {
-    "mechanism_fingerprint": {
-      "primary_cognitive_job": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
-      "reader_state": [
-        "market opacity",
-        "choice overload",
-        "need for orientation at scale"
-      ],
-      "visual_grammar": [
-        "category groups",
-        "repeated entries",
-        "one shared legend or hierarchy",
-        "visible scope and provenance"
-      ],
-      "information_grammar": [
-        "state scope and selection rule",
-        "group the landscape",
-        "make comparison possible",
-        "show source/date/limitations"
-      ],
-      "social_action_mechanics": [
-        "save as a market map",
-        "send to a colleague",
-        "return to compare options"
-      ],
-      "use_when": [
-        "The collection has a defensible scope and grouping logic.",
-        "The reader gains orientation from seeing the landscape together.",
-        "Sources, dates and exclusions can be named."
-      ],
-      "do_not_use_when": [
-        "The map creates an implied ranking without evidence.",
-        "Entries are incomplete but presented as exhaustive.",
-        "The reader needs a focused decision rather than an overview."
-      ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
-    },
-    "transferable_atoms": [
-      "Selection itself is a useful product",
-      "state scope and selection rule",
-      "group the landscape"
-    ],
-    "reverse_build_specification": "When a chosen opportunity requires landscape orientation, group a bounded set by one clear taxonomy, declare the scope and source basis, and make the reader’s next comparison possible. Do not disguise an unverified list as market truth.",
-    "editable_levers": [
-      "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
-      "caption role",
-      "format/material treatment"
-    ],
-    "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
-    ],
-    "anti_copy_boundary": [
-      "Creator identities and directory arrangement",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
-    ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended compress a broad landscape of people, companies, tools or signals into a navigable overview. without relying on the caption?"
+    "candidate_reverse_build_specification": "When a chosen opportunity requires landscape orientation, group a bounded set by one clear taxonomy, declare the scope and source basis, and make the reader’s next comparison possible. Do not disguise an unverified list as market truth.",
+    "topic_selection_boundary": "This template does not select a future topic, audience, factual claim or post angle.",
+    "required_next_step": "Inspect the local asset and write record-specific evidence before promoting any candidate field into a manual forensic record or Creative Genome retrieval."
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#55",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#55",
     "source_context_id": "top100-workbook#55",
-    "content_hash": "c505e8b546892bf5621bb82c1f3c480ad8d70ff74712a5d813bd6954d3db07fb"
+    "content_hash": "c505e8b546892bf5621bb82c1f3c480ad8d70ff74712a5d813bd6954d3db07fb",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    }
   }
 }

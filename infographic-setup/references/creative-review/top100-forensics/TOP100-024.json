@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-024",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7465695889701990400, bound to references/top 100/24.jpeg at SHA-256 ce7d8545d091a735615dfb78c7565a653470c542342b206d335b2a22d75e25af.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7465695889701990400; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex direct-asset visual reviewer - Batch C",
+    "reviewed_at": "2026-08-07T15:30:00+02:00",
+    "evidence": "Full-size direct inspection of references/top 100/24.jpeg against the declared SHA-256; observations below describe the rendered comparison sheet."
   },
   "asset": {
     "path": "references/top 100/24.jpeg",
-    "status": "visually_inspected",
+    "sha256": "ce7d8545d091a735615dfb78c7565a653470c542342b206d335b2a22d75e25af",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "ce7d8545d091a735615dfb78c7565a653470c542342b206d335b2a22d75e25af",
+      "reviewer": "Codex direct-asset visual reviewer - Batch C",
+      "reviewed_at": "2026-08-07T15:30:00+02:00",
+      "evidence": "Full-size direct inspection of references/top 100/24.jpeg against the declared SHA-256; observations below describe the rendered comparison sheet. Asset hash: ce7d8545d091a735615dfb78c7565a653470c542342b206d335b2a22d75e25af."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Eric Partaker",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7465695889701990400",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "49a46a598107693a86576863e7c9fc192de391f56fbf606d6c7ee8c4b629877a",
@@ -34,140 +49,156 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7465695889701990400",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "conceptual confusion",
-      "cross-functional disagreement",
-      "need for shared vocabulary"
-    ],
-    "desired_response": [
-      "save as a meeting reference",
-      "send to an adjacent function",
-      "use to settle imprecise language"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A common-schema comparison that clarifies the different jobs of three familiar management terms.",
+    "work_moment": "A manager or team needs to stop conflating goals, performance measures and critical success factors during planning or performance conversations.",
+    "tension": "Clarity and reduced confusion around words that are often used interchangeably.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by OKR/KPI/CSF three-way comparison.",
-    "comprehension_3_10_seconds": "The reader follows the two-to-four equal lanes, one repeated comparison schema, clear categorical separation to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Disambiguate a small set of related concepts so a reader can make a more precise decision.",
-    "identity_or_curiosity_trigger": "conceptual confusion; cross-functional disagreement; need for shared vocabulary",
-    "promise_proved_by_visual": "The visual’s proof mechanism is OKR/KPI/CSF three-way comparison."
+    "thumbnail_read_0_3_seconds": "0-3s: three giant labels separated by bold VS bars signal a terminology distinction. 3-10s: the repeated What is it / When to use / How they guide you / Best practices / Common mistakes structure promises comparable answers. 10-30s: readers can stay in one column or compare the final relationship band.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Top title -> one chosen column from icon to examples -> neighbouring columns for contrast -> full-width How they work together band -> blue footer.”.",
+    "value_exchange_10_30_seconds": "A common-schema comparison that clarifies the different jobs of three familiar management terms.",
+    "identity_or_curiosity_trigger": "Clarity and reduced confusion around words that are often used interchangeably.",
+    "promise_proved_by_visual": "Equal columns prevent the concepts from collapsing into one blended list; the lower band repairs the separation by showing how they connect."
   },
   "visual_forensics": {
-    "asset_specific_observation": "OKR/KPI/CSF three-way comparison",
-    "composition_and_grid": "two-to-four equal lanes; one repeated comparison schema; clear categorical separation; shared conclusion or decision rule",
-    "dominant_anchor": "OKR/KPI/CSF three-way comparison",
+    "asset_specific_observation": "Tall paper-toned sheet with a giant three-term headline, followed by three full-height pastel columns and one bottom integration band spanning the width.",
+    "composition_and_grid": "Three equal vertical lanes use an identical sequence of sections and baselines. A bottom panel breaks the columns to explain the relationship across them.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: The three giant terms dominate first; all-caps column labels and line icons lead next; question prompts and bold subheads structure the close-read copy.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Top title",
+      "one chosen column from icon to examples",
+      "neighbouring columns for contrast",
+      "full-width How they work together band",
+      "blue footer."
     ],
     "information_chunks": [
-      "name the conflation",
-      "answer the same questions for each concept",
-      "show the relationship or consequence",
-      "give the reader a reusable distinction"
+      "Three-way label contrast",
+      "repeated definitions and use cases",
+      "pitfalls",
+      "shared lower explanation of how the terms work together."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: OKR/KPI/CSF three-way comparison.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "The three giant terms dominate first; all-caps column labels and line icons lead next; question prompts and bold subheads structure the close-read copy.",
+    "typography": "Large editorial serif for the title, heavy black sans for columns/subheads, compact sans body and modest use of bold in the examples.",
+    "colour_material_and_contrast": "Warm off-white paper, pale blue/yellow/pink fields, thin matching colour outlines, black type, small black line icons and a saturated blue newsletter footer.",
+    "imagery_role": "Simple black line icons inside each column represent each category; the small linked circles in the lower band provide the only relationship diagram.",
+    "density_and_pacing": "The structure is highly predictable: instant three-way frame, then column-level deep read, then integration. Readers can enter non-linearly without losing context.",
     "craft_observations": [
-      "OKR/KPI/CSF three-way comparison",
-      "Reusable atom: Equal columns make categories legible",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The comparison grammar is stronger than the decorative texture. The oversized title makes the long poster legible in a feed. The bottom relationship strip is important: without it, the visual would risk presenting related planning terms as isolated silos."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Disambiguate a small set of related concepts so a reader can make a more precise decision.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A common-schema comparison that clarifies the different jobs of three familiar management terms.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "name the conflation",
-      "answer the same questions for each concept",
-      "show the relationship or consequence",
-      "give the reader a reusable distinction"
+      "Three-way label contrast",
+      "repeated definitions and use cases",
+      "pitfalls",
+      "shared lower explanation of how the terms work together."
     ],
-    "compression_method": "two-to-four equal lanes; one repeated comparison schema; clear categorical separation; shared conclusion or decision rule",
-    "reader_payoff": "Disambiguate a small set of related concepts so a reader can make a more precise decision.",
+    "compression_method": "The reviewed visual mechanism is “Equal columns prevent the concepts from collapsing into one blended list; the lower band repairs the separation by showing how they connect.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A common-schema comparison that clarifies the different jobs of three familiar management terms.",
     "save_share_return_motives": [
-      "save as a meeting reference",
-      "send to an adjacent function",
-      "use to settle imprecise language"
+      "Onboarding or meeting reference when a team needs shared vocabulary across planning and measurement."
     ],
-    "caption_to_visual_choreography": "Turn the visual distinction into a lived consequence, nuance or question; do not repeat every row."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “Equal columns prevent the concepts from collapsing into one blended list; the lower band repairs the separation by showing how they connect.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Disambiguate a small set of related concepts so a reader can make a more precise decision.",
+      "mechanism_family": "workflow",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "Three-way label contrast -> repeated definitions and use cases -> pitfalls -> shared lower explanation of how the terms work together.",
+          "Tall paper-toned sheet with a giant three-term headline, followed by three full-height pastel columns and one bottom integration band spanning the width.",
+          "Three equal vertical lanes use an identical sequence of sections and baselines. A bottom panel breaks the columns to explain the relationship across them.",
+          "Equal columns prevent the concepts from collapsing into one blended list; the lower band repairs the separation by showing how they connect."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A common-schema comparison that clarifies the different jobs of three familiar management terms.",
       "reader_state": [
-        "conceptual confusion",
-        "cross-functional disagreement",
-        "need for shared vocabulary"
+        "A manager or team needs to stop conflating goals, performance measures and critical success factors during planning or performance conversations."
       ],
       "visual_grammar": [
-        "two-to-four equal lanes",
-        "one repeated comparison schema",
-        "clear categorical separation",
-        "shared conclusion or decision rule"
+        "Tall paper-toned sheet with a giant three-term headline, followed by three full-height pastel columns and one bottom integration band spanning the width.",
+        "Three equal vertical lanes use an identical sequence of sections and baselines. A bottom panel breaks the columns to explain the relationship across them.",
+        "Equal columns prevent the concepts from collapsing into one blended list; the lower band repairs the separation by showing how they connect."
       ],
       "information_grammar": [
-        "name the conflation",
-        "answer the same questions for each concept",
-        "show the relationship or consequence",
-        "give the reader a reusable distinction"
+        "Three-way label contrast -> repeated definitions and use cases -> pitfalls -> shared lower explanation of how the terms work together.",
+        "A common-schema comparison that clarifies the different jobs of three familiar management terms.",
+        "Onboarding or meeting reference when a team needs shared vocabulary across planning and measurement."
       ],
       "social_action_mechanics": [
-        "save as a meeting reference",
-        "send to an adjacent function",
-        "use to settle imprecise language"
+        "Onboarding or meeting reference when a team needs shared vocabulary across planning and measurement."
       ],
       "use_when": [
-        "The opportunity contains a small set of concepts that readers confuse.",
-        "Each concept is genuinely comparable on the same decision-relevant questions.",
-        "The payoff is a clearer boundary, choice, owner or escalation."
+        "The already selected reader moment genuinely benefits from an original workflow rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The idea needs a chronological causal story.",
-        "The categories are not comparable.",
-        "The value depends on emotional recognition rather than precision."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Equal columns make categories legible",
-      "name the conflation",
-      "answer the same questions for each concept"
+      "For a three-way distinction, make each column answer exactly the same questions. Use a final integration strip only after the differences are clear. Give each concept a distinct colour field, but retain one shared typographic grid."
     ],
-    "reverse_build_specification": "When a chosen opportunity contains conflated but comparable concepts, use equal lanes and one repeated decision schema to make their boundary visible immediately. Use the visual for precision and the caption for consequences and nuance.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original workflow whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: For a three-way distinction, make each column answer exactly the same questions. Use a final integration strip only after the differences are clear. Give each concept a distinct colour field, but retain one shared typographic grid. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Creator's serif/pastel execution",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not reproduce the OKR/KPI/CSF wording, three-column colour palette, exact comparison categories, line-icon set, final circle relationship graphic, Eric Partaker credit or footer.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended disambiguate a small set of related concepts so a reader can make a more precise decision. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#24",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#24",
     "source_context_id": "top100-workbook#24",
-    "content_hash": "dc5b07c356c51f62de0cbf7f9a99a5428e04d5b2274aca67a87d6ff322b9d5b5"
+    "content_hash": "dc5b07c356c51f62de0cbf7f9a99a5428e04d5b2274aca67a87d6ff322b9d5b5",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7465695889701990400",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/24.jpeg",
+      "asset_sha256": "ce7d8545d091a735615dfb78c7565a653470c542342b206d335b2a22d75e25af",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

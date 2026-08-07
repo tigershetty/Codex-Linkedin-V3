@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-056",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7459888401522028544, bound to references/top 100/56.jpeg at SHA-256 10f2f9f651142da9e41918368a7819f3874475415d4d6fd1c970dbde6290d3a6.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7459888401522028544; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex direct-asset visual reviewer — Batch B",
+    "reviewed_at": "2026-08-07T15:00:00+02:00",
+    "evidence": "Full-size direct inspection of references/top 100/56.jpeg against the declared SHA-256; observations below describe the actual seven-section poster."
   },
   "asset": {
     "path": "references/top 100/56.jpeg",
-    "status": "visually_inspected",
+    "sha256": "10f2f9f651142da9e41918368a7819f3874475415d4d6fd1c970dbde6290d3a6",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "10f2f9f651142da9e41918368a7819f3874475415d4d6fd1c970dbde6290d3a6",
+      "reviewer": "Codex direct-asset visual reviewer — Batch B",
+      "reviewed_at": "2026-08-07T15:00:00+02:00",
+      "evidence": "Full-size direct inspection of references/top 100/56.jpeg against the declared SHA-256; observations below describe the actual seven-section poster. Asset hash: 10f2f9f651142da9e41918368a7819f3874475415d4d6fd1c970dbde6290d3a6."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Tom Mills",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7459888401522028544",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "65ab39ddb32747f97751e81700add2acea8704a722ab789a806e63ea30922c91",
@@ -34,140 +49,162 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7459888401522028544",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "information overload",
-      "need for quick lookup",
-      "desire to feel more fluent at work"
-    ],
-    "desired_response": [
-      "save as a field reference",
-      "share with a newer colleague",
-      "return during real work"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A broad self-assessment with symptoms, desired business experience, behaviour shifts, language shifts, metrics and a final checklist.",
+    "work_moment": "A procurement team feels it is viewed as an order-processing function and needs to diagnose the evidence, language and measures that reinforce that perception.",
+    "tension": "Recognition of a status problem and motivation to demonstrate a more strategic contribution.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Tactical-to-strategic procurement transformation sheet.",
-    "comprehension_3_10_seconds": "The reader follows the modular reference blocks or table, strong title promise, repeated card/row rule to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
-    "identity_or_curiosity_trigger": "information overload; need for quick lookup; desire to feel more fluent at work",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Tactical-to-strategic procurement transformation sheet."
+    "thumbnail_read_0_3_seconds": "0–3s: the oversized tactical-to-strategic title and chess/target imagery set up an identity transformation. 3–10s: seven numbered dark-blue section headers turn the surface into a diagnostic map. 10–30s: the reader scans red crosses versus green checks, stop/go pairs and quotation swaps for specific language or metrics to change.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Headline → first three diagnostic panels → sections 4 and 5 across the middle → sections 6 and 7 along the bottom → footer.”.",
+    "value_exchange_10_30_seconds": "A broad self-assessment with symptoms, desired business experience, behaviour shifts, language shifts, metrics and a final checklist.",
+    "identity_or_curiosity_trigger": "Recognition of a status problem and motivation to demonstrate a more strategic contribution.",
+    "promise_proved_by_visual": "A multiple-contrast transformation board lets the reader find evidence of both the current perception and the desired operating posture."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Tactical-to-strategic procurement transformation sheet",
-    "composition_and_grid": "modular reference blocks or table; strong title promise; repeated card/row rule; grouping through category and hierarchy",
-    "dominant_anchor": "Tactical-to-strategic procurement transformation sheet",
+    "asset_specific_observation": "Dense blue-and-white poster: a full-width headline, then a 3-column top diagnostic row, a mid-page stop/go and speech-bubble comparison, and lower metric/checklist panels.",
+    "composition_and_grid": "Bordered newspaper-like grid with unequal modules: broad three-column diagnosis above tightly packed two-column transformation and checklist sections.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: The yellow tactical-to-strategic phrase is the first contrast; oversized 1–7 section numerals and navy bands then segment the dense content.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Headline",
+      "first three diagnostic panels",
+      "sections 4 and 5 across the middle",
+      "sections 6 and 7 along the bottom",
+      "footer."
     ],
     "information_chunks": [
-      "state the scope",
-      "group items by a usable logic",
-      "give compact definitions/formulas/examples",
-      "make the reference retrievable at a glance"
+      "Perception problem",
+      "tactical symptoms",
+      "strategic future state",
+      "five behavioural shifts",
+      "language substitution",
+      "metric substitution",
+      "checklist."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Tactical-to-strategic procurement transformation sheet.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "The yellow tactical-to-strategic phrase is the first contrast; oversized 1–7 section numerals and navy bands then segment the dense content.",
+    "typography": "Condensed white all-caps headers on navy bands, mixed-weight sans body copy, and yellow highlighter treatment for key diagnostic sentences.",
+    "colour_material_and_contrast": "Bright cyan/royal-blue ground, black framing rules, white panels, green/red semantic marks, yellow highlight bands and dense black text.",
+    "imagery_role": "Chess pieces and target at the top metaphorically signal strategic positioning; crosses, ticks, stop signs, arrows and speech bubbles make later contrasts quickly legible.",
+    "density_and_pacing": "Requires an initial skim of large numbered bands; then supports non-linear lookup by section rather than a strict narrative read.",
     "craft_observations": [
-      "Tactical-to-strategic procurement transformation sheet",
-      "Reusable atom: Diagnose -> shift language -> measure differently",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The grid creates density without losing navigation because every cell begins with a dark label band. Green and red mean change direction consistently. The highlighter strips rescue pivotal sentences from a lot of small text."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A broad self-assessment with symptoms, desired business experience, behaviour shifts, language shifts, metrics and a final checklist.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "state the scope",
-      "group items by a usable logic",
-      "give compact definitions/formulas/examples",
-      "make the reference retrievable at a glance"
+      "Perception problem",
+      "tactical symptoms",
+      "strategic future state",
+      "five behavioural shifts",
+      "language substitution",
+      "metric substitution",
+      "checklist."
     ],
-    "compression_method": "modular reference blocks or table; strong title promise; repeated card/row rule; grouping through category and hierarchy",
-    "reader_payoff": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+    "compression_method": "The reviewed visual mechanism is “A multiple-contrast transformation board lets the reader find evidence of both the current perception and the desired operating posture.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A broad self-assessment with symptoms, desired business experience, behaviour shifts, language shifts, metrics and a final checklist.",
     "save_share_return_motives": [
-      "save as a field reference",
-      "share with a newer colleague",
-      "return during real work"
+      "Workshop or self-diagnosis resource that can be shared across a procurement team."
     ],
-    "caption_to_visual_choreography": "Explain scope, provenance, use boundary and the one practical reason the reader should keep the reference."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “A multiple-contrast transformation board lets the reader find evidence of both the current perception and the desired operating posture.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+      "mechanism_family": "before_after",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "Perception problem → tactical symptoms → strategic future state → five behavioural shifts → language substitution → metric substitution → checklist.",
+          "Dense blue-and-white poster: a full-width headline, then a 3-column top diagnostic row, a mid-page stop/go and speech-bubble comparison, and lower metric/checklist panels.",
+          "Bordered newspaper-like grid with unequal modules: broad three-column diagnosis above tightly packed two-column transformation and checklist sections.",
+          "A multiple-contrast transformation board lets the reader find evidence of both the current perception and the desired operating posture."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A broad self-assessment with symptoms, desired business experience, behaviour shifts, language shifts, metrics and a final checklist.",
       "reader_state": [
-        "information overload",
-        "need for quick lookup",
-        "desire to feel more fluent at work"
+        "A procurement team feels it is viewed as an order-processing function and needs to diagnose the evidence, language and measures that reinforce that perception."
       ],
       "visual_grammar": [
-        "modular reference blocks or table",
-        "strong title promise",
-        "repeated card/row rule",
-        "grouping through category and hierarchy"
+        "Dense blue-and-white poster: a full-width headline, then a 3-column top diagnostic row, a mid-page stop/go and speech-bubble comparison, and lower metric/checklist panels.",
+        "Bordered newspaper-like grid with unequal modules: broad three-column diagnosis above tightly packed two-column transformation and checklist sections.",
+        "A multiple-contrast transformation board lets the reader find evidence of both the current perception and the desired operating posture."
       ],
       "information_grammar": [
-        "state the scope",
-        "group items by a usable logic",
-        "give compact definitions/formulas/examples",
-        "make the reference retrievable at a glance"
+        "Perception problem → tactical symptoms → strategic future state → five behavioural shifts → language substitution → metric substitution → checklist.",
+        "A broad self-assessment with symptoms, desired business experience, behaviour shifts, language shifts, metrics and a final checklist.",
+        "Workshop or self-diagnosis resource that can be shared across a procurement team."
       ],
       "social_action_mechanics": [
-        "save as a field reference",
-        "share with a newer colleague",
-        "return during real work"
+        "Workshop or self-diagnosis resource that can be shared across a procurement team."
       ],
       "use_when": [
-        "The information is durable and consulted repeatedly.",
-        "There is a defensible grouping logic.",
-        "Compression preserves rather than distorts the meaning."
+        "The already selected reader moment genuinely benefits from an original before after rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The reader needs one deep causal explanation.",
-        "The list is arbitrary or too broad to be reliable.",
-        "A single decision tool would be more useful than a compendium."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Diagnose -> shift language -> measure differently",
-      "state the scope",
-      "group items by a usable logic"
+      "For a complex maturity/identity change, turn each claim into a visible contrast: cross/check, stop/go, old/new language or old/new metric. Use section numbers as a retrieval map, not just decoration."
     ],
-    "reverse_build_specification": "When a chosen opportunity contains durable, repeat-use knowledge, create a compact field guide with an explicit scope and repeated retrieval pattern. Make every row earn its place, make grouping visible, and state what the guide cannot decide for the reader.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original before after whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: For a complex maturity/identity change, turn each claim into a visible contrast: cross/check, stop/go, old/new language or old/new metric. Use section numbers as a retrieval map, not just decoration. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Dense blue/red handbook layout",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not copy the chess/target motif, exact seven-section sequence, language examples, green/red coding scheme, footer CTA or author attribution.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended package a dense but recurring body of knowledge into a reference readers can repeatedly consult. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#56",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#56",
     "source_context_id": "top100-workbook#56",
-    "content_hash": "a638aaf3a80525ead47706171fdb5ccbb37dc5a0bf5d18ef58cddd7a704c25fa"
+    "content_hash": "a638aaf3a80525ead47706171fdb5ccbb37dc5a0bf5d18ef58cddd7a704c25fa",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7459888401522028544",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/56.jpeg",
+      "asset_sha256": "10f2f9f651142da9e41918368a7819f3874475415d4d6fd1c970dbde6290d3a6",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

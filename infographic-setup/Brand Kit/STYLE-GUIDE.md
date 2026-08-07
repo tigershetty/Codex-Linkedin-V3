@@ -2,7 +2,7 @@
 
 > **V4/V5 reset notice:** This is historical V3/V5 design material, not an active production
 > authority or default. For new work, use the Fast Post Loop or Creative Genome and
-> `../references/creative-review/signature-system-v2.md`. Treat any detail below as a named
+> `../references/creative-review/signature-system-v3.md`. Treat any detail below as a named
 > historical reference atom only.
 
 A historical visual system for LinkedIn infographics and precision artifacts. The DNA is extracted
@@ -19,7 +19,7 @@ or the visual one-pager as automatic source material.
 > **Commitment Object** when an irreversible boundary must be felt—and render one composition. Never
 > paste an HTML/SVG, dashboard, title, footer, or logo overlay
 > over that final scene. The current authority is the Fast Post Loop or Creative Genome plus
-> `signature-system-v2.md`; the modular rules below are retained as historical material for
+> `signature-system-v3.md`; the modular rules below are retained as historical material for
 > explicit carousels and exact artifacts.
 
 ---
@@ -193,9 +193,9 @@ The same DNA, fed the way each tool prefers:
 
 **Gemini — Nano Banana Pro** → attach 1–2 reference images + paste the Gemini prompt from `PROMPT-LIBRARY.txt`. Strong at reference-image consistency and in-image text. Or drag in the one-page PDF as the style reference.
 
-**ChatGPT Image 2** → for a standard feed post, use the selected current creative route and Signature System V2. Use this kit only if a named historical atom has been deliberately selected. For a carousel or exact artifact, its flat isometric block may be used when that treatment is chosen for reader value.
+**ChatGPT Image 2** → for a standard feed post, use the selected current creative route and Signature System V3. Use this kit only if a named historical atom has been deliberately selected. For a carousel or exact artifact, its flat isometric block may be used when that treatment is chosen for reader value.
 
-**Claude Code** → for a standard post, use the Fast Post Loop or Creative Genome, the selected creative family, and Signature System V2. It may use this kit only as named historical reference material, and may use editable HTML/SVG only when a separate exact artifact or carousel has been explicitly selected.
+**Claude Code** → for a standard post, use the Fast Post Loop or Creative Genome, the selected creative family, and Signature System V3. It may use this kit only as named historical reference material, and may use editable HTML/SVG only when a separate exact artifact or carousel has been explicitly selected.
 
 **Standard workflow:** choose one reader tension → one physical or visual mechanism → one native image-engine composition → five-reader check. The visual family can vary with the argument; the palette and colour meanings maintain ownership.
 

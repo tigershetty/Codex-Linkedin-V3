@@ -1,5 +1,10 @@
 # Shetty's Desk Signature System — V5 Field Guide Family
 
+> **Status: superseded as the V5 default.** Retained as a historical and specialist Field Guide
+> reference only. The active signature authority is
+> [`signature-system-v3.md`](signature-system-v3.md); do not use this file to select a normal
+> LinkedIn visual family.
+
 **Status:** selected specialist signature family for V5 Field Guide Notebook resource posts.
 
 Signature System V1 remains the broader historical guardrail until active operating documents are updated to point at this successor. This file does not make Field Guide Notebook the default for all Shetty's Desk content.

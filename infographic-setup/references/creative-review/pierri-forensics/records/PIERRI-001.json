@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 1,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/1.jpeg",
+    "sha256": "7d57dbdbcfbc1883b4d192b8258633d715da6c67d45a6a4243125498d0cfb338",
+    "format": "jpeg",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Original local JPEG displayed directly at full-frame review size.",
+    "motion_sampling": {
+      "method": "Not applicable for static JPEG.",
+      "sampled_positions_ms": [],
+      "limitation": "No animation exists in this source asset."
+    }
+  },
+  "visual_anatomy": {
+    "title": "Two-scale title: a large plain-language promise with “START MAKING MONEY” isolated inside a lavender rounded tag.",
+    "layout": "A vertical 13-step working reference divided into three large stacked phase panels; each phase has a rotated label at the right edge.",
+    "reading_order": "Title and 13-step promise → top-to-bottom phase panels → ordered actions within each panel → phase label / credit line.",
+    "typography": "Large light sans headline, one rough handwritten emphasis word-group, bold action labels, and smaller grey explanatory lines.",
+    "colour": "Lavender, pink, and aqua act as phase identifiers on a mostly white page with black/grey type.",
+    "surface": "Near-white ground, thin dark outlines, rounded panels, and soft diffuse shadows.",
+    "modules": "Three phase panels; each repeats numbered shape token, bold action, and supporting explanation.",
+    "density": "High but navigable: 13 actions are compressed into one bold instruction plus one short supporting line each."
+  },
+  "motion": {
+    "mode": "static",
+    "source_metadata": {
+      "frame_count": null,
+      "duration_ms_from_gce": null
+    },
+    "observed_state_change": "No temporal state: this is a static JPEG source asset.",
+    "motion_job": "Not applicable; the complete argument must work in one frame.",
+    "limitation": "No animation exists in this source asset."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Turn a long operating sequence into a reference someone can scan and revisit.",
+    "argument_shape": "Grouped progression with discrete actions.",
+    "mechanism": "Use phase membership and a repeated action/explanation micro-format so a long list becomes a spatial route rather than a wall of text.",
+    "use_condition": "Only when the steps genuinely belong to a small number of ordered phases and every item earns its place."
+  },
+  "anti_copy_boundary": "Do not reuse the source title cadence, 13-step structure, vertical phase tags, colour assignment, handwritten emphasis, wording, or exact panel geometry.",
+  "claim_boundary": {
+    "public_claim_status": "caption_association_unverified",
+    "note": "A workbook caption is present only by matching numeric ID. Neither that pairing nor any implied business outcome is independently verified."
+  }
+}

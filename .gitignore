@@ -60,3 +60,6 @@ videos/*-motion/qa/*/
 
 # Local linked worktrees
 site-guide-v2-worktree/
+
+# User-supplied raw creative-reference media stays local; commit only source-bound reviews and indexes.
+infographic-setup/references/Vincent Pierri Reference/

@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-068",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7444357555960823808, bound to references/top 100/68.jpeg at SHA-256 51608034435992cf30218161166f2af93ff8694963c3f19042d6f8eb8a16a69e.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7444357555960823808; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex manual visual reviewer, batch 2026-08-07-a",
+    "reviewed_at": "2026-08-07T00:00:00.000Z",
+    "evidence": "Direct full-size review of references/top 100/68.jpeg at SHA-256 51608034435992cf30218161166f2af93ff8694963c3f19042d6f8eb8a16a69e. This is a static JPEG; GIF frame evidence is not applicable."
   },
   "asset": {
     "path": "references/top 100/68.jpeg",
-    "status": "visually_inspected",
+    "sha256": "51608034435992cf30218161166f2af93ff8694963c3f19042d6f8eb8a16a69e",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "51608034435992cf30218161166f2af93ff8694963c3f19042d6f8eb8a16a69e",
+      "reviewer": "Codex manual visual reviewer, batch 2026-08-07-a",
+      "reviewed_at": "2026-08-07T00:00:00.000Z",
+      "evidence": "Direct full-size review of references/top 100/68.jpeg at SHA-256 51608034435992cf30218161166f2af93ff8694963c3f19042d6f8eb8a16a69e. This is a static JPEG; GIF frame evidence is not applicable. Asset hash: 51608034435992cf30218161166f2af93ff8694963c3f19042d6f8eb8a16a69e."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Diandra Escobar",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7444357555960823808",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "1abb00c9a8f8a175defbaecf7d62094810a25fd10ddea5c958d687eb032a77fd",
@@ -34,140 +49,162 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7444357555960823808",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "uncertain starting point",
-      "ambition without path",
-      "need to see progression"
-    ],
-    "desired_response": [
-      "self-assess",
-      "save as a roadmap",
-      "use to start a team conversation"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A one-page planning schema that links content roles to metrics and tactics.",
+    "work_moment": "A creator is posting irregularly and needs to distinguish discovery, trust, conversion, and relationship work instead of treating every post as the same job.",
+    "tension": "Control over an otherwise chaotic publishing routine.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Content funnel rendered as a literal funnel.",
-    "comprehension_3_10_seconds": "The reader follows the levels, rings, stages, ladder or journey, clear start/end orientation, one capability shift per level to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Make progress, capability depth or transformation feel navigable rather than abstract.",
-    "identity_or_curiosity_trigger": "uncertain starting point; ambition without path; need to see progression",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Content funnel rendered as a literal funnel."
+    "thumbnail_read_0_3_seconds": "A literal oversized funnel enters from the right edge while four percentage-labelled bands turn an abstract content strategy into a concrete allocation map.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Title -> funnel opening -> Stage 1 -> its bullets/KPIs/strategy -> subsequent stage cards -> bottom flywheel sentence -> footer.”.",
+    "value_exchange_10_30_seconds": "A one-page planning schema that links content roles to metrics and tactics.",
+    "identity_or_curiosity_trigger": "Control over an otherwise chaotic publishing routine.",
+    "promise_proved_by_visual": "The funnel makes the word funnel concrete without requiring a separate explanatory diagram; repeated cards show that each stage has a different job, evidence measure, and action."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Content funnel rendered as a literal funnel",
-    "composition_and_grid": "levels, rings, stages, ladder or journey; clear start/end orientation; one capability shift per level; visible movement between states",
-    "dominant_anchor": "Content funnel rendered as a literal funnel",
+    "asset_specific_observation": "White vertical board with a very large cropped teal funnel at right and four stacked horizontal stage cards filling the remaining width.",
+    "composition_and_grid": "Four wide cards repeat an identical row structure while the literal funnel overlaps their right ends, producing a stable left-to-right reading route.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: THE LINKEDIN CONTENT FUNNEL is the primary anchor; percentage-bearing stage headers are second; bullets, KPI chips, and strategy chips form the tertiary reading layer.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Title",
+      "funnel opening",
+      "Stage 1",
+      "its bullets/KPIs/strategy",
+      "subsequent stage cards",
+      "bottom flywheel sentence",
+      "footer."
     ],
     "information_chunks": [
-      "name current condition",
-      "show sequential capability shifts",
-      "define what changes at each level",
-      "make the next move intelligible"
+      "Name the funnel",
+      "allocate four stages",
+      "list content types",
+      "name each stage's KPI",
+      "add stage-specific strategy",
+      "state the flywheel."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Content funnel rendered as a literal funnel.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "THE LINKEDIN CONTENT FUNNEL is the primary anchor; percentage-bearing stage headers are second; bullets, KPI chips, and strategy chips form the tertiary reading layer.",
+    "typography": "Heavy uppercase dark-teal title; white bold stage labels on teal bands; compact black body text; pill-like KPI and strategy chips make small details skimmable.",
+    "colour_material_and_contrast": "Restrained white/teal palette, thin black outlines, pale aqua surfaces, and a slightly dimensional gradient funnel.",
+    "imagery_role": "The funnel is a semantic diagram rather than decoration; its tapering form gives the four cards a shared conceptual container.",
+    "density_and_pacing": "Strong entry cue, then scan-by-stage; the reader can use only headers, then return for KPI or tactic detail.",
     "craft_observations": [
-      "Content funnel rendered as a literal funnel",
-      "Reusable atom: Let the diagram embody the concept",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "A single oversized object gives four cards a coherent silhouette; the fixed row schema makes it usable; the visual risks implying prescriptive percentages despite no visible evidence boundary."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A one-page planning schema that links content roles to metrics and tactics.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "name current condition",
-      "show sequential capability shifts",
-      "define what changes at each level",
-      "make the next move intelligible"
+      "Name the funnel",
+      "allocate four stages",
+      "list content types",
+      "name each stage's KPI",
+      "add stage-specific strategy",
+      "state the flywheel."
     ],
-    "compression_method": "levels, rings, stages, ladder or journey; clear start/end orientation; one capability shift per level; visible movement between states",
-    "reader_payoff": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+    "compression_method": "The reviewed visual mechanism is “The funnel makes the word funnel concrete without requiring a separate explanatory diagram; repeated cards show that each stage has a different job, evidence measure, and action.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A one-page planning schema that links content roles to metrics and tactics.",
     "save_share_return_motives": [
-      "self-assess",
-      "save as a roadmap",
-      "use to start a team conversation"
+      "Save while planning a month of content; share with a colleague who equates reach with revenue; use as a checklist for a content calendar."
     ],
-    "caption_to_visual_choreography": "State the limits of the progression, prevent false precision and invite the reader to consider their current condition."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “The funnel makes the word funnel concrete without requiring a separate explanatory diagram; repeated cards show that each stage has a different job, evidence measure, and action.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+      "mechanism_family": "workflow",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "Name the funnel -> allocate four stages -> list content types -> name each stage's KPI -> add stage-specific strategy -> state the flywheel.",
+          "White vertical board with a very large cropped teal funnel at right and four stacked horizontal stage cards filling the remaining width.",
+          "Four wide cards repeat an identical row structure while the literal funnel overlaps their right ends, producing a stable left-to-right reading route.",
+          "The funnel makes the word funnel concrete without requiring a separate explanatory diagram; repeated cards show that each stage has a different job, evidence measure, and action."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A one-page planning schema that links content roles to metrics and tactics.",
       "reader_state": [
-        "uncertain starting point",
-        "ambition without path",
-        "need to see progression"
+        "A creator is posting irregularly and needs to distinguish discovery, trust, conversion, and relationship work instead of treating every post as the same job."
       ],
       "visual_grammar": [
-        "levels, rings, stages, ladder or journey",
-        "clear start/end orientation",
-        "one capability shift per level",
-        "visible movement between states"
+        "White vertical board with a very large cropped teal funnel at right and four stacked horizontal stage cards filling the remaining width.",
+        "Four wide cards repeat an identical row structure while the literal funnel overlaps their right ends, producing a stable left-to-right reading route.",
+        "The funnel makes the word funnel concrete without requiring a separate explanatory diagram; repeated cards show that each stage has a different job, evidence measure, and action."
       ],
       "information_grammar": [
-        "name current condition",
-        "show sequential capability shifts",
-        "define what changes at each level",
-        "make the next move intelligible"
+        "Name the funnel -> allocate four stages -> list content types -> name each stage's KPI -> add stage-specific strategy -> state the flywheel.",
+        "A one-page planning schema that links content roles to metrics and tactics.",
+        "Save while planning a month of content; share with a colleague who equates reach with revenue; use as a checklist for a content calendar."
       ],
       "social_action_mechanics": [
-        "self-assess",
-        "save as a roadmap",
-        "use to start a team conversation"
+        "Save while planning a month of content; share with a colleague who equates reach with revenue; use as a checklist for a content calendar."
       ],
       "use_when": [
-        "The chosen opportunity has a credible progression rather than a marketing funnel.",
-        "Moving between states changes capabilities or decisions, not just labels.",
-        "The reader benefits from locating a current state."
+        "The already selected reader moment genuinely benefits from an original workflow rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The levels are arbitrary.",
-        "There is no meaningful order.",
-        "The post would imply false maturity scoring or unsupported benchmarks."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Let the diagram embody the concept",
-      "name current condition",
-      "show sequential capability shifts"
+      "Let one literal object embody the concept; use repeated stage modules with a fixed internal schema; put metrics and tactics at a smaller subordinate level."
     ],
-    "reverse_build_specification": "When a chosen opportunity is genuinely developmental, use a clear progression with one capability change per stage. Make the starting point, movement and next credible step visible, and avoid treating maturity labels as evidence without support.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original workflow whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: Let one literal object embody the concept; use repeated stage modules with a fixed internal schema; put metrics and tactics at a smaller subordinate level. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Green funnel rendering",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not reuse the exact four-stage content funnel, 40/30/20/10 allocations, right-edge teal funnel, stage labels, or creator footer.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended make progress, capability depth or transformation feel navigable rather than abstract. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#68",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#68",
     "source_context_id": "top100-workbook#68",
-    "content_hash": "fa1eaf8a2ade07ef7641858ebab43e64dbe0da8ef1ab1870756a604d15ceed14"
+    "content_hash": "fa1eaf8a2ade07ef7641858ebab43e64dbe0da8ef1ab1870756a604d15ceed14",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7444357555960823808",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/68.jpeg",
+      "asset_sha256": "51608034435992cf30218161166f2af93ff8694963c3f19042d6f8eb8a16a69e",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

@@ -1,16 +1,28 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-065",
-  "forensic_record_status": "complete_calibration_record_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
+    "mode": "manual_asset_review",
     "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
     "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record.",
+    "reviewer": "Codex calibration visual reviewer",
+    "reviewed_at": "2026-08-05T00:00:00.000Z",
+    "evidence": "Asset-specific attention, composition, craft, and recombination observations are recorded in this file; the calibration rationale is documented in CALIBRATION-REVIEW.md."
   },
   "asset": {
     "path": "references/top 100/65.jpeg",
-    "status": "visually_inspected",
+    "sha256": "3e63e84c2047a17f4f43078bf00d3d938b13cbd06df58d233070be940df92095",
+    "status": "manually_reviewed",
     "format": "single_image",
+    "manual_review_evidence": {
+      "asset_sha256": "3e63e84c2047a17f4f43078bf00d3d938b13cbd06df58d233070be940df92095",
+      "reviewer": "Codex calibration visual reviewer",
+      "reviewed_at": "2026-08-05T00:00:00.000Z",
+      "evidence": "Reviewed the local single-image asset at the declared hash; record-specific evidence is retained in the attention, visual-forensics, content-mechanics, and recombination sections."
+    },
+    "frame_evidence": [],
     "inspection_limitations": ["The visible before/after numbers are attributed in the caption to the creator's projects; they are not independently verified in this record."]
   },
   "source_context": {

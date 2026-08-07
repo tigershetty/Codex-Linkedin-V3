@@ -1,5 +1,9 @@
 # Motion Engine v1 - Adaptive Picture-First Motion
 
+> **Status: picture-first companion route.** For a Figma-native high-density Working Infographic,
+> use [`motion-engine-v2-semantic-states.md`](motion-engine-v2-semantic-states.md). Do not apply
+> the opening-complete-still convention here to a semantic-state framework animation.
+
 **Version:** 1.1
 **Date:** 2026-08-07
 **Status:** Opt-in motion workflow after an approved active still

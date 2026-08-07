@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 51,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/51.gif",
+    "sha256": "399309344ad36e260738dadcb822cbaf1eccc0484ae85f715055f80fb8e4bb30",
+    "format": "gif",
+    "canvas": {
+      "width": 800,
+      "height": 1000
+    }
+  },
+  "caption_link": {
+    "status": "asset_only",
+    "association_confidence": "no_caption_supplied",
+    "caption_available": false,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        7000,
+        13500
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "“How to Create Your Infographic AESTHETIC” foregrounds the key term as a lavender rough-display tag.",
+    "layout": "A horizontal spectrum/slider selects among visual directions; one large nested-circle sample occupies the lower two thirds of the page.",
+    "reading_order": "Title → spectrum position → selected option’s compact attributes → large visual example.",
+    "typography": "Large headline, hand-rendered key word, compact labels for canvas/colour/pros/cons, and minimal instructional text.",
+    "colour": "The full canvas, accent tag, spectrum position, and nested-circle sample shift together between visual directions.",
+    "surface": "Clean field with fine rules, rounded option labels, shallow shadow, and a large flat/concentric illustration sample.",
+    "modules": "One selection spectrum, a four-field option descriptor, and one large style example.",
+    "density": "Low-to-medium: it privileges comparison across states rather than a dense final board."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 351,
+      "duration_ms_from_gce": 14040
+    },
+    "observed_state_change": "Sampled frames move the spectrum selector across named aesthetics while the whole page changes background, color treatment, and lower-circle rendering.",
+    "motion_job": "Demonstrate stateful variation: a reader sees which parts of a system change together when a single choice changes.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Compare alternative treatments of one underlying concept without mistaking them for different concepts.",
+    "argument_shape": "State selector with a consistent specimen.",
+    "mechanism": "Keep the information structure fixed while a selector changes one coherent set of presentation variables.",
+    "use_condition": "Use motion only when the comparison between states is the point; present the selected end state as a readable still."
+  },
+  "anti_copy_boundary": "Do not reuse the aesthetic taxonomy, spectrum layout, nested-circle specimen, tag treatment, option labels, color states, or source animation.",
+  "claim_boundary": {
+    "public_claim_status": "no_performance_claim_in_asset",
+    "note": "The visual is a design-choice explanation. Its claims about style are source material, not a validated decision rule for Shetty’s Desk."
+  }
+}

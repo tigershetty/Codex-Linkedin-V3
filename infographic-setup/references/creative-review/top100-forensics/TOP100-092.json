@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-092",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7447282183183962113, bound to references/top 100/92.jpeg at SHA-256 ba7c530c19d6951a572effec08541962e6410fda3baeb3be7bdcf814aef8a813.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7447282183183962113; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex manual visual reviewer, batch 2026-08-07-a",
+    "reviewed_at": "2026-08-07T00:00:00.000Z",
+    "evidence": "Direct full-size review of references/top 100/92.jpeg at SHA-256 ba7c530c19d6951a572effec08541962e6410fda3baeb3be7bdcf814aef8a813. This is a static JPEG; GIF frame evidence is not applicable."
   },
   "asset": {
     "path": "references/top 100/92.jpeg",
-    "status": "visually_inspected",
+    "sha256": "ba7c530c19d6951a572effec08541962e6410fda3baeb3be7bdcf814aef8a813",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "ba7c530c19d6951a572effec08541962e6410fda3baeb3be7bdcf814aef8a813",
+      "reviewer": "Codex manual visual reviewer, batch 2026-08-07-a",
+      "reviewed_at": "2026-08-07T00:00:00.000Z",
+      "evidence": "Direct full-size review of references/top 100/92.jpeg at SHA-256 ba7c530c19d6951a572effec08541962e6410fda3baeb3be7bdcf814aef8a813. This is a static JPEG; GIF frame evidence is not applicable. Asset hash: ba7c530c19d6951a572effec08541962e6410fda3baeb3be7bdcf814aef8a813."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Harry McKaig",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7447282183183962113",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "8284497b26e13fafb8a27ca2803e30cfe581f99c314202149fe2ad928923253e",
@@ -34,140 +49,161 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7447282183183962113",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "market opacity",
-      "choice overload",
-      "need for orientation at scale"
-    ],
-    "desired_response": [
-      "save as a market map",
-      "send to a colleague",
-      "return to compare options"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A spatial overview that links parent companies, familiar labels, and headline scale claims in one frame.",
+    "work_moment": "A reader senses that consumer brands are less independent than they look and wants a fast mental picture of concentrated ownership.",
+    "tension": "Surprise at the gap between many visible labels and a small number of owners.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Alcohol-company ownership network.",
-    "comprehension_3_10_seconds": "The reader follows the category groups, repeated entries, one shared legend or hierarchy to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
-    "identity_or_curiosity_trigger": "market opacity; choice overload; need for orientation at scale",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Alcohol-company ownership network."
+    "thumbnail_read_0_3_seconds": "A black field, a giant claim about the world's biggest alcohol companies, and twelve colourful radial brand constellations make corporate ownership look like a map worth exploring.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Headline/subtitle -> central node -> nearest large hub -> its satellite brands -> adjacent hub -> perimeter source line.”.",
+    "value_exchange_10_30_seconds": "A spatial overview that links parent companies, familiar labels, and headline scale claims in one frame.",
+    "identity_or_curiosity_trigger": "Surprise at the gap between many visible labels and a small number of owners.",
+    "promise_proved_by_visual": "The topology makes concentration visible: many peripheral brands physically collapse into a few large parent hubs, so the relationship itself carries the claim."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Alcohol-company ownership network",
-    "composition_and_grid": "category groups; repeated entries; one shared legend or hierarchy; visible scope and provenance",
-    "dominant_anchor": "Alcohol-company ownership network",
+    "asset_specific_observation": "Dark radial relationship map with BIG ALCOHOL at the centre, twelve coloured parent-company hubs around it, and smaller branded circles orbiting each parent.",
+    "composition_and_grid": "A hub-and-spoke radial network arranged by visual balance rather than a chronological route; each cluster is self-contained but connected to a common centre.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: The white headline and 12/3,000+/$250B subtitle establish scale; central BIG ALCOHOL comes next; large parent nodes dominate each sector; brand leaves and small fact lines are tertiary.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Headline/subtitle",
+      "central node",
+      "nearest large hub",
+      "its satellite brands",
+      "adjacent hub",
+      "perimeter source line."
     ],
     "information_chunks": [
-      "state scope and selection rule",
-      "group the landscape",
-      "make comparison possible",
-      "show source/date/limitations"
+      "State global scale",
+      "place Big Alcohol at centre",
+      "branch to parent hubs",
+      "surround each hub with brands",
+      "add local scale annotations",
+      "cite a source line."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Alcohol-company ownership network.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "The white headline and 12/3,000+/$250B subtitle establish scale; central BIG ALCOHOL comes next; large parent nodes dominate each sector; brand leaves and small fact lines are tertiary.",
+    "typography": "Large all-caps white masthead against black; parent names are set within large coloured circles; tiny white fact labels and brand marks require close reading.",
+    "colour_material_and_contrast": "Black background, high-contrast white type, individually coloured sector clusters, gold outlines, thin connecting lines, and subtle circular depth effects.",
+    "imagery_role": "Actual brand marks and typographic brand labels act as recognisable evidence objects; circles and connecting lines are the primary explanatory image system.",
+    "density_and_pacing": "Immediate macro claim, then exploratory non-linear zooming through brand clusters; detail rewards a reader who recognises a label.",
     "craft_observations": [
-      "Alcohol-company ownership network",
-      "Reusable atom: A network map gives scale and relationship intuition",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "Brand recognition makes the map emotionally sticky; the same radial grammar repeats cleanly across clusters; many labels are too small for normal feed reading and any displayed market-share or revenue facts need separate verification."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A spatial overview that links parent companies, familiar labels, and headline scale claims in one frame.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "state scope and selection rule",
-      "group the landscape",
-      "make comparison possible",
-      "show source/date/limitations"
+      "State global scale",
+      "place Big Alcohol at centre",
+      "branch to parent hubs",
+      "surround each hub with brands",
+      "add local scale annotations",
+      "cite a source line."
     ],
-    "compression_method": "category groups; repeated entries; one shared legend or hierarchy; visible scope and provenance",
-    "reader_payoff": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
+    "compression_method": "The reviewed visual mechanism is “The topology makes concentration visible: many peripheral brands physically collapse into a few large parent hubs, so the relationship itself carries the claim.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A spatial overview that links parent companies, familiar labels, and headline scale claims in one frame.",
     "save_share_return_motives": [
-      "save as a market map",
-      "send to a colleague",
-      "return to compare options"
+      "Save as an orientation map; send to a colleague interested in market structure; use as a conversation starter before deeper company research."
     ],
-    "caption_to_visual_choreography": "State inclusion criteria, provenance, date sensitivity and what the landscape is not claiming."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “The topology makes concentration visible: many peripheral brands physically collapse into a few large parent hubs, so the relationship itself carries the claim.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Compress a broad landscape of people, companies, tools or signals into a navigable overview.",
+      "mechanism_family": "system_map",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "State global scale -> place Big Alcohol at centre -> branch to parent hubs -> surround each hub with brands -> add local scale annotations -> cite a source line.",
+          "Dark radial relationship map with BIG ALCOHOL at the centre, twelve coloured parent-company hubs around it, and smaller branded circles orbiting each parent.",
+          "A hub-and-spoke radial network arranged by visual balance rather than a chronological route; each cluster is self-contained but connected to a common centre.",
+          "The topology makes concentration visible: many peripheral brands physically collapse into a few large parent hubs, so the relationship itself carries the claim."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A spatial overview that links parent companies, familiar labels, and headline scale claims in one frame.",
       "reader_state": [
-        "market opacity",
-        "choice overload",
-        "need for orientation at scale"
+        "A reader senses that consumer brands are less independent than they look and wants a fast mental picture of concentrated ownership."
       ],
       "visual_grammar": [
-        "category groups",
-        "repeated entries",
-        "one shared legend or hierarchy",
-        "visible scope and provenance"
+        "Dark radial relationship map with BIG ALCOHOL at the centre, twelve coloured parent-company hubs around it, and smaller branded circles orbiting each parent.",
+        "A hub-and-spoke radial network arranged by visual balance rather than a chronological route; each cluster is self-contained but connected to a common centre.",
+        "The topology makes concentration visible: many peripheral brands physically collapse into a few large parent hubs, so the relationship itself carries the claim."
       ],
       "information_grammar": [
-        "state scope and selection rule",
-        "group the landscape",
-        "make comparison possible",
-        "show source/date/limitations"
+        "State global scale -> place Big Alcohol at centre -> branch to parent hubs -> surround each hub with brands -> add local scale annotations -> cite a source line.",
+        "A spatial overview that links parent companies, familiar labels, and headline scale claims in one frame.",
+        "Save as an orientation map; send to a colleague interested in market structure; use as a conversation starter before deeper company research."
       ],
       "social_action_mechanics": [
-        "save as a market map",
-        "send to a colleague",
-        "return to compare options"
+        "Save as an orientation map; send to a colleague interested in market structure; use as a conversation starter before deeper company research."
       ],
       "use_when": [
-        "The collection has a defensible scope and grouping logic.",
-        "The reader gains orientation from seeing the landscape together.",
-        "Sources, dates and exclusions can be named."
+        "The already selected reader moment genuinely benefits from an original system map rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The map creates an implied ranking without evidence.",
-        "Entries are incomplete but presented as exhaustive.",
-        "The reader needs a focused decision rather than an overview."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "A network map gives scale and relationship intuition",
-      "state scope and selection rule",
-      "group the landscape"
+      "Use a hub-and-spoke map when ownership or dependency is the subject; make recognisable leaf nodes do the curiosity work; let macro facts frame rather than replace the relationship diagram."
     ],
-    "reverse_build_specification": "When a chosen opportunity requires landscape orientation, group a bounded set by one clear taxonomy, declare the scope and source basis, and make the reader’s next comparison possible. Do not disguise an unverified list as market truth.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original system map whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: Use a hub-and-spoke map when ownership or dependency is the subject; make recognisable leaf nodes do the curiosity work; let macro facts frame rather than replace the relationship diagram. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Logos, data and ownership claims",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not reuse the alcohol-industry subject, company/brand data, radial hub composition, black-and-gold treatment, exact source line, or logo assets.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended compress a broad landscape of people, companies, tools or signals into a navigable overview. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#92",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#92",
     "source_context_id": "top100-workbook#92",
-    "content_hash": "bfee13aa95b77c052ff186a326779e189b04ee4e2a87522215f9ce02f2cca8e3"
+    "content_hash": "bfee13aa95b77c052ff186a326779e189b04ee4e2a87522215f9ce02f2cca8e3",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7447282183183962113",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/92.jpeg",
+      "asset_sha256": "ba7c530c19d6951a572effec08541962e6410fda3baeb3be7bdcf814aef8a813",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

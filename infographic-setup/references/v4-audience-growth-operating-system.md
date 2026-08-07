@@ -268,9 +268,11 @@ Creative Genome, the reader contract, claim support, or Tiger voice.
 - Audience: `audience-intelligence.md`
 - Voice and provenance: `../../tiger-voice.md`, `tiger-source-gate-v1.md`
 - Production QA: `creative-engine-v4-recombination.md`, `visual-engine-v2.md`
-- Signature and specialist Field Guide guardrail: `creative-review/signature-system-v2.md`,
-  `v5-field-guide-notebook-production-system.md`
-- Motion: `motion-engine-v1.md`
+- Signature: `creative-review/signature-system-v3.md`
+- Framework-led social visual route: `v5-working-infographic-production-system.md`
+- Specialist durable reference: `v5-field-guide-notebook-production-system.md`
+- Motion: `motion-engine-v1.md` for picture-first work; `motion-engine-v2-semantic-states.md` for
+  Figma-native frameworks
 - Handoff: `publish-resource-handoff-v1.md`, `publish-asset-spec-v1.md`
 - Measurement: `.claude/skills/audience-transfer/SKILL.md`
 - Immutable baseline: `outputs/019fc389-0554-7a43-a8fa-07bd597be61d/linkedin-content-market-fit-audit-2026-08-02/`

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
- * Builds the searchable, topic-neutral Creative Genome from completed Top-100
- * forensic records. The result answers "what creative mechanism fits this
- * reader state?"; it must never decide the topic itself.
+ * Builds the searchable, topic-neutral Creative Genome from manually evidenced
+ * Top-100 forensic records. Template-assisted candidates are preserved as a
+ * review queue, never silently promoted into high-confidence retrieval.
  */
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
@@ -13,10 +13,12 @@ const outputRoot = resolve(root, 'references/creative-genome');
 const jsonPath = resolve(outputRoot, 'top100-creative-genome-v1.json');
 const markdownPath = resolve(outputRoot, 'top100-creative-genome-v1.md');
 
-const records = readdirSync(forensicRoot)
+const allRecords = readdirSync(forensicRoot)
   .filter((name) => /^TOP100-\d{3}\.json$/.test(name))
   .sort()
   .map((name) => JSON.parse(readFileSync(resolve(forensicRoot, name), 'utf8')));
+const records = allRecords.filter((record) => record.forensic_record_status === 'manual_forensic_review');
+const candidates = allRecords.filter((record) => record.forensic_record_status === 'provisional_template_assisted_candidate');
 
 const value = (candidate) => typeof candidate === 'string' ? candidate.trim() : '';
 const list = (candidate) => Array.isArray(candidate) ? candidate.filter((item) => value(item)) : [];
@@ -38,6 +40,8 @@ const FAMILY_RULES = [
 ];
 
 function familyFor(record) {
+  const declared = value(record.recombination?.mechanism_fingerprint?.mechanism_family);
+  if (declared) return declared;
   const grammar = list(record.recombination?.mechanism_fingerprint?.visual_grammar);
   return FAMILY_RULES.find(([, predicate]) => predicate(grammar))?.[0] ?? 'unclassified';
 }
@@ -96,24 +100,32 @@ const normalizedFamilies = [...families.values()]
   .sort((left, right) => right.reference_count - left.reference_count || left.mechanism_family.localeCompare(right.mechanism_family));
 
 const output = {
-  schema_version: '1.0.0',
-  generated_at: '2026-08-05',
+  schema_version: '2.0.0',
+  generated_at: '2026-08-07',
   scope: {
-    complete_forensic_records: records.length,
+    available_asset_records: allRecords.length,
+    manual_forensic_records: records.length,
+    provisional_template_candidates: candidates.length,
     source_set: 'Top-100 visual subset of Tiger’s intentionally curated saved-post library',
-    usage_boundary: 'Creative retrieval only. This data identifies packaging mechanisms, not topics, factual support, audience truth or performance guarantees.',
-    visual_status: 'Every included record has a locally inspected visual asset. Assets 6, 12 and 75 are absent from the local Top-100 folder and have no forensic record.',
+    usage_boundary: 'High-confidence retrieval includes only asset-hashed manual forensic records. Template-assisted candidates are a review queue, not evidence of visual mechanics, factual support, audience truth, or performance guarantees.',
+    visual_status: 'Assets 6, 12 and 75 are absent from the local Top-100 folder. The high-confidence set grows only when a candidate is promoted through manual asset inspection.',
   },
   retrieval_contract: {
     input: ['selected reader state', 'intended response', 'cognitive job', 'claim mode', 'format constraints'],
-    output: ['two-to-four mechanism families', 'specific record IDs for reference bundling', 'editable levers', 'anti-copy boundaries'],
+    output: ['two-to-four manual/evidenced mechanism families', 'specific record IDs for reference bundling', 'editable levers', 'anti-copy boundaries'],
     prohibited_input: ['a preselected topic from the genome'],
+    provenance_rule: 'Never retrieve from provisional_template_candidates. Review and promote the underlying asset first.',
   },
   mechanism_families: normalizedFamilies,
   records: records.map((record) => ({
     reference_id: record.reference_id,
     asset_path: record.asset?.path ?? null,
+    asset_sha256: record.asset?.sha256 ?? null,
+    forensic_record_status: record.forensic_record_status,
+    reviewer: value(record.review_method?.reviewer),
+    reviewed_at: value(record.review_method?.reviewed_at),
     mechanism_family: familyFor(record),
+    mechanism_family_evidence: record.recombination?.mechanism_fingerprint?.mechanism_family_evidence ?? null,
     primary_cognitive_job: value(record.recombination?.mechanism_fingerprint?.primary_cognitive_job),
     reader_states: list(record.recombination?.mechanism_fingerprint?.reader_state),
     visual_grammar: list(record.recombination?.mechanism_fingerprint?.visual_grammar),
@@ -124,15 +136,24 @@ const output = {
     reverse_build_specification: value(record.recombination?.reverse_build_specification),
     anti_copy_boundary: list(record.recombination?.anti_copy_boundary),
   })),
+  provisional_template_candidates: candidates.map((record) => ({
+    reference_id: record.reference_id,
+    asset_path: record.asset?.path ?? null,
+    asset_sha256: record.asset?.sha256 ?? null,
+    status: record.forensic_record_status,
+    required_next_step: record.template_assisted_hypotheses?.required_next_step ?? 'Manually inspect the asset before retrieval.',
+  })),
 };
 
 writeFileSync(jsonPath, `${JSON.stringify(output, null, 2)}\n`);
 const md = [
   '# Top-100 Creative Genome',
   '',
-  `**Status:** ${records.length} locally inspected visual forensic records synthesised on 2026-08-05.`,
+  `**Status:** ${records.length} asset-hashed manual forensic record(s); ${candidates.length} template-assisted candidate(s) awaiting manual review.`,
   '',
-  'This is a creative retrieval index, not a topic engine. Start with a selected reader moment and intended response; use this index to choose how the value should be packaged. Factual claims still require separate support.',
+  'This is a high-confidence creative retrieval index, not a topic engine. Start with a selected reader moment and intended response; use only the manual/evidenced records below to choose how the value should be packaged. Factual claims still require separate support.',
+  '',
+  'The provisional candidate list is deliberately excluded from mechanism retrieval. It exists only to route the next manual reviews without pretending a profile mapping inspected the asset.',
   '',
   '## Retrieval contract',
   '',
@@ -170,4 +191,4 @@ const md = [
   '',
 ].join('\n');
 writeFileSync(markdownPath, md);
-console.log(`Built Top-100 Creative Genome: ${records.length} records across ${normalizedFamilies.length} mechanism families.`);
+console.log(`Built Top-100 Creative Genome: ${records.length} manual/evidenced records across ${normalizedFamilies.length} mechanism families; ${candidates.length} candidates retained outside retrieval.`);

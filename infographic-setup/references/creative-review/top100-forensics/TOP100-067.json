@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-067",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7456963522044968960, bound to references/top 100/67.jpeg at SHA-256 6ed342c0e27c08d06b65682841fe7fb780b77887341478bebe237120e9a0d071.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7456963522044968960; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex manual visual reviewer, batch 2026-08-07-a",
+    "reviewed_at": "2026-08-07T00:00:00.000Z",
+    "evidence": "Direct full-size review of references/top 100/67.jpeg at SHA-256 6ed342c0e27c08d06b65682841fe7fb780b77887341478bebe237120e9a0d071. This is a static JPEG; GIF frame evidence is not applicable."
   },
   "asset": {
     "path": "references/top 100/67.jpeg",
-    "status": "visually_inspected",
+    "sha256": "6ed342c0e27c08d06b65682841fe7fb780b77887341478bebe237120e9a0d071",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "6ed342c0e27c08d06b65682841fe7fb780b77887341478bebe237120e9a0d071",
+      "reviewer": "Codex manual visual reviewer, batch 2026-08-07-a",
+      "reviewed_at": "2026-08-07T00:00:00.000Z",
+      "evidence": "Direct full-size review of references/top 100/67.jpeg at SHA-256 6ed342c0e27c08d06b65682841fe7fb780b77887341478bebe237120e9a0d071. This is a static JPEG; GIF frame evidence is not applicable. Asset hash: 6ed342c0e27c08d06b65682841fe7fb780b77887341478bebe237120e9a0d071."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Asmaa Gad",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7456963522044968960",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "3cc96f167e3dc4422e02f2acd47d3309caaddda0f7481cacb204075d222e9f3b",
@@ -34,140 +49,165 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7456963522044968960",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "uncertain starting point",
-      "ambition without path",
-      "need to see progression"
-    ],
-    "desired_response": [
-      "self-assess",
-      "save as a roadmap",
-      "use to start a team conversation"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A strategic conversation map that moves from problem discovery through use cases, 90-day plan, and outcome areas without starting from technology alone.",
+    "work_moment": "A procurement leader wants to turn AI ambition into a sequenced discussion of opportunity, advantage, plan, measurement, and a shared purpose.",
+    "tension": "Direction and confidence: a complex strategic question is organised around a central purpose.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Procurement AI strategy map in four quadrants.",
-    "comprehension_3_10_seconds": "The reader follows the levels, rings, stages, ladder or journey, clear start/end orientation, one capability shift per level to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Make progress, capability depth or transformation feel navigable rather than abstract.",
-    "identity_or_curiosity_trigger": "uncertain starting point; ambition without path; need to see progression",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Procurement AI strategy map in four quadrants."
+    "thumbnail_read_0_3_seconds": "A giant PROCUREMENT AI STRATEGY MAP headline and a four-quadrant pastel board centred on Our North Star present a long AI transformation topic as a single strategic operating canvas.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Headline -> upper-left opportunity -> upper-right advantage -> central North Star -> lower-left plan -> lower-right measure -> maturity/value close -> footer.”.",
+    "value_exchange_10_30_seconds": "A strategic conversation map that moves from problem discovery through use cases, 90-day plan, and outcome areas without starting from technology alone.",
+    "identity_or_curiosity_trigger": "Direction and confidence: a complex strategic question is organised around a central purpose.",
+    "promise_proved_by_visual": "The central north-star circle turns four potentially disconnected strategy workstreams into parts of one stated purpose and success definition."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Procurement AI strategy map in four quadrants",
-    "composition_and_grid": "levels, rings, stages, ladder or journey; clear start/end orientation; one capability shift per level; visible movement between states",
-    "dominant_anchor": "Procurement AI strategy map in four quadrants",
+    "asset_specific_observation": "Tall white strategy canvas with a dark headline, two large upper quadrants, two lower quadrants, and a large outlined central circle overlapping all four fields.",
+    "composition_and_grid": "A precise four-quadrant board around a centre circle; each quadrant uses a lightly tinted rounded rectangle and holds a different mix of prompts, lists, and metrics.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: PROCUREMENT AI STRATEGY MAP is dominant; four bold quadrant headers provide next-level scan; the large central Our North Star circle is the conceptual anchor; bullets and phase/metric details are tertiary.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Headline",
+      "upper-left opportunity",
+      "upper-right advantage",
+      "central North Star",
+      "lower-left plan",
+      "lower-right measure",
+      "maturity/value close",
+      "footer."
     ],
     "information_chunks": [
-      "name current condition",
-      "show sequential capability shifts",
-      "define what changes at each level",
-      "make the next move intelligible"
+      "State strategy map",
+      "understand opportunity",
+      "unlock advantage",
+      "centre the north star",
+      "operationalise a phased plan",
+      "measure outcome areas",
+      "close with maturity/value test."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Procurement AI strategy map in four quadrants.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "PROCUREMENT AI STRATEGY MAP is dominant; four bold quadrant headers provide next-level scan; the large central Our North Star circle is the conceptual anchor; bullets and phase/metric details are tertiary.",
+    "typography": "Heavy navy all-caps title; dark coloured quadrant headings; bold subheads; compact bullet lists and numbered phases. Yellow hand-drawn underline is a minor attention accent.",
+    "colour_material_and_contrast": "White paper, navy ink, pale red/blue/yellow/green panels, black rounded outlines, simple coloured line icons, and a yellow marker underline.",
+    "imagery_role": "Small outline icons mark each strategic area, while the central target icon and circle carry the main visual metaphor.",
+    "density_and_pacing": "Headline and four-zone structure are immediate; readers then browse a quadrant based on their current question; centre circle acts as a return anchor.",
     "craft_observations": [
-      "Procurement AI strategy map in four quadrants",
-      "Reusable atom: Strategy is a balanced system, not an isolated tool",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The central circle is a strong organising device; quadrant names represent distinct jobs rather than mere decoration; content is dense and some language is generic, while the 90-day and value claims need independent evidence and cannot be treated as a deployment template."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A strategic conversation map that moves from problem discovery through use cases, 90-day plan, and outcome areas without starting from technology alone.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "name current condition",
-      "show sequential capability shifts",
-      "define what changes at each level",
-      "make the next move intelligible"
+      "State strategy map",
+      "understand opportunity",
+      "unlock advantage",
+      "centre the north star",
+      "operationalise a phased plan",
+      "measure outcome areas",
+      "close with maturity/value test."
     ],
-    "compression_method": "levels, rings, stages, ladder or journey; clear start/end orientation; one capability shift per level; visible movement between states",
-    "reader_payoff": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+    "compression_method": "The reviewed visual mechanism is “The central north-star circle turns four potentially disconnected strategy workstreams into parts of one stated purpose and success definition.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A strategic conversation map that moves from problem discovery through use cases, 90-day plan, and outcome areas without starting from technology alone.",
     "save_share_return_motives": [
-      "self-assess",
-      "save as a roadmap",
-      "use to start a team conversation"
+      "Save for a strategy workshop; send to a procurement leader; use to structure an AI transformation conversation."
     ],
-    "caption_to_visual_choreography": "State the limits of the progression, prevent false precision and invite the reader to consider their current condition."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “The central north-star circle turns four potentially disconnected strategy workstreams into parts of one stated purpose and success definition.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+      "mechanism_family": "maturity",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "State strategy map -> understand opportunity -> unlock advantage -> centre the north star -> operationalise a phased plan -> measure outcome areas -> close with maturity/value test.",
+          "Tall white strategy canvas with a dark headline, two large upper quadrants, two lower quadrants, and a large outlined central circle overlapping all four fields.",
+          "A precise four-quadrant board around a centre circle; each quadrant uses a lightly tinted rounded rectangle and holds a different mix of prompts, lists, and metrics.",
+          "The central north-star circle turns four potentially disconnected strategy workstreams into parts of one stated purpose and success definition."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A strategic conversation map that moves from problem discovery through use cases, 90-day plan, and outcome areas without starting from technology alone.",
       "reader_state": [
-        "uncertain starting point",
-        "ambition without path",
-        "need to see progression"
+        "A procurement leader wants to turn AI ambition into a sequenced discussion of opportunity, advantage, plan, measurement, and a shared purpose."
       ],
       "visual_grammar": [
-        "levels, rings, stages, ladder or journey",
-        "clear start/end orientation",
-        "one capability shift per level",
-        "visible movement between states"
+        "Tall white strategy canvas with a dark headline, two large upper quadrants, two lower quadrants, and a large outlined central circle overlapping all four fields.",
+        "A precise four-quadrant board around a centre circle; each quadrant uses a lightly tinted rounded rectangle and holds a different mix of prompts, lists, and metrics.",
+        "The central north-star circle turns four potentially disconnected strategy workstreams into parts of one stated purpose and success definition."
       ],
       "information_grammar": [
-        "name current condition",
-        "show sequential capability shifts",
-        "define what changes at each level",
-        "make the next move intelligible"
+        "State strategy map -> understand opportunity -> unlock advantage -> centre the north star -> operationalise a phased plan -> measure outcome areas -> close with maturity/value test.",
+        "A strategic conversation map that moves from problem discovery through use cases, 90-day plan, and outcome areas without starting from technology alone.",
+        "Save for a strategy workshop; send to a procurement leader; use to structure an AI transformation conversation."
       ],
       "social_action_mechanics": [
-        "self-assess",
-        "save as a roadmap",
-        "use to start a team conversation"
+        "Save for a strategy workshop; send to a procurement leader; use to structure an AI transformation conversation."
       ],
       "use_when": [
-        "The chosen opportunity has a credible progression rather than a marketing funnel.",
-        "Moving between states changes capabilities or decisions, not just labels.",
-        "The reader benefits from locating a current state."
+        "The already selected reader moment genuinely benefits from an original maturity rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The levels are arbitrary.",
-        "There is no meaningful order.",
-        "The post would imply false maturity scoring or unsupported benchmarks."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Strategy is a balanced system, not an isolated tool",
-      "name current condition",
-      "show sequential capability shifts"
+      "Use a central north-star object to bind four related strategic questions; make each quadrant contribute a different decision job; balance ambition with a visible measurement/operationalisation path."
     ],
-    "reverse_build_specification": "When a chosen opportunity is genuinely developmental, use a clear progression with one capability change per stage. Make the starting point, movement and next credible step visible, and avoid treating maturity labels as evidence without support.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original maturity whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: Use a central north-star object to bind four related strategic questions; make each quadrant contribute a different decision job; balance ambition with a visible measurement/operationalisation path. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Exact four-panel north-star diagram",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not reuse the procurement-AI strategy subject, four quadrant names, 90-day phases, central North Star circle, colour blocks, icons, logo, or CTA.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended make progress, capability depth or transformation feel navigable rather than abstract. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#67",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#67",
     "source_context_id": "top100-workbook#67",
-    "content_hash": "affed4f8f0a463136d95f163eb2f2cb794765ba05aa1cd3828cdf51d704a0d17"
+    "content_hash": "affed4f8f0a463136d95f163eb2f2cb794765ba05aa1cd3828cdf51d704a0d17",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7456963522044968960",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/67.jpeg",
+      "asset_sha256": "6ed342c0e27c08d06b65682841fe7fb780b77887341478bebe237120e9a0d071",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

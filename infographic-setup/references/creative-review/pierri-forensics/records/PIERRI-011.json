@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 11,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/11.jpeg",
+    "sha256": "af4879fdd63fbb1c2be819a4d748e45f9b0cb029b826d4595d575875187d12fb",
+    "format": "jpeg",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Original local JPEG displayed directly at full-frame review size.",
+    "motion_sampling": {
+      "method": "Not applicable for static JPEG.",
+      "sampled_positions_ms": [],
+      "limitation": "No animation exists in this source asset."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A three-way choice is announced with a large editorial headline and “VIRAL INFOGRAPHICS” in a lavender highlighted object.",
+    "layout": "A three-column comparison framed as service/approach alternatives, with repeated criterion bands from top to bottom.",
+    "reading_order": "Title → named alternatives → repeated “what they do / process / outcome / buying” bands → bottom price row.",
+    "typography": "Large display title, one rough emphasis tag, strong column headers, then legible sans paragraphs and bar labels.",
+    "colour": "Pink, aqua, and lavender identify each alternative from header through bottom bar.",
+    "surface": "White page, fine black structural grid, rounded internal labels, pale fills, and light depth shadow.",
+    "modules": "Three alternatives crossed with four repeated decision criteria plus a closing price strip.",
+    "density": "High: the same question is answered for each option, so the detail is easy to compare."
+  },
+  "motion": {
+    "mode": "static",
+    "source_metadata": {
+      "frame_count": null,
+      "duration_ms_from_gce": null
+    },
+    "observed_state_change": "No temporal state: this is a static JPEG source asset.",
+    "motion_job": "Not applicable; the complete argument must work in one frame.",
+    "limitation": "No animation exists in this source asset."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Choose among alternatives based on trade-offs rather than isolated claims.",
+    "argument_shape": "Repeated-criteria option comparison.",
+    "mechanism": "Hold the evaluation criteria constant across options and reserve visual variation for the alternatives themselves.",
+    "use_condition": "Use only where the alternatives are genuinely comparable and caveats can be stated without burying the reader."
+  },
+  "anti_copy_boundary": "Do not reuse the source service categories, price claims, “viral infographic” promise, colour logic, label wording, or panel arrangement.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The visual contains price and capability comparisons. A caption is only asserted by numeric ID and does not validate the claims."
+  }
+}

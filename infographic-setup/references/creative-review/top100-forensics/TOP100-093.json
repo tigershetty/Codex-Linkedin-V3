@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-093",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7447623181395484672, bound to references/top 100/93.jpeg at SHA-256 ba44c6a9c057ec3a83d2d31d03c5516ad2babbdbb258864477313c2a3bfeba5a.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7447623181395484672; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex manual visual reviewer, batch 2026-08-07-a",
+    "reviewed_at": "2026-08-07T00:00:00.000Z",
+    "evidence": "Direct full-size review of references/top 100/93.jpeg at SHA-256 ba44c6a9c057ec3a83d2d31d03c5516ad2babbdbb258864477313c2a3bfeba5a. This is a static JPEG; GIF frame evidence is not applicable."
   },
   "asset": {
     "path": "references/top 100/93.jpeg",
-    "status": "visually_inspected",
+    "sha256": "ba44c6a9c057ec3a83d2d31d03c5516ad2babbdbb258864477313c2a3bfeba5a",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "ba44c6a9c057ec3a83d2d31d03c5516ad2babbdbb258864477313c2a3bfeba5a",
+      "reviewer": "Codex manual visual reviewer, batch 2026-08-07-a",
+      "reviewed_at": "2026-08-07T00:00:00.000Z",
+      "evidence": "Direct full-size review of references/top 100/93.jpeg at SHA-256 ba44c6a9c057ec3a83d2d31d03c5516ad2babbdbb258864477313c2a3bfeba5a. This is a static JPEG; GIF frame evidence is not applicable. Asset hash: ba44c6a9c057ec3a83d2d31d03c5516ad2babbdbb258864477313c2a3bfeba5a."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Nicolas Cole 🚢👻",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7447623181395484672",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "966316881ceb7545533c26a3039d56a5aac1d6ee00ea95fdea65d9c3b3c93731",
@@ -34,140 +49,159 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7447623181395484672",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "uncertain value",
-      "need to see what exists",
-      "desire for a practical shortcut"
-    ],
-    "desired_response": [
-      "comment or click for the resource",
-      "save for later access",
-      "share with someone who needs the tool"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A productised overview that makes each component feel like a distinct job inside one skills pack.",
+    "work_moment": "A ghostwriter or consultant wants to understand a paid-looking resource quickly enough to decide whether to request it.",
+    "tension": "Aspiration and product desire: an intangible workflow is made to look ownable.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Social ghostwriting skills pack.",
-    "comprehension_3_10_seconds": "The reader follows the central tangible object/interface, benefit modules pointing inward or outward, clear contents and use outcomes to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value.",
-    "identity_or_curiosity_trigger": "uncertain value; need to see what exists; desire for a practical shortcut",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Social ghostwriting skills pack."
+    "thumbnail_read_0_3_seconds": "A huge stark title promises five Claude skills, then a central 3D product-pack mockup is surrounded by four named outcomes and arrows.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Headline -> central product mockup -> top-left and top-right component cards -> lower-left and lower-right cards -> arrows -> CTA footer.”.",
+    "value_exchange_10_30_seconds": "A productised overview that makes each component feel like a distinct job inside one skills pack.",
+    "identity_or_curiosity_trigger": "Aspiration and product desire: an intangible workflow is made to look ownable.",
+    "promise_proved_by_visual": "The product object turns five digital skills into a cohesive purchasable system; the surrounding cards explain what the object contains."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Social ghostwriting skills pack",
-    "composition_and_grid": "central tangible object/interface; benefit modules pointing inward or outward; clear contents and use outcomes; one direct action",
-    "dominant_anchor": "Social ghostwriting skills pack",
+    "asset_specific_observation": "Black-to-deep-blue product-promo board with a large headline, four corner benefit zones, a central angled box mockup, looping arrows, and a keyword CTA strip.",
+    "composition_and_grid": "A four-quadrant information field split by thin rules, with the product object deliberately breaking the centre intersection.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: The multi-line headline is dominant; central product pack is next; four component names read as a perimeter menu; supporting descriptions and CTA are tertiary.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Headline",
+      "central product mockup",
+      "top-left and top-right component cards",
+      "lower-left and lower-right cards",
+      "arrows",
+      "CTA footer."
     ],
     "information_chunks": [
-      "name the object",
-      "show what it contains",
-      "show the job it helps complete",
-      "give the next access/use action"
+      "State outcome",
+      "name product pack",
+      "surround the pack with four component cards",
+      "show the tangible artefact",
+      "ask for a comment keyword."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Social ghostwriting skills pack.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "The multi-line headline is dominant; central product pack is next; four component names read as a perimeter menu; supporting descriptions and CTA are tertiary.",
+    "typography": "Very large white sans-serif headline, bold white component names, muted-grey explanatory copy, and high-contrast neon-lime keyword emphasis.",
+    "colour_material_and_contrast": "Black background, electric blue lower gradient, thin pale divider lines, restrained blue outline icons, warm arrow accents, and a glossy 3D render.",
+    "imagery_role": "The angled product pack is a physical proxy for a digital bundle; simple line icons label each component without competing with the pack.",
+    "density_and_pacing": "Fast desire/offer read, then short perimeter scan; arrows bring the eye back to the pack rather than forcing a linear lesson.",
     "craft_observations": [
-      "Social ghostwriting skills pack",
-      "Reusable atom: Product-led card design with named benefits",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The central object creates a clear commercial hierarchy; the four-zone layout stays balanced; product usefulness and results claims are not proven visually, and the phrase viral-worthy is marketing language rather than evidence."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A productised overview that makes each component feel like a distinct job inside one skills pack.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "name the object",
-      "show what it contains",
-      "show the job it helps complete",
-      "give the next access/use action"
+      "State outcome",
+      "name product pack",
+      "surround the pack with four component cards",
+      "show the tangible artefact",
+      "ask for a comment keyword."
     ],
-    "compression_method": "central tangible object/interface; benefit modules pointing inward or outward; clear contents and use outcomes; one direct action",
-    "reader_payoff": "Make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value.",
+    "compression_method": "The reviewed visual mechanism is “The product object turns five digital skills into a cohesive purchasable system; the surrounding cards explain what the object contains.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A productised overview that makes each component feel like a distinct job inside one skills pack.",
     "save_share_return_motives": [
-      "comment or click for the resource",
-      "save for later access",
-      "share with someone who needs the tool"
+      "Use as an offer comprehension page; save to compare a product pack; comment or message to request the resource."
     ],
-    "caption_to_visual_choreography": "Clarify who the object is for, what it does not solve, access terms and real evidence of utility if claimed."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “The product object turns five digital skills into a cohesive purchasable system; the surrounding cards explain what the object contains.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value.",
+      "mechanism_family": "visual_explainer",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "State outcome -> name product pack -> surround the pack with four component cards -> show the tangible artefact -> ask for a comment keyword.",
+          "Black-to-deep-blue product-promo board with a large headline, four corner benefit zones, a central angled box mockup, looping arrows, and a keyword CTA strip.",
+          "A four-quadrant information field split by thin rules, with the product object deliberately breaking the centre intersection.",
+          "The product object turns five digital skills into a cohesive purchasable system; the surrounding cards explain what the object contains."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A productised overview that makes each component feel like a distinct job inside one skills pack.",
       "reader_state": [
-        "uncertain value",
-        "need to see what exists",
-        "desire for a practical shortcut"
+        "A ghostwriter or consultant wants to understand a paid-looking resource quickly enough to decide whether to request it."
       ],
       "visual_grammar": [
-        "central tangible object/interface",
-        "benefit modules pointing inward or outward",
-        "clear contents and use outcomes",
-        "one direct action"
+        "Black-to-deep-blue product-promo board with a large headline, four corner benefit zones, a central angled box mockup, looping arrows, and a keyword CTA strip.",
+        "A four-quadrant information field split by thin rules, with the product object deliberately breaking the centre intersection.",
+        "The product object turns five digital skills into a cohesive purchasable system; the surrounding cards explain what the object contains."
       ],
       "information_grammar": [
-        "name the object",
-        "show what it contains",
-        "show the job it helps complete",
-        "give the next access/use action"
+        "State outcome -> name product pack -> surround the pack with four component cards -> show the tangible artefact -> ask for a comment keyword.",
+        "A productised overview that makes each component feel like a distinct job inside one skills pack.",
+        "Use as an offer comprehension page; save to compare a product pack; comment or message to request the resource."
       ],
       "social_action_mechanics": [
-        "comment or click for the resource",
-        "save for later access",
-        "share with someone who needs the tool"
+        "Use as an offer comprehension page; save to compare a product pack; comment or message to request the resource."
       ],
       "use_when": [
-        "A real artifact, interface, toolkit or workflow exists.",
-        "The image can truthfully show what the reader receives or does.",
-        "The offer has a clear practical use."
+        "The already selected reader moment genuinely benefits from an original visual explainer rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "There is no real usable object.",
-        "The product image is a substitute for proof.",
-        "The post uses a forced CTA before giving standalone value."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Product-led card design with named benefits",
-      "name the object",
-      "show what it contains"
+      "Place the product or artefact at the centre; let surrounding benefit modules point inward; name tangible components rather than vague transformation claims."
     ],
-    "reverse_build_specification": "When a chosen opportunity has a real usable object, centre the artifact or interface and organise surrounding value by jobs completed. Make the object tangible, separate claims from proof, and ensure the post is useful even without the CTA.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original visual explainer whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: Place the product or artefact at the centre; let surrounding benefit modules point inward; name tangible components rather than vague transformation claims. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Product design and CTA mechanic",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not reuse the ghostwriting product, the five-skill claims, 3D pack mockup, dark-blue gradient, arrow grammar, icon set, or comment CTA.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended make an abstract offer, tool or workflow feel concrete by showing its usable object and surrounding value. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#93",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#93",
     "source_context_id": "top100-workbook#93",
-    "content_hash": "7a4a0daef14380087a0685e42c522f76969933c9a6a09ec8ab116b5cd02212b8"
+    "content_hash": "7a4a0daef14380087a0685e42c522f76969933c9a6a09ec8ab116b5cd02212b8",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7447623181395484672",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/93.jpeg",
+      "asset_sha256": "ba44c6a9c057ec3a83d2d31d03c5516ad2babbdbb258864477313c2a3bfeba5a",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

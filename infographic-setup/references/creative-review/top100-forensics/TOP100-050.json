@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-050",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7460295282996649984, bound to references/top 100/50.jpeg at SHA-256 7fe1eb86798730fc5bd26e03eabf87c5a8097275ada8615e61aefff1dbdebd43.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7460295282996649984; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex direct-asset visual reviewer — Batch B",
+    "reviewed_at": "2026-08-07T15:00:00+02:00",
+    "evidence": "Full-size direct inspection of references/top 100/50.jpeg against the declared SHA-256; observations below describe the actual multi-module blueprint."
   },
   "asset": {
     "path": "references/top 100/50.jpeg",
-    "status": "visually_inspected",
+    "sha256": "7fe1eb86798730fc5bd26e03eabf87c5a8097275ada8615e61aefff1dbdebd43",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "7fe1eb86798730fc5bd26e03eabf87c5a8097275ada8615e61aefff1dbdebd43",
+      "reviewer": "Codex direct-asset visual reviewer — Batch B",
+      "reviewed_at": "2026-08-07T15:00:00+02:00",
+      "evidence": "Full-size direct inspection of references/top 100/50.jpeg against the declared SHA-256; observations below describe the actual multi-module blueprint. Asset hash: 7fe1eb86798730fc5bd26e03eabf87c5a8097275ada8615e61aefff1dbdebd43."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "MJ Jaindl",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7460295282996649984",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "dcb3e61b22db4e8f3caf281190bf0ee663386717f1dc0d5e62ecd887380bc983",
@@ -34,140 +49,161 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7460295282996649984",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "blank-page friction",
-      "process uncertainty",
-      "desire for a reliable first move"
-    ],
-    "desired_response": [
-      "save for later execution",
-      "send to someone learning the process",
-      "return at the point of work"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A broad workflow map that gives several possible next actions within one saved visual.",
+    "work_moment": "A creator is looking for a repeatable weekly LinkedIn operating rhythm across profile, publishing, response and measurement.",
+    "tension": "Ambition with relief that a complex growth routine has been made into bounded time blocks.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Creator growth plan with daily/weekly rhythm.",
-    "comprehension_3_10_seconds": "The reader follows the numbered sequence, one visible action per stage, progress cue to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Convert an intimidating process into a sequence a reader can start and repeat.",
-    "identity_or_curiosity_trigger": "blank-page friction; process uncertainty; desire for a reliable first move",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Creator growth plan with daily/weekly rhythm."
+    "thumbnail_read_0_3_seconds": "0–3s: the oversized ‘How to Grow on LinkedIn’ headline, oversized blue word block and ‘1,000+ accounts’ subtitle create a one-sheet blueprint promise. 3–10s: the reader sees two prominent time-bound modules—the 10-minute audit and 60-minute daily loop. 10–30s: lower modules offer content mix, hooks, engagement, metrics, week plan and creator-follow list.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Headline → profile audit → daily loop broken into time columns → three middle modules → three bottom modules → branded footer.”.",
+    "value_exchange_10_30_seconds": "A broad workflow map that gives several possible next actions within one saved visual.",
+    "identity_or_curiosity_trigger": "Ambition with relief that a complex growth routine has been made into bounded time blocks.",
+    "promise_proved_by_visual": "The sheet packages a multi-part system as a spatial dashboard so readers can navigate by operating job rather than read a long post in order."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Creator growth plan with daily/weekly rhythm",
-    "composition_and_grid": "numbered sequence; one visible action per stage; progress cue; optional prompt/interface/example at each stage",
-    "dominant_anchor": "Creator growth plan with daily/weekly rhythm",
+    "asset_specific_observation": "Pale blue poster with a large mixed-type headline, two full-width rounded modules at top, then six smaller modules in a three-column lower grid and a cobalt footer.",
+    "composition_and_grid": "A visual operating manual: wide modules hold a sequence and small modules hold independent reference material.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: Headline and blue ‘Grow on LinkedIn’ label lead; the profile audit and daily loop span the width; lower boxes are an intentionally secondary reference shelf.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Headline",
+      "profile audit",
+      "daily loop broken into time columns",
+      "three middle modules",
+      "three bottom modules",
+      "branded footer."
     ],
     "information_chunks": [
-      "start condition",
-      "small steps",
-      "decision or quality gate",
-      "repeatable loop or next action"
+      "Big growth promise",
+      "immediate profile audit",
+      "daily loop",
+      "tactical content/engagement modules",
+      "metrics and weekly plan",
+      "creator list and CTA."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Creator growth plan with daily/weekly rhythm.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "Headline and blue ‘Grow on LinkedIn’ label lead; the profile audit and daily loop span the width; lower boxes are an intentionally secondary reference shelf.",
+    "typography": "Large black display serif paired with bold blue serif in a rounded word container; module titles use bold sans and dense body copy.",
+    "colour_material_and_contrast": "Pale ice-blue background, cobalt borders/shadows and headings, teal-to-blue panel tints, black icon line work and sparse yellow highlighter accents.",
+    "imagery_role": "Small black outline icons clarify profile, clock, hook, handshake, metrics and people without carrying the rationale.",
+    "density_and_pacing": "Starts with an overview, moves to daily behaviour, then invites non-linear lookup in the lower tile field.",
     "craft_observations": [
-      "Creator growth plan with daily/weekly rhythm",
-      "Reusable atom: A plan becomes tangible when timeboxed",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "Time chips divide the daily loop into clear action windows. Repeated rounded borders make uneven content feel coherent. The giant blue title block provides thumbnail contrast while the lower field provides saving value."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A broad workflow map that gives several possible next actions within one saved visual.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "start condition",
-      "small steps",
-      "decision or quality gate",
-      "repeatable loop or next action"
+      "Big growth promise",
+      "immediate profile audit",
+      "daily loop",
+      "tactical content/engagement modules",
+      "metrics and weekly plan",
+      "creator list and CTA."
     ],
-    "compression_method": "numbered sequence; one visible action per stage; progress cue; optional prompt/interface/example at each stage",
-    "reader_payoff": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "compression_method": "The reviewed visual mechanism is “The sheet packages a multi-part system as a spatial dashboard so readers can navigate by operating job rather than read a long post in order.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A broad workflow map that gives several possible next actions within one saved visual.",
     "save_share_return_motives": [
-      "save for later execution",
-      "send to someone learning the process",
-      "return at the point of work"
+      "Reference board to return to when planning a week or auditing one part of a content operation."
     ],
-    "caption_to_visual_choreography": "Explain the work moment, trade-offs and failure boundary behind the steps; do not merely transcribe them."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “The sheet packages a multi-part system as a spatial dashboard so readers can navigate by operating job rather than read a long post in order.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Convert an intimidating process into a sequence a reader can start and repeat.",
+      "mechanism_family": "workflow",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "Big growth promise → immediate profile audit → daily loop → tactical content/engagement modules → metrics and weekly plan → creator list and CTA.",
+          "Pale blue poster with a large mixed-type headline, two full-width rounded modules at top, then six smaller modules in a three-column lower grid and a cobalt footer.",
+          "A visual operating manual: wide modules hold a sequence and small modules hold independent reference material.",
+          "The sheet packages a multi-part system as a spatial dashboard so readers can navigate by operating job rather than read a long post in order."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A broad workflow map that gives several possible next actions within one saved visual.",
       "reader_state": [
-        "blank-page friction",
-        "process uncertainty",
-        "desire for a reliable first move"
+        "A creator is looking for a repeatable weekly LinkedIn operating rhythm across profile, publishing, response and measurement."
       ],
       "visual_grammar": [
-        "numbered sequence",
-        "one visible action per stage",
-        "progress cue",
-        "optional prompt/interface/example at each stage"
+        "Pale blue poster with a large mixed-type headline, two full-width rounded modules at top, then six smaller modules in a three-column lower grid and a cobalt footer.",
+        "A visual operating manual: wide modules hold a sequence and small modules hold independent reference material.",
+        "The sheet packages a multi-part system as a spatial dashboard so readers can navigate by operating job rather than read a long post in order."
       ],
       "information_grammar": [
-        "start condition",
-        "small steps",
-        "decision or quality gate",
-        "repeatable loop or next action"
+        "Big growth promise → immediate profile audit → daily loop → tactical content/engagement modules → metrics and weekly plan → creator list and CTA.",
+        "A broad workflow map that gives several possible next actions within one saved visual.",
+        "Reference board to return to when planning a week or auditing one part of a content operation."
       ],
       "social_action_mechanics": [
-        "save for later execution",
-        "send to someone learning the process",
-        "return at the point of work"
+        "Reference board to return to when planning a week or auditing one part of a content operation."
       ],
       "use_when": [
-        "A useful outcome genuinely requires ordered actions.",
-        "The reader can begin without hidden prerequisites.",
-        "The sequence has a real quality check or decision point."
+        "The already selected reader moment genuinely benefits from an original workflow rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The work is non-linear and forcing steps would mislead.",
-        "The post cannot specify a valid first action.",
-        "The claim is a broad strategy rather than a process."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "A plan becomes tangible when timeboxed",
-      "start condition",
-      "small steps"
+      "Group a broad operating system into unequal functional modules and make the time-bound routine visually dominant. Provide both a recurring loop and a planning horizon so the reader can choose a next action."
     ],
-    "reverse_build_specification": "When an opportunity needs a repeatable start-to-finish path, use numbered stages with one action and one visible output per stage. Make progress feel possible, include the point at which the reader must judge or validate, and reserve the caption for context and exceptions.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original workflow whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: Group a broad operating system into unequal functional modules and make the time-bound routine visually dominant. Provide both a recurring loop and a planning horizon so the reader can choose a next action. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Pastel workbook aesthetic",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not copy the 1,000+ account claim, exact minute allocation, Stanley branding, named creator list, quote-ready hook examples, or blue/teal blueprint treatment.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended convert an intimidating process into a sequence a reader can start and repeat. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#50",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#50",
     "source_context_id": "top100-workbook#50",
-    "content_hash": "a7df3be51630ebd4865ddd93eb5b1918ffa60c8c9018daa040719c8133ea167b"
+    "content_hash": "a7df3be51630ebd4865ddd93eb5b1918ffa60c8c9018daa040719c8133ea167b",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7460295282996649984",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/50.jpeg",
+      "asset_sha256": "7fe1eb86798730fc5bd26e03eabf87c5a8097275ada8615e61aefff1dbdebd43",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

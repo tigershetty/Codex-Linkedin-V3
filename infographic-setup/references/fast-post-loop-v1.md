@@ -10,10 +10,13 @@ creative work and removes the paperwork that was delaying it.
 Use this for an ordinary LinkedIn post. Use the full Creative Genome package only when the post is
 a flagship, contains a substantial evidence claim, or needs a real downloadable artifact.
 
-Before any V4 production, run `node scripts/validate-reference-review-foundation.mjs --require-complete`.
-The first release after it passes is a declared calibration post. Do not restart the five-post cadence
-until the calibration review records the approved visual, caption, audience-relevance sample, and
-one transfer decision.
+Before declaring the V4 foundation complete or restarting five-post cadence, run
+`node scripts/validate-reference-review-foundation.mjs --require-complete`. While it is incomplete,
+do not retrieve unreviewed Top-100 candidates as verified visual intelligence. You may still build an
+internal design lab or selected post from separately evidence-bound references; record that boundary
+explicitly. The first release after the gate passes is a declared calibration post. Do not restart
+the five-post cadence until its review records the approved visual, caption, audience-relevance
+sample, and one transfer decision.
 
 ## The 75-minute ceiling
 
@@ -86,19 +89,27 @@ extra production effort to disguise a weak story.
 
 ## Rendering rule
 
-For a standard image-led post, the final visual is rendered natively by the image engine.
+For a standard **scene-led** post, the final visual is rendered natively by the image engine.
 Do not paste HTML, SVG, dashboard cards, or a title layer over an image to make it feel finished.
 The scene, hierarchy, text treatment, and visual tension must be one rendered composition.
 
-The render budget is one or two native image renders total:
+For a standard **framework-led** post, select the Working Infographic route before the 25-minute
+decision point. Use `v5-working-infographic-production-system.md` and a Figma-native final when
+exact hierarchy, diagram geometry, comparison, conditions, or micro-detail are the reader value.
+The page must be one designed information object—not a scene with a bolt-on title layer or an
+arbitrary card wall. Its 10-second test is orientation; its deeper utility may take 30–90 seconds.
+
+The render budget for a scene-led route is one or two native image renders total:
 
 1. The selected first render.
 2. One correction only, named against the failed reader check (for example, `correction—make the
    decision boundary visible`).
 
 A third render is not a revision; it is a new direction. Park it or move it to a declared
-flagship. Do not keep unused active PNGs beside the selected one: list the first render and, if
-used, the correction in `Render paths`.
+flagship. For a framework-led route, record the Figma file/node, selected export, and one deliberate
+structural correction in the post card rather than generating image-model variants. Do not keep
+unused active PNGs beside the selected one: list the first render and, if used, the correction in
+`Render paths`.
 
 Write one caption after the visual. It may receive one rewrite after the reader check. If the
 caption still fails the Tiger or Keep check, park the post rather than adding more versions.
@@ -106,7 +117,13 @@ caption still fails the Tiger or Keep check, park the post rather than adding mo
 An exact spreadsheet, field guide, calculator, or document may be a separate artifact when it adds
 genuine utility. It is not a compulsory lower strip bolted onto a social visual.
 
-## Field Guide exception
+## Working Infographic and Field Guide exceptions
+
+Use the Working Infographic route when the post earns a saveable Figma-native social framework:
+a comparison, path, decision tree, taxonomy, diagnostic, spectrum, measured display, or operating
+map. It remains a standard post only when the 25-minute select point has a real reader moment,
+truthful spatial claim, compact brief, and bounded production surface. Use the selected Figma node
+as the exact visual source; do not expand it into a pseudo-flagship report.
 
 Use the specialist Field Guide Notebook route only when the selected post needs a compact working
 reference and passes the admission test in `v5-field-guide-notebook-production-system.md`. It may

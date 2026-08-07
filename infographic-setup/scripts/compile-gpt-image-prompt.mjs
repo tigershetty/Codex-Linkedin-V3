@@ -264,7 +264,7 @@ const data = {
     field(content, 'Internal fixtures excluded from public proof'),
   ),
   brandExpression: first(field(brief, 'Visual family selected'), 'explicitly selected visual family'),
-  brandFrame: first(field(brief, 'Signature guardrail'), 'references/creative-review/signature-system-v2.md'),
+  brandFrame: first(field(brief, 'Signature guardrail'), 'references/creative-review/signature-system-v3.md'),
   brandDirection: first(
     field(brief, 'Brand direction'),
     'Product-grade clarity: derive material, type treatment, palette and density from the explicitly selected visual family, reader tension, and signature guardrail. Do not inherit a legacy palette or scene treatment by default.',

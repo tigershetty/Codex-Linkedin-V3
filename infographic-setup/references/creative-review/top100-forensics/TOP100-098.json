@@ -1,17 +1,27 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-098",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "provisional_template_assisted_candidate",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "mode": "template_assisted_candidate",
+    "generated_at": "2026-08-07T00:00:00.000Z",
+    "visual_basis": "High-level discovery-index labels plus a reusable profile mapping; no record-level manual asset review is attached.",
     "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "boundary": "This candidate is a routing aid for manual review. It cannot establish asset-specific visual mechanics, animation behaviour, factual claims, or a high-confidence creative mechanism.",
+    "reviewer": null,
+    "reviewed_at": null,
+    "evidence": null
   },
   "asset": {
     "path": "references/top 100/98.jpeg",
-    "status": "visually_inspected",
+    "sha256": "f90085340343550f851cdff62dad823d3793c48b70ffadb3238609f0ee433ba1",
+    "status": "available_for_manual_review",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": null,
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "No manual asset-specific visual review is attached to this generated candidate."
+    ]
   },
   "source_context": {
     "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
@@ -36,138 +46,54 @@
       "Independent validation of factual or numerical claims within the source post."
     ]
   },
-  "reader_situation": {
-    "primary_reader_state": [
+  "template_assisted_hypotheses": {
+    "profile_name": "taxonomy",
+    "source_discovery_index": "top100-visual-inspection-2026-08-05#98",
+    "candidate_visual_mechanism": "AI terms explained as a journey path",
+    "candidate_transferable_atom": "Long vocabulary list gains rhythm from one continuous path",
+    "candidate_anti_copy_boundary": "Road/pin motif and term definitions",
+    "candidate_cognitive_job": "Give readers a simple classification system that helps them identify what they are looking at.",
+    "candidate_reader_states": [
       "vocabulary gap",
       "need to sort options",
       "uncertain categorisation"
     ],
-    "desired_response": [
-      "save as quick reference",
-      "share with learners",
-      "return when classifying an example"
+    "candidate_visual_grammar": [
+      "repeatable category tiles or branches",
+      "clear labels",
+      "consistent visual key",
+      "small examples or conditions"
     ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
-  },
-  "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by AI terms explained as a journey path.",
-    "comprehension_3_10_seconds": "The reader follows the repeatable category tiles or branches, clear labels, consistent visual key to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Give readers a simple classification system that helps them identify what they are looking at.",
-    "identity_or_curiosity_trigger": "vocabulary gap; need to sort options; uncertain categorisation",
-    "promise_proved_by_visual": "The visual’s proof mechanism is AI terms explained as a journey path."
-  },
-  "visual_forensics": {
-    "asset_specific_observation": "AI terms explained as a journey path",
-    "composition_and_grid": "repeatable category tiles or branches; clear labels; consistent visual key; small examples or conditions",
-    "dominant_anchor": "AI terms explained as a journey path",
-    "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
-    ],
-    "information_chunks": [
+    "candidate_information_grammar": [
       "name the universe",
       "define categories",
       "show differentiating criteria",
       "make selection/identification possible"
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: AI terms explained as a journey path.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
-    "craft_observations": [
-      "AI terms explained as a journey path",
-      "Reusable atom: Long vocabulary list gains rhythm from one continuous path",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
-    ]
-  },
-  "content_mechanics": {
-    "primary_cognitive_job": "Give readers a simple classification system that helps them identify what they are looking at.",
-    "argument_sequence": [
-      "name the universe",
-      "define categories",
-      "show differentiating criteria",
-      "make selection/identification possible"
+    "candidate_caption_job": "Clarify scope, edge cases and the selection criterion that the visual cannot fully contain.",
+    "candidate_use_when": [
+      "The domain has a stable, useful set of categories.",
+      "A reader can identify an option using visible criteria.",
+      "The taxonomy reduces real confusion."
     ],
-    "compression_method": "repeatable category tiles or branches; clear labels; consistent visual key; small examples or conditions",
-    "reader_payoff": "Give readers a simple classification system that helps them identify what they are looking at.",
-    "save_share_return_motives": [
-      "save as quick reference",
-      "share with learners",
-      "return when classifying an example"
+    "candidate_do_not_use_when": [
+      "Categories are arbitrary, disputed or need extensive caveats.",
+      "A process map is needed instead of a classification.",
+      "The list is presented as complete without a scope boundary."
     ],
-    "caption_to_visual_choreography": "Clarify scope, edge cases and the selection criterion that the visual cannot fully contain."
-  },
-  "recombination": {
-    "mechanism_fingerprint": {
-      "primary_cognitive_job": "Give readers a simple classification system that helps them identify what they are looking at.",
-      "reader_state": [
-        "vocabulary gap",
-        "need to sort options",
-        "uncertain categorisation"
-      ],
-      "visual_grammar": [
-        "repeatable category tiles or branches",
-        "clear labels",
-        "consistent visual key",
-        "small examples or conditions"
-      ],
-      "information_grammar": [
-        "name the universe",
-        "define categories",
-        "show differentiating criteria",
-        "make selection/identification possible"
-      ],
-      "social_action_mechanics": [
-        "save as quick reference",
-        "share with learners",
-        "return when classifying an example"
-      ],
-      "use_when": [
-        "The domain has a stable, useful set of categories.",
-        "A reader can identify an option using visible criteria.",
-        "The taxonomy reduces real confusion."
-      ],
-      "do_not_use_when": [
-        "Categories are arbitrary, disputed or need extensive caveats.",
-        "A process map is needed instead of a classification.",
-        "The list is presented as complete without a scope boundary."
-      ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
-    },
-    "transferable_atoms": [
-      "Long vocabulary list gains rhythm from one continuous path",
-      "name the universe",
-      "define categories"
-    ],
-    "reverse_build_specification": "When a chosen opportunity needs classification rather than progression, create repeated category units with one clear differentiator and an explicit scope. Make it easy for a reader to place an example without pretending all edge cases disappear.",
-    "editable_levers": [
-      "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
-      "caption role",
-      "format/material treatment"
-    ],
-    "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
-    ],
-    "anti_copy_boundary": [
-      "Road/pin motif and term definitions",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
-    ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended give readers a simple classification system that helps them identify what they are looking at. without relying on the caption?"
+    "candidate_reverse_build_specification": "When a chosen opportunity needs classification rather than progression, create repeated category units with one clear differentiator and an explicit scope. Make it easy for a reader to place an example without pretending all edge cases disappear.",
+    "topic_selection_boundary": "This template does not select a future topic, audience, factual claim or post angle.",
+    "required_next_step": "Inspect the local asset and write record-specific evidence before promoting any candidate field into a manual forensic record or Creative Genome retrieval."
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#98",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#98",
     "source_context_id": "top100-workbook#98",
-    "content_hash": "b8bc6297681ada174e3b0171c24218857cb2196ed6f389f962bc96cb4df5acd5"
+    "content_hash": "b8bc6297681ada174e3b0171c24218857cb2196ed6f389f962bc96cb4df5acd5",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    }
   }
 }

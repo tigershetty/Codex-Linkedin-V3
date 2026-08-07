@@ -55,13 +55,17 @@ construction brief. See `creative-review/reference-forensics-v1.md`. This preven
 "pastel cards / dark grid" analysis from masquerading as creative intelligence.
 
 Preview presence never counts as a verified visual annotation. The active visual authority is the
-manual `references/creative-review/reference-review-ledger.jsonl`: inspect the actual image or
-record it explicitly inaccessible before a visual atom is marked `visually_verified`.
+evidence-bound `references/creative-review/reference-review-ledger.jsonl`: inspect the actual image
+or record it explicitly inaccessible before a visual atom is marked `visually_verified`. A
+template-assisted record is a retrieval hypothesis only; it cannot be returned as high-confidence
+forensic creative intelligence until asset, reviewer, date, and review evidence are recorded.
 
-The completed Top-100 visual subset is indexed in
+The manually evidenced Top-100 slice is indexed in
 `references/creative-genome/top100-creative-genome-v1.json`, with its operating guide in
-`references/creative-genome/creative-retrieval-guide-v1.md`. It is deliberately searchable by
-reader state, desired response and cognitive job—not by a preselected supply-chain topic.
+`references/creative-genome/creative-retrieval-guide-v1.md`. Template-assisted Top-100 candidates
+remain outside retrieval until asset-specific manual review promotes them. The indexed manual slice
+is deliberately searchable by reader state, desired response and cognitive job—not by a preselected
+supply-chain topic.
 
 ## Creative retrieval for flagships
 
@@ -139,8 +143,9 @@ uniquely adds.
 Backstage intelligence may be complex. The public output must be simple:
 
 - the problem, tension, promise, or intentional visual intrigue is visible in **3 seconds**;
-- the main insight is understandable in **10 seconds**;
-- a useful action, reference, or next step is available in **30 seconds**;
+- the structural reading route is understandable in **10 seconds**;
+- a useful action, reference, or next step is available in **30–90 seconds** for a dense resource
+  graphic (a light post may still resolve in 30 seconds);
 - the visual has one dominant reader response and one primary reading route;
 - the visual itself proves the opening tension before the reader needs the caption;
 - when the selected visual primitive uses a range, threshold, gate, or limit, the plan names the

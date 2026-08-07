@@ -16,6 +16,13 @@ real reader moment / tension
 
 The genome does not supply the first line. It tells us how to make a selected line easier to stop for, understand, save, share or discuss.
 
+## Provenance fence
+
+The Top-100 index includes only `manual_forensic_review` records in its retrieval results. A
+`provisional_template_assisted_candidate` is a useful route into the next visual review, but its
+profile labels are not evidence and must not be used as a creative mechanism until the exact asset is
+manually inspected, hashed, and evidenced.
+
 ## Five-question retrieval card
 
 Before opening the genome, write only these five answers:

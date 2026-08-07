@@ -1,5 +1,9 @@
 # V5 Field Guide Notebook — Production System
 
+> **Status: specialist route, not V5 default.** This is one durable, precision-reference family.
+> For a high-density LinkedIn framework, map, comparison, diagnostic, taxonomy, or decision object,
+> start with [`v5-working-infographic-production-system.md`](v5-working-infographic-production-system.md).
+
 **Status:** specialist production authority for a Shetty's Desk resource post or durable working reference.
 
 **Purpose:** make an operational idea easier to recognise, discuss, and use. The reader should leave with a compact working reference, not a decorative summary of a concept they already know.

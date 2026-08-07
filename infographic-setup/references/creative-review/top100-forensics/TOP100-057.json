@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-057",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7459932907940536321, bound to references/top 100/57.jpeg at SHA-256 8e5775e78b746de83d46bbf93ad0413f909600d8f10bddc92a9f2b7c0d7c365c.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7459932907940536321; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex direct-asset visual reviewer — Batch B",
+    "reviewed_at": "2026-08-07T15:00:00+02:00",
+    "evidence": "Full-size direct inspection of references/top 100/57.jpeg against the declared SHA-256; observations below describe the actual 18-cell sheet."
   },
   "asset": {
     "path": "references/top 100/57.jpeg",
-    "status": "visually_inspected",
+    "sha256": "8e5775e78b746de83d46bbf93ad0413f909600d8f10bddc92a9f2b7c0d7c365c",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "8e5775e78b746de83d46bbf93ad0413f909600d8f10bddc92a9f2b7c0d7c365c",
+      "reviewer": "Codex direct-asset visual reviewer — Batch B",
+      "reviewed_at": "2026-08-07T15:00:00+02:00",
+      "evidence": "Full-size direct inspection of references/top 100/57.jpeg against the declared SHA-256; observations below describe the actual 18-cell sheet. Asset hash: 8e5775e78b746de83d46bbf93ad0413f909600d8f10bddc92a9f2b7c0d7c365c."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "MJ Jaindl",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7459932907940536321",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "04fd44354c6f63e50d0d0475eb450d338211ee3ae77a837f116e039b168595f0",
@@ -34,140 +49,155 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7459932907940536321",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "information overload",
-      "need for quick lookup",
-      "desire to feel more fluent at work"
-    ],
-    "desired_response": [
-      "save as a field reference",
-      "share with a newer colleague",
-      "return during real work"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A one-screen reference that enables fast retrieval of one rule at a time rather than a long linear tutorial.",
+    "work_moment": "A creator wants a compact checklist of choices across formats, hooks, cadence, engagement and profile behaviour.",
+    "tension": "Comfort from a well-organised rule set and mild urgency from the red anti-patterns.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by 18 laws as DO/DON'T card grid around a headline.",
-    "comprehension_3_10_seconds": "The reader follows the modular reference blocks or table, strong title promise, repeated card/row rule to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
-    "identity_or_curiosity_trigger": "information overload; need for quick lookup; desire to feel more fluent at work",
-    "promise_proved_by_visual": "The visual’s proof mechanism is 18 laws as DO/DON'T card grid around a headline."
+    "thumbnail_read_0_3_seconds": "0–3s: ‘18 LinkedIn Laws’ sits oversized in a large central black tile and communicates a finite reference collection. 3–10s: surrounding headings form a twelve-topic menu. 10–30s: each small dark card offers one green DO and one red DON’T for a selected topic.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Centre title → adjacent headings around the grid → individual green DO line and red DON’T line within a chosen tile → small footer.”.",
+    "value_exchange_10_30_seconds": "A one-screen reference that enables fast retrieval of one rule at a time rather than a long linear tutorial.",
+    "identity_or_curiosity_trigger": "Comfort from a well-organised rule set and mild urgency from the red anti-patterns.",
+    "promise_proved_by_visual": "A central index plus surrounding modules makes a dense checklist feel like a reference board rather than an article."
   },
   "visual_forensics": {
-    "asset_specific_observation": "18 laws as DO/DON'T card grid around a headline",
-    "composition_and_grid": "modular reference blocks or table; strong title promise; repeated card/row rule; grouping through category and hierarchy",
-    "dominant_anchor": "18 laws as DO/DON'T card grid around a headline",
+    "asset_specific_observation": "Charcoal poster with a large central title tile surrounded by twelve equally styled rounded rectangles in a near-grid.",
+    "composition_and_grid": "A modular 4-column-like field with the title occupying the central large tile and independent advice tiles around it.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: The central ‘18 LinkedIn Laws’ tile is much larger; topic headings are secondary; coloured check/cross symbols create quick third-level anchors.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Centre title",
+      "adjacent headings around the grid",
+      "individual green DO line and red DON’T line within a chosen tile",
+      "small footer."
     ],
     "information_chunks": [
-      "state the scope",
-      "group items by a usable logic",
-      "give compact definitions/formulas/examples",
-      "make the reference retrievable at a glance"
+      "Central promise",
+      "topical tile selection",
+      "paired do/don’t instructions",
+      "subtle follow/topic attribution."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: 18 laws as DO/DON'T card grid around a headline.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "The central ‘18 LinkedIn Laws’ tile is much larger; topic headings are secondary; coloured check/cross symbols create quick third-level anchors.",
+    "typography": "Large high-contrast serif display type for title/topic headings and compact serif body text; green and red symbols distinguish instruction polarity.",
+    "colour_material_and_contrast": "Near-black textured ground, thin cream outlines, cream text, pale green checks, red crosses and very restrained colour.",
+    "imagery_role": "No illustrative scenes; symbols, rounded card boundaries and typographic hierarchy provide all the visual structure.",
+    "density_and_pacing": "The layout rejects a single narrative order; it rewards scanning to the relevant problem and returning later for another tile.",
     "craft_observations": [
-      "18 laws as DO/DON'T card grid around a headline",
-      "Reusable atom: Explicit contrast makes advice fast to scan",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The empty black spaces between rounded cards preserve legibility. Title scale creates immediate recognisability at thumbnail size. Strictly repeated card grammar creates reliability across many content units."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A one-screen reference that enables fast retrieval of one rule at a time rather than a long linear tutorial.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "state the scope",
-      "group items by a usable logic",
-      "give compact definitions/formulas/examples",
-      "make the reference retrievable at a glance"
+      "Central promise",
+      "topical tile selection",
+      "paired do/don’t instructions",
+      "subtle follow/topic attribution."
     ],
-    "compression_method": "modular reference blocks or table; strong title promise; repeated card/row rule; grouping through category and hierarchy",
-    "reader_payoff": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+    "compression_method": "The reviewed visual mechanism is “A central index plus surrounding modules makes a dense checklist feel like a reference board rather than an article.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A one-screen reference that enables fast retrieval of one rule at a time rather than a long linear tutorial.",
     "save_share_return_motives": [
-      "save as a field reference",
-      "share with a newer colleague",
-      "return during real work"
+      "Save/revisit tool for checking a specific LinkedIn practice."
     ],
-    "caption_to_visual_choreography": "Explain scope, provenance, use boundary and the one practical reason the reader should keep the reference."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “A central index plus surrounding modules makes a dense checklist feel like a reference board rather than an article.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Package a dense but recurring body of knowledge into a reference readers can repeatedly consult.",
+      "mechanism_family": "field_guide",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "Central promise → topical tile selection → paired do/don’t instructions → subtle follow/topic attribution.",
+          "Charcoal poster with a large central title tile surrounded by twelve equally styled rounded rectangles in a near-grid.",
+          "A modular 4-column-like field with the title occupying the central large tile and independent advice tiles around it.",
+          "A central index plus surrounding modules makes a dense checklist feel like a reference board rather than an article."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A one-screen reference that enables fast retrieval of one rule at a time rather than a long linear tutorial.",
       "reader_state": [
-        "information overload",
-        "need for quick lookup",
-        "desire to feel more fluent at work"
+        "A creator wants a compact checklist of choices across formats, hooks, cadence, engagement and profile behaviour."
       ],
       "visual_grammar": [
-        "modular reference blocks or table",
-        "strong title promise",
-        "repeated card/row rule",
-        "grouping through category and hierarchy"
+        "Charcoal poster with a large central title tile surrounded by twelve equally styled rounded rectangles in a near-grid.",
+        "A modular 4-column-like field with the title occupying the central large tile and independent advice tiles around it.",
+        "A central index plus surrounding modules makes a dense checklist feel like a reference board rather than an article."
       ],
       "information_grammar": [
-        "state the scope",
-        "group items by a usable logic",
-        "give compact definitions/formulas/examples",
-        "make the reference retrievable at a glance"
+        "Central promise → topical tile selection → paired do/don’t instructions → subtle follow/topic attribution.",
+        "A one-screen reference that enables fast retrieval of one rule at a time rather than a long linear tutorial.",
+        "Save/revisit tool for checking a specific LinkedIn practice."
       ],
       "social_action_mechanics": [
-        "save as a field reference",
-        "share with a newer colleague",
-        "return during real work"
+        "Save/revisit tool for checking a specific LinkedIn practice."
       ],
       "use_when": [
-        "The information is durable and consulted repeatedly.",
-        "There is a defensible grouping logic.",
-        "Compression preserves rather than distorts the meaning."
+        "The already selected reader moment genuinely benefits from an original field guide rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The reader needs one deep causal explanation.",
-        "The list is arbitrary or too broad to be reliable.",
-        "A single decision tool would be more useful than a compendium."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Explicit contrast makes advice fast to scan",
-      "state the scope",
-      "group items by a usable logic"
+      "A hub-and-surround grid works when the content consists of independently useful rules. Give each tile a consistent positive/negative pair so a reader can scan, save and return non-linearly."
     ],
-    "reverse_build_specification": "When a chosen opportunity contains durable, repeat-use knowledge, create a compact field guide with an explicit scope and repeated retrieval pattern. Make every row earn its place, make grouping visible, and state what the guide cannot decide for the reader.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original field guide whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: A hub-and-surround grid works when the content consists of independently useful rules. Give each tile a consistent positive/negative pair so a reader can scan, save and return non-linearly. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Black/cream typography grid",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not copy the ‘18 LinkedIn Laws’ title, black-and-cream editorial card style, exact rules, green/red check-cross treatment, or author/topic footer.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended package a dense but recurring body of knowledge into a reference readers can repeatedly consult. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#57",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#57",
     "source_context_id": "top100-workbook#57",
-    "content_hash": "8402af5ced3da2ad7f0049d20243d0bdcd0acd01bdfb5cfc0be151f30ac3a2ff"
+    "content_hash": "8402af5ced3da2ad7f0049d20243d0bdcd0acd01bdfb5cfc0be151f30ac3a2ff",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7459932907940536321",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/57.jpeg",
+      "asset_sha256": "8e5775e78b746de83d46bbf93ad0413f909600d8f10bddc92a9f2b7c0d7c365c",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 10,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/10.jpeg",
+    "sha256": "a4d9b9181067012a0678b302dc787ac29f7efc40b4bb46f142a953ef1666c18b",
+    "format": "jpeg",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Original local JPEG displayed directly at full-frame review size.",
+    "motion_sampling": {
+      "method": "Not applicable for static JPEG.",
+      "sampled_positions_ms": [],
+      "limitation": "No animation exists in this source asset."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A broad headline asks how three post types “PERFORM,” with the operative word placed in a lavender hand-rendered tag.",
+    "layout": "Three-column comparison table with shared metric rows and shaded winner cells.",
+    "reading_order": "Headline → three type labels → each shared metric row from top to bottom → highlighted winner cells.",
+    "typography": "Oversized plain sans headline, rough display accent in one tag, bold column headers, and compact tabular labels/numbers.",
+    "colour": "Lavender, pink, and aqua distinguish the columns; the left metric index uses lavender; winners receive matching flat fills.",
+    "surface": "White background, thin black grid lines, rounded header cards, and restrained shadows.",
+    "modules": "Three post-type columns crossed with seven comparison rows.",
+    "density": "Medium-high: numerical evidence and descriptive labels share one repeatable grid."
+  },
+  "motion": {
+    "mode": "static",
+    "source_metadata": {
+      "frame_count": null,
+      "duration_ms_from_gce": null
+    },
+    "observed_state_change": "No temporal state: this is a static JPEG source asset.",
+    "motion_job": "Not applicable; the complete argument must work in one frame.",
+    "limitation": "No animation exists in this source asset."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Compare alternatives across the same decision criteria without asking the reader to reconcile separate cards.",
+    "argument_shape": "Common-scale comparison table.",
+    "mechanism": "Use one stable row definition, one shared denominator, and visible emphasis only where a comparison is legitimate.",
+    "use_condition": "Only when all columns use comparable definitions, units, time windows, and sources."
+  },
+  "anti_copy_boundary": "Do not reuse the source post-type categories, layout, performance claims, hand tag, exact column colours, metrics, or winner treatment.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "Rates and comparative outcomes are visibly asserted in the asset. They are not a transferable benchmark or publishable Shetty’s Desk evidence."
+  }
+}

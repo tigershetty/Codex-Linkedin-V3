@@ -1,0 +1,1399 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_purpose": "Asset availability and direct-review status for the user-supplied Pierri creative-reference corpus; not a performance dataset.",
+  "source_index": {
+    "path": "references/creative-review/vincent-pierri-corpus-index-v1.json",
+    "sha256": "e0e6d65b7e0d863414eac14a510249327d4b86d345e9cb417dbda8dee857c8ee",
+    "raw_source_contract": "The source index is authoritative for local media metadata; raw media is never changed by this workflow."
+  },
+  "summary": {
+    "available_asset_count": 53,
+    "reviewed_direct_asset_count": 16,
+    "queued_asset_available_count": 37,
+    "caption_link_status_counts": {
+      "asserted_by_numeric_id": 37,
+      "asset_only": 15,
+      "known_manual_mismatch": 1
+    }
+  },
+  "assets": [
+    {
+      "asset_id": 1,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/1.jpeg",
+        "sha256": "7d57dbdbcfbc1883b4d192b8258633d715da6c67d45a6a4243125498d0cfb338",
+        "format": "jpeg",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": null,
+        "duration_ms_from_gce": null
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-001.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    },
+    {
+      "asset_id": 2,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/2.gif",
+        "sha256": "d9f5733cc18a3dcda27a5f43dd483fd416e5ba74d25dd3675b3ff67d71ccc9db",
+        "format": "gif",
+        "canvas": {
+          "width": 1280,
+          "height": 1600
+        },
+        "frame_count": 250,
+        "duration_ms_from_gce": 11240
+      },
+      "caption_link": {
+        "status": "known_manual_mismatch",
+        "association_confidence": "explicitly_not_paired",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-002.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    },
+    {
+      "asset_id": 3,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/3.gif",
+        "sha256": "a11934f6facbe19963ebc6b64cb4ae2fc4aa95fe891e778e93aa6b5a5a225002",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 125,
+        "duration_ms_from_gce": 5000
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 4,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/4.jpeg",
+        "sha256": "77372e5aa86722cd1df2895efef0b7a6327e46c7c68f7867d26861d8ba7d7f9f",
+        "format": "jpeg",
+        "canvas": {
+          "width": 1118,
+          "height": 1398
+        },
+        "frame_count": null,
+        "duration_ms_from_gce": null
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 5,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/5.gif",
+        "sha256": "22f83f6e9fa5353632bf36577b12456aeaebf04b94b27644363ca0bc8bfc3b78",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 292,
+        "duration_ms_from_gce": 16160
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 6,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/6.gif",
+        "sha256": "e53d7661b3248439dc9158c4c64853a6ed877fe169ec65a4890c9c33cab77bb2",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 176,
+        "duration_ms_from_gce": 7040
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 7,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/7.gif",
+        "sha256": "6cc04e5a52e390bb4cfc6ec3b4f2650fd18a686253e03cea783b6e37d82af6f4",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 202,
+        "duration_ms_from_gce": 8600
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 8,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/8.gif",
+        "sha256": "b751ab439bd68df65ac04a0c80971ae3ddaf1912d37f4ab887f10adbefc4d027",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 195,
+        "duration_ms_from_gce": 8080
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 9,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/9.jpeg",
+        "sha256": "f4080755a6ba90403fa88aba85a306f5b7722555997ae0a6dd0f43dbc9152875",
+        "format": "jpeg",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": null,
+        "duration_ms_from_gce": null
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 10,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/10.jpeg",
+        "sha256": "a4d9b9181067012a0678b302dc787ac29f7efc40b4bb46f142a953ef1666c18b",
+        "format": "jpeg",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": null,
+        "duration_ms_from_gce": null
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-010.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    },
+    {
+      "asset_id": 11,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/11.jpeg",
+        "sha256": "af4879fdd63fbb1c2be819a4d748e45f9b0cb029b826d4595d575875187d12fb",
+        "format": "jpeg",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": null,
+        "duration_ms_from_gce": null
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-011.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    },
+    {
+      "asset_id": 12,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/12.gif",
+        "sha256": "bea18ab3352ef709244a18b842655464f6a382f9d88e0a7abc341c2f1722af4b",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 200,
+        "duration_ms_from_gce": 8000
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-012.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    },
+    {
+      "asset_id": 13,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/13.gif",
+        "sha256": "25adf75c4a6e94fdedc7c40f578dd67b777d30b17179ee0edf772d453d6c327f",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 235,
+        "duration_ms_from_gce": 10520
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 14,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/14.gif",
+        "sha256": "a56b471028cd883ca6e9412ab7962c566df00074736fe3be12f6cec8cfa68918",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 138,
+        "duration_ms_from_gce": 8000
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 15,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/15.gif",
+        "sha256": "2c730805c4b4e7676756a88d370dcbd2e9c0c694ab1d895a53e7cb875dda9dce",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 126,
+        "duration_ms_from_gce": 8600
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 16,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/16.gif",
+        "sha256": "69d3f59751abc7522f73abbf203279db1b9c1ffafd2eb9a4a6f19e8a787a6b1e",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 199,
+        "duration_ms_from_gce": 18320
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 17,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/17.gif",
+        "sha256": "00ef8e0b492c147cad850b0e48783e7ac0631d55d918fa643b2fc520b9e71f1b",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 152,
+        "duration_ms_from_gce": 8000
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 18,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/18.gif",
+        "sha256": "cc4438157229b42dda8effab52af3c515a1ca1f99cbfe0de65dd13cbfa799f6f",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 299,
+        "duration_ms_from_gce": 11960
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-018.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    },
+    {
+      "asset_id": 19,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/19.gif",
+        "sha256": "635b6e35086bb91c0530c23912cc1372db747efdee0bcdf7549ed4c8cab9ef82",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 136,
+        "duration_ms_from_gce": 11920
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 20,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/20.gif",
+        "sha256": "9cc732d9b9a4dc238fed27689ff5dedc0ad4504ea4f0ab1a174411644e421d41",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1317
+        },
+        "frame_count": 80,
+        "duration_ms_from_gce": 6080
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 21,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/21.gif",
+        "sha256": "647ea5128142f7da4115b44b843cb938118aec0f6c6a596c63689ef597f5bec3",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 175,
+        "duration_ms_from_gce": 7000
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 22,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/22.gif",
+        "sha256": "eeeb456b7a1d8288e6c3a59ad32d8a926b6cec10f667089a29bb0a822c701880",
+        "format": "gif",
+        "canvas": {
+          "width": 800,
+          "height": 1000
+        },
+        "frame_count": 76,
+        "duration_ms_from_gce": 3040
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 24,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/24.gif",
+        "sha256": "bf52ba7996ccb0ced10c38a961b09db939178b396615a142543bf0351ee5d263",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 141,
+        "duration_ms_from_gce": 8840
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 25,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/25.gif",
+        "sha256": "99c5cca58a0bed77aadc8e2b9f555d08dc3a233f7687dea65bff56bd71b5be10",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 105,
+        "duration_ms_from_gce": 8360
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 26,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/26.gif",
+        "sha256": "2149333746baab8c4e035a1ad02f24488f76e8329458324112c2d18fd92b9ea4",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 147,
+        "duration_ms_from_gce": 8040
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 27,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/27.gif",
+        "sha256": "80652a70aa16c9160f4a1739c2aa1bcfa46b21903e4104af0280e13ad469b2d6",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 236,
+        "duration_ms_from_gce": 9960
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-027.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    },
+    {
+      "asset_id": 28,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/28.gif",
+        "sha256": "382d66e0ff4171575a6ed2b908352490d7ea3c312af3bde9b459588e6d5b5657",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 251,
+        "duration_ms_from_gce": 10040
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 29,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/29.gif",
+        "sha256": "4b16b1279e7d7a8a56d5aba45d2c3bb152a5aa4ce6a8a692df471dbcc57708ec",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 176,
+        "duration_ms_from_gce": 7040
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 30,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/30.gif",
+        "sha256": "597aa34a96af8c8ad729d286d71992d0b127165ab93dba4bab58069f5fbb2c48",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 327,
+        "duration_ms_from_gce": 6540
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-030.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    },
+    {
+      "asset_id": 32,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/32.jpeg",
+        "sha256": "08a80f0f117c030223dd8e65e12c7c5bdd00282d357c6e07038dabfe503479f8",
+        "format": "jpeg",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": null,
+        "duration_ms_from_gce": null
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 33,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/33.jpeg",
+        "sha256": "ce82e7edbc16efff540dbea5ccaa437a0634fe468d8db58a14178dafa27e332d",
+        "format": "jpeg",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": null,
+        "duration_ms_from_gce": null
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 34,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/34.jpeg",
+        "sha256": "3c1e8043c34743eb1157d1c65e808876f8640e5bcb6ed28b0259e1cd259ab915",
+        "format": "jpeg",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": null,
+        "duration_ms_from_gce": null
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 35,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/35.jpeg",
+        "sha256": "8200c2460a8c3f63b5f3cd07671d1d5bc3695e7aa55479cb2fe4a62ea5f4e5a3",
+        "format": "jpeg",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": null,
+        "duration_ms_from_gce": null
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 36,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/36.gif",
+        "sha256": "b9401d70d97c30504cb869cdfc5ced7c2c258488e168aff1fe265358169b5205",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 248,
+        "duration_ms_from_gce": 9920
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-036.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    },
+    {
+      "asset_id": 37,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/37.gif",
+        "sha256": "868ba67e93ed394f07c56df4e336d760427769f8bc2d396a2a3159242027523a",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 148,
+        "duration_ms_from_gce": 8040
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 38,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/38.gif",
+        "sha256": "27bba3c1df4f2aefd42e8bddf084494915853d71e5986bdd0c0355680e792ad1",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 300,
+        "duration_ms_from_gce": 12000
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 39,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/39.gif",
+        "sha256": "38c6f14fd212c58a7cb3e9f709bcc42e63937300dde374ef8460bc33503aa053",
+        "format": "gif",
+        "canvas": {
+          "width": 1280,
+          "height": 1601
+        },
+        "frame_count": 209,
+        "duration_ms_from_gce": 9880
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 40,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/40.gif",
+        "sha256": "cb2782ce65d92eb7f8e32c9558eedc708acbadca98e30de2b6ff20ae49ceaf9c",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 175,
+        "duration_ms_from_gce": 7000
+      },
+      "caption_link": {
+        "status": "asserted_by_numeric_id",
+        "association_confidence": "asserted_by_numeric_id_only",
+        "caption_available": true,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 41,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/41.jpeg",
+        "sha256": "5c894ac708ca18b2e1030bb1f3df9d8d90466c9de307d42172f92e1614d71ac4",
+        "format": "jpeg",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": null,
+        "duration_ms_from_gce": null
+      },
+      "caption_link": {
+        "status": "asset_only",
+        "association_confidence": "no_caption_supplied",
+        "caption_available": false,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-041.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    },
+    {
+      "asset_id": 42,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/42.gif",
+        "sha256": "e18cb730062fc0694b154abcdf6fe052dfec7ae27bbfa3e3b34e45b850ddee51",
+        "format": "gif",
+        "canvas": {
+          "width": 1052,
+          "height": 1316
+        },
+        "frame_count": 248,
+        "duration_ms_from_gce": 9920
+      },
+      "caption_link": {
+        "status": "asset_only",
+        "association_confidence": "no_caption_supplied",
+        "caption_available": false,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-042.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    },
+    {
+      "asset_id": 43,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/43.gif",
+        "sha256": "e2fc017f6575be2b3d41237dc86c91d2453ac1c91a6016af11b7257f153d45a6",
+        "format": "gif",
+        "canvas": {
+          "width": 1080,
+          "height": 1350
+        },
+        "frame_count": 101,
+        "duration_ms_from_gce": 4040
+      },
+      "caption_link": {
+        "status": "asset_only",
+        "association_confidence": "no_caption_supplied",
+        "caption_available": false,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 44,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/44.jpeg",
+        "sha256": "c637d9b56ebaf24fe12326ccdc9d40ecf0e99f7f705d321a460de836f8d8ac80",
+        "format": "jpeg",
+        "canvas": {
+          "width": 800,
+          "height": 1000
+        },
+        "frame_count": null,
+        "duration_ms_from_gce": null
+      },
+      "caption_link": {
+        "status": "asset_only",
+        "association_confidence": "no_caption_supplied",
+        "caption_available": false,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 45,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/45.gif",
+        "sha256": "1b74068904b013362b36d3e9516fc7b005f05c3eacdf2e2131e137ac29f060fa",
+        "format": "gif",
+        "canvas": {
+          "width": 800,
+          "height": 1000
+        },
+        "frame_count": 176,
+        "duration_ms_from_gce": 10040
+      },
+      "caption_link": {
+        "status": "asset_only",
+        "association_confidence": "no_caption_supplied",
+        "caption_available": false,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-045.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    },
+    {
+      "asset_id": 46,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/46.gif",
+        "sha256": "a66ba7a3eb4d372baf1dbf929c053ab15b045859dc8882303409c37e36cf57b0",
+        "format": "gif",
+        "canvas": {
+          "width": 800,
+          "height": 1000
+        },
+        "frame_count": 101,
+        "duration_ms_from_gce": 4040
+      },
+      "caption_link": {
+        "status": "asset_only",
+        "association_confidence": "no_caption_supplied",
+        "caption_available": false,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 47,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/47.gif",
+        "sha256": "df5cfd0e5273aaf6d3a826e3bb05f376220cc7f5de18b71f82bfbcebedb63356",
+        "format": "gif",
+        "canvas": {
+          "width": 800,
+          "height": 1000
+        },
+        "frame_count": 111,
+        "duration_ms_from_gce": 4440
+      },
+      "caption_link": {
+        "status": "asset_only",
+        "association_confidence": "no_caption_supplied",
+        "caption_available": false,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 48,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/48.gif",
+        "sha256": "ab8919632bd5ead323cc166bd3a943c4ed1bf69089622c3942e40a3273ae5aab",
+        "format": "gif",
+        "canvas": {
+          "width": 800,
+          "height": 1000
+        },
+        "frame_count": 231,
+        "duration_ms_from_gce": 12000
+      },
+      "caption_link": {
+        "status": "asset_only",
+        "association_confidence": "no_caption_supplied",
+        "caption_available": false,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 49,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/49.jpeg",
+        "sha256": "70452a6aac8f4be5b570130e748d17510eff3e732af004caee79e346b3ea25a9",
+        "format": "jpeg",
+        "canvas": {
+          "width": 800,
+          "height": 1000
+        },
+        "frame_count": null,
+        "duration_ms_from_gce": null
+      },
+      "caption_link": {
+        "status": "asset_only",
+        "association_confidence": "no_caption_supplied",
+        "caption_available": false,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 50,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/50.gif",
+        "sha256": "97e890f2a6ee195bee68e0e50d75f5836996bd26ec679c650b927b442e3d1c85",
+        "format": "gif",
+        "canvas": {
+          "width": 800,
+          "height": 1000
+        },
+        "frame_count": 200,
+        "duration_ms_from_gce": 8000
+      },
+      "caption_link": {
+        "status": "asset_only",
+        "association_confidence": "no_caption_supplied",
+        "caption_available": false,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 51,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/51.gif",
+        "sha256": "399309344ad36e260738dadcb822cbaf1eccc0484ae85f715055f80fb8e4bb30",
+        "format": "gif",
+        "canvas": {
+          "width": 800,
+          "height": 1000
+        },
+        "frame_count": 351,
+        "duration_ms_from_gce": 14040
+      },
+      "caption_link": {
+        "status": "asset_only",
+        "association_confidence": "no_caption_supplied",
+        "caption_available": false,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-051.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    },
+    {
+      "asset_id": 52,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/52.jpeg",
+        "sha256": "417fc1ee284996a6d204dab17424c8014a623a6dac431684e1eeed87d0bbbe53",
+        "format": "jpeg",
+        "canvas": {
+          "width": 800,
+          "height": 1000
+        },
+        "frame_count": null,
+        "duration_ms_from_gce": null
+      },
+      "caption_link": {
+        "status": "asset_only",
+        "association_confidence": "no_caption_supplied",
+        "caption_available": false,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "queued_asset_available",
+        "sidecar_path": null,
+        "source_index_status": "not_yet_inspected"
+      }
+    },
+    {
+      "asset_id": 53,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/53.jpeg",
+        "sha256": "0f4a002ae7447f12ed1d1973c5670ddf2a5abebcd933fb560d0bc2976da5e88d",
+        "format": "jpeg",
+        "canvas": {
+          "width": 800,
+          "height": 1000
+        },
+        "frame_count": null,
+        "duration_ms_from_gce": null
+      },
+      "caption_link": {
+        "status": "asset_only",
+        "association_confidence": "no_caption_supplied",
+        "caption_available": false,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-053.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    },
+    {
+      "asset_id": 54,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/54.gif",
+        "sha256": "7f922df9186fb233ef81150e5c8e5f582a2ef22c008babeb5cf7ae762c8f4ac0",
+        "format": "gif",
+        "canvas": {
+          "width": 800,
+          "height": 1000
+        },
+        "frame_count": 350,
+        "duration_ms_from_gce": 14000
+      },
+      "caption_link": {
+        "status": "asset_only",
+        "association_confidence": "no_caption_supplied",
+        "caption_available": false,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-054.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    },
+    {
+      "asset_id": 55,
+      "asset_status": "available_local",
+      "source_asset": {
+        "relative_path": "infographic-setup/references/Vincent Pierri Reference/55.gif",
+        "sha256": "5190d10bcf08e766da029e7d3cc93ba632e63696c2237fe80fb18277a2e7f2d4",
+        "format": "gif",
+        "canvas": {
+          "width": 800,
+          "height": 1000
+        },
+        "frame_count": 75,
+        "duration_ms_from_gce": 3000
+      },
+      "caption_link": {
+        "status": "asset_only",
+        "association_confidence": "no_caption_supplied",
+        "caption_available": false,
+        "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+      },
+      "forensic_review": {
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-055.json",
+        "source_index_status": "asset_hash_bound"
+      }
+    }
+  ]
+}

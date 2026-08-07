@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 41,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/41.jpeg",
+    "sha256": "5c894ac708ca18b2e1030bb1f3df9d8d90466c9de307d42172f92e1614d71ac4",
+    "format": "jpeg",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asset_only",
+    "association_confidence": "no_caption_supplied",
+    "caption_available": false,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Original local JPEG displayed directly at full-frame review size.",
+    "motion_sampling": {
+      "method": "Not applicable for static JPEG.",
+      "sampled_positions_ms": [],
+      "limitation": "No animation exists in this source asset."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A simple “How to go VIRAL the right way” headline sets up a direct bad-versus-good contrast.",
+    "layout": "A two-column comparison runs from top explanation boxes through linked analytics-screenshot snippets to claimed business-outcome boxes.",
+    "reading_order": "Title → bad / good comparison → connector paths → screenshot cards → bottom claimed outcomes.",
+    "typography": "Large open headline, rough word-object accent, bold contrast labels, and short bullets inside rounded cards.",
+    "colour": "Pink marks the bad route; lavender marks the good route; screenshot elements retain green interface styling.",
+    "surface": "Soft pink/lavender background halves, outlined cards, curved connectors, embedded UI screenshots, and light shadows.",
+    "modules": "Two mirrored causal stories: top framing, middle analytics snapshot, and bottom outcome claim.",
+    "density": "Medium: the argument is intentionally simple, with visuals supplying the causal story rather than a large data table."
+  },
+  "motion": {
+    "mode": "static",
+    "source_metadata": {
+      "frame_count": null,
+      "duration_ms_from_gce": null
+    },
+    "observed_state_change": "No temporal state: this is a static JPEG source asset.",
+    "motion_job": "Not applicable; the complete argument must work in one frame.",
+    "limitation": "No animation exists in this source asset."
+  },
+  "transferable_mechanism": {
+    "reader_job": "See why two superficially similar results can have different operating value.",
+    "argument_shape": "Mirrored causal comparison.",
+    "mechanism": "Pair each route’s stated assumptions, observable evidence, and consequence in the same vertical order so the contrast is inspectable.",
+    "use_condition": "Use only with credible, attributable evidence; do not manufacture a screenshot or infer causal business outcomes from a single metric."
+  },
+  "anti_copy_boundary": "Do not reuse the good/bad virality framing, screenshots, claimed results, colors, connector routes, title wording, or box arrangement.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The asset contains analytics screenshots, follower figures, and revenue claims without source links or metadata in the supplied corpus."
+  }
+}

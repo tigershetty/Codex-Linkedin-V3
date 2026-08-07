@@ -17,6 +17,7 @@
     "content_mode",
     "claim_mode",
     "artifact_type",
+    "creative_execution",
     "metrics",
     "audience_relevance_sample",
     "transfer_result",
@@ -25,7 +26,7 @@
   ],
   "properties": {
     "$schema": { "type": "string" },
-    "schema_version": { "const": "1.0.0" },
+    "schema_version": { "const": "1.1.0" },
     "content_id": { "type": "string" },
     "channel": { "enum": ["linkedin", "substack", "website"] },
     "checkpoint": { "enum": ["24h", "day7", "day28"] },
@@ -57,6 +58,46 @@
     "content_mode": { "type": "string" },
     "claim_mode": { "type": "string" },
     "artifact_type": { "type": ["string", "null"] },
+    "creative_execution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "visual_family",
+        "spatial_thesis",
+        "reading_contract",
+        "density_plan",
+        "motion_treatment",
+        "creative_atoms",
+        "source_capture_provenance"
+      ],
+      "properties": {
+        "visual_family": { "type": "string" },
+        "spatial_thesis": { "type": "string" },
+        "reading_contract": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["glance_3s", "orientation_10s", "deep_use"],
+          "properties": {
+            "glance_3s": { "type": "string" },
+            "orientation_10s": { "type": "string" },
+            "deep_use": { "type": "string" }
+          }
+        },
+        "density_plan": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["macro_regions", "micro_units", "reason_for_density"],
+          "properties": {
+            "macro_regions": { "type": "integer", "minimum": 1 },
+            "micro_units": { "type": "integer", "minimum": 0 },
+            "reason_for_density": { "type": "string" }
+          }
+        },
+        "motion_treatment": { "type": "string" },
+        "creative_atoms": { "type": "array", "items": { "type": "string" } },
+        "source_capture_provenance": { "type": "string" }
+      }
+    },
     "metrics": {
       "type": "object",
       "additionalProperties": { "type": ["number", "null"] }

@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-091",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7447961600159977472, bound to references/top 100/91.jpeg at SHA-256 bf177ec3490e1bd2d458424608fb9d9a268eb0d184841123bb5418eb97461d4e.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7447961600159977472; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex manual visual reviewer, batch 2026-08-07-a",
+    "reviewed_at": "2026-08-07T00:00:00.000Z",
+    "evidence": "Direct full-size review of references/top 100/91.jpeg at SHA-256 bf177ec3490e1bd2d458424608fb9d9a268eb0d184841123bb5418eb97461d4e. This is a static JPEG; GIF frame evidence is not applicable."
   },
   "asset": {
     "path": "references/top 100/91.jpeg",
-    "status": "visually_inspected",
+    "sha256": "bf177ec3490e1bd2d458424608fb9d9a268eb0d184841123bb5418eb97461d4e",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "bf177ec3490e1bd2d458424608fb9d9a268eb0d184841123bb5418eb97461d4e",
+      "reviewer": "Codex manual visual reviewer, batch 2026-08-07-a",
+      "reviewed_at": "2026-08-07T00:00:00.000Z",
+      "evidence": "Direct full-size review of references/top 100/91.jpeg at SHA-256 bf177ec3490e1bd2d458424608fb9d9a268eb0d184841123bb5418eb97461d4e. This is a static JPEG; GIF frame evidence is not applicable. Asset hash: bf177ec3490e1bd2d458424608fb9d9a268eb0d184841123bb5418eb97461d4e."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Ruben Hassid",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7447961600159977472",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "a1132ccce0fb78cdd8e0187282d6d1f0ce9bd730dea30aefbff78a6290475378",
@@ -34,140 +49,159 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7447961600159977472",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "uncertain starting point",
-      "ambition without path",
-      "need to see progression"
-    ],
-    "desired_response": [
-      "self-assess",
-      "save as a roadmap",
-      "use to start a team conversation"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A visually memorable checklist-like progression from chat to cowork, skills/plugins, and code/computer.",
+    "work_moment": "An AI user feels stuck in chat and wants to see what additional capabilities or setup habits could change their work.",
+    "tension": "Ambition mixed with fear of missing an available capability.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Claude layers as large tiered pyramid.",
-    "comprehension_3_10_seconds": "The reader follows the levels, rings, stages, ladder or journey, clear start/end orientation, one capability shift per level to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Make progress, capability depth or transformation feel navigable rather than abstract.",
-    "identity_or_curiosity_trigger": "uncertain starting point; ambition without path; need to see progression",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Claude layers as large tiered pyramid."
+    "thumbnail_read_0_3_seconds": "The big serif headline Layers of Claude and a four-tier tapered structure make a capability hierarchy feel like a climb the reader has not yet taken.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Title -> subtitle -> Level 1 at top -> right-side Start here marker -> lower capability tiers -> individual action rows.”.",
+    "value_exchange_10_30_seconds": "A visually memorable checklist-like progression from chat to cowork, skills/plugins, and code/computer.",
+    "identity_or_curiosity_trigger": "Ambition mixed with fear of missing an available capability.",
+    "promise_proved_by_visual": "The physical slope and widening tiers imply a progression from easy surface use to broader, more powerful operational access."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Claude layers as large tiered pyramid",
-    "composition_and_grid": "levels, rings, stages, ladder or journey; clear start/end orientation; one capability shift per level; visible movement between states",
-    "dominant_anchor": "Claude layers as large tiered pyramid",
+    "asset_specific_observation": "Tall warm-toned tier diagram: a tapered terracotta structure is split into four large horizontal levels, with white action rows inside and a start-here marker at right.",
+    "composition_and_grid": "One central tapered vertical structure holds all detail; levels expand in width down the page while annotations sit outside its perimeter.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: Layers of Claude is dominant; four yellow level labels next; level-one location and right-side vertical arrow create a behavioural reading cue; action rows are tertiary.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Title",
+      "subtitle",
+      "Level 1 at top",
+      "right-side Start here marker",
+      "lower capability tiers",
+      "individual action rows."
     ],
     "information_chunks": [
-      "name current condition",
-      "show sequential capability shifts",
-      "define what changes at each level",
-      "make the next move intelligible"
+      "State most people stop at level one",
+      "show level-one actions",
+      "widen to higher layers",
+      "add short action rows",
+      "mark the start point and productivity payoff."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Claude layers as large tiered pyramid.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "Layers of Claude is dominant; four yellow level labels next; level-one location and right-side vertical arrow create a behavioural reading cue; action rows are tertiary.",
+    "typography": "Editorial serif title contrasts with large yellow all-caps level labels and monospaced-looking action tags, producing an old-school technical poster feel.",
+    "colour_material_and_contrast": "Cream background, oranges and browns, dark horizontal separators, yellow level labels, cream rounded action labels, and a hand-drawn sunburst accent.",
+    "imagery_role": "A small binocular-user silhouette and arrow annotations are secondary narrative cues; the stepped tier structure is the main explanatory image.",
+    "density_and_pacing": "Instant level recognition, then progressive downward reading; internal action rows are numerous enough that the lower levels demand a slower scan.",
     "craft_observations": [
-      "Claude layers as large tiered pyramid",
-      "Reusable atom: One dominant shape can govern a long explainer",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The tier silhouette is memorable and supports ordered reading; external start marker gives the reader a self-location cue; page density and small rows make it a saved/zoomed reference, while the plotted 10x productivity claim is unsupported by the visual."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A visually memorable checklist-like progression from chat to cowork, skills/plugins, and code/computer.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "name current condition",
-      "show sequential capability shifts",
-      "define what changes at each level",
-      "make the next move intelligible"
+      "State most people stop at level one",
+      "show level-one actions",
+      "widen to higher layers",
+      "add short action rows",
+      "mark the start point and productivity payoff."
     ],
-    "compression_method": "levels, rings, stages, ladder or journey; clear start/end orientation; one capability shift per level; visible movement between states",
-    "reader_payoff": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+    "compression_method": "The reviewed visual mechanism is “The physical slope and widening tiers imply a progression from easy surface use to broader, more powerful operational access.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A visually memorable checklist-like progression from chat to cowork, skills/plugins, and code/computer.",
     "save_share_return_motives": [
-      "self-assess",
-      "save as a roadmap",
-      "use to start a team conversation"
+      "Save as a discovery map; use to identify one next capability to investigate; send to a colleague who only uses conversational chat."
     ],
-    "caption_to_visual_choreography": "State the limits of the progression, prevent false precision and invite the reader to consider their current condition."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “The physical slope and widening tiers imply a progression from easy surface use to broader, more powerful operational access.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+      "mechanism_family": "maturity",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "State most people stop at level one -> show level-one actions -> widen to higher layers -> add short action rows -> mark the start point and productivity payoff.",
+          "Tall warm-toned tier diagram: a tapered terracotta structure is split into four large horizontal levels, with white action rows inside and a start-here marker at right.",
+          "One central tapered vertical structure holds all detail; levels expand in width down the page while annotations sit outside its perimeter.",
+          "The physical slope and widening tiers imply a progression from easy surface use to broader, more powerful operational access."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A visually memorable checklist-like progression from chat to cowork, skills/plugins, and code/computer.",
       "reader_state": [
-        "uncertain starting point",
-        "ambition without path",
-        "need to see progression"
+        "An AI user feels stuck in chat and wants to see what additional capabilities or setup habits could change their work."
       ],
       "visual_grammar": [
-        "levels, rings, stages, ladder or journey",
-        "clear start/end orientation",
-        "one capability shift per level",
-        "visible movement between states"
+        "Tall warm-toned tier diagram: a tapered terracotta structure is split into four large horizontal levels, with white action rows inside and a start-here marker at right.",
+        "One central tapered vertical structure holds all detail; levels expand in width down the page while annotations sit outside its perimeter.",
+        "The physical slope and widening tiers imply a progression from easy surface use to broader, more powerful operational access."
       ],
       "information_grammar": [
-        "name current condition",
-        "show sequential capability shifts",
-        "define what changes at each level",
-        "make the next move intelligible"
+        "State most people stop at level one -> show level-one actions -> widen to higher layers -> add short action rows -> mark the start point and productivity payoff.",
+        "A visually memorable checklist-like progression from chat to cowork, skills/plugins, and code/computer.",
+        "Save as a discovery map; use to identify one next capability to investigate; send to a colleague who only uses conversational chat."
       ],
       "social_action_mechanics": [
-        "self-assess",
-        "save as a roadmap",
-        "use to start a team conversation"
+        "Save as a discovery map; use to identify one next capability to investigate; send to a colleague who only uses conversational chat."
       ],
       "use_when": [
-        "The chosen opportunity has a credible progression rather than a marketing funnel.",
-        "Moving between states changes capabilities or decisions, not just labels.",
-        "The reader benefits from locating a current state."
+        "The already selected reader moment genuinely benefits from an original maturity rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The levels are arbitrary.",
-        "There is no meaningful order.",
-        "The post would imply false maturity scoring or unsupported benchmarks."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "One dominant shape can govern a long explainer",
-      "name current condition",
-      "show sequential capability shifts"
+      "Use a spatial hierarchy when access or capability grows by level; put a reader start marker outside the structure; keep one action row per step."
     ],
-    "reverse_build_specification": "When a chosen opportunity is genuinely developmental, use a clear progression with one capability change per stage. Make the starting point, movement and next credible step visible, and avoid treating maturity labels as evidence without support.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original maturity whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: Use a spatial hierarchy when access or capability grows by level; put a reader start marker outside the structure; keep one action row per step. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Tier pyramid and source wording",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not reuse the Layers of Claude claim, four exact levels, tapered pyramid, orange-brown palette, observer silhouette, start-here arrow, or feature wording.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended make progress, capability depth or transformation feel navigable rather than abstract. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#91",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#91",
     "source_context_id": "top100-workbook#91",
-    "content_hash": "d03bda9bdef6a5cdeab6e204f5e2927536554c2811199e58323f5eb40d842bf0"
+    "content_hash": "d03bda9bdef6a5cdeab6e204f5e2927536554c2811199e58323f5eb40d842bf0",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7447961600159977472",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/91.jpeg",
+      "asset_sha256": "bf177ec3490e1bd2d458424608fb9d9a268eb0d184841123bb5418eb97461d4e",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

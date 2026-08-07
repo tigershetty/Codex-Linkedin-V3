@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-052",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7460219130940489729, bound to references/top 100/52.jpeg at SHA-256 a96690d14f47833ce3b97659cf765bf1e75206a45beb9146d12eab80cf6bb72f.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7460219130940489729; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex direct-asset visual reviewer — Batch B",
+    "reviewed_at": "2026-08-07T15:00:00+02:00",
+    "evidence": "Full-size direct inspection of references/top 100/52.jpeg against the declared SHA-256; observations below describe the actual numbered roadmap."
   },
   "asset": {
     "path": "references/top 100/52.jpeg",
-    "status": "visually_inspected",
+    "sha256": "a96690d14f47833ce3b97659cf765bf1e75206a45beb9146d12eab80cf6bb72f",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "a96690d14f47833ce3b97659cf765bf1e75206a45beb9146d12eab80cf6bb72f",
+      "reviewer": "Codex direct-asset visual reviewer — Batch B",
+      "reviewed_at": "2026-08-07T15:00:00+02:00",
+      "evidence": "Full-size direct inspection of references/top 100/52.jpeg against the declared SHA-256; observations below describe the actual numbered roadmap. Asset hash: a96690d14f47833ce3b97659cf765bf1e75206a45beb9146d12eab80cf6bb72f."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Asmaa Gad",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7460219130940489729",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "596d0dd97b7e041d026b83ba92488727e45f3124d1cfa897f59dad07c800afe6",
@@ -34,140 +49,156 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7460219130940489729",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "blank-page friction",
-      "process uncertainty",
-      "desire for a reliable first move"
-    ],
-    "desired_response": [
-      "save for later execution",
-      "send to someone learning the process",
-      "return at the point of work"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A structured ten-move route covering workspace, file system, documents, prompts, workflows and iteration.",
+    "work_moment": "A procurement professional wants an ordered starting plan for setting up an AI-supported way of working rather than isolated prompts.",
+    "tension": "Momentum from an apparently finite programme and reassurance that there is a starting point.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Procurement-with-Claude 7-day board.",
-    "comprehension_3_10_seconds": "The reader follows the numbered sequence, one visible action per stage, progress cue to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Convert an intimidating process into a sequence a reader can start and repeat.",
-    "identity_or_curiosity_trigger": "blank-page friction; process uncertainty; desire for a reliable first move",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Procurement-with-Claude 7-day board."
+    "thumbnail_read_0_3_seconds": "0–3s: oversized condensed ‘PROCUREMENT WITH CLAUDE’ and a taped ‘IN 7 DAYS’ label create a bold transformation promise. 3–10s: numbered circles 01–10 identify an ordered programme. 10–30s: readers choose a step and inspect its folder, prompt, workflow or habit micro-details.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Headline → first row (01/02) → successive paired rows downward → lower daily-flow step → footer.”.",
+    "value_exchange_10_30_seconds": "A structured ten-move route covering workspace, file system, documents, prompts, workflows and iteration.",
+    "identity_or_curiosity_trigger": "Momentum from an apparently finite programme and reassurance that there is a starting point.",
+    "promise_proved_by_visual": "A numbered operating roadmap converts a large AI-adoption topic into a sequence of visible work artifacts and habits."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Procurement-with-Claude 7-day board",
-    "composition_and_grid": "numbered sequence; one visible action per stage; progress cue; optional prompt/interface/example at each stage",
-    "dominant_anchor": "Procurement-with-Claude 7-day board",
+    "asset_specific_observation": "Tall navy poster with a huge headline band above ten numbered cells arranged in five horizontal rows of two, plus a branded orange footer.",
+    "composition_and_grid": "A tightly ruled two-column roadmap; each row contains an unequal amount of text but consistent number/title/icon placement.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: Largest elements are Procurement/Claude and the taped time promise; pale-blue number discs and bold step labels guide the mid-level read; bullets and quote boxes are close-read detail.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Headline",
+      "first row (01/02)",
+      "successive paired rows downward",
+      "lower daily-flow step",
+      "footer."
     ],
     "information_chunks": [
-      "start condition",
-      "small steps",
-      "decision or quality gate",
-      "repeatable loop or next action"
+      "Transformation promise",
+      "steps 1–10 in numeric order",
+      "task-specific bullets and mini-templates",
+      "brand/footer CTA."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Procurement-with-Claude 7-day board.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "Largest elements are Procurement/Claude and the taped time promise; pale-blue number discs and bold step labels guide the mid-level read; bullets and quote boxes are close-read detail.",
+    "typography": "Very condensed white all-caps title, white sans step headings, pale-blue circular numbers and smaller explanatory copy on dark blue.",
+    "colour_material_and_contrast": "Deep navy ground, white rule grid, pale-blue number circles and icons, orange taped accent and orange brand footer.",
+    "imagery_role": "Folders, chat, file, cowork, code, gear, chart and calendar icons identify work objects; boxed mini-templates ground abstract steps.",
+    "density_and_pacing": "The top creates aspiration; 10 numbered compartments permit either sequential study or targeted lookup; details repeat a predictable visual grammar.",
     "craft_observations": [
-      "Procurement-with-Claude 7-day board",
-      "Reusable atom: Numbered path creates an entry point for a big topic",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The strong grid prevents the ten topics from blurring. Large step numerals give orientation even when the small copy is unreadable at thumbnail scale. Iconography makes each step distinguishable without another colour system."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A structured ten-move route covering workspace, file system, documents, prompts, workflows and iteration.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "start condition",
-      "small steps",
-      "decision or quality gate",
-      "repeatable loop or next action"
+      "Transformation promise",
+      "steps 1–10 in numeric order",
+      "task-specific bullets and mini-templates",
+      "brand/footer CTA."
     ],
-    "compression_method": "numbered sequence; one visible action per stage; progress cue; optional prompt/interface/example at each stage",
-    "reader_payoff": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "compression_method": "The reviewed visual mechanism is “A numbered operating roadmap converts a large AI-adoption topic into a sequence of visible work artifacts and habits.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A structured ten-move route covering workspace, file system, documents, prompts, workflows and iteration.",
     "save_share_return_motives": [
-      "save for later execution",
-      "send to someone learning the process",
-      "return at the point of work"
+      "A broad onboarding roadmap that can be saved and revisited sequentially."
     ],
-    "caption_to_visual_choreography": "Explain the work moment, trade-offs and failure boundary behind the steps; do not merely transcribe them."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “A numbered operating roadmap converts a large AI-adoption topic into a sequence of visible work artifacts and habits.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Convert an intimidating process into a sequence a reader can start and repeat.",
+      "mechanism_family": "before_after",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "Transformation promise → steps 1–10 in numeric order → task-specific bullets and mini-templates → brand/footer CTA.",
+          "Tall navy poster with a huge headline band above ten numbered cells arranged in five horizontal rows of two, plus a branded orange footer.",
+          "A tightly ruled two-column roadmap; each row contains an unequal amount of text but consistent number/title/icon placement.",
+          "A numbered operating roadmap converts a large AI-adoption topic into a sequence of visible work artifacts and habits."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A structured ten-move route covering workspace, file system, documents, prompts, workflows and iteration.",
       "reader_state": [
-        "blank-page friction",
-        "process uncertainty",
-        "desire for a reliable first move"
+        "A procurement professional wants an ordered starting plan for setting up an AI-supported way of working rather than isolated prompts."
       ],
       "visual_grammar": [
-        "numbered sequence",
-        "one visible action per stage",
-        "progress cue",
-        "optional prompt/interface/example at each stage"
+        "Tall navy poster with a huge headline band above ten numbered cells arranged in five horizontal rows of two, plus a branded orange footer.",
+        "A tightly ruled two-column roadmap; each row contains an unequal amount of text but consistent number/title/icon placement.",
+        "A numbered operating roadmap converts a large AI-adoption topic into a sequence of visible work artifacts and habits."
       ],
       "information_grammar": [
-        "start condition",
-        "small steps",
-        "decision or quality gate",
-        "repeatable loop or next action"
+        "Transformation promise → steps 1–10 in numeric order → task-specific bullets and mini-templates → brand/footer CTA.",
+        "A structured ten-move route covering workspace, file system, documents, prompts, workflows and iteration.",
+        "A broad onboarding roadmap that can be saved and revisited sequentially."
       ],
       "social_action_mechanics": [
-        "save for later execution",
-        "send to someone learning the process",
-        "return at the point of work"
+        "A broad onboarding roadmap that can be saved and revisited sequentially."
       ],
       "use_when": [
-        "A useful outcome genuinely requires ordered actions.",
-        "The reader can begin without hidden prerequisites.",
-        "The sequence has a real quality check or decision point."
+        "The already selected reader moment genuinely benefits from an original before after rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The work is non-linear and forcing steps would mislead.",
-        "The post cannot specify a valid first action.",
-        "The claim is a broad strategy rather than a process."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Numbered path creates an entry point for a big topic",
-      "start condition",
-      "small steps"
+      "Use an ordered roadmap when prerequisites matter. Combine a large sequence number with one task headline and a small concrete output, keeping the same visual slot across steps."
     ],
-    "reverse_build_specification": "When an opportunity needs a repeatable start-to-finish path, use numbered stages with one action and one visible output per stage. Make progress feel possible, include the point at which the reader must judge or validate, and reserve the caption for context and exceptions.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original before after whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: Use an ordered roadmap when prerequisites matter. Combine a large sequence number with one task headline and a small concrete output, keeping the same visual slot across steps. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Dark board layout",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not copy the exact ten-step curriculum, ‘in 7 days’ promise, Claude branding, dark-blue/orange palette, task examples, or footer design.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended convert an intimidating process into a sequence a reader can start and repeat. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#52",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#52",
     "source_context_id": "top100-workbook#52",
-    "content_hash": "40fd0e897907318b052e5a8c9688ca0817571c1109da1bed767cbb2d0be1bc5a"
+    "content_hash": "40fd0e897907318b052e5a8c9688ca0817571c1109da1bed767cbb2d0be1bc5a",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7460219130940489729",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/52.jpeg",
+      "asset_sha256": "a96690d14f47833ce3b97659cf765bf1e75206a45beb9146d12eab80cf6bb72f",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

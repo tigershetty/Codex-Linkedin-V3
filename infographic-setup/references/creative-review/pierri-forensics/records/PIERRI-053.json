@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 53,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/53.jpeg",
+    "sha256": "0f4a002ae7447f12ed1d1973c5670ddf2a5abebcd933fb560d0bc2976da5e88d",
+    "format": "jpeg",
+    "canvas": {
+      "width": 800,
+      "height": 1000
+    }
+  },
+  "caption_link": {
+    "status": "asset_only",
+    "association_confidence": "no_caption_supplied",
+    "caption_available": false,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Original local JPEG displayed directly at full-frame review size.",
+    "motion_sampling": {
+      "method": "Not applicable for static JPEG.",
+      "sampled_positions_ms": [],
+      "limitation": "No animation exists in this source asset."
+    }
+  },
+  "visual_anatomy": {
+    "title": "“4 Layers of a PROFITABLE Personal Brand” combines a large promise with one lavender rough-display word-object.",
+    "layout": "Four oversized nested arcs curve around a central monetary outcome, with many small pill labels placed along each concentric layer.",
+    "reading_order": "Title → four layer labels → follow the outside-in arcs and their labelled ingredients → central outcome.",
+    "typography": "Large open headline, rough emphasis tag, simple small layer labels, and pill-sized supporting phrases.",
+    "colour": "Outer-to-inner layers use lavender, aqua, pink, and blue, ending at a peach central outcome.",
+    "surface": "White ground, large colored arcs with dark outlines, pale rounded text pills, and a few small circular markers.",
+    "modules": "Four nested layers, each populated with many contributing elements, culminating in a central outcome.",
+    "density": "High: the hierarchy is legible because the container geometry does most of the organizational work."
+  },
+  "motion": {
+    "mode": "static",
+    "source_metadata": {
+      "frame_count": null,
+      "duration_ms_from_gce": null
+    },
+    "observed_state_change": "No temporal state: this is a static JPEG source asset.",
+    "motion_job": "Not applicable; the complete argument must work in one frame.",
+    "limitation": "No animation exists in this source asset."
+  },
+  "transferable_mechanism": {
+    "reader_job": "See which contributing elements belong to which level of a hierarchy before focusing on the end outcome.",
+    "argument_shape": "Nested dependency layers.",
+    "mechanism": "Use nested containers to make level membership visible, then populate each container with small, scannable contributors.",
+    "use_condition": "Use only for genuine nested dependencies; do not force a set of peers into rings simply to create a focal object."
+  },
+  "anti_copy_boundary": "Do not reuse the personal-brand hierarchy, central money outcome, nested-arc geometry, label phrases, pastel sequence, title/tag treatment, or micro-pill placement.",
+  "claim_boundary": {
+    "public_claim_status": "no_performance_claim_in_asset",
+    "note": "The asset presents a commercial hierarchy but no native performance metric. Its implied causal path must not be adopted as Shetty’s Desk evidence."
+  }
+}

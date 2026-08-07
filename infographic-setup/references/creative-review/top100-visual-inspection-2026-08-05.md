@@ -1,12 +1,15 @@
-# Top-100 visual inspection — 2026-08-05
+# Top-100 visual discovery index — 2026-08-05
 
-> **Status: discovery index only.** This is useful for fast retrieval, but it is not the
-> decision-grade review. `reference-forensics-v1.md` and its records are now the active depth layer.
+> **Status: discovery index only.** This is useful for candidate routing, but it is not
+> record-level manual forensic evidence and cannot itself make a reference high-confidence.
+> `reference-forensics-v1.md` defines the evidence standard; only a
+> `manual_forensic_review` record can enter high-confidence retrieval.
 
 ## Scope and confidence
 
-- **97 local visual assets inspected directly.** Assets `6`, `12`, and `75` are absent from the local Top-100 folder. No conclusion is drawn about them.
-- GIFs `41`, `58`, and `83` were inspected as available local visual evidence; `58` and `83` are represented here by their first visible frame, so motion is not inferred.
+- **97 local visual assets are present.** Assets `6`, `12`, and `75` are absent from the local Top-100 folder. No conclusion is drawn about them.
+- The labels below are discovery-level mechanism hypotheses. They do not prove record-specific composition, typography, density, animation, or reader mechanics.
+- GIFs `41`, `58`, and `83` require frame-level evidence before any motion observation can be considered manually reviewed.
 - This is a **creative reference library**, not a claim-verification exercise. Claims visible within a graphic need their own support before they can be reused publicly.
 - The point is to borrow an underlying mechanism, never another creator's layout, copy, brand system, illustration, or claimed result.
 

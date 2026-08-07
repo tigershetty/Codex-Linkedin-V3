@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /**
- * Converts completed Top-100 forensic records into review-ledger updates for
- * the corresponding saved-post records. This is deliberately a mapping step:
- * it makes direct visual inspection reusable in the 480-post foundation, but
- * it does not mark any unmapped reference as reviewed.
+ * Maps Top-100 forensic records into the corresponding saved-post review
+ * ledger. Only an asset-hashed, manually evidenced forensic record can mark a
+ * saved post as manually reviewed; template-assisted candidates stay ready for
+ * manual review and do not inject unverified creative anatomy into the ledger.
  */
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { basename, resolve } from 'node:path';
@@ -12,10 +12,11 @@ import { resolveActiveGenome, stableJsonl } from './lib/creative-genome.mjs';
 const root = process.cwd();
 const forensicRoot = resolve(root, 'references/creative-review/top100-forensics');
 const outputPath = resolve(root, 'references/creative-review/top100-ledger-updates-2026-08-05.jsonl');
-const REVIEWED_AT = '2026-08-05T00:00:00.000Z';
-
 const stringify = (value) => Array.isArray(value) ? value.join(' → ') : value;
 const first = (...values) => values.find((value) => typeof value === 'string' && value.trim()) ?? '';
+const manualForensic = (forensic) => forensic?.forensic_record_status === 'manual_forensic_review'
+  && forensic.review_method?.mode === 'manual_asset_review'
+  && forensic.asset?.status === 'manually_reviewed';
 
 function top100Number(assetPath) {
   if (typeof assetPath !== 'string') return null;
@@ -30,6 +31,7 @@ function forensicFor(number) {
 }
 
 function updateFromForensic(referenceId, forensic) {
+  const isManual = manualForensic(forensic);
   const mechanism = forensic.recombination?.mechanism_fingerprint ?? {};
   const visual = forensic.visual_forensics ?? {};
   const content = forensic.content_mechanics ?? {};
@@ -37,19 +39,31 @@ function updateFromForensic(referenceId, forensic) {
   const assetPath = forensic.asset?.path ?? '(asset path unavailable)';
   const readerState = stringify(mechanism.reader_state ?? forensic.reader_situation?.primary_reader_state ?? []);
 
-  return {
+  const update = {
     reference_id: referenceId,
     media: {
       status: 'available_local',
-      checked_at: REVIEWED_AT,
-      availability_note: `Directly inspected Top-100 visual asset mapped to ${forensic.reference_id}: ${assetPath}.`,
+      checked_at: isManual ? forensic.review_method.reviewed_at : forensic.review_method.generated_at ?? null,
+      asset_sha256: forensic.asset?.sha256 ? { [assetPath]: forensic.asset.sha256 } : {},
+      availability_note: isManual
+        ? `Manually reviewed Top-100 visual asset mapped to ${forensic.reference_id}: ${assetPath}.`
+        : `Local Top-100 asset mapped to provisional candidate ${forensic.reference_id}: ${assetPath}. Manual visual review is still required.`,
     },
     review: {
-      status: 'manual_reviewed',
-      reviewed_at: REVIEWED_AT,
-      reviewer: 'Codex direct visual forensic review',
-      evidence: `Direct local visual inspection recorded in ${forensic.reference_id}; source caption is context only. See references/creative-review/top100-forensics/${forensic.reference_id}.json.`,
+      status: isManual ? 'manual_reviewed' : 'ready_for_manual_review',
+      reviewed_at: isManual ? forensic.review_method.reviewed_at : null,
+      reviewer: isManual ? forensic.review_method.reviewer : null,
+      evidence: isManual
+        ? `${forensic.review_method.evidence} See references/creative-review/top100-forensics/${forensic.reference_id}.json.`
+        : null,
+      review_kind: isManual ? 'manual_asset_review' : 'template_assisted_candidate',
+      candidate_forensic_path: `references/creative-review/top100-forensics/${forensic.reference_id}.json`,
     },
+  };
+
+  if (!isManual) return update;
+  return {
+    ...update,
     creative: {
       attention_mechanism: first(attention.thumbnail_read_0_3_seconds, mechanism.primary_cognitive_job),
       lived_work_moment: readerState || 'Topic-neutral reader state captured in the linked forensic record.',

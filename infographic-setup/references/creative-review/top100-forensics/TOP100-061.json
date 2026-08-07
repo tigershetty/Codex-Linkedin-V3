@@ -1,17 +1,27 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-061",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "provisional_template_assisted_candidate",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "mode": "template_assisted_candidate",
+    "generated_at": "2026-08-07T00:00:00.000Z",
+    "visual_basis": "High-level discovery-index labels plus a reusable profile mapping; no record-level manual asset review is attached.",
     "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "boundary": "This candidate is a routing aid for manual review. It cannot establish asset-specific visual mechanics, animation behaviour, factual claims, or a high-confidence creative mechanism.",
+    "reviewer": null,
+    "reviewed_at": null,
+    "evidence": null
   },
   "asset": {
     "path": "references/top 100/61.jpeg",
-    "status": "visually_inspected",
+    "sha256": "8bbac61fbcb643a152dea089ecbfd3fdcc9bac55f52e73c03633c34ad4268d34",
+    "status": "available_for_manual_review",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": null,
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "No manual asset-specific visual review is attached to this generated candidate."
+    ]
   },
   "source_context": {
     "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
@@ -36,138 +46,54 @@
       "Independent validation of factual or numerical claims within the source post."
     ]
   },
-  "reader_situation": {
-    "primary_reader_state": [
+  "template_assisted_hypotheses": {
+    "profile_name": "maturity",
+    "source_discovery_index": "top100-visual-inspection-2026-08-05#61",
+    "candidate_visual_mechanism": "Eleven-course loop around a giant centre number",
+    "candidate_transferable_atom": "Circular curriculum turns a list into a path",
+    "candidate_anti_copy_boundary": "Exact editorial/orange layout",
+    "candidate_cognitive_job": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+    "candidate_reader_states": [
       "uncertain starting point",
       "ambition without path",
       "need to see progression"
     ],
-    "desired_response": [
-      "self-assess",
-      "save as a roadmap",
-      "use to start a team conversation"
+    "candidate_visual_grammar": [
+      "levels, rings, stages, ladder or journey",
+      "clear start/end orientation",
+      "one capability shift per level",
+      "visible movement between states"
     ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
-  },
-  "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Eleven-course loop around a giant centre number.",
-    "comprehension_3_10_seconds": "The reader follows the levels, rings, stages, ladder or journey, clear start/end orientation, one capability shift per level to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Make progress, capability depth or transformation feel navigable rather than abstract.",
-    "identity_or_curiosity_trigger": "uncertain starting point; ambition without path; need to see progression",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Eleven-course loop around a giant centre number."
-  },
-  "visual_forensics": {
-    "asset_specific_observation": "Eleven-course loop around a giant centre number",
-    "composition_and_grid": "levels, rings, stages, ladder or journey; clear start/end orientation; one capability shift per level; visible movement between states",
-    "dominant_anchor": "Eleven-course loop around a giant centre number",
-    "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
-    ],
-    "information_chunks": [
+    "candidate_information_grammar": [
       "name current condition",
       "show sequential capability shifts",
       "define what changes at each level",
       "make the next move intelligible"
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Eleven-course loop around a giant centre number.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
-    "craft_observations": [
-      "Eleven-course loop around a giant centre number",
-      "Reusable atom: Circular curriculum turns a list into a path",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
-    ]
-  },
-  "content_mechanics": {
-    "primary_cognitive_job": "Make progress, capability depth or transformation feel navigable rather than abstract.",
-    "argument_sequence": [
-      "name current condition",
-      "show sequential capability shifts",
-      "define what changes at each level",
-      "make the next move intelligible"
+    "candidate_caption_job": "State the limits of the progression, prevent false precision and invite the reader to consider their current condition.",
+    "candidate_use_when": [
+      "The chosen opportunity has a credible progression rather than a marketing funnel.",
+      "Moving between states changes capabilities or decisions, not just labels.",
+      "The reader benefits from locating a current state."
     ],
-    "compression_method": "levels, rings, stages, ladder or journey; clear start/end orientation; one capability shift per level; visible movement between states",
-    "reader_payoff": "Make progress, capability depth or transformation feel navigable rather than abstract.",
-    "save_share_return_motives": [
-      "self-assess",
-      "save as a roadmap",
-      "use to start a team conversation"
+    "candidate_do_not_use_when": [
+      "The levels are arbitrary.",
+      "There is no meaningful order.",
+      "The post would imply false maturity scoring or unsupported benchmarks."
     ],
-    "caption_to_visual_choreography": "State the limits of the progression, prevent false precision and invite the reader to consider their current condition."
-  },
-  "recombination": {
-    "mechanism_fingerprint": {
-      "primary_cognitive_job": "Make progress, capability depth or transformation feel navigable rather than abstract.",
-      "reader_state": [
-        "uncertain starting point",
-        "ambition without path",
-        "need to see progression"
-      ],
-      "visual_grammar": [
-        "levels, rings, stages, ladder or journey",
-        "clear start/end orientation",
-        "one capability shift per level",
-        "visible movement between states"
-      ],
-      "information_grammar": [
-        "name current condition",
-        "show sequential capability shifts",
-        "define what changes at each level",
-        "make the next move intelligible"
-      ],
-      "social_action_mechanics": [
-        "self-assess",
-        "save as a roadmap",
-        "use to start a team conversation"
-      ],
-      "use_when": [
-        "The chosen opportunity has a credible progression rather than a marketing funnel.",
-        "Moving between states changes capabilities or decisions, not just labels.",
-        "The reader benefits from locating a current state."
-      ],
-      "do_not_use_when": [
-        "The levels are arbitrary.",
-        "There is no meaningful order.",
-        "The post would imply false maturity scoring or unsupported benchmarks."
-      ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
-    },
-    "transferable_atoms": [
-      "Circular curriculum turns a list into a path",
-      "name current condition",
-      "show sequential capability shifts"
-    ],
-    "reverse_build_specification": "When a chosen opportunity is genuinely developmental, use a clear progression with one capability change per stage. Make the starting point, movement and next credible step visible, and avoid treating maturity labels as evidence without support.",
-    "editable_levers": [
-      "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
-      "caption role",
-      "format/material treatment"
-    ],
-    "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
-    ],
-    "anti_copy_boundary": [
-      "Exact editorial/orange layout",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
-    ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended make progress, capability depth or transformation feel navigable rather than abstract. without relying on the caption?"
+    "candidate_reverse_build_specification": "When a chosen opportunity is genuinely developmental, use a clear progression with one capability change per stage. Make the starting point, movement and next credible step visible, and avoid treating maturity labels as evidence without support.",
+    "topic_selection_boundary": "This template does not select a future topic, audience, factual claim or post angle.",
+    "required_next_step": "Inspect the local asset and write record-specific evidence before promoting any candidate field into a manual forensic record or Creative Genome retrieval."
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#61",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#61",
     "source_context_id": "top100-workbook#61",
-    "content_hash": "760b119430d650df96bf30cca492d68679c406d39de06ea00dd92b3772e452a2"
+    "content_hash": "760b119430d650df96bf30cca492d68679c406d39de06ea00dd92b3772e452a2",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    }
   }
 }

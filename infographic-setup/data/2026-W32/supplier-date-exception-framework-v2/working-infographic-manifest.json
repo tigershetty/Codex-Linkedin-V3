@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "status": "internal_prototype",
+  "route": "working_infographic",
+  "reader_work_moment": "A planner, buyer, KAM, or supply-chain manager receives a changed supplier date and needs to decide whether it has become a customer-facing exception.",
+  "spatial_thesis": "One incoming date-change ticket is first assessed against the customer need-by, current promise and allocation context it could affect; it then tests credible supplier exposure and recovery. The current customer date remains held until a credible miss remains after recovery and reaches one joint-exception gate.",
+  "figma": {
+    "file_key": "lAiBPFCz9FDuM74CN5chDd",
+    "page_name": "11 — Promise-Control Card / Supplier Date v5",
+    "node_id": "60:3",
+    "node_url": "https://www.figma.com/design/lAiBPFCz9FDuM74CN5chDd?node-id=60-3"
+  },
+  "active_export": {
+    "path": "visual-v5-promise-control-card.png",
+    "sha256": "1f0d2b4e8634bbf7ed606fc211fc1e39756d50b694d540ea4df1af8616d7d0e6"
+  },
+  "caption_path": "caption-draft.md",
+  "claim_support": {
+    "mode": "Tiger-proposed framework / internal design source",
+    "source_paths": ["tiger-source.md", "creative-brief.md"],
+    "public_wording_boundary": "Call this a proposed operating check. Do not claim it predicts delivery, reduces cost, has been deployed, or is a universal standard."
+  },
+  "reference_mechanisms": [
+    {
+      "reference_id": "PIERRI-027",
+      "review_status": "manual_forensic_review",
+      "mechanism": "a visible condition changes the next move rather than leaving the reader with a list of checks",
+      "anti_copy_boundary": "No source palette, title treatment, selection-tree geometry, wording, or animation choreography is used."
+    },
+    {
+      "reference_id": "PIERRI-045",
+      "review_status": "manual_forensic_review",
+      "mechanism": "small decision units remain attached to one coherent information object and reward a deep read",
+      "anti_copy_boundary": "No source matrix, row/column composition, language, or surface styling is used."
+    }
+  ],
+  "motion": {
+    "decision": "still_only",
+    "sentence": "A semantic-state animation may later reveal how one failed test diverts the customer commitment; no motion is selected until the static visual proves useful."
+  },
+  "review_path": "working-infographic-review.md"
+}

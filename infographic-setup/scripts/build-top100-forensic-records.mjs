@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 /**
- * Expands direct visual observations + workbook caption context into topic-neutral forensic records.
- * It never picks a future topic and never writes over the three human-calibrated records.
+ * Builds provisional, template-assisted Top-100 review candidates from the
+ * discovery index plus workbook caption context. It never represents that
+ * template work as a record-level visual inspection and never writes over the
+ * three separately evidenced calibration reviews.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -12,10 +14,11 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '..');
 const reviewDir = path.join(root, 'references/creative-review');
 const sourceIndexPath = path.join(reviewDir, 'top100-forensic-source-context.jsonl');
-const visualIndexPath = path.join(reviewDir, 'top100-visual-inspection-2026-08-05.md');
+const discoveryIndexPath = path.join(reviewDir, 'top100-visual-inspection-2026-08-05.md');
 const assetDir = path.join(root, 'references/top 100');
 const outputDir = path.join(reviewDir, 'top100-forensics');
 const calibration = new Set([13, 64, 65]);
+const GENERATED_AT = '2026-08-07T00:00:00.000Z';
 
 const profiles = {
   comparison: {
@@ -163,39 +166,61 @@ for (const [profile, numbers] of Object.entries(groups)) {
 const records = fs.readFileSync(sourceIndexPath, 'utf8').trim().split('\n').filter(Boolean)
   .map((line) => JSON.parse(line));
 const sourceByAsset = new Map(records.map((record) => [record.top100_asset_number, record]));
-const visualMarkdown = fs.readFileSync(visualIndexPath, 'utf8');
-const visualByAsset = new Map();
-for (const line of visualMarkdown.split('\n')) {
+const discoveryMarkdown = fs.readFileSync(discoveryIndexPath, 'utf8');
+const discoveryByAsset = new Map();
+for (const line of discoveryMarkdown.split('\n')) {
   const match = line.match(/^\|\s*(\d+)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|$/);
-  if (match) visualByAsset.set(Number(match[1]), { mechanism: match[2], transfer: match[3], antiCopy: match[4] });
+  if (match) discoveryByAsset.set(Number(match[1]), { mechanism: match[2], transfer: match[3], antiCopy: match[4] });
 }
 const assets = fs.readdirSync(assetDir);
-const assetPath = (number) => {
+const assetFor = (number) => {
   const found = assets.find((name) => new RegExp(`^'?${number}'?\\.`).test(name));
   if (!found) throw new Error(`Missing local asset ${number}`);
-  return `references/top 100/${found}`;
+  const relativePath = `references/top 100/${found}`;
+  return {
+    path: relativePath,
+    sha256: crypto.createHash('sha256').update(fs.readFileSync(path.join(assetDir, found))).digest('hex'),
+    format: /\.gif$/i.test(found) ? 'gif' : 'single_image',
+  };
 };
 const sentence = (text, max = 260) => text.length <= max ? text : `${text.slice(0, max - 1).trimEnd()}…`;
 const captionBeats = (caption) => caption.split(/\n\s*\n/).map((segment) => segment.replace(/\s+/g, ' ').trim()).filter(Boolean).slice(0, 6).map((segment) => sentence(segment, 220));
 
 fs.mkdirSync(outputDir, { recursive: true });
 let written = 0;
-for (const [number, visual] of [...visualByAsset.entries()].sort(([a], [b]) => a - b)) {
+for (const [number, discovery] of [...discoveryByAsset.entries()].sort(([a], [b]) => a - b)) {
   if (calibration.has(number)) continue;
   const profileName = profileByAsset.get(number);
   if (!profileName) throw new Error(`No mechanism profile assigned to asset ${number}`);
   const profile = profiles[profileName];
   const source = sourceByAsset.get(number) ?? { caption_available: false, caption_hook: '', caption_text: '', caption_source: null, caption_sha256: null };
+  const asset = assetFor(number);
   const output = {
-    schema_version: '1.1.0',
+    schema_version: '2.0.0',
     reference_id: `TOP100-${String(number).padStart(3, '0')}`,
-    forensic_record_status: 'complete_from_direct_visual_inspection_and_caption_context',
+    forensic_record_status: 'provisional_template_assisted_candidate',
     review_method: {
-      visual_basis: 'Direct inspection of the local Top-100 asset on 2026-08-05.',
+      mode: 'template_assisted_candidate',
+      generated_at: GENERATED_AT,
+      visual_basis: 'High-level discovery-index labels plus a reusable profile mapping; no record-level manual asset review is attached.',
       context_basis: source.caption_available ? 'Caption extracted from the supplied Top-100 workbook.' : 'No supplied caption content available.',
-      boundary: 'Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record.'
+      boundary: 'This candidate is a routing aid for manual review. It cannot establish asset-specific visual mechanics, animation behaviour, factual claims, or a high-confidence creative mechanism.',
+      reviewer: null,
+      reviewed_at: null,
+      evidence: null,
     },
-    asset: { path: assetPath(number), status: 'visually_inspected', format: /\.gif$/i.test(assetPath(number)) ? 'animated_or_gif_first_frame_reviewed' : 'single_image', inspection_limitations: /\.gif$/i.test(assetPath(number)) ? ['Motion is not inferred beyond the available first-frame inspection.'] : [] },
+    asset: {
+      path: asset.path,
+      sha256: asset.sha256,
+      status: 'available_for_manual_review',
+      format: asset.format,
+      manual_review_evidence: null,
+      frame_evidence: [],
+      inspection_limitations: [
+        'No manual asset-specific visual review is attached to this generated candidate.',
+        ...(asset.format === 'gif' ? ['No GIF frame sequence has been manually sampled; do not infer motion or pacing.'] : []),
+      ],
+    },
     source_context: {
       creator: 'Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.',
       post_url: null,
@@ -207,60 +232,36 @@ for (const [number, visual] of [...visualByAsset.entries()].sort(([a], [b]) => a
       observed_performance_context: ['Included in Tiger’s intentionally curated Top-100 reference set.'],
       unknowns: ['Original post-level analytics unless separately captured.', 'Independent validation of factual or numerical claims within the source post.']
     },
-    reader_situation: {
-      primary_reader_state: profile.readerState,
-      desired_response: profile.social,
-      topic_selection_boundary: 'The record does not select a future topic, audience, factual claim or post angle.'
+    template_assisted_hypotheses: {
+      profile_name: profileName,
+      source_discovery_index: `top100-visual-inspection-2026-08-05#${number}`,
+      candidate_visual_mechanism: discovery.mechanism,
+      candidate_transferable_atom: discovery.transfer,
+      candidate_anti_copy_boundary: discovery.antiCopy,
+      candidate_cognitive_job: profile.cognitiveJob,
+      candidate_reader_states: profile.readerState,
+      candidate_visual_grammar: profile.visualGrammar,
+      candidate_information_grammar: profile.informationGrammar,
+      candidate_caption_job: profile.captionJob,
+      candidate_use_when: profile.useWhen,
+      candidate_do_not_use_when: profile.doNot,
+      candidate_reverse_build_specification: profile.build,
+      topic_selection_boundary: 'This template does not select a future topic, audience, factual claim or post angle.',
+      required_next_step: 'Inspect the local asset and write record-specific evidence before promoting any candidate field into a manual forensic record or Creative Genome retrieval.',
     },
-    attention_physics: {
-      thumbnail_read_0_3_seconds: `The asset’s first-frame promise is carried by ${visual.mechanism}.`,
-      comprehension_3_10_seconds: `The reader follows the ${profile.visualGrammar.slice(0, 3).join(', ')} to understand the structure without reading the full caption.`,
-      value_exchange_10_30_seconds: profile.cognitiveJob,
-      identity_or_curiosity_trigger: profile.readerState.join('; '),
-      promise_proved_by_visual: `The visual’s proof mechanism is ${visual.mechanism}.`
-    },
-    visual_forensics: {
-      asset_specific_observation: visual.mechanism,
-      composition_and_grid: profile.visualGrammar.join('; '),
-      dominant_anchor: visual.mechanism,
-      eye_path: ['headline/promise', 'dominant visual primitive', 'repeated information units', 'reader payoff or next action'],
-      information_chunks: profile.informationGrammar,
-      hierarchy: 'The visible promise and primary structure carry the first read; supporting detail is subordinate.',
-      typography: 'Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.',
-      colour_material_and_contrast: 'Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.',
-      imagery_role: `Imagery supports the mechanism: ${visual.mechanism}.`,
-      density_and_pacing: 'Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.',
-      craft_observations: [visual.mechanism, `Reusable atom: ${visual.transfer}`, 'The source’s visual identity, typography and precise layout remain non-transferable.']
-    },
-    content_mechanics: {
-      primary_cognitive_job: profile.cognitiveJob,
-      argument_sequence: profile.informationGrammar,
-      compression_method: profile.visualGrammar.join('; '),
-      reader_payoff: profile.cognitiveJob,
-      save_share_return_motives: profile.social,
-      caption_to_visual_choreography: profile.captionJob
-    },
-    recombination: {
-      mechanism_fingerprint: {
-        primary_cognitive_job: profile.cognitiveJob,
-        reader_state: profile.readerState,
-        visual_grammar: profile.visualGrammar,
-        information_grammar: profile.informationGrammar,
-        social_action_mechanics: profile.social,
-        use_when: profile.useWhen,
-        do_not_use_when: profile.doNot,
-        topic_selection_boundary: 'This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination.'
+    provenance: {
+      source_discovery_index_id: `top100-visual-inspection-2026-08-05#${number}`,
+      source_context_id: `top100-workbook#${number}`,
+      content_hash: crypto.createHash('sha256').update(`${number}|${discovery.mechanism}|${source.caption_sha256 ?? ''}`).digest('hex'),
+      generation: {
+        script: 'scripts/build-top100-forensic-records.mjs',
+        generated_at: GENERATED_AT,
+        method: 'discovery-index label plus reusable profile mapping',
+        manual_visual_review_attached: false,
       },
-      transferable_atoms: [visual.transfer, ...profile.informationGrammar.slice(0, 2)],
-      reverse_build_specification: profile.build,
-      editable_levers: ['topic: intentionally unselected', 'reader work moment', 'visual primitive', 'information depth', 'caption role', 'format/material treatment'],
-      required_original_inputs: ['A chosen reader tension with real relevance.', 'Correct logic, process or sourced evidence proportionate to the selected claim.', 'An original visual object/scene/interface that proves the chosen promise.', 'A caption that adds a different layer of value from the visual.'],
-      anti_copy_boundary: [visual.antiCopy, 'source wording and caption rhetoric', 'source creator identity, brand assets and distinctive composition', 'any source claim not independently supportable'],
-      falsification_question: `After seeing an original execution, can a target reader identify the intended ${profile.cognitiveJob.toLowerCase()} without relying on the caption?`
     },
-    provenance: { visual_observation_id: `top100-visual-inspection-2026-08-05#${number}`, source_context_id: `top100-workbook#${number}`, content_hash: crypto.createHash('sha256').update(`${number}|${visual.mechanism}|${source.caption_sha256 ?? ''}`).digest('hex') }
   };
   fs.writeFileSync(path.join(outputDir, `TOP100-${String(number).padStart(3, '0')}.json`), `${JSON.stringify(output, null, 2)}\n`);
   written += 1;
 }
-console.log(`Wrote ${written} forensic records; retained ${calibration.size} calibration records.`);
+console.log(`Wrote ${written} provisional template-assisted candidates; retained ${calibration.size} separately evidenced calibration records.`);

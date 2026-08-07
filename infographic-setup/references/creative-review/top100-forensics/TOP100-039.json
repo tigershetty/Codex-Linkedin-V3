@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-039",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7461899653442060288, bound to references/top 100/39.jpeg at SHA-256 3e589fe45ed13f39759f9d04448d6355b18e12b5037fb72af353ab7c74229652.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7461899653442060288; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex direct-asset visual reviewer — Batch B",
+    "reviewed_at": "2026-08-07T15:00:00+02:00",
+    "evidence": "Full-size direct inspection of references/top 100/39.jpeg against the declared SHA-256; observations below describe the actual S&OP reference board; displayed figures are treated as source-post content, not independently validated evidence."
   },
   "asset": {
     "path": "references/top 100/39.jpeg",
-    "status": "visually_inspected",
+    "sha256": "3e589fe45ed13f39759f9d04448d6355b18e12b5037fb72af353ab7c74229652",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "3e589fe45ed13f39759f9d04448d6355b18e12b5037fb72af353ab7c74229652",
+      "reviewer": "Codex direct-asset visual reviewer — Batch B",
+      "reviewed_at": "2026-08-07T15:00:00+02:00",
+      "evidence": "Full-size direct inspection of references/top 100/39.jpeg against the declared SHA-256; observations below describe the actual S&OP reference board; displayed figures are treated as source-post content, not independently validated evidence. Asset hash: 3e589fe45ed13f39759f9d04448d6355b18e12b5037fb72af353ab7c74229652."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Hashim H.",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7461899653442060288",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "edc0059098f41825b43f640bc7057068114d175f3a8f8ffd85be1e2cf0667b84",
@@ -30,140 +45,162 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7461899653442060288",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "system opacity",
-      "fragmented ownership",
-      "need to see the whole before acting locally"
-    ],
-    "desired_response": [
-      "save as an orientation reference",
-      "send to a collaborator",
-      "use to explain a system without a long meeting"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A broad map of S&OP that can orient a new participant or seed a team conversation about the process.",
+    "work_moment": "A cross-functional supply-chain participant needs a shared model of S&OP participants, review steps, inputs, outputs and common breakdowns.",
+    "tension": "Clarity and professional confidence from seeing a complex cross-functional process decomposed into visible parts.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by S&OP system explainer with loop, roles, inputs, outputs, KPIs.",
-    "comprehension_3_10_seconds": "The reader follows the central anchor or process spine, labelled nodes/layers/lanes, visible relationship connectors to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
-    "identity_or_curiosity_trigger": "system opacity; fragmented ownership; need to see the whole before acting locally",
-    "promise_proved_by_visual": "The visual’s proof mechanism is S&OP system explainer with loop, roles, inputs, outputs, KPIs."
+    "thumbnail_read_0_3_seconds": "0–3s: giant ‘S&OP PROCESS EXPLAINED’ and a dashboard/calendar cue promise a complete reference rather than a single definition. 3–10s: ten numbered section bands show the sheet covers definition, purpose, participants, steps, inputs, outputs, challenges, KPIs, impact and forecast comparison. 10–30s: the reader picks a module—especially the five-step sequence—to use as a meeting or learning aid.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Title → what/why top panels → participants and pie → five core steps across the page → inputs/outputs/challenges → KPI/business impact/forecast chart → dark-blue footer.”.",
+    "value_exchange_10_30_seconds": "A broad map of S&OP that can orient a new participant or seed a team conversation about the process.",
+    "identity_or_curiosity_trigger": "Clarity and professional confidence from seeing a complex cross-functional process decomposed into visible parts.",
+    "promise_proved_by_visual": "An explainer board turns an organisational process into a visible map: who participates, what flows in, what happens, what comes out, and what can derail it."
   },
   "visual_forensics": {
-    "asset_specific_observation": "S&OP system explainer with loop, roles, inputs, outputs, KPIs",
-    "composition_and_grid": "central anchor or process spine; labelled nodes/layers/lanes; visible relationship connectors; bounded visual zones",
-    "dominant_anchor": "S&OP system explainer with loop, roles, inputs, outputs, KPIs",
+    "asset_specific_observation": "Tall white sheet with a dark-navy title masthead; early two-column definition/benefits panels; a central five-step horizontal sequence; lower three-column inputs/outputs/challenges and KPI/impact/chart modules.",
+    "composition_and_grid": "A highly structured magazine grid with wide central process row and three lower columns; large numbered headers make each cluster independently retrievable.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: Title masthead is dominant; the numbered section labels and central five-card process spine are the next strongest elements; support lists and pie/line charts are close-read.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Title",
+      "what/why top panels",
+      "participants and pie",
+      "five core steps across the page",
+      "inputs/outputs/challenges",
+      "KPI/business impact/forecast chart",
+      "dark-blue footer."
     ],
     "information_chunks": [
-      "name the system",
-      "show its parts",
-      "reveal relationships",
-      "locate the intervention or decision point"
+      "Definition and value",
+      "participating functions",
+      "five-step process spine",
+      "inputs/outputs/challenges",
+      "KPI/impact/forecast illustrations",
+      "connected-plan conclusion."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: S&OP system explainer with loop, roles, inputs, outputs, KPIs.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "Title masthead is dominant; the numbered section labels and central five-card process spine are the next strongest elements; support lists and pie/line charts are close-read.",
+    "typography": "Condensed white/turquoise all-caps display title; dark navy all-caps module headings; smaller black body copy and bold numerical callouts.",
+    "colour_material_and_contrast": "Navy masthead/footer, turquoise-blue section accents, white cards with thin blue rules, saturated icon colours and controlled orange/purple highlights.",
+    "imagery_role": "Flat operational icons identify functions and steps; the circular demand/supply/financial triad and process arrows show relationships; charts occupy proof-like positions but are not externally verified here.",
+    "density_and_pacing": "The top explains the noun, the middle sequences the work, and the lower third becomes a reference catalogue; readers can exit after any level.",
     "craft_observations": [
-      "S&OP system explainer with loop, roles, inputs, outputs, KPIs",
-      "Reusable atom: Complete operating model in one reference",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "Numbered headers provide a robust index across very different modules. The five-step sequence uses large arrows and equally sized cards to make the operating flow legible at a glance. The dense lower panels retain an aligned column grid."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A broad map of S&OP that can orient a new participant or seed a team conversation about the process.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "name the system",
-      "show its parts",
-      "reveal relationships",
-      "locate the intervention or decision point"
+      "Definition and value",
+      "participating functions",
+      "five-step process spine",
+      "inputs/outputs/challenges",
+      "KPI/impact/forecast illustrations",
+      "connected-plan conclusion."
     ],
-    "compression_method": "central anchor or process spine; labelled nodes/layers/lanes; visible relationship connectors; bounded visual zones",
-    "reader_payoff": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+    "compression_method": "The reviewed visual mechanism is “An explainer board turns an organisational process into a visible map: who participates, what flows in, what happens, what comes out, and what can derail it.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A broad map of S&OP that can orient a new participant or seed a team conversation about the process.",
     "save_share_return_motives": [
-      "save as an orientation reference",
-      "send to a collaborator",
-      "use to explain a system without a long meeting"
+      "High-density orientation sheet; useful for study, onboarding or setting a meeting agenda."
     ],
-    "caption_to_visual_choreography": "Supply the system’s operating consequence, boundary conditions or point of view that a static map cannot prove."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “An explainer board turns an organisational process into a visible map: who participates, what flows in, what happens, what comes out, and what can derail it.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible.",
+      "mechanism_family": "workflow",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "Definition and value → participating functions → five-step process spine → inputs/outputs/challenges → KPI/impact/forecast illustrations → connected-plan conclusion.",
+          "Tall white sheet with a dark-navy title masthead; early two-column definition/benefits panels; a central five-step horizontal sequence; lower three-column inputs/outputs/challenges and KPI/impact/chart modules.",
+          "A highly structured magazine grid with wide central process row and three lower columns; large numbered headers make each cluster independently retrievable.",
+          "An explainer board turns an organisational process into a visible map: who participates, what flows in, what happens, what comes out, and what can derail it."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A broad map of S&OP that can orient a new participant or seed a team conversation about the process.",
       "reader_state": [
-        "system opacity",
-        "fragmented ownership",
-        "need to see the whole before acting locally"
+        "A cross-functional supply-chain participant needs a shared model of S&OP participants, review steps, inputs, outputs and common breakdowns."
       ],
       "visual_grammar": [
-        "central anchor or process spine",
-        "labelled nodes/layers/lanes",
-        "visible relationship connectors",
-        "bounded visual zones"
+        "Tall white sheet with a dark-navy title masthead; early two-column definition/benefits panels; a central five-step horizontal sequence; lower three-column inputs/outputs/challenges and KPI/impact/chart modules.",
+        "A highly structured magazine grid with wide central process row and three lower columns; large numbered headers make each cluster independently retrievable.",
+        "An explainer board turns an organisational process into a visible map: who participates, what flows in, what happens, what comes out, and what can derail it."
       ],
       "information_grammar": [
-        "name the system",
-        "show its parts",
-        "reveal relationships",
-        "locate the intervention or decision point"
+        "Definition and value → participating functions → five-step process spine → inputs/outputs/challenges → KPI/impact/forecast illustrations → connected-plan conclusion.",
+        "A broad map of S&OP that can orient a new participant or seed a team conversation about the process.",
+        "High-density orientation sheet; useful for study, onboarding or setting a meeting agenda."
       ],
       "social_action_mechanics": [
-        "save as an orientation reference",
-        "send to a collaborator",
-        "use to explain a system without a long meeting"
+        "High-density orientation sheet; useful for study, onboarding or setting a meeting agenda."
       ],
       "use_when": [
-        "The opportunity is about relationships between components rather than a single list.",
-        "The visual can make a hidden dependency, flow or ownership boundary clearer.",
-        "The reader benefits from an overview before detailed instruction."
+        "The already selected reader moment genuinely benefits from an original workflow rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The main reader need is a simple one-step decision.",
-        "Relationships would be invented or speculative.",
-        "A table would communicate the content more clearly."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Complete operating model in one reference",
-      "name the system",
-      "show its parts"
+      "For an operating system with many interconnected parts, preserve one central process spine and let definitions, actors, inputs, outputs and metrics orbit it as labelled modules. Make the process sequence larger than the supporting catalogue."
     ],
-    "reverse_build_specification": "When a chosen opportunity needs orientation in a complex system, select one visual grammar—spine, hub, layers or lanes—and use it consistently to make relationships legible. Give each node one job and let the caption explain why the relationship matters.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original workflow whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: For an operating system with many interconnected parts, preserve one central process spine and let definitions, actors, inputs, outputs and metrics orbit it as labelled modules. Make the process sequence larger than the supporting catalogue. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Navy infographic architecture",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not copy the S&OP title treatment, exact five-step labels, percentages/metric targets, icon set, dark-blue/turquoise palette, or author/series branding; verify all numerical claims independently.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended orient the reader inside a multi-part system by making relationships, dependencies or hand-offs visible. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#39",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#39",
     "source_context_id": "top100-workbook#39",
-    "content_hash": "35a9d51b270fc476ccf6377e9838c35a29de5a55f7c00e022a847b11c119cb66"
+    "content_hash": "35a9d51b270fc476ccf6377e9838c35a29de5a55f7c00e022a847b11c119cb66",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7461899653442060288",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/39.jpeg",
+      "asset_sha256": "3e589fe45ed13f39759f9d04448d6355b18e12b5037fb72af353ab7c74229652",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

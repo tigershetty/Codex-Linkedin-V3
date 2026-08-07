@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-026",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7464950856669458432, bound to references/top 100/26.jpeg at SHA-256 cb4570ff11b6b930960b0c1d5a7ebdebaf0147bb779492d20cdd2ccdd49bb317.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7464950856669458432; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex direct-asset visual reviewer - Batch C",
+    "reviewed_at": "2026-08-07T15:30:00+02:00",
+    "evidence": "Full-size direct inspection of references/top 100/26.jpeg against the declared SHA-256; observations below describe the rendered poster and its visible layers."
   },
   "asset": {
     "path": "references/top 100/26.jpeg",
-    "status": "visually_inspected",
+    "sha256": "cb4570ff11b6b930960b0c1d5a7ebdebaf0147bb779492d20cdd2ccdd49bb317",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "cb4570ff11b6b930960b0c1d5a7ebdebaf0147bb779492d20cdd2ccdd49bb317",
+      "reviewer": "Codex direct-asset visual reviewer - Batch C",
+      "reviewed_at": "2026-08-07T15:30:00+02:00",
+      "evidence": "Full-size direct inspection of references/top 100/26.jpeg against the declared SHA-256; observations below describe the rendered poster and its visible layers. Asset hash: cb4570ff11b6b930960b0c1d5a7ebdebaf0147bb779492d20cdd2ccdd49bb317."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Marek Dabrowski",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7464950856669458432",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "7a5ce8eb729deac135e2eb50fe74345fbe27e538e9d2f84ffdc83f56d73014af",
@@ -34,140 +49,159 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7464950856669458432",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "need for recognition",
-      "abstract tension",
-      "social friction around naming a pattern"
-    ],
-    "desired_response": [
-      "tag a colleague",
-      "comment with a personal example",
-      "remember and repeat the idea"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A memorable visual way to discuss a proposed order of operating layers; the framework remains a point of view rather than a universal maturity model.",
+    "work_moment": "An operations leader is deciding where to start when improvement activity, management routines and culture are being discussed at the same time.",
+    "tension": "Order replacing improvement overload: the visual offers a clear starting point within a complex factory setting.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Industrial scene framed by concentric lean layers.",
-    "comprehension_3_10_seconds": "The reader follows the one unexpected metaphor, strong visual object or scene, small reveal units to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy.",
-    "identity_or_curiosity_trigger": "need for recognition; abstract tension; social friction around naming a pattern",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Industrial scene framed by concentric lean layers."
+    "thumbnail_read_0_3_seconds": "0-3s: the headline, industrial sketch environment and turquoise core immediately frame a layered Lean operation. 3-10s: the dotted Start here route leads into Standard Work at the centre. 10-30s: concentric rings make the prerequisite logic and small supporting practices inspectable.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Headline -> turquoise Start here cue -> dotted route -> Standard Work core -> rings moving outward -> Before/After labels at the bottom corners.”.",
+    "value_exchange_10_30_seconds": "A memorable visual way to discuss a proposed order of operating layers; the framework remains a point of view rather than a universal maturity model.",
+    "identity_or_curiosity_trigger": "Order replacing improvement overload: the visual offers a clear starting point within a complex factory setting.",
+    "promise_proved_by_visual": "The concentric structure makes foundational-to-cultural dependency spatial, while the entry arrow prevents readers from treating outer layers as an interchangeable list."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Industrial scene framed by concentric lean layers",
-    "composition_and_grid": "one unexpected metaphor; strong visual object or scene; small reveal units; emotionally legible contrast",
-    "dominant_anchor": "Industrial scene framed by concentric lean layers",
+    "asset_specific_observation": "Square editorial poster: a large centred concentric target occupies the middle while detailed monochrome factory line art frames the outer edges; a turquoise handwritten route enters from upper left.",
+    "composition_and_grid": "A central circular diagram owns the page; outer industrial drawing is deliberately lower contrast so it suggests context without obscuring the rings.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: The large LEAN OPERATION title and turquoise Standard Work core dominate; ring labels follow; small practice labels and factory detail form the close-read layer.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Headline",
+      "turquoise Start here cue",
+      "dotted route",
+      "Standard Work core",
+      "rings moving outward",
+      "Before/After labels at the bottom corners."
     ],
     "information_chunks": [
-      "surprising premise",
-      "recognisable truth",
-      "brief unpacking",
-      "invitation to identify or discuss"
+      "Layer-count promise",
+      "Start here pointer",
+      "central Standard Work",
+      "expanding management and culture layers",
+      "illustrative practices around each ring."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Industrial scene framed by concentric lean layers.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "The large LEAN OPERATION title and turquoise Standard Work core dominate; ring labels follow; small practice labels and factory detail form the close-read layer.",
+    "typography": "Tall condensed navy display headline, all-caps ring labels, small condensed explanatory labels, plus a contrasting loose handwritten script for directional emphasis.",
+    "colour_material_and_contrast": "Off-white paper, fine navy sketch lines, turquoise brush accents, restrained shadows and a mixture of clean vector rings with hand-rendered texture.",
+    "imagery_role": "The factory is a contextual frame, while the concentric diagram is the functional visual. The rough turquoise centre gives the abstract core a tactile mark.",
+    "density_and_pacing": "The route provides an immediate entry. Readers can then move ring by ring, with side labels rewarding a slower exploration.",
     "craft_observations": [
-      "Industrial scene framed by concentric lean layers",
-      "Reusable atom: Place a framework inside a lived environment",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The environmental illustration is unusually integrated: it supports the topic without becoming a stock hero. Turquoise is reserved for the central proof point and path. The close-read labels are dispersed around the ring circumference, encouraging exploration rather than a simple top-to-bottom scan."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A memorable visual way to discuss a proposed order of operating layers; the framework remains a point of view rather than a universal maturity model.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "surprising premise",
-      "recognisable truth",
-      "brief unpacking",
-      "invitation to identify or discuss"
+      "Layer-count promise",
+      "Start here pointer",
+      "central Standard Work",
+      "expanding management and culture layers",
+      "illustrative practices around each ring."
     ],
-    "compression_method": "one unexpected metaphor; strong visual object or scene; small reveal units; emotionally legible contrast",
-    "reader_payoff": "Make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy.",
+    "compression_method": "The reviewed visual mechanism is “The concentric structure makes foundational-to-cultural dependency spatial, while the entry arrow prevents readers from treating outer layers as an interchangeable list.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A memorable visual way to discuss a proposed order of operating layers; the framework remains a point of view rather than a universal maturity model.",
     "save_share_return_motives": [
-      "tag a colleague",
-      "comment with a personal example",
-      "remember and repeat the idea"
+      "A workshop prompt or a saveable way to introduce a dependency conversation in continuous improvement."
     ],
-    "caption_to_visual_choreography": "Unpack the metaphor, state its boundary and invite recognition without overstating a universal truth."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “The concentric structure makes foundational-to-cultural dependency spatial, while the entry arrow prevents readers from treating outer layers as an interchangeable list.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy.",
+      "mechanism_family": "comparison",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "Layer-count promise -> Start here pointer -> central Standard Work -> expanding management and culture layers -> illustrative practices around each ring.",
+          "Square editorial poster: a large centred concentric target occupies the middle while detailed monochrome factory line art frames the outer edges; a turquoise handwritten route enters from upper left.",
+          "A central circular diagram owns the page; outer industrial drawing is deliberately lower contrast so it suggests context without obscuring the rings.",
+          "The concentric structure makes foundational-to-cultural dependency spatial, while the entry arrow prevents readers from treating outer layers as an interchangeable list."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A memorable visual way to discuss a proposed order of operating layers; the framework remains a point of view rather than a universal maturity model.",
       "reader_state": [
-        "need for recognition",
-        "abstract tension",
-        "social friction around naming a pattern"
+        "An operations leader is deciding where to start when improvement activity, management routines and culture are being discussed at the same time."
       ],
       "visual_grammar": [
-        "one unexpected metaphor",
-        "strong visual object or scene",
-        "small reveal units",
-        "emotionally legible contrast"
+        "Square editorial poster: a large centred concentric target occupies the middle while detailed monochrome factory line art frames the outer edges; a turquoise handwritten route enters from upper left.",
+        "A central circular diagram owns the page; outer industrial drawing is deliberately lower contrast so it suggests context without obscuring the rings.",
+        "The concentric structure makes foundational-to-cultural dependency spatial, while the entry arrow prevents readers from treating outer layers as an interchangeable list."
       ],
       "information_grammar": [
-        "surprising premise",
-        "recognisable truth",
-        "brief unpacking",
-        "invitation to identify or discuss"
+        "Layer-count promise -> Start here pointer -> central Standard Work -> expanding management and culture layers -> illustrative practices around each ring.",
+        "A memorable visual way to discuss a proposed order of operating layers; the framework remains a point of view rather than a universal maturity model.",
+        "A workshop prompt or a saveable way to introduce a dependency conversation in continuous improvement."
       ],
       "social_action_mechanics": [
-        "tag a colleague",
-        "comment with a personal example",
-        "remember and repeat the idea"
+        "A workshop prompt or a saveable way to introduce a dependency conversation in continuous improvement."
       ],
       "use_when": [
-        "A real lived pattern can be made clearer without losing nuance.",
-        "The desired response is recognition or intrigue before instruction.",
-        "The metaphor is kind, original and culturally safe."
+        "The already selected reader moment genuinely benefits from an original comparison rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The post carries high-stakes factual, technical or sensitive criticism.",
-        "The metaphor stereotypes people or minimises harm.",
-        "The reader requires a precise procedure."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Place a framework inside a lived environment",
-      "surprising premise",
-      "recognisable truth"
+      "When a framework has prerequisites, locate the starting condition physically at the centre and make later layers radiate outward. Use an environmental scene only if it reinforces the work context. Give the reader a directional cue rather than assuming concentric rings alone explain priority."
     ],
-    "reverse_build_specification": "When a chosen opportunity needs recognition before explanation, create one original, respectful metaphor that makes the tension visible. Use the visual for the memorable collision and the caption for the nuance, boundary and conversation.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original comparison whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: When a framework has prerequisites, locate the starting condition physically at the centre and make later layers radiate outward. Use an environmental scene only if it reinforces the work context. Give the reader a directional cue rather than assuming concentric rings alone explain priority. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Warehouse illustration and circles",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not reproduce the factory line-art scene, five named Lean layers, turquoise standard-work centre, exact dotted path, handwritten Before/After labels, or source wording.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended make a familiar but hard-to-explain work pattern memorable through a concrete, emotionally safe analogy. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#26",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#26",
     "source_context_id": "top100-workbook#26",
-    "content_hash": "7dfe8020a6102211ac5ae83247714c244af65ce013b7045ab76417938581ef04"
+    "content_hash": "7dfe8020a6102211ac5ae83247714c244af65ce013b7045ab76417938581ef04",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7464950856669458432",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/26.jpeg",
+      "asset_sha256": "cb4570ff11b6b930960b0c1d5a7ebdebaf0147bb779492d20cdd2ccdd49bb317",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

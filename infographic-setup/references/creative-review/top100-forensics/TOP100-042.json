@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-042",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7462103543844388864, bound to references/top 100/42.jpeg at SHA-256 b8e912afea4f061735129d52cab4ecb39ec778dee2e9211c798b09ca5166090b.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7462103543844388864; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex direct-asset visual reviewer — Batch B",
+    "reviewed_at": "2026-08-07T15:00:00+02:00",
+    "evidence": "Full-size direct inspection of references/top 100/42.jpeg against the declared SHA-256; observations below describe the actual three-column workflow guide."
   },
   "asset": {
     "path": "references/top 100/42.jpeg",
-    "status": "visually_inspected",
+    "sha256": "b8e912afea4f061735129d52cab4ecb39ec778dee2e9211c798b09ca5166090b",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "b8e912afea4f061735129d52cab4ecb39ec778dee2e9211c798b09ca5166090b",
+      "reviewer": "Codex direct-asset visual reviewer — Batch B",
+      "reviewed_at": "2026-08-07T15:00:00+02:00",
+      "evidence": "Full-size direct inspection of references/top 100/42.jpeg against the declared SHA-256; observations below describe the actual three-column workflow guide. Asset hash: b8e912afea4f061735129d52cab4ecb39ec778dee2e9211c798b09ca5166090b."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Josh S.",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7462103543844388864",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "9be34822d220b8054114fd566d9b9a036e6f1a25689051266af03a688bdca9b6",
@@ -34,140 +49,158 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7462103543844388864",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "blank-page friction",
-      "process uncertainty",
-      "desire for a reliable first move"
-    ],
-    "desired_response": [
-      "save for later execution",
-      "send to someone learning the process",
-      "return at the point of work"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: One structured workflow showing that a post has preparatory, launch and follow-through work—not merely a writing task.",
+    "work_moment": "A LinkedIn creator wants a usable operating routine that includes ideation, publishing preparation and the immediate post-publish period.",
+    "tension": "Agency from seeing the hidden work around a post made explicit.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Three-phase LinkedIn post workflow.",
-    "comprehension_3_10_seconds": "The reader follows the numbered sequence, one visible action per stage, progress cue to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Convert an intimidating process into a sequence a reader can start and repeat.",
-    "identity_or_curiosity_trigger": "blank-page friction; process uncertainty; desire for a reliable first move",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Three-phase LinkedIn post workflow."
+    "thumbnail_read_0_3_seconds": "0–3s: the extremely large ‘3-Part System’ title and three pastel panels signal a complete before/during/after workflow. 3–10s: readers decode the panel names—Ideation, Going Live, After Posting—and their time-based relationship. 10–30s: they inspect numbered best practices, a pre-post checklist and the final 30-minute response schedule.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Title → left Ideation column → centre Going Live column → right After Posting column → bottom CTA strip.”.",
+    "value_exchange_10_30_seconds": "One structured workflow showing that a post has preparatory, launch and follow-through work—not merely a writing task.",
+    "identity_or_curiosity_trigger": "Agency from seeing the hidden work around a post made explicit.",
+    "promise_proved_by_visual": "Temporal columns make the invisible lifecycle of a post visible, turning generic ‘just post’ advice into a repeatable work sequence."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Three-phase LinkedIn post workflow",
-    "composition_and_grid": "numbered sequence; one visible action per stage; progress cue; optional prompt/interface/example at each stage",
-    "dominant_anchor": "Three-phase LinkedIn post workflow",
+    "asset_specific_observation": "Pale blue portrait sheet with a massive two-line serif title above three full-height pastel columns: lavender Ideation, yellow-green Going Live and mint After Posting.",
+    "composition_and_grid": "Three equal columns use identical header/body/footer structure but custom lower modules appropriate to each phase.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: Title is dominant; large phase names plus a single icon per column are second; section bars and numbered action cards are the close-read layers.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Title",
+      "left Ideation column",
+      "centre Going Live column",
+      "right After Posting column",
+      "bottom CTA strip."
     ],
     "information_chunks": [
-      "start condition",
-      "small steps",
-      "decision or quality gate",
-      "repeatable loop or next action"
+      "System title",
+      "prepare an angle from reference material",
+      "go-live checks/timing",
+      "first 30-minute post-publish actions",
+      "future repurposing and target-audience handoff."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Three-phase LinkedIn post workflow.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "Title is dominant; large phase names plus a single icon per column are second; section bars and numbered action cards are the close-read layers.",
+    "typography": "High-contrast dark serif display type for title/phase labels; rounded sans for section bars, explanatory copy and blue numbered discs.",
+    "colour_material_and_contrast": "Powder-blue outer ground, lavender/chartreuse/mint internal fields, navy type, pale rounded text boxes, dotted divider lines and hand-drawn illustration accents.",
+    "imagery_role": "Illustrated lightbulb, calendar/clock and stopwatch establish phases; lower left includes a circular process doodle and lower centre/right include checklists/time bar.",
+    "density_and_pacing": "The design reads left to right as a timeline, but every column supports independent scanning; numbered cards slow the reader where operational detail matters.",
     "craft_observations": [
-      "Three-phase LinkedIn post workflow",
-      "Reusable atom: Before/during/after makes a repeatable rhythm",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The columns are large enough to preserve phase identity. The centre panel contains a visible pre-post checklist and the right panel uses a 10/10/10 response bar, so the reader sees not only what but when."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: One structured workflow showing that a post has preparatory, launch and follow-through work—not merely a writing task.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "start condition",
-      "small steps",
-      "decision or quality gate",
-      "repeatable loop or next action"
+      "System title",
+      "prepare an angle from reference material",
+      "go-live checks/timing",
+      "first 30-minute post-publish actions",
+      "future repurposing and target-audience handoff."
     ],
-    "compression_method": "numbered sequence; one visible action per stage; progress cue; optional prompt/interface/example at each stage",
-    "reader_payoff": "Convert an intimidating process into a sequence a reader can start and repeat.",
+    "compression_method": "The reviewed visual mechanism is “Temporal columns make the invisible lifecycle of a post visible, turning generic ‘just post’ advice into a repeatable work sequence.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "One structured workflow showing that a post has preparatory, launch and follow-through work—not merely a writing task.",
     "save_share_return_motives": [
-      "save for later execution",
-      "send to someone learning the process",
-      "return at the point of work"
+      "Practical post-day checklist that can be scanned in time order."
     ],
-    "caption_to_visual_choreography": "Explain the work moment, trade-offs and failure boundary behind the steps; do not merely transcribe them."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “Temporal columns make the invisible lifecycle of a post visible, turning generic ‘just post’ advice into a repeatable work sequence.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Convert an intimidating process into a sequence a reader can start and repeat.",
+      "mechanism_family": "workflow",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "System title → prepare an angle from reference material → go-live checks/timing → first 30-minute post-publish actions → future repurposing and target-audience handoff.",
+          "Pale blue portrait sheet with a massive two-line serif title above three full-height pastel columns: lavender Ideation, yellow-green Going Live and mint After Posting.",
+          "Three equal columns use identical header/body/footer structure but custom lower modules appropriate to each phase.",
+          "Temporal columns make the invisible lifecycle of a post visible, turning generic ‘just post’ advice into a repeatable work sequence."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: One structured workflow showing that a post has preparatory, launch and follow-through work—not merely a writing task.",
       "reader_state": [
-        "blank-page friction",
-        "process uncertainty",
-        "desire for a reliable first move"
+        "A LinkedIn creator wants a usable operating routine that includes ideation, publishing preparation and the immediate post-publish period."
       ],
       "visual_grammar": [
-        "numbered sequence",
-        "one visible action per stage",
-        "progress cue",
-        "optional prompt/interface/example at each stage"
+        "Pale blue portrait sheet with a massive two-line serif title above three full-height pastel columns: lavender Ideation, yellow-green Going Live and mint After Posting.",
+        "Three equal columns use identical header/body/footer structure but custom lower modules appropriate to each phase.",
+        "Temporal columns make the invisible lifecycle of a post visible, turning generic ‘just post’ advice into a repeatable work sequence."
       ],
       "information_grammar": [
-        "start condition",
-        "small steps",
-        "decision or quality gate",
-        "repeatable loop or next action"
+        "System title → prepare an angle from reference material → go-live checks/timing → first 30-minute post-publish actions → future repurposing and target-audience handoff.",
+        "One structured workflow showing that a post has preparatory, launch and follow-through work—not merely a writing task.",
+        "Practical post-day checklist that can be scanned in time order."
       ],
       "social_action_mechanics": [
-        "save for later execution",
-        "send to someone learning the process",
-        "return at the point of work"
+        "Practical post-day checklist that can be scanned in time order."
       ],
       "use_when": [
-        "A useful outcome genuinely requires ordered actions.",
-        "The reader can begin without hidden prerequisites.",
-        "The sequence has a real quality check or decision point."
+        "The already selected reader moment genuinely benefits from an original workflow rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The work is non-linear and forcing steps would mislead.",
-        "The post cannot specify a valid first action.",
-        "The claim is a broad strategy rather than a process."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Before/during/after makes a repeatable rhythm",
-      "start condition",
-      "small steps"
+      "Use three columns when a workflow has distinct temporal phases. Give each phase a different background field, a defined job, numbered actions and a small visual process or checklist at the point where uncertainty is highest."
     ],
-    "reverse_build_specification": "When an opportunity needs a repeatable start-to-finish path, use numbered stages with one action and one visible output per stage. Make progress feel possible, include the point at which the reader must judge or validate, and reserve the caption for context and exceptions.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original workflow whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: Use three columns when a workflow has distinct temporal phases. Give each phase a different background field, a defined job, numbered actions and a small visual process or checklist at the point where uncertainty is highest. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Pastel phase cards",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not copy the exact timing claims, platform/tool names, three panel wording, pastel colours, icon illustrations or author/course CTA.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended convert an intimidating process into a sequence a reader can start and repeat. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#42",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#42",
     "source_context_id": "top100-workbook#42",
-    "content_hash": "8b227f057b61e5ebce085d6eaab9b5cb9f4cabccdb36443eace31fd905756b4b"
+    "content_hash": "8b227f057b61e5ebce085d6eaab9b5cb9f4cabccdb36443eace31fd905756b4b",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7462103543844388864",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/42.jpeg",
+      "asset_sha256": "b8e912afea4f061735129d52cab4ecb39ec778dee2e9211c798b09ca5166090b",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }

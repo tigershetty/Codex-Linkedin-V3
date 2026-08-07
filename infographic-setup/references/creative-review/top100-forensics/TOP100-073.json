@@ -1,17 +1,27 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-073",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "provisional_template_assisted_candidate",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
+    "mode": "template_assisted_candidate",
+    "generated_at": "2026-08-07T00:00:00.000Z",
+    "visual_basis": "High-level discovery-index labels plus a reusable profile mapping; no record-level manual asset review is attached.",
     "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "boundary": "This candidate is a routing aid for manual review. It cannot establish asset-specific visual mechanics, animation behaviour, factual claims, or a high-confidence creative mechanism.",
+    "reviewer": null,
+    "reviewed_at": null,
+    "evidence": null
   },
   "asset": {
     "path": "references/top 100/73.jpeg",
-    "status": "visually_inspected",
+    "sha256": "296a54e9d60bd5990470d86b64e00c7b424f38975249cc176dbc515e25c7275d",
+    "status": "available_for_manual_review",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": null,
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "No manual asset-specific visual review is attached to this generated candidate."
+    ]
   },
   "source_context": {
     "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
@@ -36,138 +46,54 @@
       "Independent validation of factual or numerical claims within the source post."
     ]
   },
-  "reader_situation": {
-    "primary_reader_state": [
+  "template_assisted_hypotheses": {
+    "profile_name": "comparison",
+    "source_discovery_index": "top100-visual-inspection-2026-08-05#73",
+    "candidate_visual_mechanism": "FIFO/FEFO/LIFO/NIFO four-way reference",
+    "candidate_transferable_atom": "Equal columns with one shared schema enable choice",
+    "candidate_anti_copy_boundary": "Exact tables and domain copy",
+    "candidate_cognitive_job": "Disambiguate a small set of related concepts so a reader can make a more precise decision.",
+    "candidate_reader_states": [
       "conceptual confusion",
       "cross-functional disagreement",
       "need for shared vocabulary"
     ],
-    "desired_response": [
-      "save as a meeting reference",
-      "send to an adjacent function",
-      "use to settle imprecise language"
+    "candidate_visual_grammar": [
+      "two-to-four equal lanes",
+      "one repeated comparison schema",
+      "clear categorical separation",
+      "shared conclusion or decision rule"
     ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
-  },
-  "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by FIFO/FEFO/LIFO/NIFO four-way reference.",
-    "comprehension_3_10_seconds": "The reader follows the two-to-four equal lanes, one repeated comparison schema, clear categorical separation to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Disambiguate a small set of related concepts so a reader can make a more precise decision.",
-    "identity_or_curiosity_trigger": "conceptual confusion; cross-functional disagreement; need for shared vocabulary",
-    "promise_proved_by_visual": "The visual’s proof mechanism is FIFO/FEFO/LIFO/NIFO four-way reference."
-  },
-  "visual_forensics": {
-    "asset_specific_observation": "FIFO/FEFO/LIFO/NIFO four-way reference",
-    "composition_and_grid": "two-to-four equal lanes; one repeated comparison schema; clear categorical separation; shared conclusion or decision rule",
-    "dominant_anchor": "FIFO/FEFO/LIFO/NIFO four-way reference",
-    "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
-    ],
-    "information_chunks": [
+    "candidate_information_grammar": [
       "name the conflation",
       "answer the same questions for each concept",
       "show the relationship or consequence",
       "give the reader a reusable distinction"
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: FIFO/FEFO/LIFO/NIFO four-way reference.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
-    "craft_observations": [
-      "FIFO/FEFO/LIFO/NIFO four-way reference",
-      "Reusable atom: Equal columns with one shared schema enable choice",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
-    ]
-  },
-  "content_mechanics": {
-    "primary_cognitive_job": "Disambiguate a small set of related concepts so a reader can make a more precise decision.",
-    "argument_sequence": [
-      "name the conflation",
-      "answer the same questions for each concept",
-      "show the relationship or consequence",
-      "give the reader a reusable distinction"
+    "candidate_caption_job": "Turn the visual distinction into a lived consequence, nuance or question; do not repeat every row.",
+    "candidate_use_when": [
+      "The opportunity contains a small set of concepts that readers confuse.",
+      "Each concept is genuinely comparable on the same decision-relevant questions.",
+      "The payoff is a clearer boundary, choice, owner or escalation."
     ],
-    "compression_method": "two-to-four equal lanes; one repeated comparison schema; clear categorical separation; shared conclusion or decision rule",
-    "reader_payoff": "Disambiguate a small set of related concepts so a reader can make a more precise decision.",
-    "save_share_return_motives": [
-      "save as a meeting reference",
-      "send to an adjacent function",
-      "use to settle imprecise language"
+    "candidate_do_not_use_when": [
+      "The idea needs a chronological causal story.",
+      "The categories are not comparable.",
+      "The value depends on emotional recognition rather than precision."
     ],
-    "caption_to_visual_choreography": "Turn the visual distinction into a lived consequence, nuance or question; do not repeat every row."
-  },
-  "recombination": {
-    "mechanism_fingerprint": {
-      "primary_cognitive_job": "Disambiguate a small set of related concepts so a reader can make a more precise decision.",
-      "reader_state": [
-        "conceptual confusion",
-        "cross-functional disagreement",
-        "need for shared vocabulary"
-      ],
-      "visual_grammar": [
-        "two-to-four equal lanes",
-        "one repeated comparison schema",
-        "clear categorical separation",
-        "shared conclusion or decision rule"
-      ],
-      "information_grammar": [
-        "name the conflation",
-        "answer the same questions for each concept",
-        "show the relationship or consequence",
-        "give the reader a reusable distinction"
-      ],
-      "social_action_mechanics": [
-        "save as a meeting reference",
-        "send to an adjacent function",
-        "use to settle imprecise language"
-      ],
-      "use_when": [
-        "The opportunity contains a small set of concepts that readers confuse.",
-        "Each concept is genuinely comparable on the same decision-relevant questions.",
-        "The payoff is a clearer boundary, choice, owner or escalation."
-      ],
-      "do_not_use_when": [
-        "The idea needs a chronological causal story.",
-        "The categories are not comparable.",
-        "The value depends on emotional recognition rather than precision."
-      ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
-    },
-    "transferable_atoms": [
-      "Equal columns with one shared schema enable choice",
-      "name the conflation",
-      "answer the same questions for each concept"
-    ],
-    "reverse_build_specification": "When a chosen opportunity contains conflated but comparable concepts, use equal lanes and one repeated decision schema to make their boundary visible immediately. Use the visual for precision and the caption for consequences and nuance.",
-    "editable_levers": [
-      "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
-      "caption role",
-      "format/material treatment"
-    ],
-    "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
-    ],
-    "anti_copy_boundary": [
-      "Exact tables and domain copy",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
-    ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended disambiguate a small set of related concepts so a reader can make a more precise decision. without relying on the caption?"
+    "candidate_reverse_build_specification": "When a chosen opportunity contains conflated but comparable concepts, use equal lanes and one repeated decision schema to make their boundary visible immediately. Use the visual for precision and the caption for consequences and nuance.",
+    "topic_selection_boundary": "This template does not select a future topic, audience, factual claim or post angle.",
+    "required_next_step": "Inspect the local asset and write record-specific evidence before promoting any candidate field into a manual forensic record or Creative Genome retrieval."
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#73",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#73",
     "source_context_id": "top100-workbook#73",
-    "content_hash": "b161d5af32a2f94ba5e51964839fc87f458130f61330775d7dc35e0df966788e"
+    "content_hash": "b161d5af32a2f94ba5e51964839fc87f458130f61330775d7dc35e0df966788e",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    }
   }
 }

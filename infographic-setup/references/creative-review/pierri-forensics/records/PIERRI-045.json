@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 45,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/45.gif",
+    "sha256": "1b74068904b013362b36d3e9516fc7b005f05c3eacdf2e2131e137ac29f060fa",
+    "format": "gif",
+    "canvas": {
+      "width": 800,
+      "height": 1000
+    }
+  },
+  "caption_link": {
+    "status": "asset_only",
+    "association_confidence": "no_caption_supplied",
+    "caption_available": false,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        5000,
+        9500
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "“How to Find Your UNIQUE Point of View” uses a large plain title with a lavender rough-display word-object.",
+    "layout": "A horizontal four-stage cylinder pipeline sits above a table whose rows explain, prompt, caution, and exemplify each stage.",
+    "reading_order": "Title → top pipeline → column headers / stages → repeated table rows → example rows with portraits.",
+    "typography": "Large headline, rough emphasis word, compact table headers, clear sentence fragments, and bold stage labels inside the pipeline.",
+    "colour": "Lavender, pink, aqua, and blue run consistently through both pipeline stages and table columns.",
+    "surface": "White page, thin table rules, rounded 3D pipeline cylinders, sparse check/cross markers, and small cut-out portraits.",
+    "modules": "Four stage columns crossed with explanation, prompting questions, mistakes, and three applied examples.",
+    "density": "Very high: a single stable matrix carries both process guidance and externalized examples."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 176,
+      "duration_ms_from_gce": 10040
+    },
+    "observed_state_change": "The top pipeline unfolds from compressed discs to labelled stages; a marker appears over the table before the animation returns to a quieter state.",
+    "motion_job": "Make a four-step process physically assemble above a stable reference table.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Apply a multi-stage process while testing each stage against prompts, mistakes, and examples.",
+    "argument_shape": "Process-to-matrix bridge.",
+    "mechanism": "Use a single process spine above a grid that lets each stage be inspected from several practical angles.",
+    "use_condition": "Use when the rows truly serve every stage; if each stage needs unrelated material, use a progression with distinct modules instead."
+  },
+  "anti_copy_boundary": "Do not reuse the POV process, pipeline geometry, portraits, row taxonomy, title tag, colors, table arrangement, or motion.",
+  "claim_boundary": {
+    "public_claim_status": "no_performance_claim_in_asset",
+    "note": "No native performance metric is visible in the source asset. The pictured examples and framework remain source material, not Shetty’s Desk authority."
+  }
+}

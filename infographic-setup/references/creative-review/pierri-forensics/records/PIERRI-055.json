@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 55,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/55.gif",
+    "sha256": "5190d10bcf08e766da029e7d3cc93ba632e63696c2237fe80fb18277a2e7f2d4",
+    "format": "gif",
+    "canvas": {
+      "width": 800,
+      "height": 1000
+    }
+  },
+  "caption_link": {
+    "status": "asset_only",
+    "association_confidence": "no_caption_supplied",
+    "caption_available": false,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        7000,
+        13500
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "“How to Turn your Expertise into HIGH-TRACTION Visuals” treats the key outcome phrase as a large lavender rough-display object.",
+    "layout": "Four large stacked phases occupy the left side; each phase aligns to a detailed framework, layout-map, or deployment module on the right.",
+    "reading_order": "Promise → vertical phase stack → each corresponding right-side working module → bottom directional arrow.",
+    "typography": "Large bold phase labels, broad light headline, rough highlighted phrase, and many small sans labels inside framework components.",
+    "colour": "Lavender, pink, aqua, and blue separate the four phases and echo through their corresponding right-side modules.",
+    "surface": "White canvas, large softly shaded cylinders, thin dark outlines, rectangular working fields, and compact visual labels.",
+    "modules": "Four phase cylinders plus paired detailed implementation panels: strategy, framework mapping, shape choice, and deployment.",
+    "density": "Extremely high: it combines an overview model with usable micro-frameworks, relying on alignment and color correspondence to stay coherent."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 75,
+      "duration_ms_from_gce": 3000
+    },
+    "observed_state_change": "Sampled frames show the left stack gaining its phase colors while right-side framework elements and labels become more complete; the overall left-to-right correspondence remains fixed.",
+    "motion_job": "Assemble a high-density system in dependency order while preserving a static final reference.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Move between an end-to-end overview and the specific working logic needed at each phase.",
+    "argument_shape": "Phase stack with paired implementation panels.",
+    "mechanism": "Use one consistent phase spine and align each high-level phase with the appropriate tactical detail instead of separating overview and implementation into unrelated slides.",
+    "use_condition": "Use only when the modules are truly phase-bound; if the reader must choose among branches, use a decision structure rather than a stack."
+  },
+  "anti_copy_boundary": "Do not reuse the high-traction claim, four-phase stack, framework content, cylinder shapes, colour sequence, title treatment, right-side panel layout, or motion build.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "“High-traction” is a source claim. No native outcome evidence accompanies this asset in the supplied corpus."
+  }
+}

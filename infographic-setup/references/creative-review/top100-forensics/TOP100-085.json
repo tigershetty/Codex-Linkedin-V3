@@ -1,21 +1,36 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "2.0.0",
   "reference_id": "TOP100-085",
-  "forensic_record_status": "complete_from_direct_visual_inspection_and_caption_context",
+  "forensic_record_status": "manual_forensic_review",
   "review_method": {
-    "visual_basis": "Direct inspection of the local Top-100 asset on 2026-08-05.",
-    "context_basis": "Caption extracted from the supplied Top-100 workbook.",
-    "boundary": "Caption context never substitutes for visual inspection; no factual claim inside the source post is treated as verified by this record."
+    "mode": "manual_asset_review",
+    "visual_basis": "Direct manual asset inspection recorded in the canonical reference-review ledger for LI-7450452978395840512, bound to references/top 100/85.jpeg at SHA-256 557c72b086a65ac446ee59292c69239b646ee03a9a60bbe59123860477846b13.",
+    "context_basis": "Caption and source-routing context retained from the Top-100 workbook and canonical ledger for LI-7450452978395840512; it does not substitute for visual inspection or validate source claims.",
+    "boundary": "This record restructures direct ledger observations into the v2 forensic schema. It does not add a new asset-specific visual observation, validate source-post performance, or treat caption text as visual evidence.",
+    "reviewer": "Codex manual visual reviewer, batch 2026-08-07-a",
+    "reviewed_at": "2026-08-07T00:00:00.000Z",
+    "evidence": "Direct full-size review of references/top 100/85.jpeg at SHA-256 557c72b086a65ac446ee59292c69239b646ee03a9a60bbe59123860477846b13. This is a static JPEG; GIF frame evidence is not applicable."
   },
   "asset": {
     "path": "references/top 100/85.jpeg",
-    "status": "visually_inspected",
+    "sha256": "557c72b086a65ac446ee59292c69239b646ee03a9a60bbe59123860477846b13",
+    "status": "manually_reviewed",
     "format": "single_image",
-    "inspection_limitations": []
+    "manual_review_evidence": {
+      "asset_sha256": "557c72b086a65ac446ee59292c69239b646ee03a9a60bbe59123860477846b13",
+      "reviewer": "Codex manual visual reviewer, batch 2026-08-07-a",
+      "reviewed_at": "2026-08-07T00:00:00.000Z",
+      "evidence": "Direct full-size review of references/top 100/85.jpeg at SHA-256 557c72b086a65ac446ee59292c69239b646ee03a9a60bbe59123860477846b13. This is a static JPEG; GIF frame evidence is not applicable. Asset hash: 557c72b086a65ac446ee59292c69239b646ee03a9a60bbe59123860477846b13."
+    },
+    "frame_evidence": [],
+    "inspection_limitations": [
+      "This forensic record is bounded by the direct visual observations recorded in the canonical ledger.",
+      "Source numerical, causal, company and personal claims remain unverified unless separately sourced."
+    ]
   },
   "source_context": {
-    "creator": "Not reliably extracted from the supplied workbook; inspect post or visible asset before attribution.",
-    "post_url": null,
+    "creator": "Edouard Thieuleux",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7450452978395840512",
     "caption_source": "references/top 100/Reference File and Caption.xlsx:Sheet1",
     "caption_available": true,
     "caption_sha256": "cf94b506c1c97e029bf98879de11f4ec9382c3c9210c86ebfd6e1e1b0e963eba",
@@ -34,140 +49,161 @@
     "unknowns": [
       "Original post-level analytics unless separately captured.",
       "Independent validation of factual or numerical claims within the source post."
-    ]
+    ],
+    "ledger_reference_id": "LI-7450452978395840512",
+    "ledger_source_boundary": "Creator and post URL are source-routing metadata. The direct ledger review validates the local visual asset, not source-post performance or factual claims."
   },
   "reader_situation": {
-    "primary_reader_state": [
-      "uncertain starting point",
-      "ambition without path",
-      "need to see progression"
-    ],
-    "desired_response": [
-      "self-assess",
-      "save as a roadmap",
-      "use to start a team conversation"
-    ],
-    "topic_selection_boundary": "The record does not select a future topic, audience, factual claim or post angle."
+    "primary_reader": "A reader seeking the practical value described in the inspected record: A visual prompt for comparing possible organisational responsibilities across small, medium, and large company contexts.",
+    "work_moment": "A supply-chain leader is trying to imagine how roles and reporting lines might change as AI capability is introduced, without assuming every human function disappears.",
+    "tension": "Curiosity mixed with career threat and possibility.",
+    "desired_response": "recognition_understanding_or_practical_use",
+    "topic_selection_boundary": "This record does not choose a future topic, domain, factual claim, audience or post angle. It supplies only evidence-bound creative mechanics for an already selected opportunity."
   },
   "attention_physics": {
-    "thumbnail_read_0_3_seconds": "The asset’s first-frame promise is carried by Before/after AI-native supply-chain org chart.",
-    "comprehension_3_10_seconds": "The reader follows the levels, rings, stages, ladder or journey, clear start/end orientation, one capability shift per level to understand the structure without reading the full caption.",
-    "value_exchange_10_30_seconds": "Make progress, capability depth or transformation feel navigable rather than abstract.",
-    "identity_or_curiosity_trigger": "uncertain starting point; ambition without path; need to see progression",
-    "promise_proved_by_visual": "The visual’s proof mechanism is Before/after AI-native supply-chain org chart."
+    "thumbnail_read_0_3_seconds": "The direct Before AI / After AI split and three company-size bands turn a vague claim about organisational change into side-by-side staffing diagrams.",
+    "comprehension_3_10_seconds": "The recorded eye path is “Title -> Before/After split -> Small-company pair -> Medium-company pair -> Large-company pair -> bottom CTA.”.",
+    "value_exchange_10_30_seconds": "A visual prompt for comparing possible organisational responsibilities across small, medium, and large company contexts.",
+    "identity_or_curiosity_trigger": "Curiosity mixed with career threat and possibility.",
+    "promise_proved_by_visual": "Side-by-side reporting structures make roles that stay, consolidate, or emerge visible as changed positions rather than abstract AI rhetoric."
   },
   "visual_forensics": {
-    "asset_specific_observation": "Before/after AI-native supply-chain org chart",
-    "composition_and_grid": "levels, rings, stages, ladder or journey; clear start/end orientation; one capability shift per level; visible movement between states",
-    "dominant_anchor": "Before/after AI-native supply-chain org chart",
+    "asset_specific_observation": "Deep-blue vertical org-chart board split into Before AI at left and After AI at right, with three horizontal sections for small, medium, and large companies.",
+    "composition_and_grid": "A stable two-column comparison repeated across three context bands, with white reporting lines on a dark field and yellow connectors showing transformation.",
+    "dominant_anchor": "The direct ledger hierarchy identifies the primary anchor as: The title and giant Before AI / After AI labels lead; yellow company-size banners segment the comparison; white role boxes and connectors form the detail.",
     "eye_path": [
-      "headline/promise",
-      "dominant visual primitive",
-      "repeated information units",
-      "reader payoff or next action"
+      "Title",
+      "Before/After split",
+      "Small-company pair",
+      "Medium-company pair",
+      "Large-company pair",
+      "bottom CTA."
     ],
     "information_chunks": [
-      "name current condition",
-      "show sequential capability shifts",
-      "define what changes at each level",
-      "make the next move intelligible"
+      "Name the AI-native org question",
+      "split before/after",
+      "show small-company change",
+      "show medium-company change",
+      "show large-company change",
+      "offer access to cases."
     ],
-    "hierarchy": "The visible promise and primary structure carry the first read; supporting detail is subordinate.",
-    "typography": "Assessed through the asset’s visible hierarchy; retain its function, not its source typeface or distinctive expression.",
-    "colour_material_and_contrast": "Use only as a meaning-bearing support to hierarchy and grouping; source palette is not a transferable requirement.",
-    "imagery_role": "Imagery supports the mechanism: Before/after AI-native supply-chain org chart.",
-    "density_and_pacing": "Fast first-frame orientation, then modular deep reading; the reader may exit after the promise or continue to the usable detail.",
+    "hierarchy": "The title and giant Before AI / After AI labels lead; yellow company-size banners segment the comparison; white role boxes and connectors form the detail.",
+    "typography": "Large white/yellow sans headline, bold white role labels in rounded cards, and small explanatory parentheticals in lower rows.",
+    "colour_material_and_contrast": "Cobalt-like navy ground, white cards/lines, bright yellow titles and arrows, dashed-border temporary/remote roles, and subtle dark overlays behind some before-AI teams.",
+    "imagery_role": "The graphic relies on organisation-chart shapes and arrows; a small portrait and document mockups are promotional secondary imagery.",
+    "density_and_pacing": "Fast high-level comparison through before/after and size bands; low-level role names require close reading, particularly in the large-company row.",
     "craft_observations": [
-      "Before/after AI-native supply-chain org chart",
-      "Reusable atom: Organisation change is clearer as two structures",
-      "The source’s visual identity, typography and precise layout remain non-transferable."
+      "The repeated two-column comparison is immediately legible; scale bands avoid pretending one org pattern fits all; the visual still presents a prescriptive future design without visible evidence or uncertainty marks."
     ]
   },
   "content_mechanics": {
-    "primary_cognitive_job": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+    "primary_cognitive_job": "Make the inspected reader payoff actionable: A visual prompt for comparing possible organisational responsibilities across small, medium, and large company contexts.",
+    "claim_mode": "claim-proportionate; source-post claims remain unverified by this creative record",
     "argument_sequence": [
-      "name current condition",
-      "show sequential capability shifts",
-      "define what changes at each level",
-      "make the next move intelligible"
+      "Name the AI-native org question",
+      "split before/after",
+      "show small-company change",
+      "show medium-company change",
+      "show large-company change",
+      "offer access to cases."
     ],
-    "compression_method": "levels, rings, stages, ladder or journey; clear start/end orientation; one capability shift per level; visible movement between states",
-    "reader_payoff": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+    "compression_method": "The reviewed visual mechanism is “Side-by-side reporting structures make roles that stay, consolidate, or emerge visible as changed positions rather than abstract AI rhetoric.”. This field is a schema translation of the direct ledger observation, not an independently validated source claim.",
+    "reader_payoff": "A visual prompt for comparing possible organisational responsibilities across small, medium, and large company contexts.",
     "save_share_return_motives": [
-      "self-assess",
-      "save as a roadmap",
-      "use to start a team conversation"
+      "Save for an organisation-design discussion; send to a transformation peer; use to challenge a role-design hypothesis."
     ],
-    "caption_to_visual_choreography": "State the limits of the progression, prevent false precision and invite the reader to consider their current condition."
+    "caption_to_visual_choreography": "The visual carries the inspected mechanism “Side-by-side reporting structures make roles that stay, consolidate, or emerge visible as changed positions rather than abstract AI rhetoric.”; any future caption must add source-backed context, limitations and a Tiger-specific point of view without repeating every visual detail."
   },
   "recombination": {
     "mechanism_fingerprint": {
-      "primary_cognitive_job": "Make progress, capability depth or transformation feel navigable rather than abstract.",
+      "mechanism_family": "before_after",
+      "mechanism_family_evidence": {
+        "derived_from": [
+          "creative.argument_sequence",
+          "visual.composition",
+          "visual.layout",
+          "visual.visual_mechanism"
+        ],
+        "observed_text": [
+          "Name the AI-native org question -> split before/after -> show small-company change -> show medium-company change -> show large-company change -> offer access to cases.",
+          "Deep-blue vertical org-chart board split into Before AI at left and After AI at right, with three horizontal sections for small, medium, and large companies.",
+          "A stable two-column comparison repeated across three context bands, with white reporting lines on a dark field and yellow connectors showing transformation.",
+          "Side-by-side reporting structures make roles that stay, consolidate, or emerge visible as changed positions rather than abstract AI rhetoric."
+        ],
+        "boundary": "The family label is a retrieval tag derived from directly inspected ledger fields. It is not a new visual observation and does not select a future topic."
+      },
+      "primary_cognitive_job": "Make the inspected reader payoff actionable: A visual prompt for comparing possible organisational responsibilities across small, medium, and large company contexts.",
       "reader_state": [
-        "uncertain starting point",
-        "ambition without path",
-        "need to see progression"
+        "A supply-chain leader is trying to imagine how roles and reporting lines might change as AI capability is introduced, without assuming every human function disappears."
       ],
       "visual_grammar": [
-        "levels, rings, stages, ladder or journey",
-        "clear start/end orientation",
-        "one capability shift per level",
-        "visible movement between states"
+        "Deep-blue vertical org-chart board split into Before AI at left and After AI at right, with three horizontal sections for small, medium, and large companies.",
+        "A stable two-column comparison repeated across three context bands, with white reporting lines on a dark field and yellow connectors showing transformation.",
+        "Side-by-side reporting structures make roles that stay, consolidate, or emerge visible as changed positions rather than abstract AI rhetoric."
       ],
       "information_grammar": [
-        "name current condition",
-        "show sequential capability shifts",
-        "define what changes at each level",
-        "make the next move intelligible"
+        "Name the AI-native org question -> split before/after -> show small-company change -> show medium-company change -> show large-company change -> offer access to cases.",
+        "A visual prompt for comparing possible organisational responsibilities across small, medium, and large company contexts.",
+        "Save for an organisation-design discussion; send to a transformation peer; use to challenge a role-design hypothesis."
       ],
       "social_action_mechanics": [
-        "self-assess",
-        "save as a roadmap",
-        "use to start a team conversation"
+        "Save for an organisation-design discussion; send to a transformation peer; use to challenge a role-design hypothesis."
       ],
       "use_when": [
-        "The chosen opportunity has a credible progression rather than a marketing funnel.",
-        "Moving between states changes capabilities or decisions, not just labels.",
-        "The reader benefits from locating a current state."
+        "The already selected reader moment genuinely benefits from an original before after rather than a generic list.",
+        "The spatial relationship or sequence can make the intended response clearer at a glance.",
+        "The visual can carry a truthful promise without needing unsupported outcome claims."
       ],
       "do_not_use_when": [
-        "The levels are arbitrary.",
-        "There is no meaningful order.",
-        "The post would imply false maturity scoring or unsupported benchmarks."
+        "The spatial relationship does not improve comprehension, recognition or practical use.",
+        "A short text post or simpler visual would communicate the value more clearly.",
+        "The central claim needs evidence that is unavailable and cannot be honestly labelled as illustrative or unresolved."
       ],
-      "topic_selection_boundary": "This mechanism chooses no topic. Opportunity selection occurs before reference retrieval and recombination."
+      "topic_selection_boundary": "This mechanism does not choose a topic, domain, source, data set, factual claim or post angle. It only describes when an evidence-bound visual grammar may serve an already selected reader moment."
     },
     "transferable_atoms": [
-      "Organisation change is clearer as two structures",
-      "name current condition",
-      "show sequential capability shifts"
+      "Use a paired before/after grammar for a concrete structural contrast; scale the same question across different operating contexts; use connector lines to show reporting or coordination changes."
     ],
-    "reverse_build_specification": "When a chosen opportunity is genuinely developmental, use a clear progression with one capability change per stage. Make the starting point, movement and next credible step visible, and avoid treating maturity labels as evidence without support.",
+    "reverse_build_specification": "Start only after selecting the reader moment and intended response. Build an original before after whose spatial logic earns the promise, using these directly inspected transferable atoms as constraints rather than content: Use a paired before/after grammar for a concrete structural contrast; scale the same question across different operating contexts; use connector lines to show reporting or coordination changes. Keep relationships semantically meaningful, retain separate support for public claims, and make the visual useful without importing the source’s expression.",
     "editable_levers": [
       "topic: intentionally unselected",
-      "reader work moment",
-      "visual primitive",
-      "information depth",
+      "reader moment",
+      "semantic spatial model",
+      "claim support depth",
+      "information density",
       "caption role",
-      "format/material treatment"
+      "format and motion state"
     ],
     "required_original_inputs": [
-      "A chosen reader tension with real relevance.",
-      "Correct logic, process or sourced evidence proportionate to the selected claim.",
-      "An original visual object/scene/interface that proves the chosen promise.",
-      "A caption that adds a different layer of value from the visual."
+      "Selected reader moment and intended response",
+      "Original claim-support material or an explicit illustrative boundary",
+      "An original semantic object, relationship model or sequence",
+      "Tiger-specific language and point of view",
+      "A post-level anti-copy check against the source record"
     ],
     "anti_copy_boundary": [
-      "Exact role names and org-chart claim",
-      "source wording and caption rhetoric",
-      "source creator identity, brand assets and distinctive composition",
-      "any source claim not independently supportable"
+      "Do not reuse the AI-native supply-chain org claim, exact role names, company-size bands, blue/yellow palette, chart shapes, individual photo, or CTA.",
+      "The source creator’s identity, branding, exact copy, visual treatment, figures and proprietary claims are not transferable."
     ],
-    "falsification_question": "After seeing an original execution, can a target reader identify the intended make progress, capability depth or transformation feel navigable rather than abstract. without relying on the caption?"
+    "falsification_question": "Can a reader identify the working relationship, choice or change from the original visual alone, and can every borrowed mechanic be traced to directly inspected source fields rather than a provisional candidate?"
   },
   "provenance": {
-    "visual_observation_id": "top100-visual-inspection-2026-08-05#85",
+    "source_discovery_index_id": "top100-visual-inspection-2026-08-05#85",
     "source_context_id": "top100-workbook#85",
-    "content_hash": "b1b67726308d3ba96e62be09ec49418cb80049084ce518043315d1a47593406f"
+    "content_hash": "b1b67726308d3ba96e62be09ec49418cb80049084ce518043315d1a47593406f",
+    "generation": {
+      "script": "scripts/build-top100-forensic-records.mjs",
+      "generated_at": "2026-08-07T00:00:00.000Z",
+      "method": "discovery-index label plus reusable profile mapping",
+      "manual_visual_review_attached": false
+    },
+    "promotion": {
+      "script": "scripts/promote-manual-ledger-forensics.mjs",
+      "source_ledger_reference_id": "LI-7450452978395840512",
+      "source_ledger_review_status": "manual_reviewed",
+      "asset_path": "references/top 100/85.jpeg",
+      "asset_sha256": "557c72b086a65ac446ee59292c69239b646ee03a9a60bbe59123860477846b13",
+      "promotion_boundary": "Only direct ledger observations and asset-bound review provenance were translated into manual forensic fields. Template-assisted hypotheses were excluded."
+    }
   }
 }
