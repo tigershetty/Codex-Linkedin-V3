@@ -1,0 +1,68 @@
+{
+  "$schema": "../../../references/creative-genome/schemas/supply-chain-opportunity-map-scope.schema.json",
+  "schema_version": "1.0.0",
+  "status": "ready",
+  "scope_id": "SCOM-SUPPLY-RISK-MOTION-LAB",
+  "starting_path": "problem_led",
+  "selected_nodes": [
+    {
+      "node_id": "SCM-SUPPLIER-DATE-RELIABILITY",
+      "label": "Supplier-date reliability",
+      "kind": "tension"
+    },
+    {
+      "node_id": "SCM-CUSTOMER-NEED-BY",
+      "label": "Customer need-by",
+      "kind": "decision"
+    },
+    {
+      "node_id": "SCM-JOINT-EXCEPTION",
+      "label": "Joint exception decision",
+      "kind": "method"
+    }
+  ],
+  "selected_edges": [
+    {
+      "from_id": "SCM-SUPPLIER-DATE-RELIABILITY",
+      "relation": "constrains",
+      "to_id": "SCM-CUSTOMER-NEED-BY",
+      "basis": "hypothesis"
+    },
+    {
+      "from_id": "SCM-CUSTOMER-NEED-BY",
+      "relation": "requires",
+      "to_id": "SCM-JOINT-EXCEPTION",
+      "basis": "documented_method"
+    }
+  ],
+  "scope_window": {
+    "reader_role": "A supply planner, purchasing practitioner, KAM, or logistics lead preparing to decide whether a changed supplier date needs escalation.",
+    "reader_moment": "A supplier date changed after a customer need-by date was discussed, but the team has not separated date reliability, customer exposure, and recovery options.",
+    "operating_object_or_signal": "Supplier confirmation, open customer order, customer need-by date, and feasible recovery options.",
+    "decision_or_tension": "Validate, recover, or escalate without turning an unreliable date into a false customer promise.",
+    "cognitive_job": "prepare",
+    "truth_route": "operating_method",
+    "reader_payoff": "A compact pre-meeting check that identifies the first unresolved gate and the accountable joint exception decision.",
+    "in_scope": "A proposed four-gate conversation method for a date-risk exception.",
+    "out_of_scope": "It does not calculate a recovery date, set freight thresholds, make a release decision, or prove a company result.",
+    "relation_to_show": "sequence",
+    "boundary_or_exception": "If any credible scenario misses customer need-by and recovery cannot close the gap, the method routes to a KAM plus Purchasing Manager exception decision."
+  },
+  "creative_handoff": {
+    "route_candidate": "field_guide_candidate",
+    "reason": "The reader needs a reusable operating check with a visible order, a boundary, and a meeting action; the Motion Lab tests whether one moving risk signal makes that order easier to follow.",
+    "reference_query_tags": [
+      "conditional-path",
+      "visible-boundary",
+      "handoff",
+      "practical-use"
+    ],
+    "anti_copy_boundary": "Borrow only the mechanism of a readable sequence and meaningful state/path reveal. Do not copy any saved creator's layout, colour system, wording, illustration, or motion choreography."
+  },
+  "source_refs": [
+    "Tiger direction in this project: customer need-by first; unreliable supplier dates require a joint exception path when credible scenarios miss need-by.",
+    "Heer and Robertson (2007): meaningful staged transitions may aid graphical perception; no LinkedIn-performance claim is made.",
+    "TOP100 and Pierri corpus: creative-mechanism reference only, not operating-method proof."
+  ],
+  "notes": "Internal V5 Motion Lab. This scope record is a bounded example of the Opportunity Map, not a broad domain-map dataset or a public post selection."
+}

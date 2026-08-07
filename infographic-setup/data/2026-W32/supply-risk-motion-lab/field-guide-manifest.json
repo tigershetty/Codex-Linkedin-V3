@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "field_guide_id": "FG-SUPPLY-RISK-MOTION-LAB-V1",
+  "title": "Before You Escalate a Supply Risk",
+  "package": {
+    "spec_file": "field-guide-spec.json",
+    "admission_file": "field-guide-admission.json",
+    "choreography_file": "field-guide-visual-copy-choreography.json",
+    "post_card_file": "field-guide-post-card.md",
+    "review_file": "field-guide-review.md",
+    "claim_source_file": "claim-ledger.json",
+    "reference_atoms_file": "reference-shelf.json",
+    "analytics_file": "analytics.md",
+    "analytics_content_id": "FG-SUPPLY-RISK-MOTION-LAB-V1"
+  },
+  "figma": {
+    "file_key": "lAiBPFCz9FDuM74CN5chDd",
+    "node_id": "37:3",
+    "url": "https://www.figma.com/design/lAiBPFCz9FDuM74CN5chDd?node-id=37-3",
+    "recorded_version": "Figma master inspected and exported 2026-08-07; version-history API is unavailable through the connected MCP.",
+    "metadata_status": "verified"
+  },
+  "export": {
+    "status": "exported",
+    "file": "visual.png",
+    "sha256": "6d93e3bf2f8c790bc88664e97d6852fe7ebf585f3325cc553d71fb9fa63304b8",
+    "format": "png",
+    "width": 1080,
+    "height": 1350
+  },
+  "caption": {
+    "file": "linkedin-caption.md",
+    "selected_hook_file": "hooks.md",
+    "selected_hook_id": "1",
+    "status": "draft"
+  },
+  "publication": {
+    "status": "draft",
+    "reason": "Internal Field Guide Motion Lab. Static and motion QA passed for system validation; Tiger has not approved this for publication."
+  }
+}

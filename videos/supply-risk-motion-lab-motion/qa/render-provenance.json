@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "motion_id": "FG-SUPPLY-RISK-MOTION-LAB-V1",
+  "source": {
+    "path": "infographic-setup/data/2026-W32/supply-risk-motion-lab/visual.png",
+    "sha256": "6d93e3bf2f8c790bc88664e97d6852fe7ebf585f3325cc553d71fb9fa63304b8"
+  },
+  "render_inputs": {
+    "overlay_geometry": {
+      "path": "infographic-setup/data/2026-W32/supply-risk-motion-lab/motion-overlay-geometry.json",
+      "sha256": "96ae1fd6269cc4df9fccae4adaaab186e25b3a3867e60a69fdf4e4e9e9b1e223"
+    },
+    "generated_overlay_module": {
+      "path": "videos/supply-risk-motion-lab-motion/assets/overlay-geometry.generated.js",
+      "sha256": "e17f56dadf323da489db55ed0d584e143f3f2ec6b5bffe7556dd615225fb07fd"
+    },
+    "composition": {
+      "path": "videos/supply-risk-motion-lab-motion/compositions/main.html",
+      "sha256": "ec668da460b1a037d712885a1737ec09dcd53d73fcc643d05cc39bcb588e13ca"
+    }
+  },
+  "retained_endpoints": {
+    "opening": {
+      "path": "videos/supply-risk-motion-lab-motion/qa/opening-source-frame.png",
+      "sha256": "dd738c2f1d95fd5152903d6f77e3f8f7cbf212ebf8c62d29bad8b41d4d0d11ce"
+    },
+    "final": {
+      "path": "videos/supply-risk-motion-lab-motion/qa/final-source-frame.png",
+      "sha256": "dd738c2f1d95fd5152903d6f77e3f8f7cbf212ebf8c62d29bad8b41d4d0d11ce"
+    }
+  },
+  "outputs": {
+    "gif": {
+      "path": "infographic-setup/data/2026-W32/supply-risk-motion-lab/visual-motion.gif",
+      "sha256": "51bbe7f722cd39606c4ccdae524bb4ac34a751530fbcd8196098e8e0d92426ce"
+    },
+    "mp4": {
+      "path": "infographic-setup/data/2026-W32/supply-risk-motion-lab/visual-motion.mp4",
+      "sha256": "7242d4d19d9728a605dc4c4c5ad40e6eb11f02946b72d2ac8ca5d4d1c45379b9"
+    }
+  },
+  "renderer": {
+    "frames_per_second": 30,
+    "gif_frames_per_second": 20,
+    "gif_width": 720,
+    "renderer_appended_hold_seconds": 0,
+    "composition_final_still_seconds": 1.2
+  }
+}

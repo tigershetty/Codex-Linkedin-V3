@@ -6,15 +6,35 @@
 **Reviewer:**
 **Date:**
 **Spec:** `field-guide-spec.json`
+**Admission:** `field-guide-admission.json`
+**Visual/copy choreography:** `field-guide-visual-copy-choreography.json`
+**Manifest:** `field-guide-manifest.json`
 
 Run before design handoff:
 
 ```sh
 node scripts/validate-field-guide-package.mjs --input data/{week}/{slug}/field-guide-spec.json
+node scripts/audit-field-guide-package.mjs --input data/{week}/{slug}/field-guide-manifest.json
 ```
 
 Use `--allow-draft` only while intentionally reviewing a draft. A passing validator confirms the
 contract is complete; it does not prove a design is good or claims are true.
+
+The package audit checks local closure. A draft may honestly show incomplete Figma verification,
+export, or analytics linkage. Before a package is marked ready, run it again with `--require-ready`.
+
+## 0. Admission And Choreography
+
+- [ ] The admission record selects a Field Guide because a reusable structured reference adds more value than another family.
+- [ ] The four resource filters are specific to this reader moment rather than generic quality labels.
+- [ ] The density budget explains why every module earns its place.
+- [ ] The choreography names what the visual teaches and what the caption adds.
+- [ ] Any intentional caption repeat is listed by visual-unit ID with a reason.
+- [ ] A duplicate-warning result has been reviewed, not silently ignored.
+
+**Admission decision:** `select` / `repair` / `kill`
+**Caption job:**
+**Duplicate-warning decision:**
 
 ## 1. Reader Contract
 
@@ -92,6 +112,8 @@ contract is complete; it does not prove a design is good or claims are true.
 | Mobile reading and hierarchy |  |  |
 | Boundary / exception |  |  |
 | Motion restraint |  |  |
+| Admission and choreography |  |  |
+| Package closure |  |  |
 
 **Decision:** `pass` / `revise` / `reject`
 **One improvement required before production:**

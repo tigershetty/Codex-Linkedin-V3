@@ -1,8 +1,9 @@
 # Shetty's Desk — Brand Kit (Historical V3/V5 Pack Contents)
 
-> **V4 reset notice:** This kit preserves earlier Operating Studio material. It is not the active
-> default for visual production. Use `../references/creative-review/signature-system-v1.md` until
-> the completed 480-post creative review establishes the new signature system.
+> **V4/V5 reset notice:** This kit preserves earlier V3/V5 material only. It is not an active
+> production authority or default. Start new work with the Fast Post Loop or Creative Genome and
+> `../references/creative-review/signature-system-v2.md`; use an item in this kit only as an
+> explicitly selected historical reference atom.
 
 A reusable visual system for creating on-brand LinkedIn infographics, with the right format for each tool you use.
 
@@ -21,20 +22,21 @@ A reusable visual system for creating on-brand LinkedIn infographics, with the r
 
 **Gemini (Nano Banana Pro)** → attach `Shettys-Desk-Brand-Kit.pdf` (or 1–2 reference images) + paste the Gemini prompt from `PROMPT-LIBRARY.txt`. Fill in your subject.
 
-**ChatGPT Image 2** → for a standard feed post, paste the V5 Native Scene block from
-`PROMPT-LIBRARY.txt` and attach a V3 reference image. Use the flat style block only for an
-explicit precision artifact or carousel.
+**ChatGPT Image 2** → for a standard feed post, use the selected current creative route and
+Signature System V2. Attach an item from this kit only when its historical atom is explicitly
+selected; use the flat style block only for an explicit precision artifact or carousel.
 
-**Claude Code** → for a standard LinkedIn post, read the current Operating Studio frame and the
-Fast Post Loop, then use the tokens to write one image-engine-native scene prompt. Use editable
+**Claude Code** → for a standard LinkedIn post, read the Fast Post Loop or Creative Genome and
+Signature System V2, then use selected atoms to write one image-engine-native prompt. Use editable
 HTML/SVG only when the planned output is a separate precision artifact or carousel.
 
-## V5 standard-post route
+## Historical V5 standard-post route — not active
 
 For an ordinary LinkedIn post, do **not** generate modules and assemble an infographic layout.
-Select one visible operating story, then render it as one coherent native image. No HTML/SVG,
-dashboard, title, footer, or logo layer is pasted over the final scene. The governing source is
-`../references/brand-kits/shettys-desk-operating-studio/FRAME.md`.
+This describes a former route, not a default. Current work derives the reader promise, creative
+family, and craft choice from `fast-post-loop-v1.md` or the Creative Genome, with
+`signature-system-v2.md` as its guardrail. No HTML/SVG, dashboard, title, footer, or logo layer is
+pasted over an image-engine-native final scene.
 
 ## Legacy modular and precision-artifact route
 

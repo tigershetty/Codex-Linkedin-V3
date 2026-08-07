@@ -184,10 +184,20 @@ Before a Field Guide is selected as the public visual, verify:
 
 For exact type-heavy work, build and maintain the master in Figma. The master holds page geometry, variables, text styles, components, export presets, and an animation-ready semantic layer map. Each post package records the Figma URL/key, export source, selected version, and review result. A printable PDF or website artifact may follow when it adds utility; it is not mandatory.
 
+The specialist package also records why the Field Guide family was selected and how visual and
+caption divide their work. `field-guide-admission.json` is the concise `select / repair / kill`
+record; `field-guide-visual-copy-choreography.json` names visual teaching units, caption additions,
+and deliberate repeats. `field-guide-manifest.json` binds those records to the exact Figma
+file/node/version, local export/hash, claims, references, review, caption/hook, and analytics. A
+recorded URL is not an exported or verified design.
+
 The core package is:
 
 ~~~
 field-guide-spec.json
+field-guide-admission.json
+field-guide-visual-copy-choreography.json
+field-guide-manifest.json
 field-guide-review.md
 claim ledger appropriate to truth class
 Figma master and exact export

@@ -60,7 +60,7 @@ rough routes, a native visual, a complementary caption, and the five-reader revi
 ## 6. Brand And Assets
 
 **Visual family selected:** `{editorial typography / framework-map / annotated real material / data reference / illustrated metaphor / spatial scene / photographic artifact / motion sequence}`
-**Signature guardrail:** `references/creative-review/signature-system-v1.md`
+**Signature guardrail:** `references/creative-review/signature-system-v2.md`
 **Brand direction:** `derive material, type treatment, palette and density from the selected visual family, reader tension and signature guardrail; do not inherit a legacy palette or scene treatment by default`
 **Logo plan:**
 **Logo/asset references:** `renderer/assets/logos/shettys-desk-logo-2.png`

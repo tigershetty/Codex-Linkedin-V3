@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "field_guide_id": "FG-CROSS-FUNCTIONAL-TRANSLATOR-MAP-V5",
+  "reader_moment": "An early- or mid-career supply-chain practitioner hears that they should become more cross-functional but cannot identify one adjacent decision language to learn next.",
+  "reader_promise": "A compact switchboard that helps the reader choose one useful adjacent decision language for their next conversation or learning move.",
+  "resource_filters": {
+    "lived_tension": {
+      "answer": "'Be more cross-functional' is recognisable advice, but it does not tell the reader what to learn on Monday.",
+      "evidence_or_reason": "The tension comes from the existing career-map reader problem and is framed as a bounded development moment, not a claimed universal career outcome."
+    },
+    "practical_handle": {
+      "answer": "Start at one function, follow one decision-language transfer, and ask the next owner what input would make their decision easier.",
+      "evidence_or_reason": "The next-meeting question is usable without a tool, signup, or simulated result."
+    },
+    "useful_angle": {
+      "answer": "It translates broad cross-functional advice into an adjacent decision language instead of presenting another six-path career ladder.",
+      "evidence_or_reason": "The map is explicitly a conversation and learning aid; it does not claim verified ownership links or career progression."
+    },
+    "information_density": {
+      "answer": "Six independent transfer prompts, one ownership boundary, and one next action answer different reader questions without adding a generic skills list.",
+      "evidence_or_reason": "Each route maps to one module and claim in the Field Guide spec."
+    }
+  },
+  "density_budget": {
+    "operating_modules": 6,
+    "boundary_or_exception": 1,
+    "next_actions": 1,
+    "why_each_unit_earns_space": "Each transfer gives a reader in a different function one adjacent decision language to explore; the boundary prevents the map from claiming that adjacent literacy replaces specialist ownership."
+  },
+  "family_choice": {
+    "field_guide_adds": "The value is a stable reference a reader can locate themselves in, scan, and take into a conversation. A caption alone would not make six independent transfer gates visible at once.",
+    "alternative_family_considered": "A short career reflection or illustrated editorial map.",
+    "why_not_alternative": "A reflection would preserve the tension but lose the use layer; an illustrated map could imply a real operating network that the bounded framework cannot substantiate.",
+    "decision": "select"
+  },
+  "known_limits": "This record selects a draft Field Guide experiment. It does not approve the exact visual, prove that every company has these handoffs, or predict reach, saves, follows, or career outcomes.",
+  "reviewer": "Codex internal design review",
+  "reviewed_at": "2026-08-07"
+}

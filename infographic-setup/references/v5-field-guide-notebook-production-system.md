@@ -50,6 +50,14 @@ Start with the reader, not the framework name. The direction passes when all of 
 
 Do **not** use this family when the essential value is a personal story, a single sharp observation, a current event that needs speed, an illustrative metaphor, or an argument that has no reusable structure. Select another family; do not force a field guide to justify its existence.
 
+### Optional Supply-Chain Opportunity Map handoff
+
+If a broad domain was scoped with `supply-chain-opportunity-map-v1.md`, carry only its selected
+scope window into the Field Guide package: the reader moment, object/signal, decision/tension,
+truth route, boundary, and any relation that needs showing. A map record never proves Field Guide
+admission and a complete domain map must not become the public page. The guide uses only the small
+subgraph necessary for its reader promise; unverified edges stay internal or are removed.
+
 ### Four adapted resource filters
 
 Use these as prompts for resource posts, not gates for the whole editorial portfolio:
@@ -62,6 +70,16 @@ Use these as prompts for resource posts, not gates for the whole editorial portf
 | Information density | Does every module earn its space? | More labels but no more decisions, distinctions, or actions |
 
 These filters do **not** claim that low competition or high information density causes reach. They help us design an object worth keeping.
+
+### Admission record: select, repair, or kill
+
+Before a Field Guide enters Figma, create `field-guide-admission.json` from
+`templates/field-guide-admission-template.json`. It records the four resource filters, a density
+budget, the alternative family considered, and one decision: `select`, `repair`, or `kill`.
+
+This is deliberately a short specialist record—not a numerical score or a universal editorial gate.
+It proves that a durable working reference is adding more value than a caption, scene, or lighter
+post family. A `repair` or `kill` decision is useful learning, not a production failure.
 
 ## 4. Claim truth classes
 
@@ -122,6 +140,12 @@ Build the guide in this order. The final layout can vary, but every component ne
 6. **Provenance cue when needed** — concise source or method note for factual, calculated, case, or AI-capability claims. Keep it legible; do not turn the visual into a bibliography.
 
 The visual carries the reusable object. The caption adds only what the object cannot carry cleanly: context, why it matters, caveat, Tiger's approved view, worked application, source depth, or a related resource.
+
+Before caption approval, create `field-guide-visual-copy-choreography.json` from
+`templates/field-guide-visual-copy-choreography-template.json`. Record the visual's teaching units,
+what the caption adds, which repeats are intentional, and the selected hook's job. The package audit
+raises a warning when the caption restates a full visual unit or its recorded term cluster; that is a
+review prompt, not an automatic ban on useful emphasis.
 
 ## 8. Visual grammar: fixed discipline, variable expression
 
@@ -184,14 +208,30 @@ For a Field Guide, add these artefacts to the selected standard or flagship pack
 
 ~~~
 field-guide-spec.json
-claim-ledger.md                         # only as deep as the truth class requires
+field-guide-admission.json
+field-guide-visual-copy-choreography.json
+field-guide-manifest.json
+claim-ledger.{json|md}                  # only as deep as the truth class requires
 field-guide-review.md
-figma-master.md                         # file URL/key, export path, component/version record
 visual.{png|pdf}                        # selected public master
 caption.md
 analytics.md
 motion-brief.md                         # only if motion passes eligibility
 ~~~
+
+`field-guide-manifest.json` is the package-closure record and the sole canonical record for Figma
+source/version/export metadata. It links the spec, admission,
+choreography, post card, claim source, reference atoms, review, analytics record, selected caption
+and hook, Figma file key/node/version, and exact local export. Use
+`templates/field-guide-manifest-template.json`. A recorded Figma URL is not remote verification;
+the manifest must say whether its metadata was locally verified. A ready package requires a local
+PNG/PDF export with a matching SHA-256 hash.
+
+For an `operating_method`, do not make the spec its only claim source. Add a short separate claim
+ledger from `templates/field-guide-claim-ledger-template.json` that maps each method claim to its
+Tiger direction, documented method, or clearly labelled internal synthesis. Each source ID must
+resolve to a scoped local source record. This does not turn an editorial method into externally
+proven research; it prevents the method from self-attesting as provenance.
 
 ### Review sequence
 
@@ -204,6 +244,8 @@ motion-brief.md                         # only if motion passes eligibility
 7. **Originality check:** the output borrows mechanics but cannot be mistaken for a Pierri post or any one saved source.
 8. **Caption check:** caption adds operating context or judgment; it does not narrate the diagram.
 9. **Motion check:** only if eligible; review its static counterpart and every meaningful transition.
+10. **Package-closure check:** run the local manifest audit. A draft may report incomplete records;
+    a package cannot become ready until the audit passes with `--require-ready`.
 
 Hard failures:
 
@@ -252,5 +294,28 @@ Before production, the creative owner can answer all of these in one page:
 - Why is the selected production surface the most accurate one?
 - If motion is proposed, what specific change does it let the reader see?
 - Which 24-hour, 7-day, and 28-day signals will test this particular bet?
+- Does the admission record show why this is a Field Guide rather than another family?
+- Does the choreography record make the visual and caption do different work?
+- Does the manifest bind the exact Figma source, local export/hash, caption/hook, review, sources,
+  and analytics record into one auditable package?
 
 If the answers are weak, step back to Creative Genome retrieval or choose another visual family.
+
+## 15. Package commands
+
+From `infographic-setup/`:
+
+```bash
+node scripts/validate-field-guide-package.mjs \
+  --input data/{week}/{slug}/field-guide-spec.json
+node scripts/audit-field-guide-package.mjs \
+  --input data/{week}/{slug}/field-guide-manifest.json
+node scripts/audit-field-guide-package.mjs \
+  --input data/{week}/{slug}/field-guide-manifest.json \
+  --require-ready
+```
+
+The first command validates the semantic specification. The second exposes a draft's missing
+closure records without pretending they are complete. The last command is the publication-ready
+gate: it fails on missing or mismatched Figma metadata, local export/hash, package paths, analytics
+linkage, or unresolved choreography review.

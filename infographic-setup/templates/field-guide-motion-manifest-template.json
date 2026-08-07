@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "status": "template",
+  "motion_id": "FG-MOTION-LAB-REPLACE-ME",
+  "title": "Replace with the Field Guide motion experiment title",
+  "field_guide_spec": "infographic-setup/data/_lab/field-guide-motion-lab/field-guide-spec.json",
+  "source": {
+    "kind": "figma_field_guide",
+    "figma_file_key": "REPLACE_WITH_FIGMA_FILE_KEY",
+    "still_node_id": "REPLACE_WITH_APPROVED_STILL_NODE_ID",
+    "motion_frame_node_id": "REPLACE_WITH_TOP_LEVEL_MOTION_FRAME_NODE_ID",
+    "selected_still": "infographic-setup/data/_lab/field-guide-motion-lab/visual.png",
+    "sha256": "REPLACE_WITH_SHA256_AFTER_APPROVED_EXPORT"
+  },
+  "package": {
+    "data_directory": "infographic-setup/data/_lab/field-guide-motion-lab",
+    "motion_project_directory": "videos/field-guide-motion-lab-motion",
+    "motion_brief": "motion-brief.md",
+    "shot_plan": "shot-plan.json",
+    "composition": "compositions/main.html",
+    "asset_builder": "build_motion_assets.mjs",
+    "overlay_geometry": "motion-overlay-geometry.json",
+    "render_provenance": "qa/render-provenance.json",
+    "outputs": {
+      "gif": "visual-motion.gif",
+      "mp4": "visual-motion.mp4",
+      "qa": "motion-qa.md",
+      "first_frame": "qa/frames/f_0000.png",
+      "final_frame": "qa/frames/f_REPLACE_WITH_FINAL.png"
+    }
+  },
+  "eligibility": {
+    "statement": "Motion helps because the reader needs to see [a real state or path change] in [the order it affects the decision].",
+    "change_type": "state_or_path",
+    "reader_value": "The sequence clarifies a relationship that a single static view cannot communicate as clearly.",
+    "not_a_performance_claim": true
+  },
+  "locked_elements": [
+    "all exact text and source notes",
+    "logos and marks",
+    "the complete approved Field Guide still"
+  ],
+  "semantic_regions": [
+    {
+      "id": "signal-origin",
+      "figma_node_id": "REPLACE_WITH_NODE_ID",
+      "role": "signal_origin",
+      "motion_mode": "highlight",
+      "communication_job": "Make the relevant input or state visible without moving its label."
+    },
+    {
+      "id": "decision-path",
+      "figma_node_id": "REPLACE_WITH_NODE_ID",
+      "role": "decision_path",
+      "motion_mode": "path_trace",
+      "communication_job": "Show one truthful route or transfer between two named states."
+    },
+    {
+      "id": "boundary",
+      "figma_node_id": "REPLACE_WITH_NODE_ID",
+      "role": "boundary_or_exception",
+      "motion_mode": "state_change",
+      "communication_job": "Make the exception, owner, or required next action visible."
+    }
+  ],
+  "timeline": {
+    "duration_seconds": 6.5,
+    "opening_still_seconds": 0.7,
+    "final_still_seconds": 1.5,
+    "beats": [
+      {
+        "id": "opening",
+        "start": 0,
+        "end": 0.7,
+        "communication_job": "Show the complete Field Guide before any motion."
+      },
+      {
+        "id": "state-or-path",
+        "start": 0.7,
+        "end": 4.8,
+        "communication_job": "Reveal one meaningful change or route in reader order."
+      },
+      {
+        "id": "final-hold",
+        "start": 5,
+        "end": 6.5,
+        "communication_job": "Return to the complete motion-free reference for reading and saving."
+      }
+    ]
+  }
+}

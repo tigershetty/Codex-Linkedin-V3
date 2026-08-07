@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shettysdesk.com/schemas/creative-genome/supply-chain-opportunity-map-scope.schema.json",
+  "title": "Supply-Chain Opportunity Map Scope Window",
+  "description": "A bounded upstream scope window. It is not a topic score, content calendar, or claim-evidence record.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "status",
+    "scope_id",
+    "starting_path",
+    "selected_nodes",
+    "selected_edges",
+    "scope_window",
+    "creative_handoff"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema_version": { "const": "1.0.0" },
+    "status": { "enum": ["draft", "ready"] },
+    "scope_id": { "type": "string" },
+    "starting_path": {
+      "enum": ["problem_led", "pattern_led", "evidence_led", "timely_led"]
+    },
+    "selected_nodes": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/node" },
+      "uniqueItems": true
+    },
+    "selected_edges": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/edge" }
+    },
+    "scope_window": { "$ref": "#/$defs/scopeWindow" },
+    "creative_handoff": { "$ref": "#/$defs/creativeHandoff" },
+    "source_refs": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "notes": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "ready" } } },
+      "then": {
+        "properties": {
+          "scope_id": { "$ref": "#/$defs/readyId" },
+          "selected_nodes": { "minItems": 1 },
+          "scope_window": { "$ref": "#/$defs/readyScopeWindow" },
+          "creative_handoff": { "$ref": "#/$defs/readyCreativeHandoff" }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "readyId": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!.*(?:^|[-_])(?:draft|placeholder|todo|tbd)(?:$|[-_])).+$"
+    },
+    "stringArray": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["node_id", "label", "kind"],
+      "properties": {
+        "node_id": { "type": "string" },
+        "label": { "type": "string" },
+        "kind": {
+          "enum": ["function", "role", "work_object", "decision", "tension", "method", "metric", "system", "event"]
+        }
+      }
+    },
+    "edge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["from_id", "relation", "to_id", "basis"],
+      "properties": {
+        "from_id": { "type": "string" },
+        "relation": {
+          "enum": ["constrains", "feeds", "hands_off_to", "measures", "trades_off_with", "validates", "owns", "requires"]
+        },
+        "to_id": { "type": "string" },
+        "basis": { "enum": ["source_link", "documented_method", "hypothesis"] }
+      }
+    },
+    "scopeWindow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reader_role",
+        "reader_moment",
+        "operating_object_or_signal",
+        "decision_or_tension",
+        "cognitive_job",
+        "truth_route",
+        "reader_payoff",
+        "in_scope",
+        "out_of_scope",
+        "relation_to_show"
+      ],
+      "properties": {
+        "reader_role": { "type": "string" },
+        "reader_moment": { "type": "string" },
+        "operating_object_or_signal": { "type": "string" },
+        "decision_or_tension": { "type": "string" },
+        "cognitive_job": {
+          "enum": ["recognise", "orient", "choose", "explain", "diagnose", "prepare", "compare"]
+        },
+        "truth_route": {
+          "enum": ["framework", "operating_method", "evidence_display", "case_or_event", "hypothesis_or_simulation", "tiger_judgment", "opinion_or_synthesis"]
+        },
+        "reader_payoff": { "type": "string" },
+        "in_scope": { "type": "string" },
+        "out_of_scope": { "type": "string" },
+        "relation_to_show": {
+          "enum": ["conditional_decision", "sequence", "hierarchy", "trade_off", "comparison", "network", "lookup", "none"]
+        },
+        "boundary_or_exception": { "type": "string" }
+      }
+    },
+    "creativeHandoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["route_candidate", "reason", "reference_query_tags", "anti_copy_boundary"],
+      "properties": {
+        "route_candidate": { "enum": ["fast_post_loop", "field_guide_candidate", "flagship_candidate", "park"] },
+        "reason": { "type": "string" },
+        "reference_query_tags": { "$ref": "#/$defs/stringArray" },
+        "anti_copy_boundary": { "type": "string" }
+      }
+    },
+    "readyScopeWindow": {
+      "allOf": [
+        { "$ref": "#/$defs/scopeWindow" },
+        {
+          "properties": {
+            "reader_role": { "minLength": 1 },
+            "reader_moment": { "minLength": 1 },
+            "operating_object_or_signal": { "minLength": 1 },
+            "decision_or_tension": { "minLength": 1 },
+            "reader_payoff": { "minLength": 1 },
+            "in_scope": { "minLength": 1 },
+            "out_of_scope": { "minLength": 1 }
+          }
+        }
+      ]
+    },
+    "readyCreativeHandoff": {
+      "allOf": [
+        { "$ref": "#/$defs/creativeHandoff" },
+        {
+          "properties": {
+            "reason": { "minLength": 1 },
+            "reference_query_tags": { "minItems": 1 },
+            "anti_copy_boundary": { "minLength": 1 }
+          }
+        }
+      ]
+    }
+  }
+}

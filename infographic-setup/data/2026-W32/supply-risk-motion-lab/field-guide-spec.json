@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "field_guide_id": "FG-SUPPLY-RISK-MOTION-LAB-V1",
+  "artifact_type": "field_guide",
+  "family": "field_guide_notebook",
+  "title": "Before You Escalate a Supply Risk",
+  "primary_reader": "A supply-chain practitioner who has received a changed supplier date and needs to separate an unreliable signal from a customer-facing exception before calling the wrong meeting.",
+  "reader_contract": {
+    "reader_moment": "A supplier date moved, a customer need-by may be exposed, and the team is about to optimise cost before agreeing on what is actually at risk.",
+    "reader_payoff": "A four-gate pre-meeting check that turns a vague supply-risk escalation into one visible sequence of questions.",
+    "decision_question": "What must be true before this date risk becomes a joint customer exception?",
+    "glance_3s": "Before you escalate a supply risk: four customer-first gates.",
+    "scan_10s": "Validate the date, test customer exposure, check recovery, then decide the exception jointly.",
+    "use_30s": "Identify the first unanswered gate and bring that fact—not a guessed recovery date—into the next meeting."
+  },
+  "scope": {
+    "in_scope": "A proposed working method for preparing a supply-date exception conversation.",
+    "not_for": "It is not a predictive delivery model, a universal release rule, a freight-approval policy, or evidence that a recovery option will work.",
+    "assumptions": "The reader adapts the checks to their own date-quality rules, customer commitments, decision rights, and available recovery options."
+  },
+  "truth_class": "operating_method",
+  "truth_contract": {
+    "basis": "Tiger direction TS-20260807-01 for this internal lab (customer need-by across credible scenarios; block false precision; joint KAM and Purchasing Manager exception ownership) plus a clearly labelled internal four-gate method synthesis. See claim-ledger.json; the exact flow is not asserted as a deployed or universal workflow.",
+    "scope": "The guide structures a conversation and surfaces unresolved facts; it does not claim an observed deployment or outcome.",
+    "not_claiming": "It does not guarantee an on-time outcome, calculate freight economics, or prove that the four checks are complete in every operating system."
+  },
+  "method_contract": {
+    "inputs": "Supplier confirmation quality, customer need-by, feasible recovery options, and accountable owners.",
+    "validation": "Validate date reliability and test whether any credible scenario misses need-by before treating a recovery path as a promise.",
+    "human_decision_boundary": "If recovery cannot close a credible customer gap, KAM and Purchasing Manager jointly decide the exception and next owner."
+  },
+  "visual_argument": {
+    "spatial_model": "flow",
+    "spatial_claim": "A changed supplier date becomes a customer exception only after a reader works through four ordered checks.",
+    "why_shape_truthful": "A one-way four-gate flow is appropriate because each later question depends on the preceding check: unreliable date, customer exposure, recovery, then joint exception.",
+    "anti_misread": "Do not read the flow as a predictive algorithm, a fixed duration, a freight-approval sequence, or a guarantee that the final owner can resolve the issue."
+  },
+  "modules": [
+    {
+      "module_id": "M-01",
+      "title": "Date reliability",
+      "module_type": "check",
+      "reader_action": "Verify whether the supplier date is credible before converting it into a customer-facing promise.",
+      "claim_ids": ["CL-01"]
+    },
+    {
+      "module_id": "M-02",
+      "title": "Customer exposure",
+      "module_type": "check",
+      "reader_action": "Test whether any credible date misses customer need-by before discussing cost optimisation.",
+      "claim_ids": ["CL-02"]
+    },
+    {
+      "module_id": "M-03",
+      "title": "Recovery check",
+      "module_type": "check",
+      "reader_action": "Make available stock, alternate supply, split delivery, and approved freight visible without promising that any option works.",
+      "claim_ids": ["CL-03"]
+    },
+    {
+      "module_id": "M-04",
+      "title": "Joint exception",
+      "module_type": "exception",
+      "reader_action": "Escalate the remaining customer exception to KAM and Purchasing Manager when recovery cannot close a credible gap.",
+      "claim_ids": ["CL-04"]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CL-01",
+      "text": "A changed supplier date should be validated before it becomes a customer promise.",
+      "claim_type": "method",
+      "evidence": {
+        "status": "not_required",
+        "rationale": "A proposed operating-method guardrail. Claim-ledger.json links the source context and marks the exact four-gate wording as a bounded synthesis, not an empirically proven universal rule."
+      }
+    },
+    {
+      "claim_id": "CL-02",
+      "text": "Customer need-by is a separate check from supplier-date reliability.",
+      "claim_type": "method",
+      "evidence": {
+        "status": "not_required",
+        "rationale": "A conceptual distinction inside the stated working method. Claim-ledger.json links its customer-first source context; no outcome or numerical claim is made."
+      }
+    },
+    {
+      "claim_id": "CL-03",
+      "text": "Recovery options should be examined without converting them into an unverified recovery promise.",
+      "claim_type": "method",
+      "evidence": {
+        "status": "not_required",
+        "rationale": "A bounded planning and escalation practice. Claim-ledger.json marks the exact wording as a proposed synthesis, not a claim that any recovery option succeeds."
+      }
+    },
+    {
+      "claim_id": "CL-04",
+      "text": "A remaining credible customer gap routes to a joint KAM and Purchasing Manager exception decision in this proposed working method.",
+      "claim_type": "method",
+      "evidence": {
+        "status": "not_required",
+        "rationale": "Tiger-approved project-specific operating direction, linked in claim-ledger.json and visibly framed as a proposed method rather than a claimed industry standard."
+      }
+    }
+  ],
+  "boundary_or_exception": {
+    "type": "both",
+    "statement": "A date without a reliability check is a guess. This is a meeting check—not a predictive model.",
+    "reader_response": "When any credible scenario misses need-by and recovery cannot close the gap, bring the unresolved fact to a joint exception decision rather than inventing certainty.",
+    "claim_ids": ["CL-01", "CL-02", "CL-03", "CL-04"]
+  },
+  "next_action": "Before the next meeting, ask: What must be true for this customer date to hold?",
+  "motion": {
+    "decision": "motion",
+    "reason": "Motion earns its place only as a companion: a single risk signal can travel through the four gates in the exact order that the reader must test them.",
+    "communicates": "A changed supplier date is not yet a customer exception; it becomes one only after reliability, exposure, and recovery checks are visible.",
+    "static_counterpart": true
+  }
+}

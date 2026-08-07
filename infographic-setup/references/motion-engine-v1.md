@@ -1,7 +1,7 @@
 # Motion Engine v1 - Adaptive Picture-First Motion
 
 **Version:** 1.1
-**Date:** 2026-07-13
+**Date:** 2026-08-07
 **Status:** Opt-in motion workflow after an approved active still
 **Reference implementation:** `videos/optimal-batch-size-motion/`
 **Reference outputs:** `data/2026-W30/optimal-batch-size-decision-board/visual-motion.gif`; `data/2026-W31/mps-as-a-production-commitment/visual-motion.gif`
@@ -22,6 +22,12 @@ flattened social export. Keep module, boundary, source, and action layers semant
 master, export a verified still first, and animate only one genuinely informative state change. The
 Field Guide motion decision must also pass `v5-field-guide-notebook-production-system.md`; it does
 not loosen this engine's source-fidelity, opening-frame, or final-frame rules.
+
+For a Field Guide Motion Lab, use `field-guide-motion-lab-v1.md` and its explicit manifest instead
+of inferring an active visual from `post-card.md`. The manifest binds the Figma file/node, approved
+local still, SHA-256, semantic regions, and retained endpoint frames. Motion must communicate a
+meaningful state/path change; the eligibility note is a comprehension rationale, not a prediction
+about LinkedIn reach or a claim that video outperforms a still.
 
 The operating principle is:
 
@@ -78,8 +84,10 @@ If the sentence is weak, do not animate the post.
 - Motion stays inside registered semantic regions.
 - The GIF remains readable when paused on any frame.
 - A full-resolution MP4 master is exported with every approved GIF.
-- If motion is approved, the GIF is the LinkedIn publishing asset. The website serves the MP4 master
-  with the approved still as poster and keeps the GIF only as fallback.
+- For conventional image-led posts, the GIF is the LinkedIn publishing asset and the website serves
+  the MP4 master with the approved still as poster. For an exact, type-heavy Field Guide Motion Lab,
+  retain both as candidates and record the specific publishing-format decision after review; do not
+  assume GIF is automatically better.
 - Playwright captures deterministic frames; FFmpeg performs final encoding.
 
 ### Variables authored for every post
@@ -254,7 +262,8 @@ canonical pair after selection.
   `ffprobe`.
 - View a contact sheet of representative frames.
 - Record the results in `templates/motion-qa-template.md`.
-- Run `node scripts/audit-motion-package.mjs data/{week}/{slug}`.
+- Run `node scripts/audit-motion-package.mjs data/{week}/{slug}`. A Field Guide Motion Lab instead
+  runs `node scripts/audit-motion-package.mjs --manifest data/_lab/{slug}/field-guide-motion-manifest.json`.
 
 ## 9. Timing Blueprint
 

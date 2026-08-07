@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "field_guide_id": "FG-EXAMPLE-SUPPLY-RISK-ESCALATION",
+  "title": "Before You Escalate a Supply Risk",
+  "package": {
+    "spec_file": "field-guide-spec.json",
+    "admission_file": "field-guide-admission.json",
+    "choreography_file": "field-guide-visual-copy-choreography.json",
+    "post_card_file": "field-guide-post-card.md",
+    "review_file": "field-guide-review.md",
+    "claim_source_file": "claim-ledger.json",
+    "reference_atoms_file": "reference-shelf.json",
+    "analytics_file": "analytics.md",
+    "analytics_content_id": "FG-EXAMPLE-SUPPLY-RISK-ESCALATION"
+  },
+  "figma": {
+    "file_key": "",
+    "node_id": "",
+    "url": "",
+    "recorded_version": "",
+    "metadata_status": "recorded_not_locally_verified"
+  },
+  "export": {
+    "status": "not_exported",
+    "file": null,
+    "sha256": null,
+    "format": null,
+    "width": null,
+    "height": null
+  },
+  "caption": {
+    "file": "linkedin-caption.md",
+    "selected_hook_file": "hooks.md",
+    "selected_hook_id": "1",
+    "status": "draft"
+  },
+  "publication": {
+    "status": "draft",
+    "reason": "A draft Field Guide may have a selected concept but cannot be approved until its exact Figma metadata, export, caption, review, and analytics linkage are complete."
+  }
+}

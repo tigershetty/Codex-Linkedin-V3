@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "field_guide_id": "FG-SUPPLY-RISK-MOTION-LAB-V1",
+  "reader_moment": "A changed supplier date creates pressure to act, but nobody has yet made the customer exposure and recovery gap visible.",
+  "reader_promise": "A short, customer-first operating check for deciding what needs validation, recovery work, or a joint exception.",
+  "resource_filters": {
+    "lived_tension": {
+      "answer": "A supplier confirmation changes after a customer need-by has been discussed, and the team risks confusing bad news with confirmed customer exposure.",
+      "evidence_or_reason": "A recurring work moment derived from the project’s customer-first calculator brief; it is not presented as a named customer incident."
+    },
+    "practical_handle": {
+      "answer": "The reader can identify the first unanswered gate and take one exact question into a meeting.",
+      "evidence_or_reason": "The method gives a practical conversation move without requiring a new tool, data claim, or signup."
+    },
+    "useful_angle": {
+      "answer": "It separates the quality of a supplier signal, the customer promise, recovery options, and ownership rather than calling all of them ‘a supply risk.’",
+      "evidence_or_reason": "Each distinction changes the next conversation and protects against a false recovery promise."
+    },
+    "information_density": {
+      "answer": "Four gates, one boundary, and one question; every unit changes the next check or decision.",
+      "evidence_or_reason": "The density budget is intentionally small so the reader can use the whole guide in under a minute."
+    }
+  },
+  "density_budget": {
+    "operating_modules": 4,
+    "boundary_or_exception": 1,
+    "next_actions": 1,
+    "why_each_unit_earns_space": "Each gate removes a different uncertainty: signal quality, customer consequence, recovery feasibility, or accountable exception ownership."
+  },
+  "family_choice": {
+    "field_guide_adds": "The visual is a reusable meeting object with an ordered check, a boundary, and a concrete next action; a caption alone would not let the reader trace the method quickly.",
+    "alternative_family_considered": "A relatable short post about the anxiety of escalations.",
+    "why_not_alternative": "Recognition alone would not make the four checks and the exception ownership available for later use.",
+    "decision": "select"
+  },
+  "known_limits": "This admission selects an internal Motion Lab and a proposed operating method. It does not prove demand, platform reach, deployment, or operating performance.",
+  "reviewer": "Codex internal V5 QA",
+  "reviewed_at": "2026-08-07"
+}

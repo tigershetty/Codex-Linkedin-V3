@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "field_guide_id": "FG-EXAMPLE-SUPPLY-RISK-ESCALATION",
+  "reader_moment": "A planner or purchasing practitioner has noticed a possible supply issue but cannot yet tell whether the next step is a check, a conversation, or an escalation.",
+  "reader_promise": "A compact decision reference that helps separate a signal worth escalating from one that needs more checking first.",
+  "resource_filters": {
+    "lived_tension": {
+      "answer": "A credible date or quantity changes, yet the real customer exposure is still unclear.",
+      "evidence_or_reason": "A repeatable operating moment, not an invented company incident."
+    },
+    "practical_handle": {
+      "answer": "The reader can run three checks and name the first unresolved fact before escalating.",
+      "evidence_or_reason": "The proposed next action is usable without a tool, signup, or claimed outcome."
+    },
+    "useful_angle": {
+      "answer": "It separates signal quality, customer exposure, and recovery options instead of collapsing them into one generic risk label.",
+      "evidence_or_reason": "The distinction changes the next conversation; it is not a relabelled definition."
+    },
+    "information_density": {
+      "answer": "Three checks, one exception, and one next move; each item removes a different uncertainty.",
+      "evidence_or_reason": "The guide has a density budget rather than an arbitrary list length."
+    }
+  },
+  "density_budget": {
+    "operating_modules": 3,
+    "boundary_or_exception": 1,
+    "next_actions": 1,
+    "why_each_unit_earns_space": "Each unit either changes the next decision, prevents false certainty, or tells the reader what to do next."
+  },
+  "family_choice": {
+    "field_guide_adds": "The reader needs to keep and reuse a structured decision reference; a caption or scene would not preserve the full operating distinction.",
+    "alternative_family_considered": "A short editorial observation about escalation anxiety.",
+    "why_not_alternative": "The reusable check is the value, not a single opinion or image-led metaphor.",
+    "decision": "select"
+  },
+  "known_limits": "This admission record selects a Field Guide experiment. It does not prove reader demand, platform reach, or that the content should be published.",
+  "reviewer": "",
+  "reviewed_at": ""
+}

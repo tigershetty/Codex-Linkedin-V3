@@ -98,6 +98,14 @@ Cobalt Grid remain historical reference material. The reference bundle contribut
 mechanics, not another creator's look. One dominant reader response and one reading route beat a
 dense internal model dump.
 
+A selected Field Guide records its specialist admission, visual/caption choreography, and package
+manifest alongside the spec. The manifest is the canonical source of record for a linked Figma node
+and exact local export/hash; other package files may refer to it but must not introduce or contradict
+that metadata. Recorded Figma metadata is not source verification. Run
+`validate-field-guide-package.mjs` for the semantic contract and
+`audit-field-guide-package.mjs` for package closure. A draft may remain incomplete; a ready Field
+Guide cannot.
+
 For a standard image-led post, use the image engine as one coherent final composition. Do not finish
 it with HTML, SVG, dashboard, logo, or title overlays.
 

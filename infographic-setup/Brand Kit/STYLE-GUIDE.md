@@ -1,28 +1,32 @@
 # Shetty's Desk — Brand Kit & Infographic Style Guide (Historical V3/V5 Reference)
 
-> **V4 reset notice:** Operating Studio is preserved as historical design material, not an active
-> default. Use `../references/creative-review/signature-system-v1.md` for new V4 work.
+> **V4/V5 reset notice:** This is historical V3/V5 design material, not an active production
+> authority or default. For new work, use the Fast Post Loop or Creative Genome and
+> `../references/creative-review/signature-system-v2.md`. Treat any detail below as a named
+> historical reference atom only.
 
-A reusable visual system for LinkedIn infographics and precision artifacts. The DNA is extracted
+A historical visual system for LinkedIn infographics and precision artifacts. The DNA is extracted
 from a polished isometric infographic reference set and generalized so it applies to **any topic**
 — business, tech, career, data, ideas — not just the original subject.
 
-Use this file as the human-readable guide. For machine use (Claude Code), pair it with `brand-tokens.json`. For image models, use `PROMPT-LIBRARY.txt` and the visual one-pager `Shettys-Desk-Brand-Kit.pdf`.
+Use this file only as historical reference documentation. For live production, use the current
+operating system and selected creative family; do not use `brand-tokens.json`, `PROMPT-LIBRARY.txt`,
+or the visual one-pager as automatic source material.
 
-> **V5 standard-post override:** a normal LinkedIn post is one image-engine-native **Instrumented
+> **Historical V5 standard-post override:** a normal LinkedIn post was one image-engine-native **Instrumented
 > Operating Explanation**, not an assembled infographic. Start with the reader's live tension, choose
 > one rendered operating system—an instrumented decision board, causal atlas, paired-state rig, or a
 > **Commitment Object** when an irreversible boundary must be felt—and render one composition. Never
 > paste an HTML/SVG, dashboard, title, footer, or logo overlay
-> over that final scene. The current authority is
-> `../references/brand-kits/shettys-desk-operating-studio/FRAME.md`. The modular rules below are
-> retained for explicit carousels and exact artifacts.
+> over that final scene. The current authority is the Fast Post Loop or Creative Genome plus
+> `signature-system-v2.md`; the modular rules below are retained as historical material for
+> explicit carousels and exact artifacts.
 
 ---
 
 ## 1. Brand Essence
 
-Optimistic, science-led, credible, modern. Clean and airy, built on luminous blue gradients with a vivid **signature green** that always signals *positive / progress / the smart choice*. Data-driven but human. The precision-artifact expression uses smooth isometric 2.5D vector art on white; the standard V5 post uses a tangible or diagrammatic premium Operating Studio **Instrumented Operating Explanation**. A **Commitment Object** is the high-tension subgrammar for a decision that has an irreversible boundary and must be felt before it is explained.
+This historical expression was optimistic, science-led, credible, and modern: clean and airy, built on luminous blue gradients with a vivid **signature green** that signalled *positive / progress / the smart choice*. The precision-artifact expression used smooth isometric 2.5D vector art on white; the former V5 post used a tangible or diagrammatic Operating Studio **Instrumented Operating Explanation**. It is not a required current visual family.
 
 Three cues make the precision-artifact expression recognizable:
 
@@ -189,9 +193,9 @@ The same DNA, fed the way each tool prefers:
 
 **Gemini — Nano Banana Pro** → attach 1–2 reference images + paste the Gemini prompt from `PROMPT-LIBRARY.txt`. Strong at reference-image consistency and in-image text. Or drag in the one-page PDF as the style reference.
 
-**ChatGPT Image 2** → for a standard feed post, lead with the V5 Native Scene block and its chosen Instrumented Operating Explanation, not a generic style label. Use a Commitment Object only when the decision has an irreversible boundary. For a carousel or exact artifact, lead with "flat-design isometric vector infographic, pure white background." Reuse the appropriate style block within its visual mode. Drag in the relevant reference image too.
+**ChatGPT Image 2** → for a standard feed post, use the selected current creative route and Signature System V2. Use this kit only if a named historical atom has been deliberately selected. For a carousel or exact artifact, its flat isometric block may be used when that treatment is chosen for reader value.
 
-**Claude Code** → for a standard post, use the Operating Studio frame and a native image-engine prompt. It may use the tokens to build an editable HTML/SVG only when a separate exact artifact or carousel has been explicitly selected.
+**Claude Code** → for a standard post, use the Fast Post Loop or Creative Genome, the selected creative family, and Signature System V2. It may use this kit only as named historical reference material, and may use editable HTML/SVG only when a separate exact artifact or carousel has been explicitly selected.
 
 **Standard workflow:** choose one reader tension → one physical or visual mechanism → one native image-engine composition → five-reader check. The visual family can vary with the argument; the palette and colour meanings maintain ownership.
 

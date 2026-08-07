@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "field_guide_id": "FG-SUPPLY-RISK-MOTION-LAB-V1",
+  "visual": {
+    "glance_promise": "Before you escalate a supply risk: an illustrative four-gate customer-first check.",
+    "primary_reading_route": "changed supplier date -> date reliability -> customer exposure -> recovery check -> joint exception -> meeting question",
+    "core_units": [
+      {
+        "unit_id": "VU-01",
+        "claim_ids": ["CL-01"],
+        "on_visual_text": "Is the supplier date credible?",
+        "visual_teaches": "A date signal needs validation before it becomes a customer-facing promise.",
+        "duplicate_check_terms": ["supplier", "date", "credible"]
+      },
+      {
+        "unit_id": "VU-02",
+        "claim_ids": ["CL-02"],
+        "on_visual_text": "Can any credible date miss need-by?",
+        "visual_teaches": "Supplier-date reliability and customer exposure are separate gates.",
+        "duplicate_check_terms": ["credible", "needby", "miss"]
+      },
+      {
+        "unit_id": "VU-03",
+        "claim_ids": ["CL-03"],
+        "on_visual_text": "Can recovery close the gap?",
+        "visual_teaches": "A proposed recovery option must be checked before it becomes a promised result.",
+        "duplicate_check_terms": ["recovery", "close", "gap"]
+      },
+      {
+        "unit_id": "VU-04",
+        "claim_ids": ["CL-04"],
+        "on_visual_text": "If not, escalate jointly.",
+        "visual_teaches": "The unresolved customer exception receives named joint ownership in this proposed method.",
+        "duplicate_check_terms": ["escalate", "jointly", "exception"]
+      }
+    ]
+  },
+  "caption": {
+    "file": "linkedin-caption.md",
+    "job": "Explain why teams collapse different unknowns into one ‘supply risk,’ restate the non-predictive boundary, and ask a discussion question. Do not narrate the four gate labels or supporting instructions.",
+    "adds": [
+      "Why a changed confirmation is not automatically a customer exception.",
+      "The cost of manufactured certainty and premature cost optimisation.",
+      "A question that surfaces the fact still missing from the meeting."
+    ],
+    "allowed_verbatim_unit_ids": [],
+    "allowed_verbatim_repeats": [],
+    "must_not_repeat": [
+      "The four gate titles or their explanatory sentences."
+    ]
+  },
+  "hook": {
+    "file": "hooks.md",
+    "selected_hook_id": "1",
+    "job": "Name the unresolved customer-exception moment without summarising the four gates.",
+    "reveal_mode": "direct_tension",
+    "why_this_mode": "The first line is recognisable and leaves the visual to make the operating distinction legible."
+  },
+  "review": {
+    "decision": "pass",
+    "notes": "The caption uses the idea of validation and exception ownership but does not duplicate a complete visual-unit label or its instruction."
+  }
+}

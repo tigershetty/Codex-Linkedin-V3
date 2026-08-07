@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "field_guide_id": "FG-SUPPLY-RISK-MOTION-LAB-V1",
+  "truth_class": "operating_method",
+  "record_status": "internal-draft",
+  "source_records": [
+    {
+      "source_id": "TS-20260807-01-A",
+      "record_file": "tiger-source.md",
+      "source_kind": "Tiger professional judgment — internal-lab direction",
+      "supports": "Establish data quality and compatibility before selecting an operating response.",
+      "scope": "internal_only",
+      "limitation": "This authorises prototype method construction only. It does not prove a universal workflow or a customer outcome."
+    },
+    {
+      "source_id": "TS-20260807-01-B",
+      "record_file": "tiger-source.md",
+      "source_kind": "Tiger professional judgment — internal-lab direction",
+      "supports": "Test customer need-by across credible scenarios before differential economics.",
+      "scope": "internal_only",
+      "limitation": "This is a customer-first proposed decision rule, not a public outcome claim."
+    },
+    {
+      "source_id": "TS-20260807-01-C",
+      "record_file": "tiger-source.md",
+      "source_kind": "Tiger professional judgment — internal-lab direction",
+      "supports": "Block false precision when inputs are stale or unreliable.",
+      "scope": "internal_only",
+      "limitation": "The exact four-gate sequence below remains an internal synthesis for an illustrative meeting check."
+    },
+    {
+      "source_id": "TS-20260807-01-D",
+      "record_file": "tiger-source.md",
+      "source_kind": "Tiger professional judgment — internal-lab direction",
+      "supports": "Require joint KAM and Purchasing Manager escalation when any credible scenario misses customer need-by.",
+      "scope": "internal_only",
+      "limitation": "This is a project-specific proposed governance rule, not an asserted industry standard."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CL-01",
+      "text": "A changed supplier date should be validated before it becomes a customer promise.",
+      "source_ids": ["TS-20260807-01-C"],
+      "treatment": "Proposed guardrail derived from the documented unreliable-date risk. It is not presented as an empirically verified universal rule."
+    },
+    {
+      "claim_id": "CL-02",
+      "text": "Customer need-by is a separate check from supplier-date reliability.",
+      "source_ids": ["TS-20260807-01-B"],
+      "treatment": "Customer-first operating distinction, adapted into this bounded meeting method. No outcome or numerical claim is made."
+    },
+    {
+      "claim_id": "CL-03",
+      "text": "Recovery options should be examined without converting them into an unverified recovery promise.",
+      "source_ids": ["TS-20260807-01-A", "TS-20260807-01-C"],
+      "treatment": "Internal method synthesis from the documented need for best/base/worst sensitivity and avoidance of false precision. It does not claim that any recovery option succeeds."
+    },
+    {
+      "claim_id": "CL-04",
+      "text": "A remaining credible customer gap routes to a joint KAM and Purchasing Manager exception decision in this proposed working method.",
+      "source_ids": ["TS-20260807-01-D"],
+      "treatment": "Tiger-approved project direction, explicitly limited to this proposed method and not claimed as a universal governance model."
+    }
+  ],
+  "overall_boundary": "The lab is an illustrative operating-method experiment. It contains no company case, customer outcome, cost saving, recovery calculation, or deployment proof."
+}

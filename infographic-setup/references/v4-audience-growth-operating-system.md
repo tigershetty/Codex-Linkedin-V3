@@ -96,6 +96,11 @@ signals only.
 Use `creative-opportunity-selection.md`. Work may begin problem-first, pattern-first, evidence-first,
 or timely-signal-first. No starting path is inherently superior.
 
+When a broad supply-chain domain needs a specific reader/work context before this selection,
+`supply-chain-opportunity-map-v1.md` may form one bounded scope window. It is upstream navigation,
+not a topic score, content calendar, or replacement for the existing `explore`, `build`, or `park`
+decision.
+
 Use two active opportunity lanes:
 
 1. **Saved-post mechanism + real supply-chain tension:** start with a proven creative mechanism,
@@ -258,6 +263,7 @@ Creative Genome, the reader contract, claim support, or Tiger voice.
 - Fast weekly production: `fast-post-loop-v1.md`; `v3-creative-repertoire-v1.md` is historical
   source material, not a default visual authority.
 - Creative intelligence: `creative-genome-recombination-engine-v1.md`, `creative-story-archetypes-v1.md`
+- Supply-chain scope control: `supply-chain-opportunity-map-v1.md`
 - Opportunity selection: `creative-opportunity-selection.md`
 - Audience: `audience-intelligence.md`
 - Voice and provenance: `../../tiger-voice.md`, `tiger-source-gate-v1.md`

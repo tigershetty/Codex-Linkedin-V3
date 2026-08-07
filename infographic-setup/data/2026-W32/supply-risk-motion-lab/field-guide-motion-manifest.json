@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "motion_id": "FG-SUPPLY-RISK-MOTION-LAB-V1",
+  "title": "Before You Escalate a Supply Risk",
+  "field_guide_spec": "infographic-setup/data/2026-W32/supply-risk-motion-lab/field-guide-spec.json",
+  "source": {
+    "kind": "figma_field_guide",
+    "figma_file_key": "lAiBPFCz9FDuM74CN5chDd",
+    "still_node_id": "37:3",
+    "motion_frame_node_id": "37:3",
+    "selected_still": "infographic-setup/data/2026-W32/supply-risk-motion-lab/visual.png",
+    "sha256": "6d93e3bf2f8c790bc88664e97d6852fe7ebf585f3325cc553d71fb9fa63304b8"
+  },
+  "package": {
+    "data_directory": "infographic-setup/data/2026-W32/supply-risk-motion-lab",
+    "motion_project_directory": "videos/supply-risk-motion-lab-motion",
+    "motion_brief": "motion-brief.md",
+    "shot_plan": "shot-plan.json",
+    "composition": "compositions/main.html",
+    "asset_builder": "build_motion_assets.mjs",
+    "overlay_geometry": "motion-overlay-geometry.json",
+    "render_provenance": "qa/render-provenance.json",
+    "outputs": {
+      "gif": "visual-motion.gif",
+      "mp4": "visual-motion.mp4",
+      "qa": "motion-qa.md",
+      "first_frame": "qa/opening-source-frame.png",
+      "final_frame": "qa/final-source-frame.png"
+    }
+  },
+  "eligibility": {
+    "statement": "Motion helps because the reader needs to see an illustrative risk signal pass through the four ordered checks before it becomes a joint exception.",
+    "change_type": "state_or_path",
+    "reader_value": "The animated signal makes the dependency between date reliability, customer exposure, recovery, and joint ownership easier to follow without changing the working method.",
+    "not_a_performance_claim": true
+  },
+  "locked_elements": [
+    "all exact text, questions, and field notes",
+    "Shetty's Desk marks and source labels",
+    "the complete approved Field Guide still",
+    "all gate geometry, rules, and arrows"
+  ],
+  "semantic_regions": [
+    {
+      "id": "risk-signal",
+      "figma_node_id": "37:52",
+      "role": "signal_origin",
+      "motion_mode": "path_trace",
+      "communication_job": "Represent one illustrative risk signal without implying a real supplier or customer event."
+    },
+    {
+      "id": "date-reliability",
+      "figma_node_id": "37:11",
+      "role": "state",
+      "motion_mode": "highlight",
+      "communication_job": "Show that the changed date is only a signal until its reliability is checked."
+    },
+    {
+      "id": "customer-exposure",
+      "figma_node_id": "37:18",
+      "role": "decision_path",
+      "motion_mode": "path_trace",
+      "communication_job": "Carry the illustrative signal to the separate customer need-by check."
+    },
+    {
+      "id": "recovery-check",
+      "figma_node_id": "37:25",
+      "role": "state",
+      "motion_mode": "highlight",
+      "communication_job": "Show that recovery is tested before it is treated as a promise."
+    },
+    {
+      "id": "joint-exception",
+      "figma_node_id": "37:32",
+      "role": "boundary_or_exception",
+      "motion_mode": "state_change",
+      "communication_job": "Land on the joint KAM and Purchasing Manager decision only when the gap remains."
+    }
+  ],
+  "timeline": {
+    "duration_seconds": 6.5,
+    "opening_still_seconds": 0.7,
+    "final_still_seconds": 1.2,
+    "beats": [
+      {
+        "id": "opening",
+        "start": 0,
+        "end": 0.7,
+        "communication_job": "Show the complete Field Guide before any signal appears."
+      },
+      {
+        "id": "date-reliability",
+        "start": 0.7,
+        "end": 1.55,
+        "communication_job": "Pause at date reliability before allowing the signal to proceed."
+      },
+      {
+        "id": "customer-exposure",
+        "start": 1.55,
+        "end": 3.1,
+        "communication_job": "Trace the signal to customer exposure and hold it at that decision boundary."
+      },
+      {
+        "id": "recovery-check",
+        "start": 3.1,
+        "end": 4.55,
+        "communication_job": "Move through the recovery check without implying that recovery works."
+      },
+      {
+        "id": "joint-exception",
+        "start": 4.55,
+        "end": 5.3,
+        "communication_job": "Land at the visible joint exception owner action."
+      },
+      {
+        "id": "final-hold",
+        "start": 5.3,
+        "end": 6.5,
+        "communication_job": "Return to the complete motion-free reference for reading and saving."
+      }
+    ]
+  }
+}

@@ -28,9 +28,8 @@ or another surface. For HTML/SVG:
 > **Selection method — decompose the message into its claims (added 2026-06-29).** A post's message usually contains **several arguable claims at once, and each claim points to a different framework family.** Choosing *which claim to lead with* is the creative fork — don't anchor on the first metaphor and hunt for neighbours of it (that is how a selection narrows to one safe-but-generic shape). Method: (1) write the message in one line; (2) list every distinct claim inside it; (3) map each claim to the shape that *makes that argument*; (4) pick by which claim is the headline **and** by data integrity — a framework that needs per-item numbers you don't have forces invented figures, so prefer one supported by the verified facts, and keep non-highlighted items neutral/unmarked. Worked example — *"six clauses, teams fight Liability hardest, 77% of disputes start at Scope"* decomposes to: hidden-mass (iceberg) · ranking-mismatch (dumbbell/slope) · misallocated-defense (scales/fortress) · structure-with-one-weak-member (pillars/weak-link) · concentration (Pareto) · cascade (domino). Same fact, six honest shapes. Use `creative-engine-v4-recombination.md` and `visual-engine-v2.md` for the active image-production path.
 
 > **Active craft authority:** use `visual-engine-v2.md`, `creative-engine-v4-recombination.md`, and
-> `creative-review/signature-system-v1.md`. The catalog contributes possible shapes, not a mandatory
+> `creative-review/signature-system-v2.md`. The catalog contributes possible shapes, not a mandatory
 > house style or visual family.
-> The catalog contributes possible shapes, not a mandatory house style or visual family.
 
 **Composition reminder (added 2026-06-21, reframed 2026-08-02):** after choosing the visual
 argument, decide how much of the canvas the primary visual structure needs. An integrated system can absorb

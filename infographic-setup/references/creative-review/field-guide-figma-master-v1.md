@@ -16,12 +16,15 @@ into a worksheet.
 | `03 — Component / Field Note` | built and reviewed | `Boundary` and `Exception` variants |
 | `04 — Component / Action` | built and reviewed | a visible working move, never a promotional CTA |
 | `05 — Pilot / Cross-functional Map` | built and reviewed | editable 1080 × 1350 Handoff Atlas pilot |
+| `06 — Motion Lab / Supply Risk` | built and locally export-verified | exact 1080 × 1350 source for the internal signal-path motion experiment; not publication approved |
 
 The connected Figma plan was upgraded to Professional on 2026-08-07. Every current component and
 the pilot have been visibly inspected in the master. The source remains a draft design authority:
 Tiger must approve an exact visual and caption before it becomes a LinkedIn release.
 
 **Verified pilot:** [Cross-functional Translator Map](https://www.figma.com/design/lAiBPFCz9FDuM74CN5chDd?node-id=27-2)
+
+**Verified internal lab:** [Before You Escalate a Supply Risk](https://www.figma.com/design/lAiBPFCz9FDuM74CN5chDd?node-id=37-3). The connected API does not expose Figma version-history writes, so source verification is recorded through the inspected node, local exact export, and SHA-256 in the lab manifest rather than a claimed Figma version stamp.
 
 ## Master anatomy
 
@@ -56,5 +59,9 @@ where they make the reading route clearer.
 
 Name authored layers by role: `Promise`, `Spine`, `Module / {id}`, `Boundary`, `Source`, `Action`.
 Before export, use `validate-field-guide-package.mjs`, then the Field Guide review template. Export a
-verified still before considering motion. If motion passes its explicit eligibility sentence, preserve
-the still as opening and closing frame and animate one state/path only.
+verified still before considering motion. For every Field Guide, also create
+`field-guide-manifest.json`: record the Figma file key, node ID, source URL, reviewed version, and
+whether that metadata has been locally verified. Once exported, record the local file, dimensions,
+format, and SHA-256. A URL alone is a recorded pointer, not proof that the current source or export
+was inspected. If motion passes its explicit eligibility sentence, preserve the still as opening and
+closing frame and animate one state/path only.

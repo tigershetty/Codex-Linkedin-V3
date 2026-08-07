@@ -1,6 +1,6 @@
 # Shetty's Desk — Precision Artifact & Motion Renderer
-**Created**: 2026-06-15 · **Status**: Active only for separate exact artifacts, carousels, and approved motion finishing. Read `../references/visual-engine-v2.md` first.
-**Active companions**: `../references/creative-genome-recombination-engine-v1.md` (source selection and recombination) · `../references/visual-engine-v2.md` (visual authority) · `../references/creative-review/signature-system-v1.md` (active selection guardrail) · `../references/layout-frameworks-intelligence.md` (optional layout vocabulary) · `../memory/visual-benchmarks/top100-visual-dna.md` (historical Top-100 pattern analysis). This file is the deterministic *production* layer.
+**Created**: 2026-06-15 · **Status**: maintained technical reference for selected exact artifacts, carousels, and approved motion finishing. Read `../references/visual-engine-v2.md` first.
+**Active companions**: `../references/creative-genome-recombination-engine-v1.md` (source selection and recombination) · `../references/visual-engine-v2.md` (visual authority) · `../references/creative-review/signature-system-v2.md` (active selection guardrail) · `../references/v5-field-guide-notebook-production-system.md` (specialist deterministic route) · `../references/layout-frameworks-intelligence.md` (optional layout vocabulary) · `../memory/visual-benchmarks/top100-visual-dna.md` (historical Top-100 pattern analysis). This file is a deterministic *production* layer, not an art-direction authority.
 
 ---
 
@@ -12,7 +12,19 @@ renderer only for a separate precise artifact, exact-data visual, controlled car
 Engine v1 finishing lane. It must never add HTML/SVG, dashboard, title, footer, or logo layers over
 an image-engine-native standard post.
 
-The 2026-06-21 code-render-primary decision is superseded. Both active pipelines are GPT Image 2-first for creative stills; code render remains a maintained precision tool.
+The 2026-06-21 code-render-primary decision is superseded. The default route for a standard
+creative still is image-engine-native; deterministic code and Figma remain selected precision tools
+when exact labels, formulae, paths, or a working-reference grammar are the reader value. This manual
+does not choose a V5 visual family or creative direction.
+
+### V5 override — read before using a legacy renderer template
+
+This manual preserves several **V3 production examples** so an approved historical asset can be
+reproduced or animated safely. Sections 2–6 are not the active V5 art direction. For a new V5 post,
+the active visual authorities are `references/visual-engine-v2.md`,
+`references/creative-review/signature-system-v2.md`, and, when selected,
+`references/v5-field-guide-notebook-production-system.md`. Do not silently default to the former
+Poppins / blue-green / isometric system, legacy card layouts, or any fixed renderer template.
 
 ---
 
@@ -80,14 +92,14 @@ Use `FRAMES_DIR=../../videos/{slug}-motion/qa/frames` with
 
 ---
 
-## 2. Canvas & format (non-negotiable)
+## 2. Historical V3 canvas notes — selected legacy artifacts only
 - **4:5 portrait — 1080×1350 baseline** (rendered @2x). This is the measured dominant format of the top-100 corpus (64/97 were exactly 4:5; 85/97 portrait). **Do NOT use 1:1 square** — the old `brand-params.json` 2048² spec is wrong for this genre.
 - Extra-tall variant (1080×1600–2060) only for very dense tables.
 - Never landscape (crops badly in feed).
 
 ---
 
-## 3. Brand system — THE ACTUAL SHETTY'S DESK BRAND KIT (corrected 2026-06-16)
+## 3. Historical V3 renderer palette — legacy reproduction only
 ⚠️ **Hard correction.** Earlier templates (PF1/PF5/PF6 + the v1 PF7) used a **coral/terracotta-on-cream** palette. That was WRONG — it took the *logo's* identity colour (terracotta) and mis-used it as the *content* palette, which `brand-tokens.json` explicitly forbids ("the logo layer is terracotta/olive… the content layer is azure/eco-green… don't mix the two palettes"). The real brand is **azure-blue + eco-green, ink-blue text, Poppins, luminous & airy on WHITE, flat-isometric.** PF7 v3 is the corrected reference. **PF1/PF5/PF6 must be rebuilt to this palette.**
 
 | Token | Value | Use |

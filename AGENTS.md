@@ -76,6 +76,7 @@ selected claim mode.
 - V3 repertoire: `infographic-setup/references/v3-creative-repertoire-v1.md` (historical source
   material, not a visual default)
 - Creative Genome: `infographic-setup/references/creative-genome-recombination-engine-v1.md`
+- Supply-chain scope control: `infographic-setup/references/supply-chain-opportunity-map-v1.md`
 - Opportunity selection: `infographic-setup/references/creative-opportunity-selection.md`
 - Creative production: `infographic-setup/references/creative-engine-v4-recombination.md`
 - Visual workflow: `infographic-setup/references/visual-engine-v2.md`

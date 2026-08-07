@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "field_guide_id": "FG-CROSS-FUNCTIONAL-TRANSLATOR-MAP-V5",
+  "title": "Six Supply-Chain Translation Prompts",
+  "package": {
+    "spec_file": "field-guide-v5-spec.json",
+    "admission_file": "field-guide-admission.json",
+    "choreography_file": "field-guide-visual-copy-choreography.json",
+    "post_card_file": "field-guide-v5-post-card.md",
+    "review_file": "field-guide-v5-review.md",
+    "claim_source_file": "field-guide-v5-spec.json",
+    "reference_atoms_file": "reference-shelf.json",
+    "analytics_file": "analytics.md",
+    "analytics_content_id": "FG-CROSS-FUNCTIONAL-TRANSLATOR-MAP-V5"
+  },
+  "figma": {
+    "file_key": "lAiBPFCz9FDuM74CN5chDd",
+    "node_id": "27:2",
+    "url": "https://www.figma.com/design/lAiBPFCz9FDuM74CN5chDd?node-id=27-2",
+    "recorded_version": "2026-08-07 draft pilot; source state is recorded in field-guide-figma-master-v1.md",
+    "metadata_status": "recorded_not_locally_verified"
+  },
+  "export": {
+    "status": "not_exported",
+    "file": null,
+    "sha256": null,
+    "format": null,
+    "width": null,
+    "height": null
+  },
+  "caption": {
+    "file": "linkedin-caption-v2-field-guide.md",
+    "selected_hook_file": "hooks-v2-field-guide.md",
+    "selected_hook_id": "1",
+    "status": "draft"
+  },
+  "publication": {
+    "status": "draft",
+    "reason": "The exact Figma metadata is recorded but not locally verified, no local Field Guide export or hash exists, the linked caption still repeats core visual units, and analytics do not yet carry the V5 Field Guide content ID."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.1.0",
+  "motion_id": "FG-SUPPLY-RISK-MOTION-LAB-V1",
+  "source": "assets/visual.png",
+  "source_sha256": "6d93e3bf2f8c790bc88664e97d6852fe7ebf585f3325cc553d71fb9fa63304b8",
+  "generated_assets": [
+    "assets/overlay-geometry.generated.js"
+  ],
+  "overlay_geometry": {
+    "geometry_id": "FG-SUPPLY-RISK-MOTION-LAB-OVERLAY-V1",
+    "source": "infographic-setup/data/2026-W32/supply-risk-motion-lab/motion-overlay-geometry.json",
+    "source_sha256": "96ae1fd6269cc4df9fccae4adaaab186e25b3a3867e60a69fdf4e4e9e9b1e223",
+    "generated_module": "assets/overlay-geometry.generated.js",
+    "generated_module_sha256": "e17f56dadf323da489db55ed0d584e143f3f2ec6b5bffe7556dd615225fb07fd",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    },
+    "signal_node": "37:52",
+    "segment_ids": [
+      "date-rule",
+      "to-exposure",
+      "exposure-rule",
+      "to-recovery",
+      "recovery-rule",
+      "to-exception",
+      "exception-rule"
+    ],
+    "restrictions": [
+      "no_text_motion",
+      "no_bitmap_crops",
+      "no_inpainting",
+      "no_reconstructed_background"
+    ]
+  }
+}

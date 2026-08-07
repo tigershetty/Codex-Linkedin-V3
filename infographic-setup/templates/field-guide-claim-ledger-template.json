@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "field_guide_id": "FG-REPLACE-ME",
+  "truth_class": "operating_method",
+  "record_status": "draft",
+  "source_records": [
+    {
+      "source_id": "TS-YYYYMMDD-01-A",
+      "record_file": "tiger-source.md",
+      "source_kind": "Tiger professional judgment / documented method / public evidence",
+      "supports": "What this source actually supports.",
+      "scope": "internal_only / public_approved / source-bound",
+      "limitation": "What this source does not prove or authorise."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CL-01",
+      "text": "Exact Field Guide claim.",
+      "source_ids": ["TS-YYYYMMDD-01-A"],
+      "treatment": "Quote / bounded paraphrase / internal synthesis, with the limitation preserved."
+    }
+  ],
+  "overall_boundary": "State what the complete guide does not claim."
+}

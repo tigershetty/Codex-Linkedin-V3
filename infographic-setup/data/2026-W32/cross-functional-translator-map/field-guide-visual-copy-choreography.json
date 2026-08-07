@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "field_guide_id": "FG-CROSS-FUNCTIONAL-TRANSLATOR-MAP-V5",
+  "visual": {
+    "glance_promise": "Do not learn all of supply chain. Learn the next decision your work affects.",
+    "primary_reading_route": "home function -> one directional transfer gate -> adjacent decision language -> ownership boundary -> next-meeting question",
+    "core_units": [
+      {
+        "unit_id": "VU-01",
+        "claim_ids": ["CL-01"],
+        "on_visual_text": "Procurement → demand signal",
+        "visual_teaches": "Use the demand signal as adjacent language before treating price or lead time as the only supplier-conversation input.",
+        "duplicate_check_terms": ["procurement", "demand signal", "supplier"]
+      },
+      {
+        "unit_id": "VU-02",
+        "claim_ids": ["CL-02"],
+        "on_visual_text": "Planning → capacity constraint",
+        "visual_teaches": "Translate the plan into the capacity question the next specialist must resolve.",
+        "duplicate_check_terms": ["planning", "capacity constraint"]
+      },
+      {
+        "unit_id": "VU-03",
+        "claim_ids": ["CL-03"],
+        "on_visual_text": "Manufacturing → delivery promise",
+        "visual_teaches": "Connect a production constraint to the delivery promise another team must manage.",
+        "duplicate_check_terms": ["manufacturing", "delivery promise"]
+      },
+      {
+        "unit_id": "VU-04",
+        "claim_ids": ["CL-04"],
+        "on_visual_text": "Logistics → customer commitment",
+        "visual_teaches": "Frame movement and freight choices through the commitment they protect or put at risk.",
+        "duplicate_check_terms": ["logistics", "customer commitment"]
+      },
+      {
+        "unit_id": "VU-05",
+        "claim_ids": ["CL-05"],
+        "on_visual_text": "Analytics → operator decision",
+        "visual_teaches": "Ask which operator decision an analysis should make easier before building another report.",
+        "duplicate_check_terms": ["analytics", "operator decision"]
+      },
+      {
+        "unit_id": "VU-06",
+        "claim_ids": ["CL-06"],
+        "on_visual_text": "Strategy → frontline workflow",
+        "visual_teaches": "Test whether a strategic idea can be described as a changed frontline workflow or decision.",
+        "duplicate_check_terms": ["strategy", "frontline workflow"]
+      }
+    ]
+  },
+  "caption": {
+    "file": "linkedin-caption-v2-field-guide.md",
+    "job": "Explain why generic cross-functional advice stalls, state the ownership boundary, and invite the reader to identify the adjacent decision they need to understand. It should not narrate all six routes again.",
+    "adds": [
+      "The reason broad cross-functional advice is difficult to turn into an action.",
+      "The ownership boundary: adjacent literacy does not replace specialist depth.",
+      "The next-meeting question that turns the framework into a conversation."
+    ],
+    "allowed_verbatim_unit_ids": [],
+    "allowed_verbatim_repeats": [],
+    "must_not_repeat": [
+      "All six function-to-decision translations in caption bullets when the visual already provides the complete reference."
+    ]
+  },
+  "hook": {
+    "file": "hooks-v2-field-guide.md",
+    "selected_hook_id": "1",
+    "job": "Name the gap between 'be more cross-functional' and choosing what to learn next, without revealing the six-route answer in the opening.",
+    "reveal_mode": "curiosity",
+    "why_this_mode": "The visual owns the reusable reference. A direct hook would also be valid if it made the reader promise clearer; curiosity is not treated as a universal reach rule."
+  },
+  "review": {
+    "decision": "revise",
+    "notes": "The linked caption currently repeats all six route concepts in bullets. Keep the framing, boundary, and next-meeting question, but remove the route-by-route restatement before this draft can pass choreography review."
+  }
+}

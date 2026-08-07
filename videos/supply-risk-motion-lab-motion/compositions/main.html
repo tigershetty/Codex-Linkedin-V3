@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Before You Escalate a Supply Risk — Motion Lab</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      width: 1080px;
+      height: 1350px;
+      overflow: hidden;
+      background: #f6f0e7;
+    }
+    #card {
+      position: relative;
+      width: 1080px;
+      height: 1350px;
+      overflow: hidden;
+      isolation: isolate;
+      background: #f6f0e7;
+    }
+    .base {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .motion-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+      pointer-events: none;
+    }
+    .accent {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .route {
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 3;
+    }
+    .tone-date { stroke: #d99320; }
+    .tone-exposure { stroke: #ca5e42; }
+    .tone-recovery { stroke: #1e67b8; }
+    .tone-exception { stroke: #238460; }
+    .signal-dot {
+      fill: #fffdf8;
+      stroke-width: 3;
+      filter: drop-shadow(0 0 5px rgba(9, 36, 70, .30));
+    }
+  </style>
+</head>
+<body>
+  <main
+    id="card"
+    data-composition-id="supply-risk-motion-lab-motion"
+    data-width="1080"
+    data-height="1350"
+  >
+    <img class="base" src="../assets/visual.png" alt="">
+
+    <!-- The source still is always present. Geometry is generated from the versioned Field Guide record. -->
+    <svg id="motion-overlay" class="motion-overlay" aria-hidden="true"></svg>
+  </main>
+
+  <script src="../../../infographic-setup/renderer/assets/js/gsap.min.js"></script>
+  <script src="../assets/overlay-geometry.generated.js"></script>
+  <script>
+    (() => {
+      const geometry = window.__fieldGuideOverlayGeometry;
+      if (!geometry) throw new Error('Generated Field Guide overlay geometry is missing. Run build_motion_assets.mjs.');
+
+      const svgNs = 'http://www.w3.org/2000/svg';
+      const card = document.getElementById('card');
+      const overlay = document.getElementById('motion-overlay');
+      const duration = geometry.timeline.duration_seconds;
+      card.dataset.duration = String(duration);
+      overlay.setAttribute('viewBox', `0 0 ${geometry.canvas.width} ${geometry.canvas.height}`);
+
+      const elements = new Map();
+      geometry.segments.forEach((segment) => {
+        const path = document.createElementNS(svgNs, 'path');
+        path.setAttribute('id', segment.id);
+        path.setAttribute('class', `accent route tone-${segment.tone}`);
+        path.setAttribute('d', segment.svg_path);
+        overlay.appendChild(path);
+
+        const dot = document.createElementNS(svgNs, 'circle');
+        dot.setAttribute('id', `${segment.id}-dot`);
+        dot.setAttribute('class', `accent signal-dot tone-${segment.tone}`);
+        dot.setAttribute('cx', String(segment.initial_point.x));
+        dot.setAttribute('cy', String(segment.initial_point.y));
+        dot.setAttribute('r', String(segment.dot_radius));
+        overlay.appendChild(dot);
+        elements.set(segment.id, { path, dot, segment });
+      });
+
+      const accents = Array.from(document.querySelectorAll('.accent'));
+      const tl = gsap.timeline({ paused: true });
+      gsap.set(accents, { opacity: 0 });
+      tl.to({}, { duration }, 0);
+
+      const trace = ({ path, dot, segment }) => {
+        const length = path.getTotalLength();
+        const state = { progress: 0 };
+        const { start, travel_seconds: travelDuration, hold_seconds: hold } = segment.timing;
+        gsap.set(path, { strokeDasharray: length, strokeDashoffset: length, opacity: 0 });
+        gsap.set(dot, { opacity: 0 });
+        tl.to(path, {
+          opacity: .96,
+          strokeDashoffset: 0,
+          duration: travelDuration,
+          ease: 'power1.inOut',
+        }, start)
+          .to(dot, { opacity: 1, duration: .10, ease: 'power1.out' }, start)
+          .to(state, {
+            progress: 1,
+            duration: travelDuration,
+            ease: 'power1.inOut',
+            onUpdate: () => {
+              const point = path.getPointAtLength(length * state.progress);
+              dot.setAttribute('cx', point.x.toFixed(2));
+              dot.setAttribute('cy', point.y.toFixed(2));
+            },
+          }, start)
+          .to([path, dot], { opacity: 0, duration: .14, ease: 'power1.in' }, start + travelDuration + hold);
+      };
+
+      geometry.segments.forEach((segment) => trace(elements.get(segment.id)));
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines['supply-risk-motion-lab-motion'] = tl;
+      window.__tl = tl;
+      window.__dur = duration;
+
+      const images = Array.from(document.images).map((image) => {
+        if (image.complete) return Promise.resolve();
+        return new Promise((resolve) => {
+          image.addEventListener('load', resolve, { once: true });
+          image.addEventListener('error', resolve, { once: true });
+        });
+      });
+      Promise.all(images).then(() => { window.__ready = true; });
+    })();
+  </script>
+</body>
+</html>

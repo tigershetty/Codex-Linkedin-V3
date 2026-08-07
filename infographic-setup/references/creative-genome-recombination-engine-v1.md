@@ -75,6 +75,10 @@ artifact:
 5. patterns recently overused by Shetty's Desk;
 6. optional freshness facets such as news, regulation, company moves, research, or tool changes.
 
+When a broad supply-chain domain needs scoping before this retrieval, use one bounded scope window
+from `supply-chain-opportunity-map-v1.md`. It makes the reader/work context and relationship type
+explicit; it does not select the topic, reference set, creative family, or visual shape.
+
 Retrieve 10-15 saved references by **fit**, not by a universal quality score. The shortlist should
 contain enough variety to escape the first obvious format.
 

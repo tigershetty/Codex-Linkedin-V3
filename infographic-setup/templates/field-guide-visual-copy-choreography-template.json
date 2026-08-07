@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "field_guide_id": "FG-EXAMPLE-SUPPLY-RISK-ESCALATION",
+  "visual": {
+    "glance_promise": "Three checks before escalation.",
+    "primary_reading_route": "signal reliability -> customer exposure -> recovery options -> exception -> next move",
+    "core_units": [
+      {
+        "unit_id": "VU-01",
+        "claim_ids": ["CL-01"],
+        "on_visual_text": "Check the signal",
+        "visual_teaches": "What to verify before treating a changed date or quantity as an actionable risk.",
+        "duplicate_check_terms": ["signal", "source", "changed"]
+      },
+      {
+        "unit_id": "VU-02",
+        "claim_ids": ["CL-02"],
+        "on_visual_text": "Check the customer exposure",
+        "visual_teaches": "Why an observed supplier signal and a customer commitment are separate questions.",
+        "duplicate_check_terms": ["customer", "exposure", "commitment"]
+      },
+      {
+        "unit_id": "VU-03",
+        "claim_ids": ["CL-03"],
+        "on_visual_text": "Check the recovery options",
+        "visual_teaches": "How to make remaining options and unknowns visible before claiming a recovery plan.",
+        "duplicate_check_terms": ["recovery", "options", "unknowns"]
+      }
+    ]
+  },
+  "caption": {
+    "file": "linkedin-caption.md",
+    "job": "Add why this distinction matters in a live exception, one bounded example or caveat, and a discussion question. Do not narrate the three checks again.",
+    "adds": [
+      "Why teams confuse an unreliable signal with confirmed customer exposure.",
+      "The boundary: escalate uncertainty rather than inventing a recovery date.",
+      "One meeting question that helps the reader apply the reference."
+    ],
+    "allowed_verbatim_unit_ids": [],
+    "allowed_verbatim_repeats": [],
+    "must_not_repeat": [
+      "The full on-visual module labels or their explanatory sentences, unless a named repeat has a clear reason."
+    ]
+  },
+  "hook": {
+    "file": "hooks.md",
+    "selected_hook_id": "1",
+    "job": "Name the reader's unresolved moment without summarising every module.",
+    "reveal_mode": "curiosity",
+    "why_this_mode": "The visual contains the reusable answer; the opening earns attention through the unresolved decision. A direct hook is also allowed when it is clearer."
+  },
+  "review": {
+    "decision": "revise",
+    "notes": "A duplicate warning is a review prompt, not an automatic rejection. Record intentional repeats by unit ID and explain why the caption needs them."
+  }
+}

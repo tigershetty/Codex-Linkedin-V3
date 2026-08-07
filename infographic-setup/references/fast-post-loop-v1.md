@@ -22,7 +22,7 @@ window, not permission to keep exploring until something looks acceptable.
 
 | Time | Do only this |
 |---|---|
-| 0-3 minutes | Name the reader, real work moment, tension, and one thing they could keep. |
+| 0-3 minutes | Name the reader, real work moment, tension, and one thing they could keep. If starting from a broad domain, take one existing scope window from `supply-chain-opportunity-map-v1.md`; do not build or extend a map. |
 | 3-7 minutes | Pull two to four saved references from the current shelf. Take the useful atoms; do not retrieve the whole archive. |
 | 7-17 minutes | Write up to three rough routes (`A:`, `B:`, `C:`). Each has a different work moment, visual proof, hook, and saveable keep. They are not rendered layouts. |
 | 17-22 minutes | Run the five reader checks in rough form. Kill routes that do not clear them. |
@@ -32,6 +32,14 @@ window, not permission to keep exploring until something looks acceptable.
 This is a ceiling, not a minimum. If there is no credible route at minute 25, park it; do not make a
 calculator, research dossier, full reference bundle, detailed concept board, or extra finished
 tiles to rescue it. Those are flagship work.
+
+### Optional map handoff
+
+The Supply-Chain Opportunity Map is a three-minute lookup for a broad starting point, not an added
+Fast Post stage. Its only output is one bounded scope window: reader/moment, object or signal,
+decision/tension, cognitive job, truth route, and boundary. Use that window to retrieve references
+and write rough routes; never map adjacent branches, research every node, or treat the map as a
+Field Guide admission test.
 
 ## The post card
 

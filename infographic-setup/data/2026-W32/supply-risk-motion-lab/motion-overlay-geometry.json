@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "geometry_id": "FG-SUPPLY-RISK-MOTION-LAB-OVERLAY-V1",
+  "motion_id": "FG-SUPPLY-RISK-MOTION-LAB-V1",
+  "source": {
+    "figma_file_key": "lAiBPFCz9FDuM74CN5chDd",
+    "motion_frame_node_id": "37:3",
+    "selected_still": "infographic-setup/data/2026-W32/supply-risk-motion-lab/visual.png",
+    "sha256": "6d93e3bf2f8c790bc88664e97d6852fe7ebf585f3325cc553d71fb9fa63304b8",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "signal": {
+    "figma_node_id": "37:52",
+    "meaning": "One illustrative risk signal; it does not represent a supplier, customer, or deployed outcome.",
+    "restrictions": [
+      "no_text_motion",
+      "no_bitmap_crops",
+      "no_inpainting",
+      "no_reconstructed_background"
+    ]
+  },
+  "segments": [
+    {
+      "id": "date-rule",
+      "figma_node_ids": ["37:11"],
+      "role": "gate_rule",
+      "tone": "date",
+      "canvas_points": [[72, 504], [497, 504]],
+      "dot_radius": 6,
+      "timing": { "start": 0.7, "travel_seconds": 0.55, "hold_seconds": 0.12 },
+      "communication_job": "Trace the first date-reliability gate without moving its text."
+    },
+    {
+      "id": "to-exposure",
+      "figma_node_ids": ["37:11", "37:18"],
+      "role": "existing_arrow_corridor",
+      "tone": "exposure",
+      "canvas_points": [[500, 552], [550, 552]],
+      "dot_radius": 6,
+      "timing": { "start": 1.42, "travel_seconds": 0.34, "hold_seconds": 0.12 },
+      "communication_job": "Carry the illustrative signal through the existing right-arrow corridor."
+    },
+    {
+      "id": "exposure-rule",
+      "figma_node_ids": ["37:18"],
+      "role": "gate_rule",
+      "tone": "exposure",
+      "canvas_points": [[582, 504], [1008, 504]],
+      "dot_radius": 6,
+      "timing": { "start": 1.88, "travel_seconds": 0.72, "hold_seconds": 0.12 },
+      "communication_job": "Trace the customer-exposure question as a separate check."
+    },
+    {
+      "id": "to-recovery",
+      "figma_node_ids": ["37:18", "37:25"],
+      "role": "existing_arrow_corridor",
+      "tone": "recovery",
+      "canvas_points": [[780, 663], [780, 708]],
+      "dot_radius": 6,
+      "timing": { "start": 2.76, "travel_seconds": 0.34, "hold_seconds": 0.12 },
+      "communication_job": "Carry the illustrative signal through the existing down-arrow corridor."
+    },
+    {
+      "id": "recovery-rule",
+      "figma_node_ids": ["37:25"],
+      "role": "gate_rule",
+      "tone": "recovery",
+      "canvas_points": [[582, 790], [1008, 790]],
+      "dot_radius": 6,
+      "timing": { "start": 3.24, "travel_seconds": 0.68, "hold_seconds": 0.12 },
+      "communication_job": "Trace recovery as a test, not an implied outcome."
+    },
+    {
+      "id": "to-exception",
+      "figma_node_ids": ["37:25", "37:32"],
+      "role": "existing_arrow_corridor",
+      "tone": "exception",
+      "canvas_points": [[510, 825], [456, 825]],
+      "dot_radius": 6,
+      "timing": { "start": 4.08, "travel_seconds": 0.34, "hold_seconds": 0.12 },
+      "communication_job": "Carry the illustrative signal through the existing left-arrow corridor."
+    },
+    {
+      "id": "exception-rule",
+      "figma_node_ids": ["37:32"],
+      "role": "gate_rule",
+      "tone": "exception",
+      "canvas_points": [[72, 790], [498, 790]],
+      "dot_radius": 6,
+      "timing": { "start": 4.55, "travel_seconds": 0.52, "hold_seconds": 0.08 },
+      "communication_job": "Trace the visible joint-exception ownership action."
+    }
+  ]
+}

@@ -95,7 +95,9 @@ Options:
 
 The validator checks the Field Guide's reader contract, truth class, semantic shape,
 module count, claim/evidence contract, boundary or exception, and motion decision.
-It does not select a topic, visual style, or prove external sources are correct.
+It does not select a topic, visual style, prove external sources are correct, or audit package
+closure. Run audit-field-guide-package.mjs against field-guide-manifest.json for the linked Figma,
+export/hash, caption, review, reference, and analytics record.
 `;
 }
 

@@ -1,0 +1,92 @@
+{
+  "project": "supply-risk-motion-lab-motion",
+  "version": 1,
+  "category": "process",
+  "durationSeconds": 6.5,
+  "source": "assets/visual.png",
+  "sourceDimensions": {
+    "width": 1080,
+    "height": 1350
+  },
+  "promise": "Motion helps because the reader needs to see an illustrative risk signal pass through four ordered checks before it becomes a joint exception.",
+  "lockedElements": [
+    "all exact text and source notes",
+    "all four gate cards and their original arrows",
+    "logos, rules, and background geometry",
+    "the complete approved source still"
+  ],
+  "loop": {
+    "firstFrame": "complete approved visual with all SVG accents at opacity 0",
+    "reset": "none; the source stays locked and only registered SVG accents appear",
+    "build": "date reliability -> customer exposure -> recovery check -> joint exception",
+    "finalFrame": "complete approved visual with all SVG accents at opacity 0"
+  },
+  "components": [
+    {
+      "id": "date-reliability-rule",
+      "figmaNode": "37:11",
+      "box": [72, 502, 498, 506],
+      "method": "registered-source-highlight-only",
+      "motion": "trace",
+      "communicationJob": "Show that date reliability is the first gate."
+    },
+    {
+      "id": "customer-exposure-route",
+      "figmaNode": "37:18",
+      "box": [500, 502, 1008, 554],
+      "method": "registered-source-highlight-only",
+      "motion": "trace",
+      "communicationJob": "Move the illustrative signal to the separate need-by question."
+    },
+    {
+      "id": "recovery-check-route",
+      "figmaNode": "37:25",
+      "box": [582, 662, 1008, 792],
+      "method": "registered-source-highlight-only",
+      "motion": "trace",
+      "communicationJob": "Show recovery only after customer exposure is checked."
+    },
+    {
+      "id": "joint-exception-route",
+      "figmaNode": "37:32",
+      "box": [72, 788, 510, 839],
+      "method": "registered-source-highlight-only",
+      "motion": "trace",
+      "communicationJob": "Land on joint exception ownership when the gap remains."
+    }
+  ],
+  "beats": [
+    {
+      "time": "0.00-0.70",
+      "focus": "complete Field Guide still; no motion"
+    },
+    {
+      "time": "0.70-1.55",
+      "focus": "trace date reliability rule"
+    },
+    {
+      "time": "1.55-3.10",
+      "focus": "travel existing right arrow; trace customer exposure rule"
+    },
+    {
+      "time": "3.10-4.55",
+      "focus": "travel existing down arrow; trace recovery rule"
+    },
+    {
+      "time": "4.55-5.30",
+      "focus": "travel existing left arrow; trace joint exception rule"
+    },
+    {
+      "time": "5.30-6.50",
+      "focus": "complete still; all accents absent"
+    }
+  ],
+  "qa": {
+    "firstFramePixelDiff": 0,
+    "finalFramePixelDiff": 0,
+    "sourceSha256": "6d93e3bf2f8c790bc88664e97d6852fe7ebf585f3325cc553d71fb9fa63304b8",
+    "inspectResetAtSourceResolution": true,
+    "inspectRepresentativeContactSheet": true,
+    "exportGifAndMp4": true
+  }
+}

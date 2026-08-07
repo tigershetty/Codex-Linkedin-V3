@@ -13,8 +13,10 @@ This folder is the active Shetty's Desk creative-intelligence and content-produc
 4. Inspect the current week and active slug in `data/`.
 5. Identify the current stage: signal scan, retrieval, recombination, support, production,
    distribution, or measurement.
-6. Use `references/creative-opportunity-selection.md` before moving a direction into production.
-7. Use `references/creative-engine-v4-recombination.md` and `references/visual-engine-v2.md` before
+6. If a broad supply-chain area needs a reader/work scope, use one bounded window from
+   `references/supply-chain-opportunity-map-v1.md`; do not build a domain taxonomy during a Fast Post.
+7. Use `references/creative-opportunity-selection.md` before moving a direction into production.
+8. Use `references/creative-engine-v4-recombination.md` and `references/visual-engine-v2.md` before
    building or judging a visual.
 
 ## Fast default for ordinary LinkedIn posts
@@ -73,7 +75,10 @@ Internal fixtures may test software. They cannot become public proof or a public
   spreadsheet, documents, and Figma are separate artifact surfaces when exactness is the reader value.
 - Visual signature guardrail: `references/creative-review/signature-system-v2.md`. The Field Guide
   Notebook is a specialist working-reference family, not a replacement for every post family; use
-  `references/v5-field-guide-notebook-production-system.md` only when its admission test passes.
+  `references/v5-field-guide-notebook-production-system.md` only when its admission record selects
+  the family. Field Guides add `field-guide-admission.json`,
+  `field-guide-visual-copy-choreography.json`, and `field-guide-manifest.json`; validate the spec
+  and audit the manifest before any ready/publish handoff.
 - No visual family is an unexamined default. The completed review established a Field Guide grammar
   for saveable working references, while Operating Studio and Cobalt Grid remain historical reference
   material only; use neither unless a future signature decision explicitly reactivates it.

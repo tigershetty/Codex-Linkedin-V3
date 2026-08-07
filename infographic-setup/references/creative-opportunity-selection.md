@@ -8,6 +8,17 @@
 Select work with creative range and audience value without turning every idea into an evidence-heavy
 artifact or forcing a fragile 100-point score.
 
+## Optional upstream scope control
+
+When a starting path is broad—for example, "AI in supply chain" or "procurement"—use
+`supply-chain-opportunity-map-v1.md` before this board to form one bounded scope window: reader and
+work moment, operating object/signal, decision or tension, cognitive job, truth route, and
+out-of-scope boundary.
+
+The map is a navigation and scoping aid, not another score, a topic calendar, or a topic-selection
+machine. It does not change the four valid starting paths below. Once a scope window exists, this
+board still decides whether to explore, build, or park the direction.
+
 ## Four valid starting paths
 
 - **Problem-led:** a planner, buyer, or transformation leader has a recurring decision or friction.
@@ -55,6 +66,7 @@ causal claim merely because the visual is attractive.
 Candidate:
 Route: standard Fast Post Loop / declared flagship
 Starting path: problem-led / pattern-led / evidence-led / timely-led
+Opportunity-map scope ID and boundary (if used):
 Primary reader and work moment:
 Care statement:
 Standard shelf (2-4 saved references) or reference query:

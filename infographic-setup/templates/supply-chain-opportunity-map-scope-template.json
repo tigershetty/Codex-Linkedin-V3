@@ -1,0 +1,30 @@
+{
+  "$schema": "../references/creative-genome/schemas/supply-chain-opportunity-map-scope.schema.json",
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "scope_id": "SCOM-PLACEHOLDER",
+  "starting_path": "problem_led",
+  "selected_nodes": [],
+  "selected_edges": [],
+  "scope_window": {
+    "reader_role": "",
+    "reader_moment": "",
+    "operating_object_or_signal": "",
+    "decision_or_tension": "",
+    "cognitive_job": "recognise",
+    "truth_route": "framework",
+    "reader_payoff": "",
+    "in_scope": "",
+    "out_of_scope": "",
+    "relation_to_show": "none",
+    "boundary_or_exception": ""
+  },
+  "creative_handoff": {
+    "route_candidate": "fast_post_loop",
+    "reason": "",
+    "reference_query_tags": [],
+    "anti_copy_boundary": ""
+  },
+  "source_refs": [],
+  "notes": "This is a blank scope-window template, not a topic score or a domain-map dataset."
+}
