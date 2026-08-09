@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 3,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/3.gif",
+    "sha256": "a11934f6facbe19963ebc6b64cb4ae2fc4aa95fe891e778e93aa6b5a5a225002",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected at full canvas size; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [0, 2500, 4600],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A centered numerical promise spans the middle band; its outcome phrase is isolated inside a lavender outlined capsule while the surrounding wording stays in large plain sans.",
+    "layout": "Five horizontal bands, separated by thin rules, arrange fifteen compact principle cards around the central title bank in changing three-, two-, and four-card groupings.",
+    "reading_order": "Upper card bands → central promise and two flanking cards → lower card bands, with each card readable as a self-contained unit.",
+    "typography": "Oversized geometric sans for the promise, a deliberately rough display accent inside the capsule, bold uppercase card labels, and smaller sans summaries with attribution lines.",
+    "colour": "Lavender, pink, aqua, and pale blue rotate across the cards; a soft translucent lavender halo sits behind the central promise.",
+    "surface": "Near-white ground, fine lavender separators and outlines, lightly elevated rounded cards, restrained diffuse shadows, and a soft blurred central glow.",
+    "modules": "Fifteen repeated cards, each with a named principle, one short interpretation, and an attribution strip.",
+    "density": "Medium-high: the count is large, but the repeated card anatomy keeps each item independently scannable."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 125,
+      "duration_ms_from_gce": 5000
+    },
+    "observed_state_change": "The card field and wording remain fixed in the sampled states while the soft lavender glow behind the central promise shifts and blooms; no principle is activated, reordered, or changed.",
+    "motion_job": "Decorative attention pulse around the promise; the information model remains wholly static.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Scan a high-count set of compact heuristics without losing each item’s core takeaway or attribution.",
+    "argument_shape": "Curated reference atlas with small multiples.",
+    "mechanism": "Use repeated self-contained micro-cards and band-level grouping so a long list becomes a finite spatial reference rather than a wall of text.",
+    "use_condition": "Use only when the items can honestly share one repeated information template, their qualifications remain available, and the count is earned rather than inflated."
+  },
+  "anti_copy_boundary": "Do not reuse the source’s title claim, principle selection, author attributions, band arrangement, card geometry, lavender marker tag, palette assignment, glow treatment, or looping pulse.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The visual asserts that its principles are proven and visibly associates them with named people and dates. Neither those assertions nor the caption pairing are independently verified by this corpus."
+  }
+}

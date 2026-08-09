@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 40,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/40.gif",
+    "sha256": "cb2782ce65d92eb7f8e32c9558eedc708acbadca98e30de2b6ff20ae49ceaf9c",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        3480,
+        6600
+      ],
+      "limitation": "The samples show a very restrained connector treatment, not a frame-by-frame reconstruction of path timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A plain title names a seven-level strategy taxonomy, with the subject isolated in one oversized lavender rough-display tag.",
+    "layout": "Seven full-width horizontal coloured strata are numbered down the left. The centre contains increasing numbers of example chips; a narrow right rail groups the strata under three stated audience-growth outcomes.",
+    "reading_order": "Headline → left-side ordered layer names → scan examples across the same layer → use the right rail to interpret the broad grouping.",
+    "typography": "Large light sans title, rough-display emphasis, bold numbered layer labels, and compact one- or two-line chip labels.",
+    "colour": "Pastel lavender, pink, aqua, blue, tan, green, and purple establish seven strata; the right rail uses pale related panels rather than a new visual family.",
+    "surface": "White background, very light tinted row fields, thin dark outlines, small rounded cards with subtle shadows, and dotted connector routes.",
+    "modules": "Seven hierarchy rows, left rank markers, nested central content-card clusters, dotted relationship paths, and three consequence panels.",
+    "density": "High but ordered: horizontal band membership resolves the large number of example chips before the reader has to parse each label."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 175,
+      "duration_ms_from_gce": 7000
+    },
+    "observed_state_change": "The full taxonomy remains readable in all three samples. Small dots travel or shift along the dotted connector routes between row-level cards; no important category, label, or outcome is introduced only through motion.",
+    "motion_job": "Add a restrained cue that the examples are related across layers, while preserving the taxonomy as a static reference.",
+    "limitation": "The samples show a very restrained connector treatment, not a frame-by-frame reconstruction of path timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Locate a named example in the right level of an ordered taxonomy, then understand the consequence of operating at that level.",
+    "argument_shape": "Seven-level hierarchy with examples and a small outcome grouping.",
+    "mechanism": "Use stable horizontal strata as the primary organising device, place examples directly inside their stratum, and use connection cues only to reveal real relationships between levels.",
+    "use_condition": "Use only for a genuine ordered hierarchy where the vertical position carries a defensible meaning; do not imply growth, speed, or maturity without support."
+  },
+  "anti_copy_boundary": "Do not reuse the seven content-strategy layers, example taxonomy, audience-growth statements, right-side outcome grouping, row colours, dotted connector choreography, title treatment, or rough-display tag.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The source makes explicit assertions about content layers and audience-growth speed. The workbook caption is only numerically associated, and those assertions are not independently verified."
+  }
+}

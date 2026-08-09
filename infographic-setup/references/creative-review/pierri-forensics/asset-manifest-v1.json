@@ -8,8 +8,8 @@
   },
   "summary": {
     "available_asset_count": 53,
-    "reviewed_direct_asset_count": 16,
-    "queued_asset_available_count": 37,
+    "reviewed_direct_asset_count": 53,
+    "queued_asset_available_count": 0,
     "caption_link_status_counts": {
       "asserted_by_numeric_id": 37,
       "asset_only": 15,
@@ -90,9 +90,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-003.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -116,9 +116,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-004.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -142,9 +142,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-005.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -168,9 +168,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-006.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -194,9 +194,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-007.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -220,9 +220,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-008.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -246,9 +246,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-009.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -350,9 +350,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-013.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -376,9 +376,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-014.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -402,9 +402,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-015.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -428,9 +428,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-016.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -454,9 +454,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-017.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -506,9 +506,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-019.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -532,9 +532,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-020.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -558,9 +558,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-021.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -584,9 +584,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-022.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -610,9 +610,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-024.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -636,9 +636,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-025.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -662,9 +662,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-026.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -714,9 +714,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-028.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -740,9 +740,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-029.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -792,9 +792,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-032.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -818,9 +818,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-033.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -844,9 +844,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-034.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -870,9 +870,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-035.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -922,9 +922,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-037.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -948,9 +948,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-038.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -974,9 +974,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-039.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -1000,9 +1000,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-040.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -1078,9 +1078,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-043.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -1104,9 +1104,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-044.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -1156,9 +1156,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-046.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -1182,9 +1182,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-047.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -1208,9 +1208,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-048.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -1234,9 +1234,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-049.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -1260,9 +1260,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-050.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {
@@ -1312,9 +1312,9 @@
         "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
       },
       "forensic_review": {
-        "status": "queued_asset_available",
-        "sidecar_path": null,
-        "source_index_status": "not_yet_inspected"
+        "status": "reviewed_direct_asset",
+        "sidecar_path": "references/creative-review/pierri-forensics/records/PIERRI-052.json",
+        "source_index_status": "asset_hash_bound"
       }
     },
     {

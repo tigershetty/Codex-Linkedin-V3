@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 15,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/15.gif",
+    "sha256": "2c730805c4b4e7676756a88d370dcbd2e9c0c694ab1d895a53e7cb875dda9dce",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected at full canvas size; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [0, 4300, 8200],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A generous two-line title uses two lavender rough-lettered capsules to mark the tool and the promised output.",
+    "layout": "A vertically stacked product explainer moves from a two-way change comparison to three application cards, a horizontal template-chip band, and four numbered how-it-works cards.",
+    "reading_order": "Title and short reassurance → before/after comparison → application cards → template chips → numbered operational steps.",
+    "typography": "Large light sans title, rough accent tags, uppercase band headers, bold card labels, and compact sans bullet/body text.",
+    "colour": "Lavender, pink, aqua, and pale blue form broad horizontal washes and card accents, while white content cards preserve text contrast.",
+    "surface": "White ground, banded pastel gradients, rounded outlined cards, small chips, numbered tiles, and soft shadows.",
+    "modules": "Two comparison cards, three application cards, five template chips, and four numbered operational cards arranged in question-led bands.",
+    "density": "Medium-high: each band answers a different reader question, so the sequence remains navigable despite multiple modules."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 126,
+      "duration_ms_from_gce": 8600
+    },
+    "observed_state_change": "The content hierarchy stays fixed while colour fills sweep through cards and chips, then the near-complete sample catches the board resetting behind a broad wipe. The samples do not establish a change in the product/process logic.",
+    "motion_job": "Progressive emphasis and loop reset around an otherwise static product explainer.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Move from a product’s change promise to use cases, reusable inputs, and a short operating sequence without losing orientation.",
+    "argument_shape": "Benefit-to-use-to-process explainer.",
+    "mechanism": "Stack reader questions in a purposeful order and give each one a distinct, repeatable card grammar rather than presenting all benefits and steps in one table.",
+    "use_condition": "Use only when a product or workflow can honestly be separated into change, use cases, reusable components, and operating steps; remove any band that does not add a decision-relevant answer."
+  },
+  "anti_copy_boundary": "Do not reuse the source tool, output promise, before/after claims, application labels, template categories, pastel band system, lavender marker tags, or fill-wipe loop.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The visual contains tool capability, time, and result assertions. The corpus does not independently verify those claims or the asserted caption association."
+  }
+}

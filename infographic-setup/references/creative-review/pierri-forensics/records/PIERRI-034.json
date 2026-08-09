@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 34,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/34.jpeg",
+    "sha256": "3c1e8043c34743eb1157d1c65e808876f8640e5bcb6ed28b0259e1cd259ab915",
+    "format": "jpeg",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Original local JPEG displayed directly at full-frame review size.",
+    "motion_sampling": {
+      "method": "Not applicable for static JPEG.",
+      "sampled_positions_ms": [],
+      "limitation": "No animation exists in this source asset."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A large monetisation headline makes the central verb a lavender rough-display tag and immediately narrows the stated lens to audience size.",
+    "layout": "A stacked working reference begins with a follower-band by offer-type fit matrix, follows with a price grid, uses one wide inverse time-versus-volume strip, and ends with an audience-band by offer-type advice matrix.",
+    "reading_order": "Title → choose a follower-count row → scan offered models for fit → move down to the stated charging table and time-volume trade-off → return to the matching audience row in the advice matrix.",
+    "typography": "Large open title, hand-rendered emphasis, bold black section bands, compact column headers, and small tabular text designed for reference rather than narrative reading.",
+    "colour": "Each offer column keeps a distinct pastel header and light table fill; black full-width bands break the long reference into four major decision sections.",
+    "surface": "White ground, fine black grid rules, soft pastel cells, rounded gradient bars, directional arrows, and a simple tapered time-versus-volume diagram.",
+    "modules": "Follower-band fit map, five-row price table, one directional trade-off model, and follower-band advice matrix.",
+    "density": "Extremely high: it asks the reader to cross-reference multiple grids, so persistent row labels and repeated offer columns carry most of the cognitive load."
+  },
+  "motion": {
+    "mode": "static",
+    "source_metadata": {
+      "frame_count": null,
+      "duration_ms_from_gce": null
+    },
+    "observed_state_change": "No temporal state: this is a static JPEG source asset.",
+    "motion_job": "Not applicable; the reader needs a stable, inspectable reference surface to cross-check tables and trade-offs.",
+    "limitation": "No animation exists in this source asset."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Choose among several options by first locating their current operating band, then checking feasibility, economics, and next action in the same reference.",
+    "argument_shape": "Segmented decision matrix with supporting economics and advice.",
+    "mechanism": "Keep a single segmentation variable persistent across the major modules, while each module answers one different decision question: fit, indicative economics, trade-off, and action.",
+    "use_condition": "Use only when audience bands, price estimates, offer definitions, and recommendations have clear assumptions and provenance; never present rough commercial heuristics as universal facts."
+  },
+  "anti_copy_boundary": "Do not reuse the monetisation taxonomy, follower thresholds, price figures, offer categories, time-volume diagram, black section bands, pastel table columns, title tag, or claimed advice.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The source contains follower thresholds, pricing figures, feasibility assertions, and recommendations. These are not independently verified and cannot serve as public benchmark data."
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "$schema": "../../references/creative-genome/schemas/supply-chain-knowledge-map.schema.json",
+  "schema_version": "1.0.0",
+  "map_id": "SC-KM-FIXTURE-001",
+  "status": "active",
+  "title": "Supply-Chain Knowledge Map — contract fixture only",
+  "purpose": "A deliberately small fixture that tests branch-card provenance and view selection. It is not a selected post topic or operating recommendation.",
+  "source_registry": [
+    {
+      "source_id": "SRC-OPPORTUNITY-MAP-V1",
+      "basis": "documented_method",
+      "citation": "Supply-Chain Opportunity Map v1",
+      "locator": "references/supply-chain-opportunity-map-v1.md",
+      "source_capsule": {
+        "source_locator": "Supply-Chain Opportunity Map v1 — the scope-window contract",
+        "accessed_on": "2026-08-07",
+        "supported_paraphrase": "The opportunity map narrows one broad area into a bounded reader, work object, decision and claim route; it does not select a public topic or prove an outcome.",
+        "evidence_note_path": "references/supply-chain-opportunity-map-v1.md"
+      },
+      "claim_boundary": "This source defines how the map narrows scope. It does not prove a workflow outcome or select a public topic.",
+      "status": "active",
+      "last_reviewed": "2026-08-07"
+    }
+  ],
+  "nodes": [
+    {
+      "node_id": "N-SIGNAL",
+      "label": "An operating signal (fixture)",
+      "kind": "event",
+      "reader_contexts": [
+        {
+          "role": "Supply-chain practitioner",
+          "moment": "A change appears in a normal work queue."
+        }
+      ],
+      "work_artifacts": ["A normal operating record (fixture)"],
+      "decision_questions": ["What needs to be checked before action?"],
+      "boundaries_and_exceptions": ["The signal alone does not decide the outcome."],
+      "cognitive_jobs": ["orient"],
+      "truth_routes": ["framework"],
+      "creative_retrieval_tags": ["visible distinction", "reader recognition"],
+      "not_a_claim": "This fixture does not claim that a specific signal causes a business outcome.",
+      "evidence_status": "source_backed",
+      "status": "candidate_ready",
+      "source_refs": ["SRC-OPPORTUNITY-MAP-V1"],
+      "claim_boundary": "The node is a navigation object only; it does not prescribe an action.",
+      "last_reviewed": "2026-08-07"
+    },
+    {
+      "node_id": "N-CHECK",
+      "label": "A first check (fixture)",
+      "kind": "decision",
+      "reader_contexts": [
+        {
+          "role": "Supply-chain practitioner",
+          "moment": "They need to explain what they will check first."
+        }
+      ],
+      "work_artifacts": ["A normal operating record (fixture)"],
+      "decision_questions": ["What context makes the signal meaningful?"],
+      "boundaries_and_exceptions": ["The check is not a release or escalation decision."],
+      "cognitive_jobs": ["explain"],
+      "truth_routes": ["framework"],
+      "creative_retrieval_tags": ["conditional decision", "reader recognition"],
+      "not_a_claim": "This fixture does not assert that the check works in every company.",
+      "evidence_status": "source_backed",
+      "status": "candidate_ready",
+      "source_refs": ["SRC-OPPORTUNITY-MAP-V1"],
+      "claim_boundary": "The node only models the need to name a boundary before a decision.",
+      "last_reviewed": "2026-08-07"
+    },
+    {
+      "node_id": "N-SEED",
+      "label": "An unverified research prompt (fixture)",
+      "kind": "tension",
+      "reader_contexts": [
+        {
+          "role": "Supply-chain practitioner",
+          "moment": "They notice a possible question worth researching."
+        }
+      ],
+      "cognitive_jobs": ["prepare"],
+      "truth_routes": ["hypothesis_or_simulation"],
+      "creative_retrieval_tags": ["research prompt", "tension"],
+      "not_a_claim": "This is deliberately an unverified research prompt.",
+      "evidence_status": "research_seed",
+      "status": "navigation_only",
+      "source_refs": [],
+      "claim_boundary": "Do not present this node as a deployed method, result, or recommendation.",
+      "last_reviewed": "2026-08-07"
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "E-SIGNAL-REQUIRES-CHECK",
+      "from_id": "N-SIGNAL",
+      "relation": "requires",
+      "to_id": "N-CHECK",
+      "basis": "documented_method",
+      "evidence_status": "source_backed",
+      "status": "candidate_ready",
+      "source_refs": ["SRC-OPPORTUNITY-MAP-V1"],
+      "claim_boundary": "The edge represents an explanatory scope relation, not an operating law.",
+      "last_reviewed": "2026-08-07"
+    }
+  ],
+  "branches": [
+    {
+      "branch_id": "BR-SCOPE-CHECK",
+      "label": "Signal-to-first-check scope (fixture)",
+      "primary_node_id": "N-SIGNAL",
+      "node_ids": ["N-SIGNAL", "N-CHECK"],
+      "edge_ids": ["E-SIGNAL-REQUIRES-CHECK"],
+      "scope_window": {
+        "reader_role": "Supply-chain practitioner",
+        "reader_moment": "A change appears in a normal work queue and needs context before action.",
+        "operating_object_or_signal": "One operating signal (fixture).",
+        "decision_or_tension": "Name the first check without pretending the signal decides the outcome.",
+        "cognitive_job": "explain",
+        "truth_route": "framework",
+        "reader_payoff": "A clearer way to distinguish a signal from the decision it informs.",
+        "in_scope": "The relation between a signal and a first check.",
+        "out_of_scope": "Any company threshold, action, result, or universal recommendation.",
+        "relation_to_show": "conditional_decision",
+        "boundary_or_exception": "A real action still needs accountable context outside this fixture."
+      },
+      "creative_retrieval_tags": ["conditional decision", "visible distinction", "reader recognition"],
+      "views": {
+        "narrow": {
+          "label": "The signal",
+          "purpose": "Keep the reader focused on the operating object before adding any method.",
+          "node_ids": ["N-SIGNAL"],
+          "edge_ids": []
+        },
+        "deep": {
+          "label": "The first check",
+          "purpose": "Show the minimal relation that gives the signal useful context.",
+          "node_ids": ["N-SIGNAL", "N-CHECK"],
+          "edge_ids": ["E-SIGNAL-REQUIRES-CHECK"]
+        },
+        "wide": {
+          "label": "Declared scope boundary",
+          "purpose": "Keep the complete declared fixture relation visible without expanding into a taxonomy.",
+          "node_ids": ["N-SIGNAL", "N-CHECK"],
+          "edge_ids": ["E-SIGNAL-REQUIRES-CHECK"]
+        }
+      },
+      "evidence_status": "source_backed",
+      "status": "candidate_ready",
+      "source_refs": ["SRC-OPPORTUNITY-MAP-V1"],
+      "claim_boundary": "This branch is an illustrative scope handoff only. It cannot select a topic or claim an operating outcome.",
+      "last_reviewed": "2026-08-07"
+    },
+    {
+      "branch_id": "BR-RESEARCH-SEED",
+      "label": "Research seed only (fixture)",
+      "primary_node_id": "N-SEED",
+      "node_ids": ["N-SEED"],
+      "edge_ids": [],
+      "scope_window": {
+        "reader_role": "Supply-chain practitioner",
+        "reader_moment": "A possible tension appears but has not been researched or validated.",
+        "operating_object_or_signal": "An unverified research prompt (fixture).",
+        "decision_or_tension": "Decide whether research is warranted before making a public framework.",
+        "cognitive_job": "prepare",
+        "truth_route": "hypothesis_or_simulation",
+        "reader_payoff": "A clear label that prevents a hunch being mistaken for an operating method.",
+        "in_scope": "A bounded research prompt only.",
+        "out_of_scope": "Any build-ready content direction, outcome claim, or recommendation.",
+        "relation_to_show": "lookup",
+        "boundary_or_exception": "No conclusion may be drawn until the underlying relationship is sourced or tested."
+      },
+      "creative_retrieval_tags": ["research prompt", "tension"],
+      "views": {
+        "narrow": {
+          "label": "The unverified prompt",
+          "purpose": "Make the uncertainty visible before it becomes an assumption.",
+          "node_ids": ["N-SEED"],
+          "edge_ids": []
+        },
+        "deep": {
+          "label": "The same unverified prompt",
+          "purpose": "There is no deeper relationship until research adds one.",
+          "node_ids": ["N-SEED"],
+          "edge_ids": []
+        },
+        "wide": {
+          "label": "The declared research boundary",
+          "purpose": "Do not expand uncertainty into a false expertise map.",
+          "node_ids": ["N-SEED"],
+          "edge_ids": []
+        }
+      },
+      "evidence_status": "research_seed",
+      "status": "navigation_only",
+      "source_refs": [],
+      "claim_boundary": "This is research-only and cannot enter production as a build-ready card.",
+      "last_reviewed": "2026-08-07"
+    }
+  ],
+  "notes": "Fixture only. It proves the contract can distinguish source-backed scope from a research seed without selecting a content topic."
+}

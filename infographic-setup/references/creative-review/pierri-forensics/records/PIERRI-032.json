@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 32,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/32.jpeg",
+    "sha256": "08a80f0f117c030223dd8e65e12c7c5bdd00282d357c6e07038dabfe503479f8",
+    "format": "jpeg",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Original local JPEG displayed directly at full-frame review size.",
+    "motion_sampling": {
+      "method": "Not applicable for static JPEG.",
+      "sampled_positions_ms": [],
+      "limitation": "No animation exists in this source asset."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A short contrast-led headline puts the desired outcome into one oversized lavender rough-display tag.",
+    "layout": "Two parallel vertical stories compare a bad and a good version of the same high-level event: each begins with a claim card, routes through a cropped analytics screenshot, and ends with a downstream follower-and-revenue outcome card.",
+    "reading_order": "Headline → left bad path from claim to screenshot to outcome → right good path from claim to screenshot to outcome → compare the unequal downstream results.",
+    "typography": "Large lightweight headline, rough display emphasis, bold card headers, simple bullets, and screenshot-native dashboard typography retained inside the proof modules.",
+    "colour": "Pink marks the bad side and lavender the good side; both sit on soft matching vertical background washes, while the analytics screenshots retain green interface chips.",
+    "surface": "White title area, vertically split pastel lower field, oversized rounded claim cards, thin routed arrows, cropped interface proof panels, and low soft shadows.",
+    "modules": "Two matched evidence paths: framing claim, analytic snapshot, then claimed business consequence.",
+    "density": "Low-to-medium: only a few elements appear, but the arrow sequence makes the intended causal contrast explicit."
+  },
+  "motion": {
+    "mode": "static",
+    "source_metadata": {
+      "frame_count": null,
+      "duration_ms_from_gce": null
+    },
+    "observed_state_change": "No temporal state: this is a static JPEG source asset.",
+    "motion_job": "Not applicable; the complete contrast and stated evidence chain must work in one frame.",
+    "limitation": "No animation exists in this source asset."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Understand why the same vanity metric can lead to materially different business relevance.",
+    "argument_shape": "Matched contrast with downstream consequence.",
+    "mechanism": "Hold the top-level event or metric roughly constant, then visibly trace the different context and downstream outcome in parallel so the real decision criterion cannot be missed.",
+    "use_condition": "Use only when both paths have comparable definitions and provenance, and distinguish evidence from inference rather than drawing a causal arrow from an unverified screenshot."
+  },
+  "anti_copy_boundary": "Do not reuse the virality framing, business results, analytics screenshots, bad-versus-good labels, vertical split layout, title tag, colour assignment, or arrow route.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The source visibly states impression, follower, and revenue figures. None is independently verified, and matching numeric ID does not confirm the workbook caption or original post pairing."
+  }
+}

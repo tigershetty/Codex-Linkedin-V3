@@ -67,6 +67,12 @@ remain outside retrieval until asset-specific manual review promotes them. The i
 is deliberately searchable by reader state, desired response and cognitive job—not by a preselected
 supply-chain topic.
 
+The directly reviewed Pierri corpus is a separate information-structure source. It contributes
+high-density diagram mechanics only after an asset-bound review; it does not choose the topic,
+prove platform performance, or override Top-100 attention/utility references. For a Working
+Infographic, use `resource-candidate-card-v1.md` and `creative-composition-packet-v1.md` to assign
+Pierri, Top-100, and caption sources distinct jobs rather than borrowing one post end to end.
+
 ## Creative retrieval for flagships
 
 Use structured fresh retrieval for a flagship LinkedIn post, flagship Substack issue, or website

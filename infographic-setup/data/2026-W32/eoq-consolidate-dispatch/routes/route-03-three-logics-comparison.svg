@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
+  <title id="title">Rough route study: one order, three decisions</title>
+  <desc id="desc">An original low-fidelity comparison object. It separates the quantity, consolidation, and dispatch questions in one purchase review. It is not a final social visual.</desc>
+  <rect width="1080" height="1350" fill="#F1F2EE"/>
+
+  <text x="48" y="70" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#555651">ROUTE STUDY 03 / COMPARISON OBJECT / NOT A FINAL VISUAL</text>
+  <text x="48" y="145" font-family="Arial, sans-serif" font-size="58" font-weight="800" fill="#111214">One order. Three decisions.</text>
+  <text x="48" y="194" font-family="Arial, sans-serif" font-size="24" fill="#555651">The same purchase can require three different kinds of judgement.</text>
+
+  <g font-family="Arial, sans-serif">
+    <!-- Three aligned comparison columns. Identical section heights make the differences scannable. -->
+    <g transform="translate(48 246)">
+      <rect width="320" height="905" rx="14" fill="#FCFCF8" stroke="#111214" stroke-width="3"/>
+      <path d="M14 0H306Q320 0 320 14V134H0V14Q0 0 14 0Z" fill="#F8D5CE"/>
+      <text x="24" y="35" font-size="15" font-weight="800" letter-spacing="1.5" fill="#A23B2B">QUANTITY</text>
+      <text x="24" y="83" font-size="36" font-weight="800" fill="#111214">How much?</text>
+      <path d="M24 105C76 81 132 126 216 92" fill="none" stroke="#D9492F" stroke-width="4"/>
+
+      <text x="24" y="161" font-size="14" font-weight="800" letter-spacing="1.25" fill="#A23B2B">QUESTION</text>
+      <text x="24" y="198" font-size="22" font-weight="800" fill="#111214">What quantity should</text>
+      <text x="24" y="225" font-size="22" font-weight="800" fill="#111214">the system carry?</text>
+      <line x2="320" y1="260" y2="260" stroke="#C9CBC5" stroke-width="2"/>
+
+      <text x="24" y="291" font-size="14" font-weight="800" letter-spacing="1.25" fill="#A23B2B">STRONGEST INPUTS</text>
+      <text x="24" y="324" font-size="18" fill="#111214">Demand rate</text>
+      <text x="24" y="350" font-size="18" fill="#111214">Order / setup cost</text>
+      <text x="24" y="376" font-size="18" fill="#111214">Holding exposure + MOQ</text>
+      <line x2="320" y1="408" y2="408" stroke="#C9CBC5" stroke-width="2"/>
+
+      <text x="24" y="439" font-size="14" font-weight="800" letter-spacing="1.25" fill="#A23B2B">WHAT IT OPTIMISES</text>
+      <text x="24" y="476" font-size="20" font-weight="700" fill="#A23B2B">Inventory ↔ order-cost</text>
+      <text x="24" y="502" font-size="20" font-weight="700" fill="#A23B2B">trade-off</text>
+      <line x2="320" y1="530" y2="530" stroke="#C9CBC5" stroke-width="2"/>
+
+      <text x="24" y="561" font-size="14" font-weight="800" letter-spacing="1.25" fill="#A23B2B">FALSE SHORTCUT</text>
+      <text x="24" y="598" font-size="20" font-weight="800" fill="#111214">“EOQ says it can wait.”</text>
+      <text x="24" y="628" font-size="17" fill="#555651">EOQ does not answer that.</text>
+      <line x2="320" y1="664" y2="664" stroke="#C9CBC5" stroke-width="2"/>
+
+      <text x="24" y="695" font-size="14" font-weight="800" letter-spacing="1.25" fill="#A23B2B">USEFUL OUTPUT</text>
+      <text x="24" y="736" font-size="24" font-weight="800" fill="#A23B2B">Order / run size</text>
+      <text x="24" y="770" font-size="17" fill="#555651">An explicit quantity model.</text>
+    </g>
+
+    <g transform="translate(380 246)">
+      <rect width="320" height="905" rx="14" fill="#FCFCF8" stroke="#111214" stroke-width="3"/>
+      <path d="M14 0H306Q320 0 320 14V134H0V14Q0 0 14 0Z" fill="#D5ECE8"/>
+      <text x="24" y="35" font-size="15" font-weight="800" letter-spacing="1.5" fill="#08766F">CONSOLIDATE</text>
+      <text x="24" y="83" font-size="36" font-weight="800" fill="#111214">Can it wait?</text>
+      <rect x="24" y="102" width="132" height="13" rx="6.5" fill="#0D8D86"/>
+      <rect x="163" y="102" width="38" height="13" rx="6.5" fill="#9DD8D1"/>
+
+      <text x="24" y="161" font-size="14" font-weight="800" letter-spacing="1.25" fill="#08766F">QUESTION</text>
+      <text x="24" y="198" font-size="22" font-weight="800" fill="#111214">Is the wait worth</text>
+      <text x="24" y="225" font-size="22" font-weight="800" fill="#111214">the logistics upside?</text>
+      <line x2="320" y1="260" y2="260" stroke="#C9CBC5" stroke-width="2"/>
+
+      <text x="24" y="291" font-size="14" font-weight="800" letter-spacing="1.25" fill="#08766F">STRONGEST INPUTS</text>
+      <text x="24" y="324" font-size="18" fill="#111214">Compatible demand</text>
+      <text x="24" y="350" font-size="18" fill="#111214">Rate / handling effect</text>
+      <text x="24" y="376" font-size="18" fill="#111214">Dwell time + load position</text>
+      <line x2="320" y1="408" y2="408" stroke="#C9CBC5" stroke-width="2"/>
+
+      <text x="24" y="439" font-size="14" font-weight="800" letter-spacing="1.25" fill="#08766F">WHAT IT OPTIMISES</text>
+      <text x="24" y="476" font-size="20" font-weight="700" fill="#08766F">Transport / handling /</text>
+      <text x="24" y="502" font-size="20" font-weight="700" fill="#08766F">wait trade-off</text>
+      <line x2="320" y1="530" y2="530" stroke="#C9CBC5" stroke-width="2"/>
+
+      <text x="24" y="561" font-size="14" font-weight="800" letter-spacing="1.25" fill="#08766F">FALSE SHORTCUT</text>
+      <text x="24" y="598" font-size="20" font-weight="800" fill="#111214">“The rate is lower.”</text>
+      <text x="24" y="628" font-size="17" fill="#555651">Not automatically lower total cost.</text>
+      <line x2="320" y1="664" y2="664" stroke="#C9CBC5" stroke-width="2"/>
+
+      <text x="24" y="695" font-size="14" font-weight="800" letter-spacing="1.25" fill="#08766F">USEFUL OUTPUT</text>
+      <text x="24" y="736" font-size="24" font-weight="800" fill="#08766F">Wait / combine /</text>
+      <text x="24" y="765" font-size="24" font-weight="800" fill="#08766F">release</text>
+    </g>
+
+    <g transform="translate(712 246)">
+      <rect width="320" height="905" rx="14" fill="#FCFCF8" stroke="#111214" stroke-width="3"/>
+      <path d="M14 0H306Q320 0 320 14V134H0V14Q0 0 14 0Z" fill="#F5EAB3"/>
+      <text x="24" y="35" font-size="15" font-weight="800" letter-spacing="1.5" fill="#806900">DISPATCH</text>
+      <text x="24" y="83" font-size="36" font-weight="800" fill="#111214">When leave?</text>
+      <line x1="24" x2="208" y1="108" y2="108" stroke="#111214" stroke-width="4"/>
+      <circle cx="150" cy="108" r="10" fill="#E4A72C"/>
+
+      <text x="24" y="161" font-size="14" font-weight="800" letter-spacing="1.25" fill="#806900">QUESTION</text>
+      <text x="24" y="198" font-size="22" font-weight="800" fill="#111214">What is the latest safe</text>
+      <text x="24" y="225" font-size="22" font-weight="800" fill="#111214">release for the promise?</text>
+      <line x2="320" y1="260" y2="260" stroke="#C9CBC5" stroke-width="2"/>
+
+      <text x="24" y="291" font-size="14" font-weight="800" letter-spacing="1.25" fill="#806900">STRONGEST INPUTS</text>
+      <text x="24" y="324" font-size="18" fill="#111214">Need-by / promise</text>
+      <text x="24" y="350" font-size="18" fill="#111214">Available supply</text>
+      <text x="24" y="376" font-size="18" fill="#111214">Transit + reliability</text>
+      <line x2="320" y1="408" y2="408" stroke="#C9CBC5" stroke-width="2"/>
+
+      <text x="24" y="439" font-size="14" font-weight="800" letter-spacing="1.25" fill="#806900">WHAT IT OPTIMISES</text>
+      <text x="24" y="476" font-size="20" font-weight="700" fill="#806900">Customer-service</text>
+      <text x="24" y="502" font-size="20" font-weight="700" fill="#806900">feasibility</text>
+      <line x2="320" y1="530" y2="530" stroke="#C9CBC5" stroke-width="2"/>
+
+      <text x="24" y="561" font-size="14" font-weight="800" letter-spacing="1.25" fill="#806900">FALSE SHORTCUT</text>
+      <text x="24" y="598" font-size="20" font-weight="800" fill="#111214">“Supplier-ready.”</text>
+      <text x="24" y="628" font-size="17" fill="#555651">That is not customer-safe.</text>
+      <line x2="320" y1="664" y2="664" stroke="#C9CBC5" stroke-width="2"/>
+
+      <text x="24" y="695" font-size="14" font-weight="800" letter-spacing="1.25" fill="#806900">USEFUL OUTPUT</text>
+      <text x="24" y="736" font-size="24" font-weight="800" fill="#806900">Latest safe</text>
+      <text x="24" y="765" font-size="24" font-weight="800" fill="#806900">dispatch</text>
+    </g>
+  </g>
+
+  <rect x="48" y="1183" width="984" height="96" rx="14" fill="#111214"/>
+  <text x="76" y="1222" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#F7F5EF">EOQ can inform quantity.</text>
+  <text x="76" y="1255" font-family="Arial, sans-serif" font-size="20" fill="#F7F5EF">It does not, by itself, decide whether to wait or when to dispatch.</text>
+  <text x="48" y="1320" font-family="Arial, sans-serif" font-size="16" fill="#555651">Framework only: use local data and assumptions before making a numerical or customer-facing decision.</text>
+</svg>

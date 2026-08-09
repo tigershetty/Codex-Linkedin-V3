@@ -1,0 +1,85 @@
+{
+  "$schema": "../../../references/creative-genome/schemas/resource-candidate-card.schema.json",
+  "schema_version": "1.0.0",
+  "status": "parked",
+  "candidate_id": "RC-2026-W32-SUPPLIER-DATE-CONTROL",
+  "reader_contract": {
+    "reader": "Planner, buyer, KAM, or supply-chain manager",
+    "exact_work_moment": "A supplier confirmation changes after a customer date has already been discussed.",
+    "reader_language": "Has this supplier signal actually changed the customer promise?",
+    "broad_bridge": "A broad reader can recognise the mistake of treating a new input as an automatic customer decision."
+  },
+  "problem_signal": {
+    "observed_problem": "The current prototype is based on Tiger's proposed customer-first operating sequence, not on a documented public pain sample, case, or deployed use case.",
+    "source_records": [
+      {
+        "source_id": "TS-2026-W32-SUPPLIER-DATE",
+        "source_type": "tiger_source",
+        "location": "tiger-source.md",
+        "use": "Defines the internal customer-first proposed method and ownership boundary.",
+        "limitation": "It is an approved internal judgment record, not public evidence that the exact framework is used or produces an outcome."
+      }
+    ],
+    "confidence": "tiger_judgment",
+    "unknowns": [
+      "Whether the exact tension is sufficiently widespread and urgent for a broad LinkedIn resource.",
+      "Which real inputs, thresholds, decision rights, and exception patterns make the object useful rather than merely plausible.",
+      "Whether a planner, buyer, KAM, or leader is the primary reader for one shared graphic."
+    ]
+  },
+  "immediate_handle": {
+    "reader_can_do": "Separate a changed supplier date from a customer-promise decision and ask for need-by, credible scenario, and recovery context.",
+    "before_after_difference": "The reader gets a proposed discussion order, not a validated decision aid with actual operating thresholds.",
+    "not_solved": "It cannot set an accurate customer date, freight threshold, allocation rule, or escalation decision for a real company."
+  },
+  "useful_angle": {
+    "familiar_version": "A generic escalation checklist for delayed supplier dates.",
+    "specific_difference": "Customer need-by is deliberately treated as the governing condition before supplier signal or recovery options.",
+    "reframe_if_generic": "Research one externally supported micro-problem with named inputs and an observable decision consequence before trying another supplier-date object."
+  },
+  "density_inventory": [
+    {
+      "unit": "Customer need-by, current promise, and priority/allocation context",
+      "uncertainty_removed": "Which customer condition is actually being protected.",
+      "support_route": "Tiger-proposed framework logic only; no public operating standard selected.",
+      "public_status": "not_public_ready"
+    },
+    {
+      "unit": "Best/base/worst supplier-date scenario",
+      "uncertainty_removed": "Whether a credible scenario can miss need-by.",
+      "support_route": "Requires a documented scenario method or clearly labelled illustrative case.",
+      "public_status": "not_public_ready"
+    },
+    {
+      "unit": "Recovery test: stock, alternative source, split delivery, or freight",
+      "uncertainty_removed": "What could close a gap before the customer commitment changes.",
+      "support_route": "Requires real input availability, cost/lead-time assumptions, and decision ownership; current labels are too generic.",
+      "public_status": "not_public_ready"
+    }
+  ],
+  "claim_route": {
+    "mode": "tiger_judgment",
+    "public_wording_boundary": "Do not publish this as a deployed control, performance result, or universal best practice.",
+    "required_support": [
+      "External problem/use-case research before revival.",
+      "A documented method or transparent illustrative data scenario for any detailed public mechanism.",
+      "A source-bound reader/value review before publication."
+    ]
+  },
+  "market_scan": {
+    "status": "not_started",
+    "finding": "No lightweight pain, saturation, or use-case scan was completed before the original Figma card.",
+    "references": []
+  },
+  "knowledge_map": {
+    "branch_id": "SC-KM-SUPPLIER-CONFIRMATION-CUSTOMER-PROMISE",
+    "scope_window_path": "",
+    "branch_status": "research_seed"
+  },
+  "decision": {
+    "outcome": "park",
+    "reason": "The card is a polished internal process board rather than a source-selected, decision-specific resource object. Its working detail is too generic and its primary reader is too broad.",
+    "next_step": "Retain as a rejected control. Do not polish or animate it. Re-enter this territory only through a new, externally supported Resource Candidate Card."
+  },
+  "notes": "This record preserves the learning from the rejected prototype; it is not an admission record for a future post."
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 46,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/46.gif",
+    "sha256": "a66ba7a3eb4d372baf1dbf929c053ab15b045859dc8882303409c37e36cf57b0",
+    "format": "gif",
+    "canvas": {
+      "width": 800,
+      "height": 1000
+    }
+  },
+  "caption_link": {
+    "status": "asset_only",
+    "association_confidence": "no_caption_supplied",
+    "caption_available": false,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        2000,
+        3800
+      ],
+      "limitation": "The samples establish moving waypoint positions within the fixed catalogue, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A compact black headline and small subtitle introduce a catalogue of thirteen ways to express the same simple three-step framework.",
+    "layout": "Thirteen numbered, equal-sized tiles form a 4-4-5 gallery. Each tile uses a different circular, layered, table-like, or connector configuration while preserving the same abstract three-step labels.",
+    "reading_order": "Title and premise → scan the numbered tile gallery from left to right and top to bottom → compare which geometry makes the same logic easiest to see.",
+    "typography": "Simple light sans title and subtitle; very small neutral labels inside diagrams; discreet tile numbers in the upper corners.",
+    "colour": "A rotating set of pastel lavender, pink, aqua, blue, and mint tile grounds; dark fine-line diagrams and pale white/grey layered objects.",
+    "surface": "Thirteen flat framed samples, each with thin outlines, pale depth/shadow on circular forms, and very little chrome outside the tiles.",
+    "modules": "One catalogue header plus thirteen small multiples that hold constant the underlying three-step content while changing the visual grammar.",
+    "density": "High at thumbnail scale but intentionally index-like: detail belongs inside each small multiple, not in one long explanatory paragraph."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 101,
+      "duration_ms_from_gce": 4040
+    },
+    "observed_state_change": "All thirteen small multiples are present in each sample. Small circular waypoint markers change position around arcs, rings, stacked forms, and connector endpoints; the catalogue itself remains fixed and readable.",
+    "motion_job": "Suggest that the same conceptual route can travel through several diagram grammars without forcing the reader to wait for the catalogue to become usable.",
+    "limitation": "The samples establish moving waypoint positions within the fixed catalogue, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Compare several possible visual grammars for the same underlying relationship before selecting the clearest one.",
+    "argument_shape": "Small-multiple visual-language catalogue with a constant abstract input.",
+    "mechanism": "Hold the conceptual payload constant across a bounded set of miniatures, vary one representational decision at a time, and number the alternatives for reference in later discussion.",
+    "use_condition": "Use when the reader benefits from choosing a representation and every small multiple tests a real visual grammar; do not build a decorative template dump."
+  },
+  "anti_copy_boundary": "Do not reuse the one-framework-to-thirteen concept, three-step labels, 4-4-5 tile catalogue, circular mini-diagram designs, exact pastel tiling, title wording, or waypoint motion.",
+  "claim_boundary": {
+    "public_claim_status": "no_performance_claim_in_asset",
+    "note": "No matching caption was supplied. The asset is a visual-language catalogue and contains no native performance metric; it does not validate any outcome from choosing one diagram over another."
+  }
+}

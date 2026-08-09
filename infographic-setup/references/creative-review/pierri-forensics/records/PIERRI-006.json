@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 6,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/6.gif",
+    "sha256": "e53d7661b3248439dc9158c4c64853a6ed877fe169ec65a4890c9c33cab77bb2",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected at full canvas size; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [0, 3520, 6640],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A central numerical phrase is held in a lavender rough-lettered capsule, with the rest of the title in large plain sans beneath it.",
+    "layout": "Eleven varied-size principle cards form a loose radial catalogue around a large grey circular centre, rather than a linear list or strict grid.",
+    "reading_order": "Central idea and title → nearby cards around the circle → progressively outer cards, with size and placement creating a loose clockwise scan.",
+    "typography": "Large title sans, one rough display accent, bold card headers, compact source-name chips, and smaller explanatory copy.",
+    "colour": "Lavender, pink, aqua, and pale blue cards alternate around a neutral grey circular centre; a translucent diagonal beam occasionally crosses the board.",
+    "surface": "Near-white ground, thin dark outlines, softly shaded central disc, gently raised cards, and limited shadow depth.",
+    "modules": "Eleven principle cards with different aspect ratios, each pairing a rule title, an origin/source line, and a compact implication.",
+    "density": "Medium-high: varied card sizes create a curated collection, but the central anchor prevents the items from reading as unrelated stickers."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 176,
+      "duration_ms_from_gce": 7040
+    },
+    "observed_state_change": "The sampled intermediate frame shows a broad wipe/occlusion crossing the fixed board, while the near-complete frame restores the same card surround; no rule is activated, reordered, or transformed.",
+    "motion_job": "Attention reset and loop transition, not a semantic explanation of the radial catalogue.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Browse a recognisable set of peer ideas that all point back to one shared central concept.",
+    "argument_shape": "Radial catalogue around a single anchor.",
+    "mechanism": "Use a central anchor with repeated perimeter modules when every item has a direct, non-sequential relationship to the same core idea.",
+    "use_condition": "Use only when the hub-and-spoke relationship is real; do not use a radial arrangement to disguise an ordered process, hierarchy, or causal chain."
+  },
+  "anti_copy_boundary": "Do not reuse the source’s law selection, author/date attributions, radial card geometry, circular centre, palette, rough title tag, or full-board wipe treatment.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The visual makes historical and explanatory assertions about named laws and their origins. The corpus does not independently verify those claims or the asserted caption pairing."
+  }
+}

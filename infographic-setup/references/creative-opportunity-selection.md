@@ -103,3 +103,14 @@ Park or reframe only when one of these remains true after exploration:
 Build a template, playbook, or tool only when the underlying tension recurs across the saved library,
 market/search signals, practitioner responses, or multiple high-utility posts. A resource must add
 return value; it is never attached merely to manufacture a lead-capture CTA.
+
+## Working Infographic admission
+
+When the proposed output is a high-density visual resource, this board hands off to
+`resource-candidate-card-v1.md` before any Figma or visual production. The card records the
+micro-problem, immediate handle, density inventory, evidence/claim route, and a lightweight market
+scan. A `build` decision then hands off to `creative-composition-packet-v1.md`, which uses separate
+Pierri, Top-100, and caption source roles to make three distinct information objects.
+
+This extra route applies to resource graphics only. It must not become a bureaucratic gate for a
+timely observation, relatable recognition post, career thought, or lighter point of view.

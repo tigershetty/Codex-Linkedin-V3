@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "status": "internal_prototype",
+  "status": "rejected_control_prototype",
   "route": "working_infographic",
   "reader_work_moment": "A planner, buyer, KAM, or supply-chain manager receives a changed supplier date and needs to decide whether it has become a customer-facing exception.",
   "spatial_thesis": "One incoming date-change ticket is first assessed against the customer need-by, current promise and allocation context it could affect; it then tests credible supplier exposure and recovery. The current customer date remains held until a credible miss remains after recovery and reaches one joint-exception gate.",
@@ -23,13 +23,13 @@
   "reference_mechanisms": [
     {
       "reference_id": "PIERRI-027",
-      "review_status": "manual_forensic_review",
+      "review_status": "reviewed_direct_asset",
       "mechanism": "a visible condition changes the next move rather than leaving the reader with a list of checks",
       "anti_copy_boundary": "No source palette, title treatment, selection-tree geometry, wording, or animation choreography is used."
     },
     {
       "reference_id": "PIERRI-045",
-      "review_status": "manual_forensic_review",
+      "review_status": "reviewed_direct_asset",
       "mechanism": "small decision units remain attached to one coherent information object and reward a deep read",
       "anti_copy_boundary": "No source matrix, row/column composition, language, or surface styling is used."
     }

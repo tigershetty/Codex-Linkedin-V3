@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 19,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/19.gif",
+    "sha256": "635b6e35086bb91c0530c23912cc1372db747efdee0bcdf7549ed4c8cab9ef82",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        5960,
+        9880
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A large offer-design promise leaves most words in a light sans but turns the easy-to-sell qualifier into two oversized lavender rough-display tags.",
+    "layout": "A central tapered comparison field is split into four stacked layers—problem, results, buying, and delivery—with horizontal left/right trade-off arrows, a simple easy-to-hard polarity at the top, and three example cards at the bottom.",
+    "reading_order": "Promise → easy-versus-hard polarity → read the central layers bottom-to-top while comparing the left and right ends of each arrow → example offer cards.",
+    "typography": "Very large lightweight headline, hand-rendered emphasis inside rounded tags, bold layer labels, and compact paired criteria aligned to arrow lines.",
+    "colour": "Lavender dominates the promise and delivery layer; pink, aqua, and pale blue separate the remaining layers; the hard side is a deep desaturated purple.",
+    "surface": "White page, a fine dark rounded outer frame, thin horizontal arrows, translucent gradient-filled trapezoid, raised rounded labels, and diffuse grey shadows.",
+    "modules": "One polarity scale, four decision layers crossed with paired trade-offs, and three concrete example cards.",
+    "density": "High but directional: each horizontal line supplies one contrast and the tapered hierarchy gives the reader a reliable vertical route."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 136,
+      "duration_ms_from_gce": 11920
+    },
+    "observed_state_change": "Sampled states preserve the full offer-comparison structure while black and white markers travel along opposing horizontal arrows and the bottom example pointer changes its target; the completed frame returns to the same readable reference.",
+    "motion_job": "Make the static trade-offs feel like positions on an easy-to-hard continuum without making the reader infer a different underlying model.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Assess why one offer is easier or harder to buy by seeing several interdependent trade-offs together.",
+    "argument_shape": "Layered polarity map with examples.",
+    "mechanism": "Put a bounded set of causal or decision-relevant dimensions on shared two-ended lines, then group those dimensions into the stages where the reader can act on them.",
+    "use_condition": "Use only when both ends of every continuum are meaningful, non-overlapping, and based on a defensible operating distinction rather than decorative opposites."
+  },
+  "anti_copy_boundary": "Do not reuse the offer framework, easy/hard claims, tapered four-layer geometry, example statements, arrow-marker motion, rough title tags, colour sequence, or label treatment.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The asset makes comparative statements about selling difficulty and examples. Its caption is paired only by numeric ID and no underlying evidence is supplied."
+  }
+}

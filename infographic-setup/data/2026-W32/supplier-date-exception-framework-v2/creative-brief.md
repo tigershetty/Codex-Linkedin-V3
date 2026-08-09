@@ -1,6 +1,7 @@
 # Working Infographic Brief — Supplier-date promise-control card V5
 
-**Status:** selected internal prototype; not approved for publication.
+**Status:** rejected control prototype; retained only to record why the prior route is not fit for
+publication. Do not revise, animate, or use it as a visual-production starting point.
 
 **Reader and exact work moment:** A planner, buyer, KAM, or supply-chain manager has received a
 changed supplier date and needs to decide whether it has become a customer-facing exception.
@@ -29,9 +30,9 @@ scope, and an invitation to discuss the weakest gate.
 **Claim boundary:** Tiger-proposed internal decision structure; no performance, cost, delivery, or
 deployment outcome claim.
 
-**Rendering route:** Figma-native exact social visual; optional semantic-state motion only after a
-static review. V5 uses an original promise-control card rather than the V2/V3/V4 process-card,
-route, or worksheet comparison.
+**Rendering route:** historical Figma-native exploration only. This brief is not a current V5
+production route; the next source-backed candidate must begin with a new Resource Candidate Card
+and three visibly different rough objects.
 
 **Reference mechanism and anti-copy boundary:** borrow only the resource-graphic mechanism from
 Pierri reviews `027` and `045`: a visible condition changes the next move, and deep-use detail

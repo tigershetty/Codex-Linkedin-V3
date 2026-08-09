@@ -1,166 +1,233 @@
-# Vincent Pierri Corpus Analysis v2 — Actual Visual Mechanisms, Bounded Evidence
+# Vincent Pierri Corpus Analysis v2 — Completed Direct-Asset Synthesis
 
 **Status:** active creative-reference supplement
-
 **Date:** 2026-08-07
+**Purpose:** make the complete user-supplied local Pierri corpus retrievable by *reader job and
+information relationship*, without mistaking a creative reference library for a benchmark,
+performance study, or a brand template.
 
-**Purpose:** extract reusable *editorial and information-design mechanisms* from actual local
-assets without mistaking a creator corpus for performance evidence or a visual template.
+This is an aggregate synthesis of the direct, source-hash-bound records in
+[`pierri-forensics/`](pierri-forensics/README.md). Each record is the primary evidence for its
+asset. This document separates what the reviewed files visibly contain from the production method
+we infer from them.
 
-## Evidence standard and present coverage
+## Evidence status — direct review is not post-performance proof
 
-The raw folder contains 53 locally available assets. This analysis is grounded in **16 direct,
-asset-bound reviews** (`1, 2, 10, 11, 12, 18, 27, 30, 36, 41, 42, 45, 51, 53, 54, 55`): five static
-JPEGs and eleven GIFs. Every GIF review includes start, material-intermediate, and near-complete
-source-frame samples; every record binds observations to the original asset path and SHA-256.
+### Directly established from the source index and completed sidecars
 
-The remaining **37 local assets are explicitly queued**. They are available for future direct
-review, but are not represented as forensic observations and cannot silently inform a
-high-confidence route. See the [asset-bound forensic workspace](pierri-forensics/README.md) and
-run its validator before use.
+| Measure | Direct result | Boundary |
+|---|---:|---|
+| Locally supplied media assets | 53 | IDs `1–55`, excluding `23` and `31`, which have no local media asset. |
+| Complete direct-asset sidecars | **53 / 53** | Every available asset has a source-hash-bound record with visual anatomy, reader job, motion review, anti-copy boundary, and claim boundary. |
+| GIF assets | 39 | Every GIF has source-bound samples at start, a material intermediate state, and a near-complete state. This is not frame-by-frame playback analysis. |
+| Static JPEG assets | 14 | Every JPEG was reviewed as a complete static information object. |
+| Caption association asserted by matching numeric ID only | 37 | The supplied workbook does not supply original post URLs, dates, or media linkage. |
+| Known visual/caption mismatch | 1 (`PIERRI-002`) | The numeric match is explicitly blocked from becoming a post pairing. |
+| Asset-only source records | 15 | No supplied caption exists for those assets. |
+| Records with a performance-verified claim | **0** | The validator rejects such a claim; no visual or caption association is promoted into a performance fact. |
 
-| Evidence status | Count | What it supports | What it does not support |
-|---|---:|---|---|
-| Directly reviewed local asset | 16 | Observed composition, type, color, spatial logic, and sampled GIF state changes | Original post URL/date, native performance, causal effect, or verified caption pairing |
-| Local asset queued for review | 37 | Availability only | Any visual inference beyond the existing index metadata |
-| Workbook caption by matching numeric ID | 8 reviewed assets | A possible contextual retrieval clue | A verified original caption-to-asset association |
-| Known mismatch | Asset 2 | A block against auto-pairing | A reliable caption context for that visual |
-| Asset-only reviewed item | 7 | Direct visual analysis | Caption context or native post provenance |
+The source corpus is an intentionally curated positive reference collection. It can show that a
+mechanism exists in a directly viewed asset; it cannot establish that the mechanism caused reach,
+saves, leads, revenue, or any other LinkedIn outcome.
 
-The corpus remains an intentionally curated positive reference set, not a random sample or a
-causal LinkedIn study.
+### Evidence limits that remain active
 
-## The actual visual engine
+- A local source asset can be directly reviewed without being linked to its original public post.
+- A numerical, causal, commercial, testimonial, or personal claim visible inside a reference asset
+  is the source creator's claim, not Shetty's Desk evidence.
+- A GIF's sampled states establish a visible change, not its exact timing, platform autoplay,
+  compression behaviour, or engagement effect.
+- The sidecars capture a source creator's authored work for retrieval. They are not permission to
+  reproduce its copy, art direction, screenshots, examples, colour system, or commercial framing.
 
-The high-value observation is not a color palette, a handwritten word, or animation alone. The
-source assets repeatedly construct a **working information object**:
+## Direct corpus observations
+
+### 1. The corpus is a library of working information objects, not one “infographic style”
+
+Every direct record names a reader job and an argument shape. Across the corpus the reader is
+being helped to do one of a small number of concrete things:
+
+- **compare** alternatives against stable criteria;
+- **locate** an item in a map, hierarchy, or spectrum;
+- **select** a route from a condition or a changing input;
+- **follow** a sequence, dependency, or operational path;
+- **apply** a formula, prompt, diagnostic, or repeatable method;
+- **inspect** a claim, evidence specimen, controlled variation, or stated boundary.
+
+The recurring value is therefore not “pastel information cards.” It is a graphic that gives the
+reader a usable spatial operation. In the completed records, an image carries one actual relation:
+membership, order, trade-off, shared criteria, containment, path, input-to-output change, or
+evidence-to-claim linkage.
+
+### 2. The main geometry changes with the argument
+
+The table below is a **retrieval shelf**, not a rigid taxonomy. It groups completed direct records
+by their primary observed relation; a record can carry secondary relations too.
+
+| Retrieval shelf | Direct-review records | What the graphic lets a reader do | Admission condition |
+|---|---|---|---|
+| Ordered route / progression | `001, 005, 013, 015, 016, 021, 026, 028, 036, 037, 045, 055` | Follow a sequence, see a phase, or connect steps to implementation detail | The order, dependency, or trigger must be real. |
+| Comparison / decision surface | `007, 009, 010, 011, 012, 019, 020, 025, 029, 032, 034, 035, 038, 041, 044, 050` | Compare like with like, self-locate, or see an explicit trade-off | Definitions, units, criteria, and time windows must be comparable. |
+| Taxonomy / formula / selection library | `003, 006, 017, 018, 022, 027, 030, 040, 042, 046, 049, 052, 054` | Browse a bounded set, retrieve one entry, or choose a visual/action grammar | Categories, examples, or selection variables must be meaningful—not a decorative list. |
+| System / dependency / state map | `002, 008, 024, 039, 043, 051, 053` | Understand interconnected parts, nested membership, or what changes with one state choice | Connections, hierarchy, and state coupling must represent an actual system. |
+| Evidence / artefact / controlled-test display | `004, 014, 033, 047, 048` | Inspect a place-based value, controlled visual difference, source artefact, or stated outcome evidence | Sources, scope, method, and limitations must be visible or linked where a factual claim is made. |
+
+The implication is important: a table, spectrum, process map, ring system, arc, route, or visual
+experiment is a claim about how the material relates. It cannot be selected merely because it
+looks polished.
+
+### 3. Density comes from a stable reading route, not from card volume
+
+Direct reviews show three recurring ways dense material remains navigable:
+
+| Observed device | Direct examples | Reader benefit |
+|---|---|---|
+| Repeated comparable unit | `001, 007, 010–012, 025, 029, 034, 038, 050` | Learn one row/column grammar once, then scan changes rather than re-decode each item. |
+| Dominant navigational spine | `005, 013, 016, 021, 026, 037, 045, 055` | Know where to look next: a path, stage spine, shared input/output flow, or aligned phase stack. |
+| One overview plus an inspectable deep layer | `018, 024, 039, 043, 047, 049, 053` | Move between a summary/control view and specific examples, questions, modules, or annotations. |
+
+This leads to a narrow, useful design standard: a dense page is only justified when its
+micro-units remove uncertainty, preserve a necessary comparison, or let the reader take an action.
+More labels are not automatically more useful.
+
+### 4. Typography, surface, and colour are observed navigation aids—not brand skin to copy
+
+The records repeatedly describe large/small type contrast, calm light grounds, dark structural
+rules, limited accent fields, compact labels, repeated tokens, and lightly raised panels. These are
+observations of how the source makes a dense page scannable; they are not a directive to inherit
+its lavender rough-display labels, soft 3D cylinders, gradient washes, moving dots, or card
+geometry.
+
+What transfers to a new system:
+
+- distinguish the promise, structural label, action/detail, and caveat before a reader studies the
+  entire page;
+- use colour for phase, alternative, owner, state, or another named variable—not generic visual
+  variety;
+- repeat a micro-unit where repetition aids comparison, while reserving visual differences for a
+  genuine difference in the argument;
+- allow a single calm ground and one dominant relation to carry density; illustration, texture, or
+  dimensionality must pay for its space with explanatory work.
+
+### 5. GIF use splits into three different jobs
+
+All 39 source GIFs retain a readable final information state in the reviewed samples. Their
+observed motion jobs are not one thing. The following grouping is an **inference from the
+sidecars' motion descriptions**, included to support retrieval—not a claim about a creator's intent
+or performance.
+
+| Derived motion job | Direct-record examples | What changes |
+|---|---|---|
+| Construct or reveal an information object | `012, 013, 014, 018, 026, 029, 036, 037, 042, 045, 048, 050, 055` | A route, formula, stack, curve, evidence specimen, or repeated mapping becomes inspectable while the final still stays useful. |
+| Demonstrate a relationship or state change | `005, 016, 019, 021, 022, 024, 027, 038, 051, 054` | A position travels, filters narrow a space, an input changes a structure, an option changes a specimen, or a technique shows its before/after. |
+| Pace attention or guide an existing route | `002, 003, 006–008, 015, 017, 020, 025, 028, 030, 039, 040, 043, 046, 047` | A wipe, glow, marker, highlight, or low-stakes movement directs attention without becoming necessary to understand the logic. |
+
+The production rule derived from this distinction is deliberately strict:
+
+> Motion earns admission only if it completes: **“The reader understands ___ because this state
+> changes into ___.”**
+
+If that sentence cannot be completed, the visual should remain a high-quality still. A travelling
+dot on a fixed poster is an attention cue, not a semantic animation system.
+
+### 6. Quantitative and causal graphics need a stricter truth boundary
+
+Direct records include maps, time series, comparison tables, economics grids, controlled visual
+experiments, analytics screenshots, and outcome cards. They also explicitly preserve the fact that
+those source claims are not independently verified. The transfer rule is not “avoid numbers.” It is
+to use numerical or causal geometry only when the new post can retain its own:
+
+- source or provenance;
+- scope, unit, date/window, and denominator;
+- comparison basis or method;
+- limitation, uncertainty, or exception where that changes a decision.
+
+A framework can be clear and useful without manufactured outcome data. A claim of performance,
+cost, customer impact, causality, or external result needs proportionate evidence.
+
+## Derived method — useful hypothesis, not an observed performance law
+
+The direct records support the following **working hypothesis** for original Shetty's Desk visual
+frameworks:
 
 ```text
-one recognisable outcome or decision
-  → one dominant relational structure
-  → dense, repeatable micro-units
-  → one reliable reading route
-  → an inspectable boundary, contrast, or use condition
+recognisable reader tension
+  → one question or decision
+  → one truth-bearing relation
+  → repeated information units that answer it
+  → a visible boundary, caveat, or use condition
+  → an independently useful final still
 ```
 
-The graphic earns attention by letting someone do something mentally: compare, select, locate,
-sequence, map, or diagnose. It is not merely a polished title over decorative cards.
+This is a production method inferred from the complete corpus. It does **not** establish that a
+specific hook, colour, GIF, save rate, word count, or “infographic” label will improve LinkedIn
+distribution.
 
-### 1. A large promise opens the door; the structure does the work
+### What to preserve
 
-Every direct review has a 0–3 second entrance: an oversized plain-language outcome and one visibly
-distinct phrase. In the source, the distinct phrase is commonly a rough handwritten word in a
-rounded lavender object. That treatment is a source signature, **not** a Shetty’s Desk default.
+1. **Start with the reader's operation.** Define what they can compare, decide, locate, test,
+   explain, or reuse after seeing the post.
+2. **Choose geometry after the relation.** Use a comparison surface for comparable alternatives, a
+   route for real order, a map for membership/network, and a selector for an actual state change.
+3. **Make the visual a working object.** The 3-second promise, 10-second logic, and 30-second
+   practical use should all be present without a caption having to rescue the image.
+4. **Give the caption a different job.** The caption should add context, source boundary, applied
+   example, stance, or discussion question—not narrate every visible cell.
+5. **Treat motion as a second version of the argument.** The animated state must preserve object
+   identity and resolve into the same usable still, rather than sit on top of it as decoration.
 
-The transferable mechanism is narrower: give the reader a single semantic object that names the
-stakes, variable, or decision. It might be a route marker, date token, exception stamp, evidence
-label, threshold, or ownership marker—chosen by the actual argument, not pasted on every title.
+### What to reject
 
-### 2. High density is carried by a real relation, not a card wall
+- a title plus a generic grid of advice cards;
+- decorative 2.5D material with no relationship-bearing job;
+- a “resource” that is only a long list with no selection, comparison, or reading route;
+- source-style numerical proof, screenshots, testimonials, price claims, or success language with
+  no new provenance;
+- fixed Pierri-derived defaults such as handwritten lavender word-tags, white/pastel card boards,
+  cylinders, dotted leaders, moving balls, or rounded box arrangements;
+- using this corpus to pre-select supply-chain topics before a real reader tension and truth mode
+  are known.
 
-The reviewed assets use different dominant structures because their arguments differ:
+## Creative-retrieval guide for V5
 
-| Direct review | Dominant relation | Why it holds density together | Reusable only when… |
+Use a record as a mechanism reference only after a content opportunity has passed its own reader
+and claim gate. The table below says what can transfer from a source mechanism; it does not assign
+topics to it.
+
+| When the new content needs… | Retrieve direct records such as… | Build an original answer around… | Do not use it if… |
 |---|---|---|---|
-| `PIERRI-001` | grouped progression | phases turn 13 actions into a route | order and phase membership are real |
-| `PIERRI-010`, `011`, `012` | repeated-criteria comparison | shared rows make alternatives inspectable | definitions, units, and denominators are comparable |
-| `PIERRI-018`, `042` | formula library | category → formula → example repeats | examples are original, attributed, or explicitly illustrative |
-| `PIERRI-027` | conditional selection tree | one input routes to shape choices | the selection variable reflects actual logic |
-| `PIERRI-030` | spectrum taxonomy | a continuum prevents a list from feeling arbitrary | a meaningful continuum exists |
-| `PIERRI-036`, `053`, `055` | nested/layered dependencies | one physical object anchors detail | the dependency or hierarchy is true |
-| `PIERRI-041` | mirrored causal comparison | assumptions, evidence, and consequence line up | credible evidence supports the causal chain |
-| `PIERRI-045` | process-to-matrix bridge | stages remain visible while practical rows add depth | every row genuinely applies across stages |
-| `PIERRI-051` | selector with stable specimen | one variable changes a consistent system | a controlled state comparison is the reader value |
-| `PIERRI-054` | technique catalog with live specimens | each label is paired with an observable change | motion is being taught, not gratuitously added |
+| A defensible comparison | `007, 010–012, 029, 038, 050` | Common definition, shared row criteria, honest exceptions, and one decision implied by the comparison | Values, scopes, or units are not comparable. |
+| A staged operating route | `001, 013, 021, 037, 045, 055` | A real trigger, sequence, owner, exception, and output at each meaningful stage | The idea is actually a taxonomy or a set of independent options. |
+| A hierarchy or system map | `002, 024, 039, 040, 043, 053` | Actual membership, dependency, and the few cross-links that change interpretation | The map only disguises a list. |
+| A selection or diagnosis tool | `016, 027, 035, 051, 052` | A defensible input variable, diagnostic rule, and a clear next action | The conditions are arbitrary or simply encode aesthetic preference. |
+| A formula or reusable reference | `018, 042, 049` | Original/attributed examples, an invariant, variation, and a boundary for misuse | Examples would be fabricated proof or need more context than an image can hold. |
+| A claim, test, or practical evidence display | `004, 014, 044, 048` | Real data/artefact, scope, method, and the difference between observation and inference | The intended conclusion outruns the evidence. |
+| A semantic animation | `013, 016, 021, 027, 036, 037, 045, 051, 054, 055` | One named state transition and the exact stable end-state that a reader can save | The only purpose is movement, polish, or a loop. |
 
-**Creative guardrail:** a visual family is selected *after* the relationship is known. A table,
-stack, map, spectrum, decision tree, curve, or scene is not interchangeable decoration.
+## Complete direct-review coverage map
 
-### 3. One page supports three reading depths
+These groups make all **53** sidecars discoverable without pretending they are mutually exclusive
+visual genres. The full anatomy, exact sampling positions, source hash, and anti-copy boundary live
+in the corresponding `pierri-forensics/records/PIERRI-###.json` file.
 
-The most useful reviewed images work at three depths:
-
-| Reader moment | What the visual provides |
+| Primary retrieval group | Complete reviewed record IDs |
 |---|---|
-| **Glance** | A clear promise and a visible organizing object |
-| **Scan** | A reading route that answers “where do I look next?” |
-| **Use** | A formula, distinction, question, or comparison that can be applied, saved, or discussed |
+| Ordered route / progression / assembly | `001, 005, 013, 015, 016, 021, 026, 028, 036, 037, 045, 055` |
+| Comparison / self-location / decision | `007, 009, 010, 011, 012, 019, 020, 025, 029, 032, 034, 035, 038, 041, 044, 050` |
+| Taxonomy / prompt / formula / technique library | `003, 006, 017, 018, 022, 027, 030, 040, 042, 046, 049, 052, 054` |
+| System / nested relationship / configurable state | `002, 008, 024, 039, 043, 051, 053` |
+| Evidence, data, artefact, or annotation | `004, 014, 033, 047, 048` |
 
-That is the real standard for density. More labels alone are not density; each micro-unit must
-remove uncertainty, make a choice, or preserve needed context.
+## Update and validation rule
 
-### 4. Typography and color are navigation infrastructure
+When a local source asset changes or a new one is supplied:
 
-Observed source traits include large/small type contrast, near-white grounds, thin dark rules,
-softly raised modules, and 2–4 recurring pastels. These should not be copied as brand skin.
-
-What transfers:
-
-- A reader should distinguish promise, structural label, actionable detail, and caveat without
-  reading every word.
-- Color should map to a meaningful variable—phase, alternative, state, or ownership—and carry that
-  meaning consistently through the visual.
-- Repeated micro-units should be visually regular enough to scan, but not so uniform that genuine
-  differences disappear.
-- A high-density visual benefits from one calm ground and one dominant structure. Additional
-  texture, 3D, iconography, or illustration must contribute to the relation, not compete with it.
-
-### 5. Motion is a semantic state transition, not a “GIF effect”
-
-All eleven directly reviewed GIFs retain a usable static end state. The meaningful sampled motions
-fall into these jobs:
-
-| Motion job | Asset-bound examples | What changes |
-|---|---|---|
-| **Assemble a dependency** | `036`, `045`, `055` | a stack/pipeline/system constructs itself while the surrounding reference stays anchored |
-| **Show one input changing the output** | `027`, `051` | part-count or style selector changes the visible structure/state |
-| **Reveal repeated mappings** | `012`, `018`, `042` | formula/example rows, emphasis, or comparison marks build in a stable grid |
-| **Trace an existing route** | `030` | markers travel through a spectrum/taxonomy that already makes sense as a still |
-| **Demonstrate a micro-technique** | `054` | each tile shows the precise change its label describes |
-
-The lesson is not “animate every framework.” Motion has admission only when it can complete this
-sentence: **“The reader understands ___ because this state changes into ___.”** If the sentence
-cannot be completed, the final should stay still.
-
-## What must not transfer
-
-The corpus has an identifiable authored expression. The following are explicit anti-copy boundaries,
-not compliance caveats:
-
-- do not reuse source titles, category names, hook/formula wording, examples, claims, prices,
-  screenshots, individual layouts, or titles that imply the same commercial result;
-- do not build a permanent visual identity from lavender rounded tags, rough handwriting, soft
-  3D cylinders, orbiting dots, pale gradients, or Pierri’s exact information-board geometry;
-- do not infer that GIFs, saves, “high traction,” “proven,” or a visual form caused outcomes;
-- do not inherit first-person proof or a customer result from the creator into Tiger’s voice;
-- do not create numerical comparisons, business-outcome cards, or analytics screenshots unless
-  their own evidence, scope, and source can be reviewed independently.
-
-The standard is **original operational cartography**: use a fresh supply-chain reader tension and
-the geometry that tells its truth. Preserve the mechanism, not the creator’s authored skin.
-
-## Production implications for V5
-
-1. A high-density Visual Framework is an active route when a reader needs a reusable map,
-   comparison, conditional selection, progression, taxonomy, or system—not when the only idea is
-   “make a polished infographic.”
-2. The graphic begins with a chosen relation. It may have many modules; there is no artificial
-   3–7-module ceiling where the reader’s job genuinely requires more.
-3. Each candidate should be reviewed at **3 seconds** (promise), **10 seconds** (logic), and
-   **30 seconds** (one use case or saved reference value).
-4. Exact typography and geometric logic are part of the reader value, so a selected high-density
-   framework should use a deterministic Figma master. Image generation remains the correct route
-   for scene-led work, not dense typesetting.
-5. Caption and visual have separate jobs. The visual is the working object; the caption supplies
-   tension, context, source/claim boundary, and one conversational invitation. It must not restate
-   every visual cell.
-
-## Review queue and update rule
-
-Complete the remaining 37 local assets in direct-review batches. Do not mass-generate visual
-anatomy from a caption, filename, perceptual heuristic, or a handful of representative assets.
-Each new sidecar must be source-hash-bound, caption-link-bounded, and GIF-sampled where relevant;
-then rebuild the manifest and run:
+1. Rebuild the deterministic corpus index only from the supplied source material.
+2. Inspect the original asset directly; for a GIF, record start, material-intermediate, and
+   near-complete source-frame samples.
+3. Add or revise the source-hash-bound sidecar. Do not infer visual anatomy from captions,
+   filenames, thumbnails, or a neighbouring asset.
+4. Rebuild the manifest and run the validator:
 
 ```bash
 cd infographic-setup
@@ -168,6 +235,5 @@ node scripts/build-pierri-forensics-manifest.mjs
 node scripts/validate-pierri-forensics.mjs
 ```
 
-The detailed observations live in [`pierri-forensics/`](pierri-forensics/README.md). The v1 report
-is retained for its broader source/provenance context; this v2 document is the authoritative
-summary for claims about the reviewed visual corpus.
+The v1 report remains available for broader source/provenance context. This v2 document is the
+active aggregate summary of the completed direct-asset record set.

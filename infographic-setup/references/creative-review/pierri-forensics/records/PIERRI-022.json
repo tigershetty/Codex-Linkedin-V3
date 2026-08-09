@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 22,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/22.gif",
+    "sha256": "eeeb456b7a1d8288e6c3a59ad32d8a926b6cec10f667089a29bb0a822c701880",
+    "format": "gif",
+    "canvas": {
+      "width": 800,
+      "height": 1000
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        1520,
+        2540
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A plain how-to headline promotes the verb animate inside a single lavender rough-display tag, with a short scope note immediately underneath.",
+    "layout": "A four-by-four equal-cell catalogue pairs a terse motion instruction at the top of every pastel tile with a miniature moving specimen underneath.",
+    "reading_order": "Title and scope note → scan tiles left-to-right, top-to-bottom → use each visual specimen to interpret the implementation note.",
+    "typography": "Large editorial sans title, rough display emphasis, then small pragmatic instructions designed to fit within a regular grid.",
+    "colour": "Sixteen soft lavender, pink, blue, aqua, and green tile grounds separate individual techniques without encoding a common data variable.",
+    "surface": "Flat tile fields divided by white gutters, fine line drawings, small 2.5D shapes, translucent overlays, and restrained shadows.",
+    "modules": "Sixteen equal technique cells, each containing one instruction and one animated specimen.",
+    "density": "Medium-high: a browsing catalogue rather than one continuous argument, made retrievable by repeated cell anatomy."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 76,
+      "duration_ms_from_gce": 3040
+    },
+    "observed_state_change": "Across sampled frames, the miniatures independently demonstrate stacking, circle expansion or fading, crop-and-slide movement, colour appearance, shape morphing, bar growth, rotation, highlight passage, resizing, and a dot moving along a route.",
+    "motion_job": "Teach a catalogue of animation behaviours by showing each behaviour in the exact small visual context it changes.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Choose a motion behaviour based on an observable before-and-after, instead of a named effect alone.",
+    "argument_shape": "Technique catalogue with live specimens.",
+    "mechanism": "Give every option an identical retrieval unit: a compact condition or method note plus a visibly changing miniature.",
+    "use_condition": "Use a catalogue only when a reader needs to browse several valid techniques; for a single decision, show the one motion that explains the actual relationship."
+  },
+  "anti_copy_boundary": "Do not reuse the sixteen-technique selection, instruction wording, tile grid, miniatures, pastel palette, rough headline tag, source-tool reference, or any individual animation treatment.",
+  "claim_boundary": {
+    "public_claim_status": "no_performance_claim_in_asset",
+    "note": "The asset demonstrates craft options, not evidence that any animation improves audience outcomes or is appropriate for every information object."
+  }
+}

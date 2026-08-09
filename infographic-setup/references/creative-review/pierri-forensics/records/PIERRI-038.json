@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 38,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/38.gif",
+    "sha256": "27bba3c1df4f2aefd42e8bddf084494915853d71e5986bdd0c0355680e792ad1",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        6000,
+        11520
+      ],
+      "limitation": "The near-end sample falls during a visibly partial reset/fade. Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A broad audience-growth promise gives two selected terms rough-display lavender tags; a short subtitle states that three forms should be distinguished.",
+    "layout": "A three-column comparison table occupies the page. The top row is a shared time-versus-success chart; subsequent rows compare trajectory, content form, strengths, weaknesses, follower motive, audience breadth, commercial use, price scale, and creation method.",
+    "reading_order": "Headline and qualification → the three named columns → shared trajectory chart → compare each row across the same three alternatives.",
+    "typography": "Large light sans title with rough-display emphasis; bold compact column names and row headers; smaller list text and short quotations in the body.",
+    "colour": "Pink, aqua, and lavender establish three persistent column identities over a mostly white grid with black rules.",
+    "surface": "Flat editorial table with thin black cells, a lightly shaded graph area, restrained tinted rows, and no decorative illustration.",
+    "modules": "One three-way comparison system: shared chart, nine labelled row bands, and one animated audience-persona row.",
+    "density": "High and relational: it expects side-by-side scanning, but recurring row alignment lets the reader make comparisons without hunting."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 300,
+      "duration_ms_from_gce": 12000
+    },
+    "observed_state_change": "The opening sample shows the stable comparison grid without the final chart curves or audience-breadth bands. In the material intermediate state, three different trajectory shapes and coloured audience bands have drawn into their shared rows; the near-end sample is visibly fading/resetting instead of introducing another semantic category.",
+    "motion_job": "Make temporal differences and audience-scope differences more noticeable while leaving the comparison matrix readable as a static reference.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Choose among alternatives by comparing the same decision dimensions instead of memorising disconnected descriptions.",
+    "argument_shape": "Three-way comparison matrix with one shared visual variable and repeated verbal criteria.",
+    "mechanism": "Hold each option in a fixed column, use aligned rows for the evaluation criteria, and reserve a small graph or band only for the dimension that benefits from seeing shape over time or scale.",
+    "use_condition": "Use when the alternatives genuinely share a common set of decision criteria; any rates, causal claims, or commercial implications must be supported separately."
+  },
+  "anti_copy_boundary": "Do not reuse the audience-growth subject, three named content categories, exact table rows, trajectory shapes, coloured audience bands, price markers, wording, rough-display tags, or pastel column assignment.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The visual itself makes typological, behavioural, and commercial assertions about content. The workbook caption is only numerically associated, and the asset’s claims are not independently verified."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 35,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/35.jpeg",
+    "sha256": "8200c2460a8c3f63b5f3cd07671d1d5bc3695e7aa55479cb2fe4a62ea5f4e5a3",
+    "format": "jpeg",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Original local JPEG displayed directly at full-frame review size.",
+    "motion_sampling": {
+      "method": "Not applicable for static JPEG.",
+      "sampled_positions_ms": [],
+      "limitation": "No animation exists in this source asset."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A large plain-language question is paired with one oversized quoted, rough-display phrase inside a lavender rounded rectangle.",
+    "layout": "A 2×2 coloured matrix fills most of the page. Cross-axis labels sit on the centre lines; each quadrant contains a short interpretation plus eight fill-in-the-blank prompt pills.",
+    "reading_order": "Headline and one-line setup → the two directional axes → quadrant identity and interpretation → scan the prompt pills inside the relevant quadrant.",
+    "typography": "Light, oversized sans for the sentence-level title; a contrasting rough-display treatment for the highlighted phrase; bold dark quadrant labels and compact sans prompts.",
+    "colour": "Lavender, pink, aqua, and pale blue distinguish the four cells while black type and dark outlines preserve the shared matrix structure.",
+    "surface": "White outer margin; tinted flat cells; thin dark rules; rounded prompt tokens with darker outlines and soft offset shadows.",
+    "modules": "One matrix, four quadrant labels, four interpretive statements, and thirty-two repeated editable prompt starters.",
+    "density": "Very high, but the repeated pill unit and quadrant membership make it browseable as an idea bank rather than a paragraph."
+  },
+  "motion": {
+    "mode": "static",
+    "source_metadata": {
+      "frame_count": null,
+      "duration_ms_from_gce": null
+    },
+    "observed_state_change": "No temporal state: this is a static JPEG source asset.",
+    "motion_job": "Not applicable; the complete matrix must be understandable in one frame.",
+    "limitation": "No animation exists in this source asset."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Find a useful starting point inside a large option set without losing the distinction between the options.",
+    "argument_shape": "Two-variable decision matrix with a reusable prompt library inside each cell.",
+    "mechanism": "Make two genuine dimensions visible first, then give every resulting cell its own reader-facing meaning and a set of consistently formatted candidate moves.",
+    "use_condition": "Use only when two variables create meaningfully different actions and the cell-level examples are genuinely interchangeable starters, not a dressed-up unordered list."
+  },
+  "anti_copy_boundary": "Do not reuse the build-in-public subject, quoted headline cadence, four named quadrants, fill-in-the-blank wording, pastel cell sequence, central axis labels, rough-display tag, or pill geometry.",
+  "claim_boundary": {
+    "public_claim_status": "caption_association_unverified",
+    "note": "The source presents a conceptual prompt framework. A workbook caption exists only through a numeric-ID assertion, and no outcome implied by the framework is independently verified."
+  }
+}

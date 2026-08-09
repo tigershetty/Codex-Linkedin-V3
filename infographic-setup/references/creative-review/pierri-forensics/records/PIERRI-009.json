@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 9,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/9.jpeg",
+    "sha256": "f4080755a6ba90403fa88aba85a306f5b7722555997ae0a6dd0f43dbc9152875",
+    "format": "jpeg",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Original local JPEG displayed directly at full-frame review size.",
+    "motion_sampling": {
+      "method": "Not applicable for static JPEG.",
+      "sampled_positions_ms": [],
+      "limitation": "No animation exists in this source asset."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A large two-line conditional claim introduces the board; two key noun phrases sit in lavender rough-lettered capsules.",
+    "layout": "Two mirrored vertical funnels compare alternative content mixes from top to bottom, with dotted horizontal connectors aligning equivalent stages across the two sides.",
+    "reading_order": "Conditional title and short explanation → left/right scenario headers → corresponding funnel stages top to bottom → cross-scenario dotted connectors.",
+    "typography": "Large light sans headline with rough display emphasis, bold scenario labels, italicised funnel-stage abbreviations, and compact bullet lists.",
+    "colour": "Pink identifies the left scenario and aqua the right; pale vertical gradients support the funnels while black/dark text and dotted rules retain contrast.",
+    "surface": "White background, thin dark rounded border around the title field, lightly shaded conical funnel forms, outlined oval stage caps, and restrained shadows.",
+    "modules": "Two parallel three-stage funnels, each with a stage token, a content role, and compact outcome bullets; dotted connectors make the comparison explicit.",
+    "density": "Medium: each scenario has only three vertically stacked stages, making the conditional contrast legible at a glance."
+  },
+  "motion": {
+    "mode": "static",
+    "source_metadata": {
+      "frame_count": null,
+      "duration_ms_from_gce": null
+    },
+    "observed_state_change": "No temporal state: this is a static JPEG source asset.",
+    "motion_job": "Not applicable; the conditional comparison must work in one frame.",
+    "limitation": "No animation exists in this source asset."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Compare how two scenarios change the mix or sequencing of actions across the same stages.",
+    "argument_shape": "Conditional parallel funnel comparison.",
+    "mechanism": "Hold stage definitions constant across two parallel routes, then use aligned connectors to show exactly where scenario-specific content or action differs.",
+    "use_condition": "Use only when the scenarios are ethically framed, their stages are genuinely comparable, and each funnel expresses a real progression rather than decorative narrowing."
+  },
+  "anti_copy_boundary": "Do not reuse the source’s appearance-based premise, wording, scenario labels, content recommendations, funnel shapes, dotted connectors, pink/aqua pairing, or title tag treatment.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The asset makes behavioural and outcome assertions about content choices. The corpus does not independently verify those claims or the asserted caption association."
+  }
+}

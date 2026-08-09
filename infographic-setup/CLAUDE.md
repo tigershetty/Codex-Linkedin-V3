@@ -122,6 +122,14 @@ Choose a separate exact artifact only when precision is the actual reader value:
 
 Premium 3D/isometric treatment is one available family, not a universal flagship requirement.
 
+For a high-density Working Infographic, do not begin with a topic label, a preset layout, or Figma.
+First validate a `resource-candidate-card.json` against
+`references/resource-candidate-card-v1.md`; then validate a `creative-composition-packet.json`
+against `references/creative-composition-packet-v1.md`. The packet must assign Pierri information
+structure, Top-100 attention/utility, and caption mechanics distinct roles and develop three
+non-isomorphic spatial routes before one route is selected. This is not required for a lighter
+Fast Post or a timely observation.
+
 ## Claim contract
 
 - Do not demand a company case for a correctly attributed framework.

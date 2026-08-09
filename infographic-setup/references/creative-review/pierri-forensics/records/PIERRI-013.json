@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 13,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/13.gif",
+    "sha256": "25adf75c4a6e94fdedc7c40f578dd67b777d30b17179ee0edf772d453d6c327f",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected at full canvas size; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [0, 5260, 10120],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A two-line how-to title reserves lavender rough-lettered capsules for the two operative phrases and leaves the surrounding wording in oversized sans.",
+    "layout": "A vertical four-step instruction rail runs down the left; a large nested elliptical object on the right is the visual result being constructed.",
+    "reading_order": "Title → first instruction → downward arrows through the four instruction cards → corresponding layered object at right.",
+    "typography": "Oversized sans title, rough marker-like accent tags, bold multi-line instruction cards, and sparse directional arrows.",
+    "colour": "Lavender unifies the instruction cards; the right-side object builds through nested lavender, blue, aqua, and pink layers against white.",
+    "surface": "White ground, dark hand-drawn-like outlines, rounded step cards with soft depth shadow, and simple pseudo-3D cylinders/ellipses.",
+    "modules": "Four sequential instruction cards and one four-layer construct that can appear either as flat nested rings or raised stacked cylinders.",
+    "density": "Low-medium: generous whitespace keeps the object transformation and the four-step route easy to follow."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 235,
+      "duration_ms_from_gce": 10520
+    },
+    "observed_state_change": "The opening sample shows the result as flat nested ellipses; the material-intermediate sample raises those layers into a stepped stack while later instruction cards fade, and the near-complete sample catches the loop returning toward its earlier construction state.",
+    "motion_job": "Make the construction relationship visible: flat component layers become a vertically expanded structure as the instructions progress.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Understand how a multi-layer object is assembled, not merely read a list of assembly instructions.",
+    "argument_shape": "Construction sequence with an evolving spatial object.",
+    "mechanism": "Keep the instruction route persistent while the adjacent object changes its actual spatial state from components to assembled structure.",
+    "use_condition": "Use only when movement reveals a real construction, accumulation, containment, or transformation relationship and the final static still remains independently legible."
+  },
+  "anti_copy_boundary": "Do not reuse the source’s animated-funnel lesson, four instruction steps, stacked-cylinder geometry, nested ellipse styling, lavender title capsules, colour layers, or animation sequence.",
+  "claim_boundary": {
+    "public_claim_status": "no_performance_claim_in_asset",
+    "note": "This is an instructional construction visual rather than performance evidence. Its matching workbook caption remains only an asserted numeric association."
+  }
+}

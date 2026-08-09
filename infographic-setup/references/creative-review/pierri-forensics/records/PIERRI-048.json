@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 48,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/48.gif",
+    "sha256": "ab8919632bd5ead323cc166bd3a943c4ed1bf69089622c3942e40a3273ae5aab",
+    "format": "gif",
+    "canvas": {
+      "width": 800,
+      "height": 1000
+    }
+  },
+  "caption_link": {
+    "status": "asset_only",
+    "association_confidence": "no_caption_supplied",
+    "caption_available": false,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        6000,
+        10520
+      ],
+      "limitation": "The source metadata reports a 12,000 ms GIF. The last decoded pre-hold state at 10,520 ms was used for the near-complete sample because frame extraction past that point did not return an additional image; three samples do not establish a complete timing reconstruction."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A large two-line growth-and-revenue claim uses one rough-display lavender tag for the key verb.",
+    "layout": "A single dashboard-like cumulative line chart occupies the upper half, with an explicit before/after annotation across the time axis. Three full-width coloured result bands stack below it.",
+    "reading_order": "Headline → chart title and time range → before/after segmentation on the cumulative curve → read the three summary callouts in order.",
+    "typography": "Large light sans title; rough-display emphasis tag; small dashboard labels; bold numbers/phrases at the start of the result bands followed by lighter explanatory copy.",
+    "colour": "White ground; coral before state, lavender after state, aqua final secondary result; neutral grey dashboard framing and curve.",
+    "surface": "A faux analytics card with thin rounded border and horizontal grid lines, then three broad rounded bands with dark outlines and soft shadows.",
+    "modules": "One cumulative series, two period labels, and three consequence callouts that reduce the chart to claimed takeaways.",
+    "density": "Low-to-moderate: the page deliberately gives one chart and three conclusions large visual weight."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 231,
+      "duration_ms_from_gce": 12000
+    },
+    "observed_state_change": "The initial sample shows the neutral dashboard shell and empty result bands. By the intermediate sample, the before/after labels, coloured cumulative area, and first summary statement are visible. The near-complete sample shows the full coloured series and all three result statements.",
+    "motion_job": "Stage a single claimed before/after story from chart evidence to short conclusions, letting the chart establish the visual context before the callouts arrive.",
+    "limitation": "The source metadata reports a 12,000 ms GIF. The last decoded pre-hold state at 10,520 ms was used for the near-complete sample because frame extraction past that point did not return an additional image; three samples do not establish a complete timing reconstruction."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Understand a time-based before/after claim and immediately see the boundary between observed data and the claimed implications.",
+    "argument_shape": "Single-series time chart plus explicitly separated outcome callouts.",
+    "mechanism": "Lead with a scoped, labelled time series; mark the change boundary directly on it; then distil only the conclusions that the source data, method, and comparison can support.",
+    "use_condition": "Use only with real, traceable data, visible units, dates, scope, method, and limitations. A before/after line alone cannot establish causality."
+  },
+  "anti_copy_boundary": "Do not reuse the follower-and-revenue subject, claimed values, dashboard chart, before/after labels, three-band result stack, title wording, rough-display tag, or pastel treatment.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "No matching caption was supplied. The visual contains concrete follower and newsletter claims presented as a before/after result, but no underlying source, method, scope, or verification accompanies the asset."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 47,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/47.gif",
+    "sha256": "df5cfd0e5273aaf6d3a826e3bb05f376220cc7f5de18b71f82bfbcebedb63356",
+    "format": "gif",
+    "canvas": {
+      "width": 800,
+      "height": 1000
+    }
+  },
+  "caption_link": {
+    "status": "asset_only",
+    "association_confidence": "no_caption_supplied",
+    "caption_available": false,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        2200,
+        4200
+      ],
+      "limitation": "The samples establish the visible guide-to-example relationship and small connector movement, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A large black title and small centred subtitle introduce a practical design guide for a vertical social canvas.",
+    "layout": "A cropped sample infographic occupies the left side. Seven colour-coded guideline cards stack in the right half, and thin dotted leaders bridge individual parts of the sample to the relevant rule card.",
+    "reading_order": "Title and framing → inspect the visual example on the left → trace dotted leaders to a matching rule card → read the short specification and note.",
+    "typography": "Bold sans title, compact sans rule headings, small bullet/text specifications, and brief notes held in each right-side card.",
+    "colour": "Mostly white background with lavender, pink, aqua, blue, mint, pale green, and peach guideline cards; the sample uses related but not identical colour blocks.",
+    "surface": "Clean white workboard, subtly shadowed rounded cards, light outlines, cropped example panel, and fine dotted annotation lines with moving dot endpoints.",
+    "modules": "One source example, seven explanatory cards, several leader lines, and a visible one-to-many mapping between concrete treatment and guideline.",
+    "density": "Moderate-high: the design system becomes legible because the rules are placed outside the example rather than written into it."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 111,
+      "duration_ms_from_gce": 4440
+    },
+    "observed_state_change": "The guide cards and title remain legible across samples. The large example inset begins partially off the left edge, settles into the annotated view, and small dark dots shift along the dotted leaders; the content does not depend on a hidden final reveal.",
+    "motion_job": "Direct the eye from an observed artifact toward the rule that explains it, without replacing the static guide with a motion-only demonstration.",
+    "limitation": "The samples establish the visible guide-to-example relationship and small connector movement, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Understand how a rule applies to a real visual instance rather than memorise a detached checklist.",
+    "argument_shape": "Annotated example paired with an external specification stack.",
+    "mechanism": "Keep the artefact visible as evidence, move the explanation into a separate structured rail, and connect only the important evidence-to-rule relationships with restrained leaders.",
+    "use_condition": "Use when one real example can substantiate several distinct rules. Crop or simplify the example only if the reader can still recognise the feature being explained."
+  },
+  "anti_copy_boundary": "Do not reuse the style-guide subject, seven listed rules, left-example/right-rule layout, exact colour cards, titles, wording, dotted leader layout, or source example art.",
+  "claim_boundary": {
+    "public_claim_status": "no_performance_claim_in_asset",
+    "note": "No matching caption was supplied. The asset presents prescriptive design guidance but no native performance metric or independently verified claim of effectiveness."
+  }
+}

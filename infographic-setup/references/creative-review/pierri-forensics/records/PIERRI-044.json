@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 44,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/44.jpeg",
+    "sha256": "c637d9b56ebaf24fe12326ccdc9d40ecf0e99f7f705d321a460de836f8d8ac80",
+    "format": "jpeg",
+    "canvas": {
+      "width": 800,
+      "height": 1000
+    }
+  },
+  "caption_link": {
+    "status": "asset_only",
+    "association_confidence": "no_caption_supplied",
+    "caption_available": false,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Original local JPEG displayed directly at full-frame review size.",
+    "motion_sampling": {
+      "method": "Not applicable for static JPEG.",
+      "sampled_positions_ms": [],
+      "limitation": "No animation exists in this source asset."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A three-line instructional title isolates two uppercase rough-display phrases in lavender tags, followed by a short statement about using a full colour spectrum.",
+    "layout": "A nine-row controlled comparison: three brightness bands each contain low-, mid-, and high-saturation test strips. The same rainbow colour sequence and overlay text repeat in every strip, with a simple verdict at the far right.",
+    "reading_order": "Headline → brightness section label → compare the three saturation rows within that section → read the concise verdict → repeat for the next brightness level.",
+    "typography": "Light sans title, rough-display emphasised words, bold all-caps section labels, plain row labels, and one consistent sentence rendered directly over every test strip.",
+    "colour": "The controlled variable is a full horizontal rainbow spectrum; brightness and saturation change across rows while the surrounding page remains white and restrained.",
+    "surface": "Rounded spectrum bars with thin black outlines, mild shadows, black or white overlay text, and no illustration beyond the controlled colour experiments.",
+    "modules": "Three brightness sections multiplied by three saturation rows, each with the same colour test, textual overlay, and qualitative verdict.",
+    "density": "Moderate: repetition is intentional because it lets the reader see a visual condition rather than take the conclusion on trust."
+  },
+  "motion": {
+    "mode": "static",
+    "source_metadata": {
+      "frame_count": null,
+      "duration_ms_from_gce": null
+    },
+    "observed_state_change": "No temporal state: this is a static JPEG source asset.",
+    "motion_job": "Not applicable; the controlled comparison is designed to be inspected at the reader's own pace.",
+    "limitation": "No animation exists in this source asset."
+  },
+  "transferable_mechanism": {
+    "reader_job": "See the effect of a variable under controlled changes rather than receive an abstract design rule.",
+    "argument_shape": "Repeated visual experiment across two comparison dimensions.",
+    "mechanism": "Keep the sample, text, and layout constant; vary only the named conditions in a stable grid so the visual difference itself becomes the evidence being discussed.",
+    "use_condition": "Use when the reader can actually inspect a controlled difference. For operational or quantitative claims, label the variables, source the data, and avoid substituting aesthetics for evidence."
+  },
+  "anti_copy_boundary": "Do not reuse the premium-colours subject, rainbow-strip experiment, exact brightness/saturation grid, headline wording, lavender rough-display tags, overlay sentence, verdict labels, or source palette treatment.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "No matching caption was supplied. The asset demonstrates a visual contrast exercise but also states prescriptive colour guidance that is not independently verified here."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 25,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/25.gif",
+    "sha256": "99c5cca58a0bed77aadc8e2b9f555d08dc3a233f7687dea65bff56bd71b5be10",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        4180,
+        7860
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A two-line team-motivation promise makes three operative phrases into large separate lavender rough-display tags.",
+    "layout": "A ten-row comparison table uses stacked cylinder slices as the strategy index on the left, then aligns each row to breakdown, risk-to-watch, and cost columns.",
+    "reading_order": "Headline and scope sentence → headers → scan each numbered strategy row left-to-right from proposed action through warning and cost.",
+    "typography": "Large light sans headline, rough display emphasis, bold column headings, and compact multiline table copy.",
+    "colour": "Lavender structures the strategy column, pink the breakdown column, aqua the caution column, and pale blue the cost column.",
+    "surface": "White ground, thin dark tabular rules, shallow 3D cylinder slices, flat header fields, and a restrained grey shadow beneath the table.",
+    "modules": "Ten repeated strategy rows crossed with three decision-support columns and a cost value.",
+    "density": "Very high: the viewer gets a long-option shortlist, implementation note, caution, and price range in one scan surface."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 105,
+      "duration_ms_from_gce": 8360
+    },
+    "observed_state_change": "The complete table is visible in early and intermediate samples. The near-complete sample shows a broad horizontal shear or crop passing through rows and headings before the source returns to the stable table; no new strategy-to-risk relationship is introduced by the observed motion.",
+    "motion_job": "Add motion energy to a dense reference while leaving the static table responsible for the actual comparison.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Compare many possible interventions without losing the downside or resource commitment attached to each one.",
+    "argument_shape": "Option table with implementation, risk, and cost columns.",
+    "mechanism": "Give every option the same decision-relevant fields and use visual depth only to make the primary option index easy to locate.",
+    "use_condition": "Use only when cost ranges, risks, and intervention descriptions are all defensible and consistently scoped; motion should not conceal a table the reader needs time to inspect."
+  },
+  "anti_copy_boundary": "Do not reuse the team-posting tactics, ten-row roster, cost claims, cylinder-index treatment, four-column layout, rough title tags, pastel headers, or non-semantic distortion motion.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The visible strategy efficacy, cost ranges, and warnings are creator assertions and cannot be used as benchmark evidence without independent support."
+  }
+}

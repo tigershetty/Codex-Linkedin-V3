@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 14,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/14.gif",
+    "sha256": "a56b471028cd883ca6e9412ab7962c566df00074736fe3be12f6cec8cfa68918",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected at full canvas size; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [0, 4000, 7600],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A short case-study headline sits above two large lavender metric cards, with the central question deferred to a long rounded strap at the bottom.",
+    "layout": "A centred time-series panel anchors the page; two spike callouts travel upward to large specimen frames, while the headline/metrics above and explanation strap below frame the evidence.",
+    "reading_order": "Headline → two reported metric cards → time-series spikes and their callout lines → specimen frames → bottom explanation strap.",
+    "typography": "Large light sans headline, heavy black metric text, compact axis/date labels, and rough display emphasis appearing in the animated explanation strap.",
+    "colour": "Lavender is used for metric cards, specimen-frame masks, and outlines; the graph line is teal, allowing the evidence path to differ from the framing colour.",
+    "surface": "White page, a thin dark-lavender panel outline, large masked specimen rectangles, sparse chart grid lines, circular spike targets, and soft shadows.",
+    "modules": "Headline/metric pair, one time-series with two highlighted peaks, two evidence specimens, and one succinct explanatory prompt.",
+    "density": "Medium: a single chart and two linked specimens keep the case-study argument focused rather than overloading it with metrics."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 138,
+      "duration_ms_from_gce": 8000
+    },
+    "observed_state_change": "The opening sample keeps the two specimen frames masked in solid purple; the material-intermediate sample reveals two distinct creative specimens above their corresponding chart peaks and begins writing a method phrase in the lower strap; the near-complete sample is partway through the loop/reset.",
+    "motion_job": "Reveal the proposed evidence behind outcome peaks so the viewer sees a claim, a time-series event, and the underlying artefact as a connected argument.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Understand what observed output coincided with which concrete artefact instead of accepting a naked outcome statistic.",
+    "argument_shape": "Outcome timeline with linked evidence specimens.",
+    "mechanism": "Anchor the story in a dated measurement, mark the relevant events, then reveal the inspectable artefacts associated with those events through direct callouts.",
+    "use_condition": "Use only with permission-backed evidence, stable metric definitions, and a clear distinction between temporal association and demonstrated causation."
+  },
+  "anti_copy_boundary": "Do not reuse the source’s named case, figures, time series, specimen images, chart spikes, metric-card treatment, purple masks, lower strap wording, or reveal sequence.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The visual makes named case-study and percentage-performance claims. The supplied corpus does not independently verify the metrics, the causal implication, the specimen provenance, or the caption association."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "$schema": "../../../references/creative-genome/schemas/resource-candidate-card.schema.json",
+  "schema_version": "1.0.0",
+  "status": "build_ready",
+  "candidate_id": "RC-2026-W32-EOQ-CONSOLIDATE-DISPATCH",
+  "reader_contract": {
+    "reader": "Supply planner, buyer, or logistics practitioner preparing an order or shipment review.",
+    "exact_work_moment": "MOQ or a freight-rate break makes waiting attractive, while an open customer commitment makes the wait risky.",
+    "reader_language": "Am I deciding how much to buy, how long to wait, or when this must leave?",
+    "broad_bridge": "A person outside supply chain can recognise the same mistake: using one convenient number to answer three different decisions."
+  },
+  "problem_signal": {
+    "observed_problem": "EOQ is documented as an inventory model, while consolidation research and freight economics describe context-specific inventory, transport, and service trade-offs. The resulting review can wrongly treat a quantity rule, a consolidation choice, and a customer-service commitment as one calculation.",
+    "source_records": [
+      {
+        "source_id": "SRC-MIT-EOQ",
+        "source_type": "public_research",
+        "location": "references/creative-genome/supply-chain-knowledge-map-v1.json#SRC-MIT-EOQ",
+        "use": "Bounds EOQ as a model of inventory/order quantity with explicit assumptions.",
+        "limitation": "It does not choose a dispatch date or a local consolidation threshold."
+      },
+      {
+        "source_id": "SRC-TUE-CONSOLIDATION",
+        "source_type": "public_research",
+        "location": "references/creative-genome/supply-chain-knowledge-map-v1.json#SRC-TUE-CONSOLIDATION",
+        "use": "Supports the existence of inventory, transport, and service trade-offs in quantity-based consolidation.",
+        "limitation": "Its model is setting-specific and does not produce a universal batch size."
+      },
+      {
+        "source_id": "SRC-FHWA-TRADEOFF",
+        "source_type": "official_guidance",
+        "location": "references/creative-genome/supply-chain-knowledge-map-v1.json#SRC-FHWA-TRADEOFF",
+        "use": "Supports treating transportation, inventory, lot quantity, and customer-service objectives as interrelated logistics costs.",
+        "limitation": "It is a framework, not a current lane, company, or rate benchmark."
+      }
+    ],
+    "confidence": "documented_method",
+    "unknowns": [
+      "No public source supplies this reader's actual demand, holding cost, capacity, freight break, lead time, or customer commitment.",
+      "No universal rule can decide when a specific order should wait or dispatch.",
+      "The public post must not imply that EOQ, MOQ, or a load factor alone protects service."
+    ]
+  },
+  "immediate_handle": {
+    "reader_can_do": "Name which decision is being made before selecting a formula, rate, or shipment action: quantity, consolidation wait, or dispatch commitment.",
+    "before_after_difference": "Instead of defending one convenient number, the reader leaves a review with three input sets and the one unanswered condition that still needs local data.",
+    "not_solved": "The graphic cannot calculate a batch size, freight saving, latest safe dispatch date, or customer commitment without local inputs and an explicit method."
+  },
+  "useful_angle": {
+    "familiar_version": "An EOQ formula explainer or a generic ‘consolidate to save freight’ post.",
+    "specific_difference": "The object shows why those are different questions inside the same operating moment, then gives each question its own inputs, output, and false shortcut.",
+    "reframe_if_generic": "Kill the route if its visual reduces to three labelled cards or presents a rate/quantity recommendation without a source-bound local scenario."
+  },
+  "density_inventory": [
+    {
+      "unit": "Quantity decision: demand rate, order/setup cost, holding exposure, MOQ or pack rounding.",
+      "uncertainty_removed": "What a quantity model is actually allowed to answer.",
+      "support_route": "SRC-MIT-EOQ; local model assumptions required for any calculation.",
+      "public_status": "supported"
+    },
+    {
+      "unit": "Consolidation decision: load opportunity, rate/handling effect, dwell time, and other compatible demand.",
+      "uncertainty_removed": "Whether waiting has a plausible logistics upside worth investigating.",
+      "support_route": "SRC-TUE-CONSOLIDATION and SRC-FHWA-TRADEOFF; local rates and network conditions remain required.",
+      "public_status": "supported"
+    },
+    {
+      "unit": "Dispatch decision: customer need-by, latest safe dispatch, availability, transit time, and reliability.",
+      "uncertainty_removed": "What condition ends the option to keep waiting.",
+      "support_route": "Framework logic with a clearly local service constraint; no threshold is asserted.",
+      "public_status": "framework_logic"
+    },
+    {
+      "unit": "Cross-check: quantity policy, consolidation upside, and service constraint can point in different directions.",
+      "uncertainty_removed": "Why a single answer can be operationally incomplete.",
+      "support_route": "Combined interpretation of the three source capsules, stated as a bounded framework rather than a result.",
+      "public_status": "framework_logic"
+    }
+  ],
+  "claim_route": {
+    "mode": "framework",
+    "public_wording_boundary": "Present this as a decision distinction and a set of inputs to inspect. Do not claim that consolidation saves money, EOQ determines shipment timing, or this framework improves service without a documented local case.",
+    "required_support": [
+      "The three source capsules in the active knowledge map.",
+      "A visible framework boundary on the final visual and caption.",
+      "Actual local data, assumptions, and a reproducible method before publishing a numerical example or recommendation."
+    ]
+  },
+  "market_scan": {
+    "status": "lightweight_reviewed",
+    "finding": "The local creative shelf contains formula-first EOQ explanations and standalone method comparisons. The distinct opportunity is to make the quantity, consolidation, and dispatch decisions visibly non-interchangeable. This is a creative/reference-shelf observation, not a market or performance claim.",
+    "references": [
+      "data/2026-W32/eoq-consolidate-dispatch/market-scan.md",
+      "references/creative-review/top100-forensics/TOP100-020.json",
+      "references/creative-review/top100-forensics/TOP100-096.json",
+      "references/creative-review/pierri-forensics/records/PIERRI-011.json"
+    ]
+  },
+  "knowledge_map": {
+    "branch_id": "SC-KM-BATCH-CONSOLIDATE-DISPATCH",
+    "scope_window_path": "references/creative-genome/supply-chain-knowledge-map-v1.json",
+    "branch_status": "source_backed"
+  },
+  "decision": {
+    "outcome": "build",
+    "reason": "The reader moment is recognisable across planning, purchasing, and logistics; the immediate keep is a usable decision distinction; and the branch has enough source-backed structure to create a framework without inventing a result.",
+    "next_step": "Build three materially different low-fidelity thought objects, then select or kill before Figma production."
+  },
+  "notes": "This is deliberately not an EOQ calculator, a freight-saving promise, or a local shipment recommendation."
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 21,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/21.gif",
+    "sha256": "647ea5128142f7da4115b44b843cb938118aec0f6c6a596c63689ef597f5bec3",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        3500,
+        6500
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A broad weekly-strategy headline uses a large lavender rough-display tag for the key phrase, followed by a one-line flexibility caveat.",
+    "layout": "A three-zone operational map: four content-strategy source cards at left route into a seven-day spine in the middle, while comment and direct-message routines sit as two detailed working panels on the right.",
+    "reading_order": "Headline → left content cards → trace their arrows to named days in the centre → follow the connector spine to commenting and direct-message routines on the right.",
+    "typography": "Large lightweight headline, oversized dark module labels, bold mini-headings, and compact actionable copy inside cards and message examples.",
+    "colour": "Pink tints mark content-strategy source cards, lavender marks the weekly spine, aqua marks commenting, and blue marks direct messages; the split background quietly repeats the same left-to-right grouping.",
+    "surface": "White header over a pale pink-to-aqua work field, black routed connectors with round junction markers, rounded cards, and soft drop shadows.",
+    "modules": "Four content cards, seven day tiles, a comment routine card with examples, and a direct-message routine card with examples.",
+    "density": "Very high: it contains a schedule, source taxonomy, and two support routines, but the connector topology prevents it becoming a flat checklist."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 175,
+      "duration_ms_from_gce": 7000
+    },
+    "observed_state_change": "Sampled frames show coloured junction markers moving along the connector paths and temporary horizontal masking/reveal of day labels and text rows before the full schedule is restored.",
+    "motion_job": "Bring the hidden routing between content, days, commenting, and direct outreach into focus before leaving a static schedule the reader can revisit.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Understand how recurring activities connect across a week rather than treating them as an unprioritised content list.",
+    "argument_shape": "Operational schedule with dependency routes.",
+    "mechanism": "Use a time spine as the stable reference, then draw only the routes that change what happens on a day or feed a supporting routine.",
+    "use_condition": "Use when actions genuinely have schedule or dependency relationships; do not add connector lines merely to make a calendar look more complex."
+  },
+  "anti_copy_boundary": "Do not reuse the weekly posting routine, days, content categories, comment or DM scripts, routed-map geometry, title tags, colour roles, or animated marker behavior.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The frequency, engagement, and direct-message recommendations are visible creator guidance, not verified operating evidence for another audience."
+  }
+}

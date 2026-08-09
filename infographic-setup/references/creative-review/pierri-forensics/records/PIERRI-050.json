@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 50,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/50.gif",
+    "sha256": "97e890f2a6ee195bee68e0e50d75f5836996bd26ec679c650b927b442e3d1c85",
+    "format": "gif",
+    "canvas": {
+      "width": 800,
+      "height": 1000
+    }
+  },
+  "caption_link": {
+    "status": "asset_only",
+    "association_confidence": "no_caption_supplied",
+    "caption_available": false,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        4000,
+        7600
+      ],
+      "limitation": "The near-end sample is in a visibly partial reset/fade. Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A short instructional headline uses an underlined lead-in and one lavender rough-display outcome word, followed by a one-sentence three-kind distinction.",
+    "layout": "A three-column comparison table fills the canvas. Each column has a category header, an upper time-and-success curve, and aligned rows for shelf life, engagement ranges, content traits, how-to-create guidance, best fit, and business effects.",
+    "reading_order": "Headline and framing → category headers → animated trajectory curves → scan each repeated row across the three columns.",
+    "typography": "Light sans title with rough-display emphasis; bold compact row labels; small list text, numerical ranges, and pill-like recommendations inside the table.",
+    "colour": "Pink, aqua, and lavender column identities repeat in the headers, graph areas, recommendation pills, and bottom effect cells against white table cells.",
+    "surface": "Thin black grid, flat tinted bands, hand-drawn underline, line/area curves, rounded outline pills, and very restrained shadowing.",
+    "modules": "One three-way comparison matrix with three curve slots and seven repeated qualitative/quantitative comparison rows.",
+    "density": "High: a reader can use it as an index because every category holds the same question in the same place."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 200,
+      "duration_ms_from_gce": 8000
+    },
+    "observed_state_change": "The opening sample shows the comparison grid and partially empty category headers/graph space. The intermediate sample has revealed category names, an early spike curve, a middle hump, and coloured row fills; by the near-end sample the third long-tail curve and the full category comparison are visible before reset.",
+    "motion_job": "Use temporal curve drawing to make the claimed difference in lifespan/trajectory immediately legible before the reader works through the dense comparison rows.",
+    "limitation": "The near-end sample is in a visibly partial reset/fade. Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Compare several types of an outcome by both their temporal pattern and the practical decisions associated with each type.",
+    "argument_shape": "Shared-metric category comparison with a time-shape row and aligned operational rows.",
+    "mechanism": "Give every category a common chart frame for the one variable that changes over time, then align the same practical questions beneath it so the reader can compare trade-offs without switching visual systems.",
+    "use_condition": "Use only when categories share defensible dimensions and the charted quantities, rates, and business implications are traceable. Do not draw attractive curves to substitute for data."
+  },
+  "anti_copy_boundary": "Do not reuse the virality subject, three category names, exact engagement ranges, curve shapes, table rows, title wording, rough-display tag, pastel columns, or claim about business results.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "No matching caption was supplied. The asset presents specific engagement ranges, behavioural descriptions, and commercial implications without source, method, scope, or independent verification."
+  }
+}

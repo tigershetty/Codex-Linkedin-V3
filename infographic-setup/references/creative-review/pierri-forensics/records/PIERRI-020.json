@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 20,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/20.gif",
+    "sha256": "9cc732d9b9a4dc238fed27689ff5dedc0ad4504ea4f0ab1a174411644e421d41",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1317
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        3040,
+        5580
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A two-line headline asks what people, rather than AI, need to do, with the seven-item quantity held in a wide pastel gradient tag.",
+    "layout": "Seven vertically stacked central barrel-like tiers name work functions. Matching human contribution sits at the left and AI contribution at the right of each tier.",
+    "reading_order": "Headline and scope line → scan one tier at a time across human role, named function, and AI role → continue from strategy through integration.",
+    "typography": "Large open sans headline, bold tier headings, dark sans functional labels, and short paired contribution statements set in aligned side columns.",
+    "colour": "A lavender-to-aqua spectrum progresses down the central stack; the title tag uses a separate pink-to-aqua wash; most supporting text remains black on white.",
+    "surface": "Off-white ground, stacked shallow cylinders with grey rims and soft shadows, lightly tinted side bands, and no dense outer grid.",
+    "modules": "Seven repeating three-part rows: human responsibility, shared content function, and AI capability.",
+    "density": "Medium-high: the same triad repeats seven times, allowing a reader to compare role boundaries rather than decode a new visual grammar per row."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 80,
+      "duration_ms_from_gce": 6080
+    },
+    "observed_state_change": "The sampled intermediate state adds a full-height colour wash behind the rows, brightens the stacked tiers, and brings the paired side statements forward; the near-complete state retains the same seven human/AI mappings.",
+    "motion_job": "Use a shared colour sweep to draw a reader through a repeated human-versus-AI comparison while preserving the final matrix as the usable artifact.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Separate retained human judgement from tool assistance across a complete operating system.",
+    "argument_shape": "Repeated responsibility split by function.",
+    "mechanism": "Hold the function in a stable central column and state the complementary human and tool roles on either side, so the reader can inspect boundaries rather than a generic list of capabilities.",
+    "use_condition": "Use only when the paired responsibilities are concrete enough to guide an actual handoff and the tool-side claims are current and supportable."
+  },
+  "anti_copy_boundary": "Do not reuse the seven content functions, human-versus-AI assertions, stacked-cylinder structure, title phrase, gradient treatment, side-column copy, or motion wash.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The division of human and AI responsibilities is a source framework, not independently verified operational guidance for another domain."
+  }
+}

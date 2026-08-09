@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 33,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/33.jpeg",
+    "sha256": "ce82e7edbc16efff540dbea5ccaa437a0634fe468d8db58a14178dafa27e332d",
+    "format": "jpeg",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Original local JPEG displayed directly at full-frame review size.",
+    "motion_sampling": {
+      "method": "Not applicable for static JPEG.",
+      "sampled_positions_ms": [],
+      "limitation": "No animation exists in this source asset."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A personal commercial-result headline gives the stated customer count its own large lavender rough-display tag, followed by a compact explanation of the claimed distribution approach.",
+    "layout": "Two equal vertical columns separate a carousel asset map from a supporting text-post map. The left column groups numbered slide thumbnails by narrative role; the right column stacks labelled text-post blocks in sequence.",
+    "reading_order": "Claimed result and premise → left carousel sequence from outcome through proof and logistics → right text-post sequence from hook through call to action → understand the two as a connected distribution system.",
+    "typography": "Large thin headline, rough display number phrase, bold section bands, compact narrative labels, and tiny thumbnail facsimiles that act as evidence or retrieval cues rather than fully readable content.",
+    "colour": "Lavender structures the carousel column, pink structures the text-post column, and pale related washes sit behind the repeated module groups.",
+    "surface": "White ground, fine black outer frames, rounded lavender/pink headers, soft shadows, connecting bracket lines, and miniature slide cards in sequence.",
+    "modules": "One left-side four-group carousel blueprint and one right-side six-block promotional text sequence.",
+    "density": "High: a claimed result, a multi-slide asset architecture, and a separate promotion architecture coexist because each column has one repeated reading grammar."
+  },
+  "motion": {
+    "mode": "static",
+    "source_metadata": {
+      "frame_count": null,
+      "duration_ms_from_gce": null
+    },
+    "observed_state_change": "No temporal state: this is a static JPEG source asset.",
+    "motion_job": "Not applicable; the proposed asset-and-distribution system must be inspectable as one still.",
+    "limitation": "No animation exists in this source asset."
+  },
+  "transferable_mechanism": {
+    "reader_job": "See how a durable asset and its repeated promotion can work together, rather than mistaking a single post for the complete system.",
+    "argument_shape": "Paired content architecture and distribution architecture.",
+    "mechanism": "Show the asset sequence and the distribution sequence in parallel, so a reader can distinguish what must be made once from what must be repeated or adapted.",
+    "use_condition": "Use only when the asset thumbnails or source documents are owned, licensed, or sufficiently legible to substantiate the architecture; claimed outcomes require independent evidence."
+  },
+  "anti_copy_boundary": "Do not reuse the claimed customer count, carousel topics, post sequence, source thumbnails, pink-and-lavender two-column system, title treatment, or direct-response language.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The stated customer count, follower and impression claims, and customer-acquisition mechanism appear in the source asset without independently verifiable provenance."
+  }
+}

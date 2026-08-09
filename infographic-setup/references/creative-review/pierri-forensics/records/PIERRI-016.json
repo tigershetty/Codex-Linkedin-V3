@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 16,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/16.gif",
+    "sha256": "69d3f59751abc7522f73abbf203279db1b9c1ffafd2eb9a4a6f19e8a787a6b1e",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected at full canvas size; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [0, 9160, 17920],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A two-line question is punctuated by lavender rough-lettered capsules around the key noun and verb.",
+    "layout": "Five numbered filter cards form a top row; vertical connectors lead into a lower field of large concentric circles whose nested zones show increasingly constrained option spaces.",
+    "reading_order": "Title and five-step promise → filter cards left to right → downward connectors → nested-circle zones from outer field to smallest centre.",
+    "typography": "Large light sans headline, rough display tags, bold card headers, compact explanatory text, small terminal warnings, and labels placed directly inside circle zones.",
+    "colour": "The static board is predominantly white with black circles; during the active state lavender, pink, aqua, blue, and purple selectively activate the five cards and corresponding nested-space regions.",
+    "surface": "Near-white field, simple dark outlines, rounded cards with soft shadow, thin connectors, and expansive concentric-circle geometry.",
+    "modules": "Five sequential filters, five associated connector paths, and a nested containment field whose zones carry candidate labels and a tightly defined centre.",
+    "density": "Medium-high: the upper row gives the reader a clear entry sequence while the lower containment field supplies breadth without a long list."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 199,
+      "duration_ms_from_gce": 18320
+    },
+    "observed_state_change": "The opening and near-complete samples show the full neutral reference layout. The material-intermediate sample activates the five filter cards in different colours and traces them into tinted portions of the nested containment field, making the narrowing relation more explicit before the loop resets.",
+    "motion_job": "Connect successive filters with the shrinking option space they constrain, instead of merely adding a decorative pulse to a list.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "See how a sequence of filters narrows a broad option space to a deliberately specific destination.",
+    "argument_shape": "Sequential filtering into nested containment.",
+    "mechanism": "Place discrete filter decisions in a readable route, then map their combined effect into genuinely nested spaces so the reader can see both sequence and narrowing scope.",
+    "use_condition": "Use only when each step removes or constrains a meaningful subset and the lower spaces are genuinely nested; do not use concentric geometry for unrelated categories."
+  },
+  "anti_copy_boundary": "Do not reuse the source’s niche-finding premise, five filter questions, creator-example labels, concentric-circle composition, card wording, colour activation sequence, lavender title tags, or animation loop.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The visual includes personal scale and business-result assertions alongside its framework. The corpus does not independently verify those claims or the asserted caption association."
+  }
+}

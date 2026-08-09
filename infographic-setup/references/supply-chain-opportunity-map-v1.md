@@ -69,6 +69,23 @@ Allowed relations are deliberately limited: `constrains`, `feeds`, `hands_off_to
 `documented_method`, or an explicitly labelled `hypothesis`. Never draw an association line just
 because two ideas are adjacent in a subject-matter taxonomy.
 
+### Source capsule
+
+A source registry entry used by a `source_backed` branch must carry a complete `source_capsule`:
+
+| Field | Purpose |
+|---|---|
+| `source_locator` | Exact source section, page location or bounded unit being relied on. |
+| `accessed_on` | The real `YYYY-MM-DD` access date. |
+| `supported_paraphrase` | The limited statement the source supports in our own words. |
+| `evidence_note_path` | A local research-note path where the source was assessed with its boundary. |
+
+The validator checks the local note path and every selected source in the branch, including its
+selected nodes and edges. An incomplete capsule is not a minor warning: the branch remains a
+`research_seed` until the source record is repaired. A complete capsule makes a branch eligible for
+Opportunity Selection only; it never turns a source into a proven public claim or a publish-ready
+post.
+
 ### Scope window
 
 The map does not select a topic. It emits one small **scope window** for the existing Opportunity
@@ -87,6 +104,13 @@ Use [the schema](creative-genome/schemas/supply-chain-opportunity-map-scope.sche
 [blank template](../templates/supply-chain-opportunity-map-scope-template.json) only when this
 extra context resolves a genuinely broad starting point. Do not build a dataset before the map has a
 real production use.
+
+The first deliberately small source-backed graph is
+`creative-genome/supply-chain-knowledge-map-v1.json`. It contains three candidate branches only:
+supplier confirmation/customer promise, batch/consolidate/dispatch, and planning-exception policy.
+It is not a domain taxonomy. Use `validate-supply-chain-knowledge-map.mjs` and
+`select-supply-chain-knowledge-map.mjs` to retrieve a narrow/deep/wide scope card; a source-backed
+branch becomes eligible for Creative Opportunity Selection, never automatically build-ready.
 
 From `infographic-setup/`, validate a completed window with:
 

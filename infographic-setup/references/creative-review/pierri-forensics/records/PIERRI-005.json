@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 5,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/5.gif",
+    "sha256": "22f83f6e9fa5353632bf36577b12456aeaebf04b94b27644363ca0bc8bfc3b78",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected at full canvas size; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [0, 8080, 15760],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A large editorial headline names a rise-and-fall pattern, with the central phrase isolated in a lavender rough-lettered capsule.",
+    "layout": "Five tall side-by-side phase columns occupy the upper field; a continuous large wave and a small route marker traverse the lower field, connecting phase-level detail with a single emotional journey.",
+    "reading_order": "Headline → left-to-right phase headers and their duration labels → behavioural bullets → lower wave, marker, and embedded internal monologue.",
+    "typography": "Large light sans mixed with a rough display tag, bold phase/subphase labels, compact bullets, and handwritten-style lower annotations.",
+    "colour": "Lavender, pink, aqua, blue, and muted coral distinguish the five phase columns; the lower wave blends several of those colours as it moves across the sequence.",
+    "surface": "White field, dark outlines, vertical cards with restrained shadows, soft gradient colour in the lower route, and a large rounded curve instead of a conventional axis chart.",
+    "modules": "Five repeated phase cards with duration, a short state label, and behaviour bullets; one continuous lower journey with callouts and a movable marker.",
+    "density": "High but sequenced: repeated columns make the phase detail skimmable while the lower route supplies a single narrative thread."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 292,
+      "duration_ms_from_gce": 16160
+    },
+    "observed_state_change": "The five phase cards stay in place while the large coloured wave/area and its dark marker advance through the lower journey; the sampled midpoint gives the route a visibly different position and emphasis from the opening state.",
+    "motion_job": "Show traversal through a phase journey rather than add a decorative overlay to an otherwise static list.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Recognise a staged journey and locate a current state without reducing the story to a disconnected list of phases.",
+    "argument_shape": "Phase journey with a continuous state route.",
+    "mechanism": "Synchronise discrete phase cards with one continuous path and position marker so categorical stages and lived progression belong to the same reading model.",
+    "use_condition": "Use only when the phases are defensible as a real or explicitly heuristic journey; do not imply inevitability or attach durations without support."
+  },
+  "anti_copy_boundary": "Do not reuse the source’s creator-life-cycle premise, phase names, duration ranges, curve shape, internal-monologue labels, colour sequence, title cadence, or animation loop.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The visual presents a behavioural phase model and time ranges. The supplied corpus does not independently verify either the model, its durations, or the caption association."
+  }
+}

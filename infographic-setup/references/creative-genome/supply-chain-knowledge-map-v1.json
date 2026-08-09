@@ -1,0 +1,196 @@
+{
+  "$schema": "schemas/supply-chain-knowledge-map.schema.json",
+  "schema_version": "1.0.0",
+  "map_id": "SC-KNOWLEDGE-MAP-V1",
+  "status": "active",
+  "title": "Supply-Chain Knowledge Map — first source-backed resource branches",
+  "purpose": "Three small source-backed branches for Resource Candidate Card research. They orient opportunity selection and do not choose a post, prove a result, or prescribe organisation-specific policy.",
+  "source_registry": [
+    {
+      "source_id": "SRC-ORACLE-GOP",
+      "basis": "source_link",
+      "citation": "https://docs.oracle.com/en/cloud/saas/supply-chain-and-manufacturing/26b/fascp/overview-of-global-order-promising.html",
+      "source_capsule": {
+        "source_locator": "Overview of Global Order Promising — overview of promising inputs and alternatives",
+        "accessed_on": "2026-08-07",
+        "supported_paraphrase": "Oracle describes order promising as evaluating requested or promise dates against supply, capacity, lead time, sourcing and alternatives.",
+        "evidence_note_path": "references/research/2026-08-07-supply-chain-resource-opportunity-seeds.md"
+      },
+      "claim_boundary": "Documents a vendor order-promising model, not a universal promise-control policy.",
+      "status": "active",
+      "last_reviewed": "2026-08-07"
+    },
+    {
+      "source_id": "SRC-ORACLE-AVAILABILITY",
+      "basis": "source_link",
+      "citation": "https://docs.oracle.com/en/cloud/saas/supply-chain-and-manufacturing/26b/fascp/determine-how-order-promising-gets-and-estimates-availability.html",
+      "source_capsule": {
+        "source_locator": "Determine How Order Promising Gets and Estimates Availability — expected purchase-order receipts",
+        "accessed_on": "2026-08-07",
+        "supported_paraphrase": "Oracle documents that expected purchase-order receipts can be excluded from availability calculations when their reliability is inadequate.",
+        "evidence_note_path": "references/research/2026-08-07-supply-chain-resource-opportunity-seeds.md"
+      },
+      "claim_boundary": "Documents available-to-promise inputs and unreliable-receipt treatment in Oracle; it does not set a universal reliability threshold.",
+      "status": "active",
+      "last_reviewed": "2026-08-07"
+    },
+    {
+      "source_id": "SRC-APQC-OTD",
+      "basis": "source_link",
+      "citation": "https://www.apqc.org/what-we-do/benchmarking/open-standards-benchmarking/measures/percentage-supplier-time-delivery",
+      "source_capsule": {
+        "source_locator": "Percentage of supplier on-time delivery — measure definition",
+        "accessed_on": "2026-08-07",
+        "supported_paraphrase": "APQC defines supplier on-time delivery as a measurable supplier-performance input; it does not determine a customer order's service outcome by itself.",
+        "evidence_note_path": "references/research/2026-08-07-supply-chain-resource-opportunity-seeds.md"
+      },
+      "claim_boundary": "Defines a supplier OTD measure; it is not proof of downstream customer service in a named situation.",
+      "status": "active",
+      "last_reviewed": "2026-08-07"
+    },
+    {
+      "source_id": "SRC-DELIVERY-DATE-REVIEW",
+      "basis": "source_link",
+      "citation": "https://www.tandfonline.com/doi/full/10.1080/00207543.2022.2057256",
+      "source_capsule": {
+        "source_locator": "Abstract and literature-review scope — engineer-to-order delivery-date setting",
+        "accessed_on": "2026-08-07",
+        "supported_paraphrase": "The reviewed delivery-date-setting literature treats delivery commitments as context-dependent; this source's review scope is engineer-to-order.",
+        "evidence_note_path": "references/research/2026-08-07-supply-chain-resource-opportunity-seeds.md"
+      },
+      "claim_boundary": "Delivery-date-setting review is specific to ETO context and cannot be generalised as a universal policy.",
+      "status": "active",
+      "last_reviewed": "2026-08-07"
+    },
+    {
+      "source_id": "SRC-MIT-EOQ",
+      "basis": "documented_method",
+      "citation": "https://ocw.mit.edu/courses/esd-273j-logistics-and-supply-chain-management-fall-2009/resources/mitesd_273jf09_lec02/",
+      "source_capsule": {
+        "source_locator": "Lecture 2 — economic order quantity model and assumptions",
+        "accessed_on": "2026-08-07",
+        "supported_paraphrase": "MIT course material presents EOQ as an inventory model with explicit assumptions and inputs, not as a complete dispatch or consolidation policy.",
+        "evidence_note_path": "references/research/2026-08-07-supply-chain-resource-opportunity-seeds.md"
+      },
+      "claim_boundary": "EOQ is a model with explicit assumptions, not a complete dispatch or consolidation policy.",
+      "status": "active",
+      "last_reviewed": "2026-08-07"
+    },
+    {
+      "source_id": "SRC-TUE-CONSOLIDATION",
+      "basis": "source_link",
+      "citation": "https://research.tue.nl/en/publications/a-multi-item-multi-echelon-inventory-system-with-quantity-based-o/",
+      "source_capsule": {
+        "source_locator": "Abstract — quantity-based order consolidation in a multi-item, multi-echelon inventory system",
+        "accessed_on": "2026-08-07",
+        "supported_paraphrase": "The study models quantity-based consolidation as a setting-specific trade-off among inventory, transport and service effects; it does not produce a universal batch size.",
+        "evidence_note_path": "references/research/2026-08-07-supply-chain-resource-opportunity-seeds.md"
+      },
+      "claim_boundary": "Quantity-based consolidation evidence is model- and setting-bound; it does not calculate a universal batch size.",
+      "status": "active",
+      "last_reviewed": "2026-08-07"
+    },
+    {
+      "source_id": "SRC-FHWA-TRADEOFF",
+      "basis": "source_link",
+      "citation": "https://ops.fhwa.dot.gov/freight/freight_analysis/econ_methods/microecon_frmwk/sec_2.htm",
+      "source_capsule": {
+        "source_locator": "Section 2 — microeconomic freight-logistics framework",
+        "accessed_on": "2026-08-07",
+        "supported_paraphrase": "FHWA frames freight choices as logistics trade-offs; it does not provide a current company or lane benchmark.",
+        "evidence_note_path": "references/research/2026-08-07-supply-chain-resource-opportunity-seeds.md"
+      },
+      "claim_boundary": "Freight trade-off framework gives context, not a current company or lane benchmark.",
+      "status": "active",
+      "last_reviewed": "2026-08-07"
+    },
+    {
+      "source_id": "SRC-SAP-EXCEPTION-PLANNING",
+      "basis": "source_link",
+      "citation": "https://help.sap.com/docs/SAP_BUSINESS_BYDESIGN/2754875d2d2a403f95e58a41a9c7d6de/2cbc6450722d101496d2ae687ef3c1fb.html",
+      "source_capsule": {
+        "source_locator": "Exception-Based Planning — exception profile and planning-context guidance",
+        "accessed_on": "2026-08-07",
+        "supported_paraphrase": "SAP documents exception-based planning patterns that use defined deviations and contextual drill-down; this is not independent outcome evidence.",
+        "evidence_note_path": "references/research/2026-08-07-supply-chain-resource-opportunity-seeds.md"
+      },
+      "claim_boundary": "Documents an SAP implementation pattern, not independent proof of planning outcomes.",
+      "status": "active",
+      "last_reviewed": "2026-08-07"
+    },
+    {
+      "source_id": "SRC-ORACLE-PLAN-EXCEPTIONS",
+      "basis": "source_link",
+      "citation": "https://docs.oracle.com/en/cloud/saas/supply-chain-and-manufacturing/26b/faurp/overview-of-plan-exceptions.html",
+      "source_capsule": {
+        "source_locator": "Overview of Plan Exceptions — investigate and resolve exceptions",
+        "accessed_on": "2026-08-07",
+        "supported_paraphrase": "Oracle documents plan exceptions as objects that can be prioritised, investigated and resolved; severity and ownership remain organisation-specific.",
+        "evidence_note_path": "references/research/2026-08-07-supply-chain-resource-opportunity-seeds.md"
+      },
+      "claim_boundary": "Documents plan-exception investigation and resolution in Oracle; severity and owner remain organisation-specific.",
+      "status": "active",
+      "last_reviewed": "2026-08-07"
+    },
+    {
+      "source_id": "SRC-ORACLE-CONSTRAINED-EXCEPTIONS",
+      "basis": "source_link",
+      "citation": "https://docs.oracle.com/en/cloud/saas/supply-chain-and-manufacturing/26b/fausp/exceptions-in-a-constrained-supply-plan.html",
+      "source_capsule": {
+        "source_locator": "Exceptions in a Constrained Supply Plan — named exception conditions",
+        "accessed_on": "2026-08-07",
+        "supported_paraphrase": "Oracle documents named exception conditions in constrained supply plans; it does not establish that alerts improve service or workload.",
+        "evidence_note_path": "references/research/2026-08-07-supply-chain-resource-opportunity-seeds.md"
+      },
+      "claim_boundary": "Documents named constrained-plan exceptions; it does not prove alerts improve service or workload.",
+      "status": "active",
+      "last_reviewed": "2026-08-07"
+    },
+    {
+      "source_id": "SRC-SAP-EXCEPTION-RELEASE",
+      "basis": "source_link",
+      "citation": "https://help.sap.com/docs/SAP_SUPPLY_CHAIN_MANAGEMENT/3834c664fddf4fb99bd5e2f8227be9c9/6282efb52aab4e2ea47b6af0f05f25d0.html",
+      "source_capsule": {
+        "source_locator": "Exception-Based Release — release-logic overview",
+        "accessed_on": "2026-08-07",
+        "supported_paraphrase": "SAP documents an exception-based release pattern, while the operational policy and decision rights remain local.",
+        "evidence_note_path": "references/research/2026-08-07-supply-chain-resource-opportunity-seeds.md"
+      },
+      "claim_boundary": "Documents an exception-based release pattern; local policy and decision rights remain local.",
+      "status": "active",
+      "last_reviewed": "2026-08-07"
+    }
+  ],
+  "nodes": [
+    {"node_id":"KM-SUP-PROMISE-RISK","label":"Customer promise at risk","kind":"tension","reader_contexts":[{"role":"Supply planner","moment":"A changed supplier confirmation is received for an open customer order."}],"work_artifacts":["customer order","requested date","promised date"],"decision_questions":["Has a changed supply input actually changed the customer commitment?"],"boundaries_and_exceptions":["Organisation-specific customer communication and escalation ownership are out of scope."],"cognitive_jobs":["diagnose","prepare"],"truth_routes":["operating_method"],"evidence_routes":["Order-promising documentation plus locally defined policy."],"creative_retrieval_tags":["conflicting dates","customer promise","conditional decision"],"not_a_claim":"This does not assert that every changed supplier date creates customer risk.","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-ORACLE-GOP","SRC-DELIVERY-DATE-REVIEW"],"claim_boundary":"Order-promising relationships are source-backed; any local escalation rule needs its own source or an explicitly configurable label.","last_reviewed":"2026-08-07"},
+    {"node_id":"KM-SUP-SUPPLY-INPUT","label":"Supply availability and expected receipt","kind":"work_object","work_artifacts":["supply position","expected PO receipt","lead time"],"decision_questions":["Which supply inputs can inform the promise calculation?"],"cognitive_jobs":["explain","diagnose"],"truth_routes":["operating_method"],"evidence_routes":["Order-promising documentation."],"creative_retrieval_tags":["supply input","receipt","availability"],"not_a_claim":"A receipt date alone is not a customer promise.","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-ORACLE-GOP","SRC-ORACLE-AVAILABILITY"],"claim_boundary":"This captures a system relationship, not a claim that every ERP has the same inputs.","last_reviewed":"2026-08-07"},
+    {"node_id":"KM-SUP-RECEIPT-RELIABILITY","label":"Expected receipt reliability and freshness","kind":"metric","work_artifacts":["expected receipt","supplier confirmation","supplier OTD"],"decision_questions":["Can this expected receipt be trusted enough to inform availability?"],"cognitive_jobs":["diagnose","compare"],"truth_routes":["operating_method","evidence_display"],"evidence_routes":["Availability documentation and a local reliability policy."],"creative_retrieval_tags":["reliability","freshness","supplier date"],"not_a_claim":"No universal reliability threshold is implied.","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-ORACLE-AVAILABILITY","SRC-APQC-OTD"],"claim_boundary":"Supplier OTD is an input metric, not an automatic promise decision.","last_reviewed":"2026-08-07"},
+    {"node_id":"KM-SUP-ALTERNATIVE-SUPPLY","label":"Sourcing and recovery alternatives","kind":"decision","work_artifacts":["sourcing option","capacity","lead time"],"decision_questions":["Can an alternative supply option change the promise position?"],"cognitive_jobs":["choose","prepare"],"truth_routes":["operating_method"],"evidence_routes":["Order-promising documentation plus a local feasibility check."],"creative_retrieval_tags":["recovery","alternative source","supply option"],"not_a_claim":"Alternative sourcing is not assumed feasible, fast, or economical.","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-ORACLE-GOP"],"claim_boundary":"Alternative sourcing is a possible input to promising, not an outcome guarantee.","last_reviewed":"2026-08-07"},
+    {"node_id":"KM-BATCH-DISPATCH-DECISION","label":"Batch versus dispatch decision","kind":"decision","reader_contexts":[{"role":"Buyer or supply planner","moment":"MOQ, freight consolidation and customer service needs conflict."}],"work_artifacts":["order quantity","demand rate","freight quote","service target"],"decision_questions":["When does waiting to consolidate stop being economically or service-wise defensible?"],"boundaries_and_exceptions":["A public framework cannot calculate a local batch size without actual inputs."],"cognitive_jobs":["choose","compare"],"truth_routes":["framework"],"evidence_routes":["EOQ assumptions, consolidation research and organisation-specific input data."],"creative_retrieval_tags":["batch size","consolidation","trade-off"],"not_a_claim":"This does not prescribe a universal order quantity or shipment date.","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-MIT-EOQ","SRC-TUE-CONSOLIDATION","SRC-FHWA-TRADEOFF"],"claim_boundary":"Model relationships are source-backed; any numeric answer needs local inputs and reproducibility.","last_reviewed":"2026-08-07"},
+    {"node_id":"KM-BATCH-INVENTORY","label":"Inventory and waiting exposure","kind":"metric","work_artifacts":["cycle stock","safety stock","order cycle"],"decision_questions":["What inventory or waiting exposure changes when the batch policy changes?"],"cognitive_jobs":["compare","explain"],"truth_routes":["framework"],"evidence_routes":["EOQ method and local inventory assumptions."],"creative_retrieval_tags":["inventory","wait","batch"],"not_a_claim":"Inventory response cannot be inferred without demand, lead-time and policy assumptions.","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-MIT-EOQ","SRC-TUE-CONSOLIDATION"],"claim_boundary":"No stock or service result is claimed from this map.","last_reviewed":"2026-08-07"},
+    {"node_id":"KM-BATCH-TRANSPORT","label":"Transport and handling economics","kind":"metric","work_artifacts":["freight break","handling cost","shipment quantity"],"decision_questions":["Which cost changes with a smaller or more consolidated shipment?"],"cognitive_jobs":["compare","explain"],"truth_routes":["framework"],"evidence_routes":["Consolidation research and local freight data."],"creative_retrieval_tags":["freight","consolidation","cost"],"not_a_claim":"A lower rate does not automatically mean lower total cost.","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-TUE-CONSOLIDATION","SRC-FHWA-TRADEOFF"],"claim_boundary":"External evidence describes trade-offs, not a local freight result.","last_reviewed":"2026-08-07"},
+    {"node_id":"KM-BATCH-SERVICE","label":"Customer-service constraint","kind":"tension","work_artifacts":["need-by date","service target","maximum permissible wait"],"decision_questions":["How long can an order wait before the service condition changes?"],"cognitive_jobs":["choose","diagnose"],"truth_routes":["framework"],"evidence_routes":["Local customer commitment and a clearly stated scenario."],"creative_retrieval_tags":["need-by","service","waiting"],"not_a_claim":"This map has no universal service threshold.","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-TUE-CONSOLIDATION","SRC-FHWA-TRADEOFF"],"claim_boundary":"The service constraint is a local input, not an external benchmark.","last_reviewed":"2026-08-07"},
+    {"node_id":"KM-EXC-PLANNING-SIGNAL","label":"Planning signal or alert","kind":"event","reader_contexts":[{"role":"Planner","moment":"An alert inbox contains more signals than a human can actively investigate."}],"work_artifacts":["exception message","planning dashboard","exception list"],"decision_questions":["Is this a signal to inspect or a material exception that needs an owner?"],"cognitive_jobs":["diagnose","orient"],"truth_routes":["operating_method"],"evidence_routes":["Planning-system exception documentation and local policy."],"creative_retrieval_tags":["planning exception","alert fatigue","triage"],"not_a_claim":"Not every system alert deserves interruption.","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-SAP-EXCEPTION-PLANNING","SRC-ORACLE-PLAN-EXCEPTIONS"],"claim_boundary":"Vendor documentation gives operational patterns, not outcome evidence.","last_reviewed":"2026-08-07"},
+    {"node_id":"KM-EXC-MATERIALITY","label":"Material exception criteria","kind":"decision","work_artifacts":["threshold","horizon","severity","scope"],"decision_questions":["What makes a deviation material enough to require human action?"],"cognitive_jobs":["choose","diagnose"],"truth_routes":["operating_method"],"evidence_routes":["System exception patterns plus organisation-defined materiality."],"creative_retrieval_tags":["materiality","severity","threshold"],"not_a_claim":"No fixed alert threshold is claimed.","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-SAP-EXCEPTION-PLANNING","SRC-ORACLE-CONSTRAINED-EXCEPTIONS"],"claim_boundary":"Materiality is organisation-specific.","last_reviewed":"2026-08-07"},
+    {"node_id":"KM-EXC-OWNER-ACTION","label":"Accountable recovery action","kind":"role","work_artifacts":["exception owner","recovery action","investigation record"],"decision_questions":["Who must investigate or decide the next action?"],"cognitive_jobs":["prepare","choose"],"truth_routes":["operating_method"],"evidence_routes":["Exception investigation pattern plus local decision rights."],"creative_retrieval_tags":["owner","action","exception"],"not_a_claim":"The owner cannot be universalised from a vendor implementation pattern.","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-ORACLE-PLAN-EXCEPTIONS","SRC-SAP-EXCEPTION-RELEASE"],"claim_boundary":"Decision rights must be labelled as local/configurable in any public object.","last_reviewed":"2026-08-07"},
+    {"node_id":"KM-EXC-CLOSURE","label":"Closure evidence and re-alert condition","kind":"method","work_artifacts":["acknowledgement","closure evidence","re-alert rule"],"decision_questions":["What evidence closes the exception, and what condition brings it back?"],"cognitive_jobs":["prepare","explain"],"truth_routes":["operating_method"],"evidence_routes":["Exception resolution/release patterns plus local policy."],"creative_retrieval_tags":["closure","re-alert","exception policy"],"not_a_claim":"Closing an alert is not proof the underlying risk is eliminated.","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-ORACLE-PLAN-EXCEPTIONS","SRC-SAP-EXCEPTION-RELEASE"],"claim_boundary":"Closure/re-alert conditions remain local policy design.","last_reviewed":"2026-08-07"}
+  ],
+  "edges": [
+    {"edge_id":"EDGE-SUP-INPUT-FEEDS-PROMISE","from_id":"KM-SUP-SUPPLY-INPUT","relation":"feeds","to_id":"KM-SUP-PROMISE-RISK","basis":"source_link","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-ORACLE-GOP"],"claim_boundary":"Supply is an input to order promising, not an automatic customer-date change.","last_reviewed":"2026-08-07"},
+    {"edge_id":"EDGE-SUP-RELIABILITY-VALIDATES-INPUT","from_id":"KM-SUP-RECEIPT-RELIABILITY","relation":"validates","to_id":"KM-SUP-SUPPLY-INPUT","basis":"source_link","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-ORACLE-AVAILABILITY"],"claim_boundary":"Reliability treatment is system/policy-specific.","last_reviewed":"2026-08-07"},
+    {"edge_id":"EDGE-SUP-ALTERNATIVE-FEEDS-PROMISE","from_id":"KM-SUP-ALTERNATIVE-SUPPLY","relation":"feeds","to_id":"KM-SUP-PROMISE-RISK","basis":"source_link","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-ORACLE-GOP"],"claim_boundary":"Alternative supply is a possible promising input, not assumed recovery.","last_reviewed":"2026-08-07"},
+    {"edge_id":"EDGE-BATCH-INVENTORY-TRADES-TRANSPORT","from_id":"KM-BATCH-INVENTORY","relation":"trades_off_with","to_id":"KM-BATCH-TRANSPORT","basis":"source_link","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-TUE-CONSOLIDATION","SRC-FHWA-TRADEOFF"],"claim_boundary":"The trade-off is model/context-bound and needs local inputs for a decision.","last_reviewed":"2026-08-07"},
+    {"edge_id":"EDGE-BATCH-SERVICE-CONSTRAINS-DECISION","from_id":"KM-BATCH-SERVICE","relation":"constrains","to_id":"KM-BATCH-DISPATCH-DECISION","basis":"documented_method","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-MIT-EOQ","SRC-TUE-CONSOLIDATION"],"claim_boundary":"The local service condition cannot be inferred from EOQ alone.","last_reviewed":"2026-08-07"},
+    {"edge_id":"EDGE-BATCH-INVENTORY-FEEDS-DECISION","from_id":"KM-BATCH-INVENTORY","relation":"feeds","to_id":"KM-BATCH-DISPATCH-DECISION","basis":"documented_method","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-MIT-EOQ"],"claim_boundary":"EOQ supplies one input relationship, not a dispatch recommendation.","last_reviewed":"2026-08-07"},
+    {"edge_id":"EDGE-BATCH-TRANSPORT-FEEDS-DECISION","from_id":"KM-BATCH-TRANSPORT","relation":"feeds","to_id":"KM-BATCH-DISPATCH-DECISION","basis":"source_link","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-TUE-CONSOLIDATION","SRC-FHWA-TRADEOFF"],"claim_boundary":"Transport input requires local cost and lane context.","last_reviewed":"2026-08-07"},
+    {"edge_id":"EDGE-EXC-SIGNAL-VALIDATES-MATERIALITY","from_id":"KM-EXC-PLANNING-SIGNAL","relation":"validates","to_id":"KM-EXC-MATERIALITY","basis":"source_link","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-SAP-EXCEPTION-PLANNING","SRC-ORACLE-CONSTRAINED-EXCEPTIONS"],"claim_boundary":"A signal becomes material through local criteria; sources do not define one universal threshold.","last_reviewed":"2026-08-07"},
+    {"edge_id":"EDGE-EXC-MATERIALITY-HANDS-OFF-OWNER","from_id":"KM-EXC-MATERIALITY","relation":"hands_off_to","to_id":"KM-EXC-OWNER-ACTION","basis":"source_link","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-ORACLE-PLAN-EXCEPTIONS"],"claim_boundary":"Ownership and escalation are local decision rights.","last_reviewed":"2026-08-07"},
+    {"edge_id":"EDGE-EXC-OWNER-VALIDATES-CLOSURE","from_id":"KM-EXC-OWNER-ACTION","relation":"validates","to_id":"KM-EXC-CLOSURE","basis":"source_link","evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-ORACLE-PLAN-EXCEPTIONS","SRC-SAP-EXCEPTION-RELEASE"],"claim_boundary":"Closure evidence and re-alert condition are local policy design.","last_reviewed":"2026-08-07"}
+  ],
+  "branches": [
+    {"branch_id":"SC-KM-SUPPLIER-CONFIRMATION-CUSTOMER-PROMISE","label":"Supplier confirmation versus customer promise","primary_node_id":"KM-SUP-PROMISE-RISK","node_ids":["KM-SUP-PROMISE-RISK","KM-SUP-SUPPLY-INPUT","KM-SUP-RECEIPT-RELIABILITY","KM-SUP-ALTERNATIVE-SUPPLY"],"edge_ids":["EDGE-SUP-INPUT-FEEDS-PROMISE","EDGE-SUP-RELIABILITY-VALIDATES-INPUT","EDGE-SUP-ALTERNATIVE-FEEDS-PROMISE"],"scope_window":{"reader_role":"Supply planner","reader_moment":"A changed supplier confirmation appears against an open customer order.","operating_object_or_signal":"Requested date, promised date, supply availability, expected receipt and sourcing option.","decision_or_tension":"Which changed inputs can genuinely alter the customer promise?","cognitive_job":"diagnose","truth_route":"operating_method","reader_payoff":"Prepare a more precise conversation about promise risk without treating every supplier input as a customer exception.","in_scope":"Order-promising relationships and the information needed to assess them.","out_of_scope":"Universal reliability thresholds, freight economics, and organisation-specific escalation ownership.","relation_to_show":"conditional_decision","boundary_or_exception":"Any final escalation owner must be explicitly local/configurable."},"creative_retrieval_tags":["customer promise","conflicting dates","reliability","conditional decision"],"views":{"narrow":{"label":"Promise risk","purpose":"Show the central tension.","node_ids":["KM-SUP-PROMISE-RISK"],"edge_ids":[]},"deep":{"label":"Reliable supply input","purpose":"Show why supply availability and receipt reliability are separate inputs.","node_ids":["KM-SUP-PROMISE-RISK","KM-SUP-SUPPLY-INPUT","KM-SUP-RECEIPT-RELIABILITY"],"edge_ids":["EDGE-SUP-INPUT-FEEDS-PROMISE","EDGE-SUP-RELIABILITY-VALIDATES-INPUT"]},"wide":{"label":"Alternative supply context","purpose":"Add a possible alternative input without assuming recovery.","node_ids":["KM-SUP-PROMISE-RISK","KM-SUP-SUPPLY-INPUT","KM-SUP-RECEIPT-RELIABILITY","KM-SUP-ALTERNATIVE-SUPPLY"],"edge_ids":["EDGE-SUP-INPUT-FEEDS-PROMISE","EDGE-SUP-RELIABILITY-VALIDATES-INPUT","EDGE-SUP-ALTERNATIVE-FEEDS-PROMISE"]}},"evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-ORACLE-GOP","SRC-ORACLE-AVAILABILITY","SRC-APQC-OTD","SRC-DELIVERY-DATE-REVIEW"],"claim_boundary":"Source-backed relations can inform a candidate; public policy choices or success claims need further support.","last_reviewed":"2026-08-07"},
+    {"branch_id":"SC-KM-BATCH-CONSOLIDATE-DISPATCH","label":"Batch, consolidate, or dispatch","primary_node_id":"KM-BATCH-DISPATCH-DECISION","node_ids":["KM-BATCH-DISPATCH-DECISION","KM-BATCH-INVENTORY","KM-BATCH-TRANSPORT","KM-BATCH-SERVICE"],"edge_ids":["EDGE-BATCH-INVENTORY-TRADES-TRANSPORT","EDGE-BATCH-SERVICE-CONSTRAINS-DECISION","EDGE-BATCH-INVENTORY-FEEDS-DECISION","EDGE-BATCH-TRANSPORT-FEEDS-DECISION"],"scope_window":{"reader_role":"Buyer or supply planner","reader_moment":"MOQ, freight-consolidation and customer-service pressures point in different directions.","operating_object_or_signal":"Order quantity, demand rate, inventory exposure, freight break and service constraint.","decision_or_tension":"When does waiting to consolidate stop being economically or service-wise defensible?","cognitive_job":"compare","truth_route":"framework","reader_payoff":"Separate the inputs to a batch/dispatch choice before using a formula or a freight rate as an answer.","in_scope":"The inventory, transport and service trade-off.","out_of_scope":"A universal batch size, local commercial terms, or a numerical recommendation without actual inputs.","relation_to_show":"trade_off","boundary_or_exception":"Any numeric model must state its assumptions and reproduce its calculation."},"creative_retrieval_tags":["batch size","consolidation","freight","trade-off"],"views":{"narrow":{"label":"The choice","purpose":"Show batch versus dispatch as a decision, not a formula.","node_ids":["KM-BATCH-DISPATCH-DECISION"],"edge_ids":[]},"deep":{"label":"Cost trade-off","purpose":"Expose the inventory/transport relationship.","node_ids":["KM-BATCH-DISPATCH-DECISION","KM-BATCH-INVENTORY","KM-BATCH-TRANSPORT"],"edge_ids":["EDGE-BATCH-INVENTORY-TRADES-TRANSPORT","EDGE-BATCH-INVENTORY-FEEDS-DECISION","EDGE-BATCH-TRANSPORT-FEEDS-DECISION"]},"wide":{"label":"Service constraint","purpose":"Add the customer-service condition that limits waiting.","node_ids":["KM-BATCH-DISPATCH-DECISION","KM-BATCH-INVENTORY","KM-BATCH-TRANSPORT","KM-BATCH-SERVICE"],"edge_ids":["EDGE-BATCH-INVENTORY-TRADES-TRANSPORT","EDGE-BATCH-INVENTORY-FEEDS-DECISION","EDGE-BATCH-TRANSPORT-FEEDS-DECISION","EDGE-BATCH-SERVICE-CONSTRAINS-DECISION"]}},"evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-MIT-EOQ","SRC-TUE-CONSOLIDATION","SRC-FHWA-TRADEOFF"],"claim_boundary":"The branch supports trade-off reasoning, not a numerical answer until local inputs and assumptions are present.","last_reviewed":"2026-08-07"},
+    {"branch_id":"SC-KM-EXCEPTION-POLICY","label":"Exception policy: signal to accountable action","primary_node_id":"KM-EXC-PLANNING-SIGNAL","node_ids":["KM-EXC-PLANNING-SIGNAL","KM-EXC-MATERIALITY","KM-EXC-OWNER-ACTION","KM-EXC-CLOSURE"],"edge_ids":["EDGE-EXC-SIGNAL-VALIDATES-MATERIALITY","EDGE-EXC-MATERIALITY-HANDS-OFF-OWNER","EDGE-EXC-OWNER-VALIDATES-CLOSURE"],"scope_window":{"reader_role":"Supply planner","reader_moment":"A planning alert inbox contains more signals than can be investigated immediately.","operating_object_or_signal":"Exception signal, materiality criteria, accountable owner, recovery action and closure evidence.","decision_or_tension":"Which alert requires interruption, what action is permitted, and what closes or re-opens it?","cognitive_job":"diagnose","truth_route":"operating_method","reader_payoff":"Turn a noisy exception list into a policy discussion with named decisions and closure logic.","in_scope":"Exception signal, materiality, owner, action and closure/re-alert relationship.","out_of_scope":"Universal thresholds, organisational hierarchy, or a claim that exception management improves performance.","relation_to_show":"sequence","boundary_or_exception":"Severity, decision rights and closure evidence are local design choices."},"creative_retrieval_tags":["planning exception","alert fatigue","triage","owner"],"views":{"narrow":{"label":"Signal","purpose":"Start with the signal a planner actually sees.","node_ids":["KM-EXC-PLANNING-SIGNAL"],"edge_ids":[]},"deep":{"label":"Material exception","purpose":"Show the distinction between a signal and materiality.","node_ids":["KM-EXC-PLANNING-SIGNAL","KM-EXC-MATERIALITY"],"edge_ids":["EDGE-EXC-SIGNAL-VALIDATES-MATERIALITY"]},"wide":{"label":"Action and closure","purpose":"Show the accountable pathway without claiming a universal owner.","node_ids":["KM-EXC-PLANNING-SIGNAL","KM-EXC-MATERIALITY","KM-EXC-OWNER-ACTION","KM-EXC-CLOSURE"],"edge_ids":["EDGE-EXC-SIGNAL-VALIDATES-MATERIALITY","EDGE-EXC-MATERIALITY-HANDS-OFF-OWNER","EDGE-EXC-OWNER-VALIDATES-CLOSURE"]}},"evidence_status":"source_backed","status":"candidate_ready","source_refs":["SRC-SAP-EXCEPTION-PLANNING","SRC-ORACLE-PLAN-EXCEPTIONS","SRC-ORACLE-CONSTRAINED-EXCEPTIONS","SRC-SAP-EXCEPTION-RELEASE"],"claim_boundary":"The branch supports a source-aware policy-design discussion, not outcome claims or a universal alert design.","last_reviewed":"2026-08-07"}
+  ],
+  "notes": "See references/research/2026-08-07-supply-chain-resource-opportunity-seeds.md for source summaries and limitations. The next entry point is Creative Opportunity Selection, not visual production."
+}

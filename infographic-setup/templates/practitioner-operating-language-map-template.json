@@ -1,0 +1,29 @@
+{
+  "$schema": "../references/creative-genome/schemas/practitioner-operating-language-map.schema.json",
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "map_id": "",
+  "scope": {
+    "primary_role": "",
+    "exact_work_moment": "",
+    "artifact": "",
+    "trigger": "",
+    "decision": "",
+    "consequence": "",
+    "system_scope": {
+      "mode": "generic",
+      "systems": [],
+      "wording_boundary": ""
+    },
+    "source_refs": []
+  },
+  "source_registry": [],
+  "phrases": [],
+  "terms": [],
+  "claim_boundary": {
+    "public_wording_boundary": "",
+    "does_not_establish": "",
+    "source_refs": []
+  },
+  "notes": "Draft only. Use --allow-draft while the map is being built. A ready map needs a bounded work moment, authoritative and native-language evidence, terminology variants, non-equivalence boundaries, and claim limits."
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "../references/creative-genome/schemas/resource-candidate-card.schema.json",
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "candidate_id": "RC-PLACEHOLDER",
+  "reader_contract": {
+    "reader": "",
+    "exact_work_moment": "",
+    "reader_language": "",
+    "broad_bridge": ""
+  },
+  "problem_signal": {
+    "observed_problem": "",
+    "source_records": [],
+    "confidence": "hypothesis",
+    "unknowns": []
+  },
+  "immediate_handle": {
+    "reader_can_do": "",
+    "before_after_difference": "",
+    "not_solved": ""
+  },
+  "useful_angle": {
+    "familiar_version": "",
+    "specific_difference": "",
+    "reframe_if_generic": ""
+  },
+  "density_inventory": [],
+  "claim_route": {
+    "mode": "framework",
+    "public_wording_boundary": "",
+    "required_support": []
+  },
+  "market_scan": {
+    "status": "not_started",
+    "finding": "",
+    "references": []
+  },
+  "knowledge_map": {
+    "branch_id": "",
+    "scope_window_path": "",
+    "branch_status": "unmapped"
+  },
+  "decision": {
+    "outcome": "explore",
+    "reason": "",
+    "next_step": ""
+  },
+  "notes": "This is an upstream reader-value record. It does not choose a visual style, prove a claim, or approve publication."
+}

@@ -88,6 +88,10 @@ Internal fixtures may test software. They cannot become public proof or a public
   comparison, taxonomy, path, spectrum, or matrix; arbitrary card walls fail. Operating Studio and
   Cobalt Grid remain historical reference material only; use neither unless a future signature
   decision explicitly reactivates it.
+- A Working Infographic may not start in Figma from a broad topic. First pass a `build_ready`
+  `resource-candidate-card.json`, then a valid `creative-composition-packet.json` with three
+  non-isomorphic semantic routes. These are reader-value and creative-provenance controls, not
+  topic scores or publication gates.
 - Visual review: standard posts use `five-reader-review.md`; flagships and precision artifacts use
   `templates/visual-output-review-template.md`.
 - Optional motion after still approval and a passed eligibility gate:

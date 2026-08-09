@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 28,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/28.gif",
+    "sha256": "382d66e0ff4171575a6ed2b908352490d7ea3c312af3bde9b459588e6d5b5657",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        5020,
+        9540
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A large instructional headline introduces a training offer, with the central offer phrase contained in a broad lavender rough-display tag and a short scope line underneath.",
+    "layout": "An upper offer-summary panel presents four inclusions; beneath it, a bordered four-week roadmap uses four large colour-coded learning cards with one visual specimen per module.",
+    "reading_order": "Title and offer line → what-is-included strip → upper-left week one → upper-right week two → lower-left week three → lower-right week four.",
+    "typography": "Large light sans promise, rough display accent, bold all-caps section headers, and compact bulleted curriculum copy with tool-name badges.",
+    "colour": "Lavender dominates the offer summary and week four, pink identifies week one, aqua week two, and pale blue week three.",
+    "surface": "White page, thin dark container borders, soft rounded cards, low shadow, simple Venn, mind-map, and form-field specimens, and a tiny moving circular marker at the outer edge.",
+    "modules": "One offer block with four inclusions plus four curriculum-week cards, each tied to an illustrative mini-diagram or tool reference.",
+    "density": "Medium-high: the offer contents and learning sequence are visible together, while the two-by-two week arrangement prevents a long sales list."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 251,
+      "duration_ms_from_gce": 10040
+    },
+    "observed_state_change": "Sampled frames show a small dot traversing the outer course boundary while a new-cohort badge and some headings or card edges slide into view; the four-week plan itself remains stable and readable.",
+    "motion_job": "Give a course roadmap a light sense of progression without asking motion to supply its learning sequence or proof.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Decide whether a structured learning or implementation offer has a credible scope and sequence.",
+    "argument_shape": "Offer scope plus staged roadmap.",
+    "mechanism": "Show the enduring inclusion set before a finite, ordered sequence of modules, and give each module one concrete retrieval cue rather than a paragraph of promise language.",
+    "use_condition": "Use only when the sequence is real and the included outputs can be stated precisely; do not use a course roadmap to imply outcomes that have not been evidenced."
+  },
+  "anti_copy_boundary": "Do not reuse the course promise, offer inclusions, weekly curriculum, tool references, four-card layout, movement dot, rough title tag, colour allocation, or source motion.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The asset depicts a commercial training offer and its claimed deliverables; no original post provenance or outcome evidence accompanies the numeric-ID caption association."
+  }
+}

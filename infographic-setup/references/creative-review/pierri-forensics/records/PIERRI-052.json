@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 52,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/52.jpeg",
+    "sha256": "417fc1ee284996a6d204dab17424c8014a623a6dac431684e1eeed87d0bbbe53",
+    "format": "jpeg",
+    "canvas": {
+      "width": 800,
+      "height": 1000
+    }
+  },
+  "caption_link": {
+    "status": "asset_only",
+    "association_confidence": "no_caption_supplied",
+    "caption_available": false,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Original local JPEG displayed directly at full-frame review size.",
+    "motion_sampling": {
+      "method": "Not applicable for static JPEG.",
+      "sampled_positions_ms": [],
+      "limitation": "No animation exists in this source asset."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A broad two-line instructional headline uses two lavender rough-display tags for the key input and intended outcome, then adds a single-line comment call to action.",
+    "layout": "Five equal-width tinted columns progress from one to five-plus ingredients. Each column holds four small template thumbnails, showing different diagram families that can accommodate that amount of input.",
+    "reading_order": "Headline and call to action → column heading for ingredient count → scan the four selectable mini-templates inside that column → compare across columns as input complexity grows.",
+    "typography": "Large light sans title, rough-display tag words, small column headings, and compact template names above each miniature.",
+    "colour": "Pale lavender, pink, aqua, blue, and coral column fields distinguish increasing input groups; miniature diagrams reuse matching but muted treatments.",
+    "surface": "Flat library/index page with finely outlined template thumbnails, small pale depth on inner cards, and a strong white margin around the five-column catalogue.",
+    "modules": "Five ingredient-count columns and twenty miniature diagrams, each acting as a visual affordance rather than a complete worked example.",
+    "density": "High but deliberately browseable: column membership narrows selection before the reader inspects any individual template."
+  },
+  "motion": {
+    "mode": "static",
+    "source_metadata": {
+      "frame_count": null,
+      "duration_ms_from_gce": null
+    },
+    "observed_state_change": "No temporal state: this is a static JPEG source asset.",
+    "motion_job": "Not applicable; the visual functions as a static selection index.",
+    "limitation": "No animation exists in this source asset."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Choose a visual form based on the amount and relationship of the material before designing the finished piece.",
+    "argument_shape": "Input-complexity index crossing ingredient count with diagram-family options.",
+    "mechanism": "Organise a bounded visual repertoire by a simple selection criterion, then show small distinguishable previews so the reader can route toward an appropriate grammar without reading a long manual.",
+    "use_condition": "Use when the index is a genuine selection aid with a clear selection variable and each preview represents a materially different visual grammar, not merely a recoloured template."
+  },
+  "anti_copy_boundary": "Do not reuse the post-to-viral-infographic subject, five ingredient-count columns, twenty-template selection grid, specific template names, title/call-to-action wording, rough-display lavender tags, or pastel column sequence.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "No matching caption was supplied. The asset presents an outcome-oriented promise and a template-selection approach, but no performance result or causal effect is independently verified."
+  }
+}

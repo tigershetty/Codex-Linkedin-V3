@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 26,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/26.gif",
+    "sha256": "2149333746baab8c4e035a1ad02f24488f76e8329458324112c2d18fd92b9ea4",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        4020,
+        7540
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A large title names a people-generated-content engine; the main concept spans the line inside a broad multicolour gradient band and a small acronym badge points back to it.",
+    "layout": "One brand-input bar at the top routes down into three parallel audience or contributor cards, then all three arrows converge into a bottom brand-benefit bar with five closing outcome tiles.",
+    "reading_order": "Title → shared brand inputs → compare the three contributor cards across ideal voices, investment, and deployment → follow the arrows into the joined bottom outcome strip.",
+    "typography": "Large light sans headline, bold all-caps band titles, bold micro-headings inside white content cards, and short bulleted supporting copy.",
+    "colour": "A magenta top and bottom band frames warm peach, green, and blue contributor columns; the headline uses a separate orange-to-aqua gradient.",
+    "surface": "White background, thin grey or purple rules, rounded rectangular containers, repeated white inset cards, funnel illustrations, downward arrows, and soft shadows.",
+    "modules": "One shared input system, three actor-specific implementation columns, and a joined five-part brand outcome strip.",
+    "density": "High but coherent: shared inputs and shared output bracket a three-way comparison, so the reader can identify what changes by contributor type."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 147,
+      "duration_ms_from_gce": 8040
+    },
+    "observed_state_change": "The sampled intermediate state applies distinct colours to the three contributor cards and reveals their inset content and funnel diagrams through horizontal masks; the final state restores the full top-to-bottom flow with all arrows and outcome tiles visible.",
+    "motion_job": "Assemble a shared-input, parallel-actor, shared-output model in its dependency order so the reader sees the system before reading its dense copy.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Compare how one common strategy needs to change for distinct actor groups while still seeing the system-level result.",
+    "argument_shape": "Shared-input to parallel pathways to shared-output flow.",
+    "mechanism": "Bracket a limited set of differentiated paths between the inputs every path shares and the result their contributions jointly enable.",
+    "use_condition": "Use only when upstream inputs and downstream outcomes are genuinely shared; otherwise label independent systems separately instead of implying a flywheel."
+  },
+  "anti_copy_boundary": "Do not reuse the people-generated-content model, actor categories, brand-benefit claims, top-and-bottom band flow, funnel illustrations, gradient headline, panel colours, or reveal choreography.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The visual makes commercial and workflow claims about contributor groups and a brand flywheel. They are not independently validated by the supplied corpus."
+  }
+}

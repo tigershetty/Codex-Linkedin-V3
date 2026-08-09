@@ -1,0 +1,38 @@
+{
+  "$schema": "../references/creative-genome/schemas/creative-composition-packet.schema.json",
+  "schema_version": "1.0.0",
+  "status": "draft",
+  "packet_id": "CCP-PLACEHOLDER",
+  "candidate_card_path": "data/{week}/{slug}/resource-candidate-card.json",
+  "source_roles": {
+    "information_mechanism": {
+      "corpus": "pierri",
+      "record_id": "PIERRI-000",
+      "record_path": "references/creative-review/pierri-forensics/records/PIERRI-000.json",
+      "canonical_mechanism_pointer": "/transferable_mechanism/mechanism",
+      "anti_copy_boundary_pointer": "/anti_copy_boundary"
+    },
+    "attention_or_utility": {
+      "corpus": "top100",
+      "record_id": "TOP100-000",
+      "record_path": "references/creative-review/top100-forensics/TOP100-000.json",
+      "canonical_mechanism_pointer": "/recombination/transferable_atoms/0",
+      "anti_copy_boundary_pointer": "/recombination/anti_copy_boundary"
+    },
+    "caption_mechanism": {
+      "corpus": "top100",
+      "record_id": "TOP100-000",
+      "record_path": "references/creative-review/top100-forensics/TOP100-000.json",
+      "canonical_mechanism_pointer": "/source_context/caption_hook",
+      "anti_copy_boundary_pointer": "/recombination/anti_copy_boundary"
+    }
+  },
+  "routes": [],
+  "selection": {
+    "decision": "pending",
+    "selected_route_id": null,
+    "reason": ""
+  },
+  "selected_route_review_path": null,
+  "notes": "Use one source per job where possible. Source text is loaded by canonical JSON pointer rather than copied into this packet. Each active route needs a distinct low-fidelity .md, .svg, or mockup artifact; valid_ready also needs a concise selected-route review artifact."
+}

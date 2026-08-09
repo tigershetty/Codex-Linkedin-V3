@@ -1,7 +1,7 @@
 # Status
 
-- Route: Working Infographic / Figma-native
-- Publication: internal prototype only
+- Route: Working Infographic / Figma-native **rejected control prototype**
+- Publication: not eligible; do not revise, animate, or publish this direction
 - Figma source: `lAiBPFCz9FDuM74CN5chDd`, page `11 — Promise-Control Card / Supplier Date v5`,
   node `60:3`
 - Active visual export: `visual-v5-promise-control-card.png`
@@ -11,5 +11,7 @@
   stayed detached from its causal object.
 - Earlier V4 export: `visual-v4-date-control-board.png` — rejected: a usable worksheet whose equal
   columns did not form one decision mechanism.
-- Review: V5 is the selected customer-first internal design direction; Tiger approval and the
-  publication gate are still required before use.
+- Review: V5 proved that the customer-first logic can be made legible, but it remains a polished
+  internal process board rather than a source-selected, high-density resource graphic. It is
+  retained as a rejected control: see `resource-candidate-card.json`. A future supplier-date idea
+  must begin with a new externally supported candidate card, not this Figma composition.

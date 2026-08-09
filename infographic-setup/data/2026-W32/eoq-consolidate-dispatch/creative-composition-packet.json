@@ -1,0 +1,97 @@
+{
+  "$schema": "../../../references/creative-genome/schemas/creative-composition-packet.schema.json",
+  "schema_version": "1.0.0",
+  "status": "routes_ready",
+  "packet_id": "CCP-2026-W32-EOQ-CONSOLIDATE-DISPATCH",
+  "candidate_card_path": "data/2026-W32/eoq-consolidate-dispatch/resource-candidate-card.json",
+  "source_roles": {
+    "information_mechanism": {
+      "corpus": "pierri",
+      "record_id": "PIERRI-011",
+      "record_path": "references/creative-review/pierri-forensics/records/PIERRI-011.json",
+      "canonical_mechanism_pointer": "/transferable_mechanism/mechanism",
+      "anti_copy_boundary_pointer": "/anti_copy_boundary"
+    },
+    "attention_or_utility": {
+      "corpus": "top100",
+      "record_id": "TOP100-020",
+      "record_path": "references/creative-review/top100-forensics/TOP100-020.json",
+      "canonical_mechanism_pointer": "/attention_physics/promise_proved_by_visual",
+      "anti_copy_boundary_pointer": "/recombination/anti_copy_boundary"
+    },
+    "caption_mechanism": {
+      "corpus": "top100",
+      "record_id": "TOP100-096",
+      "record_path": "references/creative-review/top100-forensics/TOP100-096.json",
+      "canonical_mechanism_pointer": "/source_context/caption_hook",
+      "anti_copy_boundary_pointer": "/recombination/anti_copy_boundary"
+    }
+  },
+  "routes": [
+    {
+      "route_id": "R01-decision-split",
+      "semantic_object": "decision_path",
+      "direction_artifact_path": "data/2026-W32/eoq-consolidate-dispatch/routes/route-01-decision-split.svg",
+      "spatial_truth": "A single purchase or shipment review branches into three non-substitutable decisions: quantity, consolidation, and dispatch timing.",
+      "first_frame": "One purchase review has three different decisions.",
+      "reading_route": "Start at the open review, then follow one branch to its question, inputs, and output.",
+      "density_translation": [
+        "One shared review object",
+        "Three question-specific branches",
+        "Three input bundles",
+        "Three distinct outputs",
+        "One boundary on EOQ's scope"
+      ],
+      "visual_carries": "The distinction between the three decisions and the information each requires.",
+      "caption_carries": "The lived moment: why a convenient quantity number gets misused as a dispatch answer, plus a prompt to identify which question is currently being skipped.",
+      "anti_copy_transformation": "Uses an original branching decision object. It does not reuse the source cards, familiar-tool entry objects, panel arrangement, or brand treatment.",
+      "kill_condition": "Kill if users read the three branches as a sequence, or if a simple list explains the distinction more clearly than the fork."
+    },
+    {
+      "route_id": "R02-wait-dispatch-field",
+      "semantic_object": "tradeoff_field",
+      "direction_artifact_path": "data/2026-W32/eoq-consolidate-dispatch/routes/route-02-wait-dispatch-field.svg",
+      "spatial_truth": "The wait-versus-dispatch call changes with two independent conditions: remaining service slack and credible consolidation upside.",
+      "first_frame": "When does waiting stop making sense?",
+      "reading_route": "Locate the order by service slack and consolidation upside, read the relevant quadrant, then separate the quantity-policy check.",
+      "density_translation": [
+        "Two decision dimensions",
+        "Four conditional operating states",
+        "One named next check per state",
+        "An explicit separate quantity-policy boundary",
+        "Local-input caveat"
+      ],
+      "visual_carries": "A reader-operable diagnostic: the same order moves to a different response when either service slack or consolidation upside changes.",
+      "caption_carries": "A concise challenge to rate-first thinking and an invitation to name what data their team uses to define a release line.",
+      "anti_copy_transformation": "Uses a new operational field built from the candidate's own decision variables. It does not import Pierri's visual skin, source categories, layout, label language, or claims.",
+      "kill_condition": "Kill if the axes cannot be made concrete enough for a practitioner to locate a real order without inventing thresholds."
+    },
+    {
+      "route_id": "R03-three-logics-comparison",
+      "semantic_object": "comparison",
+      "direction_artifact_path": "data/2026-W32/eoq-consolidate-dispatch/routes/route-03-three-logics-comparison.svg",
+      "spatial_truth": "Quantity, consolidation, and dispatch are parallel but different logics; holding criteria constant exposes where a shortcut answers the wrong question.",
+      "first_frame": "One order. Three decisions.",
+      "reading_route": "Compare the same five rows across the three logics: question, inputs, optimisation, false shortcut, and useful output.",
+      "density_translation": [
+        "Three equally structured decision columns",
+        "Five constant comparison criteria",
+        "Decision-specific inputs",
+        "Decision-specific false shortcuts",
+        "Bounded operational output in each column",
+        "A bottom-line scope boundary"
+      ],
+      "visual_carries": "A saveable lookup reference that makes the three logics comparable without implying that one output determines another.",
+      "caption_carries": "The contrarian hook and context: EOQ is a quantity model, not a dispatch rule; close with the practical question readers can take to their next review.",
+      "anti_copy_transformation": "Transfers only repeated-criteria comparison as an information mechanism. It does not reproduce the source's methods, charts, colours, card arrangement, wording, or CTA treatment.",
+      "kill_condition": "Kill if type must shrink below mobile readability or the comparison does not let a reader identify the wrong question faster than prose."
+    }
+  ],
+  "selection": {
+    "decision": "pending",
+    "selected_route_id": null,
+    "reason": "Tiger must select, hybridise, or kill after reviewing three actual low-fidelity information objects. No finished Figma visual may be made before that choice."
+  },
+  "selected_route_review_path": null,
+  "notes": "This is an admitted route packet, not a final visual, numerical recommendation, or publication approval. The reader should receive a framework for separating questions; local assumptions and data remain necessary for any operational decision."
+}

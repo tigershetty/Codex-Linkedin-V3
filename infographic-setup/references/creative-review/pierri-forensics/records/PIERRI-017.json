@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 17,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/17.gif",
+    "sha256": "00ef8e0b492c147cad850b0e48783e7ac0631d55d918fa643b2fc520b9e71f1b",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected at full canvas size; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [0, 4000, 7600],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A large two-part topic title uses a broad lavender rough-lettered capsule for the operative phrase, followed by a black instruction strap.",
+    "layout": "Four equal vertical columns create a content-role taxonomy; each column contains a purpose statement, a shared central journey node, idea chips, one format row, and example hook cards.",
+    "reading_order": "Title and instruction strap → four role headers left to right → purpose row → central connecting journey → idea chips → format and example rows.",
+    "typography": "Large light sans title, rough display tag, bold role headers, compact sans content chips, and smaller multi-line examples that preserve a tabular reading rhythm.",
+    "colour": "Lavender, pink, aqua, and blue identify the four roles from header to tags and examples; the central journey uses matching colour blocks with dark arrows.",
+    "surface": "White field, thin lavender board outline, rigid column/row rules, rounded chips and cards, modest shadows, and a high-contrast black instruction bar.",
+    "modules": "Four equivalent role columns crossed with purpose, idea, format, and hook rows, plus one centre-row chain linking their stated outcomes.",
+    "density": "Very high: the matrix works because repeated row labels and a single horizontal outcome chain make the four dense columns comparable."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 152,
+      "duration_ms_from_gce": 8000
+    },
+    "observed_state_change": "The same four-column matrix persists through the samples. A dark highlight travels through the instruction strap and a soft colour emphasis passes across the central horizontal outcome chain before a near-complete wipe/reset; no category content changes.",
+    "motion_job": "Direct attention along the system-level link between otherwise separate taxonomy columns, while keeping the full reference board available.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Understand how distinct roles contribute to one joined system rather than treating a category taxonomy as four disconnected lists.",
+    "argument_shape": "Role taxonomy with a cross-column outcome chain.",
+    "mechanism": "Use stable parallel columns for distinct roles, then place one concise cross-column chain in a shared row to make their system relationship explicit.",
+    "use_condition": "Use only when the categories have both genuinely distinct responsibilities and a meaningful joined flow; otherwise use a simpler comparison with no implied sequence."
+  },
+  "anti_copy_boundary": "Do not reuse the source’s four-category content taxonomy, instruction prompt, purpose statements, chips, hook examples, outcome chain, colour assignment, rough title tag, or highlight/wipe loop.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The visual contains business, platform, and content-outcome assertions. The supplied corpus does not independently verify those claims or the asserted caption association."
+  }
+}

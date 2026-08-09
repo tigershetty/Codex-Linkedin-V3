@@ -1,0 +1,13 @@
+{
+  "$schema": "../references/creative-genome/schemas/supply-chain-knowledge-map.schema.json",
+  "schema_version": "1.0.0",
+  "map_id": "SC-KNOWLEDGE-MAP-PLACEHOLDER",
+  "status": "draft",
+  "title": "Supply-Chain Knowledge Map — blank template",
+  "purpose": "Add one bounded graph only when an already broad starting point needs a clearer reader, operating object, decision, boundary, or evidence route. This template is not a request to build a taxonomy.",
+  "source_registry": [],
+  "nodes": [],
+  "edges": [],
+  "branches": [],
+  "notes": "A source_backed branch needs every selected source to carry a complete source_capsule: source_locator, accessed_on, supported_paraphrase and a local evidence_note_path. If that evidence is incomplete, keep the branch evidence_status=research_seed. The selector always leaves build_ready=false. This map can only hand off a bounded scope to Creative Opportunity Selection; it cannot approve a topic, claim, visual, or publication."
+}

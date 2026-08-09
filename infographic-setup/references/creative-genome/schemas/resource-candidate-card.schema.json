@@ -1,0 +1,224 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shettysdesk.com/schemas/creative-genome/resource-candidate-card.schema.json",
+  "title": "Resource Candidate Card",
+  "description": "Reader-first admission record for a high-density working infographic. It is not a virality score, evidence ledger, or publication approval.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "status",
+    "candidate_id",
+    "reader_contract",
+    "problem_signal",
+    "immediate_handle",
+    "useful_angle",
+    "density_inventory",
+    "claim_route",
+    "market_scan",
+    "decision"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema_version": { "const": "1.0.0" },
+    "status": { "enum": ["draft", "explore", "build_ready", "reframed", "parked"] },
+    "candidate_id": { "type": "string" },
+    "reader_contract": { "$ref": "#/$defs/readerContract" },
+    "problem_signal": { "$ref": "#/$defs/problemSignal" },
+    "immediate_handle": { "$ref": "#/$defs/immediateHandle" },
+    "useful_angle": { "$ref": "#/$defs/usefulAngle" },
+    "density_inventory": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/densityItem" }
+    },
+    "claim_route": { "$ref": "#/$defs/claimRoute" },
+    "market_scan": { "$ref": "#/$defs/marketScan" },
+    "knowledge_map": { "$ref": "#/$defs/knowledgeMap" },
+    "decision": { "$ref": "#/$defs/decision" },
+    "notes": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "build_ready" } } },
+      "then": {
+        "properties": {
+          "candidate_id": { "$ref": "#/$defs/readyId" },
+          "reader_contract": { "$ref": "#/$defs/readyReaderContract" },
+          "problem_signal": { "$ref": "#/$defs/readyProblemSignal" },
+          "immediate_handle": { "$ref": "#/$defs/readyImmediateHandle" },
+          "useful_angle": { "$ref": "#/$defs/readyUsefulAngle" },
+          "density_inventory": { "minItems": 3 },
+          "claim_route": { "$ref": "#/$defs/readyClaimRoute" },
+          "market_scan": { "$ref": "#/$defs/readyMarketScan" },
+          "decision": { "$ref": "#/$defs/buildDecision" }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "readyId": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!.*(?:^|[-_])(?:draft|placeholder|todo|tbd)(?:$|[-_])).+$"
+    },
+    "nonEmpty": { "type": "string", "minLength": 1 },
+    "readerContract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reader", "exact_work_moment", "reader_language", "broad_bridge"],
+      "properties": {
+        "reader": { "type": "string" },
+        "exact_work_moment": { "type": "string" },
+        "reader_language": { "type": "string" },
+        "broad_bridge": { "type": "string" }
+      }
+    },
+    "readyReaderContract": {
+      "allOf": [
+        { "$ref": "#/$defs/readerContract" },
+        { "properties": { "reader": { "$ref": "#/$defs/nonEmpty" }, "exact_work_moment": { "$ref": "#/$defs/nonEmpty" }, "reader_language": { "$ref": "#/$defs/nonEmpty" }, "broad_bridge": { "$ref": "#/$defs/nonEmpty" } } }
+      ]
+    },
+    "problemSignal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["observed_problem", "source_records", "confidence", "unknowns"],
+      "properties": {
+        "observed_problem": { "type": "string" },
+        "source_records": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/sourceRecord" }
+        },
+        "confidence": { "enum": ["observed", "documented_method", "tiger_judgment", "hypothesis"] },
+        "unknowns": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "readyProblemSignal": {
+      "allOf": [
+        { "$ref": "#/$defs/problemSignal" },
+        { "properties": { "observed_problem": { "$ref": "#/$defs/nonEmpty" }, "source_records": { "minItems": 1 } } }
+      ]
+    },
+    "sourceRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "source_type", "location", "use"],
+      "properties": {
+        "source_id": { "type": "string", "minLength": 1 },
+        "source_type": { "enum": ["public_research", "official_guidance", "documented_case", "tiger_source", "saved_reference_signal", "market_scan", "hypothesis"] },
+        "location": { "type": "string", "minLength": 1 },
+        "use": { "type": "string", "minLength": 1 },
+        "limitation": { "type": "string" }
+      }
+    },
+    "immediateHandle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reader_can_do", "before_after_difference", "not_solved"],
+      "properties": {
+        "reader_can_do": { "type": "string" },
+        "before_after_difference": { "type": "string" },
+        "not_solved": { "type": "string" }
+      }
+    },
+    "readyImmediateHandle": {
+      "allOf": [
+        { "$ref": "#/$defs/immediateHandle" },
+        { "properties": { "reader_can_do": { "$ref": "#/$defs/nonEmpty" }, "before_after_difference": { "$ref": "#/$defs/nonEmpty" }, "not_solved": { "$ref": "#/$defs/nonEmpty" } } }
+      ]
+    },
+    "usefulAngle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["familiar_version", "specific_difference", "reframe_if_generic"],
+      "properties": {
+        "familiar_version": { "type": "string" },
+        "specific_difference": { "type": "string" },
+        "reframe_if_generic": { "type": "string" }
+      }
+    },
+    "readyUsefulAngle": {
+      "allOf": [
+        { "$ref": "#/$defs/usefulAngle" },
+        { "properties": { "familiar_version": { "$ref": "#/$defs/nonEmpty" }, "specific_difference": { "$ref": "#/$defs/nonEmpty" }, "reframe_if_generic": { "$ref": "#/$defs/nonEmpty" } } }
+      ]
+    },
+    "densityItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["unit", "uncertainty_removed", "support_route", "public_status"],
+      "properties": {
+        "unit": { "type": "string", "minLength": 1 },
+        "uncertainty_removed": { "type": "string", "minLength": 1 },
+        "support_route": { "type": "string", "minLength": 1 },
+        "public_status": { "enum": ["supported", "framework_logic", "tiger_judgment", "illustrative_only", "not_public_ready"] }
+      }
+    },
+    "claimRoute": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mode", "public_wording_boundary", "required_support"],
+      "properties": {
+        "mode": { "enum": ["framework", "operating_method", "evidence_display", "case", "calculation", "tiger_judgment", "hypothesis_or_simulation"] },
+        "public_wording_boundary": { "type": "string" },
+        "required_support": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "marketScan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "finding", "references"],
+      "properties": {
+        "status": { "enum": ["not_started", "lightweight_reviewed", "not_applicable_with_reason"] },
+        "finding": { "type": "string" },
+        "references": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "readyMarketScan": {
+      "allOf": [
+        { "$ref": "#/$defs/marketScan" },
+        { "properties": { "status": { "enum": ["lightweight_reviewed", "not_applicable_with_reason"] }, "finding": { "$ref": "#/$defs/nonEmpty" } } },
+        {
+          "if": { "properties": { "status": { "const": "lightweight_reviewed" } } },
+          "then": { "properties": { "references": { "minItems": 1 } } }
+        }
+      ]
+    },
+    "readyClaimRoute": {
+      "allOf": [
+        { "$ref": "#/$defs/claimRoute" },
+        {
+          "properties": {
+            "public_wording_boundary": { "$ref": "#/$defs/nonEmpty" },
+            "required_support": { "minItems": 1 }
+          }
+        }
+      ]
+    },
+    "knowledgeMap": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "branch_id": { "type": "string" },
+        "scope_window_path": { "type": "string" },
+        "branch_status": { "enum": ["unmapped", "research_seed", "source_backed"] }
+      }
+    },
+    "decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["outcome", "reason", "next_step"],
+      "properties": {
+        "outcome": { "enum": ["explore", "build", "reframe", "park"] },
+        "reason": { "type": "string" },
+        "next_step": { "type": "string" }
+      }
+    },
+    "buildDecision": {
+      "allOf": [
+        { "$ref": "#/$defs/decision" },
+        { "properties": { "outcome": { "const": "build" }, "reason": { "$ref": "#/$defs/nonEmpty" }, "next_step": { "$ref": "#/$defs/nonEmpty" } } }
+      ]
+    }
+  }
+}

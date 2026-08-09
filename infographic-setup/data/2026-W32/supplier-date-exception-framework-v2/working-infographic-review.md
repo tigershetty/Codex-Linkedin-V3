@@ -1,6 +1,6 @@
 # Working Infographic Review — Supplier-date promise-control card V5
 
-**Status:** selected internal prototype; not approved for publication.
+**Status:** rejected control prototype; not approved for publication.
 
 ## Exact source
 
@@ -36,6 +36,7 @@
 
 ## Release decision
 
-**Selected internally / hold for Tiger approval.** No public caption, proof claim, cadence restart,
-or publication approval exists. The next valid action is Tiger’s reader/value review, followed by a
-new opportunity using a different spatial family; do not keep polishing this test by default.
+**Rejected as a production route.** No public caption, proof claim, cadence restart, or publication
+approval exists. The Figma visual is retained only as a record of the failed template-first route.
+The next valid action is a new, externally supported Resource Candidate Card followed by three
+non-isomorphic visual routes; do not keep polishing or animating this test.

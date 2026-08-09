@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 8,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/8.gif",
+    "sha256": "b751ab439bd68df65ac04a0c80971ae3ddaf1912d37f4ab887f10adbefc4d027",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected at full canvas size; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [0, 4040, 7680],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A large editorial promise names a platform-and-year context, followed by a short four-step subhead.",
+    "layout": "Four unequal but balanced panels sit in a two-by-two board: a stack-and-bullets module, an 80/20 partition, an action list, and a stepped blueprint with small relationship labels.",
+    "reading_order": "Headline → top-left and top-right action panels → bottom-left and bottom-right panels, with each numbered panel readable as an independent contribution to one plan.",
+    "typography": "Large high-contrast editorial title paired with bold sans panel titles, numbered badges, and compact action labels.",
+    "colour": "Pale blue, green, yellow, and lavender identify the four numbered panels; each colour carries into its miniature diagram or accent labels.",
+    "surface": "White ground, thin coloured panel outlines, pale flat fills, simple 3D stack shapes, rounded chips, and restrained shadows.",
+    "modules": "Four numbered action panels, each using a different visual grammar matched to its message: stack, partition, checklist, or stepped plan.",
+    "density": "High but chunked: four strong panel identities stop the board from becoming one dense instructional sheet."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 195,
+      "duration_ms_from_gce": 8080
+    },
+    "observed_state_change": "The start and material-intermediate samples retain the same four-panel information board; the near-complete sample catches a broad loop-transition wipe through the board. A change in any action state cannot be established from the samples.",
+    "motion_job": "Attention pacing and loop reset, not a demonstrated change in the four-part plan.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Absorb several distinct actions as one compact plan without forcing every action into the same visual form.",
+    "argument_shape": "Four-part action board with heterogeneous micro-diagrams.",
+    "mechanism": "Give each action one dedicated panel and a matching miniature representation, then preserve a common title, number, and border system for orientation.",
+    "use_condition": "Use only when there are four deliberately distinct but equally necessary actions; avoid it when there is a real sequential dependency that needs a process route instead."
+  },
+  "anti_copy_boundary": "Do not reuse the source’s platform/year promise, algorithm claims, four action categories, stack/80-20/blueprint diagrams, colour assignment, title treatment, or loop transition.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The asset contains platform, algorithm, and tactical assertions. The supplied corpus does not independently verify them or the asserted caption association."
+  }
+}

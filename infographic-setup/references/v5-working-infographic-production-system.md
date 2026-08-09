@@ -52,6 +52,18 @@ career, recognition, timely, or perspective posts:
 | Useful angle | It makes a familiar issue more precise or usable. | Familiar advice in new colours. |
 | Earned density | Extra detail removes uncertainty or supports use. | More labels without more value. |
 
+### The candidate gate
+
+Before Figma, complete a [Resource Candidate Card](resource-candidate-card-v1.md). It records the
+actual work moment, problem signal, immediate reader handle, useful angle, density inventory,
+claim boundary, and a lightweight saturation finding. The card is not a score and does not choose a
+topic automatically; it stops a broad subject being dressed up as a resource.
+
+Only a `build_ready` card can enter a [Creative Composition Packet](creative-composition-packet-v1.md).
+That packet combines three separate creative jobs—Pierri information mechanism, Top-100 attention
+or utility mechanism, and caption mechanism—and forces three genuinely different semantic objects
+before a finished visual exists.
+
 ## 3. Select the visual argument, not a skin
 
 Develop three **semantic containers** before the finish route. They must make different truth
@@ -89,15 +101,17 @@ There is no fixed three-to-seven-module ceiling. Density is earned by hierarchy,
 mobile legibility—not by leaving a large blank surface to look premium. Conversely, a dense page
 does not earn a smaller type size than a reader can use.
 
-## 5. Shetty's Desk signature: Operational Cartography
+## 5. Shetty's Desk signature: Working Information Objects
 
-The ownable signal is **Operational Cartography**: complex working situations are made visible as a
-route, field, comparison, or operating object. It should feel like a colleague has made a difficult
-meeting or decision easier to see—not like a consulting deck or copied creator template.
+The ownable signal is **Working Information Objects**: complex working situations become a route,
+field, comparison, specimen, decision surface, or operating object only when that shape helps a
+reader perform a real operation. It should feel like a colleague has made a difficult meeting or
+decision easier to operate—not like a consulting deck or copied creator template.
 
 Fixed behaviours:
 
-- near-white or intentionally calm ground; dark high-contrast ink; no permanent Cobalt/Grid frame;
+- a reading surface with deliberate contrast; no permanent cream-paper, dark-ink, Cobalt/Grid,
+  marker-tag, or card treatment;
 - two to five semantic colour fields only when they differentiate a state, route, question, or
   evidence class;
 - fine dark outlines and connectors that establish relationships; no decorative network lines;
@@ -149,7 +163,9 @@ The static final state must always remain independently useful.
 For the editable-source contract and component inventory, use
 `working-infographic-figma-master-v1.md`.
 
-Selected packages use `templates/working-infographic-brief-template.md`,
+Selected packages use `templates/resource-candidate-card-template.json`,
+`templates/creative-composition-packet-template.json`,
+`templates/working-infographic-brief-template.md`,
 `templates/working-infographic-manifest-template.json`, and
 `templates/working-infographic-review-template.md` rather than inheriting Field Guide paperwork.
 

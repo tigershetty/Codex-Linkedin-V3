@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 4,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/4.jpeg",
+    "sha256": "77372e5aa86722cd1df2895efef0b7a6327e46c7c68f7867d26861d8ba7d7f9f",
+    "format": "jpeg",
+    "canvas": {
+      "width": 1118,
+      "height": 1398
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Original local JPEG displayed directly at full-frame review size.",
+    "motion_sampling": {
+      "method": "Not applicable for static JPEG.",
+      "sampled_positions_ms": [],
+      "limitation": "No animation exists in this source asset."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A large three-line headline frames a household-cost question; its two-word noun phrase is held inside a broad lavender hand-rendered capsule.",
+    "layout": "A single large United States map dominates the page, with direct place-value labels, a dense northeastern label cluster, a continuous colour legend, and a small source/date footer.",
+    "reading_order": "Headline and stated population condition → map and place labels → continuous legend → source and date note.",
+    "typography": "Very large bold sans headline, rough display emphasis inside the capsule, bold currency labels, and compact sans place/source text.",
+    "colour": "A lavender-to-aqua-to-pink continuous scale fills the map regions and is repeated in the bottom legend; type and boundaries remain dark for legibility.",
+    "surface": "White ground, muted grey atmospheric shadow around the map, thin region boundaries, and almost no decorative chrome beyond the headline tag.",
+    "modules": "One geographic measurement field, direct geographic labels, a shared continuous legend, and a compact framing/footer stack.",
+    "density": "High geographic density, especially in the northeast, mitigated by direct labels and an explicit scale."
+  },
+  "motion": {
+    "mode": "static",
+    "source_metadata": {
+      "frame_count": null,
+      "duration_ms_from_gce": null
+    },
+    "observed_state_change": "No temporal state: this is a static JPEG source asset.",
+    "motion_job": "Not applicable; the quantitative relationship must work in one frame.",
+    "limitation": "No animation exists in this source asset."
+  },
+  "transferable_mechanism": {
+    "reader_job": "See a location-based difference quickly while retaining the actual values and the scale behind the colour encoding.",
+    "argument_shape": "Annotated geographic comparison.",
+    "mechanism": "Co-locate a single place-based measure with geography, direct values, and a shared scale so the reader does not have to reconcile a map with a separate table.",
+    "use_condition": "Use only when geography is materially relevant, the measurement definition and date are credible, and a map communicates the relationship more clearly than a ranked table."
+  },
+  "anti_copy_boundary": "Do not reuse the source’s household framing, country map, city values, calculation methodology, legend range, headline cadence, lavender hand tag, or visual treatment of the regions.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The visual contains numerical values, a source line, methodology language, and a date, but the corpus does not independently verify its data, calculation, or caption association."
+  }
+}

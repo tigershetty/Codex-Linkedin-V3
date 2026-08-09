@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
+  <title id="title">Rough route study: one purchase review has three decisions</title>
+  <desc id="desc">An original low-fidelity decision split for a future working infographic. It is not a final social visual.</desc>
+  <rect width="1080" height="1350" fill="#F5F1EA"/>
+
+  <text x="48" y="66" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="1.8" fill="#4A4A46">ROUTE STUDY 01 / DECISION PATH / NOT A FINAL VISUAL</text>
+  <text x="48" y="142" font-family="Arial, sans-serif" font-size="58" font-weight="800" fill="#101113">One purchase review</text>
+  <text x="48" y="207" font-family="Arial, sans-serif" font-size="56" font-weight="800" fill="#101113">has <tspan fill="#D9492F">3 different decisions.</tspan></text>
+  <text x="48" y="251" font-family="Arial, sans-serif" font-size="22" fill="#4A4A46">Name the question first. Do not let one convenient number answer all three.</text>
+
+  <!-- The trunk makes the reader's starting object explicit before it forks. -->
+  <rect x="246" y="316" width="588" height="118" rx="26" fill="#101113"/>
+  <text x="540" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="1.6" fill="#F5F1EA">OPEN PURCHASE / SHIPMENT REVIEW</text>
+  <text x="540" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="29" font-weight="800" fill="#F5F1EA">One PO is not one decision</text>
+
+  <!-- One input object branches to three distinct questions, rather than three independent cards. -->
+  <path d="M405 434 C373 481 286 493 263 540" fill="none" stroke="#101113" stroke-width="5" stroke-linecap="round"/>
+  <path d="M675 434 C707 481 794 493 817 540" fill="none" stroke="#101113" stroke-width="5" stroke-linecap="round"/>
+  <path d="M540 434 L540 910" fill="none" stroke="#101113" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="263" cy="540" r="10" fill="#D9492F"/>
+  <circle cx="817" cy="540" r="10" fill="#0D8D86"/>
+  <circle cx="540" cy="910" r="10" fill="#E4A72C"/>
+
+  <g transform="translate(48 550)">
+    <rect width="430" height="330" rx="18" fill="#FFFDF8" stroke="#101113" stroke-width="3"/>
+    <rect width="12" height="330" rx="6" fill="#D9492F"/>
+    <rect x="32" y="26" width="56" height="38" rx="19" fill="#D9492F"/>
+    <text x="60" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#FFFDF8">01</text>
+    <text x="108" y="52" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="1.1" fill="#4A4A46">QUANTITY</text>
+    <text x="32" y="119" font-family="Arial, sans-serif" font-size="37" font-weight="800" fill="#101113">How much</text>
+    <text x="32" y="160" font-family="Arial, sans-serif" font-size="37" font-weight="800" fill="#101113">should we buy?</text>
+    <line x1="32" x2="398" y1="187" y2="187" stroke="#101113" stroke-width="2"/>
+    <text x="32" y="220" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="1" fill="#4A4A46">CHECK</text>
+    <text x="32" y="252" font-family="Arial, sans-serif" font-size="19" fill="#101113">Demand • order/setup cost</text>
+    <text x="32" y="281" font-family="Arial, sans-serif" font-size="19" fill="#101113">Holding exposure • MOQ/rounding</text>
+    <text x="32" y="313" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#D9492F">OUTPUT → order quantity</text>
+  </g>
+
+  <g transform="translate(602 550)">
+    <rect width="430" height="330" rx="18" fill="#FFFDF8" stroke="#101113" stroke-width="3"/>
+    <rect width="12" height="330" rx="6" fill="#0D8D86"/>
+    <rect x="32" y="26" width="56" height="38" rx="19" fill="#0D8D86"/>
+    <text x="60" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#FFFDF8">02</text>
+    <text x="108" y="52" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="1.1" fill="#4A4A46">CONSOLIDATE</text>
+    <text x="32" y="119" font-family="Arial, sans-serif" font-size="37" font-weight="800" fill="#101113">Can this</text>
+    <text x="32" y="160" font-family="Arial, sans-serif" font-size="37" font-weight="800" fill="#101113">order wait?</text>
+    <line x1="32" x2="398" y1="187" y2="187" stroke="#101113" stroke-width="2"/>
+    <text x="32" y="220" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="1" fill="#4A4A46">CHECK</text>
+    <text x="32" y="252" font-family="Arial, sans-serif" font-size="18" fill="#101113">Load opportunity • rate/handling</text>
+    <text x="32" y="281" font-family="Arial, sans-serif" font-size="18" fill="#101113">Compatible demand • dwell time</text>
+    <text x="32" y="313" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0D8D86">OUTPUT → wait / combine / release</text>
+  </g>
+
+  <g transform="translate(168 920)">
+    <rect width="744" height="234" rx="18" fill="#FFFDF8" stroke="#101113" stroke-width="3"/>
+    <rect width="12" height="234" rx="6" fill="#E4A72C"/>
+    <rect x="32" y="25" width="56" height="38" rx="19" fill="#E4A72C"/>
+    <text x="60" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#101113">03</text>
+    <text x="108" y="51" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="1.1" fill="#4A4A46">DISPATCH</text>
+    <text x="32" y="116" font-family="Arial, sans-serif" font-size="38" font-weight="800" fill="#101113">When must it leave?</text>
+    <line x1="32" x2="712" y1="142" y2="142" stroke="#101113" stroke-width="2"/>
+    <text x="32" y="176" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="1" fill="#4A4A46">CHECK</text>
+    <text x="138" y="176" font-family="Arial, sans-serif" font-size="19" fill="#101113">Need-by • available supply</text>
+    <text x="412" y="176" font-family="Arial, sans-serif" font-size="19" fill="#101113">Transit time • reliability</text>
+    <text x="32" y="211" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#B87B00">OUTPUT → latest safe dispatch</text>
+  </g>
+
+  <rect x="48" y="1190" width="984" height="104" rx="16" fill="#101113"/>
+  <text x="78" y="1230" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1.1" fill="#F5F1EA">THE BOUNDARY</text>
+  <text x="78" y="1267" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#F5F1EA">EOQ can inform quantity. It cannot, by itself, choose a dispatch date.</text>
+</svg>

@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 37,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/37.gif",
+    "sha256": "868ba67e93ed394f07c56df4e336d760427769f8bc2d396a2a3159242027523a",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        4000,
+        7600
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A two-line ‘How to’ promise uses two large rough-display word groups inside lavender tags, followed by a single-sentence scope clarifier.",
+    "layout": "An orthogonal, looping process route snakes down the page between a circular start and end. Eight rectangular step nodes alternate left and right of the route.",
+    "reading_order": "Title and scope → start node → follow the continuous connector through each named stage → final post/end node.",
+    "typography": "Large open sans title, hand-drawn-style emphasis tags, bold step headings, and smaller descriptive lines inside the completed step cards.",
+    "colour": "White ground with a lavender route/endpoints; completed cards alternate restrained lavender, pink, blue, aqua, coral, and green fills.",
+    "surface": "Thin black connectors, rounded cards with coloured outlines, soft diffuse shadows, and a deliberately spacious one-column canvas.",
+    "modules": "One continuous route, two circular terminals, and eight repeatable process cards whose detailed copy is secondary to the path.",
+    "density": "Moderate: the individual steps have breathing room, so movement along the route remains easy to trace."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 148,
+      "duration_ms_from_gce": 8040
+    },
+    "observed_state_change": "The source starts with the full route and placeholder step labels. By the intermediate sample, the upper and middle nodes have become filled, shadowed cards with explanatory copy; by the near-complete sample the remaining lower nodes are filled too while the route stays fixed.",
+    "motion_job": "Stage an ordered workflow from bare structure to usable detail without making the route itself disappear.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Understand both the order of a workflow and the tangible output or question attached to each step.",
+    "argument_shape": "True sequential route with expanding step cards.",
+    "mechanism": "Show the complete path first, then reveal information-bearing step cards along that already legible path so animation clarifies sequence rather than serving as decoration.",
+    "use_condition": "Use only when the action sequence is materially ordered and each stage can be described by a distinct decision, output, or filter."
+  },
+  "anti_copy_boundary": "Do not reuse the expertise-to-viral-content subject, exact multi-turn route, eight-step count, colour sequence, title cadence, card text, circular start/post labels, or rough-display lavender tags.",
+  "claim_boundary": {
+    "public_claim_status": "caption_association_unverified",
+    "note": "The asset presents a conceptual workflow and uses an outcome-oriented headline. Its supplied caption is only associated by numeric ID; neither that association nor the implied outcome is independently verified."
+  }
+}

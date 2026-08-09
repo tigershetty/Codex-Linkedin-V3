@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 39,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/39.gif",
+    "sha256": "38c6f14fd212c58a7cb3e9f709bcc42e63937300dde374ef8460bc33503aa053",
+    "format": "gif",
+    "canvas": {
+      "width": 1280,
+      "height": 1601
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        4920,
+        9400
+      ],
+      "limitation": "The near-end sample is in a visibly partial loop/reset state. Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A bold two-line headline names a set of landing pages and a fixed number of reusable modules; one strong purple type weight carries the hierarchy.",
+    "layout": "A top strip of seven core modules branches downward into five page-type columns. Each lower column contains a vertical stack of coloured module chips, showing a different selection and order.",
+    "reading_order": "Headline → common seven-module rail → follow arrows into one of five page columns → read the unique module stack for that destination.",
+    "typography": "Heavy geometric sans headline, smaller bold subhead, compact column labels, and short module labels designed to fit repeatable chips.",
+    "colour": "Pale lavender background, deep purple type and connectors, mint as the repeated base-module colour, with occasional pink, blue, yellow, orange, and violet exceptions.",
+    "surface": "Flat digital-diagram treatment: thin purple rules, clean rounded module chips, large empty margins, and a small author mark at bottom right.",
+    "modules": "One parent set of seven modules, five child page stacks, and arrows that make parent-to-child reuse explicit.",
+    "density": "Moderate-high: repeated chip shapes make the five variants comparable even though the selected modules differ."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 209,
+      "duration_ms_from_gce": 9880
+    },
+    "observed_state_change": "The opening state contains the full parent rail and five lower stacks. The intermediate sample temporarily highlights/frames the top rail and animated connection points, while the near-end sample shows a partial fade/reset of the same composition rather than a different information model.",
+    "motion_job": "Guide attention from the reusable parent set to the adapted variants while retaining the whole information architecture on screen.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "See what stays constant across several deliverables and what must change by context.",
+    "argument_shape": "One shared component inventory branching into several context-specific assemblies.",
+    "mechanism": "Place the reusable primitives in a single parent rail, then connect them visibly to several child assemblies whose ordering and omissions reveal each use case.",
+    "use_condition": "Use only where a real common inventory feeds multiple distinct outputs; the examples need a consistent unit of comparison and cannot be arbitrary lists."
+  },
+  "anti_copy_boundary": "Do not reuse the landing-page subject, named module inventory, seven-by-five architecture, exact chip order, purple-and-mint treatment, arrow geometry, title wording, or source attribution mark.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The source asserts that the named modules are evergreen and maps them to page types. Its supplied caption is only associated by numeric ID, and no effectiveness claim is independently verified."
+  }
+}

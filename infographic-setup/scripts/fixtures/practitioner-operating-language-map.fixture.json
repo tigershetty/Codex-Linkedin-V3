@@ -1,0 +1,163 @@
+{
+  "$schema": "../../references/creative-genome/schemas/practitioner-operating-language-map.schema.json",
+  "schema_version": "1.0.0",
+  "status": "ready",
+  "map_id": "POLM-MRP-RESCHEDULE-IN",
+  "scope": {
+    "primary_role": "Material planner",
+    "exact_work_moment": "Reviewing an MRP rescheduling exception against an open purchase order after the planned receipt date falls after the requirement date.",
+    "artifact": "MRP exception row linked to an open purchase order and its due date.",
+    "trigger": "The planning system recommends moving an existing receipt earlier to cover a requirement.",
+    "decision": "Whether to confirm a new receipt date, expedite, or change the plan after checking the affected purchase order.",
+    "consequence": "An unresolved receipt-date mismatch can leave the related requirement at risk.",
+    "system_scope": {
+      "mode": "cross_vendor",
+      "systems": [
+        { "vendor": "SAP", "product_or_context": "MRP rescheduling check" },
+        { "vendor": "Oracle", "product_or_context": "Supply Planning exceptions" }
+      ],
+      "wording_boundary": "Vendor labels and planning configuration differ. Use a generic term for the cross-vendor concept, or name the ERP whenever a vendor label is shown."
+    },
+    "source_refs": ["SRC-ASCM", "SRC-SAP-RESCHEDULE", "SRC-ORACLE-RESCHEDULE", "SRC-PRACTITIONER-ROUTINE"]
+  },
+  "source_registry": [
+    {
+      "source_id": "SRC-ASCM",
+      "source_type": "canonical_standard",
+      "location": "https://www.ascm.org/learning-development/certifications-credentials/dictionary/",
+      "accessed_on": "2026-08-09",
+      "context": {
+        "role_or_audience": "Cross-industry supply-chain professionals",
+        "work_context": "Shared supply-chain terminology",
+        "system_context": "Vendor-neutral"
+      },
+      "supports": ["canonical_term"],
+      "supported_paraphrase": "Provides a common supply-chain vocabulary; it does not establish a particular ERP workflow.",
+      "limitation": "A standard dictionary cannot prove the exact label used on a planner's screen."
+    },
+    {
+      "source_id": "SRC-SAP-RESCHEDULE",
+      "source_type": "official_system_guidance",
+      "location": "https://help.sap.com/docs/SUPPORT_CONTENT/spmm/3362168364.html",
+      "accessed_on": "2026-08-09",
+      "context": {
+        "role_or_audience": "MRP controller",
+        "work_context": "MRP rescheduling check",
+        "system_context": "SAP MRP"
+      },
+      "supports": ["system_term", "system_behavior", "artifact", "trigger", "decision", "claim_boundary"],
+      "supported_paraphrase": "SAP presents a rescheduling proposal for a firmed receipt that the MRP controller processes.",
+      "limitation": "It describes SAP configuration and logic, not every company's supplier-confirmation or escalation policy."
+    },
+    {
+      "source_id": "SRC-ORACLE-RESCHEDULE",
+      "source_type": "official_system_guidance",
+      "location": "https://docs.oracle.com/en/cloud/saas/supply-chain-and-manufacturing/25d/faupc/predefined-supply-planning-exceptions.html",
+      "accessed_on": "2026-08-09",
+      "context": {
+        "role_or_audience": "Supply planner",
+        "work_context": "Supply planning exception review",
+        "system_context": "Oracle Supply Planning"
+      },
+      "supports": ["system_term", "system_behavior", "artifact", "trigger", "decision", "claim_boundary"],
+      "supported_paraphrase": "Oracle identifies non-firm supply orders whose original due date is later than a suggested due date and recommends that they be rescheduled earlier.",
+      "limitation": "It does not prove a supplier has accepted a new date or that a customer promise should change."
+    },
+    {
+      "source_id": "SRC-PRACTITIONER-ROUTINE",
+      "source_type": "practitioner_public_signal",
+      "location": "https://www.linkedin.com/posts/marciadwilliams_a-day-in-the-life-of-a-materials-planner-activity-7308819439385235457-6OZI",
+      "accessed_on": "2026-08-09",
+      "context": {
+        "role_or_audience": "Materials planner",
+        "work_context": "Daily MRP follow-up and supplier contact",
+        "system_context": "ERP/MRP described generically"
+      },
+      "supports": ["field_phrase", "work_moment", "artifact", "trigger", "decision"],
+      "supported_paraphrase": "A practitioner describes checking overnight MRP runs, reviewing supplier lead-time confirmations, and following up on purchase orders after exceptions occur.",
+      "limitation": "One public practitioner account is a vernacular signal, not proof of universal workflow frequency or terminology."
+    }
+  ],
+  "phrases": [
+    {
+      "phrase_id": "PHRASE-SUPPLIER-CONFIRMATION",
+      "exact_phrase": "Supplier Lead Time Confirmations",
+      "phrase_type": "observed_practitioner_phrase",
+      "source_excerpt": "Supplier Lead Time Confirmations — a quick round of emails or calls to key suppliers, especially those flagged by the MRP run.",
+      "source_refs": ["SRC-PRACTITIONER-ROUTINE"],
+      "usage_note": "Use this as evidence that supplier confirmation is a recognisable work action; do not present the single source as a universal daily routine."
+    },
+    {
+      "phrase_id": "PHRASE-SAP-BRING-FORWARD",
+      "exact_phrase": "Bring process forward (reschedule in)",
+      "phrase_type": "system_label",
+      "source_excerpt": "Bring process forward (reschedule in)",
+      "source_refs": ["SRC-SAP-RESCHEDULE"],
+      "usage_note": "Show only with SAP context or alongside a generic explanation."
+    }
+  ],
+  "terms": [
+    {
+      "term_id": "TERM-RESCHEDULE-IN",
+      "canonical_concept": "MRP rescheduling recommendation",
+      "public_label": "reschedule in",
+      "term_class": "system_term",
+      "context_mode": "cross_vendor",
+      "source_refs": ["SRC-SAP-RESCHEDULE", "SRC-ORACLE-RESCHEDULE"],
+      "variants": [
+        {
+          "variant_id": "VAR-SAP-BRING-FORWARD",
+          "label": "Bring process forward (reschedule in)",
+          "variant_type": "system_label",
+          "system_context": "SAP MRP",
+          "copy_usage": "system_labeled",
+          "source_refs": ["SRC-SAP-RESCHEDULE"]
+        },
+        {
+          "variant_id": "VAR-ORACLE-RESCHEDULE-IN",
+          "label": "Orders To Be Rescheduled In",
+          "variant_type": "system_label",
+          "system_context": "Oracle Supply Planning",
+          "copy_usage": "system_labeled",
+          "source_refs": ["SRC-ORACLE-RESCHEDULE"]
+        }
+      ],
+      "non_equivalences": [
+        {
+          "not_equivalent_to": "supplier-confirmed delivery date",
+          "reason": "The documented ERP behavior is a proposal or recommendation. It does not establish that a supplier has accepted a changed delivery date.",
+          "source_refs": ["SRC-SAP-RESCHEDULE", "SRC-ORACLE-RESCHEDULE"]
+        }
+      ]
+    }
+  ],
+  "claim_boundary": {
+    "public_wording_boundary": "Explain that a rescheduling exception identifies a date mismatch and may recommend an earlier receipt. Do not say that the supplier has agreed, the purchase order has changed, or a customer promise must change.",
+    "does_not_establish": "This map does not establish a universal expedite rule, supplier reliability threshold, ownership model, or customer-date decision.",
+    "source_refs": ["SRC-SAP-RESCHEDULE", "SRC-ORACLE-RESCHEDULE"]
+  },
+  "final_copy_audit": {
+    "map_id": "POLM-MRP-RESCHEDULE-IN",
+    "status": "pass",
+    "reviewed_at": "2026-08-09",
+    "reviewer": "Editorial QA",
+    "surfaces": [
+      {
+        "surface_id": "SURFACE-VISUAL-01",
+        "surface_type": "visual",
+        "exact_copy": "MRP says ‘reschedule in.’ What does it actually mean? A planning recommendation is not a supplier-confirmed delivery date.",
+        "term_uses": [
+          {
+            "term_id": "TERM-RESCHEDULE-IN",
+            "rendered_as": "reschedule in",
+            "system_context_shown": false
+          }
+        ],
+        "unmapped_technical_terms": [],
+        "unresolved_non_equivalences": [],
+        "false_universality_flags": []
+      }
+    ],
+    "decision_note": "The generic label is supported by cross-vendor source records. Vendor-specific labels are not shown without their ERP context."
+  }
+}

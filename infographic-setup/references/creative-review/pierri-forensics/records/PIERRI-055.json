@@ -26,9 +26,11 @@
       "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
       "sampled_positions_ms": [
         0,
-        7000,
-        13500
+        1400,
+        2680
       ],
+      "time_basis": "Single source-cycle frame starts from the original GIF's Graphics Control Extension timing: frames 0, 35, and 67 at 0ms, 1400ms, and 2680ms of a 3000ms cycle.",
+      "timestamp_correction": "The prior 7000ms and 13500ms values exceeded the source GIF's 3000ms cycle. They have been replaced with the corresponding in-cycle source-frame starts; no multi-loop playback timing is claimed.",
       "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
     }
   },

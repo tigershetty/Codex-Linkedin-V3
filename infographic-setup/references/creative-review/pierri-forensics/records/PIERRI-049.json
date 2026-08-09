@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 49,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/49.jpeg",
+    "sha256": "70452a6aac8f4be5b570130e748d17510eff3e732af004caee79e346b3ea25a9",
+    "format": "jpeg",
+    "canvas": {
+      "width": 800,
+      "height": 1000
+    }
+  },
+  "caption_link": {
+    "status": "asset_only",
+    "association_confidence": "no_caption_supplied",
+    "caption_available": false,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Original local JPEG displayed directly at full-frame review size.",
+    "motion_sampling": {
+      "method": "Not applicable for static JPEG.",
+      "sampled_positions_ms": [],
+      "limitation": "No animation exists in this source asset."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A one-line instructional headline isolates a small percentage claim in a lavender rough-display tag, followed by a confidence-building subtitle.",
+    "layout": "One top framework panel explains a three-step formula. Three full-width example panels below repeat the same row structure, each with an idea-to-outcome-to-contrarian proposition and a wordsmithing line.",
+    "reading_order": "Headline and promise → abstract three-step formula → one repeated example card at a time → scan the token substitutions and final copy refinement.",
+    "typography": "Large light sans title, rough-display numeric tag, bold left-side step labels, interlocking rounded/rectangular token labels, and smaller wordsmithing examples.",
+    "colour": "Lavender framework panel followed by pink, aqua, and blue example panels; white token surfaces and darker outlined emphasis blocks establish a consistent syntax.",
+    "surface": "Flat coloured bands, thin black rules, dotted horizontal separators, pill-shaped concepts, rectangular contrast blocks, arrows, and subtle shadowing.",
+    "modules": "One canonical procedure and three instantiations, each made of the same three instructional rows plus a text outcome.",
+    "density": "Moderate-high: repetition reduces cognitive load because the reader only has to learn the token syntax once."
+  },
+  "motion": {
+    "mode": "static",
+    "source_metadata": {
+      "frame_count": null,
+      "duration_ms_from_gce": null
+    },
+    "observed_state_change": "No temporal state: this is a static JPEG source asset.",
+    "motion_job": "Not applicable; the reusable formula and examples are meant to be checked against one another in one frame.",
+    "limitation": "No animation exists in this source asset."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Learn a generative formula by seeing both its stable roles and several varied instantiations.",
+    "argument_shape": "Abstract procedure followed by repeated worked examples.",
+    "mechanism": "Define a small number of stable placeholders once, preserve their visual role in every example, and make the final wording/output visibly different from the input tokens.",
+    "use_condition": "Use when a real, bounded formula can generate several meaningfully different cases. Do not imply that a reusable copy formula guarantees reach or performance."
+  },
+  "anti_copy_boundary": "Do not reuse the hook subject, percentage promise, three-step formula, token wording, exact example content, lavender/pink/aqua/blue band sequence, rounded-versus-rectangular token syntax, or title treatment.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "No matching caption was supplied. The asset states an elite-performance promise and gives copywriting assertions, but provides no native evidence or verification for them."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 29,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/29.gif",
+    "sha256": "4b16b1279e7d7a8a56d5aba45d2c3bb152a5aa4ce6a8a692df471dbcc57708ec",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        3520,
+        6540
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A four-level strategy title uses one long lavender rough-display tag and immediately asks the reader to self-locate.",
+    "layout": "A large five-row maturity table compares four labelled levels across post formats, content-type mix, engagement, AI use, consistency, required input, and results.",
+    "reading_order": "Title and self-assessment question → choose a level column → read down its repeated dimensions → compare a row horizontally only when investigating a particular maturity trade-off.",
+    "typography": "Large thin headline, bold level headings, strong row labels in a shaded left index, and compact sans annotations with custom visual micro-encodings.",
+    "colour": "Lavender headings and index cells frame a white table; pastel green, peach, aqua, pink, blue, and lavender encode content-type slices and outcome bars.",
+    "surface": "White background, fine purple table rules, rounded metric pills, pie diagrams, small calendar grids, coloured bar marks, and restrained inner shadows.",
+    "modules": "Four maturity columns crossed with seven dimensions, with each row using an appropriate miniature: pie, pill, calendar, time allocation, or bar set.",
+    "density": "Extremely high: the matrix is only navigable because the row dimension stays fixed while visual grammar changes to match the type of comparison."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 176,
+      "duration_ms_from_gce": 7040
+    },
+    "observed_state_change": "The sampled intermediate state shows pie segments changing position or share, a diagonal reveal moving through lower rows, and result bars growing across level columns; the near-complete state settles into the full maturity matrix.",
+    "motion_job": "Reveal the difference in composition, commitment, and outcome across columns before allowing the reader to study a static self-assessment table.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Self-assess a current operating level without confusing maturity with one isolated metric.",
+    "argument_shape": "Multi-dimensional maturity matrix.",
+    "mechanism": "Define a small number of levels, keep the comparison dimensions fixed, and assign each dimension the smallest visual encoding that makes its pattern inspectable.",
+    "use_condition": "Use only when the levels are explicitly bounded and the dimensions are evidence-based or clearly framed as a judgement rubric; do not turn an arbitrary ranking into a false maturity model."
+  },
+  "anti_copy_boundary": "Do not reuse the strategy levels, maturity claims, dimensions, time allocations, pie/calendar/bar encodings, table geometry, rough title tag, palette, or animation sequence.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The maturity levels, effort estimates, and result implications are creator assertions and must not become a Shetty’s Desk benchmark without independent definition and support."
+  }
+}

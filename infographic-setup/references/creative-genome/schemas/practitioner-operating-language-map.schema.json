@@ -1,0 +1,315 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shettysdesk.com/schemas/creative-genome/practitioner-operating-language-map.schema.json",
+  "title": "Practitioner Operating Language Map",
+  "description": "A bounded, source-linked record of how a supply-chain role names one work moment, object, trigger, decision, and terminology boundary. It is terminology/context QA, not automatic topic selection, claim verification, or publication approval.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "status",
+    "map_id",
+    "scope",
+    "source_registry",
+    "phrases",
+    "terms",
+    "claim_boundary"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema_version": { "const": "1.0.0" },
+    "status": { "enum": ["draft", "ready"] },
+    "map_id": { "type": "string" },
+    "scope": { "$ref": "#/$defs/scope" },
+    "source_registry": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/source" }
+    },
+    "phrases": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/phrase" }
+    },
+    "terms": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/term" }
+    },
+    "claim_boundary": { "$ref": "#/$defs/claimBoundary" },
+    "final_copy_audit": { "$ref": "#/$defs/finalCopyAudit" },
+    "notes": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "ready" } } },
+      "then": {
+        "properties": {
+          "map_id": { "minLength": 1 },
+          "source_registry": { "minItems": 2 },
+          "phrases": { "minItems": 1 },
+          "terms": { "minItems": 1 }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "nonEmpty": { "type": "string", "minLength": 1 },
+    "stringArray": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary_role",
+        "exact_work_moment",
+        "artifact",
+        "trigger",
+        "decision",
+        "consequence",
+        "system_scope",
+        "source_refs"
+      ],
+      "properties": {
+        "primary_role": { "type": "string" },
+        "exact_work_moment": { "type": "string" },
+        "artifact": { "type": "string" },
+        "trigger": { "type": "string" },
+        "decision": { "type": "string" },
+        "consequence": { "type": "string" },
+        "system_scope": { "$ref": "#/$defs/systemScope" },
+        "source_refs": { "$ref": "#/$defs/stringArray" }
+      }
+    },
+    "systemScope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mode", "systems", "wording_boundary"],
+      "properties": {
+        "mode": { "enum": ["generic", "vendor_specific", "cross_vendor"] },
+        "systems": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/system" },
+          "uniqueItems": true
+        },
+        "wording_boundary": { "type": "string" }
+      }
+    },
+    "system": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["vendor", "product_or_context"],
+      "properties": {
+        "vendor": { "type": "string", "minLength": 1 },
+        "product_or_context": { "type": "string", "minLength": 1 }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "source_type",
+        "location",
+        "accessed_on",
+        "context",
+        "supports",
+        "supported_paraphrase",
+        "limitation"
+      ],
+      "properties": {
+        "source_id": { "type": "string", "minLength": 1 },
+        "source_type": {
+          "enum": [
+            "canonical_standard",
+            "official_system_guidance",
+            "academic_or_industry_research",
+            "documented_case",
+            "practitioner_public_signal",
+            "role_description",
+            "tiger_source"
+          ]
+        },
+        "location": { "type": "string", "minLength": 1 },
+        "accessed_on": { "type": "string", "format": "date" },
+        "context": { "$ref": "#/$defs/sourceContext" },
+        "supports": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "canonical_term",
+              "system_term",
+              "system_behavior",
+              "field_phrase",
+              "work_moment",
+              "artifact",
+              "trigger",
+              "decision",
+              "consequence",
+              "claim_boundary"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "supported_paraphrase": { "type": "string" },
+        "limitation": { "type": "string" }
+      }
+    },
+    "sourceContext": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["role_or_audience", "work_context", "system_context"],
+      "properties": {
+        "role_or_audience": { "type": "string" },
+        "work_context": { "type": "string" },
+        "system_context": { "type": "string" }
+      }
+    },
+    "phrase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "phrase_id",
+        "exact_phrase",
+        "phrase_type",
+        "source_excerpt",
+        "source_refs",
+        "usage_note"
+      ],
+      "properties": {
+        "phrase_id": { "type": "string", "minLength": 1 },
+        "exact_phrase": { "type": "string", "minLength": 1 },
+        "phrase_type": { "enum": ["observed_practitioner_phrase", "system_label"] },
+        "source_excerpt": { "type": "string", "minLength": 1 },
+        "source_refs": { "$ref": "#/$defs/stringArray" },
+        "usage_note": { "type": "string" }
+      }
+    },
+    "term": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "term_id",
+        "canonical_concept",
+        "public_label",
+        "term_class",
+        "context_mode",
+        "source_refs",
+        "variants",
+        "non_equivalences"
+      ],
+      "properties": {
+        "term_id": { "type": "string", "minLength": 1 },
+        "canonical_concept": { "type": "string", "minLength": 1 },
+        "public_label": { "type": "string", "minLength": 1 },
+        "term_class": {
+          "enum": ["canonical_term", "system_term", "field_term", "abbreviation", "plain_language"]
+        },
+        "context_mode": { "enum": ["generic", "vendor_specific", "cross_vendor"] },
+        "source_refs": { "$ref": "#/$defs/stringArray" },
+        "variants": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/termVariant" }
+        },
+        "non_equivalences": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/nonEquivalence" }
+        }
+      }
+    },
+    "termVariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "variant_id",
+        "label",
+        "variant_type",
+        "system_context",
+        "copy_usage",
+        "source_refs"
+      ],
+      "properties": {
+        "variant_id": { "type": "string", "minLength": 1 },
+        "label": { "type": "string", "minLength": 1 },
+        "variant_type": { "enum": ["system_label", "field_alias", "abbreviation", "regional_variant"] },
+        "system_context": { "type": "string" },
+        "copy_usage": { "enum": ["generic_safe", "system_labeled", "explain_first", "do_not_use"] },
+        "source_refs": { "$ref": "#/$defs/stringArray" }
+      }
+    },
+    "nonEquivalence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["not_equivalent_to", "reason", "source_refs"],
+      "properties": {
+        "not_equivalent_to": { "type": "string", "minLength": 1 },
+        "reason": { "type": "string", "minLength": 1 },
+        "source_refs": { "$ref": "#/$defs/stringArray" }
+      }
+    },
+    "claimBoundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["public_wording_boundary", "does_not_establish", "source_refs"],
+      "properties": {
+        "public_wording_boundary": { "type": "string" },
+        "does_not_establish": { "type": "string" },
+        "source_refs": { "$ref": "#/$defs/stringArray" }
+      }
+    },
+    "finalCopyAudit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["map_id", "status", "reviewed_at", "reviewer", "surfaces", "decision_note"],
+      "properties": {
+        "map_id": { "type": "string" },
+        "status": { "enum": ["not_run", "pass", "needs_review"] },
+        "reviewed_at": { "type": "string", "format": "date" },
+        "reviewer": { "type": "string" },
+        "surfaces": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/copySurface" }
+        },
+        "decision_note": { "type": "string" }
+      }
+    },
+    "copySurface": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "surface_id",
+        "surface_type",
+        "exact_copy",
+        "term_uses",
+        "unmapped_technical_terms",
+        "unresolved_non_equivalences",
+        "false_universality_flags"
+      ],
+      "properties": {
+        "surface_id": { "type": "string", "minLength": 1 },
+        "surface_type": { "enum": ["visual", "caption", "both"] },
+        "exact_copy": { "type": "string" },
+        "term_uses": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/termUse" }
+        },
+        "unmapped_technical_terms": { "$ref": "#/$defs/stringArray" },
+        "unresolved_non_equivalences": { "$ref": "#/$defs/stringArray" },
+        "false_universality_flags": { "$ref": "#/$defs/stringArray" }
+      }
+    },
+    "termUse": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["term_id", "rendered_as", "system_context_shown"],
+      "properties": {
+        "term_id": { "type": "string", "minLength": 1 },
+        "variant_id": { "type": "string" },
+        "rendered_as": { "type": "string", "minLength": 1 },
+        "system_context_shown": { "type": "boolean" }
+      }
+    }
+  }
+}

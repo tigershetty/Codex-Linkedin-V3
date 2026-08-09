@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 24,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/24.gif",
+    "sha256": "bf52ba7996ccb0ced10c38a961b09db939178b396615a142543bf0351ee5d263",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asserted_by_numeric_id",
+    "association_confidence": "asserted_by_numeric_id_only",
+    "caption_available": true,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        4420,
+        8340
+      ],
+      "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A six-layer content-strategy title combines a large lightweight line with a lavender rough-display phrase-object.",
+    "layout": "Six broad nested semicircular bands descend into one another from tactics to outcomes. Each band contains small category labels; three floating callout windows later bridge selected adjacent bands.",
+    "reading_order": "Title → identify the outer-to-inner hierarchy → scan contributor labels within a band → use the temporary callouts to understand the three paired growth positions.",
+    "typography": "Large open headline, rough display tag, bold central layer labels in raised rectangles, and short sans label clusters distributed along each arc.",
+    "colour": "Lavender, coral, pale blue, aqua, pink, and lavender-blue distinguish the nested layers; matching circular markers sit on the left and right arc edges.",
+    "surface": "White ground, oversized soft-gradient bands with fine dark outlines, pale text pills, lifted label cards, small circular markers, and translucent modal-like callouts.",
+    "modules": "Six nested hierarchy bands, many small element labels, and three relationship callouts spanning paired levels.",
+    "density": "High: the nested containers carry membership and depth, allowing many elements to remain legible without a conventional table."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 141,
+      "duration_ms_from_gce": 8840
+    },
+    "observed_state_change": "The sampled build introduces translucent callout windows that pair selected layers and fades unselected labels into the background; coloured circular markers appear to travel on the surrounding arcs before the layered overview becomes readable again.",
+    "motion_job": "Temporarily shift a large taxonomy from membership reading to relationship reading, then return it to a browsable hierarchy.",
+    "limitation": "Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "See both the level at which something belongs and the trade-off created when two adjacent levels are combined.",
+    "argument_shape": "Nested taxonomy with selective relationship overlays.",
+    "mechanism": "Build the durable still around genuine nested membership, then use temporary overlays only to interrogate the few cross-layer relationships the reader must understand.",
+    "use_condition": "Use only when the material really has containment or dependency layers; if categories are peers, use a comparison or map rather than concentric bands."
+  },
+  "anti_copy_boundary": "Do not reuse the six-layer content taxonomy, growth claims, semicircle nesting, label placement, relationship callouts, coloured arc markers, rough title tag, or animation sequence.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "The asset makes hierarchy and audience-growth assertions that are not independently evidenced by the supplied corpus."
+  }
+}

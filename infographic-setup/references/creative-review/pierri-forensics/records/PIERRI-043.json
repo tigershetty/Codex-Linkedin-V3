@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "vincent-pierri-local-reference",
+  "asset_id": 43,
+  "review_status": "reviewed_direct_asset",
+  "source_asset": {
+    "relative_path": "infographic-setup/references/Vincent Pierri Reference/43.gif",
+    "sha256": "e2fc017f6575be2b3d41237dc86c91d2453ac1c91a6016af11b7257f153d45a6",
+    "format": "gif",
+    "canvas": {
+      "width": 1080,
+      "height": 1350
+    }
+  },
+  "caption_link": {
+    "status": "asset_only",
+    "association_confidence": "no_caption_supplied",
+    "caption_available": false,
+    "limitation": "The source provides matching numeric IDs only. It does not provide an original post URL, date, media link, or an explicit asset-to-caption key."
+  },
+  "inspection": {
+    "reviewer": "Codex direct visual review",
+    "inspected_on": "2026-08-07",
+    "evidence_scope": "Source-bound start, material-intermediate, and near-complete frames were extracted from the original local GIF and visually inspected; metadata came from that same source file.",
+    "motion_sampling": {
+      "method": "Three source-bound frame samples extracted from the original local GIF for review; no derivative was added to the corpus.",
+      "sampled_positions_ms": [
+        0,
+        2000,
+        3800
+      ],
+      "limitation": "The near-end sample is in a visibly partial loop/reset state. Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+    }
+  },
+  "visual_anatomy": {
+    "title": "A large two-line headline names four layers, with the central phrase rendered as one wide lavender rough-display tag; a short subtitle sits below.",
+    "layout": "Four expanding concentric arc/ring layers dominate the right two-thirds of the canvas. Four structured rubric cards stack down the left, and dotted leaders connect each card to its matching ring.",
+    "reading_order": "Headline and scope → left-side layer cards → follow each dotted leader to the corresponding ring → read the diagnostic question bubbles distributed along that ring.",
+    "typography": "Large light sans and rough-display tag for the title; bold label/value pairs in the cards; small centred questions inside translucent circular bubbles.",
+    "colour": "Lavender, pink, aqua, and pale blue repeat across the four left cards and their concentric bands; white ground gives the rings room to dominate.",
+    "surface": "Softly shaded overlapping arcs, semi-transparent question bubbles, thin dark ring outlines, dotted leaders, and rounded cards with small internal white strips.",
+    "modules": "Four summary cards, four aligned ring layers, many diagnostic question bubbles, and paired leader-line anchors.",
+    "density": "High: two information views coexist, but matching colour and aligned leader lines let the reader navigate between a compact rule and its detailed prompts."
+  },
+  "motion": {
+    "mode": "gif_sampled",
+    "source_metadata": {
+      "frame_count": 101,
+      "duration_ms_from_gce": 4040
+    },
+    "observed_state_change": "The rings, question bubbles, and four rubric cards remain present across samples. Small coloured anchor dots change position along ring edges and leader paths; the near-end sample begins a partial reset/fade instead of adding new content.",
+    "motion_job": "Create a light cue of traversal between the rubric and the deeper diagnostic field while preserving a complete static reading surface.",
+    "limitation": "The near-end sample is in a visibly partial loop/reset state. Three sampled frames establish the observed state change, not a frame-by-frame reconstruction of timing or platform playback."
+  },
+  "transferable_mechanism": {
+    "reader_job": "Move from a small number of governing criteria to the more specific questions that diagnose each criterion.",
+    "argument_shape": "Four-level diagnostic model shown as a compact rubric plus a nested question field.",
+    "mechanism": "Pair a concise external control panel with a detailed nested visual, using a stable colour and leader relation so the reader can cross-reference overview and depth.",
+    "use_condition": "Use when the material really has nested levels and each high-level criterion maps to several diagnostic questions; the rings must encode inclusion or dependency, not decoration."
+  },
+  "anti_copy_boundary": "Do not reuse the viral-infographic subject, four named layers, concentric-arc composition, left-card/right-ring split, question wording, pastel order, dotted leaders, or moving anchor dots.",
+  "claim_boundary": {
+    "public_claim_status": "asset_claims_not_independently_verified",
+    "note": "No matching caption was supplied. The asset itself makes outcome-oriented assertions about virality and saves that are not independently verified."
+  }
+}

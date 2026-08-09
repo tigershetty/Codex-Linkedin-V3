@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shettysdesk.com/schemas/creative-genome/creative-composition-packet.schema.json",
+  "title": "Creative Composition Packet",
+  "description": "A provenance-aware, three-route creative packet for a high-density working infographic.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "status", "packet_id", "candidate_card_path", "source_roles", "routes", "selection"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema_version": { "const": "1.0.0" },
+    "status": { "enum": ["draft", "routes_ready", "route_selected", "valid_ready", "killed"] },
+    "packet_id": { "type": "string" },
+    "candidate_card_path": { "type": "string" },
+    "source_roles": { "$ref": "#/$defs/sourceRoles" },
+    "routes": { "type": "array", "items": { "$ref": "#/$defs/route" } },
+    "selection": { "$ref": "#/$defs/selection" },
+    "selected_route_review_path": { "type": ["string", "null"] },
+    "notes": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "enum": ["routes_ready", "route_selected", "valid_ready"] } } },
+      "then": { "properties": { "routes": { "minItems": 3 } } }
+    },
+    {
+      "if": { "properties": { "status": { "enum": ["route_selected", "valid_ready"] } } },
+      "then": { "properties": { "selection": { "$ref": "#/$defs/selectedSelection" } } }
+    },
+    {
+      "if": { "properties": { "status": { "const": "valid_ready" } } },
+      "then": {
+        "required": ["selected_route_review_path"],
+        "properties": {
+          "selected_route_review_path": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["corpus", "record_id", "record_path", "canonical_mechanism_pointer", "anti_copy_boundary_pointer"],
+      "properties": {
+        "corpus": { "enum": ["pierri", "top100"] },
+        "record_id": { "type": "string", "minLength": 1 },
+        "record_path": { "type": "string", "minLength": 1 },
+        "canonical_mechanism_pointer": { "type": "string", "pattern": "^/" },
+        "anti_copy_boundary_pointer": { "type": "string", "pattern": "^/" }
+      }
+    },
+    "sourceRoles": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["information_mechanism", "attention_or_utility", "caption_mechanism"],
+      "properties": {
+        "information_mechanism": { "$ref": "#/$defs/reference" },
+        "attention_or_utility": { "$ref": "#/$defs/reference" },
+        "caption_mechanism": { "$ref": "#/$defs/reference" }
+      }
+    },
+    "route": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["route_id", "semantic_object", "direction_artifact_path", "spatial_truth", "first_frame", "reading_route", "density_translation", "visual_carries", "caption_carries", "anti_copy_transformation", "kill_condition"],
+      "properties": {
+        "route_id": { "type": "string", "minLength": 1 },
+        "semantic_object": { "enum": ["decision_path", "comparison", "tradeoff_field", "diagnostic", "system_map", "taxonomy", "maturity_model", "sequence", "before_after", "data_display", "value_driver_tree", "other"] },
+        "direction_artifact_path": { "type": "string", "minLength": 1 },
+        "spatial_truth": { "type": "string", "minLength": 1 },
+        "first_frame": { "type": "string", "minLength": 1 },
+        "reading_route": { "type": "string", "minLength": 1 },
+        "density_translation": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "visual_carries": { "type": "string", "minLength": 1 },
+        "caption_carries": { "type": "string", "minLength": 1 },
+        "anti_copy_transformation": { "type": "string", "minLength": 1 },
+        "kill_condition": { "type": "string", "minLength": 1 }
+      }
+    },
+    "selection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["decision", "selected_route_id", "reason"],
+      "properties": {
+        "decision": { "enum": ["pending", "select", "hybridise", "kill"] },
+        "selected_route_id": { "type": ["string", "null"] },
+        "reason": { "type": "string" }
+      }
+    },
+    "selectedSelection": {
+      "allOf": [
+        { "$ref": "#/$defs/selection" },
+        {
+          "properties": {
+            "decision": { "enum": ["select", "hybridise"] },
+            "selected_route_id": { "type": "string", "minLength": 1 },
+            "reason": { "type": "string", "minLength": 1 }
+          }
+        }
+      ]
+    }
+  }
+}

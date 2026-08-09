@@ -86,6 +86,9 @@ selected claim mode.
 - Visual workflow: `infographic-setup/references/visual-engine-v2.md`
 - Signature authority: `infographic-setup/references/creative-review/signature-system-v3.md`
 - Framework-led social visual route: `infographic-setup/references/v5-working-infographic-production-system.md`
+- Working Infographic candidate gate: `infographic-setup/references/resource-candidate-card-v1.md`
+- Working Infographic route development: `infographic-setup/references/creative-composition-packet-v1.md`
+- Source-backed opportunity branches: `infographic-setup/references/creative-genome/supply-chain-knowledge-map-v1.json`
 - Field Guide specialist route: `infographic-setup/references/v5-field-guide-notebook-production-system.md`
 - Voice gate: `infographic-setup/references/tiger-source-gate-v1.md`
 - Motion: `infographic-setup/references/motion-engine-v1.md` for picture-first work;
@@ -108,6 +111,10 @@ or `/ai-for-sc` plans are candidate banks. Files under dated archive folders are
 - A selected high-density Visual Framework or Field Guide uses a deterministic Figma master as the
   actual LinkedIn visual; do not ask an image model to typeset dense material. Keep normal
   scene-led posts image-native.
+- Do not start a high-density Working Infographic from a broad topic or a visual template. It first
+  needs a `build_ready` Resource Candidate Card and a valid Creative Composition Packet with three
+  non-isomorphic semantic routes. This is a reader-value and originality control, not a score or a
+  restriction on lighter posts.
 - Operating Studio and Cobalt Grid are historical reference material, not automatic visual defaults.
 - Do not automate LinkedIn comments or publish without explicit approval.
 - Preserve the active visual named by post-card.md once approved; do not silently treat an older

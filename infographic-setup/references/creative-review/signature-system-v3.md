@@ -1,4 +1,4 @@
-# Shetty's Desk Signature System V3 — Operational Cartography
+# Shetty's Desk Signature System V3 — Working Information Objects
 
 **Status:** active visual-signature guardrail for V5. Replaces V2 as the default authority.
 
@@ -8,13 +8,17 @@ Shetty's Desk should become recognisable because it repeatedly turns a difficult
 moment into a clear, valuable visual thought object. It is not a fixed palette, font pairing,
 card system, or mascot.
 
-The ownable behaviour is **Operational Cartography**:
+The ownable behaviour is **Working Information Objects**:
 
-> Make the hand-off, constraint, choice, trade-off, date, signal, owner, or operating system
-> easier to see than it was in the meeting.
+> Give one real working tension a spatial object that lets the reader compare, locate, select,
+> trace, inspect, or prepare something more precisely than before.
 
-The reader should feel that a capable peer has made an invisible working problem visible—not that a
-consulting deck, AI template, or another creator's post has been restyled.
+The reader should feel that a capable peer has made a difficult work moment easier to operate—not
+that a consulting deck, AI template, or another creator's post has been restyled.
+
+This is intentionally not a named art style. “Operational Cartography” remains one possible
+expression when the argument is a hand-off, route, constraint or network; it is not the default
+look, brand motif, or expected geometry for every post.
 
 ## V5 production families
 
@@ -31,8 +35,9 @@ the brand's public visual posture.
 
 ## Fixed behaviours
 
-1. **One clear reader promise.** At feed size, the reader sees a useful outcome or recognisable
-   tension—not a category label.
+1. **One lived reader operation.** At feed size, the reader sees a useful outcome or recognisable
+   tension—not a category label. By ten seconds they know what they can compare, locate, select,
+   trace, inspect, or prepare.
 2. **A truthful spatial thesis.** The visual form makes the actual relationship visible: a path,
    comparison, map, stack, spectrum, matrix, sequence, or measured display. Do not create an
    implied order, causality, precision, or ownership that the material cannot support.
@@ -41,20 +46,21 @@ the brand's public visual posture.
    An arbitrary card wall is not density.
 4. **Operational language.** Name the thing a practitioner must handle: need-by, hand-off,
    buffer, source reliability, order quantity, capacity, recovery, promise, constraint, owner.
-5. **Deliberate material contrast.** Calm ground, dark ink, and two to five semantic colour roles
-   create navigation. A colour must name a state, route, question, evidence class, or exception;
-   it cannot merely decorate departments.
-6. **An owned semantic anchor.** A tag, tab, annotation, path marker, stamp, field, or selected
-   word may become a focal object. It must help scanning and varies by argument. Handwriting is
-   not an automatic brand device.
+5. **Deliberate reading surface.** Material, type, contrast and colour make the relationship
+   navigable. There is no permanent cream-paper, dark-ink, cobalt, marker-tag, or card treatment.
+   A colour must name a state, route, question, evidence class, or exception; it cannot merely
+   decorate departments.
+6. **A semantic anchor that belongs to the argument.** A date, axis, specimen, tag, route marker,
+   input, output, field, or selected word may become a focal object. It must help scanning and
+   varies by argument. Handwriting is not an automatic brand device.
 7. **A useful boundary.** Every simplifying framework distinguishes what it helps with from what
    it does not determine. This is working judgement, not a detached disclaimer.
 
 ## Variable expressions
 
 Palette, typography, illustration, physical metaphor, density, shape, editorial energy, and motion
-should vary when the argument changes. Recognition comes from the quality of thought and the way
-the system makes operations legible—not from forcing every post into the same skin.
+should vary when the argument changes. Recognition comes from repeatedly receiving an authored,
+high-resolution working object—not from forcing every post into the same skin.
 
 The following are permitted when they truthfully carry the argument:
 
@@ -69,6 +75,8 @@ The following fail the signature:
 - a visual shape selected before the relationship it claims to show;
 - dashboards, generic SaaS cards, or symmetric tiles used as a decorative container;
 - a repeated poster template that makes different topics look interchangeable;
+- a safe-looking framework with categories but no decision-grade inputs, conditions, examples,
+  comparisons, or consequence;
 - false data, fake operational proof, or unsupported numerical/causal outcomes;
 - motion that merely adorns a complete still rather than revealing a meaningful state change.
 
